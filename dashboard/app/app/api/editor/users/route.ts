@@ -110,6 +110,40 @@ export async function POST(req: NextRequest) {
   });
 }
 
+export async function DELETE(req: NextRequest) {
+  const gate = await gateEditor();
+  if (gate.error) return gate.error;
+
+  const url = new URL(req.url);
+  const id = url.searchParams.get('id');
+  if (!id) return NextResponse.json({ error: 'id query param required' }, { status: 400 });
+
+  // Guard: cannot delete yourself
+  if (id === gate.user!.id) {
+    return NextResponse.json({
+      error: 'cannot_delete_self',
+      message: 'You cannot delete your own account.',
+    }, { status: 409 });
+  }
+
+  // Guard: cannot delete the last admin
+  const adb = supabaseAdmin();
+  const { data: admins } = await adb.from('profiles').select('id').eq('role', 'admin');
+  const adminIds = (admins ?? []).map((a) => a.id);
+  if (adminIds.length === 1 && adminIds[0] === id) {
+    return NextResponse.json({
+      error: 'last_admin',
+      message: 'Cannot delete the last admin account.',
+    }, { status: 409 });
+  }
+
+  // Delete from auth.users — the DB trigger cascades to profiles
+  const { error } = await adb.auth.admin.deleteUser(id);
+  if (error) return NextResponse.json({ error: error.message }, { status: 500 });
+
+  return NextResponse.json({ ok: true });
+}
+
 export async function PATCH(req: NextRequest) {
   const gate = await gateEditor();
   if (gate.error) return gate.error;

@@ -40,6 +40,9 @@ export function UsersClient({ currentUserId }: { currentUserId: string }) {
   const [email, setEmail] = useState('');
   const [name, setName] = useState('');
   const [role, setRole] = useState<Role>('customer_service');
+  // per-row editing state
+  const [editingName, setEditingName] = useState<Record<string, string>>({});
+  const [confirmDelete, setConfirmDelete] = useState<string | null>(null);
   const toast = useToast();
 
   async function refresh() {
@@ -96,6 +99,43 @@ export function UsersClient({ currentUserId }: { currentUserId: string }) {
     }
   }
 
+  async function saveName(id: string) {
+    const full_name = editingName[id] ?? '';
+    setBusy(true);
+    try {
+      const res = await fetch(`/api/editor/users?id=${encodeURIComponent(id)}`, {
+        method: 'PATCH',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ full_name }),
+      });
+      const body = await res.json();
+      if (!res.ok) throw new Error(body.message ?? body.error ?? 'Update failed');
+      toast.push({ kind: 'success', message: 'Name updated.' });
+      setEditingName((prev) => { const next = { ...prev }; delete next[id]; return next; });
+      await refresh();
+    } catch (e) {
+      toast.push({ kind: 'error', message: String(e) });
+    } finally {
+      setBusy(false);
+    }
+  }
+
+  async function deleteUser(id: string) {
+    setBusy(true);
+    try {
+      const res = await fetch(`/api/editor/users?id=${encodeURIComponent(id)}`, { method: 'DELETE' });
+      const body = await res.json();
+      if (!res.ok) throw new Error(body.message ?? body.error ?? 'Delete failed');
+      toast.push({ kind: 'success', message: 'User deleted.' });
+      setConfirmDelete(null);
+      await refresh();
+    } catch (e) {
+      toast.push({ kind: 'error', message: String(e) });
+    } finally {
+      setBusy(false);
+    }
+  }
+
   return (
     <div className="grid gap-5 md:grid-cols-[1fr_340px]">
       {/* Users list */}
@@ -104,39 +144,104 @@ export function UsersClient({ currentUserId }: { currentUserId: string }) {
           {users == null ? 'loading…' : `${users.length} ${users.length === 1 ? 'user' : 'users'}`}
         </div>
         <ul>
-          {users?.map((u) => (
-            <li key={u.id} className="flex flex-wrap items-center justify-between gap-3 border-b border-purity-bean/5 px-4 py-3 text-sm last:border-b-0 dark:border-purity-paper/5">
-              <div className="min-w-0 flex-1">
-                <div className="flex items-center gap-2">
-                  <div className="truncate font-medium">{u.email ?? '(no email)'}</div>
-                  {u.id === currentUserId && (
-                    <span className="rounded-full bg-purity-cream/60 px-1.5 py-0 text-[10px] uppercase tracking-wider text-purity-muted dark:bg-purity-ink/40 dark:text-purity-mist">
-                      you
-                    </span>
-                  )}
+          {users?.map((u) => {
+            const isSelf = u.id === currentUserId;
+            const isEditingThisName = u.id in editingName;
+            const isConfirmingDelete = confirmDelete === u.id;
+            return (
+              <li key={u.id} className="border-b border-purity-bean/5 px-4 py-3 text-sm last:border-b-0 dark:border-purity-paper/5">
+                <div className="flex flex-wrap items-start justify-between gap-3">
+                  {/* Identity block */}
+                  <div className="min-w-0 flex-1">
+                    <div className="flex items-center gap-2">
+                      <div className="truncate font-medium">{u.email ?? '(no email)'}</div>
+                      {isSelf && (
+                        <span className="rounded-full bg-purity-cream/60 px-1.5 py-0 text-[10px] uppercase tracking-wider text-purity-muted dark:bg-purity-ink/40 dark:text-purity-mist">
+                          you
+                        </span>
+                      )}
+                    </div>
+
+                    {/* Name — inline editable */}
+                    {isEditingThisName ? (
+                      <form
+                        onSubmit={(e) => { e.preventDefault(); saveName(u.id); }}
+                        className="mt-1 flex items-center gap-1.5"
+                      >
+                        <input
+                          autoFocus
+                          value={editingName[u.id]}
+                          onChange={(e) => setEditingName((prev) => ({ ...prev, [u.id]: e.target.value }))}
+                          disabled={busy}
+                          placeholder="Full name"
+                          className="rounded border border-purity-bean/20 bg-transparent px-2 py-0.5 text-xs outline-none focus:border-purity-green disabled:opacity-50 dark:border-purity-paper/20 dark:text-purity-paper"
+                        />
+                        <button type="submit" disabled={busy} className="text-[11px] text-purity-green hover:underline disabled:opacity-50 dark:text-purity-aqua">save</button>
+                        <button type="button" onClick={() => setEditingName((prev) => { const n = { ...prev }; delete n[u.id]; return n; })} className="text-[11px] text-purity-muted hover:underline dark:text-purity-mist">cancel</button>
+                      </form>
+                    ) : (
+                      <div className="mt-0.5 flex items-center gap-1.5 text-[11px] text-purity-muted dark:text-purity-mist">
+                        <span>
+                          {u.full_name ?? <em>no name</em>}
+                          {' · '}joined {new Date(u.created_at).toLocaleDateString()}
+                          {u.last_sign_in_at
+                            ? ` · last sign-in ${new Date(u.last_sign_in_at).toLocaleDateString()}`
+                            : ' · never signed in'}
+                        </span>
+                        <button
+                          onClick={() => setEditingName((prev) => ({ ...prev, [u.id]: u.full_name ?? '' }))}
+                          className="shrink-0 text-[10px] text-purity-muted/50 hover:text-purity-green dark:text-purity-mist/50 dark:hover:text-purity-aqua"
+                          title="Edit name"
+                        >
+                          ✎
+                        </button>
+                      </div>
+                    )}
+                  </div>
+
+                  {/* Role + delete */}
+                  <div className="flex items-center gap-2">
+                    <select
+                      value={normalizeRole(u.role)}
+                      onChange={(e) => changeRole(u.id, e.target.value as Role)}
+                      disabled={busy || isSelf}
+                      className="rounded border border-purity-bean/20 bg-transparent px-2 py-1 text-xs disabled:opacity-50 dark:border-purity-paper/20 dark:text-purity-paper"
+                    >
+                      <option value="customer_service">customer service</option>
+                      <option value="editor">editor</option>
+                      <option value="admin">admin</option>
+                    </select>
+
+                    {!isSelf && (
+                      isConfirmingDelete ? (
+                        <span className="flex items-center gap-1 text-[11px]">
+                          <span className="text-purity-rust">Delete?</span>
+                          <button
+                            onClick={() => deleteUser(u.id)}
+                            disabled={busy}
+                            className="font-medium text-purity-rust hover:underline disabled:opacity-50"
+                          >yes</button>
+                          <button
+                            onClick={() => setConfirmDelete(null)}
+                            className="text-purity-muted hover:underline dark:text-purity-mist"
+                          >no</button>
+                        </span>
+                      ) : (
+                        <button
+                          onClick={() => setConfirmDelete(u.id)}
+                          disabled={busy}
+                          title="Delete user"
+                          className="text-purity-muted/40 hover:text-purity-rust disabled:opacity-30 dark:text-purity-mist/40 dark:hover:text-purity-rust"
+                        >
+                          ✕
+                        </button>
+                      )
+                    )}
+                  </div>
                 </div>
-                <div className="mt-0.5 text-[11px] text-purity-muted dark:text-purity-mist">
-                  {u.full_name ? `${u.full_name} · ` : ''}
-                  joined {new Date(u.created_at).toLocaleDateString()}
-                  {u.last_sign_in_at
-                    ? ` · last sign-in ${new Date(u.last_sign_in_at).toLocaleDateString()}`
-                    : ' · never signed in'}
-                </div>
-              </div>
-              <div className="flex items-center gap-2">
-                <select
-                  value={normalizeRole(u.role)}
-                  onChange={(e) => changeRole(u.id, e.target.value as Role)}
-                  disabled={busy || u.id === currentUserId}
-                  className="rounded border border-purity-bean/20 bg-transparent px-2 py-1 text-xs disabled:opacity-50 dark:border-purity-paper/20 dark:text-purity-paper"
-                >
-                  <option value="customer_service">customer service</option>
-                  <option value="editor">editor</option>
-                  <option value="admin">admin</option>
-                </select>
-              </div>
-            </li>
-          ))}
+              </li>
+            );
+          })}
           {users?.length === 0 && (
             <li className="p-4 text-sm text-purity-muted dark:text-purity-mist">No users yet.</li>
           )}
