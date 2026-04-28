@@ -1,0 +1,719 @@
+1734                                                   DOI 10.1002/mnfr.201000147           Mol. Nutr. Food Res. 2010, 54, 1734–1743
+
+
+
+RESEARCH ARTICLE
+
+Antioxidant effectiveness of coffee extracts and selected
+constituents in cell-free systems and human colon cell
+lines
+Tamara Bakuradze1, Roman Lang2, Thomas Hofmann2, Herbert Stiebitz3, Gerhard Bytof 3,
+Ingo Lantz3, Matthias Baum1, Gerhard Eisenbrand1 and Christine Janzowski1
+1
+  Department of Chemistry, Division of Food Chemistry and Toxicology, University of Kaiserslautern,
+  Kaiserslautern, Germany
+2
+                                                                                                         .
+  Research Center for Nutrition and Food Science and Bioanalytic Weihenstephan Unit, Technische Universitat
+    .
+  Munchen,     .
+             Munchen, Germany
+3
+  Tchibo GmbH, Hamburg, Germany
+
+
+Scope: Epidemiological studies suggest that coffee can reduce the risk of degenerative                      Received: March 25, 2010
+diseases such as diabetes type 2, cardiovascular disease and cancer. These beneficial effects                 Revised: April 23, 2010
+have partly been attributed to the antioxidant activity of coffee. We determined composition                 Accepted: April 26, 2010
+and antioxidant potential of differentially roasted coffee extracts and investigated the impact
+of selected original constituents and roast products.
+Methods and results: Parameters studied were direct antioxidant activity (trolox equivalent
+antioxidant capacity/oxygen radical absorbing capacity), cellular reactive oxygen species (ROS)
+level, DNA damage and protein expression of NAD(P)H: quinone oxidoreductase, g-glut-
+amylcysteine ligase and glutathione reductase in HT-29/Caco-2 cells at 24-h incubation. All
+extracts showed distinct direct antioxidant activity: medium roasts>light roast AB1
+(caffeoylquinic acid (CQA)-rich Arabica Brazil extract); dark roast AB2 (N-methylpyridinium
+(NMP)-rich Arabica Brazil extract), and diminished t-butylhydroperoxide-induced ROS level
+in HT-29 cells (AB2>medium roasts>AB1). NAD(P)H:quinone oxidoreductase 1 expression
+and g-glutamylcysteine ligase expression were distinctly induced by AB1 and 5-CQA, but not
+by AB2 and NMP. 5-CQA and caffeic acid exhibited highest trolox equivalent antioxidant
+capacity/oxygen radical absorbing capacity values (5-CQA: 1.3/3.5 mM and caffeic acid: 1.3/
+3.9 mM trolox); ROS level was distinctly diminished by 5-CQA (Z3 mM), catechol (30 mM) and
+trigonelline (Z30 mM), whereas menadione-induced DNA damage in Caco-2 cells was
+reduced by NMP compounds (1–30 mM).
+Conclusion: The results emphasize that both original constituents and roast products
+contribute to the cellular antioxidant effectiveness of coffee.
+
+Keywords:
+ARE-dependent enzymes / Caffeoylquinic acids / Coffee / N-Methylpyridinium / Trolox
+equivalent antioxidant capacity/oxygen radical absorbing capacity
+
+
+
+Correspondence: Dr. Christine Janzowski, Division of Food              minescence intensity; CQA, caffeoylquinic acid; DCF, 20 ,70 -
+Chemistry and Toxicology, Department of Chemistry, University          dichlorofluorescein; FCS, fetal calf serum; FI, fluorescence
+of Kaiserslautern, Erwin-Schroedinger-StraXe 52, D-67663               increase; FPG, formamidopyrimidine-DNA-glycosylase; c-GCL,
+Kaiserslautern, Germany                                                g-glutamylcysteine ligase; GSR, glutathione reductase; Md,
+E-mail: janzo@rhrk.uni-kl.de                                           menadione; NM-2MP, N-methyl-2-methylpyridinium; NM-3MP,
+Fax: 149-631-205-3085                                                  N-methyl-3-methylpyridinium;    NMP,     N-methylpyridinium;
+                                                                       NQO1, NAD(P)H:quinone oxidoreductase 1; ORAC, oxygen
+Abbreviations: AB, Arabica Brazil extract; AB1, CQA-rich Arabica       radical absorbing capacity; RI, Robusta India extract; ROS,
+Brazil extract; AB2, NMP-rich Arabica Brazil extract; ABTS, 2,20 -     reactive oxygen species; TBH, tert-butylhydroperoxide; TEAC,
+azinobis-(3-ethylbenzothiazonline-6-sulfonic acid); AC, Arabica        Trolox equivalent antioxidant capacity; THB, 1,2,4-trihydroxy-
+Columbia extract; CA, caffeic acid; CAT, catechol; CI, chemolu-        benzene; TRIG, trigonelline
+
+
+& 2010 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim                                                             www.mnf-journal.com
+Mol. Nutr. Food Res. 2010, 54, 1734–1743                                                                                                     1735
+
+
+1       Introduction                                                             NMP ion and as minor degradation products of TRIG
+                                                                                 N-methyl-2-methylpyridinium (NM-2MP) and N-methyl-3-
+Coffee is one of the most popular and widely consumed                            methylpyridinium (NM-3MP), which have also been iden-
+beverages worldwide. Recent data suggest that coffee                             tified in roasted coffee [12, 13].
+consumption has beneficial effects on human health, with                             We investigated the direct radical scavenging capacity
+emphasis on type 2 diabetes, cardiovascular disease and                          of coffee extracts/compounds, using oxygen radical
+colon cancer [1–3]. Increased formation of reactive oxygen                       absorbing capacity (ORAC) and trolox equivalent antioxidant
+species (ROS) and an imbalance between pro- and anti-                            capacity (TEAC) assay [14]. Furthermore, effects of
+oxidative processes has been implicated with the pathogen-                       coffee extracts/compounds on DNA oxidation damage
+esis of these diseases [4]. Coffee brew, a complex mixture of                    and ROS level were determined in the human colon
+more than a thousand bioactive compounds, is known                               cancer cell lines (HT-29, Caco-2). Modulation of cellular
+to exhibit distinct antioxidant activity [5]. The original                       antioxidant defense was studied by monitoring protein
+coffee constituents chlorogenic acids, e.g. the quantitatively                   expression of the ARE-dependent enzymes NAD(P)H:qui-
+most relevant caffeoylquinic acids (CQAs), and their                             none oxidoreductase 1 (NQO1), g-glutamatecysteine ligase
+phenolic degradation products, e.g. caffeic acid (CA),                           (g-GCL) and glutathione reductase (GSR). Since biomarker
+have been found to exhibit distinct radical scavenging                           results might by affected by extracellular phenolic-mediated
+activity in vitro [6]. Compounds, formed during roasting,                        ROS formation [15, 16], we also studied generation of
+such as the Maillard reaction products (e.g. melanoidins)                        hydrogen peroxide (H2O2) in the cell medium during
+are also known to exhibit radical scavenging and metal                           incubation with coffee constituents/extracts (with/without
+chelating properties [7, 8]. N-Methyl nicotinic acid (trigo-                     catalase).
+nelline (TRIG)), the second most abundant alkaloid
+in green coffee beans, generates non-volatile alkylpyri-
+diniums during thermal degradation. Mainly, the quar-                            2     Materials and methods
+ternary base N-methylpyridinium (NMP) is supposed
+to contribute to the antioxidative effectiveness of roasted                      2.1 Chemicals, cells and media
+coffee [6, 9–11]. It is, however, not clear yet which consti-
+tuents are most efficient in protecting cells against oxidative                  5-CQA, TRIG hydrochloride, 1,2,4-trihydroxybenzene,
+damage.                                                                          CAT, menadione (Md), tert-butylhydroperoxide (TBH),
+   The aim of the present in vitro study was to characterize                     Troloxs (6-hydroxy-2,5,7,8-tetrametylchroman-2-carboxylic
+the antioxidant potential of coffees differing in geographical                   acid), 2,20 -azinobis-(3-ethylbenzothiazonline-6-sulfonic acid)
+origin, variety and roasting technology. In addition to                          (ABTS), a, a0 -azodiisobutyramidine dihydrochloride, cata-
+extracts from light, medium and dark roasts, selected                            lase, RIPA buffer and protease inhibitor cocktail were
+constituents (Fig. 1) were included in the experiments to                        obtained from Sigma-Aldrich (Deisenhofen, Germany). The
+clarify their impact on the antioxidant effectiveness of the                     iodide salts of NMP, d3-NMP, NM-2MP and NM-3MP were
+respective coffee brews. The phenolics 5-CQA (the major                          prepared following literature protocols [12, 13] (Boettler et al.,
+CQA isomer), CA, catechol (CAT) and 1,2,4-trihydroxy-                            submitted). d6-CAT and d3-TRIG hydroiodide for quantitative
+benzene (THB) were studied in comparison to TRIG,                                purposes were available from former studies [17].
+
+
+                                                                    O
+                         O
+    HO                           R                                      OH
+                             O
+                                                             N
+    HO
+                                                             CH
+
+    caffeic acid (CA): R=H                              trigonelline (TRIG)
+    5-caffeoylquinic acid (5-CQA): R=
+                                               OH
+                                     HO
+                                               COOH
+                                          HO
+
+
+                 OH                                           R'
+
+
+    R            OH                                    N      R
+                                                       CH
+catechol (CAT): R= H                           N-methylpyridinium (NMP): R= H; R’=H
+1,2,4-trihydroxybenzene (THB): R= OH           N-methyl-2-methylpyridinium (NM-2MP): R= CH ;R’=H       Figure 1. Structures of tested coffee
+                                               N
+                                               N-methyl-3-methylpyridinium
+                                                    h l3      h l idi i        3MP) R=H; R’= CH
+                                                                           (NM-3MP):                   compounds.
+
+
+& 2010 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim                                                                          www.mnf-journal.com
+1736        T. Bakuradze et al.                                                          Mol. Nutr. Food Res. 2010, 54, 1734–1743
+
+
+   HT-29 and Caco-2 cells were obtained from Deutsche              antioxidant standard. TEAC was determined with the ABTS
+Sammlung von Mikroorganismen und Zellkulturen GmbH                 radical cation decolorization assay, according to Schaefer et al.
+(Braunschweig, Germany), and DMEM, DMEM/Nutrient                   [20]. Briefly, coffee constituents/extracts were added to pre-
+Mix F12 (1:1) medium, fetal calf serum (FCS), penicillin/          activated ABTS solution and absorbance at 734 nm was
+streptomycin and molecular protein marker See Blue Plus2           measured in a multiplate reader (Synergy 2, BioTek, Bad
+were from Invitrogen GmbH (Karlsruhe, Germany). Cell               Friedrichshall, Germany). Solvent controls and Troloxs stan-
+culture consumable materials were purchased from Greiner           dard curve (0–15 mmol/L) were run in each assay. Percentage
+Bio-One (Essen, Germany).                                          of decolorization and TEAC value were calculated as described
+   Agarose, low and normal melting, was obtained from Bio          [21]. The ORAC assay was performed according to Ou et al.
+Rad GmbH (Munich, Germany). The formamidopyri-                     [22]. Briefly, coffee constituents/extracts and Troloxs standard
+midine-DNA-glycosylase (FPG) enzyme was provided by                solutions (0–500 mmol/L) were mixed with fluorescein solu-
+A.R. Collins (Oslo, Norway). Primary antibodies (NQO1              tion in black 96-well plates and equilibrated at 371C. After
+mouse monoclonal IgG1, GSR rabbit polyclonal IgG, g-GCL            10 min, 2,20 -azobis(2-methylpropionamidine)dihydrochloride
+rabbit polyclonal IgG, a-tubulin mouse monoclonal IgG2a,           was added and the decrease of fluorescence was monitored for
+b-actin mouse monoclonal IgG1) and secondary antibodies            90 min (ex/em 485/528 nm) in a multiplate fluorescence
+(goat anti mouse IgG1-HRP, goat anti rabbit IgG-HRP) were          reader (Synergy 2). The area under curve and ORAC value
+purchased from Santa Cruz Biotechnology (Heidelberg,               were calculated using the given equations [22].
+Germany). Nitrocellulose membrane was provided by VWR                 TEAC and ORAC values are expressed in mM Trolox,
+(Darmstadt, Germany). All organic solvents and other               equivalent to the antioxidant capacity of a solution contain-
+chemicals were of analytical grade and complied with the           ing 1 mM (or 1 mg/mL) of the constituents or 1 mg/mL of
+standards needed for cell culture experiments.                     the extracts, respectively.
+
+
+2.2 Preparation and analysis of coffee extracts                    2.4 Cell culture and incubation
+
+Extracts, prepared from coffee beans of different geogra-          HT-29 cells were maintained in 175-cm2 flasks in DMEM,
+phical origin and variety, were roasted in a fluidized bed         supplemented with 10% FCS and 100 U/mL penicillin/
+roaster (RFB Neuhaus Neotec) at the Institute of Thermal           streptomycin at 371C, 5% CO2 and 95% saturated atmo-
+Separation Processes (Technische Universit.at Hamburg-             spheric humidity. Caco-2 cells were cultured under identical
+Harburg): Arabica Brazil (Santos, unwashed, medium roast)          conditions but using the medium DMEM/Nutrient Mix F12
+(AB), Arabica Columbia (washed, medium roast) (AC),                (1:1), supplemented with 20% FCS.
+Robusta India (washed, medium roast) (RI), Arabica Brazil             For the experiments, cells were seeded in petri dishes
+(Santos, unwashed, light roast, ChA-rich) (AB1) and Arabica        (Comet assay and Western Blot) or cell culture plates
+Brazil (Santos, unwashed, dark roast, NMP-rich) (AB2).             (dichlorofluorescein (DCF) assay) in the cell-specific culture
+    Coffee brews were produced from ground coffee beans as         medium described above. After a 24-h growing period, cells
+described [18]. Briefly, 48 g of coffee powder was placed onto     were incubated with coffee compounds/extracts for 24 h in
+the filter of a conventional coffee machine and extracted          FCS reduced medium (HT-29: DMEM, 5% FCS; Caco-2:
+with 900 mL of (boiling) water; the resulting coffee brews         DMEM/F12, 10% FCS; final solvent concentration 0.1%).
+were immediately cooled (ice bath) and lyophilized.                Incubations of HT-29 cells were performed in the presence
+    The individual chlorogenic acid derivatives 3-, 4- and 5-CQA   of 100 U/mL catalase to avoid artifactual generation of
+were quantified by HPLC-DAD using a 5-point calibration of         hydrogen peroxide [23]; additionally, some incubations were
+commercially available 5-CQA as detailed in the literature [19].   performed without catalase to assess a potential influence of
+CAT and NMP were measured by HPLC-MS/MS following                  H2O2 on biomarker results.
+literature protocols [17, 19]. Measurement of TRIG was                Cell viability was routinely monitored in cell suspensions
+performed by the addition of d3-TRIG to an aqueous coffee          after incubation with test materials/solvent by trypan blue
+solution followed by solid-phase cleanup of the mixture on         exclusion assay and expressed as viable cells in percent of
+RP18 cartridges and subsequent analysis by LC-MS/MS [17].          total cells (absolute viability in percentage). All results based
+    For all biochemical experiments, coffee compounds and          upon experiments with viabilities >85% and cell numbers not
+extracts were dissolved in DMSO and double distilled water,        significantly decreased, compared to the solvent controls.
+respectively.
+
+                                                                   2.5 Determination of hydrogen peroxide
+2.3 Antioxidant capacity (TEAC and ORAC)                               (FOX1-assay)
+
+Antioxidant capacity of the coffee compounds and extracts          Hydrogen peroxide was determined in cell culture medium
+was assessed by TEAC and ORAC assay using Troloxs as               by the ferrous oxidation xylenol orange assay, according to
+
+& 2010 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim                                                           www.mnf-journal.com
+Mol. Nutr. Food Res. 2010, 54, 1734–1743                                                                                           1737
+
+
+Wolff et al. [24] with modifications [23]. After oxidation of Fe          Briefly, cells (1.5  106 HT29; 1  106 Caco-2) were incu-
+(II) to Fe (III) by H2O2, the resulting xylenol orange-Fe (III)-      bated 24 h with coffee compounds (1–100 mM) and extracts
+complex is quantified photometrically (595 nm). Briefly, after        (1–250 mg/mL) in DMEM (supplemented with 100 U/mL
+24-h incubation of medium under cell culture conditions (in           catalase), in comparison to the respective solvent controls.
+24-well plates, without cells), aliquots of medium were added         After washing with PBS, cells were lysed at 41C in 0.1 mL
+to a solution of xylenol orange, sorbitol and Fe(II) in perchloric    RIPA buffer (with 0.1% protease inhibitor cocktail). Subse-
+acid. After 20 min at 251C, absorbance was monitored in a             quently, the lysate was homogenized by ultrasonic treatment
+microplate reader (Synergy HT). In the samples, peroxides             and centrifuged (5 min, 5000  g, 41C). Protein concentration
+were quantified in comparison to a H2O2 standard curve                of the supernatant was measured by the Bradford dye-bind-
+(0–200 mM). Coefficient of variation (interassay CV) was 13%.         ing assay. Prior to Western blotting, samples were subjected
+                                                                      to discontinuous SDS-polyacrylamide gel electrophoresis (4%
+                                                                      stacking gel, 14% resolving gel and protein marker) and
+2.6 Cellular ROS level (DCF assay)                                    transferred to a nitrocellulose membrane; free binding sites
+                                                                      were blocked with 5% non-fat dried milk in TTBS. The
+Oxidative stress was quantified in HT-29 cells by the DCF             membranes were then incubated overnight at 41C with
+assay, according to Bellion et al. [25]. Briefly, cells seeded into   primary antibodies (against NQO1, g-GCL and GSR),
+black, clear-bottom 96-well plates (3  104 cells/well) and           followed by 1 h-incubation with the respective secondary
+cultivated for 24 h, were incubated for 24 h with coffee              antibody (see Section 2.1) at room temperature. a-Tubulin
+compounds/extracts. After washing with PBS, cells were                and b-actin were used as an internal control for NQO1 and
+incubated for 30 min with 50 mM 20 70 -dichlorofluorescin-            g-GCL/GSR, respectively, to correct for unequal loading of
+diacetate, washed and incubated with 250 mM TBH in PBS for            the samples. The cross-reacting bands of target protein and
+30 min. The increase of fluorescence (FI), resulting from             internal control were visualized by use of enhanced chemo-
+oxidation of the non-fluorescent product dichlorofluorescin to        luminescence (LumiGLO, Cell Signaling Technology,
+DCF by intracellular ROS, was measured at 0 and 30 min in a           Beverly, MA, USA). The respective chemoluminescent
+microplate reader (ex/em: 485/528 nm). FI was calculated as           signals were analyzed with LumiAnalyst 3.1. Software
+(F30 min– F0 min)/F0 min  100 as described [26]. Results are         (Boehringer, Germany) and expressed as arbitrary light units.
+expressed as relative FI in percentage of TBH control.                In all samples, chemoluminescence intensity (CI) of target
+                                                                      enzyme was normalized to the respective internal control
+                                                                      (f 5 CItarget enzyme/CI internal control). Results are expressed as
+2.7 DNA damage (comet assay)                                          relative CI in percentage of solvent control: rel. CI [%
+                                                                      t/c] 5 [ftreated/fsolvent control]  100. Under the applied loading
+Caco-2 cells (2.5  105) were incubated with coffee                   conditions, a direct correlation for the CI of target/internal
+compounds (1–100 mM; 24 h), washed, treated with 6 mM Md              control protein and the amount loaded protein (20–80 mg/
+(1 h), isolated by trypsin (0.5% w/v) and used for determi-           well) was assured (R 5 0.954 and R 5 0.887, respectively).
+nation of viability and DNA damage as described [27].
+Alkaline single-cell gel electrophoresis was performed
+according to Collins et al. [28], with slight modifications [29].     2.9 Statistics
+Cells (4  50 000) were mixed with low melting agarose,
+distributed onto an agarose-coated microscope slide,                  Results are reported as mean and SD of three to six inde-
+submitted to lyses and covered with 50 mL of either enzyme            pendent experiments. Data of samples treated with coffee
+buffer or formamidopyrimidine-DNA-glycosylase (FPG)                   compounds/extracts were analyzed for significant difference
+enzyme to differentiate between DNA strand breaks and                 (po0.05) to either oxidant-treated control (comet assay, DCF
+total damage (strand breaks1DNA oxidation damage). After              assay) or respective solvent control (ferrous oxidation xylenol
+DNA unwinding and horizontal gel electrophoresis, slides              orange assay, Western blot analysis) by unpaired one-sided
+were washed, stained with ethidium bromide, examined                  t-test.
+microscopically with a Zeiss Axioskop 20 and analyzed by
+computerized image analysis (Comet IV, Perceptive
+Instruments), scoring 2  50 images per slide. DNA damage             3     Results and discussion
+(with/without FPG treatment) was expressed as relative tail
+intensity in percentage of Md-treated control (rel. TI%).             3.1 Composition and cell-free antioxidant activity of
+                                                                          the coffee extracts
+
+2.8 Protein expression (Western blot analysis)                        Data on composition and direct antioxidant activity of
+                                                                      the extracts are summarized in Table 1. The medium-roas-
+Protein expression of the ARE-dependent enzymes NQO1,                 ted extracts AB, AC and RI exhibited rather similar
+g-GCL and GSR was analyzed by standard methods [30–32].               concentrations of total CQAs (69–97 mg/g) and of NMP
+
+& 2010 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim                                                                www.mnf-journal.com
+1738        T. Bakuradze et al.                                                                Mol. Nutr. Food Res. 2010, 54, 1734–1743
+
+
+Table 1. Composition (concentration of selected constituents, mg/g extract) and trolox equivalent antioxidant activity (TEAC, ORAC) of
+         coffee extracts
+
+Composition/antioxidant activity                     RIa)             ACa)              ABa)               AB 1b)            AB 2c)
+
+5-Caffeoylquinic acid (5-CQA) (mg/g)                 33.4             41.6              39.2                58.3              5.4
+4-Caffeoylquinic acid (4-CQA) (mg/g)                 19.3             20.2              20.5                30.3              3.6
+3-Caffeoylquinic acid (3-CQA) (mg/g)                 16.6             17                17.3                25.8              3.1
+Caffeoylquinic acids (S CQA) (mg/g)                  69.3             78.8              77                 114.3             12.1
+Catechol (CAT) (mg/g)                                n.a.d)           n.a.              n.a.                 0.13             1.3
+Trigonelline (TRIG) (mg/g)                           n.a.             n.a.              n.a.                31.6              6.3
+N-Methylpyridinium-iodide (NMP) (mg/g)                1.5              1.2               1.5                 0.4              4.8
+  TEACe) mM Trolox                                    1.370.0          1.570.1           1.370.0             0.970.1          0.970.1
+  ORACe) mM Trolox                                    2.870.1          2.570.2           2.770.3             2.670.5          2.570.1
+
+a) Medium roasts (Robusta India, RI; Arabica Columbia, AC; Arabica Brazil, AB).
+b) Light roast (Arabica Brazil 1, AB1).
+c) Dark roast (Arabica Brazil 2, AB2).
+d) n.a.: Not analysed.
+e) TEAC/ORAC values are expressed as the mmolar concentration of a Trolox solution having an antioxidant capacity equivalent to 1.0 mg/
+   mL solution of compound/coffee extract (mean and SD from three independent experiments).
+
+
+
+(1.2–1.5 mg/g). 5-CQA occurred in higher concentrations                   The antioxidant activities of the selected phenolic and
+than the respective 4- and 3- isomers, as previously reported          pyridinium constituents are shown in Table 2. The TEAC/
+[8]. Compared to AB, the light roast AB1 showed distinctly             ORAC values of 5-CQA and CA agree well with previous
+higher CQA concentrations, whereas in the dark roast AB2               reports [6, 20]. For the 3- and 4-CQA isomers, slightly lower
+the amount of CQAs was found diminished by more than                   TEAC values, compared to 5-CQA, have been described [33].
+80% as a consequence of thermal degradation. Accordingly,              The phenolic degradation products CAT and THB were also
+the concentration of the phenolic degradation product CAT              distinct direct antioxidants (Table 2); CAT showed a higher
+was about tenfold higher in AB2 compared to AB1. TRIG                  peroxyl radical scavenging capacity (ORAC) than THB,
+was found to be substantially degraded upon decarboxyla-               which in contrast more efficiently reduced the ABTS radical
+tion during the roast, as described [12]. In the dark-roasted          (TEAC). The alkylpyridinium compounds tested were weak
+AB2, TRIG concentration was only 1/5 compared to the                   radical scavengers (TRIG, NMP: TEAC assay) or ineffective.
+light-roasted AB1. The NMP level, however, clearly                     Using electron spin resonance methods, TRIG showed a
+increased with the degree of roasting (AB1oAB, AC,                     weak scavenging ability against 1,1-diphenyl-2-picrylhy-
+RIoAB2), reaching a 15-fold higher concentration in AB2                drazyl radical, but not against the OH-radical [34]. Different
+compared to AB1. Correspondingly, N-methylpicoliniums                  radical scavenging abilities observed for differentially
+were found in AB2 (in low concentrations), but not in AB1.             substituted niacin-related compounds pointed to the
+    All tested coffee extracts exhibited distinct cell-free anti-      importance of the resonant structure of the pyridine
+oxidant activity, with TEAC and ORAC values ranging from               ring [34].
+0.9 to 1.5 mM and 2.5 to 2.8 mM Trolox, respectively (Table               On the basis of concentration (mg/g extract) and TEAC/
+1). The ORAC assay, reflecting the classical radical chain             ORAC (equivalent to 1 mg/mL solution) of the constituents,
+breaking antioxidant activity by H atom transfer (HAT), did            their contribution to the antioxidant activity of the extracts
+not exhibit a clear ranking order for light-, medium- and              was calculated: The original constituents 5-CQA and TRIG
+dark-roasted extracts. The TEAC assay, however, which                  were found to yield 22–23% (TEAC/ORAC) and 8% (TEAC),
+mainly utilizes a direct reduction mechanism by single                 respectively, to the antioxidant activity of AB1; the sum of
+electron transfer as well as H atom transfer, showed a                 3-CQA and 4-CQA contributes with an 20% proportion
+higher effectiveness for the medium-roasted extracts AB, AC            (estimated on the basis of relative TEAC of the 3- and
+and RI, compared to the light and dark roast (AB1, AB2).               4- isomers, compared to 5-CQA [33]). In addition, other
+Similarly, maximum antioxidant activity was reported by del            chlorogenic acid compounds, such as dicaffeoylquinic acids,
+Castillo et al. for medium-roasted coffee, compared to light           are also supposed to add to the antioxidant activity
+and dark roasts [7].                                                   of AB1. In the dark-roasted AB2, according to thermal
+    Linear regression analysis revealed a weak positive                degradation of these original constituents, only small
+correlation between TEAC/ORAC values of the (five)                     contributions were assessed, e.g. 2.4% for 5-CQA (TEAC/
+extracts and their CQA concentrations (e.g. 5-CQA: TEAC,               ORAC), 1.7% for TRIG (TEAC); similarly, the roast products
+R 5 0.203; ORAC, R 5 0.233; SCQA: TEAC, R 5 0.186;                     NMP and CAT provided only a small share (o2%) to the
+ORAC, R 5 0.286), whereas for the NMP concentration no                 antioxidant activity. This strongly suggests that other anti-
+positive correlation was obtained.                                     oxidant compounds, formed during the roasting such as
+
+& 2010 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim                                                               www.mnf-journal.com
+Mol. Nutr. Food Res. 2010, 54, 1734–1743                                                                                      1739
+
+
+Table 2. Antioxidant activity (TEAC, ORAC) of selected original coffee compounds and roast products
+
+Coffee compound                                                   TEAC [mM Trolox]                        ORAC [mM Trolox]
+
+                                                             1 mMa)             1 mg/mLb)             1 mMa)             1 mg/mLb)
+
+5-Caffeoylquinic acid (5-CQA)                                1.370.1            3.7                   3.570.1             9.9
+Caffeic acid (CA)                                            1.370.0            7.2                   3.970.2            21.6
+Catechol (CAT)                                               0.970.0            8.2                   3.470.1            30.5
+1,2,4-Trihydroxybenzene (THB)                                1.170.0            8.7                   1.870.2            14.5
+Trigonelline (TRIG)                                          0.570.0            2.6                   n.d.c)             n.d.c)
+N-Methylpyridinium-iodide (NMP)                              0.470.0            1.8                   n.d.               n.d.
+N-Methyl-2-methylpyridinium-iodide (NM-2MP)                  n.d.c)             n.d.                  n.d.               n.d.
+N-Methyl-3-methylpyridinium-iodide (NM-3MP)                  n.d.               n.d.                  n.d.               n.d.
+
+a) TEAC and ORAC values are mean and SD from three independent experiments; expressed as the millimolar concentration of a Trolox
+   solution having an antioxidant capacity equivalent to 1.0 mM solution of compound.
+b) TEAC and ORAC values are mean and SD from three independent experiments; expressed as the millimolar concentration of a Trolox
+   solution having an antioxidant capacity equivalent to 1.0 mg/mL solution of compound.
+c) n.d.: not detectable.
+
+
+melanoidins and other Maillard products [35], compensate               medium), no H2O2 generation was detected, in accordance
+for the losses in antioxidant original constituents.                   to previous reports on polyphenols [23, 37, 38]. In the
+                                                                       presence of HT-29 cells (without catalase supplementation),
+                                                                       no H2O2 was found as well, due to decomposition of H2O2
+3.2 Generation of hydrogen peroxide by coffee                          by cellular antioxidant enzymes and/or metabolic acidifica-
+    extracts/compounds                                                 tion of the medium, as described [23, 39]. When coffee
+                                                                       extracts and constituents were incubated in DMEM/F12
+Since the biological effectiveness of coffee extracts and              instead of DMEM, practically no H2O2 formation was
+phenolic constituents might be affected by generation of               observed; this can be ascribed to the presence of HEPES
+ROS in cell culture experiments, H2O2 was monitored                    buffer (keeping pHr7.2) and the H2O2 scavenger pyruvate
+under the applied incubations conditions in FCS-supple-                [23, 40, 41].
+mented DMEM and DMEM/F12 (used for experiments with
+HT-29 and Caco-2 cells, respectively).
+   After 24-h incubation of the extracts in DMEM (10 and               3.3 Modulation of cellular ROS level and DNA-
+100 mg/mL), H2O2 generation, significantly exceeding                       damage
+solvent control, was only found at 100 mg/mL extract
+concentration. The medium roasts AB, AC and RI produced                The influence of coffee extracts on TBH-induced ROS level
+moderate H2O2 levels (11.9–14.5 mM); a slightly higher                 is shown in Fig. 2A. At 24-h incubation of HT-29 cells, the
+amount was observed for incubation with the light roast                lightly roasted AB1 extract (1–100 mg/mL) diminished the
+AB1 (15.9 mM H2O2), whereas with the dark roast AB2,                   ROS level slightly and not in a concentration-dependent
+H2O2 generation was distinctly lower (5.9 mM). When coffee             manner. The medium roasts AB, AC and RI, however,
+constituents (1–100 mM) were tested under these conditions,            exhibited a distinct ROS-reducing efficacy at concentrations
+alkylpyridinium compounds (TRIG, NMP, NM-2MP, NM-                      Z10 mg/mL. The dark roast AB2 most effectively reduced
+3MP) and hydroxybenzenes (CAT, THB) were not found to                  the ROS level in the whole concentration range tested. At
+generate H2O2, in contrast to the phenolic acids CA and                10 mg/mL, AB2 diminished the ROS level down to 77% of
+5-CQA, which had been identified as distinct pro-oxidants at           TBH control (corresponding to a decrease of 51%, consid-
+100 mM concentration in DMEM (CA/5-CQA: 50.7/32.5 mM                   ering the value of solvent control, Co). When incubations
+H2O2) [15, 23]. In this bicarbonate-buffered medium (whose             were simultaneously performed with/without catalase,
+pH adjustment is dependent on the CO2 atmosphere in the                similar results were obtained, indicating that the TBH-
+incubator), generation of phenolate anions is facilitated at           induced ROS level was not affected by extracellular H2O2
+pH>7.0, promoting H2O2 generation particularly from                    generation under the applied conditions. Taken together,
+polyphenols bearing an o-CAT or pyrogallol moiety                      the results show a direct correlation between ROS-reducing
+(CATopyrogallol) [36]. In contrast to CA and 5-CQA, CAT                potential and roasting degree of the extracts.
+and THB were found inactive (in DMEM) or weakly H2O2                      To elucidate which constituents might be responsible for
+generating (Cat, in acetate buffer [16, 36]). These differences        the antioxidant efficacy of the extracts, phenolic and
+underline the importance of the side chain moiety in the               methylpyridinium compounds were also studied (Fig. 2B).
+phenolic structure. In the presence of catalase (100 U/mL              5-CQA exhibited a high potential to diminish the ROS
+
+& 2010 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim                                                              www.mnf-journal.com
+1740                               T. Bakuradze et al.                                                                                                     Mol. Nutr. Food Res. 2010, 54, 1734–1743
+
+
+production, as previously reported [20]; at incubation with                                                      was not effective over the concentration range 1–100 mM, it
+3–30 mM, TBH-induced ROS levels even reached the values                                                          does not seem to contribute to the observed antioxidant
+of solvent control. The other compounds were only slightly                                                       efficacy of medium- and dark-roasted extracts. The methy-
+antioxidant (Cat, THB, TRIG: 30 and 100 mM) or not effec-                                                        lated analogues NM-2MP and NM-3MP (1–100 mM) did not
+tive (NMP). Considering the concentration of these consti-                                                       modulate the ROS level either.
+tuents in the extracts, their contribution to the reduction of                                                       In contrast to the observed ineffectiveness of alkylpyri-
+ROS level was estimated. AB1 at 100 mg/mL (corresponding                                                         dinium compounds in the DCF assay, NMP and its
+to 18 mM TRIG and 16.3 mM 5-CQA) slightly but signifi-                                                           methylated analogues were found to diminish Md-induced
+cantly diminished the ROS level. TRIG, due to its low ROS-                                                       DNA damage in Caco-2 cells (measured with FPG, Fig. 3).
+reducing capacity (Fig. 2B), does not measurably add to the                                                      Highest effectiveness was exhibited by NM-2MP (1–30 mM;
+antioxidant action of AB1. In contrast, 16.3 mM 5-CQA                                                            po0.05), which achieved a U-shaped curve, with maximal
+reduced the ROS level more efficiently than 100 mg/mL AB1,                                                       reduction down to 68% of Md control at 3 mM. NM-3MP and
+suggesting the presence of other counteracting extract                                                           NMP were less potent, exhibiting at best a slight reduction
+constituents. In the case of the more severely roasted                                                           of DNA-damage, and TRIG was ineffective at all concen-
+extracts (AB, AC, RI and particularly AB2), such influence of                                                    trations tested (1–100 mM). The phenolic coffee constituents
+chlorogenic acids and TRIG is rather unlikely. For the roast                                                     Cat and THB did not reduce DNA-damage under these
+product NMP, the highest extract concentration tested                                                            conditions (similar to 5-CQA [20]), whereas CA was able to
+(100 mg/mL) corresponds to 0.5–2.2 mM NMP. Since NMP                                                             diminish DNA damage (data not shown), as described [20].
+
+
+A 120                               AB        AC            RI         AB1             AB2                       3.4 Expression of ARE-dependent antioxidant
+                                                                                                                     enzymes
+rel. FI (% of TBH-control)
+
+
+
+
+                                                  *                                                    TBH-Co
+                             100                                                              *                  Modulation of NQO1, g-GCL and GSR protein expression in
+                                       ** *           **
+                                                                                                   *             HT29 cells by the coffee extracts AB1 and AB2 (0.1–100 mg/
+                                                      *           **
+                                                                        **        **
+                                                                         *                                       mL, 24-h incubation) and the lead compounds 5-CQA and
+                             80                                                                                  NMP was studied to clarify its potential influence on the
+                                                                                                                 observed modulation of ROS level and DNA damage.
+                                                                                                                 Incubation with AB1 (Z1 mg/mL) resulted in distinct and
+                             60                                                                         Co
+                                                                                                                 concentration-dependent induction of NQO1 (up to 235%,
+                                                                                                                 Fig. 4). For g-GCL, a slight increase of protein expression
+                                                                                                                 was observed at 1–10 mg/mL AB1, and GSR expression was
+                             40
+                                   1          5             10              50           100       µg
+                                                                                                   µg/ml         only marginally elevated. AB2 exhibited no significant
+                                                                                                                 induction of these enzyme proteins at all concentrations
+                                                                                                                 tested. The effects of AB1 are in line with the described
+B 160                               5-CQA             CAT         THB            TRIG             NMP
+                                                                                                                 coffee-dependent induction of Nrf2/ARE-mediated cellular
+                             140
+rel. FI (% of TBH-control)
+
+
+
+
+                             120                                                                                                             160   TRIG    NMP     NM 2MP
+                                                                                                                                                                   NM-2MP     NM 3MP
+                                                                                                                                                                              NM-3MP
+                                                                                                        TBH-Co
+                             100
+                                                                                                                 rel. TI (% of Md control)
+
+
+
+
+                                                                                                                                             140
+                              80                                        *                                                                    120
+                                                                                                                                                                                             Md-Co
+                              60                                                                        Co
+                                                                                                                                             100
+                                                                                                                                                       *                      *
+                              40                                                                                                             80                *
+                              20                                                                                                             60
+
+                               0                                                                                                             40
+                                   1          3              10              30              100        µM
+                                                                                                                                             20
+Figure 2. Effects of (A) medium (RI, AC, AB), light (AB1) and dark
+                                                                                                                                              0
+roasted (AB2) coffee extracts (1–100 mg/mL) and (B) coffee                                                                                         1       3       10       30         100   µM
+compounds (5-CQA, CAT, THB, TRIG, NMP; 1–100 mM) on TBH-
+induced ROS level in HT 29 cells after 24-h incubation. Values are                                               Figure 3. Effects of TRIG, NMP, NM-2MP and NM-3MP on Md-
+expressed as increase of fluorescence (rel. FI, in percentage of                                                 induced DNA damage (1FPG) in Caco-2 cells. Values are
+TBH control), as mean and SD of three or four independent                                                        expressed as rel. TI% (in percentage of Md control) as mean and
+experiments, each performed in quadruplicate. Solvent control                                                    SD of three independent experiments. Significantly lower than
+(Co): dotted line; significantly lower than TBH-control, po0.05,                                                Md control, po0.05. Mean TI% of Md control: 8.3. Md control
+po0.01, po0.001. TBH-control (TBH-Co).                                                                      (Md-Co).
+
+
+& 2010 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim                                                                                                                           www.mnf-journal.com
+Mol. Nutr. Food Res. 2010, 54, 1734–1743                                                                                                                                                                              1741
+
+                                          Con 0.1         1   10       100 µg/mL AB 1                                      Con 0.3 1          3       10        30    100 µM NMP
+A                          α-tubulin
+                           α                                                                     α-tubulin
+
+                             NQO1                                                                             NQO1
+
+
+                                                                                                                           Con 0.3    1       3        10       30 100    µM 5-CQA
+                                          Con       0.1   1   10       100 µg/mL AB 1
+                                                                                                               γ-GCL                                                                     Figure 4. Effects of coffee
+                             γγ-GCL
+                                                                                                              β-actin
+                              β
+                              β-actin                                                                                                                                                    extracts (AB1, AB2) and coffee
+                                                                                                                                                                                         compounds (5-CQA, NMP) on
+                                         Con        0.1   1   10       100 µg/mL AB 2                                       Con 0.3       1       3        10    30 100 µM 5-CQA         NAD(P)H:quinone oxidoreduc-
+                             GSR                                                                                 GS
+                                                                                                                 GSR                                                                     tase 1 (NQO1), g-glutamate
+                             β-actin                                                                             β-actin
+                                                                                                                                                                                         cysteine ligase (g-GCL) and
+                                                                                                                                                                                         glutathione reductase (GSR)
+                                                                                                                                                                                         expression in HT 29 cells after
+B                           AB 1                                                                                           5-CQA                                                         24-h incubation; Co: solvent
+                     350                                                                                         250                                                 **                  control.     (A)   Representative
+                                 γ-GCL
+                     300                                                                                                      γ-GCL                                                      Western      blots   of    enzyme
+                                   GSR                                                                                                    *
+Rel.. CI [% t/c]
+
+
+
+
+                                                                                                                              GSR                     *
+                                   NQO1                                                                          200                                                                     proteins and the respective
+                     250                                                                    Rel. CI [% t/c]                   NQO1                                         **
+                                                                                                                                                                                         internal control, probed and
+                     200                        *                                                                150                                                                     visualized simultaneously on
+                                                                                                                                                                                         the same membrane (NQO1;
+                     150
+                                                                                                                 100                                                                     a-tubulin) or on cuts of the same
+                     100                                           *                                                                                                                     membrane, using different time
+                     50                                                                                            50                                                                    intervals for chemoluminescent
+                                                                                                                                                                                         detection (g-GCL, GSR>b-actin).
+                             0,1                1                  10           100 µg/mL                                     0,3         1            3         10       30    100 µM   (B) Relative expression of
+                                                                                                                                                                                         enzyme proteins (normalized to
+                            AB 2
+                     350                                                                                         250 NMP                                                                 internal control protein). Data
+                                γ-GCL                                                                                        γ-GCL                                                       are    expressed     as    relative
+                     300        GSR                                                                                           GSR
+                                                                                                                 200                                                                     chemoluminescence         intensity
+                c]
+   Rel. CI [% t/c
+
+
+
+
+                                NQO1                                                                                          NQO1
+                                                                                                el. CI [% t/c]
+
+
+
+
+                     250                                                                                                                                                                 (rel. CI in percentage of solvent
+                                                                                                                 150                  **                                                 control), as mean and SD of
+                     200
+                                                                                                                                                                                         three or four independent
+                     150                                                                                                                                                                 experiments, each performed in
+                                                                                                                 100
+                                                                                               Re
+
+
+
+
+                     100                                                                                                                                                                 duplicate. Solvent control: 100%
+                                                                                                                   50                                                                    relative CI. Significantly higher
+                      50
+                                                                                                                                                                                         than solvent control: po0.05,
+                             0,1            1                 10             100 µg/mL                                        0,3         1           3          10       30    100 µM   po0.01.
+
+
+
+
+defense, including increased mRNA and protein expression                                                                                      light and dark roast (AB1, AB2), reflect the presence of both
+of NQO1 and g-GCL in vitro and animal experiments                                                                                             antioxidant original constituents and generated roast
+[31, 42].                                                                                                                                     products in effective concentrations. For the light roast AB1,
+   5-CQA significantly induced the expression of NQO1                                                                                         the major phenolic 5-CQA, its isomers 3- and 4-CQA and
+(concentration dependent, up to 200%) and, to a lower                                                                                         TRIG were found to contribute substantially (50%) to the
+extent, also of g-GCL (Fig. 4); expression of GSR was                                                                                         direct antioxidant activity. To the distinct antioxidant activity
+only elevated by 1 mM 5-CQA. This upregulation agrees                                                                                         of AB2, however, no contribution of these original
+with reports on the induction of ARE-dependent                                                                                                compounds and the roast products Cat and NMP-
+enzymes and stimulated nuclear translocation of Nrf2                                                                                          compounds was verifiable; this implicates that other anti-
+by CQAs [43, 44]. For roast product NMP, no clear                                                                                             oxidants, formed during thermal degradation, e.g. melanoi-
+modulation of protein expression was obtained. Taken                                                                                          dins and other Maillard products [35], compensate for the
+together, 5-CQA and chlorogenic acid-rich AB1 similarly                                                                                       losses in original constituents.
+induce protein expression of ARE-dependent enzymes                                                                                               In HT-29 cells, the TBH-induced ROS level was dimin-
+(NQO1>g-GCL>>GSR).                                                                                                                            ished by all extracts (1–100 mg/mL): AB1oAB, AC,
+                                                                                                                                              RIoAB2. Since the medium roasts AB/AC (both originat-
+                                                                                                                                              ing from Coffea arabica; Arabica) and RI (originating from
+4                     Concluding remarks                                                                                                      Coffea canephora; Robusta) exhibited a similar ROS-reducing
+                                                                                                                                              potential, the actual roast degree of the beans rather than
+In summary, all tested coffee extracts exhibited distinct                                                                                     species-related differences seems to be the decisive influ-
+direct antioxidant activity in various extents, depending on                                                                                  ential factor. The (moderate) activity of AB1 can be ascribed
+the degree of roasting. The slightly higher TEAC/ORAC                                                                                         to the observed ROS-reducing efficacy of 5-CQA and other
+values of the medium roasts AB, AC and RI, compared to                                                                                        chlorogenic acids. The high effectiveness of AB2, however,
+
+& 2010 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim                                                                                                                                                  www.mnf-journal.com
+1742         T. Bakuradze et al.                                                              Mol. Nutr. Food Res. 2010, 54, 1734–1743
+
+
+is not explainable by the presence of the weak ROS reducers           [7] del Castillo, M. D., Ames, J. M., Gordon, M. H., Effect of
+CAT and NMP-compounds; this underlines the relevance of                   roasting on the antioxidant activity of coffee brews. J. Agric.
+other antioxidant thermal degradations products. The                      Food Chem. 2002, 50, 3698–3703.
+distinct increase of ARE-dependent protein expression                 [8] Farah, A., de Paulis, T., Moreira, D. P., Trugo, L. C., Martin,
+(NQO1>g-GCL>GSR) by the light roast AB1 and its lead                      P. R., Chlorogenic acids and lactones in regular and water-
+compound 5-CQA might well contribute to their ROS-                        decaffeinated arabica coffees. J. Agric. Food Chem. 2006,
+reducing capacity. AB2 and NMP did not exhibit a clear                    54, 374–381.
+induction of the antioxidant enzyme proteins studied. The             [9] Daglia, M., Racchi, M., Papetti, A., Lanni, C. et al., In vitro
+observed significant decrease of DNA oxidation damage by                  and ex vivo antihydroxyl radical activity of green and
+methyl-substituted NMP (NM-2MP) in Caco-2 cells,                          roasted coffee. J. Agric. Food Chem. 2004, 52, 1700–1704.
+however, provides evidence for an antioxidant potential of           [10] Somoza, V., Lindenmeier, M., Wenzel, E., Frank, O. et al.,
+N-alkylpyridinium compounds.                                              Activity-guided identification of a chemopreventive
+   In conclusion, our results have demonstrated distinct                  compound in coffee beverage using in vitro and in vivo
+                                                                          techniques. J. Agric. Food Chem. 2003, 51, 6861–6869.
+antioxidant activity of light-, medium- and dark-roasted
+coffee extracts, which can mainly be attributed to the               [11] Natella, F., Nardini, M., Giannetti, I., Dattilo, C., Scaccini, C.,
+presence of original constituents (particularly CQAs and                  Coffee drinking influences plasma antioxidant capacity in
+                                                                          humans. J. Agric. Food Chem. 2002, 50, 6211–6216.
+TRIG in light roasts) and thermal degradation roast
+products (in dark roasts). The observed diversity in the             [12] Stadler, R. H., Varga, N., Hau, J., Vera, F. A., Welti, D. H.,
+effectiveness of coffee extracts/constituents supports multi-             Alkylpyridiniums. 1. Formation in model systems via ther-
+                                                                          mal degradation of trigonelline. J. Agric. Food Chem. 2002,
+faceted actions, including radical scavenging activity and
+                                                                          50, 1192–1199.
+enhancement of cellular defense, and might well contribute
+to the reported health effects of coffee.                            [13] Stadler, R. H., Varga, N., Milo, C., Schilter, B. et al., Alkyl-
+                                                                          pyridiniums. 2. Isolation and quantification in roasted
+                                                                          and ground coffees. J. Agric. Food Chem. 2002, 50,
+    The authors thank Dr. R. Eggers and E. F. Yager for the
+                                                                          1200–1206.
+roasting of coffee beans and S. Schmidt, M. Ochs and N. Hohn
+                                                                     [14] Prior, R. L., Wu, X., Schaich, K., Standardized methods for
+for competent assistance. The authors also thank Dr. A. Collins,
+                                                                          the determination of antioxidant capacity and phenolics in
+University of Oslo, Institute for Nutrition Research, for the
+                                                                          foods and dietary supplements. J. Agric. Food Chem. 2005,
+repair enzyme FPG. This work was supported by a grant of the              53, 4290–4302.
+German Federal Ministry of Education and Research (BMBF),
+                                                                     [15] Halliwell, B., Are polyphenols antioxidants or pro-oxidants?
+grant no. 0313843.
+                                                                          What do we learn from cell culture and in vivo studies?
+                                                                          Arch. Biochem. Biophys. 2008, 476, 107–112.
+    The authors have declared no conflict of interest.
+                                                                     [16] Lapidot, T., Walker, M. D., Kanner, J., Can apple anti-
+                                                                          oxidants inhibit tumor cell proliferation? Generation of
+                                                                          H(2)O(2) during interaction of phenolic compounds with cell
+5      References                                                         culture media. J. Agric. Food Chem. 2002, 50, 3156–3160.
+                                                                     [17] Lang, R., Mueller, C., Hofmann, T., Development of a stable
+ [1] van Dam, R. M., Willett, W. C., Manson, J. E., Hu, F. B.,            isotope dilution analysis with liquid chromatography-
+     Coffee, caffeine, and risk of type 2 diabetes: a prospective         tandem mass spectrometry detection for the quantitative
+     cohort study in younger and middle-aged U.S. women.                  analysis of di- and trihydroxybenzenes in foods and model
+     Diabetes Care 2006, 29, 398–403.                                     systems. J. Agric. Food Chem. 2006, 54, 5755–5762.
+ [2] Bonita, J. S., Mandarano, M., Shuta, D., Vinson, J., Coffee     [18] Lang, R., Yagar, E. F., Eggers, R., Hofmann, T., Quantitative
+     and cardiovascular disease: in vitro, cellular, animal, and          investigation of trigonelline, nicotinic acid, and nicotin-
+     human studies. Pharmacol. Res. 2007, 55, 187–198.                    amide in foods, urine, and plasma by means of LC-MS/MS
+ [3] Larsson, S. C., Bergkvist, L., Giovannucci, E., Wolk, A.,            and stable isotope dilution analysis. J. Agric. Food Chem.
+     Coffee consumption and incidence of colorectal cancer in             2008, 56, 11114–11121.
+     two prospective cohort studies of Swedish women and             [19] Weiss, C., Rubach, M., Lang, R., Seebach, E. et al.,
+     men. Am. J. Epidemiol. 2006, 163, 638–644.                           Measurement of the intracellular ph in human stomach
+ [4] Halliwell, B., Gutteridge, J. M. C., Free Radicals in Biology        cells: a novel approach to evaluate the gastric acid secretory
+     and Medicine, Oxford University Press, Oxford, New York              potential of coffee beverages. J. Agric. Food Chem. 2010,
+     1999.                                                                58, 1976–1985.
+ [5] del Castillo, M. D., Gordon, M. H., Ames, J. M., Peroxyl        [20] Schaefer, S., Baum, M., Eisenbrand, G., Dietrich, H. et al.,
+     radical-scavenging activity of coffee brews. Eur. Food Res.          Polyphenolic apple juice extracts and their major constitu-
+     Technol. 2005, 221, 471–477.                                         ents reduce oxidative damage in human colon cell lines.
+ [6] Gomez-Ruiz, J. A., Leake, D. S., Ames, J. M., In vitro anti-         Mol. Nutr. Food Res. 2006, 50, 24–33.
+     oxidant activity of coffee compounds and their metabolites.     [21] Re, R., Pellegrini, N., Proteggente, A., Pannala, A. et al.,
+     J. Agric. Food Chem. 2007, 55, 6962–6969.                            Antioxidant activity applying an improved ABTS radical
+
+
+& 2010 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim                                                                  www.mnf-journal.com
+Mol. Nutr. Food Res. 2010, 54, 1734–1743                                                                                               1743
+
+
+     cation decolorization assay. Free Radic. Biol. Med. 1999, 26,       [33] Stalmach, A., Mullen, W., Nagai, C., Crozier, A., On-line
+     1231–1237.                                                               HPLC analysis of the antioxidant activity of phenolic
+[22] Ou, B., Hampsch-Woodill, M., Prior, R. L., Development and               compounds in brewed, paper-filtered coffee. Braz. J. Plant
+     validation of an improved oxygen radical absorbance                      Physiol. 2006, 18, 253–262.
+     capacity assay using fluorescein as the fluorescent probe.          [34] Ogata, S., Takeuchi, M., Teradaira, S., Yamamoto, N. et al.,
+     J. Agric. Food Chem. 2001, 49, 4619–4626.                                Radical scavenging activities of niacin-related compounds.
+[23] Bellion, P., Olk, M., Will, F., Dietrich, H. et al., Formation of        Biosci. Biotechnol. Biochem. 2002, 66, 641–645.
+     hydrogen peroxide in cell culture media by apple poly-              [35] Borrelli, R. C., Visconti, A., Mennella, C., Anese, M.,
+     phenols and its effect on antioxidant biomarkers in the colon            Fogliano, V., Chemical characterization and antioxidant
+     cell line HT-29. Mol. Nutr. Food Res. 2009, 53, 1226–1236.               properties of coffee melanoidins. J. Agric. Food Chem.
+[24] Wolff, S. P., Ferrous ion oxidation in presence of ferric ion            2002, 50, 6527–6533.
+     indicator xylenol orange for measurement of hydroper-               [36] Miura, Y. H., Tomita, I., Watanabe, T., Hirayama, T., Fukui, S.,
+     oxides. Methods Enzymol. 1994, 233, 182–189.                             Active oxygens generation by flavonoids. Biol. Pharm. Bull.
+[25] Bellion, P., Hofmann, T., Pool-Zobel, B. L., Will, F. et al.,            1998, 21, 93–96.
+     Antioxidant effectiveness of phenolic apple juice extracts          [37] Kern, M., Tjaden, Z., Ngiewih, Y., Puppel, N. et al., Inhibitors
+     and their gut fermentation products in the human colon                   of the epidermal growth factor receptor in apple juice
+     carcinoma cell line caco-2. J. Agr. Food Chem. 2008, 56,                 extract. Mol. Nutr. Food Res. 2005, 49, 317–328.
+     6310–6317.                                                          [38] Lapidot, T., Walker, M. D., Kanner, J., Antioxidant and
+[26] Wang, H., Cao, G., Prior, R. L., Oxygen Radical Adsorbing                prooxidant effects of phenolics on pancreatic beta-cells
+     Capacity of Anthocyanins. J. Agric. Food Chem. 1997, 45,                 in vitro. J. Agric. Food Chem. 2002, 50, 7220–7225.
+     304–309.                                                            [39] Wee, L. M., Long, L. H., Whiteman, M., Halliwell, B., Factors
+[27] Kamp, H. G., Eisenbrand, G., Janzowski, C., Kiossev, J.                  affecting the ascorbate- and phenolic-dependent generation
+     et al., Ochratoxin A induces oxidative DNA damage in liver               of hydrogen peroxide in Dulbecco’s modified Eagles
+     and kidney after oral dosing to rats. Mol. Nutr. Food Res.               medium. Free Radic. Res. 2003, 37, 1123–1130.
+     2005, 49, 1160–1167.                                                [40] Long, L. H., Halliwell, B., Artefacts in cell culture: pyruvate
+[28] Collins, A. R., Dusinska, M., Gedik, C. M., Stetina, R.,                 as a scavenger of hydrogen peroxide generated by ascor-
+     Oxidative damage to DNA: do we have a reliable biomar-                   bate or epigallocatechin gallate in cell culture media.
+     ker? Environ. Health Perspect. 1996, 104, 465–469.                       Biochem. Biophys. Res. Commun. 2009, 388, 700–704.
+[29] Schaefer, S., Baum, M., Eisenbrand, G., Janzowski, C.,              [41] Babich, H., Liebling, E. J., Burger, R. F., Zuckerbraun, H. L.,
+     Modulation of oxidative cell damage by reconstituted                     Schuck, A. G., Choice of DMEM, formulated with or without
+     mixtures of phenolic apple juice extracts in human colon                 pyruvate, plays an important role in assessing the in vitro
+     cell lines. Mol. Nutr. Food Res. 2006, 50, 413–417.                      cytotoxicity of oxidants and prooxidant nutraceuticals.
+[30] Fridrich, D., Kern, M., Pahlke, G., Volz, N. et al., Apple               In Vitro Cell Dev. Biol. Anim. 2009, 45, 226–233.
+     polyphenols diminish the phosphorylation of the epidermal           [42] Cavin, C., Marin-Kuan, M., Langouet, S., Bezencon, C. et al.,
+     growth factor receptor in HT29 colon carcinoma cells. Mol.               Induction of Nrf2-mediated cellular defenses and alteration
+     Nutr. Food Res. 2007, 51, 594–601.                                       of phase I activities as mechanisms of chemoprotective
+[31] Higgins, L. G., Cavin, C., Itoh, K., Yamamoto, M., Hayes,                effects of coffee in the liver. Food Chem. Toxicol. 2008, 46,
+     J. D., Induction of cancer chemopreventive enzymes by                    1239–1248.
+     coffee is mediated by transcription factor Nrf2. Evidence           [43] Feng, R., Lu, Y., Bowman, L. L., Qian, Y. et al., Inhibition of
+     that the coffee-specific diterpenes cafestol and kahweol                 activator protein-1, NF-kappaB, and MAPKs and induction
+     confer protection against acrolein. Toxicol. Appl. Pharma-               of phase 2 detoxifying enzyme activity by chlorogenic acid.
+     col. 2008, 226, 328–337.                                                 J. Biol. Chem. 2005, 280, 27888–27895.
+[32] Zhu, H., Cao, Z., Zhang, L., Trush, M. A., Li, Y., Glutathione      [44] Hwang, Y. P., Yun, H. J., Chun, H. K., Chung, Y. C. et al.,
+     and glutathione-linked enzymes in normal human aortic                    Protective mechanisms of 3-caffeoyl, 4-dihydrocaffeoyl
+     smooth muscle cells: chemical inducibility and protection                quinic acid from Salicornia herbacea against tert-butyl
+     against reactive oxygen and nitrogen species-induced                     hydroperoxide-induced oxidative damage. Chem. Biol.
+     injury. Mol. Cell Biochem. 2007, 301, 47–59.                             Interact. 2009, 181, 366–376.
+
+
+
+
+& 2010 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim                                                                    www.mnf-journal.com
+

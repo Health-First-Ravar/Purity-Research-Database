@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "status": "UNRESOLVED",
+  "product_key": null,
+  "report_number": "3425524-0",
+  "test_date": "2021-09-29",
+  "sample_name": "Ally Coffee Ethiopia Eurofins Sample: 10984856",
+  "lot_or_po": "rt",
+  "supersedes": null,
+  "superseded_by": null,
+  "lab": "Eurofins (inferred)",
+  "serving_size_g": null,
+  "source_file": "/Users/jeremybehne/Library/CloudStorage/GoogleDrive-jravar@puritycoffee.com/My Drive/Purity-Lab-Data/COAs/3425524-0_COA.pdf",
+  "source_hash": "05d15a4cb4100e6e",
+  "parse_confidence": 1.0,
+  "parse_notes": [
+    "pages=3 tables=2",
+    "text_rows=1"
+  ],
+  "analytes": [
+    {
+      "analyte": "Chloride",
+      "panel": "other",
+      "value_normalized": 0.004,
+      "unit_normalized": "%",
+      "value_as_reported": "<0.00400",
+      "unit_as_reported": "%",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    }
+  ],
+  "ingested_at": "2026-04-27T05:11:25+00:00"
+}

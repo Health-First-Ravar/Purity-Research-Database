@@ -1,0 +1,587 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Purity Knowledge Atlas — preview</title>
+<style>
+  :root {
+    /* Brand colors (matched to dashboard/preview.html) */
+    --aqua:   #009F8D;
+    --aqua-14: rgba(0,159,141,0.14);
+    --teal:   #00665E;
+    --gold:   #F1B434;
+    --gold-20: rgba(241,180,52,0.20);
+    --beige:  #D5CCBA;
+    --beige-40: #ECE6DA;
+    --beige-20: #F6F3EC;
+    --brown:  #3D290D;
+    --brown-70: rgba(61,41,13,0.70);
+    --brown-30: rgba(61,41,13,0.30);
+    --brown-12: rgba(61,41,13,0.12);
+    --brown-6:  rgba(61,41,13,0.06);
+
+    /* Branch palette — distinct hues per major branch so clusters stay legible */
+    --branch-mycotoxin:   #9B552B;   /* PROTECT-rust */
+    --branch-bioactives:  #009F8D;   /* aqua */
+    --branch-contaminant: #B04A2E;   /* warm rust */
+    --branch-metals:      #6B5A3F;   /* dark beige */
+    --branch-roast:       #C7833A;   /* amber */
+    --branch-health:      #2E3A3A;   /* graphite */
+    --branch-brew:        #3F6B4A;   /* sage */
+    --branch-culture:     #F1B434;   /* gold */
+    --branch-agriculture: #007F3F;   /* EASE green */
+    --branch-soil:        #5A4632;   /* loam */
+    --branch-sourcing:    #007DC0;   /* CALM blue */
+    --branch-process:     #8A6D10;   /* mustard */
+  }
+
+  html, body {
+    margin: 0; padding: 0; height: 100%;
+    background: var(--beige-20);
+    color: var(--brown);
+    font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Helvetica, Arial, sans-serif;
+  }
+
+  header {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 14px 24px;
+    border-bottom: 1px solid var(--brown-12);
+    background: white;
+  }
+  header h1 {
+    font-family: 'New York', 'Times New Roman', serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0;
+  }
+  header .meta {
+    font-size: 12px;
+    color: var(--brown-70);
+  }
+  header .actions { display: flex; gap: 10px; align-items: center; }
+  header button {
+    background: var(--brown);
+    color: var(--beige-20);
+    border: 0;
+    padding: 6px 12px;
+    font-size: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: inherit;
+  }
+  header button:hover { background: #2a1c08; }
+  header button.ghost {
+    background: transparent;
+    color: var(--brown);
+    border: 1px solid var(--brown-12);
+  }
+  header button.ghost:hover { background: var(--brown-6); }
+
+  main {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    height: calc(100% - 53px);
+  }
+
+  #graph {
+    background: var(--beige-20);
+    overflow: hidden;
+    position: relative;
+  }
+  #graph svg {
+    width: 100%; height: 100%;
+    cursor: grab;
+  }
+  #graph svg:active { cursor: grabbing; }
+
+  aside {
+    border-left: 1px solid var(--brown-12);
+    background: white;
+    padding: 18px 20px;
+    overflow-y: auto;
+  }
+  aside h2 {
+    font-family: 'New York', 'Times New Roman', serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0 0 8px 0;
+  }
+  aside .kind {
+    display: inline-block;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding: 2px 8px;
+    border-radius: 999px;
+    background: var(--brown-6);
+    color: var(--brown-70);
+    margin-bottom: 14px;
+  }
+  aside .desc {
+    font-size: 13px;
+    line-height: 1.5;
+    color: var(--brown-70);
+    margin-bottom: 14px;
+  }
+  aside .conn-title {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--brown-70);
+    margin: 16px 0 6px 0;
+  }
+  aside .conn-list {
+    list-style: none; padding: 0; margin: 0;
+    font-size: 13px;
+  }
+  aside .conn-list li {
+    padding: 4px 0;
+    border-bottom: 1px dashed var(--brown-12);
+    cursor: pointer;
+  }
+  aside .conn-list li:hover { color: var(--aqua); }
+
+  .legend {
+    position: absolute;
+    bottom: 16px; left: 16px;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(4px);
+    border: 1px solid var(--brown-12);
+    border-radius: 8px;
+    padding: 10px 14px;
+    font-size: 11px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+  }
+  .legend-row { display: flex; align-items: center; gap: 8px; margin: 3px 0; color: var(--brown-70); }
+  .legend-dot { width: 10px; height: 10px; border-radius: 50%; flex: 0 0 10px; }
+
+  .node-label {
+    font-size: 11px;
+    fill: var(--brown);
+    pointer-events: none;
+    font-weight: 500;
+  }
+  .node-label.center { font-size: 14px; font-family: 'New York', serif; }
+  .node-label.branch { font-size: 12px; font-weight: 600; }
+  .node-label.paper { font-size: 9.5px; fill: var(--brown-70); }
+
+  .pulse-ring {
+    fill: none;
+    stroke: var(--gold);
+    stroke-width: 2;
+    opacity: 0;
+  }
+  .pulse-ring.active {
+    animation: pulse 1.4s ease-out;
+  }
+
+  /* Cross-links: dashed, lighter — present but quiet by default,
+     light up when a connected branch is hovered. */
+  line.cross {
+    stroke: var(--brown-30);
+    stroke-dasharray: 3 4;
+    stroke-width: 0.9;
+    opacity: 0.45;
+    transition: opacity 180ms ease, stroke-width 180ms ease, stroke 180ms ease;
+  }
+  line.cross.highlight {
+    stroke: var(--aqua);
+    opacity: 1;
+    stroke-width: 1.6;
+  }
+  line.parent { stroke: var(--brown-12); stroke-width: 1.2; }
+  line.parent.strong { stroke-width: 1.6; }
+  @keyframes pulse {
+    0%   { opacity: 1; r: 6; }
+    100% { opacity: 0; r: 40; }
+  }
+
+  .footer {
+    position: absolute; bottom: 14px; right: 16px;
+    font-size: 11px; color: var(--brown-70);
+    background: rgba(255,255,255,0.85);
+    padding: 4px 10px; border-radius: 4px;
+  }
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1>Knowledge Atlas <span class="meta" style="margin-left: 8px;">— preview</span></h1>
+    <div class="meta">Health First Coffee at the core, branching outward. Memory persists as new articles arrive.</div>
+  </div>
+  <div class="actions">
+    <button class="ghost" onclick="resetGraph()">Reset view</button>
+    <button onclick="addRandomPaper()">+ Simulate new paper</button>
+  </div>
+</header>
+<main>
+  <div id="graph">
+    <div class="legend">
+      <div class="legend-row"><span class="legend-dot" style="background: var(--brown);"></span> Core</div>
+      <div class="legend-row"><span class="legend-dot" style="background: var(--branch-mycotoxin);"></span> Mycotoxins / safety</div>
+      <div class="legend-row"><span class="legend-dot" style="background: var(--branch-bioactives);"></span> Bioactives (CGAs etc.)</div>
+      <div class="legend-row"><span class="legend-dot" style="background: var(--branch-health);"></span> Health outcomes</div>
+      <div class="legend-row"><span class="legend-dot" style="background: var(--branch-culture);"></span> Coffee culture</div>
+      <div class="legend-row"><span class="legend-dot" style="background: var(--branch-agriculture);"></span> Agriculture</div>
+      <div class="legend-row"><span class="legend-dot" style="background: var(--branch-soil);"></span> Soil biology</div>
+      <div class="legend-row" style="margin-top:6px; padding-top:6px; border-top: 1px dashed var(--brown-12);">
+        <span style="display:inline-block; width:18px; height:1.5px; background: repeating-linear-gradient(to right, var(--brown-30) 0 3px, transparent 3px 7px);"></span>
+        Cross-branch link
+      </div>
+    </div>
+    <div class="footer" id="atlas-footer">last updated: 2026-04-27 · — nodes · — branches · — cross-links</div>
+  </div>
+  <aside>
+    <h2 id="panel-title">Hover or click any node</h2>
+    <span class="kind" id="panel-kind">—</span>
+    <p class="desc" id="panel-desc">
+      The atlas centers on Health First Coffee — Purity's brand frame for evidence-based,
+      health-relevant coffee. Branches radiate outward across coffee science, culture,
+      agriculture, and soil biology. The dashed links between branches are the
+      curated cross-relationships — the places where one field actually drives another
+      (farming → CGA, soil → metals, roast → acrylamide, and so on). Hover any branch to
+      light up its cross-links; hover any cross-link to read the rationale.
+    </p>
+    <div class="conn-title">When wired up, this panel will show:</div>
+    <ul class="conn-list">
+      <li>Node type (core / branch / paper / canon)</li>
+      <li>Title + DOI / source link</li>
+      <li>Connected papers in the same cluster</li>
+      <li>Cross-branch relationships with editable rationales</li>
+      <li>Recent additions to this branch</li>
+      <li>One-click jump to the COA / chat / bibliography page</li>
+    </ul>
+  </aside>
+</main>
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script>
+/* ---------- data model ----------
+   Three node kinds:
+     core    — single root: Health First Coffee
+     branch  — major topic clusters (12 of them)
+     paper   — terminal nodes (papers / articles / book chapters)
+
+   Branches are seeded with 3-6 representative papers each so the visual
+   shape is intelligible. Real wiring would query `chunks` / `bibliography`
+   and replace this stub.
+*/
+const CORE_ID = 'core:hfc';
+
+const branches = [
+  { id: 'b:mycotoxin',    label: 'Mycotoxin science',    color: 'var(--branch-mycotoxin)',
+    desc: 'OTA, aflatoxins, fumonisins. Storage, detection, regulatory frameworks.' },
+  { id: 'b:bioactives',   label: 'Bioactives',           color: 'var(--branch-bioactives)',
+    desc: 'Chlorogenic acids, melanoidins, trigonelline. The compounds that drive most health-relevant effects of coffee.' },
+  { id: 'b:contaminant',  label: 'Process contaminants', color: 'var(--branch-contaminant)',
+    desc: 'Acrylamide, furan, PAHs. Roast-stage chemistry and mitigation.' },
+  { id: 'b:metals',       label: 'Heavy metals',         color: 'var(--branch-metals)',
+    desc: 'Lead, cadmium, arsenic, mercury. Soil uptake, monitoring, lab methods.' },
+  { id: 'b:roast',        label: 'Roast chemistry',      color: 'var(--branch-roast)',
+    desc: 'Maillard reactions, flavor formation, antioxidant evolution by roast degree.' },
+  { id: 'b:health',       label: 'Health outcomes',      color: 'var(--branch-health)',
+    desc: 'T2D, cardiovascular, Parkinson\'s, cancer, longevity, mental health. The clinical evidence map.' },
+  { id: 'b:brew',         label: 'Brewing & extraction', color: 'var(--branch-brew)',
+    desc: 'Method, grind, water chemistry, yield. Bridge from chemistry to cup.' },
+  { id: 'b:culture',      label: 'Coffee culture',       color: 'var(--branch-culture)',
+    desc: 'Ritual, history, community, cafés as third places. The human side of the bean.' },
+  { id: 'b:agriculture',  label: 'Agriculture',          color: 'var(--branch-agriculture)',
+    desc: 'Cultivation, varietals, terroir, smallholder economics, farm practices.' },
+  { id: 'b:soil',         label: 'Soil biology',         color: 'var(--branch-soil)',
+    desc: 'Microbiome, mycorrhizal networks, organic matter cycling. The living substrate.' },
+  { id: 'b:sourcing',     label: 'Sourcing & sustainability', color: 'var(--branch-sourcing)',
+    desc: 'Direct trade, certifications, traceability, climate adaptation.' },
+  { id: 'b:process',      label: 'Processing',           color: 'var(--branch-process)',
+    desc: 'Washed, natural, honey, anaerobic. Post-harvest chemistry that shapes everything downstream.' },
+];
+
+// 3-6 stub papers per branch. Real queries replace these.
+const stubPapers = {
+  'b:mycotoxin':    ['Ochratoxin A in coffee — review', 'Aflatoxin contamination patterns', 'Storage humidity & OTA growth', 'EU 2023/915 framework'],
+  'b:bioactives':   ['CGA bioavailability in humans', 'Melanoidins as antioxidants', 'Trigonelline & cognition', 'Dose-response of green coffee extract', 'CGA in roasted coffee'],
+  'b:contaminant':  ['Acrylamide formation kinetics', 'Roast profile vs. acrylamide', 'Furan in espresso brewing'],
+  'b:metals':       ['Lead in soil → coffee', 'Cadmium uptake by Coffea arabica', 'Arsenic speciation in coffee', 'Method validation ICP-MS'],
+  'b:roast':        ['Maillard pathway in coffee', 'Antioxidant peak by roast color', 'Volatile development during roast', 'Light vs. dark — comparative chemistry'],
+  'b:health':       ['Coffee & T2D — meta-analysis', 'Coffee & Parkinson\'s neuroprotection', 'Coffee & cardiovascular outcomes', 'Coffee & all-cause mortality', 'Coffee & liver disease', 'Coffee & cognitive decline'],
+  'b:brew':         ['Extraction chemistry primer', 'Grind size & TDS', 'Water mineral content & extraction'],
+  'b:culture':      ['Café as third place — Oldenburg', 'Coffee in Yemen — origin history', 'The third wave movement', 'Coffee rituals across cultures'],
+  'b:agriculture':  ['Arabica vs. Robusta — agronomy', 'Shade-grown vs. sun-grown', 'Climate change & coffee belts', 'Smallholder economics in Honduras', 'Varietal disease resistance'],
+  'b:soil':         ['Mycorrhizae in coffee plots', 'Soil organic matter & cup quality', 'Soil microbiome diversity', 'Organic vs. conventional soil health'],
+  'b:sourcing':     ['Direct trade — case studies', 'Certification proliferation', 'Traceability technology'],
+  'b:process':      ['Washed vs. natural chemistry', 'Honey processing yields', 'Anaerobic fermentation outcomes', 'Drying methods & water activity'],
+};
+
+const nodes = [];
+const links = [];
+
+nodes.push({ id: CORE_ID, kind: 'core', label: 'Health First Coffee',
+  desc: 'The brand frame. Coffee selected, processed, and delivered for human health — bioactives optimized, contaminants minimized, evidence cited.' });
+
+for (const b of branches) {
+  nodes.push({ id: b.id, kind: 'branch', label: b.label, color: b.color, desc: b.desc });
+  links.push({ source: CORE_ID, target: b.id, strength: 1.0, kind: 'parent' });
+  for (const title of (stubPapers[b.id] ?? [])) {
+    const id = `p:${b.id}:${title.slice(0,30).replace(/\s+/g,'_')}`;
+    nodes.push({ id, kind: 'paper', label: title, parent: b.id, color: b.color });
+    links.push({ source: b.id, target: id, strength: 0.4, kind: 'parent' });
+  }
+}
+
+/* ---------- cross-branch links ---------------------------------------
+   Knowledge isn't a tree — it's a web. These are the curated intellectual
+   relationships across major branches. Each `why` is a 1-line rationale
+   that surfaces in the side panel when you hover the link.
+
+   In the live build, this list lives in a `kb_atlas_edges` table that
+   editors maintain by hand. Computed co-occurrence can layer on top later.
+*/
+const crossLinks = [
+  // Agriculture ↔ everything it physically drives
+  { source: 'b:agriculture', target: 'b:bioactives',  why: 'Altitude, varietal, shade affect CGA / trigonelline content of green beans.' },
+  { source: 'b:agriculture', target: 'b:mycotoxin',   why: 'Harvest timing, drying, storage practices set the OTA risk window.' },
+  { source: 'b:agriculture', target: 'b:soil',        why: 'Farm practice and soil biology are joined at the hip; one drives the other.' },
+  { source: 'b:agriculture', target: 'b:process',     why: 'Variety + farm choices feed directly into which post-harvest process makes sense.' },
+  { source: 'b:agriculture', target: 'b:sourcing',    why: 'Direct trade economics shape what farmers can plant and how.' },
+
+  // Soil biology ↔ chemistry
+  { source: 'b:soil',        target: 'b:metals',      why: 'Soil microbiome modulates heavy-metal bioavailability to the plant.' },
+  { source: 'b:soil',        target: 'b:bioactives',  why: 'Mycorrhizal symbiosis modulates plant secondary-metabolite (CGA) production.' },
+
+  // Process / roast / brewing — chemistry chain
+  { source: 'b:process',     target: 'b:bioactives',  why: 'Honey / anaerobic / washed shift CGA + acid profiles before roasting.' },
+  { source: 'b:process',     target: 'b:mycotoxin',   why: 'Wet-process drying speed determines OTA growth window post-harvest.' },
+  { source: 'b:roast',       target: 'b:bioactives',  why: 'Roast degrades CGAs and creates melanoidins — direct chemical conversion.' },
+  { source: 'b:roast',       target: 'b:contaminant', why: 'Acrylamide forms during roast from asparagine + reducing sugars (Maillard).' },
+  { source: 'b:brew',        target: 'b:bioactives',  why: 'Extraction method, grind, water chemistry decide what reaches the cup.' },
+
+  // Health outcomes are downstream of every chemistry branch
+  { source: 'b:health',      target: 'b:bioactives',  why: 'CGAs / melanoidins / trigonelline are the plausible mechanism for most coffee health effects.' },
+  { source: 'b:health',      target: 'b:mycotoxin',   why: 'OTA is a known nephrotoxin and possible carcinogen — health is the reason this branch matters.' },
+  { source: 'b:health',      target: 'b:contaminant', why: 'Acrylamide is a probable human carcinogen (IARC 2A).' },
+  { source: 'b:health',      target: 'b:metals',      why: 'Heavy-metal toxicology — direct dose-response at chronic exposure.' },
+
+  // Culture ↔ humanities of coffee
+  { source: 'b:culture',     target: 'b:brew',        why: 'Cultural traditions (espresso, pour-over, third-wave) shape brewing methods.' },
+  { source: 'b:culture',     target: 'b:agriculture', why: 'Specialty-coffee culture drives demand for varietal diversity and direct trade.' },
+  { source: 'b:culture',     target: 'b:sourcing',    why: 'Consumer storytelling about origin is the demand side of sourcing economics.' },
+
+  // Sourcing ↔ quality control
+  { source: 'b:sourcing',    target: 'b:mycotoxin',   why: 'Origin selection and supply-chain QC are the upstream lever on contaminant risk.' },
+];
+
+for (const cl of crossLinks) {
+  links.push({ source: cl.source, target: cl.target, strength: 0.18, kind: 'cross', why: cl.why });
+}
+
+/* ---------- render ---------- */
+const container = document.getElementById('graph');
+const W = () => container.clientWidth;
+const H = () => container.clientHeight;
+
+const svg = d3.select('#graph').append('svg')
+  .attr('viewBox', () => `0 0 ${W()} ${H()}`)
+  .attr('preserveAspectRatio', 'xMidYMid meet');
+
+const g = svg.append('g');
+
+const zoom = d3.zoom()
+  .scaleExtent([0.3, 3])
+  .on('zoom', (event) => g.attr('transform', event.transform));
+svg.call(zoom);
+
+// Cross-links go in a separate group BENEATH parent links so the radial
+// structure stays visually dominant.
+const crossG = g.append('g');
+const linkSel = g.append('g').selectAll('line');
+const nodeG = g.append('g');
+
+const sim = d3.forceSimulation(nodes)
+  .force('link', d3.forceLink(links).id(d => d.id)
+    .distance(d => {
+      if (d.kind === 'cross') return 220;        // cross-links want long springs so they don't squish layout
+      return d.source.kind === 'core' ? 200 : 70;
+    })
+    .strength(d => d.strength))
+  .force('charge', d3.forceManyBody().strength(d => d.kind === 'core' ? -1200 : d.kind === 'branch' ? -400 : -90))
+  .force('center', d3.forceCenter(W()/2, H()/2))
+  .force('collide', d3.forceCollide().radius(d => d.kind === 'core' ? 50 : d.kind === 'branch' ? 32 : 16));
+
+let nodeSel, labelSel, linkLine, crossLine;
+
+function radius(d) {
+  if (d.kind === 'core') return 26;
+  if (d.kind === 'branch') return 16;
+  return 5;
+}
+
+function nodeFill(d) {
+  if (d.kind === 'core') return 'var(--brown)';
+  return d.color || 'var(--brown-30)';
+}
+
+function render() {
+  const parentLinks = links.filter(l => l.kind !== 'cross');
+  const crossLinksOnly = links.filter(l => l.kind === 'cross');
+
+  linkLine = linkSel.data(parentLinks, d => `p-${d.source.id ?? d.source}-${d.target.id ?? d.target}`)
+    .join('line')
+    .attr('class', d => 'parent' + ((d.source.kind === 'core' || d.source === CORE_ID) ? ' strong' : ''));
+
+  crossLine = crossG.selectAll('line').data(crossLinksOnly, d => `c-${d.source.id ?? d.source}-${d.target.id ?? d.target}`)
+    .join('line')
+    .attr('class', 'cross')
+    .style('cursor', 'help')
+    .on('mouseover', (e, d) => showCrossLink(d))
+    .on('mouseout', () => clearCrossHighlight());
+
+  nodeSel = nodeG.selectAll('circle').data(nodes, d => d.id)
+    .join(enter => enter.append('circle')
+      .attr('r', radius)
+      .attr('fill', nodeFill)
+      .attr('stroke', 'white')
+      .attr('stroke-width', d => d.kind === 'core' ? 3 : d.kind === 'branch' ? 2 : 1)
+      .style('cursor', 'pointer')
+      .on('mouseover', (e, d) => { showPanel(d); highlightCrossFor(d); })
+      .on('mouseout', () => clearCrossHighlight())
+      .on('click', (e, d) => showPanel(d))
+      .call(d3.drag()
+        .on('start', (event, d) => { if (!event.active) sim.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; })
+        .on('drag', (event, d) => { d.fx = event.x; d.fy = event.y; })
+        .on('end', (event, d) => { if (!event.active) sim.alphaTarget(0); d.fx = null; d.fy = null; })),
+      update => update,
+      exit => exit.remove());
+
+  labelSel = nodeG.selectAll('text').data(nodes, d => d.id)
+    .join('text')
+    .attr('class', d => `node-label ${d.kind}`)
+    .attr('text-anchor', 'middle')
+    .attr('dy', d => d.kind === 'core' ? 4 : d.kind === 'branch' ? 26 : 14)
+    .text(d => d.kind === 'paper' && d.label.length > 28 ? d.label.slice(0,26) + '…' : d.label);
+}
+
+sim.on('tick', () => {
+  if (linkLine) linkLine
+    .attr('x1', d => d.source.x).attr('y1', d => d.source.y)
+    .attr('x2', d => d.target.x).attr('y2', d => d.target.y);
+  if (crossLine) crossLine
+    .attr('x1', d => d.source.x).attr('y1', d => d.source.y)
+    .attr('x2', d => d.target.x).attr('y2', d => d.target.y);
+  if (nodeSel) nodeSel.attr('cx', d => d.x).attr('cy', d => d.y);
+  if (labelSel) labelSel.attr('x', d => d.x).attr('y', d => d.y);
+});
+
+function highlightCrossFor(node) {
+  if (!crossLine) return;
+  if (node.kind !== 'branch' && node.kind !== 'core') return;
+  crossLine.classed('highlight', d => {
+    const s = d.source.id ?? d.source;
+    const t = d.target.id ?? d.target;
+    return s === node.id || t === node.id;
+  });
+}
+function clearCrossHighlight() {
+  if (crossLine) crossLine.classed('highlight', false);
+}
+function showCrossLink(d) {
+  const s = nodes.find(n => n.id === (d.source.id ?? d.source));
+  const t = nodes.find(n => n.id === (d.target.id ?? d.target));
+  if (!s || !t) return;
+  document.getElementById('panel-title').textContent = `${s.label} ↔ ${t.label}`;
+  document.getElementById('panel-kind').textContent = 'cross-branch link';
+  document.getElementById('panel-desc').textContent = d.why ?? '';
+  document.querySelector('.conn-title').textContent = 'Both endpoints';
+  document.querySelector('.conn-list').innerHTML =
+    `<li onclick="showPanel(window._nodes.find(n=>n.id==='${s.id}'))">${s.label}</li>` +
+    `<li onclick="showPanel(window._nodes.find(n=>n.id==='${t.id}'))">${t.label}</li>`;
+  // Visually mark the hovered link
+  crossLine.classed('highlight', cl => cl === d);
+}
+
+render();
+updateFooter();
+
+function updateFooter() {
+  const branchCount = nodes.filter(n => n.kind === 'branch').length;
+  const crossCount = links.filter(l => l.kind === 'cross').length;
+  const today = new Date().toISOString().slice(0, 10);
+  document.getElementById('atlas-footer').textContent =
+    `last updated: ${today} · ${nodes.length} nodes · ${branchCount} branches · ${crossCount} cross-links`;
+}
+
+/* ---------- panel ---------- */
+function showPanel(d) {
+  document.getElementById('panel-title').textContent = d.label;
+  document.getElementById('panel-kind').textContent = d.kind;
+  document.getElementById('panel-desc').textContent = d.desc ??
+    (d.kind === 'paper' ? `Stub: this would link to the source paper, DOI, and any chunks already in retrieval.` : '');
+
+  const connected = links
+    .filter(l => l.source.id === d.id || l.target.id === d.id || l.source === d.id || l.target === d.id)
+    .map(l => {
+      const otherId = (l.source.id === d.id || l.source === d.id) ? (l.target.id ?? l.target) : (l.source.id ?? l.source);
+      return nodes.find(n => n.id === otherId);
+    })
+    .filter(Boolean);
+  const list = document.querySelector('.conn-list');
+  if (connected.length) {
+    list.innerHTML = connected.slice(0, 12).map(n => `<li onclick="(()=>{const node=window._nodes.find(x=>x.id==='${n.id}');if(node)showPanel(node);})()">${n.label}</li>`).join('');
+    document.querySelector('.conn-title').textContent = `Connected (${connected.length})`;
+  } else {
+    list.innerHTML = '<li>(no connections in stub)</li>';
+  }
+}
+window._nodes = nodes;
+
+/* ---------- demo: simulate new paper landing ---------- */
+function addRandomPaper() {
+  const branch = branches[Math.floor(Math.random() * branches.length)];
+  const ts = Date.now().toString().slice(-5);
+  const id = `p:${branch.id}:new_${ts}`;
+  const titles = [
+    'New review on coffee polyphenols',
+    'OTA reduction by post-harvest drying',
+    'Soil microbiome shifts under organic transition',
+    'Global meta-analysis: coffee & longevity',
+    'Acrylamide mitigation in light roast',
+    'Mycorrhizal symbiosis in shade plots',
+  ];
+  const newNode = {
+    id, kind: 'paper',
+    label: titles[Math.floor(Math.random() * titles.length)] + ' (' + ts + ')',
+    parent: branch.id, color: branch.color,
+  };
+  nodes.push(newNode);
+  links.push({ source: branch.id, target: id, strength: 0.4 });
+  sim.nodes(nodes);
+  sim.force('link').links(links);
+  sim.alpha(0.5).restart();
+  render();
+
+  // Pulse ring at new node position once it has coords
+  setTimeout(() => {
+    const target = nodes.find(n => n.id === id);
+    if (!target || target.x == null) return;
+    const ring = g.append('circle')
+      .attr('class', 'pulse-ring active')
+      .attr('cx', target.x).attr('cy', target.y).attr('r', 6);
+    setTimeout(() => ring.remove(), 1500);
+  }, 100);
+
+  updateFooter();
+}
+
+function resetGraph() {
+  svg.transition().duration(500).call(zoom.transform, d3.zoomIdentity);
+  sim.alpha(0.7).restart();
+}
+
+window.addEventListener('resize', () => {
+  svg.attr('viewBox', `0 0 ${W()} ${H()}`);
+  sim.force('center', d3.forceCenter(W()/2, H()/2));
+  sim.alpha(0.3).restart();
+});
+</script>
+</body>
+</html>

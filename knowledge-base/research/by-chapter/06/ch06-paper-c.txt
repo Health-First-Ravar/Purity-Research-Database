@@ -1,0 +1,1721 @@
+Phytochem Rev (2015) 14:765–798
+DOI 10.1007/s11101-014-9375-z
+
+
+
+
+Trigonelline and related nicotinic acid metabolites:
+occurrence, biosynthesis, taxonomic considerations,
+and their roles in planta and in human health
+Hiroshi Ashihara • Iziar A. Ludwig •
+Riko Katahira • Takao Yokota •
+Tatsuhito Fujimura • Alan Crozier
+
+
+
+Received: 19 January 2014 / Accepted: 1 August 2014 / Published online: 17 August 2014
+Ó Springer Science+Business Media Dordrecht 2014
+
+
+Abstract This review describes the occurrence and                catabolites is called the pyridine nucleotide cycle
+biosynthesis of trigonelline (N-methylnicotinic acid)            (PNC). Isotopic labelling and enzymatic studies
+and related nicotinic acid metabolites. High concen-             indicate a seven-component PNC VII pathway is the
+trations of trigonelline are found in seeds of coffee,           major route. All plants examined convert exogenous
+and some members of the Fabaceae, while trace                    nicotinic acid to trigonelline and/or nicotinic acid N-
+amounts occur in many other species. In contrast, the            glucoside (NaG). In general, NaG formation is
+occurrence of other pyridine alkaloids derived from              restricted to ferns and selected orders of angiosperms,
+nicotinic acid is limited. Nicotinic acid, a precursor of        whereas other plants produce trigonelline. The bio-
+the secondary pyridine metabolites, is derived from              synthesis of other pyridine alkaloids, of which many
+pyridine nucleotides. In planta, pyridine nucleotide             details remain to be resolved, is discussed briefly. The
+biosynthesis de novo is initiated from aspartic acid.            potential in planta roles of trigonelline, including
+The degradation of NAD and its regeneration from the             detoxification, nyctinasty and host selection are dis-
+                                                                 cussed. Coffee beverage is the major food containing
+                                                                 trigonelline and some vegetables also contain trigo-
+H. Ashihara (&)                                                  nelline. The possible effects of trigonelline on health
+Department of Biology, Ochanomizu University,                    mediated via hypoglycaemic, neuroprotective, anti-
+Tokyo 112-8610, Japan
+                                                                 cancer, estrogenic, and antibacterial activities are
+e-mail: ashihara.hiroshi@ocha.ac.jp
+                                                                 reviewed. Finally, potential genetic manipulation of
+I. A. Ludwig  A. Crozier                                        biosynthetic pathways to create trigonelline- and
+Plant Products and Human Nutrition Group, School of              vitamin B3-rich plants and agricultural uses of trigo-
+Medicine, College of Medical, Veterinary and Life
+                                                                 nelline-rich genetically modified crops and trees are
+Sciences, University of Glasgow, Glasgow G12 8QQ, UK
+                                                                 discussed.
+R. Katahira
+Department of Lifestyle Studies, Kobe Shoin Women’s              Keywords Pyridine alkaloids  Occurrence 
+University, Kobe 657-0015, Japan
+                                                                 Biosynthesis  Pyridine nucleotide cycle  Coffee
+T. Yokota
+Department of Biosciences, Teikyo University,
+Utsunomiya 320-8551, Japan
+                                                                 Abbreviations
+                                                                 DW         Dry weight
+T. Fujimura                                                      FW         Fresh weight
+Faculty of Life and Environmental Sciences, University of        NaAD       Nicotinic acid adenine dinucleotide
+Tsukuba, Tsukuba 305-8572, Japan
+
+
+                                                                                                              123
+766                                                                                 Phytochem Rev (2015) 14:765–798
+
+
+NaG          Nicotinic acid N-glucoside                    Fig. 1 Chemical structures of pyridine alkaloids and relatedc
+                                                           compounds. Trigonelline (1), nicotinic acid-N-glucoside (2),
+NaMN         Nicotinic acid mononucleotide                 ricinine (3), arecoline (4), nicotine (5), nornicotine (6),
+NaMNAT       Nicotinate mononucleotide                     anabasine (7), anatabine (8), actinidine (9), gentianine (10),
+             adenylyltransferase                           evonine (11) and hippocrateine (12)
+NaPRT        Nicotinate phosphoribosyltransferase
+NaR          Nicotinic acid N-riboside
+NMN          Nicotinamide mononucleotide                   Although at the time little was known about trigonel-
+NR           Nicotinamide N-riboside                       line metabolism, Minorsky’s short article in (2002)
+NMNAT        Nicotinamide mononucleotide                   provided a fascinating insight into the potential roles
+             adenylyltransferase                           of trigonelline in planta. Studies with coffee (Coffea
+PNC          Pyridine nucleotide cycle                     arabica and Coffea canephora), mungbean (Phaseo-
+PRPP         5-Phosphoribosyl-1-pyrophostate               lus aureus) and potato (Solanum tuberosum) have
+QPRT         Quinolinate phosphoribosyltransferase         investigated the metabolic pathways which produce
+SAM          S-adenosyl-L-methionine                       trigonelline (Ashihara 2008; Ashihara et al. 2012;
+                                                           Katahira and Ashihara 2009; Zheng et al. 2005).
+                                                           Furthermore, trigonelline has recently attracted inter-
+                                                           est as a potentially protective dietary agent in human
+Introduction                                               health (Ashihara 2014).
+                                                               This review first describes the occurrence of trigo-
+Trigonelline (1-N-methylnicotinic acid, nicotinic acid     nelline in plants and for comparative purposes, the
+N-methylbetaine) (1 in Fig. 1) was originally isolated     occurrence of other pyridine alkaloids derived from
+from fenugreek (Trigonella foenum-graecum) by              nicotinic acid is also summarized. As pyridine nucle-
+Johns (1885). This was the first isolation of a pyridine   otide biosynthesis is closely related to the biosynthesis
+derivative from a living organism. Trigonelline is         of trigonelline and other pyridine alkaloids, current
+synthesized from nicotinic acid which is a catabolite of   knowledge of pyridine nucleotide biosynthesis de novo
+pyridine nucleotides. The biosynthesis of trigonelline     and the pyridine nucleotide cycle, which includes
+is, therefore, analogous to that of caffeine (1,3,7-N-     pyridine nucleotide degradation, nicotinic acid forma-
+trimethylxanthine) which is derived from purine            tion and regeneration of NAD, are also discussed. These
+nucleotides (Ashihara et al. 2008, 2013). Both the         metabolic pathways are involved in primary metabo-
+caffeine and trigonelline biosynthetic pathways            lism, and some plant specific pathways have been
+involve reactions catalysed by S-adenosyl-L-methio-        elucidated. In planta and eco-chemical functions of
+nine (SAM)-dependent-N-methyltransferases. Com-            trigonelline are discussed. Finally, the involvement of
+pared to caffeine (see Ashihara et al. 2013),              trigonelline in human nutrition and health is summa-
+trigonelline has a more widespread distribution in         rised along with the possible genetic manipulation of
+the plant kingdom. Several hypotheses have been            the trigonelline content of plants.
+proposed on the physiological functions of trigonelline
+in plants. More than 10 years ago, Peter Minorsky
+summarized the state of knowledge regarding in             Occurrence of trigonelline in plant kingdom
+planta functions of trigonelline in his column ‘‘The
+Hot and the Classic’’ in the journal, Plant Physiology     The available literature indicates that trigonelline
+(Minorsky 2002). Trigonelline first gained the atten-      accumulates in seeds of legumes and coffee. Tramont-
+tion of plant biologists because it proved to be very      ano et al. (1986) studied the concentration of trigonel-
+effective in inducing G2 arrest in the root apices of      line in seeds of representatives of 21 of 24 superorders
+numerous plant species (Evans and Tramontano               of the Dicotyledoneae, investigating whether phyloge-
+1981). Evidence from diverse quarters has been slowly      netic relationships are reflected in the relative amounts
+accumulating indicating that the effects of trigonelline   of trigonelline. With the exception of the Fabiflorae, the
+are not limited to cell cycle regulation and it now        quantities of trigonelline were variable within certain
+appears to be involved in the control of several other     superorders, whereas other superorders, such as the
+processes in plants, as discussed in this review.          Violiflorae, Primuliflorae, Rosiflorae, Rutiflorae,
+
+
+123
+Phytochem Rev (2015) 14:765–798     767
+
+
+
+
+                                  123
+768                                                                                                Phytochem Rev (2015) 14:765–798
+
+
+Table 1 Occurrence of pyridine alkaloids in plant kingdom
+Compound                        Species                Common name        Organ            Concentration    Reference
+
+Trigonelline (1)                Trifolium incarnatum   Clover (Crimson)   Seed             58 (lmol/g FW)   Matsui et al. (2007)
+                                Coffea arabica         Coffee             Seed             53               Matsui et al. (2007)
+                                Glycine max            Soybean            Seed             1.2              Matsui et al. (2007)
+                                Oryza sativa           Rice               Seed             0.04             Matsui et al. (2007)
+Nicotinic acid N-glucoside(2)   Nicotiana tabacum      Tobacco            Cultured cells   0                Nishitani et al. (1995)
+Ricinine (3)                    Ricinus communis       Caster bean        Leaf             23 (lmol/g DW)   Waller et al. (1965)
+Arecoline (4)                   Areca catechu          Areca palm         Seed                              Jahns (1891)
+Nicotine (5)                    Nicotiana tabacum                         Leaf             67 (lmol/g DW)   Saitoh et al. (1985)
+Nornicotine (6)                 N. glutinosa                              Leaf             47               Saitoh et al. (1985)
+Anabasine (7)                   N. glauca                                 Leaf             57               Saitoh et al. (1985)
+Anatabine (8)                   N. otophora                               Leaf             1.4              Saitoh et al. (1985)
+Actinidine (9)                  Actinidia polygama     Silver vine                                          Sakan et al. (1959)
+Gentianine (10)                 Enicostema littorale                                                        Iyer et al. (1956)
+                                Halenia corniculata                                                         Hesse (2002)
+Evonine (11)                    Euonymus europaeus     European spindle                                     Pailer and Libiseller (1962)
+                                Euonymus               Mayumi                                               Wada et al. (1971)
+                                 sieboldiana
+Hippocrateine (12)              Hippocratea excelsa                       Root bark                         Mata et al. (1990)
+
+
+
+Araliiflorae and Gentianiflorae, yielded levels that were             of four o’clock flower, the trigonelline concentration in
+consistently low. Trace amounts of trigonelline were                  young leaves was 2.6 lmol/g FW and this decreased with
+present in all of the superorders when compared with                  age with mature leaves containing 0.4 lmol/g FW
+the relatively high levels in the Fabiflorae in which the             (Ashihara and Watanabe 2014). A similar trend was
+highest concentration, 9.5 lmol/g fresh weight (FW),                  observed in roots with the radical of 7-day-old seedlings
+was detected in cork bush (Mundulea sericea), a                       containing 3.5 lmol/g FW of the pyridine alkaloid with
+leguminous species (Tramontano et al. 1986). Subse-                   levels in the roots of 4-month-old plants declining to
+quently, higher concentrations have been found to                     0.8 lmol/g FW (Ashihara and Watanabe 2014). In these
+occur in seeds of clover (Trifolium incarnatum,                       three species, trigonelline occurred in all parts of plant
+58 lmol/g FW), coffee (Coffea arabica, 53 lmol/g                      with the concentrations being higher in younger than in
+FW) and alfalfa (Medicago sativa, 12 lmol/g FW)                       mature tissues. This is in contrast to the distribution of
+(Matsui et al. 2007).                                                 caffeine in Coffea arabica where it is located principally
+   Trigonelline occurs not just in seeds but other organs,            in older leaves and stems (Zheng and Ashihara 2004).
+including leaves and roots. High levels of trigonelline in            Trace amounts of trigonelline have been detected in the
+these tissues have been found only in a few species                   shoots of 96 of the 143 angiosperm species examined by
+including coffee (Coffea arabica), orange jessamine                   Blunden et al. (2005).
+(Murraya paniculata) and four o’clock flower (Mirabilis
+jalapa). Trigonelline has been detected in young leaves
+and roots of Coffea arabica at concentrations of 19.5 and             Occurrence of other pyridine alkaloids derived
+6.4 lmol/g FW, respectively, while young stems con-                   from nicotinic acid
+tained 47.7 lmol/g FW (Zheng and Ashihara 2004). The
+seeds and pericarp of mature Coffea fruits contained 25.5             In addition to trigonelline, several secondary metab-
+and 12.0 lmol/g FW, respectively (Zheng et al. 2004).                 olites related to pyridine have been detected in plants.
+Trigonelline concentrations in young leaves and roots of              They vary from simple nicotinic acid metabolites to
+orange jessamine were 13.4 and 4.1 lmol/g FW,                         complicated sesquiterpene pyridine derivatives that
+respectively (Ashihara and Watanabe 2014). In leaves                  occur in only a few species (Table 1). Nicotinic acid
+
+
+123
+Phytochem Rev (2015) 14:765–798                                                                                     769
+
+
+N-glucoside (NaG, 2), ricinine (3) and arecoline (4)         isolation of 19 sesquiterpene pyridine alkaloids from
+are simple nicotinic acid derivatives. Accumulation of       the stem bark of Hippocratea excels.
+NaG occurs infrequently, although it is readily
+synthesized from nicotinic acid in ferns and some
+angiosperms (see metabolism section). Nishitani et al.       Pyridine nucleotide biosynthesis in plants
+(1995) reported that NaG was detected in cultured
+tobacco cells only when nicotinic acid or nicotinamide       Trigonelline and other nicotinic acid derivatives are
+was included in the culture medium.                          formed from pyridine nucleotides which are synthe-
+   Ricinine, a cyano-substituted pyridine compound,          sized de novo from amino acid precursors. Two
+is a toxic alkaloid produced by caster bean (Ricinus         distinct pathways, the aspartate and kynurenine (or
+communis). It is present in all parts of the young caster    tryptophan) pathways have been reported to operate in
+bean plant at levels of *6 lmol/g FW (Waller et al.          various organisms (Fig. 2) (Katoh and Hashimoto
+1966b). Arecoline, which was first isolated from seeds       2004; Zrenner and Ashihara 2011). There has been
+of the betel nut palm (Areca catechu) by Jahns (1891),       debate on the participating pathways in plants.
+is a cholinergic alkaloid. Nicotine (5) and related          Initially, Gustafson (1949) reported that tryptophan
+compounds, such as nornicotine (6), anabasine (7) and        was an intermediate of nicotinic acid biosynthesis and
+anatabine (8), are polycyclic non-condensing pyridine        several subsequent papers supported this proposal
+derivatives.                                                 (Arditti and Tarr 1979; Tarr and Arditti 1982).
+   Nicotine is the most abundant alkaloid in tobacco         However, Griffith et al. (1962) produced data in
+comprising more than 90 % of the total alkaloid              keeping with the operation of the aspartate pathway
+content. Minor alkaloids in tobacco include nornico-         which does not involve tryptophan as an intermediate.
+tine, anabasine and anatabine. The distribution of           Incorporation of aspartate into the pyridine ring of
+alkaloids in leaves and roots of 60 Nicotiana species        pyridine alkaloids has also been demonstrated (Jack-
+has been reported (Saitoh et al. 1985). Nicotine was         anicz and Byerrum 1966; Yang and Waller 1965).
+the dominant constituent in leaves of 33 species             Genomic studies indicate the aspartate pathway is
+including N. tabacum, while nornicotine was a major          operative in plants (Katoh et al. 2006) while the
+component in 24 species, anabasine in two species, N.        kynurenine pathway occurs in animals, fungi and
+glauca and N. debneyi, and anatabine of one species,         some bacteria (Kurnasov et al. 2003; Rongvaux et al.
+N. otophora. In roots, nicotine was the major pyridine       2003). Katoh and Hashimoto (2004) suggested the
+derivative in 51 species, nornicotine in two species, N.     genome sequences of rice (Oryza sativa) contain the
+alata and N. africana, and anabasine in seven species,       homologs of putative enzymes for all five steps in the
+N. glauca, N. solanifolia, N. benavidesii, N. cordgolia,     kynurenine pathway. However, most of the sequences
+N. debneyr, N. maritlma and N. hesperis. In most             shown by these investigators are not found in the
+species the concentrations of anatabine and anabasine        current rice genome databases. The sequences
+are higher in roots than in leaves, but the reverse          AK110021 and AK111206 have no homologous
+occurs in N. glauca, N. tabacum, N. repanda and N.           regions in the rice genome. The sequence of
+hesperis, N. alata, N. corymbosa and N. hesperis.            AK119212 has domains for pyridoxal-50 -phosphate-
+   Actinidine (9) is found in silver vine (Actinidia         dependent aminotransferase, which is not thought to
+polygama) and the essential oil of valerian (Valeriana       be involved in the kynurenine pathway. It has,
+officinalis) roots (Sakan et al. 1959). Gentianine (10), a   therefore, been suggested that monocotyledonous
+monoterpene alkaloid, has been isolated from a               plants, such as rice, also synthesize NAD from
+number of plants of the families Gentianaceae and            aspartate rather than tryptophan.
+Loganiaceae including Halenia corniculata and Eni-              In the first step of the aspartate pathway, aspartate is
+costema littorale (Iyer et al. 1956; Hesse 2002). There      oxidised to a-iminosuccinic acid by aspartate oxidase
+are many sesquiterpene pyridine derivatives. For             (EC 1.4.3.16; step 1, Fig. 2). In the next step, a-
+example, evonine (11) was isolated from Euonymus             iminosuccinic acid is condensed with glyceraldehyde-
+species (Pailer and Libiseller 1962; Wada et al. 1971)       3-phosphate or dihydroxyacetone phosphate and cyc-
+while hippocrateine (12) occurs in Hippocratea excels        lised to produce quinolinic acid by quinolinate
+(Mata et al. 1990). Furukawa et al. (2002) reported the      synthase (EC 2.5.1.72; step 2, Fig. 2). The third step
+
+                                                                                                             123
+770                                                                                       Phytochem Rev (2015) 14:765–798
+
+
+
+
+Fig. 2 Aspartate pathway of the pyridine nucleotides biosyn-    (2.5.1.72); (3) quinolinate phosphoribosyltransferase (decarb-
+thesis de novo in plants. Enzymes (EC numbers) shown are: (1)   oxylating) (2.4.2.19); (4) nicotinate mononucleotide adenylyl-
+L-aspartate oxidase (1.4.3.16); (2) quinolinate synthase        transferase (2.7.7.18); (5) NAD synthase (6.3.5.1)
+
+
+
+
+is catalyzed by quinolinate phosphoribosyltransferase           Enzymes involved in the de novo pyridine
+(EC 2.4.2.19), which forms nicotinic acid mononu-               nucleotide biosynthesis
+cleotide (NaMN) from quinolinic acid and 5-phos-
+phoribosyl-1-pyrophostate (PRPP) (step 3, Fig. 2).              L-Aspartate oxidase and quinolinate synthase
+The two subsequent enzymatic steps then convert
+NaMN to NAD (steps 4 and 5, Fig. 2). NaMN reacts                Native L-aspartate oxidase (EC 1.4.3.16) has been
+with ATP and NaMN adenylyltransferase (EC                       partially purified from callus cells of cotton (Gossy-
+2.7.7.18) to form a condensed compound, nicotinic               pium hirsutum) by Hosokawa et al. (1983). The cotton
+acid adenine dinucleotide (NaAD) (step 4 in Fig. 2).            enzyme uses L-aspartate as a substrate, but not used
+Finally, the nicotinic acid moiety in NaAD is amidated          D-aspartate, L-glutamate or L-alanine. Some of its
+with glutamine to a nicotinamide moiety by NAD                  chemical and kinetic properties are similar to an E. coli
+synthase (glutamine-hydrolysing) (EC 6.3.5.1) and               enzyme which participates in the first step of pyridine
+NAD is formed (step 5 in Fig. 2). The steps between             nucleotide biosynthesis (Nasu et al. 1982). In contrast,
+NaMN and NAD were discovered by Preiss and                      no in vitro enzymatic studies were performed on
+Handler (1958) and are referred to as the ‘Preiss–              quinolinate synthase (EC 2.5.1.72) in plants prior to
+Handler pathway’ in older literature (Moat and Foster           the enzyme being investigated with a molecular
+1987). NaMN is also synthesized from nicotinic acid             approach.
+via the pyridine nucleotide cycle (see below). NADP is             Recent computer searches of the Arabidopsis
+formed from NAD (step 9 in Fig. 3) by NAD kinase                genome database revealed that the protein encoded
+(EC 2.7.1.23) (Turner et al. 2004), and in mitochon-            by At5g14760 has significant homology to E. coli L-
+dria, NADPH is formed from NADH by NADH kinase                  aspartate oxidase and the protein encoded by
+(EC 2.7.1.86) (Turner et al. 2005).                             At5g50210 is a homolog of E. coli quinolinate
+
+
+
+123
+Phytochem Rev (2015) 14:765–798                                                                                              771
+
+
+
+
+Fig. 3 Outline of the pyridine nucleotide cycle in plants.        nicotinamidase (3.5.1.19); (6) nicotinate phosphoribosyltrans-
+Enzymes (EC numbers) shown are: (1) poly (ADP-ribose)             ferase (2.4.2.11); (7) NaMN adenylyltransferase (2.7.7.18); (8)
+polymerases (2.4.2.30), mono (ADP-ribosyl) transferase            NAD synthase (6.3.5.1); (9) NAD kinase (2.7.1.23). Metabo-
+(2.4.2.31) or NAD-dependent deacetylase (Sir 2) (3.5.1.-); (2)    lites: NaAD nicotinic acid adenine dinucleotide, NaMN
+NAD pyrophosphatase (3.6.1.22); (3) 50 -nucleotidase (3.1.3.5);   nicotinic acid mononucleotide, NMN nicotinamide mononu-
+(4) nicotinamide riboside nucleosidase (3.2.2.-); (5)             cleotide, NR nicotinamide riboside
+
+
+synthase. To test whether the Arabidopsis genes                   reported that OLD5 encodes quinolinate synthase. The
+encode these enzymes, they were introduced and                    Arabidopsis quinolinate synthase was shown to carry a
+expressed in E. coli mutants deficient in L-aspartate             Cys desulfurase domain that stimulates reconstitution
+oxidase (nadB2) or quinolinate synthase (nadA2).                  of the oxygen-sensitive Fe–S cluster that is required
+When At5g14760 was expressed in the nadB2 geno-                   for quinolinate synthase activity (Narayana Murthy
+type, E. coli cells were able to form colonies on                 et al. 2007). The old5 lesion in this enzyme does not
+minimal medium lacking nicotinic acid. Likewise,                  affect quinolinate synthase activity but it decreases its
+expression of At5g50210 in the nadA2 genotype also                Cys desulfurase activity and, thereby, the long-term
+complemented the requirement of an exogenous                      catalytic competence of the enzyme (Schippers et al.
+source of nicotinic acid for growth. These findings               2008). Arabidopsis L-aspartate oxidase and quinolin-
+suggest that At5g14760 and At5g50210, respec-                     ate synthase contain extra amino acid sequences at
+tively, encode L-aspartate oxidase and quinolinate                their N termini relative to their E. coli counterparts. It
+synthase. L-Aspartate oxidase catalyzes the reac-                 has been predicted that Arabidopsis L-aspartate oxi-
+tion: L-aspartate ? O2 ? a-iminosuccinate ? H2O2,                 dase and quinolinate synthase are targeted to plastids
+while quinolinate synthase catalyzes the reaction: a-             (Katoh et al. 2006).
+iminosuccinate ? glyceraldehydes 3-phosphate ?
+qunolinic acid (pyridine-2,3-dicarboxylate) ? 2H2O ?              Quinolinate phosphoribosyltransferase (QPRT)
+phosphate. Both genes are single genes in the Arabi-
+dopsis genome (Katoh et al. 2006).                                Native QPRT has been purified from endosperm of
+   The Arabidopsis mutant old 5 (onset of leaf death 5)           etiolated castor bean (Ricinus communis) seedlings
+exhibits early leaf senescence. Schippers et al. (2008)           (Mann and Byerrum 1974a, b). The enzyme transfers
+
+                                                                                                                     123
+772                                                                               Phytochem Rev (2015) 14:765–798
+
+
+the phosphoribosyl group from PRPP to quinolinic          conversion of NaMN to NaAD in NAD biosynthesis
+acid forming NaMN with the release of CO2 and             and also in the simplest pyridine nucleotide cycle
+pyrophosphate. The estimated molecular weight of the      (PNC II), a NAD ? NMN ? NAD pathway (see
+enzyme is *70,000 and consists of two subunits each       below).
+with a molecular weight of *35,000. Inhibition of
+QPRT by several substrate analogues suggested that        NAD synthetase
+both the 2- and the 3-carboxyl groups on the pyridine
+ring are needed for substrate binding to the enzyme       Glutamine-dependent NAD synthetase activity was
+(Mann and Byerrum 1974a, b). Sinclair et al. (2000)       detected in roots and induced callus cultures of
+characterized the cDNAs for QPRT from Nicotiana           Nicotiana tabacum (Wagner et al. 1986b; Wagner
+rustica and Nicotiana tabacum. Deduced proteins           et al. 1986c). The enzyme catalyzes the reaction:
+from both cDNAs are almost identical and contain a 24     NaAD ? ATP ? L-glutamine ? H2O ? L-glutamate ?
+amino acid N-terminal extension that has characteris-     NAD ? AMP ? PPi ? H?. The Arabidopsis database
+tics of a mitochondrial targeting sequence. In N.         contains a homolog of the putative glutamine-dependent
+tabacum which contains nicotine as the major pyridine     NAD synthetase gene, AT1G55090 (Katoh and Ha-
+alkaloid, QPRT transcript was detected in roots, the      shimoto 2004), but as yet a recombinant enzyme has not
+site of nicotine synthesis, but not in leaves. Southern   been obtained.
+analysis of genomic DNA from several Nicotiana
+species suggests that QPRT is encoded by a small gene     Pyridine nucleotide cycle
+family.
+                                                          In many organisms, nicotinamide and nicotinic acid
+NaMN/NMN adenylyltransferase (NaMNAT/                     are produced by the degradation of NAD and NADP.
+NMNAT)                                                    They are re-utilised for the synthesis of pyridine
+                                                          nucleotides by salvage pathways. The route, which
+Native nicotinate mononucleotide adenylyltransferase      consists of several reactions involved in the degrada-
+(NaMNAT) activity has been detected in extracts from      tion and re-synthesis of pyridine nucleotides, has been
+plant tissues including roots and callus cultures of      referred to as the pyridine nucleotide cycle (Gholson
+Nicotiana tabacum (Wagner et al. 1986b, c) and potato     1966; Waller et al. 1966b). In plants, this cycle is also
+tubers (Katahira and Ashihara 2009). Native nicotin-      important in supplying nicotinic acid for the synthesis
+amide adenylyltransferase (NMNAT) activity has also       of pyridine alkaloids (Katahira and Ashihara 2009)
+detected in root extracts of Nicotiana tabacum,           (Figs. 3, 4; Table 2).
+although the activity was less than 20 % of that of          Pyridine nucleotide cycles show wide variations
+NaMNT (Wagner and Wagner 1985). Molecular                 between species and even organs (Moat and Foster
+genetic analysis has revealed that NaMNT and NMNT         1987; Wagner and Backer 1992; Ashihara et al. 2005;
+are the same enzyme (see below).                          Noctor et al. 2006). The simplest cycle (PNC II)
+   There are three human nicotinamide mononucleo-         appears to be a NAD ? nicotinamide mononucleo-
+tide adenylyltransferase (NMNAT) isoforms (Zhang          tide (NMN) ? NAD pathway. Wagner and Wagner
+et al. 2003), but searches of the TAIR database           (1985) found NAD pyrophosphatase and NMN ade-
+suggested that only Arabidopsis possesses a single        nylyltransferase activity in Nicotiana tabacum, so this
+copy of a putative NMNAT-encoding gene, AtNM-             cycle might operate in tobacco. However, a more
+NAT (At5g55810) (Hunt et al. 2004). NMNAT cata-           complicated cycle appears to occur in most plants,
+lyzes the conversion of NaMN to NaAD as well as           because experiments using radioactive precursors,
+NMN to NAD. The enzymatic activity of the AtNM-           such as [3H]quinolinic acid, have shown the incorpo-
+NAT-encoded protein was assessed using a recombi-         ration of radioactivity into catabolites of NAD (Ash-
+nant GST-AtNMNAT, i.e., AtNMNAT protein fused             ihara et al. 2005). Recent studies on the profile of
+at the C-terminus of glutathione-S-transferase (GST),     enzyme activities involved in pyridine nucleotide
+and the results obtained suggest that the AtNMNAT         cycle indicate the operation of some minor routes
+gene encodes a functional NMNAT enzyme (Hashida           (Katahira and Ashihara 2009; Ashihara and Deng
+et al. 2007). In plants, this enzyme is involved in the   2012). As an example, comprehensive profiles of
+
+123
+Phytochem Rev (2015) 14:765–798                                                                                             773
+
+
+
+
+Fig. 4 Detailed metabolic pathways of pyridine metabolism in    NaR kinase (2.7.1.173); (11a) NR kinase (2.7.1.22); (12)
+plants including pyridine nucleotide biosynthesis, NAD catab-   Quinolinate     phosphoribosyltransferase      (decarboxylating)
+olism, nicotinic acid salvage and conjugates formation.         (2.4.2.19); (13) 50 -Nucleotidase (3.1.3.5); (14) NaR nucleosi-
+Enzymes (EC numbers) shown are: (1) to (9) see legends in       dase (3.2.2.-); (15) Trigonelline synthase (2.1.1.7); (16)
+Fig. 3); (3a) NMN phosphoribohydrolase (3.2.2.14); (3b)         Nicotinate N-glucosyltransferase (2.4.1.196). Enzymes which
+Nicotinamide phosphoribosyltransferase (2.4.2.12); (4a) NR      catalyse steps 3a, 3b, 4a, 5b, 10 and 11a (arrows with dotted
+nucleosidase (3.2.2.-); (5a) NR deaminase (3.5.1.-); (5b) NMN   lines) are not detected in plants. QA quinolinic acid
+deamidase (3.5.1.42); (10) NaR phosphorylase (2.4.2.-); (11)
+
+
+
+enzyme activities of pyridine related metabolism in             enzymes that have been found in several species
+potato tubers are shown in Table 2.                             including mungbean and potato (Table 2) (Katahira
+   A seven-component pyridine nucleotide cycle                  and Ashihara 2009; Matsui and Ashihara 2008). These
+(PNC VII), NAD ? NMN ? NR ? nicotinamide                        findings imply that a new six-component pyridine
+? nicotinic acid ? NaMN ? NaAD ? NAD route                      nucleotide cycle (PNC VI), namely a NAD
+(steps 2–8 in Fig. 3) and a five-component pyridine             ? NMN ? NR ? NaR ? NaMN ? NaAD ? NAD
+nucleotide cycle (PNC V), NAD ? nicotinamide ?                  route (steps 2–3, 5a, 11, and 7-8 in Fig. 4) which
+nicotinic acid ? NaMN ? NaAD ? NAD route                        together with the PNC VII, NAD ? NMN ?
+(steps 1 and 5–8 in Fig. 3) have been proposed as               NR ? NaR ? nicotinic acid ? NaMN ? NaAD ?
+the main pyridine cycles in plants (see Zrenner and             NAD pathway (steps 2–3, 5a, 14 and 6-8 in Fig. 4) can
+Ashihara 2011). However, minor routes also operate.             function in some plants. The most likely rate-limiting
+Detailed pathways of NAD metabolism including                   step of the pyridine cycle (PNC VII) appears to be that
+minor routes and other pathways observed in animals             catalyzed by nicotinate phosphoribosyltransferase
+are illustrated in Fig. 4. NR deaminase and nicotinic           (NaPRT) (step 6 in Fig. 4), an enzyme that requires
+acid N-riboside (NaR) kinase are unique plant                   ATP for activity (Zheng et al. 2005). Hence, availability
+
+
+                                                                                                                    123
+774                                                                                             Phytochem Rev (2015) 14:765–798
+
+
+Table 2 Profiles of activities of enzymes involved in pyridine nucleotide cycle and related pathways in growing potato tubers
+Reaction (Step number in Fig. 4)                             Enzyme (EC)                                        Enzyme activity
+
+Pyridine nucleotide cycle
+NAD ? NMN ? AMP (2)                                          NAD pyrophosphatase (3.6.1.22)                     44.1 ± 0.1
+NMN ? N ? Ribose-5-phosphate (3a)                            NMN phosphoribohydrolase (3.2.2.14)                nd
+NMN ? NR ? Pi (3)                                            50 -Nucleotidase (3.1.3.5)                         1.50 ± 0.3
+NR ? N ? ribose (4)                                          NR nucleosidase (3.2.2.–)                          1.31 ± 0.3
+N ? PRPP ? NMN ? PPi (3b)                                    Nicotnamide phophoribosyltransferase               nd
+                                                              (2.4.2.12)
+NMN ? NaMN ? NH3 (5b)                                        NMN deamidase (3.5.1.42)                           nd
+NR ? NaR ? NH3 (5a)                                          NR deaminase (3.5.1.–)                             12.5 ± 2.4
+N ? Na ? NH3 (5)                                             Nicotinamidase (3.5.1.19)                          5.7 ± 0.8
+Na ? PRPP ? NaMN ? PPi (6)                                   Nicotinate phosphoribosyltransferase (2.4.2.11)    0.37 ± 0.05
+Na ? Ribose-1-phosphate ? NaR ? Pi (10)                      NaR phosphorylase (2.4.2.–)                        nd
+NaR ? ATP ? NaMN ? ADP (11)                                  NaR kinase (2.7.1.173)                             0.65 ± 0.14
+NaMN ? ATP ? NaAD ? PPi (7)                                  NaMN adenylyltransferase (2.7.7.18)                23.1 ± 4.0
+Nicotinic acid conjugates synthesis
+NaMN ? NaR ? Pi (13)                                         50 -Nucleotidase (3.1.3.5)                         6.6 ± 0.6
+NaR ? Na ? ribose (14)                                       NaR nucleosidase (3.2.2.–)                         1.36 ± 0.42
+Na ? UDP-glucose ? Nicotinic acid-N-glucoside                Nicotinate N-glucosyltransfease (2.4.1.196)        23.8 ± 3.5
+ ? UDP (16)
+Na ? SAM ? Trigonelline ? SAH (15)                           Trigonelline synthase (2.1.1.7)                    nd
+                                                -1
+The activities are expressed as pkat (mg protein)
+Adapted from Katahira and Ashihara (2009)
+nd no activity detected, N nicotinamide, Na nicotinic acid
+
+of ATP, as well as PRPP, regulates the formation of                   Fig. 4) (Ashihara et al. 2005; Noctor et al. 2006). NAD
+NaMN. In contrast, other conversions, including those                 is hydrolyzed to NMN and AMP by NAD pyrophos-
+catalysed by nicotinamidase (step 5) and NaMN                         phatase (EC 3.6.1.22). NMN is further hydrolyzed to
+adenylyltransferase (step 7), appear not to be the rate-              NR and phosphate. This reaction might be catalyzed
+limiting step in the PNC pathway, since there was little              by a non-specific 50 -nucleotidase (EC 3.1.3.5). NR is
+accumulation of the substrates nicotinamide and NaMN                  hydrolyzed by nicotinamide riboside nucleosidase
+in most plants (Katahira and Ashihara 2009; Matsui                    (EC 3.2.2.-). NMN nucleosidase (NMN glycohydro-
+et al. 2007). An adequate supply of ATP also appears to               lase, EC 3.2.2.14) activity has been detected in
+be required for NaMN adenylyltransferase to form the                  Nicotiana tabacum (Wagner et al. 1986a, b, c) but it
+adenine nucleotide moiety of NAD.                                     is absent in potato tubers (Table 2) (Katahira and
+                                                                      Ashihara 2009). The reaction catalysed by this enzyme
+                                                                      is: NMN ? H2O ? ribose 5-phosphate ? nicotin-
+Catabolism of NAD                                                     amide (step 3a in Fig. 4). The enzyme assay system
+                                                                      used in the Wagner et al. studies did not include the
+NAD appears to be catabolised to nicotinamide via at                  detection of ribose 5-phosphate. It is, therefore,
+least two routes in plants. The first is direct formation             possible that they measured the combined activity of
+from NAD which releases ADP-ribose and is cata-                       50 -nucleotidase and nicotinamide riboside nucleosi-
+lysed by poly(ADP-ribose) polymerases, mono(ADP-                      dase (steps 3 and 4) in their crude enzyme prepara-
+ribosyl) transferase or NAD-dependent deacetylase                     tions. Nicotinamide is readily converted to nicotinic
+(Sir 2) (Noctor et al. 2006) (step 1 in Fig. 4). The                  acid by a plant-specific nicotinamidase (step 5). In
+second is the three-step formation of nicotinamide via                addition to nicotinamidase, nicotinamide riboside
+NMN and nicotinamide riboside (NR) (steps 2–4 in                      deaminase (step 5a) has been detected in potato tubers
+
+
+123
+Phytochem Rev (2015) 14:765–798                                                                                               775
+
+
+Table 3 Plant speices used to study the metabolism of [14C]nicotinamide or [14C]nicotinic acid
+                              Class                         Order            Family              Species
+
+Pteridophyta (ferns)          Psilotopsida                  Psilotales       Psilotaceae         Psilotum nudum (1)
+                              Marattiopsida                 Marattiales      Marattiaceae        Angiopteris evecta (2)
+                              Pteridopsida                  Schizaeales      Lygodiaceae         Lygodium japonicum (3)
+                                                            Cyatheales       Cyatheaceae         Cyathea lepifera (4)
+                                                            Polypodiales     Pteridaceae         Acrostichum aureum (5)
+                                                                             Aspleniaceae        Asplenium antiquum (6)
+                                                                             Thelypteridaceae    Thelypteris acuminata (7)
+                                                                             Woodsiaceae         Diplazium subsinuatum (8)
+                                                                             Blechnaceae         Blechnum orientale (9)
+                                                                             Dryopteridaceae     Crytomium fortunei (10)
+Gymnospermae                  Cycadopsida                   Cycadales        Cycadaceae          Cycas revoluta (11)
+                              Ginkgoopsida                  Ginkgoales       Ginkgoaceae         Ginkgo biloba (12)
+                              Pinopsida                     Pinales          Pinaceae            Picea glauca (13)
+                                                                             Pinaceae            Pinus luchuensis (14)
+                                                                             Casuarinaceae       Casuarina equisetifolia (15)
+Magnoliophyta                 Liliopsida                    Alismatales      Araceae             Alocasia odora (16)
+ (angiospermae)                (monocotyledons)
+                                                            Pandanales       Pandanaceae         Pandanus odoratissimus (17)
+                                                            Arecales         Arecaceae           Arenga trewmula var. englri
+                                                                                                  (18)
+                                                            Poales           Poaceae             Oryza sativa (19)
+                              Magnoliopsida                 Caryophyllales   Cactaceae           Hylocereus undatus (20)
+                               (dicotyledons)
+                                                            Saxifragales     Crassulaceae        Kalanchoe pinnata (21)
+                                                            Saxifragales     Crassulaceae        Kalanchoe tubiflora (22)
+                                                            Myrtales         Combretaceae        Lumnitzera racemosa (23)
+                                                            Myrtales         Lythraceae          Sonneratia alba (24)
+                                                            Myrtales         Lythraceae          Pemphis acidula (25)
+                                                            Malpighiales     Salicaceae          Populus alba (26)
+                                                            Malpighiales     Euphorbiaceae       Excoecaria agallocha (27)
+                                                            Malpighiales     Clusiaceae          Garcinia subelliptica (28)
+                                                            Malpighiales     Rhizophoraceae      Bruguiera gymnorrhiza (29)
+                                                                                                 Bruguiera sexangula (30)
+                                                            Malpighiales     Rhizophoraceae      Kandelia obovata (31)
+                                                            Malpighiales     Rhizophoraceae      Rhizophora stylosa (32)
+                                                            Oxalidales       Oxialidaceae        Oxalis corymbosa (33)
+                                                            Fabales          Fabaceae            Caesalpinia crista (34)
+                                                            Fabales          Fabaceae            Leucaena leucocephala (35)
+                                                            Fabales          Fabaceae            Lotus japonicus (36)
+                                                            Fabales          Fabaceae            Medicago sativa (37)
+                                                            Fabales          Fabaceae            Millettia pinnata (38)
+                                                            Fabales          Fabaceae            Trifolium incarnatum (39)
+                                                            Fabales          Fabaceae            Vigna marina (40)
+                                                            Fabales          Fabaceae            Vigna radiata (41)
+
+
+
+
+                                                                                                                       123
+776                                                                                   Phytochem Rev (2015) 14:765–798
+
+
+Table 3 continued
+                              Class            Order               Family              Species
+
+                                               Brassicales         Brassicaceae        Arabidopsis thaliana (42)
+                                               Brassicales         Brassicaceae        Brassica napus (43)
+                                               Brassicales         Brassicaceae        Raphanus sativus var. sativus (44)
+                                               Malvales            Malvaceae           Hibiscus tiliaceus (45)
+                                               Malvales            Malvaceae           Theobroma cacao (46)
+                                               Sapindales          Rutaceae            Melicope triphylla (47)
+                                               Ericales            Lecythidaceae       Barringtonia racemosa (48)
+                                               Ericales            Theaceae            Camellia sinensis (49)
+                                               Gentianales         Rubiaceae           Coffea arabica (50)
+                                               Gentianales         Apocynaceae         Catharanthus roseus (51)
+                                               Solanales           Solanaceae          Nicotiana tabacum (52)
+                                               Solanales           Solanaceae          Solanum tuberosum (53)
+                                               Lamiales            Acanthaceae         Avicennia marina (54)
+                                               Aquifoliales        Aquifoliaceae       Ilex paraguariensis (55)
+                                               Apiales             Umbelliferae        Angelica japonica (56)
+                                               Asterales           Goodeniaceae        Scaevola taccada (57)
+                                               Asterales           Asteraceae          Farfugium japonicum (58)
+                                               Asterales           Asteraceae          Chrysanthemum coronarium (59)
+Adapted from Ashihara et al. (2012)
+
+
+
+(Table 2) (Katahira and Ashihara 2009). NR is                 acid pathway, is nicotinic acid ? 6-hydroxynicotinic
+converted to NaR by this enzyme. Hence, the end               acid ? 2,5-dihydroxypyridine ? maleamic acid ?
+product of NAD catabolism in plants is nicotinic acid,        maleic acid ? fumaric acid. However, in tea leaves,
+and in some instances, NaR.                                   radioactivity from [2-14C]nicotinic acid was not
+                                                              incorporated into any of these metabolites (Ashihara
+                                                              and Deng 2012). Consequently, a novel catabolic
+Degradation of pyridine ring                                  pathway, which is distinct from the pathway in
+                                                              microorganisms, may be operative in plants. However,
+Although nicotinic acid is the end product of NAD             it is worth noting that pyridine ring catabolism occurs
+catabolism in many plants, nicotinic acid is further          in only restricted plant species and its activity is very
+degraded by a limited number of species including             low. In contrast, plants possess complete catabolic
+parsley (Petroselinum hortense) and tea (Camellia             pathways of pyrimidine and purine rings of nucleotides
+sinensis) (Barz 1985; Ashihara and Deng 2012).                (Stasolla et al. 2003; Zrenner and Ashihara 2011).
+Degradation of the pyridine ring of nicotinic acid
+appears to take place through NaG. Radioactivity from
+[2-14C]nicotinic acid was incorporated into NaG and           Enzymes involved in NAD catabolism
+glutaric acid in tea leaf disks. It was not possible to
+determine the detailed degradation route of the ring          Direct NAD cleavage enzymes
+structure of pyridine, because only very low radioac-
+tivity was recovered in intermediate metabolites              NAD is a substrate for three classes of enzymes that
+(Ashihara and Deng 2012). Aerobic nicotinic acid              cleave NAD to produce nicotinamide and an ADP-
+degradation has been reported to occur in microorgan-         ribosyl product (step 1 in Fig. 4). The three classes of
+isms, such as Pseudomonas putida (Jiménez et al.             NAD consumers are (i) poly(ADP-ribose) polymer-
+2008). The catabolic sequence, known as the maleamic          ases or monoADP-ribose transferases, (ii) ADP-
+
+123
+Phytochem Rev (2015) 14:765–798                                                                                  777
+
+
+ribosyl cyclase and (iii) sirtuins (type III protein lysine   analysis of nine types of cytosolic AtNUDT proteins.
+deacetylases) (Belenky et al. 2007). Poly(ADP-ribose)         The recombinant proteins of AtNUDT2, -6, -7, and -10
+polymerases are the main enzymes responsible for the          showed both NADH pyrophosphatase and ADP-ribose
+post-translational modification known as polyADP-             pyrophosphatase activities. Jambunathan and Maha-
+ribosylation. These enzymes play important roles in           lingam (2006) demonstrated that Arabidopsis Growth
+genotoxic stress tolerance and DNA repair, pro-               Factor Gene 1 (GFG1; At4g12720) encoding a Nudix
+grammed cell death, transcription, and cell cycle             hydrolase, is an NADH pyrophosphatase and ADP-
+control in animals. Similar effects are being discov-         ribose pyrophosphatase.
+ered in plants, as well as roles in plant-specific
+processes (Briggs and Bent 2011). While these                 50 -Nucleotidase and nicotinamide riboside
+findings are of note, the topics are beyond the scope         nucleosidase
+of this review. The Sir 2 (silent information regulator
+2) family of proteins, which are also known as sirtuins,      NMN is probably converted to nicotinamide releasing
+are NAD-dependent protein deacetylases. They con-             phosphate and ribose by two enzymatic steps (steps 3
+tain a 200-amino acid domain conserved from bacteria          and 4 in Fig. 4). 50 -Nucleotidase and nucleosidase
+to humans (Frye 2000). Plant genomes appear to                appear to participate in the conversion (Table 2)
+contain relatively fewer SIR2 homologs than other             (Katahira and Ashihara 2009). The catabolism
+eukaryotes. In Arabidopsis, only two SIR2 family gene         enzymes converting NMN to nicotinamide are differ-
+sequences have been identified. Very limited research         ent in different organisms. In bacteria, such as
+has been carried out on the function of plant Sir2-           Azotobacter vinelandii, a glycohydrolase catalyzes
+related proteins.                                             the irreversible conversion of NMN to nicotinamide
+                                                              and ribose 5-phosphate (Imai 1979) (step 3a in Fig. 4).
+NAD pyrophosphatase                                           In contrast, two enzymes, 50 -nucleotidase and NR
+                                                              phosphorylase (steps 3 and 4a in Fig. 4), are respon-
+NAD pyrophosphatase activity (step 2 in Fig. 4) has           sible for NMN catabolism in animals. No specific
+been detected in extracts from tobacco and potato             NMN glycohydrolase (step 3a) could be found in
+(Table 2) (Wagner et al. 1986a; Katahira and Ashihara         animal tissues (Imai and Anderson 1987). In plants,
+2009). The hydrolysis of a variety of nucleoside              NR nucleosidase (step 4), but not NR phosphorylase
+diphosphate derivatives is catalysed by a family of           (step 4a), participates in this conversion (Table 2)
+proteins called Nudix (nucleoside diphosphates linked         (Katahira and Ashihara 2009).
+to some moiety X) hydrolases (Bessman et al. 1996).
+Twenty-four genes of the Nudix hydrolase homo-                Nicotinamidase and nicotinamide riboside (NR)
+logues (AtNUDTs) with predicted localizations in the          deaminase
+cytosol, chloroplasts, and mitochondria, exist in
+Arabidopsis thaliana. Dobrzanska et al. (2002)                High activity of nicotinamidase (step 5 in Fig. 4) has
+described the cloning and characterization of an              been observed in the extracts of several plants
+Arabidopsis cDNA encoding a Nudix hydrolase that              (Table 2) (Zheng et al. 2004; Ashihara et al. 2005;
+degrades NADH. The deduced sequence of AtNUDT1                Zheng et al. 2005; Yin et al. 2008; Katahira and
+contains 147 amino acids. The recombinant At-                 Ashihara 2009). Wang and Pichersky (2007) reported
+NUDT1 was expressed in Escherichia coli and                   that Arabidopsis thaliana gene At2g22570 encodes a
+purified. In the presence of Mn2? and the optimal             nicotinamidase, which is expressed in all tissues, with
+pH of 7.0, the recombinant AtNUDT1 catalyzed the              the highest levels occurring in roots and stems. The
+hydrolysis of NADH. The catalytic properties of               244-residue protein, designated AtNIC1, converts
+NADH pyrophosphatase from A. thaliana resemble                nicotinamide to nicotinic acid and has a Km of
+those described for enzymes from E. coli. The                 118 lM and a Kcat of 0.93/s. Plants homozygous for
+substrate specificity of the enzyme has a marked              a null AtNIC1 allele, nic1-1, have lower levels of NAD
+preference for NADH over NAD?. The catalytic                  and NADP under normal growth conditions.
+velocity with NADH is 20-fold faster than with                   Katahira and Ashihara (2009) detected NR deam-
+NAD?. Ogawa et al. (2005) reported a comprehensive            inase activity (step 5a in Fig. 4) in crude extracts of
+
+                                                                                                           123
+778                                                                               Phytochem Rev (2015) 14:765–798
+
+
+potato tubers (Table 2). The presence of the deami-        encoding salvage enzymes, was highest in the lag
+nase had not previously been reported in any organ-        phase of cell growth, corresponding to the activity of
+isms. Although NMN deaminase (EC 3.5.1.42) (step           NaPRT (Yin et al. 2008). In microorganisms, feedback
+5b) from Azotobacter vinelandii is able to catalyse the    inhibition by NAD of NaPRT purified from Brevibac-
+deamination of NR in vitro (Imai 1973), its activity       terium has been reported (Dulyaninova et al. 2000).
+was * five fold lower than NMN cleavage activity.
+Since NMN deaminase activity could not been                Nocotinate riboside kinase (NaR kinase)
+detected in potato tubers, the NR deaminase detected
+by Katahira and Ashihara (2009) may be a new NR-           NaR kinase activity (step 11 in Fig. 4) has also been
+specific deaminase, distinct from bacterial NMN            detected in extracts from cotyledons of mungbean and
+deaminase.                                                 potato tubers (Table 2) (Matsui and Ashihara 2008;
+                                                           Katahira and Ashihara 2009). This enzyme lacks
+Salvage of nicotinamide and nicotinic acid                 nicotinamide riboside (NR) kinase activity. In con-
+                                                           trast, salvage of NR by NR kinase (step 11a in Fig. 4)
+In contrast to animals (Revollo et al. 2004; van der       has been demonstrated in fungi and humans (Biega-
+Veer et al. 2007), nicotinamide is not directly salvaged   nowski and Brenner 2004). This is interesting because
+to NMN in plants because they lack nicotinamide            plants salvage nicotinic acid and NaR, but fungi and
+phosphoribosyltransferase activity (step 3b in Fig. 4,     animals salvage nicotinamide and NR.
+Table 2) (Ashihara et al. 2005; Zheng et al. 2005;
+Wang and Pichersky 2007; Katahira and Ashihara
+2009). Instead, plants salvage nicotinic acid for NaMN     Biosynthesis of secondary metabolites
+synthesis by NaPRT (step 6 in Fig. 4). In addition to
+the widely distributed nicotinic acid salvage by           In plants, in addition to salvage of nicotinic acid to
+NaPRT, salvage of NaR for NAD synthesis by NaR             pyridine nucleotides, there are potentially two further
+kinase may operate in cotyledons of mungbean               metabolic routes leading from nicotinic acid (steps 15
+seedlings (Matsui and Ashihara 2008). [Carboxyl-14C]       and 16 in Fig. 4): trigonelline (N-methyl nicotinic
+NaR is readily converted to pyridine nucleotides when      acid) formation catalysed by trigonelline synthase (EC
+applied to cotyledons. This conversion was also found      2.1.1.7) and NaG production mediated by nicotinate
+in embryonic axes, but the rate was slower than in         glucosyltransferase (EC 2.4.1.196). In a limited num-
+cotyledons (Matsui and Ashihara 2008), thus this           ber of plants, nicotinic acid serves as a precursor for
+pathway appears to function principally in the utiliza-    the synthesis of pyridine alkaloids, such as nicotine
+tion of stored pyridine compounds.                         and ricinine (Shoji and Hashimoto 2011; Waller et al.
+                                                           1966b). Although detailed pathways have not yet been
+                                                           elucidated, pyridine ring(s) of complex pyridine
+Enzymes involved in pyridine salvage                       alkaloids originate from nicotinic acid derived from
+                                                           pyridine nucleotides.
+Nicotinate phosphoribosyltransferase (NaPRT)
+
+NaPRT activity (step 6 in Fig. 4) has been found in        Biosynthesis of trigonelline
+several plant extracts including mungbean and potato
+tubers (Table 2) (Zheng et al. 2005; Katahira and          In a narrow sense, trigonelline synthesis refers to
+Ashihara 2009). ATP is required for its activity.          trigonelline formation from nicotinic acid. The reaction
+Arabidopsis thaliana genes At2g23420 and                   is: SAM ? nicotinic acid ? S-adenosyl-L-homocyste-
+At4g36940 encode NaPRT, but characterization of            ine (SAH) ? trigonelline (step 15 in Fig. 4). Trigonel-
+the recombinant enzymes has not yet been achieved. In      line synthase has been studied in extracts from pea
+suspension culture of Lotus japonicus cells, the           (Pisum sativum) (Joshi and Handler 1960), duckweed
+expression profile of NaPRT was examined using             (Lemna paucicostata) (Taguchi et al. 1989), soybean
+expression sequence tags obtained from the Lotus           (Glycine max) (Upmeier et al. 1988a; Höhl et al. 1988;
+japonicus database. Transcript level of NaPRT,             Chen and Wood 2004;), and mungbean (Zheng et al.
+
+123
+Phytochem Rev (2015) 14:765–798                                                                                    779
+
+
+2005). The estimated molecular weight of the partially      et al. 1997) have been characterised. The km values are
+purified soybean enzyme was 85,000–90,000 by gel            similar: 170 and 220 lM for nicotinic acid, and 1.2
+filtration and *42,000 by SDS-PAGE (Upmeier et al.          and 4.3 mM for UDP-glucose, respectively. In con-
+1988a; Chen and Wood 2004) suggesting that it is a          trast, they have different pH optima, 7.8-8.2 for
+dimer consisting of two identical subunits. The enzyme      parsley enzyme and 6.1 for tobacco enzyme. The
+uses nicotinic acid as a substrate, but not nicotinamide.   estimated molecular weight of the parsley enzyme by
+cDNA encoding the trigonelline synthase enzyme has,         gel filtration column chromatography was 46,000.
+to date, not been cloned.                                   Highly purified enzyme preparations and cloning of
+    Although nicotinic acid utilised for trigonelline       the NaG synthase gene have, to date, not been
+synthesis is provided by the pyridine nucleotide cycle      reported.
+(see above), trigonelline is also derived from nicotinic
+acid originating from NaMN which is produced by the
+de novo pathway (steps 13-15 in Fig. 4) in trigonelline-
+accumulating legumes. Zheng et al. (2008) reported that     Diversity of the biosynthetic activity of trigonelline
+radioactivity from [14C]NaMN was incorporated into          and NaG in different species and organs
+NaR, nicotinic acid and trigonelline in the presence of
+SAM in crude cell-free extracts of the embryonic axes of    Willeke et al. (1979) reported that when nicotinic acid
+germinating mungbean seeds. The cell-free extracts also     is added to suspension cultures of higher plants, one of
+possessed NaMN nucleotidase, NaR nucleosidase and           two alternative pathways comes into operation. It is
+trigonelline synthase activities. In situ tracer experi-    either converted via methylation to trigonelline or
+ments using embryonic axes segments showed that             conjugated with arabinose. Only when conjugated as
+[14C]NaR was readily converted to nicotinic acid and        the N-arabinoside, the molecule then undergoes fur-
+trigonelline. The NaMN ? NaR ? nicotinic acid ?             ther metabolism and degradation. The metabolic fate
+trigonelline pathway (steps 13-15 in Fig. 4), therefore,    of [carboxyl-14C]nicotinic acid was investigated using
+operates in the embryonic axes of mungbean seedlings.       cell cultures from *50 plant species. It was found that
+These results indicate that trigonelline is synthesised     the arabinoside was, with few exceptions, formed
+from NaMN, an intermediate of the de novo biosyn-           exclusively in members of the subclass Asteridae,
+thetic pathway of pyridine nucleotides. However, this       while other plant groups generally followed the
+direct formation of trigonelline does not occur widely: a   trigonelline route. This metabolic feature, thus,
+similar study with coffee fruits has shown that trigonel-   appears to be a marker at the level of order or subclass.
+line is synthesized principally from nicotinic acid         The production of the arabinoside in a few members of
+produced by the degradation of NAD (Ashihara et al.         the Rosidae and Dilleniidae supports the view of some
+2011a).                                                     taxonomists of the presence of a phylogenetic line
+                                                            linking these orders with the Asteridae. The fact that
+                                                            there are these exceptional taxa makes the character
+Biosynthesis of nicotinic acid N-glucoside (NaG)            more interesting, since its distribution pattern ques-
+                                                            tions the validity of the existing system of plant
+Biosynthesis of NaG (step 16 in Fig. 4) is also widely      classification above the family level (Harborne and
+distributed in the plant kingdom. The reaction is:          Turner 1984).
+                                                                Nicotinic acid N-arabinoside described by Willeke
+nicotinic acid UDP-D-glucose         H
+                                                            et al. (1979) has now been identified as NaG (Upmeier
+      NaG UDP
+                                                            et al. 1988c). Therefore, the diversity of the formation of
+   NaG synthase (nicotinate N-glucosyltransferase,          nicotinic acid N-arabinoside in the original paper by
+EC 2.4.1.196) activity has been reported in the extracts    Willeke et al. (1979) should be corrected to that of NaG.
+of various organs of potato (Table 2) (Katahira and         Furthermore, it was originally reported that nicotinic
+Ashihara 2009), and cell cultures of parsley (Upmeier       acid N-arabinoside, now known to be NaG, was a unique
+et al. 1988b) and tobacco (Taguchi et al. 1997). Some       metabolite of cultured cells. This is incorrect as NaG is
+of the properties of the partially purified enzymes from    found in many intact plant tissues including the leaves of
+parsley (Upmeier et al. 1988b) and tobacco (Taguchi         Nicotiana tabacum (Mizusaki et al. 1970).
+
+                                                                                                            123
+780                                                                                  Phytochem Rev (2015) 14:765–798
+
+
+   The investigation of Willeke et al. (1979) using cell     lost a number of pteridophytic characteristics (Qiu and
+cultures is an example of a novel biochemical                Palmer 1999). Angiopteris evecta (Marattiaceae) of
+approach being utilised to reveal the chemosystemat-         the class Marattiopsida (2) is a huge fern and is
+ics of the plant kingdom (Harborne and Turner 1984).         considered to be primitive as very similar fossilised
+Their speculation is fascinating, but some questions         fronds have been found in rocks almost 300 million
+remain unanswered. In their studies, NaG formation           years old.
+was found only in cell cultures of the subclass                  All fern species produced a large quantity of NaG
+Asteridae and in the higher orders of the subclasses         from [14C]nicotinamide. Exceptionally, a very small
+Rosidae and Dilleniidae. Ashihara et al. (2011d),            amount of trigonelline was synthesized in Asplenium
+however, found that NaG was also formed from                 antiquum (Aspleniaceae) after a long-term 18 h incu-
+[carbony-14C]nicotinamide by all 10 species of ferns         bation. Increases in the release of 14CO2 with incuba-
+that were investigated. Furthermore, secondary metab-        tion time were accompanied by decreases in
+olism, such as alkaloid formation, depends strongly on       [carboxyl-14C]NaG. Turnover of NaG in ferns there-
+the culture conditions, and alkaloids that were origi-       fore appears to be rapid, as observed in parsley cell
+nally present in plant tissues are often absent in           cultures (Upmeier et al. 1988c) and tea leaves
+cultured cells (Barz 1985). Suspension-cultured potato       (Ashihara and Deng 2012). Formation of NaG is the
+cells, for instance, produce only NaG (Willeke et al.        principal characteristic of nicotinic acid metabolism in
+1979) whereas the leaves of potato plants synthesize         ferns (Fig. 5).
+both trigonelline and NaG (Katahira and Ashihara                 In gymnosperms the major nicotinic acid metabo-
+2009).                                                       lite is trigonelline, which was detected in five species
+   Recently, diversity in nicotinic acid metabolite          namely: Cycas revoluta (Cycadaceae) (11), Ginkgo
+formation was investigated with leaf disks of *50            biloba (Ginkgoaceae) (12), Picea glauca (Pinaceae)
+plant species using carbonyl-14C-labelled nicotin-           (13), Pinus luchuensis (Pinaceae) (14) and Casuarina
+amide rather than [carboxyl-14C]nicotinic acid as a          equisetifolia (Casuarinaceae) (15). Cycas revoluta
+precursor. This is because exogenous nicotinamide is         (11) was an exception as similar amounts of NaG and
+readily absorbed by the leaf discs and converted to          trigonelline were formed. It is possible that Cycas
+nicotinic acid while, in contrast, uptake of exogenous       revoluta (11) is a key plant in understanding the
+nicotinic acid is relatively low (Ashihara and Deng          diversity of nicotinic acid metabolite formation.
+2012). The results are illustrated in Fig. 5. The order of       In angiosperm monocots, three of four species,
+the plant species is according to Smith et al. (2006) for    Alocasia odora (Araceae) (16), Pandanus odoratiss-
+ferns and APG III for angiospermae (The Angiosperm           imus (Pandanaceae) (17) and Oryza sativa (Poaceae)
+Phylogeny 2009). In ferns, the major nicotinic acid          (19), produced trigonelline, while NaG formed in
+conjugate formed from nicotinic acid is NaG.                 Arenga trewmula (Arecaceae) (18). In dicots (20–59),
+   The metabolic fate of [carbonyl-14C]nicotinamide          25 of 39 species examined synthesized trigonelline
+was investigated in ten ferns, Psilotum nudum (Psi-          and 12 species produced NaG. Both NaG and trigo-
+lotaceae) (1 in Fig. 5), Angiopteris evecta (Marattia-       nelline are synthesized as major products in Solanum
+ceae) (2), Lygodium japonicum (Lygodiaceae) (3),             tuberosum (Solanaceae) (53) and Chrysanthemum
+Cyathea lepifera (Cyatheaceae) (4), Acrostichum              coronarium (Asteraceae) (59).
+aureum (Pteridaceae) (5), Asplenium antiquum (As-                In general, trigonelline- and NaG-forming angio-
+pleniaceae) (6), Thelypteris acuminate (Thelypterida-        sperms can be separated around the border between
+ceae) (7), Diplazium subsinuatum (Woodsiaceae) (8),          the orders of Fabales and Brassicales, although there
+Blechnum orientale (Blechnaceae) (9) and Crytomium           are clear exceptions to this rule. All species in Fabales
+fortune (Dryopteridaceae) (10) (Ashihara et al. 2011d,       (34–41) produce trigonelline. In Brassicales, Raph-
+2012). As well as eight ferns belonging to the class         anus sativus var. sativus (44) produces trigonelline;
+Pteridopsida (3–10), Psilotum nudum (Psilotaceae) (1)        Brassica napus (43) and Arabidopsis thaliana (42)
+from the class Psilotopsida was also examined. This          produce NaG while Arabidopsis thaliana (42) also
+fern lacks true leaves and roots and, traditionally, has     produces limited amounts of trigonelline. Usually
+not been viewed as a true fern. However, molecular           species in the same orders produce the same nicotinic
+genetic evidence suggests that it is a fern which has        acid conjugates, but some exceptions are found. In
+
+123
+Phytochem Rev (2015) 14:765–798                                                                                              781
+
+
+
+
+Fig. 5 Phylogenetic relationship between trigonelline- and       show the orders which include a species which produce both
+nicotinic acid glucoside-synthesizing plant orders. The red      metabolites or include more than two species which produce
+boxes are trigonelline-forming orders and blue boxes are         either trigonelline or NaG (see text). Numbers shown are species
+nicotinic acid glucoside (NaG)-forming plants. The green boxes   which were investigated (see Table 3). (Color figure online)
+
+Gentianales, Coffea arabica (Rubiaceae) (50) pro-                restricted to ferns and selected orders of angiosperms,
+duces trigonelline, but Catharanthus roseus (Apocyn-             whereas other plants produce trigonelline. In most
+aceae) (51) produces NaG. In Asterales (57–59),                  cases the formation of NaG and trigonelline is
+Scaevola taccada (Goodeniaceae) (57) and Farfugium               mutually exclusive, but there are several exceptions.
+japonicum (Asteraceae) (58) produce NaG, while                   Different nicotinic acid conjugate formation in differ-
+Chrysanthemum coronarium (Asteraceae) (59) pro-                  ent plant species may depend mainly on the activities
+duces both metabolites. These results indicate that all          of nicotinate N-glucosyltransferase and N-methyl-
+the plants, probably without exception, have the                 transferase (trigonelline synthase). As the substrates
+ability to convert exogenous nicotinamide or nicotinic           of these enzymes, UDP-glucose and SAM, are ubiq-
+acid to trigonelline and/or NaG. NaG formation is                uitous in plants, their supply would appear not to
+
+
+                                                                                                                     123
+782                                                                                   Phytochem Rev (2015) 14:765–798
+
+
+impact qualitatively on the conversion of nicotinic           During the late 1960s and 1970s, a considerable
+acid to NaG and trigonelline. The expression of genes         number of papers were published on the ricinine
+encoding these two enzymes inherently controls the            biosynthesis and pyridine metabolism, and these
+formation of nicotinic acid metabolites. These genes          studies were reviewed by Waller and Dermer (1981).
+have yet to be identified in plants and further studies at        Interdependency between the pyridine nucleotide
+the molecular level are needed to clarify the situation.      cycle and ricinine biosynthesis was shown by use of
+                                                              14
+   A comprehensive survey of the nicotinic acid                  C- and 15N-labelled compounds (Yang and Waller
+metabolite formation was carried out using cultured           1965; Waller et al. 1966a) and inhibitors (Johnson and
+cells or leaf discs and it has been reported that different   Waller 1974). It was reported that the pyridine
+metabolites are produced in different organs of the           moieties of quinolinic acid, nicotinic acid, and nico-
+same species (Koster et al. 1989; Matsui et al. 2007;         tinamide, NaMN, NAD and NADP were incorporated
+Katahira and Ashihara 2009). The biosynthetic activ-          into ricinine. All of these pyridine compounds except
+ity of the formation of NaG and trigonelline is more-         quinolinic acid are members of the pyridine nucleotide
+or-less organ-specific. Katahira and Ashihara (2009)          cycle, and they could function as a source of metabolic
+compared the metabolism of [carboxyl-14C]nicotinic            intermediates for the biosynthesis of ricinine.
+acid with activities of nicotinate N-glucosyltransferase          Mann and Byerrum (1974b) provided evidence for
+and trigonelline synthase in leaves, the green, photo-        the activation of the de novo pathway for pyridine
+synthesizing above ground stems and etiolated below           nucleotide biosynthesis prior to ricinine biosynthesis
+ground stems, stolons, tubers and illuminated greenish        in castor beans. The relationship was estimated by
+tubers of potato plants. Significant amounts of [car-         comparison of enzyme activities and ricinine content
+boxyl-14C]nicotinic acid were converted to NaG in all         in germinating beans (Mann and Byerrum 1974b). A
+instances, but trigonelline synthesis was limited to          sixfold increase in the activity of QPRT, an enzyme
+green photosynthesizing tissues. Trigonelline synthe-         involved in de novo pyridine nucleotide synthesis, was
+sis was low in etiolated stems, but was more active in        found in etiolated seedlings 4 days after imbibition
+the illuminated tubers. The greater activity of trigo-        and this was preceded by an increase in ricinine
+nelline synthase, reflected in the in situ biosynthesis of    content; thereafter both QPRT and ricinine decreased.
+trigonelline from [carboxyl-14C]nicotinic acid in             However, the level of an enzyme of the pyridine
+green organs compared to non-illuminated tubers,              nucleotide cycle, nicotinamidase, was unusually low.
+stolons and etiolated stems, suggests that trigonelline       The activity of another enzyme of the cycle, NaPRT,
+synthesis is associated with chloroplasts in potato. In       declined during germination to the level found in
+this context, it is of interested that Matsui et al. (2007)   mature plants. Therefore, a positive correlation exists
+reported that leaves of Oryza sativa, Lotus japonicus         only between the activity of QPRT and the biosyn-
+and Theobroma cacao possess higher trigonelline               thesis of ricinine. In contrast, activity of the pyridine
+biosynthetic activity than other organs.                      nucleotide cycle was not closely related to the ricinine
+   Although many plants possess trigonelline biosyn-          biosynthesis.
+thetic activity, accumulation of the pyridine alkaloid,           Calculations based on QPRT levels in young
+as discussed above, is found in limited species               cotyledons and endosperm of caster bean indicate that
+including coffee, and orange jessamine. This suggests         the ricinine is formed from pyridine nucleotide cycle
+that continuous supply of nicotinic acid, a substrate of      components in the cotyledons, such as nicotinic acid
+trigonelline synthase, may be an important factor for         which is synthesized in the endosperm (Mann and
+the accumulation of trigonelline. However, clear              Byerrum 1974b).
+mechanisms underlying accumulation of trigonelline                The intermediates between nicotinic acid or nico-
+remain to be elucidated.                                      tinamide and ricinine have been tentatively identified
+                                                              (Fig. 6). Robinson (1965) obtained a crude enzyme
+                                                              preparation from castor beans that catalyzed the
+Biosynthesis of ricinine                                      oxidation of N-methylnicotinonitrile to the corre-
+                                                              sponding 4- and 6-pyridones. However, Waller et al.
+Historically, the pyridine nucleotide cycle in plants         (1966b) reported that N-methylnicotinonitrile was not
+was studied using caster bean which produces ricinine.        incorporated into ricinine in vivo. Since ricinine
+
+123
+Phytochem Rev (2015) 14:765–798                                                                                             783
+
+
+
+
+Fig. 6 Proposed pathway of ricinine biosynthesis in Ricinus communis (Adapted from Waller and Dermer 1981). To-date there are no
+reports of enzymatic studies being carried out
+
+
+
+formation requires pyridinium oxidase activity,                    a piperidine ring. The pyridine and pyrrolidine rings
+enzyme compartmentalization might have occurred                    are, respectively, derived from nicotinic acid or its
+or alternatively N-methylnicotinonitrile may be                    derivatives, and ornithine and possibly from arginine
+unable to be transported through the membrane                      via the symmetric diamine putrescine pathway (Fig.
+defining the subcellular location of the pyridinium                7). On the other hand, the piperidine ring of anabasine
+oxidase (Fig. 6).                                                  is synthesized from lysine through decarboxylation by
+   Fu and Robinson (1970) found that seven species                 lysine decarboxylase to produce cadaverine, and then
+out of 11 members of the family Euphorbiaceae                      oxidation by diamine oxidase to yield 5-aminopent-
+exhibited pyridinium oxidase activity when incubated               anal followed by spontaneous intramolecular cyclisa-
+with N-methylnicotinonitrile. Three isoforms of py-                tion resulting in D1-peperidine (Fig. 7) (see Shoji and
+ridinium oxidase, A, B and C, which catalyzed                      Hashimoto 2011). Anatabine (8), a minor alkaloid
+formation of the 4- and 6-pyndones, but exhibited                  found in some species of Nicotiana, consists of two
+different behaviour on DEAE-cellulose columns, were                rings both of them are derived from nicotinic acid
+found in Ricinus communis. The pyridinium oxidase B                (Leete and Slattery 1976).
+was purified from Ricinus communis and characterised                   In this article the formation of the pyridine ring of
+(Fu and Robinson 1972). Plants of other families,                  nicotine will be considered briefly. An excellent
+including Nicotiana tabacum, showed no such oxidase                review on nicotine biosynthesis has been published
+activity (Waller and Dermer 1981), suggesting that the             by Shoji and Hashimoto (2011), and readers interested
+enzyme system is phylogenetically specific. Detailed               in an in depth commentary on the topic are referred to
+studies on the ricinine biosynthetic pathway at the                this article.
+molecular level have, as yet, not been carried out.                    The biosynthetic pathway of the pyridine section of
+                                                                   the nicotine biosynthesis pathway was investigated by
+                                                                   several researchers in the 1960s. For example, Waller
+Biosynthesis of pyridine ring of nicotine                          and co-workers demonstrated that [2,3,7,8-14C4]quin-
+                                                                   olinic acid, [2,3,7-14C3]nicotinic acid, and
+Nicotine and related tobacco alkaloids are composed                [2,3,7-14C3]NAD were incorporated with similar effi-
+of two heterocyclic rings, pyridine and pyrrolidine                ciencies into the pyridine structure of nicotine in
+rings (Fig. 1). Anabasine (7) comprises a pyridine and             Nicotiana rustica (Yang et al. 1965; Yang and Waller
+
+
+                                                                                                                    123
+784   Phytochem Rev (2015) 14:765–798
+
+
+
+
+123
+  Phytochem Rev (2015) 14:765–798                                                                                         785
+
+b Fig. 7 Proposed pathway of nicotine alkaloid biosynthesis           mechanism also explains why tritium-labelled nico-
+  (adapted from Shoji and Hashimoto 2011) The C-2 carbons of          tine derived from [6-3H]nicotinic acid is not labelled
+  ornithine and lysine, the hydrogen at C-6 of nicotinic acid, and
+  another hydrogen introduced at this position are indicated using    specifically at C-6 (Leete and Liu, 1973).
+  symbols to show their fates. Hypothetical intermediates derived        In the case of anatabine, the reduction of nicotinic
+  from nicotinic acid are included in brackets, and undefined steps   acid by the introduction of hydrogen at C-6 in the pro-
+  including the ring couplings are shown with broken arrows.          (R) position was demonstrated by Leete (1978) who
+  Enzymes (EC numbers) shown are (1) lysine decarboxylase (EC
+  4.1.1.18); (2) arginine decarboxylase (EC 4.1.1.19); (3)            postulated that 3,6-dihydronicotinic acid and its
+  ornithine decarboxylase (EC 4.1.1.17); (4) putrescine N-            decarboxylated form 2,5-dihydropyridine were poten-
+  methyltransferase (EC 2.1.1.53); (5) N-methylputrescine oxi-        tial intermediates derived from nicotinic acid.
+  dase (EC 1.4.3.22); (6) nicotine N-demethylase (EC 1.14.13.B3,         Nicotine synthase activity, which catalyzes the
+  preliminary BRENDA-supplied EC number)
+                                                                      formation of (S)-nicotine from nicotinic acid and
+                                                                      1-methy-D1-pyrrolidinium chloride, was detected in
+                                                                      crude root extracts of Nicotiana glutinosa and N.
+  1965; Frost et al. 1967). They postulated that in                   tabacum by Friesen and Leete (1990). However, the
+  tobacco metabolites of the pyridine nucleotide cycle                results have not been replicated by other researchers
+  are incorporated into the pyridine ring for nicotine                (Hibi et al. 1994). Instead, a novel reductase A622
+  biosynthesis. Like Arabidopsis, the de novo biosyn-                 gene, isolated initially as a gene repressed in low-
+  thetic pathway of pyridine biosynthesis in tobacco                  nicotine tobacco mutants (nic1 and nic2) (Hibi et al.
+  starts with quinolinic acid synthesis from aspartate                1994), might be required for the coupling step. Since
+  (Fig. 2) and NAD enters into the pyridine nucleotide                the production of all the pyridine alkaloids was
+  cycle (Fig. 3).                                                     inhibited by A622 suppression (DeBoer et al. 2009;
+     The expression pattern of three genes involved in de             Kajikawa et al. 2009), A622 could be the enzyme, or
+  novo pyridine biosynthesis, namely, L-aspartate oxi-                one of the enzymes, acting in the coupling step(s).
+  dase, quinolinate synthase and QPRT, is closely                     However, the enzymatic reaction of A622 has yet to be
+  related to the activity of nicotine biosynthesis. Their             defined (DeBoer et al. 2009; Kajikawa et al. 2009).
+  transcripts are most abundant in nicotine-producing
+  roots while being expressed at basal levels in leaves,
+  and subjected to regulation by NIC loci and activation              Physiological aspect of biosynthesis of simple
+  by jasmonate treatment as well as other genes involved              nicotinic acid derivatives
+  in nicotine biosynthesis (Sinclair et al. 2000; Goossens
+  et al. 2003; Shoji et al. 2010). Such co-regulation                 As noted earlier, with the exception of a few plant
+  indicates the aspartate pathway of de novo pyridine                 species, such as coffee and legumes, trigonelline and
+  biosynthesis is under the same transcriptional control              NaG do not usually accumulate in high concentrations.
+  as nicotine biosynthesis in tobacco.                                Changes in trigonelline biosynthesis occur during the
+     It has been presumed that nicotinic acid or its                  growth of leaves and fruits of coffee plants. Endog-
+  derivatives is coupled with N-methyl-D1-pyrrolinum                  enous trigonelline increases during the development
+  at the final stage in the formation of nicotine.                    of leaves of Coffea arabica. There is a concomitant
+  However, the coupling mechanism of the pyridine                     elevation in the rate of biosynthesis of trigonelline
+  ring to the pyrrolidine ring has not been fully                     from 14C-labelled nicotinamide in developing leaves.
+  elucidated. Tracer studies using 14C- and 3H-labelled               In young coffee leaves, nicotinic acid is utilized
+  nicotinic acid have established that the pyridine                   preferentially for NAD formation, the remainder being
+  moiety is incorporated into nicotine. In the biosynthe-             converted to trigonelline. There is no substantial
+  sis of nicotine from nicotinic acid in Nicotiana                    accumulation of trigonelline in mature leaves and only
+  tabacum, the C-7 carboxyl group of nicotinic acid is                trace amounts are found in detached, senescent leaves,
+  lost and presumably replaced by the pyrrolidine ring                indicating a possible recycling of the alkaloid to young
+  (Dawson et al. 1953). It appeared that a 1,6-dihydro-               developing leaves (Zheng et al. 2004). Biosynthesis
+  pyridine intermediate is attacked by an N-methyl-D1-                and accumulation of trigonelline during growth and
+  pyrrolidinium cation at C-3 position, with simulta-                 ripening of fruits of Coffea arabica and Coffea
+  neous decarboxylation (Scott and Glynn 1967). This                  canephora have also been investigated (Koshiro
+
+                                                                                                                   123
+786                                                                                Phytochem Rev (2015) 14:765–798
+
+
+et al. 2006). A massive increase in trigonelline content   trigonelline formed in the cells was released into the
+was found during the early stages of fruit maturation.     culture medium. It was suggested that trigonelline may
+Active trigonelline biosynthesis occurred in the peri-     act as a reservoir for nicotinic acid in legumes,
+carp of Coffea fruits, from where it may be transported    especially in nodules (Yin et al. 2008).
+to seeds. This is in contrast to caffeine, which is           Matsui et al. (2007) reported the metabolic fate of
+synthesized predominantly in seeds (Zheng et al.           [14C]nicotinamide in roots and leaves of 1-month-old
+2004; Koshiro et al. 2006).                                Lotus japonicus. Almost all nicotinamide was utilized
+   Tramontano et al. (1983) reported fluctuations in       for the synthesis of pyridine nucleotides in root
+trigonelline, nicotinic acid and nicotinamide levels       nodules, whereas formation of nucleotides in root
+during germination of Pisum sativum seeds. Trigonel-       and leaf tissues was limited. In leaves nicotinamide
+line in cotyledons was transported to the epicotyl         was converted almost exclusively to trigonelline.
+during germination while smaller amounts migrated to          In contrast to trigonelline, NaG levels in plant cells
+the roots, although the concentration of trigonelline in   are very low. Upmeier et al. (1988c) measured the pool
+root tips decreased during the 10 day period after         size of NaG in parsley cells cultivated in vitro in a
+imbibition. In contrast to trigonelline, only small        nicotinic acid-free medium. The concentration of NaG
+amounts of nicotinic acid and nicotinamide occurred        remained almost constant (35–40 nmol/g FW) during
+in the seeds. Zheng et al. (2005) reported on the          the culture period, arguably, because NaG was being
+trigonelline content and biosynthetic activity in coty-    converted to nicotinic acid and utilised for NAD
+ledons and embryonic axes of germinating, etiolated        synthesis. The half life of NaG, estimated using
+Phaseolus aureus seedlings. The highest trigonelline       [U-14C]aspartic acid, was *24 h.
+biosynthetic activity was in the embryonic axis               The metabolic fate of [carbonyl-14C]nicotinamide
+although the alkaloid was also transported from the        was examined in microspore-derived embryos of NaG-
+cotyledons to the embryonic axis. High QPRT and            forming canola (Brassica napus) at different develop-
+nicotinamidase activity were found in both cotyledons      mental stages: globular stage, early cotyledonary, late
+and embryonic axes. Trigonelline synthase activity         cotyledonary, and fully developed stages (Ashihara
+increased in the embryonic axes, but decreased in          et al. 2008). The radiolabel in the culture medium was
+cotyledons during germination.                             taken up readily by the embryos, especially in the
+   Changes in the profile of pyridine metabolism           globular and early cotyledonary stages of develop-
+during cell growth were investigated using trigonel-       ment, and rapidly converted to nicotinic acid which
+line-forming suspension-cultured cells of Lotus japo-      was further metabolized. There was a *10 % incor-
+nicus, a model legume species (Yin et al. 2008).           poration of radioactivity from [14C]nicotinamide into
+Activity of the de novo and salvage pathways of NAD        NAD/NADP in the globular and early cotyledonary
+biosynthesis was estimated from the in situ metabo-        stage embryos, compared with 6-8 % in embryos at the
+lism of [3H]quinolinic acid and [14C]nicotinamide.         late cotyledonary and fully developed stages. There
+Maximum activity of the de novo pathway for NAD            was a 34 % conversion of [14C]nicotinamide into NaG
+synthesis was found during the exponential phase of        by embryos at the globular stage of development but
+cell growth, whereas activity of the salvage pathway       this declined to 3.8 % in the fully developed embryos.
+increased in the lag phase. Transcript levels of NaPRT     High NaG formation in embryos at the globular stage
+and NIC, encoding salvage enzymes, were enhanced           may be due to a NaG serving as a source of nicotinic
+in the lag phase, whereas the maximum expression of        acid during the later stages of embryo development that
+NADS was found in the exponential phase of growth.         are characterized by intense growth and requirement
+In keeping with these events, the activities of the        for high levels of NAD.
+salvage enzymes, NaPRT and nicotinamidase,
+increased 1 day after transfer of stationary phase cells
+to fresh medium. Highest in situ trigonelline synthesis,   The role of trigonelline in plants
+both from [3H]quinolinic acid and [14C]nicotinamide,
+was found in the stationary phase of cell growth.          Several in planta roles for trigonelline have been
+Trigonelline was produced principally when pyridine        proposed, namely: as a nutrient source, a compatible
+nucleotide synthesis declined. A sizable portion of        solute, a bioactive substance for nyctinasty, cell cycle
+
+123
+Phytochem Rev (2015) 14:765–798                                                                                     787
+
+
+regulation, signal transduction, detoxification of nic-        of NaCl on the trigonelline content of leaves of
+otinic acid and an eco-chemical function such as host          Glycine max by treating 9-week-old plants with
+selection by herbivores.                                       100 ml of 0.1 M NaCl three times weekly for a period
+                                                               of 6 weeks. Foliage trigonelline in control plants was
+                                                               0.2–0.3 lmol/g dry weight (DW) while in NaCl-
+Role of trigonelline as a nutrient source                      treated plants it was higher at 0.4–1.2 lmol/g DW
+                                                               throughout the exposure period until the plants began
+Trigonelline appears to be an end-product of NAD               to senesce. Trigonelline levels in leaves of the NaCl
+metabolism. If trigonelline is converted to nicotinic          treated plants are always 1.5–3.6 times higher than in
+acid, this compound is salvaged by NaPRT, and utilized         control leaves. Cho et al. (1999) determined concen-
+for re-synthesis of NAD. Trigonelline in seeds may act         tration of trigonelline and relative water content in
+as a form of storage of nicotinic acid. The activity of        non-stressed and salt-stressed leaves of 30-day-old
+trigonelline demethylase, which catalyses the conver-          seedlings of 17 cultivars of Glycine max seedlings.
+sion of trigonelline to nicotinic acid, has been detected in   The seedlings were treated with NaCl in a step-wise
+various organisms including Coffea arabica seeds               manner over 9 days (3 days 30 mM, 3 days 70 mM,
+(Taguchi and Shimabayashi 1983; Shimizu and Maz-               and 3 days 100 mM). Trigonelline concentrations
+zafera 2000), but this enzyme occurs in relatively low         ranged 0.46-1.2 lmol/g DW in non-stressed leaf
+amounts in seeds of leguminous species, such as                tissue and 0.55–1.6 lmol/g DW in salt stressed leaf
+Phaseolus aureus (Zheng et al. 2005). Leguminous               tissue. During salt treatment, trigonelline concentra-
+bacteria, such as Rhizobium meliloti, are able to              tions increased in 10 cultivars, declined in five and
+catabolise trigonelline in symbiotic conditions (Boivin        remained unchanged in two cultivars.
+et al. 1990, 1991; Goldmann et al. 1991). It follows that         Bray et al. (1991) examined effects of NaCl treatment
+trigonelline in cotyledons of legumes is translocated to       on betaine content of a micropropagated in vitro clone of
+root nodules and degraded for use as a nutrient source for     poplar (Populus trichocarpa X deltoids). The trigonel-
+bacteroid growth. Very high salvage activity of nicotinic      line level in leaves and roots of the control plants were
+acid for NAD synthesis has been detected in nodules of         8.5 and 1.7 lmol/g DW, respectively, and when treated
+Lotus japonicus (Matsui et al. 2007).                          with 100 mM NaCl the level increased to 15.3 and
+    Trigonelline released from roots of alfalfa (Medi-         4.6 lmol/g DW. No accumulation of glycinebetain or
+cago sativa) acts as a symbiont signal. To investigate         proline was observed so trigonelline can be considered
+the role of trigonelline catabolism in the Rhizobium-          as a sensitive indicator of stress.
+legume interaction, Boivin et al. (1991) studied the              Mangrove plants are a group of trees and shrubs
+regulation of trc gene expression in free-living and           growing along seashores in tropical and subtropical
+endosymbiotic bacteria using E. coli lacZ as a reporter        areas (Tomlinson 1994) that have special morpholog-
+gene. Experiments performed with free-living bacteria          ical and physiological characteristics to enable them to
+indicated that trc genes were organized in at least four       withstand high levels of salt stress. Yin et al. (2011)
+transcription units of which three were specifically           reported that the endogenous trigonelline content in
+induced by trigonelline in the rhizosphere, infection          leaves of Derris indica, a mangrove plant belonging to
+threads, and bacteroids of alfalfa. This suggests that         the Leguminosae, was 6.1 lmol/g DW. This value is
+trigonelline is a nutrient source throughout the Rhizo-        5-12 times greater than that in leaves of Glycine max.
+bium-legume association.                                       The concentration of trigonelline in leaf disks was
+                                                               increased with 500 mM NaCl (equivalent to *100 %
+                                                               sea water). The net increase was *150 nmol/h/g DW.
+Role of trigonelline as a compatible solute                       Ashihara et al. (2010) examined effect of 250 mM
+                                                               NaCl, equivalent to *50 % sea water, on the synthe-
+Several reports suggest the accumulation of trigonel-          sis of trigonelline from [carbonyl-14C]nicotinamide by
+line as a compatible solute. Like proline and glycine          leaf discs of mangrove species. Statistically significant
+betaine, trigonelline is synthesized as an osmoregula-         short-term (3 h) NaCl-induced stimulation of trigo-
+tor when plants are subjected to drought or salt-stress.       nelline synthesis was observed in Bruguiera gymno-
+Tramontano and Jouve (1997) investigated the effect            rrhiza, Rhizophora stylosa, and Sonneratia alba.
+
+                                                                                                             123
+788                                                                                  Phytochem Rev (2015) 14:765–798
+
+
+Trigonelline synthesis from labelled quinolinate, nic-      shoots in the G2 stage of the cell cycle (Evans et al.
+otinamide and nicotinic acid in cultured cells of the       1979). Trigonelline promotes preferential cell arrest in
+mangrove, species, Bruguiera sexangula, has also            G2 stage for about 40 % of the cell population in root
+been shown to be enhanced by salt stress (Suzuki-           meristems of Pisum sativum. The alkaloid is present in
+Yamamoto et al. 2006). Salt stress-mediated increase        mature seeds and is transported from cotyledons to
+in trigonelline synthesis, therefore, appears to be         developing tissues during the early stages of germi-
+closely related to the synthesis of osmoprotective          nation. In the meristems of young embryo 3–10 days
+compounds, to prevent water loss when the mangrove          after imbibition, the concentration of trigonelline
+cells are exposed to strong saline conditions. Elevation    decreases in parallel with the fall in cells arrested at
+of trigonelline levels by salt stress has also been         G2. Trigonelline has been isolated from excised
+reported to occur in tomato (Rajasekaran et al. 2001)       cotyledons and when applied to de-cotyledonised
+and seashore paspalum (Paspalum vaginatum) (Lee             seedlings or excised root meristems inhibits growth to
+et al. 2008).                                               the rate found in intact young seedlings. Predominant
+   Increases in trigonelline induced by salt- or drought-   cell arrest in G2 occurs in roots of some plant species,
+stress may, therefore, act as a compatible solute.          although other species show most cell arrest in G1.
+However, the concentration of trigonelline is much          The proportion of cells arrested in G2 is highly
+lower than that of other compatible solutes, such as        correlated with the concentration of trigonelline
+glycinebetaine, which can increase from 50–250 to           within the root meristem. In Pisum sativum, two
+400 lmol/g DW when plants are subject to severe water       naturally occurring cytokinins, the ribosides of iso-
+deficient or salinity (Hanson et al. 1995). Trigonelline,   pentenyl adenine and zeatin, both at 0.1 lM, were
+therefore, does not act alone but may be one of several     antagonistic to the effect of simultaneous treatment
+constituents functioning as a compatible solute.            with 1 lM trigonelline. In contrast, the synthetic
+                                                            cytokinins, kinetin and benzyl adenine, did not impact
+                                                            on the inhibitory effect of trigonelline. In Glycine max,
+Trigonelline and nyctinasty                                 isopentenyl adenine and zeatin, at 0.1 and 0.01 lM,
+                                                            promoted cell arrest in G2 in the absence of trigonel-
+Leguminous species, such as Mimosa pudica, are well         line. However, the proportion of cells arrested in G2
+known for the involvement of a circadian rhythm in          was higher in cultured roots co-treated with trigonel-
+the movement of their leaves. This nyctinastic leaf-        line and a cytokinin. In both legumes, cytokinin
+movement, which is a feature of almost all legumes, is      treatment did not affect trigonelline concentrations in
+characterized by leaf closure at night and opening the      the roots. These results imply an interaction between
+following morning. It appears not to be regulated by a      naturally occurring cytokinins and trigonelline in
+common signal molecule but by compounds that can            control of the cell cycle in peas and soybeans
+vary depending upon the species (Ueda et al. 2000).         (Tramontano et al. 1982, 1985).
+Trigonelline was isolated as a bioactive substance for
+nyctinasty in Aeschynomene indica (Ueda et al. 1995)
+being effective at inducing day-time leaf-closure at a      Detoxification of nicotinic acid
+concentration of 0.1 lM. In contrast, trigonelline was
+without effect in the other nyctinastic species, Cassia     Exogenously supplied nicotinic acid and nicotin-
+mimosoides and Mimosa pudica. These results suggest         amide, but not trigonelline, inhibit both the growth
+that trigonelline levels may be regulated by the            of roots of mungbean seedlings (Zheng et al. 2005),
+circadian rhythm of Aeschynomene indica.                    and the division and colony formation of lettuce cells
+                                                            derived from protoplasts (Sasamoto and Ashihara
+                                                            2014). One role of trigonelline synthesis could,
+Cell cycle regulation                                       therefore, be detoxification of excess nicotinic acid
+                                                            and nicotinamide released from the pyridine nucleo-
+Nearly 30 years ago, trigonelline was isolated from         tide cycle in plant cells. A similar role in detoxification
+the cotyledons of Pisum sativum and shown to act as a       of nicotinic acid has been attributed to the formation of
+factor which arrests the growth of cells in roots and       NaG (Nishitani et al. 1995).
+
+123
+Phytochem Rev (2015) 14:765–798                                                                                   789
+
+
+   These findings are seemingly not consistent with           paralleled by changes in the profiles of the mRNA
+the view that trigonelline is a cell cycle regulator that     transcript levels of chalcone synthase (CHS) and
+causes cell arrest in G2 and prevents ligation of             phenylalanine ammonia-lyase (PAL) genes. It was,
+replicons in the S-phase in lettuce root meristems            therefore, concluded that neither nicotinamide nor
+(Mazzuca et al. 2000). The reasons for this inconsis-         trigonelline are likely to function as signalling mol-
+tency are unclear, but Mazzuca et al. (2000) used a           ecules for CHS and PAL gene expression in response
+higher concentration (3 mM) of trigonelline and               to UV-B exposures (Kalbin et al. 1997).
+different plant materials (root meristems) than those
+employed in the lettuce study. Francis and Sorrell
+(2001) stated that trigonelline did not arrest all cells in   Role of host selection by herbivores
+G2, so the meristematic cells appear to be differen-
+tially sensitive to cell cycle regulators in G2.              It has been shown that some phytochemicals exert an
+   In addition to the endogenously generated nicotinic        effect on host selection by herbivores. Common
+acid by PNCs (see Fig. 4), plants may have inherent           Mormon (Papilio polytes) is a species of swallowtail
+ability to form nicotinic acid conjugates (trigonelline       butterfly and a Rutaceae feeder that utilizes Toddalia
+and/or NaG) for detoxification if nicotinic acid or           asiatica as a major host plant (Nakayama and Honda
+nicotinamide is taken up externally. Formation of             2004). Another rutaceous plant, orange jessamine
+trigonelline and NaG is, thus, involved in xenobiotic         (Murraya paniculata) is not exploited by the butterfly.
+metabolism, the biochemical modification of toxic             Nakayama and Honda (2004) reported that trigonel-
+compounds. Detoxification metabolism is often                 line, which is found in orange jessamine, exhibits
+divided into three phases: modification, conjugation,         moderate oviposition deterrence towards the female
+and excretion. One of the most common modifications           butterfly.
+is hydroxylation catalysed by the cytochrome P-450-
+dependent oxidase system. Trigonelline and NaG
+formation seems to be categorized as a second phase           Trigonelline and human health
+conjugation in which reactions are catalysed by a large
+group of transferases. Nicotinic acid is methylated by        Trigonelline in foods
+SAM-dependent methyltransferase and glucosylated
+by UDP-glucosyltransferase (Jakoby and Ziegler                Although trigonelline is contained in several seeds, the
+1990).                                                        most important commercially available trigonelline-
+                                                              rich dietary product is coffee. Two Coffea species,
+                                                              Coffea arabica and Coffea canephora are used
+Signal transduction                                           extensively to produce the beverage we know as
+                                                              coffee; they are known respectively as Arabica coffee
+It has been proposed that nicotinamide participates in        and Robusta coffee. Robusta coffee is produced
+an important part of the signal transduction chain            mainly in Vietnam, Indonesia and Cote d’Ivoire, and
+involved in the response of plant cells to conditions         Arabica coffee is produced in Brazil, Colombia,
+that cause DNA strand breakage, especially in con-            Mexico, Ethiopia and Guatemala (Petracco 2005).
+nection with oxidative stress. It was suggested that          Strong demand for entry-level coffee, 40 % of the
+nicotinamide and trigonelline serve as potent inducers        world’s coffee crop is now Robusta beans, has enabled
+of defensive metabolism in plants, including glutathi-        Vietnam to go from almost nothing a decade ago to
+one metabolism, and the accumulation of secondary             producing 25 million 60 kg bags in 2012–2013
+defence compounds (Berglund 1994; Berglund et al.             (USDA Foreign Agricultural Service 2013) In general,
+1996).                                                        Robusta is characterized as a neutral coffee, weak-
+    Kalbin et al. (1997) reported that strong UV-B            flavoured, and occasionally having a strong and
+irradiation of Pisum sativum plants caused 3.5- and           pronounced bitterness (Charrier and Berthaud 1985),
+9.5-fold increases in the respective levels of nicotin-       whereas Arabica is a milder, fruitier and acidulous
+amide and trigonelline, with a 60-fold increase in            beverage (Bertrand et al. 2003). Trigonelline accumu-
+oxidized glutathione in leaves. These events were not         lates in the green coffee beans (seeds) in similar
+
+                                                                                                           123
+790                                                                                  Phytochem Rev (2015) 14:765–798
+
+
+concentrations as caffeine at 1–3 % of DW (Clifford        (Lang et al. 2010, 2013). Regarding potential biolog-
+1985; Mazzafera 1991; Ky et al. 2001; Koshiro et al.       ical activities, trigonelline has been shown to possess,
+2006). Mazzafera (1991) surveyed the trigonelline          hypoglycaemic, neuroprotective, anti-invasive, estro-
+content of 16 cultivars of Coffea arabica and found        genic, anti-cancer and antibacterial activities and it
+values varying from 1.5 % (cv. Laurina) to 2.9 % (cv.      also has anticariogenic effects.
+Semperflorens). Trigonelline in Coffea canephora and
+other Coffea species was also analysed and an              Hypoglycaemic effects and diabetes
+especially high level, 3.1 %, was detected in Coffea
+canephora cv. Guarini. During roasting trigonelline in     After a 4 week treatment of diabetic rats with trigo-
+green coffee beans is thermally converted to nicotinic     nelline (50 mg/day/kg body weight), blood glucose,
+acid and other compounds (Viani and Horman 1974;           total cholesterol, and triglycerides were significantly
+Stadler et al. 2002) and as a consequence the              reduced (Zhou et al. 2011). Diabetes markers were
+trigonelline content of commercial roasted coffee          analysed in non-diabetic control rats, and diabetic rats.
+beans falls to *0.2–0.6 % DW (Taguchi et al. 1985).        Diabetic rats showed increased serum insulin and
+Shoots and seeds of fenugreek, used as a vegetable and     decreased pancreatic insulin levels and insulin sensi-
+a spice, contain respectively, *0.12 and *4.2 %, of        tivity index compared to non-diabetic rats. Four-week
+trigonelline (Radwan and Kokate 1980). Taguchi et al.      treatment with trigonelline reversed the levels of serum
+(1986) surveyed trigonelline content in 104 foods and      insulin and pancreatic insulin and the insulin sensitiv-
+it was detected, not only in plant products but in fish,   ity index in diabetic rats to values similar to the non-
+shellfish and the liver of several animals. The highest    diabetic control group (Zhou et al. 2011).
+concentration, 0.23 %, occurred in turban shell. Trig-        Trigonelline has been shown to influence the activity
+onelline containing plants included pea seeds              of key enzymes of glucose and lipid metabolism. Lower
+(0.09 %), celery (0.07 %) and green asparagus              serum insulin, and serum and liver triglyceride levels
+(0.05 %). Corol et al. (2012) examined the trigonelline    were obtained in a study with non-obese diabetic Goto-
+content of *200 cereal genotypes. They found low           Kakizaki rats which were fed trigonelline daily for a
+levels in milled cereal grains with the highest            period of 43 days, compared to a control group (Yosh-
+concentration being detected in oats at 0.003 %.           inari et al. 2009). The investigators related these results to
+                                                           a higher ratio of glucokinase to glucose-6-phosphatase,
+                                                           lower activity of liver fatty acid synthase and higher
+Bioavailability of trigonelline and potential effects      levels of carnitine palmitoyl transferase in liver samples
+on health                                                  obtained from the trigonelline-fed rats. In a randomized
+                                                           crossover study with healthy male humans a 500 mg dose
+Several studies have investigated the bioavailability of   of trigonelline led to significantly lower glucose and
+trigonelline in humans and animals. Yuyama (1999)          insulin levels 15 min after an oral glucose load compared
+analyzed the absorption of trigonelline from the small     to a placebo (van Djik et al. 2009).
+intestine of germ-free and specific pathogen-free rats.
+The data obtained indicated that trigonelline is not       Neuroprotective effects and Parkinson’s disease
+degraded by the microflora and that most is absorbed
+from the small intestine. Results obtained from            Trigonelline at 30 and 100 lM prevented, in a dose
+trigonelline bioavailability studies with humans who       dependent manner, dendritic and axonal atrophy in rat
+consumed one cup of coffee showed peak plasma              cortical neurons induced by the neurotoxine amyloyl-
+concentrations of 5.5–6.5 lM after 2–3 h (Lang et al.      ß-peptide [Aß (25–35)]. Furthermore, orally adminis-
+2010, 2013). Trigonelline was detected 15 min after        tered trigonelline (500 mg/kg) improved memory in
+ingestion of coffee, pointing towards absorption           mice treated with Aß (25–35) (Tohoda et al. 2005).
+occurring initially in the stomach. Pharmacokinetic        More recently, Gaur et al. (2013) studied the neuro-
+profiles revealed slow clearance and, thus, accumula-      protective effects of a fenugreek extract, containing
+tion of trigonelline in the plasma with an average half-   82 % trigonelline, in rodent models of Parkinson’s
+life of 5 h. Approximately 50 % of the trigonelline        disease. The data obtained showed that compared to a
+intake was excreted in urine 0–8 h post-ingestion          control group, there was a significant increase in the
+
+123
+Phytochem Rev (2015) 14:765–798                                                                                     791
+
+
+number of ipsilateral rotations in 6-hydroxydopamine-       phytoestrogens play dual roles in the development
+induced unilateral lesioned-rats treated orally with the    and progression of breast cancer. Exposure to phytoes-
+trigonelline-rich extract (30 mg/kg). The extract also      trogens, such as genistein, prior to tumour formation
+induced a significant reversal of motor dysfunction         reduces the risk of developing breast cancer (Lamar-
+caused by 1-methyl-4-phenyl-1,2,3,6-tetrahydropyri-         tiniere et al. 1995), whereas exposure after a tumour
+dine-induced lesions in C57BL/6 mice in pre-treat-          formation induces growth of estrogen-dependent mam-
+ment (1 h) but not in post-treatment (1 h) experiments.     mary tumours in rats (Hsieh et al. 1998). Trigonelline
+                                                            might exert similar effects. Further investigations on the
+Effect on the proliferation of cancer cells                 estrogenic activity of trigonelline are necessary to
+                                                            assess the effect on mammalian cells and breast cancer.
+Cell invasion is one of the key steps in the develop-           The transcription factor Nrf2 plays an essential role
+ment of cancer metastasis (Al-Mehdi et al. 2000). The       in cancer development and chemoresistance by protect-
+effects of trigonelline on the proliferation and invasion   ing tumour and carcinoma cells from apoptosis which
+of cancer cells were studied using rat ascites hepatoma     makes it a potential target in anticancer therapy (Singh
+cell line AH109A. At concentrations of 2.5–4.0 lM           et al. 2010). Trigonelline is an effective inhibitor of Nrf2
+trigonelline inhibited the invasion of hepatoma cells in    and increases the sensitivity of chemoresistant pancre-
+a dose responsive manner but did not influence              atic and colon cell lines to the impact of anticancer drugs
+proliferation. Anti-invasive activity was also deter-       (Arlt et al. 2013). On the other hand, it should be noted
+mined for rat serum obtained after incubation of cells      that the activation of Nrf2 by some antioxidants leads to
+with serum obtained from rats following feeding             protection against DNA damage and a reduction in
+100 lmol trigonelline/100 g body weight by gavage.          tumorigenesis (Osburn and Kensler 2008).
+Serum obtained 2 h after intake most strongly inhib-
+ited invasion of AH109A cells. Significant inhibition       Anticariogenic effects
+was also measured in serum collected 3 and 6 h after
+intake. These results suggest that trigonelline, and/or     Daglia et al. (2002) studied the anti-adhesive proper-
+its metabolites, absorbed from the gastrointestinal         ties of several coffee-derived compounds, including
+tract retain their effectiveness in the bloodstream.        trigonelline, against Streptococcus mutans, which is
+Both trigonelline and trigonelline-loaded rat serum         considered to be the major causative agent of dental
+suppressed reactive-oxygen-species (ROS)-potenti-           caries in humans. The results obtained showed that
+ated invasive activity of pre-treated cells but did not     trigonelline possesses high inhibitory activity against
+scavenge intracellular peroxides, implying that other       the ability of S. mutans to adsorb onto saliva-coated
+mechanisms are involved in the suppressive effects on       hydroxyapatite beads. Trigonelline is also a potential
+ROS-potentiated invasion (Hirakawa et al. 2005).            natural antimicrobial agent against the highly invasive
+    The effect of trigonelline on in vitro cultured         pathogen Salmonella enterica (Almeida et al. 2006).
+human neurits (SK-N-SH neurobastoma cell line) was
+studied by Tohoda et al. (1999). The results obtained
+showed that neuroblastoma cells treated with 30 lM          Biotechnology of trigonelline
+trigonelline for up to 6 days exhibited a significant
+increase in the percentage of cells with neurits.           As discussed earlier, trigonelline has potential protec-
+Furthermore, an increase in the number of neutrits          tive effects in humans and manipulation of the
+reacting positively to neurofilament-H was observed,        trigonelline content in foods has been performed. In
+suggesting an enhancement of axional extension by           the case of coffee, two methods are used for increase in
+trigonelline (Tohoda et al. 1999).                          trigonelline of the beverage. The first is the use of a
+    Trigonelline stimulates proliferation of MCF-7          low roasting temperature which reduces the degrada-
+breast cancer cells and significantly enhances cell         tion of trigonelline while the second approach is the
+growth in vitro at concentrations as low as 100 pM          addition of trigonelline extracted from green beans to
+(Lamartiniere et al. 1995). This effect was attributed to   the roasted coffee powders.
+the activation of the estrogen receptor which classifies       Trigonelline is also important as a source of vitamin
+trigonelline as a novel phytoestrogen. Soy                  B3 (niacin, i.e., nicotinic acid and nicotinamide).
+
+                                                                                                            123
+792                                                                                 Phytochem Rev (2015) 14:765–798
+
+
+Trigonelline in coffee beans is demethylated to form        affect plant growth and development and final yield
+nicotinic acid during the roasting process (Taguchi         performance of a crop. It is estimated that less than 10 %
+et al. 1985; Casal et al. 2000). Coffee provides 1–3 mg     of the world’s arable lands are free of major environ-
+of nicotinic acid per cup (Adrian and Frangne 1991).        mental stresses with drought and salinity stresses being
+Thus, one cup of coffee could contribute 6–18 %             the most widespread (Ashraf and Foolad 2007).
+of the recommended daily amount of vitamin B3               Research is in progress to establish stress-tolerant
+(16 mg/day) for adult men (Allred et al. 2009).             genetically modified plants that are capable of produc-
+    Genetic engineering of trigonelline formation could     ing elevated amounts of compatible solutes in response
+in the future be a useful means for creating trigonel-      to environmental stresses. At present, glycinebetaine
+line- or vitamin B3-rich foods. As shown in the             and proline are target molecules, but trigonelline may
+metabolism section, there is a direct pathway of            also be a possible candidate compatible solute.
+trigonelline synthesis from quinolinic acid (QA)               The high concentration trigonelline containing
+which is formed from the de novo pathway (steps             plant, orange jessamine, does not act as a host for
+12–15 in Fig. 4). This pathway bypasses the compli-         the eggs of the swallow tail butterfly (Nakayama and
+cated PNC cycle.                                            Honda 2004). Thus, another possible use of trigonel-
+    To obtain vitamin B3-enriched foods, Noctor et al.      line in agriculture is as a natural pesticide to reduce
+(2011) tried to manipulate the pathway of pyridine          insect infestations.
+nucleotide synthesis to achieve increases in tissue            The ability to manipulate internal cellular concen-
+NAD. Although vitamin B3-enriched plants have not           trations of trigonelline would also be of value in
+yet obtained, in E. coli, the enhancement of the            clarifying the in planta roles of the pyridine alkaloid
+pyridine nucleotide pool has been achieved by genetic       that have been proposed on the basis of data obtained
+manipulation of the NAD biosynthetic pathways               with exogenous applications of trigonelline. Before
+(Heuser et al. 2007). After simultaneous over-expres-       any of this can be achieved information is required on
+sion of the genes encoding NaPRT and NAD synthe-            the structure of trigonelline synthase and trigonelline
+tase, intracellular concentrations of NADP and NAD          demethylase genes and the mechanism of accumula-
+increased 2- and sevenfold, respectively. NAD is an         tion of trigonelline and its metabolites in plant tissues.
+important metabolite in primary metabolism, so its
+accumulation appears to be limited compared with that
+of secondary metabolites such as trigonelline. There-       Perspectives
+fore, trigonelline-rich genetically modified plants are
+better candidates for enhancing vitamin B3 levels.          In this paper, pyridine nucleotide metabolism and
+Trigonelline demethylating enzyme activity has been         metabolites derived from nicotinic acid are reviewed.
+found in animals with especially high activity in pig       Like pyrimidine and purine nucleotides, pyridine
+liver (Taguchi and Shimabayashi 1983). Stimulation of       nucleotides are synthesized by the de novo and
+activities of the first three enzymes of de novo pyridine   salvage pathways. However, in contrast to pyrimidine
+nucleotide biosynthesis (steps 1–3 in Fig. 2), and three    and purine metabolism (Ashihara and Crozier 1999;
+enzymes involved in the conversion of NaMN to               Stasolla et al. 2003; Zrenner and Ashihara 2011),
+trigonelline (steps 13–15 in Fig. 4) would be required      pathway(s) for the complete degradation of pyridine
+to produce trigonelline-enriched plants. Addition of        nucleotides are either very weak or absent for plant
+trigonelline demethylase gene from other organisms is       tissues. As a result, PNCs consist of catabolism and
+necessary to obtain vitamin B3-rich plants, although        salvage pathways operate in plants. High concentra-
+accumulation of nicotinic acid in vacuoles may be           tions of trigonelline are found in seeds of coffee and
+necessary, because a high concentration of nicotinic        some Fabaceae species and only trace amounts occur
+acid in cytoplasm inhibits plant growth (Zheng et al.       in many other species. Accumulation of NaG does not
+2005; Sasamoto and Ashihara 2014).                          occur in any species.
+    In addition to potential benefits to human health,         In coffee, trigonelline is found in similar concen-
+trigonelline-rich genetically modified plants could be of   trations as caffeine, but from a research perspective it
+agricultural and environmental value. Several environ-      has received only limited attention compared to the
+mental factors including salinity and drought adversely     purine alkaloid. Although several genes encoding
+
+123
+Phytochem Rev (2015) 14:765–798                                                                                                  793
+
+
+enzymes of caffeine biosynthesis have been cloned                        pancreatic cancer cells more susceptible to apoptosis
+and characterised and genetically-modified coffee and                    through decreased proteasomal gene expression and pro-
+                                                                         teasome activity. Oncogene 32:4825–4835
+tobacco plants produced (Ashihara et al. 2008, 2011b,                Ashihara H (2008) Trigonelline (N-methylnicotinic acid) bio-
+c, 2013), the genes for trigonelline synthase and NaG                    synthesis and its biological role in plants. Nat Prod Com-
+synthase have not been yet identified, even in Arabi-                    mun 3:1423–1428
+dopsis or rice. The cloning of these genes would                     Ashihara H (2014) Coffee plant biochemistry: trigonelline
+                                                                         biosynthesis in Coffea arabica and Coffea canephora. In:
+facilitate the manipulation of biosynthetic pathways to                  Preedy VR (ed) Coffee in health and disease prevention.
+create trigonelline- and vitamin B3-rich plants offering                 Elsevier, Amsterdam
+potential benefits to human health. However, currently               Ashihara H, Crozier A (1999) Biosynthesis and metabolism of
+the impact of the trigonelline on health has been                        caffeine and related purine alkaloids in plants. In: Callow
+                                                                         JA (ed) Advances in botanical research, vol 30. Academic
+investigated almost exclusively with model animals                       Press, Burlington, pp 117–205
+and in vitro cell-based test systems and it remains to be            Ashihara H, Deng WW (2012) Pyridine metabolism in tea
+determined if favourable effects against a number of                     plants: salvage, conjugate formation and catabolism.
+chronic conditions, including Parkinson’s disease,                       J Plant Res 125:781–791
+                                                                     Ashihara H, Watanabe S (2014) Accumulation and function of
+cancer and diabetes, are transferable to humans.                         trigonelline in non-leguminous plants. Nat Prod Commun
+   Plants with an elevated trigonelline content may                      9:795–798
+also have enhanced natural pesticide properties.                     Ashihara H, Stasolla C, Yin Y, Loukanina N, Thorpe TA (2005)
+Furthermore, as trigonelline acts as a compatible                        De novo and salvage biosynthetic pathways of pyridine
+                                                                         nucleotides and nicotinic acid conjugates in cultured plant
+solute, genetically-modified trigonelline-enriched                       cells. Plant Sci 169:107–114
+agricultural plants, as well as forest trees, may have               Ashihara H, Luit B, Belmonte M, Stasolla C (2008) Metabolism
+salt- and drought-resistant properties that could make                   of nicotinamide, adenine and inosine in developing
+them amenable to cultivation in saline and arid                          microspore-derived canola (Brassica napus) embryos.
+                                                                         Plant Physiol Biochem 46:752–759
+environments. Modification of expression levels of                   Ashihara H, Yin Y, Deng WW, Watanabe S (2010) Pyridine
+these genes would be also useful in elucidating other in                 salvage and nicotinic acid conjugate synthesis in leaves of
+planta functions of trigonelline, such as its role in cell               mangrove species. Phytochemistry 71:47–53
+cycle regulation.                                                    Ashihara H, Deng WW, Nagai C (2011a) Trigonelline biosyn-
+                                                                         thesis and the pyridine nucleotide cycle in Coffea arabica
+                                                                         fruits: metabolic fate of [carboxyl-14C]nicotinic acid
+Acknowledgments Our research cited in this review was                    riboside. Phytochem Lett 4:235–239
+supported by the Grant-in-Aid for Scientific Research from the       Ashihara H, Kato M, Crozier A (2011b) Distribution, biosyn-
+Japanese Society for the Promotion of Science (Nos. 16570031             thesis and catabolism of methylxanthines in plants. In:
+and 22510226) and by research grants from the Asahi Breweries            Fredholm BB (ed) Methylxanthines (Handbook of exper-
+Foundation, Japan to Hiroshi Ashihara.                                   imental pharmacology). Springer, New York, pp 11–31
+                                                                     Ashihara H, Ogita S, Crozier A (2011c) Purine alkaloid
+                                                                         metabolism. In: Ashihara H, Crozier A, Komamine A (eds)
+References                                                               Plant metabolism and biotechnology. Wiley, Chichester,
+                                                                         UK, pp 163–189
+Adrian J, Frangne R (1991) Synthesis and availability of niacin      Ashihara H, Yin Y, Watanabe S (2011d) Nicotinamide metab-
+     in roasted coffee. Adv Exp Med Biol 289:49–59                       olism in ferns: formation of nicotinic acid glucoside. Plant
+Allred KF, Yackley KM, Vanamala J, Allred CD (2009) Trig-                Physiol Biochem 49:275–279
+     onelline is a novel phytoestrogen in coffee beans. J Nutr       Ashihara H, Yin Y, Katahira R, Watanabe S, Mimura T, Sa-
+     139:1833–1838                                                       samoto H (2012) Comparison of the formation of nicotinic
+Al-Mehdi AB, Tozawa K, Fisher AB, Shientag L, Lee A, Mu-                 acid conjugates in leaves of different plant species. Plant
+     schel RJ (2000) Intravascular origin of metastasis from the         Physiol Biochem 60:190–195
+     proliferation of endothelium-attached tumor cells: a new        Ashihara H, Yokota T, Crozier A (2013) Biosynthesis and
+     model for metastasis. Nat Med 6:100–102                             catabolism of purine alkaloids. In: Nathalie G-Gh (ed)
+Almeida AAP, Farah A, Silva DA, Nunan EA, Gloria B (2006)                Advances in botanical research, vol 68. Academic Press,
+     Antibacterial activity of coffee extracts and selected coffee       Burlington, pp 111–138
+     chemical compounds against enterobacteria. J Agric Food         Ashraf M, Foolad MR (2007) Roles of glycine betaine and
+     Chem 54:8738–8743                                                   proline in improving plant abiotic stress resistance. Envi-
+Arditti J, Tarr JB (1979) Niacin biosynthesis in plants. Am J Bot        ron Exp Bot 59:206–216
+     66:1105–1113                                                    Barz W (1985) Metabolism and degradation of nicotinic acid in
+Arlt A, Sebens S, Krebs S, Geismann C, Grossmann M, Kruse                plant cell cultures. In: Neumann KH, Barz W, Reinhard E
+     ML, Schreiber S, Schaefer H (2013) Inhibition of the Nrf2           (eds) Primary and secondary metabolism of plant cell
+     transcription factor by the alkaloid trigonelline renders           cultures. Springer, Berlin, pp 186–195
+
+
+                                                                                                                         123
+794                                                                                            Phytochem Rev (2015) 14:765–798
+
+Belenky P, Bogan KL, Brenner C (2007) NAD? metabolism in            Daglia M, Tarsi R, Papetti A, Grisoli P, Dacarro C, Pruzzo C,
+     health and disease. Trends Biochem Sci 32:12–19                     Gazzani G (2002) Anti-adhesive effect of green and roas-
+Berglund T (1994) Nicotinamide, a missing link in the early              ted coffee on Streptococcus mutans’ adhesive properties on
+     stress response in eukaryotic cells: a hypothesis with spe-         saliva-coated hydroxyapatite beads. J Agric Food Chem
+     cial reference to oxidative stress in plants. FEBS Lett             50:1225–1229
+     351:145–149                                                    Dawson RF, Christman DR, Anderson RC (1953) Alkaloid
+Berglund T, Kalbin G, Strid A, Rydstrom J, Ohlsson AB (1996)             biogenesis. IV. The Non-availability of nicotinic acid-
+     UV-B- and oxidative stress-induced increase in nicotin-             carboxyl-C14 and its ethyl ester for nicotine biosynthesis.
+     amide and trigonelline and inhibition of defensive metab-           J Amer Chem Soc 75:5114–5116
+     olism induction by poly (ADP-ribose) polymerase inhibitor      DeBoer K, Lye J, Aitken C, Su A, Hamill J (2009) The A622
+     in plant tissue. FEBS Lett 380:188–193                              gene in Nicotiana glauca (tree tobacco): evidence for a
+Bertrand B, Guyot B, Anthony F, Lashermes P (2003) Impact of             functional role in pyridine alkaloid synthesis. Plant Mol
+     the Coffea canephora gene introgression on beverage                 Biol 69:299–312
+     quality of C. arabica. Theor Appl Genet 107:387–394            Dobrzanska M, Szurmak B, Wyslouch-Cieszynska A, Kra-
+Bessman MJ, Frick DN, O’Handley SF (1996) The MutT pro-                  szewska E (2002) Cloning and characterization of the first
+     teins or ‘‘Nudix’’ hydrolases, a family of versatile, widely        member of the Nudix family from Arabidopsis thaliana.
+     distributed, ‘‘housecleaning’’ enzymes. J Biol Chem                 J Biol Chem 277:50482–50486
+     271:25059–25062                                                Dulyaninova NG, Podlepa EM, Toulokhonova LV, Bykhovsky
+Bieganowski P, Brenner C (2004) Discoveries of nicotinamide              VY (2000) Salvage pathway for NAD biosynthesis in
+     riboside as a nutrient and conserved NRK genes establish a          Brevibacterium ammoniagenes: regulatory properties of
+     preiss-handler independent route to NAD? in fungi and               triphosphate-dependent       nicotinate     phosphoribosyl-
+     humans. Cell 117:495–502                                            transferase. Biochim Biophys Acta 1478:211–220
+Blunden G, Patel AV, Armstrong N, Romero MA, Meléndez P            Evans LS, Tramontano WA (1981) Is trigonelline a plant hor-
+     (2005) Betaine distribution in angiosperms. Biochem Syst            mone pea seedlings? Am J Bot 68:1282–1289
+     Ecol 33:904–920                                                Evans LS, Almeida MS, Lynn DG, Nakanishi K (1979)
+Boivin C, Camut S, Malpica CA, Truchet G, Rosenberg C                    Chemical characterization of a hormone that promotes cell
+     (1990) Rhizobium meliloti genes encoding catabolism of              arrest in G2 in complex tissues. Science 203:1122–1123
+     trigonelline are induced under symbiotic conditions. Plant     Francis D, Sorrell D (2001) The interface between the cell cycle
+     Cell 2:1157–1170                                                    and plant growth regulators: a mini review. Plant Growth
+Boivin C, Barran LR, Malpica CA, Rosenberg C (1991) Genetic              Regul 33:1–12
+     analysis of a region of the Rhizobium meliloti pSym plas-      Friesen JB, Leete E (1990) Nicotine synthase-an enzyme from
+     mid specifying catabolism of trigonelline, a secondary              nicotiana species which catalyzes the formation of (S)-
+     metabolite present in legumes. J Bacteriol 173:2809–2817            nicotine from nicotinic acid and 1-methyl-d’-pyrrolinium
+Bray L, Chriqui D, Gloux K, Le Rudulier D, Meyer M, Peduzzi J            chloride. Tetrahedron Lett 31:6295–6298
+     (1991) Betaines and free amino acids in salt stressed vi-      Frost GM, Yang KS, Waller GR (1967) Nicotinamide adenine
+     troplants and winter resting buds of Populus trichocarpa x          dinucleotide as a precursor of nicotine in Nicotiana rustica
+     deltoides. Physiol Plant 83:136–143                                 L. J Biol Chem 242:887–888
+Briggs AG, Bent AF (2011) Poly(ADP-ribosyl)ation in plants.         Frye RA (2000) Phylogenetic classification of prokaryotic and
+     Trends Plant Sci 16:372–380                                         eukaryotic Sir2-like proteins. Biochem Biophys Res
+Casal S, Beatriz Oliveira M, Ferreira MA (2000) HPLC/diode-              Commun 273:793–798
+     array applied to the thermal degradation of trigonelline,      Fu P, Robinson T (1970) Pyridinium oxidases in the family
+     nicotinic acid and caffeine in coffee. Food Chem                    Euphorbiaceae. Phytochemistry 9:2443–2446
+     68:481–485                                                     Fu P, Robinson T (1972) Isolation and characterization of py-
+Charrier A, Berthaud J (1985) Botanical classification of coffee.        ridinium oxidase B. Phytochemistry 11:95–103
+     In: Clifford MN, Willson KC (eds) Coffee: botany, bio-         Furukawa M, Makino M, Uchiyama T, Ishimi K, Ichinohe Y,
+     chemistry and production of beans and beverage. Croom               Fujimoto Y (2002) Sesquiterpene pyridine alkaloids from
+     Helm, London, pp 13–47                                              Hippocratea excelsa. Phytochemistry 59:767–777
+Chen X, Wood AJ (2004) Purification and characterization of S-      Gaur V, Bodhankar L, Mohan V, Thakurdesai PA (2013)
+     adenosyl-L-methionine nicotinic acid-N-methyltransferase            Neurobehavioral assessment of hydroalcoholic extract of
+     from leaves of Glycine max. Biol Plant 48:531–535                   Trigonella foenum-graecum seeds in rodent models of
+Cho Y, Lightfoot DA, Wood AJ (1999) Trigonelline concen-                 Parkinson’s disease. Pharm Biol 51:550–557
+     trations in salt stressed leaves of cultivated Glycine max.    Gholson RK (1966) The pyridine nucleotide cycle. Nature
+     Phytochemistry 52:1235–1238                                         212:933–935
+Clifford MN (1985) Chemical and physical aspects of green           Goldmann A, Boivin C, Fleury V, Message B, Lecoeur L, Maille
+     coffee and coffee products. In: Clifford MN, Willson KC             M, Tepfer D (1991) Betaine use by rhizosphere bacteria:
+     (eds) Coffee: botany, biochemistry and production of beans          genes essential for trigonelline, stachydrine, and carnitine
+     and beverage. Croom Helm, London, pp 305–374                        catabolism in Rhizobium meliloti are located on pSym in the
+Corol DT, Ravel C, Raksegi M, Bedo Z, Charmet G, Beale MH,               symbiotic region. Mol Plant Microbe Interact 4:571–578
+     Shewry PR, Ward JL (2012) Effects of genotype and              Goossens A, Häkkinen ST, Laakso I, Seppänen-Laakso T, Bi-
+     environment on the contents of betaine, choline, and trig-          ondi S, De Sutter V, Lammertyn F, Nuutila AM, Söderlund
+     onelline in cereal grains. J Agric Food Chem 60:471–481             H, Zabeau M, Inzé D, Oksman-Caldentey K-M (2003) A
+
+
+123
+Phytochem Rev (2015) 14:765–798                                                                                                 795
+
+     functional genomics approach toward the understanding of      Jahns E (1891) Über die Alkaloide der Arekanuß. Arch Pharm
+     secondary metabolism in plant cells. Proc Nat Acad Sci             229:669–707
+     USA 100:8595–8600                                             Jakoby WB, Ziegler DM (1990) The enzymes of detoxication.
+Griffith T, Hellman KP, Byerrum RU (1962) Studies on the                J Biol Chem 265:20715–20718
+     biosynthesis of the pyridine ring of nicotine. Biochemistry   Jambunathan N, Mahalingam R (2006) Analysis of Arabidopsis
+     1:336–340                                                          Growth Factor Gene 1 (GFG1) encoding a nudix hydrolase
+Gustafson FG (1949) Tryptophane as an intermediate in the               during oxidative signaling. Planta 224:1–11
+     synthesis of nicotinic acid by green plants. Science          Jiménez JI, Canales Á, Jiménez-Barbero J, Ginalski K, Rych-
+     110:279–280                                                        lewski L, Garcı́a JL, Dı́az E (2008) Deciphering the genetic
+Hanson AD, Rivoal J, Burnet M, Rathinasabapathi B (1995)                determinants for aerobic nicotinic acid degradation: the nic
+     Biosynthesis of quaternary ammonium and tertiary sul-              cluster from Pseudomonas putida KT2440. Proc Nat Acad
+     phonium compounds in response to water deficit. In:                Sci USA 105:11329–11334
+     Smirnoff N (ed) Environment and Plant Metabolism:             Johns E (1885) Ueber die alkaloide des bockshornsamens. Ber
+     flexibility and acclimation. BIOS Scientific Publishers,           Deut Chem Ges 18:2518–2523
+     Oxford, pp 189–198                                            Johnson RD, Waller GR (1974) The relationship of the pyridine
+Harborne JB, Turner BL (1984) Plant Chemosystematics.                   nucleotide cycle to ricinine biosynthesis in Ricinus Com-
+     Academic Press, London                                             munis. Phytochemistry 13:1493–1500
+Hashida SN, Takahashi H, Kawai-Yamada M, Uchimiya H                Joshi JG, Handler P (1960) Biosynthesis of trigonelline. J Biol
+     (2007) Arabidopsis thaliana nicotinate/nicotinamide                Chem 235:2981–2983
+     mononucleotide adenyltransferase (AtNMNAT) is                 Kajikawa M, Hirai N, Hashimoto T (2009) A PIP-family protein
+     required for pollen tube growth. Plant J 49:694–703                is required for biosynthesis of tobacco alkaloids. Plant Mol
+Hesse M (2002) Alkaloids nature’s curse or blessing? Wiley-             Biol 69:287–298
+     VCH, New York                                                 Kalbin G, Ohlsson AB, Berglund T, Rydström J, Strid A (1997)
+Heuser F, Schroer K, Lütz S, Bringer-Meyer S, Sahm H (2007)            Ultraviolet-B-radiation-induced changes in nicotinamide
+     Enhancement of the NAD(P)(H) pool in Escherichia coli              and glutathione metabolism and gene expression in plants.
+     for biotransformation. Eng Life Sci 7:343–353                      Eur J Biochem 249:465–472
+Hibi N, Higashiguchi S, Hashimoto T, Yamada Y (1994) Gene          Katahira R, Ashihara H (2009) Profiles of the biosynthesis and
+     expression in tobacco low-nicotine mutants. Plant Cell             metabolism of pyridine nucleotides in potatoes (Solanum
+     6:723–735                                                          tuberosum L.). Planta 231:35–42
+Hirakawa N, Okauchi R, Miura Y, Yagasaki K (2005) Anti-            Katoh A, Hashimoto T (2004) Molecular biology of pyridine
+     invasive activity of niacin and trigonelline against cancer        nucleotide and nicotine biosynthesis. Front Biosci
+     cells. Biosci Biotechnol Biochem 69:653–658                        9:1577–1586
+Höhl U, Upmeier B, Barz W (1988) Growth and nicotinate            Katoh A, Uenohara K, Akita M, Hashimoto T (2006) Early steps in
+     biotransformation in batch cultured and airlift fermenter          the biosynthesis of NAD in Arabidopsis start with aspartate
+     grown soybean cell suspension cultures. Appl Microbiol             and occur in the plastid. Plant Physiol 141:851–857
+     Biotechnol 28:319–323                                         Koshiro Y, Zheng XQ, Wang M, Nagai C, Ashihara H (2006)
+Hosokawa Y, Mitchell E, Gholson RK (1983) Higher plants                 Changes in content and biosynthetic activity of caffeine
+     contain L-asparate oxidase, the first enzyme of the Esch-          and trigonelline during growth and ripening of Coffea
+     erichia coli quinolinate synthetase system. Biochem Bio-           arabica and Coffea canephora fruits. Plant Sci 171:242–
+     phys Res Commun 111:188–193                                        250
+Hsieh CY, Santell RC, Haslam SZ, Helferich WG (1998)               Koster S, Upmeier B, Komossa D, Barz W (1989) Nicotinic acid
+     Estrogenic effects of genistein on the growth of estrogen          conjugation in plants and plant cell cultures of potato
+     receptor-positive human breast cancer (MCF-7) cells                (Solanum tuberosum). Z Naturforsch 44c:623–628
+     in vitro and in vivo. Cancer Res 58:3833–3838 Erratum in:     Kurnasov O, Goral V, Colabroy K, Gerdes S, Anantha S, Os-
+     Cancer Res 59:1388                                                 terman A, Begley TP (2003) NAD biosynthesis: identifi-
+Hunt L, Lerner F, Ziegler M (2004) NAD—new roles in signal-             cation of the tryptophan to quinolinate pathway in bacteria.
+     ling and gene regulation in plants. New Phytol 163:31–44           Chem Biol 10:1195–1204
+Imai T (1973) Purification and properties of nicotinamide          Ky CL, Louarn J, Dussert S, Guyot B, Hamon S, Noirot M
+     mononucleotide amidohydrolase from Azotobacter vine-               (2001) Caffeine, trigonelline, chlorogenic acids and
+     landii. J Biochem 73:139–153                                       sucrose diversity in wild Coffea arabica L. and C. cane-
+Imai T (1979) Isolation and properties of a glycohydrolase              phora P. accessions. Food Chem 75:223–230
+     specific for nicotinamide mononucleotide from Azotobac-       Lamartiniere CA, Moore JB, Brown NM, Thompson R, Hardin
+     ter vinelandii. J Biochem 85:887–899                               MJ, Barnes S (1995) Genistein suppresses mammary can-
+Imai T, Anderson BM (1987) Metabolism of nicotinamide                   cer in rats. Carcinogenesis 16:2833–2840
+     mononucleotide in beef liver. Arch Biochem Biophys            Lang R, Wahl A, Skurk T, Yagar EF, Schmiech L, Eggers R,
+     254:241–252                                                        Hauner H, Hofmann T (2010) Development of a hydro-
+Iyer RS, Pathak B, Bose A (1956) Gentianine from an Indian              philic liquid interaction chromatography-high-perfor-
+     medicinal plant. Naturwissenschaften 43:251–252                    mance liquid chromatography-tandem mass spectrometry
+Jackanicz TM, Byerrum RU (1966) Incorporation of aspartate              based stable isotope dilution analysis and pharmacokinetic
+     and malate into the pyridine ring of nicotine. J Biol Chem         studies on bioactive pyridines in human plasma and urine
+     241:1296–1299                                                      after coffee consumption. Anal Chem 82:1486–1497
+
+
+                                                                                                                        123
+796                                                                                            Phytochem Rev (2015) 14:765–798
+
+Lang R, Dieminger N, Beusch A, Lee YM, Dunkel A, Suess B,           Nasu S, Wicks FD, Gholson RK (1982) L-Aspartate oxidase, a
+    Skurk T, Wahl A, Hauner H, Hofmann T (2013) Bioap-                   newly discovered enzyme of Escherichia coli, is the B
+    pearance and pharmacokinetics of bioactives upon coffee              protein of quinolinate synthetase. J Biol Chem
+    consumption. Anal Bioanal Chem 405:8487–8503                         257:626–632
+Lee G, Carrow RN, Duncan RR, Eiteman MA, Rieger MW                  Nishitani H, Yamada Y, Ohshima N, Okumura K, Taguchi H
+    (2008) Synthesis of organic osmolytes and salt tolerance             (1995) Identification of N-(b-D-Glucopyranosyl)nicotinic
+    mechanisms in Paspalum vaginatum. Environ Exp Bot                    acid as a major metabolite from niacin in cultured tobacco
+    63:19–27                                                             cells. Biosci Biotechnol Biochem 59:1336–1338
+Leete E (1978) Stereochemistry of the reduction of nicotinic        Noctor G, Queval G, Gakiere B (2006) NAD(P) synthesis and
+    acid when it serves as a precursor of anatabine. J Chem Soc          pyridine nucleotide cycling in plants and their potential
+    Chem Commun 610–611                                                  importance in stress conditions. J Exp Bot 57:1603–1620
+Leete E, Liu YY (1973) Metabolism of [2-3H]- and [6-3H]-            Noctor G, Hager J, Li S (2011) Biosynthesis of NAD and its
+    nicotinic acid in intact Nicotiana tabacum plants. Phyto-            manipulation in plants. In: Fabrice R, Roland D (eds)
+    chemistry 12:593–596                                                 Advances in botanical research. Academic Press, Bur-
+Leete E, Slattery SA (1976) Incorporation of [2-14C]- and [6-            lington, pp 153–201
+    14C]nicotinic acid into the tobacco alkaloids. Biosynthesis     Ogawa T, Ueda Y, Yoshimura K, Shigeoka S (2005) Compre-
+    of anatabine and a, b-dipyridyl. J Am Chem Soc                       hensive analysis of cytosolic Nudix hydrolases in Arabi-
+    98:6326–6330                                                         dopsis thaliana. J Biol Chem 280:25277–25283
+Mann DF, Byerrum RU (1974a) Quinolinic acid phosphor-               Osburn WO, Kensler TW (2008) Nrf2 signaling: an adaptive
+    ibosyltransferase from castor bean endosperm. I. Purifica-           response pathway for protection against environmental
+    tion and characterization. J Biol Chem 249:6817–6823                 toxic insults. Mutation Res/Rev Mutation Res 659:31–39
+Mann DF, Byerrum RU (1974b) Activation of the de novo               Pailer M, Libiseller R (1962) Über Evonymus-Alkaloide, 1.
+    pathway for pyridine nucleotide biosynthesis prior to rici-          Mitt.: Zur Reindarstellung und Konstitution des Evonins
+    nine biosynthesis in caster beans. Plant Physiol 53:603–             (aus Evonymus europaea L.). Monatsh Chem 93:403–416
+    609                                                             Petracco M (2005) Our everyday cup of coffee: the chemistry
+Mata R, Calzada F, Dı́az E, Toscano RA (1990) Chemical                   behind its magic. J Chem Educ 82:1161–1167
+    studies on Mexican plants used in traditional medicine,         Preiss J, Handler P (1958) Biosynthesis of diphosphopyridine
+    XV. Sesquiterpene evoninoate alkaloids from Hippocratea              nucleotide. II. Enzymatic aspects. J Biol Chem 233:493–
+    excelsa. J Nat Prod 53:1212–1219                                     500
+Matsui A, Ashihara H (2008) Nicotinate riboside salvage in          Qiu YL, Palmer JD (1999) Phylogeny of early land plants:
+    plants: presence of nicotinate riboside kinase in mungbean           insights from genes and genomes. Trend Plant Sci 4:26–30
+    seedlings. Plant Physiol Biochem 46:104–108                     Radwan SS, Kokate CK (1980) Production of higher levels of
+Matsui A, Yin Y, Yamanaka K, Iwasaki M, Ashihara H (2007)                trigonelline by cell cultures of Trigonella foenum-graecum
+    Metabolic fate of nicotinamide in higher plants. Physiol             than by the differentiated plant. Planta 147:340–344
+    Plant 131:191–200                                               Rajasekaran LR, Aspinall D, Jones GP, Paleg LG (2001) Stress
+Mazzafera P (1991) Trigonelline in coffee. Phytochemistry                metabolism. IX. Effect of salt stress on trigonelline accu-
+    30:2309–2310                                                         mulation in tomato. Can J Plant Sci 81:487–498
+Mazzuca S, Bitonti MB, Innocenti AM, Francis D (2000)               Revollo JR, Grimm AA, Imai S (2004) The NAD biosynthesis
+    Inactivation of DNA replication origins by the cell cycle            pathway mediated by nicotinamide phosphoribosyl-
+    regulator, trigonelline, in root meristems of Lactuca sativa.        transferase regulates Sir2 activity in mammalian cells.
+    Planta 211:127–132                                                   J Biol Chem 279:50754–50763
+Minorsky PV (2002) Trigonelline: a diverse regulator in plants.     Robinson T (1965) Enzymes of alkaloid biosynthesis—I:
+    Plant Physiol 128:7–8                                                enzymatic oxidation of 1-methylnicotinonitrile. Phyto-
+Mizusaki S, Tanabe Y, Kisaki T, Tamaki E (1970) Metabolism               chemistry 4:67–74
+    of nicotinic acid in tobacco plants. Phytochemistry             Rongvaux A, Andris F, Van Gool F, Leo O (2003) Recon-
+    9:549–554                                                            structing eukaryotic NAD metabolism. BioEssays
+Moat AG, Foster JW (1987) Biosynthesis and salvage pathways              25:683–690
+    of pyridine nucleotides. In: Dolphin D, Avramovic O,            Saitoh F, Noma M, Kawashima N (1985) The alkaloid contents
+    Poulson R (eds) Pyridine nucleotide coenzymes. Chemical,             of sixty Nicotiana species. Phytochemistry 24:477–480
+    biochemical, and medical aspects, part B. Wiley, New            Sakan T, Fujino A, Murai F, Butsugan Y, Suzui A (1959) On the
+    York, pp 1–24                                                        structure of actinidine and matatabilactone, the effective
+Nakayama T, Honda K (2004) Chemical basis for differential               components of Actinidia polygama. Bull Chem Soc Jpn
+    acceptance of two sympatric rutaceous plants by ovipos-              32:315–316
+    iting females of a swallowtail butterfly, Papilio polytes       Sasamoto H, Ashihara H (2014) Effect of nicotinic acid, nico-
+    (Lepidoptera, Papilionidae). Chemoecology 14:199–205                 tinamide and trigonelline on the proliferation of lettuce
+Narayana Murthy UM, Ollagnier-de-Choudens S, Sanakis Y,                  cells derived from protoplasts. Phytochem Lett 7:38–41
+    Abdel-Ghany SE, Rousset C, Ye H, Fontecave M, Pilon-            Schippers JHM, Nunes-Nesi A, Apetrei R, Hille J, Fernie AR,
+    Smits EAH, Pilon M (2007) Characterization of Arabi-                 Dijkwel PP (2008) The Arabidopsis onset of leaf death5
+    dopsis thaliana SufE2 and SufE3: functions in chloroplast            mutation of quinolinate synthase affects nicotinamide
+    iron-sulfur cluster assembly and NAD synthesis. J Biol               adenine dinucleotide biosynthesis and causes early ageing.
+    Chem 282:18254–18264                                                 Plant Cell 20:2909–2925
+
+
+123
+Phytochem Rev (2015) 14:765–798                                                                                                    797
+
+Scott TA, Glynn JP (1967) The incorporation of [2,3,7-14C]            Tohoda C, Nakamura N, Komatsu K, Hattori M (1999) Trigo-
+     nicotinic acid into nicotine by Nicotiana tabacum. Phyto-             nelline-induced neurit outgrowth in human neuroplastoma
+     chemistry 6:505–510                                                   SK-N-SH cells. Biol Pharm Bull 22:679–682
+Shimizu MM, Mazzafera P (2000) A role for trigonelline during         Tohoda C, Kuboyama T, Komatsu K (2005) Search for natural
+     imbibition and germination of coffee seeds. Plant Biol                products related to regeneration of neuronal network.
+     2:605–611                                                             Neurosignals 14:34–45
+Shoji T, Hashimoto T (2011) Nicotine biosynthesis. In: Ashi-          Tomlinson PB (1994) The botany of mangroves. Cambridge
+     hara H, Crozier A, Komamine A (eds) Plant metabolism                  University Press, Cambridge
+     and biotechnology. Wiley, Chichester, pp 191–216                 Tramontano WA, Jouve D (1997) Trigonelline accumulation in
+Shoji T, Kajikawa M, Hashimoto T (2010) Clustered tran-                    salt-stressed legumes and the role of other osmoregulators
+     scription factor genes regulate nicotine biosynthesis in              as cell cycle control agents. Phytochemistry 44:1037–1040
+     tobacco. Plant Cell 22:3390–3409                                 Tramontano WA, Hartnett CM, Lynn DG, Evans LS (1982)
+Sinclair SJ, Murphy KJ, Birch CD, Hamill JD (2000) Molecular               Relationship between trigonelline concentration and pro-
+     characterization of quinolinate phosphoribosyltransferase             motion of cell arrest in G2 in cultured roots of Pisum sat-
+     (QPRtase) in Nicotiana. Plant Mol Biol 44:603–617                     ivum. Phytochemistry 21:1201–1206
+Singh S, Vrishni S, Singh BK, Rahman I, Kakkar P (2010) Nrf2-         Tramontano WA, Lynn DG, Evans LS (1983) Trigonelline,
+     ARE stress response mechanism: a control point in oxi-                nicotinic acid and nicotinamide in seedlings of Pisum
+     dative stress-mediated dysfunctions and chronic inflam-               sativum. Phytochemistry 22:673–678
+     matory diseases. Free Radic Res 44:1267–1288                     Tramontano WA, Evans LS, McGinley PA (1985) Effects of
+Smith AR, Pryer KM, Schuettpelz E, Korall P, Schneider H,                  cytokinins on promotion of cell arrest in G2 by trigonelline
+     Wolf PG (2006) A classification for extant ferns. Taxon               and trigonelline concentrations in cultured roots of Pisum
+     55:705–731                                                            sativum and Glycine max. Environ Exp Bot 25:83–88
+Stadler RH, Varga N, Hau J, Arce Vera F, Welti DH (2002)              Tramontano WA, McGinley PA, Ciancaglini EF, Evans LS
+     Alkylpyridiniums. 1. Formation in model systems via                   (1986) A survey of trigonelline concentrations in dry seeds
+     thermal degradation of trigonelline. J Agric Food Chem                of the dicotyledoneae. Environ Exp Bot 26:197–205
+     50:1192–1199                                                     Turner WL, Waller JC, Vanderbeld B, Snedden WA (2004)
+Stasolla C, Katahira R, Thorpe TA, Ashihara H (2003) Purine                Cloning and characterization of two NAD kinases from
+     and pyrimidine nucleotide metabolism in higher plants.                Arabidopsis. Identification of a calmodulin binding iso-
+     J Plant Physiol 160:1271–1295                                         form. Plant Physiol 135:1243–1255
+Suzuki-Yamamoto M, Mimura T, Ashihara H (2006) Effect of              Turner WL, Waller JC, Snedden WA (2005) Identification,
+     short-term salt stress on the metabolic profiles of pyrimi-           molecular cloning and functional characterization of a
+     dine, purine and pyridine nucleotides in cultured cells of            novel NADH kinase from Arabidopsis thaliana (thale
+     the mangrove tree, Bruguiera sexangula. Physiol Plant                 cress). Biochem J 385:217–223
+     128:405–414                                                      Ueda M, Niwa M, Yamamura S (1995) Trigonelline, a leaf-
+Taguchi H, Shimabayashi Y (1983) Findings of trigonelline                  closing factor of the nyctinastic plant, Aeschynomene
+     demethylating enzyme activity in various organisms and                indica. Phytochemistry 39:817–819
+     some properties of the enzyme from hog liver. Biochem            Ueda M, Shigemori H, Sata N, Yamamura S (2000) The
+     Biophys Res Commun 113:569–574                                        diversity of chemical substances controlling the nyctinastic
+Taguchi H, Sakaguchi M, Shimabayashi Y (1985) Trigonelline                 leaf-movement in plants. Phytochemistry 53:39–44
+     content in coffee beans and the thermal conversion of            Upmeier B, Gross W, Koster S, Barz W (1988a) Purification and
+     trigonelline into nicotinic acid during the roasting of coffee        properties of S-adenosyl-L-methionine:nicotinic acid-N-
+     beans. Agric Biol Chem 49:3467–3471                                   methyltransferase from cell suspension cultures of Glycine
+Taguchi H, Sakaguchi M, Shimabayashi Y (1986) Contents of                  max L. Arch Biochem Biophys 262:445–454
+     quinolinic acid, trigonelline and N1-methylnicotinamide in       Upmeier B, Thomzik JE, Barz W (1988b) Enzymatic studies on
+     various foods and thermal conversion of these compounds               the reversible synthesis of nicotinic acid-N-glucoside in
+     into nicotinic acid and nicotinamide (in Japanese). Vita-             heterotrophic parsley cell suspension cultures. Z Natur-
+     mins (Japan) 60:537–546                                               forsch 43c:835–842
+Taguchi H, Nishitani H, Okumura K, Shimabayashi Y, Iwai K             Upmeier B, Thomzik JE, Barz W (1988c) Nicotinic acid-N-
+     (1989) Biosynthesis and metabolism of trigonelline in                 glucoside in heterotrophic parsley cell suspension cultures.
+     Lemna paucicostata 151. Agric Biol Chem 53:2867–2871                  Phytochemistry 27:3489–3493
+Taguchi H, Sasatani K, Nishitani H, Okumura K (1997) Finding          USDA Foreign Agricultural Service (2013) Coffee:World
+     of UDP-glucose: nicotinic acid-N-glucosyltransferase                  Markets and Trade. Circular series December 2013,
+     activity in cultured tobacco cells and its properties. Biosci         pp 1–26
+     Biotechnol Biochem 61:720–722                                    van der Veer E, Ho C, O’Neil C, Barbosa N, Scott R, Cregan SP,
+Tarr JB, Arditti J (1982) Niacin biosynthesis in seedlings of Zea          Pickering JG (2007) Extension of human cell lifespan by
+     mays. Plant Physiol 69:553–556                                        nicotinamide phosphoribosyltransferase. J Biol Chem
+The Angiosperm Phylogeny G (2009) An update of the                         282:10841–10845
+     Angiosperm Phylogeny Group classification for the orders         Van Djik AE, Olthof MR, Meeuse JC, Seebus E, Heine RJ, van
+     and families of flowering plants: APG III. Bot J Linnean              Damm RM (2009) Acute effects of decaffeinated coffee
+     Soc 161:105–121                                                       and the major coffee components chlorogenic acid and
+
+
+
+                                                                                                                           123
+798                                                                                           Phytochem Rev (2015) 14:765–798
+
+    trigonelline on glucose tolerance. Diabetes Care               Yang KS, Gholson RK, Waller GR (1965) Studies on nicotine
+    32:1023–1025                                                       biosynthesis. J Am Chem Soc 87:4184–4188
+Viani R, Horman I (1974) Thermal behavior of trigonelline.         Yin Y, Matsui A, Sakuta M, Ashihara H (2008) Changes in
+    J Food Sci 39:1216–1217                                            pyridine metabolism profile during growth of trigonelline-
+Wada H, Shizuri Y, Yamada K, Hirata Y (1971) Evonine, an               forming Lotus japonicus cell cultures. Phytochemistry
+    alkaloid obtained from Euonymus sieboldiana blume.                 69:2891–2898
+    I. Relationship of functional groups and partial structure.    Yin Y, Sasamoto H, Ashihara H (2011) Pyridine metabolism
+    Tetrahedron Lett 12:2655–2658                                      and trigonelline synthesis in leaves of the mangrove
+Wagner KG, Backer AI (1992) Dynamics of nucleotides in                 legume trees Derris indica (Millettia pinnata) and Cae-
+    plants studied on a cellular basis. In: Jeon KW, Friedlander       salpinia crista. Nat Prod Commun 6:1835–1838
+    M (eds) International Review of Cytology, vol 134. Aca-        Yoshinari O, Sato H, Igarashi K (2009) Anti-diabetic effects of
+    demic Press, San Diego, pp 1–84                                    pumpkin and its components, trigonelline and nicotinic
+Wagner R, Wagner KG (1985) The pyridine nucleotide cycle in            acid on Goto-Kakizaki rats. Biosci Biotechnol Biochem
+    tabacco. Enzyme activities for the de novo synthesis of            73:1033–1041
+    NAD. Planta 165:532–537                                        Yuyama S (1999) Absorption of trigonelline from the small
+Wagner R, Feth F, Wagner KG (1986a) The pyridine-nucleotide            intestine of the specific pathogen-free (SPF) and germ-free
+    cycle in tabacco: enzyme activities for the recycling of           (GF) rats in vivo. Adv Expe Med Biol 467:723–727
+    NAD. Planta 167:226–232                                        Zhang X, Kurnasov OV, Karthikeyan S, Grishin NV, Osterman
+Wagner R, Feth F, Wagner KG (1986b) Regulation in tobacco              AL, Zhang H (2003) Structural characterization of a human
+    callus of enzyme activities of the nicotine pathway II. The        cytosolic NMN/NaMN adenylyltransferase and Implication
+    pyridine-nucleotide cycle. Planta 168:408–413                      in human NAD biosynthesis. J Biol Chem 278:13503–13511
+Wagner R, Feth F, Wagner KG (1986c) The regulation of              Zheng XQ, Ashihara H (2004) Distribution, biosynthesis and
+    enzyme activities of the nicotine pathway in tobacco.              function of purine and pyridine alkaloids in Coffea arabica
+    Physiol Plant 68:667–672                                           seedlings. Plant Sci 166:807–813
+Waller GR, Dermer OC (1981) Enzymology of alkaloid                 Zheng XQ, Nagai C, Ashihara H (2004) Pyridine nucleotide
+    metabolism in plants and microorganisms. In: Conn EE               cycle and trigonelline (N-methylnicotinic acid) synthesis in
+    (ed) The biochemistry of plants, a comprehensive treatise,         developing leaves and fruits of Coffea arabica. Physiol
+    vol 7., Secondary plant productsAcademic Press, New                Plant 122:404–411
+    York, pp 317–402                                               Zheng XQ, Hayashibe E, Ashihara H (2005) Changes in trigo-
+Waller GR, Ryhage R, Meyerson S (1966a) Mass spectrometry of           nelline (N-methylnicotinic acid) content and nicotinic acid
+    biosynthetically labeled ricinine. Anal Biochem 16:277–286         metabolism during germination of mungbean (Phaseolus
+Waller GR, Yang KS, Gholson RK, Hadwiger LA, Chaykin S                 aureus) seeds. J Exp Bot 56:1615–1623
+    (1966b) The pyridine nucleotide cycle and its role in the      Zheng XQ, Matsui A, Ashihara H (2008) Biosynthesis of trig-
+    biosynthesis of ricinine by Ricinus communis L. J Biol             onelline from nicotinate mononucleotide in mungbean
+    Chem 241:4411–4418                                                 seedlings. Phytochemistry 69:390–395
+Wang G, Pichersky E (2007) Nicotinamidase participates in the      Zhou J, Zhou S, Zeng S (2011) Experimental diabetes treated
+    salvage pathway of NAD biosynthesis in Arabidopsis.                with trigonelline: effect on b-cell. Fundam Clin Pharm
+    Plant J 49:1020–1029                                               27:279–287
+Willeke U, Heeger V, Meise M, Neuhann H, Schindelmeiser I,         Zrenner R, Ashihara H (2011) Nucleotide metabolism. In:
+    Vordemfelde K, Barz W (1979) Mutually exclusive                    Ashihara H, Crozier A, Komamine A (eds) Plant metabo-
+    occurrence and metabolism of trigonelline and nicotinic            lism and biotechnology. Wiley, Chichester, pp 135–162
+    acid arabinoside in plant cell cultures. Phytochemistry
+    18:105–110
+Yang KS, Waller GR (1965) Biosynthesis of the pyridine ring of
+    ricinine from quinolinic acid glycerol and aspartic acid.
+    Phytochemistry 4:881–889
+
+
+
+
+123
+

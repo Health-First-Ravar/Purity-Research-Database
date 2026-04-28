@@ -1,0 +1,103 @@
+# Purity Lab Data — repo root .gitignore
+# Copy this to /Users/jeremybehne/Library/CloudStorage/.../Purity-Lab-Data/.gitignore
+
+# ---------- Node / Next.js ----------
+node_modules/
+.next/
+out/
+.turbo/
+*.tsbuildinfo
+next-env.d.ts
+
+# ---------- Environment files (NEVER commit) ----------
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env.local
+
+# ---------- Vercel ----------
+.vercel/
+
+# ---------- Supabase local artifacts ----------
+.supabase/
+supabase/.branches/
+supabase/.temp/
+supabase/seed.sql
+**/.branches/
+
+# ---------- Build / cache ----------
+.cache/
+dist/
+build/
+coverage/
+.eslintcache
+
+# ---------- Editor / OS ----------
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+*.swp
+*.swo
+
+# ---------- Google Drive metadata ----------
+.tmp.driveupload/
+.tmp.drivedownload/
+.gd-meta/
+*.gdoc
+*.gsheet
+*.gslides
+.~lock.*
+
+# ---------- Python (seed-pipeline) ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+
+# ---------- Service account / credentials ----------
+*service-account*.json
+*credentials*.json
+gcp-key.json
+google-service-account.json
+
+# ---------- Local data dumps / scratch ----------
+_Processed_stuck/
+test_touch.txt
+*.bak
+*.tmp
+tmp/
+
+# ---------- Logs ----------
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ---------- Optional: large data folders we don't want in git ----------
+# (uncomment if you decide these shouldn't be in version control)
+COAs/
+knowledge-base/bibliography/pdfs/
+# All PDFs are binary source docs; text extracts are in git instead
+*.pdf
+*.xlsx
+*.docx
+
+# ---------- Outputs from tooling ----------
+prompts/deploy/scripts/.last-run

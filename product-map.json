@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "notes": "Owner-maintained. Maps sample codes / lot numbers / PO numbers to canonical product keys. Start empty — system flags unmapped samples as UNRESOLVED in index.json. Populate after bootstrap ingestion to see which IDs need mapping.",
+  "products": {
+    "PROTECT": {
+      "display_name": "Purity PROTECT",
+      "tier": 1,
+      "type": "blend",
+      "aliases": []
+    },
+    "EASE": {
+      "display_name": "Purity EASE",
+      "tier": 1,
+      "type": "blend",
+      "aliases": []
+    },
+    "FLOW": {
+      "display_name": "Purity FLOW",
+      "tier": 1,
+      "type": "blend",
+      "aliases": []
+    },
+    "CALM": {
+      "display_name": "Purity CALM",
+      "tier": 1,
+      "type": "blend",
+      "aliases": []
+    }
+  },
+  "sample_to_product": {}
+}

@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "status": "UNRESOLVED",
+  "product_key": null,
+  "report_number": "3965144-0",
+  "test_date": "2023-01-27",
+  "sample_name": "GREEN 18 Conejo DEFECTS ONLY Eurofins Sample: 12580832",
+  "lot_or_po": "rt",
+  "supersedes": null,
+  "superseded_by": null,
+  "lab": "Eurofins (inferred)",
+  "serving_size_g": 100.0,
+  "source_file": "/Users/jeremybehne/Library/CloudStorage/GoogleDrive-jravar@puritycoffee.com/My Drive/Purity-Lab-Data/COAs/COA_Report_3965144-0.pdf",
+  "source_hash": "4a82093bfc7b81d4",
+  "parse_confidence": 1.0,
+  "parse_notes": [
+    "pages=2 tables=1",
+    "text_rows=13"
+  ],
+  "analytes": [
+    {
+      "analyte": "Aflatoxin B1",
+      "panel": "mycotoxins",
+      "value_normalized": 0.5,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.500",
+      "unit_as_reported": "ppb",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Aflatoxin B2",
+      "panel": "mycotoxins",
+      "value_normalized": 0.5,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.500",
+      "unit_as_reported": "ppb",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Aflatoxin G1",
+      "panel": "mycotoxins",
+      "value_normalized": 0.5,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.500",
+      "unit_as_reported": "ppb",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Aflatoxin G2",
+      "panel": "mycotoxins",
+      "value_normalized": 0.5,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.500",
+      "unit_as_reported": "ppb",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Aflatoxin M1",
+      "panel": "mycotoxins",
+      "value_normalized": 0.5,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.500",
+      "unit_as_reported": "ppb",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Aflatoxin M2",
+      "panel": "mycotoxins",
+      "value_normalized": 0.5,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.500",
+      "unit_as_reported": "ppb",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Deoxynivalenol",
+      "panel": "other",
+      "value_normalized": 100.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<100",
+      "unit_as_reported": "ppb",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "T-2 Toxin",
+      "panel": "other",
+      "value_normalized": 10.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<10.0",
+      "unit_as_reported": "ppb",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "HT-2 Toxin",
+      "panel": "other",
+      "value_normalized": 100.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<100",
+      "unit_as_reported": "ppb",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Fumonisin B1",
+      "panel": "other",
+      "value_normalized": 25.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<25.0",
+      "unit_as_reported": "ppb",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Fumonisin B2",
+      "panel": "other",
+      "value_normalized": 25.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<25.0",
+      "unit_as_reported": "ppb",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Ochratoxin A",
+      "panel": "mycotoxins",
+      "value_normalized": 1.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<1.00",
+      "unit_as_reported": "ppb",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Zearalenone",
+      "panel": "other",
+      "value_normalized": 30.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<30.0",
+      "unit_as_reported": "ppb",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    }
+  ],
+  "ingested_at": "2026-04-27T05:12:03+00:00"
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "status": "UNRESOLVED",
+  "product_key": null,
+  "report_number": "3026569-0",
+  "test_date": "2020-10-05",
+  "sample_name": "NFCC-COLOMBIA Eurofins Sample: 9887291",
+  "lot_or_po": "rt",
+  "supersedes": null,
+  "superseded_by": null,
+  "lab": "Eurofins (inferred)",
+  "serving_size_g": null,
+  "source_file": "/Users/jeremybehne/Library/CloudStorage/GoogleDrive-jravar@puritycoffee.com/My Drive/Purity-Lab-Data/COAs/COA_Report_3026569-0.pdf",
+  "source_hash": "08ea0b8e0deb51b2",
+  "parse_confidence": 1.0,
+  "parse_notes": [
+    "pages=1 tables=1",
+    "text_rows=1"
+  ],
+  "analytes": [
+    {
+      "analyte": "Gluten Allergen (Product)",
+      "panel": "allergen",
+      "value_normalized": 5.0,
+      "unit_normalized": "ppm",
+      "value_as_reported": "<5.0",
+      "unit_as_reported": "ppm",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    }
+  ],
+  "ingested_at": "2026-04-27T05:11:57+00:00"
+}

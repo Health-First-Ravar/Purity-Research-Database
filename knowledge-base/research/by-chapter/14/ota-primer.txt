@@ -1,0 +1,1376 @@
+Toxins 2010, 2, 461-493; doi:10.3390/toxins2040461
+                                                                                         OPEN ACCESS
+
+
+                                                                                     toxins
+                                                                                    ISSN 2072-6651
+                                                                         www.mdpi.com/journal/toxins
+Review
+
+Ochratoxin A: General Overview and Actual Molecular Status
+André el Khoury 1 and Ali Atoui 2,*
+1
+    Centre d’analyses et de recherches, Faculté des Sciences, Université Saint-Joseph, Beyrouth,
+    Lebanon
+2
+    Lebanese Atomic Energy Commission-CNRS, P.O. Box 11-8281, Riad El Solh, 1107 2260 Beirut,
+    Lebanon
+
+* Author to whom correspondence should be addressed; E-Mail: a.atoui@cnrs.edu.lb;
+  Tel.: 00961 (1) 450 811; Fax: 00961 (1) 450 810.
+
+Received: 24 January 2010; in revised form: 5 March 2010 / Accepted: 8 March 2010 /
+Published: 29 March 2010
+
+
+      Abstract: Ochratoxin A (OTA) is a mycotoxin produced by several species of Aspergillus
+      and Penicillium fungi that structurally consists of a para-chlorophenolic group containing a
+      dihydroisocoumarin moiety that is amide-linked to L-phenylalanine. OTA is detected
+      worldwide in various food and feed sources. Studies show that this molecule can have
+      several toxicological effects such as nephrotoxic, hepatotoxic, neurotoxic, teratogenic and
+      immunotoxic. A role in the etiology of Balkan endemic nephropathy and its association to
+      urinary tract tumors has been also proved. In this review, we will explore the general
+      aspect of OTA: physico-chemical properties, toxicological profile, OTA producing fungi,
+      contaminated food, regulation, legislation and analytical methods. Due to lack of sufficient
+      information related to the molecular background, this paper will discuss in detail the recent
+      advances in molecular biology of OTA biosynthesis, based on information and on new data
+      about identification and characterization of ochratoxin biosynthetic genes in both
+      Penicillium and Aspergillus species. This review will also cover the development of the
+      molecular methods for the detection and quantification of OTA producing fungi in
+      various foodstuffs.
+
+      Keywords: Ochratoxin A; toxicity; polyketide synthase gene; molecular biology;
+      biosynthesis; detection; quantification
+Toxins 2010, 2                                                                                        462
+
+1. Definition
+
+   Ochratoxin A (OTA) is a mycotoxin produced by secondary metabolism of many filamentous
+species belonging to the genera Aspergillus and Penicillium [1–4]. Biosynthetically, it is a pentaketide
+derived from the dihydrocoumarins family coupled to β-phenylalanine. Its chemical name is:
+L-phenylalanine-N-[(5-chloro-3,4-dihydro-8-hydroxy-3-methyl-1-oxo-1H-2-benzopyrane-7-yl)carbonyl]
+-(R)-isocoumarin and its chemical structure is presented in Figure 1.
+
+                             Figure 1. Chemical structure of ochratoxin A.
+                                                  OH
+
+                                  O       C                    O        OH            O
+                                                       H
+
+
+                                                       N                                  O
+                                                       H
+                                                                                                H
+
+
+                                                                                              CH3
+                                                                            Cl
+
+
+2. Ochratoxin A Derived Metabolites
+
+   Several metabolites related to OTA have been also identified, particularly, ochratoxin B (OTB) the
+dechloro analog of OTA, ochratoxin C (OTC) its ethyl ester, the isocoumaric derivative of OTA,
+ochratoxin α (Otα), and its dechloro analog, ochratoxin β (OTβ). Figure 2 presents the general
+structure common to these different metabolites and Table 1 shows the characteristic composition of
+each one. Recently, new OTA derived metabolites have been characterized, which include a
+dechlorinated ochratoxin A derivative identified by nono-ESI-IT-MS [5] and a quinone/hydroquinone
+metabolite showing toxicological properties [6]. In addition, it is predicted that OTA will form a
+benzoquinone electrophile following activation by cytochrome P450 enzymes, and radical species
+following activation by enzymes with peroxidase activities [7,8]. These electrophiles react preferentially
+with deoxyguanosine (dG) to form benzetheno adducts and C8-dG adducts, respectively [8].
+
+                       Figure 2. General structure of ochratoxin A metabolites.
+
+                                      O                OH           O
+
+                                                           8            1
+                                      9           7
+                             R1                                                  O2
+                                                                                      CH2R5
+                                                                             3
+                                              6                     4
+                                                       5
+                                                                                      H
+
+                                                               R3            R4
+                                                       R2
+Toxins 2010, 2                                                                                         463
+
+                 Table 1. Characteristic composition of ochratoxin A derived metabolites.
+      Name                            R1                              R2     R3      R4      R5
+      Natural ochratoxins
+      Ochratoxin A                    Phenylalanine                   Cl     H       H       H
+      Ochratoxin B                    Phenylalanine                   H      H       H       H
+      Ochratoxin C                    Ethyl-ester, phenylalanine      Cl     H       H       H
+      Ochratoxin A Methyl-ester       Methyl-ester, phenylalanine     Cl     H       H       H
+      Ochratoxin B Methyl-ester       Methyl-ester, phenylalanine     H      H       H       H
+      Ochratoxin B Ethyl-ester        Ethyl-ester, phenylalanine      H      H       H       H
+      Ochratoxin α                    OH                              Cl     H       H       H
+      Ochratoxin β                    OH                              H      H       H       H
+      4-R-Hydroxyochratixn A          Phenylalanine                   Cl     H       OH      H
+      4-s-Hydroxyochratoxin A         Phenylalanine                   Cl     OH      H       H
+      10-Hydroxyochratoxin A          Phenylalanine                   Cl     H       H       OH
+      Tyrosine analog of OTA          Tyrosine                        Cl     H       H       H
+      Serine analog of OTA            Serine                          Cl     H       H       H
+      Hydroxyproline analog of        Hydroxyproline                  Cl     H       H       H
+      OTA
+      Lysine analog of OTA            Lysine                          Cl     H       H       H
+      Synthetic ochratoxins
+      d-Ochratoxin A                  d-phenylalanine           Cl           H       H       H
+      Ochratoxin A Ethyl amid         Ethyl amid, phenylalanine Cl           H       H       H
+      O-methyl Ochratoxin A           Phenylalanine, OHCH3 on Cl             H       H       H
+                                      C-8
+
+3. Physico-Chemicals Properties of Ochratoxin A
+
+    OTA is a weak organic acid with a pKa value of 7.1 [1–3] and a molar mass of 403.8 g.mol-1. With
+crystalline structure varying from colorless to white, this molecule posses an intense green fluorescence
+under UV light in acid medium and blue fluorescence in alkaline conditions [4].
+    In acid and neutral pH, OTA is soluble in polar organic solvents (alcohols, ketones, chloroform),
+slightly soluble in water and insoluble in petroleum ethers and saturated hydrocarbons. While in
+alkaline conditions, this molecule is soluble in aqueous sodium bicarbonate solution and in all alkaline
+solutions in general. It has a melting point of about 90 °C when crystallized from benzene as a solvate.
+However, non-solvated crystals of melting point 169 °C have been obtained from xylene, which are
+suitable for X-ray structural analysis. OTA is optically active and its spectral characteristics are shown
+in Table 2.
+    The particularity of OTA is due to its high stability. It has been shown that it possesses a resistance
+to acidity and high temperatures. Thus, once foodstuffs are contaminated, it is very difficult to totally
+remove this molecule.
+    In 1982, Müller [17] showed that the OTA is only partially degraded at a normal conditions of cooking.
+Moreover, this molecule can resist three hours of high pressure steam sterilization of 121 °C [18], and
+even at 250 °C its destruction is not complete [19].
+Toxins 2010, 2                                                                                       464
+
+   Gamma irradiation (up to 7,5 Mrad) of OTA in ethanol does not cause any degradation. However,
+degradation is observed at low moisture level when OTA has been treated with an excess of sodium
+hypochlorite (NaOCl) [20]. Moreover, exposure to fluorescent light is a factor of degradation.
+
+                              Table 2. Spectral characteristics of ochratoxin A.
+              Spectral          Solvents       Characteristics               References
+                                               λmax = 213nm (ε36.800)
+                 UV-VIS            ETOH                                           [9]
+                                               λmax = 332nm (ε 6.400)
+                                ETOH 96%       λmax = 467nm
+               Fluorescence                                                       [9]
+                                ETOH /ABS.     λmax = 428nm
+                                               3380; 2988; 1723; 1674; 1528;
+                      IR           CHCl3       1425; 1381; 1304; 1260; 1170;     [10]
+                                                                    -1
+                                               1140; 1107; 827 cm
+                                               δ 12,70; δ 10,80; δ 8,55
+                                               (3H); δ 7,23; δ 7,15
+              NMR 1H250-
+                                   CDCl3       (H Aromatic); δ 4,71; δ 5,07    [11–14]
+                MHZ
+                                               (CH); δ 2,78; δ 3,2 (CH2); δ
+                                               1,55 (CH3)
+                                               m/z 239/241
+                   MS                —         m/z 255/257                     [15,16]
+                                               molecular ion m/z 403
+
+4. Toxicological Profile
+
+   The toxicological status of OTA has been examined many times and was the subject of a complete
+monograph by the IARC (International Agency for Research on Cancer) in 1993 [21].
+   Following the discovery of human and animal spontaneous nephropathies, many experimental
+studies were carried out in order to show the implication of OTA in these diseases [22–28]. These
+studies showed that this molecule can have several effects such as nephrotoxic, hepatotoxic,
+neurotoxic, teratogenic and immunotoxic on several species of animals, and can cause kidney and liver
+tumors in mice and rats, however its toxicity varies depending on the sex, the species and the cellular
+type of the tested animals [29]. The genotoxic status of OTA is still controversial, due to contradictory
+results obtained in various microbial and mammalian tests. However, evidence of DNA-adducts
+formation was shown following chronic exposure of OTA to rat and sub-acute exposure to pig [30].
+
+4.1. Nephrotoxicity
+
+   Nephropathy is the major toxic effect of OTA. This molecule shows to be potentially nephrotoxic in
+all non-ruminant mammals [31]. Epidemiological studies carried out in Denmark, Hungary,
+Scandinavia and Poland, showed that OTA plays an important role in the etiology of porcine
+nephropathy [32]. This mycotoxin was also associated with human nephropathy [33–35] and it is
+suspected to be the cause of the human fatal disease known as Balkan Endemic Nephropathy (BEN),
+an interstitial chronic disease affecting the south-eastern population of Europe (Croatia, Bosnia,
+Toxins 2010, 2                                                                                     465
+
+Bulgaria and Romania) [26,33–36]. It is also considered to be the major cause of the Tunisian
+Nephropathy (TCIN) [37] affecting the population in Tunisia.
+
+4.2. Neurotoxicity
+
+   It has been shown that the administration of OTA at gestation period in rats induced many
+malformations in the central nervous system [38]. In the same way, Soleas et al. [39] reported that
+OTA can be regarded as a possible cause of certain lesions as well as damage at the cerebral level.
+Thus, this substance seems to be highly toxic for the nervous cells and able to reach at any time the
+neural tissue (brain, retina) [40].
+
+4.3. Teratogenicity
+
+    OTA is a potent teratogen to laboratory animals. It can cross the placenta and accumulate in fetal
+tissue causing various morphological anomalies. It has been reported to elicit prenatal
+dysmorphogenesis in rats [41–44], mice [45], hamsters [46] and chick embryos [47]. The mechanism
+of OTA induced teratogenesis has not been clearly defined and may involve an indirect effect through
+maternal action [48] and/or a direct effect on the developing conceptus [49]. Thus, the gravity of
+malformations depends on the route of administration and the gestative period.
+
+4.4. Immunotoxicity
+
+    Under certain conditions, OTA presents a powerful immunosuppressor effect, which is observed at
+low or high doses [50].
+    Necroses of lymphoid tissues were reported indicating there high sensitivity to the OTA [50],
+humoral and cellular immunity affections were also described [51].
+    OTA seems to play a role in the inhibition of the peripherals T and B lymphocytes proliferation and
+stops the production of interleukin 2 (IL2) and its receptors [52]. Moreover, it blocks the activity of
+killer cells as well as the production of interferon [38].
+    The administration of OTA to many animal species causes variable effects on the osseous marrow
+and immunity response. Thus, this molecule is considered to be the origin of:
+
+   - Lymphopenia,
+   - Regression of the thymus,
+   - Suppression of the immunity response.
+   Following these results, OTA is clearly taken as an important immunosupressor agent [49].
+
+4.5. Carcinogenesis
+
+   OTA is reasonably anticipated to be a human carcinogen based on sufficient evidence of
+carcinogenicity in experimental animals. When this molecule was administered in the diet,
+hepatocellular tumors (designated as well-differentiated trabecular adenomas), renal cell tumors (renal
+Toxins 2010, 2                                                                                     466
+
+cystadenomas and solid renal-cell tumors), hepatomas (some exhibiting the trabecular structure), and
+hyperplastic hepatic nodules were observed in male mice [53].
+   In another study, administration of OTA in the diet induced hepatocellular carcinomas and
+adenomas in female mice [54]. Gavage administration of OTA to male and female rats resulted in a
+dose-related increase in the incidence of renal-cell adenomas and adenocarcinomas; further, metastasis
+of the renal-cell tumors was also observed in male and female rats. When administered by gavage,
+OTA increased the incidence and multiplicity of fibroadenomas of the mammary gland in female
+rats [21,55].
+   However, no adequate human studies of the relationship between exposure to OTA and human
+cancer have been reported. Incidence of and mortality from urothelial urinary tract tumors have been
+correlated with the geographical distribution of Balkan endemic nephropathy in Bulgaria and
+Yugoslavia [56].
+
+5. Ochratoxin A Producing Fungi
+
+   OTA was isolated in 1965 from a culture of Aspergillus ochraceus (section Circumdati ) [57], but
+subsequent studies have revealed that a variety of fungal species included in the genera Aspergillus
+and Penicillium are able to produce ochratoxins [57]. A. ochraceus has been shown to consist of two
+species [58,59]. The second and new species producing large amounts of OTA consistently has been
+described as A. westerdijkiae. In Aspergillus section Nigri Aspergillus carbonarius [60] is a major
+OTA producer. It occurs in grapes, producing OTA in grape products, including grape juice, wines and
+dried vine fruits [61,62] and sometimes in coffee beans [63,64]. Aspergillus niger aggregates have
+been reported as OTA producers [64–67]. The reported percentage of ochratoxigenic isolates
+belonging to the A. niger aggregate is much lower than A. carbonarius species [68]. A. lacticoffeatus
+and A. sclerotioniger are reported to produce OTA [69].
+   Others Aspergilli can produce OTA in large amounts, but they appear to be relatively rare. In
+Aspergillus section Circumdati (formerly the Aspergillus ochraceus group), the following species can
+produce OTA: Aspergillus cretensis, A. flocculosus, A. pseudoelegans, A. roseoglobulosus,
+A. sclerotiorum, A. sulphureus and Neopetromyces muricatus [59]. According to Ciegler [70] and
+Hesseltine, et al. [71] A. melleus, A. ostianus, A. persii and A. petrakii may produce trace amounts of
+OTA, but this has not been confirmed since publication of those papers. Strains of these species
+reported to produce large amounts of OTA were re-identified by Frisvad et al. [72]. In Aspergillus
+section Flavi, Petromyces albertensis produces OTA.
+   In the genus Penicillium, P. verrucosum has been regarded to be the only species of the genus
+Penicillium to synthesize OTA [73]. However, it has been shown that two species of the genus
+Penicillium have this capacity, namely P. verrucosum and P. nordicum. Penicillium verrucosum is the
+major producer of OTA in stored cereals [73–75]. Penicillium nordicum [76] is the main OTA
+producer found in meat products such as salami and ham.
+Toxins 2010, 2                                                                                         467
+
+6. Contaminated Foods
+
+   Cereals are the most important source of human food. The annual world crop of cereals exceeds
+2,000 million tones, meaning over 160 kg per inhabitant, and the production of cereals is still
+growing [77–79]. However, an investigation carried out by Pittet [80] on a worldwide scale showed
+that 25% to 40% of cereals are contaminated by mycotoxins. This contamination can occur in several
+times (in the field and/or during storage).
+   It is especially in the countries with hot and wet climatic conditions (in particular African countries,
+South Asia and South America) that the growth of toxigenic filamentous fungi is most favored. Thus,
+rice, corn, and millet: the basic foods of the populations of these countries, are often contaminated
+especially by aflatoxins and ochratoxins [81]. However, countries of Northern Europe, characterized
+by a low temperature climate, are especially contaminated by OTA where its production is due to a
+different species belonging to the Penicillium genera (P.verrucosum, P.nordicum). These are species
+able to grow and to produce OTA at low temperatures, which can explain the fact that these countries
+are more contaminated with OTA producing Penicillium species than Aspergillus ones.
+   Thus, worldwide, cereals are considered as being the major source of OTA contamination, where
+50% of human daily intake of this mycotoxin is due to the consumption of different cereals derived
+products [82].
+   Moreover, wine was recently considered as being the second source of OTA human consumption
+(10% to 15% of the total OTA daily intake) [83–86]. Many recent works [22,26,34,83,87–90]
+highlight the presence of considerable levels of this toxin in wines, musts and grape juices (up to 7 μg
+per liter). This occurrence of OTA in grape derived products was explained by the fact that grapes
+were contaminated in the vineyard from veraison onward, and sometimes even as soon as setting, by
+various ochratoxigenic species especially belonging to the genus Aspergillus section Nigri
+(A.carbonarius and A.niger aggregates) and that OTA production increases rapidly with maturation
+stages [24,34,84,89,90]. Thus, the date of grape harvest would have an important effect on the OTA
+content in grape and its derived products.
+   Moreover, OTA contamination of many other raw agricultural products has been well documented;
+such contamination occurs in a variety of food and feed, such as coffee beans, pulses, spices, meat and
+cheese products [91]. OTA has also been detected in other beverages such as beer.
+
+7. Regulation and Legislation
+
+   In recent years, the general concern about the potential effects of mycotoxins on the health of
+humans and animals has been increasing. Measures have been set up by authorities in many countries
+to monitor and control mycotoxin levels. Various factors play a role in decision-making processes
+focused on setting limits for mycotoxins.
+   These include scientific factors to assess risk (such as the availability of toxicological data), food
+consumption data, knowledge about the level and distribution of mycotoxins in commodities, and
+analytical methodology. Economic factors, such as commercial, trade interests and food security
+Toxins 2010, 2                                                                                       468
+
+issues, also have an impact. Weighing the various factors that play a role in the decision making
+process to establish mycotoxin tolerances is therefore of crucial importance. Despite the difficulties,
+mycotoxin regulations have been established in many countries during the past decades [92] and newer
+regulations are still being issued.
+   Maximum tolerable levels and guideline levels have been established in different food and feed
+products, often down to the ppb or ppt level [93–98]. Such regulation has been fixed for a number of
+mycotoxins like aflatoxins; the trichothecenes deoxynivalenol, diacetoxyscirpenol, T-2 toxin and HT-2
+toxin; the fumonisins B1, B2 and B3; agaric acid; the ergot alkaloids; ochratoxin A; patulin,
+phomopsins; sterigmatocystin and zearalenone [99]. Respective levels are under debate for
+other mycotoxins.
+   OTA was evaluated by the Joint FAO/WHO Expert Committee on Food Additives (JECFA) in
+1991 [100] and a provisional tolerable weekly intake (PTWI) of 112 ng/kg body weight (b.w.) was
+established. This value was proposed according to the porcine nephropathies data basis.
+   However, this molecule was re-evaluated by the JECFA in 1995 [101] and the PTWI was
+reconfirmed, rounding it to 100 ng/kg b.w. per week, and the request for further studies on OTA
+was re-iterated.
+   Since its last evaluation and after the availability of several new studies on OTA effects, the JECFA
+recommended at its 56th meeting in February 2001 [102] that studies should be conducted to clarify
+the mechanism by which OTA induces nephrotoxicity and carcinogenicity and noted that studies to
+resolve these issues are in progress. JECFA retained the previously established PTWI of 100 ng/kg
+b.w. per week, pending the results of these studies.
+   On the other hand, the Scientific Committee on Food (SCF) expressed its opinion on OTA on
+17 September 1998 that in [103]. It stated that in the light of more recent toxicological studies and
+exposure data, specific attention has also been given to vulnerable groups such as infants and children
+and groups of consumers who are exposed to higher levels of OTA than the average consumer due to
+their dietary habits.
+   This committee proposed to reduce the OTA intake as much as possible to levels between
+1.2–14 ng/kg b.w. per day.
+   The European Commission Regulation (EC) No. 472/2002 of 12 March 2002 [104] amended the
+Regulation (EC) No. 466/2001 [105] setting maximum levels for certain contaminants in foodstuffs.
+This regulation limits OTA contamination in unprocessed cereals, including rice and buckwheat, up to
+5μg/kg. However, concerning cereal derived products, OTA contamination was fixed to 3 μg/kg. This
+regulation fixes also the contamination of dry grapes to a limit of 10 μg/kg.
+   Moreover, the regulation (EC) No. 683/2004 of April 13 2004 [97] amended the regulation (EC)
+No. 466/2001 [105] including a directive limiting the OTA contamination to 0.5 μg/kg in all food
+preparations for babies and in diet foods for special medical purposes intended specifically for infants.
+   Added to that, the regulation (EC) No. 123/2005 [106] highlights the contribution of many food
+products such as wine, grape juices and coffee in human OTA exposure. This regulation did not
+modify the maximum contents established previously on cereals or grapes. However, it includes a new
+Toxins 2010, 2                                                                                      469
+
+directive limiting OTA contamination in grape juices, wines (red, white and rosé), and must to 2 μg/L.
+Another new directive aiming to set limits for OTA contamination in coffee was taken; this one fixed a
+maximum level for OTA of up to 5 μg/kg in torrefied coffee beans and to 10 μg/kg in instant coffee.
+   According to the regulation (EC) No. 466/2001 [105], it is totally prohibited to mix non-conform
+products with conform ones in order to reduce OTA contamination levels. There was also an
+interdiction to use chemical treatments for OTA decontamination in products for human consumption.
+   In all cases, the aim of these directives is to estimate and to minimize the presence of OTA in
+various foods by implementating many plans having the objective to reduce the contamination of food
+products by this mycotoxin. Various strategies can be adopted in order to obtain products in agreement
+with the international regulations. It will be a question of observing good agricultural practices, or
+decontaminating the end product.
+
+8. Analytical Analysis of OTA
+
+8.1. Chromatographical methods
+
+   The analysis of OTA in most foodstuffs is relatively straightforward and generally reliable results
+are obtained, as evidenced by the results from proficiency testing. Samples need to be acid- or alkali-
+extracted from the foodstuffs, with alkaline extraction from most matrices showing generally better
+recoveries [107].
+
+8.1.1. Thin layer chromatography (TLC)
+
+   TLC is featured in earlier AOAC methods [108,109], which use a silica gel adsorbent and an acidic
+solvent system. Since then, this method has been very commonly used in many laboratories around the
+world for identifying and quantifying the OTA in foodstuffs. The TLC consists of an OTA visual
+detection by its greenish fluorescence under long wave ultraviolet light, which changes to blue
+fluorescence after spraying the chromatographical plate with methanolic sodium bicarbonate solution
+or exposing it to ammonia fumes; scanning densitometric analysis may also be carried out. However,
+the detection limit makes this method inadequate for present day monitoring and compliance purposes.
+
+8.1.2. Liquid chromatography (LC)
+
+   Conventionally liquid/liquid extraction and solid phase clean-up have been used prior to HPLC
+determination with fluorescence detection [110]. However, over the past 10 years, most laboratories
+have tended to move towards using immuno-affinity column clean-up because they considered it is
+relatively simple to carry-out and provides sample extracts generally free of interferences.
+   Good methods are available for dried fruit [111], beer [112,113], coffee [114,115], dried figs [107],
+milk [116] and wine [22,113]. Roasted coffee tends to be the most problematic of foodstuffs to analyze
+for OTA and in some methods an additional clean-up step is advocated prior to the affinity column
+stage [117].
+Toxins 2010, 2                                                                                    470
+
+   Similar methodology has been used successfully to analyze blood and urine for OTA, when this
+biomarker approach has been employed for exposure assessment [118]. There are CEN standards for
+determining OTA in cereals, roasted coffee, wine and beer with limits of quantification (LOQ) ranging
+from 1.3 ng/g for barley [119] and coffee [120] to 5 pg/mL for wine [22].
+   Particular attention was paid to validating a method for OTA in baby food at an LOD and LOQ of
+0.05 ng/g and 0.22 ng/g respectively, the additional sensitivity being obtained by extracting larger
+sample sizes and enhancing fluorescence detection by using post-column ammoniation [121]. Whereas
+affinity column clean-up for confirmation of results is not essential, verification of results can be
+undertaken by methylation of OTA followed by the observation of the shift in retention time, or by
+LC/MS [107].
+
+8.2. Immunological methods
+
+  The use of ELISA (Enzyme linked immuno sorbent assay) for OTA analysis is considered as an
+important and very rapid method, because it is easy to use and due to the large number of samples that
+can be processed at the same time (up to 90 samples for each ELISA kit in 45 minutes), and because
+this method do not require any clean-up procedure. ELISA methods have been applied to quantify
+OTA in cereals, food, feed, animals tissues and serum [122,123]. However, an important consideration
+with ELISA should be taken: the specificity of the antibody. Cross reactivity with related molecules
+can vary widely given over-estimated values.
+   Radio-immunoassay (RIA) for OTA has been applied to surveys of cereals, cereal products,
+feedstuffs, pig serum and tissues [124–126]. OTA has been also determined by an enzyme
+immunosensor with an oxygen electrode [127]. However, these methods do not appear to have been
+used recently.
+
+9. Current Status on the Biosynthesis of Ochratoxin A
+
+   Although much information exists concerning the various toxigenic properties of OTA, unlike other
+important mycotoxins, not very much is known about the OTA biosynthetic pathway in any fungal
+species. It is widely believed that the isocoumarin group is a pentaketide formed from acetate and
+malonate via a polyketide synthesis pathway [128–130]. Thus, a polyketide synthase (PKS), which is
+considered as key enzyme, is involved in the OTA biosynthesis in a similar way of other polyketide
+mycotoxins such as fumonisins [131] and aflatoxins [132,133].
+   Huff and Hamilton, [134] proposed a biosynthetic pathway based on a mechanistical model
+according to the structure of OTA (Figure 3). The heterocyclic portion of OTA is structurally similar
+to mellein, a secondary metabolite produced by many OTA producing species such as A. ochraceus,
+A. westerdijkiae and A. melleus. Mellein is also produced by non ochratoxigenic species such as
+Pezicula spp. [135], Botryosphaeria obtusa [136], Septoria nodorum [137], Phoma tracheiphila [138],
+Apiospora camptospora [139], Cercospora taiwanensis [140], C. scirpicola [141], Fusarium larvarum
+[142], Gyrostroma missouriense [139], Pezicula livida, Cryptosporiopsis malicorticis,
+Cryptosporiopsis sp. and Plectophomella sp. [143].
+Toxins 2010, 2                                                                                                                                        471
+
+       Figure 3. Schematic representation of the hypothetical OTA biosynthetic pathway as
+       proposed by Huff and Hamilton, [134].
+
+                                                                                     Acetyl CoA + Malonate
+                                                     Polyketide synthase
+                                                                                          Polyketide
+
+
+                                                                                          OH         O
+
+           COOH
+                                                                                                             O
+
+
+                                                                                                                     H
+
+                                                                                                                     CH3             Mellein
+  HO              OH
+
+                       Shikimik acid
+           OH                                                                  O          OH         O
+
+
+                                                                      HO
+                                                                                                             O
+
+                                                                                                                         H
+
+                                                                                                                         CH3           Ochratoxin β
+                          COOH
+
+
+                          NH2
+
+                                                                               O           OH            O
+
+
+                                                                      HO
+                                                                                                                 O
+
+                       Esterification                                                                                      H            Ochratoxin α
+                                                                                                                         CH3
+
+
+                                                                                           Cl
+
+
+
+                                O
+                                                                                     O          OH               O
+                                                                      O
+
+                                    O         CH3      +        -O    P        O
+                                                                                                                         O
+                          NH2                                         O   -                                                     H
+
+                                                                                                                               CH3
+
+                                        Peptide synthase                                        Cl
+
+
+
+
+                                                            O                 CH3
+                                                 O
+                                                                                     OH         O
+
+                                                       CH        NH
+                                                                                                         O
+
+                                                                                                                 H
+                                                                                                                             Ochratoxin A ethylester
+                                                                                                                 CH3
+
+
+                                             Esterase                                Cl
+
+
+
+
+                                                            O
+                                              HO
+                                                                                    OH          O
+
+
+                                                      CH        NH
+                                                                                                     O
+
+                                                                                                             H
+
+                                                                                                             CH3
+                                                                                                                                     Ochratoxin A
+
+                                                                                    Cl
+Toxins 2010, 2                                                                                       472
+
+   According to Huff and Hamilton, [134], three distinct steps occur in OTA biosynthesis (Figure 3):
+The first part is polyketide synthesis of ochratoxin α via mellein involving a polyketide synthase. The
+second step includes acyl activation: mellein is methylated and oxidized to 7-Carboxy-Mellein (=OTβ).
+Chlorination by a chloroperoxidase leads to OTα. This component is then transformed to a mixed
+anhydride, an activation reaction using ATP. The second precursor phenylalanine is synthesized via
+the shikimic acid pathway, followed by ethyl ester activation so that it can participate in the
+subsequent acyl displacement reaction. In the third step, linkage of those activated precursors via a
+synthetase takes place, generating OTC, an ethyl ester of OTA: de-esterification by an esterase or
+transesterification is the last step in this postulated biosynthetic pathway (Figure 3).
+   This schematic pathway has been dissented by Harris and Mantle [144] using labeled precursors to
+the growing cultures of OTA producing fungi A. ochraceus. Relative incorporation of labeled putative
+intermediates ochtatoxin α and β and mellein indicated a strong preferential role of α, moderate role of
+β, but found no role of mellein into OTA production.
+   At the molecular level, the study of genetic nature of polyketide has been facilitated by the
+introduction of molecular techniques such as Genomic DNA bank and cDNA bank construction;
+polymerase chain reaction (PCR); gene inactivation; differential display reverse transcriptase-PCR
+(DDRT-PCR); microarrays etc. PCR and subtractive PCR have been utilized to identify various PKS
+genes responsible for the biosynthesis of various polyketides [145–148]. Pairs of degenerated primers
+targeting KS domain; which is the most conserved domain among different PKSs, have been
+previously designed to amplify KS domain fragment from different types of PKS genes [145–147].
+These degenerated primers were successfully used in OTA producing fungi. Five different PKS genes
+have been identified in A. ochraceus by Varga et al. [149] and Edwards et al. [129]. In addition nine
+different KS domains in A. westerdijkiae NRRL 3174 (=A. ochraceus) as well as five different KS
+domain sequences in A. carbonarius (2Mu134 = CBS 120167) [150] have been isolated.
+   In an attempt to elucidate the molecular biosynthetic pathway of OTA, O’Callaghan et al. [148]
+have previously cloned part of the polyketide synthase (pks) gene (GeneBank accession number:
+AY272043) required for OTA biosynthesis in A. ochraceus, but no information was obtained
+concerning the presence or absence of some metabolite like the mellein. Later on, a polyketide
+synthase gene otapksPN (GeneBank accession number: AY196315), from P. nordicum that is essential
+for OTA biosynthesis was reported by Karolewiez and Geisen, [151]. Recently, Bacha et al. [152]
+reported the characterization of a PKS gene, awks1(or aoks1 as named by the authors), (GeneBank
+Accession Number: AY583209) required for the OTA biosynthesis in A. westerdijkiae. Disruption of
+awks1 stopped the biosynthesis of OTA, but did not affect the biosynthesis of others metabolites
+specially the mellein. This finding supports the results of Harris and Mantle, [144] where a mutant in
+which the PKS gene has been interrupted cannot synthesize OTA but still produce the mellein.
+
+10. Identification of Ochratoxin A Gene Cluster
+
+   The adaptation of an organism to environmental conditions requires the cooperation of several
+genes that contribute to its survival. In a metabolic chain, the product of an enzymatic reaction must be
+Toxins 2010, 2                                                                                        473
+
+taken very quickly by the following enzyme to ensure a correct speed of formation of the final product
+and avoid being destroyed by the possible reactions. So an enzymatic assembly in the form of complex
+or enzymatic cluster [153,154] is therefore a necessity. In fungi, several clusters coding for polyketides
+have been studied. These clusters include clusters for the biosynthesis of mycotoxins (aflatoxins,
+fumonisins, ergot alkaloid, paxillin), antibiotics (cephalosporin and penicillin), melanins and some
+pharmaceutical products (lovastatin and compactin).
+   In the following paragraphs we will discuss the achievement made for the identification of OTA
+gene cluster in Aspergillus and Penicillium species.
+
+10.1. Aspergillus species
+
+    Given that mycotoxin biosynthetic genes are often coordinately regulated [153,154] and arranged in
+clusters [155,157], and having established that OTA production in permissive and restrictive medium
+appears to be dependent on pks gene transcript levels expression, O’Callaghan et al. [158] attempted to
+identify other putative OTA biosynthetic genes in A. ochraceus by comparing their expression profiles
+with that of the OTA pks gene in permissive and restrictive medium. In their study, they focused on
+two putative cytochrome P450 monooxygenase genes. Both genes displayed a high degree of
+similarity to other monooxygenase genes encoding enzymes involved in the biosynthesis of polyketide
+secondary metabolites. Specifically, the p450-H11 gene is very similar to the averantin oxidoreductase
+gene involved in aflatoxin biosynthesis [159], while the p450-B03 gene is not only similar to the
+trichodiene oxygenase gene from the trichothecene biosynthetic pathway in Gibberella zeae [160] but
+also displays significant similarity to the cypA gene in the aflatoxin biosynthetic pathway from
+A. flavus [161]. A strong correlation between the amount of pks and cytochrome P450 transcripts
+present and the amount of OTA accumulation was observed by the authors indicating a possible role
+for these genes in OTA biosynthesis. Additionally, O’Callaghan et al. [158] reported on the cloning of
+the full length pks gene and on the cloning part of a novel nonribosomal peptide synthetase (nrps) gene
+900 bp upstream of the pks gene. Both the pks and nrps genes appear to be transcribed in the same
+direction but they are not in the same reading frame. Thus they appear to encode two separate proteins
+rather than a single hybrid type PKS-NRPS.
+    Alignment study (Figure 4) revealed that the pks gene characterized by O’Callaghan et al. [148]
+shares more than 98% identity with a PKS gene awlc35-12 (or aolc35-12), identified in
+A. westerdijkiae [150,162]. This finding shows that A. ochraceus and A. westerdijkiae contain a similar
+gene. The pks gene also displayed similarities of 60% to a hypothetical PKS gene corresponding to the
+OTA cluster in A. niger [163] and only 38% to a awks1 gene required for the biosynthesis OTA in
+A. westerdijkiae [152] (Figure 4). Based on the high degree of similarities between the awlc35-12 and
+pks genes, Bacha et al. [152] assumed that awlc35-12 could be involved in OTA biosynthesis in
+A. westerdijkiae. Given that awks1 is different from pks, they concluded that two PKS may be
+involved in the biosynthesis of OTA in A. westerdijkiae. To date, only four cases have been reported that
+involve two different fungal PKSs essential for a single polyketide: a set of two unusual type I
+multifunctional PKSs for the biosyntheses of lovastatin and compactin in A. terreus and P. citrinum,
+Toxins 2010, 2                                                                                474
+
+respectively, [164–166] and two PKS have been reported to be involved in the biosynthesis of
+zearaleone in G. zea [167] and T toxin in C. heterosphorus [168].
+
+     Figure 4. Alignment of the deduced amino acid sequence of ochratoxin A polyketide
+     synthase gene: awks1 (A. westerdijkiae, Accession Number: AY583209), otapksPN
+     (P. nordicum, Accession No.: AY557343), awlc35-12 (A. westerdijkiae, Accession No.:
+     AY583208), pks (A. ochraceus, Accession No.: AY272043) and PKS- A. niger (hypothetical
+     PKS gene corresponding to OTA cluster in A. niger, Accession No.: An15g07920).
+Toxins 2010, 2                                                                                      475
+
+   In A. carbonarius, a cDNA-AFLP differential technique was performed by Botton et al. [169] in
+two strains of A. carbonarius, antagonists to the ability of producing OTA, allowing the identification
+of 119 differentially expressed sequences putatively involved in the regulation of OTA biosynthesis.
+The differential conditions were achieved by growth on different minimal media, either supporting or
+inhibiting OTA production. A connection was pointed out between the biosynthesis of the toxin,
+vegetative growth and sexual/asexual developmental progression. A putative model for OTA
+biosynthesis regulation has been elaborated by the authors [169].
+
+10.2. Penicillium species
+
+    Recently, most of the gene cluster responsible for the biosynthesis of OTA in Penicillium has been
+characterized. A 10 kb genomic DNA fragment of P. nordicum has been cloned [73,151,170,171],
+which carries three long open reading frames. One open reading frame (otapksPN) is a polyketide
+synthase, which is different from PKS genes found in Aspergillus species (Figure 4). The second open
+reading frame (npsPN, GeneBank accession number AY534879) has homology to non-ribosomal
+peptide synthetases, and the third open reading frame (aspPN) has homology to fungal alkaline serine
+proteinases. In a systematic analysis, the influence of the most important growth parameters including
+temperature, water activity and pH were analyzed by Real Time PCR and microarrays. Interestingly
+,all analyzed external parameters resulted in a similar expression profile of the OTA biosynthesis
+genes. Interestingly the otapksPN gene is present only in P. nordicum but not in
+P. verrucosum, indicating genetic differences exist also between both OTA producing Penicillium
+species [73,170,171].
+
+11. Detection of Ochratoxigenic Species by PCR
+
+   Early and rapid detection of potential OTA producing fungi is important to reduce the negative
+impacts of OTA. Usual identification and quantification methods of food-borne fungi require multiple
+steps. Morphological and physiological tests were time-consuming and often, mycological expertise
+was necessary [170,172]. The PCR [173] has replaced laborious and time consuming microbiological
+analysis by amplification of specific genomic markers rather than growing the living organism under
+study. Within the last 10 years PCR systems have been developed for the detection and differentiation
+of major species and groups of mycotoxigenic fungi. One of the most important factors in the set up of
+such method is the reliability of the primer set designed and the targeted DNA sequence of interest
+organism [173]. Recently, various pairs of PCR primers were developed to set up novel diagnostic
+approaches for OTA producers in the Aspergillus and Penicillium genera.
+
+11.1. AFLP, RFLP, RAPD markers primers based
+
+   Pelegrinelli-Fungaro et al. [174] described the development of a primer pair with high specificity to
+A. carbonarius, the main OTA producer in grapes. In their study, 29 strains of A. carbonarius, 16 A.
+tubingensis strains and 29 strains of A. niger were subjected to random-amplified-polymorphic DNA
+Toxins 2010, 2                                                                                       476
+
+(or RAPD) analysis using 471 random oligonucleotides. One particular fragment of 809 bp
+differentiated A. carbonarius from the other species. SCAR primers designed from this fragment
+sequence enabling differentiation of A. carbonarius strains from other Aspergillus spp by PCR.
+However, primers could not distinguish between toxigenic and non-toxigenic isolates of
+A. carbonarius.
+   Amplified fragment length polymorphism (or AFLP) marker-based primers for A. ochraceus and
+A. carbonarius have also been applied [175–178]. AFLP revealed high similarity of banding patterns
+between the A. ochraceus strains [175] and also between strains of A. carbonarius [177]. However,
+both OTA producers and non-producers were scattered randomly in both species analysed. These
+findings were in strict contrast with results obtained by Castella et al. [179]. In their study,
+Castella et al. [179] classified 66 strains of P. verrucosum in two distinct genotypes based on AFLP
+and RFLP analysis. The two RAPD as well as the two AFLP groups were completely coincidental.
+Strains in the two groups differed in their ability to produce OTA, with group I containing mainly high
+producing strains, and group II containing moderate to non-producing strains.
+
+11.2. Gene-based approaches for the diagnosis of ochratoxigenic fungi
+
+   Several genes such as rRNA, β-tubulin, elongation factor 1 α and the calmodulin genes provide
+highly conserved as well as variable sequence regions. Based on the alignment of a partial sequence of
+calmodulin genes from representative strains of A. niger group, A. carbonarius, A. japonicus and
+A. aculeatus, Perrone et al. [180] detected a high degree of homology between strains assigned to
+A. carbonarius (99.98%) and also between strains of A. japonicus and A. aculeatus (99.40%). Based
+on variable regions, the authors found three different regions suitable for designing species-specific
+PCR primers. The assay was useful in screening vast numbers of isolates of black aspergilli from
+grapes in order to evaluate the toxigenic potential connected with this commodity. Recently,
+Susca et al. [181] developed species-specific primers based on partial calmodulin gene sequences to
+identify A. carbonarius and A. niger by PCR. Moreover, a primer pair targeting the conserved regions
+of the A. carbonarius calmodulin gene has also been developed by Mulè et al. [182], allowing only the
+amplification of A. carbonarius strains.
+   Morello et al. [183] found genetic variation between the β-tubulin gene sequences from
+A. ochraceus and A. westerdijkiae allowed to design a primer-pair specific to A. westerdijkiae. Using
+these primers, no PCR product from DNA of A. ochraceus was obtained while all isolates of
+A. westerdijkiae gave positive results.
+   The coding portions of many fungal 18S, 5.8S and 28S rDNA genes are highly conserved and
+primers to these regions have been generated [184]. The internal transcribed spacer sequences (ITS-1
+and ITS-2) and IGS [185] contains hypervariable regions leading to most of the intraspecies sequence
+diversity [186–189]. The ITS region is amplified from the target fungus and sequenced to identify
+regions of DNA unique to the fungus of interest. Polymorphism within the ITS region is generally (but
+not always) at the level of species, rather than between isolates of the same species, making it an ideal
+target for the development of species-specific PCR assays. For example the species-specific primers
+Toxins 2010, 2                                                                                      477
+
+have been designed on the basis of ITS sequence to discriminate the main species included in section
+Nigri: A. japonicus, A. heteromorphus, A. ellipticus and the two morphologically indistinguishable
+species of the A. niger aggregate: A. niger and A. tubingensis [190]. Other species-specific PCR-based
+assays to ochratoxigenic species were developed for A. carbonarius and A. ochraceus based on
+ITS [191].
+   Restriction digestion analysis of the ITS products was tested to assess its effectiveness as a rapid
+method to identify different isolates of black Aspergillus species from grapes [185].
+   Among the PCR based approaches, Accensi et al. [192] used a PCR-RFLP technique to distinguish
+A. niger and A. tubingensis isolates. The authors used the restriction enzyme RsaI to digest the
+amplified ITS region of the isolates, and observed that isolates of the A. niger species complex exhibit
+two different RFLP patterns, N and T corresponding to A. niger and A. tubingensis isolates,
+respectively. Other restriction enzymes has also been used for species identification recently using
+PCR-RFLP analysis of the ITS region [185]. The authors used HhaI, NlaIII and RsaI to distinguish
+between A. niger, A. tubingensis, A. carbonarius and A. aculeatus isolates came from grapes. Zanzotto
+et al. [193] used PCR-RFLP analysis of the ITS, IGS and β-tubulin genes to distinguish between
+OTA-producing and non-producing isolates of the A. niger aggregate.
+
+11.3. Using mycotoxin biosynthetic gene for identifying of ochratoxigenic fungi
+
+   In some instances, species specific detection is not always of primary objective. It may be more
+relevant to determine whether the producers of particular mycotoxins are present rather than to identify
+exactly what the species are. This is particularly important where a mycotoxin can be produced by a
+number of species. Many mycotoxin biosynthetic genes are present within gene clusters, and some of
+these appear to have undergone horizontal transfer from one species to another and are now present in
+several species [153,194]. Regions of homology within mycotoxin biosynthetic gene from the different
+species can be used to develop primers to detect the presence of the relevant mycotoxigenic species.
+This strategy was successfully applied for aflatoxin producers [195,196], trichothecene-producing
+fungi [197–199], fumonisin-producing Fusarium species [198–200] and also for producers of
+patulin [198,201].
+   In A. ochraceus, the sequence of AoLC35-12 (accession nb:AY583208) was found to join a
+sequence encoding for acyl transferase domain of a polyketide synthase [150,162], which is involved
+in the OTA biosynthesis pathway [142]. Dao et al. [162] designed two sets of specific primers,
+AoLC35-12L/AoLC35-12R and AoOTAL/AoOTAR, from AoLC35-12. The set primers
+AoOTAL/AoOTAR specifically detected A. ochraceus by PCR method. Because A. ochraceus and
+A. westerdijkiae were only recently dismembered into two species, the primer-pairs designed until now
+are not specific either to A. ochraceus or to A. westerdijkiae, i.e., they recognize both species. The
+second primer pair AoLC35-12L/AoLC35-12R was found to detect OTA producing fungi
+A. carbonarius, A. melleus, A. ochraceus, A. sulfureus, P. verrucosum and citrinin producing
+P. citrinum and Monascus ruber.
+Toxins 2010, 2                                                                                    478
+
+   In A. carbonarius, five different KS domain sequences (AcKS9, AcKS10, Ac12RL3, AcLC35-4
+and AcLC35-6) were identified by Atoui et al. [150]. Two different PCR species specific detection
+systems were developed based on primers designed from AcKS10 [202] and Ac12RL3 [203] proved to
+be highly specific, yielding amplification only in A. carbonarius strains, the main OTA producer
+in grapes.
+   In the genus Penicillium, a PCR method for differentiation and detection of two ochratoxingenic
+Penicillium species, P. nordicum and P. verrucosum, has been developed. It is based upon two genes
+of the OTA biosynthetic pathway, namely the OTA polyketide synthase gene (otapksPN) and a non-
+ribosomal peptide syntethase gene (otanpsPN) from P. nordicum [73,170]. P. verrucosum gives
+consistently only a positive reaction with the primers for the otanpsPN gene, whereas P. nordicum is
+positive for both genes. The PCR reaction is negative with all of other food related fungal species
+tested. This system has been used to analyze 62 Penicillium strains isolated from cured meat products
+or ripening rooms.
+
+12. Application of PCR for the Detection and Quantification of OTA Producers in Contaminated
+Commodities
+
+   Recent advances in DNA-based techniques such as real-time PCR (RT-PCR) are providing new
+tools for fungal detection and quantification by detecting and quantifying their DNA. RT-PCR can be
+performed using different chemistries, such as SYBR® Green I dye [204,205] and TaqMan® [206].
+Both systems have proven useful in monitoring and quantification of OTA fungal producer in many
+food commodities [73,170,176,182,202,203].
+   One of the major motivations for the development of PCR based detection systems in many
+publications is the prospect of using this kind of analysis to estimate OTA concentrations in sample
+material. One might therefore anticipate that assays based on OTA biosynthetic genes might better fit
+that purpose as compared to systems based on genes unrelated to their biosynthesis. By using real-time
+PCR, a positive correlation between OTA content and DNA quantity has been indicated for P.
+nordicum and A. ochraceus [164,170] and more recently, in A. carbonarius [182,202,203]. Such a
+correlation has been established with quantitative real-time PCR on mycotoxin biosynthesis genes [73]
+or when using primers targeted sequences of housekeeping genes [182].
+   Currently, RT- PCR quantification of A. carbonarius in grapes is clearly the best alternative to
+conventional methods in order to investigate the relation between OTA producers and OTA content.
+With regards to food safety, Atoui et al. [203] established, according to their correlation, that A.
+carbonarius DNA content has to be lower than 10 ng DNA g−1 grape berry to fulfill the maximum
+OTA permitted levels in the European Union (Commission regulation No. 123/2005 amending
+Regulation No. 67 446/2001 as regards to ochratoxin A).
+   All the systems described above are based on PCR with genomic target DNA as template to
+estimate OTA concentrations in sample materials. Given the fact that biosynthesis of most mycotoxins
+is a highly complex process with poorly understood regulation at the transcriptional level as well as
+Toxins 2010, 2                                                                                    479
+
+being highly influenced by environmental factors; it is important to find correlation between gene
+expression and concentrations of compounds.
+   A RT-PCR system based on the otapksPN sequence has been used to monitor growth and OTA
+production of P. nordicum in wheat [73,170]. A strong correlation between the copy numbers of the
+otapksPN gene and the colony forming units (cfu) was observed. In addition, there was a strong
+congruence between otapksPN gene expression and OTA production in wheat. It can be used for the
+rapid quality assessment of food products by quantitative determination of the fungal biomass. It can
+further be used for HACCP (hazard analysis critical control point) purposes to determine the critical
+control points (CCP´s) during the production chain under which otapksPN gene expression and
+thereby OTA production is possible.
+   With the available systems of PCR-based detection and quantification of ochratoxin A described in
+this review, the choice of the best method depends on the goal of the study to be conducted. For
+example, AFLP and RAPD could be the best choice when the purpose of the study is (1) to show the
+polymorphism of some isolated strains belonging to the same species or (2) to discriminate between
+relevant OTA producer species. On the other hand, when dealing with the detection of the fungus, the
+best way is to conduct conventional PCR using primers designed from housekeeping genes or
+mycotoxin biosynthetic genes as described in sections 11.2 and 11.3. Concerning the application of the
+described molecular techniques in food, AFLP and RAPD show limitations such as fungal isolation
+and preparation of DNA of very high quality. For this reason Real time PCR technology provides an
+insight into the mycotoxigenic status of food sample as well as it has the power to estimate its
+mycotoxin content.
+
+References
+
+1.   Keeper-Goodman, T.; Scott, P.M. Risk assessment of the mycotoxin ochratoxin. Biomed.
+     Environ. Sci. 1989, 2, 179–248.
+2.   Miller, J.D.; Trenholm, H.L. Mycotoxins in Grain: Compounds Other than Aflatoxin; Eagan
+     Press: St. Paul, MN, USA, 1994.
+3.   Bredenkamp, M.W.; Dillen, J.L.M.; Van Rooyen, P.H.; Steyn, P.S. Crystal structures and
+     conformational analysis of ochratoxin A and B: Probing the chemical structure causing toxicity.
+     J. Chem. Soc. 1989, 2, 1835–1839.
+4.   Budavari, S. The Merck Index, 11th ed.; Rahway, N.J., Ed.; Merck & Co.: Rahway, NJ, USA,
+     1989; pp. 30–31.
+5.   Faucet-Marquis, V.; Pont, F.; Størmer, F.C.; Rizk, T.; Castegnaro, M.; Pfohl Leszkowicz, A.
+     Evidence of a new dechlorinated ochratoxin A derivative formed in opossum kidney cell cultures
+     after pretreatment by modulators of glutathione pathways: Correlation with DNA-adduct
+     formation. Mol. Nurt. Food Res. 2006, 50, 530–542.
+6.   Tozlovanu, M.; Faucet-Marquis, V.; Pfohl-Leszkowicz, A.; Manderville, R. Genotoxicity of the
+     hydroquinone metabolite of ochratoxin A: Structure-activity relationships for covalent DNA
+     adduction. Chem. Res. Toxicol. 2006, 19, 1241–1247
+Toxins 2010, 2                                                                                     480
+
+7.    Pfohl-Leszkowicz, A.; Manderville, R.A. Ochratoxin A: An overview on toxicity and
+      carcinogenicity in animals and humans. Mol. Nutr. Food Res. 2007, 51, 61–99.
+8.    Manderville, R.A.; Pfohl-Leszkowicz, A. Bioactivation and DNA adduction as a rationale for
+      ochratoxin A carcinogenesis. World Mycotoxin J. 2008, 1, 357–367
+9.    Miller, J.D. Fungi as contaminants in indoor air. Atmos. Environ. 1992, 26, 2163–2172.
+10.   Steyn, P.S. Ochratoxin and related dihydroisocoumarins. In Mycotoxin-Production, Isolation,
+      Separation and Purification; Betina, V., Ed.; Elseiver: Amsterdam, The Netherlands, 1984;
+      pp. 183–216
+11.   de Jesus, A.E.; Steyn, P.S.; Vleggaar, R.; Wessels, P.A. Carbon-13 nuclear magnetic resonance
+      assignments and biosynthesis of the mycotoxin ochratoxin A. J. Chem. Soc. 1980, 1, 52–54.
+12.   Pohland, A.E.; Schüller, P.L.; Steyn, P.S.; van Egmond, H. Physico-chemical data for selected
+      mycotoxins. Pure Appl. Chem. 1982, 54, 2219–2284.
+13.   EL Khoury, A. Champignons Mycotoxinogènes et Ochratoxine A (OTA) et Aflatoxine B1 (AFB1)
+      dans les Vignobles Libanais: Occurrence et Origine; Ph.D. Thesis, INP: Toulouse, France, 2007.
+14.   Lillehoj, E.B.; Goransson, B. Occurrence of ochratoxin and citrinin producing fungi on
+      developing Danish barley grain. Acta Pathol. Microbiol. Scand. B 1980, 88, 133–137
+15.   Abramson, D. Measurement of ochratoxin A in barely extracts by liquid chromatography mass
+      spectrometry. J. Chromatogr. 1987, 391, 315–320.
+16.    Bauer, J.; Gareis, M. Ochratoxin A im der Nahrungsmittelkette. J. Vet. Med. Ser. B. 1987, 34,
+      613.
+17.   Müller, H.M. Decontamination of mycotoxins. I. Physical process. Ubersicht. Tierernähr. 1982,
+      10, 95–122.
+18.   Trivedi, A.B.; Doi, E.; Kitabatake, N. Detoxification of ochratoxin A on heating under acidic and
+      alkaline conditions. Biosci. Biotech. Biochem. 1992, 56, 741–745.
+19.    Boudra, H.; Le Bars, P.; Le Bars, J. Thermostability of ochratoxin A in wheat under two
+      moisture conditions. Appl. Environ. Microbiol. 1995, 61, 1156–1158.
+20.   Castegnaro, M.; Barek, J.; Frémy, J.M.; Lafontaine, M.; Miraglia, M.; Sansone, E.B.; Telling,
+      G.M. Laboratory Decontamination and Destruction of Carcinogens in Laboratory Wastes: Some
+      Mycotoxins; International Agency for Research on Cancer: Lyon, France, 1991.
+21.   IARC. Some naturally occurring substances, food items and constituents, heterocyclic aromatic
+      amines and mycotoxins. In Monograph on evaluation of carcinogenic risks to humans; IARC:
+      Lyon, France, 1993.
+22.   Zimmerli, B.; Dick R. Ochratoxin A in table wine and grape-juice: Occurrence and risk
+      assessment. Food Addit. Contam. 1996, 13, 655–668.
+23.    Delage, N.; d’Harlingue, A.; Colonna, B.; Ceccaldi, B.C.; Bompeix, G. Occurrence of
+      mycotoxins in fruit juices and wines. Food Control 2003, 14, 225–227.
+24.   Da Rocha Rosa, C.A.; Palacios, V.; Combina, M.; Fraga, M.E.; De Oliveira Rekson, A.;
+      Magnoli, C.E.; Dalcero, A.M. Potential ochratoxin A producers from wine grapes in Argentina
+      and Brazil. Food Addit. Contam. 2002, 19, 408–414.
+Toxins 2010, 2                                                                                    481
+
+25.   Shephard, G.S.; Fabiani, A.; Stockenstrom, S.; Mshicileli, N.; Sewram, V. Quantitation of
+      ochratoxin A in South African wines. J. Agric. Food. Chem. 2003, 51, 1102–1106.
+26.    Visconti, A.; Pascale, M.; Centoze, G. Determination of ocratoxin A in wine by means of
+      immunoaffinity column clean-up and high-performance liquid chromatography. J. Chromatogr.
+      A 1999, 864, 89–101.
+27.   Ospital, M.; Cazabeil, J.M.; Betbede, A.M.; Tricard, C.; Creppy, E.; Medina, B. L’Ochratoxine
+      A dans les vins. Œnologie 1998, 169, 16–19.
+28.   Otteneder, H.; Majerus, P. Occurence of ochratoin A (OTA) in wines: Influence of the type of
+      wine and its geographical origin. Food Addit. Contam. 2000, 17, 793–798.
+29.   O'Brien, E.; Heussner, A.H.; Dietrich, D.R. Species-, sex-, and cell type-specific effects of
+      ochratoxin A and B. Toxicol Sci. 2001, 63, 256–264
+30.   Faucet, V.; Pfohl-Leszkowicz, A.; Dai, J.; Castegnaro, M.; Manderville, R.A. Evidence for
+      covalent DNA adduction by Ochratoxin A following chronic exposure to rat and subacute
+      exposure to pig. Chem. Res. Toxicol. 2004, 17, 1289–1296.
+31.   Ribelin, W.E.; Fukushima, K.; Still, P.E. The toxicity of ochratoxin A to ruminants. Can. J.
+      Comp. Med. 1978, 42, 172–176.
+32.   Elling, F.; Nelsen, J.P.; Lillehoj, E.B.; Thomassen, M.S.; Stormer, F.C. Ochratoxin A induced
+      porcine nephropathy: Enzyme and ultrastructural changes after short-term exposure. Toxicon
+      1985, 23, 247–254.
+33.    Lopez de Cerain, A.; Gonzalez-Penas, E.; Jimenez, A.M.; Bello, J. Contribution to the study of
+      ochratoxin A in Spanish wines. Food Addit. Contam. 2002, 19, 1058–1064.
+34.   Bejaoui, H. Champignons Ochratoxinogènes et Ochratoxine A (OTA) dans des Vignobles
+      Français et procEdés Biologiques de décontamination de l'OTA dans les moûts de raisin; Ph.D.
+      Thesis, INP: Toulouse, France, 2005.
+35.   Pfohl-Leszkowicz, A. Ochratoxin A and aristolochic acid involvement in nephropathies and
+      associated urothelial tract tumours. Arh. Hig. Rada. Toksikol. 2009, 60, 465–483.
+36.   Markaki, P.; Delpont, C.; Delpont-Binet, C.; Grosso, F.; Dragacci, S. Determination of
+      ochratoxin A in red wine and vinegar bu immunoaffinity high-pressure liquid chromatography. J.
+      Food Prot. 2001, 64, 533–537.
+37.   Hassen, W.; Abid-Essafi , S.; Achour, A.; Guezzah, N.; Zakhama, A.; Ellouz, F.; Creppy, E.E.;
+      Bacha, H. Karyomegaly of tubular kidney cells in human chronic interstitial nephropathy in
+      Tunisia: Respective role of Ochratoxin A and possible genetic predisposition. Hum. Exp. Toxicol.
+      2004, 23, 339–346
+38.   Pfohl-Leszkowicz, A.; et Castegnaro, M. L’Ochratoxine A dans: Mycotoxines: Evaluation et
+      gestion du risqué, Lavoisier; Tec & Doc: Paris, France, 1999; pp. 249–278.
+39.   Soleas, G.J.; Yan, J.; Goldberg, D.M. Assay of ochratoxin A in wine and beer by high-pressure
+      liquid chromatography photodiode array and gas chromatography mass selective detection. J.
+      Agric. Food Chem. 2001, 49, 2733–2740.
+Toxins 2010, 2                                                                                     482
+
+40.   Brown, M.H.; Szczech, G.M.; Purmalis, B.P. Teratogenic and toxic effects of ochratoxin A in
+      rats. Toxicol. Appl. Pharmacol. 1976, 37, 331–338
+41.   Mayura, K.; Reddy, R.V.; Hayes, A.W.; Berndt, W.O. Embryocidal, fetotoxic and teratogenic
+      effects of ochratoxin A in rats. Toxicology 1982, 25, 175–185
+42.   Mayura, K.; Parker, R.; Berndt, W.O.; Philips, T.D. Effect of simultaneous prenatal exposure to
+      ochratoxin A and citrinin in the rat. Toxicol. Environ. Health 1984, 13, 553–561
+43.   Mayura, K.; Stein, A.E.; Berndt, W.O.; Philips, T.D. Teratogenic effects of ochratoxin A in rats
+      with impaired renal function. Toxicology 1984, 32, 277–285
+44.   Mayura, K.; Parker, R.; Berndt, W.O.; Philips, T.D. Ochratoxin A-induced teratogenesis in rats:
+      Partial protection by phenylalanine. Appl. Environ. Microbiol. 1984, 48, 1186–1188
+45.   Hayes, A.W.; Melton, R.; Smith, S.J. Effect of aflatoxin B, ochratoxin A and rubratoxin B on a
+      protozoan, Tetrahymena pyriformis HSM. Bull. Environ. Contamin. Toxicol. 1974, 11, 321–325.
+46.   Hood, R.D., Naughton, M.J.; Hayes, A.W. Prenatal effects of ochratoxin A in hamsters.
+      Teratology 1976, 13, 11–14.
+47.   Gilani, S.H.; Bancroft. J.; Reily. M. Teratogenicity of ochratoxin A in chick embryos. Toxicol.
+      Appl. Pharmacol. 1978, 46, 543–546.
+48.   More, J.; Galtier, P.; Alvinerie, M. Toxicite de l'ochratoxine A. III. Effets pendant les stades
+      initiaux de la gestation chez le rat. Ann. Rech. Vet. 1978, 9, 169–173.
+49.   Petzinger, E.; Weidenbach, A. Mycotoxins in the food chain: The role of ochratoxins.
+      Livest.Prod. Sci. 2002, 76, 245–250.
+50.   Creppy, E.E.; Betbeder, A.M.; Gharbi, A.; Counord, J.; Castegnaro, M.; Bartsch, H.;
+      Moncharmont, P.; Fouillet, B.; Chambon, P.; Dirheimer, G. Human ochratoxicosis in France. In
+      Mycotoxins, Endemic Nephropathy and Urinary Tract Tumours; Castegnaro, M., Plestina, R.,
+      Dirheimer, G., Chernozemsky, I.N., Bartsch, H., Eds.; IARC Scientific Publ.: Lyon, France,
+      1991.
+51.   Holmberg, T.; Thuvander, A.; Hult, K. Ochratoxin A as a suppressor of mitogen-induced
+      blastogenesis of porcine blood lymphocytes. Acta Vet. Scand. 1988, 29, 219–223.
+52.   Lea, T.; Steien. K.; Stormer. C. Mechanism of ochratoxin A induced immunosuppresion.
+      Mycopathologia 1989, 107, 153–159.
+53.   Huff, W.E.; Kubena, L.F.; Harvey, R.B.; Phillips, T.D. Efficacy of hydrated sodium calcium
+      aluminosilicate to reduce the individual and combined toxicity of aflatoxin and ochratoxin A.
+      Poult Sci. 1992, 71, 64–69
+54.   Pfohl-Leszkowicz, A.; Pinelli, E.; Bartsch, H.; Mohr, U.; Castegnaro, M. Sex- and strain-specific
+      expression of cytochrome P450s in ochratoxin A-induced genotoxicity and carcinogenicity in
+      rats. Mol. Carcinog. 1998, 23, 76–85.
+55.   NTP. Toxicology and Carcinogenesis Studies of Ochratoxin A (CAS No. 303-47-9) in F344/N
+      Rats (Gavage Studies). Technical Report Series No 358; NTIS Publication No. PB90-
+      219478/AS; National Toxicology Program: Research Triangle Park, NC and Bethesda, MD,
+      USA, 1989.
+Toxins 2010, 2                                                                                      483
+
+56.   Feier, D.; Tofana, M. Ochratoxin A–Toxicological Aspects. Bulletin of University of
+      Agricultural Sciences and Veterinary Medicine Cluj-Napoca. Agriculture 2009, 66, 308–312.
+57.   Van der Merve, K.J.; Steyn, P.S.; Fourie, L.; Scott, D.B.; Theron, J.J. Ochratoxin A, a toxic
+      metabolite produced by Aspergillus ochraceus. Nature 1965, 205, 1112–1113.
+58.   Varga, J.; Rigó, K.; Téren, J.; Mesterházy, Á. Recent advances in ochratoxin research I.
+      Production, detection and occurrence of ochratoxins. Cereal Res. Commun. 2001, 29, 85–92.
+59.   Frisvad, J.C.J.; Frank, M.; Houbraken, J.A.M.P.; Kuijpers, A.F.A.; Samson, R.A. New
+      ochratoxin A producing species of Aspergillus section Circumdati. Stud. Mycol. 2004, 50, 23–43.
+60.   Horie, Y. Productivity of ochratoxin A of Aspergillus carbonarius in Aspergillus section Nigri.
+      Nippon Kingakukai Kaiho 1995, 36, 73–76.
+61.   IARC. IARC Handbooks of Cancer Prevention. Weight Control and Physical Activity;
+      International Agency for Research on Cancer: Lyon, France, 2002.
+62.   Leong, S.; Hocking, A.D.; Pitt, J.I. Occurrence of fruit rot fungi (Aspergillus section Nigri) on
+      some drying varieties of irrigated grapes. Aust. J. Grape Wine Res. 2004, 10, 83–88.
+63.   Taniwaki, M.H.; Pitt, J.I.; Teixeira, A.A.; Iamanaka, B.T. The source of ochratoxin A in
+      Brazilian coffee and its formation in relation to processing methods. Int. J. Food Microbiol.
+      2003, 82, 173–179,
+64.   Abarca, L.M.; Accensi, F.; Cano, J.; Cabanes, J.F. Taxonomy of black aspergilli. Ant. van
+      Leeuwen. 2004, 86, 33–49.
+65.   Dalcero, A.; Magnoli, C.; Hallak, C.; Chiacchiera, S.M.; Palacio, G.; Rosa, C.A. Detection of
+      ochratoxin A in animal feeds and capacity to produce this mycotoxin by Aspergillus section
+      Nigri in Argentina. Food Addit. Contam. 2002, 19, 1065–1072.
+66.   Magnoli, C.; Violante, M.; Combina, M.; Palacio G.; Dalcero, A. Mycoflora and ochratoxin-
+      producing strains of Aspergillus section Nigri in wine grapes in Argentina. Lett. Appl. Microbiol.
+      2003, 37, 179–184.
+67.    Battilani, P.; Giorni, P.; Pietri, A. Epidemiology of toxin producing fungi and ochratoxin A
+      occurrence in grape. Eur. J. Plant Pathol. 2003, 109, 715–722.
+68.   Samson, R.A.; Hoekstra, E.S.; Frisvad, J.C. Introduction to Food and Airborne Fungi, 7th ed.;
+      Centraalbureau voor Schimmelcultures: Utrecht, The Netherlands, 2004.
+69.   Abarca, M.L.; Accensi, F.; Bragulat, M.R.; Cabanes, F.J. Current importance of ochratoxin A
+      producing Aspergillus spp. J. Food Protec. 2001, 903–906.
+70.   Ciegler, A. Bioproduction of ochratoxin A and penicillc acid by members of the Aspergillus
+      ochraceus group. Can. J. Microbiol. 1972, 18,631–636
+71.   Hesseltine, C.W.; Vandegraft, E.E.; Fennell, D.I.; Smith, M.L.; Shotwell, O.L. Aspergilli as
+      ochratoxin producers. Mycologia 1972, 64, 539–550.
+72.   Frisvad, J.C. Creatine sucrose agar, a differential medium for mycotoxin producing terverticillate
+      Penicillium species. Lett. Appl. Microbiol. 1985, 1, 109–113.
+Toxins 2010, 2                                                                                     484
+
+73.   Geisen, R.; Mayer, Z.; Karolewiez, A.; Farber, P. Development of a real time PCR system for
+      detection of Penicillium nordicum and for monitoring ochratoxin A production in foods by
+      targeting the ochratoxin polyketide synthase gene. Syst. Appl. Microbiol. 2004, 27, 501–504.
+74.   Pitt, J.I. Penicillium viridicatum, Penicillium verrucosum, and production of ochratoxin A. Appl.
+      Environ. Microbiol. 1987, 53, 266–269.
+75.   Lund, F.; Frisvad, J.C. Penicillium verrucosum in cereals indicates production of ochratoxin A.
+      J. Appl. Microbiol. 2003, 95, 1117–1123.
+76.    Larsen, T.O.; Svendsen, A.; Smedsgaard, J. Biochemical characterization of ochratoxin A-
+      producing strains of the genus Penicillium. Appl. Environ. Microbiol. 2001, 67, 3630–3635.
+77.   Eskola, M. Study on Trichothecenes, Zearalenone and Ochratoxin A in finnish Cereals:
+      Occurrence and Analytical Techniques; Academic dissertation: Skillman, NJ, USA, 2002.
+78.    FAO. Agro-ecological assessment for national planning: The example of Kenya. FAO soils
+      bulletin No 67. Roma, Italy, 1993.
+79.    FAO/WHO. Ochratoxin A. In Safety evaluation of certain mycotoxins in food, Prepared by the
+      56th Meeting of the Joint FAO/WHO Expert Committee on Food Additives (JECFA). WHO
+      Food Additives Series 47; World Health Organisation: Geneva, Switzerland, 2001; pp. 281–387.
+80.    Pittet, A. Natural occurrence of mycotoxins in foods and feeds an updated review. Rev. Med.
+      Vet. 1998, 149, 479–492.
+81.   Nguyen, M.T.; Tozlovanu, M.; Tran, T.L.; Pfohl-Leszkowicz, A. Occurrence of afl atoxin B1,
+      citrinin and ochratoxin A in rice in five provinces of the central region of Vietnam. Food Chem.
+      2007, 105, 42–47.
+82.   Vega, M.; Muñoz, K.; Sepúlveda, C.; Aranda, M.; Campos, V.; Villegas, R., Villarroel, O. Solid-
+      phase extraction and HPLC determination of ochratoxin A in cereals products on Chilean market.
+      Food Control 2009, 20, 631–634
+83.   Otteneder, H.; Majerus, P. Occurrence of ochratoxin A in wines: Influence of the type of wine
+      and its geographical origin. Food Addit. Contam. 2000, 17, 793–798.
+84.   Cabañes, F.J.; Accensi, F.; Bragulat, M.R.; Abarca, M.L.; Castella, G.; Minguez, S.; Pons, A.
+      What is the source of Ochratoxin A in wine? Int. J. Food Microbiol. 2002, 79, 213–215.
+85.   Stefanaki, I.; Foufa, E.; Tsatsou-Dritsa, A.; Dais, P. Ochratoxin A concentrations in Greek
+      domestic wines and dried vine fruits. Food Addit. Contam. 2003, 20, 74–83.
+86.    Shephard, G.S.; Fabiani, A.; Stockenstrom, S.; Mshicileli, N.; Sewram, V. Quantitation of
+      ochratoxin A in south African wines. J. Agri. Food Chem. 2003, 51, 1102–1106.
+87.    Castellari, M.; Fabbr, S.; Fabiani, A.; Amati, A.; Galassi, S. Comparison of different
+      immunoaffinity clean-up procedures for high-performance liquid chromatographic analysis of
+      ochratoxin A in wines. J. Chromatogr. A 2000, 888, 129–136.
+88.    Serra, R.; Abrunhosa, L.; Kozakiewicz, Z.; Venâncio, A. Black Aspergillus species as
+      ochratoxin A producers in Portuguese wine grapes. Int. J. Food Microbiol. 2003, 88, 63–68.
+Toxins 2010, 2                                                                                    485
+
+89.   Bejaoui, H.; Mathieu, F.; Taillandier, P.; Lebrihi A. Biodegradation of ochratoxin A by
+      Aspergillus section Nigri species isolated from French grapes: A potential means of ochratoxin A
+      decontamination in grape juices and musts. FEMS Microbiol. Lett. 2006, 255,203–208.
+90.   EL Khoury, A.; Rizk, T.; Lteif, R.; Azouri, H.; Delia, M.L.; Lebrihi, A. Occurrence of
+      ochratoxin A and aflatoxin B1-producing fungi in Lebanese grapes and OTA content in musts
+      and finished wines during year 2004. J. Agri. Food Chem. 2006, 54, 8977–8982.
+91.   Wolff, J.; Bresch, H.; Cholmakov-Bodechtel, C.; Engel, G.; Garais, M.; Majerus, P.; Rosner, H.;
+      Scheuer, R. Ochratoxin A: Contamination of foods and consumer exposure. Arch Lebensm hyg.
+      2000, 51, 181–128.
+92.    FAO. Aflatoxin Contamination in Foods and Feeds in the Philippines. Document 13.
+      FAO/WHO Regional Conference on Food Safety for Asia and Pacific Seremban, Malaysia,
+      2004.
+93.    Hussein, H.S.; Brasel, J.M. Toxicity, metabolism, and impact of mycotoxins on humans and
+      animals. Toxicology 2001, 167, 101–134.
+94.    Van Egmond, H.P.; Svensson, U.K.; Fremy, J.M. Mycotoxins. Int. Dairy Fed. S.I. 1997, 79–88.
+95.    Commission Regulation (EC) No 466/2001 of 8 March 2001 setting maximum levels for certain
+      contaminants in foodstuffs. Off. J. Eur. Commun. 2001, L77–L113.
+96.    European Commission. Commission regulation (EC) No 2003/100/EC of 31 October 2003
+      amending Annex I to Directive 2002/32/EC of the European Parliament and of the Council on
+      undesirable substances in animal feed. Off. J. Eur. Commun. 2003, 285, 33–37.
+97.   European Commission. Commission Regulation (EC) No 2004/683/EC of 13 April 2004
+      amending Regulation (EC) No 466/2001 as regards aflatoxins and ochratoxin A in foods for
+      infants and young children (Text with EEA relevance). Off. J. Eur. Commun. 2004, 106, 3–5.
+98.    European Commission. 2003. Commission Regulation (EC) No 2003/2174/EC of 12 december
+      2003 amending Regulation 466/2001/EC as regards aflatoxins. Off. J. Eur. Commun. 2003, 326,
+      12.
+99.   Van Egmond, H.P.; Schothorst, R.C.; Jonker, M.A. Regulations relating to mycotoxins in food:
+     Perspectives in a global and European context. J. Anal. Bioanal. Chem. 2007, 389, 147–157
+100. WHO. Evaluation of certain food additives and contaminants. Thirty-seventh report of the joint
+     FAO/WHO Expert Committee on Food Additives. WHO technical report series 806; World
+     Health Organization: Geneva, Switzerland, 1991; pp. 29–31.
+101. FAO. Biotechnology and food safety. Report of a Joint FAO/WHO consultation. Food and
+     Agricultural Organization, Food and Nutrition, 1996.
+102. FAO. Joint FAO/WHO Expert Committee on Food Additives, Fifty‐sixth meeting, Geneva,
+     Switzerland, 2001; pp. 6–15.
+103. EC European Community. Opinion on of the Scientific Committee on Food (SCF) on
+     Ochratoxin A, Luxembourg, 1998. Expressed on 17 September.
+104. European Commission. Commission Regulation (EC) No 472/2002 of 12 March 2002. Off. J.
+      Eur. Commun. 2002, 75, 18–20.
+Toxins 2010, 2                                                                                     486
+
+105. European Commission. Commission Regulation (EC) No 466/2001 of 8 March 2001. Off. J.
+     Eur. Commun. No. 2001, 77, 1–13.
+106. European Commission. Commission Regulation (EC) No 123/2005 of 26 January 2005
+     amending Regulation (EC) No 466/2001 as regards ochratoxin A. Off. J. Eur. Commun. 2005,
+     25, 3–5.
+107. Senyuva, H.Z.; Gilbert, J.; Ozcan, S.; Ulken, U. Survey of ochratoxin A and afaltoxin B1 in
+     dried figs in Turkey using a single laboratory validated alkaline extraction method for ochratoxin
+     A. J. Food Protect. 2005, 68, 1512–1515.
+108. Levi, C.; Trenk, H.L.; Mohr, H.K. Study of the occurrence of ochratoxin A in green coffee
+     beans. J. Assoc. Offic. Anal. Chem. 1974, 57, 866–870.
+109. Nesheim, S.; Hardin, N.F.; Francis, O.I.; Langham, W.S. Analysis of ochratoxin A and B and
+     their esters in barley: Using partitions and thin-layer chromatography. I Development of the
+     method. J. AOAC Int. 1973, 56, 817–821.
+110. El Adlouni, C.; Tozlovanu, M.; Naman, F.; Faid, M.; Pfohl-Leszkowicz, A. Preliminary data on
+     the presence of mycotoxins (Ochratoxin A, citrinin and aflatoxin B1) in black table olives”
+     Greek style” of Moroccan origin. Mol. Nutr. Food Res. 2006, 50, 507–512.
+111. Mac Donald, S.; Wilson, P.; Barnes, K.; Damant, A.; Massey, R.; Mortby, E.; Shephered, M.J.
+     Ochratoxin A in dried vine fruit: method development and survey. Food Addit Contam. 1999, 16,
+     253–260.
+112. Legarda, T.M., Burdaspal, P.A. Ochratoxin A in beers brewed in Spain and other European
+     countries. Alimentaria 1998, 291, 115–122.
+113. NF EN 14133:2003. Food products. Determination of ochratoxin A in wine and beer - HPLC
+     method with immunoaffinity column clean-up. Dansk Standard; Classification index V 03-128.
+     IHS: Englewood, CO, USA, 2003.
+114. Leoni, L.A.B.; Valente Soares, L.M.; Oliveira, P.L.C. Ochratoxin A in Brazilian roasted and
+     instant coffees. Food Addit. Contam. 2000, 17, 10, 867–870.
+115. Stegen, V.D.G.; Jorissen, U.; Pittet, A.; Saccon, M.; Steiner, W.; Vincenzi, M.; Winkler, M.;
+     Zapp, J.; Schlatter, C. Screening of European coffee final products for occurrence of ochratoxin
+     A (OTA). Food Addit. Contam. 1997, 14, 211–216.
+116. Valenta, H.; Goll. M. Determination of ochratoxin A in regional samples of cow’s milk from
+     Germany. Food Addit. Contam. 1996, 13, 669–676.
+117. Entwistle, C.A.; Williams, A.C.; Mann, P.J.; Russell, J.; Slack, P.; Gilbert, J. Combined phenyl
+     silane and immunoaffinity column cleanup with liquid chromatography for determination of
+     ochratoxin A in roasted coffee; Collaborative study. J. Assoc. Offic. Anal. Chem. Int. 2001, 84,
+     444–450.
+118. Gilbert, J.; Brereton, P.; MacDonald, S. Assessment of dietary exposure to ochratoxin A in the
+     UK using a duplicate diet approach and analysis of urine and plasma samples. Food Addit.
+     Contam. 2001, 18, 1088–1093.
+Toxins 2010, 2                                                                                   487
+
+119. Entwistle, A.C.; Williams A.C.; Mann P.J.; Stack P.T.; Gilbert J. Liquid chromatographic
+     method with immunoaffinity column clean up for determination of ochratoxin A in barley:
+     Collaborative study. J. Assoc. Anal. Comm. 2000, 83, 1377–1383
+120. Entwistle, A.C.; Williams, A.C.; Mann, P.J.; Russell, J.; Stack, P.T.; Gilbert, J. Combined
+     phenyl silane and immunoaffinity column clean up with liquid chromatography for determination
+     of ochratoxin A in roasted coffee: Collaborative study. J. Assoc. Anal. Comm. 2001, 84,
+     444–450.
+121. Burdaspal, P.; Legarda, T.M.; Gilbert, J. Determination of ochratoxin A in baby food by
+     immunoaffinity column cleanup with liquid chromatography: Interlaboratory study. J. Assoc.
+     Offic. Anal. Chem. Int. 2001, 84, 1445–1452.
+122. Dragacci, S.; Frémy, J.M. Dosage des mycotoxines. In Moisissures des aliments peuhydratés;
+     Cahagnier, B., Ed.; Tec et Doc: Paris, France, 1998; pp. 187–207.
+123. Wilson, D.M.; Sydenham, E.W.; Lombaert, G.A.; Trucksess, M.W.; Abramson, D.; Bennett,
+     G.A. Mycotoxin analytical techniques. In Mycotoxins in Agriculture and Food Safety; Sinha,
+     K.K., Bhatnagar, D., Eds.; Marcel Dekker, Inc.: New York, NY, USA, 1998.
+124. Fukal, L.; Reisnerova, H. Monitoring of aflatoxins and ochratoxin A in Czechoslovak human
+     sera by immunoassay. Bull. Environ. Contam. Toxicol. 1990, 44, 345–349.
+125. Fukal, L.; Marek, M. A screening method for simultaneous immunochemical detection of
+     aflatoxins and ochratoxin A in cereals and feed. Vet. Med. 1991, 36, 251–254
+126. Rousseau, D.M.; Candlish, A.G.; Slegers, G.A.; Van Peteghem, C.H.; Stimson, W.H.; Smith,
+     J.E. Detection of ochratoxin A in porcine kidneys by a monoclonal antibody-based
+     radioimmunoassay. Appl. Environ. Microbiol. 1987, 53, 514–518.
+127. Aizawa, M. Immunosensors. Philos. T. R. Soc. B 1987, 316, 121–134.
+128. Niessen, L.; Schmidt, H.; Muhlencoert, E.; Farber, P.; Karolewiez, A., Geisen, P. Advances in
+     the molecular diagnosis of ochratoxin A-producing fungi. Food Addit. Contam. 2005, 22,
+     324–334
+129. Edwards, S.G.; O’Callaghan, J.; Dobson, A.D.W. PCR-based detection and quantification of
+     mycotoxigenic fungi. Mycol. Res. 2002, 106, 1005–1025.
+130. Moss, M.O. Recent studies of mycotoxins. Symp. Ser. Soc. Appl. Microbiol. 1998, 27, 62S–76S.
+131. Proctor, R.H.; Desjardins, A.E.; Plattner, R.D.; Hohn, T.M. A polyketide synthase gene required
+     for biosynthesis of fumonisin mycotoxins in Gibberella fujikuroi mating population A. Fungal
+     Genet. Biol. 1999, 27, 100–112.
+132. Bhatnagar, D.; Ehrlich, K.C.; Cleveland, T.E. Molecular genetic analysis and regulation of
+     aflatoxin biosynthesis. Appl. Microbiol. Biotechnol. 2003, 61, 83–93.
+133. Varga, J.; Kevei, E.; Rinyu, E.; Teren, J.; Kozakiewicz, Z. Ochratoxin production by Aspergillus
+     species. Appl. Environ. Microbiol. 1996, 62, 4461–4464.
+134. Huff, W.E.; Hamilton, P.B. Mycotoxins-their biosynthesis in fungi: Ochratoxins-metabolites of
+     combined pathways. J. Food Prot. 1979, 42, 815–820.
+Toxins 2010, 2                                                                                     488
+
+135. Schulz, B.; Sucker, J.; Aust, H.J.; Krohn, K.; Ludewig, K.; Jones, P.G. and Doring, D.
+     Biologically active secondary metabolites of endophytic Pezicula species. Mycol. Res. 1995, 99,
+     1007–1015.
+136. Venkatasubbaiah, P.; Sutton, T.B.; and Chilton, W.S. Effect of phytotoxins produced by
+     Botryosphaeria obtusa, the cause of black rot of apple fruit and frogeye leaf spot. Physiol.
+     Biochem. 1991, 81, 243–247.
+137. Keller, B.; Winzeler, H.; Winzeler, M. and Fried, P.M. Differential sensitivity of wheat embryos
+     against extracts containing toxins of Septoria nodorum: First Steps towards in vitro selection. J.
+     Phytopathol. 1994, 141, 233–240.
+138. Parisi, A.; Piattelli, M.; Tringali, C.; San Lio G.M.D.; Di San Lio, G.M. Identification of the
+     phytotoxin mellein in culture fluids of Phoma tracheiphila; Phytochemistry: Oxford, UK, 1993;
+     pp. 865–867.
+139. Turner, W.B., Albridge, D.C. Fungal Metabolites; Academic Press Inc.: London, UK, 1983.
+140. Camarda, L.; Merlini, L.; Nasini, G. Metabolites of Cercospora. Taiwapyrone, an α-pyrone of
+     unusual structure from Cercospora Taiwanensis. Phytochemistry 1976, 15, 537–539.
+141. Assante, G.; Locci, R.; Camarda, L.; Merlini, L. and Nasini, G. Screening of the genus
+     Cercospora for secondary metabolites. Phytochemistry 1977, 16, 243–247.
+142. Claydon, N.; Grove, J.F.; Pople, M. Insecticidal secondary metabolic products from the
+     entomogenous fungus Fusarium larvarum. J. Invert. Pathol. 1979, 33,364–367
+143. Krohn, K.; Bahramsari, R.; Florke, U.; Ludewig, K.; Kliche-Spory, C.; Michel, A.; Aust, H.J.;
+     Draeger, S.; Schulz, B.; Antus, S. Dihydroisocoumarins from fungi: Isolation, structure
+     elucidation, circular dichroism and biological activity. Phytochemistry 1997, 45, 313–320.
+144. Harris, J.P.; Mantle, P.G. Biosynthesis of diaporthin and orthosporin by Aspergillus ochraceus.
+     Phytochemistry 2001, 57, 165–169.
+145. Bingle, L.E.; Simpson, T.J.; Lazarus, C.M. Ketosynthase domain probes identify two subclasses
+     of fungal polyketide synthase genes. Fungal Genet. Biol. 1999, 26, 209–223.
+146. Liou, G.F.; Khosla, C. Building-block selectivity of polyketide synthases. Curr. Opin. Chem.
+     Biol. 2003, 7, 1–6.
+147. Nicholson, T.P.; Rudd, B.A.M.; Dawson, M.; Lazarus, C.M.; Simpson, T.J.; Cox, R.J. Design
+     and utility of oligonucleotide gene probes for fungal polyketide synthases. Chem. Biol. 2001, 8,
+     157–178.
+148. O’Callaghan, J.; Caddick, M.X.; Dobson, A.D.W. A polyketide synthase gene required for
+     ochratoxin A biosynthesis in Aspergillus ochraceus. Microbiology 2003, 149, 3485–3491.
+149. Varga, J.; Rigó, K.; Kocsubé, S.; Farkas, B.; Pál, K. Diversity of polyketide synthase gene
+     sequences in Aspergillus species. Res. Microbiol. 2003, 154, 593–600.
+150. Atoui, A.; Dao., P.; Mathieu, F.; Lebrihi, A. Amplification and diversity analysis of
+     Ketosynthase domains of putative polyketide synthase gene in Aspergillus ochraceus and
+     Aspergillus carbonarius producers of ochratoxin A. Mol. Nutr. Food Res. 2006, 50, 448–493.
+Toxins 2010, 2                                                                                     489
+
+151. Karolewiez, A.; Geisen, R. Cloning a part of the ochratoxin A biosynthetic gene cluster of
+     Penicillium nordicum and characterisation of the ochratoxin polyketide synthase gene. Syst.
+     Appl. Microbiol. 2005, 28, 588–595.
+152. Bacha, N.; Atoui, A.; Mathieu, F.; Liboz, T.; Lebrihi A. Aspergillus westerdijkiae polyketide
+     synthase gene "aoks1" is involved in the biosynthesis of ochratoxin A. Fungal Genet. Biol. 2009,
+     46, 77–84.
+153. Sidhu, G.S. Mycotoxin genetics and gene clusters. Eur. J. Plant Pathol. 2002, 108, 705–711.
+154. Yu, J.; Keller, N. Regulation of secondary metabolism in filamentous fungi. Annu. Rev.
+     Phytopathol. 2005, 43, 437–458.
+155. Brown, D.W.; Yu, J.H.; Kelkar, H.S.; Fernandes, M.; Nesbitt, T.C.; Keller, N.P.; Adams, T.H.;
+     Leonard, T.J. Twenty-five coregulated transcripts define a sterigmatocystin gene cluster in
+     Aspergillus nidulans. Proc. Natl. Acad. Sci. USA 1996, 93, 1418–1422.
+156. Kato, N.; Brooks, W.; Calvo, A.M. The expression of sterigmatocystin and penicillin genes in
+     Aspergillus nidulans is controlled by veA, a gene required for sexual development. Eukaryot.
+     Cell 2003, 2, 1178–1186.
+157. Yu, J.; Chang, P.K.; Ehrlich, K.C.; Cary, J.W.; Bhatnagar, D.; Cleveland, T.E.; Payne, G.A.;
+     Linz, J.E.; Woloshuk, C.P.; Bennett, J.W. Clustered pathway genes in aflatoxin biosynthesis.
+     Appl. Environ. Microbiol. 2004, 70, 1253–1262
+158. O’Callaghan, J.; Stapleton, P.C; Dobson, A.D.W. Ochratoxin A biosynthetic genes in Aspergillus
+     ochraceus are differentially regulated by pH and nutritional stimuli. Fungal Genet. Biol. 2006,
+     43, 213–221.
+159. Yu, J.; Chang, P.-K.; Cary, J.W.; Bhatnagar, D.; Cleveland, T.E. avnA, a gene encoding a
+     cytochrome P-450 monooxygenase, is involved in the conversion of averantin to averufin in
+     aflatoxin biosynthesis in Aspergillus parasiticus. Appl. Environ. Microbiol. 1997, 63,
+     1349–1356.
+160. Ward, T.J.; Bielawski, J.P.; Kistler, H.C.; Sullivan, E.; O’Donnell, K. Ancestral polymorphism
+     and adaptive evolution in the trichothecene mycotoxin gene cluster of phytopathogenic
+     Fusarium. Proc. Natl. Acad. Sci. USA 2002, 99, 9278–9283.
+161. Ehrlich, K.C.; Chang, P.-K.; Yu, J.; Cotty, P.J. Aflatoxin biosynthesis cluster gene cypA is
+     required for G aflatoxin formation. Appl. Environ. Microbiol. 2004, 70, 6518–6524.
+162. Dao, H.P.; Mathieu, F.; Lebrihi, A. Two primer pairs to detect OTA producers by PCR method.
+     Int. J. Food Microbiol. 2005, 104, 61–67.
+163. Pel, H.J.W.; de Winde, J.H.; Archer, D.B.; Dyer, P.S.; Hofmann, G.; Schaap, P.J.; Turner, G.; de
+     Vries, R.P.; Albang, R.; Albermann, K.; et al. Genome sequencing and analysis of the versatile
+     cell factory Aspergillus niger CBS 513.88. Nat. Biotechnol. 2007, 25, 221–231.
+164. Hendrickson, L.; Davis, C.R.; Roach, C.; Nguyen, D.K.; Aldrich, T.; Mcada, P.C.; Reeves, C.D.
+     Lovastatin biosynthesis in Aspergillus terreus: characterization of blocked mutants, enzyme
+     activities and a multifunctional polyketide synthase gene. J. Chem. Biol. 1999, 6, 429–439.
+Toxins 2010, 2                                                                                   490
+
+165. Kennedy, J.; Auclair, K.; Kendrew, S.G.; Park, C.; Vederas, J.C.; Hutchinson, C.R. Modulation
+     of polyketide synthase activity by accessory proteins during lovastatin biosynthesis. Science
+     1999, 284, 1368–1372.
+166. Abe, Y.; Suzuki, T.; Ono, C.; Iwamoto, K.; Hosobuchi, M.; Yoshikawa, H. Molecular cloning
+     and characterization of an ML-236B (compactin) biosynthetic gene cluster in Penicillium
+     citrinum. Mol. Genet. Genom. 2002, 267, 636–646.
+167. Kim, Y.T.; Lee, Y.R.; Jin, J.; Han, K.H.; Kim, H.; Kim, J.C.; Lee, T.; Yun, S.H.; Lee, Y.W. Two
+     different polyketide synthase genes are required for synthesis of zearalenone in Gibberella zea.
+     Mol. Microbiol. 2005, 58, 1102–1113.
+168. Baker, S.E.; Kroken, S.; Asvarak, T.; Inderbitzin, P.; Li, B.Y.; Shi, L.; Yoder, O.C.; Turgeon,
+     B.G. Two polyketide synthase-encoding genes are required for biosynthesis of the polyketide
+     virulence factor, T-toxin, by Cochliobolus heterostrophus. Mol. Plant Microbe Interact. 2006,
+     19, 139–149.
+169. Botton, A.; Ferrigo, D.; Scopel, C.; Causin, R.; Bonghi, C.; Ramina, A. A cDNA-AFLP
+     approach to study ochratoxin A production in Aspergillus carbonarius. Int. J. Food Microbiol.
+     2008, 127, 105–115
+170. Farber, P.; Geisen, R. Analysis of differentially expressed ochratoxin A biosynthesis genes of
+     Penicillium nordicum. Eur. J. Plant Pathol. 2004, 110, 661–669.
+171. Karolewiez, A.; Geisen R. Cloning a part of the OTA biosynthetic gene cluster of Penicillium
+     nordicum and characterization of the ochratoxin polyketide synthase gene. Syst. Appl. Microbiol.
+     2005, 28, 588–595.
+172. Farber, P.; Geisen, R.; Holzapfel, W.H. Detection of aflatoxigenic fungi in figs by a PCR
+     reaction. Int. J. Food Microbiol. 1997, 36, 215–220.
+173. Saiki, R.K.; Gelfand, D.H.; Stoffel, S.; Sharf, S.J.; Higuchi, R.; Horn, G.T.; Mullis, K.B.;
+     Ehrlich, H.A. Primer-directed enzymatic amplification of DNA with a thermostable DNA
+     polymerase. Science 1988, 239, 487–491.
+174. Pelegrinelli-Fungaro M.H.; Vissoto P.C., Sartori, D., Vioas-Boas, L.A.; Furlaneto, M.C.;
+     Taniwaki, M.H. A molecular method for detection of Aspergillus carbonarius in coffee beans.
+     Curr. Microbiol. 2004, 49,123–127.
+175. Schmidt H.; Ehrmann, M.; Vogel, R.F.; Taniwaki, M.H.; Niessen, L. Molecular typing of
+     Aspergillus ochraceus and construction of species specific SCAR-primers based on AFLP. Syst.
+     Appl. Microbiol. 2003, 26, 434–438.
+176. Schmidt, H.; Bannier, M.; Vogel, R.F.; Niessen L. Detection and quantification of Aspergillus
+     ochraceus in green coffee by PCR. Lett. Appl. Microbiol. 2004, 38, 464–469.
+177. Schmidt, H.; Taniwaki, M.H.; Vogel, R.F.; Niessen, L. Utilization of AFLP markers for PCR-
+     based identification of Aspergillus carbonarius and indication of its presence in green coffee
+     samples. J. Appl. Microbiol. 2004, 97, 899–909.
+Toxins 2010, 2                                                                                     491
+
+178. Vos, P.; Hogers, R.; Bleeker, M.; Reijans, M.; Van de Lee, T.; Hornes, M.; Frijters, A.; Pot, J.;
+     Peleman, J.; Kuiper, M.; Zabeau, M. AFLP: A new technique for DNA fingerprinting. Nucl.
+     Acids Res. 1995, 23, 4407–4414.
+179. Castella, G.; Larsen, T.O.; Cabanes, F.J.; Schmidt, H.; Alboresi, A.; Niessen, L.; Farber, P.;
+     Geisen, R. Molecular characterization of ochratoxin A producing strains of the genus
+     Penicillium. Syst. Appl. Microbiol. 2002, 25, 74–83.
+180. Perrone, G.; Susca, A.; Stea, G.; Mule, G. PCR assay for identification of Aspergillus
+     carbonarius and Aspergillus japonicus. Eur. J. Plant Pathol. 2004, 110, 641–649.
+181. Susca, A.; Stea, G.; Mule, G.; Perrone, G. Polymerase chain reaction (PCR) identification of
+     Aspergillus niger and Aspergillus carbonarius based on the calmodulin gene. Food Addit.
+     Contam. 2007, 24, 1154–1160
+182. Mulè, G.; Susca, A.; Logrieco, A.; Stea, G.; Visconti, A. Development of a quantitative real-time
+     PCR assay for the detection of Aspergillus carbonarius in grapes. Int. J. Food Microbiol. 2006,
+     111, 28–34.
+183. Morello, L.G.; Sartori, D.; Martinez, A.L.O.; Carneiro Vieira, M.L.; Taniwaki, M.H.; Pelegrinelli
+     Fungaro, M.H. Detection and quantification of Aspergillus westerdijkiae in coffee beans based
+     on selective amplification of β-tubulin gene by using real-time PCR. Int. J. Food Microbiol.
+     2007, 119, 270–276
+184. White, T.J.; Bruns, T.; Lee, S.; Taylor, J. Amplification and direct sequencing of fungi ribosomal
+     RNA genes for phylogenetics. In PCR Protocols. A Guide to Methods and Applications; Innis,
+     M.A., Gelfand, D.H., Sninsky, J.J., White, T.J., Eds.; Academic Press: San Diego, CA, USA,
+     1990; pp. 315–322.
+185. Martínez-Culebras, P.V.; Ramón, D. An ITS-RFLP method to identify black Aspergillus isolates
+     responsible for OTA contamination in grapes and wine. Int. J. Food Microbiol. 2007, 113,
+     147–153.
+186. Kappe, R.; Fauser, C.; Okeke, C.N.; Maiwald, M. Universal fungus-specific primer systems and
+     group-specific hybridization oligonucleotides for 18 rDNA. Mycoses 1996, 39, 25–30.
+187. Zhou, G.; Whong, W.Z.; Ong, T.; Chen, B. Development of a fungus-specific PCR assay for
+     detecting low-level fungi in an indoor environment. Mol. Cell Probes 2000, 14, 339–348.
+188. Vanittanakom, N.; Vanittanakom, P.; Hay, R.J. Rapid identification of Penicillium marneffei by
+     PCR-based detection of specific sequences on the rRNA gene. J. Clin. Microbiol. 2002, 40,
+     1739–1742.
+189. Hinukson, H.P.; Hurst, S.F.; Lott, T.J.; Warnock, D.N.; Morrison, C.J. Assessment of ribosomal
+     large subunit D1–D2, ITS 1 and ITS 2 regions as targets for molecular identification of medically
+     important Aspergillus species. J. Clin. Microbiol. 2005, 43, 2092–2103.
+190. Gonzalez-Salgado, A.; Patno, B.; Vazquez, C.; Gonzalez-Jaen, M.T. Discrimination of
+     Aspergillus niger and other Aspergillus species belonging to section Nigri by PCR assays. FEMS
+     Microbiol. Lett. 2005, 245, 353–361
+Toxins 2010, 2                                                                                   492
+
+191. Patino, B.; Gonzalez-Salgado, A.; Gonzalez-Jaen, M.T.; Vazquez, C. PCR detection assays for
+     the ochratoxin-producing Aspergillus carbonarius and Aspergillus ochraceus species. Int. J.
+     Food Microbiol. 2005, 104, 207–214.
+192. Accensi, F.; Cano, J.; Figuera, L.; Abarca, M.L.; Cabanes, F.J. New PCR method to differentiate
+     species in the Aspergillus niger aggregate. FEMS Microbiol. Lett. 1999, 180, 191–196.
+193. Zanzotto, A.; Burruano, S.; Marciano, P. Digestion of DNA regions to discriminate
+     ochratoxigenic and non-ochratoxigenic strains in the Aspergillus niger aggregate. Int. J. Food
+     Microbiol. 2006, 110, 155–159
+194. Niessen, L. Current trends in molecular diagnosis of ochratoxin A producing fungi. In
+     Mycotechnology—Present Status and Future Prospects; Rai, M.; Ed.; I.K. International
+     Publishing House: New Delhi, India, 2007; p. 320.
+195. Shapira, R.; Paster, N.; Eyal, O.; Menasherov, M.; Mett, A.; Salomon, R. Detection of
+     aflatoxingenic molds in grains by PCR. Appl. Environ. Microbiol. 1996, 62, 3270–3273.
+196. Geisen, R. Multiplex polymerase chain reaction for the detection of potential aflatoxin and
+     sterigmatocystin producing fungi. Syst. Appl. Microbiol. 1996, 19, 388–392.
+197. Niessen, M.L.; Vogel, R.F. Specific identification of Fusarium graminearum by PCR with gaoA
+     targeted primers. Syst. Appl. Microbiol. 1997, 20, 111–123.
+198. Paterson, R.R.M. Identification and quantification of mycotoxigenic fungi by PCR. Process
+     Biochem. 2006, 41, 1467–1474
+199. Bluhm, B.H.; Flaherty, J.E.; Cousin, M.A.; Woloshuk, C.P. Multiplex polymerase chain reaction
+     assay for the differential detection of trichothecene- and fumonisin-producing species of
+     Fusarium in cornmeal. J. Food Prot. 2002, 65, 1955–1961.
+200. Gonzalez-Jaen, M.T.; Mirete, S.; Patino, B.; Lopez-Errasquin, E.; Covadonga, V. Genetic
+     markers for the analysis of variability and for production of specific diagnostic sequences in
+     fumonisin-producing strains of Fusarium verticillioides. Eur. J. Plant Pathol. 2004, 110,
+     525–532.
+201. Paterson, R.R.M. Primers from the isoepoxydon dehydrogenase gene of the patulin biosynthetic
+     pathway to indicate critical control points for patulin contamination of apples. Food Control
+     2006, 17, 741–744.
+202. Selma, M.V.; Martínez-Culebras, P.V.; Aznar, R. Real-time PCR based procedures for detection
+     and quantification of Aspergillus carbonarius in wine grapes. Int. J. Food Microbiol. 2008, 122,
+     126–134
+203. Atoui, A.; Mathieu, F.; Lebrihi, A. Targeting a polyketide synthase gene for Aspergillus
+     carbonarius quantification and ochratoxin A assessment in grapes using real-time PCR. Int. J.
+     Food Microbiol. 2007, 115, 313–318
+204. Witter, C.T.; Herrmann, M.G.; Moss, A.A.; Rasmussen, A.P. Continuous fluorescence
+     monitoring of rapid cycle DNA amplification. Biotechniques 1997, 22, 130–138.
+Toxins 2010, 2                                                                                   493
+
+205. González-Salgado, A.; Patiño, B.; Gil-Serna, J.; Vázquez, C.; González-Jaén, M.T. Specific
+     detection of Aspergillus carbonarius by SYBR® Green and TaqMan® quantitative PCR assays
+     based on the multicopy ITS2 region of the rRNA gene. FEMS Microbiol. Lett. 2009, 295, 57–66.
+206. Livak, K.J.; Flood, S.P.A.; Marmejo, J.; Giusti, W.; Deetz, K. Oligonucleotides with fluorescent
+     dyes at opposite ends provide a quenched probe system useful for detecting PCR products and
+     nucleic acid hybridization. PCR Met. Appl. 1995, 4, 357–362.
+
+© 2010 by the authors; licensee Molecular Diversity Preservation International, Basel, Switzerland.
+This article is an open-access article distributed under the terms and conditions of the Creative
+Commons Attribution license (http://creativecommons.org/licenses/by/3.0/).
+

@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "status": "UNRESOLVED",
+  "product_key": null,
+  "report_number": "CHG-49452388-0",
+  "test_date": "2025-06-23",
+  "sample_name": "Aponte Metal Testing",
+  "lot_or_po": null,
+  "supersedes": null,
+  "superseded_by": null,
+  "lab": "Silliker / M\u00e9rieux NutriSciences",
+  "serving_size_g": null,
+  "source_file": "/Users/jeremybehne/Library/CloudStorage/GoogleDrive-jravar@puritycoffee.com/My Drive/Purity-Lab-Data/COAs/COA-23-Jun-25-49452388-0.pdf",
+  "source_hash": "20cc7d78c6d601eb",
+  "parse_confidence": 1.0,
+  "parse_notes": [
+    "pages=1 tables=2",
+    "silliker_rows=6"
+  ],
+  "analytes": [
+    {
+      "analyte": "Acrylamide",
+      "panel": "acrylamide",
+      "value_normalized": 350.0,
+      "unit_normalized": "ppb (w/w)",
+      "value_as_reported": "350",
+      "unit_as_reported": "ppb (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Caffeine",
+      "panel": "other",
+      "value_normalized": 1.21,
+      "unit_normalized": "% (w/w)",
+      "value_as_reported": "1.21",
+      "unit_as_reported": "% (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Arsenic",
+      "panel": "heavy_metals",
+      "value_normalized": 0.0002,
+      "unit_normalized": "mg/dose",
+      "value_as_reported": "<0.0002",
+      "unit_as_reported": "mg/dose",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Cadmium",
+      "panel": "heavy_metals",
+      "value_normalized": 0.0001,
+      "unit_normalized": "mg/dose",
+      "value_as_reported": "0.0001",
+      "unit_as_reported": "mg/dose",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Lead",
+      "panel": "heavy_metals",
+      "value_normalized": 0.0002,
+      "unit_normalized": "mg/dose",
+      "value_as_reported": "<0.0002",
+      "unit_as_reported": "mg/dose",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Mercury",
+      "panel": "heavy_metals",
+      "value_normalized": 8e-05,
+      "unit_normalized": "mg/dose",
+      "value_as_reported": "<0.00008",
+      "unit_as_reported": "mg/dose",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    }
+  ],
+  "ingested_at": "2026-04-27T05:11:48+00:00"
+}

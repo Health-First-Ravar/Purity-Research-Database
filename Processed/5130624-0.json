@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "status": "UNRESOLVED",
+  "product_key": null,
+  "report_number": "5130624-0",
+  "test_date": "2025-10-24",
+  "sample_name": "WB-Espresso Eurofins Sample: 15815867",
+  "lot_or_po": "rt",
+  "supersedes": null,
+  "superseded_by": null,
+  "lab": "Eurofins (inferred)",
+  "serving_size_g": 20.0,
+  "source_file": "/Users/jeremybehne/Library/CloudStorage/GoogleDrive-jravar@puritycoffee.com/My Drive/Purity-Lab-Data/COAs/5130624-0_COA.pdf",
+  "source_hash": "e802254e301440d6",
+  "parse_confidence": 1.0,
+  "parse_notes": [
+    "pages=2 tables=1",
+    "text_rows=15"
+  ],
+  "analytes": [
+    {
+      "analyte": "Calcium",
+      "panel": "other",
+      "value_normalized": 18.8,
+      "unit_normalized": "mg/Serving Size",
+      "value_as_reported": "18.8",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Copper",
+      "panel": "other",
+      "value_normalized": 0.293,
+      "unit_normalized": "mg/Serving Size",
+      "value_as_reported": "0.293",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Iron",
+      "panel": "other",
+      "value_normalized": 0.601,
+      "unit_normalized": "mg/Serving Size",
+      "value_as_reported": "0.601",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Magnesium",
+      "panel": "other",
+      "value_normalized": 41.3,
+      "unit_normalized": "mg/Serving Size",
+      "value_as_reported": "41.3",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Potassium",
+      "panel": "other",
+      "value_normalized": 364.0,
+      "unit_normalized": "mg/Serving Size",
+      "value_as_reported": "364",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Vitamin E",
+      "panel": "other",
+      "value_normalized": 0.553,
+      "unit_normalized": "mg/Serving Size",
+      "value_as_reported": "0.553",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Niacin",
+      "panel": "other",
+      "value_normalized": 1.84,
+      "unit_normalized": "mg/Serving Size",
+      "value_as_reported": "1.84",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Neochlorogenic Acid",
+      "panel": "cga",
+      "value_normalized": 376.49999999999994,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "75.3",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Chlorogenic Acid",
+      "panel": "cga",
+      "value_normalized": 944.9999999999999,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "189",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "4-O Caffeolyquinic Acid",
+      "panel": "cga",
+      "value_normalized": 477.99999999999994,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "95.6",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Unknown (Calculated as Chlorogenic Acid)",
+      "panel": "cga",
+      "value_normalized": 34.25,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "6.85",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "3 4-Dicaffeoylquinic Acid",
+      "panel": "cga",
+      "value_normalized": 318.0,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "63.6",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "3 5-Dicaffeoylquinic Acid",
+      "panel": "cga",
+      "value_normalized": 117.0,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "23.4",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "4 5-Dicaffeoylquiic Acid",
+      "panel": "cga",
+      "value_normalized": 71.0,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "14.2",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Total Chlorogenic Acids",
+      "panel": "cga",
+      "value_normalized": 2340.0,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "468",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    }
+  ],
+  "ingested_at": "2026-04-27T05:11:40+00:00"
+}

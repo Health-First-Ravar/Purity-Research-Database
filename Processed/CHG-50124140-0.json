@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "status": "UNRESOLVED",
+  "product_key": null,
+  "report_number": "CHG-50124140-0",
+  "test_date": "2026-01-21",
+  "sample_name": "Roasted coffee, ground- Aponte Dark Roast",
+  "lot_or_po": "Acrylamide",
+  "supersedes": null,
+  "superseded_by": null,
+  "lab": "Silliker / M\u00e9rieux NutriSciences",
+  "serving_size_g": null,
+  "source_file": "/Users/jeremybehne/Library/CloudStorage/GoogleDrive-jravar@puritycoffee.com/My Drive/Purity-Lab-Data/COAs/COA-21-Jan-26-50124140-0.pdf",
+  "source_hash": "fc444dd497000b94",
+  "parse_confidence": 1.0,
+  "parse_notes": [
+    "pages=1 tables=2",
+    "silliker_rows=3",
+    "retest:Acrylamide:kept='125 ppb (w/w)' prior=[{'value_raw': '287', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Acrylamide 287 ppb (w/w) Agilent 5990-5940EN 1/21/26'}, {'value_raw': '125', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Acrylamide 125 ppb (w/w) Agilent 5990-5940EN 1/21/26'}]"
+  ],
+  "analytes": [
+    {
+      "analyte": "Acrylamide",
+      "panel": "acrylamide",
+      "value_normalized": 125.0,
+      "unit_normalized": "ppb (w/w)",
+      "value_as_reported": "125",
+      "unit_as_reported": "ppb (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 2
+    }
+  ],
+  "ingested_at": "2026-04-27T05:11:47+00:00"
+}

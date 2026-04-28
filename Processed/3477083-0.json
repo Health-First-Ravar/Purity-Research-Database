@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "status": "UNRESOLVED",
+  "product_key": null,
+  "report_number": "3477083-0",
+  "test_date": "2021-11-17",
+  "sample_name": "Purity Dark Roast Eurofins Sample: 11153984",
+  "lot_or_po": "rt",
+  "supersedes": null,
+  "superseded_by": null,
+  "lab": "Eurofins (inferred)",
+  "serving_size_g": null,
+  "source_file": "/Users/jeremybehne/Library/CloudStorage/GoogleDrive-jravar@puritycoffee.com/My Drive/Purity-Lab-Data/COAs/3477083-0_COA.pdf",
+  "source_hash": "cfecd0c6206240de",
+  "parse_confidence": 1.0,
+  "parse_notes": [
+    "pages=1 tables=1",
+    "text_rows=2"
+  ],
+  "analytes": [
+    {
+      "analyte": "Yeast Plate Count",
+      "panel": "micro",
+      "value_normalized": 10.0,
+      "unit_normalized": "CFU/g",
+      "value_as_reported": "<10",
+      "unit_as_reported": "CFU/g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Mold Plate Count",
+      "panel": "micro",
+      "value_normalized": 10.0,
+      "unit_normalized": "CFU/g",
+      "value_as_reported": "<10",
+      "unit_as_reported": "CFU/g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    }
+  ],
+  "ingested_at": "2026-04-27T05:11:26+00:00"
+}

@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------- Base ---------- */
+html, body { height: 100%; }
+body {
+  background: theme('colors.purity.cream');
+  color: theme('colors.purity.bean');
+  font-family: theme('fontFamily.sans');
+  transition: background-color 120ms ease, color 120ms ease;
+}
+
+/* Dark mode: class-based (see ThemeToggle). Tokens swap; structural rules
+   stay identical so page code can rely on default backgrounds + borders. */
+html.dark body {
+  background: theme('colors.purity.ink');
+  color: theme('colors.purity.paper');
+}
+
+/* ---------- Accessibility ---------- */
+/* Keyboard-only focus outline. :focus-visible excludes mouse/touch so the
+   ring only appears when users are tab-navigating. */
+:where(a, button, [role="button"], input, textarea, select, summary):focus-visible {
+  outline: 2px solid theme('colors.purity.aqua');
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Skip-to-main anchor. Hidden until keyboard-focused, then reveals. */
+.skip-to-main {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.skip-to-main:focus,
+.skip-to-main:focus-visible {
+  position: fixed;
+  left: 16px;
+  top: 16px;
+  width: auto;
+  height: auto;
+  padding: 8px 12px;
+  background: theme('colors.purity.cream');
+  color: theme('colors.purity.bean');
+  border: 2px solid theme('colors.purity.aqua');
+  border-radius: 6px;
+  z-index: 100;
+}
+html.dark .skip-to-main:focus,
+html.dark .skip-to-main:focus-visible {
+  background: theme('colors.purity.shade');
+  color: theme('colors.purity.paper');
+}
+
+/* ---------- Tables ---------- */
+/* Subtle row-hover on any <tbody> row. Opt out via .no-hover on the table. */
+table:not(.no-hover) tbody tr {
+  transition: background-color 120ms ease;
+}
+table:not(.no-hover) tbody tr:hover {
+  background-color: rgba(43, 31, 23, 0.04); /* purity-bean @ 4% */
+}
+html.dark table:not(.no-hover) tbody tr:hover {
+  background-color: rgba(236, 227, 212, 0.05); /* purity-paper @ 5% */
+}
+
+/* ---------- Prose overrides for dark ---------- */
+html.dark .prose {
+  color: theme('colors.purity.paper');
+}
+html.dark .prose :where(strong) {
+  color: theme('colors.purity.paper');
+}
+
+/* ---------- Initial flash prevention ----------
+   The inline <script> in <head> sets html.dark before paint. This is a
+   belt-and-suspenders default so body color transitions don't strobe
+   during early hydration. */
+html:not(.dark):not(.light) body { /* neither class — let prefers-color-scheme rule */ }
+@media (prefers-color-scheme: dark) {
+  html:not(.light) body {
+    background: theme('colors.purity.ink');
+    color: theme('colors.purity.paper');
+  }
+}

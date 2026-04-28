@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "status": "UNRESOLVED",
+  "product_key": null,
+  "report_number": "3866181-0",
+  "test_date": "2022-10-28",
+  "sample_name": "Sao Pedro Brazil Natural 1 Eurofins Sample: 12317567",
+  "lot_or_po": "rt",
+  "supersedes": null,
+  "superseded_by": null,
+  "lab": "Eurofins (inferred)",
+  "serving_size_g": null,
+  "source_file": "/Users/jeremybehne/Library/CloudStorage/GoogleDrive-jravar@puritycoffee.com/My Drive/Purity-Lab-Data/COAs/3866181-0_COA.pdf",
+  "source_hash": "281725328e84f5eb",
+  "parse_confidence": 1.0,
+  "parse_notes": [
+    "pages=1 tables=1",
+    "text_rows=8"
+  ],
+  "analytes": [
+    {
+      "analyte": "Neochlorogenic Acid",
+      "panel": "cga",
+      "value_normalized": 351.0,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "3510",
+      "unit_as_reported": "mcg/g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Chlorogenic Acid",
+      "panel": "cga",
+      "value_normalized": 3490.0,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "34900",
+      "unit_as_reported": "mcg/g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "4-O Caffeolyquinic Acid",
+      "panel": "cga",
+      "value_normalized": 485.0,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "4850",
+      "unit_as_reported": "mcg/g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Unknown (Calculated as Chlorogenic Acid)",
+      "panel": "cga",
+      "value_normalized": 5.0,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "<50.0",
+      "unit_as_reported": "mcg/g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "3 4-Dicaffeoylquinic Acid",
+      "panel": "cga",
+      "value_normalized": 366.0,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "3660",
+      "unit_as_reported": "mcg/g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "3 5-Dicaffeoylquinic Acid",
+      "panel": "cga",
+      "value_normalized": 565.0,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "5650",
+      "unit_as_reported": "mcg/g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "4 5-Dicaffeoylquiic Acid",
+      "panel": "cga",
+      "value_normalized": 162.0,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "1620",
+      "unit_as_reported": "mcg/g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Total Chlorogenic Acids",
+      "panel": "cga",
+      "value_normalized": 5420.0,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "54200",
+      "unit_as_reported": "mcg/g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    }
+  ],
+  "ingested_at": "2026-04-27T05:11:33+00:00"
+}

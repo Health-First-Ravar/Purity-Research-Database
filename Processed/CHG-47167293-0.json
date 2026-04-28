@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "status": "OK",
+  "product_key": "EASE",
+  "report_number": "CHG-47167293-0",
+  "test_date": "2023-05-31",
+  "sample_name": "Purity EASE- Test 1 Coracle",
+  "lot_or_po": null,
+  "supersedes": null,
+  "superseded_by": null,
+  "lab": "Silliker / M\u00e9rieux NutriSciences",
+  "serving_size_g": null,
+  "source_file": "/Users/jeremybehne/Library/CloudStorage/GoogleDrive-jravar@puritycoffee.com/My Drive/Purity-Lab-Data/COAs/COA-31-May-23-Coracle.pdf",
+  "source_hash": "463a04ab2e31f0e1",
+  "parse_confidence": 1.0,
+  "parse_notes": [
+    "pages=1 tables=2",
+    "silliker_rows=4"
+  ],
+  "analytes": [
+    {
+      "analyte": "Arsenic",
+      "panel": "heavy_metals",
+      "value_normalized": 10.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.01",
+      "unit_as_reported": "ppm (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Cadmium",
+      "panel": "heavy_metals",
+      "value_normalized": 5.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "0.005",
+      "unit_as_reported": "ppm (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Lead",
+      "panel": "heavy_metals",
+      "value_normalized": 10.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.01",
+      "unit_as_reported": "ppm (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Mercury",
+      "panel": "heavy_metals",
+      "value_normalized": 5.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.005",
+      "unit_as_reported": "ppm (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    }
+  ],
+  "ingested_at": "2026-04-27T05:11:52+00:00"
+}

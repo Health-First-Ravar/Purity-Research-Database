@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "status": "VOID",
+  "product_key": null,
+  "report_number": "3628248-0",
+  "test_date": "2022-04-04",
+  "sample_name": "LIVER VITALITY Eurofins Sample: 11608386",
+  "lot_or_po": "rt",
+  "supersedes": null,
+  "superseded_by": "3629638-0",
+  "lab": "Eurofins (inferred)",
+  "serving_size_g": 15.0,
+  "source_file": "/Users/jeremybehne/Library/CloudStorage/GoogleDrive-jravar@puritycoffee.com/My Drive/Purity-Lab-Data/COAs/3628248-0_COA.pdf",
+  "source_hash": "e3b788e36eb882c1",
+  "parse_confidence": 1.0,
+  "parse_notes": [
+    "pages=1 tables=1",
+    "text_rows=4"
+  ],
+  "analytes": [
+    {
+      "analyte": "Cadmium",
+      "panel": "heavy_metals",
+      "value_normalized": 5.74,
+      "unit_normalized": "ppb",
+      "value_as_reported": "5.74",
+      "unit_as_reported": "ppb",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Arsenic",
+      "panel": "heavy_metals",
+      "value_normalized": 10.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<10.0",
+      "unit_as_reported": "ppb",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Mercury",
+      "panel": "heavy_metals",
+      "value_normalized": 5.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<5.00",
+      "unit_as_reported": "ppb",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Lead",
+      "panel": "heavy_metals",
+      "value_normalized": 6.2,
+      "unit_normalized": "ppb",
+      "value_as_reported": "6.20",
+      "unit_as_reported": "ppb",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    }
+  ],
+  "ingested_at": "2026-04-27T05:11:32+00:00"
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "status": "LOW_CONFIDENCE",
+  "product_key": null,
+  "report_number": null,
+  "test_date": null,
+  "sample_name": null,
+  "lot_or_po": "Product",
+  "supersedes": null,
+  "superseded_by": null,
+  "lab": "Eurofins (inferred)",
+  "serving_size_g": null,
+  "source_file": "/Users/jeremybehne/Library/CloudStorage/GoogleDrive-jravar@puritycoffee.com/My Drive/Purity-Lab-Data/COAs/T7047 - COA.pdf",
+  "source_hash": "d0124dd53cfdf3e3",
+  "parse_confidence": 0.5,
+  "parse_notes": [
+    "pages=1 tables=2",
+    "missing_report_number",
+    "missing_test_date"
+  ],
+  "analytes": [
+    {
+      "analyte": "10.80 % MC",
+      "panel": "other",
+      "value_normalized": 10.8,
+      "unit_normalized": "10.80 % MC",
+      "value_as_reported": "10.80 % MC",
+      "unit_as_reported": "10.80 % MC",
+      "method": "Capacitance method",
+      "loq": "11.8% Avg. Max.",
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "0.048 % DWB",
+      "panel": "other",
+      "value_normalized": 0.048,
+      "unit_normalized": "0.048 % DWB",
+      "value_as_reported": "0.048 % DWB",
+      "unit_as_reported": "0.048 % DWB",
+      "method": "HPLC",
+      "loq": "99.9% Caffeine Free",
+      "retest_sequence": 0
+    }
+  ],
+  "ingested_at": "2026-04-27T05:12:11+00:00"
+}

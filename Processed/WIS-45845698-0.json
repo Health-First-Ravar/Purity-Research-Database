@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "status": "OK",
+  "product_key": "PROTECT",
+  "report_number": "WIS-45845698-0",
+  "test_date": "2022-04-08",
+  "sample_name": "Purity PROTECT",
+  "lot_or_po": null,
+  "supersedes": null,
+  "superseded_by": null,
+  "lab": "Silliker / M\u00e9rieux NutriSciences",
+  "serving_size_g": null,
+  "source_file": "/Users/jeremybehne/Library/CloudStorage/GoogleDrive-jravar@puritycoffee.com/My Drive/Purity-Lab-Data/COAs/MXNS-COA-08-04-2022-45845698-0.pdf",
+  "source_hash": "b95492547a30b620",
+  "parse_confidence": 1.0,
+  "parse_notes": [
+    "pages=1 tables=2",
+    "silliker_rows=15"
+  ],
+  "analytes": [
+    {
+      "analyte": "Arsenic",
+      "panel": "heavy_metals",
+      "value_normalized": 10.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.01",
+      "unit_as_reported": "ppm (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Cadmium",
+      "panel": "heavy_metals",
+      "value_normalized": 7.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "0.007",
+      "unit_as_reported": "ppm (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Lead",
+      "panel": "heavy_metals",
+      "value_normalized": 10.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.01",
+      "unit_as_reported": "ppm (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Mercury",
+      "panel": "heavy_metals",
+      "value_normalized": 5.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.005",
+      "unit_as_reported": "ppm (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Aflatoxin B1",
+      "panel": "mycotoxins",
+      "value_normalized": 0.5,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.5",
+      "unit_as_reported": "ppb (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Aflatoxin B2",
+      "panel": "mycotoxins",
+      "value_normalized": 0.3,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.3",
+      "unit_as_reported": "ppb (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Aflatoxin G1",
+      "panel": "mycotoxins",
+      "value_normalized": 0.7,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.7",
+      "unit_as_reported": "ppb (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Aflatoxin G2",
+      "panel": "mycotoxins",
+      "value_normalized": 0.9,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.9",
+      "unit_as_reported": "ppb (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Deoxynivalenol",
+      "panel": "other",
+      "value_normalized": 10.0,
+      "unit_normalized": "ppb (w/w)",
+      "value_as_reported": "<10",
+      "unit_as_reported": "ppb (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Fumonisin B1",
+      "panel": "other",
+      "value_normalized": 4.0,
+      "unit_normalized": "ppb (w/w)",
+      "value_as_reported": "<4",
+      "unit_as_reported": "ppb (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Fumonisin B2",
+      "panel": "other",
+      "value_normalized": 10.0,
+      "unit_normalized": "ppb (w/w)",
+      "value_as_reported": "<10",
+      "unit_as_reported": "ppb (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Fumonisin B3",
+      "panel": "other",
+      "value_normalized": 8.0,
+      "unit_normalized": "ppb (w/w)",
+      "value_as_reported": "<8",
+      "unit_as_reported": "ppb (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Ochratoxin",
+      "panel": "mycotoxins",
+      "value_normalized": 0.8,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.8",
+      "unit_as_reported": "ppb (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "T-2 Toxin",
+      "panel": "other",
+      "value_normalized": 9.0,
+      "unit_normalized": "ppb (w/w)",
+      "value_as_reported": "<9",
+      "unit_as_reported": "ppb (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Zearalenone",
+      "panel": "other",
+      "value_normalized": 7.0,
+      "unit_normalized": "ppb (w/w)",
+      "value_as_reported": "<7",
+      "unit_as_reported": "ppb (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    }
+  ],
+  "ingested_at": "2026-04-27T05:12:05+00:00"
+}

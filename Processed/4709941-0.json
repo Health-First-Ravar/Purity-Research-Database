@@ -1,0 +1,199 @@
+{
+  "schema_version": 1,
+  "status": "OK",
+  "product_key": "FLOW",
+  "report_number": "4709941-0",
+  "test_date": "2024-11-06",
+  "sample_name": "FLOW Eurofins Sample: 14676470",
+  "lot_or_po": "rt",
+  "supersedes": null,
+  "superseded_by": null,
+  "lab": "Eurofins (inferred)",
+  "serving_size_g": 15.0,
+  "source_file": "/Users/jeremybehne/Library/CloudStorage/GoogleDrive-jravar@puritycoffee.com/My Drive/Purity-Lab-Data/COAs/4709941-0_COA.pdf",
+  "source_hash": "b997dd39e1335dff",
+  "parse_confidence": 1.0,
+  "parse_notes": [
+    "pages=2 tables=1",
+    "text_rows=16"
+  ],
+  "analytes": [
+    {
+      "analyte": "Copper",
+      "panel": "other",
+      "value_normalized": 0.243,
+      "unit_normalized": "mg/Serving Size",
+      "value_as_reported": "0.243",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Iron",
+      "panel": "other",
+      "value_normalized": 0.441,
+      "unit_normalized": "mg/Serving Size",
+      "value_as_reported": "0.441",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Magnesium",
+      "panel": "other",
+      "value_normalized": 29.1,
+      "unit_normalized": "mg/Serving Size",
+      "value_as_reported": "29.1",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Potassium",
+      "panel": "other",
+      "value_normalized": 252.0,
+      "unit_normalized": "mg/Serving Size",
+      "value_as_reported": "252",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Calcium",
+      "panel": "other",
+      "value_normalized": 17.5,
+      "unit_normalized": "mg/Serving Size",
+      "value_as_reported": "17.5",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Zinc",
+      "panel": "other",
+      "value_normalized": 0.102,
+      "unit_normalized": "mg/Serving Size",
+      "value_as_reported": "0.102",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Vitamin E",
+      "panel": "other",
+      "value_normalized": 0.43,
+      "unit_normalized": "mg/Serving Size",
+      "value_as_reported": "0.430",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Niacin",
+      "panel": "other",
+      "value_normalized": 1.13,
+      "unit_normalized": "mg/Serving Size",
+      "value_as_reported": "1.13",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Niacinamide",
+      "panel": "other",
+      "value_normalized": 1.16,
+      "unit_normalized": "mg/Serving Size",
+      "value_as_reported": "1.16",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Citric Acid",
+      "panel": "other",
+      "value_normalized": 6.0,
+      "unit_normalized": "mg/Serving Size",
+      "value_as_reported": "<6.00",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Pyruvic Acid",
+      "panel": "other",
+      "value_normalized": 6.0,
+      "unit_normalized": "mg/Serving Size",
+      "value_as_reported": "<6.00",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Quinic Acid",
+      "panel": "other",
+      "value_normalized": 193.0,
+      "unit_normalized": "mg/Serving Size",
+      "value_as_reported": "193",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Lactic Acid",
+      "panel": "other",
+      "value_normalized": 6.0,
+      "unit_normalized": "mg/Serving Size",
+      "value_as_reported": "<6.00",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Malic Acid",
+      "panel": "other",
+      "value_normalized": 64.9,
+      "unit_normalized": "mg/Serving Size",
+      "value_as_reported": "64.9",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Acetic Acid",
+      "panel": "other",
+      "value_normalized": 6.0,
+      "unit_normalized": "mg/Serving Size",
+      "value_as_reported": "<6.00",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Oxalic Acid",
+      "panel": "other",
+      "value_normalized": 6.0,
+      "unit_normalized": "mg/Serving Size",
+      "value_as_reported": "<6.00",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    }
+  ],
+  "ingested_at": "2026-04-27T05:11:37+00:00"
+}

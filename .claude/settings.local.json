@@ -1,0 +1,35 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(supabase --version)",
+      "Bash(npm --version)",
+      "Bash(brew install *)",
+      "mcp__6383edc1-e9ee-44a5-8cd7-36912020621b__search_files",
+      "Bash(curl -s http://localhost:3000/reports)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:3000/reports)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:3000/bibliography)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:3000/chat)",
+      "Bash(npm i *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:3000)",
+      "Bash(curl -s -I http://localhost:3000)",
+      "Bash(curl -s -I http://localhost:3000/login)",
+      "Bash(curl -s http://localhost:3000/chat)",
+      "Bash(kill 43532)",
+      "Bash(node --env-file=.env.local -e \"console.log\\('KEY=', \\(process.env.ANTHROPIC_API_KEY||''\\).slice\\(0,15\\)+'...', 'len=', \\(process.env.ANTHROPIC_API_KEY||''\\).length\\)\")",
+      "Bash(node --env-file=.env.local -e ' *)",
+      "Read(//Users/jeremybehne/**)",
+      "Bash(awk '{print $2}')",
+      "Bash(xargs -I{} kill {})",
+      "Bash(env -u ANTHROPIC_API_KEY -u ANTHROPIC_BASE_URL npm run dev)",
+      "Bash(python3 -c ' *)",
+      "Bash(env -u ANTHROPIC_API_KEY node --env-file=.env.local -e ' *)",
+      "Bash(env -u ANTHROPIC_API_KEY node --env-file=.env.local ./node_modules/.bin/tsx scripts/import-coas.ts)",
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "Bash(npx tsc *)",
+      "Bash(echo \"---exit:$?\")",
+      "Bash(npx next *)"
+    ]
+  }
+}

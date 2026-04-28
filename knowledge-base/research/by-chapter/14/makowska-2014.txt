@@ -1,0 +1,245 @@
+                                                               Journal of Chromatography B, 968 (2014) 101–104
+
+
+
+                                                                Contents lists available at ScienceDirect
+
+
+                                                          Journal of Chromatography B
+                                                 journal homepage: www.elsevier.com/locate/chromb
+
+
+
+
+Preliminary studies on trigonelline as potential anti-Alzheimer
+disease agent: Determination by hydrophilic interaction liquid
+chromatography and modeling of interactions with beta-amyloid夽
+Joanna Makowska a , Damian Szczesny b , Agnieszka Lichucka b , Artur Giełdoń a ,
+Lech Chmurzyński a , Roman Kaliszan b,∗
+a
+    Faculty of Chemistry, University of Gdańsk, Wita Stwosza 63, 80-952 Gdańsk, Poland
+b
+    Department of Biopharmaceutics and Pharmacodynamics, Medical University of Gdańsk, Gen. J. Hallera 107, 80-416 Gdańsk, Poland
+
+
+
+
+a r t i c l e           i n f o                           a b s t r a c t
+
+Article history:                                         For trigonelline, a quaternary-base pyridine alkaloid of presumed Alzheimer’s disease-preventing activ-
+Received 8 October 2013                                  ity, a method of determination has been proposed, based on the hydrophilic interaction chromatography
+Accepted 2 December 2013                                 (HILIC). That method might be applied to study the agent’s bioavailability, in particular its permeation
+Available online 12 December 2013
+                                                         through blood–brain barrier, which is an inevitable property for the potential central nervous system
+                                                         affecting drugs. Providing that trigonelline possesses the requested pharmacokinetic properties, once
+Keywords:
+                                                         attaining pharmacodynamic phase it must interact effectively with the relevant molecular site in the
+Trigonelline
+                                                         brain, which is characteristic to neurodegenerative diseases, namely the beta-amyloid peptide. Here it
+HILIC
+Beta-amyloid                                             was demonstrated by molecular modeling that afﬁnity of trigonelline to the A␤(1–42) peptide is high
+A␤(1–42)                                                 and similar to that of an anti-Alzheimer’s disease drug candidate – cotinine.
+Docking                                                                                                                  © 2013 Elsevier B.V. All rights reserved.
+Alzheimer disease
+
+
+
+
+1. Introduction                                                                             is lower than in Western countries [7]. However, this connec-
+                                                                                            tion requires further studies, since, according to World Health
+   Pyridine alkaloids, nicotine in particular, have been extensively                        Organization data, life expectancy in India is between 64 and 67,
+studied by Wainer and co-workers [1] as potential drugs against                             what is typical onset of most incidents of Alzheimer’s disease.
+neurodegenerative diseases. Trigonelline is a pyridine alkaloid,                            Another interesting fact about trigonelline has been reported by
+commonly found in Trigonella foenum-graecum L. (fenugreek) seeds                            Grabowska et al. [8], who demonstrated the association of some
+and coffee beans [2,3]. Trigonelline as a coffee ingredient is one of                       pyridine and piperidine alkaloids, including trigonelline, with ␤-
+the most often consumed alkaloids. To date, anti-diabetic prop-                             amyloid. These reports depicted the potential role of trigonelline as
+erties of trigonelline and its beneﬁcial inﬂuence on lipid proﬁle                           an anti-Alzheimer drug, but more studies are needed in this ﬁeld.
+have been proven [4,5]. Also, this alkaloid has been taken into                                 One of the most important questions concerns the pharmacoki-
+consideration as a potential neuroprotective agent, especially in                           netic properties of this alkaloid. It is known that even the most
+Alzheimer’s disease (AD). Tohda and co-workers [3,6] reported                               effective drug in vitro will not act inside the living body if it is unable
+memory improvement in ␤-amyloid-induced memory impairment                                   to pass biological barriers. To exert its potential anti-Alzheimer
+in rats and in neurite outgrowth of rat’s and human’s neuronal                              activity, trigonelline must cross the blood–brain barrier. That may
+cells. Trigonelline is also a component of popular in India curry                           appear problematic if one realizes that this alkaloid is a quaternary
+spice. It is known that prevalence of Alzheimer’s disease in India                          base. Also, the key point in studying pharmacokinetic properties
+                                                                                            of any compound is to determine its concentration proﬁle in the
+                                                                                            blood. In order to solve these problems, an appropriate analytical
+                                                                                            method for trigonelline determination is necessary.
+ 夽 This paper is part of the special issue “Chiral Separations 2013” edited by Ruin             Up till now, only a few bioanalytical methods were reported
+Moaddel.                                                                                    for trigonelline. Zhao et al. [9] has proposed a HPLC method for
+  ∗ Corresponding author. Tel.: +48 58 349 14 93; fax: +48 58 349 19 62.
+                                                                                            trigonelline determination in rabbit plasma and Cheng et al. [10]
+     E-mail addresses: royek@chem.univ.gda.pl (J. Makowska),
+                                                                                            has proposed hydrophilic interaction liquid chromatography–UPLC
+dszczesny@gumed.edu.pl (D. Szczesny), agnieszkalichucka@gmail.com
+(A. Lichucka), lukasz@chem.univ.gda.pl (A. Giełdoń), lech@chem.univ.gda.pl                 method for quantitation of this alkaloid in rat plasma. In this
+(L. Chmurzyński), roman.kaliszan@gumed.edu.pl (R. Kaliszan).                               study, we have developed a HPLC method for trigonelline
+
+1570-0232/$ – see front matter © 2013 Elsevier B.V. All rights reserved.
+http://dx.doi.org/10.1016/j.jchromb.2013.12.001
+102                                                    J. Makowska et al. / J. Chromatogr. B 968 (2014) 101–104
+
+
+determination, which could next be applied to quantitative deter-                     2.3. Preparation of standard solutions
+mination of this agent in biological material, in particular, in mice
+plasma and brain.                                                                        Stock standard solutions of trigonelline hydrochloride and 1-
+    Beside pharmacokinetic properties, an understanding of inter-                     butyl-4-methylpyridinium chloride at 1 mg/ml concentration were
+molecular interactions of trigonelline with ␤-amyloid might be                        prepared by dissolving the individual compounds in a mixture
+beneﬁcial for further use of this alkaloid or the other structurally                  of acetonitrile and puriﬁed water (85:15, v/v). Working solutions
+related compounds, in prevention or treatment of AD. In order to                      were prepared by dilution of stock solutions 10 times with the same
+improve our knowledge in this ﬁeld, we performed modeling of                          mixture of solvents. Working solution of a mixture of trigonelline
+trigonelline binding with ␤-amyloid. Docking of small molecule                        and 1-butyl-4-methylpyridinium chloride was prepared by mixing
+compounds into the binding site of a receptor and estimating                          both stock solutions in equal parts.
+the binding afﬁnity of the complex is an important part of the
+structure-based drug design process. Molecular docking is basi-
+cally a conformational sampling procedure in which various docked                     2.4. Docking of trigonelline in ˇ-amyloid
+conformations are explored to identify the right one [11,12].
+                                                                                          Docking was performed with use of the AutoDock software.
+                                                                                      AutoDock is one of the programs which are able to predict
+2. Materials and methods                                                              protein–ligand complex structures with reasonable accuracy and
+                                                                                      speed [13]. Application of AutoDock requires several separate
+2.1. Chemicals and reagents                                                           pre-docking steps, e.g., ligand preparation, receptor preparation,
+                                                                                      and grid map calculations, before the actual docking process can
+   Trigonelline hydrochloride was purchased from Sigma (St. Louis,                    take place.
+USA). 1-Butyl-4-methylpyridinium chloride, used as an internal                            The partial charges of the trigonelline residue were calculated
+standard, was obtained from Fluka (Buchs, Germany); formic acid                       using the PM7 [14] method and its geometry was optimized by
+was from Alfa Aesar GmbH & Co KG (Karlsruhe, Germany), and                            using the semiempirical quantum package MOPAC 2012 [15].
+ammonia and acetonitrile from POCH (Gliwice, Poland). All the                         The structure of the 1–42 fragment of ␤-amyloid was taken from
+reagents were of a highest available purity grade; acetonitrile was                   model 10 of the PDB data base entry 1IYT [16]. The docking center
+of HPLC grade. Water solutions were prepared with water puriﬁed                       was set up on the backbone of Tyr10 residue of the full length
+by Milli-QPlus water puriﬁcation system (Millipore, Wien, Austria).                   ␤-amyloid(1–42) peptide with the following grid map parameters:
+                                                                                      0.375 grid spacing, 74 number of grid points in xyz and 27.75 Å3
+2.2. Chromatography equipment and conditions                                          of the total volume of the docking space. The declared docking
+                                                                                      space included all residues which could be involved in possible
+   The method was developed on Agilent 1200 series chromato-                          protein–ligand or protein–protein interactions. The region of the
+graph, equipped with binary pump, in-line degasser, autosampler,                      four amino-acid residues: His6, Tyr10, His13 and His14 was used as
+column thermostat and diode array detector (Agilent Technologies,                     a most likely docking space for the studied system [17,18]. During
+Böblingen, Germany). Separations were performed on a Kine-                            the docking procedure two angles (1 and 2 ) of the pointed
+tex HILIC column (2.6 ␮m, 50 mm × 4.6 mm, Phenomenex, USA).                           residues were free to change, hence the docking procedure was
+Mobile phase consisted of a mixture of acetonitrile and 0.35%                         ﬂexible.
+ammonium formate in water (85:15, v/v), adjusted to pH = 3.5. Flow                        For the global search of the conformational space, genetic algo-
+rate was set as 1.0 ml/min. Analysis was done at the column tem-                      rithms (GA) [19] with following parameters were used: 150 of
+perature of 35 ◦ C and total analysis time was 7 min. Detection was                   individuals in population, 2,500,000 the maximum number of
+carried out at 265 nm.                                                                energy evaluations, 27,000 the maximum number of generations,
+
+
+
+
+Fig. 1. Chromatogram of separated trigonelline hydrochloride (TRG) and 1-butyl-4-methylpyridinium chloride (IS). Chromatographic conditions: mobile phase of pH = 3
+consisted of acetonitrile and 0.35% ammonium formate, 85:15 (v/v); ﬂow rate was 1.0 ml/min; column temperature was 35 ◦ C.
+                                                          J. Makowska et al. / J. Chromatogr. B 968 (2014) 101–104                                          103
+
+
+0.02 rate of gene mutation and 0.8 rate of crossover. The GA algo-                       The procedure was repeated 100 times and as a result 100 docking
+rithms use ideas based on the language of natural genetics and                           structures were obtained.
+biological evolution [20]. In the case of molecular docking, the par-
+ticular arrangement of a ligand and a protein can be deﬁned by a set                     3. Results
+of values describing the orientation, translation and conformation
+of the ligand with respect to the protein: these are the ligand’s state                  3.1. Development of chromatographic method
+variables and, in the GA, each state variable corresponds to a gene.
+The Solis–Wets algorithm with following parameters: 300 itera-                               Chromatographic parameters were optimized to get symmet-
+tions of Solis & Wets local search, 4 consecutive successes before                       rical peak shapes, good resolution of trigonelline and internal
+changing rho, 4 consecutive failures before changing rho, 1 size                         standard peaks, and short time of analysis. Different combinations
+of local search space to sample, was applied for the local search.                       of acetonitrile and ammonium formate buffer were assessed to get
+                                                                                         suitable composition of mobile phase. Concentration of ammonium
+                                                                                         formate was tested in a range from 0.1% to 0.35% and from pH 3 to 5.
+                                                                                         Three different columns: X-Terra MS C18 (5 ␮m, 150 mm × 4.6 mm,
+                                                                                         Waters, Ireland), PRP-h1 (5 ␮m, 150 mm × 4.6 mm, Hamilton, USA)
+                                                                                         and Kinetex HILIC (2.6 ␮m, 50 mm × 4.6 mm, Phenomenex, USA)
+                                                                                         have been tested during the method development. The inﬂuence
+                                                                                         of column temperature on separation quality was tested in a range
+                                                                                         from 25 to 35 ◦ C.
+                                                                                             Final composition of the mobile phase, which gave the best peak
+                                                                                         shapes and resolution, was acetonitrile mixed with 0.35% buffer
+                                                                                         of pH = 3, at ratio 85:15 (v/v). For further analysis the HILIC col-
+                                                                                         umn was selected, since there was practically no retention of such
+                                                                                         highly polar analyte [10] like trigonelline on the two other columns.
+                                                                                         The HILIC column was thermostated at the temperature of 35 ◦ C.
+                                                                                         Representative chromatogram is shown in Fig. 1.
+
+
+                                                                                         3.2. Docking of trigonelline in ˇ-amyloid(1–42) peptide
+
+                                                                                             Docking procedure resulting in a trigonelline-A␤(1–42) com-
+                                                                                         plex, showed that trigonelline may interact with most important
+                                                                                         “key” histidine residues (His6, His13, His14) and one “key” tyro-
+                                                                                         sine residue (Tyr10), present in the A␤(1–42) protein, altering its
+                                                                                         structure and therefore inhibiting its aggregation. As shown in the
+                                                                                         Fig. 2a and b, the trigonelline is mostly positioned close to the
+                                                                                         imidazole ring of His13. In statistical terms, about 38% of all confor-
+                                                                                         mations are located close to this residue. Due to the fact that His13
+                                                                                         and His14 have some common conformational part, it should be
+                                                                                         noted that 6% of these 38% positions of the system under studies,
+                                                                                         impose with area of the His14. The His14 and Tyr10 are located
+                                                                                         relatively close to each other, therefore it is difﬁcult to distinguish
+                                                                                         the conformations of these residues separately. In their common
+                                                                                         region (of His14 and Tyr10) about 30% of conformations are located.
+                                                                                         The least populated space is located in the area of the His6. Rest
+                                                                                         of the trigonelline conformations are located on the other side of
+                                                                                         the A␤(1–42) helix, which is about 14%. Our results are in good
+                                                                                         agreement with the results of studies on cotinine-A␤(1–42) com-
+                                                                                         plex which were published by Echeverria and co-workers [18]. The
+                                                                                         present study demonstrated that trigonelline (a similar structure to
+                                                                                         the cotinine) has a relatively high binding afﬁnity to the A␤(1–42).
+
+
+                                                                                         4. Conclusions
+
+                                                                                            A fast and convenient method of determination of trigonelline
+                                                                                         with the use of HILIC technique was developed. This method might
+                                                                                         be applied for quantitative determination of trigonelline in biolog-
+                                                                                         ical ﬂuids.
+                                                                                            Trigonelline, which is known as a nicotine-related compound,
+                                                                                         was taken into consideration for the study as an anti-Alzheimer’s
+                                                                                         disease drug candidate. According to the earlier proposed mecha-
+Fig. 2. Trigonelline interacts with key residues (His6, Tyr10, His13 and His14) of       nism, nicotine [7] or cotinine [8] binds the segment of A␤ between
+A␤(1–42) involved in its aggregation. Residues His6, Tyr10, His13 and His14 are          amino acids 1–28 when folded in an ␣-helical conformation. There-
+shown in bold as blue-cyan sticks, while a wireframe representation is used for
+                                                                                         fore, nicotine as well as cotinine inhibits the conformational change
+conformations of trigonelline; bolded helix is used for protein A␤(1–42): (a) side
+view; (b) view from the top. (For interpretation of the references to color in this      from ␣-helix to the ␤-sheet conformation (known as the amyloido-
+legend, the reader is referred to the web version of the article.)                       genic conformation). Preliminary considerations, presented in this
+104                                                          J. Makowska et al. / J. Chromatogr. B 968 (2014) 101–104
+
+
+paper, have shown that trigonelline could have similar inﬂuence                             [8] I. Grabowska, H. Radecka, A. Burza, J. Radecki, M. Kaliszan, R. Kaliszan, Asso-
+on the helical A␤(1–42) structure.                                                              ciation constants of pyridine and piperidine alkaloids to amyloid beta peptide
+                                                                                                determined by electrochemical impedance spectroscopy, Curr. Alzheimer Res.
+   Therefore, trigonelline might appear to be an interesting anti-                              7 (2010) 165–172.
+neurodegenerative drug candidate, providing that its ability to                             [9] H.Q. Zhao, Y. Qu, X.Y. Wang, X.Y. Lu, X.H. Zhang, H. Masao, Determination of
+penetrate blood/brain barrier will be proved.                                                   trigonelline by HPLC and study on its pharmacokinetics, Yaoxue Xuebao 38
+                                                                                                (2003) 279–282.
+                                                                                           [10] Z.X. Cheng, J.J. Wu, Z.Q. Liu, N. Lin, Development of a hydrophilic interaction
+Acknowledgments                                                                                 chromatography-UPLC assay to determine trigonelline in rat plasma and its
+                                                                                                application in a pharmacokinetic study, Chin. J. Nat. Med. 11 (2013) 164–170.
+                                                                                           [11] G.M. Morris, D.S. Goodsell, R.S. Halliday, R. Huey, W.E. Hart, R.K. Belew, A.J.
+   J. Makowska was supported by a grant for Young Scientists 2013                               Olson, Automated docking using a Lamarckian genetic algorithm and an empir-
+from the University of Gdansk (nr 538-8232-B018-13) and from                                    ical binding free energy function, J. Comput. Chem. 19 (1998) 1639–1662.
+the Polish National Science Centre (NCN 2011/01/D/ST4/04497).                              [12] R. Huey, G.M. Morris, A.J. Olson, D.S. Goodsell, A semiempirical free energy force
+                                                                                                ﬁeld with charge-based desolvation, J. Comput. Chem. 28 (2007) 1145–1152.
+D. Szczesny was supported by a grant Preludium from the Polish
+                                                                                           [13] G.M. Morris, H. Ruth, W. Lindstrom, M.F. Sanner, R.K. Belew, D.S. Goodsell,
+National Science Center (NCN 2012/07/N/NZ7/04275).                                              A.J. Olson, Software news and updates AutoDock4 and AutoDockTools4: auto-
+                                                                                                mated docking with selective receptor ﬂexibility, J. Comput. Chem. 30 (2009)
+                                                                                                2785–2791.
+References
+                                                                                           [14] J.J.P. Stewart, Application of the PM6 method to modeling proteins, J. Mol.
+                                                                                                Model. 15 (2009) 765–805.
+[1] R. Moaddel, K. Jozwiak, I.W. Wainer, Allosteric modiﬁers of neuronal nicotinic         [15] J.J.P. Stewart, MOPAC2012, Stewart Computational Chemistry, Colorado
+    acetylcholine receptors: new methods, new opportunities, Med. Res. Rev. 27                  Springs, CO, USA, 2012 http://OpenMOPAC.net
+    (2007) 723–753.                                                                        [16] O. Crescenzi, S. Tomaselli, R. Guerrini, S. Salvadori, A.M. D’Ursi, P.A. Temussi, D.
+[2] S. Shailajan, S. Menon, A. Singh, M. Mhatre, N. Sayed, A validated RP-HPLC                  Picone, Solution structure of the Alzheimer amyloid ␤-peptide (1–42) in an apo-
+    method for quantitation of trigonelline from herbal formulations containing                 lar microenvironment: similarity with a virus fusion domain, Eur. J. Biochem.
+    Trigonella foenum-graecum (L.) seeds, Pharm. Methods 2 (2011) 157–160.                      269 (2002) 5642–5648.
+[3] C. Tohda, T. Kuboyama, K. Komatsu, Search for natural products related to              [17] A.R. Salomon, K.J. Marcinowski, R.P. Friedland, M.G. Zagorski, Nicotine inhibits
+    regeneration of the neuronal network, NeuroSignals 14 (2005) 34–45.                         amyloid formation by the ␤-peptide, Biochemistry 35 (1996) 13568–13578.
+[4] O. Yoshinari, K. Igarashi, Anti-diabetic effect of trigonelline and nicotinic acid,    [18] V. Echeverria, R. Zeitlin, S. Burgess, S. Patel, A. Barman, G. Thakur, M. Mamcarz,
+    on KK-Ay mice, Curr. Med. Chem. 17 (2010) 2196–2202.                                        L. Wang, D.B. Sattelle, D.A. Kirschner, T. Mori, R.M. Leblanc, R. Prabhakar, G.W.
+[5] J. Zhou, S. Zhou, S. Zeng, Experimental diabetes treated with trigonelline: effect          Arendash, Cotinine reduces amyloid-␤ aggregation and improves memory in
+    on ␤ cell and pancreatic oxidative parameters, Fundam. Clin. Pharm. 27 (2013)               Alzheimer’s disease mice, J. Alzheimers Dis. 24 (2011) 817–835.
+    279–287.                                                                               [19] J.H. Holland, Adaptation in Natural and Artiﬁcial Systems: An Introductory
+[6] C. Tohda, N. Nakamura, K. Komatsu, M. Hattori, Trigonelline-induced neurite                 Analysis with Applications to Biology, Control, and Artiﬁcial Intelligence, Uni-
+    outgrowth in human neuroblastoma SK-N-SH cells, Biol. Pharm. Bull. 22 (1999)                versity of Michigan Press, Ann Arbor, MI, 1975.
+    679–682.                                                                               [20] S.S. Cetverikov, On some aspects of the evolutionary process from the viewpoint
+[7] R. Kaliszan, K. Macur, In search of agents of use in therapy or prevention of               of modern genetics, J. Exp. Biol. 2 (1926) 3–54.
+    Alzheimer’s disease, Czasopismo Aptekarskie (2009) 25–32.
+

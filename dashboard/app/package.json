@@ -1,0 +1,47 @@
+{
+  "name": "purity-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "ingest": "tsx scripts/ingest-kb.ts",
+    "embed-canon": "tsx scripts/embed-canon.ts",
+    "import-coas": "tsx scripts/import-coas.ts",
+    "embed-coas": "tsx scripts/embed-coas.ts",
+    "import-bibliography": "tsx scripts/import-bibliography.ts",
+    "dedupe-research": "tsx scripts/dedupe-research.ts",
+    "verify-rls": "tsx scripts/verify-rls.ts",
+    "seed-question-topics": "tsx scripts/seed-question-topics.ts",
+    "backfill-question-topics": "tsx scripts/backfill-question-topics.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.36.0",
+    "@supabase/ssr": "^0.5.0",
+    "@supabase/supabase-js": "^2.45.0",
+    "@types/d3": "^7.4.3",
+    "d3": "^7.9.0",
+    "googleapis": "^144.0.0",
+    "next": "^15.5.15",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "recharts": "^3.8.1",
+    "voyageai": "^0.0.4",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.15.0",
+    "eslint-config-next": "15.0.3",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}

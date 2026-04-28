@@ -1,0 +1,4 @@
+{
+  "_comment_": "shortname → DOI, for research/ papers whose .txt doesn't print a DOI inline. Adding an entry here will make dedupe-research.ts merge bibliography metadata onto the corresponding chunked source row. Keep this list small and hand-verified.",
+  "freedman-2012": "10.1056/NEJMoa1112010"
+}

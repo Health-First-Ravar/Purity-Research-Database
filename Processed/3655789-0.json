@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "status": "OK",
+  "product_key": "PROTECT",
+  "report_number": "3655789-0",
+  "test_date": "2022-04-22",
+  "sample_name": "PROTECT CGA Eurofins Sample: 11670658",
+  "lot_or_po": "rt",
+  "supersedes": null,
+  "superseded_by": null,
+  "lab": "Eurofins (inferred)",
+  "serving_size_g": 15.0,
+  "source_file": "/Users/jeremybehne/Library/CloudStorage/GoogleDrive-jravar@puritycoffee.com/My Drive/Purity-Lab-Data/COAs/COA_Report_3655789-0.pdf",
+  "source_hash": "c89d87ff8cf3e88c",
+  "parse_confidence": 1.0,
+  "parse_notes": [
+    "pages=2 tables=1",
+    "text_rows=11"
+  ],
+  "analytes": [
+    {
+      "analyte": "Vitamin E",
+      "panel": "other",
+      "value_normalized": 0.433,
+      "unit_normalized": "mg/Serving Size",
+      "value_as_reported": "0.433",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Niacin",
+      "panel": "other",
+      "value_normalized": 0.752,
+      "unit_normalized": "mg/Serving Size",
+      "value_as_reported": "0.752",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Pantothenic Acid",
+      "panel": "other",
+      "value_normalized": 0.032,
+      "unit_normalized": "mg/Serving Size",
+      "value_as_reported": "0.032",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Neochlorogenic Acid",
+      "panel": "cga",
+      "value_normalized": 311.33333333333337,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "46.7",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Chlorogenic Acid",
+      "panel": "cga",
+      "value_normalized": 853.3333333333334,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "128",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "4-O Caffeolyquinic Acid",
+      "panel": "cga",
+      "value_normalized": 414.66666666666663,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "62.2",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Unknown (Calculated as Chlorogenic Acid)",
+      "panel": "cga",
+      "value_normalized": 34.6,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "5.19",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "3 4-Dicaffeoylquinic Acid",
+      "panel": "cga",
+      "value_normalized": 204.0,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "30.6",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "3 5-Dicaffeoylquinic Acid",
+      "panel": "cga",
+      "value_normalized": 105.33333333333334,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "15.8",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "4 5-Dicaffeoylquiic Acid",
+      "panel": "cga",
+      "value_normalized": 71.33333333333333,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "10.7",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Total Chlorogenic Acids",
+      "panel": "cga",
+      "value_normalized": 1993.3333333333333,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "299",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    }
+  ],
+  "ingested_at": "2026-04-27T05:11:59+00:00"
+}

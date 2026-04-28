@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "status": "OK",
+  "product_key": "FLOW",
+  "report_number": "CHG-49654978-1",
+  "test_date": "2025-08-26",
+  "sample_name": "FLOW",
+  "lot_or_po": null,
+  "supersedes": "CHG-49654978-0",
+  "superseded_by": null,
+  "lab": "Silliker / M\u00e9rieux NutriSciences",
+  "serving_size_g": null,
+  "source_file": "/Users/jeremybehne/Library/CloudStorage/GoogleDrive-jravar@puritycoffee.com/My Drive/Purity-Lab-Data/COAs/COA-26-AUG-25-49654978-1.pdf",
+  "source_hash": "9fca5874170349ae",
+  "parse_confidence": 1.0,
+  "parse_notes": [
+    "pages=3 tables=6",
+    "silliker_rows=49",
+    "retest:Benzo(a)pyrene:kept='<0.5 ppb (w/w)' prior=[{'value_raw': '<0.5', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Benzo(a)pyrene <0.5 ppb (w/w)'}, {'value_raw': '<0.5', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Benzo(a)pyrene <0.5 ppb (w/w)'}, {'value_raw': '<0.5', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Benzo(a)pyrene <0.5 ppb (w/w)'}, {'value_raw': '<0.5', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Benzo(a)pyrene <0.5 ppb (w/w)'}, {'value_raw': '0.74', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Benzo(a)pyrene 0.74 ppb (w/w)'}, {'value_raw': '0.74', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Benzo(a)pyrene 0.74 ppb (w/w)'}]",
+    "retest:Benz(a)anthracene:kept='2.15 ppb (w/w)' prior=[{'value_raw': '<0.5', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Benz(a)anthracene <0.5 ppb (w/w)'}, {'value_raw': '<0.5', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Benz(a)anthracene <0.5 ppb (w/w)'}, {'value_raw': '<0.5', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Benz(a)anthracene <0.5 ppb (w/w)'}, {'value_raw': '1.82', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Benz(a)anthracene 1.82 ppb (w/w)'}, {'value_raw': '2.17', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Benz(a)anthracene 2.17 ppb (w/w)'}, {'value_raw': '2.17', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Benz(a)anthracene 2.17 ppb (w/w)'}]",
+    "retest:Benzo(b)fluoranthene:kept='1.47 ppb (w/w)' prior=[{'value_raw': '<0.5', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Benzo(b)fluoranthene <0.5 ppb (w/w)'}, {'value_raw': '<0.5', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Benzo(b)fluoranthene <0.5 ppb (w/w)'}, {'value_raw': '<0.5', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Benzo(b)fluoranthene <0.5 ppb (w/w)'}, {'value_raw': '<0.5', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Benzo(b)fluoranthene <0.5 ppb (w/w)'}, {'value_raw': '1.26', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Benzo(b)fluoranthene 1.26 ppb (w/w)'}, {'value_raw': '1.26', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Benzo(b)fluoranthene 1.26 ppb (w/w)'}]",
+    "retest:Benzo(k)fluoranthene:kept='<0.5 ppb (w/w)' prior=[{'value_raw': '<0.5', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Benzo(k)fluoranthene <0.5 ppb (w/w)'}, {'value_raw': '<0.5', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Benzo(k)fluoranthene <0.5 ppb (w/w)'}, {'value_raw': '<0.5', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Benzo(k)fluoranthene <0.5 ppb (w/w)'}, {'value_raw': '<0.5', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Benzo(k)fluoranthene <0.5 ppb (w/w)'}, {'value_raw': '<0.5', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Benzo(k)fluoranthene <0.5 ppb (w/w)'}, {'value_raw': '<0.5', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Benzo(k)fluoranthene <0.5 ppb (w/w)'}]",
+    "retest:Benzo(ghi)perylene:kept='2.63 ppb (w/w)' prior=[{'value_raw': '<0.5', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Benzo(ghi)perylene <0.5 ppb (w/w)'}, {'value_raw': '<0.5', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Benzo(ghi)perylene <0.5 ppb (w/w)'}, {'value_raw': '<0.5', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Benzo(ghi)perylene <0.5 ppb (w/w)'}, {'value_raw': '<0.5', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Benzo(ghi)perylene <0.5 ppb (w/w)'}, {'value_raw': '1.72', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Benzo(ghi)perylene 1.72 ppb (w/w)'}, {'value_raw': '1.72', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Benzo(ghi)perylene 1.72 ppb (w/w)'}]",
+    "retest:Indeno(1,2,3-cd)pyrene:kept='<0.5 ppb (w/w)' prior=[{'value_raw': '<0.5', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Indeno(1,2,3-cd)pyrene <0.5 ppb (w/w)'}, {'value_raw': '<0.5', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Indeno(1,2,3-cd)pyrene <0.5 ppb (w/w)'}, {'value_raw': '<0.5', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Indeno(1,2,3-cd)pyrene <0.5 ppb (w/w)'}, {'value_raw': '<0.5', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Indeno(1,2,3-cd)pyrene <0.5 ppb (w/w)'}, {'value_raw': '<0.5', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Indeno(1,2,3-cd)pyrene <0.5 ppb (w/w)'}, {'value_raw': '<0.5', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Indeno(1,2,3-cd)pyrene <0.5 ppb (w/w)'}]",
+    "retest:Chrysene:kept='2.75 ppb (w/w)' prior=[{'value_raw': '0.82', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Chrysene 0.82 ppb (w/w)'}, {'value_raw': '<0.5', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Chrysene <0.5 ppb (w/w)'}, {'value_raw': '<0.5', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Chrysene <0.5 ppb (w/w)'}, {'value_raw': '2.17', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Chrysene 2.17 ppb (w/w)'}, {'value_raw': '2.56', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Chrysene 2.56 ppb (w/w)'}, {'value_raw': '2.56', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Chrysene 2.56 ppb (w/w)'}]"
+  ],
+  "analytes": [
+    {
+      "analyte": "Benzo(a)pyrene",
+      "panel": "other",
+      "value_normalized": 0.5,
+      "unit_normalized": "ppb (w/w)",
+      "value_as_reported": "<0.5",
+      "unit_as_reported": "ppb (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 6
+    },
+    {
+      "analyte": "Benz(a)anthracene",
+      "panel": "other",
+      "value_normalized": 2.15,
+      "unit_normalized": "ppb (w/w)",
+      "value_as_reported": "2.15",
+      "unit_as_reported": "ppb (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 6
+    },
+    {
+      "analyte": "Benzo(b)fluoranthene",
+      "panel": "other",
+      "value_normalized": 1.47,
+      "unit_normalized": "ppb (w/w)",
+      "value_as_reported": "1.47",
+      "unit_as_reported": "ppb (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 6
+    },
+    {
+      "analyte": "Benzo(k)fluoranthene",
+      "panel": "other",
+      "value_normalized": 0.5,
+      "unit_normalized": "ppb (w/w)",
+      "value_as_reported": "<0.5",
+      "unit_as_reported": "ppb (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 6
+    },
+    {
+      "analyte": "Benzo(ghi)perylene",
+      "panel": "other",
+      "value_normalized": 2.63,
+      "unit_normalized": "ppb (w/w)",
+      "value_as_reported": "2.63",
+      "unit_as_reported": "ppb (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 6
+    },
+    {
+      "analyte": "Indeno(1,2,3-cd)pyrene",
+      "panel": "other",
+      "value_normalized": 0.5,
+      "unit_normalized": "ppb (w/w)",
+      "value_as_reported": "<0.5",
+      "unit_as_reported": "ppb (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 6
+    },
+    {
+      "analyte": "Chrysene",
+      "panel": "other",
+      "value_normalized": 2.75,
+      "unit_normalized": "ppb (w/w)",
+      "value_as_reported": "2.75",
+      "unit_as_reported": "ppb (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 6
+    }
+  ],
+  "ingested_at": "2026-04-27T05:11:48+00:00"
+}

@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "status": "UNRESOLVED",
+  "product_key": null,
+  "report_number": "CHG-42012903-0",
+  "test_date": "2019-01-28",
+  "sample_name": "GR-19-01 / HONDURAS-ALLY 01/09/19",
+  "lot_or_po": null,
+  "supersedes": null,
+  "superseded_by": null,
+  "lab": "Silliker / M\u00e9rieux NutriSciences",
+  "serving_size_g": null,
+  "source_file": "/Users/jeremybehne/Library/CloudStorage/GoogleDrive-jravar@puritycoffee.com/My Drive/Purity-Lab-Data/COAs/COA-28-Jan-19 Honduras Full Result Green.pdf",
+  "source_hash": "4b4ba6066a3f73c3",
+  "parse_confidence": 1.0,
+  "parse_notes": [
+    "pages=1 tables=2",
+    "silliker_rows=13"
+  ],
+  "analytes": [
+    {
+      "analyte": "iso-1-Chlorogenic Acid",
+      "panel": "cga",
+      "value_normalized": 70.0,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "0.070",
+      "unit_as_reported": "% (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "iso-2-Chlorogenic Acid",
+      "panel": "cga",
+      "value_normalized": 260.0,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "0.260",
+      "unit_as_reported": "% (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "iso-3-Chlorogenic Acid",
+      "panel": "cga",
+      "value_normalized": 61.0,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "0.061",
+      "unit_as_reported": "% (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "krypto-Chlorogenic Acid",
+      "panel": "cga",
+      "value_normalized": 399.0,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "0.399",
+      "unit_as_reported": "% (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "n-Chlorogenic Acid",
+      "panel": "cga",
+      "value_normalized": 3551.0,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "3.551",
+      "unit_as_reported": "% (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "neo-Chlorogenic Acid",
+      "panel": "cga",
+      "value_normalized": 221.0,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "0.221",
+      "unit_as_reported": "% (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Total Chlorogenic Acid",
+      "panel": "cga",
+      "value_normalized": 4562.0,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "4.562",
+      "unit_as_reported": "% (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Copper",
+      "panel": "other",
+      "value_normalized": 11.6,
+      "unit_normalized": "ppm (w/w)",
+      "value_as_reported": "11.6",
+      "unit_as_reported": "ppm (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Lead",
+      "panel": "heavy_metals",
+      "value_normalized": 10.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "0.01",
+      "unit_as_reported": "ppm (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Ochratoxin by HPLC",
+      "panel": "mycotoxins",
+      "value_normalized": 0.2,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.2",
+      "unit_as_reported": "mcg/kg",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Bacillus cereus - Presumptive",
+      "panel": "other",
+      "value_normalized": 10.0,
+      "unit_normalized": "/g",
+      "value_as_reported": "<10",
+      "unit_as_reported": "/g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Yeast",
+      "panel": "micro",
+      "value_normalized": 160.0,
+      "unit_normalized": "/g",
+      "value_as_reported": "160",
+      "unit_as_reported": "/g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Mold",
+      "panel": "micro",
+      "value_normalized": 10.0,
+      "unit_normalized": "/g",
+      "value_as_reported": "<10",
+      "unit_as_reported": "/g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    }
+  ],
+  "ingested_at": "2026-04-27T05:11:51+00:00"
+}

@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "status": "UNRESOLVED",
+  "product_key": null,
+  "report_number": "CHG-47833077-0",
+  "test_date": "2024-01-15",
+  "sample_name": "MB1 - LOTE #1",
+  "lot_or_po": null,
+  "supersedes": null,
+  "superseded_by": null,
+  "lab": "Silliker / M\u00e9rieux NutriSciences",
+  "serving_size_g": null,
+  "source_file": "/Users/jeremybehne/Library/CloudStorage/GoogleDrive-jravar@puritycoffee.com/My Drive/Purity-Lab-Data/COAs/COA-15-Jan-24-Montbonito.pdf",
+  "source_hash": "bcbca9c721d00ea5",
+  "parse_confidence": 1.0,
+  "parse_notes": [
+    "pages=5 tables=10",
+    "silliker_rows=52",
+    "retest:Arsenic:kept='<0.01 ppm (w/w)' prior=[{'value_raw': '<0.01', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Arsenic <0.01 ppm (w/w)'}, {'value_raw': '<0.01', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Arsenic <0.01 ppm (w/w)'}, {'value_raw': '<0.01', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Arsenic <0.01 ppm (w/w)'}, {'value_raw': '<0.01', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Arsenic <0.01 ppm (w/w)'}, {'value_raw': '<0.01', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Arsenic <0.01 ppm (w/w)'}, {'value_raw': '<0.01', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Arsenic <0.01 ppm (w/w)'}, {'value_raw': '<0.01', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Arsenic <0.01 ppm (w/w)'}, {'value_raw': '<0.01', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Arsenic <0.01 ppm (w/w)'}, {'value_raw': '<0.01', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Arsenic <0.01 ppm (w/w)'}, {'value_raw': '<0.01', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Arsenic <0.01 ppm (w/w)'}, {'value_raw': '<0.01', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Arsenic <0.01 ppm (w/w)'}, {'value_raw': '<0.01', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Arsenic <0.01 ppm (w/w)'}]",
+    "retest:Cadmium:kept='0.006 ppm (w/w)' prior=[{'value_raw': '0.007', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Cadmium 0.007 ppm (w/w)'}, {'value_raw': '0.005', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Cadmium 0.005 ppm (w/w)'}, {'value_raw': '0.005', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Cadmium 0.005 ppm (w/w)'}, {'value_raw': '0.004', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Cadmium 0.004 ppm (w/w)'}, {'value_raw': '0.007', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Cadmium 0.007 ppm (w/w)'}, {'value_raw': '0.007', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Cadmium 0.007 ppm (w/w)'}, {'value_raw': '0.004', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Cadmium 0.004 ppm (w/w)'}, {'value_raw': '0.006', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Cadmium 0.006 ppm (w/w)'}, {'value_raw': '0.006', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Cadmium 0.006 ppm (w/w)'}, {'value_raw': '0.005', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Cadmium 0.005 ppm (w/w)'}, {'value_raw': '0.005', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Cadmium 0.005 ppm (w/w)'}, {'value_raw': '0.005', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Cadmium 0.005 ppm (w/w)'}]",
+    "retest:Lead:kept='<0.01 ppm (w/w)' prior=[{'value_raw': '<0.01', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Lead <0.01 ppm (w/w)'}, {'value_raw': '<0.01', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Lead <0.01 ppm (w/w)'}, {'value_raw': '<0.01', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Lead <0.01 ppm (w/w)'}, {'value_raw': '<0.01', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Lead <0.01 ppm (w/w)'}, {'value_raw': '<0.01', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Lead <0.01 ppm (w/w)'}, {'value_raw': '<0.01', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Lead <0.01 ppm (w/w)'}, {'value_raw': '<0.01', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Lead <0.01 ppm (w/w)'}, {'value_raw': '<0.01', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Lead <0.01 ppm (w/w)'}, {'value_raw': '<0.01', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Lead <0.01 ppm (w/w)'}, {'value_raw': '<0.01', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Lead <0.01 ppm (w/w)'}, {'value_raw': '<0.01', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Lead <0.01 ppm (w/w)'}, {'value_raw': '<0.01', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Lead <0.01 ppm (w/w)'}]",
+    "retest:Mercury:kept='<0.005 ppm (w/w)' prior=[{'value_raw': '<0.005', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Mercury <0.005 ppm (w/w)'}, {'value_raw': '<0.005', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Mercury <0.005 ppm (w/w)'}, {'value_raw': '<0.005', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Mercury <0.005 ppm (w/w)'}, {'value_raw': '<0.005', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Mercury <0.005 ppm (w/w)'}, {'value_raw': '<0.005', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Mercury <0.005 ppm (w/w)'}, {'value_raw': '<0.005', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Mercury <0.005 ppm (w/w)'}, {'value_raw': '<0.005', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Mercury <0.005 ppm (w/w)'}, {'value_raw': '<0.005', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Mercury <0.005 ppm (w/w)'}, {'value_raw': '<0.005', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Mercury <0.005 ppm (w/w)'}, {'value_raw': '<0.005', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Mercury <0.005 ppm (w/w)'}, {'value_raw': '<0.005', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Mercury <0.005 ppm (w/w)'}, {'value_raw': '<0.005', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Mercury <0.005 ppm (w/w)'}]"
+  ],
+  "analytes": [
+    {
+      "analyte": "Arsenic",
+      "panel": "heavy_metals",
+      "value_normalized": 10.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.01",
+      "unit_as_reported": "ppm (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 12
+    },
+    {
+      "analyte": "Cadmium",
+      "panel": "heavy_metals",
+      "value_normalized": 6.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "0.006",
+      "unit_as_reported": "ppm (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 12
+    },
+    {
+      "analyte": "Lead",
+      "panel": "heavy_metals",
+      "value_normalized": 10.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.01",
+      "unit_as_reported": "ppm (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 12
+    },
+    {
+      "analyte": "Mercury",
+      "panel": "heavy_metals",
+      "value_normalized": 5.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.005",
+      "unit_as_reported": "ppm (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 12
+    }
+  ],
+  "ingested_at": "2026-04-27T05:11:43+00:00"
+}

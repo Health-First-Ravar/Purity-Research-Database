@@ -1,0 +1,13 @@
+requests>=2.32
+beautifulsoup4>=4.12
+lxml>=5.2
+praw>=7.8
+scikit-learn>=1.5
+numpy>=1.26
+orjson>=3.10
+tqdm>=4.66
+python-dotenv>=1.0
+voyageai>=0.2.3
+anthropic>=0.39
+supabase>=2.9.0
+ratelimit>=2.2.1

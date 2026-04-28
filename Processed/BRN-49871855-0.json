@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "status": "OK",
+  "product_key": "FLOW",
+  "report_number": "BRN-49871855-0",
+  "test_date": "2025-10-31",
+  "sample_name": "FLOW",
+  "lot_or_po": "O-P-All",
+  "supersedes": null,
+  "superseded_by": null,
+  "lab": "Silliker / M\u00e9rieux NutriSciences",
+  "serving_size_g": null,
+  "source_file": "/Users/jeremybehne/Library/CloudStorage/GoogleDrive-jravar@puritycoffee.com/My Drive/Purity-Lab-Data/COAs/COA-31-Oct-25-49871855-0.pdf",
+  "source_hash": "c6a91715211e3223",
+  "parse_confidence": 1.0,
+  "parse_notes": [
+    "pages=2 tables=4",
+    "silliker_rows=18",
+    "retest:o-Phenyl phenol:kept='<0.005 ppm (w/w)' prior=[{'value_raw': '<0.005', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'o-Phenyl phenol <0.005 ppm (w/w)'}, {'value_raw': '<0.005', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'o-Phenyl phenol <0.005 ppm (w/w)'}, {'value_raw': '<0.005', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'o-Phenyl phenol <0.005 ppm (w/w)'}, {'value_raw': '<0.005', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'o-Phenyl phenol <0.005 ppm (w/w)'}, {'value_raw': '<0.005', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'o-Phenyl phenol <0.005 ppm (w/w)'}, {'value_raw': '<0.005', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'o-Phenyl phenol <0.005 ppm (w/w)'}, {'value_raw': '<0.005', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'o-Phenyl phenol <0.005 ppm (w/w)'}, {'value_raw': '<0.005', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'o-Phenyl phenol <0.005 ppm (w/w)'}]",
+    "retest:o-Phenyl phenol per brew:kept='<0.12 mcg/dose' prior=[{'value_raw': '<0.12', 'unit_raw': 'mcg/dose', 'source_row_text': 'o-Phenyl phenol per brew <0.12 mcg/dose'}, {'value_raw': '<0.12', 'unit_raw': 'mcg/dose', 'source_row_text': 'o-Phenyl phenol per brew <0.12 mcg/dose'}, {'value_raw': '<0.12', 'unit_raw': 'mcg/dose', 'source_row_text': 'o-Phenyl phenol per brew <0.12 mcg/dose'}, {'value_raw': '<0.12', 'unit_raw': 'mcg/dose', 'source_row_text': 'o-Phenyl phenol per brew <0.12 mcg/dose'}, {'value_raw': '<0.12', 'unit_raw': 'mcg/dose', 'source_row_text': 'o-Phenyl phenol per brew <0.12 mcg/dose'}, {'value_raw': '<0.12', 'unit_raw': 'mcg/dose', 'source_row_text': 'o-Phenyl phenol per brew <0.12 mcg/dose'}, {'value_raw': '<0.12', 'unit_raw': 'mcg/dose', 'source_row_text': 'o-Phenyl phenol per brew <0.12 mcg/dose'}, {'value_raw': '<0.12', 'unit_raw': 'mcg/dose', 'source_row_text': 'o-Phenyl phenol per brew <0.12 mcg/dose'}]"
+  ],
+  "analytes": [
+    {
+      "analyte": "o-Phenyl phenol",
+      "panel": "other",
+      "value_normalized": 0.005,
+      "unit_normalized": "ppm (w/w)",
+      "value_as_reported": "<0.005",
+      "unit_as_reported": "ppm (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 8
+    },
+    {
+      "analyte": "o-Phenyl phenol per brew",
+      "panel": "other",
+      "value_normalized": 0.12,
+      "unit_normalized": "mcg/dose",
+      "value_as_reported": "<0.12",
+      "unit_as_reported": "mcg/dose",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 8
+    }
+  ],
+  "ingested_at": "2026-04-27T05:11:52+00:00"
+}

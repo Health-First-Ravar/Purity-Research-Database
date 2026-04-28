@@ -1,0 +1,792 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Purity Dashboard Preview</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- Nominee + Franziska are the licensed Purity brand fonts; Manrope + Fraunces
+     are close Google Fonts substitutes used as fallback for this preview. -->
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    /* Brand colors (Coda Brand Guidelines, retrieved 2026-04-23) */
+    --aqua:   #009F8D;
+    --aqua-8: rgba(0,159,141,0.08);
+    --aqua-14: rgba(0,159,141,0.14);
+    --teal:   #00665E;
+    --gold:   #F1B434;
+    --gold-20: rgba(241,180,52,0.20);
+    --beige:  #D5CCBA;
+    --beige-40: #ECE6DA;
+    --beige-20: #F6F3EC;
+    --brown:  #3D290D;
+    --brown-70: rgba(61,41,13,0.70);
+    --brown-50: rgba(61,41,13,0.50);
+    --brown-30: rgba(61,41,13,0.30);
+    --brown-12: rgba(61,41,13,0.12);
+    --brown-6:  rgba(61,41,13,0.06);
+    --white:  #FFFFFF;
+    --black:  #000000;
+
+    /* Blend palette (packaging) */
+    --blend-balance: #F18A00;
+    --blend-protect: #9B552B;
+    --blend-flow:    #009F8D;
+    --blend-ease:    #007F3F;
+    --blend-calm:    #007DC0;
+
+    /* Semantic */
+    --ok:       var(--aqua);
+    --warn:     var(--gold);
+    --escalate: var(--blend-protect);
+
+    /* Typography stacks — real brand fonts first, fallbacks after */
+    --font-sans:  'Nominee', 'Manrope', ui-sans-serif, system-ui, -apple-system, sans-serif;
+    --font-serif: 'Franziska', 'Fraunces', Georgia, ui-serif, serif;
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: var(--font-sans);
+    background: var(--white);
+    color: var(--brown);
+    font-size: 14px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: -0.005em;
+  }
+  ::selection { background: var(--aqua-14); }
+
+  h1, h2, h3, h4 { font-weight: 600; letter-spacing: -0.015em; color: var(--brown); }
+  h1 { font-size: 28px; margin: 0 0 6px; line-height: 1.15; }
+  h2 { font-size: 21px; margin: 0 0 6px; line-height: 1.2; }
+  h3 { font-size: 13px; margin: 0 0 4px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--brown-70); }
+  h4 { font-size: 15px; margin: 0 0 4px; font-weight: 600; letter-spacing: 0; }
+  .serif { font-family: var(--font-serif); }
+  a { color: var(--teal); text-decoration: none; border-bottom: 1px solid transparent; transition: border-color 0.15s; }
+  a:hover { border-bottom-color: var(--teal); }
+  p { margin: 0 0 10px; }
+
+  /* ---- Top marker ---- */
+  .banner {
+    background: var(--brown);
+    color: var(--beige-20);
+    padding: 8px 32px;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  .banner strong { color: var(--gold); letter-spacing: 0.1em; }
+
+  /* ---- Shell ---- */
+  .shell { max-width: 1200px; margin: 0 auto; padding: 32px 36px 96px; }
+
+  header.app {
+    display: flex; align-items: center; gap: 18px;
+    padding-bottom: 22px; margin-bottom: 32px;
+    border-bottom: 1px solid var(--brown-12);
+  }
+  .brand-mark {
+    width: 38px; height: 38px; border-radius: 50%;
+    background: var(--teal); color: var(--white);
+    display: grid; place-items: center;
+    font-family: var(--font-serif); font-weight: 600; font-size: 22px;
+    font-style: italic;
+    letter-spacing: 0;
+  }
+  .brand-name {
+    font-family: var(--font-sans);
+    font-size: 18px; font-weight: 700; letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--brown);
+  }
+  .brand-sub {
+    font-family: var(--font-serif);
+    font-size: 14px; font-style: italic; font-weight: 400;
+    color: var(--brown-70);
+    margin-left: -8px;
+  }
+  .tagline {
+    margin-left: 20px; font-size: 12px; color: var(--brown-50);
+    letter-spacing: 0.05em;
+    border-left: 1px solid var(--brown-12); padding-left: 20px;
+  }
+  .env {
+    margin-left: auto;
+    font-size: 10px; color: var(--brown-50);
+    letter-spacing: 0.14em; text-transform: uppercase;
+    background: var(--beige-20); border: 1px solid var(--brown-12);
+    padding: 4px 10px; border-radius: 999px;
+  }
+
+  /* ---- Tabs ---- */
+  nav.tabs {
+    display: flex; gap: 4px;
+    border-bottom: 1px solid var(--brown-12);
+    margin-bottom: 32px;
+  }
+  nav.tabs button {
+    background: transparent; border: 0;
+    padding: 12px 18px;
+    font: inherit; font-weight: 500;
+    color: var(--brown-50); cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: color 0.15s, border-color 0.15s;
+    letter-spacing: 0.01em;
+  }
+  nav.tabs button:hover { color: var(--brown); }
+  nav.tabs button.active {
+    color: var(--teal);
+    border-bottom-color: var(--aqua);
+    font-weight: 600;
+  }
+
+  /* ---- Panels ---- */
+  .panel { display: none; animation: fade 0.2s ease; }
+  .panel.active { display: block; }
+  @keyframes fade { from { opacity: 0; transform: translateY(2px); } to { opacity: 1; transform: none; } }
+  .panel-intro { max-width: 680px; margin-bottom: 24px; }
+  .panel-intro p { color: var(--brown-70); font-size: 14px; }
+
+  /* ---- Surfaces ---- */
+  .card {
+    background: var(--white);
+    border: 1px solid var(--brown-12);
+    border-radius: 10px;
+    padding: 22px 24px;
+    margin-bottom: 16px;
+  }
+  .card.tight { padding: 14px 18px; }
+  .card.warm { background: var(--beige-20); border-color: transparent; }
+  .muted  { color: var(--brown-50); }
+  .small  { font-size: 12px; }
+  .tiny   { font-size: 11px; }
+
+  /* ---- Tags ---- */
+  .tag {
+    display: inline-block; padding: 2px 9px; font-size: 10px;
+    border-radius: 999px;
+    background: var(--aqua-14); color: var(--teal);
+    margin-right: 4px; font-weight: 600;
+    letter-spacing: 0.06em; text-transform: uppercase;
+  }
+  .tag.warn     { background: var(--gold-20); color: #8a6d10; }
+  .tag.escalate { background: rgba(155,85,43,0.16); color: var(--blend-protect); }
+  .tag.slate    { background: var(--brown-6); color: var(--brown-70); }
+  .tag.blend-protect { background: rgba(155,85,43,0.16); color: var(--blend-protect); }
+  .tag.blend-flow    { background: var(--aqua-14); color: var(--teal); }
+  .tag.blend-ease    { background: rgba(0,127,63,0.14); color: var(--blend-ease); }
+  .tag.blend-calm    { background: rgba(0,125,192,0.14); color: var(--blend-calm); }
+  .tag.blend-balance { background: rgba(241,138,0,0.16); color: var(--blend-balance); }
+
+  /* ---- Buttons ---- */
+  button.btn {
+    background: var(--aqua); color: var(--white); border: 0;
+    padding: 9px 16px; border-radius: 6px;
+    font: inherit; font-weight: 600; letter-spacing: 0.01em;
+    cursor: pointer;
+    transition: background 0.15s;
+  }
+  button.btn:hover { background: var(--teal); }
+  button.btn.ghost {
+    background: transparent; color: var(--brown);
+    border: 1px solid var(--brown-12);
+    font-weight: 500;
+  }
+  button.btn.ghost:hover { background: var(--beige-20); border-color: var(--brown-30); }
+  button.btn.gold {
+    background: var(--gold); color: var(--brown);
+  }
+  button.btn.gold:hover { background: #d79d1d; }
+
+  /* ---- Inputs ---- */
+  input, select, textarea {
+    font: inherit; font-family: var(--font-sans);
+    border: 1px solid var(--brown-12);
+    background: var(--white);
+    padding: 8px 11px; border-radius: 6px;
+    color: var(--brown);
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+  input:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: var(--aqua);
+    box-shadow: 0 0 0 3px var(--aqua-14);
+  }
+  input::placeholder { color: var(--brown-50); }
+
+  /* ---- Chat ---- */
+  .chat-log { min-height: 320px; padding: 4px 0; }
+  .msg { margin-bottom: 18px; max-width: 760px; }
+  .msg.user { margin-left: auto; text-align: right; }
+  .msg .bubble {
+    display: inline-block; padding: 12px 16px; border-radius: 12px;
+    background: var(--white); border: 1px solid var(--brown-12);
+    text-align: left;
+    box-shadow: 0 1px 2px rgba(61,41,13,0.04);
+  }
+  .msg.user .bubble {
+    background: var(--teal); color: var(--white); border-color: var(--teal);
+  }
+  .msg.user .bubble em { font-style: italic; }
+  .msg .meta {
+    margin-top: 8px; color: var(--brown-50); font-size: 11px;
+    display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+  }
+  .confidence-bar {
+    display: inline-block; height: 4px; width: 64px;
+    background: var(--aqua-14);
+    border-radius: 2px; overflow: hidden;
+    vertical-align: middle;
+  }
+  .confidence-bar > span {
+    display: block; height: 100%;
+    background: var(--aqua);
+  }
+  .chat-input {
+    display: flex; gap: 10px; margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid var(--brown-12);
+  }
+  .chat-input input { flex: 1; padding: 11px 14px; font-size: 14px; }
+
+  .citations {
+    margin-top: 12px; padding-top: 10px;
+    border-top: 1px dashed var(--brown-12);
+  }
+  .citation {
+    display: flex; justify-content: space-between; align-items: baseline; gap: 10px;
+    padding: 6px 12px; background: var(--beige-20);
+    border-radius: 6px; margin-top: 4px; font-size: 12px;
+  }
+  .citation strong { font-weight: 600; color: var(--brown); }
+  .citation .sim {
+    font-family: var(--font-serif); font-style: italic;
+    color: var(--brown-50); font-size: 11px;
+  }
+
+  /* ---- Escalation bubble ---- */
+  .msg .bubble.escalated {
+    border-left: 3px solid var(--escalate);
+  }
+
+  /* ---- Tables ---- */
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th, td {
+    text-align: left;
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--brown-12);
+    vertical-align: top;
+  }
+  th {
+    background: transparent;
+    color: var(--brown-50);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 0.09em;
+  }
+  tbody tr { transition: background 0.12s; }
+  tbody tr:hover td { background: var(--beige-20); }
+  tr.muted td { color: var(--brown-50); }
+
+  /* ---- Filters ---- */
+  .filters {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    gap: 14px; margin-bottom: 22px;
+  }
+  .filters label {
+    display: flex; flex-direction: column;
+    font-size: 10px; color: var(--brown-50);
+    gap: 5px;
+    text-transform: uppercase; letter-spacing: 0.08em;
+    font-weight: 600;
+  }
+
+  /* ---- Stat cards ---- */
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 12px; margin-bottom: 22px;
+  }
+  .stat {
+    background: var(--white);
+    border: 1px solid var(--brown-12);
+    border-radius: 10px;
+    padding: 16px 18px;
+  }
+  .stat .n {
+    font-family: var(--font-serif); font-size: 30px; font-weight: 500;
+    color: var(--brown); letter-spacing: -0.02em; line-height: 1;
+  }
+  .stat .l {
+    font-size: 10px; color: var(--brown-50);
+    text-transform: uppercase; letter-spacing: 0.09em;
+    margin-top: 6px; font-weight: 600;
+  }
+  .stat.accent { background: var(--aqua-8); border-color: transparent; }
+
+  /* ---- Escalation queue ---- */
+  .escalated-card {
+    border-left: 3px solid var(--escalate);
+  }
+  .action-row {
+    display: flex; gap: 8px; margin-top: 12px; flex-wrap: wrap;
+  }
+  .action-row button { font-size: 12px; padding: 6px 12px; }
+
+  /* ---- Pull quote (brand voice flavor) ---- */
+  .pullquote {
+    font-family: var(--font-serif); font-style: italic;
+    font-size: 18px; color: var(--teal);
+    border-left: 2px solid var(--aqua);
+    padding: 2px 0 2px 16px;
+    margin: 10px 0;
+    line-height: 1.4;
+  }
+</style>
+</head>
+<body>
+
+<div class="banner">
+  <strong>UI PREVIEW</strong> &nbsp;·&nbsp; Static mockup of the Purity Dashboard. Sample data only. Not wired to Supabase.
+</div>
+
+<div class="shell">
+
+<header class="app">
+  <div class="brand-mark">P</div>
+  <div>
+    <div class="brand-name">PURITY</div>
+    <div class="brand-sub">dashboard</div>
+  </div>
+  <div class="tagline">Customer service and research intelligence, grounded in health-first evidence.</div>
+  <div class="env">staging</div>
+</header>
+
+<nav class="tabs">
+  <button class="active" data-tab="chat">Chat</button>
+  <button data-tab="reports">Reports</button>
+  <button data-tab="bibliography">Bibliography</button>
+  <button data-tab="editor">Editor Queue</button>
+</nav>
+
+<!-- ================== CHAT ================== -->
+<section class="panel active" id="tab-chat">
+  <div class="panel-intro">
+    <h1 class="serif">Ask the knowledge base</h1>
+    <p>Every question is classified, checked against the canon cache, retrieved from pgvector, and answered by Sonnet 4.6. Confidence floor 0.55. Anything below it escalates.</p>
+  </div>
+
+  <div class="card">
+    <div class="chat-log">
+
+      <div class="msg user">
+        <div class="bubble">Does Purity test for ochratoxin A, and what is the typical level?</div>
+      </div>
+
+      <div class="msg">
+        <div class="bubble">
+          Yes. Every Purity blend is third-party tested for ochratoxin A through an ISO 17025 accredited laboratory. Results across the PROTECT, FLOW, EASE, and CALM blends consistently land below the detection limit of the assay (typically under 0.5 ppb), well beneath the EU regulatory threshold of 5 ppb for roasted coffee.
+          <br><br>
+          OTA formation is driven by <em>Aspergillus ochraceus</em> during drying and storage, so green sourcing and storage integrity are the primary controls. Roasting reduces residual OTA by roughly 70 to 80 percent but is not the gatekeeper.
+
+          <div class="citations">
+            <div class="tiny muted" style="letter-spacing: 0.08em; text-transform: uppercase; font-weight: 600; margin-bottom: 6px;">Cited evidence</div>
+            <div class="citation"><span><strong>ota-primer.txt</strong> · Toxins 2010 · ch14</span><span class="sim">sim 0.84</span></div>
+            <div class="citation"><span><strong>ota-roasting-2019.txt</strong> · Toxins 2019 · ch14</span><span class="sim">sim 0.79</span></div>
+            <div class="citation"><span><strong>purity-brain / brand-positioning</strong> · third-party testing protocol</span><span class="sim">sim 0.71</span></div>
+          </div>
+
+          <div class="meta">
+            <span class="tag">Canon Hit</span>
+            <span>confidence</span>
+            <span class="confidence-bar"><span style="width: 92%"></span></span>
+            <span>0.92</span>
+            <span>·</span>
+            <span>latency 620 ms</span>
+            <span>·</span>
+            <span>Sonnet 4.6</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="msg user">
+        <div class="bubble">Is the PROTECT blend lower in acrylamide than a dark roast?</div>
+      </div>
+
+      <div class="msg">
+        <div class="bubble">
+          Acrylamide in coffee follows a roast curve that peaks around medium roast (approximately 220 to 230 °C) and then decreases as the roast progresses darker. It is not a monotonic light to dark reduction.
+          <br><br>
+          PROTECT is developed on a lighter profile optimized for chlorogenic acid retention, which typically places it slightly below the medium-roast peak but above very dark roasts on acrylamide. The tradeoff is real: lighter roasts retain more chlorogenic acids and intact trigonelline. Darker roasts carry more melanoidins and NMP, and less acrylamide. No single roast is universally healthiest. The best choice depends on the target health outcome.
+          <br><br>
+          Across specialty-grade roasted coffee, acrylamide levels sit well below daily-intake exposures of concern in EFSA modelling.
+
+          <div class="meta">
+            <span class="tag slate">LLM</span>
+            <span>confidence</span>
+            <span class="confidence-bar"><span style="width: 78%"></span></span>
+            <span>0.78</span>
+            <span>·</span>
+            <span>4 chunks retrieved</span>
+            <span>·</span>
+            <span>latency 2.1 s</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="msg user">
+        <div class="bubble">What was the OTA result on the CALM batch from last March?</div>
+      </div>
+
+      <div class="msg">
+        <div class="bubble escalated">
+          I could not find a COA for the CALM batch dated March 2026 in the current COA set. This question needs fresh data. I have flagged it for the editor queue so someone can locate the document and update the knowledge base.
+
+          <div class="meta">
+            <span class="tag escalate">Escalated</span>
+            <span class="tag slate">insufficient_evidence</span>
+            <span>confidence</span>
+            <span class="confidence-bar"><span style="width: 28%; background: var(--escalate);"></span></span>
+            <span>0.28</span>
+            <span>·</span>
+            <span>0 relevant chunks</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="chat-input">
+      <input type="text" placeholder="Ask about a product, compound, or batch…" value="">
+      <button class="btn">Ask</button>
+    </div>
+  </div>
+
+  <div class="muted small" style="margin-top: 4px;">Session context uses the last three turns. No persistent threading.</div>
+</section>
+
+<!-- ================== REPORTS ================== -->
+<section class="panel" id="tab-reports">
+  <div class="panel-intro">
+    <h1 class="serif">Reports</h1>
+    <p>Filter certificate of analysis data across nine analytes. Every blend, every batch, third-party verified.</p>
+  </div>
+
+  <div class="card">
+    <div class="filters">
+      <label>Blend
+        <select>
+          <option>Any</option>
+          <option>PROTECT</option>
+          <option selected>FLOW</option>
+          <option>EASE</option>
+          <option>CALM</option>
+          <option>BALANCE</option>
+        </select>
+      </label>
+      <label>Lot / batch
+        <input type="text" placeholder="e.g. F-2026-003">
+      </label>
+      <label>OTA (ppb) at most
+        <input type="number" value="1.0" step="0.1">
+      </label>
+      <label>CGA (mg/g) at least
+        <input type="number" value="30" step="1">
+      </label>
+      <label>Melanoidins (mg/g) at least
+        <input type="number" placeholder="any" step="1">
+      </label>
+      <label>Acrylamide (ppb) at most
+        <input type="number" value="200" step="10">
+      </label>
+      <label>Date from
+        <input type="date" value="2026-01-01">
+      </label>
+      <label>Date to
+        <input type="date" value="2026-04-23">
+      </label>
+    </div>
+
+    <div class="stats">
+      <div class="stat accent"><div class="n">18</div><div class="l">COAs matched</div></div>
+      <div class="stat"><div class="n">&lt; 0.5</div><div class="l">avg OTA (ppb)</div></div>
+      <div class="stat"><div class="n">41.2</div><div class="l">avg CGA (mg/g)</div></div>
+      <div class="stat"><div class="n">168</div><div class="l">avg acrylamide (ppb)</div></div>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Date</th><th>Blend</th><th>Lot</th><th>Lab</th>
+          <th>OTA</th><th>CGA</th><th>Mel.</th><th>Acryl.</th><th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>2026-04-18</td><td><span class="tag blend-flow">FLOW</span></td><td>F-2026-008</td><td>Silliker</td><td>&lt;0.5</td><td>42.1</td><td>18.4</td><td>156</td><td><span class="tag">Pass</span></td></tr>
+        <tr><td>2026-04-05</td><td><span class="tag blend-flow">FLOW</span></td><td>F-2026-007</td><td>Mérieux</td><td>&lt;0.5</td><td>40.8</td><td>17.9</td><td>172</td><td><span class="tag">Pass</span></td></tr>
+        <tr><td>2026-03-22</td><td><span class="tag blend-flow">FLOW</span></td><td>F-2026-006</td><td>Silliker</td><td>0.6</td><td>38.9</td><td>18.1</td><td>181</td><td><span class="tag warn">Review</span></td></tr>
+        <tr><td>2026-03-10</td><td><span class="tag blend-flow">FLOW</span></td><td>F-2026-005</td><td>Silliker</td><td>&lt;0.5</td><td>41.5</td><td>17.6</td><td>164</td><td><span class="tag">Pass</span></td></tr>
+        <tr><td>2026-02-26</td><td><span class="tag blend-flow">FLOW</span></td><td>F-2026-004</td><td>Mérieux</td><td>&lt;0.5</td><td>39.7</td><td>18.8</td><td>159</td><td><span class="tag">Pass</span></td></tr>
+        <tr><td>2026-02-14</td><td><span class="tag blend-flow">FLOW</span></td><td>F-2026-003</td><td>Silliker</td><td>&lt;0.5</td><td>42.6</td><td>18.2</td><td>148</td><td><span class="tag">Pass</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ================== BIBLIOGRAPHY ================== -->
+<section class="panel" id="tab-bibliography">
+  <div class="panel-intro">
+    <h1 class="serif">Bibliography</h1>
+    <p>The 448 article research catalog, DOI keyed. 172 rows are open access. Rows with ingested full text are retrievable in Chat.</p>
+  </div>
+
+  <div class="card">
+    <div class="filters">
+      <label>Topic category
+        <select>
+          <option>Any</option>
+          <option>Cancer</option>
+          <option>Cardiovascular</option>
+          <option selected>Type II Diabetes</option>
+          <option>Liver / GI</option>
+          <option>Mental Health</option>
+          <option>Alzheimer's</option>
+          <option>Parkinson's</option>
+          <option>Longevity</option>
+          <option>Performance</option>
+          <option>Obesity</option>
+          <option>Depression</option>
+          <option>Related</option>
+        </select>
+      </label>
+      <label>Rights to download
+        <select>
+          <option>Any</option>
+          <option selected>Open Access</option>
+          <option>Free via PMC</option>
+          <option>Free access</option>
+          <option>No / Subscription</option>
+        </select>
+      </label>
+      <label>Year from <input type="number" value="2010"></label>
+      <label>Year to <input type="number" value="2026"></label>
+      <label>Full text ingested
+        <select><option>Any</option><option selected>Ingested only</option><option>Not yet</option></select>
+      </label>
+      <label>Search title
+        <input type="text" placeholder="chlorogenic, mycotoxin…">
+      </label>
+    </div>
+
+    <div class="stats">
+      <div class="stat accent"><div class="n">448</div><div class="l">total rows</div></div>
+      <div class="stat"><div class="n">447</div><div class="l">with DOI</div></div>
+      <div class="stat"><div class="n">172</div><div class="l">open access</div></div>
+      <div class="stat"><div class="n">29</div><div class="l">full text ingested</div></div>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Year</th><th>Title</th><th>Topic</th>
+          <th>Rights</th><th>PDF</th><th>DOI</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2009</td>
+          <td>Coffee Consumption and Risk of Type 2 Diabetes Mellitus: A Meta-Analysis</td>
+          <td><span class="tag slate">Type II Diabetes</span></td>
+          <td><span class="tag">Open Access</span></td>
+          <td>✓</td>
+          <td class="small"><a href="https://doi.org/10.1007/s00125-009-1516-3">10.1007/s00125-009-1516-3</a></td>
+        </tr>
+        <tr>
+          <td>2017</td>
+          <td>Association of Coffee Consumption with Total and Cause-Specific Mortality in 9 European Countries</td>
+          <td><span class="tag slate">Longevity</span></td>
+          <td><span class="tag">Open Access</span></td>
+          <td>✓</td>
+          <td class="small"><a href="https://doi.org/10.7326/M16-2472">10.7326/M16-2472</a></td>
+        </tr>
+        <tr>
+          <td>2016</td>
+          <td>Effects of Trigonelline, an Alkaloid Present in Coffee, on Diabetes Induced Disorders</td>
+          <td><span class="tag slate">Type II Diabetes</span></td>
+          <td><span class="tag">Open Access</span></td>
+          <td>✓</td>
+          <td class="small"><a>10.3390/nu8030133</a></td>
+        </tr>
+        <tr>
+          <td>2010</td>
+          <td>Ochratoxin A: Occurrence, Toxicology, and Mechanisms of Action</td>
+          <td><span class="tag slate">Related</span></td>
+          <td><span class="tag">Open Access</span></td>
+          <td>✓</td>
+          <td class="small"><a>10.3390/toxins2040461</a></td>
+        </tr>
+        <tr>
+          <td>2012</td>
+          <td>Association of Coffee Drinking with Total and Cause-Specific Mortality (NEJM)</td>
+          <td><span class="tag slate">Longevity</span></td>
+          <td><span class="tag escalate">Subscription</span></td>
+          <td>✓</td>
+          <td class="small"><a>10.1056/NEJMoa1112010</a></td>
+        </tr>
+        <tr>
+          <td>2019</td>
+          <td>Occurrence of the Ochratoxin A Degradation Product 2'R Ochratoxin A in Coffee</td>
+          <td><span class="tag slate">Related</span></td>
+          <td><span class="tag">Open Access</span></td>
+          <td>✓</td>
+          <td class="small"><a>10.3390/toxins11060329</a></td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>Coffee Chlorogenic Acids Incorporation for Bioactivity Enhancement</td>
+          <td><span class="tag slate">Related</span></td>
+          <td><span class="tag">Open Access</span></td>
+          <td>✓</td>
+          <td class="small"><a>10.3390/molecules27113400</a></td>
+        </tr>
+        <tr>
+          <td>2014</td>
+          <td>Coffee, Caffeine, and Health Outcomes: An Umbrella Review</td>
+          <td><span class="tag slate">Related</span></td>
+          <td><span class="tag warn">Free via PMC</span></td>
+          <td>✓</td>
+          <td class="small"><a>10.1146/annurev-nutr-071816-064941</a></td>
+        </tr>
+        <tr class="muted">
+          <td>2023</td>
+          <td>Coffee and Cognitive Decline: A Longitudinal Cohort Analysis</td>
+          <td><span class="tag slate">Alzheimer's</span></td>
+          <td><span class="tag warn">Free via PMC</span></td>
+          <td>—</td>
+          <td class="small"><a>10.xxxx/…</a></td>
+        </tr>
+        <tr class="muted">
+          <td>2021</td>
+          <td>Gut Microbiome Modulation by Coffee Polyphenols</td>
+          <td><span class="tag slate">Related</span></td>
+          <td><span class="tag escalate">Subscription</span></td>
+          <td>—</td>
+          <td class="small"><a>10.xxxx/…</a></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="muted small" style="margin-top: 14px;">
+      Showing 10 of 448. Muted rows have no ingested PDF yet and remain catalog only until the open access fetcher resolves them.
+    </div>
+  </div>
+</section>
+
+<!-- ================== EDITOR QUEUE ================== -->
+<section class="panel" id="tab-editor">
+  <div class="panel-intro">
+    <h1 class="serif">Editor Queue</h1>
+    <p>Escalations and recent messages for labelling. Good answers get promoted to canon so the next person asking the same question gets an instant hit.</p>
+  </div>
+
+  <div class="stats">
+    <div class="stat accent"><div class="n">4</div><div class="l">escalations today</div></div>
+    <div class="stat"><div class="n">12</div><div class="l">recent messages</div></div>
+    <div class="stat"><div class="n">3</div><div class="l">promoted this week</div></div>
+    <div class="stat"><div class="n">2 / 3</div><div class="l">manual updates used</div></div>
+  </div>
+
+  <h3 style="margin: 28px 0 12px;">Escalations</h3>
+
+  <div class="card tight escalated-card">
+    <div class="small muted">2026-04-23 · 09:12 · jess@puritycoffee.com</div>
+    <h4 style="margin: 6px 0;">What was the OTA result on the CALM batch from last March?</h4>
+    <div class="small" style="margin-top: 4px;">
+      <span class="tag escalate">insufficient_evidence</span>
+      <span class="tag slate">confidence 0.28</span>
+      <span class="muted">· 0 chunks · classification: coa</span>
+    </div>
+    <div class="action-row">
+      <button class="btn">Locate COA in Drive</button>
+      <button class="btn ghost">Trigger manual update</button>
+      <button class="btn ghost">Mark resolved</button>
+    </div>
+  </div>
+
+  <div class="card tight escalated-card">
+    <div class="small muted">2026-04-23 · 08:41 · andrew@puritycoffee.com</div>
+    <h4 style="margin: 6px 0;">Does CALM have any cafestol since it is decaf?</h4>
+    <div class="small" style="margin-top: 4px;">
+      <span class="tag escalate">low_confidence</span>
+      <span class="tag slate">confidence 0.48</span>
+      <span class="muted">· 3 chunks · classification: compound</span>
+    </div>
+    <div class="action-row">
+      <button class="btn">Review and draft answer</button>
+      <button class="btn ghost">Promote to canon</button>
+      <button class="btn ghost">Flag for Ildi</button>
+    </div>
+  </div>
+
+  <h3 style="margin: 28px 0 12px;">Recent messages to label</h3>
+
+  <div class="card tight">
+    <div class="small muted">2026-04-22 · 16:04 · support@puritycoffee.com</div>
+    <h4 style="margin: 6px 0;">Why is PROTECT a lighter roast than EASE?</h4>
+    <div class="small" style="margin-top: 4px;">
+      <span class="tag">answered</span>
+      <span class="tag slate">confidence 0.88</span>
+      <span class="muted">· canon hit · classification: blend</span>
+    </div>
+    <div class="action-row">
+      <button class="btn ghost">Good</button>
+      <button class="btn ghost">Needs edit</button>
+      <button class="btn ghost">Promote to canon</button>
+    </div>
+  </div>
+
+  <div class="card tight">
+    <div class="small muted">2026-04-22 · 14:22 · wholesale@puritycoffee.com</div>
+    <h4 style="margin: 6px 0;">Is Purity's decaf process chemical free?</h4>
+    <div class="small" style="margin-top: 4px;">
+      <span class="tag">answered</span>
+      <span class="tag slate">confidence 0.91</span>
+      <span class="muted">· llm · classification: process</span>
+    </div>
+    <div class="action-row">
+      <button class="btn ghost">Good</button>
+      <button class="btn ghost">Needs edit</button>
+      <button class="btn gold">Promote to canon</button>
+    </div>
+  </div>
+</section>
+
+<!-- ==== Brand voice moment at the footer ==== -->
+<div style="margin-top: 48px; text-align: center;">
+  <div class="pullquote" style="display: inline-block; border-left: 0; padding: 0;">
+    Crafted for Health.
+  </div>
+</div>
+
+</div>
+
+<script>
+  const tabs = document.querySelectorAll('nav.tabs button');
+  const panels = document.querySelectorAll('.panel');
+  tabs.forEach(btn => btn.addEventListener('click', () => {
+    const t = btn.dataset.tab;
+    tabs.forEach(b => b.classList.toggle('active', b === btn));
+    panels.forEach(p => p.classList.toggle('active', p.id === 'tab-' + t));
+  }));
+</script>
+
+</body>
+</html>

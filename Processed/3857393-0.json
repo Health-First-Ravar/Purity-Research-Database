@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "status": "UNRESOLVED",
+  "product_key": null,
+  "report_number": "3857393-0",
+  "test_date": "2022-10-28",
+  "sample_name": "Sao Pedro Brazil Honey Eurofins Sample: 12317563",
+  "lot_or_po": "rt",
+  "supersedes": null,
+  "superseded_by": null,
+  "lab": "Eurofins (inferred)",
+  "serving_size_g": 100.0,
+  "source_file": "/Users/jeremybehne/Library/CloudStorage/GoogleDrive-jravar@puritycoffee.com/My Drive/Purity-Lab-Data/COAs/3857393-0_COA.pdf",
+  "source_hash": "54ce66d436a7ab93",
+  "parse_confidence": 1.0,
+  "parse_notes": [
+    "pages=1 tables=1",
+    "text_rows=5"
+  ],
+  "analytes": [
+    {
+      "analyte": "Lead",
+      "panel": "heavy_metals",
+      "value_normalized": 5.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<5.00",
+      "unit_as_reported": "ppb",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Mercury",
+      "panel": "heavy_metals",
+      "value_normalized": 5.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<5.00",
+      "unit_as_reported": "ppb",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Cadmium",
+      "panel": "heavy_metals",
+      "value_normalized": 5.53,
+      "unit_normalized": "ppb",
+      "value_as_reported": "5.53",
+      "unit_as_reported": "ppb",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Arsenic",
+      "panel": "heavy_metals",
+      "value_normalized": 10.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<10.0",
+      "unit_as_reported": "ppb",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Nickel",
+      "panel": "other",
+      "value_normalized": 236.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "236",
+      "unit_as_reported": "ppb",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    }
+  ],
+  "ingested_at": "2026-04-27T05:11:33+00:00"
+}

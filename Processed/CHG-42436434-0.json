@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "status": "UNRESOLVED",
+  "product_key": null,
+  "report_number": "CHG-42436434-0",
+  "test_date": "2019-06-07",
+  "sample_name": "19-905 / Lifeboost Meium Ground",
+  "lot_or_po": null,
+  "supersedes": null,
+  "superseded_by": null,
+  "lab": "Silliker / M\u00e9rieux NutriSciences",
+  "serving_size_g": null,
+  "source_file": "/Users/jeremybehne/Library/CloudStorage/GoogleDrive-jravar@puritycoffee.com/My Drive/Purity-Lab-Data/COAs/COA-7-Jun-19-42436434-0.pdf",
+  "source_hash": "f96f4365067c4dbe",
+  "parse_confidence": 1.0,
+  "parse_notes": [
+    "pages=2 tables=4",
+    "silliker_rows=13",
+    "retest:Acrylamide:kept='200 ppb (w/w)' prior=[{'value_raw': '190', 'unit_raw': 'ppb (w/w)', 'source_row_text': \"Acrylamide 190 ppb (w/w) Int'l LC/MS/MS H146 6/7/19\"}, {'value_raw': '180', 'unit_raw': 'ppb (w/w)', 'source_row_text': \"Acrylamide 180 ppb (w/w) Int'l LC/MS/MS H146 6/7/19\"}, {'value_raw': '180', 'unit_raw': 'ppb (w/w)', 'source_row_text': \"Acrylamide 180 ppb (w/w) Int'l LC/MS/MS H146 6/7/19\"}]",
+    "retest:Yeast:kept='<10 /g' prior=[{'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Yeast <10 /g'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Yeast <10 /g'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Yeast <10 /g'}]",
+    "retest:Mold:kept='<10 /g' prior=[{'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Mold <10 /g'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Mold <10 /g'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Mold <10 /g'}]"
+  ],
+  "analytes": [
+    {
+      "analyte": "Acrylamide",
+      "panel": "acrylamide",
+      "value_normalized": 200.0,
+      "unit_normalized": "ppb (w/w)",
+      "value_as_reported": "200",
+      "unit_as_reported": "ppb (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 3
+    },
+    {
+      "analyte": "Ochratoxin by HPLC",
+      "panel": "mycotoxins",
+      "value_normalized": 0.2,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.2",
+      "unit_as_reported": "mcg/kg",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Yeast",
+      "panel": "micro",
+      "value_normalized": 10.0,
+      "unit_normalized": "/g",
+      "value_as_reported": "<10",
+      "unit_as_reported": "/g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 3
+    },
+    {
+      "analyte": "Mold",
+      "panel": "micro",
+      "value_normalized": 10.0,
+      "unit_normalized": "/g",
+      "value_as_reported": "<10",
+      "unit_as_reported": "/g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 3
+    }
+  ],
+  "ingested_at": "2026-04-27T05:11:55+00:00"
+}
