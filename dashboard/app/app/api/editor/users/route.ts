@@ -73,7 +73,7 @@ export async function POST(req: NextRequest) {
     ?? (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'http://localhost:3000');
 
   const { data: invited, error: inviteErr } = await adb.auth.admin.inviteUserByEmail(email, {
-    redirectTo: `${siteOrigin}/chat`,
+    redirectTo: `${siteOrigin}/auth/callback?type=invite`,
   });
   if (inviteErr) {
     // If the user already exists, surface that distinctly so the UI can
