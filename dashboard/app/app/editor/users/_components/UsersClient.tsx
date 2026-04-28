@@ -42,6 +42,7 @@ export function UsersClient({ currentUserId }: { currentUserId: string }) {
   const [role, setRole] = useState<Role>('customer_service');
   // per-row editing state
   const [editingName, setEditingName] = useState<Record<string, string>>({});
+  const [editingPassword, setEditingPassword] = useState<Record<string, string>>({});
   const [confirmDelete, setConfirmDelete] = useState<string | null>(null);
   const toast = useToast();
 
@@ -99,6 +100,30 @@ export function UsersClient({ currentUserId }: { currentUserId: string }) {
     }
   }
 
+  async function savePassword(id: string) {
+    const password = editingPassword[id] ?? '';
+    if (password.length < 8) {
+      toast.push({ kind: 'error', message: 'Password must be at least 8 characters.' });
+      return;
+    }
+    setBusy(true);
+    try {
+      const res = await fetch(`/api/editor/users?id=${encodeURIComponent(id)}`, {
+        method: 'PATCH',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ password }),
+      });
+      const body = await res.json();
+      if (!res.ok) throw new Error(body.message ?? body.error ?? 'Update failed');
+      toast.push({ kind: 'success', message: 'Password updated.' });
+      setEditingPassword((prev) => { const next = { ...prev }; delete next[id]; return next; });
+    } catch (e) {
+      toast.push({ kind: 'error', message: String(e) });
+    } finally {
+      setBusy(false);
+    }
+  }
+
   async function saveName(id: string) {
     const full_name = editingName[id] ?? '';
     setBusy(true);
@@ -147,6 +172,7 @@ export function UsersClient({ currentUserId }: { currentUserId: string }) {
           {users?.map((u) => {
             const isSelf = u.id === currentUserId;
             const isEditingThisName = u.id in editingName;
+            const isEditingThisPassword = u.id in editingPassword;
             const isConfirmingDelete = confirmDelete === u.id;
             return (
               <li key={u.id} className="border-b border-purity-bean/5 px-4 py-3 text-sm last:border-b-0 dark:border-purity-paper/5">
@@ -196,6 +222,34 @@ export function UsersClient({ currentUserId }: { currentUserId: string }) {
                           ✎
                         </button>
                       </div>
+                    )}
+
+                    {/* Set password — inline, admin only */}
+                    {isEditingThisPassword ? (
+                      <form
+                        onSubmit={(e) => { e.preventDefault(); savePassword(u.id); }}
+                        className="mt-1.5 flex items-center gap-1.5"
+                      >
+                        <input
+                          autoFocus
+                          type="password"
+                          value={editingPassword[u.id]}
+                          onChange={(e) => setEditingPassword((prev) => ({ ...prev, [u.id]: e.target.value }))}
+                          disabled={busy}
+                          placeholder="New password (min 8)"
+                          className="rounded border border-purity-bean/20 bg-transparent px-2 py-0.5 text-xs outline-none focus:border-purity-green disabled:opacity-50 dark:border-purity-paper/20 dark:text-purity-paper"
+                        />
+                        <button type="submit" disabled={busy} className="text-[11px] text-purity-green hover:underline disabled:opacity-50 dark:text-purity-aqua">set</button>
+                        <button type="button" onClick={() => setEditingPassword((prev) => { const n = { ...prev }; delete n[u.id]; return n; })} className="text-[11px] text-purity-muted hover:underline dark:text-purity-mist">cancel</button>
+                      </form>
+                    ) : (
+                      <button
+                        onClick={() => setEditingPassword((prev) => ({ ...prev, [u.id]: '' }))}
+                        className="mt-1 text-[10px] text-purity-muted/40 hover:text-purity-green dark:text-purity-mist/40 dark:hover:text-purity-aqua"
+                        title="Set password"
+                      >
+                        🔑 set password
+                      </button>
                     )}
                   </div>
 

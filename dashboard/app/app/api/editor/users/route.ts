@@ -152,15 +152,22 @@ export async function PATCH(req: NextRequest) {
   const id = url.searchParams.get('id');
   if (!id) return NextResponse.json({ error: 'id query param required' }, { status: 400 });
 
-  let body: { role?: string; full_name?: string };
+  let body: { role?: string; full_name?: string; password?: string };
   try { body = await req.json(); } catch { return NextResponse.json({ error: 'invalid_json' }, { status: 400 }); }
 
   const update: Record<string, unknown> = {};
   if (body.role && VALID_ROLES.has(body.role)) update.role = body.role;
   if (typeof body.full_name === 'string') update.full_name = body.full_name.trim() || null;
 
-  if (Object.keys(update).length === 0) {
-    return NextResponse.json({ error: 'no_changes', message: 'Pass role or full_name.' }, { status: 400 });
+  const newPassword = typeof body.password === 'string' ? body.password.trim() : '';
+  const hasPasswordChange = newPassword.length > 0;
+
+  if (hasPasswordChange && newPassword.length < 8) {
+    return NextResponse.json({ error: 'password_too_short', message: 'Password must be at least 8 characters.' }, { status: 400 });
+  }
+
+  if (Object.keys(update).length === 0 && !hasPasswordChange) {
+    return NextResponse.json({ error: 'no_changes', message: 'Pass role, full_name, or password.' }, { status: 400 });
   }
 
   // Guard: don't let an admin demote themselves accidentally and lock the system out.
@@ -172,8 +179,18 @@ export async function PATCH(req: NextRequest) {
   }
 
   const adb = supabaseAdmin();
-  const { error } = await adb.from('profiles').update(update).eq('id', id);
-  if (error) return NextResponse.json({ error: error.message }, { status: 500 });
 
-  return NextResponse.json({ ok: true, updated: Object.keys(update) });
+  // Set password via auth.admin (bypasses the user needing to know their old password).
+  if (hasPasswordChange) {
+    const { error: pwErr } = await adb.auth.admin.updateUserById(id, { password: newPassword });
+    if (pwErr) return NextResponse.json({ error: pwErr.message }, { status: 500 });
+  }
+
+  // Update profile fields if any changed.
+  if (Object.keys(update).length > 0) {
+    const { error } = await adb.from('profiles').update(update).eq('id', id);
+    if (error) return NextResponse.json({ error: error.message }, { status: 500 });
+  }
+
+  return NextResponse.json({ ok: true, updated: [...Object.keys(update), ...(hasPasswordChange ? ['password'] : [])] });
 }

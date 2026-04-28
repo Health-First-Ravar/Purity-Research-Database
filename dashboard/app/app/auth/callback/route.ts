@@ -1,8 +1,9 @@
 // /auth/callback — exchanges the PKCE code that Supabase appends to the
 // redirectTo URL and sends the user to the right place.
 //
-// Invite flow:  /auth/callback?code=...&type=invite  → /auth/update-password
-// Normal flow:  /auth/callback?code=...&next=/chat   → /chat (or next param)
+// Invite flow:   /auth/callback?code=...&type=invite   → /auth/update-password
+// Recovery flow: /auth/callback?code=...&type=recovery → /auth/update-password
+// Normal flow:   /auth/callback?code=...&next=/chat    → /chat (or next param)
 
 import { NextRequest, NextResponse } from 'next/server';
 import { cookies } from 'next/headers';
@@ -14,11 +15,12 @@ export async function GET(req: NextRequest) {
   const { searchParams, origin } = new URL(req.url);
   const code = searchParams.get('code');
   const next = searchParams.get('next') ?? '/chat';
-  const type = searchParams.get('type'); // 'invite' when coming from an invite email
+  const type = searchParams.get('type'); // 'invite' | 'recovery' | undefined
 
   if (code) {
     // Build the redirect response first so we can attach cookies to it.
-    const redirectPath = type === 'invite' ? '/auth/update-password' : next;
+    const needsPasswordSet = type === 'invite' || type === 'recovery';
+    const redirectPath = needsPasswordSet ? '/auth/update-password' : next;
     const response = NextResponse.redirect(`${origin}${redirectPath}`);
 
     const cookieStore = await cookies();
