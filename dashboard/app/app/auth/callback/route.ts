@@ -7,7 +7,7 @@
 
 import { NextRequest, NextResponse } from 'next/server';
 import { cookies } from 'next/headers';
-import { createServerClient } from '@supabase/ssr';
+import { createServerClient, type CookieOptions } from '@supabase/ssr';
 
 export const dynamic = 'force-dynamic';
 
@@ -29,14 +29,14 @@ export async function GET(req: NextRequest) {
       process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
       {
         cookies: {
-          get: (name) => cookieStore.get(name)?.value,
+          get: (name: string) => cookieStore.get(name)?.value,
           // Write to both the cookie store and the outgoing redirect response
           // so the session is available immediately on the next request.
-          set: (name, value, options) => {
+          set: (name: string, value: string, options: CookieOptions) => {
             cookieStore.set(name, value, options);
             response.cookies.set(name, value, options);
           },
-          remove: (name, options) => {
+          remove: (name: string, options: CookieOptions) => {
             cookieStore.set(name, '', options);
             response.cookies.set(name, '', options);
           },
