@@ -1,6 +1,12 @@
 // Shared sync runner used by both /api/update/cron and /api/update/manual.
 // Pulls newly-modified files from the configured Drive folders, detects real
-// changes via sha256, extracts text, chunks, embeds, and logs the job.
+// changes via Drive md5Checksum (fast, no download) + sha256 on download
+// (exact verify), extracts text, chunks, embeds, and logs the job.
+//
+// To avoid serverless timeouts each invocation processes at most BATCH_SIZE
+// *new or changed* files. Files already synced are skipped instantly via the
+// stored drive_md5 in sources.metadata — no download needed. Trigger again
+// (cron or manual) to pick up remaining files.
 //
 // Env vars required:
 //   DRIVE_COA_FOLDER_ID         — Google Drive folder for COA PDFs
@@ -20,6 +26,7 @@ type SyncResult = {
   sources_added: number;
   sources_updated: number;
   chunks_embedded: number;
+  has_more?: boolean;
   error?: string;
 };
 
@@ -33,6 +40,11 @@ const FOLDERS: { id: string | undefined; kind: string }[] = [
 // boundaries so retrieval doesn't miss a sentence split across two chunks.
 const CHUNK_SIZE    = 2000;
 const CHUNK_OVERLAP = 200;
+
+// Max new-or-changed files to fully process (download + embed) per invocation.
+// Already-synced files are skipped instantly via stored drive_md5 so they
+// don't count toward this limit and add only ~10ms each.
+const BATCH_SIZE = 10;
 
 function driveClient() {
   const raw = process.env.GOOGLE_SERVICE_ACCOUNT_JSON;
@@ -90,27 +102,49 @@ export async function runSync(args: SyncArgs): Promise<SyncResult> {
 
   try {
     const drive = driveClient();
-    for (const { id, kind } of FOLDERS) {
+    let newlyProcessed = 0; // counts files that required a download this run
+    let hitBatchLimit = false;
+
+    outer: for (const { id, kind } of FOLDERS) {
       if (!id) continue; // env var not set — skip this folder
       let pageToken: string | undefined;
       do {
         const list = await drive.files.list({
           q: `'${id}' in parents and trashed=false`,
-          fields: 'nextPageToken, files(id, name, mimeType, modifiedTime, md5Checksum)',
+          fields: 'nextPageToken, files(id, name, mimeType, md5Checksum)',
           pageSize: 100,
           pageToken,
         });
         for (const f of list.data.files ?? []) {
           if (!f.id || !f.name) continue;
           result.sources_checked++;
-          const r = await syncOne(sb, drive, { fileId: f.id, name: f.name, mimeType: f.mimeType ?? '', kind });
-          if (r === 'new')      result.sources_added++;
-          if (r === 'updated')  result.sources_updated++;
+
+          const r = await syncOne(sb, drive, {
+            fileId: f.id,
+            name: f.name,
+            mimeType: f.mimeType ?? '',
+            kind,
+            driveMd5: f.md5Checksum ?? null,
+          });
+
+          if (r === 'new')     result.sources_added++;
+          if (r === 'updated') result.sources_updated++;
           if (typeof r === 'number') result.chunks_embedded += r;
+
+          // Any non-null result means we downloaded the file this run.
+          if (r !== null) {
+            newlyProcessed++;
+            if (newlyProcessed >= BATCH_SIZE) {
+              hitBatchLimit = true;
+              break outer; // remaining files will be picked up next run
+            }
+          }
         }
         pageToken = list.data.nextPageToken ?? undefined;
       } while (pageToken);
     }
+
+    if (hitBatchLimit) result.has_more = true;
 
     await sb.from('update_jobs').update({
       status: 'success',
@@ -135,26 +169,39 @@ export async function runSync(args: SyncArgs): Promise<SyncResult> {
 async function syncOne(
   sb: ReturnType<typeof supabaseAdmin>,
   drive: ReturnType<typeof driveClient>,
-  f: { fileId: string; name: string; mimeType: string; kind: string },
+  f: { fileId: string; name: string; mimeType: string; kind: string; driveMd5: string | null },
 ): Promise<'new' | 'updated' | number | null> {
   // Only handle PDFs.
   if (!f.mimeType.includes('pdf') && !f.name.toLowerCase().endsWith('.pdf')) return null;
 
-  // Check if we already have this file with an unchanged sha256.
+  // Check if we already have this file.
   const { data: existing } = await sb
     .from('sources')
-    .select('id, sha256')
+    .select('id, sha256, metadata')
     .eq('drive_file_id', f.fileId)
     .is('valid_until', null)
     .maybeSingle();
+
+  // Fast skip: if Drive's md5 matches what we stored last time, the file
+  // hasn't changed — no download needed.
+  if (existing && f.driveMd5) {
+    const stored = (existing.metadata as Record<string, unknown> | null)?.drive_md5;
+    if (stored === f.driveMd5) return null;
+  }
 
   // Download PDF.
   const dl = await drive.files.get({ fileId: f.fileId, alt: 'media' }, { responseType: 'arraybuffer' });
   const buf = Buffer.from(dl.data as ArrayBuffer);
   const sha = createHash('sha256').update(buf).digest('hex');
 
-  // If unchanged, skip.
-  if (existing && existing.sha256 === sha) return null;
+  // Exact-content check: if sha256 unchanged (drive_md5 wasn't stored yet),
+  // backfill drive_md5 into metadata so future runs can skip the download.
+  if (existing && existing.sha256 === sha) {
+    await sb.from('sources')
+      .update({ metadata: { ...(existing.metadata as object ?? {}), drive_md5: f.driveMd5 } })
+      .eq('id', existing.id);
+    return null; // no re-embedding needed
+  }
 
   // Retire old version if content changed.
   if (existing) {
@@ -171,7 +218,7 @@ async function syncOne(
     drive_file_id: f.fileId,
     drive_url: `https://drive.google.com/file/d/${f.fileId}/view`,
     sha256: sha,
-    metadata: { pdf_bytes: buf.byteLength },
+    metadata: { pdf_bytes: buf.byteLength, drive_md5: f.driveMd5 },
     freshness_tier: f.kind === 'coa' ? 'weekly' : 'stable',
   }).select('id').single();
 
@@ -204,5 +251,5 @@ async function syncOne(
     }
   }
 
-  return embedded; // returns count > 0 meaning chunks were created
+  return embedded; // returns chunk count > 0 meaning chunks were created
 }
