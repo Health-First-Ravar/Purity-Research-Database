@@ -40,7 +40,7 @@ export async function GET(req: NextRequest) {
         setTimeout(() => reject(new Error('token fetch timed out after 20s')), 20000)),
     ]);
     steps.token_ok = !!tok;
-    steps.token_length = typeof tok === 'string' ? tok.length : 'object';
+    steps.token_type = typeof tok;
 
     // Step 4: list files from the research folder
     const drive = google.drive({ version: 'v3', auth });
