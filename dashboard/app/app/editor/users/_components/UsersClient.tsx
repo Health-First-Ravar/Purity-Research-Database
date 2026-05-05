@@ -39,6 +39,7 @@ export function UsersClient({ currentUserId }: { currentUserId: string }) {
   const [busy, setBusy] = useState(false);
   const [email, setEmail] = useState('');
   const [name, setName] = useState('');
+  const [newPassword, setNewPassword] = useState('');
   const [role, setRole] = useState<Role>('customer_service');
   // per-row editing state
   const [editingName, setEditingName] = useState<Record<string, string>>({});
@@ -59,20 +60,35 @@ export function UsersClient({ currentUserId }: { currentUserId: string }) {
   async function invite(e: React.FormEvent) {
     e.preventDefault();
     if (!email.trim()) return;
+    const withPassword = newPassword.trim().length > 0;
+    if (withPassword && newPassword.trim().length < 8) {
+      toast.push({ kind: 'error', message: 'Password must be at least 8 characters.' });
+      return;
+    }
     setBusy(true);
     try {
       const res = await fetch('/api/editor/users', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email: email.trim(), role, full_name: name.trim() || undefined }),
+        body: JSON.stringify({
+          email: email.trim(),
+          role,
+          full_name: name.trim() || undefined,
+          password: withPassword ? newPassword.trim() : undefined,
+        }),
       });
       const body = await res.json();
-      if (!res.ok) throw new Error(body.message ?? body.error ?? 'Invite failed');
-      toast.push({ kind: 'success', message: `Invite sent to ${email}.` });
+      if (!res.ok) throw new Error(body.message ?? body.error ?? 'Failed');
+      toast.push({
+        kind: 'success',
+        message: withPassword
+          ? `User created. Send them their password manually.`
+          : `Invite sent to ${email}.`,
+      });
       setEmail('');
       setName('');
+      setNewPassword('');
       setRole('customer_service');
-      // (default reset stays at customer_service for new invites)
       await refresh();
     } catch (e) {
       toast.push({ kind: 'error', message: String(e) });
@@ -302,11 +318,12 @@ export function UsersClient({ currentUserId }: { currentUserId: string }) {
         </ul>
       </div>
 
-      {/* Invite form */}
+      {/* Create / invite form */}
       <aside className="rounded-lg border border-purity-bean/10 bg-white p-4 dark:border-purity-paper/10 dark:bg-purity-shade">
-        <h2 className="font-serif text-base">Invite a user</h2>
+        <h2 className="font-serif text-base">Add a user</h2>
         <p className="mt-1 text-[11px] text-purity-muted dark:text-purity-mist">
-          They&apos;ll get an email with a link to set their password and sign in.
+          Set a password to create the account instantly (then email them yourself).
+          Leave password blank to send a Supabase invite email instead.
         </p>
         <form onSubmit={invite} className="mt-3 space-y-3 text-sm">
           <label className="block">
@@ -326,6 +343,20 @@ export function UsersClient({ currentUserId }: { currentUserId: string }) {
             <input
               value={name}
               onChange={(e) => setName(e.target.value)}
+              disabled={busy}
+              className="mt-1 w-full rounded border border-purity-bean/20 bg-transparent px-2 py-1.5 text-sm outline-none focus:border-purity-green disabled:opacity-50 dark:border-purity-paper/20 dark:text-purity-paper"
+            />
+          </label>
+          <label className="block">
+            <span className="block text-xs font-medium text-purity-muted dark:text-purity-mist">
+              Password <span className="font-normal opacity-60">(optional — min 8 chars)</span>
+            </span>
+            <input
+              type="password"
+              autoComplete="new-password"
+              value={newPassword}
+              onChange={(e) => setNewPassword(e.target.value)}
+              placeholder="Leave blank to send invite email"
               disabled={busy}
               className="mt-1 w-full rounded border border-purity-bean/20 bg-transparent px-2 py-1.5 text-sm outline-none focus:border-purity-green disabled:opacity-50 dark:border-purity-paper/20 dark:text-purity-paper"
             />
@@ -352,7 +383,7 @@ export function UsersClient({ currentUserId }: { currentUserId: string }) {
             disabled={busy || !email.trim()}
             className="mt-1 w-full rounded bg-purity-bean px-3 py-1.5 text-xs font-medium text-purity-cream hover:bg-purity-bean/85 disabled:opacity-50 dark:bg-purity-aqua dark:text-purity-ink dark:hover:bg-purity-aqua/85"
           >
-            {busy ? 'Sending…' : 'Send invite'}
+            {busy ? 'Creating…' : newPassword.trim() ? 'Create user' : 'Send invite'}
           </button>
         </form>
       </aside>

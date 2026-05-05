@@ -55,7 +55,7 @@ export async function POST(req: NextRequest) {
   const gate = await gateEditor();
   if (gate.error) return gate.error;
 
-  let body: { email?: string; role?: string; full_name?: string };
+  let body: { email?: string; role?: string; full_name?: string; password?: string };
   try { body = await req.json(); } catch { return NextResponse.json({ error: 'invalid_json' }, { status: 400 }); }
 
   const email = (body.email ?? '').trim().toLowerCase();
@@ -64,33 +64,56 @@ export async function POST(req: NextRequest) {
   }
   const role = body.role && VALID_ROLES.has(body.role) ? body.role : 'customer_service';
   const full_name = body.full_name?.trim() || null;
+  const password = body.password?.trim() || null;
+
+  if (password && password.length < 8) {
+    return NextResponse.json({ error: 'password_too_short', message: 'Password must be at least 8 characters.' }, { status: 400 });
+  }
 
   const adb = supabaseAdmin();
+  let userId: string;
 
-  // Where the magic-link should drop the user after they accept the invite.
-  // Picks up Vercel's deploy URL automatically; falls back to a local dev URL.
-  const siteOrigin = process.env.NEXT_PUBLIC_SITE_URL
-    ?? (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'http://localhost:3000');
-
-  const { data: invited, error: inviteErr } = await adb.auth.admin.inviteUserByEmail(email, {
-    redirectTo: `${siteOrigin}/auth/callback?type=invite`,
-  });
-  if (inviteErr) {
-    // If the user already exists, surface that distinctly so the UI can
-    // suggest "edit role" instead.
-    if (/already.*registered|already exists/i.test(inviteErr.message)) {
-      return NextResponse.json({ error: 'already_exists', message: inviteErr.message }, { status: 409 });
+  if (password) {
+    // ── Direct create: no email sent, user can log in immediately ──────
+    const { data: created, error: createErr } = await adb.auth.admin.createUser({
+      email,
+      password,
+      email_confirm: true, // skip confirmation email
+    });
+    if (createErr) {
+      if (/already.*registered|already exists/i.test(createErr.message)) {
+        return NextResponse.json({ error: 'already_exists', message: createErr.message }, { status: 409 });
+      }
+      return NextResponse.json({ error: 'create_failed', message: createErr.message }, { status: 500 });
     }
-    return NextResponse.json({ error: 'invite_failed', message: inviteErr.message }, { status: 500 });
-  }
-  if (!invited?.user) {
-    return NextResponse.json({ error: 'invite_failed', message: 'Supabase did not return a user.' }, { status: 500 });
+    if (!created?.user) {
+      return NextResponse.json({ error: 'create_failed', message: 'Supabase did not return a user.' }, { status: 500 });
+    }
+    userId = created.user.id;
+  } else {
+    // ── Invite email: Supabase sends a magic link ──────────────────────
+    const siteOrigin = process.env.NEXT_PUBLIC_SITE_URL
+      ?? (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'http://localhost:3000');
+
+    const { data: invited, error: inviteErr } = await adb.auth.admin.inviteUserByEmail(email, {
+      redirectTo: `${siteOrigin}/auth/callback?type=invite`,
+    });
+    if (inviteErr) {
+      if (/already.*registered|already exists/i.test(inviteErr.message)) {
+        return NextResponse.json({ error: 'already_exists', message: inviteErr.message }, { status: 409 });
+      }
+      return NextResponse.json({ error: 'invite_failed', message: inviteErr.message }, { status: 500 });
+    }
+    if (!invited?.user) {
+      return NextResponse.json({ error: 'invite_failed', message: 'Supabase did not return a user.' }, { status: 500 });
+    }
+    userId = invited.user.id;
   }
 
   // Upsert the profile with the chosen role. The DB trigger may have already
   // created a default-role profile row; this overwrites with our values.
   const { error: profErr } = await adb.from('profiles').upsert({
-    id: invited.user.id,
+    id: userId,
     email,
     role,
     full_name,
@@ -99,14 +122,14 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({
       error: 'profile_upsert_failed',
       message: profErr.message,
-      invite_sent: true,
-      user_id: invited.user.id,
+      user_id: userId,
     }, { status: 500 });
   }
 
   return NextResponse.json({
     ok: true,
-    user: { id: invited.user.id, email, role, full_name },
+    user: { id: userId, email, role, full_name },
+    method: password ? 'created' : 'invited',
   });
 }
 
