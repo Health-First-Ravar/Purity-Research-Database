@@ -10,6 +10,8 @@ export async function GET(req: NextRequest) {
   if (!process.env.CRON_SECRET || secret !== process.env.CRON_SECRET) {
     return NextResponse.json({ error: 'unauthorized' }, { status: 401 });
   }
+  console.log('[cron] auth ok, starting runSync');
   const result = await runSync({ trigger: 'cron' });
+  console.log('[cron] runSync done:', JSON.stringify(result).slice(0, 200));
   return NextResponse.json(result);
 }

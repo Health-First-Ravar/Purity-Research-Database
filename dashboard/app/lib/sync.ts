@@ -104,12 +104,15 @@ export async function runSync(args: SyncArgs): Promise<SyncResult> {
   };
 
   try {
+    console.log('[sync] creating drive client');
     const drive = driveClient();
+    console.log('[sync] drive client ok, folders:', FOLDERS.map(f => `${f.kind}=${f.id ? f.id.slice(0,8)+'…' : 'unset'}`).join(', '));
     let newlyProcessed = 0; // counts files that required a download this run
     let hitBatchLimit = false;
 
     outer: for (const { id, kind } of FOLDERS) {
-      if (!id) continue; // env var not set — skip this folder
+      if (!id) { console.log(`[sync] skip ${kind} — no folder id`); continue; } // env var not set — skip this folder
+      console.log(`[sync] listing ${kind} folder ${id.slice(0,8)}…`);
       let pageToken: string | undefined;
       do {
         const list = await drive.files.list({
@@ -148,6 +151,7 @@ export async function runSync(args: SyncArgs): Promise<SyncResult> {
     }
 
     if (hitBatchLimit) result.has_more = true;
+    console.log(`[sync] loop done — checked:${result.sources_checked} added:${result.sources_added} chunks:${result.chunks_embedded} has_more:${result.has_more}`);
 
     await sb.from('update_jobs').update({
       status: 'success',
@@ -157,6 +161,7 @@ export async function runSync(args: SyncArgs): Promise<SyncResult> {
       sources_updated: result.sources_updated,
       chunks_embedded: result.chunks_embedded,
     }).eq('id', job_id);
+    console.log('[sync] job updated to success');
 
     return result;
   } catch (e) {
