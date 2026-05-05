@@ -12,6 +12,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { cookies } from 'next/headers';
 import { supabaseServer, supabaseAdmin } from '@/lib/supabase';
 import { isAdmin } from '@/lib/auth-roles';
+import { sendInviteEmail } from '@/lib/email';
 
 export const dynamic = 'force-dynamic';
 
@@ -91,23 +92,37 @@ export async function POST(req: NextRequest) {
     }
     userId = created.user.id;
   } else {
-    // ── Invite email: Supabase sends a magic link ──────────────────────
+    // ── Invite email: generate the magic link server-side, send via Resend ──
     const siteOrigin = process.env.NEXT_PUBLIC_SITE_URL
       ?? (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'http://localhost:3000');
 
-    const { data: invited, error: inviteErr } = await adb.auth.admin.inviteUserByEmail(email, {
-      redirectTo: `${siteOrigin}/auth/callback?type=invite`,
+    const { data: linkData, error: linkErr } = await adb.auth.admin.generateLink({
+      type: 'invite',
+      email,
+      options: { redirectTo: `${siteOrigin}/auth/callback?type=invite` },
     });
-    if (inviteErr) {
-      if (/already.*registered|already exists/i.test(inviteErr.message)) {
-        return NextResponse.json({ error: 'already_exists', message: inviteErr.message }, { status: 409 });
+    if (linkErr) {
+      if (/already.*registered|already exists/i.test(linkErr.message)) {
+        return NextResponse.json({ error: 'already_exists', message: linkErr.message }, { status: 409 });
       }
-      return NextResponse.json({ error: 'invite_failed', message: inviteErr.message }, { status: 500 });
+      return NextResponse.json({ error: 'invite_failed', message: linkErr.message }, { status: 500 });
     }
-    if (!invited?.user) {
+    if (!linkData?.user) {
       return NextResponse.json({ error: 'invite_failed', message: 'Supabase did not return a user.' }, { status: 500 });
     }
-    userId = invited.user.id;
+    userId = linkData.user.id;
+
+    // Send the invite email via Resend with branded template.
+    try {
+      await sendInviteEmail(email, linkData.properties.action_link, full_name ?? undefined);
+    } catch (e) {
+      console.error('[invite] Resend send error:', e instanceof Error ? e.message : e);
+      return NextResponse.json({
+        error: 'email_send_failed',
+        message: 'User created but invite email failed to send.',
+        user_id: userId,
+      }, { status: 500 });
+    }
   }
 
   // Upsert the profile with the chosen role. The DB trigger may have already

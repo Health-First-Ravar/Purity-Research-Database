@@ -10,6 +10,7 @@ export async function middleware(req: NextRequest) {
     return NextResponse.next();
   }
   if (pathname.startsWith('/api/update/')) return NextResponse.next();
+  if (pathname.startsWith('/api/auth/')) return NextResponse.next();
 
   const res = NextResponse.next();
   const supabase = createServerClient(

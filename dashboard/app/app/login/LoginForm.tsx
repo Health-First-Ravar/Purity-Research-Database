@@ -34,13 +34,23 @@ export function LoginForm() {
     e.preventDefault();
     setError(null);
     setBusy(true);
-    const sb = supabaseBrowser();
-    const { error } = await sb.auth.resetPasswordForEmail(email, {
-      redirectTo: `${window.location.origin}/auth/callback?type=recovery`,
-    });
-    setBusy(false);
-    if (error) { setError(error.message); return; }
-    setSent(true);
+    try {
+      const res = await fetch('/api/auth/forgot-password', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email }),
+      });
+      if (!res.ok) {
+        const body = await res.json().catch(() => ({}));
+        setError(body.error ?? 'Something went wrong. Please try again.');
+        return;
+      }
+      setSent(true);
+    } catch {
+      setError('Network error. Please try again.');
+    } finally {
+      setBusy(false);
+    }
   }
 
   function switchMode(m: Mode) {
