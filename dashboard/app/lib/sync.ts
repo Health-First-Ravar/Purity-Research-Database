@@ -115,12 +115,17 @@ export async function runSync(args: SyncArgs): Promise<SyncResult> {
       console.log(`[sync] listing ${kind} folder ${id.slice(0,8)}…`);
       let pageToken: string | undefined;
       do {
-        const list = await drive.files.list({
-          q: `'${id}' in parents and trashed=false`,
-          fields: 'nextPageToken, files(id, name, mimeType, md5Checksum)',
-          pageSize: 100,
-          pageToken,
-        });
+        const list = await Promise.race([
+          drive.files.list({
+            q: `'${id}' in parents and trashed=false`,
+            fields: 'nextPageToken, files(id, name, mimeType, md5Checksum)',
+            pageSize: 100,
+            pageToken,
+          }),
+          new Promise<never>((_, reject) =>
+            setTimeout(() => reject(new Error(`Drive list timeout for ${kind} folder`)), 45000)
+          ),
+        ]);
         for (const f of list.data.files ?? []) {
           if (!f.id || !f.name) continue;
           result.sources_checked++;
