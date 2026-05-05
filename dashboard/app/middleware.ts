@@ -9,7 +9,7 @@ export async function middleware(req: NextRequest) {
   if (PUBLIC_PATHS.some((p) => pathname === p || pathname.startsWith(p + '/'))) {
     return NextResponse.next();
   }
-  if (pathname.startsWith('/api/update/cron')) return NextResponse.next();
+  if (pathname.startsWith('/api/update/')) return NextResponse.next();
 
   const res = NextResponse.next();
   const supabase = createServerClient(
