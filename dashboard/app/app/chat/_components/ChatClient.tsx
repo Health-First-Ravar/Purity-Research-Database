@@ -145,7 +145,7 @@ export default function ChatClient() {
           className="space-y-4 rounded-lg border border-purity-bean/10 bg-white p-4 shadow-sm dark:border-purity-paper/10 dark:bg-purity-shade dark:shadow-none sm:p-5"
           aria-live="polite"
         >
-          {turns.length === 0 && (
+          {turns.length === 0 && !busy && (
             <p className="text-sm text-purity-muted dark:text-purity-mist">
               Ask a customer-service or research question. The assistant answers from the Purity
               knowledge base (brand docs, Ildi&apos;s book, 34 research papers, curated Q&amp;A).
@@ -191,6 +191,25 @@ export default function ChatClient() {
               )}
             </div>
           ))}
+          {/* Typing indicator — visible while waiting for a response */}
+          {busy && turns.length > 0 && (
+            <div aria-label="Reva is thinking…" role="status">
+              <div className="flex items-center gap-1 px-1 py-0.5">
+                <span
+                  className="h-2 w-2 animate-bounce rounded-full bg-purity-green/50 dark:bg-purity-aqua/50"
+                  style={{ animationDelay: '0ms', animationDuration: '900ms' }}
+                />
+                <span
+                  className="h-2 w-2 animate-bounce rounded-full bg-purity-green/50 dark:bg-purity-aqua/50"
+                  style={{ animationDelay: '180ms', animationDuration: '900ms' }}
+                />
+                <span
+                  className="h-2 w-2 animate-bounce rounded-full bg-purity-green/50 dark:bg-purity-aqua/50"
+                  style={{ animationDelay: '360ms', animationDuration: '900ms' }}
+                />
+              </div>
+            </div>
+          )}
           <div ref={bottomRef} aria-hidden="true" />
         </div>
 
