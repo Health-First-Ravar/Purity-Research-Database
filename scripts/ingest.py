@@ -98,6 +98,11 @@ def resolve_product(envelope: COAEnvelope, product_map: dict) -> Optional[str]:
         candidates.append(envelope.sample_name.strip())
     if envelope.lot_or_po:
         candidates.append(envelope.lot_or_po.strip())
+    # Purity often states the blend in the FILENAME ("CALM Contaminants 2024.pdf",
+    # "BALANCE Nutrition 2024.pdf"). Read that label too — this reads an existing
+    # label, it does not infer a blend that isn't written down.
+    if envelope.source_file:
+        candidates.append(Path(envelope.source_file).stem.strip())
     for c in candidates:
         if c in s2p:
             return s2p[c]

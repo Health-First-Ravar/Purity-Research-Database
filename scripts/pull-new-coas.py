@@ -50,12 +50,14 @@ NOT_COA_FILENAME = re.compile(
 )
 COA_FILENAME = re.compile(
     r"(COA|\b\d{6,8}-\d\b|Contaminants|Nutrition|Nutition|Caffeine|CGA|"
-    r"Trigonelline|ACIDO CLOROGENICO|CLOROGENICO)",
+    r"Trigonelline|[ÁA]CIDO\s+CLOROG[ÉE]NICO|CLOROG[ÉE]NICO|informe)",
     re.IGNORECASE,
 )
 COA_TEXT = re.compile(
     r"(certificate of analysis|ochratoxin|aflatoxin|mycotoxin|chlorogenic|"
-    r"acrylamide|water activity|sample id|report number|eurofins|método|method of analysis)",
+    r"clorog[ée]nico|crom\s*-?\s*mass|universidad industrial de santander|"
+    r"informe de (?:ensayo|resultados)|trilogy|"
+    r"acrylamide|water activity|sample id|report number|eurofins|m[ée]todo|method of analysis)",
     re.IGNORECASE,
 )
 
