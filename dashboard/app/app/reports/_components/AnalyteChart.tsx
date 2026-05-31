@@ -45,6 +45,8 @@ const BLEND_COLORS: Record<string, string> = {
   FLOW:    '#009F8D',
   EASE:    '#B04A2E',
   CALM:    '#2E3A3A',
+  BALANCE: '#C9962E',
+  ALZ:     '#6B4A8A',
 };
 const FALLBACK_COLORS = ['#7c6b5a', '#5a7c6b', '#6b7c5a', '#7c5a6b'];
 
