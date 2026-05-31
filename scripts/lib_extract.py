@@ -250,6 +250,38 @@ def extract_pdf(path: Path) -> COAEnvelope:
         env.parse_confidence = max(0.0, min(1.0, env.parse_confidence))
         return env
 
+    # Trilogy Analytical Laboratories — tabular contaminant panel.
+    if RE_TRILOGY_SIG.search(full_text):
+        env.lab = "Trilogy Analytical Laboratories"
+        _extract_trilogy(env, full_text)
+        if not env.report_number:
+            env.parse_confidence -= 0.25
+            env.parse_notes.append("missing_report_number")
+        if not env.test_date:
+            env.parse_confidence -= 0.25
+            env.parse_notes.append("missing_test_date")
+        if not env.analytes:
+            env.parse_confidence -= 0.4
+            env.parse_notes.append("no_analyte_rows_extracted")
+        env.parse_confidence = max(0.0, min(1.0, env.parse_confidence))
+        return env
+
+    # CROM-MASS / UIS — Spanish chlorogenic-acid report.
+    if RE_CROMASS_SIG.search(full_text):
+        env.lab = "CROM-MASS / UIS"
+        _extract_cromass(env, full_text)
+        if not env.report_number:
+            env.parse_confidence -= 0.25
+            env.parse_notes.append("missing_report_number")
+        if not env.test_date:
+            env.parse_confidence -= 0.25
+            env.parse_notes.append("missing_test_date")
+        if not env.analytes:
+            env.parse_confidence -= 0.4
+            env.parse_notes.append("no_analyte_rows_extracted")
+        env.parse_confidence = max(0.0, min(1.0, env.parse_confidence))
+        return env
+
     if m := RE_REPORT.search(full_text):
         env.report_number = m.group(1)
     if m := RE_DATE_STARTED.search(full_text):
@@ -425,6 +457,114 @@ def _extract_silliker(env: COAEnvelope, full_text: str) -> None:
     env.analytes.extend(rows)
     if rows:
         env.parse_notes.append(f"silliker_rows={len(rows)}")
+
+
+# --------------- Trilogy Analytical Laboratories (tabular layout) ---------------
+# Distinct from Eurofins: results live in a fixed-width table, values are often
+# '<RL' (below reporting limit) with the numeric limit in its own column, and the
+# unit is NOT at line-end (analysis date / method / reference follow it).
+RE_TRILOGY_SIG = re.compile(r"Trilogy\s+(?:Analytical|ID)", re.I)
+RE_TRILOGY_CERT = re.compile(r"Certificate\s*No\.?\s*[:#]?\s*([A-Za-z0-9\-]+)", re.I)
+RE_TRILOGY_REPORTED = re.compile(r"Date\s*Reported\s*[:]?\s*(\d{1,2}/\d{1,2}/\d{4})", re.I)
+RE_TRILOGY_SAMPLE = re.compile(r"Client\s*Sample\s*ID\s*[:]?\s*(.+?)\s*(?:Certificate\s*No|$)", re.I)
+RE_TRILOGY_PO = re.compile(r"P\.?O\.?\s*Number\s*[:]?\s*(.+?)\s*(?:Date\s*Reported|$)", re.I)
+# name  result(<RL|num)  unit(ppb|ppm)  MM/DD/YYYY  RL-number  RL-unit  method ...
+RE_TRILOGY_ROW = re.compile(
+    r"^(?P<name>[A-Za-z0-9][A-Za-z0-9 \-\+\(\)/]+?)\s+"
+    r"(?P<value><RL|[-+]?\d+(?:\.\d+)?)\s+"
+    r"(?P<unit>ppb|ppm)\s+"
+    r"\d{1,2}/\d{1,2}/\d{4}\s+"
+    r"(?P<rl>\d+(?:\.\d+)?)\s+(?P<rlunit>ppb|ppm)\b",
+    re.I,
+)
+
+
+def _extract_trilogy(env: COAEnvelope, full_text: str) -> None:
+    """Trilogy Analytical Laboratories COA (tabular mycotoxin/contaminant panel).
+
+    Results reported as '<RL' (below reporting limit). The numeric limit lives in
+    the 'Reporting Limit' column, so we store '<RL' as '<{limit}' to match the
+    below-LOQ convention the rest of the pipeline already understands.
+    """
+    if m := RE_TRILOGY_CERT.search(full_text):
+        env.report_number = m.group(1).strip()
+    if m := RE_TRILOGY_REPORTED.search(full_text):
+        env.test_date = iso_date(m.group(1))
+    if m := RE_TRILOGY_SAMPLE.search(full_text):
+        env.sample_name = m.group(1).strip()[:200]
+    if m := RE_TRILOGY_PO.search(full_text):
+        env.lot_or_po = m.group(1).strip()[:200]
+
+    rows: List[AnalyteRow] = []
+    for raw_line in full_text.splitlines():
+        line = raw_line.strip()
+        m = RE_TRILOGY_ROW.match(line)
+        if not m:
+            continue
+        name = m.group("name").strip()
+        rl = m.group("rl")
+        raw = m.group("value")
+        value = f"<{rl}" if raw.upper() == "<RL" else raw
+        rows.append(AnalyteRow(
+            analyte=name,
+            value_raw=value,
+            unit_raw=m.group("unit"),
+            method="LC-MS/MS",
+            loq=rl,
+            source_row_text=line,
+            panel=_guess_panel(name),
+        ))
+    env.analytes.extend(rows)
+    if rows:
+        env.parse_notes.append(f"trilogy_rows={len(rows)}")
+
+
+# --------------- CROM-MASS / UIS (Spanish chlorogenic-acid report) ---------------
+# Universidad Industrial de Santander, Colombia. Spanish, decimal-comma, single
+# bioactive (Ácido clorogénico, mg/kg). The analyte row carries no inline unit
+# (it's in the column header) and report digits may be letter-spaced in the header.
+RE_CROMASS_SIG = re.compile(r"CROM\s*-?\s*MASS|UNIVERSIDAD\s+INDUSTRIAL\s+DE\s+SANTANDER", re.I)
+RE_CROMASS_ANALISIS = re.compile(r"FECHA\s+DE\s+AN[ÁA]LISIS\s*[:]?\s*(\d{4}-\d{2}-\d{2})", re.I)
+RE_CROMASS_MUESTRA = re.compile(r"ID\s+MUESTRA\s*[:]?\s*(.+?)(?:,?\s*TIPO\s+DE\s+MATRIZ|$)", re.I)
+RE_CROMASS_CGA = re.compile(
+    r"[ÁA]cido\s+clorog[ée]nico\s+(?P<tr>[\d.,]+)\s+(?P<nmc>[\d.,]+)\s+(?P<conc>[\d.,]+)",
+    re.I,
+)
+
+
+def _eu_num(s: str) -> str:
+    """Normalize a European-formatted number to a plain decimal string."""
+    s = s.strip().replace(" ", "")
+    if "." in s and "," in s:        # 1.234,56 -> 1234.56
+        s = s.replace(".", "").replace(",", ".")
+    elif "," in s:                   # 0,02 -> 0.02
+        s = s.replace(",", ".")
+    return s
+
+
+def _extract_cromass(env: COAEnvelope, full_text: str) -> None:
+    """CROM-MASS (UIS, Colombia) chlorogenic-acid report. Spanish, decimal-comma."""
+    # Report code: header digits can be letter-spaced; join intra-number gaps first.
+    compact = re.sub(r"(?<=\d)\s+(?=\d)", "", full_text)
+    if code := re.search(r"\b(\d{5,7}\s*-\s*\d{2})\s*-\s*EC\b", compact):
+        env.report_number = re.sub(r"\s+", "", code.group(1)) + "-EC"
+    elif c2 := re.search(r"C[oó]digo\s*:?\s*([\dA-Za-z\-]+)", compact):
+        env.report_number = c2.group(1).strip()
+    if d := RE_CROMASS_ANALISIS.search(full_text):
+        env.test_date = d.group(1)
+    if mu := RE_CROMASS_MUESTRA.search(full_text):
+        env.sample_name = mu.group(1).strip()[:200]
+
+    if m := RE_CROMASS_CGA.search(full_text):
+        env.analytes.append(AnalyteRow(
+            analyte="Chlorogenic Acid",
+            value_raw=_eu_num(m.group("conc")),
+            unit_raw="mg/kg",
+            loq=_eu_num(m.group("nmc")),
+            source_row_text=m.group(0).strip(),
+            panel="cga",
+        ))
+        env.parse_notes.append("cromass_cga=1")
 
 
 def _extract_analytes_from_text(full_text: str) -> List[AnalyteRow]:

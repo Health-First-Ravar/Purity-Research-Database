@@ -3,7 +3,12 @@ name: COA Auto-Sync
 on:
   schedule:
     - cron: '0 */6 * * *'   # every 6 hours (UTC)
-  workflow_dispatch: {}       # manual "Run workflow" button
+  workflow_dispatch:          # manual "Run workflow" button
+    inputs:
+      force:
+        description: 'Re-parse ALL COAs (ignore hashes) — use after a parser change'
+        type: boolean
+        default: false
 
 permissions:
   contents: write             # commit new COAs/Processed artifacts back
@@ -51,7 +56,7 @@ jobs:
         # this step continue. Genuinely broken runs still surface as warnings,
         # and the import step below only acts on successfully-parsed Processed/.
         continue-on-error: true
-        run: python3 scripts/ingest.py
+        run: python3 scripts/ingest.py ${{ inputs.force && '--force' || '' }}
 
       - name: Import to database
         working-directory: dashboard/app
