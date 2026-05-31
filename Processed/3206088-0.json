@@ -4,14 +4,14 @@
   "product_key": null,
   "report_number": "3206088-0",
   "test_date": "2021-03-15",
-  "sample_name": "Peru SW Decaf Eurofins Sample: 10369997",
+  "sample_name": "Olam Peru SW Decaf Eurofins Sample: 10369997",
   "lot_or_po": "rt",
   "supersedes": null,
   "superseded_by": null,
   "lab": "Eurofins (inferred)",
   "serving_size_g": null,
-  "source_file": "/home/runner/work/Purity-Research-Database/Purity-Research-Database/COAs/3206088-0_COA-PeruSWMarch2021.pdf",
-  "source_hash": "6ae3ee690530a5d9",
+  "source_file": "/home/runner/work/Purity-Research-Database/Purity-Research-Database/COAs/3206088-0_COA.pdf",
+  "source_hash": "c8c12ac12f282157",
   "parse_confidence": 1.0,
   "parse_notes": [
     "pages=2 tables=1",
@@ -162,5 +162,5 @@
       "retest_sequence": 0
     }
   ],
-  "ingested_at": "2026-05-31T05:44:02+00:00"
+  "ingested_at": "2026-05-31T16:18:47+00:00"
 }
