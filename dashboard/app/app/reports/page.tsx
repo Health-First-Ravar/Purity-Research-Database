@@ -231,7 +231,7 @@ export default async function ReportsPage({ searchParams }: { searchParams: Prom
           <span className="text-xs text-purity-muted dark:text-purity-mist">Blend</span>
           <select name="blend" defaultValue={params.blend ?? ''} className="rounded border border-purity-bean/20 bg-white px-2 py-1 dark:border-purity-paper/20 dark:bg-purity-ink dark:text-purity-paper">
             <option value="">(any)</option>
-            {['PROTECT', 'FLOW', 'EASE', 'CALM'].map((b) => (
+            {['PROTECT', 'FLOW', 'EASE', 'CALM', 'BALANCE', 'ALZ'].map((b) => (
               <option key={b} value={b}>{b}</option>
             ))}
           </select>
