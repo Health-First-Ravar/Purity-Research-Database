@@ -8,12 +8,15 @@
 // Env: NEXT_PUBLIC_SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY
 
 import { readdirSync, readFileSync } from 'node:fs';
-import { join } from 'node:path';
+import { join, resolve } from 'node:path';
 import { createClient } from '@supabase/supabase-js';
 
 const PROCESSED_ARG = process.argv.indexOf('--processed');
+// Resolve Processed/ relative to the repo root so this runs anywhere (local Mac,
+// CI runner, Vercel). The importer is launched from dashboard/app, so the repo
+// root is two levels up. Override with --processed <path> or PROCESSED_DIR env.
 const DEFAULT_PROCESSED =
-  '/Users/jeremybehne/Library/CloudStorage/GoogleDrive-jravar@puritycoffee.com/My Drive/Purity-Lab-Data/Processed';
+  process.env.PROCESSED_DIR || resolve(process.cwd(), '..', '..', 'Processed');
 const PROCESSED_DIR = PROCESSED_ARG >= 0 ? process.argv[PROCESSED_ARG + 1] : DEFAULT_PROCESSED;
 const DRY = process.argv.includes('--dry');
 
