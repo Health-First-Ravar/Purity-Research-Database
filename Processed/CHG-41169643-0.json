@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "status": "UNRESOLVED",
+  "product_key": null,
+  "report_number": "CHG-41169643-0",
+  "test_date": "2018-05-05",
+  "sample_name": "GR-18-02 / Green Colombia Francisco Tamayo offer-",
+  "lot_or_po": null,
+  "supersedes": null,
+  "superseded_by": null,
+  "lab": "Silliker / M\u00e9rieux NutriSciences",
+  "serving_size_g": null,
+  "source_file": "/home/runner/work/Purity-Research-Database/Purity-Research-Database/COAs/COA-5-May-18-41169643-0 (1).pdf",
+  "source_hash": "b163ae69b6170f5b",
+  "parse_confidence": 1.0,
+  "parse_notes": [
+    "pages=1 tables=2",
+    "silliker_rows=27",
+    "retest:Ochratoxin by HPLC:kept='<0.2 mcg/kg' prior=[{'value_raw': '<0.2', 'unit_raw': 'mcg/kg', 'source_row_text': 'Ochratoxin by HPLC <0.2 mcg/kg AOAC 2000.03 5/3/18'}, {'value_raw': '<0.2', 'unit_raw': 'mcg/kg', 'source_row_text': 'Ochratoxin by HPLC <0.2 mcg/kg AOAC 2000.03 5/3/18'}]",
+    "retest:Bacillus cereus - Presumptive:kept='<10 /g' prior=[{'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Bacillus cereus - Presumptive <10 /g AOAC 980.31 5/1/18'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Bacillus cereus - Presumptive <10 /g AOAC 980.31 5/1/18'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Bacillus cereus - Presumptive <10 /g AOAC 980.31 5/1/18'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Bacillus cereus - Presumptive <10 /g AOAC 980.31 5/1/18'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Bacillus cereus - Presumptive <10 /g AOAC 980.31 5/1/18'}]",
+    "retest:Yeast:kept='<10 /g' prior=[{'value_raw': '50', 'unit_raw': '/g', 'source_row_text': 'Yeast 50 /g'}, {'value_raw': '1100', 'unit_raw': '/g', 'source_row_text': 'Yeast 1100 /g'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Yeast <10 /g'}, {'value_raw': '1100', 'unit_raw': '/g', 'source_row_text': 'Yeast 1100 /g'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Yeast <10 /g'}]",
+    "retest:Mold:kept='<10 /g' prior=[{'value_raw': '80', 'unit_raw': '/g', 'source_row_text': 'Mold 80 /g'}, {'value_raw': '100', 'unit_raw': '/g', 'source_row_text': 'Mold 100 /g'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Mold <10 /g'}, {'value_raw': '100', 'unit_raw': '/g', 'source_row_text': 'Mold 100 /g'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Mold <10 /g'}]",
+    "retest:Cadmium:kept='0.002 ppm (w/w)' prior=[{'value_raw': '0.002', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Cadmium 0.002 ppm (w/w) EPA 3050/6020 USP730 5/3/18'}, {'value_raw': '0.002', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Cadmium 0.002 ppm (w/w) EPA 3050/6020 USP730 5/3/18'}]",
+    "retest:Copper:kept='15.8 ppm (w/w)' prior=[{'value_raw': '15.8', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Copper 15.8 ppm (w/w) EPA 3050/6020 USP730 5/3/18'}, {'value_raw': '15.8', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Copper 15.8 ppm (w/w) EPA 3050/6020 USP730 5/3/18'}]"
+  ],
+  "analytes": [
+    {
+      "analyte": "Ochratoxin by HPLC",
+      "panel": "mycotoxins",
+      "value_normalized": 0.2,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.2",
+      "unit_as_reported": "mcg/kg",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 2
+    },
+    {
+      "analyte": "Bacillus cereus - Presumptive",
+      "panel": "other",
+      "value_normalized": 10.0,
+      "unit_normalized": "/g",
+      "value_as_reported": "<10",
+      "unit_as_reported": "/g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 5
+    },
+    {
+      "analyte": "Yeast",
+      "panel": "micro",
+      "value_normalized": 10.0,
+      "unit_normalized": "/g",
+      "value_as_reported": "<10",
+      "unit_as_reported": "/g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 5
+    },
+    {
+      "analyte": "Mold",
+      "panel": "micro",
+      "value_normalized": 10.0,
+      "unit_normalized": "/g",
+      "value_as_reported": "<10",
+      "unit_as_reported": "/g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 5
+    },
+    {
+      "analyte": "Cadmium",
+      "panel": "heavy_metals",
+      "value_normalized": 2.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "0.002",
+      "unit_as_reported": "ppm (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 2
+    },
+    {
+      "analyte": "Copper",
+      "panel": "other",
+      "value_normalized": 15.8,
+      "unit_normalized": "ppm (w/w)",
+      "value_as_reported": "15.8",
+      "unit_as_reported": "ppm (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 2
+    }
+  ],
+  "ingested_at": "2026-05-31T05:44:52+00:00"
+}

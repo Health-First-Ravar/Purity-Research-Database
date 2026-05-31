@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "status": "UNRESOLVED",
+  "product_key": null,
+  "report_number": "CHG-41199692-0",
+  "test_date": "2018-05-14",
+  "sample_name": "GR-18-04 / Green Honduras Santa Rosa-Atunez",
+  "lot_or_po": null,
+  "supersedes": null,
+  "superseded_by": null,
+  "lab": "Silliker / M\u00e9rieux NutriSciences",
+  "serving_size_g": null,
+  "source_file": "/home/runner/work/Purity-Research-Database/Purity-Research-Database/COAs/COA-14-May-18-41199692-0.pdf",
+  "source_hash": "a59cddb1212f5fdb",
+  "parse_confidence": 1.0,
+  "parse_notes": [
+    "pages=2 tables=4",
+    "silliker_rows=36",
+    "retest:Ochratoxin by HPLC:kept='<0.2 mcg/kg' prior=[{'value_raw': '<0.2', 'unit_raw': 'mcg/kg', 'source_row_text': 'Ochratoxin by HPLC <0.2 mcg/kg AOAC 2000.03 5/14/18'}, {'value_raw': '<0.2', 'unit_raw': 'mcg/kg', 'source_row_text': 'Ochratoxin by HPLC <0.2 mcg/kg AOAC 2000.03 5/14/18'}, {'value_raw': '<0.2', 'unit_raw': 'mcg/kg', 'source_row_text': 'Ochratoxin by HPLC <0.2 mcg/kg AOAC 2000.03 5/14/18'}, {'value_raw': '<0.2', 'unit_raw': 'mcg/kg', 'source_row_text': 'Ochratoxin by HPLC <0.2 mcg/kg AOAC 2000.03 5/14/18'}, {'value_raw': '<0.2', 'unit_raw': 'mcg/kg', 'source_row_text': 'Ochratoxin by HPLC <0.2 mcg/kg AOAC 2000.03 5/14/18'}, {'value_raw': '<0.2', 'unit_raw': 'mcg/kg', 'source_row_text': 'Ochratoxin by HPLC <0.2 mcg/kg AOAC 2000.03 5/14/18'}, {'value_raw': '<0.2', 'unit_raw': 'mcg/kg', 'source_row_text': 'Ochratoxin by HPLC <0.2 mcg/kg AOAC 2000.03 5/14/18'}, {'value_raw': '<0.2', 'unit_raw': 'mcg/kg', 'source_row_text': 'Ochratoxin by HPLC <0.2 mcg/kg AOAC 2000.03 5/14/18'}]",
+    "retest:Bacillus cereus - Presumptive:kept='<10 /g' prior=[{'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Bacillus cereus - Presumptive <10 /g AOAC 980.31 5/8/18'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Bacillus cereus - Presumptive <10 /g AOAC 980.31 5/8/18'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Bacillus cereus - Presumptive <10 /g AOAC 980.31 5/8/18'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Bacillus cereus - Presumptive <10 /g AOAC 980.31 5/8/18'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Bacillus cereus - Presumptive <10 /g AOAC 980.31 5/8/18'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Bacillus cereus - Presumptive <10 /g AOAC 980.31 5/8/18'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Bacillus cereus - Presumptive <10 /g AOAC 980.31 5/8/18'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Bacillus cereus - Presumptive <10 /g AOAC 980.31 5/8/18'}]",
+    "retest:Yeast:kept='2400 /g' prior=[{'value_raw': '5400', 'unit_raw': '/g', 'source_row_text': 'Yeast 5400 /g'}, {'value_raw': '140', 'unit_raw': '/g', 'source_row_text': 'Yeast 140 /g'}, {'value_raw': '1500', 'unit_raw': '/g', 'source_row_text': 'Yeast 1500 /g'}, {'value_raw': '140', 'unit_raw': '/g', 'source_row_text': 'Yeast 140 /g'}, {'value_raw': '1500', 'unit_raw': '/g', 'source_row_text': 'Yeast 1500 /g'}, {'value_raw': '1500', 'unit_raw': '/g', 'source_row_text': 'Yeast 1500 /g'}, {'value_raw': '100', 'unit_raw': '/g', 'source_row_text': 'Yeast 100 /g'}, {'value_raw': '2400', 'unit_raw': '/g', 'source_row_text': 'Yeast 2400 /g'}]",
+    "retest:Mold:kept='270 /g' prior=[{'value_raw': '150', 'unit_raw': '/g', 'source_row_text': 'Mold 150 /g'}, {'value_raw': '110', 'unit_raw': '/g', 'source_row_text': 'Mold 110 /g'}, {'value_raw': '50', 'unit_raw': '/g', 'source_row_text': 'Mold 50 /g'}, {'value_raw': '110', 'unit_raw': '/g', 'source_row_text': 'Mold 110 /g'}, {'value_raw': '50', 'unit_raw': '/g', 'source_row_text': 'Mold 50 /g'}, {'value_raw': '50', 'unit_raw': '/g', 'source_row_text': 'Mold 50 /g'}, {'value_raw': '190', 'unit_raw': '/g', 'source_row_text': 'Mold 190 /g'}, {'value_raw': '270', 'unit_raw': '/g', 'source_row_text': 'Mold 270 /g'}]"
+  ],
+  "analytes": [
+    {
+      "analyte": "Ochratoxin by HPLC",
+      "panel": "mycotoxins",
+      "value_normalized": 0.2,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.2",
+      "unit_as_reported": "mcg/kg",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 8
+    },
+    {
+      "analyte": "Bacillus cereus - Presumptive",
+      "panel": "other",
+      "value_normalized": 10.0,
+      "unit_normalized": "/g",
+      "value_as_reported": "<10",
+      "unit_as_reported": "/g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 8
+    },
+    {
+      "analyte": "Yeast",
+      "panel": "micro",
+      "value_normalized": 2400.0,
+      "unit_normalized": "/g",
+      "value_as_reported": "2400",
+      "unit_as_reported": "/g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 8
+    },
+    {
+      "analyte": "Mold",
+      "panel": "micro",
+      "value_normalized": 270.0,
+      "unit_normalized": "/g",
+      "value_as_reported": "270",
+      "unit_as_reported": "/g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 8
+    }
+  ],
+  "ingested_at": "2026-05-31T05:44:24+00:00"
+}

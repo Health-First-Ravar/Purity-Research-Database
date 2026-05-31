@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "status": "UNRESOLVED",
+  "product_key": null,
+  "report_number": "2904069-0",
+  "test_date": "2020-06-09",
+  "sample_name": "PSS P002585 Eurofins Sample: 9568974",
+  "lot_or_po": "rt",
+  "supersedes": null,
+  "superseded_by": null,
+  "lab": "Eurofins (inferred)",
+  "serving_size_g": null,
+  "source_file": "/home/runner/work/Purity-Research-Database/Purity-Research-Database/COAs/COA Green Coffee- Colombia- 1.pdf",
+  "source_hash": "cd94c73366f91d97",
+  "parse_confidence": 1.0,
+  "parse_notes": [
+    "pages=2 tables=1",
+    "text_rows=9"
+  ],
+  "analytes": [
+    {
+      "analyte": "Moisture",
+      "panel": "moisture",
+      "value_normalized": 10.2,
+      "unit_normalized": "%",
+      "value_as_reported": "10.2",
+      "unit_as_reported": "%",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Water Activity",
+      "panel": "moisture",
+      "value_normalized": 0.553,
+      "unit_normalized": "",
+      "value_as_reported": "0.553",
+      "unit_as_reported": "",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Aflatoxin B1",
+      "panel": "mycotoxins",
+      "value_normalized": 0.5,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.500",
+      "unit_as_reported": "ppb",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Aflatoxin B2",
+      "panel": "mycotoxins",
+      "value_normalized": 0.5,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.500",
+      "unit_as_reported": "ppb",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Aflatoxin G1",
+      "panel": "mycotoxins",
+      "value_normalized": 0.5,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.500",
+      "unit_as_reported": "ppb",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Aflatoxin G2",
+      "panel": "mycotoxins",
+      "value_normalized": 0.5,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.500",
+      "unit_as_reported": "ppb",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Aflatoxin M1",
+      "panel": "mycotoxins",
+      "value_normalized": 0.5,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.500",
+      "unit_as_reported": "ppb",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Aflatoxin M2",
+      "panel": "mycotoxins",
+      "value_normalized": 0.5,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.500",
+      "unit_as_reported": "ppb",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Ochratoxin A",
+      "panel": "mycotoxins",
+      "value_normalized": 1.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<1.00",
+      "unit_as_reported": "ppb",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    }
+  ],
+  "ingested_at": "2026-05-31T05:44:19+00:00"
+}

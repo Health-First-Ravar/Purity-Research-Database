@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "status": "UNRESOLVED",
+  "product_key": null,
+  "report_number": "CHG-42526682-0",
+  "test_date": "2019-07-03",
+  "sample_name": "GR-19-250 / MADGEBARI",
+  "lot_or_po": null,
+  "supersedes": null,
+  "superseded_by": null,
+  "lab": "Silliker / M\u00e9rieux NutriSciences",
+  "serving_size_g": null,
+  "source_file": "/home/runner/work/Purity-Research-Database/Purity-Research-Database/COAs/COA-3-Jul-19-42526682-0.pdf",
+  "source_hash": "90acdb444145de98",
+  "parse_confidence": 1.0,
+  "parse_notes": [
+    "pages=1 tables=2",
+    "silliker_rows=11"
+  ],
+  "analytes": [
+    {
+      "analyte": "iso-1-Chlorogenic Acid",
+      "panel": "cga",
+      "value_normalized": 347.0,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "0.347",
+      "unit_as_reported": "% (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "iso-2-Chlorogenic Acid",
+      "panel": "cga",
+      "value_normalized": 376.0,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "0.376",
+      "unit_as_reported": "% (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "iso-3-Chlorogenic Acid",
+      "panel": "cga",
+      "value_normalized": 370.0,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "0.370",
+      "unit_as_reported": "% (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "krypto-Chlorogenic Acid",
+      "panel": "cga",
+      "value_normalized": 493.0,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "0.493",
+      "unit_as_reported": "% (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "n-Chlorogenic Acid",
+      "panel": "cga",
+      "value_normalized": 3380.0,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "3.38",
+      "unit_as_reported": "% (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "neo-Chlorogenic Acid",
+      "panel": "cga",
+      "value_normalized": 375.0,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "0.375",
+      "unit_as_reported": "% (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Total Chlorogenic Acid",
+      "panel": "cga",
+      "value_normalized": 5341.0,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "5.341",
+      "unit_as_reported": "% (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Ochratoxin by HPLC",
+      "panel": "mycotoxins",
+      "value_normalized": 0.2,
+      "unit_normalized": "ppb",
+      "value_as_reported": "0.2",
+      "unit_as_reported": "mcg/kg",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Bacillus cereus - Presumptive",
+      "panel": "other",
+      "value_normalized": 60.0,
+      "unit_normalized": "/g",
+      "value_as_reported": "60",
+      "unit_as_reported": "/g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Yeast",
+      "panel": "micro",
+      "value_normalized": 10.0,
+      "unit_normalized": "/g",
+      "value_as_reported": "<10",
+      "unit_as_reported": "/g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Mold",
+      "panel": "micro",
+      "value_normalized": 5200.0,
+      "unit_normalized": "/g",
+      "value_as_reported": "5200",
+      "unit_as_reported": "/g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    }
+  ],
+  "ingested_at": "2026-05-31T05:44:50+00:00"
+}

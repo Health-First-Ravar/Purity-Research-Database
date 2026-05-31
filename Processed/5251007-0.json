@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "status": "UNRESOLVED",
+  "product_key": null,
+  "report_number": "5251007-0",
+  "test_date": "2026-02-07",
+  "sample_name": "PSS 18 CONEJO Eurofins Sample: 16202338",
+  "lot_or_po": "rt",
+  "supersedes": null,
+  "superseded_by": null,
+  "lab": "Eurofins (inferred)",
+  "serving_size_g": 100.0,
+  "source_file": "/home/runner/work/Purity-Research-Database/Purity-Research-Database/COAs/0017453636.pdf",
+  "source_hash": "e1597b2aa52770e0",
+  "parse_confidence": 1.0,
+  "parse_notes": [
+    "pages=2 tables=1",
+    "text_rows=14"
+  ],
+  "analytes": [
+    {
+      "analyte": "Neochlorogenic Acid",
+      "panel": "cga",
+      "value_normalized": 238.0,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "238",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Chlorogenic Acid",
+      "panel": "cga",
+      "value_normalized": 2900.0,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "2900",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "4-O Caffeolyquinic Acid",
+      "panel": "cga",
+      "value_normalized": 346.0,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "346",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Unknown (Calculated as Chlorogenic Acid)",
+      "panel": "cga",
+      "value_normalized": 18.0,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "18.0",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "3 4-Dicaffeoylquinic Acid",
+      "panel": "cga",
+      "value_normalized": 350.0,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "350",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "3 5-Dicaffeoylquinic Acid",
+      "panel": "cga",
+      "value_normalized": 588.0,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "588",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "4 5-Dicaffeoylquiic Acid",
+      "panel": "cga",
+      "value_normalized": 137.0,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "137",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Total Chlorogenic Acids",
+      "panel": "cga",
+      "value_normalized": 4580.0,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "4580",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Lead",
+      "panel": "heavy_metals",
+      "value_normalized": 5.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<5.00",
+      "unit_as_reported": "ppb",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Mercury",
+      "panel": "heavy_metals",
+      "value_normalized": 5.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<5.00",
+      "unit_as_reported": "ppb",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Cadmium",
+      "panel": "heavy_metals",
+      "value_normalized": 5.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<5.00",
+      "unit_as_reported": "ppb",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Arsenic",
+      "panel": "heavy_metals",
+      "value_normalized": 10.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<10.0",
+      "unit_as_reported": "ppb",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Glyphosate",
+      "panel": "pesticide",
+      "value_normalized": 100.0,
+      "unit_normalized": "ng/g",
+      "value_as_reported": "<100",
+      "unit_as_reported": "ng/g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "AMPA",
+      "panel": "pesticide",
+      "value_normalized": 100.0,
+      "unit_normalized": "ng/g",
+      "value_as_reported": "<100",
+      "unit_as_reported": "ng/g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    }
+  ],
+  "ingested_at": "2026-05-31T05:43:54+00:00"
+}

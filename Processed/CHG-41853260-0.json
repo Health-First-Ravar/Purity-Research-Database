@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "status": "UNRESOLVED",
+  "product_key": null,
+  "report_number": "CHG-41853260-0",
+  "test_date": "2018-12-05",
+  "sample_name": "18-114 / Decaf Nicaragua Roasted",
+  "lot_or_po": null,
+  "supersedes": null,
+  "superseded_by": null,
+  "lab": "Silliker / M\u00e9rieux NutriSciences",
+  "serving_size_g": null,
+  "source_file": "/home/runner/work/Purity-Research-Database/Purity-Research-Database/COAs/COA-5-Dec-18-Nica&Decaf.pdf",
+  "source_hash": "9fe7b82a08633ec6",
+  "parse_confidence": 1.0,
+  "parse_notes": [
+    "pages=2 tables=4",
+    "silliker_rows=28",
+    "retest:iso-1-Chlorogenic Acid:kept='0.149 % (w/w)' prior=[{'value_raw': '0.016', 'unit_raw': '% (w/w)', 'source_row_text': 'iso-1-Chlorogenic Acid 0.016 % (w/w)'}, {'value_raw': '0.120', 'unit_raw': '% (w/w)', 'source_row_text': 'iso-1-Chlorogenic Acid 0.120 % (w/w)'}, {'value_raw': '0.120', 'unit_raw': '% (w/w)', 'source_row_text': 'iso-1-Chlorogenic Acid 0.120 % (w/w)'}]",
+    "retest:iso-2-Chlorogenic Acid:kept='0.436 % (w/w)' prior=[{'value_raw': '0.013', 'unit_raw': '% (w/w)', 'source_row_text': 'iso-2-Chlorogenic Acid 0.013 % (w/w)'}, {'value_raw': '0.337', 'unit_raw': '% (w/w)', 'source_row_text': 'iso-2-Chlorogenic Acid 0.337 % (w/w)'}, {'value_raw': '0.337', 'unit_raw': '% (w/w)', 'source_row_text': 'iso-2-Chlorogenic Acid 0.337 % (w/w)'}]",
+    "retest:iso-3-Chlorogenic Acid:kept='0.164 % (w/w)' prior=[{'value_raw': '0.021', 'unit_raw': '% (w/w)', 'source_row_text': 'iso-3-Chlorogenic Acid 0.021 % (w/w)'}, {'value_raw': '0.135', 'unit_raw': '% (w/w)', 'source_row_text': 'iso-3-Chlorogenic Acid 0.135 % (w/w)'}, {'value_raw': '0.135', 'unit_raw': '% (w/w)', 'source_row_text': 'iso-3-Chlorogenic Acid 0.135 % (w/w)'}]",
+    "retest:krypto-Chlorogenic Acid:kept='0.506 % (w/w)' prior=[{'value_raw': '0.319', 'unit_raw': '% (w/w)', 'source_row_text': 'krypto-Chlorogenic Acid 0.319 % (w/w)'}, {'value_raw': '0.420', 'unit_raw': '% (w/w)', 'source_row_text': 'krypto-Chlorogenic Acid 0.420 % (w/w)'}, {'value_raw': '0.420', 'unit_raw': '% (w/w)', 'source_row_text': 'krypto-Chlorogenic Acid 0.420 % (w/w)'}]",
+    "retest:n-Chlorogenic Acid:kept='3.82 % (w/w)' prior=[{'value_raw': '0.604', 'unit_raw': '% (w/w)', 'source_row_text': 'n-Chlorogenic Acid 0.604 % (w/w)'}, {'value_raw': '3.20', 'unit_raw': '% (w/w)', 'source_row_text': 'n-Chlorogenic Acid 3.20 % (w/w)'}, {'value_raw': '3.20', 'unit_raw': '% (w/w)', 'source_row_text': 'n-Chlorogenic Acid 3.20 % (w/w)'}]",
+    "retest:neo-Chlorogenic Acid:kept='0.342 % (w/w)' prior=[{'value_raw': '0.246', 'unit_raw': '% (w/w)', 'source_row_text': 'neo-Chlorogenic Acid 0.246 % (w/w)'}, {'value_raw': '0.282', 'unit_raw': '% (w/w)', 'source_row_text': 'neo-Chlorogenic Acid 0.282 % (w/w)'}, {'value_raw': '0.282', 'unit_raw': '% (w/w)', 'source_row_text': 'neo-Chlorogenic Acid 0.282 % (w/w)'}]",
+    "retest:Total Chlorogenic Acid:kept='5.417 % (w/w)' prior=[{'value_raw': '1.219', 'unit_raw': '% (w/w)', 'source_row_text': 'Total Chlorogenic Acid 1.219 % (w/w)'}, {'value_raw': '4.494', 'unit_raw': '% (w/w)', 'source_row_text': 'Total Chlorogenic Acid 4.494 % (w/w)'}, {'value_raw': '4.494', 'unit_raw': '% (w/w)', 'source_row_text': 'Total Chlorogenic Acid 4.494 % (w/w)'}]"
+  ],
+  "analytes": [
+    {
+      "analyte": "iso-1-Chlorogenic Acid",
+      "panel": "cga",
+      "value_normalized": 149.0,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "0.149",
+      "unit_as_reported": "% (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 3
+    },
+    {
+      "analyte": "iso-2-Chlorogenic Acid",
+      "panel": "cga",
+      "value_normalized": 436.0,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "0.436",
+      "unit_as_reported": "% (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 3
+    },
+    {
+      "analyte": "iso-3-Chlorogenic Acid",
+      "panel": "cga",
+      "value_normalized": 164.0,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "0.164",
+      "unit_as_reported": "% (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 3
+    },
+    {
+      "analyte": "krypto-Chlorogenic Acid",
+      "panel": "cga",
+      "value_normalized": 506.0,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "0.506",
+      "unit_as_reported": "% (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 3
+    },
+    {
+      "analyte": "n-Chlorogenic Acid",
+      "panel": "cga",
+      "value_normalized": 3820.0,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "3.82",
+      "unit_as_reported": "% (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 3
+    },
+    {
+      "analyte": "neo-Chlorogenic Acid",
+      "panel": "cga",
+      "value_normalized": 342.0,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "0.342",
+      "unit_as_reported": "% (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 3
+    },
+    {
+      "analyte": "Total Chlorogenic Acid",
+      "panel": "cga",
+      "value_normalized": 5417.0,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "5.417",
+      "unit_as_reported": "% (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 3
+    }
+  ],
+  "ingested_at": "2026-05-31T05:44:51+00:00"
+}

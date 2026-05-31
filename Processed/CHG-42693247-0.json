@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "status": "UNRESOLVED",
+  "product_key": null,
+  "report_number": "CHG-42693247-0",
+  "test_date": "2019-08-24",
+  "sample_name": "GR-19-400 / Green Nicaragua Corcassan",
+  "lot_or_po": null,
+  "supersedes": null,
+  "superseded_by": null,
+  "lab": "Silliker / M\u00e9rieux NutriSciences",
+  "serving_size_g": null,
+  "source_file": "/home/runner/work/Purity-Research-Database/Purity-Research-Database/COAs/COA-24-Aug-19-42693247-0.pdf",
+  "source_hash": "f058f3ae3d4c8136",
+  "parse_confidence": 1.0,
+  "parse_notes": [
+    "pages=1 tables=2",
+    "silliker_rows=9"
+  ],
+  "analytes": [
+    {
+      "analyte": "Aflatoxin B1",
+      "panel": "mycotoxins",
+      "value_normalized": 0.6,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.6",
+      "unit_as_reported": "ppb (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Aflatoxin B2",
+      "panel": "mycotoxins",
+      "value_normalized": 0.6,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.6",
+      "unit_as_reported": "ppb (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Aflatoxin G1",
+      "panel": "mycotoxins",
+      "value_normalized": 0.6,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.6",
+      "unit_as_reported": "ppb (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Aflatoxin G2",
+      "panel": "mycotoxins",
+      "value_normalized": 0.6,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.6",
+      "unit_as_reported": "ppb (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Aflatoxin Total",
+      "panel": "mycotoxins",
+      "value_normalized": 0.7,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.7",
+      "unit_as_reported": "ppb (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Ochratoxin by HPLC",
+      "panel": "mycotoxins",
+      "value_normalized": 0.4,
+      "unit_normalized": "ppb",
+      "value_as_reported": "0.4",
+      "unit_as_reported": "mcg/kg",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Bacillus cereus - Presumptive",
+      "panel": "other",
+      "value_normalized": 10.0,
+      "unit_normalized": "/g",
+      "value_as_reported": "<10",
+      "unit_as_reported": "/g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Yeast",
+      "panel": "micro",
+      "value_normalized": 10.0,
+      "unit_normalized": "/g",
+      "value_as_reported": "<10",
+      "unit_as_reported": "/g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Mold",
+      "panel": "micro",
+      "value_normalized": 10.0,
+      "unit_normalized": "/g",
+      "value_as_reported": "<10",
+      "unit_as_reported": "/g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    }
+  ],
+  "ingested_at": "2026-05-31T05:44:38+00:00"
+}

@@ -4,18 +4,18 @@
   "product_key": null,
   "report_number": "3492052-0",
   "test_date": "2021-11-24",
-  "sample_name": "La Pradera Castillo Washed Eurofins Sample: 11184141",
+  "sample_name": "Purity Coffee Eurofins Sample: 11184141",
   "lot_or_po": "rt",
   "supersedes": null,
   "superseded_by": null,
   "lab": "Eurofins (inferred)",
   "serving_size_g": null,
-  "source_file": "/Users/jeremybehne/Library/CloudStorage/GoogleDrive-jravar@puritycoffee.com/My Drive/Purity-Lab-Data/COAs/PRADERA_P003365_COA.pdf",
-  "source_hash": "93acd6585b852020",
+  "source_file": "/home/runner/work/Purity-Research-Database/Purity-Research-Database/COAs/2022-Current and New Coffee.pdf",
+  "source_hash": "d3c45e801ec5248e",
   "parse_confidence": 1.0,
   "parse_notes": [
     "pages=20 tables=12",
-    "text_rows=42"
+    "text_rows=36"
   ],
   "analytes": [
     {
@@ -250,72 +250,6 @@
       "retest_sequence": 0
     },
     {
-      "analyte": "Arsenic",
-      "panel": "heavy_metals",
-      "value_normalized": 10.0,
-      "unit_normalized": "ppb",
-      "value_as_reported": "<10.0",
-      "unit_as_reported": "ppb",
-      "method": null,
-      "loq": null,
-      "retest_sequence": 0
-    },
-    {
-      "analyte": "Cadmium",
-      "panel": "heavy_metals",
-      "value_normalized": 7.05,
-      "unit_normalized": "ppb",
-      "value_as_reported": "7.05",
-      "unit_as_reported": "ppb",
-      "method": null,
-      "loq": null,
-      "retest_sequence": 0
-    },
-    {
-      "analyte": "Lead",
-      "panel": "heavy_metals",
-      "value_normalized": 5.47,
-      "unit_normalized": "ppb",
-      "value_as_reported": "5.47",
-      "unit_as_reported": "ppb",
-      "method": null,
-      "loq": null,
-      "retest_sequence": 0
-    },
-    {
-      "analyte": "Tin",
-      "panel": "other",
-      "value_normalized": 5.0,
-      "unit_normalized": "ppb",
-      "value_as_reported": "<5.00",
-      "unit_as_reported": "ppb",
-      "method": null,
-      "loq": null,
-      "retest_sequence": 0
-    },
-    {
-      "analyte": "Mercury",
-      "panel": "heavy_metals",
-      "value_normalized": 5.0,
-      "unit_normalized": "ppb",
-      "value_as_reported": "<5.00",
-      "unit_as_reported": "ppb",
-      "method": null,
-      "loq": null,
-      "retest_sequence": 0
-    },
-    {
-      "analyte": "Nickel",
-      "panel": "other",
-      "value_normalized": 1040.0,
-      "unit_normalized": "ppb",
-      "value_as_reported": "1040",
-      "unit_as_reported": "ppb",
-      "method": null,
-      "loq": null,
-      "retest_sequence": 0
-    },
-    {
       "analyte": "Glyphosate",
       "panel": "pesticide",
       "value_normalized": 100.0,
@@ -481,5 +415,5 @@
       "retest_sequence": 0
     }
   ],
-  "ingested_at": "2026-04-27T05:12:11+00:00"
+  "ingested_at": "2026-05-31T05:44:01+00:00"
 }

@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "status": "UNRESOLVED",
+  "product_key": null,
+  "report_number": "CHG-42744732-0",
+  "test_date": "2019-09-09",
+  "sample_name": "GR-19-500 / Green Colombia",
+  "lot_or_po": null,
+  "supersedes": null,
+  "superseded_by": null,
+  "lab": "Silliker / M\u00e9rieux NutriSciences",
+  "serving_size_g": null,
+  "source_file": "/home/runner/work/Purity-Research-Database/Purity-Research-Database/COAs/COA-9-Sep-19-42744732-0.pdf",
+  "source_hash": "18e5eb3512b05915",
+  "parse_confidence": 1.0,
+  "parse_notes": [
+    "pages=1 tables=2",
+    "silliker_rows=9",
+    "retest:Bacillus cereus - Presumptive:kept='<10 /g' prior=[{'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Bacillus cereus - Presumptive <10 /g AOAC 980.31 9/5/19'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Bacillus cereus - Presumptive <10 /g AOAC 980.31 9/5/19'}]",
+    "retest:Yeast:kept='90 /g' prior=[{'value_raw': '310', 'unit_raw': '/g', 'source_row_text': 'Yeast 310 /g'}, {'value_raw': '90', 'unit_raw': '/g', 'source_row_text': 'Yeast 90 /g'}]",
+    "retest:Mold:kept='60 /g' prior=[{'value_raw': '510', 'unit_raw': '/g', 'source_row_text': 'Mold 510 /g'}, {'value_raw': '60', 'unit_raw': '/g', 'source_row_text': 'Mold 60 /g'}]"
+  ],
+  "analytes": [
+    {
+      "analyte": "Bacillus cereus - Presumptive",
+      "panel": "other",
+      "value_normalized": 10.0,
+      "unit_normalized": "/g",
+      "value_as_reported": "<10",
+      "unit_as_reported": "/g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 2
+    },
+    {
+      "analyte": "Yeast",
+      "panel": "micro",
+      "value_normalized": 90.0,
+      "unit_normalized": "/g",
+      "value_as_reported": "90",
+      "unit_as_reported": "/g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 2
+    },
+    {
+      "analyte": "Mold",
+      "panel": "micro",
+      "value_normalized": 60.0,
+      "unit_normalized": "/g",
+      "value_as_reported": "60",
+      "unit_as_reported": "/g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 2
+    }
+  ],
+  "ingested_at": "2026-05-31T05:44:55+00:00"
+}

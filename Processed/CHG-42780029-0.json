@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "status": "UNRESOLVED",
+  "product_key": null,
+  "report_number": "CHG-42780029-0",
+  "test_date": "2019-09-20",
+  "sample_name": "GR-19-410 / Green Nicaragua Corcassan P001816",
+  "lot_or_po": null,
+  "supersedes": null,
+  "superseded_by": null,
+  "lab": "Silliker / M\u00e9rieux NutriSciences",
+  "serving_size_g": null,
+  "source_file": "/home/runner/work/Purity-Research-Database/Purity-Research-Database/COAs/COA-20-Sep-19-42780029-0.pdf",
+  "source_hash": "12e9546a9321beb6",
+  "parse_confidence": 1.0,
+  "parse_notes": [
+    "pages=2 tables=4",
+    "silliker_rows=24",
+    "retest:Ochratoxin by HPLC:kept='<0.2 mcg/kg' prior=[{'value_raw': '<0.2', 'unit_raw': 'mcg/kg', 'source_row_text': 'Ochratoxin by HPLC <0.2 mcg/kg AOAC 2000.03 9/20/19'}, {'value_raw': '<0.2', 'unit_raw': 'mcg/kg', 'source_row_text': 'Ochratoxin by HPLC <0.2 mcg/kg AOAC 2000.03 9/20/19'}, {'value_raw': '<0.2', 'unit_raw': 'mcg/kg', 'source_row_text': 'Ochratoxin by HPLC <0.2 mcg/kg AOAC 2000.03 9/20/19'}, {'value_raw': '<0.2', 'unit_raw': 'mcg/kg', 'source_row_text': 'Ochratoxin by HPLC <0.2 mcg/kg AOAC 2000.03 9/20/19'}, {'value_raw': '<0.2', 'unit_raw': 'mcg/kg', 'source_row_text': 'Ochratoxin by HPLC <0.2 mcg/kg AOAC 2000.03 9/20/19'}]",
+    "retest:Yeast:kept='<10 /g' prior=[{'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Yeast <10 /g'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Yeast <10 /g'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Yeast <10 /g'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Yeast <10 /g'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Yeast <10 /g'}]",
+    "retest:Mold:kept='<10 /g' prior=[{'value_raw': '10', 'unit_raw': '/g', 'source_row_text': 'Mold 10 /g'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Mold <10 /g'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Mold <10 /g'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Mold <10 /g'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Mold <10 /g'}]"
+  ],
+  "analytes": [
+    {
+      "analyte": "Aflatoxin B1",
+      "panel": "mycotoxins",
+      "value_normalized": 0.6,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.6",
+      "unit_as_reported": "ppb (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Aflatoxin B2",
+      "panel": "mycotoxins",
+      "value_normalized": 0.6,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.6",
+      "unit_as_reported": "ppb (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Aflatoxin G1",
+      "panel": "mycotoxins",
+      "value_normalized": 0.6,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.6",
+      "unit_as_reported": "ppb (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Aflatoxin G2",
+      "panel": "mycotoxins",
+      "value_normalized": 0.6,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.6",
+      "unit_as_reported": "ppb (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Aflatoxin Total",
+      "panel": "mycotoxins",
+      "value_normalized": 0.7,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.7",
+      "unit_as_reported": "ppb (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Ochratoxin by HPLC",
+      "panel": "mycotoxins",
+      "value_normalized": 0.2,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.2",
+      "unit_as_reported": "mcg/kg",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 5
+    },
+    {
+      "analyte": "Bacillus cereus - Presumptive",
+      "panel": "other",
+      "value_normalized": 10.0,
+      "unit_normalized": "/g",
+      "value_as_reported": "<10",
+      "unit_as_reported": "/g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Yeast",
+      "panel": "micro",
+      "value_normalized": 10.0,
+      "unit_normalized": "/g",
+      "value_as_reported": "<10",
+      "unit_as_reported": "/g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 5
+    },
+    {
+      "analyte": "Mold",
+      "panel": "micro",
+      "value_normalized": 10.0,
+      "unit_normalized": "/g",
+      "value_as_reported": "<10",
+      "unit_as_reported": "/g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 5
+    }
+  ],
+  "ingested_at": "2026-05-31T05:44:29+00:00"
+}

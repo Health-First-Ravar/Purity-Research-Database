@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "status": "UNRESOLVED",
+  "product_key": null,
+  "report_number": "4966234-0",
+  "test_date": "2025-06-11",
+  "sample_name": "Aponte Dark Roast Eurofins Sample: 15361948",
+  "lot_or_po": "rt",
+  "supersedes": null,
+  "superseded_by": null,
+  "lab": "Eurofins (inferred)",
+  "serving_size_g": 15.0,
+  "source_file": "/home/runner/work/Purity-Research-Database/Purity-Research-Database/COAs/Aponte Dark Roast 2025 CGA.pdf",
+  "source_hash": "6cce0f40eca6bb34",
+  "parse_confidence": 1.0,
+  "parse_notes": [
+    "pages=1 tables=1",
+    "text_rows=8"
+  ],
+  "analytes": [
+    {
+      "analyte": "Neochlorogenic Acid",
+      "panel": "cga",
+      "value_normalized": 231.99999999999997,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "34.8",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Chlorogenic Acid",
+      "panel": "cga",
+      "value_normalized": 536.6666666666666,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "80.5",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "4-O Caffeolyquinic Acid",
+      "panel": "cga",
+      "value_normalized": 298.0,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "44.7",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Unknown (Calculated as Chlorogenic Acid)",
+      "panel": "cga",
+      "value_normalized": 28.46666666666666,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "4.27",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "3 4-Dicaffeoylquinic Acid",
+      "panel": "cga",
+      "value_normalized": 266.66666666666663,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "40.0",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "3 5-Dicaffeoylquinic Acid",
+      "panel": "cga",
+      "value_normalized": 69.33333333333334,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "10.4",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "4 5-Dicaffeoylquiic Acid",
+      "panel": "cga",
+      "value_normalized": 30.333333333333336,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "4.55",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Total Chlorogenic Acids",
+      "panel": "cga",
+      "value_normalized": 1460.0,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "219",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    }
+  ],
+  "ingested_at": "2026-05-31T05:44:14+00:00"
+}

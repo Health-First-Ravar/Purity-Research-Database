@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "status": "UNRESOLVED",
+  "product_key": null,
+  "report_number": "CHG-40700476-0",
+  "test_date": "2017-12-02",
+  "sample_name": "GR-17-11 / (Royal-33316)",
+  "lot_or_po": null,
+  "supersedes": null,
+  "superseded_by": null,
+  "lab": "Silliker / M\u00e9rieux NutriSciences",
+  "serving_size_g": null,
+  "source_file": "/home/runner/work/Purity-Research-Database/Purity-Research-Database/COAs/COA-2-Dec-17-ColombiaTolimaLaCumbre.pdf",
+  "source_hash": "839b473bc5e6f9a4",
+  "parse_confidence": 1.0,
+  "parse_notes": [
+    "pages=1 tables=2",
+    "silliker_rows=27",
+    "retest:Aflatoxin B1:kept='<0.6 ppb (w/w)' prior=[{'value_raw': '<0.6', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Aflatoxin B1 <0.6 ppb (w/w)'}, {'value_raw': '<0.6', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Aflatoxin B1 <0.6 ppb (w/w)'}]",
+    "retest:Aflatoxin B2:kept='<0.6 ppb (w/w)' prior=[{'value_raw': '<0.6', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Aflatoxin B2 <0.6 ppb (w/w)'}, {'value_raw': '<0.6', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Aflatoxin B2 <0.6 ppb (w/w)'}]",
+    "retest:Aflatoxin G1:kept='<0.6 ppb (w/w)' prior=[{'value_raw': '<0.6', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Aflatoxin G1 <0.6 ppb (w/w)'}, {'value_raw': '<0.6', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Aflatoxin G1 <0.6 ppb (w/w)'}]",
+    "retest:Aflatoxin G2:kept='<0.6 ppb (w/w)' prior=[{'value_raw': '<0.6', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Aflatoxin G2 <0.6 ppb (w/w)'}, {'value_raw': '<0.6', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Aflatoxin G2 <0.6 ppb (w/w)'}]",
+    "retest:Aflatoxin Total:kept='<0.7 ppb (w/w)' prior=[{'value_raw': '<0.7', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Aflatoxin Total <0.7 ppb (w/w)'}, {'value_raw': '<0.7', 'unit_raw': 'ppb (w/w)', 'source_row_text': 'Aflatoxin Total <0.7 ppb (w/w)'}]",
+    "retest:Ochratoxin by HPLC:kept='<0.2 mcg/kg' prior=[{'value_raw': '<0.2', 'unit_raw': 'mcg/kg', 'source_row_text': 'Ochratoxin by HPLC <0.2 mcg/kg AOAC 2000.03 11/30/17'}, {'value_raw': '<0.2', 'unit_raw': 'mcg/kg', 'source_row_text': 'Ochratoxin by HPLC <0.2 mcg/kg AOAC 2000.03 11/30/17'}]",
+    "retest:Bacillus cereus - Presumptive:kept='<10 /g' prior=[{'value_raw': '10', 'unit_raw': '/g', 'source_row_text': 'Bacillus cereus - Presumptive 10 /g AOAC 980.31 11/28/17'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Bacillus cereus - Presumptive <10 /g AOAC 980.31 11/28/17'}]",
+    "retest:Yeast:kept='10 /g' prior=[{'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Yeast <10 /g'}, {'value_raw': '10', 'unit_raw': '/g', 'source_row_text': 'Yeast 10 /g'}]",
+    "retest:Mold:kept='10 /g' prior=[{'value_raw': '680', 'unit_raw': '/g', 'source_row_text': 'Mold 680 /g'}, {'value_raw': '10', 'unit_raw': '/g', 'source_row_text': 'Mold 10 /g'}]"
+  ],
+  "analytes": [
+    {
+      "analyte": "Aflatoxin B1",
+      "panel": "mycotoxins",
+      "value_normalized": 0.6,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.6",
+      "unit_as_reported": "ppb (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 2
+    },
+    {
+      "analyte": "Aflatoxin B2",
+      "panel": "mycotoxins",
+      "value_normalized": 0.6,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.6",
+      "unit_as_reported": "ppb (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 2
+    },
+    {
+      "analyte": "Aflatoxin G1",
+      "panel": "mycotoxins",
+      "value_normalized": 0.6,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.6",
+      "unit_as_reported": "ppb (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 2
+    },
+    {
+      "analyte": "Aflatoxin G2",
+      "panel": "mycotoxins",
+      "value_normalized": 0.6,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.6",
+      "unit_as_reported": "ppb (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 2
+    },
+    {
+      "analyte": "Aflatoxin Total",
+      "panel": "mycotoxins",
+      "value_normalized": 0.7,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.7",
+      "unit_as_reported": "ppb (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 2
+    },
+    {
+      "analyte": "Ochratoxin by HPLC",
+      "panel": "mycotoxins",
+      "value_normalized": 0.2,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.2",
+      "unit_as_reported": "mcg/kg",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 2
+    },
+    {
+      "analyte": "Bacillus cereus - Presumptive",
+      "panel": "other",
+      "value_normalized": 10.0,
+      "unit_normalized": "/g",
+      "value_as_reported": "<10",
+      "unit_as_reported": "/g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 2
+    },
+    {
+      "analyte": "Yeast",
+      "panel": "micro",
+      "value_normalized": 10.0,
+      "unit_normalized": "/g",
+      "value_as_reported": "10",
+      "unit_as_reported": "/g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 2
+    },
+    {
+      "analyte": "Mold",
+      "panel": "micro",
+      "value_normalized": 10.0,
+      "unit_normalized": "/g",
+      "value_as_reported": "10",
+      "unit_as_reported": "/g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 2
+    }
+  ],
+  "ingested_at": "2026-05-31T05:44:27+00:00"
+}

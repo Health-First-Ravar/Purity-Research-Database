@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "status": "UNRESOLVED",
+  "product_key": null,
+  "report_number": "CHG-41389861-0",
+  "test_date": "2018-07-14",
+  "sample_name": "18-09 / Colombia Sierra Nevada",
+  "lot_or_po": null,
+  "supersedes": null,
+  "superseded_by": null,
+  "lab": "Silliker / M\u00e9rieux NutriSciences",
+  "serving_size_g": null,
+  "source_file": "/home/runner/work/Purity-Research-Database/Purity-Research-Database/COAs/COA-14-Jul-18-Colom-Rwa-Hond.pdf",
+  "source_hash": "0a4f1f9a3e3470f4",
+  "parse_confidence": 1.0,
+  "parse_notes": [
+    "pages=1 tables=2",
+    "silliker_rows=13",
+    "retest:Yeast:kept='970 /g' prior=[{'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Yeast <10 /g'}, {'value_raw': '500', 'unit_raw': '/g', 'source_row_text': 'Yeast 500 /g'}, {'value_raw': '970', 'unit_raw': '/g', 'source_row_text': 'Yeast 970 /g'}, {'value_raw': '500', 'unit_raw': '/g', 'source_row_text': 'Yeast 500 /g'}, {'value_raw': '970', 'unit_raw': '/g', 'source_row_text': 'Yeast 970 /g'}]",
+    "retest:Mold:kept='<10 /g' prior=[{'value_raw': '50', 'unit_raw': '/g', 'source_row_text': 'Mold 50 /g'}, {'value_raw': '260', 'unit_raw': '/g', 'source_row_text': 'Mold 260 /g'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Mold <10 /g'}, {'value_raw': '260', 'unit_raw': '/g', 'source_row_text': 'Mold 260 /g'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Mold <10 /g'}]"
+  ],
+  "analytes": [
+    {
+      "analyte": "Bacillus cereus - Presumptive",
+      "panel": "other",
+      "value_normalized": 10.0,
+      "unit_normalized": "/g",
+      "value_as_reported": "<10",
+      "unit_as_reported": "/g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Yeast",
+      "panel": "micro",
+      "value_normalized": 970.0,
+      "unit_normalized": "/g",
+      "value_as_reported": "970",
+      "unit_as_reported": "/g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 5
+    },
+    {
+      "analyte": "Mold",
+      "panel": "micro",
+      "value_normalized": 10.0,
+      "unit_normalized": "/g",
+      "value_as_reported": "<10",
+      "unit_as_reported": "/g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 5
+    }
+  ],
+  "ingested_at": "2026-05-31T05:44:24+00:00"
+}
