@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "status": "UNRESOLVED",
+  "product_key": null,
+  "report_number": "995712-01-DR",
+  "test_date": "2026-03-26",
+  "sample_name": null,
+  "lot_or_po": null,
+  "supersedes": null,
+  "superseded_by": null,
+  "lab": "CROM-MASS / UIS",
+  "serving_size_g": null,
+  "source_file": "/home/runner/work/Purity-Research-Database/Purity-Research-Database/COAs/995712-01-DR MRP Cafe_firmado.pdf",
+  "source_hash": "1ff55bbdd97077fe",
+  "parse_confidence": 0.6,
+  "parse_notes": [
+    "pages=1 tables=2",
+    "no_analyte_rows_extracted"
+  ],
+  "analytes": [],
+  "ingested_at": "2026-05-31T16:47:32+00:00"
+}

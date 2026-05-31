@@ -8,17 +8,17 @@
   "lot_or_po": null,
   "supersedes": null,
   "superseded_by": null,
-  "lab": "Eurofins (inferred)",
+  "lab": "CROM-MASS / UIS",
   "serving_size_g": null,
-  "source_file": "/home/runner/work/Purity-Research-Database/Purity-Research-Database/COAs/COMPLETE 2021 PURITY ORIGINAL COA-heavy metals.pdf",
-  "source_hash": "24178949c1934373",
+  "source_file": "/home/runner/work/Purity-Research-Database/Purity-Research-Database/COAs/carta 995712-EC \u00c1CIDO CLOROG\u00c9NICO Caf\u00e9.pdf",
+  "source_hash": "c8e30bf035128af5",
   "parse_confidence": 0.1,
   "parse_notes": [
-    "pages=2 tables=2",
+    "pages=1 tables=0",
     "missing_report_number",
     "missing_test_date",
     "no_analyte_rows_extracted"
   ],
   "analytes": [],
-  "ingested_at": "2026-05-31T16:48:25+00:00"
+  "ingested_at": "2026-05-31T16:48:43+00:00"
 }

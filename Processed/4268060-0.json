@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "status": "UNRESOLVED",
-  "product_key": null,
+  "status": "OK",
+  "product_key": "BALANCE",
   "report_number": "4268060-0",
   "test_date": "2023-10-18",
   "sample_name": "BALANCE 2023-24 Contaminants 2 Eurofins Sample: 13416426",
@@ -272,5 +272,5 @@
       "retest_sequence": 0
     }
   ],
-  "ingested_at": "2026-05-31T16:19:01+00:00"
+  "ingested_at": "2026-05-31T16:47:35+00:00"
 }
