@@ -25,6 +25,18 @@
       "tier": 1,
       "type": "blend",
       "aliases": []
+    },
+    "BALANCE": {
+      "display_name": "Purity BALANCE",
+      "tier": 1,
+      "type": "blend",
+      "aliases": ["Balance"]
+    },
+    "ALZ": {
+      "display_name": "Purity ALZ",
+      "tier": 1,
+      "type": "blend",
+      "aliases": ["Founders ALZ", "ALZ Contaminants", "ALZ Nutrition"]
     }
   },
   "sample_to_product": {}
