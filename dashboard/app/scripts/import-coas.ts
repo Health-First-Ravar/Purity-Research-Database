@@ -115,6 +115,22 @@ function extractOrigin(sample: string | null): string | null {
 function mapToCOARow(doc: ProcessedCOA): Record<string, unknown> | null {
   if (doc.status === 'VOID') return null;
 
+  // Guard against fully-null rows: if we have no report_number AND no
+  // sample_name AND no analytes, there is nothing useful to store. Inserting
+  // such a row creates the empty-row pollution we saw in the `coas` table.
+  // Require at least one identifying field OR at least one analyte with a value.
+  const hasIdentifier = Boolean(
+    (doc.report_number && String(doc.report_number).trim()) ||
+    (doc.sample_name && String(doc.sample_name).trim()) ||
+    (doc.lot_or_po && String(doc.lot_or_po).trim())
+  );
+  const hasAnyAnalyteValue = Array.isArray(doc.analytes) && doc.analytes.some(
+    (a) => a && a.value_normalized != null
+  );
+  if (!hasIdentifier && !hasAnyAnalyteValue) {
+    return null;
+  }
+
   const A = doc.analytes ?? [];
 
   // OTA
@@ -258,12 +274,25 @@ async function main() {
       continue;
     }
 
-    // Check if exists
-    const { data: existing } = await sb
-      .from('coas')
-      .select('id')
-      .eq('report_number', row.report_number ?? '')
-      .maybeSingle();
+    // Check if exists — only by a NON-EMPTY report_number. Rows with a null
+    // or empty report_number must be matched by pdf_filename instead, or they
+    // will all collide on the same '' key and overwrite each other.
+    let existing: { id: string } | null = null;
+    if (row.report_number) {
+      const { data } = await sb
+        .from('coas')
+        .select('id')
+        .eq('report_number', row.report_number as string)
+        .maybeSingle();
+      existing = data ?? null;
+    } else if (row.pdf_filename) {
+      const { data } = await sb
+        .from('coas')
+        .select('id')
+        .eq('pdf_filename', row.pdf_filename as string)
+        .maybeSingle();
+      existing = data ?? null;
+    }
 
     if (existing) {
       const { error } = await sb.from('coas').update(row).eq('id', existing.id);

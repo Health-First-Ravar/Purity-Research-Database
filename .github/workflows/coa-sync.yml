@@ -46,6 +46,11 @@ jobs:
         run: python3 scripts/pull-new-coas.py
 
       - name: Parse new COAs
+        # ingest.py exits 1 if ANY single file errors (e.g. a corrupt PDF).
+        # A per-file parse error must not abort the whole pipeline, so we let
+        # this step continue. Genuinely broken runs still surface as warnings,
+        # and the import step below only acts on successfully-parsed Processed/.
+        continue-on-error: true
         run: python3 scripts/ingest.py
 
       - name: Import to database
