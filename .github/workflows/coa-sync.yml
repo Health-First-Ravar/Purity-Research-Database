@@ -1,0 +1,64 @@
+name: COA Auto-Sync
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'   # every 6 hours (UTC)
+  workflow_dispatch: {}       # manual "Run workflow" button
+
+permissions:
+  contents: write             # commit new COAs/Processed artifacts back
+  id-token: write             # REQUIRED for Workload Identity Federation
+
+concurrency:
+  group: coa-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Authenticate to Google (WIF, no key)
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: ${{ vars.GCP_WIF_PROVIDER }}
+          service_account: ${{ vars.GCP_SERVICE_ACCOUNT }}
+
+      - name: Install Python deps
+        run: pip install -r scripts/requirements.txt
+
+      - name: Install Node deps
+        working-directory: dashboard/app
+        run: npm ci
+
+      - name: Pull new COAs from Drive
+        env:
+          DRIVE_COA_FOLDER_ID: ${{ vars.DRIVE_COA_FOLDER_ID }}
+        run: python3 scripts/pull-new-coas.py
+
+      - name: Parse new COAs
+        run: python3 scripts/ingest.py
+
+      - name: Import to database
+        working-directory: dashboard/app
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: npm run import-coas
+
+      - name: Commit new artifacts
+        run: |
+          git config user.name  "coa-sync-bot"
+          git config user.email "bot@puritycoffee.com"
+          git add COAs/ Processed/ _NotCOA/ logs/ index.json || true
+          git diff --cached --quiet || git commit -m "COA auto-sync $(date -u +%F)"
+          git push || true
