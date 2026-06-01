@@ -57,6 +57,7 @@ function walk(dir: string, acc: string[] = []): string[] {
 // Chunk by double-newline blocks, greedy pack up to MAX_TOKENS (chars/4 approx),
 // carry last OVERLAP chars into the next chunk so retrieval doesn't lose context.
 function chunkText(text: string): { content: string; heading: string | null }[] {
+  text = text.replace(/\u0000/g, '').replace(/[\x00-\x08\x0B\x0C\x0E-\x1F]/g, '');
   const paras = text.split(/\n{2,}/).map((p) => p.trim()).filter(Boolean);
   const chunks: { content: string; heading: string | null }[] = [];
   let buf = '';
