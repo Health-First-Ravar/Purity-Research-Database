@@ -1,0 +1,1649 @@
+RESEARCH
+Open Access
+© The Author(s) 2026. Open Access  This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 
+International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you 
+give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the 
+licensed material. You do not have permission under this licence to share adapted material derived from this article or parts of it. The images or 
+other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the 
+material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or 
+exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit ​h​t​t​p​:​/​/​c​r​e​a​t​i​
+v​e​c​o​m​m​o​n​s​.​o​r​g​/​l​i​c​e​n​s​e​s​/​b​y​-​n​c​-​n​d​/​4​.​0​/.
+Liu et al. Nutrition Journal           (2026) 25:31 
+https://doi.org/10.1186/s12937-026-01289-8
+Nutrition Journal
+†Wenqi Liu and Xinrui Xu contributed equally to this work.
+*Correspondence:
+Lu Zhao
+zhaolu_cmu@163.com
+Yang Xia
+xytmu507@126.com
+Full list of author information is available at the end of the article
+Abstract
+Background & Aims  Associations between different types of coffee consumption and metabolic dysfunction-
+associated steatotic liver disease (MASLD) remained inconsistent. We aimed to assess the longitudinal associations of 
+coffee consumption (including unsweetened, sugar-sweetened, artificially sweetened, caffeinated and decaffeinated 
+coffee) with the risk of MASLD, while also exploring the potential coffee type-gut microbial abundance interactions.
+Methods  The present cohort study included 185,437 participants free of MASLD at baseline in the UK Biobank. 
+Dietary consumption of different types of coffee was collected through 24-hour dietary recall questionnaires. Incident 
+cases of MASLD were ascertained through linked hospital records and death registries. Genetic risk scores (GRSs) 
+of the relative abundance of intestinal microbiota and the risk of MASLD were calculated using 19 and 5 single 
+nucleotide polymorphisms, respectively. Cox proportional hazards regression model was employed to estimate the 
+hazard ratios (HRs) and 95% confidence intervals (CIs) for the associations.
+Results  During a median follow-up of 10.49 years, we documented 1,536 MASLD cases. Compared with non-
+consumers, individuals consuming more than 2.5 servings per day of unsweetened coffee, caffeinated coffee, or a 
+combination of both had a lower risk of MASLD, with adjusted HRs (CIs) of 0.70 (0.60–0.82), 0.78 (0.67–0.91), and 0.69 
+(0.58–0.82), respectively. No significant association was found between sugar-sweetened and artificially sweetened 
+coffee consumption and the risk of MASLD. These associations were consistent across genetic risk levels of abundance 
+of intestinal microbiota and MASLD itself, with no significant interaction observed (all P values for interactions ≥ 0.05).
+Different types of sweetened coffee 
+consumption, genetic predictor 
+of gut microbe, and the risk of metabolic 
+dysfunction-associated steatotic liver disease
+Wenqi Liu1,2†, Xinrui Xu1,2†, Qing Chang1,2, Honghao Yang1,2, Zheng Ma1,2, Tingjing Zhang3, Yuhong Zhao1,2, 
+Lu Zhao1,2* and Yang Xia1,2*
+
+Page 2 of 14
+Liu et al. Nutrition Journal           (2026) 25:31 
+Introduction
+Metabolic dysfunction-associated steatotic liver disease 
+(MASLD), recently renamed from non-alcoholic fatty 
+liver disease, has emerged as the predominant chronic 
+hepatic disorder worldwide 1. Metabolic comorbidities, 
+such as obesity, type 2 diabetes, hyperlipidemia, and 
+hypertension are linked to MASLD 2–4. MASLD has 
+also been found to be associated with more fatal out­
+comes, including cardiovascular disease (CVD), cancer, 
+and mortality 5–7. With shifts in dietary patterns over 
+recent years, the global prevalence of MASLD has risen 
+rapidly, now estimated at 32.4% [8]. Although the drug 
+resmetirom is approved for the treatment of non-cir­
+rhotic MASLD with moderate to advanced liver fibrosis, 
+it should be used in combination with diet and exercise 9.
+Coffee ranks as one of the most widely consumed 
+drinks globally 10. Its beneficial effects have been dem­
+onstrated across various health conditions, including 
+hypertension, type 2 diabetes, coronary heart disease, 
+heart failure, arrhythmia, stroke, cardiovascular disease, 
+Parkinson’s disease, cancer, and mortality 11–14. None­
+theless, a limited number of epidemiological studies have 
+concentrated on the links between coffee consumption 
+and the risk of incident MASLD, reporting inconsistent 
+findings. Some studies indicate a positive association 
+15 while others show no association 16, 17. Addition­
+ally, previous studies have highlighted potential differ­
+ences in the health effects of various coffee subtypes. As 
+an example, both unsweetened and sugar-sweetened 
+varieties of coffee are linked to lower all-cause mortal­
+ity risks, whereas artificially sweetened coffee does not 
+demonstrate this benefit 11. Similarly, caffeine has been 
+shown to reduce the risk of Parkinson’s disease and type 
+2 diabetes 18. These variations in health effects may stem 
+from differences in coffee additives, such as sugar, artifi­
+cial sweeteners, and caffeine content. It remains unclear 
+whether the association between coffee consumption 
+and MASLD varies with coffee additives. Additionally, 
+previous studies have found that the biological effects of 
+added sugar and caffeine are regulated by intestinal flora 
+19–21. While both dietary and genetic elements influ­
+ence the onset of MASLD, it remains unknown whether 
+genetically predicted intestinal microbiota abundances 
+or genetic susceptibility to MASLD may modify these 
+associations.
+In this study, our objective was to assess the longitudi­
+nal associations between the consumption of unsweet­
+ened, sugar-sweetened, and artificially sweetened coffee 
+and the risk of MASLD among adults from the UK Bio­
+bank study. Then it further probes into the influence of 
+caffeine within each sweetener classification, exploring 
+whether caffeine modulates the beneficial effects of coffee 
+in combination with sugar or sweeteners. Additionally, 
+we investigated whether these associations differ among 
+participants with varying levels of genetically predicted 
+abundances of intestinal microbiota or MASLD risk 
+itself. This study aims to provide a broader insight into 
+the impact of various coffee consumption on MASLD 
+risk, ultimately informing dietary recommendations.
+Materials and methods
+Study design
+Our study utilized data from the UK Biobank, a large 
+prospective cohort study involving over 500,000 individ­
+uals aged 37 to 73, collected from 22 research facilities 
+throughout the United Kingdom (England, Wales, and 
+Scotland) during 2006–2010. All participants completed 
+baseline questionnaires that included anthropometric 
+evaluations and reports on medical conditions. In brief, 
+information on lifestyle factors, physical measurements, 
+medical records, and biological samples was collected. 
+Detailed descriptions of the UK Biobank are available 
+elsewhere 22. All participants provided written informed 
+consent prior to enrollment.
+In this study, individuals who had filled out the 24-hour 
+dietary recall online questionnaire at least once quali­
+fied for participation. Overall, 210,957 participants were 
+initially included. We excluded those with incomplete 
+genetic data (n = 4,499) and discordance between genetic 
+sex and self-reported gender (n = 154), those with an 
+implausible energy intake (defined as 0 or > 20  MJ/day 
+for males, 0 or > 18 MJ/day for females) 23, 24 (n = 508), 
+those not of European descent (n = 8,525) because the 
+genetic instrument used was constructed in White par­
+ticipants. We further excluded participants with preva­
+lent MASLD or other liver diseases (e.g., cirrhosis, liver 
+failure, hepatocellular carcinoma, liver transplant status, 
+alcoholic liver disease, viral hepatitis, etc.), or alcohol/
+drug abuse at or before baseline (n = 4,212) (details of 
+these diseases were provided in the Supplementary Table 
+1). In addition, 513 participants were excluded due to 
+loss to follow-up. Finally, we excluded participants who 
+consumed more than one type of coffee (unsweetened, 
+sugar-sweetened, and artificially sweetened), resulting 
+in 7,109 exclusions. This left 185,437 participants eligible 
+for inclusion in the study, comprising 43,093 non-coffee 
+Conclusion  Higher intake of unsweetened coffee, particularly the caffeinated variety, was significantly associated 
+with a reduced risk of MASLD, irrespective of genetic predisposition related to the abundance of intestinal microbiota 
+or MASLD itself.
+Keywords  Coffee, MASLD, Genetic risk, Gut microbial abundance
+
+Page 3 of 14
+Liu et al. Nutrition Journal           (2026) 25:31 
+consumers, 104,494 unsweetened coffee consumers, 
+26,141 sugar-sweetened coffee consumers, and 11,709 
+artificially sweetened coffee consumers (Supplementary 
+Fig. 1).
+Assessment of coffee consumption
+Dietary information was gathered through an online 
+24-hour dietary recall questionnaire known as the 
+Oxford WebQ, which evaluates the variety and amounts 
+of food intake, and has been validated in detail elsewhere 
+25. Over a year, participants were asked to fill out the 
+survey five times to reflect the seasonal changes in their 
+diet from April 2009 to June 2012.
+During each 24-hour dietary recall, participants indi­
+cated the quantity of coffee drinks they had ingested in 
+the preceding 24  h. Participants reported the precise 
+number of cups of coffee consumed per day according to 
+the instructions. Participants were also asked to specify 
+if they added sugar or artificial sweeteners (any brand) 
+and the quantity of teaspoons included. In every dietary 
+recall, there were four distinct categories of coffee con­
+sumers: non-consumers, unsweetened coffee consumers, 
+sugar-sweetened coffee consumers, and artificially sweet­
+ened coffee consumers. Given that participants could 
+complete the 24-hour dietary recall up to five times, 
+individuals consuming coffee at any given dietary recall 
+were categorized as coffee consumers, while the rest were 
+deemed non-consumers. Participants who consumed 
+identical coffee types (unsweetened, sugar-sweetened, 
+or artificially sweetened) were categorized in dietary 
+records as a sole consumer, while others were grouped 
+as overlapping consumers and were excluded. Coffee 
+consumer categories are shown in Supplementary Table 
+2. Finally, we excluded 7,109 overlapped consumers (as 
+detailed previously). To further explore whether the ben­
+eficial effects of coffee are due to caffeine, we classified 
+the participants’ coffee consumption into two categories: 
+caffeinated and decaffeinated, within each type of sweet­
+ened coffee. To reduce confusion about size, the online 
+dietary questionnaire offered detailed guidelines for stan­
+dard serving sizes, such as mugs or cups. Participants 
+who indicated consuming over 10 drinks from all types of 
+coffee were requested to confirm their answers. A single 
+beverage had an approximate volume of 250 mL.
+Assessment of outcomes
+MASLD, identified as either hospitalization or mortality 
+from MASLD or MASH (metabolic dysfunction-asso­
+ciated steatohepatitis), was the main result. This result 
+was pinpointed using hospital inpatient records, catego­
+rized as primary or secondary diagnoses (UKB data-field 
+41270), along with death records, encompassing both 
+underlying or contributory causes of death (UKB data-
+fields 40001 and 40002). Using ICD-10 and the Expert 
+Panel Consensus Statement 26, MASLD was defined as 
+ICD-10 code K76.0 (fatty [change of] liver, not elsewhere 
+classified) and K75.8 (other specified inflammatory liver 
+diseases) (Supplementary Table 1). The tracking of par­
+ticipants spanned from their visit to the evaluation facil­
+ity to their demise, diagnosis, or final follow-up date 
+(30th September 2021 for England, 28th February 2018 
+for Wales, and 31st July 2021 for Scotland), whichever 
+came first. During the follow-up, each participant was 
+censored at the first event of MASLD or death, whichever 
+occurred first. In the absence of incidents or fatalities, 
+participants were monitored until the end of follow-up.
+Assessment of covariates
+We used the baseline questionnaire to assess the fol­
+lowing potential confounders: age, sex, body mass 
+index (BMI), Townsend deprivation index (TDI), edu­
+cation level (college/university degree, other degrees 
+or unknow), smoking status (current, former, never 
+or unknow), alcohol status (current, former, never 
+or unknow), physical activity (low, moderate, high or 
+unknow), total energy intake (< median or ≥ median), 
+total sugar intake (grams per day), healthy diet score 
+(0–3, 4, 5, 6, or > 7), tea intake (drinks per day), can­
+cer (yes or no), CVD (yes or no), diabetes (yes or no), 
+hypertension (yes or no), and hyperlipidaemia (yes or 
+no). BMI was calculated as weight (kg)/height squared 
+(m2). The TDI served as a measure of socioeconomic 
+standing, with negative TDI values signifying compara­
+tive wealth. Education level was based on self-report of 
+highest qualification achieved and classified as college/
+university degree (College or University degree) and 
+other degrees (A levels/AS levels or equivalent, O levels/
+GCSEs or equivalent, CSEs or equivalent, NVQ or HND 
+or HNC or equivalent, Other professional qualifications 
+or none of the above). Based on the guidelines of the 
+International Physical Activity Questionnaire (IPAQ) 27, 
+participants were classified into groups of low, moder­
+ate, and high activity levels according to categorical stan­
+dards, which are shown in Supplementary Methods. We 
+used multiple imputation to impute missing values for 
+education, smoking, alcohol consumption, and physical 
+activity for subsequent analyses to reduce the bias that 
+might be introduced. According to a previous study 28, 
+healthy diet score was calculated based on the adequate 
+consumption of fruits (≥ 3 servings/ day), vegetables 
+(≥ 3 servings/day), whole grains (≥ 3 servings/day), fish 
+(shell) (≥ 2 servings/week), dairy products (≥ 2 servings/
+day), and vegetable oils (≥ 2 servings/day); and reduced 
+or no consumption of refined grains (≤ 2 servings/day), 
+processed meats (≤ 1 serving/week), unprocessed red 
+meats (≤ 2 servings/week), industrial trans-fat (≤ 2 serv­
+ings/week), sugar-sweetened beverages and sodium. 
+The details are provided in Supplementary Methods and 
+
+Page 4 of 14
+Liu et al. Nutrition Journal           (2026) 25:31 
+Supplementary Table 4. Participants will receive one 
+point for each of the 12 dietary goals they achieve, with 
+a maximum possible score of 12 points. A higher score 
+indicates a healthier diet. Hypertension was defined as 
+a systolic blood pressure ≥ 140 mmHg and/or a diastolic 
+blood pressure ≥ 90 mmHg, self-reported hypertension, 
+or antihypertensive medication use 29, 30. Diabetes was 
+defined as fasting glucose ≥ 7.0 mmol/L, glycated hemo­
+globin (HbA1c) ≥ 48.0 mmol/L, self-reported diabetes, or 
+a history of diabetes medication use 29. Hyperlipidemia 
+was defined as total cholesterol ≥ 5.17 mmol/L, triglyc­
+erides ≥ 1.70 mmol/L, low-density lipoprotein choles­
+terol ≥ 3.37mmol/L, self-reported hyperlipidemia, or a 
+history of medication use for hyperlipidemia 31.
+Calculation of the genetic risk score for fatty liver and gut 
+microbial abundance
+According to previous studies, the genetic risk score 
+of gut microbial abundance (GMA-GRS) 32, 33 and 
+fatty liver-related GRS (FLD-GRS) 34–36 were con­
+structed based on distinct single-nucleotide polymor­
+phisms (SNPs) identified from GWAS, respectively. For 
+GMA-GRS, we pruned SNPs based on R2 < 0.2 and a 
+500 kb clustering window to find the SNP with the low­
+est P-value for each cluster, and 1 SNP(rs35866622) 
+was excluded due to a high R2. Finally, a total of 19 and 
+5 SNPs were used to construct the GMA- and FLD-
+GRS. Related information for each SNP was shown in 
+Supplementary Table 3. Based on the selected SNPs, the 
+GRSs were calculated separately as follows: GRS = (β1 
+× SNP1 + β2 × SNP2 + ... + βn × SNPn) * (n/sum of the 
+β coefficients), where SNPn is the risk allele number of 
+each SNP. A higher GMA-GRS indicates a higher geneti­
+cally determined gut microbial abundance. A higher 
+FLD-GRS score indicated a higher genetic predisposi­
+tion to MASLD. For further analysis, we divided partici­
+pants into two groups (low or high GRS) according to the 
+median of GRS. Detailed information can be found in the 
+Supplementary Methods. Detailed information regarding 
+genotyping, quality control, and imputation methodolo­
+gies is available on the UK Biobank website (​h​t​t​p​:​/​/​b​i​o​b​a​
+n​k​.​c​t​s​u​.​o​x​.​a​c​.​u​k​/).
+Statistical analysis
+Baseline characteristics are presented as mean (standard 
+deviation, SD) for continuous variables and number (per­
+centage) for categorical variables according to the type 
+of coffee consumer (non-coffee consumers, unsweet­
+ened coffee consumers, sugar-sweetened coffee consum­
+ers, and artificially sweetened coffee consumers). Coffee 
+consumers were categorized into three groups based on 
+daily intake: > 0 to 1.5 drinks/day, > 1.5 to 2.5 drinks/
+day, and > 2.5 drinks/day. Taking non-coffee consumers 
+as reference, Cox proportional hazards regression was 
+used to estimate hazard ratios (HRs) and 95% confidence 
+intervals (95% CIs) for the prospective associations of 
+different types of coffee consumption with MASLD. In 
+addition, we examined the dose-response associations 
+between coffee consumption and the risks of MASLD 
+using the restricted cubic spline analysis. The Schoenfeld 
+residual method was used to check the proportional haz­
+ard assumption, and no violation was found. Four mod­
+els were developed for analysis. The crude model was the 
+model without any adjustment. Model 1 was adjusted for 
+age (continuous), sex (male or female), and BMI (continu­
+ous, kg/m2). Model 2 was further adjusted for Townsend 
+deprivation index (continuous, years), education level 
+(college/university degree, other degrees or unknow), 
+smoking status (current, former, never or unknow), alco­
+hol status (current, former, never or unknow), physi­
+cal activity (low, moderate, high or unknow), healthy 
+diet score (0–3, 4, 5, 6, or > 7), total energy (< median or 
+≥ median), total sugar (continuous, g/d), and tea (contin­
+uous, drinks/d) based on Model 1 .Model 3 was further 
+adjusted for hypertension (yes or no), diabetes (yes or 
+no), cancer (yes or no), CVD (yes or no), and hyperlipi­
+daemia (yes or no) based on Model 2. Moreover, in the 
+analyses related to GRSs (e.g., subgroup analyses accord­
+ing to GRS categories), the first 10 principal components 
+of ancestry and the genotype measurement batch were 
+further adjusted.
+To explore the potential modifying effect of GMA-GRS 
+and FLD-GRS on the associations between coffee con­
+sumption and incident MASLD, analyses were stratified 
+by GRS categories (< median and ≥ median). The inter­
+actions between different types of coffee consumption 
+and GRSs were tested by adding multiplicative interac­
+tion terms into the fully adjusted model. Among partici­
+pants with any coffee consumption, joint associations of 
+the different types of coffee consumption and GRSs with 
+MASLD were assessed using combined variables with 
+2 × 4 categories. The combination of high GRS and the 
+lowest coffee consumption was the reference group.
+We conducted several secondary analyses to test the 
+robustness of our results. To assess whether the associa­
+tions of different types of coffee consumption with the 
+risks of MASLD differed by population subgroups, we 
+stratified the participants by potential effect modifiers 
+including sex (male or female), age (< 60 or ≥ 60 years), 
+BMI (≤ 24.9 or > 24.9), education level (college/univer­
+sity degree, other degrees), Townsend deprivation index 
+(< average or ≥ average), smoking status (never or ever), 
+and alcohol intake (< average or ≥ average). In addi­
+tion, we did the following sensitivity analyses. First, we 
+excluded participants who developed MASLD during the 
+first 2 years of follow-up. Second, we used multiple impu­
+tation by chained equations to impute other missing data 
+with 5 imputations and repeated the main analysis using 
+
+Page 5 of 14
+Liu et al. Nutrition Journal           (2026) 25:31 
+the complete data set to test the influence of missing 
+variables. Third, we excluded participants with excessive 
+alcohol (> 20 g/d in females or > 30 g/d in males) to fur­
+ther control for the health effects associated with drink­
+ing behaviors. Fourth, we excluded participants who had 
+chronic diseases (including CVD, cancer, and diabetes) at 
+baseline to reduce confounding bias and to clarify inde­
+pendent associations between exposure and outcome. 
+Fifth, we evaluated the competing risk of MASLD deaths 
+using Fine and Gray’s competing-risk analysis. Sixth, 
+MASLD is defined by the ICD-10 code K76.0 to capture 
+early stages of the disease. Seventh, participants who 
+changed their coffee type during the follow-up period 
+were included to reduce selection bias. Last, to further 
+verify the causal effect of caffeine on MASLD, we per­
+formed MR analysis of caffeine and MASLD (details are 
+provided in Supplementary Methods).
+Analyses were performed using R, version 4.3.3, with 
+the package “rcssci”, SAS software, version 9.4 for Win­
+dows (SAS Institute), and GraphPad Prism 9.0.0. Statisti­
+cal tests were 2-sided, and P values less than 0.05 were 
+considered statistically significant.
+Results
+Baseline characteristics
+A total of 185,437 participants (mean [SD] age: 56.22 
+[7.90] years; 82,779 males [44.64%]) were enrolled. Over­
+all, 170,498 (76.76%) were coffee consumers. Unsweet­
+ened coffee [(n = 104,494 (56.35%)] was the most 
+commonly consumed, followed by sugar-sweetened cof­
+fee [n = 26,141 (14.10%)] and artificially sweetened cof­
+fee [n = 11,709 (6.31%)]. During a median of 10.49 years 
+of follow-up, we documented 1,536 cases of MASLD. 
+Non-consumers tended to be younger and consumed 
+more tea. Unsweetened coffee consumers have a lower 
+Townsend deprivation index, were less educated, more 
+likely to be never-smokers and had healthier diets. Sugar-
+sweetened coffee consumers were predominantly male, 
+with a higher Townsend deprivation index, consumed 
+more energy and sugar, and generally had less healthy 
+diets. In addition, artificially sweetened coffee consum­
+ers tended to be older, had a higher BMI, and a higher 
+prevalence of hypertension, diabetes, and hyperlipidae­
+mia (Table 1).
+Coffee consumption and the risk of MASLD
+As shown in Table 2, coffee consumption was negatively 
+associated with the risk of MASLD after adjustments 
+(P for trend < 0.001). Compared with non-consumers, 
+the multivariable-adjusted HRs (95% CIs) of incident 
+MASLD for those with 0-1.5, 1.5–2.5, and > 2.5 drinks/
+day were 0.71 (0.62, 0.81), 0.73 (0.63, 0.85), and 0.78 (0.68, 
+0.89), respectively. Table 3 shows that unsweetened cof­
+fee and caffeinated coffee consumption were negatively 
+associated with the risk of MASLD. As shown, compared 
+with non-consumers, the adjusted HRs (95% CIs) of inci­
+dent MASLD for those with more than 2.5 drinks/d of 
+unsweetened, sugar-sweetened, artificially sweetened, 
+caffeinated, and decaffeinated coffee were 0.70 (0.60, 
+0.82), 0.95 (0.73, 1.23), 1.00 (0.78, 1.28), 0.79 (0.68, 0.91) 
+and 0.90 (0.68, 1.17), respectively. Moreover, the study 
+found that the nonlinear associations between total cof­
+fee, unsweetened coffee, and caffeinated coffee consump­
+tion and the risk of MASLD were statistically significant 
+(all P values for non-linear < 0.001) (Fig. 1).
+After categorizing coffee consumers based on both 
+sugar type and caffeine content, within the unsweetened 
+coffee group, the HRs (95% CIs) of MASLD for those 
+with > 0-1.5, > 1.5–2.5, and > 2.5 drinks of caffeinated cof­
+fee were 0.64 (0.54, 0.77), 0.57 (0.46, 0.69), and 0.69 (0.58, 
+0.82), respectively. However, no significant associations 
+were noted between other types of coffee intake and the 
+risk of MASLD (P > 0.05) (Table 4).
+We further examined the joint associations of different 
+types of coffee (based on sugar type and caffeine content) 
+consumption with the risk of MASLD (Fig. 2). As shown, 
+different combinations of unsweetened and caffeinated 
+coffee consumption were negatively associated with the 
+risk of MASLD. In addition, there was a significant inter­
+action between unsweetened coffee and caffeine content 
+with respect to MASLD (P value for interaction < 0.001). 
+However, no significant association was observed 
+between the combinations of sugar-sweetened or artifi­
+cially sweetened coffee with caffeine content and the risk 
+of MASLD, and no significant interaction between them 
+was found (all P values for interactions > 0.05). 
+Associations of coffee types, FLD-GRS, and GMA-GRS with 
+MASLD risk
+As shown in Fig.  3, no significant interaction between 
+different types of coffee consumption and GRSs for GMA 
+or MASLD itself with respect to MASLD risk was found 
+(all P values for interactions > 0.05). Unsweetened and 
+caffeinated coffee consumption was negatively associ­
+ated with the risk of MASLD across different levels of 
+FLD-GRS (all P for trend < 0.01). Compared with non-
+consumers, the HRs (95% CIs) of MASLD for those with 
+the highest frequency of unsweetened coffee consump­
+tion were 0.71 (0.56, 0.90) and 0.70 (0.57, 0.84) in the 
+low and high FLD-GRS groups, respectively. Similarly, 
+for the highest levels of caffeinated coffee consumption, 
+the HRs (95% CIs) were 0.73 (0.57, 0.92) and 0.83 (0.69, 
+1.00) in the low and high FLD-GRS groups, respectively. 
+Similar to the grouping by FLD-GRS, subgroup analy­
+ses according to GMA-GRS showed that the associa­
+tion between unsweetened coffee consumption and the 
+risk of MASLD, as well as the association between caf­
+feinated coffee consumption and the risk of MASLD, 
+
+Page 6 of 14
+Liu et al. Nutrition Journal           (2026) 25:31 
+were significant in both low and high GMA-GRS groups 
+(both P for trend < 0.01). Compared with non-consumers, 
+the HRs (95% CIs) of MASLD for those with the high­
+est frequency of unsweetened coffee consumption were 
+0.71 (0.57, 0.89) and 0.70 (0.56, 0.86) in the low and high 
+GMA-GRS groups, respectively. For those with the high­
+est frequency of caffeinated coffee consumption, the HRs 
+(95% CIs) of MASLD were 0.79 (0.64, 0.97) in the low 
+GMA-GRS group and 0.78 (0.64, 0.96) in the high GMA-
+GRS group.
+Supplementary Figs. 2–5 showed the joint associations 
+of coffee types, FLD-GRS, and GMA-GRS with MASLD 
+risk. As shown in Supplementary Fig. 2, compared with 
+participants high FLD-GRS and lowest unsweetened 
+coffee consumption, those who consumed unsweetened 
+coffee had a lower risk of MASLD, regardless of GRS. 
+Similarly, as shown in Supplementary Fig.  3, compared 
+with participants with a FLD-GRS and the lowest con­
+sumption of caffeinated coffee, those who consumed caf­
+feinated coffee had a lower risk of MASLD, regardless of 
+GRS.
+Furthermore, the combined analysis of the GMA-GRS 
+and coffee consumption and the risk of MASLD is pre­
+sented in the Supplementary Fig.  4. We observed that 
+Table 1  Baseline characteristics of participants a
+Characteristic
+Overall
+Non-coffee 
+consumers
+Coffee consumers
+P 
+value 
+b
+Unsweetened
+Sugar-sweetened
+Artificially 
+sweetened
+Participants, n (%)
+185,437 (100.00%)
+43,093 (23.24%)
+104,494 (56.35%)
+26,141 (14.10%)
+11,709 (6.31%)
+Age (mean, SD), y
+56.22 ± 7.90 c
+54.95 ± 8.04
+56.47 ± 7.71
+56.66 ± 8.22
+57.71 ± 7.70
+< 0.001
+Sex (Male, %)
+82,779 (44.64%)
+17,980 (41.72%)
+43,721 (41.84%)
+15,844 (60.61%)
+5,234 (44.70%)
+< 0.001
+BMI (mean, SD) (kg/m2)
+26.89 ± 4.62
+27.00 ± 4.87
+26.74 ± 4.53
+26.46 ± 4.10
+28.77 ± 5.01
+< 0.001
+Townsend deprivation index 
+(mean, SD)
+-1.70 ± 2.79
+-1.49 ± 2.88
+-1.84 ± 2.72
+-1.54 ± 2.90
+-1.63 ± 2.85
+< 0.001
+Education, n (%)
+< 0.001
+  College/university degree
+26,005 (14.02%)
+5,034 (11.68%)
+16,606 (15.89%)
+3,117 (11.92%)
+1,248 (10.66%)
+  Other degrees
+158,607 (85.53%)
+37,803 (87.73%)
+87,550 (68.26%)
+22,859 (87.45%)
+10,395 (88.78%)
+  Unknow
+825 (0.44%)
+256 (0.59%)
+338 (0.32%)
+165 (0.63%)
+66 (0.56%)
+Smoking status, n (%)
+< 0.001
+  Current
+13,827 (7.46%)
+2,860 (6.64%)
+6,173 (5.91%)
+3,553 (13.59%)
+1,241 (10.60%)
+  Former
+66,326 (35.77%)
+14,323 (33.24%)
+36,992 (35.40%)
+9,529 (36.45%)
+5,482 (46.82%)
+  Never
+104,831 (56.53%)
+25,796 (59.86%)
+61,108 (58.48%)
+12,973 (49.63%)
+4,954 (42.31%)
+  Unknow
+453 (0.24%)
+114 (0.26%)
+221 (0.21%)
+86 (0.33%)
+32 (0.27%)
+Drinking status, n (%)
+< 0.001
+  Current
+175,316 (94.54%)
+39,185 (90.93%)
+100,373 (96.06%)
+24,816 (94.93%)
+10,942 (93.45%)
+  Former
+5,144 (2.77%)
+1,903 (4.42%)
+2,218 (2.12%)
+622 (2.38%)
+401 (3.42%)
+  Never
+4,850 (2.62%)
+1,961 (4.55%)
+1,847 (1.77%)
+679 (2.60%)
+363 (3.10%)
+  Unknow
+127 (0.07%)
+44 (0.10%)
+56 (0.05%)
+24 (0.09%)
+3 (0.03%)
+Physical activity, n (%)
+0.002
+  Low
+28,630 (15.44%)
+6,968 (16.17%)
+15,522 (14.85%)
+4,042 (15.46%)
+2,098 (17.92%)
+  Moderate
+66,645 (35.94%)
+14,909 (34.60%)
+38,748 (37.08%)
+9,010 (34.47%)
+3,978 (33.97%)
+  High
+61,940 (33.40%)
+14,177 (32.90%)
+35,246 (33.73%)
+8,855 (33.87%)
+3,662 (31.28%)
+  Unknow
+28,222 (15.22%)
+7,039 (16.33%)
+14,978 (14.33%)
+4,234 (16.20%)
+1,971 (16.83%)
+healthy diet score (mean, SD)
+4.63 ± 1.66
+4.53 ± 1.69
+4.86 ± 1.60
+3.96 ± 1.62
+4.46 ± 1.63
+< 0.001
+Tea intake, drinks/d*
+2.17 ± 1.87
+2.90 ± 2.14
+2.01 ± 1.72
+1.86 ± 1.74
+1.63 ± 1.69
+< 0.001
+Total energy, kJ/d
+8604.35 ± 2373.73
+8453.78 ± 2496.69
+8531.02 ± 2262.40
+9229.38 ± 2483.37
+8417.41 ± 2410.51
+< 0.001
+Total sugar, g/d
+124.11 ± 47.47
+122.93 ± 50.41
+120.49 ± 44.12
+142.46 ± 50.63
+119.81 ± 48.44
+< 0.001
+Free sugar, g/d
+59.91 ± 35.07
+60.87 ± 38.17
+54.11 ± 29.74
+83.83 ± 39.49
+54.75 ± 33.71
+0.039
+Hypertension, n (%)
+97,528 (52.59%)
+21,903 (50.83%)
+54,250 (51.92%)
+14,287 (54.65%)
+7,088 (60.53%)
+< 0.001
+Diabetes, n (%)
+9,693 (5.23%)
+2,280 (5.29%)
+5,306 (5.08%)
+653 (2.50%)
+1,454 (12.42%)
+< 0.001
+Hyperlipidemia, n (%)
+20,094 (10.84%)
+4,333 (10.05%)
+10,809 (10.34%)
+3,001 (11.48%)
+1,951 (16.66%)
+< 0.001
+Completed 24-h dietary recalls 
+(mean, SD), n
+2.16 ± 1.18
+1.92 ± 1.11
+2.29 ± 1.19
+2.10 ± 1.17
+2.04 ± 1.13
+< 0.001
+aBMI Body mass index, SD Standard deviation
+bAnalysis of covariance or Chi-square test
+cContinuous variables were presented as mean (standard deviation), and categorical variables were shown as percentages
+*1 drink is equal to approximately 250 mL
+
+Page 7 of 14
+Liu et al. Nutrition Journal           (2026) 25:31 
+compared with low GMA-GRS and lowest unsweetened 
+coffee consumption, participants who drank unsweet­
+ened coffee had a lower risk of MASLD, regardless of 
+GRS. However, there were no significant results for 
+sugar-sweetened and artificially sweetened coffee. As 
+shown in Supplementary Fig.  5, compared with low 
+GMA-GRS and the lowest unsweetened coffee consump­
+tion, participants who drank caffeinated coffee had a 
+lower risk of MASLD, regardless of GRS. However, there 
+were no significant results for decaffeinated coffee.
+Secondary analyses
+Subgroup analyses revealed consistent results with the 
+main analyses, indicating that unsweetened/caffeinated 
+coffee consumption was associated with reduced risk 
+of MASLD across different subgroups (Supplementary 
+Tables 5–6). The inverse association with MASLD was 
+stronger for unsweetened coffee in participants with a 
+BMI > 24.9 kg/m2 or higher education level, but stronger 
+for caffeinated coffee in those aged > 60 years or with a 
+BMI ≤ 24.9 kg/m2 (all P values for interactions < 0.05).
+As shown in Supplementary Table 7, sensitivity analy­
+ses demonstrated consistent results with the main analy­
+sis under various conditions: (1) excluding participants in 
+the first two years of follow-up; (2) multiple imputation 
+by chained equations to impute other missing data.; (3) 
+excluding participants with excessive alcohol; (4) exclud­
+ing participants with major chronic diseases (including 
+CVD, cancer, and diabetes) at baseline; (5) conducting a 
+competing risk analysis; (6) MASLD is defined separately 
+using K76.0; (7) participants who changed coffee type 
+during follow-up were included.
+MR analysis results of caffeine and MASLD showed 
+that the per 80-mg increase in caffeine consumption was 
+associated with a decreased risk of MASLD (combined 
+OR = 0.85, 95% CI: 0.73–0.99, P = 0.037) (Supplementary 
+Fig. 6).
+Discussion
+In this large population-based prospective cohort study, 
+we found that unsweetened caffeinated coffee consump­
+tion was significantly associated with a lower risk of 
+MASLD. However, no significant association was found 
+between sugar-sweetened or artificially sweetened cof­
+fee consumption and the risk of MASLD. Furthermore, 
+when unsweetened coffee was further subdivided based 
+on caffeine content, we found that only unsweetened caf­
+feinated coffee demonstrated a protective effect against 
+MASLD, while unsweetened decaffeinated coffee was not 
+associated with MASLD. We also used the Mendelian 
+randomization method to further validate the protective 
+effect of caffeine intake on MASLD. These associations 
+remained consistent across different genetic risk catego­
+ries for fatty liver or gut microbial abundance, as well as 
+subgroup and sensitivity analyses.
+Previous studies have explored the association between 
+coffee consumption and MASLD, yet the findings have 
+varied. Several previous meta-analyses 37–39 supported 
+the protective role of coffee consumption on liver fibro­
+sis in patients with MASLD. An observational study con­
+ducted in middle-aged and older South Korean adults 
+also revealed that a higher habitual coffee consump­
+tion (> 3 cups/day) was associated with a lower risk of 
+MASLD 15. Yet, a certain study revealed no association 
+between coffee consumption and MASLD. For instance, a 
+cross-sectional study involving almost 3,000 South Italian 
+participants found that there was no association between 
+coffee consumption and the prevalence of hepatic ste­
+atosis 16. The varied results observed might stem from 
+the differing design of the study, ethnic background, 
+sample size, and measurement of MASLD. Most impor­
+tantly, consumption of different kinds of coffee, including 
+unsweetened, sugar-sweetened, artificially sweetened, 
+caffeinated, and decaffeinated coffee, could demonstrate 
+different associations with healthy outcomes. As a pre­
+vious study showed, unsweetened coffee is significantly 
+Table 2  Associations of coffee consumption with incident MASLD a
+Outcomes
+Non-coffee consumers
+Coffee intake, drinks per day b
+P for trend c
+> 0-1.5 drinks/d
+> 1.5–2.5 drinks/d
+> 2.5 drinks/d
+Incident MASLD/person-years
+472/428,649
+357/525,451
+284/401,358
+423/484,973
+Crude model
+1.00 (Reference)
+0.62 (0.54, 0.71) g
+0.65 (0.56, 0.75)
+0.80 (0.70, 0.91)
+0.004
+Model 1d
+1.00 (Reference)
+0.68 (0.59, 0.78)
+0.69 (0.60, 0.80)
+0.76 (0.67, 0.87)
+< 0.001
+Model 2e
+1.00 (Reference)
+0.70 (0.61, 0.81)
+0.73 (0.63, 0.84)
+0.77 (0.68, 0.88)
+< 0.001
+Model 3f
+1.00 (Reference)
+0.71 (0.62, 0.81)
+0.73 (0.63, 0.85)
+0.78 (0.68, 0.89)
+< 0.001
+aBMI Body mass index, CVD Cardiovascular disease, MASLD Metabolic dysfunction-associated steatotic liver disease
+b1 drink is equal to approximately 250 mL
+cTrend tests were conducted by including coffee intakes as ordinal variables
+dModel 1: Adjusted for age, BMI, and sex
+eModel 2: Additionally adjusted for Townsend deprivation index, education level, smoking status, alcohol status, physical activity, healthy diet score, total energy, 
+total sugar, and tea based on model 1
+fModel 3: Additionally adjusted for cancer, CVD, diabetes, hypertension, and hyperlipidemia based on model 2
+gHazard ratio (95% confidence interval) (all such values)
+
+Page 8 of 14
+Liu et al. Nutrition Journal           (2026) 25:31 
+associated with a reduced risk of depression and anxiety, 
+but the associations between sugar-sweetened or artifi­
+cially sweetened coffee and mental illness are inconsistent 
+40. However, no previous study has explored the asso­
+ciations of different types of sweetened coffee consump­
+tion with the risk of MASLD. We first found a significant 
+inverse association between unsweetened coffee con­
+sumption and the risk of MASLD, while sugar-sweetened 
+or artificially sweetened coffee intake was not. Presently, 
+it is generally accepted that diet is crucial in the develop­
+ment of chronic liver conditions 41, 42. Beverage intake, 
+such as coffee, is considered one of the protective factors 
+for chronic liver disease. Over 1000 different compounds 
+are found in coffee, encompassing caffeine, diterpenoid 
+alcohols, niacin, and antioxidants like chlorogenic acid 
+(CGA) and tocopherols 43. Some of the beneficial com­
+ponents have been elucidated. Previous study indicates 
+caffeine’s ability to lower lipid concentrations and pre­
+vent fat accumulation in mice fed a high-fat diet 44. The 
+mechanism may be that caffeine boosts the expression of 
+low-density lipoprotein receptors expression by directly 
+binding to epidermal growth factor receptor (EGFR) and 
+activating the EGFR-ERK1/2 signalling pathway 45. This 
+aligns with our finding that caffeinated coffee is capable 
+of diminishing the risk of MASLD. The results of the 
+MR analysis also confirmed this point. Perhaps because 
+Table 3  Associations of coffee consumption with MASLD by coffee type and caffeination status separately a
+Non-coffee consumers
+Coffee intake, drinks per day b
+P for trend c
+> 0-1.5 drinks/d
+> 1.5–2.5 drinks/d
+> 2.5 drinks/d
+Unsweetened coffee
+Incident MASLD/person-years
+472/428,649
+214/371,656
+178/301,207
+278/363,471
+  Crude model
+1.00 (Reference)
+0.52 (0.45, 0.62) g
+0.54 (0.46, 0.64)
+0.70 (0.60, 0.81)
+< 0.001
+  Model 1 d
+1.00 (Reference)
+0.59 (0.50, 0.69)
+0.59 (0.49, 0.70)
+0.68 (0.58, 0.78)
+< 0.001
+  Model 2 e
+1.00 (Reference)
+0.62 (0.52, 0.73)
+0.62 (0.52, 0.74)
+0.70 (0.60, 0.81)
+< 0.001
+  Model 3 f
+1.00 (Reference)
+0.62 (0.53, 0.73)
+0.62 (0.52, 0.74)
+0.70 (0.60, 0.82)
+< 0.001
+Sugar-sweetened coffee
+Incident MASLD/person-years
+472/428,649
+97/115,349
+60/70,286
+71/73,908
+  Crude model
+1.00 (Reference)
+0.76 (0.61, 0.95)
+0.78 (0.59, 1.02)
+0.87 (0.68, 1.12)
+0.042
+  Model 1 d
+1.00 (Reference)
+0.87 (0.70, 1.08)
+0.89 (0.68, 1.17)
+0.96 (0.75, 1.24)
+0.455
+  Model 2 e
+1.00 (Reference)
+0.87 (0.69, 1.08)
+0.89 (0.67, 1.16)
+0.91 (0.70, 1.17)
+0.260
+  Model 3 f
+1.00 (Reference)
+0.89 (0.71, 1.11)
+0.93 (0.70, 1.22)
+0.95 (0.73, 1.23)
+0.489
+Artificially sweetened coffee
+Incident MASLD/person-years
+472/428,649
+46/38,447
+46/29,866
+74/47,594
+  Crude model
+1.00 (Reference)
+1.09 (0.80, 1.47)
+1.41 (1.04, 1.91)
+1.42 (1.11, 1.81)
+< 0.001
+  Model 1 d
+1.00 (Reference)
+0.88 (0.65, 1.19)
+1.15 (0.85, 1.56)
+1.10 (0.86, 1.41)
+0.377
+  Model 2 e
+1.00 (Reference)
+0.86 (0.64, 1.17)
+1.14 (0.84, 1.55)
+1.03 (0.80, 1.32)
+0.686
+  Model 3 f
+1.00 (Reference)
+0.82 (0.60, 1.11)
+1.08 (0.80, 1.47)
+1.00 (0.78, 1.28)
+0.964
+Caffeinated coffee
+Incident MASLD/person-years
+472/428,649
+292/419,073
+206/302,040
+312/345,718
+  Crude model
+1.00 (Reference)
+0.64 (0.55, 0.74)
+0.63 (0.53, 0.74)
+0.83 (0.72, 0.96)
+0.003
+  Model 1 d
+1.00 (Reference)
+0.68 (0.59, 0.79)
+0.66 (0.56, 0.77)
+0.78 (0.68, 0.90)
+< 0.001
+  Model 2 e
+1.00 (Reference)
+0.71 (0.61, 0.82)
+0.69 (0.58, 0.81)
+0.78 (0.68, 0.90)
+< 0.001
+  Model 3 f
+1.00 (Reference)
+0.72 (0.62, 0.83)
+0.70 (0.59, 0.82)
+0.79 (0.68, 0.91)
+< 0.001
+Decaffeinated coffee
+Incident MASLD/person-years
+472/428,649
+47/67,709
+45/43,820
+60/54,607
+  Crude model
+1.00 (Reference)
+0.63 (0.47, 0.85)
+0.93 (0.69, 1.27)
+0.99 (0.76, 1.30)
+0.445
+  Model 1 d
+1.00 (Reference)
+0.67 (0.50, 0.91)
+0.94 (0.69, 1.28)
+0.89 (0.68, 1.16)
+0.204
+  Model 2 e
+1.00 (Reference)
+0.71 (0.52, 0.96)
+0.99 (0.73, 1.35)
+0.91 (0.69, 1.19)
+0.343
+  Model 3 f
+1.00 (Reference)
+0.70 (0.52, 0.95)
+0.99 (0.73, 1.35)
+0.90 (0.68, 1.17)
+0.298
+aBMI body mass index, CVD cardiovascular disease, MASLD metabolic dysfunction-associated steatotic liver disease
+b1 drink is equal to approximately 250 mL
+cTrend tests were conducted by including coffee intakes as ordinal variables
+dModel 1: Adjusted for age, BMI, and sex
+eModel 2: Additionally adjusted for Townsend deprivation index, education level, smoking status, alcohol status, physical activity, healthy diet score, total energy, 
+total sugar, and tea based on model 1
+fModel 3: Additionally adjusted for cancer, CVD, diabetes, hypertension, and hyperlipidemia based on model 2
+gHazard ratio (95% confidence interval) (all such values)
+
+Page 9 of 14
+Liu et al. Nutrition Journal           (2026) 25:31 
+there are only two SNPs of caffeine, further research will 
+be needed in the future to verify our hypothesis. Fur­
+thermore, coffee with high CGA (a natural polyphenol 
+compound) concentrations can modulate glucose intol­
+erance and improve/decrease MASLD development in 
+obese rats 46; coffee polyphenols could reduce the build-
+up of fat in the liver by downregulating the expression of 
+lipogenic genes driven by SREBP-1c 47. In our study, we 
+did not find an association between coffee with sugar or 
+artificially sweeteners and MASLD. Suggesting that add­
+ing sugar or artificial sweeteners to coffee may mask or 
+offset the benefits of drinking coffee. It has been dem­
+onstrated that a diet rich in fructose, sucrose, or HFCS 
+tends to cause fatty liver in experimental animals 48–54. 
+In addition, artificial sweeteners 55 are proven risk fac­
+tors for MASLD. Excessive intake of artificial sweeteners 
+may lead to imbalances in the gut microbiome and trig­
+ger the release of proinflammatory agents, potentially 
+elevating the risk of MASLD 56.In the present study, 
+we did not find evidence of interactions between coffee 
+consumption and the FLD-GRS, suggesting that the ben­
+eficial association between a higher level of unsweetened 
+caffeinated coffee consumption and the risk of MASLD 
+was not modified by genetic risk profiles. However, the 
+absence of significant interactions might be attributed, in 
+part, to the limited proportion of genetic risk explained 
+by the included SNPs. Thus, the interpretation of these 
+results requires caution. Moreover, previous studies 
+have found that the gut microbiota modulates post­
+prandial nutrient metabolism and generates metabolites 
+that interact with the host through multiple molecular 
+mechanisms, thereby influencing the incidence of dis­
+ease 57, 58. Previous studies have also found that coffee 
+can affect liver disease through intestinal flora in animal 
+studies 59 or clinical trials 60, but there were no results 
+from large-scale population cohort. Therefore, we for 
+the first time investigated the interactions of coffee con­
+sumption and GMA-GRS on the risk of MASLD. How­
+ever, we did not find evidence of interactions between 
+coffee consumption and the GMA-GRS. There seems to 
+be an obvious reason behind this result. Previous stud­
+ies have shown that genetic factors explain less than 10% 
+of the variation in gut microbiota abundance 33. There­
+fore, GMA-GRS can only represent genetic predisposi­
+tion and only reflect partial abundance. However, gut 
+microbiota is influenced not only by genetics but also by 
+immune responses and dietary factors. These influences 
+may obscure the beneficial association between high cof­
+fee intake and the risk of MASLD 57. Future research is 
+needed to directly use the abundance of intestinal flora to 
+verify our findings. Additionally, we found that BMI had 
+significant interactions with unsweetened and caffeinated 
+coffee on the outcome. Specifically, we found that the 
+beneficial association between unsweetened coffee and 
+MASLD was more pronounced in overweight popula­
+tions. A previous study found that moderate caffeine con­
+sumption was associated with lower all-cause mortality 
+in adults, especially those who were overweight 61. This 
+means that components in coffee, such as caffeine, may 
+have more significant beneficial effects on metabolism in 
+overweight or obese individuals. In addition, education 
+level interacted significantly with unsweetened coffee and 
+Fig. 1  Dose-response associations of total and different types of coffee consumption and MASLD. Results were adjusted for age, BMI, sex, Townsend 
+deprivation index, education level, smoking status, alcohol status, physical activity, healthy diet score, total energy, total sugar, tea, cancer, CVD, diabetes, 
+hypertension, and hyperlipidemia
+ 
+
+Page 10 of 14
+Liu et al. Nutrition Journal           (2026) 25:31 
+age with caffeinated coffee on outcomes. Earlier research 
+has indicated that education has a beneficial impact on 
+health-related lifestyles and behaviours, such as smoking 
+62–64, drinking 64, or care seeking 65, 66. In individu­
+als aged > 60 years, lower to moderate caffeine coffee con­
+sumption (< 2.5 drinks/day) is associated with a reduced 
+risk of MASLD. This phenomenon may be attributed to 
+the fact that, compared with high-dose intake, lower to 
+moderate doses of caffeine are more likely to match the 
+intrinsic metabolic capacity of older adults. Such a dos­
+age range can more effectively alleviate the age-related 
+propensity for hepatic lipid accumulation. Concurrently, 
+lower to moderate caffeine intake exerts less impact on 
+the cardiovascular system, thereby minimizing the risk of 
+precipitating cardiovascular complications. While choos­
+ing unsweetened and caffeinated coffee may be part of 
+their overall healthy lifestyle, other healthy behaviours 
+may enhance the beneficial association between unsweet­
+ened caffeinated coffee intake and the risk of MASLD.
+This study has several strengths, including its prospec­
+tive design, large sample size, and wide range of coffee 
+consumption information. We also considered the impact 
+of gut microbial abundance on the risk of MASLD.
+This study also has several limitations. Firstly, given the 
+inherent limitations of observational design, the poten­
+tial for lingering confounding or bias arising from factors 
+that are not measured or known remains a consideration. 
+Second, participants in our study were of European heri­
+tage, who resided in areas with lower socioeconomic 
+deprivation and led healthier lives compared to the 
+broader population. This suggests a “healthy volunteer” 
+bias 67, which may limit the generalizability of our find­
+ings to other populations. However, accurate evaluations 
+of the link between exposure and disease typically don’t 
+necessitate a representative population 67. Third, self-
+reported exposures assessed by the 24-h diet recall ques­
+tionnaires were subject to inevitable measurement error 
+and recall bias, which in turn leads to misclassification of 
+intake, although the questionnaire has been validated 25, 
+68. Fourth, the consumption of coffee relied on the self-
+reported data of participants, accompanied by the poten­
+tial for reporting bias. Hence, the potential for inaccurate 
+reporting cannot be completely ruled out. Furthermore, 
+since the evaluation of coffee consumption was limited to 
+the baseline, categorizing participants as one type of cof­
+fee consumer appears imprecise, as they might consume 
+various coffee varieties over time. However, the follow-
+up duration may be insufficient to capture all long-term 
+effects or changes in coffee consumption patterns over 
+time. Considering only a single coffee type and not mix­
+ing coffee types over time could lead to bias in exposure 
+classification. Participants who changed coffee types 
+during follow-up were excluded, potentially introducing 
+selection bias. Potential alterations in coffee consumption 
+post-baseline could have impacted our risk estimates. 
+Future studies are required to explore how variations in 
+coffee consumption over time affect the risk of MASLD. 
+A high degree of reproducibility for assessing nutri­
+ent intake over time has been demonstrated in a previ­
+ous study 69. Therefore, we assumed that baseline coffee 
+intake remained constant during follow-up. Fifth, the 
+lack of quantitative data on milk, cream, or other addi­
+tives that are commonly added to coffee precludes the 
+assessment of their impact on the results. Sixth, associa­
+tions between unsweetened/caffeinated coffee and lower 
+MASLD risk are broadly supported by the evidence, but 
+causal claims (especially via MR) should be interpreted 
+cautiously due to weak instruments and residual con­
+founding. Seventh, FLD-GRS and GMA-GRS captured 
+only a small fraction of the genetic variation in MASLD 
+and gut microbiome composition, with an explained 
+variance ratio (R2) is less than 10%, the results need to be 
+interpreted carefully. Eighth, since only two SNPs were 
+Table 4  Associations of coffee consumption with MASLD by 
+coffee type and caffeination status jointly a
+Non-
+coffee 
+consumers
+Coffee intake, drinks per 
+day b
+P for 
+trend 
+c
+> 0-1.5 
+drinks/d
+> 1.5–
+2.5 
+drinks/d
+> 2.5 
+drinks/d
+Unsweetened coffee
+  Caffein­
+ated coffee 
+(n = 968/772,014)
+1.00 
+(Reference)
+0.64 
+(0.54, 
+0.77) de
+0.57 
+(0.46, 
+0.69)
+0.69 
+(0.58, 
+0.82)
+< 0.001
+  Decaffein­
+ated coffee 
+(n = 576/120,728)
+1.00 
+(Reference)
+0.60 
+(0.41, 
+0.89)
+1.02 
+(0.71, 
+1.45)
+0.92 
+(0.68, 
+1.26)
+0.403
+Sugar-sweetened coffee
+  Caffein­
+ated coffee 
+(n = 661/212,575)
+1.00 
+(Reference)
+0.88 
+(0.69, 
+1.12)
+0.88 
+(0.65, 
+1.19)
+0.99 
+(0.65, 
+1.32)
+0.587
+  Decaffein­
+ated coffee 
+(n = 493/26,101)
+1.00 
+(Reference)
+1.03 
+(0.58, 
+1.84)
+0.77 
+(0.32, 
+1.86)
+0.59 
+(0.22, 
+1.59)
+0.281
+Artificially sweetened coffee
+  Caffein­
+ated coffee 
+(n = 594/82,291)
+1.00 
+(Reference)
+0.75 
+(0.52, 
+1.07)
+1.19 
+(0.84, 
+1.67)
+1.08 
+(0.81, 
+1.44)
+0.548
+  Decaffein­
+ated coffee 
+(n = 499/19,447)
+1.00 
+(Reference)
+0.76 
+(0.38, 
+1.52)
+1.05 
+(0.50, 
+2.21)
+0.91 
+(0.51, 
+1.63)
+0.688
+aBMI Body mass index, CVD Cardiovascular disease, MASLD Metabolic 
+dysfunction-associated steatotic liver disease
+b1 drink is equal to approximately 250 mL
+cTrend tests were conducted by including coffee intakes as ordinal variables
+dEstimates were hazard ratios (95% CIs) from multivariable Cox regression 
+models adjusted for variables in age, BMI, sex, Townsend deprivation index, 
+education level, smoking status, alcohol status, physical activity, healthy diet 
+score, total energy, total sugar, tea, cancer, CVD, diabetes, hypertension, and 
+hyperlipidemia
+eHazard ratios (95% confidence interval) (all such values)
+
+Page 11 of 14
+Liu et al. Nutrition Journal           (2026) 25:31 
+included in the MR analysis and the sample size was very 
+small, the genetically predicted caffeine exposure may 
+be negatively associated with MASLD risk. However, 
+this analysis fell well short of the conventional require­
+ment for the number of instrumental variables in MR 
+studies ( ≥3 SNPs), leading to extremely low statistical 
+power. Finally, MASLD was identified through the appli­
+cation of hospital inpatient data alongside death register 
+records. This approach potentially introduced bias due to 
+the higher likelihood of hospitalization and subsequent 
+diagnosis of MASLD in individuals with serious comor­
+bidities compared to those without. Focusing on these 
+Fig. 3  Stratified analysis of associations between different types of coffee consumption and risk of MASLD according to GRS. Multivariable Cox propor­
+tional regression was adjusted for variables in age, BMI, sex, Townsend deprivation index, education level, smoking status, alcohol status, physical activity, 
+healthy diet score, total energy, total sugar, tea, cancer, CVD, diabetes, hypertension, and hyperlipidemia
+ 
+Fig. 2  The associations of joint classifications of coffee consumption, types of sweetened coffee, and caffeine content on incident MASLD in the UK Bio­
+bank. Multivariable Cox proportional regression was adjusted for variables in age, BMI, sex, Townsend deprivation index, education level, smoking status, 
+alcohol status, physical activity, healthy diet score, total energy, total sugar, tea, cancer, CVD, diabetes, hypertension, and hyperlipidemia
+ 
+
+Page 12 of 14
+Liu et al. Nutrition Journal           (2026) 25:31 
+clinically significant or advanced phenotypes may lead to 
+an underestimation of the overall incidence. Therefore, 
+our findings are primarily applicable to advanced or con­
+firmed MASLD, and future studies need to confirm our 
+results further.
+Conclusions
+In summary, this prospective cohort investigation 
+revealed a negative association between the consump­
+tion of unsweetened caffeinated coffee and the risk of 
+MASLD, regardless of genetic predisposition. The results 
+of our study endorse the idea that drinking unsweetened 
+caffeinated coffee might contribute to a healthy way of 
+living, aiming to prevent and control MASLD among the 
+broader populace.
+Supplementary Information
+The online version contains supplementary material available at ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​
+g​/​1​0​.​1​1​8​6​/​s​1​2​9​3​7​-​0​2​6​-​0​1​2​8​9​-​8.
+Supplementary Material 1.
+Acknowledgements
+We are grateful to all participants and staff in the UK Biobank Study.
+Role of the Funder/Sponsor
+None.
+Authors’ contributions
+Wenqi Liu: conceptualization; formal analysis; writing–original draft. Xinrui 
+Xu: conceptualization; formal analysis; writing–original draft. Qing Chang: 
+formal analysis. Honghao Yang: writing–review & editing. Zheng Ma: formal 
+analysis. Tingjing Zhang: formal analysis. Yuhong Zhao: writing–review & 
+editing; supervision. Lu Zhao: conceptualization; writing–review & editing; 
+supervision. Yang Xia: conceptualization; data curation; writing–review & 
+editing; supervision; funding acquisition. All authors mentioned above made 
+substantial contributions to the content of the paper. All authors read and 
+approved the final manuscript.
+Funding
+This study was supported by the LiaoNing Revitalization Talents Program 
+(grant number XLYC2203168 to Yang Xia) and the General Program of Natural 
+Science Foundation of Liaoning Province (grant numbers: 2025-MS-221 to 
+Yang Xia).The funders had no role in the conduct of the study; collection, 
+management, analysis, or interpretation of the data; preparation, review, 
+or approval of the manuscript; or decision to submit the manuscript for 
+publication.
+Data availability
+Data are available in a public, open access repository. This research has 
+been conducted using the UK Biobank Resource under Application Number 
+524293. The UK Biobank data are available on application to the UK Biobank 
+(https://www.ukbiobank.ac.uk/).
+Declarations
+Ethics approval and consent to participate
+No applicable.
+Consent for publication
+All authors approved the final manuscript and the submission to this journal.
+Competing interests
+The authors declare no competing interests.
+Author details
+1Department of Clinical Epidemiology, Shengjing Hospital of China 
+Medical University, Shenyang, China
+2Liaoning Key Laboratory of Precision Medical Research on Major Chronic 
+Disease, Shengjing Hospital of China Medical University, Shenyang, China
+3School of Public Health, Wannan Medical College, Wuhu, China
+Received: 2 May 2025 / Accepted: 10 February 2026
+References
+1.	
+Rinella ME, Lazarus JV, Ratziu V, Francque SM, Sanyal AJ, Kanwal F, Romero D, 
+Abdelmalek MF, Anstee QM, Arab JP, Arrese M, Bataller R, Beuers U, Boursier 
+J, Bugianesi E, Byrne CD, Castro Narro GE, Chowdhury A, Cortez-Pinto H, 
+Cryer DR, Cusi K, El-Kassas M, Klein S, Eskridge W, Fan J, Gawrieh S, Guy CD, 
+Harrison SA, Kim SU, Koot BG, Korenjak M, Kowdley KV, Lacaille F, Loomba R, 
+Mitchell-Thain R, Morgan TR, Powell EE, Roden M, Romero-Gómez M, Silva M, 
+Singh SP, Sookoian SC, Spearman CW, Tiniakos D, Valenti L, Vos MB, Wong VW, 
+Xanthakos S, Yilmaz Y, Younossi Z, Hobbs A, M. Villota-Rivas and P. N., New­
+some. A multisociety Delphi consensus statement on new fatty liver disease 
+nomenclature, Hepatology. 2023; 78:1966–1986.
+2.	
+Rinella ME. Nonalcoholic fatty liver disease: a systematic review. JAMA. 
+2015;313:2263– 2273.
+3.	
+Marchesini G, Bugianesi E, Forlani G, Cerrelli F, Lenzi M, Manini R, Natale S, 
+Vanni E, Villanova N, Melchionda N, Rizzetto M. Nonalcoholic fatty liver, 
+steatohepatitis, and the metabolic syndrome. Hepatology. 2003;37:917– 923.
+4.	
+Younossi ZM, Koenig AB, Abdelatif D, Fazel Y, Henry L, Wymer M. Global 
+epidemiology of nonalcoholic fatty liver disease-Meta-analytic assessment of 
+prevalence, incidence, and outcomes. Hepatology. 2016;64:73–84.
+5.	
+Moon JH, Jeong S, Jang H, Koo BK, Kim W. Metabolic dysfunction-associated 
+steatotic liver disease increases the risk of incident cardiovascular disease: a 
+nationwide cohort study. EClinicalMedicine. 2023;65:102292.
+6.	
+Thomas JA, Kendall BJ, El-Serag HB, Thrift AP, Macdonald GA. Hepatocellular 
+and extrahepatic cancer risk in people with non-alcoholic fatty liver disease. 
+Lancet Gastroenterol Hepatol. 2024;9:159– 169.
+7.	
+Song R, Li Z, Zhang Y, Tan J, Chen Z. Comparison of NAFLD, MAFLD and 
+MASLD characteristics and mortality outcomes in united States adults. Liver 
+Int. 2024;44:1051– 1060.
+8.	
+Riazi K, Azhari H, Charette JH, Underwood FE, King JA, Afshar EE, Swain MG, 
+Congly SE, Kaplan GG, Shaheen AA. The prevalence and incidence of NAFLD 
+worldwide: a systematic review and meta-analysis. Lancet Gastroenterol 
+Hepatol. 2022;7:851– 861.
+9.	
+Keam SJ. Resmetirom: first approval. Drugs. 2024;84:729– 735.
+10.	 Saab S, Mallam D, Cox GA, Tong MJ. Impact of coffee on liver diseases: a 
+systematic review. Liver Int. 2014;34:495–504.
+11.	 Liu D, Li ZH, Shen D, Zhang PD, Song WQ, Zhang WT, Huang QM, Chen 
+PL, Zhang XR, Mao C. Association of Sugar-Sweetened, artificially Sweet­
+ened, and unsweetened coffee consumption with All-Cause and Cause-
+Specific mortality: A large prospective cohort study. Ann Intern Med. 
+2022;175:909– 917.
+12.	 Chieng D, Kistler PM. Coffee and tea on cardiovascular disease (CVD) preven­
+tion. Trends Cardiovasc Med. 2022;32:399–405.
+13.	 Barrea L, Pugliese G, Frias-Toral E, El Ghoch M, Castellucci B, Chapela SP, 
+Carignano MLA, Laudisio D, Savastano S, Colao A, Muscogiuri G. Coffee 
+consumption, health benefits and side effects: a narrative review and update 
+for dietitians and nutritionists. Crit Rev Food Sci Nutr. 2023;63:1238– 1261.
+14.	 Safe S, Kothari J, Hailemariam A, Upadhyay S, Davidson LA, Chapkin RS. 
+Health benefits of coffee consumption for cancer and other diseases and 
+mechanisms of action. Int J Mol Sci, 2023, 24.
+15.	 Tan LJ, Jung H, Kim SA, Shin S. The association between coffee consumption 
+and nonalcoholic fatty liver disease in the South Korean general population. 
+Mol Nutr Food Res. 2021;65:e2100356.
+16.	 Veronese N, Notarnicola M, Cisternino AM, Reddavide R, Inguaggiato R, 
+Guerra V, Rotolo O, Zinzi I, Leandro G, Correale M, Tutino V, Misciagna G, Osella 
+AR, Bonfiglio C, Giannelli G, Caruso MG. Coffee intake and liver steatosis: A 
+population study in a mediterranean area. Nutrients, 2018, 10.
+17.	 Zelber-Sagi S, Salomone F, Webb M, Lotan R, Yeshua H, Halpern Z, Santo E, 
+Oren R, Shibolet O. Coffee consumption and nonalcoholic fatty liver onset: a 
+prospective study in the general population. Transl Res. 2015;165:428– 436.
+
+Page 13 of 14
+Liu et al. Nutrition Journal           (2026) 25:31 
+18.	 Grosso G, Godos J, Galvano F, Giovannucci EL. Coffee, Caffeine, and health 
+outcomes: an umbrella review. Annu Rev Nutr. 2017;37:131– 156.
+19.	 Di Rienzi SC, Britton RA. Adaptation of the gut microbiota to modern dietary 
+sugars and sweeteners. Adv Nutr. 2020;11:616– 629.
+20.	 Zhao S, Jang C, Liu J, Uehara K, Gilbert M, Izzo L, Zeng X, Trefely S, Fernandez 
+S, Carrer A, Miller KD, Schug ZT, Snyder NW, Gade TP, Titchenell PM, Rabinow­
+itz JD, Wellen KE. Dietary Fructose feeds hepatic lipogenesis via microbiota-
+derived acetate. Nature. 2020;579:586– 591.
+21.	 Diamond E, Hewlett K, Penumutchu S, Belenky A, Belenky P. Coffee consump­
+tion modulates Amoxicillin-Induced dysbiosis in the murine gut Microbiome. 
+Front Microbiol. 2021;12:637282.
+22.	 Sudlow C, Gallacher J, Allen N, Beral V, Burton P, Danesh J, Downey P, Elliott 
+P, Green J, Landray M, Liu B, Matthews P, Ong G, Pell J, Silman A, Young A, 
+Sprosen T, Peakman T, Collins R. UK biobank: an open access resource for 
+identifying the causes of a wide range of complex diseases of middle and old 
+age. PLoS Med. 2015;12:e1001779.
+23.	 Freedman LS, Commins JM, Moler JE, Arab L, Baer DJ, Kipnis V, Midthune D, 
+Moshfegh AJ, Neuhouser ML, Prentice RL, Schatzkin A, Spiegelman D, Subar 
+AF, Tinker LF. Willett, pooled results from 5 validation studies of dietary self-
+report instruments using recovery biomarkers for energy and protein intake. 
+Am J Epidemiol. 2014;180:172– 188.
+24.	 Freedman LS, Commins JM, Moler JE, Willett W, Tinker LF, Subar AF, Spiegel­
+man D, Rhodes D, Potischman N, Neuhouser ML, Moshfegh AJ, Kipnis V, Arab 
+L, Prentice RL. Pooled results from 5 validation studies of dietary self-report 
+instruments using recovery biomarkers for potassium and sodium intake. Am 
+J Epidemiol. 2015;181:473– 487.
+25.	 Liu B, Young H, Crowe FL, Benson VS, Spencer EA, Key TJ, Appleby PN, Beral 
+V. Development and evaluation of the Oxford WebQ, a low-cost, web-based 
+method for assessment of previous 24 h dietary intakes in large-scale pro­
+spective studies. Public Health Nutr. 2011;14:1998–2005.
+26.	 Hagström H, Adams LA, Allen AM, Byrne CD, Chang Y, Grønbaek H, Ismail 
+M, Jepsen P, Kanwal F, Kramer J, Lazarus JV, Long MT, Loomba R, Newsome 
+PN, Rowe IA, Ryu S, Schattenberg JM, Serper M, Sheron N, Simon TG, Tapper 
+EB, Wild S, Wong VW, Yilmaz Y, Zelber-Sagi S, Åberg F. Administrative coding 
+in electronic health care Record-Based research of NAFLD: an expert panel 
+consensus statement. Hepatology. 2021;74:474– 482.
+27.	 Okely AD, Kontsevaya A, Ng J, Abdeta C. 2020 WHO guidelines on physical 
+activity and sedentary behavior. Sports Med Health Sci. 2021;3:115– 118.
+28.	 Mozaffarian D. Dietary and policy priorities for cardiovascular Disease, Diabe­
+tes, and obesity: A comprehensive review. Circulation. 2016;133:187–225.
+29.	 Zhang T, Ye R, Shen Z, Chang Q, Zhao Y, Chen L, Zhao L, Xia Y. Joint associa­
+tion of serum urate and healthy diet with chronic obstructive pulmo­
+nary disease incidence: results from the UK biobank study. Food Funct. 
+2024;15:4642– 4651.
+30.	 Liu Z, Huang H, Xie J, Xu C. Dietary patterns and Long-Term outcomes in 
+patients with NAFLD: A prospective analysis of 128,695 UK biobank partici­
+pants. Nutrients, 2023, 15.
+31.	 Fu J, Liu Q, Du Y, Zhu Y, Sun C, Lin H, Jin M, Ma F, Li W, Liu H, Zhang X, Chen Y, 
+Sun Z, Wang G, Huang G. Age- and Sex-Specific prevalence and modifiable 
+risk factors of mild cognitive impairment among older adults in china: A 
+Population-Based observational study. Front Aging Neurosci. 2020;12:578742.
+32.	 Zhou T, Sun D, Li X, Heianza Y, LeBoff MS, Bray GA, Sacks FM, Qi L. Genetically 
+determined SCFA concentration modifies the association of dietary fiber 
+intake with changes in bone mineral density during weight loss: the prevent­
+ing overweight using novel dietary strategies (POUNDS LOST) trial. Am J Clin 
+Nutr. 2021;114:42– 48.
+33.	 Li X, Xue Q, Ma H, Champagne CM, Bray GA, Sacks FM, Qi L. Genetically deter­
+mined gut microbial abundance and 2-year changes in central adiposity and 
+body composition: the POUNDS lost trial. Clin Nutr. 2022;41:2817– 2824.
+34.	 Bianco C, Jamialahmadi O, Pelusi S, Baselli G, Dongiovanni P, Zanoni I, Santoro 
+L, Maier S, Liguori A, Meroni M, Borroni V, D’Ambrosio R, Spagnuolo R, Alisi 
+A, Federico A, Bugianesi E, Petta S, Miele L, Vespasiani-Gentilucci U, Anstee 
+QM, Stickel F, Hampe J, Fischer J, Berg T, Fracanzani AL, Soardo G, Reeves H, 
+Prati D, Romeo S, Valenti L. Non-invasive stratification of hepatocellular car­
+cinoma risk in non-alcoholic fatty liver using polygenic risk scores. J Hepatol. 
+2021;74:775–7 82.
+35.	 Abul-Husn NS, Cheng X, Li AH, Xin Y, Schurmann C, Stevis P, Liu Y, Kozlitina J, 
+Stender S, Wood GC, Stepanchick AN, Still MD, McCarthy S, O’Dushlaine C, 
+Packer JS, Balasubramanian S, Gosalia N, Esopi D, Kim SY, Mukherjee S, Lopez 
+AE, Fuller ED, Penn J, Chu X, Luo JZ, Mirshahi UL, Carey DJ, Still CD, Feldman 
+MD, Small A, Damrauer SM, Rader DJ, Zambrowicz B, Olson W, Murphy AJ, 
+Borecki IB, Shuldiner AR, Reid JG, Overton JD, Yancopoulos GD, Hobbs HH, 
+Cohen JC, Gottesman O, Teslovich TM, Baras A, Mirshahi T, Gromada J, Dewey 
+FE. A Protein-Truncating HSD17B13 variant and protection from chronic liver 
+disease. N Engl J Med. 2018;378:1096– 1106.
+36.	 Emdin CA, Haas ME, Khera AV, Aragam K, Chaffin M, Klarin D, Hindy G, Jiang 
+L, Wei WQ, Feng Q, Karjalainen J, Havulinna A, Kiiskinen T, Bick A, Ardissino D, 
+Wilson JG, Schunkert H, McPherson R, Watkins H, Elosua R, Bown MJ, Samani 
+NJ, Baber U, Erdmann J, Gupta N, Danesh J, Saleheen D, Chang KM, Vujkovic 
+M, Voight B, Damrauer S, Lynch J, Kaplan D, Serper M, Tsao P, Mercader J, 
+Hanis C, Daly M, Denny J, Gabriel S, Kathiresan S. A missense variant in mito­
+chondrial Amidoxime reducing component 1 gene and protection against 
+liver disease. PLoS Genet. 2020;16:e1008629.
+37.	 Ebadi M, Ip S, Bhanji RA, Montano-Loza AJ. Effect of coffee consumption on 
+Non-Alcoholic fatty liver disease Incidence, prevalence and risk of significant 
+liver fibrosis: systematic review with Meta-Analysis of observational studies. 
+Nutrients, 2021, 13.
+38.	 Kositamongkol C, Kanchanasurakit S, Auttamalang C, Inchai N, Kabkaew T, 
+Kitpark S, Chaiyakunapruk N, Duangjai A, Saokaew S, Phisalprapa P. Coffee 
+consumption and Non-alcoholic fatty liver disease: an umbrella review and a 
+systematic review and Meta-analysis. Front Pharmacol. 2021;12:786596.
+39.	 Sewter R, Heaney S, Patterson A. Coffee consumption and the progression of 
+NAFLD: A systematic review. Nutrients, 2021, 13.
+40.	 Min J, Cao Z, Cui L, Li F, Lu Z, Hou Y, Yang H, Wang X, Xu C. The association 
+between coffee consumption and risk of incident depression and anxiety: 
+exploring the benefits of moderate intake. Psychiatry Res. 2023;326:115307.
+41.	 Tsuchida T, Lee YA, Fujiwara N, Ybanez M, Allen B, Martins S, Fiel MI, Goossens 
+N, Chou HI, Hoshida Y, Friedman SL. A simple diet- and chemical-induced 
+murine NASH model with rapid progression of steatohepatitis, fibrosis and 
+liver cancer. J Hepatol. 2018;69:385– 395.
+42.	 Li R, Li J, Huang Y, Li H, Yan S, Lin J, Chen Y, Wu L, Liu B, Wang G, Lan T. Polyda­
+tin attenuates diet-induced nonalcoholic steatohepatitis and fibrosis in mice. 
+Int J Biol Sci. 2018;14:1411– 1425.
+43.	 Bonita JS, Mandarano M, Shuta D, Vinson J. Coffee and cardiovascular disease: 
+in vitro, cellular, animal, and human studies. Pharmacol Res. 2007;55:187– 198.
+44.	 Xu M, Yang L, Zhu Y, Liao M, Chu L, Li X, Lin L, Zheng G. Collaborative effects 
+of chlorogenic acid and caffeine on lipid metabolism via the AMPKα-LXRα/
+SREBP-1c pathway in high-fat diet-induced obese mice. Food Funct. 
+2019;10:7489– 7497.
+45.	 Huang YW, Wang LT, Zhang M, Nie Y, Yang JB, Meng WL, Wang XJ, Sheng J. 
+Caffeine can alleviate non-alcoholic fatty liver disease by augmenting LDLR 
+expression via targeting EGFR. Food Funct. 2023;14:3269– 3278.
+46.	 Panchal SK, Poudyal H, Waanders J, Brown L. Coffee extract attenuates 
+changes in cardiovascular and hepatic structure and function without 
+decreasing obesity in high-carbohydrate, high-fat diet-fed male rats. J Nutr. 
+2012;142:690– 697.
+47.	 Murase T, Misawa K, Minegishi Y, Aoki M, Ominami H, Suzuki Y, Shibuya Y, 
+Hase T. Coffee polyphenols suppress diet-induced body fat accumulation 
+by downregulating SREBP-1c and related molecules in C57BL/6J mice. Am J 
+Physiol Endocrinol Metab. 2011;300:E122–133.
+48.	 al-Nagdy S, Miller DS, Yudkin J. Changes in body composition and metabo­
+lism induced by sucrose in the rat. Nutr Metab. 1970;12:193–219.
+49.	 Lanaspa MA, Sanchez-Lozada LG, Choi YJ, Cicerchi C, Kanbay M, Roncal-
+Jimenez CA, Ishimoto T, Li N, Marek G, Duranay M, Schreiner G, Rodriguez-
+Iturbe B, Nakagawa T, Kang DH, Sautin YY, Johnson RJ. Uric acid induces 
+hepatic steatosis by generation of mitochondrial oxidative stress: potential 
+role in fructose-dependent and -independent fatty liver. J Biol Chem. 
+2012;287:40732– 40744.
+50.	 Bruckdorfer KR, Khan IH, Yudkin J. Dietary carbohydrate and fatty acid synthe­
+tase activity in rat liver and adipose tissue. Biochem J. 1971;123:7p.
+51.	 Ackerman Z, Oron-Herman M, Grozovski M, Rosenthal T, Pappo O, Link G, Sela 
+BA. Fructose-induced fatty liver disease: hepatic effects of blood pressure and 
+plasma triglyceride reduction. Hypertension. 2005;45:1012– 1018.
+52.	 Collison KS, Maqbool ZM, Inglis AL, Makhoul NJ, Saleh SM, Bakheet RH, 
+Al-Johi MA, Al-Rabiah RK, Zaidi MZ, Al-Mohanna FA. Effect of dietary mono­
+sodium glutamate on HFCS-induced hepatic steatosis: expression profiles in 
+the liver and visceral fat. Obes (Silver Spring). 2010;18:1122– 1134.
+53.	 Lanaspa MA, Sanchez-Lozada LG, Cicerchi C, Li N, Roncal-Jimenez CA, 
+Ishimoto T, Le M, Garcia GE, Thomas JB, Rivard CJ, Andres-Hernando A, Hunter 
+B, Schreiner G, Rodriguez-Iturbe B, Sautin YY, Johnson RJ. Uric acid stimulates 
+fructokinase and accelerates Fructose metabolism in the development of 
+fatty liver. PLoS ONE. 2012;7:e47948.
+
+Page 14 of 14
+Liu et al. Nutrition Journal           (2026) 25:31 
+54.	 Sánchez-Lozada LG, Mu W, Roncal C, Sautin YY, Abdelmalek M, Reungjui S, Le 
+M, Nakagawa T, Lan HY, Yu X, Johnson RJ. Comparison of free Fructose and 
+glucose to sucrose in the ability to cause fatty liver. Eur J Nutr. 2010;49:1–9.
+55.	 Emamat H, Ghalandari H, Tangestani H, Abdollahi A, Hekmatdoost A. Artificial 
+sweeteners are related to non-alcoholic fatty liver disease: microbiota dysbio­
+sis as a novel potential mechanism. Excli J. 2020;19:620– 626.
+56.	 Park WY, Yiannakou I, Petersen JM, Hoffmann U, Ma J, Long MT. Sugar-Sweet­
+ened Beverage, diet Soda, and nonalcoholic fatty liver disease over 6 years: 
+the Framingham heart study. Clin Gastroenterol Hepatol. 2022;20:2524–2532.
+e2522.
+57.	 Wu J, Wang K, Wang X, Pang Y, Jiang C. The role of the gut Microbiome and its 
+metabolites in metabolic diseases. Protein Cell. 2021;12:360– 373.
+58.	 Hills RD Jr., Pontefract BA, Mishcon HR, Black CA, Sutton SC, Theberge CR. Gut 
+Microbiome: Profound Implications for Diet and Disease, Nutrients. 2019; 11.
+59.	 Cossiga V, Lembo V, Nigro C, Mirra P, Miele C, D’Argenio V, Leone A, Mazzone 
+G, Veneruso I, Guido M, Beguinot F, Caporaso N, Morisco F. The combination 
+of Berberine, tocotrienols and coffee extracts improves metabolic profile and 
+liver steatosis by the modulation of gut microbiota and hepatic miR-122 and 
+miR-34a expression in mice. Nutrients. 2021; 13.
+60.	 Mansour A, Mohajeri-Tehrani MR, Karimi S, Sanginabadi M, Poustchi H, Enayati 
+S, Asgarbeik S, Nasrollahzadeh J, Hekmatdoost A. Short term effects of coffee 
+components consumption on gut microbiota in patients with non-alcoholic 
+fatty liver and diabetes: A pilot randomized placebo-controlled, clinical trial. 
+Excli J. 2020;19:241– 250.
+61.	 Lin P, Liang Z, Wang M. Caffeine consumption and mortality in populations 
+with different weight statuses: an analysis of NHANES 1999–2014. Nutrition. 
+2022;102:111731.
+62.	 Kemptner D, Jürges H, Reinhold S. Changes in compulsory schooling and the 
+causal effect of education on health: evidence from Germany. J Health Econ. 
+2011;30:340– 354.
+63.	 de Walque D. Does education affect smoking behaviors? Evidence using 
+the Vietnam draft as an instrument for college education. J Health Econ. 
+2007;26:877– 895.
+64.	 Jensen R, Lleras-Muney A. Does staying in school (and not working) prevent 
+teen smoking and drinking? J Health Econ. 2012;31:644– 657.
+65.	 Park C, Kang C. Does education induce healthy lifestyle? J Health Econ. 
+2008;27:1516– 1531.
+66.	 Robyn PJ, Fink G, Sié A, Sauerborn R. Health insurance and health-seeking 
+behavior: evidence from a randomized community-based insurance rollout 
+in rural Burkina Faso. Soc Sci Med. 2012;75:595–603.
+67.	 Fry A, Littlejohns TJ, Sudlow C, Doherty N, Adamska L, Sprosen T, Collins R, 
+Allen NE. Comparison of sociodemographic and Health-Related character­
+istics of UK biobank participants with those of the general population. Am J 
+Epidemiol. 2017;186:1026– 1034.
+68.	 Greenwood DC, Hardie LJ, Frost GS, Alwan NA, Bradbury KE, Carter M, Elliott 
+P, Evans CEL, Ford HE, Hancock N, Key TJ, Liu B, Morris MA, Mulla UZ, Petro­
+poulou K, Potter GDM, Riboli E, Young H, Wark PA, Cade JE. Validation of the 
+Oxford WebQ online 24-Hour dietary questionnaire using biomarkers. Am J 
+Epidemiol. 2019;188:1858– 1867.
+69.	 Yuan C, Spiegelman D, Rimm EB, Rosner BA, Stampfer MJ, Barnett JB, Cha­
+varro JE, Subar AF, Sampson LK, Willett WC. Validity of a dietary questionnaire 
+assessed by comparison with multiple weighed dietary records or 24-Hour 
+recalls. Am J Epidemiol. 2017;185:570– 584.
+Publisher’s note
+Springer Nature remains neutral with regard to jurisdictional claims in 
+published maps and institutional affiliations.

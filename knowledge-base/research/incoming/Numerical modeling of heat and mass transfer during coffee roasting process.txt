@@ -1,0 +1,800 @@
+Numerical modeling of heat and mass transfer during coffee roasting process
+Angelo Fabbri a, Chiara Cevoli a,⇑, Laura Alessandrini b, Santina Romani b
+a Agricultural Economics and Engineering Department, University of Bologna, Piazza G. Goidanich, 60-47521 Cesena (FC), Italy
+b Food Science Department, University of Bologna, Piazza G. Goidanich, 60-47521 Cesena (FC), Italy
+a r t i c l e
+i n f o
+Article history:
+Received 16 November 2010
+Received in revised form 9 February 2011
+Accepted 19 February 2011
+Available online 23 February 2011
+Keywords:
+Finite element
+Coffee
+Roasting
+3D geometry
+a b s t r a c t
+In this work a numerical model, based on a 3D geometry, able to describe the heat and moisture transfer
+inside a coffee bean during the roasting process, was developed. The model makes reference to a rotating
+cylinder roaster in natural convection conditions.
+For the multiphysics model development heat and mass transfer equations inside the coffee bean were
+numerically solved using a ﬁnite element technique. Two domain geometries were tested. One simpliﬁed,
+based on a simple semi-ellipsis, and one made acquiring the shape of an Arabica coffee bean using a 3D
+scanner. To validate the numerical model, green coffee bean was singularly roasted using a rotating drum
+roasters prototype. The calculated moisture concentration and time–temperature curves were then com-
+pared with the observed data.
+The calculated temperature values, in the centre of the bean, appear to be in good agreement with
+those measured inserting thermocouples into the coffee bean (RMSE 5.97 C). Similarly the calculated
+volume averaged moisture was in good agreement with the experimental data (RMSE 264.251 mol/m3)
+over the entire time span. This model can be useful to optimise the roasting process control.
+ 2011 Elsevier Ltd. All rights reserved.
+1. Introduction
+Roasting is a crucial stage in the coffee processing, that is aimed
+to change markedly the chemical, physical, structural and sensorial
+properties of the green beans by heat induced reactions. In this
+way roasting process makes coffee beans suitable for brewing.
+The green beans are, in fact, characterised by only a weak and
+greenly aroma and a hard texture hinders their use as food.
+Roasting is an intense thermal treatment during which coffee
+beans are heated at high temperatures (160–240 C) for times
+ranging between 8 and 20 min depending on the desired character-
+istics of the ﬁnal product. In the case of an Italian-style coffee, the
+roasting temperature ranges between 200 and 240 C (Lerici and
+Nicoli, 1990).
+Roasting is a complex process involving both energy (from the
+roaster to the bean) and mass (water vapour and volatile com-
+pounds from the bean to the environment) transfer implied in
+the main changes of the coffee beans in terms of weight, density,
+moisture, colour and ﬂavour (Eggers and Pietsch, 2001; Severini
+et al., 1992). Endothermic process and reactions (water evapora-
+tion) occur in the ﬁrst stages of the roasting, whilst the undesirable
+exothermic pyrolysis of saccharides may occur at the latter
+roasting stages.
+From a technological point of view roasting consists in a forced
+ﬂow of hot gases produced electrically; moreover it can be ob-
+tained by burning oil or fuel gas in air, that pass through a moving
+bed of coffee. The heat is transferred from the hot gas to the bean
+by convective mechanisms and, depending on the technique, also
+by radiation and/or direct contact with the walls of the roaster.
+The motion of the beans is either produced by rotation or by ﬂow
+of roasting gases. On these bases, various roasting techniques have
+been developed.
+Rotating drum roasters are the most commonly employed
+equipments by the roasting industry for batch or continuous pro-
+cesses. In this case beans are mixed with hot gases in a horizontal
+rotating drum (with or without perforated walls) or in a vertical
+ﬁxed drum roaster with paddles. Among the others kind of roasters
+ﬂuidised bed and spouting bed roasting facilitate roasting for short
+time periods with low gas temperatures. The higher gas velocities
+in the roasting processes ﬂuidized bed and spouted bed lead to a
+better heat transfer. The spouted bed needs less gas (energy con-
+sumption), but may lead to less homogeneous roasting result than
+ﬂuidized bed roasting. (Eggers and Pietsch, 2001).
+Process efﬁciency and quality of the roasted coffee depend on
+several factors including: gas composition and temperature, pres-
+sure, time, relative velocity of beans and gas ﬂow rate. Each roast-
+ing equipment needs a proper choice of the process parameters as
+they affect the rate of heat transfer to the coffee bean and thus the
+development of the heat induced reactions during roasting (Pittia
+and Romani, 2010).
+0260-8774/$ - see front matter  2011 Elsevier Ltd. All rights reserved.
+doi:10.1016/j.jfoodeng.2011.02.030
+⇑Corresponding author. Fax: +39 0547 382348.
+E-mail address: chiara.cevoli3@unibo.it (C. Cevoli).
+Journal of Food Engineering 105 (2011) 264–269
+Contents lists available at ScienceDirect
+Journal of Food Engineering
+journal homepage: www.elsevier.com/locate/jfoodeng
+
+The optimum roasting time is deﬁned on the basis of the ﬁnal
+bean temperature and the detection of the desired degree of col-
+our, and green bean weight loss as well as the aroma and taste
+properties. The relation colour-weight loss could change depend-
+ing on the roaster and process parameters (Eggers, 2005).
+Nowadays roasters are equipped with electric control boards,
+thermo-regulator devices, display for temperatures and on-line
+sensors to detect defects and/or the roasting end depending on cof-
+fee types and blends and the desired roasting degree.
+It is important to have a good on-line estimation and prediction
+of the roasting process in order to obtain a high quality ﬁnal bev-
+erage. For the process optimisation the moisture and temperature
+evolution in coffee beans during the roasting process can be stud-
+ied by modelling. In this way some researches have been investi-
+gated the heat and mass transfer during drying of green coffee
+(Burmester and
+Eggers,
+2010;
+Hernandez-Díaz
+et
+al.,
+2008;
+Pérez-Alegría and Ciro-Velásquez, 2001) and coffee cherries (Sfredo
+et al., 2005). Limited data have been found to describe simulta-
+neous heat and mass transfer during coffee roasting. Schwartzberg
+(2002) developed a semi-physical model to evaluate coffee bean
+temperature and moisture content during the roasting in batch
+system. This model gives predictions for the average temperature
+of coffee, neglecting the real internal distribution. Hernandez
+et al. (2007), using the equations proposed by Schwartzberg
+(2002), carried out a theoretical analysis of heat and mass transfer
+to evaluate the coffee bean’s temperature and moisture content
+during the roasting in bed batch system including the internal
+distribution. Heyd et al. (2007) improved the model of Hernandez
+et al. (2007), particularly as it regards a more detailed physical
+description of the moisture transfer. Basile and Kikic (2009)
+developed a model found on a lumped speciﬁc heat capacity
+approach for predicting the non-stationary thermal proﬁle of
+coffee roasting, validated by the experimental data found by the
+previous authors. In this work the process conditions of both
+ﬂuidized bed and drum roasting were considered. All these models
+had dealt with simpliﬁed geometry, particularly with spheres or
+semi-ellipsoids.
+The aim of this work was to develop a numerical model, based
+on a 3D digitised geometry, able to describe the heat and moisture
+transfer inside the bean, during the coffee roasting process. The
+model makes reference to a rotating cylinder roaster in natural
+convection conditions, and was then validated with experimental
+data obtained by a lab scale roaster. This model could be useful
+to optimize the roasting process control.
+2. Materials and methods
+2.1. Multiphysics model development
+Commercial and well tested computational multiphysics codes
+are available nowadays, allowing an exceedingly ﬂexible simulta-
+neous numerical solution of the energy, mass and moment equa-
+tion (Scott and Richardson, 1997) and are extensively adopted in
+the food engineering ﬁeld (Bin and Da-Wen, 2002; Fabbri, 2005).
+The equations regarding heat and mass transfer inside the coffee
+bean during roasting were solved using Comsol Multiphysics 3.5
+(COMSOL Inc., Burlington, MA, USA), a commercial partial differen-
+tial equations solver based on ﬁnite element technique.
+During the roasting of coffee beans inside a small scale plant,
+heat is transferred mainly by natural convection from air to the
+product surface, and by conduction from surface toward the bean
+centre. Meanwhile moisture diffuses from the inside, towards the
+bean surface, and then vaporises. To simulate simultaneous heat
+and moisture transfer in bean during roasting, the following
+assumptions were made:
+(a) moisture diffuses towards the product surface, and evapo-
+rates only at the surface;
+(b) the bean material is homogeneous and isotropic;
+(c) the initial moisture and temperature of the bean are
+uniform;
+(d) the heat produced by exothermic reactions during roasting
+is neglected;
+(e) the coffee volume is constant;
+(f) the coffee bean is roasted in natural convection condition,
+because:
+Gr
+Re  113 ! 1
+ð1Þ
+being:
+Gr ¼ gbaL3q2
+aðDTÞ
+l2
+a
+ﬃ2500
+ð2Þ
+Re ¼ uaLqa
+la
+ﬃ4:7
+ð3Þ
+With reference to the values assigned for the various thermophys-
+ical parameters reported in Table 1.
+Nomenclature
+a
+coffee bean thermal diffusivity (m2/s)
+»c
+moisture concentration gradient (kg/m3/m)
+»T
+temperature gradient inside the coffee bean (K/m)
+c
+moisture concentration (mol/m3)
+cb
+air moisture concentration (mol/m3)
+Cm
+speciﬁc moisture capacity, dimensionless
+Cp
+coffee bean speciﬁc heat (J/kgK)
+Cpa
+air speciﬁc heat (J/kgK)
+D
+moisture diffusivity (m2/s)
+Dm
+surface moisture diffusivity (m2/s)
+g
+gravitational acceleration (m/s2)
+Gr
+Grashof number
+h
+convective heat transfer coefﬁcient (W/m2K1)
+hm
+mass transfer coefﬁcient (mass units) (kg/m2s)
+k
+coffee bean thermal conductivity (W/mK)
+ka
+air thermal conductivity (W/mK)
+kc
+mass transfer coefﬁcient (m/s)
+L
+coffee bean equatorial diameter (m)
+n
+normal vector of the boundary
+Nu
+Nusselt numbers
+Pr
+Prandtl number
+q
+heat ﬂux (W/m2)
+q0
+outward heat ﬂux (W/m2)
+Ra
+Rayleigh numbers
+Re
+Reynolds number
+T
+temperature ﬁeld (K)
+t
+time (s)
+ua
+air velocity (m/s)
+ba
+air thermal expansion coefﬁcient (1/K)
+k
+latent heat of vaporization (J/kg)
+la
+air dynamic viscosity (Pas)
+q
+coffee bean air density (kg/m3)
+qa
+air density (kg/m3)
+A. Fabbri et al. / Journal of Food Engineering 105 (2011) 264–269
+265
+
+2.2. Model geometry
+Two geometric models were used. One resulting from three-
+dimensional digitisation of an Arabica coffee bean made using a
+3D scanner (Roland Picza Pix-30, Roland DGA Corporation, USA).
+The second geometry model, more simple, was made as a semi-
+ellipsis with axis length equal to the average values (longitudinal
+diameter: 0.0098 m, equatorial diameter: 0.007 m, thickness:
+0.0037 m) measured by a digital calliper (CDJB15; Borletti, Italy)
+on 50 Arabica coffee beans.The bean, referred by the ﬁrst model
+was chosen empirically as representative of the considered batch.
+An unstructured mesh with tetrahedral elements of appropriate
+size was generated in Comsol Multiphysics. The mesh was ﬁner
+near the surface than in the central area as maximum gradient of
+heat and mass transfer takes place there. The meshed domain of
+the digitised geometry contained 17676 tetrahedral elements (par-
+abolic lagrangian shape functions) and 4064 nodes, while the
+meshed domain of simple semielliptical geometry contained
+7221 tetrahedral elements and 1650 nodes. The mesh was reﬁned
+up to a level for which the calculus improvements were not signif-
+icant. The meshed geometries are shown in Fig. 1.
+2.3. Governing equation and boundary conditions
+2.3.1. Heat transfer
+The mathematical model for heat transfer by conduction inside
+the bean domain was the following version of energy balance
+equation, with constant coefﬁcient:
+qCp
+@T
+@t þ r  ðkrTÞ ¼ 0
+ð4Þ
+The initial temperature of the bean was considered uniform
+(298 K) while the boundary condition imposed on the interface be-
+tween the surface of the bean and the air, was convective (heat
+ﬂux):
+- n  q ¼ hðT1  TÞ þ q0
+ð5Þ
+being T1 the external bulk temperature (473 K).
+The value of q and q0 were calculated by the following
+equations:
+q ¼ - krT
+ð6Þ
+q0 ¼ kDmrc
+ð7Þ
+The values assigned for the various model parameters are listed in
+Table 1.
+The heat transfer coefﬁcient depends on the geometry and the
+ambient ﬂow conditions. In this study it was obtained by the Nus-
+selt number:
+Nu ¼ hL
+ka
+ð8Þ
+In the case of natural convection, the Nusselt number depends
+on the Grashof number, Prandtl number, the geometry and the
+boundary conditions. Assuming the bean like a sphere, the follow-
+ing equation, was applied (Raithby and Terry 2000):
+Nu ¼ ððNulÞ6 þ ðNutÞ6Þ1=6
+ð9Þ
+where:
+Nul ¼ 2 þ 0:878KRa1=4
+ðlaminar componentÞ
+ð10Þ
+Nut ¼ 0:11Ra1=4
+ðturbulent componentÞ
+ð11Þ
+Table 1
+Thermophysical properties used for solving model equations.
+Properties
+Value or expression
+Reference
+g (m/s2)
+9.8
+L (m)
+0.007
+Experimental
+qa (kg/m3)
+346.52/T
+JAHM Software Inc.
+la (kg/ms)
+75.20E  10 + 4.427E  8T  7.887E  12T2
+JAHM Software Inc.
+Cpa (J/kgK)
+1.05E + 3  3.73E  1T + 9.45E  4T2  6.02E  7T3 + 1.28E  10T4
+JAHM Software Inc.
+ka (W/mK)
+2.28E  3 + 1.155E  4T  7.9E  8T2 + 4.12E  11T3  7.44E  15T4
+JAHM Software Inc.
+u (m/s)
+0.02
+Experimental
+k (J/kg)
+2.3E + 6
+Mondal and Datta (2010)
+Dm (m2/s)
+5E  10
+Mondal and Datta (2010)
+hm (kg/ms)
+5.09E  4
+Mondal and Datta (2010)
+Cm
+1E  05c + 0.012 (R2 = 0.9849)
+Experimental
+q (kg/m3)
+78.845c + 1723 (R2 = 0.9283)
+Experimental
+cb (moli/m3)
+0.5
+Experimental
+Fig. 1. (a) Mesh of simple semi-elliptical geometry; (b) Mesh of digitised geometry.
+266
+A. Fabbri et al. / Journal of Food Engineering 105 (2011) 264–269
+
+K ¼ 0:671= 1 þ
+0:492
+Pr
+
+9=14
+ 
+!4=9
+ð12Þ
+Ra ¼ Gr  Pr
+ð13Þ
+Gr ¼ gbaL3q2
+aðDTÞ
+l2
+a
+ð14Þ
+Pr ¼ Cpala
+ka
+ð15Þ
+In order to obtain accurate results in the model, feasible rela-
+tionship between thermal properties and moisture concentration
+of the coffee bean should be used. Thermal conductivity and ther-
+mal diffusivity were obtained experimentally by a needle probe
+KD2 (Decagon Device Inc., Pullman, USA) for different moisture
+content. The measures were carried out in triplicate on six different
+roasted coffee samples (time: 0, 4, 6, 9, 12, 15 min); the data were
+reported in Table 2. The moisture levels of the coffee samples ran-
+ged from about 500 mol/m3 to about 6000 mol/m3.Once thermal
+conductivity and thermal diffusivity were known, the speciﬁc heat
+was determined from the following deﬁnition:
+Cp ¼ k
+aq
+ð16Þ
+Linear relationship between thermal conductivity, thermal dif-
+fusivity, speciﬁc heat and moisture values of the different coffee
+samples was established from the experimental data, as follows:
+K ¼ 0:0116c þ 0:062
+ðR2 ¼ 0:98; p < 0:05Þ
+ð17Þ
+a ¼ 5E  09c þ 6E  08
+ðR2 ¼ 0:92; p < 0:05Þ
+ð18Þ
+Cp ¼ 78:845c þ 1723
+ðR2 ¼ 0:93; p < 0:05Þ
+ð19Þ
+2.3.2. Mass transfer
+The mass transfer was assumed governed by Fick’s law, accord-
+ing to which the mass ﬂux is proportional to the concentration gra-
+dient through the moisture diffusivity:
+@c
+@t þ r  ðDrcÞ ¼ 0
+ð20Þ
+The initial moisture concentration was considered constant in the
+space and equal to the reference value of 5500 mol/m3.
+To describe the dependency between D and the temperature the
+following equation proposed by Hernandez et al. (2008) was used:
+D ¼ exp
+2:7085  66856:4
+RT
+þ 1:74 cavg
+c0
+
+
+ð21Þ
+where R is the gas constant ( 8.314 J/K mol), cavg and c0 are the
+average and initial moisture concentration (mol/m3) inside the
+bean.
+On the interface between the surface of the bean and the air, a
+ﬂux condition was imposed:
+n  ðDrcÞ ¼ kcðcb  cÞ
+ð22Þ
+being kc deﬁned by the following equation:
+kc ¼ hm
+qCm
+ð23Þ
+2.4. Experimental validation of the multiphysics model
+To validate the numerical model, green coffee bean (Arabica)
+was singularly roasted at 200 C for a time of 10 min using a rotat-
+ing drum roasters prototype (EXPO 500/E, STA impianti, Bologna,
+Italy). The internal temperature of the bean and the air tempera-
+ture were measured by thermocouples type K (Chromel/Alumel;
+Tersid Came, Italia) with a precision of ±0.5 C, while the air speed
+(0.02 m/s) was measured whit a hot wire probe (TESTO AG 445, Ø
+10 mm). The air movement was due only to the drum rotation. One
+bean was drilled in order to insert a 3 mm diameter thermocouple
+and was placed in the drum centre. The experiments were repeated
+ﬁve times. The calculated time–temperature curves were then
+compared with the observed data.
+Subsequently samples of 3 g of Arabica green coffee beans were
+roasted at 200 C in the drum centre for 2, 4, 6, 8, 10 and 14 min to
+measure the moisture content (A.O.A.C. No. 968.11) at different
+roasting stage. The moisture measurement was repeated three
+times. The initial moisture concentration of green coffee was
+5400 mol/m3 (±35 mol/m3).The calculated moisture concentration
+was then compared to the observed data.
+3. Results and discussion
+Fig. 2 shows the temperature ﬁeld of the coffee bean’s external
+surface, obtained by simulation carried out for 180 s at 200 C. In
+Fig. 2a the semi-elliptical geometry and in the Fig. 2b the digitised
+bean geometry is reported. The temperature value is represented
+by the gradation of colours spanning from 176 to 180 C. From
+the ﬁgures is possible to see a substantial similarity in the thermal
+ﬁelds of the two different geometry models, after three minutes of
+heat treatment. In particular the bean zones near the corner, are
+the ﬁrst to equilibrate their temperature with that of roasting gas.
+To compare the result obtained by the two model considered, in
+Figs. 3 and 4 are showed the time–temperature and the time-mois-
+ture curves calculated for the semi-elliptical model and digitized
+model, respectively. The curves report a volume averaged values.
+It can be observed that the lines are very close, in both cases.
+The maximum temperature difference is about 10 C, while the
+maximum moisture difference is about 250 mol/m3. These devia-
+tions are only due to the difference in volume and shape between
+the two geometries.
+As regard the computational effort, on an Intel Pentium IV
+3 GHz CPU, to solve the semi-elliptical model, are necessary about
+ﬁve minutes, while to solve the digitized model, are necessary
+about 60 min.
+A brief sensitivity analysis was carried out to check the inﬂu-
+ence of the overall dimension of the bean on the temperature va-
+lue, in reference to the 180 s treatment (Table 3). Particularly the
+temperatures reported in the table have been calculated both in
+one point on the surface and inside the coffee beans. It was tested
+the inﬂuence of a variation in bean volume of ±10%. As a reference
+it is reported here that it was observed a difference between the
+mean volume of 50 arabica beans and 50 robusta beans of about
+10%. Other volume percentage changes, as reported in Table 2,
+were arbitrarily chosen between the maximum range (±10%).
+The maximum temperature difference between beans of differ-
+ent size was about ±4 C, that is around the 2% of the calculated
+roasting temperature in the two considered bean coffee points.
+Table 2
+Means and standard deviations of the thermal properties determined at different
+roasting time.
+Roasting
+time (min)
+Thermal
+conductivity (W/mK)
+Thermal
+diffusivity (mm2/s)
+Speciﬁc
+heat (J/kgK)
+0
+0.131 (0.005)
+0.090 (0.005)
+1256 (55)
+4
+0.121 (0.007)
+0.009 (0.004)
+1307 (64)
+6
+0.110 (0.005)
+0.082 (0.003)
+1463 (81)
+9
+0.102 (0.008)
+0.081 (0.005)
+1420 (56)
+12
+0.081 (0.006)
+0.071 (0.005)
+1587 (71)
+15
+0.075 (0.004)
+0.070 (0.004)
+1648 (62)
+A. Fabbri et al. / Journal of Food Engineering 105 (2011) 264–269
+267
+
+This means that the model is useful and quite precise to predict the
+temperature ﬁeld during roasting of coffee beans even having dif-
+ferent size.
+In Fig. 5 the time–temperature curves calculated in two bean
+points of the semi-elliptical model, respectively at the surface
+and in the bean centre, are shown. It can be observed that the lines
+are very close, especially after 300 s of treatment, when the
+temperature values are stabilised around at 200 C. Before this
+time the surface of the bean, as expected, reached more quickly
+the highest temperatures; particularly, the calculated mean differ-
+ence of temperature between the surface and the centre until 300 s
+was of about 14 C. The internal bean temperature has an exponen-
+tial behaviour similar to that described by Schwartzberg (2002)
+when bean temperature is below 250 C.
+In Fig. 6 the calculated and observed time–temperature curves
+for a 600 s treatment at 200 C are reported. The calculated data
+refers to a bean point located at a depth of 3 mm from the surface
+of the semi-elliptical geometry. The experimental curve was
+determined by averaging the temperature values obtained from
+ﬁve replicate roasting trials. The simulated and experimental val-
+0
+50
+100
+150
+200
+250
+0
+100
+200
+300
+400
+500
+600
+700
+800
+Time (s)
+Temperature (°C)
+semi-ellipticall geometry
+digitised geometry
+Fig. 3. The time–temperature curves calculated for the semi-elliptical and digitised
+geometry.
+0
+1000
+2000
+3000
+4000
+5000
+6000
+0
+100
+200
+300
+400
+500
+600
+700
+800
+Time (s)
+Moisture (mol/m3)
+semi-ellipticall geometry
+digitised geometry
+Fig. 4. The time-moisture curves calculated for the semi-elliptical and digitised
+geometry.
+Table 3
+Sensitivity analysis of the model. Inﬂuence of the volume variation on the calculated
+temperature in two points of the bean.
+Volume change (%)
+Temperature (C)
+Surface
+Centre
++10
+173
+171
++8
+174
+172
++5
+175
+173
+0
+177
+175
+5
+179
+177
+8
+180
+178
+10
+181
+179
+0
+50
+100
+150
+200
+250
+0
+100
+200
+300
+400
+500
+600
+Time (s)
+Temperature (°C)
+bean surface
+bean centre
+Fig. 5. The time–temperature curve calculated in two bean points of the semi-
+elliptical model during 600 s of roasting at 200 C.
+Fig. 2. Temperature ﬁeld calculated on the bean coffee surface after 180 s of heat treatment at 200 C for the semi-elliptical geometry (a) and for the digitised geometry (b).
+268
+A. Fabbri et al. / Journal of Food Engineering 105 (2011) 264–269
+
+ues appear to be in good agreement (RMSE 5.97 C). The maximum
+observed temperature is reached after about 300 s of treatment as
+found by Hernandez et al. (2007) and Heyd et al. (2007) in similar
+studies.
+In Fig. 7 the simulated and experimental moisture data of coffee
+beans roasted for different times are shown. Also in this case the
+simulated and experimental moisture values appear to be in good
+agreement (RMSE 264.251 mol/m3). The maximum standard devi-
+ation in the observed data (±39 mol/m3) occurs at time 8 min, even
+if it is very small.
+Even if in same points there is not a perfect agreement between
+experimental and calculated data, probably due to the formation of
+steam inside the bean when the temperature increases, we can af-
+ﬁrm that the model studied here is able to predict moisture data
+better than those of Herdandez et al. (2007) and Heyd et al. (2007).
+4. Conclusion
+In this study a simpliﬁed model of heat and mass transfer occur-
+ring in coffee bean during roasting has been built and validated
+with experimental data obtained by roasting single coffee bean
+in lab scale roaster.
+The studied model permits to obtain a good ﬁtting between the
+simulated and experimental temperature and moisture data.
+Moreover it was demonstrated that the model can be applied to
+study the roasting process of coffee beans having different size,
+and that feasible data may be obtained even in reference to a sim-
+pliﬁed geometry model.
+The present study may be considered a ﬁrst step toward the
+development of a more complete model of industrial interest. Par-
+ticularly, the model could be useful to optimise the roasting pro-
+cess
+and
+to
+understand
+the
+relationships
+between
+process
+parameters and product quality better.
+The model may be used to study the roasting process of other
+food products (beans and/or seed), after appropriate implementa-
+tions of the thermal-physical properties of interested materials.
+References
+A.O.A.C., 2001. Ofﬁcial Methods of Analysis, Method n 968.11, Association of Ofﬁcial
+Analytical Chemists, 13th ed.. The William Byrd Press Inc., Richmond, Virginia.
+Basile, M., Kikic, I., 2009. Lumped speciﬁc heat capacity approach for predicting the
+non-stationary thermal
+proﬁle
+of
+coffee
+during
+roasting.
+Chemical
+and
+Biochemical Engineering Quarterly 23 (2), 167–177.
+Bin, X., Da-Wen, S., 2002. Applications of computational ﬂuid dynamics (CFD) in the
+food industry: a review. Computers and Electronics in Agriculture 34, 5–24.
+Burmester, K., Eggers, R., 2010. Heat and mass transfer during the coffee drying
+process. Journal of Food Engineering 99, 430–436.
+Eggers, R., 2005. Roasting techniques. In: Illy, A., Vian, R. (Eds.), Espresso coffee The
+Science of quality, second ed.. Elsevier Academic Press, London, UK. pp. 184–
+197.
+Eggers, R., Pietsch, A., 2001. Roasting. In: Clarke, R.J., Vitzthum, O.G. (Eds.), Coffee:
+Recent Developments. Blackwell Science, London, UK, pp. 90–107.
+Fabbri, A., 2005. Applications of numerical simulation methods in agricultural
+engineering June 2005. Proceedings of AIIA meeting, Catania, Italy. pp. 273–300.
+Hernandez, J.A., Heyd, B., Irles, C., Valdovinos, B., Trystram, G., 2007. Analysis of the
+heat and mass transfer during coffee batch roasting. Journal of Food Engineering
+78, 1141–1148.
+Hernandez-Díaz, W.N., Ruiz-López, I.I., Salgado-Cervantes, M.A., Rodríguez-Jimenes,
+G.C., García-Alvarado, M.A., 2008. Modeling heat and mass transfer during
+drying of green coffee beans using prolate spheroidal geometry. Journal of Food
+Engineering 86, 1–9.
+Heyd, B., Broyart, B., Hernandez, J.A., Valdovinos-Tijerino, Trystram, G., 2007.
+Physical model of heat and mass transfer in a spouted bed coffee roaster. Drying
+technology 25, 1243–1248.
+JAHM Software, Inc. Available online <http://www.jahm.com/pages/property_list_
+mats.html>.
+Lerici, C.R., Nicoli, M.C., 1990. Il caffè: aspetti chimici, tecnologici e qualità della
+bevanda. La Rivista della Società Italiana di Scienza dell’Alimentazione 19,
+1–16.
+Mondal, A., Datta, A.K., 2010. Two-dimensional cfd modeling and simulation of
+crustless bread baking process. Journal of Food Engineering 99, 166–174.
+Pérez-Alegría,
+L.R.,
+Ciro-Velásquez,
+H.J.,
+2001.
+Mathematical
+simulation
+of
+parchment coffee drying in a deep bed with airﬂow reversal. Transactions of
+ASAE 44, 1229–1234.
+Pittia, P., Romani, S. In press. Coffee Processing. In: K. Kristbergsson, S. Otles (Eds.),
+Food Processing - Part IV Food Processing Operations, ISEKI Food Series,
+Springer.
+Raithby, G.D., Terry, K.G., 2000. Convection Heat Transfer. In: Kreith, F. (Ed.), The
+CRC Handbook of Thermal Engineering. CRC Press LLC, Boca Raton.
+Schwartzberg, H.G., 2002. Modelling bean heating during batch roasting of coffee
+beans.
+In:
+Welti-Chanes,
+J.,
+Barbosa-Canovas,
+G.,
+Aguilera,
+M.J.
+(Eds.),
+Engineering and Food for the 21st Century. CRC Press LLC, Boca Raton.
+Scott, G., Richardson, P., 1997. The application of computational ﬂuid dynamics in
+the food industry. Trends Food Science Technology 8, 119–124.
+Severini, C., Nicoli, M.C., Mastrocola, D., Lerici, C.R., 1992. Inﬂuence of heating rate
+on some physical physico-chemical properties of coffee beans. In Proceedings of
+14th Int. Sci. Colloquium on Coffee. ASIC, San Francisco, CA. pp. 641–648.
+Sfredo, M.A., Finzer, J.R.D., Limaverde, J.R., 2005. Heat and Mass transfer in coffee
+fruits drying. Journal of Food Engineering 70, 15–25.
+0
+50
+100
+150
+200
+250
+0
+100
+200
+300
+400
+500
+600
+Time (s)
+Temperature (°C)
+simulation data
+experimental data
+Fig. 6. The calculated (black) and observed (gray) time–temperature curves for a
+point located at a depth of 3 mm from the surface.
+0
+1000
+2000
+3000
+4000
+5000
+6000
+0
+200
+400
+600
+800
+Time (s)
+Moisture (mol/m
+3)aaa
+simulation data
+experimental data
+Fig. 7. The simulated and experimental moisture concentration at different
+treatment time.
+A. Fabbri et al. / Journal of Food Engineering 105 (2011) 264–269
+269

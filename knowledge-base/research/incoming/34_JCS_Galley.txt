@@ -1,0 +1,427 @@
+JOURNAL OF COFFEE AND SUSTAINABILITY 
+Vol. 02, No. 02, 59–66 
+http://dx.doi.org/10.21776/ub.jcs.2025.02.02.01 
+E - ISSN 3062-7362 
+Jcs.ub.ac.id 
+ 
+ 
+ 
+ 
+ 
+ 
+Please cite this article as: Himmah, K., Dewi, P.E.S (2025). Bioactive Compounds in Coffee as Neuroprotective Agents 
+in Alzheimer's Disease: An in-Silico Study. Journal of coffee and sustainability. 02(02). 59-66. 
+http://dx.doi.org/10.21776/ub.jcs.2025.02.02.01 
+ 
+Research Article 
+Bioactive Compounds in Coffee as Neuroprotective Agents in Alzheimer's Disease: An 
+in-Silico Study  
+Karimatul Himmah, Putri Elok Septiana Dewi 
+Applied Biology, Faculty of Health, Science, and Psychology, Universitas Sunan Gresik, 61153, 
+Indonesia 
+Article history 
+A B S T R A C T 
+Keywords: 
+Amyloid beta,  
+Cafestol,  
+Chlorogenic acid,  
+Coffee, 
+Neurodegenerative. 
+ 
+Received 18/11/2025  
+Revised 05/12/2025 
+Accepted 05/12/2025 
+Published 22/12/2025 
+ 
+ 
+ 
+ 
+Coffee contains some bioactive compound that has benefits for 
+some 
+health 
+issues. 
+Trigonelline, 
+diterpene 
+cafestol, 
+chlorogenic acid, and caffeine are bioactive compounds found 
+in coffee. We investigate some bioactive compounds in coffee, 
+which could protect from Alzheimer’s disease (AD). Amyloid 
+beta Protein Precursor (APP) plays a role in the accumulation 
+of amyloid toxicity, contributing to the neurodegenerative 
+disorder of AD. This study aims to investigate the potential of 
+four bioactives in coffee that could mitigate the risk of AD by 
+inhibiting APP based on its interaction and binding affinities 
+through an in-silico study.  The method includes the 
+prediction of protein use PHYRE2 and small-molecule 
+structures, and visualization with Discovery Studio, molecular 
+docking using Autodock Vina with PyRx 8.0, and analysis of 
+the 
+bioavailability 
+of 
+bioactives 
+using 
+SwissADME. 
+Chlorogenic acid has the highest binding energy compared to 
+other ligands to interact with APP (-6.7 kcal/mol), whereas 
+the other ligands have binding energy scores -4.7 kcal/mol, -
+6.5 kcal/mol, and -4.5 kcal/mol. However, diterpene cafestol 
+is a promising compound for drug development based on its 
+binding site, bioavailability, high gastrointestinal absorption, 
+drug likeness score of 0.55, and its binding energy score -6,5 
+kcal/mol, making it a top candidate. 
+INTRODUCTION  
+Alzheimer’s disease (AD) represents the most prevalent neurodegenerative disorder and is the 
+leading cause of dementia worldwide. Such clinical features may simply be the consequence of highly 
+accelerated and widespread neuronal destruction, resulting from the cumulative effects of the 
+multifactorial primary and secondary degenerative processes characterizing Alzheimer's pathology. The 
+pathology of AD is classically defined by the progressive accumulation of extracellular amyloid-beta (Aβ) 
+plaques and the formation of intracellular neurofibrillary tangles (NFTs) derived from 
+hyperphosphorylated tau protein (Az-zahra et al., 2022; Deyts, Thinakaran & Parent, 2016; Selvaraj et 
+al., 2020). A crucial factor in the pathogenesis of this disease is the aggregation of short peptides, amyloid 
+beta, with 42 amino acids long. Amyloid beta originates from APP, which remains when APP is cleaved 
+by two protease enzymes, such as beta-secretase (BACE-1) and gamma-secretase. Amyloid beta (Aβ) is 
+involved amyloidogenic pathway. It undergoes conformational changes to form a tertiary structure of 
+beta sheets that aggregate to form amyloid fibrils. These fibrils are deposited outside neurons in dense 
+formations known as senile plaques or neuritic plaques. In the normal pathway, called the non-
+amyloidogenic pathway. Amyloid beta aggregation leads to neuron death and, consequently, the 
+shrinkage of the cerebral cortex and the cognitive impairment that characterize Alzheimer's disease 
+(Hampel et al., 2021). Furthermore, the present Aβ plaque is notably upregulated in the brains of AD 
+patients and is implicated in mediating crucial pathological processes, including neuroinflammation, 
+excitotoxicity, and the regulation of synaptic plasticity that is essential for memory formation. This 
+fundamental lack of disease-modifying therapies underscores an urgent and continuous need to identify 
+and validate novel compounds capable of interfering with the foundational mechanisms of AD 
+
+Himmah & Dewi. Journal of Coffee and Sustainability| 60 
+ 
+pathogenesis. Bioactive compounds alternate as agents to target a precursor associated with disease 
+(Shobana & Muralidharan, 2024; Martinez, 2024). Further, increasing attention has been directed 
+toward modulating lifestyle factors and investigating naturally occurring compounds that exhibit 
+neuroprotective properties (Islam et al., 2025).  
+Coffee is becoming popular nowadays. It contains some potential bioactive compounds for health 
+purposes. Caffeine (1,3,7-trimethylxanthine) is arguably the most widely consumed psychoactive 
+substance globally and has emerged as a particularly promising candidate. The intake of caffeine through 
+the diet appears to exert protective effects against the progression of dementia, specifically against AD, 
+and thus represents a promising therapeutic approach (Zhai & Kwakowsky, 2023). Besides, some 
+bioactives such as diterpene, trigonelline, and chlorogenic acid are contained in coffee. Chlorogenic acid 
+has shown neuroprotective function via the inhibition of acetyl cholinesterase (Assa et al., 2021; Eticha 
+& Bedassa, 2020). And trigonelline has shown neuroprotective effects for Alzheimer’s disease, too (Liang 
+et al., 2022). Monoterpenes and diterpenes are reported as neuroprotective agents (Hadipour et al., 
+2024), but diterpene cafestol from coffee is underexplored and needs to be investigated its potency for 
+APP inhibition. 
+Consumption of caffeine has shown many positive effects in various human and animal experiments. 
+Moderate caffeine consumption possesses the capacity to abolish AD-related cognitive dysfunction and 
+Aβ neuropathology in validated murine models of Alzheimer's disease (Stazi et al., 2022). We assume 
+that when drinking coffee, can get an intake of several compounds at once. Therefore, this study aims to 
+computationally investigate and characterize the bioactivity of caffeine, diterpene cafestol, chlorogenic 
+acid, and trigonelline as neuroprotective agents by employing molecular modelling techniques. 
+Specifically, we utilize molecular docking to predict the preferred binding affinities of small molecules 
+in coffee within selected AD target active sites, which focus on APP. The results of this in silico approach 
+are expected to provide critical structural and energetic insights, offering robust, molecular-level 
+validation for the observed neuroprotective effects of caffeine, diterpene, trigonelline, and chlorogenic 
+acid, significantly contributing to the design of effective therapeutic leads for Alzheimer's disease. 
+MATERIALS AND METHODS  
+Prediction of The Small Molecule Structure and Bioavailability 
+The two-dimensional (2D) structures of caffeine, chlorogenic acid, trigonelline, and diterpene 
+cafestol are predicted with the PubChem online server. The ligand structure of four small molecules was 
+predicted using PubChem and visualized in Discovery Studio, then saved in PDB format.  SwissADME 
+(https://www.swissadme.ch/) is used to study Physicochemical, pharmacokinetic properties, and drug-
+likeness scores. It predicts the estimation of distribution, absorption, metabolism, and excretion (ADME) 
+characteristics and potential as drug likeness. Physicochemical parameters include topological polar 
+surface area (TPSA), molecular weight, lipophilicity (iLOGP), hydrogen bond donors and acceptors, 
+solubility, and rotatable bonds. These properties were assessed in accordance with Lipinski’s rules of 
+five (Lipinski, 2004). 
+Three-dimensional protein structure prediction of APP 
+Amyloid-beta precursor protein (APP) is retrieved from UniProt with accession numbers: P05067-
+1 was saved in FASTA format. Amino acid sequences predicted its three-dimensional (3D) structure with 
+the PHYRE 2.2 protein fold recognition server and chosen with 100 confidence score and 96 i.d. % 
+(Powell et al., 2025). 
+Molecular Docking of APP with the small molecules 
+It performs blind docking and uses Autodock Vina with PyRx 0.8 8 to compute possible interactions 
+between APP and small molecules based on their interaction site (Trott & Olson 2010). The visualization 
+of the docking results using Accelrys Discovery Studio 4.0. This analysis will identify interactions 
+between receptors and ligands, and preview hydrogen bonds, hydrophobic interactions, and Van Der 
+Waals forces, which contribute to the stability of the receptor-ligan complex. 
+ 
+
+Himmah & Dewi. Journal of Coffee and Sustainability| 61 
+ 
+RESULTS AND DISCUSSION  
+Protein and ligand structure 
+Amyloid Precursor Protein (APP) is a polypeptide. APP is built by alpha helix, beta sheet, and coil 
+structure (Figure 1). This peptide has a function in neuronal plasticity, synaptic functions, regulation of 
+cell signaling in neuronal tissues, and mineral transfer (Bamford et al., 2019; Tang 2019).  
+ 
+(a) 
+ 
+ 
+ 
+ 
+(b)  
+Figure 1. Protein 3D structure of APP in (a) solid ribbon, and (b) surface view. 
+APP contributes to the formation of beta-amyloid plaques.  These plaques are caused by the 
+extracellular deposition of the amyloid beta (Aβ) peptide, which results from the amyloidogenic cleavage 
+of the APP in the cerebral cortex (Bamford et al. 2019; Deyts, Thinakaran, & Parent 2016). In this case, 
+we are targeting APP for some bioactive compound in coffee. The three-dimensional structure of APP 
+was then docked with four ligands. caffein, diterpene, trigonelline, and chlorogenic acid were prepared 
+as ligands to interact with the APP peptide. All ligand has formula  C8H10N4O2 ,  C20H28O3,  C7H7NO2, and 
+C16H18O9 then predict their 3D structure  (Table 1).  
+Table1. Ligand structure and identification number (CID) 
+ 
+ 
+ 
+ 
+ 
+ 
+Molecular docking analysis 
+Molecular docking between APP peptides with ligands: caffeine, diterpene cafastol, trigonellin, and 
+chlorogenic acid was used to predict the interactions between proteins and ligands. This simulation 
+activity is used to estimate the binding energy and interaction patterns at the molecular level (Montaño 
+et al., 2025. The binding pattern position between APP and ligand has different positions (Figure 2). 
+Compound name 
+Chemical 3D structure 
+CID 
+caffeine 
+2519   
+Diterpene cafestol 
+108052   
+trigonelline 
+ 5570 
+Chlorogenic acid 
+ 
+1794427   
+
+Himmah & Dewi. Journal of Coffee and Sustainability| 62 
+ 
+Docking between PPA and chlorogenic has the highest binding energy -6.7 kcal/mol, than the binding 
+energy results with other ligands. PPA with caffeine binding energy score -4.7 kcal/mol, PPA with 
+diterpene cafestol with binding energy score -6.5 kcal/mol, and PPA with trigonelline with binding 
+energy score -4.5 kcal/mol (Table 2).  
+      The protein and ligand with the highest binding affinity show few interactions with amino acids in 
+the key protein. The protein complex between APP and chlorogenic acid shows few interactions with 
+amino acids in the key protein. It involves just hydrogen bonds. On the contrary, APP with caffeine 
+involves more bonds, such as hydrogen bonds, hydrophobic bonds, van der Waals, and two non-covalent 
+bonds (Table 2).  Caffeine binds to APP via several amino acid residues, such as Val 123 and Val 119 by 
+hydrogen bonds, Leu 118, Phe 122, and Glu 121 by hydrophobic bonds, Pro 32, Cys 117, and Glu 31 by 
+Van Der Waals force. It demonstrates interaction residues that the Pi–Alkyl in pink describes the 
+hydrophobic interaction, light green describes the Van Der Waals force, and bold green or transparent 
+green describe the hydrogen bond (Figure 3a). APP with Diterpene cafestol interacts in Ile 69 by 
+hydrogen bonds, and Lys 60, Thr 61 by hydrophobic bonds (Figure 3b). APP with Trigonelline interacts 
+in Lys 134 by hydrogen bonds, and Cys 186, Thr 163 by hydrophobic bonds (Figure 3c). APP with 
+Chlorogenic acid interacts in Arg 116, Val 123, Asp 125, Val 119, and Leu 29 by hydrogen bonds (Figure 
+3d). Binding energy is suggested to inhibitory potential, whereas greater interaction diversity and 
+involvement of more residues may indicate a more stable ligand–protein complex under biological 
+conditions. the bonds that participate in the trapping of the ligand have an unexpectedly high 
+contribution to binding affinity. This trapping effect (inhibition) relates to the binding mechanism of 
+ligands to the APP protein, conformationally confined to the active site (Spassov, 2024). Diterpene 
+cafestol has the second position as a high binding affinity. But it interacts with three residues with two 
+hydrogen bonds and one hydrophobic bond (Figure 3). Caffeine is stabilized by three noncovalent bonds. 
+There are hydrogen bonds, hydrophobic bonds, and Van Der Waals bonds, are stabilized in the protein-
+ligand interaction that explains the ability of caffeine to interact with APP. In another study,  it reported 
+the relationship between caffeine intake and AD progression in human subjects. Findings that caffeine 
+intake >200 mg/day was associated with a reduced risk of cognitive decline and AD progression (Ashfaq 
+et al., 2025) 
+Table 2. Docking scores and interacting residues between PPA and ligands 
+Ligand 
+Residues 
+Interaction 
+Binding energy 
+(kcal/mol) 
+Caffeine 
+Val 123, Val 119, 
+Leu 118, Phe 122 
+Glu 121, Pro 32, Cys 117, Glu 31 
+Hydrogen bond (2) 
+Hydrophobic (2) 
+Van der waals (4) 
+-4.7 
+Deterpene cafestol  
+Ile 69 
+Lys 60, Thr 61 
+Hydrophobic (1) 
+Hydrogen bond (2) 
+ 
+-6.5 
+Trigonellin  
+Lys 134 
+Cys 186, Thr 163 
+Hydrophobic (1) 
+Hydrogen bond (2) 
+ 
+-4.5 
+Chlorogenic acid 
+Arg 116, Val 123, Asp 125, Val 119, 
+Leu 29 
+Hydrogen bond (5) 
+ 
+-6.7 
+ 
+Molecular docking of small molecules from coffee against Amyloid Beta Protein Precursor revealed 
+a distinct range of binding affinities. As a predictor of the stability and strength of a ligand-protein bond, 
+the binding energy value is specifically determined by the molecular interactions between the ligand 
+and the amino acid residues in the active site of the APP proteins. Molecular model data shown in Figure 
+2 suggest that caffeine has more interaction with proteins than other ligands. APP binds to caffeine in 8 
+amino acid residues, diterpene cafestol binds in 3 amino acid residues, Trigonelline binds in 3 amino 
+acid and chlorogenic acid binds in 5 residues (Table 2). Caffeine is more stable in interactions by 
+presenting some binding, such as Van Der Waals forces, hydrogen bonds, and hydrophobic bonds. Then 
+Diterpene cafestol has stabilized by hydrogen bonds and. hydrophobic bonds. The bond formations 
+should contribute according to their strength to the overall binding activity (Spassov, 2024). All ligands 
+
+Himmah & Dewi. Journal of Coffee and Sustainability| 63 
+ 
+have potential as inhibitors because of their binding affinities and the presence of hydrogen bonds 
+(Figure 3). Further, the caffeine molecule is likely to have an inhibitory effect on the amyloidogenic 
+pathway (Bamford et al., 2019). We found that diterpene cafestol has potential because its high binding 
+energy than two ligands and is stabilized by hydrogen bonds and hydrophobic bonds when interacting 
+with APP protein residues. 
+ 
+ 
+Figure 2. The binding pattern position of the complex APP peptide with bioactive compounds in coffee.  (a) APP 
+with caffeine, (b) APP with trigonelline, (c) APP with diterpene cafestol, and (d) APP with chlorogenic acid 
+Table 3. Adsorption, distribution, metabolism, and excretion properties of small compounds in coffee 
+   Ligan 
+Physicochemical 
+properties 
+Lipophilicity 
+Water 
+solubility 
+pharmacokinetics 
+D 
+Caffeine 
+Mw.194.19 g/mol 
+#ERot 0 
+#H-ac 3 
+#H-d 0 
+TPSA 61.82 A2 
+1.79 
+Soluble 
+High GI 
+Absorption 
+0.55 
+Diterpene 
+cafestol 
+Mw.316.43 g/mol 
+#ERot 1 
+#H-ac 3 
+#H-d 2 
+TPSA 53.60 A2  
+2.76 
+Soluble 
+High GI 
+Absorption 
+0.55 
+Chlorogenic 
+acid 
+Mw.164.75 g/mol 
+#ERot 5 
+#H-ac 9 
+#H-d 6 
+TPSA 164.75 A2 
+0.87 
+Soluble 
+Low GI 
+Absorption 
+0.11 
+Trigonelline 
+Mw.137.14 g/mol 
+#ERot 1 
+#H-ac 2 
+#H-d 0 
+TPSA 44.01 A2 
+-3.11 
+Soluble 
+High GI 
+Absorption 
+ 
+0.55 
+Note: Mw: molecular weight; #ERot: number of rotatable bonds; #H-ac: the number of hydrogen-
+accepting bonds; #H-d: the number of hydrogen-donating bonds; TPSA: topological polar surface area; 
+iLOGP in pharmacokinetics; GI: gastrointestinal absorption and D: drug-likeness score. 
+Biological potential and availability prediction 
+This in silico study includes the evaluation of caffeine, trigonelline, diterpene, and chlorogenic acid 
+as bioactive compounds in coffee, as ligands. Four ligands were analyzed through molecular docking, 
+ADME profile, and assessment of biological potential. This multiparametric study will preview the 
+
+Himmah & Dewi. Journal of Coffee and Sustainability| 64 
+ 
+identification of favorable binding interactions with the APP peptide and assess their pharmacokinetic 
+and bioavailability. Furthermore, we predict the probability that each compound has potential as a drug-
+likeness score. Molecular weight, hydrogen bond donors, acceptors, rotatable bonds, lipophilicity 
+(iLOGP), topological polar surface area (TPSA), and solubility were analyzed. Based on Lipinski’s rule of 
+five, four ligands have potency, based on their molecular weight <500g/mol and soluble in water (Table 
+3). Trigonelline has a lower lipophilicity than others that recorded -3.11, and chlorogenic acid has a low 
+drug-likeness score of 0.11. All four ligands have potency in accordance with Lipinski’s Rules of Five. On 
+the other hand, Diterpenes cafestol and caffeine have the highest drug-likeness score among others, and 
+the drug-likeness score is 0.55. 
+In docking results, chlorogenic acid demonstrates superior in-vitro efficacy based on binding 
+affinity, and diterpene is in second position. caffeine and diterpene cafestol show advantages in in vivo 
+bioavailability criteria (ADME/drug-likeness), diterpene cafestol has the potential to be developed as a 
+drug compound, posing as a promising compound than the three others. 
+ 
+Figure 3. Binding site of complex protein with bioactive in coffee. (a) APP with Caffeine, (b) APP with Diterpene, 
+(c) APP with Trigonelline, and (d) APP with Chlorogenic acid 
+     CONCLUSION 
+Four bioactives in coffee, as ligands, can bind APP peptides that show potential inhibition based on 
+their binding affinities and interactions.  Docking between APP with caffeine in 8 amino acid residues, 
+with diterpene in 3 amino acid residues, with trigonelline binds in 3 amino acid and with chlorogenic 
+acid binds in 5 residues. The highest binding energy was observed in APP with chlorogenic acid, showing 
+a binding energy score of -6.7 kcal/mol. Diterpene cafestol becomes the best candidate based on its 
+binding energy -6.5 kcal/mol, has hydrogen bond and hydrophobic bond that interact with APP’s 
+residues, and has good bioavailability from five parameters than other ligands. Therefore, future 
+research is warranted to explore additional phytochemicals in coffee and other plants that may inhibit 
+
+Himmah & Dewi. Journal of Coffee and Sustainability| 65 
+ 
+the targeted protein linked to plaque accumulation in Alzheimer's disease. Additionally, further clinical 
+investigation in humans is needed to consolidate the findings and define the significant results. 
+REFERENCES 
+Assa, Asma, Dwi Indriana, Andi Nur Amalia, dan Rahayu Wulandari. (2021). The Potential of Active 
+Compounds in Coffee Beans. Jurnal Riset Teknologi Industri. 15(2): 279–90. 
+Ashfaq, Zarbakhta, Zainab Younas, Eemaz Nathaniel, Abdur Rehman, Arzoo Siddiqi, and Naveed Rasool. 
+(2025). Association Between Caffeine Intake and Alzheimer ’ s Disease Progression : A Systematic 
+Review. Cureus 17(3): 2–8. DOI:10.7759/cureus.80923. 
+Az-zahra, Farhah, Janifa Afidika, Sagung D, A., Diamantha, Almeira E Rahmani. 2022. In Silico Study of 
+Betel Leaves Compound (Piper Betle L.) as Acetylcholinesterase (AChE) Enzyme Inhibitor in 
+Alzheimer Disease. 2(2): 44–58. 
+Bamford, Rosemary A, Jocelyn Widagdo, Natsuki Takamura, and Madeline Eve. (2019). The Interaction 
+Between Contactin and Amyloid Precursor Protein and Its Role in Alzheimer’ s Disease.” 
+Neuroscience. DOI: 10.1016/j.neuroscience.2019.10.006. 
+Deyts, Carole, Gopal Thinakaran, and Angèle T Parent. (2016). Review APP Receptor? To Be or Not to Be. 
+: 1–22. DOI: 10.1016/j.tips.2016.01.005. 
+Eticha, Shibiru, and Tesfa Bedassa. 2020. “Determination of Caffeine in Coffee Samples by High 
+Performance Liquid Chromatography and Ultraviolet - Visible Spectrophotometry Methods from 
+Wollega, Ethiopia. 5(1): 8–17. DOI: 10.11648/j.ijbbmb.20200501.12. 
+Islam, Tarikul, Chandan Barai, Farhan Ishrak Rafi, Muath Q Al-ghadi, Amany A Sayed, Mohamed M Abdel-
+daim, and Humayra Afroz Dona. (2025). In Silico Screening of Naturally Derived Dietary 
+Compounds as Potential Butyrylcholinesterase Inhibitors for Alzheimer’ s Disease Treatment.: 1–
+21. 
+Lipinski, Christopher A. (2004). Lead- and Drug-like Compounds: The Rule-of-Five Revolution. Drug 
+Discovery Today: Technologies 1(4): 337–41. DOI: 10.1016/j.ddtec.2004.11.007. 
+Martinez, Alberto. (2024). Synthesis, in Vitro Activity, and Molecular Docking of Caffeic Acid and 
+Resveratrol Derivatives against Alzheimer’ s Disease-Related Enzymes. 1(Bace 1). 
+Montaño, Giovanny Hernández, Silvia P. Paredes-Carrera, José J. Chanona Pérez, Darío Iker Téllez 
+Medina, Tomás A. Fregoso Aguilar, Jorge A. Mendoza-Pérez, and Dulce Estefanía Nicolás Álvarez. 
+(2025). A New Plant Growth Regulator: An in Silico Evaluation. Applied Sciences (Switzerland) 
+15(17): 1–17. DOI:10.3390/app15179797. 
+Selvaraj, Jayaraman, Hussain Sardar, Veeraraghavan Vishnupriya, Janardhana Papayya Balakrishna, 
+Krishna Mohan, Rajamanickam Pon Nivedha, Periyasamy Vijayalakshmi, and Rajagopal 
+Ponnulakshmi. (2020). Molecular Docking Analysis of Amyloid Precursor Protein with Compounds 
+from the Australian Cowplant. 16(7): 561–66. 
+Shobana, K, and P Muralidharan. (2024). In Silico Docking of Anti- Alzheimer’ s Molecules from Plant 
+Derivatives. 11: 140–56. 
+Spassov, Danislav S. (2024). Binding Affinity Determination in Drug Design: Insights from Lock and Key, 
+Induced Fit, Conformational Selection, and Inhibitor Trapping Models.” International Journal of 
+Molecular Sciences 25(13). DOI:10.3390/ijms25137124. 
+Stazi, Martina, Sandra Lehmann, M Sadman Sakib, Tonatiuh Pena, & Centeno Luca. (2022). Long ‑ Term 
+Caffeine Treatment of Alzheimer Mouse Models Ameliorates Behavioural Deficits and Neuron Loss 
+and Promotes Cellular and Molecular Markers of Neurogenesis.” Cellular and Molecular Life 
+Sciences 79(1): 1–18. DOI:10.1007/s00018-021-04062-8. 
+Tang, Bor Luen. (2019). Amyloid Precursor Protein (APP) and GABAergic Neurotransmission. : 1–13. 
+
+Himmah & Dewi. Journal of Coffee and Sustainability| 66 
+ 
+Trott, Oleg, and Arthur J. Olson. (2010). AutoDock Vina: Improving the Speed and Accuracy of Docking 
+with a New Scoring Function, Efficient Optimization, and Multithreading. Journal of Computational 
+Chemistry 31(2): 455–61. DOI: 10.1002/jcc.21334. 
+Zhai, Ying, and Andrea Kwakowsky. (2023). Is Caffeine a Potential Therapeutic Intervention for 
+Alzheimer ’ s Disease ?” (1980). DOI:10.4103/2773-2398.379339. 
+ 

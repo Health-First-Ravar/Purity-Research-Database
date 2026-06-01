@@ -1,0 +1,1355 @@
+Academic Editor: Rui F. M. Silva
+Received: 23 December 2025
+Revised: 21 January 2026
+Accepted: 26 January 2026
+Published: 28 January 2026
+Copyright: © 2026 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and
+conditions of the Creative Commons
+Attribution (CC BY) license.
+Article
+Polyphenolic Profile and Antioxidant Capacity of Coffee
+Silverskin Extracts: Insights from HPLC and GC-MS Analyses
+and Protective Effect in Schwann-like Cells
+Marina Damato 1
+, Nicola Garofalo 2
+, Luisa Schipa 1, Debora Musarò 1
+, Angela Anzilli 3, Filomena Corbo 4
+,
+Antonio Quarta 3, Michele Maffia 1,*,†
+and Andrea Ragusa 5,6,*,†
+1
+Laboratory of General and Human Physiology, Department of Experimental Medicine (Di.Me.S.), University
+of Salento, 73100 Lecce, Italy; marina.damato@unisalento.it (M.D.); luisa.schipa@gmail.com (L.S.);
+debora.musaro@unisalento.it (D.M.)
+2
+Department of Biological and Environmental Sciences and Technologies (DiSTeBA), University of Salento,
+73100 Lecce, Italy; nicola.garofalo@unisalento.it
+3
+Quarta Caffè S.p.a., Zona Industriale, 73100 Lecce, Italy; angela.anzilli@quartacaffe.com (A.A.);
+antonio.quarta@quartacaffe.com (A.Q.)
+4
+Department of Pharmacy–Drug Sciences, University of Bari, E. Quagliarello University Campus, Via Orabona,
+4, 70125 Bari, Italy; filomena.corbo@uniba.it
+5
+CNR Nanotec, Institute of Nanotechnology, Campus Ecotekne, 73100 Lecce, Italy
+6
+Department of Life Sciences, Health and Health Professions, Link Campus University, Via del Casale di San
+Pio V 44, 00165 Rome, Italy
+*
+Correspondence: michele.maffia@unisalento.it (M.M.); a.ragusa@unilink.it (A.R.)
+†
+M.M. and A.R. share last co-authorship.
+Abstract
+Coffee silverskin (CS) is an abundant leftover of the coffee roasting process known to
+contain significant concentrations of bioactive molecules, including polyphenols and
+flavonoids, with established antioxidant properties and potential applications in nutraceu-
+tical and functional-food formulations. This study systematically optimized extraction
+conditions to maximize the recovery of phenolics and antioxidants from CS by evaluating
+the effects of solvent type, temperature, and sonication time. Ethanol extraction at 20 ◦C
+for 30 min yielded the most enriched polyphenolic fraction, with the highest total phenolic
+content (TPC), total flavonoid content (TFC), and antioxidant activity across 2,2-diphenyl-1-
+picrylhydrazyl (DPPH), trolox equivalent antioxidant capacity (TEAC), and ferric reducing
+antioxidant power (FRAP) assays. Comprehensive chemical characterization via high-
+performance liquid chromatography (HPLC) and gas chromatography–mass spectrometry
+(GC-MS) identified key phenolics (chlorogenic acid, hyperoside, quercetin), alongside
+abundant caffeine, tocopherols, and phytosterols. The biological relevance of the optimized
+extract was assessed for the first time in RT4-D6P2T Schwann-like cells, demonstrating sig-
+nificant cytoprotective and antioxidant effects against H2O2- and lipopolysaccharide-induced
+oxidative stress, thereby establishing a previously unreported neuroprotective potential.
+Keywords: coffee silverskin; antioxidant; polyphenols; caffeine; DCFDA assay; RT4-D6P2T
+cells; Schwann-like cells
+1. Introduction
+Coffee is one of the most consumed beverages in the world and as such, the coffee
+industry generates over 10 million tons of coffee waste worldwide [1]. Among the various
+leftovers, coffee silverskin (CS) is the thin epidermal layer that detaches from coffee beans
+Antioxidants 2026, 15, 172
+https://doi.org/10.3390/antiox15020172
+
+Antioxidants 2026, 15, 172
+2 of 22
+during roasting. It amounts to roughly 0.75–0.85% of the roasted bean weight (~7.5 kg
+per ton of coffee). Currently, most CS is discarded (sent to compost or landfill), which
+creates disposal costs and environmental burdens. Nevertheless, it shares some bioactive
+compounds with roasted beans but exhibits a distinct phytochemical profile due to its expo-
+sure to heat and concentration effects during roasting. CS often retains moderate levels of
+caffeine (ranging from 0.8 to 7.3 mg/g dry weight) compared to roasted beans. Meanwhile,
+CS is significantly enriched in dietary fiber (~18% cellulose, 13% hemicellulose) along with
+~19% protein and 8% ash (minerals), as well as phenolic compounds, particularly CGAs
+and their derivatives; one study reported CS rich in 3-, 5-, and 4,5-di-caffeoylquinic acids,
+present both in free and bound forms [2]. In addition, the roasting process drives Maillard
+reactions, leading to formation of volatiles like pyrroles and pyridines in CS, which im-
+part unique sensory and antioxidant characteristics. The roasting process also generates
+melanoidins and concentrates plant polyphenols and alkaloids in the silverskin [3]. These
+compounds exhibit strong antioxidant and health-promoting activities (e.g., neuroprotec-
+tive, cardioprotective, antimicrobial, and anti-inflammatory effects) [4,5]. This composition
+suggests multiple valorization routes: CS can be exploited as a source of fiber, fuels (via
+combustion or biogas), and other valuable compounds [6,7]. In a circular-economy context,
+CS is viewed as an underutilized resource, and sustainable management strategies are
+being sought to recover its components rather than discarding it [8–10]. However, the
+use of CS as a functional food ingredient faces important challenges, including its clas-
+sification as a Novel Food under EU Regulation 2015/2283 [11], which requires formal
+safety assessment and authorization, and the environmental pressures associated with
+its disposal, which underscore the need for sustainable valorization strategies within the
+circular-economy framework.
+Plant polyphenols are well recognized in nutrition and food science for their health ben-
+efits, and epidemiological studies have linked long-term consumption of polyphenol-rich
+diets to lower incidence of chronic diseases (cardiovascular disease, diabetes, neurode-
+generative disorders, etc.) [12,13]. In parallel, food scientists value polyphenols for their
+functional properties: they contribute to color, flavor, and oxidative stability of foods, and
+they can serve as natural alternatives to synthetic preservatives [14,15]. Thus, recover-
+ing antioxidants from agro-industrial by-products like CS represents an opportunity in
+developing health-promoting and clean-label food ingredients.
+Several research groups have characterized CS extracts, evidencing their high total
+phenolic content (TPC) and strong radical-scavenging activity. For example, Narita and
+Inouye reported that subcritical water extracts of CS had very high antioxidant activity
+(H-ORAC ~2629 µmol TE/g, DPPH ~379 µmol TE/g) that correlated linearly with extract
+phenolic content [16]. Guglielmetti and colleagues have found that adding CS extracts to
+bread significantly elevates measured TPC and improves TEAC/DPPH/FRAP values [17].
+These results indicate that CS contains chlorogenic acids and related phenolics at levels
+comparable to green coffee or brew, justifying its strong antioxidative profile. However,
+reported antioxidant effects vary widely across studies due to methodological differences.
+Moreover, most studies rely solely on bulk colorimetric assays (e.g., Folin–Ciocalteu TPC,
+DPPH, FRAP, etc.), while fewer reports use mass spectrometry coupled with chromato-
+graphic techniques to identify specific CS polyphenols.
+Oxidative stress is a key pathogenic process in numerous neurodegenerative and
+demyelinating diseases affecting both the central and peripheral nervous systems
+(PNSs) [18,19]. Schwann cells, which are primarily responsible for axonal myelination in
+the peripheral nervous system, are particularly vulnerable to the accumulation of reactive
+oxygen species (ROS) [20–22], resulting in a redox imbalance that alters their neurotrophic
+and myelinating functions, promotes mitochondrial dysfunction, and triggers inflammatory
+https://doi.org/10.3390/antiox15020172
+
+Antioxidants 2026, 15, 172
+3 of 22
+and apoptotic signaling pathways. Under physiological conditions, Schwann cells maintain
+redox homeostasis via endogenous antioxidant mechanisms, including the involvement
+of enzymes such as superoxide dismutase (SOD), catalase, and glutathione peroxidase
+(GPx) [23–25]. However, in response to toxic or inflammatory insults, such as those related
+to ischemia, neuroinflammation, or the action of environmental toxins, this balance can be
+disrupted, leading to myelin degeneration and neuronal dysfunction [26,27].
+Although CS has been recognized as a valuable source of bioactive compounds, sig-
+nificant gaps remain regarding how different extraction solvents and conditions influence
+its detailed phytochemical composition and antioxidant potential. In this study, we aimed
+to systematically compare different conditions to obtain CS extracts and evaluate their
+antioxidant capacity. Specifically, we used solvent extraction followed by chromatographic
+analysis to identify and quantify the major phenolic compounds in the CS. We also mea-
+sured antioxidant activity using multiple assays (DPPH, TEAC, FRAP) to provide robust
+data on its radical-scavenging potential. Ultimately, the antioxidant and cytoprotective
+effects of the CS extracts were evaluated by their ability to modulate the oxidative stress re-
+sponse induced by hydrogen peroxide and lipopolysaccharide (LPS) stimuli in RT4-D6P2T
+rat Schwann cells, which could lead to potential future nutraceuticals able to mitigate
+oxidative stress associated with pathophysiological conditions of the PNS.
+2. Materials and Methods
+2.1. Chemicals
+Analytical standards used in this study were of certified purity. Gallic acid (#91215),
+ascorbic acid (#A92902), quercetin (#PHR1488), p-coumaric acid (#95777), (±)-α-tocopherol
+(#PHR1031), chlorogenic acid (#PHR2202), kaempferol (#1354900), trans-caffeic acid
+(#51868), and caffeine (#56396) were purchased from Sigma-Aldrich (Milan, Italy) and
+used as received. Analytical standards of neochlorogenic acid (#N1155) and rutin hy-
+drate (#R0035) were purchased from TCI (Tokyo, Japan) and used as received. Analytical
+standard of (+)-catechin (#BISN0111) was purchased from Apollo Scientific (Manchester,
+UK) and used as received. HPLC-grade acetonitrile (#K981) and water (#K978) were
+purchased from VWR chemicals (Milan, Italy). Sodium nitrite (#11483970), sodium car-
+bonate anhydrous (#10548070), hydrochloric acid (#12666846), and HPLC-grade formic
+acid (#30280925) were obtained by J.T. Baker Chemicals (Deventer, Holland). 2,2-Diphenyl-
+1-picrylhydrazyl (DPPH, #D9132), potassium persulfate (K2S2O8, #379824), sodium hy-
+droxide (#S5881), 2,2′-azino-bis(3-ethylbenzothiazoline-6-sulfonic acid) diammonium salt
+(ABTS, C18H24N6O6S4, #A1888), ammonium acetate (#238074), copper(II) chloride dihy-
+drate (CuCl2·2H2O, #307483), sodium acetate trihydrate (CH3COONa·3H2O, #117418),
+2,4,6-tris(2-pyridyl)-1,3,5-triazine (TPTZ, C18H12N6, #T1253), iron(III) chloride hexahydrate
+(FeCl3·6H2O, #44944), aluminum (III) chloride (AlCl3, #563919), potassium peroxydisulfate
+(#60489), 96% ethanol (#100971), methanol (#179337), and acetic acid (#695092) were pur-
+chased from Sigma-Aldrich (Milan, Italy). Solvents were used without further purification.
+2.2. Raw Materials
+Dried samples of ground coffee silverskin, produced by roasting Arabica coffee beans,
+were kindly provided by Quarta Caffè S.R.L. (Lecce, Italy). Beans were roasted under
+industrial conditions (approx. 200–230 ◦C for 12–15 min), and the silverskin layer was
+mechanically separated from the beans immediately after roasting and cooling. The col-
+lected CS was sieved to remove impurities, dried to constant weight, and ground to a fine
+powder (particle size < 1 mm) before packaging. The raw material was stored in a sealed
+bag under inert atmosphere (N2), at room temperature in a cool and dry place, away from
+direct light exposure.
+https://doi.org/10.3390/antiox15020172
+
+Antioxidants 2026, 15, 172
+4 of 22
+2.3. Extraction Procedure
+Polyphenols extraction procedure was based on methods reported by Zengin et al.
+with slight modifications [28], testing different extraction parameters, such as solvent (water,
+ethanol, and a 1:1 (v/v) hydroalcoholic solution), time (30 and 60 min), and temperature
+(20 and 40 ◦C). Briefly, the ground coffee silverskin (4 g) was suspended in either H2O, EtOH,
+or 50% EtOH/H2O (50 mL). The suspension was sonicated at a frequency of 40 KHz with
+a LABSONIC LBS2 ultrasonic bath (FALC, Treviglio (BG), Italy) at either 20 or 40 ◦C and
+for either 30 or 60 min. Throughout each extraction, the bath temperature was monitored
+using the built-in digital thermometer, and the system automatically compensated for heat
+generated by sonication to maintain the selected temperature. Following sonication, the
+mixtures were filtered under vacuum and the solvent evaporated using a Rotavapor R-200
+(BÜCHI Labortechnik AG, Flawil, Switzerland) operated at a bath temperature of 40 ◦C
+under reduced pressure (150–200 mbar). The residues were finally lyophilized (Freeze
+Dryer BFBT-101-A, Biolab, Toronto, ON, Canada) and dissolved in methanol to obtain a 1
+mg/mL stock solution of raw extract. The yield was calculated as the mass of the extract
+obtained relative to the initial mass of the whole plant and is expressed as a percentage (%).
+2.4. Total Phenolic Content (TPC) and Total Flavonoid Content (TFC) Determination
+TPC was determined according to Singleton et al. [29]. Briefly, a water-diluted 1:10
+Folin–Ciocalteu reagent (0.2 N, 250 µL) was added to 50 µL of the extract (1 mg/mL).
+After 5 min of incubation in the dark, 700 µL of 7.5% sodium carbonate was added. The
+resulting mixture was then incubated for an additional 2 h in the dark at room temper-
+ature, and the absorbance was subsequently measured at a wavelength (λ) of 765 nm.
+Gallic acid (25–100 µg/mL) served as the standard for constructing the calibration curve
+(r2 = 0.994). The TPC was expressed as mg of gallic acid equivalents per gram of dry sample
+(mg GAE/g).
+The total content of flavonoids was determined by the method described by Yan
+et al. [30]. 0.5 M NaNO2 (75 µL) and 0.5 M AlCl3 (75 µL) were added to 250 µL of the
+extract (1 mg/mL). The mixture was incubated in the dark at ambient temperature for
+5 min. Subsequently, 1 M NaOH (1 mL) was added, and the absorbance was measured at a
+wavelength of 510 nm. Rutin (0.5–0.1 mg/mL) was used as the standard for constructing
+the calibration curve (r2 = 0.995). The TFC was expressed as mg of rutin equivalents per
+gram of dry sample (mg RE/g).
+2.5. DPPH Assay
+The scavenging activity of the extracts was evaluated spectrophotometrically accord-
+ing to Nzekoue et al. [31]. DPPH was diluted with methanol to obtain a working solution
+with an initial absorbance of about 0.70 a.u. at a wavelength (λ) of 517 nm. For the assay,
+100 µL of the extract was mixed with 900 µL of the prepared DPPH solution. After 30 min
+of incubation in the dark at room temperature, the DPPH absorbance was measured at
+517 nm. Ascorbic acid (5.0–50.0 µg/mL) was used as the standard for constructing the
+calibration curve (r2 = 0.998). The DPPH activity was expressed as mg of ascorbic acid
+equivalents per gram of dry sample (mg AAE/g).
+2.6. Trolox Equivalent Antioxidant Capacity (TEAC) Assay
+The TEAC assay was employed to evaluate the samples’ ability to scavenge 2,2′-azino-
+bis(3-ethylbenzothiazoline-6-sulfonic) acid radical cations (ABTS•+) [32]. The radical cation
+solution was generated by the reaction between a 7 mM ABTS stock solution and a 2.45 mM
+K2S2O8 solution after 16–18 h of incubation in the dark. The resulting radical solution,
+which remained stable for up to 2 days, was diluted with distilled water to obtain a working
+https://doi.org/10.3390/antiox15020172
+
+Antioxidants 2026, 15, 172
+5 of 22
+solution with an absorbance of 0.70 ± 0.02 at a wavelength (λ) of 734 nm. For the assay,
+the diluted ABTS•+ solution (950 µL) was added to 50 µL of each sample. The absorbance
+reading at 734 nm was taken after 10 min of incubation at room temperature and in the
+dark. Trolox (3.9–125.0 µg/mL) was used as the standard for constructing the calibration
+curve (r2 = 0.999). The ABTS activity was expressed as mg of Trolox equivalents per gram
+of dry sample (mg TE/g).
+2.7. Ferric Reducing Antioxidant Power (FRAP) Assay
+The FRAP assay was carried out according to Fu et al. [33] with minor modifications.
+The FRAP reagent was prepared daily by mixing 300 mM acetate buffer (pH 3.6), 10 mM
+TPTZ (dissolved in 40 mM HCl), and 20 mM FeCl3·6H2O in a volume ratio of 10:1:1. The
+resulting mixture was warmed for 10 min at 37 ◦C. For the assay, 50 µL of each sample
+were added to 950 µL of the FRAP working solution. Six minutes later, the absorbance
+was measured at 593 nm. Ascorbic acid (5.0–50.0 µg/mL) was used as the standard for
+constructing the calibration curve (r2 = 0.994). Results were expressed as mg of ascorbic
+acid equivalents per gram of dry sample (mg AAE/g).
+2.8. HPLC Analysis
+The HPLC analysis was carried out using an Agilent 1220 Infinity HPLC (Agilent
+Technologies, Palo Alto, CA, USA) equipped with an Eclipse Plus C18 (particle size 5 µm;
+4.6 × 250 mm, Agilent) stationary phase column and interfaced with a diode array detector
+(model G1315B DAD system; Agilent). The procedure followed published methods with
+slight modifications [34–36]. The mobile phase consisted of a mixture of water (solvent A)
+and acetonitrile (solvent B), both containing 0.1% formic acid. The flow rate was maintained
+at 1.0 mL/min in gradient elution mode. The gradient program was executed as follows:
+0 to 2 min, 20% of solvent B; 2 to 10 min, linear increase from 20% to 80% of solvent B; 14 to
+24 min, linear increase from 80% to 100% of solvent B; 24 to 34 min, 100% of solvent B; 34 to
+35 min, linear decrease from 100% to 20% of solvent B; 35 to 40 min, 20% of solvent B (re-
+equilibration step). The injection volume was set at 20 µL, the column temperature at 30 ◦C,
+and the UV-Vis detection wavelength at 280 nm. Compound identification was performed
+by comparing retention times and UV-Vis spectra with those of authenticated reference
+standards (see Section 2.1). Quantification was carried out using external calibration curves
+(r2 ≥0.998) prepared from pure standards at known concentrations (0.5, 1.0, 5.0, 10.0, and
+15.0 mg/mL). To facilitate the detection of minor constituents, concentrated stock solutions
+of the extract were utilized. Results are expressed as mg of compound per mg of extract.
+2.9. Gas Chromatography
+The GC-MS analysis was performed using a splitless injection mode on a Thermo
+Scientific TRACE GC coupled to a Thermo Scientific PolarisQ external ionization ion
+trap mass spectrometer (Thermo Fisher Scientific, Bellefonte, PA, USA), operating in elec-
+tron ionization (EI) mode at 70 eV, with a scan range of m/z 50–650, ion source tem-
+perature set at 200 ◦C, transfer line temperature at 250 ◦C, and injector temperature
+at 250 ◦C. Chromatographic separation was achieved using a TraceGOLD TG-5SilMS
+(30 m × 0.25 mm × 0.25 µm) column (Thermo Fisher Scientific, Bellefonte, PA, USA). Prior
+to injection, aliquots of the samples were filtered using a 0.2 µm pore size filter. Identifi-
+cation of analytes was performed through comparison of the obtained mass spectra with
+entries in the NIST/EPA/NIH Mass Spectral Library. Quantification was conducted by
+calculating relative peak areas from the total ion chromatogram (TIC). The analysis of
+semi-volatile organic compounds (SVOCs) adhered to the standard US EPA Method 8270
+methodology [37].
+https://doi.org/10.3390/antiox15020172
+
+Antioxidants 2026, 15, 172
+6 of 22
+2.10. Cell Culture Maintenance and Treatments
+The RT4-D6P2T rat schwannoma cell line (ATCC cod. CRL-2768™) was maintained
+in Dulbecco’s Modified Eagle’s Medium (DMEM, 4500 mg/L glucose, EuroClone, Milan,
+Italy) supplemented with 10% Fetal Bovine Serum (FBS), 100 U/mL penicillin, 100 µg/mL
+streptomycin, and 2 mM glutamine, according to standard procedures [38,39]. Cells were
+incubated at 37 ◦C in a humidified atmosphere containing 5% CO2. Cell cultures were
+subsequently exposed to different treatments with CS extract, caffeine (Sigma Aldrich, code:
+C0750, St. Louis, MO, USA), and lipopolysaccharide (LPS, Invitrogen, code: 00-4976-93,
+Carlsbad, CA, USA). Stock solutions of the CS extract and caffeine were prepared in a
+methanol/DMSO (90:10, v:v) mixture to ensure complete solubilization of both hydrophilic
+and partially lipophilic compounds. Prior to cell treatment, these stock solutions were
+diluted into the culture medium to ensure the final DMSO concentration never exceeded
+0.1% (v/v). Control experiments using the methanol/DMSO (90:10, v/v) solution were
+performed to confirm that the vehicle did not influence cell viability.
+2.11. Cell Viability Assay
+Cells were seeded in a 96-well plate at a density of 5 × 103/well, with each well
+containing 100 µL of complete medium. Cells were then allowed to adhere to the plate
+overnight. Cell viability was determined using the MTT (3-[4,5-dimethylthiazol-2-yl]-2,5-
+diphenyltetrazolium bromide) assay, performed according to the manufacturer’s instruc-
+tions (Sigma Aldrich, St. Louis, MO, USA). After the viable cells reduced the MTT to purple
+formazan crystals, the crystals were dissolved using dimethyl sulfoxide (DMSO). The
+absorbance of the dissolved formazan was measured at 570 nm using a microplate reader
+(Multiskan™FC Microplate Photometer (Thermo Fisher Scientific, Waltham, MA, USA).
+2.12. DCFDA Assay
+The production of ROS was estimated using the 2′,7′-dichlorofluorescein diacetate
+(DCFDA) assay (Sigma) [40]. Cells were seeded in Corning® Falcon® Microplate (Sigma-
+Aldrich, code: CLS353376) at a density of 0.3 × 105 cells/well. Following the specified
+treatments, the medium was replaced with fresh medium containing 50 µM of DCFDA and
+incubated for 30 min. Cells were then washed with PBS and analyzed using a Cytation
+5 Imaging plate reader (Biotek Instruments Inc., Agilent, Winooski, VT, USA) at excita-
+tion/emission wavelengths (Ex/Em) of 485/535 nm. The fluorescence generated is directly
+proportional to the amount of DCFDA oxidized to DCF.
+2.13. Statistical Analysis
+All experiments (extraction procedures, analytical measurements, and cellular experi-
+ments) were performed in triplicate, and the results are presented as the mean ± standard
+deviation (SD). Statistical analysis was performed using Prism v. 8.0.1 software (GraphPad
+Software Inc., La Jolla, CA, USA). Multiple comparisons were conducted using one-way
+analysis of variance (ANOVA) followed by Tukey’s post hoc test. A p-value of <0.05 was
+accepted as the level of statistical significance. The following statistical representations
+were used in the text: * p < 0.05, ** p < 0.005, *** p < 0.0005; **** p-value < 0.0001.
+3. Results
+3.1. Analysis of the Extraction Conditions
+In order to optimize the conditions for extracting biomolecules from the CS, three
+variables were investigated, i.e., solvent polarity, extraction temperature, and sonication
+time. More specifically, water and ethanol were used as solvents, deliberately avoiding
+highly organic solvents (such as hexane, ethyl acetate, and acetone) due to their higher cost
+https://doi.org/10.3390/antiox15020172
+
+Antioxidants 2026, 15, 172
+7 of 22
+and lower biocompatibility. A 1:1 mixture of water and ethanol was also tested to evaluate
+conditions of intermediate polarity and lipophilicity. Two conditions each were also checked
+for optimizing the extraction temperature, i.e., room temperature (20 ◦C) and a mildly
+elevated temperature (40 ◦C). The higher temperature was chosen to improve the solubility
+of the biomolecules while minimizing the risk of thermal degradation. Finally, both a
+shorter (30 min) and a longer (60 min) sonication time were tested to determine if extended
+sonication would allow for the extraction of a higher amount of bioactive compounds.
+To identify the optimal extraction procedure, we assessed both the extraction yield
+(reported relative to the initial raw material quantity) and, more importantly, the type
+of biomolecules extracted (quantified as the total polyphenolic content). The results are
+summarized in Table S1.
+As clearly visible in the scatter plot in Figure 1a, the extraction study revealed a
+clear solvent-dependent trade-off between total mass yield and polyphenol concentration.
+Conversely, time and temperature were less influential, as demonstrated by the tight
+clustering of the data points related to the same extraction solvent.
+Figure 1. (a) Scatter plot reporting yield vs. TPC of the CS extracts obtained by different conditions
+of solvent, time, and temperature; (b) bar graph highlighting the TPC obtained by the different
+extraction conditions.
+Aqueous extraction produced the highest yields (between 13% and 19%), while pure
+ethanol yielded the lowest yields (5% maximum). Conversely, pure ethanol resulted in the
+highest TPC (between 27 and 38 mg GAE/g extract), and the 50% ethanol/water mixture
+provided intermediate yields and TPC values. Ethanol thus allowed for the most selective
+extraction of polyphenols; water extracted large amounts of hydrophilic, non-phenolic
+material, whereas the hydroalcoholic mixtures provided intermediate results between
+polyphenolic content and mass transfer, and no significant differences (p > 0.05) were
+observed varying extraction time and temperature.
+Temperature and time effects in our dataset indicate a significant (p < 0.05)decreased
+TPC at 40 ◦C relative to 20 ◦C for ethanol extracts, alongside a reduction in efficiency
+for aqueous extraction at the higher temperature/longer time condition (40 ◦C, 60 min)
+(Figure 1b).
+To gain a better insight into the composition of the extract, the TFC was also deter-
+mined, providing a complementary measure to the TPC (Table S1). The data revealed that,
+despite flavonoids comprising the majority of the TPC extracted in all conditions, a broader
+chemical diversity of polyphenols is present. Ethanol extracts exhibited the highest TPC
+https://doi.org/10.3390/antiox15020172
+
+Antioxidants 2026, 15, 172
+8 of 22
+and TFC values, confirming ethanol’s strong affinity for both flavonoid and non-flavonoid
+phenolics. At 20 ◦C, TPC reached about 35–38 mg GAE/g, while TFC ranged between
+202 and 227 mg RE/g, indicating that although TPC is higher in concentration, flavonoids
+make up a substantial portion of the extractable phenolics under mild conditions.
+For aqueous extracts, both TPC and TFC decreased compared to ethanol, but the
+reduction is more dramatic for TFC. Water’s polarity favors the extraction of hydrophilic
+phenolics, especially chlorogenic acids, while many flavonoids are less water-soluble. As a
+result, TPC in water remained moderate (~11 mg GAE/g at 20 ◦C), whereas TFC dropped
+to around 21 mg RE/g. This highlights the limited ability of water to dissolve flavonoid-
+rich fractions. The 50% ethanol/water mixture showed intermediate behavior, combining
+water’s efficiency for hydrophilic polyphenols with ethanol’s affinity for flavonoids. TPC
+values averaged at 16–18 mg GAE/g, while TFC averaged at about 50 mg RE/g. These
+proportions indicate that mixed solvents extract a more balanced phenolic profile, though
+they are still less effective than pure ethanol for flavonoids.
+3.2. Antioxidant Assays
+Considering that high TPC and TFC might not be directly imputable to the highest
+antioxidant effect, a series of antioxidant assays were also performed on the different
+extracts to confirm the desired ability to scavenge radicals. Table 1 presents the antioxidant
+capacity of the CS extracts, as determined by DPPH, TEAC, and FRAP assays, obtained
+under varying extraction conditions of solvent, temperature, and duration.
+Table 1. Antioxidant assays on the CS extracts at different extraction conditions of solvent, tempera-
+ture, and time.
+Temp (◦C)
+Time (min)
+Ethanol
+H2O
+50%
+Ethanol/H2O
+DPPH (mg AAE/g)
+20
+30
+156.50 ± 2.52
+8.68 ± 0.16
+21.09 ± 2.38
+20
+60
+149.18 ± 2.59
+6.98 ± 0.13
+20.18 ± 0.57
+40
+30
+116.95 ± 18.96
+5.00 ± 0.39
+19.03 ± 1.34
+40
+60
+138.90 ± 2.82
+6.53 ± 0.45
+22.73 ± 0.13
+TEAC (mg TE/g)
+20
+30
+206.91 ± 15.79
+39.61 ± 1.44
+51.17 ± 0.86
+20
+60
+275.48 ± 12.02
+51.51 ± 1.26
+80.97 ± 1.00
+40
+30
+208.54 ± 7.58
+34.98 ± 1.61
+75.46 ± 1.11
+40
+60
+180.79 ± 22.48
+38.38 ± 24.30
+50.01 ± 2.67
+FRAP (mg AAE/g)
+20
+30
+79.86 ± 6.15
+8.40 ± 0.28
+17.82 ± 0.56
+20
+60
+100.64 ± 1.25
+9.59 ± 0.92
+21.19 ± 0.57
+40
+30
+91.63 ± 4.45
+8.37 ± 0.06
+18.52 ± 0.43
+40
+60
+87.78 ± 0.15
+3.98 ± 0.05
+17.20 ± 0.08
+3.3. Chromatographic Characterization
+3.3.1. HPLC Analysis
+The high-performance liquid chromatography (HPLC) chromatogram of the CS
+ethanolic extract (Figure S1) revealed a complex profile rich in phenolic and antioxidant
+compounds, reflecting the chemical diversity characteristic of this coffee-processing by-
+product. The chromatogram shows multiple well-defined peaks between 2 and 38 min of
+retention time, with peaks corresponding to a variety of bioactive molecules, ranging from
+alkaloids, flavonoids, and vitamins, as indicated in Table 2.
+https://doi.org/10.3390/antiox15020172
+
+Antioxidants 2026, 15, 172
+9 of 22
+Table 2. Summary of the bioactive molecules identified by HPLC analysis of the CS ethanolic extract.
+Retention Time (min)
+Compound
+Chemical Formula
+Class
+Amount *
+(µg/mg of Extract)
+2.9
+Cyanidin
+C15H10O6
+Flavonoid
+1.30 ± 0.08
+3.1
+Quinine
+C20H24N2O2
+Alkaloid
+n.d.
+4.1
+Gallic acid
+C7H6O5
+Phenolic acid
+0.05 ± 0.01
+4.5
+Neochlorogenic acid
+C8H10N4O2
+Phenolic acid
+0.15 ± 0.01
+5.6
+Caffeine
+C16H18O9
+Alkaloid
+44.82 ± 1.49
+6.6
+Caffeic acid
+C9H8O4
+Phenolic acid
+0.08 ± 0.01
+6.7
+Catechin
+C15H14O6
+Flavonoid
+n.d.
+6.9
+Chlorogenic acid
+C16H18O9
+Phenolic acid
+0.37 ± 0.02
+7.3
+Rutin
+C27H30O16
+Flavonoid
+0.82 ± 0.04
+7.8
+Hyperoside
+C21H20O12
+Flavonoid
+3.17 ± 0.10
+8.8
+p-Coumaric acid
+C9H8O3
+Phenolic acid
+0.06 ± 0.01
+9.0
+trans-Ferulic acid
+C10H10O4
+Phenolic acid
+0.94 ± 0.07
+10.4
+Cinnamic acid
+C9H8O2
+Phenolic acid
+0.25 ± 0.02
+10.8
+Quercetin
+C15H10O7
+Flavonoid
+2.38 ± 0.17
+11.1
+Kaempferol
+C15H10O6
+Flavonoid
+1.14 ± 0.07
+13.3
+Isogentisin
+C14H10O5
+Flavonoid
+n.d.
+31.9
+α-Tocopherol
+C29H50O2
+Vitamin
+22.60 ± 1.53
+* n.d.: not detected.
+Among the 17 compounds identified, caffeine was the most abundant, at 44.82 ± 1.49 µg/mg
+extract, followed by α-tocopherol (22.60 ± 1.53 µg/mg) and hyperoside (3.17 ± 0.10 µg/mg).
+These molecules together account for almost 60% of the total chromatographic area, in-
+dicating that both alkaloids and lipid-soluble antioxidants contribute significantly to the
+bioactivity of silverskin extracts. Other flavonoids, such as quercetin (2.38 ± 0.17 µg/mg)
+and kaempferol (1.14 ± 0.07 µg/mg), were also present in significant amount.
+Polyphenolic acids, such as ferulic, cinnamic, gallic, caffeic, chlorogenic, neochloro-
+genic, and coumaric acids (about 0.94, 0.25, 0.05, 0.08, 0.37, 0.15, and 0.06 µg/mg, respec-
+tively), were present in moderate concentrations but accounted for several significant peaks
+in the chromatogram.
+The retention time distribution of compounds reflects a clear polarity gradient. Early
+eluting peaks (2–5 min) correspond mainly to hydrophilic organic acids (cyanidin, qui-
+nine, gallic acid), while mid-range retention (5–15 min) includes polyphenolic acids and
+flavonoids of intermediate polarity. Late peaks (>25 min) represent non-polar compounds
+such as tocopherols. The most intense peak, appearing at 5.6 min (~43% of total area),
+corresponds to caffeine, which is consistent with its high concentration and strong UV
+absorbance maximum at 273 nm. Meanwhile, the peaks at 28.0 min and 31.9 min (each
+about 14% of total area) suggest compounds of lower polarity, such as α-tocopherol and
+co-eluting flavonoid derivatives, both contributing significantly to the antioxidant potential
+measured by FRAP and DPPH assays.
+3.3.2. GC-MS Analysis
+The chromatogram shows two major peaks corresponding to caffeine (retention time
+10.59 min, 43.86% relative area) and β-sitosterol (retention time 27.39 min, 33.57% relative
+area), indicating their predominance among the volatile and semi-volatile constituents
+(Figure S2 and Table 3). Alongside these, several minor peaks correspond to phenolic
+antioxidants, vitamins, aromatic aldehydes, and other sterols, confirming the biochemical
+complexity of the silverskin extract.
+https://doi.org/10.3390/antiox15020172
+
+Antioxidants 2026, 15, 172
+10 of 22
+Table 3. Summary of the bioactive molecules identified by GC-MS analysis of the CS ethanolic extract.
+Retention
+Time (min)
+Compound
+Molecular
+Weight (u.m.a.)
+Relative Area
+(%)
+5.03
+Benzothiazole
+135.186
+1.46
+5.46
+Benzophenone
+182.218
+0.59
+7.79
+2-Methyl-1,4-benzenedicarboxaldehyde
+148.159
+0.36
+8.06
+2,4-Di-tert-butylphenol
+206.324
+0.60
+9.56
+Ethyl 4-ethoxybenzoate
+194.227
+2.04
+9.64
+Methyl 2-((6-oxo-5-phenyl-2,3,6,6a-tetrahydro-1,3-
+methanopentalen-3a(1H)-yl)oxy)acrylate
+310.349
+1.19
+9.76
+3,5-Di-tert-butyl-4-hydroxybenzaldehyde
+234.334
+0.23
+10.59
+Caffeine
+194.191
+43.86
+10.91
+7,9-Di-tert-butil-1-oxaspiro[4.5]deca-6,9-diene-2,8-dione
+276.173
+1.05
+11.29
+Diphenyl sulfone
+218.040
+4.73
+13.04
+(3-Heptyl)undecyl adipate
+398.340
+0.89
+25.27
+α-Tocopherol
+430.706
+0.85
+26.46
+Campesterol
+400.680
+2.35
+26.72
+Stigmasterol
+412.691
+1.63
+27.39
+β-Sitosterol
+414.707
+33.57
+28.05
+Anhydrovariabilin
+282.290
+0.23
+28.47
+α-Tocopheryl acetate
+472.743
+0.44
+The presence of α-tocopherol (vitamin E) at 0.85% and α-tocopheryl acetate at 0.44%
+indicates that CS contains lipid-soluble antioxidants capable of protecting the extract from
+oxidative degradation. Of particular interest is the identification of sterol compounds,
+campesterol (2.45%), stigmasterol (1.63%), and β-sitosterol (3.37%), which collectively
+account for nearly 7.5% of the total volatile profile.
+Among the less abundant but chemically relevant components were diphenyl sul-
+fone (4.73%) and diisobutyl azelate (1.55%), which may originate from the thermal oxi-
+dation of fatty acids or the degradation of complex lipids. Although these are not nat-
+urally occurring antioxidants, their presence reflects the complex chemistry of roasted
+biomass and possible solvent extraction of degradation intermediates. Similarly, the de-
+tection of 7,9-di-tert-butyl-1-oxaspiro[4.5]deca-6,9-diene-2,8-dione (1.05%) corresponds
+to known pyrolysis products of phenolic antioxidants and stabilizers, which may also
+exhibit residual radical-scavenging activity. The detection of aromatic aldehydes such as
+2-methyl-1,4-benzenedicarboxaldehyde and methyl-2-((6-oxo-5-phenyl-2,3,6,6a-tetrahydro-
+1,3-methanopentalen-3a(1H)-yl)oxy)acrylate suggests the occurrence of complex Maillard
+and pyrolytic reactions during coffee bean roasting. These compounds are frequently
+reported in roasted coffee volatiles and contribute to both aroma and antioxidant behav-
+ior [41]. Though present in small amounts (<1.5%), their biological significance lies in their
+radical-trapping activity and ability to modulate oxidative pathways in lipid systems. A
+relevant set of phenolic derivatives and benzene-based compounds was also identified,
+including 2,4-di-tert-butylphenol (0.60%), ethyl 4-ethoxybenzoate (2.04%), benzothiazole
+(1.46%), and benzophenone (0.59%).
+In addition to all these compounds, traces of additional both saturated and unsaturated
+hydrocarbons with varying chain lengths (from C9 to C20) were also detected.
+3.4. Cellular Assays
+3.4.1. Effects of the CS Extract and H2O2 on Cell Viability and ROS Production in a
+Schwann-like Cell Line
+Following the chemical characterization of the ethanolic CS extract, we investigated
+the relative biological activity using an in vitro model based on the RT4-D6P2T Schwann-
+https://doi.org/10.3390/antiox15020172
+
+Antioxidants 2026, 15, 172
+11 of 22
+like cells. To find optimal conditions of oxidative stress conditions to be used in the
+subsequent studies, RT4-D6P2T cells were exposed to increasing concentrations of H2O2 to
+induce intracellular ROS production. The protective effects of the extract were evaluated
+by measuring parameters such as cell viability/metabolic activity, by means of MTT test,
+and ROS levels, by means of DCFDA assay.
+The cytotoxic effect of H2O2 at concentrations of 1, 2, and 2.5 mM, was assessed
+after 1 h and 4 h of treatment. A significant reduction in cell viability was observed, as
+early as 1 h after treatment, at the lowest concentration tested of 1 mM, compared to the
+untreated control (Figure 2a). Based on this result, subsequent experiments were designed
+to investigate the oxidative stress induced by 500 µM and 1 mM H2O2 administered over
+1 h at time steps of 15 min. A mild but statistically insignificant increase in ROS levels was
+detected with 500 µM H2O2, whereas 1 mM H2O2 induced rapid and marked oxidative
+response that was quite constant over the whole experiment time (Figure 2b).
+ 
+(a) 
+(b) 
+Figure 2. Effects of H2O2 on cell viability and intracellular ROS evaluation. (a) RT4-D6P2T cell
+viability assessed by MTT test for 1 h and 4 h after treatment with 1, 2, and 2.5 mM H2O2. (b) ROS
+production level in RT4-D6P2T cells following exposure to 500 µM and 1 mM H2O2 over 5, 15, 30,
+and 60 min. * p < 0.05, ** p < 0.005, *** p < 0.0005; **** p-value < 0.0001; ns not significant.
+The cytotoxic effect of the CS extract was assessed following 24 h of treatment at
+concentrations of 10, 25, 50, and 100 µg/mL. No significant changes in cell viability were
+observed with concentrations lower than 100 µg/mL (Figure 3a). Then, 10 µg/mL and
+50 µg/mL concentrations were selected for subsequent experiments to evaluate the ROS
+generated over 1 h by the extract. No significant increase in ROS production was observed
+with 10 µg/mL CS extract, whereas it was detected with 50 µg/mL (Figure 3b). Based on
+these results, 10 µg/mL of CS extract was selected for further experiments.
+3.4.2. CS Extract Exerts Antioxidant Properties on a Schwann-like Cell Line
+ROS production was evaluated at 30, 45, 60, and 75 min following treatment of
+RT4-D6P2T cells with 10 µg/mL of CS extract, 1 mM H2O2, and their combination (CS
+extract + H2O2). The oxidative stress response was expressed as a percentage relative
+to the H2O2-treated condition (set as 100%). Overall, treatment with the extract alone
+resulted in lower ROS levels compared to the untreated control, suggesting an enhanced
+antioxidant effect that might ameliorate cellular readiness to respond to H2O2 exposure.
+In fact, co-treatment with CS extract and H2O2 led to a marked reduction in ROS levels
+https://doi.org/10.3390/antiox15020172
+
+Antioxidants 2026, 15, 172
+12 of 22
+relative to H2O2 alone, indicating a robust protective effect of the extract against oxidative
+stress. This trend was confirmed at all time points analyzed (30, 45, 60, and 75 min), hinting
+that the extract exerts a sustained protective effect against H2O2-induced oxidative stress
+(Figure 4).
+ 
+(a) 
+(b) 
+Figure 3. Effects of CS extract on cell viability and intracellular ROS evaluation. (a) RT4-D6P2T
+cell viability assessed by MTT test for 24 h after treatment with 10, 25, 50, and 100 µg/mL of CS
+extract. (b) ROS production level in RT4-D6P2T cells following exposure to either 10 µg/mL or 50
+µg/mL of CS extract over 5, 15, 30, and 60 min. ** p < 0.005, *** p < 0.0005; **** p-value < 0.0001; ns
+not significant.
+Figure 4. Intracellular ROS evaluation. ROS production level in RT4-D6P2T cells following exposure
+to 10 µg/mL CS extract and 1 mM H2O2 (alone and in combination) over 30, 45, 60, and 75 min.
+* p < 0.05, ** p < 0.005, **** p-value < 0.0001; ns not significant.
+https://doi.org/10.3390/antiox15020172
+
+Antioxidants 2026, 15, 172
+13 of 22
+3.4.3. Caffeine Contribution to the Antioxidant Activity of the Extract
+At this stage, we aimed to evaluate whether the observed effects of the CS extract were
+primarily due to its most abundant compound, caffeine, or to the combined action of the
+full phytochemical profile as reflected in the chromatographic fingerprint.
+ROS levels were evaluated at 30, 45, 60, and 75 min following the treatment of RT4-
+D6P2T cells with 10 µg/mL of CS extract, 2.34 µM caffeine, 1 mM H2O2, and their combi-
+nation (CS extract + H2O2; caffeine + H2O2). The 2.34 µM concentration of pure caffeine
+was chosen because it corresponds to approximately 100 times the concentration of caffeine
+administered within the 10 µg/mL extract (based on the HPLC analysis showing a con-
+centration of ~45 µg/mg of dry sample). This elevated concentration was used to ensure
+the observation of a significant antioxidant effect for the pure compound. The oxidative
+stress response was expressed as a percentage relative to the H2O2-treated condition (set as
+100%). Overall, the antioxidant effects provided by the CS extract in this cell model were
+found to be comparable to those of the 100-times concentrated pure caffeine, suggesting a
+synergistic effect involving caffeine and the other bioactive molecules present in the extract
+(Figure 5).
+Figure 5. Intracellular ROS evaluation. ROS production level in RT4-D6P2T cells following exposure
+to 1 mM H2O2, 10 µg/mL CS (alone and in combination with 1 mM H2O2), and 2.34 µM caffeine (alone
+and in combination with 1 mM H2O2) over 30, 45, 60, and 75 min. *** p < 0.0005; ns not significant.
+3.4.4. CS Extract Counteracts Lipopolysaccharide (LPS)-Induced ROS Production
+LPS, a potent endotoxin derived from the outer membrane of Gram-negative bacteria,
+is known to trigger a significant inflammatory response, leading to an increased production
+of ROS and subsequent oxidative stress [42–44]. To further evaluate the antioxidant poten-
+tial of the CS extract, we treated immortalized rat Schwann cell lines with LPS (0.5 µg/mL)
+for 30, 45, and 60 min to induce ROS production and assessed whether co-treatment with
+CS could mitigate this effect. We chose this LPS concentration based on published data;
+for instance, Li and colleagues established that concentrations of LPS below 10 µg/mL
+were appropriate to induce inflammation, without negatively affecting cell viability in
+RSC96 rat Schwann cells [45]. Intracellular ROS levels were quantified using the DCFDA
+probe. We observed that cells co-treated with 10 µg/mL CS exhibited a statistically signifi-
+cant decrease in LPS-induced ROS production compared to cells treated with LPS alone
+(p < 0.0001) (Figure 6).
+https://doi.org/10.3390/antiox15020172
+
+Antioxidants 2026, 15, 172
+14 of 22
+Figure 6. Intracellular ROS evaluation. ROS production level in RT4-D6P2T cells following exposure
+to 10 µg/mL CS and 0.5 µg/mL LPS (alone and in combination) over 30, 45, and 60 min. *** p < 0.0005;
+**** p-value < 0.0001; ns not significant.
+The antioxidant activity of CS extracts varied significantly depending on the extraction
+solvent, temperature, and duration. Ethanolic extracts exhibited the highest antioxidant
+capacity, particularly under moderate extraction conditions (20 ◦C). For instance, the DPPH
+radical scavenging capacity reached 156.50 mg AAE/g at 30 min, while TEAC and FRAP
+values were also notably high (275.48 mg TE/g and 100.64 mg AAE/g, respectively), albeit
+after longer extraction times (60 min).
+Conversely, water extracts displayed significantly lower antioxidant values across
+all three tests (e.g., approximately 8 mg AAE/g for DPPH, between 40 and 50 mg TE/g
+for TEAC, and about 9 mg AAE/g for FRAP, all at 20 ◦C), despite yielding a higher total
+mass extract. The hydroalcoholic solvent system provided intermediate scavenging values,
+although these were much closer to the results obtained by aqueous solvent than to those
+of pure ethanol. For instance, at 20 ◦C, TEAC activity peaked at approximately 81 mg TE/g,
+FRAP about 21 mg AAE/g, and DPPH about 9 mg AAE/g. Therefore, the mild condition of
+20 ◦C and 30 min was selected as optimal for balancing compound recovery and chemical
+integrity. These conditions were subsequently used for all chromatographic and biological
+characterization studies.
+4. Discussion
+The initial phase of the research focused on the optimization of the solvent used
+during the ultrasound-assisted extraction, maximizing the yield and efficacy of the final
+extract. The procedure employed for the extraction reflects modern green chemistry
+principles, offering enhanced extraction kinetics while minimizing solvent usage and
+energy consumption compared to conventional methods.
+The investigation into solvent polarity (water, ethanol, and 50% ethanol in water)
+and temperature (20 ◦C and 40 ◦C) directly addresses the physiochemical nature of the
+target molecules. As the major phenolic constituents in CS are known to be derivatives
+of chlorogenic acids (CGAs), which exhibit amphiphilic properties, the observation that
+the ethanol extract likely yielded the highest content of phenols (TPC) and flavonoids
+(TFC) is chemically sound. This optimal ethanolic solution provides a balanced polarity
+environment, effectively disrupting the matrix and solubilizing a broader spectrum of both
+lipophilic (e.g., certain flavonoids and volatile compounds) and hydrophilic (e.g., highly
+https://doi.org/10.3390/antiox15020172
+
+Antioxidants 2026, 15, 172
+15 of 22
+glycosylated phenolics) compounds. Water alone and its combination with ethanol may
+have limited efficacy due to the non-polar domains of the CS matrix. These findings are
+consistent with the broader literature on CS. For example, Costa et al. found that a 50:50
+hydroalcoholic solvent was a practical compromise to maximize antioxidant recovery in
+conventional solid–liquid extractions [46]. Likewise, several recent valorization studies
+report that hydroalcoholic and aqueous ultrasonic procedures permit high total recovery
+while remaining compatible with food applications [47].
+Similarly, the moderate elevation of temperature to 40 ◦C served to evaluate com-
+pound solubility and diffusion kinetics without risking the thermal degradation of sensitive
+phenolic molecules, such as certain flavanols or CGA isomers. An apparent decline in
+extractable free phenolics under slightly harsher conditions was indeed observed and
+is plausible because higher temperatures can both increase extraction kinetics and pro-
+mote (i) thermal degradation of free chlorogenic acids and other hydroxycinnamates, as
+well as (ii) polymerization or binding to melanoidins produced during roasting, which
+reduces Folin–Ciocalteu-reactive free phenolics, as previously demonstrated by Narita &
+Inouye [16]. Conversely, some high-temperature techniques (e.g., subcritical water and
+pressurized liquid extraction) can effectively solubilize bound or high-molecular-weight
+antioxidant species, resulting in high ORAC/DPPH responses; however, these techniques
+frequently yield different molecular profiles [16,48].
+With increasing temperature (40 ◦C), TPC decreased more sharply than TFC in ethanol
+extracts, suggesting thermal sensitivity of certain non-flavonoid polyphenols such as
+chlorogenic acids, which are known to degrade at elevated temperatures. Flavonoids, in
+contrast, appeared more stable under moderate heat, maintaining relatively consistent
+concentrations. This behavior may reflect structural differences: many flavonoids possess
+more rigid carbon ring frameworks that resist thermal decomposition better than esterified
+phenolic acids.
+The strong correlation expected between the determined TPC/TFC values and the
+observed antioxidant capacities across the three complementary assays (DPPH, TEAC,
+and FRAP) confirms the primary role of polyphenols in the extract’s biological function.
+These assays collectively assess both radical scavenging and reducing abilities, allowing a
+comprehensive comparison of solvent efficiency and thermal effects. Ethanol proved again
+to be the most effective solvent in extracting phenolic compounds with high antioxidant
+potential, followed by the 50% ethanol/water mixture and, lastly, water. This pattern was
+consistent across all assays, i.e., DPPH, TEAC, and FRAP, and aligns with previous reports
+highlighting the superior extraction efficiency of mid-polar solvents for polyphenols from
+coffee by-products [49]. The predominance of ethanol can be attributed to its intermediate
+polarity, which effectively solubilizes chlorogenic acids, caffeic acid derivatives, and other
+polyphenolic constituents characteristic of coffee residues [50].
+The discrepancy between high yield and low antioxidant capacity of the water extracts
+reflects the lower solubility of key polyphenols in purely aqueous media, where non-
+polar or weakly polar phenolic compounds are less efficiently extracted. The limited
+antioxidant activity of water extracts is consistent with prior findings for coffee silverskin
+and other coffee by-products [51]. While the hydroalcoholic mixture supports the well-
+documented synergistic effect of facilitating the extraction of both hydrophilic and lipophilic
+phenolic compounds, the resulting antioxidant effect was notably lower compared to pure
+ethanol [52].
+While increasing the temperature from 20 ◦C to 40 ◦C slightly enhanced the overall
+yield, the TPC, TFC, and the antioxidant capacity were all lower. This decline is likely
+due to the potential degradation of thermolabile antioxidants upon prolonged exposure
+to higher temperatures [53]. On the other hand, the influence of extraction time appeared
+https://doi.org/10.3390/antiox15020172
+
+Antioxidants 2026, 15, 172
+16 of 22
+modest in magnitude; although longer times sometimes yielded marginally better results,
+the increase was not significant enough to warrant the extended duration.
+The DPPH (radical scavenging, hydrogen atom transfer) and FRAP (reducing power,
+single electron transfer) assays interrogate different mechanistic pathways of antioxidant
+action. A high rating in all three assays suggests that the ethanol CS extract contains a
+complex mixture of compounds capable of acting through multiple mechanisms, providing
+superior, broad-spectrum protection compared to single-mechanism antioxidants, and it
+was thus chosen for the subsequent chemical and cellular characterization.
+The HPLC profile of the CS ethanolic extract demonstrated a rich phenolic composition.
+From a functional perspective, the quantitative data suggest that caffeine and tocopherol are
+the major contributors to total antioxidant capacity in this extract, although polyphenolic
+compounds such as hyperoside, quercetin, and chlorogenic acids likely play synergistic
+roles. Caffeine’s predominance is expected given its chemical stability and high solubility
+in ethanolic media. Its extraction behavior mirrors that observed in roasted coffee beans,
+where caffeine typically represents 1% to 2% of dry matter and is among the most efficiently
+recovered compounds during mild ethanol-assisted extraction [54]. α-Tocopherol (vitamin
+E) represents another key bioactive molecule. Its relatively late elution is consistent with its
+hydrophobic nature, suggesting its co-elution with non-polar lipid-soluble components.
+The presence of tocopherol in the silverskin matrix is consistent with reports by del Castillo
+et al., who found significant quantities of lipid-soluble antioxidants in roasted coffee by-
+products [55].
+Flavonoids were also prominent in the chromatographic profile.
+Hyperoside
+(quercetin-3-O-galactoside, 3.17 ± 0.10 µg/mg), quercetin (2.38 ± 0.17 µg/mg), and
+kaempferol (1.14 ± 0.07 µg/mg) were the most abundant. These compounds exhibit
+strong free radical scavenging activity due to their catechol moieties and conjugated double
+bonds, which facilitate electron transfer and metal chelation [56]. The detection of hypero-
+side is particularly relevant, as it has been previously identified in coffee pulp and husk
+but rarely quantified in silverskin.
+Among the phenolic acids, chlorogenic acid (0.37 ± 0.02 µg/mg) and neochlorogenic
+acid (0.15 ± 0.01 µg/mg), both hydroxycinnamate esters of quinic acid, are well-known
+for their potent antioxidant and metal-chelating properties [57]. The relatively low abun-
+dance observed here compared with raw coffee beans is likely due to thermal degradation
+during roasting, as silverskin is exposed to high temperatures (>200 ◦C) in the roasting
+drum. Nonetheless, their persistence indicates partial thermal stability and their con-
+tribution to the overall antioxidant potential of the extract. The co-detection of caffeic
+acid (0.08 ± 0.01 µg/mg) further supports this, as it may result from partial hydrolysis
+of chlorogenic acid esters. Additionally, the presence of rutin (0.82 ± 0.04 µg/mg) and
+p-coumaric, ferulic, and cinnamic acids (each <1 µg/mg) enriches the antioxidant profile
+through complementary redox mechanisms. Hydroxycinnamic acids such as trans-ferulic
+acid are known for their UV-absorbing and radical-stabilizing properties, suggesting poten-
+tial applications of silverskin extracts in cosmetic and food preservation formulations [58].
+The detection of isogentisin, a xanthone derivative, although below the quantification limit
+in this analysis, further supports the presence of minor antioxidant components typical of
+roasted coffee matrices.
+Several studies have emphasized the synergistic antioxidant mechanisms between
+phenolics and alkaloids in coffee by-products, wherein caffeine stabilizes free radicals and
+regenerates phenolic antioxidants [59]. The concurrent presence of multiple antioxidant
+classes—phenolic acids, flavonoids, xanthones, and lipophilic vitamins—may explain the
+robust antioxidant performance observed across all assays (DPPH, TEAC, FRAP) in the
+CS extracts. The relatively low concentrations of certain compounds (e.g., gallic acid and
+https://doi.org/10.3390/antiox15020172
+
+Antioxidants 2026, 15, 172
+17 of 22
+chlorogenic acid) compared to other coffee residues may reflect matrix effects and roasting-
+related transformations. During roasting, Maillard reaction products and melanoidins can
+bind phenolic acids, reducing their extractability but not necessarily their antioxidant poten-
+tial, as these complexes may still exhibit radical-scavenging properties [60,61]. Therefore,
+the quantified compounds represent only part of the total antioxidant matrix.
+The most abundant compound identified by GC-Ms was caffeine, accounting for
+nearly 44% of the total volatile composition, in perfect agreement with the HPLC data [49].
+The analysis also revealed compounds likely formed during the roasting process, such as
+melanoidins, which also possess significant antioxidant capacity, and potentially furan
+derivatives, which may contribute to the characteristic aroma profile. In addition, toco-
+pherols, which play a key role in scavenging lipid radicals and stabilizing unsaturated
+fatty acids [62], were also detected in the ethanolic extract. This finding corroborates
+earlier reports by Campos-Vega et al., who observed tocopherols among the lipid-soluble
+antioxidants in coffee residues and silverskin extracts [54].
+Phytosterols are known for their cholesterol-lowering effects and anti-inflammatory
+properties [63]. Their detection in CS indicates the potential nutritional and pharmaco-
+logical value of this by-product, extending its use beyond antioxidant supplementation
+to functional food formulation. The co-existence of tocopherols and phytosterols is note-
+worthy, as both act synergistically in lipid protection systems, enhancing the stability and
+bioefficacy of extracts [64].
+Phenolic derivatives typically arise from the degradation of lignin, chlorogenic acids,
+and other polyphenols during roasting [42]. Many of these phenolic derivatives, partic-
+ularly 2,4-di-tert-butylphenol, are known for their strong antioxidant and antimicrobial
+activity [43]. The presence of such compounds indicates that the alcoholic extract retains
+both the natural phenolic antioxidants and the thermally derived secondary products that
+may contribute to overall radical scavenging activity, emphasizing the potential valorization
+of CS as an ingredient in nutraceutical, cosmetic, and food formulations.
+When compared to the HPLC analysis of non-volatile compounds in the same extract, a
+complementary pattern emerges. While HPLC detected polar phenolic acids and flavonoids,
+GC-MS revealed more lipophilic and thermally stable molecules, e.g., tocopherols, sterols,
+and phenolic derivatives. This duality underscores the chemical heterogeneity of silverskin
+and supports the notion that its antioxidant potential arises from both hydrophilic and
+lipophilic molecules. Such findings agree with those of Bresciani et al., who reported that
+CS contains both classes of antioxidants, contributing to sustained radical inhibition across
+different polarity systems [65].
+The investigation into the cellular effects of the optimal CS extract shifts the study
+from chemical characterization to practical biological relevance. Several scientific studies
+have tested the biological activity and neuroprotective effect of CS extracts on neural
+and microglia models [66,67]. To the best of our knowledge, there are no published data
+addressing the biological effects on an in vitro model of Schwann cells. For these reasons,
+we decided to conduct a preliminary exploration in this sense. The MTT assay result,
+indicating “minimal cytotoxicity” and high cell viability, is paramount for the potential
+commercial application of the CS extract in food, cosmetic, or therapeutic contexts.
+Oxidative stress was then assessed at short time points (5, 15, 30, and 60 min) following
+exposure to the pro-oxidant agent due to biological and experimental considerations: ROS
+generation is a rapid and transient event, typically occurring within minutes or hours after
+the oxidative insult. Oxidative species are characterized by short half-lives and are quickly
+scavenged by intracellular antioxidant systems (e.g., glutathione, catalase, superoxide
+dismutase). Consequently, the primary cellular events triggered by oxidative stress—
+including DNA damage, mitochondrial dysfunction, and activation of redox-sensitive
+https://doi.org/10.3390/antiox15020172
+
+Antioxidants 2026, 15, 172
+18 of 22
+pathways (e.g., Nrf2, MAPK, caspases)—take place within the early phases of exposure.
+Moreover, short-term evaluation helps to avoid confounding effects associated with non-
+specific toxicity observed in prolonged exposures. The use of short exposure times also
+reflects the early events that characterize acute oxidative stress in neurodegenerative or
+demyelinating diseases, where Schwann cells are rapidly affected by toxic, inflammatory,
+or metabolic insults.
+The fact that the extract reduced the DCFDA fluorescence signal following an oxidative
+insult (induced by either H2O2 or LPS administration) confirms that the bioactive com-
+pounds are successfully internalized by the glial cells and remain functional in the complex
+intracellular environment. These results are consistent with those published by Nzekoue
+and colleagues, who demonstrated for the first time that CS extract exhibits neuroprotective
+activity against H2O2-induced oxidative damage, with methanol and ethanol/water (70:30)
+extracts effectively preserving cell viability and counteracting oxidative stress [31]. To
+determine whether the observed antioxidant activity was primarily attributable to the
+major component of the CS extract, comparative experiments were conducted using pure
+caffeine. The results demonstrated that a 100-fold higher concentration of caffeine than that
+found in the extract was required to achieve a comparable antioxidant effect. This finding
+highlights a significant synergistic contribution from other phytochemical constituents,
+which exert potent effects despite their relatively low abundance. These results are con-
+sistent with recent literature supporting the protective role of caffeine in the context of
+neurodegenerative diseases, both in neural cell and animal models, especially if combined
+with other antioxidant molecules [59,68–70].
+5. Conclusions
+This study evaluated different conditions, i.e., solvent, temperature, and time, for
+extracting bioactive molecules from CS residues from coffee production. Temperature and
+time were shown to only slightly affect the polyphenolic content. On the other hand, sol-
+vents influenced significantly the type of biomolecules extracted. To summarize, although
+the hydroalcoholic extraction (~50% ethanol) under mild conditions gave the highest yield,
+pure ethanol was the best solvent to obtain the most enriched polyphenolic fraction (high
+TPC per g extract). Considering that our future aim is to exploit that industrial waste for
+potential nutraceutical purposes, the ethanolic extract was then used, and to maintain the
+highest quality of extracted compounds, milder conditions (20 ◦C and 30 min) were kept.
+The findings of this study robustly establish CS, a principal leftover of the coffee roast-
+ing industry, as a viable and potent source of bioactive compounds, such as polyphenols,
+sterols, and vitamins. The overarching rationale for this investigation—the valorization
+of industrial waste into functional ingredients—is reinforced by the compelling chemical
+and biological data generated. The optimized procedure yielded an extract with potent,
+multi-mechanistic antioxidant activity, whose effects were directly supported by the chem-
+ical fingerprint (HPLC and GC-MS) and validated by superior safety and efficacy in a
+Schwann-like cellular model. However, for industrial scale-up, modern green technologies
+(e.g., PLE, SWE or supercritical CO2 with co-solvent) could be used to shorten times and
+improve yields, but they will change the phytochemical speciation and must be optimized
+to obtain the desired amount of polyphenols, vitamins, sterols, and alkaloids [47,48], and
+this will be the objective of a future study.
+Future work must also focus on the translational aspects. This includes conducting
+in vivo studies to confirm bioavailability and protective effects in animal models of oxida-
+tive stress-related diseases, defining the specific mechanisms of action (e.g., Nrf2 pathway
+modulation), and developing stable, high-quality formulations suitable for the food and
+nutraceutical market. Nevertheless, the findings here solidify CS’s position not merely
+https://doi.org/10.3390/antiox15020172
+
+Antioxidants 2026, 15, 172
+19 of 22
+as a waste product, but as a rich, untapped resource for bio-based pharmaceutical and
+nutritional ingredients.
+Supplementary Materials: The following supporting information can be downloaded at https:
+//www.mdpi.com/article/10.3390/antiox15020172/s1. Table S1: Yield, TPC, and TFC of the CS
+extracts obtained by different extraction conditions of solvent, temperature, and time; Figure S1:
+HPLC chromatogram of the CS ethanolic extract; Figure S2: GC-MS chromatogram of the CS ethano-
+lic extract.
+Author Contributions: Conceptualization, M.M. and A.R.; formal analysis, M.D., N.G., L.S., D.M.,
+F.C., M.M. and A.R.; investigation, M.D., N.G., L.S. and D.M.; resources, A.A. and A.Q.; writing—
+original draft preparation, M.D., N.G. and L.S.; writing—review and editing, M.D., N.G., L.S., D.M.,
+F.C., M.M. and A.R.; supervision, M.M. and A.R. All authors have read and agreed to the published
+version of the manuscript.
+Funding:
+This research was partially funded by the project “PON Ricerca e Innovazione
+2014–2020, Azione IV.6–Contratti di ricerca su tematiche Green”, DM 1062/2021, CUP grant number
+F85F21006190006.
+Institutional Review Board Statement: Not applicable.
+Informed Consent Statement: Not applicable.
+Data Availability Statement: The original contributions presented in this study are included in the
+article/Supplementary Material. Further inquiries can be directed to the corresponding author.
+Acknowledgments: The authors gratefully acknowledge the support provided under the research
+agreement between the Lecce Chamber of Commerce and the University of Salento.
+Conflicts of Interest: Authors Angela Anzilli and Antonio Quarta are employed by the company
+Quarta Caffè S.p.a. The remaining authors declare that the research was conducted in the absence of
+any commercial or financial relationships that could be construed as a potential conflict of interest.
+Abbreviations
+The following abbreviations are used in this manuscript:
+CS
+Coffee silverskin
+TPC
+Total phenolic content
+TFC
+Total flavonoid content
+DPPH
+2,2-Diphenyl-1-picrylhydrazyl
+TEAC
+Trolox equivalent antioxidant capacity
+FRAP
+Ferric reducing antioxidant power
+HPLC
+High-performance liquid chromatography
+GC-MS
+Gas chromatography-mass spectrometry
+DCFDA
+2′,7′-Dichlorofluorescein diacetate
+ROS
+Reactive oxygen species
+GAE
+Gallic acid equivalents
+TE
+Trolox equivalents
+AAE
+Ascorbic acid equivalents
+UAE
+Ultrasonic-assisted extraction
+PLE
+Pressurized liquid extraction
+SWE
+Subcritical water extraction
+https://doi.org/10.3390/antiox15020172
+
+Antioxidants 2026, 15, 172
+20 of 22
+References
+1.
+Lee, Y.G.; Cho, E.J.; Maskey, S.; Nguyen, D.T.; Bae, H.J. Value-Added Products from Coffee Waste: A Review. Molecules 2023, 28,
+3562. [CrossRef]
+2.
+Candela-Salvador, L.; Lucas-González, R.; Pérez-Álvarez, J.A.; Fernández-López, J.; Viuda-Martos, M. Characterization of Coffee
+Silverskin from Different Origins to Evaluate Its Potential as an Ingredient in Novel Food Products. Foods 2026, 15, 97. [CrossRef]
+[PubMed]
+3.
+Smyrnakis, G.; Stamoulis, G.; Palaiogiannis, D.; Chatzimitakos, T.; Athanasiadis, V.; Lalas, S.I.; Makris, D.P. Recovery of
+Polyphenolic Antioxidants from Coffee Silverskin Using Acid-Catalyzed Ethanol Organosolv Treatment. ChemEngineering 2023, 7,
+72. [CrossRef]
+4.
+Upadhyay, R.; Mohan Rao, L.J. An outlook on chlorogenic acids-occurrence, chemistry, technology, and biological activities. Crit.
+Rev. Food Sci. Nutr. 2013, 53, 968–984. [CrossRef] [PubMed]
+5.
+Santana-Gálvez, J.; Cisneros-Zevallos, L.; Jacobo-Velázquez, D.A. Chlorogenic Acid: Recent Advances on Its Dual Role as a Food
+Additive and a Nutraceutical against Metabolic Syndrome. Molecules 2017, 22, 358. [CrossRef]
+6.
+Lestari, W.; Hasballah, K.; Listiawan, M.Y.; Sofia, S. Coffee by-products as the source of antioxidants: A systematic review.
+F1000Research 2022, 11, 220. [CrossRef]
+7.
+Machado, M.; Ferreira, H.; Oliveira, M.; Alves, R.C. Coffee by-products: An underexplored source of prebiotic ingredients. Crit.
+Rev. Food Sci. Nutr. 2024, 64, 7181–7200. [CrossRef]
+8.
+Hernández-Varela, J.D.; Medina, D.I. Revalorization of Coffee Residues: Advances in the Development of Eco-Friendly Biobased
+Potential Food Packaging. Polymers 2023, 15, 2823. [CrossRef]
+9.
+de Mello, V.; de Mesquita Júnior, G.A.; Alvim, J.G.E.; Costa, J.C.D.; Vilela, F.M.P. Recent patent applications for coffee and coffee
+by-products as active ingredients in cosmetics. Int. J. Cosmet. Sci. 2023, 45, 267–287. [CrossRef]
+10.
+Oliveira, G.; Passos, C.P.; Ferreira, P.; Coimbra, M.A.; Gonçalves, I. Coffee By-Products and Their Suitability for Developing
+Active Food Packaging Materials. Foods 2021, 10, 683. [CrossRef]
+11.
+Regulation (EU) 2015/2283 of the European Parliament and of the Council of 25 November 2015 on novel foods, amending
+Regulation (EU) No 1169/2011 of the European Parliament and of the Council and repealing Regulation (EC) No 258/97 of the
+European Parliament and of the Council and Commission Regulation (EC) No 1852/2001 (Text with EEA relevance). Off. J. Eur.
+Union 2015, L327, 1–22. Available online: https://eur-lex.europa.eu/eli/reg/2015/2283/oj/eng (accessed on 23 December 2025).
+12.
+Pandey, K.B.; Rizvi, S.I. Plant polyphenols as dietary antioxidants in human health and disease. Oxid. Med. Cell. Longev. 2009, 2,
+270–278. [CrossRef] [PubMed]
+13.
+Iqbal, I.; Wilairatana, P.; Saqib, F.; Nasir, B.; Wahid, M.; Latif, M.F.; Iqbal, A.; Naz, R.; Mubarak, M.S. Plant Polyphenols and Their
+Potential Benefits on Cardiovascular Health: A Review. Molecules 2023, 28, 6403. [CrossRef] [PubMed]
+14.
+Santos-Buelga, C.; González-Paramás, A.M.; Oludemi, T.; Ayuda-Durán, B.; González-Manzano, S. Plant phenolics as functional
+food ingredients. Adv. Food Nutr. Res. 2019, 90, 183–257. [CrossRef] [PubMed]
+15.
+Martinengo, P.; Arunachalam, K.; Shi, C. Polyphenolic Antibacterials for Food Preservation: Review, Challenges, and Current
+Applications. Foods 2021, 10, 2469. [CrossRef]
+16.
+Narita, Y.; Inouye, K. High antioxidant activity of coffee silverskin extracts obtained by the treatment of coffee silverskin with
+subcritical water. Food Chem. 2012, 135, 943–949. [CrossRef]
+17.
+Guglielmetti, A.; Fernandez-Gomez, B.; Zeppa, G.; del Castillo, D. Nutritional Quality, Potential Health Promoting Properties and
+Sensory Perception of an Improved Gluten Free Bread Formulation Containing Inulin, Rice Protein and Bioactive Compounds
+Extracted from Coffee Byproducts. Pol. J. Food Nutr. Sci. 2019, 69, 157–166. [CrossRef]
+18.
+Singh, A.; Kukreti, R.; Saso, L.; Kukreti, S. Oxidative Stress: A Key Modulator in Neurodegenerative Diseases. Molecules 2019, 24,
+1583. [CrossRef]
+19.
+di Penta, A.; Moreno, B.; Reix, S.; Fernandez-Diez, B.; Villanueva, M.; Errea, O.; Escala, N.; Vandenbroeck, K.; Comella, J.X.;
+Villoslada, P. Oxidative stress and proinflammatory cytokines contribute to demyelination and axonal damage in a cerebellar
+culture model of neuroinflammation. PLoS ONE 2013, 8, e54722. [CrossRef]
+20.
+Li, J.; Wuliji, O.; Li, W.; Jiang, Z.G.; Ghanbari, H.A. Oxidative stress and neurodegenerative disorders. Int. J. Mol. Sci. 2013, 14,
+24438–24475. [CrossRef]
+21.
+Melo, A.; Monteiro, L.; Lima, R.M.; Oliveira, D.M.; Cerqueira, M.D.; El-Bachá, R.S. Oxidative stress in neurodegenerative diseases:
+Mechanisms and therapeutic perspectives. Oxid. Med. Cell. Longev. 2011, 2011, 467180. [CrossRef] [PubMed]
+22.
+Liu, Z.; Zhou, T.; Ziegler, A.C.; Dimitrion, P.; Zuo, L. Oxidative Stress in Neurodegenerative Diseases: From Molecular Mechanisms
+to Clinical Applications. Oxid. Med. Cell. Longev. 2017, 2017, 2525967. [CrossRef] [PubMed]
+23.
+Lv, W.; Deng, B.; Duan, W.; Li, Y.; Liu, Y.; Li, Z.; Xia, W.; Li, C. Schwann Cell Plasticity is Regulated by a Weakened Intrinsic
+Antioxidant Defense System in Acute Peripheral Nerve Injury. Neuroscience 2018, 382, 1–13. [CrossRef] [PubMed]
+24.
+Kim, M.; Kim, H.; Kim, D.; Kim, D.; Huh, Y.; Park, C.; Chung, H.J.; Jung, J.; Jeong, N.Y. Heme Oxygenase 1 in Schwann Cells
+Regulates Peripheral Nerve Degeneration Against Oxidative Stress. ASN Neuro 2019, 11, 1759091419838949. [CrossRef]
+https://doi.org/10.3390/antiox15020172
+
+Antioxidants 2026, 15, 172
+21 of 22
+25.
+Ighodaro, O.M.; Akinloye, O.A. First line defence antioxidants-superoxide dismutase (SOD), catalase (CAT) and glutathione
+peroxidase (GPX): Their fundamental role in the entire antioxidant defence grid. Alex. J. Med. 2018, 54, 287–293. [CrossRef]
+26.
+Correale, J.; Marrodan, M.; Ysrraelit, M.C. Mechanisms of Neurodegeneration and Axonal Dysfunction in Progressive Multiple
+Sclerosis. Biomedicines 2019, 7, 14. [CrossRef]
+27.
+Pluta, R.; Januszewski, S.; Czuczwar, S.J. Neuroinflammation in Post-Ischemic Neurodegeneration of the Brain: Friend, Foe, or
+Both? Int. J. Mol. Sci. 2021, 22, 4405. [CrossRef]
+28.
+Zengin, G.; Sinan, K.I.; Mahomoodally, M.F.; Angeloni, S.; Mustafa, A.M.; Vittori, S.; Maggi, F.; Caprioli, G. Chemical Composition,
+Antioxidant and Enzyme Inhibitory Properties of Different Extracts Obtained from Spent Coffee Ground and Coffee Silverskin.
+Foods 2020, 9, 713. [CrossRef]
+29.
+Singleton, V.L.; Rossi, J.A. Colorimetry of Total Phenolics with Phosphomolybdic-Phosphotungstic Acid Reagents. Am. J. Enol.
+Vitic. 1965, 16, 144–158. [CrossRef]
+30.
+Yan, Z.; Xie, L.; Li, M.; Yuan, M.; Tian, Y.; Sun, D.; Zhang, Y.; Niu, L. Phytochemical components and bioactivities of novel
+medicinal food—Peony roots. Food Res. Int. 2021, 140, 109902. [CrossRef]
+31.
+Nzekoue, F.K.; Angeloni, S.; Navarini, L.; Angeloni, C.; Freschi, M.; Hrelia, S.; Vitali, L.A.; Sagratini, G.; Vittori, S.; Caprioli, G.
+Coffee silverskin extracts: Quantification of 30 bioactive compounds by a new HPLC-MS/MS method and evaluation of their
+antioxidant and antibacterial activities. Food Res. Int. 2020, 133, 109128. [CrossRef] [PubMed]
+32.
+Mesías, M.; Navarro, M.; Gökmen, V.; Morales, F.J. Antiglycative effect of fruit and vegetable seed extracts: Inhibition of AGE
+formation and carbonyl-trapping abilities. J. Sci. Food Agric. 2013, 93, 2037–2044. [CrossRef] [PubMed]
+33.
+Fu, L.; Xu, B.-T.; Xu, X.-R.; Qin, X.-S.; Gan, R.-Y.; Li, H.-B. Antioxidant Capacities and Total Phenolic Contents of 56 Wild Fruits
+from South China. Molecules 2010, 15, 8602–8617. [CrossRef] [PubMed]
+34.
+Ragusa, A.; Centonze, C.; Grasso, M.E.; Latronico, M.F.; Mastrangelo, P.F.; Fanizzi, F.P.; Maffia, M. Composition and Statistical
+Analysis of Biophenols in Apulian Italian EVOOs. Foods 2017, 6, 90. [CrossRef]
+35.
+Ragusa, A.; Centonze, C.; Grasso, M.E.; Latronico, M.F.; Mastrangelo, P.F.; Sparascio, F.; Maffia, M. HPLC Analysis of Phenols in
+Negroamaro and Primitivo Red Wines from Salento. Foods 2019, 8, 45. [CrossRef]
+36.
+Ragusa, A.; Centonze, C.; Grasso, M.E.; Latronico, M.F.; Mastrangelo, P.F.; Sparascio, F.; Fanizzi, F.P.; Maffia, M. A Comparative
+Study of Phenols in Apulian Italian Wines. Foods 2017, 6, 24. [CrossRef]
+37.
+EEPA Method 8270D, Semi-volatile Organic Compounds by Gas Chromatography/Mass Spectrometry (GC/MS) Rev. 6. 2018.
+Available online: https://www.nemi.gov/methods/method_summary/4726/ (accessed on 22 December 2025).
+38.
+Pashkova, N.; Peterson, T.A.; Ptak, C.P.; Winistorfer, S.C.; Guerrero-Given, D.; Kamasawa, N.; Ahern, C.A.; Shy, M.E.; Piper,
+R.C. Disrupting the transmembrane domain interface between PMP22 and MPZ causes peripheral neuropathy. iScience 2024, 27,
+110989. [CrossRef]
+39.
+Terzi, A.; Storelli, E.; Bettini, S.; Sibillano, T.; Altamura, D.; Salvatore, L.; Madaghiele, M.; Romano, A.; Siliqi, D.; Ladisa, M.; et al.
+Effects of processing on structural, mechanical and biological properties of collagen-based substrates for regenerative medicine.
+Sci. Rep. 2018, 8, 1429. [CrossRef]
+40.
+Kim, H.; Xue, X. Detection of Total Reactive Oxygen Species in Adherent Cells by 2′,7′-Dichlorodihydrofluorescein Diacetate
+Staining. J. Vis. Exp. 2020, 160, 60682. [CrossRef]
+41.
+Dippong, T.; Dan, M.; Kovacs, M.H.; Kovacs, E.D.; Levei, E.A.; Cadar, O. Analysis of Volatile Compounds, Composition, and
+Thermal Behavior of Coffee Beans According to Variety and Roasting Intensity. Foods 2022, 11, 3146. [CrossRef]
+42.
+Li, R.; Fang, H.; Shen, J.; Jin, Y.; Zhao, Y.; Wang, R.; Fu, Y.; Tian, Y.; Yu, H.; Zhang, J. Curcumin Alleviates LPS-Induced Oxidative
+Stress, Inflammation and Apoptosis in Bovine Mammary Epithelial Cells via the NFE2L2 Signaling Pathway. Toxins 2021, 13, 208.
+[CrossRef] [PubMed]
+43.
+Dong, Z.; Yuan, Y. Accelerated inflammation and oxidative stress induced by LPS in acute lung injury: Inhibition by ST1926. Int.
+J. Mol. Med. 2018, 41, 3405–3421. [CrossRef]
+44.
+Qiu, Y.; Yang, X.; Wang, L.; Gao, K.; Jiang, Z. L-Arginine Inhibited Inflammatory Response and Oxidative Stress Induced by
+Lipopolysaccharide via Arginase-1 Signaling in IPEC-J2 Cells. Int. J. Mol. Sci. 2019, 20, 1800. [CrossRef]
+45.
+Li, W.; Liang, J.; Li, S.; Jiang, S.; Song, M.; Xu, S.; Wang, L.; Meng, H.; Zhai, D.; Tang, L.; et al. The CXCL12-CXCR4-NLRP3 axis
+promotes Schwann cell pyroptosis and sciatic nerve demyelination in rats. Clin. Exp. Immunol. 2023, 214, 219–234. [CrossRef]
+46.
+Costa, A.S.G.; Alves, R.C.; Vinha, A.F.; Barreira, S.V.P.; Nunes, M.A.; Cunha, L.M.; Oliveira, M.B.P.P. Optimization of antioxidants
+extraction from coffee silverskin, a roasting by-product, having in view a sustainable process. Ind. Crop. Prod. 2014, 53, 350–357.
+[CrossRef]
+47.
+Peixoto, J.A.B.; Andrade, N.; Machado, S.; Costa, A.S.G.; Puga, H.; Oliveira, M.; Martel, F.; Alves, R.C. Valorizing Coffee Silverskin
+Based on Its Phytochemicals and Antidiabetic Potential: From Lab to a Pilot Scale. Foods 2022, 11, 1671. [CrossRef]
+48.
+Perez-Vazquez, A.; Carpena, M.; Barciela, P.; Cassani, L.; Simal-Gandara, J.; Prieto, M.A. Pressurized Liquid Extraction for
+the Recovery of Bioactive Compounds from Seaweeds for Food Industry Application: A Review. Antioxidants 2023, 12, 612.
+[CrossRef]
+https://doi.org/10.3390/antiox15020172
+
+Antioxidants 2026, 15, 172
+22 of 22
+49.
+Ballesteros, L.F.; Teixeira, J.A.; Mussatto, S.I. Chemical, Functional, and Structural Properties of Spent Coffee Grounds and Coffee
+Silverskin. Food Bioprocess Technol. 2014, 7, 3493–3503. [CrossRef]
+50.
+Oliveira, M.E.A.S.; Ribeiro da Silva Lima, L.; Santos, M.C.B.; Ferrari Fonseca de Sales, N.; Ferreira, R.M.; Cameron, L.C.; Filho,
+J.M.C.; Bassinello, P.Z.; Wanderlei Piler de Carvalho, C.; Ferreira, M.S.L.; et al. Role of short germination and milling on physical
+properties, amino acid and metabolomic profiles of high amylose rice fractions. Food Res. Int. 2023, 174, 113556. [CrossRef]
+51.
+Iriondo-DeHond, A.; Aparicio García, N.; Fernandez-Gomez, B.; Guisantes-Batan, E.; Velázquez Escobar, F.; Blanch, G.P.; San
+Andres, M.I.; Sanchez-Fortun, S.; del Castillo, M.D. Validation of coffee by-products as novel food ingredients. Innov. Food Sci.
+Emerg. Technol. 2019, 51, 194–204. [CrossRef]
+52.
+Rodríguez De Luna, S.L.; Ramírez-Garza, R.E.; Serna Saldívar, S.O. Environmentally Friendly Methods for Flavonoid Extraction
+from Plant Material: Impact of Their Operating Conditions on Yield and Antioxidant Properties. Sci. World J. 2020, 2020, 6792069.
+[CrossRef]
+53.
+Ling, J.K.U.; Sam, J.H.; Jeevanandam, J.; Chan, Y.S.; Nandong, J. Thermal Degradation of Antioxidant Compounds: Effects of
+Parameters, Thermal Degradation Kinetics, and Formulation Strategies. Food Bioprocess Technol. 2022, 15, 1919–1935. [CrossRef]
+54.
+Campos-Vega, R.; Loarca-Piña, G.; Vergara-Castañeda, H.A.; Oomah, B.D. Spent coffee grounds: A review on current research
+and future prospects. Trends Food Sci. Technol. 2015, 45, 24–36. [CrossRef]
+55.
+del Castillo, M.D.; Ames, J.M.; Gordon, M.H. Effect of roasting on the antioxidant activity of coffee brews. J. Agric. Food Chem.
+2002, 50, 3698–3703. [CrossRef] [PubMed]
+56.
+Panche, A.N.; Diwan, A.D.; Chandra, S.R. Flavonoids: An overview. J. Nutr. Sci. 2016, 5, e47. [CrossRef]
+57.
+Farah, A.; Donangelo, C.M. Phenolic compounds in coffee. Braz. J. Plant Physiol. 2006, 18, 23–36. [CrossRef]
+58.
+Mesárošová, A.; Jurˇcaga, L.; Bobková, A.; Kroˇcko, M.; Demianová, A.; Poláková, K.; Lidiková, J.; Mendelová, A.; Švecová, T.;
+Baluch, M.; et al. Coffee Silverskin: Nontraditional natural antioxidant for the meat industry. Appl. Food Res. 2025, 5, 101185.
+[CrossRef]
+59.
+Heˇcimovi´c, I.; Belšˇcak-Cvitanovi´c, A.; Horži´c, D.; Komes, D. Comparative study of polyphenols and caffeine in different coffee
+varieties affected by the degree of roasting. Food Chem. 2011, 129, 991–1000. [CrossRef]
+60.
+Coelho, C.; Ribeiro, M.; Cruz, A.C.; Domingues, M.R.; Coimbra, M.A.; Bunzel, M.; Nunes, F.M. Nature of phenolic compounds in
+coffee melanoidins. J. Agric. Food Chem. 2014, 62, 7843–7853. [CrossRef]
+61.
+Perrone, D.; Farah, A.; Donangelo, C.M. Influence of coffee roasting on the incorporation of phenolic compounds into melanoidins
+and their relationship with antioxidant activity of the brew. J. Agric. Food Chem. 2012, 60, 4265–4275. [CrossRef]
+62.
+Faizan, M.; Alam, P.; Rajput, V.D.; Shareen; Kaur, K.; Faraz, A.; Minkina, T.; Maqbool Ahmed, S.; Rajpal, V.R.; Hayat, S. Potential
+role of tocopherol in protecting crop plants against abiotic stresses. Physiol. Mol. Biol. Plants 2023, 29, 1563–1575. [CrossRef]
+63.
+Kobyli´nska, Z.; Biesiadecki, M.; Kuna, E.; Galiniak, S.; Moło´n, M. Coffee as a Source of Antioxidants and an Elixir of Youth.
+Antioxidants 2025, 14, 285. [CrossRef]
+64.
+Poudel, P.; Petropoulos, S.A.; Di Gioia, F. Plant Tocopherols and Phytosterols and Their Bioactive Properties. In Natural Secondary
+Metabolites: From Nature, Through Science, to Industry; Carocho, M.R., Heleno, S.A., Barros, L., Eds.; Springer International
+Publishing: Cham, Switzerland, 2023; pp. 285–319.
+65.
+Bresciani, L.; Calani, L.; Bruni, R.; Brighenti, F.; Del Rio, D. Phenolic composition, caffeine content and antioxidant capacity of
+coffee silverskin. Food Res. Int. 2014, 61, 196–201. [CrossRef]
+66.
+Juan-García, A.; Caprioli, G.; Sagratini, G.; Mañes, J.; Juan, C. Coffee Silverskin and Spent Coffee Suitable as Neuroprotectors
+against Cell Death by Beauvericin and α-Zearalenol: Evaluating Strategies of Treatment. Toxins 2021, 13, 132. [CrossRef] [PubMed]
+67.
+Angeloni, S.; Freschi, M.; Marrazzo, P.; Hrelia, S.; Beghelli, D.; Juan-García, A.; Juan, C.; Caprioli, G.; Sagratini, G.; Angeloni, C.
+Antioxidant and Anti-Inflammatory Profiles of Spent Coffee Ground Extracts for the Treatment of Neurodegeneration. Oxid. Med.
+Cell. Longev. 2021, 2021, 6620913. [CrossRef] [PubMed]
+68.
+Kolahdouzan, M.; Hamadeh, M.J. The neuroprotective effects of caffeine in neurodegenerative diseases. CNS Neurosci. Ther. 2017,
+23, 272–290. [CrossRef] [PubMed]
+69.
+Epplen, A.S.C.; Rothöft, M.; Stahlke, S.; Theiss, C.; Matschke, V. Caffeine mitigates ROS accumulation and attenuates motor
+neuron degeneration in the wobbler mouse model of amyotrophic lateral sclerosis. Cell Commun. Signal. 2025, 23, 394. [CrossRef]
+70.
+Jia, H.; Fan, H.; Liang, J.; He, R. Caffeine improves hypoxia/reoxygenation induced neuronal cell injury through inhibiting
+cellular ferroptosis: An in vitro study. Neurol. Res. 2025, 47, 242–250. [CrossRef]
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual
+author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to
+people or property resulting from any ideas, methods, instructions or products referred to in the content.
+https://doi.org/10.3390/antiox15020172

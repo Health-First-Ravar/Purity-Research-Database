@@ -1,0 +1,878 @@
+Published:
+March 09, 2011
+r 2011 American Chemical Society
+3118
+dx.doi.org/10.1021/jf104868g | J. Agric. Food Chem. 2011, 59, 3118–3124
+ARTICLE
+pubs.acs.org/JAFC
+Furan Levels in Coffee As Influenced by Species, Roast Degree, and
+Brewing Procedures
+Adriana Pavesi Arisseto,* Eduardo Vicente, Mariana Soares Ueno, Silvia Amelia Verdiani Tfouni, and
+Maria Cecília De Figueiredo Toledo
+Institute of Food Technology, Food Science and Quality Center, Avenida Brasil 2880, P.O. Box 139, 13070-178 Campinas-SP, Brazil
+ABSTRACT: Brazilian green coﬀee beans of Coﬀea arabica and Coﬀea canephora species were roasted to light, medium, and dark
+roast degrees and analyzed in relation to furan content by using an in-house validated method based on gas chromatography coupled
+to mass spectrometry preceded by headspace solid-phase microextraction. Furan was not detected in green coﬀees, whereas levels
+between 911 and 5852 μg/kg were found in the roasted samples. Higher concentrations were found in Coﬀea canephora species and
+darker ground coﬀees. Some of the potential furan precursors were observed in signiﬁcant amounts in green coﬀee, especially
+sucrose and linoleic acid, but their concentrations could not be correlated to furan formation. Additionally, coﬀee brews were
+prepared from roasted ground coﬀees by using two diﬀerent procedures, and furan levels in the beverages varied from <10 to
+288 μg/kg. The factor that most inﬂuenced the furan content in coﬀee brew was the brewing procedure.
+KEYWORDS: furan, coﬀee, SPME-GC/MS, roasting, processing contaminant
+’INTRODUCTION
+Furan and its derivatives have long been known to occur in
+heat-treated foods such as coﬀee, canned meat, baked bread, and
+cooked chicken and to contribute to their sensory properties.1,2
+In 2004, the U.S. Food and Drug Administration (US FDA)
+showed the presence of furan in a number of foods that undergo
+heat treatment, including canned and jarred foods, with levels
+ranging from nondetectable to 174 μg/kg.3
+The occurrence of furan in commonly consumed foods raised
+for the ﬁrst time a concern on the potential risks to human health
+because furan is classiﬁed as a possible human carcinogen (group 2B)
+by the International Agency for Research on Cancer.4 A recent risk
+evaluation conducted by the Joint FAO/WHO Expert Committee
+onFoodAdditives(JECFA) hasconﬁrmedthattheexposuretofuran
+in the diet is a public health concern.5
+Several authors have investigated the furan content in foods,
+and data available inthe literature indicate that roastedcoﬀee contains
+the highest furan levels in comparison to other products.6-9 The
+highest level of furan was reported in roasted coﬀee beans with
+mean and maximum values of 3611 and 6407 μg/kg, respectively,
+while lower concentrations were found in ground and in instant
+coﬀee, with average levels of 1807 and 602 μg/kg, respectively.10
+Furan is present in coﬀee as part of the volatile aroma
+components generated during roasting.1 Although the exact
+mechanism of the reaction is not completely understood, the
+pathways proposed to explain the furan formation in foods is
+mainly based on the thermal degradation of sugars (alone or in
+the presence of amino acids), thermal degradation of certain
+amino acids, and thermal oxidation of ascorbic acid and poly-
+unsaturated fatty acids.11-13 However, it is still diﬃcult to deduce
+which components are involved in the furan formation in real
+foods because most published data are based on model studies.
+Although there have been several studies on furan content in
+roasted ground coﬀee and coﬀee brew, little information is available
+on the factors aﬀecting the formation of this contaminant during
+coﬀee roasting. Guenther et al.14 showed that furan levels in
+roasted coﬀee are correlated with the roast color, i.e. darker roast
+colors correspond to higher furan levels. However, the results did
+not indicate that furan formation potential signiﬁcantly varies
+when comparing roasted samples from C. arabica and C.
+canephora species.
+In relation to coﬀee brew, the increase in the temperature
+when pouring hot water into coﬀee powder to prepare the
+beverage results in signiﬁcant losses of furan by all of the usual
+brewing methods such as percolation, cafetiere, or ﬁltration.
+Therefore, coﬀee brew shows lower concentrations of furan than
+roasted ground coﬀee powder.7 Several authors have shown that
+the transfer rate of furan from ground coﬀee to coﬀee brew is
+mainly determined by the procedure used to prepare the
+beverage.6,8,14,15 Automatic coﬀee machines produce brews with
+higher levels of furan,because a higher ratio of coﬀee powder to
+water is used, giving a lower dilution factor, and because of the
+closed system favoring retention of furan. Much lower levels were
+produced by standard home coﬀee-making machines and by
+manual brewing. The inﬂuence of coﬀee species and roast degree
+on furan content in coﬀee brew has not been investigated.
+To contribute to a better understanding of the factors aﬀecting
+the formation of furan in coﬀee, the present research reports a
+preliminary attempt to identify the key components of the
+reaction by measuring the concentration of some of the sug-
+gested furan precursors (sugars, ascorbic acid, and polyunsatu-
+rated fatty acids) and by evaluating their potential to generate
+furan during roasting. This paper has also aimed to provide
+additional scientiﬁc information on the inﬂuence of species and
+roast degree on furan levels in roasted coﬀee and in coﬀee brew.
+Further data on furan content in coﬀee brew as aﬀected by the
+brewing procedure are also reported.
+Received:
+December 17, 2010
+Accepted:
+February 22, 2011
+Revised:
+February 17, 2011
+
+3119
+dx.doi.org/10.1021/jf104868g |J. Agric. Food Chem. 2011, 59, 3118–3124
+Journal of Agricultural and Food Chemistry
+ARTICLE
+’MATERIALS AND METHODS
+Standards and Chemicals. Furan and [2H4] furan (furan-d4)
+were obtained from Sigma-Aldrich (Sigma-Aldrich Corp., St. Louis, MO,
+USA) at purity higher than 98%. Glucose, fructose, sucrose, ascorbic
+acid, and the mixture of fatty acid methyl esters were also purchased from
+Sigma-Aldrich. All organic solvents (acetonitrile, methanol, petroleum
+ether, and hexane) were of HPLC grade and were acquired from Tedia
+(Tedia Company Inc., Fairfield, OH, USA) and Synth (Labsynth,
+Diadema, SP, Brazil). Water was purified by reverse osmosis (Gehaka,
+S~ao Paulo, SP, Brazil). All other chemicals used (potassium hexacyano-
+ferrate (II), zinc acetate, potassium dihydrogen phosphate, sodium
+hydroxide, ammonium chloride, and sulfuric acid) were of analytical
+grade and were purchased from Synth.
+Samples. Two coffee species cultivated in the region of Campinas
+SP, Brazil, were evaluated: Coffea arabica cv. Catuaí Amarelo IAC-62 and
+Coffea canephora cv. Apoat~a IAC-2258. Green coffee beans were
+obtained by the dry method, where coffee cherries were harvested, dried
+under the sun until they achieved 12% moisture content, and then the
+dried outer parts were mechanically removed.
+Roasting Experiments. Green coffee beans were roasted in a
+Probatino roaster (Probat, Emmerich am Rhein, Germany) with tem-
+peratures and times varying from 108 to 230 C and from 3 to 17 min,
+respectively, in order to obtain three roasting degrees for each species:
+light, medium, and dark. To evaluate the repeatability of the process, at
+least two replicates were performed for each degree. The batch size
+varied from 300 to 900 g of roasted coffee.
+The roast degree was determined by the Agtron/SCAA Roast Color
+Classiﬁcation System, using an E10-CP Agtron coﬀee roast analyzer
+(Agtron Inc., Reno, NV, USA). Samples were analyzed in triplicates. The
+Agtron disk numbers were correlated with the roasting degree as follows:
+nos. 75-95 (light), nos. 55-65 (medium), and nos. 25-45 (dark). For
+theC.arabicaspecies,twolight, fourmedium,andfourdarkroastedsamples
+(n = 10) were obtained, whereas for the C. canephora species, four light,
+two medium, and four dark roasted samples (n = 10) were obtained.
+Roasted beans were stored in aluminized valve bags at -18 C and
+ground immediately before the analysis and preparation of the bev-
+erages. Beans were prepared in a ﬁne grind employing a La Cimbali
+Special grinder (Gruppo Cimbali, Milan, Italy) using ring nut number 4.
+Preparation of Coffee Brews. The samples obtained in the
+roasting experiments were manually brewed using two different proce-
+dures. Filtered nonboiled coffee was prepared by letting 500 mL of water
+(92-96 C) drip onto 50 g of roasted ground coffee held in a paper
+filter. Filtered boiled coffee was prepared by mixing 500 mL of water
+(25 C) with a portion of 50 g of roasted ground coffee, heating the
+mixture until boiling, and filtering it in a paper filter.
+Determination of Sugars. Sugars (glucose, fructose, and sucrose)
+were determined by liquid chromatography with refractive index detec-
+tion (HPLC-RI) according to Burgner and Feinberg.16 The sugars were
+extracted from ground green coffee (5 g) with 50 mL of water during 2 h.
+Potassium hexacyanoferrate (II) 0.25 M and zinc acetate 1 M were
+added for extract clarification. Following filtration, the extract was
+injected into a Varian Pro Star 350 HPLC-RI system (Varian Inc., Palo
+Alto, CA, USA) equipped with a Rheodyne 7725i sample injector
+(Rheodyne, Cotati, CA, USA) with a 10 μL sample loop. The separation
+was performed on a Luna NH2 250 mm  4.6 mm, df 5 μm analytical
+column (Phenomenex Inc., Torrance, CA, USA) using a mixture of
+acetonitrile-water (80:20, v/v) as mobile phase at a flow rate of 1 mL/
+min at 40 C. The detector temperature was 40 C. Glucose, fructose,
+and sucrose were determined in green coffee, in duplicate.
+Determination of Ascorbic Acid. Ascorbic acid was determined
+by liquid chromatography with diode array detector (HPLC-DAD)
+according to Maeda et al.17 Ascorbic acid was extracted from ground
+green coffee (5 g) with 50 mL of acidic water (pH 3) during 15 min
+under agitation. Following filtration, the extract was injected into a
+Shimadzu SPD-M6A HPLC-DAD system (Shimadzu Corp., Tokyo,
+Japan) equipped with a Rheodyne 7725i sample injector (Rheodyne)
+with a 200 μL sample loop. The separation was performed on a
+Microsorb-MV 100-5 Amino 150 mm  4.6 mm, df 5 μm analytical
+column (Varian Inc.) using a mixture of KH2PO4 50 mM-acetonitrile
+(25:75, v/v) as mobile phase at a flow rate of 1 mL/min. The detection
+of ascorbic acid was carried out at the wavelength of 260 nm. Ascorbic
+acid was determined in green coffee, in duplicate.
+Composition of Fatty Acids. The composition of fatty acids was
+determined by gas chromatography with flame ionization detection
+(GC-FID) according to Horwitz18 and Hartman and Lago.19 The lipid
+fraction was extracted from ground green coffee (5 g) with 80 mL of
+petroleum ether, saponified with 6 mL of NaOH 2% in methanol, and
+esterified with 10 mL of a solution of NH4Cl and H2SO4 in methanol in
+order to obtain the fatty acid methyl esters. After a partition in 10 mL of
+hexane, the extract was injected into a Varian 3900 GC-FID system
+(Varian Inc.). Hydrogen was used as the carrier gas at a flow rate of
+30 mL/min in a constant pressure of 13.7 psi. The injector was operated
+at 270 C in the split mode with split ratio of 1:75. The separation was
+performed on a 100 m  0.25 mm, df 0.2 μm Chrompack CP-Sil 88
+capillary column (Varian Inc.) and the oven temperature program was:
+120 C (held for 5 min), 3 C/min to 220 C, 1 C/min to 235 C (held
+for 17 min). The detector temperature was 310 C. The composition of
+fatty acids was determined in green coffee, in duplicate.
+Determination of Furan. Furan content was determined by using
+a gas chromatography mass spectrometry method preceded by head-
+space solid-phase microextraction (HS-SPME-GC/MS). For roasted
+ground coffee, a portion of 0.25 g of homogeneous sample was weighed
+in a chilled 40 mL screw-cap glass vial fitted with a silicone-PTFE septum
+containing a 15 mm  5 mm PTFE-coated stir bar. A volume of 150 μL
+of furan-d4 working standard solution 2 μg/mL and 1 mL of water were
+added and the vial immediately closed. For green coffee and coffee brew,
+a portion of 1 g of homogeneous sample was weighed in the vial and 125
+μL of furan-d4 working standard solution 0.2 μg/mL was added. The
+SPME was carried out in a 75 μm carboxen-polydimethylsiloxane (CAR-
+PDMS) fiber (Supelco, Bellefonte, PA, USA) at 35 C for roasted
+ground coffee and 25 C for green coffee and coffee brew, during 30 min,
+under a constant magnetic agitation rate of 1200 rpm, approximately.
+Thermal desorption was carried out into a HP 6890 gas chromatog-
+raphy equipped with a MSD 5973 mass spectrometer (Agilent Tech-
+nologies, Palo Alto, CA, USA). Helium was used as the carrier gas at a
+ﬂow rate of 0.7 mL/min. The programmable temperature vaporizing
+(PTV) injector was operated in the splitless mode under the following
+temperature program: 40 C (held for 0.1 min), 700 C/min to 230 C
+(held until the end of the run). The separation was performed on a 60 m
+ 0.25 mm, df 0.25 μm HP-INNOWAX capillary column (Agilent
+Technologies) and the oven temperature program was: 30 C (held for
+0.1 min), 2 C/min to 40 C (held for 3 min), 12 C/min to 200 C
+(held for 2 min). The mass spectrometer was operated in positive
+electron impact ionization mode (þEI) with 70 eV of electron energy.
+Selected ion monitoring (SIM) was used for the detection of furan and
+furan-d4, using m/z 68/39/69 for furan and m/z 72/42 for furan-d4.
+Furan was determined in green coﬀee, roasted ground coﬀee, and coﬀee
+brew samples in duplicate.
+Statistical Analysis. Data were processed by analysis of variance
+one-way ANOVA and Tukey test for comparisons of means (Statistica
+5.5, Stat Soft Inc., Tulsa,OK, USA).Thechosen levelof significance was 0.05.
+The term significant is used to indicate differences for which p e 0.05.
+’RESULTS AND DISCUSSION
+Analytical Method for Furan Determination in Coffee
+Samples. The samples of green coffee and coffee brew were
+
+3120
+dx.doi.org/10.1021/jf104868g |J. Agric. Food Chem. 2011, 59, 3118–3124
+Journal of Agricultural and Food Chemistry
+ARTICLE
+analyzed by applying our previously optimized HS-SPME-GC/
+MS method for baby-foods,20 validated according to the guide-
+lines laid down by the Brazilian Institute of Metrology, Standar-
+dization, and Industrial Quality.21 This method showed
+satisfactory results within the linear range 0-100 μg/kg. Limits
+of detection (LOD) and quantitation (LOQ) were determined
+for green coffee and coffee brew by analyzing seven replicates of
+the matrix and calculated as 3- and 10-fold standard deviation,
+respectively. For green coffee, these limits were 0.2 and 0.8 μg/
+kg, and for coffee brew, these limits were 3 and 10 μg/kg,
+respectively.
+As roasted ground coﬀee contains much higher furan levels
+(up to 6000 μg/kg), it was noted that a reduction of at least 60-
+fold in the amount of the sample (from 1 to 0.02 g) would be
+necessary in order to obtain results within the linear range 0-100
+μg/kg. However, this reduction could increase the method
+uncertainty by taking into account the heterogeneity of the
+samples. Therefore, it was chosen to decrease the amount of
+the sample from 1 to 0.25 g, adjust the concentration of internal
+standard to 1200 μg/kg, and increase the range of the calibration
+curve to 0-9600 μg/kg. For that, the conditions of SPME were
+optimized in order to avoid the saturation of the ﬁber and loss of
+linearity.
+This method was then validated by using a sample of roasted
+coﬀee containing 1501 μg/kg, as no blank sample is available for
+this matrix. Good linearity over the range 0-9600 μg/kg was
+obtained (r2 = 0.992). A comparison between curves set on
+standard solutions and on matrix by applying the F-test and t-test
+revealed a nonsigniﬁcant matrix eﬀect. Recovery, repeatability,
+and within-laboratory reproducibility were evaluated by spiking
+the matrix with furan at 480, 1200, and 3600 μg/kg (seven
+replicates for each concentration level). Mean recoveries ranged
+from 76% to 101%, and coeﬃcients of variation ranged from
+1.7% to 7.1% for repeatability and from 6.2% to 13.8% for within-
+laboratory reproducibility. A typical chromatogram of a sample
+of roasted ground coﬀee is illustrated in Figure 1, showing that a
+good separation of furan from coextractives was achieved under
+the chromatographic conditions used.
+Chemical Composition and Furan Levels in Green Coffee.
+As the composition of green coffees depends on several factors,
+particularly species and cultivars, some of the chemical constitu-
+ents that may act as potential precursors for furan formation, i.e.
+sugars, ascorbic acid, and polyunsaturated fatty acids, were
+determined in the present paper in order to establish possible
+correlations with furan formed during roasting. The results are
+shown in Table 1.
+In relation to the investigated sugars, only sucrose and glucose
+were found in quantiﬁable amounts in green coﬀee. The con-
+centrations of both sugars were higher in Arabica than in Robusta
+species. Sucrose was the main carbohydrate in green coﬀee, with
+levels approximately 4- and 5-fold higher than glucose levels for
+Arabica and Robusta, respectively. These results are consistent
+with data reported in the literature by other authors.22,23
+Although ascorbic acid was not detected in the green coﬀee
+samples of the present study, levels between 3.08 and 3.37 mg/g
+have been reported in the literature for Arabica and Robusta
+species.24
+The lipid content of green coﬀee samples was 11.4 and 10.8 g/
+100 g for Arabica and Robusta species, respectively, which is in
+the range of 7-17 g/100 g reported by Speer and K€olling-
+Speer.25 It has been shown that palmitic and linoleic acids are the
+main fatty acids present in the coﬀee oil, whereas stearic, oleic,
+linolenic, and arachidic acids occur in lower proportions.25 In the
+analyzed samples, palmitic and linoleic acids ranged from 31.9 to
+35.5% and from 40.9 to 45.5% in relative composition, respec-
+tively, which is in accordance with the literature. Stearic, oleic,
+linolenic, arachidic, and behenic acids were also found in lower
+levels. Arabica contains the highest amounts for most of fatty
+acids, with the exception of palmitic and oleic acids, for which
+higher concentrations were observed in Robusta species. Martin
+et al.26 have also veriﬁed higher levels of oleic acid in Robusta
+samples.
+Furan was not detected in the analyzed green coﬀee samples.
+Zoller et al.8 have also not detected furan in green coﬀee, while
+Kuballa et al.6 reported only trace levels of the contaminant.
+Formation of Furan during Roasting. The results of furan
+levels in roasted coffee are shown in Table 2. While furan was not
+detected in green coffee, levels between 911 and 5852 μg/kg
+Figure 1. Chromatogram of a roasted ground coﬀee sample. Carrier
+gas: helium. Flow rate: 0.7 mL/min. Programmable temperature vapor-
+izing (PTV) injector: 40 C (held for 0.1 min), 700 C/min to 230 C
+(held until the end of the run). Mode: splitless. Column: 60 m  0.25
+mm, df 0.25 μm HP-INNOWAX. Oven: 30 C (held for 0.1 min), 2 C/
+min to 40 C (held for 3 min), 12 C/min to 200 C (held for 2 min).
+Mass spectrometer: positive electron impact ionization (70 eV).
+Table 1. Concentration of Sugars, Ascorbic Acid, and Fatty
+Acids in Arabica and Robusta Green Coﬀees (Wet Base)
+component
+Arabica
+Robusta
+Sugars (g/100 g)
+fructosea
+nd
+nd
+glucose
+1.8
+1.1
+sucrose
+7.4
+5.7
+Ascorbic Acid (mg/100 g)b
+nd
+nd
+Fatty Acid Composition (area %)
+C 16:0 (palmitic acid)
+31.9
+35.5
+C 18:0 (stearic acid)
+7.6
+7.0
+C 18:1 (oleic acid)
+8.7
+11.1
+C 18:2 (linoleic acid)
+45.0
+40.9
+C 18:3 (linolenic acid)
+3.2
+2.9
+C 20:0 (arachidic acid)
+1.6
+0.9
+C 22:0 (behenic acid)
+0.9
+0.5
+a nd = not detected; LOD = 0.2 g/100 g. b nd = not detected; LOD = 0.5
+mg/100 g.
+
+3121
+dx.doi.org/10.1021/jf104868g |J. Agric. Food Chem. 2011, 59, 3118–3124
+Journal of Agricultural and Food Chemistry
+ARTICLE
+were found in roasted samples. This range is in accordance to
+data reported in the literature.6,8,10,14
+Some of the potential precursors of furan were found in
+signiﬁcant amounts in green coﬀee, specially sucrose and linoleic
+acid, which could lead to the formation of the contaminant
+during the roasting process. In simple model systems, the relative
+eﬃciency of furan formation from degradation of sugars under
+pyrolytic conditions was D-erythrose > D-ribose > D-sucrose > D-
+glucose > D-fructose.11 In relation to fatty acids, it has been
+observed that only polyunsaturated fatty acids such as linoleic
+and linolenic acids can generate furan upon heating, and lipids
+containing three double bonds such as linolenic acid formed
+more furan than lipids containing two double bonds such as
+linoleic acid.12,13 On the other hand, although ascorbic acid and
+its derivatives have been shown to have the highest potential to
+form furan in model systems,11,13 ascorbic acid does not seem an
+important contributor for furan formation in roasted coﬀee
+because it could not be detected in the green coﬀee samples.
+Similar conclusions were drawn by Senyuva and G€okmen27 in a
+study on furan formation in hazelnuts. Thus, the results of the
+present work suggest that sucrose, glucose, linoleic, and lino-
+lenic acids could act as potential precursors for furan formation
+in roasted coﬀee.
+Figure 2 shows the average furan levels for the species and
+roast degrees evaluated. Furan concentrations were signiﬁcantly
+higher in Robusta within each roast degree. These results are in
+discordance to those reported by Guenther et al.14 that did not
+observe a diﬀerence among coﬀee samples of Arabica and
+Robusta species from diﬀerent origins and roasted at constant
+times. It should be noted that little information on the inﬂuence
+of species on furan formation in coﬀee is available in the literature
+and a larger number of Arabica and Robusta roasted samples
+should be evaluate in order to draw more reliable conclusions.
+The higher levels of furan in Robusta samples could not be
+correlated with any potential precursor measured in this work
+because the concentrations of glucose, sucrose, linoleic, and
+linolenic acids were higher in Arabica than in Robusta samples.
+It is still diﬃcult to deduce which components are the key
+reactants that could contribute to relatively higher furan levels
+in some foods. Moreover, it should be noted that other factors
+might also be involved in the mechanism of furan formation in
+foods, such as pH. An increase in the levels of furan generated
+from ascorbic acid and sucrose solutions was observed at a lower
+pH, whereas from glucose solution and linoleic acid emulsion,
+the formation of furan was favored at neutral pH.28,29
+Other potential precursors of furan suggested in the literature are
+aminoacids.11Someaminoacidssuchasthreonineandalaninewere
+shown to contribute to furan formation in the presence of reducing
+sugars, while serine and cysteine may generate furan in the absence
+of reducing sugars. Although these components were not investi-
+gated here, data from the literature indicate that most of the amino
+acids in green coﬀee occur at higher concentrations in Robusta
+beans, including threonine and alanine.23 The possible correlation
+between the concentration of amino acids and levels of furan in
+roasted coﬀee should be further investigated.
+In relation to roast degree, the results indicate that furan
+concentrations signiﬁcantly increased with the intensity of
+roasting for both species. Guenther et al.14 have also observed
+that darker roast colors had a tendency to result in higher levels of
+furan in coﬀee. Figure 3 shows that a signiﬁcant linear correlation
+Table 2. Furan Levels in Roasted Ground Coﬀee
+species
+Agtron disk
+number
+roast degree
+furan ( SD
+(μg/kg)a
+Arabica
+95
+light
+1373 ( 101
+Arabica
+95
+light
+985 ( 105
+Arabica
+65
+medium
+3316 ( 29
+Arabica
+65
+medium
+3226 ( 355
+Arabica
+55
+medium
+3410 ( 230
+Arabica
+55
+medium
+3631 ( 68
+Arabica
+45
+dark
+3748 ( 84
+Arabica
+45
+dark
+4345 ( 297
+Arabica
+45
+dark
+3809 ( 42
+Arabica
+35
+dark
+3262 ( 256
+Robusta
+95
+light
+2332 ( 71
+Robusta
+95
+light
+1722 ( 16
+Robusta
+85
+light
+2573 ( 100
+Robusta
+85
+light
+2315 ( 429
+Robusta
+65
+medium
+3505 ( 383
+Robusta
+55
+medium
+5468 ( 173
+Robusta
+45
+dark
+5169 ( 119
+Robusta
+45
+dark
+4859 ( 82
+Robusta
+45
+dark
+5697 ( 218
+Robusta
+45
+dark
+5580 ( 288
+a Average of two replicates; SD = standard deviation.
+Figure 2. Mean furan levels in roasted coﬀee according to species and
+roast degree. Diﬀerent capital letters indicate statistic diﬀerence between
+species within a same roast degree. Diﬀerent small letters indicate
+statistic diﬀerence between roast degrees within a same species.
+Figure 3. Correlation between furan levels and roast degree for roasted
+ground coﬀee.
+
+3122
+dx.doi.org/10.1021/jf104868g |J. Agric. Food Chem. 2011, 59, 3118–3124
+Journal of Agricultural and Food Chemistry
+ARTICLE
+was found between furan levels and roast degree (R2 = 0.6885,
+p < 0.01).
+Furan Levels in Coffee Brew. According to the Brazilian
+Association of Coffee Industries (ABIC), the consumption of
+roasted coffee in Brazil was 4.65 kg per capita in 2009, which
+represents ca. of 78 L of coffee brew per inhabitant.30 The most
+consumed type of beverage is the filtered coffee, representing
+91% of the total coffee consumption. Other types such as instant
+coffee, cappuccino, espresso, and decaffeinated coffee accounts
+for 5.2, 1.9, 1.4, and 0.5%, respectively.31
+Considering the signiﬁcant consumption of ﬁltered coﬀee in
+Brazil, two diﬀerent procedures used to prepare this beverage
+were evaluated in the present work: ﬁltered nonboiled coﬀee, for
+which hot water was left to drip onto roasted ground coﬀee held
+in a paper ﬁlter, and ﬁltered boiled coﬀee, for which a mixture of
+water and roasted ground coﬀee was boiled and then ﬁltered in a
+paper ﬁlter. The furan levels in coﬀee brews varied from <10 to
+288 μg/kg (Table 3), which is in accordance to data reported in
+the literature.6,8,10,32,33
+The reduction of furan levels during the preparation of the
+beverages ranged from 50% to 98% considering the ratio of 50 g
+of powder and 500 mL of water (Table 3). These results are in
+agreement with data reported in previous studies, which have
+shown reductions between 11% and 91% on furan content in
+ﬁltered coﬀee.6,14
+The average furan levels for brewing procedures, species, and
+roast degree are shown in Figure 4. The brewing process has been
+considered one of the most important factors for the furan levels
+found in coﬀee brew.6,8 In the present study, with exception of
+Arabica/light roast degree, most of the beverages made by
+ﬁltering nonboiled coﬀee showed signiﬁcantly higher furan levels
+than beverages made by ﬁltering boiled coﬀee. This could be due
+to a higher furan volatilization when the ground coﬀee is boiled
+with the water before ﬁltration, resulting in a higher % of furan
+reduction in these beverages (Table 3).
+The inﬂuence of coﬀee species was not statistically signiﬁcant
+for most of the samples, with the exception of beverages of light
+roast degree/ﬁltered nonboiled procedure, for which Robusta
+presented
+signiﬁcantly
+higher
+furan
+levels
+than
+Arabica
+(Figure 4). According to Van Lancker et al.,34 the retention of
+furan in coﬀee brew was mainly caused by the lipophilic fraction
+of the matrix, indicating that factors other than the brewing
+procedure may inﬂuence the furan content in the beverages such
+as the food composition. Although the lipid content of coﬀee
+brews was not investigated here, data from the literature indicate
+that ﬁltered beverages made from Arabica coﬀee species contain
+more lipids than those made from Robusta.35 Taking into
+account this observation, it could be suggested that the diﬀerence
+on furan levels between coﬀee species initially found in roasted
+ground coﬀee has become not signiﬁcant in coﬀee brew due to a
+higher retention of furan by lipids in Arabica samples.
+In relation to the roast degree, diﬀerent results were observed
+when considering each brewing procedure. For ﬁltered non-
+boiled samples, a trend of higher furan levels in beverages made
+from darker roasted coﬀee could be veriﬁed for both species,
+although a signiﬁcant diﬀerence between light, medium, and dark
+degrees have been observed only for Arabica (Figure 4a). On the
+other hand, no signiﬁcant diﬀerence between roast degree was
+observed for ﬁltered boiled coﬀee and no trend of higher furan
+levels in beverages made from darker roasted coﬀee could be seen
+in these samples (Figure 4b). The presented results suggested
+that a linear positive correlation between furan content in roasted
+ground coﬀee and in coﬀee brew is dependent on the brewing
+procedure.
+In conclusion, the present paper describes the inﬂuence of
+some factors on the formation of furan during roasting of coﬀee
+Table 3. Furan Levels in Coﬀee Brews (% of Reduction Is Referred to the Ground Coﬀee)a
+ﬁltered nonboiled coﬀee
+ﬁltered boiled coﬀee
+roasted coﬀee
+furan ( SD (μg/kg)b
+% reduction
+furan ( SD (μg/kg)b
+% reduction
+Arabica, light
+30 ( 2
+78
+24 ( 1
+83
+Arabica, light
+19 ( 1
+81
+<10
+95
+Arabica, medium
+67 ( 14
+80
+81 ( 1
+76
+Arabica, medium
+82 ( 1
+75
+16 ( 1
+95
+Arabica, medium
+129 ( 1
+62
+19 ( 1
+94
+Arabica, medium
+104 ( 1
+71
+16 ( 1
+96
+Arabica, dark
+94 ( 1
+75
+23 ( 8
+94
+Arabica, dark
+149 ( 4
+66
+58 ( 2
+87
+Arabica, dark
+170 ( 12
+55
+Arabica, dark
+115 ( 9
+65
+30 ( 5
+91
+Robusta, light
+55 ( 4
+76
+48 ( 0
+79
+Robusta, light
+39 ( 4
+77
+48 ( 2
+72
+Robusta, light
+125 ( 1
+51
+<10
+98
+Robusta, light
+101 ( 9
+56
+39 ( 1
+83
+Robusta, medium
+61 ( 2
+83
+49 ( 1
+86
+Robusta, medium
+171 ( 7
+69
+12 ( 1
+98
+Robusta, dark
+82 ( 3
+84
+42 ( 1
+92
+Robusta, dark
+62 ( 9
+87
+28 ( 2
+94
+Robusta, dark
+112 ( 6
+80
+Robusta, dark
+279 ( 13
+50
+21 ( 1
+96
+a LOQ = 10 μg/kg (values below LOQ were considered as 1/2 LOQ). b Average of two replicates; SD = standard deviation.
+
+3123
+dx.doi.org/10.1021/jf104868g |J. Agric. Food Chem. 2011, 59, 3118–3124
+Journal of Agricultural and Food Chemistry
+ARTICLE
+and on its transfer to beverages. In roasted ground coﬀee, furan
+levels were aﬀected by species and roast degree, with higher
+concentrations in Robusta and darker samples. Although some
+potential precursors of furan were found in signiﬁcant amounts in
+green coﬀee, no correlation could be established considering the
+diﬀerences between species. In coﬀee brew, the factor that most
+inﬂuenced the furan content was the brewing procedure. Lower
+levels of furan can be obtained during the preparation of
+beverages when the ground coﬀee is boiled with water before
+ﬁltration.
+As coﬀee brew has been considered the most important
+contributor to furan exposure in the diet,32,36 it is very important
+to know the levels of furan in the ﬁnal ready-to-drink beverage,
+the type of preparation, and the brew recipe in order to reliably
+estimate the daily exposure to furan from coﬀee and deﬁne
+potential strategies to reduce its intake. Although reductions of
+up to 98% could be achieved during the brewing process, the
+remaining levels of furan in the beverages may be still relevant to
+furan exposure due to the high consumption of coﬀee.
+There is currently no means to reduce furan levels in roasted
+coﬀee by changing the heating conditions of roasting without
+signiﬁcantly impacting on the organoleptic properties of the
+product. Moreover, as the exact mechanism of furan formation
+and the key reactants are not completely understood, no
+measures can be taken in relation to the reduction of furan
+precursors as mitigation strategy. Finally, it should be noted that
+the management of agronomic and industrial parameters,
+whether it is possible, could not be applied for all types of
+beverages because it was veriﬁed that the correlation between
+furan levels found in roasted ground coﬀee and in coﬀee brew is
+dependent on the brewing procedure.
+’AUTHOR INFORMATION
+Corresponding Author
+*Phone: þ55 19 37431772. Fax: þ55 19 32424585. E-mail:
+adriana.arisseto@gmail.com.
+Funding Sources
+Scholarship and ﬁnancial support were provided by FAPESP
+(proc. 2008/50095-0) and CNPq (proc. 474267/2008-3 and
+proc. 578381/2008-7).
+’ACKNOWLEDGMENT
+We thank Katia Cipolli, Camila Teles, and Larissa Carreiro for
+the roasting experiments, coﬀee classiﬁcation, and preparation of
+coﬀee brews, as well as Sueli Baggio and Marta G. da Silva for the
+chemical composition of green coﬀees.
+’REFERENCES
+(1) Merritt, C.; Bazinet, M. L.; Sullivan, J. H.; Robertson, D. H. Mass
+spectrometric determination of the volatile components from ground
+coﬀee. J. Agric. Food Chem. 1963, 11, 152–155.
+(2) Maga, J. A. Furans in foods. Crit. Rev. Food Sci. Nutr. 1979,
+11, 355–400.
+(3) US FDA. Exploratory Data on Furan in Food—individual Food
+Products; United States Food and Drug Administration: Washington, DC,
+2004;http://www.fda.gov/Food/FoodSafety/FoodContaminantsAdultera-
+tion/ChemicalContaminants/Furan/UCM078439(accessed27Oct2010).
+(4) IARC. Furan. In: IARC Monographs on the Evaluation of Carcino-
+genic Risks of Chemicals to Humans; International Agency for Research on
+Cancer: Lyon, 1995; Vol. 63, http://www.inchem.org/documents/iarc/
+vol63/furan.html. (accessed 27 Oct 2010).
+(5) FAO/WHO. Summary and Conclusions of the 72nd JECFA
+Meeting; Food and Agriculture Organization/World Health Organiza-
+tion: Geneva, 2010; http://www.who.int/ipcs/food/jecfa/summaries/
+en/index.html (accessed 27 Oct 2010).
+(6) Kuballa, T.; Stefan, S.; Nina, S. Furan concentrations in coﬀee
+and coﬀee beverages. Dtsch. Lebensm.-Rundsch. 2005, 101, 229–235.
+(7) Crews, C.; Castle, L. A review of the occurrence, formation and
+analysis of furan in heat-processed foods. Trends Food Sci. Technol. 2007,
+18, 365–372.
+(8) Zoller, O.; Sager, F.; Reinhard, H. Furan in food: headspace
+method and product survey. Food Addit. Contam. 2007, 24, 91–107.
+(9) Kim, T.-K.; Lee, Y.-K.; Kim, S.; Park, Y. S.; Lee, K. G. Furan in
+commercially processed foods: four-year ﬁeld monitoring and risk
+assessment study in Korea. J. Toxicol. Environ. Health, Part A 2009,
+72, 1304–1310.
+(10) EFSA. Update of Results on the Monitoring of Furan Levels in
+Food; European Food Safety Authority: Parma, Italy, 2010; http://www.
+efsa.europa.eu/en/scdocs/scdoc/1702.htm (accessed 27 Oct 2010).
+(11) Locas, C. P.; Yaylayan, V. A. Origin and mechanistic pathways
+of formation of the parent furan—a food toxicant. J. Agric. Food Chem.
+2004, 52, 6830–6836.
+(12) Becalski, A.; Seaman, S. Furan precursors in food: a model study
+and development of a simple headspace method for determination of
+furan. J. AOAC Int. 2005, 88, 102–106.
+(13) M€ark, J.; Pollien, P.; Lindinger, C.; Blank, I.; Mark, T. Quantita-
+tion of furan and methylfuran formed in diﬀerent precursor systems by
+proton transfer reaction mass spectrometry. J. Agric. Food Chem. 2006,
+54, 2786–2793.
+(14) Guenther, H.; Hoenicke, K.; Biesterveld, S.; Gerhard-Rieben,
+E.; Lantz, I. Furan in coﬀee: pilot studies on formation during roasting
+and losses during production steps and consumer handling. Food Addit.
+Contam. 2010, 27, 283–290.
+(15) La Pera, L.; Liberatore, A.; Avellone, G.; Fanara, S.; Dugo, G.;
+Agozzino, P. Analysis of furan in coﬀee of diﬀerent provenance by
+Figure 4. Mean furan levels in coﬀee brew according to species and roast
+degree: (a) ﬁltered nonboiled coﬀee and (b) ﬁltered boiled coﬀee. Diﬀerent
+capital letters indicate statistic diﬀerence between species within a same
+roast degree. Diﬀerent small letters indicate statistic diﬀerence between
+roast degrees within a same species. * Statistic diﬀerence between brewing
+procedures within a same species and roast degree.
+
+3124
+dx.doi.org/10.1021/jf104868g |J. Agric. Food Chem. 2011, 59, 3118–3124
+Journal of Agricultural and Food Chemistry
+ARTICLE
+headspace solid-phase microextraction gas chromatography-mass spec-
+trometry: eﬀect of brewing procedures. Food Addit. Contam. 2009,
+26, 786–792.
+(16) Burgner, E.; Feinberg, M. Determination of mono- and dis-
+accharides in foods by interlaboratory study: quantitation of bias
+components
+for
+liquid
+chromatography.
+J.
+AOAC
+Int.
+1992,
+75, 443–464.
+(17) Maeda, Y.; Yamamoto, M.; Owada, K.; Sato, S.; Masui, T.
+Simultaneous liquid chromatographic determination of water-soluble
+vitamins, caﬀeine, and preservative in oral liquid tonics. J. AOAC 1989,
+72, 244–247.
+(18) Horwitz, W. Oﬃcial Methods of Analysis of the Association of
+Oﬃcial Analytical Chemists, 18th ed.; AOAC: Gaithersburg, MD, 2006.
+(19) Hartman, L.; Lago, R. C. A. Rapid preparation of fatty acid
+methyl esters from lipids. Lab. Pract. 1973, 22, 475–481.
+(20) Arisseto, A. P.; Vicente, E.; Toledo, M. C. F. Determination of
+furan levels in commercial samples of baby-food from Brazil and
+estimated exposure. Food Addit. Contam. 2010, 27, 1051–1059.
+(21) INMETRO. Orientac-~ao Sobre Validac-~ao de Metodos de Ensaios
+Químicos DOQ-CGCRE-08; Instituto Nacional de Metrologia, Normal-
+izac-~ao e Qualidade Industrial: Rio de Janeiro, 2007; review no. 2.
+(22) Flament, I. Green coﬀee: the nonvolatile constituents and their
+contribution as precursors of the ﬂavor of roasted coﬀee. In Coﬀee Flavor
+Chemistry; Flament, I., Ed.; John Wiley and Sons: West Sussex, England,
+2002; pp 424.
+(23) Murkovic, M.; Derler, K. Analysis of amino acids and carbohy-
+drates in green coﬀee. J. Biochem. Biophys. Methods 2006, 69, 25–32.
+(24) Alcazar, A.; Fernandez-Caceres, P. L.; Martín, M. J.; Pablos, F.;
+Gonzales, A. G. Ion chromatographic determination of some organic acids,
+chloride and phosphate in coﬀee and tea. Talanta 2003, 61, 95–101.
+(25) Speer, K.; K€olling-Speer, I. The lipid fraction of the coﬀee bean.
+Braz. J. Plant Physiol. 2006, 18, 201–216.
+(26) Martin, M. J.; Pablos, F.; Gonzales, A. G.; Valdenebro, M. S.;
+Leon-Camacho, M. Fatty acid proﬁles as discriminant parameters for
+coﬀee varieties diﬀerentiation. Talanta 2001, 54, 291–297.
+(27) S-enyuva, H. Z.; G€okmen, V. Potential of furan formation in
+hazelnuts during heat treatment. Food Addit. Contam. 2007, 24, 136–142.
+(28) Limacher, A.; Kerler, J.; Conde-Petit, B.; Blank, I. Formation of
+furan and methylfuran from ascorbic acid in model systems and food.
+Food Addit. Contam. 2007, 24, 122–135.
+(29) Limacher, A.; Kerler, J.; Davidek, T.; Schmalzried, F.; Blank, I.
+Formation of furan and methylfuran by Maillard-type reactions in model
+systems and food. J. Agric. Food Chem. 2008, 56, 3639–3647.
+(30) ABIC. Indicadores da Industria de Cafe no Brasil em 2009;
+Brazilian Association of Coﬀee Industries: Rio de Janeiro, 2010;
+http://www.abic.com.br/estatisticas.html (accessed 27 Oct 2010).
+(31) Arruda, A. C.; Minim, V. P. R.; Ferreira, M. A. M.; Minim, L. A.;
+Silva, N. M.; Soares, C. F. Coﬀee consumption and nonconsumption
+justiﬁcations and motivations. Cienc. Tecnol. Aliment.(Campinas, Braz.)
+2009, 29, 754–763.
+(32) Morehouse, K. M.; Nyman, P. J.; Mc Neal, T. P.; Dinovi, M. J.;
+Perfetti, G. A. Survey of furan in heat processed foods by headspace gas
+chromatography/mass spectrometry and estimated adult exposure. Food
+Addit. Contam. 2008, 25, 259–264.
+(33) Crews, C.; Roberts, D.; Lauryssen, S.; Kramer, G. Survey of
+furan in foods and coﬀees from ﬁve European Union countries. Food
+Addit. Contam. 2009, 2, 95–98.
+(34) Van Lancker, F.; Adams, A.; Owczarek, A.; De Meulenaer, B.;
+De Kimpe, N. Impact of various food ingredients on the retention of
+furan in foods. Mol. Nutr. Food Res. 2009, 53, 1505–1511.
+(35) Ratnayake, W. M. N.; Hollywood, R.; O’Grady, E.; Stavric, B.
+Lipid content and composition of coﬀee brews prepared by diﬀerent
+methods. Food Chem. Toxicol. 1993, 31, 263–269.
+(36) EFSA. Report of the CONTAM Panel on Provisional Findings on
+Furan in Food; European Food Safety Authority: Parma, Italy, 2004; http://
+www.efsa.europa.eu/en/scdocs/scdoc/137.htm (accessed 27 Oct 2010).

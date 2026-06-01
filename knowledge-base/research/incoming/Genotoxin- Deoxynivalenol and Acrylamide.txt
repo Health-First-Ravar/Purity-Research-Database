@@ -1,0 +1,915 @@
+Genotoxic interaction between deoxynivalenol and acrylamide
+Chlo´e Huertas a, Aboubacar B. Coulibaly a, Delphine Payros a, Marie Penary b, Sylvie Puel a,  
+Claire Naylies a, Ga¨elle Payros a, Yannick Lippi a, Isabelle P. Oswald a, Gladys Mirey a,  
+Julien Vignard a,*
+a Toxalim, Universit´e de Toulouse, INRAE, ENVT, EI-Purpan, Toulouse, France
+b IRSD, Universit´e de Toulouse, INSERM, INRAE, ENVT, Univ Toulouse III Paul Sabatier (UPS), Toulouse, France
+A R T I C L E  I N F O
+Keywords:
+Deoxynivalenol
+Acrylamide
+Genotoxicity
+Toxic interaction
+Transcriptomic
+Chromosomal instability
+A B S T R A C T
+Food safety represents a major global concern. Humans and animals are exposed to a broad spectrum of food 
+contaminants, which implies probable cocktail effects. Around 80 % of the population is exposed to deoxy­
+nivalenol (DON), one of the most widespread mycotoxins mainly found in cereal products. DON has previously 
+been shown to exacerbate DNA damage induced by various compounds, questioning on potential toxic in­
+teractions with genotoxic food contaminants. Among them, acrylamide, classified as probably carcinogenic to 
+humans, is formed during cooking processes and commonly found in fried foods and cereal products. Considering 
+that co-consumption of DON- and/or acrylamide-contaminated foods is highly probable, we evaluated their 
+genotoxic interaction in a non-cancerous intestinal cellular model. Our data show that DON exacerbates the 
+cytotoxic and genotoxic activities of acrylamide, assessed through the analysis of the DNA damage biomarker 
+γH2AX and by comet assay. This was corroborated by transcriptomic analyzes pointing out enhanced DNA repair 
+pathway under co-exposure. Of note, DON-mediated increase of acrylamide-induced DNA damage is not related 
+to the apoptotic program. As a consequence of this genotoxic interaction, cells co-exposed to DON and acryl­
+amide exhibit more important cell cycle defects and chromosomal instability, as evaluated by the chromosomal 
+aberration assay. In conclusion, our work shows that DON exacerbates the genotoxicity of acrylamide, with 
+repercussions on the maintenance of genetic stability, potentially implying an increased carcinogenic risk. These 
+results therefore provide crucial information regarding food safety, given the high probability of co- 
+contamination by DON and genotoxic agents such as acrylamide.
+1. Introduction
+Food safety represents a major health issue, particularly since we are 
+co-exposed on a daily basis to numerous contaminants through diet. 
+Mycotoxins, the most naturally occurring food contaminants worldwide, 
+are detected in up to 60 to 80 % of food crops (Eskola et al., 2020). 
+Trichothecenes produced by Fusarium species represent the largest 
+group of mycotoxins. Among them, deoxynivalenol (DON) is the most 
+widespread with the highest level of contamination, primarily found in 
+human food and animal feed through contaminated cereals such as 
+wheat, barley, oat or maize (Knutsen et al., 2017; Zhang et al., 2024). 
+Contamination can occur at any stage of production, processing, trans­
+formation or storage, and greatly depends on agricultural practices and 
+environmental factors such as temperature and humidity (Cinar & 
+Onbas¸ı, 2020). Crop contamination by DON has been estimated around 
+the world (Zhang et al., 2024). According to the European Food Safety 
+Authority (EFSA), DON is detected in 44 % of cereals (EFSA, 2013). In 
+China, DON is detected in 96.4 % of feed samples (Zhao et al., 2021). In 
+United States, 75.7 % of corn grain and 88.2 % of corn silage are 
+contaminated (Weaver et al., 2021), whereas DON is detected in 82 % of 
+samples in Kenya (Kemboi et al., 2020). Bread represents a major source 
+of DON contamination, as this food staple is consumed by billions of 
+people and contributes to almost 10 % of energy intake worldwide. For 
+instance, the average consumption of bread reaches 160 g per day for EU 
+citizens (Ribet et al., 2024). Consequently, more than 94 % of in­
+dividuals are exposed to DON at detectable levels, with a high dietary 
+chronic exposure representing a health risk for approximately 12 % of 
+the population (Namorado et al., 2024). These data question on poten­
+tial toxic interactions with other dietary contaminants, defined as 
+cocktail effects. In light of this, DON co-occurrence with other 
+* Corresponding author at: Toxalim (Research Centre in Food Toxicology), Universit´e de Toulouse, INRA, ENVT, INP-Purpan, UPS, 31300 Toulouse, France.
+E-mail address: julien.vignard@inrae.fr (J. Vignard). 
+Contents lists available at ScienceDirect
+Food Research International
+journal homepage: www.elsevier.com/locate/foodres
+https://doi.org/10.1016/j.foodres.2025.116633
+Received 22 November 2024; Received in revised form 14 February 2025; Accepted 11 May 2025  
+Food Research International 214 (2025) 116633 
+Available online 13 May 2025 
+0963-9969/© 2025 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ ). 
+
+mycotoxins and their combined adverse effects have already been 
+investigated (Alassane-Kpembi et al., 2017; Karsauliya et al., 2022). 
+However, many different co-exposure scenarios involving other classes 
+of food contaminants are highly plausible and still under-evaluated.
+Among environmental pollutants representing a health risk to 
+human, acrylamide has particularly drawn attention due to its wide­
+spread presence. While cigarette smoke and occupational exposure 
+represent other important sources of acrylamide intoxication, this 
+colorless and odorless organic compound also can contaminate food. 
+Indeed, acrylamide is formed at temperatures above 120 ◦C by the 
+Maillard reaction through frequently used cooking processes except 
+boiling (Yan et al., 2023). Several factors influence the level of acryl­
+amide in foodstuffs, including cooking parameters such as temperature 
+and time, production and storage conditions of the raw material, or its 
+chemical composition (EFSA CONTAM Panel, 2015). The Maillard re­
+action is a non-enzymatic chemical reaction between reducing carbo­
+hydrates and asparagine, more particularly occurring in coffee, potatoes 
+and cereals products (Sarion et al., 2021). Thus, acrylamide is present in 
+a wide variety of commonly consumed products, increasing the proba­
+bility of co-exposure with other food contaminants.
+DON thermal stability allows it to withstand high cooking and baking 
+temperatures necessary for acrylamide formation. DON and acrylamide 
+co-occurrence has been established in bakery products (Balbo & 
+Wo´zniak, 2022) or more globally in grain (Thielecke & Nugent, 2018), 
+and also observed in other types of food products such as beer 
+(Bogdanova et al., 2018). More broadly, the co-consumption of foods 
+contaminated with DON or acrylamide is highly conceivable regarding 
+their prevalence and their presence in the same meal. Considering that 
+DON and acrylamide represent public health risks, assessing their toxic 
+interactions is an important issue that needs to be further investigated.
+DON causes acute toxicity, gastrointestinal toxicity, immunotoxicity 
+and hepatotoxicity, affecting animal and human health through many 
+symptoms such as vomiting, diarrhea, abdominal pain or fever (Zhang 
+et al., 2024). In the intestine, DON inhibits nutrients absorption, alters 
+epithelium integrity, affects gut microflora, triggers inflammation and 
+promotes chronic intestinal inflammatory diseases (Pinton & Oswald, 
+2014). DON toxicity arises from its capacity to bind and inhibit the 
+peptidyl transferase center in the ribosome 60S subunit (Knutsen et al., 
+2017). This triggers a ribotoxic stress defined by both defective protein 
+synthesis and induction of cellular stress responses, leading to oxidative 
+stress, activation of related MAP kinases and their downstream path­
+ways including inflammatory response, and mitochondrial dysfunction 
+(Garofalo et al., 2025). Acrylamide exposure is associated to several 
+toxic effects such as neurotoxicity, hepatotoxicity, developmental and 
+reproductive toxicity, gastrointestinal tract dysfunction, immunotox­
+icity and genotoxicity (EFSA CONTAM Panel, 2015; Palus, 2024; Rifai & 
+Saleh, 2020). Moreover, in vivo experimentation pointed out the carci­
+nogenicity of acrylamide, therefore classified as a “probable human 
+carcinogen” by the international Agency for Research on Cancer (IARC) 
+(IARC, 1994). Cellular transformation of acrylamide to its reactive 
+metabolite glycidamide results in the formation of covalent DNA ad­
+ducts, considered to represent the route underlying the genotoxicity and 
+carcinogenicity of acrylamide (EFSA CONTAM Panel, 2015). Indeed, the 
+clastogenic and mutagenic properties of acrylamide and glycidamide 
+have been extensively demonstrated in vitro and in vivo. However, the 
+levels of dietary exposure to acrylamide do not clearly support a direct 
+cancer risk for humans (Guth et al., 2023), although the margins of 
+exposure do not exclude a concern (EFSA CONTAM Panel, 2015). In this 
+context, identification of toxic interactions with other food contami­
+nants could help improving risk assessment.
+DON is not genotoxic and is classified as non-carcinogenic by IARC 
+(Claeys et al., 2020). Though, data indicate that DON exacerbates DNA 
+damage induced by several compounds generating different types of 
+DNA lesions, among which the bacterial toxin colibactin associated with 
+colorectal cancer and the fungicide captan (Garofalo, et al., 2023, Gar­
+ofalo et al., 2022; Payros et al., 2017). These studies support that DON 
+may potentiate the harmful effects of environmental genotoxic com­
+pounds. Here, we characterized the consequences of DON co-exposure 
+with acrylamide in a normal intestinal cellular model.
+2. Materials and methods
+2.1. Cells culture and treatments
+IEC-6 cells (ATCC CRL-1592) were cultured in Dulbecco’s Modified 
+Eagle Medium (DMEM, Gibco, Life Technologies) supplemented with 
+10 % fetal bovine serum (FBS, Gibco), 1 % antibiotics (penicillin- 
+streptomycin) and 0.1 U/mL insulin human solution (Sigma-Aldrich). 
+HCT116 (ATCC CCL-247) were cultured in McCoy’s 5a Medium Modi­
+fied (Gibco, Life Technologies) supplemented with 10 % fetal bovine 
+serum (FBS, Gibco). Cells were grown at 37 ◦C in a humidified atmo­
+sphere containing 5 % CO2 and subcultured every 2–3 days.
+DON (D0156, prepared as a 5 mM solution in water; CAS no. 51481- 
+10-8), acrylamide (A4058, 40 % solution in water; CAS no. 79-06-1) 
+etoposide (E1383, prepared as a 50 mM solution in DMSO; CAS no. 
+33419-42-0) and anisomycin (A9789, prepared as a 75 mM solution in 
+DMSO; CAS no. 22862-76-6) were purchased from Sigma-Aldrich. 
+Deepoxy-deoxynivalenol (DOM-1, 34135, prepared as a 5 mM solution 
+in DMSO; CAS no. 88054-24-4) was purchased from Sigma-Aldrich and 
+prepared as previously described (Willoquet et al., 2024). The pan- 
+caspase inhibitor Z-VAD(OMe)-FMK (Z-VAD, T6013, prepared as a 50 
+mM solution in DMSO; Cas No. 187389-52-2) were purchased from 
+TargetMol. Etoposide, anisomycin and DOM-1 were used at a final 
+concentration of 3 μM, 100 nM and 5 μM, respectively. Z-VAD was 
+added 1 h before DON and/or acrylamide and when cells were released 
+in fresh medium, at a final concentration of 10 μM. During assays 
+requiring the use of etoposide, anisomycin, DOM-1 or Z-VAD, control 
+cells were incubated in the presence of a DMSO vehicle.
+2.2. Cell viability assay
+IEC-6 and HCT116 cells were seeded in triplicate at a density of 
+20,000 cells per well in 96-well plates. One day after seeding, cells were 
+treated during 4 h and washed with PBS before being incubated in fresh 
+complete culture medium for 20 h. Viability was assessed using the 
+CellTiter-Glo® Luminescent Cell Viability Assay (Promega) according to 
+the manufacturer’s instructions.
+2.3. RNAseq gene expression studies
+IEC-6 cells were seeded in 60 mm dishes (Falcon reference 353004) 
+at a density of 1.106 cells per well. After 24 h of culture, IEC-6 cells were 
+treated with acrylamide 6 mM and DON 3 μM, alone or in mixture, for 4 
+h. Cells were then collected in Extract-All (Eurobio Scientific) and stored 
+at −80 ◦C. The samples were processed as described previously (Hasuda 
+et al., 2023). Briefly, the concentrations and purity of RNA were 
+measured with the NanophotometerR N60 (Thermo Fisher Scientific). 
+For each of 16 samples, RNAseq libraries were constructed from 1000 ng 
+of total RNA at the GeT-TRiX facility (G´enoToul, G´enopole Toulouse 
+Midi-Pyr´en´ees) using Illumina® Stranded mRNA Prep kit (Illumina, San 
+Diego, CA, USA) following the manufacturer’s instructions. Briefly, 
+mRNAs were captures, then fragmented, converted to double-stranded 
+cDNAs and sequencing adaptors were ligated. Libraries were amplified 
+with ten cycles of PCR. The yield and the quality of the libraries were 
+assessed using D1000 ScreenTapes on TapeStation 4200 (Agilent Tech­
+nologies, Santa Clara). The libraries were then pooled to equimolar 
+concentrations and transferred to INRAE PGTB facility for sequencing. 
+The library pool was loaded into one flowcell on Illumina Nextseq 2000 
+using a 2 × 50 bp paired-end sequencing mode with P3 Reagent kit.
+Bioinformatics treatments of sequencing data were performed by the 
+GeT-TRiX facility (GenoToul, G´enopole Toulouse Midi-Pyr´en´ees) using 
+the computing resources of genotoul bioinformatics platform Toulouse 
+C. Huertas et al.                                                                                                                                                                                                                                 
+Food Research International 214 (2025) 116633 
+2 
+
+Midi-Pyrenees (Bioinfo Genotoul). The analysis pipeline was executed 
+with Nextflow v22.12.0-edge (Di Tommaso et al., 2017) and processed 
+using 
+nf-core/rnaseq 
+v3.12.0 
+(https://doi.org/10.5281/zenodo. 
+7998767) of the nf-core collection of workflows (Ewels et al., 2020). 
+Reads were aligned to Rat genome reference mRatBN7.2 (build 
+GCA_015227675.2).
+2.4. Immunofluorescence analysis
+IEC-6 and HCT116 cells were seeded at a density of 20,000 cells per 
+well in 96-well plates. One day after seeding, cells were treated during 4 
+h. The immunofluorescence assay was performed as previously 
+described (Pons et al., 2021). Briefly, cells in PBS were fixed with 4 % 
+paraformaldehyde, permeabilized with 0.5 % Triton X-100, and blocked 
+with 3 % BSA and 0.05 % IGEPAL. Cells were stained with a primary 
+antibody directed against γH2AX (Merck/Millipore (05-636-1) or Cell 
+Signaling (20E3)) for 2 h at room temperature in blocking solution, and 
+washed three times with PBS 0.05 % IGEPAL before incubation with 
+secondary antibody (Alexa Fluor 546 Goat anti-mouse (A11030) or anti- 
+rabbit (A11035)) for 1 h at room temperature. DNA was stained with 
+4.6-diamino-2-phenyl indole (DAPI) at 100 nM. Cells were analyzed 
+using an ImageXpress Micro Confocal High-Content Imaging System 
+(MolecularDevices) with a 20× objective. The level of the nuclear 
+γH2AX signal was quantified in at least 5.000 cells per sample.
+2.5. Comet assay
+The comet assay was performed under alkaline conditions using a 
+Comet SCGE assay kit (Enzo Life Sciences, Villeurbanne, France) ac­
+cording to the manufacturer’s instructions. IEC-6 cells were seeded at a 
+density of 70,000 cells per well in 24-well plates. After one day, cells 
+were treated during 4 h and collected by trypsinization. 10,000 cells 
+embedded in low-melting agarose were spread in each sample area of 
+the comet slide. Electrophoresis was performed in alkaline solution (0.3 
+N NaOH, 1 mM EDTA) at 4 ◦C for 15 min at 35 V in a large electro­
+phoresis tank (35 cm between electrodes). After staining with CYG­
+REEN® Nucleic Acid Dye, slides were observed at 20× magnification 
+using a Nikon 50i fluorescence microscope equipped with a Luca S 
+camera. At least 40 cells were analyzed per sample using OpenComet 
+software.
+2.6. Cell cycle analyzes by flow cytometry
+Cells were seeded at a density of 70,000 cells per well in 24-well 
+plates. After one day, cells were treated during 4 h and washed with 
+PBS before being incubated in fresh complete culture medium for 20 h. 
+Cells were collected by trypsinization and fixed with 4 % para­
+formaldehyde for 15 min at room temperature in PBS. Cells were 
+permeabilized with 0.5 % Triton X-100 for 15 min followed by staining 
+with DAPI at 1 μg/mL for 15 min at room temperature. Samples were 
+processed using flow-cytometry (MACSQuant, Miltenyi Biotec). At least 
+10,000 events were analyzed per sample using FlowLogic software 
+(Miltenyi Biotec).
+2.7. Apoptosis assay analyzes by flow cytometry
+Cells were seeded at a density of 100,000 cells per well in 24-well 
+plates. After one day, cells were treated during 4 h and collected by 
+trypsinization. Early apoptotic and dead cells were scored using the 
+Annexin V-Elab Fluor® 647/DAPI Apoptosis Kit according to the man­
+ufacturer’s instructions. Samples were processed using flow cytometry 
+(MACSQuant, Miltenyi Biotec). At least 30,000 events were analyzed per 
+sample using FlowLogic software (Miltenyi Biotec).
+2.8. Chromosomal aberration assay
+Cells were seeded at a density of 1,500,000 cells in 75 cm2 cell cul­
+ture flasks. After one day, cells were treated during 4 h and washed with 
+PBS before being incubated in fresh complete culture medium for 20 h. 
+KaryoMAX colcemid solution (Fisher Scientific, Life Technologie) was 
+added for 30 min to block cells in metaphase. Mitotic cells were 
+collected by shake-off and resuspended in a hypotonic solution with 75 
+mM KCl and incubated for 10 min at 37 ◦C. Then, cells were fixed in an 
+ethanol/acetic acid solution (3:1) and dropped on slides to spread the 
+chromosomes. VECTASHIELD mounting medium containing DAPI 
+(Vector Laboratories) was added and metaphases were observed at 60 ×
+magnification with a Nikon 50i fluorescence microscope equipped with 
+a Luca S camera.
+2.9. Statistics analysis
+Biostatistical analyzes of RNA-seq data were performed under R 
+v4.2.2 (R Core Team, 2022), edgeR package (Robinson et al., 2010) and 
+Bioconductor packages (Amezquita et al., 2020). Briefly, raw count table 
+was filtered to eliminate undetected genes using filterByExpr function 
+with min.count = 10. Normalization factors were calculated using TMM 
+method. Then the common, trended and tagwise negative binomial 
+dispersions were estimated with the robust mode of estimateDisp func­
+tion. A negative binomial generalized log-linear model was fitted to 
+count data with the quasi-likelihood (QL) methods using glmQLFit 
+function to moderate the genewise QL dispersion (McCarthy et al., 
+2012). Pair-wise comparisons between biological conditions were 
+extracted using specific contrasts with glmQLFtest function to identify 
+differential expression. A correction for multiple testing was applied 
+using Benjamini-Hochberg procedure to control the False Discovery 
+Rate (FDR). Probes with FDR ≤0.05 were considered to be differentially 
+Fig. 1. Cytotoxic interaction between DON and acrylamide. (A, B). IEC-6 cells were exposed to DON and/or acrylamide (Acry) for 4 h followed by 20 h of release in 
+fresh medium before assessing cell viability. IEC-6 cells were treated with increasing concentrations of acrylamide in presence or in absence of DON 5 μM (A) or with 
+increasing concentrations of DON in presence or in absence of acrylamide 7 mM (B). Data are expressed as the mean ± SD of 3 independent experiments. Statistical 
+differences were calculated by two-way ANOVA followed by Sidak’s multiple comparison test between conditions with or without DON. (****p < 0.0001).
+C. Huertas et al.                                                                                                                                                                                                                                 
+Food Research International 214 (2025) 116633 
+3 
+
+expressed between conditions.
+Gene ontology analyzes were performed with the Metascape tool (htt 
+ps://metascape.org/) applying standard parameters (Zhou et al., 2019). 
+All other statistical analyzes were assessed using Prism 10 software 
+(GraphPad). For the chromosomal aberration assay, Chi2 Pearson and 
+Fisher’s exact tests were performed. For the other tests, one-way or two- 
+way ANOVA analyzes of variance followed by post hoc tests (Sidak or 
+Tukey when appropriate) were performed. The results are expressed as 
+the mean with Standard deviation (SD).
+3. Results
+3.1. DON and acrylamide co-exposure increases cytotoxicity
+To determine whether DON aggravates acrylamide-induced cyto­
+toxicity, rat intestinal epithelial cells (IEC-6) were exposed to increasing 
+Fig. 2. Transcriptional response to DON and acrylamide co-exposure. (A) Principal component analysis (PCA) score plots of the whole transcriptomic dataset 
+(normalized log2 counts per million) of IEC-6 cells exposed to DON, acrylamide (Acry), DON and acrylamide (DON + Acry) or left non-treated (NT). (B) Venn 
+diagram representing the number of genes significantly modulated (FDR < 5 %) by DON, acrylamide (Acry) or both (DON + Acry). (C) Heatmaps of pathway 
+enrichment analysis based on the most significantly modulated genes (FDR < 0.1 %) after exposure to DON, acrylamide (Acry) or both (DON + Acry). The top 20 
+down- or upregulated biological pathways are represented with a color scale for statistical significance. (D) Bar graph of the gene clusters enriched based on the 713 
+genes specifically modulated after co-exposure to DON and acrylamide as shown in (B). The top 15 down- or upregulated biological pathways are represented.
+C. Huertas et al.                                                                                                                                                                                                                                 
+Food Research International 214 (2025) 116633 
+4 
+
+concentrations of acrylamide, with or without 5 μM of DON (Fig. 1A). 
+Conversely, a dose-response to DON cytotoxic effects was performed in 
+presence or in absence of 7 mM of acrylamide (Fig. 1B). A dose- 
+dependent cytotoxicity was observed with acrylamide (Fig. 1A), 
+whereas DON alone induced no obvious effect on cell viability up to 10 
+μM (Fig. 1B). Remarkably, cells co-exposed to acrylamide and DON 
+showed a significant increase of cytotoxicity compared to acrylamide 
+alone. These results pinpoint the cytotoxic interaction between DON and 
+acrylamide.
+3.2. Transcriptional response to DON and acrylamide co-exposure 
+supports a genotoxic interaction
+Then, a genome wide transcriptomic analysis was performed on IEC- 
+6 cells exposed to acrylamide, DON or both, in comparison to untreated 
+control cells. Principal component analysis revealed that while each 
+group can be separated, the overall variability is primarily due to DON 
+exposure (Fig. 2A). Venn diagrams confirmed that DON modulated the 
+expression of more genes compared to acrylamide or to DON with 
+acrylamide (Fig. 2B). Moreover, 75.2 % and 86.6 % of genes differen­
+tially expressed by acrylamide or by DON and acrylamide co-exposure, 
+respectively, are also modulated by DON alone. Thus, under our con­
+ditions, DON exerted a major effect on gene regulation, covering the 
+larger part of the transcriptional response to acrylamide or to both 
+compounds.
+Then, we compared the most significantly down- and upregulated 
+biological pathways after exposure to DON, acrylamide, or both. The 
+vast majority (92 %) of the pathways modulated by co-exposure were 
+also regulated by DON or acrylamide alone (Fig. 2C and Sup Figs. 1 and 
+2). Common downregulated pathways include cell cycle processes while 
+upregulated pathways include programmed cell death and the cellular 
+response to different stress including oxidative stress. Interestingly, the 
+acrylamide-mediated upregulation of pathways associated to the 
+unfolded protein response or to NRF2, a transcription factor driving the 
+cellular defense against toxic and oxidative insults, were decreased or 
+lost in presence of DON, suggesting a specific responses to co-exposure 
+(Fig. 2C, Sup Fig. 2).
+In light of this, we next examined the 713 RNA only modulated under 
+the co-exposure condition (Fig. 2b). Strikingly, the most upregulated 
+biological pathway concerns DNA repair (Fig. 2D), indicating a geno­
+toxic interaction. Conversely, responses to peptide or oxidative stress 
+and the related mitogen-activated protein kinase (MAPK)/MAP2K acti­
+vation were decreased, in contrast to their acrylamide-mediated upre­
+gulation (Fig. 2C and Sup Fig. 1). Taken together, our data demonstrate 
+that co-exposure to DON and acrylamide globally recapitulates the 
+transcriptional response to each compound individually, the most 
+Fig. 3. DON exacerbates acrylamide-induced DNA damage. IEC-6 cells were exposed for 4 h to increasing concentrations of acrylamide (Acry) in presence or in 
+absence of DON 5 μM before assessing genotoxicity. (A). Representative images of γH2AX immunostaining (green) in IEC-6 cells exposed to DON and/or acrylamide 
+7 mM. DNA was stained with DAPI (blue). NT represents non-treated cells. Scale bar = 20 μm. (B). Quantification of γH2AX signal from (A), represented as the mean 
+fluorescence intensity per nucleus in arbitrary units (a.u.) of one representative among 3 independent experiments. Black lines indicate mean. Statistical differences 
+were calculated by one-way ANOVA followed by Tukey’s multiple comparison test between the indicated conditions (****p < 0.0001). (C). Representative images of 
+non-treated cells (NT) or cells treated with DON and/or acrylamide 7 mM and evaluated with alkaline comet assay. Scale bar = 20 μm. (D). Quantification of tail DNA 
+percentage from (C). Data are expressed as the mean ± SD of at least 3 independent experiments. Statistical differences were calculated by two-way ANOVA followed 
+by Tukey’s multiple comparison test between the indicated conditions (***p < 0.001; ****p < 0.0001).
+C. Huertas et al.                                                                                                                                                                                                                                 
+Food Research International 214 (2025) 116633 
+5 
+
+important part being attributable to DON. However, few processes are 
+specifically regulated by DON and acrylamide interaction, as enhanced 
+DNA repair or decreased response to oxidative stress. This supports a 
+genotoxic interaction and suggests that co-exposure may perturb the 
+normal response to DON or acrylamide.
+3.3. DON exacerbates the genotoxicity of acrylamide
+We next evaluated the level of acrylamide-induced DNA damage in 
+presence of DON. First, the induction of the DNA damage biomarker 
+γH2AX was measured by immunofluorescence analyzes (Fig. 3A). Signal 
+quantification shows that acrylamide causes a dose-dependent increase 
+of the nuclear γH2AX induction after 4 h (Fig. 3B). IEC-6 cells exposed to 
+DON 5 μM exhibited a slight increase in γH2AX compared to untreated 
+cells. However, when added to acrylamide or to the DNA damaging 
+agent etoposide used as positive control, DON induces a significant 
+enhancement of the γH2AX level. From the 5 mM acrylamide exposure 
+condition, this increase is stronger than the cumulative effect of each 
+individual compound, suggesting an interaction that could be higher 
+than an additive effect. To strengthen this result, an alkaline comet assay 
+was performed under similar exposure conditions. While DON alone 
+does not significantly increase tail DNA compared to control cells, 
+acrylamide induced a dose-dependent DNA fragmentation (Fig. 3C and 
+D). Similar to γH2AX immunofluorescence analyzes, the presence of 
+DON enhances the acrylamide-induced DNA damage, as revealed by a 
+greater amount of fragmented DNA compared to acrylamide alone.
+Finally, to demonstrate that the genotoxic interaction between DON 
+and acrylamide is not specific to rat cells, γH2AX immunofluorescence 
+assays were conducted on the human HCT116 colonic cancer cell line. 
+Using the same experimental design as for IEC-6 cells, we show that 
+while HCT116 cells suffer less viability loss and therefore no obvious 
+cytotoxic interaction (Sup Fig. 3A), DON still exacerbates DNA damage 
+induced by acrylamide in human cells (Sup Fig. 3B). Taken together, 
+these data demonstrate that the genotoxic activity of acrylamide is 
+exacerbated by DON in intestinal cells.
+3.4. DNA damage exacerbation by DON involves ribosome inhibition
+To examine whether the DON-induced exacerbation of acrylamide 
+genotoxicity is mediated by ribosome inhibition, the ribotoxin aniso­
+mycin and DOM-1, a non-ribotoxic modified form of DON, were used in 
+combination with acrylamide. In a similar way to DON, adding aniso­
+mycin to acrylamide or etoposide increases γH2AX signal, whereas 
+DOM-1 has no effect (Fig. 4). These results indicate that DON ribotox­
+icity is important for the genotoxic interaction with acrylamide.
+3.5. DNA damage exacerbation by DON does not rely on apoptosis
+In order to rule out the hypothesis that DON-mediated DNA damage 
+exacerbation could be related to an apoptotic process, cells were scored 
+by flow cytometry after staining with Annexin V in combination with 
+DAPI to exclude dead cells. After 4 h, acrylamide but not DON promotes 
+early apoptosis (Annexin V+/DAPI−) in a dose-dependent manner 
+(Fig. 5A). However, DON significantly limits the proportion of 
+acrylamide-induced early apoptosis. Instead, more DAPI+ cells accu­
+mulate in presence of DON and acrylamide 10 mM, which could derive 
+from different type of cell death. Altogether, this data indicates that 
+DON does not increase the proportion of early apoptosis after 4 h of 
+acrylamide. Then, the pan-caspase inhibitor Z-VAD-OMe-FMK (ZVAD) 
+was added to prevent apoptosis (Sup Fig. 4A), resulting in a non- 
+significant rescue of acrylamide-mediated loss of cell viability (Sup 
+Fig. 4B). In addition, the presence of ZVAD did not impact the level of 
+DNA damage after exposure to acrylamide with or without DON, eval­
+uated by γH2AX immunofluorescence (Fig. 5B) or comet assay (Fig. 5C). 
+To conclude, these data demonstrate that the genotoxic interaction be­
+tween DON and acrylamide does not result from apoptotic-related DNA 
+fragmentation.
+3.6. DON enhances the acrylamide-induced cell cycle arrest
+To investigate the consequences of the DON-induced exacerbation of 
+acrylamide genotoxic activity, we first monitored cell cycle checkpoints 
+by flow cytometry. When IEC-6 cells were exposed to acrylamide or 
+Fig. 4. Anisomycin but not DOM-1 exacerbates acrylamide-induced DNA damage. IEC-6 cells were exposed for 4 h to DON 5 μM, anisomycin (Ani) 100 nM, DOM-1 
+5 μM, or left untreated (NT), in presence or in absence of acrylamide 7 mM or etoposide 3 μM. Quantification of γH2AX signal is represented as the mean fluorescence 
+intensity per nucleus in arbitrary units (a.u.) of one representative among 3 independent experiments. Black lines indicate mean. Statistical differences were 
+calculated by one-way ANOVA followed by Tukey’s multiple comparison test between the indicated conditions (****p < 0.0001).
+C. Huertas et al.                                                                                                                                                                                                                                 
+Food Research International 214 (2025) 116633 
+6 
+
+DON alone, no alteration of the cell cycle profile could be observed 
+(Fig. 6), in comparison with control cells. However, the co-exposure 
+condition induces a dose-dependent increase of the proportion of G2/ 
+M cells. These data suggest that DON worsen the cell cycle defects 
+caused by acrylamide.
+3.7. DON aggravates chromosome instability induced by acrylamide
+Finally, chromosomal aberration assays were performed to assess the 
+effect of DON genotoxic interaction with acrylamide on chromosomal 
+stability. Metaphase spreads of IEC-6 cells treated with acrylamide and/ 
+or DON were prepared (Fig. 7A), and the percentage of abnormal 
+metaphases was determined (Fig. 7B). Acrylamide but not DON 
+increased the proportion of abnormal metaphases compared to un­
+treated cells. Strikingly, the rate of abnormal metaphases was 
+significantly higher after co-exposure to DON and acrylamide compared 
+to acrylamide alone. Thus, DON enhances the chromosome structural 
+defects caused by acrylamide. To further detail how acrylamide affects 
+chromosomal stability in presence of DON, the different types of aber­
+rations were counted (Fig. 7C). In untreated cells, 89 % of aberrations 
+represent chromosome breaks and 11 % rearrangements, which is not 
+significantly different in DON-exposed cells. Yet, 3.35 % of the DON- 
+induced aberrations were scored as multiple aberrations, representing 
+metaphases with too many aberrations to be properly quantified (Clare, 
+2012) that were not observed in control conditions. In cells exposed to 
+acrylamide alone or in combination with DON, the number of aberra­
+tions per metaphase increased by 2.5- and 3.5-fold compared to control, 
+respectively, but only cells treated with DON exhibited multiple aber­
+rations. Therefore, our data indicate that acrylamide enhances the 
+different types of aberrations naturally occurring in IEC-6 cells, and 
+Fig. 5. DON-mediated genotoxicity exacerbation is not related to apoptosis. IEC-6 cells were exposed or not for 1 h to Z-VAD 10 μM followed by 4 h to DON 5 μM 
+and/or acrylamide at the indicated concentrations, before assessing apoptosis (A) or genotoxicity (B and C). (A). Cells were exposed to increasing concentrations of 
+acrylamide (Acry) in presence or in absence of DON 5 μM and analyzed by flow-cytometry. The proportion of early apoptotic (Annexin V+/DAPI−) or dead cells 
+(DAPI+) was measured. Data are expressed as the mean + SD of one representative among 3 independent experiments. Statistical differences were calculated by two- 
+way ANOVA followed by Tukey’s multiple comparison test, by comparing to the non-treated cells (indicated by asterisks) or between the conditions with or without 
+DON (indicated by dollars) (* or $ p < 0.05; ** or $$ p < 0.01; **** p < 0.0001). (B). Quantification of γH2AX signal in cells exposed to DON and/or acrylamide with 
+or without Z-VAD, represented as the mean fluorescence intensity per nucleus in arbitrary units (a.u.) of 3 independent experiments. Black lines indicate mean. 
+Statistical differences were calculated by one-way ANOVA followed by Tukey’s multiple comparison test between condition with or without Z-VAD. (C). Quanti­
+fication of tail DNA percentage in cells exposed to DON and/or acrylamide with or without Z-VAD. Data are expressed as the mean ± SD of at least 3 independent 
+experiments. Statistical differences were calculated by two-way ANOVA followed by Sidak’s multiple comparison test between conditions with or without Z-VAD (ns: 
+non-significant).
+C. Huertas et al.                                                                                                                                                                                                                                 
+Food Research International 214 (2025) 116633 
+7 
+
+DON aggravates this chromosome instability.
+4. Discussion
+Assessing the combined toxicity of food contaminants is a 
+tremendous challenge that currently remains under-evaluated. Recent 
+studies have shown that DON exacerbates the genotoxicity of a fungicide 
+and a bacterial toxin associated with colorectal cancer (Garofalo et al., 
+2023; Payros et al., 2017), supporting for potential harmful interaction 
+with other genotoxic food contaminants. In this study, we demonstrate 
+that DON aggravates the genotoxic potential of acrylamide, enhancing 
+DNA damage and genetic instability.
+First, transcriptomic analyzes suggest that the toxic interaction be­
+tween DON and acrylamide mainly reflects an additive effect, predom­
+inantly influenced by DON. DON increases RNA metabolism or 
+inflammatory response and decreases lipid metabolism, as previously 
+observed (Luo et al., 2021; Ma et al., 2024; Zhang et al., 2023). Besides, 
+alone or in mixture, DON and acrylamide reduce the expression of genes 
+involved in cell division and enhance genes involved in programmed cell 
+death, two well-known cellular consequences of DNA damage. Of note, 
+DNA repair process is specifically upregulated in co-exposed cells, 
+strengthening the hypothesis of genotoxicity exacerbation by DON.
+To investigate the effect of DON on acrylamide-induced genotox­
+icity, we measured nuclear γH2AX, a well-established marker of DNA 
+damage (Rogakou et al., 1998). The γH2AX level was remarkably higher 
+in co-exposed cells compared to cells exposed to DON or acrylamide 
+individually, corroborating the assumption of a synergistic interaction. 
+This result was strengthened by comet assay that directly assess DNA 
+fragmentation, demonstrating that DON genuinely potentiates 
+acrylamide-induced genotoxicity rather than only perturbing γH2AX- 
+related signaling pathways.
+While considered as not genotoxic, we found that DON alone slightly 
+but significantly increases γH2AX level in exposed cells. In the same 
+way, a minor part of metaphases exhibited multiple chromosome ab­
+errations after DON treatment. Previous in vitro studies reported con­
+tradictory results regarding DON capacity to induce DNA damage 
+Fig. 6. Cell cycle defects after co-exposure to DON and acrylamide. IEC-6 cells 
+were exposed to DON 5 μM and/or acrylamide at the indicated concentrations 
+for 4 h followed by 20 h of release in fresh medium before cell cycle analysis by 
+flow-cytometry. Cell cycle indexes are shown. Data represent the mean + SD of 
+3 independent experiments. Statistical differences were only calculated for G2/ 
+M cells by two-way ANOVA followed by Tukey’s multiple comparison test, by 
+comparing to the non-treated cells (indicated by asterisks) or between the 
+conditions with or without DON (indicated by dollars) (* or $ p < 0.05, ** p <
+0.01; *** or $$$ p < 0.001).
+Fig. 7. DON exacerbates acrylamide-induced chromosomal instability. IEC-6 cells were exposed to DON 5 μM and/or acrylamide (Acry) 7 mM for 4 h followed by 20 
+h of release in fresh medium before preforming metaphase spreads. (A). Representative images of metaphase spreads of cells exposed to DON and/or acrylamide or 
+left non-treated cells (NT). Scale bar = 20 μm. (B). Quantification of metaphases from (A) with at least one chromosomal aberration. At least 60 metaphases from 3 
+independent experiments were analyzed. Statistical differences were calculated by Chi2 test between the indicated conditions (*p < 0.05; ****p < 0.0001). (C). 
+Quantification of aberrations per metaphase from (A). The different types of aberrations are classified as breaks, rearrangements or multiple aberrations (see the text 
+for more details).
+C. Huertas et al.                                                                                                                                                                                                                                 
+Food Research International 214 (2025) 116633 
+8 
+
+(Garofalo et al., 2022; Garofalo et al., 2023; Kopp et al., 2018; Takakura 
+et al., 2014; Zhang et al., 2009), which may be explained by the use of 
+different cell lines, exposure conditions or method sensitivity. Further 
+studies will be necessary to clarify this point.
+Our data support that DON aggravates the genotoxic activity of 
+acrylamide. However, an indirect effect resulting from enhanced 
+apoptosis could not be excluded, given that DON and acrylamide are two 
+apoptotic inducers (Pestka, 2008; Song et al., 2021). Indeed, apoptotic 
+processes implicate massive genomic DNA fragmentation after activa­
+tion of apoptotic nucleases (Basnakian & Moore, 2021), resulting in high 
+γH2AX level (Rogakou et al., 2000) and giving rise to false positive 
+during comet assay (Choucroun et al., 2001). Our results revealed that 
+after a 4 h co-exposure, where the genotoxicity exacerbation is observed, 
+DON does not increase the proportion of acrylamide-induced early 
+apoptotic cells. In addition, the apoptosis inhibitor ZVAD does not 
+alleviate the amount of DNA damage (Fig. 5B and C). Thus, in cells 
+exposed to acrylamide, DNA damage exacerbation by DON does not 
+result from apoptotic processes.
+Cells under genotoxic stress activate cell cycle checkpoints to avoid 
+entering mitosis in presence of DNA lesions (Waterman et al., 2020). It 
+has previously been shown that acrylamide induces cell cycle arrest at 
+G2/M (Wang et al., 2022). After an acrylamide treatment followed by a 
+20 h release in fresh medium, no obvious defect in cell cycle was 
+observed (Fig. 6), suggesting that the release time allowed sufficient 
+DNA repair to inactivate checkpoints and restart a normal cell cycle. In 
+contrast, cells co-exposed to DON and acrylamide present a G2/M block, 
+indicative of a more pronounced genotoxic stress. This suggests that the 
+amount of DNA damage in presence of DON exceeded the DNA repair 
+capacity necessary to restart cell cycle. Understanding how DON alters 
+the equilibrium between DNA damage and DNA repair will permit to 
+better characterize the toxic interaction between DON and genotoxic 
+compounds.
+Chromosomal aberrations are characteristics of cancerous cells, 
+observed in over 90 % of solid and blood cancers (Hosea et al., 2024). 
+Acrylamide is known to induce chromosome structural alterations in 
+vivo (Algarni, 2018; Shiraishi, 1978). Here, we found that DON increases 
+the proportion of acrylamide-induced chromosome damage, either 
+breaks or rearrangements. Given that acrylamide is considered as a 
+probable human carcinogen (International Agency for Research on 
+Cancer, 1994) whereas DON is not (Claeys et al., 2020), our data suggest 
+that DON could foster acrylamide carcinogenic properties. However, 
+this has to be confirmed by in vivo experimentation.
+Another recent study has analyzed the combined effect of DON and 
+acrylamide in the hepatic HepaRG cell line, showing that the mixture 
+cytotoxicity is specifically attributable to DON with only a negligible 
+effect of acrylamide (Beisl et al., 2024). However, in contrast to our 
+study conducted on proliferative intestinal IEC-6 cells, Beisl et al. used 
+differentiated cells to be metabolically active, but at the expense of 
+proliferative capacity. As this can greatly influence cytotoxicity, the 
+results obtained with IEC-6 and HepaRG cells cannot be directly 
+compared.
+As previously demonstrated with other DNA damaging agents, 
+exacerbation by DON of acrylamide genotoxicity relies on ribosome 
+inhibition (Garofalo et al., 2022). Nevertheless transcriptomic analyzes 
+conducted in this study may also provide some hypotheses to better 
+understand the link between DON and acrylamide toxic interaction and 
+enhanced genotoxicity. Acrylamide and to a lesser extend DON upre­
+gulate pathways involved in response to cellular stresses, including 
+oxidative stress. Acrylamide toxicity is closely linked to oxidative stress 
+and induces a related transcriptional response in rodent liver (Mei et al., 
+2008; Yousef & El-Demerdash, 2006). Similarly, the intestine is also 
+vulnerable to the harmful effects of acrylamide-mediated oxidative 
+stress (Palus, 2024). As the intestinal toxicity of DON is at least partly 
+attributable to reactive oxygen species (ROS) overproduction (Wang 
+et al., 2021), which has already been observed in IEC-6 cells (Del Regno 
+et al., 2015), one could speculate that the toxic interaction between DON 
+and acrylamide could involve oxidative stress accumulation. Interest­
+ingly, in presence of DON, the acrylamide-dependent upregulation of 
+oxidative stress response, including the NRF2 pathway, is perturbed. 
+This suggests that DON may diminish the antioxidant capacity of 
+acrylamide-treated cells, aggravating acrylamide genotoxicity. Further 
+analyzes are required to address this point.
+It is assumed that as high as 35 % of environmental factors that 
+contribute to the onset of cancer are associated with diet (Baena Ruiz & 
+Salinas Hern´andez, 2014). Compared to other risk factors, food repre­
+sents a readily modifiable element for improving cancer prevention 
+through dietary changes (Britten & Tosi, 2024). Considering the high 
+prevalence of DON in human food (De Santis et al., 2019) and the recent 
+findings regarding its ability to exacerbate DNA damage induced by 
+various compounds (Garofalo et al., 2022; Garofalo et al., 2023a; Payros 
+et al., 2017), deciphering DON pro-carcinogenic interactions with gen­
+otoxic food contaminants is of crucial concern. In this study, we bring 
+evidence supporting that DON may aggravate the adverse effects asso­
+ciated with consumption of acrylamide, a probable carcinogen already 
+known to represent a public health risk according to EFSA (EFSA 
+CONTAM Panel, 2015). Our findings imply that DON and acrylamide 
+tolerable daily intake that have been calculated based on their indi­
+vidual toxicity should be refined due to their genotoxic interaction.
+CRediT authorship contribution statement
+Chlo´e Huertas: Writing – review & editing, Writing – original draft, 
+Methodology, Investigation, Formal analysis, Conceptualization. 
+Aboubacar B. Coulibaly: Methodology, Investigation. Delphine Pay­
+ros: Writing – review & editing, Writing – original draft, Funding 
+acquisition, Conceptualization. Marie Penary: Methodology, Investi­
+gation. Sylvie Puel: Methodology, Investigation. Claire Naylies: 
+Methodology, Investigation. Ga¨elle Payros: Conceptualization. Yan­
+nick Lippi: Writing – review & editing, Formal analysis, Data curation, 
+Conceptualization. Isabelle P. Oswald: Writing – review & editing, 
+Funding acquisition, Conceptualization. Gladys Mirey: Writing – re­
+view & editing, Conceptualization. Julien Vignard: Writing – review & 
+editing, Writing – original draft, Supervision, Project administration, 
+Methodology, Investigation, Funding acquisition, Formal analysis, 
+Conceptualization.
+Declaration of competing interest
+The authors declare the following financial interests/personal re­
+lationships which may be considered as potential competing interests: 
+Julien Vignard reports financial support was provided by French Na­
+tional Research Agency. Isabelle P. Oswald reports financial support was 
+provided by French National Research Agency. Delphine Payros reports 
+financial support was provided by Olga Triballat Institute. Delphine 
+Payros reports financial support was provided by Roquette Fundation. If 
+there are other authors, they declare that they have no known 
+competing financial interests or personal relationships that could have 
+appeared to influence the work reported in this paper.
+Acknowledgments
+The authors would like to express their gratitude to Dr. Marc 
+Audebert for giving access to the High-Content Imaging System, and Dr. 
+Fr´ed´eric Catez for valuable suggestions on this study. We thank Dr. 
+Sandrine Ellejo-Simatos for comments on statistical analyzes, and Zo´e 
+Compagnie for the sequencing of libraries at INRAE PGTB sequencing 
+facility (doi:10.15454/1.5572396583599417E12). We are grateful to 
+the genotoul bioinformatics platform Toulouse Midi-Pyr´en´ees (Bioinfo 
+Genotoul) for providing computing resource. This work was supported 
+by grants from the French Olga Triballat Institute and the French 
+Roquette Foundation, and from the French Agence Nationale de la 
+Recherche (Genofood ANR-19-34CE and GenoMyc ANR-22-34CE).
+C. Huertas et al.                                                                                                                                                                                                                                 
+Food Research International 214 (2025) 116633 
+9 
+
+Appendix A. Supplementary data
+Supplementary data to this article can be found online at https://doi. 
+org/10.1016/j.foodres.2025.116633.
+Data availability
+RNAseq data and experimental details are available in NCBI’s Gene 
+Expression Omnibus and are accessible through GEO Series accession 
+number GSE291848. Data will be made available on request.
+References
+Alassane-Kpembi, I., Schatzmayr, G., Taranu, I., Marin, D., Puel, O., & Oswald, I. P. 
+(2017). Mycotoxins co-contamination: Methodological aspects and biological 
+relevance of combined toxicity studies. Critical Reviews in Food Science and Nutrition, 
+57, 3489–3507. https://doi.org/10.1080/10408398.2016.1140632
+Algarni, A. A. (2018). Genotoxic effects of acrylamide in mouse bone marrow cells. 
+Caryologia, 71, 160–165. https://doi.org/10.1080/00087114.2018.1450801
+Amezquita, R. A., Lun, A. T. L., Becht, E., Carey, V. J., Carpp, L. N., Geistlinger, L., … 
+Hicks, S. C. (2020). Orchestrating single-cell analysis with bioconductor. Nature 
+Methods, 17, 137–145. https://doi.org/10.1038/s41592-019-0654-x
+Baena Ruiz, R., & Salinas Hern´andez, P. (2014). Diet and cancer: Risk factors and 
+epidemiological evidence. Maturitas, 77, 202–208. https://doi.org/10.1016/j. 
+maturitas.2013.11.010
+Balbo, C., & Wo´zniak, Ł. (2022). Dietary exposure and risk characterisation of multiple 
+chemical contaminants in rye-wheat bread marketed in Poland. EFSA Journal, 20, 
+Article e200911. https://doi.org/10.2903/j.efsa.2022.e200911
+Basnakian, A. G., & Moore, C. L. (2021). Apoptotic DNase network: Mutual induction and 
+cooperation among apoptotic endonucleases. Journal of Cellular and Molecular 
+Medicine, 25, 6496–6499. https://doi.org/10.1111/jcmm.16665
+Beisl, J., Jochum, K., Chen, Y., Varga, E., & Marko, D. (2024). Combinatory effects of 
+acrylamide and Deoxynivalenol on in vitro cell viability and cytochrome P450 
+enzymes of human HepaRG cells. Toxins, 16, 389. https://doi.org/10.3390/ 
+toxins16090389
+Bogdanova, E., Rozentale, I., Pugajeva, I., Emecheta, E. E., & Bartkevics, V. (2018). 
+Occurrence and risk assessment of mycotoxins, acrylamide, and furan in Latvian 
+beer. Food Additives & Contaminants: Part B, 11, 126–137. https://doi.org/10.1080/ 
+19393210.2018.1440636
+Britten, O., & Tosi, S. (2024). The role of diet in cancer: The potential of shaping public 
+policy and clinical outcomes in the UK. Genes & Nutrition, 19, 15. https://doi.org/ 
+10.1186/s12263-024-00750-9
+Choucroun, P., Gillet, D., Dorange, G., Sawicki, B., & Dewitte, J. D. (2001). Comet assay 
+and early apoptosis. Mutation Research, Fundamental and Molecular Mechanisms of 
+Mutagenesis, 478, 89–96. https://doi.org/10.1016/S0027-5107(01)00123-3
+Cinar, A., & Onbas¸ı, E. (2020). Mycotoxins: The hidden danger in foods. Intechopen. 
+https://doi.org/10.5772/intechopen.89001
+Claeys, L., Romano, C., De Ruyck, K., Wilson, H., Fervers, B., Korenjak, M., … 
+Huybrechts, I. (2020). Mycotoxin exposure and human cancer risk: A systematic 
+review of epidemiological studies. Comprehensive Reviews in Food Science and Food 
+Safety, 19, 1449–1464. https://doi.org/10.1111/1541-4337.12567
+Clare, G. (2012). The in vitro mammalian chromosome aberration test. In J. M. Parry, & 
+E. M. Parry (Eds.), Genetic toxicology, methods in molecular biology (pp. 69–91). New 
+York, New York, NY: Springer. https://doi.org/10.1007/978-1-61779-421-6_5. 
+De Santis, B., Debegnach, F., Miano, B., Moretti, G., Sonego, E., Chiaretti, A., … Brera, C. 
+(2019). Determination of deoxynivalenol biomarkers in Italian urine samples. 
+Toxins, 11, 441. https://doi.org/10.3390/toxins11080441
+Del Regno, M., Adesso, S., Popolo, A., Quaroni, A., Autore, G., Severino, L., & 
+Marzocco, S. (2015). Nivalenol induces oxidative stress and increases 
+deoxynivalenol pro-oxidant effect in intestinal epithelial cells. Toxicology and Applied 
+Pharmacology, 285, 118–127. https://doi.org/10.1016/j.taap.2015.04.002
+Di Tommaso, P., Chatzou, M., Floden, E. W., Barja, P. P., Palumbo, E., & Notredame, C. 
+(2017). Nextflow enables reproducible computational workflows. Nature 
+Biotechnology, 35, 316–319. https://doi.org/10.1038/nbt.3820
+EFSA CONTAM Panel. (2015). Scientific opinion on acrylamide in food. EFSA Journal, 
+13, 4104. https://doi.org/10.2903/j.efsa.2015.4104
+Eskola, M., Kos, G., Elliott, C. T., Hajˇslov´a, J., Mayar, S., & Krska, R. (2020). Worldwide 
+contamination of food-crops with mycotoxins: Validity of the widely cited “FAO 
+estimate” of 25. Critical Reviews in Food Science and Nutrition, 60, 2773–2789. 
+https://doi.org/10.1080/10408398.2019.1658570
+European Food Safety Authority. (2013). Deoxynivalenol in food and feed: Occurrence 
+and exposure. EFSA Journal, 11, 3379. https://doi.org/10.2903/j.efsa.2013.3379
+Ewels, P. A., Peltzer, A., Fillinger, S., Patel, H., Alneberg, J., Wilm, A., … Nahnsen, S. 
+(2020). The nf-core framework for community-curated bioinformatics pipelines. 
+Nature Biotechnology, 38, 276–278. https://doi.org/10.1038/s41587-020-0439-x
+Garofalo, M., Payros, D., Oswald, E., Nougayr`ede, J.-P., & Oswald, I. P. (2022). The 
+foodborne contaminant deoxynivalenol exacerbates DNA damage caused by a broad 
+spectrum of genotoxic agents. Science of the Total Environment, 820, Article 153280. 
+https://doi.org/10.1016/j.scitotenv.2022.153280
+Garofalo, M., Payros, D., Penary, M., Oswald, E., Nougayr`ede, J.-P., & Oswald, I. P. 
+(2023). A novel toxic effect of foodborne trichothecenes: The exacerbation of 
+genotoxicity. Environmental Pollution, 317, Article 120625. https://doi.org/10.1016/ 
+j.envpol.2022.120625
+Garofalo, M., Payros, D., Taieb, F., Oswald, E., Nougayr`ede, J.-P., & Oswald, I. P. (2025). 
+From ribosome to ribotoxins: Understanding the toxicity of deoxynivalenol and 
+Shiga toxin, two food borne toxins. Critical Reviews in Food Science and Nutrition, 65 
+(1), 193–205. https://doi.org/10.1080/10408398.2023.2271101
+Guth, S., Baum, M., Cartus, A. T., Diel, P., Engel, K.-H., Engeli, B., Epe, B., Grune, T., 
+Haller, D., Heinz, V., Hellwig, M., Hengstler, J. G., Henle, T., Humpf, H.-U., 
+J¨ager, H., Joost, H.-G., Kulling, S. E., Lachenmeier, D. W., Lampen, A., … 
+Eisenbrand, G. (2023). Evaluation of the genotoxic potential of acrylamide: 
+Arguments for the derivation of a tolerable daily intake (TDI value). Food and 
+Chemical Toxicology, 173, Article 113632. https://doi.org/10.1016/j. 
+fct.2023.113632
+Hasuda, A. L., Person, E., Khoshal, A., Bruel, S., Puel, S., Oswald, I. P., … Pinton, P. 
+(2023). Emerging mycotoxins induce hepatotoxicity in pigs’ precision-cut liver slices 
+and HepG2 cells. Toxicon, 231, Article 107195. https://doi.org/10.1016/j. 
+toxicon.2023.107195
+Hosea, R., Hillary, S., Naqvi, S., Wu, S., & Kasim, V. (2024). The two sides of 
+chromosomal instability: Drivers and brakes in cancer. Signal Transduction and 
+Targeted Therapy, 9, 1–30. https://doi.org/10.1038/s41392-024-01767-7
+International Agency for Research on Cancer. (1994). Acrylamide. IARC Monographs on 
+the Evaluation of Carcinogenic Risks to Humans, 60, 389–433.
+Karsauliya, K., Yahavi, C., Pandey, A., Bhateria, M., Sonker, A. K., Pandey, H., 
+Sharma, M., & Singh, S. P. (2022). Co-occurrence of mycotoxins: A review on 
+bioanalytical methods for simultaneous analysis in human biological samples, 
+mixture toxicity and risk assessment strategies. Toxicon, 218, 25–39. https://doi.org/ 
+10.1016/j.toxicon.2022.08.016
+Kemboi, D. C., Ochieng, P. E., Antonissen, G., Croubels, S., Scippo, M.-L., Okoth, S., … 
+Gathumbi, J. K. (2020). Multi-mycotoxin occurrence in dairy cattle and poultry feeds 
+and feed ingredients from Machakos Town, Kenya. Toxins, 12, E762. https://doi. 
+org/10.3390/toxins12120762
+Knutsen, H. K., Alexander, J., Barregård, L., Bignami, M., Brüschweiler, B., Ceccatelli, S., 
+… Edler, L. (2017). Risks to human and animal health related to the presence of 
+deoxynivalenol and its acetylated and modified forms in food and feed. EFSA 
+Journal, 15, Article e04718. https://doi.org/10.2903/j.efsa.2017.4718
+Kopp, B., Vignard, J., Mirey, G., Fessard, V., Zalko, D., Le Hgarat, L., & Audebert, M. 
+(2018). Genotoxicity and mutagenicity assessment of food contaminant mixtures 
+present in the French diet. Environmental and Molecular Mutagenesis, 59, 742–754. 
+https://doi.org/10.1002/em.22214
+Luo, S., Terciolo, C., Neves, M., Puel, S., Naylies, C., Lippi, Y., … Oswald, I. P. (2021). 
+Comparative sensitivity of proliferative and differentiated intestinal epithelial cells 
+to the food contaminant, deoxynivalenol. Environmental Pollution, 277, Article 
+116818. https://doi.org/10.1016/j.envpol.2021.116818
+Ma, Z., He, Y., Li, Y., Wang, Q., Fang, M., Yang, Q., … Xu, L. (2024). Effects of 
+deoxynivalenol and its acetylated derivatives on lipid metabolism in human normal 
+hepatocytes. Toxins, 16, 294. https://doi.org/10.3390/toxins16070294
+McCarthy, D. J., Chen, Y., & Smyth, G. K. (2012). Differential expression analysis of 
+multifactor RNA-Seq experiments with respect to biological variation. Nucleic Acids 
+Research, 40, 4288–4297. https://doi.org/10.1093/nar/gks042
+Mei, N., Guo, L., Tseng, J., Dial, S. L., Liao, W., & Manjanatha, M. G. (2008). Gene 
+expression changes associated with xenobiotic metabolism pathways in mice 
+exposed to acrylamide. Environmental and Molecular Mutagenesis, 49, 741–745. 
+https://doi.org/10.1002/em.20429
+Namorado, S., Martins, C., Ogura, J., Assunç˜ao, R., Vasco, E., Appenzeller, B., … 
+Alvito, P. (2024). Exposure assessment of the European adult population to 
+deoxynivalenol – Results from the HBM4EU aligned studies. Food Research 
+International, 198, Article 115281. https://doi.org/10.1016/j.foodres.2024.115281
+Palus, K. (2024). Dietary exposure to acrylamide has negative effects on the 
+gastrointestinal tract: A review. Nutrients, 16, 2032. https://doi.org/10.3390/ 
+nu16132032
+Payros, D., Dobrindt, U., Martin, P., Secher, T., Bracarense, A. P. F. L., Boury, M., … 
+Oswald, I. P. (2017). The food contaminant deoxynivalenol exacerbates the 
+genotoxicity of gut microbiota. mBio, 8, e00007–e00017. https://doi.org/10.1128/ 
+mBio.00007-17
+Pestka, J. J. (2008). Mechanisms of deoxynivalenol-induced gene expression and 
+apoptosis. Food Additives & Contaminants: Part A: Chemistry, Analysis, Control, 
+Exposure & Risk Assessment, 25, 1128–1140. https://doi.org/10.1080/ 
+02652030802056626
+Pinton, P., & Oswald, I. P. (2014). Effect of deoxynivalenol and other type B 
+trichothecenes on the intestine: A review. Toxins, 6, 1615–1643. https://doi.org/ 
+10.3390/toxins6051615
+Pons, B. J., Pettes-Duler, A., Naylies, C., Taieb, F., Bouchenot, C., Hashim, S., … 
+Vignard, J. (2021). Chronic exposure to cytolethal distending toxin (CDT) promotes 
+a cGAS-dependent type I interferon response. Cellular and Molecular Life Sciences, 78, 
+6319–6335. https://doi.org/10.1007/s00018-021-03902-x
+R Core Team (2022). R: A language and environment for statistical computing. R 
+Foundation for Statistical Computing, Vienna, Austria. URL http://www.R-project.or 
+g.
+Ribet, L., Kassis, A., Jacquier, E., Monnet, C., Durand-Dubief, M., & Bosco, N. (2024). The 
+nutritional contribution and relationship with health of bread consumption: A 
+narrative review. Critical Reviews in Food Science and Nutrition, 1–28. https://doi.org/ 
+10.1080/10408398.2024.2428593
+Rifai, L., & Saleh, F. A. (2020). A review on acrylamide in food: Occurrence, toxicity, and 
+mitigation strategies. International Journal of Toxicology, 39, 93–102. https://doi. 
+org/10.1177/1091581820902405
+C. Huertas et al.                                                                                                                                                                                                                                 
+Food Research International 214 (2025) 116633 
+10 
+
+Robinson, M. D., McCarthy, D. J., & Smyth, G. K. (2010). edgeR: A bioconductor package 
+for differential expression analysis of digital gene expression data. Bioinformatics, 
+Oxf. Engl., 26, 139–140. https://doi.org/10.1093/bioinformatics/btp616
+Rogakou, E. P., Nieves-Neira, W., Boon, C., Pommier, Y., & Bonner, W. M. (2000). 
+Initiation of DNA fragmentation during apoptosis induces phosphorylation of H2AX 
+histone at serine 139*. The Journal of Biological Chemistry, 275, 9390–9395. https:// 
+doi.org/10.1074/jbc.275.13.9390
+Rogakou, E. P., Pilch, D. R., Orr, A. H., Ivanova, V. S., & Bonner, W. M. (1998). DNA 
+double-stranded breaks induce histone H2AX phosphorylation on serine 139. The 
+Journal of Biological Chemistry, 273, 5858–5868. https://doi.org/10.1074/ 
+jbc.273.10.5858
+Sarion, C., Codin˘a, G. G., & Dabija, A. (2021). Acrylamide in bakery products: A review 
+on health risks, legal regulations and strategies to reduce its formation. International 
+Journal of Environmental Research and Public Health, 18, 4332. https://doi.org/ 
+10.3390/ijerph18084332
+Shiraishi, Y. (1978). Chromosome aberrations induced by monomeric acrylamide in bone 
+marrow and germ cells of mice. Mutation Research, Fundamental and Molecular 
+Mechanisms of Mutagenesis, 57, 313–324. https://doi.org/10.1016/0027-5107(78) 
+90216-6
+Song, D., Xu, C., Holck, A. L., & Liu, R. (2021). Acrylamide inhibits autophagy, induces 
+apoptosis and alters cellular metabolic profiles. Ecotoxicology and Environmental 
+Safety, 208, Article 111543. https://doi.org/10.1016/j.ecoenv.2020.111543
+Takakura, N., Nesslany, F., Fessard, V., & Le Hegarat, L. (2014). Absence of in vitro 
+genotoxicity potential of the mycotoxin deoxynivalenol in bacteria and in human 
+TK6 and HepaRG cell lines. Food and Chemical Toxicology, 66, 113–121. https://doi. 
+org/10.1016/j.fct.2014.01.029
+Thielecke, F., & Nugent, A. P. (2018). Contaminants in grain—A major risk for whole 
+grain safety? Nutrients, 10, 1213. https://doi.org/10.3390/nu10091213
+Wang, A., Chen, X., Wang, L., Jia, W., Wan, X., Jiao, J., Yao, W., & Zhang, Y. (2022). 
+Catechins protect against acrylamide- and glycidamide-induced cellular toxicity via 
+rescuing cellular apoptosis and DNA damage. Food and Chemical Toxicology, 167, 
+Article 113253. https://doi.org/10.1016/j.fct.2022.113253
+Wang, S., Wu, K., Xue, D., Zhang, C., Rajput, S. A., & Qi, D. (2021). Mechanism of 
+deoxynivalenol mediated gastrointestinal toxicity: Insights from mitochondrial 
+dysfunction. Food and Chemical Toxicology, 153, Article 112214. https://doi.org/ 
+10.1016/j.fct.2021.112214
+Waterman, D. P., Haber, J. E., & Smolka, M. B. (2020). Checkpoint responses to DNA 
+double-strand breaks. Annual Review of Biochemistry, 89, 103–133. https://doi.org/ 
+10.1146/annurev-biochem-011520-104722
+Weaver, A. C., Weaver, D. M., Adams, N., & Yiannikouris, A. (2021). Co-occurrence of 35 
+mycotoxins: A seven-year survey of corn grain and corn silage in the United States. 
+Toxins, 13, 516. https://doi.org/10.3390/toxins13080516
+Willoquet, B., Mirey, G., Labat, O., Garofalo, M., Puel, S., Penary, M., Soler, L., 
+Vettorazzi, A., Vignard, J., Oswald, I. P., & Payros, D. (2024). Roles of cytochromes 
+P450 and ribosome inhibition in the interaction between two preoccupying 
+mycotoxins, aflatoxin B1 and deoxynivalenol. Science of the Total Environment, 955, 
+Article 176937. https://doi.org/10.1016/j.scitotenv.2024.176937
+Yan, F., Wang, L., Zhao, L., Wang, C., Lu, Q., & Liu, R. (2023). Acrylamide in food: 
+Occurrence, metabolism, molecular toxicity mechanism and detoxification by 
+phytochemicals. Food and Chemical Toxicology, 175, Article 113696. https://doi.org/ 
+10.1016/j.fct.2023.113696
+Yousef, M. I., & El-Demerdash, F. M. (2006). Acrylamide-induced oxidative stress and 
+biochemical perturbations in rats. Toxicology, 219, 133–141. https://doi.org/ 
+10.1016/j.tox.2005.11.008
+Zhang, J., Zhao, Q., Xue, Z., Zhang, S., Ren, Z., Chen, S., … Liu, Y. (2023). 
+Deoxynivalenol induces endoplasmic reticulum stress-associated apoptosis via the 
+IRE1/JNK/CHOP pathway in porcine alveolar macrophage 3D4/21 cells. Food and 
+Chemical Toxicology, 180, Article 114033. https://doi.org/10.1016/j. 
+fct.2023.114033
+Zhang, X., Jiang, L., Geng, C., Cao, J., & Zhong, L. (2009). The role of oxidative stress in 
+deoxynivalenol-induced DNA damage in HepG2 cells. Toxicon, 54, 513–518. https:// 
+doi.org/10.1016/j.toxicon.2009.05.021
+Zhang, Y., Ouyang, B., Zhang, W., Guang, C., Xu, W., & Mu, W. (2024). Deoxynivalenol: 
+Occurrence, toxicity, and degradation. Food Control, 155, Article 110027. https:// 
+doi.org/10.1016/j.foodcont.2023.110027
+Zhao, L., Zhang, L., Xu, Z., Liu, X., Chen, L., Dai, J., … Sun, L. (2021). Occurrence of 
+aflatoxin B1, deoxynivalenol and zearalenone in feeds in China during 2018–2020. 
+Journal of Animal Science and Biotechnology, 12, 74. https://doi.org/10.1186/ 
+s40104-021-00603-0
+Zhou, Y., Zhou, B., Pache, L., Chang, M., Khodabakhshi, A. H., Tanaseichuk, O., … 
+Chanda, S. K. (2019). Metascape provides a biologist-oriented resource for the 
+analysis of systems-level datasets. Nature Communications, 10, 1523. https://doi.org/ 
+10.1038/s41467-019-09234-6
+C. Huertas et al.                                                                                                                                                                                                                                 
+Food Research International 214 (2025) 116633 
+11 

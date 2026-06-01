@@ -1,0 +1,1412 @@
+Citation: Scarian, E.; Viola, C.;
+Dragoni, F.; Di Gerlando, R.; Rizzo, B.;
+Diamanti, L.; Gagliardi, S.; Bordoni,
+M.; Pansarasa, O. New Insights into
+Oxidative Stress and Inflammatory
+Response in Neurodegenerative
+Diseases. Int. J. Mol. Sci. 2024, 25,
+2698. https://doi.org/10.3390/
+ijms25052698
+Academic Editors: Bruno Bonetti and
+Nicoletta Marchesi
+Received: 18 December 2023
+Revised: 19 February 2024
+Accepted: 21 February 2024
+Published: 26 February 2024
+Copyright: © 2024 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed
+under
+the
+terms
+and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).
+ 
+International Journal of 
+Molecular Sciences
+Review
+New Insights into Oxidative Stress and Inflammatory Response
+in Neurodegenerative Diseases
+Eveljn Scarian 1
+, Camilla Viola 1,2, Francesca Dragoni 3,4
+, Rosalinda Di Gerlando 3,4
+, Bartolo Rizzo 4
+,
+Luca Diamanti 5, Stella Gagliardi 4,*
+, Matteo Bordoni 1,†
+and Orietta Pansarasa 1,†
+1
+Cellular Models and Neuroepigenetics Unit, IRCCS Mondino Foundation, Via Mondino 2, 27100 Pavia, Italy;
+eveljn.scarian@mondino.it (E.S.); camilla.viola@mondino.it (C.V.); matteo.bordoni@mondino.it (M.B.);
+orietta.pansarasa@mondino.it (O.P.)
+2
+Department of Brain and Behavioral Sciences, University of Pavia, Via Agostino Bassi 21, 27100 Pavia, Italy
+3
+Department of Biology and Biotechnology “L. Spallanzani”, University of Pavia, Via Adolfo Ferrata, 9,
+27100 Pavia, Italy; francesca.dragoni@mondino.it (F.D.); rosalinda.digerlando@mondino.it (R.D.G.)
+4
+Molecular Biology and Transcriptomics Unit, IRCCS Mondino Foundation, Via Mondino 2, 27100 Pavia, Italy;
+bartolo.rizzo@mondino.it
+5
+Neuroncology Unit, IRCCS Mondino Foundation, Via Mondino 2, 27100 Pavia, Italy;
+luca.diamanti@mondino.it
+*
+Correspondence: stella.gagliardi@mondino.it; Tel.: +39-038-238-0248
+†
+These authors contributed equally to this work.
+Abstract: Oxidative stress (OS) and inflammation are two important and well-studied pathological
+hallmarks of neurodegenerative diseases (NDDs). Due to elevated oxygen consumption, the high
+presence of easily oxidizable polyunsaturated fatty acids and the weak antioxidant defenses, the brain
+is particularly vulnerable to oxidative injury. Uncertainty exists over whether these deficits contribute
+to the development of NDDs or are solely a consequence of neuronal degeneration. Furthermore,
+these two pathological hallmarks are linked, and it is known that OS can affect the inflammatory
+response. In this review, we will overview the last findings about these two pathways in the principal
+NDDs. Moreover, we will focus more in depth on amyotrophic lateral sclerosis (ALS) to understand
+how anti-inflammatory and antioxidants drugs have been used for the treatment of this still incurable
+motor neuron (MN) disease. Finally, we will analyze the principal past and actual clinical trials and
+the future perspectives in the study of these two pathological mechanisms.
+Keywords: oxidative stress; neurodegenerative diseases; amyotrophic lateral sclerosis; reactive
+oxygen species; inflammation
+1. Introduction
+Neurodegenerative diseases (NDDs) are a group of age-related disorders, which cause
+the death of neural cells of specific types [1]. They are more common in the community as the
+average age of the population rises, becoming a serious worldwide diffuse health problem [2].
+Annual incidence rates of NDDs are typically approximated at 10 to 15 per 100,000 people
+worldwide [3]. The diagnosis of NDDs is challenging because of the variety of clinical signs
+and symptoms and it is frequently only confirmed with a neuropathological investigation
+following the patient’s passing [4]. Despite their various symptoms, due to the distinct cell
+types and areas of the nervous system affected, they all manifest in two forms, a familial form
+and a sporadic one, not correlated with a familial history of the disease [1]. They share many
+pathological processes, including dysfunctions in the autophagosomal, ubiquitin/proteasomal,
+and lysosomal systems, proteins misfolding, and their aggregation. Moreover, they are all
+characterized by oxidative stress (OS) and neuroinflammation [5–7]. In this review, we will
+focus on the most common NDDs, Alzheimer’s disease (AD), Parkinson’s disease (PD),
+Huntington’s disease (HD), and amyotrophic lateral sclerosis (ALS), as well as on the role
+Int. J. Mol. Sci. 2024, 25, 2698. https://doi.org/10.3390/ijms25052698
+https://www.mdpi.com/journal/ijms
+
+Int. J. Mol. Sci. 2024, 25, 2698
+2 of 22
+of OS and neuroinflammation in these diseases. Furthermore, we will dig deeper into ALS
+and the use of antioxidant and anti-inflammatory drugs in its therapy.
+2. Oxidative Stress
+The term OS was first formulated in 1985 [8] and refers to an imbalance between
+oxidants and antioxidants in a biological system, either because of the presence of elevated
+levels of reactive oxygen species (ROS) or due to a deficient function of the antioxidant
+system [6]. In a metabolic system there is a redox balance: physiological deviations from
+this balance are referred to as “oxidative eustress”, whereas non-physiological deviations
+are defined as “oxidative distress” [9]. Although oxygen is essential for human life, because
+of its structure and the presence of two unpaired electrons, it has the tendency to form
+radicals, including ROS. ROS are a class of oxygen-derived reactive molecules with a short-
+term life and a high reactivity [6] and include superoxide anions (O2−), hydroxyl radical
+(OH), hydrogen peroxide (H2O2), nitric oxide (NO), and lipid radicals [10]. ROS can have
+both an exogenous and an endogenous production. Exogenous sources include specific
+pharmaceuticals, ionizing radiations, and the metabolism of environmental chemicals,
+whereas endogenous sources are mitochondrial or non-mitochondrial ROS-developing en-
+zymes [11]. In healthy cells, more than 90% of ROS are produced when an electron escapes
+from the electron transport chain in mitochondria and attaches to oxygen, whereas 10%
+of ROS are produced by enzymes, including dihydroorotate dehydrogenase, monoamine
+oxidase, and nicotinamide adenine dinucleotide phosphate oxidase [12,13]. Due to elevated
+oxygen consumption, in the brain, there is a high production of ROS, mainly due to electron
+transport chain complex 1, which contributes to the neurodegeneration of cells modulating
+important biomolecules, including DNA, RNA, proteins, lipids, and pathways, such as
+nucleic acid oxidation and lipid peroxidation [6]. Moreover, it was widely demonstrated
+that ROS can damage mitochondria affecting their proteins, lipids, and DNA, hampering
+their functions and leading to various diseases [14–16]. In complex organisms, such as
+humans, lipid and protein oxidation are more relevant than DNA oxidation, especially
+regarding NDDs, in which oxidized proteins acquire a toxic function and aggregate [13].
+Also noteworthy is the nitrosative stress, which refers to combined biochemical reactions of
+NO and O2−, with the production of peroxynitrite anions. Peroxynitrite anions, in turn, can
+lead to the nitration of proteins, lipids, and DNA, affecting the enzyme activity of mitochon-
+dria and finally causing cell death [17]. It was widely demonstrated that nitrosative stress
+is associated with OS, inasmuch that some ROS involved in OS act also in the formation
+and scavenging pathways of nitrogen species. The combination of both OS and nitrosative
+stress is involved in many different pathologies, including NDDs [18].
+There are many different mechanisms, both enzymatic and non-enzymatic, involved in
+the protection of the organism from the effects of ROS. The principal enzymatic antioxidants
+include the following: catalase, which is involved in the conversion of H2O2 to water and
+oxygen, using manganese or iron as cofactors; superoxide dismutases, which convert
+reactive O2−to less reactive H2O2 and oxygen; and glutathione peroxidase, which allows
+for the reduction of H2O2 and lipid peroxides. Besides that, non-enzymatic antioxidants
+include thioredoxin; glutathione; vitamins A, E, and C; flavonoids; proteins; and trace
+elements [19–21] (Figure 1).
+Numerous studies pointed out that OS-induced damages are key factors in the aging
+process and, consequently, in the development of NDDs. Various mitochondrial DNA
+deletions and a decrease in the number of antioxidants have been found in elderly in-
+dividuals [22–25]. For these reasons, it is evident that treatments using antioxidants are
+fundamental to act against OS in mitochondria. To maintain mitochondrial homeostasis,
+drugs should accumulate in the mitochondria and interact with their targets. Conventional
+antioxidants do not accumulate in disease mitochondria, but in recent years, mitochondria-
+targeted antioxidant (MTA) compounds have been developed [26,27]. These compounds
+are antioxidant molecules conjugated with a carrier, such as triphenylphosphonium (TPP),
+which allows for the transport of antioxidants through cellular membranes, thanks to its
+
+Int. J. Mol. Sci. 2024, 25, 2698
+3 of 22
+lipophilicity [28]. They act by interrupting the intramitochondrial cascade caused by OS
+and lead to apoptosis [27].
+Figure 1. Redox balance and imbalance in organisms. (a) The redox balance in living organisms
+is maintained by the equilibrium between reactive oxygen species (ROS) levels and the action
+of antioxidants. O2−= superoxide anions, OH = hydroxyl radical, H2O2 = hydrogen peroxide,
+NO = nitric oxide, MTA = mitochondria-targeted antioxidant. (b) Moreover, both physiological
+and non-physiological deviations in ROS levels could occur leading to oxidative eustress and ox-
+idative distress, respectively. Oxidative distress causes lipid and protein oxidation, DNA damage,
+mitochondria damage and finally cellular death (figure created with Biorender.com accessed on 28
+January 2024).
+Different studies have demonstrated that the treatment using MTA compounds has
+beneficial effects against mitochondria OS. Among them, mitoquinone, resulted from the
+conjugation of a triphenylphosphonium carrier and a modified ubiquinone, is the most
+known, inasmuch as it acts in the scavenging of ROS in the mitochondria and remains
+active for a long time [29]. MitoVitE, derived from the conjugation of TPP and α-tocopherol,
+a type of vitamin E, acts by counteracting lipid peroxidation, protecting mitochondria and
+cells from OS and reducing apoptosis [29,30]. Finally, MitoTEMPO, composed of (2,2,6,6-
+Tetramethylpiperidin-1-yl)oxyl and TPP, acts by converting mitochondrial superoxide into
+water [31].
+A valide alternative to TPP-targeting is the encapsulation of antioxidants in lipo-
+somes. Liposome-encapsulated antioxidants allow for the delivery of antioxidants, such as
+quercetin, N-acetyl-L-cysteine, and vitamin E, without altering their structures and bioac-
+tivity. They enter the cells via micropinocytosis, fusing with the mitochondrial membrane
+and releasing the antioxidants [26].
+3. Neuroinflammation
+Inflammation is the response of the immune system to adverse factors, including
+pathogens and toxic molecules. Normally, the inflammatory response acts as a defense
+mechanism to restore tissue homeostasis. When the tissue is injured, a chemical signaling
+cascade occurs, activating leukocyte chemotaxis at the site of injury. Leukocytes produce
+cytokines and induce the inflammatory response, characterized by swelling, heat, redness,
+pain, and a loss of tissue function [32,33]. It is a complex mechanism with the involvement
+of different cell types, including macrophages, monocytes, lymphocytes, and mast cells [34].
+The inflammation resolution process occurs with a cessation of neutrophils’ action and
+with a reduction in cytokines’ gradient [32,35]. When immediate inflammatory responses
+to tissue injury are ineffective, chronic inflammation rises [36].
+The term neuroinflammation refers to the inflammatory response in the brain and
+it is one of the main characteristics of NDDs. It could be defined as the inflammatory
+response to factors that cause a change in the homeostasis in the central nervous system
+
+Int. J. Mol. Sci. 2024, 25, 2698
+4 of 22
+(CNS) [13]. It was widely demonstrated that the inflammatory response in the brain can
+cause cell injury and increase the blood–brain barrier permeability, leading to a decrease
+in its protective role [32]. In brain diseases characterized by inflammation, there is the
+activation of the brain’s immune cells and microglia, which form the primary innate
+immunity of brain, with the consequent activation of inflammatory mediators, including
+cytokines, chemokines, secondary messengers, and ROS [37–39]. Moreover, microglia
+undergo cytoskeletal modifications and changes in receptors’ expression, which allow for its
+migration toward sites of injury [40]. Curiously, CNS protection and host-organism benefits
+are the goals of microglial activation and of increased cytokine expression, which are
+also important for processes such as synaptic pruning and memory consolidation [41–45].
+However, persistent, excessive, or amplified microglial activation can result in significant
+pathogenic alterations [40]. Moreover, it was observed that astrocytes play a critical role in
+the infiltration of CNS by leukocytes, represented mainly by lymphocytes and mononuclear
+phagocytes [46].
+The inflammatory process is directly linked with OS. ROS can promote the expression
+of pro-inflammatory genes and, simultaneously, neuroinflammation can stimulate ROS
+production. In a physiological condition, in which redox balance occurs, the inflammatory
+response acts as a defense mechanism. On the contrary, under pathological conditions, the
+redox imbalance causes the activation of inflammatory mechanisms, leading to the secretion
+of pro-inflammatory molecules and of neoepitopes [46,47]. In parallel, pro-inflammatory
+cytokines, including interleukines (interleukin 1β and interleukin 6), interferons, and tumor
+necrosis factor, induce the generation of ROS in non-phagocytic cells, principally by the
+activation of NADPH oxidase (NOX) [46].
+Both OS and inflammation are involved in NDDs’ pathogenesis, causing common and
+different manifestations Their involvement is synthesized in Figure 2 and will be discussed
+in the next paragraphs.
+Figure 2. Clinical manifestations of OS and inflammation in four different neurodegenerative diseases
+(NDDs): Alzheimer’s disease (AD), Parkinson’s disease (PD), Huntington’s disease (HD), and
+amyotrophic lateral sclerosis (ALS) (figure created with Biorender.com accessed on 28 January 2024).
+4. Oxidative Stress and Inflammation in AD, PD, and HD
+AD is the most common type of dementia and it is caused by the loss of cognitive and
+behavioral capacities, due to the death of neurons of the neocortex, enthorinal cortex, and
+hippocampus [48]. It is characterized by the accumulation of neurotoxic beta-amyloid (Aβ)
+oligomer peptides and of tau protein, which causes neuroinflammation, neurotransmitter
+
+Int. J. Mol. Sci. 2024, 25, 2698
+5 of 22
+imbalance, dendritic alterations, and synaptic impairments, all linked to the neurodegenera-
+tion [6]. Numerous studies have reported that OS induced by the accumulation of toxic Aβ
+peptides causes lipids, proteins, and DNA oxidation. Accumulation of Aβ plaques causes
+different damages, including the disruption of the electron transport chain via cytochrome
+oxidase inhibition, inevitably leading to OS [48–51]. Moreover, decreased levels of antioxi-
+dant enzymes were found in AD patients [52,53]. An important role of biometals, such as
+zinc, iron, and copper, was widely demonstrated in AD neurodegeneration, inasmuch as
+they have been frequently found in Aβ plaques. This causes a deficiency of such metals,
+important cofactors for antioxidant enzymes in brain cells [54–56]. Moreover, Cu2+ and
+Zn2+ can bind peptides causing a redox reaction and leading to the production of ROS [57].
+Numerous clinical trials have focused on the association between AD and OS, studying
+the effects of fatty acid supplementation, with some beneficial effects, most of all in cognitive
+assessment [58–60]. For example, it was demonstrated that eicosapentaenoic and docosa-
+hexaenoic acids have antioxidant, anti-apoptotic, anti-inflammatory, and neurotrophic
+properties, enhancing nerve growth factor levels and improving cognitive function [60].
+Various studies have demonstrated that AD is characterized by a chronic pro-inflammatory
+condition in the brain, including both astro- and microgliosis. Aβ-associated depositions
+cause an increase in pro-inflammatory cytokines’ production by microglia, and, in turn,
+systemic inflammation enhances β-amyloid generation in the brain [61–63]. Moreover, it
+was recently demonstrated that cytokines produced by microglia, including interleukin
+1α, tumor necrosis factor α, and complement component C1q, activate reactive astro-
+cytes involved in neuronal death. Neuroinflammation might prime microglia for such
+activation [64].
+PD is a NDD characterized by the loss of midbrain dopaminergic neurons of the
+substantia nigra pars compacta, causing a reduction of the dopaminergic input to basal
+ganglia and a hyperactivation of the cholinergic one. The aberrant activation of these
+pathways contributes to difficulties in memory and learning, and, above all, to the loss of
+control in motor functions [65].
+OS and the overproduction of ROS are important factors involved in degeneration of
+dopaminergic neurons. The accumulation of ROS was associated with different mecha-
+nisms including the metabolism of dopamine itself, mitochondrial dysfunctions in neurons
+and neuroglia, inflammation, and increased levels of iron and calcium [13,66,67]. It was
+also observed that neurons of substantia nigra accumulate granules of neuromelanin, a
+pigment which can cause ROS production. Moreover, it was demonstrated that alterations
+in neuromelanin composition and density can cause α-synuclein aggregation and iron
+accumulation [68].
+Additionally, PD mutations, including the ones on DJ-1, PINK1, Parkin, SNCA, and
+LRRK2, have numerous consequences on mitochondrial functions, causing an exacerbation
+of ROS production [69,70]. With regard to dopamine metabolism, this neurotransmitter is
+an unstable molecule that is prone to auto-oxidation to form quinones and free radicals.
+Numerous enzymes are involved in its metabolism and in its degradation by catalyzing
+its oxidative deamination. However, due to neuronal degeneration, there is an imbalance
+of these enzymes, which causes the production of ROS [69,70]. Moreover, two enzymes
+are involved in the defense against ROS, dopamine transporter and vesicular monoamine
+transporter 2. They both are involved in the uptake of free dopamine from synapses and
+in its packing into synaptic vesicles to be protected from oxidation. It was demonstrated
+that dopamine transporter concentration declines with age and that vesicular monoamine
+transporter 2 is inhibited by α-synuclein, the presynaptic neuronal protein which is found
+aggregated in PD [68]. Finally, it was proved that in PD patients’ brains, there is a de-
+creased concentration of important antioxidants, such as glutathione and vitamin E, and
+an alteration in the levels of calcium, iron, and lipids [71–76]. As for AD, also for PD,
+numerous clinical trials have been focused on OS in PD and have studied the deficiency of
+antioxidants in this pathology and how to ameliorate ROS-caused symptoms. For example,
+
+Int. J. Mol. Sci. 2024, 25, 2698
+6 of 22
+a still ongoing phase II clinical trial is evaluating the effect of the antioxidant N-acetyl
+cysteine on the dopaminergic function of PD patients [13].
+The important role of neuroinflammation in PD was widely demonstrated, mainly
+due to the activation of microglia and astrocytes. Microglial cells would specifically harm
+dopaminergic neurons because they are more prevalent in the midbrain than in the other
+brain areas. It was proved that there was an abundant presence of reactive astrocytes
+and microglia and an increase in the complement component C1q in the substantia nigra
+of PD-affected subjects, suggesting PD-associated neuroinflammation [77–80]. Moreover,
+microglia-activated neuroinflammation mediators, such as cytokines and interleukins, have
+been detected in the cerebrospinal fluid (CSF) of PD patients [81]. Eventually, the fact that
+the human leukocyte antigen was found to be a risk factor for PD demonstrated that there
+is a possibility of a more general pro-inflammatory state in PD, not caused by neuronal loss,
+although it can worsen the neuroinflammation as well [82].
+HD is an inherited NDD that occurs in young individuals. It is a protein-misfolding
+disease, where the huntingtin protein is mutated and causes an aberration in normal
+biological functions interacting with other proteins [83]. The mutant protein gains a toxic
+function leading to OS and inflammation. However, it is still not clear whether OS causes
+HD or it is a consequence of earlier events and the studies about this aspect are fewer
+than for other NDDs [84]. Oxidative damage in cells and tissues in HD models and
+patients has been reported. Lipid peroxidation, protein oxidation, and DNA damage
+have been linked to this pathology and to huntingtin mutation [85–90]. As for the other
+NDDs, an accumulation of metal ions, especially iron and copper, and a decrease in
+antioxidant concentrations have been found [91–95]. Moreover, mitochondrial dysfunctions
+have been detected in HD patients’ brains [96,97]. It was recently demonstrated that the
+deregulation of HSF1, a transcriptional regulator of the heat shock response, contributes to
+mitochondrial dysregulation in HD, by impairing the peroxisome proliferator co-activator
+PGC-1α and its downstream targets such as the mitochondrial transcription factor TFAM
+and cytochrome c [97]. Neuronal death can activate inflammatory mechanisms, which in
+turn cause neurodegeneration leading to a vicious cycle [98]. Elevated levels of cytokines
+have been found in fluids of both animal models and HD patients [99–103]. Unfortunately,
+until now, anti-inflammatory and antioxidant agents have rarely achieved effectiveness in
+HD treatment [103].
+5. Oxidative Stress and Inflammation in ALS
+ALS is an NDD which affects the upper and lower motor neurons (MNs) of the cortex,
+brainstem, and spinal cord, causing the death of patients within three to five years after
+symptoms’ onset. There are two types of ALS, a sporadic form and a familial one, which
+can be related to both mutations in specific genes and to epigenetic factors. Despite ALS
+principal symptoms being related to motor dysfunctions, patients often show signs of
+behavioral and cognitive impairment [1,104].
+There are different factors involved in ALS onset and progression including the presence
+of OS. In fact, different studies reported OS hallmarks in ALS patients and animal models.
+Oxidative damage was found in lipids and proteins of post-mortem tissues, as well in plasma,
+urine, and CSF [105–109]. Moreover, it was demonstrated that nerve terminals are sensitive to
+ROS and to inflammation, amplifying the decline of neuromuscular junctions [110]. OS was
+often associated with gene mutations, especially in SOD1. SOD1 catalyzes the conversion of
+O2−into H2O2 and molecular oxygen, which are nontoxic for the cells. Specific SOD1 muta-
+tions lead to a higher peroxidase activity and convert H2O2 to hydroxide, which inactivates
+the dismutase structure. Furthermore, O2−leads to peroxynitrite production and finally to
+neuronal death [111]. It is obvious that mutations in this gene can cause serious problems in
+respiration and the metabolic activities of cells [112]. The gain of function of mutant SOD1
+and aberrant aggregation of this protein were associated with MNs’ death in ALS patients.
+SOD1 protein aggregation contributes to dysfunction of the ubiquitin/proteasome system and
+
+Int. J. Mol. Sci. 2024, 25, 2698
+7 of 22
+interferes with mitophagy. In addition, mutant SOD1 leads to impairment in the respiratory
+chain of mitochondria [113–115].
+TARDBP encodes for the TDP-43 protein, involved in many different processes, in-
+cluding RNA transcription, maturation, transport, and translation. It also participates in
+intracellular stress management, taking part in the biogenesis and maintenance of stress
+granules. Mutation in TARDBP causes TDP-43 aggregation and cytoplasmic mislocal-
+ization, but TDP-43 inclusions were found also in non-mutated patients [111,116]. In
+turn, aggregated TDP43 causes a mitochondrial imbalance that increases OS [117–119].
+It was found that OS induces conformation modifications in TDP-43, causing cysteine
+disulphide cross-linking or promoting lysine acetylation, leading to TDP-43 aggregation
+and its acquisition of an aberrant function [120,121]. Finally, mutated TARDBP decreases
+antioxidant expression [122,123], influencing the nuclear factor erythroid-2-related factor 2
+(Nrf2) antioxidative pathway. TDP43 was also found in stress granules, structures formed
+in response to stress. In 2011, Dewey and co-authors demonstrated that both wild-type
+and mutant TDP-43 form stress granules, but mutant TDP-43 sets up larger ones and
+incorporates them earlier [123,124].
+Other common ALS-associated gene mutations include the ones in FUS and in
+C9ORF72. FUS encodes for an RNA/DNA-binding protein and it is implicated in RNA
+metabolism and DNA repair. It was demonstrated that FUS deficits and mutations fail to
+repair OS-caused DNA damage due to nick ligation defects, eventually leading to MNs’
+death [125]. As for TDP-43, mutations in FUS cause mitochondria damage, a decrease in mi-
+tochondrial membrane potential and respiration, and a dysregulation in mitochondrial gene
+transcription [126,127]. In 2020, Tsai and co-authors demonstrated that in FUS-mutated
+cells, FUS protein associates with mitochondria and with mRNAs encoding mitochondrial
+respiratory chain components. This association causes mitochondrial networks’ disorgani-
+zation, impairment in aerobic respiration, and an increase in ROS production [126].
+Finally, C9ORF72 is the most commonly mutated gene in ALS patients. In 2016,
+Onesto and co-authors found that ROS production in C9ORF72 mutated ALS patients’
+cells, causing hyperpolarization of mitochondrial membranes [128]. More recently, Birger
+and co-authors demonstrated that astrocytes carrying the C9ORF72 expansion inhibit the
+production of antioxidant molecules, enhancing OS also in MNs [129]. Additionally, it was
+found that mutations in this gene increase O2−levels and reduce mitochondrial potential
+and cell survival [130].
+However, signs of OS, including protein and lipid peroxidation, were found in non-
+mutated ALS cases as well [131–133] and were associated with a decrease in antioxidant
+enzymes’ activity and with a possible pro-oxidative state [134].
+As for other NDDs, it is difficult to determine if oxidative damage is a primary cause or
+a secondary consequence of ALS. Moreover, it is very problematic to evaluate OS markers
+at an early stage of the disease, ruling out the possibility of evaluating if oxidative damage
+appears early or late in its course [133]. Nevertheless, animal models have brought some
+insights into this context. For example, in 2007, Kraft and co-authors obtained a mutant
+SOD1 mouse and found an activation of nuclear Nrf2—an antioxidant response element
+during the disease course. The earliest activation occurred in distal muscles of mice and
+subsequently caused MN loss [135]. Vande Velde and co-authors arrived at the same
+conclusions in 2011. They found that mutant SOD1 causes mitochondria disruption at an
+early pathogenic stage [136].
+The exact oxidative mechanism in ALS is still to be determined, and the involvement
+of mitochondria in this process is not clear. Moreover, Edaravone, a drug approved in
+the USA for alleviating ALS symptoms, involved in lipid peroxides and hydroxyl radical
+elimination, is not particularly effective in disease treatment [137]. In 2019, Walczak and
+co-authors compared ALS patients and control subjects in terms of mitochondrial function
+and antioxidant enzymes, and they found a decreased expression in ALS patients’ mito-
+chondria complexes I, II, III, and IV proteins; in mitochondrial membrane potential; and in
+SOD1 and catalase, both antioxidant enzymes [138]. In addition, ALS patients carrying mu-
+
+Int. J. Mol. Sci. 2024, 25, 2698
+8 of 22
+tations in CHCHD10, involved in ALS pathology and in mitochondrial cristae morphology
+maintenance, manifest fibroblasts with mitochondrial damage and mitochondrial network
+fragmentation [139].
+With regard to oxidative DNA damage, 8-hydroxy 2 deoxyguanosine is the most
+abundant oxidative alteration in DNA, inasmuch as guanine has a low electron reduction
+potential [137]. Elevated levels of 8-hydroxy 2 deoxyguanosine were found in the motor
+cortex and spinal cord DNA of ALS patients [140,141]. Furthermore, signs of p53 activation,
+indicating the apoptosis process, were found in both ALS cellular models and in ALS
+patients [125,141–143]. Altered levels of antioxidant enzymes were found in ALS.
+Apurinic/apyrimidinic endonuclease 1 is an enzyme involved in redox regulation and
+in DNA repair. Its concentration and localization were altered in both ALS patients and
+animal models [144–146]. In addition, alterations in the levels of 8-oxoguanine glycosylase,
+involved in the removal of oxidized guanine, were found in spinal MNs of both sporadic
+and mutated ALS cases [144,147].
+OS can also bring about abnormalities in RNA metabolism, which in turn can cause OS.
+It was found that oxidative RNA modifications occur early in the disease progression and
+precede MN death. Proteins encoded by TARDBP, FUS, and SOD1 are involved in miRNA
+processing and some miRNAs regulate the expression of genes involved in OS [137].
+In 2017, Pegoraro and co-authors found an upregulation of both muscle-specific and
+inflammatory miRNAs in ALS patients compared to control subjects and this upregulation
+was associated with an earlier age of symptoms onset. Moreover, they found differential
+miRNA expressions in muscles from males and females, suggesting the influence of sexual
+hormones [148]. The expression of miR-388-3p, involved in both mitochondrial function
+and apoptosis, was found increased in SOD1 mutant mice [149], while the expression of
+miR-34a, involved in OS regulation, was found decreased in both ALS patients and mouse
+models [150,151]. MiR-155, involved in inflammatory response and mitochondrial function,
+was found upregulated in skeletal muscles of ALS patients and in the spinal cord of SOD1
+mice [152–154].
+Finally, hyperexcitability is a decisive characteristic of ALS, and it was detected be-
+fore early clinical symptoms, with a strengthening which causes disruption in energy
+metabolism, mitochondrial disfunctions, and increased OS [155–157]. This altered neu-
+ronal excitability and the consequent manifestation of OS were associated with defects
+in ion channels, including sodium, potassium, calcium, and chloride ones, of neuronal
+and non-neuronal cells [158]. In fact, while most ALS patients do not manifest deleterious
+mutations in ion channel-associated genes, many studies reported alterations in channels
+in both mutated and non-mutated ALS subjects and animal models [158,159]. Already in
+2006, Kaiser and co-authors demonstrated a reduction in potassium channels in SOD1G93A
+mice leading inevitably to MN death. More recently, alterations in chloride channels were
+associated with muscle channelopathies, atrophy, and OS [160,161] and the decreased
+expression of calcium channels in the spinal MNs of SOD1G93A mice was correlated with
+excess mitochondrial calcium and the production of ROS [162,163].
+Noteworthy, Riluzole acts by blocking voltage-gated channels, especially sodium ones,
+allowing for the inhibition of glutamate release in presynaptic terminals and interfering
+with the excitatory transmission caused by this amino acid [164].
+With regard to the inflammatory response, alterations in the immune system can cause
+an increase in neuroinflammation in ALS patients which has been associated with neuronal
+loss in both animal models and in humans [134]. Alterations were observed in all the
+cell types involved in inflammation, including microglia, astrocytes, lymphocytes, and
+macrophages. Activated microglia were found in both ALS patients and animal models,
+and they were correlated with MN deficits [165–167]. The loss of function of C9ORF72
+causes alterations in microglia, macrophages, and neuroinflammation [168]. In addition,
+different studies have demonstrated a defective lysosomal system with the accumulation
+of innate immune cells in C9ORF72 mutated mice [169–171].
+
+Int. J. Mol. Sci. 2024, 25, 2698
+9 of 22
+Many studies have demonstrated that microglia activation and their switch from
+a protective phenotype to a deleterious one can be mediated by the receptor P2X7, the
+inhibition of which may provide positive outcomes in ALS patients [172–175]. Furthermore,
+injured MNs induce microglia to acquire a cytotoxic phenotype with the consequent
+release of ROS and pro-inflammatory cytokines [176–179]. Among them, interleukin 6 was
+correlated with disease progression in ALS [180]. A more recent study tested a cohort of
+53 ALS patients through positron emission tomography. Authors used [11C]-PBR28, a
+radiotracer that binds to a protein typically expressed in activated microglia, and found
+that glial activation is increased in the pathological brain region and is correlated with
+clinical measures [181].
+Even mutated astrocytes are toxic to normal MNs, causing their death [182–184]. In
+2017, Qian and co-authors demonstrated that both non-MNs and MNs degenerate after ALS
+astrocyte transplantation, suggesting that neural degeneration is not specific to MNs and that
+the astrocyte-mediated neuronal death occurs through a non-cell autonomous toxicity [185].
+Moreover, ALS causes the loss of glutamate transporter on astrocytes, responsible for the
+uptake of excess glutamate from synaptic clefts. It was demonstrated that the inefficient
+glutamate uptake exacerbates MN degeneration [186,187]. As well as microglia, astrocytes
+exert toxic effects on MNs by secreting pro-inflammatory molecules, including NO, NOX2,
+prostaglandin E2, and leukotriene B4, or inducing necroptosis [188–191].
+In addition to astrocytes and microglia, dysregulation in T lymphocytes and macrophages
+was observed in ALS patients and ALS animal models [192–197]. In 2020, Chiot and
+co-authors demonstrated that the replacement of macrophages in SOD1 mice by more
+neurotrophic macrophages led to a decrease in macrophage and microglia activation.
+Moreover, they found that when the replacement occurs in pre-symptomatic stages, it
+causes a delay in disease onset, whereas when it occurs at the disease onset, it is able to
+increase mice survival [198].
+6. ALS Therapeutic Approaches Related to OS and Inflammation
+Several trials to find therapies for ALS have been conducted or are still on course,
+and some of them are related to OS. In this regard, one of two drugs approved in the
+USA for the treatment of ALS, Edaravone, acts as a scavenger of ROS, thus preventing
+OS propagation [199,200]. In a recent study, Ohta and co-authors demonstrated that in the
+CSF and plasma of ALS patients, there is a reduction in antioxidant capacities, measured
+using the OXY-adsorbent test, which is reversed by Edaravone treatment [201]. The other
+approved drug, Riluzole, blocks glutamatergic neurotransmission and inhibits glutamate
+release. Different studies have proved that it can also attenuate OS injuries in in vitro
+and in vivo ALS models [202,203]. However, the exact mechanism of action of Riluzole is
+still unknown.
+Studies have been performed also on molecules which upregulate genes containing the
+antioxidant response element. Among them, sulforaphane activates the Nrf2/antioxidant
+response element pathway but did not show effects in ALS treatment [204,205]. A lim-
+itation in the use of sulforaphane could be that the combination of sulforaphane and
+antioxidants reduces the protective effects of sulforaphane itself, specifically in the induc-
+tion of autophagy [206]. Moreover, further studies have pointed out possible side effects of
+sulforaphane, which can induce a lowering of the seizure threshold in mice [207] and can
+influence thyroid activity [208]. More recently, CuATSM, a positron emission tomography-
+imaging agent which is able to deliver copper to cells with altered mitochondria, has been
+proved to extend the survival and to delay ALS onset in SODG93A mice, acting on OS
+response [209,210]. However, it is not tolerated at a high dose in mice, causing toxicity
+signs including motor aberrations, weight loss, and low activity [190].
+Studies have also focused on mitochondrial-targeting drugs, such as mitoquinone and
+Szeto-Schiller peptides, which act by decreasing oxidative damage and maintaining normal
+mitochondrial function [111,211]. Additionally, the p62-mediated mitophagy inducer was
+seen as a promoter of the quality control of mitochondria and an inducer of autophagy in
+
+Int. J. Mol. Sci. 2024, 25, 2698
+10 of 22
+damaged organelles, without evident adverse effects, acting as a potential ALS therapeutic
+molecule [212,213].
+Other promising approaches to reduce OS are the use of phytochemicals, such as
+quercetin, which decreases ROS in SOD1 mutated cells [214] but could, however, have
+possible nephrotoxic effects and interact with other drugs [215], and the use of cannabidiol
+or the target of cannabinoid receptors [216–218]. Finally, many studies have suggested
+the possibility to use modifiers of OS-related molecules, such as NOX inhibitors. NOX
+activity is unregulated in ALS patients and animal models, causing inflammation and
+glial activation. It was observed that the use of NOX inhibitors, such as perphenazine,
+thioridazine, and apocynin, reduces O2−levels, increases the numbers of MNs, and extends
+the lifespan, but it could have also sedative effects [219,220].
+Despite different approaches, finding a definitive drug is difficult, because the direct
+pathogenic mechanism of ALS is not clear. One promising option would be the design of
+antioxidant therapies also associated with anti-inflammatory therapeutics [110]. Multiple
+anti-inflammatory compounds have been tested and have been shown to be effective
+for ALS treatment, especially in animal models. Minocycline was tested on ALS animal
+models, demonstrating a high efficacy in reducing MN loss, extending mice survival,
+and suppressing microglia activation [221,222]. However, a phase III trial on 412 ALS
+patients revealed harmful effects, including gastrointestinal, respiratory, and neurological
+ones, without significant results on disease progression [223]. On the contrary, a recently
+concluded phase II trial on NP001, a regulator of macrophage activation, revealed the
+good tolerability of this compound, leading to the slowing of ALSFRS-R and vital capacity
+scores in a subgroup of treated patients [224,225]. The only side effect reported was
+higher infusion-related sensations of burning [225]. Better results were obtained with
+the use of masitinib, a tyrosine-kinase inhibitor, that is able to decrease aberrant glial
+cells, microgliosis, and MN degeneration in mice [226]. The clinical trial on ALS patients
+demonstrated a slowing in functional decline in patients and a prolonged survival by over
+two years, with the most common side effects including maculopapular rash and peripheral
+edema [227,228].
+In the field of drug repurposing, Fingolimod, a modulator of sphingosine-1-phosphate
+receptor approved for the treatment of relapsing remitting multiple sclerosis, was tested
+on SOD1 mutated mice and was observed to act on inflammation, having beneficial
+effects modulating microglia and innate immunity and reducing the levels of inducible
+NO synthase [229]. In a recent phase II trial, Fingolimod resulted as well tolerated by ALS
+patients and showed the possibility to reduce circulating lymphocytes, with no serious
+adverse events [230]. Moreover, it was demonstrated that Fingolimod acts also on OS,
+reducing the levels OS markers and increasing antioxidants, especially SOD [231,232]. A
+recent study by Yevgi and Demir tested the action of this drug on multiple sclerosis patients
+and demonstrated a reduction in the total OS after three months of treatment [233].
+Other studies focused on the use of immune modulatory drugs. In a pilot trial of
+2019, authors treated ALS patients with RNS60, an immune-modulatory agent, demon-
+strating its safety and tolerability, with common adverse effects including falls, headaches,
+nasopharyngitis, and contusions and no serious adverse effects [234]. More recently, a trial
+targeted T cells with a low dose of interleukine 2, demonstrating a high tolerability and
+an immunologically efficacy in ALS patients, with an increase in Treg levels. No serious
+adverse events were reported and the non-serious adverse effects were transient [235].
+Moreover, numerous studies have focused on cell-based treatments, especially for the use
+of mesenchymal, embryonic, and neural progenitor cells [236,237].
+Finally, it was demonstrated that the regular use of anti-hypertensive drugs could
+have a protective role against ALS incidence. Hypertension is one of the most common
+comorbidities in ALS and it was related to progression, incidence, and survival, mainly for
+the involvement of angiotensin 2 in ROS production. Angiotensin 2 is a potent stimulator of
+NAD(P)H oxidase, one of the major sources of ROS. ROS generated by NAD(P)H oxidase
+can induce the production of other ROS and could lead to inflammation [238–241]. In 2020,
+
+Int. J. Mol. Sci. 2024, 25, 2698
+11 of 22
+Pfeiffer and co-authors demonstrated that numerous hypertension drugs, including beta
+blockers, angiotensin-converting enzyme inhibitors, calcium channel blockers, diuretics,
+and angiotensin 2 receptor blockers, were correlated with a lower risk of ALS [242].
+Moreover, it was demonstrated that the angiotensin system can be involved in different
+NDDs and that its blocking can be a new method for neuroprotection [243–245].
+These studies demonstrated that many drugs tested are effective in animal models
+but not in clinical practice. This gap can be explained by the complexity of the ALS disease
+mechanism and by the fact that preclinical models could not completely recapitulate the
+disease processes which occur in humans [246.
+The still ongoing clinical trials, testing the efficacy of the abovementioned drugs, are
+reported in Table 1.
+Table 1. Ongoing clinical trials. List of the still ongoing clinical trials of the mentioned drugs
+(https://clinicaltrials.gov accessed on 29 January 2024).
+Drug
+Action Mechanism of
+the Drug
+Name of the Trial
+Clinical Trial ID
+Clinical Trial Phase
+Edaravone
+Scavenger of ROS
+Study to investigate the efficacy and
+safety of FAB122 (daily oral
+Edaravone) in patients with
+amyotrophic lateral sclerosis
+NCT05178810
+Phase III
+Radicava® (Edaravone) Findings in
+Biomarkers from ALS (REFINE-ALS)
+NCT04259255
+Phase IV
+Riluzole
+Glutamatergic
+neurotransmission
+blocking
+Treatment combining riluzole and
+IFB-088 in bulbar amyotrophic lateral
+sclerosis (TRIALS protocol)
+NCT05508074
+Phase II
+Cannabidiol and
+cannabinoids
+OS reducing
+Outcomes Mandate National
+Integration with Cannabis as Medicine
+(OMNI-Can)
+NCT03944447
+Phase II
+Safety and efficacy on spasticity
+symptoms of a cannabis sativa extract
+in motor neuron disease
+NCT01776970
+Phase II and phase III
+Efficacy of Cannabinoids in
+Amyotrophic Lateral Sclerosis or
+Motor Neurone Disease
+NCT03690791
+Phase III
+EMERALD TRIAL Open Label
+Extension Study (EMERALD-OLE)
+NCT04997954
+Phase IV
+Masitinib
+Anti-inflammatory
+compounds
+Efficacy and Safety of Masitinib Versus
+Placebo in the Treatment of ALS
+Patients
+NCT03127267
+Phase III
+RNS60
+Immune modulatory
+drug
+Nebulized RNS60 for the Treatment of
+Amyotrophic Lateral Sclerosis
+NCT02988297
+Phase II not yet
+recruiting
+Stem cells
+Immune system
+modulator
+The Evaluation of the Effect of
+Mesenchymal Stem Cells on the
+Immune System of Patients with ALS
+(ALSTEM)
+NCT04651855
+Phase I and II
+Derivation of Induced Pluripotent
+Stem Cells from an Existing Collection
+of Human Somatic Cells
+NCT00801333
+Observational
+CNS10-NPC-GDNF Delivered to the
+Motor Cortex for ALS
+NCT05306457
+Phase I
+Neurologic Stem Cell Treatment Study
+(NEST)
+NCT02795052
+Interventional
+Development of iPS From Donated
+Somatic Cells of Patients with
+Neurological Diseases
+NCT00874783
+Interventional
+Calcium channel
+blockers
+ROS reducer
+Rho Kinase Inhibitor in Amyotrophic
+Lateral Sclerosis (REAL)
+NCT05218668
+Phase II
+7. Conclusive Remarks
+OS and inflammation are important mechanisms involved in NDDs and, among
+them, in ALS pathology. They can be caused by external or internal triggers, such as
+
+Int. J. Mol. Sci. 2024, 25, 2698
+12 of 22
+chemicals and ROS-developing enzymes, respectively, but they always lead to pathological
+aberrations, including DNA and RNA damage, mitochondrial dysfunction, and cell death.
+Despite many studies focused on their role in neurological diseases, uncertainty still exists
+over whether they contribute to the development of NDDs or are solely a consequence of
+neuronal degeneration. This review summarized the recent findings on the involvement of
+these two pathological pathways in NDDs, with a specific focus on ALS. We highlighted that
+all the discussed NDDs, i.e., AD, PD, HD, and ALS, are characterized by an oxidative and
+inflammatory state which leads to similar pathological mechanisms, including cell damage,
+lipid and protein oxidation, DNA aberrations, and finally neuronal death. Moreover, we
+underlined how these two mechanisms are intrinsically correlated in a vicious cycle. The
+generation of ROS causes neuronal damage and the release of molecules that activate
+microglia and astrocytes. In turn, these cells release pro-inflammatory cytokines which
+cause inflammation and exacerbate neuronal injury.
+Finally, we discussed some evidence of possible therapeutic approaches targeting OS
+and the inflammation pathway for the treatment of ALS. As for the other NDDs, many stud-
+ies focused on the use of antioxidants and anti-inflammatory compounds for the treatment
+of this still incurable pathology, but few drugs, including NP001 and Fingolimod, have
+shown efficacy in humans especially for the multifactorial characteristic of these diseases.
+Although the finding of a definitive drug is difficult and there is a need for future studies,
+there are numerous clinical trials which will deepen the knowledge about these diseases
+and will elucidate the precise mechanisms underlining OS and the inflammatory response.
+Author Contributions: Writing—original draft preparation: E.S.; writing—review and editing: E.S.,
+M.B., C.V., F.D., R.D.G., B.R., S.G., L.D. and O.P.; conceptualization: E.S.; supervision: S.G., M.B. and
+O.P.; funding acquisition: O.P. and L.D.; project administration: M.B. and O.P. All authors have read
+and agreed to the published version of the manuscript.
+Funding: This research was funded by the Italian Ministry of Health “Ricerca Corrente 2022–2024”
+granted to IRCCS Mondino Foundation.
+Conflicts of Interest: The authors declare no conflicts of interest.
+References
+1.
+Pansarasa, O.; Garofalo, M.; Scarian, E.; Dragoni, F.; Garau, J.; Di Gerlando, R.; Diamanti, L.; Bordoni, M.; Gagliardi, S. Biomarkers
+in Human Peripheral Blood Mononuclear Cells: The State of the Art in Amyotrophic Lateral Sclerosis. Int. J. Mol. Sci. 2022,
+23, 2580. [CrossRef]
+2.
+Mayne, K.; White, J.A.; McMurran, C.E.; Rivera, F.J.; de la Fuente, A.G. Aging and Neurodegenerative Disease: Is the Adaptive
+Immune System a Friend or Foe? Front. Aging Neurosci. 2020, 12, 572090. [CrossRef]
+3.
+Onohuean, H.; Akiyode, A.O.; Akiyode, O.; Igbinoba, S.I.; Alagbonsi, A.I. Epidemiology of neurodegenerative diseases in the
+East African region: A meta-analysis. Front. Neurol. 2022, 13, 1024004. [CrossRef]
+4.
+Bruzova, M.; Rusina, R.; Stejskalova, Z.; Matej, R. Autopsy-diagnosed neurodegenerative dementia cases support the use of
+cerebrospinal fluid protein biomarkers in the diagnostic work-up. Sci. Rep. 2021, 11, 10837. [CrossRef]
+5.
+Dugger, B.N.; Dickson, D.W. Pathology of Neurodegenerative Diseases. Cold Spring Harb. Perspect. Biol. 2017, 9, a028035.
+[CrossRef]
+6.
+Singh, A.; Kukreti, R.; Saso, L.; Kukreti, S. Oxidative Stress: A Key Modulator in Neurodegenerative Diseases. Molecules 2019,
+24, 1583. [CrossRef]
+7.
+Kwon, H.S.; Koh, S.H. Neuroinflammation in neurodegenerative disorders: The roles of microglia and astrocytes. Transl.
+Neurodegener. 2020, 9, 42. [CrossRef]
+8.
+Sies, H. Oxidative Stress; Academic Press: London, UK, 1985.
+9.
+Sies, H. Oxidative Stress: Eustress and Distress, 1st ed.; Academic Press: London, UK, 2020.
+10.
+Radi, R. Oxygen radicals, nitric oxide, and peroxynitrite: Redox pathways in molecular medicine. Proc. Natl. Acad. Sci. USA 2018,
+115, 5839–5848. [CrossRef]
+11.
+De Almeida, A.J.P.O.; de Oliveira, J.C.P.L.; da Silva Pontes, L.V.; de Souza Júnior, J.F.; Gonçalves, T.A.F.; Dantas, S.H.; de Almeida
+Feitosa, M.S.; Silva, A.O.; de Medeiros, I.A. ROS: Basic Concepts, Sources, Cellular Signaling, and its Implications in Aging
+Pathways. Oxidative Med. Cell. Longev. 2022, 2022, 1225578. [CrossRef]
+12.
+Tirichen, H.; Yaigoub, H.; Xu, W.; Wu, C.; Li, R.; Li, Y. Mitochondrial Reactive Oxygen Species and Their Contribution in Chronic
+Kidney Disease Progression through Oxidative Stress. Front. Physiol. 2021, 12, 627837. [CrossRef]
+
+Int. J. Mol. Sci. 2024, 25, 2698
+13 of 22
+13.
+Teleanu, D.M.; Niculescu, A.G.; Lungu, I.I.; Radu, C.I.; Vladâcenco, O.; Roza, E.; Costăchescu, B.; Grumezescu, A.M.; Teleanu, R.I.
+An Overview of Oxidative Stress, Neuroinflammation, and Neurodegenerative Diseases. Int. J. Mol. Sci. 2022, 23, 5938. [CrossRef]
+14.
+Guo, C.; Sun, L.; Chen, X.; Zhang, D. Oxidative stress, mitochondrial damage and neurodegenerative diseases. Neural Regen. Res.
+2013, 8, 2003–2014. [CrossRef]
+15.
+Zorov, D.B.; Juhaszova, M.; Sollott, S.J. Mitochondrial reactive oxygen species (ROS) and ROS-induced ROS release. Physiol. Rev.
+2014, 94, 909–950. [CrossRef]
+16.
+Patergnani, S.; Bouhamida, E.; Leo, S.; Pinton, P.; Rimessi, A. Mitochondrial Oxidative Stress and “Mito-Inflammation”: Actors in
+the Diseases. Biomedicines 2021, 9, 216. [CrossRef]
+17.
+Wang, F.; Yuan, Q.; Chen, F.; Pang, J.; Pan, C.; Xu, F.; Chen, Y. Fundamental Mechanisms of the Cell Death Caused by Nitrosative
+Stress. Front. Cell Dev. Biol. 2021, 9, 742483. [CrossRef]
+18.
+Cobb, C.A.; Cole, M.P. Oxidative and nitrative stress in neurodegeneration. Neurobiol. Dis. 2015, 84, 4–21. [CrossRef]
+19.
+Kim, G.H.; Kim, J.E.; Rhie, S.J.; Yoon, S. The Role of Oxidative Stress in Neurodegenerative Diseases. Exp. Neurobiol. 2015, 24,
+325–340. [CrossRef]
+20.
+Niedzielska, E.; Smaga, I.; Gawlik, M.; Moniczewski, A.; Stankowicz, P.; Pera, J.; Filip, M. Oxidative Stress in Neurodegenerative
+Diseases. Mol. Neurobiol. 2016, 53, 4094–4125. [CrossRef]
+21.
+Liu, Z.; Zhou, T.; Ziegler, A.C.; Dimitrion, P.; Zuo, L. Oxidative Stress in Neurodegenerative Diseases: From Molecular Mechanisms
+to Clinical Applications. Oxidative Med. Cell. Longev. 2017, 2017, 2525967. [CrossRef]
+22.
+Imam, S.Z.; Karahalil, B.; Hogue, B.A.; Souza-Pinto, N.C.; Bohr, V.A. Mitochondrial and nuclear DNA-repair capacity of various
+brain regions in mouse is altered in an age-dependent manner. Neurobiol. Aging 2006, 27, 1129–1136. [CrossRef]
+23.
+Tian, F.; Tong, T.J.; Zhang, Z.Y.; McNutt, M.A.; Liu, X.W. Age-dependent down-regulation of mitochondrial 8-oxoguanine DNA
+glycosylase in SAM-P/8 mouse brain and its effect on brain aging. Rejuvenation Res. 2009, 12, 209–215. [CrossRef]
+24.
+Cui, H.; Kong, Y.; Zhang, H. Oxidative stress, mitochondrial dysfunction, and aging. J. Signal Transduct. 2012, 2012, 646354.
+[CrossRef]
+25.
+Mikhed, Y.; Daiber, A.; Steven, S. Mitochondrial Oxidative Stress, Mitochondrial DNA Damage and Their Role in Age-Related
+Vascular Dysfunction. Int. J. Mol. Sci. 2015, 16, 15918–15953. [CrossRef]
+26.
+Jiang, Q.; Yin, J.; Chen, J.; Ma, X.; Wu, M.; Liu, G.; Yao, K.; Tan, B.; Yin, Y. Mitochondria-Targeted Antioxidants: A Step towards
+Disease Treatment. Oxidative Med. Cell. Longev. 2020, 2020, 8837893. [CrossRef]
+27.
+Fields, M.; Marcuzzi, A.; Gonelli, A.; Celeghini, C.; Maximova, N.; Rimondi, E. Mitochondria-Targeted Antioxidants, an
+Innovative Class of Antioxidant Compounds for Neurodegenerative Diseases: Perspectives and Limitations. Int. J. Mol. Sci. 2023,
+24, 3739. [CrossRef]
+28.
+Kulkarni, C.A.; Fink, B.D.; Gibbs, B.E.; Chheda, P.R.; Wu, M.; Sivitz, W.I.; Kerns, R.J. A Novel Triphenylphosphonium Carrier to
+Target Mitochondria without Uncoupling Oxidative Phosphorylation. J. Med. Chem. 2021, 64, 662–676. [CrossRef]
+29.
+Zinovkin, R.A.; Zamyatnin, A.A. Mitochondria-Targeted Drugs. Curr. Mol. Pharmacol. 2019, 12, 202–214. [CrossRef]
+30.
+Jauslin, M.L.; Meier, T.; Smith, R.A.; Murphy, M.P. Mitochondria-targeted antioxidants protect Friedreich Ataxia fibroblasts from
+endogenous oxidative stress more effectively than untargeted antioxidants. FASEB J. 2003, 17, 1972–1974. [CrossRef]
+31.
+Hu, H.; Li, M. Mitochondria-targeted antioxidant mitotempo protects mitochondrial function against amyloid beta toxicity in
+primary cultured mouse neurons. Biochem. Biophys. Res. Commun. 2016, 478, 174–180. [CrossRef]
+32.
+Chen, L.; Deng, H.; Cui, H.; Fang, J.; Zuo, Z.; Deng, J.; Li, Y.; Wang, X.; Zhao, L. Inflammatory responses and inflammation-
+associated diseases in organs. Oncotarget 2018, 9, 7204–7218. [CrossRef]
+33.
+Bennett, J.M.; Reeves, G.; Billman, G.E.; Sturmberg, J.P. Inflammation-Nature’s Way to Efficiently Respond to All Types of
+Challenges: Implications for Understanding and Managing “the Epidemic” of Chronic Diseases. Front. Med. 2018, 5, 316.
+[CrossRef]
+34.
+Weavers, H.; Martin, P. The cell biology of inflammation: From common traits to remarkable immunological adaptations. J. Cell
+Biol. 2020, 219, e202004003. [CrossRef]
+35.
+Serhan, C.N.; Savill, J. Resolution of inflammation: The beginning programs the end. Nat. Immunol. 2005, 6, 1191–1197. [CrossRef]
+36.
+Furman, D.; Campisi, J.; Verdin, E.; Carrera-Bastos, P.; Targ, S.; Franceschi, C.; Ferrucci, L.; Gilroy, D.W.; Fasano, A.; Miller, G.W.;
+et al. Chronic inflammation in the etiology of disease across the life span. Nat. Med. 2019, 25, 1822–1832. [CrossRef]
+37.
+Nelson, P.T.; Soma, L.A.; Lavi, E. Microglia in diseases of the central nervous system. Ann. Med. 2002, 34, 491–500. [CrossRef]
+38.
+Block, M.L.; Zecca, L.; Hong, J.S. Microglia-mediated neurotoxicity: Uncovering the molecular mechanisms. Nat. Rev. Neurosci.
+2007, 8, 57–69. [CrossRef]
+39.
+Huang, X.; Hussain, B.; Chang, J. Peripheral inflammation and blood-brain barrier disruption: Effects and mechanisms. CNS
+Neurosci. Ther. 2021, 27, 36–47. [CrossRef]
+40.
+DiSabato, D.J.; Quan, N.; Godbout, J.P. Neuroinflammation: The devil is in the details. J. Neurochem. 2016, 139 (Suppl. S2), 136–153.
+[CrossRef]
+41.
+Schafer, D.P.; Stevens, B. Phagocytic glial cells: Sculpting synaptic circuits in the developing nervous system. Curr. Opin. Neurobiol.
+2013, 23, 1034–1040. [CrossRef]
+42.
+Mottahedin, A.; Ardalan, M.; Chumak, T.; Riebe, I.; Ek, J.; Mallard, C. Effect of Neuroinflammation on Synaptic Organization and
+Function in the Developing Brain: Implications for Neurodevelopmental and Neurodegenerative Disorders. Front. Cell. Neurosci.
+2017, 11, 190. [CrossRef]
+
+Int. J. Mol. Sci. 2024, 25, 2698
+14 of 22
+43.
+Geloso, M.C.; D’Ambrosi, N. Microglial Pruning: Relevance for Synaptic Dysfunction in Multiple Sclerosis and Related Experi-
+mental Models. Cells 2021, 10, 686. [CrossRef]
+44.
+Derecki, N.C.; Cardani, A.N.; Yang, C.H.; Quinnies, K.M.; Crihfield, A.; Lynch, K.R.; Kipnis, J. Regulation of learning and memory
+by meningeal immunity: A key role for IL-4. J. Exp. Med. 2010, 207, 1067–1080. [CrossRef]
+45.
+Cornell, J.; Salinas, S.; Huang, H.Y.; Zhou, M. Microglia regulation of synaptic plasticity and learning and memory. Neural. Regen.
+Res. 2022, 17, 705–716. [CrossRef]
+46.
+Solleiro-Villavicencio, H.; Rivas-Arancibia, S. Effect of Chronic Oxidative Stress on Neuroinflammatory Response Mediated by
+CD4. Front. Cell. Neurosci. 2018, 12, 114. [CrossRef]
+47.
+Obrador, E.; Salvador, R.; López-Blanch, R.; Jihad-Jebbar, A.; Vallés, S.L.; Estrela, J.M. Oxidative Stress, Neuroinflammation and
+Mitochondria in the Pathophysiology of Amyotrophic Lateral Sclerosis. Antioxidants 2020, 9, 901. [CrossRef]
+48.
+Kumar, A.; Sidhu, J.; Goyal, A.; Tsao, J. Alzheimer Disease; StatPearls Publishing: St. Petersburg, FL, USA, 2022; p. 29763097.
+49.
+Swerdlow, R.H.; Burns, J.M.; Khan, S.M. The Alzheimer’s disease mitochondrial cascade hypothesis. J Alzheimers Dis. 2010,
+20 (Suppl. S2), S265–S279. [CrossRef]
+50.
+Picone, P.; Nuzzo, D.; Caruana, L.; Scafidi, V.; Di Carlo, M. Mitochondrial dysfunction: Different routes to Alzheimer’s disease
+therapy. Oxidative Med. Cell. Longev. 2014, 2014, 780179. [CrossRef]
+51.
+Tamagno, E.; Guglielmotto, M.; Vasciaveo, V.; Tabaton, M. Oxidative Stress and Beta Amyloid in Alzheimer’s Disease. Which
+Comes First: The Chicken or the Egg? Antioxidants 2021, 10, 1479. [CrossRef]
+52.
+Tofighi, N.; Asle-Rousta, M.; Rahnema, M.; Amini, R. Protective effect of alpha-linoleic acid on Aβ-induced oxidative stress,
+neuroinflammation, and memory impairment by alteration of α7 nAChR and NMDAR gene expression in the hippocampus of
+rats. Neurotoxicology 2021, 85, 245–253. [CrossRef]
+53.
+Zhao, Y.; Zhao, B. Oxidative stress and the pathogenesis of Alzheimer’s disease. Oxidative Med. Cell. Longev. 2013, 2013, 316523.
+[CrossRef]
+54.
+Wang, X.; Wang, W.; Li, L.; Perry, G.; Lee, H.G.; Zhu, X. Oxidative stress and mitochondrial dysfunction in Alzheimer’s disease.
+Biochim. Biophys. Acta 2014, 1842, 1240–1247. [CrossRef]
+55.
+Cuajungco, M.P.; Fagét, K.Y. Zinc takes the center stage: Its paradoxical role in Alzheimer’s disease. Brain Res. Brain Res. Rev.
+2003, 41, 44–56. [CrossRef] [PubMed]
+56.
+Huang, X.; Moir, R.D.; Tanzi, R.E.; Bush, A.I.; Rogers, J.T. Redox-active metals, oxidative stress, and Alzheimer’s disease pathology.
+Ann. N. Y. Acad. Sci. 2004, 1012, 153–163. [CrossRef] [PubMed]
+57.
+Bagheri, S.; Squitti, R.; Haertlé, T.; Siotto, M.; Saboury, A.A. Role of Copper in the Onset of Alzheimer’s Disease Compared to
+Other Metals. Front. Aging Neurosci. 2017, 9, 446. [CrossRef] [PubMed]
+58.
+Cassidy, L.; Fernandez, F.; Johnson, J.B.; Naiker, M.; Owoola, A.G.; Broszczak, D.A. Oxidative stress in alzheimer’s disease: A
+review on emergent natural polyphenolic therapeutics. Complement. Ther. Med. 2020, 49, 102294. [CrossRef]
+59.
+Shinto, L.; Quinn, J.; Montine, T.; Dodge, H.H.; Woodward, W.; Baldauf-Wagner, S.; Waichunas, D.; Bumgarner, L.; Bourdette, D.;
+Silbert, L.; et al. A randomized placebo-controlled pilot trial of omega-3 fatty acids and alpha lipoic acid in Alzheimer’s disease. J.
+Alzheimers Dis. 2014, 38, 111–120. [CrossRef]
+60.
+Canhada, S.; Castro, K.; Perry, I.S.; Luft, V.C. Omega-3 fatty acids’ supplementation in Alzheimer’s disease: A systematic review.
+Nutr. Neurosci. 2018, 21, 529–538. [CrossRef]
+61.
+Ajith, T.A. A Recent Update on the Effects of Omega-3 Fatty Acids in Alzheimer’s Disease. Curr. Clin. Pharmacol. 2018, 13,
+252–260. [CrossRef]
+62.
+Kinney, J.W.; Bemiller, S.M.; Murtishaw, A.S.; Leisgang, A.M.; Salazar, A.M.; Lamb, B.T. Inflammation as a central mechanism in
+Alzheimer’s disease. Alzheimers Dement. 2018, 4, 575–590. [CrossRef]
+63.
+Newcombe, E.A.; Camats-Perna, J.; Silva, M.L.; Valmas, N.; Huat, T.J.; Medeiros, R. Inflammation: The link between comorbidities,
+genetics, and Alzheimer’s disease. J. Neuroinflamm. 2018, 15, 276. [CrossRef]
+64.
+Xie, J.; Van Hoecke, L.; Vandenbroucke, R.E. The Impact of Systemic Inflammation on Alzheimer’s Disease Pathology. Front.
+Immunol. 2021, 12, 796867. [CrossRef] [PubMed]
+65.
+Liddelow, S.A.; Guttenplan, K.A.; Clarke, L.E.; Bennett, F.C.; Bohlen, C.J.; Schirmer, L.; Bennett, M.L.; Münch, A.E.; Chung, W.S.;
+Peterson, T.C.; et al. Neurotoxic reactive astrocytes are induced by activated microglia. Nature 2017, 541, 481–487. [CrossRef]
+66.
+Emamzadeh, F.N.; Surguchov, A. Parkinson’s Disease: Biomarkers, Treatment, and Risk Factors. Front. Neurosci. 2018, 12, 612.
+[CrossRef]
+67.
+Venkateshappa, C.; Harish, G.; Mythri, R.B.; Mahadevan, A.; Bharath, M.M.; Shankar, S.K. Increased oxidative damage and
+decreased antioxidant function in aging human substantia nigra compared to striatum: Implications for Parkinson’s disease.
+Neurochem. Res. 2012, 37, 358–369. [CrossRef]
+68.
+Kolodkin, A.N.; Sharma, R.P.; Colangelo, A.M.; Ignatenko, A.; Martorana, F.; Jennen, D.; Briedé, J.J.; Brady, N.; Barberis, M.;
+Mondeel, T.D.G.A.; et al. ROS networks: Designs, aging, Parkinson’s disease and precision therapies. npj Syst. Biol. Appl. 2020,
+6, 34. [CrossRef]
+69.
+Trist, B.G.; Hare, D.J.; Double, K.L. Oxidative stress in the aging substantia nigra and the etiology of Parkinson’s disease. Aging
+Cell 2019, 18, e13031. [CrossRef]
+70.
+Dias, V.; Junn, E.; Mouradian, M.M. The role of oxidative stress in Parkinson’s disease. J. Parkinsons Dis. 2013, 3, 461–491.
+[CrossRef]
+
+Int. J. Mol. Sci. 2024, 25, 2698
+15 of 22
+71.
+Dorszewska, J.; Kowalska, M.; Prendecki, M.; Piekut, T.; Kozłowska, J.; Kozubski, W. Oxidative stress factors in Parkinson’s
+disease. Neural. Regen. Res. 2021, 16, 1383–1391. [CrossRef]
+72.
+Bjørklund, G.; Peana, M.; Maes, M.; Dadar, M.; Severin, B. The glutathione system in Parkinson’s disease and its progression.
+Neurosci. Biobehav. Rev. 2021, 120, 470–478. [CrossRef]
+73.
+Samavarchi Tehrani, S.; Sarfi, M.; Yousefi, T.; Ahmadi Ahangar, A.; Gholinia, H.; Mohseni Ahangar, R.; Maniati, M.; Saadat, P.
+Comparison of the calcium-related factors in Parkinson’s disease patients with healthy individuals. Caspian J. Intern. Med. 2020,
+11, 28–33. [CrossRef]
+74.
+Chen, Q.; Chen, Y.; Zhang, Y.; Wang, F.; Yu, H.; Zhang, C.; Jiang, Z.; Luo, W. Iron deposition in Parkinson’s disease by quantitative
+susceptibility mapping. BMC Neurosci. 2019, 20, 23. [CrossRef] [PubMed]
+75.
+Xicoy, H.; Wieringa, B.; Martens, G.J.M. The Role of Lipids in Parkinson’s Disease. Cells 2019, 8, 27. [CrossRef]
+76.
+Fais, M.; Dore, A.; Galioto, M.; Galleri, G.; Crosio, C.; Iaccarino, C. Parkinson’s Disease-Related Genes and Lipid Alteration. Int. J.
+Mol. Sci. 2021, 22, 7630. [CrossRef]
+77.
+Filograna, R.; Beltramini, M.; Bubacco, L.; Bisaglia, M. Anti-Oxidants in Parkinson’s Disease Therapy: A Critical Point of View.
+Curr. Neuropharmacol. 2016, 14, 260–271. [CrossRef] [PubMed]
+78.
+McGeer, P.L.; McGeer, E.G. Glial reactions in Parkinson’s disease. Mov. Disord. 2008, 23, 474–483. [CrossRef]
+79.
+Joe, E.H.; Choi, D.J.; An, J.; Eun, J.H.; Jou, I.; Park, S. Astrocytes, Microglia, and Parkinson’s Disease. Exp. Neurobiol. 2018, 27,
+77–87. [CrossRef] [PubMed]
+80.
+Depboylu, C.; Schorlemmer, K.; Klietz, M.; Oertel, W.H.; Weihe, E.; Höglinger, G.U.; Schäfer, M.K. Upregulation of microglial C1q
+expression has no effects on nigrostriatal dopaminergic injury in the MPTP mouse model of Parkinson disease. J. Neuroimmunol.
+2011, 236, 39–46. [CrossRef]
+81.
+Cho, K. Emerging Roles of Complement Protein C1q in Neurodegeneration. Aging Dis. 2019, 10, 652–663. [CrossRef]
+82.
+Badanjak, K.; Fixemer, S.; Smaji´c, S.; Skupin, A.; Grünewald, A. The Contribution of Microglia to Neuroinflammation in
+Parkinson’s Disease. Int. J. Mol. Sci. 2021, 22, 4676. [CrossRef]
+83.
+Lai, T.T.; Kim, Y.J.; Ma, H.I.; Kim, Y.E. Evidence of Inflammation in Parkinson’s Disease and Its Contribution to Synucleinopathy.
+J. Mov. Disord. 2022, 15, 1–14. [CrossRef]
+84.
+McColgan, P.; Tabrizi, S.J. Huntington’s disease: A clinical review. Eur. J. Neurol. 2018, 25, 24–34. [CrossRef]
+85.
+Kumar, A.; Ratan, R.R. Oxidative Stress and Huntington’s Disease: The Good, The Bad, and The Ugly. J. Huntingt. Dis. 2016, 5,
+217–237. [CrossRef] [PubMed]
+86.
+Lee, J.; Kosaras, B.; Del Signore, S.J.; Cormier, K.; McKee, A.; Ratan, R.R.; Kowall, N.W.; Ryu, H. Modulation of lipid peroxidation
+and mitochondrial function improves neuropathology in Huntington’s disease mice. Acta Neuropathol. 2011, 121, 487–498.
+[CrossRef]
+87.
+Peña-Bautista, C.; Vento, M.; Baquero, M.; Cháfer-Pericás, C. Lipid peroxidation in neurodegeneration. Clin. Chim. Acta 2019, 497,
+178–188. [CrossRef] [PubMed]
+88.
+Sorolla, M.A.; Rodríguez-Colman, M.J.; Vall-llaura, N.; Tamarit, J.; Ros, J.; Cabiscol, E. Protein oxidation in Huntington disease.
+Biofactors 2012, 38, 173–185. [CrossRef] [PubMed]
+89.
+Maiuri, T.; Suart, C.E.; Hung, C.L.K.; Graham, K.J.; Barba Bazan, C.A.; Truant, R. DNA Damage Repair in Huntington’s Disease
+and Other Neurodegenerative Diseases. Neurotherapeutics 2019, 16, 948–956. [CrossRef]
+90.
+Askeland, G.; Dosoudilova, Z.; Rodinova, M.; Klempir, J.; Liskova, I.; Ku´snierczyk, A.; Bjørås, M.; Nesse, G.; Klungland, A.;
+Hansikova, H.; et al. Increased nuclear DNA damage precedes mitochondrial dysfunction in peripheral blood mononuclear cells
+from Huntington’s disease patients. Sci. Rep. 2018, 8, 9817. [CrossRef]
+91.
+Paul, B.D.; Snyder, S.H. Impaired Redox Signaling in Huntington’s Disease: Therapeutic Implications. Front. Mol. Neurosci. 2019,
+12, 68. [CrossRef]
+92.
+Bartzokis, G.; Lu, P.H.; Tishler, T.A.; Fong, S.M.; Oluwadara, B.; Finn, J.P.; Huang, D.; Bordelon, Y.; Mintz, J.; Perlman, S. Myelin
+breakdown and iron changes in Huntington’s disease: Pathogenesis and treatment implications. Neurochem. Res. 2007, 32,
+1655–1664. [CrossRef]
+93.
+Agrawal, S.; Fox, J.; Thyagarajan, B.; Fox, J.H. Brain mitochondrial iron accumulates in Huntington’s disease, mediates mitochon-
+drial dysfunction, and can be removed pharmacologically. Free Radic. Biol. Med. 2018, 120, 317–329. [CrossRef]
+94.
+Pfalzer, A.C.; Yan, Y.; Kang, H.; Totten, M.; Silverman, J.; Bowman, A.B.; Erikson, K.; Claassen, D.O. Alterations in metal
+homeostasis occur prior to canonical markers in Huntington disease. Sci. Rep. 2022, 12, 10373. [CrossRef]
+95.
+Johri, A.; Beal, M.F. Antioxidants in Huntington’s disease. Biochim. Biophys. Acta 2012, 1822, 664–674. [CrossRef]
+96.
+Essa, M.M.; Moghadas, M.; Ba-Omar, T.; Walid Qoronfleh, M.; Guillemin, G.J.; Manivasagam, T.; Justin-Thenmozhi, A.; Ray, B.;
+Bhat, A.; Chidambaram, S.B.; et al. Protective Effects of Antioxidants in Huntington’s Disease: An Extensive Review. Neurotox.
+Res. 2019, 35, 739–774. [CrossRef]
+97.
+Carmo, C.; Naia, L.; Lopes, C.; Rego, A.C. Mitochondrial Dysfunction in Huntington’s Disease. Adv. Exp. Med. Biol. 2018, 1049,
+59–83. [CrossRef] [PubMed]
+98.
+Intihar, T.A.; Martinez, E.A.; Gomez-Pastor, R. Mitochondrial Dysfunction in Huntington’s Disease; Interplay between HSF1, p53
+and PGC-1α Transcription Factors. Front. Cell. Neurosci. 2019, 13, 103. [CrossRef] [PubMed]
+99.
+Valadão, P.A.C.; Santos, K.B.S.; Ferreira E Vieira, T.H.; Macedo E Cordeiro, T.; Teixeira, A.L.; Guatimosim, C.; de Miranda, A.S.
+Inflammation in Huntington’s disease: A few new twists on an old tale. J. Neuroimmunol. 2020, 348, 577380. [CrossRef] [PubMed]
+
+Int. J. Mol. Sci. 2024, 25, 2698
+16 of 22
+100. Lin, C.L.; Wang, S.E.; Hsu, C.H.; Sheu, S.J.; Wu, C.H. Oral treatment with herbal formula B307 alleviates cardiac failure in aging
+R6/2 mice with Huntington’s disease via suppressing oxidative stress, inflammation, and apoptosis. Clin. Interv. Aging 2015, 10,
+1173–1187. [CrossRef] [PubMed]
+101. Sánchez-López, F.; Tasset, I.; Agüera, E.; Feijóo, M.; Fernández-Bolaños, R.; Sánchez, F.M.; Ruiz, M.C.; Cruz, A.H.; Gascón, F.;
+Túnez, I. Oxidative stress and inflammation biomarkers in the blood of patients with Huntington’s disease. Neurol. Res. 2012, 34,
+721–724. [CrossRef]
+102. Miller, J.R.; Träger, U.; Andre, R.; Tabrizi, S.J. Mutant Huntingtin Does Not Affect the Intrinsic Phenotype of Human Huntington’s
+Disease T Lymphocytes. PLoS ONE 2015, 10, e0141793. [CrossRef]
+103. Yang, H.M.; Yang, S.; Huang, S.S.; Tang, B.S.; Guo, J.F. Microglial Activation in the Pathogenesis of Huntington’s Disease. Front.
+Aging Neurosci. 2017, 9, 193. [CrossRef]
+104. Fatoba, O.; Ohtake, Y.; Itokazu, T.; Yamashita, T. Immunotherapies in Huntington’s disease and α-Synucleinopathies. Front.
+Immunol. 2020, 11, 337. [CrossRef]
+105. Scarian, E.; Fiamingo, G.; Diamanti, L.; Palmieri, I.; Gagliardi, S.; Pansarasa, O. The Role of VCP Mutations in the Spectrum of
+Amyotrophic Lateral Sclerosis-Frontotemporal Dementia. Front. Neurol. 2022, 13, 841394. [CrossRef]
+106. Tam, O.H.; Rozhkov, N.V.; Shaw, R.; Kim, D.; Hubbard, I.; Fennessey, S.; Propp, N.; Fagegaltier, D.; Harris, B.T.; Ostrow, L.W.; et al.
+Postmortem Cortex Samples Identify Distinct Molecular Subtypes of ALS: Retrotransposon Activation, Oxidative Stress, and
+Activated Glia. Cell Rep. 2019, 29, 1164–1177.e1165. [CrossRef]
+107. Ihara, Y.; Nobukuni, K.; Takata, H.; Hayabara, T. Oxidative stress and metal content in blood and cerebrospinal fluid of
+amyotrophic lateral sclerosis patients with and without a Cu, Zn-superoxide dismutase mutation. Neurol. Res. 2005, 27, 105–108.
+[CrossRef]
+108. Calingasan, N.Y.; Chen, J.; Kiaei, M.; Beal, M.F. Beta-amyloid 42 accumulation in the lumbar spinal cord motor neurons of
+amyotrophic lateral sclerosis patients. Neurobiol. Dis. 2005, 19, 340–347. [CrossRef]
+109. Simpson, E.P.; Henry, Y.K.; Henkel, J.S.; Smith, R.G.; Appel, S.H. Increased lipid peroxidation in sera of ALS patients: A potential
+biomarker of disease burden. Neurology 2004, 62, 1758–1765. [CrossRef] [PubMed]
+110. D’Amico, E.; Factor-Litvak, P.; Santella, R.M.; Mitsumoto, H. Clinical perspective on oxidative stress in sporadic amyotrophic
+lateral sclerosis. Free Radic. Biol. Med. 2013, 65, 509–527. [CrossRef] [PubMed]
+111. Pollari, E.; Goldsteins, G.; Bart, G.; Koistinaho, J.; Giniatullin, R. The role of oxidative stress in degeneration of the neuromuscular
+junction in amyotrophic lateral sclerosis. Front. Cell Neurosci. 2014, 8, 131. [CrossRef] [PubMed]
+112. Motataianu, A.; Serban, G.; Barcutean, L.; Balasa, R. Oxidative Stress in Amyotrophic Lateral Sclerosis: Synergy of Genetic and
+Environmental Factors. Int. J. Mol. Sci. 2022, 23, 9339. [CrossRef] [PubMed]
+113. Peggion, C.; Scalcon, V.; Massimino, M.L.; Nies, K.; Lopreiato, R.; Rigobello, M.P.; Bertoli, A. SOD1 in ALS: Taking Stock in
+Pathogenic Mechanisms and the Role of Glial and Muscle Cells. Antioxidants 2022, 11, 614. [CrossRef] [PubMed]
+114. Kaur, S.J.; McKeown, S.R.; Rashid, S. Mutant SOD1 mediated pathogenesis of Amyotrophic Lateral Sclerosis. Gene 2016, 577,
+109–118. [CrossRef] [PubMed]
+115. Tak, Y.J.; Park, J.H.; Rhim, H.; Kang, S. ALS-Related Mutant SOD1 Aggregates Interfere with Mitophagy by Sequestering the
+Autophagy Receptor Optineurin. Int. J. Mol. Sci. 2020, 21, 7525. [CrossRef] [PubMed]
+116. Ferri, A.; Cozzolino, M.; Crosio, C.; Nencini, M.; Casciati, A.; Gralla, E.B.; Rotilio, G.; Valentine, J.S.; Carrì, M.T. Familial
+ALS-superoxide dismutases associate with mitochondria and shift their redox potentials. Proc. Natl. Acad. Sci. USA 2006, 103,
+13860–13865. [CrossRef] [PubMed]
+117. Prasad, A.; Bharathi, V.; Sivalingam, V.; Girdhar, A.; Patel, B.K. Molecular Mechanisms of TDP-43 Misfolding and Pathology in
+Amyotrophic Lateral Sclerosis. Front. Mol. Neurosci. 2019, 12, 25. [CrossRef]
+118. Zuo, X.; Zhou, J.; Li, Y.; Wu, K.; Chen, Z.; Luo, Z.; Zhang, X.; Liang, Y.; Esteban, M.A.; Zhou, Y.; et al. TDP-43 aggregation induced
+by oxidative stress causes global mitochondrial imbalance in ALS. Nat. Struct. Mol. Biol. 2021, 28, 132–142. [CrossRef] [PubMed]
+119. Park, S.K.; Park, S.; Liebman, S.W. Respiration Enhances TDP-43 Toxicity, but TDP-43 Retains Some Toxicity in the Absence of
+Respiration. J. Mol. Biol. 2019, 431, 2050–2059. [CrossRef]
+120. Gautam, M.; Jara, J.H.; Kocak, N.; Rylaarsdam, L.E.; Kim, K.D.; Bigio, E.H.; Hande Özdinler, P. Mitochondria, ER, and nuclear
+membrane defects reveal early mechanisms for upper motor neuron vulnerability with respect to TDP-43 pathology. Acta
+Neuropathol. 2019, 137, 47–69. [CrossRef]
+121. Cohen, T.J.; Hwang, A.W.; Unger, T.; Trojanowski, J.Q.; Lee, V.M. Redox signalling directly regulates TDP-43 via cysteine oxidation
+and disulphide cross-linking. EMBO J. 2012, 31, 1241–1252. [CrossRef]
+122. Cohen, T.J.; Hwang, A.W.; Restrepo, C.R.; Yuan, C.X.; Trojanowski, J.Q.; Lee, V.M. An acetylation switch controls TDP-43 function
+and aggregation propensity. Nat. Commun. 2015, 6, 5845. [CrossRef]
+123. Tian, Y.P.; Che, F.Y.; Su, Q.P.; Lu, Y.C.; You, C.P.; Huang, L.M.; Wang, S.G.; Wang, L.; Yu, J.X. Effects of mutant TDP-43 on the
+Nrf2/ARE pathway and protein expression of MafK and JDP2 in NSC-34 cells. Genet. Mol. Res. 2017, 16, 4238. [CrossRef]
+124. Moujalled, D.; Grubman, A.; Acevedo, K.; Yang, S.; Ke, Y.D.; Moujalled, D.M.; Duncan, C.; Caragounis, A.; Perera, N.D.; Turner,
+B.J.; et al. TDP-43 mutations causing amyotrophic lateral sclerosis are associated with altered expression of RNA-binding protein
+hnRNP K and affect the Nrf2 antioxidant pathway. Hum. Mol. Genet. 2017, 26, 1732–1746. [CrossRef]
+125. Dewey, C.M.; Cenik, B.; Sephton, C.F.; Dries, D.R.; Mayer, P.; Good, S.K.; Johnson, B.A.; Herz, J.; Yu, G. TDP-43 is directed to stress
+granules by sorbitol, a novel physiological osmotic and oxidative stressor. Mol. Cell. Biol. 2011, 31, 1098–1108. [CrossRef]
+
+Int. J. Mol. Sci. 2024, 25, 2698
+17 of 22
+126. Wang, H.; Guo, W.; Mitra, J.; Hegde, P.M.; Vandoorne, T.; Eckelmann, B.J.; Mitra, S.; Tomkinson, A.E.; Van Den Bosch, L.; Hegde,
+M.L. Mutant FUS causes DNA ligation defects to inhibit oxidative damage repair in Amyotrophic Lateral Sclerosis. Nat. Commun.
+2018, 9, 3683. [CrossRef] [PubMed]
+127. Tsai, Y.L.; Coady, T.H.; Lu, L.; Zheng, D.; Alland, I.; Tian, B.; Shneider, N.A.; Manley, J.L. ALS/FTD-associated protein FUS induces
+mitochondrial dysfunction by preferentially sequestering respiratory chain complex mRNAs. Genes Dev. 2020, 34, 785–805.
+[CrossRef] [PubMed]
+128. Brunet, M.A.; Jacques, J.F.; Nassari, S.; Tyzack, G.E.; McGoldrick, P.; Zinman, L.; Jean, S.; Robertson, J.; Patani, R.; Roucou, X.
+The FUS gene is dual-coding with both proteins contributing to FUS-mediated toxicity. EMBO Rep. 2021, 22, e50640. [CrossRef]
+[PubMed]
+129. Onesto, E.; Colombrita, C.; Gumina, V.; Borghi, M.O.; Dusi, S.; Doretti, A.; Fagiolari, G.; Invernizzi, F.; Moggio, M.; Tiranti, V.; et al.
+Gene-specific mitochondria dysfunctions in human TARDBP and C9ORF72 fibroblasts. Acta Neuropathol. Commun. 2016, 4, 47.
+[CrossRef]
+130. Birger, A.; Ben-Dor, I.; Ottolenghi, M.; Turetsky, T.; Gil, Y.; Sweetat, S.; Perez, L.; Belzer, V.; Casden, N.; Steiner, D.; et al.
+Human iPSC-derived astrocytes from ALS patients with mutated C9ORF72 show increased oxidative stress and neurotoxicity.
+EBioMedicine 2019, 50, 274–289. [CrossRef]
+131. Jiménez-Villegas, J.; Kirby, J.; Mata, A.; Cadenas, S.; Turner, M.R.; Malaspina, A.; Shaw, P.J.; Cuadrado, A.; Rojo, A.I. Dipeptide
+Repeat Pathology in C9orf72-ALS Is Associated with Redox, Mitochondrial and NRF2 Pathway Imbalance. Antioxidants 2022,
+11, 1897. [CrossRef]
+132. Ferrante, R.J.; Browne, S.E.; Shinobu, L.A.; Bowling, A.C.; Baik, M.J.; MacGarvey, U.; Kowall, N.W.; Brown, R.H.; Beal, M.F.
+Evidence of increased oxidative damage in both sporadic and familial amyotrophic lateral sclerosis. J. Neurochem. 1997, 69,
+2064–2074. [CrossRef]
+133. Shibata, N.; Nagai, R.; Uchida, K.; Horiuchi, S.; Yamada, S.; Hirano, A.; Kawaguchi, M.; Yamamoto, T.; Sasaki, S.; Kobayashi,
+M. Morphological evidence for lipid peroxidation and protein glycoxidation in spinal cords from sporadic amyotrophic lateral
+sclerosis patients. Brain Res. 2001, 917, 97–104. [CrossRef]
+134. Cunha-Oliveira, T.; Montezinho, L.; Mendes, C.; Firuzi, O.; Saso, L.; Oliveira, P.J.; Silva, F.S.G. Oxidative Stress in Amyotrophic
+Lateral Sclerosis: Pathophysiology and Opportunities for Pharmacological Intervention. Oxidative Med. Cell. Longev. 2020,
+2020, 5021694. [CrossRef]
+135. Babu, G.N.; Kumar, A.; Chandra, R.; Puri, S.K.; Singh, R.L.; Kalita, J.; Misra, U.K. Oxidant-antioxidant imbalance in the
+erythrocytes of sporadic amyotrophic lateral sclerosis patients correlates with the progression of disease. Neurochem. Int. 2008, 52,
+1284–1289. [CrossRef]
+136. Kraft, A.D.; Resch, J.M.; Johnson, D.A.; Johnson, J.A. Activation of the Nrf2-ARE pathway in muscle and spinal cord during
+ALS-like pathology in mice expressing mutant SOD1. Exp. Neurol. 2007, 207, 107–117. [CrossRef]
+137. Vande Velde, C.; McDonald, K.K.; Boukhedimi, Y.; McAlonis-Downes, M.; Lobsiger, C.S.; Bel Hadj, S.; Zandona, A.; Julien,
+J.P.; Shah, S.B.; Cleveland, D.W. Misfolded SOD1 associated with motor neuron mitochondria alters mitochondrial shape and
+distribution prior to clinical onset. PLoS ONE 2011, 6, e22031. [CrossRef]
+138. Hosaka, T.; Hiroshi, T.; Akira, T. Biomolecular Modifications Linked to Oxidative Stress in Amyotrophic Lateral Sclerosis:
+Determining Promising Biomarkers Related to Oxidative Stress. Processes 2021, 9, 1667. [CrossRef]
+139. Walczak, J.; D˛ebska-Vielhaber, G.; Vielhaber, S.; Szyma´nski, J.; Charzy´nska, A.; Duszy´nski, J.; Szczepanowska, J. Distinction of
+sporadic and familial forms of ALS based on mitochondrial characteristics. FASEB J. 2019, 33, 4388–4403. [CrossRef] [PubMed]
+140. Anderson, C.J.; Bredvik, K.; Burstein, S.R.; Davis, C.; Meadows, S.M.; Dash, J.; Case, L.; Milner, T.A.; Kawamata, H.; Zuberi, A.;
+et al. ALS/FTD mutant CHCHD10 mice reveal a tissue-specific toxic gain-of-function and mitochondrial stress response. Acta
+Neuropathol. 2019, 138, 103–121. [CrossRef] [PubMed]
+141. Shibata, N.; Nagai, R.; Miyata, S.; Jono, T.; Horiuchi, S.; Hirano, A.; Kato, S.; Sasaki, S.; Asayama, K.; Kobayashi, M. Nonoxidative
+protein glycation is implicated in familial amyotrophic lateral sclerosis with superoxide dismutase-1 mutation. Acta Neuropathol.
+2000, 100, 275–284. [CrossRef] [PubMed]
+142. Kim, B.W.; Jeong, Y.E.; Wong, M.; Martin, L.J. DNA damage accumulates and responses are engaged in human ALS brain and
+spinal motor neurons and DNA repair is activatable in iPSC-derived motor neurons with SOD1 mutations. Acta Neuropathol.
+Commun. 2020, 8, 7. [CrossRef] [PubMed]
+143. Aguirre, N.; Beal, M.F.; Matson, W.R.; Bogdanov, M.B. Increased oxidative damage to DNA in an animal model of amyotrophic
+lateral sclerosis. Free Radic. Res. 2005, 39, 383–388. [CrossRef] [PubMed]
+144. Barbosa, L.F.; Cerqueira, F.M.; Macedo, A.F.; Garcia, C.C.; Angeli, J.P.; Schumacher, R.I.; Sogayar, M.C.; Augusto, O.; Carrì, M.T.;
+Di Mascio, P.; et al. Increased SOD1 association with chromatin, DNA damage, p53 activation, and apoptosis in a cellular model
+of SOD1-linked ALS. Biochim. Biophys. Acta 2010, 1802, 462–471. [CrossRef]
+145. Manabe, Y.; Warita, H.; Murakami, T.; Shiote, M.; Hayashi, T.; Nagano, I.; Shoji, M.; Abe, K. Early decrease of redox factor-1 in
+spinal motor neurons of presymptomatic transgenic mice with a mutant SOD1 gene. Brain Res. 2001, 915, 104–107. [CrossRef]
+[PubMed]
+146. Shaikh, A.Y.; Martin, L.J. DNA base-excision repair enzyme apurinic/apyrimidinic endonuclease/redox factor-1 is increased
+and competent in the brain and spinal cord of individuals with amyotrophic lateral sclerosis. Neuromol. Med. 2002, 2, 47–60.
+[CrossRef]
+
+Int. J. Mol. Sci. 2024, 25, 2698
+18 of 22
+147. Oliveira, T.T.; Coutinho, L.G.; de Oliveira, L.O.A.; Timoteo, A.R.S.; Farias, G.C.; Agnez-Lima, L.F. APE1/Ref-1 Role in Inflamma-
+tion and Immune Response. Front. Immunol. 2022, 13, 793096. [CrossRef]
+148. Kikuchi, H.; Furuta, A.; Nishioka, K.; Suzuki, S.O.; Nakabeppu, Y.; Iwaki, T. Impairment of mitochondrial DNA repair enzymes
+against accumulation of 8-oxo-guanine in the spinal motor neurons of amyotrophic lateral sclerosis. Acta Neuropathol. 2002, 103,
+408–414. [CrossRef] [PubMed]
+149. Pegoraro, V.; Merico, A.; Angelini, C. Micro-RNAs in ALS muscle: Differences in gender, age at onset and disease duration. J.
+Neurol. Sci. 2017, 380, 58–63. [CrossRef]
+150. Li, C.; Wei, Q.; Gu, X.; Chen, Y.; Chen, X.; Cao, B.; Ou, R.; Shang, H. Decreased Glycogenolysis by miR-338-3p Promotes Regional
+Glycogen Accumulation Within the Spinal Cord of Amyotrophic Lateral Sclerosis Mice. Front. Mol. Neurosci. 2019, 12, 114.
+[CrossRef] [PubMed]
+151. Rizzuti, M.; Filosa, G.; Melzi, V.; Calandriello, L.; Dioni, L.; Bollati, V.; Bresolin, N.; Comi, G.P.; Barabino, S.; Nizzardo, M.; et al.
+MicroRNA expression analysis identifies a subset of downregulated miRNAs in ALS motor neuron progenitors. Sci. Rep. 2018,
+8, 10105. [CrossRef]
+152. Zhou, F.; Zhang, C.; Guan, Y.; Chen, Y.; Lu, Q.; Jie, L.; Gao, H.; Du, H.; Zhang, H.; Liu, Y.; et al. Screening the expression
+characteristics of several miRNAs in G93A-SOD1 transgenic mouse: Altered expression of miRNA-124 is associated with
+astrocyte differentiation by targeting Sox2 and Sox9. J. Neurochem. 2018, 145, 51–67. [CrossRef]
+153. Di Pietro, L.; Baranzini, M.; Berardinelli, M.G.; Lattanzi, W.; Monforte, M.; Tasca, G.; Conte, A.; Logroscino, G.; Michetti, F.; Ricci,
+E.; et al. Potential therapeutic targets for ALS: MIR206, MIR208b and MIR499 are modulated during disease progression in the
+skeletal muscle of patients. Sci. Rep. 2017, 7, 9538. [CrossRef]
+154. Koval, E.D.; Shaner, C.; Zhang, P.; du Maine, X.; Fischer, K.; Tay, J.; Chau, B.N.; Wu, G.F.; Miller, T.M. Method for widespread
+microRNA-155 inhibition prolongs survival in ALS-model mice. Hum. Mol. Genet. 2013, 22, 4127–4135. [CrossRef]
+155. Butovsky, O.; Jedrychowski, M.P.; Cialic, R.; Krasemann, S.; Murugaiyan, G.; Fanek, Z.; Greco, D.J.; Wu, P.M.; Doykan, C.E.; Kiner,
+O.; et al. Targeting miR-155 restores abnormal microglia and attenuates disease in SOD1 mice. Ann. Neurol. 2015, 77, 75–99.
+[CrossRef] [PubMed]
+156. Vucic, S.; Kiernan, M.C. Cortical excitability testing distinguishes Kennedy’s disease from amyotrophic lateral sclerosis. Clin.
+Neurophysiol. 2008, 119, 1088–1096. [CrossRef] [PubMed]
+157. Bae, J.S.; Simon, N.G.; Menon, P.; Vucic, S.; Kiernan, M.C. The puzzling case of hyperexcitability in amyotrophic lateral sclerosis. J.
+Clin. Neurol. 2013, 9, 65–74. [CrossRef] [PubMed]
+158. Shibuya, K.; Otani, R.; Suzuki, Y.I.; Kuwabara, S.; Kiernan, M.C. Neuronal Hyperexcitability and Free Radical Toxicity in
+Amyotrophic Lateral Sclerosis: Established and Future Targets. Pharmaceuticals 2022, 15, 433. [CrossRef] [PubMed]
+159. Stringer, R.N.; Weiss, N. Pathophysiology of ion channels in amyotrophic lateral sclerosis. Mol. Brain 2023, 16, 82. [CrossRef]
+[PubMed]
+160. Kaiser, M.; Maletzki, I.; Hülsmann, S.; Holtmann, B.; Schulz-Schaeffer, W.; Kirchhoff, F.; Bähr, M.; Neusch, C. Progressive loss of a
+glial potassium channel (KCNJ10) in the spinal cord of the SOD1 (G93A) transgenic mouse model of amyotrophic lateral sclerosis.
+J. Neurochem. 2006, 99, 900–912. [CrossRef] [PubMed]
+161. Tarantino, N.; Canfora, I.; Camerino, G.M.; Pierno, S. Therapeutic Targets in Amyotrophic Lateral Sclerosis: Focus on Ion Channels
+and Skeletal Muscle. Cells 2022, 11, 415. [CrossRef]
+162. Camerino, G.M.; Fonzino, A.; Conte, E.; De Bellis, M.; Mele, A.; Liantonio, A.; Tricarico, D.; Tarantino, N.; Dobrowolny, G.;
+Musarò, A.; et al. Elucidating the Contribution of Skeletal Muscle Ion Channels to Amyotrophic Lateral Sclerosis in search of new
+therapeutic options. Sci. Rep. 2019, 9, 3185. [CrossRef]
+163. Jaiswal, M.K. Calcium, mitochondria, and the pathogenesis of ALS: The good, the bad, and the ugly. Front. Cell. Neurosci. 2013,
+7, 199. [CrossRef]
+164. Anzilotti, S.; Brancaccio, P.; Simeone, G.; Valsecchi, V.; Vinciguerra, A.; Secondo, A.; Petrozziello, T.; Guida, N.; Sirabella, R.;
+Cuomo, O.; et al. Preconditioning, induced by sub-toxic dose of the neurotoxin L-BMAA, delays ALS progression in mice and
+prevents Na+/Ca2+ exchanger 3 downregulation. Cell Death Dis. 2018, 9, 206. [CrossRef]
+165. Liu, J.; Wang, F. Role of Neuroinflammation in Amyotrophic Lateral Sclerosis: Cellular Mechanisms and Therapeutic Implications.
+Front. Immunol. 2017, 8, 1005. [CrossRef]
+166. Corcia, P.; Tauber, C.; Vercoullie, J.; Arlicot, N.; Prunier, C.; Praline, J.; Nicolas, G.; Venel, Y.; Hommet, C.; Baulieu, J.L.; et al.
+Molecular imaging of microglial activation in amyotrophic lateral sclerosis. PLoS ONE 2012, 7, e52941. [CrossRef]
+167. Turner, M.R.; Cagnin, A.; Turkheimer, F.E.; Miller, C.C.; Shaw, C.E.; Brooks, D.J.; Leigh, P.N.; Banati, R.B. Evidence of widespread
+cerebral microglial activation in amyotrophic lateral sclerosis: An [11C](R)-PK11195 positron emission tomography study.
+Neurobiol. Dis. 2004, 15, 601–609. [CrossRef]
+168. Boillée, S.; Yamanaka, K.; Lobsiger, C.S.; Copeland, N.G.; Jenkins, N.A.; Kassiotis, G.; Kollias, G.; Cleveland, D.W. Onset and
+progression in inherited ALS determined by motor neurons and microglia. Science 2006, 312, 1389–1392. [CrossRef] [PubMed]
+169. O’Rourke, J.G.; Bogdanik, L.; Yáñez, A.; Lall, D.; Wolf, A.J.; Muhammad, A.K.; Ho, R.; Carmona, S.; Vit, J.P.; Zarrow, J.; et al.
+C9orf72 is required for proper macrophage and microglial function in mice. Science 2016, 351, 1324–1329. [CrossRef] [PubMed]
+170. Atanasio, A.; Decman, V.; White, D.; Ramos, M.; Ikiz, B.; Lee, H.C.; Siao, C.J.; Brydges, S.; LaRosa, E.; Bai, Y.; et al. C9orf72 ablation
+causes immune dysregulation characterized by leukocyte expansion, autoantibody production, and glomerulonephropathy in
+mice. Sci. Rep. 2016, 6, 23204. [CrossRef] [PubMed]
+
+Int. J. Mol. Sci. 2024, 25, 2698
+19 of 22
+171. Sullivan, P.M.; Zhou, X.; Robins, A.M.; Paushter, D.H.; Kim, D.; Smolka, M.B.; Hu, F. The ALS/FTLD associated protein C9orf72
+associates with SMCR8 and WDR41 to regulate the autophagy-lysosome pathway. Acta Neuropathol. Commun. 2016, 4, 51.
+[CrossRef] [PubMed]
+172. Yiangou, Y.; Facer, P.; Durrenberger, P.; Chessell, I.P.; Naylor, A.; Bountra, C.; Banati, R.R.; Anand, P. COX-2, CB2 and P2X7-
+immunoreactivities are increased in activated microglial cells/macrophages of multiple sclerosis and amyotrophic lateral sclerosis
+spinal cord. BMC Neurol. 2006, 6, 12. [CrossRef] [PubMed]
+173. D’Ambrosi, N.; Finocchi, P.; Apolloni, S.; Cozzolino, M.; Ferri, A.; Padovano, V.; Pietrini, G.; Carrì, M.T.; Volonté, C. The
+proinflammatory action of microglial P2 receptors is enhanced in SOD1 models for amyotrophic lateral sclerosis. J. Immunol. 2009,
+183, 4648–4656. [CrossRef] [PubMed]
+174. Apolloni, S.; Parisi, C.; Pesaresi, M.G.; Rossi, S.; Carrì, M.T.; Cozzolino, M.; Volonté, C.; D’Ambrosi, N. The NADPH oxidase
+pathway is dysregulated by the P2X7 receptor in the SOD1-G93A microglia model of amyotrophic lateral sclerosis. J. Immunol.
+2013, 190, 5187–5195. [CrossRef]
+175. Apolloni, S.; Amadio, S.; Parisi, C.; Matteucci, A.; Potenza, R.L.; Armida, M.; Popoli, P.; D’Ambrosi, N.; Volonté, C. Spinal cord
+pathology is ameliorated by P2X7 antagonism in a SOD1-mutant mouse model of amyotrophic lateral sclerosis. Dis. Model Mech.
+2014, 7, 1101–1109. [CrossRef]
+176. Blasco, H.; Corcia, P.; Pradat, P.F.; Bocca, C.; Gordon, P.H.; Veyrat-Durebex, C.; Mavel, S.; Nadal-Desbarats, L.; Moreau, C.;
+Devos, D.; et al. Metabolomics in cerebrospinal fluid of patients with amyotrophic lateral sclerosis: An untargeted approach via
+high-resolution mass spectrometry. J. Proteome Res. 2013, 12, 3746–3754. [CrossRef]
+177. Liao, B.; Zhao, W.; Beers, D.R.; Henkel, J.S.; Appel, S.H. Transformation from a neuroprotective to a neurotoxic microglial
+phenotype in a mouse model of ALS. Exp. Neurol. 2012, 237, 147–152. [CrossRef] [PubMed]
+178. Moreno-Martinez, L.; Calvo, A.C.; Muñoz, M.J.; Osta, R. Are Circulating Cytokines Reliable Biomarkers for Amyotrophic Lateral
+Sclerosis? Int. J. Mol. Sci. 2019, 20, 2759. [CrossRef] [PubMed]
+179. Tortelli, R.; Zecca, C.; Piccininni, M.; Benmahamed, S.; Dell’Abate, M.T.; Barulli, M.R.; Capozzo, R.; Battista, P.; Logroscino, G.
+Plasma Inflammatory Cytokines Are Elevated in ALS. Front. Neurol. 2020, 11, 552295. [CrossRef] [PubMed]
+180. Lu, C.H.; Allen, K.; Oei, F.; Leoni, E.; Kuhle, J.; Tree, T.; Fratta, P.; Sharma, N.; Sidle, K.; Howard, R.; et al. Systemic inflammatory
+response and neuromuscular involvement in amyotrophic lateral sclerosis. Neurol. Neuroimmunol. Neuroinflamm. 2016, 3, e244.
+[CrossRef] [PubMed]
+181. Alshikho, M.J.; Zürcher, N.R.; Loggia, M.L.; Cernasov, P.; Reynolds, B.; Pijanowski, O.; Chonde, D.B.; Izquierdo Garcia, D.;
+Mainero, C.; Catana, C.; et al. Integrated magnetic resonance imaging and [11C]-PBR28 positron emission tomographic imaging
+in amyotrophic lateral sclerosis. Ann. Neurol. 2018, 83, 1186–1197. [CrossRef] [PubMed]
+182. Nagai, M.; Re, D.B.; Nagata, T.; Chalazonitis, A.; Jessell, T.M.; Wichterle, H.; Przedborski, S. Astrocytes expressing ALS-linked
+mutated SOD1 release factors selectively toxic to motor neurons. Nat. Neurosci. 2007, 10, 615–622. [CrossRef] [PubMed]
+183. Di Giorgio, F.P.; Carrasco, M.A.; Siao, M.C.; Maniatis, T.; Eggan, K. Non-cell autonomous effect of glia on motor neurons in an
+embryonic stem cell-based ALS model. Nat. Neurosci. 2007, 10, 608–614. [CrossRef] [PubMed]
+184. Papadeas, S.T.; Kraig, S.E.; O’Banion, C.; Lepore, A.C.; Maragakis, N.J. Astrocytes carrying the superoxide dismutase 1 (SOD1G93A)
+mutation induce wild-type motor neuron degeneration in vivo. Proc. Natl. Acad. Sci. USA 2011, 108, 17803–17808. [CrossRef]
+[PubMed]
+185. Qian, K.; Huang, H.; Peterson, A.; Hu, B.; Maragakis, N.J.; Ming, G.L.; Chen, H.; Zhang, S.C. Sporadic ALS Astrocytes Induce
+Neuronal Degeneration In Vivo. Stem Cell Rep. 2017, 8, 843–855. [CrossRef] [PubMed]
+186. Howland, D.S.; Liu, J.; She, Y.; Goad, B.; Maragakis, N.J.; Kim, B.; Erickson, J.; Kulik, J.; DeVito, L.; Psaltis, G.; et al. Focal loss of
+the glutamate transporter EAAT2 in a transgenic rat model of SOD1 mutant-mediated amyotrophic lateral sclerosis (ALS). Proc.
+Natl. Acad. Sci. USA 2002, 99, 1604–1609. [CrossRef] [PubMed]
+187. Pardo, A.C.; Wong, V.; Benson, L.M.; Dykes, M.; Tanaka, K.; Rothstein, J.D.; Maragakis, N.J. Loss of the astrocyte glutamate
+transporter GLT1 modifies disease in SOD1G93A mice. Exp. Neurol. 2006, 201, 120–130. [CrossRef] [PubMed]
+188. Hensley, K.; Abdel-Moaty, H.; Hunter, J.; Mhatre, M.; Mou, S.; Nguyen, K.; Potapova, T.; Pye, Q.N.; Qi, M.; Rice, H.; et al. Primary
+glia expressing the G93A-SOD1 mutation present a neuroinflammatory phenotype and provide a cellular system for studies of
+glial inflammation. J. Neuroinflamm. 2006, 3, 2. [CrossRef]
+189. Marchetto, M.C.; Muotri, A.R.; Mu, Y.; Smith, A.M.; Cezar, G.G.; Gage, F.H. Non-cell-autonomous effect of human SOD1 G37R
+astrocytes on motor neurons derived from human embryonic stem cells. Cell Stem Cell 2008, 3, 649–657. [CrossRef]
+190. Re, D.B.; Le Verche, V.; Yu, C.; Amoroso, M.W.; Politi, K.A.; Phani, S.; Ikiz, B.; Hoffmann, L.; Koolen, M.; Nagata, T.; et al.
+Necroptosis drives motor neuron death in models of both sporadic and familial ALS. Neuron 2014, 81, 1001–1008. [CrossRef]
+191. Ito, Y.; Ofengeim, D.; Najafov, A.; Das, S.; Saberi, S.; Li, Y.; Hitomi, J.; Zhu, H.; Chen, H.; Mayo, L.; et al. RIPK1 mediates axonal
+degeneration by promoting inflammation and necroptosis in ALS. Science 2016, 353, 603–608. [CrossRef]
+192. Bowerman, M.; Vincent, T.; Scamps, F.; Perrin, F.E.; Camu, W.; Raoul, C. Neuroimmunity dynamics and the development of
+therapeutic strategies for amyotrophic lateral sclerosis. Front. Cell. Neurosci. 2013, 7, 214. [CrossRef] [PubMed]
+193. Beers, D.R.; Zhao, W.; Wang, J.; Zhang, X.; Wen, S.; Neal, D.; Thonhoff, J.R.; Alsuliman, A.S.; Shpall, E.J.; Rezvani, K.; et al. ALS
+patients’ regulatory T lymphocytes are dysfunctional, and correlate with disease progression rate and severity. JCI Insight 2017,
+2, e89530. [CrossRef] [PubMed]
+
+Int. J. Mol. Sci. 2024, 25, 2698
+20 of 22
+194. Zondler, L.; Müller, K.; Khalaji, S.; Bliederhäuser, C.; Ruf, W.P.; Grozdanov, V.; Thiemann, M.; Fundel-Clemes, K.; Freischmidt, A.;
+Holzmann, K.; et al. Peripheral monocytes are functionally altered and invade the CNS in ALS patients. Acta Neuropathol. 2016,
+132, 391–411. [CrossRef]
+195. Murdock, B.J.; Bender, D.E.; Kashlan, S.R.; Figueroa-Romero, C.; Backus, C.; Callaghan, B.C.; Goutman, S.A.; Feldman, E.L.
+Increased ratio of circulating neutrophils to monocytes in amyotrophic lateral sclerosis. Neurol Neuroimmunol. Neuroinflamm. 2016,
+3, e242. [CrossRef]
+196. Van Dyke, J.M.; Smit-Oistad, I.M.; Macrander, C.; Krakora, D.; Meyer, M.G.; Suzuki, M. Macrophage-mediated inflammation and
+glial response in the skeletal muscle of a rat model of familial amyotrophic lateral sclerosis (ALS). Exp. Neurol. 2016, 277, 275–282.
+[CrossRef]
+197. Du, Y.; Zhao, W.; Thonhoff, J.R.; Wang, J.; Wen, S.; Appel, S.H. Increased activation ability of monocytes from ALS patients. Exp.
+Neurol. 2020, 328, 113259. [CrossRef] [PubMed]
+198. Chiot, A.; Zaïdi, S.; Iltis, C.; Ribon, M.; Berriat, F.; Schiaffino, L.; Jolly, A.; de la Grange, P.; Mallat, M.; Bohl, D.; et al. Modifying
+macrophages at the periphery has the capacity to change microglial reactivity and to extend ALS survival. Nat. Neurosci. 2020, 23,
+1339–1351. [CrossRef] [PubMed]
+199. Nagase, M.; Yamamoto, Y.; Miyazaki, Y.; Yoshino, H. Increased oxidative stress in patients with amyotrophic lateral sclerosis and
+the effect of edaravone administration. Redox Rep. 2016, 21, 104–112. [CrossRef] [PubMed]
+200. Cha, S.J.; Kim, K. Effects of the Edaravone, a Drug Approved for the Treatment of Amyotrophic Lateral Sclerosis, on Mitochondrial
+Function and Neuroprotection. Antioxidants 2022, 11, 195. [CrossRef] [PubMed]
+201. Ohta, Y.; Yamashita, T.; Nomura, E.; Hishikawa, N.; Ikegami, K.; Osakada, Y.; Matsumoto, N.; Kawahara, Y.; Yunoki, T.; Takahashi,
+Y.; et al. Improvement of a decreased anti-oxidative activity by edaravone in amyotrophic lateral sclerosis patients. J. Neurol. Sci.
+2020, 415, 116906. [CrossRef] [PubMed]
+202. Noh, K.M.; Hwang, J.Y.; Shin, H.C.; Koh, J.Y. A novel neuroprotective mechanism of riluzole: Direct inhibition of protein kinase
+C. Neurobiol. Dis. 2000, 7, 375–383. [CrossRef] [PubMed]
+203. Sala, G.; Arosio, A.; Conti, E.; Beretta, S.; Lunetta, C.; Riva, N.; Ferrarese, C.; Tremolizzo, L. Riluzole Selective Antioxidant Effects
+in Cell Models Expressing Amyotrophic Lateral Sclerosis Endophenotypes. Clin. Psychopharmacol. Neurosci. 2019, 17, 438–442.
+[CrossRef] [PubMed]
+204. Tarozzi, A.; Angeloni, C.; Malaguti, M.; Morroni, F.; Hrelia, S.; Hrelia, P. Sulforaphane as a potential protective phytochemical
+against neurodegenerative diseases. Oxidative Med. Cell. Longev. 2013, 2013, 415078. [CrossRef]
+205. Santín-Márquez, R.; Alarcón-Aguilar, A.; López-Diazguerrero, N.E.; Chondrogianni, N.; Königsberg, M. Sulforaphane—Role in
+aging and neurodegeneration. Geroscience 2019, 41, 655–670. [CrossRef]
+206. Jo, C.; Kim, S.; Cho, S.J.; Choi, K.J.; Yun, S.M.; Koh, Y.H.; Johnson, G.V.; Park, S.I. Sulforaphane induces autophagy through ERK
+activation in neuronal cells. FEBS Lett. 2014, 588, 3081–3088. [CrossRef]
+207. Socała, K.; Nieoczym, D.; Kowalczuk-Vasilev, E.; Wyska, E.; Wla´z, P. Increased seizure susceptibility and other toxicity symptoms
+following acute sulforaphane treatment in mice. Toxicol. Appl. Pharmacol. 2017, 326, 43–53. [CrossRef]
+208. Ziros, P.G.; Habeos, I.G.; Chartoumpekis, D.V.; Ntalampyra, E.; Somm, E.; Renaud, C.O.; Bongiovanni, M.; Trougakos, I.P.;
+Yamamoto, M.; Kensler, T.W.; et al. NFE2-Related Transcription Factor 2 Coordinates Antioxidant Defense with Thyroglobulin
+Production and Iodination in the Thyroid Gland. Thyroid 2018, 28, 780–798. [CrossRef] [PubMed]
+209. Williams, J.R.; Trias, E.; Beilby, P.R.; Lopez, N.I.; Labut, E.M.; Bradford, C.S.; Roberts, B.R.; McAllum, E.J.; Crouch, P.J.; Rhoads,
+T.W.; et al. Copper delivery to the CNS by CuATSM effectively treats motor neuron disease in SODG93A mice co-expressing the
+Copper-Chaperone-for-SOD. Neurobiol. Dis. 2016, 89, 1–9. [CrossRef] [PubMed]
+210. Lum, J.S.; Brown, M.L.; Farrawell, N.E.; McAlary, L.; Ly, D.; Chisholm, C.G.; Snow, J.; Vine, K.L.; Karl, T.; Kreilaus, F.; et al.
+CuATSM improves motor function and extends survival but is not tolerated at a high dose in SOD1. Sci. Rep. 2021, 11, 19392.
+[CrossRef]
+211. Miquel, E.; Cassina, A.; Martínez-Palma, L.; Souza, J.M.; Bolatto, C.; Rodríguez-Bottero, S.; Logan, A.; Smith, R.A.; Murphy, M.P.;
+Barbeito, L.; et al. Neuroprotective effects of the mitochondria-targeted antioxidant MitoQ in a model of inherited amyotrophic
+lateral sclerosis. Free Radic. Biol. Med. 2014, 70, 204–213. [CrossRef] [PubMed]
+212. East, D.A.; Fagiani, F.; Crosby, J.; Georgakopoulos, N.D.; Bertrand, H.; Schaap, M.; Fowkes, A.; Wells, G.; Campanella, M. PMI: A
+∆Ψm independent pharmacological regulator of mitophagy. Chem. Biol. 2014, 21, 1585–1596. [CrossRef] [PubMed]
+213. Deng, Z.; Lim, J.; Wang, Q.; Purtell, K.; Wu, S.; Palomo, G.M.; Tan, H.; Manfredi, G.; Zhao, Y.; Peng, J.; et al. ALS-FTLD-linked
+mutations of SQSTM1/p62 disrupt selective autophagy and NFE2L2/NRF2 anti-oxidative stress pathway. Autophagy 2020, 16,
+917–931. [CrossRef]
+214. Said Ahmed, M.; Hung, W.Y.; Zu, J.S.; Hockberger, P.; Siddique, T. Increased reactive oxygen species in familial amyotrophic
+lateral sclerosis with mutations in SOD1. J. Neurol. Sci. 2000, 176, 88–94. [CrossRef]
+215. Andres, S.; Pevny, S.; Ziegenhagen, R.; Bakhiya, N.; Schäfer, B.; Hirsch-Ernst, K.I.; Lampen, A. Safety Aspects of the Use of
+Quercetin as a Dietary Supplement. Mol. Nutr. Food Res. 2018, 62, 1700447. [CrossRef]
+216. Moreno-Martet, M.; Espejo-Porras, F.; Fernández-Ruiz, J.; de Lago, E. Changes in endocannabinoid receptors and enzymes in the
+spinal cord of SOD1G93A transgenic mice and evaluation of a Sativex®-like combination of phytocannabinoids: Interest for future
+therapies in amyotrophic lateral sclerosis. CNS Neurosci. Ther. 2014, 20, 809–815. [CrossRef]
+
+Int. J. Mol. Sci. 2024, 25, 2698
+21 of 22
+217. Espejo-Porras, F.; García-Toscano, L.; Rodríguez-Cueto, C.; Santos-García, I.; de Lago, E.; Fernandez-Ruiz, J. Targeting glial
+cannabinoid CB2 receptors to delay the progression of the pathological phenotype in TDP-43 (A315T) transgenic mice, a model of
+amyotrophic lateral sclerosis. Br. J. Pharmacol. 2019, 176, 1585–1600. [CrossRef] [PubMed]
+218. Rodríguez-Cueto, C.; García-Toscano, L.; Santos-García, I.; Gómez-Almería, M.; Gonzalo-Consuegra, C.; Espejo-Porras, F.;
+Fernández-Ruiz, J.; de Lago, E. Targeting the CB2 receptor and other endocannabinoid elements to delay disease progression in
+amyotrophic lateral sclerosis. Br. J. Pharmacol. 2021, 178, 1373–1387. [CrossRef] [PubMed]
+219. Harraz, M.M.; Marden, J.J.; Zhou, W.; Zhang, Y.; Williams, A.; Sharov, V.S.; Nelson, K.; Luo, M.; Paulson, H.; Schöneich, C.; et al.
+SOD1 mutations disrupt redox-sensitive Rac regulation of NADPH oxidase in a familial ALS model. J. Clin. Investig. 2008, 118,
+659–670. [CrossRef] [PubMed]
+220. Seredenina, T.; Nayernia, Z.; Sorce, S.; Maghzal, G.J.; Filippova, A.; Ling, S.C.; Basset, O.; Plastre, O.; Daali, Y.; Rushing, E.J.; et al.
+Evaluation of NADPH oxidases as drug targets in a mouse model of familial amyotrophic lateral sclerosis. Free Radic. Biol. Med.
+2016, 97, 95–108. [CrossRef]
+221. Van Den Bosch, L.; Tilkin, P.; Lemmens, G.; Robberecht, W. Minocycline delays disease onset and mortality in a transgenic model
+of ALS. Neuroreport 2002, 13, 1067–1070. [CrossRef]
+222. Yong, V.W.; Wells, J.; Giuliani, F.; Casha, S.; Power, C.; Metz, L.M. The promise of minocycline in neurology. Lancet Neurol. 2004, 3,
+744–751. [CrossRef]
+223. Gordon, P.H.; Moore, D.H.; Miller, R.G.; Florence, J.M.; Verheijde, J.L.; Doorish, C.; Hilton, J.F.; Spitalny, G.M.; MacArthur, R.B.;
+Mitsumoto, H.; et al. Efficacy of minocycline in patients with amyotrophic lateral sclerosis: A phase III randomised trial. Lancet
+Neurol. 2007, 6, 1045–1053. [CrossRef]
+224. Miller, R.G.; Block, G.; Katz, J.S.; Barohn, R.J.; Gopalakrishnan, V.; Cudkowicz, M.; Zhang, J.R.; McGrath, M.S.; Ludington,
+E.; Appel, S.H.; et al. Randomized phase 2 trial of NP001-a novel immune regulator: Safety and early efficacy in ALS. Neurol.
+Neuroimmunol. Neuroinflamm. 2015, 2, e100. [CrossRef]
+225. Miller, R.G.; Zhang, R.; Bracci, P.M.; Azhir, A.; Barohn, R.; Bedlack, R.; Benatar, M.; Berry, J.D.; Cudkowicz, M.; Kasarskis, E.J.;
+et al. Phase 2B randomized controlled trial of NP001 in amyotrophic lateral sclerosis: Pre-specified and post hoc analyses. Muscle
+Nerve 2022, 66, 39–49. [CrossRef]
+226. Trias, E.; Ibarburu, S.; Barreto-Núñez, R.; Babdor, J.; Maciel, T.T.; Guillo, M.; Gros, L.; Dubreuil, P.; Díaz-Amarilla, P.; Cassina, P.;
+et al. Post-paralysis tyrosine kinase inhibition with masitinib abrogates neuroinflammation and slows disease progression in
+inherited amyotrophic lateral sclerosis. J. Neuroinflamm. 2016, 13, 177. [CrossRef]
+227. Mora, J.S.; Genge, A.; Chio, A.; Estol, C.J.; Chaverri, D.; Hernández, M.; Marín, S.; Mascias, J.; Rodriguez, G.E.; Povedano, M.; et al.
+Masitinib as an add-on therapy to riluzole in patients with amyotrophic lateral sclerosis: A randomized clinical trial. Amyotroph.
+Lateral Scler. Front. Degener. 2020, 21, 5–14. [CrossRef] [PubMed]
+228. Mora, J.S.; Bradley, W.G.; Chaverri, D.; Hernández-Barral, M.; Mascias, J.; Gamez, J.; Gargiulo-Monachelli, G.M.; Moussy, A.;
+Mansfield, C.D.; Hermine, O.; et al. Long-term survival analysis of masitinib in amyotrophic lateral sclerosis. Ther. Adv. Neurol.
+Disord. 2021, 14, 17562864211030365. [CrossRef]
+229. Potenza, R.L.; De Simone, R.; Armida, M.; Mazziotti, V.; Pèzzola, A.; Popoli, P.; Minghetti, L. Fingolimod: A Disease-Modifier
+Drug in a Mouse Model of Amyotrophic Lateral Sclerosis. Neurotherapeutics 2016, 13, 918–927. [CrossRef]
+230. Berry, J.D.; Paganoni, S.; Atassi, N.; Macklin, E.A.; Goyal, N.; Rivner, M.; Simpson, E.; Appel, S.; Grasso, D.L.; Mejia, N.I.; et al.
+Phase IIa trial of fingolimod for amyotrophic lateral sclerosis demonstrates acceptable acute safety and tolerability. Muscle Nerve
+2017, 56, 1077–1084. [CrossRef] [PubMed]
+231. Adamczyk, B.; Koziarska, D.; Kasperczyk, S.; Adamczyk-Sowa, M. Are antioxidant parameters in serum altered in patients with
+relapsing-remitting multiple sclerosis treated with II-line immunomodulatory therapy? Free Radic. Res. 2018, 52, 1083–1093.
+[CrossRef] [PubMed]
+232. Adamczyk, B.; Wawrzyniak, S.; Kasperczyk, S.; Adamczyk-Sowa, M. The Evaluation of Oxidative Stress Parameters in Serum
+Patients with Relapsing-Remitting Multiple Sclerosis Treated with II-Line Immunomodulatory Therapy. Oxidative Med. Cell.
+Longev. 2017, 2017, 9625806. [CrossRef]
+233. Yevgi, R.; Demir, R. Oxidative stress activity of fingolimod in multiple sclerosis. Clin. Neurol. Neurosurg. 2021, 202, 106500.
+[CrossRef]
+234. Paganoni, S.; Alshikho, M.J.; Luppino, S.; Chan, J.; Pothier, L.; Schoenfeld, D.; Andres, P.L.; Babu, S.; Zürcher, N.R.; Loggia, M.L.;
+et al. A pilot trial of RNS60 in amyotrophic lateral sclerosis. Muscle Nerve 2019, 59, 303–308. [CrossRef]
+235. Camu, W.; Mickunas, M.; Veyrune, J.L.; Payan, C.; Garlanda, C.; Locati, M.; Juntas-Morales, R.; Pageot, N.; Malaspina, A.;
+Andreasson, U.; et al. Repeated 5-day cycles of low dose aldesleukin in amyotrophic lateral sclerosis (IMODALS): A phase 2a
+randomised, double-blind, placebo-controlled trial. EBioMedicine 2020, 59, 102844. [CrossRef]
+236. Czarzasta, J.; Habich, A.; Siwek, T.; Czapli´nski, A.; Maksymowicz, W.; Wojtkiewicz, J. Stem cells for ALS: An overview of possible
+therapeutic approaches. Int. J. Dev. Neurosci. 2017, 57, 46–55. [CrossRef]
+237. Glass, J.D.; Hertzberg, V.S.; Boulis, N.M.; Riley, J.; Federici, T.; Polak, M.; Bordeau, J.; Fournier, C.; Johe, K.; Hazel, T.; et al.
+Transplantation of spinal cord-derived neural stem cells for ALS: Analysis of phase 1 and 2 trials. Neurology 2016, 87, 392–400.
+[CrossRef] [PubMed]
+
+Int. J. Mol. Sci. 2024, 25, 2698
+22 of 22
+238. Moreau, C.; Brunaud-Danel, V.; Dallongeville, J.; Duhamel, A.; Laurier-Grymonprez, L.; de Reuck, J.; Wiart, A.C.; Perez, T.;
+Richard, F.; Amouyel, P.; et al. Modifying effect of arterial hypertension on amyotrophic lateral sclerosis. Amyotroph. Lateral Scler.
+2012, 13, 194–201. [CrossRef]
+239. Lian, L.; Liu, M.; Cui, L.; Guan, Y.; Liu, T.; Cui, B.; Zhang, K.; Tai, H.; Shen, D. Environmental risk factors and amyotrophic lateral
+sclerosis (ALS): A case-control study of ALS in China. J. Clin. Neurosci. 2019, 66, 12–18. [CrossRef] [PubMed]
+240. Hu, N.; Ji, H. Medications on hypertension, hyperlipidemia, diabetes, and risk of amyotrophic lateral sclerosis: A systematic
+review and meta-analysis. Neurol. Sci. 2022, 43, 5189–5199. [CrossRef] [PubMed]
+241. Wen, H.; Gwathmey, J.K.; Xie, L.H. Oxidative stress-mediated effects of angiotensin II in the cardiovascular system. World J.
+Hypertens. 2012, 23, 34–44. [CrossRef]
+242. Pfeiffer, R.M.; Mayer, B.; Kuncl, R.W.; Check, D.P.; Cahoon, E.K.; Rivera, D.R.; Freedman, D.M. Identifying potential targets for
+prevention and treatment of amyotrophic lateral sclerosis based on a screen of medicare prescription drugs. Amyotroph. Lateral
+Scler. Front. Degener. 2020, 21, 235–245. [CrossRef]
+243. De Morais, S.D.B.; Shanks, J.; Zucker, I.H. Integrative Physiological Aspects of Brain RAS in Hypertension. Curr. Hypertens. Rep.
+2018, 20, 10. [CrossRef]
+244. Abiodun, O.A.; Ola, M.S. Role of brain renin angiotensin system in neurodegeneration: An update. Saudi J. Biol. Sci. 2020, 27,
+905–912. [CrossRef] [PubMed]
+245. Petrov, D.; Mansfield, C.; Moussy, A.; Hermine, O. ALS Clinical Trials Review: 20 Years of Failure. Are We Any Closer to
+Registering a New Treatment? Front. Aging Neurosci. 2017, 9, 68. [CrossRef] [PubMed]
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual
+author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to
+people or property resulting from any ideas, methods, instructions or products referred to in the content.

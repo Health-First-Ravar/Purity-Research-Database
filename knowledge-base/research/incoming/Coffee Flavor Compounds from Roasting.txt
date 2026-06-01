@@ -1,0 +1,1103 @@
+Determination of volatile marker compounds of common coffee roast
+defects
+Ni Yang a, Chujiao Liu a, Xingkun Liu a, Tina Kreuzfeldt Degn b, Morten Munchow b,c,d, Ian Fisk a,⇑
+a Division of Food Sciences, University of Nottingham, Sutton Bonington Campus, Loughborough LE12 5RD, United Kingdom
+b Department of Food Science, Faculty of Science, University of Copenhagen, Rolighedsvej 30, 1958 Frederiksberg C, Denmark
+c The Specialty Coffee Association of Europe, Chelmsford, Essex, United Kingdom
+d CoffeeMind Aps, Hansstedvej 35, 2500 Valby, Denmark
+a r t i c l e
+i n f o
+Article history:
+Received 23 July 2015
+Received in revised form 15 April 2016
+Accepted 21 April 2016
+Available online 27 April 2016
+Keywords:
+Coffee
+Roast defects
+Coffee production
+Aroma chemistry
+Quality control
+a b s t r a c t
+Coffee beans from the same origin were roasted using six time-temperature proﬁles, in order to identify
+volatile aroma compounds associated with ﬁve common roast coffee defects (light, scorched, dark, baked
+and underdeveloped). Thirty-seven volatile aroma compounds were selected on the basis that they had
+previously been identiﬁed as potent odorants of coffee and were also identiﬁed in all coffee brew prepa-
+rations; the relative abundance of these aroma compounds was then evaluated using gas chromatogra-
+phy mass spectrometry (GC–MS) with headspace solid phase micro extraction. Some of the 37 key
+aroma compounds were signiﬁcantly changed in each coffee roast defect and changes in one marker com-
+pound was chosen for each defect type, that is, indole for light defect, 4-ethyl-2-methoxyphenol for
+scorched defect, phenol for dark defect, maltol for baked defect and 2,5-dimethylfuran for underdevel-
+oped defect. The association of speciﬁc changes in aroma proﬁles for different roast defects has not been
+shown previously and could be incorporated into screening tools to enable the coffee industry quickly
+identify if roast defects occur during production.
+ 2016 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY license (http://
+creativecommons.org/licenses/by/4.0/).
+1. Introduction
+Coffee is one of the most popular hot beverages consumed
+around the world. It is drunk by millions of people every day and
+there continues to be an increasing demanding for high quality
+speciality coffees (Bhumiratana, Adhikari, & Chambers Iv, 2011).
+The production of coffee that is perceived to be of good quality is
+dependent on many factors, these include the quality of the green
+bean, roaster type, the extraction process and water type used dur-
+ing brewing (Ribeiro, Augusto, Salva, Thomaziello, & Ferreira,
+2009). Furthermore, coffee’s unique aroma proﬁle is very closely
+related to the time-temperature proﬁles used during the roasting
+process (Baggenstoss, Poisson, Kaegi, Perren, & Escher, 2008; Fisk,
+Kettle, Hofmeister, Virdie, & Kenny, 2012; Gloess et al., 2014).
+Many different methods have been proposed to determine the
+optimum degree of roast. These include colour generation, weight
+loss, moisture content, degradation of chlorogenic acid or the ratio
+of free amino acids (Baggenstoss et al., 2008). However, the nature
+of the roasting process is very complex and no clear universally
+accepted deﬁnitions exist. Colour, although imprecise, is therefore
+currently used as the industry standard (Senyuva & Gökmen,
+2005).
+Unlike ﬂavour defects which result directly from the green
+bean, its production, processing and storage (Mancha Agresti,
+Franca, Oliveira, & Augusti, 2008), the term roast defects indicates
+problems within the roasting process, directly resulting in the
+presence of off-ﬂavours in the coffee brew. Variations in time-
+temperature proﬁles within the roasting process will directly
+impact the rate of moisture loss, internal bean temperature and
+local microchemistry. This will regulate the rate at which carameli-
+sation, Maillard chemistry, oxidation and pyrolysis occurs, and the
+resultant development of colour and ﬂavour in the ﬁnal roasted
+coffee bean (Sunarharum, Williams, & Smyth, 2014).
+More than 800 volatile compounds have been identiﬁed to be
+present in roast and ground coffee. The most common classes of
+compounds reported in the headspace include acids, aldehydes
+(Ullrich & Grosch, 1987), alcohols (Merritt & Robertson, 1966), sul-
+phur compounds (Silwar, 1986), phenolic compounds (Pypker &
+Brouwer, 1970), pyrazines (Reymond, Muggler-Chavan, Viani,
+Vuataz, & Egli, 1966), pyridines (Balts & Bochmann, 1987), thio-
+phenes (Vitzthum & Werkhoff, 1976), pyrroles and furans. Due to
+the high number of compounds and inherent complexity of aroma
+http://dx.doi.org/10.1016/j.foodchem.2016.04.124
+0308-8146/ 2016 The Authors. Published by Elsevier Ltd.
+This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).
+⇑Corresponding author at: Division of Food Sciences, University of Nottingham,
+Sutton Bonington Campus, Sutton Bonington, Loughborough, Leicestershire LE12
+5RD, United Kingdom.
+E-mail address: Ian.Fisk@nottingham.ac.uk (I. Fisk).
+Food Chemistry 211 (2016) 206–214
+Contents lists available at ScienceDirect
+Food Chemistry
+journal homepage: www.elsevier.com/locate/foodchem
+
+chemistry within the coffee bean, it is essential to have both a
+methodology and a source of markers available to the coffee indus-
+try to enable them to identify roast defects.
+The overarching objective of this study was to demonstrate how
+aroma proﬁles were impacted when roast defects occurred during
+coffee roasting and to generate a list of marker compounds associ-
+ated with ﬁve roast defects (light, scorched, dark, baked and
+underdeveloped). Gas chromatography mass spectrometry (GC–
+MS) with headspace solid phase micro extraction (SPME) was used
+to compare the changes in volatile aroma compounds present in
+the roast defect coffee. To the best of our knowledge this is the ﬁrst
+study to present a methodology for the evaluation of, and generate
+a framework of compounds associated with, roast defects in the
+aroma proﬁle of roasted coffee.
+2. Materials and methods
+2.1. Coffee samples
+All the coffee beans were single-origin washed Kenya Arabica
+from the wet mill from crop years 2012/2013 and 2013/2014. They
+were supplied by Kontra Coffee (Dag Hammarskjölds Alle 36, 2100
+Copenhagen, Denmark), and were roasted using a batch size of 1 kg
+through a Probat drum roaster (Probat-Werke, Germany) modiﬁed
+to include additional temperature probes to monitor bean temper-
+ature. Roast degree was measured with a Javalytics JAV-RDA-DN
+(Madison Instruments, Inc., United States) and Agtron number
+was used to indicate the colour of the roast- the smaller the
+number, the darker the roast.
+The roasting parameters for the standard roast and ﬁve roasting
+defects were recorded (Table S1). When a popping sound is per-
+ceived during roasting, it is the ﬁrst crack and the development
+time is deﬁned as the time from ﬁrst crack to the end of roasting
+in this study. The standard roasting started when the air tempera-
+ture in the roaster was at 210 C and its developing time was 2 min
+40 s with the total roasting time of 11 min 25 s. The light roast
+defect had the same starting temperature (210 C) but with only
+10 s development time and total roasting time of 8 min 40 s. The
+scorched roast defect had a higher starting temperature (275 C)
+and shorter total roasting time (7 min 40 s) than standard roast.
+The dark roast defect had longer developing time (4 min 45 s) than
+the standard roast, and resulted in an additional 2 min of total
+roasting time. Baked roast defect had a higher initial temperature
+(230 C) than the standard roast, and longer development time
+(6 min 20 s). In the underdeveloped samples, coffee was roasted
+at a much lower initial temperature (135 C) and a longer total
+roasting time (20 min 20 s) than the standard roast.
+Roasted samples were individually packed in the odour-free air-
+tight package. Beans from each type were weighed (90 g) and
+ground using an electronic coffee grinder (KG 49, Delonghi, Aus-
+tralia), then passed through a metal sieve (710 mm, Endecotts,
+Essex, UK). Ground coffee (11 g) was brewed with boiling water
+(200 mL) using a French press brewer (3 Cup Black Cafetiere, Argos,
+UK) using deionised water (Purite Ltd, Oxon, UK). The resulting cof-
+fee brew was stirred 5 times with a spoon and allowed to stand for
+4 min before depressing the plunger. The brewed coffee (4 mL) was
+stored in amber glass vials (20 mL, 22.5 mm  75.5 mm, Sigma-
+Aldrich, UK) and closed with crimp seals (Sigma-Aldrich, UK) for
+Table 1
+Detection of 37 volatile aroma compounds in the standard roast coffee and defect samples.
+Retention time
+Aroma compound
+Odour descriptiona
+Functional group
+1
+2.25
+3-Methylbutanal
+Malty
+Aldehyde
+2
+2.28
+2-Methylbutanal
+Malty
+Aldehyde
+3
+2.70
+2,5-Dimethylfuran
+Ethereal
+Furan
+4
+3.08
+2,3-Butanedione
+Buttery, cheesy
+Ketone
+5
+4.88
+2,3-Pentadione
+Oily buttery
+Ketone
+6
+5.00
+Dimethyl disulphide
+Onion
+Sulphide
+7
+5.22
+2-vinylfuran
+Ethereal, rum, cocoa note
+Furan
+8
+5.35
+Hexanal
+Grassy, green oily
+Aldehyde
+9
+5.54
+3-Methylthiophene
+Ash
+Sulphide
+10
+7.33
+2,3-Hexandione
+Buttery, cheesy, sweet, creamy
+Ketone
+11
+8.83
+Pyridine
+Bitter, astringent, roasted, burnt
+Heterocyclic N
+12
+11.83
+Furfuryl methyl ether
+Nutty, coffee grounds-like, rich, phenolic
+Ether
+13
+12.53
+2-Methylpyrazine
+Nutty, roasted, chocolate
+Pyrazine
+14
+12.70
+Dihydro-2-methyl-3-furanone
+Sweet, roasted
+Ketone
+15
+14.96
+2,5-Dimethylpyrazine
+Nutty, roasted, grassy, corn
+Pyrazine
+16
+15.27
+2,6-Dimethylpyrazine
+Nutty, sweet, fried
+Pyrazine
+17
+15.59
+2-Ethylpyrazine
+Nutty, roasted
+Pyrazine
+18
+16.03
+2,3-dimethyl-Pyrazine
+Nutty, roasted, green
+Pyrazine
+19
+17.42
+Dimethyl trisulphide
+Onion
+Sulphide
+20
+17.86
+2-Ethyl-6-methylpyrazine
+Roasted, hazelnut-like
+Pyrazine
+21
+18.59
+Trimethyl pyrazine
+Nutty, roasted
+Pyrazine
+22
+21.81
+2-Furfural
+Bread, almond, sweet
+Aldehyde
+23
+22.94
+Acetic acid
+Sour
+Organic acid
+24
+23.37
+2-Acetylfuran
+Balsamic-sweet
+Furan
+25
+24.11
+Pyrrole
+Nutty, hay-like, herbaceous
+Heterocyclic N
+26
+30.13
+Furfuryl alcohol
+Burnt
+Alcohol
+27
+31.30
+Butanoic acid
+Sour
+Organic acid
+28
+31.30
+Hexanoic acid
+Fatty-rancid, acrid-acid
+Organic acid
+29
+35.11
+2-Furfuryl methyl disulphide
+Coffee-like
+Sulphide
+30
+36.22
+1-Furfurylpyrrole
+Hay-like, mushroom-like, green
+Heterocyclic N
+31
+40.76
+Maltol
+Caramel
+Alcohol
+32
+41.16
+1-(1-H-pyrrol-2-yl)ethanone
+Nutty, musty
+Ketone
+33
+41.81
+Difurfuryl ether
+Coffee-like, toasted odour
+Ether
+34
+42.65
+Phenol
+Smoky
+Phenolic
+35
+43.21
+4-Ethyl-2-methoxyphenol
+Smoky, spicy
+Phenolic
+36
+45.25
+Octanoic acid
+Sweet cheesy
+Organic acid
+37
+55.02
+Indole
+Burnt, mothball
+Heterocyclic N
+a Flament (2002).
+N. Yang et al. / Food Chemistry 211 (2016) 206–214
+207
+
+GC–MS analysis. Each sample type had four replicates and they
+were analysed in a randomised order by GC–MS.
+2.2. Gas chromatography–mass spectrometry
+A trace 1300 series Gas Chromatograph coupled with the
+Single-Quadrupole Mass Spectrometer (Thermo Fisher Scientiﬁc,
+Hemel Hemptead, UK) was used for analysis of volatile aroma
+compounds. Samples were incubated at 55 C for 5 min with
+shaking. A 50/30 lm DVB/CAR/PDMS SPME Fibre (Supelco, Sigma
+Aldrich, UK) was used to extract volatile aroma compounds from
+the sample headspace (extraction for 5 min then desorption for
+15 min). The inlet temperature was set at 200 C and a splitless
+mode was used, and the constant carrier pressure was at
+103 kPa.
+Separation was carried out on a ZB-WAX Capillary GC Column
+(length 30 m, inner diameter 0.25 mm, and ﬁlm thickness 1 lm;
+Phenomenex Inc., Macclesﬁeld, UK). Column temperature was
+held initially at 40 C for 5 min, increased by 3 C/min to 180 C,
+then 8 C/min to 240 C and held for 2 min. Full scan mode was
+used to detect the volatile compounds (mass range from 20 to
+300 AMU).
+Volatiles were identiﬁed by comparison of each mass spectrum
+with either the spectra from authentic compounds or with spectra
+in reference libraries (NIST/EPA/NIH Mass Spectral Library, version
+2.0, Faircom Corporation, U.S.). The relative abundance of each
+volatile compound present in the headspace was calculated by its
+GC peak area found in the defect roast (average of 4 replicates),
+normalised to its respective peak found in the standard roast as
+100%, and presented as a percentage. All samples were analysed
+in one run in randomised order with external standards run prior
+to and after the run.
+2.3. Statistical analysis
+Relative abundance of each aroma compound was analysed by
+ANOVA to identify if a signiﬁcant difference (p < 0.05) present for
+each compound between each defect roast and standard roast
+(IBM
+SPSS
+Statistics
+version
+21.0.0).
+Principle
+Component
+Analysis (PCA) was generated using the Unscrambler X version
+9.1.2 (Camo Software, Oslo, Norway).
+0 
+20
+40
+60
+80
+100
+120
+140
+160
+180
+2-Methylbutanal
+3-Methylbutanal
+*2,5-Dimethylfuran
+2,3-Butanedione
+*2,3-Pentadione
+*Dimethyl disulphide
+*2-vinylfuran
+Hexanal
+*3-Methylthiophene
+*2,3-Hexandione
+*Pyridine
+*Furfuryl methyl ether
+2-Methylpyrazine
+*Dihydro-2-methyl-3-furanone
+2,5-Dimethylpyrazine
+2,6-Dimethylpyrazine
+2-Ethylpyrazine
+2,3-dimethyl-Pyrazine
+*Dimethyl Trisulphide
+2-Ethyl-6-methylpyrazine
+Trimethyl pyrazine
+*2-Furfural
+*Acec acid
+*2-Acetylfuran
+Pyrrole
+*Furfuryl alcohol
+Hexanoic acid
+Butanoic acid
+*2-Furfuryl methyl disulphide
+*1-Furfurylpyrrole
+*Maltol
+*1-(1-H-pyrrol-2-yl)ethanone
+*Difurfuryl ether
+*Phenol
+*4-Ethyl-2-methoxyphenol
+Octanoic acid
+*Indole
+60
+80
+100
+120
+140
+160
+180
+0 
+2 
+4 
+6 
+8 
+10
+12
+14
+16
+18
+20
+Temperature (°C)
+Time (min)
+Light Roast
+Standard Roast
+(a)
+(b)
+Fig. 1. Light roast defect compared with standard roast: a) bean temperature during roasting for standard roast (grey line with cross markers) and light roast defect (black
+line with square markers); b) aroma proﬁle between standard roast (smooth circle at 100%) and light roast defect (spider diagram with square markers). Compounds
+with ⁄ had a signiﬁcant difference (p < 0.05). Marker compound was underlined.
+208
+N. Yang et al. / Food Chemistry 211 (2016) 206–214
+
+3. Results and discussion
+3.1. Aroma compounds of roasted coffee samples
+Coffee samples were generated with roasting parameters to
+represent ﬁve different types of roast defects. Thirty-seven aroma
+compounds were identiﬁed within the coffee samples and these
+compounds were selected as initial target compounds for the
+determination of the roast and ground coffee aroma proﬁles
+(Table 1). All of the compounds have previously been identiﬁed
+in coffee. The range of compounds were classiﬁed into 10 groups
+based on the chemical properties of the compound (4 organic
+acids, 2 alcohols, 2 ethers, 4 aldehydes, 5 ketones, 2 phenolic com-
+pounds, 3 furans, 4 sulphide compounds, 7 pyrazines, and 4 N-
+containing heterocyclic compounds). Literature descriptions of
+their aroma proﬁle varied from malty, nutty, grassy, sour, burnt,
+and smoky.
+3.2. Aroma chemistry of roast coffee defects
+3.2.1. Light roast defect
+The bean temperature was evaluated for both a standard roast
+and a light roast defect, this is shown in Fig. 1 a. Light roast defect
+samples were subjected to a similar temperature proﬁle as the
+standard roast, but the bean had higher bean temperature at
+160 C than standard roast (120 C) and the roasting process was
+stopped around 4 min earlier. During roasting, green beans
+undergo several stages including the endothermic heating up take
+phase, followed by the larger exothermic heat release phase. The
+key stage is from the ﬁrst crack, when a popping sound is per-
+ceived, to the second crack (Gloess et al., 2014). So the develop-
+ment time is essential for aroma generation during roasting.
+The impact of shortening the development time on the resulting
+aroma proﬁle was determined and is presented in Fig. 1b. In gen-
+eral, there was a reduction in most volatile aroma compounds in
+60
+80
+100
+120
+140
+160
+180
+0 
+2 
+4 
+6 
+8 
+10
+12
+14
+16
+18
+20
+Temperature (°C)
+Time (min)
+Scorched
+Standard Roast
+0 
+100
+200
+300
+400
+500
+600
+700
+800
+900
+*2-Methylbutanal
+*3-Methylbutanal
+*2,5-Dimethylfuran
+*2,3-Butanedione
+*2,3-Pentadione
+*Dimethyl disulphide
+*2-vinylfuran
+Hexanal
+*3-Methylthiophene
+*2,3-Hexandione
+*Pyridine
+*Furfuryl methyl ether
+2-Methylpyrazine
+Dihydro-2-methyl-3-furanone
+2,5-Dimethylpyrazine
+2,6-Dimethylpyrazine
+2-Ethylpyrazine
+*2,3-dimethyl-Pyrazine
+*Dimethyl Trisulphide
+2-Ethyl-6-methylpyrazine
+Trimethyl pyrazine
+*2-Furfural
+Acec acid
+*2-Acetylfuran
+*Pyrrole
+*Furfuryl alcohol
+Hexanoic acid
+Butanoic acid
+*2-Furfuryl methyl disulphide
+*1-Furfurylpyrrole
+*Maltol
+*1-(1-H-pyrrol-2-yl)ethanone
+*Difurfuryl ether
+*Phenol
+*4-Ethyl-2-methoxyphenol
+Octanoic acid
+*Indole
+(a)
+(b)
+Fig. 2. Scorched roast defect compared with standard roast: a) bean temperature during roasting for standard roast (grey line with cross markers) and scorched roast defect
+(black line with square markers); b) aroma proﬁle between standard roast (smooth circle at 100%) and scorched roast defect (spider diagram with square markers).
+Compounds with ⁄ had a signiﬁcant difference (p < 0.05). Marker compound was underlined.
+N. Yang et al. / Food Chemistry 211 (2016) 206–214
+209
+
+the light roast defect, suggesting that the shorter development
+time did not allow full aroma development to occur and that the
+aroma generation reaction was terminated prematurely.
+There was a signiﬁcant elevation in the relative abundance of
+indole in the light roast defect coffee (p < 0.05). Indole has been
+previously identiﬁed in both green coffee (Cantergiani et al.,
+2001) and roasted coffee (Dorfner, Ferge, Yeretzian, Kettrup, &
+Zimmermann, 2004) and is proposed to originate from the waxes
+surrounding the coffee beans (Arctander, 1969). Due to elevated
+abundance in the light roast defect samples, indole is therefore
+proposed as a chemical marker for the light roast defect.
+In addition, there was a signiﬁcant reduction in the abundance of
+difurfuryl ether (p < 0.05) and pyridine (p < 0.05). Difurfuryl ether is
+known to increase as roasting time increases (López-Galilea,
+Fournier, Cid, & Guichard, 2006); whereas, pyridine is also formed
+during longer roasting conditions and has previously been proposed
+to originate during roasting through the decomposition of trigonel-
+line (Zheng & Ashihara, 2004) and by Maillard chemistry (Mottram,
+2007). Low levels of difurfuryl ether and pyridine, and high levels of
+indole within roasted coffee samples may therefore indicate
+reduced thermal degradation and a shorter development time.
+3.2.2. Scorched roast defect
+This defect resembled the standard roast proﬁle, but was a
+quicker process and occurred at a higher temperature (Fig. 2a).
+There was a major change in the aroma proﬁle of the scorched
+roast coffee when compared to the standard roast coffee (Fig. 2b)
+due to the high temperature-short time roasting proﬁle.
+When comparing the relative abundance of the compounds, 4-
+ethyl-2-methoxyphenol
+was
+shown
+to
+increase
+signiﬁcantly
+(p < 0.05) due to the scorched roast defect. This compound, which
+can be formed as a consequence of the thermal decomposition of
+ferulic acid (Fiddler, Parker, Wasserman, & Doerr, 1967), is there-
+fore proposed as a marker for the scorched roast defect. Three
+other compounds (pyridine, phenol and difurfuryl ether) increased
+in abundance 6-fold when compared to the standard roast
+(p < 0.05).
+Conversely, a signiﬁcant reduction in 2-furfural was observed in
+the scorched roast defect when compared to the standard roast
+(p < 0.05). Other researchers (Silwar & Lüllmann, 1993) have
+identiﬁed that 2-furfural was formed after 5 min at 230 C, but
+decomposed at a high temperature, which is consistent with our
+ﬁndings.
+60 
+80 
+100 
+120 
+140 
+160 
+180 
+0 
+2 
+4 
+6 
+8 
+10 
+12 
+14 
+16 
+18 
+20 
+Temperature (°C) 
+Time (min) 
+Dark Roast 
+Standard Roast 
+0 
+50
+100
+150
+200
+250
+300
+2-Methylbutanal
+3-Methylbutanal
+2,5-Dimethylfuran
+*2,3-Butanedione
+2,3-Pentadione
+Dimethyl disulphide
+*2-vinylfuran
+Hexanal
+3-Methylthiophene
+*2,3-Hexandione
+*Pyridine
+*Furfuryl methyl ether
+*2-Methylpyrazine
+Dihydro-2-methyl-3-furanone
+2,5-Dimethylpyrazine
+*2,6-Dimethylpyrazine
+*2-Ethylpyrazine
+*2,3-dimethyl-Pyrazine
+*Dimethyl Trisulphide
+2-Ethyl-6-methylpyrazine
+Trimethyl pyrazine
+2-Furfural
+*Acec acid
+2-Acetylfuran
+Pyrrole
+*Furfuryl alcohol
+Hexanoic acid
+Butanoic acid
+*2-Furfuryl methyl disulphide
+*1-Furfurylpyrrole
+Maltol
+*1-(1-H-pyrrol-2-yl)ethanone
+*Difurfuryl ether
+*Phenol
+*4-Ethyl-2-methoxyphenol
+Octanoic acid
+*Indole
+(a)
+(b)
+Fig. 3. Dark roast defect compared with standard roast: a) bean temperature during roasting for standard roast (grey line with cross markers) and dark roast defect (black line
+with square markers); b) aroma proﬁle between standard roast (smooth circle at 100%) and dark roast defect (spider diagram with square markers). Compounds
+with ⁄ indicated a signiﬁcant difference between scorched roast and standard roast (p < 0.05). Marker compound was underlined.
+210
+N. Yang et al. / Food Chemistry 211 (2016) 206–214
+
+3.2.3. Dark roast defect
+This defect had a similar roasting proﬁle with an extended
+2 min roasting time when compared to the standard roast
+(Fig. 3a). The relative abundance of the resulting volatile aroma
+compounds (Fig. 3b) was generally increased when compared with
+the standard roast but without the signiﬁcant distortion observed
+in scorched roast defect samples.
+The most signiﬁcant compounds that were modiﬁed during the
+dark roast defect were indole, 4-ethyl-2-methoxyphenol and phe-
+nol when compared with a standard roast (p < 0.05). A longer
+roasting proﬁle also resulted in a signiﬁcant increase in most
+pyrazines, which are directly produced via the Maillard reaction
+between reducing sugars and amino acids during coffee roasting
+(Pittet & Hruza, 1974). This study conﬁrmed the positive correla-
+tion between roasting time and levels of pyrazine generated.
+Analysis revealed that most concentrations of compounds
+increased in the dark roast defect, apart from hexanal which was
+present at 90% of the level found in the standard roast proﬁle
+(Fig. 3b). Although the reduction was not signiﬁcant in our exper-
+iment, Ramos, Valero, Ibáñez, Reglero, and Tabera (1998) found
+that hexanal decreased after roasting, and it is possible that use
+of higher roasting temperatures and longer times may have
+induced a more extensive degradation of aroma compounds or that
+it may be lost due to volatility.
+3.2.4. Baked roast defect
+Baked roast defect had a higher initial temperature in the bean
+(160 C) than the standard roast bean (120 C), and its roasting
+time was extended for about 6 min extra (Fig. 4a). The resulting
+aroma proﬁle revealed a slight increase in most compounds mea-
+sured (Fig. 4b). The top 3 compounds with the largest increase
+were maltol, difurfuryl ether, and pyridine when compared to
+the standard roast (p < 0.05). Maltol, was selected as the marker
+for this roast defect, and it can be formed from the degradation
+of maltose and Amadori intermediates (Flament, 2002), was also
+previously reported to be present at increased concentration in
+over-roasted coffee by Silwar and Lüllmann (1993).
+Additionally, the identiﬁed furan derivatives (2-vinylfuran and
+2,-5 dimethylfuran) were shown to be present at a higher concen-
+tration in the baked defect when compared to the standard roast
+60
+80
+100
+120
+140
+160
+180
+0 
+2 
+4 
+6 
+8 
+10
+12
+14
+16
+18
+20
+Temperature (°C)
+Time (min)
+Baked
+Standard Roast
+0 
+50
+100
+150
+200
+250
+2-Methylbutanal
+3-Methylbutanal
+*2,5-Dimethylfuran
+2,3-Butanedione
+2,3-Pentadione
+*Dimethyl disulphide
+*2-vinylfuran
+Hexanal
+*3-Methylthiophene
+*2,3-Hexandione
+*Pyridine
+*Furfuryl methyl ether
+2-Methylpyrazine
+Dihydro-2-methyl-3-furanone
+2,5-Dimethylpyrazine
+2,6-Dimethylpyrazine
+2-Ethylpyrazine
+2,3-dimethyl-Pyrazine
+Dimethyl Trisulphide
+2-Ethyl-6-methylpyrazine
+Trimethyl pyrazine
+2-Furfural
+Acec acid
+2-Acetylfuran
+Pyrrole
+Furfuryl alcohol
+Hexanoic acid
+Butanoic acid
+*2-Furfuryl methyl disulphide
+*1-Furfurylpyrrole
+*Maltol
+*1-(1-H-pyrrol-2-yl)ethanone
+*Difurfuryl ether
+*Phenol
+*4-Ethyl-2-methoxyphenol
+Octanoic acid
+Indole
+(a)
+(b)
+Fig. 4. Baked roast defect compared with standard roast: a) bean temperature during roasting for standard roast (grey line with cross markers) and baked roast defect(black
+line with square markers); b) aroma proﬁle between standard roast (smooth circle at 100%) and baked roast defect (spider diagram with square markers). Compounds
+with ⁄ indicated a signiﬁcant difference between scorched roast and standard roast (p < 0.05). Marker compound was underlined.
+N. Yang et al. / Food Chemistry 211 (2016) 206–214
+211
+
+proﬁle (p > 0.05). Furans can be formed from the thermal degrada-
+tion of D-glucose and sugar polymers (Heyns, Stute, & Paulsen,
+1966) and have also been shown to be formed during the thermal
+oxidation of lipids, from thiamine degradation and from the break-
+down of nucleotides (Mottram, 2007).
+Conversely, furfuryl methyl had a signiﬁcant lower concentra-
+tion in the baked roast defect when compared with standard roast
+(p < 0.05).
+Furfuryl
+methyl
+ether
+is
+also
+known
+as
+2-
+(methoxymethyl) furan and, on its own, is proposed to have a
+strong nutty and coffee grounds-like taste (Arctander, 1969).
+3.2.5. Underdeveloped roast defect
+In the underdeveloped samples, coffee was roasted at a slower
+rate with a much lower initial temperature with bean temperature
+at 80 C and more than 8 min longer roast time (Fig. 5a). In the
+underdeveloped samples (Fig. 5b), the aroma compound with the
+largest increase was 2,5-dimethylfuran when compared with a
+standard roast (p < 0.05), and it could be the marker for this roast
+defect. 2,5-dimethylfuran is regarded as being important for
+dark-roasted coffee, as noted previously (Leino, Kaitaranta, &
+Kallio, 1992) and it is formed by the thermal degradation of glucose
+(Heyns et al., 1966). On its own, 2,5-dimethylfuran is known to have
+an ethereal or solvent-like pungent odour (Arctander, 1969), which
+may contribute to the characteristic ﬂavour of these defect samples.
+There was a slight decrease in presence of some of the pyrazines
+(trimethyl pyrazine, 2-ethylpyrazine, 2,3-dimethyl-pyrazine, and
+2-methyl pyrazine), but not signiﬁcant (p > 0.05) . It is interesting
+to note that despite the low initial roasting temperature (135 C
+compared to standard roast 210 C), the relative abundance of
+most measured aroma compounds is roughly comparable.
+3.3. Summary of all coffee samples
+To compare overall aroma proﬁles across all the coffee samples,
+Principle component analysis (PCA) was applied to all coffee
+samples for all 37 volatile aroma compounds (Fig. S2). The ﬁrst
+60
+80
+100
+120
+140
+160
+180
+0 
+2 
+4 
+6 
+8 
+10
+12
+14
+16
+18
+20
+Temperature (°C)
+Time (min)
+0 
+20
+40
+60
+80
+100
+120
+140
+160
+180
+200
+2-Methylbutanal
+3-Methylbutanal
+2,5-Dimethylfuran
+2,3-Butanedione
+2,3-Pentadione
+*Dimethyl disulphide
+*2-vinylfuran
+Hexanal
+3-Methylthiophene
+2,3-Hexandione
+Pyridine
+Furfuryl methyl ether
+2-Methylpyrazine
+Dihydro-2-methyl-3-furanone
+2,5-Dimethylpyrazine
+2,6-Dimethylpyrazine
+2-Ethylpyrazine
+2,3-dimethyl-Pyrazine
+Dimethyl Trisulphide
+2-Ethyl-6-methylpyrazine
+Trimethyl pyrazine
+2-Furfural
+Acec acid
+2-Acetylfuran
+Pyrrole
+Furfuryl alcohol
+Hexanoic acid
+Butanoic acid
+2-Furfuryl methyl disulphide
+1-Furfurylpyrrole
+Maltol
+1-(1-H-pyrrol-2-yl)ethanone
+Difurfuryl ether
+Phenol
+4-Ethyl-2-methoxyphenol
+Octanoic acid
+Indole
+(a)
+(b)
+Fig. 5. Underdevelopment roast defect compared with standard roast: a) bean temperature during roasting for standard roast (grey line with cross markers) and
+underdevelopment roast defect (black line with square markers); b) aroma proﬁle between standard roast (smooth circle at 100%) and underdevelopment roast defect
+(average value showed in black solid with square markers, with +/ standard errors showed in grey dotted lines). Compounds with ⁄ indicated a signiﬁcant difference
+between scorched roast and standard roast (p < 0.05). Marker compound was underlined.
+212
+N. Yang et al. / Food Chemistry 211 (2016) 206–214
+
+principle component (PC1) accounted for 71% of the variance and
+the second principle component (PC2) accounted for 20% of the
+variance in the data, indicating the PCA offered discrimination
+and effective illustration of the variation among the samples. The
+greatest difference was observed between the light roast defect
+and scorched roast defect (PC1). In general, there was an increase
+in aroma compound concentration in the dark and scorched brews
+and a reduction in the light roast defect. Underdeveloped, baked
+and standard roast defects were centrally located in the centre of
+the bi-plot and showed no clear differentiation across the principle
+components presented. The second principle component (PC2)
+explained 20% of the variance, and resolved the dark roast defect
+from the light and scorched roast defects, a dark defect positively
+correlated with the three acids acetic acid, butanoic acid and hex-
+anoic acid, which conversely were negatively correlated with the
+scorched and light roast defect process. Both light and scorched
+samples had very short development time (less than 2 min), which
+conﬁrmed that the development time from ﬁrst crack to ﬁnish is a
+critical part of the time-temperature proﬁle during coffee roasting.
+Whilst aroma chemistry development during coffee roasting is
+extremely complex, marker compounds were selected that corre-
+lated with each roast coffee defect. These are summarised in
+Table 1 and are presented such that future workers could build
+on the data presented to explain differences in future work, or to
+target the development of roasting proﬁles.
+In general, low roast intensity are associated with higher levels
+of organic acids (acetic acid, butanoic acid, hexanoic acid), and with
+greater roast intensity these acids are lost, whilst Maillard chem-
+istry and lipid breakdown products are formed to a great extent.
+However, different species, varieties and geographical origin of
+coffee samples need to be evaluated to conﬁrm the ultimate selec-
+tion of these marker compounds and this work should be repli-
+cated for different roasting types. Furthermore, the work does
+not include sensory characterisation, as due to the multimodal
+effect of complex aroma-taste proﬁles we do not anticipate that
+these compounds are the sole drivers of perceptual differences
+within the roast defects, but we believe that they could be used
+to target analytical strategies to characterise roast defects and
+develop engineering solutions to standardise roast conditions and
+mechanistically explain the underlying drivers controlling Maillard
+Chemistry, lipid oxidation, caramelisation and pyrolysis occurring
+during roasting.
+4. Conclusion
+The study illustrated how aroma proﬁles were impacted when
+ﬁve common roast defects occurred during coffee roasting. The ﬁve
+speciﬁc roast defects (light, scorched, dark, baked and underdevel-
+oped) were shown to have elevated levels of indole, 4-ethyl-2-
+methoxyphenol, phenol, maltol and 2,5-dimethylfuran respectively.
+The association of speciﬁc changes in aroma proﬁles for different
+roast defects has not been shown previously and could be incorpo-
+rated into screening tools to enable the coffee industry quickly
+identify if roast defects occur during production, although it should
+be noted that the speciﬁc marker compounds may change with
+variations in green bean chemistry due to species and production
+techniques. Sensory studies have been carried out to conﬁrm if
+those chemical changes are perceivable, and the results will be
+published in a future publication.
+Acknowledgements
+We acknowledge the sensory support of Dr. Davide Giacalone
+from the University of Copenhagen and special support of
+Dr. Robert Linforth and Dr. Darren Greetham from the University
+of Nottingham. Some of the methods utilised were developed under
+the
+BBSRC
+Doctoral
+Training
+Partnerships
+BB/F017014/1,
+BB/I532902/1.
+Appendix A. Supplementary data
+Supplementary data associated with this article can be found, in
+the online version, at http://dx.doi.org/10.1016/j.foodchem.2016.
+04.124.
+References
+Arctander, S. (1969). Perfume and ﬂavor chemicals (aroma chemicals). Allured
+Publishing Corporation.
+Baggenstoss, J., Poisson, L., Kaegi, R., Perren, R., & Escher, F. (2008). Coffee roasting
+and aroma formation: Application of different time-temperature conditions.
+Journal of Agricultural and Food Chemistry, 56(14), 5836–5846.
+Balts, W., & Bochmann, G. (1987). MS identiﬁcation of pyridines, oxazoles, and
+carbocyclic compounds from the reaction of serine and threonine with sucrose
+under the conditions of coffee roasting. Zeitschrift für Lebensmittel-Untersuchung
+und -Forschung, 185, 5–9.
+Bhumiratana, N., Adhikari, K., & Chambers Iv, E. (2011). Evolution of sensory aroma
+attributes from coffee beans to brewed coffee. LWT - Food Science and
+Technology, 44(10), 2185–2192.
+Cantergiani, E., Brevard, H., Krebs, Y., Feria-Morales, A., Amado, R., & Yeretzian, C.
+(2001). Characterisation of the aroma of green Mexican coffee and identiﬁcation
+of mouldy/earthy defect. European Food Research and Technology, 212(6),
+648–657.
+Dorfner, R., Ferge, T., Yeretzian, C., Kettrup, A., & Zimmermann, R. (2004). Laser mass
+spectrometry as on-line sensor for industrial process analysis: Process control
+of coffee roasting. Analytical Chemistry, 76(5), 1386–1402.
+Fiddler, W., Parker, W. E., Wasserman, A. E., & Doerr, R. C. (1967). Thermal
+decomposition of ferulic acid. Journal of Agricultural and Food Chemistry, 15(5),
+757–761.
+Fisk, I. D., Kettle, A., Hofmeister, S., Virdie, A., & Kenny, J. S. (2012). Discrimination of
+roast and ground coffee aroma. Flavour, 1, 14.
+Flament, I. (2002). Coffee ﬂavor chemistry. Wiley.
+Gloess, A. N., Vietri, A., Wieland, F., Smrke, S., Schönbächler, B., López, J. A. S., &
+Yeretzian, C. (2014). Evidence of different ﬂavour formation dynamics by
+roasting coffee from different origins: On-line analysis with PTR-ToF-MS.
+International Journal of Mass Spectrometry, 365–366, 324–337.
+Heyns,
+K.,
+Stute,
+R.,
+&
+Paulsen,
+H.
+(1966).
+Bräunungsreaktionen
+und
+fragmentierungen von kohlenhydraten: Teil I. Die ﬂüchtigen abbauprodukte
+der pyrolyse von d-glucose. Carbohydrate Research, 2(2), 132–149.
+Leino, M., Kaitaranta, J., & Kallio, H. (1992). Comparison of changes in headspace
+volatiles of some coffee blends during storage. Food chemistry, 43(1), 35–40.
+López-Galilea, I., Fournier, N., Cid, C., & Guichard, E. (2006). Changes in headspace
+volatile concentrations of coffee brews caused by the roasting process and the
+brewing
+procedure.
+Journal
+of
+Agricultural
+and
+Food
+Chemistry,
+54(22),
+8560–8566.
+Mancha Agresti, P. D. C., Franca, A. S., Oliveira, L. S., & Augusti, R. (2008).
+Discrimination between defective and non-defective Brazilian coffee beans by
+their volatile proﬁle. Food chemistry, 106(2), 787–796.
+Merritt, C., Jr, & Robertson, D. H. (1966). The identiﬁcation of the volatile
+compounds in ground roasted coffee by GC and MS. In 2nd international
+scientiﬁc colloquium on green and roasted coffee chemistry, French Institute for
+coffee, cacao and other simulating plans (IFCC, 1966) (pp. 183–190).
+Mottram, D. (2007). The maillard reaction: Source of ﬂavour in thermally processed
+foods. In R. Berger (Ed.), Flavours and fragrances (pp. 269–283). Berlin
+Heidelberg: Springer.
+Pittet, A. O., & Hruza, D. E. (1974). Comparative study of ﬂavor properties of thiazole
+derivatives. Journal of Agricultural and Food Chemistry, 22(2), 264–269.
+Pypker, J., & Brouwer, H. (1970). Headspace analysis of less volatile constituents of
+coffee. In 4th international scientiﬁc colloquium on green and roasted coffee
+chemistry (ASIC, 1970) (pp. 122–130).
+Ramos, E., Valero, E., Ibáñez, E., Reglero, G., & Tabera, J. (1998). Obtention of a
+brewed coffee aroma extract by an optimized supercritical CO2-based process.
+Journal of Agricultural and Food Chemistry, 46(10), 4011–4016.
+Reymond, D., Muggler-Chavan, F., Viani, R., Vuataz, L., & Egli, R. H. (1966). Gas
+chromatographic analysis of steam volatile aroma constituents: Application to
+coffee, tea, and cocoa aroma. Journal of Gas Chromatography, 4, 28–31.
+Ribeiro, J. S., Augusto, F., Salva, T. J. G., Thomaziello, R. A., & Ferreira, M. M. C. (2009).
+Prediction of sensory properties of Brazilian Arabica roasted coffees by
+headspace solid phase microextraction-gas chromatography and partial least
+squares. Analytica Chimica Acta, 634(2), 172–179.
+Senyuva, H. Z., & Gökmen, V. (2005). Study of acrylamide in coffee using an
+improved liquid chromatography mass spectrometry method: Investigation of
+colour changes and acrylamide formation in coffee during roasting. Food
+Additives & Contaminants, 22(3), 214–220.
+Silwar, R. (1986). Analytical techniques for the investigation of coffee aroma. Trends
+in Analytical Chemistry, 5(3), 78–82.
+N. Yang et al. / Food Chemistry 211 (2016) 206–214
+213
+
+Silwar, R., & Lüllmann, C. (1993). Investigation of aroma formation in Robusta coffee
+during roasting. Café cacao thé, 37(2), 145–152.
+Sunarharum, W. B., Williams, D. J., & Smyth, H. E. (2014). Complexity of coffee
+ﬂavor: A compositional and sensory perspective. Food Research International, 62,
+315–325.
+Ullrich, F., & Grosch, W. (1987). Identiﬁcation of the most intense volatile ﬂavour
+compounds
+formed
+during
+autoxidation
+of
+linoleic
+acid.
+Zeitschrift
+für
+Lebensmittel-Untersuchung und -Forschung, 184, 277–282.
+Vitzthum, O. G., & Werkhoff, P. (1976). The volatile constituents of roasted coffee.
+Annales des Falsiﬁcations et de l’Expertise Chimique et Toxicologique, 69, 725–735.
+Zheng, X.-Q., & Ashihara, H. (2004). Distribution, biosynthesis and function of
+purine and pyridine alkaloids in Coffea arabica seedlings. Plant Science, 166(3),
+807–813.
+214
+N. Yang et al. / Food Chemistry 211 (2016) 206–214

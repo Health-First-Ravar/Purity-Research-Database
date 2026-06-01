@@ -1,0 +1,909 @@
+Accepted Manuscript
+Comparative evaluation of the volatile profiles and taste properties of roasted
+coffee beans as affected by drying method and detected by electronic nose,
+electronic tongue, and HS-SPME-GC-MS
+Wenjiang Dong, Rongsuo Hu, Yuzhou Long, Hehe Li, Yanjun Zhang, Kexue
+Zhu, Zhong Chu
+PII:
+S0308-8146(18)31470-5
+DOI:
+https://doi.org/10.1016/j.foodchem.2018.08.068
+Reference:
+FOCH 23409
+To appear in:
+Food Chemistry
+Received Date:
+7 June 2018
+Revised Date:
+16 August 2018
+Accepted Date:
+16 August 2018
+Please cite this article as: Dong, W., Hu, R., Long, Y., Li, H., Zhang, Y., Zhu, K., Chu, Z., Comparative evaluation
+of the volatile profiles and taste properties of roasted coffee beans as affected by drying method and detected by
+electronic nose, electronic tongue, and HS-SPME-GC-MS, Food Chemistry (2018), doi: https://doi.org/10.1016/
+j.foodchem.2018.08.068
+This is a PDF file of an unedited manuscript that has been accepted for publication. As a service to our customers
+we are providing this early version of the manuscript. The manuscript will undergo copyediting, typesetting, and
+review of the resulting proof before it is published in its final form. Please note that during the production process
+errors may be discovered which could affect the content, and all legal disclaimers that apply to the journal pertain.
+
+  
+ 
+1 
+Comparative evaluation of the volatile profiles and taste properties of 
+roasted coffee beans as affected by drying method and detected by 
+electronic nose, electronic tongue, and HS-SPME-GC-MS 
+ 
+Wenjiang Donga, Rongsuo Hua, Yuzhou Longa,*, Hehe Lib,**, Yanjun Zhanga, Kexue Zhua, Zhong Chua 
+a Spice and Beverage Research Institute, Chinese Academy of Tropical Agricultural Sciences (CATAS), 
+Wanning, Hainan 571533, China 
+b Beijing Laboratory for Food Quality and Safety, Beijing Technology and Business University, Beijing 100048, 
+China 
+ 
+__________________ 
+* Corresponding author. Spice and Beverage Research Institute, Chinese Academy of Tropical Agricultural 
+Sciences, Wanning 571533, China. 
+** Corresponding author. Beijing Laboratory for Food Quality and Safety, Beijing Technology and Business 
+University, Beijing 100048, China. 
+E-mail addresses: dongwenjiang.123@163.com (W. Dong), longyuzhou6090@126.com (Y. Long), 
+xyzhehe@126.com (H. Li). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+  
+ 
+2 
+ABSTRACT 
+In this study, room-temperature drying, solar drying, heat pump drying (HPD), hot-air drying, and freeze 
+drying were applied to investigate the volatile profiles and taste properties of roasted coffee beans by using 
+electronic nose, electronic tongue, and headspace solid-phase microextraction gas chromatography-mass 
+spectrometry (HS-SPME-GC-MS). Results indicated that the drying process markedly affected pH, total 
+titratable acidity, total solids, and total soluble solids. Significant differences existed among all samples based 
+on drying method; and the HPD method was superior for preserving ketones, phenols, and esters. Principal 
+component analysis (PCA) combined with E-nose and E-tongue radar charts as well as the fingerprint of 
+HS-SPME-GC-MS could clearly discriminate samples from different drying methods, with results obtained 
+from hierarchical cluster analysis (the Euclidean distance is 0.75) being in agreement with those of PCA. 
+These findings may provide a theoretical basis for the dehydration of coffee beans and other similar 
+thermo-sensitive agricultural products. 
+ 
+Keywords: Drying techniques, Roasted coffee beans, Electronic nose, Electronic tongue, HS-SPME-GC-MS 
+ 
+ 
+ 
+  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+  
+ 
+3 
+1. Introduction 
+In recent decades, with the development of the economy, social and cultural awareness, and an increase 
+in standards of living, consumers have exhibited increased interest in healthy and well-flavoured foods and 
+have begun to search for diets with health-promoting properties as well as those reducing potential disease 
+risk. Beverages comprise an important component of the daily diet, with coffee being a very popular brewed 
+beverage that is consumed worldwide; moreover, global coffee consumption has also increased at an 
+average annual rate of 1.9% over the past 50 years. Coffee, which is characterised by a pleasant taste 
+sensation comprising a balanced combination of bitterness, sourness, nuttiness, and astringency, is derived 
+from a tropical evergreen shrub of the genus Coffea, which includes the two most common cultivated species, 
+Coffea canephora and Coffea arabica (Cheng, Furtado, Smyth, & Henry, 2016). In China, coffee is mainly 
+distributed in Hainan and Yunnan provinces; robusta coffee, recognised by its appearance and earthy flavour, 
+is cultivated in Hainan province and Arabica coffee, having the characteristics of sweet-caramel aroma and 
+meta-acid, is cultivated in Yunnan province (Dong, Tan, Zhao, Hu, & Lu, 2015). However, fresh coffee fruits 
+are susceptible to postharvest pathogens and deterioration, including browning, softening, and rotting owing 
+to inherent enzymes, if processing is not performed in a timely manner, which severely influences the 
+composition of coffee beans and reduces their commercial value. Drying represents one of the most effective 
+procedures to address this issue and has promoted the development of a highly efficient coffee industry. 
+Therefore, it is necessary to explore the effect of drying techniques on the sensory quality of roasted coffee 
+beans, as the biochemical composition of green coffee beans is decisive for flavour quality through 
+roasting-induced chemical reactions. 
+Drying technology, as an effective method to remove water from foods and to reduce water activity, plays 
+an important role in the fields of food manufacturing and food processing worldwide. Nevertheless, drying can 
+affect the major quality parameters associated with dried food products, such as colour, flavour, microbial 
+load, texture, taste, aroma, and nutritional properties (Zhang et al., 2017). As volatile compounds are 
+associated with coffee flavour and consequently impact its acceptance, the aroma component of flavour for 
+coffee is regarded as especially important and contributes to flavour diversity, whereas drying could lead to 
+the change of volatile profile and the formation of novel characteristic flavours. Studies conducted to 
+investigate the volatile compounds in roasted coffee beans (Toledo, Pezza, Pezza, & Toci, 2016) have 
+identified more than 800 volatile compounds, although previous studies have revealed that only about 20–30 
+volatile compounds, including sulfur compounds, aldehydes, ketones, furans, pyrroles, and pyrazines, are 
+predominantly responsible for the coffee aroma. Notably, although some volatiles have low odour thresholds 
+and concentration, they could lead to a greater olfactory contribution to coffee flavour (Yang et al., 2016). 
+
+  
+ 
+4 
+Several prior studies have examined the effect of drying procedures utilising solar drying, thin layer 
+drying, hot air drying (HAD), freeze drying (FD), and fluidised drying on the quality of coffee beans and related 
+products. Burmester and Eggers (2010) reported that the heat and mass transfer of the coffee drying process, 
+along with optimisation of the industrial application transport coefficients and coffee properties, thermal 
+conductivities, and effective diffusion coefficients were a function of the moisture content as well as the 
+volume and densities of the coffee beans. Nilnot, et al. (2012) demonstrated that a mathematical model could 
+accurately simulate the moisture contents in different components of parchment coffee and effectively explain 
+transport processes. Suzihaque and Driscoll (2016) studied the effects of solar radiation, buoyancy of air flow, 
+and optimisation of coffee drying in a heat recovery dryer, from which a sensitivity analysis of the profit 
+equation showed that the tray area, coffee bean density, and the price of labour had the most effect on profit. 
+Additionally, Burmester, Fehr, and Egger (2011) examined the thermophysical material properties of an 
+innovative coffee drying process. In our previous study, different drying techniques; i.e. room temperature 
+drying (RTD), solar drying (SD), heat pump drying (HPD), HAD, and FD were applied to investigate the effect 
+on bioactive components, fatty acid composition, and volatile profile of green coffee beans (Dong, et al., 
+2017). Considering the drying efficiency, good quality retention, and production cost, HPD exhibited the 
+broadest market prospect for potential application (Dong, et al., 2017). In particular, drying was considered to 
+constitute a key factor contributing to a high-quality coffee. However, to the best of our knowledge, no study 
+has reported on the comparative evaluation of the profiles of volatile compounds of roasted coffee beans 
+originated from different drying techniques. 
+Over the past few years, gas chromatography-mass spectroscopy (GC-MS), electronic nose (E-nose), 
+and electronic tongue (E-tongue) have been increasingly applied in the food industry for quality control (Peris 
+& Escuder-Gilabert, 2016; Huang, Guo, Yuan, Luo, & Yue, 2015). In particular, solid-phase microextraction 
+(SPME) represents an especially promising sample preparation technique in food analysis for the 
+pre-processing procedures of GC-MS, which could provide an accurate approach for the analysis of type and 
+concentration of volatile components, as well as serving as a useful sensorial tool for food flavour analysis. 
+E-nose and E-tongue are analytical devices consisting of an array of sensors utilised to detect odorants and 
+tastants. Recently, HS-SPME-GC-MS, E-nose, and E-tongue were applied to analyse the volatile and taste 
+compounds of food matrices for, e.g., quality control, fresh grading, storage conditions, and authentication 
+and differentiation, of foods, such as vegetables, fruits, tea and coffee, milk, wine, fish, and meat (Rosa, 
+Leone, Cheli, & Chiofalo, 2017; Shampur, Yazdanfar, & Ghambarian, 2016). Moreover, in our previous work 
+we found that in the application of E-nose and E-tongue sensors combined with chemometric multivariate 
+analysis to discriminate seven robusta coffee cultivars, an acceptable performance of a calibration model 
+
+  
+ 
+5 
+could be obtained (Dong, Zhao, Hu, Dong, & Tan, 2017). Nevertheless, these technologies have yet to be 
+applied to assess the differences between roasted coffee bean samples prepared using different drying 
+processes. 
+Here, we hypothesise that different traditional drying processes differentially impact the volatile profile 
+and taste properties of roasted coffee beans, and that these differences can be effectively detected through 
+the use of statistical modelling of the data obtained from the newly-developed measurement technologies. 
+The objective of the present study was therefore to evaluate and compare the odour compounds, aromatic 
+profile, and taste properties of roasted coffee beans prepared from different drying processing methods (RTD, 
+SD, HPD, HAD, and FD). HS-SPME-GC-MS, E-nose, and E-tongue techniques were then utilised to analyse 
+the flavour of coffee samples, and principal component analysis (PCA) and hierarchical cluster analysis (HCA) 
+were applied on the data matrix obtained by HS-SPME-GC-MS, E-nose, and E-tongue, as well as the 
+three-dimensional fusion matrix, to explore flavour differences among various roasted coffee samples. 
+ 
+2. Materials and methods 
+2.1. Chemicals and reagents 
+All reagents or solvents were analytical, high-performance liquid chromatography (HPLC), or GC-MS 
+grade. HPLC grade methanol and formic acid were supplied by Merck (Darmstadt, Germany). Sodium 
+hydroxide and hydrochloric acid were purchased from Damao Chemical Reagent Factory (Tianjin, China). An 
+SPME manual holder and 75 m Carboxen/polydimethylsiloxane (CAR/PDMS) were obtained from Supelco 
+(Bellefonte, PA). The standard of C7‒C40 saturated alkanes was provided by Sigma-Aldrich (St. Louis, MO,). 
+Milli-Q water was obtained from a Milli-Q Plus water system (Millipore, Hetai, Shanghai, China). 
+ 
+2.2. Samples and sample preparation 
+Fresh coffee fruits (C. canephora, Xinglong robusta coffee, ‘Reyan1’) were harvested from the 
+experimental station in January, 2015, at the Spice and Beverage Research Institute, Chinese Academy of 
+Tropical Agricultural Sciences, in Hainan, which is one of the famous coffee growing regions of China. A total 
+of fifteen samples were picked in the experimental station under the same climate and planting conditions, 
+and five random samples were merged into one sample to make the samples more representative; thus three 
+merged samples were used for the following experiment. All fruits were sampled at a mature stage with 
+uniform size and colour (red). In this study, all fresh coffee fruits were processed by a dry process method, 
+being dried until the moisture content of samples was 11.0 ± 1.0 g/100 g dry weight (DW) when subjected to 
+
+  
+ 
+6 
+different drying techniques. Then, a huller was used to remove the shell of fruits to obtain green coffee beans 
+for the subsequent experiments. 
+ 
+2.3. Drying and roasting procedures 
+The fresh coffee fruits were split into five equal portions for the subsequent drying processing; the final 
+water content of green coffee beans was 11.0 ± 1.0 g/100 g DW. (a) RTD: The first portion of fresh coffee fruit 
+was dried using natural air flow at room temperature of approximately 25 C for seven days. (b) SD: The 
+second portion of fresh coffee fruit was dried in the SD chamber for five days. (c) HPD: The third portion of 
+fresh coffee fruit was dehydrated using a dehumidified heat pump (RF-25II; Guangzhou Quanneng Energy 
+Technology Co., Ltd., Guangzhou, China) at 50 C for 72 h and 70 % relative humidity. (d) HAD: The fourth 
+portion of fresh coffee fruit was dehydrated using an electro-thermal blowing dry box (DHG-9030A, Shanghai 
+Yiheng Laboratory Instrument Co., Ltd., Shanghai, China) at 50 C for 108 h. (e) FD: The fifth portion of fresh 
+coffee fruit was dried in a freeze dryer (JDG-0.2, Lanzhou Kejin Freeze Drying Instruments Co., Ltd., Lanzhou, 
+China) under 40 Pa vacuum pressure for 25 h. A detailed description of drying procedures is provided in Dong, 
+et al. (2017). The dried green coffee beans were then used for the roasting step. Samples of 100 g were taken 
+from each portion and roasted using a PRE 1 Z drum coffee roaster (Emmerich am Rhein, Germany). The 
+initial roasting temperature was 180 C, after which the roasting temperature varied from 180 C to 200 C to 
+medium degree for 10 min. Coffee roasting conditions such as time and temperature were defined by the 
+colour index of L*. All samples were ground using the ‘fine’ option of an electronic coffee grinder (Kenia, 
+Mahlkönig, Germany) and the ground coffee was sieved using a standard sieve to exclude large particles. 
+ 
+2.4. Physicochemical analysis 
+The crude extract for physicochemical analysis was prepared by mixing 8.25 g coffee bean powder with 
+150 mL distilled water in a hot water bath (95 C, 5 min) with stirring; after extraction, the extract was filtered 
+through Whatman filter paper and the filtrate was stored at 4 C. The physicochemical parameters, total 
+soluble solids (TSS), total solids (TS), pH, and total titratable acidity (TA) were determined according to the 
+methods of Gloess et al. (2013) with minor modifications. The TSS content of the coffee samples was 
+measured in Brix using an analogue refractometer (PAL-A; Atago, Tokyo, Japan). For TS, expressed as 
+g/100 g DW, 4.00 g sample were accurately weighed and dried in a well-ventilated oven at 105 ± 2 C until 
+reaching a constant weight. The pH value was quantified using a pH meter (FE-20; Mettler-Toledo, 
+Greifensee, Switzerland). The TA, as milliequivalents of citric acid per 100 g dry matter, was determined by 
+
+  
+ 
+7 
+titration with 0.1 M NaOH solution up to pH 8.1 until the pink end-point using phenolphthalein indicator.  
+ 
+2.5. E-nose analysis 
+The E-nose analyses were performed using a commercial Fox 3000 electronic nose (Alpha M.O.S., 
+Toulouse, France). The structure of E-nose consists of pattern recognition software, HS-100 autosampler, 
+and a sensor array unit. The sensor array is composed of six metal oxide semiconductor sensors, T30/1, 
+T70/2, PA/2, LY2/AA, and LY2/gCT to detect sample gas. Coffee powder sample (1 g) was put into a 10-mL 
+vial and incubated for 20 min at 60 C (300 rpm). Processed pure air was used as carrier gas to clean the 
+sensor array to cause the signal response to return to zero; then the sample was measured using an injection 
+volume of 300 L. Each sample was measured in triplicate, and the mean value was applied for further 
+analysis. 
+ 
+2.6. E-tongue analysis 
+Coffee taste attributes were analysed using an Astree II potentiometric electronic tongue (Alpha M. O. S., 
+Toulouse, France). This E-tongue system was comprised of an LS48 automatic sampler, sensor array, 
+reference electrode (Ag/AgCl), and a Chemometric software package. The E-tongue contained seven 
+chemical sensors: ZZ, JE, BB, CA, GA, HA, and JB, which are potentiometric sensors with an organic 
+membrane coating with specific sensitivity and selectivity for each sensor. Prior to analysis, 0.01 M 
+hydrochloric acid, sodium chloride, and sodium-L-glutamate were used to calibrate and diagnose the sensors 
+and system. The instrument parameters were as follows: delay = 0 s, acquisition time = 120 s, interval = 1 s, 
+stirring rate = 1, and acquisition period = 1. Between each measurement, 80 mL deionised water were used to 
+clean the sensors, and the sensor signals were acquired using Astree software v.3.0.1. 
+ 
+2.7. Volatile compounds analyses 
+The volatile compounds of roasted coffee samples were determined using HS-SPME-GC-MS. An 
+accurately weighed 1.0 g sample was filled into 20-mL screw vials fitted with polytetrafluorethylene-silicone 
+septa; after incubation at 60 C for 20 min, the volatiles were then sampled with a 75-m CAR/PDMS fibre 
+supplied by Supelco (Bellefonte, PA) for 40 min. After extraction, the fibre was immediately inserted into the 
+injection port of the GC-MS for the desorption step at 250 C for 3 min. GC-MS analyses were carried out on 
+an Agilent 7890A GC 5975C system coupled with a quadrupole mass filter for mass spectrometric detection 
+(Agilent Technologies, Santa Clara, CA). The chromatographic separation was achieved on a DB-WAX 
+
+  
+ 
+8 
+capillary column (30 m × 0.25 mm, df = 0.25 m). Analytical conditions were as follows: the injector and 
+transfer line temperatures were 230 and 250 C, respectively; the oven program began with a 40 C hold for 2 
+min, was raised to 130 C at 1.5 C/min, then raised to 220 C at 4 C/min and held for 5 min. Helium was 
+used as the carrier gas, with the flow of He at 1 mL min−1, and detection was performed in full scan mode over 
+the mass range m/z 35–300 (Dong, Tan, Zhao, Hu, & Lu, 2015). The qualitative identification of compounds 
+was achieved by comparison of their mass spectra and retention times to those of pure standards, as well as 
+calculating the retention indices (RI) and matching against the NIST MS Search program, version 08. The 
+quantification of compounds was achieved by integrating the selected specific ions to obtain relative peak 
+areas. 
+ 
+2.8. Data analysis and chemometric procedures 
+Statistical analysis was performed through one-way analysis of variance (ANOVA), followed by Duncan’s 
+multiple test to identify significant differences among roasted coffee samples from different drying techniques 
+using SPSS version 20.0 software (SPSS Inc., Chicago, IL); all statistical tests were two-tailed and p < 0.05 or 
+less was considered as significant. Chemometrics methods, PCA, and HCA were operated under the Matlab 
+software platform (v. R2010a Mathworks Inc., Natick, MA) environment. All data are expressed as the means 
+± SD (standard deviation) of triple measurements. 
+ 
+3. Results and discussion 
+3.1. Effect of drying methods on the TSS and TS content of roasted coffee beans 
+The TSS and TS content of the roasted coffee samples from different drying methods is shown in Fig. 
+1a-b. The TSS content of all samples ranged between 1.93 and 2.50 Brix, RTD samples had the lowest TSS 
+content (1.93 Brix), followed by FD (2.01 Brix), with the HPD and HAD methods resulting in almost the same 
+TSS content (2.31 Brix and 2.30 Brix, respectively), whereas SD samples had a significantly (p < 0.05) 
+higher TSS content than that of other samples, which was in accordance with our previous study (Dong, Zhao, 
+Hu, Dong, & Tan, 2017). In comparison, Gloess et al. (2013) investigated the effects of nine common 
+extraction methods on the TSS content of coffee, which ranged from about 0.40 to 6.40 Brix. The broad 
+range observed was likely due to the different brewing mechanisms, although most were similar to our results. 
+The TS content was mainly related to the body; i.e. mouthfeel or texture, which constitutes an additional 
+important sensory descriptor for coffee. In the present study, the levels of TS content in samples ranged from 
+1.92 to 2.73 g/100 g DW, with a statistical significant difference (p < 0.05) being observed in the five 
+
+  
+ 
+9 
+investigated types of roasted coffee samples, except between HAP and HAD, and RTD and FD samples. The 
+SD method was considered to allow better retention of TS for coffee samples. 
+ 
+3.2. Effect of drying method on the pH and TA of roasted coffee beans 
+The pH value and TA of the roasted coffee samples from different drying techniques are presented in Fig. 
+1c-d. Perceived acidity represents one of the key perceptions within the coffee organoleptic profile, as well as 
+being considered as a particularly important criterion for a good cup of coffee. In the current study, the pH 
+value of the samples ranged from 5.54 to 5.70, among which, the HAD samples had the highest pH value 
+(5.70), whereas SD samples had the lowest (5.54). The pH value showed statistically significant differences 
+(p < 0.05) among all different dried roasted coffee samples. The TA of coffee extract was in the range of 1.95 
+to 2.15 mL of 0.1 M NaOH, whereas the TA of SD, RTD, and FD samples was higher than that of HPD and 
+HAD samples, which may be related to the formation of acidic compounds during heat treatment in the HPD 
+and HAD methods. Caporaso, Genovese, Canela, Civitella, and Sacchi (2014) reported that the pH values of 
+Arabica coffee brews by Neapolitan, Espresso, American, and Moka techniques varied from 5.52 (Neapolitan 
+coffee) to 6.01 (American coffee), which is in accordance with the results of our study. Gloess et al. (2013) 
+reported similar results for the TA after nine common extraction methods, which indicated Nespresso samples 
+as being the most acidic brew (pH = 5.41); although French press (pH = 5.92) was somewhat higher, the 
+different roasting degree appeared to have no substantial influence on pH value. 
+ 
+3.2. E-nose 
+3.2.1. E-nose response to roasted coffee samples 
+The electronic nose was a better method for analysing aroma, as it could acquire complete information 
+related to volatile compounds in samples rather than qualitative and quantitative results (Tiggemann et al., 
+2017). The typical E-nose responses to the roasted coffee samples are shown in Fig. 2a, where G/Go is used 
+as the response value, i.e., the ratio between sample gas and pure air resistivity. Each curve represents the 
+variation trend of a corresponding sensor with increasing time until a stable equilibrium is finally reached. It can 
+be observed that the response values of sensors P30/2, PA/2, T70/2, and T30/1 increased; in contrast, the 
+response values of sensor LY2/AA decreased, whereas the sensor LY2/gCT remained almost unchanged in 
+the first 0 to 15 s. Subsequently, the response value of sensor P30/2 increased drastically and reached a 
+stable equilibrium, and the response value of sensors PA/2, T70/2, T30/1 decreased gradually until reaching 
+a steady value. However, the response value of sensor LY2/AA increased gradually in the interval of 20 to 90 
+
+  
+ 
+10 
+s.  
+The typical responses of the six sensors of the volatile compounds in roasted coffee samples from 
+different drying techniques are presented in Fig. 2b. As can be observed, the variation trends of signals from 
+different samples were similar; the responses for sensors P30/2 and PA/2 were significantly higher than those 
+of the other sensors, and the responses of P30/2 for HAD, HPD, and FD samples were significantly different 
+from those of the other dried samples. Moreover, the relative values of T30/1, T70/2, and LY2/AA were in the 
+intermediate value, and significant differences were also observed between HPD, HAD, and FD samples, 
+RTD, and SD samples. Notably, the responses of sensors in our study were in accordance with the report of 
+Severini, Ricci, Marone, Derossi, and De Pilli (2015), in which E-nose was applied to analyse and discriminate 
+the changes in chemical attributes and aromatic profile of espresso coffee as a result of the extraction time 
+and grinding level. The differences may have resulted from the formation of novel volatile compounds and 
+other similar volatile compounds among the various drying conditions (Yang et al., 2016). However, it is 
+difficult to discriminate different dried samples only from observed sensor response values; thus, the signal 
+information of the six sensors needs to be further processed and its internal relationships and differences 
+explored. 
+ 
+3.2.2. PCA of volatile compounds in roasted coffee samples 
+PCA constitutes a statistical tool used to explain differentiation between samples and to extract 
+information from the variables that mainly affects the sample spatial distribution. This procedure can reduce 
+the dimensionality of the data matrix while retaining most of the information of the original data, as well as 
+explain the relationship of objects and the correlation structure of the variables (Kaya, Yildiz, & Ünlütürk, 
+2015). PCA was performed on the dataset of the response values of E-nose to evaluate the influence of 
+drying processing on the grouping of the roasted coffee samples. The two-dimensional bi-plots of score and 
+loading of the dried samples are presented in Fig. 2c-d. The principal components (PCs) PC1 and PC2 
+represented 48.5% and 37.1% of the total variance, respectively, with the cumulative contribution rate of the 
+first two PCs accounting for 85.6%, which indicates they are sufficient to explain the total variance in the 
+dataset (Wold, Esbensen, & Gladi, 1987). It can be observed that grouping of the samples was clearly 
+apparent in the bi-plot of PCA, with the RTD and HAD samples being located to the right of the X-axis, 
+whereas the SD, HPD, and FD samples were located to the left of the X-axis, among which a slight overlap 
+was observed between SD and HPD groups. Considering the loading plot demonstrating that the relationship 
+between the E-nose variables P30/2, LY2/AA, and LY2/gCT had a higher influence on the differentiation 
+ability, the sensor P30/2 likely contributed more to the HAD samples and the sensor LY2/AA contributed more 
+Comment [A1]: 85.6% is not 100% 
+
+  
+ 
+11
+to the FD samples, whereas the response values of LY2/gCT, T70/2, and PA/2 were more correlated with the 
+SD and HPD samples. 
+ 
+3.3. E-tongue 
+3.3.1. E-tongue response to roasted coffee samples 
+The mechanism of E-tongue was similar to that of E-nose, being able to detect taste profiles by electronic 
+sensors to mimic taste perception in humans. A representative sample of the E-tongue sensor response to a 
+roasted coffee sample is presented in Fig. 2a. Each curve represents the corresponding potentiometric 
+difference value of a sensor against time. At first, all sensors (HA, ZZ, JB, GA, JE, BB, and CA) retained their 
+initial values, then the responses of sensors GA and JE changed significantly in the first 10 s, decreasing and 
+increasing, respectively, whereas the other sensors, HA, ZZ, JB, BB, and CA, changed relative slowly. From 
+10 to 120 s, the response values of all sensors varied slowly and reached a dynamic equilibrium. The signal 
+values of the 120th s of each sensor were used for further statistical analysis. In addition, ANOVA was utilised 
+to analyse the significant difference of sensors from various types of roasted coffee samples. Fig. 2b shows 
+the characteristic signal response of the tested samples, the result indicates a high stability of each sensor, 
+with a significant difference being observed between different dried samples. Overall, all samples showed a 
+similar changing trend for the seven sensors albeit with different response intensity. E-nose has also been 
+used in the quality control and taste characterisation of food chemistry, such as by Lopetcharat et al. (2016), 
+who provided a new approach to correlate between overall difference decision and E-tongue results as well 
+as to discriminate civet coffee from different origins, obtaining a satisfactory performance. In addition, E-nose 
+was also used to characterise espresso coffees brewed with different thermal profiles, thus providing useful 
+information for the optimisation of processing conditions (Buratti, Benedetti, & Giovanelli, 2017). 
+ 
+3.3.2 PCA of taste compounds in roasted coffee samples 
+PCA was also performed on the E-nose dataset to distinguish roasted coffee samples from different 
+drying techniques, taking the response values of sensors as input variables. Fig. 3c-d shows the score and 
+loading plots of the first and the second components, PC1 and PC2, in the two-dimensional PC space, with 
+the first two PCs explaining 79.0% of the total variance, at 58.0% and 21.0% for PC1 and PC2, respectively. It 
+can be observed that the samples exhibit a tendency to form three major groups in the score bi-plot of PCA. A 
+group comprised of SD and HPD samples was located close together in the first quadrant except for one HPD 
+sample that was in the Y-axis; the RTD processed samples were all in the fourth quadrant with positive and 
+negative score values at PC1 and PC2, whereas the HAD and FD samples were all almost located in the third 
+
+  
+ 
+12 
+quadrant of the graph except for one FD sample. Fig. 3d represents loading plots of different kinds of roasted 
+coffee samples, the analysis of which can explain which sensor combinations were responsible for the 
+distribution and grouping of the samples in the score plot. The HAD and FD samples were differentiated by 
+CA with negative score values at PC1 and PC2; the GA and JE were mainly responsible for the sample 
+discrimination in the direction of PC1, whereas BB, HA, and ZZ contributed more to the separation along with 
+the direction of PC2. In comparison, in a previous study regarding E-tongue combined with PCA, we reported 
+that when Chinese robusta coffee samples from different cultivars were discriminated using E-tongue data 
+with the aid of chemometrics, a satisfactory performance was achieved (Dong, Zhao, Hu, Dong, & Tan, 2017). 
+ 
+3.4. HS-SPME-GC-MS 
+3.4.1. HS-SPME-GC-MS analysis of volatile components in roasted coffee samples 
+The volatile profile of coffee constitutes a very important organolepic characteristic for the acceptance 
+and preference of high quality coffee brew. In order to evaluate the effect of drying methods on the flavour of 
+roasted coffee beans, HS-SPME-GC-MS was used to analyse the volatile compounds of each sample 
+afforded by different drying methods. The total ion current chromatogram of all samples with different drying 
+methods and the relative content of volatile compounds from different classes in coffee samples are shown in 
+Fig. 4a, b, and the detailed volatile composition of samples is listed in Table 1 in the Supplementary material. 
+A total number of 133 volatile compounds were detected in roasted samples. The volatile compounds were 
+classified into 11 groups based on the chemical properties, including 11 furans, 19 pyrazines, 31 ketones, 9 
+aldehydes, 9 phenols, 7 pyrroles, 7 pyridines, 5 esters, 8 acids, 7 alcohols, and 18 others (Table 2, 
+Supplementary material). Sunarharum, Williams, and Smyth (2014) also reviewed that coffee volatile 
+compounds comprise several classes, which was in accordance with our present study. Although there was 
+no significant difference in the qualitative profile of roasted coffee samples prepared from different drying 
+methods, an ANOVA analysis performed to compare the peak area of volatile compounds of different classes 
+indicated that a significant difference could be observed among the majority of these compounds. 
+The difference in degree of change of volatile compounds between the different drying methods possibly 
+arose from the different drying mechanism and dehydration behaviour, as the concentrations of furans and 
+pyrazines were the highest when compared with those of other classes. Approximately 111, 109, 102, 93, and 
+90 kinds of volatile compounds were identified in samples from the RTD, SD, HPD, HAD, and FD methods, 
+respectively. For RTD and SD samples, a total 11 kinds of furans were detected, with the concentration of 
+furans in particular being highest (25.46 %) in the RTD sample, with the 2,2’-methylenebis-furan being only 
+found in this sample. 2-Furanmethanol and furfural contribute substantially to the furans of coffee samples; 
+
+  
+ 
+13 
+furthermore, 2-furanmethanol accounted for about 19.0% of total volatile compounds. A total of 19 kinds of 
+pyrazines were detected, which contribute to the toasty and earthy flavour, with methylpyrazine and 
+dimethylpyrazine accounting for 5.5% and 10.0%, respectively. In HPD and HAD drying, the number of 
+volatiles decreased when compared to that of RTD and SD drying; this was attributed to long exposure to high 
+temperature air resulting in the loss of flavour precursors, although we found that the HPD method was 
+superior in preserving ketones, phenols, esters, and other volatiles.  
+FD drying decreased the varieties of total volatile compounds significantly. Although previous research 
+reported that FD methods could retain the volatiles to the greatest extent, our studies demonstrated that the 
+long vacuum treatment of FD obviously affected the variety and quantity of roasted coffee samples. In general, 
+the postharvest dehydration is one of the most important factors in regulating the formation and release of 
+volatile compounds. Specifically, there are four pathways to generate volatiles during the drying process: 
+Maillard reaction, lipid oxidation and degradation, interaction between oxidised lipids and amino acids, and 
+long-chain compound degradation (Yang et al., 2016; Deng, Luo, Wang, & Zhao, 2015). The drying 
+mechanisms and pathways that led to the various kinds and quantity of the volatiles from roasted coffees 
+identified in the present study should be further investigated in future studies. 
+ 
+3.4.2. PCA of HS-SPME-GC-MS analysis 
+PCA was performed on the data matrix (15 samples × 11 volatile classes) to observe possible sample 
+distribution according to different drying methods. The PCA plot presented in Fig. 2a, b explains 70.9% of the 
+total cumulative variance contribution. PC1 and PC2 account for 49.8% and 21.1% of the total variance, 
+respectively, as shown in the score plot of PCA (Fig. 2a), with roasted samples clustering into five distinct 
+groups in the dimensional graph based on the PC1 × PC2 score. The HAD and FD processed samples were 
+all located in the fourth quadrant of the graph, whereas samples of HPD were in the upper quadrant and most 
+RTD and SD samples localised in the third quadrant of the graph except for one sample from SD treatment. 
+Fig. 2b shows the relationship of dried samples with volatile compounds. To identify which compounds 
+contribute to the class separation of the different groups, it can be observed that the esters, aldehydes, and 
+acids are highly and positively related to PC1, and mainly distinguish HAD and FD samples from other dried 
+samples. In addition, phenols have a high score in the positive direction of PC2, which contributes greatly to 
+the separation of HPD samples. Finally, RTD and SD samples are characterised by the highest content of 
+pyrazines and alcohols, which were highly and negatively correlated with PC1. Overall, these results indicate 
+that the three analytical instruments, E-nose, E-tongue, and HS-SPME-GC-MS could be used for the quality 
+evaluation of roasted coffee beans from five drying methods, and that the results were consistent across 
+Comment [A2]: Which 
+dimethylpyrazien: 2,6, 2,5 or 2,3 or all of 
+them together? 
+
+  
+ 
+14 
+platforms. 
+ 
+3.5. HCA of the fusion dataset of E-nose, E-tongue, and HS-SPME-GC-MS 
+In order to confirm the results obtained from PCA, HCA (Granato, Santos, Escher, Ferreira, & Maggio, 
+2018) was applied to the fused dataset comprised of E-nose, E-tongue, and HS-SPME-GC-MS data, 
+employing the Ward’s linkage method and Euclidean distances to calculate the interpoint distances between 
+samples dried by different methods. The dendrogram obtained, shown in Fig. 6, indicates the relationships 
+and distribution patterns among the roasted coffee samples with different drying methods. The dendrograms 
+clearly showed that the 15 tested samples were clustered into two major groups. Group A consisted of six 
+samples (HAD and FD), group B consisted of nine samples (RTD, SD, and HAD), and samples with the same 
+drying modes were closely clustered but fully discriminated from each other in the dendrogram. These 
+classification groups were consistent with the PCA results, in which all roasted coffee samples were fully 
+distinguished according to their drying methods. 
+ 
+4. Conclusion 
+In this study, the effect of drying processes (RTD, SD, HPD, HAD, and FD) on the aromatic profile and 
+taste properties of dried coffee beans was studied. Fingerprint analysis, E-nose, E-tongue, and 
+HS-SPME-GC-MS, coupled with chemometrics methods, including PCA, HCA, and ANOVA, were applied to 
+the single or fused dataset to evaluate the quality of roasted coffee beans. Consistent with our hypothesis, we 
+found that the drying process had a marked effect on pH, TA, TS, and TSS, and significant differences were 
+found among samples with different drying methods. In addition, the results indicated that the HPD method 
+was superior in preserving ketones, phenols, and esters. Furthermore, PCA combined with E-nose, E-tongue, 
+and HS-SPME-GC-MS could effectively discriminate roasted coffee samples derived from different drying 
+processes. HCA coupled to the fused data matrix achieved similar results when compared with PCA. In 
+summary, our study supports and encourages the application of this method for roasted coffee sample 
+discrimination and the establishment of similar methods for other heat-sensitive agricultural products. 
+ 
+Acknowledgments 
+This work was supported by the National Natural Science Foundation of China (31501404), the Fund of the 
+Beijing Laboratory for Food Quality and Safety, Beijing Technology and Business University (FQS-201806), 
+and the Fund of Central Public-interest Scientific Institution Basal Research of CATAS (1630142017005). 
+ 
+
+  
+ 
+15 
+References 
+Buratti, S., Benedetti, S., & Giovanelli, G. (2017). Application of electronic senses to characterize espresso 
+coffees brewed with different thermal profiles. European Food Research and Technology, 243, 
+511–520. 
+Burmester, K., & Eggers, R. (2010). Heat and mass transfer during the coffee drying process. Journal of Food 
+Engineering, 99, 430–436. 
+Burmester, K., Fehr, H., & Eggers, R. (2011). A comprehensive study on the themophysical material 
+properties for an innovative coffee drying process. Drying Technology, 29, 1562–1570. 
+Caporaso, N., Genovese, A., Canela, M. D., Civitella, A., & Sacchi, R. (2014). Neapolitan coffee brew 
+chemical analysis in comparison to expresso, moka and American brews. Food Research International, 
+61, 152–160. 
+Cheng, B., Furtado, A., Smyth, H. E., & Henry, R. J. (2016). Influence of genotype and environment on coffee 
+quality. Trends in Food Science & Technology, 57, 20–30. 
+Deng, Y., Luo, Y. L., Wang, Y. G., & Zhao, Y. Y. (2015). Effect of different drying methods on the myosin 
+structure, amino acid composition, protein digestibility and volatile profile of squid fillets. Food 
+Chemistry, 171, 168–176. 
+Dong, W. J., Hu, R. S., Chu, Z., Zhao, J. P., Tan, L. H. (2017). Effect of different drying techniques on 
+bioactive components, fatty acid composition, and volatile profile of robusta coffee beans. Food 
+Chemistry, 234, 121–130. 
+Dong, W. J., Tan, L. H., Zhao, J. P., Hu, R. S., & Lu, M. Q. (2015). Characterization of fatty acid, amino acid 
+and volatile compound compositions and bioactive components of seven coffee (Coffea robusta) 
+cultivars grown in Hainan province, China. Molecules, 20, 16687–16708. 
+Dong, W. J., Zhao, J. P., Hu, R. S., Dong, Y. P., & Tan, L. H. (2017). Differentiation of Chinese robusta 
+coffees according to species, using a combined electronic nose and tongue, with the aid of 
+chemometrics. Food Chemistry, 229, 743–751. 
+Gloess, A. N., Schönbächler, B., Klopprogge, B., D'Ambrosio, L., Chatelain, K., Bongartz, A., et al. (2013). 
+Comparison of nine common coffee extraction methods: instrumental and sensory analysis. European 
+Food Research and Technology, 236, 607–627. 
+Granato, D., Santos, J. S., Escher, G. B., Ferreira, B. L., & Maggio, R. M. (2018). Use of principal component 
+analysis (PCA) and hierarchical cluster analysis (HCA) for multivariate association between bioactive 
+compounds and functional properties in foods: A critical perspective. Trends in Food Science & 
+
+  
+ 
+16 
+Technology, 72, 83–90. 
+Huang, X. C., Guo, C. F., Yuan, Y. H., Luo, X. X., & Yue, T. L. (2015). Detection of medicinal off-flavor in 
+apple juice with artificial sensing system and comparison with best panel evaluation and GC-MS. Food 
+Control, 51, 270–277. 
+Kaya, Z., Yidiz, S., & Ünlütürk, S. (2015). Effect of UV-C irradiation and heat treatment on the shelf life 
+stability of a lemon-melon juice blend: Multivariate statistical approach. Innovative Food Science & 
+Emerging Technologies, 29, 230–239. 
+Lopetcharat, K., Kulapichitr, F., Suppavorasatit, I., Chodjarusawad, T., Phatthara-aneksin, A., Pratontep, S., 
+et al. (2016). Relationship between overall difference decision and electronic tongue: Discrimination of 
+civet coffee. Journal of Food Engineering, 180, 60–68. 
+Nilnont, W., Thepa, S., Janjai, S., Kasayapanand, N., Thamrongmas, C., & Bala, B. K. (2012). Finite element 
+simulation for coffee (Coffea arabica) drying. Food and Bioproducts Processing, 90, 341–350. 
+Peris, M., & Escuder-Gilabert, L. (2016). Electronic noses and tongues to access food authentication and 
+adulteration. Trends in Food Science & Technology, 58, 40–54. 
+Rosa, A. R. D., Leone, F., Cheli, F., & Chiofaloa, V. (2017). Fusion of electronic nose, electronic tongue and 
+computer vision for animal source food authentication and quality assessment – A review. Journal of 
+Food Engineering, 210, 62–75. 
+Severini, C., Ricci, I., Marone, M., Derossi, A., & De Pilli, T. (2015). Changes in the aromatic profile of 
+espresso coffee as a function of the grinding grade and extraction time: A study by the electronic nose 
+system. Journal of Agricultural and Food Chemistry, 63, 2321–2327. 
+Sunarharum, W. B., Williams, D. J., & Smyth, H. E. (2014). Complexity of coffee flavor: A compositional and 
+sensory perspective. Food Research International, 62, 315–325. 
+Suzihaque, M. U. H., & Driscoll, R. (2016). Effects of solar radiation, buoyancy of air flow and optimization 
+study of coffee drying in a heat recovery dryer. Procedia Engineering, 148, 812–822. 
+Tiggemann, L., Ballen, S. C., Bocalon, C. M., Graboski, A. M., Manzoli, A., Steffen, J., et al. (2017). Electronic 
+nose system based on polyaniline films sensor array with different dopants for discrimination of artificial 
+aromas. Innovative Food Science & Emerging Technologies, 43, 112–116. 
+Toledo, P. R. A. B., Pezza, L., Pezza, H. R., & Toci, A. T. (2016). Relationship between the different aspects 
+related to coffee quality and their volatile compounds. Comprehensive Reviews in Food Science and 
+Food Safety, 15, 705–719. 
+Wold, S., Esbensen, K., & Geladi, P. (1987). Principal component analysis. Chemometrics and Intelligent 
+Laboratory Systems, 2, 37–52. 
+
+  
+ 
+17 
+Yang, N., Liu, C. J., Liu, X. K., Degn, T. K., Munchow, M., & Fisk, I. (2016). Determination of volatile marker 
+compounds of common coffee roast defect. Food Chemistry, 211, 206–214. 
+Zhang, M., Chen, H. Z., Mujumdar, A. S., Tang, J., Miao, S., & Wang, Y. C. (2017). Recent developments in 
+high-quality drying of vegetables, fruits, and aquatic products. Critical Reviews in Food Science and 
+Nutrition, 57, 1239–1255. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+  
+ 
+18 
+Figure captions 
+Fig. 1 Total soluble solids content (a), total solids content (b), pH value (c), and total titratable acidity (d) of 
+roasted coffee beans prepared by different drying methods. 
+Fig. 2 E-nose responses for representative roasted coffee beans (a), and mean values of seven sensors (b) 
+for coffee samples. PCA of E-nose data for coffee samples with different drying methods (c: score plot, 
+d: loading plot). (RTD (
+), SD (
+), HPD (
+), HAD (
+), FD (
+)). 
+Fig. 3 E-tongue responses for representative roasted coffee beans (a), and mean values of seven sensors (b) 
+for coffee samples. PCA of E-tongue data for roasted coffee samples with different drying methods (c: 
+score plot, d: loading plot). (RTD (
+), SD (
+), HPD (
+), HAD (
+), FD (
+)). 
+Fig. 4 Total ion chromatogram of volatiles from roasted coffee samples with different drying methods (a). 
+Relative content of volatile compounds among different classes in coffee samples (b). 
+Fig. 5 PCA bi-plot for coffee samples using the volatiles matrix as input variables (a: score plot, b: loading 
+plot). (RTD (
+), SD (
+), HPD (
+), HAD (
+), FD (
+)). 
+Fig. 6 Dendrogram obtained by HCA of roasted coffee samples with a dataset comprising combined E-nose, 
+E-tongue, and HS-SMPE-GC-MS data. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+  
+ 
+19 
+Fig. 1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+  
+ 
+20 
+Fig. 2 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+  
+ 
+21 
+Fig. 3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+  
+ 
+22 
+Fig. 4 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+  
+ 
+23 
+Fig. 5 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+  
+ 
+24 
+Fig. 6 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+  
+ 
+25 
+Highlights 
+ 
+Drying process effects on roasted coffee bean quality properties were measured. 
+ 
+Volatile and taste components were profiled by E-nose, E-tongue, and HS-SPME-GC-MS. 
+ 
+Three dimensional datasets plus statistical modelling clearly discriminated samples. 
+ 
+Heat pump drying best preserved volatiles, producing high quality dried coffee. 
+ 
+ 
+ 
+ 

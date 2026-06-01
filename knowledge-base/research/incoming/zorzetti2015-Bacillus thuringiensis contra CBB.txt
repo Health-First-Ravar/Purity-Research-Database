@@ -1,0 +1,142 @@
+Genome Sequence of the Mosquitocidal Bacillus thuringiensis Strain
+BR58, a Biopesticide Product Effective against the Coffee Berry Borer
+(Hypothenemus hampei)
+Janaina Zorzetti,a Ana P. S. Ricietto,b Carlos R. M. da Silva,b Ivan R. Wolf,b Gislayne T. Vilas-Bôas,b Pedro M. O. J. Neves,a
+Ana M. Meneguim,c Laurival A. Vilas-Boasb
+Departamento de Agronomia, Universidade Estadual de Londrina, Londrina, Paraná, Brazila; Departamento de Biologia Geral, Universidade Estadual de Londrina,
+Londrina, Paraná, Brazilb; Laboratório de Entomologia, Instituto Agronômico do Paraná, Londrina, Paraná, Brazilc
+Bacillus thuringiensis is an important microbial control agent against insect pests. The draft genome sequence of the Brazilian
+strain BR58 described here contains the insecticidal genes cry4A, cry4B, cry10A, cry11A, cry60A, cry60B, and cyt1A, which show
+toxicity to both Aedes aegypti and Hypothenemus hampei larvae.
+Received 9 September 2015 Accepted 27 October 2015 Published 10 December 2015
+Citation Zorzetti J, Ricietto APS, da Silva CRM, Wolf IR, Vilas-Bôas GT, Neves PMOJ, Meneguim AM, Vilas-Boas LA. 2015. Genome sequence of the mosquitocidal Bacillus
+thuringiensis strain BR58, a biopesticide product effective against the coffee berry borer (Hypothenemus hampei). Genome Announc 3(6):e01232-15. doi:10.1128/
+genomeA.01232-15.
+Copyright © 2015 Zorzetti et al. This is an open-access article distributed under the terms of the Creative Commons Attribution 3.0 Unported license.
+Address correspondence to Laurival A. Vilas-Boas, laurival.vboas@gmail.com.
+T
+he utilization of Bacillus thuringiensis as a natural biological
+control agent against agricultural pests is extensively known
+(1, 2). B. thuringiensis strains contain a property primarily related
+to the cry, cyt, and vip set of genes, which encode proteins active
+against insect pests. As previously reported, some B. thuringiensis
+strains are toxic toward two insect groups (3, 4). Nevertheless,
+strains with toxicity against Diptera and Hypothenemus hampei
+have been described only since 2003 (5). This insect is present in
+almost all coffee-producing countries (6), causing damages to
+crops and signiﬁcant economic losses (7).
+We present here the draft genome sequence of B. thuringiensis
+BR58, a Brazilian strain isolated from stored grains and with toxic
+activity against Aedes aegypti larvae (8), which also proved to be an
+efﬁcient toxin-producing strain against H. hampei (9). The se-
+quence was obtained using the Ion Torrent PGM system, which
+generated 2,312,798 reads, with an average length of 308 bp. We
+used an assembly strategy whereby we ﬁrst mounted contigs for
+the chromosome and then assembled the plasmid contigs. For the
+ﬁrst assembly, all reads were submitted to the Deaconess ﬁltering
+(10). For this ﬁltering process, we used the whole genome of all
+B. thuringiensis strains from the NCBI Genome Database (http:
+//www.ncbi.nlm.nih.gov/genome/) available as of April 2015, and
+the 1,910,681 reads presenting similarity to the genomes already
+assembled were kept. The remainder, probably extrachromo-
+somal content, was separated for use in plasmid assembly. The
+reads obtained after this ﬁltering were assembled using the pro-
+gram MIRA version 4.0.2 (11), generating 138 contigs with an N50
+of 207,956 and a total of 5,578,174-bp consensus sequences with a
+chromosome GC content of 35%. The 402,117 remaining reads
+were used for plasmid construction, generating 123 contigs with
+an N50 of 17,777 and a GC content of 34%.
+These two groups of contigs were annotated separately using
+the RAST program SEED Viewer version 2.0. According to the
+RAST program, the contigs obtained from the chromosome
+showed 6,286 coding sequences and 173 RNA genes. Also, 482
+subsystems were identiﬁed, and 85 coding sequences were in-
+volved in the virulence, disease, and defense subsystem. Regarding
+the plasmid sequences, 941 coding sequences and 16 RNA genes
+were annotated, 34 subsystems were identiﬁed, and only 7 coding
+sequences belonged to the virulence, disease, and defense subsys-
+tem category. We also found six cry genes, cry4A, cry4B, cry10A,
+cry11A, cry60A, and cry60B, and the cyt1A gene. Using these gene
+sequences and comparing them to all contigs using the Blast pro-
+gram, all the cry genes and the cyt1A gene were found in the plas-
+mid contigs only. Full-length cloning experiments of the genes
+encoding insecticidal proteins carried by B. thuringiensis BR58 are
+essential to verify either the toxicity of each protein individually or
+the toxicity of combined proteins against H. hampei larvae.
+Nucleotide sequence accession numbers. This whole-genome
+shotgun project has been deposited in GenBank under the acces-
+sion numbers LIIT00000000. The version described in this paper
+is the ﬁrst version, LIIT01000000.
+ACKNOWLEDGMENTS
+This work received support from the Coordenação de Aperfeiçoamento
+de Nível Superior (CAPES) and Conselho Nacional de Desenvolvimento
+Cientíﬁco e Tecnológico (CNPq), Brazil. J. Zorzetti, A. P. S. Ricietto, and
+I. R. Wolf were supported by fellowships from CAPES and CNPq.
+REFERENCES
+1. Vilas-Bôas GT, Peruca APS, Arantes OMN. 2007. Biology and taxonomy
+of Bacillus cereus, Bacillus anthracis, and Bacillus thuringiensis. Can J Mi-
+crobiol 53:673–687. http://dx.doi.org/10.1139/W07-029.
+2. Vidal-Quist JC, Castañera P, González-Cabrera J. 2009. Diversity of
+Bacillus thuringiensis strains isolated from citrus orchards in Spain and
+evaluation of their insecticidal activity against Ceratitis capitata. J Mi-
+crobiol Biotechnol 19:749–759.
+3. Yamamoto T, McLaughlin RE. 1981. Isolation of a protein from the
+crossmark
+Genome Announcements
+November/December 2015
+Volume 3
+Issue 6
+e01232-15
+genomea.asm.org
+1
+ on June 20, 2016 by guest
+http://genomea.asm.org/
+Downloaded from 
+
+parasporal crystal of Bacillus thuringiensis var. Kurstaki toxic to the mos-
+quito larva Aedes taeniorhynchus. Biochem Biophys Res Commun 103:
+414–421. http://dx.doi.org/10.1016/0006-291X(81)90468-X.
+4. Tailor R, Tippett J, Gibb G, Pells S, Pike D, Jordan L, Ely S. 1992.
+Identiﬁcation and characterization of a novel Bacillus thuringiensis
+delta-endotoxin entomocidal to coleopteran and lepidopteran larvae.
+Mol Microbiol 6:1211–1217. http://dx.doi.org/10.1111/j.1365
+-2958.1992.tb01560.x.
+5. Méndez-Lopéz I, Basurto-Ríos R, Ibarra JE. 2003. Bacillus thuringiensis
+serovar Israelensis is highly to the coffee borer, Hypothenemus hampei
+Ferr. (Coleoptera: Scolytidae). FEMS Microbiol Lett 226:73–77. http://
+dx.doi.org/10.1016/S0378-1097(03)00557-3.
+6. Murphy ST, Moore D. 1990. Biological control of the coffee berry borer,
+Hypothenemus hampei (Ferr.) (Coleoptera, Scolytidae): previous pro-
+grammer and possibilities for the future. Biocontrol News Inf 11:107–118.
+7. Pava-Ripoll M, Posada FJ, Momen B, Wang C, St. Leger R. 2008.
+Increased pathogenicity against coffee berry borer, Hypothenemus hampei
+(Coleoptera: Curculionidae) by Metarhizium anisopliae expressing the
+scorpion toxin (AaIT) gene. J Invertebr Pathol 99:220–226. http://
+dx.doi.org/10.1016/j.jip.2008.05.004.
+8. Santos FP, Lopes J, Vilas-Bôas GT, Zequi JAC. 2012. Characterization of
+Bacillus thuringiensis isolates with potential for control of Aedes aegypti
+(Linnaeus, 1762) (Diptera: Culicidae). Acta Trop 122:64–70. http://
+dx.doi.org/10.1016/j.actatropica.2011.11.018.
+9. Zorzetti J, Neves PMOJ, Villas-Bôas GTV, Villas-Bôas LA, Meneguim
+AM, Barros E. 2014. Selection of Bacillus thuringiensis strains active
+against Hypothenemus hampei (Ferrari) (Coleoptera: Curculionidae: Sco-
+lytinae). 62nd Ann Meet Entomol Soc Am, 15 to 19 November 2014,
+Portland, Oregon.
+10. Schmieder R, Edwards R. 2011. Fast identiﬁcation and removal of se-
+quence contamination from genomic and metagenomic datasets. PLoS
+One 6:e17288. http://dx.doi.org/10.1371/journal.pone.0017288.
+11. Chevreux B, Wetter T, Suhai S. 1999. Genome sequence assembly using
+trace signals and additional sequence information, p 45–56. In Computer
+science and biology. Proceedings of the German Conference on Bioinfor-
+matics, GCB ’99. GCB, Hannover, Germany.
+Zorzetti et al.
+Genome Announcements
+2
+genomea.asm.org
+November/December 2015
+Volume 3
+Issue 6
+e01232-15
+ on June 20, 2016 by guest
+http://genomea.asm.org/
+Downloaded from 

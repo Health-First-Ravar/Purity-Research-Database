@@ -1,0 +1,1211 @@
+CHAPTER 11
+Decaffeination using supercritical
+carbon dioxide
+Giovani L. Zabot
+Laboratory of Agroindustrial Processes Engineering (LAPE), Federal University of Santa Maria (UFSM), Cachoeira do Sul, Brazil
+Contents
+1. Introduction
+255
+2. Carbon dioxide as a green supercritical fluid
+256
+3. Why extracting caffeine?
+257
+4. Decaffeination by supercritical technology
+258
+4.1 Batch process
+259
+4.2 Semicontinuous and continuous processes
+261
+4.3 Process parameters
+263
+4.4 Economic approach
+270
+4.5 Life-cycle assessment approach
+271
+5. Decaffeination of coffee
+272
+6. Decaffeination of tea
+274
+7. Decaffeination using carbon dioxide at industrial scale
+275
+8. Future outlooks
+276
+Acknowledgments
+277
+References
+277
+1. Introduction
+Caffeine (alkaloid) is one of the most well-known psychoactive compounds worldwide.
+Since the last five decades, the per capita consumption of caffeine in the world has
+increased by approximately 100% as a consequence of the increase in consumption of
+teas, energy drinks, and coffee. Based on this fact, several scientific studies have been per-
+formed to evaluate the physiological actions of caffeine. Up to now, it has not been pos-
+sible to reach a consensus on its positive and negative effects. The controversial
+information eventually led to an increase in consumption of decaffeinated products, gen-
+erally by medical advice.
+The decaffeination is an alternative to provide products without caffeine or with a
+reduced content of caffeine. Some methods use organic solvents, such as alcohol, dichlor-
+omethane, chloroform, ethyl acetate, or acetone. Other methods use water and super-
+critical CO2. The CO2 under supercritical conditions is preferable because it can
+255
+Green Sustainable Process for Chemical and Environmental Engineering and Science
+© 2020 Elsevier Inc.
+https://doi.org/10.1016/B978-0-12-817388-6.00011-8
+All rights reserved.
+
+retain most of the compounds that give taste and flavor. Decaffeination by supercritical
+CO2 is a relatively recent technology that is expanding in several countries.
+Based on this context, this chapter has the objective to present and discuss the main
+characteristics of decaffeination by supercritical CO2. Even though after performing the
+extraction processes two fractions are obtained, the emphasis is put on decaffeinated
+products (coffee beans, tea leaves, cocoa beans, etc.) instead of the extract. The construc-
+tive discussion is focused on the solid material without or with a reduced content of caf-
+feine. The aim is to overview the contribution of the supercritical technology using a
+green and renewable solvent (CO2) toward making the realistic high-pressure decaffei-
+nation process widespread and even more feasible.
+2. Carbon dioxide as a green supercritical fluid
+A supercritical fluid has simultaneously properties of gas and liquid, especially a high
+solubility and a low viscosity, respectively. Pure substances submitted to pressure and
+temperature higher than the critical conditions (critical temperature and critical
+pressure—critical point) are called supercritical fluids. In the phase diagram, the visible
+differences between liquid and gas phases disappear in this region and the fluid inter-
+changes between liquid-like/gas-like characteristics. This phenomenon of interchanging
+is more pronounced in the region near to the critical point because there is a high sol-
+vation power, where the physicochemical characteristics are highly sensitive to changes
+in the parameters of pressure and temperature.
+CO2 (critical pressure of approximately 7.4MPa and critical temperature of approx-
+imately 31°C) is a fluid used to fulfill supercritical fluid extraction (SFE) because it permits
+the operation at moderate temperature. Overall, supercritical CO2 is commonly applied
+for extracting nonpolar and moderate polar phytochemicals. The density of CO2 can be
+altered by modifying the system conditions (especially pressure or temperature), espe-
+cially in the region near to the critical point. Therefore, the selective extraction of dif-
+ferent phytochemicals can be reached. CO2 has other advantages, as the large availability
+in the environment, the nontoxic properties, and the easy separation from the products
+(liquid extracts and solid coproducts) by decompression at room pressure (approximately
+0.1MPa). This last one advantage can make the extracted material a solvent-free product
+to be applied in several industrial fields, as in the biochemical, pharmaceutical, chemical,
+materials, cosmetic, and food-related fields.
+The solubility of a diversified quantity of phytochemicals in supercritical CO2 or
+other supercritical fluids can change significantly because it is closely related to solvent
+density. Consequently, the solubility of different bioactive compounds depends on pres-
+sure and temperature. Typically, the solubility of CO2 increases near the critical point.
+Thereafter, it can decrease if the system is compressed, leading to dominant repulsive
+CO2-solute-cosolvent interactions. Otherwise, increased solubility can occur when
+256
+Green sustainable process for chemical and environmental engineering and science
+
+attractive CO2-solute-cosolvent interactions take place, which is a feature of small chain
+and highly volatile molecules. It is desirable to fulfill the extractions as far as possible from
+the equilibrium solubility. The best choice is to use an excess of CO2 to have a none-
+quilibrium condition. However, there is a limit value of excess of solvent imposed by
+the CO2 characteristics and operational procedures (capacities of pump, pipes, valves,
+and heat exchangers, among others) that prevent the use of a larger excess of CO2. In
+general, Table 1 presents a brief compilation of solubility data of caffeine in CO2 found
+in some solid matrices.
+3. Why extracting caffeine?
+Caffeine (C8H10N4O2, molar mass of 194.1906g/mol, also known as 1H-Purine-2,6-
+dione, 3,7-dihydro-1,3,7-trimethyl- or 1,3,7-trimethyl-2,6-dioxopurine) is a methyl-
+xanthine alkaloid found in several parts of plants, like beans, nuts, seeds, and leaves. It
+isastimulantandtheformIofcaffeineismetastable.Thisformisonlystableattemperatures
+ranging from 155°C to 237°C. The form II is stable at room conditions, as 20–25°C.
+One well-known source of caffeine is the coffee bean and the well-known products
+containing caffeine are drinks as coffee, tea, energy drinks, and chocolate, among others.
+Table 1 Solubility data of caffeine in supercritical CO2 with or without a cosolvent
+Pressure
+(MPa)
+Temperature
+(°C)
+Cosolvent
+Solubility (mmol/kmol
+solvent)a
+Ref.
+15
+40
+–
+61.0
+[31]
+15
+60
+–
+106.3
+[31]
+25
+40
+–
+64.8
+[31]
+25
+60
+–
+125.3
+[31]
+22
+40
+14% methanol (molar
+basis)
+360.0
+[32]
+10
+40
+–
+140.0
+[33]
+20
+40
+–
+220.0
+[33]
+28
+40
+–
+360.0
+[33]
+15
+40
+Water (103.7mol/m3)
+3150.0
+[34]
+35
+50
+–
+87.0
+[35]
+35
+60
+–
+66.6
+[35]
+30
+40
+Water (saturated)
+7100.0
+[36]
+24
+70
+5% Ethanol (molar
+basis)
+1600.0
+[37]
+18
+40
+5% Ethanol (molar
+basis)
+1200.0
+[37]
+15
+50
+5% Isopropanol (molar
+basis)
+250.0
+[37]
+aThe solvent means the supercritical CO2 with the addition of modifier (if applicable).
+257
+Decaffeination using supercritical carbon dioxide
+
+The extraction of caffeine from the plants aims at presenting a decaffeinated product, as
+decaffeinated coffee or decaffeinated tea.
+Producing and processing coffee is one of the industrial areas most economically rel-
+evant around the world. Brazil, Colombia, Indonesia, and Mexico are the main pro-
+ducers of coffee, which can account more than 3 million tons per year (almost 60% of
+the worldwide production). The current annual worldwide production is larger than
+5.5million tons. The ingestion of caffeine favors oxidation of fat and speeds up metab-
+olism. Furthermore, caffeine can block adenosine receptors on the central nervous sys-
+tem. Otherwise, caffeine intake can cause some adverse effects, such as palpitations,
+gastrointestinal disturbances, anxiety and malaise, mood changes, insomnia and sleep
+problems, and increased blood pressure. When the consumption of beverages containing
+caffeine is relatively high, some consumers change the comfort of drinking the beverages
+to the discomfort. For some people, especially who have health problems, the pleasure of
+drinking caffeinated products is not outweighed by the caffeine-fueled negatives.
+Therefore, extraction of caffeine is a goal of companies that sell a decaffeinated prod-
+uct ready for consumption. For example, coffee needs to have more than 97% of the caf-
+feine extracted for being called decaffeinated. Such kind of coffee is another product
+available to consumers who want to taste the aroma of coffee without experiencing
+the stimulant effects of caffeine. The decaffeination process is used to remove harshness
+and irritation compounds. Unfortunately, some processes leave a bland coffee beverage
+with low flavor. Coffee has up to 1500 different chemical compounds, including alka-
+loids, phenolics, and terpenes, among others. Therefore, the extraction of only caffeine is
+a hard task because approximately 2% (mass basis) of this compound should be removed
+without altering significantly the original flavor and characteristics of the product. Fur-
+thermore, caffeine extracted from coffee beans, tea leaves, cocoa beans, and cola nuts can
+be used in the production of cosmetics (for the treatment of localized excess fat), soft
+drinks, cola-type drinks, energy drinks, and psychoactive drugs (e.g., for treating neural-
+gia and headache), among other products.
+The water solubility of caffeine is approximately 16mg/mL (approximately 1.48mol/
+kmol water) [1]. Regarding supercritical CO2 (with or without some modifiers), the sol-
+ubility of caffeine in this solvent is presented in Table 1. The levels of caffeine in some
+common products are presented in Table 2. It is estimated that approximately 10% of the
+current consumption of coffee-based beverages (e.g., coffee, energy drinks, and choco-
+late drinks) in the United States and Europe are decaffeinated beverages.
+4. Decaffeination by supercritical technology
+Decaffeination is the extraction of caffeine from yerba mate, coffee, guarana, tea, cocoa, and
+other plants by different methods. Commonly, the decaffeination can be fulfilled by water
+immersion, water-ethyl acetate immersion, methylene chloride (or dichloromethane)
+258
+Green sustainable process for chemical and environmental engineering and science
+
+extraction, and supercritical CO2 extraction. In the water immersion, the caffeine is dis-
+solved in water and can be removed by activated carbon or other adsorbents as agricultural
+solid coproducts (e.g., rice husks). In the water-ethyl acetate immersion, the caffeine is
+extracted from the seeds, beans, nuts, or leaves by ethyl acetate, which the solvent flows
+through the solid matrix embedded in water. In the methylene chloride extraction, the caf-
+feine is removed from the solid biomass by this solvent using mild temperatures (generally
+near to 40°C). In such case, the moisture of the solid matrix should be high. Until the mid-
+1970s, the dichloromethane was extensively used for extraction of caffeine. Although the
+residual amount of dichloromethane in the solid biomass is not too high (below the limit
+defined by the Food and Drug Administration), recent concerns about the problems to
+humans have risen due to its high toxic effects.
+Supercritical carbon dioxide extraction (SFE-CO2) uses CO2 above its critical con-
+ditions of pressure and temperature to solubilize the caffeine. The SFE-CO2 process has
+some advantages whether compared to the other methods because uses a nontoxic sol-
+vent at mild conditions (especially temperature). The consumption of energy is generally
+lower than those associated with conventional processes and the CO2 can be easily sep-
+arated from the products by a simple decompression. Indeed, the main process of remov-
+ing caffeine and maintaining most of the other flavor substances from coffee, tea, cocoa,
+and yerba mate, among others, is CO2. This solvent practically does not attack the car-
+bohydrates (e.g., sugars and starch) and proteins. This fact is important because several
+compounds that give aroma and flavor are converted from proteins after roasting. Since
+1970, the worldwide use of SFE-CO2 is being expanded. Supercritical technology is
+considered green and sustainable, especially for decaffeination. Therefore, this section
+is intended to provide the main characteristics of processing plants containing caffeine
+with supercritical CO2.
+4.1 Batch process
+CO2 has some positive characteristics for the extraction of caffeine. Besides the advan-
+tages previously cited, CO2 has a good dissolving ability and a good mass transfer per-
+formance (rapid penetration ability). SFE-CO2 of caffeine is generally more efficient
+Table 2 Average levels of caffeine in coffee drinks, tea, chocolate, and sodas
+Soft drink
+Caffeine (mg/100mL)
+Express coffee
+250–330
+Decaffeinated coffee
+1–5
+Soluble coffee
+30–120
+Instantaneous tea
+25–50
+Chocolate
+2–20
+Sodas
+2–20
+259
+Decaffeination using supercritical carbon dioxide
+
+because lower aromatic substances can be lost during the decaffeination process. One
+operational mode of extracting caffeine is by a batch process, which the biomass (e.g.,
+coffee, tea, yerba mate, cocoa, etc.) and the CO2 are mixed in a fixed bed during a static
+time under a defined values of pressure and temperature. After the static extraction time,
+which generally occurs in a few hours, the bed is depressurized, the extract is collected,
+and the solid matrix is recovered.
+Typically, large-scale extraction comprises vessels of volume higher than 20 m3.
+According to Lack and Seidlitz [2], decaffeination of coffee beans by SFE-CO2 under
+a batch and nonisobaric process presents different cost estimates, as € 1.10/kg feed for
+a capacity of 3500tons/year and € 0.75/kg feed for a capacity of 7000tons/year. In fact,
+the decaffeination of coffee by SFE-CO2 under a batch and isobaric process is commonly
+more economically feasible. For the capacities of 3500 tons/year and 7000tons/year, the
+costs estimates are € 0.85/kg feed and € 0.55/kg feed, respectively.
+The batch process is commonly performed in a single-stage mode since the solids
+(beans, leaves, etc.) are difficult to process in pressurized vessels by a continuous mode
+due to their particulate forms [3]. Furthermore, there is no harmful residue in the decaf-
+feinated material (solid material) because the CO2 is a solvent that can be completely and
+easily removed without a further treatment. A schematic flowchart of decaffeination in a
+batch process is shown in Fig. 1.
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+CO2 reservoir
+CO2 filter
+Blocking valve
+Pressure gauge
+Cooling exchanger
+High-pressure pump
+Extraction vessel
+Micrometering valve
+Temperature controller
+Extract separator
+Compressor
+Buffer tank
+Safety valve
+Fig. 1 Typical flowchart of decaffeination by SFE-CO2 in a batch process; dashed lines indicate a
+noncontinuous flow.
+260
+Green sustainable process for chemical and environmental engineering and science
+
+4.2 Semicontinuous and continuous processes
+Other modes of extracting caffeine are performed by semicontinuous (also known as semi-
+batch) and continuous processes. In the semicontinuous process, the solid biomass is fed into a
+fixed bed and the CO2 flows continuously to the bed under the defined values of temperature
+and pressure. Caffeine is recovered overtime at the extraction vessel outlet (Fig. 2). In the
+continuous process, the solid biomass and the CO2 are mixed and pressurized continuously
+by a pump to the bed under the defined conditions of temperature and pressure. At the vessel
+outlet, caffeine and a decaffeinated solid material are separated (Fig. 3).
+A recent study dealing with SFE-CO2 under a semicontinuous mode for extraction of
+caffeine was performed with black tea [4]. At the beginning of the process, 500g black tea
+with particle size ranging from 600 to 780μm and 2.16% (mass basis) caffeine content was
+mixed with 300mL water and loaded into the extractor (10L). After evaluating different
+values of temperature and pressure, the mass extraction yield ranged from 16.2% to 100%.
+Commonly, in the extraction processes the biomass is saturated with water to increase the
+solubility of caffeine. It is important to mention that the critical overview and discussion
+of the effect of process parameters on the decaffeination is provided into Section 4.3.
+In most of the cases, the semicontinuous mode is applied. This mode allows using
+pumps that pressurize fluids (pure substances or mixtures) without particles, like CO2.
+As presented in Fig. 2, the steps consist of cooling CO2 to change its phase from gas
+to liquid using a cooler, pressurizing CO2 to the target pressure using a high-pressure
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+CO2 reservoir
+CO2 filter
+Blocking valve
+Pressure gauge
+Cooling exchanger
+High-pressure pump
+Extraction vessel
+Micrometering valve
+Temperature controller
+Extract seperator
+Compressor
+Buffer tank
+Safety valve
+Flowmeter
+Flow totalizer
+14
+15
+16
+Heating exchanger
+Fig. 2 Typical flowchart of decaffeination by SFE-CO2 in a semicontinuous process.
+261
+Decaffeination using supercritical carbon dioxide
+
+pump, heating CO2 to the desired temperature using a jacketed heater, pumping CO2
+into the vessels containing the fixed bed (biomass mixed with water), and collecting the
+extracted caffeine at the exit of the vessels (in the separators) because CO2 flowing
+through the fixed-bed solubilizes caffeine. Thereafter, the decaffeinated biomass is
+unloaded from the vessel for drying. The moisturizing step in the beginning of the pro-
+cess is important for decaffeination regardless of the solvent. The main characteristics of
+the systems operating in semicontinuous mode include a short CO2 residence time, a
+long solid residence time, a possibility of allowing different sizes of particles (in the ranges
+of micrometers until a few centimeters), an adjustable solvent to feed mass ratio, and a
+medium process control.
+A supercritical laboratory scale system from Thar Technologies Inc. (Pittsburgh,
+United States) having a vessel of 1L was used in experimental assays for decaffeination
+of orthodox Kangra tea (particles ranging from 7.1 to 9.1mm) in a semicontinuous mode.
+SFE-CO2 with cosolvent (water) was performed at different temperatures (35–85°C) and
+pressures (9–17MPa) [5]. The semicontinuous mode was performed with a fixed bed
+(900g of orthodox Kangra black tea) and a continuous CO2 flow rate (60g/min) for
+90min. The first separator was maintained at a pressure of 8–9MPa and a temperature
+range from 10°C to 9°C. The second separator was maintained at a pressure ranging
+from 2 to 3MPa and a temperature ranging from 5°C to 0°C. At 90°C and 17MPa (in
+the extraction vessel), approximately 48% (mass basis) was removed, reducing the caffeine
+content from 1.71% to 0.89%.
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+CO2 reservoir
+CO2 filter
+Blocking value
+Pressure gauge
+Cooling exchanger
+High-pressure pump
+Extraction vessel
+Back pressure valve
+Temperature controller
+Extract/solid seperator
+Compressor
+Buffer tank
+Safety valve
+Flowmeter
+Flow totalizer
+14
+15
+16
+Heating exchanger
+(particulate fluid)
+Fig. 3 Typical flowchart of decaffeination by SFE-CO2 in a continuous process.
+262
+Green sustainable process for chemical and environmental engineering and science
+
+The continuous mode needs pumps that pressurize particulate fluids, that is, a mixture
+of solvent and particles of biomass. As presented in Fig. 3, the steps consist of cooling CO2
+to change its phase from gas to liquid using a cooler, mixing CO2 with milled biomass,
+pressurizing the mixture of CO2 and solid biomass to the target pressure using a high-
+pressure pump, heating the mixture to the desired temperature using a jacketed heater,
+pumping continuously the mixture into the vessels for having the extraction, and collect-
+ing the bulk extract mixed with biomass at the outlet of the vessels (in the separators). The
+main characteristics of the systems operating in continuous mode include a short CO2
+residence time, a short solid residence time, the necessity of using really small particles
+(generally micrometric particles), a high solvent to feed mass ratio, and a high process
+control.
+Unfortunately, decaffeination in continuous mode is uncommon because some chal-
+lenges should be overcome. The main challenge refers to pumping the mixture of moist-
+ened solids and CO2. There are a limited number of high-pressure pumps that can
+pressurize particulate fluids. The particles can block the piping and cause a high-pressure
+drop. Therefore, it is preferable to perform the procedures in a semicontinuous mode
+with various extraction vessels disposed of in parallel, which can represent a pseudo-
+continuous mode. This strategy can be based on the methodological approaches
+presented by Moraes et al. [6], where a successful pseudo-continuous operating SFE
+equipment was validated.
+4.3 Process parameters
+There are some process parameters that influence the solubility and yields of extracted
+substances in processes operating with supercritical fluids. For decaffeination process,
+the design of extraction vessels in supercritical processes comprises the knowledge of
+phase equilibrium among the CO2, the caffeine to be extracted, and the insoluble solids
+(in some cases, soluble solutes can be included herein). The main process parameters are
+temperature, pressure, cosolvent type and concentration, extraction time, and solvent to
+feed mass ratio.
+4.3.1 Temperature
+The temperature applied in the decaffeination using supercritical CO2 commonly ranges
+from 35°C to 70°C. In some cases, this parameter can reach higher values, such as 120°C,
+because its increase can favor mass transfer. Overall, thermal labile compounds can be
+affected and degraded at mild to high temperatures while hydrolysis of compounds
+and other reactions can take place [7].
+The temperature is one of the process parameters that influence the solvent density
+and determines the solvating power of CO2. In the decaffeination of black tea using a
+pilot-scale equipment with supercritical CO2 as solvent, three levels of temperature
+(55°C, 62.5°C, and 70°C) were evaluated in the process [4]. According to the authors,
+263
+Decaffeination using supercritical carbon dioxide
+
+the caffeine extraction yield was higher when the temperature increased at constant pres-
+sure of 25MPa. Besides, no significant effect of this parameter was observed at constant
+pressure of 50MPa. In fact, typically, there is an interaction between some process param-
+eters, especially temperature, pressure, and cosolvent. In this referenced decaffeination of
+black tea, the temperature-modifier interaction presented a different impact on decaffei-
+nation yield than other interactions did. As the concentration of modifier (cosolvent)
+increased, the yield increased when 62.5°C was used if compared to 55°C. However,
+the yield decreased when 70°C was used if compared to 62.5°C.
+Tea (black, green, etc.) is one of the most common beverages consumed in the world.
+SFE-CO2 process for caffeine removal from black tea leaves was reported [8]. In such
+study, three temperatures (40°C, 60°C, and 80°C) were evaluated. After a statistical anal-
+ysis, the parameter temperature (principal effects) had no statistical significant effect
+(P>.05) on caffeine recovery. Consequently, considering energy savings and technical
+responses, lower values of temperature could be selected to extract caffeine. However,
+still regarding the decaffeination of black tea leaves, a synergistic effect between temper-
+ature and other parameters (pressure, ethanol concentration, and modifier flow rate) was
+seen. After applying the Response Surface Methodology to define the decaffeination
+conditions, the average mass decaffeination efficiency was 99.8% and the loss of phenolic
+compounds was only 3.3% when the following conditions were used: 53°C, 30MPa,
+0.7mL/min of modifier (ethanol as cosolvent) and 87% ethanol concentration (volumet-
+ric basis). According to Bahar et al. [8], it is of remarkable importance for the decaffeina-
+tion from black tea (it could be extended to other caffeinated raw materials) to remove
+caffeine while maintaining the maximum quantity of phenolics (and all aromatic com-
+pounds in general). Therefore, the caffeine removal and the amount of phenolic com-
+pounds remaining in black tea are important responses that indicate the yield of the
+process from tea by supercritical technology using CO2.
+Although the decaffeination is generally applied to coffee or tea, some other
+caffeine-rich natural matrices can be decaffeinated by SFE-CO2. One example of
+another matrix is guarana, which is a Brazilian native plant containing up to 6% (mass
+basis) of caffeine [9]. Guarana seeds and shells are often used in soft drinks (named in
+Brazil as “guarana”) and as an ingredient of some medicinal products. Based on this con-
+text, aiming at obtaining decaffeinated guarana seeds, a study was performed where the
+SFE-CO2 process was applied. Experimental data indicated the reduction of the caf-
+feine content from guarana seeds with supercritical CO2 saturated with water [10].
+In that study, two levels of temperature were evaluated: 40°C and 70°C. Approxi-
+mately 98% (mass basis) of caffeine was removed from seeds at 70°C for 4h, indicating
+that SFE-CO2 is a successful method for the decaffeination of such seeds. As reported by
+the authors [10], the decaffeination at lower levels of pressure or temperature needed
+extra time and higher amounts of CO2 to obtain the same relative yield than that
+obtained at 70°C, for instance.
+264
+Green sustainable process for chemical and environmental engineering and science
+
+From the foregoing outcomes, we infer that higher temperatures are recommendable
+to remove caffeine from caffeinated samples. However, an integrated evaluation should
+be performed, which should take into account the contents of phenolics and other aro-
+matic compounds. There is a trend of solubilizing more phenolic acids at higher temper-
+atures, especially when a larger content of a polar cosolvent (as modifier) is used. In some
+cases, the reduction of volatile compounds is more evidenced if more caffeine is
+extracted. Therefore, it is preferable to perform the processes with temperatures not
+higher than 70°C.
+4.3.2 Pressure
+The pressure applied for the decaffeination using supercritical CO2 commonly ranges
+from 10 to 35MPa. The increase in pressure raises the solvation power of CO2 as a con-
+sequence of the increase in density. In some cases, pressures larger than 50MPa are
+applied, including in systems that a modifier is used. Some experimental data of decaf-
+feination of different caffeinated plants is presented in Table 3, where different process
+conditions have been used and different findings have been obtained.
+The decaffeination of coffee and tea is the most common practice worldwide regard-
+ing the decaffeination process. The semicontinuous mode is the main process applied,
+where the CO2 circulates through the bed and caffeine is extracted from the leaves or
+beans. One alternative in the separation system is using activated carbon, which can retain
+caffeine as an adsorbent. In fact, the extracted caffeine can be separated from the super-
+critical CO2 by a pressure reduction to the room conditions (approximately 0.1MPa),
+consequently decreasing its solubility in CO2, which becomes a gas in lower pressures.
+Table 3 Experimental data for decaffeination using supercritical CO2
+Biomass
+T (°C)
+P (MPa)
+Time (h)
+S/F (–)
+Cosolvent
+Yield (wt.%)
+Ref.
+Green tea
+50
+40
+5
+28.1
+Water
+59.8
+[38]
+Green tea
+50
+30
+5
+28.1
+Water
+43.0
+[38]
+Green tea
+40
+40
+5
+28.1
+Water
+54.0
+[38]
+Guarana seeds
+70
+40
+4
+273.6
+Water
+98.0
+[10]
+Black tea
+62.5
+37.5
+5
+1008
+Ethanol
+100
+[4]
+Black tea
+62.5
+37.5
+5
+1512
+Ethanol
+100
+[4]
+Black tea
+55
+37.5
+3
+604.8
+Ethanol
+95.4
+[4]
+Black tea
+62.5
+37.5
+1
+201.6
+Ethanol
+56.5
+[4]
+Coffee beans
+50
+13.8
+3
+–
+Water
+80.0
+[12]
+Cocoa beans
+70
+40
+1
+100
+Water
+66.4
+[13]
+Yerba mate
+60
+17
+–
+20.0
+NA
+33.9
+[39]
+Green tea
+70
+20
+1
+51.0
+Ethanol
+82.4
+[27]
+Black tea
+85
+9
+1.5
+6.0
+Water
+40.4
+[5]
+NA, not applicable; P, pressure; S/F, solvent to feeds mass ratio (g solvent/g biomass); T, temperature.
+265
+Decaffeination using supercritical carbon dioxide
+
+A study proposed a decaffeination of coffee beans using saturated CO2 [11]. After
+maintaining the CO2 in contact with the beans at relatively high temperatures (up to
+100°C) and high pressures (up to 30MPa), there is a fast pressure drop. In the sequence,
+the beans are washed for up to 2h. Afterward, the CO2-saturated green coffee extract
+containing caffeine is decaffeinated by SFE-CO2. Franca [11] also reports that liquid
+CO2 submitted at lower pressures (generally <7MPa) can be used in decaffeination
+processes. Green coffee beans (moisture ranging from 45% to 55%) are mixed with
+water-saturated CO2 at such pressures (e.g., 6.5MPa) in order to retain most of the
+flavors during the process. One drawback of this processing line is the extraction time,
+which could be longer than 4 days.
+Some former studies that demonstrated the possibility of decaffeination have been
+developed at the end of the last century. In one of these studies, the influence of pressure
+on the decaffeination of coffee beans was demonstrated by Peker et al. [12]. The authors
+have tested four pressures: 10.3, 13.8, 16.5, and 19.3MPa. According to the findings,
+there is an increase of the extraction rate with increasing the pressure. As seen, at the
+highest pressures and temperatures (main process parameters), the data depended on
+changes in operational conditions. Consequently, it means that larger variations of
+extraction rates were observed in the pressures of 16.5 and 19.3MPa. Furthermore, based
+on results obtained at large-scale commercial facilities, the flavor compounds released
+during roasting are not recovered in the decaffeination process, which is a positive
+and promising outcome.
+More recently, the influence of pressure was also evaluated in the SFE-CO2 of caf-
+feine from black tea leaves [4]. Caffeine recovery yield was high with high pressure.
+According to the Response Surface Methodology, the interactions between the param-
+eters pressure/extraction time and pressure/flow rate presented similarities on the extrac-
+tion yield of caffeine. The yield of caffeine demonstrated a slight increase as pressure
+increased, achieving 97.8% of decaffeination. Still considering black tea leaves, pressures
+between 15 and 45MPa have been tested for the decaffeination of such raw material [8].
+Caffeine extraction was high when the pressure increased up to approximately 30MPa.
+Thereafter, the pressure presented a negative influence on extraction yield.
+Not only coffee and teas are decaffeinated by SFE-CO2, but also cocoa beans [13]. In
+such case, the authors evaluated the influence of 20 and 40MPa on the extraction of caf-
+feine and theobromine. The initial amount of caffeine in cocoa beans was 0.26wt.%. The
+supercritical CO2 was also compared with supercritical ethane. In all decaffeination con-
+ditions,CO2providedhigheryieldsthansupercriticalethane(C2H6)did,whichjustifiesits
+preference in most of the processes. When the levels of pressure were compared at 70°C,
+SFE-CO2 at 40MPa yielded 66.4wt.% of decaffeination while SFE-CO2 at 20MPa
+yielded 37.4wt.%.
+Based on this context, we infer that pressures near to 20–40MPa are recommendable
+to remove caffeine from caffeinated samples. In addition, saturating the caffeinated
+266
+Green sustainable process for chemical and environmental engineering and science
+
+samples with water is important if large extraction rates are aimed at obtaining by super-
+critical technology. In such conditions, extraction rates increase as a consequence of the
+high partition coefficient for caffeine between CO2 and water.
+4.3.3 Time
+The extraction time is one of the parameters that ultimately determine the capacity the
+SFE-CO2 plant to process different quantities of biomass, including the caffeinated ones.
+The extraction time depends on the raw material properties (e.g., physiology) and the
+CO2 mass flow rate (Table 3). Overall, a decaffeination process can follow some steps
+during the extraction time. The steps are comprised of an initial constant extraction rate
+period, an intermediary falling extraction rate period that diffusion and convection of
+CO2 predominate, and a final diffusion-controlled rate period. These steps are also pre-
+sented in the extraction of other bioactive components, as terpenoids and tocotrienols
+[14, 15]. Overall, the major modifications in the caffeinated samples occur at the begin-
+ning of the extractions. Park et al. [16] reported that the extraction of caffeine was larger
+at the beginning of SFE-CO2 process. More than 75.7, 93.9, and 97.8wt.% of caffeine
+were recovered after 40, 80, and 120min, respectively. Consequently, more time and
+CO2 were needed to extract the remained solutes as a consequence of the internal mass
+transfer resistance.
+The decaffeination of black tea was also reported [4]. The increase of time and the
+solvent mass flow rate presented a linear effect on the decaffeination yield, while higher
+values of extraction time and modifier (cosolvent) concentration presented a logarithmic
+influence on the decaffeination yield. This behavior indicates an interaction between the
+extraction time and these other parameters (e.g., modifier concentration and mass
+flow rate).
+Obviously,thedecaffeinationratesincreasewiththeincreaseofextractiontime.How-
+ever, longer times are not feasible because they indicate a high CO2 consumption and a
+high cost of manufacturing (COM) [17]. In the decaffeination of coffee and teas, it is com-
+mon to perform the process during 60–180min. Notoriously, there are extraction times
+longer than 600min. In fact, the extraction time also depends on the operating mode,
+which the batch process is generally more prolonged. Furthermore, optimization of tem-
+perature, pressure, flow rate or solvent to feed mass ratio, and cosolvent concentrations in
+an integrated way shortens the extraction time and the efforts spent in the SFE runs.
+4.3.4 Solvent to feed mass ratio
+Solvent to feed mass ratio is a process parameter straightly associated with the extraction
+time. This parameter is used instead of CO2 flow rate because it is a dimensionless param-
+eter. Even though the CO2 flow rate depends on the size of the equipment (laboratory,
+pilot, or industrial scales), the solvent to feed mass ratio does not depend on the size and
+can be used for scale up purposes.
+267
+Decaffeination using supercritical carbon dioxide
+
+Generally, the increase of the solvent to feed mass ratio increases the mass ratio of
+solute (e.g., caffeine) in the supercritical phase at the vessel exit up to a maximum value
+and decreases afterward. This behavior is associated to the solubility of caffeine in the
+supercritical CO2. The solubility increases at the beginning of extraction time as a con-
+sequence of the initial constant extraction rate period and decreases afterward as a con-
+sequence of the intermediary falling rate period and the final diffusion-controlled period.
+The thermodynamic equilibrium is not a goal in the SFE-CO2 because the solvent sat-
+uration would never be reached under any practical industrial application. Indeed, the
+technological and economic viability analyses would define the most appropriate value
+of solvent to feed mass ratio to be applied in the decaffeination of raw materials. Typically,
+this ratio is close to the end of the constant extraction rate period. In some cases, this ratio
+can be near the end of falling rate period as well. However, if more than 99% of decaf-
+feination is needed, this ratio could be higher, which the extraction can be in the
+diffusion-controlled period.
+It is important to remember that caffeine is linked to phenols. Therefore, removing
+the total content of caffeine can lead to reduced levels of phenols poor taste (low-quality
+products). Generally, decaffeinated products are not completely caffeine-free. Such
+products are called decaffeinated products, even they can contain traces or low concen-
+trations of caffeine (generally <3% from the initial fresh mass content).
+When processing cocoa beans [13], approximately 60wt.% of decaffeination was
+reached when using 100kg CO2/kg cocoa beans. When using 700kg CO2/kg cocoa
+beans, the decaffeination increased only to 66.4wt.%. The findings presented in that
+work highlight the previous inference that it is preferable to operate an SFE-CO2 process
+near to the end of the constant extraction rate or falling rate periods instead of the end of
+the diffusion-controlled period.
+When processing black tea [4], 97.2wt.% of decaffeination was reached when using
+approximately 600kg CO2/kg leaves. When using approximately 1000kg CO2/kg
+leaves, the decaffeination was 98.1wt.%. We can see that the ratios are relatively higher.
+The CO2 is recycled and can be used again in the extractions. However, too high ratios
+can cause some operational troubles or can demand high-pressure pumps with extremely
+high capacities of flow rate. Indeed, these limitations can impact high investment and
+operational costs. For example, if an extraction vessel is filled with 500kg of black tea
+leaves and the extraction time is 180min, the CO2 flow rate should be approximately
+1667kg/min to satisfy the ratio of 600kgCO2/kg leaves. Therefore, for a practical appli-
+cation, all process parameters (temperature, pressure, cosolvent, etc.) should be system-
+atically optimized to avoid using too high solvent to feed mass ratios.
+4.3.5 Cosolvent type and concentration
+Regarding cosolvent type and concentration, a cosolvent is used together with CO2 to
+improve the solubility of compounds as caffeine (a polar compound). Supercritical CO2 is
+268
+Green sustainable process for chemical and environmental engineering and science
+
+properly used to recover nonpolar substances. Cosolvents, also known as modifiers, can
+increase the solubility of target compounds in the mixture. The modifiers used in SFE-
+CO2 process have specific properties that are indicated for specific substances (e.g., caf-
+feine) or a class of substances (e.g., alkaloids). In a sustainable concept and in order to
+maintain SFE-CO2 as a clean technology, the cosolvent type (or cosolvents) should
+be carefully chosen. In the decaffeination, the water and ethanol are recommended. If
+possible, methanol should be avoided.
+In the decaffeination using supercritical CO2, water is the main modifier used in the
+extractions. In fact, water is not necessarily pumped together with CO2. In most of the
+cases, the solid biomass is soaked with water before being loaded in the extraction vessels
+to have a moistened biomass. This procedure was performed by Joshi et al. [5], where
+900g Kangra orthodox tea was soaked with 100mL water and loaded in a vessel of
+1L. The objective of using water as cosolvent stood for improving the solubility of caf-
+feine, according to the behavior presented in Table 1. Since water increases the solubility
+of caffeine, its single use (without CO2) is not recommendable because it removes soluble
+solids (aromatic compounds) and secondary metabolites, which is a disadvantage.
+Water as cosolvent was also used in the supercritical CO2 decaffeination of unroasted
+coffee beans [18]. Water was used to moisten unroasted beans to a moisture content of
+50% and extracted by SFE-CO2 in semicontinuous mode at 30MPa and 150°C until
+reaching a final caffeine level of 0.16wt.%. Another work was performed to evaluate
+the extraction conditions of caffeine from black tea while maintaining the maximum
+content of phenolics [8]. In such study, a cosolvent mixture of ethanol-water was added
+to supercritical CO2 at different ratios applying a high-pressure pump and all assays were
+performed for 1h. The mixture ethanol-water (cosolvent) was evaluated in the following
+mass proportions (%): 75:25, 87.5:12.5, and 100:0. The following cosolvent volumetric
+concentrations (based on CO2) were used: 0.25%, 0.375%, and 0.5%. The authors [8]
+reported that the extraction with a mixture of 87.5% ethanol and 12.5% water
+(87.5:12.5) at a cosolvent concentration of 0.25% removed almost all caffeine from black
+tea. The caffeine was reduced from 1283mg/100g leaves to <1mg/100g leaves. There-
+fore, the ethanol (cosolvent) concentration had significant influences on both caffeine
+and phenolics (P value<.01). In fact, the recovery yield of caffeine was low when
+the ethanol concentration was high. Otherwise, reducing the ethanol content in
+ethanol-water mixture had also decreased the content of phenolics in the leaves. This
+behavior is attributed to water, which is a better cosolvent for caffeine, but also removes
+other phenolic substances.
+From the foregoing facts, the decaffeination using supercritical CO2 is preferable to
+be performed with a certain content of modifiers (cosolvents). Even a low concentration
+(e.g., 0.25%) can be very suitable because the polarity of the mixture is changed to
+favor caffeine solubilization. The effects of cosolvents (types and concentration) are
+attributed to a specific chemical (e.g., acid-base interactions) or physical interactions
+269
+Decaffeination using supercritical carbon dioxide
+
+(e.g., dipole-dipole interactions) between the modifier and target solute, and also to a
+likely solvent-modifier interaction, which can influence the solvent-solute interactions.
+Overall, such effects can accelerate the extractions and can make the processes more
+feasible.
+4.4 Economic approach
+The costs related to a processing plant operated by SFE-CO2 should be estimated before the
+economicviabilityofthesupercriticalprocesscanbeassessed[7].Thevariablesthatcompose
+the COM are fixed costs, direct costs (related to manufacturing), and general expenses. The
+mainfixedcostsincludethecostsofpurchasingtheequipment,acquiringtheaccessories,and
+building the factory. Depreciation, local taxes, and insurance also compose fixed costs. The
+main direct manufacturing costs include the costs of raw materials (biomass, solvent, cosol-
+vent, etc.), waste treatment, operational labor, and utilities (electricity, water for washing,
+cleaning material, etc.). In the same trend, the main general expenses refer to security, yard
+improvement, research and development, distribution, and administration costs, among
+others. All these costs are extended to decaffeination factories.
+The people who are consuming totally decaffeinated or partially decaffeinated prod-
+ucts generally are looking for quality and healthy products. Therefore, they do not hes-
+itate in acquiring a more expensive product. Decaffeinated products are a few more
+expensive because there are further processing steps to reach the required characteristics.
+The decaffeination processes, especially the SFE-CO2, needs energy and robust equip-
+ment to reduce the concentration of caffeine. Even though the CO2 can be recycled, a
+percent fraction (generally 2%–5%) is lost during the recirculation, which is a consider-
+able fraction when larger scales are considered in the evaluation. In addition, the increase
+in the solvent to feed mass ratio increases the mass flow rates. Therefore, as aforemen-
+tioned, the capacities of high-pressure pumps should be increased. Clearly, the increase
+in capacities leads to an increase in the total production costs.
+Besides being technologically feasible, a supercritical CO2 process should evidence
+economic viability. Regarding the subject overviewed in this chapter, some optimization
+studies were disclosed in terms of technological responses (e.g., decaffeination yield).
+However, to the far of our knowledge, we could not find a study in the main database
+(e.g., Scopus) that evaluated systematically the production costs of decaffeinated prod-
+ucts. Overall, based on the experience, we can infer that decaffeination of several solid
+matrices (tea leaves, coffee beans, guarana seeds, cocoa beans, yerba mate leaves, etc.) by
+SFE-CO2 can be economically feasible because the investment cost is not the main cost
+that influences the total COM. A decaffeination plant using supercritical CO2 generally is
+commercially feasible at larger capacities, such as 5000tons/year. Of course, supercritical
+equipment is more expensive than conventional equipment. However, the contribution
+270
+Green sustainable process for chemical and environmental engineering and science
+
+of this cost rarely exceeds 30% of the total cost because the equipment is built to last for
+more than 10 years without needing significant maintenance. In fact, the main cost refers
+to raw materials, such as biomass and solvents. Consequently, the main alternatives are to
+reduce the purchasing costs of raw materials and to avoid losses of solvents during the
+processes.
+4.5 Life-cycle assessment approach
+SFE-CO2 is considered as eco-friendly technology. Even having this feature, it is nec-
+essary to evaluate the environmental emissions of SFE-CO2 during the decaffeination.
+One form to assess the environmental impact of a process in a quantitative description
+is using life-cycle assessment (LCA) analysis [19].
+The LCA approach has been applied to the decaffeination of coffee with a 60/40
+Arabica/Robusta mass blend [19]. The beans were moistened and the decaffeination
+process consisted of SFE-CO2 at 90°C and 25MPa. During the process, the caffeine
++CO2 mixture was accumulated in a holding tank until completing the procedure.
+Thereafter, the vessel started a downtime. A 97% of decaffeination rate was obtained
+for 11.5h of extraction. Regarding the LCA approach, its goal was to evaluate the envi-
+ronmental impacts of decaffeination of coffee using CO2. After an in-depth description
+and assessment of impacts, the main real factors that contribute to the environmental
+impact are agricultural stages (use of fertilizers), transportation, and caffeine
+extraction steps.
+When emphasizing the decaffeination step, an improved and suggested solution to
+this impact refers to replacing a portion of the electricity by sustainable photovoltaic
+panels. Considering a solution for these three impacts (agricultural stages—reduce fertil-
+izers; transportation—use renewable fuels; caffeine extraction steps—use alternative
+sources of energy), a reduction of the environmental impact can be 17.6% in terms of
+human health, 16.1% in terms of resource availability, and 10.3% in terms of ecosystem
+diversity.
+In another work [20], an LCA analysis was also performed for the decaffeination of
+coffee beans by supercritical technology. Data were obtained from an industrial com-
+pany, which uses supercritical CO2 to recover caffeine from coffee beans at 90°C and
+25MPa for 5h with energy, CO2, water, and fuel supply. Transportation is one of
+the main factors that impact negatively the environment due to the high consumption
+of fuels. Regarding the decaffeination process, its impact on the nonrenewable energy
+consumption (e.g., electricity from thermoelectric plants) is related to the higher con-
+sumption of energy to heat and pressurize the systems. Even though, SFE-CO2 is still
+very positive if compared to other methods because it does not have a big drawback
+(Fig. 4).
+271
+Decaffeination using supercritical carbon dioxide
+
+5. Decaffeination of coffee
+Coffee is a beverage consumed worldwide because of its target bitter taste. The effect of
+coffee on human physiology is different from person to person (age, gender, etc.) and also
+on the quantity and quality of coffee consumed. Coffee beans have different contents of
+caffeine depending on the species. For example, arabica coffee contains approximately
+1.2wt.% while canephora (robusta) coffee and the hybrid arabusta coffee contain approx-
+imately 2.2wt.% and 1.7wt.%, respectively. Overall, agricultural factors demonstrated to
+have little effect on caffeine content in coffee beans [21].
+Decaffeinated coffee is a product which caffeine has been extracted from the beans,
+corresponding to roasted and ground coffee. The decaffeination process is usually fulfilled
+on beans prior to roasting. For avoiding extraction of aromatic compounds, the extrac-
+tion process is commonly fulfilled with green beans. For example, roasted beans have up
+to 2% (mass basis) of caffeine. The decaffeination is carried out to remove approximately
+97% of the caffeine to meet the requirements of a decaffeinated product. Therefore,
+Fig. 4 Simply versed descriptions of the main decaffeination methods, including pros and cons of
+each method.
+272
+Green sustainable process for chemical and environmental engineering and science
+
+for instance, a cup of 150mL of decaffeinated coffee has approximately 5 mg or less of
+caffeine. Otherwise, a cup of 150mL of regular caffeinated coffee generally contains from
+60 to 180mg of caffeine [11].
+For most of people, a fatal dose of caffeine is approximately 10g or approximately
+50–100 cups of regular coffee (depending on volume and strength). This excessive con-
+sumption can cause excitement, restlessness, insomnia, and mild delirium, demonstrating
+a hard influence on the respiratory and central nervous systems. Most of people can suffer
+from sleepiness (most common), nervousness, heart stimulation, and other effects after
+drinking larger quantities of caffeine [21]. Therefore, since genetically decaffeinated coffee
+beans are not commercially available (i.e., ongoing scientific studies), the decaffeination of
+coffee is a positive alternative to provide a decaffeinated product for coffee addicted people.
+Decaffeination of coffee by SFE-CO2 is the most promising process. The removal of
+caffeine can be done in batch, semicontinuous (or semibatch), or continuous modes
+(Figs. 1–3). Typically, the semicontinuous mode is preferable. Previously to the extrac-
+tions, the coffee beans are generally moistened (20%–50%). Cosolvents as ethanol, water
+or a mixture of them can be used as polarity modifiers.
+Decaffeination of coffee beans is a subject of several patents since the end of the last
+century [22–24]. The SFE-CO2 was patented for the first time by Zosel in the mid-1970
+for removing the caffeine from green coffee beans [25]. For instance, an invention reports
+a method for the decaffeination of green coffee beans without affecting in an adverse
+manner the acidity or the taste and flavor of coffee beverages [26]. According to the
+inventors, prior to or simultaneously with decaffeination process, green coffee beans
+can be contacted with an acidic fluid formed by an organic acid (preferably an aqueous
+citric acid solution) that is not soluble in CO2. Considering that citric acid can be
+dissociated in aqueous solution and that it can be inexpensively obtained in food
+grades for decaffeination purposes, such acid is favorite to the decaffeination. Further-
+more, according to the invention, the process conditions of SFE-CO2 are extraction
+at 90°C and 28MPa for 8h and separation using 30–40°C and 7–8MPa.
+When using water or an aqueous solution, coffee beans can swell, the pores usually
+open, and the caffeine can diffuse out of the beans. Consequently, CO2 at supercritical
+condition flowing in the bed solubilizes caffeine. After the extraction time, the beans can
+be unloaded from the vessel for drying and for further use. The key factor of operation is
+to optimize the extraction conditions, especially regarding the parameters discussed in
+Section 4. Therefore, the operators and assistants should have the know-how for con-
+trolling the high-pressure facilities of decaffeination. Also, an excellent technological
+infrastructure for maintaining the plant is needed. Although the supercritical process
+has a large complexity than the processes fulfilled with some liquid solvents, the clean
+and positive physicochemical characteristics of supercritical CO2 expand its acceptance
+by consumers. As a consequence of the high selectivity, it is asserted that decaffeinated
+products obtained by SFE-CO2 have a better physicochemical and sensorial quality.
+273
+Decaffeination using supercritical carbon dioxide
+
+Overall, the main advantages of decaffeination of coffee by SFE-CO2 are informed in
+the sequence. Firstly, there is no harmful residue in the decaffeinated coffee because CO2
+becomes a gas at room conditions (e.g., 25°C and 0.1MPa) and naturally separates from
+the solids after the expansion. There are no problems if some traces of CO2 remain in the
+products because it is nontoxic and safe at low concentrations. Secondly, decaffeinated
+coffee using supercritical CO2 has superior quality than the products obtained from other
+decaffeination methods with appearance and flavor similar to that of caffeinated coffee.
+Thirdly, the extraction of other compounds (phenols, amino acids, etc.) is quite low,
+resulting in a greater product.
+6. Decaffeination of tea
+Recent innovations in food-related areas have improved the use of novel technologies for
+satisfying the increased consumers’ requirements. Low-fat products, low-sugar products,
+low-sodium additives, and more fibrous ingredients, among others, are examples of
+healthy food products. In this trend, decaffeinated teas are also included as differentiated
+products. Tea is a beverage obtained from the shoots and leaves of Camellia sinensis plants.
+Decaffeinated tea products have a high commercial market as a consequence their inter-
+esting healthy benefits.
+Consequently, to obtain a decaffeinated tea, the leaves should undergo an extraction
+procedure. As in coffee decaffeination, SFE-CO2 is preferable because it yields decaffein-
+ated teas with the retained content of taste and flavors. The supercritical CO2 can pen-
+etrate into the swollen pores of leaves, thus solubilizing caffeine. It is not recommendable
+to use a high concentration of water or other polar cosolvents because some phenolic
+compounds can be solubilized in the mixture, which is an undesired effect.
+Regarding some reports in the scientific literature, a black tea with particle size rang-
+ing from 600 to 780μm was processed in a pilot-scale supercritical plant with two vessels,
+each one having 10L [4]. Extraction time, pressure, solvent to feed mass ratio and mod-
+ifier quantity (as process parameters) had a high impact on tea decaffeination yield. From
+an initial content of 2.16wt.% caffeine, a 100% decaffeination was reached at 37.5MPa,
+62.5°C, 300min, 2.5% (molar basis) of ethanol as molar concentration and solvent to feed
+mass ratio of approximately 1512kg/kg tea leaves (Table 3). Considering that supercrit-
+ical CO2 was utilized as a solvent, there was no need to remove CO2 from decaffeinated
+tea because it separates naturally from the extract at low pressures. The authors also men-
+tion that it was important to attain maximum decaffeination at a relatively low temper-
+ature (62.5°C) in a short time (300min) in terms of applicability of the results at
+industrial scale.
+Black tea has also been studied for obtaining a decaffeinated product at a pilot-scale
+supercritical plant with two extractors of 5L [5]. However, in that study, the maximum
+rate of decaffeination was only 40.4wt.%. The findings of low decaffeination yield are
+274
+Green sustainable process for chemical and environmental engineering and science
+
+attributed to the lower extraction time (1.5h) and solvent to feed mass ratio (6.0kg/kg tea
+leaves) if compared to the findings reported by Ilgaz et al. [4]. The temperature was
+higher (85°C), which could have influenced the composition of aldehydes, ketones,
+alcohols, esters, and other compounds. For example, in the decaffeination by SFE-
+CO2 at 85°C and 17MPa, the concentration of α-pinene reduced to 0.10wt.% if com-
+pared to the fresh black tea (0.33wt.%) [5].
+Green tea was decaffeinated by SFE-CO2 in a laboratory system containing a 100mL
+extraction vessel [27]. The highest decaffeination yield was 82.4wt.% at 70°C and
+20MPa. Ethanol (3%, mass basis) was used as a cosolvent. When either the pressure
+or temperature was maintained constant, the decaffeination was high when the quantity
+of modifier was high. In fact, among the parameters evaluated, the modifier concentra-
+tion had the highest influence on the decaffeination efficiency. However, for a processing
+line at industrial scale, further processes such as recovering chlorophylls and using them in
+the reconstitution of chlorophyll contents in decaffeinated green tea can be needed to
+improve its quality.
+7. Decaffeination using carbon dioxide at industrial scale
+In 1903, Ludwig Roselius proposed the first commercially successful decaffeination pro-
+cess. In such invention, coffee beans were initially steamed with a brine solution and the
+caffeine was extracted with benzene. Nowadays, benzene cannot be used as a solvent in
+decaffeination process because it is toxic. Decaffeination using CO2 has been proposed
+later by a scientist of the Max Plank Institute (Kurt Zosel) in mid-1970 [25]. Currently,
+the SFE-CO2 at industrial scale is performed in high-volumes reactors, generally higher
+than 1000L. The process is done at large scale because the demand for decaffeinated
+products is high and there are several tons of raw materials to be processed per day around
+the world. Overall, this process is primarily used to decaffeinate large amount of
+commercial-grade and less-exotic coffee found in grocery stores. It is important to high-
+light that supercritical processes for decaffeination of coffee and tea were one of the first
+commercialized applications of supercritical technology at the large industrial scale.
+Some companies around the world are using supercritical CO2 for decaffeination of
+caffeinated biomass. One example is the Brazilian Canadian Coffee Co. Ltd. (note that
+we do not have the intention of marketing any company) [28]. This company produces
+decaffeinated coffee by SFE-CO2. Although the processing conditions and the total
+capacities are not disclosed, the process incorporates only water (to moisturize the coffee
+beans and thus making the caffeine accessible for removal) and CO2 to remove the caf-
+feine and to leave the flavor. Once the coffee is 99.9% caffeine free, it is dried and ready
+for roasting.
+Another company is Queen Bean Coffee Company [29]. Colombian CO2 decaf, an
+“Especiale” bean, is shade-grown in Colombia’s Bucaramanga region. The “Especiale”
+275
+Decaffeination using supercritical carbon dioxide
+
+beans are naturally 99.5wt.% decaffeinated by a patented process using supercritical CO2
+that permits the beans to retain higher amount of taste and aroma than most decaffeina-
+tion processes. According to the company, these beans can be softer and more delicate
+than other decaffeinated coffees.
+Regarding decaffeinated tea, the H€alssen and Lyon Company [30] offers different
+decaffeination processes, including SFE-CO2. The company has many years (since
+1935) of experience with the decaffeination of tea. The decaffeinated teas by SFE-
+CO2 are produced more recently, which the process is suitable for all leaf grades and teas,
+including organic teas. Once the products have been decaffeinated, they are dried back to
+the original 5%–12% water content.
+Although manufacturing processes may slightly differ from one factory to another, the
+main steps aforementioned and presented in Figs. 1–3 (especially the semicontinuous
+mode) are followed. Overall, the caffeine-rich CO2 stream that exits the extraction ves-
+sels is either directed through a bed of activated charcoal (solid adsorption) or through a
+water bath tower (gas absorption) to absorb the caffeine. At industrial scale, the CO2
+should be recycled back to the vessel. Indeed, decaffeination by SFE-CO2 is capital-cost
+intensive, but it usually provides higher yields. Interestingly, the extracted caffeine is fur-
+ther processed and sold to food-related industries.
+8. Future outlooks
+In the whole text, we have discussed the characteristics of SFE-CO2 in order to obtain
+decaffeinated products able to be consumed after the preparation of energy drinks, choc-
+olate drinks and teas, among others. Supercritical CO2 is a naturally occurring nontoxic
+solvent, which justifies its preference in decaffeination processes. Indeed, any decaffeina-
+tion process involves some challenges, especially related to avoiding the loss of aroma and
+flavor since coffee has more than 1500 compounds. Therefore, as future outlooks in this
+field, it is expected to have more decaffeinated products (coffee, tea, chocolate, soda, etc.)
+with and increased similarity to the caffeinated ones in terms of taste and flavor. As people
+are becoming more used to quality coffee and tea, this is forcing coffee-making and tea-
+making companies to find ways of enhancing the flavor even in decaffeinated products.
+Regarding the technological perspectives, it is expected to have a complete decaffei-
+nation using lower solvent to feed mass ratios. Consequently, it can result in smaller
+extraction times and lower CO2 flow rates, which can reduce the operating costs. Also,
+it is expected to maintain most of the aromatic and bioactive compounds, as phenols,
+ketones, acids (e.g., chlorogenic acid), and aldehydes, among others. Although there
+are several studies on the chemical composition of whole coffee and teas, little is still
+known about the composition of decaffeinated coffee and teas. Therefore, another out-
+look refers to the development of systematic studies to disclose the complete composition
+of decaffeinated products.
+276
+Green sustainable process for chemical and environmental engineering and science
+
+Acknowledgments
+The author thanks the Coordination for the Improvement of Higher Education Personnel (CAPES),
+National Council of Technological and Scientific Development (CNPq), and the Research Support Foun-
+dation of the State of Rio Grande do Sul (FAPERGS; 16/2551-0000522-2; 17/2551-0000 893-6) for the
+financial support. G.L. Zabot thank CNPq for the productivity grant (304882/2018-6).
+References
+[1] A. Beri, P.K. Banipal, T.S. Banipal, Effect of potassium chloride on the solvation behavior of caffeine,
+theophylline and theobromine: Volumetric, viscometric, calorimetry and spectroscopic approach,
+Food Chem. 266 (2018) 110–118.
+[2] E. Lack, H. Seidlitz, Economics of high pressure processes, in: A. Bertucco, G. Vetter (Eds.), High
+Pressure Process Technology, Elsevier, Amsterdan, 2001.
+[3] G. Brunner, Supercritical fluids: technology and application to food processing, J. Food Eng. 67 (2005)
+21–33.
+[4] S. Ilgaz, I.G. Sat, A. Polat, Effects of processing parameters on the caffeine extraction yield during dec-
+affeination of black tea using pilot-scale supercritical carbon dioxide extraction technique, J. Food Sci.
+Technol. 55 (2018) 1407–1415.
+[5] R. Joshi, G.D.K. Babu, A. Gulati, Effect of decaffeination conditions on quality parameters of Kangra
+orthodox black tea, Food Res. Int. 53 (2013) 693–703.
+[6] M.N. Moraes, G.L. Zabot, M.A.A. Meireles, Extraction of tocotrienols from annatto seeds by a pseudo
+continuously operated SFE process integrated with low-pressure solvent extraction for bixin produc-
+tion, J. Supercrit. Fluids 96 (2015) 262–271.
+[7] G.L. Zabot, M.N. Moraes, M.A.A. Meireles, Supercritical fluid extraction of bioactive compounds
+from botanic matrices: experimental data, process parameters and economic evaluation, Recent Pat.
+Eng. 6 (2012) 182–206.
+[8] B. Bahar, E. Pelvan, I. Hasbay, C. Alasalvar, Decaffeinated black tea: process optimization and phenolic
+profiles, J. Supercrit. Fluids 82 (2013) 116–121.
+[9] F. Belliardo, A. Martelli, M.G. Valle, HPLC determination of caffeine and theophylline in Paullinia
+cupana Kunth (guarana) and Cola spp. samples, Z. Lebensm. Unters. Forsch. 180 (1985) 398–401.
+[10] M.D.A. Saldan˜a, C. Zetzl, R.S. Mohamed, G. Brunner, Decaffeination of guarana seeds in a micro-
+extraction column using water-saturated CO2, J. Supercrit. Fluids 22 (2002) 119–127.
+[11] A.S. Franca, Coffee: Decaffeination, in: B. Caballero, P. Finglas, F. Toldra (Eds.), Encyclopedia of
+Food and Health, Academic Press, Cambridge, 2016.
+[12] H. Peker, M.P. Srinivasan, J.M. Smith, B.J. McCoy, Caffeine extraction rates from supercritical carbon
+coffee beans with dioxide, AICHE J. 38 (1992) 761–770.
+[13] R.S. Mohamed, M.D.A. Saldan˜a, P. Mazzafera, C. Zetzl, G. Brunner, Extraction of caffeine, theobro-
+mine, and cocoa butter from brazilian cocoa beans using supercritical CO2 and ethane, Ind. Eng.
+Chem. Res. 41 (2002) 6751–6758.
+[14] G.L. Zabot, M.N. Moraes, M.A.A. Meireles, Process integration for producing tocotrienols-rich oil
+and bixin-rich extract from annatto seeds: a techno-economic approach, Food Bioprod. Process.
+109 (2018) 122–138.
+[15] P.I.N. Carvalho, J.F. Osorio-Tobo´n, G.L. Zabot, M.A.A. Meireles, Spatial and temporal temperature
+distributions in fixed beds undergoing supercritical fluid extraction, Innovative Food Sci. Emerg. Tech-
+nol. 47 (2018) 504–516.
+[16] H.S. Park, H.-K. Choi, S.J. Lee, K.W. Park, S.-G. Choi, K.H. Kim, Effect of mass transfer on the
+removal of caffeine from green tea by supercritical carbon dioxide, J. Supercrit. Fluids 42 (2007)
+205–211.
+[17] J.C.F. Johner, T. Hatami, G.L. Zabot, M.A.A. Meireles, Kinetic behavior and economic evaluation of
+supercritical fluid extraction of oil from pequi (Caryocar brasiliense) for various grinding times and solvent
+flow rates, J. Supercrit. Fluids 140 (2018) 188–195.
+277
+Decaffeination using supercritical carbon dioxide
+
+[18] Y. Chen, P.H. Brown, K. Hu, R.M. Black, R.L. Prior, B. Ou, Y.F. Chu, Supercritical CO2 decaf-
+feination of unroasted coffee beans produces melanoidins with distinct NF-κB inhibitory activity,
+J. Food Sci. 76 (2011) 182–186.
+[19] I.D. Marco, S. Riemma, R. Iannone, Life cycle assessment of supercritical CO2 extraction of caffeine
+from coffee beans, J. Supercrit. Fluids 133 (2018) 393–400.
+[20] I.D. Marco, S. Riemma, R. Iannone, Supercritical carbon dioxide decaffeination process: a life cycle
+assessment study, Chem. Eng. Trans. 57 (2017) 1699–1704.
+[21] K. Ramalakshmi, B. Raghavan, Caffeine in coffee: its removal. why and how? Crit. Rev. Food Sci.
+Nutr. 39 (1999) 441–456.
+[22] S.N. Katz, J.E. Spence, M.J. O’Brien, R.H. Skiff, G.J. Vogel, R. Prasad, Decaffeination of coffee, 1991.
+Patent number EP0 424 579 A1.
+[23] M. Gehring, O. Vitzthum, H. Wienges, Decaffeination of roast coffee, 1984. Patent number DE 33 03
+679 A1.
+[24] S.N. Katz, Decaffeination Process, 1984. Patent number US 4 472 442.
+[25] K. Zosel, Process for recovering caffeine, 1974. Patent number US 3806619.
+[26] P.T. Kazlas, R.D. Novak, R.J. Robey, Supercritical carbon dioxide decaffeination of acidified coffee,
+1994. Patent number US5288511A.
+[27] H.S. Park, N.G. Im, K.H. Kim, Extraction behaviors of caffeine and chlorophylls in supercritical dec-
+affeination of green tea leaves, Food Sci. Technol. 45 (2012) 73–78.
+[28] Braziliancoffeeco, Decaffeination Process, Available from: http://braziliancoffeeco.com, 2018.
+[29] Queenbean, Natural Decaffeination: Swiss Water and CO2 Processes, Available from: https://www.
+thequeenbean.com, 2018.
+[30] Haelssen-lyon, Decaffeinated tea, Available from: https://www.haelssen-lyon.com, 2018.
+[31] P.V. Gadkari, M. Balaraman, Mass transfer and kinetic modelling of supercritical CO2 extraction of
+fresh tea leaves (Camellia sinensis L.), Braz. J. Chem. Eng. 34 (2017) 799–810.
+[32] V.A. Golubev, M.Y. Nikiforov, G.A. Alper, Solubility of caffeine in the supercritical CO2-methanol
+binary solvent, Russ. J. Phys. Chem. 9 (2014) 1054–1058.
+[33] B. Li, W. Guo, W. Song, E.D. Ramsey, Interfacing supercritical fluid solubility apparatus with super-
+critical fluid chromatography operated with and without on-line post-column derivatization: deter-
+mining the solubility of caffeine and monensin in supercritical carbon dioxide, J. Supercrit. Fluids
+115 (2016) 17–25.
+[34] Y. Iwai, H. Nagano, G.S. Lee, M. Uno, Y. Arai, Measurement of entrainer effects of water and ethanol
+on solubility of caffeine in supercritical carbon dioxide by FT-IR spectroscopy, J. Supercrit. Fluids
+38 (2006) 312–318.
+[35] P.V. Gadkari, M. Balaraman, Solubility of caffeine from green tea in supercritical CO2: a theoretical and
+empirical approach, J. Food Sci. Technol. 52 (2015) 8004–8013.
+[36] H. Lentz, M. Gehrig, J. Schulmeyer, Dynamic solubility measurements of caffeine in carbon dioxide
+and in carbon dioxide saturated with water, Phys. B+C 139-140 (1986) 70–72.
+[37] U. Kopcak, R.S. Mohamed, Caffeine solubility in supercritical carbon dioxide/co-solvent mixtures,
+J. Supercrit. Fluids 34 (2005) 209–214.
+[38] W.-J. Kim, J.-D. Kim, J. Kim, S.-G. Oh, Y.-W. Lee, Selective caffeine removal from green tea using
+supercritical carbon dioxide extraction, J. Food Eng. 89 (2008) 303–309.
+[39] E. Cassel, R.M.F. Vargas, G.W. Brun, D.E. Almeida, L. Cogoi, G. Ferraro, R. Filip, Supercritical fluid
+extraction of alkaloids from Ilex paraguariensis St. Hil, J. Food Eng. 100 (2010) 656–661.
+278
+Green sustainable process for chemical and environmental engineering and science

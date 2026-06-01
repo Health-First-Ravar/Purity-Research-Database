@@ -1,0 +1,1488 @@
+molecules
+Review
+The Beneﬁcial Effects of Principal Polyphenols from Green Tea,
+Coffee, Wine, and Curry on Obesity
+Tomokazu Ohishi 1,*
+, Ryuuta Fukutomi 2
+, Yutaka Shoji 3
+, Shingo Goto 4 and Mamoru Isemura 3
+
+
+Citation: Ohishi, T.; Fukutomi, R.;
+Shoji, Y.; Goto, S.; Isemura, M. The
+Beneﬁcial Effects of Principal
+Polyphenols from Green Tea, Coffee,
+Wine, and Curry on Obesity.
+Molecules 2021, 26, 453. https://
+doi.org/10.3390/molecules26020453
+Academic Editor: Saverio Bettuzzi
+Received: 23 December 2020
+Accepted: 13 January 2021
+Published: 16 January 2021
+Publisher’s Note: MDPI stays neu-
+tral with regard to jurisdictional clai-
+ms in published maps and institutio-
+nal afﬁliations.
+Copyright: © 2021 by the authors. Li-
+censee MDPI, Basel,
+Switzerland.
+This article is an open access article
+distributed under the terms and con-
+ditions of the Creative Commons At-
+tribution (CC BY)
+license (https://
+creativecommons.org/licenses/by/
+4.0/).
+1
+Institute of Microbial Chemistry (BIKAKEN), Numazu, Microbial Chemistry Research Foundation,
+Shizuoka 410-0301, Japan
+2
+Quality Management Div. Higuchi Inc., Minato-ku, Tokyo 108-0075, Japan; fukutomi_ryuuta@mac.com
+3
+Graduate School of Integrated Pharmaceutical and Nutritional Sciences, University of Shizuoka,
+Shizuoka 422-8526, Japan; yutaka_shoji@yahoo.co.jp (Y.S.); isemura@u-shizuoka-ken.ac.jp (M.I.)
+4
+Division of Citrus Research, Institute of Fruit Tree and Tea Science, National Agriculture and Food Research
+Organization (NARO), Shimizu, Shizuoka 424-0292, Japan; gotos@affrc.go.jp
+*
+Correspondence: ohishit@bikaken.or.jp; Tel.: +81-55-924-0601
+Abstract: Several epidemiological studies and clinical trials have reported the beneﬁcial effects of
+green tea, coffee, wine, and curry on human health, with its anti-obesity, anti-cancer, anti-diabetic,
+and neuroprotective properties. These effects, which have been supported using cell-based and
+animal studies, are mainly attributed to epigallocatechin gallate found in green tea, chlorogenic
+acid in coffee, resveratrol in wine, and curcumin in curry. Polyphenols are proposed to function via
+various mechanisms, the most important of which is related to reactive oxygen species (ROS). These
+polyphenols exert conﬂicting dual actions as anti- and pro-oxidants. Their anti-oxidative actions
+help scavenge ROS and downregulate nuclear factor-κB to produce favorable anti-inﬂammatory
+effects. Meanwhile, pro-oxidant actions appear to promote ROS generation leading to the activation
+of 5′-AMP-activated protein kinase, which modulates different enzymes and factors with health
+beneﬁcial roles. Currently, it remains unclear how these polyphenols exert either pro- or anti-oxidant
+effects. Similarly, several human studies showed no beneﬁcial effects of these foods, and, by extension
+polyphenols, on obesity. These inconsistencies may be attributed to different confounding study
+factors. Thus, this review provides a state-of-the-art update on these foods and their principal
+polyphenol components, with an assumption that it prevents obesity.
+Keywords: polyphenols; epigallocatechin-3-O-gallate; chlorogenic acid; resveratrol; curcumin; obe-
+sity; reactive oxygen species; 5′-AMP-activated protein kinase; nuclear factor-κB; randomized con-
+trolled trial
+1. Introduction
+Plant polyphenols are often found in beverages such as tea, wine, and coffee and in
+vegetables and fruits such as turmeric, onions, broccoli, apples, berries, citrus fruits, and
+plums [1].
+Green tea is produced from leaves of the Camellia sinensis plant; a cup of green tea
+brewed from 2.5 g tea leaves has been reported to contain 240–320 mg catechins, of which
+(−)-epigallocatechin-3-O-gallate (EGCG, Figure 1) accounts for 60%–65% [2,3]. Black tea is
+similarly produced from these leaves by intrinsic enzymatic processing and microorganisms
+during which catechins are polymerized to generate lower EGCG levels.
+Coffee contains approximately 2000 different chemicals; the major polyphenols are
+chlorogenic acid (CGA, Figure 1) and its derivatives, which account for approximately 3%
+w/w of the roasted coffee powder [2–4]. A single cup of coffee may contain 20–675 mg
+CGA [3].
+Resveratrol (RSV, 3,4′,5-trihydroxystilbene, Figure 1) is often derived from several
+plant sources, including grapes, peanuts, and berries, and it exists in two isomeric forms:
+Molecules 2021, 26, 453. https://doi.org/10.3390/molecules26020453
+https://www.mdpi.com/journal/molecules
+
+Molecules 2021, 26, 453
+2 of 22
+cis- and trans-RSV. Trans-RSV (deﬁned here as RSV, Figure 1) is naturally found in grape
+skin and in the leaf epidermis of the grape vine and is the main RSV form in red grape
+juice (3.38 mg/L) [1,4]. Daily RSV intake may be in the order of several mg/day [5].
+ 
+Figure 1. Chemical structures of epigallocatechin-3-O-gallate (EGCG), chlorogenic acid (CGA), resveratrol (RSV), and
+curcumin (CRC).
+Curcumin (CRC, Figure 1) is a yellow pigment, an active component of the turmeric
+plant (Curcuma longa), and is widely used in cooking, cosmetics, dyes, and medicines [1,6].
+In Asian populations, approximately 100 mg CRC is consumed daily [1,4].
+Several studies have shown that consuming tea, coffee, wine, and curry can be ben-
+eﬁcial in ﬁghting against various diseases including, cancer, obesity, neurodegenerative
+disorders, and diabetes. Their polyphenolic constituents are believed to contribute mainly
+to these effects as discussed in our previous reviews [1–3,6,7].
+Thus, this review summarizes contemporary data from human epidemiological obesity
+studies on these polyphenols and discusses mechanistic aspects related to laboratory
+ﬁndings from cell and animal experiments.
+2. The Effects of Green Tea/EGCG on Obesity
+Epidemiological studies have suggested that green tea and its principal constituent,
+EGCG, exert beneﬁcial effects on chronic diseases, including obesity [1–3,6].
+2.1. Observational Epidemiological Studies of Anti-Obesity Effects of Green Tea/EGCG
+Several observational human studies have indicated that tea or green tea consumption
+can exert beneﬁcial effects on obesity. For example, a cross-sectional survey of 1210
+epidemiologically sampled adults (569 men and 641 women) demonstrated that habitual
+tea drinkers (455 individuals were green or oolong tea consumers, and 18 were black
+tea consumers) for >10 years showed a 19.6% reduction in percent body fat and a 2.1%
+reduction in waist-to-hip ratios when compared with non-habitual tea drinkers [8].
+
+Molecules 2021, 26, 453
+3 of 22
+Recent data from an epidemiological study with 6472 adult participants found that
+tea consumers had a lower mean waist circumference (WC) and lower body mass index
+(BMI) (25 vs. 28 kg/m2 in men; 26 vs. 29 kg/m2 in women) than non-consumers [1].
+However, a recent study on 3539 participants observed that green tea was not asso-
+ciated with visceral obesity or metabolic syndrome (MetS) [9]. Thus, further studies are
+required to elucidate the anti-obesity properties of green tea.
+2.2. Human Intervention Studies on the Effects of Green Tea/EGCG on Obesity
+Several intervention studies have reported the beneﬁcial effects of green tea [10,11]. In
+a randomized controlled trial (RCT) on 35 subjects with obesity and MetS, patients were
+randomly assigned to a control (four cups of water/day), green tea (four cups/day), or
+green tea extract (GTE) (two capsules and four cups of water/day) group for 8 weeks [12].
+As per the ﬁndings of this study, it showed that green tea and GTE signiﬁcantly decreased
+body weight and BMI vs. controls at 8 weeks (−2.5 ± 0.7 kg and −1.9 ± 0.6, respectively).
+These results further indicated the therapeutic effects of green tea catechins (GTCs) in
+improving MetS characteristics in obese patients.
+A double-blind parallel multicenter trial in 240 subjects by Nagao et al. [13] observed
+that participants who consumed a GTC 583 mg/day dose exhibited greater decreases
+in body weight, BMI, body fat ratio, body fat mass, WC, hip circumference, visceral fat
+area (VFA), and subcutaneous fat area when compared to those who consumed a GTC
+96 mg/day dose.
+The anti-obesity beneﬁts of green tea were also demonstrated in a meta-analysis of
+24 human studies [14]. In total, 5 of the 11 trials in Eastern populations showed signiﬁcant
+weight loss, ranging from 1 kg to 2 kg, and 3 of the 13 trials also demonstrated notable
+weight loss ranging from 1 kg to 9 kg.
+In another RCT, 102 obese women were randomly divided into 2 groups: high-dose
+green tea group (EGCG, 856.8 mg/day) and the placebo group. The results indicated
+that 12 weeks of high-dose green tea resulted in signiﬁcant weight loss (76.8 ± 11.3 kg–
+75.7 ± 11.5 kg) and decreased BMI, WC, total cholesterol (TC) and plasma low-density
+lipoprotein (LDL) levels, without any adverse effects to participants [15].
+In another RCT, 73 obese women were divided into two groups: group A received
+GTE supplements for the ﬁrst 6 weeks, while group B received daily placebo. After 6 weeks
+of treatment and a 14-day washout period, groups A and B were switched to placebo
+treatment and GTE treatment mutually for 6 weeks. These results showed that GTE
+effectively increased leptin and reduced LDL levels in these women [16].
+Individuals with Down syndrome traditionally experience higher obesity rates [17].
+In a double-blind phase II clinical trial in 77 young adults with Down syndrome, the
+placebo group showed increased body weight and BMI, which were not noted in an EGCG-
+treated group. The effect of EGCG on body composition was mainly observed in males,
+with signiﬁcant differences between EGCG and placebo groups after 12 months, for body
+weight (estimated adjusted mean difference (AMD): −2.34, 95% conﬁdence interval (CI):
+−4.21, −0.48) and body fat (AMD: −1.23, CI: −2.43, −0.04), suggesting that EGCGs were
+beneﬁcial for weight management in patients with Down syndrome [18].
+A recent systematic review and meta-analysis revealed that green tea supplementation
+had favorable effects on body weight (weighted mean difference (WMD): −1.78 kg, CI:
+−2.80, −0.75) and BMI (WMD: −0.65 kg/m2, CI: −1.04, −0.25). The reduction in WC after
+green tea consumption was determined to be signiﬁcant for subjects using green tea at
+≥800 mg/day (WMD: −2.06 cm) and treatment durations of <12 weeks (WMD: −2.39 cm).
+This dose-response observation indicated that green tea intake at <500 mg/day may reduce
+body weight over 12 weeks of treatment [19].
+In contrast, several clinical trials failed to show body weight reduction via green tea
+consumption. A clinical trial in 151 participants aged 30–70 years showed that 1.8 g/day
+GTE consumption for 12 weeks did not lower body weight when compared with placebo,
+although a signiﬁcant LDL-cholesterol (LDL-C) lowering effect was noted [20]. Data from
+
+Molecules 2021, 26, 453
+4 of 22
+an RCT of 937 healthy postmenopausal women who received decaffeinated GTE containing
+843 mg EGCG reported that GTE was not associated with reductions in terms of body
+weight, BMI, or WC; further, it did not alter energy intake or mean hormone concentrations
+for over 12 months [21].
+2.3. Laboratory Studies and Mechanisms of EGCG Action
+Obesity is often characterized by the excessive accumulation of triglycerides (TGs),
+which are hepatically synthesized from both fatty acids (FAs) and de novo lipogenesis.
+Fatty acid synthase (FASN) is a central enzyme in lipogenesis and is responsible for FA
+production. The enzyme has gained considerable attention as a potential therapeutic
+target for obesity and cancer [22,23]. Zhang et al. [24] found that GTE inhibited FASN
+activity from duck liver, with a half-maximal inhibitory concentration (IC50) of 12.2 mg dry
+weight/mL [25]. Similarly, Tian et al. reported that EGCG inhibited FASN, with an IC50 of
+52 µM, mainly via interactions with the FASN β-ketoacyl reductase domain.
+Using a high-fat diet (HFD)-induced mouse obesity model, Wolfram et al. [26] ob-
+served that 1% (w/w) TEAVIGO, which contains 97.69% EGCG, prevented HFD-induced
+increases in mouse body weight. The authors also showed that FASN and acetyl-CoA
+carboxylase (ACC) mRNA levels were markedly decreased in adipose tissue. ACC has been
+identiﬁed as a key lipogenesis enzyme [27] and is potentially an anti-obesity target [28].
+Both FASN and ACC expressions have been positively regulated by upstream lipoge-
+nesis transcription factors, including CCAAT/enhancer-binding proteins (C/EBPs) [29],
+peroxisome proliferation-activated receptors (PPARs, especially PPARγ) [30], and sterol
+regulatory element-binding proteins (SREBPs) [31]. Lee et al. demonstrated that 0.2% or
+0.5% (w/w) EGCG can reduce body weight and the mass of several adipose tissues in
+a dose-dependent manner in an HFD-induced mouse obesity model [32]. These results
+indicated that EGCG lowered plasma TG and liver lipid levels. In the epidermal white
+adipose tissue of EGCG-treated mice, C/EBP, PPARγ, and SREBP mRNA levels were
+observed to be signiﬁcantly decreased [32].
+5′-AMP-activated protein kinase (AMPK) has been identiﬁed as a metabolite-sensing
+protein kinase. Activated AMPK triggers beneﬁcial physiological effects, including re-
+ductions in fat deposition. Ha et al. revealed that AMPK knockdown has upregulated
+fat-forming enzymes, including FASN, ACC, and stearoyl-CoA desaturase, which is an-
+other key enzyme of fat synthesis. These results suggest that activated AMPK inhibited fat
+synthesis by inhibiting lipogenesis [33]. Given that GTE and EGCG activated AMPK by
+inducing reactive oxygen species (ROS) generation [34,35], GTE and EGCG could improve
+body weight and lipid metabolism by activating AMPK through ROS generation. EGCG
+actions against lipogenesis and adipogenesis are shown in Figure 2.
+Increased lipolysis can hydrolyze TGs and release free FAs, leading to anti-obesity
+effects. Treatment of pre-adipocyte 3T3-L1 cells with 10 µM EGCG for 24 h has been found
+to decrease intracellular lipid accumulation. Under the same experimental conditions,
+increased glycerol levels in the medium were observed, and hormone-sensitive lipase
+(HSL) mRNA levels, which catalyze rate-limiting stages in the hydrolysis of stored TGs to
+monoacylglycerol and free FAs, were similarly increased [36].
+Consistent with these ﬁndings, Wistar rats on an obesity induced 8-week cafeteria
+diet, and supplemented with GTE (500 mg/kg body weight at 5 days/week for 12 weeks),
+led to signiﬁcant reductions in obesity indicators, e.g., hyperlipidemia, fat synthesis, body
+weight, and fat depots when compared with the control diet group. Importantly, repression
+of de novo lipogenesis in adipose tissue, reduced lipid droplets in the liver, and insulin resis-
+tance development in diet-induced obese rats were accompanied by AMPK activation [37].
+Similarly, mice fed a HFD with EGCG (50 and 100 mg/kg/day) exhibited signiﬁcantly
+increased HSL mRNA expression in white adipose tissue when compared with the HFD
+group, and AMPK activity was noted to increase in both subcutaneous and epididymal
+adipose tissues in these mice [38]. These results suggest that GTE/EGCG decreased obesity
+in rats and mice via AMPK activation (Figure 2).
+
+Molecules 2021, 26, 453
+5 of 22
+A recent study examining EGCG effects and mechanisms on lifespan extensions
+in obese rats demonstrated that median lifespans in control, HFD, and HFD + EGCG
+animals were 693, 599, and 683 days, respectively, indicating EGCG can restore shortened
+lifespans mediated by HFD [39]. EGCG also reduced inﬂammation and oxidative stress
+associated with aging in HFD-induced rats. EGCG signiﬁcantly decreased blood circulating
+interleukin (IL)-6, tumor necrosis factor-α (TNF)-α, ROS, and superoxide dismutase (SOD)
+levels. EGCG also increased the expression of sirtuin-1 (SIRT1), catalase, fatty acid-binding
+protein-1, glutathione S-transferase (GST)-A2, and acyl-CoA synthetase-1, but signiﬁcantly
+decreased nuclear factor (NF)-κB, ACC-1, and FASN expressions at the liver. These ﬁndings
+are represented by molecular events in Figure 2.
+ 
+Figure 2. Potential anti-obesity mechanisms whereby EGCG, CGA, RSV, and CRC exert anti-obesity effects by scaveng-
+ing/downregulating ROS. Red boxes represent upregulation/stimulation, whereas blue boxes represent downregula-
+tion/suppression.
+It has been suggested that GTE regulates β-oxidation enzymes, which are one of the
+indices for FA burning promotion and are activated by PPARα signaling [40,41]. Sae-Tan
+et al. [42] demonstrated that 0.32% dietary EGCG can reduce the body weight of HFD-
+induced mice, causing a 1.4–1.9-fold increase in PPARα mRNA levels when compared to
+HFD controls.
+In mice fed with diets containing either low fat (5% TG), high fat (30% TG), or high
+fat supplemented with 0.1%–0.5% (w/w) GTC for 11 months, Murase et al. [43] observed
+that GTC signiﬁcantly reduced HFD-induced body weight gains and visceral and liver fat
+accumulation and prompted the development of hyperinsulinemia and hyperleptinemia.
+GTC supplementation for 1 month increased hepatic mRNA expression levels of acyl-CoA
+oxidase and medium chain acyl-CoA dehydrogenase, as well as β-oxidation activity.
+It is also possible that EGCG may have exerted its anti-obesity effects by reducing
+lipid uptake and transport. The multi-ligand receptor, cluster of differentiation 36 (CD36),
+has been determined as a key transmembrane protein implicated in lipid uptake and trans-
+port [44]. EGCG decreased TCs and TGs in mice given 1,3-dichloro-2-propanol (1 mg/kg
+body weight/day), which is an inducer of oxidative stress. EGCG dramatically increased
+the expression of phosphorylated AMPK at Thr172 and lowered CD36 expression [45].
+CD36 has also been deemed essential for lipoprotein binding at the liver [46]. Therefore,
+decreased CD36 expression induced by EGCG may be related to changes in blood lipid
+proﬁles [45]. Thus, EGCG inhibition of CD36 via AMPK activation may contribute to its
+anti-obesity effects [47].
+
+Molecules 2021, 26, 453
+6 of 22
+3. The Effects of Coffee/CGA on Obesity
+Coffee and CGA have been determined to exert anti-obesity effects in humans [48],
+with several observational and experimental epidemiological studies supporting this
+hypothesis.
+3.1. Epidemiological Studies on Coffee/CGA
+A cross-sectional study in 137 patients with non-alcoholic fatty liver disease (NAFLD)
+and 108 controls showed that coffee consumption was inversely associated with obesity
+and insulin resistance [1,49]. The results of a Mendelian randomization study in 93,179 indi-
+viduals demonstrated that coffee intake of up to four cups/day was associated with a lower
+risk of obesity with an odds ratios (ORs) of 0.82–0.86, when compared with non-coffee
+drinkers [50].
+Yonekura et al. [51] conducted a cross-sectional study in 232 Japanese women aged
+40–65 years and found that daily coffee consumption was inversely associated with high BMI
+(adjusted OR: 0.14, CI: 0.14, 0.96) and body fat percentage (adjusted OR: 0.33, CI: 0.14, 0.82).
+Recently, Koyama et al. [9] reported that coffee consumption is associated with signif-
+icantly lower levels of visceral obesity (OR: 0.746, CI: 0.588, 0.947) and MetS (OR: 0.706,
+CI: 0.565, 0.882). These ﬁndings indicate the beneﬁcial effects of coffee consumption
+toward obesity.
+However, several studies failed to show such favorable effects. For example, an epi-
+demiological study in 17,953 Korean adults aged 19–65 years failed to show that coffee con-
+sumption has health beneﬁts; the OR for obesity of those who drank coffee ≥3 times/day
+was 1.37 (CI: 1.15, 1.63) when compared with those who had coffee <1 time/week [52].
+Similarly, an epidemiological study in 5995 women indicated that the ORs of high coffee
+consumption (≥3 cups) were positively associated with obesity as measured by BMI (OR:
+2.52, CI: 1.91, 3.34) and abdominal obesity as measured by WC (OR: 2.11, CI: 1.59, 2.79)
+when compared with non-coffee drinkers [53]. Coffee with additives such as sugar was
+positively correlated with the prevalence of obesity.
+3.2. Clinical Studies on Coffee/CGA
+A systemic review of three RCTs, including 142 participants, observed a signiﬁcant
+difference in body weight in a green coffee extract (GCE)-consuming group when compared
+with placebo (mean difference: −2.47 kg, CI: −4.23, −0.72) [54].
+A 12-week RCT in 30 overweight individuals reported that the average body weight
+loss in subjects who consumed CGA-enriched coffee was 5.4 kg, while in the instant
+coffee groups, this was 1.7 kg, suggesting a beneﬁcial effect of CGA on body weight
+management [55].
+Haidari et al. [56] conducted an 8-week RCT where 64 obese women were divided
+into the intervention group (receiving 400 mg GCE, equivalent to 180 mg CGA, n = 30) or
+the control placebo group (receiving 400 mg starch, n = 34). As per the study results, signif-
+icant reductions were noted in body weight, BMI, and fat mass indices, and waist-to-hip
+circumference ratios in both groups; however, the decrease was higher in the intervention
+group. In addition, serum TC, LDL, leptin, and plasma free FA levels were signiﬁcantly
+decreased in the intervention group, after adjusting for energy and ﬁber intake.
+In another RCT, 142 healthy overweight men and women were divided into two
+groups: the high CGA group (369 mg CGA/serving) and the control coffee group (35 mg
+CGA/serving). Coffee was consumed once daily for 12 weeks, with 4-week pre- and
+post-observation periods. Body weight, BMI, VFA, total abdominal fat area (TFA), and WC
+were all signiﬁcantly decreased in the high CGA group when compared with the control
+group. Changes in VFA (−9.0 ± 13.9 cm2 in the CGA group vs. −1.0 ± 14.3 cm2 in the
+control) and TFA (−13.8 ± 22.9 cm2 in the CGA group vs. −2.0 ± 16.2 cm2 in the control)
+from baseline to 12 weeks were found to be signiﬁcantly higher in the high CGA group
+than in the control group [57].
+
+Molecules 2021, 26, 453
+7 of 22
+An 8-week RCT was conducted in patients with NAFLD; patients were divided into
+an intervention group (400 mg green GCE containing 100 mg CGA, n = 24) or a placebo
+group (n = 24). The authors observed that GCE supplementation signiﬁcantly reduced
+BMI (mean difference (MD): −0.57, CI: −0.84, −0.29) and increased serum high-density
+lipoprotein cholesterol (HDL-C) levels (MD: 7.06, CI: 0.25, 13.87) when compared with
+the placebo group. Serum TC decreased signiﬁcantly in the GCE group (MD: −13.33, CI:
+−26.04, −0.61) [58].
+However, an RCT in 18 healthy male subjects who consumed 185 mL of a test beverage
+with or without CGAs (329 mg) per day for 4 weeks showed no effects on body weight,
+BMI, or body fat, although a signiﬁcantly higher postprandial energy expenditure was
+observed in the CGA group when compared with the controls [59]. Thus, further studies
+are warranted to determine the effects of coffee and CGAs on obesity.
+3.3. Laboratory Studies and Mechanisms of CGA Action
+Several basic studies have generated evidence to support the beneﬁcial effects of CGA
+on obesity. Cho et al. demonstrated that 0.02% (w/w) CGA supplementation can lower
+body weight and TG levels in plasma, liver, and heart in a HFD-induced mouse obesity
+model [60]. These authors also showed that CGA signiﬁcantly inhibited liver-based FASN
+when compared with the high-fat group. In accordance with these ﬁndings, Huang et al.
+observed that 90 mg/kg CGA consumption suppressed HFD-induced increases in body
+weight, and downregulated FASN and ACC mRNA expression in rats [61].
+In a rat study, CGA supplementation (~100 mg/kg/day) reduced inﬂammation and fat
+deposition in the liver, along with reduced plasma liver enzyme activities in diet-induced
+obese rats [62]. The inhibitory effects of fat-forming enzymes by CGA may be in part due
+to the regulation of upstream lipogenesis transcription factors. Wang et al. demonstrated
+that mice fed a HFD with CGA (150 mg/kg) had signiﬁcantly lowered body weight in
+comparison to HFD-fed control mice. In epididymal adipose tissue, CGA signiﬁcantly
+decreased FASN expression and expression of the upstream transcription factors, C/EBP,
+PPARγ, and SREBP, but it increased PPARα expression [63]. These ﬁndings agreed with
+the previous HFD-induced obesity studies in murine models [61,64], suggesting CGA
+improved metabolic homeostasis.
+Additionally, CGA may reduce lipogenesis via AMPK activation, thereby inhibiting
+fat-forming enzymes [65]. In HepG2 cells, CGA (0.5–10 mM) induced AMPK activation
+in a dose- and time-dependent manner (0.5–24 h). Activated AMPK then inhibited fat
+synthesis by inhibiting fat-forming enzymes and lipogenesis transcription factors [33].
+Hou et al. also demonstrated that CGA-treatment (250 µM and 1000 µM) for 24 h can
+induce ROS production in human colon cancer cells (HCT116 and HT26) [66]. Since AMPK
+was activated by ROS [67], CGA could regulate lipid metabolism via AMPK activation
+through ROS generation. Figure 2 outlines several CGA actions.
+The ability of CGA to increase lipolysis may be associated with its anti-obesity effects.
+Flanagan et al. examined the long-term health beneﬁts of CGA. They observed that CGA
+consumption for 192 h increased lipolysis, as measured by free FAs and glycerol [68]. In
+3T3-L1 cells, 20 µM CGA increased lipolysis by upregulating HSL expression [69,70]. These
+results suggested that CGA promoted lipid digestion by upregulating lipase expression.
+Xu et al. [71] reported that mice fed a HFD supplemented with CGA and caffeine had
+signiﬁcantly increased HSL and AMPK mRNA expression in the liver, when compared
+with the HFD group. CGA may also upregulate enzymes involved in FA β-oxidation,
+which in turn facilitates hepatic lipid degradation by activating PPARα in the liver and
+adipose tissue [72]. These results indicated that CGA decreased obesity by enhancing
+lipolysis via AMPK activation [71] (Figure 2).
+Ma et al. [64] reported that mice fed a HFD supplemented with CGA (100 mg/kg,
+twice a week) signiﬁcantly suppressed the hepatic expression of CD36 when compared
+to the HFD group. Given that AMPK signaling plays a key role in CD36-induced lipid
+absorption [47], CGA may inhibit CD36 via AMPK activation, leading to reduced lipid
+
+Molecules 2021, 26, 453
+8 of 22
+uptake and transport. CGA may also affect lipid digestion by suppressing bile acid function,
+which is deemed critical for the digestion and absorption of lipids at the small intestine.
+The microRNA-122 (miR-122) is liver speciﬁc and plays a critical role in liver home-
+ostasis [73]; its inhibition is associated with the gene suppression of key roles in liver lipid
+metabolism, such as FASN [74]. Murase et al. demonstrated that CGA increased miR-122
+levels in Hepa1–6 cells [75]. These results suggested that CGA may inhibit lipogenesis
+through post-transcriptional mechanisms.
+4. The Effects of Wine/RSV on Obesity
+4.1. Observational Epidemiological Studies on the Anti-Obesity Effects of Wine/RSV
+Epidemiological studies have suggested that light to moderate consumption of alcohol
+may have protective effects against obesity [1]. A prospective cohort study which enrolled
+15,920 normal-weight (BMI: 18.5 kg/m2 to <25 kg/m2) postmenopausal women observed
+that the risk of becoming overweight and obese over a 7-year follow-up period was 35%
+and 88% lower, respectively, for women in the upper quintile of alcohol intake, relative
+to non-drinkers [76]. Of the alcoholic drinks, wine consumption showed the greatest
+inverse association for the risk of being overweight (hazard ratio (HR): 0.75, CI, 0.68, 0.84),
+followed by liquor (HR: 0.85, CI: 0.78, 0.93) and beer (HR: 0.90, CI: 0.82, 1.00). Vidot
+et al. [77] reported that among wine drinkers, low and moderate drinkers had a lower OR
+for MetS when compared with non-drinkers (OR: 0.72, CI: 0.55, 0.96 and OR: 0.43, CI: 0.21,
+0.87, respectively). However, no signiﬁcant associations were found for heavy wine (OR:
+1.16, CI: 0.43, 3.16) and liquor drinkers.
+Inan-Eroglu et al. [78] examined the associations between types of alcoholic drinks
+and adiposity in a large United Kingdom cohort (n = 280,183, 48.3% female). Study data
+indicated that when compared to non-wine drinkers, red wine, champagne, and fortiﬁed
+wine drinkers had lower BMIs (differences were as follows: −0.75 kg/m2, CI: −0.78,
+−0.72 kg/m2; −0.48 kg/m2, CI: −0.52, −0.45 kg/m2; and −0.24 kg/m2, CI: −0.29, −0.18
+kg/m2, respectively). Beer and spirits drinkers were determined to have higher BMIs when
+compared with non-beer and spirit drinkers (difference: 0.18 kg/m2, CI: 0.14, 0.22 kg/m2,
+and difference: 0.64 kg/m2, CI: 0.61, 0.68 kg/m2, respectively). A population-based study
+by Osella et al. showed that >10 g/day of wine consumption was associated with being
+overweight [79].
+A cross-sectional study in healthy volunteers (1481 women aged 35–60 years and 1210
+men aged 45–60 years) showed a J-shaped relationship of waist-to-hip ratios and BMIs,
+in terms of wine consumption [80]. When compared with non-drinkers, men consuming
+<100 g/day wine had a lower BMI, and lower waist-to-hip ratio was found in both men
+and women.
+These ﬁndings suggest that low and moderate wine consumption may exert beneﬁcial
+effects on obesity. However, a follow-up survey of 8103 subjects with a mean age of
+35.4 years during ≥6 years failed to show such beneﬁcial effects; instead, results showed a
+non-signiﬁcant association between wine consumption and MetS [81].
+4.2. Human Intervention Studies Investigating the Effects of Wine/RSV on Obesity
+Intervention studies have reported on the obesity-related effects of wine consumption.
+In an RCT in obese subjects who habitually consumed moderate alcohol levels, 40 of
+49 eligible participants (BMI, 34.2 ± 6.4 kg/m2) completed the 3-month intervention study
+on a 1500 kcal dietary regimen, one with 10% of energy from white wine and one with 10%
+of energy from grape juice [82]. These results showed that all subjects achieved signiﬁcant
+body weight reduction; percent body fat, WC, blood pressure, blood glucose, insulin, TGs,
+and cholesterol were also reduced. In contrast, another RCT revealed that moderate wine
+consumption in overweight women did not improve insulin sensitivity and any other
+correlates of insulin sensitivity, i.e., body weight, blood lipids, and blood pressure [83].
+In contrast to the studies focusing on wine consumption, the potential health bene-
+ﬁts of RSV consumption have also been examined. Following a literature search, Wang
+
+Molecules 2021, 26, 453
+9 of 22
+et al. [4] summarized ﬁve RCTs published between 2009 and 2013, of which four reported
+favorable RSV effects. These included the downregulation of inﬂammatory markers, such
+as TNF-α and plasminogen activator inhibitor-1 (three studies), TGs (one study), LDL-C
+(one study), and nuclear factor-κB (NF-κB, one study), and the upregulation of adiponectin
+(two studies), AMPK (one study), and SIRT1 (one study) [4].
+In a comprehensive clinical study review, Wahab et al. [84] discussed the effects of RSV,
+and included 17 studies in patients with chronic diseases and 21 studies in healthy subjects.
+These authors reported the beneﬁcial effects of RSV, including reduced body weight,
+BMI, fat weight, LDL-C levels, and adipocyte size, in addition to the downregulation of
+inﬂammatory cytokines such as TNF-α. The authors also recorded elevated adiponectin
+levels and adipose tissue lipolysis.
+In a recent review, Singh et al. [85] summarized a number of RSV clinical trials in
+patients with obesity, diabetes, cancers, MetS, Alzheimer’s disease, cardiovascular disease,
+and inﬂammatory disease. These authors observed that RSVs exerted favorable effects in
+13 of the 15 studies in patients with obesity, being overweight, and MetS.
+In contrast, several studies published conﬂicting results in this area. For example,
+a study by Poulsen et al. [86] showed that the consumption of RSV (500 mg for 28 days)
+by 24 obese, but otherwise healthy males, resulted in non-signiﬁcant changes in terms
+of obesity markers, total body mass, total body fat mass, and visceral and abdominal
+subcutaneous fat volumes. Meanwhile, Gualdoni et al. [87] reported that 10 healthy
+volunteers who consumed 5 g RSV showed a signiﬁcant increase in TNF-α levels at
+24 h after treatment when compared at baseline. Peripheral blood mononuclear cells or
+isolated monocytes showed that RSV potentiated TNF-α production stimulated by different
+Toll-like receptor agonists. Moreover, signiﬁcant increases in NF-κB activities and p105
+phosphorylation were indicative of alternative NF-κB pathway activation.
+4.3. Laboratory Studies and RSV Mechanisms
+Most cell-based and animal studies have described favorable effects for RSV, thereby
+supporting ﬁndings from epidemiological cohort and intervention studies. Baur et al. [88]
+demonstrated that RSV alleviated the negative impact of a high-calorie diet on overall
+health and lifespan in middle-aged mice. RSV increased insulin sensitivity, AMPK, and
+peroxisome proliferator-activated receptor-γ coactivator-1α (PGC-1α) activity and reduced
+insulin-like growth factor-1 levels. Parametric analyses revealed that RSV gave the signiﬁ-
+cant opposed effects of the high-calorie diet in 144 out of 153 altered pathways. Although
+this study showed that increased SIRT1 enzymatic activity by RSV without altering its gene
+expression, a different study showed that RSV restored its decreased mRNA levels induced
+by hemorrhagic shock in the rat kidney to the control levels [89].
+Price et al. [90] reported different RSV dose-dependent activities toward AMPK and
+SIRT1 expression. Mice treated with a moderate RSV dose were able to activate AMPK,
+increasing mitochondrial biogenesis and function in skeletal muscle, whereas SIRT1 knock-
+out mice displayed none of these effects. A mouse model over-expressing SIRT1 mimicked
+these effects, demonstrating SIRT1 was required for AMPK activation. In contrast, a high
+RSV dose activated AMPK in a SIRT1-independent manner, demonstrating RSV dosage
+was a critical factor [90]. These ﬁndings indicated that RSV exerted dose-dependent effects
+on AMPK and SIRT1 signaling pathways.
+Wang et al. [4] reviewed 14 cell and 12 animal studies investigating the anti-obesity
+effects of RSV. Their data indicated: RSV increased adiponectin levels; reduced TG levels
+and lipid accumulation; upregulated AMPK, SIRT1, and SIRT3; downregulated FASN and
+PPARγ; ameliorated drug-induced increases in TNF-α production; and activated NF-κB.
+Animal study data indicated that the anti-obesity effects of RSV in animals were poten-
+tially mediated through stimulation of fat oxidation and metabolism, together with the
+suppression of adipogenic gene expression, such as PPAR, C/EBPα, SREBP-1c, FASN,
+lipopolysaccharide (LPS), FA-binding protein (adipocyte Protein 2 (aP2)), and leptin. They
+also indicated that RSV not only downregulated obesity-induced chronic inﬂammation
+
+Molecules 2021, 26, 453
+10 of 22
+expression of TNF-α, interferon (IFN)-γ, IFN-β, and IL-6, downstream signaling molecules,
+and oxidative stress, but it also upregulated anti-oxidant defense capacities, such as in-
+creased liver SOD, glutathione peroxidase, and catalase.
+Based on clinical and preclinical data, Singh et al. [85] proposed the following RSV
+molecular targets: AMPK, GST, IL-1β, matrix metalloproteinase (MMP), NF-κB, nuclear
+factor erythroid like 2 (Nrf2), PGC-1α, SIRT1, and TNF-α. Possible mechanisms, involving
+these targets, whereby RSV exerts anti-obesity effects are shown in Figure 2.
+5. The Effects of Curry/CRC on Obesity
+5.1. Human Studies on Curry/CRC
+No comprehensive epidemiological studies have yet reported the effects of CRC on
+obesity. Future observational human studies may reveal its beneﬁcial effects on obesity and
+other diseases, particularly in Asian populations which have high CRC consumption levels.
+However, multiple clinical studies have reported on the health beneﬁts of CRC con-
+sumption. In an RCT in MetS patients with BMIs between 25.0 and 29.9, 44 participants
+showed a <2% weight loss after 30 days of diet, 22 patients were treated for a further
+30 days with a CRC mixture (800 mg/dose/day of Curcuma longa extract containing 95%
+CRC), while the remaining 22 patients received vehicle (400 mg/dose/day of pure phos-
+phatidylserine) [91]. These results indicated that CRC treatment increased weight loss
+from 1.88% to 4.91%, enhanced the percentage reduction of body fat (0.70% to 8.43%),
+waistline reduction (2.36% to 4.14%), hip circumference reduction (0.74% to 2.51%), and
+BMI reduction (2.10% to 6.43%) [91].
+Data from four clinical studies led Kunnumakkara et al. [92] to conclude that CRC
+was effective in reducing anxiety and depression symptoms associated with obesity. CRC
+modulated circulating IL-1β, IL-4, and vascular endothelial growth factor (VEGF) levels to
+generate immunosuppressive effects and reduce oxidative stress in obese patients.
+A systematic review of seven RCTs examining turmeric and CRC in patients at risk
+of cardiovascular disease suggested they had beneﬁcial effects on serum TG and LDL-C
+levels, although no signiﬁcant differences were found for serum HDL-C levels. When the
+analysis was restricted to more homogenous studies based on underlying different disease
+categories, a beneﬁcial effect of turmeric and CRC on serum TC levels was noted in patients
+with MetS [93].
+A meta-analysis of eight RCT reported a signiﬁcant reduction (WMD: −4.69 pg/mL,
+CI: −7.10, −2.28) in circulating TNF-α levels upon CRC supplementation, suggesting a
+beneﬁcial effect of CRC on inﬂammation [94].
+A meta-analysis of 11 studies involving 876 subjects (53% women) found a signiﬁ-
+cant effect of CRC on body weight (WMD: −1.14 kg, CI: −2.16, −0.12) and BMI (WMD:
+−0.48 kg/m2, CI: −0.78, −0.17), respectively [95].
+In an RCT by Saraf-Bank et al. [96], 60 overweight and obese adolescent girls were
+randomly assigned to either a placebo or CRC intervention group. Supplementation with
+500 mg/day CRC for 10 weeks was found to signiﬁcantly lower IL-6 levels and oxidative
+stress markers, suggesting beneﬁcial effects on inﬂammation and oxidative stress.
+However, data from a 6-month RCT in elderly subjects who consumed CRC or placebo
+showed that CRC consumption (doses of either 1 g or 4 g/day) did not signiﬁcantly affect
+TG, TC, LDL-C, or HDL-C levels over 1 or 6 months [97]. Data from another RCT, where
+30 obese individuals were randomized to receive 1 g/day CRC or placebo, showed that CRC
+signiﬁcantly reduced IL-1β, IL-4, and VEGF serum levels, but no signiﬁcant differences
+were observed for IL-2, IL-6, IL-8, IL-10, IFN-γ, epidermal growth factor, and monocyte
+chemoattractant protein-1 levels [98]. Thus, different studies show that the CRC effects on
+some biomarkers are variable.
+5.2. Laboratory Studies and CRC Mechanisms
+Several cell and animal studies have demonstrated the beneﬁcial effects of CRC
+on obesity [4]. In a mouse model study, CRC administration for 28 weeks signiﬁcantly
+
+Molecules 2021, 26, 453
+11 of 22
+attenuated the effects of HFD on body weight gain, glucose disposal, and insulin resistance.
+CRC also inhibited the expression of lipogenic genes, including NF-κB, SREBP-1c, and
+carbohydrate-responsive element-binding protein in the liver, and blocked the effects of
+HFD on inﬂammatory pathways in adipose tissue [99]. Similarly, dietary CRC ameliorated
+diabetes in HFD-induced obese and ob/ob male C57BL/6J mice and further reduced body
+weight gain. CRC also decreased macrophage inﬁltration in white adipose tissue, adipose
+tissue adiponectin production, hepatic NF-κB activity, and hepatic inﬂammation [100].
+In 3T3-L1 cells, Ahn et al. [101] showed that CRC decreased aP2 (a mature adipocyte
+marker) mRNA expression, increased c-Myc and cyclin D1 expression (well-known Wnt
+targets), and inhibited mitogen-activated protein kinase (MAPK) phosphorylation, which
+has been associated with 3T3-L1 differentiation into adipocytes. These ﬁndings suggest
+that the Wnt signaling pathway participated in CRC-induced suppression of adipogenesis
+in 3T3-L1 cells.
+Wnt signaling activation represses adipogenic differentiation. The transcription factor
+7-like 2 (Tcf7l2) gene encodes a key Wnt signaling pathway effector, and its human homo-
+logue, TCF7L2, may be a high-risk gene for diabetes. Tian et al. [102] showed that CRC
+attenuated miR-17-5p expression and stimulated Tcf7l2 expression in 3T3-L1 cells. Since
+miR-17-5p expression in mouse epididymal fat tissues increased in response to HFD, these
+ﬁnding suggested that miR-17-5p could be a central switch in adipogenic differentiation.
+Ejaz et al. [103] demonstrated that in mice fed HFD, CRC reduced body weight gain,
+adiposity, and micro-vessel density in adipose tissue, which coincided with the reduced
+expression of VEGF and its receptor, VEGFR-2. CRC has also been noted to activate AMPK,
+reduce glycerol-3-phosphate acyl transferase-1, and increase carnitine palmitoyltransferase-
+1 expression, leading to increased lipid oxidation and decreased fatty acid esteriﬁcation.
+Kunnumakkara et al. [92] characterized CRC molecular targets, including transcription
+factors, protein kinases, inﬂammatory mediators, apoptotic regulators, protein reductases
+and histone acetyl transferase, growth factors, receptors, and adhesion molecules. CRC
+may exert its multiple effects via epigenetic regulation, of which the major targets include
+Nrf2, β-catenin, NF-κB, p38 MAPK, cyclooxygenase-2, forkhead box O3, inducible nitric
+oxide synthase, ROS, cyclin D1, VEGF, glutathione, TNF-α, and extracellular-regulated
+protein kinase.
+Wang et al. [4] reviewed 11 cell-based, 16 animal, and 3 human studies investigating
+the anti-obesity effects induced by CRC and concluded CRC could down- or upregulate
+various transcription factors, enzymes, cytokines, and other signaling pathway components.
+More speciﬁcally, downregulated or inactivated molecules included C/EBP-α, PPARγ,
+SREBP-1c, FASN, ACC, HSL, SREBP-1c, NF-κB, IL-6, and TNF-α. Those upregulated or
+activated included AMPK, Nrf2, and SIRT1. How these molecules are involved in CRC
+anti-obesity effects is highlighted in Figure 2.
+6. Discussion
+This review summarized the favorable anti-obesity effects of consuming green tea,
+coffee, wine, and curry and their principal associated polyphenols. While considerable
+human observational and intervention studies have expounded this hypothesis, several
+studies have failed to show any beneﬁcial effects. Such differences may have been due to
+confounding factors, e.g., differences in study design, quantifying consumption methods,
+beverage temperatures, cigarette smoking, alcohol consumption, and differences in genetic
+and environmental factors, such as race, sex, age, lifestyle, intestinal microbiota, and
+genetic polymorphisms [2,104,105]. Further complicating these issues is the fact that
+polyphenols have limited bioavailability as their absorption from the human digestive
+system is restricted; thus, they are predominantly metabolized in the gut and liver [106].
+In the future, more comprehensive and deﬁnitive human studies should be performed to
+assess the bioavailability of polyphenols and prove the anti-obesity effects of consuming
+these foods.
+
+Molecules 2021, 26, 453
+12 of 22
+Most animal and cell-based studies supported the beneficial findings of human studies.
+These studies also proposed possible mechanisms underlying the anti-obesity actions of these
+polyphenols. Figure 2, which has been generated from previous data [1,3,6,33,85,105,107–109]
+illustrates putative mechanism showing how EGCG, CGA, RSV, and CRC may exert their
+anti-obesity effects. These mechanisms are underpinned by the downregulation/inhibition
+of adipogenesis, lipogenesis, oxidative stress, and inﬂammation and the upregulation/stim-
+ulation of lipolysis and mitochondrial biogenesis.
+Polyphenols are frequently documented with dual pro- and anti-oxidant roles (Table 1).
+This table shows that EGCG, CGA, RSV, and CRC upregulate AMPK by stimulating ROS
+generation, but downregulates NF-κB by scavenging ROS. A caveat to this table is that not
+all studies are necessarily related to obesity. Currently, it remains unclear what factor(s)
+direct these polyphenols to act as pro- or antioxidants; however, differences in cellular
+polyphenol and metal ion concentrations, cell types, and the co-existence of other anti-
+oxidants may be important factors. Thus, further studies will be required to clarify these
+issues. It should be noted that AMPK activation via TNF-α downregulation (Figure 2) is
+based on Steinberg et al. [107]; however, more evidence is required for this observation.
+Epigenetic modiﬁcations, including post-translational changes caused by miRNA dys-
+regulation (miRNAs are small single-stranded molecules comprising 20 to 25 nucleotides),
+are implicated in various cellular processes via gene expression regulation [110,111]. Sev-
+eral miRNAs are associated with obesity [112], e.g., miR-17-5p, miR-122, and miR-221.
+Table 1. Studies showing EGCG, CGA, RSV, and CRC modulatory effects on ROS, AMPK, and NF-κB. Studies showing
+ROS and AMPK stimulation or upregulation are in red boxes, whereas studies showing ROS and NF-κB suppression or
+downregulation are in blue boxes.
+Polyphenols
+ROS
+AMPK
+ROS
+NF-κB
+Stimulation/
+Upregulation
+Stimulation/
+Upregulation
+Suppression/
+Downregulation
+Suppression/
+Downregulation
+EGCG
+Tsai et al. [113]
+Hsieh et al. [114]
+Liu et al. [115]
+Tan et al. [116]
+Bae et al. [117]
+Ueda et al. [118]
+Wada et al. [119]
+Qin et al. [120]
+Yi et al. [121]
+Zhong et al. [122]
+Wang et al. [123]
+Reddy et al. [124]
+CGA
+Rakshit et al. [125]
+Yang et al. [126]
+Hou et al. [66]
+Zhou et al. [127]
+Jang et al. [128]
+Tsai et al. [129]
+Han et al. [130]
+Gong et al. [131]
+Kong et al. [132]
+Bao et al. [133]
+Tian et al. [134]
+Fu et al. [135]
+RSV
+Posadino et al. [136]
+Chen et al. [137]
+Li et al. [138]
+Vlavcheski et al. [139]
+Guo et al. [140]
+Wang et al. [141]
+Giordo et al. [142]
+Ramdani et al. [143]
+Zhang et al. [144]
+André et al. [145]
+Subedi et al. [146]
+Xian et al. [147]
+CRC
+Liang et al. [148]
+Yu et al. [149]
+Nakamae et al. [150]
+Soltani et al. [151]
+Lu et al. [152]
+Yu et al. [153]
+Sadeghi et al. [154]
+Ran et al. [155]
+Lin et al. [156]
+Li et al. [157]
+Khan et al. [158]
+Zhou et al. [159]
+As described earlier, miR-122 and miR-17-5p were implicated as CRC and CGA targets,
+respectively [75,102]. The effects of EGCG, CGA, RSV, and CRC on miRNAs were then
+compared (Table 2), although it remains unclear how these miRNAs, other than miR-122
+and miR-17-5p, are associated with anti-obesity effects mediated by these polyphenols.
+Table 2 indicates the polyphenols reviewed here downregulated miR-17 and miR-21, but
+differences exist among them in modulation of miR-33, miR-122, miR-155, and miR-221,
+suggesting different mechanisms may function in their anti-obesity effects.
+Future studies will clarify whether these polyphenols have similar or different modu-
+latory effects on these miRNAs.
+
+Molecules 2021, 26, 453
+13 of 22
+Table 2. MiRNA modulation by EGCG, CGA, RSV, and CRC polyphenols. Arrows in red boxes (↑) and blue boxes (↓) represent upregulation and downregulation, respectively.
+miRNA
+Polyphenols
+Modulation
+Cell/Animal Model
+Dose
+References
+miR-17
+EGCG
+↓
+Human umbilical vein endothelial cells
+50 mg/mL
+[160]
+CGA
+↓
+Human hepatocellular carcinoma Huh7 cells and human
+small cell lung cancer NCI-H446 cells
+25, 50 mM
+[161]
+RSV
+↓
+Human breast cancer cell lines (Bcap37, MDA-MB-231)
+6.25, 25 mM
+[162]
+CRC
+↓
+Mouse embryonic ﬁbroblast 3T3-L1 cells
+2, 10 mM
+[102]
+miR-21
+EGCG
+↓
+Rat model of chronic renal injury
+200 mg/kg
+[163]
+CGA
+↓
+CCl4-induced liver ﬁbrosis rat model
+15, 30, 60 mg/kg
+[164]
+RSV
+↓
+Human pancreatic stellate cells
+50 µM
+[165]
+CRC
+↓
+Rat model of liver ﬁbrosis
+100 mg/kg
+[166]
+miR-33
+EGCG
+↓
+Human hepatoma HepG2 cells
+50 mM
+[74]
+CGA
+↓
+Hypercholesterolemic rats model
+75, 150, 300 mg/kg of Lonicera caeruleaberry
+extract containing CGA
+[167]
+RSV
+↑
+Human hepatoma HepG2 cells
+50 mM
+[74]
+CRC
+↓
+Human THP-1 macrophages
+40 mM
+[168]
+miR-122
+EGCG
+↓
+Human hepatoma HepG2 cells
+50 mM
+[74]
+CGA
+↓
+Hypercholesterolemic rats model
+75, 150, 300 mg/kg ofL. caerulea berry
+extract containing CGA
+[167]
+RSV
+↑
+Human hepatoma HepG2 cells
+50 mM
+[74]
+CRC
+↑
+Bile duct ligation-induced ﬁbrotic rats
+100 mg/kg
+[169]
+mir-155
+EGCG
+↑
+Human colon cancer cell lines (HCT-116, DLD-1)
+50 mM
+[170]
+CRC
+↓
+LPS-treated murine monocyte/macrophage RAW264.7 cells
+31.25, 62.5 mM
+[171]
+RSV
+↑
+Mouse embryonic ﬁbroblast 3T3-L1 cells
+25 mM
+[172]
+CRC
+↓
+LPS-induced mouse model of inﬂammation
+20 mg/kg
+[173]
+miR-221
+EGCG
+↑
+Rat pheochromocytoma PC12 cells
+50 mM
+[163]
+RSV
+↑
+Human umbilical vein endothelial cells
+50 mM
+[174]
+CRC
+↓
+Human hepatoma HepG2 cells xenograft mouse model
+100 mg/kg
+[169]
+
+Molecules 2021, 26, 453
+14 of 22
+Author Contributions: T.O.: corresponding author, literature search, text preparation of Section 1,
+drafting Figure 2, preparation of references. R.F.: literature search, text preparation of Section 4.
+Y.S.: literature search, text preparation of Section 2. S.G.: literature search, text preparation of
+Section 3, drawing Figure 1. M.I.: project design, outline of the manuscript, literature search, abstract
+preparation, introduction, and discussion. All authors have read and agreed to the published version
+of the manuscript.
+Funding: This research received no external funding.
+Institutional Review Board Statement: Not applicable.
+Informed Consent Statement: Not applicable.
+Data Availability Statement: Not applicable.
+Conﬂicts of Interest: The authors declare no conﬂict of interest.
+Sample Availability: Not applicable.
+Abbreviations
+ACC
+Acetyl-CoA carboxylase
+AMD
+Adjusted mean difference
+AMPK
+5′-AMP-activated protein kinase
+aP2
+Adipocyte Protein 2
+BMI
+Body mass index
+C/EBP
+CCAAT/enhancer-binding proteins
+CGA
+Chlorogenic acid
+CD36
+Cluster of differentiation 36
+CI
+Conﬁdence interval
+CRC
+Curcumin
+EGCG
+Epigallocatechin-3-O-gallate
+FAs
+Fatty acids
+FAS/FASN
+Fatty acid synthase
+GST
+Glutathione S-transferase
+GCE
+Green coffee extract
+GTE
+Green tea extract
+HR
+Hazard ratio
+HFD
+High-fat diet
+HSL
+Hormone-sensitive lipase
+IC50
+Half-maximal inhibitory concentration
+IFN
+Interferon
+IL
+Interleukin
+LPS
+Lipopolysaccharide
+LXR
+Liver X receptor
+LDL
+Low-density lipoprotein
+MMP
+Matrix metalloproteinase
+MD
+Mean difference
+MetS
+Metabolic syndrome
+MAPK
+Mitogen-activated protein kinase
+MS
+Multiple sclerosis
+NAFLD
+Non-alcoholic fatty liver disease
+Nrf2
+Nuclear factor erythroid 2-like 2
+NF-κB
+Nuclear factor-κB
+ORs
+Odds ratios
+PGC-1α
+Peroxisome proliferator-activated receptor-γ coactivator-1α
+PPAR
+Peroxisome proliferation-activated receptor
+RCT
+Randomized controlled trial
+ROS
+Reactive oxygen species
+RSV
+Resveratrol
+
+Molecules 2021, 26, 453
+15 of 22
+SIRT
+Sirtuin
+SCD
+Stearoyl-CoA desaturase
+SOD
+Superoxide dismutase
+SREBP
+Sterol regulatory element-binding proteins
+TFA
+Total abdominal fat area
+TC
+Total cholesterol
+Tcf7l2
+Transcription factor 7-like 2
+TGs
+Triglycerides
+TNF
+Tumor necrosis factor
+VEGF
+Vascular endothelial growth factor
+VFA
+Visceral fat area
+WC
+Waist circumference
+WMD
+Weighted mean difference
+References
+1.
+Tanabe, H.; Pervin, M.; Goto, S.; Isemura, M.; Nakamura, Y. Beneﬁcial Effects of Plant Polyphenols on Obesity. Obes. Control Ther.
+2017, 4, 1–16. [CrossRef]
+2.
+Hayakawa, S.; Oishi, Y.; Tanabe, H.; Isemura, M.; Suzuki, Y. Tea, Coffee and Health Beneﬁts. In Bioactive Molecules in Food; Mérillon,
+J.-M., Ramawat, K.G., Eds.; Springer International Publishing: Cham, Switzerland, 2018; pp. 1–58. ISBN 978-3-319-78029-0.
+3.
+Hayakawa, S.; Ohishi, T.; Miyoshi, N.; Oishi, Y.; Nakamura, Y.; Isemura, M. Anti-Cancer Effects of Green Tea Epigallocatchin-3-
+Gallate and Coffee Chlorogenic Acid. Molecules 2020, 25, 4553. [CrossRef] [PubMed]
+4.
+Wang, S.; Moustaid-Moussa, N.; Chen, L.; Mo, H.; Shastri, A.; Su, R.; Bapat, P.; Kwun, I.; Shen, C.L. Novel insights of dietary
+polyphenols and obesity. J. Nutr. Biochem. 2014, 25, 1–18. [CrossRef] [PubMed]
+5.
+Pastor, R.F.; Restani, P.; Di Lorenzo, C.; Orgiu, F.; Teissedre, P.L.; Stockley, C.; Ruf, J.C.; Quini, C.I.; Garcia Tejedor, N.; Gargantini,
+R.; et al. Resveratrol, human health and winemaking perspectives. Crit. Rev. Food Sci. Nutr. 2019, 59, 1237–1255. [CrossRef]
+[PubMed]
+6.
+Suzuki, T.; Pervin, M.; Goto, S.; Isemura, M.; Nakamura, Y. Beneﬁcial Effects of Tea and the Green Tea Catechin Epigallocatechin-
+3-gallate on Obesity. Molecules 2016, 21, 1305. [CrossRef] [PubMed]
+7.
+Saeki, K.; Hayakawa, S.; Nakano, S.; Ito, S.; Oishi, Y.; Suzuki, Y.; Isemura, M. In Vitro and In Silico Studies of the Molecular
+Interactions of Epigallocatechin-3-O-gallate (EGCG) with Proteins That Explain the Health Beneﬁts of Green Tea. Molecules 2018,
+23, 1295. [CrossRef] [PubMed]
+8.
+Wu, C.H.; Lu, F.H.; Chang, C.S.; Chang, T.C.; Wang, R.H.; Chang, C.J. Relationship among habitual tea consumption, percent
+body fat, and body fat distribution. Obes. Res. 2003, 11, 1088–1095. [CrossRef] [PubMed]
+9.
+Koyama, T.; Maekawa, M.; Ozaki, E.; Kuriyama, N.; Uehara, R. Daily Consumption of Coffee and Eating Bread at Breakfast Time
+Is Associated with Lower Visceral Adipose Tissue and with Lower Prevalence of Both Visceral Obesity and Metabolic Syndrome
+in Japanese Populations: A Cross-Sectional Study. Nutrients 2020, 12, 3090. [CrossRef]
+10.
+Kao, Y.H.; Chang, H.H.; Lee, M.J.; Chen, C.L. Tea, obesity, and diabetes. Mol. Nutr. Food Res. 2006, 50, 188–210. [CrossRef]
+11.
+Thielecke, F.; Boschmann, M. The potential role of green tea catechins in the prevention of the metabolic syndrome—a review.
+Phytochemistry 2009, 70, 11–24. [CrossRef]
+12.
+Basu, A.; Sanchez, K.; Leyva, M.J.; Wu, M.; Betts, N.M.; Aston, C.E.; Lyons, T.J. Green tea supplementation affects body weight,
+lipids, and lipid peroxidation in obese subjects with metabolic syndrome. J. Am. Coll. Nutr. 2010, 29, 31–40. [CrossRef] [PubMed]
+13.
+Nagao, T.; Hase, T.; Tokimitsu, I. A green tea extract high in catechins reduces body fat and cardiovascular risks in humans.
+Obesity 2007, 15, 1473–1483. [CrossRef] [PubMed]
+14.
+Huang, J.; Wang, Y.; Xie, Z.; Zhou, Y.; Zhang, Y.; Wan, X. The anti-obesity effects of green tea in human intervention and basic
+molecular studies. Eur. J. Clin. Nutr. 2014, 68, 1075–1087. [CrossRef] [PubMed]
+15.
+Chen, I.J.; Liu, C.Y.; Chiu, J.P.; Hsu, C.H. Therapeutic effect of high-dose green tea extract on weight reduction: A randomized,
+double-blind, placebo-controlled clinical trial. Clin. Nutr. 2016, 35, 592–599. [CrossRef] [PubMed]
+16.
+Huang, L.H.; Liu, C.Y.; Wang, L.Y.; Huang, C.J.; Hsu, C.H. Effects of green tea extract on overweight and obese women with high
+levels of low density-lipoprotein-cholesterol (LDL-C): A randomised, double-blind, and cross-over placebo-controlled clinical
+trial. BMC Complement. Altern. Med. 2018, 18, 294. [CrossRef] [PubMed]
+17.
+Basil, J.S.; Santoro, S.L.; Martin, L.J.; Healy, K.W.; Chini, B.A.; Saal, H.M. Retrospective Study of Obesity in Children with Down
+Syndrome. J. Pediatr. 2016, 173, 143–148. [CrossRef] [PubMed]
+18.
+Xicota, L.; Rodriguez, J.; Langohr, K.; Fito, M.; Dierssen, M.; de la Torre, R. Effect of epigallocatechin gallate on the body
+composition and lipid proﬁle of down syndrome individuals: Implications for clinical management. Clin. Nutr. 2020, 39,
+1292–1300. [CrossRef] [PubMed]
+19.
+Lin, Y.; Shi, D.; Su, B.; Wei, J.; Gaman, M.A.; Sedanur Macit, M.; Borges do Nascimento, I.J.; Guimaraes, N.S. The effect of green
+tea supplementation on obesity: A systematic review and dose-response meta-analysis of randomized controlled trials. Phytother.
+Res. 2020, 34, 2459–2470. [CrossRef]
+
+Molecules 2021, 26, 453
+16 of 22
+20.
+Igarashi, Y.; Obara, T.; Ishikuro, M.; Matsubara, H.; Shigihara, M.; Metoki, H.; Kikuya, M.; Sameshima, Y.; Tachibana, H.;
+Maeda-Yamamoto, M.; et al. Randomized controlled trial of the effects of consumption of Yabukita or Benifuuki encapsulated
+tea-powder on low-density lipoprotein cholesterol level and body weight. Food Nutr. Res. 2017, 61, 1334484. [CrossRef]
+21.
+Dostal, A.M.; Samavat, H.; Espejo, L.; Arikawa, A.Y.; Stendell-Hollis, N.R.; Kurzer, M.S. Green Tea Extract and Catechol-O-
+Methyltransferase Genotype Modify Fasting Serum Insulin and Plasma Adiponectin Concentrations in a Randomized Controlled
+Trial of Overweight and Obese Postmenopausal Women. J. Nutr. 2016, 146, 38–45. [CrossRef]
+22.
+Pemble, C.W.; Johnson, L.C.; Kridel, S.J.; Lowther, W.T. Crystal structure of the thioesterase domain of human fatty acid synthase
+inhibited by Orlistat. Nat. Struct. Mol. Biol. 2007, 14, 704–709. [CrossRef] [PubMed]
+23.
+Cioccoloni, G.; Aquino, A.; Notarnicola, M.; Caruso, M.G.; Bonmassar, E.; Zonfrillo, M.; Caporali, S.; Faraoni, I.; Villiva, C.;
+Fuggetta, M.P.; et al. Fatty acid synthase inhibitor orlistat impairs cell growth and down-regulates PD-L1 expression of a human
+T-cell leukemia line. J. Chemother. 2020, 32, 30–40. [CrossRef] [PubMed]
+24.
+Tian, W.X. Inhibition of fatty acid synthase by polyphenols. Curr. Med. Chem. 2006, 13, 967–977. [CrossRef] [PubMed]
+25.
+Zhang, R.; Xiao, W.; Wang, X.; Wu, X.; Tian, W. Novel inhibitors of fatty-acid synthase from green tea (Camellia sinensis Xihu
+Longjing) with high activity and a new reacting site. Biotechnol. Appl. Biochem. 2006, 43, 1–7. [PubMed]
+26.
+Wolfram, S.; Raederstorff, D.; Wang, Y.; Teixeira, S.R.; Elste, V.; Weber, P. TEAVIGO (epigallocatechin gallate) supplementation
+prevents obesity in rodents by reducing adipose tissue mass. Ann. Nutr. Metab. 2005, 49, 54–63. [CrossRef]
+27.
+Harada, N.; Oda, Z.; Hara, Y.; Fujinami, K.; Okawa, M.; Ohbuchi, K.; Yonemoto, M.; Ikeda, Y.; Ohwaki, K.; Aragane, K.; et al.
+Hepatic de novo lipogenesis is present in liver-speciﬁc ACC1-deﬁcient mice. Mol. Cell Biol. 2007, 27, 1881–1888. [CrossRef]
+28.
+Abdel-Magid, A.F. Treatment of Obesity and Related Disorders with Acetyl-CoA Carboxylase Inhibitors. ACS Med. Chem. Lett.
+2013, 4, 16–17. [CrossRef]
+29.
+Umek, R.M.; Friedman, A.D.; McKnight, S.L. CCAAT-enhancer binding protein: A component of a differentiation switch. Science
+1991, 251, 288–292. [CrossRef]
+30.
+Tontonoz, P.; Hu, E.; Spiegelman, B.M. Stimulation of adipogenesis in ﬁbroblasts by PPAR gamma 2, a lipid-activated transcription
+factor. Cell 1994, 79, 1147–1156. [CrossRef]
+31.
+Swinnen, J.V.; Ulrix, W.; Heyns, W.; Verhoeven, G. Coordinate regulation of lipogenic gene expression by androgens: Evidence for
+a cascade mechanism involving sterol regulatory element binding proteins. Proc. Natl. Acad. Sci. USA 1997, 94, 12975–12980.
+[CrossRef]
+32.
+Lee, M.S.; Kim, C.T.; Kim, Y. Green tea (-)-epigallocatechin-3-gallate reduces body weight with regulation of multiple genes
+expression in adipose tissue of diet-induced obese mice. Ann. Nutr. Metab. 2009, 54, 151–157. [CrossRef] [PubMed]
+33.
+Yang, C.S.; Zhang, J.; Zhang, L.; Huang, J.; Wang, Y. Mechanisms of body weight reduction and metabolic syndrome alleviation
+by tea. Mol. Nutr. Food Res. 2016, 60, 160–174. [CrossRef] [PubMed]
+34.
+Collins, Q.F.; Liu, H.Y.; Pi, J.; Liu, Z.; Quon, M.J.; Cao, W. Epigallocatechin-3-gallate (EGCG), a green tea polyphenol, suppresses
+hepatic gluconeogenesis through 5′-AMP-activated protein kinase. J. Biol. Chem. 2007, 282, 30143–30149. [CrossRef] [PubMed]
+35.
+Kim, H.S.; Quon, M.J.; Kim, J.A. New insights into the mechanisms of polyphenols beyond antioxidant properties; lessons from
+the green tea polyphenol, epigallocatechin 3-gallate. Redox Biol. 2014, 2, 187–195. [CrossRef] [PubMed]
+36.
+Lee, M.S.; Kim, C.T.; Kim, I.H.; Kim, Y. Inhibitory effects of green tea catechin on the lipid accumulation in 3T3-L1 adipocytes.
+Phytother. Res. 2009, 23, 1088–1091. [CrossRef]
+37.
+Rocha, A.; Bolin, A.P.; Cardoso, C.A.; Otton, R. Green tea extract activates AMPK and ameliorates white adipose tissue metabolic
+dysfunction induced by obesity. Eur. J. Nutr. 2016, 55, 2231–2244. [CrossRef]
+38.
+Li, F.; Gao, C.; Yan, P.; Zhang, M.; Wang, Y.; Hu, Y.; Wu, X.; Wang, X.; Sheng, J. EGCG Reduces Obesity and White Adipose Tissue
+Gain Partly Through AMPK Activation in Mice. Front. Pharm. 2018, 9, 1366. [CrossRef]
+39.
+Yuan, H.; Li, Y.; Ling, F.; Guan, Y.; Zhang, D.; Zhu, Q.; Liu, J.; Wu, Y.; Niu, Y. The phytochemical epigallocatechin gallate prolongs
+the lifespan by improving lipid metabolism, reducing inﬂammation and oxidative stress in high-fat diet-fed obese rats. Aging Cell
+2020, e13199. [CrossRef]
+40.
+Leone, T.C.; Weinheimer, C.J.; Kelly, D.P. A critical role for the peroxisome proliferator-activated receptor alpha (PPARalpha) in
+the cellular fasting response: The PPARalpha-null mouse as a model of fatty acid oxidation disorders. Proc. Natl. Acad. Sci. USA
+1999, 96, 7473–7478. [CrossRef]
+41.
+Cotter, D.G.; Ercal, B.; d’Avignon, D.A.; Dietzen, D.J.; Crawford, P.A. Impairments of hepatic gluconeogenesis and ketogenesis in
+PPARalpha-deﬁcient neonatal mice. Am. J. Physiol. Endocrinol. Metab. 2014, 307, E176–E185. [CrossRef]
+42.
+Sae-Tan, S.; Grove, K.A.; Kennett, M.J.; Lambert, J.D. (-)-Epigallocatechin-3-gallate increases the expression of genes related to fat
+oxidation in the skeletal muscle of high fat-fed mice. Food Funct. 2011, 2, 111–116. [CrossRef] [PubMed]
+43.
+Murase, T.; Nagasawa, A.; Suzuki, J.; Hase, T.; Tokimitsu, I. Beneﬁcial effects of tea catechins on diet-induced obesity: Stimulation
+of lipid catabolism in the liver. Int. J. Obes. Relat. Metab. Disord. 2002, 26, 1459–1464. [CrossRef] [PubMed]
+44.
+Marechal, L.; Laviolette, M.; Rodrigue-Way, A.; Sow, B.; Brochu, M.; Caron, V.; Tremblay, A. The CD36-PPARgamma Pathway in
+Metabolic Disorders. Int. J. Mol. Sci. 2018, 19, 1529. [CrossRef] [PubMed]
+45.
+Lu, J.; Fang, B.; Huang, Y.; Tao, S.; Sun, B.; Guan, S.; Jin, Y. Epigallocatechin-3-gallate protects against 1,3-dichloro-2-propanol-
+induced lipid accumulation in C57BL/6J mice. Life Sci. 2018, 209, 324–331. [CrossRef] [PubMed]
+46.
+Calvo, D.; Gomez-Coronado, D.; Suarez, Y.; Lasuncion, M.A.; Vega, M.A. Human CD36 is a high afﬁnity receptor for the native
+lipoproteins HDL, LDL, and VLDL. J. Lipid Res. 1998, 39, 777–788. [PubMed]
+
+Molecules 2021, 26, 453
+17 of 22
+47.
+Chabowski, A.; Coort, S.L.; Calles-Escandon, J.; Tandon, N.N.; Glatz, J.F.; Luiken, J.J.; Bonen, A. The subcellular compartmentation
+of fatty acid transporters is regulated differently by insulin and by AICAR. Febs. Lett. 2005, 579, 2428–2432. [CrossRef]
+48.
+Santos, R.M.; Lima, D.R. Coffee consumption, obesity and type 2 diabetes: A mini-review. Eur. J. Nutr. 2016, 55, 1345–1358.
+[CrossRef]
+49.
+Catalano, D.; Martines, G.F.; Tonzuso, A.; Pirri, C.; Trovato, F.M.; Trovato, G.M. Protective role of coffee in non-alcoholic fatty
+liver disease (NAFLD). Dig. Dis. Sci. 2010, 55, 3200–3206. [CrossRef]
+50.
+Nordestgaard, A.T.; Thomsen, M.; Nordestgaard, B.G. Coffee intake and risk of obesity, metabolic syndrome and type 2 diabetes:
+A Mendelian randomization study. Int. J. Epidemiol. 2015, 44, 551–565. [CrossRef]
+51.
+Yonekura, Y.; Terauchi, M.; Hirose, A.; Odai, T.; Kato, K.; Miyasaka, N. Daily Coffee and Green Tea Consumption Is Inversely
+Associated with Body Mass Index, Body Fat Percentage, and Cardio-Ankle Vascular Index in Middle-Aged Japanese Women: A
+Cross-Sectional Study. Nutrients 2020, 12, 1370. [CrossRef]
+52.
+Kim, H.J.; Cho, S.; Jacobs, D.R., Jr.; Park, K. Instant coffee consumption may be associated with higher risk of metabolic syndrome
+in Korean adults. Diabetes Res. Clin. Pract. 2014, 106, 145–153. [CrossRef] [PubMed]
+53.
+Lee, J.; Kim, H.Y.; Kim, J. Coffee Consumption and the Risk of Obesity in Korean Women. Nutrients 2017, 9, 1340. [CrossRef]
+[PubMed]
+54.
+Onakpoya, I.; Terry, R.; Ernst, E. The use of green coffee extract as a weight loss supplement: A systematic review and meta-
+analysis of randomised clinical trials. Gastroenterol. Res. Pract. 2011, 2011. [CrossRef] [PubMed]
+55.
+Thom, E. The effect of chlorogenic acid enriched coffee on glucose absorption in healthy volunteers and its effect on body mass
+when used long-term in overweight and obese people. J. Int. Med. Res. 2007, 35, 900–908. [CrossRef] [PubMed]
+56.
+Haidari, F.; Samadi, M.; Mohammadshahi, M.; Jalali, M.T.; Engali, K.A. Energy restriction combined with green coffee bean
+extract affects serum adipocytokines and the body composition in obese women. Asia Pac. J. Clin. Nutr. 2017, 26, 1048–1054.
+[PubMed]
+57.
+Watanabe, T.; Kobayashi, S.; Yamaguchi, T.; Hibi, M.; Fukuhara, I.; Osaki, N. Coffee Abundant in Chlorogenic Acids Reduces
+Abdominal Fat in Overweight Adults: A Randomized, Double-Blind, Controlled Trial. Nutrients 2019, 11, 1617. [CrossRef]
+[PubMed]
+58.
+Hosseinabadi, S.; Rafraf, M.; Asghari, S.; Asghari-Jafarabadi, M.; Vojouhi, S. Effect of green coffee extract supplementation on
+serum adiponectin concentration and lipid proﬁle in patients with non-alcoholic fatty liver disease: A randomized, controlled
+trial. Complementary Med. 2020, 49, 102290. [CrossRef]
+59.
+Soga, S.; Ota, N.; Shimotoyodome, A. Stimulation of postprandial fat utilization in healthy humans by daily consumption of
+chlorogenic acids. Biosci. Biotechnol. Biochem. 2013, 77, 1633–1636. [CrossRef]
+60.
+Cho, A.S.; Jeon, S.M.; Kim, M.J.; Yeo, J.; Seo, K.I.; Choi, M.S.; Lee, M.K. Chlorogenic acid exhibits anti-obesity property and
+improves lipid metabolism in high-fat diet-induced-obese mice. Food Chem. Toxicol. 2010, 48, 937–943. [CrossRef]
+61.
+Huang, K.; Liang, X.C.; Zhong, Y.L.; He, W.Y.; Wang, Z. 5-Caffeoylquinic acid decreases diet-induced obesity in rats by modulating
+PPARalpha and LXRalpha transcription. J. Sci. Food Agric. 2015, 95, 1903–1910. [CrossRef]
+62.
+Friedman, T.C.; Davies, T.F.; Wilk, S. Evidence for regulation of a thyrotropin-releasing hormone degradation pathway in GH3
+cells. Endocrinology 1986, 118, 562–566. [CrossRef] [PubMed]
+63.
+Wang, Z.; Lam, K.L.; Hu, J.; Ge, S.; Zhou, A.; Zheng, B.; Zeng, S.; Lin, S. Chlorogenic acid alleviates obesity and modulates gut
+microbiota in high-fat-fed mice. Food Sci. Nutr. 2019, 7, 579–588. [CrossRef] [PubMed]
+64.
+Ma, Y.; Gao, M.; Liu, D. Chlorogenic acid improves high fat diet-induced hepatic steatosis and insulin resistance in mice. Pharm.
+Res. 2015, 32, 1200–1209. [CrossRef] [PubMed]
+65.
+Ong, K.W.; Hsu, A.; Tan, B.K. Anti-diabetic and anti-lipidemic effects of chlorogenic acid are mediated by ampk activation.
+Biochem. Pharm. 2013, 85, 1341–1351. [CrossRef] [PubMed]
+66.
+Hou, N.; Liu, N.; Han, J.; Yan, Y.; Li, J. Chlorogenic acid induces reactive oxygen species generation and inhibits the viability of
+human colon cancer cells. Anticancer Drugs 2017, 28, 59–65. [CrossRef] [PubMed]
+67.
+Choi, S.L.; Kim, S.J.; Lee, K.T.; Kim, J.; Mu, J.; Birnbaum, M.J.; Soo Kim, S.; Ha, J. The regulation of AMP-activated protein kinase
+by H(2)O(2). Biochem. Biophys Res. Commun. 2001, 287, 92–97. [CrossRef] [PubMed]
+68.
+Flanagan, J.; Bily, A.; Rolland, Y.; Roller, M. Lipolytic activity of Svetol(R), a decaffeinated green coffee bean extract. Phytother. Res.
+2014, 28, 946–948. [CrossRef]
+69.
+Peng, S.G.; Pang, Y.L.; Zhu, Q.; Kang, J.H.; Liu, M.X.; Wang, Z. Chlorogenic Acid Functions as a Novel Agonist of PPARgamma2
+during the Differentiation of Mouse 3T3-L1 Preadipocytes. BioMed Res. Int. 2018, 2018, 8594767. [CrossRef]
+70.
+Liu, G.; Huang, Y.; Reis, F.S.; Song, D.; Ni, H. Impact of Nutritional and Environmental Factors on Inﬂammation, Oxidative Stress,
+and the Microbiome 2019. BioMed Res. Int. 2019, 2019, 5716241. [CrossRef]
+71.
+Xu, M.; Yang, L.; Zhu, Y.; Liao, M.; Chu, L.; Li, X.; Lin, L.; Zheng, G. Collaborative effects of chlorogenic acid and caffeine on
+lipid metabolism via the AMPKalpha-LXRalpha/SREBP-1c pathway in high-fat diet-induced obese mice. Food Funct. 2019, 10,
+7489–7497. [CrossRef]
+72.
+Herranz-Lopez, M.; Olivares-Vicente, M.; Rodriguez Gallego, E.; Encinar, J.A.; Perez-Sanchez, A.; Ruiz-Torres, V.; Joven, J.; Roche,
+E.; Micol, V. Quercetin metabolites from Hibiscus sabdariffa contribute to alleviate glucolipotoxicity-induced metabolic stress
+in vitro. Food Chem. Toxicol. 2020, 144, 111606. [CrossRef] [PubMed]
+
+Molecules 2021, 26, 453
+18 of 22
+73.
+Hsu, S.H.; Wang, B.; Kota, J.; Yu, J.; Costinean, S.; Kutay, H.; Yu, L.; Bai, S.; La Perle, K.; Chivukula, R.R.; et al. Essential metabolic,
+anti-inﬂammatory, and anti-tumorigenic functions of miR-122 in liver. J. Clin. Investig. 2012, 122, 2871–2883. [CrossRef] [PubMed]
+74.
+Baselga-Escudero, L.; Blade, C.; Ribas-Latre, A.; Casanova, E.; Suarez, M.; Torres, J.L.; Salvado, M.J.; Arola, L.; Arola-Arnal, A.
+Resveratrol and EGCG bind directly and distinctively to miR-33a and miR-122 and modulate divergently their levels in hepatic
+cells. Nucleic Acids Res. 2014, 42, 882–892. [CrossRef] [PubMed]
+75.
+Murase, T.; Misawa, K.; Minegishi, Y.; Aoki, M.; Ominami, H.; Suzuki, Y.; Shibuya, Y.; Hase, T. Coffee polyphenols suppress
+diet-induced body fat accumulation by downregulating SREBP-1c and related molecules in C57BL/6J mice. Am. J. Physiol.
+Endocrinol. Metab. 2011, 300, E122–E133. [CrossRef] [PubMed]
+76.
+Thomson, C.A.; Wertheim, B.C.; Hingle, M.; Wang, L.; Neuhouser, M.L.; Gong, Z.; Garcia, L.; Stefanick, M.L.; Manson, J.E. Alcohol
+consumption and body weight change in postmenopausal women: Results from the Women’s Health Initiative. Int. J. Obes. 2012,
+36, 1158–1164. [CrossRef]
+77.
+Vidot, D.C.; Stoutenberg, M.; Gellman, M.; Arheart, K.L.; Teng, Y.; Daviglus, M.L.; Gonzalez, H.M.; Talavera, G.; Isasi, C.R.;
+Heiss, G.; et al. Alcohol Consumption and Metabolic Syndrome Among Hispanics/Latinos: The Hispanic Community Health
+Study/Study of Latinos. Metab. Syndr. Relat. Disord. 2016, 14, 354–362. [CrossRef]
+78.
+Inan-Eroglu, E.; Powell, L.; Hamer, M.; O’Donovan, G.; Duncan, M.J.; Stamatakis, E. Is There a Link between Different Types of
+Alcoholic Drinks and Obesity? An Analysis of 280,183 UK Biobank Participants. Int. J. Env. Res. Public Health 2020, 17, 5174.
+[CrossRef]
+79.
+Osella, A.R.; Diaz Mdel, P.; Cozzolongo, R.; Bonﬁglio, C.; Franco, I.; Abrescia, D.I.; Bianco, A.; Giampiero, E.S.; Petruzzi, J.; Elsa,
+L.; et al. Overweight and Obesity in Southern Italy: Their association with social and life-style characteristics and their effect on
+levels of biologic markers. Rev. Fac. Cienc. Med. Cordoba 2014, 71, 113–124.
+80.
+Lukasiewicz, E.; Mennen, L.I.; Bertrais, S.; Arnault, N.; Preziosi, P.; Galan, P.; Hercberg, S. Alcohol intake in relation to body mass
+index and waist-to-hip ratio: The importance of type of alcoholic beverage. Public Health Nutr. 2005, 8, 315–320. [CrossRef]
+81.
+Barrio-Lopez, M.T.; Bes-Rastrollo, M.; Sayon-Orea, C.; Garcia-Lopez, M.; Fernandez-Montero, A.; Gea, A.; Martinez-Gonzalez,
+M.A. Different types of alcoholic beverages and incidence of metabolic syndrome and its components in a Mediterranean cohort.
+Clin. Nutr. 2013, 32, 797–804. [CrossRef]
+82.
+Flechtner-Mors, M.; Biesalski, H.K.; Jenkinson, C.P.; Adler, G.; Ditschuneit, H.H. Effects of moderate consumption of white wine
+on weight loss in overweight and obese subjects. Int. J. Obes. Relat. Metab. Disord. 2004, 28, 1420–1426. [CrossRef] [PubMed]
+83.
+Cordain, L.; Melby, C.L.; Hamamoto, A.E.; O’Neill, D.S.; Cornier, M.A.; Barakat, H.A.; Israel, R.G.; Hill, J.O. Inﬂuence of moderate
+chronic wine consumption on insulin sensitivity and other correlates of syndrome X in moderately obese women. Metabolism
+2000, 49, 1473–1478. [CrossRef] [PubMed]
+84.
+Wahab, A.; Gao, K.; Jia, C.; Zhang, F.; Tian, G.; Murtaza, G.; Chen, J. Signiﬁcance of Resveratrol in Clinical Management of
+Chronic Diseases. Molecules 2017, 22, 1329. [CrossRef] [PubMed]
+85.
+Singh, A.P.; Singh, R.; Verma, S.S.; Rai, V.; Kaschula, C.H.; Maiti, P.; Gupta, S.C. Health beneﬁts of resveratrol: Evidence from
+clinical studies. Med. Res. Rev. 2019, 39, 1851–1891. [CrossRef]
+86.
+Poulsen, M.M.; Vestergaard, P.F.; Clasen, B.F.; Radko, Y.; Christensen, L.P.; Stodkilde-Jorgensen, H.; Moller, N.; Jessen, N.;
+Pedersen, S.B.; Jorgensen, J.O. High-dose resveratrol supplementation in obese men: An investigator-initiated, randomized,
+placebo-controlled clinical trial of substrate metabolism, insulin sensitivity, and body composition. Diabetes 2013, 62, 1186–1195.
+[CrossRef]
+87.
+Gualdoni, G.A.; Kovarik, J.J.; Hofer, J.; Dose, F.; Pignitter, M.; Doberer, D.; Steinberger, P.; Somoza, V.; Wolzt, M.; Zlabinger, G.J.
+Resveratrol enhances TNF-alpha production in human monocytes upon bacterial stimulation. Biochim. Biophys Acta 2014, 1840,
+95–105. [CrossRef]
+88.
+Baur, J.A.; Pearson, K.J.; Price, N.L.; Jamieson, H.A.; Lerin, C.; Kalra, A.; Prabhu, V.V.; Allard, J.S.; Lopez-Lluch, G.; Lewis, K.; et al.
+Resveratrol improves health and survival of mice on a high-calorie diet. Nature 2006, 444, 337–342. [CrossRef]
+89.
+Wang, H.; Guan, Y.; Karamercan, M.A.; Ye, L.; Bhatti, T.; Becker, L.B.; Baur, J.A.; Sims, C.A. Resveratrol Rescues Kidney
+Mitochondrial Function Following Hemorrhagic Shock. Shock 2015, 44, 173–180. [CrossRef]
+90.
+Price, N.L.; Gomes, A.P.; Ling, A.J.; Duarte, F.V.; Martin-Montalvo, A.; North, B.J.; Agarwal, B.; Ye, L.; Ramadori, G.; Teodoro, J.S.;
+et al. SIRT1 is required for AMPK activation and the beneﬁcial effects of resveratrol on mitochondrial function. Cell Metab. 2012,
+15, 675–690. [CrossRef]
+91.
+Di Pierro, F.; Bressan, A.; Ranaldi, D.; Rapacioli, G.; Giacomelli, L.; Bertuccioli, A. Potential role of bioavailable curcumin in
+weight loss and omental adipose tissue decrease: Preliminary data of a randomized, controlled trial in overweight people with
+metabolic syndrome. Preliminary study. Eur. Rev. Med. Pharm. Sci. 2015, 19, 4195–4202.
+92.
+Kunnumakkara, A.B.; Bordoloi, D.; Padmavathi, G.; Monisha, J.; Roy, N.K.; Prasad, S.; Aggarwal, B.B. Curcumin, the golden
+nutraceutical: Multitargeting for multiple chronic diseases. Br. J. Pharm. 2017, 174, 1325–1348. [CrossRef] [PubMed]
+93.
+Qin, S.; Huang, L.; Gong, J.; Shen, S.; Huang, J.; Ren, H.; Hu, H. Efﬁcacy and safety of turmeric and curcumin in lowering blood
+lipid levels in patients with cardiovascular risk factors: A meta-analysis of randomized controlled trials. Nutr. J. 2017, 16, 68.
+[CrossRef] [PubMed]
+94.
+Sahebkar, A.; Cicero, A.F.G.; Simental-Mendia, L.E.; Aggarwal, B.B.; Gupta, S.C. Curcumin downregulates human tumor necrosis
+factor-alpha levels: A systematic review and meta-analysis ofrandomized controlled trials. Pharm. Res. 2016, 107, 234–242.
+[CrossRef] [PubMed]
+
+Molecules 2021, 26, 453
+19 of 22
+95.
+Mousavi, S.M.; Milajerdi, A.; Varkaneh, H.K.; Gorjipour, M.M.; Esmaillzadeh, A. The effects of curcumin supplementation on
+body weight, body mass index and waist circumference: A systematic review and dose-response meta-analysis of randomized
+controlled trials. Crit. Rev. Food Sci. Nutr. 2020, 60, 171–180. [CrossRef] [PubMed]
+96.
+Saraf-Bank, S.; Ahmadi, A.; Paknahad, Z.; Maracy, M.; Nourian, M. Effects of curcumin supplementation on markers of
+inﬂammation and oxidative stress among healthy overweight and obese girl adolescents: A randomized placebo-controlled
+clinical trial. Phytother. Res. 2019, 33, 2015–2022. [CrossRef] [PubMed]
+97.
+Baum, L.; Cheung, S.K.; Mok, V.C.; Lam, L.C.; Leung, V.P.; Hui, E.; Ng, C.C.; Chow, M.; Ho, P.C.; Lam, S.; et al. Curcumin effects
+on blood lipid proﬁle in a 6-month human study. Pharm. Res. 2007, 56, 509–514. [CrossRef]
+98.
+Ganjali, S.; Sahebkar, A.; Mahdipour, E.; Jamialahmadi, K.; Torabi, S.; Akhlaghi, S.; Ferns, G.; Parizadeh, S.M.; Ghayour-Mobarhan,
+M. Investigation of the effects of curcumin on serum cytokines in obese individuals: A randomized controlled trial. Sci. World J.
+2014, 2014, 898361. [CrossRef]
+99.
+Shao, W.; Yu, Z.; Chiang, Y.; Yang, Y.; Chai, T.; Foltz, W.; Lu, H.; Fantus, I.G.; Jin, T. Curcumin prevents high fat diet induced
+insulin resistance and obesity via attenuating lipogenesis in liver and inﬂammatory pathway in adipocytes. PLoS ONE 2012, 7,
+e28784. [CrossRef]
+100. Weisberg, S.P.; Leibel, R.; Tortoriello, D.V. Dietary curcumin signiﬁcantly improves obesity-associated inﬂammation and diabetes
+in mouse models of diabesity. Endocrinology 2008, 149, 3549–3558. [CrossRef]
+101. Ahn, J.; Lee, H.; Kim, S.; Ha, T. Curcumin-induced suppression of adipogenic differentiation is accompanied by activation of
+Wnt/beta-catenin signaling. Am. J. Physiol. Cell Physiol. 2010, 298, C1510-6. [CrossRef]
+102. Tian, L.; Song, Z.; Shao, W.; Du, W.W.; Zhao, L.R.; Zeng, K.; Yang, B.B.; Jin, T. Curcumin represses mouse 3T3-L1 cell adipogenic
+differentiation via inhibiting miR-17-5p and stimulating the Wnt signalling pathway effector Tcf7l2. Cell Death Dis. 2017, 8, e2559.
+[CrossRef] [PubMed]
+103. Ejaz, A.; Wu, D.; Kwan, P.; Meydani, M. Curcumin inhibits adipogenesis in 3T3-L1 adipocytes and angiogenesis and obesity in
+C57/BL mice. J. Nutr. 2009, 139, 919–925. [CrossRef] [PubMed]
+104. Yang, C.S.; Wang, X.; Lu, G.; Picinich, S.C. Cancer prevention by tea: Animal studies, molecular mechanisms and human relevance.
+Nat. Rev. Cancer 2009, 9, 429–439. [CrossRef] [PubMed]
+105. Hayakawa, S.; Saito, K.; Miyoshi, N.; Ohishi, T.; Oishi, Y.; Miyoshi, M.; Nakamura, Y. Anti-Cancer Effects of Green Tea by Either
+Anti- or Pro- Oxidative Mechanisms. Asian Pac. J. Cancer Prev. 2016, 17, 1649–1654. [CrossRef]
+106. Lewandowska, U.; Szewczyk, K.; Hrabec, E.; Janecka, A.; Gorlach, S. Overview of Metabolism and Bioavailability Enhancement
+of Polyphenols. J. Agric. Food Chem. 2013, 61, 12183–12199. [CrossRef]
+107. Steinberg, G.R.; Michell, B.J.; van Denderen, B.J.; Watt, M.J.; Carey, A.L.; Fam, B.C.; Andrikopoulos, S.; Proietto, J.; Gorgun, C.Z.;
+Carling, D.; et al. Tumor necrosis factor alpha-induced skeletal muscle insulin resistance involves suppression of AMP-kinase
+signaling. Cell Metab. 2006, 4, 465–474. [CrossRef]
+108. Gejjalagere Honnappa, C.; Mazhuvancherry Kesavan, U. A concise review on advances in development of small molecule
+anti-inflammatory therapeutics emphasising AMPK: An emerging target. Int. J. Immunopathol. Pharm. 2016, 29, 562–571. [CrossRef]
+109. Silva, J.; Spatz, M.H.; Folk, C.; Chang, A.; Cadenas, E.; Liang, J.; Davies, D.L. Dihydromyricetin improves mitochondrial outcomes
+in the liver of alcohol-fed mice via the AMPK/Sirt-1/PGC-1alpha signaling axis. Alcohol 2020, 91, 1–9. [CrossRef]
+110. Sakamoto, N.; Honma, R.; Sekino, Y.; Goto, K.; Sentani, K.; Ishikawa, A.; Oue, N.; Yasui, W. Non-coding RNAs are promising
+targets for stem cell-based cancer therapy. Noncoding RNA Res. 2017, 2, 83–87. [CrossRef]
+111. Zhang, L.; Valizadeh, H.; Alipourfard, I.; Bidares, R.; Aghebati-Maleki, L.; Ahmadi, M. Epigenetic Modiﬁcations and Therapy in
+Chronic Obstructive Pulmonary Disease (COPD): An Update Review. COPD 2020, 17, 333–342. [CrossRef]
+112. Iacomino, G.; Siani, A. Role of microRNAs in obesity and obesity-related diseases. Genes Nutr. 2017, 12, 23. [CrossRef] [PubMed]
+113. Tsai, C.Y.; Chen, C.Y.; Chiou, Y.H.; Shyu, H.W.; Lin, K.H.; Chou, M.C.; Huang, M.H.; Wang, Y.F. Epigallocatechin-3-Gallate
+Suppresses Human Herpesvirus 8 Replication and Induces ROS Leading to Apoptosis and Autophagy in Primary Effusion
+Lymphoma Cells. Int. J. Mol. Sci. 2017, 19, 16. [CrossRef] [PubMed]
+114. Hsieh, C.H.; Lu, C.H.; Kuo, Y.Y.; Chen, W.T.; Chao, C.Y. Studies on the non-invasive anticancer remedy of the triple combination
+of epigallocatechin gallate, pulsed electric ﬁeld, and ultrasound. PLoS ONE 2018, 13, e0201920. [CrossRef] [PubMed]
+115. Liu, J.; Lu, Y.; Liu, J.; Jin, C.; Meng, Y.; Pei, D. Inﬂuence of epigallocatechin-3-gallate in promoting proliferation and osteogenic
+differentiation of human periodontal ligament cells. BMC Oral. Health 2019, 19, 73. [CrossRef] [PubMed]
+116. Tan, Y.; Kim, J.; Cheng, J.; Ong, M.; Lao, W.G.; Jin, X.L.; Lin, Y.G.; Xiao, L.; Zhu, X.Q.; Qu, X.Q. Green tea polyphenols ameliorate
+non-alcoholic fatty liver disease through upregulating AMPK activation in high fat fed Zucker fatty rats. World J. Gastroenterol.
+2017, 23, 3805–3814. [CrossRef] [PubMed]
+117. Bae, U.J.; Park, J.; Park, I.W.; Chae, B.M.; Oh, M.R.; Jung, S.J.; Ryu, G.S.; Chae, S.W.; Park, B.H. Epigallocatechin-3-Gallate-Rich
+Green Tea Extract Ameliorates Fatty Liver and Weight Gain in Mice Fed a High Fat Diet by Activating the Sirtuin 1 and AMP
+Activating Protein Kinase Pathway. Am. J. Chin. Med. 2018, 46, 617–632. [CrossRef]
+118. Ueda-Wakagi, M.; Hayashibara, K.; Nagano, T.; Ikeda, M.; Yuan, S.; Ueda, S.; Shirai, Y.; Yoshida, K.I.; Ashida, H. Epigallocatechin
+gallate induces GLUT4 translocation in skeletal muscle through both PI3K- and AMPK-dependent pathways. Food Funct. 2018, 9,
+4223–4233. [CrossRef]
+119. Wada, Y.; Takata, A.; Ikemoto, T.; Morine, Y.; Imura, S.; Iwahashi, S.; Saito, Y.; Shimada, M. The protective effect of epigallocatechin
+3-gallate on mouse pancreatic islets via the Nrf2 pathway. Surg. Today 2019, 49, 536–545. [CrossRef]
+
+Molecules 2021, 26, 453
+20 of 22
+120. Qin, S.; Chen, M.H.; Fang, W.; Tan, X.F.; Xie, L.; Yang, Y.G.; Qin, T.; Li, N. Cerebral protection of epigallocatechin gallate (EGCG)
+via preservation of mitochondrial function and ERK inhibition in a rat resuscitation model. Drug Des. Dev. 2019, 13, 2759–2768.
+[CrossRef]
+121. Yi, J.; Chen, C.; Liu, X.; Kang, Q.; Hao, L.; Huang, J.; Lu, J. Radioprotection of EGCG based on immunoregulatory effect and
+antioxidant activity against (60)Cogamma radiation-induced injury in mice. Food Chem. Toxicol. 2020, 135, 111051. [CrossRef]
+122. Zhong, X.; Liu, M.; Yao, W.; Du, K.; He, M.; Jin, X.; Jiao, L.; Ma, G.; Wei, B.; Wei, M. Epigallocatechin-3-Gallate Attenuates
+Microglial Inﬂammation and Neurotoxicity by Suppressing the Activation of Canonical and Noncanonical Inﬂammasome via
+TLR4/NF-kappaB Pathway. Mol. Nutr. Food Res. 2019, 63, e1801230. [CrossRef] [PubMed]
+123. Wang, F.; Han, Y.; Xi, S.; Lu, Y. Catechins reduce inﬂammation in lipopolysaccharide-stimulated dental pulp cells by inhibiting
+activation of the NF-kappaB pathway. Oral. Dis. 2020, 26, 815–821. [CrossRef] [PubMed]
+124. Reddy, A.T.; Lakshmi, S.P.; Maruthi Prasad, E.; Varadacharyulu, N.C.; Kodidhela, L.D. Epigallocatechin gallate suppresses
+inﬂammation in human coronary artery endothelial cells by inhibiting NF-kappaB. Life Sci. 2020, 258, 118136. [CrossRef]
+[PubMed]
+125. Rakshit, S.; Mandal, L.; Pal, B.C.; Bagchi, J.; Biswas, N.; Chaudhuri, J.; Chowdhury, A.A.; Manna, A.; Chaudhuri, U.; Konar, A.;
+et al. Involvement of ROS in chlorogenic acid-induced apoptosis of Bcr-Abl+ CML cells. Biochem. Pharm. 2010, 80, 1662–1675.
+[CrossRef] [PubMed]
+126. Yang, J.S.; Liu, C.W.; Ma, Y.S.; Weng, S.W.; Tang, N.Y.; Wu, S.H.; Ji, B.C.; Ma, C.Y.; Ko, Y.C.; Funayama, S.; et al. Chlorogenic acid
+induces apoptotic cell death in U937 leukemia cells through caspase- and mitochondria-dependent pathways. Vivo 2012, 26,
+971–978.
+127. Zhou, Y.; Ruan, Z.; Zhou, L.; Shu, X.; Sun, X.; Mi, S.; Yang, Y.; Yin, Y. Chlorogenic acid ameliorates endotoxin-induced liver injury
+by promoting mitochondrial oxidative phosphorylation. Biochem. Biophys. Res. Commun. 2016, 469, 1083–1089. [CrossRef]
+128. Jang, M.H.; Kim, K.Y.; Song, P.H.; Baek, S.Y.; Seo, H.L.; Lee, E.H.; Lee, S.G.; Park, K.I.; Ahn, S.C.; Kim, S.C.; et al. Moutan Cortex
+Protects Hepatocytes against Oxidative Injury through AMP-Activated Protein Kinase Pathway. Biol. Pharm. Bull. 2017, 40,
+797–806. [CrossRef]
+129. Tsai, K.L.; Hung, C.H.; Chan, S.H.; Hsieh, P.L.; Ou, H.C.; Cheng, Y.H.; Chu, P.M. Chlorogenic Acid Protects Against oxLDL-
+Induced Oxidative Damage and Mitochondrial Dysfunction by Modulating SIRT1 in Endothelial Cells. Mol. Nutr. Food Res. 2018,
+62, e1700928. [CrossRef]
+130. Han, D.; Gu, X.; Gao, J.; Wang, Z.; Liu, G.; Barkema, H.W.; Han, B. Chlorogenic acid promotes the Nrf2/HO-1 anti-oxidative
+pathway by activating p21(Waf1/Cip1) to resist dexamethasone-induced apoptosis in osteoblastic cells. Free Radic. Biol. Med.
+2019, 137, 1–12. [CrossRef]
+131. Gong, W.; Li, J.; Zhu, G.; Wang, Y.; Zheng, G.; Kan, Q. Chlorogenic acid relieved oxidative stress injury in retinal ganglion cells
+through IncRNA-TUG1/Nrf2. Cell Cycle 2019, 18, 1549–1559. [CrossRef]
+132. Kong, D.; Ding, Y.; Liu, J.; Liu, R.; Zhang, J.; Zhou, Q.; Long, Z.; Peng, J.; Li, L.; Bai, H.; et al. Chlorogenic acid prevents
+paraquat-induced apoptosis via Sirt1-mediated regulation of redox and mitochondrial function. Free Radic. Res. 2019, 53, 680–693.
+[CrossRef] [PubMed]
+133. Bao, L.; Li, J.; Zha, D.; Zhang, L.; Gao, P.; Yao, T.; Wu, X. Chlorogenic acid prevents diabetic nephropathy by inhibiting oxidative
+stress and inﬂammation through modulation of the Nrf2/HO-1 and NF-kB pathways. Int. Immunopharmacol. 2018, 54, 245–253.
+[CrossRef] [PubMed]
+134. Tian, L.; Su, C.P.; Wang, Q.; Wu, F.J.; Bai, R.; Zhang, H.M.; Liu, J.Y.; Lu, W.J.; Wang, W.; Lan, F.; et al. Chlorogenic acid: A potent
+molecule that protects cardiomyocytes from TNF-alpha-induced injury via inhibiting NF-kappaB and JNK signals. J. Cell Mol.
+Med. 2019, 23, 4666–4678. [CrossRef] [PubMed]
+135. Fu, X.; Lyu, X.; Liu, H.; Zhong, D.; Xu, Z.; He, F.; Huang, G. Chlorogenic Acid Inhibits BAFF Expression in Collagen-Induced
+Arthritis and Human Synoviocyte MH7A Cells by Modulating the Activation of the NF-kappaB Signaling Pathway. J. Immunol.
+Res. 2019, 2019, 8042097. [CrossRef] [PubMed]
+136. Posadino, A.M.; Giordo, R.; Cossu, A.; Nasrallah, G.K.; Shaito, A.; Abou-Saleh, H.; Eid, A.H.; Pintus, G. Flavin Oxidase-Induced
+ROS Generation Modulates PKC Biphasic Effect of Resveratrol on Endothelial Cell Survival. Biomolecules 2019, 9, 209. [CrossRef]
+137. Chen, C.Y.; Kao, C.L.; Liu, C.M. The Cancer Prevention, Anti-Inﬂammatory and Anti-Oxidation of Bioactive Phytochemicals
+Targeting the TLR4 Signaling Pathway. Int. J. Mol. Sci. 2018, 19, 2729. [CrossRef]
+138. Li, C.; Hu, W.L.; Lu, M.X.; Xiao, G.F. Resveratrol induces apoptosis of benign prostatic hyperplasia epithelial cell line (BPH-1)
+through p38 MAPK-FOXO3a pathway. BMC Complement. Altern. Med. 2019, 19, 233. [CrossRef]
+139. Vlavcheski, F.; Den Hartogh, D.J.; Giacca, A.; Tsiani, E. Amelioration of High-Insulin-Induced Skeletal Muscle Cell Insulin
+Resistance by Resveratrol Is Linked to Activation of AMPK and Restoration of GLUT4 Translocation. Nutrients 2020, 12, 914.
+[CrossRef]
+140. Guo, J.; Pereira, T.J.; Mori, Y.; Gonzalez Medina, M.; Breen, D.M.; Dalvi, P.S.; Zhang, H.; McCole, D.F.; McBurney, M.W.; Heximer,
+S.P.; et al. Resveratrol Inhibits Neointimal Growth after Arterial Injury in High-Fat-Fed Rodents: The Roles of SIRT1 and AMPK.
+J. Vasc. Res. 2020, 57, 325–340. [CrossRef]
+141. Wang, L.; Li, Q.; Yan, H.; Jiao, G.; Wang, H.; Chi, H.; Zhou, H.; Chen, L.; Shan, Y.; Chen, Y. Resveratrol Protects Osteoblasts
+Against Dexamethasone-Induced Cytotoxicity Through Activation of AMP-Activated Protein Kinase. Drug Des. Dev. 2020, 14,
+4451–4463. [CrossRef]
+
+Molecules 2021, 26, 453
+21 of 22
+142. Giordo, R.; Nasrallah, G.K.; Al-Jamal, O.; Paliogiannis, P.; Pintus, G. Resveratrol Inhibits Oxidative Stress and Prevents Mito-
+chondrial Damage Induced by Zinc Oxide Nanoparticles in Zebraﬁsh (Danio rerio). Int. J. Mol. Sci. 2020, 21, 3838. [CrossRef]
+[PubMed]
+143. Ramdani, L.H.; Bachari, K. Potential therapeutic effects of Resveratrol against SARS-CoV-2. Acta Virol. 2020, 64, 276–280.
+[CrossRef] [PubMed]
+144. Zhang, W.; Tang, R.; Ba, G.; Li, M.; Lin, H. Anti-allergic and anti-inﬂammatory effects of resveratrol via inhibiting TXNIP-oxidative
+stress pathway in a mouse model of allergic rhinitis. World Allergy Organ. J. 2020, 13, 100473. [CrossRef] [PubMed]
+145. Andre, D.M.; Calixto, M.C.; Sollon, C.; Alexandre, E.C.; Tavares, E.B.G.; Naime, A.C.A.; Anhe, G.F.; Antunes, E. High-fat
+diet-induced obesity impairs insulin signaling in lungs of allergen-challenged mice: Improvement by resveratrol. Sci. Rep. 2017,
+7, 17296. [CrossRef] [PubMed]
+146. Subedi, L.; Baek, S.H.; Kim, S.Y. Genetically Engineered Resveratrol-Enriched Rice Inhibits Neuroinﬂammation in
+Lipopolysaccharide-Activated BV2 Microglia Via Downregulating Mitogen-Activated Protein Kinase-Nuclear Factor Kappa B
+Signaling Pathway. Oxid. Med. Cell Longev. 2018, 2018, 8092713. [CrossRef] [PubMed]
+147. Xian, Y.; Gao, Y.; Lv, W.; Ma, X.; Hu, J.; Chi, J.; Wang, W.; Wang, Y. Resveratrol prevents diabetic nephropathy by reducing chronic
+inﬂammation and improving the blood glucose memory effect in non-obese diabetic mice. Naunyn Schmiedebergs Arch. Pharm.
+2020, 393, 2009–2017. [CrossRef] [PubMed]
+148. Liang, H.H.; Huang, C.Y.; Chou, C.W.; Makondi, P.T.; Huang, M.T.; Wei, P.L.; Chang, Y.J. Heat shock protein 27 inﬂuences the
+anti-cancer effect of curcumin in colon cancer cells through ROS production and autophagy activation. Life Sci. 2018, 209, 43–51.
+[CrossRef]
+149. Yu, T.; Dohl, J.; Elenberg, F.; Chen, Y.; Deuster, P. Curcumin induces concentration-dependent alterations in mitochondrial
+function through ROS in C2C12 mouse myoblasts. J. Cell Physiol. 2019, 234, 6371–6381. [CrossRef]
+150. Nakamae, I.; Morimoto, T.; Shima, H.; Shionyu, M.; Fujiki, H.; Yoneda-Kato, N.; Yokoyama, T.; Kanaya, S.; Kakiuchi, K.; Shirai,
+T.; et al. Curcumin Derivatives Verify the Essentiality of ROS Upregulation in Tumor Suppression. Molecules 2019, 24, 4067.
+[CrossRef]
+151. Soltani, A.; Salmaninejad, A.; Jalili-Nik, M.; Soleimani, A.; Javid, H.; Hashemy, S.I.; Sahebkar, A. 5′-Adenosine monophosphate-
+activated protein kinase: A potential target for disease prevention by curcumin. J. Cell Physiol. 2019, 234, 2241–2251. [CrossRef]
+152. Lu, X.; Wu, F.; Jiang, M.; Sun, X.; Tian, G. Curcumin ameliorates gestational diabetes in mice partly through activating AMPK.
+Pharm. Biol. 2019, 57, 250–254. [CrossRef] [PubMed]
+153. Yu, H.; Xie, Y.; Zhou, Z.; Wu, Z.; Dai, X.; Xu, B. Curcumin Regulates the Progression of Colorectal Cancer via LncRNA
+NBR2/AMPK Pathway. Technol. Cancer Res. Treat. 2019, 18, 1533033819870781. [CrossRef] [PubMed]
+154. Sadeghi, A.; Rostamirad, A.; Seyyedebrahimi, S.; Meshkani, R. Curcumin ameliorates palmitate-induced inﬂammation in skeletal
+muscle cells by regulating JNK/NF-kB pathway and ROS production. Inﬂammopharmacology 2018, 26, 1265–1272. [CrossRef]
+[PubMed]
+155. Ran, Z.; Zhang, Y.; Wen, X.; Ma, J. Curcumin inhibits high glucoseinduced inﬂammatory injury in human retinal pigment
+epithelial cells through the ROSPI3K/AKT/mTOR signaling pathway. Mol. Med. Rep. 2019, 19, 1024–1031.
+156. Lin, X.; Bai, D.; Wei, Z.; Zhang, Y.; Huang, Y.; Deng, H.; Huang, X. Curcumin attenuates oxidative stress in RAW264.7 cells by
+increasing the activity of antioxidant enzymes and activating the Nrf2-Keap1 pathway. PLoS ONE 2019, 14, e0216711. [CrossRef]
+157. Li, Q.; Sun, J.; Mohammadtursun, N.; Wu, J.; Dong, J.; Li, L. Curcumin inhibits cigarette smoke-induced inﬂammation via
+modulating the PPARgamma-NF-kappaB signaling pathway. Food Funct. 2019, 10, 7983–7994. [CrossRef]
+158. Khan, M.S.; Muhammad, T.; Ikram, M.; Kim, M.O. Dietary Supplementation of the Antioxidant Curcumin Halts Systemic LPS-
+Induced Neuroinﬂammation-Associated Neurodegeneration and Memory/Synaptic Impairment via the JNK/NF-kappaB/Akt
+Signaling Pathway in Adult Rats. Oxid. Med. Cell Longev. 2019, 2019, 7860650. [CrossRef]
+159. Zhou, T.; Wang, Y.; Liu, M.; Huang, Y.; Shi, J.; Dong, N.; Xu, K. Curcumin inhibits calciﬁcation of human aortic valve interstitial
+cells by interfering NF-kappaB, AKT, and ERK pathways. Phytother. Res. 2020, 34, 2074–2081. [CrossRef]
+160. Mirzaaghaei, S.; Foroughmand, A.M.; Saki, G.; Shaﬁei, M. Combination of Epigallocatechin-3-gallate and Silibinin: A Novel
+Approach for Targeting Both Tumor and Endothelial Cells. ACS Omega 2019, 4, 8421–8430. [CrossRef]
+161. Huang, S.; Wang, L.L.; Xue, N.N.; Li, C.; Guo, H.H.; Ren, T.K.; Zhan, Y.; Li, W.B.; Zhang, J.; Chen, X.G.; et al. Chlorogenic acid
+effectively treats cancers through induction of cancer cell differentiation. Theranostics 2019, 9, 6745–6763. [CrossRef]
+162. Pan, J.; Shen, J.; Si, W.; Du, C.; Chen, D.; Xu, L.; Yao, M.; Fu, P.; Fan, W. Resveratrol promotes MICA/B expression and natural killer
+cell lysis of breast cancer cells by suppressing c-Myc/miR-17 pathway. Oncotarget 2017, 8, 65743–65758. [CrossRef] [PubMed]
+163. Chen, J.; Du, L.; Li, J.; Song, H. Epigallocatechin-3-gallate attenuates cadmium-induced chronic renal injury and ﬁbrosis. Food
+Chem. Toxicol. 2016, 96, 70–78. [CrossRef] [PubMed]
+164. Yang, F.; Luo, L.; Zhu, Z.D.; Zhou, X.; Wang, Y.; Xue, J.; Zhang, J.; Cai, X.; Chen, Z.L.; Ma, Q.; et al. Chlorogenic Acid Inhibits
+Liver Fibrosis by Blocking the miR-21-Regulated TGF-beta1/Smad7 Signaling Pathway in Vitro and in Vivo. Front. Pharm. 2017,
+8, 929. [CrossRef] [PubMed]
+165. Yan, B.; Cheng, L.; Jiang, Z.; Chen, K.; Zhou, C.; Sun, L.; Cao, J.; Qian, W.; Li, J.; Shan, T.; et al. Resveratrol Inhibits ROS-Promoted
+Activation and Glycolysis of Pancreatic Stellate Cells via Suppression of miR-21. Oxid. Med. Cell Longev. 2018, 2018, 1346958.
+[CrossRef] [PubMed]
+
+Molecules 2021, 26, 453
+22 of 22
+166. Nozari, E.; Moradi, A.; Samadi, M. Effect of Atorvastatin, Curcumin, and Quercetin on miR-21 and miR-122 and their correlation
+with TGFbeta1 expression in experimental liver ﬁbrosis. Life Sci. 2020, 259, 118293. [CrossRef]
+167. Liu, S.; Wu, Z.; Guo, S.; Meng, X.; Chang, X. Polyphenol-rich extract from wild Lonicera caerulea berry reduces cholesterol
+accumulation by mediating the expression of hepatic miR-33 and miR-122, HMGCR, and CYP7A1 in rats. J. Funct. Foods 2018, 40,
+648–658. [CrossRef]
+168. Zhong, Y.; Liu, C.; Feng, J.; Li, J.F.; Fan, Z.C. Curcumin affects ox-LDL-induced IL-6, TNF-alpha, MCP-1 secretion and cholesterol
+efﬂux in THP-1 cells by suppressing the TLR4/NF-kappaB/miR33a signaling pathway. Exp. Med. 2020, 20, 1856–1870.
+169. Zhang, S.; Tang, D.; Zang, W.; Yin, G.; Dai, J.; Sun, Y.U.; Yang, Z.; Hoffman, R.M.; Guo, X. Synergistic Inhibitory Effect of
+Traditional Chinese Medicine Astragaloside IV and Curcumin on Tumor Growth and Angiogenesis in an Orthotopic Nude-Mouse
+Model of Human Hepatocellular Carcinoma. Anticancer Res. 2017, 37, 465–473. [CrossRef]
+170. La, X.; Zhang, L.; Li, Z.; Li, H.; Yang, Y. (-)-Epigallocatechin Gallate (EGCG) Enhances the Sensitivity of Colorectal Cancer Cells to
+5-FU by Inhibiting GRP78/NF-kappaB/miR-155-5p/MDR1 Pathway. J. Agric. Food Chem. 2019, 67, 2510–2518. [CrossRef]
+171. Zeng, J.; Zhang, D.; Wan, X.; Bai, Y.; Yuan, C.; Wang, T.; Yuan, D.; Zhang, C.; Liu, C. Chlorogenic Acid Suppresses miR-155 and
+Ameliorates Ulcerative Colitis through the NF-kappaB/NLRP3 Inﬂammasome Pathway. Mol. Nutr. Food Res. 2020, 64, e2000452.
+[CrossRef]
+172. Eseberri, I.; Lasa, A.; Miranda, J.; Gracia, A.; Portillo, M.P. Potential miRNA involvement in the anti-adipogenic effect of
+resveratrol and its metabolites. PLoS ONE 2017, 12, e0184875. [CrossRef] [PubMed]
+173. Ma, F.; Liu, F.; Ding, L.; You, M.; Yue, H.; Zhou, Y.; Hou, Y. Anti-inﬂammatory effects of curcumin are associated with down
+regulating microRNA-155 in LPS-treated macrophages and mice. Pharm. Biol. 2017, 55, 1263–1273. [CrossRef] [PubMed]
+174. Liu, C.W.; Sung, H.C.; Lin, S.R.; Wu, C.W.; Lee, C.W.; Lee, I.T.; Yang, Y.F.; Yu, I.S.; Lin, S.W.; Chiang, M.H.; et al. Resveratrol atten-
+uates ICAM-1 expression and monocyte adhesiveness to TNF-alpha-treated endothelial cells: Evidence for an anti-inﬂammatory
+cascade mediated by the miR-221/222/AMPK/p38/NF-kappaB pathway. Sci. Rep. 2017, 7, 44689. [CrossRef] [PubMed]

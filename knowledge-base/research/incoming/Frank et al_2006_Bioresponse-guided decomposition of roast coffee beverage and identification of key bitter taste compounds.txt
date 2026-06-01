@@ -1,0 +1,1805 @@
+Eur Food Res Technol (2006) 222: 492–508
+DOI 10.1007/s00217-005-0143-6
+ORIGINAL PAPER
+Oliver Frank · Gerhard Zehentbauer ·
+Thomas Hofmann
+Bioresponse-guided decomposition of roast coffee beverage
+and identiﬁcation of key bitter taste compounds
+Received: 18 June 2005 / Accepted: 21 August 2005 / Published online: 29 November 2005
+C⃝Springer-Verlag 2005
+Abstract Sensory-guided fractionation of a roasted coffee
+brew by means of sequential solvent extraction, ultraﬁltra-
+tion, and RP-HPLC demonstrated a group of ethyl acetate
+soluble compounds formed from O-hydroxycinnamoyl
+quinic acid derivatives upon coffee roasting as the key
+compounds contributing to the bitter taste of roasted
+coffee beverages. LC-MS/MS studies, 1D- and 2D-
+NMR spectroscopy, syntheses, and model roast exper-
+iments with 5-O-caffeoyl- and 5-O-feruloylquinic acid
+led to the unequivocal identiﬁcation of 3-O-caffeoyl-γ-
+quinide (2a), 4-O-caffeoyl-γ-quinide (3a), 5-O-caffeoyl-
+epi-δ-quinide (4a), 4-O-caffeoyl-muco-γ-quinide (5a), 5-
+O-caffeoyl-muco-γ-quinide (6a), 3-O-feruloyl-γ-quinide
+(2b), and 4-O-feruloyl-γ-quinide (3b) as intense coffee bit-
+ter tastants. Besides these individual bitter compounds, a
+highly complex and intensely bitter HPLC fraction was
+isolated from the ethyl acetate extractables of coffee brew.
+Application of COSY spectroscopy and alkaline hydrolytic
+degradation gave strong evidence that the bitter taste of that
+fraction is due to a multiplicity of rather complex quinic
+acid lactone isomers multiply esteriﬁed with p-coumaric
+acid, caffeic acid, ferulic acid, 3,4-dimethoxycinnamic
+acid, and quinic acid, respectively. As representatives
+of this fraction, 3,4-O-dicaffeoyl-γ-quinide (10), 3,5-O-
+dicaffeoyl-epi-δ-quinide (11), and 4,5-O-dicaffeoyl-muco-
+γ-quinide (12) have been isolated, puriﬁed, and identiﬁed
+as strongly bitter-tasting compounds in roasted coffee. For
+the ﬁrst time, bitter taste recognition thresholds were deter-
+mined for the individual compounds showing that, strongly
+O. Frank · T. Hofmann ()
+Institut f¨ur Lebensmittelchemie, Universit¨at M¨unster,
+Corrensstrasse 45,
+48149 M¨unster, Germany
+e-mail: thomas.hofmann@uni-muenster.de
+Tel.: +49-251-83-33-391
+Fax: +49-251-83-33-396
+G. Zehentbauer
+The Procter &, Gamble Company, Miami Valley Innovation,
+Center 11810 E. Miami River Road,
+Cincinnati, OH 45252, USA
+depending on their chemical structure, the bitter threshold
+levels ranged between 9.8 and 180 µmol/l (water).
+Keywords Coffee . Taste dilution analysis . Bitter taste .
+Chlorogenic acid lactones . Caffeoyl quinides
+Introduction
+Beside to its stimulatory effect, the popularity of a freshly
+prepared coffee beverage is mainly due to the sheer enjoy-
+ment of the alluring aroma as well its attractive and well-
+balanced taste proﬁle. Flavour research performed within
+the last 15 years has shown that just a few out of several
+hundreds of volatile compounds really contribute to the
+characteristic overall aroma of roasted coffee. By means
+of gas chromatography-olfactometry, quantitative analysis,
+and aroma reconstitution experiments it could be impres-
+sively demonstrated that out of several hundreds of coffee
+volatiles just about 25 odorants are essentially needed to
+mimic the typical odour of a coffee brew [1–3]. Compared
+to the aroma-active volatiles, the available information on
+the molecular basis for the typical bitter taste of coffee
+brews, which develops during roasting of the beans, is
+rather fragmentary.
+More then 20 years ago, ﬁrst investigations performed
+by Chen [4] revealed that the alkaloids caffeine and
+trigonelline, already present in the raw coffee bean, are ac-
+countable for a maximum of 10–30 and 1%, respectively,
+to the overall bitterness of a coffee beverage. The author
+suggested that, in particular, roast compounds formed from
+tasteless precursors during bean roasting are the key elici-
+tors of the bitter taste of coffee brews. More precisely, sev-
+eral heterocyclics are suggested as potential bitter-tasting
+agents in roasted coffees such as, e.g. furfurylalcohol [5],
+5-hydroxymethyl-2-furanaldehyde, pyrazines and various
+trigonellin thermolysis products [6]. In addition, a series of
+cis- and trans-conﬁgured 2,5-diketopiperazines have been
+reported as bitter constituents of roasted coffee [7], but the
+contribution of all these heterocyclic compounds to the cof-
+fee bitter taste still remains unclear. Other research groups
+
+493
+found some evidence that O-caffeoylquinic acids (chloro-
+genic acids) and their roast products may be a cause of the
+observed bitter taste of coffee [8]. Although a bitter-tasting
+fraction isolated from roasted coffee was reported to con-
+tain lactones of such chlorogenic acids, neither the isolated
+and puriﬁed compounds have been sensorially evaluated
+so far, nor any human bitter detection thresholds have been
+determined [9]. In addition, quinic acid, a well-known ther-
+mal degradation product of chlorogenic acids, was reported
+to exhibit an aspirin-like bitter taste at a threshold level of
+10 ppm. The concentration of that compound in roast cof-
+fee brew was found to exceed this threshold concentration
+by a factor of 20, thus suggesting some evidence for its
+taste contribution [10, 11]. Since these data reported so far
+in the literature are rather contradictory, it has to be con-
+cluded that the molecular nature of the key bitter tastants
+in roasted coffees is still unclear.
+In order to answer the puzzling question as to which
+non-volatile, key taste compounds are responsible for the
+attractive taste of food products, we have recently devel-
+oped the so-called taste dilution analysis as a powerful
+screening procedure for taste-active non-volatiles in foods
+[12]. This approach, combining instrumental analysis and
+human bioresponse, recently led to the discovery of various
+previously unknown taste compounds such as thermally
+generated bitter compounds [12], cooling compounds in
+dark malt [13], bitter off-tastants in carrot products [14],
+the taste enhancer alapyridaine in beef bouillon [15], and
+astringent key taste compounds in black-tea infusions [16].
+Aimed at deﬁning the bitter taste of roasted coffee on a
+molecular level, the objectives of the present investigation
+were, to screen a roasted coffee beverage for its key taste
+compounds by applying taste dilution techniques, to isolate
+and determine the chemical structure of the compounds
+inducing the most intense human bitter taste response, and
+to evaluate their sensory impact on the basis of their oral
+recognition threshold concentrations.
+Materials and methods
+Chemicals
+All the chemicals were purchased from Sigma-Aldrich
+(Taufkirchen, Germany), solvents were obtained in HPLC-
+grade from Merck (Darmstadt, Germany), and deuterated
+solvents were supplied by Euriso-Top (Gif-Sur-Yvette,
+France). Decaffeinated raw and roasted Arabica coffee
+beans from Columbia were obtained from the coffee
+industry.
+Sensory analyses
+Using a triangle test closely following the procedure re-
+ported recently [14–16], taste recognition threshold con-
+centrations were determined in water (Vitel, low mineral-
+ization: 405 mg/l; pH 5.0) by a 12-headed trained sensory
+panel, which in regular intervals participated in training ses-
+sions with reference compounds. The values between the
+individuals and three separate sessions differed not more
+than one dilution step; i.e., a threshold value of 0.5 mmol/l
+for caffeine represents a range from 0.25 to 1.0 mmol/l.
+Preparation of coffee beverage
+After grinding the coffee beans by means of an ultra cen-
+trifuge mill (Retsch, Haan, Germany) equipped with a sieve
+(2-mm pore diameter), aliquots (54 g) of coffee powder
+placed in a coffee ﬁlter (No. 4, Melitta, Germany) were
+percolated with hot water (1.1 l, 80 ◦C). The resulting cof-
+fee beverage (1 l) was rapidly cooled to room temperature
+and then used for sensory and chemical analyses.
+High vacuum distillation
+An aliquot (100 ml) of the coffee beverage was separated
+into a non-volatile and a volatile fraction at 20 ◦C by means
+of the SAFE (solvent assisted ﬂavour evaporation) appara-
+tus [17]. The aqueous distillate and the non-volatile residue,
+taken up in tap water (100 ml, pH 5.0), were subsequently
+used for sensory analysis.
+Sequential solvent extraction of coffee beverage (CB)
+The coffee beverage (250 ml) was sequentially extracted
+with pentane (3×100 ml), ethyl acetate (6×100 ml), fol-
+lowed by chloroform (3×100 ml). The organic layers of
+each extraction step were freed from solvent in vacuum
+to yield the pentane extractables (CB-fraction I), the ethyl
+acetate extractables (CB-fraction II), and the chloroform
+extractables (CB-fraction III). The CB-fractions I–III as
+well as the remaining aqueous coffee fraction (CB-fraction
+IV) were freed from trace amounts of solvents by high vac-
+uum sublimation and a triple freeze-drying procedure, their
+yields were determined by weight and their taste proﬁles
+were evaluated in aqueous solution (250 ml; pH 5.0) as
+given in Table 1.
+Multiple-step ultraﬁltration
+The CB-fraction II isolated from coffee beverage (400 ml)
+was redissolved in water (400 ml; pH 5.0), and then frac-
+tionated by means of an ultraﬁltration cell (Amicon, Witten,
+Germany) using a YM 1 membrane (Millipore, Bedford,
+MA) at a nitrogen pressure of 3 bar. After freeze-drying,
+the yields of the low-molecular weight fraction (LMW,
+MW<1 kDa) as well as the high-molecular weight fraction
+(HMW, MW>1 kDa) were determined by weight (Table
+1), the residues were taken-up in water (400 ml; pH 5.0),
+and used for sensory analysis.
+Taste dilution analysis (TDA)
+The CB-fraction II isolated from coffee beverage (1 l)
+was taken up in a mixture (7/3; v/v; 10 ml) of methanol
+and aqueous ammonium formate (10 mmol; pH 3.5), and
+aliquots (100 µl) thereof were separated by HPLC using
+
+494
+Table 1
+Yields and bitter intensity of fractions isolated from the
+coffee beverage (CB) by means of high-vacuum distillation, sequen-
+tial solvent extraction, and ultraﬁltration
+Sample
+Amount
+(g/100 g)
+Yieldb (%)
+Perceived
+bitter
+intensityc
+Coffee beverage (CB)a
+23
+100
+4.0
+CB volatiles
+n.d
+n.d
+0
+CB non-volatiles
+n.d
+n.d
+4.0
+CB fraction I
+0.41
+1.8
+0
+CB fraction II
+2.10
+9.1
+3.5
+CB fraction III
+2.21
+9.6
+0.5
+CB fraction IV
+18.26
+79.4
+0
+CB fraction II, >1 kDa
+0.1
+0.5
+0
+CB fraction II, <1 kDa
+2.00
+8.7
+3.5
+aBeverage (1 l) was freshly prepared by percolating ground, roasted,
+decaffeinated coffee (54 g) with water (1100 ml, 80 ◦C). bYields
+were determined by weight. cThe bitter taste intensity of aqueous
+solutions (pH 5.0) containing the individual coffee fractions in “nat-
+ural” concentrations were judged on a scale from 0 (not detectable)
+to 5.0 (strongly detactable).
+a preparative Phenyl-Hexyl column (250 mm×21.2 mm,
+Luna, Phenomenex, Aschaffenburg, Germany). Monitor-
+ing the efﬂuent at 324 nm, chromatography was performed
+starting with a mixture (75/25, v/v) of aqueous formic acid
+(1.0%, pH 3.5) and methanol, thereafter increasing the
+methanol content to 30% within 45 min and, then, to 100%
+within 25 min, ﬁnally, maintaining the methanol content for
+additional 10 min. The efﬂuent was collected in 15 fractions
+(Fig. 1), the corresponding fractions obtained from several
+runs were combined, freeze-dried and the residues obtained
+were then taken up in water (2.0 ml), and, then, used for the
+TDA as reported recently [12, 14–16]. The taste dilution
+(TD)-factors evaluated by three different assessors at three
+different sessions were averaged.
+Model-roasting experiments
+5-O-Caffeoyl- (500 mg), 5-O-feruloyl- (500 mg), 3,4-, 3,5-,
+or 4,5-O-dicaffeoyl-quinic acid (250 mg each), respec-
+tively, were mixed with water (3 ml), then dried in an open
+vial at 70 ◦C for 30 min, and, ﬁnally, roasted for 18 min
+at 220 ◦C for 5-O-caffeoyl- and 5-O-feruoyl-quinic acid
+or for 25 min at 175 ◦C for the dicaffeoyl-quinic acids.
+The mixtures were taken up in hot water (100 ml, 80 ◦C),
+cooled to room temperature, and extracted with ethyl ac-
+etate (5×25 ml). The organic layer of each mixture was
+freed from solvent to afford the extractable roast products
+of 5-O-caffeoylquinic acid (115 mg), 5-O-feruloylquinic
+acid (100 mg), 3,4- (55 mg), 3,5- (50 mg), or 4,5-O-
+dicaffeoylquinic acid (48 mg), respectively. The residues,
+taken up in a mixture (7/3, v/v; 10 ml) of methanol and
+aqueous ammonium formate (10 mmol; pH 3.5), were an-
+alyzed by HPLC.
+Isolation and identiﬁcation of 3-, 4-,
+and 5-O-caffeoyl quinides
+The EtOAc extract (100 mg) isolated from the roasted 5-
+caffeoylquinic acid (1a) or an aliquot of the CB-fraction
+II (100 mg), respectively, was applied onto the top of a
+glass column (400×35 mm) ﬁlled with polyamide (MN-
+SC-6, Macherey & Nagel, D¨uren, Germany) which was
+preconditioned with methanol (750 ml), followed by water
+(750 ml). After ﬂushing the column with water (2000 ml),
+rinsing with methanol (1500 ml) and evaporation of the
+64
+32
+16
+128
+256
+512
+TD-Factor (bitterness)
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+A
+Absorbance [λ= 324 nm]
+t [min]
+20
+40
+60
+80
+B
+Fig. 1
+RP-HPLC
+chromatogram (A) and taste
+dilution (TD) chromatogram
+(B) of the solvent extractable
+compounds of a freshly
+prepared, decaffeinated coffee
+beverage
+
+495
+solvent in vacuum afforded a bitter-tasting isolate which
+was dissolved in aqueous ammonium formate/methanol
+(30/70 v/v; 10 ml; pH 5.0) and, then, separated by HPLC
+on a semi-preparative Phenyl-Hexyl column (250×10 mm,
+Luna, Phenomenex, Aschaffenburg, Germany). Monitor-
+ing the efﬂuent at 324 nm, chromatography was performed
+starting with a mixture (80/20, v/v) of aqueous ammonium
+formate (0.5 mol/l, pH 3.5) and methanol, then increasing
+the methanol content to 25% within 50 min, and then to
+50% within 5 min, thereafter increasing the methanol to
+100% within 5 min. The peaks were collected individu-
+ally in several runs, and the eluates of the corresponding
+fractions were combined. After removing the solvent in
+vacuum, the fractions were ﬁnally puriﬁed by means of
+solid phase extraction (SPE) using RP-18 cartridges (1 g,
+6 ml, C-18 E, Phenomenex, Aschaffenburg, Germany) con-
+ditioned with methanol, followed by water (10 ml each).
+After sample application, the cartridge was rinsed with wa-
+ter (10 ml), the nitrogen was sucked through the cartridge
+for 15 min by means of a vacuum pump and, ﬁnally, the
+target compounds were eluted with methanol (10 ml). Af-
+ter removing of the solvent in vacuum, ﬁve caffeoylquinide
+isomers were obtained in purity of more than 98%. Due
+to the different amounts of the individual isomers present
+in the coffee beverage (Fig. 2A) and the roasted 5-O-
+caffeoylquinic acid mixture (Fig. 2B), respectively, 5-O-
+caffeoyl-epi-δ-quinide (4a), 4-O-caffeoyl-muco-γ-quinide
+(5a), and 5-O-caffeoyl-muco-γ-quinide (6a) were isolated
+from the roasted 5-O-caffeoylquinic acid (1a), whereas 3-
+caffeoyl-γ-quinide (2a) and 4-caffeoyl-γ-quinide (3a) were
+isolated from CB-fraction II.
+3-O-Caffeoyl-γ -quinide (2a; Fig. 3): UV/vis (wa-
+ter/MeOH, 5/5; v/v): λmax=235, 300, 324 nm; LC/MS
+(ESI+): 337.1 (100; [M+H]+);
+1H NMR (400 MHz;
+MeOD; COSY): δ 2.10–2.18 [m, 2H, H–C(2eq), H–C(2ax)],
+2.33 [m, 1H, H–C(6eq)], 2.60 [d, 1H, J=11.2 Hz,
+H–C(6ax)], 4.32 [dd, 1H, J=4.8, 4.4 Hz, H–C(4eq)], 4.80
+[dd, 1H, J=5.6, 4.8 Hz, H–C(5eq)], 4.97 [ddd, 1H, J=11.6,
+6.6, 4.4 Hz, H–C(3ax)], 6.30 [d, 1H, J=15.9 Hz, H–C(5′)],
+6.78 [d, 1H, J=8.1 Hz, H–C(2′)], 6.97 [dd, 1H, J=8.1,
+1.9 Hz, H–C(3′)], 7.05 [d, 1H, J=1.9 Hz H–C(1′)], 7.60 [d,
+1H, J=15.8 Hz, H–C(4′)].
+4-O-Caffeoyl-γ -quinide (3a; Fig. 3): UV/vis (wa-
+ter/MeOH, 5/5; v/v): λmax=235, 300, 324 nm; LC/MS
+(ESI+): 337.1 (100; [M+H]+);
+1H NMR (400 MHz;
+MeOD; COSY): δ 2.10–2.18 [m, 2H, H–C(2eq/ax)], 2.35
+[m, 1H, H–C(6eq)], 2.59 [m, 1H, H–C(6ax)] 3.97 [ddd,
+1H, J=11.7, 6.5, 4.8 Hz, H–C(3ax)], 4.89 [dd, 1H, J=5.6,
+4.4 Hz, H–C(5eq)], 5.32 [d, 1H, J=4.8, 4.4 Hz; H–C(4eq)],
+6.30 [d, 1H, J=15.9 Hz, H–C(5′)], 6.78 [d, 1H, J=8.1 Hz,
+H–C(3′)], 6.97 [dd, 1H, J=8.1, 1.9 Hz, H–C(2′)], 7.05 [d,
+1H, J=1.9 Hz, H–C(1′)], 7.60 [d, 1H, J=15.8 Hz, H–C(4′)].
+5-O-Caffeoyl-epi-δ-quinide (4a; Fig. 3): UV/vis (wa-
+ter/MeOH, 5/5; v/v): λmax=235, 300, 324 nm; LC/MS
+(ESI+): 337.1 (100; [M+H]+);
+1H NMR (400 MHz;
+MeOD; COSY): δ 1.77–1.82 [m, 2H, H–C(2eq), H–C(6eq)],
+2.34–2.55 [m, 2H, H–C(2ax), H–C(6ax)], 4.48 [ddd, 1H,
+J=9.4, 2.8, 1.4 Hz, H–C(3eq)], 4.66 [dd, 1H, J=4.4, 1.4 Hz,
+H–C(4eq)], 5.21 [ddd, 1H, J=10.1, 5.6, 4.4 Hz, H–C(5ax)],
+7.5
+15.0
+22.5
+30.0
+37.5
+45.0
+52.5
+60.0
+0.0
+600
+1200
+1
+2
+3
+4
+5
+A
+time (min)
+Signal intensity
+(Absorption at 324 nm)
+7.5
+15.0
+22.5
+30.0
+37.5
+45.0
+52.5
+60.0
+0.0
+600
+1200
+1
+2
+3
+4
+5
+B
+Signal intensity
+(Absorption at 324 nm)
+time (min)
+Fig. 2
+RP-HPLC chromatogram of the methanolic polyamide
+fraction isolated (A) from decaffeinated coffee beverage, and (B)
+from roasted 5-O-caffeoylquinic acid; 1: 5-O-caffeoyl-muco-γ-
+quinide (6a); 2: 3-O-caffeoyl-γ-quinide (2a); 3: 4-O-caffeoyl-muco-
+γ-quinide (5a); 4: 5-O-caffeoyl-epi-δ-quinide (4a); 5: 4-O-caffeoyl-
+γ-quinide (3a)
+6.28 [d, 1H, J=15.8 Hz, H–C(5′)], 6.78 [d, 1H, J=8.1 Hz,
+H–C(2′)], 6.97 [dd, 1H, J=8.1, 1.9 Hz, H–C(3′)], 7.05 [d,
+1H, J=1.9 Hz H–C(1′)], 7.59 [d, 1H, J=15.8 Hz, H–C(4′)].
+4-O-Caffeoyl-muco-γ -quinide (5a; Fig. 3): UV/vis (wa-
+ter/MeOH; 5/5; v/v): λmax=235, 300, 324 nm; LC/MS
+(ESI+): 337.1 (100; [M+H]+);1H NMR (400 MHz;
+MeOD;
+COSY):
+δ
+2.03–2.44
+[m,
+4H,
+H–C(2eq/ax),
+H–C(6eq/ax)], 4.15 [dd, 1H, J=5.2, 1.3 Hz, H–C(5eq)], 4.72
+[ddd, 1H, J=6.0, 4.1, 1.3, H–C(3eq)], 5.07 [d, 1H, J=4.0,
+H–C(4eq)], 6.30 [d, 1H, J=15.9 Hz, H–C(5′)], 6.78 [d, 1H,
+J=8.1 Hz, H–C(3′)], 6.97 [dd, 1H, J=8.1, 1.9 H–C(2′)],
+7.05 [d, J=1.9 Hz, 1H, H–C(1′)], 7.60 [d, 1H, J=15.8,
+H–C(4′)]
+5-O-Caffeoyl-muco-γ -quinide (6a; Fig. 3): UV/vis (wa-
+ter/MeOH; 5/5; v/v): λmax=235, 300, 324 nm; LC/MS
+(ESI+): 337.1 (100; [M+H]+);1H NMR (400 MHz;
+MeOD;
+COSY):
+δ
+2.04–2.51
+[m,
+4H,
+H–C(2eq/ax),
+H–C(6eq/ax),], 3.95 [d, 1H, J=4.1 Hz, H–C(4eq)], 4.72 [ddd,
+1H, J=6.0, 4.1, 1.3 Hz, H–C(3eq)], 5.13 [dd, 1H, J=5.3,
+1.3, H–C(5eq)], 6.15 [d, 1H, J=15.9 Hz, H–C(5′)], 6.76
+[d, 1H, J=8.2 Hz, H–C(3′)], 6.93 [dd, 1H, J=8.2, 2.2 Hz,
+H–C(2′)], 7.02 [d, 1H, J=2.2 Hz, H–C(1′)], 7.53 [d, 1H,
+J=15.9 Hz, H–C(4′)].
+
+496
+Fig. 3
+Proposed reaction
+pathways leading to the
+formation of caffeoyl- and
+feruloyl-quinides upon roasting
+of coffee beans
+Synthesis of 5-O-feruloylquinic acid (1b)
+5-O-Feruloylquinic acid was prepared following a synthetic
+strategy reported earlier [18] with some modiﬁcations as
+outlined in Fig. 4.
+O-Acetylferulic acid. Acetic anhydride (50 mmol) was
+dropped to a solution of ferulic acid (40 mmol) and DMAP
+(1 mmol) in pyridine (20 ml) at 0 ◦C. After stirring for
+1 h, the mixture was poured onto ice, the aqueous phase
+was acidiﬁed with hydrochloric acid (2 mol/l) to pH 2 and
+then extracted with ethyl acetate (3×150 ml). The com-
+bined organic layers were dried over Na2SO4, and, after
+ﬁltration and removing the solvent in vacuum, the residue
+was treated with light petroleum/ethyl acetate (97/3; v/v;
+20 ml) thus yielding the title compound as a white pow-
+der (35 mmol, yield 89%). LC/MS (ESI+): 237.2 (30,
+[M+H]+), 177.0 (90); 1H NMR (400 MHz; CDCl3; ar-
+bitrary carbon numbering refers to formula II in Fig. 4):
+δ 2.32 (s, 3 H, CH3COO), 3.91 (s, 3 H, H–C(6′)), 6.42
+(d, 1 H, J=15.8 Hz, H–C(5′)), 7.10 (d, 1H, J=8.2 Hz,
+H–C(3′)), 7.16 (d, 1 H, J=1.9 Hz, H–C(1′)), 7.18 (dd, 1
+H, J=8.2, 1.9 Hz, H–C(2′)), 7.76 (d, 1 H, J=15.8 Hz,
+(H–C(4′)).
+O-Acetylferulic acid chloride. Oxalyl chloride (40 mmol)
+was added dropwise to a suspension of O-acetylferulic acid
+(26 mmol) in toluene (200 ml) and DMF (0.5 ml) at −5 ◦C.
+After stirring for 3 h at room temperature, toluene and
+non-reacted oxalyl chloride were removed in vacuum and
+the residue was dissolved in toluene (60 ml). Crystalisa-
+tion yielded the title compound as a pale yellow powder
+(18 mmol, yield 71%).1H NMR (400 MHz; CDCl3; arbi-
+trary carbon numbering refers to formula III in Fig. 4): δ
+2.35 (s, 3 H, CH3COO), 3.91 (s, 3 H, H–C(6′)), 6.62 (d, 1
+H, J=15.8 Hz, H–C(5′)), 7.13 (d, 1H, J=8.2 Hz, H–C(3′)),
+7.15 (d, 1 H, J=1.9 Hz, H–C(1′)), 7.21 (dd, 1 H, J=8.2,
+1.9 Hz, H–C(2′)), 7.81 (d, 1 H, J=15.8 Hz, (H–C(4′)).
+Fig. 4
+Reaction sequence used
+for the synthesis of
+5-O-feruloylquinic acid (1b);
+(a) Ac2O/DMAP/pyridine, (b)
+(COCl)2/toluene/DMF, (c)
+CH2Cl2/EtN3/Me3SiCl/-15 ◦C,
+(d) CH2Cl2/acetone/DMP/TMS-
+oTf/-95 ◦C, (e)
+CH2Cl2/pyridine/DMAP, (f)
+THF/HCl
+
+497
+Bisacetonide (formula VII in Fig. 4). Triethylamine
+(116 mmol) was added at −15 ◦C to a suspension of
+quinic acid (20.8 mmol; pre-dried for 90 min at 30 ◦C and
+3×10−3 bar) in CH2Cl2 (80 ml). After the reaction mixture
+was turning clear, trimethylsilylchloride (110 mmol) was
+added and the reaction mixture was stirred for 5 h while
+maintaining the temperature below 0 ◦C. Pentane (200 ml)
+was added, the precipitate formed was ﬁltered off, and sub-
+sequently extracted with pentane (2×150 ml) at 30 ◦C. The
+combined pentane fractions were freed from solvent in vac-
+uum, the residue was redissolved in pentane and remain-
+ing traces of ammonium salt were removed by ﬁltration.
+The pentane was removed in vacuum to give the pentasi-
+lyl quinic acid as a pale yellow liquid (16.7 mmol, yield
+81%). A solution of the pentasilylquinic acid (11.7 mmol)
+in acetone (32 ml) and DMP (32 ml) was cooled to −95 ◦C
+and a solution of TMS-OTf (2 mmol) in CH2Cl2 (4 ml)
+was added dropwise. The reaction mixture was stirred for
+2 h while increasing the temperature to −45 ◦C, then the
+solution was kept at −32 ◦C for 24 h, and, ﬁnally, it was
+re-cooled to −80 ◦C. The reaction mixture was added to
+a saturated NaHCO3 solution (100 ml) and the aqueous
+layer was extracted with ethyl acetate (3×150 ml). The
+combined organic layers were dried over Na2SO4, ﬁltered,
+freed from solvent in vacuum, and the residue obtained
+was puriﬁed by means of column chromatography on silica
+gel (4×30 cm) using EtOAc/light petroleum mixtures as
+the mobile phase and collecting the following fractions:
+fraction 1 (25/75; v/v; 400 ml), fraction 2 (35/65; v/v;
+300 ml), fraction 3 (45/55; v/v; 350 ml), fraction 4 (55/45;
+v/v; 400 ml), and fraction 5 (65/35; v/v; 300 ml). After
+evaporation of the solvent from fraction 5, the title com-
+pound was obtained as colourless crystals (7.5 mmol, yield
+45%). LC/MS (ESI+): 273.2 (100, [M+H]+); 1H NMR
+(400 MHz; CDCl3; arbitrary carbon numbering refers to
+formula VI in Fig. 4): δ 1.38 (s, 3H, CH3CO), 1.55 (s, 3
+H, CH3CO), 1.63 (s, 3 H, CH3CO), 1.65 (s, 3 H, CH3CO),
+1.9-2.36 (m, 4 H, H–C(2ax/eq), H–C(6ax/eq)), 4.00–4.10 (m,
+2 H, H–C(3eq), H–C(4ax)), 4.50 (dd, 1 H, J=5.6, 4.8 Hz,
+H–C(5ax)).
+Ester (formula VII in Fig. 4) Pyridine (14 ml) and O-
+acetylferuloyl chloride (13 mmol) were added to a solution
+of the bisacetonide (4 mmol) and DMAP (0.75 mmol) in
+CH2Cl2 (50 ml) at room temperature. After stirring for
+20 h, the mixture was acidiﬁed with aqueous HCl (1 mol/l)
+to pH 3.0, both layers were separated, and the target com-
+pound was extracted from the aqueous phase with CH2Cl2
+(3×150 ml). The combined organic layers were dried over
+Na2SO4 and, after removing the solvents in vacuum, the
+residue was separated by column chromatography on silica
+gel (4×30 cm) with EtOAc/light petroleum (30/70; v/v;
+300 ml), followed by EtOAc/light petroleum (35/65; v/v;
+650 ml), thus yielding the title compound as a colourless
+amorphous powder (3.5 mmol, yield 89%) after evapora-
+tion of the solvent in vacuum. LC/MS (ESI+): 491.2 (100,
+[M+H]+);1H NMR (400 MHz; CDCl3; arbitrary carbon
+numbering refers to formula VII in Fig. 4): δ 1.38 (s, 3H,
+CH3CO), 1.55 (s, 3 H, CH3CO), 1.63 (s, 3 H, CH3CO),
+1.65 (s, 3 H, CH3CO), 1.92–2.33 (m, 4H, H–C(2ax/eq),
+H–C(6ax/eq)), 2.36 (s, 3H, CH3COO), 3.87 (s, 3H, H–C(6′)),
+5.27 (dd, 1H, J=7.6, 5.8 Hz, H–C(4ax)), 4.55 (m, 1H,
+J=5.8 Hz, H–C(3eq)), 5.27 (ddd, 1H, J=11.2, 7.6, 4.4 Hz,
+H–C(5ax)), 6.4 (d, 1 H, J=16 Hz, H–C(5′)), 7.04 (d, 1
+H, J=8.1 Hz, H–C(3′)), 7.10 (d, 1H, J=1.8 Hz, H–C(1′)),
+7.12 (dd, 1 H, J=8.1, 1.8 Hz (2′)), 7.68 (d, 1 H, J=16 Hz,
+H–C(4′)).
+5-O-Feruoylquinic acid (1b; Fig. 4): The ester (2 mmol)
+was suspended in a mixture of aqueous HCl (1 mol/l; 52 ml)
+and THF (13 ml), and stirred for 48 h at r.t.. The aqueous
+phase was then saturated with NaCl, extracted with EtOAc
+(3×100 ml), the combined EtOAc layers were dried over
+Na2SO4, ﬁltered, and, after removing the solvent in vac-
+uum, the residue was extracted Et2O (3×10 ml) at 50 ◦C
+to afford the 5-O-feruloylquinic acid (1.6 mmol, 80%) as
+a white amorphous powder. LC/MS (ESI+): 369.2 (90,
+[M+H]+), 177.2 (100);1H NMR (400 MHz; MeOD): δ
+1.92–2.29 (m, 4H, H–C(2eq/ax), H–C(6eq/ax)), 3.75 (dd, 1
+H, J=8.5, 3.3 Hz, H–C(4ax)), 3.91 (s, 3H, H–C6′), 4.12–
+4.20 (m, 1 H, J=3.3 Hz, H-(C3eq)), 5.36 (ddd, 1 H, J=9.2,
+8.5, 4.3 Hz, H–C(5ax)), 6.37 (d, 1 H, J=15.9 Hz, H–C(5′)),
+6.83 (d, 1 H, J=8.2 Hz, H–C(3′)), 7.10 (dd, 1H, J=8.2,
+1.8 Hz, H–C(2′)), 7.20 (d, 1 H, J=1.8 Hz, H–C(1′)), 7.64
+(d, 1 H, J=15.9 Hz, H–C(4′)).
+Syntheses of 3-feruloyl-γ-quinide (2b)
+-Feruloyl-γ-quinide was synthesized following a proce-
+dure reported earlier [19, 20] with some modiﬁcations as
+outlined in Fig. 5.
+3,4-Isopropylidene-1,5-quinide. p-Toluene sulfonic acid
+(29 mmol) was added to a suspension of quinic acid
+(78 mmol) in acetone (300 ml), and the mixture was re-
+ﬂuxed for 24 h in a Soxleth apparatus which was equipped
+with an extraction thimble ﬁlled with a molecular sieve
+(15 g, 4 ˚A). After cooling to 4 ◦C, NaHCO3 (4 g, 48 mmol)
+was added, the mixture was stirred for 1 h, and then ﬁl-
+tered. After removing the solvent from the ﬁltrate in vac-
+uum, the residue was taken up from CH2Cl2 (150 ml) and
+upon addition of hexane (150 ml) the 3,4-isopropylidene-
+1,5-quinide (73.8 mmol, yield 95%) was obtained as pre-
+cipitate. LC/MS (ESI+): 215.2 (100, [M+H]+); 1H NMR
+(400 MHz; DMSO-d6; arbitrary carbon numbering refers
+to formula II in Fig. 5): δ 1.34 (s, 3H, CH3CO), 1.51 (s,
+3H, CH3CO), 2.02 (dd, 1H, J=14.8, 2.8 Hz, H–C(2ax)),
+2.25–2.42 (m, 2H, H–C(2eq), H–C(6eq)), 2.54 (d, 1H,
+J=12.0 Hz, H–C(6ax)), 4.31 (m, 1H, H–C(3ax)), 4.54 (m,
+1H, H–C(4eq)), 4.69 (dd, 1H, J=6.2, 2.6 Hz, H–C(5eq)).
+1-O-(2,2,2-Trichloroethoxycarbonyl)-3,4-o-isopropylid-
+ene-1,5-quinide. Anhydrous pyridine (14 ml) was added to
+a solution of 3,4-isopropylidene-1,5-quinide (47 mmol) in
+CH2Cl2 (100 ml), the mixture was then cooled to 0 ◦C and
+a solution of 2,2,2-trichloroethylchloroformate (50 mmol)
+in CH2Cl2 (16 ml) was added dropwise. After stirring for
+2 h at room temperature, CH2Cl2 (100 ml) was added
+and, after washing the mixture with HCl (2×100 ml,
+1 mol/l), followed by water (100 ml), the organic layer
+
+498
+Fig. 5
+Reaction sequence used
+for the synthesis of
+3-O-feruloyl-γ-quinide (2b); (a)
+p-toluenesulfonic acid/acetone,
+(b) CH2Cl2/pyridine/2,2,2-
+trichloroethylchloroformate, (c)
+H2O/Cl3CCOOH, (d)
+NaOH/2,2,2-
+trichloroethylchloroformate, (e)
+SOCl2, (f)
+CH2Cl2/pyridine/-40 ◦C/24 h,
+(g) THF/Zn/HAc
+was dried over Na2SO4, and ﬁltered. The ﬁltrate was
+concentrated to 50 ml in vacuum and, after addition of
+ethanol (100 ml), 1-O-(2,2,2-trichloroethoxycarbonyl)-
+3,4-o-isopropylidene-1,5-quinide (26 mmol, yield 55%)
+was obtained as precipitate. LC/MS (ESI+): 389.0
+(100,
+[M+H]+),
+391.0
+(97,
+[M+H]+),
+393,0
+(31,
+[M+H]+);1H-NMR (400 MHz; CDCl3; arbitrary carbon
+numbering refers to formula III in Fig. 5): δ 1.34 (s, 3H,
+CH3CO), 1.51 (s, 3H, CH3CO), 2.42 (dd, 1H, J=14.8,
+2.8 Hz, H–C(2ax)), 2.57 (m, 1H, H–C(2eq)), 2.67 (d, 1H,
+J=11,2 Hz, H–C(6ax)), 3.08 (m, 1H, H–C(6eq)), 4.36
+(m, 1H, H–C(3ax)), 4.58 (m, 1H, H–C(4eq)), 4.74 (d, 1H,
+J=10.8 Hz, OCH2Cl3), 4.81 (dd, 1H, J=6.2, 2.6 Hz,
+H–C(5eq)), 4.84 (d, 1H, J=10.8 Hz, OCH2Cl3).
+1-O-(2,2,2-Trichloroethoxycarbonyl-)1,5-quinide. Water
+(2 ml) was added to trichloroacetic acid (82.5 mmol)
+and stirred at 40 ◦C until the solution was clear, then 1-
+O-(2,2,2-trichloroethoxycarbonyl)-3,4-O-isopropy lidene-
+1,5-quinide (26 mmol) was added in small portions at
+room temperature. After stirring the mixture for 4 h, ice
+water (100 ml) and ethyl acetate (200 ml) were added,
+followed by the addition of NaHCO3 solution (89 mmol
+in 200 ml water). The organic phase was separated and,
+after extraction with NaHCO3 solution (2% in water,
+50 ml) and water (50 ml), the organic layer was dried
+over Na2SO4, ﬁltered, and the residue was dissolved in
+toluene (80 ml) at 70 ◦C. After storing overnight at 4 ◦C,
+the ﬁltration of the precipitate formed afforded the tar-
+get compound (17.2 mmol, yield 66%). LC/MS (ESI+):
+349.0 (100, [M+H]+), 351.0 (96, [M+H]+), 352.0 (31,
+[M+H]+); 1H NMR (400 MHz; DMSO; arbitrary car-
+bon numbering refers to formula IV in Fig. 5): δ 1.98–
+2.04, (m, 1H, H–C(2eq)), 2.12 (t, 1H, J=11.6, H–C(2ax)),
+2.56 (d, 1H, J=11,2 Hz, H–C(6ax)), 2.86 (m, 1H,
+H–C(6eq)), 3.61 (m, 1H, H–C(3ax)), 3.90 (t, 1H, J=4.4 Hz,
+H–C(4eq)), 4.81 (m, 1H, H–C(5eq)), 4.95 (d, 1H, J=4.4 Hz,
+OCH2Cl3).
+4-O-(2,2,2-Trichloroethoxycarbonyl) ferulic acid. 2,2,2-
+Trichloroethyl chloroformate (61 mmol) was added drop-
+wise to a solution of ferulic acid (51 mmol) in aqueous
+NaOH (1 mol/l, 140 ml) at 0 ◦C. After stirring the mix-
+ture for 20 min, the solution was adjusted to pH 7.0 with
+HCl (2 mol/l), and the precipitate formed was ﬁltered off.
+Recrystallisation from water/EtOH (50/50, v/v, 300 ml) af-
+forded the title compound (41 mmol, yield 79.6%). LC/MS
+(ESI+): 368.9 (100, [M+H]+), 370.9 (95, [M+H]+), 372.9
+(32, [M+H]+); 1H NMR (400 MHz; CDCl3; arbitrary car-
+bon numbering refers to formula VI in Fig. 5): δ 3.93 (s, 3H,
+H–C(6′)), 4.91 (s, 2H, OCH2Cl3), 6.44 (d, 1H, J=16 Hz,
+H–C(5′)), 7.22 (m, 3H, H–C(1′), H–C(2′), H–C(3′)), 7.77
+(d, 1H, J = 16 Hz, H–C (4′)).
+4-O-(2,2,2-Trichloroethoxycarbonyl) feruloyl chloride.
+Thionyl chloride (17.3 mmol) was added to 4-O-(2,2,2-
+trichloroethoxycarbonyl) ferulic acid (13.5 mmol) at room
+temperature and the mixture was then reﬂuxed for 1 h at
+90 ◦C. Crystallisation of the mixture from toluene (150 ml)
+yielded the title compound (9 mmol, yield 67%).1H-NMR
+(400 MHz; CDCl3; arbitrary carbon numbering refers to
+formula VII in Fig. 5): δ 4.17 (s, 3H, H–C(6′)), 5.16 (s,
+2H, OCH2Cl3), 6.88 (d, 1H, J=16 Hz, H–C(5′)), 7.48 (m,
+3H, H–C(1′), H–C(2′), H–C(3′)), 8.06 (d, 1H, J=16 Hz,
+H–C (4′)).
+1-O-(2,2,2-Trichloroethoxycarbonyl)-4-O-(2,2,2-trichl-
+oroethoxycarbonyl)feruloyl-1,5-quinide.
+A
+solution
+of
+4-O-(2,2,2-trichloroethoxycarbonyl)
+ferulic
+chloride
+(9 mmol) in CH2Cl2 (25 ml) was added dropwise to a so-
+lution of 1-O-(2,2,2-trichloroethoxycarbonyl)-1,5-quinide
+(9 mmol) and pyridine (13.8 mmol) in CH2Cl2 (50 ml)
+whilst cooling at −40 ◦C. After stirring at −40 ◦C for
+24 h, the solvent was removed in vacuum, the residue was
+dissolved in ethyl acetate (50 ml), and the organic layer
+was stepwise extracted with water (100 ml), aqueous HCl
+(100 ml, 0.5 mol/l), and brine (100 ml). The remaining
+organic phase was dried over Na2SO4 and, after ﬁltration,
+
+499
+the solvent was removed in vacuum. Crystallization of the
+residue from toluene (50 ml) afforded the title compound
+(1.7 mmol, yield 19%). LC/MS (ESI+): 700.9 (100,
+[M+H]+), 702.9 (79, [M+H]+), 698.9 (52, [M+H]+);
+1H NMR (400 MHz; CDCl3; arbitrary carbon numbering
+refers to formula VIII in Fig. 5): δ 2.40–2.52 (m, 2H,
+H–C(2ax/eq)), 2.80 (d, 1H, J=11,2 Hz, H–C(6ax)), 3.10
+(m, 1H, H–C(6eq)), 3.92 (s, 3H, H–C(6′)), 4.47 (dd,
+1H, J=4.8, 4.4 Hz, H–C(4eq)), 4.85 (d, 1H, J=10.8 Hz,
+OCH2Cl3), 4.92 (s, 2H, OCH2Cl3), 4.81 (dd, 1H, J=5.6,
+4.8 Hz, H–C(5eq)), 5.14 (m, 1H, J=11.6, 6.6, 4.4 Hz,
+H–C(3ax)), 6.40 (d, 1H, J=16 Hz, H–C(5′)), 7.18 (m,
+3H, H–C(1′), H–C(2′), H–C(3′)), 7.70 (d, 1H, J=16 Hz,
+H–C (4′)).
+3-Feruoyl-γ -quinide (2b; Fig. 5): Zink power (0.8 g)
+and
+acetic
+acid
+(4.5
+ml)
+were
+added
+to
+a
+solu-
+tion of 1-O-(2,2,2-trichloroethoxycarbonyl)-4-O-(2,2,2-
+trichloroethoxycarbonyl) feruloyl-1,5-quinide (1.7 mmol)
+in THF (4.5 ml), and the mixture was stirred for 3 h at room
+temperature. After solvent evaporation in vacuum, EtOAc
+(50 ml) was added, the solution was cooled to 0 ◦C, and
+the solution was extracted with aqueous HCl (0.5 mol/l,
+20 ml), followed by brine (20 ml). The organic layer was
+dried over Na2SO4 and, after ﬁltration, the solvent was re-
+moved in vacuum to give a residue which was dissolved
+in water/MeOH (80/20, v/v, 5 ml) and puriﬁed by means
+of a RP-18 cartridge (5 g, 20 ml, Strata Giga Tube, C-18
+E, Phenomenx, Aschaffenburg) conditioned with methanol
+(20 ml), followed by water/MeOH (80/20, v/v, 30 ml) prior
+to use. After application of the crude sample the cartridge
+was rinsed with water with water (20 ml), followed by wa-
+ter/MeOH (80/20, v/v, 20 ml) and water/MeOH (60/40, v/v,
+20 ml. The latter two fractions were freed from solvent in
+vacuum, and the residue was extracted with ethyl acetate
+(3×50 ml). Removing the solvent in vacuum yielded 3-
+feruloyl-γ-quinide (1.1 mmol, yield 67%). LC/MS (ESI+):
+351.1 (100, [M+H]+); 1H NMR (400 MHz; MeOH): δ
+2.10–2.18 (m, 2H, H–C(2ax/eq)), 2.32 (m, 1H, H–C(6eq)),
+2.60 (d, 1H, J=11,2 Hz, H–C(6ax)), 3.90 (s, 3H, H–C(6′)),
+4.31 (dd, 1H, J=4.8, 4.4 Hz, H–C(4eq)), 4.78 (dd, 1H,
+J=5.6, 4.8 Hz, H–C(5eq)), 4.95 (m, 1H, J=11.6, 6.6, 4.4 Hz,
+H–C(3ax)), 6.42 (d, 1H, J=16 Hz, H–C(5′)), 6.84 (d, 1H,
+J=8.1 Hz, H–C(3′)), 7.11 (dd, 1H, J=8.1, 1.9 Hz, H–C(2′)),
+7.22 (d, 1H, J=1.9 Hz, H–C(1′)), 7.71 (d, 1H, J=16 Hz,
+H–C (4′)).
+Isolation and identiﬁcation of 3-, 4-, and 5-O-feruloyl
+quinides (3b–6b)
+The EtOAc extracts isolated from the roasted sample of
+5-O-feruloylquinic acid (1b) were fractionated closely fol-
+lowing the procedure reported above for the 5-O-caffeoyl
+quinides (2a–6a) with some modiﬁcations in the HPLC sol-
+vent system. Starting with a mixture (60/40, v/v) of aqueous
+ammonium formate (0.5 mol/l, pH 3.5) and methanol, the
+methanol content was increased to 45% within 35 min,
+and then to 100% within 5 min. The efﬂuent of the roast
+products exhibiting maximal UV/vis absorption at 300
+and 324 nm were collected in several runs, the eluates
+of the corresponding fractions were combined, the solvent
+was removed in vacuum, and then the individual 3-, 4-,
+and 5-O-feruoyl quinides (3b–6b) were individually pu-
+riﬁed and dried by means of the SPE procedure detailed
+above.
+3-O-Feruloyl-γ -quinide (2b; Fig. 3): UV/vis (wa-
+ter/MeOH, 5/5; v/v): λmax=244, 300, 324 nm; LC/MS
+(ESI+): 351.0 (100; [M]+); 1H NMR (400 MHz; MeOD;
+COSY): δ 2.10–2.18 [m, 2H, H–C(2eq/ax)], 2.32 [m,
+1H, H–C(6eq)], 2.60 [d, 1H, J=11.2 Hz, H–C(6ax)],
+3.90 [s, 3H, H–C(6′)], 4.31 [dd, 1H, J=4.8, 4.4 Hz,
+H–C(4eq)], 4.78 [dd, 1H, J=5.6, 4.8 Hz, H–C(5eq)],
+4.95 [ddd, 1H, J=11.6, 6.6, 4.4 Hz, H–C(3ax)], 6.41
+[d, 1H, J=16.0 Hz, H–C(5′)], 6.84 [d, 1H, J=8.1 Hz,
+H–C(2′)], 7.11 [dd, 1H, J=8.1, 1.9 Hz, H–C(3′)], 7.22
+[d, 1H, J=1.9 Hz, H–C(1′)], 7.71 [d, 1H, J=16.0 Hz,
+H–C(4′)].
+4-O-Feruloyl-γ -quinide (3b; Fig. 3): UV/vis (wa-
+ter/MeOH, 5/5; v/v): λmax=244, 300, 324 nm; LC/MS
+(ESI+): 351.0 (100; [M]+); 1H NMR (400 MHz; MeOD;
+COSY): δ 2.10–2.18 [m, 2H, H–C(2eq/ax)], 2.35 [m,
+1H, H–C(6eq)], 2.59 [m, 1H, J=11.2 Hz, H–C(6ax)],
+3.90 [s, 3H, H–C(6′)], 3.99 [ddd, 1H, J=11.7, 6.5,
+4.8 Hz, H–C(3ax)], 4.91 [dd, 1H, J=5.6, 4.4 Hz,
+H–C(5eq)], 5.33 [dd, 1H, J=4.8, 4.4 Hz, H–C(4eq)],
+6.46
+[d,
+1H,
+J=15.9
+Hz,
+H–C(5′)],
+6.84
+[d,
+1H,
+J=8.1 Hz, H–C(2′)], 7.09 [d, 1H, J=8.1 Hz, H–C(3′)],
+7.25
+[s,
+1H,
+H–C(1′)],
+7.68
+[d,
+1H,
+J=15.8
+Hz,
+H–C(4′)].
+5-O-Feruloyl-epi-δ-quinide (4b; Fig. 3): UV/VIS (wa-
+ter/MeOH, 5/5; v/v): λmax=244, 300, 324 nm; LC/MS
+(ESI+): 351.0 (100; [M]+); 1H NMR (400 MHz; MeOD;
+COSY): δ 1.77–1.82 [m, 2H, H–C(2eq), H–C(6eq)], 2.34–
+2.55 [m, 2H, H–C(2ax), H–C(6ax)], 3.92 [s, 3H, H–C(6′)],
+4.48 [dd, 1H, J=9.0, 1.5 Hz, H–C(3eq)], 4.67 [dd, 1H,
+J=4.2, 1.5 Hz, H–C(4eq)], 5.22 [ddd, 1H, J=10.1, 5.6,
+4.2 Hz, H–C(5ax)], 6.39 [d, 1H, J=15.8 Hz, H–C(5′)],
+6.81 [d, 1H, J=8.1 Hz, H–C(2′)], 7.10 [d, 1H, J=8.1 Hz,
+H–C(3′)], 7.21 [s, 1H, H–C(1′)], 7.68 [d, 1H, J=15.8 Hz,
+H–C(4′)].
+4-O-Feruloyl-muco-γ -quinide (5b; Fig. 3): UV/vis (wa-
+ter/MeOH, 5/5; v/v): λmax=244, 300, 324 nm; LC/MS
+(ESI+): 351.0 (100; [M]+); 1H NMR (400 MHz; MeOD;
+COSY): δ 2.04–2.46 [m, 1H, H–C(2eq/ax), H–C(6ax/eq)],
+4.15 [dd, 1H, J=5.2, 1.3 Hz, H–C(5eq)], 4.86 [ddd,
+1H, J=6.0, 4.1, 1.3, H–C(3eq)], 5.15 [d, 1H, J=4.0 Hz,
+H–C(4eq)], 6.43 [d, 1H, J=15.9 Hz, H–C(5′)], 6.84 [d, 1H,
+J=8.1 Hz, H–C(2′)], 7.14 [d, 1H, J=8.1, 1.9 Hz, H–C(3′)],
+7.25 [d, 1H, J=1.9 Hz, H–C(1′)], 7.74 [d, 1H, J=15.8,
+H–C(4′)].
+5-O-Feruloyl-muco-γ -quinide (6b; Fig. 3): UV/vis (wa-
+ter/MeOH, 5/5; v/v): λmax=244, 300, 324 nm; LC/MS
+(ESI+): 351.0 (100; [M]+); 1H NMR (400 MHz; MeOD;
+COSY): δ 2.04–2.50 [m, 1H, H–C(2eq/ax), H–C(6eq/ax)],
+3.89 [s, 3H, H–C(6′)], 3.98 [d, 1H, J=4.0 Hz, H–C(4eq)],
+4.78 [ddd, 1H, J=6.0, 4.0, 1.3 Hz, H–C(3eq)], 5.16 [dd,
+1H, J=5.2, 1.2 Hz, H–C(5eq)], 6.28 [d, 1H, J=15.9 Hz,
+H–C(5′)], 6.80 [d, 1H, J=8.2 Hz, H–C(2′)], 7.16 [dd, 1H,
+
+500
+J=8.2, 2.2 Hz H–C(3′)], 7.19 [d, 1H, J=2.2 Hz, H–C(1′)],
+7.61 [d, 1H, J=15.5 Hz, H–C(4′)].
+Isolation of the bitter-tasting fraction no. 15
+from CB-fraction II
+CB-Fraction II isolated from coffee beverage (250 ml)
+was taken up in a mixture (50/50, v/v; 10 ml) of wa-
+ter (pH 3.5, adjusted with HCOOH) and methanol, and
+an aliquot (3 ml) was applied on top of a water-cooled
+glass column (20 cm×3 cm) ﬁlled with LiChroprep RP-
+18 (25–40 µm, Merck, Darmstadt, Germany) conditioned
+with a water/methanol mixture (20/80, v/v; pH 3.0). Chro-
+matography with the methanol/water mixtures 20/80 (v/v,
+200 ml, fraction A), 30/70 (v/v, 200 ml; fraction B), 40/60
+(v/v, 200 ml, fraction C), 50/50 (v/v, 200 ml, fraction
+D), 60/40 (v/v, 200 ml, fraction E), 70/30 (v/v; 200 ml,
+fraction F), and 80/20 (v/v, 200 ml, fraction G) afforded
+bitter compounds in fractions E and F, which were com-
+bined, and freed from solvent in vacuum to give the
+complex peak pattern eluting in HPLC fraction no. 15
+(Fig. 6A) in a yield of 351.6 mg/l related to the coffee
+beverage.
+Alkaline degradation of bitter-tasting fraction no. 15
+The isolated HPLC fraction no. 15 was treated under
+alkaline conditions by using two different methods: (A) an
+aliquot (8 mg) of fraction no. 15 dissolved in water (2 ml)
+was adjusted with NaOH (1 mol/l) to pH 10, then stirred
+for 60 min at 20 ◦C, and, ﬁnally, the pH value was adjusted
+to 5.0 with aqueous HCL (1 mol/l); (B) an aliquot (8 mg)
+of HPLC fraction no. 15 dissolved in water (2 ml) was ad-
+justed with NaOH (10 mol/l) to pH 13, then was stirred for
+60 min at 60 ◦C, and, ﬁnally, the pH value was adjusted to
+5.0 with aqueous HCL (5 mol/l). After alkaline treatment,
+the solutions were analyzed by HPIC as well as HPLC
+on an analytical ODS-C 18 column (4.6 mm×250 mm,
+Thermo Hypersil, MZ Analysentechnik, Mainz, Germany)
+starting with a mixture (60/40, v/v) of ammonium formate
+(0.1 mol/l, pH 3.5) and methanol, then increasing the
+methanol content to 50% within 10 min, and to 65% within
+30 min, thereafter increasing the methanol to 100% within
+5 min. Comparison of the retention times, UV-vis, and
+LC-MS data with those of reference compounds led to the
+identiﬁcation of the compounds detected in hydrolysate A
+(Fig. 6B) as 3-O-caffeoyl- (peak 1), 5-O-caffeoyl- (peak
+2), and 4-O-caffeoylquinic acid (peak 3), p-coumaric acid
+(peak 4), ferulic acid (peak 5), 5-O-feruoylquinic acid
+(peak 6) as well as 3,4-, 3,5- and 4,5-O-dicaffeoyl-quinic
+acids (peaks 7–8). In hydrolysate B, the peaks no. 1–4 (Fig.
+6C) were identiﬁed as caffeic acid (m/z 181, [M+1]+),
+p-coumaric acid (m/z 165, [M+1]+), ferulic acid (m/z
+195, [M+1]+), and 3,4-dimethoxycinnamic acid (m/z 209,
+[M+1]+) by comparing the retention times, UV/vis and
+MS data with those obtained for references. In addition,
+Fig. 6
+RP-HPLC chromatogram of isolated fraction no. 15 (A)
+before treatment (control), (B) after 60 min at pH 10, 20
+◦C;
+(1) 3-O-caffeoylquinic acid, (2) 5-O-caffeoylquinic acid, (3) 4-O-
+caffeoylquinic acid, (4) p-cumaric acid, (5) ferulic acid, (6) 5-
+O-feruloylquinic acid, (7) 3,4-O-dicaffeoylquinic acid, (8) 3,5-O-
+dicaffeoylquinic acid, (9) 4,5-O-dicaffeoylquinic acid, and (C) after
+60 min at pH 13, 60 ◦C; (1) caffeic acid, (2) p-cumaric acid, (3)
+ferulic acid, (4) 3,4-dimethoxycinnamic acid
+
+501
+HPIC analysis led to the identiﬁcation of quinic acid in the
+hydrolysates.
+Isolation of 3,4-, 3,5-, and 4,5-O-dicaffeoyl-quinic
+acids (7–9)
+Ground raw coffee beans (400 g) were extracted for 2 h with
+methanol/water (70/30; v/v; 500 ml) by means of a Soxleth
+apparatus. After cooling and removing the methanol in
+vacuum, the solution was ﬁltered (0.45 µm) and frac-
+tionated by preparative HPLC on an ODS-C 18 column
+(21.2×250 mm; Thermo Hypersil, MZ Analysentechnik,
+Mainz, Germany). Monitoring the efﬂuent at 324 nm,
+chromatography was performed starting with a mixture
+(85/15, v/v) of aqueous formic acid (1% in water, pH
+3.5) and acetonitrile, then increasing the acetonitrile con-
+tent to 25% within 12 min, then to 40% within 15 min,
+and, ﬁnally, maintaining the acetonitrile content at 40%
+for 5 min. The peaks exhibiting the expected absorption
+maxima at 300 and 324 nm were collected individually in
+several runs, freed from solvent in vacuum, and freeze-
+dried to afford 3,4-, 3,5-, and 4,5-O-dicaffeoyl quinic
+acid.
+3,4-O-Dicaffeoylquinic acid (7; Fig. 8): UV/vis (wa-
+ter/MeOH; 5/5; v/v): λmax=235, 300, 328 nm; LC/MS
+(ESI+): 517.2 (100; [M]+); 1H NMR (400 MHz; MeOD;
+COSY): δ 2.05–2.60 [m, 4H, H–C(2eq/ax), H–C(6eq/ax)],
+4.20 [m, 1H, J=9.2 Hz, H–C(5ax)], 5.17 [m, 1H, J=9.2,
+3.2 Hz, H–C(4ax)], 5.65 [dd, 1H, J=3.2 Hz, H–C(3eq)],
+6.29 [d, 2H, J=15.9 Hz, H–C(5′), H–C(5′′)], 6.76 [d,
+1H, J=8.2 Hz, H–C(3′)], 6.77 [d, 1H, J=8.2 Hz,
+H–C(3′′)], 6.93 [dd, 2H, J=8.1, 2.1 Hz, H–C(2′), H–C(2′′)],
+7.05 [d, 1H, J=2.1 Hz, H–C(1′), H–C(1′′)], 7.52 [d,
+1H, J=15.9 Hz, H–C(4′)], 7.57 [d, 1H, J=15.9 Hz,
+H–C(4′′)].
+3,5-O-Dicaffeoylquinic acid (8; Fig. 8): UV/vis (wa-
+ter/MeOH; 5/5; v/v): λmax=235, 300, 324 nm; LC/MS
+(ESI+): 517.2 (100; [M]+); 1H NMR (400 MHz; MeOD;
+COSY): δ 1.90–2.35 [m, 4H, H–C(2eq/ax), H–C(6eq/ax)],
+3.96 [dd, 1H, J=9.1, 3.3 Hz, H–C(4ax)], 5.41 [m, 1H,
+J=3.3 Hz, H–C(3eq)], 5.47 [m, 1H, J=9.1, H–C(5ax)],
+6.30
+[d,
+1H,
+J=15.8
+Hz,
+H–C(5′)],
+6.39
+[d,
+1H,
+J=16.0 Hz, H–C(5′′)], 6.79 [d, 2H, J=8.0 Hz, H–C(3′),
+C(3′′)], 6.98 [dd, 2H, J=8.0, 2.0 Hz, H–C(2′), H–C(2′′)],
+7.08 [d, 2H, J=2.0 Hz, H–C(1′), C(1′′)], 7.61 [d,
+1H, J=15.8 Hz, H–C(4′)], 7.62 [d, 1H, J=16.0 Hz,
+H–C(4′′)].
+4,5-O-Dicaffeoyl quinic acid (9; Fig. 8): UV/vis (wa-
+ter/MeOH; 5/5; v/v): λmax=235, 300, 328 nm; LC/MS
+(ESI+): 517.2 (100; [M]+); 1H NMR (400 MHz; MeOD;
+COSY): δ 2.05–2.30 [m, 4H, H–C(2eq/ax), H–C(6eq/ax)],
+4.38 [m, 1H, J=3.3 Hz, H–C(3eq)], 5.12 [m, 1H, J=9.2,
+3.3 Hz, H–C(4ax)], 5.65 [dd, 1H, J=9.2 Hz, H–C(5ax)],
+6.21 [d, 1H, J=15.9 Hz, H–C(5′)], 6.39 [d, 1H, J=15.7 Hz,
+H–C(5′′)], 6.77 [d, 1H, J=8.2 Hz, H–C(3′)], 6.79 [d,
+1H, J=8.2 Hz, H–C(3′′)], 6.92 [d, 1H, J=8.2, 1.9 Hz,
+H–C(2′)], 6.93 [d, 1H, J=8.2, 1.9 Hz, H–C(2′′)], 7.04 [d,
+1H, J=1.9 Hz, H–C(1′)], 7.08 [d, 1H, J=1.9 Hz, H–C(1′′)],
+7.49 [d, 1H, J=15.9 Hz, H–C(4′)], 7.56 [d, 1H, J=15.7 Hz,
+H–C(4′′)].
+Identiﬁcation of 3,4-, 3,5-, and 4,5-O-di-caffeoyl
+quinides (10–12)
+The EtOAc extracts isolated from the roasted sample of
+3,4-,
+3,5-,
+4,5-O-dicaffeoylquinic
+acid
+or
+5-O-
+caffeoylquinic acid were directly separated by means
+of HPLC on a semi-preparative ODS-C 18 column
+(250 mm×10 mm, Thermo Hypersil, MZ Analysentech-
+nik, Mainz, Germany). Monitoring the efﬂuent at 324 nm,
+chromatography was performed starting with a mixture
+(60/40, v/v) of ammonium formate (0.5 mol/l, pH 3.5)
+and methanol, then increasing the methanol content to
+60% within 20 min, thereafter maintaining the methanol
+content for 10 min and, ﬁnally, increasing the methanol
+content to 100% within 5 min. The bitter compounds
+eluting in peak no. 3–5 (Fig. 7), detected by degustation,
+were collected in several runs, freed from solvent and,
+then, puriﬁed and dried using the SPE procedure described
+above.
+3,4-O-Dicaffeoyl-γ -quinide (10; Fig. 8): UV/vis (wa-
+ter/MeOH, 5/5; v/v): λmax=235, 300, 328 nm; LC/MS
+(ESI+): 499.1 (100; [M+H]+);
+1H NMR (400 MHz;
+MeOD; COSY): δ 2.20–2.34 [m, 2H, H–C(2eq), H–C(2ax)],
+2.45–2.62 [m, 2H, H–C(6eq), H–C(6ax)], 4.95 [dd, 1H,
+J=5.6, 5.0 Hz, H–C(5eq)], 5.20 [ddd, 1H, J=11.5, 6.6,
+4.7 Hz, H–C(3ax)], 5.63 [dd, 1H, J=4.7, 5.0 Hz, H–C(4eq)],
+6.16 [d, 1H, J=15.9 Hz, H–C(5′)], 6.40 [d, 1H, J=15.7 Hz,
+H–C(5′′)], 6.70 [d, 1H, J=8.1 Hz, H–C(3′)], 6.81 [d,
+1H, J=8.2 Hz, H–C(3′′)], 6.83 [d, 1H, J=8.1, 2.1 Hz,
+H–C(2′)], 6.99 [d, 1H, J=8.2, 2.1 Hz, H–C(2′′)], 7.02 [d,
+1H, J=2.1 Hz, H–C(1′)], 7.10 [d, 1H, J=2.1 Hz, H–C(1′′)],
+7.50 [d, 1H, J=15.9 Hz, H–C(4′)], 7.64 [d, 1H, J=15.7 Hz,
+H–C(4′′)].
+3,5-O-Dicaffeoyl-epi-δ-quinide (11; Fig. 8): UV/vis (wa-
+ter/MeOH, 5/5; v/v): λmax=235, 300, 328 nm; LC/MS
+(ESI+): 499.1 (100; [M+H]+);
+1H NMR (400 MHz;
+MeOD; COSY): δ 1.87–1.94 [m, 2H, H–C(2eq), H–C(6eq)],
+2.45 [m, 2H, H–C(6ax)], 2.68 [m, 2H, H–C(2ax)], 4.88
+[dd, 1H, J=4.2, 1.5 Hz, H–C(4eq)], 5.28 [ddd, 1H,
+J=10.1, 5.6, 4.2 Hz, H–C(5ax)], 5.56 [dd, 1H, J=9.0,
+1.5 Hz, H–C(3eq)], 6.30 [d, 1H, J=15.9 Hz, H–C(5′)],
+6.33 [d, 1H, J=15.6 Hz, H–C(5′′)], 6.77 [d, 1H,
+J=8.1 Hz, H–C(3′)], 6.78 [d, 1H, J=8.3 Hz, H–C(3′′)],
+6.96 [d, 1H, J=8.1, 1.96 Hz, H–C(2′)], 6.97 [d, 1H,
+J=8.3, 1.96 Hz, H–C(2′′)], 7.05 [d, 1H, J=1.96 Hz,
+H–C(1′)], 7.07 [d, 1H, J=1.96 Hz, H–C(1′′)], 7.60 [d,
+1H, J=15.9 Hz, H–C(4′)], 7.61 [d, 1H, J=15.6 Hz,
+H–C(4′′)].
+4,5-O-Dicaffeoyl-muco-γ -quinide (12; Fig. 8) UV/vis
+(water/MeOH, 5/5; v/v): λmax=235, 300, 328 nm; LC/MS
+(ESI+): 499.1 (100; [M+H]+);
+1H NMR (400 MHz;
+MeOD; COSY): δ 2.09–2.17 [m, 1H, H–C(6ax)], 2.41–
+2.59 [m, 3H, H–C(2eq), H–C(2ax), H–C(6eq)], 4.94 [ddd,
+1H, J=6.0, 4.0, 1.3 Hz, H–C(3eq)], 5.28 [d, 1H, J=4.0 Hz,
+H–C(4eq)], 5.56 [dd, 1H, J=5.3, 1.3 Hz, H–C(5eq)], 6.21
+[d, 1H, J=15.7 Hz, H–C(5′)], 6.36 [d, 1H, J=15.7 Hz,
+
+502
+H–C(5′′)], 6.80 [d, 1H, J=8.1 Hz, H–C(3′)], 6.81 [d,
+1H, J=8.2 Hz, H–C(3′′)], 6.98 [d, 1H, J=8.1, 2.1 Hz,
+H–C(2′)], 7.02 [d, 1H, J=8.2, 2.1 Hz, H–C(2′′)], 7.06 [d,
+1H, J=2.1 Hz, H–C(1′)], 7.10 [d, 1H, J=2.1 Hz, H–C(1′′)],
+7.59 [d, 1H, J=15.9 Hz, H–C(4′)], 7.67 [d, 1H, J=15.7 Hz,
+H–C(4′′)].
+Fig. 7
+RP-HPLC chromatogram of the solvent-extractable roasting
+products isolated from 3,4-O-dicaffeoyl-(A), 3,5-O-dicaffeoyl-(B),
+and 4,5-O-dicaffeoyl quinic acid (C); (1) 3,4- and 3,5-O-dicaffeoyl-
+quinic acid, (2) 4,5-O-dicaffeoyl-quinic acid, (3) 3,4-O-dicaffeoyl-γ-
+quinide, (4) 4,5-O-dicaffeoyl-muco-γ-quinide, (5) 3,5-O-dicaffeoyl-
+epi-δ-quinide
+Chromatography
+High pressure liquid chromatography (HPLC)
+The HPLC apparatus (Kontron, Eching Germany) con-
+sisted of two pumps (type 422), a gradient mixer (M 800), a
+Rheodyne injector (100 µl loop), and a diode array detector
+(DAD type 540) operating between 220 and 500 nm.
+High performance ion chromatography (HPIC)
+The HPIC apparatus (Dionex, Idstein, Germany) consisted
+of a gradient pump (GS50), an autosampler (AS50), a
+thermal compartment (AS50), and a conductivity detec-
+tor (ED50) with suppressor column (ASRS Ultra II, 2 mm,
+76 mA suppressor current). Aliquots (10 µl) of the sam-
+ple were separated by an anion exchanger column (IonPac
+AS11-HC, 250 mm×2 mm) equipped with a guard col-
+umn (IonPac AG11-HC, 250 mm×2 mm, Dionex, Idstein,
+Germany) at 30 ◦C with a ﬂow rate of 0.38 ml/min. Chro-
+matography was performed starting with a mixture (1:99)
+of water and aqueous sodium hydroxide (100 mmol/l) for
+10 min, then increasing the sodium hydroxide content to
+60% within 40 min.
+Spectroscopy
+UV/vis spectrocopy
+UV/vis spectra were obtained using a U-2000 spectrometer
+(Colora Messtechnik GmbH, Lorch, Germany).
+Mass spectrometry
+Electrospray ionization (ESI) spectra were acquired on
+an API 4000 Q-Trap (Applied Biosystems, Darmstadt,
+Germany) with direct ﬂow infusion. The spray voltage was
+set at −4500 V in the ESI−-mode and at 5500 V in the
+ESI+-mode. Nitrogen served as curtain gas (20 psi), the
+declustering potential was set at −10 to −30 V in the ESI−
+mode and 30 V in the ESI+-mode. The mass spectrometer
+was operated in the full scan mode monitoring positive
+or negative ions. Fragmentation of [M−H]−and [M+H]+
+molecular ions into speciﬁc product ions was induced by
+collision with nitrogen (4×10−5 torr) and a collision en-
+ergy of −40 V. For HPLC-MS/MS, an Agilent 1100 series
+HPLC was coupled to the mass spectrometer operating in
+the multiple reaction monitoring mode (MRM) detecting
+negative ions. For a duration of 150 ms, the mass transition
+reactions m/z 497→335 and 497→161 were used for the
+detection of di-caffeoyl quinides, and m/z 349→193 and
+349→175 for the feruoyl quinides. Zero grade air served as
+nebulizer gas (35 psi) and as turbo gas (400 ◦C) for solvent
+drying (45 psi). For the identiﬁcation of the individual
+quinides, chromatography was performed on an analytical
+column (Synergi Fusion-RP, 150 mm×2 mm i.d., 4 µm,
+
+503
+Fig. 8
+Proposed reaction route
+leading to the formation of
+dicaffeoyl quinides 10–12
+during coffee roasting
+Phenomenex, Aschaffenburg, Germany). After injection of
+the sample (10 µl), analysis was performed using a gradient
+starting with a mixture (85/5, v/v) of aqueous TFA (0.05%)
+and methanol, and increasing the methanol content to 40%
+within 25 min, and then to 100% within 15 min.
+NMR spectroscopy
+1H and g-COSY spectroscopy were performed on a Bruker
+DMX-400 spectrometer (Bruker, Rheinstetten, Germany).
+Using methanol-d4, DMSO-d6, or CDCl3 as solvents,
+chemical shifts were measured from using tetramethylsi-
+lane (TMS) as the internal standard.
+Results and discussion
+Comparative sensory analysis of a coffee brew prepared
+from ground raw and ground roasted coffee beans, respec-
+tively, impressively demonstrated that the taste proﬁle of
+the aqueous percolate prepared from non-roasted coffee is
+representing astringency and sourness and is lacking any
+bitterness, whereas the beverage prepared from the roasted
+coffee imparted the typical complex and attractive taste
+proﬁle exhibiting pronounced bitterness (data not shown).
+Aimed at characterizing these thermally generated bitter
+taste drivers on a molecular level, a trained sensory panel
+was asked to rate the intensity of the bitter taste quality of
+the coffee on a scale from 0 (not detectable) to 5 (intensely
+detectable). To achieve this, the bitter taste intensity of a
+25 mmol/l caffeine solution was set to the maximum inten-
+sity score of 5.0. In relation to the bitter taste intensity of
+that reference solution, the bitterness of the coffee beverage
+was judged with a high score of 4.0.
+To gain ﬁrst insight into the volatility as well as the hy-
+drophobicity of the compounds imparting the bitter taste,
+the coffee beverage (CB) was fractionated by high-vacuum
+distillation at 20 ◦C using the SAFE apparatus [17] into a
+volatile and a non-volatile fraction, as well as by sequen-
+tial solvent extraction affording the pentane soluble CB-
+fraction I, the ethyl acetate soluble CB-fraction II, the chlo-
+roform soluble CB-fraction III, and the remaining aqueous
+phase (CB-fraction IV). The non-volatile CB-fraction and,
+after removing the solvents in vacuum, the CB fractions
+I-IV were dissolved in water (pH 5.0) in their “natural”
+concentrations, and, together with the aqueous volatile CB-
+fraction, were then judged for bitter taste intensity on the
+5-point sensory scale. As given in Table 1, the bitterness
+of the coffee beverage was exclusively located in the non-
+volatile fraction evaluated with a bitter intensity of 4.0.
+After sequential solvent extraction of the beverage, by far
+the highest bitter intensity was detected in CB-fraction II
+judged with a bitter score of 3.5, followed by CB-fraction
+III, which was just evaluated with a very low bitter intensity
+of below 0.5.
+In order to gain ﬁrst insight into the molecular weight
+of these bitter compounds, CB-fraction II was further
+separated by means of ultraﬁltration using a membrane
+with a cut-off of 1 kDa. Both fractions, the high-molecular
+weight (HMW; >1 kDa) as well as the low-molecular
+weight fraction (LMW; <1 kDa) were freeze-dried and
+re-dissolved in their “natural” concentrations. Sensory
+analysis demonstrated that the bitter taste perceived with
+an intensity of 3.5 was just detectable in the LMW fraction,
+whereas the HMW fraction did not show signiﬁcant bitter
+
+504
+taste (Table 1). All these data clearly indicate that the bitter
+taste of the coffee beverage is caused by low-molecular
+weight, hydrophobic, non-volatile compounds. As the
+CB-fraction II consisted nearly exclusively of LMW
+compounds (Table 1), the following taste dilution analysis
+was focused on that fraction aimed at sorting out the
+strongly bitter-tasting coffee compounds from the bulk of
+less taste-active or tasteless substances.
+Activity-guided screening for bitter compounds
+To rate the bitter compounds in their relative taste impact
+by means of the taste dilution analysis [12], an aliquot of
+the CB-fraction II was separated by RP-HPLC (Fig. 1A),
+and the efﬂuent was separated into 15 fractions which were
+freeze-dried and made up with water (pH 5.0) to the same
+volume. Each fraction was stepwise diluted one-to-one with
+water (pH 5.0) and presented in order of increasing con-
+centrations to the trained sensory panel. The panelists were
+asked to evaluate the taste quality and to determine the de-
+tection threshold in a triangle test. As this so-called taste
+dilution (TD)-factor is related to its taste activity in water
+[12], the 15 HPLC fractions were rated according to their
+relative taste impact (Fig. 1B). As reﬂected by their high
+TD-factors of 256, fractions no. 5, 8, and 15 were evalu-
+ated with the highest bitter taste impact (Fig. 1B), closely
+followed by fraction no. 12 or 4, 6, and 13 judged with a
+somewhat lower TD factor of 128 or 64, respectively. All
+the other fractions were evaluated with signiﬁcantly lower
+taste impacts. Therefore, the following identiﬁcation ex-
+periments were focused on the bitter compounds in HPLC
+fractions no. 4–6, 8, 12, 13, and 15.
+Identiﬁcation of bitter compounds in fractions no. 4–8
+To gain ﬁrst insight into the structures of the compounds
+imparting the intense bitter taste sensation of HPLC no.
+fractions 4–8, these compounds were isolated from CB-
+fraction II in a preparative scale by means of polyamide
+column chromatography. After application of the crude
+fraction and rinsing the column with water, a bitter-tasting
+fraction was eluted with methanol. This bitter isolate was
+then analysed by RP-HPLC and compared to the chro-
+matogram obtained by HPLC-TDA. The chromatogram
+of the isolate showed the peaks no. 1–5 (Fig. 2A) cor-
+responding to the bitter compounds in the fractions no. 4–8
+detected by means of HPLC-TDA (Fig. 1). The UV–vis
+spectra of these compounds revealed the absorption max-
+ima at 235, 300, 324 nm as expected for caffeoylquinic
+acid derivatives. In addition, LC-MS analysis revealed
+an intense [M+1]+ ion with m/z 337 for each of these
+compounds, thus indicating caffeoylquinic acid derivatives
+lacking one molecule of water. Preparative HPLC revealed
+suitable amounts of peaks no. 3 and 5 (Fig. 2A) for1H-
+and homonuclear 2D-NMR spectroscopy (COSY). Com-
+parison of the NMR data obtained for these isolates with
+those reported earlier in the literature [21] led to the un-
+equivocal identiﬁcation of the bitter tastants in peaks no. 2
+and 5 (Fig. 2A) or HPLC/TDA fractions 5 and 8 (Fig. 1)
+as 3-O-caffeoyl- and 4-O-caffeoyl-γ-quinide (2a and 3a,
+Fig. 3).
+As the amounts and purity of the bitter tastants isolated
+from peaks no. 1, 3, and 4 (Fig. 2A) were too low to en-
+able a structure identiﬁcation, the following experiments
+aimed producing higher amounts upon thermal treatment
+of 5-O-caffeoylquinic acid. To achieve this, 5-chlorogenic
+acid was dry-heated for 18 min at 220 ◦C and, after cool-
+ing, the brown material was dissolved in water. This solu-
+tion, exhibiting an intense bitter taste, was extracted with
+ethyl acetate, the organic extract was separated by means
+of polyamide chromatography as detailed above, and the
+methanolic isolate was then analysed by RP-HPLC. Com-
+parison of the compounds obtained from the roasted 5-
+caffeoylquinic acid (Fig. 2B) with the chromatogram of the
+coffee isolate (Fig. 2A) by means of HPLC-DAD, HPLC-
+MS/MS, and sensory analysis demonstrated the identity of
+the taste compounds in both extracts, just differing signif-
+icantly in the concentration ratios of the individual com-
+pounds. Therefore, it was concluded that all the bitter tas-
+tants in HPLC fraction no. 4–8 are roast products of O-
+caffeoylquinic acids.
+1H- and COSY NMR spectra of the caffeoyl quinide iso-
+lated from peak 3 (Fig. 2B) revealed a strong coupling be-
+tween the methine protons H–C(3) and H–C(5) and the pro-
+ton resonating at 5.07 ppm. This proton could be assigned
+as H–C(4) since only this proton is able show homonuclear
+coupling with H–C(3) and H–C(5), but not to H–C(2) and
+H–C(6), respectively. The proton at H–C(3) showed cou-
+pling to the protons H–C(2) and H–C(4), whereas H–C(5)
+is connected to the methylene group H–C(6) and the me-
+thine proton at H–C(4). Comparison to the methine protons
+in α-position of the lactone respectively to the OH-group,
+the ester group at C(4) led to higher downﬁeld shift. In con-
+sequence, carbon atom C(4) has to be linked to the caffeic
+acid moiety. The small coupling constants of the methine
+protons H–C(3), H–C(4), and H–C(5) indicated that all pro-
+tons were in an equatorial position. Based on these data,
+the bitter compound in peak no. 3 (Fig. 2) and HPLC/TDA
+fraction 6 (Fig. 1) could be identiﬁed as the previously not
+reported 4-O-caffeoyl-muco-γ-quinide (5a, Fig. 3).
+The 1H NMR spectrum of peak no. 1 isolated from the
+roasted 5-caffeoyl-quinic acid revealed coupling patterns
+of the methine protons, which were identical with those
+observed for the 4-O-caffeoyl-muco-γ-quinide (5a). The
+major difference to 5a was the order of the chemical
+shift detected for the methine protons H–C(3), H–C(4)
+and H–C(5); whereas H–C(4) of 5a showed the highest
+downﬁeld shift due to its linkage to the caffeic acid, and the
+methine proton at H–C(5) revealed the smallest downﬁeld
+shift of the three methine protons in the carbocyclus,
+the NMR spectrum of the compound isolated from peak
+no. 1 showed the proton signal of H–C(5) with coupling
+constants of 5.3 and 1.3 Hz at 5.13 ppm, whereas the proton
+H–C(4) showed resonance at 3.95 ppm. As the proton
+connected to C(3) showed no signiﬁcant shifts in both
+molecules, the linkage of the caffeic acid to the hydroxyl
+group at C(5) of the quinide was proposed for the structure
+
+505
+of that molecule. Taking all these data into account, the
+bitter tastant in peak no. 1 (Fig. 2) and HPLC/TDA fraction
+4 (Fig. 1) could be identiﬁed as the previously not reported
+5-O-caffeoyl-muco-γ-quinide (6a; Fig. 3). In addition,
+the spectroscopic analysis of the compound isolated from
+peak 4 (Fig. 2) and HPLC/TDA fraction 7 (Fig. 1) led
+to its identiﬁcation as the 5-O-caffeoyl-epi-δ-quinide
+(4a; Fig. 3). Although a 5-O-caffeoyl-quinide has been
+already reported in the literature [9], the stereochemistry
+of the 5-O-caffeoyl-epi-δ-quinide identiﬁed in the present
+publication is different from that described earlier. In
+summary, the bitter taste compounds identiﬁed by means of
+HPLC/TDA in fractions no. 4–8 (Fig. 1) are 5-O-caffeoyl-
+muco-γ-quinide (6a) in fraction 4, 3-O-caffeoyl-γ-quinide
+(2a) in fraction 5, 4-O-caffeoyl-muco-γ-quinide (5a) in
+fraction 6, 5-O-caffeoyl-epi-δ-quinide (4a) in fraction 7
+and 4-O-caffeoyl-γ-quinide (3a) in fraction 8.
+Taking all these ﬁndings into account, it can be con-
+cluded that upon coffee roasting O-caffeoylquinic acids
+are converted into the ﬁve mono lactones following the
+chemical pathways outlined in Fig. 3. As reported recently
+[22], 5-O-caffeoylquinic acid (1a) is converted upon trans-
+esteriﬁcation of the caffeoyl moiety into the isomers 3-
+O-caffeoyl- (Ia) and 4-O-caffeoyl-quinic acid (IIa). The
+axial orientation of the hydroxyl group at C(5) of these iso-
+mers facilitates their rapid lactonization, giving rise to 3-O-
+caffeoyl- (2a) and 4-O-caffeoyl-γ-quinide (3a). Epimeriza-
+tion of the hydroxyl group at C(4) and C(3), respectively, in-
+duces the conversion of 1a to 5-O-caffeoyl-epi-quinic acid
+(IIIa) and 5-O-caffeoyl-muco-quinic acid (Va), thus giving
+rise to 5-O-caffeoyl-epi-δ-quinide (4a) and 5-O-caffeoyl-
+muco-γ-quinide (6a) upon lactonisation (Fig. 3). Finally,
+transesteriﬁcation of the caffeoyl moiety from HO-C(5)
+to HO-C(4) of 5-O-caffeoyl-muco-quinic acid (Va) leads
+to the formation of 4-O-caffeoyl-muco-quinic acid (IVa)
+and 4-O-caffeoyl-muco-γ-quinide (5a). Being well in line
+with the presence of 3-O-caffeoyl- and 4-O-caffeoyl-quinic
+acid in coffee beans and their simple lactonization, the cor-
+responding 3-O-caffeoyl- and 4-O-caffeoyl-γ-quinide are
+predominating in roast coffee beverage when compared to
+the other isomers (Fig. 2A). Vice versa, the lower amounts
+of the other quinides in roasted coffee can be simply ex-
+plained by the fact that the 5-O-caffeoyl quinic acid ﬁrst
+needs to be epimerized at C(3) or C(4) prior to lactonisa-
+tion.
+Identiﬁcation of bitter compounds in fraction no.
+12 and 13
+Application of UV-vis and LC-MS spectroscopy on the
+taste compounds detected in HPLC fraction no. 12 and 13
+(Fig. 1) revealed the typical absorption spectra expected for
+ferulic acid derivatives and an [M+H]+ ion with m/z 351,
+thus indicating the presence of feruoyl quinides. Unfortu-
+nately, none of the two taste compounds could be isolated
+in suitable purity allowing an unequivocal structure deter-
+mination by NMR spectroscopy. Therefore, the following
+experiments were aimed at generating these lactones upon
+roasting of 5-O-feruoylquinic acid similar as successfully
+done for the caffeoyl quinides.
+As 5-O-feruoylquinic acid is not commercially avail-
+able, this putative taste precursor needed to be synthesised.
+Following the reaction sequence outlined in Fig. 4, 5-O-
+feruoylquinic acid was successfully synthesised as reported
+earlier for 5-caffeoylquinic acid [18] with some modiﬁca-
+tions. After ﬁnal puriﬁcation, the 5-O-feruoylquinic acid
+was roasted for 18 min at 220 ◦C, and, after cooling, the
+brown colored material was dissolved in water. This bitter-
+tasting solution was then extracted with ethylacetate and
+the extract obtained was separated by polyamide column
+chromatography using water, followed by methanol as the
+efﬂuent. The methanolic fraction was then analysed by
+HPLC-DAD and LC-MS. The HPLC analysis revealed a
+similar pattern of ﬁve peaks (data not shown) compared
+to those observed for the roasted 5-O-caffeoyl-quinic acid
+(Fig. 2B), and the LC-MS analysis revealed a pseudomolec-
+ular ion with m/z 351 for each of these ﬁve compounds. For
+their structure determination, these peaks no. 1–5 were iso-
+lated by means of semi-preparative RP-HPLC. Four of the
+ﬁve compounds, namely no. 1 and 3–5, were analyzed by
+1H NMR and COSY spectroscopy. With the exception of
+an additional methyl group, the spectroscopic data of these
+compounds were nearly identical to those obtained for the
+caffeoyl-quinides and allowed the identiﬁcation of peak no.
+1 as 5-O-feruloyl-muco-γ-quinide (6b; Fig. 3), peak no. 3
+as 4-O-feruloyl-muco-γ-quinide (5b; Fig. 3), peak no. 4
+as 5-O-feruloyl-epi-δ-quinide (4b; Fig. 3), and peak 5 as
+4-O-feruloyl-γ-quinide (3b; Fig. 3). In contrast to the 4-
+O-feruloyl-γ-quinide, which has been proposed earlier in
+the literature [9], the structures of 4-O-feruloyl-muco-γ-
+quinide, 5-O-feruloyl-muco-γ-quinide, and 5-O-feruloyl-
+epi-δ-quinide have previously not been identiﬁed. Due to
+the low amounts obtained for the taste compound eluting
+as peak 2 and the impurity of the isolate, a structure assign-
+ment of that compound was not possible. On comparison
+of the ﬁve 5-O-caffeoyl-quinides (2a–6a) with the four 5-
+O-feruoyl-quinides (3b–6b), the 3-feruloyl-γ-quinide was
+suggested as unknown compound in peak 2.
+In order to check that assumption, the 3-feruloyl-γ-
+quinide (2b) was prepared by independent synthesis ac-
+cording the literature [19, 20] with some modiﬁcations as
+outlined in Fig. 5. The spectroscopic data of the synthetic
+products were well in line with those published earlier for
+that lactone [23]. Comparison of MS data, UV-vis data as
+well as retention time of that compound with those isolated
+from peak no. 2 of the roasted 5-O-feruoyl-quinic acid mix-
+ture unequivocally conﬁrmed the structure of the bitter taste
+compound as the 3-feruloyl-γ-quinide (2b; Fig. 5).
+In order to investigate which 5-O-feruoyl-quinide
+isomers are present in the bitter fractions no.12 and 13
+(Fig. 1) located by HPLC/TDA, these fractions were
+screened for these lactones by means of LC-MS/MS
+(ESI−) operating in the multiple reaction monitoring
+(MRM) mode. To achieve this, the HPLC efﬂuent was
+monitored for compounds showing the characteristic
+transition reactions m/z 349→193 and 349→175, which
+were selected in tuning runs using the individual reference
+
+506
+compounds. In contrast to the presence of the ﬁve caffeoyl
+quinide isomers detected in coffee, only the 3-O-feruloyl-
+γ-quinide (2b) eluting in HPLC fraction no. 12 (Fig. 1) and
+the 4-O-feruloyl-γ-quinide (3b) eluting in HPLC fraction
+no. 13 (Fig. 1) could be unequivocally identiﬁed in the
+roast coffee beverage by comparison of the retention times
+(RP-HPLC) and the LC-MS/MS mass transitions.
+Characterization of the bitter-tasting fraction no. 15
+Besides the HPLC fractions no. 4–8, 12, and 13, the HPLC-
+TDA of CB-fraction II revealed also a high TD factor of
+256 for the complex fraction no. 15 (Fig. 1). To gain ﬁrst
+insights into the chemicals eluting in that fraction, the CB-
+fraction II was separated in a preparative scale by means
+of RP-18 column chromatography using methanol/water
+mixtures as the efﬂuent. The fractions were analyzed by
+HPLC and those containing compounds eluting in fraction
+15 were combined. But independent from the stationary
+phase or the solvent system used, all attempts to further
+resolve the complexity of compounds in fraction no. 15
+and to isolate individual compounds in sufﬁcient purity
+remained unsuccessful.
+Therefore, we analyzed the isolated fraction no. 15 in
+toto without further separation by means of UV–vis as well
+as COSY-NMR spectroscopy. The COSY spectrum of this
+fraction (data not shown) exhibited the typical resonance
+signals as detected before for the six-membered carbo-
+cyclic ring of quinic acid derivatives with strong coupling
+constants between the protons H–C(3) or H–C(5) and the
+methylene groups H–C(2) or H–C(6), respectively, whereas
+H–C(4) did show coupling only with H–C(3) or H–C(5).
+Each of the methine protons H-(3), H–C(4) and H–C(5)
+revealed a chemical shift above 5 ppm, thus indicating a
+lactonization of one hydroxyl group and an esteriﬁcation
+of the two other hydroxyl groups. An excerpt of the NMR
+spectrum between 6.2 and 7.8 ppm displayed the typical
+signal pattern observed for hydroxycinnamoyl moieties.
+These data are well in the line with the UV–vis spectra
+showing the typical absorption spectra expected for hy-
+droxycinnamic acid derivatives. This led us to the assump-
+tion that the observed complexity of the fraction no. 15 is
+due to a multiplicity of quinic acid lactone isomers ester-
+iﬁed with a minimum of two hydroxycinnamic acids such
+as caffeic acid or ferulic acid, or with additional molecules
+of quinic acid.
+To further conﬁrm our hypothesis, the following exper-
+iments aimed at carefully hydrolyzing the ester as well as
+the lactone bonds in the complex tastants in fraction no. 15
+and to study the hydrolysis products liberated. To achieve
+this, aqueous solutions of fraction 15 were adjusted with
+NaOH either to pH 10 and then stirred for 60 min at 20 ◦C,
+or to pH 13 and then stirred for 60 min at 60 ◦C. Af-
+ter acidiﬁcation to pH 5.0, the hydrolysates were analysed
+by means of HPLC. As displayed in Fig. 6, HPLC anal-
+ysis of the non-treated fraction no. 15 (control) showed
+a complex bulk of hardly resolved compounds (Fig. 6A),
+whereas the sample hydrolyzed under mild alkaline con-
+ditions at pH 10 revealed a couple of well separated com-
+pounds (Fig. 6B). Comparison of the retention times, UV–
+vis, and LC-MS data with those of reference compounds
+led to their unequivocal identiﬁcation as 3-O-caffeoyl-, 4-
+O-caffeoyl-, and 5-O-caffeoylquinic acid, p-coumaric acid,
+ferulic acid, 5-O-feruoyl-quinic acid as well as 3,4-, 3,5-
+and 4,5-O-dicaffeoyl-quinic acids. In contrast, only four
+compounds were detected by HPLC-DAD after incubating
+fraction no. 15 at pH 13 at elevated temperature (Fig. 6C).
+Analysis of these compounds by means of HPLC-DAD and
+HPLC-MS and comparison of the data obtained with those
+measured for reference compounds led to the unequivo-
+cal identiﬁcation of these peaks as caffeic acid (peak 1),
+p-coumaric acid (peak 2), ferulic acid (peak 3), and 3,4-
+dimethoxycinnamic acid (peak 4) (Fig. 6C). In addition to
+these cinnamic acids, quinic acid was detected as the major
+non-phenolic organic acid in the alkaline hydrolysates by
+means of high performance ion chromatography (HPIC)
+with conductivity detection. A comparison of the data ob-
+tained for both hydrolysis experiments clearly indicated
+that under mild alkaline conditions (pH 10, 20 ◦C) only
+the lactones seem to be hydrolysed since the concentration
+of free cinnamic acid derivatives, which still contain the
+intact ester bond, is rather low compared to the various cin-
+namoyl quinic acids. More severe alkaline treatment (pH
+13, 60 ◦C) then also induced the hydrolysis of the ester link-
+ages, thus resulting in quinic acid and the free cinnamic
+acids. Considering the data of the COSY experiment as
+well as the results of the alkaline hydrolysis, it might be
+concluded that the bitter-tasting fraction no. 15 is contain-
+ing a multiplicity of quinic acid lactone isomers multiply
+esteriﬁed with p-coumaric acid, caffeic acid, ferulic acid,
+3,4-dimethoxycinnamic acid, and quinic acid.
+In particular, the high amounts of caffeic acid, caf-
+feoylquinic acids, and dicaffeoylquinic acids released
+during alkaline hydrolysis indicated that di-caffeoylquinic
+acid lactones might be involved in the formation of
+bitter compounds eluting in HPLC fraction 15. In order
+to further strengthen this assumption, we ﬁrst isolated
+the individual 3,4-O-dicaffeoyl-, 3,5-O-dicaffeoyl-, and
+4,5-O-dicaffeoyl-quinic acids from raw coffee beans.
+NMR spectroscopic data of the isolates are well in line
+with those of earlier reports [24], thus conﬁrming the
+chemical structure of these dicaffeoylquinic acid isomers.
+The individual isolated dicaffeoylquinic acids were then
+separately roasted in a lab oven, the roasting products were
+dissolved in water, and then sensorially evaluated. The
+trained sensory panel detected an intense coffee-like bitter
+taste indicating that also the dicaffeoylquinic acids indeed
+are potential bitter taste precursors in coffee. HPLC/DAD
+analysis and HPLC-degustation of the extracts prepared
+from the three thermally treated dicaffeoyl-quinic acid
+isomers (Fig. 7A–C) clearly indicated that a trans-
+formation of the individual isomers (peaks 1, 2) has
+taken place and additional roast compounds (peaks 3–5)
+were generated. For example, the chromatogram of the
+roasted 3,4-O-dicaffeoyl-quinic acid showed besides the
+starting compound also the co-eluting isomers 3,5-O-
+dicaffeoylquinic acid (peak 1) and 4,5-O-dicaffeoylquinic
+
+507
+acid (peak 2) formed upon transesterifaction as well as four
+additional compounds (Fig. 7A) amongst which peaks 3–5
+exhibited bitter taste. Interestingly, also roasting the 3,5-
+O-dicaffeoyl- as well as the 4,5-O-dicaffeoyl-quinic acid
+induced a transesteriﬁcation of the corresponding isomers
+as well as the formation of the same bitter compounds,
+just differing considerably in their yields (Fig. 7B and C).
+By means of an RP-18 clean-up, the roast products elut-
+ing as peaks 3–5 have been isolated and then analyzed by
+LC-MS. The MS analysis revealed a quasimolecular ion
+at m/z 499 for each of the isolated compounds, thus indi-
+cating that a lactonisation of the quinic acid moiety in the
+dicaffeoyl-quinic acids has been occurred during roasting.
+To conﬁrm this assumption, the three isolated compounds
+were analyzed by means of1H- and COSY-NMR experi-
+ments. For all three compounds a double signal set in the
+range between 6.16 and 7.67 ppm demonstrated the pres-
+ence of two caffeic acid residues, in each molecule. The
+major product (Fig. 7A; peak no. 3) formed upon roast-
+ing of 3,4-dicaffeoyl-quinic acid showed nearly identical
+coupling patterns of the methine protons H–C(3), H–C(4),
+and H–C(5) as already observed for the 3-O-caffeoyl- and
+4-O-caffeoyl-quinides. Based on a careful consideration
+of all the NMR data and coupling constants and compar-
+ison with those reported earlier in the literature [19], the
+roast compound no. 3 could be identiﬁed as the 3,4-O-
+dicaffeoyl-quinide (10; Fig. 8). Although this compound
+has been reported earlier as an coffee constituent, which
+was able to inhibit the human adenosine transporter [19,
+22], its sensory activity as a bitter-tasting molecule as well
+as its formation have been as yet not been demonstrated.
+The remaining bitter-tasting roast products no. 4 and
+5 were successfully isolated from roasted 3,5-O-caffeoyl-
+and 4,5-O-dicaffeoyl-quinic acid (Fig. 7B and C). The 1H
+NMR spectrum of the peak 5 (Fig. 7A–C) showed, in com-
+parison to the NMR data of the 5-caffeoyl-epi-δ-quinide,
+only a signiﬁcant deep ﬁeld shift of the proton H–C(3).
+This effect could be explained by the esteriﬁcation of the
+hydroxy group in position 3 with another molecule caf-
+feic acid. The protons of the positions H–C(4) and H–C(5)
+remained nearly unaffected. Taking all spectroscopic data
+into consideration, peak 5 could be identiﬁed as the pre-
+viously not reported 3,5-O-dicaffeoyl-epi-δ-quinide (11;
+Fig. 8). The1H coupling pattern of the methine protons
+H–C(3), H–C(4) and H–C(5) of peak 4 (Fig. 7A–C) was
+identical to the data obtained for the 4-O-caffeoyl- and 5-
+O-caffeoyl-muco-γ-quinide. Carefully considering all the
+chemical shifts as well as the coupling constants observed
+by 1H NMR and the COSY spectroscopy, the compound
+eluting in peak no. 4 (Fig. 7) could be identiﬁed as the
+4,5-O-dicaffeoyl-muco-γ-quinide (12; Fig. 8). To the best
+of our knowledge, the bitter quinides 11 and 12 have not
+been reported previously.
+In order to conﬁrm the presence of these three dicaffeoyl-
+quinides as constituents of HPLC fraction no. 15, this
+fraction was screened for these lactones by means of LC-
+MS/MS (ESI−) operating in the multiple reaction moni-
+toring (MRM) mode. Monitoring the HPLC efﬂuent for
+compounds showing the characteristic transition reactions
+m/z 497→335 and 497→161, which were selected in tun-
+ing runs with the individual lactones prior to analysis, the
+three dicaffeoyl quinides 10–12 could be unequivocally
+identiﬁed as constituent in HPLC fraction no. 15 isolated
+from the coffee beverage. To the best of our knowledge
+these compounds have not yet reported as contributors to
+the bitter taste of roasted coffee.
+Based on the observations made in our roasting experi-
+ments, the individual dicaffeoyl-quinides might be formed
+upon coffee roasting as outlined in Fig. 8. Upon ther-
+mal treatment, the individual dicaffeoyl-quinic acids are
+transformed into each other upon thermal transesteriﬁca-
+tion. Lactonization of the isomer 7 upon cleavage of one
+molecule of water gives rise to 3,4-O-dicaffeoyl-γ-quinide
+(10). Epimerization of the isomeric 3,5-O-dicaffeoyl- (8)
+and 4,5-O-dicaffeoyl-quinic acid (9) at carbon atom C(4)
+and C(3), respectively, is then facilitating the forma-
+tion of the 3,5-O-dicaffeoyl-epi-δ-quinide (11) and 4,5-O-
+di-caffeoyl-muco-γ-quinide (12) upon lactonization. Sup-
+ported by the results of LC-MS/MS studies on additional
+thermal model reactions with 5-caffeoylquinic acids and
+lactones (data not shown), alternatively, intermolecular
+transesteriﬁcation of a caffeoyl moiety was observed to
+convert 3-O-caffeoyl- (2a) and 4-O-caffeoyl-γ-quinide (3a)
+into 3,4-O-dicaffeoyl-γ-quinide (10), 5-O-caffeoyl-epi-δ-
+quinide (4a) into 3,5-O-di-caffeoyl-epi-δ-quinide (11), and
+4-O-caffeoyl- (5a) as well as 5-O-caffeoyl-muco-γ-quinide
+(6a) into 4,5-O-dicaffeoyl-muco-γ-quinide (12). Follow-
+ing the same reaction principles, similar transesteriﬁca-
+tion reactions seem also to occur with other acids than
+caffeic acid such as, e.g. p-coumaric acid, ferulic acid,
+3,4-dimethoxycinnamic acid, and quinic acid, thus reﬂect-
+ing the complexity of non-resolved compounds in the key
+bitter-tasting coffee fraction no. 15.
+Bitter recognition threshold concentrations
+Prior to sensory analysis, the purity of all compounds was
+checked by HPLC-MS as well as 1H NMR spectroscopy.
+To determine the human threshold concentrations for bitter
+taste, aqueous solutions (pH 5.0) of the target compound
+were evaluated by means of the triangle test [16] (Table 2).
+All these lactones imparted a typical coffee-like bitter taste
+quality with human threshold concentrations ranging from
+29 to 180 µmol/l. The sensory panel described the unique
+taste proﬁle of these quinides as being strongly different
+from the taste quality of other known bitter reference com-
+pounds such as caffeine or quinine. In addition, these com-
+pounds were noticed to impart an astringent-like mouth-
+coating sensation. The sensory data, summarized in Table
+2, demonstrated that, independent from the chemical struc-
+ture, the bitter threshold concentrations of the caffeoyl-γ-
+quinides 2a, 3a, 5a, and 6a were rather similar with the
+lowest threshold of 29 µmol/l found for the 5-O-caffeoyl-
+muco-γ-quinide. In contrast, the six-membered ring lactone
+5-O-caffeoyl-epi-δ-quinide showed a 6 times higher thresh-
+old concentrations when compared to the ﬁve-membered
+ring
+lactones
+such
+as
+5-O-caffeoyl-muco-γ-quinide
+
+508
+Table 2
+Human taste recognition thresholds of caffeoyl-, feruloyl-,
+dicaffeoyl-quinides, and HPLC fraction no. 15
+Compound (no.)a
+Bitter threshold
+concentrationb
+(mg/l)
+(µmol/l)
+3-O-caffeoyl-γ-quinide (2a)
+13.4
+40.0
+4-O-caffeoyl-γ-quinide (3a)
+12.1
+36.0
+5-O-caffeoyl-epi-δ-quinide (4a)
+60.5
+180.0
+4-O-caffeoyl-muco-γ-quinide (5a)
+11.2
+30.0
+5-O-caffeoyl-muco-γ-quinide (6a)
+9.7
+29.0
+3-O-feruloyl-γ-quinide (2b)
+13.7
+39.0
+4-O-feruloyl-γ-quinide (3b)
+13.7
+39.0
+3,4-O-dicaffeoyl-γ-quinide (10)
+4.8
+9.8
+3,5-O-dicaffeoyl-epi-δ-quinide (11)
+24.9
+50.0
+4,5-O-dicaffeoyl-muco-γ-quinide (12)
+4.8
+9.8
+Fraction no. 15
+6.3
+n.d
+aThe structures of the numbered compounds are given in Figs. 3 and
+8.
+bTaste threshold concentrations were determined by means of a tri-
+angle test in bottled water (pH 5.0).
+cThe total HPLC fraction no. 15 (Fig. 1) was used for the sensory
+experiment. n.d. not determined.
+(Table 2). Compared to the caffeoyl-γ-quinides, the cor-
+responding 3-feruoyl- (2b) and 4-feruloyl-γ-quinides (3b)
+showed somewhat higher bitter detection thresholds with
+39 µmol/l. By far the lowest bitter thresholds of 9.8 µmol/l
+were determined for 3,4-O-dicaffeoyl-γ-quinide and 4,5-
+O-dicaffeoyl-muco-γ-quinide. In consistency with the data
+found for the mono quinides, the six-membered lactone
+3,5-O-dicaffeoyl-epi-δ-quinide showed a ﬁvefold higher
+detection threshold when compared to the other isomers
+(Table 2), thus indicating the size of the lactone ring as
+one of the important criteria for the bitter activity of these
+quinides. Calculation of the threshold concentrations in
+milligrams per liter demonstrated that the threshold of
+4.8 mg/l found for 3,4-O-dicaffeoyl-γ-quinide and 4,5-O-
+dicaffeoyl-muco-γ-quinide is in the same range as found
+for the complex HPLC fraction no. 15, for which a bitter
+threshold concentration of 6.3 mg/l was determined. This
+ﬁnding further strengthens such complex quinides as im-
+portant contributors to the bitter taste of that coffee fraction.
+In summary, the data obtained demonstrate caffeoyl- and
+feruloyl-quinides as well as more complex esters between
+quinides and cinnamoyl derivatives as the most intense
+bitter taste compounds in roasted coffee. Aimed at demon-
+strating their contribution to the bitter taste of roast coffee
+beverages, quantitative studies, followed by taste recon-
+struction and omission experiments using these compounds
+in their “natural” concentrations are currently in progress
+and will be published elsewhere.
+References
+1. Semmelroch P, Grosch W (1995) Lebensm Wiss Technol
+28:310–313
+2. Semmelroch P, Grosch W (1996) J Agric Food Chem 44:537–
+543
+3. Mayer F, Czerny M, Grosch W (2000) Eur Food Res Technol
+211:272–276
+4. Chen WC (1979) Doctoral Thesis, University of Munich
+5. Shibamoto T, Harada K, Mihara J, Nishimura K, Yamaguchi A,
+Aitoku A, Fukada T (1981) In: Charambous G, Inglett G (eds)
+The quality of foods and beverages, vol 2, Academic Press, New
+York, p 311
+6. Belitz HD (1975) Flavor-active substances in coffee. ASIC,
+7th Colloquium, Hamburg, ASIC Bremen 1977, pp 243–
+252
+7. Ginz M, Engelhardt UH (2001) Eur Food Res Technol 213:8–13
+8. Rizzi GP, Boekley LJ, Ekanayake A (2004) In: Shahidi F,
+Weerasinghe DK (eds) Nutraceutical beverages—chemistry, nu-
+trition, and health effects, ACS Symposium Series 871, Wash-
+ington, DC, pp 229–236
+9. Ginz M, Engelhardt UH (2001) Analysis of bitter fractions of
+roasted coffee by LC-ESI-MS—new chlorogenic acid deriva-
+tives, Proceedings to the ASIC symposium, 2001, Trieste, Italy
+10. Maga JA (1978) CRC Crit Rev Food Sci Nutr 10:323–
+372
+11. McCamey DA, Thorpe TM, McCarthy JP (1990) In: Rouseff
+RL (ed) Bitterness in foods and beverages, Elsevier, London, pp
+169–182
+12. Frank O, Hofmann T (2001) J Agric Food Chem 49:231–
+238
+13. Ottinger H, Bareth A, Hofmann T (2001) J Agric Food Chem
+49:1336–1344
+14. Czepa A, Hofmann T (2003) J Agric Food Chem 51:3865–3873
+15. Ottinger H, Hofmann T (2003) J Agric Food Chem 51:6791–
+6796
+16. Scharbert S, Holzmann N, Hofmann T (2004) J Agric Food
+Chem 52:3498–3508
+17. Engel W, Bahr W, Schieberle P (1999) Eur Food Res Technol
+209:237–241
+18. Sefkow M (2001) Eur J Org Chem 1137–1141
+19. de Paulis T, Lovinger DM, Martin P (2004) US Patent; US
+6,693,128 B2
+20. Huynh-Ba T (1995) United States Patent; Patent No.: US
+5,401,858
+21. Bennat C, Engelhardt UH, Kiehne A, Wirries FM, Maier HG
+(1994) Z Lebensm Unters Forsch 199:17–21
+22. Farah A, DePaulis T, Trugo LC, Martin PR (2005) J Agric Food
+Chem 55:1505–1513
+23. Wynne KN, Familari M, Boublick JH, Drummer OH, Rae
+ID, Funder JW (1987) Clin Exp Pharmacol Physiol 4:785–
+790
+24. Morishita H, Iwahashi H, Osaka N, Kido R (1984) J Chromatogr
+315:253–260

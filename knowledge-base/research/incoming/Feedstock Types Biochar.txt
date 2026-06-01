@@ -1,0 +1,1436 @@
+The effects of feedstock types and their properties on
+hydrothermal carbonisation and resulting hydrochar:
+A review
+Vigneshwaran Shanmugam1, Elif Kaynak1, Oisik Das1 and
+Lokesh P. Padhye2,3,4,5
+Hydrothermal carbonisation (HTC) technology benefits the
+environment by lowering greenhouse gas emissions and pro-
+moting sustainable waste management practices while support-
+ing circular economy principles. Over the past two years,
+research has focused on optimising HTC process parameters,
+broadening the range of suitable feedstocks, and enhancing the
+properties of hydrochar and byproducts. This review discusses
+the characteristics of the hydrochar, including its calorific value,
+surface area, and nutrient content, and the influence of these
+parameters by feedstock type in the HTC. Furthermore, it reviews
+the suitability of hydrochar derived from different feedstocks in
+applications such as renewable solid fuel, soil amendment and
+environmental remediation. By analysing the most recent
+research advancements and identifying the associated chal-
+lenges, this review underscores the importance of HTC in pro-
+moting sustainable waste management practices and enhancing
+resource utilisation in a circular economy framework.
+Addresses
+1 Department of Civil, Environmental and Natural Resources Engi-
+neering, Luleå University of Technology, Luleå 97187, Sweden
+2 The New York State Center for Clean Water Technology, Stony Brook
+University, New York, USA
+3 School of Marine and Atmospheric Sciences, Stony Brook University,
+New York, USA
+4 Department of Civil Engineering, Stony Brook University, New York, USA
+5 Department of Civil and Environmental Engineering, The University of
+Auckland, Auckland, New Zealand
+Corresponding author: Padhye, Lokesh P. (l.padhye@auckland.ac.nz)
+Current Opinion in Green and Sustainable Chemistry 2025,
+53:101024
+This review comes from a themed issue on Sustainable carbon ma-
+terials (2025)
+Edited by Nor Adilla Rashidi and Lim Huei Yeong
+Available online 24 March 2025
+For complete overview of the section, please refer the article
+collection - Sustainable carbon materials (2025)
+https://doi.org/10.1016/j.cogsc.2025.101024
+2452-2236/© 2025 The Authors. Published by Elsevier B.V. This is an
+open access article under the CC BY-NC-ND license (http://
+creativecommons.org/licenses/by-nc-nd/4.0/).
+Introduction
+The production of primary crops has maintained its
+upward trajectory, reaching 9.6 billion tonnes in 2022, a
+56 % increase since 2000 and a 0.7 % rise from 2021 [1].
+Cereals dominate the production landscape, accounting
+for approximately one-third of the total output, followed
+by sugar crops at 22 %, vegetables and oil crops at 12 %
+each, fruits at 10 %, and roots and tubers at 9 % [2,3].
+Sugarcane, maize, wheat and rice emerged as the top
+contributors, making up half of the total primary crop
+production. Their organic residues, such as sugarcane
+bagasse, corn stover, wheat straw and rice husks, present
+challenges in waste management [4].
+Hydrothermal carbonisation (HTC) technology stands
+out as an efﬁcient technique in the valorisation of waste
+as it can convert high-moisture organic residues into
+hydrochar, bypassing the need for energy-intensive
+drying steps required by other methods and offering
+shorter reaction times [5,6]. Decades of research in this
+aspect have broadened the range of suitable feedstocks
+for HTC [7]. During the HTC process, various reactions
+occur either sequentially or simultaneously, including
+hydrolysis, decarboxylation, deamination, dehydration,
+aromatisation, and polymerisation, resulting in the pro-
+duction of hydrochar [8e14]. It is important to note that
+the selection of biomass feedstock signiﬁcantly in-
+ﬂuences the quality and characteristics of the produced
+hydrochar [15,16]. Figure 1 illustrates the HTC process,
+showcasing various feedstocks such as agricultural,
+sewage, forest, and food wastes, along with key process
+parameters like temperature,
+residence
+time,
+and
+biomass composition. It also highlights the applications
+of hydrochar in energy production, soil amendment,
+water ﬁltration, and environmental remediation.
+Hydrothermal Carbonisation Process:
+Feedstock Characteristics and Selection
+Ash content: impact on HTC process and hydrochar
+The ash content in the feedstock is a critical factor that
+can signiﬁcantly affect the HTC process and hydrochar
+characteristics. Feedstocks with low ash content can
+promote uniform carbonisation and produce hydrochar
+with high energy density and minimal inorganic com-
+ponents [17]. These characteristics make them suitable
+for energy applications, reducing the operational chal-
+lenges associated with reactor maintenance. Low ash
+content feedstocks include wood-based materials like
+pine wood with an ash content (wt.%) of 2.8 %, pine-
+wood meal at 1.2 %, pinewood chips at 0.7 %, Eucalyptus
+wood at 0.3 %, and Pinus sylvestris sawdust at 0.3 %
+Available online at www.sciencedirect.com
+ScienceDirect
+Current Opinion in
+Green and Sustainable Chemistry
+www.sciencedirect.com
+Current Opinion in Green and Sustainable Chemistry 2025, 53:101024
+
+[18]. Wood-based feedstocks generally have lower ash
+content. Conversely, crop residues, including sugarcane
+bagasse (5.6 %), corn stover (3.5e11 %), corn husk
+(4.4 %), rice husk (15e20 %), soybean straw (4e6 %),
+wheat straw (4e6 %) and sweet potato peels (5.1 %)
+have higher ash content [18]. The high ash content in
+the feedstock can introduce signiﬁcant quantities of
+inorganic compounds such as calcium, magnesium, and
+potassium into the reaction medium. These compounds
+can catalyse secondary reactions, inﬂuencing hydrochar
+composition and morphology. Further, they can increase
+the reactor fouling and scaling and reduce the caloriﬁc
+value of hydrochar. Hydrochars derived from high ash
+feedstocks are particularly effective as soil amendments
+[19], leveraging their mineral content to improve soil
+structure and pH. Nevertheless, careful consideration is
+required to avoid detrimental effects on nutrient avail-
+ability, such as reduced iron and phosphorus uptake.
+Carbon content: Determinant of energy efficiency and
+yield
+The degree of carbonisation and energy density in the
+hydrochar is governed by its carbon content. Although
+agricultural residues contain higher anhydrosugar con-
+tent, leading to more signiﬁcant degradation of carbon
+compounds, woody residues generally have a higher
+carbon content, contributing to superior carbon assimi-
+lation during HTC [12]. For instance, the HTC of wood
+waste, such as sawdust, can produce hydrochar with high
+carbon content and yield [20,21]. Improving the carbon
+content of hydrochar can critically enhance the thermal
+stability and caloriﬁc value, which are necessary for its
+fuel applications [22]. However, a traditional HTC
+process generally produces hydrochar with low carbon
+content, necessitating further treatment. In this regard,
+Ipiales et al. [23] explored various approaches to
+enhance the carbon content of hydrochar derived from
+the HTC of swine manure, with particular emphasis on
+hydrochloric acid (HCl)-assisted HTC and subsequent
+washing treatments using HCl and acetone. Their
+research indicated that incorporating 0.5 M HCl in the
+HTC process at 230 C signiﬁcantly increased the
+carbon content of hydrochar from 38 % to 58 %. Post-
+treatment washing with acetone reduced nitrogen and
+sulfur contents, enabling the production of solid bio-
+fuels that meet the ISO/TS 17225e8 standard.
+Roslan et al. [24] reported that the hydrochar produced
+by the HTC process had signiﬁcantly different atomic
+ratios than raw sewage sludge. The hydrogen-to-carbon
+ratio
+(H/C)
+decreased
+from
+2.67
+to
+1.42,
+while
+the oxygen-to-carbon ratio (O/C) decreased from 0.51
+Figure 1
+Hydrothermal carbonisation process: Feedstocks, parameters and applications of hydrochar.
+2
+Sustainable carbon materials (2025)
+Current Opinion in Green and Sustainable Chemistry 2025, 53:101024
+www.sciencedirect.com
+
+to 0.18, indicating signiﬁcant dehydration and decar-
+boxylation during the HTC process. These reductions
+indicate that HTC effectively removes hydrogen and
+oxygen, resulting in a more carbon-rich material with
+higher energy density. The lower H/C ratio indicates a
+decrease in volatile content, which improves the ther-
+mal stability of the hydrochar, whereas the lower O/C
+ratio indicates a decrease in oxygen-containing func-
+tional groups, which increases its caloriﬁc value. These
+changes enhanced the hydrochar’s potential as a solid
+fuel, bringing its properties closer to those of subbitu-
+minous coal and increasing its suitability for energy
+generation.
+Nitrogen content
+Nitrogen content inﬂuences both the HTC process
+conditions and yield, as well as the functional properties
+of the resulting hydrochar. The higher nitrogen content
+in the feedstock containing a high protein content and
+fewer lignin leads to lower heating values and C% [25].
+In solid fuel applications, it is crucial to minimise ni-
+trogen content to prevent the formation of nitrogen
+oxides (NOx) during combustion, which are environ-
+mentally harmful. On the other hand, high nitrogen
+levels in hydrochar are advantageous when used for
+manufacturing
+supercapacitor
+electrodes
+and
+as
+a
+fertiliser [26]. Thus, the nitrogen content is a key factor
+in deciding the appropriate use of hydrochar, high-
+lighting the importance of understanding nitrogen
+migration during the HTC process. Xie et al. [27]
+investigated the nitrogen content and transformation
+during HTC of sewage sludge, focussing on the inﬂu-
+ence of different organic components (protein, lipid,
+cellulose, hemicellulose, humic acid and lignin) on ni-
+trogen retention and hydrochar quality. It was high-
+lighted that proteins and lipids are not determinants of
+nitrogen content in hydrochar. At the same time, cel-
+lulose, hemicellulose, lignin, and humic acid play crucial
+roles in nitrogen retention and the degree of aromati-
+sation. Although proteins provide nitrogen, they un-
+dergo transformations that reduce the nitrogen content.
+During the HTC process, proteins decompose into
+ammonia, amines and small organic molecules, leading
+to a synchronous decrease in nitrogen and carbon con-
+tents. Humus was identiﬁed as having the most
+comprehensive performance in reducing nitrogen con-
+tent and enhancing aromaticity, which is essential for
+improving hydrochar as a cleaner solid fuel.
+It is understood that ash, carbon and nitrogen content
+signiﬁcantly inﬂuence HTC efﬁciency and perfor-
+mance, with their effects varying depending on the
+application. Carbon content is the most important
+among these as it increases the energy density of
+hydrochar, making it ideal for energy applications and
+carbon sequestration. While ash content negatively af-
+fects hydrochar performance by lowering caloriﬁc value
+and energy efﬁciency, it does not contribute to carbon-
+isation. Nitrogen content has a less pronounced effect
+on energy efﬁciency, but it is critical for agricultural
+applications because it increases hydrochar’s potential
+as a slow-release nitrogen fertiliser. However, high ni-
+trogen levels may be detrimental to combustion due to
+the formation of NOx [28]. Thus, carbon content is the
+most critical factor in overall HTC performance, nitro-
+gen content is application-speciﬁc and ash content
+limits efﬁciency. The properties of various feedstocks
+and their implications
+for
+the HTC process
+are
+summarised in Table 1.
+Mixed feedstocks
+Co-hydrothermal carbonisation (Co-HTC) has become
+a popular method for converting mixed biomass into
+hydrochar due to its efﬁciency and versatility. Co-HTC
+is the process of treating two or more types of biomass or
+waste materials simultaneously at controlled tempera-
+tures and pressures, typically ranging from 150 C to
+250 C. This method takes advantage of the comple-
+mentary properties of various biomass types, such as
+combining nitrogen-rich materials like sewage sludge
+with carbon-rich materials like agricultural residues. Cui
+et al. [29] provided valuable insights into hydrochar
+production via Co-HTC by combining sewage sludge
+(SS) with various lignocellulosic feedstocks such as pine
+sawdust (PS), bagasse (BS), sunﬂower straw (SFS), and
+water hyacinth (WH). The study reported hydrochar
+yields from the individual HTC process as 69.40 %,
+54.92 %, 47.80 %, 44.45 % and 41.41 % for SS, PS, BS,
+SFS and WH, respectively. However, when Co-HTC was
+employed, the yields from the combined feedstocks
+(SS&PS, SS&BS, SS&SFS, and SS&WH) increased to
+65.72 %, 60.81 %, 58.50 %, and 57.09 %, respectively.
+These results demonstrate the efﬁciency of Co-HTC in
+improving hydrochar yields and provide a clear under-
+standing of how different lignocellulosic materials
+interact with sewage sludge in the carbonisation process,
+making it a promising approach for waste valorisation
+and solid fuel production. The ﬁndings emphasise the
+importance of feedstock selection and suggest that
+combining different biomass types can enhance hydro-
+char quality. Future research should build on these
+ﬁndings to optimise Co-HTC processes and explore
+new feedstock combinations, further advancing the
+state-of-the-art of HTC research.
+HTC parameters
+The optimal parameters for producing hydrochar from
+municipal,
+agricultural
+and
+forestry
+wastes
+differ
+depending on the type of waste and desired hydrochar
+properties. The recommended temperature range for
+municipal sludge is 180e250 C, with a residence time
+of 4e8 h and a solideliquid ratio of 1:5 to 1:10 [30e32].
+Agricultural wastes, such as crop residues, typically
+require temperatures ranging from 200 to 250 C, a
+The impact of feedstocks in HTC Shanmugam et al.
+3
+www.sciencedirect.com
+Current Opinion in Green and Sustainable Chemistry 2025, 53:101024
+
+residence time of 2e6 h, and a solid-to-liquid ratio of 1:4
+to 1:8 [33e36]. Forestry wastes, such as sawdust and
+wood chips, are best processed at temperatures ranging
+from 220 to 260 C, with residence times of 3e8 h and
+solid-to-liquid ratios of 1:5 to 1:7 [37e39]. These pa-
+rameters ensure the effective conversion of these wastes
+into hydrochar but speciﬁc adjustments may be required
+based on the particular characteristics of each waste.
+Microwave-assisted HTC has been shown to effectively
+reduce reaction times, thereby enhancing energy efﬁ-
+ciency [40].
+Characteristics of Hydrochar
+Fuel properties
+The quantity and nature of aromatic structures have a
+signiﬁcant impact on hydrochar quality, speciﬁcally its
+fuel properties and stability. Hydrochar with a high
+content of aromatic structures was found to have better
+fuel properties, such as higher carbon content and
+caloriﬁc value, making it a viable alternative to tradi-
+tional fuels such as bituminous coal [41]. The stability
+of aromatic structures was found to contribute to the
+long-term carbon sequestration potential of hydrochar
+[42]. Understanding the formation of aromatic struc-
+tures in hydrochar was deemed critical in optimising the
+HTC process.
+Wu et al.’s [43] investigation of HTC of agricultural
+wastes underscored the importance of temperature
+control on fuel properties. It was reported that by
+favouring the formation of aromatic structures, the ma-
+terial could be tailored for fuel production. In another
+work, Lang et al. [44] found that increasing the HTC
+temperature from 180 to 220 C slightly increased the
+release of aromatic substances in cow manure hydrochar,
+from ca.83 to ca.87 %, but this was opposite to the re-
+sults of corn stalk produced hydrochar (reduced from
+ca.67 to 65 %), and Myriophyllum aquaticum (wetland
+plant) produced hydrochar (reduced from ca.68 to
+58 %). The principal component analysis results showed
+that feedstock type and HTC temperature signiﬁcantly
+impacted the content, compositions and characteristics
+of dissolved organic matter released from hydrochar.
+The caloriﬁc value of hydrochar is a crucial parameter
+that determines its energy content and efﬁciency as a
+fuel. A higher caloriﬁc value indicates that hydrochar can
+release more energy per unit mass when burned, making
+it an efﬁcient fuel source. Thus, it is critical to under-
+stand the hydrochar’s caloriﬁc value to enable effective
+blending with other fuels, determine its potential for
+various applications and maximise energy derived from
+feedstocks. Oumabady et al. [45] demonstrated that
+blending 20 % agricultural waste with 80 % coal pro-
+duced hydrochar with a caloriﬁc value of 27.65 MJ/kg,
+showing its potential as a supplementary fuel. Liang
+et al. [46] and Parnthong et al. [47] highlighted the
+Table 1
+Feedstock properties and their influence on the HTC process.
+Feedstock type
+Example materials
+Ash content (%)
+Carbon content (%)
+Nitrogen content (%)
+HHV (MJ/kg)
+HTC Implications
+Woody Biomass
+Pinewood, Pine sawdust,
+eucalyptus wood
+Low (0.3–2.8 %)
+45–55
+0.1–0.5
+18–22
+Produces low-ash, carbon-rich
+hydrochar with high energy density;
+suitable for biofuels—minimal
+reactor maintenance.
+Plant-Based Biomass
+Sugarcane bagasse, Corn stover,
+Rice husk, Sunflower straw,
+Bagasse, Corn husk
+Medium to High
+(3.5–20 %)
+35–50
+0.5–2.5
+15–20
+High ash content reduces energy
+efficiency but enhances soil
+amendment potential. Mixed
+feedstocks improve Co-HTC yields.
+Protein-Rich
+Sewage sludge
+Variable
+25–40
+3–8
+10–18
+Nitrogen-rich hydrochars are useful
+for fertilisers and supercapacitors;
+require Co-HTC for improved
+carbon retention.
+Co-HTC, Co-hydrothermal carbonisation; HHV, higher heating value.
+4
+Sustainable carbon materials (2025)
+Current Opinion in Green and Sustainable Chemistry 2025, 53:101024
+www.sciencedirect.com
+
+signiﬁcant impact of feedstock and its composition on
+hydrochar
+properties,
+including
+caloriﬁc
+value.
+Increased carbon, nitrogen and sulfur contents in
+hydrochar enhance its higher heating value (HHV),
+while increased hydrogen and oxygen content can
+decrease the HHV. Assis et al. [48] further emphasised
+that in addition to feedstock, process parameters like
+temperature and residence time play a crucial role in
+optimising hydrochar properties by inﬂuencing dehy-
+dration and decarboxylation reactions. Together, these
+studies underscore the importance of both feedstock
+selection and process optimisation for producing high-
+quality hydrochar with enhanced fuel characteristics.
+Adsorption capacity
+Hydrocarbons’ porous nature, combined with their large
+surface area, signiﬁcantly improve their adsorption ca-
+pabilities, allowing them to effectively adsorb a wide
+range of substances [49e51]. This feature is especially
+useful in environmental remediation, where they can
+absorb pollutants, oil spills and contaminants from water
+and soil. In agriculture, they adsorb excess fertilisers and
+pesticides, lowering runoff and its environmental impact
+[52e54], while also capturing airborne pollutants and
+VOCs, improving air quality [55]. Cavali et al. [56]
+investigated the inﬂuence of temperature (180, 215, and
+250 C), residence time (1, 2, and 3 h) and the mass
+ratio of pine residual sawdust to non-dewatered sewage
+sludge (1/30, 1/20 and 1/10) on the yield and properties
+of hydrochar produced through co-HTC. It was found
+that hydrochar produced at 250 C with a residence time
+of 1 h exhibited the highest BrunauereEmmetteTeller
+surface area and pore volume, achieving values of
+30.94 m2/g and 0.143 cm3/g, respectively. The increase
+in surface area and pore volume of hydrochar is linked to
+the loss of volatile compounds during HTC and Co-
+HTC processes.
+Lower volatile content generally leads to a larger speciﬁc
+surface area [56]. However, hydrochar can be activated
+to increase surface area and porosity, improving its efﬁ-
+ciency in applications that rely on these properties. Wen
+et al. [57] conﬁrmed this in their study of the hydro-
+thermal technique in combination with potassium hy-
+droxide (KOH) activation. KOH activation on tobacco
+stem feedstock resulted in hydrochar with higher sur-
+face areas (up to 2875 m2/g). Deepak et al. [58] inves-
+tigated KOH-activated orange peel hydrochar prepared
+at three different temperatures of 180, 200, and 220 C.
+It was found that increasing the HTC temperature led
+to a greater surface area in the resulting hydrochar, with
+the maximum surface area (ca.457 m2/g) achieved at
+220 C. The activation conditions primarily inﬂuenced
+the pore structure of the carbons and their carbon di-
+oxide (CO2) uptake capacity. Hydrochar produced at
+220 C exhibited the highest CO2 uptake, reaching
+3.045 mmol/g at 25 C and 1 bar. This was attributed to
+its high microporosity and moderate surface area of
+457.22 m2/g. In comparison, hydrochar produced at 180
+and 200 C displayed less developed micropores, with
+surface areas of 50.60 m2/g and 222.04 m2/g and CO2
+uptakes of 2.459 mmol/g and 2.892 mmol/g, respectively.
+Table 2 summarises signiﬁcant advances in hydrochar
+research, highlighting how diverse feedstocks and
+tailored HTC process parameters contribute to tech-
+nology adaptation. The ﬁndings in Table 2 show that
+HTC is compatible with a wide range of biomass types,
+including agricultural residues, aquatic plants, and in-
+dustrial wastes, demonstrating its versatility. Key ﬁnd-
+ings, such as the high adsorption capacity of Fe/N co-
+doped hydrochar from water hyacinth (274.34 mg/g for
+Cr(VI)) [59], highlight the potential for water treat-
+ment applications. Functional modiﬁcations, such as
+acid activation in cornstalk hydrochar [60], resulted in
+an 11.2-fold increase in speciﬁc surface area, making it
+ideal for catalysis and sorption. Process innovations,
+including solvent recirculation and co-HTC of mixed
+feedstocks,
+improved
+yield
+and
+energy
+efﬁciency,
+addressing scalability challenges. Furthermore, hydro-
+char’s environmental beneﬁts, such as reducing global
+warming potential (e.g. cattle manure hydrochar [61])
+and
+its
+effectiveness
+in
+heavy
+metal
+adsorption
+(e.g. willow biomass hydrochar [62]), highlight its role in
+sustainable waste management and remediation. These
+ﬁndings collectively provide a roadmap for adapting
+HTC
+technology
+to
+industrial-scale
+applications,
+bridging the gap between laboratory research and com-
+mercial implementation.
+Dissolved organic matter release
+The release characteristics of hydrochar detail the types
+and properties of substances that are released when
+hydrochar is exposed to environmental factors such as
+water, temperature, and pH. These characteristics
+include the quantity, composition, molecular weight,
+and diversity of dissolved organic matter (DOM)
+released by the hydrochar. Release characteristics are
+critical for understanding hydrochar’s environmental
+impact, optimising its production, and maximising its
+beneﬁts in a variety of applications, including carbon
+sequestration, soil improvement and pollution manage-
+ment. The research on this aspect is limited; however,
+recently, Ji et al. [72] investigated the potential release
+of hydrochar-derived dissolved organic matter (HDOM)
+from
+rice
+strawederived
+hydrochars
+prepared
+at
+different temperatures (180 C, 220 C or 260 C for
+4 h) under a variety of environmental scenarios. Rice
+strawederived hydrochars processed at 180 C released
+high levels of HDOM (up to 299 mg/g dissolved organic
+carbon). Under alkaline conditions, the amount, mo-
+lecular weight and diversity of HDOM increased
+signiﬁcantly, with molecular weights of up to 423 Da and
+a diversity of 8 857 different compounds. It was
+The impact of feedstocks in HTC Shanmugam et al.
+5
+www.sciencedirect.com
+Current Opinion in Green and Sustainable Chemistry 2025, 53:101024
+
+Table 2
+Key investigation and findings of hydrochar research in 2024.
+Feedstock
+Technique
+Process parameters
+Key findings
+Ref
+W/B
+T(C)
+Rt (h)
+Post-T
+Bamboo powder
+HTC
+7:1
+180
+12
+Ball milling
+- Ball milling of hydrochar results in an
+increased number of oxygenated functional
+groups and furan structures.
+- Improved
+adsorption
+capacity
+and
+photodegradation rate
+[63]
+Water hyacinth
+Microwave-assisted
+HTC with Fe/N co-
+doping
+Power = 300 W
+Working Frequency =
+2.45 GHz
+–
+200
+1
+Microwave-assisted
+KOH pyrolysis activation
+- KOH activation improved the porosity and
+increased the surface area by over 500 %.
+- Maximum adsorption capacity for removing
+Cr(VI) from aqueous solution: 274.34 mg/g
+[59]
+Orange peel waste and
+fennel plant
+HTC and Co-HTC
+10:1
+180
+230
+1
+–
+- Solvent
+(process
+water)
+recirculation
+increased solid mass yield by 10.5 wt%
+(180 C) and 3.9 wt% (230 C).
+- Total yield increased up to 18.2 wt% after
+five cycles.
+[64]
+Cornstalk powder
+Phosphoric acid-
+assisted HTC
+10:1
+180
+12
+–
+- Specific surface area increased by 11.2
+times with phosphoric acid treatment
+[65]
+Coconut shell
+HTC pretreatment
+5:1
+60
+180
+200
+220
+240
+0.5
+Pyrolysis
+- HTC treatment improved the devolatilisation
+of raw materials.
+- HTC treatment (220 C) led to a higher
+degree of aromatisation.
+[66]
+Distilled spent grain
+HTC
+7:1
+160
+180 210
+0.5
+Mixing with glycerol
+triglycidyl ether and
+polyvinyl alcohol
+solution (10 %)
+- Bio-adhesive bonding strength increased
+with hydrochar (a180 C).
+- Wet shear strength: 1.24 MPa.
+[67]
+Orange peel
+HTC
+100:3
+185
+18
+–
+- Hydrochar showed mesoporous structure.
+- BET surface area: 29.11 m2/g.
+- Total pore volume: 0.068 cm3/g.
+[68]
+Paddy husk
+HTC
+5:1
+180 200 220
+3
+Activation with 20 %
+phosphoric acid
+- Hydrochar (220
+C) adsorption capacity:
+46.9 mg/g (tetracycline).
+- Higher than biochar (41.7 mg/g at 350 C).
+[69]
+Sewage sludge
+Ionic liquid-catalysed
+HTC
+10:3
+160
+2
+–
+- Ionic liquid catalysis led to decarboxylation
+and lower hydrochar yield.
+- Higher HHV.
+- Energy feedback: 124 % at 90 min.
+[70]
+Residues from the
+vegetable oil industry
+(pumpkin oil cake,
+hemp oil cake) and
+sewage sludge
+Co-HTC
+6:1
+250
+5
+–
+- C ccontent increased from 36.9 to 53.7 wt%.
+- HHV increased from 14.8 to 23.6 MJ/kg
+- Hydrochar yield ranged between 39.4 and
+55.3 wt%.
+[60]
+HTC
+7:1
+5
+–
+[71]
+6
+Sustainable carbon materials (2025)
+Current Opinion in Green and Sustainable Chemistry 2025, 53:101024
+www.sciencedirect.com
+
+discovered that signiﬁcant unique substances, such as
+lipid-like substances, carboxylic-rich alicyclic molecules
+(CRAM)/lignin-like substances, aromatic structures,
+and tannin-like substances, were only released under
+alkaline conditions. CRAM/lignin-like substances were
+discovered to be the most abundant in relatively stable
+HDOM, accounting for 82 % of the total, indicating
+their long-term carbon sequestration in various envi-
+ronmental conditions.
+Conclusions and Future Perspectives
+Hydrochar shows signiﬁcant promise not only as a sus-
+tainable solid fuel due to its high energy density,
+reduced emissions and compatibility with existing coal
+infrastructure but also for a range of other applications,
+including carbon sequestration, wastewater treatment,
+bioremediation and soil enhancement. Its high surface
+area and adsorption capacity make it a versatile material
+that can contribute to circular economy strategies and
+environmental sustainability. Improving HTC parame-
+ters over a range of feedstocks remains a major challenge
+in scaling the process. It is important to build sound
+predictive models for improving hydrochar quality and
+process efﬁciency. For example, Hwang et al. [73] used
+random forest regression to model near-infrared spectra
+for the prediction of hydrochar properties from kraft
+lignin HTC with good prediction accuracy (R2 > 0.98)
+for carbon content, atomic O/C ratio and H/C ratio.
+Their work proved the capability of selective spectral
+data in enhancing hydrochar characterisation. Similarly,
+Shaﬁzadeh et al. [74] used decision tree and support
+vector regression models to forecast hydrochar yield and
+quality, where decision trees were more accurate than
+support vector models. These machine learning-based
+methods considerably minimise experimental time and
+costs, making them useful tools for optimising HTC
+reaction parameters.
+The commercial viability of hydrochar as a solid fuel is
+promising due to its high energy density, reduced
+emissions, and compatibility with existing coal infra-
+structure [6,75]. Large-scale implementation, however,
+must overcome economic and technological challenges,
+given the production costs of hydrochar range from V50
+to V500 per tonne, depending on feedstock and process
+conditions [76], compared with subbituminous coal at
+about V110  10 per tonne [77]. Future investigations
+must focus on reducing costs through reactor design
+optimisation,
+feedstock
+preprocessing
+and
+process
+upscaling. Hydrochar quality optimisation to meet in-
+dustry standards such as ISO 17225 and EN 303e5 will
+further improve its potential for co-combustion by
+increasing carbon content, volatile matter and emissions
+compatibility. Policy initiatives, including subsidies,
+carbon credits, and pilot plant investment for HTC, will
+facilitate hydrochar integration into industry supply
+chains.
+Fish and crustacean
+waste
+200
+220 240
+- Hydrochar yield: Fish (15.1 %–21.5 %),
+crustaceans (36.9 %–69.3 %).
+- Elemental
+composition
+and
+functional
+groups identified were influenced by
+temperature.
+Willow biomass
+(containing cadmium
+and zinc)
+HTC
+Reaction media: Water,
+hydrochloric acid,
+sulfuric acid and
+phosphoric acid.
+Acid concentration =
+0.01–0.2 mol/L
+20:1
+220
+5
+–
+Phosphoric acid hydrochar (0.05 mol/L) has
+the maximum adsorption capacity for Cd2+
+(4.497 mg/g) and Cu2+ (49.708 mg/g).
+- Cadmium and zinc migrate to the liquid
+phase with the addition of acid.
+- Enriched energy density with calorific values
+between 23.83 and 28.27 MJ/kg.
+[62]
+Sesbania straw, reed
+straw and cattle
+manure
+HTC
+10:1
+220
+1
+Milled into 0.5-mm
+powders
+- Hydrochar
+from
+cattle
+manure
+reduced
+global warming potential
+- Hydrochars enhanced tomato growth and
+fruit quality
+[61]
+#W/B: water to biomass ratio, BET, Brunauer–Emmett–Teller; T: temperature, Rt: residence time, Post-T: posttreatment.
+The impact of feedstocks in HTC Shanmugam et al.
+7
+www.sciencedirect.com
+Current Opinion in Green and Sustainable Chemistry 2025, 53:101024
+
+From a sustainability perspective, conducting compre-
+hensive Life Cycle Assessments (LCAs) are essential to
+evaluate the environmental and economic trade-offs of
+hydrochar production. According to recent LCA studies,
+HTC is considered more energy-efﬁcient than pyrolysis
+due to its lower thermal energy requirements [78]. Still,
+feedstock selection signiﬁcantly inﬂuences hydrochar
+yield, caloriﬁc value and overall process efﬁciency [79].
+Future studies should focus on LCA tailored to speciﬁc
+feedstocks
+to
+quantify
+hydrochar’s
+environmental
+impact, assess its long-term effects on soil health and
+productivity, and explore its industrial-scale integration,
+particularly
+in
+terms
+of
+carbon
+footprint,
+energy
+balance and waste valorisation potential. Comparing
+LCAs across various feedstocks will enhance the opti-
+misation of hydrochar for waste-to-value and circular
+economy strategies [80], thereby afﬁrming its feasibility
+as a sustainable energy and material resource.
+Declaration of competing interest
+The authors declare that they have no known competing
+ﬁnancial interests or personal relationships that could
+have appeared to inﬂuence the work reported in this
+paper.
+Data availability
+No data was used for the research described in the
+article.
+References
+Papers of particular interest, published within the period of review,
+have been highlighted as:
+*
+of special interest
+* * of outstanding interest
+1.
+Agricultural production statistics (2000–2022) (n.d.), https://
+www.fao.org/statistics/highlights-archive/highlights-detail/
+agricultural-production-statistics-(2000-2022)/en. [Accessed 30
+September 2024].
+2.
+FAO’s statistical yearbook world food and agriculture 2023 |
+knowledge for policy (n.d.), https://knowledge4policy.ec.europa.
+eu/publication/fao%E2%80%99s-statistical-yearbook-world-food-
+agriculture-2023_en. [Accessed 26 July 2024].
+3.
+FAO publications catalogue 2023. FAO Publications Catalogue
+2023; 2023. https://doi.org/10.4060/CC7285EN.
+4.
+Sadh PK, Chawla P, Kumar S, Das A, Kumar R, Bains A,
+Sridhar K, Duhan JS, Sharma M: Recovery of agricultural waste
+biomass: a path for circular bioeconomy. Sci Total Environ
+2023, 870, 161904. https://doi.org/10.1016/
+J.SCITOTENV.2023.161904.
+5.
+Shyam S, Arun J, Gopinath KP, Ribhu G, Ashish M, Ajay S:
+Biomass as source for hydrochar and biochar production to
+recover phosphates from wastewater: a review on chal-
+lenges, commercialization, and future perspectives. Chemo-
+sphere 2022, 286, 131490. https://doi.org/10.1016/
+J.CHEMOSPHERE.2021.131490.
+6.
+Wang Q, Wu S, Cui D, Zhou H, Wu D, Pan S, Xu F, Wang Z: Co-
+hydrothermal carbonization of organic solid wastes to
+hydrochar as potential fuel: a review. Sci Total Environ 2022,
+850, 158034. https://doi.org/10.1016/J.SCITOTENV.
+2022.158034.
+7.
+Lachos-Perez D, César Torres-Mayanga P, Abaide ER, Zabot GL,
+De Castilhos F: Hydrothermal carbonization and Liquefaction:
+differences, progress, challenges, and opportunities. Bio-
+resour Technol 2022, 343, 126084. https://doi.org/10.1016/
+J.BIORTECH.2021.126084.
+8.
+Devnath B, Khanal S, Shah A, Reza T: Influence of hydrother-
+mal carbonization (HTC) temperature on hydrochar and pro-
+cess liquid for poultry, swine, and dairy manure. Environments
+2024, 11:150. https://doi.org/10.3390/ENVIRON-
+MENTS11070150/S1.
+9.
+Ercan B, Alper K, Ucar S, Karagoz S: Comparative studies of
+hydrochars and biochars produced from lignocellulosic
+biomass via hydrothermal carbonization, torrefaction and
+pyrolysis. J Energy Inst 2023, 109, 101298. https://doi.org/
+10.1016/J.JOEI.2023.101298.
+10.
+Fakudze S, Chen J: A critical review on co-hydrothermal
+carbonization of biomass and fossil-based feedstocks for
+cleaner solid fuel production: synergistic effects and envi-
+ronmental benefits. Chem Eng J 2023, 457, 141004. https://
+doi.org/10.1016/J.CEJ.2022.141004.
+11.
+Madusari S, Jamari SS, Nordin NIAA, Bindar Y, Prakoso T,
+Restiawaty E, Steven S: Hybrid hydrothermal carbonization
+and ultrasound technology on oil palm biomass for hydro-
+char production. ChemBioEng Rev 2023, 10:37–54. https://
+doi.org/10.1002/CBEN.202200014.
+12.
+Khan MA, Hameed BH, Siddiqui MR, Alothman ZA, Alsohaimi IH:
+Hydrothermal conversion of food waste to carbonaceous
+solid fuel—a review of recent developments. Foods 2022, 11:
+4036. https://doi.org/10.3390/FOODS11244036. 11 (2022) 4036.
+13.
+Xu Z, Tan Y, Ma X, Wu S, Zhang B, Luque R: A novel method to
+remove nitrogen from sewage sludge during hydrothermal
+carbonization via inhibiting Maillard reaction. J Environ Chem
+Eng 2023, 11, 109342. https://doi.org/10.1016/
+J.JECE.2023.109342.
+14.
+Mohanty AK, Vivekanandhan S, Das O, Romero Millán LM,
+Klinghoffer NB, Nzihou A, Misra M: Biocarbon materials. Nat
+Rev Meth Primers 2024, 4:1–21. https://doi.org/10.1038/s43586-
+024-00297-4. 2024 4:1.
+15.
+Du S, Zhang Q, Ye W, Wang Z, Liu Z, Huang J, Xu X, Wu Y, Lin X,
+He QS, Nanda S, Changotra R, Hu Y, Zhao Z, Yang J:
+Advancing hydrochar production and application: a critical
+examination of microwave irradiation and blended feed-
+stocks synergy. J Clean Prod 2023, 426, 139049. https://doi.org/
+10.1016/J.JCLEPRO.2023.139049.
+16.
+Suarez E, Tobajas M, Mohedano AF, Reguera M, Esteban E, de
+la Rubia A: Effect of garden and park waste hydrochar and
+biochar in soil application: a comparative study. Biomass
+Convers Biorefin 2023, 13:16479–16493. https://doi.org/10.1007/
+S13399-023-04015-0/FIGURES/9.
+17.
+Tamires da Silva Carvalho N, Silveira EA, de Paula Protásio T,
+Trugilho PF, Bianchi ML: Hydrotreatment of Eucalyptus
+sawdust: the influence of process temperature and H2SO4
+catalyst on hydrochar quality, combustion behavior and
+related emissions. Fuel 2024, 360, 130643. https://doi.org/
+10.1016/J.FUEL.2023.130643.
+18.
+Cavali M, Libardi Junior N, de Sena JD, Woiciechowski AL,
+Soccol CR, Belli Filho P, Bayard R, Benbelkacem H, de Castilhos
+Junior AB: A review on hydrothermal carbonization of po-
+tential biomass wastes, characterization and environmental
+applications of hydrochar, and biorefinery perspectives of
+the process. Sci Total Environ 2023, 857, 159627. https://doi.org/
+10.1016/j.scitotenv.2022.159627.
+19.
+Miao J, Ji M, Xiao L, Liu F, Wu M, Sang W: Unraveling the
+fascinating connection between hydrochar feedstock and
+methane emissions in rice paddy soil: insights from micro-
+organisms and organic matter. Chem Eng J 2023, 472, 144957.
+https://doi.org/10.1016/j.cej.2023.144957.
+20.
+Lin H, Li Q, Zhang L, Zhang S, Hu X: Hydrothermal carbon-
+ization of sawdust with the bio-oil of same origin impacts
+evolution of structures of hydrochar. Fuel Process Technol
+8
+Sustainable carbon materials (2025)
+Current Opinion in Green and Sustainable Chemistry 2025, 53:101024
+www.sciencedirect.com
+
+2022, 238, 107516. https://doi.org/10.1016/
+J.FUPROC.2022.107516.
+21.
+Krysanova K, Krylova A, Kulikova M, Kulikov A, Rusakova O:
+Biochar characteristics produced via hydrothermal carbon-
+ization and torrefaction of peat and sawdust. Fuel 2022, 328,
+125220. https://doi.org/10.1016/J.FUEL.2022.125220.
+22.
+Kaewtrakulchai N, Chanpee S, Manatura K, Eiad-Ua A:
+Upgrading of corn stalk residue and tannery waste into
+sustainable solid biofuel via conventional hydrothermal
+carbonization and Co-hydrothermal carbonization. J Sustain
+Res 2023, 5. https://doi.org/10.20900/JSR20230012.
+23
+*
+.
+Ipiales RP, Sarrion A, Diaz E, Diaz-Portuondo E, Mohedano AF,
+de la Rubia A: Strategies to improve swine manure hydrochar:
+HCl-assisted hydrothermal carbonization versus hydrochar
+washing. Biomass Convers Biorefin 2023, 13:16467–16478.
+https://doi.org/10.1007/s13399-023-04027-w.
+"The authors of this study demonstrated that the hydrothermal
+carbonization process, when enhanced with HCl-assisted treatment,
+significantly improves the carbon content and calorific value of hydro-
+char derived from swine manure. This study presents novel findings on
+the influence of HCl and acetone washing in producing low-ash
+hydrochar with enhanced fuel properties.”
+24
+*
+.
+Roslan SZ, Zainudin SF, Mohd Aris A, Chin KB, Musa M,
+Mohamad Daud AR, Syed Hassan SSA: Hydrothermal
+carbonization of sewage sludge into solid biofuel: influences
+of process conditions on the energetic properties of hydro-
+char. Energies 2023, 16:2483. https://doi.org/10.3390/
+en16052483.
+"In this study, the authors reported that a significant reduction in
+organic volatile matter and functional groups on the hydrochar pro-
+duced with increasing temperature and carbonization time. This study
+evident that the hydrochar’s decreased H/C and O/C atomic ratios
+indicate enhanced carbonization, resulting in fuel characteristics
+comparable to sub-bituminous coal."
+25.
+Jamal-Uddin A-T, Salaudeen SA, Dutta A, Zytner RG: Hydro-
+thermal conversion of waste biomass from greenhouses into
+hydrochar for energy, soil amendment, and wastewater
+treatment applications. Energies 2022, 15:3663. https://doi.org/
+10.3390/en15103663.
+26.
+Xu Z, Zhang X, Liang Y, Lin H, Zhang S, Liu J, Jin C, Choe U,
+Sheng K: Green synthesis of nitrogen-doped porous carbon
+derived from rice straw for high-performance supercapacitor
+application. Energy Fuels 2020, 34:8966–8976. https://doi.org/
+10.1021/ACS.ENERGYFUELS.0C01346/SUPPL_FILE/
+EF0C01346_SI_001.PDF.
+27
+*
+.
+Xie L, Gou L, Xu D, Kapusta K, Dai L, Wang Y: Coupling in-
+fluences of organic components and temperature on nitro-
+gen transformation and hydrochar characterization during
+hydrothermal carbonization of sewage sludge. Sci Total En-
+viron 2023, 866, 161354. https://doi.org/10.1016/
+j.scitotenv.2022.161354.
+“This study investigated the influence of various organic components in
+sewage sludge—such as proteins, lipids, cellulose, hemicellulose,
+lignins, and humus on the nitrogen retention, nitrogen transformation,
+and hydrochar properties at temperatures ranging from 150 to 270 C.
+The findings show that carbohydrates, lignin, and humus have the
+highest nitrogen retention ability, followed by proteins and lipids. The
+findings of this investigation can be used to estimate the nitrogen
+content and quality of hydrochar, as well as to provide references for
+future research aimed at upgrading hydrochar.”
+28.
+Li H, Li M, Wang H, Tan M, Zhang G, Huang Z, Yuan X: A review
+on migration and transformation of nitrogen during sewage
+sludge thermochemical treatment: focusing on pyrolysis,
+gasification and combustion. Fuel Process Technol 2023, 240,
+107562. https://doi.org/10.1016/J.FUPROC.2022.107562.
+29
+*
+.
+Cui D, Zhang B, Wu S, Xu X, Liu B, Wang Q, Zhang X, Zhang J:
+From sewage sludge and lignocellulose to hydrochar by co-
+hydrothermal carbonization: mechanism and combustion
+characteristics. Energy 2024, 305, 132414. https://doi.org/
+10.1016/J.ENERGY.2024.132414.
+“This study by Cui et al. provides valuable insights into hydrochar
+production through Co-HTC by combining sewage sludge with various
+lignocellulosic feedstocks. Hydrochar yields from individual HTC pro-
+cesses were reported. Notably, Co-HTC significantly improved the
+yields of the combined feedstocks, achieving ca.57–68%. This inves-
+tigation highlights the efficiency of Co-HTC in enhancing hydrochar
+yields and shed light on the synergistic interactions between sewage
+sludge and lignocellulosic materials during the carbonization process.”
+30.
+Sathe SM, Chakraborty I, Dubey BK, Ghangrekar MM: Waste-
+water sludge-derived hydrochar: effect of operating condi-
+tions, activation, and potential use as adsorbent. Process Saf
+Environ Prot 2024, 184:1400–1410. https://doi.org/10.1016/
+J.PSEP.2024.02.063.
+31.
+Liu C, Yue Z, Ma D, Li K, Xie Z, Zhang T, Wang J: Effect of
+hydrothermal carbonization on pyrolysis behavior, nutrients
+and metal species distribution in municipal sludge. Bioresour
+Technol 2024, 399, 130524. https://doi.org/10.1016/
+J.BIORTECH.2024.130524.
+32.
+Zhi Y, Xu D, Jiang G, Yang W, Chen Z, Duan P, Zhang J:
+A review of hydrothermal carbonization of municipal sludge:
+process conditions, physicochemical properties, methods
+coupling, energy balances and life cycle analyses. Fuel Pro-
+cess Technol 2024, 254, 107943. https://doi.org/10.1016/
+J.FUPROC.2023.107943.
+33.
+Sukor MZ, Daud ARM, Jamaludin SIS, Muhamad SHA,
+Samah NAA, Sanusi SNA, Annuar NHR: Biomass wastes hy-
+drothermal carbonization: a mini-review on hydrochar prop-
+erties and combustion performance. Chem Eng Trans 2023,
+106:451–456. https://doi.org/10.3303/CET23106076.
+34.
+Shan G, Li W, Bao S, Li Y, Tan W: Co-hydrothermal carbon-
+ization of agricultural waste and sewage sludge for product
+quality improvement: fuel properties of hydrochar and fertil-
+izer quality of aqueous phase. J Environ Manag 2023, 326,
+116781. https://doi.org/10.1016/J.JENVMAN.2022.116781.
+35.
+Ding C, Ye C, Zhu W, Zeng G, Yao X, Ouyang Y, Rong J, Tao Y,
+Liu X, Deng Y: Engineered hydrochar from waste reed straw
+for peroxymonosulfate activation to degrade quinclorac and
+improve solanaceae plants growth. J Environ Manag 2023,
+347, 119090. https://doi.org/10.1016/J.JENVMAN.2023.119090.
+36.
+Wang G, Liu J, Liang W, Dan J, Ning X, Wang C: Hydrothermal
+carbonization mechanism of agricultural waste under
+different conditions: an experimental and ReaxFF molecular
+dynamics study. J Energy Inst 2023, 110, 101353. https://
+doi.org/10.1016/J.JOEI.2023.101353.
+37.
+Güler B, Aydõn Temel F: Investigation of value-added charcoal
+production from full-scale hydrothermal carbonization of
+hazelnut husk and wood waste. Biomass Convers Biorefin
+2024, 14:15119–15127. https://doi.org/10.1007/S13399-023-
+04191-Z/METRICS.
+38.
+Zhao Q, Zheng J, Yan X, Bekchanov D, Chai L, Lin Z, Zhang L,
+Su X: Alkali-assisted hydrothermal preparation of artificial
+humic acid from litchi wood and electrochemical perfor-
+mance of its hydrochar. J Environ Chem Eng 2024, 12, 113828.
+https://doi.org/10.1016/J.JECE.2024.113828.
+39.
+Lilian MJ, Shui T, Rajput H, Naterer G, He S, Hu Y: Hydrothermal
+carbonization of sawdust for hydrochar production to pre-
+pare solid fuels. Can J Chem Eng 2024, 102:1039–1050. https://
+doi.org/10.1002/CJCE.25122.
+40.
+jie Wang Y, Yu Y, jun Huang H, long Yu C, sun Fang H, huo
+Zhou C, Yin X, hua Chen W, chun Guo X: Efficient conversion
+of sewage sludge into hydrochar by microwave-assisted
+hydrothermal carbonization. Sci Total Environ 2022, 803,
+149874. https://doi.org/10.1016/J.SCITOTENV.2021.149874.
+41.
+Luthfi N, Fukushima T, Wang X, Takisawa K: Hydrochar as an
+alternative to coal: a comparative study of lignocellulosic and
+nonlignocellulosic biomass. Resources 2024, 13:49. https://
+doi.org/10.3390/RESOURCES13040049. 13 (2024) 49.
+42.
+Acosta AC, Arias CA, Biller P, Sørensen P, Marulanda V, Brix H:
+Optimizing resource efficiency through hydrothermal
+carbonization and engineered wetland systems: a study on
+carbon sequestration and phosphorus recovery potential.
+J Clean Prod 2024, 442, 140962. https://doi.org/10.1016/
+J.JCLEPRO.2024.140962.
+43.
+Wu S, Wang Q, Cui D, Sun H, Yin H, Xu F, Wang Z: Evaluation
+of fuel properties and combustion behaviour of hydrochar
+derived from hydrothermal carbonisation of agricultural
+wastes. J Energy Inst 2023, 108, 101209. https://doi.org/10.1016/
+j.joei.2023.101209.
+The impact of feedstocks in HTC Shanmugam et al.
+9
+www.sciencedirect.com
+Current Opinion in Green and Sustainable Chemistry 2025, 53:101024
+
+44
+* *
+.
+Lang Q, Guo X, Wang C, Li L, Li Y, Xu J, Zhao X, Li J, Liu B,
+Sun Q, Zou G: Characteristics and phytotoxicity of hydrochar-
+derived dissolved organic matter: effects of feedstock type
+and hydrothermal temperature. J Environ Sci 2025, 149:
+139–148. https://doi.org/10.1016/j.jes.2023.10.007.
+“This study found that the feedstock type and HTC temperature had a
+significant impact on the characteristics of hydrochar DOM. The principal
+component analysis revealed that feedstock type and HTC temperature
+had a significant impact on the properties of hydrochar DOM. It was
+reported that increasing the HTC temperature from 180 to 220 C slightly
+increased the release of aromatic compounds in cow manure hydrochar
+from 83% to 87%, while hydrochar produced from Myriophyllum aqua-
+ticum (a wetland plant) decreased from 68% to 58%.”
+45.
+Oumabady S, Bhardwaj SK, Ramasamy SP, Dandare SU,
+Sakrabani R, Doherty R, Nanukuttan S, Kumaresan D: Thermo-
+chemical characterisation of hydrochar from agricultural
+waste and its efficiency as a supplement with solid fuel.
+Biomass Bioenergy 2024, 187, 107299. https://doi.org/10.1016/
+J.BIOMBIOE.2024.107299.
+46.
+Liang W, Wang G, Xu R, Ning X, Zhang J, Guo X, Ye L, Li J,
+Jiang C, Wang P, Wang C: Hydrothermal carbonization of
+forest waste into solid fuel: mechanism and combustion
+behavior. Energy 2022, 246, 123343. https://doi.org/10.1016/
+j.energy.2022.123343.
+47
+*
+.
+Parnthong J, Nualyai S, Kraithong W, Jiratanachotikul A,
+Khemthong P, Faungnawakij K, Kuboon S: Higher heating value
+prediction of hydrochar from sugarcane leaf and giant
+leucaena wood during hydrothermal carbonization process.
+J Environ Chem Eng 2022, 10, 108529. https://doi.org/10.1016/
+J.JECE.2022.108529.
+“The study of Parnthong et al. aimed to predict the HHV of hydrochar
+made from sugarcane leaf and giant leucaena wood under various
+HTC conditions, using both ultimate and proximate analysis. Accurate
+HHV correlation equations were developed using multiple linear and
+nonlinear regression methods on the experimental data. The findings
+show that increased carbon, nitrogen, and sulfur contents in hydrochar
+increase its HHV, whereas higher hydrogen and oxygen contents
+decrease it. These findings help to optimize hydrochar properties for
+better energy performance.”
+48
+*
+.
+Assis EINC, Gidudu B, Chirwa EMN: Hydrothermal carbon-
+isation of paper sludge: effect of process conditions on
+hydrochar fuel characteristics and energy recycling effi-
+ciency. J Clean Prod 2022, 373, 133775. https://doi.org/10.1016/
+J.JCLEPRO.2022.133775.
+“This study looks into HTC’s potential as a sustainable method of
+producing cleaner, more energy-dense solid fuel from paper mill
+sludge. The effects of process parameters such as temperature, re-
+action time, and solid load on hydrochar fuel formation were investi-
+gated, and for the first time, response surface methodology (RSM) was
+used to optimize the hydrochar produced from paper sludge for
+maximum mass yield and calorific value.”
+49.
+Luo Y, Lan Y, Liang S, Yu S, Xue M, Yin Z, Shen FF, Li X, Hong Z,
+Yan M, Xie C, Gao B: Rice husk hydrochar prepared by hy-
+drochloric acid assisted hydrothermal carbonization for
+levofloxacin removal in bioretention columns. Bioresour
+Technol 2024, 393, 130105. https://doi.org/10.1016/
+J.BIORTECH.2023.130105.
+50.
+Huang J, Feng Y, Xie H, Wu P, Wang M, Wang B, Zhang Q,
+Zhang S, Liu Z: A bibliographic study reviewing the last
+decade of hydrochar in environmental application: history,
+status quo, and trending research paths. Biochar 2023, 5:
+1–27. https://doi.org/10.1007/S42773-023-00210-4. 2023 5:1.
+51.
+Sharma HB, Vanapalli KR, Bhatia D, Singh S, Arora G,
+Panigrahi S, Dubey BK, Ramamurthy PC, Mohanty B: Engi-
+neered biochar/hydrochar derived from organic wastes for
+energy, environmental, and agricultural applications. Clean
+Technol Environ Policy 2024, 2024:1–35. https://doi.org/10.1007/
+S10098-024-02863-6.
+52.
+Karatas O, Khataee A, Kalderis D: Recent progress on the
+phytotoxic effects of hydrochars and toxicity reduction ap-
+proaches. Chemosphere 2022, 298, 134357. https://doi.org/
+10.1016/J.CHEMOSPHERE.2022.134357.
+53.
+Khosravi A, Zheng H, Liu Q, Hashemi M, Tang Y, Xing B: Pro-
+duction and characterization of hydrochars and their appli-
+cation in soil improvement and environmental remediation.
+Chem Eng J 2022, 430, 133142. https://doi.org/10.1016/
+J.CEJ.2021.133142.
+54.
+Zhang H, Zhang R, Li W, Ling Z, Shu W, Ma J, Yan Y: Agricul-
+tural waste-derived biochars from co-hydrothermal gasifica-
+tion of rice husk and chicken manure and their adsorption
+performance for dimethoate. J Hazard Mater 2022, 429,
+128248. https://doi.org/10.1016/J.JHAZMAT.2022.128248.
+55.
+Shen Y: Biomass-derived porous carbons for sorption of
+Volatile organic compounds (VOCs). Fuel 2023, 336, 126801.
+https://doi.org/10.1016/J.FUEL.2022.126801.
+56
+*
+.
+Cavali M, Benbelkacem H, Kim B, Bayard R, Libardi Junior N,
+Gonzaga Domingos D, Woiciechowski AL, de Castilhos
+Junior AB: Co-hydrothermal carbonization of pine residual
+sawdust and non-dewatered sewage sludge – effect of re-
+action conditions on hydrochar characteristics. J Environ
+Manag 2023, 340, 117994. https://doi.org/10.1016/
+j.jenvman.2023.117994.
+“This study investigates the Co-HTC of pine residual sawdust and non-
+dewatered sewage sludge in the absence of additional water. Hydro-
+chars produced at 250 C exhibited the highest coalification degree, with
+improved fuel ratio, HHV, surface area, and nutrient retention such as N, P,
+and K, albeit at lower yields. This study reported that Co-HTC is a prom-
+ising alternative to conventional HTC because it uses less water while
+managing lignocellulosic waste and sewage sludge more efficiently.”
+57.
+Wen J, Liu Z, Xi H, Huang B: Synthesis of hierarchical porous
+carbon with high surface area by chemical activation of (NH4)
+2C2O4 modified hydrochar for chlorobenzene adsorption.
+J Environ Sci 2023, 126:123–137. https://doi.org/10.1016/
+j.jes.2022.04.011.
+58.
+Deepak KR, Mohan S, Dinesha P, Balasubramanian R: CO2
+uptake by activated hydrochar derived from orange peel
+(Citrus reticulata): influence of carbonization temperature.
+J Environ Manag 2023, 342, 118350. https://doi.org/10.1016/
+j.jenvman.2023.118350.
+59.
+Qu J, Shi S, Li Y, Liu R, Hu Q, Zhang Y, Wang Y, Ma Y, Hao X,
+Zhang Y: Fe/N co-doped magnetic porous hydrochar for
+chromium(VI) removal in water: adsorption performance and
+mechanism investigation. Bioresour Technol 2024, 394,
+130273. https://doi.org/10.1016/J.BIORTECH.2023.130273.
+60.
+Petrovic A, Cencic Predikaka T, Parlov Vukovic J, Jednacak T,
+Hribernik S, Vohl S, Urbancl D, Tisma M, Cucek L: Sustainable
+hydrothermal co-carbonization of residues from the vege-
+table oil industry and sewage sludge: hydrochar production
+and liquid fraction valorisation. Energy 2024, 307, 132760.
+https://doi.org/10.1016/J.ENERGY.2024.132760.
+61.
+Wang X, Kong Q, Cheng Y, Xie C, Yuan Y, Zheng H, Yu X,
+Yao H, Quan Y, You X, Zhang C, Li Y: Cattle manure hydrochar
+posed a higher efficiency in elevating tomato productivity
+and decreasing greenhouse gas emissions than plant straw
+hydrochar in a coastal soil. Sci Total Environ 2024, 912,
+168749. https://doi.org/10.1016/j.scitotenv.2023.168749.
+62.
+Zhao B, Li H, Yang X, Xiao J, Chen G: Hydrochar derived from
+willow using in phytoremediation: hydrochar properties,
+metals behavior and potential applications. Sep Purif Technol
+2024, 339, 126697. https://doi.org/10.1016/j.seppur.2024.126697.
+63.
+Ye H, Luo Y, Yang T, Xue M, Yin Z, Gao B: Effects of ball milling
+on hydrochar for integrated adsorption and photocatalysis
+performance. Sep Purif Technol 2025, 354, 128687. https://
+doi.org/10.1016/J.SEPPUR.2024.128687.
+64.
+Picone A, Volpe M, Codignole Lùz F, Malik W, Volpe R,
+Messineo A: Co-hydrothermal carbonization with process
+water recirculation as a valuable strategy to enhance hydro-
+char recovery with high energy efficiency. Waste Manag 2024,
+175:101–109. https://doi.org/10.1016/j.wasman.2024.01.002.
+65.
+Lan Y, Luo Y, Yu S, Ye H, Zhang Y, Xue M, Sun Q, Yin Z, Li X,
+Xie C, Hong Z, Gao B: Cornstalk hydrochar produced by
+phosphoric acid-assisted hydrothermal carbonization for
+effective adsorption and photodegradation of norfloxacin.
+Sep Purif Technol 2024, 330, 125543. https://doi.org/10.1016/
+j.seppur.2023.125543.
+66.
+Cheng C, Guo Q, Ding L, Gong Y, Yu G: Insights into pyrol-
+ysis process of coconut shell waste hydrochar: in-situ
+10
+Sustainable carbon materials (2025)
+Current Opinion in Green and Sustainable Chemistry 2025, 53:101024
+www.sciencedirect.com
+
+structural evolution and reaction kinetics. J Clean Prod
+2024, 448, 141701. https://doi.org/10.1016/
+J.JCLEPRO.2024.141701.
+67.
+Xu Z-X, Xiong H-R, Dou R, Tan Y, Chen Y-X, Leng L-J: Hydro-
+char-based facile and greenwood bio-adhesives production
+from distilled spent grain. Chem Eng J 2024, 481, 148694.
+https://doi.org/10.1016/j.cej.2024.148694.
+68.
+Hamad N, Galhoum AA, Saad A, Wageh S: Efficient adsorption
+of cationic and anionic dyes using hydrochar nanoparticles
+prepared from orange peel. J Mol Liq 2024, 409, 125349.
+https://doi.org/10.1016/J.MOLLIQ.2024.125349.
+69.
+Jeganathan Y, Asharp T, Nadarajah K: Adsorptive behavior of
+engineered biochar/hydrochar for tetracycline removal from
+synthetic wastewater. Environ Pollut 2024, 345, 123452. https://
+doi.org/10.1016/j.envpol.2024.123452.
+70.
+Liu L, Wang H, Zou W, Zhao L, Zhai Y, He H: Ionic liquid-
+catalyzed hydrothermal carbonization of sewage sludge:
+effect of residence time and liquid phase circulation on
+hydrochar characteristic. Renew Energy 2024, 231, 120989.
+https://doi.org/10.1016/j.renene.2024.120989.
+71.
+Siddhartha TR, Kooy E, Kashif M, Che CA, Ghysels S, Wu D,
+Ronsse F, Heynderickx PM: Evaluation of South Korean
+marine waste resources for hydrochar production: effect of
+process variables. Bioresour Technol 2024, 410, 131286.
+https://doi.org/10.1016/j.biortech.2024.131286.
+72
+* *
+.
+Ji R, Zhou Y, Cai J, Chu K, Zeng Y, Cheng H: Release charac-
+teristics of hydrochar-derived dissolved organic matter: ef-
+fects of hydrothermal temperature and environmental
+conditions. Chemosphere 2023, 321, 138138. https://doi.org/
+10.1016/j.chemosphere.2023.138138.
+“The study fills a significant research gap by investigating the release
+characteristics of hydrochar-derived dissolved organic matter, specif-
+ically rice straw-derived hydrochars, under a range of environmental
+conditions. For the first time, the release dynamics of HDOM from
+hydrochars made at various hydrothermal temperatures were studied.
+The findings of this investigation are critical because they provide
+important insights into the environmental behaviour of hydrochar.”
+73.
+Hwang SW, Chung H, Lee T, Kim J, Kim YJ, Kim JC, Kwak HW,
+Choi IG, Yeo H: Feature importance measures from random
+forest regressor using near-infrared spectra for predicting
+carbonization characteristics of kraft lignin-derived hydro-
+char. J Wood Sci 2023, 69:1–12. https://doi.org/10.1186/S10086-
+022-02073-Y/FIGURES/6.
+74.
+Shafizadeh A, Shahbeik H, Rafiee S, Moradi A, Shahbaz M,
+Madadi M, Li C, Peng W, Tabatabaei M, Aghbashlo M: Machine
+learning-based characterization of hydrochar from biomass:
+implications for sustainable energy and material production.
+Fuel 2023, 347, 128467. https://doi.org/10.1016/
+j.fuel.2023.128467.
+75.
+Amado-Fierro Á, Centeno TA, Diez MA: Exploring hydrochars
+from lignocellulosic wastes as secondary carbon fuels for
+sustainable steel production. Materials 2023, 16:6563. https://
+doi.org/10.3390/MA16196563/S1.
+76.
+Romano P, Stampone N, Di Giacomo G: Evolution and pros-
+pects of hydrothermal carbonization. Energies 2023, 16:3125.
+https://doi.org/10.3390/EN16073125. 16 (2023) 3125.
+77.
+Coal - price - chart - historical data - news (n.d.), https://
+tradingeconomics.com/commodity/coal. [Accessed 25 January 2025].
+78.
+Espinoza Pérez L, Espinoza Pérez A, Pino-Cortés E, Vallejo F,
+Díaz-Robles LA: An environmental assessment for municipal
+organic waste and sludge treated by hydrothermal carbon-
+ization. Sci Total Environ 2022, 828, 154474. https://doi.org/
+10.1016/J.SCITOTENV.2022.154474.
+79.
+Gievers F, Mainardis M, Catenacci A, Loewen A, Nelles M: Life
+cycle assessment of biochar and hydrochar derived from
+sewage sludge: material or energy utilization? Cleaner Envi-
+ron Sys 2025, 16, 100254. https://doi.org/10.1016/
+J.CESYS.2024.100254.
+80.
+Padhye LP, Bandala ER, Wijesiri B, Goonetilleke A, Bolan N:
+Hydrochar: a promising step towards achieving a circular
+economy and sustainable development goals. Front Chem
+Eng 2022, 4, 867228. https://doi.org/10.3389/FCENG.2022.
+867228/BIBTEX.
+The impact of feedstocks in HTC Shanmugam et al.
+11
+www.sciencedirect.com
+Current Opinion in Green and Sustainable Chemistry 2025, 53:101024

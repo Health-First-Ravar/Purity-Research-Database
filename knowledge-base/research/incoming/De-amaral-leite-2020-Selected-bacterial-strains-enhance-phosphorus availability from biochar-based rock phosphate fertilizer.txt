@@ -1,0 +1,1680 @@
+ORIGINAL ARTICLE
+Open Access
+Selected bacterial strains enhance
+phosphorus availability from biochar-based
+rock phosphate fertilizer
+Aline de Amaral Leite
+, Arnon Afonso de Souza Cardoso
+, Rafael de Almeida Leite
+,
+Silvia Maria de Oliveira-Longatti
+, José Ferreira Lustosa Filho
+, Fatima Maria de Souza Moreira
+and
+Leônidas Carrijo Azevedo Melo*
+Abstract
+Purpose: The co-pyrolysis of biomass and soluble phosphates generates biochar-based phosphate fertilizers (BBF),
+which may enhance phosphorus (P) input in soil and P uptake by plants. Conversely, pyrolysis of biomass
+impregnated with rock phosphate results in low P solubility and may not supplement plant requirement in short
+term. However, bacterial strains promoting rock phosphate solubilization increases P use efficiency and can be
+applied to BBFs.
+Methods: An in vitro assay was conducted to investigate the solubilization profile of five bacterial strains
+(Pseudomonas sp.—UFPI-B5-8A, Burkholderia fungorum—UFLA 04-155, Acinetobacter sp.—UFLA 03-09, Paenebacillus
+kribbensis—UFLA 03-10, and Paenibacillus sp.—UFLA 03-116) isolated from common bean and cowpea nodules in a
+rock phosphate BBF. Additionally, a pot trial was carried out aiming to investigate the influence on maize growth
+by inoculation of three selected strains under a rock phosphate BBF fertilization.
+Results: Inoculations with UFPI B5-8A, UFLA 04-155, and UFLA 03-09 were efficient in solubilizing P in vitro, being
+closely associated with pH decrease, likely due to the release of organic acids. As for the pot trial, the dose of 400
+mg kg−1 of P in the BBF using UFPI B5-8A significantly increased maize shoot dry matter. All strains significantly
+enhanced P availability in the soil.
+Conclusions: Bacterial inoculation in biochar-based rock phosphate aiming to improve its fertilizer value is an
+inexpensive and sustainable strategy to improve maize growth and enhance available P in soil and should be
+further explored.
+Keywords: Bacterial inoculation, Bayóvar phosphate rock, Phosphate solubilization, Zea mays
+Introduction
+Phosphorus (P) is a major growth-limiting nutrient for
+food production. The main P sources of phosphate fer-
+tilizers are phosphate rocks, which are finite and scarce
+and cannot be replaced (Scholz et al. 2013). Phosphorus
+has a complex dynamic in soil, mainly in tropical soils
+due to acidity and high levels of Fe and Al oxides
+(Abdala et al. 2015). This acidic and oxidic mineral com-
+position results in low available P fraction for plant up-
+take and low efficiency of phosphate fertilizers, which
+must be compensated with high and constant applica-
+tion rates to achieve profitable agricultural yields. Acid-
+ified phosphate fertilizers, characterized with high water-
+soluble P contents, are the main P sources used in agri-
+culture, being favorable to P losses by leaching in sandy
+soils or fixation in clay soils and calcareous soils (Chien
+et al. 2011). However, due to the constant use of
+mineable
+rock
+phosphate
+reserves
+worldwide,
+it
+is
+mandatory to optimize P recovery efficiency by develop-
+ing fertilizers that present a greater residual effect.
+The exploitation of P-rich organic residues, such as
+poultry litter, could be an alternative to partly replace
+conventional chemical phosphate fertilizers. Pyrolysis of
+© The Author(s). 2020 Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0
+International License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and
+reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide a link to
+the Creative Commons license, and indicate if changes were made.
+* Correspondence: leonidas.melo@ufla.br
+Soil Science Dept., Federal University of Lavras/UFLA, Lavras, MG 37200-000,
+Brazil
+Annals of Microbiology
+Amaral Leite et al. Annals of Microbiology            (2020) 70:6 
+https://doi.org/10.1186/s13213-020-01550-3
+
+poultry litter produces biochar, which is highly resistant
+to microbial decomposition and is a promising alterna-
+tive to sanitize the material; stabilizes the carbon frac-
+tion; and concentrates nutrients, causing a slow release
+of P, improving the fertilizer value (Singh et al. 2012;
+Wang et al. 2015; Zhao et al. 2016; Lustosa Filho et al.
+2017; Lustosa Filho et al. 2019). Biochar application can
+improve several soil properties, such as pH, aggregation,
+water retention capacity, and nutrient availability (Vanek
+and Lehmann 2015). Thus, biochar has been shown to
+be a promising alternative for P supply, increasing nutri-
+ent use efficiency and crop production, presenting good
+agronomic efficiency (Ding et al. 2010; Lehmann et al.
+2011; Puga et al. 2015; Chen et al. 2016a). However, in
+most studies, large amounts of biochar are applied and
+the economic feasibility can be a barrier for large-
+scale application (El-Naggar et al. 2019).
+The co-pyrolysis of biomass with minerals originates
+biochar-based fertilizers (BBFs), which present great po-
+tential to be used as slow-release and high-agronomic per-
+formance fertilizers (Zhao et al. 2016; Lustosa Filho et al.
+2017; Lustosa Filho et al. 2019) and require much lower
+application rates for nutrient supply, which might enhance
+the economic feasibility (El-Naggar et al. 2019). Phosphate
+impregnation prior to pyrolysis has been shown to in-
+crease biochar yield and improve carbon stability mea-
+sured
+by
+chemical
+and
+thermal
+oxidation
+methods
+(Carneiro et al. 2018). However, BBFs dissolve more
+slowly than soluble phosphate fertilizers, where practically
+all water-extractable P is released in the first 24 h, and the
+dissolution rates vary among the types of phosphates used
+for biomass enrichment (Lustosa Filho et al. 2017). Thus,
+biochar enrichment with reactive rock phosphate, such as
+Bayóvar rock phosphate, is an option to produce BBF,
+since it is a raw material of relatively low cost.
+Rock phosphate fertilization, however, might not be
+enough for plant uptake at an initial stage of growth due
+to its low solubility. Thus, increasing the efficiency of
+rock
+phosphates
+by
+inoculation
+with
+phosphate-
+solubilizing microorganisms, such as bacterial strains,
+could potentially increase P availability in the soil
+(Estrada et al. 2013; de Oliveira-Longatti et al. 2013;
+Pereira and Castro 2014; da Costa et al. 2015). Some
+bacteria
+genera,
+such
+as
+Pseudomonas,
+Bacillus,
+Rhizobium, Agrobacterium, Burkholderia, and Erwinia,
+are reported to be efficient in increasing P availability,
+leading to higher crop yields (Rodríguez and Fraga 1999;
+Khan et al. 2009; Yu et al. 2011). Bacterial strains can
+convert
+insoluble
+phosphates
+into
+available
+forms
+through the mineralization of the organic forms and
+solubilization of the inorganic forms (Sharma et al. 2013;
+Liu et al. 2014). According to Tao et al. (2008), the abil-
+ities of solubilization and mineralization can coexist in
+the same bacterial strain.
+Few studies focusing on the combined use of biochar
+and bacterial inoculation have already been carried out
+(Głodowska et al. 2016; Wei et al. 2016; Rafique et al.
+2017). However, none of these studies explored the ef-
+fect of biochar-based Bayóvar rock phosphate fertilizer
+under bacterial inoculation, and besides, rock phos-
+phates tend to be less expensive because of their simpler
+beneficiation over fully acidulated P sources, which
+might help to make the process economically feasible in
+the future. Additionally, it is important to unravel the
+mechanisms of P solubilization and mineralization in
+order to take advantage of this low cost and environ-
+ment friendly technology. Thus, the present study was
+aimed to evaluate (i) the in vitro ability of five selected
+bacterial strains to solubilize and mineralize P from a
+BBF enriched with Bayóvar rock phosphate and (ii)
+maize growth and P availability in an Oxisol under
+fertilization with BBF enriched with Bayóvar rock phos-
+phate
+and
+bacterial
+inoculation
+under
+greenhouse
+conditions.
+Materials and methods
+Biomass preparation and biochar-based fertilizer
+production
+Poultry litter (PL) was collected from a private farm near
+Lavras, Minas Gerais State, Brazil (Table 1) and owners
+allowed its use for research purposes. The sample was
+air-dried at room temperature, passed through a 20-
+mesh sieve (1.00 mm), and thoroughly mixed with Bayó-
+var rock phosphate in powder form at the ratio of
+poultry litter residues/rock phosphate 1:0.5 (w/w), as de-
+scribed by Lustosa Filho et al. (2017) and Zhao et al.
+(2014). Subsequently, the blend was moistened overnight
+Table 1 Selected properties of the poultry litter (PL) and the
+biochar-based fertilizer (BBF)
+Properties
+BBF
+PL
+pH
+10.52 ± 0.03
+8.10 ± 0.01a
+Electrical conductivity (dS m−1)
+2.10 ± 0.07
+4.03 ± 0.04
+CEC* (cmolc kg−1)
+9.66 ± 1.27
+–
+Carbon (%)
+22.95 ± 0.04
+36.10 ± 0.18a
+P2O5 total (g kg−1)
+265 ± 2.67
+35.7 ± 0.89a
+P2O5 NAC** soluble (g kg−1)
+58.0 ± 0.29
+–
+P2O5 citric acid (g kg−1)
+59.0 ± 1.20
+–
+P2O5 water-soluble (g kg−1)
+0.60 ± 0.09
+–
+Ca (g kg−1)
+273.6 ± 3.9
+18.63 ± 0.60
+Mg (g kg−1)
+6.88 ± 0.15
+5.4 ± 0.20 a
+K (g kg−1)
+20.85 ± 0.75
+23.99 ± 1.42
+Al (g kg−1)
+0.35 ± 0.01
+–
+Fe (g kg−1)
+5.38 ± 0.06
+26.88 ± 5.57
+Mean and standard deviations of three replications. *Cation exchange
+capacity; **neutral ammonium citrate; – not determined. aCarneiro et al. (2018)
+Amaral Leite et al. Annals of Microbiology            (2020) 70:6 
+Page 2 of 13
+
+to ensure greater uniformity and oven-dried at 60 °C to
+constant mass prior to pyrolysis. The pre-treated sample
+was placed in a muffle furnace equipped with steel
+sealed cylinders (10.6 cm diameter and 42 cm height),
+and the temperature was raised to 500 °C at a heating
+rate of 10 °C min−1, maintaining the target temperature
+for
+2
+h
+to
+allow
+sufficient
+time
+for
+complete
+carbonization (Zhao et al. 2014). The PL and the BBF
+obtained were sieved (< 2.0 mm) and characterized
+(Table 1). Electrical conductivity and pH was determined
+according to Rajkovich et al. (2012) and cation exchange
+capacity according to Gaskin et al. (2008). The C content
+was determined in an automatic analyzer. Phosphorus
+solubility in the BBF was determined by water, citric
+acid solution (2%), and neutral ammonium citrate so-
+lution (pH 7.0). A more detailed description on P
+analysis can be found elsewhere (Lustosa Filho et al.
+2019). Total P, Ca, Mg, K, Fe, and Al contents were
+determined by ICP-OES (Spectro Analytical Instru-
+ments, Kleve, Germany). Fourier transform infrared
+spectroscopy (FTIR) spectra were recorded on a Digi-
+lab
+Excalibur
+spectrometer
+with
+a
+spectral
+range
+3500–400 cm−1, which were collected over an average
+of 32 scans (Figure S1). Interpretation of the peaks
+was based on other works that evaluate similar mate-
+rials (Ma et al. 2015; Zhao et al. 2015; Bekiaris et al.
+2016; Lustosa Filho et al. 2017).
+Bacterial strains
+Five selected bacterial strains isolated from common
+bean and cowpea nodules and belonging to the collec-
+tion of the Laboratory of Soil Microbiology of the De-
+partment of Soil Science (Federal University of Lavras)
+were evaluated. Previous studies (Silva et al. 2012; Marra
+et al. 2012; de Oliveira-Longatti et al. 2013; da Costa
+et al. 2015; da Costa et al. 2016) already reported the ori-
+gin, accession numbers of the 16S rRNA gene sequence,
+in
+vitro
+solubilization
+capacity,
+and
+plant
+growth-
+promoting characteristics of the strains (Table 2).
+In vitro assay
+The experiment followed a randomized complete design,
+with six treatments, six replicates each. The treatments
+consisted of inoculation using five bacterial strains:
+Pseudomonas sp. (UFPI B5-8A), Burkholderia fungorum
+(UFLA 04-155), Acinetobacter sp. (UFLA 03-09), Paene-
+bacillus kribbensis (UFLA 03-10), and Paenibacillus sp.
+(UFLA 03-116), as well as a treatment non-inoculated
+(control).
+The
+capacity
+of
+the
+bacterial
+strains
+to
+solubilize phosphate supplied as BBF was evaluated
+using the National Botanical Research Institute’s phos-
+phate growth medium (NBRIP) (Nautiyal 1999) proced-
+ure, with modifications. The following composition per
+liter of solution was used: 10 g of glucose, 5 g of
+MgCl2·6H2O, 0.25 g of MgSO4·7H2O, 0.2 g of KCl, and
+0.1 g of (NH4)2SO4. The strains were cultured in liquid
+medium Yeast Malt (YM) under stirring at 110 rpm and
+28 °C until reaching a cell density of 108 colony forming
+unit (CFU) mL−1. Then, 1.0 mL of inoculum was added
+into 50 mL of NBRIP medium, containing 100 mg L−1 of
+P as powder BBF. The pH was adjusted to 7.0 before
+autoclaving. The flasks were then incubated for 10 days
+at 28 °C at 120 rpm. After incubation, samples were cen-
+trifuged at 3000 rpm for 15 min and the supernatant
+was filtered through a 0.45-μm cellulosic membrane fil-
+ter. Phosphate solubilization was assessed by quantifying
+the soluble P concentration in the supernatant, using in-
+ductively coupled plasma optical emission spectroscopy
+(ICP-OES). Part of the extract was used to determine
+the pH and activity of the acid phosphatase, and another
+part was stored at −80 °C for identification and quantifi-
+cation of organic acids.
+Acid phosphatase activity
+The acid phosphatase activity was determined using the
+methodology proposed by Juma and Tabatabai (1988).
+An aliquot of 100 μL of the supernatant was incubated
+at 37 °C with 100 μL (25 mmol L−1) of ρ-nitrophenyl
+phosphate and 400 μL of modified universal buffer (pH
+Table 2 Origin, identification, and solubilization of phosphates and plant growth-promoting characteristics of the strains evaluated
+Strains
+Origin
+Identification
+Accession no. in
+GenBank of the
+16S rRNA sequences (NCBI)
+Solubilization in solid (*) and liquid (**)
+mediab, c, e
+Plant growth-promoting
+characteristicsb, e
+CaHPO4
+Al(H2PO4)3
+FePO4.2H2O
+Indole-3-acetic acid (μg mL−1)
+*
+**
+*
+**
+*
+**
+Tryptophan
++
+−
+UFLA 04-155
+AMa, b
+Burkholderia fungorum
+GU144370
++
+ND
++
+ND
+ND
+ND
+4.53
+6.29
+UFLA 03-10
+MGc
+Paenebacillus kribbensis
+JQ041885
+−
+−
+−
+−
+−
++
+ND
+ND
+UFPI B5-8A
+PId, e
+Pseudomonas sp.
+Kj979613
++
+ND
+−
+ND
+−
+ND
+9.71
+5.40
+UFLA 03-116
+MGc
+Paenibacillus sp.
+JQ041897
+−
+−
+−
+−
+−
++
+ND
+ND
+UFLA 03-09
+MGc
+Acinetobacter sp.
+JQ041884
++
++
+−
+−
+−
+−
+ND
+ND
+AM Amazonas State, Brazil; MG Minas Gerais State, Brazil; PI Piauí State, Brazil; ND not determined. aSilva et al. (2012); bde Oliveira-Longatti et al. 2013; cMarra et al.
+2012; dda Costa et al. 2015; eda Costa et al. 2016
+Amaral Leite et al. Annals of Microbiology            (2020) 70:6 
+Page 3 of 13
+
+6.5). After 1 h, the reaction was halted by adding 400 μL
+NaOH (0.5 mol L−1). The absorbance of the yellow color
+developed after the incubation was read in a spectropho-
+tometer at 410 nm using a standard calibration curve of
+ρ-nitrophenol.
+Organic acid analysis
+Organic
+acid
+analysis
+was
+performed
+using
+high-
+performance liquid chromatography (HPLC) (Agilent
+1220 Infinity). An aliquot of 100 μL of the supernatant
+was injected in a chromatographic column, model
+Synergil Hydro-RP 80A (250 × 4.6 nmid; 4 mm). The
+run time was 20 min, at the flow rate of 0.7 mL min−1 at
+a wavelength of 220 nm. The mobile phase was KH2PO4
+solution (20 mmol L−1, pH 2.9), used according to the
+analytical procedure indicated by the column manufac-
+turer for the identification of organic acids. Certified
+samples of acetic, formic, malonic, oxalic, quinic, shi-
+kimic, D-malic, maleic, succinic, citric, and fumaric acids
+were used as analytical standards. The organic acids in
+the samples were quantified by calibration curves con-
+structed with the analytical standards, relating the con-
+centration of each acid with its respective area of
+absorption. Three replicates were used. The identified
+molecules and standard mean retention times for the
+acid are as follows: oxalic (3.60 min), quinic (4.28 min),
+D-malic (5.28 min), acetic (7.31 min) succinic (11.26
+min), fumaric (9.64 min), shikimic (6.19 min), maleic
+(8.55 min), citric (8.40 min), salicylic (3.70 min), propio-
+nic (17.29 min), and malonic (5.4 min) acids.
+Greenhouse experiment
+A greenhouse experiment was carried out at the Depart-
+ment of Soil Science of the Federal University of Lavras
+(Minas Gerais State, Brazil) to investigate the potential
+of bacterial strains to enhance maize growth and provide
+soluble phosphates in a P-deficient tropical Oxisol fertil-
+ized with BBF. Only three bacterial strains were selected
+based on their contrasting results in solubilizing phos-
+phates in the in vitro experiment (Pseudomonas sp. UFPI
+B5-8A, Burkholderia fungorum UFLA 04-155, and Pae-
+nebacillus kribbensis UFLA 03-10). The experiment con-
+sisted of a factorial scheme (5 × 4), plus a positive
+control, conducted in a randomized block design with
+four replicates. The treatments consisted in five P doses
+(0, 50, 100, 200, and 400 mg kg−1 of P—based on total P
+concentration in BBF) combined with three bacterial
+strains and non-inoculated (NI). The positive control
+treatment (200 mg kg−1 of P) was supplied as triple
+superphosphate (TSP) without inoculation.
+Pots were filled with 3.0 kg of an Oxisol, collected
+from the 20–60 cm layer in Itumirim (Minas Gerais
+State, Brazil). The 0–20-cm layer was not considered for
+the experiment to ensure a lower concentration of
+organic matter in the soil to isolate the effects of BBF.
+The soil was air-dried, sieved (< 2.0 mm), homogenized,
+and chemically characterized. Briefly, P was extracted by
+Mehlich-1, pH was determined in water (1:2.5, soil: solu-
+tion ratio), Ca and Mg concentrations were extracted by
+KCl 1 mol L−1, and the organic matter content was de-
+termined by oxidation with Na2Cr2O7 and H2SO4. The
+Oxisol was defined by low P availability (0.08 mg dm−3
+P), low clay content (230 g kg−1 clay), with soil pH 4.6.
+The content of soil organic matter was 7.9 g kg−1 and
+Ca2+ and Mg2+ concentrations were 0.24 and 0.12 cmolc
+dm−3, respectively. Liming was performed to increase
+the base saturation to 60% using calcium carbonate
+(CaCO3) and magnesium carbonate (MgCO3) at a 3:1
+molar ratio. The soil was incubated for 20 days with
+moisture of approximately 70% of the field capacity.
+After the incubation period, the P doses were applied in
+the form of BBF powder, as well as basic fertilization in
+solution form. The basic fertilization consisted in 200
+mg of N [(KNO3 and (NH4)2SO4)], 200 mg of K (KNO3
+and KCl), 40 mg of S [(NH4)2SO4], 1.5 mg of Cu
+(CuSO4·5H2O), 3.5 mg of Mn (MnCl2·4H2O), 5.0 mg of
+Zn (ZnSO4·7H2O), 0.8 mg of B (H3BO3), 0.1 mg of Mo
+(Na2MoO4·2H2O), and 3.0 mg of Fe (FeCl3) per kilogram
+of soil. Then, soil was completely homogenized and in-
+cubated for 20 days with moisture of approximately 70%
+of the field capacity. Nitrogen and potassium fertilization
+were divided into three equal applications via fertigation
+at planting and 15 and 30 days after planting.
+Maize (Zea mays L., hybrid BM 915 PRO) seeds were
+sterilized using 98% ethanol (30 s) and 2% sodium hypo-
+chlorite (2 min) and successively washed in distilled
+water. The seeds were placed in sterilized Petri dishes
+with moistened cotton and filter paper, where they
+remained for 72 h at 28 °C until the emergence of root-
+lets. After the last incubation period, four seeds were
+sown per pot and each seed received 2 mL of bacterial
+culture at the dose of 2 × 108 CFU seed−1, grown in li-
+quid medium YM, as previously described. After 6 days,
+only one plant was left in each pot. Soil moisture was
+kept at approximately 70% of the field capacity and
+water was replaced daily by weight.
+Count of calcium phosphate-solubilizing microorganisms
+in the soil
+After the lime amendment, a single soil sample was col-
+lected from 20 pots to form a composite sample in order
+to estimate the number of phosphate-solubilizing micro-
+organisms present in soil, before the experiment was im-
+plemented. Ten grams of soil was diluted in 90 mL of
+saline solution (8.5 g L−1 NaCl) to form a homogeneous
+suspension. From this suspension, serial dilutions (10−1
+up to 10−10) were performed, and 100 μL of each dilu-
+tion was plated in the solid NBRIP medium. The plates
+Amaral Leite et al. Annals of Microbiology            (2020) 70:6 
+Page 4 of 13
+
+were incubated at 28 °C and colony counts were period-
+ically conducted until the end of the incubation period
+(10 days). Several microbial groups were observed, but
+no calcium phosphate-solubilizing microorganisms were
+identified since it was not observed in the presence of a
+transparent halo, which is a characteristic of phosphate
+solubilization.
+Plant sampling and analysis
+After 45 days of sowing, shoots were harvested and
+oven-dried at 65 °C for 72 h. After that, shoot dry matter
+(SDM) was determined and analyzed for its chemical
+composition. Shoot tissues were digested in an open
+block
+digestion
+system
+using
+concentrated
+nitric-
+perchloric acid solution (2 mL HClO + 4 mL HNO3), di-
+luted to 50 mL using deionized water, and P levels were
+measured by ICP-OES. The P uptake was obtained by
+multiplying the P concentration times SDM production.
+Soil chemical and biological analysis
+After harvesting, a soil sample from the center of each
+pot (10 cm depth) was collected to determine acid/alka-
+line phosphatase activity. Additionally, samples of rhizo-
+sphere soil (adhered to roots) and bulk soil were taken
+from each pot to determine pH (H2O) and available P
+by anion exchange resin. These samples were air-dried,
+sieved (< 2.0 mm), and homogenized prior to analysis.
+The phosphatase activity was determined using ρara-ni-
+trophenyl phosphate as the analogue substrate. A sample
+of 1.0 g of soil was incubated (37 °C for 1 h) with 4.0 mL
+of a buffer solution (modified universal buffer, pH 6.5
+for the acid phosphatase and pH 11 for the alkaline
+phosphatase) and 1.0 mL of ρara-nitrophenyl phosphate
+(0.025 mol L−1). Then, 1.0 mL of CaCl2 (0.5 mol L−1)
+and 4 mL of NaOH (0.5 mol L−1) were added to halt the
+reaction. The absorbance of the yellow color developed
+after the incubation period was measured in a spectro-
+photometer at 410 nm using a standard calibration curve
+of ρara-nitrophenyl (Juma and Tabatabai 1988).
+Data analysis
+All experimental data were checked for normality by the
+Shapiro–Wilk’s test prior to other data analysis. Data
+from the in vitro experiment were submitted to analysis
+of variance, and the means of the treatments were
+grouped by the Scott–Knott test (p ≤0.05). Pearson cor-
+relations were performed between P concentration in
+NBRIP, pH, and phosphatase activity (p ≤0.05). Data
+from the greenhouse experiment were submitted to ana-
+lysis of variance, and the means of the combinations
+were grouped by the Scott–Knott test (p ≤0.05). The
+additional control was compared with the factorial mean
+by the F test (p ≤0.05).
+Results
+Properties of the PL and BBF
+The pyrolysis of PL enriched with Bayóvar rock phos-
+phate caused mainly an increase in the pH value of
+the corresponding BBF (from 8.10 in PL to 10.52 in
+BBF) (Table 1). Moreover, there was a substantial in-
+crease in total P and Ca due to the composition of
+Bayóvar rock phosphate. Other elements, such as C,
+K, and Fe, were reduced in the BBF when compared
+with PL due to the dilution effect. Phosphorus solu-
+bility in NAC and citric acid (2%) was ~ 22% of total
+P, while water-soluble P of the BBF was extremely
+low. The solubility results show the slow-release be-
+havior of P from the BBF.
+The FTIR spectra of the BBF is presented in Figure S1
+and showed CO2 and C=O compounds in the broad re-
+gion of 2350 cm−1. Peaks around 1400 to 1600 cm−1 in-
+dicate the presence of C=C, C–O, and CO2
+3−, while
+peaks in the region of 460 to 860 cm−1 correspond to
+phosphate groups as a result of rock phosphate addition.
+In vitro assay: phosphate solubilization, pH, and acid
+phosphatase activity
+The bacterial strains were able to solubilize P in a liquid
+NBRIP medium supplied with BBF. At the end of incuba-
+tion, the non-inoculated treatment (control) exhibited
+lower soluble P concentration (9.33 mg L−1), without
+abrupt change in supernatant pH (6.68). Bacterial inocula-
+tion caused a significant drop in the liquid NBRIP super-
+natant pH. Consequently, there was an increase in soluble
+P concentration (up to 41.4), in the following treatment
+order: UFLA 03-09 > UFLA 04-155 = UFPI B5-8A > UFLA
+03-10 = UFLA 03-116 > control (Fig. 1a). The strain UFLA
+03-09 presented the highest concentration of P, which was
+approximately 4.5-fold higher than the control.
+The maximum drop in pH was recorded for the strain
+UFLA 04-155 (2.95), followed by UFLA 03-09 (3.55) and
+UFPI B5-8A (3.80) (Fig. 1b). Therefore, a strong negative
+correlation was observed between pH and soluble P con-
+centration in liquid NBRIP medium (r = −0.91**). Al-
+though the strain UFLA 03-09 presented the best result
+in the in vitro assay, it was not selected for the green-
+house experiment due to its capacity to act as a human
+pathogen.
+The bacterial strains showed a low activity of acid
+phosphatase in liquid NBRIP medium. However, the
+strains UFLA 03-10, UFPI B5-8A, and UFLA 04-155 dif-
+fered significantly from the control (Fig. 1c). Phosphat-
+ase
+activity
+was
+up
+to
+68
+μmol
+ρara-nitrophenyl
+phosphate L−1, with the following treatment order:
+UFLA 03-10 > UFPI B5-8A = UFLA 04-155 > UFLA 03-
+116 = UFLA 03-09 = control. The strain UFLA 03-10
+presented acid phosphatase activity five times higher
+than the control. However, there was no correlation
+Amaral Leite et al. Annals of Microbiology            (2020) 70:6 
+Page 5 of 13
+
+between soluble P concentration and acid phosphatase
+activity (r = −0.01 ns).
+In vitro assay: identification and quantification of organic
+acids
+The following organic acids were detected: oxalic,
+quinic,
+D-malic,
+acetic,
+succinic,
+citric,
+and
+lactic
+(Table 3). Relevantly, quinic acid was produced by all
+strains, followed by oxalic acid produced by UFPI B5-
+8A, UFLA 04-155, UFLA 03-116, and UFLA 03-09
+strains, while lactic acid was produced only by the
+strain UFLA 04-155.
+Maize growth and P uptake
+The P doses applied as BBF increased SDM produc-
+tion and P uptake by maize plants, with higher values
+at the dose of 400 mg kg−1 of P (Fig. 2). The positive
+control promoted higher amounts in both SDM and
+P uptake compared with the factorial mean. However,
+the dose of 400 mg kg−1 of P presented a much
+higher SDM production when compared to the nega-
+tive control (Fig. 2a). Also, when compared with the
+positive control, this dose promoted 30% lower SDM
+yield. The dose 400 mg kg−1 of P provided P uptake
+76 times higher when compared with the absence of
+P fertilization (Fig. 2b). This dose showed a P uptake
+88% lower when compared with the positive control.
+In the dose 400 mg kg−1 of P, the strain UFPI B5-8A
+increased SDM production when compared with the
+other strains and NI, promoting an increase of 21%
+when compared with NI. There was no difference in
+P uptake by bacterial inoculation regarding P doses.
+Acid/alkaline phosphatase and bulk and rhizosphere soil
+pH
+The addition of P increased acid phosphatase activity;
+however, bacterial inoculation did not affect this en-
+zyme in any P doses (Fig. 3a). The highest activities
+of acid phosphatase were observed from the dose 100
+mg kg−1 of P, which presented approximately activity
+Fig. 1 Soluble P (a), pH (b), and acid phosphatase activity (c) in the liquid NBRIP medium containing biochar enriched with Bayóvar rock
+phosphate (100 mg L−1 of P) 10 days after inoculation of phosphate-solubilizing bacteria. Control, uninoculated treatment; ρNP, ρara-nitrophenyl
+phosphate. Means followed by the same letter do not differ by the Scott–Knott test (p < 0.05). Means and standard deviations of six replications
+Table 3 Concentration of low molecular weight organic acids in the liquid NBRIP medium containing biochar enriched with
+phosphate Bayóvar (100 mg L−1 of P) as a function of the inoculation of phosphate-solubilizing bacteria
+Organic acids (pKa)
+UFLA 03-10
+UFPI B5-8A
+UFLA 04-155
+UFLA 03-116
+UFLA 03-09
+Controla
+μmol L−1
+Oxalic (1.23)
+–
+763 ± 14.1
+1618 ± 52.7
+185 ± 22.8
+1082 ± 395
+149 ± 36.9
+Quinic (3.46)
+1297 ± 66.7
+446 ± 121
+969 ± 149
+173 ± 102
+600 ± 126
+261 ± 99.0
+D-malic (3.40)
+–
+–
+–
+431 ± 248
+–
+–
+Acetic (4.76)
+59.6 ± 4.1
+–
+–
+61.5 ± 1.80
+–
+–
+Succinic (4.16)
+676 ± 393
+140 ± 19.5
+–
+395 ± 16.7
+–
+–
+Citric (3.14)
+84.1 ± 16.6
+–
+–
+–
+–
+20.0 ± 3.70
+Lactic (3.08)
+–
+–
+353.6 ± 63.7
+–
+–
+–
+Total
+2116 ± 481
+1350 ± 154
+2941 ± 265
+1245 ± 391
+1683 ± 521
+431 ± 139
+Means and standard deviations of three replications. aNon-inoculated
+Amaral Leite et al. Annals of Microbiology            (2020) 70:6 
+Page 6 of 13
+
+50% higher when compared with the absence of P
+fertilization. The P doses did not affect alkaline phos-
+phatase activity. However, in the dose 50 mg kg−1 of
+P, higher activities in the strain UFLA 03-10 and NI
+were observed (Fig. 3b). In general, a strong effect of
+P doses and bacterial inoculation in pH of both bulk
+and rhizosphere soils was not observed (Fig. 4). How-
+ever, there was a slight decrease in bulk and rhizo-
+sphere soil pH at the dose 50 mg kg−1 of P.
+Available P in rhizosphere and bulk soil
+The P doses and bacterial inoculation increased avail-
+able P in soil (Fig. 5). The dose 400 mg kg−1 of P as
+BBF presented available P ten times higher in bulk
+and six times higher in rhizosphere when compared
+with the absence of P fertilization. Regarding the
+types of inoculation in bulk soil, the strains UFLA
+03-10 and UFLA 04-155 increased available P in
+nearly 14% and 12%, respectively, when compared
+with NI in the dose of 400 mg kg−1 of P (Fig. 5a).
+However, in rhizosphere soil in the same dose, all
+strains
+significantly
+increased
+available
+P
+when
+compared with NI, presenting increases of 23%, 21%,
+and 27%, for the strains UFLA 03-10, UFPI B5-8A,
+and UFLA 04-155, respectively (Fig. 5b).
+Discussion
+This
+study
+showed
+that
+inoculation
+with
+selected
+phosphate-solubilizing bacterial strains, such as the
+strain UFPI B5-8A, resulted in an increase in maize
+SDM under P supply as BBF, either by phosphate
+solubilization or other mechanisms that promote plant
+growth. Inoculation with phosphate-solubilizing micro-
+organism has shown to be effective due to these strains’
+capacity to enhance soil available P. Tropical soils have
+low natural availability of P and presents high concentra-
+tions of insoluble Fe and Al phosphates. However, the
+phosphate-solubilizing bacteria selected in this study are
+more efficient in solubilizing Ca phosphate, which is
+present in the BBF as Bayóvar rock phosphate. Conse-
+quently, BBF fertilization and selected bacterial strain in-
+oculation constitute an important strategy for providing
+sustainable alternatives to the water-soluble phosphate
+fertilizers such as TSP, which has a high energy cost for
+Ad Ad
+Ad
+Ad
+Ad Ad Ac Ad
+Ac Ac
+Ac
+Ac
+Ab
+Ab
+Ab Ab
+Ba Ba
+Ba
+Ad Ae
+Ad
+Ad
+Ac Ad Ac Ad
+Ac Ac
+Ac
+Ac
+Ab Ab Ab Ab
+Aa
+Aa
+Aa
+Aa
+**
+0
+50
+100
+200
+400
+Aa
+Shoot dry matter (a)
+)t
+o
+p
+r
+e
+p
+g
+(
+M
+D
+S
+0
+10
+20
+30
+40
+50
+60
+**
+P uptake (b)
+P (mg kg-1)
+)t
+o
+p
+r
+e
+p
+g
+m
+(
+P
+0
+20
+40
+60
+80
+NI 
+UFLA 03-10
+UFPI B5-8A 
+UFLA 05-155
+TSP
+Fig. 2 Maize shoot dry matter (a) and P uptake (b) as a function of P doses (biochar enriched with Bayóvar rock phosphate) and phosphate-
+solubilizing bacteria inoculation. Two asterisks indicate significant at p < 0.05. Uppercase letters compare strains within each P dose and
+lowercase letters compare P doses within each strain by the Scott–Knott test (p < 0.05). Means and standard deviations of four replications. TSP =
+200 mg P of triple superphosphate kg-1 soil
+Amaral Leite et al. Annals of Microbiology            (2020) 70:6 
+Page 7 of 13
+
+its production. This combination aiming to achieve satis-
+factory plant growth has been reported as a promising
+approach for crop production (Rafique et al. 2017). Indi-
+genous isolated bacterial strains increased nutrient up-
+take by French beans, maize, and rice plants (Saxena
+et al. 2013; Deb et al. 2016; Rafique et al. 2017). The var-
+iety of nutrients, as well as the surface area and highly
+porous nature of biochar, reflect its ability to act as a
+safe environment for microorganisms, which is one of
+the main reasons of changes in soil properties and the
+increase of nutrient uptake by plants (Nigussie et al.
+2012). Furthermore, it is well known that biochar acts as
+a soil conditioner by improving moisture content and
+nutrient availability (Chen et al. 2010; Nigussie et al.
+2012; Nguyen et al. 2017).
+Several authors have suggested that biochar addition
+to soil promotes increases of phosphate-solubilizing bac-
+teria genera through changes in C fluxes and for provid-
+ing
+pores
+to
+accommodate
+these
+microorganisms,
+protecting them against predators in soil (Warnock et al.
+2007; Anderson et al. 2011; Fox et al. 2016; Zhang et al.
+2018). Other studies have demonstrated that phosphate-
+solubilizing bacteria are effective in enhancing growth
+and P uptake by maize (Kaur and Reddy 2014; Pereira
+and Castro 2014) and rice plants (da Costa et al. 2015).
+Also, da Costa et al. (2015) provided enough evidence of
+the positive effect of rock phosphate fertilization and
+phosphate-solubilizing bacterial inoculation with strains
+used in our study. However, plant growth promotion by
+bacterial inoculation does not always result in an in-
+crease on nutrient accumulation in plant tissues (Pereira
+and Castro 2014). Additional processes that promote
+plant growth can be attributed as the ability to inhibit
+the growth of phytopathogens and the production of
+plant growth hormones (de Oliveira-Longatti et al.
+2013).
+The capacity of the inoculated strains to provide avail-
+able P in the soil should be emphasized, since BBF is up
+to five times less soluble in ammonium neutral citrate
+than TSP. However, P solubilization did not necessarily
+resulted in shoot dry matter production in treatments
+inoculated with the strains UFLA 03-10 and UFLA 04-
+155. On the initial stage of growth, plants might require
+a constant nutrient supply and strain solubilization can
+TSP
+Acid phosphatase activity (a)
+Acid phosphatase (mg pNP g-1dry soil h-1)
+0
+2
+4
+6
+8
+10
+12
+Ab Ab
+Ab
+Ab
+Ab
+Aa
+Ab
+Ab
+Aa
+Aa
+Aa
+Aa
+Aa Aa Aa
+Aa
+Aa
+Aa
+Aa
+Aa
+ns
+Aa Aa
+Aa
+Aa
+Aa
+Aa
+Ba
+Ba
+Aa
+Aa
+Aa
+Aa
+Aa Aa Aa Aa
+Aa Aa
+Aa
+Aa
+**
+0
+50
+100
+200
+400
+Alkaline phosphatase activity (b)
+P (mg kg-1)
+Alkaline phosphatase (mg pNP g-1dry soil h-1)
+0.0
+0.5
+1.0
+1.5
+2.0
+2.5
+NI
+UFLA 03-10 
+UFPI B5-8A 
+UFLA 05-155 
+Fig. 3 Acid phosphatase activity (a) and alkaline phosphate activity (b) as a function of P doses (biochar enriched with Bayóvar rock
+phosphate) and phosphate-solubilizing bacterial inoculation. Two asterisks indicate significant at p < 0.05. ns, no significant; ρNP, ρara-
+nitrophenyl phosphate. Uppercase letters compare strains within each P dose and lowercase letters compare P doses within each strain
+by the Scott–Knott test (p < 0.05). Means and standard deviations of four replications. TSP = 200 mg P of triple superphosphate kg-1 soil
+Amaral Leite et al. Annals of Microbiology            (2020) 70:6 
+Page 8 of 13
+
+be limited by its ability on short-term solubilization. The
+soil dilution effect can also explain this behavior, since
+BBF was entirely mixed in the soil volume and inocula-
+tion was dependent on the root system growth to access
+the P source and perform solubilization. Rhizosphere
+soil is highly influenced by root activity, and bacterial
+colonization is positively affected by plant root exudates,
+ensuring its survival and solubilization profile. It is im-
+portant to emphasize that in vitro activity will not always
+correlate with in vivo effects on plant development and
+available P. In our study, for example, the strain UFLA
+03-10 was less efficient in releasing P in the in vitro
+assay when compared with the in vivo experiment. One
+of the reasons can be attributed to liquid NBRIP
+medium composition, which provides only one carbon
+source and it may not be the major source required by
+this strain to incorporate into its microbial biomass and
+operate better in P solubilization. In vivo assays provide
+a
+different
+environment
+for
+microbial
+colonization,
+mostly by root exudates and the variety of carbon
+sources (Jacoby et al. 2017). Therefore, the same result
+in both assays should not be expected.
+Our findings report that bacterial inoculation caused a
+decrease in liquid NBRIP medium pH resulting in P
+solubilization, similarly as described by Yu et al. (2012).
+The ability of these strains in releasing P supplied by
+BBF had never been previously tested. However, phos-
+phate solubilization by these strains has already been
+assessed (Marra et al. 2012; de Oliveira-Longatti et al.
+2013;
+da
+Costa
+et
+al.
+2016).
+The
+amount
+of
+P
+solubilization depends mainly on the strain, the carbon
+source, the production of organic acids, and the types of
+insoluble phosphates provided (Alexander 1961; Marra
+et al. 2019). Phosphate mineralization was low in liquid
+NBRIP medium. However, acid phosphatase analysis was
+performed only at the end of incubation, not being pos-
+sible to detect its maximum activity during this period.
+Thus, soluble P may have come from both solubilization
+and mineralization processes. Acid phosphatase activity
+mainly participates in the mineralization of organic
+phosphates (Richardson 2002; Richardson et al. 2009).
+However, due to the dephosphorylating action, acid
+phosphatase activity could indirectly influence inorganic
+P solubilization by lowering the medium pH (Achal
+Bulk soil pH (a)
+H
+p
+k
+l
+u
+B
+4.0
+4.5
+5.0
+5.5
+6.0
+6.5
+7.0
+Aa Aa
+Aa
+Aa
+Ab
+Ac Ab
+Ac
+Aa
+Ac
+Ab Ab
+Ba
+Aa
+Ba
+Bb
+Aa
+Ab
+Aa Aa
+**
+Aa
+Aa
+Aa
+Ab
+Aa Aa
+Ab
+Aa
+Aa
+Aa
+Aa Aa
+Aa
+Aa Aa
+Aa
+Ba
+Ba
+Aa Aa
+Rhizosphere soil pH (b)
+P (mg kg-1)
+H
+p
+e
+r
+e
+h
+p
+s
+o
+zi
+h
+R
+4.0
+4.5
+5.0
+5.5
+6.0
+6.5
+7.0
+ns
+0
+50
+100
+200
+400
+NI 
+UFLA 03-10
+UFPI B5-8A 
+UFLA 05-155
+TSP
+Fig. 4 Bulk soil pH (a) and rhizosphere soil pH (b) as a function of P doses (biochar enriched with Bayóvar rock phosphate) and phosphate-
+solubilizing bacterial inoculation. Two asterisks indicate significant at p < 0.05. ns, no significant. Uppercase letters compare strains within each P
+dose and lowercase letters compare P doses within each strain by the Scott–Knott test (p < 0.05). Means and standard deviations of four
+replications. TSP = 200 mg P of triple superphosphate kg-1 soil
+Amaral Leite et al. Annals of Microbiology            (2020) 70:6 
+Page 9 of 13
+
+et al. 2007). The lack of correlation between soluble P
+concentration and acid phosphatase activity may indicate
+that other mechanisms are involved. Another explan-
+ation for the low acid phosphatase activity is that its syn-
+thesis is stimulated only when the soluble inorganic P
+level is limited (Dick and Dos-Santos 2011), and, in this
+case, phosphate solubilization during incubation may
+have inhibited its activity.
+In soil, BBF application tends to promote a natural
+correction of soil leading to higher pH values with a ten-
+dency to increase alkaline phosphatase activity and de-
+crease acid phosphatase activity (Bera et al. 2016; Bornø
+et al. 2018). In the present study, an increase in alkaline
+phosphatase activity was not observed, mainly because
+the P doses applied as BBF did not raise the soil pH
+higher than 9.0 to activate and increase the activity of
+this enzyme (Eivazi and Tabatabai 1977; Herbien and
+Neal 1990). Acid and alkaline phosphatases can coexist
+within different ranges of soil pH. In tropical, naturally
+acidic soils, acid phosphatase is more representative,
+while the alkaline phosphatase is typically measured at
+high pH, far from the natural typically found soil pH
+values (Margalef et al. 2017).
+It is reported that inorganic phosphate-solubilizing ac-
+tivity is mainly associated with the release of low mo-
+lecular weight organic acids or proton extrusion by
+microbial cellular respiration and ammonium absorption
+(Illmer and Schinner 1992; Chen et al. 2006, 2016b;
+Marra et al. 2019). The organic acids released can dis-
+sociate, releasing H+ and organic anions, which may act
+as a chelate trapping cations, such as Ca2+, or even occu-
+pying the exchange sites on soil clays preventing P ad-
+sorption (Bolan et al. 1994; Ali and Dzombak 1996;
+Geelhoed et al. 1999; Strom et al. 2001). The oxidation
+of glucose to organic acids results in acidification around
+bacterial cell, favoring phosphate solubilization (Kpom-
+blekou and Tabatabai 1994). In previous studies, the
+strain UFLA 03-09 mainly released tartaric acid and the
+strain UFLA 03-10, tartaric and citric acids, while the
+strain UFLA 03-116 did not release organic acids in the
+medium containing glucose as the carbon source and
+tricalcium phosphate as the P source (Marra et al. 2019).
+Ad Ad
+Ad
+Ac
+Ac Ac Ac
+Ac
+Ac Ac Ab Ac
+Bb
+Bb
+Aa Ab
+Ba
+Aa
+Ba
+Aa
+P in bulk soil (a)
+g
+k
+g
+m
+(
+k
+l
+u
+b
+P
+1
+- )
+0
+10
+20
+30
+40
+50
+60
+**
+Ad Ad
+Ae
+Ad
+Ac Ac Ad Ad
+Ac Ac Ac Ac
+Ab Ab Ab Ab
+Ba
+Aa
+Aa
+Aa
+P in rhizosophere soil (b)
+P (mg kg-1)
+g
+k
+g
+m
+(
+e
+r
+e
+h
+p
+s
+o
+zi
+h
+r
+P
+1
+- )
+0
+20
+40
+60
+80
+**
+0
+50
+100
+200
+400
+NI 
+UFLA 03-10
+UFPI B5-8A 
+UFLA 05-155
+TSP
+Fig. 5 Available P in bulk soil (a) and in rhizosphere soil (b) as a function of P doses (biochar enriched with Bayóvar rock phosphate) and
+phosphate-solubilizing bacterial inoculation. Two asterisks indicate significant at p < 0.05. Uppercase letters compare strains within each P dose
+and lowercase letters compare P doses within each strain by the Scott–Knott test (p < 0.05). Means and standard deviations of four replications.
+TSP = 200 mg P of triple superphosphate kg-1 soil
+Amaral Leite et al. Annals of Microbiology            (2020) 70:6 
+Page 10 of 13
+
+Nevertheless, the strain UFLA 03-116 was reported to
+release gluconic and oxalic acids in liquid GELP medium
+with CaHPO4 as P source (Marra et al. 2012), indicating
+that the insoluble P source, along with the medium com-
+position, may influence the type of organic acid released.
+These same strains produced other types of organic
+acids when the carbon source of the medium was chan-
+ged (Marra et al. 2019).
+In this assay, the strains UFLA 04-155, UFPI B5-8A,
+and UFLA 03-09 acidified the medium and high amount
+of soluble P was quantified. Thus, P was released mainly
+by acidification (organic acids or proton extrusion).
+Other researchers also found a negative correlation be-
+tween pH and soluble P, indicating that acidification
+could possibly facilitate P solubilization (Park et al.
+2011). These strains released the highest concentrations
+of oxalic acid, which has the lowest pKa of the detected
+organic acids rendering the lowest pH, which better ex-
+plains the P release from these strains. However, the
+strains UFLA 03-10 and UFLA 03-116 withhold the
+medium pH at around 5, indicating that acidification
+was
+not
+the
+only
+mechanism
+used
+to
+promote
+solubilization, and the acids may be present in anionic
+forms playing a major role in Ca2+ chelation rather than
+acidification of the medium (Jones 1998; Park et al.
+2011; Marra et al. 2011). Thus, other solubilization
+mechanisms, such as siderophores and exopolysacchar-
+ide production, may be indirectly involved (Hamdali
+et al. 2008; Yi et al. 2008). The strains UFLA 03-116 and
+UFLA
+03-10
+were
+reported
+as
+producers
+of
+large
+amounts of exopolysaccharide and low amounts of or-
+ganic acids (Marra et al. 2012, 2019).
+Acidulated P sources are entirely soluble, decreasing P
+use efficiency in tropical soils. However, BBF is a slow-
+release
+fertilizer,
+and
+together
+with
+phosphate-
+solubilizing bacteria, it may contribute to the gradual
+availability of P, preventing or decreasing P loss. Besides,
+the current study provides evidence that it is possible to
+gradually replace chemical fertilizers by biofertilizers, or,
+at least, we present evidence that part of the P available
+can be provided from a low-soluble P source in combin-
+ation with bacterial P solubilization activity. However,
+optimizations in the cultivation system ought to be bet-
+ter defined. BBF produced from poultry litter promotes
+a better final destination of its nutrients composition, re-
+ducing the environmental impact of incorrect disposal.
+Although inoculation increased soil P availability, BBF
+efficiency would be limited for annual crops, since plants
+require large amounts of readily available P, which is not
+supplied by BBF due to its slow-release nature and the
+short-term solubilization by bacterial strains. In this situ-
+ation, the chemical fertilizers could be partially or entirely
+substituted for perennial crops, since a residual effect is
+essential since the culture remains longer in the area.
+Conclusions
+Bacterial
+inoculation
+significantly
+enhanced
+maize
+growth and available P in a P-deficient tropical Oxisol
+under P supply as biochar-based fertilizer. The strains
+UFLA 03-10, UFLA 04-155, and UFPI B5-8A were found
+to be efficient in solubilizing phosphate from BBFs, mak-
+ing it accessible for plant uptake and other microorgan-
+isms,
+becoming
+a
+promising
+future
+alternative
+as
+biofertilizers to achieve similar benefits of soluble phos-
+phate fertilizers or progressively reduce its inputs in soil.
+Supplementary information
+Supplementary information accompanies this paper at (https://doi.org/10.
+1186/s13213-020-01550-3).
+Additional file 1: Figure S1. Fourier transform infrared spectroscopy
+(FTIR) spectra (3500-400 cm-1) of the biochar-based rock phosphate
+fertilizer (BBF). aPhosphate groups: P-O-P, P-O, P=O, P-O-, PO4
+3-. a.u:
+arbitrary unit.
+Acknowledgements
+The authors are grateful to Dr. Carlos Alberto Silva (Federal University of
+Lavras) and Dr. Sara Dantas Rosa for the organic acid analysis. This work was
+funded partially by the National Council for Scientific and Technological
+Development (CNPq—Grant 404076/2016-5), the Research Foundation of the
+State of Minas Gerais (FAPEMIG—Grant APQ-00484-14), and the Coordination
+for the Improvement of Higher Education Personnel (CAPES—Proex 590-
+2014). The first author received a Master’s scholarship from CAPES. FMS
+Moreira and LCA Melo are research fellows of the National Council for
+Scientific and Technological Development.
+Authors’ contributions
+Conceptualization: AAL SMOL FMSM LCAM. Experimental design: AAL AASC
+RAL SMOL FMSM LCAM. Laboratory analysis: AAL AASC RAL SMOL JFLF.
+Supervision: FMSM LCAM. Data analysis and interpretation: AAL AASC FMSM
+LCAM. Manuscript drafting: AAL. Manuscript review & editing: All authors.
+Manuscript approval: All authors read and approved the final manuscript.
+Competing interests
+The authors declare that they have no competing interests.
+Received: 30 September 2019 Accepted: 29 January 2020
+References
+Abdala DB, da Silva IR, Vergütz L, Sparks DL (2015) Long-term manure application
+effects on phosphorus speciation, kinetics and distribution in highly
+weathered agricultural soils. Chemosphere 119:504–514 https://doi.org/10.
+1016/j.chemosphere.2014.07.029
+Achal V, Savant VV, Reddy MS (2007) Phosphate solubilization by a wild type
+strain and UV-induced mutants of Aspergillus tubingensis. Soil Biol Biochem
+39:695–699 https://doi.org/10.1016/j.soilbio.2006.09.003
+Alexander M (1961) Introduction to soil microbiology. John Wiley and Sons, New
+York/London
+Ali MA, Dzombak DA (1996) Competitive sorption of simple organic acids and
+sulfate on goethite. Environ Sci Technol 30:1061–1071 https://doi.org/10.
+1021/es940723g
+Anderson CR, Condron LM, Clough TJ, Fiers M, Stewart A, Hill RA, Sherlock RR
+(2011) Biochar induced soil microbial community change: implications for
+biogeochemical cycling of carbon, nitrogen and phosphorus. Pedobiologia
+(Jena) 54:309–320 https://doi.org/10.1016/j.pedobi.2011.07.005
+Bekiaris G, Peltre C, Jensen LS, Bruun S (2016) Using FTIR-photoacoustic
+spectroscopy for phosphorus speciation analysis of biochars. Spectrochim Acta -
+Part A Mol Biomol Spectrosc 168:29–36 https://10.1016/j.saa.2016.05.049
+Amaral Leite et al. Annals of Microbiology            (2020) 70:6 
+Page 11 of 13
+
+Bera T, Collins HP, Alva AK, Purakayastha TJ, Patra AK (2016) Biochar and manure
+effluent effects on soil biochemical properties under corn production. Appl
+Soil Ecol 107:360–367 https://doi.org/10.1016/j.apsoil.2016.07.011
+Bolan NS, Naidu R, Mahimairaja S, Baskaran S (1994) Influence of low-molecular-
+weight organic acids on the solubilization of phosphates. Biol Fertil Soils 18:
+311–319 https://doi.org/10.1007/BF00570634
+Bornø ML, Eduah JO, Müller-Stöver DS, Liu F (2018) Effect of different biochars on
+phosphorus (P) dynamics in the rhizosphere of Zea mays L. (maize). Plant Soil
+431:257–272 https://doi.org/10.1007/s11104-018-3762-y
+Carneiro JSDS, Lustosa Filho JF, Nardis BO, Soares RJ, Zinn YL, Melo LCA (2018)
+Carbon stability of engineered biochar-based phosphate fertilizers. ACS
+Sustain Chem Eng 6:14203–14212. https://doi.org/. https://doi.org/10.1021/
+acssuschemeng.8b02841
+Chen D, Yu X, Song C, Pang X, Huang J, Li Y (2016a) Effect of pyrolysis temperature
+on the chemical oxidation stability of bamboo biochar. Bioresour Technol 218:
+1303–1306 https://doi.org/10.1016/j.biortech.2016.07.112
+Chen W, Yang F, Zhang L, Wang J (2016b) Organic acid secretion and phosphate
+solubilizing efficiency of Pseudomonas sp. PSB12: effects of phosphorus forms
+and carbon sources. Geomicrobiol J 33:870–877 https://doi.org/10.1080/
+01490451.2015.1123329
+Chen Y, Shinogi Y, Taira M (2010) Influence of biochar use on sugarcane growth,
+soil parameters, and groundwater quality. Aust J Soil Res 48:526–530 https://
+doi.org/10.1071/SR10011
+Chen YP, Rekha PD, Arun AB, Shen FT, Lai WA, Young CC (2006) Phosphate
+solubilizing bacteria from subtropical soil and their tricalcium phosphate
+solubilizing abilities. Appl Soil Ecol 34:33–41 https://doi.org/10.1016/j.apsoil.
+2005.12.002
+Chien SH, Prochnow LI, Tu S, Snyder CS (2011) Agronomic and environmental
+aspects of phosphate fertilizers varying in source and solubility: an update
+review. Nutr Cycl Agroecosyst 89:229–255 https://doi.org/10.1007/s10705-
+010-9390-4
+da Costa EM, de Carvalho F, Nóbrega RSA, Silva JS, Moreira FMS (2016) Bacterial
+strains from floodplain soils perform different plant-growth promoting
+processes and enhance cowpea growth. Sci Agric 73:301–310 https://doi.
+org/10.1590/0103-9016-2015-0294
+da Costa EM, de Lima W, Oliveira-Longatti SM, de Souza FM (2015) Phosphate-
+solubilising bacteria enhance Oryza sativa growth and nutrient accumulation
+in an oxisol fertilized with rock phosphate. Ecol Eng 83:380–385 https://doi.
+org/10.1016/j.ecoleng.2015.06.045
+de Oliveira-Longatti SM, Marra LM, Moreira FMDS (2013) Evaluation of plant
+growth-promoting traits of Burkholderia and Rhizobium strains isolated from
+Amazon soils for their co-inoculation in common bean. Afr J Microbiol Res 7:
+948–959 https://doi.org/10.5897/ajmr12.1055
+Deb D, Kloft M, Lässig J, Walsh S (2016) Variable effects of biochar and P
+solubilizing microbes on crop productivity in different soil conditions.
+Agroecol Sustain Food Syst 40:145–168 https://doi.org/10.1080/21683565.
+2015.1118001
+Dick CF, Dos-Santos ALA, Meyer-Fernandes JR (2011) Inorganic phosphate as an
+important regulator of phosphatases. Enzyme Res 2011. https://doi.org/10.
+4061/2011/103980
+Ding Y, Liu YX, Wu WX, Shi DZ, Yang M, Zhong ZK (2010) Evaluation of biochar
+effects on nitrogen retention and leaching in multi-layered soil columns.
+Water Air Soil Pollut 213:47–55 https://doi.org/10.1007/s11270-010-0366-4
+Eivazi F, Tabatabai MA (1977) Phosphates in soils. Soil Biol Biochem 9:167–172
+El-Naggar A, Lee SS, Rinklebe J et al (2019) Biochar application to low fertility
+soils: a review of current status, and future prospects. Geoderma 337:536–554
+https://10.1016/j.geoderma.2018.09.034
+Estrada GA, Baldani VLD, de Oliveira DM, Urquiaga S, Baldani JI (2013) Selection
+of phosphate-solubilizing diazotrophic Herbaspirillum and Burkholderia strains
+and their effect on rice crop yield and nutrient uptake. Plant Soil 369:115–
+129 https://doi.org/10.1007/s11104-012-1550-7
+Fox A, Gahan J, Ikoyi I, Kwapinski W, O'Sullivan O, Cotter PD, Schmalenberger A
+(2016) Miscanthus biochar promotes growth of spring barley and shifts
+bacterial community structures including phosphorus and sulfur mobilizing
+bacteria. Pedobiologia (Jena) 59:195–202 https://doi.org/10.1016/j.pedobi.
+2016.07.003
+Gaskin JW, Steiner C, Harris K, Das KC, Bibens B (2008) Effect of low-temperature
+pyrolysis conditions on biochar for agricultural use. Trans ASABE 51:2061–
+2069 https://doi.org/10.13031/2013.25409
+Geelhoed JS, Riemsdijk WHVAN, Findenegg GR (1999) Simulation of the effect of
+citrate exudation from roots on the plant availability of phosphate adsorbed
+on goethite. Eur J Soil Sci 50:379–390 https://doi.org/10.1046/j.1365-2389.
+1999.00251.x
+Głodowska M, Husk B, Schwinghamer T, Smith D (2016) Biochar is a growth-promoting
+alternative to peat moss for the inoculation of corn with a pseudomonad. Agron
+Sustain Dev 36:1–10 https://doi.org/10.1007/s13593-016-0356-z
+Hamdali H, Bouizgarne B, Hafidi M, Lebrihi A, Virolle MJ, Ouhdouch Y (2008)
+Screening for rock phosphate solubilizing Actinomycetes from Moroccan
+phosphate mines. Appl Soil Ecol 38:12–19 https://doi.org/10.1016/j.apsoil.
+2007.08.007
+Herbien SA, Neal JL (1990) Soil pH and phosphatase activity. Commun Soil Sci
+Plant Anal 21:439–456 https://doi.org/10.1080/00103629009368244
+Illmer P, Schinner F (1992) Solubilization of inorganic phosphates by
+microorganisms isolated from forest soils. Soil Biol Biochem 24:389–395
+https://doi.org/10.1016/0038-0717(92)90199-8
+Jacoby R, Peukert M, Succurro A, Koprivova A, Kopriva S (2017) The role of soil
+microorganisms in plant mineral nutrition—current knowledge and future
+directions. Front Plant Sci 8:1–19 https://doi.org/10.3389/fpls.2017.01617
+Jones DL (1998) Organic acids in the rhizosphere – a critical review. Plant Soil
+205:25–44 https://doi.org/10.1023/A:1004356007312
+Juma NG, Tabatabai MA (1988) Phosphatase activity in corn and soybean roots:
+conditions for assay and effects of metals. Plant Soil 107:39–47 https://doi.
+org/10.1007/BF02371542
+Kaur G, Reddy MS (2014) Role of phosphate-solubilizing bacteria in improving
+the soil fertility and crop productivity in organic farming. Arch Agron Soil Sci
+60:549–564 https://doi.org/10.1080/03650340.2013.817667
+Khan AA, Jilani G, Akhtar MS, Salqlan SM, Rasheed M (2009) Phosphorus
+solubilizing bacteria: occurrence, mechanisms and their role in crop
+production. J Agric Biol Sci 1:48–58
+Kpomblekou K, Tabatabai MA (1994) Effect of organic acid on release of
+phosphorus from phosphate rocks. Soil Sci 158:441–453 https://doi.org/10.
+1097/00010694-199415860-00006
+Lehmann J, Rillig MC, Thies J, Masiello CA, Hockaday WC, Crowley D (2011)
+Biochar effects on soil biota - a review. Soil Biol Biochem 43:1812–1836
+https://doi.org/10.1016/j.soilbio.2011.04.022
+Liu FP, Liu HQ, Zhou HL, Dong ZG, Bai XH, Qiao JJ (2014) Isolation and characterization
+of phosphate-solubilizing bacteria from betel nut (Areca catechu) and their effects
+on plant growth and phosphorus mobilization in tropical soils. Biol Fertil Soils 50:
+927–937 https://doi.org/10.1007/s00374-014-0913-z
+Lustosa Filho JF, Barbosa CF, Carneiro JS, Da S, Melo LA (2019) Diffusion and
+phosphorus solubility of biochar-based fertilizer: visualization, chemical
+assessment and availability to plants. Soil Tillage Res 194:104298 https://doi.
+org/10.1016/j.still.2019.104298
+Lustosa Filho JF, Penido ES, Castro PP, Silva CA, Melo LCA (2017) Co-pyrolysis of
+poultry litter and phosphate and magnesium generates alternative slow-
+release fertilizer suitable for tropical soils. ACS Sustain Chem Eng 5:9043–
+9052 https://doi.org/10.1021/acssuschemeng.7b01935
+Ma Z, Chen D, Gu J et al (2015) Determination of pyrolysis characteristics and
+kinetics of palm kernel shell using TGA-FTIR and model-free integral
+methods. Energy Convers Manag 89:251–259 https://doi.org/10.1016/j.
+enconman.2014.09.074
+Margalef O, Sardans J, Fernández-Martínez M, Molowny-Horas R, Janssens IA, Ciais
+P, Goll D, Richter A, Obersteiner M, Asensio D, Peñuelas J (2017) Global
+patterns of phosphatase activity in natural soils. Sci Rep 7:1–13 https://doi.
+org/10.1038/s41598-017-01418-8
+Marra LM, de Oliveira SM, Soares CRFS, Moreira FMS (2011) Solubilisation of
+inorganic phosphates by inoculant strains from tropical legumes. Sci Agric
+68:603–609 https://doi.org/10.1590/s0103-90162011000500015
+Marra LM, de Oliveira-Longatti SM, Soares CRFS, Olivares FL, Moreira FMS (2019)
+The amount of phosphate solubilization depends on the strain, C-source,
+organic acids and type of phosphate. Geomicrobiol J 36:232–242 https://doi.
+org/10.1080/01490451.2018.1542469
+Marra LM, Sousa Soares CRF, de Oliveira SM, Ferreira PAA, Soares BL, de Carvalho
+RF, de Lima JM, Moreira FMS (2012) Biological nitrogen fixation and
+phosphate solubilization by bacteria isolated from tropical soils. Plant Soil
+357:289–307 https://doi.org/10.1007/s11104-012-1157-z
+Nautiyal CS (1999) An efficient microbiological growth medium for screening
+phosphate solubilizing microorganisms. FEMS Microbiol Lett 170:265–270
+Nguyen TTN, Xu CY, Tahmasbian I, Che R, Xu Z, Zhou X, Wallace HM, Bai
+SH (2017) Effects of biochar on soil available inorganic nitrogen: a
+review and meta-analysis. Geoderma 288:79–96 https://doi.org/10.1016/
+j.geoderma.2016.11.004
+Amaral Leite et al. Annals of Microbiology            (2020) 70:6 
+Page 12 of 13
+
+Nigussie A, Kissi E, Misganaw M, Ambaw G (2012) Effect of biochar application on
+soil properties and nutrient uptake of lettuces (Lactuca sativa) grown in
+chromium polluted soils. Environ Sci 12:369376
+Park JH, Bolan N, Megharaj M, Naidu R (2011) Isolation of phosphate solubilizing
+bacteria and their potential for lead immobilization in soil. J Hazard Mater
+185:829–836 https://doi.org/10.1016/j.jhazmat.2010.09.095
+Pereira SIA, Castro PML (2014) Phosphate-solubilizing rhizobacteria enhance Zea
+mays growth in agricultural P-deficient soils. Ecol Eng 73:526–535 https://doi.
+org/10.1016/j.ecoleng.2014.09.060
+Puga AP, Abreu CA, Melo LCA, Beesley L (2015) Biochar application to a contaminated
+soil reduces the availability and plant uptake of zinc, lead and cadmium. J Environ
+Manag 159:86–93 https://doi.org/10.1016/j.jenvman.2015.05.036
+Rafique M, Sultan T, Ortas I, Chaudhary HJ (2017) Enhancement of maize plant
+growth with inoculation of phosphate-solubilizing bacteria and biochar
+amendment in soil. Soil Sci Plant Nutr 63:460–469 https://doi.org/10.1080/
+00380768.2017.1373599
+Rajkovich S, Enders A, Hanley K, Hyland C, Zimmerman AR, Lehmann J (2012)
+Corn growth and nitrogen nutrition after additions of biochars with varying
+properties to a temperate soil. Biol Fertil Soils 48:271–284 https://doi.org/10.
+1007/s00374-011-0624-7
+Richardson AE (2002) Prospects for using soil microorganisms to improve the
+acquisition of phosphorus by plants. Funct Plant Biol 28:897 https://doi.org/
+10.1071/pp01093
+Richardson AE, Barea JM, McNeill AM, Prigent-Combaret C (2009) Acquisition of
+phosphorus and nitrogen in the rhizosphere and plant growth promotion by
+microorganisms. Plant Soil 321:305–339 https://doi.org/10.1007/s11104-009-
+9895-2
+Rodríguez H, Fraga R (1999) Phosphate solubilizing bacteria and their role in
+plant growth promotion. Biotechnol Adv 17:319–339 https://doi.org/10.1016/
+S0734-9750(99)00014-2
+Saxena J, Rana G, Pandey M (2013) Impact of addition of biochar along with
+Bacillus sp. on growth and yield of French beans. Sci Hortic (Amsterdam)
+162:351–356 https://doi.org/10.1016/j.scienta.2013.08.002
+Scholz RW, Ulrich AE, Eilittä M, Roy A (2013) Sustainable use of phosphorus: a
+finite resource. Sci Total Environ 461–462:799–803 https://doi.org/10.1016/j.
+scitotenv.2013.05.043
+Sharma SB, Sayyed RZ, Trivedi MH, Gobi TA (2013) Phosphate solubilizing
+microbes: sustainable approach for managing phosphorus deficiency in
+agricultural soils. Springerplus 2:1–14 https://doi.org/10.1186/2193-1801-2-587
+Silva K, Cassetari AS, Lima AS, De Brandt E, Pinnock E, Vandamme P, Moreira FMS
+(2012) Diazotrophic Burkholderia species isolated from the Amazon region
+exhibit phenotypical, functional and genetic diversity. Syst Appl Microbiol 35:
+253–262 https://doi.org/10.1016/j.syapm.2012.04.001
+Singh BP, Cowie AL, Smernik RJ (2012) Biochar carbon stability in a clayey soil as
+a function of feedstock and pyrolysis temperature. Environ Sci Technol 46:
+11770–11778 https://doi.org/10.1021/es302545b
+Strom L, Owen AG, Godbold DL, Jones DL (2001) Organic acid behaviour in a
+calcareous soil: sorption reactions and biodegradation rates. Soil Biol
+Biochem 33:2125–2133 https://doi.org/10.1016/S0038-0717(01)00146-8
+Tao GC, Tian SJ, Cai MY, Xie GH (2008) Phosphate-solubilizing and -mineralizing
+abilities of bacteria isolated from soils. Pedosphere 18:515–523 https://doi.
+org/10.1016/s1002-0160(08)60042-9
+Vanek SJ, Lehmann J (2015) Phosphorus availability to beans via interactions
+between mycorrhizas and biochar. Plant Soil 395:105–123 https://doi.org/10.
+1007/s11104-014-2246-y
+Wang Y, Lin Y, Chiu PC, Imhoff PT, Guo M (2015) Phosphorus release behaviors of
+poultry litter biochar as a soil amendment. Sci Total Environ 512–513:454–
+463 https://doi.org/10.1016/j.scitotenv.2015.01.093
+Warnock DD, Lehmann J, Kuyper TW, Rillig MC (2007) Mycorrhizal responses to
+biochar in soil - concepts and mechanisms. Plant Soil 300:9–20 https://doi.
+org/10.1007/s11104-007-9391-5
+Wei Y, Zhao Y, Wang H et al (2016) An optimized regulating method for
+composting phosphorus fractions transformation based on biochar addition
+and phosphate-solubilizing bacteria inoculation. Bioresour Technol 221:139–
+146 https://doi.org/10.1016/j.biortech.2016.09.038
+Yi Y, Huang W, Ge Y (2008) Exopolysaccharide: a novel important factor in the
+microbial dissolution of tricalcium phosphate. World J Microbiol Biotechnol
+24:1059–1065 https://doi.org/10.1007/s11274-007-9575-4
+Yu X, Liu X, Zhu TH, Liu GH, Mao C (2011) Isolation and characterization of phosphate-
+solubilizing bacteria from walnut and their effect on growth and phosphorus
+mobilization. Biol Fertil Soils 47:437–446 https://doi.org/10.1007/s00374-011-0548-2
+Yu X, Liu X, Zhu TH, Liu GH, Mao C (2012) Co-inoculation with phosphate-
+solubilzing and nitrogen-fixing bacteria on solubilization of rock phosphate
+and their effect on growth promotion and nutrient uptake by walnut. Eur J
+Soil Biol 50:112–117 https://doi.org/10.1016/j.ejsobi.2012.01.004
+Zhang L, Jing Y, Xiang Y, Zhang R, Lu H (2018) Responses of soil microbial community
+structure changes and activities to biochar addition: a meta-analysis. Sci Total
+Environ 643:926–935 https://doi.org/10.1016/j.scitotenv.2018.06.231
+Zhao L, Cao X, Zheng W, Kan Y (2014) Phosphorus-assisted biomass thermal
+conversion: reducing carbon loss and improving biochar stability. PLoS One
+9:1–15 https://doi.org/10.1371/journal.pone.0115373
+Zhao L, Cao X, Zheng W, Scott JW, Sharma BK, Chen X (2016) Copyrolysis of
+biomass with phosphate fertilizers to improve biochar carbon retention, slow
+nutrient release, and stabilize heavy metals in soil. ACS Sustain Chem Eng 4:
+1630–1636 https://doi.org/10.1021/acssuschemeng.5b01570
+Zhao R, Jiang D, Coles N, Wu J (2015) Effects of biochar on the acidity of a loamy
+clay soil under different incubation conditions. J Soils Sediments 15:1919–
+1926 https://doi.org/10.1007/s11368-015-1143-1
+Publisher’s Note
+Springer Nature remains neutral with regard to jurisdictional claims in
+published maps and institutional affiliations.
+Amaral Leite et al. Annals of Microbiology            (2020) 70:6 
+Page 13 of 13

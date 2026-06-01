@@ -1,0 +1,1129 @@
+
+
+Citation: Lu, L.; Tibpromma, S.;
+Karunarathna, S.C.; Jayawardena,
+R.S.; Lumyong, S.; Xu, J.; Hyde, K.D.
+Comprehensive Review of Fungi on
+Coffee. Pathogens 2022, 11, 411.
+https://doi.org/10.3390/
+pathogens11040411
+Academic Editor: Dov Prusky
+Received: 17 February 2022
+Accepted: 22 March 2022
+Published: 28 March 2022
+Publisher’s Note: MDPI stays neutral
+with regard to jurisdictional claims in
+published maps and institutional afﬁl-
+iations.
+Copyright:
+© 2022 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed
+under
+the
+terms
+and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).
+pathogens
+Review
+Comprehensive Review of Fungi on Coffee
+Li Lu 1,2,3,4
+, Saowaluck Tibpromma 4
+, Samantha C. Karunarathna 4
+, Ruvishika S. Jayawardena 2
+,
+Saisamorn Lumyong 5,6,7
+, Jianchu Xu 8,9
+and Kevin D. Hyde 1,2,5,*
+1
+Innovative Institute of Plant Health, Zhong Kai University, Guangzhou 510550, China;
+6371105004@lamduan.mfu.ac.th
+2
+Center of Excellence in Fungal Research, Mae Fah Luang University, Chiang Rai 57100, Thailand;
+ruvishika.jay@mfu.ac.th
+3
+School of Science, Mae Fah Luang University, Chiang Rai 57100, Thailand
+4
+Center for Yunnan Plateau Biological Resources Protection and Utilization, College of Biological Resource and
+Food Engineering, Qujing Normal University, Qujing 655011, China; saowaluckfai@gmail.com (S.T.);
+samanthakarunarathna@gmail.com (S.C.K.)
+5
+Research Center of Microbial Diversity and Sustainable Utilization, Chiang Mai University,
+Chiang Mai 50200, Thailand; scboi009@gmail.com
+6
+Department of Biology, Faculty of Science, Chiang Mai University, Chiang Mai 50200, Thailand
+7
+Academy of Science, The Royal Society of Thailand, Bangkok 10300, Thailand
+8
+Center for Mountain Futures, Kunming Institute of Botany, Chinese Academy of Sciences,
+Kunming 650201, China; jxu@mail.kib.ac.cn
+9
+CIFOR-ICRAF China Country Program, World Agroforestry Centre, Kunming 650201, China
+*
+Correspondence: kdhyde3@gmail.com
+Abstract: Coffee is grown in more than 80 countries as a cash crop and consumed worldwide as
+a beverage and food additive. It is susceptible to fungal infection during growth, processing and
+storage. Fungal infections, in particular, can seriously affect the quality of coffee and threaten human
+health. The data for this comprehensive review were collected from the United States Department of
+Agriculture, Agricultural Research Service (USDA ARS) website and published papers. This review
+lists the fungal species reported on coffee based on taxonomy, life mode, host, affected plant part
+and region. Five major fungal diseases and mycotoxin-producing species (post-harvest diseases of
+coffee) are also discussed. Furthermore, we address why coffee yield and quality are affected by
+fungi and propose methods to control fungal infections to increase coffee yield and improve quality.
+Endophytic fungi and their potential as biological control agents of coffee disease are also discussed.
+Keywords: endophytes; fungal diseases; fungal toxins; pathogens; postharvest diseases
+1. Introduction
+Coffee has gained in popularity in modern times and is the second-best-selling bev-
+erage in the world [1]. As an important economic crop, it is central to the livelihoods of
+millions of people worldwide [2]; accordingly, more than 80 countries grow coffee and some
+countries use coffee as a major cash crop [3]. World coffee production for 2020/2021 is fore-
+cast to be 5.5 million kg higher than the previous year, reaching a record 176.1 million kg [4].
+Brazil is the largest exporter of coffee, and its exports account for one-third of the global
+total [5]. The Agricultural Trade Ofﬁce in Sao Paulo (ATO) forecasts the Brazilian coffee
+production for 2020/2021 at a record of 67.9 million kg, an increase of 15% over 2019 output.
+Finland is the largest per capita consumer of coffee, while China consumes the most coffee
+by volume [6]. Coffea arabica and C. canephora (robusta) are the two most-grown coffee
+species in the world [7], accounting for 60% and 40% of global production, respectively [8].
+Throughout the tropics, coffee growers face many problems in agricultural produc-
+tion [9]. As a climate-sensitive plant, implications of climate change have altered coffee
+production, from decreasing crop yield and quality to increasing fungal diseases and inva-
+sive pests [10]. Coffee worldwide suffers from a range of pests and diseases, and fungal
+Pathogens 2022, 11, 411. https://doi.org/10.3390/pathogens11040411
+https://www.mdpi.com/journal/pathogens
+
+Pathogens 2022, 11, 411
+2 of 17
+infections are also a major problem [11]. Coffee roots, stems, leaves and beans are often
+damaged by pests and pathogens [12].
+Fungi on coffee occur in different life modes: endophytes, pathogens and saprobes [13–15].
+The largest number of fungi have been recorded from C. arabica and C. canephora (Table S1).
+Endophytes usually live inside the host without causing injury or obvious symptoms, and
+this association can provide a better living environment for both the host and fungus [16].
+There are also reports on their ability to aid in the defense of host plants [17,18]. Huang
+et al. [19] screened potential antagonistic endophytes that prevent and control post-harvest
+diseases. Coffee easily can be infected by pathogenic fungi when growing, during post-
+harvest handling and storage, and during processing [20]. One of the most virulent diseases
+is ‘coffee rust’ caused by Hemileia vastatrix, which wiped out coffee 150 years ago and con-
+tinues to cause problems in coffee plantations worldwide [21,22]. Fungal diseases in coffee
+can be divided into two types: diseases in pre-harvest and diseases in post-harvest [23,24].
+Many post-harvest coffee pathogens are infected shortly before harvest, are generally
+not found at harvest, and feature low activity; moreover, poor storage conditions during
+post-harvest favour their development [23]. Fungal invasions before harvest are mainly
+induced by the interaction between the plant host and other organisms (such as insects),
+while fungal infections after harvest are controlled by nutrient availability, temperature,
+humidity and biological factors (insects) [25]. Another pathway is that endophytic fungi in
+coffee beans change their life modes to saprobic/pathogenic after the beans are harvested,
+becoming postharvest pathogens [19,26]. Most postharvest fungi produce toxins as sec-
+ondary metabolites viz ochratoxin-A, which is a mycotoxin mainly produced as a result
+of secondary metabolism of many species of Aspergillus and Penicillium and is the most
+common mycotoxin present in agricultural commodities [27]. Toxin-producing fungi can
+be isolated from coffee beans both pre-harvest and post-harvest, while the risk of fungal
+growth and mycotoxin production after harvest is higher in high temperature areas [28,29].
+These toxins can cause host infections and reduce coffee bean quality [30] and can be
+carcinogenic, hepatotoxic, hematotoxic, nephrotoxic and neurotoxic for humans [31,32].
+Silva et al. [33] isolated ochratoxin-A from damaged coffee beans, and ochratoxin-A was
+shown to cause coffee quality and yield losses. Studies have shown that the main toxigenic
+fungal genera comprise Aspergillus, Penicillium and Fusarium, which are natural coffee
+contaminants [34], and they can infect hosts in both farms and warehouses [35].
+In our review, 966 fungal records belonging to 113 genera and 648 species found on
+coffee are reported (Table S1). The purpose of this review is to discuss the fungal taxa
+reported on coffee based on taxonomy, life mode, host, affected plant part and region, and
+also discuss the roles of endophytes. In addition, this review provides a comprehensive up-
+to-date list of coffee fungi found worldwide and proposes recommendations for preventing
+fungal pathogen infections. This review provides (1) preliminary information on coffee
+fungi, (2) summarizes the main factors of coffee loss, and (3) suggestions for improving
+coffee yield and quality.
+2. Results
+2.1. Records of Coffee Fungi
+A total of 966 records of coffee fungi (Supplementary Table S1) were found in the
+literatures, belonging to 113 genera of which frequently found families and genera are
+shown in Figure 1a and Supplementary Table S2.
+
+Pathogens 2022, 11, 411
+3 of 17
+(a) 
+(b) 
+(c) 
+(d) 
+Figure 1. (a) Percentages of different fungal families reported on coffee; (b) Percentages of different
+life modes of fungi reported on coffee; (c) Percentages of coffee pathogens reported in different countries;
+(d) Percentages of most frequently reported fungal pathogenic and toxigenic fungal genera on coffee.
+Out of 648 fungal species, 295 are pathogenic, 138 are endophytes, and 30 are saprobes,
+while the life modes of 159 species have not been conﬁrmed and another 26 species are
+post-harvest disease causing agents that can produce mycotoxins in dried and green coffee
+beans (Figure 1a,b). It was not conﬁrmed in reported publications whether most reported
+pathogens caused pre-harvest or post-harvest infections. Of the 295 species of pathogens,
+212 species are true pathogens (TP), three species are post-harvest pathogens (PP) and
+four species are both true pathogens (TP) and post-harvest pathogens (PP), while the
+other 76 species are listed as unknown (UNK) as their disease symptoms have not been
+conﬁrmed on coffee (Supplementary Table S4).
+2.2. Endophyte Role in Coffee Plants
+Endophytic fungi that can inhibit nematodes, coffee berry borers and pathogenic fungi
+have the potential to be used as biocontrol agents to control pest and pathogen infections
+of coffee [36–38]. Goates et al. [39] showed that some endophytic fungi reduce fungal
+diseases by producing volatile organic compounds that can kill or inhibit phytopathogens.
+Monteiro et al. [40] demonstrated that volatile organic compounds produced by the en-
+dophyte Muscodor coffeanum isolated from C. arabica produce fungicidal activity against
+Aspergillus ochraceus. Three records of Muscodor species belonging to induratiaceae [41]
+were found in coffee according to our data. De Almeida et al. [42] isolated Aspergillus sp.,
+A. westerdijkiae, A. niger, A. tamari, and A. fumigatus, Lichtheimia ramosa and Rhizopus oryzae
+from coffee beans to test their abilities to inhibit the growth of Aspergillus species and
+ochratoxin-A production, and A. niger showed the best inhibitory ability of both growth
+and ochratoxin-A production. According to our results, Aspergillaceae is the most fre-
+quently found family in coffee. Furthermore, Eida et al. [43] isolated Penicillium crustosum,
+Penicillium verruculosum, Trichoderma harzianum, and Hypocrea lixii from coffee residue
+compost that can aid in the degradation of lignocellulose waste.
+
+Pathogens 2022, 11, 411
+4 of 17
+2.3. Pathogen Effect on Coffee and Coffee Disease
+Among 648 species, fungal pathogens are the most common (295 species) as shown
+in Figure 1b. According to Supplementary Tables S1 and S3: Sixty-eight of Colletotrichum
+belonging to 35 species have been reported. Coffee production is often affected by Coffee
+Berry Disease, which is the main factor limiting the production of C. arabica in Kenya and
+other countries in East Africa, especially in high-altitude areas. It is potentially responsible
+for 50 to 80% of total crop losses [44]. Forty-nine Fusarium belonging to 23 species have been
+reported (Supplementary Tables S1 and S3). Fusarium species are one of the most important
+phytopathogenic and toxin-producing fungi [45]. Coffee Wilt Disease is a devastating
+disease in East and Central Africa [46]. Coffee Wilt Disease is a vascular disease, and due
+to its high transmission potential, Coffee Wilt Disease poses a threat to all coffee-producing
+regions. This disease can kill its host at all ages in a short time [47]. Moreover, after the
+infected trees and their roots are removed, the infested soil may remain infectious for
+several years [48]. Twenty-one Hemileia have been reported belonging to two species, and
+Hemileia vastatrix is an important phytopathogenic fungus that causes Coffee Leaf Rust.
+Coffee Leaf Rust, one of the major diseases of Arabica coffee is a major threat to coffee
+production worldwide and it has been reported to cause serious economic losses in more
+than 50 coffee-growing countries [49]. Brown Eye Spot or Cercospora Blotch caused by
+Cercospora coffeicola, has been reported on coffee. Besides, Andrade et al. [50] showed that
+isolates producing brown eye spot and black spot can also cause prompt alterations in the
+antioxidant metabolism of coffee leaves. Armillaria root rot caused by Armillaria sp., has
+been reported on coffee, and this disease leads to coffee plant rot and the eventual death of
+the plant. Since this fungus invades deeper into roots, symptoms are difﬁcult to detect, thus
+it can last for several years before symptoms appear on the surface. This disease spreads to
+other plants with the transfer of soil [51]. Major coffee diseases that have a huge impact on
+coffee plantations worldwide are discussed in detail below [14].
+2.3.1. Detection and Identiﬁcation of Diseases
+Detection and identiﬁcation of fungal diseases in crops can be done through direct and
+indirect methods. Direct detection of fungal diseases includes molecular and serological
+methods, while indirect methods identify the plant diseases through various parameters
+such as morphological change, temperature change, transpiration rate change, and volatile
+organic compounds released by infected plants [52]. Among different methods, fungal mor-
+phology is a commonly used method to identify coffee pathogens [11], while pathogenicity
+tests [53] and Polymerase Chain Reaction (PCR) [54] are also used. Generally, three main
+methods are used for the identiﬁcation of coffee fungal pathogens.
+Fungal morphological characteristics—Different fungal pathogens cause different
+symptoms on the host surface [14]. Firstly, the disease symptoms on the host are observed
+and recorded, and then the pure cultures grown on potato dextrose agar (PDA) are obtained
+according to the isolation method of Senanayake et al. [55]. Finally, colony size, colour of
+the conidial masses and zonation, size, and shape of conidia harvested from the cultures
+are recorded under the microscope [44].
+Pathogenicity test (Koch’s postulates)—Spore suspensions of pathogenic fungi are
+obtained by pure cultures grown on PDA for 7 to 10 days, prepare healthy/disease-free
+hosts, then carry out the pathogenicity test [44]. After inoculation, the changes are recorded
+from 1 to 15 days of growth, compare the morphological characteristics of the lesions in the
+host with original disease lesions.
+Polymerase Chain Reaction—Pure cultures of pathogenic fungi grown on PDA for
+7 to 10 days are used to scrape mycelium from the culture surface. Then, the genomic DNA
+is extracted using a Genomic DNA Extraction Kit or CTAB. Finally, PCR ampliﬁcation is
+done for the speciﬁc genes of interest [44].
+
+Pathogens 2022, 11, 411
+5 of 17
+2.3.2. Coffee Leaf Rust
+•
+Pathogen: Hemileia vastatrix has spread to all coffee cultivation areas worldwide.
+Hemileia coffeicola is restricted to central and western Africa, especially in higher and
+cooler regions [22,56].
+•
+Hosts: C. arabica (arabica coffee) and C. canephora (robusta coffee), the two most
+important commercial coffee species [56].
+•
+Symptoms and signs: Infection occurs on the leaves of coffee. The ﬁrst observable
+symptoms are small, and light-yellow spots on the upper surface of leaves. As the
+diameter of these points gradually increases, a large number of orange urediniospores
+(=uredospores) appear under the leaf surface. The fungus forms spores through
+stomata instead of penetrating the epidermis like most rust-causing species, so it
+does not form many typical rust pustules. Powdery lesions under leaves appear
+orange-yellow to red-orange with a high degree of variance. Although disease spots
+can develop anywhere on the leaf, they tend to concentrate around the edges, where
+dew and raindrops gather. The center of the spot eventually dries out and turns
+brown, while edges of the lesions continue to expand and produce new spores. At the
+beginning of the season, the disease usually ﬁrst appears on the lower branches, and
+infection progresses slowly up the tree. Infected leaves fall prematurely, leaving long
+branches without leaves [14,56–59].
+•
+Pathogen biology: Hemileia vastatrix mainly exists in the form of dikaryotic, and
+nutrient-absorbing mycelium between cells in leaves of its coffee host. Short pedicels
+are clustered throughout stomata and below leaves, with dual-nucleated spores. To-
+wards the end of the season, sometimes under cool, dry conditions, spores are pro-
+duced from polyspores on older attached leaves. After nuclear division and meiosis,
+these sporozoites germinate to produce basidia, each of which forms four haploid
+sporozoites [14,56–59].
+•
+Disease cycle: Urediniosporic life cycle as its most important source of inoculum,
+can cause infection and develop into lesions, producing more urediniospores. Spore
+adhesion to the host surface, germination of urediniospores, formation of an adhesion
+layer on stomata, penetration, and intercellular and intracellular colonization are
+various steps of the disease cycle. The disease cycle of Coffee Leaf Rust is discussed in
+Talhinhas et al. [22].
+•
+Disease management:
+1.
+Chemical control: Fungicide sprays (Epoxiconazole, Pyraclostrobin, Cyproconazole,
+Hexaconazole or Cupric Fungicides) [14,22].
+2.
+Cultural practices: Agroforestry practices of tree-crop mixing, timely pruning, han-
+dling and de-suckering, regular change of crop cycle [49].
+3.
+Biological practices: Pichia membranifaciens is a yeast strain isolated from soil that can
+reduce the Hemileia vastatrix spore viability [59].
+4.
+Resistant varieties: Such as HDT (Hıbrido de Timor), Catimor and Sarchimor popula-
+tions [22].
+2.3.3. Coffee Berry Disease
+•
+Pathogen: Colletotrichum kahawae is a particularly devastating pathogen that affects de-
+veloping berries, leading to berry rot and shedding before bean formation.
+Colletotrichum kahawae has not been reported outside Africa or in low altitudes. Coffee
+Berry Disease was ﬁrst detected and identiﬁed by McDonald in Kenya in 1922 [14].
+•
+Hosts: Mainly C. arabica (arabica coffee) [14].
+•
+Symptoms and signs: Characteristic symptoms are progressive anthracnose of young
+and expanding coffee berries. Symptoms present as small water-soaked lesions that
+rapidly become dark and sunken. These lesions expand, causing rot of the entire berry
+under humid conditions, and pink spore masses become visible on the lesion surface.
+Berries are often shed from branches at an early stage of the disease. Lesions may also
+occur on young berry stalks, causing them to shed before lesions are evident on berries.
+
+Pathogens 2022, 11, 411
+6 of 17
+Pale, corky lesions (scab lesions) also appear on young and mature berries that are
+resistant to infection. They may completely heal or remain dormant until berries ripen.
+This disease also affects ripening berries, causing a ‘brown blight’ phase as typical dark,
+sunken anthracnose lesions that envelop the red berries. Colletotrichum kahawae may
+also infect ﬂowers under wet conditions, causing brown lesions on petals [14,58,60].
+•
+Pathogen biology: The fungus settles in the mature bark of coffee buds and infects flowers,
+mature fruits, and leaves. Under high humidity and high temperature, conidia germinate
+and form germ tubes and appendages when contacted with susceptible tissues [61].
+•
+Disease cycle: The Coffee Berry Disease cycle begins each year at the ﬁrst rain event
+and is subsequently maintained by rain-splash dispersal and secondary inoculation
+of conidia onto healthy berries in the rainy season. The disease cycle of Coffee Berry
+Disease is discussed in De Silva et al. [62].
+•
+Disease management:
+1.
+Cultural practices: Shading with fruit trees and irrigation to induce early ﬂowering
+to decrease the severity and all berries should be removed at the end of the planting
+season to prevent them from becoming a source of inoculation for new crops [60].
+2.
+Biological control: Many components in the microbiota (fungi and bacteria) on coffee
+trees show very high antagonistic levels and have a strong antagonistic effect on Col-
+letotrichum kahawae. However, these agents have not been developed into commercial
+biocontrol agents [60].
+3.
+Chemical control: The most economical method is to use a mixture of copper fungi-
+cide (50% wettable copper chloride wettable powder 5 kg) and organic fungicide
+(75% chlorothalonil wettable powder 2 kg) [14,60].
+4.
+Resistant varieties: Ruiru 11, Hibrido de Timor, Rume Sudan, K7, and several Cati-
+mors. In Ethiopia, 37 Coffee Berry Disease resistant coffee cultivars are used [14,60].
+2.3.4. Coffee Wilt Disease
+•
+Pathogen: Fusarium xylarioides causes wilt in Coffea excelsa (C. liberica) (Steyaert 1948).
+This disease was ﬁrst detected in 1927 in Oubangui-Chari (now the Central African
+Republic) and was initially thought to be caused by a root rot [14,47].
+•
+Hosts: C. arabica (arabica coffee), C. canephora (robusta coffee), and C. excelsa [47].
+•
+Symptoms and signs: First, leaves turn yellow before withering and developing brown
+necrotic lesions. Finally, leaves curl, dry, and fall. This process can start from any
+part of the plant, but eventually, symptoms spread to the rest of the plant. Symptoms
+ﬁrst present on the coffee stem, where fungi colonize, and the host response blocks
+vascular bundles, resulting in blue-black stains [14,47,58,63].
+•
+Pathogen biology: Conidia and ascospores are spread by wind, rain and through
+human activities (harvesting, pruning). Pathogens penetrate wounds, so any agent
+causing wounds aids the spread of the fungus. Krantz and Mogk in 1973 noted that
+most dying and dead trees had been wounded during weeding. Insects may also
+spread the disease from one tree to another tree [64].
+•
+Disease cycle: Incubation period from ﬁrst symptoms to death of tree varies, although
+most affected trees die 2–3 months after initial symptoms were observed. It usually
+quickly kills infected mature trees within just 6 months after the ﬁrst external symp-
+toms appear, resulting in a decline of total yield. Coffee quality may also be affected
+by premature berry ripening. The disease cycle of Coffee Wilt Disease is discussed in
+Alemu et al. [65].
+•
+Disease management:
+1.
+Cultural practices: Frequent inspection, along with burning infected material and
+spraying soil surfaces with 2.5% copper (II) sulphate. Replanting should not be done
+until 6 months after uprooting infected trees to allow the viability of soil inoculum to
+decline. It is recommended to grow cover crops such as Desmodium sp. and haricot
+bean, which are very efﬁcient in suppressing weeds (so reducing the need for slashing)
+and as legumes, promote the growth of coffee trees [63].
+
+Pathogens 2022, 11, 411
+7 of 17
+2.
+Chemical control: Ridomil Gold (metalxyl 8% + Mancozeb 64%) 68% Wp 2.5 kg/ha,
+when disease on set, used at 7, 14, 21, 28 days. Pencase 80% WP (Mancozeb) at the
+rate of 2.5 kg/ha, when disease on set, used at 7, 14, 21 days [63].
+3.
+Biological control: The strain of Bacillus subtilis (AUBB20) is the most antagonistic to
+this disease. Tricoderma viride and Tricoderma harzianum have shown good potential
+in inhibiting the mycelial growth of Fusarium xylarioides, but no effective methods of
+biological control are currently available [63].
+2.3.5. Brown Eye Spot or Cercospora Blotch
+•
+Pathogen: Cercospora coffeicola is distributed throughout the tropics and subtropics and
+is prone to appear on coffee plants in areas with higher moisture and rainfall as well
+as on plants that are stressed [14,66].
+•
+Hosts: C. arabica (arabica coffee), C. canephora (robusta coffee) [66].
+•
+Symptoms and signs: on the leaves, small, round to irregular spots, and brown to
+light brown lesions ﬁrst appear. The number and size of lesions then increase before
+eventually the entire leaf is affected. The edge of the lesion may appear dark purple or
+black, and it may be encircled by a yellow halo. Severely infected leaves turn yellow
+and fall off; lesions on green berries are initially brown, sunken, longitudinal, irregular
+or oval with a gray center. Infection can occur at any stage of berry growth; on the
+red cherries, ﬁrst, large, sunken, and blackened areas cover with silvery fungal spores.
+Penetration into the seeds may cause the pulp to stick to parchment paper during
+processing, and damage the product. Cercospora coffeicola reduces productivity and
+lowers the beverage quality of coffee [14,57,67].
+•
+Pathogen biology: Wind, splashing water and human activities cause spores (conidia)
+to be deposited on leaves and petioles, beginning the disease cycle. Conidia germinate
+at moderate to warm (20–28 ◦C) temperatures [68].
+•
+Disease cycle: In warm and humid periods, new infections and sporulation occur
+every 7 to 10 days. Pathogen easily spreads in ﬁelds via wind, rain, and irrigation
+water. It survives as a pathogen in weeds and infested crop fragments, where it is
+capable of re-infecting grown plants. The disease cycle of Cercospora Blotch is discussed
+in Souza et al. [69].
+•
+Disease management:
+1.
+Biological control: No biological control measures have been developed [68].
+2.
+Cultural practices: Elimination of crop debris, weed hosts and provide 35–65% shade.
+In order to maintain adequate plant nutrition, nitrogen fertilizers are used. Plant
+only high-quality seeds, and destroy infected crops in time after the ﬁnal harvest and
+before replanting. Select a reasonable planting density (10 ft × 10 ft for robusta while
+8 ft × 8 ft for arabica). Avoid planting coffee transplants too deep in soils [68].
+3.
+Chemical control: Fungicide sprays are necessary for disease control in wet condi-
+tions, but proper fungicides, rates, and fungicide rotations such as Chlorothalonil
+and Chlorothalonil Mixtures, Strobilurins and Strobilurin Mixtures should be fol-
+lowed [68].
+2.3.6. Armillaria Root Rot
+•
+Pathogen: Armillaria root rot is caused by several species of Armillaria [14].
+•
+Hosts: C. arabica (arabica coffee), C. canephora (robusta coffee) [14].
+•
+Symptoms and signs: Common symptoms of Armillaria infections include tissue death,
+wilting and the yellowing of tree-tops, and resin exudation, as well as the underside
+of bark, is easily attacked by white mycelium [14,58].
+•
+Pathogen biology: This fungus usually exists in soil, and when coffee trees grow in
+unfavorable conditions, it infects the tree. For example, drought, soil compaction,
+root injury, and nutrient deﬁciency may induce it to infect the coffee tree. The fungus
+produces ﬁlaments on the ground, and these ﬁlaments can invade healthy roots, move
+
+Pathogens 2022, 11, 411
+8 of 17
+to the root collar, and spread throughout the trunk. The infection causes sapwood in
+the affected area to rot and eventually kill the tree [70].
+•
+Disease cycle: Armillaria spreads in two ways. The ﬁrst method of transmission is
+through airborne sexual spores, which can sometimes lead to the creation of new
+infection centers. The second method of spread is through the growth of pathogens
+from infected trees to neighboring trees via mycelial transfer at the location where the
+diseased roots come into contact with each other or via rhizomes that grow through
+the ground. Depending on the climate, stump size, and other factors, Armillaria can
+live up to 50 years or more. The disease cycle of Armillaria root rot is discussed in
+Jayawardena et al. [71].
+•
+Disease management: The affected trees are incurable. However, if the disease is
+detected early enough, host trees can be preserved. It is important to prevent this
+disease by avoiding conditions that cause the tree’s vitality to decline. As Armillaria
+root rot can last for many years, avoid replanting where the diseased trees have been
+removed [14,58,70].
+1.
+Biological control: Use antagonistic fungi to preemptively settle or eliminate Armillaria
+species in coffee plants.
+2.
+Soil barrier: Creating a barrier in the soil to root and rhizomorph growth may be a
+practical way to limit the pathogen’s spread, and this is called trenching. This is done
+by digging a trench down to 1 m (about 3 ft), lining it with plastic, and backﬁlling.
+3.
+Chemical control: Usually after stump removal and before planting, fumigants such as
+chloropicrin, carbon disulphide, and methyl bromide are used in orchards to eradicate
+inocula from the soil.
+2.4. Distribution of Pathogenic Fungi on Coffee Worldwide
+In total, 295 pathogens have been recorded across more than 90 countries (Supplementary
+Table S1, Figure 1c). The main pathogens are concentrated in Asia and Africa. Brazil has
+the highest number of pathogens in our statistics.
+2.5. Pathogenic and Toxigenic Fungi on Coffee
+Three pathogenic and two toxigenic fungal genera are reported frequently (Figure 1d).
+Aspergillus and Penicillium are the main toxin-producing fungal genera, while Colletotrichum,
+Hemileia, and Fusarium are the main fungal pathogenic genera on coffee. According to our
+statistics, Fusarium is a pathogen of coffee and also some species in this genus have been
+reported as mycotoxin producers (Supplementary Table S5) [72].
+Twenty-six of the taxa reported on coffee produce toxins viz: 20 Aspergillus, two Penicillium,
+and one species from Byssochlamys, Fusarium, Mucor, and Rhizopus (Supplementary Table S5).
+Fusarium species are mainly pathogenic affecting coffee causing disease and producing
+toxins. The main fungal toxins reported on coffee are ochratoxin-A/ochratoxin-B, while
+Aﬂatoxin B1/B2 and other mycotoxins were reported less than Ochratoxins [73]. Once
+the coffee is contaminated with ochratoxin-A, it is difﬁcult to eliminate by cooking due
+to its thermostability and small size molecules [74]. The accumulation of mycotoxins in
+plant tissues is related to the development of plant disease symptoms [25]. Based on
+Supplementary Table S5, the toxin-producing species mainly comes from Aspergillaceae.
+One hundred and forty-eight records of Aspergillaceae have been reported on coffee
+worldwide, but there are likely more toxin-producing taxa in this family.
+3. Discussion and Conclusions
+Since the diversity of plant pathogenic fungi is higher than that of plant pathogenic
+bacteria and viruses, fungal diseases are responsible for the largest coffee losses world-
+wide [75]. Microbial diseases cause 16% of crop (including coffee) losses worldwide, and
+70–80% of these losses are caused by fungi [76]. Cerda et al. [77] showed that pests and
+diseases cause high primary yield losses (26%) and even higher secondary yield losses
+
+Pathogens 2022, 11, 411
+9 of 17
+(38%). For instance, Coffee berry borer affects coffee yield while increasing the risk of
+toxigenic fungal infections [18].
+Fungal infection is a serious problem affecting coffee production and quality [78]. The
+most serious fungal diseases of coffee reported are Coffee Leaf Rust, Coffee Berry Disease
+and Coffee Wilt Disease, Brown Eye Spot, and root rot disease [14,58,79]. Coffee Leaf Rust
+causes loss of physiological activities and leaves to fall off, coffee serves as an obligate host
+for Coffee Leaf Rust, and this disease devastates susceptible coffee plantations. In severe
+cases, this disease can cause branches to wither completely, weaken the plant, and hinder or
+even stop its development; it can cause damage leading to severe yield losses up to 75% [49].
+Usually, seriously ill and fragile coffee trees cannot survive Coffee Leaf Rust. Coffee Berry
+Disease mainly occurs in C. arabica and is capable of destroying almost all berries on the
+coffee tree, but it does not cause any effect on branches and leaves. This disease spreads
+rapidly above 1500 m altitude under cool and humid conditions and can cause losses as
+high as 80%. Coffee Wilt Disease is the most serious coffee disease on the African continent.
+According to Rutherford et al. [47], since 2001, farms in the Democratic Republic of the
+Congo, Tanzania, and Uganda have suffered from the disease, and the average yield loss
+was reported at 70%. Brown Eye Spot or Cercospora “Berry Blotch” can attack coffee at any
+stage, and infected plants lose most of their leaves, or even all of them in the same cases,
+and berries can also be infected. This disease may result in more than 30% production loss
+and can also reduce quality. Armillaria cause rots in various hosts across the world, and
+coffee is one of the main known hosts. Between 5–20% of all tree deaths can be attributed
+to this disease in plantations. Some diseases only manifest when plants are accidentally
+injured by farming tools, especially when wounds are created at the bottom of tree trunks,
+and in turn, wounds should be treated appropriately with antiseptic healing creams in
+order to prevent the invasion of diseases such as Fusarium wilt and cankers [14,47,80,81].
+Other less serious pathogens of coffee include Leaf Spot (Alternaria sp., and Ascochyta sp.)
+and damping-off (Pythium sp.) that are managed by both chemical control and cultural
+practices [82]; and Coffee Bark Disease which only appears to affect C. arabica and can be
+controlled by adjusting soil pH, nutrient content and maintaining good water management
+practices [11]. As coffee grows in the tropics and subtropics, leaves remain attached to the
+tree throughout the year, and it is often covered in microbial endophytes that are important
+for plant health and plant protection [13,83].
+As society pays more attention to food safety and environmental health, it is in our
+collective interest to reduce the use of pesticides in coffee plantations, and ﬁnding beneﬁcial
+microorganisms and microbial-derived compounds have become a popular and important
+research ﬁeld [84]. Fungicides are effective against the disease, but continuous and repeated
+use of fungicides will promote the emergence of resistant populations, [85]. Moreover,
+much of the existing literature indicate that fungicides are harmful to the ecosystem, and
+conventional use will also bring the threat of environmental impact [86]. Additionally,
+the application of fungicides may affect crop physiology through various disturbances,
+such as reduced growth, disturbance of the development of reproductive organs, changes
+in nitrogen and/or carbon metabolism, resulting in reduced nutrient utilization for plant
+growth [87]. In addition, organic coffee production does not use pesticides. Through the
+conducted field surveys in coffee plantations in Yunnan Province, China in 2020, we observed
+that fungal pathogens and pests are still serious factors affecting coffee production and quality.
+Different fungi play different roles in the ecosystem. Fungal endophytes and their
+secondary metabolites may play important roles in the prevention and treatment of coffee
+diseases. Regarding toxigenic fungi, De Almeida et al. [42] showed that endophytes from
+coffee beans can inhibit fungal growth and ochratoxin-A production. Regarding Coffee
+Wilt Disease, the non-pathogenic isolates of Fusarium are similar to the pathogenic isolates
+that cause Coffee Wilt Disease, so they can be studied as effective biocontrol agents. If these
+non-pathogenic fungal isolates produce secondary metabolites compatible with commonly
+used fungicides, those secondary metabolites can reduce the severity of fungal diseases [88].
+It is known that endophytic fungi can produce metal nanoparticles that have high activity
+
+Pathogens 2022, 11, 411
+10 of 17
+against several microbial pathogens of humans and plants [89]. The direct application of
+nanoparticles to seeds, leaves or roots can prevent microbial pathogens from invading
+plants, but the long-term impact of nano-formulations on human health and environmental
+quality when applied to crop protection is still uncertain [90]. This method of inhibiting
+pathogens is comparable to that of chemical pesticides, but applications of high amounts of
+fungicides have led to the emergence of anti-Plasmodium digitatum strains [91]. Therefore,
+nano-formulation is a potential application for controlling diseases. Regarding Coffee Berry
+Disease, there are almost no chemicals available to control the pathogenic Colletotrichum
+species [92], and its resistance is controlled by three genes, so current research on disease-
+resistant breeding will likely result in methods to control the disease, but disease-resistant
+breeding can take up to 30 years [93]. Regarding Coffee Leaf Rust disease is the most
+serious fungal pathogen responsible for causing leaf diseases [81]. From an environmental
+and economic point of view, cultivating rust-resistant species is considered the best method.
+As Hemileia vastatrix complex resistance factors and excellent traits cannot be maintained,
+it has not been studied as extensively as other rust fungi. The resistant varieties in the
+wild C. arabica population are worth doing while, there is little hope of success in ﬁnding
+a new source of resistance from wild C. arabica [22,94,95]. Jackson et al. [96] showed that
+the entomopathogenic and mycoparasitic fungus Lecanicillium lecanii has potential as an
+effective biological control against Hemileia vastatrix by reducing spore viability and disease
+severity. Therefore, the most effective method for controlling fungal pathogens on coffee is
+via the use of endophytic fungi from coffee as bio-controllers.
+Mycotoxins on coffee are considered an important food safety issue. Ochratoxins-A
+is one of the most important mycotoxin pollutants in agricultural products (cereals, wine,
+coffee, dried fruits, beer, and animal feed). Due to its toxicity and incidence, its harm
+and impact on humans and animals continue to cause global concern [97]. Penicillium
+and Aspergillus species produce ochratoxins and exist in the forms denoted as A, B, and
+C; ochratoxin-A is the most ubiquitous and most toxic [98]. Culliao et al. [72] isolated
+Fusarium, Mucor, and Rhizopus from coffee beans that can produce ochratoxin-A. This
+mycotoxin is usually found in coffee beans and grains, and it cannot be completely removed
+by food processing methods because of it is light molecular weight and resistance to
+heat treatments [31,32]. The production of mycotoxins depends on the degree of fungal
+growth [99]. Coffee berry borer is responsible for increasing fungal contamination and
+the content of ochratoxin-A [18], while green coffee beans can be contaminated by fungal
+pathogens in storage [100]. Suárez-Quiroz et al. (2004) showed that different levels of
+ochratoxin-A are produced during different processing stages; the percentage of infection
+in green coffee is usually lower than that observed in parchment paper and dry coffee
+berries, and almost no ochratoxin-A producing fungi are found in green coffee [101]. The
+Commission of the European Communities has established the internationally acceptable
+amount or safe amount of ochratoxin-A in food (including coffee) [102]. According to
+the Food and Agriculture Organization (FAO), 77 countries have formulated guidelines
+and regulations on mycotoxins in food (including coffee) and feed to control the levels
+of mycotoxins, but there are still 13 countries (including Africa) that do not have speciﬁc
+regulations for food safety [103].
+A range of approaches for ridding mycotoxins in food is currently in the pipeline due
+to the acute and chronic toxic effects of food contamination by mycotoxins on humans and
+animals [104], as detailed below:
+Regarding biological control, coffee endophytes Beauveria bassiana and Clonostachys rosea
+isolated by Vega et al. [36] can control coffee berry borer, the most destructive coffee pest in
+the world. This plant defense mediated by endophytes can be developed as a new control
+mechanism. Screening for endophytic fungi that can inhibit the production of ochratoxin-A
+by post-harvest pathogens and reduce the content of ochratoxin-A in coffee beans should
+be the future research directions. The use of the non-toxic Aspergillus niger strains for the
+biological control of toxin-producing black aspergilli has also been successfully applied
+to grapes [20]. The targeted application of biological control methods on coffee plants can
+
+Pathogens 2022, 11, 411
+11 of 17
+potentially increase the quality of coffee beans and ensure the safety of consumers [73]. Ap-
+plication of fungal growth inhibitors to coffee beans, such as the polypeptide bacillomycin
+D isolated from Bacillus cereus, can inhibit the growth of Fusarium [105].
+Regarding physical control, it is known that toxins are produced by a certain level of
+physical water activity (aw), nutrition, and temperature in micelle. High temperature and
+humidity are conducive to the production of toxins, all of which are factors controlling the
+ochratoxin-A production [73]. Various technical methods such as sun drying, infrared and
+ultrasonic treatments should be used before coffee beans are stored to keep the moisture
+content below 12%, as this reduces the risk of fungal growth and contaminations [106].
+Since molds that produce mycotoxins can usually only colonize damaged parts of plants,
+crops must be protected from damage caused by mechanical processes or insects. In
+order to reduce pre-harvest pollution, minimize weeds and reduce the pressure of the
+crop itself. There can be an appropriate use of fungicide and pesticide treatments [20].
+Gil-Serna et al. [107] shows that optimal conditions of growth and produce ochratoxin-
+A in Aspegillus steynii and A. westerdijkiae can be seen at warm temperatures (28–32 ◦C).
+Therefore, coffee bean storage containers should be kept clean in a cool and dry place.
+Regarding chemical control, antioxidants are a new strategy that is emerging, such as
+vanillic acid or 4-hydroxybenzoic acid [108]. Essential oils extracted from plants, such as
+Thymus vulgaris, Aframomum danielli [109,110], cinnamon, clove leaf [111], thyme, marigold,
+spearmint, basil, quyssum, caraway, anise, oregano, mint, basil, sage, and coriander [112]
+have been found to inhibit the growth of ochretoxin producing fungi. Additionally, alka-
+loids produced by Piper longum, and components of sesame oil and turmeric have also
+been found to suppress both fungal growth and ochratoxin production in a number of
+ochratoxin-A producing aspergilli [113]. In addition, ﬂavonoids, carotenoids, and saponins
+can be used as a substitute for synthetic fungicides to control fungal development and
+ochratoxin-A production in coffee beans [114]. On the other hand, Gómez et al. [115]
+showed that engineered silver nanoparticles can inhibit the growth of aﬂatoxigenic and
+ochratoxigenic fungi. A natural component of rice bran gamma-oryzanol demonstrates
+antifungal activities against Fusarium graminearum [116]. The activated chemicals in cold
+plasma treatment technology can cause fungal cell damage and death, as well as mycotoxin de-
+composition. Studies demonstrated that this treatment may eventually provide a sustainable
+means for processing a large amount of food and animal feed, including coffee [117].
+To sum up, the use of antagonistic endophytes as biological control agents has at-
+tracted special attention for the management of plant diseases and has minimal impact
+on the environment [118]. Endophytic fungi isolated from coffee, which produce volatile
+organic compounds, are promising sources of biotechnological potential. The use of mi-
+croorganisms as biocontrol agents can reduce the huge use of chemicals, and improve the
+quality and sustainability of coffee, but biocontrol is still not fully utilized in the coffee
+industry [119]. This comprehensive review of the fungi reported on coffee based on taxon-
+omy, phylogeny, life mode, host, affected plant part and region is useful for mycologists,
+pathologists, and farmers. Five major fungal diseases and mycotoxin-producing taxa are
+also discussed in detail in this review. In addition, we discuss why the yield and quality
+of coffee are affected by fungi and propose methods to control or eliminate infections to
+increase yield and improve quality. Furthermore, endophytic fungi and their biological
+control potential for coffee diseases are also discussed.
+4. Materials and Methods
+4.1. Fungal Taxa Reported on Coffee
+Information on fungal taxa reported on coffee hosts was gathered via Google Scholar,
+Cyberliber, theses, books, and online literature access sites, and reported fungi were
+retrieved from the USDA website [120]. In addition, different life modes, hosts, and
+locations as well as fungi that produce toxins were collected from published articles.
+
+Pathogens 2022, 11, 411
+12 of 17
+4.2. Tables of Coffee Fungi
+Fungal species, genera, and higher ranks were checked and updated using Index
+Fungorum [121] and MycoBank [122]. Five different tables were made in order to clearly
+understand the different life modes of fungi reported on coffee. All records of coffee fungi
+are listed in Supplementary Table S1. Frequently found fungal families and genera on
+coffee are mentioned in Supplementary Table S2. Different life modes of coffee fungi are
+listed in Supplementary Table S3. True pathogens, postharvest pathogens, and other fungi
+reported on coffee are mentioned in Supplementary Table S4. Post-harvest fungal diseases
+reported on coffee are listed in Supplementary Table S5.
+4.3. Graphs of Coffee Fungi
+Microsoft Word’s pie graph option was used to make the Figure 1. Percentages of
+different fungal families reported on coffee are shown in Figure 1a. Percentages of different life
+modes of fungi reported on coffee are displayed in Figure 1b. Percentages of coffee pathogens
+reported in different countries are shown in Figure 1c. Percentages of most frequently reported
+fungal pathogenic and toxigenic fungal genera on coffee are displayed in Figure 1d.
+Supplementary Materials: The following are available online at https://www.mdpi.com/article/10.339
+0/pathogens11040411/s1, Table S1: Records of coffee fungi. Table S2: Frequently found fungal families
+and genera on coffee. Table S3: Different life modes of coffee fungi. Table S4: True pathogens, postharvest
+pathogens and other fungi reported on coffee. Table S5: Post-harvest fungal diseases reported on
+coffee. References [123–143] are citied in the Supplementary Materials.
+Author Contributions: Conceptualization, K.D.H. and S.C.K.; methodology and software, L.L. and
+S.C.K.; formal analysis and investigation L.L.; resources and data curation S.T.; writing—original
+draft preparation L.L. and S.C.K.; writing—review and editing L.L. and S.C.K.; visualization and
+supervision R.S.J., S.L. and J.X.; project administration and funding acquisition K.D.H., S.C.K. and
+S.T.; All authors have read and agreed to the published version of the manuscript.
+Funding: This research was funded by “National Research Council of Thailand, grant for new
+researcher NRCT5-TRG630010-01, entitled “Biodiversity, taxonomy, phylogeny, and evolution of
+Colletotrichum in northern Thailand”, Thailand Research Fund for the grant “Impact of climate change
+on fungal diversity and biogeography in the Greater Mekong Subregion, grant number RDG6130001”
+and the “Department of Sciences and Technology of Yunnan Provincial Government, China”, grant
+number 202101AS070045.
+Data Availability Statement: Main reference website https://www.ars.usda.gov/ (accessed on
+16 February 2022) for the list of coffee fungi.
+Acknowledgments: Li Lu thanks the Center for Mountain Futures, Kunming Institute of Botany,
+Chinese Academy of Science, and Center of Excellence in Fungal Research and Qujing Normal
+University for providing facilities for the Ph.D. studies and, she also thanks Mae Fah Luang University
+for providing the postgraduate scholarship for tuition fees. K.D. Hyde thanks Chiang Mai University
+for the award of Visiting Professor.
+Conﬂicts of Interest: The authors declare no conﬂict of interest.
+References
+1.
+Besttoppers. Available online: https://besttoppers.com/top-10-widely-consumed-drinks (accessed on 16 February 2022).
+2.
+Zhang, S.J.; De Bruyn, F.; Pothakos, V.; Contreras, G.F.; Cai, Z.; Moccand, C.; Weckx, S.; De Vuyst, L. Inﬂuence of various processing
+parameters on the microbial community dynamics, metabolomic proﬁles, and cup quality during wet coffee processing. Front.
+Microbiol. 2019, 10, 2621. [CrossRef] [PubMed]
+3.
+Treanor, N.B.; Saunders, J. Tackling (Illegal) Deforestation in Coffee Supply Chains: What Impact Can Demand-Side Regulations Have?
+Forest Policy Trade and Finance Initiative Report; Forest Trends: Washington, DC, USA, 2021.
+4.
+International Coffee Organization. Available online: http://www.ico.org/coffee_prices.asp (accessed on 16 February 2022).
+5.
+Veloso, T.G.R.; Silva, M.D.C.S.D.; Cardoso, W.S.; Guarçoni, R.C.; Kasuya, M.C.M.; Pereira, L.L. Effects of environmental factors on
+microbiota of fruits and soil of Coffea arabica in Brazil. Sci. Rep. 2020, 10, 1–11. [CrossRef] [PubMed]
+6.
+Coffee Consumption by Country 2022.
+Available online: https://worldpopulationreview.com/country-rankings/coffee-
+consumption-by-country (accessed on 16 February 2022).
+
+Pathogens 2022, 11, 411
+13 of 17
+7.
+Vega, F.E.; Ziska, L.H.; Simpkins, A.; Infante, F.; Davis, A.P.; Rivera, J.A.; Barnaby, J.Y.; Wolf, J. Early growth phase and caffeine
+content response to recent and projected increases in atmospheric carbon dioxide in coffee (Coffea arabica and C. canephora). Sci.
+Rep. 2020, 10, 1–11. [CrossRef] [PubMed]
+8.
+Leitão, A.L. Occurrence of ochratoxin A in coffee: Threads and solutions—A mini-review. Beverages 2019, 5, 36. [CrossRef]
+9.
+Harvey, C.A.; Rakotobe, Z.L.; Rao, N.S.; Dave, R.; Razaﬁmahatratra, H.; Rabarijohn, R.H.; Rajaofara, H.; MacKinnon, J.L. Extreme
+vulnerability of smallholder farmers to agricultural risks and climate change in Madagascar. Philos. Trans. R. Soc. B Biol. Sci. 2014,
+369, 20130089. [CrossRef] [PubMed]
+10.
+Pham, Y.; Reardon-Smith, K.; Mushtaq, S.; Cockﬁeld, G. The impact of climate change and variability on coffee production: A
+systematic review. Clim. Chang. 2019, 156, 609–630. [CrossRef]
+11.
+Rutherford, M.A.; Phiri, N. Pests and Diseases of Coffee in Eastern Africa: A Technical and Advisory Manual; CAB International:
+Wallingford, UK, 2006.
+12.
+Ribeyre, F.; Avelino, J. Impact of ﬁeld pests and diseases on coffee quality. In Specialty Coffee: Managing Coffee; International Plant
+Nutrition Institute; IPNI [Southeast Asia]: Penang, Malaysia, 2012; pp. 151–176.
+13.
+Santamaría, J.; Bayman, P. Fungal epiphytes and endophytes of coffee leaves (Coffea arabica). Microb. Ecol. 2005, 50, 1–8. [CrossRef]
+14.
+Muller, R.A.; Berry, D.; Avelino, J.; Bieysse, D. Coffee diseases. In Coffee: Growing, Processing, Sustainable Production. A Guidebook
+for Growers, Processors, Traders and Researchers; Germany Wiley-VCH Verlag GmbH & Co.: Weinheim, Germany, 2009; pp. 495–549.
+15.
+Botrel, D.A.; Laborde, M.C.F.; De Medeiros, F.H.V.; Resende, M.L.V.; Júnio, P.M.R.; Pascholati, S.F.; Gusmão, L.F.P. Saprobic fungi
+as biocontrol agents of halo blight (Pseudomonas syringae pv. garcae) in coffee clones. Coffee Sci. 2018, 13, 283–291. [CrossRef]
+16.
+Torres-Mendoza, D.; Ortega, H.E.; Cubilla-Rios, L. Patents on endophytic fungi related to secondary metabolites and biotransfor-
+mation applications. J. Fungi 2020, 6, 58. [CrossRef] [PubMed]
+17.
+Yan, L.; Zhu, J.; Zhao, X.; Shi, J.; Jiang, C.; Shao, D. Beneﬁcial effects of endophytic fungi colonization on plants. Appl. Microbiol.
+Biotechnol. 2019, 103, 1–14. [CrossRef] [PubMed]
+18.
+da Silva, S.A.; Pereira, R.G.F.A.; Lira, N.D.A.; da Glória, E.M.; Chalfoun, S.M.; Batista, L.R. Fungi associated to beans infested
+with coffee berry borer and the risk of ochratoxin A. Food Control 2020, 113, 107204. [CrossRef]
+19.
+Huang, X.; Ren, J.; Li, P.; Feng, S.; Dong, P.; Ren, M. Potential of microbial endophytes to enhance the resistance to postharvest
+diseases of fruit and vegetables. J. Sci. Food Agric. 2020, 101, 1744–1757. [CrossRef] [PubMed]
+20.
+Varga, J.; Kocsubé, S.; Péteri, Z.; Vagvolgyi, C.; Toth, B. Chemical, physical and biological approaches to prevent ochratoxin
+induced toxicoses in humans and animals. Toxins 2010, 2, 1718–1750. [CrossRef] [PubMed]
+21.
+McCook, S. Global rust belt: Hemileia vastatrix and the ecological integration of world coffee production since 1850. J. Glob. Hist.
+2006, 1, 177–195. [CrossRef]
+22.
+Talhinhas, P.; Batista, D.; Diniz, I.; Vieira, A.; Silva, D.N.; Loureiro, A.; Tavares, S.; Pereira, A.P.; Azinheira, H.G.; Guerra-
+Guimarães, L. The coffee leaf rust pathogen Hemileia vastatrix: One and a half centuries around the tropics. Mol. Plant Pathol.
+2017, 18, 1039–1051. [CrossRef] [PubMed]
+23.
+Coates, L.; Johnson, G. Postharvest diseases of fruit and vegetables. In Plant Pathogens and Plant Diseases; Elsevier Science:
+Amsterdam, The Netherlands, 1997; pp. 533–548.
+24.
+Roberto, S.R.; Youssef, K.; Hashim, A.F.; Ippolito, A. Nanomaterials as alternative control means against postharvest diseases in
+fruit crops. Nanomaterials 2019, 9, 1752. [CrossRef]
+25.
+Ismaiel, A.A.; Papenbrock, J. Mycotoxins: Producing fungi and mechanisms of phytotoxicity. Agriculture 2015, 5, 492–537.
+[CrossRef]
+26.
+Strobel, G. The emergence of endophytic microbes and their biological promise. J. Fungi 2018, 4, 57. [CrossRef]
+27.
+Miller, J. Mycotoxin in Grain, Eagan Press: St. Paul, MA, USA, 1994; 326.
+28.
+Alvindia, D.G.; de Guzman, M.F. Survey of Philippine coffee beans for the presence of ochratoxigenic fungi. Mycotoxin Res. 2016,
+32, 61–67. [CrossRef] [PubMed]
+29.
+Daou, R.; Joubrane, K.; Maroun, R.G.; Khabbaz, L.R.; Ismail, A.; El Khoury, A. Mycotoxins: Factors inﬂuencing production and
+control strategies. AIMS Agric. Food 2021, 6, 416–447. [CrossRef]
+30.
+Proctor, R.H.; McCormick, S.P.; Kim, H.-S.; Cardoza, R.E.; Stanley, A.M.; Lindo, L.; Kelly, A.; Brown, D.W.; Lee, T.; Vaughan, M.M.
+Evolution of structural diversity of trichothecenes, a family of toxins produced by plant pathogenic and entomopathogenic fungi.
+PLoS Pathog. 2018, 14, e1006946. [CrossRef]
+31.
+Khan, S.A.; Venancio, E.J.; Ono, M.A.; Fernandes, E.V.; Hirooka, E.Y.; Shimizu, C.F.; Oba, A.; Flaiban, K.K.M.C.; Itano, E.N. Effects
+of subcutaneous ochratoxin-A exposure on immune system of broiler chicks. Toxins 2019, 11, 264. [CrossRef] [PubMed]
+32.
+Agriopoulou, S.; Stamatelopoulou, E.; Varzakas, T. Advances in occurrence, importance, and mycotoxin control strategies:
+Prevention and detoxiﬁcation in foods. Foods 2020, 9, 137. [CrossRef] [PubMed]
+33.
+Silva, C.F.; Schwan, R.F.; Dias, Ë.S.; Wheals, A.E. Microbial diversity during maturation and natural processing of coffee cherries
+of Coffea arabica in Brazil. Int. J. Food Microbiol. 2000, 60, 251–260. [CrossRef]
+34.
+Bokhari, F.M. Mycotoxins and toxigenic fungi in Arabic coffee beans in Saudi Arabia. Adv. Biol. Res. 2007, 1, 56–66.
+35.
+Rezende, E.D.F.; Borges, J.G.; Cirillo, M.; Prado, G.; Paiva, L.C.; Batista, L. Ochratoxigenic fungi associated with green coffee
+beans (Coffea arabica L.) in conventional and organic cultivation in Brazil. Braz. J. Microbiol. 2013, 44, 377–384. [CrossRef]
+36.
+Vega, F.E.; Posada, F.; Aime, M.C.; Pava-Ripoll, M.; Infante, F.; Rehner, S.A. Entomopathogenic fungal endophytes. Biol. Control
+2008, 46, 72–82. [CrossRef]
+
+Pathogens 2022, 11, 411
+14 of 17
+37.
+Aldina, R.F.; Indarti, S.; Wibowo, A. Pathogenicity of Nematofagous Fungus for Control of Pratylenchus Coffeae Nematodes on Coffee
+Plants; Springer: Cham, Germany, 2017; pp. 243–251.
+38.
+Schulz, B.; Boyle, C. What Are Endophytes? Microbial Root Endophytes; Springer: Berlin/Heidelberg, Germany, 2006.
+39.
+Goates, B.J.; Mercier, J. Effect of biofumigation with volatiles from Muscodor albus on the viability of Tilletia spp. teliospores. Can.
+J. Microbiol. 2009, 55, 203–206. [CrossRef]
+40.
+Monteiro, M.C.P.; Alves, N.M.; De Queiroz, M.V.; Pinho, D.B.; Pereira, O.L.; De Souza, S.M.C.; Cardoso, P.G. Antimicrobial
+activity of endophytic fungi from coffee plants. Biosci. J. 2017, 33, 381–389. [CrossRef]
+41.
+Samarakoon, M.C.; Thongbai, B.; Hyde, K.D.; Broenstrup, M.; Beutling, U.; Lambert, C.; Miller, A.N.; Liu, J.K.; Promputtha,
+I.; Stadler, M. Elucidation of the life cycle of the endophytic genus Muscodor and itEvaluation of the effects of temperature on
+processed coffee beans in the presence of fungi and ochratoxin As transfer to Induratia in Induratiaceae fam. nov., based on a
+polyphasic taxonomic approach. Fungal Divers. 2020, 101, 177–210. [CrossRef]
+42.
+de Almeida, Â.B.; Corrêa, I.P.; Furuie, J.L.; de Farias Pires, T.; do Rocio Dalzoto, P.; Pimentel, I.C. Inhibition of growth and
+ochratoxin-A production in Aspergillus species by fungi isolated from coffee beans. Braz. J. Microbiol. 2019, 50, 1091–1098.
+[CrossRef]
+43.
+Eida, M.F.; Nagaoka, T.; Wasaki, J.; Kouno, K. Evaluation of cellulolytic and hemicellulolytic abilities of fungi isolated from coffee
+residue and sawdust composts. Microbes Environ. 2011, 26, 220–227. [CrossRef] [PubMed]
+44.
+Prihastuti, H.; Cai, L.; Chen, H.; McKenzie, E.; Hyde, K. Characterization of Colletotrichum species associated with coffee berries
+in northern Thailand. Fungal Div. 2009, 39, 89–109.
+45.
+Ma, L.-J.; Van Der Does, H.C.; Borkovich, K.A.; Coleman, J.J.; Daboussi, M.-J.; Di Pietro, A.; Dufresne, M.; Freitag, M.; Grabherr,
+M.; Henrissat, B.; et al. Comparative genomics reveals mobile pathogenicity chromosomes in Fusarium. Nature 2010, 464, 367–373.
+[CrossRef]
+46.
+Peck, L.; Nowell, R.; Flood, J.; Ryan, M.; Barraclough, T. Historical genomics reveals the evolutionary mechanisms behind
+multiple outbreaks of the host-speciﬁc coffee wilt pathogen Fusarium xylarioides. bioRxiv 2020, 22, 1–24. [CrossRef]
+47.
+Rutherford, M.A. Current knowledge of coffee wilt disease, a major constraint to coffee production in Africa. Phytopathology 2006,
+96, 663–666. [CrossRef] [PubMed]
+48.
+Musoli, P.C.; Cilas, C.; Pot, D.; Nabaggala, A.; Nakendo, S.; Pande, J.; Charrier, A.; Leroy, T.; Bieysse, D. Inheritance of resistance
+to coffee wilt disease (Fusarium xylarioides Steyaert) in Robusta coffee (Coffea canephora Pierre) and breeding perspectives. Tree
+Genet. Genomes 2012, 9, 351–360. [CrossRef]
+49.
+Gichuru, E.; Alwora, G.; Gimase, J.; Kathurima, C. Coffee leaf rust (Hemileia vastatrix) in Kenya—A review. Agronomy 2021, 11, 2590.
+[CrossRef]
+50.
+De Andrade, C.C.L.; Vicentin, R.P.; Costa, J.R.; Perina, F.J.; De Resende, M.L.V.; Alves, E. Alterations in antioxidant metabolism in
+coffee leaves infected by Cercospora coffeicola. Ciênc. Rural 2016, 46, 1764–1770. [CrossRef]
+51.
+Otieno, W. Armillaria Root Rot of Tea in Kenya: Characterization of the Pathogen and Approaches to Disease Management; Wa-
+geningen University and Research; Wageningen University:
+Wageningen, The Netherlands, 2002.
+Available online:
+https://www.semanticscholar.org/paper/Armillaria-root-rot-of-tea-in-Kenya-%3A-of-the-and-to-Otieno/c0f9753b5d1
+98b0a8eb412d40b560c58304eef02#citing-papers (accessed on 16 February 2022).
+52.
+Fang, Y.; Ramasamy, R.P. Current and prospective methods for plant disease detection. Biosensors 2015, 5, 537–561. [CrossRef]
+[PubMed]
+53.
+López-Lima, D.; Carrión, G.; Sánchez-Nava, P.; Desgarennes, D.; Villain, L. Fungal diversity and Fusarium oxysporum pathogenicity
+associated with coffee corky-root disease in Mexico. Rev. Fac. Cienc. Agrar. UNCuyo 2020, 52, 276–292.
+54.
+Hariharan, G.; Prasannath, K. Recent advances in molecular diagnostics of fungal plant pathogens: A mini review. Front. Cell.
+Infect. Microbiol. 2021, 10. [CrossRef]
+55.
+Senanayake, I.; Rathnayaka, A.; Marasinghe, D.; Calabon, M.; Gentekaki, E.; Lee, H.; Hurdeal, V.; Pem, D.; Dissanayake, L.;
+Wijesinghe, S. Morphological approaches in studying fungi: Collection, examination, isolation, sporulation and preservation.
+Mycosphere 2020, 11, 2678–2754. [CrossRef]
+56.
+Arneson, P. Coffee Rust; Plant Health Instructor; The American Phytopathological Society (APS): St. Paul, MN, USA, 2000.
+57.
+Abu Mettleq, A.S.; Abu-Naser, S.S. A rule based system for the diagnosis of coffee diseases. Int. J. Acad. Inf. Syst. Res. (IJAISR)
+2019, 3, 1–8.
+58.
+Hailu, B.Z. Fungal Disease Dynamics, Genetic Variation and Biodiversity-Yield Relationships: A Study Along a Gradient of
+Coffee Management in Southwestern Ethiopia. Ph.D. Thesis, Stockholm University, Faculty of Science, Department of Ecology,
+Environment and Plant Sciences, Stockholm, Sweden, 2020.
+59.
+de Resende, M.L.V.; Pozza, E.A.; Reichel, T.; Botelho, D.M.S. Strategies for coffee leaf rust management in organic crop systems.
+Agronomy 2021, 11, 1865. [CrossRef]
+60.
+Lemma, D.T.; Abewoy, D. Review on integrated pest management of coffee berry disease and coffee berry borer. Int. J. Plant Breed.
+Crop Sci. 2021, 8, 1001–1008.
+61.
+Bailey, J.A. Colletotrichum: Biology, Pathology and Control; CAB International: Wallingford, UK, 1992.
+62.
+De Silva, D.D.; Crous, P.W.; Ades, P.K.; Hyde, K.D.; Taylor, P.W.J. Life styles of Colletotrichum species and implications for plant
+biosecurity. Fungal Biol. Rev. 2017, 31, 155–168. [CrossRef]
+
+Pathogens 2022, 11, 411
+15 of 17
+63.
+Wassie, A.K. Integrated diseased management on coffee wilt disease caused by Fusarium xylarioides and its distribution in
+Ethiopian review. Agric. Res. Technol. Open Access J. 2019, 23, 302–308. [CrossRef]
+64.
+Wrigley, G. Coffee; Longman Scientiﬁc & Technical: Harlow, UK; Essex, UK, 1988.
+65.
+Alemu, T. A review of coffee wilt disease, Gibberella xylarioides (Fusarium xylarioides) in Africa with special reference to Ethiopia.
+Ethiop. J. Biol. Sci. 2012, 11, 65–103.
+66.
+Nelson, S.C. Cercospora Leaf Spot and Berry Blight of Coffee; Plant Disease; University of Hawaii: Mänoa, Hawaii, 2008. Available
+online: https://www.ctahr.hawaii.edu/oc/freepubs/pdf/PD-41.pdf (accessed on 16 February 2022).
+67.
+Vale, P.A.S.; De Resende, M.L.V.; Botelho, D.M.D.S.; De Andrade, C.C.L.; Alves, E.; Ogoshi, C.; Guimarães, S.D.S.C.; Pfenning,
+L.H. Epitypiﬁcation of Cercospora coffeicola and its involvement with two different symptoms on coffee leaves in Brazil. Eur. J.
+Plant Pathol. 2020, 159, 399–408. [CrossRef]
+68.
+Schwartz, H.F.; Gent, D.H. Cercospora leaf spot (Cucumber, Melon, Pumpkin, Squash, and Zucchini). In High Plains IPM
+Guide; University of Wyoming: Laramie, WY, USA; University of Nebraska: Lincoln, NE, USA; Colorado State University: Fort
+Collins, CO, USA; Montana State University: Bozeman, MT, USA, 2007. Available online: http://wiki.bugwood.org/uploads/
+CercosporaLeafSpot-Cucurbits.pdf (accessed on 16 February 2022).
+69.
+Souza, A.G.C.; Rodrigues, F.; Mafﬁa, L.A.; Mizubuti, E.S.G. Infection process of Cercospora coffeicola on coffee leaf. J. Phytopathol.
+2010, 159, 6–11. [CrossRef]
+70.
+Gezahgne, A.; Coetzee, M.P.A.; Wingﬁeld, B.D.; Wingﬁeld, M.J.; Roux, J. Identiﬁcation of the Armillaria root rot pathogen in
+Ethiopian plantations. For. Pathol. 2004, 34, 133–145. [CrossRef]
+71.
+Jayawardena, R.S.; Hyde, K.D.; Chen, Y.J.; Papp, V.; Palla, B.; Papp, D.; Bhunjun, C.S.; Hurdeal, V.G.; Senwanna, C.; Manawasinghe,
+I.S.; et al. One stop shop IV: Taxonomic update with molecular phylogeny for important phytopathogenic genera: 76–100 (2020).
+Fungal Divers. 2020, 103, 87–218. [CrossRef]
+72.
+Culliao, A.G.L.; Barcelo, J.M. Fungal and mycotoxin contamination of coffee beans in Benguet province, Philippines. Food Addit.
+Contam. Part A 2015, 32, 250–260. [CrossRef]
+73.
+Dos Santos, D.G.; Coelho, C.C.d.S.; Ferreira, A.B.R.; Freitas-Silva, O. Brazilian coffee production and the future microbiome and
+mycotoxin proﬁle considering the climate change Scenario. Microorganisms 2021, 9, 858. [CrossRef] [PubMed]
+74.
+Jard, G.; Liboz, T.; Mathieu, F.; Guyonvarch, A.; Lebrihi, A. Review of mycotoxin reduction in food and feed: From prevention in
+the ﬁeld to detoxiﬁcation by adsorption or transformation. Food Addit. Contam. Part A 2011, 28, 1590–1609. [CrossRef] [PubMed]
+75.
+Shuping, D.; Eloff, J. The use of plants to protect plants and food against fungal pathogens: A review. Afr. J. Tradit. Complement.
+Altern. Med. 2017, 14, 120–127. [CrossRef]
+76.
+Takundwa, M.; Ruzvidzo, O.; Uzabakiriho, J.; Titus, P.; Chimwamurombe, P. Molecular identiﬁcation of fungal species associated
+with leaf lesions of Marama bean seedlings in Namibia. Afr. J. Microbiol. Res. 2015, 9, 194–200. [CrossRef]
+77.
+Cerda, R.; Avelino, J.; Gary, C.; Tixier, P.; Lechevallier, E.; Allinne, C. Primary and secondary yield losses caused by pests and
+diseases: Assessment and modeling in coffee. PLoS ONE 2017, 12, e0169133. [CrossRef] [PubMed]
+78.
+Lemessa, F.; Abera, A.; Adunga, G.; Garedew, W. Association of mycoﬂora with coffee (Coffea arabica L.) beans at limmu coffee
+plantation, Southwestern Ethiopia. Plant Pathol. J. 2015, 14, 136–141. [CrossRef]
+79.
+Hindorf, H.; Omondi, C.O. A review of three major fungal diseases of Coffea arabica L. in the rainforests of Ethiopia and progress
+in breeding for resistance in Kenya. J. Adv. Res. 2011, 2, 109–120. [CrossRef]
+80.
+De Paula, P.V.A.A.; Pozza, E.A.; Santos, L.A.; Chaves, E.; Maciel, M.P.; Paula, J.C.A. Diagrammatic scales for assessing brown eye
+spot (Cercospora coffeicola) in red and yellow coffee cherries. J. Phytopathol. 2016, 164, 791–800. [CrossRef]
+81.
+Djuikem, C.; Grognard, F.; Touzeau, S.; Bowong, S. Modelling and controlling fungus Hemileia vastatrix, a coffee pest. In
+Proceedings of the BIOMATH 2019-International Conference on Mathematical Methods and Models in Biosciences, Bedlevo,
+Poland, 16–22 June 2019; pp. 16–24.
+82.
+Douglas, S.M. Leaf spot diseases of ornamental trees and shrubs. In The Connecticut Experiment Station Report; University of
+Minnesota Extension: Falcon Heights, MN, USA, 2012.
+83.
+Ghosh, S.K.; Chaudhary, M.; Manjunatha, N. 14 Endophytes: A potential bio-agent for the plant protection. In Innovative Pest
+Management Approaches for the 21st Century: Harnessing Automated Unmanned Technologies; Springer: Singapore, 2020; p. 273.
+84.
+Morelli, M.; Bahar, O.; Papadopoulou, K.K.; Hopkins, D.L.; Obradovic, A. Editorial: Role of endophytes in plant health and
+defense against pathogens. Front. Plant Sci. 2020, 11. [CrossRef] [PubMed]
+85.
+Salcedo-Sarmiento, S.; Aucique-Pérez, C.E.; Silveira, P.R.; Colmán, A.A.; Silva, A.L.; Mansur, P.S.C.; Rodrigues, F.; Evans, H.C.;
+Barreto, R.W. Elucidating the interactions between the rust Hemileia vastatrix and a Calonectria mycoparasite and the coffee plant.
+iScience 2021, 24, 102352. [CrossRef] [PubMed]
+86.
+Mahmood, I.; Imadi, S.R.; Shazadi, K.; Gul, A.; Hakeem, K.R. Effects of Pesticides on Environment; Plant, Soil and Microbes; Springer:
+Berlin/Heidelberg, Germany, 2016; pp. 253–269.
+87.
+Petit, A.-N.; Fontaine, F.; Vatsa, P.; Clément, C.; Vaillant-Gaveau, N. Fungicide impacts on photosynthesis in crop plants.
+Photosynth. Res. 2012, 111, 315–326. [CrossRef] [PubMed]
+88.
+Patil, S.; Sriram, S. Biological control of Fusarium wilt in crop plants using non-pathogenic isolates of Fusarium species. Indian
+Phytopathol. 2020, 73, 11–19. [CrossRef]
+89.
+Naik, B.S. Biosynthesis of silver nanoparticles from endophytic fungi and their role in plant disease management. Microb.
+Endophytes. 2020, 16, 307–321. [CrossRef]
+
+Pathogens 2022, 11, 411
+16 of 17
+90.
+Khan, M.R.; Ahamad, F.; Rizvi, T.F. Chapter 8—Effect of nanoparticles on plant pathogens. In Advances in Phytonanotechnology;
+Academic Press: Cambridge, MA, USA, 2019; pp. 215–240.
+91.
+Ferreira, F.V.; Herrmann-Andrade, A.M.; Calabrese, C.D.; Bello, F.; Vázquez, D.; Musumeci, M.A. Effectiveness of Trichoderma
+strains isolated from the rhizosphere of citrus tree to control Alternaria alternata, Colletotrichum gloeosporioides and Penicillium
+digitatum A21 resistant to pyrimethanil in post-harvest oranges (Citrus sinensis L.(Osbeck)). J. Appl. Microbiol. 2020, 129, 712–727.
+[CrossRef]
+92.
+Dowling, M.; Peres, N.; Villani, S.; Schnabel, G. Managing Colletotrichum on fruit crops: A “complex” challenge. Plant Dis. 2020,
+104, 2301–2316. [CrossRef]
+93.
+Gimase, J.M.; Thagana, W.M.; Omondi, C.O.; Cheserek, J.J.; Gichimu, B.M.; Gichuru, E.K. Quantitative trait loci (QTL) mapping
+of resistance to coffee berry disease (Colletotrichum kahawae Waller Bridge) in Coffea arabica L. variety Rume Sudan. Afr. J. Agric.
+Res. 2020, 16, 1184–1194. [CrossRef]
+94.
+Silva, M.D.C.; Várzea, V.; Guerra-Guimarães, L.; Gil Azinheira, H.; Fernandez, D.; Petitot, A.-S.; Bertrand, B.; Lashermes, P.;
+Nicole, M. Coffee resistance to the main diseases: Leaf rust and coffee berry disease. Braz. J. Plant Physiol. 2006, 18, 119–147.
+[CrossRef]
+95.
+Davis, A.P.; Gole, T.W.; Baena, S.; Moat, J. The impact of climate change on indigenous Arabica coffee (Coffea arabica): Predicting
+future trends and identifying priorities. PLoS ONE 2012, 7, e47981. [CrossRef]
+96.
+Jackson, D.; Skillman, J.; Vandermeer, J. Indirect biological control of the coffee leaf rust, Hemileia vastatrix, by the entomogenous
+fungus Lecanicillium lecanii in a complex coffee agroecosystem. Biol. Control 2012, 61, 89–97. [CrossRef]
+97.
+Joshi, V.; Pandit, A.; Vaidya, D. Ochratoxin-A in food: An overview. Int. J. Food Ferment. Technol. 2017, 7, 13–24. [CrossRef]
+98.
+McQueen, C. Comprehensive Toxicology; Elsevier: Amsterdam, The Netherlands, 2017.
+99.
+Santiago, W.D.; Teixeira, A.R.; de Andrade Santiago, J.; Lopes, A.C.A.; Brandão, R.M.; Barbosa, R.B.; Caetano, A.R.S.; das Graças
+Cardoso, M.; Resende, M.L.V. Standardization of an analytical method to quantify ochratoxin-A in green coffee beans by high
+performance liquid chromatography. Res. Soc. Dev. 2020, 9, e39985070. [CrossRef]
+100. Viegas, C.; Pacíﬁco, C.; Faria, T.; De Oliveira, A.C.; Caetano, L.A.; Carolino, E.; Gomes, A.; Viegas, S. Fungal contamination in
+green coffee beans samples: A public health concern. J. Toxicol. Environ. Health Part A 2017, 80, 719–728. [CrossRef]
+101. Suárez-Quiroz, M.; González-Rios, O.; Barel, M.; Guyot, B.; Schorr-Galindo, S.; Guiraud, J.P. Study of ochratoxin-A producing
+strains in coffee processing. Int. J. Food Sci. Technol. 2004, 39, 501–507. [CrossRef]
+102. Varga, J.; Kocsubé, S.; Péteri, Z.; Samson, R. An Overview of Ochratoxin Research; CABI Publishers: London, UK, 2009.
+103. Cinar, A.; Onba¸sı, E. Mycotoxins: The hidden danger in foods. Mycotoxins Food Saf. 2020, 1–21. [CrossRef]
+104. Shanakhat, H.; Sorrentino, A.; Raiola, A.; Romano, A.; Masi, P.; Cavella, S. Current methods for mycotoxins analysis and
+innovative strategies for their reduction in cereals: An overview. J. Sci. Food Agric. 2018, 98, 4003–4013. [CrossRef] [PubMed]
+105. Sun, J.; Li, W.; Liu, Y.; Lin, F.; Huang, Z.; Lu, F.; Bie, X.; Lu, Z. Growth inhibition of Fusarium graminearum and reduction of
+deoxynivalenol production in wheat grain by bacillomycin D. J. Stored Prod. Res. 2018, 75, 21–28. [CrossRef]
+106. Vieira, T.; Cunha, S.; Casal, S. Mycotoxins in coffee. In Coffee in Health and Disease Prevention; Elsevier: Amsterdam, The
+Netherlands, 2015; pp. 225–233.
+107. Gil-Serna, J.; Vázquez, C.; Sandino, F.G.; Valle, A.M.; González-Jaén, M.T.; Patiño, B. Evaluation of growth and ochratoxin
+A production by Aspergillus steynii and Aspergillus westerdijkiae in green-coffee based medium under different environmental
+conditions. Food Res. Int. 2014, 61, 127–131. [CrossRef]
+108. Palumbo, J.D.; O’Keeffe, T.L.; Mahoney, N.E. Inhibition of ochratoxin A production and growth of Aspergillus species by phenolic
+antioxidant compounds. Mycopathologia 2007, 164, 241–248. [CrossRef] [PubMed]
+109. Aroyeun, S.; Adegoke, G. Reduction of ochratoxin-A (OTA) in spiked cocoa powder and beverage using aqueous extracts and
+essential oils of Aframomum danielli. Afr. J. Biotechnol. 2007, 6, 612–616.
+110. Nguefack, J.; Nguikwie, S.; Fotio, D.; Dongmo, B.; Zollo, P.A.; Leth, V.; Nkengfack, A.; Poll, L. Fungicidal potential of essential
+oils and fractions from Cymbopogon citratus, Ocimum gratissimum and Thymus vulgaris to control Alternaria padwickii and Bipolaris
+oryzae, two seed borne fungi of rice (Oryza sativa L.). J. Essent. Oil Res. 2007, 19, 581–587. [CrossRef]
+111. Magan, N.; Aldred, D. Post-harvest control strategies: Minimizing mycotoxins in the food chain. Int. J. Food Microbiol. 2007, 119,
+131–139. [CrossRef]
+112. Basílico, M.Z.; Basilico, J.C. Inhibitory effects of some spice essential oils on Aspergillus ochraceus NRRL 3174 growth and
+ochratoxin-A production. Lett. Appl. Microbiol. 1999, 29, 238–241. [CrossRef] [PubMed]
+113. Lee, S.-E.; Park, B.S.; Bayman, P.; Baker, J.L.; Choi, W.S.; Campbell, B.C. Suppression of ochratoxin biosynthesis by naturally
+occurring alkaloids. Food Addit. Contam. 2007, 24, 391–397. [CrossRef] [PubMed]
+114. Kouadio, I.A.; Ban, L.K.; Dosso, M.B. Prevention of ochratoxin A (OTA) production in coffee beans using natural antifungal
+derived from Solanum indicum L. green berries. J. Food Secur. 2019, 7, 63–71. [CrossRef]
+115. Gómez, J.V.; Tarazona, A.; Mateo, F.; Jiménez, M.; Mateo, E.M. Potential impact of engineered silver nanoparticles in the control
+of aﬂatoxins, ochratoxin A and the main aﬂatoxigenic and ochratoxigenic species affecting foods. Food Control 2019, 101, 58–68.
+[CrossRef]
+116. Bemvenuti, R.; Rodrigues, M.H.; Furlong, E. Efﬁciency of γ-oryzanol against the complex Fusarium graminearum growth and
+mycotoxins production. Food Sci. Technol. 2019, 39, 240–246. [CrossRef]
+
+Pathogens 2022, 11, 411
+17 of 17
+117. Misra, N.N.; Yadav, B.; Roopesh, M.S.; Jo, C. Cold plasma for effective fungal and mycotoxin control in foods: Mechanisms,
+inactivation effects, and applications. Compr. Rev. Food Sci. Food Saf. 2019, 18, 106–120. [CrossRef] [PubMed]
+118. De Silva, N.I.; Brooks, S.; Lumyong, S.; Hyde, K.D. Use of endophytes as biocontrol agents. Fungal Biol. Rev. 2019, 33, 133–148.
+[CrossRef]
+119. Duong, B.; Marraccini, P.; Maeght, J.-L.; Vaast, P.; Lebrun, M.; Duponnois, R. Coffee microbiota and its potential use in sustainable
+crop management. A review. Front. Sustain. Food Syst. 2020, 4, 237. [CrossRef]
+120. United States Department of Agriculture. Available online: https://nt.ars-grin.gov/fungaldatabases/fungushost/fungushost.cfm
+(accessed on 16 February 2022).
+121. Index Fungorum. 2022. Available online: http://www.indexfungorum.org/Names/IndexFungorumPartnership.htm (accessed
+on 16 February 2022).
+122. Mycobank. 2022. Available online: https://www.mycobank.org/ (accessed on 16 February 2022).
+123. Noonim, P.; Mahakarnchanakul, W.; Nielsen, K.F.; Frisvad, J.C.; Samson, R.A. Isolation, identification and toxigenic potential of
+ochratoxin A-producing Aspergillus species from coffee beans grown in two regions of Thailand. Int. J. Food Microbiol. 2008, 128, 197–202.
+[CrossRef] [PubMed]
+124. Estupiñan-López, L.; Campos, V.P.; da Silva Júnior, J.C.; Pedroso, M.P.; Terra, W.C.; da Silva, J.C.P.; de Paula, L.L. Volatile
+compounds produced by Fusarium spp. isolated from Meloidogyne paranaensis egg masses and corticous root tissues from coffee
+crops are toxic to Meloidogyne incognita. Trop. Plant Pathol. 2018, 43, 183–193. [CrossRef]
+125. Sousa, T.; Batista, L.; Passamani, F.; Lira, N.; Cardoso, M.; Santiago, W.; Chalfoun, S. Evaluation of the effects of temperature on
+processed coffee beans in the presence of fungi and ochratoxin A. J. Food Saf. 2019, 39, e12584. [CrossRef]
+126. Kuntawee, S.; Akarapisan, A. Isolation and identiﬁcation of Aspergillus species producing Ochratoxin a in Arabica coffee beans. J.
+Agric. Technol. 2015, 11, 1235–1242.
+127. Batista, L.R.; Chalfoun, S.M.; Prado, G.; Schwan, R.F.; Wheals, A.E. Toxigenic fungi associated with processed (green) coffee beans
+(Coffea arabica L.). Int. J. Food Microbiol. 2003, 85, 293–300. [CrossRef]
+128. Djadjiti, N.; Aziz, M.A.; Esther, O.K.; Dane, S. Isolation and Identiﬁcation of Fungal Pathogens Contaminating Some Coffee
+Powder Marketed in the City of Abuja. J. Res. Med. Dent. Sci. 2020, 8, 172–175.
+129. Pasin, L.A.A.P.; Almeida, J.R.d.; Abreu, M.S.d. Fungos associados a grãos de cinco cultivares de café (Coffea arabica L.). Acta. Bot.
+Bras. 2009, 23, 1129–1132. [CrossRef]
+130. Casas-Junco, P.P.; Ragazzo-Sánchez, J.A.; de Jesus Ascencio-Valle, F.; Calderón-Santoyo, M. Determination of potentially mycotox-
+igenic fungi in coffee (Coffea arabica L.) from Nayarit. Food Sci. Biotechnol. 2018, 27, 891–898. [CrossRef] [PubMed]
+131. Chaves, F.C.; Gianfagna, T.J.; Aneja, M.; Posada, F.; Peterson, S.W.; Vega, F.E. Aspergillus oryzae NRRL 35191 from coffee, a
+non-toxigenic endophyte with the ability to synthesize kojic acid. Mycol. Prog. 2012, 11, 263–267. [CrossRef]
+132. González-Osorio, H.; Botero, C.E.G.; Rivera, R.D.M.; Vega, N.W.O. Screening for phosphate-solubilizing fungi from colombian
+andisols cultivated with coffee (Coffea arabica L.). Coffee Sci. 2020, e151666. [CrossRef]
+133. Hongsanan, S.; Tian, Q.; Hyde, K.; Chomnunti, P. Two new species of sooty moulds, Capnodium coffeicola and Conidiocarpus
+plumeriae in Capnodiaceae. Mycosp 2015, 6, 814–824. [CrossRef]
+134. Maharachchikumbura, S.; Haituk, S.; Pakdeeniti, P.; Al-Sadi, A.; Hongsanan, S.; Chomnunti, P.; Cheewangkoon, R. Phaeosac-
+cardinula coffeicola and Trichomerium chiangmaiensis, two new species of Chaetothyriales (Eurotiomycetes) from Thailand. Myco-
+sphere 2018, 9, 769–778. [CrossRef]
+135. Bongiorno, V.A.; Rhoden, S.A.; Garcia, A.; Polonio, J.C.; Azevedo, J.L.; Pereira, J.O.; Pamphile, J.A. Genetic diversity of endophytic
+fungi from Coffea arabica cv. IAPAR-59 in organic crops. Ann. Microbiol. 2016, 66, 855–865. [CrossRef]
+136. Oliveira, R.; Souza, R.; Lima, T.; Cavalcanti, M. Endophytic fungal diversity in coffee leaves (Coffea arabica) cultivated using
+organic and conventional crop management systems. Mycosphere 2014, 5, 523–530. [CrossRef]
+137. Saucedo-García, A.; Anaya, A.L.; Espinosa-García, F.J.; González, M.C. Diversity and communities of foliar endophytic fungi
+from different agroecosystems of Coffea arabica L. in two regions of Veracruz, Mexico. PLoS ONE 2014, 9, e98454. [CrossRef]
+138. Fernandes, M.d.R.V.; Silva, T.A.C.; Pfenning, L.H.; Costa-Neto, C.M.d.; Heinrich, T.A.; Alencar, S.M.d.; Lima, M.A.d.; Ikegaki, M.
+Biological activities of the fermentation extract of the endophytic fungus Alternaria alternata isolated from Coffea arabica L. Braz. J.
+Pharm. Sci. 2009, 45, 677–685. [CrossRef]
+139. Serrato-Diaz, L.M.; Mariño, Y.A.; Bayman, P. Pathogens causing Anthracnose and fruit rots of coffee associated with the coffee
+berry borer and the entomopathogenic fungus Beauveria bassiana in Puerto Rico. Phytopathology 2020, 110, 1541–1552. [CrossRef]
+140. Kenny, M.; Galea, V.; Price, T. Germination and growth of Colletotrichum acutatum and Colletotrichum gloeosporioides isolates from
+coffee in Papua New Guinea and their pathogenicity to coffee berries. Australas. Plant Path. 2012, 41, 519–528. [CrossRef]
+141. María del Carmen, H.R.; Evans, H.C.; de Abreu, L.M.; de Macedo, D.M.; Ndacnou, M.K.; Bekele, K.B.; Barreto, R.W. New species and
+records of Trichoderma isolated as mycoparasites and endophytes from cultivated and wild coffee in Africa. Sci. Rep. 2021, 11, 1–30.
+142. Gizaw, B.; Tsegaye, Z.; Tefera, G. Isolation, identiﬁcation and characterization of yeast species from coffee waste collected from
+Sidama and Gedio zone. J. Yeast Fungal Res. 2016, 7, 47–53.
+143. Lu, L.; Tibpromma, S.; Karunarathna, S.; Thiyagaraja, V.; XU, J.C.; Jayawardena, R.S.; Lumyong, S.; Hyde, K.D. Taxonomic and
+phylogenic appraisal of a novel species and a new record of Stictidaceae from coffee in Yunnan Province, China. Phytotaxa 2021,
+528, 111–124. [CrossRef]

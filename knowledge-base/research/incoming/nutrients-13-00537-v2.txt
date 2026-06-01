@@ -1,0 +1,2163 @@
+nutrients
+Review
+Potential of Caffeine in Alzheimer’s Disease—A Review of
+Experimental Studies
+Piotr Londzin *
+, Milena Zamora, Beata K ˛akol, Aleksandra Taborek and Joanna Folwarczna
+
+
+Citation: Londzin, P.; Zamora, M.;
+K ˛akol, B.; Taborek, A.; Folwarczna, J.
+Potential of Caffeine in Alzheimer’s
+Disease—A Review of Experimental
+Studies. Nutrients 2021, 13, 537.
+https://doi.org/10.3390/nu13020537
+Academic Editor:
+Tatsuhiro Hisatsune
+Received: 31 December 2020
+Accepted: 2 February 2021
+Published: 6 February 2021
+Publisher’s Note: MDPI stays neutral
+with regard to jurisdictional claims in
+published maps and institutional afﬁl-
+iations.
+Copyright: © 2021 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed
+under
+the
+terms
+and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).
+Department of Pharmacology, Faculty of Pharmaceutical Sciences in Sosnowiec, Medical University of Silesia,
+Katowice, Jagiello´nska 4, 41-200 Sosnowiec, Poland; milena.zamora95@gmail.com (M.Z.);
+beata744@interia.eu (B.K.); taborek.aleksandra@gmail.com (A.T.); jfolwarczna@sum.edu.pl (J.F.)
+* Correspondence: plondzin@sum.edu.pl; Tel.: +48-32-364-1540
+Abstract: Alzheimer’s disease (AD) is the most common type of dementia leading to progressive
+memory loss and cognitive impairment. Considering that pharmacological treatment options for
+AD are few and not satisfactory, increasing attention is being paid to dietary components that may
+affect the development of the disease. Such a dietary component may be caffeine contained in coffee,
+tea or energy drinks. Although epidemiological data suggest that caffeine intake may counteract
+the development of cognitive impairment, results of those studies are not conclusive. The aim of the
+present study is to review the existing experimental studies on the efﬁcacy of caffeine against AD
+and AD-related cognitive impairment, focusing on the proposed protective mechanisms of action. In
+conclusion, the reports of studies on experimental AD models generally supported the notion that
+caffeine may exert some beneﬁcial effects in AD. However, further studies are necessary to elucidate
+the role of caffeine in the effects of its sources on cognition and possibly AD risk.
+Keywords: Alzheimer’s disease; experimental Alzheimer’s disease models; caffeine; coffee
+1. Introduction
+Alzheimer’s disease (AD) is the most common type of dementia, accounting for
+50–70% of neurodegenerative dementia cases. AD leads to a progressive loss of memory
+and cognitive abilities [1].
+It is believed, especially taking into account very limited therapeutic options, that
+dietary interventions or nutraceuticals may be promising in the prophylaxis and treatment
+of cognitive impairment of ageing, including AD [2–7]. The effects of dietary components
+are usually evaluated based on dietary questionnaires, and the results of those studies, as
+well as the results of their meta-analyses are often not conclusive. The number of random-
+ized controlled trials concerning phytochemicals is low [4]. On the other hand, numerous
+experimental studies indicated phytochemicals as potentially useful in the prophylaxis of
+AD, including ﬂavonoids, phenolic acids, carotenoids, curcumin, resveratrol, and some
+alkaloids (for comprehensive review—see [4,6]). From among those phytochemicals, the
+effects of caffeine seem to be the most thoroughly examined and best documented.
+Caffeine (1,3,7-trimethylxanthine) is a purine alkaloid, commonly consumed on a daily basis.
+Caffeine is probably the most commonly used psychoactive substance/psychostimulant [8–10].
+It is found in coffee (Coffea L.) beans, cola (Cola acuminata (P. Beauv.) Schott and Endl.)
+nuts, tea (Camellia sinensis (L.) Kuntze) leaves and yerba mate (Ilex paraguariensis A.St.-
+Hil.) leaves, as well as guarana (Paullinia cupana Kunth) seeds and cocoa (Theobroma cacao
+L.) beans [4,10]. The main dietary source of caffeine is coffee, tea and yerba mate [11].
+Caffeine is also present in soft drinks (cola-type) and energy drinks, used mainly by
+younger individuals [8]. The mean caffeine intake varies between countries, however it has
+remained stable in adults in the last 10–15 years [12]. According to the recommendations
+of the European Food Safety Authority (EFSA), the daily caffeine intake up to 400 mg is
+considered safe for healthy adults [13,14].
+Nutrients 2021, 13, 537. https://doi.org/10.3390/nu13020537
+https://www.mdpi.com/journal/nutrients
+
+Nutrients 2021, 13, 537
+2 of 33
+Numerous health-promoting activities are attributed to coffee and caffeine. A recent
+umbrella review of meta-analyses indicated, among others, beneﬁcial role of coffee in
+reducing risk of type 2 diabetes mellitus (T2D), cardiovascular diseases, some cancers
+and Parkinson’s disease [15,16]. The results of epidemiological and experimental studies
+suggest also a possible beneﬁcial effect of caffeine in the prevention of AD [17–20]. However,
+human studies concerned caffeine contained in the diet and cannot isolate caffeine’s effects
+from countless lifestyle choices people make.
+Here we would like to focus on the results of experimental studies of caffeine, carried
+out in order to evaluate its potential in the prophylaxis and treatment of AD. A literature
+search was conducted on the PubMed electronic database. Articles presented in languages
+other than English were excluded. Results of all studies on caffeine effects in different AD
+experimental models, published until December 2020, and found in the PubMed electronic
+database, were referred to in the present review.
+2. Caffeine—Main Mechanisms of Action
+The mechanism of action of caffeine is complex. Caffeine is a non-selective antagonist
+of adenosine receptors (mainly A1 and A2A), demonstrating a structural similarity to adeno-
+sine. The blocking of these receptors modulates glutamatergic, cholinergic, dopaminergic,
+serotoninergic and noradrenergic neurotransmission [8,21,22]. The blockade of adenosine
+receptors is observed in lower concentrations of caffeine (<250 µM) [22]. Moreover, caffeine
+is an agonist of ryanodine receptors (RyRs), stimulation of which increases the release
+of Ca2+ from the endoplasmic reticulum [23,24]. Caffeine is also a non-selective compet-
+itive inhibitor of phosphodiesterases (PDEs), the enzymes degrading cyclic adenosine
+monophosphate (cAMP), which leads to increases in the cell cAMP concentration [8,23].
+However, the effect of caffeine through the signaling pathways associated with the stimula-
+tion of RyRs and the blocking of PDEs is only possible at higher doses (plasma concentration
+>250 µM) [22,23,25]. Caffeine also interferes with γ-aminobutyric acid type A (GABAA)
+receptors [24,26,27]. Caffeine protects against cell damage, exerts antioxidant effects, re-
+ducing oxidative stress markers [23,28]. Caffeine may exert also anti-inﬂammatory activity,
+decreasing proinﬂammatory (C-reactive protein, interleukin (IL)-1β, IL-6, IL-18, tumor
+necrosis factor α—TNF-α) and increasing anti-inﬂammatory (IL-10, adiponectin) marker
+levels [23,29,30].
+3. Alzheimer’s Disease (AD)
+AD is characterized by personality disorders, amnesia, dementia and cognitive im-
+pairment [31]. Brain atrophy observed in AD results from the synaptic degeneration and
+neuronal cell death. Dysfunctions occur mainly in the brain regions that play a major role
+in memory and spatial orientation, i.e., in the hippocampus, striatum, cerebral cortex, tha-
+lamus and amygdala [32,33]. Besides cognitive dysfunctions, the majority of patients with
+AD suffer from behavioral and psychological symptoms of dementia (BPSD). BPSD include
+depression, apathy, anxiety, sleep changes, hallucinations, delusions and agitation [34–36].
+There are two major forms of AD—familial (or early-onset) and sporadic. Famil-
+ial AD (FAD), 5% of AD cases [35,37], is caused by mutations in genes encoding three
+proteins—amyloid precursor protein (APP), presenilin 1 (PS1) and presenilin 2 (PS2) [38].
+The cause of the sporadic forms of AD is unknown; the majority of them develop after
+65 years of age [39]. The ε-4 allele of the apolipoprotein E (APOE) is a risk factor in
+the pathogenesis of late-onset of AD, playing an important role in amyloid β (Aβ) brain
+metabolism (APOE ε-4 exacerbates deposition of Aβ in the brain and tau-mediated neu-
+rodegeneration) [40–42]. Among various risk factors associated with AD, T2D, traumatic
+brain injury, cerebrovascular disease, hypertension, dyslipidemia, obesity and metabolic
+syndrome have been demonstrated [43,44]. There is a hypothesis that the sporadic type of
+AD is triggered by dysfunctional insulin signaling in the brain; it has been proposed that
+sporadic AD may be considered the brain type of diabetes [45] or type 3 diabetes [46,47].
+
+Nutrients 2021, 13, 537
+3 of 33
+The most popular hypothesis on the pathogenesis of AD is the amyloid hypothesis,
+which assumes an important role of Aβ deposits in the form of senile plaques [48,49]. In fact,
+the neuropathological hallmarks of AD are the presence of extracellular neuritic plaques,
+consisting of deposits of Aβ peptides and intraneuronal neuroﬁbrillary tangles (NFTs) com-
+posed of aggregated and often truncated, and hyperphosphorylated tau protein [1,50,51].
+Aβ is formed as a result of incorrect fragmentation of the amyloid precursor protein (APP)
+processed by β-secretases (β-site amyloid-precursor-protein-cleaving enzyme-1—BACE-1
+and BACE-2) and γ-secretases [52]. Senile plaques activate microglial cells and induce
+inﬂammation [49,52,53]. In AD, the tau protein uncouples from microtubules, aggre-
+gates into tangles and inhibits microtubular transport [50]. Hyperphosphorylation of
+tau protein causes dysregulation of the neuronal system and axon damage [52]. Also,
+neuroinﬂammation is considered to be involved in the pathogenesis of AD [53]. Proin-
+ﬂammatory cytokines (TNF-α, IL-1 and IL-6), reactive oxygen species (ROS) and NO
+production leads to dysfunction of the blood–brain barrier (BBB) and the inﬂux of immuno-
+competent cells [32]. The associated oxidative stress causes lipid and neuronal protein
+oxidation [48,52]. Inﬂammation-related biomarkers are present in the cerebrospinal ﬂuid,
+peripheral blood and brain in AD patients [49,53,54].
+Neurodegenerative disorders in AD lead to decreases in the levels of neurotransmitters.
+An important role in the pathogenesis of AD is a reduction of acetylcholine (ACh) content.
+The dysfunction of cholinergic system is related to degeneration of the nucleus basalis of
+Meynert cholinergic neurons caused by NFTs formation. The presence of NFTs and Aβ
+plaques leads to cholinergic synapse loss. Moreover, despite the preservation of postsy-
+naptic M1 muscarinic receptors (the level of presynaptic M2 receptors is decreased) in the
+cerebral cortex, their functions are impaired. Also, progressive decrease in the number of
+nicotinic receptors in the cerebral cortex is observed. Deﬁcits in cholinergic neurotransmis-
+sion contribute to the learning, memory and attention impairment [55,56]. Moreover, it has
+been demonstrated that interaction between cholinergic and glutamatergic transmission is
+involved in Ca2+-dependent neuroprotection [56]. The glutamatergic system is controlled
+by various mediators, including adenosine and ACh [56–58]. In AD, there is a decrease
+in the number of the N-methyl-D-aspartate (NMDA) receptors resulting in an imbalance
+between synaptic and extrasynaptic NMDA receptors [59,60]. Malfunctioning glutamater-
+gic neurons release too much glutamate, which over-stimulates the extrasynaptic NMDA
+receptors leading to the neuronal cell death and synaptic loss [59]. Moreover, cholinergic
+neuronal loss leads to dopaminergic transmission dysfunction which is correlated with
+psychiatric symptoms of AD (BPSD) [55,56]. Also, the loss of noradrenergic neurons in
+the locus coeruleus caused by the tau protein accumulation results in the progression of
+AD. Noradrenergic receptors (mainly α2 receptor activation or β receptor blockade) are
+involved in the Aβ-related neuropathology. Upregulation of adenosine receptors (A1R and
+A2AR) is also observed in AD. Activation of adenosine receptors affects synaptic neurotrans-
+mission and various neurotransmitters release (ACh, glutamate) [58]. Moreover, it disrupts
+learning and memory processes and leads to cognitive disorders [58,61]. Also, dysregulated
+signaling by other purinergic receptors may be involved in the pathomechanism of AD.
+Activation of P2X7 receptors by high levels of adenosine triphosphate—ATP or its metabo-
+lites (Aβ accumulation induces increased release of ATP) leads to neuroinﬂammation, i.e.,
+increased level of IL-1, IL-6, IL-18, TNF-α and interferon-γ, and neurodegeneration [62].
+Summing up, cholinergic and glutamatergic transmission disorders are associated
+with impaired cognitive processes, while disorders of dopaminergic, serotonergic and
+noradrenergic transmission are responsible for the symptoms associated with dementia,
+such as depression, apathy, anxiety and psychotic symptoms [63].
+Epidemiological studies demonstrated higher occurrence of AD (2:1 women to men
+ratio) and risk of developing AD in women compared to men. It is probably related to
+the longer life expectancy for women. In addition, faster cognitive decline and longer life
+span after diagnosis of mild cognitive impairment or AD dementia is observed in elderly
+women in comparison to men [64–66]. More aggressive behaviors and higher mortality
+
+Nutrients 2021, 13, 537
+4 of 33
+is demonstrated in men, whereas women suffer from more severe symptoms of affective
+disorders [67].
+The treatment options of AD are very limited. Currently, only four drugs are approved
+by Food and Drug Administration (FDA) and European Medicines Agency (EMA) for
+AD treatment. These include three drugs from the group of acetylcholinesterase (AChE)
+inhibitors (donepezil, rivastigmine and galantamine) and memantine, a selective and non-
+competitive NMDA receptor antagonist [68,69]. AChE inhibitors increase ACh levels in
+the synaptic cleft and partially improve cognitive function and the quality of a patient’s
+life [55]. Memantine restores NMDA receptor function and exerts neuroprotective effects,
+reducing the intracellular inﬂux of calcium ions [70,71]. There is a great need to search for
+new therapeutic and prophylactic approaches to AD.
+Taking into account the postulated pathomechanism of AD, it is believed that antioxi-
+dant nutraceuticals may have beneﬁcial effects in the prevention of AD. The best-known
+antioxidants include plant polyphenols such as curcumin, ﬂavonoids and phenolic acids.
+Experimental studies and/or population studies suggest the possibility of beneﬁcial effects
+of curcumin [3,72–74], ferulic acid [3,75–77], epigallocatechin 3-gallate (EGCG) [3,78–80]
+and caffeine [18–21,23,81–83] in AD treatment and prevention.
+4. Caffeine in Alzheimer’s Disease
+The studies on the effects of caffeine consumption (coffee, tea, other sources) on the
+cognitive impairment, mild cognitive impairment, dementia and AD led to differential
+conclusions. Although the review articles and meta-analyses indicated rather favorable
+effects of caffeine-containing dietary sources on those disorders, their conclusions were
+not unequivocal [84–90]. For example, a latest systematic review supported the notion
+that green tea intake might reduce the risk of those disorders [86], but the meta-analysis of
+observational studies did not demonstrate the effect of tea drinking on AD speciﬁcally [87].
+Similarly, the meta-analyses concerning coffee intake led to differential conclusions. A
+meta-analysis of prospective cohort studies demonstrated a “J-shaped” association between
+coffee intake and the occurrence of cognitive disorders (the lowest risk with daily consump-
+tion level of 1–2 cups of coffee) [88]. On the other hand, another analysis of prospective
+cohort studies found that higher coffee consumption was associated with reduced risk for
+AD [89]. The most recent meta-analysis of prospective studies did not support an associa-
+tion between coffee consumption and a risk of AD and overall dementia [90]. Moreover, it
+seems worth mentioning that studies using Mendelian randomization, which is a genetic
+epidemiological method, did not provide the evidence for a causal effect of habitual coffee
+consumption on global cognition or memory [91]. In fact, surprisingly, one study even
+suggested an association between genetically predicted higher consumption of coffee and
+higher risk of AD (the report concerned analysis of genome-wide association studies of the
+potentially modiﬁable risk factors of AD) [92].
+It should be emphasized that other than caffeine active constituents of coffee or tea
+(like phenolic acids, EGCG, trigonelline) may contribute to their effects on cognition/AD
+risk [4,93]. Decaffeinated coffee constituents have been demonstrated to exert potential
+beneﬁcial effects in neurodegenerative diseases [94]. However, decaffeinated coffee was
+not associated with a protective effect on cognitive performance in older people [95]. The
+data from the human studies do not allow to conclude on the role of caffeine itself in the
+modulation of AD risk. However, there is growing evidence on the effects of caffeine on
+cognition and AD development coming from numerous experimental studies.
+5. Experimental Models of AD
+It is crucial to use experimental models faithfully mimicking the pathologies of inves-
+tigated diseases. In case of AD, it is problematic. None of the experimental AD animal
+models fully reﬂects complete disorders and cognitive impairments characteristic for hu-
+man AD. Although FAD accounts for about 5% of all disease cases only, the majority of
+potential therapies has been investigated in transgenic mouse models of AD [42].
+
+Nutrients 2021, 13, 537
+5 of 33
+Transgenic technologies allowed mouse and rat models to be created, based on the
+mutations of APP, presenilin (PS), APOE and tau protein genes [37,42,96]. Mouse models
+are the most commonly used in the experimental studies on AD, due to their low prices,
+relatively short life span and similar AD symptoms to the human disease [96]. Histopatho-
+logical changes in the brain tissue, depending on the mutation used, are characterized by
+the presence of Aβ plaques, tau protein deposits and hippocampus atrophy [1,56,97].
+APP mutations causing cognitive deﬁcits in mice and rats are related to an increased
+Aβ production, increased Aβ accumulation (in the blood or cerebral vessels, in neurons
+of the cortex and hippocampus), promotion of ﬁbrillogenic and toxic Aβ1-42 form or
+modiﬁcation of the Aβ1-42/Aβ1-40 ratio, depending on the type of mutation [96,98–100].
+Pathogenic PS1 or PS2 mutations increase the levels of Aβ1-42 form in vitro, but do not
+promote Aβ plaques aggregation in vivo in mice. Several double-transgenic (2xTg) mouse
+models have been developed by crossing APP and PS1 transgenic mice, demonstrating
+accelerated Aβ accumulation leading to the impairment of cognitive functions [98,100,101].
+In the human tau protein (h-tau) transgenic model, the mice tau gene is replaced by the
+human gene correlating with NFTs development and neurodegeneration [37,42,100,102,103].
+The most commonly used tau transgenic model is THY-Tau22 model in which progres-
+sive development of the hippocampal tau pathology is observed. Hyperphosphorylated
+hippocampal tau protein and neuroinﬂammation results in an age-dependent memory
+impairment [103–105].
+A triple-transgenic mice model of AD (3xTg-AD) is a combination of three muta-
+tions resulting in the age-related progressive neuropathy including accumulation of Aβ
+plaques and NFTs, resulting in the cognitive deﬁcits [98,106,107], whereas the 5xFAD
+transgenic model concerns ﬁve mutations exhibiting severe pathology with accelerated Aβ
+accumulation, senile plaques formation and neuronal loss [37,98,108].
+The number of rat genetic models is much lower (for example TgF344-AD, single
+Tg UKUR28, double Tg UKUR25). In the TgF344-AD rat model (human APPswe and
+human PS1∆E9 mutations) accumulation of Aβ plaques, presence of NFTs, gliosis, in-
+creased tau protein level and decreased basal hippocampal synaptic transmission was
+observed [109,110]. Aβ accumulation in the hippocampus and cortex, and increased levels
+of phosphorylated mitogen-activated protein kinase/extracellular signal-regulated kinase
+2 (MAPK/ERK2) were observed in UKUR28 (human APPswe mutation) and UKUR25
+(human APPswe and human PS1 Finn mutations) transgenic rat models [97,99,111].
+Moreover, several non-mammalian species, including nematode (Caenorhabditis ele-
+gans), zebraﬁsh (Danio rerio) and fruit ﬂy (Drosophila melanogaster) and have been used to
+create transgenic models of AD [112].
+In spite of a large number transgenic animal models of AD, it should be pointed out
+that results of the preclinical studies on those models have been rather not satisfactorily
+translated into clinical outcomes [37].
+Several pharmacological models of sporadic AD have been used. Those models in-
+cluded: administration of aluminum chloride per os (p.o.) [113], intraperitoneal (i.p.) admin-
+istration of scopolamine [114,115], intracerebroventricular (i.c.v.) injections or infusions of
+Aβ [116,117], i.c.v. injections of streptozotocin (STZ) [47,118], subcutaneous (s.c.) injections
+of D-galactose [78,119], i.p. injections of MK-801 (a non-competitive NMDA receptor antag-
+onist) [120], olfactory bulbectomy (OBE) [121] and i.c.v. injections of lipopolysaccharide
+(LPS) [116,122–124] or colchicine [116]. A model of senescence-accelerated rodents (OXYS
+rats) is also used as a model of sporadic AD [125,126]. It is a non-transgenic model estab-
+lished by inbreeding of highly susceptible rats with spontaneously developing cataract and
+accelerated senescence syndrome. OXYS rats demonstrate learning and memory deﬁcits,
+decreased locomotor activity and progressive cognitive impairment [121,125,126].
+To summarize, it should be pointed out that sophisticated transgenic experimental
+models of AD are used in preclinical in vitro and in vivo studies on novel drugs or com-
+pounds potentially useful in the prevention or treatment of AD. However, those models
+reﬂect only genetic changes present in familial AD, whereas the sporadic form of AD is
+
+Nutrients 2021, 13, 537
+6 of 33
+much more common. On the other hand, mostly rather simplistic models of sporadic AD
+are currently being used in the experimental studies. Some of them are controversial, for
+example the scopolamine model [112,127]. It seems that there is a need for development of
+new, reliable models of sporadic AD.
+5.1. Effects of Caffeine in Experimental Animal Models of AD
+5.1.1. Transgenic Rodent Models
+The effects of caffeine have been studied in various transgenic models of AD, in-
+cluding APPswe, double transgenic (2xTg) APPswe/PS1, THY-Tau22 and 3xTg models
+(Table 1) [104,105,128–136].
+The most commonly used transgenic models of AD in animals is the APPswe mouse
+model. In the APPswe model, mice develop cognitive deﬁcits, learning impairment
+and age-dependent spatial memory dysfunction [37,98,129–131]. Expression of human
+APP in transgenic mice model enable Aβ plaques deposition and synaptic and neuritic
+dystrophy [130,131,137].
+In studies on the APPswe transgenic mice model, caffeine intake prevented cognitive
+impairment, memory deﬁcits and exerted neuroprotective activity [128–131,133]. The neu-
+roprotective caffeine activity associated with reduced Aβ production resulted from the inhi-
+bition of BACE-1 and γ-secretase [129], suppressed neuronal cell death, reduced caspase-3
+activity [131], activation of cAMP/PKA (cyclic adenosine monophosphate/phosphokinase
+A) signaling pathway and stimulation of cAMP response element-binding protein (CREB)
+phosphorylation in the striatum [128]. Two-week caffeine treatment in APPswe mice ex-
+erted antiapoptotic activity (decreased the expression of phosphorylated c-Jun N-terminal
+kinase (JNK) and phosphorylated extracellular signal-regulated kinase (ERK) in the stria-
+tum and frontal cortex) [128]. Long-term treatment with caffeine improved mitochon-
+drial functions in the hippocampus, cerebral cortex and striatum in APPswe transgenic
+mice [133]. No effect on A1R and A2AR hippocampal density was observed in APPswe
+transgenic mice treated with caffeine [129]. Caffeine treatment in N2a neuroblastoma
+cells transfected with mutant APPswe indicated slight antioxidant activity associated with
+reduced ROS production [133].
+Chronic intake of crude (containing 95.95% caffeine) and pure caffeine prevented
+memory disorders in APPswe mice model. However, only crude caffeine reduced the level
+of Aβ and formation of Aβ plaques in the hippocampus. Crude caffeine increased the level
+of ATP (an indicator of cell survival), reduced caspase-3 activity and reduced Aβ-induced
+neuronal cell death [131]. Crude and pure caffeine increased the number of cholinergic
+neurons in Aβ-treated cultures [131]. Greater effects of crude caffeine may result from
+the activity of other than caffeine components. Phenolic substances (about 1%) may be
+responsible for antioxidant activity of crude caffeine which exhibited much higher values
+than pure caffeine in the oxygen radical absorbance capacity (ORAC) assay [131,138]. More-
+over crude caffeine strongly inhibited cyclooxygenase-2 (COX-2), whereas pure caffeine
+did not inhibit the enzyme [138]. The authors concluded that substantial antioxidant and
+anti-inﬂammatory effects of crude caffeine are crucial in preventing cognitive and memory
+impairment in APPswe transgenic mice [131].
+Studies on caffeine were also performed on 2xTg and 3xTg animal models. Double
+transgenic mice indicate rapid rate and early onset of AD associated with cognitive impair-
+ment [98]. For example, the double transgenic APPswe/PS1 mice model is related to Aβ
+plaque formation in the cortex and hippocampus [37,98]. In those mice spatial learning
+and memory assessed in the water maze test worsened [132].
+
+Nutrients 2021, 13, 537
+7 of 33
+Table 1. Transgenic models.
+Model
+Caffeine Dose and
+Study Conditions
+Aim
+Effects
+Reference
+APPswe (K670N/
+M671L) male
+and female mice
+Caffeine: 0.3 g/L p.o. in
+drinking water for 5.5 months;
+start: 4-month-old mice,
+8-month-old at the start
+of behavioral tests, 9.5-month-old at the end
+of behavioral tests
+To investigate the possible
+neuroprotective effects of
+long-term dietary caffeine
+intake in APPswe transgenic
+mice.
+Caffeine protected against cognitive impairment. It reduced
+Aβ levels in the hippocampus, restored brain adenosine
+levels, but did not affect the A1R and A2AR hippocampal
+density and expression in the cerebral cortex and
+hippocampus.
+[129]
+APPswe (K670N/
+M671L) mice
+Caffeine: 1.5 mg p.o.
+for 2 weeks, every 12 h;
+start: 9.5-month-old mice
+To investigate the effects of
+caffeine on the signal transduction
+pathways (PKA, CREB, JNK
+and ERK) in cognitively
+important areas of the brain.
+Caffeine showed beneﬁcial effects in the brain function and
+exerted neuroprotective and antiapoptotic effect by
+stimulating PKA activity, increasing the level of
+phosphorylated CREB and decreasing JNK and ERK
+phosphorylation.
+[128]
+APPswe (K670N/
+M671L) mice
+Caffeine: 0.6 mg/day in drinking water for 1 month;
+start: 11- to 12-month-old mice
+To explain the protective
+mechanism of caffeine and
+melatonin administration
+against cognitive dysfunction
+in transgenic APPswe mice.
+Caffeine and melatonin prevented cognitive impairment.
+Caffeine slightly increased mitochondrial functions, however
+it inhibited the enhancement of mitochondrial functions
+provided by melatonin.
+[133]
+APPswe (K670N/
+M671L) and
+Indiana (V717F) mutation
+male mice
+0.0395% crude caffeine (95.95% caffeine, 1.1%
+moisture, 1.04% fat,
+0.1% ash) in diet or
+0.0375% pure caffeine
+in diet for 2 months;
+start: 3-month-old mice
+To investigate the effects of
+consumption of crude and
+pure caffeine on the learning
+and memory processes
+in transgenic AD mice.
+Crude and pure caffeine administered for two months partly
+prevented memory deﬁcits (crude caffeine exerted greater
+effect). Crude caffeine (but not pure) reduced Aβ1-42 levels,
+suppressed Aβ accumulation and reduced the number of Aβ
+plaques in the hippocampus. Both prevented Aβ-induced
+neuronal cell death and exerted antiapoptotic activity
+suppressing caspase-3 activity. Antioxidant and
+anti-inﬂammatory effects of crude caffeine were also
+demonstrated in APPswe mice.
+[131]
+APPswe mice
+and APPswe/PS1 mice
+Caffeine: 1.5 mg i.p.,
+single administration,
+3- to 4-month-old
+APPswe mice;
+caffeine: 1.5 mg i.p. or p.o., single administration, 14-month-old
+APPswe mice;
+caffeine: 1.5 mg i.p.,
+single administration,
+14-month-old
+APPswe/PS1 mice;
+caffeine: 1.5 mg p.o. twice-daily for 7 days,
+15- to 20-month-old APPswe/PS1 mice;
+caffeine: 1.5 mg p.o., two
+administrations on one day every 4th day for 2 months, 20-month-old
+APPswe/PS1 mice;
+To investigate the effects of
+acute and long-term caffeine
+administration on the cognitive
+performance and Aβ levels
+in APPswe and APPswe/PS1
+transgenic mice.
+Long-term caffeine intake improved cognitive functions in
+APPswe and APPswe/PS1 mice. Decreased Aβ levels in the
+plasma were observed after single administration of caffeine
+and long-term caffeine treatments in both transgenic mice
+models. Chronic caffeine treatment reduced soluble Aβ level
+in the cortex and hippocampus and insoluble Aβ level in the
+hippocampus in APPswe mice. Acute caffeine administration
+rapidly reduced the Aβ level also in the interstitial ﬂuid in the
+hippocampus but did not affect Aβ elimination in APPswe
+mice.
+[134]
+
+Nutrients 2021, 13, 537
+8 of 33
+Table 1. Cont.
+Model
+Caffeine Dose and
+Study Conditions
+Aim
+Effects
+Reference
+APPswe/PS1
+mice and
+APPswe mice, control
+non-transgenic mice
+Caffeine: 0.3 mg
+(unconcentrated coffee) i.p., single administration
+or 1.5 mg (concentrated
+coffee) i.p., single
+administration or
+0.06 mg (concentrated
+decaffeinated coffee) i.p.,
+single administration,
+6- to 8-month-old APPswe/PS1 transgenic
+mice;
+caffeine: 0.75 mg
+(concentrated coffee) p.o., twice weekly for 3 months
+or 0.03 mg (decaffeinated coffee) p.o., twice weekly
+for 3 months, 10-month-old APPswe transgenic mice
+To investigate the effects of
+acute and long-term treatment
+with coffee or decaffeinated
+coffee (to compare the effect
+of caffeine to coffee) on
+the plasma cytokine and
+Aβ levels and behavior (only
+after long-term treatment) in
+transgenic mice models of AD.
+Acute caffeine intake increased the level of G-CSF and IL-10
+in plasma (concentrated and unconcentrated coffee) and IL-6
+level in plasma (only concentrated coffee). Higher plasma
+caffeine concentrations were related to lower levels of Aβ in
+plasma. Single treatment with coffee (concentrated and
+unconcentrated) increased G-CSF, IL-6 and IL-10 plasma
+levels also in non-transgenic mice. Long-term treatment with
+concentrated coffee (but not decaffeinated coffee) favorably
+affected cognitive interference task and elevated level of
+G-CSF (but not other cytokines) in plasma in transgenic mice.
+Improvement of cognitive performance was associated with
+higher G-CSF levels suggesting that elevated G-CSF levels
+may be associated with possible beneﬁcial effects of coffee
+against AD.
+[136]
+APPswe/PS1
+mice
+Caffeine: 0.75 mg/day or
+1.5 mg/day p.o. for 8 weeks;
+12-month-old mice
+To investigate the effects of
+caffeine intake on the memory
+deﬁcits, BDNF and TrkB
+expression in APPswe/PS1
+double transgenic mice.
+Caffeine at both doses used increased spatial learning ability
+and memory capability. Caffeine treatment increased the
+expression of hippocampal BDNF and TrkB. Caffeine exerted
+protective role against memory impairment in APPswe/PS1
+mice.
+[132]
+THY-Tau22
+male mice
+Caffeine: 0.3 g/L p.o.
+in drinking water for
+10 months;
+start: 2-month-old mice
+To investigate the effects of
+chronic caffeine intake on
+the development of hippocampal
+tau protein pathologies and
+spatial memory disorders in
+THY-Tau22 transgenic mice.
+Chronic caffeine intake prevented spatial memory deﬁcits
+and improved memory performance. Caffeine effect was
+associated with a reduction of neuroinﬂammation and
+decrease in the hippocampal level of hyperphosphorylated
+tau protein. Caffeine treatment decreased oxidative stress
+(reduced expression of MnSOD and EAAT3) in THY-Tau22
+mice.
+[104]
+THY-Tau22
+female mice
+Caffeine: 0.3 g/L p.o.
+in drinking water;
+start of caffeine
+administration: 2 weeks
+before mating;
+end of caffeine
+administration: 15th
+postnatal day;
+8- or 12-month-old at
+the start of behavioral tests.
+To investigate the effects of
+long-term caffeine exposure
+during pregnancy in offspring
+in THY-Tau22 transgenic mice.
+The exposure to caffeine during pregnancy induced
+physiological disorders and accelerated cognitive disorders in
+THY-Tau22 transgenic mice model and may be a risk factor
+for early stages of AD.
+[105]
+
+Nutrients 2021, 13, 537
+9 of 33
+Table 1. Cont.
+Model
+Caffeine Dose and
+Study Conditions
+Aim
+Effects
+Reference
+3xTg (APPswe,
+PS1/M146V
+and tau P301L) male mice,
+control non-transgenic
+mice
+Caffeine: 0.3 mg/mL
+in drinking water p.o.
+for 7 months;
+start: 6-month-old mice;
+behavioral testing at 13 months of age.
+To investigate the effects of
+long-term caffeine administration
+on the memory and learning in
+3xTg-AD mice with behavioral
+and psychological symptoms
+of dementia (BPSD) proﬁle.
+Caffeine increased motor activity, total horizontal activity and
+emotionality in the behavioral tests in non-transgenic mice
+and reduced it in 3xTg-AD mice. Caffeine administration
+increased spontaneous motor activity (to a greater extent at
+night) only in 3xTg-AD mice. Results indicate that
+aggravation of BPSD-like behaviors, anxiety-related
+behaviors or neophobia adversely affected possible beneﬁcial
+effects of caffeine treatment (improvement of memory and
+learning) in 3xTg-AD mice.
+[135]
+3xTg—triple-transgenic. A1R—adenosine A1 receptor. A2AR—adenosine A2A receptor. Aβ—amyloid β. AD—Alzheimer’s disease. BDNF—brain-derived neurotrophic factor. BPSD—behavioral and
+psychological symptoms of dementia. CREB—cAMP response element-binding protein. EAAT3—excitatory amino acid transporter 3. ERK—extracellular signal-regulated kinase. G-CSF—granulocyte-colony
+stimulating factor. IL—interleukin. i.p.—intraperitoneally. JNK—c-Jun N-terminal kinase. MnSOD—manganese superoxide dismutase. Nrf2—nuclear factor erythroid 2-related factor 2. PKA—phosphokinase A.
+p.o.—per os. TrkB—tropomyosin-related kinase receptor B.
+
+Nutrients 2021, 13, 537
+10 of 33
+Acute intake of caffeine by APPswe/PS1 transgenic mice resulted in a reduced Aβ
+production (by inhibiting γ-secretase and BACE-1) and reduced Aβ1-40 and Aβ1-42 levels in
+plasma (the same effects were observed in transgenic APPswe mice). Similarly, long-term
+caffeine administration to APPswe/PS1 transgenic mice was related to a permanent and
+sustained decrease in the Aβ1-40 and Aβ1-42 levels in plasma and reduced Aβ accumulation
+in the brain. Chronic caffeine administration enhanced cognitive performance in the
+transgenic mice [134].
+Acute caffeine use (administered as a coffee constituent) increased the levels of
+granulocyte-colony stimulating factor—G-CSF, IL-6 and IL-10 in plasma in APPswe/PS1
+double transgenic mice and in non-transgenic mice. Higher levels of plasma caffeine were
+related to lower levels of plasma Aβ in APPswe/PS1 transgenic mice. Chronic intake of
+concentrated coffee improved cognitive performance and increased the level of G-CSF
+in plasma in APPswe transgenic mice. The authors concluded that coffee (as a source
+of caffeine) may protect against AD and that elevated G-CSF levels may contribute to
+favorable effects of coffee [136].
+Also chronic treatment with caffeine in double transgenic APPswe/PS1 mice reversed
+memory impairment [132]. Caffeine improved spatial learning and memory, which was
+demonstrated by a decrease of escape latency time and longer time spent in the target
+quadrant assessed in the water maze test. The effects of caffeine were dose dependent. The
+mechanism of changes could involve the effect on the brain-derived neurotrophic factor
+(BDNF)—tropomyosin-related kinase receptor B (TrkB) signaling pathway, taking part in
+the learning and memory processes, since caffeine exerted dose-dependent increase in the
+expression of hippocampal BDNF and TrkB [132].
+In a transgenic model of tau disorders, THY-Tau22 mice, progressively developing
+memory dysfunction is associated with hippocampal neuroinﬂammation that promotes
+tau protein hyperphosphorylation and aggregation [104,105,139]. Chronic administration
+of caffeine to THY-Tau22 transgenic mice prevented behavioral disorders and spatial mem-
+ory deﬁcits. The beneﬁcial activity of caffeine on memory was associated with reduced
+hyperphosphorylated tau protein level in the hippocampus [104]. The deletion of A2AR
+improved memory, prevented spatial memory deﬁcits and hippocampal long-term de-
+pression in THY-Tau22 transgenic mice [139]. It did not affect the tau protein level and
+the number of proteolytic tau fragments, which were reduced by caffeine intake in the
+previous study [104]. It may indicate that mechanism of caffeine in the regulation of tau-
+related pathology was more complex than only blockade of A2AR in THY-Tau22 transgenic
+mice [139].
+Moreover, caffeine exerted anti-inﬂammatory activity (reduced level of proinﬂamma-
+tory cytokines: chemokine ligand factor 4—CCl4, chemokine ligand factor 5—CCl5 and
+TNF-α) and antioxidant activity (decreased activity of manganese superoxide dismutase—
+MnSOD and excitatory amino acid transporter 3—EAAT3 involved in the glutathione
+synthesis) in THY-Tau22 transgenic mice [104]. However, when caffeine was administered
+to pregnant THY-Tau22 transgenic rats, accelerated physiological and cognitive disorders in
+offspring were observed. Those results indicate that exposure to caffeine during pregnancy
+in rats may be a risk factor for early stages of AD [105].
+Effects of caffeine were also studied in 3xTg-AD mice (carrying APPswe, PS1/M146V
+and tau P301L transgenes). The effects of long-term intake of caffeine in 3xTg-AD mice
+were assessed in multiple behavioral tests (lasting 21 days) to evaluate sensorimotor
+functions, exploratory activity, bizarre movements, emotional and anxiety-like behaviors,
+risk assessment, visual perceptual learning and reference spatial learning and memory in
+comparison with normal non-transgenic mice. Some of the tests were interpreted as tests
+concerning BPSD-like behaviors [135]. The effects of caffeine treatment in the two models
+were differential. Caffeine in control non-transgenic mice improved some behavioral
+parameters connected with cognition, exploratory and locomotor activity. Caffeine did not
+counteract any of behavioral disorders observed in 3xTg-AD mice, moreover some of the
+behavioral parameters even worsened (mostly those related to the anxiety-like behaviors).
+
+Nutrients 2021, 13, 537
+11 of 33
+Caffeine increased horizontal locomotor activity in the open ﬁeld test in non-transgenic
+mice and reduced it in 3xTg-AD mice; increased emotionality in the open ﬁeld test, elevated
+plus maze and hole-board test in non-transgenic mice and reduced these parameters in
+3xTg-AD mice; increased total horizontal activity in the open ﬁeld test in non-transgenic
+mice and reduced it in 3xTg-AD mice. Caffeine increased overall spontaneous motor
+activity (to a greater extent at night) in circadian motor activity test only in 3xTg-AD
+mice [135]. The authors interpreted their results that anxiogenic effect (associated with
+anxiety and neophobia) induced by caffeine interfered with beneﬁcial effects of caffeine
+consumption on cognition (improved visual perceptive learning, spatial learning and
+memory) in 3xTg-AD mice [135].
+5.1.2. Non-Transgenic Rodent Models
+Several non-transgenic models of AD have been used to evaluate the effects of caf-
+feine (Table 2). In a model of AD induced by i.c.v. administration of Aβ25-35, in which
+cognitive dysfunction is observed (Y-maze test and inhibitory avoidance task), acute caf-
+feine administration at a higher i.p. dose or combined 12-day administration in drinking
+water, followed by acute administration at a lower i.p. dose, prevented Aβ-induced
+disorders in mice. There was no beneﬁcial effect of the 12-day treatment with caffeine
+alone [117]. It was concluded that mechanism of caffeine action resulted from the blockade
+of A2AR rather than A1R, because similar effects were observed after a selective A2AR
+antagonist—SCH58261 administration [117]. In other studies, selective A2AR antagonists
+also prevented Aβ-induced progressive cognitive impairment and synaptic deterioration
+in rats [120,140].
+Long-term administration of D-galactose to rats is associated with increased oxida-
+tive stress resulting in memory impairment, neuroinﬂammation and neurodegeneration.
+Concurrent caffeine intake improved memory functions and attenuated cognitive decline
+in the D-galactose-treated aging rats as demonstrated in the Y-maze behavioral test. Caf-
+feine administration exerted anti-inﬂammatory activity (reduced level of COX-2, nitric
+oxide synthase-2 (NOS-2), TNF-α and IL-1β), antioxidant activity (decreased level of
+oxidative stress marker—8-oxoguanine) and antiapoptotic activity (decreased B-cell lym-
+phoma 2-associated X protein/B-cell lymphoma protein-2 (BAX/Bcl-2) ratio and reduced
+caspase-3 and caspase-9 expression) in rats with accelerated aging induced by D-galactose
+administration. Caffeine treatment alleviated synaptic dysfunction (increasing the level of
+presynaptic proteins synaptophysin and post-synaptic protein PSD95 in the hippocampus)
+in D-galactose-treated rats [119].
+
+Nutrients 2021, 13, 537
+12 of 33
+Table 2. Non-transgenic models.
+Model
+Caffeine Dose and Study Conditions
+Aim
+Effects
+Reference
+Adult CF1 male mice
+administered
+with Aβ25–35 i.c.v.
+(3 nmol; volume: 3 µL)
+Caffeine: 1 mg/mL p.o. in
+drinking water (22 mg/kg/day) for 12 days, Aβ
+i.c.v. on 7th day;
+caffeine: 30 or 80 mg/kg i.p.,
+single administration,
+30 min before Aβ i.c.v.
+caffeine: 30 mg/kg for 4 days,
+Aβ i.c.v. after 2 days of
+caffeine intake;
+caffeine: 1 mg/mL p.o.
+in drinking water (for 12 days) and 30 mg/kg i.p.,
+single
+administration, 30 min
+before Aβ i.c.v.;
+behavioral tests were
+performed 8–9 days after
+Aβ i.c.v. administration.
+To investigate the effects of
+caffeine and a selective A2AR
+antagonist against cognitive
+impairment in AD induced
+by i.c.v. Aβ25–35 administration
+in mice.
+Blockade of A2AR by caffeine or by a selective
+A2AR antagonist prevented cognitive impairment,
+neurodegeneration and brain destruction in
+Aβ-induced AD mice model.
+[117]
+Adult male Sprague-Dawley rats
+with accelerated
+aging induced
+by D-galactose
+administration
+(120 mg/kg i.p.
+for 60 days)
+Caffeine: 3 mg/kg/day i.p.
+for 60 days (during
+D-galactose treatment period)
+To investigate the effects of
+chronic caffeine intake on
+neurodegeneration induced
+by D-galactose-aging rat model.
+Chronic caffeine intake reduced oxidative stress
+(decreased 8-oxoguanine level), neuroinﬂammation,
+neuronal cells apoptosis, neurodegeneration, synaptic
+dysfunction and memory deﬁcits induced by
+D-galactose injections.
+[119]
+Adult male Wistar
+rats with AD induced by i.c.v.
+administration of STZ (3 mg/kg;
+single bilateral
+administration)
+Caffeine: 1 g/L in drinking
+water for 2 weeks before
+and 4 weeks after STZ
+administration.
+Behavioral tests 4 weeks
+after STZ administration
+To investigate the effects of
+caffeine intake on the expression and
+density of adenosine
+receptors and hippocampal
+neurodegeneration in
+STZ-induced rat model of AD.
+Caffeine administration prevented the STZ-induced
+memory deﬁcits, sporadic dementia,
+neurodegeneration and decreased expression and
+density of A2AR in the hippocampus.
+[141]
+
+Nutrients 2021, 13, 537
+13 of 33
+Table 2. Cont.
+Model
+Caffeine Dose and Study Conditions
+Aim
+Effects
+Reference
+Adult male
+Sprague-Dawley
+rats treated with
+AlCl3 (17 mg/kg p.o.
+for 4 weeks)
+Caffeine 1.5 mg/kg p.o.
+for 4 weeks concurrently
+with AlCl3 or two weeks
+before the start and for
+4 weeks during AlCl3
+administration
+To investigate the effects of
+caffeine on the histological
+picture of hippocampus,
+expression of BDNF, TrkB,
+and immunoreactivity of Ki-67
+and GFAP in the hippocampus
+in rats with AlCl3-induced AD.
+Caffeine intake exerted neuroprotective activity
+(improvement of histological hippocampus picture,
+stronger Ki-67 and weaker GFAP immunoreactivity,
+increased BDNF and TrkB gene
+expression). The effects were stronger in rats treated
+with caffeine also before the start of AlCl3
+administration.
+[142]
+Adult male Wistar
+rats treated with AlCl3 (100 mg/kg p.o.
+for 30 days)
+Caffeine: 20 mg/kg i.p.
+for 30 days, 1 h before AlCl3
+p.o. intake
+To evaluate an antioxidant,
+anti-inﬂammatory and
+anticholinesterase properties of caffeine
+against AlCl3-induced neurotoxicity in
+rats.
+Caffeine exerted neuroprotective, antioxidant and
+anticholinesterase activity against AlCl3-induced
+neurotoxicity in rats. It reduced oxidative stress
+parameters (NO level), decreased AChE and
+Na+/K+-ATPase activity in the cerebral cortex and
+hippocampus (Na+/K+-ATPase activity also in the
+striatum). Caffeine revealed also anti-inﬂammatory
+properties by reducing the increased TNF-α levels in
+the hippocampus and striatum associated with
+AlCl3-induced neurotoxicity.
+[143]
+Fisher-344
+young male rats (3-month-old)
+treated with LPS
+(0.250 µg/h i.c.v.
+by osmotic minipump for 4 weeks);
+Fisher-344 male aged rats (24-month-old)
+Caffeine: 0.5, 5, 10, 20 or 40 mg/kg/day i.p. for 2 or
+4 weeks
+to young rats;
+caffeine: 40 mg/kg/day i.p.
+for 2 weeks to aged rats
+To investigate the effects of
+different caffeine doses
+in LPS-induced
+neuroinﬂammation in young
+rats and in age-related
+neuroinﬂammation in aged
+rats (with naturally increased
+level of microglia activation).
+Caffeine exerted potential protective effect against
+LPS-induced neuroinﬂammation. It was demonstrated
+that caffeine may decrease neuroinﬂammation by a
+reduction in the number of activated microglial cells in
+the hippocampus and through regulation of glutamate
+neurotransmission.
+[122]
+C57BL/6N male mice treated with LPS
+(250 µg/kg i.p.
+for 2 weeks;
+7 doses in 2 weeks)
+Caffeine: 30 mg/kg/day i.p.
+for 6 weeks
+To investigate the effect of
+caffeine administration against
+LPS-induced oxidative stress,
+neuroinﬂammation, apoptotic
+cell death, neurodegeneration
+and synaptic impairment
+in mice.
+Caffeine reduced LPS-induced oxidative stress,
+neuroinﬂammation and synaptic dysfunctions
+(increased expression of Nrf2, HO-1 and Bcl-2, reduced
+expression of TLR-4, p-NF-κB, p-JNK, BAX, caspase-3,
+TNF-α, COX-2, NOS-2 and synaptic markers) in mouse
+brains.
+[123]
+
+Nutrients 2021, 13, 537
+14 of 33
+Table 2. Cont.
+Model
+Caffeine Dose and Study Conditions
+Aim
+Effects
+Reference
+CF1 male mice (3-4-month-old)
+with cholinergic blockade induced
+by a single scopolamine hydrobromide
+administration
+(2 mg/kg i.p.)
+Caffeine: 10 mg/kg i.p.
+for 4 days before scopolamine hydrobromide
+administration; scopolamine administration:
+15 min before or immediately after the inhibitory
+avoidance test, immediately after training session
+in the novel object
+recognition task, 90 min
+before the open ﬁeld test;
+independent group of mice
+for each test
+To investigate the effect of
+caffeine intake on short-term
+and long-term memory
+impairment induced by
+a single scopolamine
+administration, assessed
+in three behavioral tests.
+Pretreatment with caffeine prevented
+scopolamine-induced impairment in the acquisition
+phase when short-term memory was assessed in the
+inhibitory avoidance task, and in the consolidation
+phase when short-term and long-term memory were
+assessed in the inhibitory avoidance task. Caffeine
+administration prevented scopolamine-induced
+short-term and long-term memory deﬁcits (assessed in
+the novel object recognition task). Caffeine exerted
+beneﬁcial effect in the cholinergic-induced memory
+disruption. There was no effect of caffeine treatment on
+the spontaneous locomotor activity assessed in the
+open ﬁeld test.
+[115]
+A2AR—adenosine A2A receptor. Aβ—amyloid β. AChE—acetylcholinesterase. AD—Alzheimer’s disease. AlCl3—aluminum chloride. ATP—adenosine triphosphate. BAX—B-cell lymphoma 2-associated X
+protein. Bcl-2—B-cell lymphoma protein-2. BDNF—brain-derived neurotrophic factor. COX-2—cyclooxygenase-2. GFAP—glial ﬁbrillary acidic protein. HO-1—hemeoxygenase 1. i.c.v.—intracerebroventricularly.
+i.p.—intraperitoneally. LPS—lipopolysaccharide. NOS-2—nitric oxide synthase-2. Nrf2—nuclear factor erythroid 2-related factor 2. p-JNK—phosphorylated c-Jun N-terminal kinase. p-NF-κB—phosphorylated
+nuclear factor-κB. p.o.—per os. STZ—streptozotocin. TNF-α—tumor necrosis factor α. TLR-4—toll-like receptor 4. TrkB—tropomyosin-related kinase receptor B.
+
+Nutrients 2021, 13, 537
+15 of 33
+The STZ-induced AD model is associated with impaired brain glucose metabolism, Aβ
+accumulation and tau hyperphosphorylation. STZ i.c.v. administration increase oxidative
+stress, AChE activity and neuroinflammation in the hippocampus and cortex [35,96,116,144].
+Chronic caffeine administration prevented STZ-induced progressive memory loss, sporadic
+dementia and neurodegeneration. It also decreased the expression and density of A2AR in
+the hippocampus (not affecting A1R density) in rats [141]. Moreover, caffeine administered
+to rodents with diabetes mellitus induced by i.p. STZ injections prevented learning and
+memory deﬁcits [145,146].
+In the AlCl3-induced AD model, administration of aluminum chloride increases level
+of Aβ, BACE-1, hyperphosphorylated tau protein, proinﬂammatory cytokines (TNF-α,
+IL-6) and oxidative stress markers in the hippocampus and cortex [35,147]. Chronic caffeine
+intake exerted neuroprotective activity demonstrated by improvement of the histological
+hippocampus picture (decreased neuronal apoptosis observed in CA1 and CA3 hippocam-
+pal regions) in AlCl3 treated rats. Moreover, increased proliferation marker protein—Ki-67
+immunoreactivity, decreased glial ﬁbrillary acidic protein (GFAP) immunoreactivity, and
+increased expression of BDNF and TrkB were observed after caffeine intake [142]. Further
+studies on caffeine showed that neuroprotective activity may have resulted from reduced
+oxidative stress (reduced levels of NO in the cerebral cortex, hippocampus and striatum
+and increased level of reduced glutathione—GSH in the hippocampus) and attenuated
+AlCl3-induced lipid peroxidation (reduced level of malondialdehyde—MDA in the cerebral
+cortex, hippocampus and striatum). Caffeine decreased activity of Na+/K+-ATPase in the
+cerebral cortex, hippocampus and striatum, and reduced activity of AChE in the cerebral
+cortex and hippocampus. Also anti-inﬂammatory properties of caffeine were demonstrated
+(decreased TNF-α level in the hippocampus and striatum) in AlCl3-induced neurotoxicity
+in rats [143].
+LPS administration induces chronic neuroinﬂammation and amyloidosis leading
+to cognitive deﬁcits and memory impairment, reﬂecting processes speciﬁc for sporadic
+type of AD [124]. Increased BACE-1 and γ-secretase activity leading to Aβ hippocam-
+pal accumulation, elevated proinﬂammatory cytokines level (IL-1β, IL-6, IL-12, TNF-α),
+mitochondrial dysfunction, and increased ROS production is observed in LPS-induced
+model of AD in rats [124]. Caffeine exerted protective effect against LPS-induced and
+age-related neuroinﬂammation associated with microglia activation in rats [122]. It has
+been demonstrated that caffeine may decrease neuroinﬂammation by a reduction in the
+number of activated microglial cells in the CA3 hippocampus region and regulation of
+glutamate neurotransmission [122]. Caffeine administration inhibited LPS-induced oxida-
+tive stress, neuroinﬂammation and synaptic dysfunctions (increasing expression of nuclear
+factor erythroid 2-related factor 2 (Nrf2), hemeoxygenase 1 (HO-1) and Bcl-2, reducing
+expression of toll-like receptor 4 (TLR-4), phosphorylated nuclear factor-κB (p-NF-κB),
+phosphorylated c-Jun N-terminal kinase (p-JNK), BAX, caspase-3, TNF-α, COX-2 and
+NOS-2) in mice [123].
+Intraperitoneal administration of scopolamine, a non-selective, competitive mus-
+carinic receptor antagonist, is associated with acute memory and attention deﬁcits through
+cholinergic system blockade [112,115]. Long-term cholinergic dysfunction results in a
+reduced number of cholinergic neurons, decreased ACh level in the brain, increased AChE
+activity and suppressed choline acetyltransferase activity. Moreover, scopolamine increases
+oxidative stress, apoptosis, mitochondrial dysfunction and neuroinﬂammation in animal
+AD models [148–150]. Although the scopolamine-induced amnesia/memory impairment
+as a model of AD was widely used in the past, the relevance of scopolamine in current
+experimental AD studies is very limited [112,114]. Cholinergic dysfunction observed after
+acute scopolamine administration is not related to the hallmarks of AD (Aβ or hyperphos-
+phorylated tau protein) and disease progression [112]. The effects of caffeine (or selective
+adenosine receptors antagonists) were studied only after acute scopolamine adminis-
+tration. In scopolamine-treated mice, caffeine administration prevented short-term and
+long-term memory deﬁcits assessed in the behavioral tests (novel object recognition task
+
+Nutrients 2021, 13, 537
+16 of 33
+and inhibitory avoidance task), indicating possible beneﬁcial effect in cholinergic-induced
+memory disruption [115]. Caffeine ameliorated also scopolamine-induced memory im-
+pairment in humans [151]. The beneﬁcial effect of caffeine probably resulted from its dual
+ability to blockade of A1R and A2AR [115]. Studies conducted in scopolamine-treated
+rats showed that A1R and A2AR antagonists prevented scopolamine-induced memory
+impairment [61,152,153].
+5.1.3. Rabbit Cholesterol-Induced Model
+A high cholesterol diet-induced rabbit model of AD is characterized by an elevated
+Aβ level in the brain, increased tau protein hyperphosphorylation and disturbed BBB
+integrity (associated with a disrupted brain cholesterol homeostasis) leading to the learning
+impairment [154]. Chronic caffeine administration to rabbits fed a cholesterol-enriched diet
+prevented dysfunction of BBB, decreased activation of astrocytes and decreased density
+of microglia [155] (Table 3). In another study, caffeine intake decreased Aβ level, Aβ
+production and Aβ deposition in the hippocampus, reduced hyperphosphorylated tau
+protein level in the hippocampus (probably associated with the reduction of phospho-
+rylated glycogen synthase kinase-3β (pGSK-3β) enzyme level which is involved in the
+tau protein phosphorylation), decreased oxidative stress (reduced ROS generation and
+H2O2 production, and increased reduced/oxidized glutathione (GSH/GSSG) ratio) and
+restored A1R level, reduced by cholesterol. There was no caffeine effect on the cholesterol
+concentration in plasma in rabbits [156].
+5.1.4. Nematode Models
+Nematodes are suitable for experimental studies on AD due to their short lifespan,
+short generation time, transparent body and simple creation of new transgenic lines.
+Many human genes associated with AD have orthologues in nematodes Caenorhabditis
+elegans [112,157]. Various strains of the nematode Caenorhabditis elegans with human neu-
+rotoxic proteins (Aβ1-42, APP, tau protein) expression are used to investigate the cellular
+and molecular mechanisms of neurodegenerative diseases [112,158–160]. Expression of the
+human Aβ1-42 in muscles causes, among other things, development of paralysis, whereas
+its expression in neurons results in their neurodegeneration, and odor preference learning
+disruption [96,159]. After expression of the human APP in Caenorhabditis elegans, only
+products of α-secretase or γ-secretase cleavage (but not β-secretase) are detected, and
+APP-induced cholinergic neurodegeneration is observed [159]. Expression of the h-tau pro-
+tein in Caenorhabditis elegans leads to tau aggregate formation and accumulation, neuronal
+degeneration and synaptic abnormalities resulting in locomotion defects and behavioral
+impairment [96,159].
+In studies conducted on the nematode AD models, plant extracts containing caffeine
+were investigated, including the extracts from Ilex paraguariensis leaves [161], Paullinia
+cupana (guarana) seeds [158], Coffea beans [160], and Zijuan Pu’er tea [162] (Table 4). All
+studied extracts prevented Aβ-induced toxicity in transgenic models of AD in Caenorhabditis el-
+egans, delaying the paralysis progression in worms and extending their lifespan [158,160–162].
+However, coffee extract (10% v/v, containing 3.6 mM caffeine) treatment did not reduce
+Aβ aggregation and Aβ distribution. The authors concluded that beneﬁcial effect of cof-
+fee probably resulted from skn-1/Nrf2 signaling pathway activation; similar effects were
+observed after treatment with decaffeinated coffee (0.032 mM caffeine) [160]. A mixture
+of Zijuan Pu’er tea water extract ingredients (MCCP), containing (+)-catechins, caffeine
+and procyanidins, decreased Aβ aggregation and activated the DAF-16 signaling pathway,
+which was associated with lifespan extension and oxidative stress reduction in Caenorhabdi-
+tis elegans, and could be mediated by a heat shock factor 1 (HSF-1) and skn-1 [162]. Guarana
+hydroalcoholic extract and decaffeinated guarana extract treatments were also associated
+with antioxidant activity and protein degradation pathways, partially through skn-1 and
+DAF-16 activation [158].
+
+Nutrients 2021, 13, 537
+17 of 33
+Table 3. Rabbit model.
+Model
+Caffeine Dose and Study
+Conditions
+Aim
+Effects
+Reference
+New Zealand
+white rabbits
+(1.5- to 2-years-old) fed a 2%
+cholesterol-enriched diet
+Caffeine: 3 mg/day
+in 50 mL of drinking water for 12
+weeks
+To investigate the effects
+of caffeine on BBB leakage
+in rabbits fed a cholesterol-enriched
+diet as a model
+of sporadic AD.
+Chronic caffeine administration prevented dysfunction of
+BBB, decreased activation of astrocytes and decreased
+density of
+microglia induced by high cholesterol diet in rabbits.
+[155]
+New Zealand
+white male rabbits
+(1.5- to 2-years-old)
+fed a 2% cholesterol-enriched diet
+Caffeine: 0.5 mg/day
+or 30 mg/day in drinking water for
+12 weeks
+To investigate the effects
+of caffeine treatment on
+molecular mechanisms
+of AD-like pathology in
+the cholesterol-fed rabbit
+model of AD.
+Chronic caffeine intake decreased Aβ accumulation in the
+hippocampus and reduced hyperphosphorylated tau
+protein level in the hippocampus (reduced phosphorylated
+GSK-3β enzyme level). Caffeine prevented oxidative
+damage (reduced ROS generation and H2O2 production,
+increased GSH/GSSG ratio) and restored the level of A1R,
+reduced by cholesterol in rabbits. Caffeine did not affect the
+level of A2AR and RyRs and the cholesterol concentration in
+plasma.
+[156]
+A1R—adenosine A1 receptor. Aβ—amyloid β. AD—Alzheimer’s disease. BBB—blood-brain barrier. GSH/GSSG—reduced/oxidized glutathione. GSK-3β—glycogen synthase kinase-3β. ROS—reactive oxygen
+species. RyR—ryanodine receptor.
+
+Nutrients 2021, 13, 537
+18 of 33
+Table 4. Nematode models.
+Model
+Caffeine Dose and Study Conditions
+Aim
+Effects
+Reference
+Caenorhabditis
+elegans strains: wild-type N2,
+CL2006 dvIs2
+Ilex paraguariensis hydroalcoholic extract
+(IPHE):
+2 or 4 mg/mL
+(41 or 87 µM caffeine);
+caffeine: 200 or 400 µM.
+Treatment since ﬁrst
+larval stage till required
+age for test.
+To investigate the effects
+of IPHE and caffeine
+administration on the Aβ-induced
+toxicity
+in Caenorhabditis elegans.
+IPHE and caffeine extended lifespan of worms, decreased
+AChE activity and reduced Aβ deposition and toxicity
+leading to worms’ paralysis. IPHE and caffeine reduced also
+Aβ mRNA levels and increased expression of hsp-16.2
+(chaperone protein which overexpression causes
+suppression of Aβ-toxicity). After both treatments an
+antioxidant activity (reduced ROS levels) was observed.
+[161]
+Various
+Caenorhabditis
+elegans strains
+10% coffee extract
+(3.6 mM caffeine);
+To investigate the effects
+of coffee extract treatment
+on the Aβ-induced toxicity
+in Caenorhabditis elegans.
+Coffee extract prevented Aβ-induced toxicity in the
+transgenic models of AD in Caenorhabditis elegans. It induced
+also a delay in the paralysis progression in worms. No
+reduction in Aβ expression, Aβ aggregation and
+distribution was observed in coffee-treated group. The
+beneﬁcial effect of coffee may result from skn-1/Nrf2
+pathway induction.
+[160]
+Caenorhabditis
+elegans strains: wild-type N2,
+CL4176 dvls27,
+TJ356 zIs356,
+CF1553 muIs84
+0.1, 0.2 and 0.4 mg/mL
+Zijuan Pu’er tea water
+extract (ZTWE) containing:
+(+)-catechins, caffeine,
+procyanidins.
+Mixture of three main
+constituents in ZTWE: (+)-catechins,
+caffeine, procyanidins—MCCP.
+To investigate the effects
+of ZTWE and MCPP on
+the Aβ-induced toxicity
+in various Caenorhabditis
+elegans strains.
+ZTWE and MCCP delayed Aβ-induced paralysis in worms.
+MCCP alleviated AD progression and pathologies related to
+AD due to reduced Aβ-induced toxicity (decreased Aβ
+aggregation), and increased antioxidant activity (activated
+DAF-16 signaling pathway associated with oxidative stress
+resistance; decreased ROS production).
+[162]
+Caenorhabditis elegans strains:
+wild-type N2, CL4176 dvls27,
+CL2006, AM141, HA759, rtIs11,
+TJ375, CL2166
+Guarana hydroalcoholic extract (GHE)
+containing:
+caffeine: 166.1 µg/mL,
+theobromine: 2.5 µg/mL,
+catechin: 34.6 µg/mL,
+epicatechin: 36.3 µg/mL.
+10 or 50 mg/mL GHE
+To investigate the effects
+of GHE treatment in
+Caenorhabditis elegans
+models of AD.
+GHE prevented Aβ-induced toxicity in the transgenic
+models of AD in Caenorhabditis elegans. GHE delayed
+paralysis in nematodes, reduced ROS level and activated
+protein degradation. DAF-16 and skn-1 are responsible for
+the beneﬁcial effect against Aβ-induced toxicity.
+[158]
+Aβ—amyloid β. AChE—acetylcholinesterase. AD—Alzheimer’s disease. BBB—blood-brain barrier. DAF-16—abnormal dauer formation 16. GHE—guarana hydroalcoholic extract. GSH/GSSG—
+reduced/oxidized glutathione. hsp—heat shock protein. IPHE—Ilex paraguariensis hydroalcoholic extract. MCPP—mixture of three main constituents in Zijuan Pu’er tea water extract. Nrf2—nuclear factor
+erythroid 2-related pGSK-3β—phosphorylated glycogen synthase kinase-3β. ROS—reactive oxygen species. skn-1—skinhead 1. ZTWE—Zijuan Pu’er tea water extract.
+
+Nutrients 2021, 13, 537
+19 of 33
+Caffeine alone was investigated only in one study on nematodes [161]. The effect
+of caffeine treatment in higher concentrations (0.2 mM or 0.4 mM) was weaker than the
+effect of Ilex paraguariensis hydroalcoholic extract (IPHE) containing lower concentrations
+of caffeine (41 or 87 µM). IPHE and caffeine reduced Aβ mRNA levels, decreased AChE
+activity, increased expression of hsp-16.2 (chaperone protein which overexpression causes
+suppression of Aβ-toxicity), but also activated DAF-16 signaling (IPHE also HSF-1). It
+may suggest that beneﬁcial neuroprotective effects may result from different than caffeine
+constituents of IPHE [161]. Decaffeinated extracts from coffee [160] and guarana [158] also
+induced some favorable effects in Caenorhabditis elegans.
+In conclusion, the studies on nematode models of AD did not allow the effects of
+caffeine to be distinguished from those of other constituents of plant extracts [158,160,161].
+5.2. In Vitro Studies
+Caffeine administered to the culture medium caused an enhanced release of stored
+Ca2+ in the in vitro culture of the cortical neurons of 3xTg-AD mice (Table 5). The effect
+was not associated with a change in the endoplasmic reticulum store size, defects in the
+Ca2+ extrusion mechanism or expression of Ca2+-binding/buffering proteins, but probably
+with an increased expression of the RyR [107]. Similar results were obtained in later
+studies showing increased calcium signals within dendritic processes induced by RyRs
+stimulation by caffeine. The proper regulation of calcium signaling may be important in
+the prevention of synapse loss and further cognitive impairment [163]. Beneﬁcial effect of
+caffeine treatment was demonstrated in vitro in cultures of human neuroblastoma SH-SY5Y
+cells, to which Aβ was added in order to induce neurotoxicity [164,165]. Caffeine increased
+expression of antiapoptotic protein Bcl-2 and reduced expression of proapoptotic protein
+BAX in the AlCl3-induced and Aβ25–35-induced neurotoxicity in human neuroblastoma
+SH-SY5Y cells. Caffeine inhibited also the increase of AD-related proteins (APP and
+BACE-1) expression in cells exposed to both AlCl3 and Aβ25–35. The effects of caffeine
+were similar to those induced by selective A1R or A2AR antagonists, indicating the role of
+blockade of both A1R and A2AR. Caffeine reduced also oxidative stress (reducing NF-κB
+activity, reducing ROS production, increasing superoxide dismutase (SOD) activity and
+decreasing MDA concentration) induced by AlCl3 and Aβ25–35. The authors proposed
+that combined involvement of A1R and A2AR blockade by caffeine in the neuronal cell
+protection is associated with the restoration of Ca2+ homeostasis [164]. In another study,
+the neuroprotective activity of caffeine against Aβ-induced neurotoxicity was conﬁrmed in
+a neuronal cell line. The effects were shown to result from complex mechanism of caffeine
+action—the blockade of A1R and A2AR, direct or indirect blockade of NMDA receptors
+and activation of RyRs [165].
+Viral delivery of mutated human APP and tau protein to primary rat hippocampal
+neurons and rat dorsal root ganglion (DRG) caused accelerated neuronal cell death and
+morphological damage (more severe effects were observed in tau transduced cultures).
+Also, calcium homeostasis dysregulation was observed in APP-EGFP and tau-DsRed2
+transduced hippocampal neurons. Moreover, a neurite impairment was demonstrated
+in APP-EGFP and tau-DsRed2 transduced DRG neurons. Caffeine treatment prevented
+morphological neuronal damage increasing the number of healthy neurons in APP-induced
+and tau-induced models [166].
+
+Nutrients 2021, 13, 537
+20 of 33
+Table 5. In vitro models.
+Model
+Caffeine Dose and
+Study Conditions
+Aim
+Effects
+Reference
+Primary cortical neurons from
+12- to 17-day-old cultures from 3xTg
+(APPswe, PS1/M146V KI
+and tau P301L) mouse embryos
+Caffeine: 25 mM
+To investigate the effects of
+caffeine treatment on disorders
+in Ca2+ homeostasis in
+the primary cortical neurons
+obtained from 3xTg-AD mice,
+assessed by microﬂuorimetric
+measurements of Ca2+
+concentration.
+Caffeine treatment increased Ca2+ content in the cortical neurons of
+3xTg-AD mice. Caffeine increased release of Ca2+ from
+RyR-sensitive Ca2+ stores. Enhanced Ca2+ response to the caffeine
+was probably associated with an increased expression of RyRs in the
+cortical neurons.
+[107]
+Prefrontal cortex brain slices
+from 3xTg (APPswe, PS1/M146V KI, and tau
+P130L) mice
+(1- to 3-month-old)
+Caffeine: 10 mM
+To investigate the relationship between
+Ca2+ inﬂux by NMDA receptors and RyR
+activation
+in 3xTg-AD mice.
+Caffeine stimulated RyRs increasing synaptic excitability. RyR and
+NMDA receptor activation increased Ca2+ release in 3xTg-AD mice.
+[163]
+Human neuroblastoma SH-SY5Y cells
+treated with 2 µM Aβ25–35
+or 10 µM AlCl3 or combined
+Caffeine: 10 µM;
+caffeine: 1-100 µM in the cell
+viability test
+To investigate the role of A1R
+and A2AR in the neuroprotective activity
+of caffeine in the AlCl3- and
+Aβ25–35-induced models of AD
+in human SH-SY5Y
+neuroblastoma cells.
+Neuroprotective effect of caffeine observed in the combined AlCl3-
+and Aβ25–35 -induced model of neurotoxicity required a dual
+antagonism of A1R and A2AR (probably due to combined
+involvement in the restoration of Ca2+ homeostasis). Caffeine
+prevented neuronal cell death and exerted antioxidant activity
+(reduced ROS production, increased SOD activity and decreased
+MDA concentration).
+[164]
+Human neuroblastoma SH-SY5Y cells
+treated with 20 µM Aβ25–35
+Caffeine:
+0.6 or 1 mM
+To investigate the mechanism
+of neuroprotective activity of
+caffeine against Aβ-induced
+neurotoxicity in the human
+neuroblastoma SH-SY5Y cells.
+Caffeine prevented Aβ-induced toxicity in neuronal cells, which
+probably resulted from the blockade of adenosine receptors (A1 and
+A2A), blockade of NMDA receptors and activation of RyRs.
+[165]
+Primary hippocampal neurons from 2- to
+5-day-old
+Sprague-Dawley rats or
+dorsal root ganglion (DRG) from
+1- to 4-day-old Sprague-Dawley rats; both
+transfected with human APP fused to EGFP
+or mutant
+h-tau protein fused to DsRed2
+Caffeine: 50 µM
+To investigate the effects of
+caffeine and various drugs
+treatment after viral delivery
+of mutated APP and h-tau
+protein in the primary
+hippocampal cells and DRG
+cells on the degeneration and
+neuronal cell death.
+Experiments demonstrated that delivering mutated APP and h-tau
+protein accelerated neuronal cell death and morphological damage.
+Caffeine administration ameliorated APP-induced and tau-induced
+neuronal damage. Caffeine treatment exerted neuroprotective
+effects in APP-induced and tau-induced models (prevented
+morphological damage in both models, increasing the number of
+healthy neurons).
+[166]
+3xTg—triple-transgenic. A1R—adenosine A1 receptor. A2AR—adenosine A2A receptor. Aβ—amyloid β. AD—Alzheimer’s disease. AlCl3—aluminum chloride. APP—amyloid precursor protein. DRG—
+dorsal root ganglion. EGFP—enhanced green ﬂuorescent protein. h-tau—human tau. MDA—malondialdehyde. NMDA—N-methyl-D-aspartate. ROS—reactive oxygen species. RyR—ryanodine receptor.
+SOD—superoxide dismutase.
+
+Nutrients 2021, 13, 537
+21 of 33
+5.3. In Silico Studies
+In silico studies indicated that caffeine may be useful as an anti-amyloidogenic agent
+in the prevention of AD [167]. Caffeine was studied in silico as a potential molecule
+that destabilizes preformed Aβ protoﬁlaments. The molecular dynamics simulations and
+calculations indicated that the mechanism of caffeine action may be associated with the
+disruption of inter-chain hydrogen bonds and disorganization of secondary structure con-
+formation of Aβ [167]. In another study, molecular dynamic simulations demonstrated
+that caffeine inhibited the self-assembly of Aβ oligomerization by interference with the
+hydrophobic interaction between Aβ16-22 peptides; the effect was greater when caffeine
+concentration in the water solution was higher [168]. In silico studies predicted caffeine
+to be a potential AChE inhibitor [169]. An improvement of cholinergic system transmis-
+sion was also revealed in silico molecular docking study, where a coffee and green tea
+constituent—EGCG inhibited AChE and butyrylcholinesterase [170].
+6. Discussion
+So far no drugs have been proven to be effective in reversing or stopping AD. Despite
+numerous studies having been conducted in recent years, no new drugs have been reg-
+istered by the FDA for almost 20 years [171]. Due to the not fully understood, complex
+pathomechanism of AD and numerous clinical failures of anti-amyloid and anti-tau drugs,
+it is necessary to look at strategies involving modifying factors connected with the style of
+life or dietary factors which potentially would counteract the development of neurodegen-
+erative changes or delay AD progression. Caffeine, or rather its sources (coffee, tea, yerba
+mate), are considered factors which may exert beneﬁcial effects in the AD—prevent the
+risk of developing AD and/or delay the progression of AD [81,82].
+To investigate the effects of caffeine in AD, numerous studies have been undertaken
+on different experimental models. In those studies, caffeine was administered in different
+doses. Caffeine was administered in drinking water, in the diet, or once/twice daily p.o. or
+i.p. The descriptions of the doses (low, moderate, high) used by authors in their reports
+on in vitro and in vivo studies are not unequivocal. Caffeine consumption in humans
+differs in a wide range. A low caffeine intake is considered to be below 200 mg/day
+(<2.86 mg/kg/day), moderate between 200 and 400 mg/day (2.86–5.71 mg/kg/day) and
+high above 400 mg/day (>5.71 mg/kg/day) [8,172]. Based on the body surface area
+conversion ratio, the doses administered to humans are converted into animal doses.
+Thus, based on the calculations [173], the corresponding rat doses are as follows: low
+(<17.7 mg/kg/day), moderate (17.7–35.4 mg/kg/day) and high (>35.4 mg/kg/day).
+Equivalent mouse doses under 35.1 mg/kg/day are considered as low, between 35.1
+and 70.3 mg/kg/day as moderate and above 70.3 mg/kg/day as high [172–174]. In most of
+the issues discussed in the present article about animal studies, caffeine was administered
+in doses corresponding to the human doses; the exact doses used in particular experiments
+are shown in Tables 1–3.
+Generally, experimental studies on caffeine effects in AD demonstrated some ben-
+eﬁcial inﬂuence on cognition. Its neuroprotective, antioxidant, anti-inﬂammatory and
+antiapoptotic activities in the neuronal tissues, led to alleviation of cognitive impair-
+ment [104,119,122,123,128,131–133,136,141–143,155,156,158,160,161,164–166]. Many stud-
+ies pointed out on favorable effects of caffeine on the hallmarks of the disease: Aβ or
+hyperphosphorylated tau protein [104,117,129,131,134,156,161,162,164–166].
+Since the main mechanism of caffeine action is associated with a non-selective blockade
+of adenosine receptors (mainly A1R and A2AR), this problem was undertaken in many
+studies. In fact, both adenosine receptors (A1R and A2AR) are present in synapses of
+glutamatergic, GABAergic, cholinergic, dopaminergic, serotoninergic and noradrenergic
+system, and adenosine is involved in neuromodulation of the central nervous system
+(CNS) [175]. Adenosine has been shown to reduce the release of various neurotransmitters
+including glutamate, ACh, dopamine, serotonin and noradrenaline in CNS in experimental
+models, whereas caffeine, as an adenosine receptor antagonist, to promote the release [22].
+
+Nutrients 2021, 13, 537
+22 of 33
+In fact, the favorable effects of caffeine were shown to result from the blockade of A2AR
+(but probably not A1R) in mice with AD induced by Aβ25–35 i.c.v. administration [117], in
+Aβ-induced neurotoxicity in the primary cerebral cultures in rats [176] and in STZ-induced
+AD in rats [141]. However, A1R may be involved in the protective caffeine activity in
+cholesterol-enriched diet-induced AD in rabbits [156]. Moreover, the blockade of both
+A1R and A2AR was responsible for beneﬁcial activity of caffeine in in vitro model of
+combined neurotoxicity induced by AlCl3 and Aβ25–35 in human neuroblastoma SH-SY5Y
+cells [164] and in scopolamine-induced memory deﬁcit in mice [115]. Dual blockade was
+also considered a probable mechanism of caffeine neuroprotective activity in Aβ-induced
+toxicity in human neuroblastoma SH-SY5Y cells [165].
+Beneﬁcial effects of caffeine resulting from the blockade of adenosine receptors (A1R
+and A2AR) have been conﬁrmed by studies with selective A1R and A2AR antagonists. The
+studies with use of selective A2AR antagonists (MSX-3 and SCH58261) demonstrated that
+A2AR blockade prevented spatial memory deﬁcits and development of amyloid burden
+in the double transgenic APPswe/PS1∆E9 mice [177] and improved synaptic plasticity
+deﬁcits in double transgenic APPswe/PS1 mice [178]. Similar favorable effects of selec-
+tive A2AR antagonist administration (SCH58261) were observed also in 3xTg (APPswe,
+PS1/M146V and tau P301L) mice [179] and in Aβ-induced neurotoxicity and synaptotoxi-
+city in rats [120,140]. Deletion of A2AR prevented memory impairment and reduced tau
+protein hyperphosphorylation in THY-Tau22 transgenic mice [139]. Similar effects were
+observed after caffeine treatment in THY-Tau22 mice [104]. However, SCH58261 did not
+favorably affect scopolamine-induced and MK-801-induced acute memory impairment sug-
+gesting that selective A2AR antagonist exerts beneﬁcial effects only in slowly progressing
+memory impairment related to synaptic deterioration [120]. However, blockade of A2AR
+(by a selective antagonist—SCH58261), and also A1R (by a selective antagonist—DPCPX)
+led to beneﬁcial effects in a scopolamine-induced model in mice [153], conﬁrming the
+effect observed after caffeine treatment in this mice model [115], but inconsistent with
+conclusions drawn by other authors [180].
+It should be pointed out that the effects of caffeine on adenosine transmission were
+not consistent in all studied models. For example, no inﬂuence of caffeine on A1R and
+A2AR density was observed in APPswe mice [129]. Moreover, chronic caffeine intake did
+not result in persistent up-regulation of A1AR in rat brains excluding this mechanism of
+action as the reason for the neuroprotective effect of caffeine in rats [181]. It should be
+emphasized that the mechanism of caffeine action on adenosine system is dose-dependent,
+since, for example, in mice, acute caffeine intake at lower doses (<50 mg/kg) blocks mostly
+A1R and at higher non-toxic doses (<100 mg/kg) A2AR [117].
+Although numerous studies indicate that antagonistic effect of caffeine on adenosine
+receptors may be responsible for alleviation of memory deﬁcits, it is not the only possible
+mechanism of beneﬁcial caffeine action in AD. From among other caffeine mechanisms, the
+inhibitory effect on PDEs and agonistic effect on RyRs were investigated in in vitro models
+of AD disorders. Caffeine inhibited PDE, restoring the mitochondrial functions in vitro in
+mouse N2a-APPswe cells [133]. Activation of RyRs by caffeine led to an increased Ca2+
+release from intracellular stores in the cortical cultures from 3xTg-AD mice [107] and in
+the hippocampal cultures from normal rats [24]. However, the caffeine doses required to
+inhibit PDEs and stimulate the RyRs are not achievable in a normal diet and could exert
+toxic effects in humans [9,23,25,26].
+Numerous mechanisms of caffeine action, which may be relevant to its favorable
+effects in AD models were demonstrated in studies on cell cultures. For example, in vitro
+caffeine decreased Aβ level and Aβ1-42 deposition, and reduced BACE-1 activity in human
+neuroblastoma SH-SY5Y cells [182], and inhibited oligomerization of Aβ in N2a/APP
+cells [183]. Also decreased expression of BACE-1 and APP was demonstrated after caffeine
+treatment in human neuroblastoma SH-SY5Y cells exposed to AlCl3 and Aβ [164]. In addi-
+tion, the beneﬁcial effect of caffeine on Aβ could be associated with antagonism of NMDA
+receptors or agonism of RyRs [165]. Moreover, brewed coffee reduced Aβ production
+
+Nutrients 2021, 13, 537
+23 of 33
+by a decrease in BACE-1 expression (which was not associated with caffeine activity) in
+human neuroblastoma SH-SY5Y cells [184]. Brewed coffee increased expression of vascular
+endothelial growth factor (VEGF)in SH-SY5Y cells, indicating possible neuroprotective
+effect [185]. The effects of brewed coffee treatment suggest that the neuroprotective activity
+may result not only from caffeine activity, but also from that of other coffee components.
+Since AChE inhibitors (donepezil, rivastigmine, galantamine) currently play the main
+role in the treatment of AD, the effects of caffeine on AChE were also studied. In vivo
+studies demonstrated weak anticholinesterase activity of caffeine in normal rats [172], in
+rats with AlCl3-induced neurotoxicity [143] and in a nematode AD model [161]. In vitro
+studies on caffeine and donepezil effects in the rat brain tissue homogenate demonstrated
+that both drugs inhibited AChE, whereas the effect was stronger after the combined
+treatment (with stronger inhibition at higher caffeine concentration). On the other hand,
+in vivo studies did not conﬁrm the augmentation of donepezil anticholinesterase activity
+by caffeine, moreover administration of high-dose caffeine with donepezil elevated the
+AChE activity [172]. This may suggest adverse effects of high caffeine consumption during
+the treatment of AD with AChE inhibitors.
+The mechanism of favorable actions of caffeine on AD may be connected with the
+reduction of neuroinﬂammation [5,186]. AD and other neurodegenerative diseases are
+associated with an increased level of inﬂammation and oxidative stress parameters. Numer-
+ous studies showed that caffeine reduced parameters of oxidative stress. Caffeine exerted
+antioxidant activity in transgenic [104,131] and non-transgenic rodent models [119,123,143],
+a rabbit model [156], and nematode models [158,161] of AD.
+Neuroprotective, anti-inﬂammatory and antiapoptotic activity of caffeine demon-
+strated in different experimental models of AD in vivo was reﬂected in in vitro studies.
+Caffeine exerted antiapoptotic activity in APPswe transgenic mice [128,131] and in the
+D-galactose-treated rats [119]. Anti-inﬂammatory effect of caffeine administration was
+associated with the reduced level of proinﬂammatory cytokines in THY-Tau22 transgenic
+mice [104], in AlCl3-induced neurotoxicity in rats [143] and in the D-galactose-treated
+rats [119].
+The caffeine effects presented in studies performed in experimental models of AD are
+presented in Figure 1.
+It must be stated that caffeine shares antioxidant and anti-inﬂammatory effects, lead-
+ing to neuroprotection, with numerous phenolic compounds, many of them occurring
+together with caffeine in its dietary sources (coffee, tea, yerba mate). In fact, crude caffeine
+(containing 1% of phenolic acids) exerted stronger favorable effects than pure caffeine [131].
+Also, other substances present in coffee or tea like chlorogenic acid [187–190], caffeic
+acid [79,189,191], EGCG [3,79], ferulic acid [76] exerted beneﬁcial effects in experimental
+models of AD.
+It should be pointed out that caffeine did not exert beneﬁcial effects in all experiments
+on AD experimental models. Caffeine administration did not favorably affect behavioral
+disorders studied in the behavioral tests in 3xTg-AD mice. Intensiﬁcation of BPSD-like
+behaviors and anxiety-related behaviors was demonstrated after caffeine treatment in those
+mice [135]. The adverse effect of caffeine intake during pregnancy in THY-Tau22 transgenic
+rats was demonstrated in the behavioral tests in offspring, in which caffeine accelerated
+the occurrence of cognitive deﬁcits [105]. Detrimental effects of caffeine intake rather than
+that of other coffee components during pregnancy (low birth weight of infant, increased
+risk of pregnancy loss and childhood acute leukemia) was also conﬁrmed in an umbrella
+review on the impact of coffee and caffeine on health outcomes [14,16].
+
+Nutrients 2021, 13, 537
+24 of 33
+Figure 1. Caffeine effects reported in studies performed in experimental models of Alzheimer’s disease (AD). Aβ—amyloid
+β. AChE—acetylcholinesterase. BACE-1—β-site amyloid-precursor-protein-cleaving enzyme-1. BAX—B-cell lymphoma 2-
+associated X protein. Bcl-2—B-cell lymphoma protein-2. BDNF—brain-derived neurotrophic factor. CCl—chemokine ligand
+factor. DAF-16—abnormal dauer formation 16. EAAT3—excitatory amino acid transporter 3. GABAA—γ-aminobutyric acid
+type A receptor. GFAP—glial ﬁbrillary acidic protein. GSH—reduced glutathione. GSH/GSSG ratio—reduced/oxidized
+glutathione ratio. IL—interleukin. MDA—malondialdehyde. MnSOD—manganese superoxide dismutase. NF-κB—nuclear
+factor-κB. NMDA—N-methyl-D-aspartate. Nrf2—nuclear factor erythroid 2-related factor 2. PDE—phosphodiesterase.
+ROS—reactive oxygen species. RyR—ryanodine receptor. skn-1—skinhead 1. SOD—superoxide dismutase. TNF-α—tumor
+necrosis factor α. TrkB—tropomyosin-related kinase receptor B.
+As was mentioned before, caffeine (as a component of coffee, tea, yerba mate, cola) is
+the most widely used psychostimulant [8,23,192,193]. The safety of caffeine consumption
+depends on the dose, age, sex and health condition [12,13,194]. Caffeine intake in coffee,
+tea, yerba mate, cola and other sources at doses up to 400 mg/day is considered safe
+for healthy adults, except pregnant women (<300 mg/day) [14,194]. In children and
+adolescents, caffeine consumption up to 2.5 mg/kg/day was not associated with overt
+adverse effects [14]. Caffeine intake may negatively affect pregnant women, lactating
+women, children, adolescents, people with cardiovascular disorders, people with gastric
+and duodenal ulcer disease and smokers [194,195]. Caffeine intake before bedtime is
+associated with negative impact on sleep condition, although sleep avoidance and increased
+vigilance and arousal may be desirable [14]. The adverse caffeine effects on the behavior
+observed at higher doses intake are anxiety, jitteriness and mood disorders [8,13,14,196].
+Negative effect of caffeine consumption was demonstrated also in children, including
+reduced sleep time, impulsiveness, greater emotional lability and depression [197].
+Experimental studies, reviewed in the present article, indicate rather favorable effects
+of caffeine in animal models of AD. However, results of such studies may not be fully
+relevant to AD in humans. The AD models have been used to investigate many potential
+
+Nutrients 2021, 13, 537
+25 of 33
+drugs that have proven to be effective in the animals, but this has not necessarily been
+conﬁrmed in the human studies. Multiple potential disease-modifying drug candidates
+(γ-secretase inhibitors, BACE-1 inhibitors, monoclonal antibodies, anti-Aβ antibodies, tau
+aggregation inhibitors) failed in the further phases of the trials [36,51,52,171,198,199].
+The studies on transgenic models were limited to the mouse models. The rat studies,
+carried out on non-transgenic models, were less numerous. In many of the experiments
+caffeine was administered in drinking water or in the diet, the effect of caffeine used in
+bolus doses at regular time intervals, over a certain period of time may be different.
+Another limitation of the experimental studies is that most of them were carried out
+on male animals (or the animal sex was not stated), whereas human studies indicate that
+the effect of caffeine on cognition is sex-dependent [95,200,201]. For example, caffeine
+intake was associated with better cognitive performance in older women, but not in
+men [202]. On the other hand, the beneﬁcial effects of caffeine consumption were observed
+in older men but not in women [200]. Moreover, contradictory conclusions have been
+drawn from the analysis of the relationship between the sex-dependent effects of caffeine
+consumption on different cognitive outcomes: there was no signiﬁcant association between
+caffeine administration and cognitive performance in men; signiﬁcant interaction between
+caffeine intake and cognitive performance was observed only in women [95,201]. The
+sex-dependent effect of caffeine could result from changes in circulating steroid hormones
+or differences in the caffeine metabolism (probably resulting from higher xanthine oxidase
+activity in women) in female and male organisms [95,200].
+7. Conclusions
+In conclusion, the studies carried out on experimental models generally support the
+notion that dietary caffeine consumption may exert some beneﬁcial effects in AD. However,
+further studies are necessary to elucidate the role of caffeine in the effects of its sources on
+cognition and possibly AD risk.
+Author Contributions: Conceptualization, J.F. and P.L.; writing—original draft preparation, P.L.,
+M.Z., B.K., A.T. and J.F.; writing—review and editing, P.L. and J.F.; supervision, J.F. All authors have
+read and agreed to the published version of the manuscript.
+Funding: This research received no external funding.
+Acknowledgments: The article was partially prepared by the members of Student Scientific Circle in
+the Department of Pharmacology, Faculty of Pharmaceutical Sciences in Sosnowiec (M.Z., B.K. and A.T.).
+Conﬂicts of Interest: The authors declare no conﬂict of interest.
+References
+1.
+Lashley, T.; Schott, J.M.; Weston, P.; Murray, C.E.; Wellington, H.; Keshavan, A.; Foti, S.C.; Foiani, M.; Toombs, J.; Rohrer, J.D.; et al.
+Molecular biomarkers of Alzheimer’s disease: Progress and prospects. Dis. Model. Mech. 2018, 11, dmm031781. [CrossRef]
+2.
+Wightman, E.L. Potential beneﬁts of phytochemicals against Alzheimer’s disease. Proc. Nutr. Soc. 2017, 76, 106–112. [CrossRef]
+[PubMed]
+3.
+Andrade, S.; Ramalho, M.J.; Loureiro, J.A.; do Carmo Pereira, M. Natural compounds for Alzheimer’s disease therapy: A
+systematic review of preclinical and clinical studies. Int. J. Mol. Sci. 2019, 20, 2313. [CrossRef] [PubMed]
+4.
+Howes, M.-J.R.; Perry, N.S.L.; Vásquez-Londoño, C.; Perry, E.K. Role of phytochemicals as nutraceuticals for cognitive functions
+affected in ageing. Br. J. Pharmacol. 2020, 177, 1294–1315. [CrossRef] [PubMed]
+5.
+Szczechowiak, K.; Diniz, B.S.; Leszek, J. Diet and Alzheimer’s dementia—Nutritional approach to modulate inﬂammation.
+Pharmacol. Biochem. Behav. 2019, 184, 172743. [CrossRef]
+6.
+Scarmeas, N.; Anastasiou, C.A.; Yannakoulia, M. Nutrition and prevention of cognitive impairment. Lancet Neurol. 2018, 17,
+1006–1015. [CrossRef]
+7.
+Habtemariam, S. Natural products in Alzheimer’s disease therapy: Would old therapeutic approaches ﬁx the broken promise of
+modern medicines? Molecules 2019, 24, 1519. [CrossRef]
+8.
+Cappelletti, S.; Piacentino, D.; Sani, G.; Aromatario, M. Caffeine: Cognitive and physical performance enhancer or psychoactive
+drug? Curr. Neuropharmacol. 2015, 13, 71–88. [CrossRef]
+9.
+Fredholm, B.B.; Bättig, K.; Holmén, J.; Nehlig, A.; Zvartau, E.E. Actions of caffeine in the brain with special reference to factors
+that contribute to its widespread use. Pharmacol. Rev. 1999, 51, 83–133.
+
+Nutrients 2021, 13, 537
+26 of 33
+10.
+Ashihara, H.; Kato, M.; Crozier, A. Distribution, biosynthesis and catabolism of methylxanthines in plants. Handb. Exp. Pharmacol.
+2011, 200, 11–31. [CrossRef]
+11.
+Reyes, C.M.; Cornelis, M.C. Caffeine in the diet: Country-level consumption and guidelines. Nutrients 2018, 10, 1772. [CrossRef]
+12.
+Verster, J.C.; Koenig, J. Caffeine intake and its sources: A review of national representative studies. Crit. Rev. Food Sci. Nutr. 2018,
+58, 1250–1259. [CrossRef]
+13.
+EFSA NDA Panel (EFSA Panel on Dietetic Products, Nutrition and Allergies). Scientiﬁc opinion on the safety of caffeine. EFSA J.
+2015, 13, 4102. [CrossRef]
+14.
+Wikoff, D.; Welsh, B.T.; Henderson, R.; Brorby, G.P.; Britt, J.; Myers, E.; Goldberger, J.; Lieberman, H.R.; O’Brien, C.; Peck, J.; et al.
+Systematic review of the potential adverse effects of caffeine consumption in healthy adults, pregnant women, adolescents, and
+children. Food Chem. Toxicol. 2017, 109, 585–648. [CrossRef]
+15.
+Poole, R.; Kennedy, O.J.; Roderick, P.; Fallowﬁeld, J.A.; Hayes, P.C.; Parkes, J. Coffee consumption and health: Umbrella review of
+meta-analyses of multiple health outcomes. BMJ 2017, 359, j5024. [CrossRef] [PubMed]
+16.
+Grosso, G.; Godos, J.; Galvano, F.; Giovannucci, E.L. Coffee, caffeine, and health outcomes: An umbrella review. Annu. Rev. Nutr.
+2017, 37, 131–156. [CrossRef] [PubMed]
+17.
+Eskelinen, M.H.; Ngandu, T.; Tuomilehto, J.; Soininen, H.; Kivipelto, M. Midlife coffee and tea drinking and the risk of late-life
+dementia: A population-based CAIDE study. J. Alzheimers Dis. 2009, 16, 85–91. [CrossRef]
+18.
+Maia, L.; de Mendonça, A. Does caffeine intake protect from Alzheimer’s disease? Eur. J. Neurol. 2002, 9, 377–382. [CrossRef]
+19.
+Hussain, A.; Tabrez, E.S.; Mavrych, V.; Bolgova, O.; Peela, J.R. Caffeine: A potential protective agent against cognitive decline in
+Alzheimer’s disease. Crit. Rev. Eukaryot. Gene Expr. 2018, 28, 67–72. [CrossRef]
+20.
+Chen, J.-F.; Chern, Y. Impacts of methylxanthines and adenosine receptors on neurodegeneration: Human and experimental
+studies. Handb. Exp. Pharmacol. 2011, 200, 267–310. [CrossRef]
+21.
+Alasmari, F. Caffeine induces neurobehavioral effects through modulating neurotransmitters. Saudi Pharm. J. 2020, 28, 445–451.
+[CrossRef] [PubMed]
+22.
+McLellan, T.M.; Caldwell, J.A.; Lieberman, H.R. A review of caffeine’s effects on cognitive, physical and occupational performance.
+Neurosci. Biobehav. Rev. 2016, 71, 294–312. [CrossRef] [PubMed]
+23.
+Kolahdouzan, M.; Hamadeh, M.J. The neuroprotective effects of caffeine in neurodegenerative diseases. CNS Neurosci. Ther. 2017,
+23, 272–290. [CrossRef] [PubMed]
+24.
+Isokawa, M. Caffeine-induced suppression of GABAergic inhibition and calcium-independent metaplasticity. Neural Plast. 2016,
+2016, 1239629. [CrossRef]
+25.
+Simonin, C.; Duru, C.; Salleron, J.; Hincker, P.; Charles, P.; Delval, A.; Youssov, K.; Burnouf, S.; Azulay, J.-P.; Verny, C.; et al.
+Association between caffeine intake and age at onset in Huntington’s disease. Neurobiol. Dis. 2013, 58, 179–182. [CrossRef]
+[PubMed]
+26.
+Ribeiro, J.A.; Sebastião, A.M. Caffeine and adenosine. J. Alzheimers Dis. 2010, 20, S3–S15. [CrossRef]
+27.
+Yang, J.Y.; Yang, G.; Ren, J.; Zhao, J.; Li, S. Caffeine suppresses GABA receptor-mediated current in rat primary sensory neurons
+via inhibition of intracellular phosphodiesterase. Neurophysiology 2015, 47, 108–114. [CrossRef]
+28.
+Kaczmarczyk-Sedlak, I.; Folwarczna, J.; Sedlak, L.; Zych, M.; Wojnar, W.; Szumi´nska, I.; Wygl˛edowska-Promie´nska, D.; Mrukwa-
+Kominek, E. Effect of caffeine on biomarkers of oxidative stress in lenses of rats with streptozotocin-induced diabetes. Arch. Med.
+Sci. 2019, 15, 1073–1080. [CrossRef]
+29.
+Paiva, C.; Beserra, B.; Reis, C.; Dorea, J.G.; Da Costa, T.; Amato, A.A. Consumption of coffee or caffeine and serum concentration
+of inﬂammatory markers: A systematic review. Crit. Rev. Food Sci. Nutr. 2019, 59, 652–663. [CrossRef]
+30.
+Zampelas, A.; Panagiotakos, D.B.; Pitsavos, C.; Chrysohoou, C.; Stefanadis, C. Associations between coffee consumption and
+inﬂammatory markers in healthy persons: The ATTICA study. Am. J. Clin. Nutr. 2004, 80, 862–867. [CrossRef]
+31.
+Alzheimer’s Association. 2015 Alzheimer’s disease facts and ﬁgures. Alzheimers Dement. 2015, 11, 332–384. [CrossRef]
+32.
+Soto-Rojas, L.O.; de la Cruz-López, F.; Torres, M.A.O.; Viramontes-Pintos, A.; del Cárdenas-Aguayo, M.C.; Meraz-Ríos, M.A.;
+Salinas-Lara, C.; Florán-Garduño, B.; Luna-Muñoz, J. Neuroinﬂammation and alteration of the blood-brain barrier in Alzheimer’s
+disease. In Alzheimer’s Disease—Challenges for the Future; IntechOpen: London, UK, 2015.
+33.
+Pini, L.; Pievani, M.; Bocchetta, M.; Altomare, D.; Bosco, P.; Cavedo, E.; Galluzzi, S.; Marizzoni, M.; Frisoni, G.B. Brain atrophy in
+Alzheimer’s disease and aging. Aging Res. Rev. 2016, 30, 25–48. [CrossRef] [PubMed]
+34.
+Cerejeira, J.; Lagarto, L.; Mukaetova-Ladinska, E.B. Behavioral and psychological symptoms of dementia. Front. Neurol. 2012, 3,
+73. [CrossRef]
+35.
+Zhang, L.; Chen, C.; Mak, M.S.; Lu, J.; Wu, Z.; Chen, Q.; Han, Y.; Li, Y.; Pi, R. Advance of sporadic Alzheimer’s disease animal
+models. Med. Res. Rev. 2020, 40, 431–458. [CrossRef]
+36.
+Atri, A. Current and future treatments in Alzheimer’s disease. Semin. Neurol. 2019, 39, 227–240. [CrossRef]
+37.
+Drummond, E.; Wisniewski, T. Alzheimer’s disease: Experimental models and reality. Acta Neuropathol. 2017, 133, 155–175.
+[CrossRef]
+38.
+Morley, J.E.; Farr, S.A.; Nguyen, A.D. Alzheimer disease. Clin. Geriatr. Med. 2018, 34, 591–601. [CrossRef] [PubMed]
+39.
+Cavanaugh, S.E.; Pippin, J.J.; Barnard, N.D. Animal models of Alzheimer disease: Historical pitfalls and a path forward. ALTEX
+2014, 31, 279–302. [CrossRef]
+
+Nutrients 2021, 13, 537
+27 of 33
+40.
+Shi, Y.; Holtzman, D.M. Interplay between innate immunity and Alzheimer disease: APOE and TREM2 in the spotlight. Nat. Rev.
+Immunol. 2018, 18, 759–772. [CrossRef]
+41.
+Riphagen, J.M.; Ramakers, I.H.G.M.; Freeze, W.M.; Pagen, L.H.G.; Hanseeuw, B.J.; Verbeek, M.M.; Verhey, F.R.J.; Jacobs, H.I.L.
+Neurobiology of aging linking APOE-ε4, blood-brain barrier dysfunction, and inﬂammation to Alzheimer’s pathology. Neurobiol.
+Aging 2020, 85, 96–103. [CrossRef] [PubMed]
+42.
+Chen, Y.; Strickland, M.R.; Soranno, A.; Holtzman, D.M. Apolipoprotein E: Structural insights and links to Alzheimer disease
+pathogenesis. Neuron 2020, 109, 205–221. [CrossRef]
+43.
+Reitz, C.; Brayne, C.; Mayeux, R. Epidemiology of Alzheimer disease. Nat. Rev. Neurol. 2011, 7, 137–152. [CrossRef]
+44.
+Hickman, R.A.; Faustin, A.; Wisniewski, T. Alzheimer disease and its growing epidemic: Risk factors, biomarkers, and the urgent
+need for therapeutics. Neurol. Clin. 2016, 34, 941–953. [CrossRef]
+45.
+Esteves, I.M.; Lopes-Aguiar, C.; Rossignoli, M.T.; Ruggiero, R.N.; Broggini, A.C.S.; Bueno-Junior, L.S.; Kandratavicius, L.;
+Monteiro, M.R.; Romcy-Pereira, R.N.; Leite, J.P. Chronic nicotine attenuates behavioral and synaptic plasticity impairments in a
+streptozotocin model of Alzheimer’s disease. Neuroscience 2017, 353, 87–97. [CrossRef] [PubMed]
+46.
+de la Monte, S.M.; Tong, M.; Wands, J.R. The 20-year voyage aboard the Journal of Alzheimer’s Disease: Docking at “type
+3 diabetes”, environmental/exposure factors, pathogenic mechanisms, and potential treatments. J. Alzheimers Dis. 2018, 62,
+1381–1390. [CrossRef] [PubMed]
+47.
+Lester-Coll, N.; Rivera, E.J.; Soscia, S.J.; Doiron, K.; Wands, J.R.; de la Monte, S.M. Intracerebral streptozotocin model of type 3
+diabetes: Relevance to sporadic Alzheimer’s disease. J. Alzheimers Dis. 2006, 9, 13–33. [CrossRef]
+48.
+Cheignon, C.; Tomas, M.; Bonnefont-Rousselot, D.; Faller, P.; Hureau, C.; Collin, F. Oxidative stress and the amyloid beta peptide
+in Alzheimer’s disease. Redox Biol. 2018, 14, 450–464. [CrossRef]
+49.
+Sadigh-Eteghad, S.; Sabermarouf, B.; Majdi, A.; Talebi, M.; Farhoudi, M.; Mahmoudi, J. Amyloid-beta: A crucial factor in
+Alzheimer’s disease. Med. Princ. Pract. 2015, 24, 1–10. [CrossRef] [PubMed]
+50.
+Anand, A.; Patience, A.A.; Sharma, N.; Khurana, N. The present and future of pharmacotherapy of Alzheimer’s disease: A
+comprehensive review. Eur. J. Pharmacol. 2017, 815, 364–375. [CrossRef] [PubMed]
+51.
+Jouanne, M.; Rault, S.; Voisin-Chiret, A.-S. Tau protein aggregation in Alzheimer’s disease: An attractive target for the develop-
+ment of novel therapeutic agents. Eur. J. Med. Chem. 2017, 139, 153–167. [CrossRef] [PubMed]
+52.
+Du, X.; Wang, X.; Geng, M. Alzheimer’s disease hypothesis and related therapies. Transl. Neurodegener. 2018, 7, 2. [CrossRef]
+[PubMed]
+53.
+Heneka, M.T.; Carson, M.J.; El Khoury, J.; Landreth, G.E.; Brosseron, F.; Feinstein, D.L.; Jacobs, A.H.; Wyss-Coray, T.; Vitorica, J.;
+Ransohoff, R.M.; et al. Neuroinﬂammation in Alzheimer’s disease. Lancet Neurol. 2015, 14, 388–405. [CrossRef]
+54.
+Calsolaro, V.; Edison, P. Neuroinﬂammation in Alzheimer’s disease: Current evidence and future directions. Alzheimers Dement.
+2016, 12, 719–732. [CrossRef] [PubMed]
+55.
+Hampel, H.; Mesulam, M.-M.; Cuello, A.C.; Farlow, M.R.; Giacobini, E.; Grossberg, G.T.; Khachaturian, A.S.; Vergallo, A.; Cavedo,
+E.; Snyder, P.J.; et al. The cholinergic system in the pathophysiology and treatment of Alzheimer’s disease. Brain 2018, 141,
+1917–1933. [CrossRef]
+56.
+Ferreira-Vieira, T.H.; Guimaraes, I.M.; Silva, F.R.; Ribeiro, F.M. Alzheimer’s disease: Targeting the cholinergic system. Curr.
+Neuropharmacol. 2016, 14, 101–115. [CrossRef]
+57.
+Cellai, L.; Carvalho, K.; Faivre, E.; Deleau, A.; Vieau, D.; Buée, L.; Blum, D.; Mériaux, C.; Gomez-Murcia, V. The adenosinergic
+signaling: A complex but promising therapeutic target for Alzheimer’s disease. Front. Neurosci. 2018, 12, 520. [CrossRef]
+[PubMed]
+58.
+Rahman, A. The role of adenosine in Alzheimer’s disease. Curr. Neuropharmacol. 2009, 7, 207–216. [CrossRef]
+59.
+Wang, R.; Reddy, P.H. Role of glutamate and NMDA receptors in Alzheimer’s disease. J. Alzheimers Dis. 2017, 57, 1041–1048.
+[CrossRef]
+60.
+Danysz, W.; Parsons, C.G. Alzheimer’s disease, β-amyloid, glutamate, NMDA receptors and memantine—Searching for the
+connections. Br. J. Pharmacol. 2012, 167, 324–352. [CrossRef]
+61.
+Takahashi, R.N.; Pamplona, F.A.; Prediger, R.D.S. Adenosine receptor antagonists for cognitive dysfunction: A review of animal
+studies. Front. Biosci. 2008, 13, 2614–2632. [CrossRef]
+62.
+Cie´slak, M.; Wojtczak, A. Role of purinergic receptors in the Alzheimer’s disease. Purinergic Signal. 2018, 14, 331–344. [CrossRef]
+63.
+Liu, K.Y.; Stringer, A.E.; Reeves, S.J.; Howard, R.J. The neurochemistry of agitation in Alzheimer’s disease: A systematic review.
+Aging Res. Rev. 2018, 43, 99–107. [CrossRef] [PubMed]
+64.
+Beam, C.R.; Kaneshiro, C.; Jang, J.Y.; Reynolds, C.A.; Pedersen, N.L.; Gatz, M. Differences between women and men in incidence
+rates of dementia and Alzheimer’s disease. J. Alzheimers Dis. 2018, 64, 1077–1083. [CrossRef]
+65.
+Podcasy, J.L.; Epperson, C.N. Considering sex and gender in Alzheimer disease and other dementias. Dialogues Clin. Neurosci.
+2016, 18, 437–446. [CrossRef]
+66.
+Ferretti, M.T.; Iulita, M.F.; Cavedo, E.; Chiesa, P.A.; Dimech, A.S.; Chadha, A.S.; Baracchi, F.; Girouard, H.; Misoch, S.; Giacobini,
+E.; et al. Sex differences in Alzheimer disease—The gateway to precision medicine. Nat. Rev. Neurol. 2018, 14, 457–469. [CrossRef]
+67.
+Mazure, C.M.; Swendsen, J. Sex differences in Alzheimer’s disease and other dementias. Lancet Neurol. 2016, 15, 451–452.
+[CrossRef]
+
+Nutrients 2021, 13, 537
+28 of 33
+68.
+Long, J.M.; Holtzman, D.M. Alzheimer disease: An update on pathobiology and treatment strategies. Cell 2019, 179, 312–339.
+[CrossRef]
+69.
+Weller, J.; Budson, A. Current understanding of Alzheimer’s disease diagnosis and treatment. F1000Research 2018, 7, F1000
+Faculty Rev-1161. [CrossRef] [PubMed]
+70.
+McShane, R.; Westby, M.J.; Roberts, E.; Minakaran, N.; Schneider, L.; Farrimond, L.E.; Maayan, N.; Ware, J.; Debarros, J.
+Memantine for dementia. Cochrane Database Syst. Rev. 2019, 3, CD003154. [CrossRef]
+71.
+Rosini, M.; Simoni, E.; Caporaso, R.; Basagni, F.; Catanzaro, M.; Abu, I.F.; Fagiani, F.; Fusco, F.; Masuzzo, S.; Albani, D.; et al.
+Merging memantine and ferulic acid to probe connections between NMDA receptors, oxidative stress and amyloid-β peptide in
+Alzheimer’s disease. Eur. J. Med. Chem. 2019, 180, 111–120. [CrossRef] [PubMed]
+72.
+Bhat, A.; Mahalakshmi, A.M.; Ray, B.; Tuladhar, S.; Hediyal, T.A.; Manthiannem, E.; Padamati, J.; Chandra, R.; Chidambaram,
+S.B.; Sakharkar, M.K. Beneﬁts of curcumin in brain disorders. Biofactors 2019, 45, 666–689. [CrossRef] [PubMed]
+73.
+Farkhondeh, T.; Samarghandian, S.; Pourbagher-Shahri, A.M.; Sedaghat, M. The impact of curcumin and its modiﬁed formulations
+on Alzheimer’s disease. J. Cell. Physiol. 2019, 234, 16953–16965. [CrossRef] [PubMed]
+74.
+Chen, M.; Du, Z.-Y.; Zheng, X.; Li, D.-L.; Zhou, R.-P.; Zhang, K. Use of curcumin in diagnosis, prevention, and treatment of
+Alzheimer’s disease. Neural Regen. Res. 2018, 13, 742–752. [CrossRef]
+75.
+Mori, T.; Koyama, N.; Tan, J.; Segawa, T.; Maeda, M.; Town, T. Combination therapy with octyl gallate and ferulic acid improves
+cognition and neurodegeneration in a transgenic mouse model of Alzheimer’s disease. J. Biol. Chem. 2017, 292, 11310–11325.
+[CrossRef]
+76.
+Sgarbossa, A.; Giacomazza, D.; di Carlo, M. Ferulic acid: A hope for Alzheimer’s disease therapy from plants. Nutrients 2015, 7,
+5764–5782. [CrossRef] [PubMed]
+77.
+Meng, G.; Meng, X.; Ma, X.; Zhang, G.; Hu, X.; Jin, A.; Zhao, Y.; Liu, X. Application of ferulic acid for Alzheimer’s disease:
+Combination of text mining and experimental validation. Front. Neuroinform. 2018, 12, 31. [CrossRef]
+78.
+He, M.; Zhao, L.; Wei, M.-J.; Yao, W.-F.; Zhao, H.-S.; Chen, F.-J. Neuroprotective effects of (-)-epigallocatechin-3-gallate on aging
+mice induced by D-galactose. Biol. Pharm. Bull. 2009, 32, 55–60. [CrossRef]
+79.
+Polito, C.A.; Cai, Z.-Y.; Shi, Y.-L.; Li, X.-M.; Yang, R.; Shi, M.; Li, Q.-S.; Ma, S.-C.; Xiang, L.-P.; Wang, K.-R.; et al. Association of tea
+consumption with risk of Alzheimer’s disease and anti-beta-amyloid effects of tea. Nutrients 2018, 10, 655. [CrossRef] [PubMed]
+80.
+Cascella, M.; Bimonte, S.; Muzio, M.R.; Schiavone, V.; Cuomo, A. The efﬁcacy of Epigallocatechin-3-gallate (green tea) in the
+treatment of Alzheimer’s disease: An overview of pre-clinical studies and translational perspectives in clinical practice. Infect.
+Agent. Cancer 2017, 12, 36. [CrossRef]
+81.
+Oñatibia-Astibia, A.; Franco, R.; Martínez-Pinilla, E. Health beneﬁts of methylxanthines in neurodegenerative diseases. Mol. Nutr.
+Food Res. 2017, 61, 1600670. [CrossRef] [PubMed]
+82.
+Panza, F.; Solfrizzi, V.; Barulli, M.R.; Bonﬁglio, C.; Guerra, V.; Osella, A.; Seripa, D.; Sabbà, C.; Pilotto, A.; Logroscino, G. Coffee,
+tea, and caffeine consumption and prevention of late-life cognitive decline and dementia: A systematic review. J. Nutr. Health
+Aging 2015, 19, 313–328. [CrossRef] [PubMed]
+83.
+Flaten, V.; Laurent, C.; Coelho, J.E.; Sandau, U.; Batalha, V.L.; Burnouf, S.; Hamdane, M.; Humez, S.; Boison, D.; Lopes, L.V.; et al.
+From epidemiology to pathophysiology: What about caffeine in Alzheimer’s disease? Biochem. Soc. Trans. 2014, 42, 587–592.
+[CrossRef]
+84.
+Kim, Y.-S.; Kwak, S.M.; Myung, S.-K. Caffeine intake from coffee or tea and cognitive disorders: A meta-analysis of observational
+studies. Neuroepidemiology 2015, 44, 51–63. [CrossRef]
+85.
+Wierzejska, R. Can coffee consumption lower the risk of Alzheimer’s disease and Parkinson’s disease? A literature review. Arch.
+Med. Sci. 2017, 13, 507–514. [CrossRef] [PubMed]
+86.
+Kakutani, S.; Watanabe, H.; Murayama, N. Green tea intake and risks for dementia, Alzheimer’s disease, mild cognitive
+impairment, and cognitive impairment: A systematic review. Nutrients 2019, 11, 1165. [CrossRef]
+87.
+Ma, Q.-P.; Huang, C.; Cui, Q.-Y.; Yang, D.-J.; Sun, K.; Chen, X.; Li, X.-H. Meta-analysis of the association between tea intake and
+the risk of cognitive disorders. PLoS ONE 2016, 11, e0165861. [CrossRef]
+88.
+Wu, L.; Sun, D.; He, Y. Coffee intake and the incident risk of cognitive disorders: A dose–response meta-analysis of nine
+prospective cohort studies. Clin. Nutr. 2017, 36, 730–736. [CrossRef] [PubMed]
+89.
+Liu, Q.-P.; Wu, Y.-F.; Cheng, H.-Y.; Xia, T.; Ding, H.; Wang, H.; Wang, Z.-M.; Xu, Y. Habitual coffee consumption and risk of
+cognitive decline/dementia: A systematic review and meta-analysis of prospective cohort studies. Nutrition 2016, 32, 628–636.
+[CrossRef] [PubMed]
+90.
+Larsson, S.C.; Orsini, N. Coffee consumption and risk of dementia and Alzheimer’s disease: A dose-response meta-analysis of
+prospective studies. Nutrients 2018, 10, 1501. [CrossRef] [PubMed]
+91.
+Zhou, A.; Taylor, A.E.; Karhunen, V.; Zhan, Y.; Rovio, S.P.; Lahti, J.; Sjögren, P.; Byberg, L.; Lyall, D.M.; Auvinen, J.; et al. Habitual
+coffee consumption and cognitive function: A Mendelian randomization meta-analysis in up to 415530 participants. Sci. Rep.
+2018, 8, 7526. [CrossRef]
+92.
+Larsson, S.C.; Traylor, M.; Malik, R.; Dichgans, M.; Burgess, S.; Markus, H.S.; CoSTREAM Consortium, on behalf of the
+International Genomics of Alzheimer’s Project. Modiﬁable pathways in Alzheimer’s disease: Mendelian randomisation analysis.
+BMJ 2017, 359, j5375. [CrossRef]
+
+Nutrients 2021, 13, 537
+29 of 33
+93.
+Schuster, J.; Mitchell, E.S. More than just caffeine: Psychopharmacology of methylxanthine interactions with plant-derived
+phytochemicals. Prog. Neuropsychopharmacol. Biol. Psychiatry 2019, 89, 263–274. [CrossRef] [PubMed]
+94.
+Colombo, R.; Papetti, A. An outlook on the role of decaffeinated coffee in neurodegenerative diseases. Crit. Rev. Food Sci. Nutr.
+2020, 60, 760–779. [CrossRef]
+95.
+Dong, X.; Li, S.; Sun, J.; Li, Y.; Zhang, D. Association of coffee, decaffeinated coffee and caffeine intake from coffee with cognitive
+performance in older adults: National Health and Nutrition Examination Survey (NHANES) 2011–2014. Nutrients 2020, 12, 840.
+[CrossRef]
+96.
+Newman, M.; Kretzschmar, D.; Khan, I.; Chen, M.; Verdile, G.; Lardelli, M. Animal models of Alzheimer’s disease. In Animal
+Models for the Study of Human Disease, 2nd ed.; Michael Conn, P., Ed.; Academic Press: San Diego, CA, USA, 2017; pp. 1031–1085.
+97.
+Do Carmo, S.; Cuello, A.C. Modeling Alzheimer’s disease in transgenic rats. Mol. Neurodegener. 2013, 8, 37. [CrossRef]
+98.
+Esquerda-Canals, G.; Montoliu-Gaya, L.; Güell-Bosch, J.; Villegas, S. Mouse models of Alzheimer’s disease. J. Alzheimers Dis.
+2017, 57, 1171–1183. [CrossRef]
+99.
+Echeverria, V.; Ducatenzeiler, A.; Alhonen, L.; Janne, J.; Grant, S.M.; Wandosell, F.; Muro, A.; Baralle, F.; Li, H.; Duff, K.; et al. Rat
+transgenic models with a phenotype of intracellular Aβ accumulation in hippocampus and cortex. J. Alzheimers Dis. 2004, 6,
+209–219. [CrossRef] [PubMed]
+100. Puzzo, D.; Gulisano, W.; Palmeri, A.; Arancio, O. Rodent models for Alzheimer’s disease drug discovery. Expert Opin. Drug
+Discov. 2015, 10, 703–711. [CrossRef] [PubMed]
+101. Sun, L.; Zhou, R.; Yang, G.; Shi, Y. Analysis of 138 pathogenic mutations in presenilin-1 on the in vitro production of Aβ42 and
+Aβ40 peptides by γ-secretase. Proc. Natl. Acad. Sci. USA 2017, 114, E476–E485. [CrossRef] [PubMed]
+102. Andorfer, C.; Kress, Y.; Espinoza, M.; de Silva, R.; Tucker, K.L.; Barde, Y.-A.; Duff, K.; Davies, P. Hyperphosphorylation and
+aggregation of tau in mice expressing normal human tau isoforms. J. Neurochem. 2003, 86, 582–590. [CrossRef]
+103. Van der Jeugd, A.; Vermaercke, B.; Derisbourg, M.; Lo, A.C.; Hamdane, M.; Blum, D.; Buée, L.; D’Hooge, R. Progressive
+age-related cognitive decline in tau mice. J. Alzheimers Dis. 2013, 37, 777–788. [CrossRef]
+104. Laurent, C.; Eddarkaoui, S.; Derisbourg, M.; Leboucher, A.; Demeyer, D.; Carrier, S.; Schneider, M.; Hamdane, M.; Müller, C.E.;
+Buée, L.; et al. Beneﬁcial effects of caffeine in a transgenic model of Alzheimer’s disease-like tau pathology. Neurobiol. Aging 2014,
+35, 2079–2090. [CrossRef] [PubMed]
+105. Zappettini, S.; Faivre, E.; Ghestem, A.; Carrier, S.; Buée, L.; Blum, D.; Esclapez, M.; Bernard, C. Caffeine consumption during
+pregnancy accelerates the development of cognitive deﬁcits in offspring in a model of tauopathy. Front. Cell. Neurosci. 2019, 13,
+438. [CrossRef] [PubMed]
+106. Stover, K.R.; Campbell, M.A.; Van Winssen, C.M.; Brown, R.E. Early detection of cognitive deﬁcits in the 3xTg-AD mouse model
+of Alzheimer’s disease. Behav. Brain Res. 2015, 289, 29–38. [CrossRef]
+107. Smith, I.F.; Hitt, B.; Green, K.N.; Oddo, S.; LaFerla, F.M. Enhanced caffeine-induced Ca2+ release in the 3xTg-AD mouse model of
+Alzheimer’s disease. J. Neurochem. 2005, 94, 1711–1718. [CrossRef] [PubMed]
+108. Oakley, H.; Cole, S.L.; Logan, S.; Maus, E.; Shao, P.; Craft, J.; Guillozet-Bongaarts, A.; Ohno, M.; Disterhoft, J.; Van Eldik, L.;
+et al. Intraneuronal β-amyloid aggregates, neurodegeneration, and neuron loss in transgenic mice with ﬁve familial Alzheimer’s
+disease mutations: Potential factors in amyloid plaque formation. J. Neurosci. 2006, 26, 10129–10140. [CrossRef]
+109. Cohen, R.M.; Rezai-Zadeh, K.; Weitz, T.M.; Rentsendorj, A.; Gate, D.; Spivak, I.; Bholat, Y.; Vasilevko, V.; Glabe, C.G.; Breunig, J.J.;
+et al. A transgenic Alzheimer rat with plaques, tau pathology, behavioral impairment, oligomeric aβ, and frank neuronal loss.
+J. Neurosci. 2013, 33, 6245–6256. [CrossRef]
+110. Smith, L.A.; McMahon, L.L. Deﬁcits in synaptic function occur at medial perforant path-dentate granule cell synapses prior to
+Schaffer collateral-CA1 pyramidal cell synapses in the novel TgF344-Alzheimer’s disease rat model. Neurobiol. Dis. 2018, 110,
+166–179. [CrossRef]
+111. Lopez, E.M.; Bell, K.F.S.; Ribeiro-da-Silva, A.; Cuello, A.C. Early changes in neurons of the hippocampus and neocortex in
+transgenic rats expressing intracellular human a-β. J. Alzheimers Dis. 2004, 6, 421–431, discussion 443–449. [CrossRef]
+112. Van Dam, D.; De Deyn, P.P. Animal models in the drug discovery pipeline for Alzheimer’s disease. Br. J. Pharmacol. 2011, 164,
+1285–1300. [CrossRef]
+113. Cao, Z.; Wang, F.; Xiu, C.; Zhang, J.; Li, Y. Hypericum perforatum extract attenuates behavioral, biochemical, and neurochemical
+abnormalities in Aluminum chloride-induced Alzheimer’s disease rats. Biomed. Pharmacother. 2017, 91, 931–937. [CrossRef]
+114. McDonald, M.P.; Overmier, J.B. Present imperfect: A critical review of animal models of the mnemonic impairments in Alzheimer’s
+disease. Neurosci. Biobehav. Rev. 1998, 22, 99–120. [CrossRef]
+115. Botton, P.H.; Costa, M.S.; Ardais, A.P.; Mioranzza, S.; Souza, D.O.; da Rocha, J.B.T.; Porciúncula, L.O. Caffeine prevents disruption
+of memory consolidation in the inhibitory avoidance and novel object recognition tasks by scopolamine in adult mice. Behav.
+Brain Res. 2010, 214, 254–259. [CrossRef]
+116. Nazem, A.; Sankowski, R.; Bacher, M.; Al-Abed, Y. Rodent models of neuroinﬂammation for Alzheimer’s disease. J. Neuroinﬂamm.
+2015, 12, 74. [CrossRef] [PubMed]
+117. Dall’Igna, O.P.; Fett, P.; Gomes, M.W.; Souza, D.O.; Cunha, R.A.; Lara, D.R. Caffeine and adenosine A(2a) receptor antagonists
+prevent β-amyloid (25–35)-induced cognitive deﬁcits in mice. Exp. Neurol. 2007, 203, 241–245. [CrossRef] [PubMed]
+
+Nutrients 2021, 13, 537
+30 of 33
+118. Salkovic-Petrisic, M.; Knezovic, A.; Hoyer, S.; Riederer, P. What have we learned from the streptozotocin-induced animal model
+of sporadic Alzheimer’s disease, about the therapeutic strategies in Alzheimer’s research. J. Neural Transm. 2013, 120, 233–252.
+[CrossRef]
+119. Ullah, F.; Ali, T.; Ullah, N.; Kim, M.O. Caffeine prevents d-galactose-induced cognitive deﬁcits, oxidative stress, neuroinﬂamma-
+tion and neurodegeneration in the adult rat brain. Neurochem. Int. 2015, 90, 114–124. [CrossRef]
+120. Cunha, G.M.A.; Canas, P.M.; Melo, C.S.; Hockemeyer, J.; Müller, C.E.; Oliveira, C.R.; Cunha, R.A. Adenosine A2A receptor
+blockade prevents memory dysfunction caused by β-amyloid peptides but not by scopolamine or MK-801. Exp. Neurol. 2008, 210,
+776–781. [CrossRef]
+121. Gulyaeva, N.V.; Bobkova, N.V.; Kolosova, N.G.; Samokhin, A.N.; Stepanichev, M.Y.; Stefanova, N.A. Molecular and cellular
+mechanisms of sporadic Alzheimer’s disease: Studies on rodent models in vivo. Biochemistry 2017, 82, 1088–1102. [CrossRef]
+122. Brothers, H.M.; Marchalant, Y.; Wenk, G.L. Caffeine attenuates lipopolysaccharide-induced neuroinﬂammation. Neurosci. Lett.
+2010, 480, 97–100. [CrossRef] [PubMed]
+123. Badshah, H.; Ikram, M.; Ali, W.; Ahmad, S.; Hahm, J.R.; Kim, M.O. Caffeine may abrogate LPS-induced oxidative stress and
+neuroinﬂammation by regulating Nrf2/TLR4 in adult mouse brains. Biomolecules 2019, 9, 719. [CrossRef] [PubMed]
+124. Zakaria, R.; Wan Yaacob, W.M.; Othman, Z.; Long, I.; Ahmad, A.H.; Al-Rahbi, B. Lipopolysaccharide-induced memory impairment
+in rats: A model of Alzheimer’s disease. Physiol. Res. 2017, 66, 553–565. [CrossRef] [PubMed]
+125. Stefanova, N.A.; Muraleva, N.A.; Korbolina, E.E.; Kiseleva, E.; Maksimova, K.Y.; Kolosova, N.G. Amyloid accumulation is a late
+event in sporadic Alzheimer’s disease-like pathology in nontransgenic rats. Oncotarget 2015, 6, 1396–1413. [CrossRef] [PubMed]
+126. Stefanova, N.A.; Kozhevnikova, O.S.; Vitovtov, A.O.; Maksimova, K.Y.; Logvinov, S.V.; Rudnitskaya, E.A.; Korbolina, E.E.;
+Muraleva, N.A.; Kolosova, N.G. Senescence-accelerated OXYS rats: A model of age-related cognitive decline with relevance to
+abnormalities in Alzheimer disease. Cell Cycle 2014, 13, 898–909. [CrossRef]
+127. Chen, W.N.; Yeong, K.Y. Scopolamine, a toxin-induced experimental model, used for research in Alzheimer’s disease. CNS Neurol.
+Disord. Drug Targets 2020, 19, 85–93. [CrossRef]
+128. Zeitlin, R.; Patel, S.; Burgess, S.; Arendash, G.W.; Echeverria, V. Caffeine induces beneﬁcial changes in PKA signaling and JNK
+and ERK activities in the striatum and cortex of Alzheimer’s transgenic mice. Brain Res. 2011, 1417, 127–136. [CrossRef] [PubMed]
+129. Arendash, G.W.; Schleif, W.; Rezai-Zadeh, K.; Jackson, E.K.; Zacharia, L.C.; Cracchiolo, J.R.; Shippy, D.; Tan, J. Caffeine protects
+Alzheimer’s mice against cognitive impairment and reduces brain β-amyloid production. Neuroscience 2006, 142, 941–952.
+[CrossRef]
+130. Arendash, G.W.; Mori, T.; Cao, C.; Mamcarz, M.; Runfeldt, M.; Dickson, A.; Rezai-Zadeh, K.; Tan, J.; Citron, B.A.; Lin, X.; et al.
+Caffeine reverses cognitive impairment and decreases brain amyloid-β levels in aged Alzheimer’s disease mice. J. Alzheimers Dis.
+2009, 17, 661–680. [CrossRef]
+131. Chu, Y.-F.; Chang, W.-H.; Black, R.M.; Liu, J.-R.; Sompol, P.; Chen, Y.; Wei, H.; Zhao, Q.; Cheng, I.H. Crude caffeine reduces
+memory impairment and amyloid β(1–42) levels in an Alzheimer’s mouse model. Food Chem. 2012, 135, 2095–2102. [CrossRef]
+132. Han, K.; Jia, N.; Li, J.; Yang, L.; Min, L.-Q. Chronic caffeine treatment reverses memory impairment and the expression of brain
+BNDF and TrkB in the PS1/APP double transgenic mouse model of Alzheimer’s disease. Mol. Med. Rep. 2013, 8, 737–740.
+[CrossRef]
+133. Dragicevic, N.; Delic, V.; Cao, C.; Copes, N.; Lin, X.; Mamcarz, M.; Wang, L.; Arendash, G.W.; Bradshaw, P.C. Caffeine increases
+mitochondrial function and blocks melatonin signaling to mitochondria in Alzheimer’s mice and cells. Neuropharmacology 2012,
+63, 1368–1379. [CrossRef]
+134. Cao, C.; Cirrito, J.R.; Lin, X.; Wang, L.; Verges, D.K.; Dickson, A.; Mamcarz, M.; Zhang, C.; Mori, T.; Arendash, G.W.; et al. Caffeine
+suppresses β-amyloid levels in plasma and brain of Alzheimer’s transgenic mice. J. Alzheimers Dis. 2009, 17, 681–697. [CrossRef]
+135. Baeta-Corral, R.; Johansson, B.; Giménez-Llort, L. Long-term treatment with low-dose caffeine worsens BPSD-like proﬁle in
+3xTg-AD mice model of Alzheimer’s disease and affects mice with normal aging. Front. Pharmacol. 2018, 9, 79. [CrossRef]
+[PubMed]
+136. Cao, C.; Wang, L.; Lin, X.; Mamcarz, M.; Zhang, C.; Bai, G.; Nong, J.; Sussman, S.; Arendash, G. Caffeine synergizes with another
+coffee component to increase plasma GCSF: Linkage to cognitive beneﬁts in Alzheimer’s mice. J. Alzheimers Dis. 2011, 25, 323–335.
+[CrossRef] [PubMed]
+137. Götz, J.; Streffer, J.R.; David, D.; Schild, A.; Hoerndli, F.; Pennanen, L.; Kurosinski, P.; Chen, F. Transgenic animal models of
+Alzheimer’s disease and related disorders: Histopathology, behavior and therapy. Mol. Psychiatry 2004, 9, 664–683. [CrossRef]
+[PubMed]
+138. Chu, Y.-F.; Chen, Y.; Brown, P.H.; Lyle, B.J.; Black, R.M.; Cheng, I.H.; Ou, B.; Prior, R.L. Bioactivities of crude caffeine: Antioxidant
+activity, cyclooxygenase-2 inhibition, and enhanced glucose uptake. Food Chem. 2012, 131, 564–568. [CrossRef]
+139. Laurent, C.; Burnouf, S.; Ferry, B.; Batalha, V.L.; Coelho, J.E.; Baqi, Y.; Malik, E.; Mariciniak, E.; Parrot, S.; Van der Jeugd, A.; et al.
+A2A adenosine receptor deletion is protective in a mouse model of Tauopathy. Mol. Psychiatry 2016, 21, 97–107. [CrossRef]
+140. Canas, P.M.; Porciúncula, L.O.; Cunha, G.M.A.; Silva, C.G.; Machado, N.J.; Oliveira, J.M.A.; Oliveira, C.R.; Cunha, R.A. Adenosine
+A2A receptor blockade prevents synaptotoxicity and memory dysfunction caused by β-amyloid peptides via p38 mitogen-
+activated protein kinase pathway. J. Neurosci. 2009, 29, 14741–14751. [CrossRef] [PubMed]
+
+Nutrients 2021, 13, 537
+31 of 33
+141. Espinosa, J.; Rocha, A.; Nunes, F.; Costa, M.S.; Schein, V.; Kazlauckas, V.; Kalinine, E.; Souza, D.O.; Cunha, R.A.; Porciúncula,
+L.O. Caffeine consumption prevents memory impairment, neuronal damage, and adenosine A2A receptors upregulation in the
+hippocampus of a rat model of sporadic dementia. J. Alzheimers Dis. 2013, 34, 509–518. [CrossRef]
+142. Ghoneim, F.M.; Khalaf, H.A.; Elsamanoudy, A.Z.; Abo El-Khair, S.M.; Helaly, A.M.N.; Mahmoud, E.-H.M.; Elshafey, S.H. Protec-
+tive effect of chronic caffeine intake on gene expression of brain derived neurotrophic factor signaling and the immunoreactivity
+of glial ﬁbrillary acidic protein and Ki-67 in Alzheimer’s disease. Int. J. Clin. Exp. Pathol. 2015, 8, 7710–7728.
+143. Hosny, E.N.; Sawie, H.G.; Elhadidy, M.E.; Khadrawy, Y.A. Evaluation of antioxidant and anti-inﬂammatory efﬁcacy of caffeine in
+rat model of neurotoxicity. Nutr. Neurosci. 2019, 22, 789–796. [CrossRef] [PubMed]
+144. Ravelli, K.G.; Rosário, B. dos A.; Camarini, R.; Hernandes, M.S.; Britto, L.R. Intracerebroventricular streptozotocin as a model
+of Alzheimer’s disease: Neurochemical and behavioral characterization in mice. Neurotox. Res. 2017, 31, 327–333. [CrossRef]
+[PubMed]
+145. Duarte, J.M.N.; Carvalho, R.A.; Cunha, R.A.; Gruetter, R. Caffeine consumption attenuates neurochemical modiﬁcations in the
+hippocampus of streptozotocin-induced diabetic rats. J. Neurochem. 2009, 111, 368–379. [CrossRef]
+146. Al Marshad, R.; Al Khatib, R.; Amer, H.; Al Shammari, M.; Al Otaibi, A.; Al Otaibi, F.; Behbehani, N.; Al Sayed, A.; Al Hoty,
+N.; Hassan, Z.; et al. Streptozotocin-induced diabetes mellitus affects the NMDA receptors: Role of caffeine administration in
+enhancing learning, memory and locomotor deﬁcits. Int. J. Health Sci. 2018, 12, 10–17.
+147. Song, J. Animal model of Aluminum-induced Alzheimer’s disease. Adv. Exp. Med. Biol. 2018, 1091, 113–127. [CrossRef] [PubMed]
+148. Tang, K.S. The cellular and molecular processes associated with scopolamine-induced memory deﬁcit: A model of Alzheimer’s
+biomarkers. Life Sci. 2019, 233, 116695. [CrossRef] [PubMed]
+149. Klinkenberg, I.; Blokland, A. The validity of scopolamine as a pharmacological model for cognitive impairment: A review of
+animal behavioral studies. Neurosci. Biobehav. Rev. 2010, 34, 1307–1350. [CrossRef] [PubMed]
+150. More, S.V.; Kumar, H.; Cho, D.-Y.; Yun, Y.-S.; Choi, D.-K. Toxin-induced experimental models of learning and memory impairment.
+Int. J. Mol. Sci. 2016, 17, 1447. [CrossRef]
+151. Riedel, W.; Hogervorst, E.; Leboux, R.; Verhey, F.; van Praag, H.; Jolles, J. Caffeine attenuates scopolamine-induced memory
+impairment in humans. Psychopharmacology 1995, 122, 158–168. [CrossRef]
+152. Lee, H.E.; Jeon, S.J.; Ryu, B.; Park, S.J.; Ko, S.Y.; Lee, Y.; Kim, E.; Lee, S.; Kim, H.; Jang, D.S.; et al. Swertisin, a C-glucosylﬂavone,
+ameliorates scopolamine-induced memory impairment in mice with its adenosine A1 receptor antagonistic property. Behav. Brain
+Res. 2016, 306, 137–145. [CrossRef]
+153. Pagnussat, N.; Almeida, A.S.; Marques, D.M.; Nunes, F.; Chenet, G.C.; Botton, P.H.S.; Mioranzza, S.; Loss, C.M.; Cunha, R.A.;
+Porciúncula, L.O. Adenosine A(2A) receptors are necessary and sufﬁcient to trigger memory impairment in adult mice. Br. J.
+Pharmacol. 2015, 172, 3831–3845. [CrossRef] [PubMed]
+154. Chen, X.; Ghribi, O.; Geiger, J.D. Caffeine protects against disruptions of the blood-brain barrier in animal models of Alzheimer’s
+and Parkinson’s disease. J. Alzheimers Dis. 2010, 20, S127–S141. [CrossRef]
+155. Chen, X.; Gawryluk, J.W.; Wagener, J.F.; Ghribi, O.; Geiger, J.D. Caffeine blocks disruption of blood brain barrier in a rabbit model
+of Alzheimer’s disease. J. Neuroinﬂamm. 2008, 5, 12. [CrossRef]
+156. Prasanthi, J.R.P.; Dasari, B.; Marwarha, G.; Larson, T.; Chen, X.; Geiger, J.D.; Ghribi, O. Caffeine protects against oxidative stress
+and Alzheimer’s disease-like pathology in rabbit hippocampus induced by cholesterol-enriched diet. Free Radic. Biol. Med. 2010,
+49, 1212–1220. [CrossRef]
+157. Nia, B.V.; Kang, C.; Tran, M.G.; Lee, D.; Murakami, S. Meta analysis of human AlzGene database: Beneﬁts and limitations of
+using C. elegans for the study of Alzheimer’s disease and co-morbid conditions. Front. Genet. 2017, 8, 55. [CrossRef]
+158. Boasquívis, P.F.; Silva, G.M.M.; Paiva, F.A.; Cavalcanti, R.M.; Nunez, C.V.; de Paula Oliveira, R. Guarana (Paullinia cupana)
+extract protects Caenorhabditis elegans models for Alzheimer disease and Huntington disease through activation of antioxidant
+and protein degradation pathways. Oxid. Med. Cell. Longev. 2018, 2018, 9241308. [CrossRef]
+159. Grifﬁn, E.F.; Caldwell, K.A.; Caldwell, G.A. Genetic and pharmacological discovery for Alzheimer’s disease using Caenorhabditis
+elegans. ACS Chem. Neurosci. 2017, 8, 2596–2606. [CrossRef] [PubMed]
+160. Dostal, V.; Roberts, C.M.; Link, C.D. Genetic mechanisms of coffee extract protection in a Caenorhabditis elegans model of
+β-amyloid peptide toxicity. Genetics 2010, 186, 857–866. [CrossRef]
+161. Machado, M.L.; Arantes, L.P.; da Silveira, T.L.; Zamberlan, D.C.; Cordeiro, L.M.; Obetine, F.B.B.; da Silva, A.F.; da Cruz, I.B.M.;
+Soares, F.A.A.; de Oliveira, R.P. Ilex paraguariensis extract provides increased resistance against oxidative stress and protection
+against Amyloid beta-induced toxicity compared to caffeine in Caenorhabditis elegans. Nutr. Neurosci. 2019, 1–13. [CrossRef]
+[PubMed]
+162. Du, F.; Zhou, L.; Jiao, Y.; Bai, S.; Wang, L.; Ma, J.; Fu, X. Ingredients in Zijuan Pu’er tea extract alleviate β-amyloid peptide toxicity
+in a Caenorhabditis elegans model of Alzheimer’s disease likely through DAF-16. Molecules 2019, 24, 729. [CrossRef]
+163. Goussakov, I.; Miller, M.B.; Stutzmann, G.E. NMDA-mediated Ca(2+) inﬂux drives aberrant ryanodine receptor activation in
+dendrites of young Alzheimer’s disease mice. J. Neurosci. 2010, 30, 12128–12137. [CrossRef]
+164. Giunta, S.; Andriolo, V.; Castorina, A. Dual blockade of the A1 and A2A adenosine receptor prevents amyloid beta toxicity in
+neuroblastoma cells exposed to aluminum chloride. Int. J. Biochem. Cell Biol. 2014, 54, 122–136. [CrossRef]
+165. Keshavarz, M.; Farrokhi, M.R.; Amiri, A. Caffeine neuroprotective mechanism against β-amyloid neurotoxicity in SHSY5Y cell
+line: Involvement of adenosine, ryanodine, and N-methyl-D-aspartate receptors. Adv. Pharm. Bull. 2017, 7, 579–584. [CrossRef]
+
+Nutrients 2021, 13, 537
+32 of 33
+166. Stoppelkamp, S.; Bell, H.S.; Palacios-Filardo, J.; Shewan, D.A.; Riedel, G.; Platt, B. In vitro modelling of Alzheimer’s disease:
+Degeneration and cell death induced by viral delivery of amyloid and tau. Exp. Neurol. 2011, 229, 226–237. [CrossRef] [PubMed]
+167. Gupta, S.; Dasmahapatra, A.K. Caffeine destabilizes preformed Aβ protoﬁlaments: Insights from all atom molecular dynamics
+simulations. Phys. Chem. Chem. Phys. 2019, 21, 22067–22080. [CrossRef]
+168. Sharma, B.; Paul, S. Action of caffeine as an amyloid inhibitor in the aggregation of Aβ16–22 peptides. J. Phys. Chem. B 2016, 120,
+9019–9033. [CrossRef] [PubMed]
+169. Kumar, A.; Mehta, V.; Raj, U.; Varadwaj, P.K.; Udayabanu, M.; Yennamalli, R.M.; Singh, T.R. Computational and in-vitro validation
+of natural molecules as potential acetylcholinesterase inhibitors and neuroprotective agents. Curr. Alzheimer Res. 2019, 16, 116–127.
+[CrossRef]
+170. Ali, B.; Jamal, Q.M.S.; Shams, S.; Al-Wabel, N.A.; Siddiqui, M.U.; Alzohairy, M.A.; Al Karaawi, M.A.; Kesari, K.K.; Mushtaq,
+G.; Kamal, M.A. In silico analysis of green tea polyphenols as inhibitors of AChE and BChE enzymes in Alzheimer’s disease
+treatment. Cns Neurol. Disord. Drug Targets 2016, 15, 624–628. [CrossRef] [PubMed]
+171. Yiannopoulou, K.G.; Anastasiou, A.I.; Zachariou, V.; Pelidou, S.-H. Reasons for failed trials of disease-modifying treatments for
+Alzheimer disease and their contribution in recent research. Biomedicines 2019, 7, 97. [CrossRef]
+172. Oboh, G.; Ogunsuyi, O.B.; Olonisola, O.E. Does caffeine inﬂuence the anticholinesterase and antioxidant properties of donepezil?
+Evidence from in vitro and in vivo studies. Metab. Brain Dis. 2017, 32, 629–639. [CrossRef]
+173. Nair, A.B.; Jacob, S. A simple practice guide for dose conversion between animals and human. J. Basic Clin. Pharm. 2016, 7, 27–31.
+[CrossRef]
+174. Reagan-Shaw, S.; Nihal, M.; Ahmad, N. Dose translation from animal to human studies revisited. Faseb J. 2008, 22, 659–661.
+[CrossRef]
+175. Cunha, R.A. How does adenosine control neuronal dysfunction and neurodegeneration? J. Neurochem. 2016, 139, 1019–1055.
+[CrossRef]
+176. Dall’lgna, O.P.; Porciúncula, L.O.; Souza, D.O.; Cunha, R.A.; Lara, D.R. Neuroprotection by caffeine and adenosine A2A receptor
+blockade of β-amyloid neurotoxicity. Br. J. Pharmacol. 2003, 138, 1207–1209. [CrossRef] [PubMed]
+177. Faivre, E.; Coelho, J.E.; Zornbach, K.; Malik, E.; Baqi, Y.; Schneider, M.; Cellai, L.; Carvalho, K.; Sebda, S.; Figeac, M.; et al.
+Beneﬁcial effect of a selective adenosine A2A receptor antagonist in the APPswe/PS1dE9 mouse model of Alzheimer’s disease.
+Front. Mol. Neurosci. 2018, 11, 235. [CrossRef] [PubMed]
+178. da Silva, S.V.; Haberl, M.G.; Zhang, P.; Bethge, P.; Lemos, C.; Gonçalves, N.; Gorlewicz, A.; Malezieux, M.; Gonçalves, F.Q.;
+Grosjean, N.; et al. Early synaptic deﬁcits in the APP/PS1 mouse model of Alzheimer’s disease involve neuronal adenosine A2A
+receptors. Nat. Commun. 2016, 7, 11915. [CrossRef] [PubMed]
+179. Silva, A.C.; Lemos, C.; Gonçalves, F.Q.; Pliássova, A.V.; Machado, N.J.; Silva, H.B.; Canas, P.M.; Cunha, R.A.; Lopes, J.P.;
+Agostinho, P. Blockade of adenosine A2A receptors recovers early deﬁcits of memory and plasticity in the triple transgenic mouse
+model of Alzheimer’s disease. Neurobiol. Dis. 2018, 117, 72–81. [CrossRef]
+180. Cunha, R.A.; Agostinho, P.M. Chronic caffeine consumption prevents memory disturbance in different animal models of memory
+decline. J. Alzheimers Dis. 2010, 20, S95–S116. [CrossRef]
+181. Nabbi-Schroeter, D.; Elmenhorst, D.; Oskamp, A.; Laskowski, S.; Bauer, A.; Kroll, T. Effects of long-term caffeine consumption
+on the adenosine A1 receptor in the rat brain: An in vivo PET study with [18F]CPFPX. Mol. Imaging Biol. 2018, 20, 284–291.
+[CrossRef]
+182. Janitschke, D.; Nelke, C.; Lauer, A.A.; Regner, L.; Winkler, J.; Thiel, A.; Grimm, H.S.; Hartmann, T.; Grimm, M.O.W. Effect of
+caffeine and other methylxanthines on Aβ-homeostasis in SH-SY5Y cells. Biomolecules 2019, 9, 689. [CrossRef]
+183. Zhang, L.-F.; Zhou, Z.-W.; Wang, Z.-H.; Du, Y.-H.; He, Z.-X.; Cao, C.; Zhou, S.-F. Coffee and caffeine potentiate the antiamyloido-
+genic activity of melatonin via inhibition of Aβ oligomerization and modulation of the Tau-mediated pathway in N2a/APP cells.
+Drug Des. Devel. Ther. 2014, 9, 241–272. [CrossRef]
+184. Fukuyama, K.; Kakio, S.; Nakazawa, Y.; Kobata, K.; Funakoshi-Tago, M.; Suzuki, T.; Tamura, H. Roasted coffee reduces β-amyloid
+production by increasing proteasomal β-secretase degradation in human neuroblastoma SH-SY5Y cells. Mol. Nutr. Food Res. 2018,
+62, e1800238. [CrossRef] [PubMed]
+185. Kakio, S.; Funakoshi-Tago, M.; Kobata, K.; Tamura, H. Coffee induces vascular endothelial growth factor (VEGF) expression in
+human neuroblastama SH-SY5Y cells. Nutr. Neurosci. 2017, 20, 336–342. [CrossRef]
+186. Madeira, M.H.; Boia, R.; Ambrósio, A.F.; Santiago, A.R. Having a coffee break: The impact of caffeine consumption on microglia-
+mediated inﬂammation in neurodegenerative diseases. Mediat. Inﬂamm. 2017, 2017, 4761081. [CrossRef] [PubMed]
+187. Kwon, S.-H.; Lee, H.-K.; Kim, J.-A.; Hong, S.-I.; Kim, H.-C.; Jo, T.-H.; Park, Y.-I.; Lee, C.-K.; Kim, Y.-B.; Lee, S.-Y.; et al.
+Neuroprotective effects of chlorogenic acid on scopolamine-induced amnesia via anti-acetylcholinesterase and anti-oxidative
+activities in mice. Eur. J. Pharmacol. 2010, 649, 210–217. [CrossRef] [PubMed]
+188. Lee, C.W.; Won, T.J.; Kim, H.R.; Lee, D.; Hwang, K.W.; Park, S.-Y. Protective effect of chlorogenic acid against Aβ-induced
+neurotoxicity. Biomol. Ther. 2011, 19, 181–186. [CrossRef]
+189. Oboh, G.; Agunloye, O.M.; Akinyemi, A.J.; Ademiluyi, A.O.; Adefegha, S.A. Comparative study on the inhibitory effect of caffeic
+and chlorogenic acids on key enzymes linked to Alzheimer’s disease and some pro-oxidant induced oxidative stress in rats’
+brain-in vitro. Neurochem. Res. 2013, 38, 413–419. [CrossRef]
+
+Nutrients 2021, 13, 537
+33 of 33
+190. Gao, L.; Li, X.; Meng, S.; Ma, T.; Wan, L.; Xu, S. Chlorogenic acid alleviates Aβ25–35-induced autophagy and cognitive impairment
+via the mTOR/TFEB signaling pathway. Drug Des. Devel. Ther. 2020, 14, 1705–1716. [CrossRef]
+191. Wang, Y.; Wang, Y.; Li, J.; Hua, L.; Han, B.; Zhang, Y.; Yang, X.; Zeng, Z.; Bai, H.; Yin, H.; et al. Effects of caffeic acid on learning
+deﬁcits in a model of Alzheimer’s disease. Int. J. Mol. Med. 2016, 38, 869–875. [CrossRef]
+192. Fisone, G.; Borgkvist, A.; Usiello, A. Caffeine as a psychomotor stimulant: Mechanism of action. Cell. Mol. Life Sci. 2004, 61,
+857–872. [CrossRef]
+193. Cornelis, M.C.; Munafo, M.R. Mendelian randomization studies of coffee and caffeine consumption. Nutrients 2018, 10, 1343.
+[CrossRef] [PubMed]
+194. Temple, J.L.; Bernard, C.; Lipshultz, S.E.; Czachor, J.D.; Westphal, J.A.; Mestre, M.A. The safety of ingested caffeine: A comprehen-
+sive review. Front. Psychiatry 2017, 8, 80. [CrossRef]
+195. van Dam, R.M.; Hu, F.B.; Willett, W.C. Coffee, caffeine, and health. N. Engl. J. Med. 2020, 383, 369–378. [CrossRef] [PubMed]
+196. O’Callaghan, F.; Muurlink, O.; Reid, N. Effects of caffeine on sleep quality and daytime functioning. Risk Manag. Healthc. Policy
+2018, 11, 263–271. [CrossRef]
+197. Torres-Ugalde, Y.C.; Romero-Palencia, A.; Román-Gutiérrez, A.D.; Ojeda-Ramírez, D.; Guzmán-Saldaña, R.M.E. Caffeine
+consumption in children: Innocuous or deleterious? A systematic review. Int. J. Environ. Res. Public Health 2020, 17, 2489.
+[CrossRef]
+198. Anderson, R.M.; Hadjichrysanthou, C.; Evans, S.; Wong, M.M. Why do so many clinical trials of therapies for Alzheimer’s disease
+fail? Lancet 2017, 390, 2327–2329. [CrossRef]
+199. Palmqvist, S.; Insel, P.S.; Stomrud, E.; Janelidze, S.; Zetterberg, H.; Brix, B.; Eichenlaub, U.; Dage, J.L.; Chai, X.; Blennow, K.; et al.
+Cerebrospinal ﬂuid and plasma biomarker trajectories with increasing amyloid deposition in Alzheimer’s disease. EMBO Mol.
+Med. 2019, 11, e11170. [CrossRef]
+200. Iranpour, S.; Saadati, H.M.; Koohi, F.; Sabour, S. Association between caffeine intake and cognitive function in adults; effect
+modiﬁcation by sex: Data from National Health and Nutrition Examination Survey (NHANES) 2013–2014. Clin. Nutr. 2020, 39,
+2158–2168. [CrossRef]
+201. Ritchie, K.; Carrière, I.; de Mendonça, A.; Portet, F.; Dartigues, J.F.; Rouaud, O.; Barberger-Gateau, P.; Ancelin, M.L. The
+neuroprotective effects of caffeine: A prospective population study (the Three City Study). Neurology 2007, 69, 536–545. [CrossRef]
+202. Johnson-Kozlow, M.; Kritz-Silverstein, D.; Barrett-Connor, E.; Morton, D. Coffee consumption and cognitive function among
+older adults. Am. J. Epidemiol. 2002, 156, 842–850. [CrossRef]

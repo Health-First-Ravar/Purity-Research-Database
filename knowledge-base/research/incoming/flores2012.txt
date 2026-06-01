@@ -1,0 +1,1232 @@
+Analytical Methods
+Determination of organic acids in fruits and vegetables by liquid chromatography
+with tandem-mass spectrometry
+Pilar Flores ⇑, Pilar Hellín, José Fenoll
+Instituto Murciano de Investigación y Desarrollo Agrario y Alimentario, IMIDA, C/Mayor s/n, La Alberca, 30150 Murcia, Spain
+a r t i c l e
+i n f o
+Article history:
+Received 25 February 2011
+Received in revised form 1 August 2011
+Accepted 20 October 2011
+Available online 28 October 2011
+Keywords:
+Organic acids
+High-performance liquid chromatography
+Validation
+HPLC
+MS/MS
+a b s t r a c t
+A method using liquid chromatography coupled to tandem-mass spectrometry (LC–MS/MS) with triple
+quadrupole in selective reaction monitoring mode was developed to determine organic acids (glutamic,
+tartaric, quinic, malonic, malic, shikimic, a-ketoglutaric, pyruvic, citric, succinic and fumaric acids) in
+fruits (melon, grape, peach, orange, lemon) and vegetables (green and red pepper, tomato, lettuce and
+lamb’s lettuce). The negative ion mode of ESI was used. All the validation parameters were found to be
+within the range of acceptance for all the compounds. Different matrix effects were observed in the stud-
+ied vegetables and samples were quantiﬁed by the standard additions approach. The main advantages of
+this method are its selectivity, which is one of the main weaknesses of most methods when analysing
+organic acid in complex matrices, and its simplicity since little sample preparation is needed.
+ 2011 Elsevier Ltd. All rights reserved.
+1. Introduction
+Organic acids strongly inﬂuence the organoleptic properties of
+fruits and vegetables, particularly as regards ﬂavour, colour and
+aroma. They are responsible for fruit sourness or acidity which is
+ranked relative to citric (Kader, 2008). In addition, organic acids
+indirectly affect the phenolic metabolism by altering pH, and act
+as precursors of phenolics and ﬂavour compounds (Galdon,
+Rodriguez, Rodriguez, & Romero, 2008; Kader, 2008).
+Determination of the organic acid proﬁle is important when
+characterising different genotypes or when studying the inﬂuence
+of maturity or agronomic factors on fruit quality. Several methods
+have been developed for identifying and quantifying individually
+organic acids in different vegetal matrixes by using electrophoretic
+and chromatographic methods (Mato, Suarez-Luque, & Huidobro,
+2005). Reported methodologies include capillary electrophoresis
+(Castineira,
+Pena,
+Herrero,
+&
+Garcia-Martin,
+2002;
+Mato,
+Suarez-Luque, & Huidobro, 2007), which presents advantages
+including high resolution, simplicity and short analysis times, but
+also disadvantages, such as lower reproducibility; gas chromatog-
+raphy (GC), mainly with ﬂame ionisation (FID) and mass spectrom-
+etry (MS) detectors (Jham, Fernandes, Garcia, & da Silva, 2002;
+Molnar-Perl, 1999); liquid chromatography (LC) with ultraviolet
+(UV) (Zheng et al., 2009), chemiluminescent methods (Perez-
+Ruiz, Martinez-Lozano, Tomas, & Martin, 2004), electrochemical
+methods (Kotani, Miyaguchi, Tomita, Takamura, & Kusu, 2004),
+refractive index (RI) (Scarlata & Hyman, 2010), conductivity
+(Magne, Mathlouthi, & Robilland, 1998) and mass spectrometry
+(MS) detectors (Erro, Zamarreno, Yvin, & Garcia-Mina, 2009; Fer-
+nandez-Fernandez et al., 2010). Among all these methods, GC and
+LC coupled with mass detection are considered the most sensitive
+and selective methods for analysing organic acids. However, GC
+methods are usually tedious since most short-chain organic acids
+are not volatile, and so prior sample derivatization is needed
+(Giumanini, Verardo, Della Martina, & Toniutti, 2001; Saraji &
+Mousavinia, 2006). This paper describes an analytical method–
+liquid chromatography tandem-mass spectrometry (LC–MS/MS)
+with triple quadrupole in selective reaction monitoring (SRM)
+mode focused on sensitivity and selectivity – for the simultaneous
+determination of organic acids in vegetables and fruits, avoiding
+sample derivatization. Unlike other previous studies, the present
+work focuses on several matrixes (ﬁve fruits and ﬁve vegetables)
+and allows most of the predominant organic acids in fruit and veg-
+etables to be determined.
+2. Materials and methods
+2.1. Chemicals
+All the solutions used ultrapure water from a Milli-Q Elix/Gradi-
+ent A10 system (Millipore, Molsheim, France). Formic acid (reagent
+grade) was purchased from Scharlau (Barcelona, Spain). Glutamic,
+tartaric, quinic, malonic, malic, shikimic, a-ketoglutaric, pyruvic,
+citric, fumaric and succinic standards were from Sigma–Aldrich
+(St. Louis, MO, USA). To obtain the linearity of the detector
+0308-8146/$ - see front matter  2011 Elsevier Ltd. All rights reserved.
+doi:10.1016/j.foodchem.2011.10.064
+⇑Corresponding author.
+E-mail address: mpilar.ﬂores@carm.es (P. Flores).
+Food Chemistry 132 (2012) 1049–1054
+Contents lists available at SciVerse ScienceDirect
+Food Chemistry
+journal homepage: www.elsevier.com/locate/foodchem
+
+response, standard solutions were prepared and diluted in water to
+provide solutions containing 0.05–2000 lg/ml of each organic acid.
+2.2. Sample preparation
+Organic acids were extracted with water, following the recom-
+mendations of Hernandez, Lobo, and Gonzalez (2009). A represen-
+tative
+amount
+of
+each
+fruit
+(approximately
+500 g)
+was
+homogenised to ensure sample homogeneity. For the analysis, 3 g
+of homogenised material (for pepper and tomato samples) or
+3 ml of fresh juice (for orange and lemon) were homogenised with
+10 ml of water in a Polytron (PT-MR 3100, Switzerland). The
+homogenate was centrifuged at 10,000g for 10 min, at 4 C using
+a centrifuge Eppendorf 5810R (Hamburg, Germany). The pellet
+Glutamic
+0
+20000
+40000
+60000
+Succinic
+0
+2
+4
+6
+8
+10
+12
+14
+0
+8000
+16000
+24000
+Tartaric
+0
+12000
+24000
+36000
+Shikimic
+0
+6000
+12000
+18000
+α−Ketoglutaric
+0
+8000
+16000
+24000
+Pyruvic
+0
+1500
+3000
+4500
+Citric
+0,0
+4,0e+4
+8,0e+4
+1,2e+5
+Fumaric
+0
+3000
+6000
+9000
+Quinic
+0
+9000
+18000
+27000
+Malic
+0
+30000
+60000
+90000
+Malonic
+0
+10000
+20000
+30000
+Relative Intensity
+Time (min)
+Fig. 1. Extracted ion chromatograms of a standard (10 lg/l, except pyruvic 100 lg/ml) of organic acids.
+Table 1
+Retention times (RT) and optimal SRM transitions for the studied organic acids.
+Compound
+RT
+(min)
+Transition
+(m/z)
+Fragmentor
+voltage (V)
+Collision
+energy (V)
+Glutamic
+3.72
+146 ? 128
+70
+4
+Tartaric
+4.82
+149 ? 87
+70
+6
+Quinic
+4.84
+191 ? 85
+110
+20
+Malonic
+6.03
+103 ? 59
+50
+4
+Malic
+6.17
+133 ? 115
+70
+4
+Shikimic
+6.96
+173 ? 93
+110
+8
+a-Ketoglutaric
+9.02
+145 ? 101
+70
+2
+Pyruvic
+9.73
+175 ? 87
+70
+4
+Citric
+12.70
+191 ? 111
+70
+10
+Fumaric
+14.07
+115 ? 71
+70
+2
+Succinic
+14.20
+117 ? 73
+70
+6
+1050
+P. Flores et al. / Food Chemistry 132 (2012) 1049–1054
+
+was discarded and the supernatant was ﬁltered through 0.45-lm
+ﬁlters (Millipore, Milford, MA, USA) and then passed through
+sep-pak cartridges C18 (Millipore, Milford, MA, USA). Finally, sam-
+ples were diluted 1/10 (orange and lemon) with water. The devel-
+oped methodology was applied to the analysis of real samples
+including melon, grape, peach, orange, lemon, green and red pep-
+per, tomato, lettuce and lamb’s lettuce.
+2.3. HPLC–MS/MS analyses
+The separation of organic acids was carried out using an HPLC
+system consisting of vacuum degasser, autosampler, sample ther-
+mostat and a binary pump (Agilent Series 1200, Agilent Technolo-
+gies, Santa Clara, CA, USA) equipped with a Prontosil C18 analytical
+column of 250 mm  3 mm and 3 lm particle size (Bischoff,
+Table 2
+Linear ranges (lg/ml), linear equations, correlation coefﬁcients (R2), and repeatability (RSD, %) for the target organic acids.
+Range
+Equation
+R2
+Intra-day RSDa
+Inter-day RSDa
+Peak area
+tR
+Peak area
+tR
+Glutamic
+0.05–200
+f(x) = 46,880x + 277
+0.999
+1.5
+0.1
+4.8
+0.2
+Tartaric
+0.05–50
+f(x) = 29,214x + 145
+0.994
+1.4
+0.1
+3.8
+0.2
+50–2000
+f(x) = 14,809x + 337,043
+0.991
+Quinic
+0.05–200
+f(x) = 6847x  155
+0.998
+2.1
+0.2
+5.4
+0.3
+Malonic
+0.05–200
+f(x) = 27,689x + 207
+0.997
+2.5
+0.1
+4.7
+0.4
+Malic
+0.05–50
+f(x) = 90,895x + 858
+0.993
+1.3
+0.1
+4.9
+0.2
+50–2000
+f(x) = 55,787x + 747,222
+0.996
+Shikimic
+0.05–200
+f(x) = 18,204x + 2134
+0.981
+2.2
+0.1
+6.2
+0.2
+a-Ketoglutaric
+0.05–200
+f(x) = 85,189x + 41,636
+0.997
+1.6
+0.2
+3.6
+0.7
+Pyruvic
+1–200
+f(x) = 1107x  626
+0.993
+6.9
+0.2
+8.3
+0.5
+Citric
+0.05–200
+f(x) = 149,218x  3924
+0.991
+0.5
+0.9
+2.9
+1.1
+200–2000
+f(x) = 99,286x  8571
+0.996
+Fumaric
+0.05–20
+f(x) = 12,312x + 944
+0.995
+2.0
+0.4
+4.5
+0.6
+Succinic
+0.05–200
+f(x) = 46,989x + 638
+0.999
+1.8
+0.3
+6.0
+0.5
+a (n = 10).
+Table 3
+Slope solvent/slope matrix ratio (Ss/Sm), and recoverya (%) calculated at two different spiking levels (expressed in parenthesis as mg/100 g FW), for the target organic acids in fruits
+(melon, grape, peach, orange and lemon).
+Melon
+Grape
+Peach
+Orange
+Lemon
+Glutamic
+Ss/Sm
+0.87
+0.95
+1.01
+0.96
+0.95
+Recovery
+77 ± 2 (1)
+79 ± 3 (10)
+83 ± 3 (10)
+88 ± 3 (40)
+88 ± 4 (50)
+106 ± 3 (2)
+104 ± 4 (30)
+96 ± 5 (20)
+87 ± 4 (80)
+79 ± 3 (100)
+Tartaric
+Ss/Sm
+0.98
+1.76
+1.17
+1.08
+1.32
+Recovery
+87 ± 8 (0.2)
+115 ± 3 (500)
+108 ± 3 (0.5)
+92 ± 6 (0.5)
+101 ± 4 (0.5)
+102 ± 3 (0.5)
+92 ± 3 (1000)
+79 ± 3 (1)
+102 ± 3 (1)
+100 ± 7 (1)
+Quinic
+Ss/Sm
+0.92
+1.65
+1.46
+1.53
+2.33
+Recovery
+89 ± 2 (0.2)
+88 ± 2 (2)
+76 ± 3 (2)
+96 ± 5 (10)
+107 ± 4 (50)
+103 ± 4 (0.5)
+98 ± 4 (5)
+107 ± 3 (5)
+98 ± 6 (20)
+81 ± 2 (100)
+Malonic
+Ss/Sm
+0.73
+1.13
+0.99
+0.73
+0.89
+Recovery
+83 ± 5 (0.2)
+115 ± 3 (0.2)
+88 ± 2 (0.2)
+104 ± 4 (0.2)
+88 ± 4 (0.2)
+104 ± 8 (0.5)
+107 ± 3 (0.5)
+101 ± 5 (0.5)
+99 ± 5 (0.5)
+103 ± 4 (0.5)
+Malic
+Ss/Sm
+1.16
+1.91
+2.87
+1.70
+2.00
+Recovery
+91 ± 3 (10)
+115 ± 2 (500)
+111 ± 4 (1000)
+95 ± 8 (100)
+97 ± 4 (200)
+110 ± 4 (20)
+94 ± 4 (1000)
+104 ± 3 (2000)
+89 ± 3 (200)
+97 ± 4 (500)
+Shikimic
+Ss/Sm
+0.87
+2.08
+1.40
+1.12
+1.11
+Recovery
+96 ± 5 (0.2)
+114 ± 3 (5)
+101 ± 4 (1)
+87 ± 4 (0.2)
+100 ± 7 (0.2)
+96 ± 4 (0.5)
+98 ± 5 (10)
+97 ± 3 (2)
+103 ± 3 (0.5)
+99 ± 6 (0.5)
+a-Ketoglutaric
+Ss/Sm
+0.90
+0.99
+1.03
+0.91
+1.07
+Recovery
+87 ± 4 (0.2)
+93 ± 6 (1)
+97 ± 3 (2)
+86 ± 4 (1)
+100 ± 5 (2)
+89 ± 3 (0.5)
+88 ± 2 (2)
+101 ± 2 (5)
+86 ± 2 (2)
+102 ± 3 (5)
+Pyruvic
+Ss/Sm
+1.47
+1.63
+2.18
+1.10
+1.18
+Recovery
+90 ± 4 (10)
+96 ± 7 (10)
+117 ± 4 (10)
+80 ± 3 (10)
+108 ± 4 (10)
+102 ± 3 (20)
+101 ± 8 (20)
+107 ± 3 (20)
+99 ± 5 (20)
+109 ± 4 (20)
+Citric
+Ss/Sm
+2.32
+1.16
+2.35
+2.65
+1.93
+Recovery
+86 ± 9 (500)
+115 ± 2 (50)
+104 ± 11 (500)
+113 ± 6 (1000)
+91 ± 2 (1000)
+115 ± 3 (1000)
+98 ± 2 (100)
+108 ± 3 (1000)
+89 ± 3 (2000)
+90 ± 3 (2000)
+Fumaric
+Ss/Sm
+0.87
+1.04
+1.13
+2.01
+1.27
+Recovery
+78 ± 6 (1)
+100 ± 10 (1)
+97 ± 4 (1)
+78 ± 5 (0.5)
+99 ± 4 (0.5)
+119 ± 2 (2)
+82 ± 4 (2)
+92 ± 3 (2)
+90 ± 7 (1)
+87 ± 5 (1)
+Succinic
+Ss/Sm
+0.93
+1.00
+1.19
+1.40
+1.26
+Recovery
+90 ± 3 (1)
+90 ± 2 (1)
+86 ± 8 (2)
+87 ± 3 (0.5)
+98 ± 6 (0.1)
+103 ± 9 (2)
+81 ± 4 (2)
+85 ± 4 (5)
+79 ± 5 (1)
+87 ± 3 (0.5)
+a Values are means ± SD (n = 4).
+P. Flores et al. / Food Chemistry 132 (2012) 1049–1054
+1051
+
+Leonberg, Germany). The sample thermostat was maintained at
+10 C and the column at 20 C. The injected sample volume was
+20 ll, while the mobile phase was 0.1% (v/v) formic acid at a ﬂow
+rate of 0.4 ml/min. The mass spectral analysis was performed on an
+G6410A
+triple
+quadrupole
+mass
+spectrometer
+from
+Agilent
+equipped with an ESI interface operating in negative ion mode,
+using the
+following operation parameters:
+capillary voltage,
+4000 V; nebulizer pressure, 60 psi; drying gas ﬂow, 11 l/min; dry-
+ing gas temperature, 350 C.
+3. Results and discussion
+3.1. Liquid chromatographic determination
+Preferable mobile phase used in LC-techniques contains an ion-
+isation boosting agent, such as formic acid, triﬂuoroacetic acid
+(TFA) or ammonium acetate, to improve the chromatographic peak
+shape and to optimise ionisation in the MS interface. According to
+Temesi
+and
+Law
+(1999),
+who
+investigated
+the
+electrospray
+ionisation mass spectrometry response to different eluent addi-
+tives, TFA is the worst additive for ESI in both negative- and posi-
+tive-ion modes whereas formic acid is the best choice. In our study,
+different concentrations of formic acid between 0.005% and 0.5% v/
+v were tested as mobile phase to obtain the optimal response and
+separation of organic acids. The best results related to sensitivity
+and separation were achieved using 0.1% (v/v) formic acid
+(pH = 2.45), at a ﬂow rate of 0.4 ml/min. Under the described chro-
+matographic conditions, organic acids eluted in less than 15 min
+(Table 1). LC–MS mass spectra in positive and negative modes were
+recorded across the range 70–400 m/z, by injecting the individual
+analytes at a concentration of 50 lg/ml. ESI negative ion mode pro-
+vided the best response. A study of the optimal selective reaction
+monitoring (SRM) transitions for each organic acid was carried
+out using several fragmentor voltages (from 50 to 130 V) and
+collision energies (from 2 to 20 V). Table 1 shows the MS condi-
+tions selected for quantiﬁcation of the selected compounds. Using
+these selective transitions, the absence of interference was con-
+ﬁrmed for organic acids with similar retention times. Fig. 1 shows
+extracted ion chromatograms of a standard (10 lg/l, except pyru-
+vic 100 lg/ml) of organic acids.
+3.2. Analytical performance characteristics
+Validation was performed by studying linearity, matrix effect,
+recovery, detection limits and repeatability in the ten matrices
+studied (melon, grape, peach, orange, lemon, green and red pepper,
+tomato, lettuce and lamb’s lettuce).
+3.2.1. Linearity, matrix effect and recovery
+Under the chromatographic conditions described above, the cal-
+ibration graphs were constructed by plotting peak area vs. concen-
+tration. Good linearity was achieved in the range studied for each
+organic acid in water with signiﬁcant correlations (R2) between
+Table 4
+Slope solvent/slope matrix ratio (Ss/Sm), and recoverya (%) calculated at two different spiking levels (expressed in parenthesis as mg/100 g FW), for the target organic acids in
+vegetables (green and red peppers, tomato, lettuce and lamb’s lettuce).
+Green pepper
+Red pepper
+Tomato
+Lettuce
+Lamb’s lettuce
+Glutamic
+Ss/Sm
+2.11
+1.69
+1.71
+2.48
+1.96
+Recovery
+104 ± 3 (2)
+79 ± 6 (1)
+79 ± 3 (50)
+77 ± 5 (10)
+94 ± 3 (50)
+99 ± 9 (5)
+105 ± 11 (2)
+105 ± 3 (100)
+118 ± 6 (20)
+99 ± 5 (100)
+Tartaric
+Ss/Sm
+0.87
+0.98
+1.45
+1.98
+1.15
+Recovery
+106 ± 4 (0.2)
+110 ± 3 (0.2)
+108 ± 5 (0.2)
+90 ± 4 (10)
+88 ± 4 (0.2)
+91 ± 2 (0.5)
+99 ± 5 (0.5)
+110 ± 3 (0.5)
+82 ± 4 (20)
+88 ± 5 (0.5)
+Quinic
+Ss/Sm
+1.34
+1.39
+1.05
+1.74
+1.9
+Recovery
+109 ± 3 (20)
+104 ± 8 (20)
+106 ± 6 (2)
+86 ± 3 (2)
+77 ± 4 (50)
+114 ± 4 (50)
+98 ± 4 (50)
+97 ± 3 (5)
+97 ± 3 (5)
+99 ± 2 (100)
+Malonic
+Ss/Sm
+0.83
+0.64
+0.77
+1.06
+0.86
+Recovery
+110 ± 9 (0.2)
+86 ± 5 (1)
+110 ± 3 (0.2)
+98 ± 7 (1)
+106 ± 2 (0.2)
+92 ± 3 (0.5)
+101 ± 4 (2)
+108 ± 9 (0.5)
+97 ± 3 (2)
+102 ± 4 (0.5)
+Malic
+Ss/Sm
+1.64
+1.37
+1.26
+2.12
+1.83
+Recovery
+110 ± 3 (150)
+107 ± 8 (50)
+80 ± 3 (50)
+111 ± 7 (500)
+77 ± 3 (200)
+92 ± 4 (300)
+88 ± 7 (100)
+100 ± 8 (100)
+82 ± 4 (1000)
+73 ± 2 (500)
+Shikimic
+Ss/Sm
+0.84
+1.05
+1.04
+1.72
+1.44
+Recovery
+116 ± 2 (1)
+80 ± 7 (1)
+110 ± 3 (0.2)
+100 ± 4 (1)
+86 ± 3 (1)
+96 ± 5 (2)
+103 ± 2 (2)
+105 ± 4 (0.5)
+99 ± 7 (2)
+100 ± 3 (2)
+a-Ketoglutaric
+Ss/Sm
+1.02
+0.83
+1.06
+0.96
+0.90
+Recovery
+111 ± 3 (1)
+108 ± 8 (0.2)
+93 ± 6 (1)
+81 ± 3 (1)
+89 ± 8 (2)
+111 ± 4 (2)
+92 ± 4 (0.5)
+95 ± 9 (2)
+100 ± 3 (2)
+108 ± 2 (5)
+Pyruvic
+Ss/Sm
+2.01
+2.19
+1.88
+1.62
+1.80
+Recovery
+83 ± 6 (5)
+79 ± 3 (5)
+94 ± 5 (5)
+96 ± 3 (5)
+114 ± 2 (5)
+87 ± 4 (10)
+88 ± 3 (10)
+99 ± 5 (10)
+100 ± 10 (10)
+99 ± 5 (10)
+Citric
+Ss/Sm
+1.50
+2.59
+2.56
+0.81
+1.12
+Recovery
+112 ± 3 (50)
+106 ± 4 (500)
+87 ± 7 (1000)
+88 ± 3 (100)
+92 ± 5 (200)
+82 ± 5 (100)
+100 ± 9 (1000)
+93 ± 6 (2000)
+78 ± 2 (200)
+100 ± 4 (500)
+Fumaric
+Ss/Sm
+1.10
+0.97
+1.10
+1.33
+1.30
+Recovery
+85 ± 5 (1)
+84 ± 2 (0.2)
+94 ± 7 (0.2)
+98 ± 9 (10)
+93 ± 1 (10)
+77 ± 2 (2)
+78 ± 7 (0.5)
+98 ± 3 (0.5)
+101 ± 9 (20)
+94 ± 5 (20)
+Succinic
+Ss/Sm
+1.00
+1.02
+1.00
+1.09
+1.24
+Recovery
+82 ± 3 (1)
+77 ± 5 (1)
+111 ± 9 (0.2)
+77 ± 4 (2)
+75 ± 7 (2)
+79 ± 7 (2)
+74 ± 2 (2)
+96 ± 4 (0.5)
+75 ± 6 (5)
+100 ± 8 (5)
+a Values are means ± SD (n = 4).
+1052
+P. Flores et al. / Food Chemistry 132 (2012) 1049–1054
+
+0.981 and 0.999 (Table 2). The effect of co-eluting matrix compo-
+nents, which can cause ion suppression or enhancement of the
+analyte, is especially relevant when using HPLC tandem mass spec-
+trometry. In order to validate the assay, the matrix effect was eval-
+uated following the post-extraction spike method in the different
+studied matrices (Van Eeckhaut, Lanckmans, Sarre, Smolders, &
+Michotte, 2009). For that, the response of the organic acids in solu-
+tion were compared with the response of these compounds in veg-
+etal material spiked at different concentrations included in the
+linear range. The ratio of the slopes for the solvent and matrix
+(Ss/Sm) was determined to provide information about the enhance-
+ment or suppression of the signal in the different matrices (Tables
+3 and 4). Both suppression (Ss/Sm > 1) and increase (Ss/Sm < 1) of the
+signals were observed as a result of the effect of the different
+matrices. As regards glutamic acid, fruits showed a low matrix ef-
+fect, whereas vegetables tended to decrease the signal showing Ss/
+Sm ratios from 1.69 to 2.48. For malonic and a-ketoglutaric, the dif-
+ferent matrices had a mild effect, the ratio ranging from 0.64 to
+1.13 and from 0.83 to 1.07, respectively. For tartaric, quinic, shiki-
+mic, succinic and fumaric acids, the different matrices showed a
+suppressive effect on the signal, except in some cases with melon
+and pepper, when values closed to 1 were reached. Finally, an
+overall suppressive effect of fruit and vegetable matrices on the
+signal for malic, pyruvic and citric acids was observed (except for
+lettuce). As a consequence of the different matrix effects observed,
+a standard addition protocol, rather than calibration curves, was
+used to quantify the studied organic acids in the samples, dividing
+the extracts into different aliquots. One aliquot was analysed as
+such, and increasing known amounts of the standard analytes were
+added to the other aliquots.
+In order to evaluate the extraction efﬁciency of the proposed
+method, the recoveries were studied by comparing the concentra-
+tion of the different organic acids in the different samples (C0),
+with those of samples spiked with the target organic acids before
+extraction (Cn), at two levels, depending on the matrix (Tables 3
+and 4). The spiking levels were presented as mg/100 g in fresh
+weight (FW), taken into account weight of vegetal material used
+for the extraction, the volume of vegetal extract and the standard
+solution concentration. All the samples were extracted with the
+proposed method and recoveries were calculated according to
+the equation R = 100  (Cn  C0)/Cspiked. Recoveries ranged from
+73% to 119% for all the organic acids in the different assayed
+matrices.
+3.2.2. Repeatability, detection limits and quantiﬁcation limits
+The repeatability of the chromatographic method was evalu-
+ated by injecting (ten times) the analytes in the solvent at a con-
+centration of 10 lg/ml and a sample of each vegetable material
+fortiﬁed with the different organic acids, and determining the
+relative standard deviation (RSD) values for the retention times
+and for peak areas. The intra-day RSD values for all the organic acid
+and matrix types ranged from 0.1% to 0.9% for the retention times
+and from 0.5% to 6.9% for peak areas. Inter-day RSDs for the reten-
+tion times and peak areas were below 1.1% and 8.3%, respectively
+(Table 2).
+The limits of detection (LOD) and quantiﬁcation (LOQ) of the
+proposed method were determined as the amount for which the
+signal-to-noise ratio (S/N) was 3 and 10, respectively. Bearing in
+mind the presence of a matrix effect and the fact that no ‘‘blank’’
+matrices were available in most cases, LODs were estimated by
+extrapolation of the S/N of the extract with known amounts of ana-
+lytes. In the studied matrices, LODs ranged from 0.01 to 0.67 mg/
+100 g for glutamic, 0.01 to 15.16 mg/100 g for tartaric, 0.01 to
+1.23 mg/100 g for quinic, 0.01 to 0.02 mg/100 g for malonic, 0.29
+to 11.55 mg/100 g for malic, 0.01 to 0.11 mg/100 g for shikimic,
+0.01 to 0.17 mg/100 g for a-ketoglutaric, 0.64 to 2.35 mg/100 g
+for pyruvic, 0.13 to 7.75 mg/100 g for citric, 0.04 to 0.82 mg/
+100 g for fumaric and, from 0.01 to 0.22 mg/100 g for succinic
+(Supplementary Tables S1 and S2).
+3.3. Sample determination
+Fruits and vegetables were analysed following the extraction
+methods described above. For accurate quantiﬁcation of the sam-
+ples, the standard additions approach was followed for each matrix
+(Table 5). The values found agreed with those reported for these
+fruits and vegetables in previous studies. Citric and malic were
+the major organic acid in melon (Tang, Bie, Wu, Yi, & Feng, 2010)
+and peach (Wu et al., 2005); in grape, tartaric and malic acid
+showed the highest concentration of all the organic acids detected
+(Soyer, Koca, & Karadeniz, 2003); in orange, citric followed by
+malic were the major organic acids (Cancolon & Xu, 2002) although
+glutamic and quinic acids were also present in large quantities; in
+lemon, citric represented the highest proportion followed by malic,
+glutamic, quinic, and a-ketoglutaric acids.
+As regards ‘‘fruity’’ vegetables, citric, malic, quinic (in pepper)
+and glutamic (in tomato) were the major acids, and other organic
+acids were detected at lower levels. As previously reported, organic
+acid concentrations in pepper depended on the ripening stage so
+that fully mature fruits (red) has lower malic concentrations and
+much higher citric concentrations than green fruits (Flores, Hellin,
+Lacasa, Lopez, & Fenoll, 2009). Leafy vegetables showed a high con-
+centration of malic and citric. Moreover, lamb’s lettuce showed
+higher concentrations of glutamic and quinic, and lower concentra-
+tions of malonic and tartaric than lettuce, whereas concentrations
+of shikimic, a-ketoglutaric, fumaric and succinic levels were simi-
+lar for both vegetables. Finally, pyruvic is a ﬂavour precursor that
+has been shown to be correlated with perceived pungency in veg-
+etables such as onion (Galdon et al., 2008). It can be also found at
+relative low concentration in a few fruits such as apples and grapes
+Table 5
+Concentrations, expressed as mg/100 g FW, for the target organic acids in fruits and vegetables. Values are means ± SD (n = 4).
+Melon
+Grape
+Peach
+Orange
+Lemon
+Green pepper
+Red pepper
+Tomato
+Lettuce
+Lamb’s lettuce
+Glutamic
+1.4 ± 0.1
+27 ± 2
+15 ± 1
+49 ± 2
+75 ± 5
+4.0 ± 0.9
+1.2 ± 0.1
+70 ± 4
+16 ± 1
+33 ± 1
+Tartaric
+0.17 ± 0.01
+1047 ± 62
+0.32 ± 0.02
+0.04 ± 0.01
+0.04 ± 0.01
+0.05 ± 0.01
+0.06 ± 0.01
+0.05 ± 0.01
+5.4 ± 0.3
+0.12 ± 0.01
+Quinic
+0.08 ± 0.01
+3.5 ± 0.2
+3.4 ± 0.2
+14 ± 1
+44 ± 1
+26 ± 1
+32 ± 2
+2.7 ± 0.2
+2.0 ± 0.2
+74 ± 5
+Malonic
+0.19 ± 0.02
+0.15 ± 0.01
+0.04 ± 0.01
+0.24 ± 0.02
+0.14 ± 0.01
+0.32 ± 0.02
+0.48 ± 0.03
+0.07 ± 0.01
+0.60 ± 0.04
+0.06 ± 0.01
+Malic
+14 ± 2
+1095 ± 57
+2183 ± 79
+131 ± 12
+228 ± 15
+190 ± 9
+83 ± 5
+81 ± 6
+575 ± 36
+233 ± 20
+Shikimic
+0.10 ± 0.01
+6.0 ± 0.3
+0.44 ± 0.03
+0.20 ± 0.02
+0.30 ± 0.02
+0.76 ± 0.03
+0.79 ± 0.04
+0.08 ± 0.01
+0.53 ± 0.02
+0.68 ± 0.04
+a-Ketoglutaric
+n.d.
+0.60 ± 0.02
+1.6 ± 0.1
+0.98 ± 0.08
+2.3 ± 0.1
+0.80 ± 0.06
+0.10 ± 0.01
+0.47 ± 0.03
+1.3 ± 0.1
+2.0 ± 0.1
+Pyruvic
+n.d.
+n.d.
+n.d.
+n.d.
+n.d.
+n.d.
+n.d.
+n.d.
+n.d.
+n.d.
+Citric
+1005 ± 45
+61 ± 4
+673 ± 51
+2049 ± 101
+5149 ± 164
+77 ± 3
+789 ± 31
+1064 ± 40
+118 ± 8
+356 ± 12
+Fumaric
+0.71 ± 0.04
+0.75 ± 0.03
+0.77 ± 0.03
+n.d.
+n.d.
+0.72 ± 0.02
+0.10 ± 0.01
+0.08 ± 0.01
+9.0 ± 0.6
+7.7 ± 0.4
+Succinic
+0.81 ± 0.03
+0.72 ± 0.04
+2.3 ± 0.1
+0.21 ± 0.02
+0.05 ± 0.01
+0.71 ± 0.07
+0.74 ± 0.03
+0.11 ± 0.01
+3.0 ± 0.2
+3.1 ± 0.2
+n.d. not detected. Values lower than the LOQs.
+P. Flores et al. / Food Chemistry 132 (2012) 1049–1054
+1053
+
+(Fuleki, Pelayo, & Palabay, 1993; Tisza, Sass, & Molnarperl, 1994).
+As expected, pyruvic acid was not detected in any fruit or vegetable
+studied in the present work.
+4. Conclusions
+The new proposed HPLC–MS/MS method allows the simulta-
+neous determination of major and minor organic acid in fruits
+and vegetables. This method is very simple, involves little sample
+preparation so that a large number of samples can be simulta-
+neously extracted, and is quite fast (total analysis time does not
+exceed 15 min). The use of the MS/MS detector provides reliable
+results and increased selectivity compared with other detection
+techniques, without requiring sample derivatization. According to
+the validation study, the sensitivity, linearity, repeatability and
+recovery of the method are satisfactory. The described method
+can be used in routine analysis for the determination of the main
+organic acids in melon, grape, peach, orange, lemon, green and
+red pepper, tomato, lettuce and lamb’s lettuce, and may be easily
+extended to other matrices and organic acids.
+Acknowledgements
+The authors are grateful to Inmaculada Garrido González and
+Maria Molina Menor for technical assistance and to the Fundación
+Séneca Región de Murcia (research Project Number 11967/PI/09),
+FEDER and European Social Funds and the Ministerio de España
+de Ciencia e Innovación through the Ramón and Cajal Subprogram
+for the ﬁnancial support.
+Appendix A. Supplementary material
+Supplementary data associated with this article can be found, in
+the online version, at doi:10.1016/j.foodchem.2011.10.064.
+References
+Cancolon, P. F., & Xu, Y. (2002). Changes in organic acid composition of citrus juices
+during the 2000–2001 season. Proceedings of the Florida State Horticultural
+Society, 115, 37–41.
+Castineira, A., Pena, R. M., Herrero, C., & Garcia-Martin, S. (2002). Analysis of organic
+acids in wine by capillary electrophoresis with direct UV detection. Journal of
+Food Composition and Analysis, 15(3), 319–331.
+Erro, J., Zamarreno, A. M., Yvin, J. C., & Garcia-Mina, J. M. (2009). Determination of
+organic acids in tissues and exudates of maize, lupin, and chickpea by high-
+performance liquid chromatography-tandem mass spectrometry. Journal of
+Agricultural and Food Chemistry, 57(10), 4004–4010.
+Fernandez-Fernandez, R., Lopez-Martinez, J. C., Romero-Gonzalez, R., Martinez-
+Vidal, J. L., Flores, M. I. A., & Frenich, A. G. (2010). Simple LC–MS determination
+of citric and malic acids in fruits and vegetables. Chromatographia, 72(1–2),
+55–62.
+Flores, P., Hellin, P., Lacasa, A., Lopez, A., & Fenoll, J. (2009). Pepper antioxidant
+composition as affected by organic, low-input and soilless cultivation. Journal of
+the Science of Food and Agriculture, 89(13), 2267–2274.
+Fuleki, T., Pelayo, E., & Palabay, R. B. (1993). Carboxylic-acid composition of
+authentic varietal and commercial grape juices. Journal of AOAC International,
+76(3), 591–600.
+Galdon, B. R., Rodriguez, C. T., Rodriguez, E. R., & Romero, C. D. (2008). Organic acid
+contents in onion cultivars (Allium cepa L.). Journal of Agricultural and Food
+Chemistry, 56(15), 6512–6519.
+Giumanini, A. G., Verardo, G., Della Martina, D., & Toniutti, N. (2001). Improved
+method for the analysis of organic acids and new derivatization of alcohols in
+complex natural aqueous matrixes: Application to wine and apple vinegar.
+Journal of Agricultural and Food Chemistry, 49(6), 2875–2882.
+Hernandez, Y., Lobo, M. G., & Gonzalez, M. (2009). Factors affecting sample
+extraction in the liquid chromatographic determination of organic acids in
+papaya and pineapple. Food Chemistry, 114(2), 734–741.
+Jham, G. N., Fernandes, S. A., Garcia, C. F., & da Silva, A. A. (2002). Comparison of GC
+and HPLC for the quantiﬁcation of organic acids in coffee. Phytochemical
+Analysis, 13(2), 99–104.
+Kader, A. A. (2008). Flavor quality of fruits and vegetables. Journal of the Science of
+Food and Agriculture, 88(11), 1863–1868.
+Kotani, A., Miyaguchi, Y., Tomita, E., Takamura, K., & Kusu, F. (2004). Determination
+of
+organic
+acids
+by
+high-performance
+liquid
+chromatography
+with
+electrochemical detection during wine brewing. Journal of Agricultural and
+Food Chemistry, 52(6), 1440–1444.
+Magne, V., Mathlouthi, M., & Robilland, B. (1998). Determination of some organic
+acids and inorganic anions in beet sugar by ionic HPLC. Food Chemistry, 61(4),
+449–453.
+Mato, I., Suarez-Luque, S., & Huidobro, J. F. (2005). A review of the analytical
+methods to determine organic acids in grape juices and wines. Food Research
+International, 38(10), 1175–1188.
+Mato, I., Suarez-Luque, S., & Huidobro, J. F. (2007). Simple determination of main
+organic acids in grape juice and wine by using capillary zone electrophoresis
+with direct UV detection. Food Chemistry, 102(1), 104–112.
+Molnar-Perl,
+I.
+(1999).
+Simultaneous
+quantitation
+of
+acids
+and
+sugars
+by
+chromatography: Gas or high-performance liquid chromatography? Journal of
+Chromatography A, 845(1–2), 181–195.
+Perez-Ruiz,
+T.,
+Martinez-Lozano,
+C.,
+Tomas,
+V.,
+&
+Martin,
+J.
+(2004).
+High-
+performance liquid chromatographic separation and quantiﬁcation of citric,
+lactic, malic, oxalic and tartaric acids using a post-column photochemical
+reaction and chemiluminescence detection. Journal of Chromatography A,
+1026(1–2), 57–64.
+Saraji, M., & Mousavinia, F. (2006). Single-drop microextraction followed by in-
+syringe derivatization and gas chromatography-mass spectrometric detection
+for determination of organic acids in fruits and fruit juices. Journal of Separation
+Science, 29(9), 1223–1229.
+Scarlata, C. J., & Hyman, D. A. (2010). Development and validation of a fast high
+pressure liquid chromatography method for the analysis of lignocellulosic
+biomass hydrolysis and fermentation products. Journal of Chromatography A,
+1217(14), 2082–2087.
+Soyer, Y., Koca, N., & Karadeniz, F. (2003). Organic acid proﬁle of Turkish white
+grapes and grape juices. Journal of Food Composition and Analysis, 16(5),
+629–636.
+Tang, M., Bie, Z. L., Wu, M. Z., Yi, H. P., & Feng, J. X. (2010). Changes in organic acids
+and acid metabolism enzymes in melon fruit during development. Scientia
+Horticulturae, 123(3), 360–365.
+Temesi, D., & Law, B. (1999). The effect of LC eluent composition on MS responses
+using electrospray ionization. Lc Gc North America, 17(7), 626–632.
+Tisza, S., Sass, P., & Molnarperl, I. (1994). Optimization of the simultaneous
+determination of acids and sugars as their trimethylsilyl(oxime) derivatives by
+gas-chromatography mass-spectrometry and determination of the composition
+of 6 apple varieties. Journal of Chromatography A, 676(2), 461–468.
+Van Eeckhaut, A., Lanckmans, K., Sarre, S., Smolders, I., & Michotte, Y. (2009).
+Validation of bioanalytical LC–MS/MS assays: Evaluation of matrix effects.
+Journal of Chromatography B – Analytical Technologies in the Biomedical and Life
+Sciences, 877(23), 2198–2207.
+Wu, B. H., Li, S. H., Quilot, B., Genard, M., Kervella, J., & Gomez, L. (2005). Sugar and
+acid concentrations associated with several qualitative traits in unselected
+Prunus persica  P. davidiana progenies. Journal of Horticultural Science and
+Biotechnology, 80(3), 335–339.
+Zheng, Y. J., Duan, Y. T., Zhang, Y. F., Pan, Q. H., Li, J. M., & Huang, W. D. (2009).
+Determination of organic acids in red wine and must on only one RP-LC-column
+directly after sample dilution and ﬁltration. Chromatographia, 69(11–12),
+1391–1395.
+1054
+P. Flores et al. / Food Chemistry 132 (2012) 1049–1054

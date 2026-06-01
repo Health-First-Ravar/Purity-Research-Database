@@ -1,0 +1,1393 @@
+META-ANALYSIS
+A meta-analysis of prospective studies of coffee consumption
+and mortality for all causes, cancers and cardiovascular diseases
+Stefano Malerba • Federica Turati • Carlotta Galeone •
+Claudio Pelucchi • Federica Verga • Carlo La Vecchia •
+Alessandra Tavani
+Received: 2 April 2013 / Accepted: 17 July 2013 / Published online: 11 August 2013
+ Springer Science+Business Media Dordrecht 2013
+Abstract
+Several prospective studies considered the
+relation between coffee consumption and mortality. Most
+studies, however, were underpowered to detect an associ-
+ation, since they included relatively few deaths. To obtain
+quantitative overall estimates, we combined all published
+data from prospective studies on the relation of coffee with
+mortality for all causes, all cancers, cardiovascular disease
+(CVD), coronary/ischemic heart disease (CHD/IHD) and
+stroke. A bibliography search, updated to January 2013,
+was carried out in PubMed and Embase to identify pro-
+spective observational studies providing quantitative esti-
+mates on mortality from all causes, cancer, CVD, CHD/
+IHD or stroke in relation to coffee consumption. A sys-
+tematic review and meta-analysis was conducted to esti-
+mate overall relative risks (RR) and 95 % conﬁdence
+intervals (CI) using random-effects models. The pooled
+RRs of all cause mortality for the study-speciﬁc highest
+versus low (B1 cup/day) coffee drinking categories were
+0.88 (95 % CI 0.84–0.93) based on all the 23 studies, and
+0.87 (95 % CI 0.82–0.93) for the 19 smoking adjusting
+studies. The combined RRs for CVD mortality were 0.89
+(95 % CI 0.77–1.02, 17 smoking adjusting studies) for the
+highest versus low drinking and 0.98 (95 % CI 0.95–1.00,
+16 studies) for the increment of 1 cup/day. Compared with
+low drinking, the RRs for the highest consumption of
+coffee were 0.95 (95 % CI 0.78–1.15, 12 smoking adjust-
+ing studies) for CHD/IHD, 0.95 (95 % CI 0.70–1.29, 6
+studies) for stroke, and 1.03 (95 % CI 0.97–1.10, 10
+studies) for all cancers. This meta-analysis provides
+quantitative evidence that coffee intake is inversely related
+to all cause and, probably, CVD mortality.
+Keywords
+Coffee  All cause mortality  All
+cancers mortality  Cardiovascular disease mortality 
+Meta-analysis  Prospective studies
+Alessandra Tavani has the right to grant on behalf of all authors
+and does grant on behalf of all authors, an exclusive licence on a
+worldwide basis to the BMJ Publishing Group Ltd to permit this
+article to be published in BMJ editions and any other BMJPGL
+products and sublicences such use and exploit all subsidiary rights,
+as set out in our licence.
+Statistical codes and datasets available from Malerba or Tavani
+(stefano.malerba@marionegri.it).
+Electronic supplementary material
+The online version of this
+article (doi:10.1007/s10654-013-9834-7) contains supplementary
+material, which is available to authorized users.
+S. Malerba (&)  F. Turati  C. Galeone  C. Pelucchi 
+C. La Vecchia  A. Tavani
+Department of Epidemiology, IRCCS, Istituto di Ricerche
+Farmacologiche ‘‘Mario Negri’’, Via G. La Masa 19,
+20157 Milan, Italy
+e-mail: stevie.malerba@gmail.com
+A. Tavani
+e-mail: alessandra.tavani@marionegri.it
+S. Malerba
+Institute of Hygiene, Universita` Cattolica Del Sacro Cuore,
+Rome, Italy
+F. Turati
+Struttura Complessa di Statistica Medica, Biometria e
+Bioinformatica, Fondazione IRCCS Istituto Nazionale
+Tumori, Milan, Italy
+C. Galeone  C. La Vecchia
+Department of Clinical Sciences and Community Health,
+University of Milan, Milan, Italy
+F. Verga
+Section of Occupational Medicine, Department of Public Health
+and Pediatrics, University of Torino, Turin, Italy
+123
+Eur J Epidemiol (2013) 28:527–539
+DOI 10.1007/s10654-013-9834-7
+
+Introduction
+Coffee is the second most common beverage in the world
+after tea. Thus, any health effect of coffee is an important
+issue of public health. Besides caffeine, coffee contains
+many bioactive compounds with potential effects on health
+[1], including minerals and antioxidants, mainly phenolic
+compounds (such as chlorogenic, caffeic, ferulic and cum-
+aric acids), melanoidins and diterpenes (such as cafestol and
+kahweol). Coffee has been related with lower incidence of
+diabetes [2], stroke[3] and cancer at selected sites [4–8].
+To date 25 prospective studies considered the quantita-
+tive relation between coffee and mortality for all causes [9–
+33]. Among these, 21 found an inverse or null association
+(including the most recent paper based on the large NIH-
+AARP Diet and Health Study[32]), one cohort study of US
+Seventh-day Adventists found a signiﬁcant positive asso-
+ciation [16], and three studies found a signiﬁcant increased
+risk only in men [13, 26, 33].
+An estimate of the relation between cardiovascular
+disease (CVD) mortality and coffee was provided by 22
+studies [10, 11, 14–16, 18–22, 25, 27, 29, 30, 32, 34–40].
+Most of these found no relation or a moderate inverse
+association, signiﬁcant in 4 studies [18–20, 32], while 4
+studies found an increased risk [10, 14, 16, 40]. The rela-
+tion of coffee with mortality for coronary/ischemic heart
+disease (CHD/IHD) was considered in 17 studies, reporting
+inconsistent results [10, 11, 14–16, 18, 19, 23, 26, 29, 30,
+35–40]. Of the 8 studies considering stroke mortality [10,
+20, 26, 29, 30, 32, 39, 40], 5 found no relation [26, 29, 30,
+32, 39].
+Estimates of the relation between coffee and all cancers
+mortality have been provided from 13 prospective studies,
+overall reporting no relation [12, 15, 16, 20, 22, 23, 25, 27,
+30–32, 34, 41].
+Since most studies included a few deaths and were
+possibly underpowered to detect an association, we com-
+bined all published data on the relation of coffee with
+mortality from all cause, CVD, CHD/IHD, stroke and all
+cancers, using a meta-analytic approach.
+Methods
+Data sources and search
+We carried out a PubMed search in January 2013 using the
+string ‘(prospective OR cohort) AND (fatal OR death OR
+mortality) AND (hot beverages OR coffee OR caffeine)’,
+following the Meta Analysis of Observational Studies in
+Epidemiology (MOOSE) guidelines [42]. A similar strat-
+egy was used to search Embase. The searches were limited
+to human studies written in English. A ﬂow chart of the
+procedure to select studies is shown in Fig. 1. From the 889
+and 2,274 articles retrieved on Pubmed and Embase, three
+authors (SM, AT, FT) separately selected the studies
+reporting data on the association between coffee and all
+cause and/or selected cause-speciﬁc mortality, including
+deaths for CVD, CHD/IHD, stroke and all cancers. Dis-
+crepancies between review team members were discussed
+and resolved.
+Study selection
+Most studies were not focused on the relation between
+coffee and mortality, and were no longer considered. Of the
+92 publications selected, 58 were not included for at least
+one of the following reasons: (a) did not report original
+results from cohort studies; (b) did not provide relative
+risks (RR) and the corresponding conﬁdence intervals (CI)
+or information sufﬁcient to calculate them; (c) considered
+together the disease incidence and mortality; (d) analyzed
+special populations (e.g. diabetics, people with heart con-
+ditions); (e) investigated patients with speciﬁc cancers (we
+included only studies considering total cancer mortality).
+The reference lists of the remaining 34 articles were
+checked to obtain other pertinent publications, and 2
+additional report was identiﬁed [26]. Of the 36 articles
+selected, 8 were excluded since they reported information
+on caffeinated drinks [43, 44], or were duplicate reports on
+the same population [45, 46], or had a number of deaths
+below 100 [47], or had the upper cutpoint of the reference
+category too high [10, 12, 34], since for the present anal-
+yses we considered as reference category B1 cup/day of
+coffee consumption. No study was excluded a priori for
+weakness of design or data quality, and we did not assign
+quality scores to the studies.
+Thus, the present analyses were based on 28 prospective
+studies whose main characteristics are reported in eTable 1
+[9, 11, 13–24, 26–33, 35, 37–41]. We summarized deci-
+sions and operations on original data for each study in the
+column ‘‘notes’’.
+Data extraction
+We abstracted from the selected studies the following
+information in a standard format: study design, country,
+number of subjects (total number of deaths, total cohort
+size or the number of person-years of follow-up), in general
+and for each category of coffee consumption, duration of
+follow-up (years of enrolment and study end, and mean/
+median duration of follow-up), sex, RR for the categories
+of coffee intake and the corresponding CIs, type of coffee,
+outcomes considered and covariates adjusted in the model.
+Discrepancies between the authors were discussed and
+resolved.
+528
+S. Malerba et al.
+123
+
+When a study did not report the RR or the CI, but
+reported sufﬁcient data to calculate them (i.e. the number
+of cases and non-cases for each category of coffee con-
+sumption), we estimated the RRs and the corresponding
+95 % CIs from raw data [9, 11, 23, 26]. When a study
+reported the adjusted RR but not the corresponding CI, we
+calculated the CI of the crude RR, and related them to the
+adjusted RR [14, 18]. If a study provided more than one
+RR, the one adjusted for the largest number of confounding
+factors was included in the analysis. When a study reported
+data on both regular and decaffeinated coffee, data were
+collected separately [22, 24, 27, 32].
+Data synthesis and analysis
+All studies reported data on coffee consumption measured
+in cups/day. As reference category (deﬁned as low drink-
+ing) we used either no consumption [17, 18, 21, 22, 25, 26,
+30, 32, 37, 38], or the lowest category of coffee con-
+sumption considered in each paper, i.e. occasional drink-
+ing[20, 23, 27, 33, 40, 41] or drinking up to 1 cup/day [11,
+14, 16, 19, 24, 28, 31, 35, 39].
+For all cause mortality, we pooled the RRs for the study-
+speciﬁc highest category of coffee consumption versus low
+drinking, using random-effects models, which consider
+Flow chart of selection of studies for the meta-analysis
+*Study characteristics described in e-table
+36 studies eligible for inclusion in the 
+meta-analysis
+797 records excluded (title and/or 
+abstract not relevant)
+889 records identified through searches 
+of PubMed/MEDLINE database and 
+screened
+92 full-text articles assessed for 
+eligibility
+28 unique studies included in the meta-
+analysis*
+8 articles excluded because not 
+satisfying the inclusion criteria (2 
+papers on caffeinated drinks in general; 
+3 having upper cutpoint of the reference 
+category too high, 2 duplicate reports 
+on the same study population, 1 paper 
+including < 100 deaths)
+58 articles excluded (reviews; papers on 
+patients with specific cancers, not 
+reporting risk estimates, analyzing 
+special populations)
+2 additional article identified from 
+manual searches
+23 non-unique 
+studies for all 
+cause mortality
+11 non-unique 
+studies for 
+cancer mortality
+19 non-unique 
+studies for CVD 
+mortality
+Screening
+Included
+Eligibility
+Identification
+Fig. 1 Flow-chart of the
+selection of studies included in
+the meta-analyses. RR relative
+risk
+A meta-analysis of prospective studies
+529
+123
+
+both within and between study variation. Since smoking is
+a major confounder of the possible relationship between
+coffee consumption and mortality for several causes, we
+excluded from all further analyses studies reporting RRs
+not adjusted for smoking [9, 11, 23, 26, 35]. Thus, analyses
+for cause-speciﬁc mortality were carried out considering
+only smoking-adjusting studies.
+We selected studies reporting three or more categories of
+coffee consumption and computed the pooled RRs for an
+increment of coffee of 1 cup/day. To obtain the information
+on the dose–response relationship we used the method pro-
+posed by Greenland and Longnecker [48], which estimates
+the study speciﬁc RRs for the increment of one unit of con-
+sumption by relating the natural logarithm of the RR to the
+corresponding mean value of intake across exposure cate-
+gories. This method takes into account that estimates of risk
+for successive levels of intake are correlated. Open-ended
+upper categories were considered of the same amplitude as
+the previous one. The overall RR for an increment of 1 cup/
+day of coffee was then obtained by pooling the correspond-
+ing study-speciﬁc RRs with random-effects models.
+For all causes and CVD mortality, we computed the
+pooled RRs for consumption of coffee of B3 cups/day
+(moderate) and [3 cups/day (heavy) versus low drinking.
+When more than one RR estimate in a study fell in the range
+considered for moderate or heavy coffee drinking, we ﬁrst
+pooled for each study the corresponding estimates using the
+Hamling et al. method [49]. For all cause and CVD mortality
+we also computed the pooled RRs including only studies
+whose highest category of coffee was of at least B4 cups/day
+[13–15, 17–19, 22, 24, 25, 27–29, 31, 32, 37, 39].
+Heterogeneity among studies was assessed using the v2
+test, and was deﬁned as a p value \0.10. Moreover,
+potential heterogeneity was quantiﬁed through the I2 sta-
+tistic, which describes the percentage of total variation
+across studies due to heterogeneity, rather than chance
+[50]. Usually low heterogeneity is deﬁned by values of the
+I2 statistic\25 %, while values of such statistic[75 % are
+indicative of high heterogeneity.
+Publication bias was assessed by funnel plot and by the
+Begg’s and Mazumdar’s [51], and Egger’s tests [52]. All
+the statistical analyses were performed using the STATA
+software (version 11; StataCorp, College Station, TX,
+USA).
+Results
+Mortality from all causes
+Figure 2 shows the RRs of all cause mortality for the
+study-speciﬁc highest versus low (B1 cup/day) coffee
+drinking categories for 23 prospective studies. The pooled
+RRs were 0.88 (95 % CI 0.84–0.93, p for heterogeneity
+\0.001, I2 = 68.7 %) for all studies, 0.88 (95 % CI
+0.80–0.97) for the 17 studies considering men, and 0.86
+(95 % CI 0.82–0.90) for the 13 studies reporting the rela-
+tion in women.
+Table 1 shows the combined RRs of all cause mortality
+for the highestversus low coffee categoryin strata of selected
+study characteristics. The pooled RR from the 4 studies with
+RRs not adjusted for tobacco smoking was 0.91 (95 % CI
+0.81–1.01). The corresponding RR for the 19 studies
+adjusting
+for
+tobacco
+smoking
+was
+0.87
+(95 %
+CI
+0.82–0.93), similar in men and women. Among smoking
+adjusting studies, the pooled RRs were 0.92 (95 % CI
+0.85–1.00) for studies conducted in North America, 0.85
+(95 % CI 0.76–0.95) for those conducted in Europe, and 0.76
+(95 % CI 0.63–0.91) for studies conducted in Japan (p for
+heterogeneity among RRs in geographic regions = 0.138).
+The pooled RR was 0.88 (95 % CI 0.83–0.93) for alcohol
+adjusting papers and 0.81 (95 % CI 0.61–1.08) for those non
+adjusting for alcohol (p for heterogeneity = 0.577). When
+we included in the meta-analysis only studies whose refer-
+ence category was non-drinking, the pooled RR for the
+highest category of intake was 0.87 (95 % CI 0.83–0.94, p
+for heterogeneity = 0.42).
+There was no evidence of publication bias in the 19
+smoking
+adjusting
+studies,
+as
+tested
+using
+Egger’s
+(p = 0.114) and Begg’s (p = 0.118) tests.
+The pooled RR for a consumption increment of 1 cup/
+day of coffee was 0.97 (95 % CI 0.96–0.98, p for hetero-
+geneity\0.001, I2 = 80.7 %), obtained pooling the RRs of
+the 17 smoking adjusting studies considering at least three
+categories of coffee consumption (Fig. 3).
+Four studies considered the relation of total mortality
+with decaffeinated coffee [22, 24, 27, 32]. The pooled RRs
+for the study-speciﬁc highest versus low (B1 cup/day)
+decaffeinated coffee intake were 0.90 (95 % CI 0.82–0.99)
+in both sexes combined, 0.86 (95 % CI 0.80–0.92) in men
+and 0.83 (95 % CI 0.76–0.91) in women.
+Mortality from CVD
+The meta-analysis on the relation of overall CVD mortality
+with coffee included 17 smoking adjusting studies report-
+ing quantitative estimates for CVD and/or CHD/IHD and/
+or stroke mortality, whose main characteristics are reported
+in eTable 1. There was no evidence of publication bias
+overall, as tested using Egger’s (p = 0.963) and Begg’s
+(p = 0.981) tests.
+The combined RR for the study-speciﬁc highest versus
+low (B1 cup/day) categories of coffee was 0.89 (95 % CI
+0.77–1.02, p for heterogeneity\0.001, I2 = 75.7 %) for all
+subjects, 0.92 in men and 0.84 in women (Fig. 4a). The
+pooled RR for a consumption increment of 1 cup/day of
+530
+S. Malerba et al.
+123
+
+coffee was 0.98 (95 % CI 0.95–1.00, p for heterogeneity
+\0.001, I2 = 87.8 %), from 16 studies (Fig. 4b). The
+corresponding RRs were 0.99 (95 % CI 0.95–1.03) in men,
+and 0.95 (95 % CI 0.92–0.98) in women.
+Table 2 reports the pooled RRs on mortality for CHD/
+IHD and stroke separately, for the study-speciﬁc highest
+category of coffee drinking compared with low drinking and
+for an increment of 1 cup/day of coffee. The RRs for CHD/
+IHD were respectively 0.95 (95 % CI 0.78–1.15, 1.09 in men
+and 0.77 in women) and 1.00 (95 % CI 0.97–1.04). The
+corresponding RRs for stroke were 0.95 (95 % CI 0.70–1.29,
+0.72 in men and 1.21 in women) and 0.97 (95 % CI
+0.94–1.01). The pooled RRs for the study-speciﬁc highest
+category of coffee drinking compared with low drinking
+were 0.92 (95 % CI 0.73–1.14) for studies conducted in
+North America, 0.85 (95 % CI 0.73–0.99) for those con-
+ducted in Europe, and 0.89 (95 % CI 0.51–1.56) for studies
+conducted in Japan (p for heterogeneity among RRs in
+geographic regions = 0.846). The RRs were 0.84 (95 % CI
+0.73–0.96) when we pooled the studies adjusting for alcohol
+intake, and 0.96 (95 % CI 0.77–1.20) among non alcohol
+adjusting studies (p for heterogeneity = 0.315).
+Mortality from all cancers
+The meta-analysis on the relation between all cancer
+mortality and coffee was based on 10 smoking adjusting
+studies, whose main characteristics are reported in eTable
+1. There was small evidence of publication bias overall, as
+tested using Egger’s (p = 0.067) and Begg’s (p = 0.075)
+tests.
+The pooled RR for the study-speciﬁc highest versus low
+(B1 cup/day) categories of coffee was 1.03 (95 % CI
+0.97–1.10), with no signiﬁcant heterogeneity among stud-
+ies (p for heterogeneity = 0.647, I2 = 0 %); the corre-
+sponding RRs were 1.07 in men and 0.98 in women
+(Table 3). Nine studies included three or more categories
+of coffee intake. Based on these studies, the combined RR
+Fig. 2 Total and sex-speciﬁc
+relative risks (RRs) of the
+relation of all cause mortality
+with coffee intake. The pooled
+RRs were calculated using the
+random-effects models. RR for
+the study-speciﬁc highest coffee
+drinking category versus low
+drinking (\1 cup/day) from all
+the studies combined. *Non
+smoking adjusting studies
+A meta-analysis of prospective studies
+531
+123
+
+for an increment of 1 cup/day of coffee was 1.00 (95 % CI
+0.99–1.01), similar in men and women.
+The pooled RRs for the study-speciﬁc highest versus
+low coffee intake were 1.05 (95 % CI 0.99–1.13, p for
+heterogeneity = 0.844) among 4 studies conducted in
+North America, 0.79 (95 % CI 0.39–1.57, p for heteroge-
+neity = 0.555) among 2 studies conducted in Europe, and
+0.94 (95 % CI 0.80–1.09, p for heterogeneity = 0.357)
+among 4 studies conducted in Japan (p for heterogeneity
+among RRs in geographic regions = 0.329). We found
+pooled RRs for the study-speciﬁc highest versus low coffee
+intake of 1.05 (95 % CI 0.98–1.11, p for heterogene-
+ity = 0.968) among 7 studies adjusting for alcohol intake,
+and 0.84 (95 % CI 0.60–1.16, p for heterogeneity = 0.128)
+among 3 studies non adjusting for alcohol intake (p for
+heterogeneity = 0.192).
+Additional analyses on the dose-risk relation for all
+cause and CVD mortality
+Based on smoking adjusting studies, compared with low
+drinking (B1 cup/day), the pooled RRs for all cause mor-
+tality were 0.91 (95 % CI 0.88–0.94) for coffee drinking
+B3 cups/day and 0.87 (95 % CI 0.82–0.92) for drinking[3
+cups/day (Table 4). When we selected studies whose
+highest category of coffee was at least B4 cups/day, the
+pooled RR was 0.87 (95 % CI 0.83–0.91, p for heteroge-
+neity = 0.12) from 14 studies, with no differences between
+sexes. The corresponding RRs for CVD mortality were
+0.87 (95 % CI 0.79–0.96, 0.92 in men and 0.80 in women)
+for drinking B3 cups/day, 0.88 (95 % CI 0.77–1.02, 0.92 in
+men and 0.80 in women) for drinking [3 cups/day. When
+we selected studies whose highest category of coffee was at
+least C4 cups/day, the pooled RR was 0.86 (95 % CI
+0.77–0.97, 0.90 in men and 0.80 in women).
+Discussion
+The present meta-analysis, carried out on 23 prospective
+studies, found a 12 % decreased risk of all cause mortality
+for the highest coffee intake compared with an intake of up
+to 1 cup/day among smoking-adjusting studies. The risk
+was 3 % signiﬁcantly lower for an increment of con-
+sumption of 1 cup/day of coffee, and the inverse associa-
+tion was stronger for heavy than moderate coffee drinking,
+suggesting a dose-risk relation. Among smoking-adjusting
+studies, only 4 studies included in the meta-analysis found
+RR[1 in men [13, 14, 33]. The RRs for the highest versus
+the lowest category of coffee were below unity, although
+not signiﬁcantly, also in the two studies excluded from the
+meta-analysis because they had a reference category [1
+cup/day. In those studies the RRs were 0.95 (95 % CI
+0.86–1.05) for drinking C7 cups/day compared with B2
+cups/day [12], and 0.82 (95 % CI 0.48–1.4) in men
+and 0.61 (95 % CI 0.33–4.15) in women for drinking C5
+cups/day compared with \5 cups/day[10] Another study,
+excluded from the meta-analysis since it was based on 162
+Table 1 Combined relative
+risks (RRs) for the highest
+versus low coffee drinking for
+all cause mortality and coffee
+drinking according to selected
+study characteristics
+a RRs for the study-speciﬁc
+highest intake versus low coffee
+consumption, deﬁned as non
+drinking or drinking \1 cup/
+day. The combined RRs were
+calculated using the random-
+effects models
+b The 4 non smoking adjusting
+studies were considered: [9, 11,
+23, 26]
+c The 19 smoking adjusting
+studies were considered: [13–
+22, 24, 25, 27–33]
+d P for heterogeneity among
+RRs in geographic regions was
+0.138
+e P for heterogeneity among
+RRs between papers adjusting
+or not for alcohol was 0.577
+N. studies
+RR (95 % CI)a
+P for heterogeneity
+Non smoking adjusting studiesb
+All subjects
+4
+0.91 (0.81–1.01)
+0.002
+Sex
+Men
+3
+0.91 (0.70–1.17)
+\0.001
+Women
+2
+0.88 (0.77–0.99)
+0.240
+Smoking adjusting studiesc
+All subjects
+19
+0.87 (0.82–0.93)
+\0.001
+Sex
+Men
+14
+0.87 (0.78–0.98)
+\0.001
+Women
+11
+0.86 (0.81–0.91)
+0.478
+Geographic regiond
+North America
+7
+0.92 (0.85–1.00)
+\0.001
+Europe
+9
+0.85 (0.76–0.95)
+0.001
+Japan
+3
+0.76 (0.63–0.91)
+0.027
+Alcohol adjustmente
+Adjusting papers
+14
+0.88 (0.83–0.93)
+0.001
+Non adjusting papers
+5
+0.81 (0.61–1.08)
+\0.001
+Reference category
+Non drinking
+9
+0.87 (0.83–0.94)
+0.424
+Drinking up to 1cup/day
+10
+0.88 (0.79–0.95)
+\0.001
+532
+S. Malerba et al.
+123
+
+subjects and 53 deaths, [47] reported a RR of 0.35 (95 %
+CI 0.20–0.64) for the highest tertile of intake ([2 cups/
+week) compared to the lowest one (\1 cup/week), with a
+dose-risk relation.
+The exclusion of any study from the analysis did not
+materially change the summary estimates, and p values
+from Begg’s and Egger’s tests, together with the absence of
+signiﬁcant asymmetry in the funnel plot, indicate that
+publication bias is unlikely to have appreciably inﬂuenced
+our results. We could not stratify for smoking status, as
+only 4 papers reported separate estimates for never, former
+and current smokers [14, 17, 27, 32], and, of these, two
+studies did not report conﬁdence intervals [14, 17]. The
+two papers reporting all the information showed a tendency
+towards a lower RR in never smokers than in current
+smokers [27, 32]. The existence of an inverse association
+was further supported by the consistent results of several
+sensitivity analyses and by the consistency of results across
+studies conducted in Asia and in North America/Europe,
+where coffee consumption is higher.
+We found an inverse association of borderline signiﬁ-
+cance between coffee and CVD, accordingly with the
+results of a meta-analysis of fatal and non fatal CHD [53],
+although the two meta-analyses shared only 7 studies. In
+fact, differently from the present meta-analysis, the previ-
+ous one included also studies not adjusting for tobacco
+smoking and those considering as endpoints also incident
+for CVD. Moreover, the present meta-analysis included
+other 10 original studies, [20, 21, 25, 27, 29, 30, 32, 38–40]
+8 of which published after the Wu et al. [53] meta-analysis.
+For CVD mortality, the favorable effect of coffee
+appeared similar to that for all cause mortality, although
+there was no clear dose-risk relation. For fatal stroke, we
+did not conﬁrm the ﬁnding of a protective effect of coffee
+on stroke incidence reported in a few prospective studies
+[54–56], though the summary RR was below unity in the
+present meta-analysis, too.
+The effect of coffee on CVD is probably complex and
+possibly a combination of unfavorable and favorable
+effects of caffeine and other coffee components on the
+Fig. 3 Total and sex speciﬁc
+relative risks (RRs) of the
+relation of all cause mortality
+with coffee intake, including
+only smoking adjusting studies.
+RR for an increment of coffee
+drinking of 1 cup/day. The
+pooled RRs were calculated
+using the random-effects
+models
+A meta-analysis of prospective studies
+533
+123
+
+Fig. 4 Total and sex speciﬁc
+relative risks (RRs) of the
+relation of cardiovascular
+(CVD) mortality with coffee
+intake, including only smoking
+adjusting studies. The pooled
+RRs were calculated using the
+random-effects models. a RR
+for the study-speciﬁc highest
+coffee drinking category versus
+low drinking (B1cup/day).
+b RR for an increment of coffee
+drinking of 1 cup/day
+534
+S. Malerba et al.
+123
+
+cardiovascular system. Among unfavorable effects, caf-
+feine has inotropic effect on the heart, and induces a
+transient increase in blood pressure [57]. However, habitual
+coffee drinking of[3 cups/day was not associated with an
+increased risk of hypertension, compared with \1 cup/day
+[58], and also in hypertensive subjects coffee had no long-
+term effects and did not increase CVD risk [59]. As for
+cholesterol levels, coffee has been related to cholesterol
+increase in Nordic countries [60], but not in other popu-
+lations [61], and a meta-analysis of 14 clinical trials
+showed increased serum levels of cholesterol and low
+density lipoprotein (LDL) only for boiled unﬁltered coffee
+[62]. In fact, diterpenes (such as cafestol and kahweol),
+responsible for this effect, are mostly bound to coffee ﬁl-
+ters, and the small amount crossing the ﬁlters has no effects
+on serum lipids [62], including high density lipoproteins
+(HDL) and triglycerides [63]. Among favorable effects on
+CVD risk, coffee decreased the risk of diabetes inci-
+dence[2] and might decrease CVD risk in diabetic patients
+[64, 65]. Caffeine has been associated with lower body
+Table 2 Combined relative
+risks (RRs) for the highest
+versus low coffee drinking and
+for the increment of 1 cup/day
+of coffee, in smoking adjusting
+studies considering mortality for
+cardiovascular disease (CVD),
+in strata of type of CVD and
+other study characteristics
+a The combined RRs were
+calculated using the random-
+effects models
+b Studies included [14–16, 18,
+19, 27, 30, 35, 37–40]
+c RRs for the study-speciﬁc
+highest intake versus low coffee
+consumption, deﬁned as non
+drinking or drinking B1 cup/
+day. The highest category of
+coffee consumption ranged
+from C5 to [9 cups/day
+d Only studies reporting three
+or more categories of coffee
+consumption were included
+e Studies included [20, 29, 30,
+32, 39, 40]
+f P for heterogeneity among
+RRs in geographic regions was
+0.846
+g P for heterogeneity among
+RRs between papers adjusting
+or not for alcohol was 0.315
+N. studies
+RR (95 % CI)a
+P for heterogeneity
+Type of CVD
+Coronary/ischemic heart disease (CHD/IHD)b
+Highest versus lowc
+All subjects
+12
+0.95 (0.78–1.15)
+0.051
+Men
+10
+1.09 (0.86–1.36)
+0.002
+Women
+6
+0.77 (0.51–1.14)
+0.147
+Increment of 1 cup/dayd
+All subjects
+12
+1.00 (0.97–1.04)
+\0.001
+Men
+10
+1.03 (0.99–1.07)
+\0.001
+Women
+6
+0.96 (0.91–1.01)
+\0.001
+Strokee
+Highest versus lowc
+All subjects
+6
+0.95 (0.70–1.29)
+0.009
+Men
+4
+0.72 (0.46–1.13)
+0.049
+Women
+4
+1.21 (0.72–2.04)
+0.021
+Increment of 1 cup/dayd
+All subjects
+7
+0.97 (0.94–1.01)
+0.012
+Men
+6
+0.95 (0.89–1.00)
+0.011
+Women
+5
+0.99 (0.94–1.02)
+0.143
+Geographic regionf
+Highest versus lowc
+North America
+6
+0.92 (0.73–1.14)
+\0.001
+Europe
+8
+0.85 (0.73–0.99)
+0.252
+Japan
+3
+0.89 (0.51–1.56)
+0.001
+Alcohol adjustmentg
+Highest versus lowc
+Adjusting papers
+10
+0.84 (0.73–0.96)
+0.013
+Non adjusting papers
+7
+0.96 (0.77–1.20)
+\0.001
+Table 3 Combined relative risks (RRs) of the relation between all
+cancers mortality and coffee drinking for the highest versus low
+coffee drinking and for the increment of 1 cup/day of coffee in
+smoking adjusting studies
+Coffee
+consumption
+N. studies
+RR (95 % CI)a
+P for
+heterogeneity
+Highest versus lowb
+All subjects
+10
+1.03 (0.97–1.09)
+0.647
+Men
+8
+1.07 (0.99–1.15)
+0.812
+Women
+6
+0.98 (0.89–1.09)
+0.369
+Increment of 1 cup/dayc
+All subjects
+9
+1.00 (0.99–1.01)
+0.162
+Men
+7
+1.01 (1.00–1.02)
+0.750
+Women
+5
+0.99 (0.97–1.01)
+0.121
+a The combined RRs were calculated using the random-effects
+models
+b RRs for the study-speciﬁc highest intake versus low coffee con-
+sumption, deﬁned as non drinking or drinking B1 cup/day
+c Only studies reporting three or more categories of coffee con-
+sumption were included
+A meta-analysis of prospective studies
+535
+123
+
+weight and with decreased platelet aggregation [66]. Cof-
+fee has been associated with a lower risk of incident gout
+[67], higher adiponectin levels in Japanese males [68],
+inhibition of inﬂammation in a prospective study of post-
+menopausal women [22], and beneﬁcial effects on sub-
+clinical inﬂammation in a clinical trial [69]. Moderate
+doses of coffee have no unfavorable effect on heart failure
+[70], valvular heart disease [38], and cardiac arrhythmias
+[71]. Moreover, coffee is very rich in antioxidants[72]
+which may have a general favorable effect on health.
+The favorable effect of coffee on total mortality is
+however not fully explainable through the effect of coffee
+on CVD mortality. Favorable effects of coffee on health
+may also include decreased risk of diabetes mortality [32],
+and of suicide or injury and accident mortality [17, 32, 73],
+through its favorable effects on well-feeling and alertness.
+In agreement with most evidence, we found no associ-
+ation of coffee with all cancer mortality. In a sensitivity
+analysis, when considering the 6 studies whose highest
+category of consumption was at least C4 cups/day, we
+found a RR of 1.04 (95 % CI 0.98–1.11, 1.08 in men and
+1.01 in women). An inverse association has been reported
+by a meta-analysis considering the relation of coffee with
+incidence of total cancer [74], and by meta-analyses con-
+sidering incidence of cancer at selected sites, such as
+cancer at the oral cavity and pharynx [7, 8], liver [4],
+endometrium [5], which, however, are relatively infre-
+quent. An inverse relation of coffee intake with incidence
+of colorectal cancer was found in case–control [75], but not
+in cohort studies [6, 76].
+A signiﬁcant heterogeneity across studies was found. A
+possible source of heterogeneity is that type of coffee
+powder, brewing methods, preparation and cup size vary
+widely in different populations and this may modify the
+relation, since coffee content of several antioxidants and
+lipids varies depending on the type of coffee powder
+(Arabica or Robusta), roasting, and beverage preparation
+[77]. However, most studies did not report such informa-
+tion. The amount of coffee intake was self-reported.
+However, recall of coffee drinking has been shown satis-
+factorily reproducible and valid [78, 79]. Other possible
+sources of variability are the arbitrary classiﬁcation of
+Table 4 Relative risks (RRs)
+for coffee drinking and
+mortality for all causes and
+CVD in smoking adjusting
+studies, according to level of
+coffee consumption
+a The combined RRs were
+calculated using the random-
+effects models. The reference
+category was non drinking or
+drinking B1 cup/day
+b Studies reporting three or
+more categories of coffee
+consumption were included.
+When more than one estimate in
+a study fell in the range
+considered we ﬁrst pooled for
+each study the corresponding
+estimates
+c We pooled the RRs of the
+highest category of coffee,
+considering only studies whose
+highest category was at least of
+C4 cups/day. The highest
+category of coffee consumption
+ranged from C4 to [9 cups/day
+Coffee consumption
+N. studies
+RR (95 % CI)a
+P for heterogeneity
+Total mortality
+Level of consumption
+Drinking B3 cups/day versus lowb
+All subjects
+15
+0.91 (0.88–0.94)
+\0.001
+Men
+10
+0.91 (0.85–0.98)
+\0.001
+Women
+6
+0.88 (0.84–0.92)
+0.100
+Drinking [3 cups/day versus lowb
+All subjects
+16
+0.87 (0.82–0.92)
+\0.001
+Men
+11
+0.89 (0.83v1.01)
+\0.001
+Women
+9
+0.89 (0.81–0.99)
+0.607
+Highest (when C4 cups/day) versus lowc
+All subjects
+14
+0.87 (0.83–0.91)
+0.124
+Men
+9
+0.85 (0.77–0.94)
+0.020
+Women
+7
+0.84 (0.79–0.90)
+0.792
+Cardiovascular disease (CVD) mortality
+Level of consumption
+Drinking B3 cups/day versus lowb
+All subjects
+14
+0.87 (0.79–0.96)
+\0.001
+Men
+11
+0.92 (0.79–1.05)
+\0.001
+Women
+7
+0.80 (0.71–0.90)
+0.009
+Drinking [3 cups/day versus lowb
+All subjects
+14
+0.88 (0.77–1.02)
+\0.001
+Men
+11
+0.92 (0.76–1.11)
+\0.001
+Women
+8
+0.80 (0.66–0.96)
+0.005
+Highest (when C4 cups/day) versus lowc
+All subjects
+11
+0.86 (0.77–0.97)
+0.044
+Men
+8
+0.90 (0.73–1.11)
+0.006
+Women
+6
+0.80 (0.71–0.89)
+0.748
+536
+S. Malerba et al.
+123
+
+consumption with different cut-points in various studies,
+and the fact that studies included in these meta-analyses did
+not consider genetic variants associated with coffee
+drinking, such as CYP1A2, which is responsible for more
+than 95 % of caffeine metabolism, and consequently of the
+effects of caffeine and coffee consumption [80]. However,
+no heterogeneity emerged in the analyses considering more
+homogeneous categories of coffee intake, such as non-
+drinking as reference category or drinking C4 cups/day as
+the highest category, in the absence of material variations
+of the pooled RRs. With reference to confounding, the
+major avoidable risk factors for all cause, CVD and cancer
+mortality also associated with coffee drinking are tobacco
+smoking and alcohol drinking [81]. Although we excluded
+from most analyses studies reporting risk estimates not
+adjusted for tobacco smoking, we cannot exclude residual
+confounding, which, however, should weaken any inverse
+association. The pooled RRs were similar in studies
+adjusting or not for alcohol intake, further suggesting a real
+inverse relation between coffee intake and total mortality.
+The lack of adjustment in a few early studies for other
+relevant confounding factors, such as education, body mass
+index, or physical activity, might also have somewhat
+affected our results.
+We were unable to consider the relation between caffeine
+and mortality because most published studies reported only
+the number of cups of coffee, with no information on total
+caffeine intake. However, although caffeine intake depends
+on the variety of raw coffee and the preparation method, and
+it is also found in cola, energy drinks and several drugs,
+coffee drinking is its major source and total caffeine intake
+is strongly correlated with coffee intake in Europe and North
+America [82]. The inverse association found for decaffein-
+ated coffee with total mortality suggests, however, that
+substances other than caffeine are responsible of the favor-
+able effect of coffee on mortality. The observation of an
+inverse relation between decaffeinated coffee and total
+mortality is based on few studies [22, 24, 27, 32]; moreover,
+drinkers generally consume low amount of decaffeinated
+coffee, and in most studies it was not possible to separate
+drinkers of both regular and decaffeinated coffee from
+drinkers of decaffeinated coffee only.
+A more relevant possible source of bias is reverse cau-
+sation, since it is possible that healthier people consume
+more coffee than those with chronic diseases associated
+with higher mortality rates. However, against this possi-
+bility is the fact that the overall estimates were derived
+only from prospective studies with information collected
+long time before death, and in most original studies sub-
+jects with cancer or CVD at baseline were excluded.
+Although bias and confounding were unlikely responsible
+for the observed association, given the consistent results in
+different countries, settings and time, the interpretation of the
+inverse association of coffee with all cause and CVD mor-
+tality remains open to discussion, also considering the lack of
+information on the relation with duration and other time-
+related factors.
+Acknowledgments
+This work was supported by the Italian Asso-
+ciation for Cancer Research (AIRC), Milan, Italy, Project No. 10068.
+SM and FT were supported by a fellowship from the Italian Foun-
+dation for Cancer Research (FIRC).
+Conﬂict of interest
+The authors declare no conﬂicts of interest. All
+authors have completed the Uniﬁed Competing Interest form at www.
+icmje.org/coi_disclosure.pdf (available on request from the corre-
+sponding author) and declare: no ﬁnancial relationships or activities
+with any organizations that might have an interest with the submitted
+work in the previous 3 years, no other relationships or activities that
+could appear to have inﬂuenced the submitted work.
+References
+1. Ferruzzi MG. The inﬂuence of beverage composition on delivery
+of phenolic compounds from coffee and tea. Physiol Behav.
+2010;100(1):33–41. doi:10.1016/j.physbeh.2010.01.035.
+2. Huxley R, Lee CM, Barzi F, et al. Coffee, decaffeinated coffee,
+and tea consumption in relation to incident type 2 diabetes mel-
+litus: a systematic review with meta-analysis. Arch Intern Med.
+2009;169(22):2053–63. doi:10.1001/archinternmed.2009.439.
+3. Larsson SC, Orsini N. Coffee consumption and risk of stroke: a
+dose-response meta-analysis of prospective studies. Am J Epi-
+demiol. 2011;174(9):993–1001. doi:10.1093/aje/kwr226.
+4. Bravi F, Bosetti C, Tavani A, et al. Coffee drinking and hepato-
+cellular carcinoma risk: a meta-analysis. Hepatology. 2007;46(2):
+430–5. doi:10.1002/hep.21708.
+5. Bravi F, Scotti L, Bosetti C, et al. Coffee drinking and endometrial
+cancer risk: a metaanalysis of observational studies. Am J Obstet
+Gynecol. 2009;200(2):130–5. doi:10.1016/j.ajog.2008.10.032.
+6. Je Y, Liu W, Giovannucci E. Coffee consumption and risk of
+colorectal cancer: a systematic review and meta-analysis of
+prospective cohort studies. Int J Cancer. 2009;124(7):1662–8.
+doi:10.1002/ijc.24124.
+7. Galeone C, Tavani A, Pelucchi C, et al. Coffee and tea intake and
+risk of head and neck cancer: pooled analysis in the international
+head and neck cancer epidemiology consortium. Cancer Epi-
+demiol
+Biomarkers
+Prev.
+2010;19(7):1723–36.
+doi:10.1158/
+1055-9965.EPI-10-0191.
+8. Turati F, Galeone C, La Vecchia C, Garavello W, Tavani A.
+Coffee and cancers of the upper digestive and respiratory tracts:
+meta-analyses of observational studies. Ann Oncol. 2011;22(3):
+536–44. doi:10.1093/annonc/mdq603.
+9. Dawber TR, Kannel WB, Gordon T. Coffee and cardiovascular
+disease. Observations from the framingham study. N Engl J Med.
+1974;291(17):871–4. doi:10.1056/NEJM197410242911703.
+10. Heyden S, Tyroler HA, Heiss G, Hames CG, Bartel A. Coffee
+consumption and mortality. Total mortality, stroke mortality, and
+coronary heart disease mortality. Arch Intern Med. 1978;138(10):
+1472–5.
+11. Murray SS, Bjelke E, Gibson RW, Schuman LM. Coffee con-
+sumption and mortality from ischemic heart disease and other
+causes: results from the Lutheran Brotherhood study, 1966-1978.
+Am J Epidemiol. 1981;113(6):661–7.
+A meta-analysis of prospective studies
+537
+123
+
+12. Jacobsen BK, Bjelke E, Kvale G, Heuch I. Coffee drinking,
+mortality, and cancer incidence: results from a Norwegian pro-
+spective study. J Natl Cancer Inst. 1986;76(5):823–31.
+13. Vandenbroucke JP, Kok FJ, van ‘t Bosch G, van den Dungen PJ,
+van der Heide-Wessel C, van der Heide RM. Coffee drinking and
+mortality in a 25-year follow up. Am J Epidemiol. 1986;123(2):
+359–61.
+14. LeGrady D, Dyer AR, Shekelle RB, et al. Coffee consumption
+and mortality in the Chicago Western Electric Company Study.
+Am J Epidemiol. 1987;126(5):803–12.
+15. Rosengren A, Wilhelmsen L. Coffee, coronary heart disease and
+mortality in middle-aged Swedish men: ﬁndings from the Primary
+Prevention Study. J Intern Med. 1991;230(1):67–71.
+16. Lindsted KD, Kuzma JW, Anderson JL. Coffee consumption and
+cause-speciﬁc mortality. Association with age at death and
+compression of mortality. J Clin Epidemiol. 1992;45(7):733–42.
+doi:10.1016/0895-4356(92)90051-N.
+17. Klatsky AL, Armstrong MA, Friedman GD. Coffee, tea, and
+mortality. Ann Epidemiol. 1993;3(4):375–81.
+18. Woodward M, Tunstall-Pedoe H. Coffee and tea consumption in
+the Scottish Heart Health Study follow up: conﬂicting relations
+with coronary risk factors, coronary disease, and all cause mor-
+tality. J Epidemiol Community Health. 1999;53(8):481–7.
+19. Kleemola P, Jousilahti P, Pietinen P, Vartiainen E, Tuomilehto J.
+Coffee consumption and the risk of coronary heart disease and
+death. Arch Intern Med. 2000;160(22):3393–400. doi:10.1001/
+archinte.160.22.3393.
+20. Iwai N, Ohshiro H, Kurozawa Y, et al. Relationship between
+coffee and green tea consumption and all-cause mortality in a
+cohort of a rural Japanese population. J Epidemiol. 2002;12(3):
+191–8.
+21. Jazbec A, Simic D, Corovic N, Durakovic Z, Pavlovic M. Impact
+of coffee and other selected factors on general mortality and
+mortality due to cardiovascular disease in Croatia. J Health Popul
+Nutr. 2003;21(4):332–40.
+22. Andersen LF, Jacobs DR Jr, Carlsen MH, Blomhoff R. Con-
+sumption of coffee is associated with reduced risk of death
+attributed to inﬂammatory and cardiovascular diseases in the
+Iowa Women’s Health Study. Am J Clin Nutr. 2006;83(5):
+1039–46.
+23. Iso H, Kubota Y. Nutrition and disease in the Japan Collaborative
+Cohort Study for Evaluation of Cancer (JACC). Asian Pac J
+Cancer Prev. 2007;8(Suppl):35–80.
+24. Paganini-Hill A, Kawas CH, Corrada MM. Non-alcoholic bev-
+erage and caffeine consumption and mortality: the Leisure World
+Cohort Study. Prev Med. 2007;44(4):305–10. doi:10.1016/j.
+ypmed.2006.12.011.
+25. Happonen P, Laara E, Hiltunen L, Luukinen H. Coffee con-
+sumption and mortality in a 14-year follow-up of an elderly
+northern Finnish population. Br J Nutr. 2008;99(6):1354–61.
+doi:10.1017/S0007114507871650.
+26. Laaksonen M, Talala K, Martelin T, et al. Health behaviours as
+explanations for educational level differences in cardiovascular
+and all-cause mortality: a follow-up of 60 000 men and women
+over 23 years. Eur J Public Health. 2008;18(1):38–43. doi:10.
+1093/eurpub/ckm051.
+27. Lopez-Garcia E, van Dam RM, Li TY, Rodriguez-Artalejo F, Hu
+FB. The relationship of coffee consumption with mortality. Ann
+Intern Med. 2008;148(12):904–14. doi:10.7326/0003-4819-148-
+12-200806170-00003.
+28. Ahmed HN, Levitan EB, Wolk A, Mittleman MA. Coffee con-
+sumption and risk of heart failure in men: an analysis from the
+Cohort of Swedish Men. Am Heart J. 2009;158(4):667–72.
+doi:10.1016/j.ahj.2009.07.006.
+29. de Koning Gans JM, Uiterwaal CS, van der Schouw YT, et al.
+Tea and coffee consumption and cardiovascular morbidity and
+mortality. Arterioscler Thromb Vasc Biol. 2010;30(8):1665–71.
+doi:10.1161/ATVBAHA.109.201939.
+30. Sugiyama K, Kuriyama S, Akhter M, et al. Coffee consumption
+and mortality due to all causes, cardiovascular disease, and
+cancer in Japanese women. J Nutr. 2010;140(5):1007–13. doi:10.
+3945/jn.109.109314.
+31. Tamakoshi A, Lin Y, Kawado M, Yagyu K, Kikuchi S, Iso H.
+Effect of coffee consumption on all-cause and total cancer mor-
+tality:
+ﬁndings
+from
+the
+JACC
+study.
+Eur
+J
+Epidemiol.
+2011;26(4):285–93. doi:10.1007/s10654-011-9548-7.
+32. Freedman ND, Park Y, Abnet CC, Hollenbeck AR, Sinha R.
+Association of coffee drinking with total and cause-speciﬁc
+mortality. N Engl J Med. 2012;366(20):1891–904. doi:10.1056/
+NEJMoa1112010.
+33. Nilsson LM, Winkvist A, Brustad M, et al. A traditional Sami
+diet score as a determinant of mortality in a general northern
+Swedish population. Int J Circumpolar Health. 2012;71:1–12.
+doi:10.3402/ijch.v71i0.18537.
+34. Heyden S, Heyden F, Heiss G, Hames CG. Smoking and coffee
+consumption in three groups: cancer deaths, cardiovascular
+deaths and living controls. A prospective study in Evans County,
+Georgia. J Chronic Dis. 1979;32(9–10):673–7.
+35. Tverdal A, Stensvold I, Solvoll K, Foss OP, Lund-Larsen P,
+Bjartveit K. Coffee consumption and death from coronary heart
+disease in middle aged Norwegian men and women. BMJ.
+1990;300(6724):566–9.
+36. Stensvold I, Tverdal A, Jacobsen BK. Cohort study of coffee
+intake and death from coronary heart disease over 12 years. BMJ.
+1996;312(7030):544–5.
+37. Hart C, Smith GD. Coffee consumption and coronary heart dis-
+ease mortality in Scottish men: a 21 year follow up study. J Ep-
+idemiol Community Health. 1997;51(4):461–2.
+38. Greenberg JA, Chow G, Ziegelstein RC. Caffeinated coffee
+consumption, cardiovascular disease, and heart valve disease in
+the elderly (from the Framingham Study). Am J Cardiol.
+2008;102(11):1502–8. doi:10.1016/j.amjcard.2008.07.046.
+39. Leurs LJ, Schouten LJ, Goldbohm RA, van den Brandt PA. Total
+ﬂuid and speciﬁc beverage intake and mortality due to IHD and
+stroke in the Netherlands Cohort Study. Br J Nutr. 2010;
+104(8):1212–21. doi:10.1017/S0007114510001923.
+40. Mineharu Y, Koizumi A, Wada Y, et al. Coffee, green tea, black
+tea and oolong tea consumption and risk of mortality from car-
+diovascular disease in Japanese men and women. J Epidemiol
+Community Health. 2011;65(3):230–40. doi:10.1136/jech.2009.
+097311.
+41. Khan MM, Goto R, Kobayashi K, et al. Dietary habits and cancer
+mortality among middle aged and older Japanese living in hok-
+kaido, Japan by cancer site and sex. Asian Pac J Cancer Prev.
+2004;5(1):58–65.
+42. Stroup DF, Berlin JA, Morton SC, et al. Meta-analysis of
+observational studies in epidemiology: a proposal for reporting.
+Meta-analysis
+Of
+Observational
+Studies
+in
+Epidemiology
+(MOOSE) group. JAMA. 2000;283(15):2008–12. doi:10.1001/
+jama.283.15.2008.
+43. Greenberg JA, Dunbar CC, Schnoll R, Kokolis R, Kokolis S,
+Kassotis J. Caffeinated beverage intake and the risk of heart
+disease mortality in the elderly: a prospective analysis. Am J Clin
+Nutr. 2007;85(2):392–8.
+44. Paganini-Hill A. Lifestyle practices and cardiovascular disease
+mortality in the elderly: the leisure world cohort study. Cardiol
+Res Pract. 2011;2011:983764. doi:10.4061/2011/983764.
+45. Heyden S, Tyroler HA, Cassel JC, Hames CG, Becker C, Heiss
+G. Coffee consumption and mortality in a community study–
+Evans Co., Ga. Z Ernahrungswiss. 1976;15(2):143–50.
+46. Snowdon DA, Phillips RL. Coffee consumption and risk of fatal
+cancers. Am J Public Health. 1984;74(8):820–3.
+538
+S. Malerba et al.
+123
+
+47. Fortes C, Forastiere F, Farchi S, Rapiti E, Pastori G, Perucci CA.
+Diet and overall survival in a cohort of very elderly people.
+Epidemiology. 2000;11(4):440–5.
+48. Greenland S, Longnecker MP. Methods for trend estimation from
+summarized dose-response data, with applications to meta-anal-
+ysis. Am J Epidemiol. 1992;135(11):1301–9.
+49. Hamling J, Lee P, Weitkunat R, Ambuhl M. Facilitating meta-
+analyses by deriving relative effect and precision estimates for
+alternative comparisons from a set of estimates presented by
+exposure level or disease category. Stat Med. 2008;27(7):954–70.
+doi:10.1002/sim.3013.
+50. Higgins JP, Thompson SG, Deeks JJ, Altman DG. Measuring
+inconsistency in meta-analyses. BMJ. 2003;327(7414):557–60.
+doi:10.1136/bmj.327.7414.557.
+51. Begg CB, Mazumdar M. Operating characteristics of a rank
+correlation test for publication bias. Biometrics. 1994;50(4):
+1088–101.
+52. Egger M, Davey Smith G, Schneider M, Minder C. Bias in meta-
+analysis detected by a simple, graphical test. BMJ. 1997;
+315(7109):629–34.
+53. Wu JN, Ho SC, Zhou C, et al. Coffee consumption and risk of
+coronary heart diseases: a meta-analysis of 21 prospective cohort
+studies. Int J Cardiol. 2009;137(3):216–25. doi:10.1016/j.ijcard.
+2008.06.051.
+54. Larsson SC, Mannisto S, Virtanen MJ, Kontto J, Albanes D,
+Virtamo J. Coffee and tea consumption and risk of stroke sub-
+types in male smokers. Stroke. 2008;39(6):1681–7. doi:10.1161/
+STROKEAHA.107.504183.
+55. Larsson SC, Virtamo J, Wolk A. Coffee consumption and risk of
+stroke
+in
+women.
+Stroke.
+2011;42(4):908–12.
+doi:10.1161/
+STROKEAHA.110.603787.
+56. Lopez-Garcia E, Rodriguez-Artalejo F, Rexrode KM, Logroscino
+G, Hu FB, van Dam RM. Coffee consumption and risk of stroke
+in
+women.
+Circulation.
+2009;119(8):1116–23.
+doi:10.1161/
+CIRCULATIONAHA.108.826164.
+57. James JE. Is habitual caffeine use a preventable cardiovascular
+risk factor? Lancet. 1997;349(9047):279–81. doi:10.1016/S0140-
+6736(96)04253-5.
+58. Zhang Z, Hu G, Caballero B, Appel L, Chen L. Habitual coffee
+consumption and risk of hypertension: a systematic review and
+meta-analysis of prospective observational studies. Am J Clin
+Nutr. 2011;93(6):1212–9. doi:10.3945/ajcn.110.004044.
+59. Mesas AE, Leon-Munoz LM, Rodriguez-Artalejo F, Lopez-
+Garcia E. The effect of coffee on blood pressure and cardiovas-
+cular disease in hypertensive individuals: a systematic review and
+meta-analysis. Am J Clin Nutr. 2011;94(4):1113–26. doi:10.
+3945/ajcn.111.016667.
+60. Thelle DS, Arnesen E, Forde OH. The Tromso heart study. Does
+coffee raise serum cholesterol? N Engl J Med. 1983;308(24):
+1454–7. doi:10.1056/NEJM198306163082405.
+61. D’Avanzo B, Santoro L, Nobill A, La Vecchia C. Coffee con-
+sumption and serum cholesterol. GISSI-EFRIM Study Group.
+Prev Med. 1993;22(2):219–24.
+62. Jee SH, He J, Appel LJ, Whelton PK, Suh I, Klag MJ. Coffee
+consumption and serum lipids: a meta-analysis of randomized
+controlled clinical trials. Am J Epidemiol. 2001;153(4):353–62.
+63. Cai L, Ma D, Zhang Y, Liu Z, Wang P. The effect of coffee
+consumption on serum lipids: a meta-analysis of randomized
+controlled trials. Eur J Clin Nutr. 2012;66(8):872–7. doi:10.1038/
+ejcn.2012.68.
+64. Zhang W, Lopez-Garcia E, Li TY, Hu FB, van Dam RM. Coffee
+consumption and risk of cardiovascular diseases and all-cause
+mortality among men with type 2 diabetes. Diabetes Care.
+2009;32(6):1043–5. doi:10.2337/dc08-2251.
+65. Zhang WL, Lopez-Garcia E, Li TY, Hu FB, van Dam RM.
+Coffee consumption and risk of cardiovascular events and all-
+cause mortality among women with type 2 diabetes. Diabetolo-
+gia. 2009;52(5):810–7. doi:10.1007/s00125-009-1311-1.
+66. Montagnana M, Favaloro EJ, Lippi G. Coffee intake and cardio-
+vascular disease: virtue does not take center stage. Semin Thromb
+Hemost. 2012;38(2):164–77. doi:10.1055/s-0032-1301414.
+67. Choi HK, Willett W, Curhan G. Coffee consumption and risk of
+incident gout in men: a prospective study. Arthritis Rheum.
+2007;56(6):2049–55. doi:10.1002/art.22712.
+68. Imatoh T, Tanihara S, Miyazaki M, Momose Y, Uryu Y, Une H.
+Coffee consumption but not green tea consumption is associated
+with
+adiponectin
+levels
+in
+Japanese
+males.
+Eur
+J
+Nutr.
+2011;50(4):279–84. doi:10.1007/s00394-010-0136-5.
+69. Kempf K, Herder C, Erlund I, et al. Effects of coffee consump-
+tion on subclinical inﬂammation and other risk factors for type 2
+diabetes: a clinical trial. Am J Clin Nutr. 2010;91(4):950–7.
+doi:10.3945/ajcn.2009.28548.
+70. Mostofsky E, Rice MS, Levitan EB, Mittleman MA. Habitual
+coffee consumption and risk of heart failure: a dose-response
+meta-analysis. Circ Heart Fail. 2012;5(4):401–5. doi:10.1161/
+CIRCHEARTFAILURE.112.967299.
+71. Pelchovitz DJ, Goldberger JJ. Caffeine and cardiac arrhythmias: a
+review of the evidence. Am J Med. 2011;124(4):284–9. doi:10.
+1016/j.amjmed.2010.10.017.
+72. Svilaas A, Sakhi AK, Andersen LF, et al. Intakes of antioxidants
+in coffee, wine, and vegetables are correlated with plasma
+carotenoids in humans. J Nutr. 2004;134(3):562–7.
+73. Kawachi I, Willett WC, Colditz GA, Stampfer MJ, Speizer FE. A
+prospective study of coffee drinking and suicide in women. Arch
+Intern Med. 1996;156(5):521–5.
+74. Yu X, Bao Z, Zou J, Dong J. Coffee consumption and risk of
+cancers: a meta-analysis of cohort studies. BMC Cancer.
+2011;11:96. doi:10.1186/1471-2407-11-96.
+75. Galeone C, Turati F, La Vecchia C, Tavani A. Coffee con-
+sumption and risk of colorectal cancer: a meta-analysis of case-
+control studies. Cancer Causes Control. 2010;21(11):1949–59.
+doi:10.1007/s10552-010-9623-5.
+76. Zhang X, Albanes D, Beeson WL, et al. Risk of colon cancer and
+coffee, tea, and sugar-sweetened soft drink intake: pooled analysis
+of prospective cohort studies. J Natl Cancer Inst. 2010;102(11):
+771–83. doi:10.1093/jnci/djq107.
+77. Viani R. The composition of coffee. In: Garattini S, editor. Caf-
+feine, coffee, and health. New York: Raven Press; 1993. p. 17–41.
+78. D’Avanzo B, La Vecchia C, Katsouyanni K, Negri E, Tricho-
+poulos D. An assessment, and reproducibility of food frequency
+data
+provided
+by
+hospital
+controls.
+Eur
+J
+Cancer
+Prev.
+1997;6(3):288–93.
+79. Ferraroni M, Tavani A, Decarli A, et al. Reproducibility and
+validity of coffee and tea consumption in Italy. Eur J Clin Nutr.
+2004;58(4):674–80. doi:10.1038/sj.ejcn.1601864.
+80. Cornelis MC, El-Sohemy A, Kabagambe EK, Campos H. Coffee,
+CYP1A2 genotype, and risk of myocardial infarction. JAMA.
+2006;295(10):1135–41. doi:10.1001/jama.295.10.1135.
+81. IstvanJ,MatarazzoJD.Tobacco,alcohol,andcaffeineuse:areviewof
+their interrelationships. Psychol Bull. 1984;95(2):301–26.
+82. IARC. Coffee, tea, mate, methylxanthines and methylglyoxal.
+IARC Working Group on the Evaluation of Carcinogenic Risks to
+Humans. Lyon, 27 February to 6 March 1990. IARC Monogr
+Eval Carcinog Risks Hum. 1991;51:1–513.
+A meta-analysis of prospective studies
+539
+123

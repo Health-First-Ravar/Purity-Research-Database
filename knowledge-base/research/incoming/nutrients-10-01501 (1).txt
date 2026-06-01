@@ -1,0 +1,614 @@
+nutrients
+Article
+Coffee Consumption and Risk of Dementia and
+Alzheimer’s Disease: A Dose-Response
+Meta-Analysis of Prospective Studies
+Susanna C. Larsson 1,*
+and Nicola Orsini 2
+1
+Unit of Nutritional Epidemiology, Institute of Environmental Medicine, Karolinska Institutet,
+17177 Stockholm, Sweden
+2
+Department of Public Health Sciences, Karolinska Institute, 17177 Stockholm, Sweden; nicola.orsini@ki.se
+*
+Correspondence: susanna.larsson@ki.se
+Received: 19 September 2018; Accepted: 12 October 2018; Published: 14 October 2018
+
+
+Abstract: Coffee consumption is associated with a reduced risk of several diseases but uncertainty
+remains about the inﬂuence of coffee consumption on the risk of dementia. We performed a
+dose-response meta-analysis to summarize the prospective data on coffee consumption and associated
+risk of dementia and Alzheimer’s disease. We identiﬁed studies by searching PubMed (from January
+1966) and Web of Science (from January 1945) through 4 October 2018 and by scrutinizing the reference
+lists of pertinent publications. Two researchers independently reviewed the literature. Results were
+combined using a restricted cubic spline random-effects dose-response meta-analysis based on a
+one-stage approach. Eight relevant prospective studies were identiﬁed. These studies included 7486
+dementia cases diagnosed among 328,885 individuals during an average follow-up of 4.9–25 years.
+Meta-analysis of all eight studies indicated no statistically signiﬁcant association between coffee
+consumption and the risk of dementia and no deviations from a linear trend (p = 0.08). The relative
+risk of dementia per 1 cup/day increment of coffee consumption was 1.01 (95% conﬁdence interval
+(CI) 0.98–1.05; p = 0.37). Meta-analysis of ﬁve studies that focused on Alzheimer’s disease revealed
+no association between coffee consumption and Alzheimer’s disease and no deviations from a
+linear trend (p = 0.79). The relative risk of Alzheimer’s disease per 1 cup/day increment of coffee
+consumption was 1.01 (95% conﬁdence interval 0.95–1.07; p = 0.80). These results do not support an
+association between coffee consumption and an increased risk of overall dementia or Alzheimer’s
+disease speciﬁcally, but further research on the association of coffee consumption with dementia risk
+is needed.
+Keywords: Alzheimer’s disease; coffee; dementia; meta-analysis; prospective studies
+1. Introduction
+Dementia is an increasing global health concern due to the aging population. Globally, about
+50 million individuals had dementia in 2015 and this number is projected to increase to 132 million
+by 2050 [1]. The predominant cause of dementia is Alzheimer’s disease (AD), which accounts for
+an estimated 60% or more of all cases [2]. The pathological hallmarks of AD are the deposition of
+amyloid-β (plaques) outside neurons and twisted strands of the protein tau inside neurons [2]. The
+identiﬁcation of modiﬁable factors that can reduce the incidence of dementia is of high priority.
+Evidence from observational studies indicates that coffee consumption may lower the risk of
+several diseases, including diabetes, stroke, coronary heart disease, certain cancers, Parkinson’s disease
+and gout [3–7]. Coffee is the primary source of caffeine in most populations and contains phenolics
+and other bioactive compounds with potential beneﬁcial or adverse effects on health. Experimental
+Nutrients 2018, 10, 1501; doi:10.3390/nu10101501
+www.mdpi.com/journal/nutrients
+
+Nutrients 2018, 10, 1501
+2 of 8
+evidence indicates that caffeinated coffee and caffeine, which readily crosses the blood brain barrier [8],
+may inﬂuence the processes associated with AD. For example, experimental studies in rodents have
+demonstrated that caffeine and caffeinated coffee suppresses brain amyloid-β production [9–11],
+causes microglia activation [12], reduces hippocampal pro-inﬂammatory cytokines [9], protects against
+any dysfunction in the blood–brain barrier [13] and prevents memory impairment [11]. Thus, coffee
+consumption might inﬂuence the risk of AD and dementia but both observational studies testing this
+hypothesis and meta-analyses summarizing the data have yielded inconclusive results [14,15]. One
+meta-analysis reported an inverse association between coffee consumption (highest category or any
+consumption vs. lowest category or no coffee consumption) and the risk of AD but not dementia [14].
+Another meta-analysis found that low (1–2 cups/day vs. <1 cup/day) but not high (>3 cups/day)
+coffee consumption was associated with a signiﬁcantly reduced risk of AD and dementia [15]. In
+contrast, a Mendelian randomization found suggestive evidence of a positive association of a genetic
+predisposition to consume more coffee with AD risk [16].
+To further clarify whether coffee drinking is related to the risk of dementia or AD, we performed
+a dose-response meta-analysis of prospective studies. This meta-analysis includes data from three
+additional prospective studies [17–19], which were not included in prior meta-analyses [14,15].
+2. Methods
+2.1. Search Strategy
+The PRISMA guidelines were followed for this meta-analysis. We searched PubMed from 1
+January 1966 through 4 October 2018, using the search terms “coffee” (All Fields) and “dementia”
+(All Fields) or “coffee” (All Fields) and “Alzheimer’s disease” (All Fields). Moreover, Web of Science
+was searched from 1 January 1945 through 4 October 2018 using the search query “TOPIC: (coffee)
+and TOPIC: (dementia) or TOPIC: (coffee) and TOPIC: (Alzheimer’s disease)”. We searched for
+additional studies by scrutinizing the reference lists of relevant articles. Two researchers (S.C.L. and
+N.O.) independently reviewed the literature. A summary of the literature search, screening and study
+selection is presented in Figure 1.
+ 
+342 articles identified by searching PubMed 
+(n = 155) and Web of Science (n = 187)
+13 articles remaining after duplicate 
+removal and title and abstract review
+221 articles excluded based on title and abstract
+5 full-text articles excluded
+•
+Results not reported for three or more 
+quantitative categories of coffee (n = 3) *
+•
+Only results for caffeine (n = 1)
+•
+Cognitive impairment was the outcome (n = 1)
+8 eligible prospective studies
+•
+Eskelinen et al, 2009
+•
+Gelber et al, 2011
+•
+Noguchi-Shinohara, 2014 
+•
+Mirza et al, 2014
+•
+Loftfield et al, 2015
+•
+Sugiyama et al, 2016
+•
+Park et al, 2017
+•
+Larsson and Wolk, 2018
+344 potentially relevant articles
+2 articles identified from investigations on coffee 
+consumption in relation to cause-specific mortality
+Identification
+Screening
+Eligibility
+Included
+110 duplicate articles removed
+Figure 1. Summary of literature search. * Results reported for regular versus no regular coffee
+intake [20]; daily versus no daily coffee intake [21]; or per times/week increase in coffee intake [22].
+
+Nutrients 2018, 10, 1501
+3 of 8
+2.2. Inclusion and Exclusion Criteria
+The eligibility criteria in this meta-analysis included prospective studies that reported relative
+risk (RR) estimates with corresponding 95% conﬁdence intervals (CI), or sufﬁcient data to estimate
+these, of AD or all-cause dementia for at least three categories of coffee consumption. Cross-sectional,
+case-control and Mendelian randomization studies as well as studies reporting results on cognitive
+impairment only were excluded.
+2.3. Data Extraction
+From each study, the authors (S.C.L. and N.O.) extracted the following information: study name
+and country in which the study was performed, sample size, number of cases, how cases were
+ascertained, age of participants, proportion of men, duration of follow-up, potential risk factors
+adjusted for in the multivariable analysis, the RRs with their 95% CI for each exposure category and
+the number of cases and total number of participants or person-years in each category. We extracted
+the multivariable RRs that were adjusted for the largest number of possible confounders.
+2.4. Assessment of Study Quality
+The Newcastle-Ottawa Scale was used to assess study quality [23]. The assessment was based
+on selection, comparability and outcome. Details of the criteria are available in Figure S1. Studies
+received a score for each criteria met. The score ranged from 0 to 9, with a higher score indicating
+higher quality.
+2.5. Statistical Analysis
+Our primary analysis included dementia as the outcome (either all-cause dementia or AD if data
+on any dementia were not available in the study) according to the quantitative categories of coffee
+consumption. Studies that reported results on AD only were included in the primary analysis but were
+excluded in a sensitivity analysis. In addition, we performed analyses of coffee consumption in relation
+to AD speciﬁcally. We performed a random-effects dose-response meta-analysis using a one-stage
+approach and restricted maximum likelihood estimation [24]. We assessed potential departure from
+linearity using restricted cubic splines and applied a Wald-type test to detect departure from a simpler
+linear function [25]. The between-study heterogeneity was investigated with Cochran’s Q test and the
+I2 statistic [26]. Publication bias was assessed using Egger’s test and funnel plot [27]. The statistical
+analyses were conducted using the drmeta, metabias and metafunnel commands for Stata, version
+14.2 (StataCorp, Texas, USA)
+3. Results
+Eight prospective studies that examined the association of coffee consumption with the risk of
+AD and/or all-cause dementia were eligible for inclusion in the current meta-analysis [17–19,28–32]
+(Figure 1). The study characteristics are shown in Table 1. Three studies were conducted in the United
+States, three in Europe and two in Japan. All but one study included both men and women. Combined,
+the eight studies included 7486 cases of dementia (including AD cases speciﬁcally for two studies that
+did not provide results on all-cause dementia [17,18]) diagnosed among 328,885 individuals during an
+average follow-up of 4.9–25 years. Coffee consumption in the highest category ranged from every day
+in a Japanese study [30] to 5 or more cups/day in Finnish and Swedish cohorts [19,28]. Study quality,
+which was assessed based on the 9-stars Newcastle-Ottawa Scale, ranged from 7 to 9 (mean of 7.6)
+(Table 1).
+
+Nutrients 2018, 10, 1501
+4 of 8
+Table 1. Prospective studies of coffee consumption and risk of Alzheimer’s disease and all-cause dementia.
+Author, Year
+(reference)
+Study Name,
+Country
+Ascertainment of
+AD and Dementia
+Cases (Total
+Sample Size)
+Age; % Men
+Follow-up
+Time
+Adjustment for Confounders
+NOS Score *
+Coffee Intake
+Category
+RR (95% CI) of AD
+RR (95% CI) of
+Dementia
+Eskelinen et al.,
+2009 [28]
+Cardiovascular Risk
+Factors, Aging and
+Dementia study,
+Finland
+Neurological and
+clinical examination
+58 AD, 61 dementia
+(1409)
+65–79 years;
+62
+21 years
+(mean)
+Age, sex, education, area of residence, smoking,
+BMI, systolic blood pressure, total cholesterol,
+ApoE ε4 status
+7
+0–2 cups/day
+3–5 cups/day
+>5 cups/day
+Reference
+0.42 (0.12–1.46)
+1.01 (0.33–3.08)
+Reference
+0.30 (0.10–0.93)
+0.83 (0.32–2.15)
+Gelber et al., 2011
+[29]
+Honolulu-Asia
+Aging Study, United
+States (Hawaii)
+Neurological and
+clinical examination
+118 AD, 226
+dementia (3494)
+71–93 years;
+100
+25 years
+Age, education, smoking, physical activity,
+elevated cholesterol, hypertension, ApoE ε4
+status
+9
+0 oz/day
+4–8 oz/day
+12–16 oz/day
+20–24 oz/day
+≥28 oz/day
+Reference
+0.89 (0.50–1.59)
+1.09 (0.60–2.00)
+0.95 (0.45–2.00)
+0.59 (0.23–1.54)
+Reference
+0.93 (0.59–1.46)
+1.24 (0.78–1.97)
+1.14 (0.66–1.98)
+1.09 (0.59–2.00)
+Noguchi-Shinohara
+et al., 2014 [30]
+Nakajima project,
+Japan
+Neurological and
+clinical examination
+26 dementia (490)
+>60 years;
+~35
+4.9 years
+(mean)
+Age, sex, education, smoking, hypertension,
+diabetes, hyperlipidemia, ApoE ε4 status,
+physical activities and/or other hobbies,
+alcohol, tea
+7
+None
+1–6 days/week
+Every day
+NA
+Reference
+1.00 (0.34–2.99)
+0.70 (0.22–2.17)
+Mirza et al., 2014
+[31]
+Rotterdam Study,
+The Netherlands
+Neurophysiological
+testing and linkage
+to medical records
+814 dementia (5408)
+≥55 years;
+59
+13.2 years
+(mean)
+Age, sex, education, smoking, BMI, hypertension,
+diabetes, family history of dementia, working
+status, alcohol
+9
+0–1 cup/day
+>1–3 cups/day
+>3 cups/day
+NA
+Reference
+0.88 (0.67–1.16)
+1.00 (0.76–1.30)
+Loftﬁeld et al., 2015
+[17]
+Prostate, Lung,
+Colorectal and
+Ovarian Screening
+Trial, United States
+Linkage to the
+National Death
+Index
+93 AD deaths
+(90,317)
+55–74 years;
+NA
+12 years
+Age, sex, education, marital status, race/ethnicity,
+smoking, BMI, diabetes, supplemental vitamin
+use, ibuprofen, aspirin, menopausal hormone
+therapy, and intake of alcohol, energy, red and
+processed meat, white meat, saturated fat, fruit,
+and vegetables
+7
+0 cup/day
+<1 cup/day
+1 cup/day
+2–3 cups/day
+≥4 cups/day
+Reference
+1.01 (0.53–1.95)
+0.66 (0.32–1.36)
+0.59 (0.31–1.11)
+0.72 (0.33–1.58)
+NA
+Sugiyama et al.,
+2016 [32]
+Ohsaki Cohort,
+Japan
+Linkage to the
+Long-term Care
+Insurance database
+1107 dementia
+(13,137)
+≥65 years;
+~45
+5.7 years
+Age, sex, education, smoking, BMI, walking
+duration, history of stroke, hypertension,
+myocardial infarction, diabetes, arthritis,
+osteoporosis, and fracture, psychological distress,
+participating in any community activities, alcohol,
+green tea
+7
+Never
+Occasionally
+1–2 cups/day
+≥3 cups/day
+NA
+Reference
+0.73 (0.62–0.86)
+0.72 (0.61–0.84)
+0.82 (0.65–1.02)
+Park et al., 2017 [18]
+Multiethnic Cohort,
+United States
+Linkage to the
+death register
+1404 AD deaths
+(185,855)
+45–75 years;
+~45
+16.2 years
+(mean)
+Age, sex, ethnicity, education, smoking,
+preexisting illness, BMI, physical activity, and
+intake of alcohol, total energy, and energy from fat
+7
+None
+1–3 cups/month
+1–6 cups/week
+1 cup/day
+2–3 cups/day
+≥4 cups/day
+Reference
+1.01 (0.72–1.41)
+0.92 (0.69–1.24)
+0.90 (0.71–1.14)
+1.16 (0.90–1.49)
+1.33 (0.86–2.04)
+NA
+Larsson and Wolk,
+2018 [19]
+Swedish
+Mammography
+Cohort and Cohort
+of Swedish Men,
+Sweden
+Linkage to national
+patient register
+1299 AD, 3755
+dementia (28,775)
+65–83 years;
+53
+12.6 years
+(mean)
+Age, sex, education, smoking, BMI, exercise,
+walking or bicycling, history of hypertension,
+hypercholesterolemia, or diabetes, sleep duration,
+alcohol, DASH diet
+8
+<1 cup/day
+1–2.9 cups/day
+3–4.9 cups/day
+≥5 cups/day
+Reference
+0.90 (0.70–1.17)
+1.01 (0.78–1.30)
+0.93 (0.70–1.24)
+Reference
+0.99 (0.85–1.16)
+1.03 (0.88–1.21)
+1.07 (0.90–1.28)
+AD, Alzheimer’s disease; BMI, body mass index; CI conﬁdence interval; DASH, Dietary Approaches to Stop Hypertension; oz; ounce; RR, relative risk; NA, not available. *
+Newcastle-Ottawa Scale (NOS) for assessment of study quality; the score ranges from 0–9, with higher score indicating higher quality.
+
+Nutrients 2018, 10, 1501
+5 of 8
+Meta-analysis combining the data from the eight studies revealed no statistically signiﬁcant
+association between coffee consumption and the risk of dementia and no deviations from a linear trend
+(p = 0.08) (Figure 2). The RRs (95% CI) of dementia were 0.92 (0.82–1.04) for 1 cup/day, 0.90 (0.75–1.08)
+for 2 cups/day, 0.93 (0.77–1.13) for 3 cups/day, 1.01 (0.86–1.19) for 4 cups/day and 1.11 (0.94–1.30) for
+5 cups/day of coffee consumption (Figure 2). The RR of dementia per 1 cup/day increment of coffee
+consumption was 1.01 (95% CI 0.98–1.05; p = 0.37). There was no heterogeneity between the results
+of individual studies (I2 = 30.7%, p = 0.18) and no indication of publication bias (p = 0.48) (funnel
+plot is presented in Figure S2). Exclusion of two studies with AD mortality as the outcome [17,18]
+did not change the results appreciably. The RR of dementia in a meta-analysis that combined the
+results of the remaining six studies was 1.01 (95% CI 0.98–1.03; p = 0.58) per 1 cup/day increment of
+coffee consumption.
+(A) 
+(B) 
+Figure 2. Dose-response association of coffee consumption with risk of dementia (A) and Alzheimer’s
+disease (B). The analyses of dementia and Alzheimer’s disease include eight and ﬁve prospective
+studies, respectively.
+Meta-analysis of the ﬁve studies with results on AD revealed no association between coffee
+consumption and the risk of AD and there was no indication of departure from linearity (p = 0.79)
+(Figure 2). The RR of AD per 1 cup/day increment in coffee consumption was 1.01 (95% CI 0.95–1.07;
+p = 0.80), with no statistically signiﬁcant between-study heterogeneity (I2 = 41.8%, p = 0.14).
+4. Discussion
+This contemporary meta-analysis of eight prospective studies provides no evidence that coffee
+consumption is associated with the risk of AD or overall dementia. However, we cannot rule out that
+we may have overlooked a weak association.
+Three studies reporting results on coffee consumption and AD risk were non-eligible for inclusion
+in this dose-response meta-analysis because results were not reported in different quantitative
+categories of coffee consumption [20–22]. Two of those studies were consistent in ﬁnding a lack
+of association between coffee consumption and the risk of AD [20,22]. In a cohort of 2622 older German
+adults, including 418 AD cases diagnosed during 10 years of follow-up, the hazard ratio of AD per
+one time/week increase in coffee consumption was 0.97 (95% CI 0.90–1.04) [22]. Likewise, in a cohort
+of 694 Canadian adults, including 36 AD cases diagnosed during 5 years of follow-up, the RR of
+AD for regular versus no regular coffee consumption was 1.03 (95% CI 0.47–2.30) [20]. Results from
+another cohort of 4615 Canadian adults, including 194 AD cases diagnosed over 5 years, showed
+that daily versus no daily coffee consumption was associated with a reduction of 31% in the risk of
+AD [21]. There is also no support from Mendelian randomization studies that a genetic predisposition
+to consume more coffee is associated with a decreased risk of AD (if anything, a positive association
+has been observed) [16] or that coffee/caffeine intake is associated with cognitive decline [33].
+
+Nutrients 2018, 10, 1501
+6 of 8
+A strength of this meta-analysis based on the data from eight prospective studies is that the
+association between coffee consumption and the risk of dementia could be assessed with relatively
+high precision. Furthermore, we were able to investigate the dose-response relationship between
+coffee consumption and dementia risk.
+A limitation of this meta-analysis is that self-reported
+coffee consumption is subject to measurement errors, which may have resulted in attenuated results.
+The exact amount and concentration of coffee consumed are difﬁcult to measure by a questionnaire and
+therefore, this meta-analysis may not have captured the true dose-response relationship between coffee
+consumption and dementia risk. Likewise, the diagnosis of dementia and AD differed among studies
+and some degree of misclassiﬁcation of dementia is likely to have occurred in most studies. Another
+shortcoming is that the ﬁndings were based on data from observational studies and thus, residual
+confounding and reverse causality cannot be ruled out as explanations for the lack of an observed
+association of coffee consumption with dementia risk. Finally, we were unable to examine whether the
+intake of caffeinated or decaffeinated coffee speciﬁcally is associated with the risk of dementia.
+5. Conclusions
+In conclusion, the available data from observational prospective studies provide no evidence
+that coffee consumption is associated with the risk of AD or all-cause dementia. Nevertheless, there
+have only been a few studies examining the relationship of coffee consumption with the risk of
+dementia and AD speciﬁcally are relatively few, while the misclassiﬁcation of coffee consumption and
+of dementia and may have attenuated the results. Therefore, additional studies that are well conducted
+are necessary to establish whether coffee consumption inﬂuences the risk of dementia or AD.
+Supplementary Materials: The following are available online at http://www.mdpi.com/2072-6643/10/10/1501/
+s1, Figure S1: Newcastle-Ottawa Scale: Details of how the criteria were applied; Figure S2: Funnel plot to visually
+assess publication bias. Egger’s test: p = 0.48.
+Author Contributions: S.C.L. designed the research, handled funding, performed the literature search and
+statistical analysis, interpreted the data, and drafted the manuscript. N.O. designed the research, performed
+the literature search and statistical analysis and made critical revision of the manuscript. both authors read and
+approved the ﬁnal manuscript.
+Funding: This work was supported by a research grant from the Swedish Brain Foundation (Hjärnfonden).
+Conﬂicts of Interest: The authors declare no conﬂict of interest.
+References
+1.
+Prince, M.; Wimo, A.; Guerchet, M.; Ali, G.C.; Wu, Y.T.; Prina, M. World Alzheimer Report 2015—The Global
+Impact of Dementia: An Analysis of Prevalence, Incidence, Cost and Trends; Alzheimer’s Disease International:
+London, UK, 2015.
+2.
+Alzheimer’s Association. Alzheimer’s association report: 2018 Alzheimer’s disease facts and ﬁgures.
+Alzheimers Dement. 2018, 14, 367–429. [CrossRef]
+3.
+Grosso, G.; Godos, J.; Galvano, F.; Giovannucci, E.L. Coffee, Caffeine, and Health Outcomes: An Umbrella
+Review. Annu. Rev. Nutr. 2017, 37, 131–156. [CrossRef] [PubMed]
+4.
+Poole, R.; Kennedy, O.J.; Roderick, P.; Fallowﬁeld, J.A.; Hayes, P.C.; Parkes, J. Coffee consumption and health:
+Umbrella review of meta-analyses of multiple health outcomes. BMJ 2017, 359, j5024. [CrossRef] [PubMed]
+5.
+Carlstrom, M.; Larsson, S.C. Coffee consumption and reduced risk of developing type 2 diabetes:
+A systematic review with meta-analysis. Nutr. Rev. 2018, 76, 395–417. [CrossRef] [PubMed]
+6.
+Larsson, S.C.; Carlstrom, M. Coffee consumption and gout: A Mendelian randomisation study. Ann. Rheum.
+Dis. 2018. [CrossRef] [PubMed]
+7.
+Larsson, S.C.; Orsini, N. Coffee consumption and risk of stroke: A dose-response meta-analysis of prospective
+studies. Am. J. Epidemiol. 2011, 174, 993–1001. [CrossRef] [PubMed]
+8.
+Fredholm, B.B.; Battig, K.; Holmen, J.; Nehlig, A.; Zvartau, E.E. Actions of caffeine in the brain with special
+reference to factors that contribute to its widespread use. Pharmacol. Rev. 1999, 51, 83–133. [PubMed]
+
+Nutrients 2018, 10, 1501
+7 of 8
+9.
+Cao, C.; Cirrito, J.R.; Lin, X.; Wang, L.; Verges, D.K.; Dickson, A.; Mamcarz, M.; Zhang, C.; Mori, T.;
+Arendash, G.W.; et al. Caffeine suppresses amyloid–beta levels in plasma and brain of Alzheimer’s disease
+transgenic mice. J. Alzheimers Dis. 2009, 17, 681–697. [CrossRef] [PubMed]
+10.
+Cao, C.; Wang, L.; Lin, X.; Mamcarz, M.; Zhang, C.; Bai, G.; Nong, J.; Sussman, S.; Arendash, G. Caffeine
+synergizes with another coffee component to increase plasma GCSF: Linkage to cognitive beneﬁts in
+Alzheimer’s mice. J. Alzheimers Dis. 2011, 25, 323–335. [CrossRef] [PubMed]
+11.
+Arendash, G.W.; Schleif, W.; Rezai-Zadeh, K.; Jackson, E.K.; Zacharia, L.C.; Cracchiolo, J.R.; Shippy, D.;
+Tan, J. Caffeine protects Alzheimer’s mice against cognitive impairment and reduces brain beta-amyloid
+production. Neuroscience 2006, 142, 941–952. [CrossRef] [PubMed]
+12.
+Steger, R.; Kamal, A.; Lutchman, S.; Intrabartolo, L.; Sohail, R.; Brumberg, J.C. Chronic caffeine ingestion
+causes microglia activation, but not proliferation in the healthy brain. Brain Res. Bull. 2014, 106, 39–46.
+[CrossRef] [PubMed]
+13.
+Chen, X.; Ghribi, O.; Geiger, J.D. Caffeine protects against disruptions of the blood-brain barrier in animal
+models of Alzheimer’s and Parkinson’s diseases. J. Alzheimers Dis. 2010, 20 (Suppl. 1), S127–S141. [CrossRef]
+14.
+Liu, Q.P.; Wu, Y.F.; Cheng, H.Y.; Xia, T.; Ding, H.; Wang, H.; Wang, Z.M.; Xu, Y. Habitual coffee consumption
+and risk of cognitive decline/dementia: A systematic review and meta–analysis of prospective cohort studies.
+Nutrition 2016, 32, 628–636. [CrossRef] [PubMed]
+15.
+Wu, L.; Sun, D.; He, Y. Coffee intake and the incident risk of cognitive disorders: A dose-response
+meta-analysis of nine prospective cohort studies. Clin. Nutr. 2017, 36, 730–736. [CrossRef] [PubMed]
+16.
+Larsson, S.C.; Traylor, M.; Malik, R.; Dichgans, M.; Burgess, S.; Markus, H.S. Modiﬁable pathways in
+Alzheimer’s disease: Mendelian randomisation analysis. BMJ 2017, 359, j5375. [CrossRef] [PubMed]
+17.
+Loftﬁeld, E.; Freedman, N.D.; Graubard, B.I.; Guertin, K.A.; Black, A.; Huang, W.Y.; Shebl, F.M.; Mayne, S.T.;
+Sinha, R. Association of Coffee Consumption With Overall and Cause-Speciﬁc Mortality in a Large US
+Prospective Cohort Study. Am. J. Epidemiol. 2015, 182, 1010–1022. [CrossRef] [PubMed]
+18.
+Park, S.Y.; Freedman, N.D.; Haiman, C.A.; Le Marchand, L.; Wilkens, L.R.; Setiawan, V.W. Association of
+Coffee Consumption With Total and Cause-Speciﬁc Mortality Among Nonwhite Populations. Ann. Intern.
+Med. 2017, 167, 228–235. [CrossRef] [PubMed]
+19.
+Larsson, S.C.; Wolk, A. The role of lifestyle factors and sleep duration for late-onset dementia: A cohort
+study. J. Alzheimers Dis. 2018, in press. [CrossRef]
+20.
+Tyas, S.L.;
+Manfreda, J.;
+Strain, L.A.;
+Montgomery, P.R. Risk factors for Alzheimer’s disease:
+A population-based, longitudinal study in Manitoba, Canada. Int. J. Epidemiol. 2001, 30, 590–597. [CrossRef]
+[PubMed]
+21.
+Lindsay, J.; Laurin, D.; Verreault, R.; Hebert, R.; Helliwell, B.; Hill, G.B.; McDowell, I. Risk factors for
+Alzheimer’s disease: A prospective analysis from the Canadian Study of Health and Aging. Am. J. Epidemiol.
+2002, 156, 445–453. [CrossRef] [PubMed]
+22.
+Fischer, K.; Melo van Lent, D.; Wolfsgruber, S.; Weinhold, L.; Kleineidam, L.; Bickel, H.; Scherer, M.; Eisele, M.;
+van den Bussche, H.; Wiese, B.; et al. Prospective Associations between Single Foods, Alzheimer’s Dementia
+and Memory Decline in the Elderly. Nutrients 2018, 10, 852. [CrossRef] [PubMed]
+23.
+Wells, G.A.; Shea, B.; O’Connell, D.; Peterson, J.; Welch, V.; Losos, M.; Tugwell, P. The Newcastle-Ottawa
+Scale (NOS) for assessing the quality of nonrandomised studies in meta-analyses. Appl. Eng. Agric. 2014, 18,
+727–734.
+24.
+Crippa, A.; Discacciati, A.; Bottai, M.; Spiegelman, D.; Orsini, N. One-stage dose-response meta-analysis for
+aggregated data. Stat. Methods Med. Res. 2018. [CrossRef] [PubMed]
+25.
+Orsini, N.; Li, R.; Wolk, A.; Khudyakov, P.; Spiegelman, D. Meta-analysis for linear and nonlinear
+dose-response relations: Examples, an evaluation of approximations, and software. Am. J. Epidemiol.
+2012, 175, 66–73. [CrossRef] [PubMed]
+26.
+Higgins, J.P.; Thompson, S.G. Quantifying heterogeneity in a meta-analysis. Stat. Med. 2002, 21, 1539–1558.
+[CrossRef] [PubMed]
+27.
+Egger, M.; Davey, S.G.; Schneider, M.; Minder, C. Bias in meta-analysis detected by a simple, graphical test.
+BMJ 1997, 315, 629–634. [CrossRef] [PubMed]
+28.
+Eskelinen, M.H.; Ngandu, T.; Tuomilehto, J.; Soininen, H.; Kivipelto, M. Midlife coffee and tea drinking and
+the risk of late-life dementia: A population-based CAIDE study. J. Alzheimers Dis. 2009, 16, 85–91. [CrossRef]
+[PubMed]
+
+Nutrients 2018, 10, 1501
+8 of 8
+29.
+Gelber, R.P.; Petrovitch, H.; Masaki, K.H.; Ross, G.W.; White, L.R. Coffee intake in midlife and risk of
+dementia and its neuropathologic correlates. J. Alzheimers Dis. 2011, 23, 607–615. [CrossRef] [PubMed]
+30.
+Noguchi-Shinohara, M.; Yuki, S.; Dohmoto, C.; Ikeda, Y.; Samuraki, M.; Iwasa, K.; Yokogawa, M.; Asai, K.;
+Komai, K.; Nakamura, H.; et al. Consumption of green tea, but not black tea or coffee, is associated with
+reduced risk of cognitive decline. PLoS ONE 2014, 9, e96013. [CrossRef] [PubMed]
+31.
+Mirza, S.S.; Tiemeier, H.; de Bruijn, R.F.; Hofman, A.; Franco, O.H.; Kiefte-de, J.J.; Koudstaal, P.J.; Ikram, M.A.
+Coffee consumption and incident dementia. Eur. J. Epidemiol. 2014, 29, 735–741. [CrossRef] [PubMed]
+32.
+Sugiyama, K.; Tomata, Y.; Kaiho, Y.; Honkura, K.; Sugawara, Y.; Tsuji, I. Association between Coffee
+Consumption and Incident Risk of Disabling Dementia in Elderly Japanese: The Ohsaki Cohort 2006 Study.
+J. Alzheimers Dis. 2016, 50, 491–500. [CrossRef] [PubMed]
+33.
+Zhou, A.; Taylor, A.E.; Karhunen, V.; Zhan, Y.; Rovio, S.P.; Lahti, J.; Sjogren, P.; Byberg, L.; Lyall, D.M.;
+Auvinen, J.; et al. Habitual coffee consumption and cognitive function: A Mendelian randomization
+meta-analysis in up to 415,530 participants. Sci. Rep. 2018, 8, 7526. [CrossRef] [PubMed]
+© 2018 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access
+article distributed under the terms and conditions of the Creative Commons Attribution
+(CC BY) license (http://creativecommons.org/licenses/by/4.0/).

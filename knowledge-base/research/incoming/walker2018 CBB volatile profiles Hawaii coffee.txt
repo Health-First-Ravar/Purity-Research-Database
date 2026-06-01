@@ -1,0 +1,670 @@
+ 
+ 
+ 
+ 
+ 
+Analysis of volatile profiles of green Hawai’ian coffee beans damaged by the coffee 
+berry borer (Hypothenemus hampei) 
+ 
+ 
+Hannah E. Walker1, Katherine A. Lehman1, Marisa M. Wall2, Matthew S. Siderhurst1*  
+ 
+1 Department of Chemistry, Eastern Mennonite University, 1200 Park Road, Harrisonburg, 
+VA, 22802, USA 
+2 Daniel K. Inouye U.S. Pacific Basin Agricultural Research Center, Agricultural Research 
+Service, 
+United States Department of Agriculture, 64 Nowelo St., Hilo, HI 96720, USA 
+ 
+This article is protected by copyright. All rights reserved.
+This article has been accepted for publication and undergone full peer review but has not been
+through the copyediting, typesetting, pagination and proofreading process which may lead to
+differences between this version and the Version of Record. Please cite this article as doi:
+10.1002/jsfa.9393
+
+ 
+ 
+ 
+* Author to whom correspondence should be addressed. 
+ 
+ 
+Abstract 
+BACKGROUND: The coffee berry borer (CBB), Hypothenemus hampei, is the most 
+destructive insect pest of coffee globally causing significant losses in yield and leading to 
+off-flavors in damaged beans. Automated headspace sampling (AHS) and gas 
+chromatography/mass spectrometry (GC/MS) were used to investigate changes in the 
+volatile profiles of CBB damaged green coffee beans.  Green coffee from three coffee farms 
+on the Island of Hawaii were sorted into three levels of CBB damage: non-damaged, slightly 
+damaged (1-2 pinholes/bean), and heavily damaged (>2 pinholes/bean).   
+ 
+RESULTS: Distinct differences were found between green coffee bean samples based on the 
+amounts of eight prominent volatiles.  Increasing CBB damage was particularly correlated 
+with increases in both hexanal and 2-pentylfuran.  Principle component analysis showed 
+clustering of non-damaged green beans, which did not overlap with the slightly or heavily 
+damaged clusters.  Good separation was also found between a mixture of 50% slightly and 
+non-damaged coffee.  However, 20% slightly damaged and non-damaged coffee clusters 
+showed strong overlap.   
+ 
+This article is protected by copyright. All rights reserved.
+
+ 
+ 
+ 
+CONCLUSION: Understanding the effects of CBB damage on coffee flavor profiles is critical 
+to quality control for this valuable agricultural product.  The results of this study show that 
+the volatile profiles of green coffee beans vary with CBB damage.   With specific volatile 
+profiles for CBB damaged coffee identified, coffee samples can be tested in the lab, or 
+potentially on farm or in coffee mills, to identify high levels of CBB damage that may lead to 
+off-flavors and a reduction in product quality and value. 
+Keywords:  Headspace sampling; green coffee; GC/MS; volatiles; principle component 
+analysis 
+ 
+Disclaimer: Mention of a trademark, warranty, proprietary product, or vendor does not 
+constitute a guarantee by the U.S. Department of Agriculture and does not imply its 
+approval to the exclusion of other products or vendors that may be suitable. 
+ 
+INTRODUCTION 
+The coffee berry borer (CBB), Hypothenemus hampei (Ferrari) (Coleoptera: Curculionidae), 
+is the most destructive insect pest of coffee globally.1  Though endemic to Central Africa, 
+CBB is now found in almost every coffee-producing country in the world.2,3  In 2010, CBB 
+first invaded the island of Hawai’i where high quality coffee is the fourth largest cash crop, 
+accounting for $50.3 million dollars in annual revenue as of 2014.4,5  A major economic 
+challenge to small-scale coffee production, CBB has had the effect of making coffee farming 
+This article is protected by copyright. All rights reserved.
+
+ 
+ 
+ 
+more intensive and less profitable: damage causes significant losses in yield and alters the 
+flavor profile of salvageable coffee beans.2  Overall coffee production throughout Hawai’i 
+has decreased by more than 20% since 2010, while overall profitability has also decreased 
+significantly due in part to direct CBB coffee damage and increased costs related to CBB 
+control efforts.6   
+Most of the CBB life cycle occurs within coffee cherries.1,7  Female beetles bore into 
+the endosperm of the cherries to lay their eggs, and larvae feed on the developing coffee 
+bean.7 After larvae develop to adulthood, sibling mating occurs.2  The next generation of 
+females emerges in search of new coffee cherries in which to lay eggs, while males live the 
+duration of their life cycle within the cherry.  Beetles burrowing into and living in coffee 
+beans cause the majority of CBB damage to coffee crops.  Coffee bean damage may range 
+from small “pin holes” caused by female boring to extensive mining caused by larval 
+feeding, which frequently results in secondary fungal and bacterial infestations that further 
+compromise the flavor and integrity of the affected coffee.8 
+CBB damage is known to cause a distinct off-flavor in coffee brewed from infested 
+beans; flavors are described as “slightly bitter” or “tarry” and mask the prized floral and 
+fruity notes of non-infested Kona coffee.9,10  In general, the olfactory organoleptic 
+properties of coffee flavor are attributed to small volatile compounds. Therefore, the 
+headspace profiles of coffee beans can provide valuable insight into their flavor and quality. 
+Analysis of coffee volatiles using gas chromatography and mass spectrometry (GC/MS) is 
+This article is protected by copyright. All rights reserved.
+
+ 
+ 
+ 
+an effective, objective method of assessing insect damage and general quality of coffee and 
+other foods and beverages.11  Although the majority of volatile compounds are generated in 
+the roasting process (more than 850 constituents have been identified), volatile sampling 
+has also been used to evaluate green coffee beans (more than 300 constituents have been 
+identified), which relates to coffee flavor and quality.12,13 
+Coffee flavors result from a cocktail of various volatile compounds; around a 
+thousand different compounds including acids, alcohols, aldehydes, furans, pyrazines, and 
+thiols have been identified.14  Thus, volatile profiles for coffee flavors should be considered 
+holistically based upon ratios of multiple key flavor components. Such data can be analyzed 
+using principle component analysis (PCA) to compare, and potentially differentiate, various 
+coffee samples.  
+Others have used PCA in volatile assessment to categorize coffee beans based upon 
+quality, damage, or regional identity. In a study by Jackels et al., GC/MS profiles were used 
+with PCA to differentiate between undamaged green coffee beans and beans that had been 
+damaged by another insect pest, Antestiopsis thunbergii (Gmelin) (= A. orbitalis 
+(Westwood)) (Hemiptera: Pentatomidae), which is responsible for potato taste defect.15   
+Similarly, Toci and Farah used solid phase microextraction (SPME) and GC to develop a 
+“volatile fingerprint” for Brazilian coffees with varying degrees of damage and over a range 
+of ripeness.16 Analysis of both roasted and unroasted beans identified patterns in 
+concentrations of quality marker compounds that could be used to differentiate between 
+This article is protected by copyright. All rights reserved.
+
+ 
+ 
+ 
+samples.16  Particularly in the specialty coffee industry, specific flavor profiles are the 
+difference between a $5 and a $50 bag of coffee, making volatile analysis a potential asset 
+in sorting, grading, and marketing specialty beans. Correspondingly, GC/MS analysis is a 
+valuable tool for assessment of CBB damage in specialty coffees, elucidating a method by 
+which damage can be monitored and quantified. 
+The use of automated headspace sampling (AHS) coupled with GC/MS to analyze 
+volatile organic compounds is relatively new.17  This technique has been applied to the 
+analysis of volatiles from fruit,18 meat,19 and related food materials.20-22  Additionally, 
+Tipler has reported on the use of this instrument to assay coffee samples.23  Advantages of 
+sampling volatiles by AHS/GC/MS include improved repeatability due to greater 
+automation, elimination of water before chromatographic runs, and increased ease of use 
+through greater automation.   
+The objective of this study was to develop an AHS/GC/MS analysis method for the 
+study of volatiles in green coffee beans exhibiting various levels of visible damage by CBB.  
+Using the developed method, the relative concentrations of 8 prominent volatiles were 
+evaluated using PCA to determine if collected volatiles could be used as markers for CBB 
+damage.  
+ 
+MATERIALS AND METHODS 
+Coffee preparation 
+This article is protected by copyright. All rights reserved.
+
+ 
+ 
+ 
+Green coffee beans, both undamaged and with varying degrees of CBB damage, were 
+obtained from Hilo Coffee Mill, Mountain View, HI (19°33'50.8"N 155°05'17.5"W), 
+Greenwell Farms, Kealakekua, HI (19°30'40.1"N 155°55'18.2"W), and Lehuula Farms, 
+Kealakekua, HI (19°32'01.6"N 155°55'45.5"W).  The green coffee beans were sorted into 
+three levels of infestation; undamaged, slightly damaged by CBB (1-2 pinholes/bean), and 
+heavily damaged by CBB (>2 pinholes/bean).  Coffee beans with other defects, such as sour 
+or black beans, were completely excluded from the analysis.   Coffee beans from the three 
+infestation levels were mixed to form five treatment groups: 1) undamaged, 2) 20:80 
+slightly 
+damaged/undamaged 
+(20% 
+slightly 
+damaged), 
+3) 
+50:50 
+slightly 
+damaged/undamaged (50% slightly damaged), 4) 100% slightly damaged, and 5) 100% 
+heavily damaged.  Initially, 2 g samples of green coffee beans were prepared both ground 
+and whole.  Ground samples were ground in a burr mill (Mr. Coffee, Cleveland, Ohio).  
+Following initial analysis, GC traces with whole beans were found to be more reproducible 
+and reliable, and sample preparation was easier; therefore, whole beans were used 
+thereafter.  Coffee samples were sealed in 22 mL crimp vials (PerkinElmer, Waltham, MA) 
+for analysis.  Six samples of each of the five damage levels were run for each farm (30 
+samples/farm, 90 samples in total).  
+ 
+ 
+Chemicals 
+This article is protected by copyright. All rights reserved.
+
+ 
+ 
+ 
+All reference compounds were purchased from Sigma-Aldrich (Saint Louis, MO) or TCI 
+America (Portland, OR).  Compound purities were >98% based on GC analysis.  Compounds 
+from green coffee beans were identified based on mass spectra matching (NIST 11 Mass 
+Spectral Library, Gaithersburg, MD), retention indices, and authentic standards 
+comparisons.  Diagnostic ion fragments were used to assess peak areas of overlapping 
+peaks. 
+ 
+Instrumentation 
+Green coffee bean volatiles were collected using a PerkinElmer TurboMatrix HS-40 AHS, 
+which was interfaced via a heated transfer line (140 °C) to a PerkinElmer Clarus 680 
+GC/PerkinElmer Clarus SQ 8T MS.   To optimize the AHS oven, 5 different temperatures 
+were compared. The vials were equilibrated at 80°C, 120°C, 135°C, 150°C, and 190°C and 
+each was held there for 15 mins. Needle and transfer line temperatures were 10°C higher 
+than the equilibration temperatures in all tests, except when trying the 150°C equilibration 
+temperature, with the needle and transfer line both being 130°C.   The optimal conditions 
+were found to be equilibration at 120°C with both the needle and transfer line at 130°C, 
+vial pressurized at 40 psi for 1 min, with the withdrawal time set at 0.2 min and desorption 
+pressure set at 15 psi.  The trap was dry purged for 7 min and desorbed for 0.1 min at 260 
+°C with a transfer line pressure set at 15 psi using helium as the carrier gas.  The GC was 
+equipped with an HP-5MS column (30 m x 0.25 mm ID 0.25 μm film thickness).  The 
+This article is protected by copyright. All rights reserved.
+
+ 
+ 
+ 
+temperature program used was 40 °C held for 2 mins, then increased to 280 °C at a rate of 
+10 °C/min and held for 9 mins. The injector was run in splitless mode temperature, the 
+temperature was set at 180 °C, and helium was used as the carrier gas (4.0 ml/min).  The 
+MS was operated in electron ionization mode (70 eV) and it was scanning from 45 to 350 
+amu.   
+ 
+Statistical analysis   
+Data were analyzed using JMP Statistical Discovery Software, version 10.0.0.24  The relative 
+amount of each compound was analyzed by ANOVA followed by means comparison using 
+Tukey’s HSD studentized range test. PCA was conducted to show groupings of the green 
+coffee samples and the interrelationship of the collected volatile compounds.  Two analyses 
+were performed, the first using the peak areas for each compound, and the second using 
+the same data standardized by farm to control for location differences.  The analyses were 
+performed on the correlation matrices, without rotation, using the JMP multivariate 
+methods procedure.24  The resulting principal component solution scores were graphed as 
+biplots.   
+ 
+RESULTS  
+Compounds in Green Coffee Samples   
+This article is protected by copyright. All rights reserved.
+
+ 
+ 
+ 
+In all, 90 samples of green coffee were analyzed by headspace autosampling coupled with 
+GC/MS.  Eight compounds, predominantly aldehydes, were chosen for analysis.  
+Compounds were chosen based on peak prominence and consistent detection throughout 
+the samples (Table 1).  Representative GC traces of headspace volatile collections from 
+Greenwell Farms are shown in Figure 1A-C, respectively.  These quantified volatiles were 
+subsequently used as markers for CBB damage. 
+Green coffee bean samples exhibited volatile profiles that differed markedly with 
+the varying levels of CBB damage investigated in this study.  All but one of the eight 
+analyzed volatiles varied based on CBB damage level (Table 1).  For those that did vary, the 
+relative concentrations of released volatiles increased with CBB damage with the exception 
+of dimethyl sulfide (Table 1).  Increases in hexanal and 2-pentylfuran were most strongly 
+correlated with increasing CBB damage across all damage levels.  Similarly, 2-
+methylpropanal, 3-methylbutanal, 2-methylbutanal, and benzeneacetaldehyde increased 
+with CBB damage, but in a somewhat stepwise manner: low in undamaged and slightly 
+damaged beans, and high in heavily damaged beans.   Nonanal also increased in a stepwise 
+manner, but the effect was less pronounced.  Dimethyl sulfide was the least stable signal for 
+CBB damage, generally decreasing with CBB damage.  Undamaged, 20%, 50%, and 100% 
+slightly damaged (1-2 pinholes) green coffee beans generated only 56%, 49%, 50%, and 
+69% of the eight quantified volatile compounds, respectively, compared to green coffee 
+heavily damaged by CBB (> 2 pinholes). 
+This article is protected by copyright. All rights reserved.
+
+ 
+ 
+ 
+ 
+PCA of Compounds 
+The initial PCA of green coffee headspace volatiles showed clustering based on the farm 
+from which the coffee originated (Figure 2A).  PCA of the quantified volatiles explained 
+79.3% of the variation in the data in the first two dimensions, 52.2% in the first factor and 
+27.1% the second factor (Figure 2A).  The first principle component was positively 
+associated with the concentrations of the aldehydes 2-methylbutanal, 2-methylpropanal, 
+and 3-methylbutanal, while negatively associated with dimethyl sulfide.  The second 
+component was positively associated with 2-pentylfuran, hexanal, and nonanal.  As shown 
+in the biplot of the first two principal components (Figure 2A), green coffee samples 
+clustered more by farm than by CBB damage.  
+A second PCA, conducted on the quantified volatiles standardized by farm, showed 
+that green coffee clustered based on CBB damage (Figures 2B & 3).   This PCA explained 
+69.8% of the variation in the data in the first two dimensions, 41.8% in the first factor and 
+28.0% the second factor (Figures 2B & 3).  The first principle component was positively 
+associated with the concentrations of the aldehydes 2-methylbutanal, 2-methylpropanal, 
+and 3-methylbutanal, while negatively associated with dimethyl sulfide.  The second 
+component was positively associated with 2-pentylfuran and hexanal.  While many of the 
+clusters based on damage overlapped (Figure 3), we were most interested to see if 
+undamaged coffee could be resolved from coffee beans damaged by CBB.  Non-damaged 
+This article is protected by copyright. All rights reserved.
+
+ 
+ 
+ 
+green beans clustered together and did not overlap with the slightly or heavily damaged 
+clusters, in which 100% of the beans had CBB pinholes.  Good separation was also found 
+between the 50% slightly CBB-damaged green coffee (1 sample of 50% overlapped into the 
+non-damaged).  However, 20% slightly damaged and non-damaged coffee showed clusters 
+with strong overlap (Figure 3). 
+ 
+DISCUSSION  
+Multiple studies have demonstrated an overall increase in the amounts of volatile 
+substances in defective green coffee relative to non-defective coffee.25-27  Toci et al. suggest 
+that elevated levels of indicator compounds are due to increased enzymatic activity in 
+coffee plants in response to physiological changes, damage, or shock.27  Therefore, it is 
+possible that elevated concentrations of volatile markers in CBB infested coffee are a result 
+of increased enzymatic activity in the bean during development due to physiological stress 
+and mechanical damage caused by insect boring, and secondary infections by molds and 
+bacteria. 
+Most of the compounds selected for quantification have been identified as key 
+damage indicators in previous studies.  These include, dimethyl sulfide, 2-methylpropanal, 
+3-methylbutanal, 2-methylbutanal, 2-pentylfuran, and hexanal, which have all been 
+indicated as post-harvest quality indicators with high concentrations thought to be at least 
+partially responsible for negative flavor notes in brewed coffee.28  Notably, 2-
+This article is protected by copyright. All rights reserved.
+
+ 
+ 
+ 
+methylbutanal, 3-methylbutanal, 2-pentylfuran, and hexanal have been found in elevated 
+concentrations in defective beans, and they are associated with “malty,” “green bean,” and 
+“grassy” aromas, respectively.16,29  Interestingly, elevated concentrations of dimethyl 
+sulfide are thought to be indicative of Aspergillus molds and Penicillium bacteria, both of 
+which are often spread to coffee seeds through CBB infestation.8,28  These observations 
+correspond to “mold,” “mildew,” and “musty off-flavors” identified in CBB infested coffee.  
+In the current study, dimethyl sulfide was a somewhat noisy signal, as the concentration of 
+this volatile did not vary consistently with CBB damage.  In general, the amounts of 
+dimethyl sulfide collected and analyzed decreased with CBB damage, which is at odds with 
+previous reports.  
+While this is the first study to look at the effects of CBB damage on the volatile 
+profile of green coffee beans, numerous studies have used GC/MS to identify variations in 
+key coffee volatiles as indicators of quality. For example, Toci and Farah identified potential 
+markers of defective beans from Brazilian coffees that exhibited black, green, and sour 
+defect.26 Similarly, Agresti et al. conducted a study that differentiated between the volatile 
+fractions of immature versus black beans, and healthy versus sour beans using GC/MS and 
+PCA.14 
+Few studies have used this method specifically to study the effects of insect damage 
+on green coffee beans. Notably, Jackels et al. used GC/MS and PCA to identify differences in 
+green coffee bean volatile profiles after damaged by the variegated coffee bug (A. 
+This article is protected by copyright. All rights reserved.
+
+ 
+ 
+ 
+thunbergii).30  The study differentiated between samples exhibiting the “potato taste 
+defect” that occurs in infested beans as a result of A. thunbergii by quantitatively tracking 
+the variation in GC/MS traces. However, the study did not attempt to identify insect 
+damage at varying degrees of infestation, nor did they endeavor to elucidate the potency of 
+insect-related defects as they pertain to coffee flavor. 
+Green coffee was chosen for this study for two reasons, 1) green beans represent the 
+early stages of coffee processing and 2) using green beans allows the removal of variation 
+that arises from roasting.   Analyzing volatiles from green coffee applies an assay to beans 
+relatively early in the coffee production process.  If defects can be detected at an early 
+stage, affected coffee might be discarded before more resources are invested in further 
+processing. Additionally, green beans are often sold on the global market to companies that 
+roast and blend beans.   Assessing the quality of green beans might be an important tool for 
+these coffee buyers or brokers.  Furthermore, controlling variability between roasting 
+batches can be difficult, and roasting beans before sorting (roasting undamaged and 
+damaged beans together) would allow the possibility of cross contamination.  Analyzing 
+green coffee allows the avoidance of both issues.   However, green beans are less aromatic, 
+therefore producing less compounds for analysis.  Differences found between CBB-
+damaged and undamaged green coffee, which are expected to produce fewer compounds, 
+may be amplified if volatile analyses are repeated with roasted coffee.  This may be the case 
+This article is protected by copyright. All rights reserved.
+
+ 
+ 
+ 
+in particular, because green volatiles are often precursors for the volatiles found in roasted 
+coffee.31 
+  
+A report produced for the Hawaii Coffee Association, conducted by Greenwell 
+Farms, a large Kona coffee producer and processor, found that trained cuppers 
+unanimously agreed that 20% or higher CBB damage had a negative impact on roasted 
+coffee flavor.32  The current study could not differentiate CBB damaged coffee at a level 
+comparable to human coffee tasters.  However, this observation is reasonable given the 
+differences that exist between the volatile profiles of green, roasted, and brewed coffees. 
+Many studies have demonstrated that damage to green coffee beans significantly alters the 
+roasting process and, thus, the volatile composition of roasted and brewed coffees as 
+well.13,25,33 Furthermore, the quantity and diversity of headspace volatiles is much less in 
+green coffee compared to roasted coffee. It is reasonable to speculate that the 
+inconsistencies between cupping data and our statistical assessment of green coffee 
+volatiles at 20% damage are result of differences between roasted and green coffee beans. 
+It is possible that studies of a similar nature using roasted and/or brewed samples of CBB 
+damaged coffee could identify significant differences in volatile profiles at damage 
+concentrations of 20% or less. Because of the drastic chemical changes that occur in the 
+volatile profile of coffee beans during roasting and brewing, such studies would more 
+directly reflect the chemical variations responsible for differences in organoleptic 
+properties detected by coffee cuppers and consumers. 
+This article is protected by copyright. All rights reserved.
+
+ 
+ 
+ 
+Understanding the effects of CBB damage of coffee flavor profiles is critical to 
+quality control for this valuable agricultural product.  Without concreate measures to 
+define quality parameters, the effects of CBB on coffee taste and organoleptic perception 
+have been vague.  With specific volatile profiles for CBB damaged coffee identified, coffee 
+samples can be tested in the lab, or potentially on farms or in mills with a portable 
+electronic nose, to identify high levels of CBB damage that may lead to off-flavors and a 
+reduction in product quality and value.   
+ 
+CONCLUSION 
+Our study delineated interesting trends and significant differences in the volatile 
+composition of green coffee samples exhibiting varying degrees of CBB damage, and it 
+elucidated an effective technique for quantifying and identifying these differences. Volatile 
+profiles of green coffee beans were differentiated from undamaged samples at three levels 
+of damage using GC/MS and PCA. The method was able to separate beans with very low 
+levels of damage (1-2 small pinholes) from undamaged beans.  Additionally, results suggest 
+that future studies should examine the volatile profiles of coffee that is roasted and brewed 
+from CBB damaged samples. 
+ 
+ACKNOWLEDGEMENTS 
+This article is protected by copyright. All rights reserved.
+
+ 
+ 
+ 
+ 
+We would like to thank Jeanette Baysa of Hilo Coffee Mill, Tom Greenwell and Steve 
+Hicks of Greenwell Farms, and Robert Nelson of Lehuula Farms for their assistance in 
+procuring green coffee samples.   Additionally we would like to thank Dominick Skabeikis 
+for assistance with volatile sampling and Diego Barahona for assistance with coffee sample 
+preparation.  
+ 
+REFERENCES 
+1. 
+Damon A, A review of the biology and control of the coffee berry borer, 
+Hypothenemus hampei (Coleoptera: Scolytidae). Bull Ent Res 90:453-465 (2000). 
+2. 
+Vega FE, Infante F, Castillo A and Jaramillo J, The coffee berry borer, Hypothenemus 
+hampei (Ferrari) (Coleoptera: Curculionidae): A short review, with recent findings and 
+future research directions. Terr Arthropod Rev 2:129-147 (2009). 
+3. 
+Infante F, Pest management strategies against the coffee berry borer (Coleoptera: 
+Curculionidae: Scolytinae). J Agr Food Chem66:5275-5280 (2018). 
+4. 
+Messing RH, The Coffee Berry Borer (Hypothenemus hampei) invades Hawaii: 
+Preliminary investigations on trap response and alternate hosts. Insects 3:640-652 (2012). 
+5. 
+Aristizábal LF, Bustillo AE and Arthurs SP, Integrated pest management of coffee 
+berry borer: strategies from Latin America that could be useful for coffee farmers in 
+Hawaii. Insects 7:6 (2016). 
+6. 
+Woodill AJ, Hemachandra D, Nakamoto ST and Leung P, The economics of coffee 
+production in Hawai‘i, in Economic Issues, Ed. University of Hawai'i, Honolulu, HI, pp 1-9 
+(2014). 
+7. 
+Jaramillo J, Borgemeister C and Baker P, Coffee berry borer Hypothenemus hampei 
+(Coleoptera: Curculionidae): searching for sustainable control strategies. Bull Ent Res 
+96:223-233 (2006). 
+8. 
+Velmourougane K, Bhat R and Gopinandhan TN, Coffee berry borer (Hypothenemus 
+hampei)—a vector for toxigenic molds and ochratoxin A contamination in coffee beans. 
+Foodborne Pathog Dis 7:1279-1284 (2010). 
+9. 
+International Coffee Organization, ISO 10470 - Green Coffee Defect Reference Chart, 
+Ed  (2004). 
+10. 
+Wintgens JN, Green coffee defects guide for identification and evaluation., Ed. Nestlé 
+Ltd. (1997). 
+This article is protected by copyright. All rights reserved.
+
+ 
+ 
+ 
+11. 
+Snow NH and Slack GC, Head-space analysis in modern gas chromatography. TRAC-
+Trend Anal Chem 21:608-617 (2002). 
+12. 
+Flament I and Bessière-Thomas Y, Coffee flavor chemistry. John Wiley & Sons (2002). 
+13. 
+Lee KG and Shibamoto T, Analysis of volatile components isolated from Hawaiian 
+green coffee beans (Coffea arabica L.). Flavour Fragr J 17:349-351 (2002). 
+14. 
+Agresti PDM, Franca AS, Oliveira LS and Augusti R, Discrimination between 
+defective and non-defective Brazilian coffee beans by their volatile profile. Food Chem 
+106:787-796 (2008). 
+15. 
+Jackels SC, Marshall EE, Omaiye AG, Gianan RL, Lee FT and Jackels CF, GCMS 
+investigation of volatile compounds in green coffee affected by potato taste defect and the 
+antestia bug. J Agr Food Chem 62:10222-10229 (2014). 
+16. 
+Toci AT and Farah A, Volatile fingerprint of Brazilian defective coffee seeds: 
+Corroboration of potential marker compounds and identification of new low quality 
+indicators. Food Chem 153:298-314 (2014). 
+17. 
+Barani F, Dell'Amico N, Griffone L, Santoro M and Tarabella C, Determination of 
+volatile organic compounds by headspace trap. J Chromatogr Sci 44:625-630 (2006). 
+18. 
+Chen F, Su Y, Zhang F and Guo Y, Low-temperature headspace-trap gas 
+chromatography with mass spectrometry for the determination of trace volatile 
+compounds from the fruit of Lycium barbarum L. J Sep Sci 38:670-676 (2015). 
+19. 
+Bosse R, Wirth M, Konstanz A, Becker T, Weiss J and Gibis M, Determination of 
+volatile marker compounds in raw ham using headspace-trap gas chromatography. Food 
+Chem 219:249-259 (2017). 
+20. 
+Aberl A and Coelhan M, Determination of volatile compounds in different hop 
+varieties by headspace-trap GC/MS-in comparison with conventional hop essential oil 
+analysis. J Agr Food Chem 60:2785-2792 (2012). 
+21. 
+Pogačić T, Maillard MB, Leclerc A, Hervé C, Chuat V, Yee AL, Valence F and Thierry A, 
+A methodological approach to screen diverse cheese-related bacteria for their ability to 
+produce aroma compounds. Food Microbiol 46:145-153 (2015). 
+22. 
+Sghaier L, Cordella CBY, Rutledge DN, Watiez M, Breton S, Sassiat P, Thiebaut D and 
+Vial J, Validation of a headspace trap gas chromatography and mass spectrometry method 
+for the quantitative analysis of volatile compounds from degraded rapeseed oil. J Sep Sci 
+39:1675-1683 (2016). 
+23. 
+Tipler A, Coffee characterization using Clarus SQ 8 GC/MS, TurboMatrix HS trap and 
+GC SNFR olfactory port, Ed. PerkinElmer, Inc. , Shelton, CT (2013). 
+24. 
+SAS Institute, JMP Statistical Discovery Software, Ed. SAS Institute Inc., Cary, NC 
+(2012). 
+25. 
+Bandeira RD, Toci AT, Trugo LC and Farah A, Volatile composition of intrinsic 
+defective coffee beans by GC/MS-headspace. Química Nova 32:309-314 (2009). 
+26. 
+Toci AT and Farah A, Volatile compounds as potential defective coffee beans’ 
+markers. Food Chem 108:1133-1141 (2008). 
+This article is protected by copyright. All rights reserved.
+
+ 
+ 
+ 
+27. 
+Toci AT and Farah A, Volatile fingerprint of Brazilian defective coffee seeds: 
+corroboration of potential marker compounds and identification of new low quality 
+indicators. Food Chem 153:298-314 (2014). 
+28. 
+Toledo PR, Pezza L, Pezza HR and Toci AT, Relationship between the different 
+aspects related to coffee quality and their volatile compounds. Compr Rev Food Sci F 
+15:705-719 (2016). 
+29. 
+Yang NL, X., Degn TK, Muchow M and Fisk I, Determination of volatile marker 
+compounds of common coffee roast defects. Food Chem 211:206-214 (2016). 
+30. 
+Jackels SC, Marshall EE, Omaiye AG, Gianan RL, Lee FT and Jackels CF, GCMS 
+investigation of volatile compounds in green coffee affected by potato taste defect and the 
+Antestia bug. J Agr Food Chem 62:10222-10229 (2014). 
+31. 
+Toledo PRAB, Pezza L, Pezza HR and Toci AT, Relationship between the different 
+aspects related to coffee quality and their volatile compounds. Compr Rev Food Sci F 
+15:705-719 (2016). 
+32. 
+Greenwell Farms, The Impact of CBB in the Flavor of Kona Coffee, Ed  (2015). 
+33. 
+Marin K, Požrl T, Zlatić E and Plestenjak A, A new aroma index to determine the 
+aroma quality of roasted and ground coffee during storage. Food Technol Biotech 46:442-
+447 (2008). 
+ 
+This article is protected by copyright. All rights reserved.
+
+ 
+ 
+ 
+ 
+This article is protected by copyright. All rights reserved.
+
+ 
+ 
+ 
+Figure 1. Sample traces. Eight peaks were compared among various levels of damage.  Coffee sample from Greenwell Farms.   
+(A) Undamaged green coffee, (B) 100% slightly damaged (1-2 pinholes/bean) green coffee, and (C) 100% heavily damaged (>2 
+pinholes/bean) green coffee.
+This article is protected by copyright. All rights reserved.
+
+ 
+ 
+ 
+ 
+Figure 2. PCA scores biplot (PC1 vs PC2) for 90 coffee samples from three farms.  A) Green 
+coffee volatiles without standardization by farm (observed sample clusterings are outlined 
+by farm).  B) Green coffee volatiles standardized by farm. 
+ 
+ 
+This article is protected by copyright. All rights reserved.
+
+ 
+ 
+ 
+ 
+Figure 3. PCA scores biplot (PC1 vs PC2) for 90 coffee samples from three farms 
+(standardized by farm).  Observed sample clusterings by CBB damage level are outlined.   
+This article is protected by copyright. All rights reserved.
+
+ 
+ 
+ 
+Table 1. Average relative amounts of eight green coffee volatiles used to assess CBB damage.  
+                                  Relative amount (by peak area) 
+Slightly damaged 
+  
+Heavily damaged 
+(1-2 pinholes/bean) 
+(>2 pinholes/bean) 
+Peak # 
+Compound 
+RI 
+0% 
+20% 
+50% 
+100% 
+  
+100% 
+Ref. 
+1 
+Dimethyl sulfide 
+649 
+100 ± 20 
+36 ± 10 
+55 ± 13 
+93 ± 21 
+59 ± 13 
+26 
+2 
+2-Methylpropanal 
+665 
+18 ± 2a 
+15 ± 2a 
+17 ± 1a 
+22 ± 3a 
+54 ± 11b 
+26 
+3 
+3-Methylbutanal 
+698 
+23 ± 1a 
+18 ± 1a 
+21 ± 2a 
+21 ± 2a 
+60 ± 13b 
+11 & 26 
+4 
+2-Methylbutanal 
+703 
+30 ± 2a 
+20 ± 1a 
+24 ± 2a 
+29 ± 3a 
+66 ± 13b 
+26 
+5 
+Hexanal 
+806 
+17 ± 2a 
+15 ± 2ab 
+28 ± 5ab 
+39 ± 7b 
+61 ± 7c 
+11 & 26 
+6 
+2-Pentylfuran 
+998 
+9 ± 2a 
+17 ± 4a 
+22 ± 5ab 37 ± 7bc 
+58 ± 8c 
+26 
+7 
+Benzeneacetaldehyde 1053 
+37 ± 2a 
+27 ± 2a 
+34 ± 3a 
+38 ± 2a 
+57 ± 8b 
+11 
+8 
+Nonanal 
+1111 
+14 ± 2a 
+16 ± 2a 
+18 ± 3ab 
+27 ± 4b 
+24 ± 4ab 
+25 
+ 
+RI, retention index; Ref., previously reported in green coffee.  Means followed by different letters for each compound are 
+significantly different at P < 0.05; Tukey’s HSD.   
+This article is protected by copyright. All rights reserved.

@@ -1,0 +1,1045 @@
+Engineered Root Bacteria Release Plant-Available Phosphate
+from Phytate
+Christine N. Shulse,a Mansi Chovatia,a Carolyn Agosto,a Gaoyan Wang,a Matthew Hamilton,a Samuel Deutsch,a
+Yasuo Yoshikuni,a Matthew J. Blowa
+aDepartment of Energy Joint Genome Institute, Walnut Creek, California, USA
+ABSTRACT
+Microorganisms that release plant-available phosphate from natural soil
+phosphate stores may serve as biological alternatives to costly and environmentally
+damaging phosphate fertilizers. To explore this possibility, we engineered a collec-
+tion of root bacteria to release plant-available orthophosphate from phytate, an
+abundant phosphate source in many soils. We identiﬁed 82 phylogenetically diverse
+phytase genes, refactored their sequences for optimal expression in Proteobacteria,
+and then synthesized and engineered them into the genomes of three root-
+colonizing bacteria. Liquid culture assays revealed 41 engineered strains with high
+levels of phytate hydrolysis. Among these, we identiﬁed 12 strains across three bac-
+terial hosts that confer a growth advantage on the model plant Arabidopsis thaliana
+when phytate is the sole phosphate source. These data demonstrate that DNA syn-
+thesis approaches can be used to generate plant-associated strains with novel
+phosphate-solubilizing capabilities.
+IMPORTANCE Phosphate fertilizers are essential for high-yield agriculture yet are
+costly and environmentally damaging. Microbes that release soluble phosphate from
+naturally occurring sources in the soil are appealing, as they may reduce the need
+for such fertilizers. In this study, we used synthetic biology approaches to create a
+collection of engineered root-associated microbes with the ability to release phos-
+phate from phytate. We demonstrate that these strains improve plant growth under
+phosphorus-limited conditions. This represents a ﬁrst step in the development of
+phosphate-mining bacteria for future use in crop systems.
+KEYWORDS Pseudomonas, synthetic biology, organic phosphorus, phytase, phytate,
+plant growth-promoting bacteria, root colonization
+P
+hosphorus is an essential and limiting nutrient for plant growth and is obtained by
+uptake of orthophosphate (Pi) through the roots. Phosphate fertilizers sustain
+high-yield agriculture but are nonrenewable, are from politically sensitive regions of the
+world, and pollute aquatic environments (1). Alternatives to phosphate-based fertilizers
+are needed to alleviate these problems.
+One potential source of phosphate is represented by the abundant but recalci-
+trant forms of phosphate already present in the soil (2). Soil inorganic phosphates
+include iron, calcium, and aluminum precipitates of phosphate and phosphate ad-
+sorbed to the surface of soil minerals. Organic phosphates, derived from soil biomass
+(plant, microbial, and metazoan), are chemically diverse but dominated by phytic
+acid, primarily in the salt form, referred to as phytate (myo-inositol 1,2,3,4,5,6-
+hexakisphosphate [IP6]) (3). Organic phosphates such as phytate can be further bound
+by soil particles through adsorption-desorption reactions (4, 5). It has been estimated
+that accumulated phosphorus in agricultural soils may be sufﬁcient to sustain high-
+yield agriculture for many decades (6). However, only 0.1% is in a form available to
+plants (7). The remainder must ﬁrst be converted to soluble phosphate.
+Citation Shulse CN, Chovatia M, Agosto C,
+Wang G, Hamilton M, Deutsch S, Yoshikuni Y,
+Blow MJ. 2019. Engineered root bacteria
+release plant-available phosphate from
+phytate. Appl Environ Microbiol 85:e01210-19.
+https://doi.org/10.1128/AEM.01210-19.
+Editor Alfons J. M. Stams, Wageningen
+University
+Copyright © 2019 Shulse et al. This is an open-
+access article distributed under the terms of
+the Creative Commons Attribution 4.0
+International license.
+Address correspondence to Matthew J. Blow,
+mjblow@lbl.gov.
+Received 31 May 2019
+Accepted 23 June 2019
+Accepted manuscript posted online 8 July
+2019
+Published
+BIOTECHNOLOGY
+crossm
+September 2019
+Volume 85
+Issue 18
+e01210-19
+aem.asm.org
+1
+Applied and Environmental Microbiology
+29 August 2019
+ on April 27, 2020 at SCD UNIVERSITE PARIS V
+http://aem.asm.org/
+Downloaded from 
+
+Plants and soil microorganisms have evolved diverse mechanisms to obtain phos-
+phate from existing sources in the soil. These include expression of phosphatase and
+phytase enzymes to release Pi from organic phosphates (8) and exudation of organic
+acids and siderophores to solubilize inorganic phosphate (9–11). However, most natural
+plant and microbial communities are unable to produce high yields in the absence of
+added phosphate fertilizers. One approach is engineering plants to metabolize alter-
+native forms of phosphate (12, 13). However, each crop species must be engineered
+individually and must be labeled as a genetically modiﬁed organism. An alternative is
+to develop phosphate-solubilizing soil microorganisms that grow in the vicinity of plant
+roots and release plant-available phosphate (14, 15). Bacteria are more amenable to
+engineering at scale and are potentially applicable to a broad range of plant species
+and environments. Furthermore, different bacteria would be expected to be differently
+successful at colonizing distinct crops and distinct soil environments. Therefore, it may
+be useful to develop several engineered bacterial strains, which could be used in a
+customized manner depending on crop and environment.
+Previous studies exploring the use of phosphate-solubilizing microbes have largely
+focused on natural phosphate-solubilizing plant growth-promoting bacteria (PGPB)
+(e.g., see references 16–19). Other studies have introduced P solubilization genes into
+plant-associated hosts (20–22), but these typically rely on plasmids which are geneti-
+cally unstable (23). Genomic integrants have been created for a single phosphate
+solubilization pathway (24), but the resulting strains were not tested for activity in
+plants.
+Here, we used a combinatorial synthetic biology-based approach to generate a
+collection of plant-associated bacteria capable of efﬁcient phytate hydrolysis. We
+engineered 82 biochemically diverse phytase enzymes directly into the genomes of
+three bacterial hosts and demonstrated that the resulting strains are highly efﬁcient
+hydrolyzers of phytate in liquid culture. Inoculation of Arabidopsis thaliana with several
+of these strains results in signiﬁcantly improved plant growth under soilless conditions.
+RESULTS
+Generation of transgenic bacterial strains overexpressing a diversity of phy-
+tases. We aimed to create a collection of plant-associated Pi-releasing bacteria by
+engineering diverse Pi-liberating enzymes into the genomes of multiple host bacteria
+(Fig. 1). Combining multiple hosts with diverse enzymes should result in a collection of
+strains with potential activity under a broader range of environmental conditions than
+any single host gene combinations.
+For bacterial hosts, we chose the proteobacteria Pseudomonas simiae WCS417r,
+Ralstonia sp. strain UNC404CL21Col, and Pseudomonas putida KT2440. These bacteria
+are known to be stably associated with plant roots (25, 26), and each was previously
+engineered to contain a “landing pad” sequence that facilitates permanent cloning into
+the genome versus unstable cloning into plasmids (27), creating strains P. simiae
+WCS417r:pw17, Ralstonia sp. UNC404CL21Col:SB352_2, and P. putida KT2440:SB98_8.1.
+Furthermore, all three strains were shown to release Pi from tricalcium phosphate after
+1 to 3 days of growth (see Fig. S1 in the supplemental material), presumably through
+the production of organic acids. This is important, as organic acids increase phosphate
+mobilization in soils by competing with phosphate for positively charged binding sites
+on soil colloids (28).
+A broad suite of genes are potentially involved in Pi mineralization in soils (see Table
+S1). We selected phytases, as these catalyze the hydrolysis of phytate, one of the most
+abundant phosphorus-containing molecules in soil (3). There are three major classes of
+enzyme with demonstrated phytase activity in microorganisms: (i) histidine acid phos-
+phatase (HAP), (ii) -propeller phytase (BPP), and (iii) cysteine phosphatase (CP) (29). A
+search for phytase genes among all available microbial genomes and environmental
+metagenomes in the Integrated Microbial Genomes database (37,985 genomes and
+6674 metagenomes as of 1 July 2015 [30, 31]) revealed a total of 2,518 potential
+phytases across these three classes. Using a phylogenetic sampling approach (32), we
+Shulse et al.
+Applied and Environmental Microbiology
+September 2019
+Volume 85
+Issue 18
+e01210-19
+aem.asm.org
+2
+ on April 27, 2020 at SCD UNIVERSITE PARIS V
+http://aem.asm.org/
+Downloaded from 
+
+selected 82 genes with the maximum degree of sequence diversity. This set of enzymes
+included 29 HAPs, 24 BPPs, and 29 CPs, with representative sequences from across eight
+bacterial phyla and 7 sequences of unknown origin from metagenomic data sets (see Table
+S2). Of the three bacterial hosts, P. simiae WCS417r, Ralstonia sp. UNC404CL21Col, and P.
+putida KT2440, only P. simiae WCS417r contains a putative phytase gene (a BPP) (see
+Note S1).
+The selected phytase gene sequences were refactored in silico for optimal expres-
+sion in Proteobacteria (33). Brieﬂy, DNA sequences were redesigned to reﬂect the
+nucleotide sequence composition and regulatory sequences of the Pseudomonas hosts
+while maintaining the original amino acid sequences. We then synthesized these genes,
+cloned them into high-expression isopropyl--D-thiogalactopyranoside (IPTG)-inducible
+expression cassettes, and sequence veriﬁed them using an established DNA synthesis
+pipeline (34). Finally, we transferred all 82 sequences into the genomes of P. simiae and
+Ralstonia sp. using conjugation and reconﬁrmed the sequences of the ﬁnal engineered
+strains. We additionally transferred 21 sequences into Pseudomonas putida. In total, we
+generated 185 phytase-containing strains (Table S3).
+Engineered strains hydrolyze phytate in liquid culture. We next determined the
+ability of engineered strains to solubilize phytate in liquid culture. Strains engineered
+with a landing pad sequence but no phytase gene released no or negligible Pi from
+phytate at 10 days (P. simiae WCS417r:pw17, 8 M; P. putida KT2440:SB98_8.1, 0 M;
+Ralstonia sp. UNC404CL21Col:SB352_2, 84 M) (Fig. 2). In contrast, 17/82 P. simiae
+phytase-harboring strains, 16/82 Ralstonia sp. phytase-harboring strains, and 8/21
+tested P. putida phytase-harboring strains released high levels of Pi (500 M) after
+10 days (Fig. 2 and Table S3). These include 26 strains releasing over 10,000 M Pi,
+representing conversion of 22% of theoretically available Pi (see Note S2). These high
+levels of Pi hydrolysis were reproducible across replicates (see Fig. S2).
+Overall, we found that 9/29 (31%) HAP and 9/29 (31%) CP enzymes were active in
+at least one host. In general, activity of these enzymes was the same across the three
+bacterial hosts. If a phytase was active in P. simiae, it was likely to be active in Ralstonia
+(r  0.933; P  0.01). None of the BPPs showed activity in any strain. The reasons for this
+are unclear but may reﬂect a requirement for other cofactors or proteins (Note S1).
+P04
+3-
+ 
+29 CPs 
+24 BPPs  
+29 HAPs  
+3 host bacteria 
+185  
+Engineered  
+strains 
+...etc. 
+...etc. 
+...etc. 
+Sequence refactoring 
+2,518 candidate phytases 
+41  
+Strains hydrolyzing  
+Phytic acid 
+12  
+Strains impacting 
+ plant growth 
+...etc. 
+Phytase gene  
+synthesis 
+Root bacteria 
+genome engineering 
+Cell culture 
+assays 
+Plant growth 
+assays 
+P04
+3-
+ 
+P04
+3-
+ 
+X 
+P04
+3-
+ 
+P04
+3-
+ 
+P04
+3-
+ 
+3
+P04
+3-
+ 
+P04
+3-
+ 
+Sequence selection 
+82  
+Synthesized  
+phytases 
+phytic acid 
+phytic acid 
+A 
+B 
+C 
+D 
+FIG 1 Study overview. (A) Diverse phytases were selected following a search of the Joint Genome Institute’s Integrated
+Microbial Genomes and Microbiomes (IMG/M) database. Figure includes the three classes of phytase enzymes in microbes:
+cysteine phytases (CPs), histidine acid phytases (HAPs), and beta-propeller phytases (BPPs). (B) Genes were optimized for
+expression in Proteobacteria, synthesized, and engineered into three bacterial hosts. (C) Engineered strains were evaluated
+in vitro for their ability to hydrolyze phytate and release Pi. (D) Arabidopsis was inoculated with the best-performing strains
+and monitored for improvements in fresh and dry weights and rosette size.
+Engineered Phytate-Hydrolyzing Root Bacteria
+Applied and Environmental Microbiology
+September 2019
+Volume 85
+Issue 18
+e01210-19
+aem.asm.org
+3
+ on April 27, 2020 at SCD UNIVERSITE PARIS V
+http://aem.asm.org/
+Downloaded from 
+
+Among HAPs and CPs, sequences with extremes of length (either short [HAPs, 103
+to 387 amino acids; CPs, 162 to 291 amino acids] or long [HAPs, 549 to 736 amino acids;
+CPs, 332 to 822 amino acids]) were more likely to be inactive (see Fig. S3). Active HAPs
+fell within the range of 397 to 544 amino acids, while active CPs were restricted to
+between 293 and 331 amino acids. We considered the possibility that phytase genes
+deriving from bacterial lineages more closely related to our host bacterial strains were
+more likely to be active in situ. HAPs and CPs from Proteobacteria were slightly more
+likely to be active (10/22 [45%]) than phytases originating from other bacterial phyla or
+metagenomes (8/36 [22%]) (see Fig. S4); however, this difference was not signiﬁcant
+(Fisher’s exact test, P  0.08).
+Growth capacity of phytase-engineered strains. When grown under Pi-limited
+conditions with phytate as the only available Pi source, 86% of engineered P. simiae
+strains shown to have phosphate-solubilizing activity in the liquid medium grew to
+higher ﬁnal cell densities than corresponding landing pad strains (see Table S4). Under
+Pi-replete conditions, most engineered P. simiae strains had an extended lag phase
+when induced but ultimately had a similar maximum population size as the wild-type
+and landing pad strains (see Fig. S5). These results suggest that carrying an engineered
+phytase does not impose an excessive burden on the cell and may offer a growth
+advantage under Pi-limited conditions.
+Localization and pH range of phytase activity. To further characterize the active
+phytate-hydrolyzing strains, we isolated cell-associated and extracellular protein frac-
+tions from four of the constructs (three HAPs and one CP) and tested phytase activity
+across a range of pHs. While all were active at acidic pHs, they had different optima
+(from 2 to 6) (Fig. 3). The CP analyzed had higher levels of phytase activity in the
+cell-associated fraction than in the extracellular fraction (Fig. 3D). Results from the four
+HAPs were mixed: two (H07 and H19) had higher levels of phytase activity in the
+extracellular fraction, while one had similar levels of activity in both fractions (H11).
+These results suggest that phytases are exuded into the medium and exhibit different
+biochemical properties. This is important in generating consortia of bacteria with
+potentially diverse capabilities such that they complement one another under different
+environmental conditions.
+Plants treated with phytase-expressing bacterial strains exhibit improved
+growth under Pi-limited conditions. Our next aim was to determine whether these
+engineered strains would result in improved plant growth on phytate. The engineered
+strains used here include those used in the previous activity localization studies (Fig. 3).
+They represent the best-performing strains from the initial determination of Pi mobi-
+lization (Fig. 2). We used an experimental system where Arabidopsis is grown on agar
+plates containing either 1 mM Pi or 0.8 mM phytate. Plates were then amended with
+engineered bacteria, control bacteria (no phytase), or no bacteria (mock). For each
+condition, we used at least 25 plants grown across at least 5 replicate plates. At the end
+of 3 weeks, we compared plants grown under different conditions and determined
+whether the engineered bacterial strains provided a growth advantage to the plants
+10
+30
+100
+300
+1,000
+3,000
+10,000
+30,000
+= Pi released (uM)
+= Not tested
+*
+*
+*
+* *
+*
+P. putida
+P. simiae
+Ralstonia sp.
+$
+B01
+B02
+B03
+B04
+B05
+B06
+B07
+B08
+B09
+B10
+B11
+B12
+B13
+B14
+B15
+B16
+B17
+B18
+B19
+B20
+B21
+B22
+B23
+B24
+C01
+C02
+C03
+C04
+C05
+C06
+C07
+C08
+C09
+C10
+C11
+C12
+C13
+C14
+C15
+C16
+C17
+C18
+C19
+C20
+C21
+C22
+C23
+C24
+C25
+C26
+C27
+C28
+C29
+H01
+H02
+H03
+H04
+H05
+H06
+H07
+H08
+H09
+H10
+H11
+H12
+H13
+H14
+H15
+H16
+H17
+H18
+H19
+H20
+H21
+H22
+H23
+H24
+H25
+H26
+H27
+H28
+H29
+Cysteine phytases
+Histidine acid phosphatases
+Host strain
+Beta-propeller phytases
+FIG 2 Phytase activity of engineered strains in liquid culture. Pi levels in culture supernatant where phytate is the only phosphate source at 10 days for each
+construct expressed in P. putida KT2440, P. simiae WCS417r, and Ralstonia sp. PGPB with engineered phytases are screened for the ability to release Pi from
+phytate using the malachite green-based QuantiChrom phosphate assay kit (BioAssay Systems). Each category of enzyme is ordered by amino acid length, from
+shortest to longest. Gray space indicates no measurement taken. *, strains used in plant assays; $, E. coli AppA included as positive control.
+Shulse et al.
+Applied and Environmental Microbiology
+September 2019
+Volume 85
+Issue 18
+e01210-19
+aem.asm.org
+4
+ on April 27, 2020 at SCD UNIVERSITE PARIS V
+http://aem.asm.org/
+Downloaded from 
+
+(see Materials and Methods). In total, 14 different host/gene combinations were
+tested in assays on Arabidopsis with phytate as the sole phosphate source. These
+included representatives of each host and both functional classes of phytase (HAPs
+and CPs) (Fig. 4).
+The growth of Arabidopsis grown on phytate as the only phosphate source (Pi
+limited) and no added bacteria was consistently less than under Pi-replete conditions
+(1 mM Pi added) (see Fig. S6 to S8). Plants exhibited limited growth and accumulation
+of anthocyanin resulting in a darker leaf color, consistent with the inability of Arabi-
+dopsis to access sufﬁcient Pi from phytate (Fig. 4A and D).
+Arabidopsis grown on phytate and treated with the control strains did not show
+increased growth beneﬁt compared to that with the mock treatment (Fig. 4B and E; Fig.
+S6 to S8). These plants still have a P starvation phenotype, suggesting that the control
+bacteria are not releasing sufﬁcient Pi from phytate to improve plant growth.
+In contrast, Arabidopsis treated with 12/14 of the engineered strains had higher fresh
+weight, dry weight, and/or rosette size than the controls (Fig. 4C, F, and G), with plant
+growth only slightly less than under Pi-replete conditions (Fig. S6 to S8). We consis-
+tently recovered an average of 2  108 to 2  109 CFU per g of root from the
+bacterium-treated plants tested at the conclusion of the assay, while no CFU were
+recovered from the mock controls (see Fig. S9). These results suggest that engineered
+bacteria are releasing Pi from phytate and that some of this is available to the plants.
+We observed improved growth of Arabidopsis in the presence of all 10 strains that
+were engineered to contain HAPs (four Ralstonia strains, four P. simiae strains, and two
+P. putida strains, containing H07, H11, H13, or H19) (Fig. 4G). The CPs tested (C10 and
+C24) only improved plant growth when expressed in the pseudomonads. This is
+consistent with the relatively low activity of C10 and C24 Ralstonia strains versus that
+of pseudomonad strains in liquid culture assays (Fig. 2) and highlights the value of
+testing multiple different strains. The impact on plant growth as assessed by weight
+was generally correlated with absolute Pi mobilization (dry weight, r  0.57 [P  0.03];
+rosette size, r  0.48 [P  0.08]; fresh weight, r  0.60 [P  0.02]).
+DISCUSSION
+Phosphate-solubilizing microorganisms have potential as biological complements to
+phosphate fertilizers (9, 15). Here, we used a combinatorial synthetic biology approach
+to engineer phylogenetically diverse phytases into the genomes of three root-
+0
+2,500
+5,000
+0
+5,000
+10,000
+0
+500
+1,000
+0
+2,000
+4,000
+0
+5,000
+10,000
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+0
+5,000
+10,000
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+0
+500
+1,000
+0
+100
+200
+Pi released (uM)
+pH
+pH
+Phytase activity (cell-associated)
+Phytase activity (extracellular)
+A
+B
+C
+D
+FIG 3 Effect of pH on phytase activity. (A to D) Phytase activity in the extracellular medium for H07 (A), H19 (B), H11 (C), and C24 (D). The values
+are the averages from three experiments. The tested phytases have optimal activities across a range of pHs.
+Engineered Phytate-Hydrolyzing Root Bacteria
+Applied and Environmental Microbiology
+September 2019
+Volume 85
+Issue 18
+e01210-19
+aem.asm.org
+5
+ on April 27, 2020 at SCD UNIVERSITE PARIS V
+http://aem.asm.org/
+Downloaded from 
+
+associated bacteria (Fig. 1). Through liquid culture assays, we identiﬁed 41 strains, with
+diverse pH optima, capable of hydrolyzing Pi from phytate (Fig. 2 and 3). The majority
+(12/14) of tested phytate-solubilizing strains improved the growth of Arabidopsis in
+agar plate assays with phytate as the only phosphate source (Fig. 4). Overall plant
+growth was generally correlated with absolute Pi mobilization by the strain applied.
+Strains releasing smaller amounts of Pi in liquid cultures had no signiﬁcant impact on
+Rosette
+Fresh Weight
+H07
+H13
+H11
+H19
+C24
+WCS417r
+H07
+H13
+C10
+SB98.8_1
+H07
+H13
+H11
+H19
+C24
+C10
+SB352_2
+Ralstonia sp.
+P. putida
+P. simiae
+p < 0.05 versus mock by Tukey’s HSD test
+p < 0.01 versus mock by Tukey’s HSD test
+n.s. = not significant
+Dry Weight
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10 11 12 13 0
+1
+2
+3
+4
+5
+6 0
+1
+2
+3
+4
+5
+n.s.
+n.s.
+n.s.
+n.s.
+n.s.
+n.s.
+n.s.
+n.s.
+n.s.
+n.s.
+n.s.
+n.s.
+n.s.
+n.s.
+n.s.
+n.s.
+n.s.
+n.s.
+Fold versus mock inoculation after growth on 0.8 mM phytate
+G
+A
+B
+C
+D
+F
+E
+Col-0, Buffer
+Col-0, Buffer
+Col-0, P. simiae
+Col-0, Ralstonia sp.
+Col-0, P. simiae:H07
+Col-0, Ralstonia sp.:H11
+FIG 4 Engineered strains improve plant growth under Pi-limited conditions. Arabidopsis was grown on one-half-strength Murashige and Skoog agar
+supplemented with 0.8 mM sodium phytate and speciﬁc bacterial treatments. (A to F) Representative images 17 days postinoculation with one-quarter-strength
+Ringer’s solution (A), P. simiae WCS417r (B), or P. simiae:H07 (C) or 19 days postinoculation with one-quarter-strength Ringer’s solution (D), Ralstonia sp. 352_2
+(E), or Ralstonia sp:H11 (F). (G) Fold change in rosette size, fresh weight, and dry weight upon engineered and unengineered strain treatments versus mock
+inoculation for all strains tested. Brown bars indicate control strains without engineered phytases. Individual plant photos in B, C, E, and F are colored to
+correspond with data in G.
+Shulse et al.
+Applied and Environmental Microbiology
+September 2019
+Volume 85
+Issue 18
+e01210-19
+aem.asm.org
+6
+ on April 27, 2020 at SCD UNIVERSITE PARIS V
+http://aem.asm.org/
+Downloaded from 
+
+plant growth (C10 and C24 expressed in Ralstonia), while those that released large
+amounts of Pi in liquid culture positively impacted plant growth (e.g., H11 expressed in
+Ralstonia or P. simiae) (Fig. 4).
+The combinatorial approach described here offers several beneﬁts to the develop-
+ment of biological complements to phosphate fertilizers. First, it provides control over
+the bacterial host. While environmental isolates with high levels of phytase activity
+have been identiﬁed (35), it is often not known if these strains are also capable of
+colonizing plant roots. In contrast, our approach started with known root-colonizing
+bacteria as hosts and introduced high levels of desired phytase activity. Second,
+synthetic approaches enable the generation of consortia of bacteria with complemen-
+tary properties. For example, in this study, we used three bacterial host species in
+combination with phytases that have peak activity across a range of pHs, such that one
+strain may always be active under diverse conditions. In the future, this approach may
+be expanded to harness other phosphate-solubilizing activities (for example, different
+enzymes or pathways which produce metabolites capable of inorganic phosphate
+solubilization) or other growth-promoting capabilities such as N2 ﬁxation or hormone
+production. Finally, by directly cloning new enzymes into the genome of root-
+associated strains versus utilizing plasmids as has been done previously, we can
+circumvent plasmid loss under nonselective conditions (23).
+The bacteria engineered in this study may be expected to colonize and persist in
+environments similar to those from which they were isolated, namely, the rhizosphere
+and soils. Speciﬁcally, P. simiae WCS417 was originally isolated from the rhizosphere of
+wheat (36) and subsequently shown to colonize crops such as lettuce, tomato, cucum-
+ber, and potato, where it outcompeted the indigenous microbial community (25). It
+additionally was successful as a biocontrol against the plant pathogen Gaeumannomy-
+ces graminis var. tritici (causative agent of wheat take-all disease) when applied as a
+seed treatment prior to planting in marine loam soil (36). This is especially relevant, as
+one of the failures of biocontrol of plant pathogens, and hence possibly PGPB in
+general, relates to the inability of the desired strains to compete with the many
+different microbes native to those environments (37). P. simiae WCS4174 has already
+proven itself successful in this regard. Likewise, P. putida KT2440 has been found to
+establish itself at high levels when applied as a seed coating in the rhizosphere of broad
+bean plants and corn, as well as in the surrounding bulk soils, in ﬁeld trials (26) in
+Granada, Spain.
+Bacteria that naturally hydrolyze phytate have been isolated from a number of
+sources, including soil (38), poultry feces (39), and river sediment (35). For example,
+Richardson and Hadobas (38) isolated two ﬂuorescent pseudomonads with identical
+16S rRNA gene sequences from composted garden soil. They found that these strains
+hydrolyzed up to 81% of phosphate contained within added phytate. The best-
+performing strains in this study hydrolyzed 60% of phosphate contained within added
+phytate. An advantage of the engineered strains is that as the bacteria are root
+associated, the root will likely capture a higher proportion of liberated phosphate than
+it could from the naturally phytate-hydrolyzing bacteria potentially found in the bulk
+soil.
+While the approach described here represents a potential avenue to improve Pi
+availability in the rhizosphere, other challenges remain. In particular, improving the
+accessibility of phytate and other organophosphates sequestered on soil colloids
+remains an important area of research (4, 5). One approach may be to expand the
+engineering of root microbiota to include additional genes that may aid mobilization,
+such as siderophores for the solubilization of iron-phosphate complexes (40). In sum-
+mary, our data provide proof of principle that DNA synthesis approaches can be used
+to generate plant-associated strains with novel capabilities beneﬁtting plant growth.
+MATERIALS AND METHODS
+Identiﬁcation of phylogenetically diverse phytases. A comprehensive set of 2,518 putative
+phytase enzyme nucleotide and amino acid sequences was obtained by downloading all sequences
+Engineered Phytate-Hydrolyzing Root Bacteria
+Applied and Environmental Microbiology
+September 2019
+Volume 85
+Issue 18
+e01210-19
+aem.asm.org
+7
+ on April 27, 2020 at SCD UNIVERSITE PARIS V
+http://aem.asm.org/
+Downloaded from 
+
+annotated with pfam domains PF00328 (HAPs), PF02333 (BPPs), or PF14566 (CPs) in the Integrated
+Microbial Genomes and Microbiomes database (IMG/M, accessed May 2015; https://img.jgi.doe.gov/).
+Amino acid sequences were aligned using MAFFT (41), and a phylogenetic tree was constructed using
+FastTree (42). To extract a highly informative set of representatives that cover maximal phylogenetic
+distance, we used the MaxPD algorithm as described in reference 32. This yielded a set of 96 phytase
+representatives for synthesis. Due to failure at various subsequent steps, this was reduced to a ﬁnal set
+of 82 phytases for evaluation.
+Phytase gene synthesis and cloning. Amino acid sequences were codon optimized for expression
+in P. simiae using BOOST (33). Assembled products were cloned into pW26 vector by In-Fusion cloning
+(Clontech) in TransforMax EC100D pir cells (Epicentre). Each plasmid was then transformed into
+Escherichia coli WM3064, a diaminopimelic acid (DAP) auxotroph, in preparation for conjugation.
+Transformation of root-associated bacteria. The plant root-associated strains P. simiae WCS417r:
+pw17, Ralstonia sp. UNC404CL21Col:SB352_2, and P. putida KT2440:SB98_8.1 were selected as hosts for
+phytase-solubilizing genes. Each of these strains was previously engineered with a genomic insertion of
+a lox targeting cassette (a “landing pad”) to facilitate easier genomic integration of other genes and
+pathways (27). To create the engineered phytase-containing strains, each host strain was conjugated
+with E. coli WM3064::pw26-phytase. After 6 to 8 h of growth on LB plus DAP, conjugations were
+resuspended in 2 ml LB, and 100 l of a 103 dilution of this LB was plated on LB-agar plates with
+apramycin to isolate single colonies. After 36 h of growth at 28°C, individual colonies were streaked out
+on LB-kanamycin and LB-apramycin to identify apramycin-resistant kanamycin-sensitive colonies. These
+colonies were additionally veriﬁed for proper integration by colony PCR using primers that hit within the
+landing pad close to the site of gene insertion (primer pair: 5=-TCCCGCGAAATTAATACGAC-3= and
+5=-CAGCCAACTCAGCTTCCTTT-3=).
+Bacterial strains, growth, and inoculation. All bacterial strains were routinely cultured in LB broth
+(Lennox, L7658; Sigma-Aldrich, St. Louis, MO) or LB Miller broth (MBLE-7030; GrowCells, Irvine, CA)
+supplemented with the appropriate antibiotic at 28°C in a shaking incubator at 250 rpm. For plant assays,
+cultures were grown for approximately 4 to 7 h depending on the strain until the culture reached mid-
+to late log phase (optical density at 600 nm [OD600] of 0.4 to 0.7). Media were supplemented with
+apramycin (SB352_2, 1,000 g/ml; pw17, 50 g/ml; SB98_8.1, 50 g/ml) or kanamycin (500 g/ml) as
+required. Cells were then harvested by centrifugation (4,000 rpm for 5 min) and washed 2 times by
+resuspension in 10 ml of one-quarter-strength Ringer’s solution (Sigma-Aldrich). After being washed, the
+cells were resuspended in 10 ml of one-quarter-strength Ringer’s solution, and the OD of the resuspen-
+sion was calculated by spectrophotometry (using a 1:10 dilution).
+Experiments to study the growth parameters of P. simiae WCS417r, P. simiae WCS417r:pw17, and the
+engineered phytase-containing derivates were carried out in LB broth containing the appropriate
+antibiotic and 1 mM IPTG in 96-well plates. Optical density was determined at 600 nm on a Tecan Inﬁnite
+200 Pro plate reader. Data were analyzed using the R package growthcurver (v0.2.0).
+Liquid culture assays for phytase activity and tricalcium phosphate solubilization. To assess
+phytase activity, cells of each engineered strain were grown in phytase-speciﬁc medium (PSM) [1.5%
+glucose, 0.5% (NH4)2SO4, 0.05% KCl, 0.01% MgSO4·7H2O, 0.01% NaCl, 0.01% CaCl2·2H2O, 0.001% FeSO4,
+0.001% MnSO4, pH 6.5, and 0.5% sodium phytate [39]), and the supernates were collected at various time
+points. To assess tricalcium phosphate solubilization as a proxy for organic acid production, cells of each
+landing pad strain were grown in National Botanical Research Institute’s phosphate growth medium
+(NBRIP) with a minor modiﬁcation [1% glucose, 0.5% MgCl2·6H2O, 0.025% MgSO4·7H2O, 0.02% KCl, 0.01%
+(NH4)2SO4, 0.4% Ca3(PO4)2 (43)], and the supernatants were collected after 1 to 3 days of growth. The
+release of Pi from phytate or NBRIP was monitored using the QuantiChrom phosphate assay kit (Bioassay
+Systems, Hayward, CA) across 3 (phytate) or 2 (NBRIP) technical replicates in 96-well plates at 600 nm on
+a Tecan Inﬁnite 200 Pro plate reader.
+Phytase enzyme assays. All assays were conducted using freshly prepared cultures. Starter cultures
+of pw17::phytase were grown overnight and used to inoculate a ﬂask (250 l of culture into 25 ml of LB
+medium) containing 50 g/ml apramycin and 1 mM IPTG. After 46 h of growth, crude supernatant and
+cells were separated by centrifugation (4,000  g for 15 min at 4°C). The supernatant and cell pellet were
+then separately assayed for phytase activity.
+Fifteen milliliters of the supernatant was transferred to an Amicon Ultra-15 centrifugal ﬁlter unit
+(MilliporeSigma) and subjected to centrifugation at 4,000  g for 30 min. The ﬂowthrough was
+discarded, and the remaining supernatant was applied to the ﬁlter unit and again subjected to
+centrifugation. The ﬂowthrough was discarded, and the concentrated proteins were resuspended
+with 14 ml of 1 M Tris-HCl (pH 7) and subsequently subjected to a third centrifugation. The
+concentrated proteins were then transferred to a new tube, the volume was brought up to 2 ml with
+1 M Tris-HCl (pH 7), and protein concentration was measured using the Quick Start Bradford protein
+assay kit (Bio-Rad Laboratories).
+The culture cell pellet was suspended in lysis buffer (50 mM HEPES, 300 mM NaCl, 10 mM imidazole,
+pH 8), 0.8 mg ml1 lysozyme and 72.5 U Benzonase nuclease were added, and the mixture was incubated
+for 15 to 30 min on ice. The lysate was then subjected to centrifugation at 12,000  g for 15 to 30 min
+at 4°C. The resulting supernatant was decanted into an Amicon Ultra-4 centrifugal ﬁlter unit (Milli-
+poreSigma) and centrifuged at 4,000  g for 30 min. The ﬂowthrough was discarded, and concentrated
+proteins were resuspended within the ﬁlter unit in 2 ml Tris-HCl (pH 7) and subsequently subjected to
+a second centrifugation. The concentrated proteins were then transferred to a new tube, the volume was
+brought up to 2 ml with 1 M Tris-HCl (pH 7), and protein concentration was measured using the Quick
+Start Bradford protein assay kit (Bio-Rad Laboratories).
+Shulse et al.
+Applied and Environmental Microbiology
+September 2019
+Volume 85
+Issue 18
+e01210-19
+aem.asm.org
+8
+ on April 27, 2020 at SCD UNIVERSITE PARIS V
+http://aem.asm.org/
+Downloaded from 
+
+All enzymes were assayed using sodium phytate (5 mM) as a substrate at 37°C against a control
+without the enzyme source in the reaction mixture. Phytase pH optima were determined using the
+buffers as described in reference 44 at 0.1 M with slight modiﬁcations: glycine-HCl (pH 2 to 3), sodium
+acetate-HCl (pH 4 and 5), sodium acetate (pH 4.5), MES (morpholineethanesulfonic acid)-Tris-HCl (pH 5.5
+to 6), Tris-HCl (pH 7 to 8), and glycine-NaOH (pH 9). Brieﬂy, 70 l of buffer/substrate mixture was added
+to 4 g of enzyme preparation (in a 30-l volume) in a 96-well plate. After 30 min of incubation, the
+reaction was stopped with 100 l of 15% trichloroacetic acid, and the concentration of liberated Pi was
+determined at 600 nm on a Tecan Inﬁnite 200 Pro plate reader.
+Plant growth assays. All plants used in this study were Arabidopsis thaliana ecotype Columbia
+(Col-0). Prior to growth, seeds were surface sterilized by immersion in 70% ethanol for 5 min, followed
+by 10 min in 50% bleach plus 0.1% Triton X-100 and several rinses in sterile water. Seeds were
+germinated in 24-well plates containing one-half-strength Murashige and Skoog (MS) medium with no
+phosphate and 0.5% sucrose. Seven to ten days after planting, 5 seedlings were transplanted to each
+square petri dish containing 0.5 MS medium with no sucrose, either 0.8 mM phytate or 1 mM Pi
+(KH2PO4) as the sole phosphate source, 10 mM 3-(N-morpholino)propanesulfonic acid (MOPS), an IPTG
+overlay (48 l of 100 mM IPTG spread over the 10-cm2 petri dish), and 1% Noble agar, adjusted to pH 7.0,
+and inoculated with 100 l of either one-quarter-strength Ringer’s solution or bacteria diluted to an A600
+of 0.125 in one-quarter-strength Ringer’s solution using sterile glass beads. Each treatment, including
+controls, was replicated on 5 plates, for a total of 25 plants per treatment. Seventeen to 21 days after
+inoculation, plants were imaged and then removed from plates, and fresh and dry weights were
+determined as described in reference 45, with some modiﬁcations. Brieﬂy, roots were placed onto tared
+aluminum weigh boats and weighed on a laboratory scale (MS105; Mettler Toledo, Columbus, OH) to
+determine fresh weight. Samples were then dried in a gravity convection oven at 75 	 2°C for 16 h, and
+dry weight was determined on the same laboratory scale. Rosette sizes were calculated using the
+software ImageJ (v1.50i; http://imagej.nih.gov/ij). Statistical analyses of rosette size, fresh weight, and dry
+weight were performed using analysis of variance (ANOVA) and Tukey’s honestly signiﬁcant difference
+method within the R software package (46). Statistical analysis for Fig. S5 to S7 in the supplemental
+material was performed using a t test within Excel. Plant images used for rosette size estimation are
+available at the Open Science Framework database: https://osf.io/m6gde/. These ﬁles can be accessed
+directly by downloading them from the OSF server. Roots were washed six times to remove bacteria not
+attached to the root and then bead beaten; the resulting lysate was serially diluted to determine CFU.
+SUPPLEMENTAL MATERIAL
+Supplemental material for this article may be found at https://doi.org/10.1128/AEM
+.01210-19.
+SUPPLEMENTAL FILE 1, PDF ﬁle, 1.5 MB.
+SUPPLEMENTAL FILE 2, XLSX ﬁle, 0.1 MB.
+SUPPLEMENTAL FILE 3, XLSX ﬁle, 0.1 MB.
+ACKNOWLEDGMENTS
+This work was supported by Laboratory Directed Research and Development (LDRD)
+funding from Berkeley Laboratory, provided by the Director, Ofﬁce of Science, of the
+U.S. Department of Energy (DOE) under contract DE-AC02-05CH11231. The work con-
+ducted by the U.S. Department of Energy Joint Genome Institute, a DOE Ofﬁce of
+Science User Facility, is supported by the Ofﬁce of Science of the U.S. Department of
+Energy under contract no. DE-AC02-05CH11231.
+We thank B. Cole for advice and assistance with developing plant assays. We also
+thank two anonymous reviewers for their helpful comments, which greatly improved
+the manuscript.
+C.N.S., M.C., and C.A. performed experiments. C.N.S. and M.C. carried out data
+analysis. G.W. and Y.Y. created landing pad strains. M.H. and S.D. refactored and
+provided synthesized phytase genes. M.J.B. obtained funding for and oversaw all
+aspects of the study. C.N.S. and M.J.B. prepared the manuscript with input from M.C. All
+authors approved the submitted version.
+We declare no competing interests.
+REFERENCES
+1. Obersteiner M, Penuelas J, Ciais P, van der Velde M, Janssens IA. 2013.
+The phosphorus trilemma. Nature Geosci 6:897–898. https://doi.org/10
+.1038/ngeo1990.
+2. Menezes-Blackburn D, Giles C, Darch T, George TS, Blackwell M, Stutter
+M, Shand C, Lumsdon D, Cooper P, Wendler R, Brown L, Almeida DS,
+Wearing C, Zhang H, Haygarth PM. 2018. Opportunities for mobilizing
+recalcitrant phosphorus from agricultural soils: a review. Plant Soil 427:
+5–16. https://doi.org/10.1007/s11104-017-3362-2.
+3. Turner BL, Paphazy MJ, Haygarth PM, McKelvie ID. 2002. Inositol phos-
+phates in the environment. Philos Trans R Soc Lond B Biol Sci 357:
+449–469. https://doi.org/10.1098/rstb.2001.0837.
+4. Anderson G, Williams EG, Moir JO. 1974. A comparison of the sorption of
+Engineered Phytate-Hydrolyzing Root Bacteria
+Applied and Environmental Microbiology
+September 2019
+Volume 85
+Issue 18
+e01210-19
+aem.asm.org
+9
+ on April 27, 2020 at SCD UNIVERSITE PARIS V
+http://aem.asm.org/
+Downloaded from 
+
+inorganic orthophosphate and inositol hexaphosphate by six acid soils.
+J Soil Sci 25:51–62. https://doi.org/10.1111/j.1365-2389.1974.tb01102.x.
+5. Tinker PB, Nye PH. 2000. Solute movement in the rhizosphere. Oxford
+University Press, New York, NY.
+6. George TS, Hinsinger P, Turner BL. 2016. Phosphorus in soils and plants -
+facing phosphorus scarcity. Plant Soil 401:1–6. https://doi.org/10.1007/
+s11104-016-2846-9.
+7. Zou XM, Binkley D, Doxtader KG. 1992. A new method for estimating
+gross phosphorus mineralization and immobilization rates in soil. Plant
+Soil 147:243–250. https://doi.org/10.1007/BF00029076.
+8. Rodriguez H, Rossolini GM, Gonzalez T, Li JP, Glick BR. 2000. Isolation
+of a gene from Burkholderia cepacia IS-16 encoding a protein that
+facilitates phosphatase activity. Curr Microbiol 40:362–366. https://
+doi.org/10.1007/s002840010071.
+9. Richardson AE, Simpson RJ. 2011. Soil microorganisms mediating phos-
+phorus availability. Plant Physiol 156:989–996. https://doi.org/10.1104/
+pp.111.175448.
+10. Rodriguez H, Fraga R, Gonzalez T, Bashan Y. 2006. Genetics of phos-
+phate solubilization and its potential applications for improving plant
+growth-promoting bacteria. Plant Soil 287:15–21. https://doi.org/10
+.1007/s11104-006-9056-9.
+11. Rodriguez H, Gonzalez T, Goire I, Bashan Y. 2004. Gluconic acid produc-
+tion and phosphate solubilization by the plant growth-promoting bac-
+terium Azospirillum spp. Naturwissenschaften 91:552–555. https://doi
+.org/10.1007/s00114-004-0566-0.
+12. Lopez-Arredondo DL, Herrera-Estrella L. 2012. Engineering phospho-
+rus metabolism in plants to produce a dual fertilization and weed
+control system. Nat Biotechnol 30:889-893. https://doi.org/10.1038/
+nbt.2346.
+13. Belgaroui N, Berthomieu P, Rouached H, Hanin M. 2016. The secretion of
+the bacterial phytase PHY-US417 by Arabidopsis roots reveals its poten-
+tial for increasing phosphate acquisition and biomass production during
+co-growth. Plant Biotechnol J 14:1914–1924. https://doi.org/10.1111/pbi
+.12552.
+14. Rodriguez H, Fraga R. 1999. Phosphate solubilizing bacteria and their
+role in plant growth promotion. Biotechnol Adv 17:319–339. https://doi
+.org/10.1016/S0734-9750(99)00014-2.
+15. Richardson AE. 2001. Prospects for using soil microorganisms to improve
+the acquisition of phosphorus by plants. Funct Plant Biol 28:897–906.
+https://doi.org/10.1071/PP01093.
+16. Srinivasan R, Alagawadi AR, Yandigeri MS, Meena KK, Saxena AK. 2012.
+Characterization of phosphate-solubilizing microorganisms from salt-
+affected soils of India and their effect on growth of sorghum plants
+[Sorghum bicolor (L.) Moench]. Ann Microbiol 62:93–105. https://doi.org/
+10.1007/s13213-011-0233-6.
+17. Baig KS, Arshad M, Shaharoona B, Khalid A, Ahmed I. 2012. Comparative
+effectiveness of Bacillus spp. possessing either dual or single growth-
+promoting traits for improving phosphorus uptake, growth and yield of
+wheat (Triticum aestivum L.). Ann Microbiol 62:1109–1119. https://doi
+.org/10.1007/s13213-011-0352-0.
+18. Unno Y, Okubo K, Wasaki J, Shinano T, Osaki M. 2005. Plant growth
+promotion abilities and microscale bacterial dynamics in the rhizosphere
+of Lupin analysed by phytate utilization ability. Environ Microbiol
+7:396–404. https://doi.org/10.1111/j.1462-2920.2004.00701.x.
+19. Giles CD, Hsu PC, Richardson AE, Hurst MRH, Hill JE. 2014. Plant
+assimilation of phosphorus from an insoluble organic form is im-
+proved by addition of an organic anion producing Pseudomonas sp.
+Soil Biol Biochem 68:263–269. https://doi.org/10.1016/j.soilbio.2013
+.09.026.
+20. Patel KJ, Vig S, Nareshkumar G, Archana G. 2010. Effect of transgenic
+rhizobacteria overexpressing Citrobacter braakii appA on phytate-P avail-
+ability to mung bean plants. J Microbiol Biotechnol 20:1491–1499.
+https://doi.org/10.4014/jmb.1006.06016.
+21. Liu LL, Du WY, Luo WY, Su Y, Hui JJ, Ma SW. 2015. Development of an
+engineered soil bacterium enabling to convert both insoluble inorganic
+and organic phosphate into plant available phosphate and its use as a
+biofertilizer. Mol Biotechnol 57:419–429. https://doi.org/10.1007/s12033
+-014-9834-1.
+22. Wagh J, Shah S, Bhandari P, Archana G, Kumar GN. 2014. Heterolo-
+gous expression of pyrroloquinoline quinone (pqq) gene cluster con-
+fers mineral phosphate solubilization ability to Herbaspirillum sero-
+pedicae Z67. Appl Microbiol Biotechnol 98:5117–5129. https://doi
+.org/10.1007/s00253-014-5610-1.
+23. Rodriguez H, Gonzalez T, Selman G. 2000. Expression of a mineral
+phosphate solubilizing gene from Erwinia herbicola in two rhizobac-
+terial strains. J Biotechnol 84:155–161. https://doi.org/10.1016/S0168
+-1656(00)00347-3.
+24. Adhikary H, Sanghavi PB, Macwan SR, Archana G, Kumar GN. 2014.
+Artiﬁcial citrate operon confers mineral phosphate solubilization ability
+to diverse ﬂuorescent pseudomonads. PLoS One 9:e107554. https://doi
+.org/10.1371/journal.pone.0107554.
+25. van Peer R, Schippers B. 1989. Plant growth responses to bacterization
+with selected Pseudomonas spp. strains and rhizosphere microbial de-
+velopment in hydroponic cultures. Can J Microbiol 35:456–463. https://
+doi.org/10.1139/m89-070.
+26. Molina L, Ramos C, Duque E, Ronchel MC, Garcia JM, Wyke L, Ramos
+JL. 2000. Survival of Pseudomonas putida KT2440 in soil and in the
+rhizosphere of plants under greenhouse and environmental condi-
+tions. Soil Biol Biochem 32:315–321. https://doi.org/10.1016/S0038
+-0717(99)00156-X.
+27. Yoshikuni Y, Wang G, Zhao Z, Coates RC, Cheng J-F, Robinson D. January
+2017, ﬁling date. Pathway integration and expression in host cells. US
+patent application publication 2019/0048354 A1.
+28. Kruse J, Abraham M, Amelung W, Baum C, Bol R, Kuhn O, Lewandowski
+H, Niederberger J, Oelmann Y, Ruger C, Santner J, Siebers M, Siebers N,
+Spohn M, Vestergren J, Vogts A, Leinweber P. 2015. Innovative methods
+in soil phosphorus research: a review. J Plant Nutr Soil Sci 178:43–88.
+https://doi.org/10.1002/jpln.201400327.
+29. Mullaney EJ, Ullah A. 2007. Phytases: attributes, catalytic mechanisms
+and applications, p 97–110. In Turner BL, Richardson AE, Mullaney EJ
+(ed), Inositol phosphates: linking agriculture and the environment. CAB
+International, Oxfordshire, United Kingdom.
+30. Chen IMA, Markowitz VM, Chu K, Palaniappan K, Szeto E, Pillay M, Ratner A,
+Huang JH, Andersen E, Huntemann M, Varghese N, Hadjithomas M, Ten-
+nessen K, Nielsen T, Ivanova NN, Kyrpides NC. 2017. IMG/M: integrated
+genome and metagenome comparative data analysis system. Nucleic Acids
+Res 45:D507–D516. https://doi.org/10.1093/nar/gkw929.
+31. Markowitz VM, Chen IMA, Chu K, Pati A, Ivanova NN, Kyrpides NC. 2015.
+Ten years of maintaining and expanding a microbial genome and
+metagenome analysis system. Trends Microbiol 23:730–741. https://doi
+.org/10.1016/j.tim.2015.07.012.
+32. Wu D, Hugenholtz P, Mavromatis K, Pukall R, Dalin E, Ivanova NN, Kunin
+V, Goodwin L, Wu M, Tindall BJ, Hooper SD, Pati A, Lykidis A, Spring S,
+Anderson IJ, D’haeseleer P, Zemla A, Singer M, Lapidus A, Nolan M,
+Copeland A, Han C, Chen F, Cheng J-F, Lucas S, Kerfeld C, Lang E,
+Gronow S, Chain P, Bruce D, Rubin EM, Kyrpides NC, Klenk H-P, Eisen JA.
+2009. A phylogeny-driven genomic encyclopaedia of Bacteria and Ar-
+chaea. Nature 462:1056–1060. https://doi.org/10.1038/nature08656.
+33. Oberortner E, Cheng JF, Hillson NJ, Deutsch S. 2017. Streamlining the
+design-to-build transition with build-optimization software tools. ACS
+Synth Biol 6:485–496. https://doi.org/10.1021/acssynbio.6b00200.
+34. Heins RA, Cheng X, Nath S, Deng K, Bowen BP, Chivian DC, Datta S,
+Friedland GD, D’Haeseleer P, Wu D, Tran-GyamﬁM, Scullin CS, Singh S,
+Shi W, Hamilton MG, Bendall ML, Sczyrba A, Thompson J, Feldman T,
+Guenther JM, Gladden JM, Cheng J-F, Adams PD, Rubin EM, Simmons
+BA, Sale KL, Northen TR, Deutsch S. 2014. Phylogenomically guided
+identiﬁcation of industrially relevant GH1 beta-glucosidases through
+DNA synthesis and nanostructure-initiator mass spectrometry. ACS
+Chem Biol 9:2082–2091. https://doi.org/10.1021/cb500244v.
+35. Hill JE, Kysela D, Elimelech M. 2007. Isolation and assessment of phytate-
+hydrolysing bacteria from the DelMarVa Peninsula. Environ Microbiol
+9:3100–3107. https://doi.org/10.1111/j.1462-2920.2007.01420.x.
+36. Lamers JG, Schippers B, Geels FP. 1988. Soil-borne diseases of wheat in
+the Netherlands and results of seed bacterization with pseudomonads
+against Gaeumannomyces graminis var. tritici, p 134–139. In Jorna ML,
+Slootmaker LAJ (ed), Cereal breeding related to integrated cereal pro-
+duction. Pudoc, Wageningen, Netherlands.
+37. Berendsen RL, Pieterse CMJ, Bakker P. 2012. The rhizosphere micro-
+biome and plant health. Trends Plant Sci 17:478–486. https://doi.org/
+10.1016/j.tplants.2012.04.001.
+38. Richardson AE, Hadobas PA. 1997. Soil isolates of Pseudomonas spp. that
+utilize inositol phosphates. Can J Microbiol 43:509–516. https://doi.org/
+10.1139/m97-073.
+39. Hosseinkhani B, Emtiazi G, Nahvi I. 2009. Analysis of phytase producing
+bacteria (Pseudomonas sp.) from poultry faeces and optimization of this
+enzyme production. Afr J Biotechnol 8:4229–4232.
+40. Sharma SB, Sayyed RZ, Trivedi MH, Gobi TA. 2013. Phosphate solubilizing
+microbes: sustainable approach for managing phosphorus deﬁciency in
+Shulse et al.
+Applied and Environmental Microbiology
+September 2019
+Volume 85
+Issue 18
+e01210-19
+aem.asm.org
+10
+ on April 27, 2020 at SCD UNIVERSITE PARIS V
+http://aem.asm.org/
+Downloaded from 
+
+agricultural soils. Springerplus 2:587. https://doi.org/10.1186/2193-1801
+-2-587.
+41. Katoh K, Standley DM. 2013. MAFFT multiple sequence alignment soft-
+ware version 7: improvements in performance and usability. Mol Biol
+Evol 30:772–780. https://doi.org/10.1093/molbev/mst010.
+42. Price MN, Dehal PS, Arkin AP. 2010. FastTree 2-approximately maximum-
+likelihood trees for large alignments. PLoS One 5:e9490. https://doi.org/
+10.1371/journal.pone.0009490.
+43. Nautiyal CS. 1999. An efﬁcient microbiological growth medium for
+screening phosphate solubilizing microorganisms. FEMS Microbiol Lett
+170:265–270. https://doi.org/10.1111/j.1574-6968.1999.tb13383.x.
+44. Golovan S, Wang GR, Zhang J, Forsberg CW. 2000. Characterization and
+overproduction of the Escherichia coli appA encoded bifunctional en-
+zyme that exhibits both phytase and acid phosphatase activities. Can J
+Microbiol 46:59–71. https://doi.org/10.1139/cjm-46-1-59.
+45. Bashan Y, de-Bashan LE. 2005. Fresh-weight measurements of roots
+provide inaccurate estimates of the effects of plant growth-promoting
+bacteria on root growth: a critical examination. Soil Biol Biochem 37:
+1795–1804. https://doi.org/10.1016/j.soilbio.2005.02.013.
+46. R Core Team. 2015. R: a language and environment for statistical com-
+puting. R Foundation for Statistical Computing, Vienna, Austria. https://
+www.R-project.org/.
+Engineered Phytate-Hydrolyzing Root Bacteria
+Applied and Environmental Microbiology
+September 2019
+Volume 85
+Issue 18
+e01210-19
+aem.asm.org
+11
+ on April 27, 2020 at SCD UNIVERSITE PARIS V
+http://aem.asm.org/
+Downloaded from 

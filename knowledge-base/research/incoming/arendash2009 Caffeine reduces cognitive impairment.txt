@@ -1,0 +1,1507 @@
+Journal of Alzheimer’s Disease 17 (2009) 661–680
+661
+DOI 10.3233/JAD-2009-1087
+IOS Press
+Caffeine Reverses Cognitive Impairment and
+Decreases Brain Amyloid-β Levels in Aged
+Alzheimer’s Disease Mice
+Gary W. Arendasha,b,∗, Takashi Moric, Chuanhai Caoa,b,d, Malgorzata Mamcarza,b,
+Melissa Runfeldta,b, Alexander Dicksona,b, Kavon Rezai-Zadehe, Jun Tane, Bruce A. Citronf,g,
+Xiaoyang Lina,d, Valentina Echeverriaf,g and Huntington Pottera,b,d,h
+aFlorida Alzheimer’s Disease Research Center, University of South Florida, Tampa, FL, USA
+bDepartment of Cell Biology, Microbiology, and Molecular Biology, University of South Florida, Tampa, FL, USA
+cDepartments of Medical Science and Pathology, Saitama Medical Center and Saitama Medical University,
+Kawagoe, Saitama, Japan
+dThe Byrd Alzheimer’s Center and Research Institute, Tampa, FL, USA
+eDepartment of Psychiatry and Behavioral Medicine, University of South Florida, Tampa, FL, USA
+fDepartment of Molecular Medicine, University of South Florida, Tampa, FL, USA
+gBay Pines VA Healthcare System, Bay Pines, FL, USA
+hSuncoast Gerontology and Alzheimer’s Center, University of South Florida College of Medicine, Tampa, FL, USA
+Accepted 20 January 2009
+Abstract. We have recently shown that Alzheimer’s disease (AD) transgenic mice given a moderate level of caffeine intake (the
+human equivalent of 5 cups of coffee per day) are protected from development of otherwise certain cognitive impairment and have
+decreased hippocampal amyloid-β (Aβ) levels due to suppression of both β-secretase (BACE1) and presenilin 1 (PS1)/γ-secretase
+expression. To determine if caffeine intake can have beneﬁcial effects in “aged” APPsw mice already demonstrating cognitive
+impairment, we administered caffeine in the drinking water of 18–19 month old APPsw mice that were impaired in working
+memory. At 4–5 weeks into caffeine treatment, those impaired transgenic mice given caffeine (Tg/Caff) exhibited vastly superior
+working memory compared to the continuing impairment of control transgenic mice. In addition, Tg/Caff mice had substantially
+reduced Aβ deposition in hippocampus (↓40%) and entorhinal cortex (↓46%), as well as correlated decreases in brain soluble Aβ
+levels. Mechanistically, evidence is provided that caffeine suppression of BACE1 involves the cRaf-1/NFκB pathway. We also
+determined that caffeine concentrations within human physiological range effectively reduce active and total glycogen synthase
+kinase 3 levels in SweAPP N2a cells. Even with pre-existing and substantial Aβ burden, aged APPsw mice exhibited memory
+restoration and reversal of AD pathology, suggesting a treatment potential of caffeine in cases of established AD.
+Keywords: Alzheimer’s disease, Alzheimer’s transgenic mice, amyloid-β, caffeine, cognitive impairment, memory, treatment
+∗Address for correspondence: Gary W. Arendash, Ph.D., Depart-
+ment of Cell Biology, Microbiology, & Molecular Biology, BSF218,
+University of South Florida, Tampa, Florida 33620, USA. Tel.:
++1 813 974 1584; Fax: +1 813 974 1614; E-mail: arendash@
+cas.usf.edu.
+INTRODUCTION
+Caffeine is the most widely consumed psychoactive
+substance known to man, being primarily consumed
+in coffee, tea, and soft drinks.
+As a brain stimu-
+lant, its primary actions are to increase cerebral energy
+metabolism, cortical activity, and extracellular levels of
+acetylcholine, collectively resulting in enhanced alert-
+ISSN 1387-2877/09/$17.00 2009 – IOS Press and the authors. All rights reserved
+
+662
+G.W. Arendash et al. / Caffeine Reverses Memory Impairment in AD Mice
+ness [1]. In addition to these well-documented stim-
+ulatory effects of caffeine, epidemiology/longitudinal
+studies in humans have suggested that caffeine is pro-
+tective against a variety of diseases associated with ag-
+ing including Parkinson’sdisease, Type 2 Diabetes, and
+liver disease [2–5]. More recently, several longitudinal
+studies have reported that daily caffeine intake, equiv-
+alent to 3 or more cups of coffee, reduces cognitive
+decline in “non-demented” elderly men and women [6,
+7]. Of direct relation to Alzheimer’s disease (AD), an-
+other recent study involving a 21 year follow-up period
+found that midlife intake of 3–5 cups of coffee substan-
+tially reduced the risk of AD in later life [8]. Moreover,
+AD patients were found to have consumed markedly
+less caffeine during the 20 years preceding AD diag-
+nosis when compared to age-matched individuals with-
+out AD [9]. These cognition-based human studies sug-
+gest that long-term caffeine intake may protect against
+aged-associated memory impairment and AD [10].
+Although human epidemiologic/longitudinalstudies
+are insightful, they cannot deﬁnitively isolate caffeine
+intake from other lifestyle choices that potentiallyaffect
+cognition. Therefore, we recently performed a high-
+ly controlled study in AD transgenic (APPsw) mice,
+which develop high levels of brain amyloid-β (Aβ) and
+widespread cognitive impairment as they age [11,12].
+Long-term caffeine administration that began in young
+adulthood protected these APPsw mice against other-
+wise certain cognitive impairment, while also limiting
+their brain Aβ levels [13]. We further found that this
+long-term caffeine administration suppressed brain Aβ
+production by reducing expression of both Presenilin
+1 (PS1) and β-secretase (BACE1). Because the bene-
+ﬁcial effects were achieved by a moderate daily level
+of caffeine in drinking water (the human equivalent of
+5 cups of coffee or 500 mg caffeine per day), we have
+suggested that a modest amount of daily caffeine may
+delay or reduce the risk of AD [13].
+In the present study, we ﬁrst aimed to determine if
+caffeine intake can have beneﬁcial effects in “aged”
+APPsw mice already exhibiting cognitive impairment.
+Therefore,at several months into caffeine treatment,we
+re-evaluatedcognitive performancein aged APPsw and
+determined the impact on both Aβ levels/Aβ deposi-
+tion and synaptophysin immunostaining in cognitively
+important brain areas.
+Second, we wished to developgreater insight into the
+mechanism(s) of the ability of caffeine to reduce Aβ
+and thus explored the potential involvement of the Raf-
+1 inﬂammatory pathway and glycogen synthase kinase
+3 (GSK-3) in caffeine’s mechanism of action in APPsw
+mice. Raf-1 is hyperactivated in AD brains [14,15],
+evidently due to an Aβ-induced decrease in the activity
+of proteins (e.g., Ras, PKA) that regulate Raf-1 activ-
+ity. GSK-3 is a constitutively active serine/threonine
+kinase that is highly expressed in the central nervous
+system (CNS) [16–18]. Dysregulation of GSK-3 is an
+essential component of AD pathogenesis, playing an
+integral role in PS1/γ-secretase activity, spatial learn-
+ing deﬁcits, Aβ-induced toxicity, and tau phosphoryla-
+tion [19–21].
+Third, we administered caffeinethroughoutadult life
+to non-transgenic (NT) mice,with cognitive assessment
+in older age to determine if: 1) life-long caffeine intake
+can provide cognitive beneﬁts to NT (normal) mice
+and consequently, 2) generalized, non-amyloidogenic
+mechanisms of caffeine action (such as increased cere-
+bral blood ﬂow or enhanced brain glucose utilization)
+could be important for its therapeutic effects in APPsw
+mice.
+MATERIAL AND METHODS
+Animals
+A total of 55 mice were included in these studies.
+Each mouse had a mixed background of 56.25% C57,
+12.5% B6, 18.75% SJL, and 12.5% Swiss-Webster.
+All mice were derived from a cross between heterozy-
+gous mice carrying the mutant APPK670N, M671L
+gene (APPsw) with heterozygous PS1 (Tg line 6.2)
+mice to obtain F4 and F5 generation mice consisting
+of APP/PS1, APPsw, PS1, and NT genotypes. After
+weaning and genotyping, only APPsw and NT mice
+were selected for behavioral testing and/or caffeine ad-
+ministration. All mice were maintained on a 12 h dark
+and 12 h light cycle with ad libitum access to rodent
+chow and water or caffeinated water. All animal proce-
+dures were performed in AAALAC-certiﬁed facilities
+under protocols approved by Institutional Animal Care
+and Use Committees at the University of South Florida.
+General protocol
+Three separate in vivo studies were performed as
+follows:
+Study 1: At 18–19 months of age, APPsw and NT
+controls were pre-tested in the radial arm water maze
+(RAWM) task, wherein APPsw mice were shown to
+be impaired in working memory. Impaired transgenic
+(Tg) mice were divided into two groups, equally bal-
+
+G.W. Arendash et al. / Caffeine Reverses Memory Impairment in AD Mice
+663
+anced by behavioral performance, with half of Tg mice
+starting on caffeine administeredin their drinkingwater
+(0.3 mg/ml; Sigma, St. Louis, MO) and the other half
+remaining on standard tap water. At 4–5 weeks into
+caffeine treatment, Tg caffeine-treated (Tg/Caff; n =
+6), as well as Tg control (Tg; n = 7), and NT control
+(NT; n = 8) mice were re-tested in the RAWM, as well
+as in several other behavioral tasks. All animals were
+euthanatized immediately following completion of be-
+havioral testing at 20–21 months of age. Their brains
+were processed for determination of total Aβ deposi-
+tion, soluble Aβ1−40 and Aβ1−42, and synaptophysin
+immunochemistry.
+Study 2: Beginning at 9 months of age, APPsw mice
+(n = 6) were gavaged with caffeine (1.5 mg/200 µl)
+twice daily for two weeks. Gavage administration of
+caffeine was done in this study because: 1) the treat-
+ment period was relatively short-term compared to that
+of Studies 1 and 3, and 2) gavage treatment is more pre-
+cise in providingexactly the amount of caffeine desired
+compared to ad libitum administration of caffeine in
+drinking water. Control APPsw mice (n = 5) and NT
+mice (n = 4) of the same age received gavage with wa-
+ter vehicle instead. All mice were sacriﬁced immedi-
+ately following the treatment period,their hippocampus
+dissected out and stored at −80◦C until neurochemical
+assay of pcRaf-1 and PKA activity analyses.
+Study 3: In a “behavior-only” study, NT (normal)
+mice began receiving caffeine in their drinking water
+(0.3 mg/ml) at 51/2 months of age (NT/Caff; n = 8)
+or were continued on standard water (NT; n = 11).
+Between 15–16 months of age, and at 10 months into
+caffeine treatment, all animals were tested in our com-
+prehensive 6-week behavioral battery that included ﬁve
+cognitive-based tasks.
+Caffeine treatment
+For Studies 1 and 3, caffeine was administered in
+the drinking water (0.3 mg/ml) of Tg or NT mice. On
+average, mice drink 5 ml per day, yielding a daily dose
+of 1.5 mg caffeine to each mouse. According to our
+prior study’s calculations accommodating for size and
+metabolic rate differences [13], this daily dose in a
+mouse is equivalent to approximately 500 mg (5 cups
+of coffee) daily caffeine intake by a human. The caf-
+feinated water was changed two times a week to en-
+sure caffeine remained fully dissolved at the appropri-
+ate concentration. Control APPsw and NT mice were
+given ad libitum access to untreated tap water that was
+also changed twice weekly to ensure freshness. Caf-
+feine treatment was continued throughout behavioral
+testing and until euthanasia. All groups consisted of
+approximate equal numbers of male and female mice.
+Behavioral testing
+In Study 1, aged 18–19 month mice were pre-
+treatment tested in the RAWM task, and then behav-
+iorally tested again at 4–5 weeks into treatment in
+the following tasks: open ﬁeld activity, balance beam,
+string agility, Y-maze, elevated plus maze, RAWM, and
+platform recognition. In Study 3, NT mice were test-
+ed in our full behavioral battery beginning at 15–16
+months of age (e.g., at 10 months into treatment). Al-
+though detailed protocols for all behavioral tasks have
+been described previously [22–24], a brief description
+of each task is provided below:
+Open Field Activity (Sensorimotor-based task; 1
+day). As a test of activity and exploratory behavior,
+each animal was placed in an open black box painted
+with perpendicular lines demarcating 16 squares. The
+total number of line crossings over a single 5-minute
+trial was recorded through visual observation.
+Balance Beam (Sensorimotor-basedtask; 1 day). As
+a test of vestibular and general motor function, each
+animal was placed at the center of a suspended beam
+and released.
+The average balance time from three
+successive trials was recorded. The surface below the
+beam had a thick sponge cushion to protect mice that
+fall off the beam.
+String Agility (Sensorimotor-based task; 1 day). As
+a test of agility and grip capacity, animals were permit-
+ted to grasp a suspended string only by their forepaws
+and then released. During a single 60-secondtrial, each
+animal was assessed using a 0–5 rating system (0 =
+animal unable to remain on string; 1 = hangs by two
+forepaws; 2 = attempts to climb onto string; 3 = two
+forepaws and one or both hind paws around string; 4
+= four paws and tail around string, with lateral move-
+ment; 5 = escape to one of the two poles suspending
+the string).
+Y-maze spontaneous alternation (Sensorimotor- and
+Cognitive-based task; 1 day).
+To measure general
+activity and basic hippocampal-dependent mnemonic
+function, mice were allowed to explore a black Y-maze
+with 3 arms.
+Each arm measures 21 × 4 cm with
+40 cm high walls. Mice were placed in the center of the
+maze facing the center area and allowed to explore for
+5 minutes, with the number and sequence of arm choic-
+es being recorded. General activity was measured as
+the total number of arm entries, while basic mnemonic
+
+664
+G.W. Arendash et al. / Caffeine Reverses Memory Impairment in AD Mice
+function was determined as a percent spontaneous al-
+ternation (the ratio of arm choices differing from the
+previous two choices divided by the total number of
+entries).
+Elevated Plus Maze (Anxiety-based task; 1 day). To
+measure anxiety/emotionality, mice were placed in the
+center of an elevated plus maze 82 cm above the ﬂoor.
+The maze consists of two opposite “open” and two op-
+posite “closed” arms, each 30 × 5 cm; 15 cm high
+black aluminum walls surround the closed arms. The
+mice were placed in the 5 × 5 cm maze center, facing
+a closed arm, and were allowed to explore for 5 min-
+utes. The total number of closed arm entries, open arm
+entries and total time (seconds) spent in the open arms
+was recorded. We have found that time spend in open
+arms is the purest measure of anxiety in this task [22].
+Morris Water Maze (Cognitive-based task measur-
+ing spatial learning and reference memory; 15 days).
+The ﬂoor of a 100 cm circular pool was divided into
+four quadrants, with a 9 cm platform submerged in the
+goal quadrant. Surrounding the pool were a variety of
+3-D and 2-D visual cues. Fourteen consecutive days
+of acquisition were performed, with each of four trials
+per day beginning with the animal being placed into
+each of the four quadrants to initiate a 60-second tri-
+al. Thus, a single training session consisted of four
+successive trials, with a 30 second stay period (e.g.,
+the animal is allowed to remain on the platform for 30
+seconds after ﬁnding it or being guided to it at the end
+of the trial). Average latency to ﬁnd the submerged
+platform was obtained through visual observation. On
+the day following acquisition testing, memory reten-
+tion was evaluated in a single 60-second probe trial in
+which the submerged platform was removed and the
+animal released from the quadrant opposite the former
+platform-containing quadrant. Percent of time spent in
+each quadrant, number of annulus crossings, and swim
+speed were all determined from video tracking records.
+Circular Platform (Cognitive-based task measuring
+spatial reference learning/memory; 8 days). A walled
+69 cm circular platform, with 16 equidistantly spaced
+holes along its periphery, was encircled by a black cur-
+tain. Visual cues, located on the black curtain and plat-
+form walls can be used by the animal to ﬁnd the one
+hole through which it can escape the platform surface
+to avoid the aversive stimuli of bright lights and fan
+wind. During a single 5-minute maximum daily trial,
+the total number of errors (head pokes into non-escape
+holes) and latency to ﬁnd the escape hole were record-
+ed. Although the escape hole remained constant for
+any given animal over the 8 days of testing, it was re-
+located after each animal’s trial to control for olfactory
+cues. Also, to control for olfactory cues, the maze was
+cleaned with a dilute vinegar solution following each
+animal’s trial.
+Platform Recognition (Cognitive-based task measur-
+ing identiﬁcation and recognition; 4 days). The plat-
+form recognition task measures the ability to search for
+and identify/recognize a variably placed elevated plat-
+form. It was run after the Morris Maze task (Study
+2), or immediately following the RAWM task (Study
+1) and in the same pool as these two tasks. Thus, the
+platform recognitiontask requires animals to ignore the
+spatial cues present around the pool and switch from
+a spatial to an identiﬁcation/recognition strategy – it is
+not a task of visual acuity alone in our paradigm, with
+cognitive-based performance directly linked to levels
+of brain Aβ [25]. Mice were given four successive
+trials per day over a 4-day period. Latencies to ﬁnd an
+elevated platform (9 cm diameter), bearing a prominent
+cone-shaped styrofoam ensign on a wire pole, were de-
+termined. For each trial (60 second maximum), ani-
+mals were placed into the pool at the same location and
+the platform was moved to a different one of four possi-
+ble locations. For statistical analysis, escape latencies
+for all four daily trials were averaged.
+Radial arm water maze (RAWM) (Cognitively-based
+task measuring working memory). For the radial arm
+water maze task of spatial working memory, an alu-
+minum insert was placed into a 100 cm circular pool to
+create 6 radially distributed swim arms emanating from
+a central circular swim area. An assortment of 2-D
+and 3-D visual cues surrounded the pool. For Study
+1 involving aged Tg mice, the number of errors prior
+to locating which one of the 6 swim arms contained a
+submerged escape platform (9 cm diameter) was deter-
+mined for 5 trials/day over 6 days of pre-treatment test-
+ing and 9 days of post-treatment testing; 3-day blocks
+were used to facilitate statistical analysis. For Study 3
+(involving NT mice), 6 days of testing were evaluated
+over two 3-day blocks. There was a 30-min time delay
+between the 4th trial (T4; ﬁnal acquisition trial) and
+5th trial (T5; memory retention trial). The platform
+location was changed daily to a different arm, with dif-
+ferent start arms for each of the 5 trials semi-randomly
+selected from the remaining 5 swim arms. During each
+trial (60 second maximum), the mouse was returned to
+that trial’s start arm upon swimming into an incorrect
+arm and the number of seconds required to locate the
+submergedplatform was recorded. If the mouse did not
+ﬁnd the platform within a 60-second trial, it was guided
+to the platform for the 30-second stay. The numbers
+
+G.W. Arendash et al. / Caffeine Reverses Memory Impairment in AD Mice
+665
+of errors during trials 4 and 5 are both considered in-
+dices of working memory and are temporally similar to
+the standard registration/recall testing of speciﬁc items
+used clinically in evaluating AD patients. Analysis of
+the number of seconds taken per arm choice (an index
+of swim speed) over all days of post-treatment testing
+revealed no differences in swim speed between groups
+in both Studies 1 and 2.
+Brain tissue preparation
+Following completion of behavioral testing in Study
+1, 20–21 month-old mice were deeplyanesthetizedwith
+sodium pentobarbital and transcardially perfused with
+100 ml of 0.9% saline. Postmortem brains were im-
+mediately removed and bisected sagitally.
+The hip-
+pocampus and cerebral cortex were dissected from the
+right hemisphereand processed for soluble Aβ1−40 and
+Aβ1−42 determinations by ELISA. The left hemisphere
+was placed in 4% paraformaldehydein 0.1M phosphate
+buffer(pH 7.4) overnight,wherein tissues remainedun-
+til routine parafﬁn embedding for immunohistochemi-
+cal analyses.
+Immunohistochemistry and image analysis
+At the level of the hippocampus (bregma −2.92 mm
+to −3.64 mm), ﬁve 5 µm sections (150 µm apart) were
+made from each mouse brainusing a slidingmicrotome.
+Immunohistochemical staining was performed follow-
+ing the manufacturer’sprotocolusinga Vectastain ABC
+Elite kit (Vector Laboratories, Burlingame, CA) cou-
+pled with the diaminobenzidine reaction, except that
+the biothinylated secondary antibody step was omitted
+for Aβ immunohistochemical staining. The following
+primary antibodies were used for immunohistochemi-
+cal staining: a biothinylatedhumanAβ monoclonalan-
+tibody (clone 4G8; 1:200, Covance Research Products,
+Emeryville, CA) and rabbit synaptophysin polyclon-
+al antibody (undiluted, DAKO, Carpinteria, CA). For
+Aβ immunohistochemicalstaining, brain sections were
+treated with 70% formic acid prior to the pre-blocking
+step. Phosphate-buffered saline (0.1 mM, pH 7.4) or
+normal rabbit serum (isotype control) was used instead
+of primary antibody or ABC reagent as a negative con-
+trol.
+Quantitative image analysis was done based on pre-
+vious methods with modiﬁcations [26,27].
+Images
+were acquired using an Olympus BX60 microscope
+with an attached digital camera system (DP-70, Olym-
+pus, Tokyo, Japan), and the digital image was rout-
+ed into a Windows PC for quantitative analysis using
+SimplePCI software (Compix Inc., Imaging Systems,
+Cranberry Township,PA). Images of ﬁve 5-µm sections
+(150 µm apart) through both anatomic regions of inter-
+est (hippocampus and entorhinal cortex) were captured
+from each animal, and a threshold optical density was
+obtained that discriminated staining from background.
+Each region of interest was manuallyeditedto eliminate
+artifacts. For Aβ burden analysis, data are reported as
+percentage of immunolabeled area captured (positive
+pixels) relative to the full area captured (total pixels).
+To evaluate synaptophysin immunoreactivity, after the
+mode of all images was converted to gray scale, the av-
+erage intensity of positive signals from each image was
+quantiﬁed in the CA1 and CA3 regions of hippocampus
+as a relative number from zero (white) to 255 (black).
+Each analysis was done by a single examiner blinded
+to sample identities.
+Aβ ELISA
+Hippocampal and cortical levels of human soluble
+Aβ1−40 and Aβ1−42 were measured by ELISA. Brieﬂy,
+30 mg brain samples were homogenized in 400 µl RI-
+PA buffer (100 mM Tris [pH 8.0], 150 mM NaCl, 0.5%
+DOC, 1% NP-40, 0.2% SDS, and 1 tablet proteinase
+inhibitor per 100 ml (S8820, Sigma, St. Louis, MO),
+and sonicated for 20 seconds on ice. Samples were
+then centrifuged for 30 min at 27,000 g at 4 ◦C, and
+supernatants were transferred into new screw cap tube.
+The supernatants obtained from this protocol were then
+stored at −80◦C for determination of soluble Aβ levels
+using ELISA kits (KHB3482 for 40, KHB3442 for 42,
+Invitrogen, Carlsbad, CA). Standard and samples were
+mixed with detection antibody and loaded on the anti-
+body pre-coated plate as the designated wells. HRP-
+conjugated antibody was added after wash, and sub-
+strates were added for colorimetric reaction, and then
+stopped with sulfuric acid. Optical density was ob-
+tained and concentrations were calculated according a
+standard curve.
+Analysis of pcRaf-1 and Protein Kinase A (PKA)
+For hippocampal tissue from Study 2, equal amounts
+of protein were separated by sodium dodecyl sulphate–
+polyacrylamide gel electrophoresis (SDS-PAGE) and
+transferredto nitrocellulosemembranes(BA83 0.2 µm;
+Bio-Rad, Richmond, CA). The membranes were
+blocked in buffered saline with 0.05% Tween 20 (PB-
+ST) containing 10% dry milk. Membranes were incu-
+
+666
+G.W. Arendash et al. / Caffeine Reverses Memory Impairment in AD Mice
+bated with primary antibodies in PBST with 3% dry
+milk (Sigma) overnight at 4◦C and with secondary an-
+tibodies for 2 h. Rabbit polyclonal antibodies (Cell
+Signaling Technology, Inc., Danvers, MA) were direct-
+ed against pcRaf-1(Ser338; 1:250) or pcRaf-1(Ser259;
+1:500). A monoclonal mouse antibody anti α-tubulin
+(Promega, Madison, WI) was used as a control of pro-
+tein loading. The bands were detected using ECL de-
+tection kits (ECL, Pharmacia Biotech, Piscataway, NJ),
+visualized using the Kodak Image Station 440CF, and
+analyzed using the molecular Imaging Software, ver-
+sion 4.0 (Rochester, NY) and NIH image J software.
+All data was normalized against tubulin immunoreac-
+tivity and expressed as percent of control values. PKA
+activity from the same hippocampal tissue lysates were
+measured using a non-Radioactive PKA activity assay
+kit (Assay Designs, Ann Arbor, MI), which is based on
+a solid phase enzyme-linked immuno-absorbent assay
+(ELISA) using a synthetic peptide as a substrate for
+PKA and a polyclonal antibody against the phospho-
+rylated form of the substrate. All determinations of
+PKA activity were performed at least in quintuplicate,
+repeated twice in separate experiment, and expressed
+as percentage of NT control values.
+N2a cell cultures and caffeine treatment
+Following dibutyryl cAMP-induced neuronal differ-
+entiation, cultured SweAPP N2a cells were treated with
+caffeine in either a concentration- or time-dependent
+manner.
+For the concentration-dependent treatment,
+cells were administered a serial dilution of caffeine
+ranging from 0 µM-1 mM to establish the optimal range
+of caffeine action on GSK-3 activity. After Western
+blot analysis established this range as 0–20 µM, cells
+were treated with a serial dilution in this range. Cul-
+tures were incubated at 37◦C for 1 h prior to lysis with
+ice-cold lysis buffer. For the time-dependent applica-
+tion, cells were given a 20 µM concentrationof caffeine
+and incubated at time points ranging from 0–180 min
+prior to lysis.
+For Western blotting, aliquots containing up to 50 µg
+of total protein were electrophoretically separated.
+Electrophoresedproteins were then transferredto nitro-
+cellulose membranes and blocked for 1 h at room tem-
+perature in Tris-buffered saline. After blocking, mem-
+branes were hybridized overnight at 4◦C with prima-
+ry antibodies (Sigma-Aldrich, St. Louis, MO) against
+total GSK-3α/β or active GSK-3α/β [(pTyr279/216
+residues); diluted 1:500 or 1:1000,respectively]. Mem-
+branes were then washed 3 × for 5 min each and in-
+cubated for 1 h at room temperature with the appropri-
+ate HRP-conjugated secondary antibody. Blots were
+developed using a luminol reagent, and densitometric
+analysis of the blots ensued.
+Statistical analysis
+Behavioral performance was statistically evaluated
+to determine any group difference based on transgenic-
+ity or caffeine treatment.
+For the single day tasks,
+one-way ANOVAs were used.
+For multi-day tasks,
+both one-way ANOVAs and two-way repeated mea-
+sure ANOVAs were performed. Prior to analysis, Mor-
+ris water maze (MWM) data was broken down into 2-
+day blocks and the RAWM data was divided into 3-
+day blocks, to aid in data presentation and analysis.
+After ANOVA analysis, post hoc pair-by-pair differ-
+ences between groups (planned comparisons) were re-
+solved using the Fisher LSD test. Pre-treatment ver-
+sus during-treatment RAWM performance was eval-
+uated for each group separately, using paired t-tests.
+All group comparisons were considered signiﬁcant at
+p < 0.05.
+While very few in number, any outliers
+or non-performers (e.g., repeated circulars, consistent
+ﬂoaters) in any given task were eliminated from statis-
+tical analysis of that task. Data analyses involving Aβ
+burden, Aβ levels, pcRaf-1 levels, and synaptophysin
+immunoreactivity were performed using ANOVA. All
+other statistical analyses are as indicated in the text.
+In order to test if relationships were present between
+neurohistologic, neurochemical, and behavioral mea-
+sures, correlation analysis was performed using the Sy-
+stat analytical software package (Systat Software, Inc.,
+Chicago, IL).
+To determine if the three groups of Study 1 (NT, Tg,
+Tg/Caff) or the two groups of Study 2 (NT, NT/Caff)
+could be distinguishable from one another based on
+“overall” behavioral performance, discriminant func-
+tion analysis (DFA) was performed using Systat soft-
+ware. For Study 1, direct entry DFAs were performed
+using seven behavioral measures collected from the
+three cognitive-based tasks administered during treat-
+ment. For Study 2, direct entry DFAs were also per-
+formed, using 19 behavioral measures collected from
+the entire behavioral battery. A complete description
+of DFA multi-metric statistical analyses relevant to AD
+transgenic mouse studies can be found in Leighty et
+al. [25,28].
+
+G.W. Arendash et al. / Caffeine Reverses Memory Impairment in AD Mice
+667
+Fig. 1. Caffeine treatment reverses memory impairment in aged Tg mice. (A) Prior to caffeine administration, aged Tg mice were impaired in the
+radial arm water maze task of working memory vs. non-transgenic (NT) controls. ∗p < 0.000005. (B) During the ﬁnal block of RAWM testing
+at 4–5 weeks into caffeine treatment, aged Tg mice given caffeine (Tg/Caff) performed to the level of NT mice on working memory trials T4
+and T5. ∗∗p < 0.025 for Tg control vs. other two groups. (C) Comparing pre-treatment vs. during-treatment trial T5 performance, Tg controls
+failed to improve. However, Tg/Caff mice exhibited a dramatic improvement in working memory (∗∗p < 0.005; paired t-test), with NT controls
+also improving (∗p < 0.05; paired t-test). (D) During the ﬁnal two days of platform recognition testing for strategy switching, Tg controls were
+impaired, while Tg/Caff mice performed comparable to NT controls (∗p < 0.02 for Tg vs. NT). Group symbols deﬁned in (D). (Colours are
+visible in the electronic version of the article at www.iospress.nl.
+RESULTS
+Caffeine treatment reverses working memory
+impairment and normalizes identiﬁcation/recognition
+ability in aged Tg mice
+We have previously shown that long-term caffeine
+treatment in young adult APPsw Tg mice protected
+them against otherwiseinevitable cognitiveimpairment
+in older age [13]. To determine if the same caffeine
+treatment could beneﬁt aged Tg mice already demon-
+strating cognitive impairment, caffeine treatment was
+given in drinking water to 19 month-old APPsw mice.
+Prior to caffeine administration, mice were evaluated
+in the RAWM of working memory and veriﬁed to be
+cognitive-impaired, as evidenced by many more errors
+than NT littermate controls during delayed retention
+Trial 5 (T5) for the last block of pre-treatment testing
+(Fig. 1A). At 4–5 weeks into caffeine treatment, how-
+ever, those impaired Tg mice given caffeine (Tg/Caff)
+exhibited vastly superior working memory on Trials 4
+and 5 compared to the continuing impairment of control
+
+668
+G.W. Arendash et al. / Caffeine Reverses Memory Impairment in AD Mice
+Tg mice (Fig. 1B). Indeed, the performance of Tg/Caff
+mice was identical to that of NT controls during the
+last block of testing. We further characterized the cog-
+nitive beneﬁts of long-term caffeine treatment by com-
+paring pre-treatment RAWM performance to “during
+treatment” performance (Fig. 1C). In sharp contrast to
+the inability of Tg controls to improve upon their poor
+overall T5 working memory, Tg/Caff mice showed a
+precipitous drop in errors during RAWM testing at 4–5
+weeks into treatment. Even NT controls signiﬁcantly
+improved upon their pre-treatment performance level,
+although not to an error level lower than Tg/Caff mice.
+We have consistently found that AD Tg mice are im-
+paired in their ability to switch from the spatial strategy
+of RAWM to the identiﬁcation/recognition strategy re-
+quired for platform recognition testing [13,29,30]. To
+determine if caffeine treatment can improve the “strat-
+egy switching” ability of Tg mice, we evaluated mice
+in the platform recognition task immediately following
+completion of RAWM testing. As expected, Tg con-
+trols were impaired overall (p < 0.01), and particularly
+during the last two days of testing (Fig. 1D). However,
+Tg/Caff mice were not different from NT mice on any
+of the four test days or overall, signifying that caffeine
+improved strategy switching ability in aged Tg mice
+(Fig. 1D).
+There were no group differences in tasks of sen-
+sorimotor skill (open ﬁeld activity, balance beam,
+string agility, Y-maze choices) and anxiety (elevated-
+plus maze), indicating that neither genotype or caf-
+feine treatment impacted these non-cognitive measures
+(data not shown). Additionally, there were no group
+differences in swim speed, as indexed by time taken
+per choice during RAWM testing.
+Aged Tg mice show “overall” cognitive beneﬁt with
+caffeine treatment
+Although evaluation of the effect of caffeine on in-
+dividual cognitive measures is informative and impor-
+tant, we have found that a collective evaluation across
+multiple cognitive measures/tasks is a more insight-
+ful approach for determining if a given AD therapeu-
+tic has broad-based value in multiple cognitive do-
+mains [22–24].
+In this context, we have previous-
+ly utilized discriminant function analysis (DFA) in re-
+porting that caffeine treatment from young adulthood
+through older age “protects” APPsw mice from over-
+all cognitive impairment across multiple cognitive do-
+mains [13,28].
+To elucidate whether caffeine treat-
+ment in aged Tg mice provides “overall” cognitive ben-
+Fig. 2. A Canonical scores plot of discriminant function analysis
+involving 7 cognitive measures collected from aged Tg mice at 4–5
+weeks into caffeine treatment. Each symbol represents the cogni-
+tive performance of one animal graphed from the two linear func-
+tions derived in the discriminant function analysis (DFA). Group dif-
+ferences in overall cognitive performance across multiple cognitive
+measures/domains are evident, with Tg/Caff mice having superior
+overall performance compared to Tg controls. Symbols: O = NT
+mice; X = Tg mice; + = Tg/Caff mice. (Colours are visible in the
+electronic version of the article at www.iospress.nl.
+eﬁt spanning multiple measures/domains (e.g., work-
+ing/spatial memory, identiﬁcation/recognition, gener-
+al mnemonic function), we collectively evaluated all
+seven of the cognitive measures attained “during treat-
+ment” in the present study, utilizing direct entry DFA.
+This approach was very effective in revealing that there
+were clear differences in overall cognitive performance
+between groups (Wilk’s λ = 0.126; p < 0.02) and
+that the Tg/Caff group was signiﬁcantly better in over-
+all cognitive performance compared to the Tg control
+group (p < 0.05). Figure 2 shows the canonical scores
+plot of this DFA for individual mice included in the
+three groups of Study 1.
+Caffeine treatment markedly reduces brain Aβ
+deposition in aged Tg mice
+Our prior work has demonstrated that oral caffeine
+administration in young adult Tg mice for 5 1/2 months
+suppresses levels of both BACE1 and PS1 in hip-
+pocampus, resulting in lower hippocampal levels of
+both soluble and insoluble Aβ [13]. This suppression
+of both major enzymes involved in brain Aβ produc-
+tion would suggest that caffeine administration, even
+to aged Tg mice exhibiting robust Aβ pathology, could
+reduce/reverse that pathology.
+Therefore, we next
+performed a neurohistologic analysis of total Aβ im-
+
+G.W. Arendash et al. / Caffeine Reverses Memory Impairment in AD Mice
+669
+Fig. 3. Caffeine treatment reduces the robust Aβ deposition present in aged Tg mice. Total Aβ deposition was strikingly reduced in both
+the entorhinal cortex and hippocampus in aged Tg mice following two months of oral caffeine treatment. (Upper) Photomicrographs of Aβ
+deposition staining in the entorhinal cortex and hippocampus exemplifying the reduction in Aβ deposition induced by caffeine treatment. Scale
+bar = 50 µm (Lower) Caffeine induced reductions of 46% and 40% in Aβ deposition within the entorhinal cortex and hippocampus, respectively.
+∗p < 0.001. (Colours are visible in the electronic version of the article at www.iospress.nl.
+munostaining in the same aged Tg mice wherein caf-
+feine administration reversed memory impairment. For
+both entorhinal cortex and hippocampus, total Aβ de-
+position was strikingly reduced in aged Tg mice fol-
+lowing two months of oral caffeine treatment compared
+to Tg controls (Fig. 3). Reductions of 46% and 40%
+in Aβ deposition were evident within entorhinal cor-
+tex and hippocampus, respectively, at 20–21 months of
+age. These caffeine-induced reductions in Aβ deposi-
+tion are clearly evident in representative photomicro-
+graphs of Aβ immunostaining from entorhinal cortex
+and hippocampus (Fig. 3).
+Caffeine treatment reduces brain levels of “soluble”
+Aβ in aged Tg mice, which correlate with extent of Aβ
+deposition
+We have previously reported that long-term oral ad-
+ministration of caffeine to young adulthood Tg mice
+induces a signiﬁcant 37% reduction in hippocampal
+Aβ1−40 levels, as measured by ELISA [13]. In the
+present study, we wished to determine if brain soluble
+Aβ levels could also be reduced by caffeine treatment in
+aged Tg mice bearing high brain levels of both Aβ 1−40
+and Aβ1−42. In the same aged Tg mice wherein rever-
+
+670
+G.W. Arendash et al. / Caffeine Reverses Memory Impairment in AD Mice
+Fig. 4. Long-term caffeine treatment to aged Tg mice reduces soluble Aβ levels in both cortex and hippocampus; Hippocampal soluble Aβ levels
+correlate with hippocampal Aβ deposition. (A) At two months into oral caffeine treatment, hippocampal and cortical levels of both Aβ1−40
+and Aβ1−42 were reduced in comparison to values from Tg controls. ∗p < 0.05 versus Tg control mice. Abbreviations: N.D., non-detectable.
+(B) In hippocampus (but not in cortex), signiﬁcant correlations were evident between soluble Aβ and deposited Aβ, indicative of a dynamic
+equilibrium between these two pools of Aβ in the hippocampus. Each group consisted of 5–8 mice. (Colours are visible in the electronic version
+of the article at www.iospress.nl.)
+sal of cognitive impairment was exhibited, measure-
+ment of brain soluble Aβ levels at 20–21 months of
+age (approximately 2 months into treatment) revealed
+signiﬁcant decreases in both cortical and hippocampal
+Aβ levels for caffeine-treated mice (Fig. 4A). Aβ1−42
+levels were signiﬁcantly reduced in both cortex (↓51%)
+and hippocampus (↓59%) of caffeine-treated Tg mice
+compared to Tg controls. Similarly, Aβ1−40 levels in
+Tg mice were signiﬁcantly reduced in cortex (↓25%)
+and nearly reduced (p = 0.09) in hippocampus (↓37%)
+by caffeine treatment.
+To determine if an association exists between solu-
+ble and deposited Aβ pools in the brains of these aged
+Tg mice, correlation analysis was performed between
+extent of hippocampal Aβ deposition and Aβ1−40 or
+Aβ1−42 levels, irrespective of treatment. The results
+of these correlation analyses indicate a clear relation-
+ship between extent of hippocampal Aβ deposition and
+hippocampal levels of Aβ1−40 (Fig. 4B) and Aβ1−42
+(Fig. 4C). These correlations underscore a dynamic re-
+
+G.W. Arendash et al. / Caffeine Reverses Memory Impairment in AD Mice
+671
+Fig. 5. Long-term caffeine treatment to aged APPsw mice did not affect synaptophysin immunostaining in the hippocampal CA1 and CA3
+regions. Both Tg and Tg/Caff mice exhibited aberrantly high synaptophysin staining, typically seen in aged APPsw mice due to intense staining
+of dystrophic nerve terminals. Scale bar = 20 µm. ∗p < 0.001 versus NT group. (Colours are visible in the electronic version of the article at
+www.iospress.nl.
+lationship between deposited and soluble forms of Aβ
+in the brain, which is involved in the modulation of
+brain Aβ by caffeine (see diagrams in Fig. 10).
+Synaptophysin immunostaining in hippocampus of
+aged Tg mice is not affected by caffeine treatment
+Synaptophysinimmunostaining/immunoreactivityis
+a marker for total synaptic area – not number of synap-
+tic terminals – in a given brain region. As such, we
+have observed increases in hippocampal synaptophysin
+immunoreactivity following several therapeutics that
+provide cognitive beneﬁt to AD Tg mice such as envi-
+ronmental enrichment [11,24] and T-cell immunother-
+apy [30]. Therefore, we subsequently wished to de-
+termine if the beneﬁcial cognitive effects of caffeine
+in aged Tg mice was associated with changes in hip-
+pocampal synaptophysin immunostaining. As shown
+in Fig. 5, caffeine treatment did not impact synapto-
+physin immunostaining in the hippocampal CA1 and
+CA3 regions of Tg mice. Irrespective of treatment, Tg
+mice exhibited enhanced synaptophysin immunostain-
+ing in comparison to NT controls (Fig. 5), which is
+consistent with our prior work [31] and probably in-
+dicative of the intense synaptophysin immunostaining
+associated with dystrophic nerve terminals in Tg mice.
+Caffeine treatment down-regulates the active form of
+cRaf-1 in hippocampus from Tg mice: Possible
+linkage to BACE1 suppression
+Because we have previously reported that long-
+term caffeine treatment decreases BACE1 expression
+
+672
+G.W. Arendash et al. / Caffeine Reverses Memory Impairment in AD Mice
+in brains of AD Tg mice [13] and also found caffeine-
+induced reductions in brain Aβ levels in the present
+study, we wished to developinsight into possible mech-
+anism(s) involved in BACE1 suppression by caffeine.
+The cRaf-1 is a cytosolic protein kinase and is an inte-
+gral part of the Ras/cRaf/ERK pathway that regulates
+cell proliferation, survival, and senescence. When per-
+sistently activated through phosphorylation at its Ser-
+ine 338 site, cRaf-1 stimulates the transcription factor
+nuclear factor kappa B (NFκB) [32], which then can
+stimulate expression of BACE1 and other AD-linked
+proteins [33]. Phosphorylation of cRaf-1 at its Serine
+259 site stabilizes cRaf-1 in an inactive conformation,
+thus suppressing BACE1 expression. These relation-
+ships are diagramed in Fig. 10.
+In a second caffeine treatment study, we therefore
+examined the hippocampus of 9.5 month-old Tg mice
+that had been given oral caffeine treatment via gavage
+for two weeks prior to euthanization. Analysis of hip-
+pocampal levels of the inactive form of cRaf-1 (pcRaf-
+1[Ser259]) by Western blot revealed a signiﬁcant down-
+regulation of this inactive form in Tg controls to 42%
+of NT control levels (Fig. 6A). In sharp contrast, Tg
+mice that had been treated with caffeine for only two
+weeks exhibited active cRaf-1 (pcRaf-1[Ser338]) levels
+that were signiﬁcantly lower than Tg controls (↓27%;
+Fig. 6B) and inactive cRaf-1 (pcRaf1[Ser259]) that
+were signiﬁcantly higher than Tg controls (↑141%;
+Fig. 6A). Moreover, we also determined from the same
+hippocampal tissue lysates that a signiﬁcant decrease
+(↓29%) in protein kinase A (PKA) activity was present
+in Tg controls and that caffeine treatment signiﬁcant-
+ly increased PKA activity (↑25%) in Tg mice to lev-
+els exhibited by NT mice (Fig. 6C). Since PKA con-
+verts active to inactive cRaf-1, these results are consis-
+tent with a PKA/Raf-1 mediated mechanism of BACE1
+suppression by caffeine (see Fig. 10).
+Caffeine induces concentration- and time-dependent
+decreases in both active and total GSK-3 levels in
+SweAPP N2a cells
+We have reported that chronic caffeine treatment re-
+duces PS1 expression/γ-secretase activity in AD Tg
+mice, presumably contributing to the decreased Aβ
+production also observed [13]. In the present study,
+we next examined the potential involvement of GSK-
+3 in caffeine’s reduction of γ-secretase-mediated Aβ
+production, as GSK-3 is reported to regulate Aβ pro-
+duction by interfering with γ-secretase cleavage [20,
+34].
+To identify the possible actions of caffeine on
+this essential component of the AD pathogenic path-
+way, Western blot analysis was performed on SweAPP
+N2a cell lysates using antibodies against both active
+and total GSK-3. A concentration-dependent decrease
+in both GSK-3α and GSK-3β was evident, with sig-
+niﬁcant reductions achieved at caffeine concentrations
+of 10 and 20 µM (Fig. 7). This effect was observed
+on active GSK-3 (pTyr216/279) protein levels (A), as
+well as on GSK-3 holo protein levels (C). Caffeine al-
+so exerted a time-dependent decrease in both GSK-3
+isoforms, as shown in Fig. 7. Signiﬁcant reductions
+in active protein levels were seen in both GSK3 iso-
+forms at time-points exceeding 120 minutes (B). How-
+ever, signiﬁcant alterations in holo protein levels were
+isoform-speciﬁc, with GSK-3β reduction by 30 min-
+utes and GSK-3α reduction by 90 minutes (D). It is
+noteworthy that, while active GSK-3 levels declined as
+caffeine concentration was raised from 0 to 16 µM, ac-
+tive GSK-3 levels increased as caffeine concentration
+was elevated from 31.2 µM to 1 mM (data not shown).
+Thus, approximately 20 µM was determined to be the
+optimal caffeine concentration for active GSK-3α and
+GSK-β inhibition, which corresponds to that typically
+observed in the blood and brain of humans following
+1–2 cups of coffee [1].
+Long-term caffeine treatment from adulthood through
+old age does not provide cognitive beneﬁt to normal
+mice
+It is possible that the caffeine-induced reversal of
+cognitive impairment that we observed in aged Tg mice
+involved non-speciﬁc, generalized mechanisms such as
+increased glucose utilization [35], resulting in the well-
+known ability of caffeinetoincrease alertness/attention.
+If such generalized, non-amyloidogenic mechanisms
+were critical for the cognitive beneﬁts seen in Tg mice,
+we reasoned that NT mice should also beneﬁt from
+long-term caffeine treatment. Therefore, in a third caf-
+feine treatment study, we began providing 5 1/2 month-
+old NT (normal) mice with caffeine in their drinking
+water and behaviorally evaluated them at 10 months
+into caffeine treatment (e.g., 15–16 months of age).
+Parenthetically, no truly long-term caffeine administra-
+tion studies (over months) have been done previously
+in rodents that might relate to habitual caffeine use in
+humans.
+As shown in Fig. 8, life-long caffeine administration
+had no effect on cognitive performance of NT mice
+across 13 measures in ﬁve cognitively-based tasks (Y-
+maze percent alternation, standard Morris water maze,
+
+G.W. Arendash et al. / Caffeine Reverses Memory Impairment in AD Mice
+673
+Fig. 6. In the hippocampus of Tg mice, caffeine treatment increases the “inactive” form (A) and decreases the active form (B) of cRaf-1, while
+also increasing protein kinese A (PKA) activity back to normal levels. Two weeks of oral caffeine treatment was given to 9 month-old Tg mice
+and their hippocampus analyzed. (A) The signiﬁcant decrease in inactive cRaf-1 (pcRaf-1[Ser259]) that was evident in Tg controls was reversed
+by caffeine treatment to the level of NT controls. ∗p < 0.05 versus other two groups (B) Caffeine treatment decreased the levels of active cRaf-1
+(pcRaf-1[Ser338] in Tg mice treated with caffeine compared to Tg control mice. Tubulin or GADPH served as non-speciﬁc protein controls.
+∗p < 0.05 versus Tg group. (C) The signiﬁcant decrease in hippocampal PKA activity present in Tg mice was reversed by caffeine treatment
+back to levels present in NT mice. ∗p < 0.02 for Tg controls versus other two groups. (Colours are visible in the electronic version of the article
+at www.iospress.nl.
+circular platform, platform recognition, and radial arm
+water maze). It should be noted that cognitive perfor-
+mance of the control NT mice at 15–16 months of age
+was not outstanding, thus allowing for possible thera-
+peutic improvement. Chronic caffeine administration
+did not affect sensorimotor (open ﬁeld activity, balance
+beam, string agility) or anxiety (elevated-plus maze)
+measures, nor did it affect swim speed in water-based
+
+674
+G.W. Arendash et al. / Caffeine Reverses Memory Impairment in AD Mice
+Fig. 7. Caffeine induces concentration- and time-dependent decreases in both GSK-3α and GSK-β expression in vitro. SweAPP N2a cells
+were treated with a range of caffeine concentrations for 1 h (A,C) or with a 20 µM concentration of caffeine over a range of time points
+(B,D). Prepared lysates were subjected to Western blot (WB) analysis using antibodies against active GSK-3α (pTyr216 residue) and GSK-3β
+(pTyr279 residue) isoforms (A,B) or against total GSK-3α and GSK-β (C and D). Anti-actin antibodies were used as an internal reference
+control for each WB. Histograms depict densitometric analysis of three independent experiments, with a representative WB of each experiment
+displayed. Isoform-speciﬁc band to actin ratios are delineated on histogram y-axes, and concentration- or time-points are depicted on x-axes.
+Asterisks denote signiﬁcant differences (p < 0.05) between speciﬁc concentration- or time-group and the control group (0 µM or 0 minutes),
+using a Mann-Whitney test for pair wise comparisons of non-parametric data. (Colours are visible in the electronic version of the article at
+www.iospress.nl.
+tasks (data not shown). A direct entry DFA performed
+across all 19 behavioral measures of the test battery
+also indicated no signiﬁcance discrimination between
+caffeine-treated and control NT mice in overall behav-
+ioral performance.
+DISCUSSION
+This study provides the ﬁrst evidence that caffeine
+treatment can reverse cognitive impairment and AD
+neuropathology in a model for the disease.
+Aged,
+
+G.W. Arendash et al. / Caffeine Reverses Memory Impairment in AD Mice
+675
+Fig. 8. Long-term caffeine treatment does not provide cognitive beneﬁts to normal (non-transgenic) mice in multiple tasks. A total of 13 measures
+were evaluated in 5 cognitive-based tasks: (A) Y-maze spontaneous alternation, (B and C) Morris water maze acquisition and memory retention,
+(D) Circular platform, (E) platform recognition, and (F) radial arm water maze. (Colours are visible in the electronic version of the article at
+www.iospress.nl.
+cognitively-impaired APPsw mice given a moderate
+amount of daily caffeine (the human equivalent of 5
+cups of coffee)exhibiteda restoration of workingmem-
+ory to the level of normal, aged mice. In these same
+aged AD mice, which had pre-existing and substantial
+Aβ burdens, caffeine treatment reduced both soluble
+and deposited (insoluble) brain Aβ levels. Caffeine-
+induced cognitive restoration is likely due to its pro-
+found ability to reduce Aβ production by reducing ex-
+pression of both BACE1 and PS1/γ-secretase [13]. The
+present study provides mechanistic insight into both of
+these caffeinergic actions by showing that 1) caffeine
+administration to APPsw mice was able to correct their
+dysregulation of the Raf-1/NFκB inﬂammatory path-
+way, which is linked to BACE expression, and 2) caf-
+feine suppressed both α and β isoforms of GSK-3 in
+vitro, which are linked to PS1/γ-secretase activity and
+tau hyperphosphorylation, respectively. The extent to
+which these caffeinergic effects involve adenosine re-
+ceptor antagonism are unknown and currently being
+investigated.
+We recently reported that caffeine, when adminis-
+tered from young adulthood through older age, pro-
+tected APPsw mice from otherwise certain impairment
+in multiple cognitive domains and reduced their brain
+Aβ levels [13]. These results, suggestive that moderate
+daily intake of caffeine could delay or reduce the risk
+of AD, are supportive of an earlier epidemiologic study
+showing that AD patients consumed much less caffeine
+in the 20 years prior to disease onset compared to same-
+aged individuals who were non-demented [9]. More
+recent longitudinal studies have also reported protec-
+tive effects of caffeine/coffee intake against cognitive
+impairment during normal aging [6,7] and AD [8]. The
+evidence for the protective effects of caffeine against
+aged-associated cognitive impairment and AD, which
+
+676
+G.W. Arendash et al. / Caffeine Reverses Memory Impairment in AD Mice
+Fig. 9. Diagrams depicting the inhibitory actions of caffeine on Aβ production and resultant lower brain Aβ levels/deposition. Unmodulated:
+Newly produced Aβ enters a dynamic equilibrium between soluble and deposited (insoluble) Aβ in the brain, with continual transport of soluble
+Aβ into plasma. Caffeine: Long-Term: Caffeine suppression of both β- and γ-secretase activities reduces Aβ production, resulting in lower
+soluble Aβ in the brain. These lower levels of brain soluble Aβ induce a ﬂux of insoluble Aβ out of the deposited form and into the soluble
+form, which is then cleared into plasma via soluble Aβ transport. (Colours are visible in the electronic version of the article at www.iospress.nl.
+is nicely reviewed by Rosso et al. [10], is in contrast
+to the reality that human intake of caffeine usually de-
+creases during aging – this, despite the fact that the
+metabolism and physiologic responses to caffeine are
+the same in elderly and younger individuals [36].
+Accompanying the caffeine-induced cognitive res-
+toration in aged APPsw mice was a reversal of Aβ de-
+position and decrease in soluble Aβ levels within their
+brains. These reductions in both soluble and deposited
+(insoluble) forms of Aβ would be expected, given that
+caffeine decreases Aβ production through suppression
+of both BACE and PS1/γ-secretase expression [13].
+Newly produced Aβ enters a dynamic equilibrium be-
+tween soluble and deposited Aβ in the brain, with con-
+tinual transport of soluble Aβ out of the brain and into
+plasma down a concentration gradient (Fig. 9, Unmod-
+ulated). We hypothesize that caffeine suppression of
+Aβ production results in lower brain levels of soluble
+Aβ, which then induces a ﬂux of insoluble Aβ out of
+the deposited form and into the soluble form (Fig. 9,
+Caffeine). This newly-solublized Aβ would then be
+cleared into the plasma via Aβ transport. Supportive
+of this dynamic equilibrium hypothesis are the strong
+correlations that we report in aged APPsw mice be-
+tween soluble Aβ (both 1–40 and 1–42) and deposited
+Aβ in hippocampus. Moreover, the additional correla-
+tions that we report between both soluble and deposited
+forms of Aβ versus cognitive performance clearly un-
+derscore a direct impact of this dynamic equilibrium on
+cognitive performance. Indeed, caffeine’s reversal of
+cognitive dysfunction in aged APPsw mice most like-
+ly involves lowering of both soluble and deposited Aβ
+through this equilibrium.
+The present study presents new mechanistic in-
+sight into how caffeine may suppress both BACE1
+and PS1/γ-secretase expression to decrease Aβ pro-
+duction.
+Whether or not this caffeine-induced de-
+crease in Aβ production is direct or involves adeno-
+sine receptor blockade/mediationis currentlyunknown.
+There certainly exists considerable evidence that the
+actions of caffeine against Aβ are mediated through
+antagonism of A2a and/or A1 adenosine receptors,
+particularly in the context that 1) caffeine and se-
+lective A2a receptor antagonists both provide protec-
+tion against Aβ neurotoxicity in vitro [37]; 2) caf-
+feine and/or selective A2a receptor antagonists protect
+against the cognitive impairment induced by intrac-
+erebral Aβ1−42 or Aβ25−35 infusion in mice [38,39];
+and 3) acetylcholine neurotransmission in hippocam-
+pus/cortex is increased through pre-synaptic A1 recep-
+tor blockade [40]. Although we have determined that
+brain adenosine receptor levels are unaffected by long-
+
+G.W. Arendash et al. / Caffeine Reverses Memory Impairment in AD Mice
+677
+Fig. 10. Diagram depicting 1) stimulatory actions of “active” cRaf-1 on NFκB activation, resulting in increased BACE1 expression and Aβ
+production, and 2) caffeine’s activation of PKA, resulting in enhanced levels of ‘inactive” cRaf-1 and less Aβ production. (Colours are visible in
+the electronic version of the article at www.iospress.nl.
+term caffeine treatment in AD transgenic mice [13], a
+rich body of scientiﬁc ﬁndings suggests that the pos-
+sibility of adenosine-receptor-mediated actions needs
+further investigation [41].
+Regarding BACE1 suppression,we provide evidence
+that caffeine is able to correct a dysregulation of the
+cRaf-1 inﬂammatory pathway in APPsw mice by stim-
+ulating PKA activity, thus increasing brain levels of
+“inactive” cRaf-1 (pcRaf-1[Ser259]) and reducing the
+active form of cRaf-1 phosphorylated at Serine 338
+(pcRaf-1[Ser338]). Serine(s) 259 and S621 bind to 14-
+3-3, a protein that maintains cRaf-1 in an inhibited state
+(phosphorylatedat Serine 259) in basal conditions. Af-
+ter stimulation, active Ras displaces 14-3-3 proteins,
+cRaf-1 is trans-located to the plasma membrane, de-
+phosphorylated by phosphatases at this site and phos-
+phorylated at the kinase domain at the Serine 338 ac-
+tivation site [42]. As shown in Fig. 10, “active” Raf
+stimulates NFκB intracellularly, resulting in increased
+expression of reporter genes such as BACE1 [43,44].
+It should be noted that cRaf-1 has been reported to be
+over-activated in AD brains [15,45].
+In this study, we demonstrate that caffeine stimulates
+PKA activity in the hippocampus of treated AD Tg
+mice, which is consistent with similar effects of caffeine
+in peripheral tissues [46,47]. This enhanced PKA activ-
+ity then inhibits (inactivate) cRaf-1 by phosphorylation
+at serine259 [48], decreasing NFκB activity and the
+expression of NFκB-controlled genes such as BACE1;
+thus, decreased Aβ production results (Fig. 10). Sup-
+portive of the idea that the cRaf-1/NFκB pathway plays
+a key role in Aβ production and toxicity in the brain is
+our recent discovery that the Raf-1 inhibitor Sorafenib
+inhibits NFκB signaling and ameliorates memory im-
+pairment in aged APPsw mice [49]. Caffeine treatment
+has often been associated with the inhibition of phos-
+phodiesterases (PDEs); indeed, we and others have re-
+ported that treatment with the PDE inhibitor Rolipram
+improves working memory of AD transgenic mice [50,
+51]. However, caffeine’s inhibition of PDE occurs at
+mM concentrations [1], well above blood levels of caf-
+feine that are achievable in rodents/humans. We there-
+fore believe that the profound ability of caffeine to re-
+duce brain Aβ pathology is due to its suppression of
+both β- and γ-secretases [13].
+Consistent with this
+premise, Rolipram was unable to decrease Aβ levels in
+vivo [51].
+A potential mechanism through which caffeine sup-
+presses PS1/γ-secretase (to reduce Aβ production)
+was also explored in the present study.
+Dysregula-
+tion of GSK-3 is a key feature of AD pathogene-
+sis, with the activity of both α and β isoforms play-
+ing critical roles [52]. While GSK-3β directly binds
+PS1 [53], GSK-3α is most notable for enhancing
+PS1/γ-secretase activity and consequently increasing
+Aβ production [20].
+In vitro studies demonstrate
+
+678
+G.W. Arendash et al. / Caffeine Reverses Memory Impairment in AD Mice
+that siRNA inhibition of GSK-3α drastically reduces
+Aβ production by interfering with γ-secretase cleav-
+age of APP [20], likely through disruption of APP-
+PS1 association [34]. Furthermore, conditional over-
+expression of GSK-3β results in increased tau phospho-
+rylation, neuronal apoptosis, reactive gliosis, and spa-
+tial learning deﬁcits in the Tet/GSK-3β mouse model
+for AD [19,54]. This AD-like phenotype is completely
+reversed once GSK-3β overexpression is ceased and
+GSK-3β activity returns to normal [55]. In the present
+study, we report that caffeine suppresses GSK-3α and
+GSK-3β levels in SweAPP N2a cell cultures in both a
+dose- and time-dependent fashion. Moreover, caffeine
+impacted both active and holoprotein(total)GSK-3 lev-
+els, suggesting that caffeine does not diminish GSK-3
+activity through direct substrate-level phosphorylation,
+but rather through alternations in protein production or
+degradation.
+Because optimal GSK-3 inhibition was obtained
+with a 20 µM concentration of caffeine in vitro, actions
+of caffeine that only occur at much higher concentra-
+tions are unlikely candidates to mechanistically explain
+both our in vitro and in vivo observations [1]. Indeed, a
+10–20 µM plasma and brain concentration of caffeine
+would be quickly reached (1–2 hours) in humans fol-
+lowing ingestion of 1–2 cups of coffee [1]. This under-
+scores that the effects of caffeine on GSK-3 are readi-
+ly attained at physiologically relevant concentrations –
+in fact, the same 10–20 µM concentration of caffeine
+effectively inhibits both Aβ1−40 and Aβ1−42 produc-
+tion by SweAPP N2a cell cultures [13]. Reductions
+in GSK-3 thus represent a further mechanism through
+which caffeine may ameliorate AD pathology and re-
+stores cognitive function. Accordingly, reduction of
+GSK-3 levels/activity in the brain is in itself a pursued
+AD therapy [52].
+In addition to the aforementioned mechanisms of
+caffeine action directly impacting Aβ production, there
+are multiple “non-amyloidogenic” mechanisms that
+could contribute to the ability of caffeine to protect
+against or reverse memory impairment. Since inﬂam-
+mation is an essential part of the AD pathogenic path-
+way [56] and AD is characterized by increased oxida-
+tive stress, it is possible that the anti-inﬂammatory [46]
+and antioxidant [57] actions of caffeine contribute to
+its pro-cognitive affects. It is important to emphasize
+that generalized mechanisms of caffeine action (e.g.,
+increased glucose utilization) may also be contributo-
+ry [35] to the cognitive reversal observed.
+Howev-
+er, our ﬁnding that life-long caffeine treatment to non-
+transgenic mice did not provide any cognitive bene-
+ﬁts in old age does not support this possibility – par-
+ticularly given that there was ample room for cogni-
+tive improvement when testing occurred in older age.
+Nonetheless, if the same caffeine treatment paradigm
+had been given to aged “normal” mice as was given
+to aged Tg mice, beneﬁcial cognitive effects may have
+been revealed. Indeed, generalized mechanisms (such
+as increased glucose utilization) may play a role be-
+cause the substantial brain Aβ levels in aged APPsw
+mice reduce their cerebral blood ﬂow [58].
+Although caffeine has been reported to have effects
+on dendritic morphology during post-natal develop-
+ment [59], we presently found no effect of long-term
+caffeine treatment on synaptic area in hippocampus
+of aged APPsw mice. Regarding caffeine effects on
+synaptic function, several electrophysiologic studies
+involving hippocampal slice recordings from the hip-
+pocampal CA1 region have reported that caffeine in-
+creases the amplitude of EPSPs [60,61] and induces
+a novel pre-synaptic form of long-term potentiation
+(LTP) [62]. However, because all such studies have in-
+volved caffeine concentrations well above physiologic
+levels (e.g., 0.1–10 mM), electrophysiologicstudies in-
+volving caffeine concentrations relevant to tissue levels
+of caffeineachievedwith humanor rodent caffeinecon-
+sumption (e.g., 10–30 µM) are necessary to determine
+the impact of caffeine impact on synaptic transmission.
+Finally, caffeine has very recently been shown to block
+disruptions in the blood-brain barrier induced by a high
+cholesterol diet in rabbit [63].
+Since breakdown of
+the blood-brain barrier has been reported in AD [64]
+and appears to precede Aβ plaque formation in APPsw
+transgenic mice [65], blood-brain barrier stabilization
+by caffeine is a viable mechanism for consideration.
+All of the aforementioned non-amyloidogenic and
+generalized mechanisms of caffeine action notwith-
+standing, the cognitive restoration providedto aged AD
+transgenic mice by caffeine treatment in the present
+study would appear to be mostly due to the profound
+ability of caffeine to reduce Aβ production via secre-
+tase suppression,and in the process result in brain clear-
+ance of both soluble and deposited/insoluble Aβ. Giv-
+en the safety, availability, and brain bioavailability of
+caffeine, its ability to suppress both β- and γ-secretases
+would suggest it is preferable to synthetic secretase in-
+hibitors currently under development. Based on the ro-
+bust protective and treatment effects of caffeine that we
+have observed in AD transgenic mice, we have initiated
+clinical trials with caffeine.
+
+G.W. Arendash et al. / Caffeine Reverses Memory Impairment in AD Mice
+679
+ACKNOWLEDGMENTS
+This research was supported by grants to (G.W.A.)
+and (H.P.) within the NIA-designated Florida Alzhei-
+mer’s Disease Research Center (P50AG025711), as
+well as by funds from the Byrd Alzheimer’s Center and
+Research Institute. H.P. holds the Eric Pfeifer chair for
+Alzheimer’s research at the Suncoast Gerontology Cen-
+ter, University of South Florida College of Medicine.
+REFERENCES
+[1]
+Fredholm B, B¨attig K, Holm´en J, Nehlig A, Zvartau E (1999)
+Actions of caffeine in the brain with special reference to factors
+that contribute to its widespread use. Pharmacol Rev 51, 83-
+133.
+[2]
+Ruhl C, Everhart J (2005) Coffee and caffeine consumption
+reduce the risk of elevated serum alanine aminotransferase
+activity in the United States. Gastroenterology 128, 24-32.
+[3]
+Higdon J, Frei B (2006) Coffee and health: a review of recent
+human research. Crit Rev Food Sci Nutr 46, 101-123.
+[4]
+Ross G, Abbott R, Petrovitch H, Morens D, Grandinetti A,
+Tung K, Tanner C, Masaki K, Blanchette P, Curb J, Popper J,
+White L (2000) Association of coffee and caffeine intake with
+the risk of Parkinson disease. JAMA 283, 2674-2679.
+[5]
+Hern´an M, Takkouche B, Caama˜no-Isorna F, Gestal-Otero J
+(2002) A meta-analysis of coffee drinking, cigarette smoking,
+and the risk of Parkinson’s disease. Ann Neurol 52, 276-284.
+[6]
+Ritchie K, Carri`ere I, de Mendonca A, Portet F, Dartigues J,
+Rouaud O, Barberger-Gateau P, Ancelin M (2007) The neuro-
+protective effects of caffeine: a prospective population study
+(the Three City Study). Neurology 69, 536-545.
+[7]
+van Gelder B, Buijsse B, Tijhuis M, Kalmijn S, Giampaoli
+S, Nissinen A, Kromhout D (2007) Coffee consumption is
+inversely associated with cognitive decline in elderly European
+men: the FINE Study. Eur J Clin Nutr 61, 226-232.
+[8]
+Eckelinen M, Ngandu T, Tuomilehto J, Soininen H, Kivipel-
+to M (2008) Midlife coffee and tea drinking and the risk
+of late-life dementia: A population-based CAIDE study. J
+Alzheimer’s Dis 16, 85-91
+[9]
+Maia L, de Mendonc¸a A (2002) Does caffeine intake protect
+from Alzheimer’s disease? Eur J Neurol 9, 377-382.
+[10]
+Rosso A, Lippa C, Mossey J (2008) Caffeine: Neuroprotec-
+tive Functions in Cognition and Alzheimer’s Disease. Am J
+Alzheimers Dis Other Demen 23, 417-422.
+[11]
+Arendash G, Garcia M, Costa D, Cracchiolo J, Wefes I, Potter
+H (2004) Environmental enrichment improves cognition in
+aged Alzheimer’s transgenic mice despite stable beta-amyloid
+deposition. Neuroreport 15, 1751-1754.
+[12]
+Arendash G, Lewis J, Leighty R, McGowan E, Cracchiolo J,
+Hutton M, Garcia M (2004) Multi-metric behavioral compar-
+ison of APPsw and P301L models for Alzheimer’s disease:
+linkage of poorer cognitive performance to tau pathology in
+forebrain. Brain Res 1012, 29-41.
+[13]
+Arendash G, Schleif W, Rezai-Zadeh K, Jackson E, Zacharia
+L, Cracchiolo J, Shippy D, Tan J (2006) Caffeine protects
+Alzheimer’s mice against cognitive impairment and reduces
+brain beta-amyloid production. Neuroscience 142, 941-952.
+[14]
+Keller E, Fu Z, Brennan M (2004) The role of Raf kinase in-
+hibitor protein (RKIP) in health and disease. Biochem Phar-
+macol 68, 1049-1053.
+[15]
+Mei M, Su B, Harrison K, Chao M, Siedlak S, Previll L, Jack-
+son L, Cai D, Zhu X (2006) Distribution, levels and phos-
+phorylation of Raf-1 in Alzheimer’s disease. J Neurochem 99,
+1377-1388.
+[16]
+Woodgett J (1990) Molecular cloning and expression of glyco-
+gen synthase kinase-3/factor A. EMBO J 9, 2431-2438.
+[17]
+Grimes C, Jope R (2001) CREB DNA binding activity is in-
+hibited by glycogen synthase kinase-3 beta and facilitated by
+lithium. J Neurochem 78, 1219-1232.
+[18]
+Grimes C, Jope R (2001) The multifaceted roles of glycogen
+synthase kinase 3beta in cellular signaling. Prog Neurobiol 65,
+391-426.
+[19]
+Hern´andez F, Borrell J, Guaza C, Avila J, Lucas J (2002) Spa-
+tial learning deﬁcit in transgenic mice that conditionally over-
+express GSK-3beta in the brain but do not form tau ﬁlaments.
+J Neurochem 83, 1529-1533.
+[20]
+Phiel C, Wilson C, Lee V, Klein P (2003) GSK-3alpha reg-
+ulates production of Alzheimer’s disease amyloid-beta pep-
+tides. Nature 423, 435-439.
+[21]
+Takashima A (2006) GSK-3 is essential in the pathogenesis of
+Alzheimer’s disease. J Alzheimers Dis 9, 309-317.
+[22]
+Jensen M, Mottin M, Cracchiolo J, Leighty R, Arendash G
+(2005) Lifelong immunization with human beta-amyloid (1-
+42) protects Alzheimer’s transgenic mice against cognitive
+impairment throughout aging. Neuroscience 130, 667-684.
+[23]
+Arendash G, Jensen M, Salem N, Hussein N, Cracchiolo J,
+Dickson A, Leighty R, Potter H (2007) A diet high in omega-3
+fatty acids does not improve or protect cognitive performance
+in Alzheimer’s transgenic mice. Neuroscience 149, 286-302.
+[24]
+Cracchiolo J, Mori T, Nazian S, Tan J, Potter H, Arendash
+G (2007) Enhanced cognitive activity–over and above social
+or physical activity–is required to protect Alzheimer’s mice
+against cognitive impairment, reduce Abeta deposition, and
+increase synaptic immunoreactivity. Neurobiol Learn Mem 88,
+277-294.
+[25]
+Leighty R, Nilsson L, Potter H, Costa D, Low M, Bales K, Paul
+S, Arendash G (2004) Use of multimetric statistical analysis
+to characterize and discriminate between the performance of
+four Alzheimer’s transgenic mouse lines differing in Abeta
+deposition. Behav Brain Res 153, 107-121.
+[26]
+Mori T, Town T, Tan J, Yada N, Horikoshi Y, Yamamoto J,
+Shimoda T, Kamanaka Y, Tateishi N, Asano T (2006) Arundic
+acid ameliorates cerebral amyloidosis and gliosis in Alzheimer
+transgenic mice. J Pharmacol Exp Ther 318, 571-578.
+[27]
+Tan J, Town T, Crawford F, Mori T, DelleDonne A, Crescentini
+R, Obregon D, Flavell R, Mullan M (2002) Role of CD40
+ligand in amyloidosis in transgenic Alzheimer’s mice. Nat
+Neurosci 5, 1288-1293.
+[28]
+Leighty R, Runfeldt M, Berndt D, Schleif W, Cracchiolo J,
+Potter H, Arendash G (2008) Use of artiﬁcial neural networks
+to determine cognitive impairment and therapeutic effective-
+ness in Alzheimer’s transgenic mice. J Neurosci Methods 167,
+358-366.
+[29]
+Austin L, Arendash G, Gordon M, Diamond D, DiCarlo G,
+Dickey C, Ugen K, Morgan D (2003) Short-term beta-amyloid
+vaccinations do not improve cognitive performance in cogni-
+tively impaired APP + PS1 mice. Behav Neurosci 117, 478-
+484.
+[30]
+Ethell D, Shippy D, Cao C, Cracchiolo J, Runfeldt M, Blake
+B, Arendash G (2006) Abeta-speciﬁc T-cells reverse cognitive
+decline and synaptic loss in Alzheimer’s mice. Neurobiol Dis
+23, 351-361.
+
+680
+G.W. Arendash et al. / Caffeine Reverses Memory Impairment in AD Mice
+[31]
+King D, Arendash G (2002) Behavioral characterization of the
+Tg2576 transgenic model of Alzheimer’s disease through 19
+months. Physiol Behav 75, 627-642.
+[32]
+Li S, Janosch P, Tanji M, Rosenfeld G, Waymire J, Mischak H,
+Kolch W, Sedivy J (1995) Regulation of Raf-1 kinase activity
+by the 14-3-3 family of proteins. EMBO J 14, 685-696.
+[33]
+Bourne K, Ferrari D, Lange-Dohna C, Rossner S, Wood T,
+Perez-Polo J (2007) Differential regulation of BACE1 pro-
+moter activity by nuclear factor-kappaB in neurons and glia
+upon exposure to beta-amyloid peptides. J Neurosci Res 85,
+1194-1204.
+[34]
+Rezai-Zadeh K, Shytle R, Bai Y, Tian J, Hou H, Mori
+T, Zeng J, Obregon D, Town T, Tan J (2009) Flavonoid-
+mediated presenilin-1 phosphorylation reduces Alzheimer’s
+disease beta-amyloid production. J Cell Mol Med 13, 574-588.
+[35]
+Nehlig A, Daval J, Debry G (1992) Caffeine and the central
+nervous system: mechanisms of action, biochemical, metabol-
+ic and psychostimulant effects. Brain Res Rev 17, 139-170.
+[36]
+Massey L (1998) Caffeine and the elderly. Drugs Aging 13,
+43-50.
+[37]
+Dall’Igna O, Porci´uncula L, Souza D, Cunha R, Lara D,
+Dall’lgna O (2003) Neuroprotection by caffeine and adeno-
+sine A2A receptor blockade of beta-amyloid neurotoxicity. Br
+J Pharmacol 138, 1207-1209.
+[38]
+Cunha G, Canas P, Melo C, Hockemeyer J, M¨uller C, Oliveira
+C, Cunha R (2008) Adenosine A2A receptor blockade prevents
+memory dysfunction caused by beta-amyloid peptides but not
+by scopolamine or MK-801. Exp Neurol 210, 776-781.
+[39]
+Dall’Igna O, Fett P, Gomes M, Souza D, Cunha R, Lara D
+(2007) Caffeine and adenosine A(2a) receptor antagonists pre-
+vent beta-amyloid (25-35)-induced cognitive deﬁcits in mice.
+Exp Neurol 203, 241-245.
+[40]
+Fisone G, Borgkvist A, Usiello A (2004) Caffeine as a psy-
+chomotor stimulant: mechanism of action. Cell Mol Life Sci
+61, 857-872.
+[41]
+Daly J (2007) Caffeine analogs: biomedical impact. Cell Mol
+Life Sci 64, 2153-2169.
+[42]
+Chong H, Lee J, Guan K (2001) Positive and negative regu-
+lation of Raf kinase activity and function by phosphorylation.
+EMBO J 20, 3716-3727.
+[43]
+Finco T, Baldwin A (1993) Kappa B site-dependent induction
+of gene expression by diverse inducers of nuclear factor kappa
+B requires Raf-1. J Biol Chem 268, 17676-17679.
+[44]
+Gilmore T (2006) Introduction to NF-kappaB: players, path-
+ways, perspectives. Oncogene 25, 6680-6684.
+[45]
+Valerio A, Boroni F, Benarese M, Sarnico I, Ghisi V, Bres-
+ciani L, Ferrario M, Borsani G, Spano P, Pizzi M (2006)
+NF-kappaB pathway: a target for preventing beta-amyloid
+(Abeta)-induced neuronal damage and Abeta42 production.
+Eur J Neurosci 23, 1711-1720.
+[46]
+Horrigan L, Kelly J, ConnorT (2004) Caffeine suppress-
+es TNF-alpha production
+via activation
+of the cyclic
+AMP/protein kinase A pathway. Int Immunopharmacol 4,
+1409-1417.
+[47]
+Al-Wadei H, Takahashi T, Schuller H (2006) Caffeine stim-
+ulates the proliferation of human lung adenocarcinoma cells
+and small airway epithelial cells via activation of PKA, CREB
+and ERK1/2. Oncol Rep 15, 431-435.
+[48]
+D’Angelo G, Lee H, Weiner R (1997) cAMP-dependent pro-
+tein kinase inhibits the mitogenic action of vascular endothe-
+lial growth factor and ﬁbroblast growth factor in capillary en-
+dothelial cells by blocking Raf activation. J Cell Biochem 67,
+353-366.
+[49]
+Echeverria V, Burgess S, Gamble-George J, Zeitlin R, Lin
+X, Cao C, Arendash GW (2009) Sorafenib inhibits nu-
+clear factor kappa B, decreases inducible nitric-oxide syn-
+thase and cyclooxygenase-2 expression, and restores work-
+ing memory in APPswe mice. Neuroscience, doi: 10.1016/j.
+neuroscience.2009.05.019.
+[50]
+Costa D, Cracchiolo J, Bachstetter A, Hughes T, Bales K, Paul
+S, Mervis R, Arendash G, Potter H (2007) Enrichment im-
+proves cognition in AD mice by amyloid-related and unrelated
+mechanisms. Neurobiol Aging 28, 831-844.
+[51]
+Gong B, Vitolo O, Trinchese F, Liu S, Shelanski M, Arancio O
+(2004) Persistent improvement in synaptic and cognitive func-
+tions in an Alzheimer mouse model after rolipram treatment.
+J Clin Invest 114, 1624-1634.
+[52]
+Hooper C, Killick R, Lovestone S (2008) The GSK3 hypoth-
+esis of Alzheimer’s disease. J Neurochem 104, 1433-1439.
+[53]
+Twomey C, McCarthy J (2006) Presenilin-1 is an unprimed
+glycogen synthase kinase-3beta substrate. FEBS Lett 580,
+4015-4020.
+[54]
+Lucas J, Hern´andez F, G´omez-Ramos P, Mor´an M, Hen R,
+Avila J (2001) Decreased nuclear beta-catenin, tau hyperphos-
+phorylation and neurodegeneration in GSK-3beta conditional
+transgenic mice. EMBO J 20, 27-39.
+[55]
+Engel T, Hern´andez F, Avila J, Lucas J (2006) Full reversal
+of Alzheimer’s disease-like phenotype in a mouse model with
+conditional overexpression of glycogen synthase kinase-3. J
+Neurosci 26, 5083-5090.
+[56]
+Potter H, Wefes I, Nilsson L (2001) The inﬂammation-induced
+pathological chaperones ACT and apo-E are necessary cata-
+lysts of Alzheimer amyloid formation. Neurobiol Aging 22,
+923-930.
+[57]
+Azam S, Hadi N, Khan N, Hadi S (2003) Antioxidant and
+prooxidant properties of caffeine, theobromine and xanthine.
+Med Sci Monit 9, BR325-330.
+[58]
+Paris D, Quadros A, Humphrey J, Patel N, Crescentini R,
+Crawford F, Mullan M (2004) Nilvadipine antagonizes both
+Abeta vasoactivity in isolated arteries, and the reduced cerebral
+blood ﬂow in APPsw transgenic mice. Brain Res 999, 53-61.
+[59]
+Ju´arez-M´endez S, Carretero R, Mart´ınez-Tellez R, Silva-
+G´omez A, Flores G (2006) Neonatal caffeine administration
+causes a permanent increase in the dendritic length of pre-
+frontal cortical neurons of rats. Synapse 60, 450-455.
+[60]
+Lee W, Anwyl R, Rowan M (1987) Caffeine inhibits post-
+tetanic potentiation but does not alter long-term potentiation
+in the rat hippocampal slice. Brain Res 426, 250-256.
+[61]
+Lu K, Wu S, Gean P (1999) Promotion of forskolin-induced
+long-term potentiation of synaptic transmission by caffeine in
+area CA1 of the rat hippocampus. Chin J Physiol 42, 249-253.
+[62]
+Mart´ın E, Bu˜no W (2003) Caffeine-mediated presynaptic
+long-term potentiation in hippocampal CA1 pyramidal neu-
+rons. J Neurophysiol 89, 3029-3038.
+[63]
+Chen X, Gawryluk J, Wagener J, Ghribi O, Geiger J (2008)
+Caffeine blocks disruption of blood brain barrier in a rabbit
+model of Alzheimer’s disease. J Neuroinﬂammation 5, 12.
+[64]
+Zipser B, Johanson C, Gonzalez L, Berzin T, Tavares R,
+Hulette C, Vitek M, Hovanesian V, Stopa E (2007) Microvas-
+cular injury and blood-brain barrier leakage in Alzheimer’s
+disease. Neurobiol Aging 28, 977-986.
+[65]
+Ujiie M, Dickstein D, Carlow D, Jefferies W (2003) Blood-
+brain barrier permeability precedes senile plaque formation in
+an Alzheimer disease model. Microcirculation 10, 463-470.

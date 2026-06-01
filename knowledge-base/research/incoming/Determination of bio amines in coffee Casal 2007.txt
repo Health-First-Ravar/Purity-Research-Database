@@ -1,0 +1,784 @@
+Full Terms & Conditions of access and use can be found at
+http://www.tandfonline.com/action/journalInformation?journalCode=ljlc20
+Download by: [University of Exeter]
+Date: 01 April 2016, At: 19:57
+Journal of Liquid Chromatography & Related
+Technologies
+ISSN: 1082-6076 (Print) 1520-572X (Online) Journal homepage: http://www.tandfonline.com/loi/ljlc20
+DETERMINATION OF BIOGENIC AMINES IN COFFEE
+BY AN OPTIMIZED LIQUID CHROMATOGRAPHIC
+METHOD
+S. Casal , M. B.P.P. Oliveira & M. A. Ferreira
+To cite this article: S. Casal , M. B.P.P. Oliveira & M. A. Ferreira (2002) DETERMINATION OF
+BIOGENIC AMINES IN COFFEE BY AN OPTIMIZED LIQUID CHROMATOGRAPHIC METHOD,
+Journal of Liquid Chromatography & Related Technologies, 25:16, 2535-2549, DOI: 10.1081/
+JLC-120014273
+To link to this article:  http://dx.doi.org/10.1081/JLC-120014273
+Published online: 06 Feb 2007.
+Submit your article to this journal 
+Article views: 8
+View related articles 
+Citing articles: 11 View citing articles 
+
+DETERMINATION OF BIOGENIC AMINES
+IN COFFEE BY AN OPTIMIZED LIQUID
+CHROMATOGRAPHIC METHOD
+S. Casal,* M. B. P. P. Oliveira, and M. A. Ferreira
+CEQUP=Servic¸o de Bromatologia, Faculdade de Farma´cia,
+Universidade do Porto, R Anı´bal Cunha 164, 4050-047
+Porto, Portugal
+ABSTRACT
+An high-performance liquid chromatography (HPLC) method is
+described for speciﬁc and sensitive quantiﬁcation of seven bio-
+genic amines in coffee (putrescine, cadaverine, histamine, seroto-
+nine, tyramine, spermidine, and spermine). They are extracted
+from the coffee matrix with trichloroacetic acid, followed by
+an ion-pair clean-up procedure with bis-2-ethylhexylphosphate.
+Finally, they are converted to the corresponding dansyl derivatives
+for HPLC analysis. The factors that inﬂuence the determination
+were carefully adjusted according to coffee matrix characteristics
+(extraction, clean-up, and derivatization conditions).
+Chromatographic separation is performed in a Kromasil
+C18 column, using a 0.5 mM phosphoric acid=acetonitrile=
+methanol gradient, at a ﬂow rate of 1 mL=min. The efﬂuent is
+monitored by a series arrangement of a diode-array detector
+followed by a ﬂuorimetric detector.
+2535
+JOURNAL OF LIQUID CHROMATOGRAPHY & RELATED TECHNOLOGIES
+Vol. 25, No. 16, pp. 2535–2549, 2002
+DOI: 10.1081=JLC-120014273
+1082-6076 (Print); 1520-572X (Online)
+Copyright # 2002 by Marcel Dekker, Inc.
+www.dekker.com
+*Corresponding author. E-mail: sucasal@ff.up.pt
+©2002 Marcel Dekker, Inc. All rights reserved. This material may not be used or reproduced in any form without the express written permission of Marcel Dekker, Inc.
+MARCEL DEKKER, INC. • 270 MADISON AVENUE • NEW YORK, NY 10016
+Downloaded by [University of Exeter] at 19:57 01 April 2016 
+
+The present analytical method proved to be accurate, linear,
+and with lower limits of quantiﬁcation (less than 0.5 mg=kg).
+Data concerning recovery and repeatability of the method are also
+reported.
+INTRODUCTION
+Biogenic amines are naturally occurring compounds, ubiquitous in animals
+and plants. These low molecular weight bases can be either aliphatic (putrescine,
+cadaverine, spermidine, spermine), or aromatic (tyramine, histamine, serotonine).
+Although many of these active substances play normal roles in mammalian
+physiology, they can also cause unnatural or toxic effects when consumed in large
+amounts, especially if their metabolism is blocked or genetically altered.[1,2]
+Polyamines (putrescine, spermine and spermidine) fulﬁll an array of roles in
+cellular metabolism and are involved in protein, RNA, and DNA synthesis. Their
+most important function seems to be the mediating action of all known hormones
+and growth factors.[2] All plant cells, tissues, and organs provide the biosynthetic
+machinery and capacity to produce aliphatic polyamines in some speciﬁc organs
+and tissues. Polyamines are described as being accumulated in high concentration in
+storage organs, such as seeds. Biogenic amines are also food aroma components and
+potential precursors of the carcinogenic N-nitroso compounds.[3]
+Biogenic amines have been extensively analyzed in food products, such as
+cheese, meat, ﬁsh, vegetables, and feedstuffs.[4] Data about these compounds in
+coffee are, however, quite scarce in the literature.[5–7]
+Several chromatographic methods have been proposed for the quantitative
+determination of amines, including thin-layer chromatography, gas chromato-
+graphy, capillary electrophoresis, micellar electrokinetic chromatography and,
+more frequently, high-performance liquid chromatography (HPLC).[8]
+Biogenic amines are a group of compounds of difﬁcult simultaneous
+analysis because of their structural diversity and lack of pronounced UV-Vis
+absorption. The usual approach, therefore, has been the derivatization of free
+amines with an easily detectable group in order to increase the sensitivity of the
+method. This derivatization step usually reduces the basicity of the nitrogen atom
+and the use of reversed phases is usually considered the most suitable technique
+for this analytical purpose.
+Several methods for separation, identiﬁcation, and determination of amines
+by HPLC have been published throughout during the last two decades. All methods
+involve three main steps, i.e., amines extraction, puriﬁcation of the extract, and
+derivatization. Among the more described reagents for the derivatization is dansyl
+chloride.[8–12] It has the advantage, comparing with ﬂuorescamine or ortho-
+phthaldehyde, to originate derivatives with both primary and secondary amines
+2536
+CASAL, OLIVEIRA, AND FERREIRA
+©2002 Marcel Dekker, Inc. All rights reserved. This material may not be used or reproduced in any form without the express written permission of Marcel Dekker, Inc.
+MARCEL DEKKER, INC. • 270 MADISON AVENUE • NEW YORK, NY 10016
+Downloaded by [University of Exeter] at 19:57 01 April 2016 
+
+which are stable enough for subsequent spectroscopic analysis. Dansyl chloride is a
+particularly well established reagent and gives high ﬂuorescent sulfonamide
+derivatives with improved chromatographic properties.
+The objective of this work was to optimize a method to quantify biogenic
+amines in coffee by reversed-phase HPLC with dansyl chloride derivatization. As
+the complexity of the coffee matrix may inﬂuence the analytical determination,
+the behavior of biogenic amines in some steps of the procedure (extraction, clean-
+up, dansylation conditions, etc,) was extensively studied. Also, a standard
+addition method was used.
+EXPERIMENTAL
+Equipment
+The HPLC equipment consisted of an integrated system with two model
+PU-980 pumps, a AS-950 automated injector, a MD-910 multiwavelength diode
+array detector (DAD), and a FP-920 ﬂuorimetric detector (Jasco, Japan). Data was
+analyzed using a Borwin-PDA Controller Software (JMBS, France).
+The column used was a reversed-phase Kromasil 100 C18 (5 mm), 250 
+4.6 mm (Teknokroma, Spain) operating at ambient temperature.
+Standards and Reagents
+Standard Solutions
+Putrescine dihydrochloride (put), cadaverine dihydrochloride (cad), hista-
+mine dihydrochloride (his), tyramine hydrochloride (tyr), spermidine trihydro-
+chloride (spd), and spermine tetrahydrochloride (spm), serotonine (ser) (Sigma
+Chemical Co, USA) at 10 mg=mL free base in water, stored at 5C, and diluted to
+working solutions as necessary.
+Internal Standard
+1,7-Diaminoheptane (IS) (Aldrich, USA) at 10 mg=mL, stored at 5C.
+Dansyl Chloride Solution
+Acetone, 7.5 mg=mL, (Sigma), prepared daily and stored at 20C
+protected from light.
+BIOGENIC AMINES IN COFFEE
+2537
+©2002 Marcel Dekker, Inc. All rights reserved. This material may not be used or reproduced in any form without the express written permission of Marcel Dekker, Inc.
+MARCEL DEKKER, INC. • 270 MADISON AVENUE • NEW YORK, NY 10016
+Downloaded by [University of Exeter] at 19:57 01 April 2016 
+
+L-Proline
+L-proline (Sigma) was prepared at 100 mg=mL in water, kept refrigerated.
+Amine Extraction
+For amine extraction, trichloroacetic acid (TCA), perchloric acid (PCA),
+hydrochloric acid (HCl), sodium carbonate (Na2CO3), ammonia, chloroform, and
+toluene were from Merck (Darmstadt, Germany), bis-2-ethylhexylphosphate
+(BEHPA) was from Aldrich.
+High Performance Liquid Chromatography Analyses
+For HPLC analyses, phosphoric acid, acetonitrile, and methanol (LiChro-
+solv—gradient grade) (Merck, Germany), and water puriﬁed with a ‘‘Seral’’
+system (SeralPur Pro 90 CN), where used throughout after being ﬁltered and
+degassed.
+Sample Preparation
+Arabica and robusta coffee beans from several geographical origins were
+analyzed, both raw and after a standard roast procedure (160–220C, 15 min). All
+coffee sample beans were ground and powdered to pass through a 0.75 mm sieve
+and sample moisture was immediately determined by drying at 103  2C until
+constant weight.
+Extraction and Derivatization Procedure
+The internal standard (1,7-diaminoheptane) was added to a 3 g portion of
+each powdered coffee bean sample. Two extractions were performed with 5%
+TCA in a screw cap plastic tube, with a total of 25 mL, stirring each fraction for
+10 min. After separation by means of centrifugation at 4000 rpm, the extracts
+were combined and a 2 mL portion was subjected to an ion-pair clean-up
+procedure with BEHPA as follows: the pH was adjusted to 7.4 in a screw cap
+centrifuge tube and the volume adjusted to 3 mL with phosphate buffer pH 7.4
+(0.2 M). The buffered sample was extracted with 2 mL 0.1 M BEHPA solution in
+chloroform, by vortex mixing, and centrifuged at 4000 rpm; the chloroformic
+2538
+CASAL, OLIVEIRA, AND FERREIRA
+©2002 Marcel Dekker, Inc. All rights reserved. This material may not be used or reproduced in any form without the express written permission of Marcel Dekker, Inc.
+MARCEL DEKKER, INC. • 270 MADISON AVENUE • NEW YORK, NY 10016
+Downloaded by [University of Exeter] at 19:57 01 April 2016 
+
+phase was taken to a second tube and back-extracted with 2 mL of HCl 0.1 M,
+upon vortex mixing and centrifugation as described above.
+The derivatization was performed in a screw cup plastic tube as follows:
+400 mL extract, 1 mL saturated solution of Na2CO3 and pH adjustment to
+11.0–11.2. The derivatizing agent was added as a 1 mL volume of 7.5 mg=mL
+solution in acetone. After rapid vortex-mixing, the samples were closed and
+placed for 12 min at 60C in a thermostatically controlled water bath, in the
+absence of light. Then, proline solution (100 mL) was added, homogenized
+with a vortex mixer, and rest for 15 min in darkness, at room temperature.
+Extraction of the derivatized biogenic amines was performed with 1500 mL
+toluene. After 15 min at 18C, 1 mL of the organic phase was recovered into
+a Eppendorf tube and evaporated to dryness under a gentle stream of nitrogen
+(40C). The pellet was then ressuspended in 300 mL acetonitrile (with vortex
+mixer), centrifuged at 13,000 rpm for 5 min and transferred to appropriate vials
+with 200 mL inserts for use in the automatic sampler.
+Chromatography
+Elution was performed at 1 mL=min with a linear gradient of A—0.05 M
+phosphoric acid, and B—methanol=acetonitrile (1 : 1) ﬂushed at 1 mL=min with a
+gradient elution program as developed by Hornero-Mendez and Garrido-
+Fernandez.[12] The detection was performed by both the DAD detector, with
+chromatograms recorded at 254 nm, connected in series with a ﬂuorimetric
+detector programmed for excitation at 252 nm and emission at 500 nm.
+The
+compounds
+under
+study
+were
+identiﬁed
+by
+chromatographic
+comparisons with authentic standard derivatives, by co-elution and by the UV
+spectral characteristics of their dansyl derivatives. Peak purity tests were also
+performed with the DAD.
+Identiﬁcation
+The biogenic amines’ presence was conﬁrmed by GC-MS after derivatiza-
+tion with heptaﬂuorobutyric anhydride.[13] Although suspecting the presence
+of tryptamine, this was not conﬁrmed by GC-MS and its analysis was not
+carried out.
+RESULTS AND DISCUSSION
+There are many methods published in the literature for the selective
+extraction of biogenic amines from various matrices. As the matrix itself greatly
+BIOGENIC AMINES IN COFFEE
+2539
+©2002 Marcel Dekker, Inc. All rights reserved. This material may not be used or reproduced in any form without the express written permission of Marcel Dekker, Inc.
+MARCEL DEKKER, INC. • 270 MADISON AVENUE • NEW YORK, NY 10016
+Downloaded by [University of Exeter] at 19:57 01 April 2016 
+
+inﬂuences the results, a method was developed speciﬁcally for coffee in order to
+obtain the highest levels of recovery and also the absence of co-eluting
+interferences. For this purpose, a green arabica coffee sample from Brazil was
+used throughout this study.
+Choice of Extracting Solvent
+In plants, in addition to free polyamines, many polyamines are conjugated
+to hydroxycinnamic acids, the hydroxycinnamic amines, that only rarely are
+represented outside the plant kingdom.[14] As water extracts only free amines, we
+have tested several acidic media in order to also extract amines linked to other
+matrix components. After literature review,[8–12,15,16] three acids were tested:
+0.1 M HCl, 0.4 M or 0.6 M PCA, and 5% or 10% TCA. Each extraction was
+performed in duplicate and the chromatograms compared in terms of peak areas.
+Although cited with relative frequency, especially for cheese, HCl
+originated a turbid extract with badly resolved peaks and was, therefore,
+eliminated. Perchloric acid provided abnormal higher peak areas for His and Tyr
+when compared with TCA, under the ﬂuorimetric detection. A peak purity test
+performed with the DAD revealed extremely impure peaks. Cad peak seemed,
+also, to be impure in all the extractions tested.
+The other compounds’ areas were quite similar, as were also similar the
+relative areas to the IS. The results achieved in terms of relative areas are
+presented in Table 1. The mean results were obtained after elimination of His and
+Tyr for the reasons described above. Facing these inconclusive results, the clean-
+up studies have proceeded with both 0.4 M PCA and 5% TCA.
+Table 1.
+Relative Areas Achieved Under Several Extracting Conditions
+0.6 M PCA
+0.4 M PCA
+10% TCA
+5% TCA
+Putrescine
+100
+100
+89
+92
+Cadaverine
+56
+93
+94
+100
+Histamine
+(35)
+(100)
+(4)
+(8)
+Serotonine
+79
+85
+88
+100
+Tyramine
+(75)
+(100)
+(47)
+(36)
+Spermidine
+100
+94
+89
+94
+Spermidine
+91
+100
+91
+100
+Meana
+85
+94
+90
+97
+aWithout His and Tyr.
+2540
+CASAL, OLIVEIRA, AND FERREIRA
+©2002 Marcel Dekker, Inc. All rights reserved. This material may not be used or reproduced in any form without the express written permission of Marcel Dekker, Inc.
+MARCEL DEKKER, INC. • 270 MADISON AVENUE • NEW YORK, NY 10016
+Downloaded by [University of Exeter] at 19:57 01 April 2016 
+
+Clean-Up Procedures
+The extract puriﬁcation treatments can be divided into two main groups:
+liquid–liquid extraction with organic solvents,[8–9,12,13,16,17] and solid-phase
+extraction.[18] For this work, a liquid–liquid extraction was chosen and several
+methods were tested based on literature reports. Method A uses diethylether,
+method B requires butanol, method C uses butanol=chloroform, and method
+D uses a ion-pairing reagent (BEHPA). The results were compared with the
+unclean extracts (E) in terms of areas (DAD and ﬂuorimetric), relative areas, and
+peak purity.
+Method A did not eliminate the co-eluting interference with His. After the
+clean-up procedure, an extra peak was observed co-eluting with Cad. This
+compound was also present in the blank, being, therefore, attributed to reagent
+contamination.
+Methods B and C presented also interfering peaks coincident with His and
+Cad, conﬁrmed by both purity peak analysis with the DAD and absence of
+characteristic dansyl derivatives’ ﬂuorescence. Gradient adjustment proved
+unsuccessful to separate these impurities. Also, these two methods require
+saturated salt solutions in order to improve extraction coefﬁcients and to prevent
+mixing of the aqueous and organic phases during the liquid–liquid extraction.
+The use of Na2CO3 for this purpose, although frequently referred, makes it
+difﬁcult to standardize, as its solubility is greatly inﬂuenced by temperature and
+by other compounds present in the extract, causing pH variations.
+Method D-ion-pair extraction with BEHPA-has proved to be a powerful and
+very efﬁcient agent for the extraction of various organic bases, leading to
+increased
+recovery
+and
+enhanced
+puriﬁcation
+for
+the
+extracts
+obtained
+from complex matrices. Although more time consuming, the chromatograms
+obtained were clearer, with basically no differences between PCA and TCA
+extracts.
+Based on these observations, we have chosen method D. Concerning the
+extract, 5% TCA represented, always, a slightly better choice. A blank analysis
+was performed with the chosen method and no peaks coincident with the studied
+biogenic amines were observed.
+Optimization of Derivatization Conditions
+There is no agreement in the literature on the derivatization conditions that
+should be used for biogenic amines; instead, a wide variety of conditions is
+proposed. It was necessary to adjust the derivatization conditions in order to ﬁnd
+the optimal dansyl chloride concentration, incubation pH, temperature, and
+reaction time.
+BIOGENIC AMINES IN COFFEE
+2541
+©2002 Marcel Dekker, Inc. All rights reserved. This material may not be used or reproduced in any form without the express written permission of Marcel Dekker, Inc.
+MARCEL DEKKER, INC. • 270 MADISON AVENUE • NEW YORK, NY 10016
+Downloaded by [University of Exeter] at 19:57 01 April 2016 
+
+Inﬂuence of pH
+During the derivatization step, the pH is usually controlled, as it greatly
+inﬂuences the partition equilibrium of amines between the two phases. Sodium
+carbonate is frequently used for this purpose. Several pH’s were tested from 10.0
+to 12.0, as represented in Fig. 1. The optimum pH is related to the amines being
+determined, as their behaviors vary. pH 11 represented a compromise situation
+and was, therefore, chosen for this step.
+Dansyl Chloride Concentration
+Tests were performed in order to ﬁnd the optimal dansyl concentration on
+the derivatization medium. The effect of dansyl chloride concentration on the
+derivatization is presented in Fig. 2. Concentrations higher than 3 mg=mL did not
+increase the detector response and introduced impurities coeluting with the
+smaller peaks. Therefore, this was the chosen concentration corresponding to
+the addition of 1 mL dansyl chloride at 7.5 mg=mL.
+Figure 1.
+pH inﬂuence during the derivatization step.
+2542
+CASAL, OLIVEIRA, AND FERREIRA
+©2002 Marcel Dekker, Inc. All rights reserved. This material may not be used or reproduced in any form without the express written permission of Marcel Dekker, Inc.
+MARCEL DEKKER, INC. • 270 MADISON AVENUE • NEW YORK, NY 10016
+Downloaded by [University of Exeter] at 19:57 01 April 2016 
+
+Incubation Conditions
+Several temperature=time combinations were tested in order to ﬁnd the
+fastest and still accurate combination. Derivatization temperature was studied at
+40C (15, 30, 45 min), and 60C for (3, 5, 8, 12, 15 min) in a water bath. The data
+obtained are represented in Table 2; they show that the best derivatization
+conditions were between 12 and 15 min at 60C. Higher incubation times gave
+inconstant compound losses (not represented). Incubation for 12 min at 60C
+produced better results for the three principal amines (put, spd, and spm) and was,
+therefore, chosen.
+Neutralization of the Dansyl Chloride
+Some recent works describe the neutralization of the excessive dansyl
+chloride in order to obtain stable derivative solutions and more reproducible
+Figure 2.
+Effect of dansyl chloride concentration on the derivatization conditions.
+BIOGENIC AMINES IN COFFEE
+2543
+©2002 Marcel Dekker, Inc. All rights reserved. This material may not be used or reproduced in any form without the express written permission of Marcel Dekker, Inc.
+MARCEL DEKKER, INC. • 270 MADISON AVENUE • NEW YORK, NY 10016
+Downloaded by [University of Exeter] at 19:57 01 April 2016 
+
+results, with fewer secondary peaks. For this purpose, ammonia and L-proline
+were tested. A 100 mL portion was sufﬁcient to neutralize the excess dansyl
+chloride, as described by Duﬂos et al.[11] and no differences were observed
+between the two compounds tested.
+Validation: Linearity, Precision, Recovery, Quantiﬁcation Limit
+The ﬁrst calibration curves were constructed with standard solutions
+submitted to the entire protocol as described in the Experimental section. The
+correlation coefﬁcients (r2) were always higher than 0.999 with both detectors.
+As our objective was to quantify coffee biogenic amines by the standard
+addition method, the same arabica coffee sample used throughout this study was
+extracted, in duplicate, after spiking with four different concentrations of each of
+the biogenic amines. Correlation coefﬁcients (r2) of standard addition calibration
+curves were higher than 0.99, except for serotonine. The tested range for each
+biogenic amine, selected according to the expected values for coffee, is
+summarized in Table 3.
+The results from the validation of the method are listed in Table 3. The
+method proved to be precise (within-day precision ranging from 1.2 to 12.5% and
+inter-day precision ranging from 2.3 to 13.2%).
+Detection limits (three times signal-to-noise ratio under the DAD detector)
+were lower than 0.06 mg=g. The lower limit of quantiﬁcation was investigated in
+coffee samples. Recovery was tested by the standard addition procedure; three
+addition levels were used for each amine. Mean extraction recoveries are also
+represented in Table 3.
+Figure 3 represents chromatograms obtained with standards, with the DAD
+detector (A) and the ﬂuorimetric detector (B).
+Table 2.
+Incubation Condition Tested (Relative Yields in Percentage)
+Temperature:
+40C
+60C
+Time:
+15
+30
+45
+3
+5
+8
+12
+15
+Putrescine
+66
+94
+93
+100
+89
+99
+97
+92
+Cadaverine
+40
+100
+73
+46
+62
+85
+86
+89
+Histamine
+36
+42
+38
+39
+31
+28
+94
+100
+Tyramine
+52
+55
+47
+66
+86
+40
+100
+99
+Spermidine
+74
+86
+86
+72
+80
+86
+100
+94
+Spermine
+66
+81
+75
+76
+67
+74
+100
+95
+Mean
+56
+77
+69
+66
+69
+69
+96
+95
+2544
+CASAL, OLIVEIRA, AND FERREIRA
+©2002 Marcel Dekker, Inc. All rights reserved. This material may not be used or reproduced in any form without the express written permission of Marcel Dekker, Inc.
+MARCEL DEKKER, INC. • 270 MADISON AVENUE • NEW YORK, NY 10016
+Downloaded by [University of Exeter] at 19:57 01 April 2016 
+
+Table 3.
+Method Validation Parameters
+Rt
+Linearity
+Limits
+Precision
+Recovery
+min
+cv%
+(n ¼ 10)
+Range
+(mg=ml)
+Detection
+mg=g
+Quantiﬁcation
+mg=g
+Within-Day
+CV% (n ¼ 3)
+Inter-Day
+CV% (n ¼ 3)
+Mean%
+(n ¼ 3)
+Putrescine
+16.2
+0.4
+1.50–30.00
+0.009
+0.036
+1.6
+2.3
+98.5
+Cadaverine
+17.2
+0.4
+0.05–1.00
+0.001
+0.002
+6.2
+11.4
+100.2
+Histamine
+18.6
+0.3
+0.05–1.00
+0.007
+0.030
+8.3
+12.6
+98.2
+Serotonine
+21.3
+0.4
+0.05–1.00
+0.062
+0.377
+12.5
+13.2
+95.5
+Tyramine
+23.8
+0.4
+0.05–1.00
+0.025
+0.145
+11.0
+10.2
+100.2
+Spermidine
+25.4
+0.3
+1.50–30.00
+0.010
+0.040
+1.2
+5.7
+90.4
+Spermine
+28.6
+0.6
+1.50–30.00
+0.011
+0.043
+4.3
+3.5
+90.8
+BIOGENIC AMINES IN COFFEE
+2545
+©2002 Marcel Dekker, Inc. All rights reserved. This material may not be used or reproduced in any form without the express written permission of Marcel Dekker, Inc.
+MARCEL DEKKER, INC. • 270 MADISON AVENUE • NEW YORK, NY 10016
+Downloaded by [University of Exeter] at 19:57 01 April 2016 
+
+Figure 3.
+(A) Typical standards chromatogram obtained with the DAD at 254 nm:
+1—tryptamine,
+2—phenylethylamine,
+3—putrescine,
+4—cadaverine,
+5—histamine,
+6—serotonine,
+7—spermidine,
+8—spermine.
+For
+chromatographic
+conditions
+see
+Experimental section. (B) Typical standard chromatogram obtained with the ﬂuorescence
+detector. Identiﬁcation as in Fig. 3A.
+2546
+CASAL, OLIVEIRA, AND FERREIRA
+©2002 Marcel Dekker, Inc. All rights reserved. This material may not be used or reproduced in any form without the express written permission of Marcel Dekker, Inc.
+MARCEL DEKKER, INC. • 270 MADISON AVENUE • NEW YORK, NY 10016
+Downloaded by [University of Exeter] at 19:57 01 April 2016 
+
+Determination of Biogenic Amines in Coffee Samples
+Table 4 shows the biogenic amine contents in the green coffee samples
+analyzed. The biogenic amine contents are in accordance with the few
+bibliographic references found.[5,7] All biogenic amines were lost during roasting,
+Table 4.
+Biogenic Amine Content in Raw Coffee (Dry Base)
+Robusta
+Arabica
+mg=g
+Ivory Coast
+Angola
+Uganda
+Colombia
+Brasil
+Mexico
+Putrescine
+16.845
+6.436
+12.377
+49.258
+45.750
+52.424
+Cadaverine
+0.339
+0.165
+0.197
+0.070
+0.124
+0.239
+Histamine
+0.793
+0.212
+0.602
+0.510
+0.577
+0.629
+Serotonine
+3.122
+3.207
+2.311
+1.815
+3.076
+3.189
+Tyramine
+0.840
+4.166
+0.975
+0.554
+0.696
+0.579
+Spermidine
+6.867
+3.333
+5.107
+5.798
+7.490
+6.233
+Spermine
+8.416
+3.683
+7.693
+7.203
+7.588
+6.246
+Figure 4.
+Typical chromatograms of a raw (A), roasted (B) arabica coffee sample. Peak
+identiﬁcation as in Fig. 3.
+BIOGENIC AMINES IN COFFEE
+2547
+©2002 Marcel Dekker, Inc. All rights reserved. This material may not be used or reproduced in any form without the express written permission of Marcel Dekker, Inc.
+MARCEL DEKKER, INC. • 270 MADISON AVENUE • NEW YORK, NY 10016
+Downloaded by [University of Exeter] at 19:57 01 April 2016 
+
+with only vestigial amounts being present, as previously reported by Amorim
+et al.[5]
+Figure 4 represents typical chromatograms of green arabica coffee sample
+(A) and after roasting (B) with the ﬂuorimetric detector. Both detectors proved
+equally efﬁcient for the analysis in question.
+Based on the results achieved, with apparent differences between arabica
+and robusta coffee beans, especially for putrescine, it will be interesting to know
+if green coffee polyamines content can discriminate coffee varieties. Also, the
+knowledge of their behavior during roasting can probably be important
+for industrial roasting control. Studies are being conducted with these purposes
+as a goal.
+REFERENCES
+1.
+Bardocz, S.; Duguid, T.J.; Brown, D.S.; Grant, G.; Pusztai, A.; White, A.;
+Ralph, A. The Importance of Dietary Polyamines in Cell Regeneration and
+Growth. Brit. J. Nutr. 1995, 73, 819–828.
+2.
+Igarashi, K.; Kashiwagi, K. Polyamines: Mysterious Modulators of Cellular
+Functions. Biochem. Biophys. Res. Comm. 2000, 271, 559–564.
+3.
+Sen, N.; Seaman, S.; Weber, D. Mass Spectrometric Conﬁrmation of the
+Presence of N-Nitrosopyrrolidine in Instant Coffee. J. Assoc. Off. Anal.
+Chem. 1990, 73 (2), 325–327.
+4.
+Brink, B.; Damink, C.; Joosten, H.; Veld, J. Occurence and Formation of
+Biologically Active Amines in Foods. Intl. J. Food Microb. 1990, 11,
+73–84.
+5.
+Amorim, H.V.; Basso, L.C.; Crocomo, O.J.; Teixeira, A.A. Polyamines
+in Green and Roasted Coffee. J. Agric. Food Chem. 1977, 25 (4),
+957–958.
+6.
+Kele, M.; Ohmacht, R. Determination of Serotonin Released from Coffee
+Wax by Liquid Chromatography. J. Chromatogr. A. 1996, 730, 59–62.
+7.
+Macrae, R. Nitrogenous Components. In Coffee Vol. I: Chemistry; Clarke,
+R.; Macrae, R., Eds.; Elsevier Applied Science: London, 1987; 115–152.
+8.
+Gennaro, M.; Giacosa, D.; Abrigo, C.; Biglini, P.; Campi, E. Organic Bases.
+In Handbook of Food Analysis; Nollet, L., Ed.; Marcel Dekker, Inc.: New
+York, 1996; Vol. 1, 745–820.
+9.
+Moret, S.; Conte, L. High Performance Liquid Chromatographic Evaluation
+of Biogenic Amines in Foods. An Analysis of Different Methods of Sample
+Preparation in Relation to Food Characteristics. J. Chromatogr. A 1996,
+729, 363–369.
+10.
+Valle, M.; Malle, P. Optimization of a Liquid Chromatographic Method for
+Determination of Amines in Fish. J. AOAC Intl. 1997, 80 (1), 49–56.
+2548
+CASAL, OLIVEIRA, AND FERREIRA
+©2002 Marcel Dekker, Inc. All rights reserved. This material may not be used or reproduced in any form without the express written permission of Marcel Dekker, Inc.
+MARCEL DEKKER, INC. • 270 MADISON AVENUE • NEW YORK, NY 10016
+Downloaded by [University of Exeter] at 19:57 01 April 2016 
+
+11.
+Duﬂos, G.; Dervin, C.; Malle, P.; Bouquelet, S. Relevance of Matrix Effect
+in Determination of Biogenic Amines in Plaice (Pleuronectes Platessa) and
+Whiting (Merlangus merlangus). J. AOAC Intl. 1999, 82 (5), 1096–1101.
+12.
+Hornero-Mendez, D.; Garrido-Fernandez, A. Biogenic Amines in Table
+Olives. Analysis by High-Performance Liquid Chromatography. Analyst
+1994, 119, 2037–2041.
+13.
+Fernandez, J.O.; Ferreira, M.A. Combined Ion-Pair Extraction and Gas
+Chromatography-Mass Spectrometry for the Simultaneous Determination
+of Diamines, Polyamines and Aromatic Amines in Port Wine and Grape
+Juice. J. Chromatogr. A 2000, 886, 183–195.
+14.
+Bagni, N. Metabolism and Accumulation of Biogenic Amines in Plant
+Food. Amino Acids 1999, 17, 57.
+15.
+Veciana-Nogues, M.T.; Hernandez-Jover, T.; Marine-Font, A.; Vidal-
+Carou, M.C. Liquid Chromatographic Method for Determination of
+Biogenic Amines in Fish and Fish Products. J. AOAC Intl. 1995, 78 (4),
+1045–1050.
+16.
+Antolini, F.; Franciosini, S.; Floridi, A.L.; Floridi, A. An Ion-Pair HPLC
+Method for the Determination of Histamine, Tyramine, Tryptamine, b-
+Phenylethylamine and Their Amino Acid Precursors in Cheeses for
+Industrial Purposes. Ital. J. Food Sci. 1999, 11 (4), 335–345.
+17.
+Salazar, M.T.; Smith, T.K.; Harris, A. High-Performance Liquid Chromato-
+graphic Method for Determination of Biogenic Amines in Feedstuffs,
+Complete Feeds, and Animal Tissues. J. Agric. Food Chem. 2000, 48,
+1708–1712.
+18.
+Mollins-Legua, C.; Campı´ns-Falco, P.; Sevillano-Cabeza, A.; Pedron-Pons, M.
+Urine Polyamines Determination Using Dansyl Chloride Derivatization in
+Solid-Phase Extraction Cartridges and HPLC. Analyst 1999, 124, 477–482.
+Received March 13, 2002
+Accepted May 1, 2002
+Manuscript 5842
+BIOGENIC AMINES IN COFFEE
+2549
+©2002 Marcel Dekker, Inc. All rights reserved. This material may not be used or reproduced in any form without the express written permission of Marcel Dekker, Inc.
+MARCEL DEKKER, INC. • 270 MADISON AVENUE • NEW YORK, NY 10016
+Downloaded by [University of Exeter] at 19:57 01 April 2016 
+
+©2002 Marcel Dekker, Inc. All rights reserved. This material may not be used or reproduced in any form without the express written permission of Marcel Dekker, Inc.
+MARCEL DEKKER, INC. • 270 MADISON AVENUE • NEW YORK, NY 10016
+Downloaded by [University of Exeter] at 19:57 01 April 2016 

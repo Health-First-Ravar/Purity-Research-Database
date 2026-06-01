@@ -1,0 +1,963 @@
+Page 1/22
+The acute effects of decaffeinated coffee on
+cognitive function and brain activity:a single-center
+experience
+Shenghui Zhang 
+Affiliated Hospital of Hangzhou Normal University
+Hua Fan 
+First Affiliated Hospital of Henan University of Science and Technology
+Xiyun Rao 
+Affiliated Hospital of Hangzhou Normal University
+Qingwen Yu 
+Affiliated Hospital of Hangzhou Normal University
+Ziyi Xin 
+Affiliated Hospital of Hangzhou Normal University
+Yongmin Shi 
+Affiliated Hospital of Hangzhou Normal University
+Xingwei Zhang 
+Affiliated Hospital of Hangzhou Normal University
+Zhiguo Hu 
+Affiliated Hospital of Hangzhou Normal University
+Mingwei Wang 
+Affiliated Hospital of Hangzhou Normal University
+Xinyan Fu 
+Affiliated Hospital of Hangzhou Normal University
+Article
+Keywords: Decaffeinated coffee, Resting-state functional MRI, Cognitive function, Amplitude of low-
+frequency fluctuation, Fractional amplitude of low-frequency fluctuation, Regional homogeneity
+Posted Date: April 19th, 2026
+DOI: https://doi.org/10.21203/rs.3.rs-8443818/v1
+
+Page 2/22
+License:   This work is licensed under a Creative Commons Attribution 4.0 International License.  
+Read Full License
+Additional Declarations: No competing interests reported.
+
+Page 3/22
+Abstract
+Background: Coffee is one of the most widely consumed beverages worldwide and is known for its
+beneficial effects on various diseases, which is often attributed to caffeine. However, other bioactive
+compounds in coffee also play an important role. The aim of this study was to investigate the acute
+effects of decaffeinated coffee.
+Methods: Thirty-one healthy adults participated in the study. Resting-state functional magnetic
+resonance imaging (rs-fMRI), cognitive-behavioral tests, self-report scales, and physiological measures
+were completed at baseline and 30 min post-drink. Based on rs-fMRI, we used static and dynamic
+amplitude of low-frequency fluctuations (ALFF), fractional amplitude of low-frequency fluctuations
+(fALFF), and regional homogeneity (ReHo) to observe changes in spontaneous brain activity following
+acute decaffeinated coffee intake.
+Results: After consumption, participants showed significantly faster reaction times in the 1-back (P =
+0.002), 2-back (P= 0.023), Continuous Performance Test (P = 0.003), and Finger Tapping Task (P =0.009).
+At the neural level, the participants showed significantly higher sfALFF in the fusiform gyrus (FFG) and
+inferior temporal gyrus (ITG) and significantly lower sReHo in the medial orbital of the superior frontal
+gyrus (PFCventmed) after consuming decaffeinated coffee compared with before, with no significant
+differences in sALFF. The sfALFF values in the FFG were significantly negatively correlated with RTs on
+CPT. Dynamic analysis revealed significantly lower dALFF values in the FFG and cerebellum, and
+significantly higher dALFF and dReHo values in the supplementary motor area (SMA). No brain regions
+showed significant differences in dfALFF after consuming decaffeinated coffee compared with before
+(GRF-corrected, voxel-level P < 0.01, cluster-level P < 0.05). In addition, diastolic blood pressure
+significantly increased (P = 0.004), and headache scores were higher (P = 0.033), while no significant
+changes in systolic blood pressure or heart rate were observed.
+Conclusions: These results suggest that decaffeinated coffee may affects cognitive performance and
+brain activity, providing insights into the effects of non-caffeine components of coffee and their
+underlying mechanisms. As an initial exploratory study, it provides a foundation for future research.
+Randomized, placebo-controlled trials with long-term assessments are now needed to validate and
+extend these findings.
+1 Introduction
+Coffee is one of the most commonly consumed beverages globally and has beneficial effects on several
+diseases. It has been shown to reduce the risk of some cancers, decrease cardiovascular disease
+mortality, and improve outcomes in some metabolism-related diseases such as type 2 diabetes and
+metabolic syndrome[1]. Additionally, long-term coffee consumption has been associated with the
+prevention of cognitive decline and a lower risk of neurological disorders, including Parkinson's disease,
+Alzheimer's disease, and depression[2]. Previous studies have focused on the effects of caffeine, which
+
+Page 4/22
+is believed to act as a non-specific, potent inhibitor of A1 and A2 adenosine receptors, leading to central
+nervous system hyperarousal[3], increased alertness and improved attention[4–6], and reduced burden of
+neurological disorders[7].
+However, recent studies have found that coffee's effects outweigh caffeine's effects[8]. A functional
+magnetic resonance imaging (fMRI) study revealed that caffeine intake duplicated the effects of coffee
+on only some brain networks [9].. On the one hand, this may be related to the expectancy effect. Studies
+have shown that expectations about caffeine intake affect mood and performance. Moreover, the impact
+of expectations is compatible with, and may even be preferable to, the impact of caffeine[10].
+On the other hand, evidence suggests that the health and neuroprotective effects of coffee are not solely
+attributable to caffeine. Instead, other bioactive compounds in coffee play a significant role in enhancing
+motor and cognitive performance, particularly in the context of aging and depression[11]. Coffee is a
+complex chemical mixture containing over 1000 different compounds[12], many of which can individually
+or synergistically influence cognition. In particular, phenolic acids such as chlorogenic acid (CGA) and
+caffeic acid have been shown to exert neurological benefits similar to caffeine[11]. These compounds
+have been found to significantly improve short-term or working memory impairments induced by
+scopolamine[12, 13].
+This prompted us to explore decaffeinated coffee as a potential neuroprotective beverage. Some studies
+have reported that decaffeinated coffee exerts protective effects against liver damage and type 2
+diabetes[14], prevents age-related and systemic diseases, and reduces cancer risk [15]. It has also shown
+efficacy in protecting against neurodegeneration across various neural pathways and conditions[11].
+Nevertheless, the relationship between decaffeinated coffee and cognitive function remains
+underexplored, with inconsistent findings. Although some studies have reported improvements in
+working memory, sustained attention, alertness, and mood following decaffeinated coffee
+consumption[8, 16, 17], others have found no significant association with cognitive performance[18].
+fMRI enables the investigation of human brain function during various tasks or at rest through blood
+oxygen level–dependent (BOLD) signaling[19]. In a task-based fMRI study, no significant differences were
+observed between the decaffeinated coffee and water groups in terms of response time, mean
+perfusion, BOLD activation, BOLD mean signal intensity, or BOLD mean baseline during a word stem
+completion task[20]. However, research on the effects of decaffeinated coffee on spontaneous brain
+activity remains limited. Resting-state functional magnetic resonance imaging (RS-fMRI) is a technique
+that allows the study of spontaneous brain activity when individuals are quiet, relaxed, and awake[21].
+Static metrics, including the amplitude of low-frequency fluctuation (sALFF) and regional homogeneity
+(sReHo), are frequently employed to characterize the local features of RS-fMRI signals[22–24]. These
+metrics, however, fail to account for the dynamic changes in brain activity over time. Capturing these
+temporal fluctuations in brain activity requires the use of dynamic metrics, such as the dynamic
+amplitude of low-frequency fluctuation (dALFF), the dynamic fractional amplitude of low-frequency
+
+Page 5/22
+fluctuation (dfALFF), and dynamic regional homogeneity (dReHo)[25]. Combining both static and dynamic
+metrics can provide a more comprehensive understanding of the acute effects of decaffeinated coffee
+on brain activity.
+In this study, we aimed to investigate the acute effects of decaffeinated coffee consumption by
+combining RS-fMRI with assessments of behavioral performance, emotional state, and physiological
+indicators.
+2 Methods
+Thirty-one healthy college students [16 male (mean age 23.44 ± 2.34 years) and 15 female (mean age
+24.87 ± 2.67 years)] were recruited through advertisements to participate in this study. Participants were
+recruited from the university campus through online advertisements. Interested individuals completed an
+initial online screening questionnaire to assess their eligibility based on the following criteria: All
+participants were right-handed, consumed fewer than four cups of coffee per week, had no history of
+psychiatric disorders or surgical trauma, and were nonsmokers and nondrinkers. The sample size was
+determined by adhering to the methodological precedent established in prior rs-fMRI research on acute
+coffee consumption, which utilized 24 and 32 participants[7]. All procedures were conducted in
+accordance with the ethical standards set by the Academic Ethics Committee of the Affiliated Hospital
+of Hangzhou Normal University (Approval No.[2023 (E2) - KS − 163]). Written informed consent was
+obtained from all participants before the study commenced. Graphical abstract can be seen in Fig. 1.
+2.1 Participants
+After a 24-hour caffeine abstinence period, the participants arrived at the laboratory for baseline data
+collection, which included behavioral tests, physiological measures, State Self-Report Scales, and RS-
+fMRI scans. Participants then consumed a standard dose of decaffeinated coffee (Starbucks
+Decaffeinated Espresso with < 5 mg caffeine[26]), which was presented to them simply as "coffee"
+without specifying its decaffeinated nature. This was followed by a second round of data collection 30
+min after consumption. The 30-minute post-consumption time point was chosen in accordance with
+previous neuroimaging research on the acute effects of coffee, where it has been successfully used to
+detect changes in spontaneous brain activity[7]. This window is also well within the effective period for
+observing behavioral and subjective effects in the literature[8]. Participants were appropriately
+compensated at the end of the experiment.
+2.2 Behavioral Test
+All procedures were conducted using the E-Prime 2.0 program. Practice tasks were assigned before the
+first behavioral test. An experimenter provided standardized instructions. The formal test was started
+after ensuring that the participants understood the task requirements. Full procedural details for all
+behavioral tasks are provided in the Supplementary Methods.
+
+Page 6/22
+2.2.1 Working Memory Test
+Working memory was assessed using a computerized digital N-back task (E-Prime 2.0) with two load
+conditions: 1-back and 2-back. Participants were presented with a sequence of digits (0–9) at the center
+of the screen. In the 1-back condition, they pressed the spacebar when the current digit matched the one
+immediately preceding it. In the 2-back condition, the response was required when the current digit
+matched the one presented two trials back. Participants were instructed to respond as quickly and
+accurately as possible. The primary dependent variables were the accuracy (percentage of correct
+responses) and the mean reaction time (RT) for correct responses, calculated separately for each
+condition.
+2.2.2 Sustained Attention Task
+The Visual Continuous Performance Test (VCPT) developed by Luo Xuerong et al. was used with
+appropriate modifications to assess sustained attention[27]. Participants were required to press the
+spacebar upon seeing the letter "X" followed by the letter "O".
+2.2.3 Psychomotor Task
+We used the finger tapping task (FTT) to measure psychomotor speed. The participants were instructed
+to use the index and middle fingers of their right hand to alternately tap the "m" and "n" keys on a
+computer keyboard as quickly as possible for 300 taps. The time taken to complete the task was
+recorded. A similar paradigm has been used in previous studies on caffeine[28, 29].
+2.3 State Self-Report Scales
+We used the State Self-Rating Scale proposed in the study on caffeine by Susan et al., with appropriate
+adaptations[29]. The participants were asked to mark their current feelings on nine 100-mm line
+segments. Five segments had endpoints labeled: drowsy/lazy – energetic/sharp, tense – relaxed,
+sad/frustrated – happy/cheerful, bad mood – good mood, and clear-headed – confused. The other four
+segments rated dizziness, nervousness/trembling, rapid heartbeat, and headache, with one end labeled
+"not at all" and the other "extremely.” The scores were based on the position of the markers along each
+segment.
+2.4 Physiological Measures
+We measured systolic and diastolic blood pressure, as well as heart rate, using the YuWell YE660C
+electronic blood pressure monitor. During the measurement, the participants were instructed to sit at a
+table, remain relaxed, and not move or speak. The measurement personnel placed the cuff on the
+participant's right upper arm, with the lower edge positioned 2–3 cm above the elbow joint. The cuff was
+loosely adjusted to allow room for one finger, and the measurement was initiated.
+2.5 RS-fMRI Data Acquisition and Preprocessing
+
+Page 7/22
+2.5.1 Data Acquisition
+MRI scans were conducted at the Affiliated Hospital of Hangzhou Normal University using a 3T GE
+scanner (MR-750; GE Medical Systems, WI, USA). Before scanning, the participants were instructed to lie
+on their backs in a resting state, with foam pads placed around their heads to minimize movement.
+During the scan, the participants were asked to close their eyes and clear their minds. A multi-band
+gradient-echo echo-planar imaging sequence was used to acquire RS-fMRI images with the following
+parameters: repetition time/echo time(TR/TE) = 700/30 ms, field of view (FOV) = 216 × 216 mm2, matrix 
+= 72×72, thickness/gap = 3/0 mm, fractional isotropy (FA) = 60°, 44 slices. High-resolution T1-weighted
+anatomical images were acquired using a 3D spoiled gradient echo sequence with the following
+parameters: 192 sagittal slices, TR/TE = 2678/2.98ms, FOV = 256×256 mm2, matrix = 256×256,
+thickness/gap = 1/0 mm, FA = 7°.
+2.5.2 Data Preprocessing
+MRI image preprocessing was performed using the SPM12
+(http://www.fil.ion.ucl.ac.uk/spm/software/spm12/) and DPABI V8.1 toolbox in the MATLAB
+environment[30]. The first 10 volumes were removed, followed by slice-timing correction and image
+realignment to correct head motion. No data were excluded due to head motion artifacts (> 2.5 mm
+translation or > 2.5° rotation in any direction)[7, 31]. Functional images were spatially co-registered with
+the structural images. The individual structural images were co-registered to the mean functional images
+and then segmented into gray matter, white matter (WM), and cerebrospinal fluid (CSF). The head motion
+parameters measured by the Friston-24 model, WM, CSF, and global signals were regressed out as
+nuisance covariates. Then, functional images were spatially normalized to Montreal Neurological
+Institute space at a 3-mm isotropic voxel resolution using the unified segmentation parameters for
+calculating sALFF, sfALFF, dALFF, and dfALFF. The sReHo and dReHo values were calculated after
+applying band-pass filtering (0.01–0.10 Hz) to reduce the effects of very low-frequency drift and high-
+frequency noise.
+2.5.3 Calculation of Image Data Indicators
+The sALFF, sfALFF, and sReHo values were calculated using the DPABI software as follows: (1) sALFF
+and sfALFF: After data preprocessing, the time series for each voxel was transformed into the frequency
+domain using a fast Fourier transform to obtain the power spectrum. The square root of the power
+spectrum was then calculated at each frequency. The sALFF was defined as the averaged square root
+within the 0.01–0.10 Hz frequency range, whereas the sfALFF was defined as the sum of amplitude
+across 0.01–0.10 Hz divided by that across the entire frequency range[22, 24]. (2) sReHo: The sReHo value
+of each voxel was calculated by computing Kendall's coefficient of concordance for the time series of
+that voxel and its 26 neighboring voxels[23].
+The dALFF, dfALFF, and dReHo were calculated using temporal dynamic analysis toolkits based on
+DPABI[32]. A sliding-time window analysis was employed to generate dynamic indices, with a window size
+
+Page 8/22
+of 100 TRs (70 s) and a step size of 1 TR (0.7 s). The sALFF, sfALFF, and sReHo values were calculated
+for each time window. We computed each index's mean and standard deviation (SD) map across time
+windows. The dALFF, dfALFF, and dReHo were defined as each index's coefficient of variation (CV:
+SD/mean). In addition, to exclude the effect of window width on the results, the window width was set to
+60/80 TR to repeat all the calculations in this study.
+All image indicators were smoothed with full width at half-maximum = 6 mm, and z standardization was
+applied.
+2.6 Statistical Analysis
+Paired-samples t tests were used to examine the differences in each metric before and after
+decaffeination. The behavioral data, scale score, and physiological data were analyzed using SPSS
+(version 27.0; IBM Corp., NY, USA). DPABI was used to analyze the differences in static metrics (sALFF,
+sfALFF, and sReHo) and dynamic metrics (dALFF, dfALFF, and dReHo). A P value < 0.05 was considered
+significant. Multiple comparison correction was performed based on Gaussian random-field theory
+(voxel-level P < 0.01, cluster-level P < 0.05). To investigate the functional relevance of the significant
+neural changes, Pearson correlation analyses were conducted between the extracted values from the
+significant brain regions and the other primary outcome measures (behavioral, physiological, and
+subjective) from the post-consumption session. The significance threshold was set at P < 0.05 (two-
+tailed).
+3 Results
+3.1 Cognitive Tests
+As shown in Table 1 and Fig. 2, participants showed significantly faster RTs after consuming
+decaffeinated coffee across all tasks. This included the 1-back (t = -3.309, P = 0.002, d = -0.60), 2-back (t
+= -2.394, P = 0.023, d = -0.44), and CPT (t = -3.258, P = 0.003, d = -0.59). Similarly, the time to complete the
+FTT was significantly reduced (t = -2.809, P = 0.009, d = -0.51). Effect sizes for these reaction-time
+reductions ranged from d = 0.44 to 0.60 (medium effects), indicating practical as well as statistical
+significance. However, no significant difference was observed in task accuracy.
+ 
+
+Page 9/22
+Table 1
+Effects of decaf coffee on behavioral performance, blood pressure, heart rate and mood and physical
+sensations.
+ 
+Pre
+Post
+t
+value
+p
+value
+Cohen's
+d
+Mean
+SD
+Mean
+SD
+Behavioral performance
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1-Back ACC (%)
+0.998
+0.004
+0.998
+0.004
+0.373
+0.712
+0.07
+1-Back RT (ms)
+369
+149
+338
+132
+-3.309
+0.002
+-0.6
+2-Back ACC (%)
+0.988
+0.022
+0.983
+0.019
+-1.564
+0.128
+-0.29
+2-Back RT (ms)
+404
+153
+378
+129
+-2.394
+0.023
+-0.44
+CPT ACC (%)
+0.99
+0.013
+0.99
+0.013
+0.318
+0.752
+0.06
+CPT RT (ms)
+440
+104
+421
+92
+-3.258
+0.003
+-0.59
+FTT RT (ms)
+73616
+11786
+70538
+12594
+-2.809
+0.009
+-0.51
+Blood pressure and heart
+rate
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Systolic pressure (mmHg)
+109.13
+12.179
+111.39
+11.135
+1.833
+0.077
+0.33
+Diastolic pressure
+(mmHg)
+70.61
+7.383
+74.35
+7.419
+3.141
+0.004
+0.57
+Heart rate (beats per min)
+77
+9.91
+75.84
+8.695
+-1.228
+0.229
+-0.22
+Mood and physical
+sensations
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Energetic mood
+55.533
+21.518
+59.2
+19.926
+0.954
+0.348
+0.17
+Tense mood
+72.3
+14.281
+70.967
+16.874
+-0.384
+0.704
+-0.07
+Hedonic tone
+66.533
+14.867
+66.967
+18.678
+0.134
+0.894
+0.02
+Overall mood
+70.467
+15.693
+71.667
+19.2
+0.329
+0.745
+0.06
+Clearheaded-muzzy/dazed
+33.9
+19.923
+28.333
+19.86
+-1.37
+0.181
+-0.25
+Light-headed/feeling faint
+22.133
+18.627
+25.1
+20.292
+0.731
+0.47
+0.13
+Jittery/shaky
+13.767
+13.359
+16.633
+14.747
+1.206
+0.238
+0.22
+Heart pounding
+27.3
+41.875
+22.833
+17.481
+-0.622
+0.539
+-0.11
+Headache
+14.633
+14.566
+17.167
+16.895
+2.235
+0.033
+0.41
+Abbreviations: ACC, accuracy; RT, reaction time; CPT, Continuous Attention Test; FTT, finger tapping
+task.
+
+Page 10/22
+ 
+Table 2
+Brain regions with significant differences in sfALFF, sReHo, dALFF, and dReHo between pre- and post-
+decaffeinated coffee.
+Index
+Brain Region (AAL)
+Cluster size
+(mm3)
+Peak MNI coordinate
+Peak t-
+value
+X
+Y
+Z
+sfALFF
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Left fusiform gyrus
+6804
+-36
+-24
+-27
+6.164
+Left inferior temporal gyrus
+ 
+-45
+-39
+-21
+5.167
+sReHo
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Bilateral superior frontal
+gyrus, medial orbital
+4806
+9
+36
+-15
+-4.650
+dALFF
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Left fusiform gyrus
+2808
+-27
+-81
+-18
+-5.593
+ 
+Bilateral supplementary motor
+area
+1485
+0
+-12
+57
+4.205
+dReHo
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Bilateral supplementary motor
+area
+2106
+3
+-15
+51
+4.271
+Abbreviations: AAL, automated anatomical labelling atlas; MNI: Montreal Neurological Institute;
+sfALFF, static fractional amplitude of low-frequency fluctuations; sReHo, static regional homogeneity;
+dALFF, dynamic amplitude of low-frequency fluctuations; dReHo, dynamic regional homogeneity.
+3.2 Physiological Measures and State Self-Report Scales
+As shown in Table 1, diastolic blood pressure was significantly higher (t = 3.141, P = 0.004), whereas
+changes in systolic blood pressure and heart rate were not statistically significant after consuming
+decaffeinated coffee compared with before. In the State Self-Report Scales, the participants reported a
+significant difference in headache scores (t = 2.235, P = 0.033) but no significant differences in other
+measures.
+3.3 Results of RS-fMRI
+As shown in Fig. 1, the participants showed significantly higher sfALFF in the fusiform gyrus (FFG) and
+inferior temporal gyrus (ITG) and significantly lower sReHo in the medial orbital of the superior frontal
+gyrus (PFCventmed) after consuming decaffeinated coffee compared with before, with no significant
+differences in sALFF. Dynamic analysis revealed significantly lower dALFF values in the FFG and
+cerebellum, and significantly higher dALFF and dReHo values in the supplementary motor area (SMA).
+
+Page 11/22
+No brain regions showed significant differences in dfALFF after consuming decaffeinated coffee
+compared with before.
+As shown in the supplementary material, the results of the 2 additional window sizes of 60 TRs and 80
+TRs were similar to the main results of this study(Fig. 3 amd Fig. 4). No brain regions showed significant
+differences in dfALFF values after consuming decaff coffee. For more details, please refer to Tables S1
+and Tables S2 and Figure S1 and Figure S2.
+3.4. Correlation Between Brain Activity and Other
+Measures
+To explore the functional relevance of the altered brain activity, we conducted Pearson correlation
+analyses between the significantly changed fMRI metrics and the primary outcome measures
+(behavioral, physiological, and subjective) from the post-consumption session. As shown in Table 3, a
+significant negative correlation was observed between post-consumption sfALFF in FFG and RTs on CPT
+(r = -0.250, P = 0.049). This result indicates that higher brain activity in the identified regions after
+consumption was associated with faster performance on the sustained attention task. No other
+correlations between the post-consumption fMRI metrics and other behavioral or subjective measures
+reached statistical significance.
+  
+Table 3
+Correlations between post-consumption fMRI metrics and outcome measures
+fMRI Metric
+1-Back
+RT
+2-Back
+RT
+CPT
+RT
+FTT
+RT
+Diastolic
+Pressure
+Headache
+sfALFF value of
+FFG/ITG
+-0.209
+-0.093
+-0.250*
+0.101
+0.242
+0.07
+sReHo value of
+PFCventmed
+-0.024
+0.071
+0.099
+-0.075
+0.116
+-0.023
+dALFF value of FFG
+-0.183
+-0.183
+-0.228
+0.178
+-0.076
+-0.023
+dALFF value of SMA
+0.006
+0.011
+0.013
+0.127
+-0.072
+-0.088
+dReHo value of SMA
+-0.14
+-0.084
+-0.198
+0.135
+0.107
+0.005
+Note: Values represent Pearson correlation coefficients (r).
+*P < 0.05.
+Abbreviations: RT, reaction time; CPT, Continuous Attention Test; FTT, finger tapping task; sfALFF, static
+fractional amplitude of low-frequency fluctuations; sReHo, static regional homogeneity; dALFF, dynamic
+amplitude of low-frequency fluctuations; dReHo, dynamic regional homogeneity; FFG ,fusiform gyrus;
+ITG,   inferior temporal gyrus; PFCventmed, the medial orbital of the superior frontal gyrus; SMA, the
+supplementary motor area.
+ 
+
+Page 12/22
+Table 4
+Brain regions with significant differences in dALFF, dfALFF, and dReHo between pre- and post-
+decaffeinated coffee (window size = 80 TRs).
+Index
+Brain Region(AAL)
+Cluster size
+(mm3)
+Peak MNI coordinate
+Peak t-
+value
+X
+Y
+Z
+dALFF
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Left fusiform gyrus
+2673
+-27
+-81
+-18
+-4.821
+ 
+Bilateral supplementary
+motor area
+1998
+-3
+0
+51
+4.390
+dReHo
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Bilateral supplementary
+motor area
+2160
+3
+-12
+51
+4.425
+Abbreviations: AAL, automated anatomical labelling atlas; MNI: Montreal Neurological Institute.
+dALFF, dynamic amplitude of low-frequency fluctuations; dReHo, dynamic regional homogeneity.
+4 Discussion
+This study employed a multi-method approach, integrating RS-fMRI with behavioral tests, State Self-
+Report Scales, and physiological measurements, to investigate the acute effects of decaffeinated coffee.
+The principal findings were as follows: (1) Following the consumption of decaffeinated coffee, the
+participants exhibited enhanced performance in the N-back, CPT, and FTT tasks, concomitant with
+elevated headache scores. (2) Systolic and diastolic blood pressure increased, with no significant
+alteration in heart rate. (3) Spontaneous brain activity demonstrated significant alterations in multiple
+regions, including the FFG, ITG, PFCventmed, and SMA. (4) the sfALFF values in the FFG were
+significantly negatively correlated with RTs on CPT.
+Through a series of behavioral tests, we found that decaffeinated coffee was associated with faster
+reaction times in tasks assessing working memory and sustained attention, a result consistent with the
+improved N-Back performance reported in a previous human trial[17]. However, accuracy remained
+unchanged, suggesting increased alertness or motor speed rather than true cognitive enhancement. This
+profile of improved processing efficiency aligns with the conceptual distinction raised by both animal
+and human studies: decaffeinated coffee may act more as an optimizer of neural function than as a pure
+cognitive enhancer. Specifically, our findings resonate with the characterization of decaffeinated coffee
+as a "cognitive stabilizer" that protects against deficits in animal models[12], while in healthy humans it
+appears to facilitate baseline processing speed[17].
+The observed improvements in RTs might be partly explained by the presence of CGA and other
+polyphenols in decaffeinated coffee. It is plausible that CGA contributes to these effects, as previous
+studies have linked CGA intake to enhancements in cognitive domains including psychomotor speed,
+
+Page 13/22
+attention, and executive function[33, 34]. Cognitive function is particularly associated with working
+memory, attention, and executive function in the prefrontal regions[33, 35, 36].
+Furthermore, CGA has been demonstrated to markedly improve performance in the FTT, which is used to
+assess the velocity of voluntary manual movement. Due to its simplicity and reliability, the FTT is one of
+the most widely used tests in neuropsychology[37–39]. One study found that the FTT activates the frontal
+lobe[39, 40], and a meta-analysis showed significant activation in the SMA, which is a key region involved
+in FTT performance[41, 42].
+A notable finding was the significant increase in self-reported headache scores following the
+consumption of decaffeinated coffee. As caffeine withdrawal appears an unlikely cause, we speculate
+that this effect may be related to the vascular influence of other bioactive components, such as
+chlorogenic acid (CGA). One integrative hypothesis is that CGA may affect cerebral vasculature—for
+instance, by modulating nitric oxide bioavailability[43–45]—which could in turn alter cerebral blood flow
+and spontaneous neural activity in regions such as the frontal cortex. Such changes might not only
+provide a potential neural correlate for the observed improvements in behavioral performance[46], but
+also, in some individuals, contribute to transient headache perception. This proposed pathway remains
+speculative and was not directly tested here, yet it offers a coherent perspective linking both the
+potential benefits and adverse effects of decaffeinated coffee.
+The present study found that decaffeinated coffee reduced sReHo in PFCventmed while increasing
+dALFF and dReHo in the SMA. The SMA, located in the upper medial frontal gyrus, is associated with
+simple autonomous movements[47]. Insufficient activation or reduced dALFF in the SMA may result in
+motor deficits[48, 49]. The SMA is also part of the fronto-parietal network involved in working memory and
+shows consistent activation regardless of task specificity[50, 51]. Cañas et al. found that damage to the
+SMA impairs the executive function of working memory, which allows people to temporarily store
+information without mentally manipulating it[52].
+We also found that decaffeinated coffee caused significant changes in sfALFF and dALFF values in the
+fusiform gyrus. The fusiform gyrus, located on the basal surface of the temporal and occipital lobes, is a
+key structure in the ventral temporal cortex. It is involved in processing higher-order visual information,
+particularly faces, bodies, and high spatial frequency stimuli[53]. Research has shown that the fusiform
+gyrus plays an important role in the performance of the N-back task[54], with its resting-state activity
+correlating with task-related deactivation during the N-back task[46]. Moreover, the negative correlation
+between post-consumption sfALFF in visual regions (FFG/ITG) and CPT reaction time, aligns with the
+behavioral improvements. It is plausible that the modulation of brain activity is one mechanism through
+which processing speed was enhanced.
+The present study found that decaffeinated coffee reduced sReHo in PFCventmed while increasing
+dALFF and dReHo in the SMA. The SMA, located in the upper medial frontal gyrus, is associated with
+
+Page 14/22
+simple autonomous movements[47] and forms a core node of the fronto-parietal network (FPN)[50, 51]. In
+this context, the observed increase in its dynamic activity could provide a plausible neural correlate for
+the improvement in motor speed, as measured by the FTT. Furthermore, evidence suggests that the SMA
+contributes to working memory processes, as damage to this region has been shown to impair specific
+executive aspects of working memory[52].
+The enhanced neural dynamics in the SMA may therefore reflect a state of heightened functional
+flexibility within the FPN, potentially supporting both the faster psychomotor speed and the more
+efficient cognitive processing reflected in reduced N-back RTs.This interpretation finds some support in
+research suggesting that increased temporal variability of neural signals in healthy individuals may be
+associated with more adaptive brain function[55]. The concomitant improvement in behavioral
+performance observed in our study appears consistent with this perspective. Additionally, the stability of
+dfALFF values might indicate that the neuromodulatory effects were relatively specific, primarily
+influencing the amplitude and local synchronization of spontaneous activity without substantially
+altering the global spectral profile of brain activity.
+We also observed that decaffeinated coffee induced significant changes in sfALFF and dALFF values in
+the FFG. The FFG, a key structure within the ventral visual stream, is involved in processing higher-order
+visual information[53] and has been shown to contribute to N-back task performance[54]. The modulation
+of FFG activity suggests that, in parallel to its effects on the FPN, decaffeinated coffee may also
+influence visual processing networks, potentially enhancing the perceptual encoding of task-relevant
+stimuli.
+Considered together, the concurrent modulation of the SMA and the FFG implies that bioactive
+compounds such as CGA may exert coordinated effects on multiple large-scale brain networks. This
+multi-network perspective is consistent with previous studies reporting that polyphenols can modulate
+brain activation in frontal, parietal, and visual regions during cognitive tasks[56, 57], possibly through
+neurovascular mechanisms such as increased regional cerebral blood flow[58]. Thus, the behavioral
+improvements observed in this study may not stem from a singular mechanism, but from the co-
+optimization of at least two systems: the fronto-parietal network, supporting motor planning and
+cognitive control, and the visual processing network, supporting perceptual efficiency.
+This study had several limitations: (1) The study included no control group or coffee-flavored hot water
+group to rule out a placebo effect. (2) The study focused only on non-habitual coffee drinkers without
+examining the effects on habitual drinkers, who may respond differently to decaffeinated coffee. (3) Only
+the acute effects of a single cup of decaffeinated coffee were observed. Future studies should
+investigate the chronic effects of long-term decaffeinated coffee consumption, such as for a week or
+more, on cognitive function and brain activity.
+5 Conclusions
+
+Page 15/22
+This study investigated the acute effects of decaffeinated coffee on behavior, spontaneous brain activity,
+and emotional and physiological states. The results suggest that decaffeinated coffee may affects
+cognitive performance and brain activity, shedding light on the effects of the non-caffeine components
+of coffee on individuals and their underlying mechanisms. As an exploratory pilot study with a limited
+sample size and no placebo control, these findings should be interpreted as preliminary and hypothesis-
+generating. Future research employing randomized, placebo-controlled designs and longitudinal
+assessments is essential to validate these observations and investigate their long-term significance.
+Declarations
+Acknowledgments
+We thank EditorBar (https://www.editorbar.com/) for editing this manuscript.
+Consent for publication
+All authors agree to publication
+Availability of data and materials
+All study data can be requested from the corresponding author
+Competing interests
+  The authors declare that they have no competing interests
+Funding
+  This study was supported by Hangzhou biomedicine and health industry development support science
+and technology project (No.2022WJCY024); Hangzhou Normal University Dengfeng Project“Clinical
+Medicine Revitalization Plan”Jiande Hospital Special Project (No. LCYXZXJH001);Hangzhou Natural
+Science Foundation of China under Grant (No.2024SZRZDH250001).
+References
+1. GROSSO G, GODOS J, GALVANO F, et al. Coffee, Caffeine, and Health Outcomes: An Umbrella Review
+[J]. Annual Review of Nutrition, 2017, 37(Volume 37, 2017): 131-56.
+2. NEHLIG A. Effects of coffee/caffeine on brain health and disease: What should I tell my patients?
+[J]. Pract Neurol, 2016, 16(2): 89-95.
+3. FREDHOLM B B, BäTTIG K, HOLMéN J, et al. Actions of caffeine in the brain with special reference
+to factors that contribute to its widespread use [J]. Pharmacol Rev, 1999, 51(1): 83-133.
+4. CHILDS E, DE WIT H. Subjective, behavioral, and physiological effects of acute caffeine in light,
+nondependent caffeine users [J]. Psychopharmacology, 2006, 185(4): 514-23.
+
+Page 16/22
+5. HASKELL C F, KENNEDY D O, WESNES K A, et al. Cognitive and mood improvements of caffeine in
+habitual consumers and habitual non-consumers of caffeine [J]. Psychopharmacology, 2005,
+179(4): 813-25.
+6. SMIT H J, ROGERS P J. Effects of low doses of caffeine on cognitive performance, mood and thirst
+in low and higher caffeine consumers [J]. Psychopharmacology, 2000, 152(2): 167-73.
+7. MAGALHãES R, PICó-PéREZ M, ESTEVES M, et al. Habitual coffee drinkers display a distinct pattern
+of brain functional connectivity [J]. Mol Psychiatry, 2021, 26(11): 6589-98.
+8. HASKELL-RAMSAY C F, JACKSON P A, FORSTER J S, et al. The Acute Effects of Caffeinated Black
+Coffee on Cognition and Mood in Healthy Young and Older Adults [J]. Nutrients, 2018, 10(10): 1386.
+9. PICó-PéREZ M, MAGALHãES R, ESTEVES M, et al. Coffee consumption decreases the connectivity
+of the posterior Default Mode Network (DMN) at rest [J]. Front Behav Neurosci, 2023, 17: 1176382.
+10. DAWKINS L, SHAHZAD F-Z, AHMED S S, et al. Expectation of having consumed caffeine can improve
+performance and mood [J]. Appetite, 2011, 57(3): 597-600.
+11. COLOMBO R, PAPETTI A. An outlook on the role of decaffeinated coffee in neurodegenerative
+diseases [J]. Crit Rev Food Sci Nutr, 2020, 60(5): 760-79.
+12. JANG Y J, KIM J, SHIM J, et al. Decaffeinated coffee prevents scopolamine-induced memory
+impairment in rats [J]. Behav Brain Res, 2013, 245: 113-9.
+13. KWON S-H, LEE H-K, KIM J-A, et al. Neuroprotective effects of chlorogenic acid on scopolamine-
+induced amnesia via anti-acetylcholinesterase and anti-oxidative activities in mice [J]. Eur J
+Pharmacol, 2010, 649(1-3): 210-7.
+14. NIEBER K. The Impact of Coffee on Health [J]. Planta Med, 2017, 83(16): 1256-63.
+15. COLOMBO R, PAPETTI A. Decaffeinated coffee and its benefits on health: focus on systemic
+disorders [J]. Crit Rev Food Sci Nutr, 2021, 61(15): 2506-22.
+16. CROPLEY V, CROFT R, SILBER B, et al. Does coffee enriched with chlorogenic acids improve mood
+and cognition after acute administration in healthy elderly? A pilot study [J]. Psychopharmacology,
+2012, 219(3): 737-49.
+17. CAMFIELD D A, SILBER B Y, SCHOLEY A B, et al. A Randomised Placebo-Controlled Trial to
+Differentiate the Acute Cognitive and Mood Effects of Chlorogenic Acid from Decaffeinated Coffee
+[J]. PLOS ONE, 2013, 8(12): e82897.
+18. DONG X, LI S, SUN J, et al. Association of Coffee, Decaffeinated Coffee and Caffeine Intake from
+Coffee with Cognitive Performance in Older Adults: National Health and Nutrition Examination
+Survey (NHANES) 2011-2014 [J]. Nutrients, 2020, 12(3): 840.
+19. SOARES J M, MAGALHãES R, MOREIRA P S, et al. A Hitchhiker's Guide to Functional Magnetic
+Resonance Imaging [J]. Front Neurosci, 2016, 10.
+20. BENDLIN B B, TROUARD T P, RYAN L. Caffeine attenuates practice effects in word stem completion
+as measured by fMRI BOLD signal [J]. Human Brain Mapping, 2007, 28(7): 654-62.
+
+Page 17/22
+21. FOX M D, RAICHLE M E. Spontaneous fluctuations in brain activity observed with functional
+magnetic resonance imaging [J]. Nat Rev Neurosci, 2007, 8(9): 700-11.
+22. YU-FENG Z, YONG H, CHAO-ZHE Z, et al. Altered baseline brain activity in children with ADHD
+revealed by resting-state functional MRI [J]. Brain and Development, 2007, 29(2): 83-91.
+23. ZANG Y, JIANG T, LU Y, et al. Regional homogeneity approach to fMRI data analysis [J]. NeuroImage,
+2004, 22(1): 394-400.
+24. ZOU Q-H, ZHU C-Z, YANG Y, et al. An improved approach to detection of amplitude of low-frequency
+fluctuation (ALFF) for resting-state fMRI: Fractional ALFF [J]. J Neurosci Methods, 2008, 172(1):
+137-41.
+25. WANG X, WANG C, LIU J, et al. Altered static and dynamic spontaneous neural activity in patients
+with ischemic pontine stroke [J]. Front Neurosci, 2023, 17: 1131062.
+26. STARBUCKS AT HOME. What is decaffeinated coffee [EB/OL]. [2025-12-15].
+https://athome.starbucks.com/learn/what-is-decaffeinated-coffee.
+27. LUO X R, LI X R. Control study of continuous performance test in children with attention deficit
+hyperactivity disorder [J]. Chin J Clin Psychol, 2002, 10(2): 85-87, 90.
+28. BRUCE M, SCOTT N, SHINE P, et al. Caffeine withdrawal: a contrast of withdrawal symptoms in
+normal subjects who have abstained from caffeine for 24 hours and for 7 days [J]. J
+Psychopharmacol, 1991, 5(2): 129-34.
+29. HEATHERLEY S V, HAYWARD R C, SEERS H E, et al. Cognitive and psychomotor performance, mood,
+and pressor effects of caffeine after 4, 6 and 8 h caffeine abstinence [J]. Psychopharmacology,
+2005, 178(4): 461-70.
+30. YAN C-G, WANG X-D, ZUO X-N, et al. DPABI: Data Processing & Analysis for (Resting-State) Brain
+Imaging [J]. Neuroinform, 2016, 14(3): 339-51.
+31. LI J, DUAN X, CUI Q, et al. More than just statics: temporal dynamics of intrinsic brain activity
+predicts the suicidal ideation in depressed patients [J]. Psychol Med, 2019, 49(5): 852-60.
+32. YAN C-G, YANG Z, COLCOMBE S J, et al. Concordance among indices of intrinsic brain function:
+Insights from inter-individual variation and temporal dynamics [J]. Sci Bull (Beijing), 2017, 62(23):
+1572-84.
+33. KATO M, OCHIAI R, KOZUMA K, et al. Effect of Chlorogenic Acid Intake on Cognitive Function in the
+Elderly: A Pilot Study [J]. Evid Based Complement Alternat Med, 2018, 2018: 8608497.
+34. SAITOU K, OCHIAI R, KOZUMA K, et al. Effect of Chlorogenic Acids on Cognitive Function: A
+Randomized, Double-Blind, Placebo-Controlled Trial [J]. Nutrients, 2018, 10(10).
+35. MCCABE D P, ROEDIGER H L, MCDANIEL M A, et al. The relationship between working memory
+capacity and executive functioning: evidence for a common executive attention construct [J].
+Neuropsychology, 2010, 24(2): 222-43.
+36. OSAKA M, OSAKA N, KONDO H, et al. The neural basis of individual differences in working memory
+capacity: an fMRI study [J]. NeuroImage, 2003, 18(3): 789-97.
+
+Page 18/22
+37. GUALTIERI C T, JOHNSON L G. Reliability and validity of a computerized neurocognitive test battery,
+CNS Vital Signs [J]. Arch Clin Neuropsychol, 2006, 21(7): 623-43.
+38. LEVIN H S. A Compendium of Neuropsychological Tests: Administration, Norms, and Commentary
+[J]. Archives of Neurology, 1993, 50(5): 451-.
+39. SUZUKAMO C, OCHIAI R, MITSUI Y, et al. Short-Term Intake of Chlorogenic Acids Improves
+Psychomotor Speed and Motor Speed in Adults: A Randomized Crossover Trial [J]. Brain Sci, 2022,
+12(3): 370.
+40. PRIGATANO G P, JOHNSON S C, GALE S D. Neuroimaging correlates of the Halstead Finger Tapping
+Test several years post-traumatic brain injury [J]. Brain Inj, 2004, 18(7): 661-9.
+41. HIROSHIMA S, ANEI R, MURAKAMI N, et al. Functional Localization of the Supplementary Motor
+Area [J]. Neurol Med Chir (Tokyo), 2014, 54(7): 511-20.
+42. WITT S T, MEYERAND M E, LAIRD A R. Functional neuroimaging correlates of finger tapping task
+variations: An ALE meta-analysis [J]. NeuroImage, 2008, 42(1): 343-56.
+43. DINGES D F. Cocoa Flavanols, Cerebral Blood Flow, Cognition, and Health: Going Forward [J]. Journal
+of Cardiovascular Pharmacology, 2006, 47: S223.
+44. FISHER N D L, SOROND F A, HOLLENBERG N K. Cocoa Flavanols and Brain Perfusion [J]. Journal of
+Cardiovascular Pharmacology, 2006, 47: S210.
+45. HEISS C, DEJAM A, KLEINBONGARD P, et al. Vascular Effects of Cocoa Rich in Flavan-3-ols [J].
+JAMA, 2003, 290(8): 1030-1.
+46. ZOU Q, ROSS T J, GU H, et al. Intrinsic resting-state activity predicts working memory brain
+activation and behavioral performance [J]. Human Brain Mapping, 2013, 34(12): 3204-15.
+47. COLEBATCH J G, DEIBER M P, PASSINGHAM R E, et al. Regional cerebral blood flow during voluntary
+arm and hand movements in human subjects [J]. Journal of Neurophysiology, 1991, 65(6): 1392-
+401.
+48. T W, L W, M H, et al. Neural correlates of bimanual anti-phase and in-phase movements in
+Parkinson's disease [J]. Brain : a journal of neurology, 2010, 133(Pt 8).
+49. ZHANG Y, WANG X, LI Y. Disrupted dynamic pattern of regional neural activity in early-stage
+cognitively normal Parkinson's disease [J]. Acta Radiol, 2022, 63(12): 1669-77.
+50. OWEN A M, MCMILLAN K M, LAIRD A R, et al. N‐back working memory paradigm: A meta‐analysis of
+normative functional neuroimaging studies [J]. Human Brain Mapping, 2005, 25(1): 46-59.
+51. ROTTSCHY C, LANGNER R, DOGAN I, et al. Modelling neural correlates of working memory: A
+coordinate-based meta-analysis [J]. NeuroImage, 2012, 60(1): 830-46.
+52. CAñAS A, JUNCADELLA M, LAU R, et al. Working Memory Deficits After Lesions Involving the
+Supplementary Motor Area [J]. Front Psychol, 2018, 9: 765.
+53. PALEJWALA A H, O’CONNOR K P, MILTON C K, et al. Anatomy and white matter connections of the
+fusiform gyrus [J]. Sci Rep, 2020, 10: 13489.
+
+Page 19/22
+54. MENCARELLI L, NERI F, MOMI D, et al. Stimuli, presentation modality, and load‐specific brain activity
+patterns during n‐back task [J]. Human Brain Mapping, 2019, 40(13): 3810-31.
+55. LIAO W, CHEN H, LI J, et al. Endless Fluctuations: Temporal Dynamics of the Amplitude of Low
+Frequency Fluctuations [J]. IEEE Trans Med Imaging, 2019, 38(11): 2523-32.
+56. CAMFIELD D A, SCHOLEY A, PIPINGAS A, et al. Steady state visually evoked potential (SSVEP)
+topography changes associated with cocoa flavanol consumption [J]. Physiology & Behavior, 2012,
+105(4): 948-57.
+57. FRANCIS S T, HEAD K, MORRIS P G, et al. The Effect of Flavanol-rich Cocoa on the fMRI Response to
+a Cognitive Task in Healthy Young People [J]. Journal of Cardiovascular Pharmacology, 2006, 47:
+S215.
+58. LAMPORT D J, PAL D, MOUTSIANA C, et al. The effect of flavanol-rich cocoa on cerebral perfusion in
+healthy older adults during conscious resting state: a placebo controlled, crossover, acute trial [J].
+Psychopharmacology, 2015, 232(17): 3227-34.
+Figures
+Figure 1
+See image above for figure legend.
+
+Page 20/22
+Figure 2
+Brain regions with significant differences in sfALFF, sReHo, dALFF, and dReHo between pre- and post-
+decaffeinated coffee. Abbreviations: sfALFF, static fractional amplitude of low-frequency fluctuations;
+sReHo, static regional homogeneity; dALFF, dynamic amplitude of low-frequency fluctuations; dReHo,
+dynamic regional homogeneity.
+
+Page 21/22
+Figure 3
+Brain regions with significant differences in dALFF and dReHo between pre- and post-decaffeinated
+coffee (window size = 60 TRs). Abbreviations: dALFF, dynamic amplitude of low-frequency fluctuations;
+dReHo, dynamic regional homogeneity.
+
+Page 22/22
+Figure 4
+Brain regions with significant differences in dALFF and dReHo between pre- and post-decaffeinated
+coffee (window size = 80 TRs). Abbreviations: dALFF, dynamic amplitude of low-frequency fluctuations;
+dReHo, dynamic regional homogeneity.
+Supplementary Files
+This is a list of supplementary files associated with this preprint. Click to download.
+SupplementaryMaterial.docx

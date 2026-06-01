@@ -1,0 +1,1235 @@
+beverages
+Article
+The Eﬀect of Roast Development Time Modulations
+on the Sensory Proﬁle and Chemical Composition of
+the Coﬀee Brew as Measured by NMR
+and DHS-GC–MS
+Jesper Alstrup 1,*
+, Mikael Agerlin Petersen 2
+, Flemming Hofmann Larsen 2 and
+Morten Münchow 1
+1
+CoﬀeeMind, Hansstedvej 35, 2500 Valby, Denmark; morten@coﬀee-mind.com
+2
+Department of Food Science, Faculty of Science, University of Copenhagen, Rolighedsvej 26,
+1958 Frederiksberg C, Denmark; map@food.ku.dk (M.A.P.); qcpmg1968@gmail.com (F.H.L.)
+*
+Correspondence: jesper@coﬀee-mind.com
+Received: 19 October 2020; Accepted: 1 December 2020; Published: 3 December 2020
+
+
+Abstract: The specialty coﬀee industry is growing and, as a result, there is an accelerated interest in
+modulating roast proﬁles to present customers with new and diverse sensory experiences. The present
+study investigates the chemical and sensory eﬀects of subtle variations in the ‘development time’
+phase of the coﬀee roasting process. Four roast proﬁles were studied through sensory descriptive
+analysis (DA), gas chromatography–mass spectrometry (GC–MS), and nuclear magnetic resonance
+(NMR). Multivariate analysis showed clear separation of DA, GC–MS, and NMR data. A prolonged
+development time facilitated a statistically signiﬁcant shift in the chemical and sensory proﬁle of the
+coﬀee. The ﬁndings suggest that a short development time increases the fruity, sweet and acidic
+characteristics of the coﬀee, whereas a longer development time shifts the balance towards a more
+roasty, nutty, and bitter proﬁle. The results provide evidence that supports the eﬀect of subtle roast
+proﬁle modulations. This lays a strong foundation for the inclusion of development time as a critical
+control parameter in the certiﬁcation system of the Specialty Coﬀee Association, quality control,
+and product development strategies.
+Keywords: coﬀee roasting; specialty coﬀee; roast proﬁle; development time; coﬀee chemistry;
+sensory evaluation
+1. Introduction
+The interest in specialty coﬀee has been growing steadily over the past few years and several
+smaller cafés and coﬀee roasteries are making their entrance into the market [1]. The increased
+popularity has led to a focus on optimising quality in every step of the production chain, including the
+roasting process.
+Roasting of the coﬀee bean is essential to impart the most important ﬂavour
+characteristics and is the result of complex chemical reactions and changes to the bean’s physical
+structure [2]. Attention to detail in roast proﬁle design is necessary to develop diverse and unique
+sensory experiences, which are highly desired in the speciality coﬀee market [3].
+Endless possibilities exist within roast proﬁle development and various time–temperature
+relationships of the roast may induce signiﬁcant variations in the ﬁnal ﬂavour proﬁle of the coﬀee brew.
+The current trend in the industry revolves around roasting coﬀee very lightly to highlight the sensory
+characteristics inherent to the coﬀee, e.g., terroir. This naturally decreases the attention towards roast
+degree and shifts the focus to other variables, such as timing the process optimally at diﬀerent stages.
+One of the most fundamental concepts in roast proﬁle design is ‘development time’, the importance
+Beverages 2020, 6, 70; doi:10.3390/beverages6040070
+www.mdpi.com/journal/beverages
+
+Beverages 2020, 6, 70
+2 of 14
+of which has been shown in the previous work of the authors [4]. This stage is deﬁned as the time
+span from the popping sound of steam pressure release from the beans at ‘1st crack’ until the point
+of roast termination. The coﬀee bean material is particularly susceptible to heat at this stage of the
+roasting process, due to the release of steam. This dries out the bean material, allowing browning
+reactions to occur much more rapidly, moving from the surface to the centre of the bean material [5].
+Controlling this phase of the roasting process thus becomes a critical part of developing great tasting
+products; however, this concept is still overlooked in academic literature.
+Several theories on ﬂavour impact of various timing adjustments are taught by self-proclaimed
+roasting experts and are commonly accepted by the community. A suﬃcient base of evidence is still to
+be established to provide support for the professionals and educational systems within the industry.
+A basic rule of chemical reaction kinetics is that a higher temperature increases the rate of the
+reactions [6], which is the principle used by roasters to control the roasting process. Reaching a similar
+roast degree is possible through varied time–temperature relationships, yet, to the best of the knowledge
+of the authors, no study has previously isolated the eﬀect of speciﬁc phase modulations, such as
+development time. Typical roasting studies have investigated the eﬀects of applying diﬀerent set
+time–temperature relationships in the roasting process to alter the chemistry and potential ﬂavours in
+the cup [7–11]. The approach of isothermal conditions speciﬁed with y temperature for x time allows
+for a clear and systematic approach to sample development, but may risk an oversimpliﬁcation of the
+roasting process which is far removed from the practical work of the specialty coﬀee roaster. Typically,
+the roast master starts the roast with close to maximum power output from the burner (heat source),
+and later performs stepwise reductions in the power output to slow down the speed of browning
+reactions as the roast progresses. The large divide between methods in research and the practical
+work of the roaster may reduce the relevance of scientiﬁc research in terms of applicability to the
+work of a specialty coﬀee roaster. Therefore, this study is focused speciﬁcally on development time
+modulations, which appear to have a higher impact on ﬂavour development when compared to overall
+roast timings [4].
+The present study aims to approach the speciality coﬀee industry and their practices by
+investigating how modulating roast ‘development time’ inﬂuences the sensory proﬁle and chemical
+composition of the coﬀee brew, as measured by nuclear magnetic resonance (NMR) and dynamic
+headspace sampling coupled to gas chromatography–mass spectrometry (DHS-GC–MS). Knowledge on
+the eﬀects of subtle modulations, in terms of formation of chemical compounds and changes to the
+perceived ﬂavour of the beverage, is of major interest to the speciality coﬀee industry. Evidence from
+this study is required to give roasters the necessary conﬁdence in their craft and to provide a solid
+base of research for product development, quality control procedures, and educational systems in the
+specialty coﬀee industry.
+2. Materials and Methods
+2.1. Coﬀee Sample Preparation
+Green (unroasted) coﬀee samples were supplied by CoﬀeeMind Aps through Kontra Coﬀee A/S.
+The beans were of Colombian origin (Juan Guillermo Henao, Marsella), 100% arabica and processed
+by the ‘washed’ method. The growing altitude was 1200–1800 m above sea level and the beans had
+a moisture content of 10%, density of 880 g/L (SINAR 6070 Grainpro) and the beans were of screen
+size 17. Sample roasting was performed on a Probat Probatino (Probat-Werke, Emmerich am Rhein,
+Germany) 1 kg drum roaster. Roast proﬁle data was logged simultaneously using Cropster© roasting
+software(Cropster®, Sacramento, CA, USA). Final roast colour was measured in Agtron, using Javalytics
+® Model JAV-RDA-D (Madison Instruments, Inc., Middleton, WI, USA) on three replicates of ﬁnely
+ground coﬀee.
+The roast proﬁles focused speciﬁcally on ‘development time’ modulations, i.e., diﬀerent speeds of
+roasting from ‘First crack’ to roast termination. The initial stage of the roast leading up to ﬁrst crack
+
+Beverages 2020, 6, 70
+3 of 14
+and the roast degree of all samples was similar between all roasts, thereby isolating ‘development time’
+as the sole diﬀerence between proﬁles.
+Figure 1 illustrates the time–temperature relationships of the four roast proﬁles. First crack occurs
+approximately at 570 s into the roast. The slope of the curve past this point is the focus of the present
+study and roast proﬁle development. Therefore, the modulations are indeed subtle and the roasted
+beans appear visually identical despite large diﬀerences in roast time after ﬁrst crack. The four proﬁles
+represent the spectrum of potential development time modulations from fastest to slowest possible at
+the given roast degree.
+ 
+50
+75
+100
+125
+150
+175
+200
+225
+0
+200
+400
+600
+800
+1000
+Temperature (degrees Celcius)
+Time (Seconds)
+Roast profiles
+Fast
+Medium
+Slow
+Baked
+Development time 
+1st crack 
+Figure 1. Roast proﬁles included in the study. The ﬁgure illustrates the time–temperature conditions
+for Fast, Medium, Slow, and Baked. First crack is highlighted at approximately 570 s into the roast.
+Roast degree can be deﬁned in various ways, including bean weight loss, colour, or selected
+chemical indicators [12–15]. This study measures degree of roast as indicated by ﬁnal bean colour to
+account for the various time–temperature relationships. A ‘medium’ roast degree of Agtron 76 ± 1
+was chosen for the study. Colour deviation between roasts was minimised since roast colour has
+previously been shown to have a signiﬁcant inﬂuence on ﬂavour [16]. A deviation of ±1 was achieved
+which corresponds to the inherent variation of the Javalytics® colour analyser. The end temperature of
+each roast was adjusted to maintain an identical degree of roasting despite large diﬀerences in roast
+duration. The detailed kinetics of roast colour development have previously been described by other
+authors [17]. For this study, the Fast roast was ended at 204.1 ◦C, Medium at 201.2 ◦C, Slow at 198.4 ◦C
+and Baked at 191.1 ◦C.
+The roasted coﬀee samples were produced one week prior to sensory evaluation. The samples
+were named Fast, Medium, Slow, and Baked, referring to the development time of the speciﬁc
+sample. ‘Baked’ refers to a common roasting defect in coﬀee, where time after ﬁrst crack is extended
+drastically with little to no increase in temperature [16]. Development time ranged from 90 in the Fast
+proﬁle to 390 s in the Baked proﬁle. Development times for Medium and Slow roasts were 143 and
+266 s, respectively.
+
+Beverages 2020, 6, 70
+4 of 14
+2.2. Sensory Evaluation
+2.2.1. Brewing
+The four coﬀee samples were brewed simultaneously, ensuring similarity of beverage temperature.
+The brewing procedure followed the Speciality Coﬀee Association of America (SCAA) standards
+of 5.5 g coﬀee to 100 mL water at 95 ◦C [18]. The coﬀee was brewed in 1.5 litre insulated Bodum®
+Steel French Presses (Bodum®, Triengen, Switzerland) and divided in serving cups to ensure sample
+similarity between the three replicates in the sensory evaluation. All required coﬀee was ground
+simultaneously and mixed to prevent any inﬂuence on potential defect beans on individual serving
+proﬁles. In total, 75 g (±0.5 g) ground coﬀee was added to the French presses, with 1350 g (±5 g) 95 ◦C
+water. The brew was steeped for 3:30 min, after which it was stirred 10 times, skimmed and, ﬁnally,
+the plunger was pressed at 4:00 min. The brew was afterwards transferred to a thermos and poured into
+the three-digit coded cups on the evaluation tables. The evaluation was initiated when the coﬀee had
+cooled to 55 ◦C, despite consumer preferences favouring higher consumption temperatures of more
+than 60 ◦C [19,20]. Starting at a lower temperature reduces the risk of scalding and has furthermore
+been shown to provide better balance between subtle ﬂavour notes and the highly impactful roasted
+notes found at higher temperatures [21].
+2.2.2. Panel Evaluation
+Forty-six experienced coﬀee tasters were recruited as participants at the 2017 Nordic Roaster Forum
+in Oslo. A descriptive sensory analysis following good sensory practice [22] was conducted to rate the
+intensity of predeﬁned descriptors. These were selected based on unpublished results by CoﬀeeMind
+Aps and general, familiar concepts known by coﬀee professionals. The evaluation ballot included
+Sweetness, Acidity, Bitterness, Body, Astringency, Roasted, Nutty+Chocolate, Fruit+Berry, and Clean
+Cup. A brief calibration session was conducted to align concepts of basic tastes, mouthfeel and
+aromas. Deﬁnitions of each descriptor and reference material was presented to the participants to
+facilitate a common vocabulary and understanding of descriptors between assessors. Details are
+found in Appendix A. Although participants had previous experience with evaluation forms, a short
+introduction to the use of 15-point scales was given. The participants were blinded, and only given the
+necessary information on how to perform the evaluations.
+The evaluation was performed in the traditional ‘cupping’ format, where assessors place a small
+amount of the given sample on a cupping spoon, slurp the coﬀee rapidly to aerate the coﬀee, and ﬁnally
+note perceived ﬂavours on the evaluation form. The assessors were divided into six groups and
+cupping tables for each group were set up with all 3-digit coded samples in three replicates. The test
+site was isolated to prevent interference from the preparation area and to ensure the blinding of
+participants. Palate cleansers in the form of peeled cucumber, white toast bread, and room-temperature
+water were available. The evaluation form was created digitally to allow assessors to perform the
+evaluation from their smartphone. Instructions included following an individually randomised serving
+order, not interacting with other panellists, using palate cleansers, and only tasting each cup once with
+2–3 sips from a cupping spoon.
+Statistical analysis of sensory data was conducted in RStudio V1.1.463 and PanelCheck V1.4.2.
+An Analysis of Variance (ANOVA) was done to investigate signiﬁcant diﬀerences for sensory attributes
+between samples. Tukey’s post-hoc test was performed to investigate which of the samples were
+signiﬁcantly diﬀerent from one another.
+2.3. NMR Methodology
+Samples for NMR analysis were prepared in 5 mm (o.d.) NMR tubes by mixing 250 µL of coﬀee
+brew with 250 µL of phosphate buﬀer (ionic strength 200 mM; pH 3.55) and 55 µL of D2O containing
+5.8 mM TSP-d4. The coﬀee brew was prepared according to the protocol described in Section 2.2.1.
+
+Beverages 2020, 6, 70
+5 of 14
+NMR analysis was performed using a Bruker Avance DRX 500 (11.7 T) spectrometer (Rheinstetten,
+Germany) operating at a Larmor frequency of 500.13 MHz for 1H, employing a double tuned inverse
+detection BBI probe. One-dimensional 1H NMR experiments were conducted at 298 K using the zgcppr
+pulse sequence [23]. For each sample, a single measurement consisting of 128 scans was recorded
+using a recycle delay of 5 s, a spectral width of 10,000 Hz and an acquisition time of 1.63 s. All spectra
+were referenced to TSP-d4 at 0.0 ppm for 1H.
+All 1D NMR spectra were processed in Topspin 4.0. Determination of the concentration of various
+analytes was performed using an in-house Matlab (version 8.3.0.532, MathWorks®, Natick, MA, USA)
+program as well as assignments found in previous studies of coﬀee [24,25].
+2.4. Dynamic Headspace Sampling and GC–MS Methodology
+Coﬀee was prepared as per the method described in Section 2.2.1 and dynamic headspace sampling
+(DHS) was performed on the brew. The sampling of aromas from brewed coﬀee rather than dry
+grounds was done to increase the validity of comparisons of results from DHS-GC–MS and Sensory
+evaluation. Three replicates of DHS were carried out. Twenty mL of prepared coﬀee was transferred
+to a 100 mL gas washing ﬂask and then 1 mL of a 5 ppm solution of 4-methyl-1-pentanol in water
+was added as an internal standard. The ﬂasks were placed in a circulating water bath at 37 ◦C and
+purged with nitrogen (100 mL min−1) for 20 min with magnetic stirring (200 rpm). Volatiles were
+collected on traps containing 200 mg of Tenax-TA (mesh size 60/80, Markes International, Llantrisant,
+UK). After purging, water was removed from the traps with a ﬂow of dry nitrogen (100 mL min−1 for
+10 min).
+The trapped volatiles were desorbed using an automatic thermal desorption unit (TurboMatrix
+350, Perkin Elmer, Shelton, CT, USA). Primary desorption was carried out by heating the trap to 250 ◦C
+with a ﬂow (50 mL min−1) of carrier gas for 15.0 min. The stripped volatiles were trapped in a Tenax
+TA cold trap (30 mg held at 5 ◦C), which was subsequently heated at 300 ◦C for 4 min (secondary
+desorption, outlet split 1:10). This allowed for the rapid transfer of volatiles to a GC–MS (7890A GC
+interfaced with a 5975C VL MSD with Triple-Axis detector from Agilent Technologies, Palo Alto,
+Santa Clara, CA, USA) through a heated (225 ◦C) transfer line.
+Separation of volatiles was carried out on a ZB-Wax capillary column (30 m long × 0.25 mm
+internal diameter, 0.50 µm ﬁlm thickness). The column pressure was held constant at 2.3 psi, resulting in
+an initial ﬂow rate of 1.4 mL min−1, using hydrogen as carrier gas. The column temperature programme
+was: 10 min at 30 ◦C, from 30 ◦C to 240 ◦C at 8 ◦C min−1, and, ﬁnally, 5 min at 240 ◦C. The mass
+spectrometer was operated in electron ionisation mode at 70 eV. Mass-to-charge ratios between 15 and
+300 were scanned. Peak areas and mass spectra were extracted from the chromatograms using the
+PARAFAC2-based software PARADISe (University of Copenhagen, Copenhagen, Denmark) and mass
+spectra were identiﬁed using the NIST05 database. Peak areas divided by the area of the internal
+standard were used as relative measures of concentration. Volatile compound identiﬁcation was
+conﬁrmed by comparison with retention indices (RI) of authentic reference compounds or retention
+indices reported in the literature.
+Statistical analysis of DHS-GC–MS data was performed in JMP 14.0.0 (SAS Institute Inc., Cary, NC,
+USA). One-way ANOVA was conducted on the identiﬁed peaks to investigate whether compounds
+vary signiﬁcantly between samples. Tukey’s post-hoc test was performed to investigate which of the
+samples were signiﬁcantly diﬀerent from one another.
+3. Results
+3.1. Sensory Evaluation
+A total of 46 fully completed responses was achieved. Mean intensity ratings for each descriptor,
+ANOVA p-value and Tukey’s test results are presented in Table 1. The evaluation revealed statistically
+signiﬁcant (p < 0.001) eﬀects of development time on every descriptor, except Body.
+
+Beverages 2020, 6, 70
+6 of 14
+Table 1. Overview of mean sensory evaluation score for each descriptor and sample. ANOVA p-values
+are reported in the right column. The result of Tukey’s post-hoc analysis is indicated by letters. Diﬀerent
+letters indicate signiﬁcant diﬀerences between samples.
+Sample
+Fast
+Medium
+Slow
+Baked
+p-Values
+Sweetness
+8.7 C
+8.3 C
+7.2 B
+6.3 A
+<0.001
+Acidity
+8.5 C
+7.6 B
+5.8 A
+5.4 A
+<0.001
+Bitter
+5.7 A
+6.5 A
+8.0 B
+8.6 B
+<0.001
+Body
+6.9 A
+7.4 A
+7.2 A
+7.1 A
+0.37
+Astringency
+5.4 A
+6.0 AB
+6.7 BC
+7.1 C
+<0.001
+Roasted
+5.4 A
+6.3 B
+8.3 C
+8.8 C
+<0.001
+Nutty+Chocolate
+6.0 A
+6.9 B
+7.9 C
+8.4 C
+<0.001
+Fruit+Berry
+7.3 C
+6.4 B
+4.6 A
+4.4 A
+<0.001
+Clean cup
+7.5 C
+6.7 B
+5.5 A
+5.5 A
+<0.001
+The ‘Fast’ sample scored statistically signiﬁcantly higher for the attributes Acidity, Fruit+Berry
+and Clean Cup. Longer development times of ‘Slow’ and ‘Baked’ lead to statistically signiﬁcantly
+stronger perceptions of Astringency, Bitterness, Nutty+Chocolate, and Roasted notes. Sweetness was
+found to be highest in samples with a short development time. Considering the subtle modulations
+and identical roast degree, the diﬀerences were substantial.
+Ahigh degreeof co-variance wasobserved betweenseveral descriptors, indicating a one-dimensional
+eﬀect on ﬂavour by modulating development time in the roasting process. It should be questioned
+whether the panel is able to diﬀerentiate between certain descriptors that appear to be highly correlated,
+i.e., logical error [26], or whether the attributes truly do modulate in the same manner. However,
+these eﬀects were to some extent expected, since development time modulation of the roast proﬁles is
+naturally a one-dimensional parameter.
+Body does not appear to vary depending on development time, as commonly believed in the
+specialty coﬀee industry. Body is one of the core concepts used when professionals describe the sensory
+impression of coﬀee, especially in regard to roast proﬁles. The present study deﬁned the concept of
+Body and provided references (Appendix A) to promote vocabulary development and calibration
+of the participants, yet no diﬀerence was found in the evaluation. It has long been speculated how
+Body modulates through roast proﬁles [27], yet the current ﬁndings suggest that development time
+has no impact on modulating the sensory attribute. The elusiveness of the descriptor is highly likely
+to contribute to the diﬃculty of ﬁnding a signiﬁcant diﬀerence despite the eﬀorts made towards
+vocabulary development on the panel. Individual understandings of Body are prevalent in the industry,
+as indicated by internal studies in CoﬀeeMind, which lead to complications in sensory evaluations.
+The lack of alignment is expected to be reﬂected as an incoherence in the data, which has also been
+found for other descriptors [28].
+The current trend in specialty coﬀee emphasises the development of high levels of acidity and
+fruitiness in the coﬀee, which was favoured by the ‘Fast’ roast. This is interesting, as extremely fast
+roasts are traditionally considered roasting defects, due to a theoretically more pronounced gradient of
+roast degree from the surface to the centre of the coﬀee bean. In contrast, the baked roast appeared to
+gain characteristics akin to darker roasts. These typically favour increased bitterness, along with roasty
+or even burnt notes [7].
+3.2. NMR
+The NMR investigations revealed substantial changes in the chemical composition of the coﬀee
+brew as an eﬀect of roast development time modulations. Twelve diﬀerent compounds were identiﬁed
+across the four samples. The identiﬁed compounds were present in all four samples, however,
+with notable diﬀerences in concentration. Table 2 presents the identiﬁed compounds and their variation
+between the four coﬀee samples. Generally, the total concentration of analytes was higher in the ‘Fast’
+
+Beverages 2020, 6, 70
+7 of 14
+roast and lowest in ‘Baked’. The identiﬁed acids showed a general decline in concentration with
+a prolonged development time.
+Table 2. Concentration (mM, uncertainty +/−0.02 mM) of analytes observed in the 1H NMR spectra of
+coﬀee samples prepared by diﬀerent roasting proﬁles.
+Compound
+Fast
+Medium
+Slow
+Baked
+Acetate
+9.26
+9.67
+9.39
+8.63
+Formic acid
+5.53
+5.40
+4.75
+4.16
+Trigonelline
+4.45
+4.53
+4.05
+3.78
+Citric acid
+4.33
+4.26
+4.01
+3.73
+Caﬀeine
+3.35
+3.40
+3.22
+3.34
+5-CQA *
+3.52
+3.24
+2.33
+2.44
+Fatty acid
+2.00
+1.83
+1.58
+1.29
+Malic acid
+1.22
+1.17
+1.16
+0.95
+3-CQA
+1.24
+1.23
+0.96
+1.00
+Lactate
+0.89
+0.95
+0.94
+0.88
+1-methylpyridinium
+0.32
+0.37
+0.43
+0.43
+5-HMF
+0.10
+0.08
+0.05
+0.06
+* CQA: caﬀeoylquinic acid.
+No carbohydrates were identiﬁed in the NMR spectra due to a range of very intense peaks in the
+spectral region 3–6 ppm originating from other compounds. Inspection of the un-assigned peaks in the
+spectral range 4.3–5.5 ppm (region for peaks from anomeric protons in carbohydrates) leads to the
+conclusion that the concentration of any carbohydrate was lower than 0.5 mM.
+3.3. DHS-GC–MS
+The eﬀect of development time modulations on aroma compounds was measured by dynamic
+headspace sampling coupled with gas chromatography–mass spectrometry (DHS-GC–MS). From the
+chromatograms, mass spectra and the areas of 146 peaks could be extracted. An initial analysis of
+variance (ANOVA) showed that 49 of the peaks had signiﬁcantly diﬀerent levels in the coﬀee samples
+and, of these, the identity could be conﬁrmed by a retention index for 39. These compounds are
+summarised in Table 3. Additional key odourants of coﬀee were identiﬁed, but not included in the table
+due to insigniﬁcant diﬀerences between the samples. The table therefore only includes the aromas of
+interest in regard to speciﬁc development time modulations. The ‘Fast’ and ‘Baked’ samples show the
+greatest diﬀerence in chemical composition, whereas limited diﬀerences were found between ‘Medium’
+and ‘Slow’. In general, the amount of volatiles in the headspace of faster roasts reaching higher
+temperatures was greater, consistent with authors subjecting coﬀee beans to isothermal conditions [17].
+The diﬀerences are described in more depth in the following section.
+Table 3. A selection of compounds identiﬁed in dynamic headspace sampling (DHS)-GC–MS analysis.
+Only compounds with signiﬁcant variation in mean relative peak area between samples are included
+in the table. The result of Tukey’s post-hoc analysis is indicated by letters. Diﬀerent letters indicate
+signiﬁcant diﬀerences between samples.
+Retention Index (RI)
+Mean Relative Peak Area (n = 3)
+Exp
+Auth
+Lit (1)
+Fast
+Medium
+Slow
+Baked
+ANOVA, p
+-Alcohols
+1-Propanol, 2-methyl-
+1114
+1110
+16 A
+20 AB
+21 AB
+24 B
+0.019
+1-Butanol, 2-methyl-
+1228
+1207
+15 A
+18 B
+17 B
+19 C
+0.000
+1-Butanol, 3-methyl-
+1229
+1224
+80 A
+88 AB
+88 AB
+94 B
+0.025
+3-Buten-1-ol, 3-methyl-
+1272
+1249
+102 A
+115 B
+115 B
+117 B
+0.003
+
+Beverages 2020, 6, 70
+8 of 14
+Table 3. Cont.
+Retention Index (RI)
+Mean Relative Peak Area (n = 3)
+Exp
+Auth
+Lit (1)
+Fast
+Medium
+Slow
+Baked
+ANOVA, p
+-Aldehydes
+2-Butenal, (E)-
+1036
+1040
+55 B
+49 B
+35 A
+30 A
+0.000
+Hexanal
+1085
+1087
+149 B
+192 C
+136 AB
+125 A
+0.000
+2-Butenal, 2-methyl-, (E)-
+1092
+1092
+112 A
+129 B
+133 B
+133 B
+0.001
+2-Pentenal, (E)-
+1134
+1129
+29 B
+25 AB
+23 B
+20 B
+0.006
+1H-Pyrrole-2-carboxaldehyde,
+1-methyl-
+1625
+1628
+181 A
+193 A
+214 AB
+249 B
+0.008
+Benzeneacetaldehyde
+1656
+1659
+48 B
+41 AB
+32 AB
+28 A
+0.017
+-Esters
+Acetic acid, methyl ester
+828
+826
+516 A
+587 AB
+670 AB
+789 B
+0.027
+Ethyl Acetate
+894
+887
+26 A
+37 B
+44 BC
+52 C
+0.000
+Methyl methacrylate
+1008
+1006
+21 A
+22 AB
+26 BC
+29 C
+0.001
+Methyl isovalerate
+1020
+1019
+19 A
+23 AB
+26 B
+28 B
+0.008
+-Furans
+2,4-Dimethylfuran
+963
+949
+16 AB
+17 A
+15 AB
+14 B
+0.025
+Furan, 2-(methoxymethyl)-
+1253
+1243
+203 A
+260 B
+306 C
+330 D
+0.000
+3(2H)-Furanone,
+dihydro-2-methyl-
+1279
+1267
+1487 A
+1521 A
+1518 A
+1629 B
+0.000
+Furfural
+1477
+1476
+2701 C
+2487 B
+2246 A
+2222 A
+0.000
+Furan,
+2-[(methylthio)methyl]-
+1499
+1491
+129 A
+170 AB
+222 BC
+241 C
+0.001
+-Ketones
+2-Butanone
+905
+906
+995 A
+1154 AB
+1146 AB
+1239 B
+0.017
+2-Butanone, 3-methyl-
+927
+943
+5 A
+6 AB
+7 AB
+7 B
+0.034
+2,3-Butanedione
+984
+985
+1213 B
+1146 B
+892 A
+838 A
+0.000
+3-Hexanone
+1051
+1055
+92 A
+102 AB
+112 B
+110 B
+0.026
+2,3-Pentanedione
+1071
+1073
+xx
+2434 B
+2020 A
+1991 A
+0.000
+2-Hexanone
+1085
+1086
+28 A
+30 AB
+33 A
+32 AB
+0.028
+2-Cyclopenten-1-one,
+2-methyl-
+1381
+1369
+33 A
+36 B
+38 B
+39 B
+0.001
+Dihydro-3-(2H)-thiophenone
+1577
+1560
+3 B
+3 AB
+2 AB
+2 A
+0.019
+4-Cyclopentene-1,3-dione
+1598
+1567
+48 B
+41 AB
+33 A
+33 A
+0.028
+-Pyrazines
+Pyrazine
+1220
+1214
+93 C
+90 BC
+80 A
+86 AB
+0.002
+Pyrazine, methyl-
+1283
+1267
+1302 A
+1317 AB
+1272 A
+1380 B
+0.004
+Pyrazine, 2,5-dimethyl-
+1347
+1340
+225 A
+235 AB
+224 A
+259 B
+0.027
+Pyrazine, 2,3-dimethyl-
+1363
+1343
+46 A
+49 AB
+48 A
+55 B
+0.010
+Pyrazine, 2-ethyl-6-methyl-
+1399
+1385
+160 A
+170 AB
+160 A
+182 B
+0.018
+Pyrazine, 2-ethyl-3-methyl-
+1419
+1404
+71 AB
+77 AB
+70 A
+81 B
+0.029
+-Pyridines
+Pyridine
+1190
+1188
+2011 A
+2177 B
+2505 C
+2689 D
+0.000
+Pyridine, 2-methyl-
+1232
+1222
+6 A
+6 A
+9 B
+10 B
+0.004
+-Lactones
+Butyrolactone
+1645
+1652
+30 A
+28 A
+43 A
+43 A
+0.035
+-Other
+Oxazole, trimethyl-
+1209
+1199
+22 A
+25 B
+25 B
+26 B
+0.000
+4-Methylthiazole
+1299
+1283
+47 A
+50 B
+47 A
+50 B
+0.002
+(1) Library values were obtained from PubChem, National Institutes of Health, Bethesda, 2019.
+3.4. Correlation between Sensory and Instrumental Variables
+Multivariate analysis was performed using the analytical software LatentiX, version 2.12 (LatentiX,
+Frederiksberg, Denmark). A Partial Least Squares (PLS) model on NMR and GC–MS-data (X, autoscaled)
+and sensory data (Y) was created using full cross-validation to investigate correlations between sensory
+attributes and chemical compounds. The ﬁrst two components were suﬃcient to explain 85% of the
+variance. Most of the variation was explained by Component 1 (76%), which created a clear separation
+along the x-axis, as shown in the Bi Plot in Figure 2. The most extreme samples on this dimension were
+
+Beverages 2020, 6, 70
+9 of 14
+‘Baked’ and ‘Fast’, corresponding to the extremes of the roast proﬁles. ‘Slow’ shared the characteristics
+of the ‘Baked’ sample, whereas ‘Medium’ and ‘Fast’ had slight diﬀerences, yet high correlation.
+Figure 2. PLS-model Bi Plot with NMR and GC–MS data(x) and sensory data(y).
+The PLS model created a clear separation of the NMR- and GC–MS-data, predicting the sensory
+attributes that characterise the ‘Fast’ and ‘Baked’ roasts, respectively. Thus, two main groups of
+compounds were found for the corresponding two groups of sensory attributes. These are presented
+in Table 4.
+Table 4. Inﬂuence of development time modulations on the sensory proﬁle and chemical characteristics
+of coﬀee samples. Compounds presented are dominant for the given sample and may also be found in
+lower quantity in other samples.
+Characteristics of the ‘Baked’ Roast
+Sensory Attribute
+NMR
+Taste Qualities
+GC–MS
+Odour Qualities
+Nutty+Chocolate
+Methylpyridinium
+Furan, 2-[(methylthio)methyl]-
+onion, garlic
+Astringency
+Roasted
+Bitter
+Methyl isovalerate
+Furan, 2-(methoxymethyl)-
+Pyridine
+fruity
+coﬀee, roasted
+ﬁshy, coﬀee
+Ethyl Acetate
+2-Cyclopenten-1-one, 2-methyl-
+Pyridine, 2-methyl-
+Acetic acid, methyl ester
+Methyl methacrylate
+3-Hexanone
+2-Butanone, 3-methyl-
+1-Propanol, 2-methyl-
+1H-Pyrrole-2-carboxaldehyde,
+1-methyl-
+2-Hexanone
+1-Butanol, 3-methyl-
+Butyrolactone
+2-Butenal, 2-methyl-, (E)-
+2-Butanone
+Oxazole, trimethyl-
+1-Butanol, 2-methyl-
+3-Buten-1-ol, 3-methyl-
+Pyrazine, 2,3-dimethyl-
+3(2H)-Furanone,
+dihydro-2-methyl-
+Pyrazine, 2,5-dimethyl-
+Pyrazine, 2-ethyl-6-methyl-
+Pyrazine, 2-ethyl-3-methyl-
+Pyrazine, methyl-
+4-Methylthiazole
+ethereal, fruity
+-
+nutty
+ethereal, fruity
+plastic
+fruity, waxy
+camphor
+fusel
+roasted
+acetone
+fusel
+creamy, caramel
+nutty
+acetone
+nut, roasted
+roasted, fusel
+sweet, fruity
+nutty, coﬀee
+brown, nutty
+nutty, cocoa
+roasted, hazelnut
+nutty, peanut
+nutty, cocoa
+nutty, green
+
+Beverages 2020, 6, 70
+10 of 14
+Table 4. Cont.
+Characteristics of the ‘Fast’ roast
+Sensory attribute
+NMR
+Taste
+qualities
+GC–MS
+Odour qualities
+Sweetness
+Acidity
+Acetate
+Malic Acid
+Sour
+Bitter
+Hexanal
+2,4-Dimethylfuran
+Grass, apple
+garlic, meaty, green
+Fruit+Berry
+Clean cup
+Trigonelline#1
+Trigonelline
+Dihydro-3-(2H)-thiophenone
+Pyrazine
+roasted, nut
+green, fruitysweet, creamy
+3-CQA
+5-HMF
+Citric acid
+Formic acid
+5-CQA
+Fatty acid
+2-Pentenal, (E)-
+4-Cyclopentene-1,3-dione
+2,3-Pentanedione
+2,3-Butanedione
+Furfural
+2-Butenal, (E)-
+Benzeneacetaldehyde
+butter, caramel
+sweet, woody
+ﬂower
+honey, rose
+No systematic
+eﬀect
+Sensory
+NMR
+GC–MS
+Body
+Lactate
+Caﬀeine
+A faster development time promoted more hexanal, (E)-2-pentenal, and benzeneacetaldehyde,
+which exhibit green, apple-like, fruity, and ﬂoral aroma notes (thegoodscentscompany.com). The eﬀect
+of an increased concentration of aldehydes such as hexanal in fast roasts is supported by Baggenstoss,
+J. et al. (2008), whose research indicates that hexanal formation depends on high temperatures in the
+roasting process. The NMR analysis revealed a higher presence of various acids, i.e., malic, citric,
+and formic acid in the ‘Fast’ roast. In combination, these compounds are likely to contribute to the
+sensory perception of Acidity in the ‘Fast’ sample. Both 2,3-butanedione and 2,3-pentanedione were
+present to a greater extent in ‘Fast’ and are generally agreed to have a butter-like aroma quality.
+Chlorogenic acids are a major constituent of green coﬀee [29] and were found to a higher extent in
+the ‘Fast’ roast. These are important precursors for the bitter-tasting compounds of quinic acid and
+quinide, and are degraded with an increased roast degree [25]. The present study showed continuous
+degradation of the chlorogenic acids 5-CQA and 3-CQA with increased development time and this is
+likely to increase the perceived Bitterness of the ‘Baked’ roast.
+A longer development time favoured a slightly higher presence of Maillard-derived pyrazines
+with roasty or nutty aroma qualities. This may correlate to the sensory descriptors Nutty+Chocolate
+and Roasted, which were perceived as more intense in the ‘Slow’ and ‘Baked’ samples by the panel.
+An example is 2.5-dimethylpyrazine, which is typically characterised by a roasty or hazelnut-like aroma.
+This compound has been reported in other studies as an important contributor to the characteristic aroma
+of coﬀee, and is furthermore found in higher concentrations in slow-roasted coﬀee [30]. Trigonelline in
+‘Fast’ roasts may also act as a precursor for the pyridine found in ‘Baked’ roasts, supported by previous
+studies of pyridine’s continuous increase with roast duration [12]. Pyridine has previously been
+proposed as a marker of the baked roasting defect [31], consistent with the present study. Pyridines and
+alcohols like 2-methyl-1-propanol, 3-methyl-1-butanol, and 2-methyl-1-butanol were more dominant
+in the ‘Baked’ proﬁle and can further contribute to a fusel or roasty aroma character. Certain volatiles
+in the ‘Baked’ proﬁle such as 3-methyl-3-buten-1-ol and 3-hexanone may still contribute to a slight
+fruitiness; however, from sensory analysis, the subtle fruity notes seem obscured in the presence of
+intense roasty Maillard derivatives. Other studies, not speciﬁc to development time, have shown that
+low-temperature roasting with a longer duration produces a coﬀee with less headspace intensity and
+acidity when compared to its more quickly roasted counterpart [11]. It is important to acknowledge
+that most volatile compounds exist in all samples, whereas the proportion of each compound varies
+to a large extent, leading to a shift in the perceived ﬂavour proﬁle of the coﬀee. The importance of
+each compound may shift due to the formation dynamics in the roasting process, consistent with other
+studies [32].
+
+Beverages 2020, 6, 70
+11 of 14
+The degradation of acids with longer development times was correlated with a reduced perception
+of Acidity in the Baked coﬀee. It is notable that all acids appear to be degraded to the same extent,
+meaning the ratio of particular acids does not change as an eﬀect of development time. A popular theory
+in the coﬀee roasting community is that certain roast proﬁles may favour a particular composition
+of acids, allowing the roaster to highlight a speciﬁc acid. The ﬁndings of this study indicate that
+development time does not allow for such alterations. This is consistent with other authors suggesting
+a decrease in acids with prolonged overall roast times without changes to the relative composition of
+the acids [11].
+Contrary to popular belief in the specialty coﬀee industry, a sweet perception in the brew is very
+unlikely to be due to the presence of sugars. A signiﬁcant diﬀerence in the sensory perception of
+Sweetness was found between the coﬀee samples, yet no identiﬁable simple sugars were found from
+the NMR spectra. A concentration of 1 mmol/L of sugar, e.g., glucose or fructose, could be identiﬁed if
+present. Taste recognition thresholds of sugars are generally higher than 20 mmol/L [29]. Furthermore,
+roasting has previously been shown to drastically degrade sucrose by up to 99% depending on the
+roast proﬁle [25,29,33]. Reducing sugars are formed from the hydrolysis of long-chain carbohydrates
+during the roasting process, but may rapidly enter as reactants in the Maillard reaction [33]. It is thus
+unlikely for the carbohydrates to have a signiﬁcant role in the sweet perception of the brew, considering
+the low concentration and the complexity of coﬀee substances inducing other sensations that may
+suppress a sweet taste.
+The sweet perception in coﬀee could hypothetically be induced by aromas that exhibit
+characteristics of sweet foods and drinks, rather than an actual sweet taste from sugars. The ketones
+2,3-butanedione (diacetyl) and 2,3-pentanedione are both described as exhibiting pleasant, buttery,
+caramel-like or butterscotch sensations [32,34,35] and are both found in high concentrations in samples
+with shorter development times. In particular, diacetyl is a widely used compound in the food
+ﬂavouring of sweet items [35] and may partially explain the higher perceived sweetness found by
+the sensory panel in Fast and Medium. Schenker et al. (2002) and Baggenstoss et al. (2008) found
+2,3-butanedione and pentanedione concentrations of fast roasts to be higher when compared to slower
+roasts, although these studies focused on overall roast time and not development time speciﬁcally.
+The compounds were found to originate from diﬀerent sugar fragments, and both showed drastic
+degradation with longer roast duration [12]. Furthermore, 2,3-butanedione has been shown to be
+stable even at high temperatures in the roasting process [32]; hence, degradation in the present study is
+likely due to excessively extended roast development times. Other unknown compounds exhibiting
+a sweet taste may also play a role; however, they are yet to be identiﬁed in coﬀee.
+3.5. Overall
+Roast development time modulations facilitate a rather large alteration in the overall ﬂavour
+proﬁle, considering the uniformity of roast degree between the samples. Generalisation of the data is
+naturally limited due to the sample size and the vast diversity of coﬀee species. However, the present
+study sets a solid foundation for further research in coﬀee roasting with practically applicable results to
+aid the industry in their craft. Coﬀee roasters may beneﬁt greatly from including development time as
+a process parameter in quality control programmes and product development processes, as the results
+illustrate that roast colour alone is not a suﬃcient indicator of the chemical and sensory properties
+of the coﬀee. Thus, an improved quality control process should include both colour readings and
+development time data when evaluating coﬀee roasting consistency. In addition, the results support
+the relevance of training the skill of modulating development time in certiﬁcation programmes of the
+specialty coﬀee industry.
+Whether development time changes are positive or negative is a question of consumer research
+that should be addressed by the speciﬁc segment targeted by the coﬀee roaster. Furthermore, the present
+study does not provide any information with regard to the ability of consumers in detecting ﬂavour
+diﬀerences between development time modulations in coﬀee.
+
+Beverages 2020, 6, 70
+12 of 14
+The study was limited to investigating the eﬀects of roast development time at the speciﬁc roast
+degree of Agtron 76 ± 1. Whether these eﬀects persist at diﬀerent roast degrees is an interesting area
+for further research. The current roast degree was chosen as it is deemed relevant as a ‘Light roast’ in
+commodity roasting and a ‘Dark roast’ in speciality roasting.
+4. Conclusions
+The present study provides a new base of evidence for the development time-speciﬁc modulations
+of roast proﬁles. Modulating the development time in the roast proﬁle of Colombian coﬀee beans
+had a signiﬁcant inﬂuence on the chemical composition and the sensory perception of the brew.
+Fast roasting favoured a chemical composition that oﬀers a higher sensory perception of Fruitiness,
+Sweetness and Acidity in the cup. Longer development times led to a change in the chemical proﬁle,
+providing a more Roasted, Nutty+Chocolate, and Bitter sensory perception. The ﬁndings of the study
+support methods of developing diverse ﬂavour proﬁles of coﬀee in the specialty coﬀee industry and the
+importance of including development time as a parameter in quality control and product development.
+Author Contributions: Conceptualisation, M.M. and J.A.; data curation, F.H.L., M.A.P. and J.A.; formal analysis,
+M.A.P. and J.A.; funding acquisition, M.M., CoﬀeeMind; investigation, F.H.L., M.A.P. and J.A.; methodology,
+F.H.L., M.A.P., M.M. and J.A.; project administration, M.M.; resources, M.M., F.H.L. and M.A.; supervision, M.M.;
+validation, F.H.L., M.A.P. and J.A.; visualisation, M.A. and J.A.; writing—original draft, J.A.; writing—review and
+editing, J.A. All authors have read and agreed to the published version of the manuscript.
+Funding: This research received no external funding.
+Acknowledgments: We thank Kontra Coﬀee for supplying the necessary coﬀee and roasting equipment for the
+sample development. The organisers of the Nordic Roaster Forum 2017, Tim Wendelboe and Jens Dyre Nørgaard,
+are gratefully acknowledged for making the sensory data collection possible.
+Conﬂicts of Interest: The authors declare no conﬂict of interest. This research did not receive any external grant
+from funding agencies in the public, commercial, or not-for-proﬁt sectors.
+Appendix A
+Details of descriptors used in the sensory evaluation.
+Table A1. Overview of Descriptors, Deﬁnitions and References Used in the Sensory Evaluation of the
+Roasted Coﬀee.
+Category
+Descriptor
+Deﬁnition
+Reference
+Basic tastes
+Sweetness
+The sweet sensation associated with sucrose
+solution
+Sucrose solution of 24 g/L
+Acidity
+The sour sensation associated with citric acid
+solution
+Citric acid solution of 1.2 g/L
+Bitterness
+The bitter sensation associated with caﬀeine
+solution
+Bitter solution of 0.54 g/L
+caﬀeine.
+Mouthfeel
+Body
+The sensation of thickness, viscosity, and
+heaviness of the beverage.
+Pure water
+Solution of 0.05% xanthan gum
+in water.
+Solution of 0.1% xanthan gum in
+water.
+Astringency
+The dry sensation on the tongue associated
+with over extracted earl grey tea.
+-
+Aroma
+Roasted
+The aroma associated with dark roasted coﬀee
+and rye bread crust.
+Mix of dark roasted whole coﬀee
+beans and rye bread crust.
+Nutty+Chocolate
+The aroma associated with a mix of nuts and
+dark chocolate.
+Mix of nuts (almonds, hazelnuts,
+walnuts) and 80% dark chocolate
+Fruit+Berry
+The aroma associated with citrus fruits and
+dark berries.
+-
+Quality
+Clean cup
+The absence of negative oﬀ-ﬂavours from
+initial tasting of the beverage to swallowing
+(Speciality Coﬀee Association, 2019).
+
+Beverages 2020, 6, 70
+13 of 14
+References
+1.
+CBI. What is the Demand for Coﬀee in the European Market? Available online: https://www.cbi.eu/market-
+information/coﬀee/trade-statistics/ (accessed on 9 December 2019).
+2.
+Eggers, R.; Pietsch, A. Technology I: Roasting. In Coﬀee: Recent Developments; Clarke, R.J., Vitzthum, O.G.,
+Eds.; Blackwell Sciences Ltd.: London, UK, 2001; pp. 90–107.
+3.
+van der Merwe, K.; Maree, T. The Behavioural Intentions of Specialty Coﬀee Consumers in South Africa.
+Int. J. Consum. Stud. 2016, 40, 501–508. [CrossRef]
+4.
+Münchow, M.; Alstrup, J.; Steen, I.; Giacalone, D. Roasting Conditions and Coﬀee Flavor: A Multi-Study
+Empirical Investigation. Beverages 2020, 6, 29. [CrossRef]
+5.
+Bonnländer, B.; Eggers, R.; Engelhardt, U.H.; Maier, H.G. Roasting. In Espresso Coﬀee: The Science of Quality;
+Illy, A., Viani, R., Eds.; Elsevier Academic Press: Amsterdam, The Netherlands, 2005.
+6.
+Ahmed, J.; Dolan, K.; Mishra, D. Chemical Reaction Kinetics Pertaining to Foods. In Handbook of Food Process
+Design; Ahmed, J., Shaﬁur Rahman, M., Eds.; Wiley-Blackwell: Oxford, UK, 2012.
+7.
+Bicho, N.C.; Leitão, A.E.; Ramalho, J.C.; Bartolomeu de Alvarenga, N.; Lidon, F.C. Impact of Roasting Time on
+the Sensory Proﬁle of Arabica and Robusta Coﬀee. Ecol. Food Nutr. 2013, 52, 163–177. [CrossRef] [PubMed]
+8.
+Wang, N.; Lim, L.T. Fourier Transform Infrared and Physicochemical Analyses of Roasted Coﬀee. J. Agric.
+Food Chem. 2012, 60, 5446–5453. [CrossRef]
+9.
+Blumberg, S.; Frank, O.; Hofmann, T. Quantitative Studies on the Inﬂuence of the Bean Roasting Parameters
+and Hot Water Percolation on the Concentrations of Bitter Compounds in Coﬀee Brew. J. Agric. Food Chem.
+2010. [CrossRef]
+10.
+Lyman, D.J.; Benck, R.; Dell, S.; Merle, S.; Murray-Wijelath, J. FTIR-ATR Analysis of Brewed Coﬀee: Eﬀect of
+Roasting Conditions. J. Agric. Food Chem. 2003, 51, 3268–3272. [CrossRef]
+11.
+Gloess, A.N.; Vietri, A.; Wieland, F.; Smrke, S.; Schönbächler, B.; López, J.A.S.; Petrozzi, S.; Bongers, S.;
+Koziorowski, T.; Yeretzian, C. Evidence of Diﬀerent Flavour Formation Dynamics by Roasting Coﬀee from
+Diﬀerent Origins: On-Line Analysis with PTR-ToF-MS. Int. J. Mass Spectrom. 2014, 365–366, 324–337.
+[CrossRef]
+12.
+Baggenstoss, J.; Poisson, L.; Kaegi, R.; Perren, R.; Escher, F. Coﬀee Roasting and Aroma Formation: Application
+of Diﬀerent Time-Temperature Conditions. J. Agric. Food Chem. 2008, 56, 5836–5846. [CrossRef]
+13.
+Schenker, S. Investigations on the Hot Air Roasting of Coﬀee Beans; Dissertation No. 13620; Eidgenoessische
+Technische Hochschule Zuerich (ETH): Zürich, Switzerland, 2000.
+14.
+Ruosi, M.R.; Cordero, C.; Cagliero, C.; Rubiolo, P.; Bicchi, C.; Sgorbini, B.; Liberto, E. A Further Tool to
+Monitor the Coﬀee Roasting Process: Aroma Composition and Chemical Indices. J. Agric. Food Chem. 2012,
+60, 11283–11291. [CrossRef]
+15.
+Liberto, E.; Ruosi, M.R.; Cordero, C.; Rubiolo, P.; Bicchi, C.; Sgorbini, B. Non-Separative Headspace Solid
+Phase Microextraction-Mass Spectrometry Proﬁle as a Marker to Monitor Coﬀee Roasting Degree. J. Agric.
+Food Chem. 2013, 61, 1652–1660. [CrossRef]
+16.
+Giacalone, D.; Kreuzfeldt, T.; Yang, N.; Liu, C.; Fisk, I.; Münchow, M. Common Roasting Defects in Co
+Ff Ee: Aroma Composition, Sensory Characterization and Consumer Perception. Food Qual. Prefer. 2018,
+71, 463–474. [CrossRef]
+17.
+Wang, X.; Lim, L.T. A Kinetics and Modeling Study of Coﬀee Roasting Under Isothermal Conditions.
+Food Bioprocess Technol. 2014, 7, 621–632. [CrossRef]
+18.
+SCAA. Protocols & Best Practices. Available online: https://sca.coﬀee/research/protocols-best-practices/
+(accessed on 4 December 2019).
+19.
+Stokes, C.N.; O’Sullivan, M.G.; Kerry, J.P. Assessment of Black Coﬀee Temperature Proﬁles Consumed from
+Paper-Based Cups and Eﬀect on Aﬀective and Descriptive Product Sensory Attributes. Int. J. Food Sci. Technol.
+2016, 51, 2041–2048. [CrossRef]
+20.
+Borchgrevink, C.P.; Susskind, A.M.; Tarras, J.M. Consumer Preferred Hot Beverage Temperatures.
+Food Qual. Prefer. 1999, 10, 117–121. [CrossRef]
+21.
+Steen, I.; Waehrens, S.S.; Petersen, M.A.; Münchow, M.; Bredie, W.L.P. Inﬂuence of Serving Temperature on
+Flavour Perception and Release of Bourbon Caturra Coﬀee. Food Chem. 2017, 219, 61–68. [CrossRef]
+22.
+Lawless, H.T.; Heymann, H. Sensory Evaluation of Food—Principles and Practices, 2nd ed.; Heldman, D.R., Ed.;
+Springer Science+Business Media LLC.: New York, NY, USA, 2010.
+
+Beverages 2020, 6, 70
+14 of 14
+23.
+Bax, A. A Spatially Selective Composite 90 Radiofrequency Pulse. J. Magn. Reson. 1985, 65, 142–145.
+[CrossRef]
+24.
+Campo, G.; Caracena, R.; Zuriarrain, J. Talanta Quantitative Determination of Caﬀeine, Formic Acid,
+Trigonelline and 5- (Hydroxymethyl) Furfural in Soluble Coﬀees by 1 H NMR Spectrometry. Talanta 2010,
+81, 367–371. [CrossRef]
+25.
+Wei, F.; Furihata, K.; Koda, M.; Hu, F.; Miyakawa, T.; Tanokura, M. Roasting Process of Coﬀee Beans as
+Studied by Nuclear Magnetic Resonance: Time Course of Changes in Composition. J. Agric. Food Chem.
+2012, 60, 1005–1012. [CrossRef]
+26.
+Meilgaard, M.; Civille, G.V.; Carr, B.T. Sensory Evaluation Techniques, 4th ed.; Taylor and Francis Group, LLC.:
+Boca Raton, FL, USA, 2007.
+27.
+Folmer, B. The Craft and Science of Coﬀee; Elsevier Science & Technology: San Diego, CA, USA, 2017.
+28.
+Giacalone, D.; Steen, I.; Alstrup, J.; Münchow, M. Inter-Rater Reliability of “Clean Cup” Scores by Coﬀee
+Experts. J. Sens. Stud. 2020. [CrossRef]
+29.
+Belitz, H.D.; Grosch, W.; Schieberle, P. Food Chemistry; 4th revise; Springer: Berlin/Heidelberg, Germany,
+2009. [CrossRef]
+30.
+Toci, A.T.; Azevedo, D.A.; Farah, A. Eﬀect of Roasting Speed on the Volatile Composition of Coﬀees with
+Diﬀerent Cup Quality. Food Res. Int. 2020, 137. [CrossRef]
+31.
+Yang, N.; Liu, C.; Liu, X.; Degn, T.K.; Munchow, M.; Fisk, I. Determination of Volatile Marker Compounds of
+Common Coﬀee Roast Defects. Food Chem. 2016, 211, 206–214. [CrossRef] [PubMed]
+32.
+Schenker, S.; Heinemann, C.; Huber, M.; Pompizzi, R.; Perren, R.; Escher, F. Impact of Roasting Conditions
+on the Formation of Aroma Compounds in Coﬀee Beans. J. Food Sci. 2002, 67, 60–66. [CrossRef]
+33.
+Bradbury, A.G.W. Chemistry. In Coﬀee: Recent Developments; Clarke, R., Vitzthum, O.G., Eds.; Blackwell
+Sciences Ltd.: Boston, MA, USA, 2001.
+34.
+Clark, S.; Winter, C.K. Diacetyl in Foods: A Review of Safety and Sensory Characteristics. Compr. Rev. Food
+Sci. Food Saf. 2015, 14, 634–643. [CrossRef]
+35.
+Martyny, J.W.; Van Dyke, M.V.; Arbuckle, S.; Towle, M.; Rose, C.S. Diacetyl Exposures in the Flavor
+Manufacturing Industry. J. Occup. Environ. Hyg. 2008, 5, 679–688. [CrossRef]
+Publisher’s Note: MDPI stays neutral with regard to jurisdictional claims in published maps and institutional
+aﬃliations.
+© 2020 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access
+article distributed under the terms and conditions of the Creative Commons Attribution
+(CC BY) license (http://creativecommons.org/licenses/by/4.0/).

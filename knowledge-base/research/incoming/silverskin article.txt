@@ -1,0 +1,1332 @@
+Journal of Cleaner Production 370 (2022) 133520
+Available online 10 August 2022
+0959-6526/© 2022 Elsevier Ltd. All rights reserved.
+Valorization of coffee industry wastes: Comprehensive physicochemical 
+characterization of coffee silverskin and multipurpose 
+recycling applications 
+Agata Nolasco a, Jonathan Squillante a, Salvatore Velotto b, Giovanni D’Auria a, 
+Pasquale Ferranti a, Gianfranco Mamone c, Maria Emanuela Errico d, Roberto Avolio d, 
+Rachele Castaldo d, Teresa Cirillo a,1, Francesco Esposito e,* 
+a Department of Agricultural Sciences, University of Naples "Federico II", via Universit`a, 100, 80055, Portici, Naples, Italy 
+b Department of Promotion of Human Sciences and the Quality of Life, University of Study of Roma "San Raffaele", via di Val Cannuta, 247, 00166, Roma, Italy 
+c Institute Institute of Food Science, National Research Council, 83100, Avellino, Italy 
+d Institute for Polymers Composites and Biomaterials – National Research Council of Italy (IPCB-CNR), Via Campi Flegrei 34, Pozzuoli, NA, 80078, Italy 
+e Department of Public Health, University of Naples "Federico II", via Sergio Pansini, 5, 80131, Naples, Italy   
+A R T I C L E  I N F O   
+Handling Editor: Zhen Leng  
+Keywords: 
+Silverskin 
+Coffee by-products 
+Recycling 
+Integument 
+Agro-food waste 
+A B S T R A C T   
+Every year, the coffee supply chain produces tons of waste materials from the processing of the coffee bean. 
+Coffee silverskin (CS) is the only waste product from the coffee bean roasting phases but as roasting is a key step 
+in obtaining the coffee beverage, there are tons of CS collected and thrown away by coffee roasting industries. 
+This study is based on the characterization of this integument, with a view to its use in nutritional, nutraceutical 
+and industrial fields. From the results obtained, silverskin can be used in the food sector for its nutritional profile 
+with a good amount of protein (18.9%) and total dietary fiber (34.7%) andits low-fat content (3.0%). Food safety 
+was also determined by evaluating the low levels of contaminants such as ochratoxin A (OTA) and acrylamide 
+(AA), with values < 0.1 mg/kg and <0.02 mg/kg respectively. Low concentrations of heavy metals and poly­
+cyclic aromatic hydrocarbons (PAHs) completed the safety-related overview in terms of CS contamination. For 
+the nutraceutical aspect, an in-silico analysis of the peptide fraction was proper to evaluate the presence of 
+angiotensin-converting enzyme (ACE) inhibitory peptides, antioxidants and dipeptidyl peptidase (DPP) IV in­
+hibitors with promising uses for the treatment of diabetes and its side effects. Finally, through morphological- 
+structural characterization of CS, the main constituents such as lignin, cellulose and hemicellulose were iden­
+tified spectrally by Fourier transform infrared spectroscopy (FT-IR) and solid-state CP/MAS 13C NMR spectros­
+copy. The CS thermostability was monitored by thermogravimetric (TG) analysis, and the tegument surface was 
+evaluated by Scanning Electron Microscopy (SEM) and volumetric nitrogen adsorption analysis. This information 
+provides a broader view of the possible uses of CS as a filler for biocomposite materials. Therefore, from the 
+perspective of recovering waste materials from food supply chains, coffee silverskin could be a good product to 
+focus on.   
+1. Introduction 
+The growing attention to environmental protection and circular 
+economy has encouraged the study and exploitation of waste materials 
+from the food industry. Tonnes of by-products are discarded every year 
+without considering their enormous potential for the realization of new 
+products or structural and qualitative improvement of products already 
+on the market. The Food Agriculture Organization of the United Nations 
+(FAO) has set a priority for implementing solutions for more competi­
+tive, inclusive, and sustainable food value chains that involve optimized 
+supply chains and circular bioeconomy for loss and waste reduction. 
+Coffee, for example, produces a huge amount of waste products 
+throughout the various stages of processing. The structure of the freshly 
+harvested coffee cherry consists of a series of protective layers of the 
+* Corresponding author. 
+E-mail address: francesco.esposito4@unina.it (F. Esposito).   
+1 Co-last author. 
+Contents lists available at ScienceDirect 
+Journal of Cleaner Production 
+journal homepage: www.elsevier.com/locate/jclepro 
+https://doi.org/10.1016/j.jclepro.2022.133520 
+Received 24 February 2022; Received in revised form 27 July 2022; Accepted 4 August 2022   
+
+Journal of Cleaner Production 370 (2022) 133520
+2
+coffee bean (Fig. 1), which are discarded during the early stages of 
+processing. About 90% of the coffee cherry is discarded and often 
+inappropriately disposed of, causing environmental problems (Irion­
+do-DeHond et al., 2020b). In relation to their chemical and physical 
+composition, it has been noted that some by-products are more suitable 
+for the production of edible mushrooms and vermicompost (coffee pulp 
+and husk, respectively), whereas silverskin has potential in the food 
+sector as a dietary fiber supplement and spent ground coffee for biofuel 
+production (Murthy and Naidu, 2012; Janissen and Huynh, 2018). 
+The following study focuses on coffee silverskin (CS), a thin integu­
+ment covering both hemispheres of the green coffee bean and separating 
+from it during the roasting phase (Fig. 2). It represents only 4% (w/w) of 
+the coffee bean (Martuscelli et al., 2021) but, compared to the 10 million 
+tonnes of coffee produced annually (ICO, 2020), an amount of 400 
+thousand tonnes of waste products are generated each year in the coffee 
+roasting industry. Recent studies investigated the recycling potential of 
+this integument to be used in the food industry as a novel food low in fat, 
+high in fiber and a source of protein (Iriondo-DeHond et al., 2019a, 
+2019b; Klingel et al., 2020; Martuscelli et al., 2021); in the biorefineries 
+as biomass for biobutanol production (Hijosa-Valsero et al., 2018); as 
+potential material for packaging (Garcia and Kim, 2021; Oliveira et al., 
+2021) but also in the nutraceutical and cosmetic field for its bioactive 
+compounds (such as phenolic compounds and melanoidins) with anti­
+oxidant properties (Del Pozo et al., 2020; Nzekoue et al., 2020; Zengin 
+et al., 2020). For a complete characterization of this waste material, our 
+study aims to provide additional helpful information on the peptide 
+fraction of CS extract and fill some gaps in the structural analysis of this 
+byproduct. To the best of our knowledge, there are few studies con­
+ducted on CS for the determination of the peptide composition of protein 
+hydrolysates and their potential bioactivities (Perez-Miguez et al., 
+2019). Besides, a recent study was conducted by G´orska et al. (2020) on 
+the characterization of thermal properties of CS by differential scanning 
+calorimetry (DSC) and thermogravimetric analysis (TGA) under nitro­
+gen and oxygen flow. 
+Therefore, our work takes a broad perspective on CS characteriza­
+tion, with the primary objectives: i) to confirm the nutritional profile 
+and safety of CS to make a healthy food product; ii) to study the peptide 
+composition of CS and its biological activities, to ascertain possible uses 
+in nutraceuticals as conventional drugs for the treatment of diabetes; 
+and iii) to characterize its structure on macro- and micro-scale with the 
+aim of possible use as a possible filler for the realization of polymeric 
+composite material. This research may open up new opportunities for 
+using this food waste material for environmentally sustainable recycling 
+that aims to minimize waste within the coffee production chain and 
+provide the basis for the production of increasingly environmentally 
+friendly products. 
+2. Materials and methods 
+2.1. Coffee silverskin sample 
+Two coffee industries of the Campania region (Italy) supplied the 
+thin integument just after the roasting process of Coffea arabica and 
+Coffea canephora varieties (in unspecified ratio). Coffee varieties are 
+usually blended by the industries during the roasting process, and the 
+coffee silverskin was recovered by suction cyclones and collected 
+(Lachenmeier et al., 2021). The samples were stored in the dark at 20 ◦C 
+and eventually analyzed within three days, in triplicate. 
+2.2. Nutritional profile and safety aspects 
+Physico-chemical analyses were performed on coffee silverskin 
+samples to evaluate their nutritional profile and safety in terms of the 
+absence of contaminants. To this end, the analyses were carried out as 
+described in the following sections. 
+Fig. 1. Identification of the different layers that constitute coffee cherries.  
+Fig. 2. Coffee silverskin: the only waste material from the roasting phase of the 
+green coffee beans. 
+Fig. 3. Fourier Transform Infrared (FT-IR) spectroscopy of coffee silverskin 
+(green) and a pure cellulose sample (black) reported as a reference. 
+A. Nolasco et al.                                                                                                                                                                                                                                
+
+Journal of Cleaner Production 370 (2022) 133520
+3
+2.2.1. Protein fraction 
+Determination of the protein fraction was performed according to 
+the Kjeldahl procedure, which measures the nitrogen content of a 
+sample (ISTISAN Report 96/34). Protein content was calculated by 
+assuming a ratio of protein to nitrogen for the CS sample analyzed. 
+Briefly, 0.1 g of ground CS was placed in the digestion tube. To this, one 
+catalyst tablet and 7 ml of sulfuric acid were added. After the sample 
+completed digestion, the digestate was diluted thoroughly with deion­
+ized water and the sample in the tube was shaken. Next, an appropriate 
+volume of boric acid solution was added to the collection flask. The 
+sample tube was immersed in the boric acid solution and distillation was 
+proceeded to completion. Finally, the sample was titrated with the 
+standardized HCl solution. CS samples were prepared in triplicate. 
+2.2.2. Total fat 
+The total fat determination was performed by Soxhlet following the 
+official method ISTISAN report 96/34 (Baldini et al., 1996). 5 g of CS 
+powder was weighed and placed in a cellulose extraction thimble. The 
+thimble was placed in the Soxhlet extractor for 3 h with petroleum ether. 
+The solvent was removed by distillation with a rotary evaporator, and 
+the residue was dried in an oven at 100 ◦C for 1 h. The extracted sample 
+was allowed to cool in a desiccator and weighed. 
+2.2.3. Saturated fatty acids 
+The fatty substance, appropriately extracted from the CS sample, was 
+subjected to transesterification, and the fatty acid methyl esters, thus 
+obtained, were analyzed by gas chromatography. Briefly, 100 mg of 
+sample oil were put into a vial with a tight sealing cap, adding 5 mL of 
+hexane. Then, the vial was vortexed, 250 μl of sodium methoxide re­
+agent was added. After, it was vortexed again for 1 min, pausing every 
+10 s, 5 mL of saturated NaCl solution was added and manually shaken 
+vigorously for 15 s. After 10 min, the hexane layer was removed and 
+transferred to a vial containing a small amount of Na2SO4. Finally, the 
+hexane phase was again transferred to a vial for subsequent GC analysis. 
+2.2.4. Carbohydrates 
+10 g of finely ground sample were extracted with 100 ml of the 
+acetonitrile/water mixture (60:40) in an ultrasonic bath for 30 min. The 
+sample was stirred for 3 h and the extract was injected into high- 
+performance liquid chromatography (HPLC) equipment. Separation 
+and determination were performed by HPLC using a specific chro­
+matographic column; the detection was by refractive index detector, or 
+UV detector. 
+2.2.5. Total dietary fiber 
+Total dietary fiber was determined with the Megazyme Integrated 
+Total Dietary Fiber Assay kit, which was accepted as AOAC method 
+2017.16 in 2018 and is the only method consistent with the CODEX 
+Alimentarius definition of dietary fiber (Martuscelli et al., 2021). 
+Enzymatic digestion with heat-stable alpha-amylase, protease and 
+amyloglucosidase was performed to remove protein and starch. Next, 
+precipitation with ethanol was carried out, and the residue was filtered 
+and dried. The resulting mass, minus the remaining ash and proteins, 
+represents the amount of total dietary fiber. 
+2.2.6. Ochratoxin A (OTA) 
+The determination of ochratoxin A (OTA) in the CS was performed 
+following the official method EN 1413:2003 with some modifications. 
+10 g of sample were homogenized with methanol:water solution (70:30 
+v/v); the extract was diluted with a phosphate buffer solution prepared 
+by dissolving in 1800 mL of water 4.0 g of KCl, 160 g of NaCl and 36.0 g 
+of sodium hydrogen phosphate dihydrate (Na2HPO4–2H2O), adjusting 
+the pH of the solution to 7.4 with 0.1 M HCl or with 0.1 M NaOH. Pu­
+rification was then performed by immunoaffinity chromatography onto 
+columns containing a gel on which anti-OTA antibodies are immobi­
+lized. Finally, mycotoxin eluted with pure methanol was quantified by 
+HPLC with a reversed-phase C18 column and a fluorimetric spectrum 
+detector. 
+2.2.7. Acrylamide (AA) 
+Analyses for acrylamide (AA) were performed according to the 
+method of Fernandes and Soares (2007) with some modifications. An 
+aliquot of 0.5 g of homogenized sample was subjected to a solid-phase 
+extraction technique dispersed with C18 sorbent packed in poly­
+propylene columns. The aqueous eluate was then subjected to deriva­
+tization after bromination and subsequent GC-MS reading and 
+quantification of the derivative. 
+2.2.8. Furan 
+The furan was analyzed with head speace technique following the 
+Park et al. (2021) method. An aliquot of 5 g of sample and 5 mL of HPLC 
+water were added to a headspace vial (20-mL) carefully sealed. Then 
+d4-furan solution (internal standard) was added to vial, homogenized 
+and placed on ice. Furan was extracted from the samples by an auto­
+mated solid-phase micro-extraction (SPME) agitating the sample at 300 
+rpm, at 50 ◦C. The fibre (carboxen/polydimethylsiloxane) was exposed 
+to the headspace of vial samples for 20 min at 25 mm depth. Then, the 
+fibre was thermally desorbed in the injection port of a gas chromato­
+graph at 40 mm depth for 5 min. 
+2.2.9. Heavy metal 
+A 0.5 g aliquot of CS was homogenized using a blender, and 5 ml of 
+65% HNO3 and 2 ml of H2O2 (30% w/w) were added. Then, the sample 
+underwent wet mineralization via a Milestone microwave for 30 min at 
+190 ◦C. Eventually, the sample was cooled, and the final volume of 25.0 
+ml was obtained by adding MilliQ water. Trace element detection and 
+quantification were performed using a Thermo Scientific TM ICAPTM 
+RQ inductively coupled plasma mass spectrometer (Q-ICP-MS) with a 
+Burgener Mira-Mist nebulizer, a quartz cyclonic spray chamber cooled 
+to 2.7 ◦C, and foam cones. All samples were analyzed in duplicate, and 
+each sample was measured in triplicate with Q-ICP-MS detection. 
+2.2.10. Polycyclic aromatic hydrocarbons (PAHs) 
+PAH analyses were performed with acetone (≥99.8%, GC grade) and 
+n-hexane (≥95%, GC grade). Certified multicomponent solution of 12 
+PAHs (2000 μg/mL each) and deuterated internal standard mixture so­
+lution (100 μg/mL each) were provided by Ultrascientific (Italy). All 
+glassware was tested and found to be free of PAHs. An aliquot of 1.00 g 
+± 1 mg CS sample was extracted with 25 mL acetone/n-hexane 1:1 v/v 
+using ultrasonic bath (Branson, US) for three 30-min cycles, in closed 
+glass vials. After this time, the extract was concentrated to a final volume 
+of 1 mL using an automatic concentrator MultiVap 8 (Labtech, Italy) and 
+purification procedure was unnecessary for the subsequent GC-MS 
+analysis. The extract was injected into a gas chromatograph coupled 
+to a mass spectrometer (GC 2010 Plus, MS-TQ8030, Shimadzu, Japan) 
+for the determination of PAHs (Arienzo et al., 2017). Calibration curves 
+were obtained in the range of 1–100 μg/L by calculating the area ratio of 
+the target ion to the respective internal standard with five standard 
+solutions obtained from certified standard solutions. A reagent blank 
+and a digestion method blank were run to verify contamination of all 
+materials, and calibration was verified in the instrumental sequence 
+with a control standard every 10 samples. 
+2.3. Nutraceutical aspects 
+2.3.1. Silverskin Protein isolate (SPI) 
+Proteins of CS were isolated by adapting isoelectric precipitation 
+technologically used for soy proteins and hemp proteins (Mamone et al., 
+2019). Briefly, 10 g of CS flour were mixed with 100 ml of deionized 
+water adjusted to pH 10.0 with sodium hydroxide 0.1 N. The mixture 
+was stirred for 4 h at 35 ◦C on a magnetic stirrer. After 4 h extraction, 
+samples were centrifuged at 3433 g for 15 min, and the supernatants 
+A. Nolasco et al.                                                                                                                                                                                                                                
+
+Journal of Cleaner Production 370 (2022) 133520
+4
+were retained. The supernatants were adjusted to pH 4.5 with HCl 0.1 N 
+and put in the refrigerator overnight to enhance the protein precipita­
+tion. Then the precipitate was collected by centrifugation for 15 min at 
+3433 g. The pellets were washed twice in cold acetone and dried with 
+gaseous nitrogen. To evaluate the presence of soluble peptides 10 mg of 
+SPI were dissolved in TFA 0.1% (v/v) and centrifugated. The superna­
+tant was cleaned up using C-18 Sep-Pak cartridges (Waters, Milford, 
+Massachusetts, USA) following the manufacturer’s instruction and then 
+concentrated with gaseous nitrogen and resuspended in 0.1% (v/v) 
+formic acid solution. The peptide mixtures were finally analyzed 
+through high-resolution mass spectrometry. 
+2.3.2. High-resolution liquid chromatography (HR LC-MS/MS) analyses 
+Mass spectrometry (MS) analysis was performed by using a Q- 
+Exactive Orbitrap mass spectrometer (Thermo Scientific, San Jose, CA, 
+USA), online coupled with an Ultimate 3000 ultra-high- resolution 
+liquid chromatography instrument (Thermo Scientific). Samples were 
+loaded through a 5 mm long, 300 μm id pre-column (LC Packings, USA) 
+and separated by an EASY-Spray™ PepMap C18 column (2 μm, 15 cm ×
+75 μm) 3 μm particles, 100 Å pore size (Thermo Scientific). Eluent A was 
+0.1% formic acid (v/v) in Milli-Q water; eluent B was 0.1% formic acid 
+(v/v) in acetonitrile. The column was equilibrated at 5% B. The peptides 
+generated after the hydrolysis of the spots were separated by applying a 
+5–40% gradient of B over 60 min. The flow rate was 300 μL/min. The 
+mass spectrometer operated in data-dependent mode and all MS1 
+spectra were acquired in the positive ionization mode with an m/z scan 
+range of 350–1600. Up to 10 most intense ions in MS1 were selected for 
+MS/MS mode fragmentation. Resolving power of 70,000 full width at 
+half maximum (FWHM), an automatic gain control (AGC) target of 1 ×
+106 ions and a maximum ion injection time (IT) of 256 ms were set to 
+generate precursor spectra. MS/MS fragmentation spectra were ob­
+tained at a resolving power of 17,500 FWHM. In order to prevent 
+repeated fragmentation of the most abundant ions, a dynamic exclusion 
+of 10s was applied. Ions with one or more than six charges were 
+excluded. Spectra were processed by using the Xcalibur Software 3.1 
+version (Thermo Scientific) and then analyzed using the ProteinPro­
+spector software (v 6.2.2. https://prospector.ucsf.edu/prospector/msh 
+ome.htm). The analysis of the mass spectra was performed using as 
+reference proteome all the “Green plants” plant sequence data (Uni­
+ProtKB.2020.09.02.random.concat). The database searching parameters 
+were: i) mass tolerance value of 8 ppm for the precursor ion and 0.01 Da 
+for MS/MS fragments; ii) no enzyme iii) no fixed modification; variable 
+modifications: oxidation of the methionine and pyroglutamic acid for 
+the N-term glutamine residues. The false discovery rate was set at 1% on 
+both peptides and proteins. All the entries inferred to fragments were 
+removed in order to obtain a more reliable analysis. The analyses were 
+performed on biological duplicates, and the results were finally merged 
+removing duplicates. The resulting peptides were searched for their 
+potential bioactivity through the Biopep software (Minkiewicz et al., 
+2019). This online tool (available on https://biochemia.uwm.edu.pl/a 
+bout-biopep-uwm/- last access on 15/02/2022) is a curated database 
+of bioactive sequences. For angiotensin-converting-enzyme (ACE) and 
+dipeptidyl peptidase IV (DPP IV) inhibitory activities, only bioactive 
+sequences contained at least ten times were reported. 
+2.4. Technical-structural characterization 
+2.4.1. Fourier Transform Infrared (FTIR) spectroscopy 
+Fourier-transform infrared spectra were recorded in Attenuated 
+Total Reflectance (ATR-FTIR) mode on a Perkin Elmer Spectrum 100 
+spectrometer equipped with a Universal ATR cell (Perkin Elmer Inc., 
+Waltham, MA, USA). The scanned wavenumber range was 4000–650 
+cm−1. All spectra were recorded with a resolution of 4 cm−1, averaging 
+16 scans. 
+2.4.2. Solid-state Cross-Polarization/Magic Angle Spinning Carbon-13 
+Nuclear Magnetic Resonance (CP/MAS 13C NMR) spectroscopy 
+Solid-state 13C NMR spectra recorded in cross-polarization, magic 
+angle spinning mode (CP-MAS) were collected at 100.47 MHz on a 
+Bruker Avance II 400 spectrometer (Bruker Biospin Co., Billerica, MA, 
+USA) operating at a static field of 9.4 T, equipped with a 4 mm MAS 
+probe. CS samples were packed in 4 mm zirconia rotors sealed with Kel-F 
+caps and spun at 10 kHz. Spectra were recorded with a 1H π/2 pulse 
+width of 3.9 μs, a 1H–13C contact time of 2 ms and a high-power proton 
+decoupling pulse scheme during acquisition, averaging 20000 scans. 
+2.4.3. Thermogravimetric (TG) analysis 
+The thermogravimetric analysis was used to evaluate the thermal 
+stability of the material. TG analysis was performed using a Perkin Elmer 
+Pyris 1 thermobalance (Perkin Elmer). Briefly, 3.5 mg of sample was 
+inserted in an alumina crucible and heated from room temperature to 
+800 ◦C. The measurement was performed under an inert atmosphere 
+(nitrogen) with a heating rate of 10 ◦C/min. 
+2.4.4. Scanning Electron Microscopy (SEM) 
+SEM analysis was performed on the CS surfaces using an FEI Quanta 
+200 FEG SEM (FEI, Eindhoven, The Netherlands) in high vacuum mode. 
+Before analysis, the samples were sputter-coated with a thin layer of Au/ 
+Pd. 
+2.4.5. Volumetric nitrogen adsorption analysis 
+Volumetric nitrogen adsorption analysis at 77 K was performed on 
+CS through a Micromeritics ASAP 2020 analyzer (Micromeritics In­
+strument Corporation, Norcross, GA, USA) using high purity gases 
+(>99.999%). Before analysis, the sample was degassed at 120 ◦C for 10 h 
+under vacuum (p < 10−5 mbar). Nitrogen adsorption analysis was per­
+formed up to 1 bar, and the result was plotted as the volume of nitrogen 
+adsorbed per gram of material versus the relative pressure p/p0, where p 
+represents the N2 absolute pressure and p0 represents the saturation 
+pressure of N2 at the temperature of analysis. The Brunauer–Emmett–­
+Teller (BET) specific surface area (SSA) of CS was determined by the 
+linear part of the BET equation applied to the N2 adsorption isotherm. 
+Nonlocal Density Functional Theory (NLDFT) was applied to nitrogen 
+adsorption isotherm to evaluate the pore size distribution of CS. 
+3. Results and discussion 
+3.1. Nutritional profile and safety aspects 
+The nutritional profile is the most studied aspect of CS. Hence, the 
+first part of the study focused on the determination of protein fraction, 
+carbohydrates, total fat, saturated fatty acids, and total dietary fibers 
+(Table 1). The content of proteins (18.9%), carbohydrates (42.0%), total 
+fat (3.0%), total dietary fibers (34.7%) are in agreement with Narita and 
+Inouye (2014) and Ates¸ and Elmacı (2019). Some differences could be 
+attributed to the different extraction methods used for the analysis, 
+temperature of the water during the extraction process, and varieties of 
+coffee beans. A study conducted by Bessada et al. (2018) showed that 
+there is a significant difference on the chemical composition of silverskin 
+obtained from Coffea canephora beans of different geographical parts 
+(Brazil, Uganda, Vietnam, Cameroon, Indonesia and India). In 
+Table 1 
+Nutritional profile of coffee silverskin.  
+Parameter 
+Values 
+Units of Measurement 
+Protein fraction 
+18.9 
+% 
+Carbohydrates 
+42.0 
+% 
+Total fat 
+3.0 
+% 
+Saturated fatty acids 
+1.2 
+% 
+Total dietary fiber 
+34.7 
+%  
+A. Nolasco et al.                                                                                                                                                                                                                                
+
+Journal of Cleaner Production 370 (2022) 133520
+5
+particular, fatty acid composition and antioxidant profile played an 
+important role in geographically differentiating coffee silverskin (Bes­
+sada et al., 2018). For the evaluation related to the safety for food 
+purposes of this integument, the levels of Ochratoxin A (OTA) and 
+Acrylamide (AA), heavy metals and Polycyclic Aromatic Hydrocarbons 
+(PAHs) were performed. The results are shown in Table 1. As also 
+specified by a recent study conducted by Iriondo-DeHond et al. (2020b) 
+the main limitations to the use of this by-product resulting from the 
+coffee roasting phase could be related to a possible high contamination 
+by OTA and AA. 
+Ochratoxin A (OTA) is a widespread mycotoxin produced primarily 
+by the fungi Aspergillus and Penicillum species (Malir et al., 2016). Its 
+presence is usually associated with the storage of grain products and 
+other plant-derived products such as herbs, spices, and even coffee beans 
+(Petzinger and Ziegler, 2000). A study conducted by Romani et al. 
+(2003) evaluated how the concentration of OTA even in highly 
+contaminated coffee samples is reduced by 90% when subjected to the 
+typical roasting of Italian espresso coffee. In any case, despite the high 
+toxic risk caused by the presence of this mycotoxin, a recent study by 
+Heintz et al. (2021) shows, through a Margin of Exposure analysis 
+(MOE), that measured levels of OTA in coffee pose only a low risk to the 
+consumer following single or repeated exposures. 
+Acrylamide (AA), on the other hand, is a toxic substance induced by 
+the cooking of foods at high temperatures (Rifai and Saleh, 2020). Its 
+formation during the Maillard reaction is triggered by the presence of 
+reducing sugars and amino acids (Esposito et al., 2017). French fries, 
+cookies, bread, and roasted coffee are food products with higher con­
+centrations of AA (Bas¸aran et al., 2020; Esposito et al., 2021; Bas¸aran 
+et al., 2022). The accredited neurological and carcinogenic toxicity on 
+animals has placed this substance as potentially carcinogenic for 
+humans (group 2 A), imposing limits on its content in food (IARC, 1994). 
+A study conducted by Esposito et al. (2020) shows that at certain 
+time-temperature conditions reached during coffee bean roasting, a 
+decrease in AA content is obtained without affecting taste and aroma. 
+Furan has also been classified by the International Agency for Research 
+on Cancer as a Group 2 B carcinogen, that is, possibly carcinogenic to 
+humans (IARC, 1994). It is a heterocyclic organic compound produced 
+typically through the Maillard reaction (Anese and Suman, 2013) and its 
+formation is affected by temperature and pH conditions (Seok and Lee, 
+2020). 
+Regarding roasted coffee beans, EU Regulations 1881/2006 (Euro­
+pean Commission, 2006a) and 2017/2158 (European Commission, 
+2017) prescribe occurrence limits for ochratoxin A (OTA) and acryl­
+amide (AA), 5 μg/kg and 400 μg/kg, respectively. Given the origin of the 
+silver skin as a byproduct of the coffee roasting stage, trace amounts of 
+these contaminants could be present. However, the results of our anal­
+ysis report levels of OTA and AA below the threshold limit (Table 2), as 
+previously reported in studies conducted by Iriondo-DeHond et al. 
+(2019a) and Martuscelli et al. (2021). In addition, a broader screening 
+was conducted to assess the concentration of polycyclic aromatic hy­
+drocarbons (PAHs), heavy metals, and micronutrients (Table 2). The 
+results obtained for PAHs and heavy metals could be safe for the con­
+sumer considering a reasonable consumption of CS as food ingredient 
+(Nolasco et al. Unpublished results). A previous study conducted by 
+Ballesteros et al. (2014) found higher concentrations for Cd (<0.15 
+mg/kg), Cr (1.59 mg/kg) and similar values for Ni (1.64 mg/kg) and Pb 
+(<1.60 mg/kg). In contrast, Nzekoue et al. (2022) reported lower levels 
+for Pb (0.3 mg/kg), Ni (0.5 mg/kg), Cr (0.23 mg/kg), and higher values 
+for Hg (0.05 mg/kg) and As (0.1 mg/kg). 
+Among the essential elements, the iron (Fe) content is noteworthy. 
+Its level (349 mg/kg) suggests a practical use of CS as a supplement to 
+the daily requirement of this micronutrient. A use >12% (w/w) of CS as 
+a food or food ingredient could receive the nutritional claim “high in 
+iron” according to Regulation (EC) 1924/2006 and Regulation (EU) 
+1169/2011 (European Commission, 2006b, 2011). An amount of 20 g 
+CS provides about 7 mg of iron, corresponding to 50% of the 
+recommended daily allowance (RDA). 
+Therefore, given its nutritional profile and food safety, the use of CS 
+in the food sector could play an essential role as a food resource. In the 
+context of the circular economy, the reuse of food waste is consistent 
+with good management practices in the supply chain itself and allows for 
+the improvement of the daily human diet with products of nutritional 
+value. Thanks to the CS fiber content, its inclusion in the food diet could 
+be useful to get the fiber intake recommended by the Italian Society of 
+Human Nutrition (SINU) of 25 g/day of fiber for adults (Societ`a Italiana 
+di Nutrizione Umana, 2014). In addition, the consumption of fiber-rich 
+foods may improve body weight maintenance and reduce the risk of 
+some diseases such as cardiovascular disease, type 2 diabetes and colon 
+cancer (EFSA Panel on Dietetic Products and Nutrition, and Allergies, 
+2010). However, it will be necessary to consider its safety profile by 
+conducting an assessment of dietary exposure to silverskin. 
+3.2. Nutraceutical aspects 
+The chemical profile of CS is also interesting from the point of view of 
+bioactive compounds. It is characterized by caffeine (0.77–1.4%), 
+chlorogenic acids (15.8%) and melanoidins (17–23%), responsible for 
+several biological activities, including antioxidant (Toschi et al., 2014; 
+Ates¸ and Elmacı, 2019; Iriondo-DeHond et al., 2017; Gottstein et al., 
+2021). Several studies highlight the potential nutraceutical aspect of this 
+integument (Nzekoue et al., 2020, 2022). The second objective of our 
+work focused on the evaluation of the peptide fraction of CS and its 
+potential benefits on human health. 
+The MS analysis showed the presence of 45 peptides inferred to 
+protein involved in several metabolic pathways (Table 3 and Table 4); 
+among these, serine proteases, carboxypeptidase and neprosin. The 
+latter is a prolyl endoprotease that preferentially cleaves C-terminal to 
+Table 2 
+Levels of toxicants and elements in coffee silverskin.  
+Policyclic Aromatic Hydrocarbons (PAHs) 
+Median concentration (mg/kg) 
+Benzo(a)pyrene 
+< 0.01 
+Benzo(b)fluoranthene 
+0.01 
+Benzo(k)fluoranthene 
+< 0.01 
+Chrysene 
+< 0.01 
+Dibenzo-Pyrene 
+0.86 
+Dibenzo Anthracene 
+0.02 
+Pyrene 
+0.02 
+Perylene 
+< 0.01 
+Naphthalene 
+0.04 
+Acenaphthene 
+0.06 
+Fluorene 
+0.03 
+Fluoranthene 
+0.02 
+Process Contaminants 
+Median concentration (mg/kg) 
+Acrylamide (AA) 
+< 0.02 
+Furan 
+< 0.1 
+Methyl-furan 
+< 0.1 
+Mycotoxins 
+Median concentration (mg/kg) 
+Ochratoxin A (OTA) 
+< 0.1 
+Heavy Metals 
+Median concentration (mg/kg) 
+Arsenic (As) 
+0.04 
+Cadmium (Cd) 
+0.05 
+Total Chromium (Cr) 
+0.86 
+Mercury (Hg) 
+0.02 
+Nickel (Ni) 
+1.78 
+Lead (Pb) 
+2.63 
+Micronutrients 
+Median concentration (mg/kg) 
+Manganese (Mn) 
+22.9 
+Copper (Cu) 
+58.6 
+Cobalt (Co) 
+1.02 
+Zinc (Zn) 
+7.08 
+Iron (Fe) 
+349  
+A. Nolasco et al.                                                                                                                                                                                                                                
+
+Journal of Cleaner Production 370 (2022) 133520
+6
+proline residues under highly acidic conditions and has been isolated 
+and used as an alternative to the canonical trypsin in bottom-up prote­
+omics (Schr¨ader et al., 2017). The presence of these proteases could be 
+associated with a potential positive action of CS extracts in the digestion 
+process. Furthermore, in Table 3 it is possible to notice the presence of 
+proteins involved in the oxidation of polyphenols such as tyrosinases 
+and phenol oxidases. It is also noteworthy the presence of proteins 
+involved in carbohydrate metabolism like glycoside hydrolase and 
+alpha-mannosidase. 
+After the Biopep analysis of peptides found in CS extracts, several 
+bioactivities have been highlighted (Fig. S1). Among these biological 
+activities, a pivotal role could be played by peptides that contain se­
+quences with angiotensin-converting-enzyme (ACE) and dipeptidyl 
+peptidase IV (DPP IV) inhibitory activities. Although in a minor part, the 
+peptides found in the extracts could also be precursors of antioxidant 
+sequences like LKP and alpha-glucosidase inhibitors peptides such as VE 
+and PP. 
+This evidence may confirm the application of CS extract as supple­
+mentation to conventional drugs during diabetes treatments. Type 2 
+diabetes (T2D) is generally caused by a combination of insulin resistance 
+and beta-cell failure that leads to elevated blood glucose levels (Veelen 
+et al., 2021). A high blood sugar level can cause macrovascular com­
+plications (coronary artery disease, peripheral artery disease, and 
+stroke), as well as microvascular complications (diabetic nephropathy, 
+diabetic neuropathy, and diabetic retinopathy). In our body, incretins 
+stimulate beta-cell growth, differentiation, and survival in addition to 
+their well-documented, potent insulinotropic effects. Dipeptidyl pepti­
+dase IV rapidly antagonistically inactivates these hormones in vivo, thus 
+limiting their therapeutic potential. In humans and animal models of 
+type 2 diabetes, inhibition of DPP IV enhanced circulating incretin 
+levels, showing promising results for improving glucose tolerance, in­
+sulin sensitivity, and adiponectin function (Pospisilik et al., 2003). 
+CS contains bioactive compounds such as chlorogenic acid, caffeine, 
+and melanoidins that are metabolized and interact with the cells 
+involved in the pathogenesis of diabetes and its complications (Irion­
+do-DeHond et al., 2020a). It is well-known the association between 
+coffee and coffee derived extracts consumption and reduction of blood 
+glucose levels and beneficial effect on the glucose uptake by tissues and 
+well-being of pancreas beta cells (Fernandez-Gomez et al., 2015, 2016; 
+Chen et al., 2015; Abunasef et al., 2014). Our in-silico finding of ACE 
+inhibitors, antioxidant and DPP IV inhibitor peptides are promising and 
+may add information to what is already known about the effect of CS 
+extracts on the treatment of diabetes and its side effects. However, the 
+effect on diabetic patients of the biopeptides precursors found in CS 
+should be confirmed by the development of synthetic peptides, and the 
+release of the effective bioactive peptides after in-vitro digestion of the 
+extracts should be further validated. 
+3.3. Morphological-structural characterization 
+Finally, the last objective of this work was to carry out analyses for a 
+morphological and structural characterization of CS, to evaluate its 
+possible applications also in industrial fields. To this end, analyses were 
+performed with Fourier Transform Infrared (FT-IR) spectroscopy, CP/ 
+MAS 13C NMR solid-state spectroscopy, thermogravimetric analysis 
+(TGA), Scanning Electron Microscopy (SEM) analysis and volumetric 
+nitrogen adsorption analysis. 
+Fourier Transform Infrared (FT-IR) spectroscopy was used to identify 
+the functional groups present in the CS. The FT-IR spectra of CS 
+compared to pure cellulose are shown in Fig. 3. The predominant peaks 
+observed at 1000 cm−1, in the 1200–1450 cm−1 region and at 3350 
+cm−1, marked the presence of cellulose and lignin and hemicellulose, as 
+revealed by the strong absorption bands encompassing the aromatic ring 
+and carbonyl vibration regions (1500–1750 cm−1). Also, the narrow 
+signals observed at 2800–2900 cm−1 (C–H stretching region) are usually 
+present in lignin and hemicellulose spectra (Horikawa et al., 2019). 
+Finally, the complex shape of the carbonyl absorption band suggests the 
+presence of different carbonyl-containing species. 
+Cross-Polarization/Magic Angle Spinning Carbon-13 Nuclear Mag­
+netic Resonance - (CP/MAS 13C NMR) is widely used to study the 
+chemical composition of lignocellulosic biomass and analyze changes 
+that occur during chemical/thermal treatments (Kostryukov et al., 
+2021). The spectrum obtained on CS supports and complements the 
+compositional analyses reported in previous sections. Indeed, the main 
+peaks observed can be identified as cellulose, hemicellulose, and lignin, 
+which are the main structural components of the integument (Fig. 4). 
+Other signals observed in the NMR spectrum can be related to other 
+essential components of CS. In the high field range (10–40 ppm), signals 
+related to aliphatic carbons are detected, which could be attributed to 
+protein fractions. At low field (165–185 ppm), a complex and wide 
+signal attributed to carbonyl groups can be ascribed to the amide car­
+bonyls of proteins and oxidized groups of lignin and hemicellulose. 
+Lignocellulosic materials are widely recognized as interesting bio­
+sourced reinforcements for polymer-based composites (Ortega et al., 
+2021; Avolio et al., 2015) for their excellent mechanical properties and 
+wide availability. The presence in such materials of polyphenol aro­
+matics like lignin and its derivatives is often associated with antioxidant 
+properties that can be exploited in composites to confer functional 
+properties of high applicative interest. Natural antioxidants can have 
+beneficial effects on the stability of polymers during processing and/or 
+reprocessing, avoiding the use of synthetic stabilizers (Kirschweng et al., 
+2017) and favoring recyclability. On the other hand, if composite films 
+are produced for packaging applications, the migration of antioxidant 
+molecules at the film surface can be promoted, extending the oxidative 
+stability of the contained foods. This functional property can limit the 
+need for preservatives and extend the product’s shelf life (Zhang et al., 
+2021). 
+The thermogravimetric (TG) analysis allows determining the thermal 
+stability of materials. This analytical technique is based on evaluating 
+the mass loss at controlled temperatures over time in conditions of a 
+Table 3 
+Mass spectrometry (MS) analysis of protein found in the aqueous extract of 
+coffee silverskin protein isolate (SPI). Uniprot ID: is the identification code in the 
+UniprotKB protein database. An expectation value (E-value) represents a score 
+that is proportional to the identification confidence of the peptide/protein.  
+Uniprot ID 
+E- 
+value 
+Peptides 
+Taxonomy 
+Protein Name 
+A0A068UNL8 
+1.30E- 
+12 
+15 
+Coffea 
+canephora 
+Serine protease 
+A0A068UJ50 
+1.80E- 
+08 
+7 
+Coffea 
+canephora 
+Neprosin 
+A0A068VNV4 
+3.40E- 
+09 
+5 
+Coffea 
+canephora 
+Tyrosinase_Cu-bd domain- 
+containing protein 
+A0A068UEN7 
+2.20E- 
+09 
+3 
+Coffea 
+canephora 
+Tyrosinase_Cu-bd domain- 
+containing protein 
+M0SIL8 
+1.40E- 
+11 
+3 
+Musa 
+malaccensis 
+Neprosin 
+A0A068UNA6 
+2.10E- 
+11 
+2 
+Coffea 
+canephora 
+Serine protease 
+A0A218WZL2 
+2.20E- 
+09 
+2 
+Punica 
+granatum 
+Polyphenol oxidase, 
+chloroplastic-like 
+A0A068V8L2 
+6.70E- 
+06 
+2 
+Coffea 
+canephora 
+Glycoside_hydrolase_SF 
+B9N1V7 
+6.10E- 
+07 
+1 
+Populus 
+trichocarpa 
+Aa_trans domain- 
+containing protein 
+A0A068TQU2 
+7.40E- 
+06 
+1 
+Coffea 
+canephora 
+Alpha-mannosidase 
+A0A068V6G0 
+1.30E- 
+05 
+1 
+Coffea 
+canephora 
+Carboxypeptidase 
+A0A068TNE2 
+1.40E- 
+05 
+1 
+Coffea 
+canephora 
+Fn3_like domain- 
+containing protein 
+A0A0K9RCY6 
+3.70E- 
+05 
+1 
+Spinacia 
+oleracea 
+Protein kinase domain- 
+containing protein 
+A0A2G9I2W6 
+5.10E- 
+05 
+1 
+Lachancea 
+mirantina 
+Tetrahydroberberine 
+oxidase  
+A. Nolasco et al.                                                                                                                                                                                                                                
+
+Journal of Cleaner Production 370 (2022) 133520
+7
+Table 4 
+Peptides found in the aqueous extract of coffee silverskin protein isolate (SPI).  
+Acc # 
+Peptide 
+E-value 
+Species 
+Protein Name 
+A0A068TNE2 
+DMHMRPDPATGYPGR 
+1.40E-05 
+COFCA 
+Fn3_like domain-containing protein 
+A0A068TQU2 
+QHHDAVTGTEQQHVANDYAK 
+7.40E-06 
+COFCA 
+Alpha-mannosidase 
+A0A068UEN7 
+IFYDENAQPVR 
+5.70E-10 
+COFCA 
+Tyrosinase_Cu-bd domain-containing protein 
+A0A068UEN7 
+IFYDENAQPVRVK 
+5.70E-10 
+COFCA 
+Tyrosinase_Cu-bd domain-containing protein 
+A0A068UEN7 
+DFFGKEYR 
+2.20E-09 
+COFCA 
+Tyrosinase_Cu-bd domain-containing protein 
+A0A068UJ50 
+MGSGHFAEEGFR 
+1.40E-11 
+COFCA 
+Neprosin 
+A0A068UJ50 
+MGSGHFAEEGFRGA 
+1.40E-11 
+COFCA 
+Neprosin 
+A0A068UJ50 
+QMGSGHFAEEGFR 
+1.40E-11 
+COFCA 
+Neprosin 
+A0A068UJ50 
+QMGSGHFAEEGFRGA 
+1.40E-11 
+COFCA 
+Neprosin 
+A0A068UJ50 
+TQMGSGHFAEEGFRGA 
+1.40E-11 
+COFCA 
+Neprosin 
+A0A068UJ50 
+QMGSGHFAEEGFRGA 
+1.80E-08 
+COFCA 
+Neprosin 
+A0A068UJ50 
+TQMGSGHFAEEGFR 
+1.80E-08 
+COFCA 
+Neprosin 
+A0A068UNA6 
+DRPGLPFDEVGHGTH 
+5.50E-12 
+COFCA 
+Serine protease 
+A0A068UNA6 
+DRPGLPFDEVGHGTHTA 
+5.50E-12 
+COFCA 
+Serine protease 
+A0A068UNL8 
+DLLGPKPGQPLDEIGHGTH 
+9.60E-15 
+COFCA 
+Serine protease 
+A0A068UNL8 
+DLLGPKPGQPLDEIGHGTHTA 
+9.60E-15 
+COFCA 
+Serine protease 
+A0A068UNL8 
+DVFATGAGHVNPPR 
+9.60E-15 
+COFCA 
+Serine protease 
+A0A068UNL8 
+GAGHVNPPRAID 
+9.60E-15 
+COFCA 
+Serine protease 
+A0A068UNL8 
+SFSSRGPNNASPGILKPD 
+9.60E-15 
+COFCA 
+Serine protease 
+A0A068UNL8 
+STAAGNFVEGANVMR 
+9.60E-15 
+COFCA 
+Serine protease 
+A0A068UNL8 
+AGNFVEGANVMR 
+1.30E-12 
+COFCA 
+Serine protease 
+A0A068UNL8 
+ATGAGHVNPPRAID 
+1.30E-12 
+COFCA 
+Serine protease 
+A0A068UNL8 
+GVEIDVQPRVL 
+1.30E-12 
+COFCA 
+Serine protease 
+A0A068UNL8 
+NASPGILKPD 
+1.30E-12 
+COFCA 
+Serine protease 
+A0A068UNL8 
+SGITPGHPSFS 
+1.30E-12 
+COFCA 
+Serine protease 
+A0A068UNL8 
+SGITPGHPSFSD 
+1.30E-12 
+COFCA 
+Serine protease 
+A0A068UNL8 
+SRGPNNASPGILKPD 
+1.30E-12 
+COFCA 
+Serine protease 
+A0A068UNL8 
+SSRGPNNASPGILKPD 
+1.30E-12 
+COFCA 
+Serine protease 
+A0A068UNL8 
+YVDIDKIQGVEIDVQPR 
+1.30E-12 
+COFCA 
+Serine protease 
+A0A068V6G0 
+GAGHEVPSYRPD 
+1.30E-05 
+COFCA 
+Carboxypeptidase 
+A0A068V8L2 
+LGGESSDRPF 
+6.70E-06 
+COFCA 
+Glycoside_hydrolase_SF 
+A0A068V8L2 
+TGVVDQVRVE 
+6.70E-06 
+COFCA 
+Glycoside_hydrolase_SF 
+A0A068VNV4 
+AGDAPSPGAGSIEAIPHIPIHR 
+9.40E-11 
+COFCA 
+Tyrosinase_Cu-bd domain-containing protein 
+A0A068VNV4 
+QDQSSALYNQNR 
+9.40E-11 
+COFCA 
+Tyrosinase_Cu-bd domain-containing protein 
+A0A068VNV4 
+APSPGAGSIEAIPHIPIHR 
+3.40E-09 
+COFCA 
+Tyrosinase_Cu-bd domain-containing protein 
+A0A068VNV4 
+DQSSALYNQNR 
+3.40E-09 
+COFCA 
+Tyrosinase_Cu-bd domain-containing protein 
+A0A068VNV4 
+EYRAGDAPSPGAGSIE 
+3.40E-09 
+COFCA 
+Tyrosinase_Cu-bd domain-containing protein 
+A0A0K9RCY6 
+HSNKLGDEIM 
+3.70E-05 
+SPIOL 
+Protein kinase domain-containing protein 
+A0A218WZL2 
+LFYDENAQPVR 
+2.20E-09 
+PUNGR 
+Polyphenol oxidase, chloroplastic-like 
+A0A218WZL2 
+LFYDENAQPVRVK 
+2.20E-09 
+PUNGR 
+Polyphenol oxidase, chloroplastic-like 
+A0A2G9I2W6 
+VGLVFNSYGGIM 
+5.10E-05 
+9LAMI 
+Tetrahydroberberine oxidase 
+B9N1V7 
+SKAGKSASYGGLM 
+6.10E-07 
+POPTR 
+Aa_trans domain-containing protein 
+M0SIL8 
+MGSGHFAEEGFGRA 
+1.40E-11 
+MUSAM 
+Neprosin 
+M0SIL8 
+QMGSGHFAEEGFGRA 
+1.40E-11 
+MUSAM 
+Neprosin 
+M0SIL8 
+TQMGSGHFAEEGFGRA 
+1.40E-11 
+MUSAM 
+Neprosin  
+Fig. 4. Cross-Polarization/Magic Angle Spinning Carbon-13 Nuclear Magnetic 
+Resonance (CP/MAS 13C NMR) spectra of coffee silverskin (green) and a pure 
+cellulose sample (black) reported as a reference. A qualitative attribution of the 
+main signals observed is reported, indicating cellulose, lignin (L), hemicellulose 
+(H), proteins (P). 
+Fig. 5. Thermogravimetric and derivative curves of coffee silverskin.  
+A. Nolasco et al.                                                                                                                                                                                                                                
+
+Journal of Cleaner Production 370 (2022) 133520
+8
+controlled atmosphere (G´orska et al., 2020). TG can provide helpful 
+information on the thermal decomposition mechanisms of plant biomass 
+due to the decomposition characteristics at given temperatures in an 
+inert atmosphere of the lignocellulosic fraction, from 250 ◦C for hemi­
+cellulose up to 500 ◦C for lignin (Carrier et al., 2011). The thermogra­
+vimetry–differential thermal analysis (TG–DTG) curve carried out on CS 
+sample, as shown in Fig. 5, is characterized by three defined mass loss 
+steps. The first one started at 80 ◦C and was attributed to the evaporation 
+of surface-bound water (natural humidity), presenting a low weight loss, 
+around 4%. The second degradation step, between 200 and 500 ◦C, 
+could be attributed to the overlapping of the main degradation processes 
+(dehydration, decarboxylation, depolymerization and decomposition) 
+of the other cellulose, hemicellulose and lignin fractions. The maximum 
+of the DTG curve is recorded at 320 ◦C and indicates the point of the 
+most significant rate of change on the weight loss curve. The weight loss 
+associated with the second degradation step was 61 wt%. Finally, a 
+slower degradation stage until 800 ◦C was observed with a further 
+weight loss of 10%. This CS thermal characterization is consistent with 
+that performed by G´orska et al. (2020), in which the three steps of the 
+curve represented had similar percentages of mass losses, the only dif­
+ference being that we went up to 800 ◦C with a residual char equal to 25 
+wt% while they recorded 31.6% undecomposed CS material at 700 ◦C. In 
+addition, a study conducted by Del Pozo et al., 2020 characterized the 
+bio-oil and residual biochar resulting from the intermediate pyrolysis 
+process at 280 ◦C. They noted that at this temperature from the bio-oil 
+was obtained the highest phenolic content of 6.09 mg of gallic acid 
+equivalents/g while the biochar presented significant caloric values (22 
+MJ/kg). This opens an interesting prospect of CS use for a biorefinery 
+approach. 
+Morphological analysis of CS performed by SEM, as illustrated in 
+Fig. 6a, shows a compact and wrinkled surface, suggesting that the 
+fibrous cellulose structure is embedded in a matrix of less structured 
+hemicellulose/lignin components. At higher magnification, the presence 
+of the cellulosic fibers is clearly visible, with thickness of about 1.3–1.5 
+μm. Furthermore, quasispherical particles about 0.5–5 μm in size appear 
+deposited on CS sheets (Fig. 6b), that could be ascribable to the lignin 
+and/or protein fraction. 
+The measurement of gas adsorption isotherms is a well-established 
+technique in the characterization of porous materials (Sotomayor 
+et al., 2018), and the nitrogen adsorption (NA) analysis at 77 K is a 
+standard tool for this purpose (Reichenauer and Scherer, 2000). The 
+nitrogen adsorption isotherm of CS is a type III isotherm with slightly 
+pronounced adsorption at low pressures, indicating a porous structure 
+characterized by large mesopores and macropores (Fig. 4c). Indeed, 
+NLDFT pore size distribution (inset in Fig. 6c) reveals that CS porosity 
+extends from 2 nm to about 100 nm, with a major distribution peak at 
+about 35 nm. Overall, CS shows limited porosity, with a total pore 
+volume of about 0.002 cm3/g and a BET SSA of about 0.77 ± 0.01 m2/g, 
+as expected for this kind of natural resource in its native state 
+(Ballesteros et al., 2014). However, CS porosity can constitute the basis 
+for the realization of a micro/mesoporous material through proper 
+thermochemical treatments aimed at enhancing the CS adsorption 
+behavior (del Pozo et al., 2021). 
+Summarizing, morphological and structural analyses could find 
+practical utility as they represent an essential knowledge basis for the 
+use of CS as a filler for creating biocomposites. An interesting study by 
+Hejna et al. (2021) showed that the addition of even small amounts of 
+silverskin increases the thermo-oxidative resistance of high-density 
+polyethylene (HDPE) composites, hypothesizing a very beneficial 
+impact on the development of new wood polymer composites (WPC) and 
+natural fiber composites (NFC). 
+4. Conclusions 
+An accurate characterization of a waste material is essential for a 
+complete evaluation of its reuse potential. The circular economy, char­
+acterized by the “zero waste” paradigm, is focusing on the development 
+of a new idea of consumption that is increasingly green and eco- 
+sustainable. The possibility of reusing waste materials deriving from 
+the agro-food sector could be considered as an economic and environ­
+mental solution deriving from the inappropriate disposal of these by- 
+products and moreover provide products with high benefits for human 
+health and with lower environmental impact. As our study showed, by- 
+products such as CS could be used for a variety of purposes, from food to 
+nutraceuticals, not excluding possible uses as fillers in composites in the 
+production of materials. Further studies need to be conducted to better 
+understand the possible uses of this byproduct in order to reduce pro­
+cessing costs and encourage the coffee chain to manage processing waste 
+in a more environmentally friendly manner. 
+CRediT authorship contribution statement 
+Agata Nolasco: Methodology, Formal analysis, Investigation, Data 
+curation, Writing – original draft, Visualization. Jonathan Squillante: 
+Writing – original draft, Writing – review & editing, Visualization, Data 
+curation. Salvatore Velotto: Writing – review & editing, Investigation, 
+Resources. Giovanni D’Auria: Methodology, Formal analysis, Investi­
+gation, Data curation, Writing – original draft. Pasquale Ferranti: 
+Writing – review & editing, Investigation, Methodology, Supervision, 
+Resources. Gianfranco Mamone: Methodology, Investigation, Formal 
+analysis. Maria Emanuela Errico: Investigation, Writing – original 
+draft. Roberto Avolio: Investigation, Writing – original draft. Rachele 
+Castaldo: Investigation, Writing – original draft. Teresa Cirillo: Writing 
+– review & editing, Methodology, Supervision, Resources, Project 
+administration. Francesco Esposito: Conceptualization, Methodology, 
+Investigation, Visualization, Writing – review & editing, Supervision, 
+Project administration. 
+Fig. 6. Scanning Electron Microscopy (SEM) images (a, b), N2 adsorption isotherm and pore size distribution (c) of CS.  
+A. Nolasco et al.                                                                                                                                                                                                                                
+
+Journal of Cleaner Production 370 (2022) 133520
+9
+Declaration of competing interest 
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+Data availability 
+Data will be made available on request. 
+Appendix A. Supplementary data 
+Supplementary data to this article can be found online at https://doi. 
+org/10.1016/j.jclepro.2022.133520. 
+References 
+Abunasef, S.K., Amin, H.A., Abdel-hamid, G.A., 2014. A histological and 
+immunohistochemical study of beta cells in streptozotocin diabetic rats treated with 
+caffeine. Folia Histochem. Cytobiol. 52, 42–50. 
+Anese, M., Suman, M., 2013. Mitigation strategies of furan and 5-hydroxymethylfurfural 
+in food. Food Res. Int. 51 (1), 257–264. 
+Arienzo, M., Donadio, C., Mangoni, O., Bolinesi, F., Stanislao, C., Trifuoggi, M., 
+Ferrara, L., 2017. Characterization and source apportionment of polycyclic aromatic 
+hydrocarbons (pahs) in the sediments of gulf of Pozzuoli (Campania, Italy). Mar. 
+Pollut. Bull. 124 (1), 480–487. 
+Ates¸, G., Elmacı, Y., 2019. Physical, chemical and sensory characteristics of fiber- 
+enriched cakes prepared with coffee silverskin as wheat flour substitution. J. Food 
+Meas. Char. 13, 755–763. 
+Avolio, R., Graziano, V., Pereira, Y.D.F., Cocca, M., Gentile, G., Errico, M.E., Ambrogi, V., 
+Avella, M., 2015. Effect of cellulose structure and morphology on the properties of 
+poly(butylene succinate-co-butylene adipate) biocomposites Carbohyd. Polym 133. 
+https://doi.org/10.1016/j.carbpol.2015.06.101, 408-4201.  
+Baldini, M., Fabietti, F., Giammarioli, S., Onori, R., Orefice, L., Stacchini, A., 1996. 
+Metodi di Analisi Utilizzati per il Controllo Chimico Degli Alimenti; Rapporti 
+ISTISAN 96/34. Istituto Superiore di Sanit`a, Roma, Italy, 1123–3117.  
+Ballesteros, L.F., Teixeira, J.A., Mussatto, S.I., 2014. Chemical, functional, and structural 
+properties of spent coffee grounds and coffee silverskin. Food Bioprocess Technol. 7, 
+3493–3503. 
+Bas¸aran, B., Anlar, P., Oral, Z.F.Y., Polat, Z., Kaban, G., 2022. Risk assessment of 
+acrylamide and 5-hydroxymethyl-2-furfural (5-HMF) exposure from bread 
+consumption: Turkey. J. Food Compos. Anal. 107, 104409. 
+Bas¸aran, B., Aydın, F., Kaban, G., 2020. The determination of acrylamide content in 
+brewed coffee samples marketed in Turkey. Food Addit. Contam. 37 (2), 280–287. 
+Bessada, S.M., Alves, R.C., Costa, A.S., Nunes, M.A., Oliveira, M.B.P., 2018. Coffea 
+canephora silverskin from different geographical origins: a comparative study. Sci. 
+Total Environ. 645, 1021–1028. 
+Carrier, M., Loppinet-Serani, A., Denux, D., Lasnier, J.M., Ham-Pichavant, F., Cansell, F., 
+Aymonier, C., 2011. Thermogravimetric analysis as a new method to determine the 
+lignocellulosic composition of biomass. Biomass Bioenergy 35, 298–307. 
+Chen, L., Yu, M., Shen, T., Xia, J., Xu, B.L., 2015. Impact of caffeine on β cell proliferation 
+and apoptosis under the influence of palmitic acid. Genet. Mol. Res. 14, 5724–5730. 
+https://doi.org/10.4238/2015.May.29.4. 
+Del Pozo, C., Bartrolí, J., Alier, S., Puy, N., F`abregas, E., 2020. Production of antioxidants 
+and other value-added compounds from coffee silverskin via pyrolysis under a 
+biorefinery approach. J. Waste Manag. 109, 19–27. 
+del Pozo, C., Rego, F., Yang, Y., Puy, N., Bartrolí, J., F`abregas, E., Bridgwater, A.V., 2021. 
+Converting coffee silverskin to value-added products by a slow pyrolysis-based 
+biorefinery process. Fuel Process. Technol. 214, 106708. 
+EFSA Panel on Dietetic Products, Nutrition, and Allergies (NDA), 2010. Scientific opinion 
+on dietary reference values for carbohydrates and dietary fibre. EFSA J. 8 (3), 1462. 
+Esposito, F., Fasano, E., De Vivo, A., Velotto, S., Sarghini, F., Cirillo, T., 2020. Processing 
+effects on acrylamide content in roasted coffee production. Food Chem. 319, 
+126550. 
+Esposito, F., Nardone, A., Fasano, E., Triassi, M., Cirillo, T., 2017. Determination of 
+acrylamide levels in potato crisps and other snacks and exposure risk assessment 
+through a Margin of Exposure approach. Food Chem. Toxicol. 108, 249–256. 
+Esposito, F., Nolasco, A., Caracciolo, F., Velotto, S., Montuori, P., Romano, R., Stasi, T., 
+Cirillo, T., 2021. Acrylamide in baby foods: a probabilistic exposure assessment. 
+Foods 10, 2900. 
+European Commission, 2006a. Commission Regulation (EC) No 1881/2006 of 19 
+December 2006 setting maximum levels for certain contaminants in foodstuffs. Off. 
+J. Eur. Union 364, 365–324.  
+European Commission, 2006b. Commission Regulation (EC) No 1924/2006 of the 
+European Parliament and of the Council of 20 December 2006 on nutrition and 
+health claims made on foods. Off. J. Eur. Union 404, 9–25. 
+European Commission, 2011. Commission regulation (EC) No 1169/2011 of the 
+European parliament and of the council of 25 october 2011 on the provision of food 
+information to consumers. Eur. Comm. Off. J. Eur. Union 20, 168–213. 
+European Commission, 2017. Commission Regulation (EU).Establishing mitigation 
+measures and benchmark levels for the reduction of the presence of acrylamide in 
+food. Off. J. Eur. Union 2158, 304–324. 
+Fernandes, J.O., Soares, C., 2007. Application of matrix solid-phase dispersion in the 
+determination of acrylamide in potato chips. J. Chromatogr. A 1175 (1), 1–6. 
+Fernandez-Gomez, B., Ramos, S., Goya, L., Mesa, M.D., del Castillo, M.D., Martin, M.A., 
+2016. Coffee silverskin extract improves glucose-stimulated insulin secretion and 
+protects against streptozotocin-induced damage in pancreatic INS-1E beta cells. Food 
+Res. Int. 89, 1015–1022. https://doi.org/10.1016/j.foodres.2016.03.006. 
+Fernandez-Gomez, B., Ullate, M., Picariello, G., Ferranti, P., Mesa, M.D., del Castillo, M. 
+D., 2015. New knowledge on the antiglycoxidative mechanism of chlorogenic acid. 
+Food Funct. 6, 2081–2090. https://doi.org/10.1039/c5fo00194c. 
+Garcia, C.V., Kim, Y.T., 2021. Spent coffee grounds and coffee silverskin as potential 
+materials for packaging: a review. J. Polym. Environ. 1–13. 
+G´orska, A., Brzezi´nska, R., Wirkowska-Wojdyła, M., Bry´s, J., Domian, E., Ostrowska- 
+Ligęza, E., 2020. Application of thermal methods to analyze the properties of coffee 
+silverskin and oil extracted from the studied roasting by-product. Appl. Sci. 10, 
+8790. 
+Gottstein, V., Bernhardt, M., Dilger, E., Keller, J., Breitling-Utzmann, C.M., Schwarz, S., 
+Bunzel, M., 2021. Coffee silver skin: chemical characterization with special 
+consideration of dietary fiber and heat-induced contaminants. Foods 10, 1705. 
+Heintz, M.M., Doepker, C.L., Wikoff, D.S., Hawks, S.E., 2021. Assessing the food safety 
+risk of ochratoxin A in coffee: a toxicology-based approach to food safety planning. 
+J. Food Sci. 86, 4799–4810. 
+Hejna, A., Barczewski, M., Kosmela, P., Mysiukiewicz, O., Kuzmin, A., 2021. Coffee 
+silverskin as a multifunctional waste filler for high-density polyethylene green 
+composites. J. Compos. Sci. 5, 44. 
+Hijosa-Valsero, M., Garita-Cambronero, J., Paniagua-García, A.I., Díez-Antolínez, R., 
+2018. Biobutanol production from coffee silverskin. Microb. Cell Factories 17, 1–9. 
+Horikawa, Y., Hirano, S., Mihashi, A., Kobayashi, Y., Zhai, S., Sugiyama, J., 2019. 
+Prediction of lignin contents from infrared spectroscopy: chemical digestion and 
+lignin/biomass ratios of cryptomeria japonica. Appl. Biochem. Biotechnol. 188, 
+1066–1076. https://doi.org/10.1007/s12010-019-02965-8. 
+IARC, 1994. IARC monographs on the evaluation of carcinogenic risks to humans. In: 
+Textbook of Some Industrial Chemicals; IARC: Lyon, France, vol. 60, pp. 389–433. 
+Iriondo-DeHond, A., García, N.A., Fernandez-Gomez, B., Guisantes-Batan, E., Escobar, F. 
+V., Blanch, G.P., del Castillo, M.D., 2019a. Validation of coffee by-products as novel 
+food ingredients. Innovat. Food Sci. Emerg. Technol. 51, 194–204. 
+Iriondo-DeHond, A., Haza, A.I., ´Avalos, A., del Castillo, M.D., Morales, P., 2017. 
+Validation of coffee silverskin extract as a food ingredient by the analysis of 
+cytotoxicity and genotoxicity. Int. Food Res. J. 100, 791–797. 
+Iriondo-DeHond, A., Herrera, T., del Castillo, M.D., 2020a. Health benefits of silverskin. 
+Food Waste By-prod.: Nutraceutical and Health Potential 12, 353–371 first ed.  
+Iriondo-DeHond, A., Iriondo-DeHond, M., del Castillo, M.D., 2020b. Applications of 
+compounds from coffee processing by-products. Biomolecules 10 (9), 1219. 
+Iriondo-DeHond, A., Rios, M.B., Herrera, T., Rodriguez-Bertos, A., Nu˜nez, F., San 
+Andres, M.I., del Castillo, M.D., 2019b. Coffee silverskin extract: nutritional value, 
+safety and effect on key biological functions. Nutrients 11, 2693. 
+Janissen, B., Huynh, T., 2018. Chemical composition and value-adding applications of 
+coffee industry by-products: a review. Resour. Conserv. Recycl. 128, 110–117. 
+Kirschweng, B., T´atraaljai, D., F¨oldes, E., Puk´anszky, B., 2017. Natural antioxidants as 
+stabilizers for polymers. Polym. Degrad. Stabil. 145, 25–40. https://doi.org/ 
+10.1016/j.polymdegradstab.2017.07.012. 
+Klingel, T., Kremer, J.I., Gottstein, V., Rajcic de Rezende, T., Schwarz, S., 
+Lachenmeier, D.W., 2020. A review of coffee by-products including leaf, flower, 
+cherry, husk, silver skin, and spent grounds as novel foods within the European 
+Union. Foods 9, 665. 
+Kostryukov, S.G., Petrov, P.S., Kalyazin, V.A., Masterova, Y., Tezikova, V.S., 
+Khluchina, N.A., Alalvan, D.K., 2021. Determination of lignin content in plant 
+materials using solid-state 13C NMR spectroscopy. Polym. Sci. B 63, 544–552. 
+Lachenmeier, D.W., Schwarz, S., Rieke-Zapp, J., Cantergiani, E., Rawel, H., Martín- 
+Cabrejas, M.A., et al., 2021. Coffee By-Products as Sustainable Novel Foods: Report 
+of the 2nd International Electronic Conference on Foods—“Future Foods and Food 
+Technologies for a Sustainable World”. 
+Malir, F., Ostry, V., Pfohl-Leszkowicz, A., Malir, J., Toman, J., 2016. Ochratoxin A: 50 
+years of research. Toxins 8 (7), 191. 
+Mamone, G., Picariello, G., Ramondo, A., Nicolai, M.A., Ferranti, P., 2019. Production, 
+digestibility and allergenicity of hemp (Cannabis sativa L.) protein isolates. Int. Food 
+Res. J. 115, 562–571. https://doi.org/10.1016/j.foodres.2018.09.017. 
+Martuscelli, M., Esposito, L., Di Mattia, C.D., Ricci, A., Mastrocola, D., 2021. 
+Characterization of coffee silver skin as potential food-safe ingredient. Foods 10, 
+1367. 
+Minkiewicz, P., Iwaniak, A., Darewicz, M., 2019. BIOPEP-UWM database of bioactive 
+peptides: current opportunities. Int. J. Mol. Sci. 20, 5978. https://doi.org/10.3390/ 
+ijms20235978. 
+Murthy, P.S., Naidu, M.M., 2012. Sustainable management of coffee industry by- 
+products and value addition—a review. Resour. Conserv. Recycl. 66, 45–58. 
+Narita, Y., Inouye, K., 2014. Review on utilization and composition of coffee silverskin. 
+Int. Food Res. J. 61, 16–22. 
+Nzekoue, F.K., Borsetta, G., Navarini, L., Abouelenein, D., Xiao, J., Sagratini, G., 
+Angeloni, S., 2022. Coffee silverskin: characterization of B-vitamins, macronutrients, 
+minerals and phytosterols. Food Chem. 372, 131188. 
+Nzekoue, F.K., Angeloni, S., Navarini, L., Angeloni, C., Freschi, M., Hrelia, S., 
+Caprioli, G., 2020. Coffee silverskin extracts: quantification of 30 bioactive 
+compounds by a new HPLC-MS/MS method and evaluation of their antioxidant and 
+antibacterial activities. Int. Food Res. J. 133, 109128. 
+A. Nolasco et al.                                                                                                                                                                                                                                
+
+Journal of Cleaner Production 370 (2022) 133520
+10
+Oliveira, G., Passos, C.P., Ferreira, P., Coimbra, M.A., Gonçalves, I., 2021. Coffee by- 
+products and their suitability for developing active food packaging materials. Foods 
+10, 683. 
+Ortega, F., Versino, F., L´opez, O.V., Gsrcia, M.A., 2021. Biobased composites from agro- 
+industrial wastes and by-products. Emergent mater. https://doi.org/10.1007/ 
+s42247-021-00319-x. 
+Park, S.H., Jo, A., Lee, K.G., 2021. Effect of various roasting, extraction and drinking 
+conditions on furan and 5-hydroxymethylfurfural levels in coffee. Food Chem. 358, 
+129806. 
+Perez-Miguez, R., Marina, M.L., Castro-Puyana, M., 2019. High resolution liquid 
+chromatography tandem mass spectrometry for the separation and identification of 
+peptides in coffee silverskin protein hydrolysates. Microchem. J. 149, 103951. 
+Petzinger, E., Ziegler, K., 2000. Ochratoxin A from a toxicological perspective. J. Vet. 
+Pharmacol. Therapeut. 23, 91–98. 
+Pospisilik, J.A., Martin, J., Doty, T., Ehses, J.A., Pamir, N., Lynn, F.C., Pederson, R.A., 
+2003. Dipeptidyl peptidase IV inhibitor treatment stimulates cell survival and islet 
+neogenesis in streptozotocin-induced diabetic rats. Diabetes 52, 741–750. https:// 
+doi.org/10.2337/diabetes.52.3.741. 
+Reichenauer, G., Scherer, G.W., 2000. Nitrogen adsorption in compliant materials. 
+J. Non-Cryst. Solids 277, 162–172. 
+Rifai, L., Saleh, F.A., 2020. A review on acrylamide in food: occurrence, toxicity, and 
+mitigation strategies. Int. J. Toxicol. 39 (2), 93–102. 
+Romani, S., Pinnavaia, G.G., Dalla Rosa, M., 2003. Influence of roasting levels on 
+ochratoxin A content in coffee. J. Agric. Food Chem. 51, 5168–5171. 
+Schr¨ader, C.U., Lee, L., Rey, M., Sarpe, V., Man, P., Sharma, S., Zabrouskov, V., 
+Larsen, B., Schriemer, D.C., 2017. Neprosin, a selective prolyl endoprotease for 
+bottom-up proteomics and histone mapping. Mol. Cell. Proteomics 16, 1162–1171. 
+https://doi.org/10.1074/mcp.M116.066803. 
+Seok, Y.J., Lee, K.G., 2020. Analysis of furan in semi-solid and paste type foods. Food Sci. 
+Biotechnol. 29 (2), 293–301. 
+Societ`a Italiana di Nutrizione Umana (SINU), 2014. Larn – livelli di assunzione di 
+riferimento per la popolazione italiana: carboidrati e fibra alimentare. https://sinu. 
+it/2019/07/09/carboidrati-e-fibra-alimentare/. 
+Sotomayor, F.J., Cychosz, K.A., Thommes, M., 2018. Characterization of micro/ 
+mesoporous materials by physisorption: concepts and case studies. Acc. Mater. Surf. 
+Res 3, 34–50. 
+Toschi, T.G., Cardenia, V., Bonaga, G., Mandrioli, M., Rodriguez-Estrada, M.T., 2014. 
+Coffee silverskin: characterization, possible uses, and safety aspects. J. Agric. Food 
+Chem. 62, 10836–10844. 
+Veelen, A., Erazo-Tapia, E., Oscarsson, J., Schrauwen, P., 2021. Type 2 diabetes 
+subgroups and potential medication strategies in relation to effects on insulin 
+resistance and beta-cell function: a step toward personalised diabetes treatment? 
+Mol. Metabol. 46, 101158. 
+Zengin, G., Sinan, K.I., Mahomoodally, M.F., Angeloni, S., Mustafa, A.M., Vittori, S., 
+Caprioli, G., 2020. Chemical composition, antioxidant and enzyme inhibitory 
+properties of different extracts obtained from spent coffee ground and coffee 
+silverskin. Foods 9, 713. 
+Zhang, Y., Wang, B., Lu, F., Wang, L., Ding, Y., Kang, X., 2021. Plant-derived antioxidants 
+incorporated into active packaging intended for vegetables and fatty animal 
+products: a review. Food Addit. Contam. 38, 1237–1248. https://doi.org/10.1080/ 
+19440049.2021.1885745. 
+A. Nolasco et al.                                                                                                                                                                                                                                

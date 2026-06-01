@@ -1,0 +1,671 @@
+Perspective
+https://doi.org/10.1038/s41561-020-0612-3
+1Soil and Crop Science, School of Integrative Plant Science, Cornell University, Ithaca, NY, USA. 2Cornell Atkinson Center for Sustainability, Cornell 
+University, Ithaca, NY, USA. 3Institute for Advanced Study, Technical University of Munich, Garching, Germany. 4Department of Marine Chemistry and 
+Geochemistry, Woods Hole Oceanographic Institution, Woods Hole, MA, USA. 5Department of Microbiology and Ecosystem Science, University of 
+Vienna, Vienna, Austria. 6Department of Crop and Soil Science, Oregon State University, Corvallis, OR, USA. 7Department of Earth System Science, 
+Stanford University, Stanford, CA, USA. 8Department of Physical Geography, Stockholm University, Stockholm, Sweden. 9Bolin Centre for Climate Research, 
+Stockholm University, Stockholm, Sweden. 10Institute of Ecology and Environmental Sciences, CNRS-Sorbonne Université-IRD-UPEC-P7-INRA, Paris, 
+France. 11Department Biogeochemical Integration, Max Planck Institute for Biogeochemistry, Jena, Germany. 12Department of Ecology, Evolution, and Marine 
+Biology, UC Santa Barbara, Santa Barbara, CA, USA. 13Climate and Ecosystem Sciences Division, Berkeley Lab, Berkeley, CA, USA. 14Climate and Global 
+Dynamics Laboratory, Terrestrial Sciences Section, National Center for Atmospheric Research, Boulder, CO, USA. 15Institute of Arctic and Alpine Research, 
+University of Colorado, Boulder, CO, USA. 16Chair of Soil Science, Technical University of Munich, Freising, Germany. ✉e-mail: CL273@cornell.edu
+S
+oils contain the largest active reservoir of terrestrial organic 
+carbon, which has the potential to exacerbate global warm-
+ing, but is also believed to offer a viable strategy for cli-
+mate change mitigation. The wide range of soil management and 
+land-use changes put forward to increase soil carbon sequestration1 
+for the long term requires global-scale prediction of soil organic 
+carbon persistence and vulnerabilities under novel climate condi-
+tions2. Such a global effort also requires the ability to quantify and 
+accurately predict carbon retention at local to regional scales, while 
+assessing the global potential and future risk from environmental 
+change. However, we lack the theoretical framework to bridge the 
+gap between the fine scales where carbon accrues and the large 
+scales relevant for carbon-management policy3. This deficiency in 
+understanding manifests itself in projections of soil carbon dynam-
+ics at regional to global scales that diverge greatly from each other 
+and from observations4.
+We propose that soil organic carbon persistence can be under-
+stood based on functional complexity in the following three aspects: 
+(1) molecular diversity, (2) spatial heterogeneity and (3) tempo-
+ral variability of the soil system. Understanding the responses of 
+decomposition to changes in environment, soil properties and man-
+agement through the lens of functional complexity may provide the 
+basis for developing models that explain and quantify soil carbon 
+persistence without invoking the existence of the organic carbon 
+forms with very long residence times that are prevalent in current 
+approaches5,6. Rather, the proposed conceptual approach builds on 
+and harmonizes known reactions of soil organic matter decomposi-
+tion that result from interactions of organic carbon with soil biota, 
+minerals and environment7. It can inform the design of field experi-
+ments and new types of observations. New models should also iden-
+tify directions for better management of soils to sequester carbon 
+and thereby mitigate climate change. To be successful, these models 
+should borrow advances in scaling and modelling from engineer-
+ing and material science in combination with new and growing soil 
+datasets that capture decomposition responses to changes in land 
+use and cover, soil properties or climate. Such an approach would 
+fulfil the policy need for what we suggest calling ‘models with intent’, 
+which enable us to raise organic carbon levels in soils where they are 
+currently undersaturated, and to maintain maximal carbon levels in 
+soil systems in ways that contribute to functional ecosystems and a 
+healthy biosphere.
+Molecular diversity
+Until recently, the chemical and physical characteristics of plant 
+litter were perceived as the main control over decomposition 
+in addition to moisture and temperature7; hence, predictions of 
+decomposition are typically based upon litter nitrogen or lignin 
+contents5,6. Meanwhile, in mineral soils, the concept of ‘chemical 
+Persistence of soil organic carbon caused by 
+functional complexity
+Johannes Lehmann   1,2,3 ✉, Colleen M. Hansel   4, Christina Kaiser   5, Markus Kleber   6, 
+Kate Maher7, Stefano Manzoni   8,9, Naoise Nunan10, Markus Reichstein   11, Joshua P. Schimel12, 
+Margaret S. Torn   13, William R. Wieder   14,15 and Ingrid Kögel-Knabner3,16
+Soil organic carbon management has the potential to aid climate change mitigation through drawdown of atmospheric carbon 
+dioxide. To be effective, such management must account for processes influencing carbon storage and re-emission at different 
+space and time scales. Achieving this requires a conceptual advance in our understanding to link carbon dynamics from the 
+scales at which processes occur to the scales at which decisions are made. Here, we propose that soil carbon persistence can be 
+understood through the lens of decomposers as a result of functional complexity derived from the interplay between spatial and 
+temporal variation of molecular diversity and composition. For example, co-location alone can determine whether a molecule is 
+decomposed, with rapid changes in moisture leading to transport of organic matter and constraining the fitness of the microbial 
+community, while greater molecular diversity may increase the metabolic demand of, and thus potentially limit, decomposition. 
+This conceptual shift accounts for emergent behaviour of the microbial community and would enable soil carbon changes to be 
+predicted without invoking recalcitrant carbon forms that have not been observed experimentally. Functional complexity as a 
+driver of soil carbon persistence suggests soil management should be based on constant care rather than one-time action to 
+lock away carbon in soils.
+Nature Geoscience | www.nature.com/naturegeoscience
+
+Perspective
+NATure GeoScience
+recalcitrance’ of plant and microbial material causing slow turnover 
+times has been replaced in favour of a continuum model for soil 
+organic carbon compounds8. Here we propose that the molecular 
+diversity of the organic compounds (Fig. 1) rather than the mate-
+rial properties of individual compounds controls decomposition. 
+For large molecules and particulate organic matter requiring extra-
+cellular enzymes for microbial uptake and metabolism, producing 
+enzymes is energy intensive and is only sustainable if the payoff is 
+energetically worthwhile9. Even metabolizing smaller, soluble mol-
+ecules that can be taken up directly, such as root exudates, may 
+require diverse metabolic investments. Different requirements for 
+metabolizing different molecules result not only from large differ-
+ences in molecular structures (for example, lignin versus cellulose) 
+but also sometimes from molecules that are structurally similar (for 
+example, ortho- versus para-benzoic acid)10.
+Consequently, beyond a certain point, a greater diversity of mol-
+ecules increases the cost of metabolism. Investments in using mol-
+ecules that are rare in the soil solution, because of low production 
+rates or rapid adsorption, are energetically less rewarding11; thus, 
+such molecules may remain in soil even if they are potentially easily 
+metabolized. The magnitude of additional cost incurred with every 
+additional microbial metabolic system depends on how closely 
+related the metabolic pathways are10,11. Therefore, the greater the 
+molecular diversity of available substrates, the greater the cost–ben-
+efit ratio associated with their assimilation12. Molecular diversity 
+can increase decomposition rates, however, if one compound pro-
+vides the energy or nutrients needed to decompose another one, a 
+process often referred to as priming. How to quantify diversity to 
+predict whether changes in the concentrations of specific molecu-
+lar groups increase or decrease persistence of other molecules is 
+not sufficiently understood. Equally uncertain is which molecular 
+properties best capture the diversity characteristics that are relevant 
+to organic carbon persistence, since elemental composition, oxida-
+tion state and molecular diversity do not increase in the same ways 
+during decomposition13. In addition, the diversity of organic carbon 
+binding to minerals also increases persistence14.
+A focus on molecular diversity may reconcile the divide between 
+the scientific communities studying organic and mineral horizons15. 
+This reconciliation is based on the increasing diversity of molecu-
+lar configurations from plants to litter to topsoil to subsoil16. Plant 
+material comprises many copies of closely related molecules that 
+make up structures of leaves or wood and dominate the substrate 
+available to decomposers in litter and at the top of the mineral soil. 
+Here, lower molecular diversity coupled to high concentrations of 
+individual compounds facilitates both specialization and more effi-
+cient ‘investment strategies’ for soil biota17, which we argue supports 
+faster decomposition (Fig. 1). With increasing decomposition and 
+consumption of the most common molecules, molecular diversity 
+increases18 and enhances the persistence of the remaining organic 
+carbon14,19.
+Spatial heterogeneity and temporal variability
+Large tracts of the soil-pore network are practically devoid of 
+decomposers20, and the distribution and forms of organic matter are 
+equally patchy at this scale21. Physical separation has for some time 
+been invoked as an important stabilization mechanism22, emphasiz-
+ing occlusion within aggregates or encapsulation of easily mineral-
+izable organic matter within large organic molecules rather than the 
+spatial distance between decomposer and substrate per se23. Here 
+we propose that spatial heterogeneity alone can limit decomposition 
+(Fig. 1): for decomposition to proceed, degraders or their enzymes 
+must come into contact with substrate. This aligns with observed 
+carbon turnover times on the order of months24, shorter than the 
+assumed long-term sequestration of carbon within soil aggregates, 
+and may therefore not be the sole reason for carbon persistence. 
+Aggregation (as well as adsorption) may also help in promoting 
+spatial heterogeneity21, which is consistent with observations that 
+aggregation increases organic carbon persistence24.
+Predicting and managing decomposition is then not only a ques-
+tion of when a compound becomes soluble but rather the likelihood 
+that decomposer and substrate are co-located25. Bacteria are rela-
+tively immobile because water films in hydrologically unsaturated 
+soil are not thick enough for the complete immersion of bacterial 
+cells26, and even with full immersion in water, bacteria are ener-
+getically limited from moving long distances. Fungal growth over 
+short distances is slower than the rate of substrate diffusion, except 
+in nutrient-rich environments27,28. Therefore, the likelihood of con-
+tact between substrate and decomposer should be examined and 
+the extent to which it depends on the short-distance transport of 
+Molecular diversity
+Low diversity
+High diversity
+Spatial heterogeneity
+Co‐location
+Spatial separation
+Microorganism
+Mineral
+Organic matter
+Temporal variability
+Slow and small
+Rapid, large, irregular
+Plant organic matter
+Microbe organic matter
+Transport of organic matter
+Energy return on investment and adaptation by microorganisms
+Energy return on investment and adaptation by microorganisms
+Energy return on investment and adaptation by microorganisms
+Rapid
+decomposition
+Rapid
+decomposition
+Rapid
+decomposition
+Rapid
+decomposition
+Fig. 1 | Functional complexity and the persistence of soil organic carbon. 
+Functional complexity comprises molecular diversity, spatial heterogeneity 
+and temporal variability that affect the energy, carbon and nutrient return 
+on investment for the microbial community. A lower molecular diversity 
+and concomitant higher concentrations of individual molecules facilitate 
+specialization of the decomposer community, whereas higher diversity 
+increases the cost–benefit ratio for microorganisms to utilize these 
+molecules. Higher spatial heterogeneity decreases the probability that 
+decomposers meet substrate. Greater temporal variability may reduce 
+the ability of microbes to adapt to an environment, whereas moisture 
+fluctuations may also increase movement of substrate to decomposers; 
+therefore, increased variability may decrease or increase persistence.
+Nature Geoscience | www.nature.com/naturegeoscience
+
+Perspective
+NATure GeoScience
+organic carbon rather than on the microbial mobility, which is what 
+is typically invoked.
+In addition to spatial heterogeneity, temporal variations of soil 
+moisture, temperature, nutrients and organic carbon can cause 
+non-linear decreases or increases in decomposition, and even 
+unexpected access to very old carbon29, reflecting biogeochemical 
+thresholds of ecosystem properties (Fig. 1). It is typically assumed 
+that microbes change their activity in tandem with moisture and 
+temperature fluctuations, and that their response is independent 
+of how extreme or frequent environmental fluctuations are5,6. This 
+view is not sufficient for guiding management and predictions of 
+soil organic carbon dynamics, because high temporal variation 
+causes two additional, as yet unrepresented, processes: (1) not only 
+solubility of substrate but also transport within soil pores changes 
+the amount of organic carbon that can be assimilated by microor-
+ganisms30, and (2) adaptation of microbial communities to rapid 
+changes in environmental and substrate conditions contributes to 
+their ability to utilize organic carbon31. Mounting evidence suggests 
+that not only current but also historical environmental conditions 
+may substantially alter rates and pathways of carbon transforma-
+tions32. For example, adaptation to high soil temperatures were 
+shown to decrease the sensitivity of decomposition to changing 
+temperatures32. The responses that allow microbes to tolerate or 
+adapt to environmental stress therefore lead to characteristic life 
+history traits and physiological trade-offs33 that shape microbial 
+community composition, activity and function over the long term.
+Interactions of molecular, spatial and temporal complexity
+Interaction among molecular diversity, spatial heterogeneity and 
+temporal variability increases the uncertainty that decomposers 
+must confront and adapt to compared to facing each of these com-
+plexities individually. Spatial heterogeneity and temporal variability 
+may exacerbate the consequences of molecular diversity. The cost 
+of having the capability to decompose diverse organic matter is 
+already high11,34 and, in patchy and unreliable resource landscapes, 
+enzyme production may further decline due to low as well as fluc-
+tuating concentrations of specific organic molecules or nutrients35. 
+This can even result in the loss of the capacity to use substrates for 
+growth36 and the development of metabolic flexibility, including 
+dormancy34. This loss of microbial capacity may ultimately reduce 
+organic carbon decomposition even when resources become avail-
+able. Adaptation of the biotic community to this pulsed nature of 
+the environment has notable effects on the dynamics of carbon in 
+soil, as a reduced ability of an individual decomposer to utilize a 
+certain type of molecule would diminish the probability of contact 
+between substrate and competent decomposer.
+In turn, molecular diversity may influence spatial heterogeneity 
+when certain molecules adsorb to iron oxides while others adsorb 
+to silicates or accumulate in pores8,14. Therefore, the combination 
+of spatial heterogeneity and molecular diversity probably further 
+reduces organic carbon decomposition, as suggested by theory25. It 
+remains an interesting question whether spatial heterogeneity poses 
+a more important constraint on decomposition than does molecular 
+diversity, and how these complexities interact.
+Emergent behaviour of soil organic carbon decomposition
+The described functional complexity is expected to cause ‘emergent 
+behaviour’, as seen in other complex systems37, in which fine-scale 
+interactions among individual parts of the system lead to the emer-
+gence of a behaviour with a quality that cannot be inferred from 
+the behaviour of these parts37. Even though the concept of emergent 
+behaviour and self-organization is well established in theoretical 
+ecology37, it has only rarely been applied to soil systems38. Rather, 
+organic carbon decomposition is traditionally described from a 
+large-scale perspective as the sum of the individual behaviours of 
+microbes and substrate (Fig. 2a).
+Recognizing soil as a complex system opens up possibilities 
+to describe persistence as an emergent behaviour arising from 
+non-linear interactions among decomposers, their diverse organic 
+substrates, and their heterogeneous and changing local soil envi-
+ronment (Fig. 2b). While laboratory experiments have shown the 
+potential of spatial self-organization in microbial communities39, 
+studies on microbial self-organization in soil interacting with its 
+environment are limited20. Modelling individual microorganisms 
+in soil decomposer communities (individual-based modelling)40,41 
+demonstrated the potential importance of emergent behaviour for 
+soil organic carbon turnover. The next steps include (1) obtain-
+ing better representation of how emergent behaviour affects soil 
+organic carbon persistence, (2) translating these insights into model 
+structures that capture essential insights at the pore scale as well as 
+further translating these to a global scale42 that may also include 
+machine-learning approaches43, and (3) implementing these 
+insights into management-relevant recommendations as part of 
+policy-relevant decision support systems.
+Implications for management and policy
+We propose integrating soil functional complexity into the devel-
+opment of management and prediction, as this complexity medi-
+ates the effects of land use and cover, soil properties and climate 
+Soil organic carbon response to 
+changes in land use and cover, 
+management and environment
+Emergent
+behaviour
+Traditional 'macroscopic' view:
+interactions at the aggregated level
+New 'soil as a complex system' view:
+non-linear interactions at different 
+organizational levels
+Behaviour
+from average
+interactions
+a
+b
+0
++
+–
+Decomposition
+Soil organic carbon
+Time
+Time
+0
++
+–
+Decomposition
+Soil organic carbon
+Dissolved
+organic 
+matter
+Biota
+Extracellular
+enzymes
+Particulate
+and adsorbed
+organic matter
+Fig. 2 | Emergent behaviour of soil organic carbon decomposition. a, 
+Traditional understanding of soil organic carbon dynamics is based on 
+homogeneously distributed (at the scale of a microorganism) and slowly 
+changing organic matter, microbial biomass and enzymes (drawings) as 
+a function of environment (soil properties such as texture; environmental 
+properties such as moisture). b, In contrast, allowing non-linear feedbacks 
+that occur at the scale of individual organisms and organic matter 
+generates emergent behaviour of the soil system that differs from the 
+sum of the individual interactions. The resulting responses to a change 
+in environmental conditions or management are characteristic of the 
+functional complexity.
+Nature Geoscience | www.nature.com/naturegeoscience
+
+Perspective
+NATure GeoScience
+on soil carbon sequestration (Fig. 3). Carbon persists in soil when 
+many different molecules with individually low concentrations are 
+distributed throughout a heterogeneous landscape of pores inter-
+acting with different minerals under variable environmental con-
+ditions. Soil management will therefore need to focus on ongoing 
+care to manipulate the intricate balance between carbon inputs and 
+losses, rather than rely on locking away carbon in soil for the long 
+term. Promoting functional complexity consistent with a mixture 
+of inputs and a diversity of plant species44,45 (which will stimulate a 
+diverse microbial community45 and rhizodeposits14), and with lower 
+soil mixing (by tillage), should therefore be explored to increase 
+soil carbon persistence and sequestration (Fig. 4). Specifically, it is 
+important to better understand how to sequester carbon in soil by 
+increasing persistence based on functional complexity in compari-
+son to merely increasing organic carbon inputs.
+Using predictive models to explore soil carbon behaviour under 
+different scenarios can be the basis for substantial policy and indus-
+try investment46. We propose combining soil functional complex-
+ity—molecular, spatial and temporal—with multiscale modelling 
+to optimize such global efforts in soil carbon sequestration25. The 
+concept of functional complexity also avoids the pitfall of invok-
+ing stable carbon forms with long6 or infinite5 turnover times that 
+relay a false policy and extension message of irreversible carbon 
+storage in soil. Such ‘models with intent’ need to operate regionally 
+to globally, at scales large enough to justify policy interventions but 
+local enough to exhibit emergent properties reflective of the known 
+functional complexity of soils. In contrast to traditionally employed 
+upscaling approaches for such decision-support tools, we propose 
+multiscale modelling approaches that combine ‘microscale’ and 
+‘macroscale’ models, either concurrently or by extrapolating over 
+time with broad macroscale assumptions. The most complex and 
+highly resolved model (in space, process and time) should serve 
+as the basis model for the macroscale projections. By integrating 
+results from the basis model into the macroscale model through 
+responses in decomposition that reflect soils’ underlying functional 
+complexity rather than static properties (Fig. 2), processes occur-
+ring at the finer scales are accounted for. Examples of multiscale 
+modelling are found in chemical engineering and material sci-
+ence47, atmospheric science to describe cloud physics48 and reactive 
+transport in groundwater49, and may be combined with artificial 
+intelligence43.
+Soil functional complexity
+Prediction at multiple scales 
+using response functions 
+Management
+Climate
+Soil properties
+(mineralogy,
+aggregates,
+texture,
+microorganisms,
+fauna, pH, 
+nutrients,...)
+Land use/cover
+(vegetation, livestock,...)
+Spatial
+heterogeneity
+Molecular
+diversity
+Temporal
+variability
+Soil organic carbon sequestration
+Fig. 3 | Integration of molecular, spatial and temporal complexity 
+with management and prediction of soil carbon sequestration. 
+The pore-scale functional complexity that modulates the effects of 
+environmental, land-use and management changes on the soil system 
+(including aggregation, mineral interactions, biotic activity, diversity, 
+and so on)7,15 may serve as the core concept integrated into prediction at 
+management-relevant scales for soil carbon sequestration. Understanding 
+how soil pore-to-profile-scale complexity influences persistence will 
+change how we predict soil organic carbon dynamics and develop more 
+sophisticated management for sequestration.
+Convert to perennial 
+vegetation
+Use mixture of and rotate 
+plants with different 
+growth habits
+If done
+If not done
+Regenerative soil 
+carbon practice
+Recommendation 
+consistent with 
+functional complexity
+And evaluate
+Temporal variability
+Molecular diversity 
+Spatial heterogeneity
+Restore wetlands 
+Avoid periodic drainage 
+and water movement 
+Grow N2-
+fixing plants and 
+cover crops
+Use mixture of and vary 
+plants with different 
+growth habits
+Reduce tillage
+Prioritize reduction 
+in mixing 
+Rotate crops
+Vary plants with different 
+growth habits; overlap
+growth cycles
+Use plant 
+mixtures
+Use plants with different 
+growth habits; perennials 
+and annuals; agroforestry 
+Add amendments 
+Vary mixtures of 
+residues, manures, 
+biochar, compost 
+Fig. 4 | Regenerative soil carbon practice consistent with promotion 
+of functional diversity to increase soil carbon persistence. Soil 
+management designed to increase persistence of soil organic carbon1 
+should be investigated for its alignment with functional diversity. The listed 
+management recommendations also increase organic carbon input (for 
+example, greater plant diversity45) or persistence unrelated to functional 
+diversity (for example, avoiding periodic drainage also reduces aeration in 
+addition to movement of carbon). Inset colours relate to the three aspects 
+of functional diversity (molecular, spatial and temporal) also used in Figs. 
+2 and 3. Interactions of effects over time require specific attention in future 
+research (indicated by italics).
+Nature Geoscience | www.nature.com/naturegeoscience
+
+Perspective
+NATure GeoScience
+Quantifying soil functional complexity to parameterize such 
+models will not be easy, particularly for global applications. In 
+the near term, this challenge may be resolved by measuring 
+carbon-relevant responses to a change in land cover or use, soil 
+properties, or climate, because these responses reflect the underly-
+ing soil functional complexities. Engaging with temporal, spatial or 
+molecular complexity may motivate a new generation of scientific 
+experiments such as those increasingly conducted in soil microbial 
+ecology50. Initially, such microbial responses may be used to define 
+soil functional types51, or rather what we may call ‘soil functional 
+response types’, to distinguish them from types based on static soil 
+properties. The multiscale models we envision could then be used to 
+predict functional response types based on fine-scale information; 
+a convergence of theory and empirical evidence would build confi-
+dence in the new models’ predictive power. The functional response 
+types would ideally be further integrated into dynamic geospatial 
+models, because they are expected to change over time with man-
+agement, land cover or climate. Contemporary efforts in develop-
+ing new soil sensor technology52 must be intensified to provide the 
+capacity to quantify these responses through laboratory measure-
+ments and eventually through real-time and high-resolution field 
+measurements.
+The way in which soil functional complexity will guide global 
+soil management and prediction of climate–carbon feedbacks will 
+and should vary among locations and land uses. Likewise, different 
+next-generation carbon modelling approaches will allow testing of 
+the robustness of scaling assumptions. As already implemented for 
+global climate models, prediction tools for soil carbon sequestra-
+tion operating at the global scale should also be compared within a 
+common testbed53. Such an ensemble approach will allow rigorous 
+comparison of their behaviours without biases resulting from other 
+assumptions being made, such as boundary or initial conditions. 
+Soil organic carbon models based on measured functional complex-
+ity and upscaling using soil response types have the potential to gen-
+erate the policy-relevant soil management recommendations that 
+are required to underpin international programs needed to address 
+global-change challenges.
+Received: 25 November 2019; Accepted: 17 June 2020;  
+Published: xx xx xxxx
+References
+	1.	 Paustian, K. et al. Climate-smart soils. Nature 532, 49–57 (2016).
+	2.	 Todd-Brown, K. E. O. et al. Causes of variation in soil carbon simulations 
+from CMIP5 Earth system models and comparison with observations. 
+Biogeosciences 10, 1717–1736 (2013).
+	3.	 Bradford, M. A. et al. Managing uncertainty in soil carbon feedbacks to 
+climate change. Nat. Clim. Change 6, 751–758 (2016).
+	4.	 Koven, C. D., Hugelius, G., Lawrence, D. M. & Wieder, W. R. Higher 
+climatological temperature sensitivity of soil carbon in cold than warm 
+climates. Nat. Clim. Change 7, 817–822 (2017).
+	5.	 Jenkinson, D. S. & Rayner, J. H. The turnover of soil organic matter in some 
+of the Rothamsted classical experiments. Soil Sci. 123, 298–305 (1977).
+	6.	 Parton, W. J., Schimel, D. S., Cole, C. V. & Ojima, D. S. Analysis of factors 
+controlling soil organic matter levels in Great Plains Grasslands. Soil Sci. Soc. 
+Am. J. 51, 1173–1179 (1987).
+	7.	 Schmidt, M. W. I. et al. Persistence of soil organic matter as an ecosystem 
+property. Nature 478, 49–56 (2011).
+	8.	 Lehmann, J. & Kleber, M. The contentious nature of soil organic matter. 
+Nature 528, 60–68 (2015).
+	9.	 Vetter, Y. A., Deming, J. W., Jumars, P. A. & Krieger-Brockett, B. B. A 
+predictive model of bacterial foraging by means of freely released 
+extracellular enzymes. Microb. Ecol. 36, 75–92 (1998).
+	10.	Sugai, S. F. & Schimel, J. P. Decomposition and biomass incorporation of 
+14C-labeled glucose and phenolics in taiga forest floor: effect of substrate 
+quality, successional state, and season. Soil Biol. Biochem. 25, 1379–1389 (1993).
+	11.	Lane, N. & Martin, W. The energetics of genome complexity. Nature 467, 
+929–934 (2010).
+	12.	Kästner, M. & Miltner, A. Application of compost for effective bioremediation 
+of organic contaminants and pollutants in soil. Appl. Microbiol. Biotechnol. 
+100, 3433–3449 (2016).
+	13.	Mentges, A., Feenders, C., Seibt, M., Blasius, B. & Dittmar, T. Functional 
+molecular diversity of marine dissolved organic matter is reduced during 
+degradation. Front. Mar. Sci. 4, 194 (2017).
+	14.	Hemingway, J. D. et al. Mineral protection regulates long-term global 
+preservation of natural organic carbon. Nature 570, 228–231 (2019).
+	15.	Cotrufo, M. F., Wallenstein, M. D., Boot, C. M., Denef, K. & Paul, E. The 
+Microbial Efficiency-Matrix Stabilization (MEMS) framework integrates plant 
+litter decomposition with soil organic matter stabilization: do labile plant 
+inputs form stable soil organic matter? Glob. Change Biol. 19, 988–995 (2013).
+	16.	Roth, V. N. et al. Persistence of dissolved organic matter explained by 
+molecular changes during its passage through soil. Nat. Geosci. 12, 755–761 
+(2019).
+	17.	Kögel-Knabner, I. The macromolecular organic composition of plant and 
+microbial residues as inputs to soil organic matter: fourteen years on. Soil 
+Biol. Biochem. 105, A3–A8 (2017).
+	18.	Kallenbach, C. M., Frey, S. D. & Grandy, A. S. Direct evidence for 
+microbial-derived soil organic matter formation and its ecophysiological 
+controls. Nat. Commun. 7, 13630 (2016).
+	19.	Jiménez-González, M. A., Álvarez, A. M., Hernández, Z. & Almendros, G. 
+Soil carbon storage predicted from the diversity of pyrolytic alkanes. Biol. 
+Fertil. Soils 54, 617–629 (2018).
+	20.	Young, I. M. & Crawford, J. W. Interactions and self-organization in the 
+soil-microbe complex. Science 304, 1634–1637 (2004).
+	21.	Rawlins, B. G. et al. Three-dimensional soil organic matter distribution, 
+accessibility and microbial respiration in macroaggregates using osmium 
+staining and synchrotron X-ray computed tomography. Soil 2, 659–671 
+(2016).
+	22.	Rovira, A. D. & Greacen, E. L. The effect of aggregate disruption on the 
+activity of microorganisms in the soil. Aust. J. Agric. Res. 8, 659–673 (1957).
+	23.	Dignac, M.-F. et al. Increasing soil carbon storage: mechanisms, effects of 
+agricultural practices and proxies. A review. Agron. Sustain. Dev. 37, 14 
+(2017).
+	24.	Peng, X., Zhu, Q., Zhang, Z. & Hallett, P. D. Combined turnover of carbon 
+and soil aggregates using rare earth oxides and isotopically labelled carbon as 
+tracers. Soil Biol. Biochem. 109, 81–94 (2017).
+	25.	Chakrawal, A. et al. Dynamic upscaling of decomposition kinetics for carbon 
+cycling models. Geosci. Model Dev. 13, 1399–1429 (2020).
+	26.	Or, D., Smets, B. F., Wraith, J. M., Dechesne, A. & Friedman, S. P. Physical 
+constraints affecting bacterial habitats and activity in unsaturated porous 
+media — a review. Adv. Water Resour. 30, 1505–1527 (2007).
+	27.	Watt, M., Silk, W. K. & Passioura, J. B. Rates of root and organism growth, 
+soil conditions, and temporal and spatial development of the rhizosphere. 
+Ann. Bot. 97, 839–855 (2006).
+	28.	Oyewole, O. A., Inselsbacher, E. & Näsholm, T. Direct estimation of mass 
+flow and diffusion of nitrogen compounds in solution and soil. New Phytol. 
+201, 1056–1064 (2014).
+	29.	Schimel, J. P., Wetterstedt, J. Å. M., Holden, P. A. & Trumbore, S. E. Drying/
+rewetting cycles mobilize old C from deep soils from a California annual 
+grassland. Soil Biol. Biochem. 43, 1101–1103 (2011).
+	30.	Homyak, P. M. et al. Effects of altered dry season length and plant inputs on 
+soluble soil carbon. Ecology 99, 2348–2362 (2018).
+	31.	Bouskill, N. J. et al. Belowground response to drought in a tropical forest soil. 
+I. Changes in microbial functional potential and metabolism. Front. 
+Microbiol. 7, 525 (2016).
+	32.	Dacal, M., Bradford, M. A., Plaza, C., Maestre, F. T. & García-Palacios, P. Soil 
+microbial respiration adapts to ambient temperature in global drylands. Nat. 
+Ecol. Evol. 3, 232–238 (2019).
+	33.	Maynard, D. S. et al. Consistent trade-offs in fungal trait expression across 
+broad spatial scales. Nat. Microbiol. 4, 846–853 (2019).
+	34.	Şimşek, E. & Kim, M. The emergence of metabolic heterogeneity and diverse 
+growth responses in isogenic bacterial cells. ISME J. 12, 1199–1209 (2018).
+	35.	German, D. P., Chacon, S. S. & Allison, S. D. Substrate concentration and 
+enzyme allocation can affect rates of microbial decomposition. Ecology 92, 
+1471–1480 (2011).
+	36.	MacLean, R. C. & Bell, G. Experimental adaptive radiation in Pseudomonas. 
+Am. Nat. 160, 569–581 (2002).
+	37.	Thurner, S., Hanel, R. & Klimek, P. Introduction to the Theory of Complex 
+Systems (Oxford Univ. Press, 2018).
+	38.	Konopka, A., Lindemann, S. & Fredrickson, J. Dynamics in microbial 
+communities: unraveling mechanisms to identify principles. ISME J. 9, 
+1488–1495 (2015).
+	39.	Nadell, C. D., Drescher, K. & Foster, K. R. Spatial structure, cooperation and 
+competition in biofilms. Nat. Rev. Microbiol. 14, 589–600 (2016).
+	40.	Kaiser, C., Franklin, O., Richter, A. & Dieckmann, U. Social dynamics within 
+decomposer communities lead to nitrogen retention and organic matter 
+build-up in soils. Nat. Commun. 6, 8960 (2015).
+	41.	Borer, B., Tecon, R. & Or, D. Spatial organization of bacterial populations in 
+response to oxygen and carbon counter-gradients in pore networks. Nat. 
+Commun. 9, 769 (2018).
+Nature Geoscience | www.nature.com/naturegeoscience
+
+Perspective
+NATure GeoScience
+	42.	Tang, J. & Riley, W. J. Weaker soil carbon–climate feedbacks resulting from 
+microbial and abiotic interactions. Nat. Clim. Change 5, 56–60 (2015).
+	43.	Reichstein, M. et al. Deep learning and process understanding for data-driven 
+Earth system science. Nature 566, 195–204 (2019).
+	44.	Chen, X. et al. Effects of plant diversity on soil carbon in diverse ecosystems: 
+a global meta‐analysis. Biol. Rev. 95, 167–183 (2020).
+	45.	Lange, M. et al. Plant diversity increases soil microbial activity and soil 
+carbon storage. Nat. Commun. 6, 6707 (2015).
+	46.	Vermeulen, S. et al. A global agenda for collective action on soil carbon. Nat. 
+Sustain. 2, 2–4 (2019).
+	47.	Vlachos, D. G., Mhadeshwar, A. B. & Kaisare, N. S. Hierarchical multiscale 
+model-based design of experiments, catalysts, and reactors for fuel 
+processing. Comput. Aided Chem. Eng. 21, 9–27 (2006).
+	48.	Fan, J. et al. Improving representation of convective transport for scale-aware 
+parameterization: 1. Convection and cloud properties simulated with spectral 
+bin and bulk microphysics. J. Geophys. Res. Atmospheres 120, 3485–3509 
+(2015).
+	49.	Molins, S. & Knabner, P. Multiscale approaches in reactive transport 
+modeling. Rev. Mineral. Geochem. 85, 27–48 (2019).
+	50.	Rillig, M. C. et al. The role of multiple global change factors in driving soil 
+functions and microbial biodiversity. Science 366, 886–890 (2019).
+	51.	Petrakis, S., Barba, J., Bond-Lamberty, B. & Vargas, R. Using  
+greenhouse gas fluxes to define soil functional types. Plant Soil 423,  
+285–294 (2018).
+	52.	Rossel, R. A. V. & Bouma, J. Soil sensing: a new paradigm for agriculture. 
+Agric. Syst. 148, 71–74 (2016).
+	53.	Wieder, W. R. et al. Carbon cycle confidence and uncertainty: exploring 
+variation among soil biogeochemical models. Glob. Change Biol. 24, 
+1563–1579 (2018).
+Acknowledgements
+We are grateful to the Institute of Advanced Study at the Technical University of 
+Munich for organizing the workshop under the Hans-Fischer-Senior Program that 
+allowed the completion of this manuscript, funded by the German Excellence Initiative 
+and the European Union Seventh Framework Programme under grant agreement no. 
+291763. C.K. received funding from the European Research Council (ERC) under the 
+European Union’s Horizon 2020 research and innovation programme (grant agreement 
+no. 819446). W.R.W. acknowledges funding by the US Department of Energy, Office of 
+Biological and Environmental Research Genomic Science Program under award number 
+DE-SC0016364. S.M. was supported by the Swedish Research Council Vetenskapsrådet 
+(grant 2016-04146). 
+Author contributions
+All authors participated in generating the concept. J.L., S.M., N.N., C.K. and K.M. drafted 
+first versions of the figures. All authors contributed to writing and editing.
+Competing interests
+The authors declare no competing interests.
+Additional information
+Correspondence should be addressed to J.L.
+Peer review information Primary Handling Editor: Clare Davis.
+Reprints and permissions information is available at www.nature.com/reprints.
+Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in 
+published maps and institutional affiliations.
+© Springer Nature Limited 2020
+Nature Geoscience | www.nature.com/naturegeoscience

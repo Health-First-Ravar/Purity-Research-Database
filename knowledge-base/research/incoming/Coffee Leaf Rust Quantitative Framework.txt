@@ -1,0 +1,1014 @@
+Int. J. Agr. Ext. 07 (01) 2019. 77-87 
+ 
+ 
+ 
+DOI: 10.33687/ijae.007.01.2744 
+77 
+Available Online at ESci Journals 
+International Journal of Agricultural Extension 
+ ISSN: 2311-6110 (Online), 2311-8547 (Print) 
+http://www.escijournals.net/IJAE 
+ QUANTITATIVE FRAMEWORK FOR COFFEE LEAF RUST (Hemileia vastatrix), 
+PRODUCTION AND FUTURES 
+Laura H. Kahn 
+ Indiana University, School of Informatics, Computing and Engineering. 
+A B S T R A C T 
+The livelihood of at least 120 million people worldwide depends on the coffee supply chain. Coffee rust is among the 
+main diseases that attacks the coffee plant and is caused by the Hemileia vastatrix fungus at temperatures between 10 
+- 30° C. Coffee rust infestation leads to production losses of over $1 billion annually worldwide. Coffee is the second 
+largest traded commodity worldwide, with about $100 billion in volume traded annually. Understanding if there is a 
+relationship between Temperature, Rainfall, Rust, Production and Futures coffee rust variables is important. This 
+research offers the first known quantitative framework for describing and visualizing the correlation between coffee 
+rust, amount of coffee produced and futures prices. 
+Keywords: Commodity futures, coffee trading, data visualization, econometrics, hemileia vastatrix, pricing, 
+statistical analysis. 
+ 
+INTRODUCTION 
+Sixty percent of total coffee bean production worldwide 
+is of the arábica cultivar (United States Department of 
+Agriculture Foreign Agricultural Service December 
+2018- Coffee: World Markets and Trade). In 2017, coffee 
+had an estimated $70 billion retail value in the U.S. 
+alone. Coffee production is an essential part of the 
+economy of over 60 countries and is the primary income 
+source for over 100 million people (International Coffee 
+Organization 2016). According to the UN Food and 
+Agriculture Organization in 2016, Brazil, Vietnam, 
+Colombia and Indonesia were the top four coffee 
+producing countries in 2018 (Economics of Coffee, 
+2018). 
+ 
+Table 1. Food and Agriculture Organization Coffee Production Statistics, 2016. 
+Country 
+Coffee Production (Arábica and Robusta cultivars in tonnes) 
+Brasil 
+3,019,051 
+Vietnam 
+1,460,800 
+Colombia 
+745,084 * (data based on imputation methodology) 
+Indonesia 
+639,305 
+Worldwide 
+9,335,874 
+ 
+Brasil, Colombia and New Caledonia produce 32.34%, 
+7.98% and less than 0.01% of the world’s coffee supply 
+respectively (FAO). The growing regions of all three 
+countries have similar climates and grow the arábica 
+cultivar. Vietnam and Indonesia produce coffee of the 
+robusta variety, which is outside the scope of this 
+research. Data illustrated in the Figure 1 shows Brasil’s 
+top four coffee growing regions of Minas Gerais, Espírito 
+Santo, Bahia and São Paulo. Coffee exports account for 
+about 
+50% 
+of 
+all 
+Brasil’s 
+agricultural 
+exports. 
+Additionally, in 2008 about 3.5 million people of the 
+total population of 191.5 million were involved in the 
+coffee industry (Souza, 2008). 
+Figure 2 shows Colombia’s major coffee growing regions 
+of Caldas, Risaralda, Quindío and Valle del Cauca (Coffee 
+__________________________________________________________________ 
+* Corresponding Author: 
+Email: laurakahn2@gmail.com 
+© 2019 ESci Journals Publishing. All rights reserved.  
+
+Int. J. Agr. Ext. 07 (01) 2019. 77-87 
+ 
+ 
+ 
+DOI: 10.33687/ijae.007.01.2744 
+78 
+production in Colombia). Coffee exports account for 
+about 31% of all agricultural exports.  
+According to the Ministry of Agriculture and Rural 
+Development, coffee growing generates about 800,000 
+direct jobs and 1.6 million indirect jobs. (Colombian 
+Coffee Insider). 
+ 
+  
+ 
+Figure 1. Brasil’s coffee growing regions.   
+ 
+ 
+Figure 2. Coffee Growing Regions of Colombia. 
+ 
+ 
+Figure 3. New Caledonia’s coffee growing regions of Mount Dore, Kone and Sarraméa. 
+
+Int. J. Agr. Ext. 07 (01) 2019. 77-87 
+ 
+ 
+ 
+DOI: 10.33687/ijae.007.01.2744 
+79 
+Coffee leaf Rust is caused by the Hemileia vastatrix 
+fungus at temperatures between 10-30 °C. Signs of 
+Coffee Rust appears as yellow-orange powder on the 
+underside of leaves as shown in figure 4. This fungus has 
+spread to all coffee cultivation areas worldwide (Hemilia 
+Vastatrix). Coffee Rust leads to production losses of 
+approximately $1-2 billion annually worldwide and may 
+affect futures prices (McCook). Understanding if there is 
+the relationship between Temperature, Rainfall, Rust, 
+Production quantities and Futures prices is important to 
+anyone affected by the coffee supply chain and 
+commodities market. 
+ 
+ 
+Figure 4. Coffee rust. 
+ 
+Coffee 
+futures 
+are 
+standardized, 
+exchange-traded 
+contracts in which the contract buyer agrees to take 
+delivery, from the seller, a specific quantity of coffee 
+beans (arábica variety) at a predetermined price on a 
+future delivery date. Coffee futures are traded on 
+average 252 days per year on the U.S. New York Stock 
+Exchange (NYSE) from 0930-1330 daily (Coffee C 
+Futures). To date research has been done that shows 
+anecdotal links between weather conditions such as 
+rain, temperature, humidity and coffee rust (Avelino, 
+2015). The study will establish a quantitative framework 
+for the relationship between Temperature, Rainfall, Rust, 
+Production and Futures. This research makes an 
+important contribution to agricultural, economic and 
+financial sectors that are affected by coffee. 
+The hypotheses are;  
+• Rain, Temperature, Production, Rust and Futures are 
+correlated to each other. 
+• More rain increases rust. 
+• Higher temperatures increase rust. 
+• More rust decreases production. 
+• Less production increases futures. 
+• More rust decreases futures. 
+Literature Review: A qualitative link between average 
+rainfalls, minimum and maximum temperatures, shade 
+amount, and rust is described by Avelino (2006). Luaces 
+(2011) describes using fruit load, plant spacing, and 
+weather scores to predict when coffee rust will occur 
+from October 1998 to October 2006 in Varginha Brasil. 
+Jaramillo suggests a qualitative link between coffee leaf 
+rust, lower coffee production and increase futures. 
+Avelino (2015) also suggests a possible link between 
+coffee rust and prices in general but does not discuss 
+futures prices. Yap (2017) explores the effect of 
+precipitation, exchange rate and import volume on 
+Brazilian coffee futures prices. Lamouroux (1995) 
+describes qualitative relationships between soil pH, soil 
+structure and temperature between coffee plots 
+influence the amount of coffee rust in New Calcedonia. 
+McCook uses artificial intelligence machine learning 
+models to predict 27 futures prices based on daily 
+historical prices data but does not describe relationships 
+with production or weather features. None of the 
+existing research visualizes the relationship between 
+coffee rust, production and futures. 
+METHODOLOGY  
+Data Collection Ethics: Since the data was about 
+weather conditions, plants, production amounts and 
+futures prices, there are fewer ethical implications 
+during the data collection process. The data collection 
+impedes no one’s privacy since human subjects were not 
+involved. Systems and processes used were not biased 
+against any groups of people. Since the data is open on 
+the web and not under a license or proprietary in any 
+way, the data is not considered private. The data also 
+does not contain any personal identifiable information 
+so the reuse of the data for research purposes does not 
+violate any ethical principles. Also since this project did 
+
+Int. J. Agr. Ext. 07 (01) 2019. 77-87 
+ 
+ 
+ 
+DOI: 10.33687/ijae.007.01.2744 
+80 
+not require additional studies since existing data was 
+used, no permissions were required. 
+Data Acquisition: The data set includes 323 observation 
+of four input variables: average Rain (mm), average 
+Temperature (°C), Rust (percent disease that covers the 
+plant), Production (measured in 1000-60 kg bags of coffee 
+beans) and one output variable: Futures (in US dollars). 
+Weather and physical crop properties that affect rust 
+were included to make the simplest and easiest to 
+interpret model possible. The literature suggests that two 
+main physical crop variables determine coffee rust - air 
+temperature and rainfall amounts (Yap, Jaramillo, Avelino 
+2006). The literature also suggests that farmers apply rust 
+control measures such as pesticides when crop leaves 
+have 5-20% diseased spots (Cunha). Certain crop 
+management variables such as fertilization and pesticide 
+use were not included to avoid introducing confounding 
+variables into the analysis. Furthermore, it was assumed 
+that adding these crop management variables would not 
+add a significant amount of value to quantifying the 
+relationships between variables and the hypotheses. 
+Other attributes such as soil humidity, pH, shade amount 
+and day length may be significant variables that affect rust 
+but were not included in the analysis since there was no 
+consistent and reliable source data for Brasil, Colombia 
+and New Caledonia. The effects of these other weather 
+variables were not considered in the rust analysis. 
+Country Level Data 
+Brasil: The rust monthly data from September 2005-
+August 2006 was calculated from the Varginha region as 
+described by Meira Figure 2, “Lavoura Larga-Carga 
+Baixa”. The rust daily data from September 1, 2008-
+September 11, 2008 and September 1, 2009-September 
+11, 2009 was exact as shown in Paulo Figure 1.  
+The 80 additional observations from September 2008- 
+December 2009 were assumed to be missing completely 
+at random and calculated using the k-Nearest Neighbor 
+imputation method described by Beretta. 
+Average monthly country rainfall and temperature were 
+obtained from the World Bank Climate Change 
+Knowledge Portal. Rust, Temperature and rainfall 
+weekly data from September 6, 2008- September 11, 
+2009 was extracted from Adamantina region as 
+described by Paulo Table 1. 
+ 
+Figure 5. Annotated figure 1 of Coffee Borer in Colombia 
+from Ruiz-Cárdenas. 
+Colombia: For Colombia, the rust data from January – 
+December 1995 was calculated by the following method 
+as shown in Figure 5. The presence of coffee borers on 
+the plants were assumed to be the same as the percent 
+rust. Even though coffee borers attack the stem and rust 
+attacks the leaves, the result of disease and damage to 
+the plant is overall the same. Sixty days after flowering 
+was assumed to be the closest measurement to the 
+beginning of the growing cycle. The black bars in Figure 
+5 are percent dead, the white bars are percent leaves 
+that have disappeared. The percent rust is equal to 100 
+minus the sum of percent dead and percent disappeared 
+as shown in Table 2. This calculated rust amount was 
+used for each weekly observation in the 1995 Colombian 
+dataset.  Production data (crop year is April-April) is 
+obtained from the International Coffee Organization. 
+Figures data is obtained from Coffee “C” Futures 
+Intercontinental 
+Exchange 
+Stataistics 
+(Commodity 
+Future Price Quotes for Coffee).  
+ 
+Table 2. 1995 Colombia Rust Calculations. 
+Region 
+Rust Calculation 
+Naranjal 
+100 – (50+25) = 25% 
+La Catalina 
+100 – (30+60) = 10% 
+Supia 
+100 – (20+55) = 25 
+AVERAGE 
+20% 
+ 
+
+Int. J. Agr. Ext. 07 (01) 2019. 77-87 
+ 
+ 
+ 
+DOI: 10.33687/ijae.007.01.2744 
+81 
+Table 3. Preprocessed Colombian dataset from Corrales. 
+Lot 
+Pesticide Applied 
+Rust % 
+Date of Rust 
+1 
+No 
+3.85 
+Aug-11 
+2 
+No 
+3.37 
+Aug-11 
+3 
+No 
+1.09 
+Aug-11 
+4 
+No 
+3.63 
+Aug-11 
+ 
+For Colombia the monthly rust data from August 2011-
+March 2013 was from supplemental data provided by 
+David Camilo Corrales Munoz in August 2017 and can be 
+found in the Supplemental Data section. After the 
+document was translated from Spanish to English with 
+an online translator, all columns were removed from the 
+original dataset except “Lote” (lot where coffee was 
+planted), “Control royo mes anterior” (pesticide applied 
+the previous month), “Tasa de infección” (Rate of coffee 
+rust infection) and “Fecha Infección” (Date of Rust). 
+Plants that had no pesticides applied the previous month 
+were used. The number of observations for each month 
+varied from 1-21 observations. A snippet of the pre-
+processed dataset with the remaining columns from 
+Corrales is shown in Table 3. 
+The individual land plots rust percent for each month 
+were averaged and the average value was used for all 
+weeks within each month. Missing monthly data from 
+various months (40 observations) were assumed to be 
+missing completely at random and calculated using the 
+kNN imputation method (Beretta).  
+Production data (crop year is April - April) is obtained 
+from the International Coffee Organization. Futures data 
+is obtained from Coffee “C” Futures Intercontinental 
+Exchange statistics (“Commodity Futures Price Quotes 
+for Coffee).   
+New Caledonia: For New Caledonia from March 1989 - 
+October 1991, the rust data are from Yate and Canala 
+plots (lowlands regions) in Table 1 of Lamouroux. An 
+average was taken for two Yate plots and two Canala 
+plots. The same rust amount is used for all months 
+within this time period since no more granular data is 
+available. 
+Production data is obtained from the International 
+Coffee Organization. The same monthly value is used for 
+all months and is calculated by dividing the total yearly 
+production by 12. Futures data is obtained from Coffee 
+“C” 
+Futures 
+Intercontinental 
+Exchange 
+statistics 
+(Commodity Futures Price Quotes for Coffee).   
+Additional data points were added to the original dataset 
+to include weekly observations within each time period 
+for each country. 
+Data Assumptions: Rainfall, Temperature, Rust and 
+Production values were used for each date within the 
+same month. The Rust variable for Brasil, Colombia and 
+New Caledonia is calculated as described in Section A. 
+Rainfall, Temperature and Futures variables are exact 
+measurements. Rainfall, Temperature and Rust are 
+reported monthly. Production is only reported annually 
+by country so monthly amounts were calculated by 
+dividing the yearly amount by 12. None of the input 
+variables (Rainfall, Temperature and Rust) are reported 
+bi-weekly. Only the Futures variable is available daily. 
+Coffee futures are reported worldwide not by country on 
+the U.S. NYSE. There is no other known freely available 
+persistent data at a country-level for futures prices. 
+Temperature and rainfall are similar for Brasil, Columbia 
+and New Caledonia which means similar growing 
+conditions so combining data from these three coffee-
+growing regions for our framework is acceptable. The 
+impact of climate change on coffee growing regions has 
+been studied by (Avelino 2006) and many others. 
+However, any possible implications of climate change on 
+the Rust, Production or Futures was not included in the 
+analysis. All data was available publicly and was 
+assumed to be accurate and trustworthy.  
+Data Limitations: Since Vietnam and Indonesia do not 
+produce the arábica variety of coffee, the lack of data 
+from these countries is outside the scope of this 
+research.  
+Since Brazil and Colombia are in the top five coffee 
+producers worldwide and they along with New 
+Caledonia produce 40% of the arábica coffee, the data is 
+considered a reasonable sample of the major coffee-
+producing regions. 
+Futures price data from 1991-2012 was extracted from 
+the U.S. Commodities Futures Trading Commission was 
+located (Commodity Futures Price Quotes for Coffee.)  
+All documents regarding coffee rust occurrences in 
+Brazil were in Portuguese and Colombia were in Spanish 
+
+Int. J. Agr. Ext. 07 (01) 2019. 77-87 
+ 
+ 
+ 
+DOI: 10.33687/ijae.007.01.2744 
+82 
+so Google Translate was used as the best open source 
+approximation to translate the relevant figures and data.  
+Data Preparation: Data cleansing is an important pre-
+processing step of the data acquisition process though 
+for the research minimal processing data was enough. 
+The ‘Date’ variable was standardized as MM/DD/YY 
+format. The remaining numerical variables were 
+standardized to two decimal places. Python 3.6 with the 
+Pandas v0.23.4 library was used to manipulate and 
+explore the dataset. Table 4 shows a reflection of the 
+first five rows of the pre-processed dataset in CSV 
+format. 
+Table 4. Pre-Processed final dataset 
+ 
+Date 
+Country 
+Rainfall 
+Temperature 
+Rust 
+Production 
+Futures 
+0 
+3/15/1989 
+New Caledonia 
+352.42 
+25.28 
+6.33 
+97.92 
+23.18 
+1 
+3/31/1989 
+New Caledonia 
+352.42 
+25.28 
+6.33 
+97.92 
+23.89 
+2 
+4/14/1989 
+New Caledonia 
+309.50 
+25.35 
+15.67 
+97.92 
+26.27 
+3 
+4/28/1989 
+New Caledonia 
+309.50 
+25.35 
+15.67 
+97.92 
+25.60 
+4 
+5/15/1989 
+New Caledonia 
+252.75 
+25.32 
+23.33 
+97.92 
+22.85 
+ 
+Table 5. Summary statistics. 
+ 
+Unnamed: 0 
+Rainfall 
+Temperature 
+Rust 
+Production 
+Futures 
+Count 
+323.000000 
+323.000000 
+323.000000 
+323.000000 
+323.000000 
+323.000000 
+Mean 
+161.000000 
+189.918111 
+25.153560 
+13.762908 
+1649.058916 
+91.100217 
+Std 
+93.386294 
+92.658214 
+0.815875 
+11.107253 
+1240.730643 
+45.488614 
+Min 
+0.000000 
+1.800000 
+23.470000 
+0.000000 
+80.330000 
+21.980000 
+28% 
+80.500000 
+117.400000 
+24.560000 
+5.000000 
+1010.330000 
+39.035000 
+50% 
+161.00000 
+190.160000 
+25.050000 
+12.410000 
+1073.170000 
+103.830000 
+75% 
+241.50000 
+257.360000 
+25.780000 
+20.000000 
+2783.330000 
+129.580000 
+Max 
+322.00000 
+407.700000 
+27.160000 
+50.000000 
+3832.670000 
+175.180000 
+ 
+Exploratory Analysis: Exploratory data analysis begins 
+by looking at summary statistics of the data. There are 
+323 observations from various years in Brasil, Colombia 
+and New Caledonia. Precipitation ranges from 1.8 - 407.7 
+mm per month with a mean of 189.92 mm. Temperature 
+ranges from 23.47 - 27.16° C with a mean of 25.15° C. 
+Rust ranges from 0-50% with a mean of 13.76%. 
+Production ranges from 80.33 - 3832.67 (1000-60 kg 
+bags of beans) with a mean of 1649.06 (1000-60 kg bags 
+of beans). Futures range from 21.98-175.18 USD with a 
+mean of 91.1 USD. The summary statistics are shown in 
+Table 5. 
+RESULTS 
+Following a discussion of data acquisition, cleaning and 
+processing, this section will describe the results. Visual 
+representation of data can help answer questions posed  
+in the original hypotheses.  
+The next step in the data exploration process was 
+creating a plot of all the variables (Rain, Temp, Rust, 
+Production and Futures) with a logarithmic scale as 
+shown in Figure 8. A log scale was chosen since the 
+regular scale line plot wasn't very helpful to gain any 
+insights due to the large range of values. The y-axis was 
+changed to a logarithmic scale to see if any patterns 
+could be detected in the data. A few possible conclusions 
+can be drawn from this plot: Rain might be correlated to 
+Rust and Futures; and Temperature does not appear to 
+change a lot so it might not be a relevant variable. The 
+plot is still very difficult to read since it has too many 
+variables on one chart. However, this visualization alone 
+cannot be used to draw definite conclusions about 
+possible relationships between variables.  
+ 
+ 
+ 
+ 
+
+Int. J. Agr. Ext. 07 (01) 2019. 77-87 
+ 
+ 
+ 
+DOI: 10.33687/ijae.007.01.2744 
+83 
+ 
+Figure 8. Logarithmic plot of Rainfall, Temperature, Rust, 
+Production and Futures.                     
+Figure 9. Time series plot of coffee futures over time 
+ 
+Next, a time-series plot of Coffee Futures was created as 
+shown in Figure 9.  
+The color brown with hexadecimal value #ac7339 was 
+used for visually encoding the futures variable. The 
+futures vary quite sporadically over time and there is a 
+strange drop in prices between 120-150 days. Going 
+back to the original data shows that futures minimum at 
+$21.98 in 1995. This graph confirms anecdotal 
+comments from financial experts that Futures prices are 
+volatile (Yap, 2015). A line plot of Rust versus 
+Production was created to quantify and visualize the 
+relationship between the variables as shown in Figure 
+10. The Production variable was plotted in black while 
+the Rust variable was plotted with a brown color 
+(#663300) to help the user distinguish between the two 
+plots. The scales of the variables are so different from 
+one another (Production from 80.33-3832.67 1000-60 
+kg bags of beans and Rust from 0-50%) that any 
+meaningful relationships are difficult to see in this 
+visualization. A line plot of Production versus Futures 
+was created to quantify and visualize the relationship 
+between the variables as shown in Figure 11. The 
+Production variable was plotted in black while the 
+Futures variable was plotted with a brown color 
+(#663300) to help the user distinguish between the two 
+plots. The scales of the variables are so different from 
+one another (Production from 0-3832.67 1000-60 kg 
+bags of coffee beans and Rust from 0-50%) that any 
+meaningful relationships are difficult to see in this 
+visualization.  
+A line plot of Rust versus Futures was created to 
+quantify and visualize the relationship between the 
+variables as shown in Figure 12. There may be a positive 
+correlation between the variables. Since the scale of the 
+variables are so different from one another (Production 
+from 0-3832.67 1000-60 kg bags and Futures from 
+21.98-175.18 USD) that’s difficult to make any definite 
+conclusions.  
+
+Int. J. Agr. Ext. 07 (01) 2019. 77-87 
+ 
+ 
+ 
+DOI: 10.33687/ijae.007.01.2744 
+84 
+         
+ 
+Figure 10. Line Plot of Coffee Rust versus Production.                 Figure 11. Line Plot of Coffee Production versus Futures. 
+ 
+           
+ 
+Figure 12. Line Plot of Coffee Rust versus Futures.                       Figure 13. Heat Map of Variables. 
+ 
+In order to accept or fail to accept the original 
+hypothesis, a heat map visualization is needed. Heat 
+maps are a 2D grid whose color in each square shows 
+the value of a data cell in the CSV file. In a heat map, the 
+larger the correlation between two variables, the darker 
+hue on the color scale. The seaborn library within 
+Python 
+was 
+used 
+to 
+create 
+a 
+heat 
+map 
+(https://seaborn.pydata.org/generated/seaborn.heatma
+p.html). In a heat map, variables that are positively 
+correlated (greater than 0) change in the same direction. 
+Variables that are negatively correlated (less than 0) 
+change in the opposite direction. The larger the number 
+on the heat map scale, the greater the correlation 
+between variables. 
+DISCUSSION 
+A discussion on how the relationship between Rain, 
+Temperature, Rust, Production, and Futures was 
+quantified will now be discussed. Since none of the line 
+plots definitively showed a relationship between these 
+variables, a heat map visualization with a diverging color 
+palette 
+(“BrBG”) 
+as 
+described 
+in 
+the 
+Seaborn 
+documentation 
+(https://seaborn.pydata.org/generated/seaborn.heatma
+p.html) and as shown in Figure 13. 
+From heat map, the following observations can be made: 
+• Rain, Temperature, Production, Rust and Futures are 
+quantitatively related to each other. 
+• Rain and Temperature are not correlated to each other 
+(correlation = 0). 
+• Rain is not correlated to Rust (correlation = 0). 
+• Temperature is negatively correlated to Rust (-0.25) 
+so if Temperature increases, Rust decreases. 
+• Rain is negatively correlated to Production (-0.5) so if 
+Rain increases, Production decreases. 
+• Production is positively correlated to Futures (0.3) so 
+if Production increases, Futures increase. 
+• Rust is positively correlated to Production (0.25) so if 
+Rust increases, Production increases. 
+
+Int. J. Agr. Ext. 07 (01) 2019. 77-87 
+ 
+ 
+ 
+DOI: 10.33687/ijae.007.01.2744 
+85 
+• Rust is negatively correlated to futures (-0.1) so if Rust 
+increases, Futures decrease. 
+From these observations, the following conclusions can 
+be made about our hypotheses. 
+• Rain, Temperature, Production, Rust and Futures are 
+correlated to each other.  →Accept 
+ 
+• More Rain increases Rust.  → Fail to accept 
+• Higher Temperatures increase Rust.  → Fail to accept 
+• More Rust decreases Production. → Fail to accept 
+• Less Production increases Futures. → Fail to accept  
+• More Rust decreases Futures. → Accept 
+Hypothesis 2 (More Rain increases Rust) cannot be 
+accepted since it has a correlation of 0 from the heat 
+map above. This hypothesis contradicts the available 
+literature. It is unclear from the synthesized data why 
+this is the case. 
+One of the biggest surprises from the heat map in Figure 
+13 is hypothesis 3. Recall from the observations that 
+Temperature is negatively correlated to rust (-0.25), 
+meaning that if Temperature increases, Production 
+decreases. This is unexpected since prior research has 
+anecdotally stated that higher Temperatures increase 
+the amount of rust (Jaramillo). Recall from the summary 
+statistics above that the range of Temperatures in our 
+data is 23.47-27.16° C. Since coffee rust thrives in 
+temperatures from 10 - 30° C and our data falls within 
+this range, it is surprising that increased temperatures 
+do not necessarily increase rust. The hypothesis that 
+increased Temperature increases coffee Rust cannot be 
+accepted. 
+Another surprising hypothesis that contradicts existing 
+literature is that More Rust decreases Productions. It is 
+unclear from the data synthesized why this is the case. 
+In addition to the heat map and plots shown in Figures 
+8-13, the slope and normalized root mean square error 
+(NRMSE) was calculated for Rainfall, Temperature, 
+Production and Futures with respect to Rust.  
+ 
+Table 4. Slope and NRMSE for Temperature, Rainfall, 
+Production and Futures. 
+Variable 
+Slope 
+NRMSE 
+Temperature 
+-0.006 
+12.184 
+Rainfall 
+-0.380 
+0.139 
+Production 
+10.02 
+0.012 
+Futures 
+-0.071 
+0.309 
+ 
+The values shown in Table 4 provide a more granular 
+quantitative framework than the prior visualizations. 
+The highly positive slope of 10.02 and fairly small 
+NRMSE of 0.012 between Rust and Production indicates 
+the strongest correlation with Rust of all the variables 
+and a small predictive error. 
+CONCLUSION AND RECOMMENDATIONS 
+Only hypothesis 1 and 6 are accepted with the data and 
+subsequent 
+visualizations. 
+Rain, 
+Temperature, 
+Production, Rust and Futures are correlated to each 
+other as shown by the heat map. Furthermore, the 
+methodology above describes that more Rust on the 
+coffee plants decreases the Futures.  
+Various 
+types 
+of 
+data 
+visualizations 
+provide 
+a 
+quantitative framework for describing the relationship 
+between Temperature, Rainfall, Production, coffee Rust 
+and Futures for Brasil, Colombia and New Caledonia. 
+Since these three countries represent about 40% of all 
+coffee arábica produced worldwide, similar conclusions 
+can be drawn about the relationships of these variables 
+in other coffee growing regions. Being able to quantify 
+with certain granularity the relationship between 
+Temperature, Rainfall, Rust, Production quantities and 
+Futures prices is an important contribution 
+to 
+practitioners and researchers in the agricultural and 
+financial sectors. The research is a crucial first step in 
+understanding 
+production 
+losses 
+that 
+affect 
+the 
+livelihood of millions of people worldwide. 
+REFERENCES 
+Alves, M. (2012). Cafeicultura De Precisão Na Proteção de 
+Plantas: Monitoramento de Pragas E Doenças. 
+Expocafé 2012 - slide 28. Retrieved October 17, 
+2017 
+from 
+https://pt.slideshare.net/cafeicultura/expocafe-
+marcelo  
+Avelino, J., Zelaya, H., Merlo, A., Pineda, Ordoñez, A. M. & 
+Savary, S. (2006). The intensity of a coffee rust 
+epidemic is dependent on production situations. 
+Ecological Modeling, 197, 431-447. 
+Avelino, J., Cristancho, M., & Georgiou, S. (2015). The 
+coffee rust crisis in Colombia and Central America 
+(2008-2013): impacts, plausible causes and 
+proposed solutions. Food Security, 7, 303.  
+Beretta, L., & Santaniello, A. (2016). Nearest neighbor 
+imputation algorithms: a critical evaluation. BMC 
+Medical 
+Information 
+Decision 
+Making, 
+Supplemental 3,74.  
+Cintra, M., Meira, C.A.A., Monard, M.C., Camargo, H.A. & 
+Rodrigues, L.H.A. (2011). The Use of Fuzzy 
+
+Int. J. Agr. Ext. 07 (01) 2019. 77-87 
+ 
+ 
+ 
+DOI: 10.33687/ijae.007.01.2744 
+86 
+Decision Trees for Coffee Rust Warning in 
+Brazilian Crops. 11th International Conference on 
+Intelligent Systems Design and Applications. 
+doi:10.1109/ISDA.2011.6121847.  
+Coffee C Futures (2017). Intercontinental Exchange. 
+Retrieved 
+27 
+November 
+2017. 
+https://www.theice.com/products/15/Coffee-C-
+Futures. 
+Coffee production in Colombia (2018). Retrieved 28 
+November 
+2018. 
+https://en.wikipedia.org/wiki/Coffee_production_
+in_Colombia.  
+Coffee production in Papua New Guinea (2018). Retrieved 
+27 
+November 
+2018. 
+https://en.wikipedia.org/wiki/Coffee_production_
+in_Papua_New_Guinea.  
+Coffee: World Markets and Trade. United States 
+Department of Agriculture – Foreign Agricultural 
+Service. Retrieved 8 December 2017.  
+Color-Hex Color Palettes. Retrieved 21 November 2017. 
+http://www.color-hex.com/color-palette/50402.  
+Colombian Coffee Insider (2013). Coffee is a Driving Force 
+of the Economy and a Guarantee of Social Stability 
+and Peace. Retrieved 20 November 2018.    
+Colombian Connection Coffee. Retrieved 5 December 
+2017. 
+http://colombianconnection.com.au/coffee/.  
+Commodity Futures Price Quotes for Coffee. Retrieved 11 
+September 
+2017. 
+http://data.tradingcharts.com/futures/quotes/kc.
+html.  
+Corrales, D., Ledezma, A., Peña, A., Hoyos, J., Figueroa, A. & 
+Corrales, J. (2014). A new dataset for coffee rust 
+detection in Colombian crops base on classifiers. 
+Revista 
+S&T, 
+12(29), 
+9-23. 
+https://www.icesi.edu.co/revistas/index.php/sist
+emas_telematica/article/viewFile/1802/2333 
+Custudio, A.A. (2011). Comparison and validation of 
+diagrammatic scales for brown eye spots in coffee 
+tree leaves. Ciência e Agrotecnologia 35(6), 1067-
+1076.  
+Cunha, R.L; Mendes, A.N.G.; Chalfoun, S.M. (2004). 
+Controle químico da ferrugem do cafeeiro (Coffea 
+arabica L.) e seus efeitos na produção e 
+preservação 
+de 
+enfolhamento. 
+Ciência 
+e 
+Agrotecnologia, 28(5), 990-996. 
+Economics of coffee. Retrieved 30 October 2018. 
+https://en.wikipedia.org/wiki/Economics_of_coff
+ee. 
+Escobar, K. Coffee Rust is killing Latin American Plants.” 
+Retrieved 
+18 
+October 
+2017. 
+http://www.dbknews.com/2016/10/28/umd-
+research-grant-coffee-rust-fungus/ 
+Hemileia 
+Vastatrix. 
+Retrieved 
+22 
+October 
+2017. 
+https://en.wikipedia.org/wiki/Hemileia_vastatrix.  
+ICO (2016). World Coffee Production. International Coffee 
+Organization. 
+Retrieved 
+30 
+October 
+2018. 
+http://www. ico.org/prices/po-production.pdf.. 
+Japiassú, L. B, A. W.R. Garcia, A.E. Miguel, M.S. A. 
+Mendonça, C.H.S. Carvalho, & R.A. Ferreira. (2017). 
+Influencia da Carga Pendente, Do Espaçamento e 
+de Fatores Climáticos no Desenvolvimento da 
+Ferrugem 
+do 
+Cafeeiro. 
+Estação 
+de 
+Avisos 
+Fitossanitários 
+Do 
+Mapa/Fundação 
+Procafé. 
+Retrieved 
+10 
+October 
+2017. 
+http://www.sapc.embrapa.br/arquivos/consorcio
+/spcb_anais/simposio4/p292.pdf.  
+Jaramillo, 
+J., 
+Muchugu 
+E., 
+Vega, 
+F.E., 
+Davis, 
+A., 
+Borgemeister C., & Chabi-Olaye A. (2011). Some 
+Like It Hot: The Influence and Implications of 
+Climate 
+Change 
+on 
+Coffee 
+Berry 
+Borer 
+(Hypothenemus hampei) and Coffee Production in 
+East Africa. PLoS ONE 6(9), e24528.  
+Lamouroux, N., Pellegrin, F., Nandris, D. & Kohler, F. 
+(1995). The Coffea arabica Fungal Pathosystem in 
+New Caledonia: Interactions at Two Different 
+Spatial Scales. Journal of Phytopathology 143, 
+403-413.  
+Lopes, P.R., Ferraz, J.M.G, Theodoro, V.C.A, & Lopes, L.M. 
+(2012). Evolution of coffee rust (Hemileia 
+vastatrix) and brown eye spot (Cercospora 
+coffeicola) in conventional, organic-mineral and 
+organic coffee agroecosystem. Revista Brasiliera 
+De Agroecologia, 7(1), 160-168.  
+Luaces, O. (2011). “Using nondeterministic learners to 
+alert on coffee rust disease.” Expert Systems 
+Applications, 38,14276-14283. 
+McCook, S. and Vandermeer, J. (2015). The big rust and 
+the Red Queen: long-term perspectives on coffee 
+rust research. Phytopathology, 105, 1164–1173. 
+Montage, D. (2017). Algorithmic Trading of Futures via 
+Machine Learning. Stanford University CS229 
+Course material. Retrieved 11 September 2017. 
+http://cs229.stanford.edu/proj2014/David%20M
+ontague,%20Algorithmic%20Trading%20of%20F
+utures%20via%20Machine%20Learning.pdf.  
+
+Int. J. Agr. Ext. 07 (01) 2019. 77-87 
+ 
+ 
+ 
+DOI: 10.33687/ijae.007.01.2744 
+87 
+Paulo, E.M., Montes, S.M.N.M., & Fischer, I.H. (2013). 
+Progresso temporal da ferrugem alaranjada em 
+cultivares de cafeeiro no Oeste de São Paulo. 
+Arquivos do Instituto Biológico, 80(1), 59-64. doi: 
+10.1590/S1808-16572013000100009. 
+Ruiz-Cárdenas, R. & Baker, P. (2010). Life table of 
+Hypothenemus hampei in relation to coffee berry 
+phenology under Columbian field conditions. 
+Ciência 
+e 
+Agrotecnologia, 
+67(6), 
+658-668. 
+Retrieved 
+1 
+October 
+2017. 
+http://www.scielo.br/scielo.php?script=sci_arttex
+t&pid=S0103-90162010000600007.  
+Souza, 
+R.M 
+(2008), Plant-Parasitic 
+Nematodes 
+of 
+Coffee, Springer Science & Business Media B.V. 
+World Bank Climate Change Knowledge Portal. Retrieved 
+November 
+1, 
+2017. 
+http://sdwebx.worldbank.org/climateportal/inde
+x.cfm?page=country_historical_climate&ThisCCod
+e=PNG.  
+Yap, J. (2017). Stat 531 Midterm Project. Retrieved 
+November 1, 2017 
+https://ionides.github.io/531w16/midterm_proje
+ct/project10/midtermproject.html  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

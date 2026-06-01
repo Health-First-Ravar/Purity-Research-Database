@@ -1,0 +1,2371 @@
+Is Eco-Certiﬁcation a Win–Win for Developing Country
+Agriculture? Organic Coﬀee Certiﬁcation in Colombia
+MARCELA IBANEZ a and ALLEN BLACKMAN b,*
+a Courant Research Centre: Poverty, Equity and Growth, Goettingen, Germany
+b Resources for the Future, Washington, DC, USA
+Summary. — According to advocates, eco-certiﬁcation is a win–win solution to the problem of environmental degradation caused by
+developing country agriculture, improving both the environmental and the economic performance of farmers. However, these notional
+beneﬁts can be undercut by the tendency of relatively wealthy farmers already meeting eco-certiﬁcation standards to disproportionately
+participate. Using original farm-level survey data along with matching and matched diﬀerence-in-diﬀerences models, we analyze the
+producer-level eﬀects of organic coﬀee certiﬁcation in southeastern Colombia. We ﬁnd that certiﬁcation is associated with changes in
+farm practices linked to improved environmental outcomes. It signiﬁcantly reduces sewage disposal in the ﬁelds and increases the adop-
+tion of organic fertilizer. However, we are not able to discern economic beneﬁts.
+ 2016 Elsevier Ltd. All rights reserved.
+Key words — organic certiﬁcation, coﬀee, Colombia, diﬀerence-in-diﬀerences matching
+1. INTRODUCTION
+Although agricultural production is an important source of
+income and employment for developing countries, it also is
+responsible for serious environmental damage, including aqui-
+fer depletion, land degradation, water pollution, soil erosion,
+deforestation, biodiversity loss, and the spread of invasive spe-
+cies (Foley et al., 2011; Laurance, Sayer, & Cassman, 2014;
+Sebastian & Schulz, 2015; Tilman et al., 2001). Addressing
+these problems using conventional command-and-control reg-
+ulation is challenging for a number of reasons: regulatory
+institutions are often weak, political will for stringent enforce-
+ment is limited, and producers tend to be small, numerous,
+and geographically dispersed (Chomitz, 2007; Sterner &
+Coria, 2011; Wehrmeyer & Mulugetta, 1999).
+Organic,
+Rainforest
+Alliance,
+UTZ,
+and
+other
+eco-
+certiﬁcation initiatives award labels to farmers conditional
+on their meeting speciﬁc environmental and social perfor-
+mance
+criteria.
+These
+initiatives
+represent
+a
+nonstate,
+market-based approach to addressing environmental problems
+in developing countries that has the potential to sidestep the
+constraints on conventional command-and-control regulation
+noted above (Auld, 2010; Blackman, 2010; Cashore, Auld, &
+Newsom, 2004; Jordan, Wurzel, & Zito, 2003). Moreover,
+unlike conventional environmental regulation, which generally
+imposes economic costs on producers, in principle eco-
+certiﬁcation can generate economic beneﬁts, such as price
+premiums and improved market access (Bolwig, Gibbon, &
+Jones,
+2009;
+Dragusanu,
+Giovannucci,
+&
+Nunn,
+2014;
+Giovannucci & Ponte, 2005). This feature makes it a particu-
+larly attractive environmental management strategy in the
+agricultural sector, which typically employs the poorest of
+the poor. Hence, eco-certiﬁcation has the potential to be a
+win–win solution to the problem of environmental degrada-
+tion caused by developing country agriculture.
+According to proponents, eco-certiﬁcation can generate both
+environmental and economic beneﬁts at the producer level
+(Milder et al., 2014; Romero et al., 2013). Eco-certiﬁcation
+enables consumer to diﬀerentiate among commodities based
+on their environmental attributes. This improved information
+translates into beneﬁts for producers who receive price premi-
+ums for certiﬁed commodities and/or have improved access to
+output and credit markets. Those private economic beneﬁts, in
+turn, motivate producers to improve their environmental per-
+formance. In addition to these private economic incentives,
+eco-certiﬁcation may improve environmental and economic
+performance by helping to disseminate technical information
+about best management practices and molding private and
+public sector actors’ environmental preferences and standards
+(Bartley, 2007a, 2007b).
+However, in practice, both the environmental and the
+economic beneﬁts of eco-certiﬁcation may be limited at the
+producer
+level.
+In
+the
+case
+of
+environmental
+beneﬁts,
+self-selection is a major barrier. Producers already meeting
+environmental certiﬁcation criteria tend to disproportionately
+obtain certiﬁcation (Barbosa de Lima et al., 2009; Blackman &
+Rivera, 2011). Such producers have relatively strong incentives
+to participate: the costs are low because they do not have to
+change production practices to meet certiﬁcation standards,
+and the beneﬁts, including price premiums and improved mar-
+ket access, can be signiﬁcant. However, if the bulk of certiﬁed
+producers are already meeting certiﬁcation criteria, then on
+average, certiﬁcation will have only limited additional eﬀects
+* This study was funded by the Latin American and Caribbean
+Environmental Economic Program (LACEEP); the Adlerbert Research
+Foundation; the Swedish Research Council, Formas, through the Human
+Cooperation to Manage Natural Resources (COMMONS) program; and
+The
+Swedish
+Foundation
+for
+Strategic
+Environmental
+Research,
+MISTRA,
+through
+its
+Environment
+and
+Trade
+in
+a
+World
+of
+Interdependence
+(ENTWINED)
+program.
+We
+are
+grateful
+to
+the
+Federacio´n Nacional de Cafeteros de Colombia and Cenicafe for
+assistance with our survey. The paper has beneﬁted from discussions
+with Gerhard Riener and comments from participants in LACEEP
+workshops,
+the
+AgroFood
+Conference
+in
+Go¨ttingen,
+and
+the
+ENTWINED Policy Seminar on Emerging Trends in Sustainable Trade
+in Stockholm. Special thanks to Tomas David Vargas for assistance with
+ﬁeld research and to Joyce Bond and Sally Atwater for careful editing.
+Final revision accepted: January 6, 2016.
+World Development Vol. 82, pp. 14–27, 2016
+0305-750X/ 2016 Elsevier Ltd. All rights reserved.
+www.elsevier.com/locate/worlddev
+http://dx.doi.org/10.1016/j.worlddev.2016.01.004
+14
+
+on production practices. Hence, it is not clear ex ante
+whether—after controlling for self-selection eﬀects—eco-certiﬁ
+cation actually has signiﬁcant environmental beneﬁts.
+Just as the environmental eﬀects of coﬀee eco-certiﬁcation
+are uncertain, so too are the economic eﬀects. In principle,
+the price premiums, improved market access, and technical
+change associated with eco-certiﬁcation can boost growers’
+proﬁts. But eco-certiﬁcation also generally requires changes
+in production practices that raise some costs. For example,
+organic cultivation is typically more labor intensive than con-
+ventional farming (Lygbaeck, Muschler, & Sinclair, 2001; Van
+der Vossen, 2005). In addition, eco-certiﬁcation entails ﬁxed
+transaction costs associated with red tape and variable trans-
+action
+costs
+associated
+with
+monitoring
+and
+reporting.
+Finally,
+just
+as
+it
+dilutes
+environmental
+beneﬁts,
+self-
+selection also can dilute economic beneﬁts. The reason is that
+relatively wealthy producers may be more likely to obtain eco-
+certiﬁcation because they can more easily cover the ﬁxed trans-
+action costs (Barham, Callenes, Gitter, Lewis, & Weber, 2011;
+Mendez et al., 2010). Given all these factors, ex ante, the net
+eﬀect of eco-certiﬁcation on producers’ economic status is
+uncertain.
+As discussed below, existing evidence on the producer-level
+environmental eﬀects of coﬀee eco-certiﬁcation is limited, and
+that on the economic eﬀects is quite mixed. The present paper
+investigates both the environmental and the economic eﬀects
+of organic certiﬁcation in the southeastern part of Colombia,
+one of the world’s leading coﬀee producers. We rely on an
+original panel data set and use matching and matched
+diﬀerence-in-diﬀerences (DID) estimators to control for selec-
+tion eﬀects (Rosenbaum & Rubin, 1983; Smith & Todd, 2005).
+We do not directly observe environmental outcomes such as
+water and soil quality, and we therefore use as proxies farm
+practices
+linked
+to
+these
+outcomes
+(e.g.,
+Blackman
+&
+Naranjo, 2012; Quispe Guanca, 2007). We ﬁnd that organic
+certiﬁcation in southeastern Colombia fosters the adoption
+of cleaner farm practices: it signiﬁcantly reduces the disposal
+of sewage in ﬁeld and spurs the adoption of organic fertilizer.
+However, we are not able to discern an eﬀect on producers’
+income or net returns. This last result implies that maintaining
+and expanding the current level of organic certiﬁcation in
+Colombia may be challenging.
+Empirical evidence on the environmental eﬀects of coﬀee
+eco-certiﬁcation is limited (Blackman & Rivera, 2011; IFAD,
+2003; Parrot, Olesen, & Høgh-Jensen, 2007). To our knowl-
+edge, only three quantitative studies consider the producer-
+level environmental eﬀects of coﬀee and attempt to control
+for self-selection bias. Blackman and Naranjo (2012) ﬁnd that
+organic certiﬁcation in Costa Rica reduces the use of chemical
+pesticides, herbicides, and fertilizers and increases the use of
+organic fertilizer—all farm practices linked to environmental
+outcomes like soil and water quality. They attribute this ﬁnd-
+ing partly to the fact that in Costa Rica, the vast majority of
+coﬀee growers rely heavily on agrochemicals and therefore
+do not meet organic certiﬁcation standards. As a result,
+opportunities for the type of self-selection described above
+are limited. Using remote sensing data, Takahashi and Todo
+(2013) conclude that Rainforest Alliance certiﬁcation reduces
+deforestation in Ethiopia. Finally, relying on both satellite
+and survey data, Rueda and Lambin (2013) ﬁnd that Rain-
+forest Alliance certiﬁcation in northern Colombia increases
+adoption of environmentally friendly farm practices but does
+not have a signiﬁcant eﬀect on deforestation. Like the present
+study, Blackman and Naranjo (2012), Takahashi and Todo
+(2013), and Rueda and Lambin (2013) use propensity score
+matching to control for self-selection bias. Unlike our study,
+Takahashi and Todo (2013) and Rueda and Lambin (2013)
+focus on Rainforest Alliance, not organic, certiﬁcation.
+Several less rigorous studies analyze environmental eﬀects
+by comparing farm practices or environmental outcomes for
+certiﬁed farms before and after certiﬁcation or comparing out-
+comes for certiﬁed farms and unmatched uncertiﬁed farms.
+Most ﬁnd certiﬁcation has little or no eﬀect. Quispe Guanca
+(2007) compares environmental management practices before
+and after ﬁve types of eco-certiﬁcation in Costa Rica and ﬁnds
+that aside from herbicides, certiﬁcation did not lead to reduc-
+tions in the use of agrochemicals. Philpott, Bichier, Rice, and
+Greenberg (2007) ﬁnd no diﬀerences in ecological indicators
+for (unmatched) organic, Fair Trade, and uncertiﬁed farms
+in Chiapas, Mexico. Finally, Martı´nez-Sa´nchez (2008) ﬁnds
+that compared with unmatched conventional farms in Costa
+Rica, organic farms do not have signiﬁcantly diﬀerent shade
+levels, bird diversity, or bird abundance.
+Empirical evidence on the producer-level economic eﬀects of
+coﬀee eco-certiﬁcation is more plentiful than that on environ-
+mental eﬀects and includes several studies that purport to con-
+trol for self-selection. Overall, this evidence also is quite
+mixed. Of the studies that control for self-selection, Bolwig
+et al. (2009) and Arnould, Plastina, and Ball (2009) reach
+the most optimistic conclusions. Relying on a Heckman
+model, Bolwig et al. (2009) ﬁnd that the net revenues of Ugan-
+dan certiﬁed organic growers are 75% higher than those of
+uncertiﬁed growers. 1 Using a combination of matching and
+regression, Arnould et al. (2009) ﬁnd that Fair Trade certiﬁca-
+tion is positively correlated with volume of coﬀee sold and
+price obtained (but less consistently correlated with various
+indicators of educational and health status).
+Other studies that control for selection eﬀects reach more
+measured conclusions. For example, Chiputwa, Spielman,
+and Qaim (2015) use propensity score matching to analyze
+the eﬀects of three coﬀee certiﬁcation schemes in Uganda—
+Fair Trade, organic, and UTZ—and ﬁnd that only Fair Trade
+raises household living standards. Using ﬁxed eﬀects panel
+regression models, Barham and Weber (2012) ﬁnd that the
+net returns to Fair Trade/organic and Rainforest Alliance cer-
+tiﬁcation depend critically on how certiﬁcation aﬀects yields.
+Ruben and Fort (2012) use propensity score matching to ana-
+lyze the economic eﬀects of Fair Trade certiﬁcation in Peru
+and conclude it has only a modest direct eﬀect on income
+and production. Using the same methods, Jena, Chichaibelu,
+Stellmacher, and Grote (2012) ﬁnd that Fair Trade certiﬁca-
+tion had limited eﬀects on small-scale coﬀee producers’ liveli-
+hoods in Ethiopia. Using rudimentary matching, Lygbaeck
+et al. (2001) ﬁnd that although the price premium from
+organic coﬀee partly compensates for lower yields, once the
+cost of certiﬁcation is included, organic production generates
+lower net revenues than conventional production. Finally,
+two separate studies of coﬀee growers in Nicaragua that do
+not control for selection bias—Valkila (2009) and Beuchelt
+and Zeller (2011)—conclude that in some circumstances, Fair
+Trade organic certiﬁcation can perpetuate or exacerbate low
+productivity and poverty among marginal growers.
+Our paper aims to make several contributions to the litera-
+ture on eco-certiﬁcation. First, to our knowledge, it is only the
+second study to examine both the environmental and the eco-
+nomic eﬀects of an eco-certiﬁcation initiative (the other being
+Rueda & Lambin, 2013). As discussed above, studies focused
+on each eﬀect separately reach varying conclusions. An impor-
+tant unanswered question is whether positive environmental
+eﬀects are associated with positive economic ones (Milder
+et al., 2014). If eco-certiﬁcation is in fact a win–win proposi-
+tion, as some proponents contend, then it is more likely to
+IS ECO-CERTIFICATION A WIN–WIN FOR DEVELOPING COUNTRY AGRICULTURE? ORGANIC COFFEE
+15
+
+be an eﬀective nonregulatory strategy for mitigating the
+adverse environmental eﬀects of agriculture in developing
+countries. Second, our study is one of few that control for
+self-selection bias when analyzing the environmental eﬀects
+of coﬀee eco-certiﬁcation (Blackman & Rivera, 2011). And
+ﬁnally, it is among the ﬁrst such studies to analyze coﬀee
+eco-certiﬁcation in Colombia, one of the world’s leading coﬀee
+producers.
+The remainder of the paper is organized as follows. The next
+section provides background on organic coﬀee cultivation in
+Colombia. Section 3 discusses our methodology. Sections 4
+and 5 present our data and the results. Section 6 discusses
+some of the limitations of our analysis, and the ﬁnal section
+sums up and discusses policy implications.
+2. COFFEE CULTIVATION IN COLOMBIA
+Coﬀee is the most important agricultural product in Colom-
+bia, generating 12.4% of the total agricultural revenue and
+employing about 553,000 growers, 95% of whom cultivate
+farms smaller than 5 hectares (FNC, 2011; Giovannucci,
+2002).
+Traditionally, coﬀee was grown in the shade of natural or
+planted forests, with few agrochemicals. Over the past
+30 years, however, new coﬀee varieties have been developed
+that can be cultivated in full sun. Almost half of Colombian
+coﬀee is ‘‘sun-grown,” and in some regions the fraction
+exceeds three-quarters (FNC, 2008a). In Colombia, yields
+per hectare from sun-grown coﬀee are about four times those
+from shade-grown coﬀee (FNC, 2008a).
+But there is a disadvantage: sun-grown coﬀee has serious
+adverse environmental eﬀects. The reduction in tree cover is
+associated
+with
+a
+loss
+in
+biodiversity.
+For
+example,
+Greenberg, Bichier, Cruz, and Reitsma (1997) found that
+full-sun coﬀee plantations support 90% fewer bird species than
+shade-grown coﬀee. In addition, sun-grown coﬀee is associ-
+ated with higher rates of soil erosion, is more susceptible to
+weeds and pests, and is typically associated with increased
+use of chemical fertilizers and pesticides that can pollute sur-
+face and groundwater and cause worker health problems
+(Ataroﬀ
+&
+Monasterio,
+1997;
+Babbar
+&
+Zak,
+1995;
+Bermu´dez, 1980). For example, in Costa Rica, sun-grown cof-
+fee uses 30 kilograms of nitrogen per hectare per year com-
+pared with little or no use in shade-grown plantations
+(UNDP, 2010). Shade-grown plantations beneﬁt from leaf lit-
+ter and other organic residues that help improve soil fertility.
+Also, some tree species harbor nitrogen-ﬁxing bacteria that
+increase soil fertility (Beer, 1988).
+Concerns about the environmental harms of coﬀee cultiva-
+tion, among other things, spurred organic certiﬁcation.
+Organic agriculture certiﬁcation requires producers to adhere
+to ﬁve broad production principles (IFOAM, 2010; Van der
+Vossen, 2005):
+ use of composted organic matter instead of chemical fer-
+tilizers to maintain soil quality;
+ use of natural methods for controlling disease, pests, and
+weeds instead of synthetic insecticides and herbicides;
+ use of soil conservation practices, including contour
+planting, terracing, planting cover crops, mulching, and
+planting shade trees;
+ minimal use of fossil fuels in the production process; and
+ minimal pollution during postharvest handling.
+Organic certiﬁcation requires growers to complete a transi-
+tion period of two to three years, during which they must dis-
+continue
+use
+of
+chemical
+inputs
+and
+adopt
+various
+conservation and pollution prevention practices. Certiﬁed pro-
+ducers are monitored at least once a year to ensure they con-
+tinue to meet organic standards. They also need to establish an
+internal control system that veriﬁes compliance with the
+norms.
+Colombia’s experience with organic coﬀee certiﬁcation
+began in the late 1980s. It was promoted by multiple organiza-
+tions, including Instituto Mayor Campesino, Asociacio´n de
+Caﬁcultores Orga´nicos de Colombia (ACOC), and Corpo-
+racio´n Suna Hisca. Since then, the production of certiﬁed
+organic coﬀee has increased (Esguerra, 2001). In 2010, Colom-
+bian growers produced 8,056 tons of certiﬁed organic coﬀee
+on
+8,773
+certiﬁed
+organic
+hectares
+(Ministerio
+de
+Agricultura, 2012). 2
+Our study focuses on organic growers in Cauca, a depart-
+ment (state) in the southeastern part of the country. Cauca,
+one of Colombia’s leading centers of organic coﬀee produc-
+tion, is home to 16% of Colombia’s coﬀee farms and 8% of
+its coﬀee acreage (FNC, 2008a). We focus on ﬁve municipali-
+ties in Cauca with particularly high rates of organic certiﬁca-
+tion: Inza´, Cajibı´o, Tambo, Timbı´o, and La Sierra. In all,
+331 growers harvesting 587 hectares were certiﬁed organic in
+these municipalities in 2008 (FNC, 2008b). In addition, 162
+growers harvesting 211 hectares were in transition to certiﬁca-
+tion (FNC, 2008b). The vast majority of these growers were
+certiﬁed in the decade prior to our survey. Very few were cer-
+tiﬁed prior to 1998. On average, farmers in our sample had
+only 2.5 years of experience in certiﬁed organic production.
+Three organizations certiﬁed the organic growers in our study
+area: Bio-Latina, Institute for Marketecology (IMO) Control,
+and Organic Crop Improvement Association. Each of these
+organizations holds multiple accreditations for multiple mar-
+kets. 3 The operation of the three organizations is similar in
+terms of certiﬁcation criteria and procedures. The price pre-
+mium for organic coﬀee that growers in our sample received
+depended on the grower association and ranged from 5.2%
+to 7.7% of the price of similar uncertiﬁed coﬀee.
+3. METHODOLOGY
+We evaluate the eﬀect of organic certiﬁcation on the adop-
+tion of cleaner farm practices and economic outcomes. Let
+yc
+itþs be an outcome variable for grower i at time t + s (for
+s > 0) conditional on a certiﬁcation indicator variable C which
+takes a value equal to one when the producer was certiﬁed and
+a value equal to zero otherwise. The causal eﬀect of certiﬁca-
+tion for grower i at time period t + s is deﬁned as
+y1
+itþs  y0
+itþs
+ð1Þ
+The average eﬀect of certiﬁcation on all certiﬁed growers is
+E y1
+itþs  y0
+itþsjC ¼ 1
+
+
+¼ E y1
+itþsjC ¼ 1
+
+
+ E y0
+itþsjC ¼ 1
+
+
+ð2Þ
+The general challenge of causal inference is that the quantity
+y0
+itþs is unobservable for certiﬁed growers. Hence, we must con-
+struct a contrafactual against which the impacts of the inter-
+vention can be evaluated. The average outcome for certiﬁed
+growers had they not been certiﬁed. We rely on matching tech-
+niques to construct this counterfactual. That is, we pair each
+certiﬁed grower with an uncertiﬁed grower based on a vector
+of Z characteristics observed before certiﬁcation.
+It may not be possible to ﬁnd uncertiﬁed growers with iden-
+tical values of all elements of Z, however. Rosenbaum and
+Rubin (1983) demonstrate that it is necessary to match agents
+only on the basis of their propensity score, the probability of
+16
+WORLD DEVELOPMENT
+
+treatment (here certiﬁcation) as predicted by a probit regres-
+sion. This prediction can be interpreted as a weighted average
+of the characteristics in Z, where the weights reﬂect the impor-
+tance of each characteristic in explaining treatment. This
+approach collapses the thorny problem of exact matching on
+all observable characteristics to the much simpler problem of
+matching a single summary variable.
+Using this method, we ﬁrst estimate the probability of being
+certiﬁed organic using a probit model. That is, we estimate
+ProbðCi ¼ 1Þ ¼ F ðZiÞ
+ð3Þ
+We use the estimated parameters to generate a propensity
+score for each grower in our sample. Various algorithms are
+available to pair certiﬁed growers with uncertiﬁed growers
+on
+the
+basis
+of
+their
+propensity
+scores
+(Caliendo
+&
+Kopeining, 2008; Morgan & Harding, 2006). To ensure
+robustness, we report results from ﬁve: (i) nearest neighbor
+1-to-1 matching, wherein each certiﬁed grower is matched to
+the uncertiﬁed grower with the closest propensity score; (ii)
+nearest neighbor 1-to-4 matching, wherein each certiﬁed
+grower is matched to the four uncertiﬁed growers with the
+closest propensity scores and the counterfactual outcome is
+the average across these four; (iii) nearest neighbor 1-to-8
+matching; (iv) nearest neighbor 1-to-16 matching; and (v) ker-
+nel matching, wherein a weighted average of all uncertiﬁed
+growers is used to construct the counterfactual outcome.
+Propensity score matching depends on two identifying
+assumptions. The ﬁrst assumption, ‘‘ignorability” or ‘‘condi-
+tional independence,” is that conditional only on agents’
+observed characteristics, the treatment (certiﬁcation) decision
+is ignorable for purposes of measuring outcomes. That is, we
+are able to observe and control for all potentially confounding
+variables that simultaneously aﬀect the treatment decision and
+the outcome variables. This ﬁrst assumption is untestable. The
+second assumption, ‘‘common support” or ‘‘overlap,” is that
+the distribution of observed characteristics for nonparticipants
+is similar to that for participants, such that agents with similar
+characteristics have a positive probability of being participants
+and nonparticipants. For all ﬁve models, we enforce a com-
+mon support and allow matching with replacement.
+The average treatment eﬀect for the treated (ATT) can be
+estimated using cross-sectional data as
+E y1
+itþs  y0
+itþsjC ¼ 1; PðZiÞ
+
+
+¼ E y1
+itþsjC ¼ 1; PðZiÞ
+
+
+ E y0
+itþsjC ¼ 1; PðZiÞ
+
+
+ð4Þ
+where PðZiÞ is the estimated propensity score. That is, ATT is
+simply the diﬀerence between the mean outcomes for the sam-
+ple of certiﬁed growers and a matched sample of uncertiﬁed
+growers selected using propensity scores. A disadvantage of
+this approach, however, is that a violation of the conditional
+independent assumption—that is, the assumption that we have
+controlled for the eﬀects of unobservable confounding fac-
+tors—can bias the results. For example, say the grower’s envi-
+ronmental
+consciousness
+is
+unobservable
+and
+highly
+correlated both with environmental outcomes and with selec-
+tion into certiﬁcation. In that case, ATT estimates may be
+biased upward.
+To control for such unobservables, in addition to simple
+matching we also use a diﬀerence-in-diﬀerences (DID) match-
+ing estimator where our data permit. This estimator, which
+exploits information on changes in outcomes over time as well
+across growers, takes advantage of the fact that we have two-
+period panel data for some (but not all) outcome variables.
+Speciﬁcally, as discussed below, we have panel data for farm
+practice outcome variables, but not for our economic outcome
+variables. DID matching estimators control for time-invariant
+unobserved confounding factors and therefore are more
+robust than simple matching estimators (Smith & Todd,
+2005). The DID matching estimator is deﬁned as
+E Dy1
+itþs  Dy0
+itþsjC ¼ 1; P Zi
+ð
+Þ
+
+
+¼ E Dy1
+itþsjC ¼ 1; PðZiÞ
+
+
+ E Dy0
+itþsjC ¼ 1; PðZiÞ
+
+
+ð5Þ
+where D is the before–after change in outcome. Hence, the
+DID matching estimator considers the diﬀerence between the
+mean before–after change in outcomes for the sample of certi-
+ﬁed growers and a matched sample of uncertiﬁed growers
+selected using propensity scores. Intuitively, this estimator
+indicates whether growers who adopted the organic certiﬁcate
+improve farm practices more than uncertiﬁed growers. 4
+Calculating standard errors for ATT estimated using
+propensity score matching is not straightforward because
+these errors should, in principle, account for the fact that
+propensity scores are estimated and for the imputation of
+the common support (Heckman, Ichimura, & Todd, 1997,
+1998). Therefore, following Dehejia and Wahba (2002) and
+others, we bootstrap standard errors (using 1,000 replica-
+tions).
+4. DATA AND VARIABLES
+(a) Survey and sample
+The data used for our analysis come from an original survey
+of 382 coﬀee growers in ﬁve municipalities in the department
+of Cauca, Colombia. As noted above, we selected this depart-
+ment and these municipalities because they are home to a rel-
+atively large concentration of organic growers. We randomly
+selected our survey sample from lists of coﬀee growers. The
+survey was conducted between March and June 2008. The sur-
+vey questionnaire was administered on-site by trained enumer-
+ators in face-to-face sessions that typically lasted 40 min.
+In conducting our survey, we worked with three main
+grower organizations: Empresa Cooperativa del Sur del Cauca
+(COSURCA),
+Juan
+Tama
+Association,
+and
+Federacio´n
+Nacional de Cafeteros. Each of these organizations has their
+own organic certiﬁcation program and works with a diﬀerent
+certiﬁer. Cosurca works with Institute for Marketecology
+(IMO), Juan Tama Association with by Bio-Latina, and Fed-
+eracio´n de Cafeteros with Organic Crop Improvement Associ-
+ation. As noted above, these programs use similar certiﬁcation
+criteria and procedures.
+The survey solicited information on both grower character-
+istics (e.g., age, education) and farm characteristics (e.g., eco-
+certiﬁcation, hectares cultivated, types of inputs used) for two
+years: 2007 and 1997. 5 All but ﬁve of the organic growers in
+our survey sample were certiﬁed organic after 1997. Hence,
+for all but these ﬁve growers, 1997 grower and farm character-
+istics predate and therefore are exogenous to the decision to
+obtain organic certiﬁcation. 6 As noted below, we dropped
+these ﬁve growers from our regression sample.
+In the analysis of environmental eﬀects, which relies on
+recall data from 1997 as well as more recent data from 2007,
+we solicited and used data on farm practices linked to environ-
+mental outcomes, rather than on the exact amount of agro-
+chemicals and other inputs, because the former are easier to
+remember
+and
+therefore
+less
+susceptible
+to
+recall
+bias
+(Beegle, Carletto, & Himelein, 2012). Among the production
+practices for which we have data, six are monitored by organic
+certiﬁers. Of these farm practice outcome measures, four are
+IS ECO-CERTIFICATION A WIN–WIN FOR DEVELOPING COUNTRY AGRICULTURE? ORGANIC COFFEE
+17
+
+‘‘negative” practices that must be discontinued for organic cer-
+tiﬁcation:
+ use of chemical fertilizers;
+ use of chemical insecticides;
+ use of chemical herbicides; and
+ disposal of sewage in open ﬁelds.
+Two ‘‘positive” practices must be adopted:
+ use of organic fertilizer; and
+ use of shade cover for coﬀee trees.
+In addition to those six practices monitored by organic cer-
+tiﬁers, we included another positive practice that is not:
+ use of coﬀee pulp to fertilize.
+We included this practice because there is some concern that
+the requirement to use organic fertilizer forces growers to buy
+additional organic matter. This seventh practice ﬂags growers
+that use on-farm materials.
+Our survey data include detailed information on six mea-
+sures of the economic outcomes of coﬀee cultivation:
+ labor costs;
+ input costs;
+ total costs;
+ yields;
+ income; and
+ net revenue.
+Starting with the 382 randomly selected growers whom we
+surveyed, we constructed our regression sample as follows.
+First, we eliminated 44 growers who obtained a certiﬁcation
+other than, or in addition to, organic, speciﬁcally, 33 growers
+who were Rainforest Alliance certiﬁed and 11 who were Fair
+Trade certiﬁed. We dropped these growers so that we could
+disentangle the environmental and economic eﬀects of organic
+certiﬁcation from those of other types of certiﬁcation. How-
+ever, as a robustness check, we estimate ATTs using a larger
+sample that also includes growers with those certiﬁcates. Sec-
+ond, we dropped eight growers who were certiﬁed after 1997
+but gave up their certiﬁcations prior to 2007. Third, we
+dropped ﬁve growers who were certiﬁed or transitioning to
+certiﬁcation prior to 1998 to control for the endogeneity prob-
+lem noted above. We dropped these growers because they
+would be counted as uncertiﬁed in our matching sample but
+may have had outcomes or characteristics that were aﬀected
+by having been certiﬁed. Fourth, we dropped 14 growers
+who reported an economic outcome (labor cost, input cost,
+total cost, yield, income, or net return) that was an outlier,
+speciﬁcally, one more than three times the interquartile range
+above the third quartile or below the ﬁrst quartile. We did that
+to avoid ﬁndings that could be driven by the upper or lower
+tail of the distribution. Finally, we dropped 87 growers who
+provided incomplete responses, including 69 who did not pro-
+vide complete responses for 1997 (often because their farms
+were not yet producing coﬀee) and 18 who did not provide
+complete responses about economic outcomes.
+Hence, our regression sample comprises 224 growers, all of
+whom had been producing coﬀee since at least 1997, none of
+whom were certiﬁed as organic in 1997, and none of whom
+had ever obtained an eco-certiﬁcation other than organic. Of
+these 224 growers, 56 were certiﬁed organic in 2007, and 168
+had never been eco-certiﬁed at any time.
+(b) Variables
+Table 1 lists, deﬁnes, and presents descriptive statistics for
+the variables used in our matching analysis, including both
+outcome variables and grower and farm characteristics. We
+present sample means for the entire sample and certiﬁed and
+uncertiﬁed subsamples.
+Our 13 outcome variables correspond to those in the bul-
+leted list in the previous subsection. The seven farm practice
+outcome variables are chemical fertilizer, insecticide, herbicide,
+sewage, organic fertilizer, shade, and pulp. These variables are
+indicator variables that take the value of one for the use of
+that practice and takes the value of zero otherwise. The six
+economic outcome variables are labor cost, input cost, total
+cost, yield, income, and net revenue per hectare per year. Labor
+cost is estimated by summing the cost of hired and family
+labor. Family labor is valued at the market wage. Input cost
+is estimated using input prices and quantities reported by the
+producer. Total cost is the sum of labor cost and input cost.
+It considers only the variable cost and not the ﬁxed cost of
+planting of a new hectare of coﬀee. Income comprises the
+income from selling coﬀee at the market price, plus additional
+income from price premiums or bonuses. Net return is the dif-
+ference between income and total production cost.
+To match certiﬁed and uncertiﬁed growers, we used propen-
+sity scores generated by regressing an organic certiﬁcation
+dummy onto a rich set of grower and farm characteristics.
+The grower characteristics are female, a dichotomous dummy
+equal to one for female growers; age, the age of the grower in
+2007; education, the highest grade completed in 2007; family
+size, the size of the family in 2007; and cooperative, a dichoto-
+mous dummy equal to one if the grower was a member of a
+coﬀee committee aﬃliated with the Federacio´n Nacional de
+Cafeteros de Colombia in 1997. 7
+The farm characteristics, all of which correspond to the year
+1997, are own farm, a dichotomous dummy equal to one if the
+grower owns (versus rents or leases) the farm 8; farm size, the
+total area of the farm in hectares; area coﬀee, the size of all
+coﬀee lots in 1997, no. lots, the number of geographically dis-
+tinct lots on the farm; organic matter, an estimate of the num-
+ber of kilograms of manure produced by all animals on the
+farm 9; capital index, a count of the number of common capital
+items owned (depulper, mill, silo, fumigator, motor, other);
+Borbon, Caturra, Colombia, and Castillo, the proportions of
+the farm’s coﬀee trees that are the most common varieties in
+the study area; pasilla, federacion, especial, and calidad, the
+proportions of coﬀee sold in the four quality grades of Colom-
+bian coﬀee; transport with vehicle, a dichotomous dummy
+equal to one if the grower transports the coﬀee by vehicle (ver-
+sus by animal or on foot); proportion on farm and proportion
+oﬀfarm, the proportions of household members who work
+on and oﬀthe farm; and Inza´, Cajibı´o, Tambo, Timbı´o, and
+Sierra, dichotomous dummy variables indicating in which of
+the ﬁve study municipalities the farm is located.
+(c) Descriptive statistics
+There was signiﬁcant variation across growers in precertiﬁ-
+cation (1997) use of the seven farm practices. For the four neg-
+ative practices, rates range from 4% for herbicide to 51% for
+chemical fertilizer. For the positive practices, rates range from
+21% for organic fertilizer to 91% for shade cover. In 1997, for
+two of the seven farm practices, growers who went on to
+obtain organic certiﬁcation in subsequent years performed
+‘‘better” than those who were never certiﬁed: they were signif-
+icantly less likely to use chemical fertilizer and more likely to
+use organic fertilizer. Hence, it is reasonable to expect that a
+disproportionate share of growers who in 1997 were de facto
+organic—that
+is,
+those
+already
+meeting
+many
+organic
+standards—self-selected into organic certiﬁcation, and as a
+18
+WORLD DEVELOPMENT
+
+result certiﬁcation had only limited additional inﬂuence on the
+use of cleaner technologies for the average grower in our sam-
+ple. Our empirical analysis aims at determining whether that
+was the case.
+Note that all of the means of the negative farm practice out-
+come variables for growers who were certiﬁed by 2007 are pos-
+itive, albeit small, implying that a handful of the 52 certiﬁed
+growers in our sample used chemical inputs or disposed of
+their sewage in their ﬁelds in 2007. 10 Similarly, the means of
+the positive farm practice outcome variables for certiﬁed farm-
+ers all are less than one, implying that some of the certiﬁed
+growers in our sample had not adopted the environmental
+Table 1. Variables, deﬁnitions, means, and diﬀerence-in-means tests
+Variable
+Deﬁnition
+1997
+2007
+Mean uncert07
+(n = 168)
+Mean cert07
+(n = 56)
+Mean all
+(n = 224)
+Mean uncert07
+(n = 168)
+Mean cert07
+(n = 56)
+Mean all
+(n = 224)
+TREATMENT
+Certiﬁed
+Certiﬁed organic(0/1)
+0.00
+0.00
+0.00
+1.00
+0.25
+OUTCOMES
+Negative farm practices
+Chemical fertilizer
+Applies chemical fertilizer (0/1)
+0.51
+0.23***
+0.44
+0.45
+0.09***
+0.36
+Insecticide
+Applies insecticide (0/1)
+0.20
+0.13
+0.19
+0.16
+0.02**
+0.12
+Herbicide
+Applies herbicide (0/1)
+0.04
+0.04
+0.04
+0.13
+0.07
+0.11
+Sewage
+Disposes of sewage in ﬁeld (0/1)
+0.47
+0.48
+0.48
+0.32
+0.14*
+0.27
+Positive farm practices
+Organic fertilizer
+Applies organic fertilizer (0/1)
+0.21
+0.39***
+0.26
+0.42
+0.88***
+0.54
+Shade
+Uses shade (0/1)
+0.91
+0.91
+0.91
+0.96
+0.96
+0.96
+Pulp
+Uses pulp to fertilize (0/1)
+0.55
+0.46
+0.53
+0.80
+0.96**
+0.84
+Economic eﬀects
+Labor cost
+Total cost wages (000 COP)
+819.53
+684.91
+785.87
+Input cost
+Total cost inputs (000 COP)
+304.53
+97.73***
+252.83
+Total cost
+Total production cost (000 COP)
+1,124.06
+782.64*
+1,038.70
+Yield
+Number of arrobas per hectare
+37.48
+24.52**
+34.24
+Income
+Total income from coﬀee (000 COP)
+1792.63
+1,415.82
+1,698.42
+Net revenue
+Net revenue from coﬀee (000 COP)
+668.57
+633.18
+659.72
+CONTROLS
+Grower
+Female
+Female (0/1)
+0.29
+0.21
+0.27
+Age
+Age (years)
+50.77
+51.88
+51.05
+Education
+Highest grade completed
+3.68
+4.05
+3.77
+Family size
+Total persons in family
+4.88
+5.27
+4.97
+Cooperative
+Member coﬀee cooperative (0/1)
+0.33
+0.21
+0.30
+Farm
+Farm owner
+Own (vs. rent/lease) farm (0/1)
+0.92
+0.93
+0.92
+Farm size
+Farm size (ha)
+2.05
+2.38
+2.13
+Area coﬀee
+Area cultivated in coﬀee (ha)
+1.27
+1.53
+1.33
+No. lots
+No. lots farm comprises
+1.51
+1.84*
+1.59
+Organic matter
+Organic material available (000 kg)
+2.61
+3.53
+2.84
+Capital index
+No. capital items owned (1–6)a
+1.00
+1.14
+1.04
+Borbon
+Prop. coﬀee trees Borbon variety
+0.03
+0.09*
+0.04
+Caturra
+Prop. coﬀee trees Caturra variety
+0.56
+0.47
+0.53
+Colombia
+Prop. coﬀee trees Colombia variety
+0.09
+0.12
+0.10
+Castillo
+Prop. coﬀee trees Castillo variety
+0.01
+0.01
+0.01
+Pasilla
+Prop. coﬀee sales Pasilla grade
+0.11
+0.58*
+0.23
+Federacion
+Prop. coﬀee sales federacion grade
+0.90
+0.56
+0.82
+Especial
+Prop. coﬀee sales especial grade
+0.01
+0.01
+0.01
+Calidad
+Prop. coﬀee sales calidad grade
+0.05
+0.27***
+0.10
+Transport wt vehicle
+Transp. to market w/ vehicle (0/1)
+0.69
+0.64
+0.68
+Proportion on farm
+prop. household works on farm
+0.58
+0.56
+0.58
+Proportion oﬀfarm
+Prop. household works oﬀfarm
+0.20
+0.19
+0.20
+Inza´
+Municipality Inza´ (0/1)
+0.31
+0.55***
+0.37
+Cajibı´o
+Municipality Cajibı´o (0/1)
+0.20
+0.05*
+0.16
+Tambo
+Municipality Tambo (0/1)
+0.16
+0.14
+0.16
+Timbı´o
+Municipality Timbı´o (0/1)
+0.18
+0.02**
+0.14
+Sierra
+Municipality La Sierra (0/1)
+0.16
+0.23
+0.17
+Cert07 refers to growers who were certiﬁed as organic in 1997–2007. Uncert07 refers to growers who were not certiﬁed as organic in the period. Prop.
+stands for proportion.
+a Capital items are depulper, mill, silo, fumigator, motor, and other.
+IS ECO-CERTIFICATION A WIN–WIN FOR DEVELOPING COUNTRY AGRICULTURE? ORGANIC COFFEE
+19
+
+management practices we consider. There are two reasons why
+certiﬁed organic farmers may not meet all certiﬁcation criteria.
+First, certiﬁcation rules permit the occasional use of chemical
+inputs and other deviations in certain cases. 11 Second, grow-
+ers may fail to conform with certiﬁcation standards. Certifying
+bodies directly inspect 20% of certiﬁed farms; within the
+grower cooperatives, the peer control system inspects 100%
+of certiﬁed growers. Both certifying bodies and cooperatives
+recognize that this system does not guarantee perfect confor-
+mance. For example, a report from a certifying body working
+in our study area reported a 7% nonconformance rate among
+the one-ﬁfth of the sample inspected and a cooperative
+reported a 5% rate (Biolatina, 2006).
+For both certiﬁed growers (i.e., those certiﬁed by 2007) and
+uncertiﬁed growers, mean use of most negative farm practices
+fell during 1997–2007, and mean use of all positive farm prac-
+tices rose. The statistical analysis aims to establish whether the
+eﬀect was signiﬁcantly larger for certiﬁed producers once we
+control for potential self-selection.
+Among our seven farm practice outcome variables, in ﬁve
+cases we observe signiﬁcant diﬀerences in 2007 means for
+certiﬁed and uncertiﬁed growers. Means for three of our
+six economic variables are signiﬁcantly lower for certiﬁed
+growers than for uncertiﬁed growers. Speciﬁcally, mean
+input costs for certiﬁed growers are about 40% that for
+uncertiﬁed growers, and total production costs per hectare
+are about 75%. Surprisingly, even though organic technolo-
+gies are generally thought to be relatively labor intensive,
+labor costs for certiﬁed and uncertiﬁed growers are not sta-
+tistically diﬀerent. Mean yield per hectare for certiﬁed grow-
+ers is about 70% that for uncertiﬁed growers, a signiﬁcant
+diﬀerence. Mean income for certiﬁed growers is not signiﬁ-
+cantly diﬀerent from that for uncertiﬁed growers. Finally,
+mean net revenues for certiﬁed and uncertiﬁed growers are
+not statistically diﬀerent.
+As for our control variables, our sample of growers is com-
+posed of small-scale growers with relatively low socioeco-
+nomic status. The average 1997 farm size in our sample was
+two hectares, and the average 2007 coﬀee net revenue per hec-
+tare was 668,000 Colombian pesos (US$267). The average
+grower had 3.7 years of school in 1997.
+There are signiﬁcant diﬀerences in the precertiﬁcation (1997)
+means of six control variables for certiﬁed and uncertiﬁed
+growers. Compared with uncertiﬁed growers, certiﬁed growers
+were more likely to have had farms comprising multiple lots,
+to have grown the Borbon variety of coﬀee, to have produced
+high-quality coﬀee, and to have lived in certain municipalities
+and not others. These preexisting characteristics are likely to
+aﬀect our outcomes. Hence, it is important to control for them
+in estimating our treatment eﬀects.
+5. RESULTS
+(a) Propensity scores and balance tests
+Table 2 presents the marginal eﬀects from the probit regres-
+sion (of organic certiﬁcation on grower and farm characteris-
+tics) used to generate propensity scores. The results indicate
+that, all other things equal, certiﬁed growers are more likely
+to have more individual coﬀee plots, to have grown the
+Borbon and Colombia coﬀee varieties, and to have sold
+calidad-grade coﬀee, and they are less likely to be located in
+Cajibı´o or Timbı´o than in Tambo.
+We used propensity scores from our Probit regression to
+match certiﬁed organic producers with uncertiﬁed producers.
+Table 3 presents the balance test for the ﬁve matching estima-
+tors used. All the estimators balanced all 26 covariates
+included in the model; that is, they generated a statistically
+insigniﬁcant diﬀerence in means for certiﬁed and matched
+uncertiﬁed
+farms
+for
+all
+26
+covariates.
+Following
+Rosenbaum and Rubin (1983), we also used median standard-
+ized bias to measure matching quality. 12 The highest median
+standardized bias is 12.8% for the nearest neighbor 1–1 estima-
+tor, and the lowest is 3.8% for the nearest neighbor 1–16 esti-
+mator. Although a clear threshold for acceptable median
+standardized bias does not exist, according to Caliendo and
+Kopeining (2008), a statistic below 3–5% is generally viewed
+as suﬃcient. These reasonable balance statistics are likely
+due to the fact that even though our probit selection model
+has 26 covariates, our sample includes more than three uncer-
+tiﬁed growers for each certiﬁed grower. As a result, we were
+able to ﬁnd fairly close matches for each certiﬁed farm.
+(b) Average treatment eﬀect on the treated
+We ﬁrst discuss farm practice outcomes and then examine
+economic outcomes. Table 4 presents results for the four neg-
+ative farm practices. Results are from ﬁve standard matching
+estimators (Eqn. 4) and from the DID estimator (Eqn. 5).
+The standard matching estimators indicate that certiﬁcation
+has positive additional eﬀects, reducing the use of three of
+the four negative practices: chemical fertilizer, chemical insec-
+ticides, and sewage disposal in ﬁelds. For each ATT, at least
+Table 2. Probit regression results (dependent variable = organic
+certiﬁcation)
+Variable
+Marginal eﬀect
+S.E.
+Grower
+Female
+0.008
+0.063
+Age
+0.001
+0.002
+Education
+0.015
+0.013
+Family size
+0.020
+0.013
+Cooperative
+0.068
+0.059
+Farm
+Area coﬀee 97
+0.000
+0.026
+Farm owner
+0.093
+0.094
+Farm size
+0.003
+0.014
+No. lots
+0.077***
+0.027
+Organic matter
+0.000
+0.000
+Capital index
+0.007
+0.026
+Borbon
+0.308**
+0.131
+Caturra
+0.092
+0.070
+Colombia
+0.179*
+0.104
+Castillo
+0.019
+0.348
+Pasilla
+0.078
+0.064
+Federacion
+0.008
+0.021
+Especial
+0.083
+0.270
+Calidad
+0.336***
+0.080
+Transport with vehicle
+0.021
+0.056
+Prop. on farm
+0.020
+0.057
+Prop. oﬀfarm
+0.003
+0.064
+Inza´
+0.037
+0.084
+Cajibı´o
+0.263**
+0.116
+Timbı´o
+0.351***
+0.132
+Sierra
+0.032
+0.087
+N
+224
+Pseudo R2
+0.268
+LR chi2(28)
+67.530
+*, **, *** signiﬁcant at 10%, 5%, and 1% level, respectively.
+20
+WORLD DEVELOPMENT
+
+four of the ﬁve standard matching estimators (nearest neigh-
+bor 1–1 and so forth) are negative and signiﬁcant. The results
+suggest that the positive eﬀects of certiﬁcation are not only due
+to self-selection of more environmentally friendly producers.
+The adoption of the certiﬁcation is associated with a reduction
+in the use of chemical fertilizer by 39–40 percentage points,
+chemical insecticides by 12–17 percentage points, and sewage
+disposal in ﬁelds by 18–22 percentage points. Qualitative
+results from the DID matching estimators comport with those
+from the standard matching estimators only in the case of sew-
+age disposal in the ﬁeld. The DID suggests that certiﬁcation
+reduces sewage disposal in ﬁelds by 18 percentage points.
+Given the discrepancy between our matching and matched
+DID results, our results for chemical fertilizer and insecticide
+must be interpreted with caution.
+Table 5 presents results for the three positive practices. They
+suggest that certiﬁcation increases use of organic fertilizer and
+pulp fertilizer. For organic fertilizer, all ﬁve standard matching
+ATTs are positive and statistically signiﬁcant. The magnitude
+of the eﬀect is substantial, ranging from 45 to 53 percent-
+age points. The DID ATT is 27 percentage points. For the
+use of pulp fertilizer, all ﬁve standard matching ATTs are pos-
+itive and statistically signiﬁcant suggesting that certiﬁcation
+boosts the practice by 21–32 percentage points. The DID esti-
+mator indicates a 25 percentage point increase. For shade,
+none of the simple matching ATTs or the DID estimator is
+statistically signiﬁcant. This is not surprising, given that 95%
+of the matching sample used shade in 1997.
+Table 6 presents results for the economic eﬀects of certiﬁca-
+tion. As noted above, for these outcome variables, we are not
+able to use a DID estimator because we do not have 1997 data.
+The results suggest that organic certiﬁcation decreases the
+input costs and yields but does not have a signiﬁcant eﬀect
+on labor costs, total costs, income or net return. For input
+Table 3. Matching quality: covariates achieving balance (N) and median standardized bias (SB) after matching, for ﬁve propensity score matching
+methodsa,b,c
+Method
+N
+SB
+R2
+Treated
+Controls
+(i) Nearest neighbor 1–1
+26
+12.8
+31.4
+56
+168
+(ii) Nearest neighbor 1–4
+26
+5.9
+5.0
+56
+168
+(iii) Nearest neighbor 1–8
+26
+5.5
+4.8
+56
+168
+(iv) Nearest neighbor 1–16
+26
+3.8
+3.6
+56
+168
+(v) Kernel
+26
+5.5
+4.1
+56
+168
+a The model includes 26 covariates.
+b For a given covariate, the standardized bias (SB) is the diﬀerence of means in the certiﬁed and matched uncertiﬁed subsamples as a percentage of the
+square root of the average sample variance in both groups. We report the median SB for all covariates.
+c Median SB before matching is 18.3.
+Table 4. Negative farm practices: average treatment eﬀect on treated (ATT) estimates, by outcome variable and matching method; critical value of
+Rosenbaum’s C
+Propensity score matching
+DID matched
+Mean Certiﬁed
+ATT
+S.E.a
+C*b
+Coef.
+S.E.a
+Chemical fertilizer
+(i) Nearest neighbor 1–1
+0.085
+0.404***
+0.125
+>3.00
+(ii) Nearest neighbor 1–4
+0.085
+0.378***
+0.097
+>3.00
+(iii) Nearest neighbor 1–8
+0.085
+0.388***
+0.086
+>3.00
+(iv) Nearest neighbor 1–16
+0.085
+0.396***
+0.078
+>3.00
+(v) Kernel
+0.085
+0.388***
+0.084
+>3.00
+0.074
+0.087
+Insecticide
+(i) Nearest neighbor 1–1
+0.021
+0.170**
+0.075
+>3.00
+(ii) Nearest neighbor 1–4
+0.021
+0.122**
+0.060
+>3.00
+(iii) Nearest neighbor 1–8
+0.021
+0.130**
+0.052
+>3.00
+(iv) Nearest neighbor 1–16
+0.021
+0.173***
+0.055
+>3.00
+(v) Kernel
+0.021
+0.128***
+0.047
+>3.00
+0.056
+0.061
+Herbicide
+(i) Nearest neighbor 1–1
+0.085
+0.043
+0.066
+–
+(ii) Nearest neighbor 1–4
+0.085
+0.005
+0.064
+–
+(iii) Nearest neighbor 1–8
+0.085
+0.003
+0.057
+–
+(iv) Nearest neighbor 1–16
+0.085
+0.025
+0.056
+–
+(v) Kernel
+0.085
+0.013
+0.052
+–
+0.047
+0.054
+Sewage
+(i) Nearest neighbor 1–1
+0.170
+0.149
+0.114
+–
+(ii) Nearest neighbor 1–4
+0.170
+0.181*
+0.096
+>3.00
+(iii) Nearest neighbor 1–8
+0.170
+0.194**
+0.085
+>3.00
+(iv) Nearest neighbor 1–16
+0.170
+0.221***
+0.084
+>3.00
+(v) Kernel
+0.170
+0.178**
+0.084
+>3.00
+0.179*
+0.098
+*, **, *** signiﬁcant at 10%, 5%, and 1% level, respectively.
+a Standard Errors computed using bootstrap with 1,000 repetitions.
+b Critical value of odds of diﬀerential assignment to organic certiﬁcation due to unobserved factors (i.e., value above which ATT is no longer signiﬁcant).
+IS ECO-CERTIFICATION A WIN–WIN FOR DEVELOPING COUNTRY AGRICULTURE? ORGANIC COFFEE
+21
+
+costs, ATT is both negative and signiﬁcant for four of the ﬁve
+matching estimators. The magnitude is substantial, ranging
+from 194,000 to 249,000 pesos per hectare. 13 For yield,
+ATT is both negative and signiﬁcant for three of the ﬁve esti-
+mators. Certiﬁed producers produce 31–36% less than uncerti-
+ﬁed producers. The insigniﬁcance of ATTs for income and net
+return probably reﬂects the fact that lower yields associated
+with certiﬁcation are oﬀset by lower input costs and poten-
+tially by higher price premiums. Given these results, it is clear
+that because of the prices and other conditions that existed in
+Cauca during our study period, economic incentives for certi-
+ﬁcation were limited.
+(c) Sensitivity analysis
+Might endogeneity drive our results? As noted above, the
+eﬀectiveness of our matching estimators in controlling for
+selection bias depends on the untestable identifying assump-
+tion that we are able to observe confounding variables that
+simultaneously aﬀect growers’ decisions to obtain organic cer-
+tiﬁcation and our outcome variables. That is, we essentially
+assume endogeneity is not a problem. We calculate Rosen-
+baum bounds to check the sensitivity of our results to the fail-
+ure of this assumption (Aakvik, 2001; Rosenbaum, 2002). 14
+Rosenbaum bounds indicate how strongly unobserved con-
+founding factors would need to inﬂuence growers’ decisions
+about obtaining organic certiﬁcation to undermine the match-
+ing result. To be more speciﬁc, the Rosenbaum procedure gen-
+erates a probability value for Wilcoxon sign-rank statistic (in
+the case of continuous variables) or a Mantel and Haenszel
+statistic (in the case of binary variables) for a series of values
+of C, an index of the strength of the inﬂuence that unobserved
+confounding factors have on the selection process. C = 1
+implies that confounding factors have no inﬂuence, such that
+pairs of growers matched on observables do not diﬀer in their
+odds of obtaining organic certiﬁcation; C = 2 implies that
+matched pairs could diﬀer in their odds of certiﬁcation by as
+much as a factor of 2 because of unobserved confounding fac-
+tors; and so forth. The probability value on the Wilcoxon sign-
+rank or Mantel and Haenszel statistic is a test of the null
+hypothesis of a zero ATT given unobserved confounding vari-
+ables that have an eﬀect given by C. So, for example, a prob-
+ability value of 0.01 and a C of 1.2 indicate that ATT would
+still be signiﬁcant at the 1% level even if matched pairs diﬀered
+in their odds of certiﬁcation by a factor of 1.2 because of
+unobserved confounding factors.
+We calculate C*, the critical value of C at which ATT is no
+longer signiﬁcant at the 10% level, in each case—that is, for
+each combination of outcome variables and matching estima-
+tor—where ATT is signiﬁcant (Tables 4–6, column 4). Among
+the negative farm practices, C* is greater than 3 in the case of
+all 15 estimators for chemical fertilizer use, insecticide, and
+sewage disposal in ﬁelds. Among the positive practices, C* is
+greater than 3 in the case of all ﬁve estimators for organic fer-
+tilizer and is no lower than 2.66 in the case of pulp fertilizer.
+For economic eﬀects, C* is larger than 3 for all nine statisti-
+cally signiﬁcant estimators (ﬁve for input costs, one for total
+cost, and three for yield). Hence, our sensitivity tests suggest
+that unobserved confounders would need to be quite strong
+to undermine our statistically signiﬁcant matching ATTs. In
+other words, endogeneity is unlikely to drive these results.
+(d) Robustness check
+As previously discussed, to disentangle the eﬀects of organic
+certiﬁcation from those of other types of certiﬁcation, we elim-
+inated from our study sample 44 growers who obtained Rain-
+forest Alliance or Fair Trade certiﬁcation in addition to
+organic certiﬁcation. However, one might argue that neither
+Rainforest Alliance nor Fair Trade certiﬁcation is likely to
+aﬀect environmental outcomes because Rainforest Alliance
+environmental criteria are generally less stringent than organic
+and because Fair Trade criteria are mostly economic. There-
+fore, as a robustness check, we estimated environmental ATTs
+using a larger sample (n = 251 versus n = 224) that includes
+the certiﬁed organic growers among farmers with Fair Trade
+Table 5. Positive farm practices: Average treatment eﬀect on treated (ATT) estimates, by outcome variable and matching method; critical value of
+Rosenbaum’s C
+Propensity score matching
+DID matched
+Mean certiﬁed
+ATT
+S.E.a
+C*b
+Coef.
+S.E.a
+Organic fertilizer
+(i) Nearest neighbor 1–1
+0.872
+0.532***
+0.122
+>3.00
+(ii) Nearest neighbor 1–4
+0.872
+0.463***
+0.098
+>3.00
+(iii) Nearest neighbor 1–8
+0.872
+0.465***
+0.092
+>3.00
+(iv) Nearest neighbor 1–16
+0.872
+0.465***
+0.083
+>3.00
+(v) Kernel
+0.872
+0.451***
+0.091
+>3.00
+0.266***
+0.095
+Shade
+(i) Nearest neighbor 1–1
+0.957
+0.064
+0.092
+–
+(ii) Nearest neighbor 1–4
+0.957
+0.048
+0.065
+–
+(iii) Nearest neighbor 1–8
+0.957
+0.008
+0.045
+–
+(iv) Nearest neighbor 1–16
+0.957
+0.003
+0.042
+–
+(v) Kernel
+0.957
+0.051
+0.064
+–
+0.004
+0.051
+Pulp fertilizer
+(i) Nearest neighbor 1–1
+0.979
+0.319***
+0.112
+>3.00
+(ii) Nearest neighbor 1–4
+0.979
+0.250***
+0.078
+>3.00
+(iii) Nearest neighbor 1–8
+0.979
+0.210***
+0.062
+>3.00
+(iv) Nearest neighbor 1–16
+0.979
+0.219***
+0.057
+>3.00
+(v) Kernel
+0.979
+0.225***
+0.071
+2.66
+0.245***
+0.089
+*, **, *** signiﬁcant at 10%, 5%, and 1% level, respectively.
+a Standard errors computed using bootstrap with 1,000 repetitions.
+b Critical value of odds of diﬀerential assignment to organic certiﬁcation due to unobserved factors (i.e., value above which ATT is no longer signiﬁcant).
+22
+WORLD DEVELOPMENT
+
+or Rainforest Alliance certiﬁcations. 15 The results, which are
+reported in the Appendix, are qualitatively identical and q very
+similar to those detailed above (Tables A1 and A2). At least
+three ATTs from cross-sectional matching models for chemi-
+cal fertilizers, insecticides, disposal of sewage in the ﬁeld,
+organic fertilizer, and pulp fertilizer are statistically signiﬁcant,
+and ATTs from DID models for disposal of sewage in ﬁelds,
+organic fertilizer, and pulp fertilizer are statistically signiﬁcant.
+The economic eﬀects of organic certiﬁcation are also similar to
+the ones obtained with a smaller sample. At least three ATTs
+from cross-sectional matching models for input cost, total
+cost, and yield are statistically signiﬁcant.
+As explained earlier in Section 4, we dropped from our
+regression sample observations where economic outcomes
+(labor cost, input cost, total cost, yield, income, or net return)
+were more than three times the interquartile range above the
+third quartile or below the ﬁrst quartile. We did that to avoid
+ﬁndings that could be driven by the upper or lower tail of the
+distribution. As a robustness check, we relax this restriction
+and estimate the model with a larger sample of 236 observa-
+tions. We include this test to show that dropping or keeping
+these economic outlier observations does not aﬀect our results
+for farm practices. The results for both our cross-sectional and
+DID models, which are presented in the Appendix (Tables A3
+and A4), are qualitatively and quantitatively very similar to
+those for our main modes. We expect at least some results
+for economic eﬀects to be diﬀerent when economic outliers
+are included, and indeed, we ﬁnd that is the case. Overall qual-
+itative results are quite similar—certiﬁcation aﬀects input costs
+and yields—but point estimates and signiﬁcance levels diﬀer.
+6. DISCUSSION
+In considering the implications of our results, it is important
+to keep in mind that our analysis has several limitations. First,
+we do not have data on environmental outcomes such as water
+quality, soil quality, and biodiversity. Therefore, we use as
+proxies data on farm practices linked to such outcomes. This
+linkage is stronger in some cases than in others. Reductions
+Table 6. Economic eﬀects: average treatment eﬀect on treated (ATT) estimates, by outcome variable and matching method; critical value of Rosenbaum’s C
+Mean certiﬁed
+Propensity score matching
+ATT
+S.E.a
+C*b
+Labor cost (000 COP)
+(i) Nearest neighbor 1–1
+704.156
+109.469
+146.260
+–
+(ii) Nearest neighbor 1–4
+704.156
+90.188
+133.629
+–
+(iii) Nearest neighbor 1–8
+704.156
+9.041
+112.643
+–
+(iv) Nearest neighbor 1–16
+704.156
+9.575
+94.712
+–
+(v) Kernel
+704.156
+97.151
+119.315
+–
+Input cost (000 COP)
+(i) Nearest neighbor 1–1
+102.757
+199.180*
+107.959
+>3.00
+(ii) Nearest neighbor 1–4
+102.757
+225.076***
+81.164
+>3.00
+(iii) Nearest neighbor 1–8
+102.757
+194.276***
+69.707
+>3.00
+(iv) Nearest neighbor 1–16
+102.757
+197.023***
+54.213
+>3.00
+(v) Kernel
+102.757
+249.309***
+82.148
+>3.00
+Total Cost (000 COP)
+(i) Nearest neighbor 1–1
+806.913
+308.649
+223.934
+–
+(ii) Nearest neighbor 1–4
+806.913
+315.264
+197.837
+–
+(iii) Nearest neighbor 1–8
+806.913
+203.317
+155.264
+–
+(iv) Nearest neighbor 1–16
+806.913
+187.447
+135.650
+–
+(v) Kernel
+806.913
+346.460*
+184.805
+>3.00
+Yield
+(i) Nearest neighbor 1–1
+24.301
+12.596
+8.365
+–
+(ii) Nearest neighbor 1–4
+24.301
+13.432*
+7.102
+>3.00
+(iii) Nearest neighbor 1–8
+24.301
+11.126*
+6.060
+>3.00
+(iv) Nearest neighbor 1–16
+24.301
+7.937
+5.186
+–
+(v) Kernel
+24.301
+14.110**
+7.142
+>3.00
+Income (000 COP)
+(i) Nearest neighbor 1–1
+1,400.205
+352.142
+405.015
+–
+(ii) Nearest neighbor 1–4
+1,400.205
+371.151
+358.889
+–
+(iii) Nearest neighbor 1–8
+1,400.205
+273.220
+317.806
+–
+(iv) Nearest neighbor 1–16
+1,400.205
+141.407
+296.460
+–
+(v) Kernel
+1,400.205
+409.897
+339.152
+–
+Net return (000 COP)
+(i) Nearest neighbor 1–1
+593.292
+43.493
+257.260
+–
+(ii) Nearest neighbor 1–4
+593.292
+55.886
+237.850
+–
+(iii) Nearest neighbor 1–8
+593.292
+69.902
+230.542
+–
+(iv) Nearest neighbor 1–16
+593.292
+46.040
+220.933
+–
+(v) Kernel
+593.292
+63.437
+226.866
+
+*, **, *** signiﬁcant at 10%, 5%, and 1% level, respectively.
+a Standard Errors computed using bootstrap with 1,000 repetitions.
+b Critical value of odds of diﬀerential assignment to organic certiﬁcation due to unobserved factors (i.e., value above which ATT is no longer signiﬁcant).
+IS ECO-CERTIFICATION A WIN–WIN FOR DEVELOPING COUNTRY AGRICULTURE? ORGANIC COFFEE
+23
+
+in the use of insecticides, herbicides, and disposal of sewage in
+the ﬁelds are likely to improve water and soil quality
+(Robinson & Mansingh, 1999; Soares, Lea˜o, Vianna Neto,
+& Oliveira, 2012) and increased shade is likely to enhance bio-
+diversity and reduce soil erosion and nitrogen leaching
+(Ataroﬀ& Monasterio, 1997; Greenberg et al., 1997). How-
+ever, the environmental eﬀect of replacing chemical fertilizers
+with organic ones depends on the types and amounts of fertil-
+izers used. Like chemical fertilizers, organic fertilizers can
+degrade water and soil quality. For example, poultry manure
+is associated with water pollution and can increase the concen-
+tration of heavy metals in soil (Gao et al., 2006; Pell, 1997). A
+back-of-the envelope calculation indicates that given the types
+and amounts of chemical and organic fertilizers used by the
+growers in our sample, switching from chemical fertilizers to
+organic ones is likely to reduce nitrogen, phosphorus, and
+potassium used per hectare, but may increase calcium oxide
+use. 16
+Adding to the uncertainty about the net environmental
+eﬀects of the farm practices associated with organic certiﬁca-
+tion is their eﬀect on forest cover. In principle, these practices
+could exacerbate forest degradation and/or clearing in several
+ways. First, if organic fertilizers are less eﬀective than chemical
+ones in boosting yields, growers may compensate by expanding
+the area planted in coﬀee at the expense of nearby forests. Sec-
+ond, if yields from organic farms are relatively low and rates of
+certiﬁcation are suﬃciently high, then certiﬁcation could in the-
+ory reduce the local supply of coﬀee and raise coﬀee prices.
+That, in turn, could create an economic incentive for forest
+clearing and degradation to plant more coﬀee. Alternatively,
+price premiums for certiﬁed organic coﬀee could in principle
+create an economic incentive for conversion of forest to coﬀee
+production (Rappole, King, & Vega Rivera, 2003; Tejeda-
+Cruz, Silva-Rivera, Barton, & Sutherland, 2010; Zwane, 2007).
+A second limitation of our study is that it relies on self-
+reported data on environmental outcomes, speciﬁcally, farm
+practices associated with organic certiﬁcation. Certiﬁed survey
+respondents may have a tendency to strategically report prac-
+tices—both for 2007 and for 1997—that meet certiﬁcation cri-
+teria, whether or not they actually used these practices. That
+phenomenon would have diﬀerent eﬀects on our cross-
+sectional matching and DID results. It would overstate diﬀer-
+ences in average 2007 outcomes between certiﬁed and uncerti-
+ﬁed growers, thereby biasing our cross-sectional matching
+ATTs upward. However, it would understate before–after
+(1997–2007) diﬀerences in outcomes for certiﬁed growers,
+thereby biasing our DID ATTs downward. Unfortunately,
+we do not have third-party data that could help us determine
+whether self-reporting bias is an issue in our sample.
+A third limitation of our study is that it relies on recall data;
+our survey solicited information on grower characteristics and
+environmental outcomes for the most recent completed har-
+vest cycle (2007) and for the cycle 10 years earlier (1997).
+Growers may misremember information from 10 years earlier,
+which could bias results, particularly if the information con-
+cerns environmental and economic outcomes. To minimize
+this risk, we use as environmental outcomes simple 0/1 indica-
+tors of whether growers used important farm practices such as
+organic fertilizers, shade, and disposal of sewage in ﬁelds. Such
+‘‘salient” information is relatively easy to remember and less
+susceptible to recall bias than information about quantities
+of farm inputs (Beegle et al., 2012). It is worth emphasizing
+that we do not ask for or use 1997 data on economic outcomes
+(labor, yields, income, etc.). Unfortunately, we do not have
+contemporaneous reported 1997 data needed to determine
+the reliability of our recall data.
+Fourth, we estimate average treatment eﬀects for growers
+who were certiﬁed within the last two years of the study period
+and for those who were certiﬁed up to 10 years earlier. In prin-
+ciple, eﬀects of certiﬁcation may be diﬀerent for these two sub-
+groups. Unfortunately, however, our sample size (56 certiﬁed
+growers) is not large enough to enable us to estimate subgroup
+eﬀects. For similar reasons we cannot disentangle the eﬀect of
+certiﬁcation by the diﬀerent certifying bodies.
+Finally, we do not control for the spillover eﬀects that certi-
+ﬁcation may have had on uncertiﬁed growers’ outcomes. In
+particular, the adoption of certain practices by certiﬁed grow-
+ers may spur adoption by uncertiﬁed ones. Such eﬀects can
+occur when uncertiﬁed growers learn about the private beneﬁts
+of adoption (e.g., lower input costs) from certiﬁed growers in
+their social networks (Angelucci & Di Maro, 2015; Weber,
+2012). Such eﬀects would tend to bias our ATTs downward
+by reducing average diﬀerences between treated and control
+groups.
+7. CONCLUSION
+We have used rich original survey data on 224 coﬀee farms
+in southeastern Colombia to identify the eﬀects of organic cof-
+fee certiﬁcation on farm practices and economic indicators.
+We have used propensity score matching and DID estimators
+to control for self-selection bias.
+Our ﬁndings strongly suggest that certiﬁcation has signiﬁ-
+cant additional eﬀects on the adoption of farm practices that
+are associated with positive environmental outcomes. It
+reduces the use of one of the negative practices for which we
+have data (disposal of sewage in ﬁelds) and increases the use
+of two of the three positive practices for which we have data
+(use of organic fertilizer and pulp fertilizer). In each case,
+our conventional matching estimators and DID matching esti-
+mator generate a positive and signiﬁcant ATT that is robust to
+Table 7. Mean (standard deviation) estimated application of nitrogen, phosphorus, potassium, and calcium oxide per hectare per year, and diﬀerence-in-means
+tests
+Chemical
+Mean All (n = 224)
+Mean Cert07 (n = 56)
+Mean Uncert07 (n = 168)
+t-Test
+Nitrogen (kg)
+22.170
+0.334
+29.449
+***
+(50.960)
+(2.325)
+(57.034)
+Phosphorus (kg)
+10.376
+1.925
+13.193
+**
+(24.320)
+(6.462)
+(27.278)
+Potassium (kg)
+15.372
+1.094
+20.131
+***
+(34.472)
+(3.405)
+(38.624)
+Calcium oxide (kg)
+114.604
+211.044
+82.457
+***
+(214.585)
+(259.098)
+(187.669)
+*, **, *** signiﬁcant at 10%, 5%, and 1% level, respectively. Standard deviation in parentheses.
+24
+WORLD DEVELOPMENT
+
+possible hidden bias. For two additional negative practices—
+the use of chemical fertilizer and insecticide—our results also
+suggest that certiﬁcation reduces use. However, these results
+are weaker. In each case, our conventional matching estima-
+tors generate a positive ATT that is not sensitive to hidden
+bias, but our DID matching estimator, which purports to con-
+trol for unobserved confounders, is not signiﬁcant. Hence,
+overall, we ﬁnd that organic certiﬁcation aﬀects the use of
+farm practices in a way that would be expected to improve
+growers’ environmental performance.
+These ﬁndings are consistent with those of Blackman and
+Naranjo (2012), who ﬁnd that organic certiﬁcation spurs farm
+practices associated with higher environmental quality and
+attribute this to the fact that in Costa Rica, growing coﬀee
+is highly techniﬁed, so most farms must change their manage-
+ment practices to obtain organic certiﬁcation. In Cauca,
+Colombia, by contrast, growing coﬀee is less techniﬁed. As
+noted above, except in the case of organic fertilizer use, the
+lion’s share of the uncertiﬁed growers in our sample use prac-
+tices consistent with organic certiﬁcation. Hence, one would
+expect that the environmental eﬀects of certiﬁcation would
+be diluted by self-selection. Contrary to this intuition, how-
+ever, we ﬁnd that organic certiﬁcation encourages environ-
+mentally friendly farm practices at least to some extent.
+Thus our study suggests that the eﬀectiveness of organic cer-
+tiﬁcation in spurring cleaner farm practices has less to do with
+the preexisting characteristics of coﬀee growers than with the
+design characteristics of the certiﬁcation program. Although
+many eco-certiﬁcation programs feature fuzzy standards,
+self-monitoring, and participation by cooperatives, we have
+examined a program that has relatively well-deﬁned standards
+enforced at the individual farm level by both third-party mon-
+itors and a peer-monitoring system. Previous studies suggest
+that these are the hallmarks of certiﬁcation programs that tend
+to generate signiﬁcant producer-level beneﬁts (Darnall &
+Sides, 2008; deLeon & Rivera, 2009; Rivera, de Leon, &
+Koerber, 2006). Hence, our study indicates that commodity
+certiﬁcation schemes with these characteristics can have signif-
+icant eﬀects on farm practice associated with environmental
+quality, even in areas where self-selection threatens to dilute
+these eﬀects.
+Our results regarding organic certiﬁcation’s economic eﬀects
+are much less encouraging. We are not able to discern robust
+eﬀects of certiﬁcation on labor costs, income, or net returns.
+Only in the case of input costs and yields does certiﬁcation
+have a signiﬁcant (negative) eﬀect. These ﬁndings reﬂect the
+emerging conventional wisdom that organic cultivation has
+mixed eﬀects on net returns, typically limiting overall eco-
+nomic beneﬁts (Lygbaeck et al., 2001; Van der Vossen,
+2005). Although our results do not comport with recent stud-
+ies that suggest that organic certiﬁcation can cause economic
+harm at the producer level—exacerbating or perpetuating pov-
+erty (Beuchelt & Zeller, 2011; Valkila, 2009) or diverting
+investment from coﬀee growing (Barham et al., 2011)—they
+do suggest that the economic beneﬁts of organic certiﬁcation
+are limited. That implies that promoting further organic certi-
+ﬁcation and even maintaining existing certiﬁcations may be
+challenging.
+As a caveat to these conclusions, we hasten to note that our
+study is among the ﬁrst to examine these issues using quanti-
+tative methods that aim to control for sample selection. More
+evidence from other study sites is needed before we can draw
+general conclusions about whether and under what circum-
+stances eco-certiﬁcation, or even just organic certiﬁcation,
+has environmental and economic beneﬁts.
+NOTES
+1.
+A caveat, however, is that, as the authors make clear, certiﬁed farmers
+were also ‘‘contract farmers” for a large agroindustrial company, an
+arrangement that likely aﬀected their economic outcomes.
+2.
+This represents a relatively small share of the total production of
+coﬀee. In 2010, the annual production of coﬀee was 578,000 metric tons,
+harvested from about 921 thousand hectares.
+3.
+Bio-Latina is accredited by the German Deutsches Akkredi-
+tierungssystem Pru¨fwesen (DAP), the US Department of Agriculture
+National Organic Program (USDA NOP), Japan Agricultural Standards
+(JAS), and the Conseil des Appellations Agroalimentaires du Que´bec
+(CAAQ). IMO Control is accredited by the Swiss Accreditation Service
+(SAS), USDA NOP, and JAS. The Organic Crop Improvement Associ-
+ation is accredited by USDA NOP, the International Organic Accredi-
+tation Service, the European Union Equivalent Standards, JAS, and
+CAAQ.
+4.
+We estimated the model using the Stata command diﬀ, which uses
+kernel matching to implement the DID matching estimators (Villa, 2011).
+5.
+Coﬀee prices in 1997 were the highest in the past two decades, reaching
+US$1.31 per pound. This price spike may have induced changes in farm
+practices, although we expect that transformation of the productive
+system is slow.
+6.
+All certiﬁed producers in our regression sample obtained their
+certiﬁcates during 1998–2007. Because of the limited number of observa-
+tions, we do not test for subgroup eﬀects for early and late adopters.
+7.
+A limitation of the survey is that it did not ask about family size for
+1997.
+8.
+Note that growers who own their farms may also rent lots outside
+those farms.
+9.
+These estimates are based on Mun˜oz and Moreno’s (2001) simple
+linear model, which relates the number and type of farm animals to the
+quantity of manure.
+10.
+Certiﬁed growers in our regression sample reported using four types
+of chemical fertilizers: 17-6-18, DAP, Urea and Malation.
+11.
+In general, inspectors enforce prohibitions against negative practices
+(e.g., use of agrochemicals) more stringently than they require the positive
+ones (e.g., soil conservation).
+12.
+Standardized bias is the diﬀerence of the sample means in the certiﬁed
+and uncertiﬁed subsamples as a percentage of the square root of the
+average of sample variances in both groups.
+13.
+This represents a 65–70% reduction in input costs.
+14.
+An example of an unobserved confounder might be environmental
+consciousness or managerial skill. Each could cause growers to select into
+organic certiﬁcation and—independent of certiﬁcation—use fewer nega-
+tive practices and more positive ones.
+IS ECO-CERTIFICATION A WIN–WIN FOR DEVELOPING COUNTRY AGRICULTURE? ORGANIC COFFEE
+25
+
+15.
+Only two of the producers in the sample had more than one
+certiﬁcate. One had Rainforest Alliance and organic certiﬁcation, and the
+other had Rainforest Alliance and Fair Trade certiﬁcation.
+16.
+Our survey data include the type and amount of fertilizers growers
+used per year. Based on the technical speciﬁcations of the formula for the
+chemical fertilizers, and assuming that there was no adulteration of the
+formula, we estimated the amount of nitrogen, phosphorus, potassium,
+and calcium oxide used by each grower per hectare per year. For
+nonchemical fertilizers, we used estimates of chemical content in North
+and Bell (1984) and Ramos Agu¨ero and Alfonso (2014). Our results from
+this exercise, presented in the Appendix, indicate that certiﬁed organic
+producers applied signiﬁcantly less nitrogen, phosphorus, and potassium
+but more calcium oxide (Table 7).
+REFERENCES
+Aakvik, A. (2001). Bounding a matching estimator: The case of a
+Norwegian training program. Oxford Bulletin of Economics and
+Statistics, 63, 115–143.
+Angelucci, M., & Di Maro, V. (2015). Programme evaluation and spillover
+eﬀects. Journal of Development Eﬀectiveness, 1–22 (Epub ahead of
+print).
+Arnould, E., Plastina, A., & Ball, D. (2009). Does fair trade deliver on its
+core value proposition? Eﬀects on income, educational attainment, and
+health in three countries. Journal of Public Policy and Marketing, 28,
+186–201.
+Ataroﬀ, M., & Monasterio, M. (1997). Soil erosion under diﬀerent
+management of coﬀee plantations in the Venezuelan Andes. Soil
+Technology, 11, 95–108.
+Auld, G. (2010). Assessing certiﬁcation as governance: Eﬀects and broader
+consequences for coﬀee. Journal of Environment and Development, 19,
+215–241.
+Babbar, L., & Zak, D. (1995). Nitrogen loss from coﬀee agroecosystems in
+Costa Rica: Leaching and denitriﬁcation in the presence and absence
+of shade trees. Journal of Environmental Quality, 24, 227–233.
+Barbosa de Lima, A., Novaes Keppe, A. L., Maule, F. E., Sparovek, G.,
+Corre´a Alves, M., & Maule, R. F. (2009). Does certiﬁcation make a
+diﬀerence? Impact assessment study on FSC/SAN certiﬁcation in Brazil.
+Piracicaba, Brazil: Imaﬂora.
+Barham, B., Callenes, M., Gitter, S., Lewis, J., & Weber, J. (2011). Fair
+trade/organic coﬀee, rural livelihoods, and the ‘‘agrarian question”:
+Southern Mexican coﬀee families in transition. World Development, 39,
+134–145.
+Barham, B., & Weber, J. (2012). The economic sustainability of certiﬁed
+coﬀee: Recent evidence from Mexico and Peru. World Development, 40,
+1269–1279.
+Bartley, T. (2007a). How foundations shape social movements: The
+construction of an organizational ﬁeld and the rise of forest certiﬁca-
+tion. Social Problems, 54, 229.
+Bartley, T. (2007b). How certiﬁcation matters: Examining mechanism of
+inﬂuence. Appendix C in Toward sustainability: The roles and limits of
+certiﬁcation. Steering Committee of the State-of-Knowledge Assess-
+ment of Standards and Certiﬁcation. Washington, DC: RESOLVE.
+Beegle, K., Carletto, C., & Himelein, K. (2012). Reliability of recall in
+agricultural data. Journal of Development Economics, 98, 34–41.
+Beer, J. (1988). Litter production and nutrient cycling in coﬀee (Coﬀea
+arabica) or cacao (Theobroma cacao) plantations with shade trees.
+Agroforestry Systems, 7, 103–114.
+Bermu´dez, M. (1980). Erosio´n hı´drica y escorrentı´a superﬁcial en el
+sistema de cafe´ (Coﬀea arabica L.) por (Erythrina poeppigiana, Walpers
+O. F. Cook) y laurel (Cordia ailiodora, R & P. Cham.) en Turrialba,
+Costa Rica (Tesis de Maestrı´a ine´dita). Turrialba, Costa Rica: CATIE.
+Beuchelt, T., & Zeller, M. (2011). Proﬁts and poverty: Certiﬁcation’s
+troubled link for Nicaragua’s organic and fairtrade coﬀee producers.
+Ecological Economics, 70, 1316–1324.
+Biolatina (2006). Informe de inspeccio´n programada. Area A. Inza´, Cauca:
+Asociacio´n de Cabildos Indı´genas de Juan Tama, Mimeo.
+Blackman, A. (2010). Alternative pollution control policies in developing
+countries. Review of Environmental Economics and Policy, 4, 234–253.
+Blackman, A., & Naranjo, M. (2012). Does eco-certiﬁcation have
+environmental beneﬁts? Organic coﬀee in Costa Rica. Ecological
+Economics, 83, 58–66.
+Blackman, A., & Rivera, J. (2011). Producer-level beneﬁts of sustainability
+certiﬁcation. Conservation Biology, 25, 1176–118585.
+Bolwig, S., Gibbon, P., & Jones, S. (2009). The economics of smallholder
+organic contract farming in tropical Africa. World Development, 37,
+1094–1104.
+Caliendo, M., & Kopeining, S. (2008). Some practical guidance for the
+implementation of propensity score matching. Journal of Economic
+Surveys, 32, 31–72.
+Cashore, B., Auld, G., & Newsom, D. (2004). Governing through markets:
+Forest certiﬁcation and the emergence of non-state authority. New
+Haven, Connecticut: Yale University Press.
+Chiputwa, B., Spielman, D. J., & Qaim, M. (2015). Food standards,
+certiﬁcation, and poverty among coﬀee farmers in Uganda. World
+Development, 66, 400–412.
+Chomitz, K. (2007). At loggerheads? Agricultural expansion, poverty
+reduction, and environment in the tropical forests. Washington, DC:
+World Bank.
+Darnall, N., & Sides, S. (2008). Assessing the performance of voluntary
+environmental programs: Does certiﬁcation matter?. Policy Studies
+Journal, 36, 95–117.
+Dehejia, R., & Wahba, S. (2002). Propensity score-matching methods for
+non experimental causal studies. Review of Economics and Statistics,
+84, 151.
+deLeon, P., & Rivera, J. (Eds.) (2009). Voluntary environmental programs:
+A policy perspective. Lanham, Maryland: Rowman & Littleﬁeld.
+Dragusanu, R., Giovannucci, D., & Nunn, N. (2014). The economics of
+Fair Trade. Journal of Economic Perspectives, 28, 217–236.
+Esguerra, G. (2001). La Caﬁcultura orga´nica en Colombia. Divisio´n de
+Estrategia y proyectos Especiales de Comercializacio´n. Bogota´: Fed-
+eracio´n Nacional de Cafeteros de Colombia (FNC).
+Federacio´n Nacional de Cafeteros de Colombia (FNC) (2008a). Infor-
+macio´n econo´mica cafetera. Estadı´sticas Histo´ricas. Bogota´: FNC.
+Federacio´n Nacional de Cafeteros de Colombia (FNC) (2008b). Sistema
+de Informacio´n Cafetera SICA. Bogota´: FNC.
+Federacio´n Nacional de Cafeteros de Colombia (FNC) (2011). Infor-
+macio´n econo´mica cafetera. Estadı´sticas Histo´ricas. Bogota´: FNC.
+Foley, J., Ramankutty, N., Brauman, K., Cassidy, E., Gerber, J.,
+Johnston, M., ... Zaks, D. (2011). Solutions for a cultivated planet.
+Nature, 478, 337–342.
+Gao, D., Chen, T. B., Liu, B., ZhengZheng, Y. M., Zheng, G., & Li, Y. X.
+(2006). Releases of pollutants from poultry manure in China and
+recommended strategies for the pollution prevention. Geographical
+Research, 2, 14.
+Giovannucci, D. (2002). Colombia: Coﬀee sector study. Washington, DC:
+World Bank, Latin American and Caribbean Regional Oﬃce.
+Giovannucci, D., & Ponte, S. (2005). Standards as a new form of social
+contract? Sustainability initiatives in the coﬀee industry. Food Policy,
+30, 284–301.
+Greenberg, R., Bichier, P., Cruz, A., & Reitsma, R. (1997). Bird
+populations in shade and sun coﬀee plantations in central Guatemala.
+Conservation Biology, 11, 448–459.
+Heckman, J. J., Ichimura, H., & Todd, P. (1997). Matching as an
+econometric evaluation estimator: Evidence from evaluating a job
+training programme. Review of Economic Studies, 64, 605–654.
+Heckman, J. J., Ichimura, H., & Todd, P. (1998). Matching as an
+econometric evaluation estimator. Review of Economic Studies, 65,
+261–294.
+International Federation of Organic Agriculture Movements (IFOAM).
+(2010). Principles of organic agriculture. <http://www.ifoam.org/
+about_ifoam/principles/index.html> Accessed January 13, 2009.
+International Fund for Agricultural Development (IFAD) (2003). The
+adoption of organic agriculture amongst small farmers in Latin America
+and the Caribbean: Thematic evaluation Report no. 1337. Rome:
+IFAD.
+Jena, P. R., Chichaibelu, B. B., Stellmacher, T., & Grote, U. (2012). The
+impact of coﬀee certiﬁcation on small-scale producers’ livelihoods: A
+26
+WORLD DEVELOPMENT
+
+case study from the Jimma Zone, Ethiopia. Agricultural Economics, 43,
+429–440.
+Jordan, A., Wurzel, R., & Zito, A. (2003). ‘‘New” environmental policy
+instruments: An evolution or a revolution in environmental policy?.
+Environmental Politics, 12, 201–224.
+Laurance, W. F., Sayer, J., & Cassman, K. (2014). Agricultural expansion
+and its impacts on tropical nature. Trends in Ecology and Evolution, 29,
+107–116.
+Lygbaeck, A., Muschler, R., & Sinclair, F. (2001). Productivity and
+proﬁtability of multistrata organic versus conventional coﬀee farms in
+Costa Rica. Agroforestry Systems, 53, 205–213.
+Martı´nez-Sa´nchez, J. C. (2008). The role of organic production in
+biodiversity conservation in shade coﬀee plantations (Ph.D. disserta-
+tion). Seattle: Department of Biology, University of Washington.
+Mendez, V. E., Bacon, C. M., Olson, M., Petchers, S., Herrador, D.,
+Carranza, C., ... Mendoza, A. (2010). Eﬀects of Fair Trade and organic
+certiﬁcations on small-scale coﬀee farmer households in Central
+America and Mexico. Renewable Agriculture and Food Systems, 25,
+236–251.
+Milder, J., Arbuthnot, M., Blackman, A., Brooks, S., Giovannucci, D.,
+Gross, L., ... Zrust, M. (2014). An agenda for assessing and improving
+conservation impacts of sustainability standards in tropical agriculture.
+Conservation Biology, 29, 309–320.
+Ministerio de Agricultura. (2012). Consumo interno y exportacio´n de
+productos ecolo´gicos (2008–2013). <https://www.minagricultura.gov.
+co/tramites-servicios/Paginas/Sello-Ecologico.aspx> (Agricultura Eco-
+lo´gica).
+Morgan, S., & Harding, D. (2006). Matching estimators of causal eﬀects:
+Prospects and pitfalls in theory and practice. Sociological Methods and
+Research, 35, 3–60.
+Mun˜oz, C., & Moreno, A. (2001). Potencial de tres comunidades
+campesinas para caﬁcultora orga´nica. Cenicafe´, 52, 289–302.
+North, M. O., & Bell, D. D. (1984). Breeder management: Commercial
+chicken production manual. Westport, Connecticut: AVI Publishing,
+240–21.
+Parrot, N., Olesen, J., & Høgh-Jensen, H. (2007). Certiﬁed and non-
+certiﬁed organic farming in the developing world. In N. Halberg, H.
+Alrøe, M. Knudsen, & E. Kristensen (Eds.), Global development of
+organic agriculture: Challenges and promises (pp. 153–180). Walling-
+ford, Oxfordshire, UK: CAB International.
+Pell, A. N. (1997). Manure and microbes: Public and animal health
+problem?. Journal of Dairy Science, 80(10), 2673–2681.
+Philpott, S., Bichier, P., Rice, R., & Greenberg, R. (2007). Field testing
+ecological and economic beneﬁts of coﬀee certiﬁcation programs.
+Conservation Biology, 21, 975–985.
+Quispe Guanca, J. L. (2007). Caracterizacio´n del impacto ambiental y
+productivo de las diferentes normas de certiﬁcacio´n de cafe´ en Costa Rica
+(Master’s thesis). Centro Agrono´mico Tropical de Investigacio´n y
+Ensen˜anza (CATIE).
+Ramos Agu¨ero, D., & Alfonso, E. T. (2014). Generalidades de los abonos
+orga´nicos: Importancia del Bocashi como alternativa nutricional para
+suelos y plantas. Cultivos Tropicales, 35, 52–59.
+Rappole, J. H., King, D. I., & Vega Rivera, J. H. (2003). Coﬀee and
+conservation. Conservation Biology, 17, 334–336.
+Rivera, J., de Leon, P., & Koerber, C. (2006). Is greener whiter yet? The
+Sustainable Slopes Program after ﬁve years. Policy Studies Journal, 34,
+195–224.
+Robinson, D., & Mansingh, A. (1999). Insecticide contamination of
+Jamaican environment: Transport of residues from coﬀee plantations
+in the Blue Mountains to coastal waters in eastern Jamaica. Environ-
+mental Monitoring and Assessment, 54, 125–142.
+Romero, C., Putz, F., Guariguata, M., Sills, E., Cerutti, P., & Lescuyer,
+G. (2013). An overview of current knowledge about the impacts of forest
+management certiﬁcation: A proposed framework for its evaluation
+Occasional paper 91. Bogor, Indonesia: Center for International
+Forestry Research.
+Rosenbaum, P. (2002). Observational studies (2nd ed.). New York:
+Springer-Verlag.
+Rosenbaum, P., & Rubin, D. (1983). The central role of the propensity
+score in observational studies for causal eﬀects. Biometrika, 70, 41–55.
+Ruben, R., & Fort, R. (2012). The impact of Fair Trade certiﬁcation for
+coﬀee farmers in Peru. World Development, 40, 570–582.
+Rueda, X., & Lambin, E. F. (2013). Responding to globalization: Impacts
+of certiﬁcation on Colombian small-scale coﬀee growers. Ecology and
+Society, 18, 21. http://dx.doi.org/10.5751/ES-05595-180321.
+Sebastian, S., & Schulz, R. (2015). Agricultural insecticides threaten
+surface waters at the global scale. Proceedings of the National Academy
+of Sciences, 112, 5750–5755.
+Smith, J., & Todd, P. (2005). Does matching overcome LaLonde’s critique
+of
+nonexperimental
+estimators?.
+Journal
+of
+Econometrics,
+125,
+305–353.
+Soares, A., Lea˜o, M., Vianna Neto, M., & Oliveira, S. (2012). Risk
+estimate of water contamination by pesticides used in coﬀee crops.
+Revista Brasileira de Engenharia Agrı´cola e Ambiental, 16, 425–432.
+Sterner, T., & Coria, J. (2011). Policy instruments for environmental and
+natural resource management. Washington, DC: Resources for the
+Future Press.
+Takahashi, R., & Todo, Y. (2013). The impact of a shade coﬀee
+certiﬁcation program on forest conservation: A case study from a
+wild coﬀee forest in Ethiopia. Journal of Environmental Management,
+130, 48–54.
+Tejeda-Cruz, C., Silva-Rivera, E., Barton, J., & Sutherland, W. (2010).
+Why shade coﬀee does not guarantee biodiversity conservation.
+Ecology and Society, 15, 13, [online] URL: <http://www.ecologyand-
+society.org/vol15/iss1/art13/>.
+Tilman, D., Fargione, J., Wolﬀ, B., D’Antonio, C., Dobson, A., Howarth,
+R., ... Swackhamer, D. (2001). Forecasting agriculturally driven global
+environmental change. Science, 292, 281–284.
+United Nations Development Programme (UNDP) (2010). Coﬀee scoping
+paper Green Commodities Facility, Internal Working Document. New
+York: UNDP.
+Valkila, J. (2009). Fair Trade organic coﬀee production in Nicaragua:
+Sustainable development or a poverty trap?. Ecological Economics, 68,
+3018–3025.
+Van der Vossen, H. (2005). A critical analysis of the agronomic and
+economic sustainability of organic coﬀee production. Experimental
+Agriculture, 41, 449–473.
+Villa, J. M. (2011). DIFF: Stata module to perform diﬀerences in
+diﬀerences estimation. In Statistical software components. USA: Boston
+College Department of Economics.
+Weber, J. (2012). Social learning and technology adoption: The case of
+coﬀee pruning in Peru. Agricultural Economics, 43, 73–84.
+Wehrmeyer, W., & Mulugetta, Y. (Eds.) (1999). Growing pains: Environ-
+mental management in developing countries. Sheﬃeld, UK: Greenleaf
+Publishing.
+Zwane, A. (2007). Does poverty constrain deforestation? Econometric
+evidence from Peru. Journal of Development Economics, 84, 330–349.
+APPENDIX A. SUPPLEMENTARY DATA
+Supplementary data associated with this article can be
+found, in the online version, at http://dx.doi.org/10.1016/
+j.worlddev.2016.01.004.
+ScienceDirect
+Available online at www.sciencedirect.com
+IS ECO-CERTIFICATION A WIN–WIN FOR DEVELOPING COUNTRY AGRICULTURE? ORGANIC COFFEE
+27

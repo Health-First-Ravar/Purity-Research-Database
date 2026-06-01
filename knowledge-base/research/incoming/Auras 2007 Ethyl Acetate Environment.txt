@@ -1,0 +1,1577 @@
+Chapter 19
+Solubility of Gases and Vapors in Polylactide
+Polymers
+Rafael A. Auras
+140, School of Packaging, Michigan State University, East Lansing, MI
+48824-1223, USA
+1. INTRODUCTION
+Polylactide (PLA) polymers are environment-friendly biodegradable materials
+that have garnered growing attention in the last few years as food packaging
+materials since packages made from PLA have the advantage of being pro-
+duced from renewable resources, provide significant energy savings, and can
+be recyclable and compostable [1–3]. Economic and life cycle analysis studies
+have shown that PLA is an economically feasible material to be used as a pack-
+aging polymer [4–6]. Moreover, medical studies have shown that the level of
+lactic acid (LA) that migrates to food from packaging containers is much lower
+than the amount of LA used in common food ingredients [7]. Therefore, poly-
+mers derived from LA are good candidates for packaging applications.
+Currently, PLA is being used as a food packaging polymer for short shelf
+life products with common applications such as containers, drinking cups,
+sundae and salad cups, overwrap and lamination films, and blister packages
+[8, 9]. It is also being used for bottled water. PLA’s optical, physical, and
+mechanical properties have been compared to those of polystyrene (PS) and
+polyethylene terephthalate (PET) [10] although studies comparing the actual
+performance of PLA packages versus other plastics are scarce. PLA plastics
+are still in the early developmental stage for packaging applications. At this
+time, some of the basic properties such as optical, physical, and mechanical
+properties have been determined as a function of lactide content and environ-
+mental parameters such as temperature and humidity [1, 3]. Barrier proper-
+ties of these polymers (i.e., solubility, diffusion, and permeation) have barely
+been studied. This chapter summarizes the state of the knowledge regarding
+the interaction and solubility of gases, vapors, and organic compounds in
+Thermodynamics, Solubility and Environmental Issues
+T.M. Letcher (editor)
+© 2007 Elsevier B.V. All rights reserved.
+
+PLA polymers. First, it describes the main factors that influence polymer/
+chemical interactions. Second, it details the basic properties of PLA poly-
+mers, and finally it describes the interaction of PLA with gases, vapors, and
+organic compounds.
+2. POLYMER/CHEMICAL INTERACTIONS
+Unlike glass, metals, and ceramics, polymeric materials are relatively perme-
+able to small molecules such as gases, water and organic vapors, and liquids.
+Chemical permeability through polymeric membranes may result in contin-
+uing change of the polymer structure. For example, in packaging applications,
+the loss of specific chemical compounds, aroma or flavor constituents or the
+gain of off-odors due to mass transfer processes can lead to a reduction of
+product quality, resulting in a reduction in shelf life of products. Mass transfer
+processes between the polymer, a permeant, and/or the environment include
+sorption, permeation, and migration processes. Sorption is the uptake of prod-
+uct components, such as aroma, flavor, odor, or coloring compounds by the
+polymer material. The permeation process is a diffusion-controlled process
+where a permeant is sorbed by, diffused through, and then desorbed from a
+polymeric membrane. Migration is the transfer of substances originally pres-
+ent in the plastic material into a packaged product [11].
+For polymer application, safety, and optimization, it is important to know
+how a permeant transfers both into and through the polymer. Neglecting
+obvious troubles such as leakage through cracks or pinholes in the material,
+to analyze and predict these mass transfer processes one needs to (a) esti-
+mate the solubility of a chemical in a specified material and (b) characterize
+the diffusion coefficient.
+3. THEORETICAL CONSIDERATIONS
+3.1. Solubility
+The thermodynamic criterion of solubility is based on the free energy
+of mixing GM, which states that two substances are mutually soluble if
+GM is zero or negative. The free energy of mixing for a solution process
+between a solvent and a polymer is given by the relation
+(1)
+where HM is the enthalpy of mixing per unit volume, T the absolute temper-
+ature, and SM the entropy of mixing per unit volume. As SM is generally
+
+
+
+
+G
+H
+T
+S
+M
+M
+M
+344
+R.A. Auras
+
+small and positive, there is a certain limiting positive value of HM below
+which dissolution is possible.
+Hildebrand and Scott [12] first correlated the enthalpy of mixing with
+the cohesive properties of the permeant, and for a binary mixture of a polymer
+and a solvent, the Hildebrand–Scatchard equation is expressed as:
+(2)
+(3)
+(4)
+where P and S are the volume fractions, XP and XS the mole fractions, VP
+and VS the molar volumes, and dP and dS the solubility parameters of the
+polymer and the organic compound. The term “solubility parameter” was
+also first introduced by Hildebrand and Scott [12]. The solubility parameter,
+d, is defined as the square root of the cohesive energy density (CED):
+(5)
+where Ev is the molar energy of vaporization and Vl the molar volume of
+the liquid.
+To derive the enthalpy of mixing HM per mole of organic compound,
+hM is differentiated by the mole fraction XS of organic compound.
+(6)
+taking into account that the change in volume of mixing is negligible,
+P
+21. So,
+(7)
+
+
+
+H
+V
+M
+S
+P
+S
+(
+)
+d
+d
+2
+d
+d
+d
+d
+
+
+
+
+
+h
+X
+H
+V
+M
+S
+XP
+M
+S
+P
+P
+S
+
+
+
+
+
+
+2
+2
+(
+)
+d
+ 
+(
+) /
+/
+CED
+v
+l
+1 2
+1 2
+E
+V
+
+
+
+
+
+
+ 
+
+S
+S S
+P
+P
+S S
+ 
+X V
+X
+X V
+V
+ 
+
+P
+P
+P
+P
+P
+S S
+ 
+X V
+X V
+X V
+
+ 
+
+
+h
+X V
+X V
+M
+P
+S
+P
+P
+S S
+P
+S
+(
+)(
+)
+d
+d
+2
+Solubility of Gases and Vapors in Polylactide Polymers
+345
+
+which can also be correlated with the Flory–Huggins parameter () [13].
+(8)
+A basic assumption of solubility parameter theory is that a correlation exists
+between the CED of pure substances and their mutual solubility. Therefore,
+Eq.(6) predicts that HM  0 if dP  dS; hence, two substances with equal
+solubility parameters should be mutually soluble. This is in accordance with the
+general rule that chemical and structural similarities favor solubility. Therefore,
+the relative affinity of a polymer and solvent can be assessed using solubility
+parameters.
+Hansen and Skaarup [14] proposed an extension of the solubility para-
+meter approach to polar and hydrogen-bonding systems. Their approach divides
+the contributions to the overall solubility parameter into three components
+representing non-polar (dD), polar (dP), and hydrogen-bonding (dH) contri-
+butions to the CED. Hansen’s three-dimensional solubility parameters, dD,
+dP, and dH, are among the most extensively used. However, to apply this the-
+ory some restrictions are applied. Only energetic contributions to the mix-
+ing process are involved and entropic effects are not considered. Moreover,
+the heat of mixing is estimated from properties of the pure substances.
+Despite these shortcomings, the solubility parameter approach is convenient
+to use and helpful as a means of estimating the expected compatibility
+between the polymer phase and the solvents. Thus, the Hansen solubility
+parameters (dD, dP, dH) have been combined as follows:
+(9)
+The total solubility parameter, dT, corresponds to the overall Hildebrand sol-
+ubility parameter, and the Hansen solubility parameters, dD, dP, and dH, are
+contributions from non-polar interaction, polar interaction, and hydrogen
+bonding, respectively [15]. The end point of the radius vector represents the
+solubility parameter. This means that each solvent and each polymer can be
+located in a three-dimensional space.
+Using an Arrhenius-type relationship [16], sorption coefficient of a per-
+meant or chemical compound in an amorphous polymer can be represented as
+(10)
+S
+S
+H
+RT
+a
+S
+
+
+0 exp
+
+
+
+d
+d
+d
+d
+T
+D
+P
+H
+2
+2
+2
+2
+
+
+
+x
+d
+d
+
+
+V
+RT
+S
+P
+S
+
+
+
+(
+)2
+346
+R.A. Auras
+
+where HS is the enthalpy of sorption per unit mole that is a function of the
+enthalpy of condensation (HC) and the enthalpy of mixing (HM)
+(11)
+The enthalpy of condensation of a penetrant is related to its enthalpy of
+vaporization: HC  HV. Experimentally, there are strong correlations
+between HV and any of the scales of gas condensability such as critical
+temperature.
+Now, if we replace Eq. (7) in Eq. (10) the following expression is
+obtained:
+(12)
+Paik and Tigani [17] found that the value dP dS does not lead to good cor-
+relation due to incomplete treatment of mutual molecular interaction forces.
+Matsui et al. [13] proposed the use of Chen’s theory [18] where polymer-
+aroma compound compatibility (dC) is calculated from the energy of mixing
+caused by dispersion and dipole forces. Although the use of Chen’s theory
+showed a good correlation between the solubility parameters and dC [13, 19],
+it does not take into account the importance of hydrogen bonding to solubility.
+By using Hansen’s solubility parameters, which take into account the different
+interaction forces between a polymer and a permeant to calculate the enthalpy
+of mixing, Eq. (7) becomes
+(13)
+The three components, dD, dP, and dH, lie as vectors along orthogonal axes. The
+distance d between the end points of the vectors representing the polymer
+and solvent is given as
+(14)
+Good solubility is typically predicted when d is smaller than 2.5MPa1/2
+or 5(J/cm3)1/2 [20]. Extensive tabulations of three-dimensional solubility
+ 
+
+
+
+
+
+d
+d
+d
+d
+d
+d
+d
+ 
+DP
+DS
+PP
+PS
+HP
+HS
+[(
+)
+(
+)
+(
+) ] /
+2
+2
+2 1 2
+
+
+
+
+
+
+
+H
+V
+M
+S
+DP
+DS
+PP
+PS
+HP
+HS
+ [(
+)
+(
+)
+(
+) ]
+d
+d
+d
+d
+d
+d
+2
+2
+2
+S
+S
+V
+RT
+a
+S
+P
+S
+
+
+
+0
+2
+exp
+(
+)
+d
+d
+
+
+
+
+
+
+
+
+
+H
+H
+H
+S
+C
+M
+Solubility of Gases and Vapors in Polylactide Polymers
+347
+
+parameters of different solvents are available in the literature and a partial
+list of values of dD, dP, and dH for a number of solvents can be found in
+Hansen and Barton [15, 21]. By introducing the concept from Eq. (14), and
+replacing dPdS in Eq. (12) with the value d, the solubility coefficient can
+be computed as:
+(15)
+where g is a constant characteristic of polymer property.
+3.2. Diffusion
+The diffusion process for the steady state is described by the general
+Fick’s law, where the left-hand side is the divergence of F and the right-hand
+side is the Laplacian of the chemical potential.
+(16)
+The unsteady-state process is described by Fick’s second law
+(17)
+where t is time. In the case of a membrane, and if the diffusion coefficient
+D is independent of the concentration and the chemical potential can be
+expressed by the concentration, the one-dimensional form of Eq. (17) is
+equal to
+(18)
+Regarding Eq. (18), values of D are normally assumed to be independent of
+both penetrant concentration and polymer relaxations at low concentration.
+This is especially true for gases such as oxygen and carbon dioxide at atmos-
+pheric pressure, and some organic compounds. Many theories have been
+proposed and many models have been developed to describe diffusion in poly-
+mers; a detailed description of these models can be found elsewhere [22].
+The diffusion processes through the membrane are generally unidirectional
+
+ 
+
+c
+t
+D
+c
+d
+d
+2
+2
+x
+
+ 
+
+C
+t
+D
+div
+grad
+(
+)
+m
+F
+D
+
+	m
+S
+S
+V
+RT
+a
+S
+
+
+0
+2
+expg
+d
+
+
+
+
+
+
+348
+R.A. Auras
+
+and perpendicular to the flat surface, and solutions to the diffusion equations
+are obtained from the boundary conditions where Henry’s or Langmuir–
+Henry’s law are applied.
+When the diffusion coefficient (D) is independent of concentration (c),
+the one-dimensional solution of Eq. (18) can be expressed as Eq. (19), which
+describes the process mentioned above with boundary conditions according
+to Fick’s second law [23] for a film sheet tested under isostatic conditions
+[24].
+(19)
+where Ft is the flow rate of the compound permeating the film in the transient
+state at time t, F
+ the transmission rate in the steady state, l the film thick-
+ness, and D the diffusion coefficient. From the transient flow rate profile, the
+diffusion coefficient, D, can be estimated from Eq. (20) [23].
+(20)
+3.3. Permeability
+Using the value of permeant flow at steady state F
+, the permeability
+coefficient P is determined by Eq. (21)
+(21)
+where A is the area of the film and p the partial pressure gradient across
+the polymer film. Then, if Henry’s law of solubility is applied, such as in the
+case of oxygen diffusion and carbon dioxide in films at low pressure (i.e.,
+up to 1atm), the solubility coefficient, S, can be calculated from
+(22)
+4. FACTORS AFFECTING MASS TRANSFER IN POLYMERS
+Sorption of gases, vapors, or organic permeants into semi-crystalline polymers
+is mainly described and modeled as a function of different factors or parameters
+P
+S
+D
+ 
+P
+F l
+A p
+
+
+
+D
+l
+t
+
+
+2
+0 5
+7 199
+.
+.
+F
+F
+l
+Dt
+n l
+Dt
+t
+n
+
+
+
+
+
+4
+4
+4
+2
+2 2
+1 3 5
+p
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+∑
+exp
+, , ,…
+Solubility of Gases and Vapors in Polylactide Polymers
+349
+
+such as the (i) polymer-organic molecule chemistry; (ii) free volume in the
+amorphous phase; (iii) crystallinity; (iv) molecular orientation; and (v) phys-
+ical aging and polymer thermal history [25–28]. Factors affecting the sorp-
+tion of organic compounds in polymeric materials are summarized in Fig. 1.
+In this chapter, only the effects of the temperature, crystallinity, and free vol-
+ume are addressed. More information about these effects and other factors
+that affect polymer permeant interactions can be found elsewhere [29].
+4.1. Temperature
+The temperature dependence of P, S, and D can be described by Van’t
+Hoff’s–Arrhenius equations [31].
+(23)
+(24)
+(25)
+where HS is the molar heat of sorption, ED the activation energy of diffusion,
+and EP the apparent activation energy of permeation. It is easy to see that
+P T
+P
+E
+RT
+( )
+exp
+
+
+0
+P
+
+
+
+
+D T
+D
+E
+RT
+( )
+exp
+
+
+0
+D
+
+
+
+
+S T
+S
+H
+RT
+( )
+exp
+
+
+0
+S
+
+
+
+
+350
+R.A. Auras
+SORPTION
+Organic Compounds
+Molecular Size
+Functional Group
+Chemical Potential
+Environmental Factors
+Temperature
+Relative Humidity
+pH, Additives
+Affinity
+Polymer
+Morphology
+Orientation
+Free Volume
+Cohesion   & Adhesion 
+Forces
+Fig. 1. Factors affecting sorption, adapted from Osajima and Matsui [30].
+
+(26)
+(27)
+where HS is expressed by Eq. (11). As can be observed, P0, S0, D0, EP,
+HS, and ED can be derived from the isostatic permeation experiment.
+4.2. Free Volume
+Free volume is an intrinsic property of the polymer matrix and is cre-
+ated by the gaps left between entangled polymer chains. Under the free vol-
+ume model the absorption and diffusion of molecules in polymers depend
+greatly on the available free volume. For instance, many polymers show a
+sorption increase as the amount of free volume increases. One of the earli-
+est models describing this behavior was developed by Fujita et al. [32].
+Since then many researchers have worked with different models based on
+the free volume concept to describe sorption and diffusion in the glassy state
+[33–36].
+The simplest and most used way to calculate the specific free volume
+in a polymer is as follows:
+(28)
+where VSP (cm3/g) is the specific volume of a polymer and is equal to 1/r,
+where r (g/cm3) is the polymer density, 1.3VW the occupied volume, and VW
+is the sum of the increments of individual Van der Waals volumes (tabulated
+in Van Krevelen [20]). In general, the fractional free volume (FFV  Vf/VSP)
+is used to express transport correlations within a family of polymers.
+4.3. Crystallinity
+Since crystalline regions are highly ordered as compared to amorphous
+regions, the free volume is lower or not existent in these regions. The crys-
+talline regions act as excluded phases for the sorption process and as imper-
+meable barriers for diffusion and sorption. Furthermore, crystalline regions
+present a constraint on the polymer chains in the amorphous region. This chain
+restriction influences the sorption process in the amorphous phase by limit-
+ing the effective path length of diffusion and reducing the polymer chain
+mobility, which creates a higher activation energy for diffusion. It should be
+noted that for many polymer/gas or vapor systems, the solubility coefficients
+V
+V
+f
+SP
+W
+
+1 3. V
+E
+H
+E
+P
+S
+D
+
+
+P
+S D
+0 
+0
+0
+Solubility of Gases and Vapors in Polylactide Polymers
+351
+
+are directly proportional to the free volume fraction of the amorphous phase
+[37–39], and for some semi-crystalline polymers it has been demonstrated
+[20] that Eq. (10) can be rewritten as follows:
+(29)
+where Ssc is the solubility of a semi-crystalline polymer, xc the degree of
+crystallinity of the polymer, and Sa the solubility of the amorphous structure
+as defined by Eq. (15). So, Eq. (15) will be expressed as:
+(30)
+Finally, as a first approximation and since some permeants such as oxygen
+and carbon dioxide are insoluble in the crystalline part of polymer films 
+[40, 41], the diffusion, solubility, and permeation coefficients for semi-
+crystalline polymers can be estimated as:
+(31)
+(32)
+(33)
+where xc is the degree of crystallinity, Sa and Da the diffusion and solubility
+coefficients in the amorphous part of the polymer as expressed by Eqs. (15
+and 20), respectively, and Dsc the diffusion of the semi-crystalline polymer.
+5. POLYLACTIDES
+In the case of PLA as well as other polymers, the physical properties are
+determined by the constitutional unit, especially the non-functional struc-
+tural groups, which are the real “building blocks” of the polymer chain, the
+functional structural groups or end groups such as –OH and –H, the molec-
+ular architecture (i.e., stereochemistry and arrangement, Scheme 1), and the
+molecular mass distribution.
+The configurational and conformational differences between meso-
+and L-lactide result in different physical properties, such as melting point,
+P
+D
+S
+D
+S
+
+
+ 
+sc
+sc
+a
+a
+c
+⋅
+⋅
+
+(
+)
+1
+2
+x
+S
+S
+sc
+a
+c
+
+⋅(
+)
+1x
+D
+D
+sc
+a
+c
+
+⋅(
+)
+1x
+S
+V
+RT
+sc
+S
+c
+ ′
+
+
+
+
+
+
+S0
+2
+1
+exp
+(
+)
+g
+d
+x
+
+
+S
+S
+sc
+a
+c
+
+
+
+(
+)
+1
+x
+352
+R.A. Auras
+
+solubility, and relative volatility. Depending on the preparation conditions,
+poly (L-lactide) crystallizes in three forms (-, -, and -) [1]. The stable 
+-form exhibits a well-defined diffraction pattern with a space group ortho-
+rhombic P212121, with a unit cell containing two antiparallel chains. The chain
+conformation is a twofold (15 2/7) helix distorted periodical form of the
+regular s(310/7helix). The lattice parameters are a  10.66Å, b  6.16Å,
+and c (chain axis)  28.88Å, with a crystal density 1.26g/cm3. The -form
+of PLA is generally prepared at a high draw ratio and a high drawing tem-
+perature. The chain conformation is a left-handed threefold helix. The -form
+of PLA has an orthorhombic unit cell (containing six chains) containing a 
+3 l (3Å rise/1 monomeric unit) polymeric helix. The lattice parameters of
+the unit cell are: a  10.31Å, b  18.21 Å, and c  9.0 Å. The -structure
+is more stable than the -structure, with a melting point of 185C compared
+to 175C for the -structure. Chain packing in the -form has recently 
+been termed a frustrate structure, where the crystal structure rests on a frus-
+trated packing of three threefold helices in a trigonal unit cell of parameters
+a b  10.52Å and c  8.8Å, space group P32 [42]. The -form is
+formed by epitaxial crystallization and contains two antiparallel s(3/2)
+helices in the pseudoorthorhombic unit cell a  9.95 Å, b  6.25 Å, and
+c  8.8Å, and it assumes the known threefold helix of PLA [1].
+High molecular weight PLAs are either amorphous or semi-crystalline
+at room temperature, depending on the amounts of L-, D-, and meso-lactide
+that are in the structure. For amorphous PLA, the glass transition tempera-
+ture (Tg) is one of the most important parameters since dramatic changes in
+the motion of polymer chains take place at and above Tg. In the case of
+semi-crystalline PLA, both the Tg and melting temperature (Tm) are impor-
+tant physical parameters for predicting PLA behavior. The glass–rubber
+transition temperature is not a real thermodynamic transition point, but it is
+an indication of the transition between the glassy and the rubbery states of
+polymers. In the case of PLA, the glass transition temperature is also deter-
+mined by the proportion of different lactides. Table 1 shows the glass and
+melting temperatures of two PLA polymers compared to those of two other
+standard polymers.
+Solubility of Gases and Vapors in Polylactide Polymers
+353
+n
+C
+CH3
+H
+C
+O
+O
+Scheme 1. PLA constitutional unit.
+
+6. POLYLACTIDE BARRIER PROPERTIES
+6.1. Gases
+Permeability is an intrinsic property of a gas–polymer membrane sys-
+tem. Correlations that relate diffusion, solubility, and permeability coeffi-
+cients of diverse gases in polymers are available. Models and group
+contribution theories have been developed to predict permeability of gases
+in polymers. However, general rules or universal correlations are usually not
+as good at predicting permeability as rules for a particular set of polymers.
+A detailed description of these correlations can be found elsewhere [29].
+This section presents the main barrier properties of PLA to O2, CO2 and N2.
+6.1.1. Oxygen
+Fig. 2 presents the oxygen permeability coefficient for PLA 98% 
+L-lactide (98L-PLA) as a function of water activity. A significant increase of
+the oxygen permeability coefficient as temperature increases can be observed
+for 98L-PLA. 98L-PLA shows an increase of the oxygen permeability coef-
+ficients from 3.51018 kg m/(m2 s Pa) at 5C to 111018 kg m/(m2 s Pa)
+at 40C when moisture is not present. At a higher water activity level
+(Aw  0.9), the value of the oxygen permeability coefficient increases only
+to 8.5 1018 kg m/(m2 s Pa) at 40C. This reduction of the oxygen perme-
+ability coefficient as water activity increases at a constant temperature is
+observed in Fig. 2 for the three temperatures tested. The reduction is more
+pronounced at 40C.
+The difference between the values of oxygen permeability measured by
+Auras et al. [43] and the values measured in previous studies by Lehermeier
+354
+R.A. Auras
+Table 1
+Physical properties of 98% L-lactide, 94% L-lactide, PS, and PET
+98% L-lactide
+94% L-lactide
+PS (atactic)a
+PET
+Tg (C)
+71.4
+66.1
+100
+80
+Relaxation enthalpy (J/g)
+1.4
+2.9
+N/A
+N/A
+Tm (C)
+163.4
+140.8
+N/A
+245
+Enthalpy of fusion (J/g)
+37.5
+21.9
+N/A
+47.7
+Crystallinity (%)
+40
+25
+N/A
+38
+aPS used in packaging is atactic, so it does not crystallize. Since it is an amorphous polymer,
+it does not have a defined melting point, but gradually softens through a wide range of
+temperatures.
+
+et al. [44] of 3.53 1017 kg m/(m2 s Pa) at 30C and Aw  0 for biaxially
+oriented PLA films can be explained by differences in the crystallinity and
+final processing conditions of the films.
+The oxygen diffusion coefficient as a function of water activity for
+98L-PLA is presented in Fig. 3a. An exponential increase of the oxygen dif-
+fusion coefficients from 21014 to 91014 m2/s at 23C can be observed
+as water activity increased from 0 to 0.9. The observed increase of the oxygen
+diffusion coefficient in the range of Aw  0–0.9 can be attributed to the plas-
+ticization effect on the amorphous phase by the water molecules. Plasticization
+effects tend to increase the mobility of the oxygen molecules in the polymer
+matrix. Plasticization effects are evidenced by a reduction of the polymer’s
+Tg [43].
+Fig. 3b presents the values of the oxygen solubility coefficient in 
+98L-PLA films. The oxygen solubility coefficient increased as the temper-
+ature increased. A linear reduction of the solubility coefficient from 5 to
+1.5 104 kg/(m3 Pa) at 40C can be observed as water activity increased
+from 0 to 0.9. This reduction can be explained, as in the case of other poly-
+mers such as PET, by the occupancy of the free volume by water molecules
+at higher water content, so a reduction of the oxygen solubility as water con-
+tent increased is observed. PET and PLA are both hydrophobic films that
+absorb very low amounts of water, and show similar barrier property behavior.
+Solubility of Gases and Vapors in Polylactide Polymers
+355
+Water Activity
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+Px1018, Kg.m/m2 .s.Pa
+0.0
+2.0
+3.0
+4.0
+5.0
+6.0
+7.0
+8.0
+9.0
+10.0
+11.0
+12.0
+13.0
+5 °C 
+23 °C 
+40 °C 
+Fig. 2. Oxygen permeability coefficient as a function of water activity for 98L-PLA.
+
+Oliveira et al. [45] determined the solubility of oxygen in PLA at 293, 303,
+and 313K, and pressures between 0.11 and 0.995 bar. They reported a sol-
+ubility parameter determined at 293K of 2.24  105 kg/(m3 Pa). The val-
+ues measured by Oliveira et al. are an order of magnitude lower than the
+previous reported values. This difference could be attributed to the different
+methodology to measure oxygen permeability (i.e., quartz crystal microbal-
+ance). They also reported a Flory–Huggins parameter for O2 in PLA between
+293 and 313K of x12  1.40–2.10.
+6.1.2. Carbon Dioxide
+Table 2 presents the CO2 permeability coefficient values as a function
+of temperature in the range of 25–45C at 0% RH. The activation energy
+was calculated according to the Arrhenius equation (25).
+356
+R.A. Auras
+Water Activity
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+Diffusion x 1014, m2/s
+0
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+Water Activity
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+Solubility Coefficient x 104, Kg/m3.Pa
+0.0
+1.0
+2.0
+3.0
+4.0
+5.0
+5  °C
+23  °C
+40 °C
+5  °C
+23  °C
+40 °C
+(a)
+(b)
+Fig. 3. (a) Oxygen diffusion coefficient of 98L-PLA films as a function of water activity;
+(b) solubility coefficient of 98L-PLA films as a function of water activity.
+
+The CO2 permeability coefficients reported here for PLA films are lower
+than the reported value for crystal PS at 25C and 0% RH (1.551016 kgm/
+(m2 s Pa)) [46], but higher than those for PET (1.73 and 3.17  1018 kgm/
+(m2 s Pa) at 0% RH at 25 and 45C, respectively). Carbon dioxide perme-
+ability values for PET are concomitant with the PLA values.
+Oliveira et al. [45] also measured the solubility of carbon dioxide in
+80% L-lactide–20% D-lactide (80L–20D) film at 293, 303, and 313 K and 
+0% RH. At 293K they reported a solubility or carbon dioxide in PLA of
+6.82105 kg/(m3 Pa), and a Flory–Huggins parameter for CO2 in PLA at
+the same temperature of x120.06.
+6.1.3. Nitrogen
+The nitrogen permeability for plastic materials is generally 1/4–1/5
+times smaller with respect to oxygen permeability. Therefore, if the perme-
+ability value of one of the three types of gases considered is known, it is
+always possible to estimate the permeability values of the other gases.
+Solubility of nitrogen in PLA has been studied by Oliveira et al. [45] and
+correlated with Flory–Huggins model. They reported nitrogen solubility coef-
+ficients of 1.59105 kg/(m3 Pa) at 293K and Flory–Huggins parameter
+for N2 in PLA at 293K of x12  2.11.
+6.2. Vapors
+Barrier properties to organic vapors in PLA have barely been investi-
+gated. Permeability to water and few organic compounds is reported in the
+literature. This section will present the barrier of PLA to water, and those
+organic compounds already studied in the literatures which are ethyl acetate
+and D-limonene. As PLA polymers become more commonly used, many
+other permeants are expected to be assessed.
+6.2.1. Water
+Fig. 4 shows the water vapor permeability coefficient (WVPC) of 98L-
+PLA determined at 10, 20, 30, and 37.8C in the range of 40–90% RH. This
+Solubility of Gases and Vapors in Polylactide Polymers
+357
+Table 2
+CO2 permeability coefficients and activation energy for PLA resin (P1017 kg m/(m2 s Pa))
+Resin
+Temperature (C)
+EP (kJ/mol)
+25
+30
+35
+40
+45
+98L-PLA 2.770.05 3.120.05 3.420.06 3.780.06 4.180.15 15.650.63
+
+figure indicates that, surprisingly, the value of permeability for 98L-PLA is
+practically constant over the range studied, despite PLA being a polar polymer.
+The WVPC increases slightly as temperature decreases, as seen in Fig. 4.
+Regression analysis showed the difference in values to be statistically sig-
+nificant, with p0.05 in all cases. Further characteristics of the analysis
+can be found elsewhere [8]. The WVPC of PLA film is higher than that of PET.
+The average WVPC for PET is 1.1  0.1  1015kgm/(m2 s Pa) at 25C in
+the 40–90% RH range. The reported WVPC of PS is 6.71015kgm/(m2sPa)
+at 25C [46].
+The activation energy of water vapor permeation in PLA films is neg-
+ative and equal to –9.73 0.27kJ/mol. Very few polymers show negative EP
+values for water, and usually their magnitudes are smaller. Fig. 5 compares
+the activation energy of four hydrophobic polymers: PET (a hydrophobic
+synthetic polyester film), PS (a hydrophobic synthetic film), LDPE 
+(a hydrophobic synthetic polyolefin film), and 98L-PLA (a hydrophobic
+polyester biodegradable film). PLA and PS polymers present negative water
+activation energies.
+According to Eq. (11), the heat of sorption is a function of the heat of
+condensation and the heat of mixing. The heat of condensation is the energy
+released by a gas when it changes from the gas to liquid state. For water, the
+heat of condensation HC is negative and equal to 42kJ/mol [31] while
+HM is positive for hydrophobic polymers and near zero or negative for
+polar polymers. The enthalpies of formation of water hydrogen bonds have
+358
+R.A. Auras
+1.25
+1.5
+1.75
+2
+2.25
+2.5
+35
+45
+55
+65
+75
+85
+95
+Relative Humidity, %
+Px1014,kg.m.m-2.s-1.Pa-1
+10 ºC
+20 ºC
+30 ºC
+37.8º
+Fig. 4. Water vapor permeability coefficient of 98L-PLA as a function of percent relative
+humidity (% RH). Error bars represent cumulative imprecision in measurements.
+
+been measured between 14 and 27kJ/mol. Therefore, the activation energy
+could be negative for polymers with low positive energy of diffusion and
+near zero or negative values of enthalpy of mixing HM. Further details can
+be found elsewhere [43].
+Water solubility coefficients in PLA polymers (80L:20D) have been
+reported by Oliveira et al. [45]. They reported water solubility coefficients
+between 6.51 and 5.83103 kg/(m3 Pa) at 293K. They fitted their experi-
+ment using a Flory–Huggins model with values of x12 between 3.52 at 293K
+and 3.67 at 313K. Finally, Tsuji et al. [47] reported that for PLA films with
+molecular number between 9 104 and 5 105 g/mol and D-lactide content
+between 0 and 50% the WVTR changes significantly, mainly due to the fact
+that the change in lactide (i.e., lower D-lactide) content results in higher
+crystallinity. Especially, a linear decrease of WVTR was found until crys-
+tallinity amount of 20%, after that (i.e., crystallinity values >20%), the
+WVTR values level off.
+6.2.2. Ethyl Acetate and D-Limonene
+Ethyl acetate is a solvent found in nature and is environmentally safe
+and acceptable for food applications. For instance, it is used in the packag-
+ing industry because it provides high printing resolution on plastics and
+metals. D-Limonene is a major compound found in oil extracted from citrus
+and is present in orange and fruit juices. It is also used in cleaning products
+as a solvent or a water dilutable product. It is a very versatile chemical and
+therefore used in a wide variety of applications. Scalping of D-limonene from
+Solubility of Gases and Vapors in Polylactide Polymers
+359
+-20               -1 0                 0                  1 0                  20                 30                  40
+Activation Energy, kJ/mol
+Aw=0.6
+Aw=1
+PS
+PLA
+LDPE
+PET
+Fig. 5. Activation energy in kilojoules per mole of PET, LDPE, PLA, and PS at Aw  0.6
+and 1.
+
+citrus juices can lead to loss of citrus flavor. Determination of the barrier prop-
+erties of plastics to these organic compounds is very important in industrial
+applications.
+Solubility and permeability coefficient values of ethyl acetate obtained
+from gravimetric experiments are presented in Fig. 6a and b. At 30C, equi-
+librium sorption took more than 30 days, which is an indication of the low
+sorption of ethyl acetate in PLA. Fig. 6a presents the values of ethyl acetate
+sorption in PLA, PET, PP, and LDPE polymers. PS solubility coefficients
+are not reported in the literature, and according to Wang [48] PS dissolves
+in ethyl acetate. Fig. 6a shows that sorption of ethyl acetate in PLA is higher
+360
+R.A. Auras
+PLA
+PET
+PP
+LDPE
+Sx103, kg.m-3.Pa-1
+0
+1
+2
+3
+4
+5
+6
+7
+PLA
+PET
+PP
+LDPE
+ln(Px1021), ln(Kg.m.m-2.s-1.Pa-1)
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+(a)
+(b)
+Fig. 6. (a) Ethyl acetate sorption coefficients for PLA at 30C, p  3030Pa (this work);
+PET at 30C, p  9435Pa [51]; PP at 22C, p  6088Pa [50]; and LDPE at 22C and
+p  4348Pa [49]. (b) Ethyl acetate permeability coefficients for PLA at 30C, p  7560Pa
+(this work); PET at 30C, p  9435Pa [51]; LDPE at 22C, p  4348Pa [49]; and PP at
+22C, p  6088Pa [50].
+
+than that in PET, PP, and LDPE. According to the Regular Solution Theory
+(RST) prediction, ethyl acetate sorption in PET (d  5.51 (J/cm3)1/2) should
+be higher than that in PLA (d  7.80 (J/cm3)1/2). However, as Fig. 7a
+shows, ethyl acetate sorption in PLA is higher than that in PET. PS, with 
+a d  5.79 (J/cm3)1/2, is dissolved in ethyl acetate. RST is useful to esti-
+mate the expected solubility coefficients but cannot exactly predict the kind
+of interaction (i.e., swelling, dissolution, or immiscibility) between PS or
+PET and ethyl acetate.
+Solubility of Gases and Vapors in Polylactide Polymers
+361
+Sx106, kg.m-3.Pa-1
+0
+1e+5
+2e+5
+3e+5
+4e+5
+PLA
+PET
+PP
+LDPE
+PLA
+PET
+PP
+LDPE
+ln(Px1019), ln(kg.m.m-2.s-1.Pa-1)
+0
+2
+4
+6
+8
+10
+12
+14
+16
+(a)
+(b)
+Fig. 7. (a) D-Limonene sorption coefficients for PLA at 45C, p  258Pa (this work);
+PET at 23C, p  40Pa [55]; PP at 22C, p  62Pa [50]; and LDPE at 22C, p  13 Pa
+[55] (the arrow indicates that the values of PLA solubility coefficients are lower than 
+S  4.88  106 kg/(m3 Pa)). (b) D-Limonene permeability coefficients for PLA at 45C,
+p  258Pa (this work); PET at 23C, p  40Pa [55]; PP at 22C, p  62Pa [50]; and
+LDPE at 22C, p  13Pa [55] (the arrow indicates that the values of PLA permeability
+coefficients are lower than P 9.96  1021 kgm/(m2 sPa)).
+
+Solubility coefficient values are of great use in predicting permeant–
+polymer compatibility; however, for packaging applications permeability
+coefficient values better describe the quality of the barrier of a material, and
+are more useful in calculating the shelf life of a product. Fig. 6b compares
+the ethyl acetate permeability coefficient values of PLA, LDPE [49], PP
+[50], and PET [51]. Ethyl acetate permeability coefficients in PLA are lower
+than those for PP and LDPE and slightly higher than those for PET. RST
+cannot be used to predict permeability coefficients since it helps only to obtain
+the relation between solubility and d, which is not enough to predict per-
+meability and also depends on the diffusion coefficient.
+RST calculations predicted lower sorption values of D-limonene in PLA
+compared to those in PET, PP, LDPE, and PS [52]. The D-limonene solubility
+parameter at 45C at a partial pressure of 258 Pa was estimated by Eq. (23)
+as S 4.88106kg/(m3 Pa). On the other hand, assuming a conservative
+case scenario that the sample reaches steady state at day 1, the diffusion coef-
+ficient can be calculated using Eq. (20) (D2.041015m2/s), and the per-
+meability coefficient values can be calculated from Eq. (22). Therefore, for
+D-limonene, permeability coefficients lower than 9.961021kgm/(m2s Pa)
+can be expected. Fig. 7a shows a comparison of the D-limonene sorption
+coefficients of PLA, PET, PP, and LDPE. Values for PS were not found in
+the literature.
+Haugaard et al. [53] compared the impact of PLA, HDPE, and PS on
+quality changes in fresh and unpasteurized orange juice stored at 4C for 14
+days. They found that PLA is better suited for storage of orange juice than
+HDPE and PS due to an effective prevention of color changes, ascorbic acid
+degradation, and D-limonene scalping. For packaging applications perme-
+ability values are more meaningful since they can be used to calculate the shelf
+life of products. Fig. 7b shows the estimated D-limonene permeability coef-
+ficients of PLA, and the values reported in the literature for PET, LDPE, and
+PP. It is observed in Fig. 7b that PLA is a very good barrier to D-limonene.
+Similar findings have been reported by other researchers [53, 54]. PLA has
+much lower D-limonene permeability coefficients than PET, PP, and LDPE.
+7. REGULAR SOLUTION THEORY: SOLUBILITY 
+PARAMETER PREDICTIONS
+Experimental determinations of polymer/chemical interactions are time con-
+suming and expensive, requiring slow and tedious testing. Therefore, meth-
+ods to predict affinity and interaction in these systems can reduce testing
+362
+R.A. Auras
+
+requirements by permitting experimental evaluations to concentrate on the
+specific chemical compounds identified as likely to be of concern because
+of interaction and affinity.
+A modern set of methods can be used to determine interaction or affinity
+between chemical compounds and polymers. These methods were in general
+developed to allow chemical engineers to estimate activity coefficients in
+Solubility of Gases and Vapors in Polylactide Polymers
+363
+PLA
+DBE
+PS
+MEL
+PXP
+PET
+ANI
+BCE
+THD
+DME
+14D
+FUR
+4.00
+5.00
+6.00
+7.00
+8.00
+9.00
+10.00
+11.00
+12.00
+15.00
+16.00
+17.00
+18.00
+19.00
+20.00
+21.00
+δv, Mpa1/2
+δh, Mpa1/2
+Fig. 8. Volume-dependent cohesion parameter (dv) versus Hansen hydrogen-bonding
+parameter for polylactide and ethers. Values indicated for solvents with d  5 MPa1/2
+(FUR, furan; EPH, epichlorohydrin; THD, tetrahydrofuran; 14D, 1,4-dioxane; MEL,
+methylal (dimethoxymethane); BCE, bis(2-chloroethyl) ether; ANI, anisole (methoxyben-
+zene); DME, di-(2-methoxyethyl) ether; DBE, dibenzyl ether; PXP, bis-(m-phenoxyphenol)
+ether).
+
+gas–liquid polymeric systems. Of these methods, three are worth mention-
+ing: (a) RST [15, 21]; (b) UNIFAP (UNIFAC for polymers) [16]; and (c)
+Retention Indices Method (RIM) [56]. The first method is easy to use although
+sometimes lacks quantitativeness. The second method, UNIFAP, requires 
+a large amount of effort and computing power, and the third one, RIM, is
+based on the potential recognized in gas chromatography that the partition
+of a substance between a gas and a polymer liquid can be estimated based
+on its structural increments. The last two methods, although simple, are more
+364
+R.A. Auras
+EME
+BLA
+2EB
+DGN
+DBU
+DTA
+IOL
+ELA
+DAL
+1P L
+2EH
+3CP
+PET
+1DH
+PS
+DGM
+PLA
+EME
+EGB
+TDA
+OA9
+NON
+1DE
+4.00
+5.00
+6.00
+7.00
+8.00
+9.00
+10.00
+11.00
+12.00
+13.00
+14.00
+15.00
+14
+15
+16
+17
+18
+19
+20
+21
+22
+δv, Mpa1/2
+δh, Mpa1/2
+Fig. 9. Volume-dependent cohesion parameter (dv) versus Hansen hydrogen-bonding
+parameter for polylactide and alcohol. Values indicated for solvents with d  5 MPa1/2
+(3CP, 3-chloropropanol; BEA, benzyl alcohol; CHL, cyclohexanol; 1PL, 1-pentanol; 2EB,
+2-ethyl-1-butanol; DAL, diacetone alcohol; DBU, 1,3-dimethyl-1-butanol; ELA, ethyl
+lactate; BLA, n-butyl lactate; EME, ethylene glycol monoethyl ether; DGM, diethylene
+glycol monoethyl ethermethyl; DGE, diethylene glycol monoethyl ether; EGB, ethylene
+glycol mono-n-butyl ether; 2EH, 2-ethyl-1-hexanol; IOL, 1-octanol; 2OL, 2-octanol;
+DGN, diethylene glycol mono n-butyl ether; 1DE, 1-decanol; TDA, 1-tridecanol; NON,
+nonyl; OA9, oleyl alcohol).
+
+complex to apply than RST. In the next section, the RST methodology is used
+to estimate the interaction between PLA and some chemical compound groups
+such as ethers and alcohols. These interactions can be used as an indication
+of the kinds of interactions which should be expected between these permeants
+and PLA.
+Figs. 8 and 9 show the affinity between a number of different permeants
+(ethers and alcohols) and PLA, as well as PET and PS. The solubility regions
+of PLA, PET, and PS are approximated by a circle with a radius of 2.5 d
+units with centers at dv  19.01; dH  10.01 for PLA, dv  19.77; dH  10.97
+for PET, dv  15.90; dH  5.00 for PS, which are the corresponding solubil-
+ity parameters. dD, dP, and dH for PLA, PET, and PS were calculated by the
+average of the Hoftyzer–Van Krevelen and Hoy group contribution methods
+and confirmed by experimental values obtained from the literature [31, 57].
+Note that the distortions from perfect circles in the figures are due to the 
+differing scales of the x and y axes.
+REFERENCES
+[1]
+R. Auras, B. Harte and S. Selke, An overview of polylactides as packaging materials,
+Macromol. Biosci., 4 (2004) 835–864.
+[2]
+D. Garlotta, A literature review of poly (lactic acid), J. Polym. Environ., 9 (2001)
+63–84.
+[3]
+H. Tsuji, in “Polylactides” (Y. Doi and A. Steinbuchel, eds.), pp. 129–177, Biopolymers.
+Polyesters III. Applications and Commercial Products, Vol. 4, Wiley-VCH Verlag
+GmbH, Weinheim, 2002.
+[4]
+R. Dattaa, S.P. Tsaia, P. Bonsignorea, S.-H. Moona and J.R. Frank, Technological
+and economic potential of poly (lactic acid) and lactic acid derivatives, FEMS
+Microbiol. Rev., 16 (1995) 221–231.
+[5]
+E.T.H. Vink, K.R. Rábago, D.A. Glassner and P. Gruber, Applications of life cycle
+assessment to NatureWorks™ polylactide (PLA) production, Polym. Degrad. Stab.,
+80 (2003) 403–419.
+[6]
+G.M. Bohlmann, Biodegradable packaging life-cycle assessment, Environ. Prog.,
+23 (2004) 342–346.
+[7]
+R.E. Conn, J.J. Kolstad, J.F. Borzelleca, et al., Safety assessment of polylactide
+(PLA) for use as a food-contact polymer, Fd. Chem. Toxic., 33 (1995) 273–283.
+[8]
+R. Auras, B. Harte, S. Selke and R. Hernandez, Mechanical, physical, and barrier
+properties of poly (lactide) films, J. Plast. Film Sheet., 19 (2003) 123–135.
+[9]
+R. Auras, S.P. Singh and J.J. Singh, Evaluation of oriented poly (lactide) polymers
+vs. existing PET and oriented PS for fresh food service containers, Packag. Technol.
+Sci., 18 (2005) 207–216.
+[10] R. Auras, J.J. Singh and S.P. Singh, Performance evaluation of PLA existing PET
+and PS containers, J. Test. Eval., 34 (6) (2006) 530–536.
+Solubility of Gases and Vapors in Polylactide Polymers
+365
+
+[11] R.J. Hernandez and J.R. Giacin, in “Factors Affecting Permeation, Sorption, and
+Migration Processes in Package-Product Systems” (I.A. Taub and R.P. Singh, eds.),
+Food Storage Stability, CRC Press LLC, Boca Raton, FL, 1997.
+[12] J. Hildebrand and R.L. Scott, The Solubility of Nonelectrolytes, Reinhold, New
+York, 1950.
+[13] T. Matsui, M. Fukamachi, M. Shimoda and Y. Osajima, Derivation of thermody-
+namic sorption equation of flavors with packaging films: 1, J. Agric. Food Chem.,
+42 (1994) 2889–2892.
+[14] C.M. Hansen and K. Skaarup, Three dimensional solubility parameter – key to paint
+component affinities: III. Independent calculation of the parameter components, 
+J. Paint Technol., 39 (1967) 511–514.
+[15] C.M. Hansen, Hansen Solubility Parameters: A User’s Handbook, CRC Press LLC,
+New York, 1999.
+[16] J.M. Prausnitz, R.N. Lichtenthaler and E. Gomes de Azevedo, Molecular Thermo-
+dynamics of Fluid-Phase Equilibria, Prentice-Hall, Inc., Upper Saddle River, NJ,
+1999.
+[17] J.S. Paik and M.A. Tigani, Application of regular solution theory in predicting equi-
+librium sorption of flavor compounds by packaging polymers, J. Agric. Food Chem.,
+41 (1993) 806–808.
+[18] S.-A. Chen, Polymer miscibility in organic solvents and in plasticizers – a two-
+dimensional approach, J. Appl. Polym. Sci., 15 (1971) 1247–1266.
+[19] M. Fukamachi, T. Matsui, M. Shimoda and Y. Osajima, Derivation of thermody-
+namic sorption equation of flavors with packaging films: 2, J. Agric. Food Chem.,
+42 (1994) 2893–2895.
+[20] D.W. Van Krevelen, Properties of Polymers, Ch 18. Properties Determining Mass
+Transfer in Polymeric Systems. p. 861, Elsevier Science B.V., Amsterdam, The
+Netherlands, 1997.
+[21] A.F.M. Barton, Handbook of Solubility Parameters and Other Cohesion Parameters,
+CRC Press LLC, Boca Raton, FL, 1999.
+[22] P. Neogi, Diffusion in Polymers, Marcel Dekker, Inc., New York, NY, 1996.
+[23] J. Crank, in “The Mathematics of Diffusion”, Publications OS, Oxford University
+Press, Great Britain, 1975.
+[24] R. Gavara and R.J. Hernandez, Consistency test for continuous flow permeability
+experimental data, J. Plast. Film Sheet., 9 (1993) 126–138.
+[25] M. Fujita, T. Sawayanagi, T. Tanaka, et al., Synchrotron SAXS and WAXS studies
+on changes in structural and thermal properties of poly[(R)-3-hydroxybutyrate] single
+crystals during heating, Macromol. Rapid Commun., 26 (2005) 678–683.
+[26] J.F. Mano, Y. Wang, J.C. Viana, Z. Denchev and M.J. Oliveira, Cold crystallization
+of PLLA studied by simultaneous SAXS and WAXS, Macromol. Mater. Eng., 289
+(2004) 910–915.
+[27] M.E. Cagiao, D.R. Rueda, R.K. Bayer and F.J. Baltá Calleja, Structural changes of
+injection molded starch during heat treatment in water atmosphere: simultaneous
+wide and small-angle X-ray scattering study, J. Appl. Polym. Sci., 93 (2004) 301–309.
+[28] R.A. Phillips, Macro-morphology of polypropylene homo-polymer tacticity mixtures,
+J. Polym. Sci. Polym. Phys. Ed., 38 (2000) 1947.
+366
+R.A. Auras
+
+[29] Y. Yampolskii, I. Pinnau and B.D. Freeman, Materials Science of Membranes for Gas
+and Vapor Separation, John Wiley & Sons Ltd, Chichester, West Sussex, England, 2006.
+[30] Y. Osajima and T. Matsui, Dynamic approach to the sorption of flavors into a food
+packaging film, Anal. Sci., 9 (1993) 753–765.
+[31] D.W. Van Krevelen, Properties of Polymers, Elsevier Science B.V., Amsterdam, The
+Netherlands, 1997.
+[32] H. Fujita, A. Kishimoto and K. Matsumoto, Concentration and temperature depend-
+ence of diffusion coefficients for systems polymethyl acrylate and n-alkyl acetates,
+Trans. Faraday Soc., 56 (1960) 424–437.
+[33] J.S. Vrentas and J.L. Duda, Diffusion in polymer–solvent systems: I. Reexamination
+of the free-volume theory, J. Polym. Sci. Polym. Phys. Ed., 15 (1977) 405–416.
+[34] J.E. Palamara, K.A. Mulcahy, A.T. Jones, R.P. Danner and L.J. Duda, Solubility and
+diffusivity of propylene and ethylene in atactic polypropylene by the static sorption
+technique, Ind. Eng. Chem. Res., 44 (2006) 9943–9950.
+[35] M.J. Misovich and E.A. Grulke, Prediction of solvent activities in polymer solutions
+using an empirical free volume correction, Ind. Eng. Chem. Res., 27 (1988) 1033–1041.
+[36] S.H. Jacobson, Molecular modeling studies of polymeric gas separation and barrier
+materials: structure and transport mechanisms, Polym. Adv. Technol., 5 (1994)
+724–732.
+[37] W.J. Koros, D.R. Paul and G.S. Huvard, Energetics of gas sorption in glassy poly-
+mers, Polymer, 20 (1979) 956–960.
+[38] E.S. Sanders, W.J. Koros, H.B. Hopfenberg and V.T. Stannett, Pure and mixed gas
+sorption of carbon dioxide and ethylene in poly (methyl methacrylate), J. Membr.
+Sci., 18 (1984) 53–74.
+[39] S. Kanehashi and K. Nagai, Analysis of dual-mode model parameters for gas sorp-
+tion in glassy polymers, J. Membr. Sci., 253 (2005) 117–138.
+[40] A.S. Michaels, W.R. Vieth and J.A. Barrie, Diffusion of gases in polyethylene
+terephthalate, J. Appl. Phys., 34 (1963) 13–20.
+[41] A.S. Michaels, W.R. Vieth and J.A. Barrie, Solution of gases in polyethylene
+terephthalate, J. Appl. Phys., 34 (1963) 1–12.
+[42] J. Puiggali, Y. Ikada, H. Tsuji, L. Cartier, T. Okihara and B. Lotz, The frustrated
+structure of poly (L-lactide), Polymer, 41 (2000) 8921–8930.
+[43] R. Auras, B. Harte and S. Selke, Effect of water on the oxygen barrier properties of
+polyethylene terephthalate and poly (lactide) films, J. Appl. Polym. Sci., 92 (2004)
+1790–1803.
+[44] H.J. Lehermeier, J.R. Dorgan and D.J. Way, Gas permeation properties of poly 
+(lactic acid), J. Membr. Sci., 190 (2001) 243–251.
+[45] N.S. Oliveira, J. Oliveira, T. Gomes, A. Ferreira, J.R. Dorgan and I.M. Marrucho,
+Gas sorption in poly (lactic acid) and packaging materials, Fluid Phase Equilib.,
+222–223 (2004) 317–324.
+[46] S. Pauly, in “Permeability and Diffusion Data” (J.I. Brandup and E.H. Grulke, eds.),
+p. 547, Polymer Handbook, Wiley, New York, 1999.
+[47] H. Tsuji, R. Okino, H. Daimon and K. Fujie, Water vapor permeability of poly 
+(lactide)s: effects of molecular characteristics and crystallinity, J. Appl. Polym. Sci., 
+99 (2006) 2245–2252.
+Solubility of Gases and Vapors in Polylactide Polymers
+367
+
+[48] T.C. Wang, Pouch method for measuring permeability of organic vapors through
+plastic films, American Chemical Society, Division of Organic and Plastic Chemistry,
+Coat. Plast. Preprints, 31 (1975) 442–447.
+[49] C.D. Barr, J.R. Giacin and R.J. Hernandez, A determination of solubility coefficient
+values determined by gravimetric and isostatic permeability techniques, Packag.
+Technol. Sci., 13 (2000) 157–167.
+[50] T.J. Nielsen and J.R. Giacin, The sorption of limonene/ethyl acetate binary vapor
+mixtures by a biaxially oriented polypropylene film, Packag. Technol. Sci., 7 (1994)
+247–258.
+[51] R.J. Hernandez, J.R. Giacin, A. Shirakura and K. Jayaraman, Diffusion and Sorption
+of Organic Vapors through Oriented Poly (Ethylene Terephthalate) Films of Varying
+Thermomechanical History, Antec’90, Dallas, TX, May 7–11, 1990.
+[52] R. Auras, Investigation of Polylactides as Packaging Materials, p. 268, The School
+of Packaging, Michigan State University, East Lansing, 2004.
+[53] B.K. Haugaard, C.J. Weber, B. Danielsen and G. Bertelsen, Quality changes in
+orange juice packed in materials based on polylactate, Eur. Food Res. Technol., 214
+(2002) 423–428.
+[54] N. Whiteman, P. DeLassus and J. Gunderson, New Flavor and Aroma Barrier
+Thermoplastic, Polylactide, Polyolefins 2002, International Conference on
+Polyolefins, Houston, TX, USA, 2002.
+[55] S.C. Fayoux, A.M. Seuvre and A. Voilley, Aroma transfers in and through plastic
+packagings: orange juice and D-limonene. A review. Part I. Orange juice aroma
+sorption, Packag. Technol. Sci., 10 (1997) 69–82.
+[56] A.L. Baner, in “Partition Coefficients” (O. Piringer and A. Baner, eds.), pp. 79–123,
+Plastic Packaging Materials for Food, Vol. 1, Wiley-VCH Verlag GmbH, Weinheim,
+Germany, 2000.
+[57] H. Tsuji and K. Sumida, Poly (L-lactide): V. Effects of storage in swelling solvents
+on physical properties and structure of poly (L-lactide), J. Appl. Polym. Sci., 
+79 (2001) 1582–1589.
+368
+R.A. Auras

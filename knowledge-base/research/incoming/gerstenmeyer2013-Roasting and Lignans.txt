@@ -1,0 +1,1080 @@
+Analytical Methods
+Effect of thermal heating on some lignans in ﬂax seeds, sesame seeds and rye
+Eva Gerstenmeyer a, Sigrid Reimer a, Emmerich Berghofer b, Heidi Schwartz a,1, Gerhard Sontag a,⇑
+a Institute for Analytical Chemistry, University of Vienna, Währinger Straße 38, A-1090 Vienna, Austria
+b Department of Food Science and Technology, University of Natural Resources and Life Sciences, Muthgasse 18, A-1190 Vienna, Austria
+a r t i c l e
+i n f o
+Article history:
+Received 12 April 2012
+Received in revised form 4 November 2012
+Accepted 20 November 2012
+Available online 5 December 2012
+Keywords:
+HPLC/UV–ESI-MS analysis
+Lignans
+Heated rye
+Sesame seeds
+Flax seeds
+Commercial products
+a b s t r a c t
+Consumption of lignan rich food is presumed to have positive effects on human health. As numerous
+foods are consumed mainly in processed form it is important to investigate the changes of the lignan con-
+tent during processing. To this end, unheated and heated sesame seeds, sesame products, rye grains, rye
+ﬂour, rye bread and ﬂax seeds were extracted by sonication with ethanol/water (70:30, v:v) or sodium
+methoxide. The extracts were additionally hydrolysed enzymatically (b-glucuronidase/arylsulphatase,
+cellulase), the compounds separated on a reversed phase column by gradient elution and detected by
+UV/ESI-MS in the negative ionisation multiple reaction monitoring mode (MRM). Secoisolariciresinol, lar-
+iciresinol, pinoresinol, 7-hydroxymatairesinol, syringaresinol, isolariciresinol, secoisolariciresinol digly-
+coside, lariciresinol monoglycoside, pinoresinol mono-, di- and triglycoside, sesaminol, sesaminol
+triglycoside, sesamolinol and sesamolinol diglycoside were identiﬁed.
+Moderate heating at 100 C did not degrade the lignan aglycones and glycosides in dry foods. In con-
+trast, heating was responsible for the better extractability of the lignans. If samples with high moisture
+content were heated, the degradation of the lignans in sesame seeds and rye was observed already at
+100 C. Higher roasting temperatures caused degradation of aglycones and glycosides. Especially at
+250 C, lignans were degraded rapidly in sesame seeds and rye but not in ﬂax seeds.
+ 2012 Elsevier Ltd. All rights reserved.
+1. Introduction
+Lignans are phytoestrogens present in seeds, vegetable oils,
+cereals, legumes, fruits and vegetables as aglycones, glycosides,
+esteriﬁed glycosides or as bio-oligomers (Bambagiotti-Alberti,
+Coran, Ghiara, Moneti, & Raffaelli, 1994; Coran, Giannellini, &
+Bambagiotti-Alberti, 1996; Johnsson et al., 2002; Kamal-Eldin
+et al., 2001; Schwartz & Sontag, 2006; Smeds et al., 2007).
+Frequently occurring lignans are lariciresinol, pinoresinol, secoisol-
+ariciresinol, syringaresinol, matairesinol, 7-hydroxymatairesinol,
+sesamin, sesamolin and sesamol. Plant foods or oils are used for
+preparing various foods like bakery products, chips or blanched
+and cooked vegetables. During their production, the raw materials
+are heated to a lesser or greater extent and the stability of lignans
+occurring in different conjugation patterns is inﬂuenced.
+Roasting of sesame seeds at 200 C for 60 min cleaved and lib-
+erated phenolic compounds (Jeong et al., 2004), and sesamolin
+could be degraded into sesamol (Lee, Jeung, Park, Lee, & Lee,
+2010). Infrared roasting of sesame seeds at 200 C for 30 min also
+degraded sesamolin to sesamol (Kumar, Appu Pao, & Singh, 2009).
+In sesame oil the content of sesamol increased under heating
+conditions whilst that of sesamolin decreased slightly and the se-
+samin content changed only little. Sesamolin also degraded when
+the oil was heated at 200 C for 20 min (Wu, 2007). For pinoresinol
+a high stability to thermal treatments below 180 C was observed
+in olive oil (Brenes, Garcia, Dobarganes, Velasco, & Romero,
+2002). However, a short microwave treatment already resulted in
+a small decrease (Cerretani, Bendini, Rodriguez-Estrada, Vittadini,
+& Chiavaro, 2009). Daskalaki, Keﬁ, Kotsiou, and Tasioula-Margari
+(2009) reported that lignans like 1-acetoxypinoresinol remained
+unchanged during boiling or frying in olive oil. Lee et al. (2003)
+showed that simple heat treatment could not cleave covalently
+bound phenolic compounds from rice hull, while far infrared treat-
+ment could. In pumpkin seeds, secoisolariciresinol was degraded
+by thermal heating with increasing roasting time (Murkovic
+et al., 2004). Muir and Westcott (2000) and Hyvarinen et al.
+(2006) reported that the complex ester of secoisolariciresinol dig-
+lucoside and secoisolariciresinol diglucoside (SDG) itself are stable
+in various bakery products.
+Lignan consumption is believed to have positive effects on hu-
+man health. Especially the beneﬁts of secoisolariciresinol digluco-
+side have been revealed recently (Adolphe, Whiting, Juurlink,
+Thorpe, & Alcorn, 2010; Touré & Xueming, 2010). In addition, the
+0308-8146/$ - see front matter  2012 Elsevier Ltd. All rights reserved.
+http://dx.doi.org/10.1016/j.foodchem.2012.11.117
+⇑Corresponding author. Tel.: +43 1 4277552303; fax: +43 1 42779523.
+E-mail address: gerhard.sontag@univie.ac.at (G. Sontag).
+1 Current address: Christian Doppler Laboratory for Mycotoxin Metabolism and
+Center for Analytical Chemistry, Department for Agrobiotechnology (IFA-Tulln),
+University of Natural Resources and Life Sciences, Vienna, Konrad Lorenz Str. 20,
+A-3430 Tulln, Austria.
+Food Chemistry 138 (2013) 1847–1855
+Contents lists available at SciVerse ScienceDirect
+Food Chemistry
+journal homepage: www.elsevier.com/locate/foodchem
+
+lignan metabolites enterodiol and enterolacton, produced by intes-
+tinal bacteria in a network of reactions, are proposed to be even
+more potent (Clavel, Dore, & Blaut, 2006) than the original plant
+lignans. Therefore, the thermal stability of lignans during the pro-
+duction of different foods is of great importance.
+The variability of the conjugation pattern depending on the raw
+product makes different sample preparation procedures necessary
+(Schwartz & Sontag, 2011; Smeds et al., 2007). After extraction, the
+compounds
+are
+separated
+by
+gas
+chromatography
+(Liggins,
+Grimwood, & Bingham, 2000; Mazur et al., 1996; Penalvo, Haajanen,
+Botting, & Adlercreutz, 2005), capillary zone electrophoresis
+(Carrasco-Pancorbo, Neususs, Pelzing, Segura-Carretero, & Fernandez-
+Guitierrez, 2007; Carrasco-Pancorbo et al., 2006) and most fre-
+quently by reversed phase chromatography (Eliasson, Kamal-Eldin,
+Andersson, & Aman, 2003; Kraushofer & Sontag, 2002a, 2002b;
+Kuhnle, Dell aquila, Low, Kussmaul, & Bingham, 2007; Milder
+et al., 2004; Moazzami, Anaresson, & Kamal-Eldin, 2006; Muir &
+Westcott, 2000; Nurmi et al., 2003; Obermeyer et al., 1995;
+Popova, Hall, & Kubatova, 2009; Schwartz & Sontag, 2006; Smeds,
+Jauhiainen, Tuomola, & Peltonen-Sainio, 2009; Smeds et al., 2007)
+coupled with different detection modes. Comprehensive reviews
+on the analysis of lignans have been published recently (Muir,
+2006; Slanina & Glatz, 2004; Willfoer, Smeds, & Holmbom, 2006).
+The aim of this study was to investigate the thermal stability of
+water soluble lignans in ﬂax seeds, sesame seeds and rye. Due to
+the lack of appropriate standard compounds for glycosides an
+analytical method was developed to estimate the SDG content
+and to quantify the amount of aglycones. The content of lignans
+of some raw, heat treated and commercial products as well as
+home baked bread should be determined to obtain information
+on the concentration of the remaining lignans.
+2. Materials and methods
+2.1. Raw materials
+Three kg of sesame from Bolivia and hulled sesame premium
+from India were provided by the Department of Food Science and
+Technology, University of Natural Resources and Life Sciences,
+Vienna, Austria. Organic sesame, sesame black and ﬂax seeds
+(1 kg) were purchased in health food shops (Vienna, Austria) in
+2008. Organic rye ﬂour (2 kg) and rye grains (1 kg) were from Al-
+natura GmbH (Bickenbach, Germany).
+2.2. Commercial samples
+2.2.1. Sesame
+Sesam-Krokant (Alnatura GmbH, Bickenbach, Germany), Reis-
+Snack Sesam (Schneekoppe GmbH, Nordheide, Germany), Sesam
+Crunch orange and Sesam Cracker (black sesame, Ruschin GmbH,
+Birkenheide, Germany) were purchased in a health food shop
+(Erlangen, Germany) in 2008.
+2.2.2. Rye
+Kastenbrot was bought in a health food shop (Vienna, Austria)
+in 2008.
+2.2.3. Home baked bread
+Three hundred and seventy grams of rye wholemeal ﬂour (Adler
+Mühle, Balingen, Germany), 250 ml water, a teaspoon of salt, 20 g
+of yeast and 7 g of sourdough were mixed. The dough was held
+at room temperature for 3 h. Subsequently, it was ﬁrst baked at
+190 C for 30 min and at 140 C for 10 min in a baking oven.
+2.3. Substances, reagents and solutions
+Isolariciresinol (>95%) was obtained from Oy Separation Re-
+search (Turku, Finland), 7-hydroxymatairesinol (>95%), secoisola-
+riciresinol (>95%), lariciresinol (>95%), pinoresinol (>95%) and
+matairesinol (>95%) were from Arbo Nova (Turku, Finland) and
+eleutheroside E (syringaresinol diglucoside) Rotichrom was pur-
+chased from Roth GmbH (Karlsruhe, Germany). b-Glucuronidase/
+arylsulphatase from Helix pomatia (5.5 U/ml) was delivered from
+Roche Diagnostics GmbH (Mannheim, Germany). Cellulase Ono-
+zuka
+R-10
+(1 U/mg)
+was
+obtained
+from
+Merck
+(Darmstadt,
+Germany).
+Acetonitrile and methanol (both HPLC gradient grade) were
+purchased from VWR (Vienna, Austria), ethanol (99%) was from
+AustrAlco (Spillern Austria), methanol Rotidry (P99.9%), n-
+hexane Rotipuran (P99%) and glacial acetic acid Rotipuran were
+from Roth GmbH (Karlsruhe, Germany), sodium hydroxide, p.a.,
+zinc sulphate heptahydrate, p.a. and sodium acetate trihydrate
+were purchased from Merck (Darmstadt, Germany). Metallic so-
+dium was provided by the Institute of Organic Chemistry (Univer-
+sity of Vienna).
+Technical nitrogen and helium UN 1046 were from Airliquide
+Austria GmbH, (Schwechat, Austria). Puriﬁed water produced by
+a water puriﬁcation system of Barnstead (Millipore, Bedford, MA,
+USA) was used for all experiments and solutions.
+2.3.1. Stock solutions
+Two milligrams of isolariciresinol, secoisolariciresinol, larici-
+resinol, pinoresinol, matairesinol and 7-hydroxymatairesinol were
+weighed and each of them transferred into a 10 ml ﬂask and dis-
+solved in ethanol (99%).
+2.3.2. Syringaresinol stock solution
+Two milligrams of eleutheroside E (syringaresinol diglucoside)
+were transferred in a ﬂask and dissolved in 10 ml methanol/water
+(50:50, v:v). To 1 ml of this solution, 3.5 ml sodium acetate (0.1 M,
+adapted to pH 5 with glacial acetic acid) and 100 ll b-glucuroni-
+dase/arylsulphatase were added into a vial and incubated at
+37 C for 19 h. The completeness of the enzymatic hydrolysis was
+monitored by HPLC/UV–ESI-MS (Fig. 1), using the characteristic
+m/z values of syringaresinol diglucoside (741.1), syringaresinol
+monoglucoside (579.1) and of the aglycone (417.1). The solution
+was transferred into a 5 ml ﬂask and ﬁlled up with acetonitrile.
+2.3.3. Standard solution I
+Two millilitres of pinoresinol stock solution and 1 ml of the
+stock solutions of isolariciresinol, secoisolariciresinol, lariciresinol,
+matairesinol and 7-hydroxymatairesinol were pipetted into a
+round bottomed ﬂask. Ethanol was evaporated under vacuum
+(Rotavapor RE 120, Büchi, Buchs, Switzerland) and the residue
+was dissolved in 5 ml acetonitrile/water (20:80, v:v) and ﬁlled up
+in a 10 ml ﬂask. From this solution ﬁve appropriate standard solu-
+tions were prepared by dilution with acetonitrile/water (20.80,
+v:v) and applied for determination of the lignans in sesame, ses-
+ame products and ﬂax seed.
+2.3.4. Standard solution II
+Two millilitres of syringaresinol stock solution were mixed with
+1 ml of the stock solutions of pinoresinol, isolariciresinol, secoiso-
+lariciresinol, lariciresinol, matairesinol and 7-hydroxymatairesinol
+in a ﬂask and evaporated under vacuum. The residue was dissolved
+in 10 ml of acetonitrile/water (20:80, v:v). This solution was fur-
+ther diluted and used for the determination of lignans in rye, rye
+ﬂour and rye products.
+1848
+E. Gerstenmeyer et al. / Food Chemistry 138 (2013) 1847–1855
+
+2.4. Sample preparation
+2.4.1. Heating
+Thirty grams of ﬂax seeds, sesame seeds, rye ﬂour and grains
+were heated in an industrial oven (Model 60/3 W, Manz Backtech-
+nik, Münster, Germany) at 100 and 200 C for 10, 20, 30 and
+40 min and at 250 C for 3.5 and 10 min. To simulate the baking
+process, 30 g of the sesame seeds, rye ﬂour and grains were steam
+treated for 2 min, then heated at 100 C, 200 C for 10, 20, 30,
+40 min and at 250 C for 10 min. The moisture content of the sam-
+ples was determined by weighing after steam treating and after
+heating.
+2.4.2. Sample handling
+Thirty grams of Sesam Krokant, Sesam Cracker, Reis Snack Se-
+sam, Sesam Crunch Orange, Sesam Cracker (black sesame), bread
+crust and crumb were crushed with a food processor. Rye grains
+were ground in a mill (MF 10 basic, IKA Werke, Staufen, Germany).
+2.4.3. Defatting
+Thirty grams aliquots of heated and unheated sesame seeds,
+ﬂax seeds or sesame products were homogenised in a commercial
+kitchen blender (Krupps Speedy Pro, Offenbach/Main, Germany)
+and extracted with 200 ml n-hexane for 4 h under reﬂuxing in a
+Soxhlet apparatus. The liquid was decanted and discarded and
+the solid residue was dried under vacuum at 35 C for 30 min.
+The samples were stored at 18 C under exclusion of light.
+Due to the low fat content rye and rye products were not
+defatted.
+2.4.4. Nondestructive extraction
+Fifty milligrams of sesame seeds, ﬂax seeds or sesame products
+were weighed into a 20 ml screwable glass vial, 6 ml of ethanol/
+0.1 M sodium acetate buffer (70:30, v:v, pH 5) were added and
+the mixture was sonicated (Bandelin Sonorex super RK 103H, Iso-
+bad GmbH, Heidelberg, Germany) at 60 C for 2 h. After cooling to
+R.T., the extract was centrifuged at 4000 rpm (Hettich Universal,
+Tuttlingen, Germany) for 15 min. The supernatant was transferred
+into a 10 ml ﬂask. The residue was washed with 2 ml ethanol/
+water (70:30, v:v) and centrifuged at 4000 rpm for 15 min. The
+supernatant was again transferred into the 10 ml ﬂask. Ethanol
+was removed under a constant stream of nitrogen and the ﬂask
+was ﬁlled up for enzymatic hydrolysis with sodium acetate buffer
+(0.1 M, pH 5) or with acetonitrile/water (20:80, v:v) for HPLC/MS
+analysis. One to two ml of the obtained solution were ﬁltered
+through a 13 mm PTFE 0.45 lm syringe ﬁlter (Alltech, Deerﬁeld,
+IL, USA) before injection.
+One to ﬁve grams of rye ﬂour, crushed rye crumb or crust were
+weighed into a 30 ml screwable glass vial, 150 mg zinc sulphate
+and 24 ml ethanol/water (70:30, v:v) were added, and the mixture
+was sonicated at 60 C for 2 h. After cooling to R.T., the solution
+was centrifuged at 4000 rpm for 15 min. The supernatant was
+transferred into a ﬂask and the residue was sonicated with 10 ml
+ethanol/water (70:30, v:v) for 10 min and then centrifuged at
+4000 rpm for 15 min. The supernatant was added again into the
+ﬂask and the solution was concentrated to 5 ml by evaporation
+at 35 C under vacuum. This solution was transferred onto a solid
+phase extraction cartridge (AccuBond II SPE ODS-C18 cartridge,
+Agilent Technologies Inc., Palo Alto, CA, USA) which had previously
+been conditioned with 5 ml of methanol and 5 ml of water. After-
+wards, the column was washed with 5 ml water. Finally, the
+lignans were eluted with 5 ml of methanol into a ﬂask. Methanol
+was removed under a constant stream of nitrogen and the ﬂask
+was ﬁlled up for enzymatic hydrolysis with sodium acetate buffer
+(pH 5) or with acetonitrile/water (20.80, v:v) for HPLC/MS analysis.
+One to two millilitres of the obtained solution were ﬁltered
+through a 13 mm PTFE 0.45 lm syringe ﬁlter (Alltech, Deerﬁeld,
+IL, USA) before injection.
+Fig. 1. Testing of the completeness of the enzymatic hydrolysis of syringaresinol diglucoside (m/z 741.1).
+E. Gerstenmeyer et al. / Food Chemistry 138 (2013) 1847–1855
+1849
+
+2.4.5. Alkaline extraction
+Two hundred and ﬁfty to ﬁve hundred milligrams of crushed
+defatted ﬂax seeds, sesame seeds or sesame products were
+weighed into a screwable glass vial, 6 ml sodium methoxide solu-
+tion (200 mg solid sodium dissolved in 50 ml anhydrous methanol)
+were added and the solution was sonicated in the closed vial at
+40 C for 3 h. After cooling to R.T., the solution was neutralised
+with glacial acetic acid, centrifuged at 4000 rpm for 15 min and
+the supernatant was pipetted into a 10 ml ﬂask. Two ml sodium
+acetate buffer (0.1 M, pH 5) were added to the residue, the solution
+was sonicated for 15 min and centrifuged at 4000 rpm for 15 min.
+Then the supernatant was pipetted into the 10 ml ﬂask and ﬁlled
+up with sodium acetate buffer.
+2.4.6. Enzymatic hydrolysis
+One millilitre of the extract of the nondestructive or alkaline
+extraction, 3.5 ml sodium acetate buffer (0.1 M, pH 5), 30 ll b-
+glucuronidase/arylsulphatase mixture and 20 mg cellulase were
+mixed in a 20 ml vial and incubated at 37 C for 19 h under gentle
+stirring. The hydrolysate was transferred into a 5 ml ﬂask and ﬁlled
+up with acetonitrile. The solution was centrifuged at 10000 rpm for
+5 min and 10 ll were injected into the HPLC/ESI-MS apparatus.
+2.5. Analysis
+2.5.1. HPLC/UV/ESI-MS
+The HPLC 1100 series system (Agilent Technology, Palo Alto,
+USA) consisted of a G1312A binary pump, a G1322A mobile phase
+vacuum degassing unit, a G1313A autosampler, an ACE 3 C18
+column (100  2.1 mm, particle size: 3 lm from Advanced Chro-
+matography Technologies, Aberdeen, Scotland) equipped with a
+Phenomenex Gemini C18 precolumn (4  2 mm, particle size:
+3 lm, Phenomenex, Torrance, CA, USA), a G1314 variable wave-
+length detector and an ion trap mass spectrometric (MS) detector
+(HCT plus, Bruker Daltonics, Bremen, Germany) equipped with an
+electrospray ionisation (ESI) source. Data were acquired using
+Hystar 3.1 and data evaluation was carried out using DataAnalysis
+Version 3.3 from Bruker Daltonics.
+2.5.2. Qualitative and quantitative analysis
+Five to twenty microlitres of the standard solutions or 10 ll of
+sample extracts were injected into the HPLC system and the com-
+pounds were separated on the reversed phase column at 30 C by
+gradient elution applying a ﬂow rate of 0.25 ml/min. Mobile phase
+A consisted of 0.1% acetic acid in water, mobile phase B contained
+0.1% acetic acid in acetonitrile. Chromatographic separation was
+achieved using the following gradient: 0–0.5 min 10% B, 0.5–
+12 min linear increase to 30% B, 12–20 min linear increase to 60%
+B, 20–21 min decrease to 10% B, 21–30 min re-equilibration.
+Electrospray ionisation was performed with nitrogen as nebulizing
+gas (10 L/min), 40 psi nebulizing pressure, at 300 C drying gas
+temperature. Optimum mass spectrometric parameters (capillary
+voltage: +4.5 kV, skimmer potential: 40 V, capillary exit poten-
+tial: 170 V and trap drive: 38) were determined by direct infusion
+experiments of standard solutions and software controlled optimi-
+sation. The total ion chromatograms (TIC) of ESI-MS in the negative
+ion scan mode (100–1000 m/z) were used for qualitative analysis.
+For quantitative analysis, the extracted ion chromatograms (EIC)
+of the deprotonated molecular ions [MH] measured in the mul-
+tiple reaction monitoring (MRM) mode (100–450 m/z) were used
+for isolariciresinol (m/z 359.1), secoisolariciresinol (m/z 361.1),
+syringaresinol (m/z 417.1), pinoresinol (m/z 357.1), matairesinol
+(m/z 357.1) and 7-hydroxymatairesinol (m/z 373.1). In the case of
+lariciresinol, fragmentation of the deprotonated molecular ion
+(m/z 359.1) without isolation and isolation of the fragment ion
+(m/z 329.1) was employed.
+2.5.3. Estimation of the SDG content
+Ten microlitres of extract of the alkaline extraction (see Sec-
+tion 2.4.5) were injected into the HPLC/UV–ESI-MS system, the
+compounds were separated by gradient reversed phase chroma-
+tography and detected at 280 nm (Fig. 2). SDG was qualitatively
+conﬁrmed by ESI/MS trace at m/z 685.7. For quantitative determi-
+nation of SDG, the UV peak areas of SDG were put into a UV calibra-
+tion function established for SECO and the obtained concentrations
+were corrected for differences in molecular mass by multiplying by
+the molecular mass of SDG and dividing by the molecular mass of
+secoisolariciresinol.
+2.5.4. Validation of the method
+Standard calibration curves containing at least ﬁve concentra-
+tions of each lignan were generated between 0.004 and 40 mg/l
+by plotting the MS peak areas versus the concentration and the
+correlation coefﬁcients (R2) were evaluated. The limits of detection
+(LODs) and the limits of quantitation (LOQs) were determined at a
+signal to noise ratio of 3 and 10, respectively. The intraday repro-
+ducibility was assessed on the basis of ﬁve injections of a standard
+solution containing the lignans in concentrations between 0.05 and
+0.4 mg/l and on the basis of quintuplicate injection of extracts of
+ﬂax seeds, sesame seeds and rye ﬂour. The interday reproducibility
+was determined by injecting the above mentioned solutions
+ﬁve times over a period of 5 days. To investigate the change of
+UV signal
+[mAU]
+SDG
+SECO
+Time [min]
+10
+12
+14
+16
+18
+100
+0
+50
+Fig. 2. HPLC/UV chromatogram of a ﬂax seed extract after extraction with methanol/sodium methoxide. SDG: secoisolariciresinol diglucoside, SECO: secoisolariciresinol.
+1850
+E. Gerstenmeyer et al. / Food Chemistry 138 (2013) 1847–1855
+
+sensitivity over a longer period, the slopes of calibration curves of
+the investigated lignans were determined and the relative standard
+deviations were evaluated. The reliability of the analytical method
+was tested using an unroasted organic sesame sample which was
+analysed (N = 18) over a period of 8 months. Recoveries of the indi-
+vidual lignans in different matrices were determined by standard
+addition method.
+2.5.5. Standard addition method
+The concentration of each lignan in unheated and heated sam-
+ples was estimated using the daily measured calibration curves.
+Then, 50%, 100%, 150% and 200% of the estimated concentration
+were added to the sample aliquots and the samples were worked
+up and analysed. The concentrations of the lignans were deter-
+mined by plotting the peak areas versus the added concentrations
+of the corresponding lignan, linear regression, and division of the
+y-intersection (d) by the slope of the regression line y = kx + d.
+Recoveries (N = 3) of the individual lignans were determined in
+heated and unheated ﬂax seeds, sesame seeds, sesame products,
+rye ﬂour and grains, bread crust and crumb by dividing the slopes
+of the standard addition curves by the slopes of calibration func-
+tions recorded in neat standard solutions.
+3. Results and discussion
+3.1. Qualitative analysis
+In
+standard
+solutions,
+isolariciresinol
+(m/z
+359.1),
+7-hy-
+droxymatairesinol (m/z 373.1), secoisolariciresinol (m/z 361.1),
+syringaresinol (m/z 417.1), pinoresinol (m/z 357.1) and matairesi-
+nol (m/z 357.1) were separated within 30 min by gradient reversed
+phase chromatography detected by UV at 280 nm and by ESI/MS in
+the multiple reaction monitoring mode (MRM) isolating and
+measuring the deprotonated ions [MH] (Fig. 3). In the case of
+lariciresinol, the highest response was observed after fragmenting
+the deprotonated ion (m/z 359.1) and isolating the product ion of
+m/z 329.1.
+In the extracts of ﬂax seeds, sesame seeds and rye, isolarici-
+resinol, secoisolariciresinol, secoisolariciresinol diglucoside (m/z
+685.7), lariciresinol, lariciresinol monoglycoside (m/z 521.1), 7-
+hydroxymatairesinol,
+syringaresinol,
+pinoresinol,
+pinoresinol
+monoglycoside (m/z 519.1), pinoresinol diglycoside (m/z 681.1),
+pinoresinol triglycoside (m/z 843.1), sesaminol (m/z 369.1), sesa-
+minol diglycoside (m/z 693.1), sesaminol triglycoside (m/z 855.1),
+sesamolinol (m/z 371.1) and sesamolinol diglycoside (m/z 695.1)
+were detected. The aglycones could be identiﬁed on the basis of
+the retention times and the fragmentation pattern of the com-
+pounds. Due to the lack of standard compounds for glycosides, only
+the m/z values of the deprotonated molecular ions and the frag-
+mentation pattern could be used to verify their presence in the
+samples. Since the fate of sesaminol and sesamolinol in sesame
+seeds and oil during thermal, microwave and IR heating had been
+investigated in detail in several studies (Jeong et al., 2004; Kumar
+et al., 2009; Lee et al., 2010), the lignans isolariciresinol, secoisola-
+riciresinol, lariciresinol, syringaresinol and pinoresinol were se-
+lected in the present work. Concentrations of these lignans in the
+individual samples were sufﬁciently high to enable the investiga-
+tion of changes in their content caused by thermal treatment.
+3.2. Quantitative analysis
+3.2.1. Validation
+The calibration curves of isolariciresinol (0.005–2 mg/l), 7-
+hydroxymatairesinol (0.007–4 mg/l, secoisolariciresinol (0.004–
+2 mg/l), lariciresinol (0.004–2 mg/l), syringaresinol (0.005–1 mg/l),
+pinoresinol
+(0.008–8 mg/l)
+and
+matairesinol
+(0.004–2 mg/l)
+Fig. 3. Extracted ion chromatograms (EIC) of the lignans.
+E. Gerstenmeyer et al. / Food Chemistry 138 (2013) 1847–1855
+1851
+
+established by ESI/MS detection were linear and the correlation
+coefﬁcients (R2) were greater than 0.997. The limits of quantitation
+(S/N = 10) were between 0.01 mg/l (lariciresinol) and 0.04 mg/l
+(7-hydroxymatairesinol). The intraday reproducibilities were be-
+tween 3.8% (isolariciresinol) and 9.0% (lariciresinol) and the
+interday reproducibilities were found to be between 4.6% (isolaric-
+iresinol) and 12% (syringaresinol). The slopes of the calibration
+curves of the investigated lignans showed relative standard devia-
+tions (N = 56) between 18% (pinoresinol) and 23% (secoisolaricires-
+inol) over 13 months. To check the reliability of the analytical
+method, an unroasted organic sesame sample was analysed
+(N = 18) over a period of 8 months and the relative standard devi-
+ations of the contents varied between 5.6% (lariciresinol) and 2.8%
+(pinoresinol).
+3.2.2. Analysis of lignans
+To investigate to which extent aglycones, glycosides or complex
+lignan compounds are present in ﬂax seeds, sesame seeds and rye,
+three different sample preparation steps were applied: extraction
+with ethanol/water, extraction with ethanol/water followed by
+enzymatic hydrolysis, and alkaline extraction with sodium meth-
+oxide combined with enzymatic hydrolysis. The efﬁciency of
+enzymatic cleavage of the glycosides by means of a mixture of b-
+glucuronidase/arylsulphatase/cellulase could be conﬁrmed on the
+basis of the HPLC/MS chromatograms. In contrast, cellulase alone
+did not achieve complete cleavage of the glycosides so that the
+peaks of the glycosides could be observed in the chromatograms.
+3.2.2.1.
+Flax
+seeds. LC–MS
+measurement
+after
+nondestructive
+extraction of defatted ﬂax seeds with ethanol/water did not indi-
+cate free aglycones, secoisolariciresinol diglucoside (SDG) or other
+glycosides. However, after enzymatic hydrolysis of the extract,
+small concentrations of secoisolariciresinol (0.1 mg/100 g), lari-
+ciresinol
+(0.2 mg/100 g)
+and
+pinoresinol
+(0.7 mg/100 g)
+were
+found. This is due to the presence of small concentrations of glyco-
+sides of the above mentioned aglycones. Applying an alkaline
+extraction with sodium methoxide, the esters and oligomers were
+cleaved and SDG (Fig. 2) was formed in a relatively high concentra-
+tion (1099 mg/100 g). Similar concentrations in defatted ﬂax seeds
+were found by Li, Yung, Xu, Wang, and Liu (2008). Though SDG is
+the main glycoside, also glycosides of lariciresinol, pinoresinol
+and isolariciresinol were detected in far lower concentrations.
+Hydrolysis of the alkaline extract by the enzyme mixture increased
+the concentration of lariciresinol to 3.3 mg/100 g, that of pinoresi-
+nol to 24.8 mg/100 g, that of isolariciresinol to 10.2 mg/100 g and
+that of secoisolariciresinol to 485 mg/100 g. The recoveries of the
+lignans were in the range between 90.8% (isolariciresinol) and
+97.7%
+(lariciresinol).
+LOQs
+ranged
+between
+0.02 mg/100 g
+(secoisolariciresinol) and 0.18 mg/100 g (pinoresinol). The results
+indicate that also parts of lariciresinol, pinoresinol and isolaricires-
+inol are occurring naturally as esters and that aglycones were re-
+leased not until alkaline extraction and enzymatic hydrolysis
+were applied.
+When unheated and heated (100, 200 and 250 C) ﬂax seed
+samples were extracted with sodium methoxide, the HPLC/ESI-
+MS analysis showed a small increase of SDG from 1099 (unheated)
+to 1200 mg/100 g (250 C, 3.5 min). The enzymatic hydrolysis of
+the alkaline extracts resulted in an increase of secoisolariciresinol
+from 485 to 610 mg/100 g, of lariciresinol from 3.3 to 3.75 mg/
+100 g, of pinoresinol from 24.8 to 30.2 mg/100 g and of isolaricires-
+inol from 10.4 to 13.8 mg/100 g when the samples were heated.
+Hence it can be deduced that SDG and the aglycones are stable
+even if the samples are heated to 250 C for 3.5 min. The increase
+of their concentrations was most likely caused by a better extract-
+ability of lignans due to increasing porosity of the heated seeds.
+Muir and Westcott (2000) also observed that SDG is not formed
+during the heating process but that its recovery depends on grind-
+ing. Furthermore, the addition of pure SDG to bakery products
+demonstrated that it is not thermally degraded (Hyvarinen et al.,
+2006; Muir & Westcott, 2000).
+3.2.2.2. Sesame seeds. In the ethanol/sodium acetate buffer extract
+of defatted sesame seed samples the aglycones, lariciresinol,
+pinoresinol, sesaminol, sesamolinol and traces of isolariciresinol
+and 7-hydroxymatairesinol (Table 1) were found by HPLC/ESI-MS
+analysis. With one exception (sesame black) the concentration of
+7-hydroxymatairesinol
+was
+below
+the
+limit
+of
+quantitation
+(0.25 mg/100 g). Additionally, the molecular ions and product ions
+indicated the presence of lariciresinol monoglycoside (m/z 521.1,
+m/z 491.1) and of mono-, di- and triglycosides of pinoresinol, ses-
+aminol triglycoside (m/z 855.1) and sesamolinol diglycoside (m/z
+695.1). If the extract was hydrolysed enzymatically (b-glucuroni-
+dase/arylsulphatse/cellulase), the glycosides disappeared. Cellulase
+released only smaller amounts, e.g. of pinoresinol and lariciresinol
+than the enzyme mixture. Due to the low concentrations of isola-
+riciresinol
+and
+7-hydroxymatairesinol,
+only
+lariciresinol
+and
+pinoresinol were quantiﬁed. The recoveries were 90.3% for lari-
+ciresinol and 80.7% for pinoresinol. The limits of quantitation were
+0.02 mg/100 g for lariciresinol and 0.07 mg/100 g for pinoresinol.
+Lariciresinol and pinoresinol were present in organic sesame seeds
+as aglycones (Figs. 4 and 5). If the extract was hydrolysed by the
+enzyme mixture b-glucuronidase/arylsulphatase and cellulase,
+the glycosides were cleaved, causing an increase of the concentra-
+tion of lariciresinol from 3.5 to 4.25 mg/100 g and of pinoresinol
+from 19.6 to 40.71 mg/100 g, indicating that the proportion of nat-
+urally occurring glycosides is especially high for pinoresinol.
+Table 1
+Content and estimated content (considering the amount of sesame indicated in the product) of lignans in commercial sesame products and different sesame seed species (N = 3).
+LARI: lariciresinol, LARIest: estimated content of lariciresinol, PINO: pinoresinol, PINOest: estimated content of pinoresinol, 7-OH-MAT: 7-hydroxymatairesinol.
+Product
+LARI
+LARIest
+PINO
+PINOest
+7-OH-MAT
+mg/100 g
+Sesam Krokant
+0.92 ± 0.04
+1.80
+13.47 ± 0.98
+26.40
+*
+Sesam Cracker
+0.68 ± 0.02
+1.03
+7.67 ± 0.42
+11.62
+*
+Reis Snack Sesam
+0.60 ± 0.01
+1.53
+0.14 ± 0.00
+1.34
+*
+Sesam Crunches Orange
+0.87 ± 0.06
+1.73
+12.71 ± 1.31
+25.42
+*
+Sesam Cracker (Sesame black)
+0.42 ± 0.06
+**
+4.90 ± 0.32
+**
+0.54 ± 0.05
+Organic Sesame
+4.25 ± 0.16
+40.71 ± 0.91
+*
+Sesame (Bolivia)
+2.87 ± 0.05
+42.88 ± 0.34
+*
+Sesame black
+2.99 ± 0.25
+31.05 ± 3.14
+7.99 ± 1.05
+Sesame (India)
+3.66 ± 0.29
+40.55 ± 2.66
+*
+* Below LOQ.
+** Amount of sesame black not speciﬁed.
+1852
+E. Gerstenmeyer et al. / Food Chemistry 138 (2013) 1847–1855
+
+The alkaline extraction with sodium methoxide of an aglycone
+standard solution yielded the following recoveries for isolaricire-
+sinol
+(6100%),
+secoisolariciresinol
+(95%),
+lariciresinol
+(95%),
+pinoresinol (95%), matairesinol (75%) and 7-hydroxymatairesinol
+(5%). In sesame seeds, lariciresinol was stable under alkaline
+extraction conditions whereas the concentration of pinoresinol de-
+creased from 40.71 to 34.4 mg/100 g. These results suggest that the
+glycosides are partially unstable under alkaline conditions.
+To mimic the temperatures expected during baking of bread,
+sesame seeds were heated in an oven at 100, 200 and 250 C
+and afterwards analysed. Heating of sesame seeds at 100 C for
+10 to 40 min did not change the content of lariciresinol and
+pinoresinol essentially (Figs. 4 and 5), indicating that the aglycones
+and the glycosides are stable under these conditions. At 200 C the
+content of both aglycones and glycosides decreased with increas-
+ing time of heating. Especially heating at 250 C for more than
+10 min was responsible for a fast degradation of aglycones and gly-
+cosides (Figs. 4 and 5). In sesame seeds treated with steam before
+Table 2
+Content of lignans in rye ﬂour, grains, commercial and home-baked breads (N = 3).
+Products
+Lariciresinol Syringaresinol Pinoresinol
+lg/100 g
+Rye grains
+24.0 ± 1.3
+212.3 ± 3.0
+33.6 ± 1.5
+Rye ﬂour
+13.4 ± 0.8
+138.6 ± 11.8
+25.4 ± 2.3
+Commercial bread crust (Kastenbrot)
+9.9 ± 0.5
+125.4 ± 10.6
+16.4 ± 0.1
+Commercial bread crumb
+(Kastenbrot)
+11.3 ± 1.3
+157.8 ± 2.8
+19.1 ± 0.5
+Bread crust (home-baked)
+5.9 ± 0.2
+60.0 ± 1.6
+10.3 ± 0.1
+Bread crumb (home-baked)
+12.7 ± 0.5
+129.6 ± 8.4
+16.7 ± 2.4
+0
+1
+2
+3
+4
+5
+10 min.
+20 min.
+30 min.
+40 min.
+10 min.
+20 min.
+30 min.
+40 min.
+US/ENZ
+US
+Time
+Yield (mg/100g)
+unheated
+100°C
+200°C
+250°C
+Fig. 4. Content of lariciresinol in unheated (black bar) and heated (100, 200, 250 C) organic sesame seeds. US: ultrasonic extraction; US/ENZ: ultrasonic extraction followed
+by enzymatic hydrolysis.
+0
+10
+20
+30
+40
+50
+10 min.
+20 min.
+30 min.
+40 min.
+10 min.
+20 min.
+30 min.
+40 min.
+US/ENZ
+US
+Time
+Yield (mg/100g)
+unheated
+100°C
+200°C
+250°C
+Fig. 5. Content of pinoresinol in unheated (black bar) and heated (100, 200, 250 C) organic sesame seeds. US: ultrasonic extraction; US/ENZ: ultrasonic extraction followed
+by enzymatic hydrolysis.
+E. Gerstenmeyer et al. / Food Chemistry 138 (2013) 1847–1855
+1853
+
+heating, the degradation of aglycones and glycosides of lariciresi-
+nol and pinoresinol began already at 100 C (Gerstenmeyer, 2010).
+3.2.2.3. Analysis of commercial sesame products. During the process-
+ing of commercial sesame products like crunches, crackers or brit-
+tle, various amounts of sesame are heated together with other raw
+materials like honey, sugar or orange juice. In the ethanol/sodium
+acetate extract of the defatted samples, small concentrations of the
+aglycones isolariciresinol, lariciresinol, pinoresinol, 7-hydroxyma-
+tairesinol were found. Additionally, lariciresinol monoglycoside
+and the mono-, di- and triglycosides of pinoresinol were identiﬁed
+beside the di-and triglycosides of sesaminol and the diglycoside of
+sesamolinol. Enzymatic hydrolysis of the extract cleaved the glyco-
+sidic compounds and the aglycones of lariciresinol, pinoresinol and
+7-hydroxymatairesinol were quantiﬁed. Due to the known compo-
+sition of the sesame products, the contents of lariciresinol and
+pinoresinol could be estimated and compared with our data. For
+this purpose, four sesame species were analysed (Table 1). Gener-
+ally, the estimated values of the aglycones based on the analysed
+sesame species were higher than in the products. This can be a hint
+that thermal degradation of the glycosides and aglycones took
+place during the preparations of the products. Yet, also the use of
+hulled or non-hulled sesame seeds and natural variation between
+different varieties of sesame can explain differences between esti-
+mated and found concentrations.
+3.2.2.4. Analysis of rye. In rye ﬂour and grains extracted with etha-
+nol/water, lignan aglycones could not be identiﬁed until the extract
+was hydrolysed by enzymes. At ﬁrst the sample preparation caused
+problems due to the viscosity of the solution after extraction, but
+the addition of zinc sulphate to the samples enhanced the recovery
+of the lignans. Similar observations were made by the analysis of
+isoﬂavones in different samples (Schwartz & Sontag, 2009). The
+recoveries determined by the standard addition method for rye
+ﬂour and grains were found to be 65.2% and 65.1% for lariciresinol,
+67.3% and 64.8% for syringaresinol and 61.7% and 66.8% for
+pinoresinol, respectively. The LOQs (S/N = 10) were 5.5 lg/100 g
+grains for lariciresinol, 31.5 lg/100 g grains for syringaresinol
+and 33.4 lg/100 g grains for pinoresinol. In rye ﬂour, the LOQs
+were 6.5 lg/100 g (lariciresinol), 22.3 lg/100 g (syringaresinol)
+and 17.2 lg/100 g (pinoresinol). Due to the presence of the hull,
+the content of lignans in rye grains is higher than that in rye ﬂour
+(Table 2). Still, the results are considerably lower than those re-
+ported by (Smeds et al., 2007). Evidently, with the non-destructive
+extraction with ethanol/water only aglycones and glycosides, but
+not esteriﬁed glycosides could be extracted. However, when
+destructive alkaline extraction with sodium methoxide was ap-
+plied, the extracts were of high viscosity and particles were clog-
+ging the cartridges. Therefore, it was abstained from alkaline
+hydrolysis, knowing that esteriﬁed lignans would not be found in
+the extract.
+The heating of rye ﬂour and grains at 100 C caused an increase
+of the concentrations of lariciresinol, pinoresinol and syringaresi-
+nol with increasing time (Fig. 6). If the samples were treated with
+steam before heating to 100 C, a decrease of the lignan concentra-
+tion in comparison to the untreated samples was observed
+(Gerstenmeyer, 2010). At 200 C, the degradation began after
+10 min heating and became more pronounced with increased heat-
+ing time. Heating rye ﬂour or grains at 250 C for more than 15 min
+resulted in a complete degradation of lariciresinol, syringaresinol
+and pinoresinol. The increase of the lignan concentrations with
+heating time at 100 C can be explained by the better extractability
+of the lignans due to the porosity of the matrix after heating. It was
+also observed that heated samples can be easier worked up than
+unheated ones.
+3.2.2.5. Analysis of bread. The analysis of lignans in the ethanol/
+water extract conﬁrmed the results of investigation of the raw
+materials with respect to aglycones. The heating during baking
+did not cleave the glycosidic bounds. Therefore, aglycones were
+not found until enzymatic hydrolysis was applied. As expected,
+the concentrations of the lignans were lower especially in the
+bread crust, but the degradation of aglycones and glycosides dur-
+ing the baking process was not extensive (Table 2).
+4. Conclusion
+It could be demonstrated that the sample preparation dramati-
+cally inﬂuences the results (Figs. 4 and 5) but makes the interpre-
+tation of the kind of naturally occurring lignans in various food
+matrices possible. Moderate heating at 100 C degraded lignan
+aglycones, glycosides, and esters in some, but not in all analysed
+0
+0,1
+0,2
+0,3
+10 min.
+20 min.
+30 min.
+40 min.
+10 min.
+20 min.
+30 min.
+40 min.
+lariciresinol
+syringaresinol
+Time
+Yield (mg/100g)
+unheated
+100°C
+200°C
+250°C
+Fig. 6. Release and degradation of lariciresinol and syringaresinol dependent on the applied temperature in rye ﬂour.
+1854
+E. Gerstenmeyer et al. / Food Chemistry 138 (2013) 1847–1855
+
+raw materials. Treatment of sesame seeds, rye ﬂour and grains
+with steam induced degradation of the lignans already at 100 C.
+Higher roasting temperatures (e.g. 250 C) caused degradation of
+aglycones and glycosides in rye and sesame seeds. Temperatures
+of 250 C can be reached, e.g. at the crust of bread during baking.
+In ﬂax seeds, isolariciresinol, secoisolariciresinol, lariciresinol
+and pinoresinol which were mainly present as esteriﬁed com-
+pounds were stable even if heated to 250 C for 3.5 min. In con-
+trast, pinoresinol aglucone in olive oil was degraded even at
+180 C (Brenes et al., 2002; Carrasco-Pancorbo et al., 2007). This
+ﬁnding demonstrates that the type of conjugation and the matrix
+inﬂuence the thermal stability of lignans. To conserve a relatively
+high content of lignans during production of commercial foods,
+the raw product, the water content and the applied temperatures
+have to be considered and optimised.
+References
+Adolphe, J. L., Whiting, S. J., Juurlink, B. H. J., Thorpe, L. U., & Alcorn, J. (2010). Health
+effects with consumption of the ﬂax lignan secoisolariciresinol diglucoside. The
+British Journal of Nutrition, 103, 929–938.
+Bambagiotti-Alberti, M., Coran, S. A., Ghiara, C., Moneti, G., & Raffaelli, A. (1994).
+Investigation of mamalian lignan precursors in ﬂax seed: First evidence of
+secoisolariciresinol
+diglucoside
+in
+two
+isomeric
+forms
+by
+liquid
+chromatography/mass
+spectrometry.
+Rapid
+Communications
+in
+Mass
+Spectrometry, 8, 929–932.
+Brenes, M., Garcia, A., Dobarganes, M. C., Velasco, J., & Romero, C. (2002). Inﬂuence
+of thermal treatments simulating cooking processes on the polyphenol content
+of virgin olive oil. Journal of Agriculture and Food Chemistry, 50, 5962–5967.
+Carrasco-Pancorbo, A., Gomez-Caravaca, A. M., Cerretani, L., Bendini, A., Segura-
+Carretero,
+A.,
+&
+Fernandez-Guitierrez,
+A.
+(2006).
+A
+simple
+and
+rapid
+electrophoretic method to characterize simple phenols, lignans, complex
+phenols, phenolic acids, and ﬂavonoids in extra-virgin olive oil. Journal of
+Separation Science, 29, 2221–2233.
+Carrasco-Pancorbo, A., Neususs, C., Pelzing, M., Segura-Carretero, A., & Fernandez-
+Guitierrez, A. (2007). CE- and HPLC–TOF-MS for the characterization of phenolic
+compounds in olive oil. Electrophoresis, 29, 806–821.
+Cerretani, L., Bendini, A., Rodriguez-Estrada, M. T., Vittadini, E., & Chiavaro, E.
+(2009). Microwave heating of different commercial categories of olive oil: Part I.
+Effect on chemical oxidative stability indices and phenolic compounds. Food
+Chemistry, 2, 1381–1388.
+Clavel, T., Dore, J., & Blaut, M. (2006). Bioavailability of lignans in human subjects.
+Nutrition Research Reviews, 19, 187–196.
+Coran, S. A., Giannellini, V., & Bambagiotti-Alberti, M. (1996). A novel monitoring
+approach for mamalian lignan precursors in ﬂax seed. Pharmaceutical Sciences,
+2, 529–532.
+Daskalaki, D. K., Keﬁ, G., Kotsiou, K., & Tasioula-Margari, M. (2009). Evaluation of
+phenolic compounds degradation in virgin olive oil during storage and heating.
+Journal of Food and Nutrition Research, 48, 31–41.
+Eliasson, C., Kamal-Eldin, A., Andersson, R., & Aman, P. (2003). High performance
+liquid
+chromatographic
+analysis
+of
+secoisolariciresinol
+diglucoside
+and
+hydroxycinnamic acid glucosides in ﬂax seed by alkaline extraction. Journal of
+Chromatography A, 1012, 151–159.
+Gerstenmeyer,
+E.
+(2010).
+Analyse
+von
+Lignanen
+in
+rohen
+und
+zubereiteten
+Lebensmitteln.
+Doctoral
+Thesis.
+University
+of
+Vienna,
+Vienna,
+Austria:
+133,134,164,165,167.
+Hyvarinen, H. K., Pihlava, J.-M., Hiidenhovi, J. A., Hietaniemi, V., Korhonen, H. J. T., &
+Ryhanen, E.-L. (2006). Effect of processing and storage on the stability of
+ﬂaxseed lignan added to bakery products. Journal of Agriculture and Food
+Chemistry, 54, 48–53.
+Jeong, J.-M., Kim, S.-Y., Kim, D.-R., Nam, K. C., Ahn, D. U., & Lee, S.-C. (2004). Effect of
+seed roasting conditions on the antioxidant activity of defatted sesame meal
+extracts. Journal of Food Science, 69, C377–C381.
+Johnsson, P., Peerlkamp, N., Kamal-Eldin, A., Andersson, R. E., Andersson, R.,
+Lundgren, L. N., et al. (2002). Polymeric fractions containing phenol glucosides
+in ﬂax seed. Food Chemistry, 76, 207–212.
+Kamal-Eldin, A., Peerlkamp, N., Johnsson, P., Andersson, R., Andersson, R. E.,
+Lundgren, L. N., et al. (2001). An oligomer from ﬂaxseed composed of
+secoisolariciresinol
+diglucoside
+and
+3-hydroxy-3-methyl
+glutaric
+acid
+residues. Phytochemistry, 58, 587–590.
+Kraushofer, T., & Sontag, G. (2002a). Determination of some phenolic compounds in
+ﬂax seed and nettle roots by HPLC with coulometric electrode array detection.
+European Food Research and Technology, 215, 529–533.
+Kraushofer, T., & Sontag, G. (2002b). Determination of matairesinol in ﬂax seed by
+HPLC with coulometric electrode array detection. Journal of Chromatography B,
+777, 61–66.
+Kuhnle, G. G., Dell aquila, C., Low, Y.-L., Kussmaul, M., & Bingham, S. A. (2007).
+Extraction and quantiﬁcation of phytoestrogens in foods using automated solid-
+phase extraction and LC/MS/MS. Analytical Chemistry, 79, 9234–9239.
+Kumar, C. M., Appu Pao, A. G., & Singh, S. S. (2009). Effect of infrared heating on the
+formation of sesamol and quality of defatted ﬂours from Sesamum indicum L.
+Journal of Food Science, 74, H105–H111.
+Lee, S. W., Jeung, M. K., Park, M. H., Lee, S. Y., & Lee, J.-H. (2010). Effects of roasting
+conditions of sesame seeds on the oxidative stability of pressed oil during
+thermal oxidation. Food Chemistry, 118, 681–685.
+Lee, S.-C., Kim, J.-H., Jeong, S.-M., Kim, D.-R., Ha, J.-U., Nam, K. C., et al. (2003). Effect
+of far-infrared radiation on the antioxidant activity of rice hulls. Journal of
+Agriculture and Food Chemistry, 51, 4400–4403.
+Li, X., Yung, J.-P., Xu, S.-P., Wang, J.-H., & Liu, X. (2008). Separation and
+determination
+of
+secoisolariciresinol
+diglucoside
+oligomers
+and
+their
+hydrolysates in ﬂaxseed extract by high performance liquid chromatography.
+Journal of Chromatography A, 1185, 223–232.
+Liggins, J., Grimwood, R., & Bingham, S. (2000). Extraction and quantiﬁcation of
+lignan phytoestrogens in food and human samples. Analytical Biochemistry, 287,
+102–109.
+Mazur, W., Fotis, T., Wähälä, K., Ojala, S., Salakka, A., & Adlercreutz, H. (1996).
+Isotope dilution gas chromatographic-mass spectrometric method for the
+determination of isoﬂavonoids, coumestrol, and lignans in food samples.
+Analytical Biochemistry, 233, 169–180.
+Milder, I. E., Arts, I. C., Venema, D. P., Lasaroms, J. P., Wähälä, K., & Hollman, P. C. H.
+(2004). Optimization of a liquid chromatography–tandem mass spectrometry
+for quantiﬁcation of the plant lignans secoisolariciresinol, matairesinol, and
+pinoresinol in foods. Journal of Agriculture and Food Chemistry, 52, 4643–4651.
+Moazzami, A. A., Anaresson, R. E., & Kamal-Eldin, A. (2006). HPLC analysis of
+sesaminol glucosides in sesame seeds. Journal of Agriculture and Food Chemistry,
+54, 633–638.
+Muir, A. D. (2006). Flax lignans-analytical methods and how they inﬂuence our
+understanding of biological activity. JAOAC International, 89, 1147–1157.
+Muir, A. D., & Westcott, N. D. (2000). Quantitation of the lignan secoisolariciresinol
+diglucoside in baked goods containing ﬂax seed or ﬂax meal. Journal of
+Agriculture and Food Chemistry, 48, 4048–4052.
+Murkovic, M. P., Murkovic, M. P., Piironen, V., Lampi, A. M., Kraushofer, T., & Sontag,
+G. (2004). Changes in chemical composition of pumpkin seeds during the
+roasting process for production of pumpkin seed oil (Part 1: Non volatile
+compounds). Food Chemistry, 84, 359–365.
+Nurmi, T., Heinonen, S., Mazur, W., Deyama, T., Nishibe, S., & Adlercreutz, H. (2003).
+Lignans in selected wines. Food Chemistry, 83, 303–309.
+Obermeyer, W. R., Musser, S. M., Betz, J. M., Casey, R. E., Pohland, A. E., & Page, S. W.
+(1995). Chemical studies of phytoestrogens and related compounds in dietary
+supplements: Flax and chaparral. Proceedings of the Society for Experimental
+Biology and Medicine, 208, 6–12.
+Penalvo, J. L., Haajanen, K. M., Botting, N., & Adlercreutz, H. (2005). Quantiﬁcation of
+lignans in food using isotope dilution gas chromatography/mass spectrometry.
+Journal of Agriculture and Food Chemistry, 53, 9342–9347.
+Popova, I. E., Hall, C., & Kubatova, A. (2009). Determination of lignans in ﬂax seed
+using liquid chromatography with time-of-ﬂight mass spectrometry. Journal of
+Chromatography A, 1216, 217–229.
+Schwartz, H., & Sontag, G. (2006). Determination of secoisolariciresinol, lariciresinol
+and isolariciresinol in plant foods by high performance liquid chromatography
+coupled with coulometric electrode array detection. Journal of Chromatography
+B, 838, 78–85.
+Schwartz, H. S., & Sontag, G. (2009). Comparison of sample preparation methods for
+analysis of isoﬂavones in foodstuffs. Analytica Chimica Acta, 633, 204–215.
+Schwartz, H., & Sontag, G. (2011). Analysis of lignans in food samples-impact of
+sample preparation. Current Bioactive Compounds (CBC), 7, 156–171.
+Slanina, J., & Glatz, Z. (2004). Separation procedures applicable to lignan analysis.
+Journal of Chromatography B, 812, 215–229.
+Smeds, A. I., Eklund, P. C., Sjoeholm, R. E., Willfoer, St. M., Nishibe, S., Deyama, T.,
+et al. (2007). Quantiﬁcation of a broad spectrum of lignans in cereals, oilseeds,
+and nuts. Journal of Agriculture and Food Chemistry, 55, 1337–1346.
+Smeds,
+A.
+I.,
+Jauhiainen,
+L.,
+Tuomola,
+E.,
+&
+Peltonen-Sainio,
+P.
+(2009).
+Characterization of variation in the lignan content and composition of winter
+rye, spring wheat, and spring oat. Journal of Agriculture and Food Chemistry, 57,
+5837–5842.
+Touré,
+A.,
+&
+Xueming,
+X.
+(2010).
+Flax
+seed
+lignans:
+Source,
+biosynthesis,
+metabolism, antioxidant activity, bio-active components, and health beneﬁts.
+Comprehensive Reviews in Food Science and Food Safety, 9, 261–269.
+Willfoer, S. M. S., Smeds, A. I., & Holmbom, B. R. (2006). Chromatographic analysis of
+lignans. Journal of Chromatography A, 1112, 64–67.
+Wu, W.-H. (2007). The contents of lignans in commercial sesame oils of Taiwan and
+their changes during heating. Food Chemistry, 104, 341–344.
+E. Gerstenmeyer et al. / Food Chemistry 138 (2013) 1847–1855
+1855

@@ -1,0 +1,949 @@
+Isolation, selection and evaluation of yeasts for use in fermentation of
+coffee beans by the wet process
+Gilberto Vinícius de Melo Pereira a, Vanete Thomaz Soccol a, Ashok Pandey b,
+Adriane Bianchi Pedroni Medeiros a, João Marcos Rodrigues Andrade Lara c,
+André Luiz Gollo a, Carlos Ricardo Soccol a,⁎
+a Bioprocess Engineering and Biotechnology Department, Federal University of Paraná (UFPR), Curitiba, PR, Brazil
+b Biotechnology Division, CSIR-National Institute for Interdisciplinary Science and Technology, Trivandrum695 019, India
+c Department of Agriculture, Coffee Science Division, Federal University of Lavras (UFLA), Lavras, MG, Brazil
+a b s t r a c t
+a r t i c l e
+i n f o
+Article history:
+Received 18 April 2014
+Received in revised form 27 June 2014
+Accepted 13 July 2014
+Available online 19 July 2014
+Keywords:
+Wet processing
+Pectinolytic enzymes
+Aromatized coffee
+Pichia fermentans
+Saccharomyces sp.
+During wet processing of coffee, the ripe cherries are pulped, then fermented and dried. This study reports an
+experimental approach for target identiﬁcation and selection of indigenous coffee yeasts and their potential
+use as starter cultures during the fermentation step of wet processing. A total of 144 yeast isolates originating
+from spontaneously fermenting coffee beans were identiﬁed by molecular approaches and screened for their
+capacity to grow under coffee-associated stress conditions. According to ITS-rRNA gene sequencing, Pichia
+fermentans and Pichia kluyveri were the most frequent isolates, followed by Candida Candida glabrata, quercitrusa,
+Saccharomyces sp., Pichia guilliermondii, Pichia caribbica and Hanseniaspora opuntiae. Nine stress-tolerant yeast
+strains were evaluated for their ability to produce aromatic compounds in a coffee pulp simulation medium
+and for their pectinolytic activity. P. fermentans YC5.2 produced the highest concentrations of ﬂavor-active
+ester compounds (viz., ethyl acetate and isoamyl acetate), while Saccharomyces sp. YC9.15 was the best
+pectinase-producing strain. The potential impact of these selected yeast strains to promote ﬂavor development
+in coffee beverages was investigated for inoculating coffee beans during wet fermentation trials at laboratory
+scale. Inoculation of a single culture of P. fermentans YC5.2 and co-culture of P. fermentans YC5.2 and Saccharomyces
+sp. YC9.15 enhanced signiﬁcantly the formation of volatile aroma compounds during the fermentation process com-
+pared to un-inoculated control. The sensory analysis indicated that the ﬂavor of coffee beverages was inﬂuenced by
+the starter cultures, being rated as having the higher sensory scores for fruity, buttery and fermented aroma. This
+demonstrates a complementary role of yeasts associated with coffee quality through the synthesis of yeast-
+speciﬁc volatile constituents. The yeast strains P. fermentans YC5.2 and Saccharomyces sp. YC9.15 have a great poten-
+tial for use as starter cultures in wet processing of coffee and may possibly help to control and standardize the fer-
+mentation process and produce coffee beverages with novel and desirable ﬂavor proﬁles.
+© 2014 Published by Elsevier B.V.
+1. Introduction
+Coffee is an important plantation crop grown in more than 50 devel-
+oping countries and is one of the most popular non-alcoholic beverages
+consumed throughout the world (Selvamurugan et al., 2010). Its annual
+production has reached 8.4 million metric tons, with a turnover close
+to US $10 billion. Brazil is the leading producer of coffee, followed by
+Vietnam, Colombia, Indonesia and Mexico (FAO, 2013). Post-harvest
+processing of coffee cherries is carried out in producing countries
+using two processes, referred to as wet and dry (Pandey et al., 2000).
+Wet processing is used mainly for arabica coffee: the ripe fruits are
+depulped and then submitted to 24–48 h of underwater tank fermenta-
+tion and dried until a ﬁnal water content of 10–12% (Avallone et al.,
+2001; Murthy and Naidu, 2012). The wet method is widely used in
+some regions, including Colombia, Central America and Hawaii (Vilela
+et al., 2010). In the dry processing, in contrast, entire coffee fruits are
+dried (in the sun) on platforms and/or on a ﬂoor without prior removal
+of the pulp (Silva et al., 2008). Brazil is the largest producer of coffees
+obtained by dry process; however, the wet process has increasingly
+been used as a way to improve the coffee quality (Borem, 2008;
+Gonçalves et al., 2008).
+During wet processing, the ripe coffee fruits undergo a spontaneous
+fermentation, carried out by a complex microbiological process that
+involves the actions of microorganisms like yeasts, bacteria and
+ﬁlamentous fungi (Avallone et al., 2001; Silva et al., 2008). The
+International Journal of Food Microbiology 188 (2014) 60–66
+⁎ Corresponding author at: Bioprocess Engineering and Biotechnology Division, Federal
+University of Paraná, 81531-970, BR-Curitiba PR, Brazil. Tel.: +55 41 33 613 191; fax: +55
+41 33 613 695.
+E-mail address: soccol@ufpr.br (C.R. Soccol).
+http://dx.doi.org/10.1016/j.ijfoodmicro.2014.07.008
+0168-1605/© 2014 Published by Elsevier B.V.
+Contents lists available at ScienceDirect
+International Journal of Food Microbiology
+journal homepage: www.elsevier.com/locate/ijfoodmicro
+
+fermentation is carried out to eliminate any mucilage still stuck to the
+beans and helps improve beverage ﬂavor by producing microbial me-
+tabolites, which are precursors of volatile compounds formed during
+roasting (Mussatto et al., 2011). Yeasts are among the microorganisms
+most frequently isolated from fermenting coffee beans, but limited
+information is available regarding their effect on the development of
+coffee's taste characteristics (Evangelista et al., 2014). Surveys have
+shown that the most frequently occurring species during coffee pro-
+cessing are Pichia kluyveri, Pichia anomala, Hanseniaspora uvarum,
+Saccharomyces cerevisiae, Debaryomyces hansenii and Torulaspora
+delbrueckii (Masoud et al., 2004; Silva et al., 2008; Vilela et al., 2010).
+In addition, bacteria with pectinolytic activity belonging to the genera
+Erwinia, Klebsiella, Aerobacter, Escherichia and Bacillus, as well as a vari-
+ety of ﬁlamentous fungi are often isolated (Avallone et al., 2001; Silva
+et al., 2012; Vaughn et al., 1958).
+The use of selected yeasts is well known for other fermented
+foods and beverages, such as wines, to which as many as eight strains
+or more of S. cerevisiae may contribute to the one wine fermentation
+(Fleet, 2008). This was possible after many studies to understand the
+impact of individual yeast strains upon ﬁnal product quality (Ciani
+et al., 2006; Erten, 2002; Fleet, 2003, 2008; Gao and Fleet, 1988;
+Mendoza et al., 2007). For coffee processing that reaches this level, fur-
+ther research is needed to increase the understanding of the microbial
+ecology, physiology and biochemistry of coffee fermentation and how
+this scientiﬁc knowledge contributes to the development of coffee
+beverage character. The exploration of the biodiversity of indigenous
+coffee yeast strains can be an important contribution to the understand-
+ing and selection of strains with speciﬁc phenotypes able to contribute
+to the ﬁnal product quality (Masoud et al., 2004; Silva et al., 2012).
+To the best of our knowledge, no previous studies have investigated
+the use of aromatic yeasts as starter cultures during the fermentation
+step of wet coffee processing and what impact such yeasts might have
+on coffee beverage ﬂavor. Here we report an experimental approach
+to target identiﬁcation and selection of indigenous coffee yeasts and
+their potential use as starter cultures with the aim of improving the ﬂa-
+vor of coffee beverage processed by wet method. The on-farm imple-
+mentation of these novel starter cultures is part of a patented process
+developed in our laboratory (Soccol et al., 2013).
+2. Materials and methods
+2.1. Spontaneous coffee fermentation and yeast isolation
+A total of 150 kg of coffee cherries (Coffea arabica var. Mundo Novo)
+were manually harvested at the mature stage from a farm located in the
+city of Lavras, Minas Gerais State, Brazil, and mechanically depulped
+using a BDSV-04 Pinhalense depulper (Pinhalense, Sao Paulo, Brazil).
+Approximately 75 kg of depulped beans were then conveyed in a clear
+water stream to tanks and left to ferment for 48 h in accordance with
+local wet processing method. The environmental temperature was
+23–30 °C (day-time temperature) and 11–15 °C (night-time tempera-
+ture). Every 8 h, liquid fraction samples were withdrawn in triplicate
+from the middle depth of the tank fermentation, placed aseptically in
+sterile plastic bags and transferred to the laboratory in ice boxes. Ten
+milliliters of each sample was added to 90 ml sterile saline-peptone
+water, followed by serial dilutions. Yeasts were enumerated by surface
+inoculation on YEPG agar [1% yeast extract (Merck, São Paulo, Brazil),
+2% peptone (Himedia, São Paulo, Brazil), 2% glucose (Merck) and 2.5%
+agar (Difco, São Paulo, Brazil); pH = 5.6] containing 100 mg/l chloram-
+phenicol (Sigma, São Paulo, Brazil) and 50 mg/l chlortetracycline
+(Sigma) to inhibit bacterial growth. Plating was performed, in triplicate,
+with 100 μl of each dilution. Cultures were incubated at 30 °C for 4 days.
+According to the macroscopic indications (texture, surface, margin, ele-
+vation, and color), colonies of different types on YEPG medium were
+counted separately, and representatives isolated from different fermen-
+tation times were puriﬁed by repetitive streaking on YEPG agar. The
+puriﬁed isolates were stored at −80 °C in YEPG broth containing 20%
+(v/v) glycerol (Difco).
+2.2. Identiﬁcation of yeast isolates
+The yeast DNA was extracted from the pure cultures according to the
+method described by Pereira et al. (2013). The 5.8S ITS rRNA gene
+region of yeast isolates was ampliﬁed using the primers ITS1 and ITS4
+(Masoud et al., 2004). The obtained ITS-rRNA gene region of yeast
+isolates was digested by restriction endonucleases HaeIII and MspI, ac-
+cording to the manufacturer's instructions (Invitrogen, São Paulo,
+Brazil). The PCR products and restriction fragments were separated
+by gel electrophoresis on 0.7% (w⁄v) agarose gel, and stained with
+ethidium bromide (Sigma). The bands were then visualized by UV
+transilluminator and photographed. A size marker (Gene Ruler of
+100 bp DNA Ladder Plus, Fermentans) was used as a reference. The pat-
+terns of Ampliﬁed rRNA gene Restriction Analysis (ARDRA) were clus-
+tered using BioNumerics Version 6.50 (Applied Maths, Sint-Martens-
+Latem, Belgium). Representative isolates were selected on the basis of
+genotypic groupings, and the 5.8S ITS rRNA gene region was sequenced
+using an ABI3730 XL automatic DNA sequencer. The sequences obtained
+were compared with sequences available in the GenBank database
+through a basic local alignment search tool (BLAST). The nucleotide se-
+quences of representative isolates were deposited in the GenBank data-
+base under access numbers KF747750 to KF747757.
+2.3. Pre-selection of isolates: evaluation of individual stress factors
+All yeast species were evaluated for their ability to grow under stress
+conditions that occur during the wet fermentation of coffee beans ac-
+cording to the procedure described by Pereira et al. (2012). The isolates
+were transferred from YEPG plates to pre-culture 10 ml YEPG broth and
+incubated at 30 °C for 24 h, 120 rpm. Subsequently, 1 ml of the resulting
+yeast cultures were transferred to 50-ml Erlenmeyer ﬂasks containing
+10 ml YEPG broth and grown for 3 h at 120 rpm (until early exponential
+phase). At this point, cells were harvested and diluted in sterile water to
+Abs600 of 0.2. Spots of 3 μL were placed onto stress plates, which were
+incubated for at least 48 h at 30 °C.
+The test medium used was composed of basal medium [0.05% yeast
+extract (Sigma), 0.3% (w/v) vitamin-free Casamino Acids (Difco) and
+2.5% agar (Difco)] and 5% glucose (Merck). The basal medium without
+an added carbon source was used as a negative control. The heat stress
+plates were incubated at 25, 30, 37 or 43 °C. Plates with different glu-
+cose or fructose concentration were prepared by adjusting the sugar
+concentration of the basal medium to 15, 30 or 50% (w/w) hexose-
+equivalent; the sugar being added by sterile ﬁltration. Ethanol, acetic
+acid and lactic acid stress plates were composed of basal medium with
+glucose supplemented with 6, 8 or 10% (v/w) ethanol (Sigma); 1, 2 or
+3% (v/w) lactic acid (Sigma); 1, 2 or 3% (v/w) acetic acid (Sigma)
+(added aseptically). Acidic stress plates were composed of basal medi-
+um with glucose in the pH 2.0, 4.0, 6.0 or 8.0; pH adjustments were
+made with sterile 1 M H2SO4 or 1 M NaOH.
+2.4. Formulation of coffee pulp simulation medium and micro-fermentation
+trials with pre-selected yeasts
+A coffee pulp simulation medium was formulated containing 50% (v/v)
+fresh coffee pulp extract plus 2.0 g/l citric pectin (Sigma), 15 g/l fructose
+(Merck), 15 g/l glucose (Merck), 5.0 g/l yeast extract (Merk) and 5.0 g/l
+soya peptone (Oxoid); pH = 5.5. Citric pectin, which is present in coffee
+pulp, was added as energy sources for yeast, plus glucose and fructose,
+while fresh coffee pulp was added to ensure the availability of nitrogen,
+trace elements and growth factors naturally present during the wet fer-
+mentation of coffee beans. For the preparation of coffee pulp extract,
+200 g of the coffee pulp and coffee peel from C. arabica var. Mundo
+61
+G.V. de Melo Pereira et al. / International Journal of Food Microbiology 188 (2014) 60–66
+
+Novo was mixed with 1 L of sterile water in a blender for 5 min. The me-
+dium was sterilized for 15 min at 121 °C.
+In preparing the inoculation cultures of pre-selected yeasts, cells
+from YEPG agar plates were transferred to glass tubes containing
+10 ml YEPG broth and incubated with agitation (120 rpm) at 30 °C for
+24 h. Subsequently, these cells were transferred to 200-ml Erlenmeyer
+ﬂasks containing 90 ml YEPG broth and grown for 30 h and 120 rpm
+at 30 °C. After centrifuging cells and washing twice with sterile 0.1%
+peptone water, 250-ml Erlenmeyer ﬂasks with 200 ml of coffee pulp
+simulation medium were inoculated with log 6 cells/ml of each yeast
+species. The fermentations were carried out in duplicate.
+The growth of yeast at 48 h of fermentation was calculated by colony-
+forming unit through plating of tenfold serial dilutions of the samples in
+sterile 0.1% peptone water that was incubated at the appropriate fermen-
+tation temperature for 24 h. The volatile compounds produced after 48 h
+of fermentation in the headspace of the Erlenmeyer ﬂasks were analyzed
+by gas chromatography as described in Section 2.5. Samples were with-
+drawn from the headspace with a 10-ml gas-tight syringe and injected
+into the gas chromatography apparatus.
+2.5. Headspace analysis by gas chromatography
+Headspace analysis of the volatile compounds was conducted by gas
+chromatography according to the method of Rossi et al. (2009). Aroma
+compounds were identiﬁed by comparing the peak retention times
+against those of authentic standards purchased from Sigma in a gas
+chromatograph (Shimadzu model 17A) equipped with a ﬂame ioniza-
+tion detector at 230 °C. The standards used were 11 alcohols (ethanol,
+1-pentanol, 1-hexanol, 1-heptanol, 1-octanol, 1-decanol, 2-hexanol, 2-
+octanol, 2-methyl-1-butanol, n-butanol, 3-methyl-1-butanol), 12 esters
+(ethyl acetate, propyl acetate, ethyl laurate, ethyl propionate, ethyl
+isobutyrate, ethyl hexanoate, ethyl octonoate, diethyl succinate, isoamyl
+acetate, isobutyl acetate, n-butyl acetate, hexyl acetate), 5 ketones (2,3-
+butanedione, 2-pentanone, 2-hexanone, 2-octanone, 2-heptanone), 3
+aldehydes (acetaldehyde, benzaldehyde, and 3-methyl-butanal) and 2
+organic acids (acetic acid and caprylic acid). The operation conditions
+were as follows: a 30 m × 0.32 mm HP-5 capillary column, column
+temperature of 40 to 150 °C at a rate of 20 °C/min, injector temperature
+at 230 °C. Individual volatiles were expressed as μmol/l of headspace, as
+ethanol equivalent.
+2.6. Polygalacturonase activity
+Erlenmeyer ﬂasks containing 200 ml of synthetic pectin medium
+[12% citric pectin (Sigma), 0.3% glucose (Merck), 1.0% KH2PO4
+(Merck), 0.5% MgSO4.7H2O (Merck), 0.68% CaCl2 (Merck) and 1.0%
+(NH4)2SO4 (Merck)] were inoculated in triplicate with 4 log cells/ml
+of each pre-selected yeast strain. Cultures were incubated at 30 °C for
+48 h at 120 rpm and sampled every 24 h. Yeast cells were removed by
+centrifugation (2060 × g, 20 min, 4 °C) and the cell free supernatants
+used for determination of polygalacturonase activity by measuring the
+increase in reducing sugars released from pectin dispersion using 3,5-
+Dinitrosalicyclic acid DNS (Miller, 1959). A 0.1 ml aliquot of the super-
+natant was added to 0.9 ml of 0.1% (w/v) of polygalacturonic acid
+(Sigma) in 1 M sodium acetate buffer (pH 5.0) and incubated in water
+bath at 50 °C for 15 min. The reaction was stopped by the addition of
+1.0 ml DNS reagent. The mixture was boiled for 5 min and then cooled
+in an ice bath. Absorbance was read at 600 nm, with the optical density
+(OD600) determined using an appropriate calibration curve. One unit of
+polygalacturonase activity (U) was expressed as μmol of galacturonic
+acid released per min and μg total protein under assay conditions. The
+total protein was determined by the method of Bradford (1976), with
+bovine serum albumin (BSA) as the standard. The data was analyzed
+by Analysis of Variance (ANOVA), and the means were compared
+using Duncan's test.
+2.7. Culture of selected yeasts in coffee pulp simulation medium
+The inﬂuence of fermentation temperature on the growth and vola-
+tile compound production of Pichia fermentans YC5.2 was analyzed in
+pure and mixed cultures with the pectinolytic Saccharomyces sp.
+YC9.15. Triplicate fermentations were performed in Erlenmeyer ﬂasks
+containing 200 ml of coffee pulp simulation medium at 15, 28 and
+37 °C and 120 rpm for 48 h. The initial yeast cell concentration was of
+log 6 cells/ml with a 1:1 ratio of P. fermentans YC5.2 to Saccharomyces
+sp. YC9.15. Yeast growth was determined by surface inoculation on
+YEPG agar. Differentiation of the two yeast species on YEPG agar was
+done by colony morphology and testing of isolated colonies by a PCR
+assay using species speciﬁc primers that were developed in our labora-
+tory (data presented in the supplemental material). The quantitative
+analysis of volatile compounds produced after 48 h of fermentation in
+the headspace of the Erlenmeyer ﬂasks was done through gas chroma-
+tography as describe in Section 2.5. The data was analyzed by ANOVA
+and the means were compared using Duncan's test.
+2.8. Wet fermentation with selected yeast cultures and sensory evaluation
+of coffee beverages
+Freshly harvested coffee cherries (C. arabica var. Mundo Novo),
+obtained from a coffee farm located in Lavras, Minas Gerais State,
+Brazil, were mechanically depulped (BDSV-04 Pinhalense depulper) to
+obtain beans with mucilage. Laboratory fermentations were conducted
+in 6-l Erlenmeyer-ﬂasks containing 1.5 kg of depulped beans and 3 l of
+fresh water. The coffee was fermented by inoculation of P. fermentans
+YC5.2 in pure or mixed cultures with Saccharomyces sp. YC9.15. The
+initial yeast cell concentration was 6 log cells/ml with a 1:1 ratio of
+P. fermentans YC5.2 to Saccharomyces sp. YC9.15. As a control, spontane-
+ous process was allowed to ferment with indigenous microorganisms
+present in the coffee fruit. The fermentations were carried out in tripli-
+cate at 28 °C for 48 h to simulate the natural process performed on
+farms. At the end of the fermentation processes, the growth of the inoc-
+ulated microorganisms was measured by counting viable cells and the
+volatile compounds in the headspace of the Erlenmeyer ﬂasks were an-
+alyzed by gas chromatography as described in Section 2.5. The data was
+analyzed by ANOVA and the means were compared using Duncan's test.
+The resulting parchment coffee was dried in a laboratory oven at
+35–40 °C until a water content of 12% (wet basis) was achieved, then
+roasted at 140 °C for 30 min. The roasted coffee was sampled, added
+to boiling water at the rate of 2% (w/v) and infused for 5 min. The
+samples were evaluated by a panel of ﬁve experienced judges based
+on the ﬂavor descriptors: fruity, buttery, caramel aroma, chocolate
+aroma, fermented aroma and acidic. A note, from 0 (low intensity) to
+10 (high intensity), was attributed to each criterion. Results from the
+two inoculated samples were compared to the control using ANOVA
+and the means were compared using Duncan's test.
+3. Results and discussion
+3.1. Isolation and identiﬁcation of yeast isolates
+Yeast (2.7 log cfu/ml) was present at the beginning of the fermenta-
+tion and grew to a maximum population of 7.15 log cfu/ml during
+the subsequent 40 h, followed by a drop to 5.2 log cfu/ml by 48 h
+(Fig. 1a). A total of 144 yeasts were isolated throughout the wet fermen-
+tation of coffee beans. Based on ARDRA-PCR proﬁles (see Fig. S1 in the
+supplemental material), eight groups were delineated from which
+representatives were identiﬁed to species level by sequencing. The
+main species found and their evolution throughout the fermentation
+are shown in Fig. 1b. P. fermentans (Accession No. KF747751) was
+the most frequently isolated species, followed by P. kluyveri (Accession
+No. KF747755), Candida glabrata (Accession No. KF747753) and
+C. quercitrusa (Accession No. KF747756). Saccharomyces sp. (Accession
+62
+G.V. de Melo Pereira et al. / International Journal of Food Microbiology 188 (2014) 60–66
+
+No. KF747750) was detected at 24 and 32 h, while P. guilliermondii
+(accession no. KF747752), Pichia caribbica (accession no. KF747757)
+and Hanseniaspora opuntiae (accession no. KF747754) were generally
+isolated at the start of the fermentation. These yeast species are report-
+ed to be fermentative and have been found in soil, fruits and trees
+(Kurtzman, 1998). While P. fermentans was ﬁrst isolated as the domi-
+nant yeast in spontaneously fermented coffee beans, P. kluyveri has
+been reported in other geographical areas and processing methods
+(Masoud et al., 2004; Silva et al., 2008). Species of the genus Pichia
+have been reported to inhibit ochratoxigenic ﬁlamentous fungi growth
+during coffee fermentation, acting as a possible biological control for the
+prevention of ochratoxin A in coffee (Masoud et al., 2005). Interestingly,
+the phylogenetic position of some isolates belonging to the genus
+Saccharomyces (e.g., the selected Saccharomyces sp. YC9.15) had less
+than 97% similarity to known species, which suggests the isolation of a
+new candidate species of the genus Saccharomyces.
+3.2. Pre-selection of yeasts: growth/survival under stress conditions
+A preliminary screening was carried out with all 144 isolates to
+test their capacity to grow under coffee-associated stress conditions.
+Table S1 in the supplemental material summarizes the results for
+growth/survival of yeast isolates under tested conditions. The criteria
+used were based on the physical and chemical changes that yeast cells
+face through the fermentation process. Coffee pulp and mucilage are
+high density substrates that consistof 27–30% fermentable sugars, in
+particular glucose and fructose (Wrigley, 1988; Avallone et al., 2001;
+Murthy and Naidu, 2011). After inoculation, the yeast can experience
+hypertonic conditions, which lead to an efﬂux of water from the cell, di-
+minished turgor pressure and reduced water availability (Bauer and
+Pretorius, 2000). Throughout coffee fermentation process, approxi-
+mately 60% of the sugars are utilized as substrate for microbial growth
+which produces signiﬁcant amounts of ethanol and acetic and lactic
+acids, resulting in lowered pH (from 5.5–6.0 to 3.5–4.0) (Avallone
+et al., 2001; Jackels and Jackels, 2005). Thus, when the cell has adapted
+to the new environment and the fermentation begins, other stressors
+become relevant as organic acids and alcohols accumulate, the temper-
+ature changes and the environment acidiﬁes (Avallone et al., 2000; Silva
+et al., 2008; Velmourougane, 2013). Following a successful inoculation
+of coffee beans, the ability of the yeast to adapt and to cope with the
+hostile environment and stress conditions prevailing in coffee fermen-
+tation matrix are of vital importance to fermentation performance.
+Based on this, nine stress-tolerant strains, possessing the following
+characteristics, were pre-selected for further investigation: (i) growth
+capacity in a typical pH range of coffee fermentation (pH 2.0 to
+pH 8.0); (ii) osmotic pressure tolerance (growth detected in the pres-
+ence of up to 50% glucose and fructose); (iii) heat tolerance (ability to
+grow at temperatures of 37 to 43 °C); and (iv) metabolite accumulation
+tolerance (growth capacity up to 12 to 15% ethanol, 2% lactic acid and
+2% acetic acid). These included YC9.15, YC9.13 and YC.8.10
+(classiﬁed as Sacharomyces sp.); YC5.2 and YC8.8 (classiﬁed as
+P. fermentans); YH7.16 (classiﬁed as P. kluyveri); YC1.2 (classiﬁed as
+Pichia guilliermondii); YC1.4 (classiﬁed as H. opuntiae); and YH1.5 (clas-
+siﬁed as C. glabrata).
+3.3. Polygalacturonase activity screening
+Secretion of polygalacturonase by the nine pre-selected yeast strains
+was investigated in a synthetic pectin medium. The results showed that
+Saccharomyces sp. YC9.15, Saccharomyces sp. YC8.10 and P. fermentans
+YC8.8 were the strains with higher polygalacturonase activity under
+the assay conditions (p b 0.05), which produced 2.03, 1.90 and 1.72 U/ml
+polygalacturonase after 48 h of fermentation. The other yeast strains
+produced less than 1 U/ml (data not shown). Previous studies also re-
+ported the pectinolytic activity of indigenous coffee yeasts, such as spe-
+cies of Kluyveromyces, Saccharomyces, Pichia, and Candida (Masoud and
+Jespersen, 2006; Silva et al., 2012). These pectinolytic strains appeared
+to have potential to be used as starter cultures for mucilage degradation
+during coffee fermentation; nevertheless, further studies are needed to
+investigate the ability of these yeasts to degrade the mucilage in vivo
+(i.e., during coffee processing). The removal of the mucilage by micro-
+organisms facilitates bean drying and produces metabolites that diffuse
+into the interior of the coffee beans and react with substances responsi-
+ble for the ﬂavor of the ﬁnal beverage (Silva et al., 2012).
+3.4. Production of volatile aroma compounds by pre-selected yeast strains
+The nine pre-selected yeast strains were inoculated into coffee pulp
+simulation medium and the volatile aroma compound production was
+quantiﬁed after 48 h of fermentation. The composition of the coffee
+Fig. 1. Assessment of yeast diversity during the spontaneous coffee fermentation process. (A) Dynamic of total yeast population. Bars represent standard deviation. (B) Heat map showing
+the frequency and abundance of individual yeast species. Values in brackets are the number of isolates identiﬁed by ITS-rRNA gene sequencing. The heat map was generated by using Visual
+Basic for Applications (VBA) in conjunction with Microsoft® Ofﬁce Excel Version 7.0.
+63
+G.V. de Melo Pereira et al. / International Journal of Food Microbiology 188 (2014) 60–66
+
+pulp simulation medium supported good growth of the investigated
+yeasts because all isolates grew about 3 log cfu/ml within 48 h, relative
+to the initial population inoculated (data not shown). Fourteen
+compounds were quantiﬁed in the headspace of the inoculated
+fermentations. These included acetaldehyde, benzaldehyde, caprylic
+acid, ethanol, ethyl acetate, ethyl laurate, isoamyl acetate, 2,3-
+butanedione, 1-decanol, 3-methyl-1-butanol, 2-methyl-1-butanol,
+2-hexanol, 2-octanol and 1-octanol. The most important volatile
+compounds (i.e., acetaldehyde, ethanol, isoamyl acetate and ethyl
+acetate) of the different fermentations are listed in Table 1. As ex-
+pected, Saccharomyces strains produced higher amounts of ethanol
+compared to non-Saccharomyces species; Saccharomyces sp. YC8.10
+produced the highest ethanol levels (126.9 μmol/l), followed by
+Saccharomyces sp. YC9.13 and Saccharomyces sp. YC9.15, which
+produced 125.0 and 121.8 μmol/l, respectively. Isoamyl acetate
+and ethyl acetate were produced in signiﬁcant amounts only by
+P. fermentans YC5.2 and P. kluyveri YC7.16. P. fermentans YC5.2 pro-
+duced the highest concentrations of ethyl acetate (pineapple-like
+aroma) and isoamyl acetate (banana-like aroma), reaching concen-
+trations of 79.04 and 23.04 μmol/l, respectively. As these compounds
+are related to fruity aroma, which participates in aromatic complex-
+ity, this makes P. fermentans YC5.2 an attractive yeast to enhance the
+aromatic value of coffee beans and was chosen to evaluate its behav-
+ior in co-culture with the pectinolytic Saccharomyces sp. YC9.15 at
+different temperatures. In addition to pectinolytic production, the
+Saccharomyces sp. YC9.15 was selected also for its high production
+of acetaldehyde in relation to other pectinolytic strains. Acetalde-
+hyde has been correlated with sensory attributes as it gives a ﬂoral
+and fruity note to the ﬁnal beverage (Sanz et al., 2002).
+3.5. Culture of selected yeasts in coffee pulp simulation medium
+The growth and volatile compound production of P. fermentans
+YC5.2 in pure and mixed cultures with pectinolytic Saccharomyces sp.
+YC9.15 are shown in Tables 2 and 3, respectively. The viable count of
+P. fermentans's single-culture fermentations peaked at a maximum pop-
+ulation exceeding 7 log cfu/ml. On the other hand, in the mixed-culture
+fermentations, the viable counts of P. fermentans from ~5.8 log cfu/ml
+increased to 6.4 and 6.3 log cfu/ml at 15 and 28 °C, respectively, and
+declined to 4.5 log cfu/ml at 37 °C, while the viable counts of Saccharo-
+myces sp. were over 7 log cfu/ml (7.3, 8.4 and 7.7 log cfu/ml at 15, 28
+and 37 °C, respectively) (Table 2). The highest isoamyl acetate and
+ethyl acetate concentrations (59.5 and 171.8 μmol/l, respectively)
+were determined in pure culture of P. fermentans at 28 °C, whereas
+the production of acetaldehyde and ethanol was greater in mixed
+fermentations at 28 and 37 °C, respectively (Table 3). Thus, it can be
+see that growth and volatile compound production of P. fermentans
+were reduced by the presence of Saccharomyces sp. in mixed-culture
+fermentations at all tested temperatures. It should be noted, however,
+that the metabolism of P. fermentans was encouraged when fermen-
+tations were carried out at low temperature, and even when in co-
+culture with Saccharomyces sp., a high production of isoamyl acetate
+was observed (Table 3). Several studies also have indicated a higher
+persistence of some non-Saccharomyces yeasts and different fermen-
+tation behaviors at low temperatures (Ciani et al., 2006; Erten, 2002;
+Gao and Fleet, 1988; Heard and Fleet, 1988). This can provide light in
+future studies aiming to balance the metabolisms of both these species
+in an attempt to optimize the production of pectinolytic enzymes while
+maintaining high production of aromatic compounds.
+3.6. Inoculation of selected yeasts in wet fermentation of coffee beans and
+sensory evaluation of coffee beverages
+To respond to the new challenges of consumer demands for coffees
+with high complexity of ﬂavors and stylistic distinction, the time-
+temperature proﬁle used during roasting is the most used (Wang and
+Lim, 2013). However, no method of imparting yeast-derived volatile
+aroma compounds to coffee during wet processing has been established.
+In order to evaluate the impact of the starter cultures developed in this
+study on the ﬁnal beverage ﬂavor, wet fermentation trials at laboratory
+scale were carried out by inoculating coffee beans. The results presented
+in Table 4 show the yeast counts and volatile aroma compounds pro-
+duced after 48 h of fermentation, as well as the sensory ﬂavor proﬁles
+of coffee beverages produced thereof. Except for P. fermentans in mixed
+fermentation, which had its growth strongly reduced to 3.26 log cfu/ml,
+the starter cultures were able to grow under wet processing conditions,
+as observed in the increasing log cfu/ml after 48 h of fermentation com-
+pared to their original numbers at time 0.
+Ethanol, acetaldehyde, ethyl acetate, isoamyl acetate, 2,3-butanedione
+and hexanal were the major volatile compounds released in the
+headspace of spontaneous and inoculated coffee fermentations
+(Table 4). These volatile compounds are proposed to derive from
+two main sources—namely, those resulted from yeast metabolism
+(i.e., ethanol, acetaldehyde, ethyl acetate, and isoamyl acetate) and
+those that derived from thermal reactions during fermentation
+(i.e., hexanal and 2,3-butanedione) (Gonzalez-Rios et al., 2007).
+Some of these compounds are known to play a role in aroma devel-
+opment during coffee fermentation (e.g., ethanol, ethyl acetate,
+isoamyl acetate and acetaldehyde) (Czerny and Grosch, 2000;
+Evangelista et al., 2014; Gonzalez-Rios et al., 2007). The use of
+the culture starters developed in this study signiﬁcantly increased
+(p b 0.05) the production of these compounds during the fermenta-
+tion process (Table 4).
+There were no statistically signiﬁcant differences among any treat-
+ments for the descriptor caramel aroma, chocolate aroma and acidic
+(Table 4). On the other hand, the inoculated fermentations produced
+beverages with higher sensory scores (p b 0.05) for fruity, buttery and
+fermented aroma compared to the un-inoculated control. Coffee bever-
+age produced from beans inoculated with P. fermentans single-culture
+was rated as having the highest intensity of fruit, which is usually asso-
+ciated with esters produced in the fermentation process (e.g., ethyl ace-
+tate and isoamyl acetate). In addition, the signiﬁcantly more intense
+Table 1
+Concentrations of major volatile compounds produced by pre-selected yeast strains after 48 h of fermentation in coffee pulp simulation medium.
+Compounds (μmol/l)b
+Yeast straina
+SC9.15⁎
+SC8.10
+SC9.13
+PF8.8
+PF5.2⁎
+CG1.5
+HO1.4
+PG1.2
+PK7.16
+Acetaldehyde
+22.04
+0.47
+0.86
+ND
+0.53
+0.87
+0.73
+11.5
+ND
+Ethanol
+121.8
+126.9
+125.0
+40.5
+60.7
+49.1
+47.4
+72.8
+30.4
+Ethyl acetate
+0.52
+0.37
+ND
+ND
+79.4
+ND
+ND
+0.25
+0.72
+Isoamyl acetate
+ND
+ND
+ND
+ND
+23.4
+ND
+ND
+ND
+4.48
+a Abbreviations: SS9.15: Saccharomyces sp. YC9.15; SC8.10: Saccharomyces sp. YC8.10; SC9.13: Saccharomyces sp. YC9.13; PF8.8: P. fermentans YC8.8; PF5.2: P. fermentans YC5.2; CG1.5:
+C. glabrata; HO1.4: H. opuntiae YC1.4; PG1.2: P. guilliermondii YC1.2; PK7.16: P. kluyveri YH7.16.
+b Means of triplicate fermentations expressed in μmol/l of ethanol equivalent. Minor volatile compounds, such as benzaldehyde, caprylic acid, ethyl laurate, 2,3-butanedione, 1-decanol,
+3-methyl-1-butanol, 2-methyl-1-butanol, 2-hexanol, 2-octanol and 1-octanol were produced in amounts below 1 μmol/l.
+⁎ Strains labeled with an asterisk were selected for further investigation.
+64
+G.V. de Melo Pereira et al. / International Journal of Food Microbiology 188 (2014) 60–66
+
+buttery and fermented aroma in inoculated coffees could be linked to
+the total volatile concentration produced in the fermentation processes,
+such as 2,3-butanedione (buttery ﬂavor), acetaldehyde (fruity ﬂavor),
+hexanal (green beans ﬂavor), ethanol (alcoholic ﬂavor) and esters
+(fruity ﬂavor).
+4. Conclusion
+This study demonstrated a useful approach for target selection of
+aromatic coffee yeasts and their use as starter cultures during the fer-
+mentation step of wet processing. The strong ﬂavor producing
+Table 2
+Growth (log cfu/ml) of P. fermentans YC5.2 in pure or mixed culture with Saccharomyces sp. YC9.15 at 15, 28 and 37 °C after 48 h of fermentation in coffee pulp simulation medium.
+Temperature incubation
+15 °C (h)
+28 °C (h)
+37 °C (h)
+0
+48
+0
+48
+0
+48
+Pure culture
+P. fermentans YC5.2
+5.6a ± 0.2
+7.8b,c ± 0.2
+5.7a ± 0.1
+8.3c ± 0.2
+5.8a ± 0.3
+7.0b ± 0.1
+Mixed cultured
+P. fermentans YC5.2
+5.8a ± 0.1
+6.4b ± 0.2
+5.7a ± 0.1
+6.3b ± 0.2
+5.8a ± 0.2
+4.5c ± 0.3
+Saccharomyces sp. YC9.15
+5.7a ± 0.1
+7.3b ± 0.4
+5.6a ± 0.2
+8.4c ± 0.3
+5.9a ± 0.1
+7.7b,c ± 0.4
+d In mixed culture, the dominance was veriﬁed by DNA approaches, as described in the supplementary material. Means of triplicate fermentations in each row bearing the same letters
+are not signiﬁcantly different (p N 0.05) from one another, using Duncan's test. (Mean ± standard deviation).
+Table 3
+Mean concentrationsfof volatile compounds produced by P. fermentans YC5.2 in pure or mixed culture with Saccharomyces sp. YC9.15 at 15, 28 and 37 °C after 48 h of fermentation in coffee
+pulp simulation medium.
+Coumpounds
+Pure culture
+Mixed culture
+15 °C
+28 °C
+37 °C
+15 °C
+28 °C
+37 °C
+Ethanol
+114.0a ± 12.4
+158.6a,b ± 1.7
+53.0c ± 2.0
+145.4a,b ± 2.6
+163.8b ± 15.4
+151.5a,b ± 24.0
+Isoamyl acetate
+25.8a ± 1.8
+59.5b ± 4.5
+22.5a ± 3.1
+26.5a ± 0.2
+24.2a ± 1.4
+2.4c ± 0,4
+Ethyl acetate
+14.0a ± 1.9
+171.8b ± 27.5
+93.6c ± 4.2
+35.8d ± 4.0
+22.1a,d ± 2.3
+0.3e ± 0.04
+Acetaldehyde
+1.6a,b ± 0.2
+0.2b ± 0.1
+ND
+11.32c ± 0.8
+21.8d ± 0.8
+4.2a ± 0.03
+N-butyl acetate
+0.8a ± 0.1
+3.8b ± 0.7
+3.4b ± 0.5
+ND
+ND
+ND
+Isobutyl acetate
+ND
+ND
+0.9a ± 0.2
+ND
+ND
+ND
+Ethyl isobutyrate
+ND
+ND
+0.7 ± 0.1
+ND
+ND
+ND
+3-Methyl-1-butanol
+0.6a ± 0.2
+1.2b ± 0
+ND
+ND
+ND
+ND
+1-Pentanol
+0.4a ± 0.1
+ND
+0.3a ± 0.1
+ND
+ND
+ND
+1-Octanol
+ND
+0.3a ± 00.07
+ND
+0.2a ± 0.1
+0.4a ± 0.3
+ND
+2-Hexanol
+ND
+2.0 ± 0.3
+ND
+ND
+ND
+ND
+1-Decanol
+ND
+ND
+0.4b ± 0.1
+ND
+ND
+ND
+Caprylic acid
+5.9a ± 0.1
+0.3b ± 0.04
+0.4b ± 0.1
+ND
+0.5b ± 0.3
+ND
+2,3-Butanedione
+6.0a ± 1.7
+ND
+1.3b ± 3.4
+ND
+ND
+ND
+2-Hexanone
+ND
+ND
+ND
+0.4 ± 0.05
+ND
+ND
+Diethyl succinate
+ND
+ND
+ND
+0.32 ± 0.02
+ND
+ND
+Ethyl octonoate
+ND
+ND
+ND
+0.20 ± 0.08
+ND
+ND
+2-Methyl-1-butanol
+ND
+ND
+ND
+ND
+1.31 ± 0.41
+ND
+ND: not detected. Means in each row bearing the same letters are not signiﬁcantly different (p N 0.05) from one another, using Duncan's test. (Mean ± standard deviation).
+f Values expressed in μmol/l of ethanol equivalent as means of triplicate fermentations (mean ± standard deviation).
+Table 4
+Volatile aroma compounds and yeast counts after 48 h of wet fermentation of coffee beans and sensory analysis of coffee beverages.
+Parameters
+Fermentation assayd
+Single-culture
+Mixed-culture
+Un-inoculated control
+Aroma compounds (μmol/l)
+Ethanol
+43.08a ± 23.81
+88.50b ± 61.72
+1.29c ± 0.19
+Acetaldehyde
+0.48a ± 0.01
+12.85b ± 0.57
+0.49a ± 0,07
+Ethyl acetate
+42.42a ± 8.38
+5.37b ± 2.16
+ND
+Isoamyl acetate
+10.18a ± 1.59
+0.32b ± 0.11
+ND
+Hexanal
+21.59a ± 9.30
+24.91a ± 6,17
+12.59b ± 2.38
+2,3-Butanediona
+17.86a ± 0.74
+17.30a ± 3.01
+8.15b ± 1.45
+Cell growth (log cfu/ml)
+Pichia fermentans YC5.2
+7.74a ± 0.61
+3.26b ± 0.32
+ND
+Saccharomyces sp. YC9.15
+ND
+7.40 ± 0.54
+ND
+Sensory ﬂavor proﬁles
+Fruity
+7.83a ± 0.14
+6.16b ± 0.28
+5.83b ± 0.30
+Buttery
+6.25a ± 0.25
+6.30a ± 0.14
+5.40b ± 0.53
+Caramel aroma
+6.66a ± 0.14
+6.58a ± 0.14
+6.75a ± 0.25
+Chocolate aroma
+5.83a ± 0.14
+5.91a ± 0.14
+5.75a ± 0.25
+Fermented aroma
+6.40a ± 0.38
+6.87a ± 0.17
+5.16b ± 0.14
+Acidic
+5.83a ± 0.14
+5.91a ± 0.28
+5.8a ± 0.14
+In mixed culture, the dominance was veriﬁed by DNA approaches, as described in the supplementary material. Means of triplicate fermentations in each row bearing the same letters are
+not signiﬁcantly different (p N 0.05) from one another, using Duncan's test. (Mean ± standard deviation).
+d Single-culture = coffee fermentation conducted with a pure culture of Pichia fermentans YC5.2; mixed-culture = coffee fermentation conducted with a mixed culture of Pichia fermentans
+YC5.2 and Saccharomyces sp. YC9.15; un-inoculated control = spontaneous fermentation process carried out by indigenous microorganisms from the coffee fruit.
+65
+G.V. de Melo Pereira et al. / International Journal of Food Microbiology 188 (2014) 60–66
+
+P. fermentans YC5.2 and the pectinolytic Saccharomyces sp. YC9.15 (acet-
+aldehyde producing) were selected as starter cultures for coffee fermen-
+tation. The use of these starter cultures in wet processing resulted in
+coffee beverages with modiﬁed ﬂavors, which reveals that yeasts have
+a complementary role when associated with coffee quality through
+the synthesis of yeast-speciﬁc volatile constituents. A coffee with a
+distinctive aroma of fruits could be produced using the starter cultures
+in coffee processed by the wet method. The selected yeast strains
+P. fermentans YC5.2 and Saccharomyces sp. YC9.15 have a great potential
+for use as starter cultures in wet processing of coffee and may possibly
+help to control and standardize the fermentation process and produce
+coffee beverages with novel and desirable ﬂavor proﬁles. Further stud-
+ies should be directed toward the implementation of these yeast strains
+under on-farm coffee processing conditions and their interaction with
+other microorganisms, such as lactic and acetic acid bacteria and
+Gram-negative bacteria present during fermentation.
+Appendix A. Supplementary data
+Supplementary data to this article can be found online at http://dx.
+doi.org/10.1016/j.ijfoodmicro.2014.07.008.
+References
+Avallone, S., Guyot, B., Brillouet, J.M., Olguin, E., Guiraud, J.P., 2000. Involvement of
+pectolytic microorganisms in coffee fermentation. Int. J. Food Sci. Technol. 37,
+191–198.
+Avallone, S.,Guyot, B.,Brillouet, J.M.,Olguin, E.,Guiraud, J.P., 2001. Microbiological and bio-
+chemical study of coffee fermentation. Curr. Microbiol. 42, 252–256.
+Bauer, F.F.,Pretorius, I.S., 2000. Yeast stress response and fermentation efﬁciency: how to
+survive the making of wine — a review. S. Afr. J. Enol. Vitic. 21, 27–51.
+Borem, F.M., 2008. Processamento do café. In: Borem, F.M., Pós-colheita do Café. Lavras
+(Eds.), UFLA.
+Bradford, M.M., 1976. A rapid and sensitive method for quantitation of microgram
+quantities of protein utilize principle of protein-dye binding. Anal. Biochem. 72,
+248–251.
+Ciani, M.,Beco, L.,Comitini, F., 2006. Fermentation behaviour and metabolic interactions of
+multistarter wine yeast fermentations. Int. J. Food Microbiol. 108, 239–245.
+Czerny, M.,Grosch, W., 2000. Potent odorants of raw Arabica coffee. Their changes during
+roasting. J. Agric. Food Chem. 48, 868–872.
+Erten, H., 2002. Relations between elevated temperatures and fermentation behaviour of
+Kloeckera apiculata and Saccharomyces cerevisiae associated with winemaking in
+mixed cultures. World J. Microbiol. Biotechnol. 18, 373–378.
+Evangelista, S.R., Silva, C.F., Miguel, M.G.C.P., Cordeiro, C.S., Pinheiro, A.C., Duarte, W.F.,
+Schwan, R.F., 2014. Improvement of coffee beverage quality by using selected yeasts
+strains during the fermentation in dry process. Food Res. Int. 57–60.
+FAO, 2013. Worldwide Production of Coffee Beans. http://faostat3.fao.org/faostat-gate-
+way/go/to/home/E (Accessed 20 March 2014).
+Fleet, G.H., 2003. Yeast interactions and wine ﬂavour. Int. J. Food Microbiol. 86, 11–22.
+Fleet, G.H., 2008. Wine yeasts for the future. FEMS Yeast Res. 8, 979–995.
+Gao, C.,Fleet, G.H., 1988. The effects of temperature and pH on the ethanol tolerance of the
+wine yeasts, Saccharomyces cerevisiae, Candida stellata and Kloeckera apiculata. J. Appl.
+Bacteriol. 65, 405–410.
+Gonçalves, M.,Guerreiro, M.C.,Oliveira, L.C.A.,Rocha, C.L., 2008. Materiais à base de óxido
+de ferro para oxidação de compostos presentes no eﬂuente da despolpa do café.
+Quim. Nova 31, 1636–1640.
+Gonzalez-Rios, O., Suarez-Quiroz, M.L., Boulanger, R., Barel, M., Guyot, B., Guiraud, J.-P.,
+Schorr-Galindo, S., 2007. Impact of “ecological” post-harvest processing on the
+volatile fraction of coffee beans: I. Green coffee. J. Food Compos. Anal. 20, 289–296.
+Heard, G.M.,Fleet, G.H., 1988. The effects of temperature and pH on the growth of yeast
+species during the fermentation of grape juice. J. Appl. Bacteriol. 65, 23–28.
+Jackels, S.C., Jackels, C.F., 2005. Characterization of the coffee mucilage fermentation
+process using chemical indicators: a ﬁeld study in Nicaragua. J. Food Sci. 70, 321–325.
+Kurtzman, C.P., 1998. Pichia E.C.: Hansen emend. Kurtzman. In: Kurtzman, C.P., Fell, J.W.
+(Eds.), The Yeasts, a Taxonomic Study. Elsevier Science, Amsterdam, pp. 273–352.
+Masoud, W.,Jespersen, L., 2006. Pectin degrading enzymes in yeasts involved in fermen-
+tation of Coffea arabica in East Africa. Int. J. Food Microbiol. 110, 291–296.
+Masoud, W.,Cesar, L.B.,Jespersen, L.,Jakobsen, M., 2004. Yeast involved in fermentation of
+Coffea arabica in East Africa determined by genotyping and by direct denaturing
+gradient gel electrophoresis. Yeast 2, 549–556.
+Masoud, W., Poll, L., Jakobsen, M., 2005. Inﬂuence of volatile compounds produced by
+yeasts predominant during processing of Coffea arabica in East Africa on growth
+and ochratoxin A (OTA) production by Aspergillus ochraceus. Yeast 22, 1133–1142.
+Mendoza, L.M., Nadra, M.C., Farias, M.E., 2007. Kinetics and metabolic behavior of a
+composite culture of Kloeckera apiculata and Saccharomyces cerevisiae wine related
+strains. Biotechnol. Lett. 29, 1057–1063.
+Miller, G.L., 1959. Use of dinitrosalicilic acid reagent for determination of reducing sugar.
+Anal. Biochem. 31, 426–428.
+Murthy, P.S., Naidu, M.M., 2011. Improvement of robusta coffee fermentation with
+microbial enzymes. Eur. J. Appl. Sci. 3, 130–139.
+Murthy, P.S.,Naidu, M.M., 2012. Sustainable management of coffee industry by-products
+and value addition—a review. Resour. Conserv. Recycl. 66, 45–58.
+Mussatto, S.I.,Machado, E.M.S., Martins, S.,Teixeira, J.A., 2011. Production, composition,
+and application of coffee and its industrial residues. Food Bioprocess Technol. 4,
+661–672.
+Pandey, A.,Soccol, C.R.,Nigam, P.,Brand, D.,Mohan, R.,Roussos, S., 2000. Biotechnological
+potential of coffee pulp and coffee husk for bioprocesses. Biochem. Eng. J. 6, 153–162.
+Pereira, G.V.M., Miguel, M.G.C.P., Ramos, C.L., Schwan, R., 2012. Microbiological and
+pysicochemical characterization of small-scale cocoa fermentations and screening
+of yeast and bacteria strains to develop a deﬁned starter culture. Appl. Environ.
+Microbiol. 78, 5395–5405.
+Pereira, G.V.M.,Magalhães, K.T.,Almeida, E.G.,Coelho, I.S.,Schwan, R.F., 2013. Spontaneous
+cocoa bean fermentation carried out in a novel-design stainless steel tank: inﬂuence
+on the dynamics of microbial populations and physical–chemical properties. Int. J.
+Food Microbiol. 161, 121–133.
+Rossi, S.C.,Vandenberghe, L.P.S.,Pereira, B.M.P.,Gago, F.D.,Rizzolo, J.A.,Pandey, A.,Soccol, C.R.,
+Medeiros, A.B.P., 2009. Improving fruity aroma production by fungi in SSF using citric
+pulp. Food Res. Int. 42, 484–486.
+Sanz, C.,Maeztu, L.,Zapelena, M.J.,Bello, J.,Cid, C., 2002. Proﬁles of volatile compounds and
+sensory analysis of three blends of coffee: inﬂuence of different proportions of
+Arabica and Robusta and inﬂuence of roasting coffee with sugar. J. Sci. Food Agric.
+82, 840–847.
+Selvamurugan, M.,Doraisamy, P.,Maheswari, M., 2010. An integrated treatment system
+for coffee processing wastewater using anaerobic and aerobic process. Ecol. Eng. 36,
+1686–1690.
+Silva, C.F.,Batista, L.R.,Abreu, L.M.,Dias, E.S.,Schwan, R.F., 2008. Succession of bacterial and
+fungal communities during natural coffee (Coffea arabica) fermentation. Food
+Microbiol. 25, 951–957.
+Silva, C.F.,Vilela, D.M.,Cordeiro, C.S.,Duarte, W.F.,Dias, D.R.,Schwan, R.S., 2012. Evaluation
+of a potential starter culture for enhance quality of coffee fermentation. World J.
+Microbiol. Biotechnol. 29, 235–247.
+Soccol, C.R., Pereira, G.V.M., Soccol, V.T., 2013. Culturas iniciadoras de leveduras para o
+processamento de café. Instituto Nacional de Propriedade Industrial. Patente (BR
+102013029540 0).
+Vaughn, R.H.,Camargo, R.,Falanghe, H.,Mello-Ayres, G.,Serzedello, A., 1958. Observations
+on the microbiology of the coffee fermentation in Brazil. Food Technol. 12, 357–360.
+Velmourougane, K., 2013. Impact of natural fermentation on physicochemical,
+microbiological and cup quality characteristics of Arabica and Robusta coffee. Proc.
+Natl. Acad. Sci., India Section B: Biol. Sci. 83, 233–239.
+Vilela, D.M.,Pereira, G.V.M.,Silva, C.F.,Batista, L.R.,Schwan, R.F., 2010. Molecular ecology
+and polyphasic characterization of the microbiota associated with semi-dry
+processed coffee (Coffea arabica L.). Food Microbiol. 27, 1128–1135.
+Wang, X., Lim, L.T., 2013. A kinetics and modeling study of coffee roasting under
+isothermal conditions. Food Bioprocess Technol. 7, 621–632.
+Wrigley, G., 1988. Coffee. Longman Scientiﬁc Technical and John Wiley and Sons, Inc.,
+New York, p. 639.
+66
+G.V. de Melo Pereira et al. / International Journal of Food Microbiology 188 (2014) 60–66

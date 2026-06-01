@@ -1,0 +1,1116 @@
+Inhibition of Human Cytochrome P450 1A1-, 1A2-, and
+1B1-Mediated Activation of Procarcinogens to Genotoxic
+Metabolites by Polycyclic Aromatic Hydrocarbons
+Tsutomu Shimada* and F. Peter Guengerich
+Department of Biochemistry and Center in Molecular Toxicology, Vanderbilt UniVersity School of Medicine,
+606 Light Hall, 2215 Garland AVenue, NashVille, Tennessee 37232-0146
+ReceiVed October 20, 2005
+Many chemicals in the environment can cause cancer, and polycyclic aromatic hydrocarbons (PAHs)
+are among the most ubiquitous. Cancer risk assessments require consideration of these in complex mixtures.
+PAHs require metabolic activation by cytochrome P450 (P450) enzymes, primarily 1A1, 1A2, and 1B1.
+We determined if individual PAHs and other procarcinogens affect the activities of human P450s 1A1,
+1A2, and 1B1 by measuring 7-ethoxyresorufin O-deethylation (EROD) activity and metabolic activation
+of PAH dihydrodiols and 2-amino-3,5-dimethylimidazo[4,5-f]quinoline (MeIQ) to genotoxic metabolites
+in a Salmonella typhimurium NM2009 system. Of 23 PAHs examined, benz[a]anthracene (B[a]A), benzo-
+[b]fluoranthene, and 5-methylchrysene were the most potent inhibitors of P450 1A2- and 1B1-catalyzed
+EROD activity, with IC50 values <10 nM. Other PAHs, e.g., dibenz[a,c]anthracene, dibenz[a,h]anthracene,
+dibenz[a,j]acridine, and 3-methylcholanthrene, rather selectively inhibited P450 1B1, with IC50 values
+<15 nM. Benzo[a]pyrene (B[a]P) and nine other PAHs also inhibited P450 1A2 as well as 1B1 with
+IC50 values <150 nM. Parent PAH compounds were generally more potent than 10 dihydrodiol metabolites
+of PAHs and 3- and 9-hydroxy B[a]P in inhibiting EROD activity. In addition, we found that three
+selected PAHs (5-methylchrysene, B[a]P, and B[a]A) inhibited metabolic activation of 5-methylchrysene-
+1,2-diol, (()-B[a]P-7,8-diol, dibenzo[a,l]pyrene-11,12-diol, and MeIQ to genotoxic metabolites catalyzed
+by P450s 1A1, 1B1, and 1A2, respectively, in S. typhimurium NM2009. Thus, individual PAHs may
+affect their own and metabolism of other carcinogens catalyzed by P450 1A1, 1A2, and 1B1, and these
+phenomena cause alteration in their ability to transform cells when single or complex PAH mixtures are
+ingested by mammals, influencing risk assessment.
+Introduction
+The history of carcinogenic polycyclic aromatic hydrocarbons
+(PAHs)1 is nearly 250 years old, going back to observations by
+Hill (1) and Pott (2) in London with tobacco and soots.
+Yamagiwa was able to produce tumors with PAH mixtures in
+an experimental animal model in 1915 (3), and in 1933, Cook
+et al. (4) succeeded in isolating benzo[a]pyrene (B[a]P), which
+has been a prototype in PAH chemical carcinogenesis (5).
+The Millers demonstrated the need for metabolic activation
+of PAHs to generate reactive products that bind irreversibly to
+cellular nucleophiles, first with proteins and then with DNA
+(6, 7). The nature of the activation process remained unclear,
+and an early area of interest was the so-called K-region epoxide
+theory (8). Subsequently, work by Sims (9) and several others
+implicated the bay-region diol epoxides, a concept developed
+by Jerina, Conney, and others (10). Other potential contributing
+pathways include one-electron oxidation and oxidation of
+dihydrodiols to o-quinones (11-13). The source of most of these
+reactive PAH products in human tissues is the family 1 P450
+enzymes, i.e., 1A1, 1A2, and 1B1 (14, 15). Several N2-guanyl
+and N6-adenyl DNA adducts have been characterized, and
+recently, structures have been reported for two PAH-adducted
+oligonucleotides bound to DNA polymerases, providing impor-
+tant information on how these adducts may cause mutations
+(16, 17).
+Considerable concern exists about the regulation of PAH
+emissions and risk assessment related to several diseases,
+particularly respiratory disease and cancer (18, 19). One
+important consideration is that PAHs are always found in
+complex mixtures, not as single components (20-22). The
+scientific evaluation of mixtures, including PAHs, is a difficult
+problem (23, 24). One approach (additive) is to treat risk as the
+sum of that expected from each of the individual PAHs involved.
+However, mechanisms underlying interactions ultimately need
+to be established in order to define the true risks. Studies on
+PAH mixtures have been done, although much of the focus has
+been on the induction of P450s (25-28).
+In the course of our continuing studies with PAHs and human
+P450s, we found that the parent PAHs are very strong inhibitors
+of the human P450s that are generally agreed to be most
+extensively involved in the activation of PAHs and heterocyclic
+amines, the family 1 P450s.
+* To whom correspondence should be addressed. Tel: 615-322-3160.
+Fax: 615-322-3141. E-mail: shimada@msic.med.osaka-cu.ac.jp.
+1 Abbreviations: B[a]A, benz[a]anthracene; B[a]P, benzo[a]pyrene; DB-
+[a,h]A, dibenz[a,h]anthracene; DB[a,e]P, dibenzo[a,e]pyrene; DB[a,h]P,
+dibenzo[a,h]pyrene; DB[a,l]P, dibenzo[a,l]pyrene; DMBA, 7,12-dimeth-
+ylbenz[a]anthracene; EROD, 7-ethoxyresorufin O-deethylation; galangin,
+3,5,7-trihydroxyflavone; Glu-P-1, 2-amino-6-methyldipyrido[1,2-a:3′,2′-d]-
+imidazole; IQ, 2-amino-3-methylimidazo[4,5-f]quinoline; Me, methyl;
+3-MC, 3-methylcholanthrene; MeIQ, 2-amino-3,5-dimethylimidazo[4,5-f]-
+quinoline; MeIQx, 2-amino-3,8-dimethylimidazo[4,5-f]quinoxaline; RNF,
+R-naphthoflavone; PAHs, polycyclic aromatic hydrocarbons; P450, cyto-
+chrome P450; PhIP, 2-amino-1-methyl-6-phenylimidazo[4,5-b]pyridine; Trp-
+P-1, 3-amino-1,4-dimethyl-5H-pyrido[4,3-b]indole; Trp-P-2, 3-amino-1-
+methyl-5H-pyrido[4,3-b]indole.
+288
+Chem. Res. Toxicol. 2006, 19, 288-294
+10.1021/tx050291v CCC: $33.50
+© 2006 American Chemical Society
+Published on Web 01/24/2006
+
+Materials and Methods
+Chemicals. B[a]P-7,8-diols [(()-, (+)- and (-)-], 3- and
+9-hydroxy-B[a]P, benz[a]anthracene (B[a]A)-1,2-diol, B[a]A-trans-
+3,4-diol, B[a]A-cis-5,6-diol, and B[a]A-8,9-diol were purchased
+from the National Cancer Institute Chemical Carcinogen Repository/
+Midwest Research Institute (Kansas City, MO). B[a]P and B[a]A
+were purchased from Sigma Chemical Co. (St. Louis, MO) and
+Aldrich Chemical Co. (Milwaukee, WI), respectively. 7,12-Dim-
+ethylbenz[a]anthracene (DMBA), DMBA-trans-3,4-diol, DMBA-
+cis-5,6-diol, chrysene-1,2-diol, 5-methyl (Me) chrysene-1,2-diol,
+5,6-dimethylchrysene-1,2-diol, dibenzo[a,l]pyrene (DB[a,l]P)-11,-
+12-diol, benzo[g]chrysene-11,12-diol, and benzo[c]phenanthrene-
+3,4-diol were kindly donated by Dr. S. S. Hecht (University of
+Minnesota, Minneapolis, MN). 7-Ethoxyresorufin and resorufin
+were purchased from Sigma. Other chemicals and reagents used in
+this study were obtained from sources described previously or were
+of the highest qualities commercially available (14, 29, 30).
+Enzymes. A variant of P450 1B1*3 (Arg48Ala119Val432Asn453)
+was used in this study. Bacterial “bicistronic” P450 1A1, 1A2, and
+1B1 systems were prepared as described (31). Briefly, plasmids
+for the expression of P450 1A1, 1A2, or 1B1 plus human NADPH-
+P450 reductase (using a single promoter) were introduced into
+Escherichia coli DH5R cells by a heat shock procedure, and the
+transformants were selected in Luria-Bertani medium containing
+100 µg ampicillin/mL. Bacterial membranes were prepared and
+suspended in 10 mM Tris-Cl buffer (pH 7.4) containing 1.0 mM
+EDTA and 20% glycerol, v/v (32). Yields of P450, as determined
+by the original spectral method (33), ranged between 40 and 250
+nmol/L medium.
+Enzyme Assays. Standard incubation mixtures for the assay of
+7-ethoxyresorufin O-deethylation (EROD) consisted of human P450
+enzymes (usually membranes containing 10 pmol for P450) with a
+substrate concentration of 2.5 µM in a final volume of 0.5 mL of
+100 mM potassium phosphate buffer (pH 7.4) containing an
+NADPH-generating system consisting of 0.5 mM NADP+, 5 mM
+glucose 6-phosphate, and 0.5 units of yeast glucose 6-phosphate
+dehydrogenase/mL (34, 35). The formation of resorufin from
+7-ethoxyresorufin was determined fluorimetrically as described (36).
+All inhibitors and 7-ethoxyresorufin were dissolved as stock
+solutions (1 mM) in (CH3)2SO and diluted to working solutions;
+the final concentration of organic solvent was e1% (v/v) in all
+cases.
+P450-dependent activation of procarcinogens to reactive products
+that cause induction of umu gene expression in tester strain
+Salmonella typhimurium NM2009 was determined as described
+previously (14, 29). Standard incubation mixtures contained P450
+(10 pmol) and 2.5 µM 5-Me chrysene-1,2-diol, (()-B[a]P-7,8-diol,
+DB[a,l]P-11,12-diol, and 2-amino-3,5-dimethylimidazo[4,5-f]quino-
+line (MeIQ), in a final volume of 1.0 mL of 100 mM potassium
+phosphate buffer (pH 7.4) containing the NADPH-generating system
+and 0.75 mL of bacterial suspension. The induction of umu gene
+expression was monitored by measuring â-galactosidase activity
+using o-nitrophenyl-â-D-galactopyranoside as a substrate and is
+presented as units of â-galactosidase activity/min/nmol P450 (14,
+29).
+Kinetic parameters for inhibition of EROD activities and
+activation of procarcinogens to genotoxic products in S. typhimu-
+rium NM2009 by PAHs and other compounds were estimated by
+nonlinear regression analysis using the program KaleidaGraph
+(Synergy Software, Reading, PA) or GraphPad Prism (Graphpad,
+San Diego, CA).
+Results
+Inhibition of P450 1A1, 1A2, and 1B1 EROD Activity by
+5-Me Chrysene, Dibenz[a,h]anthracene (DB[a,h]A), and
+B[a]P. We examined inhibition of EROD activities in bicistronic
+E. coli membranes expressing P450 1A1, 1A2, and 1B1 (plus
+human NADPH-P450 reductase) by the carcinogenic PAHs
+5-Me chrysene, DB[a,h]A, and B[a]P (Figure 1). IC50 values
+were determined to be 135, >1000, and 350 nM for the
+inhibition of EROD by 5-Me chrysene, DB[a,h]A, and B[a]P,
+respectively, in the P450 1A1 system. When P450 1A2 was
+used, IC50 values of 6.0, >1000, and 140 nM, respectively, were
+estimated. IC50 values for inhibition of P450 1B1 were 8.0, 5.2,
+and 31 nM, respectively.
+Inhibition of EROD Activities by 23 PAHs and 11
+Chemicals Reported to Inhibit P450 Family 1-Dependent
+Activities. Of the 23 PAH compounds examined, B[a]A, benzo-
+[b]fluoroanthene, and 5-Me chrysene were the most potent in
+inhibiting P450 1A2 and 1B1; the IC50 values were <10 nM in
+these cases (Table 1). These three chemicals also inhibited P450
+1A1-dependent EROD activity, and the IC50 values ranged
+Figure 1. Inhibition of EROD activity by PAHs. (A) P450 1A1, (B)
+P450 1A2, and (C) P450 1B1. Plots are shown for inhibition by 5-Me
+chrysene (0), DB[a,h]A (4), and B[a]P (b). See Table 1 for uninhibited
+EROD activities and IC50 values.
+Table 1. Inhibition of EROD Activity by PAHs and Other
+Compoundsa
+IC50 (nM)
+PAHs
+P450 1A1
+P450 1A2
+P450 1B1
+acenaphthene
+>1000
+>1000
+>1000
+acenaphthylene
+>1000
+>1000
+>1000
+anthracene
+>1000
+>1000
+>1000
+B[a]A
+170 ( 26
+7.7 ( 1.0
+9.1 ( 1.8
+B[a]P
+350 ( 46
+140 ( 15
+31 ( 6.
+benzo[e]pyrene (B[e]P)
+>1000
+24 ( 2.6
+17 ( 3
+benzo[b]fluoroanthene
+250 ( 52
+9.5 ( 1.4
+4.9 ( 1.0
+benzo[j]fluoranthene
+250 ( 22
+35 ( 3.2
+44 ( 8
+benzo[k]fluoranthene
+450 ( 72
+23 ( 2
+27 ( 4
+benzo[c]phenanthrene
+330 ( 62
+>1000
+>1000
+chrysene
+>1000
+51 ( 8
+92 ( 23
+dibenz[a,c]anthracene
+130 ( 21
+47 ( 12
+8.8 ( 1.4
+DB[a,h]A
+>1000
+>1000
+5.2 ( 0.6
+dibenz[a,j]acridine
+56 ( 7
+41 ( 8
+15 ( 2
+dibenzo[a,e]pyrene (DB[a,e]P)
+>1000
+>1000
+700 ( 140
+dibenzo[a,h]pyrene (DB[a,h]P)
+>1000
+150 ( 20
+70 ( 11
+DB[a,l]P
+>1000
+>1000
+>1000
+DMBA
+750 ( 120
+>1,000
+300 ( 54
+fluoranthene
+>1000
+14 ( 2
+15 ( 3
+3-MC
+>1000
+150 ( 19
+14 ( 2
+5-Me chrysene
+135 ( 22
+6.0 ( 0.7
+8.0 ( 1.0
+phenanthrene
+500 ( 77
+>1000
+>1000
+pyrene
+>1000
+>1000
+350 ( 47
+other compounds
+R-naphthoflavone (RNF)
+60 ( 13
+15 ( 3
+9.0 ( 1.4
+1-ethynylpyrene
+120 ( 35
+120 ( 26
+600 ( 72
+1-(1-propynyl)pyrene
+>1000
+200 ( 32
+200 ( 29
+2-ethynylphenanthrene
+>1000
+200 ( 29
+42 ( 7
+3-ethynylphenanthrene
+>1000
+170 ( 27
+90 ( 8
+galangin
+65 ( 13
+5.5 ( 0.7
+8.0 ( 1.3
+2,4,3′,5′-tetramethoxystilbene
+240 ( 44
+>1,000
+140 ( 18
+acacetin
+100 ( 13
+360 ( 55
+50 ( 11
+piceatannol
+>1000
+>1000
+900 ( 120
+resveratrol
+>1000
+>1000
+>1000
+thiotepa
+>1000
+>1000
+>1000
+a A substrate concentration of 2.5 µM was used. Uninhibited EROD
+activities of P450 1A1, 1A2, and 1B1 were 46 ( 5, 9.5 ( 0.9, and 27 (
+3 nmol product formed/min/nmol P450, respectively. Chemicals (inhibitors)
+were added at concentrations ranging from 0.64 to 400 nM. Results are
+presented as IC50 ( SD.
+Inhibition of Human P450s 1A1, 1A2, and 1B1 by PAHs
+Chem. Res. Toxicol., Vol. 19, No. 2, 2006
+289
+
+between 100 and 250 nM. DB[a,h]A was a rather specific
+inhibitor of P450 1B1, with an IC50 value of 5.2 nM, while it
+was very weak in inhibiting the activities catalyzed by P450
+1A1 and 1A2. Benz[j]acridine and 3-methylcholanthrene (3-
+MC) also selectively inhibited P450 1B1-dependent EROD
+activities with IC50 values of ∼15 nM. B[a]P, B[e]P, benzo[j]-
+fluoranthene, benzo[k]fluoranthene, chrysene, dibenz[a,c]an-
+thracene, DB[a,h]A, dibenz[a,j]acridine, DB[a,h]P, fluoranthene,
+and 3-MC were also found to inhibit P450 1A2 as well as P450
+1B1; the IC50 values were determined to be <150 nM. B[e]P,
+chrysene, DB[a,h]A, DB[a,h]P, fluoranthene, and 3-MC were
+weak inhibitors of P450 1A1.
+In the case of P450 1A1, dibenz[a,j]acridine was found to
+be the most inhibitory PAH, with an IC50 value of 56 nM,
+followed by dibenz[a,c]anthracene (130 nM), 5-Me chrysene
+(135 nM), and B[a]A (170 nM). B[a]P, benzo[b]fluoranthene,
+benzo[j]fluoranthene, benzo[k]fluoranthene, benzo[c]phenan-
+threne, 7,12-DMBA, and phenathrene inhibited P450 1A1 with
+IC50 values between 250 and 500 nM. Benzo[c]phenanthrene
+inhibited P450 1A1 but was weak in inhibiting P450 1A2 and
+1B1. Acenaphthene, acenaphthylene, antharacene, and DB[a,h]P
+were weak inhibitors of P450s 1A1, 1A2, and 1B1. Among the
+other 11 potential chemicals that have been reported to be
+inhibitors of P450 1 family enzymes (34, 37), R-naphthoflavone
+and 3,5,7-trihydroxyflavone (galangin) were found to be as
+potent inhibitors as the three most inhibitory PAHs (B[a]A,
+benzo[b]fluoroanthene, and 5-Me chrysene) described above
+(Table 1).
+Inhibition of EROD Activities by PAH Diols and Other
+PAH Metabolites, Heterocyclic Arylamines, and Mycotoxins.
+Ten PAH diols, 3-OH-B[a]P, 9-OH-B[a]P, 6-aminochrysene,
+2-nitrochrysene, 6-nitrochrysene, 7 heterocyclic arylamines, and
+aflatoxin B1 and sterigmatocystin were examined for inhibition
+of EROD activities of P450 1A1, 1A2, and 1B1 (Table 2).
+B[a]P-4,5-diol, 3-OH-B[a]P, and 9-OH-B[a]P inhibited the three
+P450s with IC50 values similar to or less than the parent PAH
+B[a]P did. Other PAH diols examined were less active in
+inhibiting these P450s when compared with the parent PAHs.
+6-Aminochrysene inhibited P450 1A1-, 1A2, and 1B1-dependent
+EROD activities with IC50 values of 110, 100, and 45 nM,
+respectively (Table 2). 2-Nitrochrysene and 6-nitrochrysene were
+weak inhibitors. 3-Amino-1,4-dimethyl-5H-pyrido[4,3-b]indole
+(Trp-P-1) and 3-amino-1-methyl-5H-pyrido[4,3-b]indole (Trp-
+P-2) inhibited P450 1B1 with IC50 values of 55 and 200 nM,
+respectively, but six other heterocyclic arylamines did not
+significantly inhibit the EROD activities of P450s (Table 2).
+Aflatoxin B1 and sterigmatocystin were weak inhibitors of the
+reactions catalyzed by all three P450s.
+Effects of Substrate Concentration on Inhibition of EROD
+Activity by B[a]P, 5-Me Chrysene, rNF, and Galangin. The
+EROD Km (µM) and kcat (nmol/min/nmol P450) values were
+determined to be 1.5 and 65 for P450 1A1, 0.61 and 11 for
+P450 1A2, and 0.54 and 29 for P450 1B1, respectively (Figure
+2 and Table 3). When 0.8 µM B[a]P, 0.16 µM RNF, and 0.16
+µM galangin were added to the incubation mixture containing
+P450 1A1, three chemicals caused decreases in EROD kcat values
+from 60 to 17-26 min-1 but did not increase the Km values
+(Figure 2 and Table 3). Similarly, P450 1A1, 1A2, and 1B1
+EROD activities were inhibited by B[a]P, 5-Me chrysene, RNF,
+and galangin, with decreases in kcat values without increases in
+Km values (Figure 2 and Table 3).
+Inhibition of P450-Dependent Activation of 5-Me Chry-
+sene-1,2-diol, ((-B[a]P-7,8-diol, DB[a,l]P-11,12-diol, and
+MeIQ by PAHs, rNF, and Galangin to Genotoxic Products
+in S. typhimurium NM2009. Three PAHss5-Me chrysene,
+B[a]P, and B[a]Asand RNF and galangin were examined as
+inhibitors of P450-catalyzed activation of procarcinogens to
+genotoxic products in S. typhimurium NM2009 (Figure 3). The
+Figure 2. Effects of substrate concentrations on inhibition of EROD
+activity by chemical inhibitors in systems containing P450 1A1 (A),
+P450 1A2 (B), and P450 1B1 (C). Inhibitors added to the system were
+0.8 µM B[a]P (b), 0.16 µM RNF (2), and 0.16 µM galangin (9) for
+P450 1A1; 0.4 µM B[a]P (b), 0.016 µM Me chrysene (∆), 0.032 µM
+RNF (2), and 0.032 µM galangin (9) for P450 1A2; and 0.08 µM
+B[a]P (b), 0.016 µM Me chrysene (4), 0.016 µM RNF (2), and 0.016
+µM galangin (9) for P450 1B1. Open circles indicate activity in the
+absence of inhibitors.
+Figure 3.
+Inhibition of the activation of PAH diols to genotoxic
+products in the S. typhimurium umu system by other PAHs and
+flavonoids. Panels A, E, and G show the umu response of P450s 1A1,
+1A2, and 1B1, respectively, with 5-Me chrysene (O), B[a]P (b), and
+B[a]A (0). The effects of the same three compounds plus RNF (4)
+and galangin (2) on the activation of 5-Me chrysene-1,2-diol, (()B-
+[a]P-7,8-diol, and DB[a,l]P-11,12-diol by P450 1A1 are shown in panels
+B, C, and D, respectively. The effects of the same compounds on the
+activation of MeIQ by P450 1A2 are shown in panel F. The effects of
+the same compounds on the activation of 5-Me chrysene-1,2-diol, (()-
+B[a]P-7,8-diol, and DB[a,l]P-11,12-diol by P450 1B1 are shown in
+panels H, I, and J, respectively. Galangin was cytotoxic at higher
+concentrations, and only the effects at low concentrations are presented.
+290
+Chem. Res. Toxicol., Vol. 19, No. 2, 2006
+Shimada and Guengerich
+
+procarcinogens used heres5-Me chrysene-1,2-diol, (()-B[a]P-
+7,8-diol, DB[a,l]P-11,12-diol, and MeIQshave previously been
+shown to be very active in inducing umu gene expression after
+activation by P450s in this bacterial tester strain (14, 29).
+The parent PAHs (5-Me chrysene, B[a]P, and B[a]A) were
+slightly activated to genotoxic products in S. typhimurium
+NM2009 by P450s 1A1 and 1B1 (Figure 3A,G); activation of
+these three PAHs by P450 1A2 was very limited (Figure 3E)
+relative to the rates of activation measured when 5-Me chrysene-
+1,2-diol, (()-B[a]P-7,8-diol, and DB[a,l]P-11,12-diol were used
+as substrates in the absence of inhibitors (Figure 3). The effects
+of the three PAHss5-Me chrysene, B[a]P, and B[a]Ason the
+activation of 5-Me chrysene-1,2-diol, (()-B[a]P-7,8-diol, and
+DB[a,l]P-11,12-diol by P450 1A1 and 1B1 and of MeIQ by
+P450 1A2 were determined (Figure 3 and Table 4). Inhibition
+by RNF and galangin was compared with that of the three PAHs.
+The three PAHs inhibited P450 1A1-dependent activation of
+5-Me chrysene-1,2-diol, (()-B[a]P-7,8-diol, and DB[a,l]P-11,-
+12-diol with IC50 values of 3-8, ∼18, and 7-9 µM, respectively
+Table 2. Inhibition of EROD Activity by Other Procarcinogensa
+IC50 (nM)
+chemical
+P450 1A1
+P450 1A2
+P450 1B1
+PAH diols
+B[a]P-4,5-diol
+190 ( 30
+84 ( 17
+250 ( 33
+3-OH B[a]P
+790 ( 190
+620 ( 81
+120 ( 26
+9-OH B[a]P
+510 ( 66
+290 ( 26
+70 ( 13
+(+)-B[a]P-7,8-diol
+>4000
+800 ( 160
+500 ( 83
+(-)-B[a]P-7,8-diol
+2000 ( 330
+330 ( 53
+170 ( 27
+benzo[b]fluoroanthene-4,5-diol
+1500 ( 290
+290 ( 67
+300 ( 55
+benzo[b]fluoroanthene-9,10-diol
+1300 ( 200
+900 ( 150
+560 ( 52
+7,12-DMBA-3,4-diol
+>4000
+>4000
+>4000
+DB[a,l]P-11,12-diol
+>4000
+3500 ( 700
+>4000
+chrysene-1,2-diol
+>4000
+400 ( 65
+310 ( 68
+3-MC-11,12-diol
+3000 ( 420
+420 ( 84
+150 ( 20
+5-Me chrysene-1,2-diol
+>4000
+400 ( 38
+400 ( 55
+amino and nitro PAHs
+6-aminochrysene
+110 ( 38
+100 ( 12
+45 ( 10
+2-nitrochrysene
+>4000
+>4000
+>4000
+6-nitrochrysene
+>4000
+>4000
+>4000
+heterocyclic arylamines
+2-amino-6-methyldipyrido[1,2-a:3′,2′-d]imidazole (Glu-P-1)
+>4000
+>4000
+>4000
+2-amino-3-methylimidazo[4,5-f]quinoline (IQ)
+>4000
+>4000
+>4000
+2-amino-3,5-dimethylimidazo[4,5-f]quinoline (MeIQ)
+>4000
+>4000
+>4000
+2-amino-3,8-dimethylimidazo[4,5-f]quinoxaline (MeIQx)
+>4000
+>4000
+>4000
+2-amino-1-methyl-6-phenylimidazo[4,5-b]pyridine (PhIP)
+>4000
+>4000
+>4000
+3-amino-1,4-dimethyl-5H-pyrido[4,3-b]indole (Trp-P-1)
+>4000
+>4000
+55 ( 10
+3-amino-1-methyl-5H-pyrido[4,3-b]indole (Trp-P-2)
+1200 ( 132
+>4000
+200 ( 26
+mycotoxins
+aflatoxin B1
+>4000
+>4000
+>4000
+sterigmatocystin
+>4000
+>4000
+>4000
+a See Table 1 for uninhibited EROD activities of P450s 1A1, 1A2, and 1B1. Chemicals were added at concentrations ranging from 1.6 to 1000 nM. The
+substrate concentration used was 2.5 µM. Results are presented as IC50 ( SD.
+Table 3. Inhibition of EROD Activity by Chemical Inhibitors in
+P450 1A1, 1A2, and 1B1 Systemsa
+EROD activity
+inhibitor
+concn
+(µM)
+Km
+(µM)
+kcat (nmol/min/
+nmol P450)
+P450 1A1
+none
+1.5 ( 0.3
+65 ( 2
+B[a]P
+0.8
+0.63 ( 0.24
+21 ( 3
+RNF
+0.16
+0.45 ( 0.13
+26 ( 2
+galangin
+0.16
+0.32 ( 0.10
+18 ( 2
+P450 1A2
+none
+0.61 ( 0.11
+11 ( 1
+B[a]P
+0.4
+0.87 ( 0.11
+4.1 ( 0.2
+5-Me chrysene
+0.016
+0.84 ( 0.16
+3.8 ( 0.2
+RNF
+0.032
+0.37 ( 0.09
+4.9 ( 0.3
+galangin
+0.032
+0.22 ( 0.05
+3.3 ( 0.2
+P450 1B1
+none
+0.54 ( 0.10
+29 ( 2
+B[a]P
+0.08
+0.37 ( 0.05
+14 ( 1
+5-Me chrysene
+0.016
+0.26 ( 0.06
+11 ( 1
+RNF
+0.016
+0.22 ( 0.04
+12 ( 1
+galangin
+0.016
+0.23 ( 0.06
+16 ( 1
+a EROD activities were determined at substrate concentrations between
+0.0195 and 5.0 µM, and kinetic parameters were determined. Results are
+presented as ( SD estimated for kcat and Km (from GraphPad Prism).
+Table 4. IC50 Values for Inhibition of P450-Dependent Activation of
+Promutagensa
+P450 1A1
+IC50 (µM)
+inhibitor
+5-Me chrysene-
+1,2-diol
+(()-B[a]P-
+7,8-diol
+DB[a,l]P-
+11,12-diol
+5-Me chrysene
+8.1 ( 2.2
+18 ( 4
+7.9 ( 1.8
+B[a]P
+6.2 (1.8
+18 ( 2
+9.2 ( 1.7
+B[a]A
+3.3 ( 0.9
+18 ( 3
+7.3 ( 2.6
+RNF
+2.4 ( 0.8
+4.9 ( 1.5
+1.6 ( 0.5
+galangin
+0.93 ( 0.35
+1.4 ( 0.3
+0.46 ( 0.06
+P450 1A2
+IC50 (µM)
+MeIQ
+5-Me chrysene
+8.9 ( 3.0
+B[a]P
+15 ( 4
+B[a]A
+0.94 ( 0.97
+RNF
+0.98 ( 0.30
+galangin
+0.39 ( 0.64
+P450 1B1
+IC50 (µM)
+5-Me chrysene-
+1,2-diol
+(()-B[a]P-
+7,8-diol
+DB[a,l]P-
+11,12-diol
+5-Me chrysene
+4.3 ( 0.4
+9.4 ( 2.7
+2.7 ( 0.7
+B[a]P
+2.2 ( 0.4
+4.4 ( 0.7
+2.2 ( 0.4
+B[a]A
+2.1 ( 0.6
+6.4 ( 2.5
+1.8 ( 0.3
+RNF
+2.2 ( 0.5
+1.5 ( 0.2
+1.0 ( 1.1
+galangin
+0.39 ( 0.10
+0.39 ( 0.1
+0.20 ( 0.50
+a IC50 values ((SD) were estimated and determined by nonlinear
+regression analysis using GraphPad Prism (GraphPad).
+Inhibition of Human P450s 1A1, 1A2, and 1B1 by PAHs
+Chem. Res. Toxicol., Vol. 19, No. 2, 2006
+291
+
+(Figure 3B-D and Table 4). RNF and galangin were more
+inhibitory (than the three PAHs) toward the activation of 5-Me
+chrysene-1,2-diol, (()-B[a]P-7,8-diol, and DB[a,l]P-11,12-diol
+catalyzed by P450 1A1 (Figure 3 and Table 4). Activation of
+MeIQ by P450 1A2 was most strongly inhibited by B[a]A with
+an IC50 value of 0.94 nM, which was comparable to RNF (0.98
+nM) and galangin (0.39 nM) (Figure 3F and Table 4). The IC50
+values with 5-Me chrysene and B[a]P were determined to be 9
+and 15 µM, respectively, for the activation of MeIQ by P450
+1A2. Three PAHs were stronger inhibitors of the activation of
+5-Me chrysene-1,2-diol, (()-B[a]P-7,8-diol, and DB[a,l]P-11,-
+12-diol by P450 1B1 than those by P450 1A1; the IC50 values
+with three PAHs in P450 1B1 were comparable to those of RNF
+but higher than that of galangin (Figure 3H-J and Table 4).
+Discussion
+Urban atmosphere, diesel exhaust particles, tobacco smoke
+condensates, and broiled foods contain many types of carcino-
+gens, and PAHs have been recognized to be the major ones
+(20, 22, 38). Most of the carcinogenicity studies have been done
+using single chemicals in experimental animals, and B[a]P, DB-
+[a,h]A, DMBA, and 3-MC are reported to be potent carcinogens
+(4, 20). Complex mixtures of PAHs and other chemicals have
+been studied to determine if these mixtures cause increased or
+decreased capacities to form PAH-DNA adducts in vitro and
+tumor formation in vivo, as compared with single chemicals
+(27, 28, 39-45). The results reported to date are complex; in
+some cases, the carcinogenic activities and DNA-binding
+capacities are additive (20, 40-42, 46-48) but in other cases
+decreased when compared with individual carcinogens (20, 22,
+25, 40, 46, 49-52). The complex mixtures contain different
+types of chemicals that cause alterations in the biological
+activities of PAHs (20, 22, 25). Because most of the PAHs
+require metabolic activation by P450s (and other enzymes) to
+exert their carcinogenic potentials, the nature of enzyme
+inhibitors and inducers in the mixtures has been studied
+extensively (15, 53-56). In general, the chemical inhibitors may
+be more important than the chemical inducers with respect to
+their low dose effects in modifying carcinogen metabolism and
+action (Figure 4) (37, 46, 58, 59).
+Numerous inhibitors of P450 1A1, 1A2, and 1B1 have been
+reported. These include flavonoids (RNF and galangin), 2,4,3′,5′-
+tetramethoxystilbene, naturally occurring coumarins (bergamot-
+tin, imperatorin, and isopimpinellin), vinylic and acetylenic PAH
+compounds [e.g., 1-ethynylpyrene and 1-(1-propynyl)pyrene],
+and synthetic organoselenium compounds (34, 37, 46, 58, 60-
+63). In vivo studies have shown that some of these inhibitors
+are able to suppress the tumor formation induced by PAHs and
+other carcinogens in experimental animals (61, 64-66).
+Several carcinogenic PAHs were found to be potent inhibitors
+of P450 1A2 and 1B1, with IC50 values <150 nM. These include
+B[a]A, B[a]P, benzo[b]fluoranthene, benzo[j]fluoranthene, ben-
+zo[k]fluoranthene, chrysene, dibenz[a,c]anthracene, dibenz[a,j]-
+acridine, DB[a,h]P, 3-MC, and 5-Me chrysene. Interestingly,
+B[a]A, benzo[b]fluoranthene, and 5-Me chrysene inhibited P450
+1A2- and 1B1-dependent EROD activities with IC50 values <10
+nM. DB[a,h]A is rather unique because it inhibited P450 1B1-
+mediated EROD activities with an IC50 of 5.2 nM, while it did
+not inhibit P450 1A1 and 1A2 activities even at 1000 nM. DB-
+[a,h]A has been shown to induce tumors in Sprague-Dawley
+rats and NMRI mice (67, 68) and has been proposed to be
+transformed to a bis-diol epoxide, which acts as a DNA-binding
+species in the mouse (69). Which P450 enzymes are involved
+in this activation step(s) remains unclear.
+The IC50 values obtained with P450 1A1-dependent EROD
+activities were always higher than those with P450 1A2 and
+1B1. Our results also showed that B[e]P and fluoranthene, which
+have been reported to be weak carcinogens or noncarcinogens
+(20, 22), very strongly inhibited P450 1A2 and 1B1 but not
+P450 1A1. Conversely, a potent carcinogen DB[a,l]P did not
+show significant inhibition of EROD activities by P450s, except
+that the former PAH inhibited P450 1A1-dependent EROD
+activity with an IC50 of 330 nM. These results imply that the
+carcinogenic potential of PAHs is not directly related to the
+inhibitory activities for P450s 1A1, 1A2, and 1B1. Our results
+also showed that B[a]P, 5-Me chrysene, RNF, and galangin
+inhibit EROD activities of P450 1A1, 1A2, and 1B1 in a
+noncompetitive manner (Figure 2 and Table 3). These chemicals
+decreased P450 1A1, 1A2, and 1B1 EROD kcat values without
+increases in Km values, suggesting that PAHs bind to the sites
+distinct from substrate binding sites.
+5-Me chrysene, B[a]P, and B[a]A were selected to determine
+if these chemicals inhibit metabolic activation of potential
+procarcinogens 5-Me chrysene-1,2-diol, (()-B[a]P-7,8-diol, and
+DB[a,l]P-11,12-diol and MeIQ catalyzed by three P450s in S.
+typhimurium NM2009. 5-Me chrysene itself inhibited the
+activation of 5-Me chrysene-1,2-diol to active metabolites
+catalyzed by P450 1A1 and 1B1, as well as those of (()-B[a]P-
+7,8-diol and DB[a,l]P-11,12-diol. Similarly, B[a]P inhibited the
+activation of (()-B[a]P-7,8-diol, 5-Me chrysene-1,2-diol, and
+DB[a,l]P-11,12-diol to active metabolites by P450 1A1 and 1B1.
+Activation of MeIQ by P450 1A2 was inhibited by three PAHs.
+The results indicated that PAHs are able to alter their own
+metabolism by P450s as well as those of other environmental
+carcinogens (Figure 3).
+IC50 values obtained with inhibition of P450-dependent
+activation of PAH diols and MeIQ by PAHs and RNF and
+galangin were higher than those determined with EROD
+activities. 5-Me chrysene, for example, inhibited P450 1A1
+EROD with an IC50 of 135 nM, although it inhibited P450 1A1-
+dependent activation of 5-Me chrysene-1,2-diol, (()-B[a]P-7,8-
+diol, and DB[a,l]P-11,12-diol with IC50 values of 8.1, 18, and
+Figure 4. Inhibition of metabolism by PAHs. Inhibition of metabolism A naphthyl moiety is shown as the PAH being activated to a genotoxin.
+AKR, aldo-ketoreductase (57). One PAH can inhibit the P450 activation of another at either the first or the latter step.
+292
+Chem. Res. Toxicol., Vol. 19, No. 2, 2006
+Shimada and Guengerich
+
+7.9 µM, respectively. All of the results showed similar tenden-
+cies that the IC50 values with EROD assay were always smaller
+than those with metabolic activation catalyzed by P450s. The
+pattern was observed earlier with 2,4,3′,5′-tetramethoxystilbene
+and estradiol hydroxylation, as compared with EROD (58). We
+hypothesize that the differences are the result of different
+affinities between 7-ethoxyresorufin and PAHs with P450s 1A1,
+1A2, and 1B1.
+Metabolites of PAHs (e.g., 3-OH and 9-OH B[a]P and 10
+dihydrodiol derivatives of PAHs) were rather weak inhibitors
+of P450-dependent EROD activities as compared with the parent
+compounds. Vinylic and acetylenic PAHs and other compounds
+have been shown to be mechanism-based inhibitors of P450s
+(34, 37, 70). Whether PAHs require metabolism to exert P450
+inhibition remains unclear at present.
+6-Aminochrysene and Trp-P-1 and Trp-P-2 inhibited P450
+1B1-dependent EROD more strongly than P450 1A1 and 1A2.
+Other heterocyclic amines, 2- and 6-nitrochrysene, aflatoxin B1,
+and sterigmatocystin were relatively weak in inhibiting these
+three P450s.
+In conclusion, our current studies showed that 14 of 23 PAHs
+tested were found to be potent inhibitors of P450 1A2 and 1B1
+and in several cases P450 1A1. Some of these PAHs were not
+so potent in inhibiting P450 1A1 as compared with P450 1A2
+and 1B1. Among the 14 chemicals, B[e]P and fluoranthene have
+been reported to be weak carcinogens or noncarcinogens, while
+others have been reported to be potent carcinogens in experi-
+mental animals and possibly in humans. Because P450s 1A1,
+1A2, and 1B1 are the major enzymes that metabolize these
+PAHs, it is suggested that these PAHs affect the metabolism of
+other carcinogens present in the environment. Our studies
+showed that the three potent P450 inhibitors 5-Me chrysene,
+B[a]A, and B[a]P strongly decreased the activation of 5-Me
+chrysene-1,2-diol, (()-B[a]P-7,8-diol, and DB[a,l]P-11,12-diol
+to genotoxic metabolites catalyzed by P450 1A1 and 1A2 and
+of MeIQ by P450 1A2 in S. typhimurium NM2009. Thus,
+individual PAHs may affect their own and other carcinogen
+metabolism catalyzed by P450s 1A1, 1A2, and 1B1 (Figure 3),
+and these phenomena cause alterations in their ability to
+transform cells when single or complex PAH mixtures are
+ingested by mammals, influencing risk assessment.
+Acknowledgment. This work was supported in part by NIH
+Grants R01 CA090426 and P30 ES000267. We thank K. Trisler
+for assistance in preparation of the manuscript.
+References
+(1) Hill, J. (1761) Cautions Against the Immoderate Use of Snuff, Baldwin,
+R., and Jackson, J., London.
+(2) Pott, P. (1775) Chirurgical ObserVations RelatiVe to the Cataract,
+the Polypus of the Nose, the Cancer of the Scrotum, the Different
+Kinds of Ruptures and the Mortification of Toes and Feet, L. Hawes,
+London.
+(3) Yamagiwa, K., and Ichikawa, K. (1915) Experimentelle studie u¨ber
+die pathogenese der epithelialgeschwulste. Mitt. Med. Fak. Tokio 15,
+295-344.
+(4) Cook, J. W., Hewett, C. L., and Hieger, I. (1933) The isolation of a
+cancer-producing hydrocarbon from coal tar. Parts I, II, and III. J.
+Chem. Soc., 394-405.
+(5) Dipple, A., Moschel, R. C., and Bigger, C. A. H. (1984) Polynuclear
+aromatic carcinogens, In Chemical Carcinogens (Searle, C. E., Ed.)
+ACS Monograph 182, pp 41-163, American Chemical Society,
+Washington, DC.
+(6) Miller, E. C. (1951) Studies on the formation of protein-bound
+derivatives of 3,4-benzpyrene in the epidermal fraction of mouse skin.
+Cancer Res. 11, 100-108.
+(7) Miller, E. C., and Miller, J. A. (1966) Mechanisms of chemical
+carcinogenesis: Nature of proximate carcinogens and interactions with
+macromolecules. Pharmacol. ReV. 18, 805-838.
+(8) Pullman, A., and Pullman, B. (1955) La Cancerisation par les
+Substances Chimiques e la Structure Moleculaire, Masson, Paris.
+(9) Sims, P., Grover, P., Swaisland, A., Pal, K., and Hewer, A. (1974)
+Metabolic activation of benzo(a)pyrene proceeds by a diol-epoxide.
+Nature 252, 326-328.
+(10) Wood, A. W., Levin, W., Lu, A. Y. H., Yagi, H., Hernandez, O.,
+Jerina, D. M., and Conney, A. H. (1976) Metabolism of benzo[a]-
+pyrene and benzo[a]pyrene derivatives to mutagenic products by highly
+purified hepatic microsomal enzymes. J. Biol. Chem. 251, 4882-4890.
+(11) Cavalieri, E. L., and Rogan, E. G. (1984) One-electron and two-electron
+oxidation in aromatic hydrocarbon carcinogenesis. Free Radicals in
+Biology, pp 323-369, Academic Press, New York.
+(12) Smithgall, T. E., Harvey, R. G., and Penning, T. M. (1988)
+Spectroscopic identification of ortho-quinones as the products of
+polycyclic aromatic trans-dihydrodiol oxidation catalyzed by dihy-
+drodiol dehydrogenase: A potential route of proximate carcinogen
+metabolism. J. Biol. Chem. 263, 1814-1820.
+(13) Flowers, L., Bleczinski, W. F., Burczynski, M. E., Harvey, R. G.,
+and Penning, T. M. (1996) Disposition and biological activity of benzo-
+[a]pyrene-7,8-dione. A genotoxic metabolite generated by dihydrodiol
+dehydrogenase. Biochemistry 35, 13664-13672.
+(14) Shimada, T., Hayes, C. L., Yamazaki, H., Amin, S., Hecht, S. S.,
+Guengerich, F. P., and Sutter, T. R. (1996) Activation of chemically
+diverse procarcinogens by human cytochrome P450 1B1. Cancer Res.
+56, 2979-2984.
+(15) Shimada, T., and Fujii-Kuriyama, Y. (2004) Metabolic activation of
+polycyclic aromatic hydrocarbons to carcinogens by cytochromes P450
+1A1 and 1B1. Cancer Sci. 95, 1-6.
+(16) Ling, H., Sayer, J. M., Plosky, B. S., Yagi, H., Boudsocq, F.,
+Woodgate, R., Jerina, D. M., and Yang, W. (2004) Crystal structure
+of a benzo[a]pyrene diol epoxide adduct in a ternary complex with a
+DNA polymerase. Proc. Natl. Acad. Sci. U.S.A. 101, 2265-2269.
+(17) Hsu, G. W., Huang, X., Luneva, N. P., Geacintov, N. E., and Beese,
+L. S. (2005) Structure of a high fidelity DNA polymerase bound to a
+benzo[a]pyrene adduct that blocks replication. J. Biol. Chem. 280,
+3764-3770.
+(18) Arce, G. T., Allen, J. W., Doerr, C. L., Elmore, E., Hatch, G. G.,
+Moore, M. M., Sharief, Y., Grunberger, D., and Nesnow, S. (1987)
+Relationships between benzo(a)pyrene-DNA adduct levels and geno-
+toxic effects in mammalian cells. Cancer Res. 47, 3388-3395.
+(19) Nesnow, S., and Lewtas, J. (1991) Interspecies sensitivity to chemical
+carcinogens: Relationships between mouse skin tumors and human
+lung cancer. EnViron. Carcinog. ReV. (J. EnViron. Health) C9, 229-
+259.
+(20) Rodgman, A., Smith, C. J., and Perfetti, T. A. (2000) The composition
+of cigarette smoke: A retrospective, with emphasis on polycyclic
+components. Hum. Exp. Toxicol. 19, 573-595.
+(21) Schubert, P., Schantz, M. M., Sander, L. C., and Wise, S. A. (2003)
+Determination of polycyclic aromatic hydrocarbons with molecular
+weight 300 and 302 in environmental-matrix standard reference
+materials by gas chromatography/mass spectrometry. Anal. Chem. 75,
+234-246.
+(22) Rubin, H. (2001) Synergistic mechanisms in carcinogenesis by
+polycyclic aromatic hydrocarbons and by tobacco smoke: A bio-
+historical perspective with updates. Carcinogenesis 22, 1903-1930.
+(23) Bond, J. A., Chen, B. T., Griffith, W. C., and Mauderly, J. L. (1989)
+Inhaled cigarette smoke induces the formation of DNA adducts in
+lungs of rats. Toxicol. Appl. Pharmacol. 99, 161-172.
+(24) Mauderly, J. L. (1993) Toxicological approaches to complex mixtures.
+EnViron. Health Perspect. 101 (Suppl. 4), 155-165.
+(25) Marston, C. P., Pereira, C., Ferguson, J., Fischer, K., Hedstrom, O.,
+Dashwood, W. M., and Baird, W. M. (2001) Effect of a complex
+environmental mixture from coal tar containing polycyclic aromatic
+hydrocarbons (PAH) on the tumor initiation, PAH-DNA binding and
+metabolic activation of carcinogenic PAH in mouse epidermis.
+Carcinogenesis 22, 1077-1086.
+(26) Mahadevan, B., Parsons, H., Musafia, T., Sharma, A. K., Amin, S.,
+Pereira, C., and Baird, W. M. (2004) Effect of artificial mixtures of
+environmental polycyclic aromatic hydrocarbons present in coal tar,
+urban dust, and diesel exhaust particulates on MCF-7 cells in culture.
+EnViron. Mol. Mutagen. 44, 99-107.
+(27) Mahadevan, B., Keshava, C., Musafia-Jeknic, T., Pecaj, A., Weston,
+A., and Baird, W. M. (2005) Altered gene expression patterns in
+MCF-7 cells induced by the urban dust particulate complex mixture
+standard reference material 1649a. Cancer Res. 65, 1251-1258.
+(28) Mahadevan, B., Marston, C. P., Dashwood, W. M., Li, Y., Pereira,
+C., and Baird, W. M. (2005) Effect of a standardized complex mixture
+derived from coal tar on the metabolic activation of carcinogenic
+polycyclic aromatic hydrocarbons in human cells in culture. Chem.
+Res. Toxicol. 18, 224-231.
+(29) Shimada, T., Oda, Y., Gillam, E. M. J., Guengerich, F. P., and Inoue,
+K. (2001) Metabolic activation of polycyclic aromatic hydrocarbons
+and their dihydrodiol derivatives and other procarcinogens by cyto-
+Inhibition of Human P450s 1A1, 1A2, and 1B1 by PAHs
+Chem. Res. Toxicol., Vol. 19, No. 2, 2006
+293
+
+chrome P450 1A1 and 1B1 allelic variants and other human cyto-
+chrome P450 enzymes in Salmonella typhimurium NM2009. Drug
+Metab. Dispos. 29, 1176-1182.
+(30) Kim, D., and Guengerich, F. P. (2004) Selection of human cytochrome
+P450 1A2 mutants with selectivity enhanced catalytic activity for
+heterocyclic amine N-hydroxylation. Biochemistry 43, 981-988.
+(31) Parikh, A., Gillam, E. M. J., and Guengerich, F. P. (1997) Drug
+metabolism by Escherichia coli expressing human cytochromes P450.
+Nat. Biotechnol. 15, 784-788.
+(32) Bell-Parikh, L. C., Hosea, N. A., Martin, M. V., and Guengerich, F.
+P. (1999) Purification of cytochrome P450 enzymes. Current Protocols
+in Toxicology, Chapter 4.2.1, John Wiley & Sons, New York.
+(33) Omura, T., and Sato, R. (1964) The carbon monoxide-binding pigment
+of liver microsomes. I. Evidence for its hemoprotein nature. J. Biol.
+Chem. 239, 2370-2378.
+(34) Shimada, T., Yamazaki, H., Foroozesch, M., Hopkins, N. E., Alworth,
+W. L., and Guengerich, F. P. (1998) Selectivity of polycyclic inhibitors
+for human cytochromes P450 1A1, 1A2, and 1B1. Chem. Res. Toxicol.
+11, 1048-1056.
+(35) Guengerich, F. P. (2001)Analysis and characterization of enzymes and
+nucleic acids. In Principles and Methods of Toxicology, 4th ed. (Hayes,
+A. W., Ed.) pp 1625-1687, Taylor & Francis, Philadelphia.
+(36) Prough, R. A., Burke, M. D., and Mayer, R. T. (1978) Direct
+fluorometric methods for measuring mixed-function oxidase activity.
+Methods Enzymol. 52, 372-377.
+(37) Guengerich, F. P., Chun, Y.-J., Kim, D., Gillam, E. M. J., and Shimada,
+T. (2003) Cytochrome P450 1B1: A target for inhibition in anticar-
+cinogenesis strategies. Mutat. Res. 523-524, 173-182.
+(38) Conney, A. H. (1982) Induction of microsomal enzymes by foreign
+chemicals and carcinogenesis by polycyclic aromatic hydrocarbons:
+G. H. A. Clowes Memorial Lecture. Cancer Res. 42, 4875-4917.
+(39) Slaga, T. J., Jecker, L., Bracken, W. M., and Weeks, C. E. (1979)
+The effects of weak or noncarcinogenic polycyclic hydrocarbons on
+7,12-dimethylbenz[a]anthracene and benzo[a]pyrene skin tumor-
+initiation. Cancer Lett. 7, 51-59.
+(40) DiGiovanni, J., Rymer, J., Slaga, T. J., and Boutwell, R. K. (1982)
+Anticarcinogenic and cocarcinogenic effects of benzo[e]pyrene and
+dibenz[a,c]anthracene on skin tumor initiation by polycyclic hydro-
+carbons. Carcinogenesis 3, 371-375.
+(41) Smolarek, T. A., Baird, W. M., Fisher, E. P., and DiGiovanni, J. (1987)
+Benzo(e)pyrene-induced alterations in the binding of benzo(a)pyrene
+and 7,12-dimethylbenz(a)anthracene to DNA in Sencar mouse epi-
+dermis. Cancer Res. 47, 3701-3706.
+(42) Smolarek, T. A., Morgan, S. L., Kelley, J., and Baird, W. M. (1987)
+Effects of pretreatment with benzo[a]pyrene on the stereochemical
+selectivity of metabolic activation of benzo[a]pyrene to DNA-binding
+metabolites in hamster embryo cell cultures. Chem-Biol. Interact. 64,
+71-82.
+(43) Rice, J. E., Jordan, K., Little, P., and Hussain, N. (1988) Comparative
+tumor-initiating activity of methylene-bridged and bay-region methy-
+lated derivatives of benz[a]anthracene and chrysene. Carcinogenesis
+9, 2275-2278.
+(44) Pfeiffer, E. H. (1977) Oncogenic interaction of carcinogenic and
+noncarcinogenic polycyclic aromatic hydrocarbons in mice. IARC Sci.
+Publ., 69-77.
+(45) Nesnow, S., Mass, M. J., Ross, J. A., Galati, A. J., Lambert, G. R.,
+Gennings, C., Carter, W. H., Jr., and Stoner, G. D. (1998) Lung
+tumorigenic interactions in strain A/J mice of five environmental
+polycyclic aromatic hydrocarbons. EnViron. Health Perspect. 106
+(Suppl. 6), 1337-1346.
+(46) Shimada, T. (2000) Human cytochrome P450 1B1 and chemical
+carcinogenesis. ReV. Toxicol. 3, 139-166.
+(47) Van Duuren, B. L., Katz, C., and Goldschmidt, B. M. (1973)
+Cocarcinogenic agents in tobacco carcinogenesis. J. Natl. Cancer Inst.
+51, 703-705.
+(48) Van Duuren, B. L., and Goldschmidt, B. M. (1976) Cocarcinogenic
+and tumor-promoting agents in tobacco carcinogenesis. J. Natl. Cancer
+Inst. 56, 1237-1242.
+(49) Wynder, E. L., Fritz, L., and Furth, N. (1957) Effect of concentration
+of benzopyrene in skin carcinogenesis. J. Natl. Cancer Inst. 19, 361-
+370.
+(50) Baird, W. M., Salmon, C. P., and Diamond, L. (1984) Benzo(e)pyrene-
+induced alterations in the metabolic activation of benzo(a)pyrene and
+7,12-dimethylbenz(a)anthracene by hamster embryo cells. Cancer Res.
+44, 1445-1452.
+(51) Smolarek, T. A., Moynihan, C. G., Salmon, C. P., and Baird, W. M.
+(1986) Benz[a]anthracene-induced alterations in the metabolic activa-
+tion of benzo[a]pyrene by hamster embryo cell cultures. Cancer Lett.
+30, 243-249.
+(52) Falk, H. L., Kotin, P., and Thompson, S. (1964) Inhibition of
+carcinogenesis: The effect of hydrocarbons and related compounds.
+Arch. EnViron. Health 13, 169-179.
+(53) Guengerich, F. P., and Shimada, T. (1991) Oxidation of toxic and
+carcinogenic chemicals by human cytochrome P-450 enzymes. Chem.
+Res. Toxicol. 4, 391-407.
+(54) Shimada, T., Iwasaki, M., Martin, M. V., and Guengerich, F. P. (1989)
+Human liver microsomal cytochrome P-450 enzymes involved in the
+bioactivation of procarcinogens detected by umu gene response in
+Salmonella typhimurium TA1535/pSK1002. Cancer Res. 49, 3218-
+3228.
+(55) Shimada, T., Martin, M. V., Pruess-Schwartz, D., Marnett, L. J., and
+Guengerich, F. P. (1989) Roles of individual human cytochrome P-450
+enzymes in the bioactivation of benzo(a)pyrene, 7,8-dihydroxy-7,8-
+dihydrobenzo(a)pyrene, and other dihydrodiol derivatives of polycyclic
+aromatic hydrocarbons. Cancer Res. 49, 6304-6312.
+(56) Shimada, T., and Guengerich, F. P. (1991) Activation of amino-R-
+carboline, 2-amino-1-methyl-6-phenylimidazo[4,5-b]pyridine, and a
+copper phthalocyanine cellulose extract of cigarette smoke condensate
+by cytochrome P-450 enzymes in rat and human liver microsomes.
+Cancer Res. 51, 5284-5291.
+(57) Penning, T. M. (2004) Introduction and overview of the aldo-keto
+reductase superfamily, In Aldo-Keto Reductases and Toxicant Me-
+tabolism (Penning, T. M., and Petrash, J. M., Eds.) pp 3-20, American
+Chemical Society, Washington, DC.
+(58) Chun, Y.-J., Kim, S., Kim, D., Lee, S.-K., and Guengerich, F. P. (2001)
+A new selective and potent inhibitor of human cytochrome P450 1B1
+and its application to antimutagenesis. Cancer Res. 61, 8164-8170.
+(59) Chun, Y. J., and Kim, S. (2003) Discovery of cytochrome P450 1B1
+inhibitors as new promising anti-cancer agents. Med. Res. ReV. 23,
+657-668.
+(60) Shimada, T., Upadhyaya, P., El-Bayoumy, K., Strickland, P. T., Sutter,
+T. R., Guengerich, F. P., and Yamazaki, H. (1997) Inhibition of human
+cytochrome P450-catalyzed oxidations of xenobiotics and pro-
+carcinogens by synthetic organoselenium compounds. Cancer Res. 57,
+4757-4764.
+(61) Kleiner, H. E., Reed, M. J., and DiGiovanni, J. (2003) Naturally
+occurring coumarins inhibit human cytochromes P450 and block
+benzo[a]pyrene and 7,12-dimethylbenz[a]anthracene DNA adduct
+formation in MCF-7 cells. Chem. Res. Toxicol. 16, 415-422.
+(62) Wood, A. W., Huang, M. T., Chang, R. L., Newmark, H. L., Lehr, R.
+E., Yagi, H., Sayer, J. M., Jerina, D. M., and Conney, A. H. (1982)
+Inhibition of the mutagenicity of bay-region diol epoxides of polycyclic
+aromatic hydrocarbons by naturally occurring plant phenols: Excep-
+tional activity of ellagic acid. Proc. Natl. Acad. Sci. U.S.A. 79, 5513-
+5517.
+(63) Zhai, S., Dai, R., Friedman, F. K., and Vestal, R. E. (1998)
+Comparative inhibition of human cytochromes P450 1A1 and 1A2
+by flavonoids. Drug Metab. Dispos. 26, 989-992.
+(64) Kinoshita, N., and Gelboin, H. V. (1972) Aryl hydrocarbon hydroxy-
+lase and polycyclic hydrocarbon tumorigenesis: Effect of the enzyme
+inhibitor 7,8-benzoflavone on tumorigenesis and macromolecule
+binding. Proc. Natl. Acad. Sci. U.S.A. 69, 824-828.
+(65) Viaje, A., Lu, J. Y. L., Hopkins, N. E., Nettikumara, A. N., DiGiovanni,
+J., Alworth, W. L., and Slaga, T. J. (1990) Inhibition of the binding
+of 7,12-dimethylbenz[a]anthracene and benzo[a]pyrene to DNA in
+mouse skin epidermis by 1-ethynylpyrene. Carcinogenesis 11, 1139-
+1143.
+(66) El-Bayoumy, K. (1994) Evaluation of chemopreventive agents against
+breast cancer and proposed strategies for further clinical intervention
+trials. Carcinogenesis 15, 2395-2420.
+(67) Flesher, J. W., Horn, J., and Lehner, A. F. (2002) Comparative
+carcinogenicity of picene and dibenz[a,h]anthracene in the rat.
+Biochem. Biophys. Res. Commun. 290, 275-279.
+(68) Platt, K. L., Pfeiffer, E., Petrovic, P., Friesel, H., Beermann, D., Hecker,
+E., and Oesch, F. (1990) Comparative tumorigenicity of picene and
+dibenz[a,h]anthracene in the mouse. Carcinogenesis 11, 1721-1726.
+(69) Carmichael, P. L., Platt, K. L., She´, M. N., Lecoq, S., Oesch, F.,
+Phillips, D. H., and Grover, P. L. (1993) Evidence for the involvement
+of a bis-diol-epoxide in the metabolic activation of dibenz[a,h]-
+anthracene to DNA-binding species in mouse skin. Cancer Res. 53,
+944-948.
+(70) Yun, C.-H., Hammons, G. J., Jones, G., Martin, M. V., Hopkins, N.
+E., Alworth, W. L., and Guengerich, F. P. (1992) Modification of
+cytochrome P450 1A2 enzymes by the mechanism-based inactivator
+2-ethynylnaphthalene and the photoaffinity label 4-azidobiphenyl.
+Biochemistry 31, 10556-10563.
+TX050291V
+294
+Chem. Res. Toxicol., Vol. 19, No. 2, 2006
+Shimada and Guengerich

@@ -1,0 +1,2199 @@
+doi: 10.1111/joim.13009
+Plasma metabolite biomarkers of boiled and ﬁltered coffee
+intake and their association with type 2 diabetes risk
+L. Shi1,2
+, C. Brunius2, I. Johansson3,4, I.A. Bergdahl4,5, O. Rolandsson4, B.van Guelpen6,7, A. Winkvist8,9,
+K. Hanhineva10,11 & R. Landberg2,4
+From the 1College of Food Engineering and Nutritional Science, Shaanxi Normal University, Xi’an, China; 2Department of Biology and
+Biological Engineering, Chalmers University of Technology, Gothenburg; 3Department of Odontology; 4Department of Public Health and
+Clinical Medicine; 5Department of Biobank Research; 6Department of Radiation Sciences; 7Wallenberg Centre for Molecular Medicine, Umea
+University, Umea; 8Department of Internal Medicine and Clinical Nutrition, University of Gothenburg, Gothenburg; 9Department of Public
+Health and Clinical Medicine, Sustainable Health, Umea University, Umea, Sweden; 10LC-MS Metabolomics Center; and 11Department of
+Clinical Nutrition, University of Eastern Finland, Kuopio, Finland
+Abstract. Shi L, Brunius C, Johansson I, Bergdahl IA,
+Rolandsson
+O,
+van
+Guelpen
+B,
+Winkvist
+A,
+Hanhineva
+K,
+Landberg
+R
+(Shaanxi
+Normal
+University, Xi’an, China; Chalmers University of
+Technology, Gothenburg; Umea University; Umea;
+University of Gothenburg, Gothenburg, Sweden;
+LC-MS Metabolomics Center; University of Eastern
+Finland,
+Kuopio,
+Finland).
+Plasma
+metabolite
+biomarkers of boiled and ﬁltered coffee intake and
+their association with type 2 diabetes risk. J Intern
+Med 2019;https://doi.org/10.1111/joim.13009
+Background. Habitual coffee intake has been associ-
+ated with a lower risk of developing type 2 diabetes
+(T2D), but few studies used biomarkers to reﬂect
+intake and investigated different coffee brews, that
+is boiled and ﬁltered, separately.
+Objectives. To identify plasma metabolites associated
+with boiled or ﬁltered coffee intake and to examine
+their association with T2D risk in Swedish adults.
+Methods. In a case–control study nested within the
+V€asterbotten
+Intervention
+Programme,
+baseline
+plasma samples from 421 case–control pairs and
+samples from a subset of 149 pairs at a 10-year
+follow-up were analysed using untargeted LC-MS
+metabolomics.
+We
+identiﬁed
+metabolites
+associated
+with
+food
+frequency
+questionnaires
+(FFQ)-estimated coffee intake and assessed odds
+ratios of T2D.
+Results. In total, 24 and 32 metabolites were asso-
+ciated with boiled or ﬁltered coffee intake. We
+determined robust metabolite panels for highly
+speciﬁc prediction of boiled or ﬁltered coffee. We
+observed
+an
+inverse
+association
+between
+the
+metabolite panel of ﬁltered coffee and T2D risk.
+No association with T2D was observed for the panel
+of
+boiled
+coffee
+intake.
+Similar
+results
+were
+observed for FFQ-estimated coffee intake.
+Conclusions. We identiﬁed plasma metabolites specif-
+ically associated
+with boiled or ﬁltered coffee
+intake, which might be used as selective biomark-
+ers. Our study supports a protective role of habit-
+ual intake of ﬁltered coffee on T2D development.
+The lack of association for boiled coffee intake
+might be due to the lack of a protective effect of
+boiled coffee or due to the limited number of boiled
+coffee consumers in this population, but it war-
+rants further investigation.
+Keywords: coffee intake, dietary biomarker, epidemi-
+ology, metabolomics, type 2 diabetes.
+Introduction
+Observational
+studies
+have
+shown
+an
+inverse
+association between habitual coffee intake and
+risk of several noncommunicable diseases, includ-
+ing type 2 diabetes (T2D) [1–4]. Existing evidence
+on the role of coffee intake and T2D is mostly
+derived from studies where total coffee, and/or
+caffeinated versus decaffeinated coffee have been
+investigated. Although the underlying mechanisms
+remain
+unclear,
+coffee
+contains
+various
+com-
+pounds,
+for
+example,
+caffeine,
+phenolic
+com-
+pounds, diterpenes and phytosterols which have
+shown
+different
+effects
+on
+multiple
+pathways
+involved in T2D development, such as glucose
+and lipid metabolism, fatty acid metabolism and
+inﬂammatory activities [2, 5–7].
+Coffee prepared by different brewing methods, that
+is
+ﬁltered
+and
+unﬁltered
+(boiled),
+results
+in
+ª 2019 The Association for the Publication of the Journal of Internal Medicine
+1
+Original Article
+
+different chemical compositions [8–10]. Boiled cof-
+fee is typically prepared by boiling a mixture of
+coarsely ground coffee beans and water [11] and
+contains considerably higher amount of diterpenes
+(i.e. cafestol and kahweol) than ﬁltered coffee, of
+which cafestol was previously shown to increase
+total
+and
+low-density
+lipoprotein
+cholesterol,
+triglycerides and blood pressure [12, 13]. Differ-
+ences in chemical properties between ﬁltered and
+boiled coffee are, therefore, likely relevant for the
+risk of developing T2D, with potential implication
+for public health. However, only two prospective
+studies have investigated the roles of boiled and
+ﬁltered coffee separately for the risk of developing
+T2D [14, 15]. One study [15] reported a moderate
+inverse association between both boiled and ﬁl-
+tered coffee and T2D risk in a Norwegian popula-
+tion. Another study from Finland [14] found a
+borderline inverse association for boiled coffee
+intake, however, twice as high T2D risk for boiled
+compared to ﬁltered coffee. There is insufﬁcient
+epidemiological
+evidence
+on
+the
+association
+between types of coffee brews and the risk of
+developing T2D.
+Observational studies investigating associations
+between coffee intake and T2D often rely on food
+frequency
+questionnaires
+(FFQs),
+which
+suffer
+from systematic and random measurement errors
+[16]. Although the amount of coffee intake appears
+to be well-captured by FFQs, the lack of well-
+documented information on coffee brewing meth-
+ods in most cohorts have limited investigations of
+different coffee brews in relation with disease risk
+[17]. Metabolomics has emerged as a powerful
+approach to discover biomarkers of dietary intake
+that may provide a complement to self-reported
+dietary assessments with the potential to accu-
+rately
+reﬂect
+the
+relationship
+between
+dietary
+intake and disease risk [18, 19]. Several metabo-
+lites measured in urine and/or blood samples from
+both intervention studies and observational stud-
+ies have been proposed as potential biomarker
+candidates of coffee intake [20–23], but they have
+in most cases been associated with ﬁltered coffee
+intake, which is the dominant form of consumption
+globally [1, 4]. No study has investigated whether
+metabolites could speciﬁcally reﬂect boiled and
+ﬁltered coffee intake, and whether such metabo-
+lites are associated with risk of developing T2D.
+Sweden is one of the countries with the highest
+ﬁltered coffee intake worldwide, also with a high
+consumption of boiled coffee especially in the large,
+rural areas of northern Sweden [11, 24]. We have
+previously conducted a nested case–control study
+in the Swedish prospective cohort V€asterbotten
+Intervention Programme (VIP), of which well-docu-
+mented information on the type of coffee con-
+sumed, that is ﬁltered and boiled is available [11,
+24–26]. Here, we aimed to identify plasma metabo-
+lites associated with ﬁltered or boiled coffee intake,
+using
+untargeted
+liquid
+chromatography–mass
+spectrometry
+(LC-MS)
+metabolomics.
+We
+also
+investigated the association of ﬁltered or boiled
+coffee, either reﬂected by the identiﬁed metabolites
+or measured by FFQ, with incident T2D.
+Materials and methods
+Study population
+A nested case–control study was set up within the
+V€asterbotten
+Intervention
+Programme
+[25,
+27]
+(Fig. 1). Detailed information on the VIP and
+selection of participants has been reported else-
+where
+[25–28].
+In
+brief,
+the
+inhabitants
+from
+V€asterbotten County at ages 40, 50 and 60 years
+(until 1996 also 30 years) were invited to partici-
+pate in a health examination with blood sampling
+and to complete a questionnaire capturing infor-
+mation on diet, socioeconomic conditions, self-
+rated health, personal health history and family
+history of diabetes, tobacco use and physical
+activity. VIP was initiated in 1985, and participants
+included in the present study were recruited from
+1991 to 2005 (baseline). T2D cases were diagnosed
+according to the Diabetes Register in Northern
+Sweden (DiabNorth) and were ascertained by dia-
+betes specialists [29]. We selected 421 participants
+(male = 196, female = 225) at baseline (median
+7 years prior to diagnosis) amongst eligible dia-
+betes cases, who had an unthawed fasting plasma
+sample in the biobank. Each case was individually
+matched
+to
+one
+nondiabetic
+VIP
+participant
+(healthy controls). Matching criteria included gen-
+der, age (2 years), sample date (90 days) and
+type of questionnaire at baseline examination.
+Amongst the 421 case–control pairs, 149 pairs
+had a follow-up FFQ and blood sample drawn
+10 years after baseline, and the follow-up samples
+were included in the present study. In the present
+study, the samples at baseline (n = 421 pairs) were
+used to identify biomarkers of coffee intake and to
+investigate associations between coffee intake and
+T2D risk. The follow-up samples (n = 149 pairs)
+were included to evaluate and validate whether the
+prediction performance of identiﬁed biomarkers of
+coffee
+intake
+at
+baseline
+differed
+from
+their
+Coffee intake biomarkers and type 2 diabetes risk
+/ L. Shi et al.
+2
+ª 2019 The Association for the Publication of the Journal of Internal Medicine
+Journal of Internal Medicine
+
+prediction performance in the sub-population at
+10 years follow-up (see ‘Statistical Analysis’ for
+details).
+The entire study protocol was approved by the
+Regional Ethics Committee in Uppsala, Sweden
+(registration number 2014/011), and all subjects
+gave their informed written consent.
+Coffee consumption
+Coffee intake was determined based on two mod-
+iﬁed and validated versions of the Northern Sweden
+Diet Database FFQ: one with 84 food items and one
+with 64 items [30–32]. Both questionnaires had
+identical questions for coffee intake, that is one for
+ﬁltered and one for boiled coffee [11, 24, 30, 32]. In
+the investigated population at baseline, the intake
+of both boiled and ﬁltered coffee estimated by FFQ,
+scored from 0 to 8 according to consumption
+frequencies, reﬂecting never (0), a few times/year
+(1), 1–3 times/month (2), 1 time/ week (3), 2–3
+times/week (4), 4–6 times/week (5), 1 occasion/
+day (6), 2–3 occasions/day (7) and 4 occasions/day
+(8). The categorical scores were transformed into
+occasions per day and were subjected to further
+analysis (Table S1). Amongst participants, 2.7%
+never consumed coffee (FFQ score = 0 for both
+coffee), 8.4% only had intake of boiled coffee (FFQ
+score > 0 for boiled and =0 for ﬁltered coffee),
+19.5% only had intake of ﬁltered coffee (FFQ
+score > 0 for ﬁltered and =0 for boiled coffee), and
+74% consumed both boiled and ﬁltered coffee (FFQ
+score > 0 for both types of coffee intake).
+Untargeted metabolomics analysis
+A detailed description of the untargeted LC-MS
+metabolomics analysis has been published else-
+where [26, 33]. In short, deproteinized fasting
+heparin plasma samples were analysed by an
+UHPLC-qTOF-MS
+system
+(Agilent
+Technologies)
+that consisted of a 1290 LC system, a Jetstream
+electrospray ionization (ESI) source and a 6540
+UHD accurate-mass qTOF spectrometer. The sam-
+ples were analysed using reverse phase (RP) and
+hydrophilic interaction chromatography (HILIC) in
+positive (ESI+) and negative (ESI-) polarity. Raw
+data acquired in each analytical batch were con-
+verted to mzXML format, and deconvolution was
+performed with the open-source R package ‘XCMS’
+[34]. Optimized parameters applied for untargeted
+LC-MS data processing are presented in Table S2.
+Plasma samples were analysed in eight batches,
+and a constrained randomization was applied to
+keep sample pairs and follow-up samples within
+the same batch. Instrumental analyses were per-
+formed
+with
+approximately
+250
+injections
+per
+batch, including study samples and quality control
+samples constituted approximately 16 % of study
+samples to monitor the stability and functionality
+of the system [26, 33]. Two types of quality control
+The Västerbotten Intervention Programme
+Identification of eligible cases
+421 cases at baseline
+(male = 196, female = 225)
+Subset of 149 cases at 10-y follow-up
+(male = 86, female = 63)
+Subset of 149 controls at 10-y follow-up
+(male = 86, female = 63)
+421 matched controls at baseline
+(male = 196, female = 225)
+Inclusion of incident T2D cases with
+unthawed plasma samples and a
+complete dietary questionnaire
+Fig. 1 Flow chart of participant selection from the V€asterbotten Intervention Programme.
+Coffee intake biomarkers and type 2 diabetes risk
+/ L. Shi et al.
+ª 2019 The Association for the Publication of the Journal of Internal Medicine
+3
+Journal of Internal Medicine
+
+samples (i.e. batch-speciﬁc quality control sample
+used for drift correction, and a long-term reference
+sample used for unbiased measures of increased
+data quality) were used to monitor the stability of
+the instrumental analysis using the R package
+‘batchCorr’ [33]. Missing values were replaced with
+values randomly selected from a uniform distribu-
+tion between 0 and the lowest measured peak
+intensity within each feature. In total, 19,180 and
+10,060 features with correlation coefﬁcient ≤0.3 in
+quality control samples were considered to be
+qualiﬁed
+for
+RP
+and
+HILIC
+chromatography,
+respectively, after a stringent normalization proce-
+dure [26, 27]. Throughout this article, the term
+‘feature’ refers to a mass spectral peak, that is a
+molecular entity with a unique m/z and retention
+time (RT) as measured by an LC-MS instrument.
+The term ‘metabolite’ refers to a compound, with or
+without successful identiﬁcation (see ‘Metabolite
+identiﬁcation’).
+Statistical analysis
+All statistical analysis was conducted in R version
+3.5.1. Differences between cases and controls in
+baseline characteristics, including coffee intake,
+were compared by two-sided Student’s t-test for
+continuous variables and Chi-squared test for
+categorical variables, considering P < 0.05 as sta-
+tistically signiﬁcant.
+Discovery of coffee-related plasma metabolites
+First, we applied a repeated double cross-valida-
+tion framework with unbiased variable selection (R
+package ‘MUVR’[35]) on metabolomics data to
+optimally select metabolites that could best dis-
+criminate three strata amongst healthy controls:
+the three strata amongst healthy controls were
+deﬁned as low coffee consumers (n = 40, <1 occa-
+sion per day for both types of coffee), boiled coffee
+consumers (n = 43, ≥2–3 occasions per day for
+boiled coffee and <1 occasion per week for ﬁltered
+coffee) and ﬁltered coffee consumers (n = 54, ≥4
+occasions per day for ﬁltered coffee and <1 occa-
+sion per week for boiled coffee). Cut-off threshold of
+daily coffee intakes were set to achieve roughly
+balanced strata [36]. Signiﬁcance of modelling
+performance was assessed by permutation analy-
+sis [37]. In total, 52 metabolite features were
+selected as best discriminators to classify the three
+strata of participants. These features were then
+subjected to metabolite identiﬁcation utilizing pure
+chemical standards, online databases and earlier
+publications, resulting in 43 metabolites annotated
+at level 1–4 according to the Metabolomics Stan-
+dard Initiative (MSI) [38] (see details in ‘Metabolite
+identiﬁcation’, Table S3).
+To speciﬁcally reﬂect boiled or ﬁltered coffee intake
+at baseline, two different metabolite panel scores
+were generated using least absolute shrinkage and
+selection operator (LASSO) regression with 10-fold
+cross-validation from the boiled or ﬁltered coffee-
+associated metabolites, respectively (R package
+‘glmnet’ [39]). Metabolite panels were also applied
+to generate scores for the subset at 10-y follow-up.
+Associations of each type of coffee intake with
+individual metabolites as well as metabolite panels
+were assessed by partial Spearman correlation
+analysis, adjusting for case–control status, age at
+blood draw, gender, daily energy intake (kcal), BMI
+(kg m2), smoking status (smoker, former smoker,
+occasional smoker and nonsmoker), education
+(elementary school, vocational school, secondary
+school and university education/college) and phys-
+ical activity (inactive, moderately inactive, moder-
+ately active and active), across all participants
+(n = 421 pairs).
+Predictive performance of coffee-related metabolites for reported
+coffee intake
+The area under the receiver operating characteris-
+tic curves (AROC) was used to evaluate the predic-
+tive
+accuracy
+of
+individual
+metabolites
+and
+metabolite panel scores for discrimination of low
+total coffee consumption from boiled or ﬁltered
+coffee consumption using the R package ‘pROC’
+[40]. Predictors with AROC value above 0.7 were
+considered good for discrimination between groups
+[41, 42].
+Associations of coffee-related metabolites with T2D risk
+Associations of individual metabolites or metabo-
+lite panel scores with the likelihood of developing
+T2D were assessed by conditional logistic regres-
+sion (R package ‘survival’ [43]). Odds ratios (OR)
+were calculated across quartiles and per standard
+deviation (SD) of metabolites levels, adjusted for
+potential confounders that have been reported to
+be associated with T2D risk, that is BMI, fasting
+plasma glucose, smoking status, education, phys-
+ical activity, as well as total daily energy and a
+priori
+determined
+Baltic
+Sea
+Diet
+Score
+that
+reﬂected a healthy Nordic dietary pattern [27, 44].
+Coffee intake biomarkers and type 2 diabetes risk
+/ L. Shi et al.
+4
+ª 2019 The Association for the Publication of the Journal of Internal Medicine
+Journal of Internal Medicine
+
+Table 1. Baseline characteristics of participants according to the type of coffee consumed in the nested case–control study
+was set up within the V€asterbotten Intervention Programme
+Stratiﬁcationa
+Low total coffee
+intake
+High boiled coffee
+intake
+High ﬁltered coffee
+intake
+Pb
+Pc
+Pd
+T2D case %
+50
+53
+42
+Number of participants
+81
+91
+94
+Men (%)
+45
+38
+44
+Age (year)
+48.1  9.2
+52.3  7.6
+49.7  6.8
+0.01
+0.3
+0.1
+BMI (kg m2)
+27.8  5.4
+28.3  4.7
+26.5  4.1
+0.4
+0.2
+0.01
+Fasting plasma glucose
+(mmol L1)
+5.5  0.9
+5.7  0.7
+5.9  2.0
+0.01
+0.01
+0.6
+2 h plasma glucose
+(mmol L1)
+7.6  2.2
+7.6  2.2
+7.1  2.3
+0.8
+0.07
+0.1
+Triglycerides
+(mmol L1)
+1.8  1.2
+2.0  1.0
+1.41  0.7
+0.07
+0.1
+<0.001
+Total cholesterol
+(mmol L1)
+5.6  1.5
+6.2  1.3
+5.6  1.1
+0.02
+0.9
+0.003
+Systolic blood pressure
+(mmHg)
+132.3  18.8
+136.6  15.9
+129.6  15.2
+0.05
+0.5
+0.002
+Diastolic blood pressure
+(mmHg)
+81.3  10.9
+83.6  9.6
+80.8  9.1
+0.06
+0.9
+0.03
+Total caloric intake
+(kcal day1)
+1671  591.4
+1648  601.7
+1765  625.3
+0.9
+0.3
+0.2
+Food and nutrients intake (g day1)
+Alcohol
+3.0  4.6
+2.3  3.3
+3.7  4.4
+0.5
+0.03
+0.002
+Dietary ﬁbre
+18.2  9.1
+18.8  7.5
+20.1.6  8.2
+0.2
+0.05
+0.3
+Total fat
+62.4  27.2
+61.5  26.6
+64.9  28.4
+0.8
+0.6
+0.5
+Monounsaturated fat
+21.7  9.7
+20.1  8.6
+22.3  10.0
+0.5
+0.7
+0.4
+Polyunsaturated fat
+9.6  4.8
+8.8  4.0
+10.0  4.8
+0.2
+0.6
+0.08
+Trans fat
+1.9  1.0
+2.0  1.1
+2.0  1.0
+0.6
+0.3
+0.4
+Protein from animals
+40.8  15.5
+39.9  16.0
+44.2  16.6
+0.5
+0.2
+0.04
+Protein from vegetables
+18.7  10.6
+18.5  8.4
+19.1  7.4
+0.5
+0.2
+0.6
+Whole grains
+49.1  42.4
+62.8  38.6
+66.6  49.1
+0.002
+0.01
+0.8
+Red and processed meat
+50.9  21.4
+45.3  18.5
+46.3  16.7
+0.09
+0.2
+0.6
+Smoking status
+Smoker (%)
+12
+24
+29
+0.002
+0.006
+0.7
+Former smoker (%)
+19
+24
+32
+Nonsmoker (%)
+58
+41
+32
+Occasional smoker (%)
+11
+11
+7
+Physical activity
+Inactive (%)
+12
+21
+16
+0.7
+0.2
+0.05
+Moderately inactive (%)
+37
+31
+37
+Moderately active (%)
+25
+29
+32
+Active (%)
+26
+20
+15
+Coffee intake biomarkers and type 2 diabetes risk
+/ L. Shi et al.
+ª 2019 The Association for the Publication of the Journal of Internal Medicine
+5
+Journal of Internal Medicine
+
+We also investigated coffee intakes from FFQ in
+relation with T2D risk.
+Moreover, a signiﬁcant correlation between ﬁltered
+and boiled coffee intake reﬂected by metabolites
+(r = 0.16) or estimated from FFQ (r = 0.35) was
+observed in this population, adjusted for lifestyle
+covariates. To separate associations for boiled and
+ﬁltered coffee intake with T2D risk, the residual
+from a regression model was computed in which
+boiled coffee panel score or boiled coffee estimated
+from FFQ was the dependent variable, and ﬁltered
+coffee panel score or ﬁltered coffee estimated from
+FFQ was independent variable. The residual was
+found to be speciﬁcally associated with boiled coffee
+intake and was then used as the exposure variable
+in conditional logistic regression to estimate the
+association between boiled coffee and T2D risk.
+Similar analysis was conducted for ﬁltered coffee
+but on adjustment for boiled coffee intake.
+Metabolite identiﬁcation
+Each metabolite feature related to coffee intake
+was identiﬁed based on accurate mass (ppm ≤10)
+and tandem mass spectrometry (MS/MS) fragmen-
+tation (ppm ≤15) by matching of retention time
+and MS/MS spectra with those of authentic chem-
+ical standards wherever possible. Otherwise, iden-
+tiﬁcation was performed using MS-DIAL [45], CSI:
+FingerID [46] and MyCompoundID [47], and man-
+ually matched against online spectral databases,
+that is the Human Metabolome Database (HMDB
+[48]) and the METLIN metabolite database, or
+previously
+published
+literature
+[17,
+49–51].
+Unknown compounds were presented as ‘analyti-
+cal mode m/z_retention time (min)’ only (Table S3).
+Results
+Participant characteristics
+Baseline characteristics of participants according
+to self-reported boiled and ﬁltered coffee intakes
+are presented in Table 1. Compared to low total
+coffee consumers, participants who consumed at
+least 2–3 times boiled or at least 4 times ﬁltered
+coffee per day reported high intake of alcohol and
+smoked more. Boiled coffee consumers had higher
+blood triglycerides and total cholesterol, higher
+systolic blood pressure, and lower education level
+compared to low total and ﬁltered coffee con-
+sumers.
+Plasma metabolites associated with boiled and ﬁltered coffee intake
+Amongst 43 metabolites selected from random forest
+modelling, 24 were associated with boiled coffee
+intake (0.1 ≤|r| ≤0.51, Figure S1), and 32 were
+associated
+with
+ﬁltered
+coffee
+intake
+(0.1 ≤|
+r| ≤0.36, Figure S2), after adjustment for case–
+control status, age, gender, BMI and other lifestyle
+factors (Table 2). Metabolites annotated as 5-acety-
+lamino-6-amino-3-methyluracil
+(AAMU),
+trigonel-
+line, atractyligenin glucuronide, theophylline, 2-
+furoylglycine,
+sinapic
+acid,
+N-methylpyridinium
+and
+7-hydroxy-4-(methoxymethyl)coumarin
+were
+associated with both types of coffee intake. In
+contrast,
+lysophosphatidylethanolamine
+(22:4),
+Table 1 (Continued )
+Stratiﬁcationa
+Low total coffee
+intake
+High boiled coffee
+intake
+High ﬁltered coffee
+intake
+Pb
+Pc
+Pd
+Education
+Elementary school
+24
+49
+25
+<0.001
+0.2
+<0.001
+Vocational school
+20
+26
+31
+Secondary school
+28
+18
+19
+University education/
+college
+29
+7
+24
+aLow total coffee intake deﬁned as coffee intake <1 occasion per day for both types of coffee, high boiled coffee intake
+deﬁned as ≥2–3 occasions per day for boiled coffee intake and <1 occasion per week for ﬁltered coffee, and high ﬁltered
+coffee intake deﬁned as 4 occasions per day for ﬁltered coffee and <1 occasion per week for boiled coffee.
+bP-value for difference in baseline characteristics between participants with high boiled coffee intake vs low total coffee
+intake.
+cP-value for difference in baseline characteristics between participants with high ﬁltered coffee intake vs low total coffee
+intake.
+dP-value for difference in baseline characteristics between participants with high boiled vs high ﬁltered coffee intake.
+Coffee intake biomarkers and type 2 diabetes risk
+/ L. Shi et al.
+6
+ª 2019 The Association for the Publication of the Journal of Internal Medicine
+Journal of Internal Medicine
+
+phosphatidylethanolamine (20:4/16:0) and metabo-
+lites tentatively annotated as polyphenolic diterpe-
+nes were associated with boiled coffee intake whilst
+inversely associated with ﬁltered coffee. Moreover,
+metabolites
+associated
+with
+boiled
+coffee
+had
+0.54 ≤AROC ≤0.89, and metabolites associated
+with ﬁltered coffee intake had 0.53 ≤AROC ≤0.90,
+when assessed individually (Table 2).
+We identiﬁed a panel of 12 plasma metabolites that
+could
+predict
+boiled
+coffee
+intake
+at
+baseline
+(AROC = 0.91) and a panel of 10 metabolites for
+ﬁltered coffee intake (AROC = 0.90, Fig. 2, Table 2).
+Neither
+of
+the
+metabolite panels
+was
+a good
+predictor of the other type of coffee consumption
+(Fig. 2a & b). Similarly, scores of the optimally
+selected metabolites in panels also successfully
+predicted boiled and ﬁltered coffee intake in the
+subset
+of
+population
+after
+10-year
+follow-up,
+respectively (Fig. 2c & d). Metabolite panel scores
+had higher AROCs than individual metabolites at
+baseline and at 10-y follow-up (Table S4).
+Associations of coffee-related metabolites with T2D risk
+In total, 6 of the 43 individual identiﬁed metabo-
+lites were associated with higher risk of developing
+T2D whilst 3 were
+inversely
+associated,
+after
+adjustment for baseline fasting glucose, BMI, daily
+energy intake, lifestyle factors and a priori deﬁned
+dietary items (Table S5). Moreover, an inverse
+association
+was
+observed
+between the
+ﬁltered
+coffee
+metabolite
+score
+and
+T2D
+risk
+(ORperSD = 0.85 [95% CI: 0.72, 1.00], OR4th vs. 1st
+quartile = 0.42 [95% CI: 0.23, 0.75]). In contrast, no
+association was observed between the boiled coffee
+metabolite score and T2D risk (ORperSD = 1.02
+[95% CI: 0.83, 1.26], OR4th
+vs.
+1st
+quartile = 1.03
+[95% CI: 0.58, 1.83]). Adjusting for collinearity
+between coffee brews resulted in scores uniquely
+associated with their corresponding types of coffee
+intake (Fig. 3a), which, however, did not affect the
+associations (Fig. 3b). Of note, the 4th quartile of
+ﬁltered coffee based on metabolite scores (corre-
+sponding to at least 2–3 occasions ﬁltered coffee
+per day was associated with lower risk of develop-
+ing T2D compared with the 1st quartile (less than 1
+times per day; Figure 3c).
+Similar trend was observed also for ﬁltered coffee
+intake estimated from FFQ (ORper SD = 0.86 [95%
+CI: 0.70, 1.05], OR4th
+vs.
+1st
+quartile = 0.59 [95%
+CI: 0.33, 1.04]), but results did not reach statisti-
+cal signiﬁcance. No association was found between
+boiled coffee intake with T2D risk (ORperSD = 0.97
+[95% CI: 0.78, 1.18], OR4th
+vs.
+1st
+quartile = 0.94
+[95% CI: 0.52, 1.71]).
+Discussion
+We have, for the ﬁrst time, identiﬁed plasma
+metabolites speciﬁcally associated with boiled or
+ﬁltered coffee intake in a free-living Swedish pop-
+ulation and found that they were differently asso-
+ciated
+with
+risk
+of
+developing
+T2D.
+In
+the
+investigated study population, an inverse associa-
+tion was observed between the metabolite panel
+reﬂective of self-reported ﬁltered coffee intake and
+T2D risk, whereas no apparent association was
+observed for boiled coffee, either estimated by FFQ
+or reﬂected by metabolites. The lack of association
+for boiled coffee might be due to the limited number
+of boiled coffee consumers or a lack of protective
+effect of boiled coffee intake, which warrants fur-
+ther investigation. Our study demonstrates a great
+potential of using plasma metabolites as speciﬁc
+biomarkers for different coffee brews as a comple-
+ment to traditional dietary assessment. This is
+useful for investigations of the role of different
+coffee brews in disease development, especially in
+populations with heterogeneous habits of coffee
+brews consumption and/or in cohorts with no
+information on coffee brewing methods available.
+Plasma metabolites associated with boiled and ﬁltered coffee intake
+We replicated strong correlations between ﬁltered
+coffee intake and plasma alkaloids (caffeine, trigo-
+nelline and their metabolites: i.e. AAMU, paraxan-
+thine,
+theophylline,
+theobromine,
+1-methyluric
+acid and N-methylpyridinium), phenolic acids (i.e.
+dihydroferulic acid 4-sulphate, sinapic acid and
+quinic acids), the diterpene atractyligenin glu-
+curonide, the diketopiperazine cyclo(leucyl-prolyl)
+and 2-furoylglycine. These metabolites have been
+suggested as potential coffee biomarkers in previ-
+ous
+intervention
+and
+observational
+studies,
+although those studies did not distinguish between
+boiled and ﬁltered coffee [21]. In the present study,
+we found that we found that 7 out of the 11
+caffeine-related metabolites and phenolic com-
+pounds mentioned above were associated with
+both
+boiled
+and
+ﬁltered
+coffee,
+and,
+hence,
+appeared to be generic biomarkers of coffee intake.
+Moreover, metabolites tentatively annotated as
+polyphenolic diterpenes were uniquely correlated
+with boiled coffee intake (Table 2). These results
+Coffee intake biomarkers and type 2 diabetes risk
+/ L. Shi et al.
+ª 2019 The Association for the Publication of the Journal of Internal Medicine
+7
+Journal of Internal Medicine
+
+Table 2. Fasting plasma metabolites that were associated with self-reported boiled and ﬁltered coffee intake in a nested case–control study in the
+V€asterbotten Intervention Programme
+Metabolites
+MSIa
+Boiled coffee intake
+Filtered coffee intake
+Metabolite paneld
+Referencee
+rb
+Pb
+AROCc
+rb
+Pb
+AROCc
+1-Methyluric acid
+1
+0.03
+0.4
+0.71 [0.65–0.78]
+0.29
+<0.001
+0.87 [0.81–0.92]
+Filtered
+Caffeine
+1
+0.01
+1
+0.61 [0.54–0.68]
+0.17
+0.004
+0.74 [0.66–0.81]
+[5, 21, 23]
+Paraxanthine
+1
+0.01
+0.7
+0.69 [0.63–0.75]
+0.21
+<0.001
+0.77 [0.70–0.84]
+[17, 22, 57]
+Quinic acid
+1
+0.02
+0.9
+0.71 [0.64–0.77]
+0.33
+<0.001
+0.87 [0.82–0.93]
+Filtered
+[17, 22, 52, 58]
+Theobromine
+1
+0.05
+0.1
+0.54 [0.46–0.61]
+0.14
+<0.001
+0.78 [0.71–0.86]
+Filtered
+[9, 59]
+Theophylline
+1
+0.11
+0.01
+0.66 [0.60–0.73]
+0.19
+<0.001
+0.70 [0.63–0.77]
+[17]
+Trigonelline
+1
+0.12
+<0.001
+0.82 [0.77–0.87]
+0.25
+<0.001
+0.86 [0.81–0.91]
+[17, 60, 61]
+2-Furoylglycine
+2
+0.10
+0.05
+0.77 [0.70–0.84]
+0.22
+<0.001
+0.81 [0.75–0.88]
+Filtered
+[5, 21, 22, 62]
+5-Acetylamino-6-amino-3-
+methyluracil
+2
+0.06
+0.09
+0.79 [0.74–0.85]
+0.27
+<0.001
+0.83 [0.78–0.89]
+Filtered
+[17, 23]
+Atractyligenin glucuronide
+3
+0.12
+<0.001
+0.8 [0.75–0.88]
+0.29
+<0.001
+0.83 [0.77–0.88]
+[20]
+Cyclo(leucyl-prolyl)
+2
+0.01
+0.8
+0.63 [0.56–0.69]
+0.21
+<0.001
+0.78 [0.68–0.82]
+Filtered
+[17, 22]
+RN255.0879 at 5.18
+(Dihydroferulic acid)f
+4
+0.01
+0.8
+0.53 [0.44–0.61]
+0.12
+0.006
+0.75 [0.68–0.82]
+[56, 61, 63]
+Ethyl 3-mercaptopropanoic
+acid
+2
+0.01
+0.8
+0.54 [0.45–0.624]
+0.12
+0.001
+0.63 [0.54–0.71]
+lysoPC(24:0)
+2
+0.13
+<0.001
+0.53 [0.45–0.62]
+0.04
+0.21
+0.55 [0.46–0.64]
+lysoPE(22:4)
+2
+0.08
+0.05
+0.54 [0.45–0.63]
+0.18
+<0.001
+0.67 [0.58–0.75]
+lysoPE(20:4)
+2
+0.09
+0.03
+0.54 [0.45–0.63]
+0.19
+<0.001
+0.66 [0.58–0.74]
+lysoPE(22:5)
+2
+0.05
+0.1
+0.50 [0.41–0.59]
+0.13
+<0.001
+0.63 [0.55–0.72]
+lysoPE(24:0)
+2
+0.13
+<0.001
+0.61 [0.53–0.70]
+0.04
+0.3
+0.56 [0.47–0.64]
+Boiled
+N-Methylpyridinium
+3
+0.11
+0.001
+0.83 [0.76–0.89]
+0.25
+<0.001
+0.86 [0.81–0.92]
+[61, 62, 64]
+PE(20:4/16:0)
+2
+0.15
+<0.001
+0.61 [0.52–0.69]
+0.14
+<0.001
+0.53 [0.45–0.62]
+Boiled
+Sinapic acid
+2
+0.19
+<0.001
+0.89 [0.82–0.94]
+0.21
+<0.001
+0.88 [0.82–0.93]
+7-hydroxy-4-
+(methoxymethyl)coumarin
+3
+0.13
+<0.001
+0.88 [0.82–0.93]
+0.32
+<0.001
+0.90 [0.87–0.94]
+Filtered
+Coffee intake biomarkers and type 2 diabetes risk
+/ L. Shi et al.
+8
+ª 2019 The Association for the Publication of the Journal of Internal Medicine
+Journal of Internal Medicine
+
+Table 2 (Continued )
+Metabolites
+MSIa
+Boiled coffee intake
+Filtered coffee intake
+Metabolite paneld
+Referencee
+rb
+Pb
+AROCc
+rb
+Pb
+AROCc
+Dihydroferulic acid 4-sulphate
+2
+0.01
+0.8
+0.63 [0.55–0.71]
+0.16
+<0.001
+0.74 [0.67–0.82]
+[61, 63]
+RP492.3035_9.67
+4
+0.15
+<0.001
+0.71 [0.64–0.76]
+0.09
+0.01
+0.61 [0.52–0.69]
+Boiled
+RP160.1330_4.0 (Medium-
+chain fatty acid160.1330 at
+4.0)f
+4
+0.14
+<0.001
+0.63 [0.54–0.71]
+0.04
+0.2
+0.51 [0.43–0.60]
+HP88.0760_1.68 (N-
+Ethylacetamide)f
+4
+0.12
+0.001
+0.55 [0.46–0.64]
+0.02
+0.5
+0.56 [0.48–0.65]
+Boiled
+Polyphenolic
+diterpenes331.1904_7.43f
+4
+0.32
+<0.001
+0.83 [0.77–0.89]
+0.0003
+1
+0.77 [0.70–0.84]
+Diterpene
+glycosides510.2694_8.5f
+4
+0.36
+<0.001
+0.76 [0.69–0.83]
+0.15
+<0.001
+0.53 [0.44–0.62]
+Boiled
+Polyphenolic
+diterpenes347.1850_4.98f
+4
+0.51
+<0.001
+0.90 [0.85–0.94]
+0.17
+<0.001
+0.68 [0.60–0.76]
+Boiled & Filtered
+RP445.3671_10.78
+(Schleicherastatin 5)f
+4
+0.19
+<0.001
+0.68 [0.62–0.74]
+0.07
+0.1
+0.52 [0.43–0.61]
+Boiled
+HN183.0523_1.65
+4
+0.01
+0.7
+0.62 [0.66–0.79]
+0.32
+<0.001
+0.90 [0.85–0.95]
+HP112.0396_1.78
+4
+0.01
+0.9
+0.66 [0.59–0.72]
+0.36
+<0.001
+0.89 [0.84–0.94]
+HP260.1495_2.3
+4
+0.07
+0.05
+0.65 [0.57–0.74]
+0.16
+<0.001
+0.70 [0.62–0.78]
+HP266.1388_1.38
+4
+0.06
+0.07
+0.66 [0.58–0.74]
+0.21
+<0.001
+0.75 [0.68–0.82]
+RP163.1329_5.17
+4
+0.14
+<0.001
+0.83 [0.77–0.85]
+0.05
+0.2
+0.48 [0.39–0.57]
+Boiled
+RP181.1296_1.78
+4
+0.13
+0.07
+0.77 [0.69–0.84]
+0.12
+0.001
+0.68 [0.60–0.75]
+Boiled
+RP182.1178_7.24
+4
+0.07
+0.04
+0.63 [0.54–0.72]
+0.27
+<0.001
+0.76 [0.69–0.83]
+Filtered
+RP253.1798_8.35
+4
+0.15
+<0.001
+0.54 [0.46–0.63]
+0.0002
+1
+0.56 [0.47–0.64]
+Boiled
+RP275.2575_9.85
+4
+0.12
+0.001
+0.77 [0.70–0.84]
+0.01
+0.8
+0.53 [0.45–0.62]
+Boiled
+RP349.2013_5.55
+4
+0.18
+<0.001
+0.72 [0.66–0.79]
+0.07
+0.06
+0.66 [0.59–0.73]
+Boiled
+Coffee intake biomarkers and type 2 diabetes risk
+/ L. Shi et al.
+ª 2019 The Association for the Publication of the Journal of Internal Medicine
+9
+Journal of Internal Medicine
+
+Table 2 (Continued )
+Metabolites
+MSIa
+Boiled coffee intake
+Filtered coffee intake
+Metabolite paneld
+Referencee
+rb
+Pb
+AROCc
+rb
+Pb
+AROCc
+RP376.2478_7.43
+4
+0.26
+<0.001
+0.74 [0.67–0.82]
+0.09
+0.1
+0.63 [0.55–0.72]
+Boiled
+RP377.1782_8.32
+4
+0.47
+<0.001
+0.85 [0.80–0.91]
+0.13
+<0.001
+0.68 [0.60–0.76]
+Boiled & Filtered
+RP303.1954_6.12
+4
+0.09
+0.06
+0.80 [0.73–0.87]
+0.27
+<0.001
+0.87 [0.81–0.92]
+aMetabolomics Standard Initiative.
+bPartial Spearman correlation coefﬁcients between metabolites and coffee intake estimated by food frequency questionnaire, adjusting for case–control
+status, age at blood draw, gender, daily energy intake (kcal), BMI (kg m2), smoking status, education and physical activity across all participants
+(n = 421 pairs). False discovery rate-adjusted P-value is presented.
+cThe area under the receiver operating characteristic curve (AROC) indicate the predictive accuracy of individual metabolites for discrimination of low
+total coffee consumption from boiled or ﬁltered coffee consumption.
+dMetabolites selected in the panel reﬂective of boiled or ﬁltered coffee intake using least absolute shrinkage and selection operator regression.
+ePrevious ﬁndings reported in the literature. For each metabolite, the list of papers does not mean to be exhaustive. For lipids, only publications that
+report fatty acid constituents are referred to.
+fFor the metabolite annotated as MSI level 4, the m/z values were searched using ≤5 ppm tolerance in online metabolite databases FoodDB, in a list of
+coffee or other food items constituents extracted from published literature, to assign hypothetical formulae and identities. Details are shown in Table S3.
+lysoPE, lysophatidylethanolamine; lysoPC, lysophosphatidylcholines; MSI, Metabolomics Standard Initiative; RP, Reverse phase positive ionization; RN,
+Reverse phase negative ionization; HP, HILIC positive ionization, HN, HILIC negative ionization.
+Coffee intake biomarkers and type 2 diabetes risk
+/ L. Shi et al.
+10
+ª 2019 The Association for the Publication of the Journal of Internal Medicine
+Journal of Internal Medicine
+
+are in line with ﬁndings that ﬁltering substantially
+reduces diterpene levels [11]. It is also noteworthy
+that coffee-related metabolites were also correlated
+with several food items (Figures S3 and S4). This
+ﬁnding suggests that identiﬁed metabolites rather
+than reﬂecting coffee intake per se might instead
+reﬂect a dietary pattern associated with boiled
+coffee intake. Thus, the speciﬁcity of metabolites
+for boiled or ﬁltered coffee might be attributed not
+only to chemical differences between the two coffee
+brews, but also to difference in habitual dietary
+pattern, despite our attempts to adjust for it.
+The metabolite panel scores showed better dis-
+crimination between low and high intake of boiled
+and ﬁltered coffee intake compared to the majority
+of single metabolites with a high speciﬁcity at
+baseline and at 10-y follow-up. Of note, neither of
+the metabolite panels was a good predictor of the
+other type of coffee intake, indicating the high
+speciﬁcity
+of
+metabolites
+panels.
+Moreover,
+metabolite panel scores were not correlated with
+other food items estimated by FFQ (Figure S5). This
+strengthens their potential use as biomarkers
+reﬂective of different types of coffee intake and to
+investigate speciﬁc association of boiled and ﬁl-
+tered coffee with disease risk. Future studies are
+needed to validate metabolite panels across differ-
+ent populations.
+Associations of coffee-related metabolites with T2D risk
+Previous observational studies in which ﬁltered
+coffee was the dominantly consumed coffee brew
+have shown beneﬁts of ﬁltered coffee intake on T2D
+prevention and found that people with reported
+consumption of 4 cups ﬁltered coffee per day had
+lower risk of developing T2D, compared to those
+who reported < 1 cups per day [1, 4]. Our results
+are well in line with previous studies (Fig. 3c).
+Although biological mechanisms underpinning the
+role of coffee in T2D are not completely resolved,
+many studies have suggested that chlorogenic acid
+and polyphenols are the main factors behind the
+observations. This might be attributed to their
+beneﬁcial effects on glucose and lipid metabolisms
+as well as inﬂammation [2, 7]. However, no obser-
+vational
+study
+has
+investigated
+associations
+between chlorogenic acid metabolites and T2D risk.
+We found that 4 out of 9 reported chlorogenic acid
+metabolites [5] were associated with ﬁltered coffee
+intake, including 3-hydroxyhippurate (r = 0.11), 3-
+(3-hydroxyphenyl)propionate (r = 0.14) and cate-
+chol sulphate (r = 0.09), even though they were not
+selected as optimal predictors of coffee intake from
+multivariate modelling. We also found a borderline
+inverse association between 3-hydroxyhippurate
+with T2D risk, after adjustment for daily energy
+intake and lifestyle-related factors (ORperSD = 0.82
+[95%CI 0.65, 1.02]), but not for the other metabo-
+lites. In line with previous studies, two tentatively
+annotated phenolic compounds, that is 7-hydroxy-
+4-(methoxymethyl)coumarin
+and
+dihydroferulic
+acid that were positively correlated with ﬁltered
+coffee intake were also inversely associated with
+T2D risk, supporting the preventive role of phenolic
+compounds in T2D development.
+The beneﬁt of coffee intake on T2D prevention is
+unlikely attributed to caffeine. Observational stud-
+ies have shown inverse associations for both caf-
+feinated and decaffeinated coffee with risk of T2D
+[52,
+53].
+Evidence
+from
+intervention
+studies
+regarding the role of caffeine on insulin sensitivity
+and glucose metabolism are conﬂicting [54, 55],
+and in the present study, we in fact found a positive
+association between plasma caffeine and T2D risk
+after adjusting for covariates (Table S5).
+Several boiled coffee-related metabolites as well as
+the metabolite panel score reﬂective of boiled coffee
+intake
+correlated
+with
+triglycerides
+and
+total
+cholesterol, similar to previous studies [1]. How-
+ever, no apparent association with T2D risk was
+observed, in contrast to the previous study where
+an inverse association of boiled coffee intake with
+T2D risk was found amongst 68 788 Norwegian
+people who reported drinking boiled coffee only
+(scale ranged from 0–9 cups per day). In this
+Swedish study population, only 71 participants
+reportedly consumed boiled coffee, and amongst
+them, 40 consumed boiled coffee at least once per
+day. OR of T2D was numerically lower for the 4th
+compared with 1st quartile of the metabolite panel
+score, indicating that the lack of association for
+boiled coffee might be attributed to the small
+number of participants.
+Strengths and limitations
+To our knowledge, this is the ﬁrst study to identify
+metabolite biomarkers in plasma that are speciﬁc
+for boiled and ﬁltered coffee intake, respectively,
+and their association with T2D risk. However, there
+are several limitations of the study. First, we
+cannot exclude the risk of residual confounding
+due to measurement error in the assessment of diet
+and lifestyle factors, food intakes and/or other
+Coffee intake biomarkers and type 2 diabetes risk
+/ L. Shi et al.
+ª 2019 The Association for the Publication of the Journal of Internal Medicine
+11
+Journal of Internal Medicine
+
+unmeasured confounders related to coffee habits,
+despite our comprehensive efforts to adjust for
+plausible confounding factors in multivariable risk
+models, including age, gender, BMI, physical activ-
+ity, smoking, and daily energy intake and a priori
+deﬁned Baltic Sea Diet Score that reﬂect the
+healthy dietary pattern. Instead of the score, we
+also adjusted models with multiple dietary items,
+that were associated with coffee intake habits and
+T2D risk, including saturated and trans fat, alco-
+hol, sweets, whole grains, red and processed meat,
+fruits and vegetables, and similar associations
+were obtained (data not shown). It is also notewor-
+thy that metabolite panels that were speciﬁcally
+Metabolite score of boiled coffee
+Specificity (%)
+)
+%
+( ytivitis
+n
+e
+S
+100
+80
+60
+40
+20
+0
+0
+20
+40
+60
+80
+100
+Metabolite score of filtered coffee
+Specificity (%)
+Sensitivity (%)
+100
+80
+60
+40
+20
+0
+0
+20
+40
+60
+80
+100
+Metabolite score of boiled coffee after 10-y follow up
+Specificity (%)
+)
+%
+( ytivitis
+n
+e
+S
+100
+80
+60
+40
+20
+0
+0
+20
+40
+60
+80
+100
+Metabolite score of filtered coffee after 10-y follow up
+Specificity (%)
+Sensitivity (%)
+100
+80
+60
+40
+20
+0
+0
+20
+40
+60
+80
+100
+AROC: 0.91[ 0.88-0.95] 
+AROC: 0.66[ 0.59-0.73] 
+AROC: 0.90[ 0.86-0.94] 
+AROC: 0.68[ 0.61-0.76] 
+AROC: 0.79[ 0.71-0.88] 
+AROC: 0.62[ 0.51-0.73] 
+AROC: 0.83[ 0.74-0.91] 
+AROC: 0.62[0.50-0.73] 
+(a)
+(c)
+(b)
+(d)
+Fig. 2 The predictive performance of metabolite panel scores for discriminating low total coffee consumption from boiled or
+ﬁltered coffee consumption at baseline (a and b) and at 10-year follow-up (c and d). 10-fold cross-validation ROC curves are
+presented. Yellow and blue curves represent the predictive performance of metabolite panel score of boiled coffee or ﬁltered
+coffee for self-reported boiled coffee at baseline (a) and at 10-year follow-up (c), respectively. Yellow and blue curves
+represent the predictive performance of metabolite panel score of boiled coffee or ﬁltered coffee for self-reported ﬁltered
+coffee at baseline (b) and at 10-year follow-up (d), respectively.
+Coffee intake biomarkers and type 2 diabetes risk
+/ L. Shi et al.
+12
+ª 2019 The Association for the Publication of the Journal of Internal Medicine
+Journal of Internal Medicine
+
+reﬂective coffee intake and did not correlate with
+most of investigated food intakes (Figure S5), which
+highlights the potential for investigation of speciﬁc
+association of boiled and ﬁltered coffee with dis-
+ease risk, independent of other dietary factors that
+might be co-consumed with coffee. Secondly, when
+assessing
+metabolites
+individually,
+differences
+between low total coffee consumers and boiled or
+ﬁltered coffee consumers were observed for hun-
+dreds of plasma metabolites (Figure S6), which
+may represent the overall impact of coffee intake on
+the plasma metabolome in the current population.
+However, we focused mainly on a small subset of
+metabolites that were optimally and unbiasedly
+selected using multivariate modelling, particularly
+aiming to identify the most robust metabolite
+biomarkers of coffee intake. Furthermore, despite
+the
+comprehensive
+assessment
+of
+metabolite
+biomarkers in a large free-living population, the
+speciﬁcity of markers could be further evaluated in
+an intervention
+study
+setting.
+However,
+many
+coffee interventions have already been performed
+and reported [5, 21, 56]. We identiﬁed several
+metabolites associated with ﬁltered coffee intake in
+our study that have previously been reported,
+including caffeine, trigonelline, atractyligenin glu-
+curonide and 2-furoylglycine, suggesting that our
+results are robust. In addition, even with extensive
+efforts on metabolite identiﬁcation, we did not
+manage to annotate all metabolites associated with
+coffee intake, in particular, with boiled coffee
+intake. The incomplete availability of spectral ref-
+erences for reliable annotation and the lack of
+studies
+that
+speciﬁcally
+investigated
+chemical
+compounds of boiled coffee make it very difﬁcult
+to
+improve
+conﬁdent
+level
+of
+metabolite
+Fig. 3 Associations between metabolite panel scores that reﬂected self-reported coffee intake and risk of developing type 2
+diabetes. (a) Partial Spearman correlations between metabolite panel scores and coffee intake measured by food frequency
+questionnaires, adjusted for case–control status, age at blood draw, gender, daily energy intake, BMI, smoking status,
+education and physical activity across all participants. Adjusting for collinearity between coffee brews resulted in
+metabolite panel score residuals (i.e. residual of boiled or ﬁltered coffee score) uniquely associated with their corresponding
+types of coffee intake and were thus used as exposure variables in conditional logistic regression. (b) Quartiles of metabolite
+panel score speciﬁcally reﬂecting boiled and ﬁltered coffee intake measured by FFQ and their association with T2D risk
+assessed by conditional logistic regression. Models were adjusted for BMI, fasting plasma glucose, smoking status,
+education, physical activity, and daily energy intake and a priori determined Baltic Sea Diet Score that reﬂected a healthy
+Nordic dietary pattern. (c) Distribution of coffee intake (estimated by FFQ) by metabolite panel score quartiles.
+Coffee intake biomarkers and type 2 diabetes risk
+/ L. Shi et al.
+ª 2019 The Association for the Publication of the Journal of Internal Medicine
+13
+Journal of Internal Medicine
+
+identiﬁcation.
+Metabolomics
+studies
+of
+coffee
+brews covering more metabolites are warrant.
+However, the unknown compounds did not affect
+the major ﬁnding in this study concerning the role
+of coffee intake on T2D prevention.
+The main strengths of the study include the use of
+prospectively collected samples and data from a
+population-based cohort, detailed anthropometric,
+lifestyle, and available information of coffee brew-
+ing methods in the dietary questionnaires and the
+use of comprehensive untargeted metabolomics
+analysis in combination with a robust data pro-
+cessing
+pipeline.
+Moreover,
+the
+availability
+of
+repeated sampling is the unique feature of this
+study, which allow us to investigate the robustness
+of metabolite panel determined for coffee intake
+prediction.
+Conclusion
+In conclusion, using comprehensive metabolomics
+data and materials from a case–control study
+nested within the Swedish population-based VIP
+cohort, we identiﬁed plasma metabolites speciﬁ-
+cally associated with boiled or ﬁltered coffee intake.
+Our results support the beneﬁts of habitual ﬁltered
+coffee intake for T2D prevention. However, no
+association between boiled coffee intake and T2D
+risk was observed which may be due to the fact
+that the study was limited by the low number of
+boiled coffee consumers in this population or a lack
+of protective effect of boiled coffee intake. The
+present study demonstrates the potential of using
+metabolite biomarkers speciﬁc for coffee brews as a
+complement to traditional dietary assessment in
+investigating their role in T2D development, espe-
+cially in existing cohorts where consumption data
+of different coffee brews are lacking. Identiﬁed
+metabolites should be further investigated as can-
+didate biomarkers of speciﬁc intakes of ﬁltered and
+boiled coffee in future studies.
+Acknowledgements
+We are grateful to the participants who took part in
+this VIP cohort.
+Sources of Support
+Establishment of this study and metabolomics
+analysis was supported by Swedish University of
+Agricultural Sciences through a young investiga-
+tors’ quality grant held by RL. Salaries of RL, LS
+and CB were covered by grants from Chalmers
+Foundation, Swedish Research Council, FORMAS,
+Dr Hakanssons Foundation, Kristina Stenborg
+Foundation. A grant from the Swedish Research
+Council for Health, Working Life and Welfare,
+FORTE supported the set-up of the case–control
+study. The LC-MS metabolomics unit at University
+of Eastern Finland is supported by Biocenter
+Finland, and KH holds an Academy of Finland
+Research fellowship. None of the funding bodies
+had any role in the study design, data collection
+and analysis, decision to publish, or preparation of
+the manuscript.
+Conﬂict of interest statement
+Authors have no conﬂicts of interest to declare.
+Author contributions
+The authors’ responsibilities were as follows: LS
+participated in sample analyses, performed data
+processing and statistical analyses, interpreted
+the data and drafted the manuscript; CB, IAB and
+RL planned and conceived the nested case–control
+study, and RL and LS conceived and designed the
+current study; CB supervised statistical analyses
+and interpretation, and revised the manuscript;
+IAB, IJ, KH and OR interpreted the data and
+provided critical intellectual input; BvG and AW
+participated in the revision of the manuscript; KH
+participated in untargeted LC-MS analysis and
+metabolite
+identiﬁcation;
+RL
+supervised
+data
+analyses and interpretation, revised the manu-
+script and had the overall responsibility for the
+project. All authors read and approved the ﬁnal
+manuscript.
+References
+1 Carlstr€om M, Larsson SC. Coffee consumption and reduced
+risk of developing type 2 diabetes: a systematic review with
+meta-analysis. Nutr Rev 2018; 76: 395–17.
+2 Maria R, Santos M, Roberto D, Lima A. Coffee consumption,
+obesity and type 2 diabetes : a mini - review. Eur J Nutr 2016;
+55: 1345–58.
+3 Ding M, Bhupathiraju SN, Chen M, Van Dam RM, Hu FB.
+Caffeinated and decaffeinated coffee consumption and risk of
+type 2 diabetes: A systematicreview and a dose-response
+meta-analysis. Diabetes Care 2014; 37: 569–86.
+4 Muley A, Muley P, Shah M. Coffee to reduce risk of type 2
+diabetes?: A systematic review. Curr Diabetes Rev 2012; 8:
+162–8.
+5 Cornelis MC, Erlund I, Michelotti GA, Herder C, Westerhuis
+JA,
+Tuomilehto
+J.
+Metabolomic
+response
+to
+coffee
+Coffee intake biomarkers and type 2 diabetes risk
+/ L. Shi et al.
+14
+ª 2019 The Association for the Publication of the Journal of Internal Medicine
+Journal of Internal Medicine
+
+consumption: application to a three-stage clinical trial. J
+Intern Med 2018; 283: 544–57.
+6 Kuang A, Erlund I, Herder C, Westerhuis JA, Tuomilehto J,
+Cornelis MC. Lipidomic response to coffee consumption.
+Nutrients 2018; 10: 1–12.
+7 Akash MSH, Rehman K, Chen S. Effects of coffee on type 2
+diabetes mellitus. Nutrition 2014; 30: 755–63.
+8 Reyes CM, Cornelis MC. Caffeine in the diet: country-level
+consumption and guidelines. Nutrients 2018; 10: 1–34.
+9 Rothwell JA, Loftﬁeld E, Wedekind R et al. A metabolomic
+study of the variability of the chemical composition of com-
+monly consumed coffee brews. Metabolites 2019; 9: 17.
+10 Souard F, Delporte C, Stoffelen P et al. Metabolomics ﬁnger-
+print of coffee species determined by untargeted-proﬁling
+study using LC-HRMS. Food Chem 2018; 245: 603–12.
+11 Maria L, Ingegerd N, Lenner P, Lindahl B, Van Guelpen B.
+Consumption of ﬁltered and boiled coffee and the risk of
+incident cancer: a prospective cohort study. Cancer Causes
+Control 2010; 21: 1533–44.
+12 van Dusseldorp M, Smits P, Lenders JW, Thien TKM. Boiled
+coffee and blood pressure. A 14-week controlled trial. Hyper-
+tension 1991; 18: 607–13.
+13 Cai L, Ma D, Zhang Y, Liu Z, Wang P. The effect of coffee
+consumption on serum lipids: A meta-analysis of randomized
+controlled trials. Eur J Clin Nutr 2012; 66: 872–7.
+14 Coffee TJ. Consumption and risk of type 2 diabetes mellitus
+among middle-aged Finnish men and women. JAMA 2013;
+291: 1213–9.
+15 Hjellvik V, Tverdal A, Strøm H. Boiled coffee intake and
+subsequent risk for type 2 diabetes. Epidemiology 2011; 22:
+418–21.
+16 Satija A, Yu E, Willett WC, Hu FB. Understanding nutri-
+tional epidemiology and its role in policy. Adv Nutr 2015; 6:
+5–18.
+17 Rothwell JA, Keski-Rahkonen P, Robinot N et al. A metabo-
+lomic study of biomarkers of habitual coffee intake in four
+European countries. Mol Nutr Food Res 2019; 33: 1900659.
+18 O’Gorman A, Brennan L. Metabolomic applications in nutri-
+tional research: A perspective. J Sci Food Agric 2015; 95:
+2567–70.
+19 Pratico G, Gao Q, Scalbert A et al. Guidelines for Biomarker of
+Food Intake Reviews (BFIRev): How to conduct an extensive
+literature search for biomarker of food intake discovery.
+Genes Nutr 2018; 13: 1–14.
+20 Rothwell JA, Fill^atre Y, Martin J-F et al. New biomarkers of
+coffee consumption identiﬁed by the non-targeted metabolo-
+mic proﬁling of cohort study subjects. PLoS ONE 2014; 9:
+e93474.
+21 Rothwell
+JA,
+Madrid-Gambin
+F,
+Garcia-Aloy
+M
+et
+al.
+Biomarkers of intake for coffee, tea, and sweetened beverages.
+Genes Nutr 2018; 13: 1–18.
+22 Guertin KA, Loftﬁeld E, Boca SM et al. Serum biomarkers of
+habitual coffee consumption may provide insight into the
+mechanism underlying the association between coffee con-
+sumption and colorectal cancer. Am J Clin Nut 2015; 101:
+1000–11.
+23 Papandreou C, Hernandez-Alonso P, Bullo M et al. Plasma
+metabolites associated with coffee consumption: a metabo-
+lomic approach within the PREDIMED study. Nutrients 2019;
+11: 1032.
+24 Nilsson LM, Wennberg M, Lindahl B, Eliasson M, Jansson JH,
+Van Guelpen B. Consumption of ﬁltered and boiled coffee
+and the risk of ﬁrst acute myocardial infarction; a nested
+case/referent study. Nutr Metab Cardiovasc Dis 2010; 20:
+527–35.
+25 Norberg M, Wall S, Boman K, Weinehall L. The V€asterbotten
+Intervention Programme: background, design and implica-
+tions. Glob Health Action 2010; 3: 1–15.
+26 Shi L, Brunius C, Lehtonen M et al. Plasma metabolites
+associated with type 2 diabetes in a Swedish population: a
+case–control study nested in a prospective cohort. Diabetolo-
+gia 2018; 61: 849–61.
+27 Shi L, Brunius C, Johansson I et al. Plasma metabolites
+associated with healthy Nordic dietary indexes and risk of
+type 2 diabetes—a nested case-control study in a Swedish
+population. Am J Clin Nutr 2018; 108: 564–75.
+28 Donat-Vargas C, Akesson A, Tornevi A et al. Persistent
+organochlorine pollutants in plasma, blood pressure, and
+hypertension in a longitudinal study. Hypertension 2018; 71:
+1258–68.
+29 Rolandsson O, Norberg M, Nystr€om L et al. How to diagnose
+and classify diabetes in primary health care: Lessons learned
+from the Diabetes Register in Northern Sweden (DiabNorth).
+Scand J Prim Health Care 2012; 30: 81–7.
+30 Johansson I, Hallmans G, Wikman A, Biessy C, Riboli E,
+Kaaks R. Validation and calibration of food-frequency ques-
+tionnaire measurements in the Northern Sweden Health and
+Disease cohort. Public Health Nutr 2002; 5: 487–96.
+31 Johansson I, Van Guelpen B, Hultdin J, Johansson M,
+Hallmans G, Stattin P. Validity of food frequency question-
+naire estimated intakes of folate and other B vitamins in a
+region without folic acid fortiﬁcation. Eur J Clin Nutr 2010;
+64: 905–13.
+32 Johansson I, Nilsson LM, Stegmayr B, Boman K, Hallmans G,
+Winkvist A. Associations among 25-year trends in diet,
+cholesterol and BMI from 140,000 observations in men and
+women in Northern Sweden. Nutr J 2012; 11: 40.
+33 Brunius C, Shi L, Landberg R. Large-scale untargeted LC-MS
+metabolomics data correction using between-batch feature
+alignment and cluster-based within-batch signal intensity
+drift correction. Metabolomics 2016; 12: 1–13.
+34 Smith CA, Want EJ, O’Maille G, Abagyan R, Siuzdak G.
+XCMS: processing mass spectrometry data for metabolite
+proﬁling using nonlinear peak alignment, matching, and
+identiﬁcation. Anal Chem 2006; 78: 779–87.
+35 Shi L, Westerhuis JA, Rosen J, Landberg R, Brunius C.
+Variable selection and validation in multivariate modelling.
+Kelso J, ed. Bioinformatics 2018; 35: 972–80.
+36 Sun Y, Wong AKC, Kamel MS. Classiﬁcation of imbalanced
+data: a review. Int J Pattern Recognit Artif Intell 2009; 23:
+687–719.
+37 Lindgren F, Hansen B, Karcher W. Model validation by
+permutation tests. J Chemom 1996; 10: 521–32.
+38 Sumner LW, Amberg A, Barrett D et al. Proposed minimum
+reporting standards for chemical analysis. Metabolomics
+2007; 3: 211–21.
+39 Friedman J, Hastie T, Tibshirani R. Regularization paths for
+generalized linear models via coordinate descent. J Stat Softw
+2010; 33: 1–22.
+40 Robin X, Turck N, Hainard A et al. pROC: an open-source
+package for R and S+ to analyze and compare ROC curves.
+BMC Bioinform 2011; 12: 77.
+41 Wang Y, Gapstur SM, Carter BD et al. Untargeted metabo-
+lomics identiﬁes novel potential biomarkers of habitual food
+Coffee intake biomarkers and type 2 diabetes risk
+/ L. Shi et al.
+ª 2019 The Association for the Publication of the Journal of Internal Medicine
+15
+Journal of Internal Medicine
+
+intake in a cross-sectional study of postmenopausal women.
+J Nutr 2018; 148: 932–43.
+42 Gibbons H, Mcnulty BA, Nugent AP et al. A metabolomics
+approach
+to
+the
+identiﬁcation
+of
+biomarkers
+of
+sugar-
+sweetened beverage intake. Am J Clin Nutr 2015; 101: 471–7.
+43 Therneau TM, Lumley T. Package ‘survival’. R Top Doc 2015;
+128.
+44 Kanerva
+N,
+Kaartinen
+NE,
+Schwab
+U,
+Lahti-Koski
+M,
+M€annist€o S. The Baltic Sea Diet Score: a tool for assessing
+healthy eating in Nordic countries. Public Health Nutr 2014;
+17: 1697–705.
+45 Tsugawa H, Cajka T, Kind T et al. MS-DIAL: data-independent
+MS/MS deconvolution for comprehensive metabolome anal-
+ysis. Nat Methods 2015; 12: 523–6.
+46 D€uhrkop K, Shen H, Meusel M, Rousu J, B€ocker S. Searching
+molecular structure databases with tandem mass spectra
+using CSI:FingerID. Proc Natl Acad Sci 2015; 112: 12580–5.
+47 Huan T, Tang C, Li R, Shi Y, Lin G, Li L. MyCompoundID MS/
+MS search: metabolite identiﬁcation using a library of pre-
+dicted
+fragment-ion-spectra
+of
+383,830
+possible
+human
+metabolites. Anal Chem 2015; 87: 10619–26.
+48 Wishart DS, Tzur D, Knox C et al. HMDB: The human
+metabolome database. Nucleic Acids Res 2007; 35: 521–6.
+49 Hanhineva K, Lankinen MA, Pedret A et al. Nontargeted
+metabolite proﬁling discriminates diet-speciﬁc biomarkers for
+consumption of whole grains, fatty ﬁsh, and bilberries in a
+randomized controlled trial. J Nut 2015; 145: 7–17.
+50 Tovar J, de Mello VD, Nilsson A et al. Reduction in car-
+diometabolic risk factors by a multifunctional diet is mediated
+via several branches of metabolism as evidenced by nontar-
+geted metabolite proﬁling approach. Mol Nutr Food Res 2017;
+61: 1600552.
+51 de Mello VD, Paananen J, Lindstr€om J et al. Indolepropionic
+acid and novel lipid metabolites are associated with a lower
+risk of type 2 diabetes in the Finnish Diabetes Prevention
+Study. Sci Rep 2017; 7: 1–12.
+52 Van Dam RM, Willett WC, Manson JE, Hu FB. Coffee,
+caffeine, and risk of type 2 diabetes. Diabetes Care 2006;
+29: 398–403.
+53 Pereira MA, Parker ED, Folsom AR. Coffee consumption and
+risk of type 2 diabetes mellitus: An 11-year prospective study
+of 28 812 postmenopausal women. Arch Intern Med 2006;
+166: 1311–6.
+54 Dewar L, Heuberger R. The effect of acute caffeine intake on
+insulin
+sensitivity
+and
+glycemic
+control
+in
+people
+with
+diabetes. Diabetes Metab Syndr Clin Res Rev 2017; 11:
+S631–5.
+55 Shi X, Xue W, Liang S, Zhao J, Zhang X. Acute caffeine
+ingestion reduces insulin sensitivity in healthy subjects: a
+systematic review and meta-analysis. Nutr J 2016; 15:
+1–8.
+56 Mullen W, Barron D, Uchida K et al. Metabolite proﬁling of
+hydroxycinnamate derivatives in plasma and urine after the
+ingestion of coffee by humans: identiﬁcation of biomarkers of
+coffee consumption ABSTRACT. Drug Metab Dispos 2006; 37:
+1749–58.
+57 Playdon MC, Sampson JN, Cross AJ et al. Comparing
+metabolite proﬁles of habitual diet in serum and urine. Am
+J Clin Nutr 2016; 104: 776–89.
+58 Guertin KA, Moore SC, Sampson JN et al. Metabolomics in
+nutritional epidemiology: Identifying metabolites associated
+with diet and quantifying their potential to uncover diet-
+disease relations in populations. Am J Clin Nutr 2014; 100:
+208–17.
+59 Fujimaki M, Saiki S, Li Y, Kaga N, Taka H. Serum caffeine and
+metabolites are reliable biomarkers of early. Parkinson Dis
+2018; 90: e404–e411.
+60 Ulvik A, Nyg O. Performance of plasma trigonelline as a
+marker of coffee consumption in an epidemiologic setting. Am
+J Clin Nut 2018; 107: 941–7.
+61 Lang R, Dieminger N, Beusch A et al. Bioappearance and
+pharmacokinetics of bioactives upon coffee consumption.
+Anal Bioanalyt Chem 2013; 405: 8487–503.
+62 Heinzmann SS, Holmes E, Kochhar S, Nicholson JK, Schmitt-
+Kopplin P. 2-Furoylglycine as a candidate biomarker of coffee
+consumption. J Agric Food Chem 2015; 63: 8615–21.
+63 Tumino R, Boutron-Ruault M-C, Clavel-Chapelon F et al.
+Polyphenol metabolome in human urine and its association
+with intake of polyphenol-rich foods across European coun-
+tries. Am J Clin Nutr 2015; 102: 905–13.
+64 Lang R, Wahl A, Stark T, Hofmann T. Urinary N-methylpyri-
+dinium and trigonelline as candidate dietary biomarkers of
+coffee consumption. Mol Nut Food Res 2011; 55: 1613–23.
+Correspondence: Lin Shi, College of Food Engineering and Nutri-
+tional Science, Shaanxi Normal University, Xi’an, China, and
+Rikard Landberg, Department of Biology and Biological Engineer-
+ing, Division Food and Nutrition Science, Chalmers University of
+Technology, Gothenburg 412 96, Sweden.
+(fax: 0046 0317725944; e-mails: shlin@chalmers.se, linshi1988
+08@snnu.edu.cn and rikard.landberg@chalmers.se).
+Supporting Information
+Additional Supporting Information may be found in
+the online version of this article:
+Table S1. The characteristics of self-reported coffee
+intake estimated by food frequency questionnaire.
+Table S2. Optimized parameters applied for untar-
+geted LC-MS data processing.
+Table S3. The characteristics of plasma metabo-
+lites associated with reported coffee intake esti-
+mated by food frequency questionnaire.
+Table S4. The predictive performance of metabo-
+lites associated with reported coffee intake at 10-y
+follow-up.
+Table S5. Odds ratios of type 2 diabetes for plasma
+metabolites associated with coffee intake in quar-
+tiles or per standard deviation.
+Figure S1. Scatter plots of partial correlations
+between identiﬁed boiled coffee-related metabolites
+and coffee intake.
+Coffee intake biomarkers and type 2 diabetes risk
+/ L. Shi et al.
+16
+ª 2019 The Association for the Publication of the Journal of Internal Medicine
+Journal of Internal Medicine
+
+Figure S2. Scatter plots of partial correlations
+between identiﬁed ﬁltered coffee-related metabo-
+lites and coffee intake.
+Figure S3. Partial correlations between coffee-
+related metabolites and intakes of food items
+estimated by food frequency questionnaire.
+Figure S4. Changes of coffee-related metabolites
+between low versus high reported consumption of
+food items.
+Figure S5. Partial correlations between metabolite
+panel scores of boiled and ﬁltered coffee and
+intakes of food items estimated by food frequency
+questionnaire.
+Figure S6. Bubble plots of the statistically signif-
+icant (P < 0.01) fasting plasma metabolites corre-
+lated with increased or decreased levels in boiled or
+ﬁltered coffee consumers compared with low coffee
+consumers.
+ª 2019 The Association for the Publication of the Journal of Internal Medicine
+17
+Journal of Internal Medicine
+Coffee intake biomarkers and type 2 diabetes risk
+/ L. Shi et al.

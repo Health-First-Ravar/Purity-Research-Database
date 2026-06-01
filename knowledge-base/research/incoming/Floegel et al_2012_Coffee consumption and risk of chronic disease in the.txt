@@ -1,0 +1,1346 @@
+See corresponding editorial on page 787.
+Coffee consumption and risk of chronic disease in the European
+Prospective Investigation into Cancer and Nutrition (EPIC)–Germany
+study1–3
+Anna Floegel, Tobias Pischon, Manuela M Bergmann, Birgit Teucher, Rudolf Kaaks, and Heiner Boeing
+ABSTRACT
+Background: Early studies suggested that coffee consumption may
+increase the risk of chronic disease.
+Objective: We investigated prospectively the association between
+coffee consumption and the risk of chronic diseases, including type
+2 diabetes (T2D), myocardial infarction (MI), stroke, and cancer.
+Design: We used data from 42,659 participants in the European Pro-
+spective Investigation into Cancer and Nutrition (EPIC)–Germany
+study. Coffee consumption was assessed by self-administered food-
+frequency questionnaire at baseline, and data on medically veriﬁed
+incident chronic diseases were collected by active and passive follow-
+up procedures. HRs and 95% CIs were calculated with multivariate
+Cox regression models and compared by competing risk analysis.
+Results: During 8.9 y of follow-up, we observed 1432 cases of
+T2D, 394 of MI, 310 of stroke, and 1801 of cancer as ﬁrst qualify-
+ing events. Caffeinated (HR: 0.94; 95% CI: 0.84, 1.05) or decaf-
+feinated (HR: 1.05; 95% CI: 0.84, 1.31) coffee consumption (4
+cups/d compared with ,1 cup/d; 1 cup was deﬁned as 150 mL) was
+not associated with the overall risk of chronic disease. A lower risk
+of T2D was associated with caffeinated (HR: 0.77; 95% CI: 0.63,
+0.94; P-trend 0.009) and decaffeinated (HR: 0.70; 95% CI: 0.46,
+1.06; P-trend: 0.043) coffee consumption (4 cups/d compared with
+,1 cup/d), but cardiovascular disease and cancer risk were not. The
+competing risk analysis showed no signiﬁcant differences between
+the risk associations of individual diseases.
+Conclusion: Our ﬁndings suggest that coffee consumption does not
+increase the risk of chronic disease, but it may be linked to a lower
+risk of T2D.
+Am J Clin Nutr 2012;95:901–8.
+INTRODUCTION
+Coffee is among the most popular nonalcoholic beverages and is
+one of the most valuable export commodities in the world (1). In
+2007, the top coffee consuming country was Finland with 12 kg per
+capita. In Germany, the average coffee consumption in 2007 was
+6.4 kg per capita, whereas in the United States it was 4.2 kg per
+capita (2). After removal of the ﬂesh from the coffee cherries, the
+seeds are roasted and develop their unique bitter aroma. Coffee is a
+complex chemical mixture, and its most abundant components are
+chlorogenic acid and caffeine followed by other polyphenols and
+methylxanthines, carbohydrates, lipids, nitrogenous compounds,
+nicotinic acid, potassium, and magnesium to name a few (3). Be-
+sides its culinary value, coffee has long been suggested to affect
+human health and disease (3). In the late 16th century, British
+doctors observed that coffee accelerated digestion, improved
+cognitive function, and increased the heart rate (4). However, the
+effect of coffee consumption on chronic disease risk is still being
+debated. In randomized controlled trials it was observed that acute
+coffee ingestion caused an increase in blood pressure (5, 6) and led
+to an elevation in plasma concentrations of total and LDL cho-
+lesterol and homocysteine (7–9). Case-control studies reported
+a positive association (3, 10, 11), or a J-shaped relation (12), be-
+tween coffee consumption and the risk of CVD4. Moreover, some
+studies reported an acute elevation in the risk of MI and stroke in
+the hour of coffee ingestion (13, 14). These ﬁndings contributed to
+the belief that coffee is harmful (15), which is widespread among
+the general public and is also supported by current dietary rec-
+ommendations that favor low to moderate coffee consumption.
+Prospective cohort studies, however, reported conﬂicting results:
+some studies suggested a positive association between coffee con-
+sumption and risk of CVD (16, 17), whereas others reported no
+association (18, 19) or even an inverse association (20–22). Most
+previous studies focused on the risk of coronary heart disease, and
+studies addressing stroke risk are even fewer. An inverse associa-
+tion between coffee consumption and risk of T2D has been sug-
+gested in a recent case-control study in the United States (23) and
+in many prospective cohort studies in Europe (24–26), the United
+States (27, 28), and Japan (29). Studies investigating the associa-
+tion between coffee consumption and total cancer risk are rarely
+found in the literature because most studies focused on site-speciﬁc
+cancers. Some evidence exists that coffee may reduce the risk of
+liver, breast, and oral cavity/pharynx cancers (30–33). In contrast,
+1 From the Department of Epidemiology, German Institute of Human
+Nutrition Potsdam-Rehbruecke, Nuthetal, Germany (AF, TP, MMB, and
+HB); the Molecular Epidemiology Group, Max Delbru¨ck Center for Molec-
+ular Medicine Berlin-Buch, Germany (TP); and the Division of Cancer
+Epidemiology, German Cancer Research Center, Heidelberg, Germany
+(BT and RK).
+2 Supported by the Federal Ministry of Science, Germany (grant 01 EA
+9401), the European Union (grant SOC 95 201408 05F02), and the German
+Cancer Aid (grant 70-2201-Bo2).
+3 Address correspondence and reprint requests to A Floegel, German In-
+stitute of Human Nutrition Potsdam-Rehbruecke, Arthur-Scheunert-Allee
+114-116, 14558 Nuthetal, Germany. E-mail: anna.ﬂoegel@dife.de.
+4 Abbreviations used: CVD, cardiovascular disease; EPIC, European Pro-
+spective Investigation into Cancer and Nutrition; FFQ, food-frequency ques-
+tionnaire; MI, myocardial infarction; T2D, type 2 diabetes.
+Received July 18, 2011. Accepted for publication December 29, 2011.
+First published online February 15, 2012; doi: 10.3945/ajcn.111.023648.
+Am J Clin Nutr 2012;95:901–8. Printed in USA.  2012 American Society for Nutrition
+901
+
+results from case-control studies suggest that coffee consumption
+may increase the risk of pancreatic, bladder, ovarian, and prostate
+cancer but the evidence is considered insufﬁcient (3, 33, 34).
+With such contrasting ﬁndings, the public debate about reducing
+the risk of one disease only to increase the risk of another by
+drinking coffee is very much alive. From a public health perspective,
+it is most relevant to investigate whether coffee consumption affects
+morbidity from major chronic diseases and whether individual
+disease risks are competing with each other to optimally translate
+evidence-based recommendations. Furthermore, the relation be-
+tween coffee consumption and risk of MI and stroke and total cancer
+risk is not resolved and deserves large-scale prospective inves-
+tigations. In particular, more studies in European cohorts are de-
+sirable to support evidence from US cohorts (35). In addition,
+previous studies did not generally differentiate between caffeinated
+and decaffeinated coffee (36). Therefore, the current study aimed to
+prospectively investigate the association between caffeinated and
+decaffeinated coffee consumption and risk of chronic disease, in-
+cluding T2D, MI, stroke, and cancer in the EPIC-Germany cohort.
+SUBJECTS AND METHODS
+Study population
+The EPIC study is a multicenter prospective cohort study in 10
+European countries that aims to investigate the associations be-
+tween diet, lifestyle, and chronic disease risk. In Germany, there
+are 2 study centers, which are located in Potsdam and Heidelberg.
+Adults aged mainly between 35 and 65 y were recruited from the
+general population in Potsdam, Heidelberg, and surrounding areas
+with response rates of 22.7% in Potsdam and 38.3% in Heidelberg
+(37, 38). A total of 53,088 adults (30,255 women and 22,833 men)
+consented to participate during the recruitment examination, which
+took place between 1994 and 1998. At baseline, study participants
+underwent an examination that included anthropometric and blood
+pressure measurements and an interview on medical history, in-
+cluding prevalent diseases. A self-administered questionnaire on
+sociodemographic and lifestyle factors and an FFQ were also com-
+pleted. After baseline, follow-up questionnaires were administered
+every 2–3 y to identify incident cases of chronic diseases, including
+T2D, MI, stroke, and cancer. For the current analysis, we con-
+sidered the data until the fourth follow-up period. Written informed
+consent was obtained from all study participants a priori. The study
+was approved by the ethics committees of the Medical Society of
+the State of Brandenburg and of the faculty of Medicine, Hei-
+delberg University.
+For the current analysis, we excluded participants with missing
+information on coffee consumption (n = 17), those with self-
+reported chronic diseases (T2D, MI, stroke, or cancer) at baseline
+(n = 5536) or with unknown disease status (n = 2392), those with
+missing information on lifestyle factors and other covariates (n =
+1830), and those who never completed a follow-up questionnaire
+(n = 654).
+Coffee consumption
+The EPIC-Germany participants were inquired about their
+habitual consumption of “caffeinated coffee” and “decaffeinated
+coffee” in the self-administered semi-quantitative FFQ at baseline.
+In particular, the 2 items were as follows: “How frequently did you
+consume coffee with caffeine in the past?” and “How frequently
+did you consume coffee without caffeine in the past?” Ten fre-
+quency categories were provided, ranging from “never” to “less
+than 1/mo” to “5 times/d or more.” In addition, the usual portion
+size was assessed with categories ranging from 0.5 cups to 3 cups
+(1 cup was deﬁned as 150 mL). From the frequency and portion
+size, the usual consumption of caffeinated and decaffeinated coffee
+was estimated.
+Ascertainment of incident chronic diseases
+Incident cases of T2D, MI, stroke, and cancer were identiﬁed by
+participants’ self-report of the disease occurrence, disease-relevant
+medication, or change in diet or cause of death information. Po-
+tential incident diseases were further veriﬁed by contacting the
+treating physician and/or clinic to obtain medical records or via
+linkage to cancer and hospital registries (39). The diseases were
+coded in accordance with the International Statistical Classiﬁ-
+cation of Diseases, 10th Revision (ICD-10) (40), criteria: E11 for
+T2D; I21 for MI; I60, I61, I63, and I64 for stroke; and C00-C97
+for cancer (except C44: nonmelanoma skin cancer). In the current
+analysis, in case of multimorbidity, only the ﬁrst occurring in-
+cident event was counted.
+Statistical analysis
+Habitual caffeinated and decaffeinated coffee consumption were
+considered as exposure variables. The population was divided into
+5 coffee consumption categories (,1 cup/d, 1 to ,2 cups/d, 2 to
+,3 cups/d, 3 to ,4 cups/d, and 4 cups/d). The categories chosen
+agree well with plausible cutoff points of coffee consumption in
+other studies (41). Descriptive statistics of the covariates were age-
+and sex-adjusted and reported across coffee-consumption catego-
+ries as arithmetic means 6 SEs for continuous variables or as
+percentages for categorical variables. The primary endpoint for
+this analysis was deﬁned as the ﬁrst incident event occurring for
+T2D, MI, stroke, or cancer, whichever came ﬁrst. Cox pro-
+portional hazards analysis was used to estimate multivariable-
+adjusted HRs as a measure of the RR and 95% CIs, with age
+as the primary time-dependent variable (entry and exit time of
+each participant deﬁned as the age at recruitment and age at ﬁrst
+event of T2D, MI, stroke, cancer, or censoring, respectively).
+Furthermore, the disease-speciﬁc HRs for T2D, MI, stroke, and
+cancer across categories of coffee consumption were estimated.
+Coffee consumers of ,1 cup/d were used as the reference group.
+We calculated 3 different multivariate models for each exposure
+and outcome. All models were stratiﬁed by integers of age at
+recruitment to be less sensitive to violation of the proportional
+hazards assumption. Model 1 was the crude model and stratiﬁed
+by age at recruitment and center (Potsdam or Heidelberg) and
+adjusted for sex. Model 2 was additionally adjusted for classic
+risk factors, particularly smoking (nonsmokers; smoking in-
+tensity: ,15, 15–24, or 25 cigarettes/d, other smoking; former
+smokers: gave up smoking 10, 11–20, or .20 y previously;
+smoking duration: 10, 11–20, 21–30 y, 31–40 y, or .40 y),
+alcohol consumption (nonconsumers; women: .0–6, .6–12,
+or .12 g/d; men: .0–12, .12–24, or .24 g/d), physical activity
+(average of cycling and sports during summer and winter; in
+h/wk), education (none to primary school, technical to secondary
+school, or higher education including university), employment
+902
+FLOEGEL ET AL
+
+(yes or no), vitamin and mineral supplement use (during past 4 wk:
+yes or no), total energy intake (kcal/d), and tea intake (cups/d).
+Model 3 included the covariates of model 2 with additional ad-
+justment for risk factors that could be considered intermediates,
+particularly BMI (in kg/m2), waist-to-hip ratio (continuous), and
+prevalent hypertension (at least one of the following: systolic blood
+pressure 140 mmHg, diastolic blood pressure 90 mmHg, blood
+pressure–lowering medication, or self-reported: yes or no). In ad-
+dition, in models 2 and 3, caffeinated and decaffeinated coffee
+consumption (cups/d) was mutually adjusted. We also calculated
+continuous models because a dose-dependent effect was assumed.
+Furthermore, the signiﬁcance of linear trends across the caffeinated
+coffee consumption categories was tested by assigning each par-
+ticipant the median of the category and modeling this value as
+a continuous variable. In addition, we conducted a competing risk
+analysis for Cox regression based on multivariate model 3 and
+used the likelihood ratio test to compare the disease-speciﬁc risk
+associations (42, 43).
+Interactions were tested between coffee consumption (contin-
+uous), chronic disease risk, and the covariates age, sex, center
+(Potsdam or Heidelberg), alcohol intake (categorical), smoking
+status (categorical), BMI (30, yes or no), and hypertension (yes
+or no). Models with and without multiplicative interaction terms
+were compared by using the likelihood ratio test. If an interaction
+was observed, a stratiﬁed analysis was conducted. For sensitivity
+analysis, we calculated disease-speciﬁc HRs, including subjects
+with any prevalent chronic disease, except the disease under in-
+vestigation. Furthermore, we conducted the analysis excluding all
+nonconsumers of coffee from the reference group, excluding tea
+consumers of .1 cup/d, and excluding all cases that occurred
+during the ﬁrst 2 y of follow-up. The level of statistical signiﬁ-
+cance was set at P , 0.05 for 2-sided testing. All analyses were
+performed with SAS statistical software (release 9.1; SAS In-
+stitute Inc).
+RESULTS
+The ﬁnal study population comprised 42,659 EPIC-Germany
+participants (58.5% women) with a mean age of 49.7 y and mean
+caffeinated and decaffeinated coffee intakes of 2.7 and 0.3 cups/d,
+respectively. In this population, coffee consumption was distributed
+as follows: 72.6% reported to consume caffeinated coffee only, 4.5%
+reported to consume decaffeinated coffee only, 18.6% reported to
+consume both, and 4.3% reported to consume neither coffee type.
+The percentage of current smokers proportionally increased with
+caffeinated coffee consumption from 14.4% to 30.2% in a com-
+parison of ,1 to 4 cups/d (Table 1). With increasing caffeinated
+coffee consumption, decaffeinated coffee and tea consumption
+decreased on a population level, and alcohol consumption in-
+creased by trend. With increasing decaffeinated coffee consump-
+tion, the proportion of current smokers increased from 21.5% to
+35.6%, and the number of cigarettes smoked per day increased
+from 13.9 to 17.0 in a comparison of ,1 to 4 cups/d, respectively
+(Table 2). Decaffeinated coffee consumers were less likely to have
+a university degree and were more likely to have a diagnosis of
+hypertension.
+The consumption of caffeinated and decaffeinated coffee was
+not associated with the overall risk of chronic disease in the crude
+model as well as in multivariate model 2 (including known risk
+TABLE 1
+Baseline characteristics of the EPIC-Germany population (n = 42,659) according to caffeinated coffee consumption1
+Caffeinated coffee consumption
+,1 cup/d
+1 to ,2 cups/d
+2 to ,3 cups/d
+3 to ,4 cups/d
+4 cups/d
+No. of subjects
+8689
+3860
+10,617
+7356
+12,137
+Women (%)2
+56.1
+58.9
+62.8
+57.4
+56.9
+Age (y)2
+49.9 6 8.6
+49.2 6 8.5
+49.8 6 8.7
+49.0 6 8.2
+50.2 6 8.4
+BMI (kg/m2)
+25.8 6 0.04
+25.8 6 0.06
+25.8 6 0.04
+25.8 6 0.05
+26.2 6 0.04
+Waist circumference (cm)
+86.4 6 0.11
+86.0 6 0.17
+85.8 6 0.10
+85.8 6 0.12
+86.8 6 0.09
+Waist-to-hip ratio
+0.86 6 0.00
+0.85 6 0.00
+0.85 6 0.00
+0.85 6 0.00
+0.85 6 0.00
+Currently employed (%)
+69.0
+74.3
+73.3
+77.8
+73.2
+University degree (%)
+34.6
+36.9
+36.0
+36.1
+33.0
+Current smokers (%)
+14.4
+14.9
+16.8
+26.8
+30.2
+Cigarettes smoked (no./d)3
+13.2 6 0.3
+11.7 6 0.4
+12.0 6 0.2
+13.8 6 0.2
+15.7 6 0.2
+Former smokers (%)
+32.2
+33.3
+34.7
+33.2
+31.0
+Sports (h/wk)
+3.8 6 0.0
+3.4 6 0.1
+3.4 6 0.0
+3.2 6 0.0
+3.2 6 0.0
+Watching television (h/wk)
+12.3 6 0.1
+12.4 6 0.1
+12.8 6 0.1
+12.7 6 0.1
+13.5 6 0.1
+Total energy intake (kcal/d)
+2005 6 7
+1970 6 11
+2001 6 6
+2045 6 8
+2177 6 6
+Alcohol intake from beverages (g/d)
+13.5 6 0.2
+15.3 6 0.3
+15.9 6 0.2
+16.8 6 0.2
+16.0 6 0.2
+Decaffeinated coffee (cups/d)
+0.75 6 0.01
+0.27 6 0.02
+0.15 6 0.01
+0.10 6 0.01
+0.15 6 0.01
+Caffeinated tea (cups/d)
+1.8 6 0.0
+1.1 6 0.0
+0.73 6 0.02
+0.54 6 0.01
+0.55 6 0.01
+Taking vitamin supplement (%)
+22.1
+20.3
+18.8
+19.5
+18.8
+Taking mineral supplement (%)
+16.6
+15.5
+13.4
+14.4
+13.7
+Prevalent hypertension (%)
+37.6
+38.5
+38.2
+35.4
+34.9
+Systolic blood pressure (mm Hg)4
+133.4 6 0.3
+134.9 6 0.4
+136.0 6 0.2
+134.3 6 0.3
+134.5 6 0.2
+Diastolic blood pressure (mm Hg)4
+85.5 6 0.2
+87.1 6 0.3
+87.6 6 0.2
+86.8 6 0.2
+86.8 6 0.1
+1 All values are age- and sex-adjusted means 6 SEs or percentages across coffee consumption categories, except where otherwise noted. One cup was
+deﬁned as 150 mL. EPIC, European Prospective Investigation into Cancer and Nutrition.
+2 Unadjusted means 6 SDs or percentages.
+3 In current smokers only.
+4 n = 18,372.
+COFFEE CONSUMPTION AND RISK OF CHRONIC DISEASE
+903
+
+factors) and model 3 (which considered possible intermediates)
+(Tables 3 and 4). For further analysis, model 3 was our model of
+choice.
+RRs of single endpoints showed that caffeinated coffee con-
+sumption was inversely associated with T2D risk, because con-
+sumption of 4 cups/d was associated with a 23% lower risk of
+T2D compared with ,1 cup/d, but was not related to the other
+endpoints. Consumption of decaffeinated coffee was inversely
+associated with T2D risk (P-trend: 0.043) and was not associated
+with the other endpoints. However, in the highest category of 4
+cups/d compared with ,1 cup/d, decaffeinated coffee con-
+sumption was positively associated with MI risk (Table 4). The
+competing risk analysis showed that there was no signiﬁcant
+difference between the RR associations of the individual diseases
+(see Table S1 under “Supplemental data” in the online issue).
+A signiﬁcant interaction between caffeinated coffee consump-
+tion, smoking status, and T2D risk was found (P = 0.015). The
+stratiﬁed analysis showed the inverse association for T2D risk to be
+speciﬁc for nonsmokers at baseline (see Figure S1 under “Sup-
+plemental data” in the online issue). No association with T2D risk
+was observed among current smokers. We further observed a sig-
+niﬁcant interaction between decaffeinated coffee consumption,
+prevalent hypertension, and T2D risk (P = 0.0001), which suggests
+that persons with normal blood pressure may not beneﬁt from
+decaffeinated coffee consumption in respect of T2D risk.
+We conducted several sensitivity analyses (data not shown). The
+results were not markedly altered when we ﬁrst, included subjects
+with prevalent chronic diseases at baseline; second, excluded all
+nonconsumers of coffee from the reference group; or third, con-
+ducted the analysis among those with low exposure to caffeine
+from tea. Last, when we excluded all cases that occurred during the
+ﬁrst 2 y of follow-up, the association between high decaffeinated
+coffee consumption and MI risk was no longer observed, and
+a stronger inverse association was found between decaffeinated
+coffee consumption and T2D risk. The proportional hazard as-
+sumption was met.
+DISCUSSION
+Despite a general belief that coffee may be harmful, the current
+study found no association between coffee consumption and the
+risk of chronic disease. Current dietary guidelines recommend
+moderate coffee consumption; the American Heart Association
+even recommends to restrict caffeinated coffee consumption to
+1–2 cups/d (44). They most likely refer to early epidemiologic
+studies that found a positive association between coffee con-
+sumption and CVD risk. In contrast to current dietary recom-
+mendations, we observed that coffee consumption was not
+associated with risk of CVD, but that high coffee consumption
+was associated with lower T2D risk.
+An inverse association between coffee consumption and T2D
+risk has been reported in previous studies across continents (26–
+28, 40, 45). In accordance to our results, Huxley et al (40) found
+that T2D risk was reduced by 24% when caffeinated coffee
+consumption of 3–5 cups/d was compared with 2 cups/d in
+their meta-analysis; similar results were observed for decaf-
+feinated coffee consumption. In addition, our ﬁndings suggest
+that the association between decaffeinated coffee and risk of
+TABLE 2
+Baseline characteristics of the EPIC-Germany population (n = 42,659) according to decaffeinated coffee consumption1
+Decaffeinated coffee consumption
+,1 cup/d
+1 to ,2 cups/d
+2 to ,3 cups/d
+3 to ,4 cups/d
+4 cups/d
+No. of subjects
+38,628
+1273
+1390
+486
+882
+Women (%)2
+58.0
+62.9
+64.5
+60.5
+59.9
+Age (y)2
+49.6 6 8.5
+50.3 6 8.6
+51.6 6 8.6
+51.1 6 8.3
+50.6 6 8.2
+BMI (kg/m2)
+25.9 6 0.0
+26.2 6 0.1
+26.8 6 0.1
+26.8 6 0.2
+27.4 6 0.1
+Waist circumference (cm)
+86.0 6 0.1
+86.6 6 0.3
+88.3 6 0.3
+88.8 6 0.5
+89.6 6 0.3
+Waist-to-hip ratio
+0.85 6 0.00
+0.85 6 0.00
+0.86 6 0.00
+0.87 6 0.00
+0.87 6 0.00
+Currently employed (%)
+74.0
+69.0
+65.0
+71.0
+67.0
+University degree (%)
+36.2
+25.6
+24.0
+25.6
+15.7
+Current smokers (%)
+21.5
+19.1
+19.0
+28.2
+35.6
+Cigarettes smoked (no./d)3
+13.9 6 0.1
+14.2 6 0.6
+14.1 6 0.6
+14.6 6 0.9
+17.0 6 0.6
+Former smokers (%)
+32.8
+32.0
+33.4
+31.7
+32.3
+Sports (h/wk)
+3.3 6 0.0
+3.7 6 0.1
+3.7 6 0.1
+3.7 6 0.1
+3.8 6 0.1
+Watching television (h/wk)
+12.8 6 0.0
+13.0 6 0.2
+13.6 6 0.2
+13.9 6 0.4
+15.1 6 0.3
+Total energy intake (kcal/d)
+2055 6 3
+2056 6 19
+2026 6 18
+2038 6 30
+2178 6 22
+Alcohol intake from beverages (g/d)
+15.7 6 0.1
+12.9 6 0.5
+13.8 6 0.5
+15.2 6 0.9
+14.2 6 0.6
+Caffeinated coffee (cups/d)
+2.9 6 0.0
+1.6 6 0.1
+1.3 6 0.1
+1.1 6 0.1
+1.7 6 0.1
+Caffeinated tea (cups/d)
+0.91 6 0.01
+0.67 6 0.05
+0.60 6 0.05
+0.65 6 0.08
+0.68 6 0.06
+Taking vitamin supplement (%)
+19.6
+21.8
+20.8
+21.1
+18.4
+Taking mineral supplement (%)
+14.5
+15.6
+13.8
+17.1
+13.9
+Prevalent hypertension (%)
+36.3
+39.0
+42.6
+40.0
+40.4
+Systolic blood pressure (mm Hg)4
+134.7 6 0.1
+133.8 6 0.7
+136.3 6 0.7
+133.5 6 1.1
+133.6 6 0.8
+Diastolic blood pressure (mm Hg)4
+86.8 6 0.1
+85.8 6 0.4
+87.2 6 0.4
+85.3 6 0.7
+85.9 6 0.5
+1 All values are age- and sex-adjusted means 6 SEs or percentages across coffee consumption categories, except where otherwise noted. One cup was
+deﬁned as 150 mL. EPIC, European Prospective Investigation into Cancer and Nutrition.
+2 Unadjusted means 6 SDs or percentages.
+3 In current smokers only.
+4 n = 18,372.
+904
+FLOEGEL ET AL
+
+T2D may differ between subjects with or without prevalent hy-
+pertension. We furthermore observed an interaction between caf-
+feinated coffee consumption and smoking. Among nonsmokers, an
+inverse association was found between caffeinated coffee con-
+sumption and risk of T2D; among current smokers, this dose-
+dependent inverse association was not observed. Because
+smoking is an established risk factor for T2D, the adverse ef-
+fects of smoking may cancel out the potential beneﬁts of coffee
+consumption on T2D risk. Thus, we speculate that smokers may
+not beneﬁt from coffee consumption in respect of T2D risk.
+We found no association between coffee consumption and
+CVD risk, including MI and stroke, after multivariate adjustment.
+An early meta-analysis of case-control studies found a positive
+association between coffee consumption and MI risk, but only
+few studies adjusted for smoking or alcohol intake (10). Results
+from prospective cohort studies are inconsistent. Some studies
+reported that coffee consumption was independently associated
+with higher risk of MI (16, 17), whereas other studies and recent
+meta-analyses support evidence that there is no harmful relation
+between coffee consumption and CVD mortality (46–48), risk of
+coronary heart disease (19, 49, 50), or speciﬁcally MI risk (51). In
+fact, more recent prospective cohort studies reported an inverse
+association between coffee consumption and risk of stroke (20–
+22). In our crude model, we observed a positive association
+between both caffeinated and decaffeinated coffee consumption
+and CVD risk. This is most likely explained by the unfavorable
+lifestyle of high coffee consumers, especially in respect of smok-
+ing, because smoking itself represents a strong risk factor for CVD.
+In line with our ﬁndings, it was previously observed that the as-
+sociation between coffee consumption and CVD risk may be
+confounded by smoking (52, 53). We observed a positive as-
+sociation between decaffeinated coffee consumption and MI risk,
+in the highest category of 4 cups/d compared with ,1 cup/d.
+An Italian case-control study found a positive association be-
+tween decaffeinated coffee consumption and MI risk (54),
+whereas other studies did not ﬁnd such associations (55). Be-
+cause decaffeinated coffee consumption was not common in our
+population, our results have to be interpreted with caution. A
+TABLE 3
+HRs (and 95% CIs) for the association between caffeinated coffee consumption and incident chronic diseases in EPIC-Germany (n = 42,659)1
+Caffeinated coffee consumption
+,1 cup/d
+1 to ,2 cups/d
+2 to ,3 cups/d
+3 to ,4 cups/d
+4 cups/d
+P-trend
+Per cup/d
+No. of subjects/person-years
+8689/78,974
+3860/34,341
+10,617/93,272
+7356/65,881
+12,137/107,290
+Overall chronic disease
+No. of cases
+871
+336
+979
+627
+1124
+Model 1
+1.00
+0.96 (0.83, 1.11)
+1.02 (0.92, 1.13)
+0.96 (0.85, 1.08)
+0.99 (0.89, 1.09)
+0.735
+1.01 (0.99, 1.02)
+Model 2
+1.00
+0.97 (0.84, 1.13)
+1.03 (0.92, 1.15)
+0.93 (0.82, 1.06)
+0.93 (0.84, 1.04)
+0.149
+0.99 (0.97, 1.01)
+Model 3
+1.00
+0.99 (0.85, 1.14)
+1.03 (0.92, 1.15)
+0.95 (0.84, 1.08)
+0.94 (0.84, 1.05)
+0.206
+0.99 (0.97, 1.01)
+Type 2 diabetes
+No. of cases
+319
+137
+374
+210
+392
+Model 1
+1.00
+0.92 (0.72, 1.16)
+0.93 (0.78, 1.11)
+0.85 (0.70, 1.04)
+0.89 (0.75, 1.06)
+0.134
+1.00 (0.98, 1.03)
+Model 2
+1.00
+0.93 (0.73, 1.19)
+0.92 (0.76, 1.11)
+0.83 (0.67, 1.02)
+0.81 (0.67, 0.98)
+0.019
+0.99 (0.96, 1.02)
+Model 3
+1.00
+0.89 (0.69, 1.16)
+0.92 (0.76, 1.13)
+0.82 (0.65, 1.02)
+0.77 (0.63, 0.94)
+0.009
+0.98 (0.95, 1.01)
+Combined CVD
+No. of cases
+148
+50
+164
+120
+222
+Model 1
+1.00
+0.92 (0.64, 1.32)
+1.07 (0.82, 1.39)
+1.13 (0.85, 1.49)
+1.25 (0.98, 1.59)
+0.043
+1.04 (1.00, 1.07)
+Model 2
+1.00
+0.93 (0.64, 1.35)
+1.08 (0.82, 1.42)
+1.00 (0.74, 1.36)
+1.07 (0.82, 1.40)
+0.569
+1.00 (0.96, 1.04)
+Model 3
+1.00
+0.94 (0.64, 1.36)
+1.07 (0.81, 1.42)
+1.02 (0.75, 1.38)
+1.10 (0.84, 1.44)
+0.435
+1.00 (0.96, 1.04)
+Myocardial infarction
+No. of cases
+88
+24
+79
+70
+133
+Model 1
+1.00
+0.65 (0.39, 1.10)
+0.87 (0.61, 1.24)
+1.07 (0.74, 1.55)
+1.19 (0.87, 1.63)
+0.114
+1.04 (0.99, 1.09)
+Model 2
+1.00
+0.61 (0.36, 1.06)
+0.89 (0.61, 1.29)
+0.92 (0.61, 1.37)
+0.98 (0.69, 1.39)
+0.760
+0.99 (0.94, 1.04)
+Model 3
+1.00
+0.62 (0.36, 1.07)
+0.86 (0.59, 1.25)
+0.91 (0.61, 1.36)
+0.98 (0.69, 1.39)
+0.765
+0.99 (0.94, 1.04)
+Stroke
+No. of cases
+60
+26
+85
+50
+89
+Model 1
+1.00
+1.35 (0.80, 2.27)
+1.41 (0.95, 2.11)
+1.21 (0.78, 1.88)
+1.36 (0.93, 2.01)
+0.207
+1.03 (0.98, 1.09)
+Model 2
+1.00
+1.35 (0.79, 2.31)
+1.35 (0.89, 2.07)
+1.07 (0.67, 1.73)
+1.20 (0.78, 1.83)
+0.708
+1.00 (0.94, 1.06)
+Model 3
+1.00
+1.38 (0.81, 2.38)
+1.39 (0.90, 2.12)
+1.13 (0.70, 1.82)
+1.28 (0.83, 1.95)
+0.488
+1.01 (0.95, 1.07)
+Cancer
+No. of cases
+404
+149
+441
+297
+510
+Model 1
+1.00
+0.99 (0.81, 1.22)
+1.06 (0.91, 1.23)
+0.97 (0.82, 1.15)
+0.97 (0.83, 1.12)
+0.558
+0.99 (0.97, 1.02)
+Model 2
+1.00
+1.01 (0.82, 1.25)
+1.08 (0.92, 1.26)
+0.98 (0.82, 1.18)
+0.97 (0.82, 1.14)
+0.553
+0.99 (0.97, 1.02)
+Model 3
+1.00
+1.01 (0.82, 1.25)
+1.08 (0.92, 1.27)
+0.98 (0.82, 1.18)
+0.97 (0.83, 1.14)
+0.573
+0.99 (0.97, 1.02)
+1 HRs and 95% CIs were calculated by using multivariate Cox proportional hazard regression. Model 1: stratiﬁed by age at recruitment (y) and center
+(Potsdam/Heidelberg) and adjusted for sex. Model 2: adjusted as for model 1 with additional adjustment for smoking (status, duration, and intensity), alcohol
+intake (nonconsumers; women: .0–6, .6–12, or .12 g/d; men: .0–12, .12–24, or .24 g/d), physical activity (average of cycling and sports during
+summer and winter; in h/wk), education (none to primary school, technical to secondary school, or higher education including university), employment (yes or
+no), vitamin and mineral supplement use during past 4 wk (yes or no), total energy intake (kcal/d), tea intake (cups/d), and decaffeinated coffee intake
+(cups/d). Model 3: adjusted as for model 2 with additional adjustment for BMI (kg/m2), waist-to-hip ratio, and prevalent hypertension (yes or no). One cup was
+deﬁned as 150 mL. CVD, cardiovascular disease; EPIC, European Prospective Investigation into Cancer and Nutrition.
+COFFEE CONSUMPTION AND RISK OF CHRONIC DISEASE
+905
+
+plausible explanation for this association is not apparent, be-
+cause caffeine is considered the relevant factor for a possible
+positive association between coffee consumption and MI risk.
+We may not have been able to account for all possible con-
+founders associated with high decaffeinated coffee consumption,
+eg, participants who are already at high CVD risk may choose to
+substitute caffeinated coffee with decaffeinated coffee. There-
+fore, we speculate that residual confounding may cause the as-
+sociation we observed between high decaffeinated coffee
+consumption and increased MI risk. This assumption is sup-
+ported by the fact that when we excluded all cases that occurred
+during the ﬁrst 2 y of follow-up in the sensitivity analysis, the
+positive association between decaffeinated coffee consumption
+and MI risk was attenuated and no longer signiﬁcant. To sum-
+marize, previous studies and our ﬁndings support the concept
+that there may be no harmful effect of coffee on CVD risk per
+se. Insufﬁcient consideration of important CVD risk factors that
+are linked to coffee consumption (particularly smoking) may be
+responsible for the earlier belief that coffee consumption in-
+creased CVD risk.
+In previous studies, coffee consumption has been found to be
+associated with reduced or increased cancer risk, depending on the
+type of cancer and study design. Studies investigating the effect of
+coffee consumption on total cancer risk are rare. A recent meta-
+analysis including data from 59 prospective cohort studies found
+a 3% reduction in overall cancer risk per cup of coffee consumed
+(56). In our study, there was no association between caffeinated or
+decaffeinated coffee consumption and total cancer risk.
+The strength of our study was that we conducted a ﬁrst-event
+analysis taking into account 4 major chronic diseases to determine
+the overall effect of coffee consumption on chronic disease risk and
+additionally tested whether the risk associations may compete with
+each other. Furthermore, we considered caffeinated and de-
+caffeinated coffee as an exposure. We also included a large sub-
+sample of the German population from 2 different regions. Last,
+the prospective design of our study allowed us to investigate time-
+TABLE 4
+HRs (and 95% CIs) for the association between decaffeinated coffee consumption and incident chronic diseases in EPIC-Germany (n = 42,659)1
+Decaffeinated coffee consumption
+,1 cup/d
+1 to ,2 cups/d
+2 to ,3 cups/d
+3 to ,4 cups/d
+4 cups/d
+P-trend
+Per cup/d
+No. of subjects/person-years
+38,628/343,062
+1273/11,500
+1390/12,778
+486/4549
+882/7868
+Overall chronic disease
+No. of cases
+3493
+136
+154
+45
+109
+Model 1
+1.00
+1.18 (0.97, 1.42)
+1.10 (0.92, 1.32)
+0.93 (0.68, 1.28)
+1.31 (1.06, 1.63)
+0.741
+1.05 (1.02, 1.08)
+Model 2
+1.00
+1.13 (0.93, 1.37)
+1.07 (0.89, 1.28)
+0.88 (0.64, 1.21)
+1.17 (0.94, 1.45)
+0.285
+1.02 (0.99, 1.06)
+Model 3
+1.00
+1.12 (0.92, 1.36)
+0.97 (0.81, 1.17)
+0.81 (0.59, 1.12)
+1.05 (0.84, 1.31)
+0.620
+1.00 (0.97, 1.04)
+Type 2 diabetes
+No. of cases
+1262
+46
+71
+18
+35
+Model 1
+1.00
+1.14 (0.82, 1.58)
+1.51 (1.15, 2.00)
+1.06 (0.64, 1.78)
+1.16 (0.78, 1.72)
+0.138
+1.05 (1.00, 1.11)
+Model 2
+1.00
+1.04 (0.74, 1.45)
+1.42 (1.08, 1.88)
+0.96 (0.57, 1.61)
+0.94 (0.63, 1.40)
+0.007
+1.01 (0.96, 1.07)
+Model 3
+1.00
+0.97 (0.68, 1.39)
+1.11 (0.84, 1.48)
+0.70 (0.41, 1.19)
+0.70 (0.46, 1.06)
+0.043
+0.95 (0.90, 1.01)
+Combined CVD
+No. of cases
+621
+28
+27
+6
+22
+Model 1
+1.00
+1.47 (0.95, 2.26)
+1.10 (0.71, 1.71)
+0.76 (0.33, 1.76)
+1.66 (1.03, 2.65)
+0.043
+1.07 (1.00, 1.14)
+Model 2
+1.00
+1.39 (0.89, 2.17)
+1.06 (0.68, 1.66)
+0.73 (0.32, 1.69)
+1.43 (0.88, 2.32)
+0.338
+1.04 (0.97, 1.10)
+Model 3
+1.00
+1.41 (0.91, 2.21)
+1.01 (0.64, 1.58)
+0.73 (0.32, 1.67)
+1.36 (0.84, 2.20)
+0.300
+1.03 (0.96, 1.10)
+Myocardial infarction
+No. of cases
+342
+17
+14
+4
+17
+Model 1
+1.00
+1.71 (0.98, 2.96)
+1.42 (0.81, 2.49)
+0.99 (0.35, 2.75)
+2.26 (1.30, 3.93)
+0.114
+1.12 (1.04, 1.20)
+Model 2
+1.00
+1.58 (0.88, 2.83)
+1.38 (0.77, 2.46)
+0.93 (0.34, 2.58)
+2.03 (1.15, 3.58)
+0.597
+1.09 (1.01, 1.17)
+Model 3
+1.00
+1.59 (0.89, 2.82)
+1.28 (0.72, 2.29)
+0.91 (0.33, 2.50)
+1.90 (1.08, 3.34)
+0.575
+1.08 (1.00, 1.16)
+Stroke
+No. of cases
+279
+11
+13
+2
+5
+Model 1
+1.00
+1.17 (0.58, 2.35)
+0.86 (0.44, 1.67)
+0.52 (0.12, 2.18)
+0.90 (0.36, 2.27)
+0.207
+0.95 (0.83, 1.10)
+Model 2
+1.00
+1.15 (0.56, 2.35)
+0.84 (0.43, 1.66)
+0.51 (0.12, 2.18)
+0.79 (0.31, 2.01)
+0.476
+0.94 (0.81, 1.08)
+Model 3
+1.00
+1.15 (0.56, 2.35)
+0.82 (0.42, 1.61)
+0.51 (0.12, 2.17)
+0.76 (0.30, 1.93)
+0.403
+0.93 (0.80, 1.07)
+Cancer
+No. of cases
+1610
+62
+56
+21
+52
+Model 1
+1.00
+1.11 (0.84, 1.47)
+0.83 (0.62, 1.11)
+0.92 (0.58, 1.45)
+1.30 (0.96, 1.76)
+0.558
+1.03 (0.99, 1.08)
+Model 2
+1.00
+1.13 (0.85, 1.49)
+0.82 (0.61, 1.10)
+0.89 (0.56, 1.42)
+1.27 (0.93, 1.73)
+0.973
+1.03 (0.98, 1.08)
+Model 3
+1.00
+1.12 (0.85, 1.49)
+0.82 (0.61, 1.10)
+0.89 (0.56, 1.42)
+1.27 (0.94, 1.74)
+0.950
+1.03 (0.98, 1.08)
+1 HRs and 95% CIs were calculated by using multivariate Cox proportional hazard regression. Model 1: stratiﬁed by age at recruitment (y) and center
+(Potsdam/Heidelberg) and adjusted for sex. Model 2: adjusted as for model 1 with additional adjustment for smoking (status, duration, and intensity), alcohol
+intake (nonconsumers; women: .0–6, .6–12, or .12 g/d; men: .0–12, .12–24, or .24 g/d), physical activity (average of cycling and sports during
+summer and winter; in h/wk), education (none to primary school, technical to secondary school, or higher education including university), employment (yes or
+no), vitamin and mineral supplement use during past 4 wk (yes or no), total energy intake (kcal/d), tea intake (cups/d), and caffeinated coffee intake (cups/d).
+Model 3: adjusted as for model 2 with additional adjustment for BMI (kg/m2), waist-to-hip ratio, and prevalent hypertension (yes or no). One cup was deﬁned
+as 150 mL. CVD, cardiovascular disease; EPIC, European Prospective Investigation into Cancer and Nutrition.
+906
+FLOEGEL ET AL
+
+dependent exposure-disease associations. However, our study also
+had some limitations. Coffee consumption was assessed by FFQ
+at the time of recruitment and relied on participants’ self-report.
+Nevertheless, data from the Nurses’ Health Study suggest that
+coffee consumption is very stable in an individual over time, be-
+cause it showed the best reproducibility among all food items in
+repeated measures (57). As previously described (58), ﬁltering may
+alter coffee’s metabolic effects. The method of coffee preparation
+was not assessed in our study population, and we were therefore not
+able to study whether the association between coffee consumption
+and chronic disease risk depends on the ﬁltering of coffee. In
+Germany, ﬁltering is the traditional method of coffee preparation
+(59); thus, our ﬁndings most likely apply to ﬁltered coffee. Because
+of the small number of decaffeinated coffee consumers in our
+population, there were also fewer cases for some of the disease
+endpoints. Hence, the associations found will beneﬁt from further
+investigation. Our study sample was drawn from the general
+population; however, because the response rates were low, it
+overrepresents health-conscious people with higher socioeco-
+nomic status (37). Because this was an observational study, we
+can only show associations. Whether these associations represent
+true causal effects has to be conﬁrmed in future studies. Last, it
+has to be noted that we were primarily interested in investigating
+the association between coffee consumption and risk of major
+chronic diseases. We cannot exclude the possibility that coffee con-
+sumption may be associated with risk of certain disease subtypes, eg,
+site-speciﬁc cancers. This should be the focus of future studies.
+In conclusion, our study does not support the hypothesis that
+coffee is detrimental to human health. In fact, we observed an
+inverse association between coffee consumption and T2D risk,
+which challenges the evidence base for current recommendations.
+We speculate that the unfavorable lifestyle characteristics of high
+coffee consumers, especially with respect to smoking, may be re-
+sponsible for the positive association between coffee consumption
+and CVD risk, which was reported in early studies. In addition,
+“coffee and cigarettes” may be an unfavorable combination, which
+requires further investigation.
+We thank all of the EPIC-Germany study participants.
+The authors’ responsibilities were as follows—AF, TP, and HB: study con-
+cept and design; MMB, BT, RK, and HB: data acquisition; AF: data analysis
+and interpretation and draft of the manuscript; and TP, MMB, BT, RK, and
+HB: data interpretation, intellectual input, and critical review of the manu-
+script. All authors read and approved the ﬁnal version of the manuscript. None
+of the authors declared a conﬂict of interest.
+REFERENCES
+1. Grigg D. The worlds of tea and coffee: patterns of consumption. Ge-
+oJournal 2003;57:283–94.
+2. International Coffee Organization. Historical coffee statistics. London,
+United Kingdom: International Coffee Organization, 2008. Available
+from: http://earthtrends.wri.org/searchable_db/results.php?years=-1&
+variable_ID=294&theme=8&cID=62,70,190&ccID= (cited 4 April 2011).
+3. Higdon JV, Frei B. Coffee and health: a review of recent human re-
+search. Crit Rev Food Sci Nutr 2006;46:101–23.
+4. Salter H. On some points in the treatment and clinical history of
+asthma. Edinburgh Med J 1859;4:1109–15.
+5. Jee SH, He J, Whelton PK, Suh I, Klag MJ. The effect of chronic coffee
+drinking on blood pressure: a meta-analysis of controlled clinical trials.
+Hypertension 1999;33:647–52.
+6. Geleijnse JM. Habitual coffee consumption and blood pressure: an
+epidemiological perspective. Vasc Health Risk Manag 2008;4:963–70.
+7. Fried RE, Levine DM, Kwiterovich PO, Diamond EL, Wilder LB, Moy
+TF, Pearson TA. The effect of ﬁltered-coffee consumption on plasma
+lipid levels. Results of a randomized clinical trial. JAMA 1992;267:
+811–5.
+8. Nyga˚rd O, Refsum H, Ueland PM, Stensvold I, Nordrehaug JE, Kvale
+G, Vollset SE. Coffee consumption and plasma total homocysteine: the
+Hordaland Homocysteine Study. Am J Clin Nutr 1997;65:136–43.
+9. Panagiotakos DB, Pitsavos C, Zampelas A, Zeimbekis A, Chrysohoou
+C, Papademetriou L, Stefanadis C. The association between coffee
+consumption and plasma total homocysteine levels: the “ATTICA”
+study. Heart Vessels 2004;19:280–6.
+10. Kawachi I, Colditz GA, Stone CB. Does coffee drinking increase the
+risk of coronary heart disease? Results from a meta-analysis. Br Heart J
+1994;72:269–75.
+11. Greenland S. A meta-analysis of coffee, myocardial infarction, and
+coronary death. Epidemiology 1993;4:366–74.
+12. Panagiotakos DB, Pitsavos C, Chrysohoou C, Kokkinos P, Toutouzas P,
+Stefanadis C. The J-shaped effect of coffee consumption on the risk of
+developing acute coronary syndromes: the CARDIO2000 case-control
+study. J Nutr 2003;133:3228–32.
+13. Mostofsky E, Schlaug G, Mukamal KJ, Rosamond WD, Mittleman
+MA. Coffee and acute ischemic stroke onset: the Stroke Onset Study.
+Neurology 2010;75(18):1583–8.
+14. Baylin A, Hernandez-Diaz S, Kabagambe EK, Siles X, Campos H.
+Transient exposure to coffee as a trigger of a ﬁrst nonfatal myocardial
+infarction. Epidemiology 2006;17:506–11.
+15. Butt MS, Sultan MT. Coffee and its consumption: beneﬁts and risks.
+Crit Rev Food Sci Nutr 2011;51(4):363–73.
+16. Happonen P, Voutilainen S, Salonen JT. Coffee drinking is dose-
+dependently related to the risk of acute coronary events in middle-aged
+men. J Nutr 2004;134(9):2381–6.
+17. LaCroix AZ, Mead LA, Liang KY, Thomas CB, Pearson TA. Coffee
+consumption and the incidence of coronary heart disease. N Engl J
+Med 1986;315:977–82.
+18. SoﬁF, Conti AA, Gori AM, Eliana Luisi ML, Casini A, Abbate R,
+Gensini GF. Coffee consumption and risk of coronary heart disease:
+a meta-analysis. Nutr Metab Cardiovasc Dis 2007;17:209–23.
+19. Wu JN, Ho SC, Zhou C, Ling WH, Chen WQ, Wang CL, Chen YM.
+Coffee consumption and risk of coronary heart diseases: a meta-analysis
+of 21 prospective cohort studies. Int J Cardiol 2009;137(3):216–25.
+20. Lopez-Garcia E, Rodriguez-Artalejo F, Rexrode KM, Logroscino G, Hu
+FB, van Dam RM. Coffee consumption and risk of stroke in women.
+Circulation 2009;119:1116–23.
+21. Larsson SC, Virtamo J, Wolk A. Coffee consumption and risk of stroke
+in women. Stroke 2011;42(4):908–12.
+22. Larsson SC, Mannisto S, Virtanen MJ, Kontto J, Albanes D, Virtamo J.
+Coffee and tea consumption and risk of stroke subtypes in male smokers.
+Stroke 2008;39(6):1681–7.
+23. Goto A, Song Y, Chen BH, Manson JE, Buring JE, Liu S. Coffee and
+caffeine consumption in relation to sex hormone-binding globulin and
+risk of type 2 diabetes in postmenopausal women. Diabetes 2011;60(1):
+269–75.
+24. Schulze MB, Hoffmann K, Boeing H, Linseisen J, Rohrmann S, Mo¨hlig
+M, Pfeiffer AF, Spranger J, Thamer C, Ha¨ring HU, et al. An accurate risk
+score based on anthropometric, dietary, and lifestyle factors to predict the
+development of type 2 diabetes. Diabetes Care 2007;30:510–5.
+25. van Dam RM, Feskens EJ. Coffee consumption and risk of type 2 di-
+abetes mellitus. Lancet 2002;360:1477–8.
+26. Rosengren A, Dotevall A, Wilhelmsen L, Thelle D, Johansson S.
+Coffee and incidence of diabetes in Swedish women: a prospective
+18-year follow-up study. J Intern Med 2004;255:89–95.
+27. Pereira MA, Parker ED, Folsom AR. Coffee consumption and risk of
+type 2 diabetes mellitus: an 11-year prospective study of 28 812 post-
+menopausal women. Arch Intern Med 2006;166:1311–6.
+28. Salazar-Martinez E, Willett WC, Ascherio A, Manson JE, Leitzmann MF,
+Stampfer MJ, Hu FB. Coffee consumption and risk for type 2 diabetes
+mellitus. Ann Intern Med 2004;140:1–8.
+29. Iso H, Date C, Wakai K, Fukui M, Tamakoshi A. The relationship be-
+tween green tea and total caffeine intake and risk for self-reported type 2
+diabetes among Japanese adults. Ann Intern Med 2006;144:554–62.
+30. Johnson S, Koh WP, Wang R, Govindarajan S, Yu MC, Yuan JM. Coffee
+consumption and reduced risk of hepatocellular carcinoma: ﬁndings from
+the Singapore Chinese Health Study. Cancer Causes Control 2011;22:
+503–10.
+31. Tang N, Zhou B, Wang B, Yu R. Coffee consumption and risk of breast
+cancer: a metaanalysis. Am J Obstet Gynecol 2009;200(3):290 e1–9.
+COFFEE CONSUMPTION AND RISK OF CHRONIC DISEASE
+907
+
+32. Turati F, Galeone C, La Vecchia C, Garavello W, Tavani A. Coffee and
+cancers of the upper digestive and respiratory tracts: meta-analyses of
+observational studies. Ann Oncol 2011;22(3):536–44.
+33. van Dam RM. Coffee consumption and risk of type 2 diabetes, cardio-
+vascular diseases, and cancer. Symposium. Appl Physiol Nutr Metab
+2008;33:1269–83.
+34. Tavani A, La Vecchia C. Coffee and cancer: a review of epidemio-
+logical studies, 1990-1999. Eur J Cancer Prev 2000;9(4):241–56.
+35. Lopez-Garcia E. Coffee consumption, myocardial infarction and stroke:
+what is the association? Womens Health (Lond Engl) 2011;7:265–7.
+36. Woodward M, Tunstall-Pedoe H. Coffee and tea consumption in the
+Scottish Heart Health Study follow up: conﬂicting relations with cor-
+onary risk factors, coronary disease, and all cause mortality. J Epi-
+demiol Community Health 1999;53:481–7.
+37. Boeing H, Korfmann A, Bergmann MM. Recruitment procedures of
+EPIC-Germany. European Investigation into Cancer and Nutrition. Ann
+Nutr Metab 1999;43(4):205–15.
+38. Boeing H, Wahrendorf J, Becker N. EPIC-Germany—a source for
+studies into diet and risk of chronic diseases. European Investigation
+into Cancer and Nutrition. Ann Nutr Metab 1999;43(4):195–204.
+39. Bergmann MM, Bussas U, Boeing H. Follow-up procedures in EPIC-
+Germany–data quality aspects. European Prospective Investigation into
+Cancer and Nutrition. Ann Nutr Metab 1999;43(4):225–34.
+40. World Health Organization (WHO). International statistical classiﬁ-
+cation of diseases and related health problems (ICD-10). 10th revision.
+Geneva, Switzerland: WHO, 1992.
+41. Huxley R, Lee CM, Barzi F, Timmermeister L, Czernichow S, Perkovic
+V, Grobbee DE, Batty D, Woodward M. Coffee, decaffeinated coffee,
+and tea consumption in relation to incident type 2 diabetes mellitus:
+a systematic review with meta-analysis. Arch Intern Med 2009;169(22):
+2053–63.
+42. Lunn M, McNeil D. Applying Cox regression to competing risks.
+Biometrics 1995;51:524–32.
+43. Glynn RJ, Rosner B. Comparison of risk factors for the competing risks
+of coronary heart disease, stroke, and venous thromboembolism. Am J
+Epidemiol 2005;162(10):975–82.
+44. American Heart Association. Caffeine-AHA recommendation. Available
+from: http://www.heart.org/HEARTORG/GettingHealthy/NutritionCenter/
+HealthyDietGoals/Caffeine-and-Cardiovascular-Disease_UCM_305888_
+Article.jsp (cited 19 July 2011).
+45. van Dam RM, Hu FB. Coffee consumption and risk of type 2 diabetes:
+a systematic review. JAMA 2005;294:97–104.
+46. Mineharu Y, Koizumi A, Wada Y, Iso H, Watanabe Y, Date C, Yamamoto
+A, Kikuchi S, Inaba Y, Toyoshima H, et al; JACC study group. Coffee,
+green tea, black tea and oolong tea consumption and risk of mortality
+from cardiovascular disease in Japanese men and women. J Epidemiol
+Community Health 2011;65(3):230–40.
+47. Lopez-Garcia E, Rodriguez-Artalejo F, Li TY, Mukamal KJ, Hu FB,
+van Dam RM. Coffee consumption and mortality in women with car-
+diovasculardisease. Am J Clin Nutr 2011;94(1):218–24.
+48. Lopez-Garcia E, van Dam RM, Li TY, Rodriguez-Artalejo F, Hu FB.
+The relationship of coffee consumption with mortality. Ann Intern Med
+2008;148(12):904–14.
+49. Willett WC, Stampfer MJ, Manson JE, Colditz GA, Rosner BA,
+Speizer FE, Hennekens CH. Coffee consumption and coronary heart
+disease in women. A ten-year follow-up. JAMA 1996;275:458–62.
+50. Lopez-Garcia E, van Dam RM, Willett WC, Rimm EB, Manson JE,
+Stampfer MJ, Rexrode KM, Hu FB. Coffee consumption and coronary
+heart disease in men and women: a prospective cohort study. Circu-
+lation 2006;113(17):2045–53.
+51. Rosner SA, Akesson A, Stampfer MJ, Wolk A. Coffee consumption
+and risk of myocardial infarction among older Swedish women. Am J
+Epidemiol 2007;165(3):288–93.
+52. Nilsson LM, Wennberg M, Lindahl B, Eliasson M, Jansson JH, Van
+Guelpen B. Consumption of ﬁltered and boiled coffee and the risk of
+ﬁrst acute myocardial infarction; a nested case/referent study. Nutr
+Metab Cardiovasc Dis 2010;20(7):527–35.
+53. Klatsky AL, Koplik S, Kipp H, Friedman GD. The confounded relation
+of coffee drinking to coronary artery disease. Am J Cardiol 2008;101(6):
+825–7.
+54. La Vecchia C, D’Avanzo B, Negri E, Franceschi S, Gentile A, Tavani
+A. Decaffeinated coffee and acute myocardial infarction. A case-
+control study in Italian women. Ann Epidemiol 1993;3:601–4.
+55. Sesso HD, Gaziano JM, Buring JE, Hennekens CH. Coffee and tea intake
+and the risk of myocardial infarction. Am J Epidemiol 1999;149:162–7.
+56. Yu X, Bao Z, Zou J, Dong J. Coffee consumption and risk of cancers:
+a meta-analysis of cohort studies. BMC Cancer 2011;11:96.
+57. Colditz GA, Willett WC, Stampfer MJ, Sampson L, Rosner B,
+Hennekens CH, Speizer FE. The inﬂuence of age, relative weight,
+smoking, and alcohol intake on the reproducibility of a dietary ques-
+tionnaire. Int J Epidemiol 1987;16:392–8.
+58. Jee SH, He J, Appel LJ, Whelton PK, Suh I, Klag MJ. Coffee con-
+sumption and serum lipids: a meta-analysis of randomized controlled
+clinical trials. Am J Epidemiol 2001;153:353–62.
+59. Weigel T. Daten und Fakten zur Kaffeeindustrie [Data and facts about
+the coffee industry]. Statista, 2011 (in German). Available from: http://
+de.statista.com/statistik/faktenbuch/151/a/branche-industrie-markt/
+lebensmittelindustrie/kaffeeindustrie/ (cited 17 November 2011).
+908
+FLOEGEL ET AL

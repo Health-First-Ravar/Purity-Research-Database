@@ -1,0 +1,1226 @@
+Received: 25 June 2021
+Revised: 28 August 2021
+Accepted: 13 September 2021
+DOI: 10.1111/1750-3841.15938
+C O N C I S E R E V I E W S & H Y P O T H E S E S I N FO O D S C I E N C E
+Assessing the food safety risk of ochratoxin A in coffee: A
+toxicology-based approach to food safety planning
+Melissa M. Heintz1
+Candace L. Doepker2
+Daniele S. Wikoff1
+Scott E. Hawks3
+1 ToxStrategies, Inc., Asheville, North
+Carolina, USA
+2 ToxStrategies, Inc., Newport, Kentucky,
+USA
+3 ToxStrategies, Inc., West Milford, New
+Jersey, USA
+Correspondence
+Melissa M. Heintz,31 College Place,Suite
+B118,Asheville,NC28801,USA.
+Email:mheintz@toxstrategies.com
+Abstract: Under the Food Safety Modernization Act (FSMA) and preventive
+controls (PCs) regulations, food manufacturers must consider whether PCs are
+needed for potential hazards present in food. The mycotoxin ochratoxin A (OTA)
+is considered a chemical hazard under FSMA. It is produced by several fungal
+species and can be present in various agricultural commodities, including cof-
+fee. OTA presents a unique scenario in food safety, because it is known to be a
+potential risk; because heating may destroy it, but not completely; and because
+the hazard profile suggests it is not acutely toxic at the occurrence levels in coffee,
+although at high exposure levels, it is potentially nephrotoxic and carcinogenic in
+animal models. In the absence of US compliance levels, it is important for the risk
+assessor and risk manager to determine whether PCs are warranted. To address
+this complex situation in the coffee industry, we combined food safety and toxi-
+cology risk assessment principles to examine the available information on OTA
+hazard and risk in coffee. Exposure and health-based benchmarks for OTA in
+coffee, established by reviewing peer-reviewed literature, food recall databases,
+and authoritative reviews, resulted in large margins-of-exposure for both single
+and repeated exposure scenarios. Furthermore, no evidence was identified from
+historical data to suggest OTA is acutely toxic in humans from coffee consump-
+tion or other exposure sources. Therefore, findings from this assessment indicate
+that no PC is warranted for US coffee manufactures, based on the low severity
+and likelihood of risk according to margin-of-exposure estimates and historical
+data.
+1
+INTRODUCTION
+The US Food and Drug Administration (FDA) and Food
+Safety Modernization Act (FSMA) require that the food
+industry help the FDA to improve the agency’s capacity
+to prevent foodborne illness outbreaks and reduce food
+risks for consumers. Under this law, food manufacturing
+facilities are expected to prepare food safety plans. The
+food safety plan identifies potential hazards and distin-
+guishes those that require preventive controls to prevent
+foodborne illness or injury (FSPCA, 2016). In particular,
+under the current good manufacturing practice (CGMP),
+hazard analysis (HA), and risk based preventive controls
+for human food regulation (hereinafter referred to as PC
+for Human Food), food manufacturers must have quali-
+fied individuals in place to ensure that food safety plans
+meet regulatory expectations. These individuals, desig-
+nated as preventive control qualified individuals (PCQIs),
+are usually part of a multi-disciplinary team that must per-
+form a HA on their operations to determine whether any
+J. Food Sci. 2021;86:4799–4810.
+© 2021 Institute of Food Technologists R
+⃝
+4799
+wileyonlinelibrary.com/journal/jfds
+
+4800
+SAFETY RISK OF OCHRATOXIN A IN COFFEE
+hazards are associated with the product they manufacture
+that could, without preventive controls (PCs), cause illness
+or injury to the consumer. Putting PCs in place ensures that
+safe products reach the marketplace; the HA is conducted
+to determine whether a PC is required, and the nature
+and role of the PC (FSPCA, 2016). “Preventive Controls are
+defined as those risk-based, reasonably appropriate proce-
+dures, practices and processes that a person knowledge-
+able about the safe manufacturing, processing, packing or
+holding of food would employ to significantly minimize or
+prevent the hazards identified under the hazard analysis
+that are consistent with the current scientific understand-
+ing of safe food manufacturing, processing, packaging or
+holding at the time of analysis” (21 CFR 117.3). PCs require
+monitoring, corrective actions, and verification steps.
+For a commodity such as coffee, it would be expected
+that the PCQI and multi-disciplinary team would consider
+mycotoxins such as ochratoxin A (OTA), because they are
+considered chemical hazards under the HA step of the
+food safety plan creation. OTA was first reported as poten-
+tially being present in green coffee (Levi et al., 1974), and
+is named from the mold Aspergillus ochraceus from which
+it was originally isolated (Studer-Rohr et al., 1995). OTA
+is also produced by some other Aspergillus and Penicil-
+lium species of mold. Prior to harvest, coffee fruit may
+become contaminated with OTA via introduction through
+the flower or an insect invasion (e.g., coffee bore beetle
+[ICO, 2009; FAO, 2006]). During harvest, coffee fruit that
+remains on the ground or is held before processing may be
+subject to conditions that favor mold growth and are likely
+to become contaminated with OTA. Additional opportuni-
+ties for contamination arise during processing, particularly
+for wet processing, as well as during storage, transporta-
+tion, and trading (ICO, 2009; FAO, 2006). Aspergillus is the
+most probable mold species to produce OTA in coffee post-
+harvest (Bucheli & Taniwaki, 2002; Suarez-Quiroz et al.,
+2005), and it is generally recognized that molds associated
+with OTA can be present in coffee at some level, even when
+processors follow good agricultural practices (GAP) and
+good handling practices (GHP) to minimize the likelihood
+of mold growth. OTA has also been found in other agricul-
+tural commodities, including cereals and cereal products,
+pulses, cacao products, nuts, spices, beer, grape juice, dry-
+vine fruits, and wine (EFSA, 2006, 2020; Walker & Larsen,
+2005).
+Under the HA steps, OTA warrants consideration,
+because it is known to cause nephrotoxicity and carcino-
+genicity (FAO/WHO, 1991) and has been classified by the
+International Agency for Research on Cancer (IARC, 1993)
+monographs program in Group 2B (possibly carcinogenic
+to humans). A number of authoritative bodies (EFSA,
+2006, 2020; JECFA, 1995; Kuiper-Goodman et al., 2010)
+have evaluated the potential for OTA to cause health effects
+in humans. These authorities have not identified evidence
+to suggest that OTA is acutely toxic; rather, adverse effects
+have been observed primarily in repeated-dose studies in
+rat, mouse, rabbit, and porcine models. The primary out-
+come of concern relates to renal toxicity and carcinogenic-
+ity following exposures to high doses of OTA in exper-
+imental rodent studies (EFSA, 2020). This identification
+of a potential hazard is the first step in the HA, but the
+amount, likelihood of occurrence, and severity of hazard
+are all also given consideration when deciding whether a
+PC will be required to minimize the occurrence of the haz-
+ard, as opposed to relying on foundational programs such
+as good manufacturing practices (GMPs).
+The supply chain for coffee (like many other agricul-
+tural commodities) is quite complex from farm (origin)
+to table. OTA contamination may occur on the farm, and
+other than good agricultural practices, it is not practical,
+nor is it required, to implement a PC at origin. The quality
+requirements of the green coffee supply chain (e.g., mois-
+ture control and organoleptic evaluation) work to reduce
+defective green coffee beans and concurrently reduce OTA
+levels. Implementing a PC at a food manufacturing site
+is an option, but should not be used unless the hazard
+evaluation determines a PC to be necessary. To determine
+whether hazard control steps should be included in a food
+safety plan, it is critical to differentiate between the “pres-
+ence” and “risk” of a hazard, because implementing a PC
+instead of relying on foundational programs is a signifi-
+cant financial and time commitment on the part of the
+food manufacturer. The HA is intended to focus the man-
+ufacturer on the specific hazards in their entire process for
+which a PC might be needed. The purpose of the HA is not
+to produce PCs for every hazard identified; instead, the HA
+is intended to produce scientifically based justifications for
+an ingredient or processing step, regardless of whether a
+PC is required. This approach is the most pragmatic and
+cost-effective way to reduce food safety risks in the supply
+chain, because it ensures that the manufacturer’s efforts
+correlate with the magnitude of the food safety risks in
+their supply chain.
+One way coffee manufacturers lower the potential for
+OTA to be present is to follow Codex Alimentarius Best
+Practices, which suggests that moisture in green coffee
+stay below 12.5% to reduce the likelihood of mold growth
+(ICO, 2009). Most roasters also include organoleptic eval-
+uation of green coffee, because moldy coffee can neg-
+atively affect taste and aroma attributes. Quality cup-
+ping practices further minimize the likelihood of OTA
+presence in the finished product (ICO, 2005). A 2005
+International Coffee Organization (ICO) guidance docu-
+ment found that the removal of coffee beans with visual
+defects or earthy/moldy aromas reduced the frequency of
+detecting OTA at levels greater than 10 ppb (ICO, 2005).
+ 17503841, 2021, 11, Downloaded from https://ift.onlinelibrary.wiley.com/doi/10.1111/1750-3841.15938, Wiley Online Library on [20/04/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+SAFETY RISK OF OCHRATOXIN A IN COFFEE
+4801
+All of the practices mentioned above are commonly used
+in coffee roasters’ quality control programs. The imple-
+mentation of a PC step would be significantly different
+and more cumbersome than relying on quality control pro-
+grams, which is the more common way that coffee roasters
+currently control for OTA presence.
+Compliance requirements vary by geographic region.
+OTA levels are regulated by some countries, such as the
+European Union (EU) and Vietnam, to a maximum level
+of 5 µg/kg for roasted coffee (Annex of Commission Reg-
+ulation [EC] No. 1881/2006; USDA, 2013). The US has no
+regulation or recommended levels for OTA in food; how-
+ever, the FDA compliance program monitors mycotoxins
+in domestic and imported foods, including OTA. Lab find-
+ings at or below 20 ppb (µg/kg) for OTA in food require no
+further evaluation (FDA, 2016).
+OTA has come to the attention of the US coffee indus-
+try during recent FDA inspections of coffee facilities, when
+suggestions were made regarding the need for a PC for
+OTA. Interestingly, the FDA considers coffee to be a food
+that cannot be consumed without application of the appro-
+priate control on the roasting process (21 CFR 1.507 and
+117.136, paragraph [a], subpart [1]). Requiring a PC for OTA
+in coffee contradicts Section 117.136 of the HA and risk-
+based PC and Section 1.507 of the Foreign Supplier Verifica-
+tion Program (FSVP) rule, because these sections demon-
+strate that the FDA does not consider coffee to have a
+hazard present that requires a manufacturer/processor to
+implement a PC. According to Section 1.507, green cof-
+fee importers are exempt from supplier evaluation and
+approval (21 CFR 1.505), in addition to foreign supplier ver-
+ification activities (21 CFR 1.506), as raw commodities such
+as green coffee are anticipated to undergo further process-
+ing (e.g., roasting) once imported. Although hazard anal-
+ysis for OTA is an important part of the food safety plan
+for coffee, the regulations described above highlight that,
+if OTA were considered by the FDA to require a PC, the
+language (using coffee as an example) included in these
+regulations (21 CFR 1.507 and 21 CFR 117.136) would not
+have been written.
+In light of recent inquiries, we use toxicological princi-
+ples to assess the safety of OTA in coffee by determining the
+likelihood of it occurring at levels that would cause acute
+illness or injury to the consumer. Findings from this assess-
+ment can be used to establish whether a PC for OTA risk
+management is necessary in the US coffee industry.
+2
+MATERIALS AND METHODS
+The potential hazard of OTA in coffee is already recog-
+nized and well documented; therefore, expectations for
+hazard analysis and PC determination, as set forth under
+the PC for Human Food, were implemented. General prac-
+tices stated in the FSPCA PCQI curriculum (Chapter 8;
+FSPCA, 2016) are focused on hazard evaluation, so were
+used as a guideline for our approach herein. These steps
+were used to determine whether OTA has a likelihood of
+being present in coffee at levels that would cause acute ill-
+ness or injury to the consumer. Both exposure and hazard
+data were identified, and safety was assessed by calculat-
+ing the margin of exposure for risk management consider-
+ations.
+2.1
+Identification of exposure and
+occurrence data
+Exposure and occurrence information were identified
+using a variety of sources. The recent authoritative
+review and risk assessment conducted by the Euro-
+pean Food Safety Authority (EFSA) panel on Contami-
+nants in the Food Chain (CONTAM) (2020)—Risk assess-
+ment of ochratoxin A—was a primary source relied
+upon for exposure and hazard information; as part of
+this risk assessment, EFSA compiled exposure informa-
+tion published through 2018, as well as analytical data
+from European national authorities, research institutions,
+academia, food business operators, and other stakehold-
+ers on OTA occurrence levels in foodstuffs (including
+coffee) (EFSA, 2006, 2020). Publicly available databases
+were also reviewed for OTA occurrence and exposure data
+in coffee. These databases included FDA recalls,1 import
+alerts,2 reportable food registry,3 warning letters,4 Cen-
+ters for Disease Control and Prevention (CDC) foodborne
+outbreaks,5 and Europe’s Rapid Alert System for Food
+and Feed (RASFF).6 Additionally, we gathered informa-
+tion from the public literature using targeted searches (July
+23, 2020 and August 20, 2021) of PubMed and Google
+Scholar, on OTA concentrations in green and roasted
+coffee.
+2.2
+Identification of hazard data
+To obtain hazard information made available since
+EFSA’s risk assessment of OTA (EFSA, 2006, 2020), an
+1 https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts
+2 https://www.fda.gov/industry/import-alerts/search-import-alerts
+3 https://www.fda.gov/food/reportable-food-registry-industry/
+reportable-food-registry-annual-report
+4 https://www.fda.gov/inspections-compliance-enforcement-and-cri
+minal-investigations/compliance-actions-and-activities/warning-letters
+5 https://www.cdc.gov/fdoss/annual-reports/index.html
+6 https://webgate.ec.europa.eu/rasff-window/portal/?event=
+SearchForm%26cleanSearch=1
+ 17503841, 2021, 11, Downloaded from https://ift.onlinelibrary.wiley.com/doi/10.1111/1750-3841.15938, Wiley Online Library on [20/04/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+4802
+SAFETY RISK OF OCHRATOXIN A IN COFFEE
+independent and comprehensive literature search was
+conducted to identify studies published after EFSA
+(20207). A search was conducted in PubMed on July
+21, 2020, using the following syntax: (("Ochratoxin A"
+OR 303-47-9[RN]) AND ("2018/01/01″[Date - Publication]:
+"3000″[Date - Publication])). The resulting 667 hits were
+filtered using the data analytics software SWIFT Review
+(Howard et al., 2016) to identify acute or chronic OTA expo-
+sure studies. Titles and abstracts of the remaining 169 arti-
+cles were screened and categorized based on the follow-
+ing criteria: (1) primary research investigating the effects of
+OTA exposure (yes or no); if no, study was excluded from
+further screening, (2) length of exposure—acute (< 96 h),
+subchronic (<6 months), or chronic (>6 months)—and
+(3) type of experimental model used (i.e., in vitro or in
+vivo). Relevant in vivo studies (four acute/short-term, one
+chronic) were analyzed further to determine the effects
+of potential short- and long-term human exposures (Jia
+et al., 2020; Khezri et al., 2018; Stoev, 2020; Zhang et al.,
+2021)
+2.3
+Calculation of risk
+The studies evaluating the underlying mechanisms of
+genotoxicity in EFSA’s (2020) risk assessment of OTA were
+inconclusive as to whether OTA causes DNA damage,
+either directly or indirectly; however, there is clear evi-
+dence of carcinogenic effects (i.e., kidney tumors) of OTA
+in both mice and rats (EFSA, 2006, 2020; Kumar et al.,
+2012, 2013; NTP, 1989). As a result, EFSA (2020) deter-
+mined that a margin-of-exposure (MOE) approach8 was
+needed to characterize the risk of both non-neoplastic and
+neoplastic effects of OTA, following earlier EFSA guid-
+ance on substances that are both genotoxic and carcino-
+genic (EFSA, 2005). Therefore, a similar approach was
+used for this risk assessment, and MOEs for OTA exposure
+resulting from consumption of coffee were calculated by
+comparing exposure to health-based benchmarks. To fully
+address the potential for acute effects or effects following
+single exposures, two scenarios were evaluated: (1) acute
+exposure effects (e.g., lethality, overtly toxic responses) and
+(2) chronic effects that could hypothetically result from
+acute exposures (i.e., carcinogenicity via direct genotoxic
+mechanism).
+7 EFSA (2020) literature search was conducted from 2006 (date of previous
+OTA risk assessment) to July 26, 2018.
+8 MOE = Point of Departure (e.g., NOAEL, BMDL) / Estimated Exposure
+Dose.
+3
+RESULTS AND DISCUSSION
+3.1
+Exposure assessment of OTA in
+coffee
+To determine the likelihood of OTA being present at harm-
+ful levels in coffee, concentrations of OTA in green and
+roasted coffee were identified from the peer-reviewed lit-
+erature. From the studies identified, several quantified
+the percent reduction under different roasting conditions
+(Figure 1). These studies that measured OTA levels in both
+green coffee and roasted coffee are included in Table 1.
+While these data suggest that OTA concentrations in green
+coffee beans are low according to US action levels, the stan-
+dard process of roasting the coffee beans further reduces
+the concentration of OTA (Figure 1). OTA concentrations
+were shown to be decreased by upward of 70% to 90%
+or more, with the percent reduction generally highest at
+higher OTA concentrations in green coffee beans. The
+Codex Alimentarius (ICO, 2009) reported that a 65%–100%
+reduction can be achieved depending on the roasting pro-
+cess.
+Additionally, a number of peer-reviewed publications
+were identified from the literature that characterize OTA
+occurrence levels in coffee (outlined in Table 2). EFSA also
+provided occurrence levels of OTA in coffee in the EU in
+their recent risk assessment of OTA, with an upper-bound
+occurrence level of 0.94 µg/kg (EFSA, 2020). Most rele-
+vant to this safety assessment is a recent risk assessment
+of human dietary exposure to OTA in the United States,
+conducted by Mitchell et al. (2017), in which the upper
+range of occurrence of OTA in coffee was estimated to be
+4.8 µg/kg. The range of OTA concentrations reported in
+coffee (1.7−4.8 µg/kg) by Mitchell et al. (2017) was based
+on data from a variety of foodstuffs purchased around the
+United States in 2012 and 2013.
+In addition to literature searching, we reviewed pub-
+licly available databases to determine whether any evi-
+dence indicates historical OTA concentrations exceeding
+action limits. For historical data from the United States,
+databases were reviewed through the full extent of time
+that they covered, which was 5 to 10 years depending on the
+database. According to the FDA’s databases—including
+recall notices, warning letters, import alerts, reportable
+food registry—as well as the CDC’s foodborne outbreaks
+database, OTA was never listed as the cause of a food safety
+issue in the United States (Table 3). This finding is not sur-
+prising, because FDA merely monitors OTA levels in foods
+and has not prescribed an advisory level, action level, or
+regulatory level (FDA, 2016).
+Due to limited US data from the United States for
+OTA levels in coffee, we also reviewed the EU’s RASFF
+ 17503841, 2021, 11, Downloaded from https://ift.onlinelibrary.wiley.com/doi/10.1111/1750-3841.15938, Wiley Online Library on [20/04/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+SAFETY RISK OF OCHRATOXIN A IN COFFEE
+4803
+F I G U R E 1
+Impact of roasting on ochratoxin A concentrations
+Note: Only studies that quantified the percent reduction of ochratoxin A (OTA) under different roasting conditions are included in figure, it
+does not include data for samples artificially inoculated with OTA
+TA B L E 1
+Ochratoxin A concentrations in green coffee (µg/kg)a
+Description
+N
+Mean
+SD
+Range
+Source
+Arabica green coffee
+22
+NR
+NR
+ND–5.5b
+Micco et al., 1989
+Robusta green coffee
+7
+NR
+NR
+ND–15.0b
+Micco et al., 1989
+Uncleaned Thai robusta green coffee
+50
+7.3
+2.8
+4.0–22.1
+Blanc et al., 1998
+Cleaned green coffee
+6
+6.8
+NR
+4.2–11.7
+Blanc et al., 1998
+Ivory Coast robusta green coffee
+10
+4.9
+3.2
+NR
+van der Stegen et al., 2001
+Uganda robusta green coffee
+NR
+0.9
+NR
+NR
+van der Stegen et al., 2001
+Ivory Coast robusta green coffee
+NR
+9.91
+NR
+NR
+van der Stegen et al., 2001
+Ethiopia Arabica green coffee
+NR
+18.4
+NR
+NR
+van der Stegen et al., 2001
+Green coffee
+NR
+1.99
+0.36
+NR
+Romani et al., 2003
+Green coffee
+NR
+29.3
+5.2
+NR
+Romani et al., 2003
+Green coffee
+NR
+2.82
+0.18
+NR
+Romani et al., 2003
+Green coffee
+NR
+9.64
+1.47
+NR
+Romani et al., 2003
+Arabica "wet" green coffee
+12
+0.06
+NR
+ND–0.12
+Pérez de Obanos et al., 2005
+Arabica "dry" green coffee
+11
+0.2
+NR
+ND–1.63
+Pérez de Obanos et al., 2005
+Abbreviations: ND, non-detect (detection limit not reported); NR, not reported.
+aAs reported; does not include data for inoculated samples.
+bMean of triplicate analyses.
+database, which compiles incident data from EU mem-
+ber states (and Switzerland) and EU border entry stations.
+Incident data is gathered from food-product evaluations
+if local regulatory authorities find a safety or compliance
+issue that may disrupt the EU market. Local authorities
+are required to notify the European Commission (EC), who
+will then determine the severity of the situation and act in
+one of the following ways: (1) send an alert to other mem-
+ber states, (2) reject the food product from entry into the
+EU, or (3) pass the information along as an entry into the
+RASFF database. The first two EC actions for food products
+are labeled as “serious risks,” and typically, the product is
+withdrawn from the market. The third action is considered
+a “less significant risk” and may or may not have regulatory
+ 17503841, 2021, 11, Downloaded from https://ift.onlinelibrary.wiley.com/doi/10.1111/1750-3841.15938, Wiley Online Library on [20/04/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+4804
+SAFETY RISK OF OCHRATOXIN A IN COFFEE
+TA B L E 2
+Examples of peer-reviewed literature on the occurrence levels of ochratoxin A (OTA) in coffee
+Reference
+OTA occurrence
+level(lower–upper range µg/kg)
+Conclusions Re: OTA levels in coffee
+Levi et al., 1974, Study of the occurrence
+of ochratoxin A in green coffee beans
+20 (2 trace samples)80 (1 sample)
+OTA was detected in 3 out of 68 commercial
+green coffee samples (detection
+limit = 20 µg/kg)
+Studer-Rohr et al., 1995, The occurrence
+of ochratoxin A in coffee
+1.2−56.0
+OTA was detected in 13 out of 25 commercial
+green coffee samples received from
+European suppliers
+Romani et al., 2000, Screening on the
+occurrence of ochratoxin A in green
+coffee beans of different origins and
+types
+0−48
+OTA was detected in 106 out of 162 green coffee
+bean samples from Africa (84 samples),
+America (60), and Asia (18). Africa was the
+source of the two highest OTA
+concentrations of 18 and 48 µg/kg
+Otteneder & Majerus, 2001, Ochratoxin
+A (OTA) in coffee: Nation-wide
+evaluation of data collected by German
+Food Control 1995–1999
+<0.23−24.5 (green)
+<0.21−12.1 (roasted)
+A total of 613 samples were collected and
+analyzed by the Official Food Control
+Laboratory between 1995 and 1999
+Lombaer et al., 2002, Survey on Canadian
+retail coffees for ochratoxin A
+<0.1−2.3
+OTA was detected in 42 out of 71 samples of
+roasted coffee gathered from retail outlets
+across Canada
+Jorgensen, 2005, Occurrence of
+ochratoxin A in commodities and
+processed food—A review of EU
+occurrence data
+0.62 (average level)
+Overall mean levels of OTA in 788 roasted
+coffee samples were 0.62 µg/kg according to
+the scientific cooperation on questions
+relating to food (SCOOP)−2 report
+Gopinandhan et al., 2008, Survey on
+ochratoxin A in Indian green coffee
+destined for export
+0.2−13.5
+OTA was detected in 74% of 80 green coffee
+samples, however the overall mean OTA
+concentration was low (2.17 µg/kg)
+Tozlovanu & Pfohl-Leszkowicz, 2010,
+Ochratoxin A in roasted coffee from
+French supermarkets and transfer in
+coffee beverages: Comparison of
+analysis methods
+<0.025−11.9
+OTA content of 30 roasted coffee samples
+purchased from French supermarkets was
+evaluated by two different detection
+methods. In all samples OTA ranged from
+trace (below limit of quantification) up to
+one sample over the European limit
+(11.9 µg/kg)
+Vaclavik et al., 2013, Determination of
+multiple mycotoxins in dietary
+supplements containing green coffee
+bean extracts using
+ultrahigh-performance liquid
+chromatography−tandem mass
+spectrometry (UHPLC-MS/MS)
+<1.0−136.9
+OTA was present in 18 of 50 dietary supplement
+products (incidence 36%)
+Malir et al., 2014, Transfer of ochratoxin
+A into tea and coffee beverages
+0.92 (average level)
+Coffee contributes about 1.81% to 2.52% of the
+tolerable daily intake of OTA
+Mitchell et al., 2017, A risk assessment of
+dietary ochratoxin A in the United
+States
+1.7−4.8
+Current levels of OTA in American foodstuffs
+(coffee included in study) are at levels that
+create a negligible risk for OTA toxicity
+Sueck et al., 2019, Occurrence of the
+ochratoxin A degradation product
+20R-ochratoxin A in coffee and other
+food: An update
+Highest levels measured:
+France = 1.27
+Germany = 2.00 Guatemala = 28.4
+51 instant coffee samples from France,
+Germany, and Guatemala were analyzed by
+HPLC-MS/MS for the presence of OTA, and
+the highest OTA levels were detected in
+coffee from Guatemala
+(Continues)
+ 17503841, 2021, 11, Downloaded from https://ift.onlinelibrary.wiley.com/doi/10.1111/1750-3841.15938, Wiley Online Library on [20/04/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+SAFETY RISK OF OCHRATOXIN A IN COFFEE
+4805
+TA B L E 2
+(Continued)
+Reference
+OTA occurrence
+level(lower–upper range µg/kg)
+Conclusions Re: OTA levels in coffee
+Khaneghah et al., 2019, The
+concentration and prevalence of
+ochratoxin A in coffee and
+coffee-based products: A global
+systematic review, meta-analysis, and
+meta-regression
+Global pooled mean = 3.08−3.34(95%
+confidence interval)
+The lowest and highest concentrations of OTA
+in coffee were observed in Taiwan
+(0.35 µg/kg) and Turkey (79.0 µg/kg),
+respectively. Meta-regression shows that the
+prevalence of OTA in coffee increased
+significantly with increasing poverty and
+decreasing human development index.
+Increases in annual rainfall also significantly
+increased the prevalence of OTA in coffee
+EFSA panel on contaminants in the food
+chain (CONTAM), 2020, Risk
+assessment of ochratoxin A in food
+0.56−0.94
+Sorting and other cleaning procedures have
+been demonstrated to be effective in
+decreasing OTA content in food commodities
+including coffee, through removal of ‘hot
+spot’ contamination
+da Silva et al., 2021, Ochratoxin a levels in
+fermented specialty coffees from
+Caparaó, Brazil: Is it a cause of
+concern for coffee drinkers?
+< 0.19–0.87
+14 fermented coffee samples from local
+producers near Pedra Menina village in
+Caparao, Brazil were evaluated for OTA
+content. All samples were well below the
+European regulatory limit of 5 µg/kg and it
+was concluded that OTA contamination was
+not a concern for fruit-fermented coffees in
+this region
+TA B L E 3
+History of regulatory action or food safety issues concerning ochratoxin A (OTA) in the United States and EU coffee industry
+Product or hazard
+FDA
+recalls
+(cause)
+FDA
+import
+alerts
+FDA
+report-able
+food registry
+FDA
+warning
+letters
+CDC
+food-borne
+illness
+outbreaks
+RASFF alerts and
+border rejectionsa
+Likelihood
+Coffee (in which OTA
+was identified)
+0
+0
+0
+0
+0
+10
+Low
+Ochratoxin A (OTA;
+found in coffee)
+0
+0
+0
+0
+0
+1(54.9)Rb
+1(23.7)G
+1(12.4)R
+1(18.3)R
+1(9.2)R
+1(11)R
+1(39)R
+1(12.3)R
+1(5.9)R
+1(11)R
+Low
+Note: OTA levels reported in this table were “flagged” prior to market; therefore, consumer exposure did not occur.
+aThere were 10 total alerts and border rejections listed for OTA in coffee over 20 years in the EU (data reviewed from March 25, 2001 to March 25, 2021).
+bR, roasted coffee; G, green coffee; #(#.#), number of coffee samples (concentration of OTA measured in coffee sample(s) in µg/kg).
+The scope of these results is limited to green, roast, ground, or whole-bean coffee containing mycotoxins. It does not include coffee mixes, cold-brew beverages,
+or instant coffee.
+consequences. We used the RASFF database to determine
+the likelihood of OTA being present in coffee, because OTA
+levels are regulated by the EU and cannot exceed 5 µg/kg.
+In addition, RASFF also includes a coffee’s country of ori-
+gin if an incident is reported, which is useful in determin-
+ing whether the United States has ever exported coffee to
+the EU with OTA levels exceeding 5 µg/kg.
+The RASFF database was reviewed for notifications
+within the food category of cocoa, cocoa preparations,
+coffee, and tea, from March 25, 2001 to March 25, 2021
+(20-year period). The search yielded a total of 947 notifica-
+tions recorded under this food category; of these, 80 were
+specifically related to mycotoxins. Out of those 80 noti-
+fications, 47 pertained to green or roasted coffee (either
+ 17503841, 2021, 11, Downloaded from https://ift.onlinelibrary.wiley.com/doi/10.1111/1750-3841.15938, Wiley Online Library on [20/04/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+4806
+SAFETY RISK OF OCHRATOXIN A IN COFFEE
+whole-bean or ground). From those 47 notifications, 37
+were labeled as “information” (i.e., less significant risk),
+seven were labeled as “alerts,” and three were labeled as
+“border rejections.” Only the alert and border rejection
+notifications are considered “serious risk” and are subject
+to regulatory action by the EC. The OTA levels measured
+for these “serious risk” notifications are listed in Table 3.
+Of the 10 notifications for OTA in coffee that required reg-
+ulatory action by the EC over a 20-year period, only three
+occurred at concentrations above the FDA’s action level9
+of 20 µg/kg (FDA, 2016), with the highest OTA concen-
+tration occurring at 54.9 µg/kg in coffee (Table 3). Based
+on these results, OTA contributes to an average of one
+alert or border rejection every 2 years in the EU. Further-
+more, when considering how these RASFF data inform
+OTA occurrence in coffee in the United States, it can be
+concluded that, over the past 20 years, there have been zero
+notifications, including border rejections, alerts, informa-
+tion, or information for action, attributed to coffee origi-
+nating from the United States. These findings corroborate
+Mitchell et al.’s (2017) upper range of OTA concentrations
+reported in US coffee of 4.8 µg/kg, and this level is under
+the EU’s OTA regulatory limit of 5 µg/kg.
+Exposure to OTA in coffee for both the total US popula-
+tion and regular consumers was estimated by Mitchell et al.
+(2017) using the “What We Eat in America” database (EPA,
+2012) and mean and 95th percentile OTA occurrence lev-
+els in coffee. Resulting estimates for OTA intake from cof-
+fee consumed by adults were 0.05 ng/kg-day (mean) and
+0.12 ng/kg-day (95th percentile). Furthermore, when using
+the 95th percentile US consumption rate for adult coffee
+consumers (0.4 g coffee/kg-day, as described in Mitchell
+et al., 2017) to estimate OTA intake from coffee for the high-
+est OTA concentration identified by RASFF, 54.9 µg/kg,
+OTA intake is estimated to be 21.9 ng/kg-day. Mitchell
+et al.’s (2017) estimates for adult OTA intake from coffee
+were used in the risk characterization described herein,
+because the data are focused on US exposures.
+3.2
+Scenario 1: acute exposure and
+effects
+3.2.1
+Hazard characterization for scenario 1
+EFSA (2020) concluded that acute toxicity was not a crit-
+ical effect for the hazard assessment of OTA. Evidence
+of acute effects of OTA in laboratory animals was deter-
+mined to be limited, and no acute effects on exposure to
+9 FDA’s action level for OTA within their mycotoxin monitoring program
+includes coffee beans, cereals, soya-based baby products, dried beans,
+raisins, dried figs, and ground ginger.
+OTA were identified in humans. With respect to lethality,
+the lowest reported LD50 was 0.2 mg/kg in dog, while the
+LD50 values for rat neonate and pig were 3.9 and 1 mg/kg,
+respectively, according to literature compiled by JECFA
+(FAO/WHO, 1991). An earlier assessment by EFSA (2006)
+also identified a study using gavage doses of OTA at 17 or
+22 mg/kg in male rats (notably higher doses than reported
+LD50 values); multifocal hemorrhages and fibrin thrombi,
+as well as hepatic and lymphoid necrosis and villous atro-
+phy in the jejunum were reported (Albassam et al., 1987; as
+reported by EFSA, 2020). EFSA (2020) did not identify any
+additional studies of relevance regarding the acute toxic-
+ity of OTA. In the independent literature search, only one
+study in a non-mammalian species was identified, which
+reported on acute effects (e.g., lethality and overt toxicity).
+The LC50 of 0.6 µM (or 0.246 mg/kg) in zebrafish larvae
+reported in this study was not considered relevant to this
+assessment, due to the use of a non-mammalian model
+(Khezri et al., 2018).
+3.2.2
+Risk assessment for scenario 1
+All estimates of exposure to OTA in coffee in the United
+States are orders of magnitude lower than the LD50 values
+identified and noted above. Specifically, the US 95th per-
+centile exposure to OTA in coffee (0.12 ng/kg-day; Mitchell
+et al., 2017) is equivalent to 0.00000012 mg/kg-day, result-
+ing in an MOE greater than 1,000,000 when using the low-
+est LD50 (0.2 mg/kg in dog; FAO/WHO, 1991), thus demon-
+strating a lack of concern for lethality. For example, an
+adult weighing 70 kg would have to consume over 410,000
+servings of coffee, each made with 7 g of coffee contain-
+ing an OTA level of 4.8 µg/kg (the upper range of OTA
+occurrence in US coffee), to reach the lowest level associ-
+ated with lethality of OTA in mammals (0.2 mg/kg in dog;
+FAO/WHO, 1991). Moreover, when considering exposure
+to OTA in coffee at the highest concentration measured by
+RASFF (54.9 µg/kg, one-time occurrence), estimated to be
+21.9 ng/kg-day (using 95th percentile US coffee consump-
+tion rate), compared to the lowest LD50 (0.2 mg/kg in dog;
+FAO/WHO, 1991), the resulting MOE is slightly less than
+the safety threshold for genotoxic compounds of 10,000
+(MOE = 9132). Despite this MOE being slightly under the
+threshold for genotoxic compounds, it still demonstrates
+a lack of concern for lethality, as RASFF incident data is
+gathered from food-product evaluations before the product
+even gets to the EU market (see Exposure Assessment sec-
+tion above) and this higher OTA concentration occurred as
+a single instance. No MOE was calculated for non-lethal
+acute effects, because the single study available (Albassam
+et al., 1987) used dose levels higher than the lowest LD50
+ 17503841, 2021, 11, Downloaded from https://ift.onlinelibrary.wiley.com/doi/10.1111/1750-3841.15938, Wiley Online Library on [20/04/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+SAFETY RISK OF OCHRATOXIN A IN COFFEE
+4807
+values, and thus, lethality was considered herein to be the
+most sensitive acute effect.
+3.3
+scenario 2: chronic effects from
+single or repeated exposures
+3.3.1
+Hazard characterization for scenario 2
+In conducting their risk assessment and determining
+health-based comparison values for OTA, EFSA (2020)
+identified both neoplastic and non-neoplastic effects on
+the kidney as the most sensitive endpoints. When calcu-
+lating the specific health-based benchmark for neoplastic
+effects, EFSA (2020) did not rule out direct DNA damage.
+Because direct DNA damage is fundamentally considered
+a “one-hit” or single-event type of response, a linear
+approach is used herein to determine a health-based
+benchmark, rather than using a threshold-based value
+(i.e., a non-linear relationship between exposure and
+response). The resulting value of 14.5 µg/kg-day was calcu-
+lated by EFSA (2020) based on the benchmark dose lower
+confidence limit (BMDL10) from a two-year carcinogenic-
+ity study in rats. This EFSA value is recognized as being
+protective of carcinogenic effects that could result from
+genotoxicity associated with acute or chronic exposure.
+Other health-based benchmark values for OTA include
+Health Canada’s proposed maximum limit of 4 ng/kg-day
+(Kuiper-Goodman et al., 2010), which is also based on a
+non-threshold approach (and is thus more comparable
+to EFSA based on the manner in which it was derived),
+or JECFA’s provisional tolerable weekly intake (PTWI)
+of 100 ng/kg-week, which is based on a non-genotoxic,
+threshold-based approach (and is thus less comparable to
+EFSA). Both Health Canada’s and JECFA’s health-based
+benchmark values contain built-in safety factors, which is
+why both are lower than EFSA’s value.
+Only one additional chronic study (20 months) for OTA
+was identified in the independent literature search. Stoev
+(2020) reported increased neoplastic effects in the kidney,
+liver, and intestines of rats at 10 mg/kg-day (the only con-
+centration tested) compared to controls. Two studies were
+identified evaluating short-term (7 days) exposure effects
+of OTA in rodents, in which authors reported nephro-
+toxicity and proximal tubule epithelial cell injury in rats
+(Zhang et al., 2021) and decreased fertility due to oxidative
+stress and epigenetic changes in mice (Jia et al., 2020) at
+concentrations greater than 1 mg/kg. Of all the studies
+available that investigated the chronic effects of OTA, it
+was determined that the two-year bioassay employed by
+EFSA (2020) was the most conservative and was also the
+highest in quality and relevance for the risk assessment
+herein.
+TA B L E 4
+Food safety matrix for ochratoxin A (OTA) in coffee
+Hazard
+Likelihooda
+Severityb
+Food safety risk
+Ochratoxin A
+Low
+Low
+Low
+aEstimated from Tables 1–3.
+bEstimated from Sections 3.2 and 3.3.
+3.3.2
+Risk assessment for scenario 2
+An MOE of 10,000 was required by EFSA (2020) to pro-
+tect against potential genotoxic events, because direct DNA
+damage is fundamentally considered a “one-hit” or single-
+event type of response. We used a similar approach herein
+when calculating the MOE, to assess potential risk asso-
+ciated with exposure to OTA following the consumption
+of coffee. Specifically, the MOE was calculated (see Equa-
+tion 1) using the most conservative neoplastic reference
+point—EFSA’s BMDL10 of 14.5 µg/kg-day (EFSA, 2020)—
+and the 95th percentile OTA exposure level from coffee
+consumed by adults in the United States—0.00012 µg/kg-
+day (Mitchell et al., 2017). The resulting MOE of 120,833 is
+substantially greater than 10,000 and is protective of geno-
+toxic and neoplastic effects from single or repeated expo-
+sures.
+MOE
+= Benchmark Dose Lower Confidence Limit (BMLD10)
+p95 Coffee Consumption
+=
+14.5
+𝑢𝑔
+𝑘𝑔𝑏𝑤∕day
+0.00012
+𝑢𝑔
+𝑘𝑔𝑏𝑤∕day
+= 120, 833
+(1)
+Additionally, a comparison of Mitchell et al.’s (2017)
+OTA exposure level to other benchmark values that con-
+tain safety factors, such as those of Health Canada10 and
+JECFA11, produces acceptable margins of safety (MOSs)
+greater than one for exposure to OTA in coffee. Similarly,
+in terms of food safety, Table 4 illustrates a food safety risk
+matrix that accounts for the likelihood (i.e., occurrence)
+and severity (i.e., hazard) of OTA in coffee, to determine
+the food safety risk of OTA in coffee. The general consen-
+sus of EFSA (2006, 2020), Mitchell et al. (2017), and others
+(Kolakowski et al., 2016; Tam et al., 2011) is that coffee is
+not a major contributor to OTA levels in the human diet,
+and OTA does not pose a significant risk in the human diet
+overall.
+10 For Health Canada’s proposed maximum limit of 4 ng/kg-day,
+MOS = 33 (4 ng/kg-day/0.12 ng/kg-day (Mitchell et al., 2017).
+11 For JEFCA’s PTWI of 100 ng/kg-week, MOS = 119 ((100 ng/kg-week/7
+days)/0.12 ng/kg-day (Mitchell et al., 2017)).
+ 17503841, 2021, 11, Downloaded from https://ift.onlinelibrary.wiley.com/doi/10.1111/1750-3841.15938, Wiley Online Library on [20/04/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+4808
+SAFETY RISK OF OCHRATOXIN A IN COFFEE
+4
+CONCLUSION
+Independent review of the recent literature corroborates
+EFSA’s (2020) conclusion that acute and chronic toxicity
+were of no concern based on occurrence and consumer
+exposure levels of OTA. Furthermore, our independent
+literature search did not identify any new studies that
+would affect EFSA’s determination. No evidence was iden-
+tified to suggest that OTA is acutely toxic in humans from
+consumption of coffee or other exposure sources. Large
+MOE values were determined for each scenario evaluated,
+demonstrating that measured levels of OTA in coffee pose
+only a low (de minimis) risk to the consumer following
+either single or repeated exposures. The conclusions of
+this risk assessment can be used to support coffee industry
+food safety plans, indicating that severity and likelihood
+of risk are low and do not require a preventive control for
+OTA.
+AC K N OW L E D G M E N T
+The authors thank their sponsors, the National Coffee
+Association (NCA), for their support in the preparation of
+this manuscript.
+AU T H O R C O N T R I B U T I O N S
+Melissa M. Heintz collected the information and drafted
+the manuscript with support from Candace L. Doepker and
+Scott E. Hawks. Melissa M. Heintz and Daniele S. Wikoff
+provided expertise on toxicology and risk assessment. Can-
+dace L. Doepker and Scott E. Hawks provided expertise on
+food safety plans and hazard analysis, as well as perspec-
+tive on preventive controls.
+C O N F L I C T O F I N T E R E S T
+Melissa M. Heintz, Candace L. Doepker, Daniele S. Wikoff,
+and Scott E. Hawks are scientists at ToxStrategies, a scien-
+tific consulting company. The funders (NCA) were given
+the opportunity to review the draft manuscript; the pur-
+pose of this review was to allow input on the clarity of the
+science presented, but not on interpretation of the research
+findings. The researchers’ scientific conclusions and pro-
+fessional judgments were not subject to the funders’ con-
+trol; the contents of this manuscript reflect solely the view
+of the authors.
+O RC I D
+MelissaM. Heintz
+https://orcid.org/0000-0002-8931-
+617X
+R E F E R E N C E S
+Albassam, M. A., Yong, S. I., Bhatnagar, R., Sharma, A. K., & Prior,
+M. G. (1987). Histopathologic and electron microscopic studies on
+the acute toxicity of ochratoxin A in rats. Veterinary Pathology, 424,
+427–435.
+Blanc, M., Pittet, A., Muñoz-Box, R., & Viani, R. (1998). Behavior of
+ochratoxin a during green coffee roasting and soluble coffee manu-
+facture. Journal of Agriculture and Food Chemistry, 46(2), 673–675.
+Bucheli, P., & Taniwaki, M. H. (2002). Research on the origin, and
+on the impact of post-harvest handling and manufacturing on the
+presence of ochratoxin A in coffee. Food Additives and Contami-
+nants, 19(7), 655–665.
+Costa da Silva, M., da Silva G de Castro, E., do N Barreto, J., de Oliveira
+Martins, P. V., da Silva, G. L., da Silva, R. F., Dos Santo, D. G.,
+Freitas-Silva, O., Simão, J. B. P., da Silva Junior, A. I., & Netto, A. D.
+P. (2021). Ochratoxin A levels in fermented specialty coffees from
+Caparaó, Brazil: Is it a cause of concern for coffee drinkers? Food
+Additives and Contaminants, Part A Chem Anal Control Expo Risk
+Assess, 1–10.
+de Obanos, A. P., González-Peñas, E., & De Cerain, A. L. (2005). Influ-
+ence of roasting and brew preparation on the ochratoxin A content
+in coffee infusion. Food Additives and Contaminants, 22(5), 463–
+471.
+EFSA (European Food Safety Authority). (2005). Opinion of the sci-
+entific committee on a request from EFSA related to a harmonised
+approach for risk assessment of substances which are both geno-
+toxic and carcinogenic. EFSA Journal, 3(10), 33. https://doi.org/10.
+2903/j.efsa.2005.282
+EFSA (European Food Safety Authority). (2006). Opinion of the sci-
+entific panel on contaminants in the food chain on a request from
+the commission related to ochratoxin A in food. EFSA Journal,
+4(6), 56. https://doi.org/10.2903/j.efsa.2006.365
+EFSA CONTAM Panel (EFSA Panel on Contaminants in the Food
+Chain). (2020). Scientific opinion on the risk assessment of ochra-
+toxin A in food. EFSA Journal, 18(5), 150. https://doi.org/10.2903/
+j.efsa.2020.6113
+EPA (US Environmental Protection Agency). (2012). What we eat in
+America—Food Commodity Intake Database 2005–10. http://fcid.
+foodrisk.org/percentiles.php
+FAO (Food and Agricultural Organization of the United Nations).
+(2006). Safer coffee. Spotlight Magazine. http://www.fao.org/
+FAO/WHO (Food and Agricultural Organization/World Health
+Organization). (1991). Evaluation of certain food additives and
+contaminants (thirty-seventh report of the Joint FAO/WHO
+Expert Committee on Food Additives). WHO Technical Report
+Series, No. 806 and corrigenda.
+FDA (US Food and Drug Administration). (2016). Mycotoxins in
+domestic and imported foods FY 15/16. Compliance Program Guid-
+ance Manual. Program number: 7307.001.
+FSPCA
+(Food
+Safety
+Preventive
+Controls
+Alliance).
+(2016).
+Preventive
+controls
+for
+human
+food,
+training
+curriculum.
+First
+Edition
+–
+2016.
+https://d1vy0qa05cdjr5.cloudfront.net/
+c6f30ca0-84ae-4613-bec0-5439702d4b9e/Instructor%
+20Resource%20Portal/FSPCA%20PC%20Course%20Participant%
+20Manual_V1.2_public.pdf
+Gopinandhan, T. N., Kannan, G. S., Panneerselvam, P., Vel-
+mourougane, K., Raghuramulu, Y., & Jayarama, J. (2008). Sur-
+vey on ochratoxin A in Indian green coffee destined for export.
+Food Additives and Contaminants, Part B Surveillance, 1(1), 51–
+57.
+Howard, B. E., Phillips, J., Miller, K., Tandon, A., Mav, D., Shah, M.
+R., Holmgren, S., Pelch, K. E., Walker, V., Rooney, A. A., MacLeod,
+ 17503841, 2021, 11, Downloaded from https://ift.onlinelibrary.wiley.com/doi/10.1111/1750-3841.15938, Wiley Online Library on [20/04/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+SAFETY RISK OF OCHRATOXIN A IN COFFEE
+4809
+M., & Thayer, K. (2016). SWIFT Review: A text-mining workbench
+for systematic review. Systematic Reviews, 5(1), 87.
+IARC (International Agency for Research on Cancer). (1993). Mono-
+graphs on the evaluation of carcinogenic risks to humans: Some
+naturally occurring substances: Food items and constituents, het-
+erocyclic aromatic amines and mycotoxins. International Agency
+for Research on Cancer, 56, 1–599.
+ICO (International Coffee Organization). (2005). OTA risk manage-
+ment. Guidelines for green coffee buying. ED 1939/05. http://www.
+ico.org/documents/ed1939e.pdf
+ICO (International Coffee Organization). (2009). Code of practice:
+Prevention and reduction of ochratoxin A contamination in coffee.
+CAC/RCP 69-2009. http://www.ico.org/documents/ed-2074e-ota.
+pdf
+JECFA (Joint FAO/WHO Expert Committee on Food Additives).
+(1995). Evaluation of certain food additives and contaminants.
+Ochratoxin A. WHO Technical Report Series 859. http://apps.who.
+int/iris/bitstream/10665/37246/1/WHO_TRS_859.pdf
+Jia, H., Jia, C., An, Q., Cheng, Y., Jiang, X., Xu, Y., Zhao, R., Peng, W.,
+Zhang, Y., & Su, J. (2020). Ochratoxin A exposure causes meiotic
+failure and oocyte deterioration in mice. Theriogenology, 148, 236–
+248. https://doi.org/10.1016/j.theriogenology.2019.11.005
+Jørgensen, K. (2005). Occurrence of ochratoxin A in commodities and
+processed food—A review of EU occurrence data. Food Additives
+and Contaminants, 22(1), 26–30.
+Khaneghah, A. M., Fakhri, Y., Abdi, L., Coppa, C. F. S. C., Franco, L.
+T., & de Oliveira, C. A. F. (2019). The concentration and prevalence
+of ochratoxin A in coffee and coffee-based products: A global sys-
+tematic review, meta-analysis, and meta-regression. Fungal Biol-
+ogy, 123(8), 611–617.
+Khezri, A., Herranz-Jusdado, J. G., Ropstad, E., & Fraser, T. W. (2018).
+Mycotoxins induce developmental toxicity and behavioural aber-
+rations in zebrafish larvae. Environmental Pollution, 242(Pt A),
+500.
+Kolakowski, B., O’Rourke, S. M., Bietlot, H. P., Kurz, K., & Aweryn, B.
+(2016). Ochratoxin A concentrations in a variety of grain-based and
+non-grain-based foods on the Canadian retail market from 2009 to
+2014. Journal of Food Protection, 79(12), 2143–2159.
+Kuiper-Goodman, T., Hilts, C., Billiard, S. M., Kiparissis, Y., Richard,
+I. D., & Hayward, S. (2010). Health risk assessment of ochratoxin
+A for all age-sex strata in a market economy. Food Additives and
+Contaminants, 27, 212–240.
+Kumar, R., Alam, S., Chaudhari, B. P., Dwivedi, P. D., Jain, S. K.,
+Ansari, K. M., & Das, M. (2013). Ochratoxin A-induced cell pro-
+liferation and tumor promotion in mouse skin by activating the
+expression of cyclin-D1 and cyclooxygenase-2 through nuclear
+factor-kappa B and activator protein-1. Carcinogenesis, 34, 647–657.
+https://doi.org/10.1093/carcin/bgs368
+Kumar, R., Ansari, K. M., Chaudhari, B. P., Dhawan, A., Dwivedi, P.
+D., Jain, S. K., & Das, M. (2012). Topical application of ochratoxin
+A causes DNA damage and tumor initiation in mouse skin. PLOS
+One, 7, e47280. https://doi.org/10.1371/journal.pone.0047280
+Levi, C., Prenk, H., & Mohr, H. K. (1974). Study of the occurrence of
+ochratoxin A in green coffee beans. Journal of the Association of
+Analytical Chemists, 57, 866–870.
+Lombaert, G. A., Pellaers, P., Chettiar, M., Lavalee, D., Scott, P. M., &
+Lau, B. P. (2002). Survey of Canadian retail coffees for ochratoxin
+A. Food Additives and Contaminants, 19(9), 869–877.
+Malir, F., Ostry, V., Pfohl-Leszkowicz, A., Toman, J., Bazin, I., &
+Roubal, T. (2014). Transfer of ochratoxin A into tea and cof-
+fee beverages. Toxins, 6(12), 3438–3453. https://doi.org/10.3390/
+toxins6123438
+Micco, C., Grossi, M., Miraglia, M., & Brera, C. (1989). A study of the
+contamination by ochratoxin A of green and roasted coffee beans.
+Food Additives and Contaminants, 6(3), 333–339.
+Mitchell, N. J., Chen, C., Palumbo, J. D., Bianchini, A., Cappozzo, J.,
+Stratton, J., Ryu, D., & Wu, F. (2017). A risk assessment of dietary
+ochratoxin A in the United States. Food Chemistry and Toxicology,
+100, 265–273. https://doi.org/10.1016/j.fct.2016.12.037
+NTP (National Toxicology Program). (1989). Toxicology and carcino-
+genesis studies of ochratoxin A (CAS No. 303-47-9) in F344/N
+rats (gavage studies). National Toxicology Programme, Technical
+Reports Series, 358, 1–142.
+Otteneder, H., & Majerus, P. (2001). Ochratoxin A (OTA) in coffee:
+Nation-wide evaluation of data collected by German Food Control
+1995–1999. Food Additives & Contaminants, 18(5), 431–435.
+Romani, S., Pinnavaia, G. G., & Rosa, M. D. (2003). Influence of roast-
+ing levels on ochratoxin a content in coffee. Journal of Agricultural
+and Food Chemistry, 51(17), 5168–5171.
+Romani, S., Sacchetti, G., López, C. C., Pinnavaia, G. G., & Rosa, M.
+D. (2000). Screening on the occurrence of ochratoxin A in green
+coffee beans of different origins and types. Journal of Agricultural
+and Food Chemistry, 48(8), 3616–3619.
+Stoev, S. D. (2020). Long term preliminary studies on toxic and
+carcinogenic effect of individual or simultaneous exposure to
+ochratoxin A and penicillic acid in mice. Toxicon, 184, 192–201.
+https://doi.org/10.1016/j.toxicon.2020.06.013
+Studer-Rohr, I., Dietrich, D. R., Schlatter, J., & Schlatter, C. (1995). The
+occurrence of ochratoxin A in coffee. Food and Chemical Toxicol-
+ogy, 33(3), 341–344.
+Suarez-Quiroz, M., Gonzalez-Rios, O., Barel, M., Guyot, B., Schorr-
+Galindo, S., & Guiraud, J. P. (2005). Effect of the post-harvest pro-
+cessing procedure on OTA occurrence in artificially contaminated
+coffee. International Journal of Food Microbiology, 103(3), 339–345.
+Sueck, F., Hemp, V., Specht, J., Torres, O., Cramer, B., & Humpf, H. U.
+(2019). Occurrence of the ochratoxin A degradation product 2’R-
+ochratoxin A in coffee and other food: An update. Toxins, 11(6),
+329. https://doi.org/10.3390/toxins11060329
+Tam, J., Pantazopoulos, P., Scott, P. M., Moisey, J., Dabeka, R. W., &
+Richard, I. D. K. (2011). Application of isotope dilution mass spec-
+trometry: Determination of ochratoxin A in the Canadian total diet
+study. Food Additives and Contaminants, 28(6), 754–761.
+Tozlovanu, M., & Pfohl-Leszkowicz, A. (2010). Ochratoxin A in
+roasted coffee from French supermarkets and transfer in coffee
+beverages: Comparison of analysis methods. Toxins, 2(8), 1928–
+1942.
+USDA (United States Department of Agriculture) Foreign Agricul-
+tural Service. (2013). Technical regulations on mycotoxin and
+heavy metals MRLs in foods. Vietnam National Technical Regu-
+lation. GAIN Report Number: VM3070.
+Vaclavik, L., Vaclavikova, M., Begley, T. H., Krynitsky, A. J., & Rader,
+J. I. (2013). Determination of multiple mycotoxins in dietary
+supplements
+containing
+green
+coffee
+bean
+extracts
+using
+ultrahigh-performance
+liquid
+chromatography-tandem
+mass
+spectrometry (UHPLC-MS/MS). Journal of Agricultural and Food
+Chemistry, 61(20), 4822–4830. https://doi.org/10.1021/jf401139u
+ 17503841, 2021, 11, Downloaded from https://ift.onlinelibrary.wiley.com/doi/10.1111/1750-3841.15938, Wiley Online Library on [20/04/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+4810
+SAFETY RISK OF OCHRATOXIN A IN COFFEE
+van der Stegen, G. H. D., Essens, P. J. M., & ver der Lijn, J. (2001).
+Effect of roasting conditions on reduction of ochratoxin A in
+coffee. Journal of Agricultural and Food Chemistry, 49, 4713–
+4715.
+Walker, R., & Larsen, J. C. (2005). Ochratoxin A: Previous risk assess-
+ments and issues arising. Food Additives and Contaminants, 22(s1),
+6–9.
+Zhang, B., Li, H., Zhu, L., He, X., Luo, H., Huang, K., & Xu,
+W. (2021). Single-cell transcriptomics uncovers potential marker
+genes of ochratoxin A-sensitive renal cells in an acute toxicity
+rat model. Cell Biology and Toxicology, 37, 7–13. https://doi.org/10.
+1007/s10565-020-09531-7
+How to cite this article: Heintz, M. M., Doepker,
+C. L., Wikoff, D. S., & Hawks, S. E. (2021). Assessing
+the food safety risk of ochratoxin A in coffee: A
+toxicology-based approach to food safety planning.
+J Food Sci. 2021;86:4799–4810.
+https://doi.org/10.1111/1750-3841.15938
+ 17503841, 2021, 11, Downloaded from https://ift.onlinelibrary.wiley.com/doi/10.1111/1750-3841.15938, Wiley Online Library on [20/04/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

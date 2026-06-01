@@ -1,0 +1,946 @@
+Chapter 98 
+ 
+ 
+Furan in Coffee Products: A Probabilistic 
+Exposure Estimation 
+Dirk W. Lachenmeier1,2 
+1Chemisches und Veterinäruntersuchungsamt (CVUA) Karlsruhe, Karlsruhe, Baden-Württemberg, Germany; 
+2Ministry of Rural Affairs and Consumer Protection, Stuttgart, Baden-Württemberg, Germany 
+ 
+ 
+ 
+ 
+ 
+List of Abbreviations 
+IARC  International Agency for Research on Cancer 
+WHO  World Health Organization 
+JECFA  Joint FAO/WHO Expert Committee on Food Additives 
+EFSA  European Food Safety Authority 
+NVS II  Nationale Verzehrsstudie II (second national nutrition survey) 
+bw  Body weight 
+BMD  Benchmark dose 
+BMDL10  BMD  lower  confidence  limit  for  a  benchmark  response 
+of 10% 
+ 
+ 
+98.1 INTRODUCTION 
+ 
+Furan  is  a colorless  liquid  with  an  ether-like  
+odor, which is highly lipophilic and also volatile, with a 
+boil- ing  point  at  31 °C.1–3  Furan  is  carcinogenic  to  
+rats  and mice,4   and  the  International  Agency  for  
+Research  on Cancer (IRAC) of the World Health 
+Organization (WHO) classified the compound into 
+group 2B as “possibly car- cinogenic  to  humans.”5,6   In  
+their  risk  assessment,  the Joint FAO/WHO Expert 
+Committee on Food Additives (JECFA)  considered  that  
+furan  is  a  carcinogenic  com- pound with a potentially 
+genotoxic metabolite, and pos- tulated a human health 
+concern in its risk assessment.7 
+The existence of furan in coffee has long been 
+known.3 
+Furan as a component of the flavor of coffee was chemi- 
+cally  detected  by  Johnston  and  Frey  in  1938,8  
+whereas 
+Merritt et  al.  and  Radtke  et  al.  accomplished  the  
+first 
+chromatographic  analysis  in  1963.9–11   Since  2004,  the 
+European Food Safety Authority (EFSA) collected moni- 
+toring data on furan in Europe, with the aim to create 
+a  database  for  the  health  risk  assessment.  The  latest 
+update  in  2011  covers  a  total  of  5050  analytical  
+results 
+for  furan  content  from  20  countries  and  confirms  
+that higher concentrations only occur in products 
+subjected to thermal treatment, such as roasted coffee 
+beans and coffee, which had the highest furan levels 
+from all ana- lyzed food groups.12 
+According to several studies, green coffee beans con- 
+tain only traces of furan, whereas roasted coffee beans 
+show  the  highest  concentrations  among  all  tested  
+cof- fee products.2,3,13–15  This finding confirms that furan 
+is formed during the roasting process of coffee beans.3 
+The studies also showed that the content of the coffee 
+prod- ucts  is  dependent  on  several  factors,  such  as  
+roasting conditions, processing steps, or consumer 
+handling.3 
+Considering that coffee is at the top of the beverage 
+list  in  Germany,  with  an  average  annual  
+consumption of  144liters  per  capita  (in  2005),2,16   the  
+determination of the exposure for consumers is of 
+importance for the health  risk  assessment.3   A  detailed  
+exposure  assess- ment   was   previously   conducted   
+for   coffee-drinking adolescents.3  The aim of this 
+chapter was to provide an exposure assessment for the 
+whole population and for coffee-drinking adults. In 
+contrast to previous research,3 which   was   based   on   
+point   estimates,   this   chapter will apply a 
+probabilistic 
+exposure 
+estimation 
+similar 
+to 
+the 
+approach previously developed for the estimation of 
+caffeine intake due to coffee consumption.17 
+ 
+ 
+98.2 CONTENT OF FURAN IN COFFEE 
+ 
+Generally, the furan concentration depends on the 
+brand or the manufacturer.3,14 This probably mainly 
+results from the manufacturing process and also, at least 
+ 
+ 
+
+88
+98. FURAN IN 
+III.  EFFECTS OF SPECIFIC COMPOUNDS FOUND IN COFFEE 
+ 
+ 
+ 
+ 
+FIGURE 98.1  Comparison graph between the analytical measurements of furan in coffee (μg/l) and the fitted probability distribution. The 
+best fit according to χ2 test was a log-normal distribution. 
+ 
+for products such as instant coffee powder, on the ingre- 
+dients and their ratio in the product.3 
+Guenther et al.15 showed that the furan level depends 
+on  both  the  degree  of  roast  and  the  grinding.  The  
+fact that  instant  coffee  products  show  considerably  
+lower furan  values  could  be  due  to  the  evaporation  
+steps  in the production process.3 Another factor 
+possibly respon- sible  for  a  reduction  of  the  furan  
+content  is  consumer handling. The most important step 
+is the coffee brewing. Several  studies  showed  
+considerable  reductions  of  the furan level during 
+brewing due to evaporation.2,14,18,19 
+The retention of furan in machine-prepared coffee is 
+different  depending  on  how  closed  the  system  of  
+the machine is and also the ratio of beans or coffee 
+powder to water used for the different machines can 
+lead to dif- ferent  furan  levels.  Coffee  products  made  
+with  auto- matic  coffee  machines  typically  show  a  
+higher furan content than coffee products brewed by 
+other means.2,3 
+The lowest furan content was found in instant coffee 
+and brewed coffee with a standard home coffee 
+machine.2,11 
+Other factors which are responsible for the reduction of 
+furan in brewed coffee beverages are hot plates to keep 
+the coffee beverages warm or the pouring into a cup.15 
+All these influences lead to the wide variation in furan 
+contents in the coffee brews prepared for drinking. 
+For the following assessment, the furan contents in 
+cof- 
+fee 
+were 
+taken 
+from 
+headspace-gas 
+chromatography/mass 
+
+88
+98. FURAN IN 
+III.  EFFECTS OF SPECIFIC COMPOUNDS FOUND IN COFFEE 
+ 
+ 
+spectrometry (HS-GC/MS) analyses of the affiliated 
+institute (CVUAKarlsruhe) published in 20052 and 2012,3 
+which include 53 analyses (2005) and 82 analyses (2012) 
+of brewed coffee and ready-to-drink coffee. Because it is 
+difficult to extrapolate from solid samples (i.e., analyzed 
+coffee beans or powder) to the brew, results of such 
+sam- ples were not included. 
+The analytical data on furan contents in coffee pre- 
+pared for drinking (i.e., freshly brewed coffee using 
+diverse  methods,  as  well  as  all  kinds  of  
+prepackaged ready-to-drink  coffee-beverages  available  
+in cans  or tins) were combined from the two previous 
+studies,2,3 and a  probability  distribution  was  fitted  to  
+the  data. The best-fitting distribution was a log-normal 
+distribu- tion (Figure 98.1). Descriptive statistics of the 
+data are presented in Table 98.1. Although the EFSA12 
+published data  on  89  different  coffee  brews  using  
+different  cof- fee types, only summarized descriptive 
+statistics were available  in  the  EFSA report,  so  that  
+these  data  could not be included in the distribution 
+fitting. However, the average of EFSA of 42–45 μg/kg is 
+in good agreement with the averages from descriptive 
+statistics and distri- bution fitting conducted in this 
+chapter. 
+Nevertheless, a major limitation of this assessment is 
+the currently rather restricted database on furan 
+contents of  beverages  in  the  form  in  which  they  are  
+consumed (most  analytical  data  were  reported  for  
+solid  coffee 
+
+III.  EFFECTS OF SPECIFIC COMPOUNDS FOUND IN COFFEE 
+ 
+ 
+Cups of Coffee 
+per day 
+Mean 
+Standard 
+Deviation (SD) 
+Median 
+90th 
+Percentilea 
+95th 
+Percentilea 
+Furan in brewed coffee and ready-to-drink 
+– 
+38.0 
+38.1 
+24.0 
+89.9 
+106.6 
+coffee products (n=135) (μg/l) 
+Representative 
+Furan intake (μg/kg 
+population-based 
+bw/day)b 
+– 
+0.26 
+0.44 
+0.13 
+0.59 
+0.90 
+assessment (NVS II) 
+MOEb 
+– 
+19,112 
+36,021 
+9650 
+2172 
+1422 
+Assessment for 
+Furan intake (μg/kg 
+1 
+0.12 
+0.21 
+0.06 
+0.26 
+0.41 
+consumer 
+2 
+0.24 
+0.41 
+0.12 
+0.54 
+0.82 
+3 
+0.36 
+0.62 
+0.18 
+0.80 
+1.23 
+4 
+0.48 
+0.83 
+0.24 
+1.08 
+1.64 
+5 
+0.60 
+1.03 
+0.30 
+1.34 
+2.04 
+6 
+0.72 
+1.24 
+0.36 
+1.61 
+2.46 
+7 
+0.84 
+1.45 
+0.42 
+1.89 
+2.87 
+8 
+0.96 
+1.65 
+0.49 
+2.16 
+3.28 
+MOEb 
+1 
+42,134 
+72,180 
+21,089 
+4735 
+3113 
+2 
+21,067 
+36,090 
+10,544 
+2368 
+1557 
+3 
+14,045 
+24,060 
+7029 
+1579 
+1038 
+4 
+10,533 
+18,045 
+5272 
+1183 
+778 
+5 
+8,426 
+14,436 
+4217 
+947 
+623 
+6 
+7,022 
+12,030 
+3514 
+789 
+519 
+7 
+6,019 
+10,311 
+3012 
+677 
+445 
+8 
+5267 
+9022 
+2636 
+592 
+389 
+98.3 ExPosuREEsTimATion 
+889 
+ 
+TABLE 98.1  Furan Content in Coffee Products, Furanintake, and Risk Assessment for Population-Based Exposure and individual 
+Drinkers of Coffee 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+individual coffee 
+bw/day)b 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+MOE, margin of exposure; NVS II, Nationale Verzehrsstudie II. 
+aFor MOE, the 5th and 10th percentile are reported (because the left-handed side of the distribution is the health-relevant range). 
+bAverage for males and females based on probabilistic simulations with 10,000 iterations. 
+ 
+ 
+before preparing the brew, e.g., EFSA reported >800 
+results  on  solid  coffee  but  only  89  on  coffee  
+brews12). Nevertheless, the used distribution from own 
+results is in acceptable agreement with other studies and 
+can be used to provide exposure estimations. The high 
+variabil- ity of the furan contents necessitates the 
+application of probabilistic exposure estimation, as the 
+full distribution is considered with this method. To 
+provide more accu- rate estimations in the future, it 
+would be advisable to collect analytical data on the 
+coffee 
+sub-groups 
+and 
+com- 
+bine 
+them 
+with 
+consumption data of the sub-groups. 
+ 
+ 
+98.3 EXPOSURE ESTIMATION 
+ 
+Similar  to  a  previous  study  on  caffeine  intake,17  
+the data source for dietary intake assessment was 
+published dietary  intake  data  from  the  second  
+national  nutrition survey (Nationale Verzehrsstudie II, 
+NVS II) in Germany, 
+which provides representative food intake data of 14- to 
+80-year-olds.  A total  of  20,000  participants  in  500  ran- 
+domly chosen towns in Germany were selected. The sur- 
+vey method was based on a combination of instruments, 
+such as computer-supported diet history questionnaires 
+in  the  study  center,  telephone  interviews  using  com- 
+puterized  24-h  recall  methods,  and  2 ×4-day  weighing 
+protocols in a random selection of participants. The data 
+on  beverage  consumption  are  based  on  15,371  
+records 
+(54%  females,  46%  males)  from  the  diet  history  
+assess- 
+ment conducted between November 2005 and November 
+2006.   Several   studies   provide   details   about   NVS   
+II 
+method and results.20–23 
+The calculation method was similar to a method 
+devel- 
+oped for assessment of caffeine intake.17  The calculation 
+of coffee-related daily furan intake per kg body weight 
+(bw) requires the following information: amount of furan 
+
+III.  EFFECTS OF SPECIFIC COMPOUNDS FOUND IN COFFEE 
+ 
+ 
+in coffee, daily intake of coffee, and bw of consumer. An 
+initial look at the data revealed that all three factors may 
+
+III.  EFFECTS OF SPECIFIC COMPOUNDS FOUND IN COFFEE 
+ 
+ 
+890 
+98. FURAN IN COFFEE PRODUCTS 
+ 
+FIGURE 98.2  Histograms  showing  the 
+probability    density    of    estimated    
+furan intakes  for  probabilistic  simulations  
+with 
+10,000 iterations for all age groups in men. 
+The y-axis shows the relative frequency of a 
+value in the range of a bin occurring. No sig- 
+nificant differences were detected for women. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+not necessarily  be  normally  distributed  and  may  
+also vary widely. For this reason, it was decided to use a 
+prob- abilistic approach in difference to the usual point 
+estimate calculation (which is based on averages and 
+percentiles3). A best fit distribution was selected to 
+represent the furan content in coffee (see above and 
+Figure 98.1). For the NVS II survey, only average intake 
+data segregated according to age group were reported 
+for the beverage group “cof- fee and tea” (i.e., only the 
+sum of both types was avail- able). According to per 
+capita consumption data (2010) for Germany, the 
+distribution between coffee and tea is 86% (coffee) and 
+14% (tea), so that a factor of 86% was used to estimate 
+the coffee consumption.24  The furan intake for the total 
+sample and each age group was calculated using Monte 
+Carlo simulation with 10,000 iterations. 
+The calculation formula was as follows: 
+ 
+Furan_intake (μg/kg bw/day) 
+= [(Coffee & Tea _ consumption * 0.86 * Furan _ content) 
+/ 
+Bodyweight]; with Furan _ content 
+= RiskLognorm (43.468; 73.78). 
+ 
+The distribution  function  RiskLognorm(mean;  stan- 
+dard deviation) specifies a log-normal distribution with 
+the entered mean and standard deviation. 
+Monte Carlo simulations were performed using Latin 
+Hypercube sampling and Mersenne Twister random 
+number  generator.  The  furan  intake  using  the  
+formula was set as risk output and 10,000 iterations 
+were calcu- lated. The calculation was repeated 
+separately for each age group/sex and for the average 
+over all age groups. Calculations  were  performed  
+using  the  software  pack- age  @Risk  Version  5.5.0  
+(Palisade  Corporation,  Ithaca, NY, USA) for Excel 2010 
+Version 14.0 (Microsoft Corpo- ration, Redmond, WA, 
+USA). 
+To additionally evaluate the individual risk for 
+coffee consumers, the furan intake was calculated for 
+drinking 
+
+III.  EFFECTS OF SPECIFIC COMPOUNDS FOUND IN COFFEE 
+ 
+ 
+of one to eight cups (0.2l) of coffee per day with the fol- 
+lowing formula: 
+Furan _ intake (μg/kg bw/day) 
+= [(Number of cups per day * 0.2 * Furan _ content )/ 
+Bodyweight]. 
+ 
+In this case, the body weight (kg) was described with 
+the distribution function RiskNormal(73.9; 12), which 
+assumes  a  normal  distribution  with  average  of  73.9 
+kg and standard deviation of 12kg for males and females 
+based on data reported by EFSA.25 
+The estimated daily furan intakes for men are shown 
+in Figure 98.2. No significant differences were found 
+between the sexes. In both sexes, the intake almost 
+linearly  increases  until  the age  group  of  35–50 years, 
+which has  the  highest  coffee  consumption.  At  higher 
+ages, the consumption then stays more or less constant 
+(Figure 98.3). 
+To facilitate judgment about the uncertainty in the cal- 
+culation and to consider average and worst-case scenar- 
+ios, Table 98.1 shows some descriptive statistical data on 
+the results of the probabilistic calculation for both sexes 
+combined.  The  mean  is  0.26 μg/kg  bw/day  and  the 
+P90 is 0.59μg/kg bw/day. 
+For  a  daily  consumption  of  between  one  and  eight 
+cups of coffee per day, the resulting exposure was prob- 
+abilistically  estimated and  the  descriptive  statistics  of 
+the  resulting  distributions  are  presented  in  Table  
+98.1. The average furan intake is 0.12μg/kg bw/day per 
+cup of  coffee,  whereas  the  P90  intake  per  cup  of  
+coffee  is 
+0.26μg/kg bw/day. 
+The  German  Federal  Institute  for  Risk  Assessment 
+calculated  exposures  of  furan  between  0.1μg/kg  bw/ 
+day (mean coffee consumption) and 0.4μg/kg bw/day 
+(high  coffee  consumption).26   A  survey  in  the  United 
+States by Morehouse et al.27  showed exposure estimates 
+of  0.15μg/kg  bw/day  for  brewed  coffee,  whereas  a 
+
+III.  EFFECTS OF SPECIFIC COMPOUNDS FOUND IN COFFEE 
+ 
+ 
+98.4 Risk assessment to furan in Coffee products 
+891 
+ 
+FIGURE 98.3  Estimated   average   furan   intake   as   a 
+function  of  age  derived  using  probabilistic  simulations 
+with  10,000  iterations.  The  error  bar  shows  the  
+standard deviation. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Canadian survey by Becalski et al.28 reported an average 
+exposure estimate of 0.43μg/kg bw/day. A study from 
+Belgium reported that the average population-based 
+exposure 
+ 
+from 
+ 
+coffee 
+ 
+consumption 
+ 
+was  
+approximately 
+0.21μg/kg bw/day.29  The EFSA showed that coffee con- 
+tributed with 88% to overall adult furan exposure, but 
+no separate estimation for coffee was provided.12 
+Our average population-based exposure of 0.26μg/kg 
+bw/day  with a  worst-case  (P95)  exposure  of  
+0.90μg/kg bw/day is comparable with the previous 
+estimations in the literature and also with the EFSA data 
+when 
+extrapolated 
+with 
+88% 
+to 
+coffee 
+alone 
+(approximately 0.2μg/kg bw/day for mean exposure and 
+1.1μg/kg bw/day for worst-cases). 
+ 
+ 
+98.4 RISK ASSESSMENT OF FURAN IN 
+COFFEE PRODUCTS 
+ 
+The risk assessment for furan in coffee was conducted 
+according  to  the  harmonized  approach  of  the  
+EFSA,30 which  recommends  the  use  of  the  margin  of  
+exposure (MOE)  based  on  the  benchmark  dose  
+(BMD)  as  stan- dardized  reference  point.  The  BMD  
+lower  confidence limit for a benchmark response of 10% 
+(BMDL10) used for the calculations was identified by 
+Carthew et al.31 via detailed  dose–response  models  of  
+furan.  The  BMDL10 found in that study was 1.28mg/kg 
+bw/day. 
+The MOE was also calculated probabilistically as 
+above with the formula: 
+ 
+MOE = BMDL/Furan _ intake 
+To  make  a  judgment  about  the  risk  associated  
+with consuming  coffee  products,  the  MOE  was  
+evaluated. According  to  the  EFSA,  an  MOE  of  10,000  
+or  higher would be considered as a low public health 
+concern and 
+
+III.  EFFECTS OF SPECIFIC COMPOUNDS FOUND IN COFFEE 
+ 
+ 
+as a low priority for risk management actions as well.30 
+The calculated MOEs are shown in Table 98.1. 
+Regarding   the   population-based   assessment,   it   is 
+obvious that the mean MOE is higher than the threshold 
+of 10,000. However, the median MOE is slightly lower 
+than 10,000, as are the P90 and P95 MOE. 
+For  the  individual  drinkers,  the  average  MOE  for 
+more  than  5 cups/day  and  the  median  MOE  for  more 
+than  3cups/day  are  lower  than  10,000.  P90  and  P95 
+MOEs are in all cases lower than 10,000, even when only 
+drinking one single cup of coffee. 
+The probabilities of results falling into the potentially 
+health-relevant  category  lower  than  an  MOE  of  10,000 
+are  presented  in  more  detail  in  Figure  98.4.  For  
+drink- 
+ing one cup of coffee per day, approximately 27% of the 
+10,000   probabilistically   calculated   intake   estimations 
+would fall into this category, whereas at 8 cups/day this 
+number is 87%. 
+The   limitations   of   the   application   of   the   MOE 
+approach  to  the  risk  assessment  of  furan  have  to  be 
+mentioned because the genotoxic mechanism in the low- 
+dose  range  is  a  matter  of  debate.3,32  Nevertheless,  this 
+assessment is rather conservative as some tumor types 
+may occur at even lower concentrations than what was 
+chosen as BMDL10 (see detailed discussion in Carthew 
+et al.31  and Lachenmeier et al.33). In a recent risk assess- 
+ment  of  furan,  the  JECFA7  also  suggested  the  use  of  
+a 
+BMDL10  value  in  a  similar  order  of  magnitude  as  
+the 
+one published by Carthew et al.31 
+Recent  studies  have  analyzed  the  risk  of  furan,  
+and 
+coffee appears to be the major contributor to its dietary 
+exposure.7 The evaluation in this chapter confirms these 
+results  because  coffee  consumption  alone  may  lead  to 
+MOEs lower than thresholds of a low-risk level, at least 
+for  sub-groups  of  high-level  coffee  consumers  or  of 
+
+III.  EFFECTS OF SPECIFIC COMPOUNDS FOUND IN COFFEE 
+ 
+ 
+98. FURAN IN COFFEE PRODUCTS 
+ 
+ 
+ FIGURE 98.4  Cumulative graph showing the margin of exposure for consumers of 1–8cups (0.2l) of coffee per day using probabilistic 
+simulations with 10,000 iterations. The top panel with an MOE of 10,000 as delimiter shows the probability of results falling into the health- 
+relevant range (26.6% for two cups to 87.1% for eight cups). 
+ 
+ 
+consumers who regularly drink coffee with high levels 
+of furan. However, in agreement with the judgment of 
+Scholl et al.,29 the MOE levels would not yet fall into the 
+range of a “high-risk” level with MOE <100. The risk of 
+furan  in  coffee  is,  therefore,  considerably  smaller  
+than for  example  the  risk  of  ethanol  in  alcoholic  
+beverages, which regularly reaches MOE <10.34 
+Nevertheless, until improved data become available 
+about the toxicity of furan, risk managers are currently 
+recommended to  apply  precautionary  principles,  
+such as to reduce the furan content in products as low as 
+tech- nologically possible.3 
+ 
+ 
+98.5 SUMMARY POINTS 
+ 
+•  Furan is a possible human carcinogen, which 
+naturally occurs in coffee. 
+•  The furan exposure of consumers is probabilistically 
+estimated in this chapter by combining food 
+monitoring data and data from a representative 
+nutrition survey. 
+•  The average furan intake per 0.2-l cup of coffee was 
+estimated as 0.12μg/kg bw/day. 
+•  The average population-based furan exposure from 
+coffee was estimated as 0.26μg/kg bw/day, and the 
+corresponding MOE was 19,112. 
+•  Only for drinkers of more than five cups of coffee 
+per day, the average MOE would be lower than a 
+threshold of 10,000. 
+Acknowledgment 
+No  competing  ﬁnancial  interests  exist.  The  views  expressed  
+herein do  not  necessarily  reflect  those  of  the  Ministry  of  Rural 
+Affairs  and Consumer Protection. 
+ 
+ 
+References 
+1.  Kim TK, Lee YK, Kim S, Park YS, Lee KG. Furan in commercially 
+processed  foods:  four-year  field  monitoring  and  risk  
+assessment study in Korea. J Toxicol Environ Health A 2009;72:1304–
+10. 
+2.  Kuballa T, Stier S, Strichow N. Furan concentrations in coffee and 
+coffee beverages. Deut Leb Rundsch 2005;101:229–35. 
+3.  Waizenegger J, Winkler G, Kuballa T, Ruge W, Kersting M, Alexy 
+U, et al. Analysis and risk assessment of furan in coffee products 
+targeted to adolescents. Food Addit Contam Part A Chem Anal 
+Control Expo Risk Assess 2012;29:19–28. 
+4.  NTP.   Toxicology  and   Carcinogenesis   studies   of   furan   
+(CAS No. 110-00-9) in F344 rats and B6C3F1 mice (Gavage 
+studies). Natl Toxicol Program Tech Rep Ser 1993;402:1–286. 
+5.  IARC. Furan. In: IARC monographs on the evaluation of carcinogenic 
+risks to humans. Dry cleaning, some chlorinated solvents and other 
+industrial  chemicals,  vol.  63.  Lyon  (France):  International  
+Agency for Research on Cancer; 1995. 
+6.  Vranová J, Ciesarová Z. Furan in food: a review. Czech J Food Sci 
+2009;27:1–10. 
+7.  JECFA. Furan. In: WHO food additives series 63. Safety evaluation of 
+certain  contaminants  in  food.  Prepared  by  the  seventy-second  meeting 
+of the Joint FAO/WHO Expert Committee on Food Additives (JECFA). 
+Geneva (Switzerland): WHO and FAO; 2011. pp. 487–603. 
+8.  Johnston WR, Frey CN. The volatile constituents of roasted coffee. 
+J Am Chem Soc 1938;60:1624–7. 
+9.  Merritt C, Bazinet ML, Sullivan JH, Robertson DH. Coffee aroma, 
+mass  spectrometric  determination  of  volatile  components  from 
+ground coffee. J Agric Food Chem 1963;11:152–5. 
+
+III.  EFFECTS OF SPECIFIC COMPOUNDS FOUND IN COFFEE 
+ 
+ 
+REFERENCES 
+ 
+10.  Radtke R, Springer R, Mohr W, Heiss R. Untersuchungen über die 
+chemischen  Vorgänge  beim  Altern  von  Röstkaffee.  Z  Leb  
+Unters Forsch 1963;119:293–302. 
+11.  Kuballa T. Furan in coffee and other foods. J Verbr Leb 2007;2:429–
+33. 
+12.  EFSA. Update on furan levels in food from monitoring years 2004– 
+2010 and exposure assessment. EFSA J 2011;9:2347. 
+13.  Lachenmeier DW, Reusch H, Kuballa T. Risk assessment of furan 
+in commercially jarred baby foods, including insights into its oc- 
+currence and formation in freshly home-cooked foods for infants 
+and young children. Food Addit Contam Part A Chem Anal Control 
+Expo Risk Assess 2009;26:776–85. 
+14.  Zoller O, Sager F, Reinhard H. Furan in food: headspace method 
+and product survey. Food Addit Contam 2007;24:91–107. 
+15.  Guenther H, Hoenicke K, Biesterveld S, Gerhard-Rieben E, Lantz 
+I. Furan in coffee: pilot studies on formation during roasting and 
+losses during production steps and consumer handling. Food Addit 
+Contam Part A Chem Anal Control Expo Risk Assess 2010;27:283–90. 
+16.  Waizenegger  J,  Castriglia  S,  Winkler  G, Schneider R,  Ruge  W, 
+Kersting  M,  et  al.  Caffeine  exposure  in  children  and  
+adolescents 
+consuming ready-to-drink coffee products. J Caffeine Res 
+2011;1:200–5. 
+17.  Lachenmeier  DW,  Wegert  K,  Kuballa  T,  Schneider  R,  Ruge  W, 
+Reusch H, et al. Caffeine intake from beverages in German 
+children, 
+adolescents, and adults. J Caffeine Res 2013;3:47–53. 
+18.  Hasnip S, Crews C, Castle L. Some factors affecting the formation 
+of furan in heated foods. Food Addit Contam 2006;23:219–27. 
+19.  La Pera L, Liberatore A, Avellone G, Fanara S, Dugo G, Agozzino 
+P. 
+Analysis of furan in coffee of different provenance by head-space 
+solid phase microextraction gas chromatography-mass spectrom- 
+etry: effect of brewing procedures. Food Addit Contam Part A Chem 
+Anal Control Expo Risk Assess 2009;26:786–92. 
+20.  Brombach C, Wagner U, Eisinger-Watzl M, Heyer A. Die Nationale 
+Verzehrsstudie II. Ernährungs-Umschau 2006;53:4–9. 
+21.  Krems C, Bauch A, Götz A, Heuer T, Hild A, Möseneder J, et al. 
+Methoden  der  nationalen  Verzehrsstudie  II.  Ernährungs-
+Umschau 
+2006;53:44–50. 
+22.  Max-Rubner-Institut.   Nationale   Verzehrsstudie   II.   
+Ergebnisbericht, 
+Teil 2. Karlsruhe (Germany): Max-Rubner-Institut; 2008. 
+23.  Max-Rubner-Institut. Nationale Verzehrsstudie II. Ergebnisbericht, Teil 
+1 einschließlich Ergänzungsband/Schichtindex. Karlsruhe (Germany): 
+Max-Rubner-Institut; 2008. 
+24.  Axel  Springer  media  impact.  Trend  Topic. Alkoholfreie  Getränke. 
+Axel Springer AG Marktanalyse. Berlin (Germany): Axel Springer 
+AG; 2011. 
+25.  EFSA Scientific  Committee.  Guidance  on  selected  default  values 
+to be used by the EFSA scientific committee, scientific panels and 
+units in the absence of actual measured data. EFSA J 2012;10:2579. 
+26.  BfR. Daten und Risikobewertung zu Furan in Lebensmitteln [Data and 
+risk assessment of furan in foods]. Berlin (Germany): Bundesinstitut 
+für Risikobewertung; 2009. 
+27.  Morehouse  KM,  Nyman  PJ,  Mcneal  TP,  Dinovi  MJ,  Perfetti  
+GA. 
+Survey of furan in heat processed foods by headspace gas chroma- 
+tography/mass spectrometry and estimated adult exposure. Food 
+Addit Contam 2008;25:259–64. 
+28.  Becalski  A,  Hayward  S,  Krakalovich  T,  Pelletier  L,  Roscoe  V, 
+Vavasour E. Development of an analytical method and survey of 
+foods for furan, 2-methylfuran and 3-methylfuran with estimated 
+exposure. Food Addit Contam Part A Chem Anal Control Expo Risk 
+Assess 2010;27:764–75. 
+29.  Scholl G, Humblet MF, Scippo ML, De PE, Eppe G, Saegerman C. 
+Risk assessment of Belgian adults for furan contamination through 
+the food chain. Food Addit Contam Part A Chem Anal Control Expo 
+Risk Assess 2012;29:345–53. 
+30.  EFSA.  Opinion  of  the  scientific committee  on  a  request  from 
+EFSA related  to  a  harmonised  approach  for  risk  assessment  of 
+substances  which  are  both  genotoxic  and  carcinogenic.  EFSA  J 
+2005;282:1–31. 
+31.  Carthew  P,  DiNovi  M,  Setzer  RW. Application  of  the  margin  
+of 
+exposure (MoE) approach to substances in food that are genotoxic 
+and carcinogenic: example: furan (CAS No. 110-00-9). Food Chem 
+Toxicol 2010;48:S69–74. 
+32.  Bakhiya  N,  Appel  KE.  Toxicity  and  carcinogenicity  of  furan  in 
+human diet. Arch Toxicol 2010;84:563–78. 
+33.  Lachenmeier  DW,  Maser  E,  Kuballa  T,  Reusch  H,  Kersting  M, 
+Alexy U. Detailed exposure assessment of dietary furan for infants 
+consuming  commercially  jarred  complementary  food  based  on 
+data from the DONALD study. Matern Child Nutr 2012;8:390–403. 
+34.  Lachenmeier  DW,  Przybylski  MC,  Rehm  J.  Comparative  risk 
+assessment of carcinogens in alcoholic beverages using the margin 
+of exposure approach. Int J Cancer 2012;131:E995–1003. 
+
+ 
+ 
+ 
+COFFEE IN HEALTH 
+AND DISEASE 
+PREVENTION 
+ 
+ 
+ 
+ 
+ 
+ 
+Edited by 
+Victor r. 
+Preedy 
+Department of Nutrition 
+and Dietetics, King’s 
+College London, London, UK 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+AMSTERDAM • BOSTON • HEIDELBERG • LONDON 
+NEW YORK • OXFORD • PARIS • SAN DIEGO 
+SAN FRANCISCO • SINGAPORE • SYDNEY • TOKYO 
+Academic Press is an imprint of Elsevier 
+
+ 
+ 
+Academic Press is an imprint of Elsevier 
+32 Jamestown Road, London NW1 7BY, UK 
+525 B Street, Suite 1800, San Diego, CA 92101-4495, USA 
+225 Wyman Street, Waltham, MA 02451, USA 
+The Boulevard, Langford Lane, Kidlington, Oxford OX5 1GB, UK 
+ 
+Copyright © 2015 Elsevier Inc. All rights reserved. 
+ 
+ 
+Medicine is an ever-changing field. Standard safety precautions must be followed, but as new 
+research and clinical experience broaden our knowledge, changes in treatment and drug therapy may 
+become necessary or appropriate. Readers are advised to check the most current product information 
+provided by the manufacturer of each drug to be administered to verify the recommended dose, the 
+method and duration of administrations, and contraindications. It is the responsibility of the treating 
+physician, relying on experience and knowledge of the patient, to determine dosages and the best 
+treatment for each 
+individual patient. Neither the publisher nor the authors assume any liability for any injury and/or 
+damage to persons or property arising from this publication. 
+ 
+ 
+No part of this publication may be reproduced or transmitted in any form or by any means, electronic or 
+mechanical, including photocopying, recording, or any information storage and retrieval system, without 
+permission in writing from the publisher. Details on how to seek permission, further information about the 
+Publisher’s permissions policies and our arrangements with organizations such as the Copyright Clearance 
+Center and the Copyright Licensing Agency, can be found at our website: www.elsevier.com/permissions. 
+ 
+This book and the individual contributions contained in it are protected under copyright by the Publisher 
+(other than as may be noted herein). 
+ 
+Notices 
+Knowledge and best practice in this field are constantly changing. As new research and experience broaden 
+our understanding, changes in research methods, professional practices, or medical treatment may become 
+necessary. 
+ 
+Practitioners and researchers must always rely on their own experience and knowledge in evaluating and 
+using any information, methods, compounds, or experiments described herein. In using such information or 
+methods they should be mindful of their own safety and the safety of others, including parties for whom they 
+have a professional responsibility. 
+ 
+To the fullest extent of the law, neither the Publisher nor the authors, contributors, or editors, assume any 
+liability for any injury and/or damage to persons or property as a matter of products liability, negligence 
+or otherwise, or from any use or operation of any methods, products, instructions, or ideas contained in the 
+material herein. 
+ 
+ISBN: 978-0-12-409517-5 
+ 
+British Library Cataloguing-in-Publication Data 
+A catalogue record for this book is available from the British Library 
+ 
+Library of Congress Cataloging-in-Publication Data 
+A catalog record for this book is available from the Library of Congress 
+ 
+For information on all Academic Press publications 
+visit our website at http://store.elsevier.com/ 
+ 
+Typeset by TNQ Books and Journals 
+www.tnq.co.in 
+ 
+Printed and bound in United States of America 

@@ -1,0 +1,1273 @@
+
+
+Citation: Pinto, A.C.S.M.; De Pierri,
+C.R.; Evangelista, A.G.; Gomes,
+A.S.d.L.P.B.; Luciano, F.B.
+Deoxynivalenol: Toxicology,
+Degradation by Bacteria, and
+Phylogenetic Analysis. Toxins 2022,
+14, 90. https://doi.org/10.3390/
+toxins14020090
+Received: 20 December 2021
+Accepted: 20 January 2022
+Published: 25 January 2022
+Publisher’s Note: MDPI stays neutral
+with regard to jurisdictional claims in
+published maps and institutional afﬁl-
+iations.
+Copyright:
+© 2022 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed
+under
+the
+terms
+and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).
+toxins
+Review
+Deoxynivalenol: Toxicology, Degradation by Bacteria, and
+Phylogenetic Analysis
+Anne Caroline Schoch Marques Pinto 1
+, Camilla Reginatto De Pierri 2
+, Alberto Gonçalves Evangelista 1
+,
+Ana Silvia de Lara Pires Batista Gomes 1
+and Fernando Bittencourt Luciano 1,*
+1
+Graduate Program in Animal Science, School of Life Sciences, Pontifícia Universidade Católica do Paraná,
+1155 Imaculada Conceição Street, Prado Velho, Curitiba 80215-901, Brazil;
+pinto.anne@pucpr.edu.br (A.C.S.M.P.); alberto.evangelista@pucpr.edu.br (A.G.E.);
+anaslpbg@gmail.com (A.S.d.L.P.B.G.)
+2
+Graduate Program in Sciences—Biochemistry, Department of Biochemistry and Molecular Biology,
+Federal University of Paraná, 100 Coronel Francisco H. dos Santos Avenue, Jardim das Américas,
+Curitiba 81530-000, Brazil; camillareginatto.p@gmail.com
+*
+Correspondence: fernando.luciano@pucpr.br
+Abstract: Deoxynivalenol (DON) is a toxic secondary metabolite produced by fungi that contaminates
+many crops, mainly wheat, maize, and barley. It affects animal health, causing intestinal barrier
+impairment and immunostimulatory effect in low doses and emesis, reduction in feed conversion
+rate, and immunosuppression in high doses. As it is very hard to completely avoid DON’s production
+in the ﬁeld, mitigatory methods have been developed. Biodegradation has become a promising
+method as new microorganisms are studied and new enzymatic routes are described. Understanding
+the common root of bacteria with DON degradation capability and the relationship with their place
+of isolation may bring insights for more effective ways to ﬁnd DON-degrading microorganisms.
+The purpose of this review is to bring an overview of the occurrence, regulation, metabolism, and
+toxicology of DON as addressed in recent publications focusing on animal production, as well
+as to explore the enzymatic routes described for DON’s degradation by microorganisms and the
+phylogenetic relationship among them.
+Keywords: biodegradation; deoxynivalenol; phylogeny; DON; mycotoxins
+Key Contribution: Understanding the phylogenetic patterns of DON degraders is an important step
+to provide clues to optimize screening for new organisms with this potential. Additionally, this
+review brings a current overview of DON’s negative effects in animal production.
+1. Introduction
+Mycotoxins are toxic secondary metabolites produced by fungi that infect crops and
+can be produced in the ﬁeld, during postharvest procedures, and in storage. The main
+genera involved in mycotoxin production are Alternaria, Aspergillus, Cladosporium, Fusarium,
+and Penicillium [1]. Around 400 mycotoxins have been described so far, and they differ
+in their structure, metabolization, and level of toxicological effects [2]. However, they
+are mostly stable to thermal processes and have negative effects on human and animal
+health [3].
+Up to 80% of the grains produced worldwide are contaminated with at least one
+mycotoxin, but cooccurrence of two or more mycotoxins is very common, increasing their
+risk to human and animal health [4].
+Among the mycotoxins characterized, trichothecenes are a group of sesquiterpenoids
+produced by Fusarium sp. that comprises deoxynivalenol (DON) and its acetylated forms,
+nivalenol (NIV), T-2 toxin, and HT-2 toxin [5]. In recent years, research on DON’s toxicology
+Toxins 2022, 14, 90. https://doi.org/10.3390/toxins14020090
+https://www.mdpi.com/journal/toxins
+
+Toxins 2022, 14, 90
+2 of 19
+and mitigation methods has become more common because of DON’s high incidence across
+the world.
+In this review, we aimed to bring an overview of occurrence, regulation, metabolism,
+and toxicology of deoxynivalenol as discussed in recent publications and explore the
+enzymatic routes currently described for DON’s degradation by microorganisms and
+the phylogenetic relationship among them, focusing on animal production. For this, we
+gathered studies that identiﬁed bacteria with the ability to transform DON into compounds
+that were less toxic than the parent toxin.
+2. Results and Discussion
+2.1. Occurrence, Regulation, Ingestion, and Metabolism
+Grain contamination by mycotoxins may occur in the ﬁeld or during storage, and
+factors such as temperature, high humidity, and handling are key points, as they can favor
+the production of mycotoxins [6].
+DON is commonly found in temperate areas. Studies have reported that no DON
+has been identiﬁed in grains kept at water activity (aw) < 0.9 and temperatures lower than
+11 ◦C [7]. Hope et al. [7] demonstrated that for both Fusarium graminearum and F. culmorum
+—main DON producers—ideal conditions for the toxin’s production are 25 ◦C and aw >
+0.98, which is in agreement with Ramirez and colleagues [8]. The use of fungicides can also
+stimulate DON’s production, especially in low doses, as ineffective doses promote mild
+to medium levels of stress to the fungus [7]. Among the practices of crop handling—e.g.,
+fungicide and fertilizer application—the use of Fusarium-resistant cultivars seems to have
+the greatest positive inﬂuence on maintaining low levels of DON in grains. These cultivars
+were developed to present different genes that promote resistance to Fusarium head blight,
+a common wheat disease associated with DON [9].
+DON, also known as vomitoxin, is the most prevalent mycotoxin according to the
+last survey report from Biomin [10], a referenced company in the ﬁeld of mycotoxins,
+which analyzed 21,709 maize and wheat samples from all continents of the world. The
+study indicated high prevalence of DON in China (mainland and Taiwan), Middle East and
+Central America, where 86%, 78%, and 76% of the samples, respectively, were contaminated
+with the toxin. In South America, wheat samples presented an average of ≥1.5 µg/g of
+DON, representing a high risk for animal production, especially swine. In Oceania, this
+toxin was found in only 18% of samples. It is noteworthy that Oceania presented the
+lowest rate of all mycotoxins analyzed in this survey, and the risk for animal production
+was considered low to moderate. Higher concentrations of DON were observed in the
+2020 survey than in the survey performed by Biomin in 2019, increasing the demand for
+more effective solutions for this issue.
+Considering the panorama presented, regulations were established by governments
+enforcing maximum tolerable levels (MTL) of the toxin in foods and animal feed. Food
+intended for humans has its own regulation, which is more severe than that for animal
+feed, especially for foods destined for infants, who are more susceptible to the toxic effects
+of DON [11].
+In 2004, the Food and Agriculture Organization (FAO) [12] released a worldwide
+survey on mycotoxin regulation status comparing the situations in 2003 and 1995. DON
+regulations were found in more countries after these nine years, although many of them
+considered these limits only for foods and not feed. In 2016, Romer Labs, a renowned
+company in the mycotoxin ﬁeld, also released a survey showing that some countries are
+now regulating DON’s presence in feed [13]. Taken together, these data show a tendency
+toward more severe regulations, expanding DON control to other crops besides maize
+and wheat.
+Legislation varies widely among the regulatory agencies of different countries. The
+European Commission (EC) has established detailed legislation, applying lower limits
+to swine production (0.9 µg/mL) than the Food and Drug Administration (FDA) of the
+United States (FDA), which recommends 5 µg/mL. South Africa and Canada established
+
+Toxins 2022, 14, 90
+3 of 19
+similar levels to those of the EC (1 µg/mL). Table 1 summarizes legislation established by
+the FDA [14]; the Canadian Food Inspection Agency [15]; the South African Department of
+Agriculture, Forestry, and Fisheries [16]; and the European Commission [17].
+Table 1. Recommended levels of deoxynivalenol in animal feed established by regulatory public
+agencies worldwide.
+Agency
+Speciﬁcations
+Limit (mg/kg)
+Reference
+FDA (United States)
+Grains and grain by-products destined for ruminating
+beef and feedlot cattle older than 4 months and for chicken
+10
+[14]
+Grain and grain by-products destined for swine
+and other animals
+5
+EFSA (EU)
+Cereals and cereal products except for maize by-products
+8
+[17]
+Maize by-products
+12
+Complementary and complete feeding stuffs for animals
+5
+Complementary and complete feeding stuffs for pigs
+0.9
+Food Inspection Agency
+(Canada)
+Diets for cattle and poultry
+5
+[15]
+Diets for swine, young calves, and lactating dairy animals
+1
+Department of Agriculture,
+Forestry, and Fisheries
+(South Africa)
+Feeding stuffs on a full ration basis for:
+[16]
+Pigs
+1
+Cattle
+5
+Calves up to 4 months
+2
+Dairy Cattle
+3
+Poultry
+4
+Some countries do not have ofﬁcial guidelines on MTL for animal feed. In Asia, each
+country makes its own regulations, and according to the Romer Labs report, China and
+Japan are the only countries that recommend MTL for DON in animal feed. Japan covers
+only speciﬁc groups, such as cows over 3 months of age [13]. Australia does not present
+speciﬁc regulations for this toxin in feed, probably because of the low levels found in the
+country and, therefore, the low incidence of mycotoxicosis in animals [18]. It is expected
+that in the coming years, with increased visibility of DON’s effects on the food chain
+supported by consistent research, new regulations will be established.
+Deoxynivalenol MTLs were set only on cereals because DON presents a low occurrence
+in other products. Cereals are the main entry point for this mycotoxin in daily food and feed,
+because grains are a staple worldwide, especially maize and wheat. Swine and broilers are
+heavily exposed to DON, as their diets are composed mainly by grains, compared to other
+production animals [19].
+Toxin daily intake is hard to measure in animals because of the different nutrient
+requirements of each species and even during different growth phases within the same
+species. Furthermore, as many countries do not have speciﬁc legislation for animal feed,
+and several types of feed can be used in this process, it is even harder to obtain a general
+estimate of the situation. What is certain is that both humans and animals are constantly
+exposed to DON, as it is not possible to totally extinguish fungal contamination in crops
+such as wheat and corn and thereby avoid the production of this toxin.
+Once it is ingested by an animal, DON metabolization occurs in the intestine. In this
+process, some metabolites such as DON-3S, DON-GlcA, and DOM-1 may be generated
+in broilers [20] and in swine. The high transformation of DON into DON-3S and rapid
+elimination of the parent toxin may be the reasons why poultry is less susceptible to the
+effects of the toxin [20]. A suggested route for DON metabolism in poultry is its absorption
+in jejunum, transformation to DON sulfate forms (DON-3-S and DON-15-S) in the intestine,
+and excretion through bile and urine [21].
+
+Toxins 2022, 14, 90
+4 of 19
+Swine are more sensitive to DON because of their high rate of absorption of the toxin
+in the upper digestive system, especially in the small intestine. Urine was found as the
+main excretion route, with DON being the best biomarker in this matrix, indicating a lower
+rate of metabolization by pigs than by poultry [22]. Microbiota composition is also a key
+factor for this toxin’s metabolization, as some microorganisms are capable of transforming
+the toxin into less toxic compounds, although this is not common in swine [23]. Fast tissue
+distribution was also observed, with 98% of metabolization occurring after 12 to 24 h; only
+traces were identiﬁed after this period [24]. Figure 1 summarizes poultry’s and swine’s
+main DON metabolization routes by oral ingestion.
+Figure 1. Main metabolization routes (simpliﬁed) of deoxynivalenol ingested orally by swine
+and poultry.
+Lack of research and adequate regulations for mycotoxins are a risk to animal feed
+safety worldwide. Regarding DON, most research has focused on swine, followed by
+poultry, and the metabolism in these organisms is well documented. In ruminants, recent
+studies demonstrating the metabolism of vomitoxin are scarce. Ruminants are considered
+resistant because of their robust microbiota, which can transform the toxin into less toxic
+metabolites [25]. However, evidence has pointed to modulatory effects of mycotoxins on
+the intestinal microbiota of ruminants, which must be further investigated [26].
+Soon, more severe control of DON is expected, as MTLs for this toxin tend to be
+included in countries where it is not regulated. It should also be more severely controlled
+than the existent regulations, especially as climate change can favor its production [27].
+2.2. DON’s Mechanisms of Toxicity
+DON is classiﬁed as a sesquiterpenoid and possesses in its structure an epoxy group
+at C12–13 and hydroxyl groups at C3, C7, and C15, which are mainly responsible for its
+toxicity [28,29].
+Recent studies have shown a change in gene regulation as one effect of DON exposure,
+mainly affecting immune response genes, especially those linked to cytokines, which are
+signaling molecules that regulate the inﬂammatory response. There has also been evidence
+of disruption in the expression of genes related to nutrient transport, barrier function,
+cell cycle regulation, and mitochondrial function, leading to malfunction of the animal
+cell [30,31]. In high doses (e.g., 8 µg/g of feed), DON can suppress genes related to immune
+response [32]. DON has also presented upregulation of apoptotic gene expression, leading
+to cell death of hippocampal nerve cells in piglets [33].
+At a molecular level, DON affects ribosomal activity by binding into the 60S unit
+and inducing ribotoxic stress, leading to deﬁcient protein synthesis. Changes in the mi-
+tochondrial structure and functioning were also observed. It also causes activation of
+mitogen-activated protein kinases (MAPK), leading to impairment of cell proliferation and
+apoptosis [33].
+
+Toxins 2022, 14, 90
+5 of 19
+DON exerts its toxicity mainly in the gastrointestinal tract (GIT), and when in high
+doses, it provokes a reduction in goblet cell production. These cells are responsible for
+mucus production and help to maintain the integrity of the intestinal barrier. DON also
+affects the expression of tight junction proteins, such as claudins, that are responsible
+for regulating epithelial cell permeability and cell adhesion in the intestine [34]. This
+is especially worrying because the GIT enables adequate nutrient absorption, and this
+function may be impaired.
+The intestinal barrier and a healthy microbiome also protect the animal against
+pathogens, and they are both negatively affected by DON [35]. Differences between
+the microbiota in the small intestines of weaning piglets fed with DON and those fed with
+a DON-free diet were reported [36]. Clear signals of dysbiosis, such as decrease in the
+population of Firmicutes—involved in the metabolism of nutrients and maintenance of
+intestinal health—and increased presence of Actinobacteria were noticed in piglets fed with
+DON. Similar results were found in weaning rabbits, with decreased microbiota diversity
+under the presence of high levels of DON [37].
+Microbiota also play an important role in protecting the host from pathogen growth
+along with the immune system, which also suffers under the effects of DON. Changes in the
+T-cell differentiation pattern, decreasing the proliferation of cells that are directly involved
+in immune response, were found [38]. This result was supported by Cai and colleagues [39],
+who described a decrease in naïve cell differentiation into antibody-secreting cells due to
+lower cytokine receptor expression on the cell surface. Furthermore, they demonstrated
+that the toxin affected the immune response of mice infected with Listeria monocytogenes,
+intensifying the infection.
+Alterations in the reproductive cycle have also been noticed in animals intoxicated
+with DON. The mycotoxin (2 µg/mL) has provoked disruption in the hormonal cycle,
+stimulating the release of progesterone and estrogens in vitro in porcine ovarian granulosa
+cells [40]. Disruption of the histological pattern and impairment of follicular development
+in ovarian explants of pigs were also demonstrated [41].
+The toxin also restrained testicular development causing anomalies in its structure
+and impaired blood–testis barrier integrity in mice [42]. Sperm viability was also decreased,
+and morphology alteration of the gametes was found, results that were supported by
+Tassis et al. [43] in their study with boar semen and Yang et al. [44] in their study with
+BALB/c mice. One study also indicated that testicular function was not the only factor
+negatively affecting the male reproductive function and that neuroendocrine activity may
+suffer important alterations as an effect of DON [42]. Altered activity in the brains of piglets
+was suggested, especially in the release of neurotransmitters responsible for physiological
+and nervous system regulations, such as decreases in dopamine and GABA and increases
+in norepinephrine and 5-hydroxytryptamine [45]. One possible effect is the modulation
+of appetite.
+The brain cell morphology of piglets was also altered by DON, with a lack of organelle
+and vacuole formation when challenged with 2.2 µg/g of the toxin added to the feed. DON
+also decreased the antioxidant activity in the brain because of a reduction in superoxide
+dismutase and glutathione peroxidase activity [45]. Furthermore, an increase in blood–
+brain barrier permeability and a decrease in cell viability were found in in vitro models as
+well as in rats, chickens, pigs, and mice. All together, these studies point to brain activity
+disorders and homeostasis imbalance [46].
+Other studies have reported that other organs, namely the liver [47], kidney, and
+spleen [48], are also affected by DON. This results in immunosuppression, metabolic
+alterations, and disturbance in the amino acid production proﬁle, leading to malfunction
+of physiological processes. Figure 2 summarizes the effects of DON on targeted animal
+organs and systems.
+
+Toxins 2022, 14, 90
+6 of 19
+Figure 2. Effects of deoxynivalenol in animal organs and systems.
+DON’s toxicity in vivo is well documented. Negative impacts were reported in grass
+carp [49], broilers [50,51], piglets [36,52], ﬁnishing pigs [53], mice [54,55], and rabbits [56].
+Among food animals, a predominance of studies involved pigs and piglets rather than
+broilers, probably because of the higher tolerance to the toxin presented by broilers. Im-
+portant factors to be considered for the severity of the toxin’s effect are dose and time of
+exposure, which determine the outcome of the intoxication. Serviento and colleagues [53]
+compared three treatment groups of ﬁnishing pigs fed with 3 µg/g of DON. The ﬁrst group
+was exposed to the toxin once a day from 113 to 119 d of life; the second group was exposed
+to DON once a day from 134 to 140 d; and the third group was exposed to the toxin in
+both periods. The results suggested that pigs’ tolerance to DON’s presence increased in
+the second exposure after 4 weeks, probably because of adaptations of their microbiota.
+They also showed that previous contact with the toxin did not avoid adverse effects of later
+exposures. However, it improved animal recovery from a second exposure to contaminated
+feed. In addition, it was observed that older animals exposed to the toxin presented lower
+average daily feed intake and daily weight gain than those challenged in early periods,
+indicating that age is also an important parameter to be considered.
+Studies have shown immunosuppression in animals subjected to high doses of the
+toxin [29,37,38,56]. However, a recent study showed that low doses of DON can stimulate
+the immune system, increasing lymphocyte and goblet cell numbers and activating sig-
+naling pathways with an increased production of cytokines, suggesting a dose-dependent
+effect in the immune response [57]. Alassane-Kpembi et al. [58] pointed out that com-
+monly used detection methods may fail to identify the potential harms from low-exposure
+doses of DON and that omics have the potential to provide speciﬁc ﬁngerprints about the
+mycotoxin’s effects.
+The masked forms of DON also represent a threat to food security, and they are often
+neglected. Acetyl and glycosylated modiﬁcations are among the most common masked
+forms, and some of them may be more toxic than DON itself. Studies have shown faster
+absorption of acetylated forms and toxic effects, such as activation of the MAPK signaling
+pathway, similar to those of DON. In addition, digestive enzymes and microorganisms can
+transform 15-A-DON and 3-A-DON in DON [59].
+Because of the diverse toxic effects of the toxin in different systems of the animal
+organism, some strategies have been developed to mitigate them. Biodegradation is a
+potential mechanism to decrease DON’s toxicity and has been widely studied in recent
+years. The most reported biodegradation metabolites are DOM-1 and 3-epi-DON, which
+were found to be less toxic than the parent toxin [60,61]. Their characteristic lower toxicity
+was conﬁrmed by Bracarense and colleagues [52] in vivo using piglets fed with 3 µg/g
+
+Toxins 2022, 14, 90
+7 of 19
+of DON, DOM-1, and 3-epi-DON. Results demonstrated histological modiﬁcations and
+proinﬂammatory response in the intestines, livers, and lymph nodes of animals treated
+with DON. However, those treated with DOM-1 and 3-epi-DON presented similar scores
+as those in the control group.
+Reduction in T-cell proliferation and disruption to the expression of molecules in-
+volved in immune response were observed in vitro when cells were exposed to 1.6 µM of
+DON, yet a 10-fold higher dose of DOM-1 did not exert any of these effects [62]. Mayer
+and colleagues [63], working with ﬁve different cell lines—mice macrophages (RAW 264.7),
+porcine intestinal cells (IPEC-1 and IPEC-J2), trout gill (RTgill-W1), and human liver cell
+(HepG2)—found similar results.
+Toxic effects of DON are well documented, especially in swine, which has been found
+the most sensitive species to DON in animal production. Although many in vitro studies
+have reported a sharp drop in toxicity via microbial transformation, generating DOM-1
+and 3-epi-DON, there is a lack of studies of in vivo toxicity, especially about 3-epi-DON,
+which was described in the literature later than DOM-1.
+In vivo analyses often require special evaluation and authorization from the ethics
+committee on the use of animals, an additional step that is often bureaucratic and time
+consuming, although necessary. Further in vivo studies are required to fully conﬁrm
+the lower toxicity of these metabolites, as systemic effects cannot be fully evaluated in
+in vitro studies.
+2.3. Biodegradation of Deoxynivalenol
+Biodegradation is a process that consists of the degradation of one compound into
+another mediated by living organisms, such as bacteria, yeast, or fungi. In the mycotoxin
+context, it is interesting that the subproducts generated in this process are less toxic than
+the parent toxin and may not negatively affect either animal or plant cells.
+For some mycotoxins, such as aﬂatoxin B1, the most common approach for mitigation
+in animal production is to include feed additives such as binders, which can reach 90+%
+adsorption of the toxin in the GIT of livestock animals [64]. However, DON has a low
+afﬁnity to binders in general due to its structural low polarity. An in vitro study showed that
+bentonite clays, cellulose products, yeast cell wall products, and activated charcoal products
+had adsorption rates of 3.24%, 11.6%, 22.9%, and 14.4% of DON, respectively, which are
+not effective results when applied in animal feed [64]. Therefore, development products
+containing microorganisms with the ability to degrade DON into less toxic compounds
+represent an interesting strategy. Few works have discussed fungi and yeast such as
+Aspergillus tubingensis [65], Aspergillus oryzae and Rhizopus oryzae [66], and Saccharomyces
+pastorianus [67] as DON degraders. Most studies have isolated bacteria from different
+genera presenting a variety of degradation pathways. The ﬁrst report of a DON-degrading
+microorganism was made by King and colleagues [68] in rumen ﬂuid, with DOM-1 as a
+subproduct and no identiﬁcation of the species involved in this process. The ﬁrst organism
+to be described as a DON detoxiﬁer was part of the Agrobacterium–Rhizobium group and
+called strain E3-39 [69]. Since then, many other species have described (Table 2), and other
+degradation subproducts, such as 3-keto-DON [59], 3-epi-DON [70], and 3-epi-DOM-1 [71],
+have been identiﬁed.
+
+Toxins 2022, 14, 90
+8 of 19
+Table 2. Microorganisms described as deoxynivalenol degraders in vitro, their sources of isolation, the metabolites formed, and the conditions used in the
+relevant studies.
+Microorganism
+Source
+Degradation
+Mechanism
+Metabolite Formed
+Cultivation Conditions
+Degradation
+References
+Acinetobacter,
+Leadbetterella, and
+Gemmata
+Soil
+Not described
+3-keto-4-DON
+28 ◦C, 120 RPM
+100 µg/mL, completely
+degraded after 7 days
+[72]
+Agrobacterium–Rhizobium
+strain E3-39
+Soil
+Oxidative reaction by
+extracellular enzyme
+3-keto-4-DON
+30 ◦C, vigorous shaking,
+pH 7
+200 µg/mL,
+completely degraded within
+one day
+[69]
+Eubacterium sp. strain
+BBSH 797
+Bovine rumen
+Not described
+DOM-1
+37 ◦C, anaerobic
+Completely degraded
+[73,74]
+Bacillus licheniformis YB9
+Soil
+Not described
+Not described
+37 ◦C
+1 µg/mL, completely
+degraded in 2 days
+[75]
+Bacillus subtilis ASAG 216
+Donkey intestine
+Extracellular enzymes
+Not described
+35–45 ◦C, 200 RPM,
+pH 6.5–9.0
+80% of 100 µg/mL
+within 8 h
+[76]
+Bacillus spp. LS-100
+Clostridiales, Anaeroﬁlum sp.,
+Collinsella sp.
+Chicken intestine
+Not described
+DOM-1
+37 ◦C, anaerobic conditions
+100 µg/mL, 80–100%
+degraded within 3 days
+[77]
+Devosia mutans 17-2-E-8
+Alfalfa ﬁeld soil
+Intracellular enzymes
+(DepA and DepB)
+3-keto-DON and
+3-epi-DON
+28 ◦C, 200 rpm, pH 6–8
+100 µg/mL, 95% degraded
+within 2 days
+[78–81]
+Devosia insulae strain A16
+Wheat ﬁeld soil
+Not described
+3-keto-DON
+35 ◦C, neutral pH
+20 µg/mL, 88% degraded
+within 2 days
+[60]
+Devosia sp.
+Soil
+Intracellular enzymes
+3-epi-DON
+28 ◦C, 120 RPM
+100 µg/mL, completely
+degraded within 1 day
+[82]
+Devosia sp. D6-9
+Soil
+Dehydrogenase and
+reductase
+3-ketoDON and
+3-epi-DON
+28 ◦C, 220 rpm
+500 µg/mL, completely
+degraded in 2 h
+[83]
+Eggerthella sp. DII-9
+Chicken intestine
+Not described
+DOM-1
+20–45 ◦C, pH 5–10,
+anaerobic
+100 µg/mL, completely
+degraded within 3 days
+[84]
+Lactobacillus rhamnosus
+SHA113
+Human milk
+Not described
+3-epi-DON
+37 ◦C, pH 6
+5 µg/mL, 60% degraded
+within 2 days
+[85]
+Methylophilus, Ancylobacter,
+Pseudomonas, and Devosia
+(bacteria consortium C20)
+Soil
+Not described
+3-keto-DON
+30 ◦C, pH 7
+10 µg/mL, 74% degraded
+within 10 days
+[86]
+
+Toxins 2022, 14, 90
+9 of 19
+Table 2. Cont.
+Microorganism
+Source
+Degradation
+Mechanism
+Metabolite Formed
+Cultivation Conditions
+Degradation
+References
+Nocardioides sp. strain
+WSN05-2
+Wheat ﬁeld soil
+Not described
+3-epi-DON
+28 ◦C, agitation
+1000 µg/mL, completely
+degraded after 10 days
+[70]
+Nocardioides sp. NSM2
+Wheat leaves and soil
+Not described
+3-epi-DON
+28 ◦C, 120 RPM
+100 µg/mL, completely
+degraded within 1 day
+[82]
+Nocardioides sp. ZHH-013
+Soil
+Living cells
+3-keto-DON and
+3-epi-DON
+30 ◦C, 220 RPM
+33.747 mM, 80% degraded
+within 24 h
+[87]
+Paradevosia shaoguanensis
+DDB001
+Wheat soil
+Not described
+3-epi-DON
+30 ◦C, 220 RPM
+200 µg/mL, completely
+degraded in 3 days
+[88]
+Pelagibacterium halotolerans
+ANSP101
+Seawater
+Intracellular protein
+3-keto-DON
+28 ◦C
+50 µg/mL, 80% degraded
+after 12 h
+[89]
+Pseudomonas, Clostridium,
+and Desulﬁtobacterium
+(bacterial consortium PGC3)
+Wheat ﬁeld soil
+Not described
+DOM-1
+20–37 ◦C, pH 5–10
+100 µg/mL, completely
+degraded after 7 days
+[90]
+[91]
+Pseudomonas sp. Y1 and
+Lysobacter sp. S1 (bacteria
+consortium LZ-N1)
+Soil samples
+Enzymatic epimerization
+3-epi-DON
+30 ◦C, agitation
+50 µg/mL, completely
+degraded within 2 days
+[92]
+Serratia, Clostridium,
+Citrobacter,
+Enterococcus,
+Stenotrophomonas,
+Streptomyces, and
+Citrobacter freundii A47
+Soil
+Not described
+DOM-1
+12–40 ◦C, pH 6.0–7.5,
+aerobic and anaerobic
+50 µg/mL, 99% degraded
+within 60 h
+[93]
+Sphingomonas S3-4
+Wheat ﬁelds
+Oxidation mediated by
+aldo/keto reductase
+3-keto-DON and
+3-epi-DON
+28 ◦C, 220 RPM
+100 µg/mL, completely
+degraded in 3 days
+[94]
+Sphingomonas sp. strain
+KSM1
+Lake water
+P450 enzymes
+16-hydroxy-DON
+37 ◦C
+300 µg/mL, completely
+degraded in 3 days
+[95]
+Slackia sp. D-G6
+Chicken intestines
+Not described
+DOM-1
+32–47 ◦C, pH 6–10,
+anaerobic
+25 µg/mL, completely
+degraded in 1 day
+[96]
+Stenotrophomonas and Blautia
+(microbial consortium
+DX100)
+Soil samples
+De-epoxidation by
+intracellular reductases
+DOM-1
+20–40 ◦C, pH 6–7.5
+50 µg/mL, 100% degraded
+in 2 days
+[97]
+
+Toxins 2022, 14, 90
+10 of 19
+The ﬁrst reports were made in anaerobic conditions, because ruminants showed less
+susceptibility to DON toxicity than monogastric animals [98]. Therefore, it was plausible to
+assume that rumen bacteria played an important role in DON metabolization. Many other
+sources were used to collect potential degrading microorganisms, including ﬁsh [99] and
+chicken intestine [77], environmental samples from water [89], soil [72], and plants [82].
+In the last 10 years, sampling from soil or plants in aerobic conditions has become more
+common for screening because of the observation that although toxins are frequently found
+in grains, they are not found in the soil where these plants are cultivated.
+Many researchers have used the media enrichment method, which involves adding the
+toxin into culture media and proceeding with several subcultures, aiming to ﬁnd potential
+DON degraders [69,75,81]. This technique favors the microorganisms that metabolize DON,
+especially when it is used as a single carbon source. In this case, DON degraders become
+predominant in the sample and can be easily isolated [97]. It is also possible, although less
+common, to test this ability with single species already isolated. This technique consists
+of cultivation of the microorganism in the presence of the toxin and evaluation of its
+degradation rate [100].
+2.4. Enzymatic Pathways
+Understanding the enzymatic pathways through which DON biodegradation occurs
+is crucial for the development of products containing microorganisms with such ability.
+Cofactors of the enzymatic reactions must be considered and identiﬁed as well [101].
+Studies have shown different routes for enzymatic degradation of the toxin, mainly de-
+epoxidation and epimerization, including- extra and intracellular enzymes and aerobic and
+anaerobic pathways.
+The de-epoxidation reaction of vomitoxin involves the removal of an oxygen atom and
+incorporation of three hydrogen atoms, forming DOM-1 [102]. Epimerization takes place
+when the -OH radical in the C3 carbon is epimerized through an isomerization reaction,
+forming 3-epi-DON [78]. Both reactions are demonstrated in Figure 3. The two metabolites
+generated in de-epoxidation and epimerization reactions of DON were well described in
+in vitro studies and were found to be less toxic than the parent toxin.
+Figure 3. Epimerization and de-epoxidation of deoxynivalenol, producing 3-epi-deoxynivalenol
+(3-epi-DON) and deepoxydeoxynivalenol (DOM-1), respectively.
+Degradation of DON by intracellular enzymes was described by Zhang et al. [89]. In
+this study, the cell lysate of Pelagibacterium halotolerans, isolated from sea water, showed the
+strongest DON-degrading ability (72.5% of 500 µg/mL) under 30 to 40 ◦C and pH 8 to 10.
+Acid pH (lower than 6) and heat (100 ◦C for 10 min) greatly decreased the degradation
+of the mycotoxin, leading to the conclusion that this degradation was mediated by pH-
+dependent enzymes.
+
+Toxins 2022, 14, 90
+11 of 19
+Jia and colleagues [76] isolated the supernatant of Bacillus subtilis ASAG 216 grown
+in Luria–Bertani broth, which was subsequently incubated with 100 µg/mL of DON. A
+degradation rate of 81.8% was found at 35–50 ◦C and pH 6.5–9. Heat, sodium dodecyl
+sulfate, and proteinase K treatments signiﬁcantly reduced DON’s degradation, which
+indicated that extracellular enzymes were part of this process.
+Aerobic and anaerobic conditions also play an important role on DON’s epimerization
+by microorganisms [93]. A microbial consortium was isolated from agricultural soil with
+the capacity to totally degrade 50 µg/mL of DON at 27 ◦C in nutrient broth and mineral
+media enriched with 0.5% (w/v) peptone. In this case, aerobic degradation (60 h) was
+faster than anaerobic degradation (96 h), which may be explained by the composition of
+the consortium involving mostly aerobic or facultative anaerobic organisms. He et al. [78]
+also demonstrated a relationship among oxygen presence, population increase, and DON
+degradation in which aerobiosis increased cell proliferation and DON degradation.
+In anaerobic cultivation, full transformation of DON to DOM-1 was achieved at
+37 ◦C using a consortium of Bacillus spp., Clostridiales, Anaeroﬁlum sp., and Collinsella sp.
+originated from chicken intestine [77]. Anaerobic conditions were also used in Eubacterium
+cultivation with the formation of the same subproduct, DOM-1 [73].
+No study performing experiments in anaerobic conditions was found in which 3-epi-
+DON was formed as a by-product. Bacteria capable of degrading DON into 3-epi-DON
+were mainly from environmental sources such as wheat, soil, and water, so the production
+of this metabolite may be conditioned to the species that are prevalent in these environments.
+Furthermore, 3-epi-DON was reported in more studies than DOM-1, probably because
+of the aerobic sources used. Production of DOM-1 seems to be prevalent in anaerobic
+environments such as the intestine and rumen, since only a few studies have reported
+DOM-1 production under aerobic conditions.
+Hassan et al. [103] worked with cell lysates of Devosia mutans in aerobic conditions and
+described a two-step epimerization of DON involving the oxidation of DON to 3-keto-DON
+and a reduction to 3-epi-DON with NADPH as an enzymatic cofactor. They also showed
+that the enzymes involved in the two reactions were physically separated. He et al. [83],
+also working with Devosia strain D6-9, found the same degradation pattern.
+A hydroxylation reaction was reported, when DON was metabolized by Sphingomonas
+sp. strain KSM1, involving three enzymes and NADH [95]. In this reaction, DON was
+transformed into 16-hydroxy-deoxynivalenol through a bacterial p450 catalytical system,
+which is related to the metabolism of toxins [104]. This system was also efﬁcient against
+NIV and 3-ADON. This genus was also described as a DON degrader in a two-step reaction
+that generated 3-oxo-DON as intermediate and 3-epi-DON as the ﬁnal product [94]. The
+strain used in this study, named SE-4, was isolated from wheat ﬁelds and was able to
+completely degrade the toxin in mineral media supplemented with 50 µg/mL at 28 ◦C.
+Different degradation pathways between Gram-positive and Gram-negative bacteria
+were reported, as only Gram-positive bacteria were able to use DON as a carbon source, and
+they needed preincubation with the toxin to fully express this ability [82]. Both categories
+were able to form 3-epi-DON as an intermediate, so there are probably similarities in the
+degradation process performed by these bacteria, but further studies are necessary to clarify
+the degradation mechanisms suggested [82].
+In recent years, continuous effort from many research groups has been dedicated
+to fully understanding the biodegradation mechanisms of deoxynivalenol and the role
+of each microorganism or enzyme in this process. Pioneer studies reported only on the
+degradation itself and subproducts, but recent work elucidated the entire enzymatic path-
+ways, their cofactors, and optimal conditions for occurrence, such as temperature, pH, and
+oxygen presence or absence. However, complete studies are still scarce. The next steps
+may include expanding in-depth work to species already described as DON degraders
+to fully understand their degradation pathways. Then, another important issue to be
+ﬁgured out is how to deliver these active microorganisms, either in animal feed or in plant
+
+Toxins 2022, 14, 90
+12 of 19
+ﬁelds, as these environments may affect the microorganisms’ metabolism and, therefore,
+vomitoxin degradation.
+2.5. Phylogenetic Analyses
+Phylogenetic relationships provide an overview of evolutionary patterns between
+genes and species through phylogenetic trees, offering a structure to biological variation
+or traits.
+We selected studies that provided microorganism identiﬁcation and sample source
+and described which DON metabolite was produced in the biodegradation process (listed
+in Table 2). Studies that did not ﬁt into these criteria were not considered when building
+the tree.
+The 16S rDNA gene is highly conserved among prokaryotes, not susceptible to hor-
+izontal exchange of genes, and the most used in bacterial taxonomic classiﬁcation [105].
+In this review, we used the 16S rDNA sequence provided by the authors of the articles
+gathered here to build a phylogenetic tree (Table S1), and similarities in DON metabolite
+production, particularly that of DOM-1, 3-keto-4-DON and 3-epi-DON, were sought. The
+16S gene itself does not provide a means to assess the presence or activity of other genes
+involved in the production of these metabolites. Even so, some patterns were identiﬁed in
+the 16S phylogeny.
+The rRNA16S gene sequences of the strains were aligned using Clustal Omega [106]
+with default parameters. The inference of the maximum likelihood (ML) phylogenetic
+tree and the Bootstrap calculation were performed using the IQ-TREE software [107]
+using the ModelFinder method [108] for 1000 replicates. The tree ﬁgure (Figure 4) was
+organized using Adobe Illustrator CC 2017 software (version 21.0.0). In order to provide
+an overview of the evolutionary relationship of these organisms against a larger dataset,
+we also constructed a phylogenetic tree (Figure S1) using 205 16s rRNA (cited in the
+phylogenetic studies available in Table S2). Coherent distribution of these organisms was
+also observed.
+Figure 4. Phylogeny of 16S rRNA genes from organisms isolated from environmental or gastroin-
+testinal sources that produce DOM-1, 3-keto-4-DON and 3-epi-DON metabolites.
+
+Toxins 2022, 14, 90
+13 of 19
+Thirty-nine sequences ﬁtting the criteria mentioned above were available. From
+these microorganisms, 32.5% were cultivated in anaerobiosis and 23% were also cultivated
+in aerobiosis. This information should be taken in account to deﬁne the application of
+these organisms, since agricultural practices involve aerobic environments. For animal
+application, these organisms may be used as feed supplements, as the GI tract is mostly
+anaerobic or microaerophilic.
+Another important parameter to be considered for the ﬁnal use of these organisms
+is the environmental pH where they would be applied. Studies tested pH levels ranging
+from 5 to 10 and observed the ability of microorganisms to degrade the toxin in these
+different pHs, not the survival of the microorganism. To be applied in animal systems, the
+microorganism must survive the acid pH of the stomach, but not necessarily keep their
+degradation activity in this pH, considering that the pH of the intestine is close to neutral.
+The intestine is the place where DON is mostly absorbed, especially in swine. Most studies
+gathered here used neutral pH (7.0). Eight articles used slightly acid pH (6.0), and another
+eight used alkaline pH (7.5 to 10).
+Besides pH and atmospheric conditions, other facts must be considered, such as the
+microorganism’s capacity to proliferate and its ability to resist industrial processes such as
+drying or concentration. Bioprocessing itself may also involve some issues that decrease cell
+viability, e.g., shear stress [109]. The formation of spores may be an interesting characteristic
+to look for once it increases the microorganism’s resistance to thermal processes. From the
+studies gathered here, only two spore-forming organisms were reported, namely Bacillus
+licheniformis YB9 [75] and Bacillus subtilis ASAG 216 [76]. However, spore formation is
+not mandatory, as the only product approved for animal use with the ability to mitigate
+trichothecenes’ effects contains Eubacterium BBSH 797, a non-spore forming organism. Its
+recommended ﬁnal dose is 1.7 × 108 CFU/kg of feedstuff [110].
+The main source of DON-degrading organisms described was either soil or plants,
+which together accounted for 70% of the isolated sequences (27). The rumen and intestine
+provided ten microorganisms able to degrade the toxin (25%). Only two strains were
+originated from water (5%), and one of these strains was also the only one registered to
+produce 16-hydroxy-deoxynivalenol. This indicates that soil and plants are most favorable
+sources to perform screening tests for DON-degrading microorganisms.
+According to the distribution of branches on the tree, the formation of two distinct
+groups was observed: group 1, with mixed characteristics, with strains from different
+sources producing all three types of metabolites, but mainly 3-keto-DON and 3-epi-DON;
+and group 2, composed by strains from the intestine/rumen or soil producing DOM-1.
+The uncultured Leadbetterella sp. strain was not included in this group because of the low
+bootstrap. It is interesting to mention that those bacteria isolated from soil included in
+group 2, such as Enterococcus and Blautia, are commonly found in the intestine/rumen,
+showing a pattern of source/metabolite.
+A random distribution was observed in group 1 regarding both source and metabolite
+produced. This can be explained by the multiple mechanisms described in the articles. Al-
+though only a few manuscripts described full metabolic pathways, including enzymes and
+cofactors involved in the process, some features - such as the active source of degradation
+(e.g., supernatant, cell lysate, or living cell) - demonstrated differences in the degradation
+process, indicating different evolutive pathways.
+Strains capable of producing 3-epi-DON as a DON metabolite were all soil-borne
+(Nocardioides sp. ZHH-013, Nocardioides sp. NSM-2, Nocardioides sp. WSN05-2, Devosia sp.
+17-2-E -8, Devosia sp. RV12-1-1 and Pseudomonas sp. B). The same pattern was observed
+in strains that produced 3-keto-DON (uncultured Leadbetterella sp., Devosia insulae A16,
+Agrobacterium E3-39, Acinetobacter sp. A21, uncultured Methylophilus, and Gemmata sp. 28IL).
+Some articles reported 3-keto-DON as an intermediate in the enzymatic reaction leading to
+the formation of 3-epi-DON, which explains the similar pattern [86,102].
+On the other hand, the origin of the strains that produce DOM-1 is variable. However,
+it was noted that 100% of the gut/rumen samples were composed of strains that produced
+
+Toxins 2022, 14, 90
+14 of 19
+this metabolite (Bacillus sp. C81, Anaerophilum agile F, Coriobacterium sp. EKSO3_Collinsella,
+and Collinsella sp. RCA56-68).
+From the 21 articles gathered to build the tree, six reported production of DOM-1, ﬁve
+3-keto-DON, and nine 3-epi-DON as the ﬁnal metabolite of the DON degradation process.
+Because of the different cell lines used and methodologies applied in toxicology studies, it
+is not clear which of these three metabolites is least toxic. What is well known is that they
+are less toxic than DON itself. Therefore, biodegradation processes that form any of these
+by-products are useful to mitigate toxic effects [111].
+3. Conclusions
+Deoxynivalenol is proven to have different but deleterious toxic effects in both low
+and high doses in animal systems. Biodegradation is a very interesting approach to mitigate
+DON’s toxicity, even though most studies that isolated DON-degrading microorganisms
+still lacked in-depth descriptions of the metabolic pathways and the effects of the microor-
+ganism in vivo in food animals. Many genera were reported as DON degraders, ranging
+from several evolutive paths. A common root was observed between microorganisms that
+produced DOM-1 and their intestinal origin. Soil was the most common source used to ﬁnd
+microorganisms with the ability to convert DON into less toxic compounds, and 3-epi-DON
+was the usual metabolite produced. Now, the physiology of theses microorganisms must
+be taken in account to develop effective products to mitigate the effects of this toxin in
+livestock production.
+Supplementary Materials: The following supporting information can be downloaded at: https:
+//www.mdpi.com/article/10.3390/toxins14020090/s1, Table S1. The 16S rRNA gene sequences of
+DON-degrading bacteria provided in each study, Table S2. The 16S rRNA gene sequences of DON-
+degrading bacteria and other bacteria used in each phylogenetic study provided in the articles, Figure
+S1: The 16S rRNA genes from 205 organisms listed in Table S2. Highlighted (red) are the 40 organisms
+shown in Figure 1 and Table S1. References [112–115] are cited in the supplementary materials.
+Author Contributions: Conceptualization, A.C.S.M.P. and F.B.L.; methodology, C.R.D.P.; formal
+analysis, C.R.D.P. and A.S.d.L.P.B.G.; data curation, A.C.S.M.P.; writing—original draft preparation,
+A.C.S.M.P.; writing—review and editing, A.S.d.L.P.B.G., A.G.E., C.R.D.P. and F.B.L.; supervision,
+F.B.L.; project administration, F.B.L.; funding acquisition, F.B.L. All authors have read and agreed to
+the published version of the manuscript.
+Funding: This study was supported by the Brazilian National Council for Scientiﬁc and Technological
+Development, processes CNPq 308598/2020-2, 142196/2019-3 and 437728/2018-8; the Coordination
+for the Improvement of Higher Education Personnel, process CAPES 001; and the Pontiﬁcal Catholic
+University of Parana.
+Institutional Review Board Statement: Not applicable.
+Informed Consent Statement: Not applicable.
+Data Availability Statement: The data presented in this review paper are openly available in pub-
+lished papers listed in References.
+Conﬂicts of Interest: The authors declare no conﬂict of interest.
+References
+1.
+Holanda, D.M.; Kim, S.W. Mycotoxin Occurrence, Toxicity, and Detoxifying Agents in Pig Production with an Emphasis on
+Deoxynivalenol. Toxins 2021, 13, 171. [CrossRef] [PubMed]
+2.
+Cinar, A.; Onba¸sı, E. Mycotoxins: The Hidden Danger in Foods. In Mycotoxins and Food Safety; IntechOpen: London, UK, 2020.
+3.
+Bullerman, L.B.; Bianchini, A. Stability of mycotoxins during food processing. Int. J. Food Microbiol. 2007, 119, 140–146. [CrossRef]
+[PubMed]
+4.
+Eskola, M.; Kos, G.; Elliott, C.T.; Hajšlová, J.; Mayar, S.; Krska, R. Worldwide contamination of food-crops with mycotoxins:
+Validity of the widely cited ‘FAO estimate’ of 25%. Crit. Rev. Food Sci. Nutr. 2020, 60, 2773–2789. [CrossRef] [PubMed]
+5.
+Cope, R.B. Trichothecenes. In Veterinary Toxicology; Elsevier: Amsterdam, The Netherlands, 2018; pp. 1043–1053.
+
+Toxins 2022, 14, 90
+15 of 19
+6.
+Pallez-Barthel, M.; Cocco, E.; Vogelgsang, S.; Beyer, M. Frequency of Deoxynivalenol Concentrations above the Maximum Limit
+in Raw Winter Wheat Grain during a 12-Year Multi-Site Survey. Agronomy 2021, 11, 960. [CrossRef]
+7.
+Hope, R.; Aldred, D.; Magan, N. Comparison of environmental proﬁles for growth and deoxynivalenol production by Fusarium
+culmorum and F. graminearum on wheat grain. Lett. Appl. Microbiol. 2005, 40, 295–300. [CrossRef]
+8.
+Ramirez, M.L.; Chulze, S.; Magan, N. Temperature and water activity effects on growth and temporal deoxynivalenol production
+by two Argentinean strains of Fusarium graminearum on irradiated wheat grain. Int. J. Food Microbiol. 2006, 106, 291–296.
+[CrossRef]
+9.
+Beyer, M.; Klix, M.B.; Klink, H.; Verreet, J.-A. Quantifying the effects of previous crop, tillage, cultivar and triazole fungicides on
+the deoxynivalenol content of wheat grain—A review. J. Plant Dis. Prot. 2006, 113, 241–246. [CrossRef]
+10.
+Biomin Pesquisa Mundial de Micotoxinas: Impacto em 2021. Available online: https://www.biomin.net/br/science-hub/
+pesquisa-mundial-de-micotoxinas-impacto-em-2021/ (accessed on 30 September 2021).
+11.
+Herrera, M.; Bervis, N.; Carramiñana, J.J.; Juan, T.; Herrera, A.; Ariño, A.; Lorán, S. Occurrence and Exposure Assessment of
+Aﬂatoxins and Deoxynivalenol in Cereal-Based Baby Foods for Infants. Toxins 2019, 11, 150. [CrossRef]
+12.
+FAO Worldwide Regulations for Mycotoxins in Food and Feed in 2003. Available online: http://www.fao.org/3/y5499e/y549
+9e00.htm (accessed on 27 September 2021).
+13.
+Romer Labs Worldwide Mycotoxin Regulations.
+Available online: https://www.romerlabs.com/en/knowledge-center/
+knowledge-library/articles/news/worldwide-mycotoxin-regulations/ (accessed on 27 September 2021).
+14.
+FDA Advisory Levels for Deoxynivalenol (DON) in Finished Wheat Products for Human Consumption and Grains and Grain
+By-Products Used for Animal Feed. Available online: https://www.fda.gov/regulatory-information/search-fda-guidance-
+documents/guidance-industry-and-fda-advisory-levels-deoxynivalenol-don-ﬁnished-wheat-products-human (accessed on 6
+October 2021).
+15.
+Canadian Food Inspection Agency RG-8 Regulatory Guidance: Contaminants in Feed. Available online: https://inspection.
+canada.ca/animal-health/livestock-feeds/regulatory-guidance/rg-8/eng/1347383943203/1347384015909?chap=1 (accessed on 2
+October 2021).
+16.
+Department of Agriculture, Forestry and Fisheries of South Africa. Farm Feeds Regulations: Amendment Government Notices
+No. R. 70 of 12 February 2010. Available online: https://www.gov.za/sites/default/ﬁles/gcis_document/201409/3293570.pdf
+(accessed on 2 October 2021).
+17.
+Ec Recomendação Da Comissão 2006/576 de 17 de Agosto de 2006 Sobre a Presença de Desoxinivalenol, Zearalenona, Ocratoxina
+A, Toxinas T-2 e HT-2 e Fumonisinas em Produtos Destinados à Alimentação Animal. Available online: https://eur-lex.europa.
+eu/legal-content/EN/TXT/?uri=CELEX%3A32006H0576 (accessed on 7 October 2021).
+18.
+DAF Mould, Poisons and Other Toxins. Available online: https://www.daf.qld.gov.au/business-priorities/agriculture/animals/
+pigs/health-diseases/mould-poisons-toxins (accessed on 6 October 2021).
+19.
+Magnoli, A.P.; Poloni, V.L.; Cavaglieri, L. Impact of mycotoxin contamination in the animal feed industry. Curr. Opin. Food Sci.
+2019, 29, 99–108. [CrossRef]
+20.
+Riahi, I.; Ramos, A.J.; Pérez-Vendrell, A.M.; Marquis, V. A toxicokinetic study reﬂecting the absorption, distribution, metabolism
+and excretion of deoxynivalenol in broiler chickens. J. Appl. Anim. Res. 2021, 49, 284–288. [CrossRef]
+21.
+Paulick, M.; Winkler, J.; Kersten, S.; Schatzmayr, D.; Schwartz-Zimmermann, H.; Dänicke, S. Studies on the Bioavailability of
+Deoxynivalenol (DON) and DON Sulfonate (DONS) 1, 2, and 3 in Pigs Fed with Sodium Sulﬁte-Treated DON-Contaminated
+Maize. Toxins 2015, 7, 4622–4644. [CrossRef] [PubMed]
+22.
+Lauwers, M.; Croubels, S.; Letor, B.; Gougoulias, C.; Devreese, M. Biomarkers for Exposure as A Tool for Efﬁcacy Testing of A
+Mycotoxin Detoxiﬁer in Broiler Chickens and Pigs. Toxins 2019, 11, 187. [CrossRef] [PubMed]
+23.
+Debevere, S.; Cools, A.; De Baere, S.; Haesaert, G.; Rychlik, M.; Croubels, S.; Fievez, V. In Vitro Rumen Simulations Show a
+Reduced Disappearance of Deoxynivalenol, Nivalenol and Enniatin B at Conditions of Rumen Acidosis and Lower Microbial
+Activity. Toxins 2020, 12, 101. [CrossRef] [PubMed]
+24.
+Schelstraete, W.; Devreese, M.; Croubels, S. Comparative toxicokinetics of Fusarium mycotoxins in pigs and humans. Food Chem.
+Toxicol. 2020, 137, 111140. [CrossRef]
+25.
+Guerre, P. Mycotoxin and Gut Microbiota Interactions. Toxins 2020, 12, 769. [CrossRef]
+26.
+Korosteleva, S.N.; Smith, T.K.; Boermans, H.J. Effects of Feedborne Fusarium Mycotoxins on the Performance, Metabolism, and
+Immunity of Dairy Cows. J. Dairy Sci. 2007, 90, 3867–3873. [CrossRef]
+27.
+van der Fels-Klerx, H.J.; Olesen, J.E.; Madsen, M.S.; Goedhart, P.W. Climate change increases deoxynivalenol contamination of
+wheat in north-western Europe. Food Addit. Contam. Part A 2012, 29, 1593–1604. [CrossRef]
+28.
+Sundstøl Eriksen, G.; Pettersson, H.; Lundh, T. Comparative cytotoxicity of deoxynivalenol, nivalenol, their acetylated derivatives
+and de-epoxy metabolites. Food Chem. Toxicol. 2004, 42, 619–624. [CrossRef]
+29.
+Sobrova, P.; Adam, V.; Vasatkova, A.; Beklova, M.; Zeman, L.; Kizek, R. Deoxynivalenol and its toxicity. Interdiscip. Toxicol. 2010, 3,
+94–99. [CrossRef]
+30.
+Pierron, A.; Mimoun, S.; Murate, L.S.; Loiseau, N.; Lippi, Y.; Bracarense, A.-P.F.L.; Schatzmayr, G.; He, J.W.; Zhou, T.; Moll, W.-D.;
+et al. Microbial biotransformation of DON: Molecular basis for reduced toxicity. Sci. Rep. 2016, 6, 29105. [CrossRef]
+
+Toxins 2022, 14, 90
+16 of 19
+31.
+Reddy, K.E.; Lee, W.; Jeong, J.Y.; Lee, Y.; Lee, H.-J.; Kim, M.S.; Kim, D.-W.; Yu, D.; Cho, A.; Oh, Y.K.; et al. Effects of deoxynivalenol-
+and zearalenone-contaminated feed on the gene expression proﬁles in the kidneys of piglets. Asian-Australas. J. Anim. Sci. 2018,
+31, 138–148. [CrossRef] [PubMed]
+32.
+Liao, P.; Liao, M.; Li, L.; Tan, B.; Yin, Y. Effect of deoxynivalenol on apoptosis, barrier function, and expression levels of genes
+involved in nutrient transport, mitochondrial biogenesis and function in IPEC-J2 cells. Toxicol. Res. 2017, 6, 866–877. [CrossRef]
+[PubMed]
+33.
+Wang, X.; Fan, M.; Chu, X.; Zhang, Y.; Rahman, S.; Jiang, Y.; Chen, X.; Zhu, D.; Feng, S.; Li, Y.; et al. Deoxynivalenol induces
+toxicity and apoptosis in piglet hippocampal nerve cells via the MAPK signaling pathway. Toxicon 2018, 155, 1–8. [CrossRef]
+[PubMed]
+34.
+Bracarense, A.-P.F.L.; Lucioli, J.; Grenier, B.; Drociunas Pacheco, G.; Moll, W.-D.; Schatzmayr, G.; Oswald, I.P. Chronic ingestion of
+deoxynivalenol and fumonisin, alone or in interaction, induces morphological and immunological changes in the intestine of
+piglets. Br. J. Nutr. 2012, 107, 1776–1786. [CrossRef]
+35.
+Zhou, H.; Guog, T.; Dai, H.; Yu, Y.; Zhang, Y.; Ma, L. Deoxynivalenol: Toxicological proﬁles and perspective views for future
+research. World Mycotoxin J. 2020, 13, 179–188. [CrossRef]
+36.
+Liu, M.; Zhang, L.; Chu, X.-H.; Ma, R.; Wang, Y.-W.; Liu, Q.; Zhang, N.-Y.; Karrow, N.A.; Sun, L.-H. Effects of deoxynivalenol on
+the porcine growth performance and intestinal microbiota and potential remediation by a modiﬁed HSCAS binder. Food Chem.
+Toxicol. 2020, 141, 111373. [CrossRef]
+37.
+Wang, C.; Huang, L.; Wang, P.; Liu, Q.; Wang, J. The Effects of Deoxynivalenol on the Ultrastructure of the Sacculus Rotundus
+and Vermiform Appendix, as Well as the Intestinal Microbiota of Weaned Rabbits. Toxins 2020, 12, 569. [CrossRef]
+38.
+Vatzia, E.; Pierron, A.; Hoog, A.M.; Saalmüller, A.; Mayer, E.; Gerner, W. Deoxynivalenol Has the Capacity to Increase Transcription
+Factor Expression and Cytokine Production in Porcine T Cells. Front. Immunol. 2020, 11, 2009. [CrossRef]
+39.
+Cai, G.; Xia, S.; Zhong, F.; Liu, S.; Gu, J.; Yuan, Y.; Zhu, G.; Zou, H.; Liu, Z.; Bian, J. Zearalenone and deoxynivalenol reduced Th1-
+mediated cellular immune response after Listeria monocytogenes infection by inhibiting CD4+ T cell activation and differentiation.
+Environ. Pollut. 2021, 284, 117514. [CrossRef]
+40.
+Kolesarova, A.; Medvedova, M.; Halenar, M.; Sirotkin, A.V.; Bulla, J. The inﬂuence of deoxynivalenol and zearalenone on steroid
+hormone production by porcine ovarian granulosa cells in vitro. J. Environ. Sci. Health Part B 2017, 52, 823–832. [CrossRef]
+41.
+Gerez, J.R.; Desto, S.S.; Bracarense, A.P.F.R.L. Deoxynivalenol induces toxic effects in the ovaries of pigs: An ex vivo approach.
+Theriogenology 2017, 90, 94–100. [CrossRef] [PubMed]
+42.
+Cao, Z.; Huang, W.; Sun, Y.; Li, Y. Deoxynivalenol induced spermatogenesis disorder by blood-testis barrier disruption associated
+with testosterone deﬁciency and inﬂammation in mice. Environ. Pollut. 2020, 264, 114748. [CrossRef] [PubMed]
+43.
+Tassis, P.D.; Tsakmakidis, I.A.; Nagl, V.; Reisinger, N.; Tzika, E.; Gruber-Dorninger, C.; Michos, I.; Mittas, N.; Basioura, A.;
+Schatzmayr, D. Individual and Combined In Vitro Effects of Deoxynivalenol and Zearalenone on Boar Semen. Toxins 2020, 12,
+495. [CrossRef] [PubMed]
+44.
+Yang, J.; Wang, J.; Guo, W.; Ling, A.; Luo, A.; Liu, D.; Yang, X.; Zhao, Z. Toxic Effects and Possible Mechanisms of Deoxynivalenol
+Exposure on Sperm and Testicular Damage in BALB/c Mice. J. Agric. Food Chem. 2019, 67, 2289–2295. [CrossRef]
+45.
+Wang, X.; Chen, X.; Cao, L.; Zhu, L.; Zhang, Y.; Chu, X.; Zhu, D.; Rahman, S.; Peng, C.; Feng, S.; et al. Mechanism of
+deoxynivalenol-induced neurotoxicity in weaned piglets is linked to lipid peroxidation, dampened neurotransmitter levels, and
+interference with calcium signaling. Ecotoxicol. Environ. Saf. 2020, 194, 110382. [CrossRef]
+46.
+Zhang, J.; You, L.; Wu, W.; Wang, X.; Chrienova, Z.; Nepovimova, E.; Wu, Q.; Kuca, K. The neurotoxicity of trichothecenes T-2
+toxin and deoxynivalenol (DON): Current status and future perspectives. Food Chem. Toxicol. 2020, 145, 111676. [CrossRef]
+47.
+Bracarense, A.P.F.L.; Basso, K.M.; Da Silva, E.O.; Payros, D.; Oswald, I.P. Deoxynivalenol in the liver and lymphoid organs of rats:
+Effects of dose and duration on immunohistological changes. World Mycotoxin J. 2017, 10, 89–96. [CrossRef]
+48.
+Ji, J.; Zhu, P.; Cui, F.; Pi, F.; Zhang, Y.; Sun, X. The disorder metabolic proﬁling in kidney and spleen of mice induced by mycotoxins
+deoxynivalenol through gas chromatography mass spectrometry. Chemosphere 2017, 180, 267–274. [CrossRef]
+49.
+Huang, C.; Feng, L.; Liu, X.-A.; Jiang, W.-D.; Wu, P.; Liu, Y.; Jiang, J.; Kuang, S.-Y.; Tang, L.; Zhou, X.-Q. The toxic effects and
+potential mechanisms of deoxynivalenol on the structural integrity of ﬁsh gill: Oxidative damage, apoptosis and tight junctions
+disruption. Toxicon 2020, 174, 32–42. [CrossRef]
+50.
+de Souza, M.; Baptista, A.A.S.; Valdiviezo, M.J.J.; Justino, L.; Menck-Costa, M.F.; Ferraz, C.R.; da Gloria, E.M.; Verri, W.A.;
+Bracarense, A.P.F.R.L. Lactobacillus spp. reduces morphological changes and oxidative stress induced by deoxynivalenol on the
+intestine and liver of broilers. Toxicon 2020, 185, 203–212. [CrossRef]
+51.
+Wu, S.; Liu, Y.; Duan, Y.; Wang, F.; Guo, F.; Yan, F.; Yang, X.; Yang, X. Intestinal toxicity of deoxynivalenol is limited by
+supplementation with Lactobacillus plantarum JM113 and consequentially altered gut microbiota in broiler chickens. J. Anim. Sci.
+Biotechnol. 2018, 9, 74. [CrossRef] [PubMed]
+52.
+Bracarense, A.P.F.L.; Pierron, A.; Pinton, P.; Gerez, J.R.; Schatzmayr, G.; Moll, W.-D.; Zhou, T.; Oswald, I.P. Reduced toxicity of
+3-epi-deoxynivalenol and de-epoxy-deoxynivalenol through deoxynivalenol bacterial biotransformation: In vivo analysis in
+piglets. Food Chem. Toxicol. 2020, 140, 111241. [CrossRef] [PubMed]
+53.
+Serviento, A.M.; Brossard, L.; Renaudeau, D. An acute challenge with a deoxynivalenol-contaminated diet has short- and
+long-term effects on performance and feeding behavior in ﬁnishing pigs. J. Anim. Sci. 2018, 96, 5209–5221. [CrossRef] [PubMed]
+
+Toxins 2022, 14, 90
+17 of 19
+54.
+Rajput, S.A.; Shaukat, A.; Rajput, I.R.; Kamboh, A.A.; Iqbal, Z.; Saeed, M.; Akhtar, R.W.; Shah, S.A.H.; Raza, M.A.; El Askary, A.;
+et al. Ginsenoside Rb1 prevents deoxynivalenol-induced immune injury via alleviating oxidative stress and apoptosis in mice.
+Ecotoxicol. Environ. Saf. 2021, 220, 112333. [CrossRef]
+55.
+Wang, L.; Wang, Y.; Shao, H.; Luo, X.; Wang, R.; Li, Y.; Li, Y.; Luo, Y.; Zhang, D.; Chen, Z. In vivo toxicity assessment of
+deoxynivalenol-contaminated wheat after ozone degradation. Food Addit. Contam. Part A 2017, 34, 103–112. [CrossRef]
+56.
+Yang, W.; Huang, L.; Wang, P.; Wu, Z.; Li, F.; Wang, C. The Effect of Low and High Dose Deoxynivalenol on Intestinal Morphology,
+Distribution, and Expression of Inﬂammatory Cytokines of Weaning Rabbits. Toxins 2019, 11, 473. [CrossRef]
+57.
+Liu, D.; Wang, Q.; He, W.; Chen, X.; Wei, Z.; Huang, K. Two-way immune effects of deoxynivalenol in weaned piglets and porcine
+alveolar macrophages: Due mainly to its exposure dosage. Chemosphere 2020, 249, 126464. [CrossRef]
+58.
+Alassane-Kpembi, I.; Canlet, C.; Tremblay-Franco, M.; Jourdan, F.; Chalzaviel, M.; Pinton, P.; Cossalter, A.M.; Achard, C.; Castex,
+M.; Combes, S.; et al. 1H-NMR metabolomics response to a realistic diet contamination with the mycotoxin deoxynivalenol:
+Effect of probiotics supplementation. Food Chem. Toxicol. 2020, 138, 111222. [CrossRef]
+59.
+Guo, H.; Ji, J.; Wang, J.; Sun, X. Deoxynivalenol: Masked forms, fate during food processing, and potential biological remedies.
+Compr. Rev. Food Sci. Food Saf. 2020, 19, 895–926. [CrossRef]
+60.
+Wang, G.; Wang, Y.; Ji, F.; Xu, L.; Yu, M.; Shi, J.; Xu, J. Biodegradation of deoxynivalenol and its derivatives by Devosia insulae A16.
+Food Chem. 2019, 276, 436–442. [CrossRef]
+61.
+He, J.W.; Bondy, G.S.; Zhou, T.; Caldwell, D.; Boland, G.J.; Scott, P.M. Toxicology of 3-epi-deoxynivalenol, a deoxynivalenol-
+transformation product by Devosia mutans 17-2-E-8. Food Chem. Toxicol. 2015, 84, 250–259. [CrossRef] [PubMed]
+62.
+Vatzia, E.; Pierron, A.; Saalmüller, A.; Mayer, E.; Gerner, W. Deoxynivalenol Affects Proliferation and Expression of Activation-
+Related Molecules in Major Porcine T-Cell Subsets. Toxins 2019, 11, 644. [CrossRef] [PubMed]
+63.
+Mayer, E.; Novak, B.; Springler, A.; Schwartz-Zimmermann, H.E.; Nagl, V.; Reisinger, N.; Hessenberger, S.; Schatzmayr, G. Effects
+of deoxynivalenol (DON) and its microbial biotransformation product deepoxy-deoxynivalenol (DOM-1) on a trout, pig, mouse,
+and human cell line. Mycotoxin Res. 2017, 33, 297–308. [CrossRef] [PubMed]
+64.
+Kong, C.; Shin, S.Y.; Kim, B.G. Evaluation of mycotoxin sequestering agents for aﬂatoxin and deoxynivalenol: An in vitro
+approach. Springerplus 2014, 3, 1–4. [CrossRef] [PubMed]
+65.
+He, C.; Fan, Y.; Liu, G.; Zhang, H. Isolation and Identiﬁcation of a Strain of Aspergillus Tubingensis With Deoxynivalenol
+Biotransformation Capability. Int. J. Mol. Sci. 2008, 9, 2366–2375. [CrossRef] [PubMed]
+66.
+Garda-Buffon, J.; Kupski, L.; Badiale-Furlong, E. Deoxynivalenol (DON) degradation and peroxidase enzyme activity in
+submerged fermentation. Ciência e Tecnol. Aliment. 2011, 31, 198–203. [CrossRef]
+67.
+Nathanail, A.V.; Gibson, B.; Han, L.; Peltonen, K.; Ollilainen, V.; Jestoi, M.; Laitila, A. The lager yeast Saccharomyces pastorianus
+removes and transforms Fusarium trichothecene mycotoxins during fermentation of brewer’s wort. Food Chem. 2016, 203, 448–455.
+[CrossRef]
+68.
+King, R.R.; McQueen, R.E.; Levesque, D.; Greenhalgh, R. Transformation of Deoxynivalenol (Vomitoxin) by Rumen Microorgan-
+isms. J. Agric. Food Chem. 1984, 32, 1181–1183. [CrossRef]
+69.
+Shima, J.; Takase, S.; Takahashi, Y.; Iwai, Y.; Fujimoto, H.; Yamazaki, M.; Ochi, K. Novel detoxiﬁcation of the trichothecene
+mycotoxin deoxynivalenol by a soil bacterium isolated by enrichment culture. Appl. Environ. Microbiol. 1997, 63, 3825–3830.
+[CrossRef]
+70.
+Ikunaga, Y.; Sato, I.; Grond, S.; Numaziri, N.; Yoshida, S.; Yamaya, H.; Hiradate, S.; Hasegawa, M.; Toshima, H.; Koitabashi, M.;
+et al. Nocardioides sp. strain WSN05-2, isolated from a wheat ﬁeld, degrades deoxynivalenol, producing the novel intermediate
+3-epi-deoxynivalenol. Appl. Microbiol. Biotechnol. 2011, 89, 419–427. [CrossRef]
+71.
+Vanhoutte, I.; De Mets, L.; De Boevre, M.; Uka, V.; Di Mavungu, J.; De Saeger, S.; De Gelder, L.; Audenaert, K. Microbial
+Detoxiﬁcation of Deoxynivalenol (DON), Assessed via a Lemna minor L. Bioassay, through Biotransformation to 3-epi-DON and
+3-epi-DOM-1. Toxins 2017, 9, 63. [CrossRef] [PubMed]
+72.
+Wilson, N.; McMaster, N.; Gantulga, D.; Soyars, C.; McCormick, S.; Knott, K.; Senger, R.; Schmale, D. Modiﬁcation of the
+Mycotoxin Deoxynivalenol Using Microorganisms Isolated from Environmental Samples. Toxins 2017, 9, 141. [CrossRef]
+[PubMed]
+73.
+Fuchs, E.; Binder, E.M.; Heidler, D.; Krska, R. Structural characterization of metabolites after the microbial degradation of type A
+trichothecenes by the bacterial strain BBSH 797. Food Addit. Contam. 2002, 19, 379–386. [CrossRef]
+74.
+He, P.; Young, L.G.; Forsberg, C. Microbial transformation of deoxynivalenol (vomitoxin). Appl. Environ. Microbiol. 1992, 58,
+3857–3863. [CrossRef]
+75.
+Wang, S.; Hou, Q.; Guo, Q.; Zhang, J.; Sun, Y.; Wei, H.; Shen, L. Isolation and Characterization of a Deoxynivalenol-Degrading
+Bacterium Bacillus licheniformis YB9 with the Capability of Modulating Intestinal Microbial Flora of Mice. Toxins 2020, 12, 184.
+[CrossRef] [PubMed]
+76.
+Jia, R.; Cao, L.; Liu, W.; Shen, Z. Detoxiﬁcation of deoxynivalenol by Bacillus subtilis ASAG 216 and characterization the
+degradation process. Eur. Food Res. Technol. 2021, 247, 67–76. [CrossRef]
+77.
+Yu, H.; Zhou, T.; Gong, J.; Young, C.; Su, X.; Li, X.-Z.; Zhu, H.; Tsao, R.; Yang, R. Isolation of deoxynivalenol-transforming bacteria
+from the chicken intestines using the approach of PCR-DGGE guided microbial selection. BMC Microbiol. 2010, 10, 182. [CrossRef]
+[PubMed]
+
+Toxins 2022, 14, 90
+18 of 19
+78.
+He, J.W.; Hassan, Y.I.; Perilla, N.; Li, X.-Z.; Boland, G.J.; Zhou, T. Bacterial Epimerization as a Route for Deoxynivalenol
+Detoxiﬁcation: The Inﬂuence of Growth and Environmental Conditions. Front. Microbiol. 2016, 7, 572. [CrossRef]
+79.
+He, J. Microbial Strategies for Management of Fusarium graminearum and Transformation of Deoxynivalenol. Ph.D. Thesis,
+University of Guelph, Guelph, ON, Canada, 2007.
+80.
+Carere, J.; Hassan, Y.I.; Lepp, D.; Zhou, T. The enzymatic detoxiﬁcation of the mycotoxin deoxynivalenol: Identiﬁcation of DepA
+from the DON epimerization pathway. Microb. Biotechnol. 2018, 11, 1106–1111. [CrossRef]
+81.
+Carere, J.; Hassan, Y.I.; Lepp, D.; Zhou, T. The Identiﬁcation of DepB: An Enzyme Responsible for the Final Detoxiﬁcation Step in
+the Deoxynivalenol Epimerization Pathway in Devosia mutans 17-2-E-8. Front. Microbiol. 2018, 9, 1573. [CrossRef]
+82.
+Sato, I.; Ito, M.; Ishizaka, M.; Ikunaga, Y.; Sato, Y.; Yoshida, S.; Koitabashi, M.; Tsushima, S. Thirteen novel deoxynivalenol-
+degrading bacteria are classiﬁed within two genera with distinct degradation mechanisms. FEMS Microbiol. Lett. 2012, 327,
+110–117. [CrossRef] [PubMed]
+83.
+He, W.-J.; Shi, M.-M.; Yang, P.; Huang, T.; Zhao, Y.; Wu, A.-B.; Dong, W.-B.; Li, H.-P.; Zhang, J.-B.; Liao, Y.-C. A quinone-dependent
+dehydrogenase and two NADPH-dependent aldo/keto reductases detoxify deoxynivalenol in wheat via epimerization in a
+Devosia strain. Food Chem. 2020, 321, 126703. [CrossRef] [PubMed]
+84.
+Gao, X.; Mu, P.; Wen, J.; Sun, Y.; Chen, Q.; Deng, Y. Detoxiﬁcation of trichothecene mycotoxins by a novel bacterium, Eggerthella
+sp. DII-9. Food Chem. Toxicol. 2018, 112, 310–319. [CrossRef] [PubMed]
+85.
+Qu, R.; Jiang, C.; Wu, W.; Pang, B.; Lei, S.; Lian, Z.; Shao, D.; Jin, M.; Shi, J. Conversion of DON to 3- epi -DON in vitro and toxicity
+reduction of DON in vivo by Lactobacillus rhamnosus. Food Funct. 2019, 10, 2785–2796. [CrossRef]
+86.
+Wang, Y.; Wang, G.; Dai, Y.; Wang, Y.; Lee, Y.-W.; Shi, J.; Xu, J. Biodegradation of Deoxynivalenol by a Novel Microbial Consortium.
+Front. Microbiol. 2020, 10, 2964. [CrossRef]
+87.
+Zhang, H.; Zhang, H.; Qin, X.; Wang, X.; Wang, Y.; Bin, Y.; Xie, X.; Zheng, F.; Luo, H. Biodegradation of Deoxynivalenol by
+Nocardioides sp. ZHH-013: 3-keto-Deoxynivalenol and 3-epi-Deoxynivalenol as Intermediate Products. Front. Microbiol. 2021, 12.
+[CrossRef]
+88.
+Wang, Y.; Zhang, H.H.; Zhao, C.; Han, Y.T.; Liu, Y.C.; Zhang, X.L. Isolation and characterization of a novel deoxynivalenol-
+transforming strain Paradevosia shaoguanensis DDB001 from wheat ﬁeld soil. Lett. Appl. Microbiol. 2017, 65, 414–422. [CrossRef]
+89.
+Zhang, J.; Qin, X.; Guo, Y.; Zhang, Q.; Ma, Q.; Ji, C.; Zhao, L. Enzymatic degradation of deoxynivalenol by a novel bacterium,
+Pelagibacterium halotolerans ANSP101. Food Chem. Toxicol. 2020, 140, 111276. [CrossRef] [PubMed]
+90.
+He, W.-J.; Yuan, Q.-S.; Zhang, Y.-B.; Guo, M.-W.; Gong, A.-D.; Zhang, J.-B.; Wu, A.-B.; Huang, T.; Qu, B.; Li, H.-P.; et al. Aerobic
+De-Epoxydation of Trichothecene Mycotoxins by a Soil Bacterial Consortium Isolated Using In Situ Soil Enrichment. Toxins 2016,
+8, 277. [CrossRef]
+91.
+He, W.-J.; Shi, M.-M.; Yang, P.; Huang, T.; Yuan, Q.-S.; Yi, S.-Y.; Wu, A.-B.; Li, H.-P.; Gao, C.-B.; Zhang, J.-B.; et al. Novel Soil
+Bacterium Strain Desulﬁtobacterium sp. PGC-3-9 Detoxiﬁes Trichothecene Mycotoxins in Wheat via De-Epoxidation under
+Aerobic and Anaerobic Conditions. Toxins 2020, 12, 363. [CrossRef]
+92.
+Zhai, Y.; Zhong, L.; Gao, H.; Lu, Z.; Bie, X.; Zhao, H.; Zhang, C.; Lu, F. Detoxiﬁcation of Deoxynivalenol by a Mixed Culture of
+Soil Bacteria With 3-epi-Deoxynivalenol as the Main Intermediate. Front. Microbiol. 2019, 10, 2172. [CrossRef] [PubMed]
+93.
+Islam, R.; Zhou, T.; Christopher Young, J.; Goodwin, P.H.; Peter Pauls, K. Aerobic and anaerobic de-epoxydation of mycotoxin
+deoxynivalenol by bacteria originating from agricultural soil. World J. Microbiol. Biotechnol. 2012, 28, 7–13. [CrossRef] [PubMed]
+94.
+He, W.-J.; Zhang, L.; Yi, S.-Y.; Tang, X.-L.; Yuan, Q.-S.; Guo, M.-W.; Wu, A.-B.; Qu, B.; Li, H.-P.; Liao, Y.-C. An aldo-keto reductase
+is responsible for Fusarium toxin-degrading activity in a soil Sphingomonas strain. Sci. Rep. 2017, 7, 9549. [CrossRef]
+95.
+Ito, M.; Sato, I.; Ishizaka, M.; Yoshida, S.; Koitabashi, M.; Yoshida, S.; Tsushima, S. Bacterial Cytochrome P450 System Catabolizing
+the Fusarium Toxin Deoxynivalenol. Appl. Environ. Microbiol. 2013, 79, 1619–1628. [CrossRef]
+96.
+Gao, X.; Mu, P.; Zhu, X.; Chen, X.; Tang, S.; Wu, Y.; Miao, X.; Wang, X.; Wen, J.; Deng, Y. Dual Function of a Novel Bacterium,
+Slackia sp. D-G6: Detoxifying Deoxynivalenol and Producing the Natural Estrogen Analogue, Equol. Toxins 2020, 12, 85.
+[CrossRef]
+97.
+Ahad, R.; Zhou, T.; Lepp, D.; Pauls, K.P. Microbial detoxiﬁcation of eleven food and feed contaminating trichothecene mycotoxins.
+BMC Biotechnol. 2017, 17, 30. [CrossRef]
+98.
+Kiessling, K.H.; Pettersson, H.; Sandholm, K.; Olsen, M. Metabolism of aﬂatoxin, ochratoxin, zearalenone, and three trichothecenes
+by intact rumen ﬂuid, rumen protozoa, and rumen bacteria. Appl. Environ. Microbiol. 1984, 47, 1070–1073. [CrossRef]
+99.
+Guan, S.; He, J.; Young, J.C.; Zhu, H.; Li, X.-Z.; Ji, C.; Zhou, T. Transformation of trichothecene mycotoxins by microorganisms
+from ﬁsh digesta. Aquaculture 2009, 290, 290–295. [CrossRef]
+100. Niderkorn, V.; Morgavi, D.P.; Pujos, E.; Tissandier, A.; Boudra, H. Screening of fermentative bacteria for their ability to bind and
+biotransform deoxynivalenol, zearalenone and fumonisins in an in vitro simulated corn silage model. Food Addit. Contam. 2007,
+24, 406–415. [CrossRef]
+101. Hassan, Y.I.; Zhou, T. Addressing the mycotoxin deoxynivalenol contamination with soil-derived bacterial and enzymatic
+transformations targeting the C3 carbon. World Mycotoxin J. 2018, 11, 101–112. [CrossRef]
+102. Yoshizawa, T.; Takeda, H.; Ohi, T. Structure of a novel metabolite from deoxynivalenol, a trichothecene mycotoxin, in animals.
+Agric. Biol. Chem. 1983, 47, 2133–2135. [CrossRef]
+103. Hassan, Y.I.; He, J.W.; Perilla, N.; Tang, K.; Karlovsky, P.; Zhou, T. The enzymatic epimerization of deoxynivalenol by Devosia
+mutans proceeds through the formation of 3-keto-DON intermediate. Sci. Rep. 2017, 7, 6929. [CrossRef] [PubMed]
+
+Toxins 2022, 14, 90
+19 of 19
+104. Kelly, S.L.; Kelly, D.E. Microbial cytochromes P450: Biodiversity and biotechnology. Where do cytochromes P450 come from,
+what do they do and what can they do for us? Philos. Trans. R. Soc. B Biol. Sci. 2013, 368, 20120476. [CrossRef] [PubMed]
+105. Woese, C.R.; Fox, G.E. Phylogenetic structure of the prokaryotic domain: The primary kingdoms. Proc. Natl. Acad. Sci. USA 1977,
+74, 5088–5090. [CrossRef]
+106. Sievers, F.; Wilm, A.; Dineen, D.; Gibson, T.J.; Karplus, K.; Li, W.; Lopez, R.; McWilliam, H.; Remmert, M.; Söding, J.; et al. Fast,
+scalable generation of high-quality protein multiple sequence alignments using Clustal Omega. Mol. Syst. Biol. 2011, 7, 539.
+[CrossRef]
+107. Minh, B.Q.; Schmidt, H.A.; Chernomor, O.; Schrempf, D.; Woodhams, M.D.; von Haeseler, A.; Lanfear, R. IQ-TREE 2: New Models
+and Efﬁcient Methods for Phylogenetic Inference in the Genomic Era. Mol. Biol. Evol. 2020, 37, 1530–1534. [CrossRef]
+108. Kalyaanamoorthy, S.; Minh, B.Q.; Wong, T.K.F.; von Haeseler, A.; Jermiin, L.S. ModelFinder: Fast model selection for accurate
+phylogenetic estimates. Nat. Methods 2017, 14, 587–589. [CrossRef]
+109. Jonczyk, P.; Takenberg, M.; Hartwig, S.; Beutel, S.; Berger, R.G.; Scheper, T. Cultivation of shear stress sensitive microorganisms in
+disposable bag reactor systems. J. Biotechnol. 2013, 167, 370–376. [CrossRef]
+110. Opinião Positiva da EFSA para o Ingrediente Biomin® BBSH 797 de Mycoﬁx® para Todas as Espécies Avícolas. Available
+online: https://www2.biomin.net/pt/comunicados-a-imprensa/opiniao-positiva-da-efsa-para-o-ingrediente-biominr-bbsh-
+797-de-mycoﬁxr-para-todas-as-especies-avicolas/ (accessed on 23 January 2020).
+111. Payros, D.; Alassane-Kpembi, I.; Pierron, A.; Loiseau, N.; Pinton, P.; Oswald, I.P. Toxicology of deoxynivalenol and its acetylated
+and modiﬁed forms. Arch. Toxicol. 2016, 90, 2931–2957. [CrossRef]
+112. Kim, D.-H.; Brunt, J.; Austin, B. Microbial diversity of intestinal contents and mucus in rainbow trout (Oncorhynchus mykiss). J.
+Appl. Microbiol. 2007, 102, 1654–1664. [CrossRef]
+113. Saul, D.J.; Williams, L.C.; Reeves, R.A.; Bergquist, P.L. Secondary structure model for an unusual SSU rRNA from the extremely
+thermophilic bacterium strain AZ3 B.1. Biochim. Biophys. Acta—Gene Struct. Expr. 1994, 1217, 211–213. [CrossRef]
+114. Fröhlich, J.; König, H. Rapid Isolation of Single Microbial Cells from Mixed Natural and Laboratory Populations with the Aid of a
+Micromanipulator. Syst. Appl. Microbiol. 1999, 22, 249–257. [CrossRef]
+115. Ahad, R.; Zhou, T.; Lepp, D.; Pauls, K.P. Draft Genome Sequence of Citrobacter freundii Strain A47, Resistant to the Mycotoxin
+Deoxynivalenol. Genome Announc. 2017, 5, e00019-17. [CrossRef]

@@ -1,0 +1,2982 @@
+Clemson University
+TigerPrints
+All Theses
+Theses
+8-2018
+An Investigation of the Shelf Life of Cold Brew
+Coffee and the Influence of Extraction
+Temperature Using Chemical Microbial and
+Sensory Analysis
+Samuel Nicholas Lopane
+Clemson University
+Follow this and additional works at: https://tigerprints.clemson.edu/all_theses
+This Thesis is brought to you for free and open access by the Theses at TigerPrints. It has been accepted for inclusion in All Theses by an authorized
+administrator of TigerPrints. For more information, please contact kokeefe@clemson.edu.
+Recommended Citation
+Lopane, Samuel Nicholas, "An Investigation of the Shelf Life of Cold Brew Coffee and the Influence of Extraction Temperature Using
+Chemical Microbial and Sensory Analysis" (2018). All Theses. 2899.
+https://tigerprints.clemson.edu/all_theses/2899
+
+AN INVESTIGATION OF THE SHELF LIFE OF COLD BREW COFFEE AND 
+THE INFLUENCE OF EXTRACTION TEMPERATURE USING CHEMICAL, 
+MICROBIAL AND SENSORY ANALYSIS
+A Thesis 
+Presented to 
+the Graduate School of 
+Clemson University 
+In Partial Fulfillment 
+of the Requirements for the Degree 
+Master of Science 
+Food, Nutrition, and Culinary Sciences 
+by 
+Samuel Nicholas Lopane 
+August 2018 
+Accepted by: 
+Dr. John McGregor, Committee Chair 
+Dr. Paul Dawson  
+Rr. Scott Whiteside 
+
+ii 
+ABSTRACT 
+Coffee is a globally popular beverage – it is the second most consumed beverage 
+in the world after tea (Petracco, 2001). According to a report from the National Coffee 
+Association (NCA), in 2018, 64% of US consumers drink coffee daily. The same NCA 
+report in 2017 shows that 59% of all coffee consumed in the US is specialty or gourmet 
+coffee. Within this trend of specialty coffee, a product with rapidly growing market share 
+is cold brew coffee. Cold brew coffee can offer the potential for a unique flavor profile, a 
+position within the growing specialty coffee world, and RTD (ready-to-drink) 
+convenience (Sisel, 2016). Products touted as cold brew coffee are coffee beverages that 
+are extracted using low temperature and longer time than traditional hot brewed drip 
+coffee or espresso (Hwang, and others, 2014). This can give cold water extracted (CWE) 
+coffee an entirely different extraction profile, as different compounds are extracted at 
+different rates, and many coffee constituents have temperature dependent solubility 
+(Bladyka, 2014). Many producers are now selling cold brew coffee in a canned or bottled 
+RTD (ready-to-drink) format to be consumed at a later date (Sisel, 2016). This presents 
+the potential problem of microbial and sensorial deterioration. However, there is little 
+published information around the exact chemical characteristics of cold brew to verify 
+producers’ claims and allow for prediction of shelf life. In this study, the shelf-life of 
+refrigerated cold and hot brewed coffees were investigated based on sensory and 
+chemical profile and microbial growth, while also examining the influence of extraction 
+temperature on the chemical and sensorial profile of cold water extraction coffee. Based 
+on the results, the refrigerated shelf life of bottled hot and cold brewed coffee is limited 
+
+iii 
+not by microbial stability, but rather by deterioration in sensory attributes. Further work 
+is recommended to elucidate the mechanisms of coffee staling in a refrigerated 
+environment, with particular interest in the degradation products of chlorogenic acid, as a 
+significant decline in chlorogenic acid concentration was found over the storage period. 
+Cold extracted coffees were found to be chemically and organoleptically different 
+beverages from coffees extracted at high temperature, specifically, the cold brewed 
+coffees had higher sweetness and lower bitterness than the hot extracted coffee, 
+supporting claims made by producers of cold brew. Additionally, the cold brewed coffees 
+had greater flavor stability over the storage time than the hot brewed treatment.   
+
+ 
+ 
+iv
+DEDICATION 
+ 
+ 
+I dedicate this thesis to my parents, Frank and Heather Lopane. My supporters 
+throughout everything, this would not have been possible without them.  
+
+ 
+ 
+v 
+ACKNOWLEDGMENTS 
+As with many aspects of my life, behind this accomplishment is a vast network of 
+people that supported, helped, and encouraged me, without whom this would not have 
+been possible. I have nothing but thanks and appreciation for my mentor and advisor, Dr. 
+John McGregor, who inspired me, guided me, funded me, and ultimately gave me the 
+freedom to research a topic that fascinated me. My other committee members, Dr. 
+Dawson and Dr. Whiteside, were instrumental in providing guidance and use of labs and 
+equipment. Thank you to Dr. Inyee Han, without whom I would hopelessly lost in 
+operating the GC/MS. Dr. Rieck, thank you for your statistical expertise, another skill I 
+certainly lack. Thank you to Michael Wang, who was also a tremendous help with HPLC. 
+ 
+Thank you to the team at Ally Coffee and Due South Coffee Roasters who gave 
+freely of their expertise, time, and equipment. Special thanks to Ryan, Ildi, Anderson, 
+Mikey, and, Savannah, the trained team of coffee sensory experts who tasted endless 
+amounts of cold brew – not all of it delicious. 
+ 
+Thanks to my friends and family who supported, loved and encouraged me 
+throughout this project. Thank you to my roommates (Sam, Blake, Drew, Will, and 
+Kevin) for allowing me to colonize the trailer with my data. Thanks to Ross, Davey, 
+Kyle, Hamilton and Rob for provisions and entertainment during my late nights in the 
+lab. Tom, Erica, Roo, and Mikey, thank you for taking me in while I wrote this.  
+Lastly, I give thanks to my Heavenly Father – his steadfast love endures forever. 
+Soli Deo Gloria. 
+
+ 
+ 
+vi
+TABLE OF CONTENTS 
+ 
+ 
+Page 
+ 
+TITLE PAGE .................................................................................................................... i 
+ 
+ABSTRACT ..................................................................................................................... ii 
+ 
+DEDICATION ................................................................................................................ iv 
+ 
+ACKNOWLEDGMENTS ............................................................................................... v 
+ 
+LIST OF TABLES ........................................................................................................ viii 
+ 
+LIST OF FIGURES ........................................................................................................ ix 
+ 
+CHAPTER 
+ 
+ 
+I. 
+LITERATURE REVIEW .............................................................................. 1 
+ 
+ 
+ 
+ 
+Introduction .............................................................................................. 1 
+ 
+ 
+ 
+Growth ..................................................................................................... 2 
+ 
+ 
+ 
+Harvest ..................................................................................................... 3 
+ 
+ 
+ 
+Processing ................................................................................................ 3 
+ 
+ 
+ 
+Roasting ................................................................................................... 4 
+ 
+ 
+ 
+Coffee Extraction ..................................................................................... 6 
+ 
+ 
+ 
+Role of Dissolved Minerals in Coffee Extraction .................................. 10 
+ 
+ 
+ 
+Cold Brew Extraction ............................................................................ 11 
+ 
+ 
+ 
+Summary of Previous Research ............................................................. 12 
+ 
+ 
+ 
+Conclusion ............................................................................................. 15 
+ 
+ 
+ 
+References .............................................................................................. 15 
+ 
+ 
+ 
+ 
+ II. 
+AN INVESTIGATION OF THE SHELF LIFE OF COLD BREW COFFEE 
+AND THE INFLUENCE OF EXTRACTION TEMPERATURE USING 
+CHEMICAL, MICROBIAL, AND SENSORY ANALYSIS ............... 20 
+ 
+ 
+ 
+ 
+Abstract .................................................................................................. 20 
+ 
+ 
+ 
+Introduction ............................................................................................ 21 
+ 
+ 
+ 
+Materials and Methods ........................................................................... 25 
+ 
+ 
+ 
+Results .................................................................................................... 34 
+ 
+ 
+ 
+Discussion .............................................................................................. 55 
+ 
+ 
+ 
+Conclusion ............................................................................................. 65 
+ 
+ 
+ 
+Acknowledgements ................................................................................ 66 
+
+ 
+ 
+vii
+Table of Contents (Continued) 
+ 
+Page 
+ 
+ 
+ 
+ 
+References .............................................................................................. 66 
+ 
+ 
+ 
+APPENDICES ............................................................................................................... 73 
+ 
+ 
+A: 
+Sensory Evaluation Form for Cold Brew Coffee ......................................... 74 
+ 
+ 
+ 
+
+ 
+ 
+viii
+LIST OF TABLES 
+ 
+ 
+Table                                                                                                                               Page 
+ 
+ 
+2.1 
+Particle Size of Ground Coffee .................................................................... 26 
+ 
+ 
+2.2 
+Mineral Content of Water for Extraction ..................................................... 26 
+ 
+ 
+2.3 
+Schedule of analytical tests performed on coffee treatments ....................... 28 
+ 
+ 
+2.4 
+Guide to Sensory Attributes (adapted from WCR Sensory Lexicon) .......... 33 
+
+ 
+ 
+ix
+  
+LIST OF FIGURES 
+ 
+ 
+Figure                                                                                                                             Page 
+ 
+ 2.1 
+Graph of the concentration of total dissolved solids in each extraction 
+treatment ................................................................................................ 35 
+ 
+ 
+2.2 
+Graph of the concentration of caffeine in each extraction treatment. .......... 36 
+ 
+ 
+2.3 
+Graph of the concentration of 3-CQA in each extraction treatment ............ 37 
+ 
+ 
+2.4 
+Graph of the pH of each extraction treatment .............................................. 38 
+ 
+ 
+ 
+2.5 
+Graph of the TA of each extraction treatment ............................................. 39 
+ 
+ 
+ 
+2.6 
+Graph of the headspace intensity of each extraction treatment ................... 40 
+ 
+ 
+2.7 
+Graph of the mean aroma score for each extraction treatment .................... 41 
+ 
+ 
+ 
+2.8 
+Graph of the mean mouthfeel score for each extraction treatment .............. 42 
+ 
+ 
+2.9 
+Graph of the mean bitterness score for each extraction treatment ............... 43 
+ 
+ 
+2.10 
+Graph of the mean acidity score for each extraction treatment ................... 44 
+ 
+ 
+2.11 
+Graph of the mean acidity score for each extraction treatment  .................. 45 
+ 
+ 
+2.12 
+Graph of the mean astringency score for each extraction treatment ............ 46 
+ 
+ 
+2.13 
+Graph of the mean longevity score for each extraction treatment ............... 47 
+ 
+ 
+2.14 
+Graph of the combined flavor profile of each extraction treatment ............. 48 
+ 
+2.15 
+Graph of the mean sour-fermented-winey-overripe score for each extraction 
+treatment ................................................................................................ 49 
+ 
+2.16 
+Graph of the mean papery-musty-stale-earthy score for each extraction 
+treatment ................................................................................................ 50 
+ 
+2.17 
+Graph of the mean chemical-rubbery-skunky-medicinal score for each 
+extraction treatment ............................................................................... 51 
+ 
+
+ 
+ 
+x 
+ 
+List of Figures (Continued) 
+ 
+Figure                                                                                                                             Page 
+ 
+2.18 
+Graph of the mean vegetative-hay-herb score for each extraction treatment .. 
+................................................................................................................ 52 
+ 
+2.19 
+Graph of the mean off-flavor scores for each extraction treatment ............. 53 
+ 
+2.20 
+Graph of the mean amplitude score for each extraction treatment .............. 54 
+ 
+2.21 
+Graph of the mean acceptability score for each extraction treatment .......... 55 
+ 
+  
+
+ 
+1 
+CHAPTER ONE 
+ 
+LITERATURE REVIEW 
+ 
+Introduction 
+Coffee is a globally popular beverage – it is the second most consumed beverage 
+in the world after tea (Petracco, 2001). According to a report from the National Coffee 
+Association (NCA), in 2018, 64% of US consumers drink coffee daily. An increasing 
+amount of this coffee consumption in the US is specialty coffee, which can have varying 
+definitions. The NCA defines gourmet or specialty coffee as “coffee drunk hot or iced 
+that is brewed from premium whole bean or ground varieties. This includes espresso 
+based beverages, iced/frozen blended coffee, cold brew, and iced coffee infused with 
+nitrogen.” The same NCA report in 2017 shows that 59% of all coffee consumed in the 
+US is specialty or gourmet coffee. The growth of specialty coffee shops in the United 
+States, as well as the acquisition of specialty cafes by large food companies, make it clear 
+that there is an increasing appreciation, interest, and demand from consumers for high 
+quality coffees with unique flavors (Lynley, 2017).  
+The dark, aromatic beverage that most consumers are familiar with actually 
+begins as the bright red fruit of the Coffea tree, often grown far away from where it is 
+finally consumed. The life cycle of coffee, the journey from seed to cup, is governed by 
+six main stages that determine the final quality of the cup: growth, harvest, processing, 
+roasting, grinding, and extraction.  
+ 
+ 
+
+ 
+ 
+2 
+Growth 
+The first step begins on a farm where coffee trees, a species of plant from the 
+genus Coffea, are grown, and its fruit eventually harvested. The genus Coffea has its 
+origin in tropical Africa, and the discovery of the unique properties of its fruit and its 
+subsequent cultivation and domestication has been subject to many stories and legends 
+over the span of history (Illy, 2005; Flament and Bessière-Thomas, 2002; Petracco, 
+2001). In modern times, two species of Coffea are used to produce coffee – C. arabica 
+(Arabica) and C. canephora (Robusta). Robusta is less flavorful and complex than 
+Arabica, but is hardier and easier to grow (Illy, 2002). Much of the world prefers the 
+superior flavor of Arabica coffee, and the majority of coffee production is still C. arabica 
+(Uman and others, 2016). What is known colloquially as a coffee “bean” is actually the 
+seed of the fruit of the coffee tree. 
+Within the category of growth, there are a number of environmental influences 
+such as rainfall, sunlight, temperature, and altitude, as well as the specific variety of 
+coffee that is grown (Catuai, Bourbon, etc), that have an influence on the flavor of the 
+cup of coffee (Uman and others, 2016).  Much like wine, the overall terroir and origin of 
+the coffee are paramount in determining its unique flavor and quality characteristics 
+(Avelino et al. 2005). A high quality cup of coffee begins with careful cultivation and 
+harvest practices. Changes that seem minute, such as percentage of shade provided by 
+intercropped trees, can completely modulate the flavor of a coffee. “Once a coffee bean is 
+grown, nothing can be added or removed: the quality must already be present.” (Illy, 
+2002).  
+
+ 
+ 
+3 
+Harvest 
+When the coffee plant is fruiting, the bright red coffee cherries must then be 
+harvested. Only ripe coffee cherries can be used, normally determined by color, so either 
+selective hand picking or mechanical harvesting with post-harvest separation is employed 
+to ensure high-quality (Illy and Viani, 2005).  
+Processing 
+The final step that occurs at the coffee farm or nearby processing center is the 
+processing and drying of coffee, which must occur immediately after harvest to prevent 
+fermentation and creation of unwanted flavors (Illy and Viani, 2005). In this step, whole 
+coffee cherries are processed into dry green coffee for export. From the outside in, coffee 
+cherries consist of skin, pulp, mucilage, parchment, silverskin, and finally, the seed 
+(Heeger, Kosińska-Cagnazzo, Cantergiani, and Andlauer 2017). In order to make green 
+coffee, all of the layers above the seed must be removed and the seed must be dried to a 
+water content of about 9-13% (Illy and Viani, 2005, Flament I and Bessière-Thomas, 
+2002) This is typically done through one of two main methods: the natural (dry) process 
+or the washed (wet) process. This selection is typically based on the country of origin and 
+farmer’s preference. 
+ Dry processing begins with sun-drying of the coffee cherries on open patios, with 
+both fruit and seed intact, and concludes with dehulling, removing skin, pulp and 
+parchment and leaving the seed free (Flament I and Bessière-Thomas, 2002). In wet 
+processing of coffee, the cherries are first pulped, then fermented to remove the mucilage, 
+then washed, and finally dried, either using the sun, or mechanical driers (Osorio-
+
+ 
+ 
+4 
+Hernandez, Guerra-Garcia, Ferreira-Tinôco, Osorio-Saraz, and Aristizábal-Torres 2015). 
+Whatever method is used, at the end of the process, the coffee cherries must be dried 
+from 55-60% water content to 9-13%, which will reduce all metabolic changes to the 
+green coffee. This drying step has a crucial impact on the final flavor of the coffee – a dry 
+processed coffee will taste distinctly different from the same coffee processed using the 
+wet processing method. Chemically, the difference lies in the soluble solids content. 
+Because of the osmotic phenomena occurring during drying, natural processed coffees 
+will have a higher soluble solids content than the equivalent wet processed coffee, 
+resulting in a noticeably different mouthfeel (Illy and Viani, 2005.) 
+Roasting 
+After the green coffee is dried, milled, and sorted, it is packaged and shipped to 
+the roaster. Roasting is a vital chemical step in the coffee journey. Unlike the later steps, 
+roasting of coffee is a flavor creation step. When coffee is roasted, green coffee, a 
+chemically complex agricultural product, is exposed to high temperatures (170-230ºC), 
+leading to vast chemical, physical, and thermodynamic changes. Coffee is roasted in a 
+specialized piece of equipment known generically as a coffee roaster; the basic principle 
+of this technology is “forced convective flow of hot gases passes through a moving bed 
+of coffee beans (Illy and Viani, 2005). These roasters transfer heat by a mixture of 
+convection, conduction, and radiation, but because of the shape of the bean and the 
+temperature gradient within the bean, convection is the preferred mode of heat transfer, 
+as it ensures even heating of the bean and prevents scorching of the exterior (Rao, 2014). 
+When roasting coffee, the most obvious changes are the physical ones. Roasting begins 
+
+ 
+ 
+5 
+with the drying phase, when the high temperatures cause free water to be driven off and 
+the bean temperature begins to rise. The color begins to change from green to yellow, and 
+once the bean dries to about 6% moisture, exothermic reactions and the actual roasting 
+begin. Here, the bean changes in color from yellow to brown to black, and large amounts 
+of CO2 are generating, swelling the bean in volume and decreasing its density. This 
+creates high pressures within the microstructure of the bean, eventually leading to the 
+cells exploding from internal pressure, which can be heard as an audible crack 
+(Yeretzian, Jordan, and Lindinger, 2002). However drastic the physical changes, there are 
+even more chemical changes to the constituents of the coffee bean. Sucrose pyrolyzes 
+into reducing sugars, which then react with amino acids and free amino groups in 
+proteins and peptides in the Maillard reaction, forming more than 1000 volatile organic 
+compounds. These compounds are responsible for the aroma of coffee, and nonvolatiles 
+such as the melanoidins, responsible for the color change in coffee. Additionally, almost 
+all of the protein in the coffee bean is denatured. Chlorogenic acids, the most important 
+group of acids in green coffee, are broken down, mostly through hydrolysis, and some 
+become bound to melanoidins. At the end of roasting, green coffee has been both 
+physically and chemically changed. The flavor and potential of the bean has been 
+transformed – however, the exact way in which the coffee is roasted will dramatically 
+change the flavor. Yeretzian and others, describe coffee roasting as a path-dependent 
+function – meaning that the exact profile of how the coffee is roasted determines the 
+flavor that is developed. Flavor development during roasting is not solely based on 
+
+ 
+ 
+6 
+getting the coffee from temperature X to temperature Y, but rather the “time-temperature 
+history to which the beans are subjected.” (Yeretzian and others, 2002). 
+Coffee Extraction  
+Extraction is the final step in coffee preparation, thus accurate and precise 
+extractions are crucial to creating a pleasing beverage. Extracting coffee is the aqueous 
+solvation of the flavorsome, soluble compounds in coffee which are mainly aprotic 
+charge neutral organic compounds, organic acids, and conjugate salts (Hendon, Colonna-
+Dashwood, and Colonna-Dashwood, 2014). Extracting, or brewing coffee is the attempt 
+to pull as many pleasing flavors from the bean into the cup in order to create a balanced 
+and tasty beverage.  
+There are countless methods of preparation of coffee, some with long and rich 
+histories, and others that are newer techniques based on recent technological innovation. 
+They have various names and different technological principles at work, from immersion 
+brewing (French Press), percolation brewing (drip coffee) to pressurized percolation 
+brewing (espresso), but the unifying theme is that they are all methods of extracting 
+soluble solids from a ground coffee particle into a liquid solution, and they are all 
+characterized by the intimate contact of water with roasted coffee solids (Petracco, 2005). 
+This is a mass transfer unit-operation, a solid-liquid extraction where the solvent is water 
+and the solid is a mass of coffee ground into particulates.  
+The precise details vary between methods of extraction, but all coffee brewing 
+relies on the same chemical principles. The polarity of water allows it to solvate the polar 
+constituents of a coffee bean through either molecular or ionic dissolution (Bladyka, 
+
+ 
+ 
+7 
+2014; Wellinger, Smrke, and Yeretzian, 2017). Chemically, the specific intermolecular 
+forces in H2O are what allow solvation to occur; many of the organoleptic compounds in 
+coffee have both hydrophilic and hydrophobic regions “that interact with the water 
+through hydrogen bonding, Coulombic interactions and through the formation of ordered 
+hydrate cages” (Hendon, Colonna-Dashwood, and Colonna-Dashwood, 2014). In 
+addition to solvation of soluble compounds, hydrolysis of larger and less soluble 
+compounds also occurs and is dependent on the temperature and pressure of the 
+extraction system (Cammenga and others, 1997). Nonpolar (hydrophobic) molecules will 
+dissolve in water at low levels through the formation of the aforementioned cages. 
+(Hendon and Colonna-Dashwood, 2015). The primary mechanism of the transport of 
+coffee constituents into brewing water extraction is the diffusion of soluble solids. This 
+extraction is governed by Fick’s law of diffusion, which describes the quantity of a solute 
+diffusing from a solid particle surrounded by a liquid (Cammenga and others, 1997; 
+Petracco, 2001).  
+In order to facilitate extraction of organic compounds from the coffee into the 
+water, coffee must be ground from its “whole bean” form into ground particulates. When 
+coffee is ground, the cellular structure (largely a polysaccharide matrix) of the coffee 
+bean is ruptured, increasing the surface area available for solvent interaction and 
+releasing the contents of the plant cells (Cammenga, Eggers, Hinz, Steer, and Waldmann, 
+1997). This is a vital quality control step in coffee extraction, and it is essential to have a 
+small grind size distribution in order to facilitate the even transfer of soluble compounds 
+into the brew (Petracco, 2005).  
+
+ 
+ 
+8 
+For pressureless coffee extraction (not espresso), the mass transport can be 
+explained in seven steps.  
+“(1) penetration of water into the coffee bed, displacement of gases (air, 
+roast gases), moisturing and whirling-up of particles. (2) washing of material off 
+the surface off the coffee particles, which were ruptured by grinding (3) 
+penetration of water into the pores of the particles, (4) swelling of the particles, 
+(5) solubilization of water-soluble substances, possibly hydrolysis of non-water-
+soluble substances (6) diffusion of dissolved substances to the particle surface 
+(rate determining step), (7) convective mass transfer into the surrounding 
+solution.” (Cammenga and others, 1997). 
+These seven steps can be summarized in two basic stages; first the water contacts the 
+ground coffee, displacing gases, and dissolving the solids that are on the surface of the 
+grounds. While this is occurring, a second, slower process is occurring – the coffee 
+particles absorb the brewing water, causing them to swell as the water-soluble substances 
+within the particles solubilize and then diffuse to the surface of the particle and into the 
+coffee solution.  
+In other industries, it may seem that the best way to insure a quality product is to 
+increase the extraction percentage as high as possible. However, for coffee this is not 
+necessarily desirable because the soluble substances present in the roasted coffee seed 
+vary widely, and not all compounds within coffee have desirable flavors. There are at 
+least 1800 chemical constituents in coffee, many of which have different extraction rates 
+and different flavors that they will contribute to the cup (Lee, and others, 1992). Thus the 
+
+ 
+ 
+9 
+percentage of soluble solids extracted and method of extraction will change not just the 
+concentration of soluble substances (total dissolved solids, TDS) in the cup, but it will 
+control which soluble compounds from the coffee bean end up in the cup, ultimately 
+modulating the flavor of the final product. This means that extraction controls not just the 
+concentration of the beverage, but also the chemical identity. For instance, if only a small 
+percentage of a coffee’s dry mass is extracted, just the most soluble substances, which are 
+generally acidic and sweet, will end up in the resulting brew; referred to as 
+underextraction, this is generally considered organoleptically undesirable. Conversely, 
+higher extraction yields will force slower extracting compounds, which are generally 
+bitter and astringent, into the beverage; this is known as overextraction (Petracco, 2001). 
+The current thinking within the specialty coffee industry is that an extraction of 18-22% 
+of the roasted coffee seed by weight will result in an ideal beverage from a flavor quality 
+standpoint (Lingle, 2011). This extraction range generally balances sweetness, acidity, 
+and bitterness and results in the highest quality beverage a coffee can offer (Rao, 2010). 
+No matter what coffee is used, extraction is the final control over the flavor and overall 
+quality of the coffee beverage (Petracco, 2005). 
+The extraction percentage of coffee is determined by the rate and quality of an 
+extraction, which is in turn subject to a number of variables. The extraction rate is 
+dependent on the specific extraction surface (particle/grind size), the temperature of the 
+solvent/solid interaction (known as the slurry), the agitation of the brewing matrix, and 
+the solid/solvent ratio (Rao, 2010; Uman and others, 2016). Using a finer grind, or 
+increasing the agitation or temperature will increase the extraction rate – the rate at which 
+
+ 
+ 
+10
+compounds solubilize into the brewing water. The final solute concentration is then 
+determined by the extraction rate and the extraction time (time of contact between solute 
+and solvent) (Rao, 2010). The quality of the extraction (the efficiency and balance of 
+compounds extracted) is dependent on the slurry temperature, the distribution of the 
+particle size, the contact size, the specific water chemistry, the extraction time, and the 
+uniformity of the extraction. (Rao, 2010) 
+Role of Dissolved Minerals in Coffee Extraction 
+The composition and concentration of the minerals in the water used for coffee 
+extraction will dictate the dissolution and extraction of the flavor compounds from the 
+ground coffee bean into the resulting coffee solution. Early work from Pangborn, Trabue, 
+and Little demonstrated the sensory effects of different levels of minerals on the 
+extraction of coffee and tea, and more recent work from Hendon, Colonna-Dashwood, 
+and Colonna-Dashwood, used density functional theory to further investigate the effects 
+that cation species have on coffee extraction (Pangborn, Trabue, and Little 1971; 
+Hendon, Colonna-Dashwood, and Colonna-Dashwood, 2014). Water takes a long and 
+varied path before it is used to brew coffee, and along the way it often dissolves salts, 
+resulting in water that contains positively charged ionic species and their dissociated 
+anions. These cations then increase the ionic strength of H2O. As Hendon explains it: 
+“Water is more polar with the inclusion of dissolved point charges. These dissolved point 
+charges orientate in such a way that they minimise their charge locality by surrounding 
+themselves with their highly polarized materials of opposite polarity.” (Hendon and 
+Colonna-Dashwood, 2015). Thus cations strongly bind to electron-rich flavor compounds 
+
+ 
+ 
+11
+in coffee, and facilitate their extraction into water. Hendon’s work in 2014 demonstrated 
+that the two cations that are the most important in this regard are magnesium and 
+calcium. Another “impurity” that strongly affects the flavor of coffee is bicarbonate 
+(HCO-
+3, IUPAC hydrogencarbonate). Bicarbonate, a buffer, interacts with the solvated 
+molecules in a coffee solution and can alter the protonation of acids in the brew, 
+depending on the pKa. The concentration of bicarbonate in brewing water is important: in 
+too high concentrations it can remove the pleasurable and desirable acidity of a coffee 
+and result in chalky or flat flavors, at low levels it will prevent the presentation of 
+vinegary or sour acidity (Hendon and Colonna-Dashwood, 2015). Overall, water used for 
+coffee extraction must be a balance of general hardness (cationic concentration) which 
+will facilitate extraction, and carbonate hardness (buffer concentration) which will 
+control the acidity of the cup.  
+Cold Brew Extraction 
+Cold brew coffee is a product with growing market share – it can offer the 
+potential for a unique flavor profile, a position within the growing specialty coffee world, 
+and RTD (ready-to-drink) convenience (Sisel, 2016). Products touted as cold brew 
+coffee, also known in various places as “Dutch coffee”, are coffee beverages that are 
+extracted using low temperature and longer time than traditional hot brewed drip coffee 
+or espresso (Hwang, Kim, Kang, Kim, and Kim 2014). These beverages will be referred 
+to as cold water extraction (CWE) coffee. As previously discussed in the extraction 
+section, the different temperature of water gives CWE coffee an entirely different 
+extraction profile, because different compounds are extracted at different rates, and many 
+
+ 
+ 
+12
+coffee constituents have temperature dependent solubility (Bladyka, 2014). Many 
+producers of CWE coffee claim that it has lower acidity, improved taste and increased 
+smoothness when compared to traditional hot-brewed coffee (Sisel, 2016; Starbucks, 
+2018, Stumptown Coffee Roasters, 2018). However, there is little published data around 
+the exact chemical characteristics of CWE coffee to verify these claims (Hwang, 2016).  
+Cold brew coffee is most often produced either by dripping (percolation) or 
+steeping (decoction) (Kim and Kim, 2014). Generally, these extractions can be carried 
+out at different temperatures and still be considered CWE – some producers extract at 
+ambient temperatures, and some at refrigeration (Kim and Kim, 2014). These extractions 
+can be carried out over different periods of time – often ranging anywhere from 3 to 24 
+hours (Daeschel and others, 2014; Hwang and others, 2014). Another benefit of CWE 
+coffee is that it can be canned or bottled in a RTD format to be consumed at a later date 
+(Sisel, 2016). This presents the potential problem of microbial and sensorial shelf life.   
+Summary of previous research 
+Coffee is a complex field that has been studied frequently – however because of 
+the nature of cold-brew as an emerging product, there is still much to be researched. Kim 
+and Kim (2014) used HPLC to study the flavor-contributing non-volatile chemical 
+components (caffeine, chlorogenic acid, and trigonelline) of CWE-based coffee 
+depending on extraction time (3, 6, 9, 18 h) and extraction method (dripping vs steeping). 
+These researchers also investigated the flavor characteristics of the coffee samples by 
+using quantitative descriptive analysis (QDA). Based on the sensory data, there was a 
+significant difference (p<0.05) in the flavor characteristics between the two extraction 
+
+ 
+ 
+13
+methods, showing that the extraction method does create a different tasting product. 
+Furthermore, the sensory analysis via QDA also revealed that 18 hours was the preferred 
+extraction time for the panel. The HPLC data demonstrates that the flavor contributing 
+non-volatile components were significantly affected by extraction time and method (Kim 
+and Kim, 2014). Hwang and others (2014) investigated the changes in the flavor 
+compounds of CWE-based coffee resulting from different extraction times and storage 
+days. Fifty-six flavor compounds in cold coffee extracts were identified using headspace 
+GC/MS. One of the most significant findings from this study was that acetic acid, which 
+is a major contributor to typical coffee flavor, was not found in the analysis of the CWE 
+coffee, which supports the current thinking that CWE coffee has lower acidity than hot 
+brewed coffee.  However, the researchers did not do a side-by-side comparison of HWE 
+and CWE coffee.  
+Daeschel, Armbrust, and Vieru (2017) conducted a challenge study on the 
+survival of vegetative foodborne pathogens in CWE coffee, concluding that cold brew 
+does not favor the survival or growth of vegetative bacterial pathogens, most likely due to 
+the lack of microbial nutrients and the presence of antimicrobial factors within the coffee. 
+However, there is still work to be done to assess the risk of spore-forming pathogens in 
+CWE coffee, and to assess the shelf-life of cold brew based on sensorial quality 
+(Daeschel, Armbrust, and Vietru, 2017). 
+ Pérez-Martínez and others (2008) studied the effects of refrigerated storage on 
+HWE coffee on the basis of pH change. The article also develops a theory of the increase 
+of acidity of stored coffee brews over time. In 2013, Sopelana and others studied the 
+
+ 
+ 
+14
+effect of UHT pasteurization on hot brewed, bottle, refrigerated coffees. The authors used 
+a variety of tests including pH, microbiological colony count, HPLC, volatile analysis via 
+HPLC, antioxidant potential, and sensory analysis, to generate a large amount of data 
+about the two treatments. This group of researchers concluded that UHT pasteurization 
+results in a 60-day proposed shelf life for UHT pasteurized refrigerated coffee brews, and 
+a 20-day shelf life for untreated refrigerated coffee brews. However, there was no cold 
+water extraction coffee included in this study, and many manufacturers are wary of 
+pasteurizing cold brew, as there is potential for flavor degradation during heating 
+(Sopelana, Pérez-Martínez, López-Galilea, de Peña, and Cid, 2013).  
+One continuing area of research that still has much room to be explored is the 
+mechanism by which brewed coffee staling occurs. On the shelf life of desirable coffee 
+aroma, Hofmann and Schieberle demonstrated that pyrazinium compounds formed as 
+oxidation products of radical cations present in coffee can cause the covalent binding of 
+odor active thiols to melanoidins. This covalent binding ultimately has the effect of 
+decreasing certain sulfury-roasty aromas, which explains one mechanism of aroma 
+staling of brewed coffee (Hofmann and Schieberle, 2002). In 2013, Sopelana and others 
+noted that some have suggested that the development of sourness in stored coffee is due 
+to the hydrolysis of quinic and chlorogenic acid lactones, or the breakdown of 
+chlorogenic acid into caffeic and quinic acid (Sopelana and others, 2013, Lingle, 2011). 
+However, Pérez-Martínez and others (2008), note that many conclusions have been 
+drawn based on results from accelerated ageing studies that use unrealistic high 
+temperatures that do not accurately simulate the storage of coffee under refrigeration; 
+
+ 
+ 
+15
+they then conclude that “…further investigations should be carried out in order to know 
+more deeply which are the factors involved in the staling of this type of product stored at 
+room or refrigeration temperatures and with or without oxygen” (Pérez-Martínez and 
+others, 2008).  
+Conclusion 
+Overall, the literature is inconclusive in establishing an exact mechanism by 
+which cold coffee stales, pointing to the fact that coffee is biochemically complex and 
+active, and there is much more work to be done to understand the changes in brewed 
+coffee during storage. Further investigation is also needed to clarify the exact chemical 
+characteristics of cold brew to verify producers’ claims and allow for prediction of shelf 
+life. A deeper understanding of the influence of extraction temperature would also allow 
+for producers to make data-driven decisions when selecting brewing parameters.   
+References 
+AOAC International. 1994. AOAC official method 990.12. aerobic plate count in foods. 
+Dry Rehydratable Film (Petrifilm™ Aerobic Plate Count) Method . 
+Avelino J, Barboza B, Araya JC, Fonseca C, Davrieux F, Guyot B, Cilas C. 2005. Effects 
+of slope exposure, altitude and yield on coffee quality in two altitude terroirs of costa 
+rica, orosi and santa maría de dota. J Sci Food Agric 85(11):1869-76. 
+Baggenstoss J, Poisson L, Kaegi R, Perren R, Escher F. 2008. Coffee roasting and aroma 
+formation: Application of different time− temperature conditions. J Agric Food 
+Chem 56(14):5836-46. 
+Bladyka E. 2014. Coffee brewing: Wetting, hydrolysis & extraction revisited. Santa Ana, 
+CA: Specialty Coffee Association of America. 
+Cammenga HK, Eggers R., Hinz T., Steer A. and Waldmann C. 1997. Extraction in 
+coffee-processing and brewing. COLLOQUE scientifique international sur le café, 
+17. nairobi (kenya), juillet 20-25, 1997.. 
+
+ 
+ 
+16
+Chambers IV E and Wolf MB. 1996. Sensory testing methods. American Society for 
+Testing and Materials-ASTM. 
+Chambers E, Sanchez K, Phan UX, Miller R, Civille GV, Di Donfrancesco B. 2016. 
+Development of a “living” lexicon for descriptive sensory analysis of brewed coffee. 
+J Sens Stud 31(6):465-80. 
+Clarke R and Vitzthum O. 2008. Coffee: Recent developments. John Wiley & Sons. 
+Czerny M, Mayer F, Grosch W. 1999. Sensory study on the character impact odorants of 
+roasted arabica coffee. J Agric Food Chem 47(2):695-9. 
+Czerny M, Mayer F, Grosch W. 1999. Sensory study on the character impact odorants of 
+roasted arabica coffee. J Agric Food Chem 47(2):695-9. 
+Daeschel MA, Armbrust N, Vieru C. 2017. Survival of non-spore forming foodborne 
+pathogens in cold brewed coffee. Oregon State University . 
+Dalla Rosa M, Barbanti D, Lerici CR. 1990. Changes in coffee brews in relation to 
+storage temperature. J Sci Food Agric 50(2):227-35. 
+Encarnação JA, Farrell TL, Ryder A, Kraut NU, Williamson G. 2015. In vitro enzymic 
+hydrolysis of chlorogenic acids in coffee. Molecular Nutrition & Food Research 
+59(2):231-9. 
+Flament I and Bessière-Thomas Y. 2002. Coffee flavor chemistry. John Wiley & Sons. 
+Fox P and McSweeney P. 2004. Cheese: An overview. Cheese: Chemistry, Physics and 
+Microbiology 1:1-18. 
+Gloess AN, Schönbächler B, Klopprogge B, Lucio D, Chatelain K, Bongartz A, 
+Strittmatter A, Rast M, Yeretzian C. 2013. Comparison of nine common coffee 
+extraction methods: Instrumental and sensory analysis. European Food Research and 
+Technology 236(4):607-27. 
+Guttman D and Higuchi T. 1957. Reversible association of caffeine and of some caffeine 
+homologs in aqueous solution. Journal of the American Pharmaceutical Association 
+(Scientific Ed.) 46(1):4-10. 
+Heeger A, Kosińska-Cagnazzo A, Cantergiani E, Andlauer W. 2017. Bioactives of coffee 
+cherry pulp and its utilisation for production of cascara beverage. Food Chem 
+221:969-75. 
+
+ 
+ 
+17
+Hendon CH, Colonna-Dashwood L, Colonna-Dashwood M. 2014. The role of dissolved 
+cations in coffee extraction. J Agric Food Chem 62(21):4947-50. 
+Hofmann T and Schieberle P. 2002. Chemical interactions between odor-active thiols and 
+melanoidins involved in the aroma staling of coffee beverages. J Agric Food Chem 
+50(2):319-26. 
+Homma S. 2001. Chemistry II: Non-­‐Volatile compounds, part II. Coffee: Recent 
+Developments :50-67. 
+Hucke J and Maier HG. 1985. Quinic acid lactone in coffee. Z Lebensm Unters Forsch 
+180(6):479-84. 
+Hwang S, Kim K, Kang H, Kim J, Kim M. 2014. Studies on the flavor compounds of 
+dutch coffee by headspace GC-mass. Korean Journal of Food and Cookery Science 
+30(5):596-602. 
+Illy A and Viani R. 2005. Espresso coffee: The science of quality. Academic Press. 
+Illy E. 2002. The complexity of coffee. Sci Am 286(6):86-91. 
+Kamiyama M, Moon J, Jang HW, Shibamoto T. 2015. Role of degradation products of 
+chlorogenic acid in the antioxidant activity of roasted coffee. J Agric Food Chem 
+63(7):1996-2005. 
+Kim Aram and Kim Joo Shin. 2014. Flavor Induced Nonvolatile Chemical Composition 
+and Sensory Characteristics of Cold-Extracted Coffee by Extraction Method 
+(Filtration Vs Immersion) and Extraction Time. Korean Journal of Coffee Industry 3 
+(1): 1-9. 
+Lee TA, Kempthorne R, Hardy JK. 1992. Compositional changes in brewed coffee as a 
+function of brewing time. J Food Sci 57(6):1417-9. 
+López-Galilea I, Fournier N, Cid C, Guichard E. 2006. Changes in headspace volatile 
+concentrations of coffee brews caused by the roasting process and the brewing 
+procedure. J Agric Food Chem 54(22):8560-6. 
+Ludwig IA, Mena P, Calani L, Cid C, Del Rio D, Lean ME, Crozier A. 2014. Variations 
+in caffeine and chlorogenic acid contents of coffees: What are we drinking? Food & 
+Function 5(8):1718-26. 
+Nestlé acquires a majority stake in Blue Bottle Coffee at a valuation north of $700M 
+[Internet]; cSep 14, 2017. Available from: https://techcrunch.com/2017/09/14/nestle-
+acquires-a-majority-stake-in-blue-bottle-coffee/. 
+
+ 
+ 
+18
+Maeztu L, Sanz C, Andueza S, Paz de Pena M, Bello J, Cid C. 2001. Characterization of 
+espresso coffee aroma by static headspace GC− MS and sensory flavor profile. J 
+Agric Food Chem 49(11):5437-44. 
+Morales AF. 1989. Effect of holding-time on sensory quality of brewed coffee. Food 
+Quality and Preference 1(2):87-9. 
+Murray J, Delahunty C, Baxter I. 2001. Descriptive sensory analysis: Past, present and 
+future. Food Res Int 34(6):461-71. 
+National Center for Biotechnology Information. 2018. Caffeine. . 
+National Coffee Drinking Trends 2017 [Internet]; c2018. Available 
+from: http://www.ncausa.org/Industry-Resources/Market-Research/National-Coffee-
+Drinking-Trends-Report . 
+National Coffee Drinking Trends 2018 [Internet]. Available from: ncausa.org . 
+Nielsen SS. 2003. Food analysis. 3rd ed. New York: Kluwer Academic/Plenum 
+Publishers. 
+Osorio-Hernandez R, Guerra-Garcia LM, Ferreira-Tinôco IdF, Osorio-Saraz JA, 
+Aristizábal-Torres ID. 2015. Simulation of a thermal environment in two buildings 
+for the wet processing of coffee. Dyna 82(194):214-20. 
+Pangborn RM, Trabue IM, Little AC. 1971. Analysis of coffee, tea and artificially 
+flavored drinks prepared from mineralized waters. J Food Sci 36(2):355-62. 
+Parenti A, Guerrini L, Masella P, Spinelli S, Calamai L, Spugnoli P. 2014. Comparison 
+of espresso coffee brewing techniques. J Food Eng 121:112-7. 
+Pérez-Martínez M, Sopelana P, De Peña MP, Cid C. 2008. Effects of refrigeration and 
+oxygen on the coffee brew composition. European Food Research and Technology 
+227(6):1633-40. 
+Pérez-Martínez M, Sopelana P, De Pena MP, Cid C. 2008. Changes in volatile 
+compounds and overall aroma profile during storage of coffee brews at 4 and 25 C. J 
+Agric Food Chem 56(9):3145-54. 
+Petracco M. 2005. Percolation. Espresso Coffee: The Chemistry of Quality :259-89. 
+Petracco M. 2001. Technology IV: Beverage preparation: Brewing trends for the new 
+millennium. Coffee: Recent Developments :140-64. 
+
+ 
+ 
+19
+Rao S. 2010. Everything but espresso: Profesional coffee brewing techniques. . 
+Rao S. 2014. The coffee roaster's companion. Scott Rao. 
+Semmelroch P and Grosch W. 1996. Studies on character impact odorants of coffee 
+brews. J Agric Food Chem 44(2):537-43. 
+Sisel E. 2016. The strength of cold brew. Mintel Database . 
+Sopelana P, Pérez-Martínez M, López-Galilea I, de Peña MP, Cid C. 2013. Effect of ultra 
+high temperature (UHT) treatment on coffee brew stability. Food Res Int 50(2):682-
+90. 
+Starbucks. Introducing Starbucks® Bottled Cold Brew Coffee [Internet]; c2018. 
+Available from: https://www.starbucks.com/promo/bottledcoldbrew . 
+Stokes CN, O’Sullivan MG, Kerry JP. 2017. Hedonic and descriptive sensory evaluation 
+of instant and fresh coffee products. European Food Research and Technology 
+243(2):331-40. 
+Stumptown Coffee Roasters Cold Brew [Internet]; c2018. Available from: 
+coldbrew.com . 
+Uman E, Colonna-Dashwood M, Colonna-Dashwood L, Perger M, Klatt C, Leighton S, 
+Miller B, Butler KT, Melot BC, Speirs RW. 2016. The effect of bean origin and 
+temperature on grinding roasted coffee. Scientific Reports 6:24483. 
+Van der Stegen GHD and Van Duijn J. 1987. Analysis of normal organic acids coffee. 
+Proceedings of 12th ASIC colloquium, montreux. ASIC: Paris. 
+Verardo G, Cecconi F, Geatti P, Giumanini AG. 2002. New procedures for determination 
+of acids in coffee extracts, and observations on the development of acidity upon 
+ageing. Analytical and Bioanalytical Chemistry 374(5):879-85. 
+Wellinger M, Smrke S, Yeretzian C. 2017. Water for Extraction—Composition, 
+recommendations, and treatment. In: The craft and science of coffee. Elsevier. 381 p. 
+World Coffee Research. 2016. Sensory lexicon. 1st ed. College Station, TX: World 
+Coffee Research. 
+Yeretzian C, Jordan A, Badoud R, Lindinger W. 2002. From the green bean to the cup of 
+coffee: Investigating coffee roasting by on-line monitoring of volatiles. European 
+Food Research and Technology 214(2):92-104. 
+
+ 
+ 
+20
+CHAPTER TWO 
+AN INVESTIGATION OF THE SHELF LIFE OF COLD BREW COFFEE AND THE 
+INFLUENCE OF EXTRACTION TEMPERATURE USING CHEMICAL, 
+MICROBIAL, AND SENSORY ANALYSIS 
+ 
+Abstract 
+Cold brew coffee is a product with rapidly growing market share – it offers the 
+potential for high quality, a unique flavor profile, a position within the growing specialty 
+coffee world, and RTD (ready-to-drink) convenience. However, there is little published 
+information around the exact chemical and microbial characteristics of cold brew to 
+verify producers’ claims and allow for an accurate prediction of shelf life. This study 
+examined the shelf-life of cold and hot water extraction coffees based on sensory and 
+chemical profile and microbial growth, while also investigating the influence of 
+extraction temperature on the chemical and sensorial profile of cold water extraction 
+coffee. Based on the findings of this study, the shelf life of refrigerated cold and hot 
+brewed coffee is limited not by microbial stability, but rather by deterioration in sensory 
+attributes. Further work is recommended to elucidate the mechanisms of coffee staling in 
+a refrigerated environment, with particular interest in the degradation products of 
+chlorogenic acid, as a significant decline in chlorogenic acid concentration was found 
+over the storage period. Cold extracted coffees were found to be chemically and 
+organoleptically different beverages from coffees extracted at high temperatures; 
+specifically, the cold brewed coffees had higher sweetness and lower bitterness than the 
+hot extracted coffee, supporting claims made by producers of cold brew. Additionally, 
+
+ 
+ 
+21
+the cold brewed coffees had greater flavor stability over the storage time than the hot 
+brewed treatment.   
+Introduction 
+Coffee is a globally popular beverage – it is the second most consumed beverage 
+in the world after tea (Petracco, 2001). According to a report from the National Coffee 
+Association (NCA), in 2018, 64% of US consumers drink coffee daily. An increasing 
+amount of this coffee consumption in the US is specialty coffee, which can have varying 
+definitions. The NCA defines gourmet or specialty coffee as “coffee drunk hot or iced 
+that is brewed from premium whole bean or ground varieties. This includes espresso 
+based beverages, iced/frozen blended coffee, cold brew, and iced coffee infused with 
+nitrogen.” The same NCA report in 2017 shows that 59% of all coffee consumed in the 
+US is specialty or gourmet coffee. The growth of specialty coffee shops in the United 
+States, as well as the acquisition of specialty cafes by large food companies, make it clear 
+that there is an increasing appreciation, interest, and demand from consumers for high 
+quality coffees with unique flavors (Lynley, 2017).  
+In coffee’s often global journey from seed to cup, the first three main steps, 
+growth, harvest, processing, occur in the country of origin of coffee, at the coffee farm or 
+nearby processing center. The final three steps, roasting, grinding, and extraction take 
+place in the country of coffee consumption. This study will focus on the extraction of 
+coffee, but it is important to emphasize that all of the previous steps in the coffee journey 
+govern the chemical and physical components of the coffee bean that will be extracted 
+into the final beverage.  
+
+ 
+ 
+22
+Extraction Details 
+Extracting coffee is the aqueous solvation of the flavorsome, soluble compounds 
+in coffee which are mainly aprotic charge neutral organic compounds, organic acids, and 
+conjugate salts (Hendon, Colonna-Dashwood, and Colonna-Dashwood, 2014). 
+Extracting, or brewing coffee is the attempt to dissolve as many pleasing flavors from the 
+bean into the cup to create a balanced and tasty beverage, and this happens through the 
+intimate contact of water with roasted coffee solids (Petracco, 2005). 
+Chemically, the polarity of water allows it to solvate the polar constituents of a 
+coffee bean through either molecular or ionic dissolution (Bladyka, 2014; Wellinger and 
+others, 2017). In addition to solvation of soluble compounds, hydrolysis of larger and less 
+soluble compounds also occurs and is dependent on the temperature and pressure of the 
+extraction system (Cammenga and others, 1997). Nonpolar (hydrophobic) molecules will 
+dissolve in water at low levels through the formation of hydrate cages. (Hendon and 
+Colonna-Dashwood, 2015).  
+Physically, this can be understood in two basic stages; first the water contacts the 
+ground coffee, displacing gases, and dissolving the solids that are on the surface of the 
+grounds. While this is occurring, a second, slower process is occurring – the coffee 
+particles absorb the brewing water, causing them to swell as the water-soluble substances 
+within the particles solubilize and then diffuse to the surface of the particle and into the 
+coffee solution (Cammenga and others, 1997). 
+The soluble substances present in the roasted coffee seed vary widely, and not all 
+compounds within coffee have desirable flavors. There are at least 1800 chemical 
+
+ 
+ 
+23
+constituents in coffee, many of which have different extraction rates and different flavors 
+that they will contribute to the cup (Lee, and others, 1992). Thus extraction controls not 
+just the concentration of the beverage, but also the chemical identity. In order to avoid 
+both underextraction, resulting in an overly acidic and sweet brew, and overextraction, 
+resulting in bitterness and astringency, the current thinking within the specialty coffee 
+industry is that an extraction of 18-22% of the roasted coffee seed by weight is ideal 
+(Lingle, 2011). This extraction range generally balances sweetness, acidity, and bitterness 
+and results in the highest quality beverage a coffee can offer (Rao, 2010).  
+The extraction percentage of coffee is determined by the rate and quality of an 
+extraction. The extraction rate is dependent on the specific extraction surface (particle 
+size), the temperature of the solvent/solid interaction, the agitation of the brewing matrix, 
+and the solid/solvent ratio (Rao, 2010; Uman and others, 2016). The final solute 
+concentration is then determined by the extraction rate and the extraction time (Rao, 
+2010). The quality of the extraction is dependent on the slurry temperature, the 
+distribution of the particle size, the contact size, the specific water chemistry, the 
+extraction time, and the uniformity of the extraction. (Rao, 2010) 
+Cold brew extraction 
+Cold brew coffee is a product with growing market share – it can offer the 
+potential for a unique flavor profile, a position within the growing specialty coffee world, 
+and RTD (ready-to-drink) convenience (Sisel, 2016). Products touted as cold brew 
+coffee, also known in various places as “Dutch coffee”, are coffee beverages that are 
+extracted using low temperature and longer time than traditional hot brewed drip coffee 
+
+ 
+ 
+24
+or espresso (Hwang, and others, 2014). The different temperature of water gives cold 
+water extracted (CWE) coffee an entirely different extraction profile, as different 
+compounds are extracted at different rates, and many coffee constituents have 
+temperature dependent solubility (Bladyka, 2014). Many producers of CWE coffee claim 
+that it has lower acidity, improved taste and increased smoothness when compared to 
+traditional hot-brewed coffee (Sisel, 2016; Starbucks, 2018, Stumptown Coffee Roasters, 
+2018). However, there is little published data around the exact chemical characteristics of 
+CWE coffee to verify these claims (Hwang, 2016).  
+Cold brew coffee is most often produced either by dripping (percolation) or 
+steeping (decoction) (Kim and Kim, 2014). Generally, these extractions can be carried 
+out at different temperatures and still be considered CWE – some producers extract at 
+ambient temperatures, and some at refrigeration (Kim and Kim, 2014). These extractions 
+can be carried out over different periods of time – often ranging anywhere from 3 to 24 
+hours (Daeschel and others, 2014; Hwang and others, 2014). Another benefit of CWE 
+coffee is that it can be canned or bottled in a RTD format to be consumed at a later date 
+(Sisel, 2016). This presents the potential problem of microbial and sensorial shelf life. 
+Coffee is a complex field that has been studied frequently – however because of the 
+nature of cold-brew as an emerging product, there is still much to be researched, 
+especially regarding shelf-life and the influence of extraction method and temperature. 
+In this study, three extraction treatments of coffee were brewed, bottled, and 
+analyzed over a period of 42 days. The shelf-life of refrigerated cold and hot brewed 
+coffees were investigated based on sensory and chemical profile and microbial growth, 
+
+ 
+ 
+25
+while also examining the influence of extraction temperature on the chemical and 
+sensorial profile of cold water extraction coffee. Because of the dual purpose of this 
+study, the experiment was structured as a split-plot design: there were multiple 
+independent variables (time and extraction temperature) that affected a large number of 
+dependent variables that were measured. This experimental design, as well as the 
+statistical techniques used, allowed the study of both the effect of time and extraction 
+method on the coffee beverages.  
+Materials and Methods 
+1.    Sample Preparation 
+This study was divided into three treatment groups based on the extraction 
+method of the same roasted and ground coffee. All three treatments used the same coffee, 
+which was obtained from Due South Coffee in Greenville. SC. All coffee used for the 
+three treatments was of the same geographic origin, processing method, roast level and 
+grind size. Specifically, it was Due South’s Brazilian Black Diamond coffee, a natural-
+processed coffee from the farm Vista Elegre in the Cerrado Mineiro region of Brazil. 
+This region has altitudes varying between 800 and 1000 meters above sea level. The 
+Arabica cultivar of the coffee used was Acaiá Cerrado, and it was imported to the US by 
+Ally Coffee. The tasting notes from the roaster were “Brown Sugar, Chocolate, and 
+Smooth.” The coffee was roasted 6 days before extraction and the roast degree was 
+quantified with a Javalytics roast analyzer as Gourmet 72.9. 
+The coffee used for all treatments was freshly ground using a Mahlkönig EK 43 
+(Mahlkönig, Hamburg, Germany) with a grinder burr aperture of 8, and the particle size 
+
+ 
+ 
+26
+was quantified using a standard set of coffee sieves, as shown in Table 2.1. 50% of the 
+ground particles were 850-710µm. In order to ensure a consistent extraction, all of the 
+water for extracting each treatment of coffee was standardized by adding the same ratio 
+of minerals to distilled water using Third Wave Water mineralization packets (Third 
+Wave Water, Cedarville, OH), (Table 2). All treatments were prepared in triplicate and 
+assigned a randomized three-digit code, resulting in nine groups of samples. 
+Table 2.1: Particle Size of Ground Coffee 
+µm 
+% particles 
+1,180 
+5 
+850 
+35 
+710 
+50 
+600 
+5 
+ 
+Table 2.2: Mineral Content of Water for Extraction 
+Mineral 
+Quantity 
+[Mg2+] 
+85 ppm 
+[Ca2+] 
+45 ppm 
+[HCO3
+-] 
+20 ppm 
+ 
+ 
+2.   Cold Water Extraction 
+Cold Water Extraction (CWE) coffee was prepared using an infusion method (full 
+immersion). The coffee was ground to the particle size specified in Table 2.2, and filled 
+into a Toddy cold brew commercial filter bag (Toddy LLC, Fort Collins, CO). This bag 
+was then placed in a 3-gallon Cambro brewing vessel and mineral standardized water 
+(Table 2.1) at 4ºC was added at a coffee to water ratio of 1:14. After an extraction time of 
+
+ 
+ 
+27
+4 hours in a refrigerator set to 4ºC, the filter bag was removed and the resulting coffee 
+solution from each replicate was bottled. 
+3.   Ambient Water Extraction 
+The Ambient Water Extraction (AWE) coffee was prepared in the same way as the CWE, 
+but at ambient (25ºC) temperatures.  
+4.   Hot Water Extraction 
+Hot Water Extraction coffee was prepared by a hot drip method in a Bonavita BV1900TS 
+(Bonavita, Seattle, WA) at a coffee-to-water ratio of 1:18 and a water temperature of 
+~97ºC. Immediately after brewing, the coffee was flash chilled by filling of a retort bag 
+and immersion into an ice bath (coffee chilled to 50ºF in ~10 minutes). 
+5.   Bottling 
+All three treatments were performed in triplicate, and the samples from each group were 
+bottled into fifty 120mL amber glass bottles, sealed with a plastic screw cap, labeled, and 
+stored at 7ºC. A randomization plan was created that determined which tests would be 
+administered to each bottle at each date. All of the treatment groups were analyzed at 0, 
+7, 14, 21, 28, and 42 days by the following analytical tests. An outline of the tests 
+performed is in Table 2.3.  
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+28
+Table 2.3: Schedule of analytical tests performed on coffee treatments 
+Day 
+Analysis Performed 
+0 
+Refractive Index/TDS, pH and titratable acidity, GC/MS, 
+Sensory Analysis, and Microbiological Analysis 
+7 
+pH and Titratable acidity, Sensory Analysis, and 
+Microbiological Analysis 
+14 
+pH and Titratable Acidity, HPLC, Sensory Analysis, and 
+Microbiological Analysis 
+21 
+Refractive Index/TDS, pH and Titratable acidity, HPLC, 
+GC/MS, and Microbiological Analysis 
+28 
+pH and Titratable acidity, Sensory Analysis, and 
+Microbiological Analysis 
+42 
+Refractive Index/TDS, pH and titratable acidity, HPLC, 
+GC/MS Sensory Analysis, Microbiological Analysis 
+ 
+Analytical Techniques 
+1.   Refractive Index / Total Dissolved Solids 
+The percentage of total dissolved solids (%TDS) in each of the samples was 
+measured using a specialized coffee refractometer (VST, Inc). First, the refractometer 
+was calibrated using distilled water, then a clean plastic pipette was used to transfer 3 
+drops of the sample to the sample well of the refractometer. The sample was allowed to 
+equilibrate, and then the %TDS obtained and recorded.  
+2.   HPLC/Non-volatile Analysis 
+The concentration of a chlorogenic acid, 3-O-caffeoylquinic acid (3-CQA), and 
+caffeine in the brewed coffees in each of the sample groups were measured at day 21 and 
+42 using high performance liquid chromatography (HPLC) connected with a UV 
+detector. Sample preparation was performed following the methods in Gloess and others, 
+
+ 
+ 
+29
+2013. Briefly, 2g of the brewed coffee sample was added to 500µl Carrez I (30% ZnSO4 
+aqueous solution), 500µl Carrez II (15% potassium hexacyano ferrate trihydrate), 500µl 
+methanol, and then diluted with 25 ml H2O and filtered with a syringe filter. The samples 
+were then analyzed in triplicate using a Waters 1525 binary HPLC pump with a Waters 
+717+ autosampler, degasser and thermostat, and a Waters 2487 dual absorbance detector. 
+Mobile phase A was H2O with 0.1% formic acid, and mobile phase B was acetonitrile 
+with 0.1% formic acid. The flow rate was 0.5 ml / minute in isocratic conditions of 30% 
+in 40 minutes. The column used was a Gemini 5u C18 110A with a size of 150 mm x 
+4.60 mm x 5 microns. For the analysis of caffeine, the detector was set to 272nm in single 
+wavelength mode, and for 3-O-caffeoylquinic acid (3CQA, a chlorogenic acid) the 
+detector was set to 325nm. The compounds were identified and quantified using 
+commercially available HPLC-grade standards. 
+3.   pH and Titratable Acidity 
+The pH and titratable acidity (TA) in the brewed coffees in each of the sample 
+groups was measured at 0, 7, 14, 21, 28, and 42 days. The pH was measured in duplicate 
+at 25ºC using an Orion 420A pH meter, calibrated using a two-point calibration. For the 
+titratable acidity, also measured in duplicate, 40mL of each sample was titrated with 
+0.1M NaOH to a pH of 8.0, and the volume of NaOH recorded.  
+4.   Headspace Analysis – GC/MS  
+The headspace intensity of each of the sample groups was measured at 0, 21 and 
+42 days using gas chromatography/mass spectrometry (GC/MS). Ten mL of each sample 
+was placed into clean 15 ml GC-MS vials, capped with Teflon™-lined septa, sealed, then 
+
+ 
+ 
+30
+analyzed using a gas chromatograph/mass selective detector system (Hewlett Packard 
+7694 headspace sampler, Hewlett Packard HP 6890 series gas chromatograph, and 
+Hewlett Packard HP 5973 mass selective detector (Hewlett Packard, Wilmington, 
+DE). The sample was equilibrated in the autosampler for 30 minutes at 90ºC, with a 
+loop/valve temperature of 110ºC and a transfer line temperature of 115ºC. The gas 
+headspace was then automatically injected onto a 30-meter-long HP 5 MS capillary 
+column with a 0.25 µm internal diameter. The GC oven was programmed for a time-
+temperature profile of: 35ºC for 1 min, followed by a 3ºC/min ramp to 100ºC, then 
+5ºC/min to 220ºC, with a total runtime of 46.67 min. The data analysis was performed 
+with HP Chem Chemstation Integrator, and the identification of volatiles was based on 
+the comparison of retention times to authentic standards and computer matching of mass 
+spectra to a reference library (Hewlett Packard).  Although many compounds were 
+identified, 11 compounds that have a majority contribution to typical coffee flavor, based 
+on Flament and Bessière-Thomas’s work, were chosen and summed in order to study the 
+headspace of the samples (Flament and Bessière-Thomas 2002). The integrated 
+intensities of the compounds chosen were then summed to give a headspace intensity 
+(Gloess and others, 2013). 
+5.   Microbiological Growth – APC and Psychrotrophic Count 
+All of the brewed coffees in each of the sample groups were tested for 
+microbiological growth at 0, 7, 14, 21, 28, and 42 days. Enumeration of microbiological 
+growth was achieved with a total aerobic plate count using standard plate count 
+procedures as well as a psychotropic count. All plate counts were performed with 3M 
+
+ 
+ 
+31
+Petrifilm and followed procedures as outlined in 3M Petrifilm Aerobic Count Plate 
+Interpretation Guide and AOAC official method 990.12. Aseptic technique was followed, 
+and all inoculation and preparation of plates was performed under a laminar air flow 
+hood. Briefly, 1 ml of each sample was placed onto the medium using a sterile pipette tip, 
+and the inoculum was evenly distributed over a circular area using the 3M Petrifilm 
+spreader. The aerobic plate count was performed in duplicate, and two dilutions were 
+used: 100 and 10-1. For the aerobic plate count, the plates were then incubated for 48 
+hours at 35ºC and any microbiological growth was enumerated on a colony counter 
+following the counting guidelines in AOAC 990.12 (AOAC, 1994). For the 
+psychrotrophic count, the plates were incubated for 10 days at 7ºC and counted in the 
+same manner.  
+6.   Sensory Descriptive Analysis 
+The sensorial quality shelf life of the coffee extracts was determined by use of a 
+blind sensory descriptive analysis, using trained panel of five coffee professionals 
+evaluating the sensory attributes of the coffees over a period of 42 days (adapted from 
+methods in Gloess and others, 2013, and Pérez-Martínez and others, 2008, Stokes and 
+others, 2017). The panel was made up of pre-trained coffee professionals from green 
+coffee importer Ally Coffee and roaster Due South Coffee that are engaged in cupping 
+coffee at least once a week. Using pre-trained professionals reduced the amount of pre-
+training that needed to be administered and allowed for a smaller panel to be used.  
+This sensory panel made extensive use of the World Coffee Research (WCR) 
+Sensory Lexicon, “a universal language of coffee’s sensory qualities, and tool for 
+
+ 
+ 
+32
+measuring them.” (World Coffee Research, 2016; Edgar and others, 2016). This sensory 
+lexicon is based upon hundreds of attributes with definitions, and commercially available 
+reference samples that are scaled with intensities. Before the descriptive analysis began, 
+the authors conducted a calibration session that consisted of tasting references according 
+to the coffee lexicon, and discussing and standardizing terms used in the panel, and 
+tasting commercially available cold brews.  
+The members of the panel evaluated all three treatment groups (extraction 
+methods) in triplicate. The evaluations all took place in Ally Coffee’s cupping room. The 
+samples were presented monadically, in a randomized order, in 120ml amber glass 
+bottles, labeled with 3-digit randomly coded numbers, and poured into a white porcelain 
+cupping bowl. The serving temperature was 45ºF. The panelists evaluated each sample 
+for the intensity of thirteen sensory attributes in six categories (Table 2.4) on a scale from 
+0 to 15 (0 = none, 2 = barely detectable, 6 = slightly intense, 8 = moderately intense, 10 = 
+intense, 12-15 = very intense). Each of the judges’ scores was compiled and statistically 
+analyzed to create a sensory score for each sample. The sensory form that was used to 
+evaluate the coffees can be found in Appendix A1.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+33
+Table 2.4: Guide to Sensory Attributes (adapted from WCR Sensory Lexicon)  
+Attribute 
+Definition 
+Overall 
+Acceptability 
+Overall acceptance of the sample 
+Acidity 
+The fundamental taste factor associated with a citric acid solution. 
+Sweetness 
+Fundamental taste sensation of which sucrose is typical. Generally associated 
+with sweet aroma descriptors such as fruity, chocolate and caramel. 
+Bitterness 
+The fundamental taste factor associated with a caffeine solution 
+Astringency / 
+Mouth Drying 
+Characteristic of an after-taste sensation consistent of a drying effect in the 
+mouth. A drying, puckering, or tingling sensation on the surface and/or edge of 
+the tongue and mouth.  
+Longevity 
+Persistence of flavor in the mouth; the time that the full, integrated sensory 
+experience sustains itself in the mouth and after swallowing.  
+Stale 
+The flavor characterized by a lack of freshness 
+Papery 
+The aromatic associated with white paper cups.  
+Musty/Earthy 
+The somewhat sweet, heavy aromatic associated with decaying vegetation and 
+damp, black soil.  
+Fermented 
+The pungent, sweet, slightly sour, sometimes yeasty, alcohol-like aromatic 
+characteristic of fermented fruits or sugar or over-proofed dough. 
+Over-Ripe 
+The sweet, slightly sour, damp, musty/earthy aromatic characteristic of fruit or 
+vegetable past their optimum ripeness. 
+Sour 
+Excessively sharp, biting, unpleasant acidity 
+Winey 
+The sharp, pungent, somewhat fruity, alcohol-like aromatic associated with wine.  
+Medicinal 
+A clean, sterile aromatic characteristic of antiseptic-like products such as Band-
+Aids, alcohol, and iodine.  
+Rubber 
+A dark, heavy, slightly sharp, and pungent aromatic associated with rubber.  
+Skunky 
+A combination of aromatic associated with skunks 
+Hay-like 
+The lightly sweet, dry, dusty aromatic with slight green character associated with 
+dry grasses.  
+Herb-like 
+The aromatic commonly associated with green herbs that may be characterized as 
+sweet, slightly pungent, and slightly bitter.   
+Under-Ripe 
+An aromatic found in green/under-ripe fruit. 
+Aroma 
+Intensity 
+Strength of the aroma – evaluated by smell as well as intensity of volatile flavor 
+when drinking 
+Overall 
+Acceptability 
+Overall acceptance of the sample 
+Mouthfeel / 
+Thickness 
+ 
+The thickness of a sample in the mouth 
+Amplitude 
+Overall impression and impact of the product longevity, blending of sensory 
+experience, longevity, body, fullness, flavor and aroma blending together.  
+
+ 
+ 
+34
+7.   Statistical Analysis 
+A randomized design was used for the sampling and assigning of each of the 50 
+bottles of the three treatments in triplicate to each test on each sampling date. The 
+MIXED procedure from Statistical Analysis Software was used to analyze the data, and 
+comparison of means was done using Fisher’s LSD method at a significance level of 
+0.05. 
+Results 
+The purpose of this study was to examine the shelf-life of cold water extraction 
+coffees based on sensory and chemical profile and microbial growth, while also 
+investigating the influence of extraction temperature on the chemical and sensorial profile 
+of cold water extraction coffee. Because of the dual purpose of this study, the experiment 
+was structured as a split-plot design – meaning there were multiple independent variables 
+(time and extraction temperature) that affected a large number of dependent variables that 
+were measured. This experimental design, as well as the statistical techniques used, 
+allowed the study of both the effect of time and extraction method on the coffee 
+beverages. For the purposes of this study, shelf life was examined by studying the effect 
+of time – the changes occurring from day 0 to day 42 – whereas the influence of 
+extraction temperature and method was primarily determined by examining the 
+differences between the treatments at day 0. 
+ 
+ 
+ 
+
+ 
+ 
+35
+ 
+1. Total Dissolved Solids 
+The AWE treatment group had the highest mean %TDS, followed by CWE, with HWE at 
+the lowest. As expected, the mean %TDS did not change significantly over time (Figure 
+2.1).  
+ 
+ 
+Figure 2.1: Graph of the concentration of total dissolved solids in each extraction 
+treatment at days 0, 21, and 42, expressed in %TDS. 
+ 
+2. Caffeine and CQA Analysis 
+At day 21, when the first caffeine analysis was performed, there was not a 
+statistically significant difference in the mean concentration of caffeine between the three 
+treatment groups. Interestingly, the CWE and HWE treatment groups did exhibit a 
+significant decrease in the mean caffeine concentration from day 21 to day 42. However, 
+1.66
+1.67
+1.63
+1.49
+1.50
+1.50
+1.39
+1.43
+1.41
+1
+1.1
+1.2
+1.3
+1.4
+1.5
+1.6
+1.7
+1.8
+1.9
+2
+0
+21
+42
+%TDS
+DAY
+Total Dissolved Solids
+AWE
+CWE
+HWE
+
+ 
+ 
+36
+AWE did not exhibit this significant decrease. As Figure 2.2 shows, there is not a clear 
+trend in the caffeine concentration; based on these data, neither time nor extraction 
+method time had a clear effect on caffeine concentration in the coffee beverages.  
+ 
+Figure 2.2: Graph of the concentration of caffeine in each extraction treatment at days 21 
+and 42, expressed in ppm. 
+ 
+The mean CQA concentration between the three treatment groups was not statistically 
+different at either sampling date. However, there was a significant decrease in the mean 
+concentration of CQA in all three treatment groups from day 21 to 42. As Figure 2.3 
+indicates, this is a clear trend across all three groups. Thus time of storage had a clear 
+effect on chlorogenic acid concentration in the coffee beverages.  
+167.042
+147.849
+221.609
+171.563
+174.111
+85.122
+0
+50
+100
+150
+200
+250
+300
+21
+42
+Caffeine Concentration (ppm)
+DAY
+Caffeine Concentration
+AWE
+CWE
+HWE
+
+ 
+ 
+37
+ 
+Figure 2.3: Graph of the concentration of 3-CQA in each extraction treatment at days 21 
+and 42, expressed in ppm.  
+ 
+3. pH and Titratable Acidity 
+The extraction treatment did affect the pH of the coffee beverages. As Figure 2.4 
+shows, at day 0, HWE had the lowest pH value, followed by AWE and then CWE. The 
+CWE and AWE did have significantly lower hydrogen ion concentration (measured via 
+pH) than the hot brewed treatment (HWE). This suggests that extraction temperature had 
+a negative correlation with pH: the higher the temperature the coffee was extracted at, the 
+lower the pH. By day 42, the pH of the AWE and CWE were not significantly different 
+from each other, but the mean pH of HWE was still significantly lower than the other two 
+treatments.  
+ 
+1356.05
+356.78
+1157.45
+345.27
+1233.3
+308.51
+300
+400
+500
+600
+700
+800
+900
+1000
+1100
+1200
+1300
+1400
+21
+42
+3-­‐CQA	  CONCETRATION	  (PPM)
+DAY
+3-CQA Concentration
+AWE
+CWE
+HWE
+
+ 
+ 
+38
+There was a statistically significant decrease in the mean pH of all three treatment groups 
+from day 0 to day 42. This indicates that over the 42-day testing period, the concentration 
+of H+ ions increased with time in all of the coffee beverages.  
+Figure 2.4: Graph of the pH of each extraction treatment at days 0, 7, 14, 21, 28, and 42.  
+ 
+Extraction temperature also had an effect on titratable acidity, however, the trend 
+was not the same as pH. At days 0, 14, 28, and 42 all three treatment groups had 
+significantly different TA (Figure 2.5) Overall HWE had the lowest TA, followed by 
+CWE and then AWE. Thus the coffees that would be considered cold brewed (AWE and 
+CWE) had higher titratable acidity than the hot extracted coffee.  
+5.23
+5.23
+5.21
+5.17
+5.14
+5.12
+5.32
+5.23
+5.25
+5.19
+5.19
+5.15
+5.11
+5.13
+5.14
+5.06
+5.07
+5.04
+5
+5.1
+5.2
+5.3
+5.4
+0
+7
+14
+21
+28
+35
+42
+Mean pH
+DAY
+pH of Extraction Treatments
+AWE
+CWE
+HWE
+
+ 
+ 
+39
+ 
+The mean titratable acidity, measured in mL of 0.1M NaOH per 40mL of coffee, 
+increased over the 42-day period in all three treatments, however the increase was only 
+statistically significant for the CWE treatment group (Figure 2.5). This trend agrees with 
+the decrease in pH over the 42 days.  
+ 
+ 
+Figure 2.5: Graph of the TA of each extraction treatment at days 0, 7, 14, 21, 28, and 42, 
+expressed in mL of 0.1M NaOH added to 40mL of sample.  
+ 
+4. GC/MS Headspace Analysis 
+The mean headspace intensity, measured in intensity counts, was highest in the 
+CWE coffee for all three sampling dates (Figure 2.6). At days 0 and 42, the mean 
+headspace intensity of CWE and HWE treatment groups were statistically different from 
+5.68
+5.60
+5.77
+5.70
+5.85
+5.92
+5.25
+5.47
+5.38
+5.48
+5.35
+5.55
+4.27
+4.37
+4.18
+4.34
+4.27
+4.50
+4
+4.2
+4.4
+4.6
+4.8
+5
+5.2
+5.4
+5.6
+5.8
+6
+0
+7
+14
+21
+28
+35
+42
+mL 0.1M NaOH / 40mL Coffee
+DAY
+TA of Extraction Treatments
+AWE
+CWE
+HWE
+
+ 
+ 
+40
+each other, but not from AWE. Each treatment group did not exhibit a significant change 
+across the three sampling dates – meaning time did not have an effect on the headspace 
+intensity, but the extraction treatment did.  
+ 
+Figure 2.6: Graph of the headspace intensity of each extraction treatment at days 0, 21, 
+42, expressed in log10 intensity counts.  
+ 
+5. Microbiological Growth (TPC and Psychrotrophic count) 
+For all sampling dates, (0, 7, 14, 21, 28, and 42 days) all samples were <25 
+CFU/mL for both the total aerobic count, and for the psychrotrophic count. As all 
+samples were below the countable range, no statistical analysis was performed. However, 
+it can be assumed that there was no detectable aerobic or psychrotrophic growth over the 
+42-day period. 
+ 
+7.68108
+7.64304
+7.65185
+7.71831
+7.80887
+7.75756
+7.54129
+7.41211
+7.51642
+7.4
+7.5
+7.6
+7.7
+7.8
+7.9
+8
+0
+21
+42
+Log10 Intensity Counts 
+DAY
+Headspace Intensity
+AWE
+CWE
+HWE
+
+ 
+ 
+41
+6. Sensory Descriptive Analysis 
+6.1 Aroma  
+Storage time did not have an effect on aroma of the coffee beverages: the mean 
+aroma intensity score did not significantly change over the 42-day period for any of the 
+treatment groups (Figure 2.7). The only significant difference in aroma intensity score 
+between the three treatments was at day 0, when the CWE scored significantly lower than 
+AWE and HWE. 
+ 
+ 
+Figure 2.7: Graph of the mean aroma score for each extraction treatment at days 0, 7, 14, 
+28, and 42 days. Samples were scored on a scale from 0 to 15. 
+ 
+6.2 Texture 
+Extraction method and storage time had little effect on mouthfeel.  The mean 
+mouthfeel score also did not significantly change over the 42-day period for any of the 
+4.10
+3.47
+2.41
+3.50
+3.80
+3.10
+2.67
+2.90
+3.67
+3.17
+4.03
+2.65
+2.37
+3.25
+3.97
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+7
+14
+21
+28
+35
+42
+Mean Aroma Score
+DAY
+AROMA
+AWE
+CWE
+HWE
+
+ 
+ 
+42
+treatment groups. The only significant difference in mouthfeel between the three 
+treatments was at day 0, when the CWE scored significantly lower than AWE and HWE. 
+ 
+Figure 2.8: Graph of the mean mouthfeel score for each extraction treatment at days 0, 7, 
+14, 28, and 42 days. Samples were scored on a scale from 0 to 15. 
+ 
+6.3 Flavor Spectrum 
+The extraction treatment did have an effect on the bitterness perceived in the 
+coffee beverages, as shown in Figure 2.9. At days 0 and 42, the mean bitterness score was 
+significantly higher in the HWE treatment than the other two treatment groups. However, 
+the differences in bitterness between the treatments were nonsignificant on all the other 
+sampling dates. When looking at the effect of time over the 42-day period, there was a 
+significant decrease in bitterness for all treatment groups.  
+3.20
+3.87
+3.22
+3.40
+3.67
+3.13
+2.57
+2.77
+3.47
+2.97
+2.78
+3.46
+2.97
+3.17
+3.33
+0
+2
+4
+6
+8
+0
+7
+14
+21
+28
+35
+42
+MOUTHFEEL MEAN SCORE
+DAY
+MOUTHFEEL
+AWE
+CWE
+HWE
+
+ 
+ 
+43
+ 
+Figure 2.9: Graph of the mean bitterness score for each extraction treatment at days 0, 7, 
+14, 28, and 42 days. Samples were scored on a scale from 0 to 15. 
+ 
+The only significant differences in acidity between the three treatments were at 
+days 28 and 42 (Figure 2.10). HWE had significantly lower mean acidity scores than 
+CWE and AWE at day 28, and significantly lower scores than AWE at day 42. However, 
+this difference did not appear until the last two sampling dates, and was not apparent at 
+the beginning of the study. Overall, all of the treatments exhibited a nonsignificant 
+increase in mean acidity score over the 42 days.  
+5.33
+3.67
+3.94
+3.21
+3.17
+4.93
+3.03
+3.70
+3.40
+2.63
+6.77
+4.17
+4.13
+4.48
+4.50
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+7
+14
+21
+28
+35
+42
+BITTERNESS MEAN SCORE
+DAY
+BITTERNESS
+AWE
+CWE
+HWE
+
+ 
+ 
+44
+ 
+Figure 2.10: Graph of the mean acidity score for each extraction treatment at days 0, 7, 
+14, 28, and 42 days. Samples were scored on a scale from 0 to 15. 
+ 
+For the effect of time, the mean sweetness score did not significantly change over 
+the 42-day period for CWE and AWE (Figure 2.11). HWE did have an increase in mean 
+sweetness score at day 7, but the score then returned to its prior baseline for the rest of 
+the sampling dates. Between the extraction treatments, HWE exhibited a lower mean 
+sweetness score than both the AWE and CWE treatments across all sampling dates. This 
+difference was statistically significant at days 0 and 42.   
+2.87
+2.47
+2.80
+3.30
+3.30
+2.53
+2.50
+2.43
+3.17
+3.17
+2.23
+2.23
+2.13
+2.38
+2.60
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+7
+14
+21
+28
+35
+42
+ACIDITY MEAN SCORE
+DAY
+ACIDITY
+AWE
+CWE
+HWE
+
+ 
+ 
+45
+ 
+Figure 2.11: Graph of the mean acidity score for each extraction treatment at days 0, 7, 
+14, 28, and 42 days. Samples were scored on a scale from 0 to 15. 
+ 
+Over the 42-day period, astringency fluctuated in the samples, but comparing the 
+mean astringency score of day 0 and 42, there were no significant changes for all three 
+treatments (Figure 2.12). For the effect of extraction method, there was only a difference 
+at day 14, when CWE had significantly higher mean astringency score. Overall, 
+astringency was not very effected by extraction method or time in this study.  
+2.87
+3.47
+2.70
+2.79
+3.10
+3.20
+3.37
+2.80
+3.06
+3.17
+1.83
+2.74
+1.90
+1.90
+1.90
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+7
+14
+21
+28
+35
+42
+SWEETNESS MEAN SCORE
+DAY
+SWEETNESS
+AWE
+CWE
+HWE
+
+ 
+ 
+46
+  
+Figure 2.12: Graph of the mean astringency score for each extraction treatment at days 0, 
+7, 14, 28, and 42 days. Samples were scored on a scale from 0 to 15. 
+ 
+Similarly, the mean longevity score fluctuated in the samples over the 42-day 
+sampling period, but the data do not show any clear trend (Figure 2.12). All three 
+treatment groups had similar longevity scores for all of the sampling dates except for day 
+42, where HWE was scored significantly higher than CWE, but not AWE.  
+ 
+3.07
+1.83
+1.80
+1.34
+2.30
+2.67
+1.57
+3.37
+1.76
+2.33
+3.60
+2.02
+1.87
+1.99
+2.97
+0
+1
+2
+3
+4
+5
+6
+0
+7
+14
+21
+28
+35
+42
+Mean Astrigency Score
+DAY
+ASTRINGENCY
+AWE
+CWE
+HWE
+
+ 
+ 
+47
+ 
+Figure 2.13: Graph of the mean longevity score for each extraction treatment at days 0, 
+7, 14, 28, and 42 days. Samples were scored on a scale from 0 to 15. 
+ 
+In summary of the changes in sensory scores for flavor profile, at day 0, 
+considered the best case to compare the effect extraction method had on immediate flavor 
+profile, the cold brew treatments had significantly lower mean bitterness scores and 
+higher mean sweetness scores (Figure 2.9 and 2.11). Differences between extraction 
+method in mean acidity, astringency, and longevity were nonsignificant at day 0 (Figures 
+2.10, 2.12, and 2.13). Figure 2.14 also summarizes these flavor profile changes.  
+The storage time also had significant effects on the flavor profile. Across all treatment 
+groups, bitterness significantly decreased, and acidity nonsignificantly increased (Figure 
+2.9 and 2.10). Sweetness, astringency, and longevity mean scores fluctuated but did not 
+have any clear trends over time (Figure 2.11, 2.12, and 2.13).  
+ 
+ 
+4.17
+3.97
+3.77
+4.27
+4.27
+4.70
+2.98
+3.30
+4.62
+3.67
+3.96
+3.60
+3.93
+3.58
+4.93
+0
+1
+2
+3
+4
+5
+6
+0
+7
+14
+21
+28
+35
+42
+Mean Longevity Score
+DAY
+LONGEVITY
+AWE
+CWE
+HWE
+
+ 
+ 
+48
+ 
+ 
+Figure 2.14: Graph of the combined flavor profile of each extraction treatment at days 0 
+and 42. Samples were scored on a scale from 0 to 15. 
+ 
+6.4 Off-Flavors 
+An area of particular interest in this study was the development of off-flavors in 
+the stored coffee beverages. The four main categories of off-flavors were sour-fermented-
+winey-overripe, papery-musty-stale-earthy, chemical-rubber-skunky-medicinal, and 
+vegetative-hay-herb.  
+For the mean sour-fermented-winey-overripe score, AWE and CWE showed 
+significant increases from day 0 to day 42, and HWE showed significant increases from 
+day 7 to day 42 (Figure 2.15). Treatment group did not have much effect on the mean 
+sour-fermented-winey-overripe score; the only significant difference between treatment 
+groups was at day 28, when HWE was significantly lower than AWE, but not CWE.  
+0.00
+1.00
+2.00
+3.00
+4.00
+5.00
+6.00
+7.00
+8.00
+AWE Day 0
+CWE Day 0
+HWE Day 0
+AWE Day 42
+CWE Day 42
+HWE Day 42
+Mean Score
+Flavor Profile of Treatment Groups at Day 0 and 42
+BITTERNESS
+ACIDITY
+SWEETNESS
+ASTRINGENCY
+LONGEVITY
+AROMA
+
+ 
+ 
+49
+ 
+Figure 2.15: Graph of the mean sour-fermented-winey-overripe score for each extraction 
+treatment at days 0, 7, 14, 28, and 42 days. Samples were scored on a scale from 0 to 15. 
+ 
+All three treatment groups showed increases in mean papery-musty-stale-earthy 
+score from day 0 to day 42. As shown in Figure 2.16, this trend was clear and consistent. 
+There was not a significant difference in papery score between treatments until days 28 
+and 42. HWE had a significantly higher papery score than AWE on day 28, and a 
+significantly higher score than CWE on day 42.  
+ 
+0.97
+1.00
+1.77
+3.37
+4.30
+1.27
+1.00
+2.00
+2.89
+4.27
+1.40
+0.70
+2.00
+1.63
+2.43
+0
+1
+2
+3
+4
+5
+6
+0
+7
+14
+21
+28
+35
+42
+Mean Score
+Day
+Sour-Fermented-Winey-Overripe 
+AWE
+CWE
+HWE
+
+ 
+ 
+50
+ 
+Figure 2.16: Graph of the mean papery-musty-stale-earthy score for each extraction 
+treatment at days 0, 7, 14, 28, and 42 days. Samples were scored on a scale from 0 to 15. 
+ 
+For the mean chemical-rubber-skunky-medicinal score, there was significant 
+increase from day 0 to 42 for treatment groups HWE and AWE (Figure 2.17). HWE was 
+higher than the other treatments in mean chemical score on all sampling dates – this 
+difference was significant on days 0, 14, and 28. 
+0.57
+1.30
+2.03
+1.97
+3.77
+1.00
+0.90
+1.97
+2.20
+3.00
+1.77
+1.26
+3.17
+3.58
+4.30
+0
+1
+2
+3
+4
+5
+6
+0
+7
+14
+21
+28
+35
+42
+Mean	  Score
+Day
+Papery-Musty-Stale-Earthy 
+AWE
+CWE
+HWE
+
+ 
+ 
+51
+ 
+Figure 2.17: Graph of the mean chemical-rubbery-skunky-medicinal score for each 
+extraction treatment at days 0, 7, 14, 28, and 42 days. Samples were scored on a scale 
+from 0 to 15. 
+ 
+All mean vegetative-hay-herb scores were low (Figure 2.18). The highest mean 
+score was for HWE at day 0. There was a significant drop in vegetative score for HWE 
+after day 0. All other changes were nonsignificant. The low scores and nonsignificant 
+changes indicate that vegetative defect is not of concern in the products being tested.  
+0.57
+1.30
+2.03
+1.97
+3.77
+1.00
+0.90
+1.97
+2.20
+3.00
+1.77
+1.26
+3.17
+3.58
+4.30
+0
+1
+2
+3
+4
+5
+6
+0
+7
+14
+21
+28
+35
+42
+Mean	  Score
+Day
+Chemical-Rubber-Skunky-Medicinal 
+AWE
+CWE
+HWE
+
+ 
+ 
+52
+ 
+Figure 2.18: Graph of the mean vegetative-hay-herb score for each extraction treatment 
+at days 0, 7, 14, 28, and 42 days. Samples were scored on a scale from 0 to 15. 
+ 
+Overall, for the defects, vegetative flavor did not play much of a role, but for all the other 
+defects, there were significant increases in mean score over time. Sour and papery defect 
+categories increased in all treatments (Figure 2.15 and 2.16), whereas the chemical defect 
+increased steadily and significantly in the HWE treatment group, and significantly for 
+AWE after day 28 (Figure 2.17). Figure 2.19 summarizes the off-flavor scores for the 
+samples at day 42.  
+0.30
+0.03
+0.33
+0.00
+0.20
+0.10
+0.00
+0.21
+0.14
+0.00
+0.73
+0.20
+0.03
+0.00
+0.30
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+7
+14
+21
+28
+35
+42
+Mean Score
+DAY
+Vegetative-Hay-Herb 
+AWE
+CWE
+HWE
+
+ 
+ 
+53
+ 
+Figure 2.19: Graph of the mean off-flavor scores for each extraction treatment at days 42 
+days. Samples were scored on a scale from 0 to 15. 
+ 
+6.5 Amplitude 
+The only significant change over time in mean amplitude score was for the CWE 
+treatment group, which showed a decrease in amplitude after day 0 that was significant 
+for all sampling dates except day 28. At day 0, HWE was significantly lower than AWE 
+and CWE in mean amplitude score, but otherwise there were no significant differences in 
+amplitude across treatment groups (Figure 2.20).  
+0.00
+1.00
+2.00
+3.00
+4.00
+5.00
+6.00
+AWE
+CWE
+HWE
+Mean	  Score
+Off-Flavors in Extraction Treatments at Day 42
+SOUR
+PAPERY
+CHEMICAL
+VEGETATIVE
+
+ 
+ 
+54
+ 
+Figure 2.20: Graph of the mean amplitude score for each extraction treatment at days 0, 
+7, 14, 28, and 42 days. Samples were scored on a scale from 0 to 15. 
+ 
+6.5 Acceptability 
+When examining the effect of extraction method on acceptability, there was not a 
+significant difference for the mean acceptability scores between the different extraction 
+methods at days 0 and 42, but there were differences at the other sampling dates, mainly 
+due to the rapid decline in acceptability of the HWE treatment.  
+For mean acceptability score, all three treatment groups showed a clear decreasing 
+trend that was accompanied by a statistically significant decrease from day 0 to 42. This 
+decrease was most marked in HWE.  
+5.67
+4.67
+4.60
+5.33
+4.97
+5.93
+4.03
+4.50
+4.96
+4.30
+4.27
+4.39
+4.20
+4.23
+4.73
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+7
+14
+21
+28
+35
+42
+Mean	  Score
+DAY
+AMPLITUDE
+AWE
+CWE
+HWE
+
+ 
+ 
+55
+ 
+Figure 2.21: Graph of the mean acceptability score for each extraction treatment at days 
+0, 7, 14, 28, and 42 days. Samples were scored either acceptable (1) or unacceptable (0).  
+ 
+Discussion 
+1.   Shelf Life – Significant Microbial Changes 
+One of the primary goals of this study was to investigate the shelf-life of cold 
+coffee by tracking chemical, organoleptic, and microbial changes. In the evaluation of the 
+shelf life of a product, the safety of the product and limitation of microbial growth is 
+paramount. In this study, there was no detectable bacterial growth in any of the samples. 
+This agrees with other established work on refrigerated coffee brews, but is the first 
+known work on storage of cold brew. This lack of microbial growth in coffee extracts 
+stored at refrigeration temperatures is likely due to the multiple hurdles presented: 
+1.00
+0.73
+0.73
+0.73
+0.33
+1.00
+0.87
+0.60
+0.90
+0.47
+1.00
+0.57
+0.40
+0.32
+0.20
+0
+0.5
+1
+0
+7
+14
+21
+28
+35
+42
+Mean Score
+DAY
+ACCEPTABILITY
+AWE
+CWE
+HWE
+
+ 
+ 
+56
+scarcity of microbial nutrients, low pH, and other antimicrobial factors present within the 
+coffee (Daeschel, and others, 2017). All bottles and equipment for brewing in this study 
+were sanitized with a sodium hypochlorite solution before brewing and bottling. Thus the 
+microbial growth results here may not necessarily be representative of all producers of 
+cold brew. In addition to large volume bottlers, many independent, small cafés are now 
+producing cold brew in-house, and this could lead to considerable variance in sanitation 
+practices and consequently, a range in microbial stability. Although Daeschel’s challenge 
+study demonstrated that the cold brew tested (Stumptown) did not favor the growth of 
+microorganisms when large numbers of pathogenic microorganisms are introduced, more 
+testing is needed, and it is recommended that all producers of cold brew follow good 
+manufacturing practices and put preventative controls in place to prevent contamination 
+of their product (Daeschel, and others, 2017). Many bottled cold brews have ingredients 
+added to them, such as sweeteners or dairy, that would remove the hurdle of the lack of 
+microbial nutrients. This further reinforces the importance of good manufacturing 
+practices while making cold brew – no matter the size of the producer. 
+Finally, this study, and the one by Daeschel and others, only tested for vegetative 
+growth, which are the primary concern for products that are held constantly at 
+refrigeration, but are not the only concern for products being sold unrefrigerated. In 
+September of 2017, Death Wish Coffee issued a recall for its Nitro Cold Brew Cans due 
+to concerns about the growth of Clostridium botulinum, a spore-forming, anaerobic 
+pathogen (FDA, 2017). Any cold brew being sold as a shelf-stable canned product is 
+classified as a low-acid product, thus it must be processed to prevent growth of C. 
+
+ 
+ 
+57
+botulinum. Further work is recommended to study the effect of processing on bottled or 
+canned cold brew coffee.  
+2.   Shelf Life – Significant Chemical Changes 
+The lack of microbial growth over 42 days means that the shelf life evaluation 
+must depend on the chemical and sensorial changes in the coffee extracts. As coffee is an 
+incredibly complex chemical solution, this study was far from being able to analyze all 
+chemical changes that occurred over the 42-day period. The chemical parameters studied 
+were %TDS, caffeine concentration, 3-CQA concentration, headspace intensity, pH, and 
+titratable acidity. Of these chemical parameters, the most significant changes over the 
+storage time that were consistent across treatments were the decrease in 3-CQA 
+concentration and the decrease in pH.  
+The decrease in pH for the coffee brews in this study (Figure 2.4) agrees with 
+previous work on aging of coffee brews under refrigerated storage (Pérez-Martínez and 
+other, 2008), however, this is the first known study to establish this decrease in pH for 
+coffee extracted at low temperatures. Other researchers (Dalla Rosa) have proposed a 
+certain pH (4.8) as a limit of acceptance for shelf-life, however, more recent work from 
+Perez-Martinez and others on stored coffee brews has suggested that this pH limit is not 
+suitable to be applied to all coffees and all brewing methods, and “pH is not the only 
+factor which determines the limit of acceptance of coffee brews.” (Perez-Martinez and 
+others, 2008; Dalla Rosa and others, 1990). The results presented here agree with Perez-
+Martinez’s conclusions, as the coffees never reached the limit of acceptance proposed by 
+Dalla Rosa, but they all had significantly lowered sensory acceptability scores by the end 
+
+ 
+ 
+58
+of the testing period (Figure 2.21). Chemical analysis alone is not the best way to 
+determine shelf-life of brewed coffees, and the results of this study validate the 
+importance of sensory evaluation. Furthermore, when comparing pH values from this 
+study to pH values from Perez-Martinez’s work with Colombian Arabica coffee, it is 
+clear that there is considerable variance in pH values based on extraction method and 
+coffee origin. The titratable acidity, which is a better measure of acid’s contribution to 
+flavor profile of a beverage, also experienced an increase for all three treatments over the 
+42 days, however, the increase was only significant for the CWE treatment (Figure 2.5).  
+One of the other significant chemical evolutions over the 42-day period was the 
+decrease in 3-CQA concentration (Figure 2.3). The thermal degradation of chlorogenic 
+acid into caffeic and quinic acids is known to cause development of sourness (Clarke and 
+Vitzthum, 2008). This effect has mainly been demonstrated at elevated temperatures, and 
+some have suggested that this would not occur at refrigeration temperatures (Perez-
+Martinez and others, 2008). The effect does increase with time, and the length of storage 
+may make up for the lack of elevated storage temperatures in this study. One possibility 
+for further investigation is that the decrease of 3-CQA observed in this study was due to a 
+low temperature hydrolysis of CQA into caffeic and quinic acids, which contributed to 
+the staling and loss of quality in the beverages over time. Increase in quinic acid has been 
+indicated to be the compound primarily responsible for increasing sour perception in 
+brewed coffee (van der Stegen and van Duijn, 1987). However, this study was limited in 
+its scope and without analyzing the degradation products of 3-CQA, it is impossible to 
+
+ 
+ 
+59
+know for certain if this decrease in concentration of chlorogenic acid was the cause of the 
+decline in sensory acceptability. 
+3.   Shelf Life – Significant Sensory Changes 
+Of the sensory attributes evaluated in this study, the most significant changes over 
+the storage time that were consistent across treatments were the decrease in mean 
+bitterness score, and the increase in mean score for sour-fermented-winey-overripe, and 
+papery-musty-stale-earthy (Figures 2.9, 2.15, 2.16). There was a clear relationship 
+between storage time and decreasing bitterness score, as well as sour and papery defect 
+score for all treatments. It is quite possible that the decrease in mean bitterness score was 
+caused by the interaction of bitterness and sour perception – meaning the increase in sour 
+off-flavor dulled the perception of bitterness. There were other significant changes from 
+storage time, but these are the changes that were universal to all three treatments. 
+ In addition to defect scores, the mean acceptability was scored by the panelists. 
+Time of storage did have a clear negative effect on mean acceptability score for all 
+samples (Figure 2.21). There was a clear negative trend of acceptability over time with 
+one main exception: the CWE score on day 28. The mean acceptability score was defined 
+as “the overall acceptance of the sample” and was intended to be used to indicate if the 
+product is acceptable to be sold and consumed from an organoleptic perspective. The 
+panelists were forced to make a binary choice, acceptable (1), or unacceptable (0), and 
+the mean score was tabulated. This was the only sensory attribute that was not based on 
+quantifiable, fixed reference points from the WCR Sensory Lexicon. Consequently, this 
+attribute was the most subjective to panelist bias and opinion. The panelists, who were all 
+
+ 
+ 
+60
+trained cuppers (specialized coffee sensory evaluators) often have to evaluate acceptance 
+of hot coffee samples, but as the cold brew industry is still developing, there may not be 
+uniformity of opinion on what is acceptable or unacceptable. This lack of uniformity 
+likely led to confusion among the panelists on the term “acceptability” which lead to the 
+outlier at day 28 for the CWE treatment that did not agree with the general trend of the 
+other treatments. Based on the accompanying defect scores for CWE, which rose at day 
+28, it is clear that this score is not indicative of the true quality of the sample at that point 
+in time. However, this does suggest that as the cold brew industry grows, if quality 
+standards are to be maintained, a level of standardization is needed in a manner similar to 
+hot brewed coffee. This study’s application of the WCR Sensory Lexicon to cold brew 
+was the first known of its kind, and many of the reference standards and intensity scales 
+were well suited to evaluating cold coffee. It is recommended that there be further official 
+adaptation of the lexicon to cold coffee, as well as further standardization of overall 
+quality of cold brew coffee across the sector. Green coffee quality is scored using a 
+cupping form that sums many sensory attributes into an overall quality score. A similar 
+method could be developed to evaluate cold brew. Overall, this would greatly benefit the 
+cold coffee industry, and would help ensure that every consumer that tries a cold brew 
+product for the first time has a high quality product.  
+Although there was an outlier in the acceptability scores, the defect scores, which 
+are based on quantifiable standards, still support the trends that acceptability scores show. 
+The decline in acceptability over time was most exaggerated on the HWE coffees, as 
+HWE had a lower mean acceptability score on all sampling dates after day 0. The 
+
+ 
+ 
+61
+development of defects and the decline in acceptability observed in the samples over time 
+was clear, and lines up with previous work on stored coffee brews. Storage effects are 
+well documented in hot brewed coffees, and these results confirm that the sensory 
+deterioration of cold brew with storage time is similar, but not identical, to hot brewed 
+coffees. As discussed in the previous section, it is unclear what the exact chemical cause 
+of these sensory changes is, but these results are helpful, as they show the development of 
+these defects over time, even at refrigerated storage. 
+Another insight that can be gleaned from these results is that the cold brew 
+treatments did not deteriorate in the exact same manner or time as the hot brewed 
+treatment. This is demonstrated in the fact that the extraction method did influence the 
+defect scores: there were some notable differences in the staling of the HWE vs. AWE 
+and CWE. Notably, HWE had significantly higher chemical scores overall, and sour 
+scores were significantly higher for the cold brew extractions at the last sampling date, 
+perhaps suggesting that the chemical-rubber-skunky-medicinal flavor is more likely to 
+develop in hot brewed coffees, whereas sour-fermented-winey-overripe is more likely to 
+develop in colder brewed coffees (Figure 2.15 and 2.17). Furthermore, the HWE 
+decreased more quickly than the CWE and AWE in the mean score for overall 
+acceptability (Figure 2.21). This suggests that coffees brewed at low temperatures may 
+have a longer organoleptic shelf life than coffees that have been brewed at high 
+temperatures and then cooled. This may be due to the multitude of staling reactions that 
+increase with rising extraction temperature (Clarke and Vitzthum, 2008).  
+4.   Influence of extraction temperature and method – Chemical profile 
+
+ 
+ 
+62
+The other purpose of this study was to investigate the influence of extraction 
+temperature on the chemical and sensorial profile of cold water extraction coffee. 
+Chemically, there were a number of differences between the hot brewed coffee and the 
+two cold brewed coffees.  
+One of the primary differences in this study was the strength of the beverages. 
+The AWE had the highest %TDS, followed by CWE and then HWE (Figure 2.1). %TDS 
+is the measure of how many solids are actually dissolved in the aqueous solution, thus 
+many other chemical properties are highly correlated with it. All groups used the same 
+grind size, but the HWE treatment group used a lower water-to-coffee ratio than the two 
+immersion methods, so the difference in %TDS between the hot brew and the cold brew 
+cannot be entirely attributed to the influence of extraction temperature. However, all of 
+the brewing parameters were identical between AWE and CWE in order to isolate the 
+effect of the temperature of the brewing. The higher concentration of soluble solids in the 
+AWE coffees, brewed at 25ºC, than the CWE coffees, brewed at 4ºC, agrees with 
+previous literature that higher temperatures increase the extraction rate (Rao, 2010, Uman 
+and others, 2016). 
+The extraction temperature also significantly influenced the pH and TA of the 
+coffee extracts (Figure 2.4 and 2.5). The HWE had significantly lower pH than the two 
+cold brewed coffee extracts. The CWE had the highest pH, with AWE in the middle, so 
+for these extractions, the higher the temperature of the extraction, the lower the pH of the 
+resulting extract. The titratable acidity reversed the trend of pH though, as the HWE had 
+the lowest titratable acidity, followed by the CWE and then AWE. This means that 
+
+ 
+ 
+63
+although the HWE had greater free H+ concentration, it had lower total acidity, as 
+measured by TA, than the two cold brewed extracts. Titratable acidity is “a better 
+predictor of acid’s impact on the on flavor than pH” so it follows that the two cold 
+brewed treatments, with higher TA, ended the study with a significantly higher mean sour 
+sensory score than the HWE group (Nielsen, 2003). This reversal of pH and TA results is 
+worth considering – the cold brew treatments had higher TA, but a lower hydrogen ion 
+concentration, and inversely, the hot brewed treatment had lower TA and higher H+ 
+concentration. From these two data points, it seems that the higher brewing temperature 
+of the HWE extracted more completely dissociated acids (leading to a low pH, low acidic 
+flavor impact), whereas the cold brew extracted more weak acids, which have lower 
+levels of completely dissociated ions, leading to a higher pH, and high TA, with more 
+higher flavor impact.  
+The low H+ concentration, high TA of the AWE and CWE could also be a 
+function of the concentration of total dissolved solids in each of the coffee extracts. The 
+TDS decreased from AWE, to CWE, to HWE, and similarly, the TA decreased from 
+AWE, to CWE, to HWE. The higher TA in CWE and AWE could have simply been 
+because those two solutions had more compounds solvated per mL of water. Results from 
+Gloess and others comparison of extraction methods in 2013 support this: “In this study 
+(based on one single type of coffee), a positive correlation of the refractive index (°Brix) 
+with the following attributes was observed: concentration of total solids, headspace 
+intensity, concentration of caffeine, 3-CQA and 5-CQA, and titratable acidity.” When 
+
+ 
+ 
+64
+comparing extraction methods, it is important to consider that the total concentration of a 
+coffee solution will dictate many of the other chemical parameters. 
+Interestingly, the extraction temperature also influenced the headspace intensity of 
+the coffee extracts (Figure 2.6). The CWE and AWE had higher mean headspace 
+intensity on all three sampling dates than the HWE, and for the CWE, this difference was 
+significant. Much of the appreciated flavor of coffee is present in the aroma/headspace of 
+the brew, so it is interesting to consider that the lower temperature/longer time extractions 
+actually had a higher concentration of volatiles. Further work needs to be done to 
+elucidate these differences, as HS intensity is a rough measure of volatile concentration, 
+and is heavily influenced by the strength of the solution, and the selection of the 
+compounds for sampling. 
+5.   Influence of extraction temperature and method – Sensory profile 
+Overall, the extraction method of the coffee did affect the flavor spectrum of the 
+coffee beverages resulting in three products with distinct organoleptic characteristics. 
+CWE and AWE, had significantly higher mean sweetness scores and significantly lower 
+mean bitterness scores than the traditionally extracted HWE at days 0 and 42 (Figure 
+2.14). These sensory data suggest that cold brewing does create a beverage distinct from 
+traditional hot brewed coffee that is consumed immediately or after cold storage for 
+extended times. Some producers of cold brew claim that it is sweeter than hot brewed 
+coffee, and these data from this study support this claim (Stumptown Coffee Roasters, 
+2018; Starbucks, 2018).   
+
+ 
+ 
+65
+Another attribute of the coffee extracts that extraction temperature seemed to 
+influence were the off-flavors at the end of the 42-day period (Figure 2.19). Based on the 
+higher chemical scores for the HWE treatment, and the significantly higher sour scores 
+for CWE and AWE, the data suggest that the chemical-rubber-skunky-medicinal defect 
+was more likely to develop in hot brewed coffees, whereas the sour-fermented-winey-
+overripe is more likely to develop in colder brewed coffees. Further investigation is 
+needed, but the sensory results also may point to low temperature extraction having 
+greater flavor stability. At the end of the 42-day period, all treatments had significantly 
+lower acceptability scores, but the cold extraction coffee still had the highest mean 
+acceptability score, followed by the ambient extraction, with the hot extraction at the 
+lowest. Based on these results, it seems that the colder extraction reduced the flavor 
+deterioration of the brewed coffee. For example, at day 42, for both chemical, and papery 
+defects, the CWE mean is significantly lower than the HWE, but the AWE mean is not 
+significantly different than either. In many cases, the means for flavor profile attributes 
+between CWE and AWE could not be separated, meaning the flavor profile between the 
+different methods of making cold brew was very similar. However, the largest difference 
+between the two temperatures of extraction that are both considered cold brew may be 
+this difference in deterioration.  
+6.   Considerations – Panel Size 
+One consideration and limitation to the results presented here is that the sensory 
+descriptive analysis was performed with a panel limited to five members. However, these 
+members were professionals in the coffee industry who are engaged in tasting coffee in 
+
+ 
+ 
+66
+order to make purchasing decisions at least once a week. In this way, the panelists were 
+experts whose experience goes beyond those of a typical trained panel. The use of a 
+randomization plan, blinding codes, and samples in triplicate further reinforces the 
+reliability of the sensory data.  
+7.   Considerations – Caffeine Concentration Decrease 
+One unexpected result from this experiment was the decrease in caffeine 
+concentration from day 21 to 42. This decrease was significant for the CWE and HWE 
+treatment groups, but not for AWE. Caffeine is a purine alkaloid with a high boiling 
+point, and it is stable during the intense thermodynamic environment of coffee roasting 
+(Ludwig and others, 2014; National Center for Biotechnology Information, 2018). 
+Previous work on caffeine concentration in coffee has not shown any significant changes 
+due to storage time (Perez and others, 2008; Sopelana and others 2013). It is surprising 
+that a decrease in concentration from day 21 to 42 was shown here. However, it could 
+have been due to human experimenter error and inexperience with the HPLC system that 
+the caffeine was analyzed with, or stratification of the coffee bottles and incorrect 
+sampling leading to bottles with lower concentrations of caffeine. The difference in 
+concentration could also be attributable to caffeine’s tendency to undergo association in 
+aqueous solutions (Guttman and Higuchi, 1957). Caffeine often exists as a monomer, 
+dimer, or tetramer, and this aggregation could have caused a shift in absorbance that 
+caused the detector, which was set to a single wavelength, to not detect all of the caffeine 
+present. Further tests are needed to confirm the results shown here. 
+ 
+
+ 
+ 
+67
+Conclusions 
+Based on the data presented here, the refrigerated shelf life of hot and cold 
+brewed coffee is limited not by microbial stability, but rather by deterioration in sensory 
+attributes, reinforcing the importance of sensory evaluation in quality control. Further 
+work is recommended to elucidate the mechanisms of coffee staling in a refrigerated 
+environment, with particular interest in the degradation products of chlorogenic acid, as a 
+significant decline in 3-CQA concentration was found over the storage period. In order to 
+ensure safety, good manufacturing practices, preventative controls, and maintenance of 
+the cold chain are recommended for all producers of cold brew coffee. 
+ Cold extracted coffees were found to be chemically and organoleptically 
+different beverages from hot brewed coffees. For flavor profile the cold extracted coffees 
+had higher sweetness and lower bitterness than the hot extracted coffee, supporting 
+claims made by producers of cold brew. The cold extracted coffees also had greater 
+flavor stability, as they exhibited a more gradual increase in off-flavor scores, and slower 
+decrease in acceptability.  
+Based on the chemical and sensory differences between hot and cold extracted 
+coffees, as well as the defect and acceptability scores over time, it is clear that if quality 
+standards in cold extracted coffee are to be maintained, a level of standardization is 
+needed in a manner similar to hot brewed coffee. This study’s application of the WCR 
+Sensory Lexicon to cold brew was the first known of its kind, and many of the reference 
+standards and intensity scales were well suited to evaluating cold coffee. It is 
+recommended that there be further official adaptation of the lexicon to cold coffee, as 
+
+ 
+ 
+68
+well as further standardization of overall quality of cold brew coffee across the sector. 
+Green coffee quality is scored using a cupping form that sums many sensory attributes 
+into an overall quality score. A similar method could be developed to evaluate cold brew. 
+Overall, this would greatly benefit the cold coffee industry, and would help ensure that 
+every consumer that tries a cold brew product for the first time has a high quality product. 
+Acknowledgements 
+The authors would like to thank Ally Coffee and Due South Coffee for 
+participating in the sensory panel and providing the coffee for use in this study.  
+References 
+AOAC International. 1994. AOAC official method 990.12. aerobic plate count in foods. 
+Dry Rehydratable Film (Petrifilm™ Aerobic Plate Count) Method . 
+Avelino J, Barboza B, Araya JC, Fonseca C, Davrieux F, Guyot B, Cilas C. 2005. Effects 
+of slope exposure, altitude and yield on coffee quality in two altitude terroirs of costa 
+rica, orosi and santa maría de dota. J Sci Food Agric 85(11):1869-76. 
+Baggenstoss J, Poisson L, Kaegi R, Perren R, Escher F. 2008. Coffee roasting and aroma 
+formation: Application of different time− temperature conditions. J Agric Food 
+Chem 56(14):5836-46. 
+Bladyka E. 2014. Coffee brewing: Wetting, hydrolysis & extraction revisited. Santa Ana, 
+CA: Specialty Coffee Association of America. 
+Cammenga HK, Eggers R., Hinz T., Steer A. and Waldmann C. 1997. Extraction in 
+coffee-processing and brewing. COLLOQUE scientifique international sur le café, 
+17. nairobi (kenya), juillet 20-25, 1997.. 
+Chambers IV E and Wolf MB. 1996. Sensory testing methods. American Society for 
+Testing and Materials-ASTM. 
+Chambers E, Sanchez K, Phan UX, Miller R, Civille GV, Di Donfrancesco B. 2016. 
+Development of a “living” lexicon for descriptive sensory analysis of brewed coffee. 
+J Sens Stud 31(6):465-80. 
+
+ 
+ 
+69
+Clarke R and Vitzthum O. 2008. Coffee: Recent developments. John Wiley & Sons. 
+Czerny M, Mayer F, Grosch W. 1999. Sensory study on the character impact odorants of 
+roasted arabica coffee. J Agric Food Chem 47(2):695-9. 
+Czerny M, Mayer F, Grosch W. 1999. Sensory study on the character impact odorants of 
+roasted arabica coffee. J Agric Food Chem 47(2):695-9. 
+Daeschel MA, Armbrust N, Vieru C. 2017. Survival of non-spore forming foodborne 
+pathogens in cold brewed coffee. Oregon State University . 
+Dalla Rosa M, Barbanti D, Lerici CR. 1990. Changes in coffee brews in relation to 
+storage temperature. J Sci Food Agric 50(2):227-35. 
+Encarnação JA, Farrell TL, Ryder A, Kraut NU, Williamson G. 2015. In vitro enzymic 
+hydrolysis of chlorogenic acids in coffee. Molecular Nutrition & Food Research 
+59(2):231-9. 
+Flament I and Bessière-Thomas Y. 2002. Coffee flavor chemistry. John Wiley & Sons. 
+Fox P and McSweeney P. 2004. Cheese: An overview. Cheese: Chemistry, Physics and 
+Microbiology 1:1-18. 
+Gloess AN, Schönbächler B, Klopprogge B, Lucio D, Chatelain K, Bongartz A, 
+Strittmatter A, Rast M, Yeretzian C. 2013. Comparison of nine common coffee 
+extraction methods: Instrumental and sensory analysis. European Food Research and 
+Technology 236(4):607-27. 
+Guttman D and Higuchi T. 1957. Reversible association of caffeine and of some caffeine 
+homologs in aqueous solution. Journal of the American Pharmaceutical Association 
+(Scientific Ed.) 46(1):4-10. 
+Heeger A, Kosińska-Cagnazzo A, Cantergiani E, Andlauer W. 2017. Bioactives of coffee 
+cherry pulp and its utilisation for production of cascara beverage. Food Chem 
+221:969-75. 
+Hendon CH, Colonna-Dashwood L, Colonna-Dashwood M. 2014. The role of dissolved 
+cations in coffee extraction. J Agric Food Chem 62(21):4947-50. 
+Hofmann T and Schieberle P. 2002. Chemical interactions between odor-active thiols and 
+melanoidins involved in the aroma staling of coffee beverages. J Agric Food Chem 
+50(2):319-26. 
+
+ 
+ 
+70
+Homma S. 2001. Chemistry II: Non-­‐Volatile compounds, part II. Coffee: Recent 
+Developments :50-67. 
+Hucke J and Maier HG. 1985. Quinic acid lactone in coffee. Z Lebensm Unters Forsch 
+180(6):479-84. 
+Hwang S, Kim K, Kang H, Kim J, Kim M. 2014. Studies on the flavor compounds of 
+dutch coffee by headspace GC-mass. Korean Journal of Food and Cookery Science 
+30(5):596-602. 
+Illy A and Viani R. 2005. Espresso coffee: The science of quality. Academic Press. 
+Illy E. 2002. The complexity of coffee. Sci Am 286(6):86-91. 
+Kamiyama M, Moon J, Jang HW, Shibamoto T. 2015. Role of degradation products of 
+chlorogenic acid in the antioxidant activity of roasted coffee. J Agric Food Chem 
+63(7):1996-2005. 
+Kim Aram and Kim Joo Shin. 2014. Flavor Induced Nonvolatile Chemical Composition 
+and Sensory Characteristics of Cold-Extracted Coffee by Extraction Method 
+(Filtration Vs Immersion) and Extraction Time. Korean Journal of Coffee Industry 3 
+(1): 1-9. 
+Lee TA, Kempthorne R, Hardy JK. 1992. Compositional changes in brewed coffee as a 
+function of brewing time. J Food Sci 57(6):1417-9. 
+López-Galilea I, Fournier N, Cid C, Guichard E. 2006. Changes in headspace volatile 
+concentrations of coffee brews caused by the roasting process and the brewing 
+procedure. J Agric Food Chem 54(22):8560-6. 
+Ludwig IA, Mena P, Calani L, Cid C, Del Rio D, Lean ME, Crozier A. 2014. Variations 
+in caffeine and chlorogenic acid contents of coffees: What are we drinking? Food & 
+Function 5(8):1718-26. 
+Nestlé acquires a majority stake in Blue Bottle Coffee at a valuation north of $700M 
+[Internet]; cSep 14, 2017. Available from: https://techcrunch.com/2017/09/14/nestle-
+acquires-a-majority-stake-in-blue-bottle-coffee/ . 
+Maeztu L, Sanz C, Andueza S, Paz de Pena M, Bello J, Cid C. 2001. Characterization of 
+espresso coffee aroma by static headspace GC− MS and sensory flavor profile. J 
+Agric Food Chem 49(11):5437-44. 
+Morales AF. 1989. Effect of holding-time on sensory quality of brewed coffee. Food 
+Quality and Preference 1(2):87-9. 
+
+ 
+ 
+71
+Murray J, Delahunty C, Baxter I. 2001. Descriptive sensory analysis: Past, present and 
+future. Food Res Int 34(6):461-71. 
+National Center for Biotechnology Information. 2018. Caffeine. . 
+National Coffee Drinking Trends 2017 [Internet]; c2018. Available 
+from: http://www.ncausa.org/Industry-Resources/Market-Research/National-Coffee-
+Drinking-Trends-Report . 
+National Coffee Drinking Trends 2018 [Internet]. Available from: ncausa.org . 
+Nielsen SS. 2003. Food analysis. 3rd ed. New York: Kluwer Academic/Plenum 
+Publishers. 
+Osorio-Hernandez R, Guerra-Garcia LM, Ferreira-Tinôco IdF, Osorio-Saraz JA, 
+Aristizábal-Torres ID. 2015. Simulation of a thermal environment in two buildings 
+for the wet processing of coffee. Dyna 82(194):214-20. 
+Pangborn RM, Trabue IM, Little AC. 1971. Analysis of coffee, tea and artificially 
+flavored drinks prepared from mineralized waters. J Food Sci 36(2):355-62. 
+Parenti A, Guerrini L, Masella P, Spinelli S, Calamai L, Spugnoli P. 2014. Comparison 
+of espresso coffee brewing techniques. J Food Eng 121:112-7. 
+Pérez-Martínez M, Sopelana P, De Peña MP, Cid C. 2008. Effects of refrigeration and 
+oxygen on the coffee brew composition. European Food Research and Technology 
+227(6):1633-40. 
+Pérez-Martínez M, Sopelana P, De Pena MP, Cid C. 2008. Changes in volatile 
+compounds and overall aroma profile during storage of coffee brews at 4 and 25 C. J 
+Agric Food Chem 56(9):3145-54. 
+Petracco M. 2005. Percolation. Espresso Coffee: The Chemistry of Quality :259-89. 
+Petracco M. 2001. Technology IV: Beverage preparation: Brewing trends for the new 
+millennium. Coffee: Recent Developments :140-64. 
+Rao S. 2010. Everything but espresso: Profesional coffee brewing techniques. . 
+Rao S. 2014. The coffee roaster's companion. Scott Rao. 
+Semmelroch P and Grosch W. 1996. Studies on character impact odorants of coffee 
+brews. J Agric Food Chem 44(2):537-43. 
+
+ 
+ 
+72
+Sisel E. 2016. The strength of cold brew. Mintel Database . 
+Sopelana P, Pérez-Martínez M, López-Galilea I, de Peña MP, Cid C. 2013. Effect of ultra 
+high temperature (UHT) treatment on coffee brew stability. Food Res Int 50(2):682-
+90. 
+Starbucks. Introducing Starbucks® Bottled Cold Brew Coffee [Internet]; c2018. 
+Available from: https://www.starbucks.com/promo/bottledcoldbrew . 
+Stokes CN, O’Sullivan MG, Kerry JP. 2017. Hedonic and descriptive sensory evaluation 
+of instant and fresh coffee products. European Food Research and Technology 
+243(2):331-40. 
+Stumptown Coffee Roasters Cold Brew [Internet]; c2018. Available from: coldbrew.com. 
+Uman E, Colonna-Dashwood M, Colonna-Dashwood L, Perger M, Klatt C, Leighton S, 
+Miller B, Butler KT, Melot BC, Speirs RW. 2016. The effect of bean origin and 
+temperature on grinding roasted coffee. Scientific Reports 6:24483. 
+Van der Stegen GHD and Van Duijn J. 1987. Analysis of normal organic acids coffee. 
+Proceedings of 12th ASIC colloquium, montreux. ASIC: Paris. 
+Verardo G, Cecconi F, Geatti P, Giumanini AG. 2002. New procedures for determination 
+of acids in coffee extracts, and observations on the development of acidity upon 
+ageing. Analytical and Bioanalytical Chemistry 374(5):879-85. 
+Wellinger M, Smrke S, Yeretzian C. 2017. Water for Extraction—Composition, 
+recommendations, and treatment. In: The craft and science of coffee. Elsevier. 381 p. 
+World Coffee Research. 2016. Sensory lexicon. 1st ed. College Station, TX: World 
+Coffee Research. 
+Yeretzian C, Jordan A, Badoud R, Lindinger W. 2002. From the green bean to the cup of 
+coffee: Investigating coffee roasting by on-line monitoring of volatiles. European 
+Food Research and Technology 214(2):92-104. 
+ 
+ 
+ 
+ 
+
+73 
+APPENDICES 
+
+74 
+Appendix A1 
+Sensory Evaluation Form for Cold Brew Coffee 
+Sensory Evaluation Form – Cold Brew Coffee 
+DATE _______________________ 
+SAMPLE CODE _______________ 
+PANELIST NUMBER___________ 
+Please evaluate each coffee sample on the intensity of the twelve 
+sensory attributes, using a scale from 0 to 15. Please circle the line that 
+represents the score you would like to give the intensity of the 
+attribute. Between samples, please cleanse your palate. 
+AROMA 
+Overall Aroma Intensity 
+TEXTURE 
+Mouthfeel / Thickness 
+
+75 
+TASTE / FLAVOR SPECTRUM 
+Bitterness 
+Acidity 
+Sweetness 
+Astringency / Mouth Drying 
+
+ 
+ 
+76
+Longevity 
+ 
+ 
+ 
+Off-Flavors 
+ 
+Sour/Fermented/Winey/Over-Ripe 
+Identify:__________ 
+ 
+Papery/Musty/Stale/Earthy 
+Identify:__________ 
+ 
+Chemical/Rubber/Skunky/Medicinal 
+Identify:__________ 
+ 
+
+77 
+Vegetative/Hay/Herb 
+Identify:__________ 
+CONGRUENCE 
+Amplitude 
+Overall Acceptability (please only mark acceptable or unacceptable) 
+
+78 
+Guide to Sensory Attributes (adapted from WCR Sensory Lexicon). 
+Attribute 
+Definition 
+Overall 
+Acceptability 
+Overall acceptance of the sample 
+Acidity 
+The fundamental taste factor associated with a citric acid solution. 
+Sweetness 
+Fundamental taste sensation of which sucrose is typical. Generally 
+associated with sweet aroma descriptors such as fruity, chocolate and 
+caramel. 
+Bitterness 
+The fundamental taste factor associated with a caffeine solution 
+Astringency / 
+Mouth Drying 
+Characteristic of an after-taste sensation consistent of a drying effect in 
+the mouth. A drying, puckering, or tingling sensation on the surface and/or 
+edge of the tongue and mouth.  
+Longevity 
+Persistence of flavor in the mouth, The time that the full, integrated 
+sensory experience sustains itself in the mouth and after swallowing. 
+Stale 
+The flavor characterized by a lack of freshness 
+Papery 
+The aromatic associated with white paper cups. 
+Musty/Earthy 
+The somewhat sweet, heavy aromatic associated with decaying vegetation 
+and damp, black soil.  
+Fermented 
+The pungent, sweet, slightly sour, sometimes yeasty, alcohol-like aromatic 
+characteristic of fermented fruits or sugar or over-proofed dough. 
+Over-Ripe 
+The sweet, slightly sour, damp, musty/earthy aromatic characteristic of 
+fruit or vegetable past their optimum ripeness. 
+Winey 
+The sharp, pungent, somewhat fruity, alcohol-like aromatic associated with 
+wine.  
+Medicinal 
+A clean, sterile aromatic characteristic of antiseptic-like products such as 
+Band-Aids, alcohol, and iodine.  
+Rubber 
+A dark, heavy, slightly sharp, and pungent aromatic associated with 
+rubber.  
+Skunky 
+A combination of aromatic associated with skunks 
+Hay-like 
+The lightly sweet, dry, dusty aromatic with slight green character 
+associated with dry grasses.  
+Herb-like 
+The aromatic commonly associated with green herbs that may be 
+characterized as sweet, slightly pungent, and slightly bitter. May or may 
+not include green or brown notes.  
+Under-Ripe 
+An aromatic found in green/under-ripe fruit. 
+Aroma 
+Intensity 
+Strength of the aroma – evaluated by smell as well as intensity of volatile 
+flavor when drinking 
+Blended 
+The melding of individual sensory notes such that the products present a 
+unified overall sensory experience as opposed to spikes or individual 
+notes. 
+Amplitude 
+Overall impression and impact of the product longevity, blending of 
+sensory experience, longevity, body, fullness, flavor and aroma blending 
+together.  

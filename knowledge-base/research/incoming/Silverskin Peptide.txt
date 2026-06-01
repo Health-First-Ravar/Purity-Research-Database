@@ -1,0 +1,1694 @@
+Contents lists available at ScienceDirect
+Microchemical Journal
+journal homepage: www.elsevier.com/locate/microc
+High resolution liquid chromatography tandem mass spectrometry for the
+separation and identification of peptides in coffee silverskin protein
+hydrolysates
+Raquel Pérez-Mígueza, María Luisa Marinaa,b, María Castro-Puyanaa,b,⁎
+a Departamento de Química Analítica, Química Física e Ingeniería Química, Universidad de Alcalá, Ctra. Madrid-Barcelona Km. 33.600, 28871 Alcalá de Henares,
+Madrid, Spain
+b Instituto de Investigación Química “Andrés M. del Río” (IQAR), Universidad de Alcalá, Ctra. Madrid-Barcelona Km. 33.600, 28871 Alcalá de Henares, Madrid, Spain
+A R T I C L E I N F O
+Keywords:
+Peptides
+Liquid chromatography-tandem mass
+spectrometry
+Coffee silverskin
+Roasting process
+Bioactivity
+A B S T R A C T
+An analytical methodology was developed for the first time in this work to investigate the peptide composition of
+coffee silverskin protein hydrolysates. Coffee silverskin is the only by-product produced in the coffee roasting
+process and it contains a relatively high amount of proteins (16.2–19.0%). Different extraction procedures were
+tested to obtain protein extracts from coffee silverskin samples which were subsequently submitted to enzymatic
+digestion using different enzymes. Protein hydrolysates from Arabica coffee silverskin obtained using three
+roasting degrees (light, medium and dark) were considered in order to evaluate the influence of this process on
+peptide composition. Antioxidant and hypocholesterolemic activities were investigated for these hydrolysates. A
+method based on the use of liquid chromatography coupled to a quadrupole-time-of-flight mass spectrometer
+was developed enabling the separation and identification of different short chain peptides in the coffee silverskin
+hydrolysates using de novo sequencing tool. Different peptides, with a number of amino acids ranging from 4 to
+12, were identified in the coffee silverskin analyzed. Peptides obtained were different depending on the enzy-
+matic hydrolysis employed. As general trend, the results obtained showed that peptide composition in coffee
+silverskin protein hydrolysates was not significantly affected by the coffee roasting process.
+1. Introduction
+Coffee has an important cultural and economic impact worldwide
+since it is one of the most consumed beverages in the world. The pro-
+duction of coffee beverage comprises many stages being the roasting of
+green coffee beans one of the most relevant. After this process, the
+coffee silverskin (CS) (a thin tegument of the outer layer of the beans
+which represents about 4.2% (w/w) of coffee beans) is obtained [1].
+This is the only by-product produced during roasting process. The CS
+chemical composition includes high levels of dietary fiber (50–60%),
+being mainly soluble dietary fiber (> 85%), carbohydrates (glucose,
+xylose, galactose, mannose and arabinose), proteins (16.2–19.0%), fat
+(1.56–3.28%) and ash (7%) [2–8]. Moreover, CS also contains other
+bioactive compounds such as phenolic compounds (e.g. chlorogenic
+acids) that together with melanoidins (that are formed as products in
+the Maillard reaction) are responsible of its antioxidant capacity [1].
+Because of this chemical composition, CS can be considered as a natural
+source of bioactive compounds with beneficial properties for human
+health [1,8–13]. Despite the most common application of CS has been
+as direct fuel, for composting and soil fertilization [1,14], nowadays, it
+has been proposed as a new potential functional ingredient for food. In
+fact, CS has been incorporated to the formulation of flakes, breads,
+biscuits and snakes [9], to prepare an antioxidant beverage for body
+weight control [10], or used in cosmetics as active ingredient to im-
+prove skin hydration and firmness [15]. Although CS has been chemi-
+cally characterized in different works [1,4], no studies were aimed to
+investigate its endogenous peptides or the peptide composition of
+protein hydrolysates in spite of its relatively high content in proteins, as
+mentioned above.
+The bioactivity of many peptides present in different foodstuff and
+food residues or byproducts includes antimicrobial, ACE inhibitory ef-
+fect, cholesterol-lowering activity, and antioxidant properties, among
+others [16–18]. These bioactive capacities may be directly linked with
+the presence of peptides in these samples or related to peptides
+https://doi.org/10.1016/j.microc.2019.05.051
+Received 19 February 2019; Received in revised form 18 April 2019; Accepted 19 May 2019
+⁎ Corresponding author at: Departamento de Química Analítica, Química Física e Ingeniería Química, Universidad de Alcalá, Ctra. Madrid-Barcelona Km. 33.600,
+28871 Alcalá de Henares, Madrid, Spain.
+E-mail address: maria.castrop@uah.es (M. Castro-Puyana).
+Microchemical Journal 149 (2019) 103951
+Available online 21 May 2019
+0026-265X/ © 2019 Elsevier B.V. All rights reserved.
+T
+
+originated during enzymatic hydrolysis, food processing or ripening
+[19]. Usually, the most common bioactive peptides are formed by short
+amino acid chains (around 2–30 amino acids) [20,21].
+Nowadays, liquid chromatography (LC) coupled to high resolution
+mass spectrometry (MS) is the preferred analytical technique to carry
+out the accurate analysis of peptides with a chain longer than 5 amino
+acids [22]. The detection of shorter peptides (2–4 amino acids) has, on
+the contrary, some analytical limitations since, for instance, their
+fragmentation makes their detection complicated [22–24]. Then, the
+separation and identification of short peptides is a challenge.
+The main objectives of this work were: i) to study the peptide
+composition of protein hydrolysates of CS (Arabica variety) and their
+antioxidant and hypocholesterolemic activities, and ii) to evaluate the
+effects of submitting coffee beans to different degrees of roasting pro-
+cess on peptide composition. With this aim, a high intensity focused
+ultrasound probe was employed to extract soluble proteins, which were
+subsequently precipitated and submitted to enzymatic digestion using
+different enzymes. A method was developed for the separation and
+identification of peptides in the CS protein hydrolysates using liquid
+chromatography coupled to a quadrupole-time-of flight mass spectro-
+meter (LC-(QTOF)MS) and de novo sequencing tool.
+2. Materials and methods
+2.1. Chemicals and samples
+All chemicals and reagents used in this work were of analytical
+grade. Sodium hydroxide, thermolysin enzyme, pepsin and pancreatin
+digestive enzymes, bovine serum albumin (BSA), oleic acid, phospha-
+tidylcholine, taurocholate, cholesterol, sodium chloride (NaCl), L-glu-
+tathione (GSH), β-mercaptoethanol, o-phthalaldehyde (OPA), dithio-
+threitol (DTT), 2,2′-azino-bis(3-ethylbenzothiazoline-6-sulphonic acid)
+(ABTS), potassium persulphate, 1,10-phenantroline, ferrous sulphate,
+hydrogen peroxide, and potassium ferricyanide were purchased from
+Sigma-Aldrich
+(Steinheim,
+Germany).
+Alcalase
+2.4 L
+FG
+and
+Flavourzyme 1000 L were generously donated by Novozymes Spain S.A
+(Madrid, Spain). Hydrochloric acid, acetone, hexane, methanol, ethanol
+and acetic acid were acquired in Scharlau (Barcelona, Spain). Tris-
+(hydroxymethyl)-aminomethane (Tris), sodium dihydrogen phosphate,
+disodium tetraborate, and sodium dodecyl sulphate (SDS) were pur-
+chased from Merck (Darmstadt, Germany). Cholesterol oxidase kit was
+from BioAssay Systems (Hayward, CA, USA). Miniprotean precast gels,
+Laemmli buffer, Tris/glycine/SDS running buffer, precision plus protein
+standards (recombinant proteins expressed by Escherichia coli with
+molecular weights of 10, 15, 20, 25, 37, 50, 75, 100, 150, and 250 kDa),
+silver stain kit, and Bradford reagent (Coomassie Blue G-250) were
+acquired from Bio-Rad (Hercules, CA, USA).
+For the HPLC-MS/MS analysis, MS grade acetonitrile (ACN) and
+acetic acid from Sigma-Aldrich (Steinheim, Germany) were employed.
+The ultrapure water used was obtained from a Milli-Q (Millipore,
+Bedford, MA, USA) instrument.
+Different coffee silverskin samples from Arabica coffee variety were
+provided by “Café Fortaleza” (Vitoria, Spain). These samples were ob-
+tained by roasting green coffee beans at three different roasting levels:
+light level (LCS) using a roasting temperature of 175 °C during
+12.36 min; medium level (MCS) employing 185 °C during 14.11 min;
+dark level (DCS) by roasting the green coffee beans at 195 °C during
+17.06 min.
+2.2. Total protein content
+The protein content of CS samples was determined by the Kjeldahl
+method [25]. Analyses were performed in triplicate. Nitrogen data were
+converted into protein values using a conversion factor of 5.3 and were
+expressed as g per 100 g of dried coffee silverskin.
+2.3. Protein extraction from coffee silverskin
+Proteins from coffee silveskin were extracted following a procedure
+previously described in the literature with different modifications [26].
+Briefly, 0.5 g of grounded coffee silverskin were defatted three times with
+20 mL of hexane (to avoid interferences in the extraction). Then, 50 mg
+of proteins were extracted with 5 mL of 100 mM Tris-HCl buffer (pH 7.5)
+containing 0.25% (w/w) SDS and 0.25% (w/w) DTT using a high in-
+tensity focused ultrasound probe (HIFU) (model VCX130 from Sonics
+Vibra-Cell, Hartford, CT, USA) for 10 min at 50% of amplitude. After
+centrifugation, the proteins were precipitated using 10 mL of cold
+acetone and left at 4 °C overnight. Precipitated proteins were centrifuged
+(4000 ×g, 10 min, 25 °C) and dissolved in the appropriate buffer for their
+digestion: 5 mM borate buffer (pH = 8.5) in the case of using alcalase,
+5 mM phosphate buffer (pH = 8.0) for thermolysin or acid water solution
+(pH 2.0) for simulated gastrointestinal digestion, respectively.
+2.4. SDS-PAGE
+Sodium dodecyl sulphate polyacrylamide gel electrophoresis (SDS-
+PAGE) analysis with a Bio-Rad Mini-protean system (Hercules, CA,
+USA) was performed to achieve the separation of coffee silverskin
+proteins. Proteins solutions were mixed with Laemmli buffer containing
+5% (v/v) β-mercaptoethanol, followed by heating at 100 °C during
+5 min and loaded into commercial ready precast gels. Then, Tris/gly-
+cine/SDS was used as running buffer and protein separation was carried
+out by applying 80 V for 5 min and 150 V until performing the se-
+paration. Proteins standard solution with molecular weights from 10 to
+100 kDa were also loaded into the gel. After separation, the gel was
+treated first with a fixing solution of water/MeOH/acetic acid (50/40/
+10% (v/v)) by shaking for 30 min and then with water/EtOH/acetic
+acid (85/10/5% (v/v)) two times (for 15 min each one). Then, an
+oxidizer solution was added to the gel during 5 min followed by the
+addition of the silver reagent during 20 min. Finally, the gel was wa-
+shed with water before adding the developer solution, and the reaction
+was stopped adding 5% acetic acid solution.
+2.5. Protein digestion
+Protein extracts obtained from CS were hydrolysed using different
+enzymes. CS proteins were dissolved in the corresponding digestion
+buffer at a final concentration of 5 mg/mL with the help of an ultrasonic
+probe for 5–10 min and with 30% of wave amplitude. 5 mM borate
+buffer (pH = 8.5), 5 mM phosphate buffer (pH = 8.0) or acid water
+solution (pH 2.0) were employed as buffers for alcalase, thermolysin or
+simulated gastrointestinal digestion (using pepsin and pancreatin), re-
+spectively. After the addition of the appropriate amount of enzyme to
+the protein extract solution, it was incubated in a Thermomixer
+Compact (Eppendorf, Hamburg, Germany) at 50 °C (for alcalase, and
+thermolysin digestion) or 37 °C (for gastrointestinal digestion) with
+shaking at 700 rpm. The digestion was stopped by increasing the tem-
+perature to 100 °C for 10 min. After centrifugation (6000 g for 10 min,
+24 °C), the supernatant was collected for further analyses.
+2.6. O-phthalaldehyde (OPA) assay
+Peptide content was measured using the OPA assay following the
+procedure described by Wang et al. (2008) with some modifications
+[27]. A 40 mg/mL solution of OPA reagent in MeOH was employed to
+prepare daily a mixture of 2.5 mL of disodium tetraborate (100 mM),
+1.0 mL of SDS (5% (v/v)), 1.39 mL of water, 10 μL of β-mercap-
+toethanol, and 100 μL of OPA solution. This mixture was employed to
+incubate the CS protein hydrolysates during 8 min at room temperature.
+Then, the absorbance was measured at 340 nm using a spectro-
+photometer Cary 8454 from Agilent Technologies (Santa Clara, USA).
+All analyses were performed in triplicate.
+R. Pérez-Míguez, et al.
+Microchemical Journal 149 (2019) 103951
+2
+
+2.7. In vitro bioactivity assays
+In vitro antioxidant capacity of CS protein hydrolysates was mea-
+sured using two different assays evaluating the ability to scavenge free
+radicals: ABTS and hydroxyl radicals scavenging. Samples were pre-
+pared in triplicate and measured in duplicate. The assays were carried
+out following the procedures described by González-García et al. [26].
+The antioxidant capacity was expressed as percentage of inhibition.
+In vitro hypolipidemic activity was evaluated measuring the pep-
+tides ability to reduce the absorption of dietary cholesterol (ability to
+reduce micellar cholesterol solubility). The assay was carried out fol-
+lowing the procedure described by Prados et al. [28]. The reduction in
+the micellar solubility of cholesterol was calculated using the following
+equation:
+=
+C
+CS
+C
+Cholesterol solubility reduction (%)
+(( 0
+)/ 0)
+100.
+In this equation C0 is referred to the initial concentration of cho-
+lesterol in micelles (without peptides) and Cs is referred to the con-
+centration of cholesterol in micelles after adding peptides.
+Both in vitro antioxidant capacity and in vitro hypolipidemic activity
+were evaluated preparing the CS protein hydrolysates in triplicate and
+measuring them in duplicate.
+2.8. Peptide analysis by LC-(QTOF)MS
+A HPLC system 1100 from Agilent (Agilent Technologies, Santa
+Clara, CA, USA) coupled to a quadrupole-time-of flight mass spectro-
+meter (QTOF/MS) Agilent 6530 equipped with an orthogonal electro-
+spray ionization (ESI) source (Agilent Jet Stream, AJS) was employed to
+carry out peptide analysis. MS control, data acquisition, and data
+analysis were performed using Agilent Mass Hunter Workstation soft-
+ware B.07.00 from Agilent Technologies. An Ascentis Express Peptide
+ES-C18 analytical column (100 × 2.1 mm, particle size 2.7 μm) with an
+Ascentis Express Peptide ES-C18 guard column (0.5 cm × 2.1 mm,
+2.7 μm particle size) from Supelco (Bellefonte, Pa, USA) were employed
+to carry out the chromatographic separation. The column temperature
+was 25 °C and the flow rate 0.3 mL/min. Ten μL of extract were in-
+jected. The mobile phases consisted of (A) water with 0.3% acetic acid
+and (B) ACN with 0.3% acetic acid in a gradient elution analysis pro-
+grammed as follows: 0 min, 5% (B); 0–3 min, 5% (B); 5–40 min, 5–40%
+(B); 40–43 min, 95% (B), 43–45 min, 95% (B) with 15 min of post-time.
+The MS analyses were carried out using positive ionization mode
+(3500 V) and masses ranged from 100 to 1700 m/z. Nebulizer pressure
+was set at 50 psig and the drying gas flow rate was fixed to 12 L/min
+and 350 °C. The sheath gas flow was 12 L/min at 400 °C. 80 V was
+chosen for the fragmentor voltage (cone voltage after capillary),
+whereas the skimmer and octapole voltage were 60 V and 750 V, re-
+spectively. MS/MS analyses were performed employing the auto MS/
+MS mode using 1 precursor per cycle, dynamic exclusion after two
+spectra (released after 1 min), and collision energy of 5 V for every
+100 Da. Internal mass calibration in positive ionization mode was per-
+formed using a reference compound solution from Agilent Technologies
+containing
+the
+ions
+m/z
+121.0508
+(C5H4N4)
+and
+922.0097
+(C18H18O6N3P3F24). This solution was continuously pumped into the
+ionization source at a 15 μL/min flow rate using a 25 mL Gastight 1000
+Series Hamilton syringe (Hamilton Robotics, Bonaduz, Switzerland) on
+a NE-3000 pump (New Era Pump Systems Inc., Farmingdale, NY, USA).
+The analyses were conducted in triplicate.
+2.9. Peptide identification by de novo sequencing
+Three replicates of CS protein hydrolysates were injected in triplicate
+in the MS system. Blank samples containing the appropriate buffer so-
+lution instead of CS protein hydrolysates were also analyzed. MS/MS
+spectra were obtained for the most abundant ions of molecular species
+and analyzed using the PEAKS Studio Version 7 software (Bioinformatics
+Solutions Inc., Waterloo, Canada) in order to identify peptides from
+coffee silverskin proteins. De novo sequencing tool was employed to carry
+out data analysis. The results were refined applying a certain average
+local confidence (ALC). Those peptides identified with an ALC (expected
+percentage of correct amino acids in the peptide sequence) above 80%
+and with a good precursor fragmentation pattern were considered for
+further interpretation. In addition, only those peptides appearing in at
+least 5 from 9 injections (three injections of each triplicate) from some of
+the analyzed CS samples were considered. Since in the MS system em-
+ployed in this work was not possible to differentiate isoleucine (I) from
+leucine (L), only isoforms with L are presented in these results.
+3. Results and discussion
+3.1. Extraction of proteins
+The protein contents of the three CS obtained after roasting green
+coffee beans at different levels were 12.0 ± 0.1%, 11.9 ± 0.1%, and
+12.0 ± 0.4% for light CS (LCS), medium CS (MCS), and dark CS (DCS),
+respectively
+(all
+percentages
+referred
+to
+sample
+dry
+weight).
+Considering that the protein content was very similar in all CS samples,
+and that MCS is expected to present intermediate properties between
+light and dark roasted degrees, it was chosen as model sample to
+evaluate different protein extraction procedures.
+Then, to achieve the extraction of proteins from MCS, three different
+approaches were evaluated: (i) a solid-liquid extraction using as ex-
+tracting solvent a mixture of water and an organic solvent, (ii) a sub-
+critical water extraction, and (iii) a high intensity focused ultrasound
+(HIFU) using different buffer solutions containing different additives as
+extracting solvents.
+In the first attempt, a solid-liquid extraction using ACN:water
+(20:80 v/v) as extracting solvent was performed using shaking (5 min)
+and sonication (3 min). Under these conditions, the percentage of
+proteins extracted from the MCS sample was lower than 1% (protein
+content obtained by Bradford assay). The second approach consisted of
+the use of a subcritical water extraction following the procedure pre-
+viously described by Yusaku Narita et al., [12] with some modifica-
+tions. This protocol was based on the use subcritical water as extraction
+solvent at two different temperatures, 120 °C and 180 °C. In both cases,
+the protein content of the MSC extract was lower than 1%. Finally, the
+third approach investigated in this work was based on a method pre-
+viously reported by our research group to extract proteins from olive
+seeds [29]. The methodology consisted of the extraction of proteins
+with 100 mM Tris-HCl buffer (pH 7.5) containing 0.5% (w/v) SDS and
+0.5% (w/v) DTT using HIFU for 5 min at 30% amplitude and followed
+by the protein precipitation with cold acetone overnight. Under these
+conditions, it was possible to obtain an extract which protein content
+was 2.6 ± 0.3%. From the three different protein extraction strategies
+investigated, the third one (based on the use of HIFU) was selected
+since it enabled to obtain the highest protein content. In order to in-
+crease the amount of proteins extracted from the MSC sample by this
+extraction procedure, an optimization of different extraction condi-
+tions, such as extracting buffer composition, HIFU probe conditions,
+and solvent/sample ratio was performed.
+First, the composition of the extracting buffer was evaluated con-
+sidering buffers of different nature (100 mM Tris-HCl and 100 mM
+phosphate) at three different pH values (6.5, 7.5 and 8.5) keeping
+constant the amount of SDS and DTT as well as the HIFU conditions
+described above. As it can be seen in Table 1, the Tris-HCl buffer en-
+abled to achieve a protein content five times higher than those obtained
+using phosphate buffer. In addition, the intermediate pH value allowed
+obtaining a protein content slightly higher than the other pH values
+tested. Therefore, 100 mM Tris-HCl buffer at pH 7.5 was chosen for
+further experiments. Bearing in mind that protein denaturation is
+highly affected by the presence of SDS and DTT in the extraction sol-
+vent, the effect of the concentration of both denaturing agents in the
+R. Pérez-Míguez, et al.
+Microchemical Journal 149 (2019) 103951
+3
+
+extraction media was studied by varying first the amount of SDS be-
+tween 0.0 and 0.5% (w/v), and later the amount of DTT between 0.25
+and 1.0% (w/v). Considering the percentage of proteins extracted under
+these conditions (see Table 1) and trying to use the lowest concentra-
+tion of DTT and SDS to avoid interferences in the Bradford assay, per-
+centages of 0.25% (w/v) of SDS and 0.25% (w/v) of DTT in 100 mM
+Tris-HCl buffer at pH 7.5 were chosen for further experiments. In this
+step, the possibility of adding also urea to the extraction solvent was
+also tested; however, it was discarded because the protein content was
+1.8 ± 0.1% when a concentration of 1 M urea was added to the Tris-
+HCl buffer and interferences in the Bradford assay were observed when
+a 4 M concentration of urea was employed.
+The next step to increase the amount of proteins extracted from MSC
+was to investigate the influence of the extraction time and amplitude of
+the HIFU probe. Extraction time was tested in the range from 3 to
+15 min whereas the amplitude was in the range from 20 to 50%. As
+Table 1 shows, the estimation of the protein content showed better
+results when 50% amplitude during 10 min was employed. Under these
+optimized conditions, it was possible to extract 3.9 ± 0.5% of proteins.
+The possibility to increase the amount of proteins extracted using two
+cycles of the extraction procedure was evaluated. However, it did not
+improve the value obtained using just one cycle.
+Using the optimal extraction conditions, the effect of varying the
+ratio between extraction solvent and sample amount was also studied.
+Initially, 50 mg of sample were extracted with 5 mL of extracting so-
+lution (ratio 1:10). Then, the sample amount was increased up to
+100 mg or 200 mg using the same volume of extracting solution (ratio
+1:20 and 1:40, respectively). In both cases, a lower percentage of pro-
+tein content (see Table 1) was observed compared to that obtained
+using a 1:10 ratio. An increase in the volume of the extraction solvent
+from 5 mL to 10 mL was evaluated keeping ratios of 1:20 and 1:40, but
+this increase had no effect on the protein content.
+Finally, trying to avoid interferences from other compounds, a
+cleaning procedure based on washing the MCS sample two times with
+methanol:water (80:20% (v/v)) followed by washing with acetone:-
+water (80:20% (v/v)) was carried out before protein extraction.
+However, this clean up procedure did not allow to improve the protein
+content extracted from the MCS sample.
+Once selected the best extraction conditions to obtain the highest
+protein content from CS samples, a SDS-PAGE analysis was carried out
+to evaluate if there were differences in the protein profile of the dif-
+ferent CS samples (LCS, MCS, and DCS). Fig. S1 (see supplementary
+data) demonstrated that the electrophoretic profiles of the three dif-
+ferent samples showed similar bands; an intense band between 15 and
+20 kD and bands with molecular masses higher than 100 kD.
+3.2. Evaluation of the bioactive capacity of CS protein hydrolysates
+Peptides from the protein extracts of CS samples submitted to dif-
+ferent roasting process were obtained by enzymatic digestion em-
+ploying alcalase, themolysin and a simulated gastrointestinal digestion
+with pepsin and pancreatin enzymes. Then, CS protein hydrolysates
+were evaluated in terms of peptide content and bioactive capacity.
+Fig. 1A shows the hydrolysis degree obtained for LCS, MCS and DCS
+when alcalase, thermolysin and simulated gastrointestinal digestion
+were used to hydrolyse the proteins extracted from each sample. There
+were not significant differences in the hydrolysis degree obtained for CS
+samples when different enzymes were used in the protein digestion.
+Regarding the bioactivity of all CS protein hydrolysates, it was mea-
+sured in terms of antioxidant activity (using ABTS and hydroxyl radical
+scavenging assays) and as the capacity of peptides to reduce micellar
+cholesterol solubility. In general, all protein hydrolysates exhibited
+antioxidant capacity with percentages ranging from 9%, obtained for
+MCS submitted to simulated gastrointestinal digestion, to 35%, ob-
+tained for DCS submitted to enzymatic digestion with thermolysin (see
+Fig. 1B and C). As Fig. 1A and B show, when hydroxyl radical
+scavenging assays were performed, thermolysin was the enzyme
+yielding the highest antioxidant capacity whereas ABTS assay showed
+similar antioxidant capacity results for the three enzymes studied. Re-
+garding the capacity to reduce micellar cholesterol solubility, it ranged
+from 25 to 32% as it can be seen in Fig. 1D, reaching the maximum
+cholesterol-lowering activities when thermolysin was employed to hy-
+drolyse the proteins from the three CS samples.
+3.3. Peptide analysis by LC-(QTOF)MS and de novo identification
+A reversed phase LC-(QTOF)MS analytical methodology was de-
+veloped enabling the separation and identification of peptides in CS
+protein hydrolysates. The most appropriate chromatographic and MS/
+MS parameters were chosen to ensure the detection of the largest
+number of peptides in each analysis. With this aim, protein hydrolysates
+of LCS, MCS and DCS obtained using thermolysin to carry out the en-
+zymatic digestion were chosen as model samples.
+Chromatographic parameters such as gradient program, column
+temperature, flow rate, and injection volume were evaluated in terms of
+chromatographic resolution and analysis time. Regarding the gradient
+program, it was optimized to achieve a good chromatographic separa-
+tion using water with 0.3% acetic acid as solvent A, and ACN with 0.3%
+acetic acid as solvent B, at a flow rate of 0.2 mL/min, a column tem-
+perature of 25 °C and an injection volume of 5 μL. Among the different
+gradient programs studied, the following enabled to obtain an adequate
+chromatographic separation: 5% (B) at 0 min, followed by 5% (B) at
+0–3 min, 5–40% (B) from 5 to 40 min, then 95% (B) from 40 to 43 min
+and it was kept during 2 min, and finally 15 min of post-time.
+Subsequently, the effect of the column temperature (25, 35, 55 °C) was
+evaluated keeping constant the flow rate and the injection volume. The
+lowest value tested for this parameter (25 °C) was chosen since it al-
+lowed to obtain the highest number of peptides. Then, the flow rate was
+varied from 0.1 mL/min to 0.3 mL/min showing that the best results
+were obtained for a value of 0.3 mL/min. Finally, the effect of the
+Table 1
+Evaluation of different CS protein extraction conditions using HIFU.
+Extraction conditions
+Protein extract (%)
+(Average ± SD)
+Extractant composition
+Buffer nature and pH
+100 mM Tris-HCl pH 6.5
+2.0 ± 0.4
+100 mM Tris-HCl pH 7.5
+2.6 ± 0.3
+100 mM Tris-HCl pH 8.5
+2.3 ± 0.6
+100 mM PB pH 6.5
+0.4 ± 0.2
+100 mM PB pH 7.5
+0.5 ± 0.4
+100 mM PB pH 8.5
+0.5 ± 0.7
+% SDS
+0% SDS
+0.8 ± 0.5
+0.25% SDS
+2.8 ± 0.4
+0.5% SDS
+2.6 ± 0.3
+% DTT
+0.25% DTT
+2.9 ± 0.3
+0.5% DTT
+2.8 ± 0.4
+1% DTT
+2.3 ± 0.5
+Urea
+1 M Urea
+1.8 ± 0.1
+4 M Urea
+Interferences
+Bradford assay
+HIFU conditions
+Extraction time
+3 min
+3.3 ± 0.3
+5 min
+2.9 ± 0.3
+10 min
+3.4 ± 0.4
+15 min
+3.2 ± 0.1
+Amplitude
+20%
+2.9 ± 0.2
+30%
+2.9 ± 0.3
+50%
+3.9 ± 0.5
+Solvent/sample ratio
+5 mL extractant
+50 mg sample extracted (1:10)
+3.9 ± 0.5
+100 mg sample extracted (1:20)
+3.0 ± 0.3
+200 mg sample extracted (1:40)
+3.3 ± 0.3
+10 mL extractant
+200 mg sample extracted (1:20)
+3.3 ± 0.4
+400 mg sample extracted (1:40)
+3.3 ± 0.2
+R. Pérez-Míguez, et al.
+Microchemical Journal 149 (2019) 103951
+4
+
+Fig. 1. Hydrolysis degree (A), antioxidant capacity evaluated by two different antioxidant assays (B and C), and the capacity to reduce micellar cholesterol solubility
+(D) of the protein hydrolysates obtained using three different enzymatic digestions from LCS, MCS and DCS.
+Fig. 2. Total ion chromatogram from MCS extracts hydrolysed with thermolysin by LC-(QTOF)MS and an example of MS/MS spectrum of the peptide LLYQ observed
+at 14.5 min (molecular mass: 535.3060 Da).
+R. Pérez-Míguez, et al.
+Microchemical Journal 149 (2019) 103951
+5
+
+injection volume was also studied when injection volumes of 5, 10 and
+15 μL were employed, being the injection of 10 μL which allowed to
+detect a higher number of peptides.
+The MS/MS parameters were selected considering those previously
+employed by our research team [30] to carry out the identification of
+peptides from food by-products. Modifying the mass range from 100 to
+1700 m/z instead to 1500 m/z, the collision energy was varied from 3 to
+6 V/100 Da, being 5 V/100 Da the value that enabled to detect a high
+number of peptides.
+Under the best LC-MS/MS conditions, protein hydrolysates from
+LCS, MCS, and DCS were analyzed. Considering the scarce number of
+databases providing information about peptides from vegetable and
+Table 2
+Peptide sequence, retention time (RT), molecular mass, mass accuracy, average local confidence (ALC) and activity described in BIOPEP (2017) database of the
+peptides identified in the thermolysin hydrolysates of LCS, MCS and DCS protein extracts using LC-MS/MS and de novo sequencing tool.
+LCS
+MCS
+DCS
+ID
+Peptide sequence
+RT (min)
+Molecular
+mass (Da)
+Mass accuracy
+(ppm)
+ALC (%)
+Mass accuracy
+(ppm)
+ALC (%)
+Mass accuracy
+(ppm)
+ALC (%)
+Activity
+(BIOPEP database)
+1
+LLNKc
+1.6
+486.3275
+6 ± 2
+93 ± 1
+8 ± 1
+95 ± 1
+8 ± 2
+96 ± 1
+Antibacterial
+2
+AVGVK⁎,c
+1.71
+472.3009
+6 ± 4
+91 ± 1
+6 ± 3
+91 ± 0
+2 ± 4
+83 ± 0
+ACE-inhibitor
+3
+LLNAK
+2.11
+557.3537
+4 ± 3
+82 ± 1
+7 ± 1
+83 ± 1
+8 ± 1
+83 ± 1
+–
+4
+VLGDQKN⁎
+2.21
+772.4079
+3 ± 2
+91 ± 0
+5 ± 1
+81 ± 30
+6 ± 2
+91 ± 0
+–
+5
+LLSQ
+3.7
+459.2771
+2 ± 2
+94 ± 2
+1 ± 1
+94 ± 1
+2 ± 1
+95 ± 0
+Haemolytic (ILSQ),
+Immunomodulating (IISQ)
+6
+VTYD
+3.75
+496.2169
+2 ± 2
+83 ± 1
+2 ± 1
+83 ± 2
+3 ± 2
+83 ± 2
+–
+7
+VYGDDGGQT
+4.32
+910.3668
+2 ± 1
+81 ± 1
+1 ± 1
+82 ± 1
+2 ± 1
+82 ± 1
+–
+8
+VTDYT⁎
+4.39
+597.2646
+2 ± 2
+86 ± 1
+1 ± 1
+89 ± 1
+2 ± 1
+89 ± 1
+–
+9
+LYGSTS⁎
+5.02
+626.2911
+0.1 ± 3
+88 ± 1
+1 ± 1
+87 ± 1
+1 ± 1
+86 ± 2
+–
+10
+LSQGGTHYG
+5.12
+918.4196
+2 ± 2
+84 ± 1
+1 ± 1
+84 ± 2
+1 ± 1
+83 ± 2
+–
+11
+YDAAP
+5.3
+535.2278
+1 ± 3
+82 ± 4
+1 ± 1
+82 ± 3
+2 ± 1
+82 ± 4
+–
+12
+LYGST⁎
+5.58
+539.2591
+2 ± 2
+89 ± 1
+1 ± 1
+89 ± 1
+2 ± 0
+89 ± 1
+–
+13
+YDAKTYR
+5.68
+915.4450
+0.3 ± 3
+85 ± 3
+1 ± 1
+85 ± 2
+1 ± 1
+84 ± 3
+–
+14
+LTQY⁎,c
+6.96
+523.2642
+2 ± 2
+82 ± 1
+1 ± 1
+82 ± 1
+1 ± 2
+82 ± 1
+–
+15
+YSTY⁎,b
+7.31
+532.2169
+2 ± 2
+88 ± 2
+0 ± 1
+85 ± 3
+1 ± 2
+88 ± 4
+–
+16
+LYGSTSQE⁎
+8.6
+883.3923
+2 ± 2
+93 ± 2
+1 ± 1
+94 ± 1
+2 ± 1
+94 ± 1
+–
+17
+LSGGLDc
+8.7
+561.2882
+0.2 ± 2
+88 ± 1
+–
+–
+2 ± 3
+87 ± 2
+–
+18
+LSYDGNN⁎
+9.73
+781.3242
+3 ± 2
+91 ± 1
+3 ± 1
+90 ± 1
+2 ± 1
+91 ± 1
+–
+19
+TTLPGSa
+9.8
+575.3036
+1 ± 4
+83 ± 2
+–
+–
+1 ± 4
+85 ± 2
+–
+20
+SLGDSLSR
+9.85
+833.4243
+2 ± 2
+85 ± 2
+2 ± 1
+85 ± 1
+1 ± 1
+85 ± 1
+–
+21
+LSGDSSLR (z = 2)
+9.96
+833.4243
+2 ± 2
+87 ± 2
+1 ± 1
+87 ± 2
+2 ± 1
+86 ± 1
+–
+22
+TYSTY⁎
+10.14
+633.2646
+2 ± 3
+89 ± 1
+2 ± 2
+88 ± 2
+3 ± 2
+88 ± 2
+–
+23
+VHYSQGYNNA⁎
+10.72
+1151.4995
+2 ± 3
+82 ± 1
+1 ± 1
+83 ± 1
+1 ± 1
+82 ± 1
+–
+24
+ANKNPDWE⁎,b (z = 2)
+10.8
+973.4363
+2 ± 3
+89 ± 2
+4 ± 2
+89 ± 3
+1 ± 1
+89 ± 1
+–
+25
+LNTTY
+11.5
+610.2963
+2 ± 2
+80 ± 0.5
+2 ± 1
+80 ± 1
+1 ± 1
+81 ± 1
+–
+26
+MSDPAYKc
+11.85
+810.3582
+3 ± 2
+86 ± 2
+3 ± 1
+87 ± 3
+3 ± 2
+84 ± 3
+–
+27
+LDVVAHE
+12.89
+718.3970
+3 ± 2
+93 ± 1
+4 ± 1
+93 ± 1
+3 ± 2
+94 ± 1
+–
+28
+FASY⁎
+12.97
+486.2144
+2 ± 2
+96 ± 1
+2 ± 1
+96 ± 1
+3 ± 2
+96 ± 0
+ACE-inhibitor
+29
+LLSQGGTHYG
+13.25
+1031.5037
+3 ± 2
+89 ± 1
+3 ± 1
+88 ± 2
+3 ± 1
+88 ± 2
+–
+30
+LNEAL
+14.24
+558.3013
+3 ± 2
+87 ± 1
+3 ± 1
+88 ± 1
+3 ± 2
+88 ± 1
+–
+31
+LLYQa
+14.5
+535.3060
+2 ± 2
+89 ± 2
+5 ± 2
+88 ± 4
+4 ± 2
+89 ± 2
+ACE-inhibitor,
+Immunomodulating
+32
+FDAVGVK⁎
+14.67
+734.3962
+3 ± 2
+95 ± 0.4
+3 ± 1
+95 ± 0.3
+3 ± 1
+95 ± 0
+ACE-inhibitor
+33
+VTYDY⁎
+15.17
+659.2802
+3 ± 2
+93 ± 1
+4 ± 1
+92 ± 1
+3 ± 2
+92 ± 1
+–
+34
+LNSGLLNKAc
+15.6
+928.5380
+5 ± 2
+85 ± 1
+4 ± 0
+86 ± 1
+1 ± 3
+86 ± 0
+–
+35
+LNSGLLNAKa,c
+15.6
+928.5376
+6 ± 1
+87 ± 1
+5 ± 1
+87 ± 1
+1 ± 3
+86 ± 4
+–
+36
+VTYDYYKN⁎(z = 2)
+15.8
+1064.4814
+3 ± 3
+94 ± 0.4
+4 ± 2
+94 ± 1
+3 ± 2
+94 ± 0
+–
+37
+LWAD⁎
+15.95
+503.2380
+4 ± 3
+82 ± 2
+5 ± 1
+82 ± 2
+4 ± 2
+83 ± 2
+–
+38
+AFDAVGVK⁎
+16.58
+805.4333
+4 ± 3
+96 ± 0.5
+5 ± 1
+96 ± 0
+4 ± 2
+95 ± 1
+ACE-inhibitor
+39
+VGPFa
+18.6
+418.2260
+6 ± 2
+82 ± 1
+9 ± 1
+84 ± 2
+6 ± 2
+86 ± 2
+–
+40
+ELLPQ
+18.75
+598.3326
+4 ± 3
+85 ± 1
+6 ± 3
+87 ± 4
+4 ± 3
+86 ± 3
+–
+41
+FASYDAPAVDAHa,c
+18.8
+631.2829
+3 ± 3
+83 ± 1
+6 ± 2
+83 ± 1
+4 ± 2
+84 ± 1
+–
+42
+LFTYD
+19.25
+657.3010
+3 ± 2
+91 ± 1
+4 ± 2
+91 ± 1
+3 ± 2
+91 ± 1
+–
+43
+VEFY⁎,b
+19.9
+576.8228
+3 ± 3
+87 ± 1
+–
+–
+3 ± 1
+88 ± 0
+–
+44
+LAPLPc
+19.96
+509.3213
+5 ± 3
+92 ± 1
+6 ± 2
+92 ± 1
+6 ± 1
+88 ± 6
+–
+45
+LSGGLDVVAHEa,c
+20.2
+1045.7616
+3 ± 5
+89 ± 9
+3 ± 1
+93 ± 1
+4 ± 2
+92 ± 1
+–
+46
+LSNLDVVAHE
+20.37
+1095.5559
+3 ± 2
+90 ± 3
+3 ± 1
+89 ± 3
+3 ± 3
+90 ± 3
+–
+47
+LFTY
+20.63
+542.2740
+3 ± 2
+90 ± 1
+3 ± 2
+89 ± 1
+2 ± 2
+89 ± 0
+–
+48
+LVEF⁎
+21.84
+506.2740
+3 ± 3
+90 ± 1
+4 ± 2
+90 ± 1
+3 ± 2
+90 ± 1
+–
+49
+FWNGSQM⁎,a,c
+22.2
+868.3576
+3 ± 5
+82 ± 1
+4 ± 1
+82 ± 2
+–
+–
+–
+50
+FGLSDLT
+24.5
+751.3752
+2 ± 4
+83 ± 0
+3 ± 2
+83 ± 1
+2 ± 1
+83 ± 1
+–
+51
+LFGTL
+24.8
+549.3163
+3 ± 3
+90 ± 1
+4 ± 1
+90 ± 1
+2 ± 2
+91 ± 1
+–
+52
+LVEFY⁎
+25.26
+669.3373
+0 ± 3
+89 ± 1
+2 ± 1
+89 ± 1
+0 ± 3
+90 ± 1
+–
+53
+VLEFYb,c
+25.3
+669.3432
+2 ± 3
+81 ± 1
+2 ± 1
+81 ± 1
+2 ± 2
+81 ± 1
+–
+54
+EAPWL
+25.52
+614.3064
+4 ± 3
+87 ± 1
+5 ± 2
+88 ± 2
+6 ± 2
+86 ± 4
+–
+55
+DVLPW
+28.99
+628.3220
+4 ± 3
+84 ± 2
+4 ± 3
+85 ± 5
+3 ± 2
+84 ± 2
+–
+⁎ Peptides that could belong to the alcalase enzyme protein sequence.
+a Peptides that were present in < 5 injections of LCS.
+b Peptides that were present in < 5 injections of MCS.
+c Peptides that were present in < 5 injections of DCS.
+R. Pérez-Míguez, et al.
+Microchemical Journal 149 (2019) 103951
+6
+
+fruit sources, de novo sequencing tool from the PEAK Software was
+selected to carry out the tentative identification of the peptides present
+in each CS hydrolysate. Fig. 2 shows the total ion chromatogram cor-
+responding to the protein hydrolysates from MCS extract obtained after
+thermolysin digestion and an example of the mass spectrum for LLYQ
+peptide present in this sample. Tables 2, 3 and 4 summarize the pep-
+tides identified by MS/MS after the three enzymatic digestions em-
+ployed (thermolysin, alcalase and simulated gastrointestinal digestion),
+along with their experimental molecular masses, ALC and accuracy. It
+should be mentioned that only isoforms with leucine (L) are presented
+in these results, although peptide sequences containing isoleucine (I)
+instead of L are also possible (it is not possible to differentiate I from L
+by the MS system used). As can be seen in these tables (see also Fig. S2),
+different peptides with a number of amino acids ranging from 4 to 12
+were identified. After excluding those peptides that could correspond to
+the enzymes employed in the hydrolysis (marked in the tables), ther-
+molysin hydrolysates were those presenting a higher number of pep-
+tides (33), followed by gastrointestinal hydrolysates (11) and alcalase
+hydrolysates (7). As Fig. 2S shows, no common peptides were found for
+the three different hydrolysis procedures.
+The results obtained for the bioactive capacity of each hydrolysate
+showed that thermolysin was the best option, and these results were
+supported with peptide identification. As general trend, the results
+obtained showed that the peptide composition in CS protein hydro-
+lysates was not affected by the coffee roasting process since most of the
+peptides identified were present in the three CS samples. For instance,
+using thermolysin or alcalase to hydrolyse the proteins from LCS, MCS
+and DCS extracts, just two and three peptides for each enzyme
+(LSGGLD, TTLPGS, for thermolysin, and AVPLLK, VAPLLK, ALLL for
+alcalase) showed differences along the roasting process. In the case of
+using a simulated gastrointestinal digestion, the peptides seemed to be
+more influenced by the roasting since five peptides identified in these
+CS
+protein
+hydrolysates
+(ALVGGTN,
+QVGGL,
+LGGLDSS,
+LGTVV,
+MMDPLA) were not present in at least one of the roasting degrees.
+The amino acid composition of the peptides identified in the dif-
+ferent CS protein hydrolysates contained high percentage of leucine
+(L)/isoleucine (I) and valine (V) within their sequences. These amino
+acids are common among antioxidant peptides [31], exert radical
+scavenging and metal chelation capacity and allow hydrogen-transfer
+and lipid peroxyl radical trapping due to their high solubility in
+Table 3
+Peptide sequence, retention time (RT), molecular mass, mass accuracy, average local confidence (ALC) and activity described in BIOPEP (2017) database of the
+peptides identified in the alcalase hydrolysates of LCS, MCS and DCS protein extracts using LC-MS/MS and de novo sequencing tool.
+LCS
+MCS
+DCS
+ID
+Peptide sequence
+RT (min)
+Molecular mass
+(Da)
+Mass accuracy
+(ppm)
+ALC (%)
+Mass accuracy
+(ppm)
+ALC (%)
+Mass accuracy
+(ppm)
+ALC (%)
+Activity
+(BIOPEP database)
+1
+VLVR
+3.5
+485.3326
+0.1 ± 3
+88 ± 2
+0.3 ± 3
+87 ± 2
+4 ± 3
+88 ± 2
+–
+2
+LNVE
+7.1
+473.2485
+0.4 ± 4
+88 ± 3
+0.3 ± 2
+88 ± 4
+5 ± 2
+89 ± 3
+–
+3
+APGAGVY⁎,a,b
+12.9
+633.3122
+3 ± 3
+82 ± 2
+2 ± 2
+86 ± 1
+4 ± 1
+85 ± 2
+Antioxidant
+4
+SVGAELE⁎,b,c
+14.2
+703.3388
+0.5 ± 2
+87 ± 4
+2 ± 0
+89 ± 3
+5 ± 1
+83 ± 2
+–
+5
+SFYYGK⁎,a,c
+15.6
+763.3541
+1 ± 2
+85 ± 3
+4 ± 2
+88 ± 1
+–
+–
+–
+6
+VVDLa,b
+15.8
+444.2584
+1 ± 3
+90 ± 3
+2 ± 0
+93 ± 2
+7 ± 2
+85 ± 3
+–
+7
+VSLY⁎
+17.7
+480.2584
+1 ± 3
+92 ± 2
+2 ± 2
+93 ± 1
+4 ± 3
+91 ± 1
+–
+8
+LVAL
+19.1
+414.2842
+5 ± 3
+90 ± 3
+5 ± 3
+90 ± 3
+6 ± 2
+90 ± 3
+–
+9
+AVPLLKb
+22.0
+639.4319
+0.4 ± 1
+83 ± 4
+1 ± 2
+81 ± 2
+–
+–
+–
+10
+VAPLLKa,c
+22.1
+639.4319
+–
+–
+3 ± 2
+83 ± 6
+5 ± 2
+82 ± 2
+–
+11
+ALLLa,b
+25.0
+428.2999
+–
+–
+4 ± 2
+83 ± 3
+6 ± 2
+85 ± 6
+Celiac toxic (AIIL)
+⁎ Peptides that could belong to the alcalase enzyme protein sequence.
+a Peptides that were present in < 5 injections of LCS.
+b Peptides that were present in < 5 injections of MCS.
+c Peptides that were present in < 5 injections of DCS.
+Table 4
+Peptide sequence, retention time (RT), molecular mass, mass accuracy, average local confidence (ALC) and activity described in BIOPEP (2017) database of the
+peptides identified in the gastrointestinal hydrolysate of LCS, MCS and DCS protein extracts using LC-MS/MS and de novo sequencing tool.
+LCS
+MCS
+DCS
+ID
+Peptide sequence
+RT (min)
+Molecular mass
+(Da)
+Mass accuracy
+(ppm)
+ALC (%)
+Mass accuracy
+(ppm)
+ALC (%)
+Mass accuracy
+(ppm)
+ALC (%)
+Activity
+(BIOPEP database)
+1
+WDANa
+3.6
+505.2012
+5 ± 4
+81 ± 1
+6 ± 1
+81 ± 1
+6 ± 2
+82 ± 1
+–
+2
+SSGEL⁎,a
+3.7
+492.2265
+–
+–
+7 ± 1
+88 ± 4
+7 ± 1
+89 ± 3
+–
+3
+LTGPT⁎,a
+4.3
+488.2682
+5 ± 3
+86 ± 5
+7 ± 1
+87 ± 2
+8 ± 2
+86 ± 3
+–
+4
+LLTHPNa
+4.9
+694.3833
+4 ± 4
+90 ± 1
+9 ± 1
+92 ± 1
+8 ± 2
+92 ± 1
+–
+5
+ALVGGTNa,b
+5.5
+631.3355
+–
+–
+9 ± 0
+92 ± 2
+9 ± 2
+89 ± 6
+–
+6
+TLNGVa
+8.8
+503.2786
+6 ± 3
+84 ± 1
+7 ± 1
+83 ± 2
+8 ± 1
+84 ± 2
+Antibacterial (TIDGV)
+7
+TLDGVa,b
+9.1
+504.2627
+5 ± 1
+88 ± 1
+9 ± 1
+91 ± 1
+7 ± 1
+90 ± 1
+–
+8
+PFAHPa
+9.5
+568.2846
+5 ± 1
+83 ± 2
+5 ± 1
+81 ± 1
+6 ± 2
+82 ± 1
+–
+9
+QVGGLa
+10.6
+473.2682
+–
+–
+8 ± 1
+87 ± 2
+7 ± 2
+89 ± 2
+–
+10
+LGGLDSSa,b
+10.6
+648.3151
+–
+–
+7 ± 0
+81 ± 0
+–
+–
+–
+11
+NQFNHSSCSTa
+12.4
+1124.4398
+4 ± 4
+89 ± 3
+2 ± 1
+87 ± 3
+2 ± 2
+88 ± 2
+–
+12
+LGTVVa,b
+14.8
+488.3035
+–
+–
+9 ± 1
+84 ± 1
+9 ± 1
+81 ± 0
+–
+13
+MMDPLAa,b
+20.4
+677.3035
+–
+–
+5 ± 0
+84 ± 3
+6 ± 2
+82 ± 1
+–
+⁎ Peptides that could belong to the alcalase enzyme protein sequence.
+a Peptides that were present in < 5 injections of LCS.
+b Peptides that were present in < 5 injections of DCS.
+R. Pérez-Míguez, et al.
+Microchemical Journal 149 (2019) 103951
+7
+
+hydrophobic radical species [32]. Also, some peptides presented proline
+(P) in their sequences which is characteristic of antihypertensive pep-
+tides [33].
+The potential bioactivity of the different peptides identified in LCS,
+MCS and DCS protein hydrolysates was found in the BIOPEP database
+[34]. Although most of them are currently not included in BIOPEP,
+some were found within longer peptide sequences with potential
+bioactivities (see Tables 2–4). For instance, several peptides have been
+previously reported to be part of longer peptides with antibacterial
+activity (namely, LLNK and TLNGV), ACE-inhibitory effect (peptides as
+AVGVK, FASY, LLYQ, FDAVGVK, and AFDAVGVK), or antioxidant ca-
+pacity (APGAGVY).
+4. Conclusions
+The peptide composition of protein hydrolysates from Arabica CS
+obtained using three different roasting degrees (light, medium and
+dark) was studied for the first time in this work by LC-(QTOF)MS.
+Proteins from CS were extracted using a Tris-HCl buffer containing SDS
+and DTT using a high intensity focused ultrasound probe. Subsequently,
+protein extracts were submitted to enzymatic hydrolysis employing
+different enzymes. Then, antioxidant and cholesterol-lowering capa-
+cities of the protein hydrolysates were evaluated. Despite not many
+differences were found among the extracts, the highest activities were
+obtained using thermolysin in the protein hydrolysis. Using the devel-
+oped LC-(QTOF)MS method and de novo sequencing tool, the peptide
+composition of all the CS protein hydrolysates was investigated. 51
+peptides, containing between 4 and 12 amino acids, were identified in
+the CS hydrolysates, none of them being common to the three different
+protein hydrolysis employed. Moreover, the roasting process to which
+the CS samples were submitted was shown to have little influence on
+their peptide composition.
+Acknowledgments
+Authors thank financial support from the Comunidad de Madrid
+(Spain) and European funding from FSE and FEDER program (project
+S2018/BAA-4393, AVANSECAL-II-CM). R.P.M. thanks the University of
+Alcalá for her pre-doctoral contract. M.C.P. thanks the Spanish Ministry
+of Economy and Competitiveness (MINECO) for her “Ramón y Cajal”
+(RYC- 2013-12688) research contract. Authors gratefully acknowledge
+“Café Fortaleza” for providing coffee silverskin samples.
+Appendix A. Supplementary data
+Supplementary data to this article can be found online at https://
+doi.org/10.1016/j.microc.2019.05.051.
+References
+[1] A.D.S., Polidoroa, E., Scapina, E., Lazzaria, A., Nunes Silva, A., Loreiro dos Santos,
+E., Bastos Caramão, R., Assis Jacques, Valorization of coffee silverskin industrial
+waste by pyrolysis: from optimization of bio-oil production to chemical char-
+acterization by GC × GC/qMS. J. Anal. Appl. Pyrolysis, 129 (2018) 43–52.
+[2] L.M., Carneiro, J.P.A., Silva, S.I., Mussatto, I.C., Roberto, J.A., Teixeira,
+Determination of total carbohydrates content in coffee industry residues. In Book of
+Abstracts of the 8th International Meeting of the Portuguese Carbohydrate Group,
+2009 (pp. 94). GLUPOR, Braga, Portugal.
+[3] S.I., Mussatto, L.M., Carneiro, J.P.A., Silva, I.C., Roberto, J.A., Teixeira, A study on
+chemical constituents and sugars extraction from spent coffee grounds. Carbohydr.
+Polym., 83 (2011) 368–374.
+[4] P.S. Murthy, M.M. Naidu, Sustainable management of coffee industry by-products
+and value addition-a review, Resour. Conserv. Recycl. 66 (2012) 45–58.
+[5] R.C., Borrelli, F., Esposito, A., Napolitano, A., Ritieni, V., Fogliano, Characterization
+of a new potential functional ingredient: coffee silverskin, J. Agric. Food Chem. 52
+(2004) 1338–1243.
+[6] A., Napolitano, S., Lanzuise, M., Ruocco, G., Arlotti, R., Ranieri, S.H., Knutsen, M.,
+Lorito, V., Fogliano, Treatment of cereal products with a tailored preparation of
+Trichoderma enzymes increases the amount of soluble dietary fiber, J. Agric. Food
+Chem. 54 (2006) 7863–7869.
+[7] A., Napolitano, V., Fogliano, A., Tafuri, A., Ritieni, Natural occurrence of ochratoxin
+A and antioxidant activities of green and roasted coffees and corresponding by-
+products. J. Agr. Food Chem. 55, (2007) 10499–10504.
+[8] A., Pourfarzad, H., Mahdavian-Mehr, N., Sedaghat, Coffee silverskin as a source of
+dietary fiber in bread-making: optimization of chemical treatment using response
+surface methodology, LWT Food Sci. Technol. 50 (2013) 599–606.
+[9] S.I., Mussatto, E.M.S., Machado, S., Martins, J.A., Teixeira, Production, composi-
+tion, and application of coffee and its industrial residues, Food Bioprocess Technol..
+4 (2011) 661–672.
+[10] N. Martinez-Saez, M. Ullate, M.A. Martin-Cabrejas, P. Martorell, S. Genoves,
+D. Ramon, M.D. Del Castillo, A novel antioxidant beverage for body weight control
+based on coffee silverskin, Food Chem. 150 (2014) 227−234.
+[11] S.I. Mussatto, L.F. Ballesteros, S. Martins, J.A. Teixeira, Extraction of antioxidant
+phenolic compounds from spent coffee grounds, Sep. Purif. Technol. 83 (2011)
+173–179.
+[12] Y., Narita, K., Inouye, High antioxidant activity of coffee silverskin extracts ob-
+tained by the treatment of coffee silverskin with subcritical water, Food Chem.. 135
+(2012) 943–949.
+[13] M. Furusawa, Y. Narita, K. Iwai, T. Fukunaga, O. Nakagiri, Inhibitory effect of a hot
+water extract of coffee “Silverskin” on hyaluronidase, Biosci. Biotechnol. Biochem.
+75 (2011) 1205–1207.
+[14] A.S.G., Costa, R.C., Alves, A.F., Vinha, E., Costa, C.S.G., Costa, M.A., Nunes, A.A.,
+Almeida, A., Santos-Silva, M.B.P.P., Oliveira, Nutritional, chemical and anti-
+oxidant/pro- oxidant profiles of silverskin, a coffee roasting by-product, Food
+Chem.. 267 (2018) 28–35.
+[15] F. Rodrigues, R. Matias, M. Ferreira, M.H. Amaral, M.B.P.P. Oliveira, In vitro and in
+vivo comparative study of cosmetic ingredients coffee silverskin and hyaluronic
+acid, Exp. Dermatol. 25 (2016) 555–576.
+[16] L., Paiva, E., Lima, A.I., Neto, J., Baptista, Isolation and characterization of an-
+giotensin I-converting enzyme (ACE) inhibitory peptides from Ulva rigida C. Agardh
+protein hydrolysate, J. Funct. Foods, 26 (2016) 65–76.
+[17] R.E., Cian, O., Martínez-Augustin, S.R., Drago, Bioactive properties of peptides
+obtained by enzymatic hydrolysis from protein by products of Porphyra columbina.
+Food Res. Int. 49 (2012) 364–372.
+[18] L., Beaulie, S., Bondu, K., Soiron, L.E., Rioux, S.L., Turgeon, Characterization of
+antibacterial activity from protein hydrolysates of the macroalga Saccharina long-
+icruris and identification of peptides, J. Funct. Foods, 17 (2015) 685–97.
+[19] R., Hartmann, H., Meisel, Food-derived peptides with biological activity: from re-
+search to food applications, Curr. Opin. Biotechnol. 18 (2007) 163–169. http://
+www.uwm.edu.pl/biochemia/index.php/pl/biopep.
+[20] R., Di Bernardini, P., Harnedy, D., Bolton, J., Kerry, E., O'Neill, A. M., Mullen, M.,
+Hayes, Antioxidant and antimicrobial peptidic hydrolysates from muscle protein
+sources and by-products, Food Chem..124 (2011) 1296–1307.
+[21] T. Lafarga, M. Hayes, Bioactive peptides from meat muscle and by-products: gen-
+eration, functionality and application as functional ingredients, Int. J. Meat Sci. 98
+(2014) 227–239.
+[22] L. S., Lahrichi, M., Affolter, I. S., Zolezzi, A., Panchaud, Food Peptidomics: large
+scale analysis of small bioactive peptides-a pilot study, J. Proteome, 88 (2013)
+83–91.
+[23] A.B. Nongonierma, R.J. FitzGerald, Strategies for the discovery and identification of
+food protein-derived biologically active peptides, Trends Food Sci. Technol. 69 (
+(2017) 289–305.
+[24] D.C. Dallas, A. Guerrero, E.A. Parker, R.C. Robinson, J. Gan, J.B. German, D. Barile,
+C.B. Lebrilla, Current peptidomics: applications, purification, identification, quan-
+tification, and functional analysis, Proteomics 15 (2015) 1026–1038.
+[25] AOAC Official Method, 2002, AOAC Official Method 979.09, Protein in Grains.
+Official Methods of Analysis, Association of Analytical Communities, Washington,
+DC, 2002.
+[26] E., González-García, M.L., Marina, M.C., García, Plum (Prunus domestica L.) by-
+product as a new and cheap source of bioactive peptides: extraction method and
+peptides characterization. J. Funct. Foods, 11 (2014) 428–437.
+[27] D. Wang, L.J. Wang, F.X. Zhu, J.Y. Zhu, X.D. Chen, L. Zou, M. Saito, In vitro and in
+vivo studies on the antioxidant activities of the aqueous extracts of Douchi (a tra-
+ditional Chinese salt-fermented soybean food), Food Chem. 107 (2008) 1421–1428.
+[28] I.M., Prados, M.L., Marina, M.C., García, Isolation and identification by high re-
+solution liquid chromatography tandem mass spectrometry of novel peptides with
+multifunctional lipid-lowering capacity, Food Res. Int. 111 (2018) 77–86.
+[29] C. Esteve, C. Del Río, M.L. Marina, C.M. García, First ultraperformance liquid
+chromatography based strategy for profiling intact proteins in complex matrices:
+application to the evaluation of the performance of olive (Olea europea L.) stone
+proteins for cultivar fingerprinting, J. Agric. Food Chem. 58 (2010) 8176–8182.
+[30] E., González-García, P., Puchalska, M.L., Marina, M.C., García, Fractionation and
+identification of antioxidant and angiotensin-converting enzyme-inhibitory pep-
+tides obtained from plum (Prunus domestica L.) stones, J. Funct. Foods, 19 (2015)
+376–384.
+[31] C.F., Ajibola, J.B., Fashakin, T.N., Fagbemi, R.E., Aluko, Effect of peptide size on
+antioxidant properties of African Yam Bean Seed (Sphenostylis stenocarpa) protein
+hydrolysate fractions. Int. J. Mol. Sci., 12 (2011) 6685–6702.
+[32] B.H., Sarmadi, A., Ismail, Antioxidative peptides from food proteins: a review.
+Peptides, 31 (2010) 1949–1956.
+[33] P. Puchalska, M.L. Marina, M.C. García, Isolation and characterization of peptides
+with antihypertensive activity in foodstuffs, Crit. Rev. Food Sci. Nutr. 55 (2015)
+521–555.
+[34] P. Minkiewicz, J. Dziuba, A. Iwaniak, M. Dziuba, M. Darewicz, BIOPEP database
+and other programs for processing bioactive peptide sequences, J. AOAC Int. 91
+(2008) 965–980.
+R. Pérez-Míguez, et al.
+Microchemical Journal 149 (2019) 103951
+8

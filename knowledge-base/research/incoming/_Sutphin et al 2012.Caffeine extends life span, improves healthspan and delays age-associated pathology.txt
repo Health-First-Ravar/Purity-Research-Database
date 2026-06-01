@@ -1,0 +1,1029 @@
+RESEARCH
+Open Access
+Caffeine extends life span, improves healthspan,
+and delays age-associated pathology in
+Caenorhabditis elegans
+George L Sutphin1,2, Emma Bishop1, Melana E Yanos1,3, Richard M Moller1 and Matt Kaeberlein1,4*
+Abstract
+Background: The longevity of an organism is influenced by both genetic and environmental factors. With respect
+to genetic factors, a significant effort is being made to identify pharmacological agents that extend life span by
+targeting pathways with a defined role in the aging process. On the environmental side, the molecular mechanisms
+responsible for the positive influence of interventions such as dietary restriction are being explored. The
+environment experienced by humans in modern societies already contains countless compounds that may
+influence longevity. Understanding the role played by common compounds that substantially affect the aging
+process will be critical for predicting and interpreting the outcome of introducing new interventions. Caffeine is the
+most widely used psychoactive drug worldwide. Prior studies in flies, worms, and mice indicate that caffeine may
+positively impact age-associated neurodegenerative pathology, such as that observed in Alzheimer’s disease.
+Results: Here we report that caffeine is capable of extending life span and improving healthspan in Caenorhabditis
+elegans, a finding that is in agreement with a recently published screen looking for FDA-approved compounds
+capable of extending worm life span. Life span extension using caffeine displays epistatic interaction with two
+known longevity interventions: dietary restriction and reduced insulin signaling. Caffeine treatment also delays
+pathology in a nematode model of polyglutamine disease.
+Conclusions: The identification of caffeine as a relevant factor in aging and healthspan in worms, combined with
+prior work in both humans and rodents linking caffeine consumption to reduced risk of age-associated disease,
+suggests that caffeine may target conserved longevity pathways. Further, it may be important to consider caffeine
+consumption when developing clinical interventions, particularly those designed to mimic dietary restriction or
+modulate insulin/IGF-1-like signaling. The positive impact of caffeine on a worm model of polyglutamine disease
+suggests that chronic caffeine consumption may generally enhance resistance to proteotoxic stress and may be
+relevant to assessing risk and developing treatments for human diseases like Alzheimer’s and Huntington’s disease.
+Future work addressing the relevant targets of caffeine in models of aging and healthspan will help to clarify the
+underlying mechanisms and potentially identify new molecular targets for disease intervention.
+Keywords: Aging, Life span, Longevity, Healthspan, Worms, Caffeine, Proteotoxicity, Neurodegeneration
+* Correspondence: kaeber@uw.edu
+1Department of Pathology, University of Washington, Box 357470, Seattle
+98195-7470, WA, USA
+4Institute of Aging Research, Guangdong Medical College, Dongguan
+523808, China
+Full list of author information is available at the end of the article
+© 2012 Sutphin et al.; licensee BioMed Central Ltd. This is an Open Access article distributed under the terms of the Creative
+Commons Attribution License (http://creativecommons.org/licenses/by/2.0), which permits unrestricted use, distribution, and
+reproduction in any medium, provided the original work is properly cited.
+Sutphin et al. Longevity & Healthspan 2012, 1:9
+http://www.longevityandhealthspan.com/content/1/1/9
+
+Background
+Numerous interventions have been identified that extend
+life span across an evolutionarily diverse range of organ-
+isms [1,2]. These include external (environmental) inter-
+ventions, such as dietary restriction, heat shock, or
+treatment with a pharmacological agent, as well as in-
+ternal (genetic) interventions, such as reduced target of
+rapamycin (TOR) signaling or reduced insulin/IGF-1-
+like signaling (IIS). In most cases, studies identifying
+these interventions are carried out using a genetically
+homogenous population in a controlled, low-risk, and
+pathogen-free environment. Interventions that are suc-
+cessful under laboratory conditions are beginning to be
+introduced into human clinical trials. As these trials pro-
+gress, it will be important to understand how the artifi-
+cial nature of the populations and environments in the
+laboratory setting may impact the outcomes of specific
+interventions when applied under more variable condi-
+tions. In terms of genetics, efforts are underway to
+understand the effects of dietary restriction in genetically
+heterogeneous populations. Early evidence indicates that
+the benefits observed in laboratory populations might
+not be universally realized by all members of genetically
+diverse populations [3-7]. From an environmental per-
+spective, human populations are exposed to a wide range
+of diets, climates, and pharmacological agents that are
+not present in the laboratory setting. Understanding the
+impact of these factors on longevity and age-associated
+disease will be important for predicting unintended
+effects
+that
+might
+arise
+from
+introducing
+novel
+interventions.
+Caffeine is the most widely used psychoactive sub-
+stance worldwide. Average consumption in the US is
+168 mg/person/day (equivalent to 1 to 2 cups of Star-
+bucksW coffee) and reaches 414 mg/person/day in the
+Netherlands [8]. Chronic, moderate consumption of caf-
+feine has been linked with reduced risk of age-associated
+neurodegenerative disorders in humans, including de-
+mentia [9], Alzheimer’s disease [9-11], and Parkinson’s
+disease [12-15]. In addition, studies performed on elderly
+human populations have correlated habitual caffeine
+consumption
+with
+reduced
+mortality
+[16,17]
+and
+improvements in various measures of healthspan, in-
+cluding reduced cognitive decline [18,19], improved
+memory [20-22], and increased motor speed [20]. While
+other studies failed to find similar correlations, the dif-
+ferences are attributed to wide variation in methodology
+[23,24].
+The potential for caffeine consumption to reduce
+neuropathology and impart age-associated neuroprotec-
+tion has motivated numerous studies using animal mod-
+els. Research using rodent models of neurodegenerative
+disease generally demonstrates that caffeine administra-
+tion can successfully alleviate degenerative symptoms
+and pathology (review by Cunha and Agostinho [25]).
+Acute treatment with caffeine prevents avoidance mem-
+ory impairment in a rat model of Parkinson's disease
+[26], while chronic caffeine treatment prevents cognitive
+defects in mice expressing toxic forms of amyloid beta, a
+common rodent model of Alzheimer’s disease [27]. Fur-
+thermore, acute caffeine treatment reduces amyloid beta
+levels in the plasma and brain interstitial fluid [28] and
+delays memory defects following intracerebral adminis-
+tration of amyloid beta [29-31]. One study using these
+mice suggests that caffeine treatment may even restore
+performance in individuals that are already displaying
+memory deficits [32]. Neurodegenerative disorders aside,
+caffeine treatment also prevents memory impairment in
+rodent models of various other diseases and conditions,
+including chronic stress, child convulsions, type 1 and
+type 2 diabetes, attention deficit and hyperactivity dis-
+order, heavy alcohol consumption, and sleep deprivation
+[25].
+Importantly,
+caffeine
+improves
+age-associated
+memory impairment in both mice and rats [33,34].
+Recently, several groups have started investigating the
+physiological effects of caffeine in non-mammalian mod-
+els, including worms and yeast. A common strategy to
+model Alzheimer’s disease in Caenorhabditis elegans
+involves transgenic expression of a toxic form of amyloid
+beta in the body wall muscle, resulting in an age-
+dependent paralysis phenotype [35]. Dostal et al. [36]
+found that both caffeine and non-caffeine components
+of coffee were capable of delaying paralysis in this
+model. During the course of the present study, another
+group identified caffeine in a screen for FDA-approved
+compounds capable of extending worm life span [37]. In
+yeast, caffeine increases chronological life span, likely
+through a mechanism related to TOR signaling [38].
+Given the high consumption rates of caffeine for
+people living in the developed world, understanding the
+impact of caffeine on aging and age-related disease will
+be important as aging interventions move from the la-
+boratory into use in clinical trials and the broader popu-
+lation. In this study, we characterize the effect of
+caffeine on life span and healthspan in C. elegans and
+identify clear epistatic interactions between caffeine and
+both dietary restriction and reduced IIS.
+Results
+Caffeine extends worm life span in a temperature-
+dependent manner
+In order to determine whether caffeine impacts longev-
+ity, life span was measured for worms maintained
+throughout their adult life on nematode growth medium
+(NGM) plates containing caffeine. In previous work, we
+observed temperature-dependent effects on life span
+resulting from reduced expression of the hypoxia-
+inducible factor, hif-1 [39]. Specifically, hif-1 knockdown
+Sutphin et al. Longevity & Healthspan 2012, 1:9
+Page 2 of 12
+http://www.longevityandhealthspan.com/content/1/1/9
+
+extended life span at 25°C, but not at 15°C or 20°C. To
+examine the possibility that caffeine might display a
+similar dependence on temperature, we measured life
+span for worms at 15°C, 20°C, and 25°C in the presence
+of 0 mM, 5 mM, or 7.5 mM caffeine. Caffeine concen-
+trations were selected based on previous studies in yeast
+and worms [36,38,40,41]. In contrast to hif-1 knock-
+down, caffeine extended life span at 15°C and 20°C, and
+slightly shortened life span at 25°C (Figure 1; Additional
+file 1: Table S1). These data are in agreement with the
+recently
+published
+FDA-approved
+drug
+screen
+that
+reported 29.4% median life span extension resulting
+from 0.1% (5.15 mM) caffeine at 20°C [37].
+Next, we conducted a caffeine dose response with re-
+spect to life span in order to determine the optimal
+temperature and caffeine concentration for increasing
+longevity. Life span extension was observed for caffeine
+concentrations ranging from 0.5 mM to 10 mM at
+20°C and from 5 mM to 20 mM at 15°C (Figure 2;
+Additional file 1: Table S1). The highest mean life span
+extension (36.7%) was achieved at 15°C using 10 mM caf-
+feine (Figures 2A,C; Additional file 1: Table S1). The high-
+est mean life span extension (16.9%) at 20°C also occurred
+at 10 mM (Figure 2B,C; Additional file 1: Table S1). Caf-
+feine reduced life span at concentrations of 30 mM or
+greater at both temperatures (Figure 2; Additional file 1:
+Table S1).
+Caffeine prolongs mobility and delays polyglutamine-
+associated pathology
+An intervention that increases longevity does not neces-
+sarily extend healthspan, the time period over which an
+organism remains healthy. To assess the effect of caf-
+feine on C. elegans healthspan, we examined two types
+of movement throughout the life span of worms exposed
+to either 0 mM or 5 mM caffeine. Caffeine delayed age-
+associated decline in both the thrashing rate in liquid
+and the rate of travel on solid media in the presence of a
+bacterial food source (Figure 3).
+Two previous studies found that caffeine can prolong
+survival [37] and delay the onset of paralysis [36] in a
+worm model of Alzheimer’s disease in which amyloid
+beta is express in the body wall muscles [42]. Dostal
+et al. [36] used an inducible amyloid beta construct that
+resulted in a severe proteotoxic pathology causing un-
+treated worms to become paralyzed over the course of
+20 to 30 h at 20°C. In order to examine the effect of caf-
+feine in a similar model of age-associated proteotoxicity,
+we examined paralysis in worms expressing an aggre-
+gate-prone, YFP-tagged polyglutamine chain (Q35::YFP)
+in the body wall muscles. Expanded polyglutamine tracts
+are a known causative factor in Huntington’s disease and
+related neurodegenerative disorders in humans, though
+the underlying disease mechanism is not known [43].
+Q35::YFP worms display a similar—but more slowly pro-
+gressing—paralysis
+phenotype
+to
+the
+amyloid
+beta
+worms, with the majority of worms becoming paralyzed
+over the course of approximately 3 weeks. Similar to the
+results of the amyloid beta study, we found that caffeine
+delayed the onset of paralysis in Q35::YFP worms at
+both 15°C and 20°C (Figure 4A,B). Caffeine also delayed
+the onset of paralysis at 25°C (Figure 4C), despite the
+lack of life span extension (Figure 1), suggesting that caf-
+feine may influence life span and proteotoxicity through
+at least partially distinct mechanisms. We further exam-
+ined Q35::YFP aggregate formation as a secondary mar-
+ker of polyglutamine toxicity. Similar to the case for
+paralysis, caffeine reduced the number of aggregates
+formed during early adulthood (Figure 4D).
+Life span extension by bacterial deprivation and exposure
+to caffeine are non-additive
+Dietary restriction is the most widely studied interven-
+tion capable of increasing life span. One goal of dietary
+restriction research is to discover dietary restriction
+mimetics, pharmacological agents capable of reprodu-
+cing the beneficial effects of dietary restriction without a
+reduction in food intake [44,45]. In order to investigate
+the potential for caffeine to act as a dietary restriction
+mimetic, we measured life span for worms with com-
+bined
+exposure
+to
+both
+caffeine
+and
+bacterial
+deprivation, a form of dietary restriction in which the
+bacterial food source is completely removed after the
+worms have reached early adulthood [46-48]. Both caf-
+feine and bacterial deprivation extended life span when
+applied to worms independently, but did not produce an
+Figure 1 Caffeine treatment results in a temperature-dependent life span extension in worms. Maintenance of worms in the presence of
+5 mM or 7.5 mM caffeine throughout adult life increases life span at 15°C and 20°C, but not at 25°C.
+Sutphin et al. Longevity & Healthspan 2012, 1:9
+Page 3 of 12
+http://www.longevityandhealthspan.com/content/1/1/9
+
+additive increase when combined at either 15°C and
+20°C (Figure 5A,B; Additional file 1: Table S1). In fact,
+bacterial deprivation became detrimental to life span
+when worms were subjected to caffeine concentrations
+of 30 mM or greater (Figure 5A,B; Additional file 1:
+Table S1). The abrogation of life span extension result-
+ing from bacterial deprivation in the presence of caf-
+feine is consistent with the idea that caffeine and dietary
+restriction
+influence
+aging
+via
+similar
+downstream
+mechanisms. Importantly, caffeine does not mimic diet-
+ary restriction by limiting food intake via reduced
+pharyngeal pumping (Figure 5C), as is the case with
+long-lived eat-2 mutants [49,50].
+Caffeine extends life span in the absence of sir-2.1,
+hif-1, and cep-1
+Several genetic pathways are known to influence longevity
+and may mediate the life span-extending effects of
+caffeine. In order to identify interactions between caffeine
+and canonical aging pathways, we measured the effect of
+caffeine on life span for strains with loss of function muta-
+tions in (1) sir-2.1, which encodes the worm ortholog of
+Sir2, a histone deacetylase linked to aging in many species;
+(2) hif-1, which encodes the hypoxia-inducible factor; or
+(3) cep-1, the worm ortholog of the tumor suppressor p53.
+Based on prior studies showing that bacterial deprivation
+can increase the life span of worms mutated for either
+sir-2.1 or hif-1 [46,48,51], we predicted that caffeine would
+also increase life span in these backgrounds. Consistent
+with this prediction, caffeine increased the life span of
+sir-2.1(ok434)
+and hif-1(ia4) animals
+(Figure
+6A,B,D;
+Additional file 1: Table S1). Caffeine also increased the life
+span of cep-1(gk138) animals (Figure 6A,C; Additional
+file 1: Table S1), indicating that the action of caffeine on
+life span is at least partially independent of all three of
+these genes, although the magnitude of effect of caffeine
+Figure 2 Caffeine extends worm life span at 15°C and 20°C. (A) Caffeine concentrations in the 5 to 20 mM range increase life span at 15°C.
+(B) Caffeine concentrations in the 0.5 to 10 mM range increase life span at 20°C. (C) Caffeine dose response curves reveal optimal concentrations
+for increased life span. *P < 0.05 vs. 0 mM at the same temperature.
+Figure 3 Caffeine delays age-associated decline in mobility at 15°C. Worms in the presence of 5 mM caffeine displayed increased thrashing
+(A) and travel rate (B) compared to untreated control worms. Error bars represent standard error. *P < 0.05 vs. 0 mM on the same day.
+Sutphin et al. Longevity & Healthspan 2012, 1:9
+Page 4 of 12
+http://www.longevityandhealthspan.com/content/1/1/9
+
+on life span in each of these mutant backgrounds was
+smaller than that observed in wild-type animals at the
+same concentrations.
+Caffeine appears to modulate longevity by a mechanism
+similar to reduced IIS signaling
+The IIS pathway is the most widely studied longevity path-
+way in C. elegans. Interventions or mutations that reduce
+IIS, such as RNAi knockdown of the insulin-like receptor
+DAF-2, increase life span by activating the FOXO family
+transcription factor DAF-16 [2]. Treatment with 5 mM
+caffeine failed to extended life span of daf-16(mu86) mu-
+tant worms (Figure 7A,B; Additional file 1: Table S1). This
+result is in agreement with a similar finding by Lublin
+et al. [37] at 20°C and suggests a functional link between
+caffeine and IIS. To further explore the link between
+Figure 4 Caffeine delays age-associated paralysis in a worm polyglutamine toxicity model. Caffeine treatment delayed the onset of
+paralysis in worms expressing Q35::YFP in their body wall muscles at (A) 15°C, (B) 20°C, and (C) 25°C. (D) Caffeine reduced the formation
+of Q35::YFP aggregates at 15°C. Error bars represent standard error. *P < 0.05 vs. 0 mM.
+Figure 5 Caffeine increases life span in a manner that is non-additive with dietary restriction. Life span extension from caffeine and
+bacterial deprivation are non-additive at (A) 15°C and (B) 20°C; *P < 0.05 vs. ad libitum fed worms at the same caffeine concentration. (C) 5 mM
+caffeine does not reduce pharyngeal pumping at 15°C. Error bars represent standard error. *P < 0.05 vs. 0 mM on the same day.
+Sutphin et al. Longevity & Healthspan 2012, 1:9
+Page 5 of 12
+http://www.longevityandhealthspan.com/content/1/1/9
+
+Figure 6 Caffeine extends life span of canonical longevity mutants. Treatment with 5 mM or 10 mM caffeine extends life span of
+(A) wild-type, (B) sir-2.1(ok434), (C) hif-1(ia4), and (D) cep-1(gk138) worms.
+Figure 7 Caffeine displays epistatic interaction with IIS components. 5 mM or 10 mM caffeine extends life span in wild-type (A), but not
+daf-16(mu86) (B), worms, and in wild-type worms fed EV(RNAi) (C), but not worms fed daf-16(RNAi) (D) or daf-2(RNAi) (E).
+Sutphin et al. Longevity & Healthspan 2012, 1:9
+Page 6 of 12
+http://www.longevityandhealthspan.com/content/1/1/9
+
+caffeine and IIS, we investigated whether caffeine was cap-
+able of extending life span in worms when daf-16 or daf-2
+was knocked down using RNAi. As with mutation of
+daf-16, 5 mM caffeine failed to increase life span in worms
+subjected to daf-16(RNAi) (Figure 7C,D; Additional file 1:
+Table S1). In both the case of the daf-16(mu86) mutant and
+the case of wild-type worms subjected to daf-16(RNAi),
+10 mM caffeine increased life span, though to a much smal-
+ler degree than in a wild-type background or in worms sub-
+jected to EV(RNAi). This may suggest that a small
+mechanistic component of the life span extension observed
+in the presence of caffeine is independent from IIS. Neither
+5 mM nor 10 mM caffeine further increased the long life
+span of worms subjected to daf-2(RNAi) (Figure 7C,E;
+Additional file 1: Table S1).
+Activity of DAF-16 is post-translationally regulated
+through subcellular localization. Reduction of IIS causes
+dephosphorylation of the DAF-16 protein, allowing it to
+enter the nucleus and thereby activate transcription of
+target genes. In order to determine whether caffeine
+influences DAF-16 localization in a this manner, we
+examined transgenic worms expressing a GFP-tagged
+DAF-16 protein (DAF-16::GFP). Worms exposed to caf-
+feine for 2–3 h displayed an increase in DAF-16::GFP
+nuclear localization compared to untreated controls
+(Figure 8). These data are consistent with a model in
+which caffeine impacts life span, at least in part, by redu-
+cing insulin signaling and activating DAF-16.
+We next asked whether DAF-16 is necessary for caffeine
+to delay paralysis in the Q35::YFP polyglutamine toxicity
+model. Intriguingly, caffeine was capable of delaying par-
+alysis of the Q35::YFP worms even in the presence of
+daf-16(RNAi) (Figure 9), adding further support for a
+model in which caffeine impacts life span and polygluta-
+mine toxicity through at least partially distinct mechanisms.
+Discussion
+In this study, we demonstrate that chronic exposure to
+caffeine
+during
+adulthood
+extends
+life
+span
+and
+healthspan of C. elegans in a temperature-dependent
+manner. Life span extension from caffeine is non-
+additive with life span extension by bacterial deprivation
+and independent of the hypoxia inducible factor, HIF-1,
+the C. elegans p53 ortholog, CEP-1, and the C. elegans
+Sir2 ortholog, SIR-2.1. Caffeine appears to act, at least in
+part, by activating the FOXO transcription factor DAF-16
+in a manner similar to reduced IIS. Chronic caffeine ex-
+posure also delays paralysis in a C. elegans model of poly-
+glutamine disease, though this effect appears to be
+independent of DAF-16.
+Perhaps the most intriguing therapeutic value for caf-
+feine is its potential to reduce the risk and delay the
+onset of age-associated neurodegenerative disease. As
+described in the introduction, studies in humans and
+rodents indicate that caffeine treatment reduces the risk
+of disease onset and improves cognitive decline in mod-
+els of Alzheimer’s and Parkinson’s disease. Previous work
+has also shown that caffeine is capable of delaying path-
+ology in worm models of Alzheimer’s disease [36,37]. In
+this study, we expand upon these findings to show that
+caffeine is capable of delaying pathology in a worm
+model of polyglutamine disease. Although mammalian
+studies investigating the use of caffeine in neurodegen-
+erative disorders have focused primarily on Alzheimer’s
+and Parkinson’s disease, research that examines the
+effects of caffeine consumption on Huntington’s disease
+in human populations is currently underway. Our find-
+ing suggests that a more detailed examination of the in-
+fluence of caffeine on the progression of a broader
+spectrum of diseases associated with proteotoxic stress
+in mammalian models may be warranted.
+This study and that by Lublin et al. [37] both identify
+an epistatic interaction between caffeine and IIS. A
+related link has been made in mammals. While acute
+treatment with caffeine has been shown to increase
+blood
+pressure
+[52]
+and
+reduce
+insulin
+sensitivity
+[53,54], long-term coffee consumption shows a strong
+correlation with reduced risk of type 2 diabetes in
+Figure 8 Caffeine causes DAF-16 nuclear localization. (A) Treatment with 5 mM caffeine causes nuclear localization of transgenically
+expressed DAF-16::GFP. A 2-h heat shock at 37°C robustly activates DAF-16 and was used as a positive control. Error bars represent standard error.
+*P < 0.05 vs. 0 mM. (B) Representative image showing DAF-16::GFP nuclear localization in response to caffeine.
+Sutphin et al. Longevity & Healthspan 2012, 1:9
+Page 7 of 12
+http://www.longevityandhealthspan.com/content/1/1/9
+
+humans [55], and chronic caffeine exposure prevents
+diet-induced insulin resistance and hypertension in rats
+[56]. Chronic caffeine consumption may prove useful in
+mimicking reduced IIS and improving diet-induced insu-
+lin resistance.
+The interaction observed between bacterial deprivation
+and caffeine suggests that caffeine may also emulate
+aspects of dietary restriction, which is particularly inter-
+esting given that caffeine is already in common use in
+human society. The observation that caffeine interacts
+with both bacterial deprivation and IIS is complicated by
+the fact that bacterial deprivation extends life span inde-
+pendently of both DAF-2 and DAF-16 [46,48], suggest-
+ing that caffeine may activate overlapping downstream
+targets in both pathways. The additional observation
+that life span extension from caffeine is reduced in three
+other strain backgrounds with mutations in genes linked
+to aging suggests that caffeine may be activating a com-
+mon set of cellular processes important for increased
+longevity via a range of interventions. The idea that caf-
+feine may interact with multiple pathways involved in
+aging is further supported by the observation that the
+influences of caffeine on life span and polyglutamine
+toxicity are separable with respect to their dependence
+on both temperature and DAF-16. Alternatively, it is
+possible that caffeine alters the molecular or physio-
+logical state of the organisms in such a way that renders
+the organism unable to respond normally to signals that
+result in increased life span in untreated animals. Epi-
+static interactions provide limited information regarding
+the potential mechanism of life span extension [57], and
+further study will be required to unravel the complex-
+ities of caffeine’s impact on the aging process.
+This study identifies genetic interaction between caf-
+feine and both the IIS and the dietary restriction path-
+ways. The direct molecular targets and downstream
+mechanisms by which caffeine influences longevity re-
+main to be investigated. Mammalian research suggests
+that caffeine primarily impacts cognitive phenotypes by
+antagonizing adenosine receptors A1 and A2A [25]. At
+sub-toxic levels of caffeine, adenosine receptors are the
+only clear molecular targets and many of the beneficial
+effects of caffeine are mimicked by specific agonists of
+adenosine
+receptor
+A2A
+[25].
+Mild
+inhibition
+of
+phosphodiesterase activity has only been observed at
+higher concentrations of caffeine [58]. Functionally, caf-
+feine prevents memory impairment induced by heavy al-
+cohol consumption in rats, an effect that can be
+mimicked by simultaneous treatment with inhibitors of
+phosphodiesterase 5 and adenosine receptor A2A (but
+not by either inhibitor alone) [58]. This suggests that
+specific subclasses of phosphodiesterases may be import-
+ant for the action of sub-toxic doses of caffeine in some
+circumstances.
+Clear orthologs of mammalian adenosine receptors
+have not yet been identified in C. elegans, though there
+are several candidate genes based on sequence hom-
+ology. In contrast, the C. elegans genome contains six
+phosphodiesterases that fall into two functional classes:
+one class that specifically targets cAMP (PDE-4,6) and
+another that is thought to target cGMP (PDE-1,2,3,5)
+[59,60]. High doses of caffeine have been shown to in-
+hibit mammalian cAMP phosphodiesterases [61,62], in-
+dicating that the former class is of greater interest.
+Further investigation will determine whether adenosine
+receptors,
+phosphodiesterases,
+or
+other
+targets
+are
+involved in caffeine’s effect on worm life span.
+Two factors have complicated mammalian research
+with caffeine. In human populations, most studies deter-
+mine
+caffeine
+intake
+by
+consumption
+of
+caffeine-
+containing foods and beverages, such as coffee, tea, soft
+drinks, and chocolate, all of which contain other com-
+pounds that have the potential to affect the diseases
+under investigation. For example, one study found that
+long-term coffee consumption shows a strong correl-
+ation with reduced risk of type 2 diabetes [55], while a
+later study found a similar correlation for both caffein-
+ated and decaffeinated coffee consumption [63]. A re-
+cently published study identified a correlation between
+consumption of either caffeinated or decaffeinated coffee
+and reduced mortality risk for a range of age-associated
+diseases, including diabetes [64]. The collective findings
+Figure 9 Caffeine delays age-associated paralysis associated with polyglutamine toxicity independently from DAF-16. Caffeine
+treatment delayed the onset of paralysis in worms expressing Q35::YFP in their body wall subject to either EV(RNAi) or daf-16(RNAi) at 15°C.
+Sutphin et al. Longevity & Healthspan 2012, 1:9
+Page 8 of 12
+http://www.longevityandhealthspan.com/content/1/1/9
+
+from these studies suggest that some of the insulin-
+related benefit from coffee consumption may result from
+compounds in coffee other than caffeine. Interpretations
+are further complicated by seemingly contradictory effects
+resulting from acute and chronic caffeine treatment in
+some circumstances, as discussed previously with respect
+to insulin sensitivity and hypertension. C. elegans may be
+a useful model for decoupling these types of complica-
+tions. For example, worm studies completed to date have
+already begun to separate influences from caffeine and
+non-caffeine sources with respect to coffee. Dostal et al.
+[36] identified SKN-1 as a primary downstream factor in
+the caffeine-independent delay in amyloid beta toxicity
+using coffee extract, while this study and that by Lublin
+et al. [37] identify IIS as an important player in life span
+extension by caffeine.
+A growing accumulation of evidence in humans,
+rodents, and nematodes suggests that chronic caffeine
+exposure may yield significant health benefits by delay-
+ing aging and preventing specific age-associated patholo-
+gies. Recent studies indicate that C. elegans will be a
+useful system for dismantling the molecular events that
+underlie the beneficial effects of caffeine. C. elegans re-
+search may also help unravel the complications asso-
+ciated with acute versus chronic caffeine treatment and
+identify other compounds in coffee and tea with the po-
+tential to promote longer life span. Overall, based on the
+observations that caffeine is capable of increasing life
+span in worms and has been correlated with decreased
+mortality in humans, we anticipate the expansion of
+studies examining the influence of caffeine on longevity
+into mammalian systems.
+Conclusion
+In this study, we have validated and extended prior evi-
+dence that caffeine can improve healthy aging in C. elegans
+by showing that caffeine can both increase life span and
+promote resistance to proteotoxic stress. The longevity
+effects of caffeine appear to overlap with both the insulin-
+like signaling pathway and with dietary restriction, while
+the resistance to polyglutamine toxicity is independent of
+insulin-like signaling. The effects of caffeine on longevity
+also vary based on the experimental temperature. It will be
+important to unravel the mechanisms underlying these
+observations in future studies. In this way, it may be pos-
+sible to define how caffeine exerts its positive health bene-
+fits in worms and determine whether similar processes
+govern the effects of caffeine on human longevity and
+healthspan.
+Methods
+Strains and media
+The strains used in this study are listed in Additional file 1:
+Table S2 and were obtained from the Caenorhabditis
+Genetics Center, the laboratory of Dr. Chris Link (Univer-
+sity of Colorado, Boulder, CO, USA), or the laboratory of
+Dr. Jim Thomas (University of Washington, Seattle, WA,
+USA). Animals were maintained on solid nematode growth
+media (NGM) agar plates using standard techniques.
+Experiments were performed on NGM plates supplemen-
+ted with 25 mg/ml ampicillin to prevent contamination.
+Adult worms were placed on NGM plates containing FUdR
+to prevent reproduction. With the exception of the bacteria
+used in RNAi experiments, bacterial food was killed by ex-
+posure to UV and addition of ampicillin to the medium, as
+previously described [65]. Solid anhydrous caffeine (MP
+Biomedicals, Solon, OH, USA) was added directly to the
+NGM solution prior to autoclaving. Neither autoclaving
+nor UV treatment during plate preparation influenced life
+span in the presence of caffeine (data not shown). All
+experiments were conducted at 15°C except where other-
+wise noted.
+RNAi
+RNAi experiments were conducted using feeding proto-
+cols according to standard procedures. The RNAi feed-
+ing strains targeting daf-16 and daf-2 were obtained
+from the Vidal RNAi library [66] and J. McElwee, re-
+spectively. RNAi plasmids were sequenced to verify the
+target sequence. RNAi plates consisted of NGM supple-
+mented
+with
+1
+mM
+β-D-isothiogalactopyranoside
+(IPTG) and 25 μg/ml carbenicillin. Worms were raised
+on RNAi bacteria from egg to the L4 stage of develop-
+ment and then transferred to plates containing freshly
+seeded RNAi bacteria plus 50 μM FUdR to prevent
+production.
+Life span analysis
+Life span experiments were conducted as previously
+described [65]. Bacterial deprivation was conducted by
+maintaining animals on UV-killed OP50 bacteria food
+until day 4 of adulthood and then transferring animals
+to NGM agar plates containing ampicillin but without a
+bacterial food source, as previously described [47,67].
+Paralysis analysis
+Paralysis of worms was assessed visually as previously
+described [68]. Worms were scored as paralyzed if they
+were unable to make forward progress on the NGM sur-
+face in response to plate-tapping or tail-prodding.
+Quantification of aggregates
+Q35::YFP aggregates were quantified by taking images
+using fluorescent microscopy followed by automated
+quantification of the number of aggregates present per
+worm based on pixel density using ImageJ.
+Sutphin et al. Longevity & Healthspan 2012, 1:9
+Page 9 of 12
+http://www.longevityandhealthspan.com/content/1/1/9
+
+Movement assays
+Thrashing was quantified visually by suspending individ-
+ual animals in a droplet of M9 buffer on the surface of
+an NGM plate and counting the number of body bends
+in 60 s. Movement rate was quantified by placing an in-
+dividual worm onto a fresh OP50-seeded NGM plate.
+After 60 min, pictures were taken of tracks left in the
+bacterial lawn using a standard SLR camera with a
+microscope eyepiece adapter. Track length was mea-
+sured using ImageJ software. Pharyngeal pumping was
+quantified visually by taking video recordings of the head
+region of individual animals and counting the number of
+pumps in 30 s.
+DAF-16::GFP nuclear localization
+Transgenic worms expressing DAF-16::GFP were trans-
+ferred to plates containing 0 mM or 5 mM caffeine at
+the L4 stage of development for. A third population of
+worms was exposed to 30°C for 2 h immediately prior to
+analysis. Worms were immobilized by treatment with 25
+nM NaN3 and still images captured using a mounted
+digital camera and the GFP fluorescence channel of a
+Zeiss SteREO Lumar V.12 microscope. Captured images
+were used to quantify visible GFP foci.
+Statistical analysis
+Statistical significance was determined for worm life
+span using the Wilcoxon rank sum test. All other com-
+parisons were conducted using an unpaired two-tailed
+Student’s T-test assuming unequal variance.
+Additional file
+Additional file 1: Table S1. Summary of life span data in this study.
+Table S2. Strains used in this study.
+Competing interests
+The authors declare that they have no competing interests.
+Authors’ contributions
+GLS conceived of this study, coordinated experiments, carried out life span
+assays, and drafted the manuscript. EB carried out life span, movement,
+pharyngeal pumping, and DAF-16::GFP nuclear localization assays. MEY and
+RMM carried out paralysis and aggregate quantification assays. MK provided
+oversight for experimental design and coordination, and helped draft the
+manuscript. All authors read the manuscript, provided constructive
+commentary and criticism, and approved final submission.
+Acknowledgements
+We thank Dr. Jennifer Schleit for helpful discussion during the conception
+and experimental design of this study. This work was supported by NIH
+Grant R01AG031108 and R01AG038518 to MK. GLS and MEY were supported
+by NIH Training Grant T32AG000057. MK is an Ellison Medical Foundation
+New Scholar in Aging.
+Author details
+1Department of Pathology, University of Washington, Box 357470, Seattle
+98195-7470, WA, USA. 2Molecular and Cellular Biology Program, University of
+Washington, Box 357275, Seattle 98195-7275, WA, USA. 3Department of
+Psychology, University of Washington, Box 351525, Seattle 98195-1525, WA,
+USA. 4Institute of Aging Research, Guangdong Medical College, Dongguan
+523808, China.
+Received: 19 June 2012 Accepted: 12 September 2012
+Published: 1 December 2012
+References
+1.
+Fontana L, Partridge L, Longo VD: Extending healthy life span–from yeast
+to humans. Science 2010, 328:321–326.
+2.
+Kenyon CJ: The genetics of ageing. Nature 2010, 464:504–512.
+3.
+Liao CY, Rikke BA, Johnson TE, Diaz V, Nelson JF: Genetic variation in the
+murine lifespan response to dietary restriction: from life extension to life
+shortening. Aging Cell 2010, 9:92–95.
+4.
+Liao CY, Rikke BA, Johnson TE, Gelfond JA, Diaz V, Nelson JF:
+Fat maintenance is a predictor of the murine lifespan response to
+dietary restriction. Aging Cell 2011, 10:629–639.
+5.
+Rikke BA, Liao CY, McQueen MB, Nelson JF, Johnson TE: Genetic dissection
+of dietary restriction in mice supports the metabolic efficiency model of
+life extension. Exp Gerontol 2010, 45:691–701.
+6.
+Schleit J, Wasko BM, Kaeberlein M: Yeast as a model to understand the
+interaction between genotype and the response to calorie restriction.
+FEBS Lett 2012, 586:2868–2873.
+7.
+Harper JM, Leathers CW, Austad SN: Does caloric restriction extend life in
+wild mice? Aging Cell 2006, 5:441–449.
+8.
+Fredholm BB, Battig K, Holmen J, Nehlig A, Zvartau EE: Actions of caffeine
+in the brain with special reference to factors that contribute to its
+widespread use. Pharmacol Rev 1999, 51:83–133.
+9.
+Eskelinen MH, Kivipelto M: Caffeine as a protective factor in dementia and
+Alzheimer's disease. J Alzheimers Dis 2010, 20(Suppl 1):S167–S174.
+10.
+Lindsay J, Laurin D, Verreault R, Hebert R, Helliwell B, Hill GB, McDowell I:
+Risk factors for Alzheimer's disease: a prospective analysis from the
+Canadian study of health and aging. Am J Epidemiol 2002, 156:445–453.
+11.
+Maia L, de Mendonca A: Does caffeine intake protect from Alzheimer's
+disease? Eur J Neurol 2002, 9:377–382.
+12.
+Ascherio A, Zhang SM, Hernan MA, Kawachi I, Colditz GA, Speizer FE, Willett
+WC: Prospective study of caffeine consumption and risk of Parkinson's
+disease in men and women. Ann Neurol 2001, 50:56–63.
+13.
+Benedetti MD, Bower JH, Maraganore DM, McDonnell SK, Peterson BJ,
+Ahlskog JE, Schaid DJ, Rocca WA: Smoking, alcohol, and coffee
+consumption preceding Parkinson's disease: a case–control study.
+Neurology 2000, 55:1350–1358.
+14.
+Costa J, Lunet N, Santos C, Santos J, Vaz-Carneiro A: Caffeine exposure and
+the risk of Parkinson's disease: a systematic review and meta-analysis of
+observational studies. J Alzheimers Dis 2010, 20(Suppl 1):S221–S238.
+15.
+Ross GW, Abbott RD, Petrovitch H, Morens DM, Grandinetti A, Tung KH,
+Tanner CM, Masaki KH, Blanchette PL, Curb JD, et al: Association of coffee
+and caffeine intake with the risk of Parkinson disease. Jama 2000,
+283:2674–2679.
+16.
+Fortes C, Forastiere F, Farchi S, Rapiti E, Pastori G, Perucci CA: Diet and
+overall survival in a cohort of very elderly people. Epidemiology 2000,
+11:440–445.
+17.
+Paganini-Hill A, Kawas CH, Corrada MM: Non-alcoholic beverage and
+caffeine consumption and mortality: the leisure world cohort study.
+Prev Med 2007, 44:305–310.
+18.
+Santos C, Lunet N, Azevedo A, de Mendonca A, Ritchie K, Barros H: Caffeine
+intake is associated with a lower risk of cognitive decline: a cohort study
+from Portugal. J Alzheimers Dis 2010, 20(Suppl 1):S175–S185.
+19.
+van Gelder BM, Buijsse B, Tijhuis M, Kalmijn S, Giampaoli S, Nissinen A,
+Kromhout D: Coffee consumption is inversely associated with cognitive
+decline in elderly European men: the FINE Study. Eur J Clin Nutr 2007,
+61:226–232.
+20.
+Hameleers PA, Van Boxtel MP, Hogervorst E, Riedel WJ, Houx PJ, Buntinx F,
+Jolles J: Habitual caffeine consumption and its relation to memory,
+attention, planning capacity and psychomotor performance across
+multiple age groups. Hum Psychopharmacol 2000, 15:573–581.
+21.
+Johnson-Kozlow M, Kritz-Silverstein D, Barrett-Connor E, Morton D: Coffee
+consumption and cognitive function among older adults. Am J Epidemiol
+2002, 156:842–850.
+22.
+Ritchie K, Carriere I, de Mendonca A, Portet F, Dartigues JF, Rouaud O,
+Barberger-Gateau P, Ancelin ML: The neuroprotective effects of caffeine: a
+Sutphin et al. Longevity & Healthspan 2012, 1:9
+Page 10 of 12
+http://www.longevityandhealthspan.com/content/1/1/9
+
+prospective population study (the Three City Study). Neurology 2007,
+69:536–545.
+23.
+Rosso A, Mossey J, Lippa CF: Caffeine: neuroprotective functions in
+cognition and Alzheimer's disease. Am J Alzheimers Dis Other Demen 2008,
+23:417–422.
+24.
+Santos C, Costa J, Santos J, Vaz-Carneiro A, Lunet N: Caffeine intake and
+dementia: systematic review and meta-analysis. J Alzheimers Dis 2010, 20
+(Suppl 1):S187–S204.
+25.
+Cunha RA, Agostinho PM: Chronic caffeine consumption prevents
+memory disturbance in different animal models of memory decline.
+J Alzheimers Dis 2010, 20(Suppl 1):S95–S116.
+26.
+Gevaerd MS, Takahashi RN, Silveira R, Da Cunha C: Caffeine reverses the
+memory disruption induced by intra-nigral MPTP-injection in rats.
+Brain Res Bull 2001, 55:101–106.
+27.
+Arendash GW, Schleif W, Rezai-Zadeh K, Jackson EK, Zacharia LC, Cracchiolo
+JR, Shippy D, Tan J: Caffeine protects Alzheimer's mice against cognitive
+impairment and reduces brain beta-amyloid production.
+Neuroscience 2006, 142:941–952.
+28.
+Cao C, Cirrito JR, Lin X, Wang L, Verges DK, Dickson A, Mamcarz M, Zhang C,
+Mori T, Arendash GW, et al: Caffeine suppresses amyloid-beta levels in
+plasma and brain of Alzheimer's disease transgenic mice. J Alzheimers Dis
+2009, 17:681–697.
+29.
+Canas PM, Porciuncula LO, Cunha GM, Silva CG, Machado NJ, Oliveira JM,
+Oliveira CR, Cunha RA: Adenosine A2A receptor blockade prevents
+synaptotoxicity and memory dysfunction caused by beta-amyloid
+peptides via p38 mitogen-activated protein kinase pathway. J Neurosci
+2009, 29:14741–14751.
+30.
+Cunha GM, Canas PM, Melo CS, Hockemeyer J, Muller CE, Oliveira CR, Cunha
+RA: Adenosine A2A receptor blockade prevents memory dysfunction
+caused by beta-amyloid peptides but not by scopolamine or MK-801.
+Exp Neurol 2008, 210:776–781.
+31.
+Dall'Igna OP, Fett P, Gomes MW, Souza DO, Cunha RA, Lara DR: Caffeine
+and adenosine A(2a) receptor antagonists prevent beta-amyloid
+(25–35)-induced cognitive deficits in mice. Exp Neurol 2007, 203:241–245.
+32.
+Arendash GW, Mori T, Cao C, Mamcarz M, Runfeldt M, Dickson A, Rezai-
+Zadeh K, Tane J, Citron BA, Lin X, et al: Caffeine reverses cognitive
+impairment and decreases brain amyloid-beta levels in aged Alzheimer's
+disease mice. J Alzheimers Dis 2009, 17:661–680.
+33.
+Costa MS, Botton PH, Mioranzza S, Souza DO, Porciuncula LO: Caffeine
+prevents age-associated recognition memory decline and changes
+brain-derived neurotrophic factor and tirosine kinase receptor (TrkB)
+content in mice. Neuroscience 2008, 153:1071–1078.
+34.
+Prediger RD, Batista LC, Takahashi RN: Caffeine reverses age-related
+deficits in olfactory discrimination and social recognition memory in
+rats. Involvement of adenosine A1 and A2A receptors. Neurobiol Aging
+2005, 26:957–964.
+35.
+Link CD, Taft A, Kapulkin V, Duke K, Kim S, Fei Q, Wood DE, Sahagan BG:
+Gene expression analysis in a transgenic Caenorhabditis elegans
+Alzheimer's disease model. Neurobiol Aging 2003, 24:397–413.
+36.
+Dostal V, Roberts CM, Link CD: Genetic mechanisms of coffee extract
+protection in a Caenorhabditis elegans model of beta-amyloid peptide
+toxicity. Genetics 2010, 186:857–866.
+37.
+Lublin A, Isoda F, Patel H, Yen K, Nguyen L, Hajje D, Schwartz M, Mobbs C:
+FDA-approved drugs that protect mammalian neurons from glucose
+toxicity slow aging dependent on cbp and protect against
+proteotoxicity. PLoS One 2011, 6:e27762.
+38.
+Wanke V, Cameroni E, Uotila A, Piccolis M, Urban J, Loewith R, De Virgilio C:
+Caffeine extends yeast lifespan by targeting TORC1. Mol Microbiol 2008,
+69:277–285.
+39.
+Leiser SF, Begun A, Kaeberlein M: HIF-1 modulates longevity and
+healthspan in a temperature-dependent manner. Aging Cell 2011,
+10:318–326.
+40.
+Kuranda K, Leberre V, Sokol S, Palamarczyk G, Francois J: Investigating the
+caffeine effects in the yeast Saccharomyces cerevisiae brings new
+insights into the connection between TOR, PKC and Ras/cAMP signalling
+pathways. Mol Microbiol 2006, 61:1147–1166.
+41.
+Sun J, Kale SP, Childress AM, Pinswasdi C, Jazwinski SM: Divergent roles of
+RAS1 and RAS2 in yeast longevity. J Biol Chem 1994, 269:18638–18645.
+42.
+Link CD: Expression of human beta-amyloid peptide in transgenic
+Caenorhabditis elegans. Proc Natl Acad Sci U S A 1995, 92:9368–9372.
+43.
+Bonini NM, La Spada AR: Silencing polyglutamine degeneration with
+RNAi. Neuron 2005, 48:715–718.
+44.
+Kaeberlein M: Resveratrol and rapamycin: are they anti-aging drugs?
+Bioessays 2010, 32:96–99.
+45.
+Ingram DK, Zhu M, Mamczarz J, Zou S, Lane MA, Roth GS, DeCabo R:
+Calorie restriction mimetics: an emerging research field. Aging Cell 2006,
+5:97–108.
+46.
+Kaeberlein TL, Smith ED, Tsuchiya M, Welton KL, Thomas JH, Fields S,
+Kennedy BK, Kaeberlein M: Lifespan extension in Caenorhabditis elegans
+by complete removal of food. Aging Cell 2006, 5:487–494.
+47.
+Smith ED, Kaeberlein TL, Lydum BT, Sager J, Welton KL, Kennedy BK,
+Kaeberlein M: Age- and calorie-independent life span extension from
+dietary restriction by bacterial deprivation in Caenorhabditis elegans.
+BMC Dev Biol 2008, 8:49.
+48.
+Lee GD, Wilson MA, Zhu M, Wolkow CA, de Cabo R, Ingram DK, Zou S:
+Dietary deprivation extends lifespan in Caenorhabditis elegans. Aging
+Cell 2006, 5:515–524.
+49.
+Avery L: The genetics of feeding in Caenorhabditis elegans. Genetics 1993,
+133:897–917.
+50.
+Lakowski B, Hekimi S: The genetics of caloric restriction in Caenorhabditis
+elegans. Proc Natl Acad Sci U S A 1998, 95:13091–13096.
+51.
+Mehta R, Steinkraus KA, Sutphin GL, Ramos FJ, Shamieh LS, Huh A, Davis C,
+Chandler-Brown D, Kaeberlein M: Proteasomal regulation of the hypoxic
+response modulates aging in C. elegans. Science 2009, 324:1196–1198.
+52.
+Riksen NP, Rongen GA, Smits P: Acute and long-term cardiovascular
+effects of coffee: implications for coronary heart disease. Pharmacol Ther
+2009, 121:185–191.
+53.
+Keijzers GB, De Galan BE, Tack CJ, Smits P: Caffeine can decrease insulin
+sensitivity in humans. Diabetes Care 2002, 25:364–369.
+54.
+Moisey LL, Kacker S, Bickerton AC, Robinson LE, Graham TE: Caffeinated
+coffee consumption impairs blood glucose homeostasis in response to
+high and low glycemic index meals in healthy men. Am J Clin Nutr 2008,
+87:1254–1261.
+55.
+van Dam RM, Hu FB: Coffee consumption and risk of type 2 diabetes: a
+systematic review. Jama 2005, 294:97–104.
+56.
+Conde SV, Nunes da Silva T, Gonzalez C, Mota Carmo M, Monteiro EC,
+Guarino MP: Chronic caffeine intake decreases circulating catecholamines
+and prevents diet-induced insulin resistance and hypertension in rats.
+Br J Nutr 2012, 107:86–95.
+57.
+Delaney JR, Sutphin GL, Dulken B, Sim S, Kim JR, Robison B, Schleit J,
+Murakami CJ, Carr D, An EH, et al: Sir2 deletion prevents lifespan
+extension in 32 long-lived mutants. Aging Cell 2011, 10:1089–1091.
+58.
+Spinetta MJ, Woodlee MT, Feinberg LM, Stroud C, Schallert K,
+Cormack LK, Schallert T: Alcohol-induced retrograde memory
+impairment in rats: prevention by caffeine. Psychopharmacology
+(Berl) 2008, 201:361–371.
+59.
+Liu J, Ward A, Gao J, Dong Y, Nishio N, Inada H, Kang L, Yu Y, Ma
+D, Xu T, et al: C. elegans phototransduction requires a G protein-
+dependent cGMP pathway and a taste receptor homolog. Nat
+Neurosci 2010, 13:715–722.
+60.
+Omori K, Kotera J: Overview of PDEs and their regulation. Circ Res 2007,
+100:309–327.
+61.
+Butcher FR, Potter VR: Control of the adenosine 3',5'-monophosphate-
+adenyl cyclase system in the livers of developing rats. Cancer Res 1972,
+32:2141–2147.
+62.
+Tsuzuki J, Newburgh RW: Inhibition of 5'-nucleotidase in rat brain by
+methylxanthines. J Neurochem 1975, 25:895–896.
+63.
+van Dam RM, Willett WC, Manson JE, Hu FB: Coffee, caffeine, and risk of
+type 2 diabetes: a prospective cohort study in younger and middle-aged
+U.S. women. Diabetes Care 2006, 29:398–403.
+64.
+Freedman ND, Park Y, Abnet CC, Hollenbeck AR, Sinha R: Association of
+coffee drinking with total and cause-specific mortality. N Engl J Med 2012,
+366:1891–1904.
+65.
+Sutphin GL, Kaeberlein M: Measuring Caenorhabditis elegans life span on
+solid media. J Vis Exp 2009, 27:e1152.
+66.
+Rual JF, Ceron J, Koreth J, Hao T, Nicot AS, Hirozane-Kishikawa T,
+Vandenhaute J, Orkin SH, Hill DE, van den Heuvel S, Vidal M:
+Toward improving Caenorhabditis elegans phenome mapping
+with an ORFeome-based RNAi library. Genome Res 2004,
+14:2162–2168.
+Sutphin et al. Longevity & Healthspan 2012, 1:9
+Page 11 of 12
+http://www.longevityandhealthspan.com/content/1/1/9
+
+67.
+Schleit J, Wall VZ, Simko M, Kaeberlein M: The MDT-15 subunit of mediator
+interacts with dietary restriction to modulate longevity and fluoranthene
+toxicity in Caenorhabditis elegans. PLoS One 2011, 6:e28036.
+68.
+Steinkraus KA, Smith ED, Davis C, Carr D, Pendergrass WR, Sutphin GL,
+Kennedy BK, Kaeberlein M: Dietary restriction suppresses proteotoxicity
+and enhances longevity by an hsf-1-dependent mechanism in
+Caenorhabditis elegans. Aging Cell 2008, 7:394–404.
+doi:10.1186/2046-2395-1-9
+Cite this article as: Sutphin et al.: Caffeine extends life span, improves
+healthspan, and delays age-associated pathology in Caenorhabditis
+elegans. Longevity & Healthspan 2012 1:9.
+Submit your next manuscript to BioMed Central
+and take full advantage of: 
+• Convenient online submission
+• Thorough peer review
+• No space constraints or color ﬁgure charges
+• Immediate publication on acceptance
+• Inclusion in PubMed, CAS, Scopus and Google Scholar
+• Research which is freely available for redistribution
+Submit your manuscript at 
+www.biomedcentral.com/submit
+Sutphin et al. Longevity & Healthspan 2012, 1:9
+Page 12 of 12
+http://www.longevityandhealthspan.com/content/1/1/9

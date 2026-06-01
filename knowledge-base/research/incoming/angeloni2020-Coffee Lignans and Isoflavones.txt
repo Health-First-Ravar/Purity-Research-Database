@@ -1,0 +1,1361 @@
+Contents lists available at ScienceDirect
+Food Chemistry
+journal homepage: www.elsevier.com/locate/foodchem
+A new analytical method for the simultaneous quantiﬁcation of isoﬂavones
+and lignans in 25 green coﬀee samples by HPLC-MS/MS
+Simone Angelonia,b, Luciano Navarinic, Gulzhan Khamitovaa,b, Filippo Maggia, Gianni Sagratinia,
+Sauro Vittoria, Giovanni Capriolia,⁎
+a School of Pharmacy, University of Camerino, via Sant’ Agostino 1, 62032 Camerino, Italy
+b International Hub for Coﬀee Research and Innovation, Belforte del Chienti (MC), Italy
+c illycaﬀè S.p.A., via Flavia 110, Trieste I-34147, Italy
+A R T I C L E I N F O
+Keywords:
+Isoﬂavone
+Lignan
+Green coﬀee
+HPLC-MS/MS
+Phytoestrogen
+Extraction process
+Chemical Compounds:
+Biochanin A (PubChem CID 5280373)
+Daidzein (PubChem CID 5281708)
+Daidzin (PubChem CID 107971)
+Formononetin (PubChem CID 5280378)
+Genistein (PubChem CID 5280961)
+Genistin (PubChem CID 5281377)
+Lariciresinol (PubChem CID 332427)
+Matairesinol (PubChem CID 119205)
+Secoisolariciresinol (PubChem CID 65373)
+A B S T R A C T
+Green coﬀee, the raw material of roasted coﬀee and coﬀee beverages, is one of the most widely traded com-
+modities worldwide. There is a dearth of studies on its content in phytoestrogens such as isoﬂavones and lignans.
+Previously, we developed an eﬃcient method for the simultaneous quantiﬁcation of 6 isoﬂavones (daidzin,
+genistin, daidzein, genistein, formononetin and biochanin A) and 3 lignans (secoisolariciresinol, matairesinol
+and lariciresinol) in green coﬀee by using HPLC-MS/MS. Several extraction processes were evaluated and the
+best performing, base hydrolysis followed by enzymatic digestion, was validated and used to analyse 25 diﬀerent
+coﬀee samples, 1 Coﬀea canephora and 24 Coﬀea arabica, from diﬀerent countries. Lignans (total content:
+286.5–8131.8 µg kg−1) were found in higher concentration than isoﬂavones (total content: 3.4–300.0 µg kg−1)
+and
+the
+most
+abundant
+were
+secoisolariciresinol
+(172.6–5714.1
+µg
+kg−1)
+and
+lariciresinol
+(113.9–2417.7 µg kg−1). Notably, the Ethiopian coﬀee samples contained the highest levels of these compounds.
+1. Introduction
+Coﬀee is one of the most important agricultural products in inter-
+national trade. In 2018, 168 million of green coﬀee bags of 60 kg were
+produced. Brazil and Vietnam are the main coﬀee producers, ac-
+counting for 54% of worldwide production (International Coﬀee
+Organization, 2018). Green coﬀee beans, the starting raw material for
+roasted coﬀee and coﬀee beverages, are obtained from the seeds of
+coﬀee fruits after a series of processes to remove the outer layers of
+coﬀee cherries (the skin, pulp, mucilage and parchment). At the end of
+any processing method, coﬀee beans are dried to a ﬁnal water content
+of 10.0–12.0% (de Melo Pereira et al., 2018).
+The
+main
+constituents
+of
+green
+coﬀee
+are
+carbohydrates
+(55.0–65.5%), lipids (10.0–18.0%), nitrogen-containing compounds
+(11.0–15.0%),
+purine
+alkaloids
+(0.8–4.0%),
+chlorogenic
+acids
+(6.7–9.2%) and minerals (3.0–5.4%). Other compounds that are found
+in lower percentages are non-volatile aliphatic acids (citric, malic and
+quinic acids) and phenols (Mussatto, Machado, Martins, & Teixeira,
+2011). In addition, coﬀee is a valuable source of phytoestrogens, also
+called “dietary estrogens.” The scaﬀold of this group of polyphenolic
+compounds is structurally similar to 17-β-estradiol, thus capable of
+inﬂuencing the estrogenic activities (Landete et al., 2016). The most
+studied and best-known phytoestrogens are isoﬂavones, also considered
+as a subclass of ﬂavonoids. They occur in the Leguminosae family, the
+https://doi.org/10.1016/j.foodchem.2020.126924
+Received 29 July 2019; Received in revised form 21 April 2020; Accepted 25 April 2020
+Abbreviations: DAD, diode-array detector; ESI, electrospray ionization; GC–MS, gas chromatography-mass spectrometry; HPLC-MS/MS, high performance liquid
+chromatography-tandem mass spectrometry; ID, isotope dilution; LARI, lariciresinol; LOD, limit of detection; LOQ, limit of quantiﬁcation; MAT, matairesinol; MRM,
+multiple reaction monitoring; n.d., not detectable; RSD, relative standard deviation; SECO, secoisolariciresinol; SNR, signal-to-noise ratio; SPE, solid-phase ex-
+traction; TIC, total ion current chromatogram
+⁎ Corresponding author.
+E-mail address: giovanni.caprioli@unicam.it (G. Caprioli).
+Food Chemistry 325 (2020) 126924
+Available online 27 April 2020
+0308-8146/ © 2020 Elsevier Ltd. All rights reserved.
+T
+
+main sources being soybeans and soy products, kidney beans, red
+clover, kudzu root, mung bean sprouts, navy beans, lupines and fava
+beans. The main isoﬂavones occur in four diﬀerent forms in soybeans:
+aglycons (daidzein, genistein and glycitein), glucosides (daidzin, gen-
+istin and glycitin), acetylglucosides and malonylglucosides. The me-
+thylated derivatives, biochanin A and formononetin, have been found
+in alfalfa, red clover and beans (Zaheer & Humayoun Akhtar, 2017).
+Lignans, another important class of phytoestrogens, are characterized
+by dimerization of two phenylpropanoid units, and are found in such
+foods as ﬂaxseeds, sesame seeds, cereals, fruits and vegetables; they
+occur as aglycons (secoisolariciresinol, SECO, lariciresinol, LARI and
+matairesinol, MAT), glycosidic forms (e.g., secoisolariciresinol diglu-
+coside) or oligomer forms (Landete, 2012). Isoﬂavones and lignans
+have not only phytoestrogen functions but also biological ones. They
+possess antioxidant and anti-inﬂammatory properties, and also serve to
+lower cholesterol levels and reduce the risk of contracting such chronic
+diseases as prostate and breast cancer (Zaheer et al., 2017; Landete,
+2012).
+Isoﬂavone and lignan quantiﬁcation is usually conducted using a
+high performance liquid chromatography-diode-array detector (HPLC-
+DAD), high performance liquid chromatography-tandem mass spectro-
+metry (HPLC-MS/MS), and gas chromatography-mass spectrometry
+(GC–MS) (Mazur et al., 1998; Alves, Almeida, Casal, & Oliveira, 2010;
+Thompson, Boucher, Liu, Cotterchio, & Kreiger, 2006). Various sample
+preparation techniques and extraction processes can be used, such as
+acid and base hydrolysis, enzymatic digestion, organic solvent extrac-
+tion, and solid-phase extraction (SPE). Mazur et al. (1998), pioneered
+phytoestrogen quantitation in ground coﬀee, found SECO in quantities
+ranging
+from
+3.930
+to
+7.160
+mg
+kg−1,
+daidzein
+(n.d.
+to
+0.660 mg kg−1), genistein (n.d. to 0.290 mg kg−1) and formononetin
+(n.d. to 0.780 mg kg−1). Many studies have followed since then. Horn-
+Ross et al. (2000) reported, in an unspeciﬁed coﬀee sample, a daidzein
+concentration of 0.503 mg kg−1 and only traces of SECO and genistein
+(≤0.250 mg kg−1, their limit of detection), while they did not detect
+any MAT, formononetin or biochanin A. In a study of coﬀee brews,
+Thompson et al. (2006) detected daidzein (1 μg L−1), formononetin
+(2 μg L−1), genistein (1 μg L−1), SECO (34–47 μg L−1), LARI (9–11 μg
+L−1) and MAT (1–2 μg L−1). Kuhnle et al. (2008) analysed coﬀee
+beverages reporting a SECO concentration of 100–160 μg L−1 whereas
+genistein, biochanin A, formononetin and matairesinol were found at
+concentrations below 10 μg L−1. They also analysed two instant ground
+coﬀees
+and
+found
+SECO
+(6.10–8.62
+mg
+kg−1)
+and
+genistein
+(0.04–5.94 mg kg−1) as the most abundant phytoestrogens. Alves et al.
+(2010) reported, in ground coﬀee, daidzein, genistein and for-
+mononetin concentrations of 8.70, 3.00 and 30.70 mg kg−1, respec-
+tively. Caprioli et al. (2016) and Angeloni et al. (2018) reported the use
+of HPLC-MS/MS to quantify, the ﬁrst, isoﬂavones in espresso and
+ground coﬀees; the second lignans in espresso coﬀees. Caprioli et al.
+(2016) detected biochanin A (0.59 to 3.95 μg L−1) and formononetin
+(0.36 to 4.27 μg kg−1), whereas Angeloni et al. (2018) quantiﬁed SECO
+(27.9–52.0 μg L−1) and LARI (5.3–27.8 μg L−1) content. A recent study
+(Angeloni et al., 2019) reported the use of enzymatic hydrolysis cou-
+pled with HPLC-MS/MS analysis for the quantiﬁcation of lignans in
+ground coﬀee. They found that SECO (84.4–257.8 µg kg−1) was the
+lignan in highest concentration followed by LARI (26.1–91.5 µg kg−1).
+Summarising, diﬀerent studies have quantiﬁed isoﬂavones and lig-
+nans in coﬀee powder and beverages but to the best of our knowledge,
+none have quantiﬁed them in green coﬀee. Therefore, we sought to
+develop a simple and eﬃcient method for quantifying three lignans
+(SECO, LARI and MAT) and six isoﬂavones, two of them in glycosidic
+form, (daidzin and genistin), and four aglycones (daidzein, genistein,
+formononetin and biochanin A) in green coﬀee beans. HPLC-MS/MS
+triple quadrupole, operating in multiple reaction monitoring (MRM)
+mode, was chosen to separate, identify and quantify the target com-
+pounds. Diﬀerent extraction processes were evaluated, and the recovery
+and quantitative data were examined, as well. The best process was
+chosen, validated and then applied to 25 green coﬀee samples from
+many diﬀerent countries.
+2. Material and methods
+2.1. Chemicals and reagents
+Isoﬂavones, namely, daidzin (analytical standard, C21H20O9, mole-
+cular weight 416.38, CAS No 552-66-9), genistin (analytical standard,
+≥98%, C21H20O10, molecular weight 432.38, CAS No 529-59-9),
+daidzein (analytical standard, C15H10O4, molecular weight 254.24, CAS
+No 486-66-8), genistein (analytical standard, C15H10O5, molecular
+weight 270.24, CAS No 446-72-0), formononetin (analytical standard,
+C16H12O4, molecular weight 268.26, CAS No 485-72-3) and biochanin
+A (analytical standard, C16H12O5, molecular weight 284.26, CAS No
+491-80-5) and lignans, namely, lariciresinol (LARI, ≥95.0%, C20H24O6,
+molecular weight 360.40, CAS No 27003-73-2), matairesinol (MAT,
+≥95.0%, C20H22O6, molecular weight 358.39, CAS No 580-72-3) and
+secoisolariciresinol (SECO, ≥95.0%, C20H26O6, molecular weight
+362.42, CAS No 29388-59-8) were purchased from Sigma Aldrich (St.
+Louis, MO, USA). Individual stock solutions of each isoﬂavone and
+lignan, at a concentration of 1000 mg L−1, were prepared by dissolving
+pure standard compounds in HPLC grade methanol and storing them in
+glass-stoppered bottles at 4 °C. Afterwards, standard working solutions
+at various concentrations were prepared daily by appropriate dilution
+of the stock solution with methanol. HPLC-grade acetonitrile and me-
+thanol were supplied by Sigma-Aldrich (Milano, Italy). HPLC-grade
+formic acid (99%) was obtained from Merck (Darmstadt, Germany).
+Analytical-grade hydrochloric acid (37%) was obtained from Carlo Erba
+Reagents (Milan, Italy). Ascorbic acid 99% was purchased from Sigma
+Aldrich (Steinheim, Germany). All other chemicals were analytical
+grade. Taka-diastase from Aspergillus oryzae (~100 U/mg) and clara-
+diastase (≥35 U/mg) were purchased from Sigma Aldrich (St. Louis,
+MO, USA). Standard Reference Materials® (SRM) 3238 ‘Soy-Containing
+Solid Oral Dosage Form was purchased from Sigma Aldrich (Germany).
+Deionized water (> 18 MΩ cm resistivity) was further puriﬁed using a
+Milli-Q SP Reagent Water System (Millipore, Bedford, MA, USA). All
+solvents and solutions were ﬁltered through a 0.2 µm polyamide ﬁlter
+from Sartorius Stedim (Goettingen, Germany). Before HPLC analysis, all
+samples were ﬁltered with Phenex™RC 4 mm 0.2 µm syringeless ﬁlter,
+Phenomenex (Castelmaggiore, BO, Italy).
+2.2. Coﬀee samples
+Illycaﬀè SpA (Trieste, Italy) supplied twenty-four diﬀerent wet-
+processed Coﬀea arabica green coﬀee samples having diﬀerent geo-
+graphic origins, i.e., Rwanda (three commercial lots: samples 1, 2 and
+3), Costa Rica (three commercial lots: samples 1, 2 and 3), Brazil (four
+commercial lots: samples 1, 2, 3 and 4), Ethiopia (four commercial lots:
+samples 1, 2, 3 and 4), India (four commercial lots: samples 1, 2, 3 and
+4), Colombia (three commercial lots: samples 1, 2 and 3) and Nicaragua
+(three commercial lots: samples 1, 2 and 3), Simonelli Group S.p.A.
+(Belforte del Chienti, Italy) provided one 100% C. canephora (robusta)
+green coﬀee sample from Bali (Indonesia).
+2.3. Sample preparation and extraction procedures
+Coﬀee samples were ground in an Ariete Blendy 570 grinder
+(Florence, Italy). Homogeneous portions of 100% C. canephora sample
+were used for development and optimization of the method.
+We evaluated diﬀerent extraction procedures, namely, acid and
+base hydrolysis, enzymatic digestions, organic solvent extraction and a
+combination of these, as following described, and chose the best one for
+lignan and isoﬂavone quantiﬁcation in diﬀerent green coﬀee samples.
+The extraction conditions were developed and optimized taking as
+point of departure previous article in ground and espresso coﬀee
+S. Angeloni, et al.
+Food Chemistry 325 (2020) 126924
+2
+
+(Angeloni et al., 2019; Angeloni et al., 2018; Caprioli et al., 2016).
+2.3.1. Acid and base hydrolysis
+Three diﬀerent extraction processes, namely acid hydrolysis, base
+hydrolysis and base hydrolysis in MeOH, were chosen for their likely
+capacity to break glycosidic and ester bonds (Mortensen et al., 2009;
+Smeds and et al., 2007). We avoided to test very strong acid hydrolysis
+since in previous works (Angeloni et al., 2019; Angeloni et al., 2018;
+Caprioli et al., 2016) unsatisfactory recovery levels and lower extrac-
+tion eﬃciencies were obtained. Acid hydrolysis (Method 1) was per-
+formed by adding 6 mL of HCl 0.1 M and 60 mg of ascorbic acid (as
+antioxidant) to 0.5 g of green coﬀee powder. The hydrolysis was per-
+formed while keeping the sample at a controlled temperature of 80 °C
+for 30 min in a water bath under magnetic stirring. The sample was
+cooled at room temperature, its pH was adjusted to 5–6 by adding KOH
+4 M, and then it was stored overnight at −18 °C to precipitate soluble
+polysaccharide and protein fraction. Later, the sample was thawed at
+room temperature and centrifuged at 5000 rpm for 10 min. Finally,
+before HPLC-MS/MS injection, an aliquot of supernatant was collected,
+centrifuged at 13,000 rpm for 15 min and ﬁltered with a 0.2 µm syr-
+ingeless ﬁlter. Base hydrolysis (Method 2) was carried out by adding
+3 mL of KOH 0.1 M and 30 mg of ascorbic acid to 0.3 g of green coﬀee
+powder and keeping the sample at a controlled temperature of 80 °C for
+30 min in a water bath under magnetic stirring. Afterwards, the sample
+was cooled at room temperature, and the pH was brought to 5–6 by
+adding HCl 2 M. After storage overnight at −18 °C, the sample was
+melted, then centrifuged at 5000 rpm for 10 min, and an aliquot of
+supernatant was collected and centrifuged at 13,000 rpm for 15 min.
+Before analysis, the sample was ﬁltered with a 0.2 µm syringeless ﬁlter.
+With the purpose of enhancing the extraction yield, we carried out
+the same process of Method 2 but used KOH 0.1 M dissolved in MeOH
+(Method 3) instead of water.
+2.3.2. Enzymatic digestions
+Two diﬀerent types of enzymes, a) taka-diastase, an α-amylase en-
+zyme derived from Aspergillus oryzae, and b) clara-diastase, a mixture of
+enzymes that containing α-amylase, cellulase, invertase, peptidase,
+phosphatase and sulfatase, were evaluated for their ability to extract
+the compounds of interest from the coﬀee matrix. The choice of en-
+zymes and digestion conditions were deﬁned on the base of previous
+studies (Angeloni et al., 2019; Angeloni et al., 2018). Hydrolysis with
+taka-diastase (Method 4) was performed by adding 4 mL of enzyme
+mixture at 2% (w/v) and 40 mg of ascorbic acid to 0.5 g of green coﬀee
+powder, followed by digestion in a water bath at a controlled tem-
+perature of 37 °C for 2 h, under magnetic stirring. After cooling at room
+temperature, the sample was stored overnight at −18 °C and, after-
+wards, was melted at room temperature and centrifuged at 5,000 rpm
+for 10 min. Before HPLC analysis, an aliquot of the liquid part was
+centrifuged at 13,000 rpm for 15 min and ﬁltered with a 0.2 µm syr-
+ingeless ﬁlter.
+Hydrolysis with clara-diastase (Method 5) was carried out adding
+2 mL of enzyme at 5% (w/v) together with 30 mg of ascorbic acid to
+0.3 g of green coﬀee powder, after which the sample was kept in a
+water bath at a controlled temperature of 37 °C for 2 h, under magnetic
+stirring. After cooling at room temperature, 1 mL of MeOH was added
+and the sample was vortexed for 1 min. Afterwards, the sample was
+stored overnight at −18 °C and, after melting at room temperature, it
+was centrifuged at 5,000 for 10 min. Before injection into the HPLC-
+MS/MS, an aliquot of supernatant was collected, centrifuged at
+13,000 rpm for 15 min and ﬁltered with 0.2 µm syringeless ﬁlter.
+2.3.3. Methanolic extraction
+The methanolic process (Method 6) was structured in the same
+manner as acid hydrolysis. Brieﬂy, 4 mL of a methanol:water solution
+(85:15) together with 40 mg of ascorbic acid were added to 0.5 g of
+green coﬀee powder and the sample was kept in a water bath at a
+controlled temperature of 80 °C, for 30 min under magnetic stirring.
+After storing overnight at −18 °C, the sample was kept at room tem-
+perature to thaw it and then centrifuged at 5000 rpm for 10 min. Before
+quantiﬁcation through HPLC-MS/MS, an aliquot of supernatant was
+collected, centrifuged at 13,000 rpm for 15 min and ﬁltered with a
+0.2 µm syringeless ﬁlter.
+2.3.4. Combination processes
+Two other processes, Method 7 and Method 8, combined the two
+extractions previously tested. Method 7 was performed by adding 2 mL
+of 0.1 M KOH dissolved in MeOH and 30 mg of ascorbic acid to 0.3 g of
+green coﬀee powder and keeping the sample in a water bath at a
+controlled temperature of 80 °C for 30 min. After cooling at room
+temperature, the pH was adjusted to 6 by adding 2 M HCl and enzy-
+matic digestion was carried out by adding 1 mL of clara-diastase 10%
+(w/v) and then keeping the sample at 37 °C for 2 h. Afterwards, the
+sample was centrifuged at 5000 rpm for 10 min and stored overnight at
+−18 °C. Finally, after melting, an aliquot of supernatant was collected,
+centrifuged at 13,000 rpm for 15 min, ﬁltered with a 0.2 µm syringeless
+ﬁlter and injected into the HPLC.
+Method 8 involved acid hydrolysis followed by enzymatic digestion.
+The acid extraction was carried out adding 2 mL of 0.1 M HCl together
+with 30 mg of ascorbic acid to 0.3 g of green coﬀee powder and keeping
+the sample at 80 °C for 30 min. After cooling, the pH was raised to 6 by
+adding 2 M KOH and after that, enzymatic digestion was performed, as
+described above for Method 7.
+A summary of extraction processes is present on Table 1 supple-
+mentary materials.
+2.4. HPLC-ESI-MS/MS
+HPLC-MS/MS studies were performed using an Agilent 1290 Inﬁnity
+series and a Triple Quadrupole 6420 from Agilent Technology (Santa
+Clara, CA) equipped with an electrospray ionization (ESI) source op-
+erating in negative and positive ionization mode as the instrument al-
+lowed to perform the run with continuous positive/negative polarity
+switching. The separation of target compounds was achieved on a
+Kinetex C18 analytical column (50 mm × 2.10 mm i.d., 2.6 μm) from
+Phenomenex (Castel Maggiore, Bologna, Italy). The mobile phase for
+HPLC-MS/MS analyses was a mixture of 85% water (A) and 15% HPLC-
+grade acetonitrile (B), both with 0.1% formic acid. The separation was
+obtained with 0.4 mL/min with this gradient elution: 0 min (15% B),
+5 min (40% B), 8 min (15% B) and then constant until the end of the
+run (10 min). All solvents and solutions were ﬁltered through a 0.2 µm
+polyamide ﬁlter from Sartorius Stedim (Goettingen, Germany). The
+injection volume was 2 µL. The temperature of the column was 30 °C
+and the temperature of the drying gas in the ionization source was
+350 °C. The gas ﬂow was 11 L/min, the nebulizer pressure was 50 psi
+and the capillary voltage was 4000 V. Detection was performed in the
+“multiple reaction monitoring” (MRM) mode. The MRM peak areas
+were integrated for quantiﬁcation. To enhance the sensitivity, the ac-
+quisition time was divided into three periods. The most abundant
+product ion was used for quantitation, and other two product ions were
+used for qualiﬁcation. The selected ion transitions and the mass spec-
+trometer parameters are reported in Table 1.
+2.5. Principal component analysis (PCA)
+Chemical diﬀerences among the various coﬀee samples, in terms of
+lignan and isoﬂavone contents, were analysed by PCA using the sta-
+tistical software STATISTICA v.7.1 (Stat Soft Italia S.r.L., Vigonza,
+Italy). For the purpose, a covariance matrix composed of 25 coﬀee
+samples and 8 variables (200 data) was built and eigenvalues were
+calculated.
+S. Angeloni, et al.
+Food Chemistry 325 (2020) 126924
+3
+
+3. Results and discussion
+3.1. Extraction procedures
+The extraction procedure is considered one of the most important
+stages of sample preparation in food analysis and should be developed
+and optimized for each analyte in each food matrix (Mortensen et al.,
+2009). Therefore, we evaluated the diﬀerent extraction methods – acid
+(Method 1) and base hydrolysis (Methods 2 and 3), enzymatic diges-
+tions (Methods 4 and 5), methanolic extraction (Method 6) and com-
+bination processes (Methods 7 and 8) – for their ability to release bound
+and free compounds from the coﬀee matrix. For each method, recovery
+(R%) levels were calculated by spiking the matrix (C. canephora green
+coﬀee) with authentic standard of analytes at two levels: 500 and
+1000 µg kg−1 for lignans and 50 and 100 µg kg−1 for isoﬂavones. The
+spiking levels were selected according to phytoestrogen content found
+in espresso and ground coﬀee (Angeloni et al., 2019; Angeloni et al.,
+2018; Caprioli et al., 2016) and also in green coﬀee used for method
+validation.. Diﬀerent recovery experiments were performed by spiking
+the matrix before (pre-spike) and after (post-spike) the extraction pro-
+cess. Recoveries were expressed as percent of ratio between pre-spike
+and post-spike samples; in this manner only the recovery contribution
+was evaluated unhooking the data from the inﬂuence of matrix. Re-
+covery was used to evaluate the best performing procedure together
+with the extraction eﬃciency in term of total phytoestrogens content.
+Table 2 shows the recoveries at one spiking level (500 µg kg−1 for
+lignans and 50 µg kg−1 for isoﬂavones) since similar results were ob-
+tained with the higher spiking level (1000 µg kg−1 for lignans and
+100 µg kg−1 for isoﬂavones). Considering that isoﬂavones in soy pro-
+ducts have been found to occur in an unconjugated form (or aglycone)
+or in a conjugated form (glycoside, acetyl-glucoside and malonyl-glu-
+coside) (Ren, Kuhn, Wegner, & Chen, 2001), and that lignans in ﬂax-
+seed occur mainly in oligomer forms as glutaryl ester-linked oligomers
+(Ford, Huang, Wang, Davin, & Lewis, 2001), we assumed that these
+compounds might be present in green coﬀee beans in these forms as
+well, and reasoned that acid or base hydrolysis might be useful for
+breaking glycosidic and ester bonds. Thus, we evaluated the extraction
+eﬃciency in acid and base conditions.
+Method 1 (acid hydrolysis) showed good recoveries for secoisolar-
+iciresinol (94%), matairesinol (86%), daidzin (77%) and genistin
+(72%), but lower levels for biochanin A (28%), daidzein (53%), gen-
+istein (54%) and formononetin (41%) and a total lack of lariciresinol,
+probably because under acid conditions lariciresinol rearranges to
+(+)-cyclolariciresinol (cLARI) (Angeloni et al., 2018; Smeds et al.,
+2007).
+Method 2 (hydrolysis in water) revealed low recovery levels for all
+compounds, in contrast to base hydrolysis in MeOH (Method 3). The
+latter process showed good recoveries for lariciresinol (75%), secoiso-
+lariciresinol (104%), biochanin A (78%), genistein (79%) and for-
+mononetin (82%) and slightly lower ones for matairesinol (68%),
+daidzin (68%), genistin (61%) and daidzein (73%).
+Next, we evaluated the eﬃcacy of enzymatic digestions, in
+Table 1
+HPLC-MS/MS acquisition parameters (MRM mode) for determination of lignans and isoﬂavones.
+Compound
+Time Window (min)
+Precursor Ion
+(m/z)
+Product Ion
+(m/z)
+Fragmentor
+(V)
+Collision Energy (V)
+Retention Time (min)
+Polarity
+Daidzin
+0–3.2
+417
+255a
+199
+102
+13
+45
+1.03
+Positive
+Genistin
+0–3.2
+433
+271a
+91
+100
+13
+77
+1.63
+Positive
+Secoisolariciresinol
+0–3.2
+361
+165a
+121
+135
+21
+37
+2.23
+Negative
+Lariciresinol
+0–3.2
+359
+329a
+160
+89
+5
+37
+2.45
+Negative
+Daidzein
+0–3.2
+253
+208a
+132
+155
+29
+41
+2.70
+Negative
+Matairesinol
+3.2–4.2
+357
+83a
+122
+120
+21
+29
+3.68
+Negative
+Genistein
+3.2–4.2
+269
+159a
+133
+144
+25
+31
+3.80
+Negative
+Formononetin
+4.2-end
+267
+252a
+233
+112
+10
+26
+4.57
+Negative
+Biochanin A
+4.2-end
+283
+268a
+239
+135
+17
+33
+6.05
+Negative
+a These product ions were used for quantitative analysis; other two for conﬁrmatory analysis (shown only one qualiﬁer transition).
+Table 2
+Comparison of the eﬃciency of several extraction processes, evaluating recovery values (R% ± SDa). Recoveries were achieved by spiking the matrix with the 9
+compounds under study at these levels: 500 µg kg−1 for lignans and 50 µg kg−1 for isoﬂavones and were expressed as percent of ratio between pre-spike and post-
+spike.
+Extraction Processesb
+Compounds
+Method 1
+Method 2
+Method 3
+Method 4
+Method 5
+Method 6
+Method 7
+Method 8
+Lariciresinol
+0
+39 ± 3.2
+75 ± 4.6
+38 ± 1.8
+90 ± 4.6
+93 ± 3.6
+94 ± 4.2
+5 ± 0.4
+Matairesinol
+86 ± 2.8
+20 ± 1.9
+68 ± 3.8
+24 ± 1.1
+87 ± 3.5
+83 ± 3.9
+81 ± 3.7
+15 ± 1.2
+Secoisolariciresinol
+94 ± 3.6
+57 ± 3.8
+104 ± 7.9
+63 ± 4.6
+97 ± 5.5
+90 ± 5.5
+74 ± 2.3
+48 ± 3.5
+Daidzin
+77 ± 3.3
+69 ± 4.6
+68 ± 6.2
+1 ± 0.1
+8 ± 0.6
+89 ± 4.1
+83 ± 3.2
+0
+Genistin
+72 ± 3.6
+58 ± 5.6
+61 ± 5.4
+2 ± 0.1
+12 ± 0.9
+90 ± 3.5
+79 ± 3.1
+0
+Biochanin A
+28 ± 1.8
+0
+78 ± 5.9
+5 ± 0.4
+1 ± 0.1
+94 ± 3.9
+75 ± 4.5
+0
+Daidzein
+53 ± 2.4
+0
+73 ± 4.2
+33 ± 2.0
+15 ± 1.2
+94 ± 6.6
+89 ± 3.4
+0
+Genistein
+54 ± 2.2
+0
+79 ± 3.3
+32 ± 1.8
+2 ± 0.2
+95 ± 5.9
+80 ± 5.6
+0
+Formononetin
+41 ± 3.6
+1 ± 0.1
+82 ± 6.8
+12 ± 0.9
+11 ± 1.0
+94 ± 2.1
+84 ± 3.2
+0
+a SD, standard deviation; b All samples were analysed in triplicate (n = 3).
+S. Angeloni, et al.
+Food Chemistry 325 (2020) 126924
+4
+
+particular the activity of two diﬀerent enzymes: taka-diastase (Method
+4) and clara-diastase (Method 5). Neither enzyme was appropriate for
+extraction of isoﬂavones, since recovery levels using taka-diastase
+ranged from 1 to 33%, and those using clara-diastase from 1 to 15%.
+Considering the complex conjugated structure wherewith isoﬂavones
+occur in some foodstuﬀs, it may be that the enzymes we tested are
+unable to hydrolize the compounds. On the other hand, for lignan ex-
+traction, the process performed with clara-diastase revealed excellent
+recoveries of lariciresinol (90%), matairesinol (87%) and secoisolar-
+iciresinol (97%). The same results were obtained in a previous work on
+espresso coﬀee (Angeloni et al., 2018).
+The third step was to study the extraction eﬃciency of a metha-
+nol:water (85:15) solution (Method 6). Method 6 showed the highest
+recovery levels for isoﬂavones (from 89 to 95%,) and for lignans (from
+83 to 93%) of all 6 methods tested up to that point, but lower con-
+centrations of total isoﬂavones and lignans than those obtained with
+Method 3. For this reason, in order to obtain satisfactory recovery levels
+and higher amounts of the compounds under study, we decided to
+perform other two procedures, Methods 7 and 8, that combined two
+diﬀerent extractions, and found that Method 7 had the highest amounts
+of the compounds under study (1193.4 µg kg−1), as shown in the Fig. 1
+supplementary materials. Thus Method 7 was chosen, validated, and
+then applied to 25 diﬀerent green coﬀee samples.
+3.2. Optimization and validation of the HPLC-MS/MS analytical method
+A new analytical method for simultaneous quantitation of three
+lignans (secoisolariciresinol, lariciresinol and matairesinol) and six
+isoﬂavones (daidzin, daidzein, genistin, genistein, formononetin and
+biochanin A) was developed by using HPLC-MS/MS triple quadrupole.
+For isoﬂavones in glycosidic form, the precursor ions were protonated
+molecules [M + H]+ in positive polarity, whereas for the aglyconic
+form and lignans the precursor ions were deprotonated molecules
+[M−H]−in negative polarity (Caprioli et al., 2016; Angeloni et al.,
+2018). The chromatographic separation was characterized by good
+resolution and short run time, with the target phytoestrogens eluted
+within 6 min (Table 1). As an example, Fig. 1 shows the HPLC-MS/MS
+chromatogram of a standard mixture of the nine isoﬂavones and lignans
+plotted as overlapped multiple reaction monitoring (MRM) transition of
+each monitored compounds. Fig. 2 supplementary materials shows
+HPLC-MS/MS chromatograms of analytes in a green coﬀee sample
+(Rwanda 1) plotted as MRM transition. The studied validation para-
+meters for the developed method were linearity, limit of detection
+(LOD), limit of quantiﬁcation (LOQ), repeatability, accuracy, precision,
+speciﬁcity and matrix eﬀects (Fig. 3 supplementary materials, Table 3,
+Tables 2–4 supplementary materials).
+Linearity was tested by injecting seven diﬀerent concentrations of
+the three lignans and six isoﬂavones, in triplicate, then plotting and
+calculating calibration curves with the respective determination coef-
+ﬁcients (R2). All analytes showed good linearity, since the R2 equalled
+or exceeded 0.9952.
+LODs and LOQs were calculated by injecting gradually lower con-
+centrations of standard compounds and measuring the signal-to-noise
+ratio (SNR), using MassHunter Software from Agilent Technology
+(Santa Clara, CA). The standard concentration with SNR = 3 was as-
+signed to LOD, while that with SNR = 10 to LOQ. The method revealed
+good sensitivity for both isoﬂavones and lignans, since the LODs ranged
+from 0.1 to 5.0 µg L−1 and from 1.5 to 15.0 µg L−1, respectively, levels
+lower than those reported by Kuhnle et al. (2008) and Horn-Ross et al.
+(2000) but similar to the results of Alves et al. (2010) and Caprioli et al.
+(2016).
+Method repeatability was tested by injecting 5 replicates for each
+standard concentration over the course of ﬁve days. The intra-day re-
+peatability or run‐to‐run precision and inter-day repeatability or day‐-
+to‐day precision were expressed by Relative Standard Deviation (RSD)
+percent. The RSD ranged from 0.4 to 4.2% for run-to-run precision and
+from 4.6 to 10.4% for day-to-day precision. Repeatability was also
+evaluated by measuring the RSDs of recovery replicates studied for each
+Fig. 1. HPLC-MS/MS chromatogram of a standard mixture of nine isoﬂavones and lignans plotted as overlapped multiple reaction monitoring (MRM) transition of
+each compound.
+Table 3
+Some validation data of the HPLC-MS/MS method for analysis of lignans and
+isoﬂavones.
+Compounds
+LOD
+(µg L-1)a
+LOQ
+(µg
+L−1) b
+Repeatability
+Intra-day
+(RSD %)
+Repeatability
+Inter-day
+(RSD %)
+Biochanin A
+0.3
+1.0
+1.0
+6.8
+Daidzein
+5.0
+15
+0.4
+8.0
+Daidzin
+0.2
+0.6
+4.2
+9.0
+Formononetin
+0.1
+0.5
+1.9
+6.4
+Genistein
+1.5
+5.0
+0.9
+7.4
+Genistin
+0.5
+1.5
+3.7
+9.7
+Lariciresinol
+1.5
+5.0
+1.5
+9.7
+Matairesinol
+15.0
+50.0
+3.6
+4.6
+Secoisolariciresinol
+5.0
+15.0
+3.0
+10.4
+a LOD (limit of detection) = ratio of signal to noise (S/N) = 3.
+b LOQ (limit of quantiﬁcation) = ratio of signal to noise (S/N) = 10.
+S. Angeloni, et al.
+Food Chemistry 325 (2020) 126924
+5
+
+method.
+High speciﬁcity was obtained using HPLC-MS/MS working in MRM
+mode. The method speciﬁcity was evaluated by measuring retention
+time stability and setting multiple pairs of precursor/product ions.
+Retention time stability for each molecule was studied 5 times over a
+period of 5 days (n = 25) and expressed by RSD. RSDs were in all cases
+lower than or equal to 1.93%.
+3.2.1. Accuracy and precision
+The accuracy is deﬁned as the closeness of the agreement between
+the result of a measurement and a true value of the measurand (Bipm,
+Ifcc, & Iso, 2017). Several approaches have been suggested to evaluate
+the accuracy of an analytical method and the main strategies currently
+used are: a) measure the analyte in a particular reference materials and
+comparing the results with the certiﬁed value; b) measure the analyte in
+blank samples spiked with known analytical concentrations and de-
+termining the percentage of recovery; c) compare the results from the
+method under validation with those from a reference method; d) de-
+termine the analytical concentration in the sample by means of the
+standard addition technique (Araujo, 2009). In the current work ac-
+curacy has been studies via the ﬁrst two approaches. As certiﬁed value
+has been used that reported from a soy-product reference material
+namely Standard Reference Materials® (SRM) 3238 Soy-Containing
+Solid Oral Dosage Form. For recovery studies a green coﬀee matrix (C.
+canephora) has been employed because it was not available the blank
+matrix of green coﬀee. In the ﬁrst approach, accuracy was determined
+by comparing the measured isoﬂavone contents applying the current
+method with the reference values of the SRM 3238. Three homogeneous
+portions of 300 mg for each packet of the unit of SRM 3238 (a unit of
+SRM 3238 consists of 5 packets) were extracted following Method 7,
+obtaining at the end 15 replicates (n = 15). Table 2 supplementary
+materials reports measured isoﬂavone contents in the SRM 3238 and
+the certiﬁed values. The measured values of isoﬂavones using the cur-
+rent method was in agreement with data reported by SRM 3238. In
+detail, as it is showed in Fig. 3 supplementary materials the con-
+centration of daidzin (12556 ± 1968), genistin (13098 ± 832) and
+genistein (116 ± 9) overlapped with the uncertainty interval on the
+certiﬁed values. In the second approach, accuracy was calculated via
+spike-recovery studies and it was determined using percentage relative
+errors at three diﬀerent concentrations by comparing the true value of
+the analyte in the sample (true concentration) with the values obtained
+by analysis (measured concentration). As it can be seen from Table 3
+supplementary materials, the % relative error for the standards are
+between (−1.53)–(−14.76)% for the 9 diﬀerent analytes. The lowest
+% relative error is (−1.53)% obtained for genistein at concentration
+level of 700 µg kg−1, meanwhile the highest % relative error is
+(−14.76)% obtained for SECO at concentration level of 100 µg kg−1.
+The measure of precision usually is expressed in terms of impreci-
+sion and computed as standard deviation of the test result. The preci-
+sion of this method was determined by monitoring the RSD % of the
+three replicates. As it can be seen from Table 3 supplementary mate-
+rials, all the RSD % obtained are between 2.2 and 6.9% for the nine
+analytes. The lowest RSD was 2.2% for the standard of daidzein at
+concentration level of 700 µg kg−1.
+3.2.2. Matrix eﬀects
+The matrix eﬀect was evaluated via signal suppression/enhance-
+ment (SSE). SSE (%) was calculated by dividing the slope of the matrix-
+matched calibration curve by the slope of the calibration curve (in
+solvent)
+and
+multiplying
+by
+100
+(Sulyok,
+Berthiller,
+Krska,
+&
+Schuhmacher, 2006). In this manner was possible to have a more
+truthful situation in real samples in a wide concentration range. The
+matrix-matched calibration curve was prepared by adding certain
+amounts of standards to extracted samples prepared by following the
+chosen method, i.e., Method 7, and subtracting, for each concentration,
+the content of analytes measured in the blank extract. The slope of the
+calibration curve and matrix-matched calibration curve, both prepared
+with seven concentrations of analytes (5–10,000 µg L−1), the respective
+determination coeﬃcients (R2) and the SSE (%) for each analyte are
+shown in Table 4 supplementary materials. An SSE (%) of 100 means no
+matrix eﬀect, while values < 100 mean signal suppression and va-
+lues > 100 indicate signal enhancement (Sagratini et al., 2012). Slight
+signal enhancement was found for formononetin (SSE = 111.6%),
+while other compounds showed marked signal suppression (from 22.7
+to 75.9%). Those values could be due to the presence of interferences
+that can reduce the ionization process by aﬀecting the analyte droplet
+formation or evaporation as well as the amount of the analyte ions
+formed in the gas phase that reaches the detector (Gosetti, Mazzucco,
+Zampieri, & Gennaro, 2010). Matrix eﬀects results were taken into
+account for the quantiﬁcation of lignans and isoﬂavones in 25 green
+coﬀee samples; thus the measured concentration of each analyte was
+corrected according (increased or decreased) to the obtained SSE%.
+3.3. Green coﬀee samples
+The new analytical method was applied to 24 diﬀerent 100% C.
+arabica green coﬀees from diﬀerent geographical origins (Rwanda,
+Costa Rica, Brazil, Ethiopia, India, Colombia and Nicaragua). Table 4
+displays the concentration, expressed in µg kg−1, of the target phy-
+toestrogens in the coﬀee samples. Quantitative analysis was performed
+by comparing sample areas with those of a standard mixture. The
+highest phytoestrogen concentration was found in the Ethiopian sam-
+ples: sample 1 (8137.1 µg kg−1), followed by samples 4, 3 and 2
+(7117.1 µg kg−1, 5128.2 µg kg−1 and 3703.8 µg kg−1, respectively).
+SECO (172.6–5714.1 µg kg−1, with an average of 1335.1 µg kg−1) and
+LARI (113.9–2417.7 µg kg−1, with an average of 615.1 µg kg−1) were
+the most abundant compounds under study in green coﬀee. These two
+lignans occur in various foodstuﬀs such as ﬂaxseed, soy products, cer-
+eals, legumes, roasted coﬀee beans and coﬀee beverages (Thompson
+et al., 2006; Milder, Arts, van de Putte, Venema, & Hollman, 2005;
+Kuhnle et al., 2008). Our results on lignan content in green coﬀee are
+similar to those reported by Mazur et al. (1998) who found a SECO
+concentration from 3.93 to 7.16 mg kg−1 in roasted coﬀee. Lower levels
+of lignans in coﬀee beverages were reported by Thompson et al. (2006)
+and by Angeloni et al. (2018). The former used a SPE coupled with
+GC–MS analysis and identiﬁed the following contents: SECO, from 34 to
+47 µg L−1; LARI, from 9 to 11 µg L−1; MAT, from 1 to 2 µg L−1. The
+latter used a HPLC-MS/MS triple quadrupole instrument and reported
+concentrations for SECO and LARI from 27.9 to 52.0 μg L−1 and from
+5.3 to 27.8 μg L−1, respectively.
+Regarding isoﬂavones, our data revealed genistin as the most
+abundant
+isoﬂavone
+in
+17
+out
+of
+25
+green
+coﬀee
+samples
+(12.6–204.8 µg kg−1). In samples where genistin occurred in high
+concentrations, except for Brazil 4 and India 4, also its aglycon genis-
+tein was found (21.8–40.7 µg kg−1). This was also the case for daidzin
+(12.6–95.2 µg kg−1) and its free form daidzein (3.4–25.3 µg kg−1),
+with the exception that its aglycone was present in almost all green
+coﬀees, even in samples where the glycosidic form was not found. We
+can assume that these two compounds occur with diﬀerent structures
+and/or bond types in green coﬀee, that can be the cause of diﬀerent
+partial degradations of the glycosidic bonds. The low quantity of gen-
+istein and daidzein found in green coﬀee in this study together with
+possible constituents/ion suppressors presents in the matrix, make
+challenging the detection of isoﬂavones in coﬀee. These aspects might
+be the cause that lead us to not quantify genistein and daidzein in
+roasted and ground coﬀee in a previous work (Caprioli et al., 2016). On
+the other side, Formononetin (4.3–46.7 µg kg−1) and biochanin A
+(4.7–42.1 µg kg−1) were detected in fewer than half of the samples.
+These two isoﬂavones were detected in similar amounts by Caprioli
+et
+al.
+(2016)
+in
+ground
+and
+roasted
+coﬀee
+(formononetin,
+0.36–4.27 µg kg−1 and biochanin A, 0.71–3.95 µg kg−1) and by
+Thompson et al. (2006) in coﬀee brews (formononetin, 2 µg L−1). In
+S. Angeloni, et al.
+Food Chemistry 325 (2020) 126924
+6
+
+contrast, our data on the isoﬂavone quantitation diﬀer signiﬁcantly
+from those on coﬀee powder using acid hydrolysis reported by Alves
+et al. (2010) who found daidzein in the range from 6.2 to 10.8 mg kg−1,
+genistein from 0.5 to 7.1 mg kg−1 and formononetin from 12.0 to
+58.0 mg kg−1.
+3.4. PCA
+PCA scores and loading plots of the various coﬀee samples analysed
+are reported in Fig. 2. The variability of data was mostly explained by
+the ﬁrst principal component (98.59%), which was mainly inﬂuenced
+by the content of the two lignans SECO (values of eigenvectors: 1485;
+62) and LARI (values of eigenvectors: 546; −170). Most of the samples
+were close to each other in the score plot (central part of the plot), as
+they were composed of similar amounts of phytoestrogens. However,
+the Ethiopian coﬀee samples diﬀered signiﬁcantly from the others, with
+higher contents of SECO and LARI, indicating that they are a good
+source of lignans.
+4. Conclusions
+For the ﬁrst time, an analytical method for the simultaneous
+quantitation of three lignans (secoisolariciresinol, matairesinol and
+lariciresinol) and six isoﬂavones (genistin, daidzin, daidzein, genistein,
+biochanin A and formononetin), in green coﬀee, has been developed.
+The extraction eﬃciency of diﬀerent procedures was evaluated, and
+recovery and total concentration of target compounds were studied as
+well. The best performing process was Method 7, a double extraction
+composed of base hydrolysis in MeOH and enzymatic digestion with
+clara-diastase, since it showed good recovery levels, ranging from 74 to
+94%, and the highest total concentration of all the compounds studied
+(1193.4 µg kg−1). This method was validated and then applied to 25
+diﬀerent green coﬀee samples. Lignans (286.5–8131.8 µg kg−1) were
+more abundant than isoﬂavones (3.4–300.0 µg kg−1). This work pro-
+vided new insight into two important phytonutrients (i.e. lignans and
+isoﬂavones) of green coﬀee, and along with previous works (Angeloni
+et al., 2019; Angeloni et al., 2018; Caprioli et al., 2016), allowed to
+Table 4
+Concentration, expressed in µg kg−1, of isoﬂavones and lignans determined in various green coﬀee samples.
+Samplea
+Genistin
+Daidzin
+SECO
+LARI
+Daidzein
+MAT
+Genistein
+Biochanin A
+Formononetin
+Total
+Rwanda 1
+52.0
+37.7
+1537.9
+734.2
+13.2
+n.d.b
+29.0
+21.2
+20.0
+2445.2
+Rwanda 2
+20.6
+n.d.
+620.6
+386.1
+5.4
+n.d.
+n.d.
+n.d.
+n.d.
+1032.7
+Rwanda 3
+n.d.
+n.d.
+672.6
+351.3
+6.4
+n.d.
+n.d.
+42.1
+7.3
+1079.7
+Costa Rica 1
+49.5
+25.6
+666.2
+351.3
+11.3
+n.d.
+26.6
+13.6
+15.0
+1159.1
+Costa Rica 2
+n.d.
+n.d.
+1569.7
+648.7
+3.4
+n.d.
+n.d.
+n.d.
+n.d.
+2221.8
+Costa Rica 3
+21.5
+16.8
+848.1
+288.0
+5.9
+n.d.
+n.d.
+n.d.
+n.d.
+1180.3
+Brazil 1
+n.d.
+n.d.
+215.1
+139.2
+4.9
+n.d.
+n.d.
+n.d.
+16.9
+376.1
+Brazil 2
+n.d.
+n.d.
+259.8
+132.9
+4.9
+n.d.
+n.d.
+n.d.
+19.4
+417.0
+Brazil 3
+27.0
+n.d.
+336.8
+151.9
+3.4
+n.d.
+n.d.
+n.d.
+n.d.
+519.1
+Brazil 4
+81.9
+40.1
+567.4
+319.6
+6.9
+n.d.
+n.d.
+n.d.
+n.d.
+1015.9
+Ethiopia 1
+n.d.
+n.d.
+5714.1
+2417.7
+n.d.
+n.d.
+n.d.
+5.3
+n.d.
+8137.1
+Ethiopia 2
+45.9
+38.2
+2364.6
+1255.1
+n.d.
+n.d.
+n.d.
+n.d.
+n.d.
+3703.8
+Ethiopia 3
+22.5
+n.d.
+3694.3
+1411.4
+n.d.
+n.d.
+n.d.
+n.d.
+n.d.
+5128.2
+Ethiopia 4
+41.0
+n.d.
+5317.4
+1708.9
+6.4
+n.d.
+25.8
+7.8
+9.8
+7117.1
+India 1
+98.6
+29.2
+1764.1
+509.5
+13.2
+n.d.
+22.6
+8.3
+9.8
+2455.3
+India 2
+33.2
+n.d.
+608.9
+310.1
+n.d.
+n.d.
+n.d.
+4.7
+4.5
+961.4
+India 3
+39.2
+n.d.
+577.8
+468.4
+5.4
+n.d.
+n.d.
+6.7
+4.3
+1101.8
+India 4
+204.8
+95.2
+746.7
+281.7
+n.d.
+n.d.
+n.d.
+n.d.
+n.d.
+1328.4
+Colombia 1
+n.d.
+n.d.
+408.6
+329.1
+n.d.
+n.d.
+n.d.
+n.d.
+n.d.
+737.7
+Colombia 2
+n.d.
+n.d.
+1503.8
+1338.6
+7.4
+n.d.
+n.d.
+n.d.
+n.d.
+2849.8
+Colombia 3
+89.7
+30.2
+1378.8
+775.3
+11.3
+n.d.
+24.2
+6.4
+7.5
+2323.4
+Nicaragua 1
+12.6
+12.6
+172.6
+113.9
+8.3
+n.d.
+n.d.
+n.d.
+n.d.
+320.0
+Nicaragua 2
+39.0
+n.d.
+954.0
+278.5
+9.3
+n.d.
+21.8
+7.7
+8.7
+1319.0
+Nicaragua 3
+n.d.
+n.d.
+397.8
+218.4
+4.9
+n.d.
+n.d.
+n.d.
+n.d.
+621.1
+robusta
+71.1
+50.8
+480.0
+458.9
+25.3
+n.d.
+40.7
+19.9
+46.7
+1193.4
+a Each sample was analysed in triplicate. RSDs % in all cases were ≤13.8%.
+b n.d., not detectable.
+Fig. 2. PCA scores (a) and loading plots (b) of the coﬀee samples, displaying chemical variance for lignans and isoﬂavones.
+S. Angeloni, et al.
+Food Chemistry 325 (2020) 126924
+7
+
+study the phytoestrogen contents in the whole coﬀee products, from
+green beans to cup. From our studies emerged that the roasting process
+could generate a partial degradation of these compounds, as the total
+content of phytoestrogens was about ten times greater in green coﬀee
+with respect to ground coﬀee. The future perspective will be the study
+of these substances during the fruit ripening.
+CRediT authorship contribution statement
+Simone Angeloni: Conceptualization, Methodology, Writing - ori-
+ginal draft. Luciano Navarini: Resources. Gulzhan Khamitova:
+Methodology, Validation. Filippo Maggi: Formal analysis, Software.
+Gianni Sagratini: Data curation, Conceptualization. Sauro Vittori:
+Supervision, Writing - review & editing. Giovanni Caprioli: Data
+curation, Supervision, Writing - review & editing.
+Declaration of Competing Interest
+The authors declare that they have no known competing ﬁnancial
+interests or personal relationships that could have appeared to inﬂu-
+ence the work reported in this paper.
+Acknowledgements
+The authors are grateful to Simonelli Group SpA (Belforte del
+Chienti, Macerata, Italy) for partial economic support through fellow-
+ships for S A and G K. The authors are also grateful to Sheila Beatty for
+editing the English usage in the manuscript.
+Appendix A. Supplementary data
+Supplementary data to this article can be found online at https://
+doi.org/10.1016/j.foodchem.2020.126924.
+References
+Alves, R. C., Almeida, I. M. C., Casal, S., & Oliveira, M. B. P. P. (2010). Method devel-
+opment and validation for isoﬂavones quantiﬁcation in coﬀee. Food Chemistry, 122,
+914–919. https://doi.org/10.1016/j.foodchem.2010.03.061.
+Angeloni, S., Navarini, L., Khamitova, G., Sagratini, G., Vittori, S., & Caprioli, G. (2019).
+Quantiﬁcation of lignans in 30 ground coﬀee samples and evaluation of theirs ex-
+traction yield in espresso coﬀee by HPLC-MS/MS triple quadrupole. International
+Journal of Food Sciences and Nutrition, 1–8. https://doi.org/10.1080/09637486.2019.
+1624693.
+Angeloni, S., Navarini, L., Sagratini, G., Torregiani, E., Vittori, S., & Caprioli, G. (2018).
+Development of an extraction method for the quantiﬁcation of lignans in espresso
+coﬀee by using HPLC-MS/MS triple quadrupole. Journal of Mass Spectrometry, 53,
+842–848. https://doi.org/10.1002/jms.4251.
+Araujo, P. (2009). Key aspects of analytical method validation and linearity evaluation.
+Journal of chromatography B, 877, 2224–2234. https://doi.org/10.1016/j.jchromb.
+2008.09.030.
+BIPM, I., IFCC, I., & ISO, I. (2017). IUPAP and OIML, JCGM 100: 2008 Evaluation of
+Measurement Data–Guide to the Expression of Uncertainty in Measurement (GUM
+1995 with minor corrections). Joint Committee for Guides in Metrology. https://
+www.bipm.org/utils/common/documents/jcgm/JCGM_100_2008_E.pdf.
+Caprioli, G., Navarini, L., Cortese, M., Ricciutelli, M., Torregiani, E., Vittori, S., &
+Sagratini, G. (2016). Quantiﬁcation of isoﬂavones in coﬀee by using solid phase
+extraction (SPE) and high-performance liquid chromatography–tandem mass
+spectrometry (HPLC-MS/MS). Journal of Mass Spectrometry, 51, 698–703. https://doi.
+org/10.1002/jms.3802.
+de Melo Pereira, G. V., de Carvalho Neto, D. P., Júnior, A. I. M., Vásquez, Z. S., Medeiros,
+A. B., Vandenberghe, L. P., & Soccol, C. R. (2018). Exploring the impacts of post-
+harvest processing on the aroma formation of coﬀee beans–A review. Food chemistry,
+272, 441–452. https://doi.org/10.1016/j.foodchem.2018.08.061.
+Ford, J. D., Huang, K. S., Wang, H. B., Davin, L. B., & Lewis, N. G. (2001). Biosynthetic
+pathway to the cancer chemopreventive secoisolariciresinol diglucoside −hydro-
+xymethyl glutaryl ester-linked lignan oligomers in ﬂax (Linum usitatissimum) seed.
+Journal of Natural Products, 64, 1388–1397. https://doi.org/10.1021/np010367x.
+Gosetti, F., Mazzucco, E., Zampieri, D., & Gennaro, M. C. (2010). Signal suppression/
+enhancement in high-performance liquid chromatography tandem mass spectro-
+metry. Journal of Chromatography A, 1217, 3929–3937. https://doi.org/10.1016/j.
+chroma.2009.11.060.
+Horn-Ross, P. L., Barnes, S., Lee, M., Coward, L., Mandel, J. E., Koo, J., ... Smith, M.
+(2000). Assessing phytoestrogen exposure in epidemiologic studies: Development of a
+database (United States). Cancer Causes & Control, 11, 289–298. https://doi.org/10.
+1023/A:1008995606699.
+International Coﬀee Organization (ICO). Statistics. Trade Statistic Tables. (2018). http://
+www.ico.org/prices/po-production.pdf. Accessed 14 April 2019.
+Kuhnle, G. G., Dell’Aquila, C., Aspinall, S. M., Runswick, S. A., Mulligan, A. A., &
+Bingham, S. A. (2008). Phytoestrogen content of beverages, nuts, seeds, and oils.
+Journal of Agricultural and Food Chemistry, 56, 7311–7315. https://doi.org/10.1021/
+jf801534g.
+Landete, J. M. (2012). Plant and mammalian lignans: A review of source, intake, meta-
+bolism, intestinal bacteria and health. Food Research International, 46, 410–424.
+https://doi.org/10.1016/j.foodres.2011.12.023.
+Landete, J. M., Arqués, J., Medina, M., Gaya, P., de Las Rivas, B., & Muñoz, R. (2016).
+Bioactivation of phytoestrogens: Intestinal bacteria and health. Critical Reviews in
+Food Science and Nutrition, 56, 1826–1843. https://doi.org/10.1080/10408398.2013.
+789823.
+Mazur, W. M., Wähälä, K., Rasku, S., Salakka, A., Hase, T., & Adlercreutz, H. (1998).
+Lignan and isoﬂavonoid concentrations in tea and coﬀee. British Journal of Nutrition,
+79, 37–45. https://doi.org/10.1079/BJN19980007.
+Milder, I. E., Arts, I. C., van de Putte, B., Venema, D. P., & Hollman, P. C. (2005). Lignan
+contents of Dutch plant foods: A database including lariciresinol, pinoresinol, secoi-
+solariciresinol and matairesinol. British Journal of Nutrition, 93, 393–402. https://doi.
+org/10.1079/BJN20051371.
+Mortensen, A., Kulling, S. E., Schwartz, H., Rowland, I., Ruefer, C. E., Rimbach, G., ...
+Sontag, G. (2009). Analytical and compositional aspects of isoﬂavones in food and
+their biological eﬀects. Molecular Nutrition & Food Research, 53, 266–309. https://doi.
+org/10.1002/mnfr.200800478.
+Mussatto, S. I., Machado, E. M., Martins, S., & Teixeira, J. A. (2011). Production, com-
+position, and application of coﬀee and its industrial residues. Food and Bioprocess
+Technology, 4, 661–672. https://doi.org/10.1007/s11947-011-0565-z.
+Ren, M. Q., Kuhn, G., Wegner, J., & Chen, J. (2001). Isoﬂavones, substances with multi-
+biological and clinical properties. European Journal of Nutrition, 40, 135–146. https://
+doi.org/10.1007/PL00007388.
+Sagratini, G., Fernández-Franzón, M., De Berardinis, F., Font, G., Vittori, S., & Mañes, J.
+(2012). Simultaneous determination of eight underivatised biogenic amines in ﬁsh by
+solid phase extraction and liquid chromatography–tandem mass spectrometry. Food
+Chemistry, 132, 537–543.
+Smeds, A. I., Eklund, P. C., Sjöholm, R. E., Willför, S. M., Nishibe, S., Deyama, T., &
+Holmbom, B. R. (2007). Quantiﬁcation of a broad spectrum of lignans in cereals,
+oilseeds, and nuts. Journal of Agricultural and Food Chemistry, 55, 1337–1346. https://
+doi.org/10.1021/jf0629134.
+Sulyok, M., Berthiller, F., Krska, R., & Schuhmacher, R. (2006). Development and vali-
+dation of a liquid chromatography/tandem mass spectrometric method for the de-
+termination of 39 mycotoxins in wheat and maize. Rapid Communications in Mass
+Spectrometry, 20, 2649–2659. https://doi.org/10.1002/rcm.2640.
+Thompson, L. U., Boucher, B. A., Liu, Z., Cotterchio, M., & Kreiger, N. (2006).
+Phytoestrogen content of foods consumed in Canada, including isoﬂavones, lignans,
+and coumestan. Nutrition and Cancer, 54, 184–201. https://doi.org/10.1207/
+s15327914nc5402_5.
+Zaheer, K., & Humayoun Akhtar, M. (2017). An updated review of dietary isoﬂavones:
+Nutrition, processing, bioavailability and impacts on human health. Critical Reviews in
+Food Science and Nutrition, 57, 1280–1293. https://doi.org/10.1080/10408398.2014.
+989958.
+S. Angeloni, et al.
+Food Chemistry 325 (2020) 126924
+8

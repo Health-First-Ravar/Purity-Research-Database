@@ -1,0 +1,868 @@
+Cafestol and kahweol, two coﬀee speciﬁc diterpenes with
+anticarcinogenic activity
+C. Cavina,*, D. Holzhaeusera, G. Scharf b, A. Constablea, W.W. Huberb, B. Schiltera
+aFood Safety Group, Nestle´ Research Center, PO Box 44, Vers-chez-les-Blanc, CH-1000 Lausanne 26, Switzerland
+bInstitut fu¨r Krebsforschung, University of Vienna, Borschkegasse 8A, A-1090 Vienna, Austria
+Abstract
+Epidemiological studies have found an inverse association between coﬀee consumption and the risk of certain types of cancers
+such as colorectal cancers. Animal data support such a chemopreventive eﬀect of coﬀee. Substantial research has been devoted to
+the identiﬁcation of coﬀee components that may be responsible for these beneﬁcial eﬀects. In animal models and cell culture sys-
+tems, the coﬀee diterpenes cafestol and kahweol (C+K) were shown to produce a broad range of biochemical eﬀects resulting in a
+reduction of the genotoxicity of several carcinogens including 7,12-dimethylbenz[a]anthracene (DMBA), aﬂatoxin B1 (AFB1),
+benzo[a]pyrene (B[a]P) and 2-amino-1-methyl-6-phenylimidazo[4,5-b]pyridine (PhIP). Diﬀerent mechanisms appear to be involved
+in these chemoprotective eﬀects: an induction of conjugating enzymes (e.g. glutathione S-transferases, glucuronosyl S-transferases),
+an increased expression of proteins involved in cellular antioxidant defense (e.g. g-glutamyl cysteine synthetase and heme oxygenase-1)
+and an inhibition of the expression and/or activity of cytochromes P450 involved in carcinogen activation (e.g. CYP2C11,
+CYP3A2). In animal models, the C+K-mediated induction of conjugating and antioxidant enzymes has been observed in hepatic,
+intestinal and kidney tissues. In the small intestine, these inductions were shown to be mediated by Nrf2-dependent transcriptional
+activation. In vitro investigations obtained in cell cultures of human origin indicate that the eﬀects and mechanisms observed in
+animal test systems with C+K are likely to be of relevance for humans. In human liver epithelial cell lines transfected to express
+AFB1-activating P450s, C+K treatment resulted in a reduction of AFB1–DNA binding. This protection was correlated with an
+induction of GST-mu, an enzyme known to be involved in AFB1 detoxiﬁcation. In addition, C+K was found to inhibit P450 2B6,
+one of the human enzymes responsible for AFB1 activation. Altogether, the data on the biological eﬀects of C+K provide a
+plausible hypothesis to explain some of the anticarcinogenic eﬀects of coﬀee observed in human epidemiological studies and in
+animal experiments. # 2002 Elsevier Science Ltd. All rights reserved.
+Keywords: Cafestol and kahweol; Coﬀee; Diterpenes; Chemoprotection; Mechanisms; Blocking agents; Glutathione S-transferases; Cytochromes
+P450
+1. Introduction
+Numerous epidemiological studies have investigated
+the relationship between coﬀee consumption and cancer
+incidence at various sites. Overall, there is no evidence
+that moderate (2–5 cups a day) coﬀee drinking represents
+a signiﬁcant risk for the development of cancer in
+humans (Schilter et al., 2001a). In contrast, many stud-
+ies have revealed an inverse (protective) association
+between coﬀee consumption and the risk of certain
+cancers (Nishi et al., 1996; Giovannucci, 1998; Inoue et
+al., 1998). The epidemiology of colorectal cancer pro-
+vides the most supportive evidence of a potential coﬀee-
+dependent protection. In a recent meta-analysis com-
+prising ﬁve cohort and 12 case-control studies, a sig-
+niﬁcant inverse association between coﬀee consumption
+and colorectal cancer was found (Giovannucci, 1998).
+Animal studies have provided further support for a
+potentially chemoprotective eﬀect of coﬀee. In chronic
+studies conducted in rodents, coﬀee administered at
+high levels in the diet resulted in a decreased incidence
+of spontaneous tumors at diﬀerent organ sites (Wu¨ rzner
+et al., 1977; Stalder et al., 1990). Other studies have
+shown that coﬀee or coﬀee constituents protect against
+0278-6915/02/$ - see front matter # 2002 Elsevier Science Ltd. All rights reserved.
+PII: S0278-6915(02)00029-7
+Food and Chemical Toxicology 40 (2002) 1155–1163
+www.elsevier.com/locate/foodchemtox
+Abbreviations: AFB1, aﬂatoxin B1; AFBO, AFB1-8,9-epoxide;
+B[a]P, benzo[a]pyrene; C+K, CDNB, chlorodinitrobenzene; DMBA,
+dimethylbenz[a]anthracene;
+GCS,
+g-glutamyl
+cysteine
+synthetase;
+GSH, reduced glutathione; GST, glutathione S-transferase; HO-1,
+heme oxygenase 1; HSP, heat shock protein; NQO, NAD(P)H:qui-
+none reductase; P450, cytochrome P450; PhIP, 2-amino-1-methyl-6-
+phenylimidazo[4,5-b]pyridine
+* Corresponding author. Tel.: +41-21-785-80-99; fax: +41-21-785-
+85-53.
+E-mail address: christophe.cavin@rdls.nestle.com (C. Cavin).
+
+the action of well-known carcinogens such as nitrosa-
+mines (Nishikawa et al., 1986) or 1,2-dimethylhydrazine
+(Gershbein, 1994). Several studies have demonstrated
+that green as well as roasted coﬀees inhibit the devel-
+opment of 7,12-dimethylbenz[a]anthracene (DMBA)-
+induced carcinogenesis at various tissue sites in diﬀerent
+experimental animal cancer models (Wattenberg, 1983;
+Miller et al., 1988, 1993).
+A number of coﬀee components have been identiﬁed
+as being potentially responsible for the chemoprotective
+eﬀects of coﬀee. Among others, caﬀeine (Rothwell,
+1974) and polyphenols including chlorogenic acids and
+their degradation products have been considered as
+good candidates (Stadler, in press; Schilter et al.,
+2001b). In addition, investigations performed in rats,
+mice and hamsters led to the identiﬁcation of a speciﬁc
+lipidic fraction as potentially responsible for the che-
+mopreventive eﬀects of coﬀee on DMBA-induced can-
+cer (Lam et al., 1982; Wattenberg et al., 1986, Miller et
+al., 1991). The major constituents of this fraction were
+found to be the diterpenes cafestol and kahweol (C+K;
+Fig. 1). These speciﬁc coﬀee constituents are very diﬃ-
+cult to isolate independently and kahweol is highly
+unstable when puriﬁed. Therefore the biological prop-
+erties of these compounds have been studied tradition-
+ally using a mixture of both. For the experiments
+conducted in the laboratories of the present authors,
+C+K mixture (purity>98%) was prepared from coﬀee
+oil in a ratio of 52.5 (C):47.5 (K) (Bertholet, 1987). In
+the following sections, recent data supporting the
+potential protective role of C+K in animals and
+humans are provided. In addition, mechanisms of
+actions are discussed.
+2. Alteration of carcinogen–DNA binding
+In addition to its protective eﬀects against the devel-
+opment of DMBA-induced tumors, C+K was shown to
+prevent the formation of DNA adducts of several gen-
+otoxic carcinogens. In an in vitro DNA-binding assay
+conducted in the presence of liver S9 fractions from rats
+treated over 28 days with diets containing C+K at
+levels ranging from 0 to 6200 ppm, a signiﬁcant dose-
+dependent decrease in the incorporation of tritiated
+metabolites of the hepatocarcinogenic mycotoxin aﬂa-
+toxin B1 (AFB1) into calf thymus DNA was found
+(Cavin et al., 1998). Similar S9 fractions from the same
+feeding study were used in the metabolic activation mix
+of a bacterial mutation assay. Although a substantial
+variation was observed between rats within each group,
+signiﬁcant reduction (P=0.015) of the number of
+revertants induced by AFB1 was observed with the liver
+S9 fractions from the rats fed diets containing the high-
+est doses of C+K (2300 and 6200 ppm) (Fig. 2). This
+gave a further indication that dietary C+K may reduce
+the genotoxicity of AFB1. Data generated in primary
+cultures of freshly isolated rat hepatocytes support the
+results obtained ex vivo. The pre-treatment of these cells
+with C+K (0–4 mg/ml) resulted in a dose-dependent
+inhibition of AFB1-induced DNA adduct formation
+(Cavin et al., 2001; Fig. 3) . In addition, such a treat-
+ment was shown to also prevent the DNA-binding of
+benzo[a]pyrene (B[a]P), an ubiquitous environmental
+carcinogen of the polycyclic aromatic hydrocarbon class
+(Fig. 3).
+A C+K-mediated prevention of DNA binding was
+also observed in extrahepatic tissue with the procarci-
+nogen
+2-amino-1-methyl-6-phenylimidazo[4,5-b]pyri-
+dine (PhIP). PhIP, a heterocyclic amine to which
+humans are strongly exposed under real-life conditions,
+is a pyrolysis product found in cooked meat and ﬁsh,
+thus also being described as ‘‘cooked food mutagen’’. In
+the rodent, PhIP was found to produce cancers of
+breast,
+prostate
+and
+lymphatic
+system
+and,
+most
+importantly, of the colon. In agreement with this, PhIP
+has been implicated in the etiology of human colon
+cancer. Male F344 rats fed a diet containing 2000 ppm
+Fig. 1. The coﬀee speciﬁc diterpenes cafestol and kahweol: chemical
+structure.
+Fig. 2. Eﬀects of C+K on the mutagenic response to aﬂatoxin B1
+(AFB1) in the Ames test. S9 fractions (0.6 mg/plate prepared accord-
+ing to Schilter et al., 1996) from livers of male rats fed either a control
+diet or diets containing C+K (92–6200 ppm) for 28 days were mixed
+with 2 nm AFB1 and strain TA100, plated directly and incubated for 3
+days at 37
+C. Spontaneous revertants numbers for TA100 were
+12217. Line represents the median values of each independent test
+group of ﬁve rats. Each rat liver S9 was tested in triplicate (variability
+was within 10% of the average value). Reduction of AFB1 induction
+of revertants was statistically signiﬁcant (P=0.015) with liver fractions
+from rat fed with 2300 and 6200 ppm C+K in the diet using the p
+(Fisher’s exact) test.
+1156
+C. Cavin et al. / Food and Chemical Toxicology 40 (2002) 1155–1163
+
+C+K for 10 days received 50 mg/kg PhIP through
+gavage. After 24 h, PhIP–DNA adducts were analyzed
+in the colon and the PhIP–DNA adduct formation was
+signiﬁcantly lower in C+K treated animals than in the
+controls (Huber et al., 1997). Altogether, these data
+indicate that C+K may prevent DNA damage induced
+by a wide range of carcinogens and these protective
+eﬀects may occur in various tissues.
+3. Chemoprotective mechanisms
+The mechanisms responsible for the chemoprotective
+eﬀects of C+K are not fully understood. Chemopre-
+ventive agents may intervene at one or several steps of
+the carcinogenic process such as during the initiation,
+promotion or progression stages (De Flora and Ramel,
+1988; Harris, 1991). It is known that the initiation of
+tumor formation, which generally consists of a perma-
+nent modiﬁcation of DNA with electrophilic or oxidant
+metabolites derived from procarcinogen biotransforma-
+tion, is a target for several dietary anticarcinogenic
+compounds, the so-called blocking agents (Wattenberg,
+1985). They act through an inhibition of the formation
+and/or the stimulation of the detoxiﬁcation of the elec-
+trophilic or oxidant intermediates, resulting in decreased
+DNA damage and in the blocking of initiation. Early
+studies indicated that C+K induced glutathione S-
+transferase (GST) activity in mouse liver and small
+intestine (Lam et al., 1982). Since GST is known to
+detoxify electrophilic compounds through conjugation
+with glutathione, these data led to the hypothesis that
+C+K may possess the properties of blocking agents.
+Recent studies further conﬁrm this hypothesis and show
+that C+K-preventive eﬀects may be mediated by both
+an inhibition of bioactivation and a stimulation of
+detoxiﬁcation.
+3.1. Phase II-mediated mechanisms
+3.1.1. Induction of phase II detoxifying enzymes
+Following up on the early observations showing an
+induction of GST-mu in mouse liver and small bowel
+(Lam et al., 1982), the eﬀects of C+K on the expression
+of various GST subunits were studied in the rat (Schilter
+et al., 1996; Cavin et al., 1998), the animal species in
+which the anticarcinogenic properties of these com-
+pounds were ﬁrst demonstrated. Rats were administered
+C+K in the diet (0, 92, 460, 2300, 6200 ppm) over per-
+iods of up to 90 days. The most striking eﬀects identiﬁed
+were a strong dose-dependent induction of the GST Pi
+subunit Yp and the alpha subunit Yc2 (rGST A5) in the
+liver following 28 or 90 days of treatment. The eﬀects
+were found at the mRNA and protein levels and were
+signiﬁcant (P<0.05) at C+K dietary concentrations of
+460 ppm and higher. With respect to GST-P, time-
+course experiments indicated that the C+K-mediated
+induction occurred within a few days. In addition, it
+was shown that the increased expression was dependant
+on the continuous presence of C+K in the diet and was
+reversible following removal of C+K (Schilter et al.,
+1996). In agreement with this, levels of overall GST
+activity,
+as
+measured
+with
+chlorodinitrobenzene
+(CDNB), increased two- to three-fold during a 10-day
+dietary exposure to 2000 ppm C+K, but returned to
+pretreatment levels 10 days after removal of the treat-
+ment diet (Huber et al., 1998). Immunohistochemical
+examination of liver slices revealed that the GST-P
+induction occurred predominantly in periportal hepato-
+cytes (Schilter et al., 1996). The contribution of these
+eﬀects on GST expression to the chemoprotective
+properties of C+K is diﬃcult to predict, due to the low
+content of this isozyme in control livers. However, it is
+important to keep in mind that GST-P has been impli-
+cated in the detoxiﬁcation of both B[a]P and PhIP
+reactive metabolites (Swedmark et al., 1992; Fields et
+al., 1994; Lin et al., 1994). Furthermore, GST Yc2 is
+known to eﬃciently conjugate aﬂatoxin B1-8,9-epoxide
+(AFBO), the most genotoxic metabolite of AFB1
+(Hayes et al., 1991; Pulford and Hayes, 1996).
+The eﬀects of C+K on the expression of GST
+enzymes were also investigated in the small intestine of
+mice fed 250 ppm dietary C+K for 14 days (McMahon
+et al., 2001). As previously found in rat liver, exposure
+to C+K resulted in a signiﬁcant induction in GST gen-
+eral activity (2.5-fold) in the small intestine. Further-
+more,
+Western
+analysis
+applying
+GST
+speciﬁc
+Fig. 3. Dose-dependent eﬀect of cafestol and kahweol (C+K) on the
+formation of AFB1 and B[a]P-induced DNA adducts in vitro. The
+incorporation of 20 nm tritiated [3H]AFB1 metabolites into DNA and
+0.5 mm [3H]B[a]P were tested using rat primary hepatocytes pretreated
+with increasing concentrations of C+K (0–4 mg/ml) for 48 h. Primary
+rat hepatocyte cultures were prepared according to Cavin et al. (2001).
+Results presented are means obtained from ﬁve experiments with two
+independent cultures per treatment (S.D.). These are expressed as
+the percentage of the mean value derived from control cultures. In
+controls, the absolute binding rate (equal to 100%) were in average 6.5
+pmol AFB1 and 4.5 pmol B[a]P/mg DNA, respectively. *Signiﬁcantly
+diﬀerent from control hepatocytes (P<0.05) using the Student’s t-test.
+C. Cavin et al. / Food and Chemical Toxicology 40 (2002) 1155–1163
+1157
+
+antibodies revealed a two- to three-fold increase in the
+intestinal expression of several alpha (GST A1/2, A3,
+A4) and mu (GST M1, M5) GST subunits. Preliminary
+experiments from our laboratories suggest that similar
+induction of alpha and mu GST subunits may also
+occur in the colon of rats treated with C+K (C. Cavin,
+unpublished data), while in the liver hepatic y activity
+appeared to be increased as well (Huber et al., 2000).
+Considerable organ-speciﬁc diﬀerences were observed
+regarding the eﬀects of C+K on overall GST activity
+using CDNB as substrate. In rats fed 0.2% C+K,
+strong increases in the liver and kidneys (two- to three-
+fold as compared to controls) were paralleled by a
+moderate enhancement in the lung, a marginal one in
+the colon, and no changes in several other organs such
+as pancreas, salivary gland and testis (Schilter et al.,
+1996; Huber et al., 1997, 2000; W.W. Huber et al.,
+unpublished). The liver and other well-perfused organs
+may thus contribute to chemoprotective eﬀects that
+occur in distant organs as well.
+In addition to the eﬀects on GST expression, C+K
+were found to strongly induce several other phase II
+xenobiotic metabolizing enzymes. A dose-dependent
+increase in glucuronosyl S-transferase (UDP-GT) activ-
+ity was recently observed in the liver and kidney of rats
+fed a diet containing between 120 and 1200 ppm of
+C+K (free alcohols) for 10 days. (Huber et al., 2000).
+Dietary exposure of mice to 250 ppm C+K for 14 days
+also showed a signiﬁcant induction of NAD(P)H:qui-
+none oxidoreductase activity in their small intestine of
+about two-fold (McMahon et al., 2001).
+3.1.2. Molecular mechanism of induction
+The cis-acting antioxidant-responsive-element (ARE)
+sequence has been identiﬁed on the promoter of several
+genes involved in detoxiﬁcation processes (Hayes et al.,
+1999). It has been suggested that altering the expression
+of these genes through ARE-mediated transcriptional
+activation is likely to be a key molecular mechanism
+explaining how many blocking agents may prevent
+mutagenesis. Uncertainty exists about the identity of the
+transcription factor(s) that mediate ARE-driven gene
+induction. Recently, bZip Nrf proteins have been found
+to activate gene induction through this speciﬁc enhancer
+(Venugopal and Jaiswal, 1996). The role of Nrf2 tran-
+scription factor in the C+K-mediated activation of
+intestinal detoxifying enzymes has been addressed using
+a mouse line bearing a targeted disruption of the gene
+encoding this factor (McMahon et al., 2001). As men-
+tioned previously, both NQO and GST enzymes activ-
+ities were induced in the small intestine of the wild-type
+animals treated with C+K for 14 days, whereas such
+induction could not be observed in mutant knockout
+mice. These results demonstrate the key role of this
+transcription factor in the chemoprotective activity of
+C+K in the small intestine. Nrf2 is signiﬁcantly
+expressed in the liver, suggesting that a similar role may
+also be expected in this organ.
+3.2. Phase I-mediated mechanisms
+3.2.1. Inhibition of phase I activating enzyme expression
+Beside a stimulation of detoxiﬁcation processes, a
+reduction of carcinogen activation was shown to play
+an important role in the C+K-mediated prevention of
+carcinogen DNA binding. It was observed that in rats
+fed diets containing C+K over 28 days, the hepatic
+expression of the cytochrome P450 (P450) CYP3A2 was
+signiﬁcantly decreased at both mRNA and protein
+levels (Cavin et al., 1998). Signiﬁcant diﬀerences as
+compared to controls were found at dietary C+K con-
+centrations of 2300 ppm and above. The eﬀects on pro-
+tein expression were correlated with a decrease in 3A-
+dependent enzymatic activity (Fig. 4). Other P450 were
+altered by C+K treatments. For example, the expres-
+sion of the male-speciﬁc P450 CYP2C11 was also sig-
+niﬁcantly decreased by 35% at 2300 ppm and 88% at
+6200 ppm of C+K in the diet as compared with control
+level (Cavin et al., 1998). These eﬀects on CYP3A2 and
+CYP2C11 were conﬁrmed in rat primary hepatocyte
+cultures. Since CYP2C11 and CYP3A2 are the major
+P450s responsible for the bioactivation of AFB1 into
+AFBO in the rat, it was hypothesized that a reduction in
+the expression of these genes may contribute to the
+C+K-mediated prevention of AFB1–DNA adducts
+(Forrester et al., 1990). In a DNA-binding assay, the use
+of microsomes from the liver of C+K treated rats as
+activating system resulted in a signiﬁcant reduction of
+AFB1–DNA adducts formation (Cavin et al., 1998).
+This eﬀect was dose dependent and maximal at 6200
+ppm in the diet (40% reduction). These data support a
+role for the decrease in phase I enzyme expression in the
+Fig. 4. Dose–response eﬀect of cafestol and kahweol (C+K) on the
+activity of hepatic cytochrome P450 3A in rats. The P450 CYP 3A-
+mediated activity of liver microsomal fractions of male and female rats
+fed either a control diet or diets containing C+K (92–6200 ppm) for
+28 days was assayed according to Wrighton et al. (1986), using
+erythromycin as a substrate. Results presented are means obtained
+from ﬁve animals per group with two individual measurements per
+animal (S.D.).
+1158
+C. Cavin et al. / Food and Chemical Toxicology 40 (2002) 1155–1163
+
+chemoprotective eﬀects of C+K against AFB1 geno-
+toxicity.
+3.2.2. Inhibition of phase I enzymatic activity
+A direct inhibition of P450 enzymatic activity without
+any eﬀects on protein expression is an additional phase
+I-mediated mechanism through which the coﬀee diter-
+penes may act. For example, C+K has been shown to
+produce an inhibition of P4501A1 activity in liver cells
+which resulted in a reduction of B[a]P activation and
+DNA binding (C. Cavin, unpublished data). Similar
+inhibitory eﬀects were found with human P450 CYP
+2B6, a human P450 responsible for AFB1 bioactivation
+(Cavin et al., 2001). In addition, it is suggested that the
+reduction of PhIP–DNA adducts found in C+K-trea-
+ted rats involves an inhibition of the PhIP-activating
+enzymes P450 1A2 and N-acetyl transferase (NAT)
+(Huber et al., 1998, 2000). C+K was also found to
+reduce the N-hydroxylation of 4-aminobiphenyl in vitro
+(Hammons et al., 1999).
+3.3. Antioxidant-dependent mechanisms
+Cis-acting AREs have been described not only in
+promoters of conjugating enzymes but also in pro-
+moters of genes encoding enzymes involved in cellular
+antioxidant defense such as the catalytic heavy subunit
+of g-glutamyl cysteine synthetase (GCS) and heme oxy-
+genase-1 (HO-1) (Prestera et al., 1995; Mulcahy et al.,
+1997). There is increasing evidence that oxidative
+damage is involved in various pathological processes
+such as cancer, therefore the increase in antioxidant
+enzyme expression may be of signiﬁcant importance in
+chemoprevention.
+GCS is the rate-limiting enzyme in the synthesis of the
+tripeptide glutathione (GSH). GSH is a major intracel-
+lular antioxidant which plays an important role in
+maintaining cellular redox status and in the detoxiﬁca-
+tion of activated xenobiotics. In rat primary hepatocyte
+cultures, C+K produced a dose-dependent increase in
+the intracellular GSH concentration (Fig. 5), This eﬀect
+is likely to reﬂect an Nrf2-mediated transcriptional
+activation of GCS, as described in the mouse intestine.
+Indeed, inductions of GCS were found upon C+K
+treatment in liver, kidney, colon and lung of rats which
+were associated with increases in the GSH content of
+the same organs (Huber et al., 2000).
+HO-1 is a protein belonging to the cellular stress
+response. It is rapidly induced by oxidative stress related
+stimuli such as glutathione depletion, heavy metal
+exposure and oxidative damage. HO-1 is known to play
+a role in free radical scavenging. As expected from the
+data available on Nrf2-mediated gene regulation (Alam
+et al., 1999), a marked dose-dependent induction of
+HO-1 protein expression was obtained in primary rat
+hepatocytes as a result of C+K treatment (Fig. 6A).
+Further data have indicated that the diterpenes may
+induce other genes of the cellular stress response. A sig-
+niﬁcant induction of heat shock protein 25 (HSP25)
+expression was found in rat hepatocytes following 48 h
+of C+K exposure treatment (Fig. 6B). This chaperone
+is known to carry out important functions in protein
+synthesis, maturation and translocation across mem-
+brane (Ehrnsperger et al., 1998). It is an element of the
+adaptive response to environmental stresses and patho-
+physiological states (inﬂammation, viral and bacterial
+infection, aging, etc.). It is involved in recognizing
+injured proteins and participates to the process of pro-
+tein repair and elimination.
+4. Relevance to humans
+4.1. C+K eﬀects in human test systems
+The potential chemoprotective activity of C+K in
+human is still under investigation. The application of
+human liver epithelial cell lines (THLE) stably trans-
+fected to express human AFB1-activating P450s includ-
+ing CYP 1A2, CYP 3A4 and CYP 2B6 indicate that
+C+K is likely to produce in human cells similar eﬀects
+to those observed in animal models (Cavin et al., 2001).
+In these cells, C+K treatment for 48 h signiﬁcantly
+decreased AFB1–DNA adduct formation. Maximum
+inhibitions of 30% (T5–2B6) and 45% (T5–1A2) as
+compared to control cells were achieved at a C+K
+concentration of 5 mg/ml. This preventive eﬀect was
+correlated with an increase in the general GST activity
+together with a marked dose-dependent induction of
+GST-mu (2.5-fold), which was maximal after 48 h of
+treatment with C+K. Human GST-mu is known to be
+involved in AFBO detoxiﬁcation (Langoue¨ t et al., 1998).
+Fig. 5. Dose–response eﬀect of cafestol and kahweol (C+K) on the
+glutathione (GSH) content of rat primary hepatocytes. Primary rat
+hepatocyte cultures were prepared according to Cavin et al. (2001).
+The GSH level of control and C+K (1–4 mg/ml)-treated hepatocytes
+for 48 h was assayed according to Gallagher et al. (1994). Results
+presented are means obtained from at least three experiments with two
+independent cultures per treatment (S.D.). In control hepatocytes,
+the GSH activity was in average 30 nmol/min/mg protein.
+C. Cavin et al. / Food and Chemical Toxicology 40 (2002) 1155–1163
+1159
+
+The possibility of a direct inhibition of the enzymatic
+activity responsible for AFB1 activation was tested in
+the diﬀerent P450 expressing THLE clones. A selective
+C+K-dependent inhibitory eﬀect (60% at 5 mg/ml) was
+found in THLE-2B6 (Cavin et al., 2001). In addition,
+preliminary data in human primary hepatocytes suggest
+that the coﬀee diterpenes may signiﬁcantly inhibit the
+expression of P450s involved in AFB1 activation at a
+concentration as low as 1 mg/ml (S. Langoue¨ t, personal
+communication). The data obtained using AFB1 as a
+model indicate that the eﬀects and mechanisms obtained
+with C+K in animal test systems are likely to be of
+relevance for humans. Recent data generated in our
+laboratory using other carcinogens such as B[a]P sup-
+port this hypothesis. Further preliminary results suggest
+that C+K is also capable of enhancing GCS and GSH
+in HepG2 cells, an other commonly used human-
+derived hepatic cell line (Scharf et al., 2001). With
+respect to drug metabolizing enzymes, the data suggest
+that C+K produce eﬀects in human cells similar to
+those observed in animal models (Cavin et al., 2001).
+4.2. Signiﬁcance of the C+K-mediated eﬀects in
+relation to coﬀee consumption
+Coﬀee drinking is the major source of human expo-
+sure to C+K. An important question regarding the
+health signiﬁcance of the biological activity of C+K is
+to know whether the eﬀects obtained with very high
+doses in animals may occur in humans consuming
+moderate amounts of coﬀee (up to 5 cups a day). Pre-
+vious data showing an increased salivary content of
+GST in individuals consuming large amounts of coﬀee
+(Sreerama et al., 1995) suggest a possible coﬀee-depen-
+dent induction of these enzymes in human in vivo.
+However, the role of C+K in these eﬀects has not been
+clariﬁed.
+The human exposure to C+K is highly dependent on
+the type of brew consumed. Chemical analysis of the
+diterpenes in diﬀerent coﬀee brews has shown that
+Scandinavian-type boiled coﬀee, Turkish and cafetie` re
+coﬀee contain the highest amounts of C+K, while
+instant and ﬁltered coﬀee contain negligible amounts
+and expresso intermediate amounts (Urgert et al., 1995).
+In epidemiological studies, the consumption of boiled
+coﬀee was associated with an increase in blood cholesterol
+levels (Thelle et al., 1987; Urgert and Katan, 1997).
+Clinical studies identiﬁed C+K as the causative factors
+of this eﬀect (Weusten-van der Wouw et al., 1994;
+Urgert and Katan, 1997). These investigations demon-
+strated a dose-dependent and reversible eﬀect of C+K
+on blood cholesterol. Based on these clinical and epide-
+miological studies, it was estimated that an exposure to
+10 mg of total diterpenes per day is likely to have no or
+negligible hypercholesterolemic eﬀect (Urgert et al.,
+1995; Urgert and Katan, 1997). Taking into considera-
+tion the occurrence of the diterpenes in various coﬀee
+brews indicates that except for boiled coﬀee, moderate
+coﬀee consumption is highly unlikely to alter blood
+cholesterol levels. In this context, the question remains
+as to whether safe levels of diterpene exposure through
+common coﬀee consumption may produce beneﬁcial
+health eﬀects.
+Available information on the eﬀects of C+K in vivo
+and in vitro may provide some preliminary answers to
+the above question. C+K doses required to induce
+eﬀects on xenobiotic metabolizing enzymes have been
+found to be similar in cell cultures of both rat and human
+origin. This suggests that diﬀerences in response to C+K
+between human and rat are most probably at the kinetic
+rather than dynamic level. There are presently no kinetic
+data available on C+K that would allow adequate
+comparisons between rats and humans. Since the
+hypercholesterolemic eﬀect has been well characterized
+in both rat and humans, such a parameter may serve as a
+marker of diterpene internal doses. In our studies
+investigating the biological eﬀects of C+K in the rat, a
+signiﬁcant increase in blood cholesterol was observed at
+the highest dose only (6200 ppm in the diet) (Fig. 7B).
+Importantly, eﬀects compatible with chemoprotection
+were usually observed at doses signiﬁcantly lower. This
+is illustrated by the GST Yc2 and Yp protein induction
+which was signiﬁcant at a dietary C+K of 460 ppm
+(Fig. 7A). In another rat study, hepatic induction of
+UDP-GT activity (50%) was observed at a level as low
+as 120 ppm of C+K (Huber et al., 2000). This treat-
+ment did not produce any hypercholesterolemia (W.W.
+Huber, personal communication). Assuming that the
+diﬀerence between the dose–response relationship for
+the hypercholesterolemic and the enzyme induction
+eﬀects may be similar in humans and rat, beneﬁcial
+eﬀects in humans might be expected at C+K levels that
+do not produce any increase in blood cholesterol.
+Fig. 6. Representative dose–response eﬀect of cafestol and kahweol
+(C+K) on the expression of heme oxygenase I (HO-I) (A) and heat
+shock protein 25 (HSP 25) (B) in rat primary hepatocytes. Primary rat
+hepatocyte cultures were prepared according to Cavin et al. (2001).
+Western blot analysis was performed using 25 mg of whole protein
+fractions from control or C+K (1–6 mg/ml)-treated hepatocytes for
+48 h.
+1160
+C. Cavin et al. / Food and Chemical Toxicology 40 (2002) 1155–1163
+
+5. Conclusion
+In animal models including hamster, rat and mouse,
+the coﬀee-speciﬁc diterpene cafestol and kahweol have
+been shown to produce biological eﬀects compatible
+with anticarcinogenic properties. They have been shown
+to occur in liver, kidney, lung and intestinal tissues. The
+use of several model carcinogens led to the identiﬁcation
+of several key mechanisms:
+ An induction of phase II enzymes involved in
+carcinogen detoxiﬁcation.
+ A reduction in the expression of phase I enzyme
+responsible for carcinogen activation.
+ A speciﬁc inhibition of the enzymatic activity of
+phase I enzyme responsible for carcinogen acti-
+vation.
+ A
+stimulation
+of
+intracellular
+antioxidant
+defense mechanisms.
+These eﬀects result in an inhibition of DNA damage
+induced by procarcinogens such as AFB1, B[a]P, PhIP
+and DMBA.
+The molecular mechanism of the C+K-mediated
+protein induction appears to involve the Nrf2 tran-
+scription factor through a regulation of ARE-driven
+gene expression. Such a mechanism is common to many
+cancer chemopreventive blocking agents.
+Available information indicates that the C+K eﬀects
+observed in animal models may be relevant for the
+human situation. Altogether, the data on the biological
+eﬀects of C+K provide a plausible hypothesis to
+explain some anticarcinogenic eﬀects of coﬀee observed
+in human epidemiological studies and in animal experi-
+ments.
+Acknowledgements
+The authors are grateful to Massimo Marchesini,
+Ire` ne Perrin, Gabriela Guignard, Dominique Piguet,
+Sylviane Junod and Claudine Bezencon for their excel-
+lent technical assistance.
+References
+Alam, J., Stewart, D., Touchard, C., Boinapally, S., Choi, A.M.K.,
+Cook, J.L., 1999. Nrf2, a cap’n’collar transcription factor regulates
+induction of the heme oxygenase-1 gene. Journal of Biological
+Chemistry 274, 26071–26078.
+Bertholet, R., 1987. Preparation of Cafestol. United States Patent No.
+4692534.
+Cavin, C., Holzha¨ user, D., Constable, A., Huggett, A.C., Schilter, B.,
+1998. The coﬀee-speciﬁc diterpenes cafestol and kahweol protect
+against aﬂatoxin B1-induced genotoxicity trough a dual mechanism.
+Carcinogenesis 19, 1369–1375.
+Cavin, C., Mace, K., Oﬀord, E.A., Schilter, B., 2001. Protective eﬀects
+of coﬀee diterpenes against aﬂatoxin B1-induced genotoxicity:
+Mechanisms in rat and human cells. Food and Chemical Toxicology
+39, 549–556.
+De Flora, S., Ramel, C., 1988. Mechanism of inhibitors of mutagen-
+esis and carcinogenesis. Classiﬁcation and overview. Mutation
+Research 202, 285–306.
+Ehrnsperger, M., Buchner, J., Gaestel, M., 1998. Structure and func-
+tion of small heat shock proteins. In: Fink, A.L., Goto, Y. (Eds.),
+Molecular Chaperones in the Life Cycle of Proteins. Marcel Dek-
+ker, New York, pp. 533–575.
+Fields, W.R., Li, Y., Townsend, A.J., 1994. Protection by transfected
+glutathione
+S-transferase
+isozymes
+against
+carcinogen-induced
+alkylation of cellular marcromolecules in human MCF-7 cells. Car-
+cinogenesis 15, 1155–1160.
+Forrester, L.M., Neal, G.E., Judath, D.J., Glancey, M.J., Wolf,
+C.R., 1990. Evidence for involvement of multiple forms of cyto-
+chrome P-450 in aﬂatoxin B1 metabolism in human liver. Pro-
+ceedings of the National Academy of Sciences of the U.S.A. 87,
+8306–8310.
+Gallagher, E.P., Kavanagh, T.J., Eaton, D.L., 1994. Glutathione,
+oxidized glutathione, and mixed disulﬁdes in biological samples.
+Methods in Toxicology 1B, 349–365. chapter 29.
+Gershbein, L.L., 1994. Action of dietary trypsin, pressed coﬀee oil,
+silymarin and iron salt on 1,2-dimethylhydrazine tumorigenesis by
+gavage. Anticancer Research 14, 1113–1116.
+Giovannucci, E., 1998. Meta-analysis of coﬀee consumption and risk of
+colorectal cancer. American Journal of Epidemiology 147, 1043–1052.
+Hammons, G.J., Fletcher, J.V., Stepps, K.R., Smith, E.A., Balentine,
+D.A., Harbowy, M.E., Kadlubar, F.F., 1999. Eﬀects of chemopro-
+tective agents on the metabolic activation of the carcinogenic aryla-
+mines
+PhIP
+and
+4-aminobiphenyl
+in
+human
+and
+rat
+liver
+microsomes. Nutrition and Cancer 33, 46–52.
+Fig. 7. Dose–response eﬀects of cafestol and kahweol (C+K) on the
+expression of hepatic detoxifying enzymes (GST Yp and Yc2) (A) and
+on plasma cholesterol levels (B) in rats. Cytosolic fractions from liver
+of rats fed either a control diet or diets containing C+K (92–6200
+ppm) for 28 days were assayed for the expression of GST Yp and GST
+Yc2 by western blot according to Schilter et al. (1996) (A) Total
+plasma cholesterol levels were analysed on a Cobas Mira apparatus
+(Roche), using an enzymatic assay (Choleste´ rol RTU kit, bioMe´ rieux).
+Cholesterol values represent the mean S.D. (n=10) (B). *Sig-
+niﬁcantly diﬀerent from controls (P<0.05) using the Student’s t-test.
+C. Cavin et al. / Food and Chemical Toxicology 40 (2002) 1155–1163
+1161
+
+Harris, C.C., 1991. Chemical and physical carcinogenesis: advances
+and perspectives for the 1990s. Cancer Research 51, 5023–5044.
+Hayes, J.D., Judah, D.J., McLellan, L.I., Kerr, L.A., Peacock, S.D.,
+Neal, G.E., 1991. Ethoxyquin-induced resistance to aﬂatoxin B1 in
+the rat is associated with the expression of a novel alpha-class glu-
+tathione S-transferase subunit, Yc2, which possesses high catalytic
+activity for aﬂatoxin B1–8,9-epoxide. Biochemical Journal 279, 385–
+398.
+Hayes, J.D., Ellis, E.M., Neal, G.E., Harrison, D.J., Manson, M.M.,
+1999. Cellular response to cancer chemopreventive agents: con-
+tribution of the antioxidant responsive element to the adaptive
+response to oxidative and chemical stress. In: Downes, C.P., Wolf,
+C.R., Lane, D.P. (Eds.), Cellular Responses to Stress. Biochemical
+Society Symposium 64. Portland Press, London, pp. 141–168.
+Huber, W.W., McDaniel, L.P., Kaderlik, K.R., Teitel, C.H., Lang,
+N.P., Kadlubar, F.F., 1997. Chemoprotection against the formation
+of colon DNA adducts from the food-borne carcinogen 2-amino-1-
+methyl-6-phenylimidazo[4,5]pyridine (PhIP) in the rat. Mutation
+Research 376, 115–122.
+Huber, W.W., Teiel, C.H., King, R.S., McDaniel, L.P., Wiese, R.,
+Harris, G.J., Mulder, F.F., Kadlubar, F.F., Schulte-Hermann, R.,
+1998. Modiﬁcation of the enzymes N-acetyltransferase and glu-
+tathione-S-transferase as a potential chemoprotective mechanism of
+the coﬀee components kahweol and cafestol in the rat. Naunyn-
+Schmiedeberg’s Archives of Pharmacology 357, R134.
+Huber, W.W., Prustomersky, S., Lang, H., Grasl-Kraupp, B., Wurzer,
+G., Scharf, G., Turesky, R.J., Schulte-Hermann, R., 2000. Chemo-
+protection by the coﬀee components kahweol and cafestol: potential
+mechanistic role of individual enzymes and organs. Naunyn-
+Schmiedeberg’s Archives of Pharmacology 361, R174.
+Inoue, M., Tajima, K., Hirose, K., 1998. Tea and coﬀee consumption
+and the risk of digestive tract cancers: data from a comparative
+case-referent study in Japan. Cancer Causes and Control 9, 209–
+216.
+Lam, L.K.T., Sparnins, V.L., Wattenberg, L.W., 1982. Isolation and
+identiﬁcation of kahweol and cafestol palmitate as active con-
+stituents of green coﬀee beans that enhance glutathione S-transfer-
+ase activity in the mouse. Cancer Research 42, 1193–1198.
+Langoue¨ t, S., Johnson, W.W., Guillouzo, A., Guengerich, F.P., 1998.
+Detoxication of aﬂatoxin B1 as a model for carcinogen metabolism.
+In Vitro and Molecular Toxicology 11, 95–101.
+Lin, D., Meyer, D.J., Ketterer, B., Lang, N.P., Kadlubar, F.F., 1994.
+Eﬀects of human and rat glutathione S-transferases on the covalent
+binding of N-acetoxy derivatives of heterocyclic amine carcinogens
+in vitro: a possible mechanism of organ speciﬁcity in their carcino-
+genesis. Cancer Research 54, 4920–4926.
+McMahon, M., Itoh, K., Yamamoto, M., Chanas, S.A., Henderson,
+C.J., McLellan, L.I., Wolf, C.R., Cavin, C., Hayes, J.D., 2001. The
+cap’n’collar basic leucine zipper transcription factor Nrf2 controls
+not only the basal expression of intestinal detoxiﬁcation and glu-
+tathione biosynthetic enzymes but also their induction by cancer
+chemopreventive agents. Cancer Research 61, 3299–3307.
+Miller, E.G., Formby, W.A., Rivera-Hidalgo, F., Wright, J.M., 1988.
+Inhibition of hamster buccal pouch carcinogenesis by green coﬀee
+beans. Oral Surgery 65, 745–749.
+Miller, E.G., McWhorter, K., Rivera-Hidalgo, F., Wright, J.M.,
+Hirsbrunner, P., Sunahara, G.I., 1991. Kahweol and cafestol: inhi-
+bitors of hamster buccal pouch carcinogenesis. Nutrition and Can-
+cer 15, 41–46.
+Miller, E.G., Gonzales-Sanders, A.P., Couvillon, A.M., Binnie, W.H.,
+Sunahara, G.I., Bertholet, R., 1993. Inhibition of oral carcinogen-
+esis by roasted beans and roasted coﬀee beans fractions. In: Asso-
+ciation Scientiﬁc International du cafe´ , 15th ASIC International
+Colloquium on Coﬀee, ASIC, Paris, France, pp. 420–425.
+Mulcahy, R.T., Wartman, M.A., Bailey, H.H., Gipp, J.J., 1997. Con-
+stitutive and b-naphthoﬂavone-induced expression of the human
+g-glutamylcysteine synthetase heavy subunit gene is regulated by a
+distal antioxidant response element/TRE sequence. Journal of Bio-
+logical Chemistry 272, 7445–7454.
+Nishi, M., Ohba, S., Hirata, K., Miyake, H., 1996. Dose–response
+relationship between coﬀee and the risk of pancreas cancer. Japa-
+nese Journal of Oncology 26, 42–48.
+Nishikawa, A., Tanaka, T., Mori, H., 1986. An inhibitory eﬀect of
+coﬀee on nitrosamine-hepatocarcinogenesis with aminopyrine and
+sodium nitrite in rats. Journal of Nutrition, Growth and Cancer 3,
+161–166.
+Prestera, T., Talalay, P., Alam, J., Ahn, Y.I., Lee, P.J., Choi, A.M.K.,
+1995. Parallel induction of heme oxygenase-1 and chemoprotective
+phase 2 enzymes by electrophiles and antioxidants: regulation by
+upstream antioxidant-responsive elements (ARE). Molecular Medi-
+cine 1, 827–837.
+Pulford, D.J., Hayes, J.D., 1996. Characterization of the rat glu-
+tathione S-transferase Yc2 subunit gene, GST A5: identiﬁcation of a
+putative antioxidant-responsive element in the 50-ﬂanking region of
+rat GSTA5 that may mediate chemoprotection against aﬂatoxin B1.
+Biochemical Journal 318, 75–84.
+Rothwell, K., 1974. Decreased inhibition of chemical carcinogenesis in
+mouse skin by caﬀeine. Nature 252, 69–70.
+Scharf, G., Prustomersky, S., Laky, B., Knasmu¨ ller, S., Turesky, R.J.,
+Schulte-Hermann, R., Huber, W.W., 2001. The eﬀect of the che-
+moprotective coﬀee components kahweol and cafestol on glu-
+tathione metabolism in vivo and in vitro. Proceedings of the COST-
+916 Conference ‘‘Bioactive Compounds in Plant Foods’’, Tenerife,
+Spain, 26–28 April, 2001.
+Schilter, B., Perrin, I., Cavin, C., Huggett, A.C., 1996. Placental glu-
+tathione S-transferase (GST-P) induction as a potential mechanism
+for the anti-carcinogenic eﬀect of the coﬀee-speciﬁc components
+cafestol and kahweol. Carcinogenesis 17, 2377–2384.
+Schilter, B., Cavin, C., Tritscher, A., Constable, A., 2001a. Coﬀee:
+health and safety considerations. In: Clarke, R.J., Vitzthum, O.G.
+(Eds.), Coﬀee: Recent Developments. Blackwell Science, London,
+pp. 165–183.
+Schilter, B., Holzhaeuser, D., Cavin, C., 2001b. Health beneﬁts of
+coﬀee. Proceedings of the 19th International Scientiﬁc Colloqium
+on Coﬀee. Trieste, 14–18 May 2001.
+Sreerama, L., Hedge, M.W., Sladek, N.E., 1995. Identiﬁcation of a
+class 3 aldehyde dehydrogenase in human saliva and increased levels
+of this enzyme, glutathione S-transferases, and DT-diaphorase in
+the saliva of subjects who continually ingest large quantitites of
+coﬀee or broccoli. Clinical Cancer Research 1, 1153–1163.
+Stadler, R.H., in press. The use of chemical markers and model studies
+to assess the in vitro pro- and antioxidative properties of methyl-
+xanthine-rich beverages. Food Reviews International.
+Stalder, R., Bexter, A., Wu¨ rzner, H.P., Luginbu¨ hl, H., 1990. A carci-
+nogenicity study of instant coﬀee in Swiss mice. Food and Chemical
+Toxicology 28, 829–837.
+Swedmark, S., Romert, L., Morgenstern, R., Jenssen, D., 1992. Stud-
+ies on glutathione transferases belonging to class pi in cell lines
+with diﬀerent capacities for conjugating (+)-70,80-dihydroxy-90,100-
+oxy-7,8,9,10-tetrahydrobenzo[a]pyrene. Carcinogenesis 13, 1719–
+1723.
+Thelle, D.S., Heyden, S., Fodor, J.G., 1987. Coﬀee and cholesterol in
+epidemiology and experimental studies. Artherosclerosis 67, 97–103.
+Urgert, R., Van der Weg, G., Kosmeijer-Schuil, T.G., Van Boven-
+kamp, P., Hovenier, R., Katan, M.B., 1995. Levels of the choles-
+terol-elevating diterpenes cafestol and kahweol in various coﬀee
+brews. Journal of Agricultural and Food Chemistry 43, 2167–2172.
+Urgert, R., Katan, M.B., 1997. The cholesterol-raising factor from
+coﬀee beans. Annual Review of Nutrition 17, 305–324.
+Venugopal, R., Jaiswal, A.K., 1996. Nrf1 and Nrf2 positively and
+c-fos and Fra1 negatively regulate the human antioxidant response
+element-mediated
+expression
+of
+NAD(P)H:
+quinone
+oxidor-
+eductase1 gene. Proceedings of the National Academy of Sciences of
+the USA 93, 14960–14965.
+1162
+C. Cavin et al. / Food and Chemical Toxicology 40 (2002) 1155–1163
+
+Wattenberg, L.W., 1983. Inhibition of neoplasia by minor dietary
+constituents. Cancer Research 43, 2448–2453.
+Wattenberg,
+L.W.,
+1985.
+Chemoprevention
+of
+cancer.
+Cancer
+Research 45, 1–8.
+Wattenberg,
+L.W.,
+Hanley,
+A.B.,
+Barany,
+G.,
+Sparnins,
+V.L.,
+Fenwick, G.R., 1986. Inhibition of carcinogenesis by some minor
+dietary constituents. In: Hayashi, Y. (Ed.), Diet, Nutrition and
+Cancer. Japan Science Society Press, Tokyo, pp. 193–203.
+Weusten-Van der Wouw, M.P., Katan, M., Viani, R., Huggett, A.C.,
+Liardon, R., Lund-Larsen, P.G., Thelle, D.S., Ahola, I., Aro, A.,
+Meyboon, S., Beynen, A.C., 1994. Identity of the cholesterol-raising
+factor from boiled coﬀee and its eﬀect on liver function enzymes.
+Journal of Lipid Research 35, 721–733.
+Wrighton, S.A., Schuetz, E.G., Watkins, P.B., Maurel, P., Barwick, J.,
+Bailey,
+B.S.,
+Hartle,
+H.T.,
+Young,
+B.,
+Guzelian,
+P.,
+1985.
+Demonstration in multiple species of inducible hepatic cyto-
+chromes P-450 and their mRNAs related to the glucocorticoid-
+inducible cytochrome P-450 of the rat. Molecular Pharmacology
+28, 312–321.
+Wu¨ rzner, H.P., Lindstrom, E., Vuataz, L., Luginbuhl, H., 1977. A 2-
+year feeding study of instant coﬀees in rats. II. Incidence and types
+of neoplasms. Food and Cosmetics Toxicology 15, 289–296.
+C. Cavin et al. / Food and Chemical Toxicology 40 (2002) 1155–1163
+1163

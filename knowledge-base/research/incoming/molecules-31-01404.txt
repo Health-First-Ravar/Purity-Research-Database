@@ -1,0 +1,1591 @@
+Academic Editors: Michael G.
+Kontominas, Adele Papetti, Sylwia
+Mildner-Szkudlarz and Maria Barbara
+Ró˙za´nska
+Received: 16 February 2026
+Revised: 30 March 2026
+Accepted: 18 April 2026
+Published: 23 April 2026
+Copyright: © 2026 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and
+conditions of the Creative Commons
+Attribution (CC BY) license.
+Review
+Bioactive Compounds in Coffee: Metabolism, Bioavailability
+and Health Effects—A Review
+Hajnal Finta 1
+, Sándor Pál 2,*
+, Margit Solymár 2, Zsuzsanna Faust 2, Marius-Călin Chereches, 3
+, Florina Rut,a 4
+,
+Daniela-Edith Ceană 1
+, Corneliu-Florin Buicu 1
+and Enik˝o Nemes-Nagy 5
+1
+Department of Public Health and Health Management, George Emil Palade University of Medicine, Pharmacy,
+Science and Technology of Targu Mures, 540142 Targu Mures, Romania; hajnal.finta@umfst.ro (H.F.)
+2
+Department of Laboratory Medicine, University of Pécs, H-7633 Pécs, Hungary;
+margit.solymar@aok.pte.hu (M.S.); faust.zsuzsanna@pte.hu (Z.F.)
+3
+Department of Drug Industry and Pharmaceutical Management, George Emil Palade University of Medicine,
+Pharmacy, Science and Technology of Targu Mures, 540142 Targu Mures, Romania;
+marius.chereches@umfst.ro
+4
+Department of Community Nutrition and Food Safety, George Emil Palade University of Medicine, Pharmacy,
+Science and Technology of Targu Mures, 540142 Targu Mures, Romania
+5
+Department of Chemistry and Medical Biochemistry, George Emil Palade University of Medicine, Pharmacy,
+Science and Technology of Targu Mures, 540142 Targu Mures, Romania; eniko.nemes-nagy@umfst.ro
+*
+Correspondence: pal.sandor@pte.hu
+Abstract
+Coffee is a very popular psychoactive beverage with a complex composition. Besides its
+stimulant effect due to caffeine, it contains several bioactive compounds with antioxidant
+properties and potent metabolic activity. Its clinical efficacy is fundamentally determined by
+the bioavailability and metabolic fate of its constituents. The bioactive components of coffee,
+such as polyphenols, melanoidins, phytosterols, biogenic amines, and carotenoids, have
+notable antioxidant, anti-inflammatory, and immunomodulatory effects. This review aims
+to present the main bioactive components of coffee, their biological effects, mechanisms of
+action, and the influence of preparation methods and individual variability on metabolic
+outcomes in common chronic diseases. The data are synthesized from clinical, prospective,
+and interventional studies to examine how processing variables and biological metabolism
+influence the health-promoting potential of coffee antioxidants. Brewing methods like
+hot filtration optimize the extraction of these antioxidants. Individual clinical outcomes
+are further modulated by genetic polymorphisms and gut microbiota variability, which
+influence the activation of the cellular Nrf2 antioxidant defense pathway.
+Keywords: chlorogenic acids; coffee antioxidants; bioactive compounds; bioavailability;
+cardio-metabolic protection; coffee roasting; gut microbiota; melanoidins; metabolism;
+Nrf2 pathway
+1. Introduction
+Coffee is the most widely consumed beverage globally after water, with significant
+cultural and dietary relevance in both developed and developing countries [1,2]. Its
+popularity is driven not only by its stimulant effects, primarily due to caffeine, but also
+by its complex chemical composition (Figure 1), which includes a wide array of bioactive
+compounds such as polyphenols, alkaloids, diterpenes, and melanoidins [1,3,4].
+Molecules 2026, 31, 1404
+https://doi.org/10.3390/molecules31091404
+
+Molecules 2026, 31, 1404
+2 of 25
+ 
+Figure 1. Non-caffeine bioactive substances of coffee, their absorption and biological effects.
+Oxidative stress is defined as the imbalance between the production of reactive oxygen
+species (ROS) and the body’s antioxidant defenses, leading to cellular and molecular
+damage. This process is implicated in the pathogenesis of chronic diseases, including
+aging, inflammation, cardiovascular disease, diabetes mellitus, neurodegeneration, and
+carcinogenesis [5,6].
+Dietary antioxidants play a crucial role in counteracting oxidative stress. Coffee is a
+major source of dietary antioxidants in the Western diet, particularly phenolic compounds
+such as chlorogenic acids, caffeic acid, and melanoidins, which contribute to its antioxidant
+capacity [7–10]. The chemical composition of coffee antioxidants is influenced by bean
+origin, agricultural practices, and especially by processing methods such as roasting. Roast-
+ing alters the levels of chlorogenic acids and generates melanoidins, which have distinct
+antioxidant and anti-inflammatory properties [9–11]. The water used in brewing is not
+just a passive medium; the minerals dissolved in the water, which differ depending on the
+source [12], affect how aromatic and soluble compounds are extracted from the beans [13].
+In vitro and in vivo studies demonstrate that regular coffee consumption is associated
+with increased glutathione levels, improved protection against DNA (deoxyribonucleic
+acid) damage, and reduced biomarkers of oxidative stress and inflammation [11,14,15]. Epi-
+demiological data consistently show that moderate coffee intake (typically 3–5 cups/day) is
+associated with reduced risk of cardiovascular disease, type 2 diabetes, neurodegenerative
+disorders, and certain types of cancer [1,2,16–18]. Both caffeinated and decaffeinated coffee
+confer benefits, though the addition of sugar and cream may attenuate these effects [2].
+Safety limitations include potential adverse effects with excessive intake, such as anxiety,
+sleep disturbances, and increased risk in pregnancy (limit caffeine to <200 mg/day) [2,17,19].
+Some compounds formed during roasting (e.g., acrylamide) are potentially harmful,
+but current evidence supports the safety of moderate coffee consumption for most
+adults [1,3,17,19].
+https://doi.org/10.3390/molecules31091404
+
+Molecules 2026, 31, 1404
+3 of 25
+This review aims to provide a comprehensive overview of the main bioactive compo-
+nents of coffee, their biological effects, bioavailability, mechanisms of action, synergistic
+interactions, and the influence of preparation methods on the profile of active compounds.
+It also aims to analyze the metabolic effects of coffee consumption in common chronic
+diseases. Evidence is integrated across multiple levels of investigation, including mech-
+anistic studies, absorption, distribution, metabolism, and excretion (ADME) processes,
+animal models, human clinical interventions, and epidemiological analyses. Mechanistic
+and experimental findings elucidate molecular pathways and metabolic transformations,
+while human and population studies contextualize these mechanisms within the frame-
+work of physiological bioavailability and long-term health outcomes, providing a holistic
+understanding of the metabolic fate and functional effects of antioxidants in coffee.
+Literature Search Strategy
+A structured literature search was performed in PubMed, Scopus, and Web of Science
+using combinations of keywords, including coffee antioxidants, chlorogenic acids, caffeine,
+trigonelline, melanoidins, oxidative stress, Nrf2 pathway, coffee metabolism, cardiovas-
+cular disease, type 2 diabetes, neuroprotection, preparation methods, roast degree, and
+bioavailability. Studies were included if they investigated coffee composition or antioxidant
+properties, assessed biological or clinical effects of coffee consumption, examined mecha-
+nisms of action or processing effects, and were human clinical, observational, experimental,
+or systematic reviews published in English-language peer-reviewed journals. Studies
+focusing on caffeine sources other than coffee, lacking methodological transparency, or
+lacking translational relevance were excluded. Titles and abstracts were screened for rele-
+vance, followed by full-text appraisal. Due to the heterogeneity of study designs, analytical
+methods, preparation techniques, and outcome measures, the results were synthesized
+narratively. The evidence was organized by thematic areas, including antioxidant classes,
+processing effects, bioavailability and metabolism, cellular mechanisms, metabolic and
+cardiovascular outcomes, neuroprotection, and individual variability. The initial search
+identified approximately 200 studies published between January 2020 and December 2025,
+supplemented by prior reference research, with 159 studies included in the final synthesis.
+2. Major Antioxidants in Coffee
+Coffee is a complex matrix of bioactive compounds with significant antioxidant proper-
+ties. The major classes of antioxidants include chlorogenic acids (CGAs), alkaloids (caffeine
+and trigonelline), melanoidins formed during roasting, and lipid-soluble compounds such
+as tocopherols and diterpenes [20–24]. The concentration of these compounds differs be-
+tween the coffee bean and a brewed cup, as extraction efficiency, roast degree, and brewing
+method strongly influence the final content. These compounds differ in concentration,
+mechanisms of action, and clinical/translational evidence supporting their biological effects
+(Table 1, Figure 2) [25].
+Figure 2. Major Coffee Antioxidants.
+https://doi.org/10.3390/molecules31091404
+
+Molecules 2026, 31, 1404
+4 of 25
+2.1. Chlorogenic Acids (CGAs)
+Chlorogenic acids, particularly 5-O-caffeoylquinic acid (5-CQA), are the most abun-
+dant phenolic antioxidants in coffee. In addition to 5-CQA, feruloylquinic and dicaf-
+feoylquinic acids have been identified as modulators of oxidative stress, particularly at
+the mitochondrial level, and as inhibitors of endothelial inflammation. In green coffee
+beans, CGA content is typically 5–12% of dry weight, whereas brewed coffee contains
+approximately 70–350 mg/100 mL depending on preparation parameters. The concentra-
+tions of CGAs in brewed coffee typically range from approximately 70 to 350 mg/100 mL,
+with effects that are dose-dependent on markers such as malondialdehyde and protein
+carbonyls [26]. Recent meta-analyses of randomized, placebo-controlled trials have demon-
+strated a 15–20% reduction in HOMA-IR (homeostatic model assessment of insulin resis-
+tance) among individuals consuming higher CGA doses compared to controls. Mecha-
+nistically, CGAs exhibit potent radical scavenging activity, inhibit xanthine oxidase, and
+activate nuclear factor erythroid 2-related factor 2 (Nrf2)-dependent cellular defense path-
+ways, with 5-CQA showing higher activity compared to other CGAs in both polar and
+lipid environments (Table 1), [20–22]. However, many clinical studies are short term, and
+optimal dosing for metabolic prevention has yet to reach consensus.
+2.2. Caffeine and Trigonelline
+Caffeine is a major alkaloid in coffee with well-established neuroprotective, anti-
+inflammatory, and metabolic effects. Recent preclinical evidence (2021–2025) shows that
+caffeine reduces β-amyloid accumulation and protects microglia in animal models, sup-
+porting epidemiologic findings of inverse associations with neurodegenerative disease and
+type 2 diabetes risk [1,27,28]. Caffeine content ranges from 1 to 2% in green coffee beans
+and 40 to 120 mg per 100 mL in brewed coffee, depending on the brewing method [29].
+Trigonelline, also present in considerable amounts, has been shown to modulate an-
+tioxidant gene expression, including Nrf2 and heme oxygenase-1 (HO-1), in vivo, comple-
+menting earlier in vitro data. Although human clinical evidence is still limited, traditional
+dietary exposure suggests a favorable safety profile (Table 1), [27,30]. Limitations include
+substantial inter-study variability in dosing and preparation methods, and incomplete
+characterization of bioavailability in humans.
+2.3. Melanoidins
+Melanoidins are high-molecular-weight brown polymers formed during the Maillard
+reaction in coffee roasting. They contribute significantly to coffee’s overall antioxidant
+capacity through radical scavenging and α-dicarbonyl trapping and have recently been
+shown to possess prebiotic activity, stimulating short-chain fatty acid production in the
+colon. Ex vivo assays have quantified α-dicarbonyl trapping with IC50 values between 50
+and 120 µg/mL, comparable to or exceeding those of green tea polyphenols. Melanoidins
+are absent in green coffee beans and are generated during roasting; their concentration
+in brewed coffee is highly dependent on roast degree and brewing method, with darker
+roasts yielding higher melanoidin levels [31]. However, most evidence is derived from
+in vitro or ex vivo studies, and in vivo bioavailability in humans remains poorly defined
+(Table 1), [3,32–34].
+2.4. Lipid Fraction: Tocopherols, Cafestol, and Kahweol
+Coffee’s lipid fraction contains tocopherols (vitamin E) and the diterpenes cafestol
+and kahweol. Tocopherols contribute modestly to antioxidant capacity but have shown
+synergistic inhibition of lipoperoxidation when combined with CGAs. Cafestol and kah-
+weol exhibit cellular antioxidant effects in mechanistic studies; however, randomized
+https://doi.org/10.3390/molecules31091404
+
+Molecules 2026, 31, 1404
+5 of 25
+controlled trials have demonstrated that unfiltered coffee rich in these diterpenes raises
+LDL cholesterol and liver enzyme levels in a dose-dependent manner, with increases of
+approximately 10–25% reported. Filtered coffee substantially reduces exposure to these
+compounds, mitigating hyperlipidemic effects [35–37]. Tocopherols and diterpenes are
+present in both green beans and roasted coffee, but their extractable concentrations in a
+brewed cup depend strongly on filtration and brewing conditions [38].
+Table 1. Major antioxidants in coffee.
+Compound Class
+Typical
+Concentration in
+Brewed Coffee
+mg/100 mL
+Mechanisms of
+Action
+Clinical/Translational
+Evidence
+Limitations
+Caffeine [1,27,30]
+~1–2% of green bean
+mass
+Adenosine receptor
+antagonism;
+mitochondrial
+modulation;
+anti-inflammatory
+effects
+Epidemiologic
+associations with
+reduced
+neurodegenerative
+and T2D risk
+Dose-dependent
+effects; heterogeneity
+in studies
+Melanoidins
+[3,32,34].
+Varies with roast
+level
+Carbonyl trapping;
+prebiotic modulation
+(SCFA)
+Ex vivo radical and
+carbonyl trapping
+In vivo
+bioavailability
+unclear
+Chlorogenic acids
+(CGAs)– 5-CQA,
+3-,4-diCQA [20–22]
+~70–350
+Free radical
+scavenging; metal
+chelation; xanthine
+oxidase inhibition;
+Nrf2 activation
+RCTs show
+improved insulin
+sensitivity and
+reduced oxidative
+markers
+Short term;
+inconsistent dose
+definitions
+Trigonelline [27,30].
+~0.8–1.05% in green
+beans
+Modulates
+antioxidant gene
+expression (Nrf2,
+HO-1)
+In vivo preclinical
+evidence; limited
+human data
+Few RCTs in
+humans; variable
+preparation impact
+Tocopherols
+(vitamin E) [35–37]
+Modest amounts
+Radical scavenging;
+cell membrane
+protection
+Limited specific
+clinical evidence in
+coffee context
+Contribution small;
+varies by roast
+Cafestol and
+Kahweol [35,37]
+Present mainly in
+unfiltered coffee
+Cellular antioxidant
+actions; modulate
+phase II enzymes
+RCTs show LDL
+increases; some
+chemopreventive
+signals
+Adverse lipid effects
+offset antioxidant
+benefits
+2.5. Comparative Contribution of Coffee Antioxidants: Direct vs. Indirect Activity
+Coffee’s antioxidant profile reflects a dynamic balance between direct chemical scav-
+enging and indirect cytoprotective mechanisms. CGAs are present at high concentrations
+in green and lightly roasted beans (~5–12% dry weight) and are partially extracted during
+brewing (~70–350 mg/100 mL depending on method), while melanoidins are absent in
+green beans and are generated during roasting, contributing primarily to indirect antiox-
+idant effects in brewed coffee. Caffeine and trigonelline are present in both beans and
+brewed coffee, with extraction efficiency influencing their final concentrations. CGAs are
+the predominant contributors to radical scavenging in light-roasted coffee, acting through
+hydrogen donation and metal chelation. Melanoidins, formed during roasting, function pri-
+marily through carbonyl trapping and modulation of gut microbiota, representing indirect
+antioxidant mechanisms. Caffeine exerts comparatively weak direct radical scavenging but
+has significant receptor-mediated effects that influence inflammation and mitochondrial
+https://doi.org/10.3390/molecules31091404
+
+Molecules 2026, 31, 1404
+6 of 25
+function. Importantly, in vivo antioxidant efficacy does not correlate directly with in vitro
+scavenging assays, as circulating metabolites, tissue distribution, and signaling pathways
+determine biological outcomes [29,39,40].
+2.6. Integrated Perspectives
+The interactions between coffee’s bioactive constituents may produce synergistic
+or antagonistic effects that explain heterogeneity in epidemiological findings. The con-
+centrations of these compounds differ between green beans, roasted beans, and brewed
+coffee, influencing both their direct and indirect biological activities. CGAs and alkaloids
+are partially extracted during brewing, while melanoidins are generated during roasting
+and are present primarily in the prepared beverage. These variations determine the ex-
+posure of human tissues to bioactive compounds and circulating metabolites, affecting
+the measured oxidative and inflammatory biomarkers [39,41]. Recent studies employing
+omics approaches (metabolomics, lipidomics) have linked coffee consumption to specific
+oxidative and inflammatory biomarkers, advancing our understanding of mechanistic
+pathways [14] (Table 2).
+Table 2. Approximate antioxidant retention across coffee roast degrees and brewing methods.
+Roast/Brew
+% CGA Retained
+Total Antioxidant
+Capacity (FRAP/ORAC)
+Notes
+Green
+100%
+100%
+Maximizes CGA; no melanoidins
+Light roast
+70–90%
+90–95%
+CGA + initial melanoidins
+Medium roast
+50–70%
+85–90%
+CGA + increasing melanoidins
+Dark roast
+<40%
+70–80%
+CGA low; melanoidins high
+Espresso
+60–80%
+90–95%
+High antioxidant and phenolic extraction
+Filtered (hot)
+50–70%
+85–90%
+Reduces diterpenes; preserves antioxidants
+Cold brew
+30–50%
+70–80%
+Lower CGA; higher caffeine; lipid
+extraction depends on steeping
+3. Impact of Processing and Brewing
+The antioxidant profile of coffee is shaped by the interplay of roasting and brewing,
+with light-to-medium roasts and hot, pressure-based brewing methods maximizing the
+concentration and extractable activity of antioxidant compounds in the prepared beverage,
+while the physiological bioavailability of these compounds depends on absorption and
+metabolism in the human body. Quantitative differences in antioxidant content exist
+depending on roast degree and extraction methods (Table 2).
+3.1. Roasting Degree
+Green coffee beans contain the highest levels of chlorogenic acids (CGAs), particularly
+caffeoylquinic acids, which are heat-labile and undergo significant degradation during
+roasting. Recent studies confirm that the roasting process does not only cause the degrada-
+tion of bioactive compounds, but also generates a dynamic balance between their loss and
+neoformation. Thus, the content of chlorogenic acid, the main antioxidant in raw beans,
+decreases progressively during roasting, from approximately 34.18 mg/g to 2.58 mg/g after
+intense roasting at 220 ◦C, while the concentrations of some derivative compounds, such as
+gallic acid and caffeic acid, as well as the products of the Maillard reaction (melanoidins
+with antioxidant activity), increase concomitantly [42]. Melanoidins contribute substan-
+tially to the antioxidant activity of roasted coffee, especially at darker roast levels, although
+their formation does not fully compensate for the loss of CGAs in terms of total antioxidant
+capacity [43–46]. Additionally, the structure and molecular weight of melanoidins influ-
+ence their bioaccessibility and interaction with metal ions, which may modulate oxidative
+https://doi.org/10.3390/molecules31091404
+
+Molecules 2026, 31, 1404
+7 of 25
+processes in vivo. Recent studies suggest that the balance between CGA degradation and
+melanoidin formation determines the net antioxidant potential, and this dynamic is also
+affected by factors such as bean origin, roasting profile, and brewing method. Moreover,
+CGA-derived metabolites and melanoidins may act synergistically, contributing to both
+direct radical scavenging and modulation of endogeno us antioxidant pathways [34].
+Recent analyses performed using Liquid Chromatography–Mass Spectrometry (LC-
+MS) techniques show that the degree of roasting significantly influences the phenolic
+profile, with light roasting being associated with a maximum content of phenolic com-
+pounds, medium roasting offering an optimal balance between bioactivity and sensory
+characteristics, and intense roasting causing a pronounced degradation of phenolic com-
+pounds [47]. Light and medium roasts generally preserve more CGAs and exhibit higher
+antioxidant capacity compared to dark roasts. Multiple assays, including FRAP (Ferric
+Reducing Antioxidant Power) and ORAC (Oxygen Radical Absorbance Capacity), consis-
+tently show that antioxidant activity peaks at light-to-medium roast degrees and declines
+with further roasting due to progressive CGA degradation. The contribution of melanoidins
+to antioxidant capacity increases with roast degree, but the overall antioxidant potential is
+highest when both CGAs and melanoidins are present in significant amounts, as seen in
+light and medium roasts [9,45–52]. Furthermore, the synergistic interactions between resid-
+ual CGAs and melanoidins may enhance radical scavenging efficiency, while differences in
+molecular size and solubility of melanoidins influence their bioaccessibility and functional
+activity in vivo. Roasting-induced structural changes in CGAs and melanoidins may also
+modulate their capacity to chelate transition metals and affect redox signaling pathways,
+contributing to differential antioxidant outcomes depending on roast profile. These results
+support the current perspective according to which roasting does not simply reduce the
+antioxidant potential, but remodels the phenolic profile of the final product [42]. Although
+excessive or uncontrolled frying can favor the formation of compounds with toxicological
+potential, such as acrylamide, polycyclic aromatic hydrocarbons and advanced glycation
+end products, common commercial practices generally maintain their levels within limits
+considered safe, and recent data show that acrylamide reaches maximum concentrations
+in the early stages of frying and subsequently decreases through thermal degradation,
+while antioxidant activity is relatively preserved due to the concomitant formation of
+new bioactive compounds, supporting the current concept according to which the frying
+process simultaneously generates both potentially harmful molecules and molecules with a
+protective effect, the final proportion available for physiological activity being further influ-
+enced by the preparation method and extraction parameters [49–53]. Recent data indicate a
+differential sensitivity of bioactive compounds to the roasting process, with caffeine being
+relatively thermally stable, chlorogenic acids showing increased sensitivity to temperature,
+while flavonoids undergo changes dependent on the degree of roasting [54].
+3.2. Brewing Methods
+The latest randomized controlled trials and meta-analyses demonstrated that brewing
+methods significantly influence the clinical outcomes of coffee consumption by altering
+the levels and bioavailability of key antioxidants. Hot brewing methods (e.g., espresso,
+hand-filtered, and fully automated machine brews) consistently yield higher concentrations
+of chlorogenic acids, total phenolics and melanoidins, which are associated with improved
+endothelial function and reduced cardiovascular risk, as evidenced by significant increases
+in flow-mediated vasodilation (FMD) in both acute and longer-term studies [55–57]. The
+efficiency of antioxidant extraction is influenced not only by temperature and pressure
+but also by particle size, brew ratio, and contact time, highlighting the multifactorial
+nature of bioactive compound availability in vivo. Cold brew methods generally extract
+https://doi.org/10.3390/molecules31091404
+
+Molecules 2026, 31, 1404
+8 of 25
+less chlorogenic acid and melanoidins but may yield higher caffeine content, depending
+on steeping time and temperature [58–60]. Interestingly, prolonged cold steeping may
+also lead to selective enrichment of minor phenolic metabolites, potentially modulating
+neuroprotective and anti-inflammatory effects (Table 2).
+Unfiltered brewing methods (e.g., French press, Turkish, Scandinavian boiled cof-
+fee) result in higher levels of cafestol and kahweol, which are linked to increased LDL
+(low density lipoprotein) cholesterol and should be avoided in individuals at risk for
+hyperlipidemia or cardiovascular disease [46]. Filtered methods (e.g., paper filter, V60)
+effectively reduce diterpene content, mitigating this risk while preserving antioxidant bene-
+fits [56,61–70] (Table 3). Moreover, filtration may influence the matrix interactions between
+melanoidins, CGAs, and other phenolics, thereby affecting both absorption kinetics and
+systemic bioactivity
+Table 3. Impact of brewing methods on coffee bioactive compounds and LDL-associated effects [58–66].
+Brewing
+Method
+Extraction
+Temp (◦C)
+Extraction
+Time
+CGAs
+(mg/100 mL)
+Caffeine
+(mg/100 mL)
+Trigonelline
+(mg/100 mL)
+Melanoidins
+(mg/100 mL)
+Tocopherols
+(mg/100 mL)
+Cafestol/Kahweol
+(mg/100 mL)
+Clinical Impact
+(LDL/Other)
+Espresso
+90–95
+20–30 s
+60–80
+90–120
+30–50
+50–100
+0.1–0.3
+0.5–1.0/0.3–0.6
+High antioxidant;
+moderate
+diterpene
+Filtered
+(Paper)
+90–96
+3–5 min
+50–70
+80–100
+25–45
+40–80
+0.1–0.2
+0.1–0.3/0.05–0.2
+Preserves
+antioxidants; low
+LDL risk
+French
+Press (Un-
+filtered)
+90–96
+4–5 min
+50–70
+80–110
+25–45
+40–90
+0.1–0.3
+1.0–2.5/0.5–1.5
+Higher LDL
+association
+Cold Brew
+(Steep)
+20–25
+12–24 h
+30–50
+100–140
+20–35
+20–50
+0.05–0.1
+0.05–0.1/0.02–
+0.05
+Lower
+antioxidant;
+variable
+diterpene
+Neuroprotective effects are primarily attributed to caffeine, chlorogenic acids, and
+trigonelline, with evidence supporting reduced risk of neurodegenerative diseases and
+stroke across brewing methods, though the magnitude of effect may be greater with meth-
+ods that maximize extraction of these compounds [27,56,60]. The highest antioxidant and
+phenolic content is typically observed in espresso and machine-brewed coffee, while cold
+brew and percolation-based cold maceration can enhance lipid and trigonelline extrac-
+tion [56,57,60].
+Hot, filtered brewing methods optimize cardiovascular and metabolic benefits by
+maximizing antioxidant extraction and minimizing diterpene intake, while cold brew
+and unfiltered methods may increase caffeine and diterpene exposure, respectively, with
+implications for individual risk profiles [55–57,60,61].
+4. Bioavailability, Metabolism and Cellular Mechanisms
+The comparative efficacy and bioavailability of major coffee antioxidants in humans
+are determined by their chemical structure, absorption kinetics, metabolism, and tissue
+distribution, which in turn influence clinical outcomes. These effects are further modulated
+by individual genetic polymorphisms in metabolizing enzymes, diet, and gut microbiota
+composition, highlighting the inter-individual variability in clinical responses.
+4.1. Absorption and Metabolism
+Chlorogenic acids undergo biphasic absorption and extensive metabolism in the hu-
+man gastrointestinal (GI) tract. Only a small fraction (approximately 33%) of intact CGAs is
+absorbed in the small intestine, with the majority reaching the colon where gut microbiota
+plays a crucial role in their transformation [36,43,51,71–74]. Recent metabolomics studies
+have quantified more than 40 distinct colonic CGA metabolites, emphasizing the complex
+biotransformation network and potential bioactive diversity in systemic circulation [75]. In
+https://doi.org/10.3390/molecules31091404
+
+Molecules 2026, 31, 1404
+9 of 25
+the stomach and small intestine, CGAs are partially hydrolyzed by esterases to release caf-
+feic, feruloyl, and quinic acids, which are then absorbed and undergo phase II metabolism
+(sulfation, glucuronidation, methylation) to form circulating conjugates [60,71,72]. These
+metabolites exhibit antioxidant and anti-inflammatory effects, with clinical trials show-
+ing acute improvements in plasma antioxidant capacity and endothelial function after
+CGA-rich coffee consumption [43,72,76–79].
+Colonic metabolism by gut microbiota is the predominant pathway for CGA biotrans-
+formation. The gut microbiota rapidly degrades CGAs (within 1–6 h) through a series of
+enzymatic reactions, including ester hydrolysis, reduction in the aliphatic double bond,
+dehydroxylation, and ring fission [80–82]. The major bioavailable metabolites produced by
+colonic bacteria include dihydrocaffeic acid, dihydroferulic acid, and 3-(3′-hydroxyphenyl)
+propionic acid, which comprise 75–83% of total catabolites and are efficiently absorbed
+into systemic circulation [81–83]. These colonic metabolites exhibit delayed kinetics (peak
+at 8–12 h post-consumption) and represent the most abundant group of coffee phenolic
+metabolites in plasma and urine [84,85]. These delayed metabolites may exert prolonged bi-
+ological activity, including modulation of endothelial function and gut-liver axis signaling,
+which could contribute to long-term health benefits.
+Caffeine is rapidly and almost completely absorbed, with peak plasma levels within
+15–120 min and a half-life of 2.5–4.5 h in adults. It distributes widely, crosses the blood–
+brain barrier, and is metabolized by hepatic CYP1A2 to paraxanthine, theobromine, and
+theophylline, which also possess antioxidant properties [1,86]. Trigonelline is absorbed
+early and persists in plasma with a half-life of ~5 h. It is metabolized to nicotinic acid
+and other derivatives, contributing to antioxidant and neuroprotective effects [84–87].
+Melanoidins are poorly absorbed in the upper GI tract but reach the colon, where they are
+fermented by gut microbiota, releasing phenolic compounds and short-chain fatty acids
+(SCFAs) [88–92]. SCFAs produced during fermentation also act as signaling molecules that
+regulate inflammation and gut barrier integrity, linking coffee intake to systemic metabolic
+effects [93,94]. Recent studies indicate that phenolic compounds in roasted coffee remain
+bioaccessible after digestion and can modulate the gut microbiota by stimulating SCFA
+production, and in vitro and in vivo analyses show that light to medium roasting degrees
+are associated with increased hepatic antioxidant enzyme activity and reduced expression
+of proinflammatory markers, while intense roasting diminishes these beneficial biological
+effects [47,51].
+4.2. Cellular Mechanisms—The Nrf2 Pathway
+Beyond direct radical scavenging, coffee components activate the pathway, the mas-
+ter regulator of cellular antioxidant responses. Activation of Nrf2 by coffee components
+also upregulates cytoprotective genes involved in phase III transport and mitochondrial
+function, which may synergize with direct antioxidant effects [95]. Chlorogenic acids,
+N-methylpyridinium (a roasting product), and other coffee phenolics induce Nrf2 nu-
+clear translocation and activate antioxidant response element (ARE)-dependent gene ex-
+pression, leading to upregulation of endogenous antioxidant and phase II detoxification
+enzymes [7,93,94].
+Animal and human studies demonstrate that coffee consumption significantly in-
+creases the activity of key antioxidant enzymes: superoxide dismutase (SOD) by 74.8%,
+catalase (CAT) by 59.4%, and glutathione peroxidase (GPx) by 135.2%, along with increased
+Nrf2 levels (131.3%) and total antioxidant capacity (25.1%) [96,97]. These effects occur
+both acutely and chronically, with dose-dependent responses and long-lasting protection
+against oxidative stress [15,98,99]. Furthermore, modulation of Nrf2 signaling by coffee
+has been associated with anti-inflammatory gene expression and improved mitochondrial
+https://doi.org/10.3390/molecules31091404
+
+Molecules 2026, 31, 1404
+10 of 25
+biogenesis in preclinical models, indicating a broader cytoprotective role beyond classical
+antioxidant defense [7].
+5. Individual Variability and Synergistic Interactions
+5.1. Genetics and Microbiota Variability
+Individual variability in gut microbiota composition and genetic polymorphisms, such
+as Nrf2 and phase II enzyme variants, substantially influence the bioavailability and clinical
+efficacy of coffee antioxidants [100]. The gut microbiota is the primary driver of inter- and
+intra-individual differences in the metabolism of coffee-derived phenolics [101]. Genetic
+polymorphisms in the Nrf2 (NFE2L2) gene, particularly promoter SNPs (Single Nucletide
+Polymorphisms) such as -617C/A, are associated with reduced basal and inducible Nrf2
+transcriptional activity. However, coffee consumption can still induce Nrf2 gene transcrip-
+tion even in SNP carriers, though the magnitude of response is genotype-dependent [102].
+Similarly, null genotypes in phase II enzymes (e.g., GSTT1) modulate the induction of
+detoxification pathways by coffee [93]. Moreover, epistatic interactions between Nrf2 vari-
+ants and phase II enzyme polymorphisms may further influence individual responsiveness
+to coffee-derived antioxidants, highlighting the complex gene–nutrient interplay [103].
+Targeted modulation of gut microbiota through probiotics (e.g., Lactobacillus plan-
+tarum, Bifidobacterium longum) and prebiotics (e.g., inulin-type fructans) can enhance the
+bioavailability and efficacy of coffee antioxidants by improving the production of bioactive
+colonic metabolites [49,73,74,80–83,87], given the presence of dysbiosis in a large number
+of individuals [104–107]. This microbial enhancement is particularly relevant for individ-
+uals with Nrf2 polymorphisms, as increased metabolite production can compensate for
+reduced genetic capacity to activate antioxidant pathways [103]. Additionally, synergistic
+interactions between coffee metabolites and probiotic-derived metabolites may potentiate
+Nrf2 activation and antioxidant enzyme expression, providing a mechanistic basis for
+personalized dietary interventionsm [108].
+5.2. Dietary Synergy
+Coffee consumption interacts synergistically with other dietary polyphenols, such
+as those from tea, cocoa, and berries, to enhance antioxidant capacity via shared
+metabolic pathways in the gut microbiota [7,109,110]. Emerging evidence suggests that
+co-consumption may also influence the bioavailability and systemic distribution of polyphe-
+nolic metabolites, leading to enhanced plasma antioxidant levels and improved modulation
+of redox-sensitive signaling pathways [111].
+Co-consumption leads to increased production of SCFAs and phenolic metabolites,
+modulating gut microbiota composition and function to support anti-inflammatory pro-
+files [106,107]. For example, cocoa and coffee polyphenols undergo cometabolism, pro-
+ducing metabolites that exert additive or synergistic effects on host physiology [107,108].
+These metabolites can interact with cellular targets, including Nrf2, NF-κB, and sirtuin
+pathways, amplifying cytoprotective and anti-inflammatory responses. The synergistic
+enhancement of health outcomes is mediated by convergent activation of cellular defense
+mechanisms [7,106–108].
+6. Coffee and Metabolic Health—Type 2 Diabetes and Obesity
+Habitual coffee consumption is consistently associated with a reduced risk of type
+2 diabetes mellitus (T2DM) [112]. Meta-analyses of over 1.1 million participants found
+a 6% reduction in T2DM risk for each additional cup of coffee per day, with the highest
+consumption categories showing a pooled relative risk of 0.71 [113]. Both caffeinated and
+decaffeinated coffee demonstrate similar protective effects [114]. These associations remain
+https://doi.org/10.3390/molecules31091404
+
+Molecules 2026, 31, 1404
+11 of 25
+significant after adjustment for major confounders such as body mass index, physical activ-
+ity, and dietary patterns, suggesting that coffee-derived bioactive compounds may exert
+independent metabolic benefits. Prospective cohort studies also indicate dose–response
+relationships across diverse populations, supporting a consistent epidemiological link
+between coffee intake and improved glycemic outcomes [115].
+6.1. Mechanisms Related to Glucose Metabolism
+Chlorogenic acids (CGAs) improve glucose metabolism by inhibiting hepatic glucose-
+6-phosphatase, competitive inhibition of intestinal glucose absorption, and enhancement
+of GLP-1 (glucagon-like peptide-1) secretion [112]. Additionally, CGAs may modulate
+glucose homeostasis through activation of AMP-activated protein kinase (AMPK), which
+enhances insulin signaling and promotes glucose uptake in skeletal muscle and adipose
+tissue [116,117]. Coffee extracts also demonstrate potent α-glucosidase inhibitory activity,
+which delays carbohydrate digestion and reduces postprandial glucose spikes [118–120].
+Long-term exposure to coffee bioactives may also protect pancreatic β-cells by reducing
+oxidative damage and supporting mitochondrial function, thereby contributing to sustained
+insulin secretory capacity [121,122]. While caffeine acutely reduces insulin sensitivity,
+habitual consumption leads to tolerance and overall improvements in insulin sensitivity
+and beta-cell function [123,124].
+6.2. Anti-Inflammatory Effects on Adipose Tissue
+Coffee exerts significant anti-inflammatory effects on adipose tissue, which partially
+mediate its protective effects against T2DM. Higher consumption is associated with lower
+concentrations of CRP (C-reactive protein) (−16.6%), IL-6 (interleukine-6) (−8.1%), and
+higher adiponectin levels (+9.3%). These biomarker changes reflect a shift toward a more
+favorable adipokine profile that improves insulin sensitivity and systemic metabolic reg-
+ulation [124–126]. Coffee phenolics counteract TNF-α (tumor necrosis factor-α)-induced
+inflammation in adipocytes by reducing pro-inflammatory cytokines while increasing
+glutathione expression [127]. Animal studies show that coffee prevents high-fat diet-
+induced obesity, reduces macrophage infiltration in adipose tissue, and preserves brown
+adipose tissue thermogenic capacity [128]. Preservation of brown adipose tissue activity
+may contribute to improved metabolic flexibility and enhanced energy expenditure [129].
+Additional mechanisms include regulation of transcription factors involved in adipocyte
+differentiation, such as PPARγ and C/EBPα, which play central roles in adipose tissue
+development and lipid storage [130]. Coffee also inhibits adipogenesis by interrupting
+insulin signaling through the downregulation of IRS1 (insulin-receptor substrate 1) [131].
+6.3. Obesity and Weight Management
+The relationship of coffee consumption with obesity is modest; meta-analyses show
+small inverse associations with BMI (body mass index) and waist circumference [132].
+These associations are thought to result from a combination of metabolic, behavioral, and
+neuroendocrine effects related to caffeine and other coffee bioactives. Increasing unsweet-
+ened caffeinated coffee intake is associated with reduced 4-year weight gain, though adding
+sugar counteracts this benefit [133]. Moderate consumption is linked to favorable changes
+in total and visceral body fat [134,135]. Visceral adiposity is particularly relevant because
+of its strong association with cardiometabolic risk and insulin resistance. Caffeine may im-
+prove energy balance by increasing basal metabolic rate and thermogenesis, though clinical
+weight management impacts remain modest. Mechanistically, caffeine stimulates sympa-
+thetic nervous system activity and increases catecholamine release, promoting lipolysis
+and fatty acid oxidation [135].
+https://doi.org/10.3390/molecules31091404
+
+Molecules 2026, 31, 1404
+12 of 25
+7. Cardiovascular Protection and Endothelial Function
+Moderate filtered coffee intake improves endothelial function via hydroxycinnamic
+acid-mediated NO (nitric oxide) production, protects against LDL oxidation, and lowers
+systemic inflammation. These cardioprotective effects are attributed to the combined action
+of coffee polyphenols, caffeine, and other bioactive compounds that influence oxidative
+stress, vascular tone, and inflammatory signaling pathways. Emerging evidence suggests
+that these compounds interact with redox-sensitive transcription factors and endothelial
+signaling cascades, thereby contributing to improved vascular homeostasis [135].
+7.1. Vascular Health
+Hydroxycinnamic acids found in coffee enhance endothelial nitric oxide synthase
+(eNOS) activity, leading to increased NO bioavailability. Randomized controlled trials show
+that chlorogenic acid-rich coffee significantly increases FMD by 1.5–2.5 percentage points
+over placebo. This improvement in endothelial-dependent vasodilation reflects enhanced
+vascular responsiveness and reduced oxidative inactivation of nitric oxide. Chlorogenic
+acids may also improve endothelial function by attenuating NADPH oxidase–derived
+reactive oxygen species and by modulating intracellular signaling pathways involved
+in vascular relaxation. Additionally, coffee polyphenols may protect endothelial cells
+from oxidative damage and improve mitochondrial function, further supporting vascular
+integrity and microcirculatory regulation [136–138].
+7.2. Lipid Profile and Inflammation
+Coffee’s impact on lipid profile is preparation-dependent. Unfiltered coffee raises LDL
+cholesterol due to cafestol, a potent agonist of the farnesoid X receptor. This difference is
+largely explained by the retention of diterpenes in paper filters, which significantly reduces
+circulating levels of cafestol and kahweol after consumption [139]. In contrast, filtered
+coffee does not associate with adverse lipid changes [139]. Coffee polyphenols provide
+anti-atherogenic effects by inhibiting LDL oxidation. Inhibition of LDL oxidation is a key
+mechanism in preventing the formation of atherogenic oxidized LDL particles that promote
+endothelial dysfunction and foam cell formation within arterial walls [140,141]. Habitual
+intake is linked to lower plasma concentrations of CRP and IL-6, independent of caffeine
+content. These reductions in inflammatory biomarkers suggest that coffee consumption
+may attenuate chronic low-grade inflammation, a central driver of atherosclerosis and
+cardiometabolic disease [141].
+7.3. Cardiovascular Effect
+Comprehensive reviews, including an umbrella review of over 200 meta-analyses,
+confirmed that the most significant relative risk reductions were observed with a consump-
+tion of 3–4 cups of coffee per day, CVD (cardiovascular disease) mortality showed a 19%
+decrease [142]. These findings support a nonlinear dose–response relationship in which
+moderate consumption provides maximal cardiovascular benefit, while extremely high
+intake does not confer additional protection. Potential mechanisms underlying these epi-
+demiological observations include improved endothelial function, reduced oxidative stress,
+enhanced insulin sensitivity, and modulation of inflammatory pathways. Collectively, these
+mechanisms contribute to the observed associations between moderate coffee consumption
+and reduced risk of coronary heart disease, stroke, and cardiovascular mortality [143].
+8. Neuroprotection—Coffee and the Aging Brain
+Epidemiological evidence shows a strong inverse association between coffee con-
+sumption and the risk of neurodegenerative diseases. These associations are supported
+https://doi.org/10.3390/molecules31091404
+
+Molecules 2026, 31, 1404
+13 of 25
+by converging experimental, clinical, and mechanistic data indicating that coffee bioactive
+compounds influence multiple pathways involved in neuronal survival, oxidative stress
+regulation, and neuroinflammation.
+Caffeinated coffee intake is consistently associated with a lower risk of Parkinson’s
+disease, with hazard ratios ranging from 0.18 to 0.85 in men [144]. Sex-specific differences
+observed in epidemiological studies may be partially explained by hormonal modulation
+of caffeine metabolism and adenosine receptor signaling, which influence dopaminergic
+neurotransmission [145].
+Adenosine A2A receptor antagonism by caffeine is central to neuroprotection in
+Parkinson’s, reducing neuroinflammation and dopaminergic neuron loss. Blockade of A2A
+receptors also modulates glutamatergic neurotransmission and reduces excitotoxicity, a key
+contributor to neuronal degeneration. Furthermore, A2A receptor inhibition enhances mi-
+tochondrial efficiency and reduces oxidative stress within dopaminergic neurons [146,147].
+For Alzheimer’s, mechanisms include protection against beta-amyloid toxicity and inhi-
+bition of tau hyperphosphorylation, mediated by caffeine and polyphenols [144]. Coffee
+polyphenols may additionally interfere with amyloid aggregation processes and promote
+clearance pathways through activation of proteostatic mechanisms [148].
+Recent studies have highlighted emerging new mechanisms, including caffeine mod-
+ulation of α-Syn degradation with enhanced autophagy and caffeine modulation of gut
+microbiota and the gut–brain axis in Parkinson‘s disease [149]. Alterations in gut microbiota
+composition may influence neuroinflammation through microbial metabolite signaling,
+including short-chain fatty acids that regulate microglial activation and blood–brain barrier
+integrity [149].
+Bioactive compounds like pyrocatechol suppress neuroinflammation by inhibit-
+ing NF-κB (nuclear factor-kappa B) signaling in microglia. Inhibition of NF-κB signal-
+ing reduces the production of pro-inflammatory cytokines and reactive oxygen species,
+thereby limiting chronic neuroinflammatory responses implicated in neurodegenerative
+progression [150–154].
+Mendelian randomization (MR) studies provide mixed results regarding causality.
+Genetically predicted higher plasma caffeine levels indicate lower risk of Alzheimer’s
+and Parkinson’s, though some MR studies report no causal association or even a possible
+increased risk, highlighting the complexity of genetic instruments. These discrepancies
+may reflect pleiotropic genetic effects, variability in caffeine metabolism genes such as
+CYP1A2, and differences between lifelong genetic exposure and behavioral consumption
+patterns [155].
+The effect is primarily attributed to caffeine, as decaffeinated coffee does not confer
+similar protection [1,138,139]. For Alzheimer’s disease, higher intake of unsweetened,
+caffeinated coffee (≥3 cups/day) is associated with a reduced risk (HR—hazard ratio: 0.75),
+while no benefit is seen for sweetened coffee [156–158]. This observation suggests that
+metabolic factors such as glycemic load and insulin signaling may modify neuroprotective
+outcomes, reinforcing the importance of overall dietary context in cognitive aging [159–163].
+9. Risk of Genetic Variability CYP1A2 and Risk of High Caffeine Intake
+9.1. Caffeine Sensitivity, Gastrointestinal Issues and Ergogenic Effects
+Coffee stimulates gastric acid secretion and may exacerbate symptoms in patients
+with GERD (gastroesophageal reflux disease) or gastritis. This effect is mediated not only
+by caffeine but also by other coffee constituents that stimulate gastrin release and gastric
+secretory activity, potentially influencing lower esophageal sphincter tone in susceptible
+individuals [140,159,162,163].
+https://doi.org/10.3390/molecules31091404
+
+Molecules 2026, 31, 1404
+14 of 25
+Genetic variability in CYP1A2 and ADORA2A affects caffeine sensitivity; slow me-
+tabolizers are at increased risk for insomnia, anxiety, and palpitations. Polymorphisms in
+CYP1A2 influence hepatic caffeine clearance rates, resulting in prolonged plasma caffeine
+exposure and enhanced stimulation of central nervous system and cardiovascular responses
+in slow metabolizers. Variants in ADORA2A further modulate individual susceptibility
+through altered adenosine receptor signaling, affecting sleep regulation, anxiety responses,
+and perceived stimulant effects [164–170]. Although genetic testing has limited routine
+clinical utility, individualized assessment is recommended [155].
+According to an investigation, while CYP1A2 genotypes may impact the ergogenic
+effects of caffeine to some degree, there may be other factors influencing physical perfor-
+mance and physiological response [164–166].
+Caffeine has been shown to enhance neuromuscular performance by improving skele-
+tal muscle contractile properties, including reduced contraction time and increased maximal
+muscle displacement, suggesting both peripheral and central contributions to its ergogenic
+effects [171]. These physiological responses may improve muscle responsiveness and sup-
+port enhanced physical performance during high-intensity or repeated muscular efforts.
+Furthermore, caffeine exerts ergogenic effects along the neuromuscular pathway, from
+central nervous system stimulation to motor unit recruitment and excitation–contraction
+coupling within skeletal muscle fibers. Through antagonism of adenosine receptors and
+increased neurotransmitter release, caffeine may enhance voluntary force production,
+reduce perceived fatigue, and improve neuromuscular efficiency, supporting its role as an
+ergogenic aid in both trained and recreational individuals [172].
+9.2. The Risk of High Caffeine Intake in the Pregnancy and Contaminants
+Consensus guidelines recommend restricting caffeine intake to <200 mg/day during
+pregnancy and lactation to avoid risks of miscarriage and low birth weight [173].
+Regarding toxicological contaminants, acrylamide is formed during roasting, and
+mycotoxins may contaminate poorly stored beans; mitigation includes optimizing roasting
+and storage conditions [174,175]. Acrylamide formation depends on roasting tempera-
+ture and duration through Maillard reaction pathways, while proper post-harvest drying,
+humidity control, and quality monitoring reduce the risk of ochratoxin A contamination.
+Current exposure assessments indicate that levels in commercially regulated coffee gener-
+ally remain within established safety thresholds when good manufacturing practices are
+followed [176–178].
+10. Valorization of Coffee Waste—Spent Coffee Grounds
+Spent coffee grounds (SCG) retain substantial amounts of bioactive compounds, in-
+cluding chlorogenic acids and caffeine. In addition to these compounds, SCG contain
+dietary fiber, proteins, lipids, and phenolic polymers such as melanoidins, which contribute
+to their functional and nutraceutical potential. The residual antioxidant capacity of SCG
+depends on roasting degree, extraction efficiency during brewing, and storage conditions
+prior to processing [179–183]. Extraction methods like subcritical water or deep eutectic
+solvents can efficiently recover these compounds for use in dietary supplements. These
+green extraction technologies improve extraction yield while reducing solvent toxicity and
+environmental impact, supporting sustainable recovery of high-value bioactives. Optimiza-
+tion of extraction parameters, including temperature, pressure, and solvent polarity, further
+enhances phenolic recovery and biological activity [184]. SCG extracts demonstrate robust
+free radical scavenging capacity and prebiotic activity, supporting beneficial gut microbiota.
+Fermentable polysaccharides and melanoidins present in SCG may selectively stimulate
+the growth of beneficial bacterial genera, contributing to short-chain fatty acid produc-
+https://doi.org/10.3390/molecules31091404
+
+Molecules 2026, 31, 1404
+15 of 25
+tion and improved gut metabolic function. Additionally, SCG-derived compounds have
+shown antimicrobial and anti-inflammatory properties in experimental models, suggesting
+broader applications in functional foods and nutraceutical formulations [59,184–186]. Val-
+orization of SCG aligns with circular bioeconomy principles, though safety assessments
+for contaminants remain necessary. Potential safety concerns include accumulation of
+heavy metals, pesticide residues, and processing-derived compounds, emphasizing the
+importance of standardized quality control and toxicological evaluation prior to human
+consumption [182,183].
+11. Coffee Consumption and Associated Rituals
+Beyond its role as a primary source of caffeine, coffee has important social significance,
+being associated with daily rituals (e.g., drinking in the morning to stimulate alertness or
+in social contexts to facilitate interaction) [1]. These consumption rituals represent learned
+behavioral patterns that may influence psychological well-being, circadian regulation,
+and cognitive performance through conditioned associations between sensory cues and
+neurophysiological responses. Regular coffee rituals are also linked to social bonding and
+structured daily routines, factors known to support mental health and perceived quality of
+life [187].
+These rituals vary significantly between cultures, but often include moments of re-
+laxation, socialization, or a break at work, and may contribute to psychosocial well-being.
+From a behavioral health perspective, coffee consumption rituals may influence stress
+regulation through social interaction, conditioned relaxation responses, and modulation of
+neuroendocrine pathways associated with mood and cognitive performance [188].
+Consumption rituals, such as adding sugar or cream, can attenuate the beneficial
+effects of coffee. Associating coffee consumption with smoking, for example, is detrimental
+to health, and it is recommended to avoid smoking both in general and in combination
+with coffee consumption. Co-consumption behaviors may modify metabolic outcomes
+by increasing caloric intake, glycemic load, or exposure to harmful compounds, thereby
+confounding epidemiological associations between coffee intake and health outcomes.
+Consideration of lifestyle context is therefore essential when interpreting the health effects
+of coffee consumption [2,189].
+In addition, coffee is often used to increase productivity and alertness, being an in-
+tegral part of the daily routine for many adults [1,2]. The alertness-promoting effects
+are primarily mediated by caffeine-induced antagonism of adenosine receptors, which
+enhances dopaminergic and noradrenergic signaling involved in attention, motivation, and
+executive function. Furthermore, habitual consumption within predictable daily contexts
+may reinforce behavioral reinforcement mechanisms and improve task engagement, al-
+though excessive reliance on caffeine for performance may contribute to sleep disruption
+in sensitive individuals [190]. However, the magnitude of these physiological and cogni-
+tive responses to caffeine varies considerably between individuals due to differences in
+caffeine metabolism and genetic polymorphisms affecting enzymes and receptors involved
+in caffeine pharmacokinetics and pharmacodynamics [191–194].
+Future Perspectives: Machine Learning in Coffee Bioactivity Research
+The integration of artificial intelligence methods into biomedical research has enabled
+a more precise evaluation of the relationships between bioactive compounds and clinical
+parameters. The use of machine learning algorithms in the analysis of preclinical data and
+health questionnaires facilitates the identification of metabolic and behavioral patterns
+that would otherwise remain undetected through traditional statistical approaches. Such
+methodologies can contribute to characterizing how individual variability influences the
+https://doi.org/10.3390/molecules31091404
+
+Molecules 2026, 31, 1404
+16 of 25
+response to coffee metabolites and can support the development of predictive models
+regarding their biological effects. In this context, the study conducted by Avram et al.
+demonstrates the utility of algorithm-assisted assessment in evaluating health profiles,
+providing a methodological framework that can also be applied to investigating the impact
+of coffee bioactive compounds on metabolic risk [195,196].
+12. Limitations
+Key limitations of this review include study heterogeneity, residual confounding in
+observational analyses, variations in coffee types and brewing methods, and potential
+influences of co-consumption factors (e.g., sugar or cream). Future research should aim to
+clarify where evidence is robust versus uncertain or context-dependent, which would help
+improve the overall scientific balance.
+13. Conclusions
+Moderate coffee consumption (3–4 cups/day) is generally beneficial for oxidative
+stress reduction and the prevention of obesity, chronic metabolic and neurodegenerative
+diseases in healthy adults and it is also linked to reduced all-cause mortality. Important
+knowledge gaps remain, particularly the need for more long-term human intervention
+trials (in vivo) to complement observational data and clarify the causal mechanisms of
+specific bioactive metabolites.
+Current literature highlights both the positive impact of moderate coffee consumption on
+health and its central role in daily habits and rituals, contributing to psychosocial well-being.
+Overall, the evidence discussed in this review integrates mechanistic insights, ADME-
+related processes, experimental models, and human studies, collectively supporting a com-
+prehensive understanding of the bioavailability and metabolic fate of coffee antioxidants.
+Author Contributions: Conceptualization H.F., S.P. and E.N.-N.; Methodology, H.F., S.P. and E.N.-N.;
+Software, S.P.; Validation, M.S., Z.F. and M.-C.C.; Formal Analysis, D.-E.C.; Data Curation, D.-E.C.;
+Writing—Original Draft Preparation, H.F., S.P. and E.N.-N.; Writing—Review and Editing, M.S., Z.F.
+and F.R.; Visualization, S.P.; Supervision, E.N.-N. and C.-F.B. All authors have read and agreed to the
+published version of the manuscript.
+Funding: This research received no external funding.
+Data Availability Statement: The data supporting the findings of this study are available from the
+corresponding author upon reasonable request.
+Conflicts of Interest: The authors declare no conflicts of interest.
+Abbreviations
+The following abbreviations are used in this manuscript:
+ADME
+Absorption, distribution, metabolism, and excretion
+AGEs
+Advanced Glycation End-products
+ARE
+Antioxidant response element
+CAT
+Catalase
+CGAs
+Chlorogenic acids
+5-CQA
+5-O-caffeoylquinic acid
+CRP
+C-reactive protein
+CVD
+Cardiovascular disease
+DNA
+Deoxyribonucleic acid
+eNOS
+endothelial nitrix oxide synthase
+FMD
+Flow-mediated vasodilation
+https://doi.org/10.3390/molecules31091404
+
+Molecules 2026, 31, 1404
+17 of 25
+FRAP
+Ferric Reducing Antioxidant Power
+GERD
+Gastroesophageal reflux disease
+GI
+Gastrointestinal
+GLP-1
+Glucagon-like peptide-1
+GPx
+Glutathione peroxidase
+HOMA-IR
+Homeostatic Model Assessment of Insulin Resistance
+HR
+Hazard ratio
+IL-6
+Interleukine-6
+IRS1
+Insulin receptor substrate 1
+LDL
+Low density lipoprotein
+MR
+Mendelian randomization
+NF-kB
+Nuclear factor-kappa B
+NO
+Nitric oxide
+NrF2
+Nuclear factor erythroid 2-related factor 2
+ORAC
+Oxygen Radical Absorbance Capacity
+ROS
+Reactive Oxygen Species
+SCFAs
+Short-chain fatty acids
+SCG
+Spent coffee grounds
+SNPs
+Single nucleotide polymorphisms
+SOD
+Superoxide dismutase
+T2DM
+Type 2 diabetes mellitus
+TNF-α
+Tumor necrosis factor-α
+References
+1.
+van Dam, R.M.; Hu, F.B.; Willett, W.C. Coffee, caffeine, and health. N. Engl. J. Med. 2020, 383, 369–378. [CrossRef] [PubMed]
+2.
+Emadi, R.C.; Kamangar, F. Coffee’s Impact on Health and Well-Being. Nutrients 2025, 17, 2558. [CrossRef]
+3.
+Machado, F.; Coimbra, M.A.; Castillo, M.D.D.; Coreta-Gomes, F. Mechanisms of Action of Coffee Bioactive Compounds-A Key to
+Unveil the Coffee Paradox. Crit. Rev. Food Sci. Nutr. 2024, 64, 10164–10186. [CrossRef]
+4.
+Saeed, M.; Naveed, M.; BiBi, J.; Ali Kamboh, A.; Phil, L.; Chao, S. Potential Nutraceutical and Food Additive Properties and Risks
+of Coffee: A Comprehensive Overview. Crit. Rev. Food Sci. Nutr. 2019, 59, 3293–3319. [CrossRef] [PubMed]
+5.
+Jomova, K.; Raptova, R.; Alomar, S.Y.; Alwasel, S.H.; Nepovimova, E.; Kuca, K.; Valko, M. Reactive Oxygen Species, Toxicity,
+Oxidative Stress, and Antioxidants: Chronic Diseases and Aging. Arch. Toxicol. 2023, 97, 2499–2574. [CrossRef]
+6.
+Leyane, T.S.; Jere, S.W.; Houreld, N.N. Oxidative Stress in Ageing and Chronic Degenerative Pathologies: Molecular Mechanisms
+Involved in Counteracting Oxidative Stress and Chronic Inflammation. Int. J. Mol. Sci. 2022, 23, 7273. [CrossRef]
+7.
+Kolb, H.; Kempf, K.; Martin, S. Health Effects of Coffee: Mechanism Unraveled? Nutrients 2020, 12, E1842. [CrossRef]
+8.
+Murai, T.; Matsuda, S. The Chemopreventive Effects of Chlorogenic Acids, Phenolic Compounds in Coffee, Against Inflammation,
+Cancer, and Neurological Diseases. Molecules 2023, 28, 2381. [CrossRef]
+9.
+Alnsour, L.; Issa, R.; Awwad, S.; Albals, D.; Al-Momani, I. Quantification of Total Phenols and Antioxidants in Coffee Samples
+of Different Origins and Evaluation of the Effect of Degree of Roasting on Their Levels. Molecules 2022, 27, 1591. [CrossRef]
+[PubMed]
+10.
+Ponder, A.; Krakówko, K.; Kruk, M.; Kuli´nski, S.; Mago´n, R.; Ziółkowski, D.; Jariene, E.; Hallmann, E. Organic and Conventional
+Coffee Beans, Infusions, and Grounds as a Rich Sources of Phenolic Compounds in Coffees From Different Origins. Molecules
+2025, 30, 1290. [CrossRef]
+11.
+Grzelczyk, J.; Budryn, G.; Szwajgier, D.; Baranowska-Wójcik, E.; Zakłos-Szyda, M. Evaluation of the Effect of Roasting and
+Digestion on Biological Activity of Compounds of Coffee Extracts. Food Chem. 2024, 460, 140648. [CrossRef]
+12.
+Ruta, F.; Avram, C.; Maior, R. Physico-Chemical and Microbiological Differences between Mains and Bottled Water, in an Area in
+the Central Area of Romania. Int. J. Environ. Res. Public Health 2023, 20, 1115. [CrossRef]
+13.
+Kang, G.W.; Piao, Z.; Ko, J.Y. Effects of water types and roasting points on consumer liking and emotional responses toward
+coffee. Food Qual. Prefer. 2022, 101, 104631. [CrossRef]
+14.
+Dludla, P.V.; Cirilli, I.; Marcheggiani, F.; Silvestri, S.; Orlando, P.; Muvhulawa, N.; Moetlediwa, M.T.; Nkambule, B.B.; Mazibuko-
+Mbeje, S.E.; Hlengwa, N.; et al. Potential Benefits of Coffee Consumption on Improving Biomarkers of Oxidative Stress and
+Inflammation. Molecules 2023, 28, 6440. [CrossRef] [PubMed]
+15.
+Martini, D.; Del Bo’, C.; Tassotti, M.; Riso, P.; Del Rio, D.; Brighenti, F.; Porrini, M. Coffee Consumption and Oxidative Stress: A
+Review of Human Intervention Studies. Molecules 2016, 21, 979. [CrossRef] [PubMed]
+https://doi.org/10.3390/molecules31091404
+
+Molecules 2026, 31, 1404
+18 of 25
+16.
+Freeman, A.M.; Morris, P.B.; Aspry, K.; Gordon, N.F.; Barnard, N.D.; Esselstyn, C.B.; Ros, E.; Devries, S.; O’Keefe, J.; Miller, M.;
+et al. A Clinician’s Guide for Trending Cardiovascular Nutrition Controversies: Part II. J. Am. Coll. Cardiol. 2018, 72, 553–568.
+[CrossRef]
+17.
+Barrea, L.; Pugliese, G.; Frias-Toral, E.; El Ghoch, M.; Castellucci, B.; Chapela, S.P.; Carignano, M.L.A.; Laudisio, D.; Savastano,
+S.; Colao, A.; et al. Coffee Consumption, Health Benefits and Side Effects: A Narrative Review and Update for Dietitians and
+Nutritionists. Crit. Rev. Food Sci. Nutr. 2023, 63, 1238–1261. [CrossRef] [PubMed]
+18.
+Chereches, M.C.; Popa, C.O.; Finta, H. The dynamics of food for special medical purposes (FSMPs) utilization in cancer care:
+From doctor recommendations to online pharmacy procurement. Front. Pharmacol. 2024, 15, 1393784. [CrossRef]
+19.
+Voidazan, S.; Tarcea, M.; Abram, Z.; Georgescu, M.; Mărginean, C.; Grama, O.; Buicu, F.; Ru¸ta, F. Associations between Lifestyle
+Factors and Smoking Status during Pregnancy in a Group of Romanian Women. Birth Defects Res. 2018, 110, 519–526. [CrossRef]
+20.
+Zalewska, K.; Kulawik, M.; Gierszewska, J.; Gramala, Z.; Kalus, O.; Karpi´nski, M.; Ma´ckowiak, J.; Staniewski, A.; Szyma´nska, Z.;
+Zalewska, B.; et al. Chlorogenic Acid’s Role in Metabolic Health: Mechanisms and Therapeutic Potential. Nutrients 2025, 17, 3303.
+[CrossRef]
+21.
+Boulebd, H.; Carmena-Bargueño, M.; Pérez-Sánchez, H. Exploring the Antioxidant Properties of Caffeoylquinic and Feruloylquinic
+Acids. Antioxidants 2023, 12, 1669. [CrossRef]
+22.
+Lu, H.; Tian, Z.; Cui, Y.; Liu, Z.; Ma, X. Chlorogenic Acid: A Comprehensive Review of the Dietary Sources, Processing Effects,
+Bioavailability, Beneficial Properties, Mechanisms of Action, and Future Directions. Compr. Rev. Food Sci. Food Saf. 2020, 19,
+3130–3158. [CrossRef]
+23.
+Bakuradze, T.; Lang, R.; Hofmann, T.; Stiebitz, H.; Bytof, G.; Lantz, I.; Baum, M.; Eisenbrand, G.; Janzowski, C. Antioxidant
+Effectiveness of Coffee Extracts and Selected Constituents in Cell-Free Systems and Human Colon Cell Lines. Mol. Nutr. Food Res.
+2010, 54, 1734–1743. [CrossRef] [PubMed]
+24.
+Liang, N.; Xue, W.; Kennepohl, P.; Kitts, D.B. Interactions Between Major Chlorogenic Acid Isomers and Chemical Changes in
+Coffee Brew That Affect Antioxidant Activities. Food Chem. 2016, 213, 251–259. [CrossRef]
+25.
+Tfouni, S.A.V.; Carreiro, L.B.; Teles, C.R.A.; Furlani, R.P.Z.; Cipolli, K.M.V.A.B.; Camargo, M.C.R. Caffeine and chlorogenic acids
+intake from coffee brew: Influence of roasting degree and brewing procedure. Int. J. Food Sci. Technol. 2014, 49, 747–752. [CrossRef]
+26.
+Liang, N.; Kitts, D.D. Role of chlorogenic acids in controlling oxidative and inflammatory stress conditions. Nutrients 2015, 8, 16.
+[CrossRef]
+27.
+Socała, K.; Szopa, A.; Serefko, A.; Poleszak, E.; Wla´z, P. Neuroprotective Effects of Coffee Bioactive Compounds: A Review. Int. J.
+Mol. Sci. 2020, 22, E107. [CrossRef]
+28.
+Romualdo, G.R.; Rocha, A.B.; Vinken, M.; Cogliati, B.; Moreno, F.S.; Chaves, M.A.G.; Barbisan, L.F. Drinking for Protection? Epi-
+demiological and Experimental Evidence on the Beneficial Effects of Coffee or Major Coffee Compounds Against Gastrointestinal
+and Liver Carcinogenesis. Food Res. Int. 2019, 123, 567–589. [CrossRef] [PubMed]
+29.
+dePaula, J.; Farah, A. Caffeine Consumption through Coffee: Content in the Beverage, Metabolism, Health Benefits and Risks.
+Beverages 2019, 5, 37. [CrossRef]
+30.
+Konstantinidis, N.; Franke, H.; Schwarz, S.; Lachenmeier, D.W. Risk Assessment of Trigonelline in Coffee and Coffee by-Products.
+Molecules 2023, 28, 3460. [CrossRef]
+31.
+Moreira, A.S.; Nunes, F.M.; Domingues, M.R.; Coimbra, M.A. Coffee melanoidins: Structures, mechanisms of formation and
+potential health impacts. Food Funct. 2012, 3, 903–915. [CrossRef] [PubMed]
+32.
+Zhang, H.; Zhang, H.; Troise, D.D.; Fogliano, V. Melanoidins From Coffee, Cocoa, and Bread Are Able to Scavenge A-Dicarbonyl
+Compounds Under Simulated Physiological Conditions. J. Agric. Food Chem. 2019, 67, 10921–10929. [CrossRef]
+33.
+Troup, G.J.; Navarini, L.; Suggi Liverani, F.; Drew, S.C. Stable Radical Content and Anti-Radical Activity of Roasted Arabica
+Coffee: From in-Tact Bean to Coffee Brew. PLoS ONE 2015, 10, e0122834. [CrossRef]
+34.
+Pastoriza, S.; Rufián-Henares, J.A. Contribution of Melanoidins to the Antioxidant Capacity of the Spanish Diet. Food Chem. 2014,
+164, 438–445. [CrossRef]
+35.
+O’Keefe, J.H.; Bhatti, S.K.; Patil, H.R.; DiNicolantonio, J.J.; Lucan, S.C.; Lavie, C.J. Effects of Habitual Coffee Consumption on
+Cardiometabolic Disease, Cardiovascular Health, and All-Cause Mortality. J. Am. Coll. Cardiol. 2013, 62, 1043–1051. [CrossRef]
+36.
+Guercia, E.; Berti, F.; De Zorzi, R.; Navarini, L.; Geremia, S.; Medagli, B.; De Conto, M.; Cassetta, A.; Forzato, C. On the Cholesterol
+Raising Effect of Coffee Diterpenes Cafestol and 16-O-Methylcafestol: Interaction With Farnesoid X Receptor. Int. J. Mol. Sci. 2024,
+25, 6096. [CrossRef]
+37.
+Urgert, R.; Essed, N.; van der Weg, G.; Kosmeijer-Schuil, T.G.; Katan, M.B. Separate Effects of the Coffee Diterpenes Cafestol and
+Kahweol on Serum Lipids and Liver Aminotransferases. Am. J. Clin. Nutr. 1997, 65, 519–524. [CrossRef] [PubMed]
+38.
+Echeverri-Giraldo, L.F.; Pinzón Fandiño, M.I.; González Cadavid, L.M.; Rodriguez Marín, N.D.; Moreno Ríos, D.A.; Osorio Pérez,
+V. Determination of Lipids and Fatty Acids in Green Coffee Beans (Coffea arabica L.) Harvested in Different Agroclimatic Zones of
+the Department of Quindío, Colombia. Agronomy 2023, 13, 2560. [CrossRef]
+https://doi.org/10.3390/molecules31091404
+
+Molecules 2026, 31, 1404
+19 of 25
+39.
+Iriondo-DeHond, A.; Elizondo, A.S.; Iriondo-DeHond, M.; Ríos, M.B.; Mufari, R.; Mendiola, J.A.; Ibañez, E.; del Castillo,
+M.D. Assessment of Healthy and Harmful Maillard Reaction Products in a Novel Coffee Cascara Beverage: Melanoidins and
+Acrylamide. Foods 2020, 9, 620. [CrossRef]
+40.
+Rodrigues, R.; Oliveira, M.B.P.P.; Alves, R.C. Chlorogenic Acids and Caffeine from Coffee By-Products: A Review on Skincare
+Applications. Cosmetics 2023, 10, 12. [CrossRef]
+41.
+Rothwell, J.A.; Keski-Rahkonen, P.; Robinot, N.; Assi, N.; Casagrande, C.; Jenab, M.; Ferrari, P.; Boutron-Ruault, M.C.; Mahamat-
+Saleh, Y.; Mancini, F.R.; et al. A metabolomic study of biomarkers of habitual coffee intake in four European countries. Mol. Nutr.
+Food Res. 2019, 63, e1900659. [CrossRef]
+42.
+Mehaya, F.M.; Mohammad, A.A. Thermostability of bioactive compounds during roasting process of coffee beans. Heliyon 2020,
+6, e05508. [CrossRef]
+43.
+Clifford, M.N.; Kerimi, A.; Williamson, G. Bioavailability and Metabolism of Chlorogenic Acids (Acyl-Quinic Acids) in Humans.
+Compr. Rev. Food Sci. Food Saf. 2020, 19, 1299–1352. [CrossRef]
+44.
+Perrone, D.; Farah, A.; Donangelo, C.M. Influence of Coffee Roasting on the Incorporation of Phenolic Compounds Into
+Melanoidins and Their Relationship With Antioxidant Activity of the Brew. J. Agric. Food Chem. 2012, 60, 4265–4275. [CrossRef]
+45.
+Smrke, S.; Opitz, S.E.; Vovk, I.; Yeretzian, C. How Does Roasting Affect the Antioxidants of a Coffee Brew? Exploring the
+Antioxidant Capacity of Coffee via on-Line Antioxidant Assays. Food Funct. 2013, 4, 1082–1092. [CrossRef]
+46.
+Opitz, S.E.; Goodman, B.A.; Keller, M.; Smrke, S.; Wellinger, M.; Schenker, S.; Yeretzian, C. Understanding the Effects of Roasting
+on Antioxidant Components of Coffee Brews by Coupling on-Line ABTS Assay to HPSEC. Phytochem. Anal. 2017, 28, 106–114.
+[CrossRef] [PubMed]
+47.
+Wu, H.; Lu, P.; Liu, Z.; Sharifi-Rad, J.; Suleria, H.A.R. Impact of roasting on the phenolic and volatile compounds in coffee beans.
+Food Sci. Nutr. 2022, 10, 2408–2425. [CrossRef] [PubMed]
+48.
+Gallardo-Ignacio, J.; Santibáñez, A.; Oropeza-Mariano, O.; Salazar, R.; Montiel-Ruiz, R.M.; Cabrera-Hilerio, S.; Gonzáles-Cortazar,
+M.; Cruz-Sosa, F.; Nicasio-Torres, P. Chemical and Biological Characterization of Green and Processed Coffee Beans From Coffea
+Arabica Varieties. Molecules 2023, 28, 4685. [CrossRef]
+49.
+Schouten, M.A.; Tappi, S.; Angeloni, S.; Cortese, M.; Caprioli, G.; Vittori, S.; Romani, S. Acrylamide Formation and Antioxidant
+Activity in Coffee During Roasting-A Systematic Study. Food Chem. 2021, 343, 128514. [CrossRef] [PubMed]
+50.
+Hamzalıo˘glu, A.; Gökmen, V. 5-Hydroxymethylfurfural accumulation plays a critical role on acrylamide formation in coffee
+during roasting as confirmed by multiresponse kinetic modelling. Food Chem. 2020, 318, 126467. [CrossRef]
+51.
+Awwad, S.; Issa, R.; Alnsour, L.; Albals, D.; Al-Momani, I. Quantification of Caffeine and Chlorogenic Acid in Green and Roasted
+Coffee Samples Using HPLC-DAD. Molecules 2021, 26, 7502. [CrossRef]
+52.
+Gamboa-Gómez, C.I.; Barragán-Zúñiga, J.; Herrera, M.D.; Alongi, M.; Rocha-Guzmán, N.E.; Herrera-Rocha, K.M.; Dominguez,
+D.; Valles-Araiza, K.F.; Anese, M.; Rodríguez-Morán, M.; et al. Influence of Coffee Roasting Degree From Four Mexican Regions
+on in Vitro Antioxidant Activity and Its in Vivo Effects. Int. J. Mol. Sci. 2025, 26, 10067. [CrossRef]
+53.
+Bekedam, E.K.; Schols, H.A.; van Boekel, M.A.; Smit, G. High molecular weight melanoidins from coffee brew. J. Agric. Food
+Chem. 2006, 54, 7658–7666. [CrossRef]
+54.
+Maiyah, N.; Kerdpiboon, S.; Kerr, W.L.; Klaypradit, W.; Smithisukul, C.; Supapvanich, S. Impact of roasting levels and brewing
+cycles on bioactive compounds in spent coffee grounds. Food Chem. 2026, 34, 103661. [CrossRef]
+55.
+Nijssen, K.M.R.; Mensink, R.P.; Joris, P.J. Effects of Coffee-Related Bioactive Components on Flow-Mediated Vasodilation: A
+Meta-Analysis. Nutr. Rev. 2025, nuaf211. [CrossRef]
+56.
+Sijko-Szpa´nska, M.; Mystkowska, I.; Dmitrowicz, A. Influence of Brewing Methods on the Bioactive and Mineral Composition of
+Coffee Beverages. Molecules 2025, 30, 4080. [CrossRef] [PubMed]
+57.
+Stiefel, C.; Lindemann, B.; Morlock, G.E. Non-Target Bioactive Compound Profiles of Coffee Roasts and Preparations. Food Chem.
+2022, 391, 133263. [CrossRef] [PubMed]
+58.
+Yust, B.G.; Wilkinson, F.; Rao, N.Z. Variables Affecting the Extraction of Antioxidants in Cold and Hot Brew Coffee: A Review.
+Antioxidants 2023, 13, 29. [CrossRef]
+59.
+Muzykiewicz-Szyma´nska, A.; Nowak, A.; Wira, D.; Klimowicz, A. The Effect of Brewing Process Parameters on Antioxidant
+Activity and Caffeine Content in Infusions. Molecules 2021, 26, 3681. [CrossRef] [PubMed]
+60.
+Stanek, N.; Zar˛ebska, M.; Biłos, Ł.; Barabosz, K.; Nowakowska-Bogdan, E.; Semeniuk, I.; Błaszkiewicz, J.; Kulesza, R.; Matejuk, R.;
+Szkutnik, K. Influence of Coffee Brewing Methods on the Chromatographic and Spectroscopic Profiles, Antioxidant and Sensory
+Properties. Sci. Rep. 2021, 11, 21377. [CrossRef]
+61.
+Dewland, T.A.; van Dam, R.M.; Marcus, G.M. Coffee and Cardiovascular Disease. Eur. Heart J. 2025, 46, 3546–3554. [CrossRef]
+[PubMed]
+62.
+Farah, A.; Donangelo, C.M. Phenolic compounds in coffee. Braz. J. Plant Physiol. 2006, 18, 23–36. [CrossRef]
+63.
+Nehlig, A. Effects of coffee/caffeine on brain health and disease: What should I tell my patients? Prion 2016, 10, 75–87. [CrossRef]
+https://doi.org/10.3390/molecules31091404
+
+Molecules 2026, 31, 1404
+20 of 25
+64.
+Gökmen, V.; Serpen, A.; Fogliano, V. Direct measurement of the total antioxidant capacity of foods: The ‘QUENCHER’ approach.
+Trends Food Sci. Technol. 2009, 20, 278–288. [CrossRef]
+65.
+Farah, A.; de Paulis, T.; Trugo, L.C.; Martin, P.R. Effect of roasting on the formation of chlorogenic acids lactones in coffee. J. Agric.
+Food Chem. 2005, 53, 1505–1513. [CrossRef] [PubMed]
+66.
+Hu, G.L.; Wang, X.; Zhang, L.; Qiu, M.H. The sources and mechanisms of bioactive ingredients in coffee. Food Funct. 2019, 10,
+3113–3126. [CrossRef]
+67.
+Novaes, F.J.M.; da Silva, M.A.E.; Silva, D.C.; Aquino Neto, F.R.; Rezende, C.M. Extraction of diterpene-phytochemicals in raw
+and roasted coffee beans and beverage preparations and their relationship. Plants 2023, 12, 1580. [CrossRef]
+68.
+Mendoza, M.F.; Sulague, R.M.; Posas-Mendoza, T.; Lavie, C.J. Impact of coffee consumption on cardiovascular health. Ochsner J.
+2023, 23, 152–158. [CrossRef]
+69.
+Wołosiak, R.; Pakosz, P.; Dru˙zy´nska, B.; Janowicz, M. Antioxidant Activity of Coffee Components Influenced by Roast Degree
+and Preparation Method. Appl. Sci. 2023, 13, 2057. [CrossRef]
+70.
+Urgert, R.; Katan, M.B. The cholesterol-raising factor from coffee beans. Annu. Rev. Nutr. 1997, 17, 305–324. [CrossRef]
+71.
+Singh, A.K.; Singla, R.K.; Pandey, A.K. Chlorogenic Acid: A Dietary Phenolic Acid With Promising Pharmacotherapeutic Potential.
+Curr. Med. Chem. 2023, 30, 3905–3926. [CrossRef] [PubMed]
+72.
+Farah, A.; Monteiro, M.; Donangelo, C.M.; Lafay, S. Chlorogenic Acids From Green Coffee Extract Are Highly Bioavailable in
+Humans. J. Nutr. 2008, 138, 2309–2315. [CrossRef]
+73.
+Monteiro, M.; Farah, A.; Perrone, D.; Trugo, L.C.; Donangelo, C. Chlorogenic Acid Compounds From Coffee Are Differentially
+Absorbed and Metabolized in Humans. J. Nutr. 2007, 137, 2196–2201. [CrossRef]
+74.
+Naylor, L.H.; Zimmermann, D.; Guitard-Uldry, M.; Poquet, L.; Lévêques, A.; Eriksen, B.; Bel Rhlid, R.; Galaffu, N.; D’Urzo, C.; De
+Castro, A.; et al. Acute Dose-Response Effect of Coffee-Derived Chlorogenic Acids on the Human Vasculature: A RCT. Am. J.
+Clin. Nutr. 2021, 113, 370–379. [CrossRef] [PubMed]
+75.
+Sánchez-Medina, A.; Redondo-Puente, M.; Dupak, R.; Bravo-Clemente, L.; Goya, L.; Sarriá, B. Colonic Coffee Phenols Metabolites,
+Dihydrocaffeic, Dihydroferulic, and Hydroxyhippuric Acids Protect Hepatic Cells from TNF-α-Induced Inflammation and
+Oxidative Stress. Int. J. Mol. Sci. 2023, 24, 1440. [CrossRef]
+76.
+Agudelo-Ochoa, G.M.; Pulgarín-Zapata, I.C.; Velásquez-Rodriguez, C.M.; Duque-Ramírez, M.; Naranjo-Cano, M.; Quintero-Ortiz,
+M.M.; Lara-Guzmán, O.J.; Muñoz-Durango, K. Coffee Consumption Increases the Antioxidant Capacity of Plasma in Healthy
+Adults. J. Nutr. 2016, 146, 524–531. [CrossRef]
+77.
+Clifford, M.N.; Jaganath, I.B.; Ludwig, I.A.; Crozier, A. Chlorogenic Acids and the Acyl-Quinic Acids: Discovery, Biosynthesis,
+Bioavailability and Bioactivity. Nat. Prod. Rep. 2017, 34, 1391–1421. [CrossRef]
+78.
+Zhang, T.; Song, J.; Shen, Z.; Yin, K.; Yang, F.; Yang, H.; Ma, Z.; Chen, L.; Lu, Y.; Xia, Y. Associations Between Different Coffee
+Types, Neurodegenerative Diseases, and Related Mortality: Findings From a Large Prospective Cohort Study. Am. J. Clin. Nutr.
+2024, 120, 918–926. [CrossRef]
+79.
+Kong, H.; Han, J.; Meng, X.; Wang, X.; Zhang, X.A. Chlorogenic Acid-Gut Microbiota Interactions: New Insights for Alleviating
+Chronic Diseases and Health Disorders. Nutr. Rev. 2025, nuaf227. [CrossRef]
+80.
+Ludwig, I.A.; Paz de Peña, M.; Concepción, C.; Alan, C. Catabolism of Coffee Chlorogenic Acids by Human Colonic Microbiota.
+BioFactors 2013, 39, 623–632. [CrossRef] [PubMed]
+81.
+Tomas-Barberan, F.; García-Villalba, R.; Quartieri, A.; Raimondi, S.; Amaretti, A.; Leonardi, A.; Rossi, M. In Vitro Transformation
+of Chlorogenic Acid by Human Gut Microbiota. Mol. Nutr. Food Res. 2014, 58, 1122–1131. [CrossRef]
+82.
+Mills, C.E.; Tzounis, X.; Oruna-Concha, M.J.; Mottram, D.S.; Gibson, G.R.; Spencer, J.P. In Vitro Colonic Metabolism of Coffee and
+Chlorogenic Acid Results in Selective Changes in Human Faecal Microbiota Growth. Br. J. Nutr. 2015, 113, 1220–1227. [CrossRef]
+[PubMed]
+83.
+Mena, P.; Bresciani, L.; Tassotti, M.; Rosi, A.; Martini, D.; Antonini, M.; Cas, A.D.; Bonadonna, R.; Brighenti, F.; Del Rio, D.
+Effect of Different Patterns of Consumption of Coffee and a Cocoa-Based Product on the Nutrikinetics and Excretion of Phenolic
+Compounds. Am. J. Clin. Nutr. 2021, 114, 2107–2118. [CrossRef]
+84.
+Gómez-Juaristi, M.; Martínez-López, S.; Sarria, B.; Bravo, L.; Mateos, R. Bioavailability of Hydroxycinnamates in an Instant
+Green/Roasted Coffee Blend in Humans. Food Func. 2018, 9, 331–343. [CrossRef]
+85.
+Grzegorzewski, J.; Bartsch, F.; Köller, A.; König, M. Pharmacokinetics of Caffeine: A Systematic Analysis of Reported Data. Front.
+Pharmacol. 2021, 12, 752826. [CrossRef]
+86.
+Lang, R.; Dieminger, N.; Beusch, A.; Lee, Y.M.; Dunkel, A.; Suess, B.; Skurk, T.; Wahl, A.; Hauner, H.; Hofmann, T. Bioappearance
+and Pharmacokinetics of Bioactives Upon Coffee Consumption. Anal. Bioanal. Chem. 2013, 405, 8487–8503. [CrossRef]
+87.
+Nguyen, V.; Taine, E.G.; Meng, D.; Cui, T.; Tan, W. Pharmacological Activities, Therapeutic Effects, and Mechanistic Actions of
+Trigonelline. Int. J. Mol. Sci. 2024, 25, 3385. [CrossRef]
+88.
+Liang, Y.; Dai, X.; Cao, Y.; Wang, X.; Lu, J.; Xie, L.; Liu, K.; Li, X. The Neuroprotective and Antidiabetic Effects of Trigonelline: A
+Review of Signaling Pathways and Molecular Mechanisms. Biochimie 2023, 206, 93–104. [CrossRef]
+https://doi.org/10.3390/molecules31091404
+
+Molecules 2026, 31, 1404
+21 of 25
+89.
+Shaheen, S.; Shorbagi, M.; Lorenzo, J.M.; Farag, M.A. Dissecting Dietary Melanoidins: Formation Mechanisms, Gut Interactions
+and Functional Properties. Crit. Rev. Food Sci. Nutr. 2022, 62, 8954–8971. [CrossRef]
+90.
+Pérez-Burillo, S.; Rajakaruna, S.; Pastoriza, S.; Paliy, O.; Ángel Rufián-Henares, J. Bioactivity of Food Melanoidins Is Mediated by
+Gut Microbiota. Food Chem. 2020, 316, 126309. [CrossRef] [PubMed]
+91.
+Grzelczyk, J.; Szwajgier, D.; Baranowska-Wójcik, E.; Budryn, G.; Zakłos-Szyda, M.; Sosnowska, B. Bioaccessibility of Coffee Bean
+Hydroxycinnamic Acids During in Vitro Digestion. Food Chem. 2022, 392, 133328. [CrossRef]
+92.
+Volz, N.; Boettler, U.; Winkler, S.; Teller, N.; Schwarz, C.; Bakuradze, T.; Eisenbrand, G.; Haupt, L.; Griffiths, L.R.; Stiebitz, H.; et al.
+Effect of Coffee Combining Green Coffee Bean Constituents With Typical Roasting Products on the Nrf2/Are Pathway in Vitro
+and in Vivo. J. Agric. Food Chem. 2012, 60, 9631–9641. [CrossRef]
+93.
+Shin, Y.; Han, S.; Kwon, J.; Ju, S.; Choi, T.G.; Kang, I.; Kim, S.S. Roles of Short-Chain Fatty Acids in Inflammatory Bowel Disease.
+Nutrients 2023, 15, 4466. [CrossRef] [PubMed]
+94.
+Jyoti Dey, P. Mechanisms and implications of the gut microbial modulation of intestinal metabolic processes. npj Metab. Health
+Dis. 2025, 3, 24. [CrossRef]
+95.
+Qader, M.; Xu, J.; Yang, Y.; Liu, Y.; Cao, S. Natural Nrf2 Activators from Juices, Wines, Coffee, and Cocoa. Beverages 2020, 6, 68.
+[CrossRef]
+96.
+Boettler, U.; Sommerfeld, K.; Volz, N.; Pahlke, G.; Teller, N.; Somoza, V.; Lang, R.; Hofmann, T.; Marko, D. Coffee Constituents as
+Modulators of Nrf2 Nuclear Translocation and ARE (EpRE)-dependent Gene Expression. J. Nutr. Biochem. 2011, 22, 426–440.
+[CrossRef] [PubMed]
+97.
+Vicente, S.J.; Ishimoto, E.Y.; Torres, E.A. Coffee Modulates Transcription Factor Nrf2 and Highly Increases the Activity of
+Antioxidant Enzymes in Rats. J. Agric. Food Chem. 2014, 62, 116–122. [CrossRef]
+98.
+Vicente, S.J.; Ishimoto, E.Y.; Cruz, R.J.; Pereira, C.D.; Torres, E.A. Increase of the Activity of Phase II Antioxidant Enzymes in Rats
+After a Single Dose of Coffee. J. Agric. Food Chem. 2011, 59, 10887–10892. [CrossRef] [PubMed]
+99.
+Kerimi, A.; Kraut, N.U.; da Encarnacao, J.A.; Williamson, G. The Gut Microbiome Drives Inter- And Intra-Individual Differences
+in Metabolism of Bioactive Small Molecules. Sci. Rep. 2020, 10, 19590. [CrossRef]
+100. Boettler, U.; Volz, N.; Teller, N.; Haupt, L.M.; Bakuradze, T.; Eisenbrand, G.; Bytof, G.; Lantz, I.; Griffiths, L.R.; Marko, D. Induction
+of Antioxidative Nrf2 Gene Transcription by Coffee in Humans: Depending on Genotype? Mol. Biol. Rep. 2012, 39, 7155–7162.
+[CrossRef]
+101. González, S.; Salazar, N.; Ruiz-Saavedra, S.; Gómez-Martín, M.; de Los Reyes-Gavilán, C.G.; Gueimonde, M. Long-Term Coffee
+Consumption Is Associated With Fecal Microbial Composition in Humans. Nutrients 2020, 12, E1287. [CrossRef]
+102. Pérez-Burillo, S.; Mehta, T.; Esteban-Muñoz, A.; Pastoriza, S.; Paliy, O.; Ángel Rufián-Henares, J. Effect of in Vitro Digestion-
+Fermentation on Green and Roasted Coffee Bioactivity. Food Chem. 2019, 279, 252–259. [CrossRef]
+103. Zazueta, C.; Jimenez-Uribe, A.P.; Pedraza-Chaverri, J.; Buelna-Chontal, M. Genetic Variations on Redox Control in Car-
+diometabolic Diseases: The Role of Nrf2. Antioxidants 2022, 11, 507. [CrossRef]
+104. Rut,a, F.; Pribac, M.; Mardale, E.; Suciu, S.; Maior, R.; Bogdan, S.; Avram, C. Associations between Gut Microbiota Dysbiosis and
+Other Risk Factors in Women with a History of Urinary Tract Infections. Nutrients 2024, 16, 1753. [CrossRef] [PubMed]
+105. Tomás-Barberán, F.A.; Selma, M.V.; Espín, J.C. Interactions of Gut Microbiota With Dietary Polyphenols and Consequences to
+Human Health. Curr. Opin. Clin. Nutr. Metab. Care 2016, 19, 471–476. [CrossRef] [PubMed]
+106. Etxeberria, U.; Fernández-Quintela, A.; Milagro, F.I.; Aguirre, L.; Martínez, J.A.; Portillo, M.P. Impact of Polyphenols and
+Polyphenol-Rich Dietary Sources on Gut Microbiota Composition. J. Agric. Food Chem. 2013, 61, 9517–9533. [CrossRef] [PubMed]
+107. Moco, S.; Martin, F.P.; Rezzi, S. Metabolomics View on Gut Microbiome Modulation by Polyphenol-Rich Foods. J. Proteome Res.
+2012, 11, 4781–4790. [CrossRef]
+108. Karaca, B.; Yilmaz, M.; Gursoy, U.K. Targeting Nrf2 with Probiotics and Postbiotics in the Treatment of Periodontitis. Biomolecules
+2022, 12, 729. [CrossRef]
+109. Visser, E.; Geleijnse, J.M.; de Roos, B. Inter-Individual Variation in Cancer and Cardiometabolic Health Outcomes in Response to
+Coffee Consumption. Mol. Nutr. Food Res. 2020, 64, e1900479. [CrossRef]
+110. Clifford, M.N.; King, L.J.; Kerimi, A.; Pereira-Caro, M.G.; Williamson, G. Metabolism of Phenolics in Coffee and Plant-Based
+Foods by Canonical Pathways. Crit. Rev. Food Sci. Nutr. 2024, 64, 3326–3383. [CrossRef]
+111. Erskine, E.; Gültekin Suba¸sı, B.; Vahapoglu, B.; Capanoglu, E. Coffee Phenolics and Their Interaction With Other Food Phenolics:
+Antagonistic and Synergistic Effects. ACS Omega 2022, 7, 1595–1601. [CrossRef]
+112. LIczbi´nski, P.; Bukowska, B. Tea and Coffee Polyphenols and Their Biological Properties Based on the Latest Investigations. Ind.
+Crop Prod. 2022, 175, 114265. [CrossRef]
+113. Carlström, M.; Larsson, S.C. Coffee consumption and reduced risk of developing type 2 diabetes: A systematic review with
+meta-analysis. Nutr. Rev. 2018, 76, 395–417. [CrossRef]
+114. Ding, M.; Bhupathiraju, S.N.; Chen, M.; van Dam, R.M.; Hu, F.B. Caffeinated and Decaffeinated Coffee Consumption and Risk of
+Type 2 Diabetes: A Dose-Response Meta-Analysis. Diabetes Care 2014, 37, 569–586. [CrossRef]
+https://doi.org/10.3390/molecules31091404
+
+Molecules 2026, 31, 1404
+22 of 25
+115. Bae, J.M. Coffee consumption and risk of type 2 diabetes mellitus in Asians: A meta-epidemiological study of population-based
+cohort studies. World J. Diabetes 2021, 12, 908–915. [CrossRef] [PubMed]
+116. Ong, K.W.; Hsu, A.; Tan, B.K. Chlorogenic acid stimulates glucose transport in skeletal muscle via AMPK activation: A contributor
+to the beneficial effects of coffee on diabetes. PLoS ONE 2012, 7, e32718. [CrossRef] [PubMed]
+117. Henn, M.; Glenn, A.J.; Willett, W.C.; Martínez-González, M.A.; Sun, Q.; Hu, F.B. Coffee Consumption, Additive Use, and Risk of
+Type 2 Diabetes-Results From 3 Large Prospective US Cohort Studies. Am. J. Clin. Nutr. 2025, 121, 695–702. [CrossRef]
+118. van Dam, R.M.; Hu, F.B. Coffee Consumption and Risk of Type 2 Diabetes: A Systematic Review. JAMA 2005, 294, 97–104.
+[CrossRef]
+119. Kim, H.; Kim, S.R.; Jung, U.J. Coffee and Its Major Polyphenols in the Prevention and Management of Type 2 Diabetes: A
+Comprehensive Review. Int. J. Mol. Sci. 2025, 26, 5544. [CrossRef]
+120. Alongi, M.; Frías Celayeta, J.M.; Vriz, R.; Kinsella, G.K.; Rulikowska, A.; Anese, M. In Vitro Digestion Nullified the Differences
+Triggered by Roasting in Phenolic Composition and A-Glucosidase Inhibitory Capacity of Coffee. Food Chem. 2021, 342, 128289.
+[CrossRef] [PubMed]
+121. Mitiku, H.; Kim, T.Y.; Kang, H.; Apostolidis, E.; Lee, J.Y.; Kwon, Y.I. Selected Coffee (Coffea arabica L.) Extracts Inhibit Intestinal
+A-Glucosidases Activities in-Vitro and Postprandial Hyperglycemia. BMC Complement. Med. Ther. 2022, 22, 249. [CrossRef]
+[PubMed]
+122. Alongi, M.; Anese, M. Effect of Coffee Roasting on in Vitro A-Glucosidase Activity: Inhibition and Mechanism of Action. Food
+Res. Int. 2018, 111, 480–487. [CrossRef]
+123. Loopstra-Masters, R.C.; Liese, A.D.; Haffner, S.M.; Wagenknecht, L.E.; Hanley, A.J. Associations Between the Intake of Caffeinated
+and Decaffeinated Coffee and Measures of Insulin Sensitivity and Beta Cell Function. Diabetologia 2011, 54, 320–328. [CrossRef]
+124. Kolb, H.; Martin, S.; Kempf, K. Coffee and Lower Risk of Type 2 Diabetes: Arguments for a Causal Relationship. Nutrients 2021,
+13, 1144. [CrossRef]
+125. Hang, D.; Kværner, A.S.; Ma, W.; Hu, Y.; Tabung, F.K.; Nan, H.; Hu, Z.; Shen, H.; Mucci, L.A.; Chan, A.T.; et al. Coffee
+Consumption and Plasma Biomarkers of Metabolic and Inflammatory Pathways in US Health Professionals. Am. J. Clin. Nutr.
+2019, 109, 635–647. [CrossRef] [PubMed]
+126. Ochoa-Rosales, C.; van der Schaft, N.; Braun, K.V.E.; Ho, F.K.; Petermann-Rocha, F.; Ahmadizar, F.; Kavousi, M.; Pell, J.P.; Ikram,
+M.A.; Celis-Morales, C.A.; et al. C-Reactive Protein Partially Mediates the Inverse Association Between Coffee Consumption and
+Risk of Type 2 Diabetes. Clin. Nutr. 2023, 42, 661–669. [CrossRef] [PubMed]
+127. Goya, L.; Sánchez-Medina, A.; Redondo-Puente, M.; Dupak, R.; Bravo, L.; Sarriá, B. Main Colonic Metabolites From Coffee
+Chlorogenic Acid May Counteract TNF-A-Induced Inflammation and Oxidative Stress in 3t3-L1 Cells. Molecules 2023, 29, 88.
+[CrossRef]
+128. Martins, B.C.; Soares, A.C.; Martins, F.F.; Resende, A.C.; Inada, K.O.P.; Souza-Mello, V.; Nunes, N.M.; Daleprane, J.B. Coffee
+Consumption Prevents Obesity-Related Comorbidities and Attenuates Brown Adipose Tissue Whitening in High-Fat Diet-Fed
+Mice. J. Nutr. Biochem. 2023, 117, 109336. [CrossRef]
+129. Wang, Z.; Wang, Q.A.; Liu, Y.; Jiang, L. Energy metabolism in brown adipose tissue. FEBS J. 2021, 288, 3647–3662. [CrossRef]
+130. Wu, Z.; Rosen, E.D.; Brun, R.; Hauser, S.; Adelmant, G.; Troy, A.E.; McKeon, C.; Darlington, G.J.; Spiegelman, B.M. Cross-
+regulation of C/EBP alpha and PPAR gamma controls the transcriptional pathway of adipogenesis and insulin sensitivity. Mol.
+Cell 1999, 3, 151–158. [CrossRef]
+131. Maki, C.; Funakoshi-Tago, M.; Aoyagi, R.; Ueda, F.; Kimura, M.; Kobata, K.; Tago, K.; Tamura, H. Coffee Extract Inhibits
+Adipogenesis in 3t3-L1 Preadipocyes by Interrupting Insulin Signaling Through the Downregulation of IRS1. PLoS ONE 2017, 12,
+e0173264. [CrossRef]
+132. Lee, A.; Lim, W.; Kim, S.; Khil, H.; Cheon, E.; An, S.; Hong, S.; Lee, D.H.; Kang, S.S.; Oh, H.; et al. Coffee Intake and Obesity: A
+Meta-Analysis. Nutrients 2019, 11, E1274. [CrossRef]
+133. Henn, M.; Glenn, A.J.; Willett, W.C.; Martínez-González, M.A.; Sun, Q.; Hu, F.B. Changes in Coffee Intake, Added Sugar and
+Long-Term Weight Gain-Results From Three Large Prospective US Cohort Studies. Am. J. Clin. Nutr. 2023, 118, 1164–1171.
+[CrossRef]
+134. Henn, M.; Babio, N.; Romaguera, D.; Vázquez-Ruiz, Z.; Konieczna, J.; Vioque, J.; Torres-Collado, L.; Razquin, C.; Buil-Cosiales, P.;
+Fitó, M.; et al. Increase From Low to Moderate, but Not High, Caffeinated Coffee Consumption Is Associated With Favorable
+Changes in Body Fat. Clin. Nutr. 2023, 42, 477–485. [CrossRef]
+135. Cao, C.; Liu, Q.; Abufaraj, M.; Han, Y.; Xu, T.; Waldhoer, T.; Shariat, S.F.; Li, S.; Yang, L.; Smith, L. Regular Coffee Consumption Is
+Associated With Lower Regional Adiposity Measured by DXA Among US Women. J. Nutr. 2020, 150, 1909–1915. [CrossRef]
+136. Azad, B.J.; Heshmati, J.; Daneshzad, E.; Palmowski, A. Effects of Coffee Consumption on Arterial Stiffness and Endothelial
+Function: A Systematic Review and Meta-Analysis. Crit. Rev. Food Sci. Nutr. 2021, 61, 1013–1026. [CrossRef] [PubMed]
+137. Yamagata, K. Do Coffee Polyphenols Have a Preventive Action on Metabolic Syndrome Associated Endothelial Dysfunctions?
+An Assessment of the Current Evidence. Antioxidants 2018, 7, E26. [CrossRef]
+https://doi.org/10.3390/molecules31091404
+
+Molecules 2026, 31, 1404
+23 of 25
+138. Silva, H.; Lopes, N.M.F. Cardiovascular Effects of Caffeic Acid and Its Derivatives: A Comprehensive Review. Front. Physiol. 2020,
+11, 595516. 595516. [CrossRef]
+139. Karagöz, M.F.; Koçyi˘git, E.; Koçak, T.; Özturan ¸Sirin, A.; Icer, M.A.; A˘gagündüz, D.; Coreta-Gomes, F. Decoding Coffee
+Cardiometabolic Potential: Chemical Composition, Nutritional, and Health Relationships. Compr. Rev. Food Sci. Food Saf. 2024, 23,
+e13414. [CrossRef] [PubMed]
+140. Poole, R.; Kennedy, O.J.; Roderick, P.; Fallowfield, J.A.; Hayes, P.C.; Parkes, J. Coffee consumption and health: Umbrella review of
+meta-analyses of multiple health outcomes. BMJ. 2017, 359, j5024. [CrossRef] [PubMed]
+141. Chieng, D.; Kistler, P.M. Coffee and tea on cardiovascular disease (CVD) prevention. Trends Cardiovasc. Med. 2022, 32, 399–405.
+[CrossRef] [PubMed]
+142. Godos, J.; Pluchinotta, F.R.; Marventano, S.; Buscemi, S.; Li Volti, G.; Galvano, F.; Grosso, G. Coffee Components and Cardiovascu-
+lar Risk: Beneficial and Detrimental Effects. Int. J. Food Sci. Nutr. 2014, 65, 925–936. [CrossRef]
+143. Ascherio, A.; Schwarzschild, M.A. The Epidemiology of Parkinson’s Disease: Risk Factors and Prevention. Lancet Neurol. 2016,
+15, 1257–1272. [CrossRef]
+144. Zhao, Y.; Lai, Y.; Konijnenberg, H.; Huerta, J.M.; Vinagre-Aragon, A.; Sabin, J.A.; Hansen, J.; Petrova, D.; Sacerdote, C.; Zamora-
+Ros, R.; et al. Association of Coffee Consumption and Prediagnostic Caffeine Metabolites With Incident Parkinson Disease in a
+Population-Based Cohort. Neurology 2024, 102, e209201. [CrossRef] [PubMed]
+145. Lopes, C.R.; Oliveira, A.; Gaspar, I.; Rodrigues, M.S.; Santos, J.; Szabó, E.; Silva, H.B.; Tomé, Â.R.; Canas, P.M.; Agostinho, P.; et al.
+Effects of Chronic Caffeine Consumption on Synaptic Function, Metabolism and Adenosine Modulation in Different Brain Areas.
+Biomolecules 2023, 13, 106. [CrossRef]
+146. Ren, X.; Chen, J.F. Caffeine and Parkinson’s Disease: Multiple Benefits and Emerging Mechanisms. Front. Neurosci. 2020, 14,
+602697. [CrossRef]
+147. Ikram, M.; Park, T.J.; Ali, T.; Kim, M.O. Antioxidant and Neuroprotective Effects of Caffeine Against Alzheimer’s and Parkinson’s
+Disease. Antioxidants 2020, 9, E902. [CrossRef]
+148. Mancini, R.S.; Wang, Y.; Weaver, D.F. Phenylindanes in Brewed Coffee Inhibit Amyloid-Beta and Tau Aggregation. Front. Neurosci.
+2018, 12, 735. [CrossRef]
+149. Chenghan, M.; Wanxin, L.; Bangcheng, Z.; Yao, H.; Qinxi, L.; Ting, Z.; Xiaojie, L.; Kun, Z.; Yingqian, Z.; Zhihui, Z. Short-chain
+fatty acids mediate gut microbiota-brain communication and protect the blood-brain barrier integrity. Ann. N. Y. Acad. Sci. 2025,
+1545, 116–131. [CrossRef]
+150. Lee, L.K.; Mhd Rodzi, N.A.R. Addressing the Neuroprotective Actions of Coffee in Parkinson’s Disease: An Emerging Nutrige-
+nomic Analysis. Antioxidants 2022, 11, 1587. [CrossRef] [PubMed]
+151. Yelanchezian, Y.M.; Waldvogel, H.J.; Faull, R.L.M.; Kwakowsky, A. Neuroprotective Effect of Caffeine in Alzheimer’s Disease.
+Molecules 2022, 27, 3737. [CrossRef]
+152. Ruggiero, M.; Calvello, R.; Porro, C.; Messina, G.; Cianciulli, A.; Panaro, M.A. Neurodegenerative Diseases: Can Caffeine Be a
+Powerful Ally to Weaken Neuroinflammation? Int. J. Mol. Sci. 2022, 23, 12958. 12958. [CrossRef]
+153. Murata, T.; Tago, K.; Miyata, K.; Moriwaki, Y.; Misawa, H.; Kobata, K.; Nakazawa, Y.; Tamura, H.; Funakoshi-Tago, M. Suppression
+of Neuroinflammation by Coffee Component Pyrocatechol via Inhibition of NF-κB in Microglia. Int. J. Mol. Sci. 2023, 25, 316.
+[CrossRef]
+154. Pohanka, M. Role of Caffeine in the Age-Related Neurodegenerative Diseases: A Review. Mini Rev. Med. Chem. 2022, 22,
+2726–2735. [CrossRef]
+155. Larsson, S.C.; Woolf, B.; Gill, D. Plasma Caffeine Levels and Risk of Alzheimer’s Disease and Parkinson’s Disease: Mendelian
+Randomization Study. Nutrients 2022, 14, 1697. [CrossRef] [PubMed]
+156. Nordestgaard, A.T.; Nordestgaard, B.G.; Frikke-Schmidt, R.; Juul Rasmussen, I.; Bojesen, S.E. Self-Reported and Genetically
+Predicted Coffee Consumption and Smoking in Dementia: A Mendelian Randomization Study. Atherosclerosis 2022, 348, 36–43.
+[CrossRef]
+157. Zhang, J.; Liu, Y.; Xu, G.; Cao, X.; Wang, W.; Zhang, D.; Zhu, M. Causal Relationship Between Coffee Intake and Neurological
+Diseases: A Mendelian Randomization Study. Eur. J. Clin. Nutr. 2024, 78, 114–119. [CrossRef]
+158. Zhang, Z.; Wang, M.; Yuan, S.; Cai, H.; Zhu, S.G.; Liu, X. Genetically Predicted Coffee Consumption and Risk of Alzheimer’s
+Disease and Stroke. J. Alzheimer Dis. 2021, 83, 1815–1823. [CrossRef]
+159. Cornelis, M.C.; Munafo, M.R. Mendelian Randomization Studies of Coffee and Caffeine Consumption. Nutrients 2018, 10, E1343.
+[CrossRef] [PubMed]
+160. Kapellou, A.; King, A.; Graham, C.A.M.; Pilic, L.; Mavrommatis, Y. Genetics of Caffeine and Brain-Related Outcomes-A Systematic
+Review of Observational Studies and Randomized Trials. Nutr. Rev. 2023, 81, 1571–1598. [CrossRef] [PubMed]
+161. Low, J.J.; Tan, B.J.; Yi, L.X.; Zhou, Z.D.; Tan, E.K. Genetic Susceptibility to Caffeine Intake and Metabolism: A Systematic Review.
+J. Transl. Med. 2024, 22, 961. [CrossRef] [PubMed]
+https://doi.org/10.3390/molecules31091404
+
+Molecules 2026, 31, 1404
+24 of 25
+162. Katz, P.O.; Dunbar, K.B.; Schnoll-Sussman, F.H.; Greer, K.B.; Yadlapati, R.; Spechler, S.J. ACG Clinical Guideline for the Diagnosis
+and Management of Gastroesophageal Reflux Disease. Am. J. Gastroenterol. 2022, 117, 27–56. [CrossRef] [PubMed]
+163. Fass, R. Gastroesophageal Reflux Disease. N. Engl. J. Med. 2022, 387, 1207–1216. [CrossRef] [PubMed]
+164. Watson, M.S. Clinical Utility of Genetic and Genomic Services: A Position Statement of the American College of Medical Genetics
+and Genomics. Genet. Med. 2015, 17, 505–507. [CrossRef]
+165. Barreto, G.; Grecco, B.; Merola, P.; Reis, C.E.G.; Gualano, B.; Saunders, B. Novel Insights on Caffeine Supplementation, CYP1A2
+Genotype, Physiological Responses and Exercise Performance. Eur. J. Appl. Physiol. 2021, 121, 749–769. [CrossRef]
+166. Prather, J.M.; Florez, C.M.; Vargas, A.; Soto, B.; Ross, A.; Harrison, A.; Secrest, A.H.; Willoughby, D.S.; Kutter, S.; Taylor, L.W.
+Impact of CYP1A2 Genotypes on the Ergogenic Effects and Subjective Mood States of Caffeine Ingestion in Resistance-Trained
+Women. Nutrients 2024, 16, 2767. [CrossRef]
+167. Koonrungsesomboon, N.; Khatsri, R.; Wongchompoo, P.; Teekachunhatean, S. The Impact of Genetic Polymorphisms on CYP1A2
+Activity in Humans: A Systematic Review and Meta-Analysis. Pharmacogenomics J. 2018, 18, 760–768. [CrossRef]
+168. Banks, N.F.; Tomko, P.M.; Colquhoun, R.J.; Muddle, T.W.D.; Emerson, S.R.; Jenkins, N.D.M. Genetic Polymorphisms in ADORA2A
+and CYP1A2 Influence Caffeine’s Effect on Postprandial Glycaemia. Sci. Rep. 2019, 9, 10532. [CrossRef]
+169. Bulczak, E.; Chmurzynska, A. Disclosure of Genotype Information to Reduce Caffeine Intake in Slow Metabolizers. Nutrients
+2025, 17, 3236. [CrossRef]
+170. Kukal, S.; Thakran, S.; Kanojia, N.; Yadav, S.; Mishra, M.K.; Guin, D.; Singh, P.; Kukreti, R. Genic-Intergenic Polymorphisms of
+CYP1A Genes and Their Clinical Impact. Gene 2023, 857, 147171. [CrossRef]
+171. Berman, N.K.; Honig, S.; Cronstein, B.N.; Pillinger, M.H. The Effects of Caffeine on Bone Mineral Density and Fracture Risk.
+Osteoporos. Int. 2022, 33, 1235–1241. [CrossRef] [PubMed]
+172. Liu, Q.P.; Chai, S.T. Caffeine Intake Is Inversely Associated With Osteoporosis Risk Based on Cross-Sectional and Genetic Evidence.
+Sci. Rep. 2025, 15, 20720. [CrossRef]
+173. James, J.E. Maternal Caffeine Consumption and Pregnancy Outcomes. Adv. Exp. Med. Biol. 2026, 1500, 303–336.
+174. Struniewicz, K.M.; Ptaszek, M.M.; Ziółkowska, A.M.; Nitsch-Osuch, A.; Kozłowska, A. Pregnancy and Caffeine Metabolism:
+Updated Insights and Implications for Maternal-Fetal Health. Nutrients 2025, 17, 3173. [CrossRef]
+175. Strocchi, G.; Rubiolo, P.; Cordero, C.; Bicchi, C.; Liberto, E. Acrylamide in Coffee: What Is Known and What Still Needs to Be
+Explored. Food Chem. 2022, 393, 133406. [CrossRef]
+176. da Costa, D.S.; Albuquerque, T.G.; Costa, H.S.; Bragotto, A.P.A. Thermal Contaminants in Coffee Induced by Roasting: A Review.
+Int. J. Environ. Res. Public. Health 2023, 20, 5586. [CrossRef] [PubMed]
+177. Heintz, M.M.; Doepker, C.L.; Wikoff, D.S.; Hawks, S.E. Assessing the food safety risk of ochratoxin A in coffee: A toxicology-based
+approach to food safety planning. J. Food Sci. 2021, 86, 4799–4810. [CrossRef]
+178. Simon-Szabó, Z.; Pál, S.; Pándi, A.; Gáll, Z.; Finta, H.; Incze-Bartha, Z.; Maki, C.; Cucerea, M. Retrospective Analysis of the
+Prevalence and Risk Factors of Retinopathy of Prematurity in a Single-Center Cohort in Romania and Comparison with National
+and European Data. Medicina 2025, 61, 149. [CrossRef]
+179. Andrade, C.; Perestrelo, R.; Câmara, J.S. Bioactive Compounds and Antioxidant Activity From Spent Coffee Grounds as a
+Powerful Approach for Its Valorization. Molecules 2022, 27, 7504. [CrossRef]
+180. Navarro-Hoyos, M.; Vargas-Huertas, L.F.; Chacón-Vargas, J.D.; Leandro-Aguilar, V.; Alvarado-Corella, D.; Vega-Baudrit, J.R.;
+Romero-Esquivel, L.G.; Sánchez-Kopper, A.; Monge-Navarro, A.; Araya-Sibaja, A.M. HRMS Characterization and Antioxidant
+Evaluation of Costa Rican Spent Coffee Grounds as a Source of Bioactive Polyphenolic Extracts. Foods 2025, 14, 448. [CrossRef]
+[PubMed]
+181. Panusa, A.; Zuorro, A.; Lavecchia, R.; Marrosu, G.; Petrucci, R. Recovery of Natural Antioxidants From Spent Coffee Grounds. J.
+Agric. Food Chem. 2013, 61, 4162–4168. [CrossRef]
+182. Pyrzynska, K. Spent Coffee Grounds as a Source of Chlorogenic Acid. Molecules 2025, 30, 613. [CrossRef] [PubMed]
+183. Ramón-Gonçalves, M.; Gómez-Mejía, E.; Rosales-Conrado, N.; León-González, M.E.; Madrid, Y. Extraction, Identification and
+Quantification of Polyphenols From Spent Coffee Grounds by Chromatographic Methods and Chemometric Analyses. Waste
+Manag. 2019, 96, 15–24. [CrossRef]
+184. Karprakhon, V.; Sirisangsawang, R.; Kaewkroek, K.; Rojviroon, T.; Phetyim, N.; Sukpancharoen, S. Optimization of Combined
+Subcritical Water and CO2 Extraction for Enhanced Phenolics and Antioxidant Activity From Coffee Byproducts. Sci. Rep. 2025,
+15, 8964. [CrossRef]
+185. Ge, Y.; He, C.; Zhou, W. Simultaneous Recovery of Mannooligosaccharides and Chlorogenic Acids From Spent Coffee Grounds. J.
+Agric. Food Chem. 2025, 73, 32577–32587. [CrossRef]
+186. Yoo, D.E.; Jeong, K.M.; Han, S.Y.; Kim, E.M.; Jin, Y.; Lee, J. Deep Eutectic Solvent-Based Valorization of Spent Coffee Grounds.
+Food Chem. 2018, 255, 357–364. [CrossRef]
+187. Raza, M.L.; Haghipanah, M.; Moradikor, N. Coffee and stress management: How does coffee affect the stress response? Prog.
+Brain Res. 2024, 288, 59–80. [CrossRef] [PubMed]
+https://doi.org/10.3390/molecules31091404
+
+Molecules 2026, 31, 1404
+25 of 25
+188. Dajero, B.K.; Dag-um, I.J.; Flores, D.J.; Barete, M.; Taja-on, E. Coffee Culture and Mental Health: A Qualitative Exploration of
+Perceptions and Experiences of Coffee Enthusiast. Asia Pac. J. Educ. Technol. Psychol. Soc. Sci. 2025, 1, 1–24. [CrossRef]
+189. Ianosi, E.-S.; Ianosi, R.-I.; Finta, H.; Lefter, R.-A.; Văsies,iu, A.M.; Hut,anu, D.; Ianosi, M.-B. The Influence of Smoking on Respiratory
+Function in Medical Students at the University of Medicine, Pharmacy, Science and Technology of Târgu-Mures,. Biomedicines
+2026, 14, 164. [CrossRef] [PubMed]
+190. Rauf, M.Q.; Sharma, L.; Essiet, E.; Elhassan, O.; Fahim, R.; Irem-Oko, F.; Sreedharan, J. Caffeine Consumption Patterns, Health
+Impacts, and Media Influence: A Narrative Review. Cureus 2025, 17, e86215. [CrossRef]
+191. Nehlig, A. Interindividual Differences in Caffeine Metabolism and Factors Driving Caffeine Consumption. Pharmacol. Rev. 2018,
+70, 384–411. [CrossRef] [PubMed]
+192. Fulton, J.L.; Dinas, P.C.; Carrillo, A.E.; Edsall, J.R.; Ryan, E.J.; Ryan, E.J. Impact of Genetic Variability on Physiological Responses
+to Caffeine in Humans: A Systematic Review. Nutrients 2018, 10, E1373. [CrossRef] [PubMed]
+193. Southward, K.; Rutherfurd-Markwick, K.; Badenhorst, C.; Ali, A. The Role of Genetics in Moderating the Inter-Individual
+Differences in the Ergogenicity of Caffeine. Nutrients 2018, 10, E1352. [CrossRef]
+194. Popa, L.C.; Abu-Awwad, A.; Farcas, S.S.; Abu-Awwad, S.A.; Andreescu, N.I. Genotype-Drug-Diet Interactions in Metabolic
+Regulation: CYP1A2 Rs762551 Modulates the Effect of Caffeine on Lipid and Glucose Profiles. Nutrients 2025, 17, 2288. [CrossRef]
+[PubMed]
+195. Avram, C.; Gligor, A.; Roman, D.; Soylu, A.; Nyulas, V.; Avram, L. Machine learning based assessment of preclinical health
+questionnaires. Int. J. Med. Inform. 2023, 180, 105248. [CrossRef]
+196. Calin, A.; Adrian, G.; Laura, A.E. New approach on optimal decision making based on formal automata models. Procedia Econ.
+Financ. 2012, 3, 852–857. [CrossRef]
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual
+author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to
+people or property resulting from any ideas, methods, instructions or products referred to in the content.
+https://doi.org/10.3390/molecules31091404
