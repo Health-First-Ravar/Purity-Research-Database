@@ -13,7 +13,7 @@ import { createClient } from '@supabase/supabase-js';
 import { embed } from '../lib/voyage';
 
 const KB_ARG = process.argv.indexOf('--kb');
-const DEFAULT_KB = '/Users/jeremybehne/Library/CloudStorage/GoogleDrive-jravar@puritycoffee.com/My Drive/Purity-Lab-Data/knowledge-base';
+const DEFAULT_KB = process.env.KB_ROOT || require('node:path').resolve(process.cwd(), '..', '..', 'knowledge-base');
 const KB_ROOT = KB_ARG >= 0 ? process.argv[KB_ARG + 1] : DEFAULT_KB;
 const DRY = process.argv.includes('--dry');
 
