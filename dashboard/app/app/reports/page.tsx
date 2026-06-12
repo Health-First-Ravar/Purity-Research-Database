@@ -12,12 +12,13 @@ export const dynamic = 'force-dynamic';
 type Search = {
   blend?: string;
   coffee?: string;
-  analyte?: string;
+  analyte?: string | string[];
+  matrix?: string;
   from?: string;
   to?: string;
   origin?: string;
   lab?: string;
-  has_data?: string; // '1' to filter to rows where the chosen analyte is non-null
+  has_data?: string;
 };
 
 const TOP_ANALYTES: { key: string; label: string }[] = [
@@ -45,12 +46,16 @@ function readAnalyte(row: Record<string, unknown>, key: string): number | null {
   return typeof v === 'number' ? v : null;
 }
 
+function asArray(v: string | string[] | undefined): string[] {
+  if (v == null) return [];
+  return Array.isArray(v) ? v : [v];
+}
+
 export default async function ReportsPage({ searchParams }: { searchParams: Promise<Search> }) {
   const params = await searchParams;
 
   const supabase = supabaseServer(await cookies());
 
-  // Admin gets to see / edit limits; everyone gets the colored cells.
   const { data: auth } = await supabase.auth.getUser();
   let isAdminUser = false;
   if (auth.user) {
@@ -68,14 +73,12 @@ export default async function ReportsPage({ searchParams }: { searchParams: Prom
   if (params.coffee) q = q.ilike('coffee_name', `%${params.coffee}%`);
   if (params.origin) q = q.eq('origin', params.origin);
   if (params.lab)    q = q.eq('lab', params.lab);
+  if (params.matrix === 'green' || params.matrix === 'roasted') q = q.eq('matrix', params.matrix);
   if (params.from)   q = q.gte('report_date', params.from);
   if (params.to)     q = q.lte('report_date', params.to);
 
   const { data: rows, error } = await q;
 
-  // Build origin + lab option lists AND year coverage from a separate
-  // (unfiltered) probe so the controls stay populated even when filters
-  // narrow `rows` to nothing.
   const { data: optRows } = await supabase
     .from('coas')
     .select('origin, lab, report_date')
@@ -98,8 +101,6 @@ export default async function ReportsPage({ searchParams }: { searchParams: Prom
   const originOptions = Array.from(originSet).sort();
   const labOptions = Array.from(labSet).sort();
   const yearList = Array.from(yearCounts.entries()).sort((a, b) => a[0].localeCompare(b[0]));
-  // Decide which year (if any) is currently active — when from/to span exactly
-  // one full calendar year, light up that pill.
   const activeYear = (() => {
     if (!params.from || !params.to) return null;
     const f = params.from, t = params.to;
@@ -110,25 +111,6 @@ export default async function ReportsPage({ searchParams }: { searchParams: Prom
   })();
   const isAllDates = !params.from && !params.to;
 
-  // Build a querystring helper that preserves all OTHER filters when toggling
-  // a year pill on/off.
-  function withYear(year: string | null): string {
-    const sp = new URLSearchParams();
-    if (params.blend)    sp.set('blend', params.blend);
-    if (params.origin)   sp.set('origin', params.origin);
-    if (params.lab)      sp.set('lab', params.lab);
-    if (params.coffee)   sp.set('coffee', params.coffee);
-    if (params.analyte)  sp.set('analyte', params.analyte);
-    if (params.has_data) sp.set('has_data', params.has_data);
-    if (year) {
-      sp.set('from', `${year}-01-01`);
-      sp.set('to', `${year}-12-31`);
-    }
-    const qs = sp.toString();
-    return qs ? `/reports?${qs}` : '/reports';
-  }
-
-  // Discover distinct raw analytes across the loaded rows
   const rawSet = new Map<string, { unit: string | null; panel: string | null }>();
   for (const r of rows ?? []) {
     const raw = (r.raw_values ?? {}) as Record<string, RawAnalyte | undefined>;
@@ -144,44 +126,80 @@ export default async function ReportsPage({ searchParams }: { searchParams: Prom
     }))
     .sort((a, b) => a.panel.localeCompare(b.panel) || a.label.localeCompare(b.label));
 
-  const allOptions = [
-    { group: 'Headline', items: TOP_ANALYTES },
-    { group: 'All analytes', items: rawAnalytes.map(({ key, label }) => ({ key, label })) },
-  ];
-
   const flatOptions = [...TOP_ANALYTES, ...rawAnalytes];
-  const analyte = flatOptions.find((a) => a.key === params.analyte) ?? TOP_ANALYTES[0];
-  const matchingLimit = getLimit(analyte.key, limits) ?? null;
+
+  const selectedKeys = asArray(params.analyte).filter((k) => flatOptions.some((o) => o.key === k));
+  const selectedAnalytes = (selectedKeys.length ? selectedKeys : [TOP_ANALYTES[0].key])
+    .map((k) => flatOptions.find((o) => o.key === k)!)
+    .map((o) => ({ key: o.key, label: o.label }));
+  const isMulti = selectedAnalytes.length > 1;
+  const primary = selectedAnalytes[0];
+  const matchingLimit = !isMulti ? (getLimit(primary.key, limits) ?? null) : null;
+
+  function withAnalytes(keys: string[]): string {
+    const sp = new URLSearchParams();
+    if (params.blend)    sp.set('blend', params.blend);
+    if (params.origin)   sp.set('origin', params.origin);
+    if (params.lab)      sp.set('lab', params.lab);
+    if (params.coffee)   sp.set('coffee', params.coffee);
+    if (params.matrix)   sp.set('matrix', params.matrix);
+    if (params.from)     sp.set('from', params.from);
+    if (params.to)       sp.set('to', params.to);
+    if (params.has_data) sp.set('has_data', params.has_data);
+    for (const k of keys) sp.append('analyte', k);
+    const qs = sp.toString();
+    return qs ? `/reports?${qs}` : '/reports';
+  }
+  const allAnalyteKeys = flatOptions.map((o) => o.key);
+
+  function withYear(year: string | null): string {
+    const sp = new URLSearchParams();
+    if (params.blend)    sp.set('blend', params.blend);
+    if (params.origin)   sp.set('origin', params.origin);
+    if (params.lab)      sp.set('lab', params.lab);
+    if (params.coffee)   sp.set('coffee', params.coffee);
+    if (params.matrix)   sp.set('matrix', params.matrix);
+    for (const k of selectedKeys) sp.append('analyte', k);
+    if (params.has_data) sp.set('has_data', params.has_data);
+    if (year) {
+      sp.set('from', `${year}-01-01`);
+      sp.set('to', `${year}-12-31`);
+    }
+    const qs = sp.toString();
+    return qs ? `/reports?${qs}` : '/reports';
+  }
 
   let chartRows = (rows ?? []).map((r) => ({
     ...r,
-    __value: readAnalyte(r as Record<string, unknown>, analyte.key),
+    __value: readAnalyte(r as Record<string, unknown>, primary.key),
   }));
-  // "Has data for selected analyte" — drop rows where the chosen analyte is null/undefined.
   if (params.has_data === '1') {
-    chartRows = chartRows.filter((r) => r.__value != null);
+    chartRows = chartRows.filter((r) =>
+      selectedAnalytes.some((a) => readAnalyte(r as Record<string, unknown>, a.key) != null),
+    );
   }
-  const hasData = !error && chartRows.filter((r) => r.__value != null && r.report_date).length >= 2;
+  const hasData = !error && chartRows.filter((r) =>
+    r.report_date && selectedAnalytes.some((a) => readAnalyte(r as Record<string, unknown>, a.key) != null),
+  ).length >= 2;
   const totalCount = rows?.length ?? 0;
   const visibleCount = chartRows.length;
+
+  const selectInputClass = 'rounded border border-purity-bean/20 bg-white px-2 py-1 dark:border-purity-paper/20 dark:bg-purity-ink dark:text-purity-paper';
 
   return (
     <div>
       <div className="mb-4 flex items-center justify-between gap-3">
         <h1 className="font-serif text-2xl">Reports</h1>
         <div className="flex items-center gap-4">
+          <Link href="/reports/support" className="text-xs text-purity-muted hover:text-purity-green dark:text-purity-mist dark:hover:text-purity-aqua">
+            Customer-support snapshot →
+          </Link>
           {isAdminUser && (
-            <Link
-              href="/reports/limits"
-              className="text-xs text-purity-muted hover:text-purity-green dark:text-purity-mist dark:hover:text-purity-aqua"
-            >
+            <Link href="/reports/limits" className="text-xs text-purity-muted hover:text-purity-green dark:text-purity-mist dark:hover:text-purity-aqua">
               Limits →
             </Link>
           )}
-          <Link
-            href="/reports/mappings"
-            className="text-xs text-purity-muted hover:text-purity-green dark:text-purity-mist dark:hover:text-purity-aqua"
-          >
+          <Link href="/reports/mappings" className="text-xs text-purity-muted hover:text-purity-green dark:text-purity-mist dark:hover:text-purity-aqua">
             Mapping rules →
           </Link>
         </div>
@@ -191,12 +209,10 @@ export default async function ReportsPage({ searchParams }: { searchParams: Prom
         <span className="mr-1 text-xs uppercase tracking-wider text-purity-muted dark:text-purity-mist">Dates</span>
         <Link
           href={withYear(null)}
-          className={
-            'rounded-full border px-2.5 py-0.5 text-[11px] transition ' +
+          className={'rounded-full border px-2.5 py-0.5 text-[11px] transition ' +
             (isAllDates
               ? 'border-purity-bean bg-purity-bean text-purity-cream dark:border-purity-aqua dark:bg-purity-aqua dark:text-purity-ink'
-              : 'border-purity-bean/20 text-purity-bean hover:bg-purity-cream dark:border-purity-paper/20 dark:text-purity-paper dark:hover:bg-purity-ink/40')
-          }
+              : 'border-purity-bean/20 text-purity-bean hover:bg-purity-cream dark:border-purity-paper/20 dark:text-purity-paper dark:hover:bg-purity-ink/40')}
         >
           All ({(optRows ?? []).length})
         </Link>
@@ -206,107 +222,104 @@ export default async function ReportsPage({ searchParams }: { searchParams: Prom
             <Link
               key={year}
               href={active ? withYear(null) : withYear(year)}
-              className={
-                'rounded-full border px-2.5 py-0.5 text-[11px] transition ' +
+              className={'rounded-full border px-2.5 py-0.5 text-[11px] transition ' +
                 (active
                   ? 'border-purity-bean bg-purity-bean text-purity-cream dark:border-purity-aqua dark:bg-purity-aqua dark:text-purity-ink'
-                  : 'border-purity-bean/20 text-purity-bean hover:bg-purity-cream dark:border-purity-paper/20 dark:text-purity-paper dark:hover:bg-purity-ink/40')
-              }
+                  : 'border-purity-bean/20 text-purity-bean hover:bg-purity-cream dark:border-purity-paper/20 dark:text-purity-paper dark:hover:bg-purity-ink/40')}
             >
               {year} <span className="text-purity-muted dark:text-purity-mist">{count}</span>
             </Link>
           );
         })}
         {undatedCount > 0 && (
-          <span
-            className="rounded-full border border-purity-gold/30 bg-purity-gold/10 px-2.5 py-0.5 text-[11px] text-purity-muted dark:text-purity-mist"
-            title="COAs without a parsed report_date"
-          >
+          <span className="rounded-full border border-purity-gold/30 bg-purity-gold/10 px-2.5 py-0.5 text-[11px] text-purity-muted dark:text-purity-mist" title="COAs without a parsed report_date">
             no date · {undatedCount}
           </span>
         )}
       </div>
+
       <form className="mb-6 grid gap-3 rounded-lg border border-purity-bean/10 bg-white p-4 text-sm dark:border-purity-paper/10 dark:bg-purity-shade md:grid-cols-4">
         <label className="flex flex-col gap-1">
           <span className="text-xs text-purity-muted dark:text-purity-mist">Blend</span>
-          <select name="blend" defaultValue={params.blend ?? ''} className="rounded border border-purity-bean/20 bg-white px-2 py-1 dark:border-purity-paper/20 dark:bg-purity-ink dark:text-purity-paper">
+          <select name="blend" defaultValue={params.blend ?? ''} className={selectInputClass}>
             <option value="">(any)</option>
-            {['PROTECT', 'FLOW', 'EASE', 'CALM'].map((b) => (
-              <option key={b} value={b}>{b}</option>
-            ))}
+            {['PROTECT', 'FLOW', 'EASE', 'CALM'].map((b) => <option key={b} value={b}>{b}</option>)}
+          </select>
+        </label>
+        <label className="flex flex-col gap-1">
+          <span className="text-xs text-purity-muted dark:text-purity-mist">Green / Roasted</span>
+          <select name="matrix" defaultValue={params.matrix ?? ''} className={selectInputClass}>
+            <option value="">(all)</option>
+            <option value="roasted">Roasted</option>
+            <option value="green">Green</option>
           </select>
         </label>
         <label className="flex flex-col gap-1">
           <span className="text-xs text-purity-muted dark:text-purity-mist">Origin</span>
-          <select name="origin" defaultValue={params.origin ?? ''} className="rounded border border-purity-bean/20 bg-white px-2 py-1 dark:border-purity-paper/20 dark:bg-purity-ink dark:text-purity-paper">
+          <select name="origin" defaultValue={params.origin ?? ''} className={selectInputClass}>
             <option value="">(any)</option>
-            {originOptions.map((o) => (
-              <option key={o} value={o}>{o}</option>
-            ))}
+            {originOptions.map((o) => <option key={o} value={o}>{o}</option>)}
           </select>
         </label>
         <label className="flex flex-col gap-1">
           <span className="text-xs text-purity-muted dark:text-purity-mist">Lab</span>
-          <select name="lab" defaultValue={params.lab ?? ''} className="rounded border border-purity-bean/20 bg-white px-2 py-1 dark:border-purity-paper/20 dark:bg-purity-ink dark:text-purity-paper">
+          <select name="lab" defaultValue={params.lab ?? ''} className={selectInputClass}>
             <option value="">(any)</option>
-            {labOptions.map((l) => (
-              <option key={l} value={l}>{l}</option>
-            ))}
+            {labOptions.map((l) => <option key={l} value={l}>{l}</option>)}
           </select>
         </label>
         <label className="flex flex-col gap-1">
           <span className="text-xs text-purity-muted dark:text-purity-mist">Coffee (contains)</span>
-          <input name="coffee" defaultValue={params.coffee ?? ''} className="rounded border border-purity-bean/20 bg-white px-2 py-1 dark:border-purity-paper/20 dark:bg-purity-ink dark:text-purity-paper dark:placeholder:text-purity-mist/70" />
+          <input name="coffee" defaultValue={params.coffee ?? ''} className={selectInputClass + ' dark:placeholder:text-purity-mist/70'} />
         </label>
-        <label className="flex flex-col gap-1">
-          <span className="text-xs text-purity-muted dark:text-purity-mist">Analyte</span>
-          <select name="analyte" defaultValue={analyte.key} className="rounded border border-purity-bean/20 bg-white px-2 py-1 dark:border-purity-paper/20 dark:bg-purity-ink dark:text-purity-paper">
-            {allOptions.map((g) => (
-              <optgroup key={g.group} label={g.group}>
-                {g.items.map((a) => <option key={a.key} value={a.key}>{a.label}</option>)}
-              </optgroup>
-            ))}
+        <label className="flex flex-col gap-1 md:col-span-2">
+          <span className="flex items-center justify-between text-xs text-purity-muted dark:text-purity-mist">
+            <span>Analytes (select one or several)</span>
+            <span className="flex gap-2">
+              <Link href={withAnalytes(allAnalyteKeys)} className="hover:text-purity-green dark:hover:text-purity-aqua">All</Link>
+              <Link href={withAnalytes([TOP_ANALYTES[0].key])} className="hover:text-purity-green dark:hover:text-purity-aqua">Clear</Link>
+            </span>
+          </span>
+          <select
+            name="analyte"
+            multiple
+            size={6}
+            defaultValue={selectedAnalytes.map((a) => a.key)}
+            className={selectInputClass}
+          >
+            <optgroup label="Headline">
+              {TOP_ANALYTES.map((a) => <option key={a.key} value={a.key}>{a.label}</option>)}
+            </optgroup>
+            <optgroup label="All analytes">
+              {rawAnalytes.map((a) => <option key={a.key} value={a.key}>{a.label}</option>)}
+            </optgroup>
           </select>
+          <span className="text-[11px] text-purity-muted dark:text-purity-mist">
+            Cmd/Ctrl-click to pick several — each becomes its own line on the graph.
+          </span>
         </label>
         <label className="flex flex-col gap-1">
           <span className="text-xs text-purity-muted dark:text-purity-mist">From</span>
-          <input type="date" name="from" defaultValue={params.from ?? ''} className="rounded border border-purity-bean/20 bg-white px-2 py-1 dark:border-purity-paper/20 dark:bg-purity-ink dark:text-purity-paper" />
+          <input type="date" name="from" defaultValue={params.from ?? ''} className={selectInputClass} />
         </label>
         <label className="flex flex-col gap-1">
           <span className="text-xs text-purity-muted dark:text-purity-mist">To</span>
-          <input type="date" name="to" defaultValue={params.to ?? ''} className="rounded border border-purity-bean/20 bg-white px-2 py-1 dark:border-purity-paper/20 dark:bg-purity-ink dark:text-purity-paper" />
+          <input type="date" name="to" defaultValue={params.to ?? ''} className={selectInputClass} />
         </label>
         <label className="flex items-end gap-2 pb-1">
-          <input
-            type="checkbox"
-            name="has_data"
-            value="1"
-            defaultChecked={params.has_data === '1'}
-            className="h-4 w-4 rounded border-purity-bean/30 dark:border-purity-paper/30"
-          />
-          <span className="text-xs text-purity-muted dark:text-purity-mist">
-            Only rows with data for this analyte
-          </span>
+          <input type="checkbox" name="has_data" value="1" defaultChecked={params.has_data === '1'} className="h-4 w-4 rounded border-purity-bean/30 dark:border-purity-paper/30" />
+          <span className="text-xs text-purity-muted dark:text-purity-mist">Only rows with data for a selected analyte</span>
         </label>
         <div className="md:col-span-4 flex flex-wrap items-center gap-3">
           <button className="rounded-md bg-purity-bean px-4 py-1.5 text-xs font-medium text-purity-cream dark:bg-purity-aqua dark:text-purity-ink">
             Apply
           </button>
-          <Link
-            href="/reports"
-            className="text-xs text-purity-muted hover:text-purity-green dark:text-purity-mist dark:hover:text-purity-aqua"
-          >
+          <Link href="/reports" className="text-xs text-purity-muted hover:text-purity-green dark:text-purity-mist dark:hover:text-purity-aqua">
             Clear filters
           </Link>
-          <span className="text-xs text-purity-muted dark:text-purity-mist">
-            {visibleCount} of {totalCount} matching
-          </span>
+          <span className="text-xs text-purity-muted dark:text-purity-mist">{visibleCount} of {totalCount} matching</span>
           {chartRows.length > 0 && (
-            <CsvDownload
-              rows={chartRows as Record<string, unknown>[]}
-              analyteKey="__value"
-              analyteLabel={analyte.label}
-            />
+            <CsvDownload rows={chartRows as Record<string, unknown>[]} analyteKey="__value" analyteLabel={primary.label} />
           )}
         </div>
       </form>
@@ -316,23 +329,22 @@ export default async function ReportsPage({ searchParams }: { searchParams: Prom
           <div className="lg:col-span-2">
             <AnalyteChart
               rows={chartRows as Parameters<typeof AnalyteChart>[0]['rows']}
-              analyteKey="__value"
-              analyteLabel={analyte.label}
+              analytes={selectedAnalytes}
               limit={matchingLimit}
             />
           </div>
           <div className="lg:col-span-1">
             <AnalyteLimitsPanel
-              analyteKey={analyte.key}
-              analyteLabel={analyte.label}
+              analyteKey={primary.key}
+              analyteLabel={primary.label}
               limit={matchingLimit}
             />
           </div>
         </div>
       ) : visibleCount > 0 ? (
         <p className="mb-6 text-sm text-purity-muted dark:text-purity-mist">
-          Chart needs at least 2 data points for this analyte. Try a broader filter, another analyte,
-          or untick &quot;Only rows with data for this analyte&quot; to see all matching rows.
+          Chart needs at least 2 data points for a selected analyte. Try a broader filter, another analyte,
+          or untick &quot;Only rows with data for a selected analyte&quot; to see all matching rows.
         </p>
       ) : null}
 
@@ -345,7 +357,7 @@ export default async function ReportsPage({ searchParams }: { searchParams: Prom
               <th className="p-3">Lot</th>
               <th className="p-3">Origin</th>
               <th className="p-3">Region</th>
-              <th className="p-3">{analyte.label}</th>
+              <th className="p-3">{primary.label}</th>
               <th className="p-3">Lab</th>
             </tr>
           </thead>
@@ -361,25 +373,20 @@ export default async function ReportsPage({ searchParams }: { searchParams: Prom
               </tr>
             )}
             {chartRows.slice().sort((a, b) => String(b.report_date ?? '').localeCompare(String(a.report_date ?? ''))).map((r) => {
-              // Limit-aware styling for the analyte value cell.
-              // For 'raw:'-prefixed analyte keys, evaluate against raw_values qualifier; for headlines, against value_qualifiers map.
               const reported = (() => {
-                if (analyte.key.startsWith('raw:')) {
-                  const name = analyte.key.slice(4);
+                if (primary.key.startsWith('raw:')) {
+                  const name = primary.key.slice(4);
                   const raw = (r.raw_values ?? {}) as Record<string, { as_reported?: string | null }>;
                   return raw[name]?.as_reported ?? null;
                 }
                 const qmap = (r.value_qualifiers ?? {}) as Record<string, string>;
-                return qmap[analyte.key] ?? null;
+                return qmap[primary.key] ?? null;
               })();
-              const cellEval = evaluate({ key: analyte.key, value: typeof r.__value === 'number' ? r.__value : null, reported, limits });
+              const cellEval = evaluate({ key: primary.key, value: typeof r.__value === 'number' ? r.__value : null, reported, limits });
               const cellClass = statusStyle(cellEval.status);
               const cellDisplay = r.__value == null && !reported ? '—' : fmtValue(typeof r.__value === 'number' ? r.__value : null, reported);
               return (
-                <tr
-                  key={r.id as string}
-                  className="border-b border-purity-bean/5 transition hover:bg-purity-cream/40 dark:border-purity-paper/5 dark:hover:bg-purity-ink/40"
-                >
+                <tr key={r.id as string} className="border-b border-purity-bean/5 transition hover:bg-purity-cream/40 dark:border-purity-paper/5 dark:hover:bg-purity-ink/40">
                   <td className="p-3"><Link href={`/reports/${r.id}`} className="block">{(r.report_date as string) ?? '—'}</Link></td>
                   <td className="p-3"><Link href={`/reports/${r.id}`} className="block">{(r.blend as string) ?? '—'} {r.coffee_name ? <span className="text-purity-muted dark:text-purity-mist">· {r.coffee_name as string}</span> : null}</Link></td>
                   <td className="p-3 font-mono text-xs"><Link href={`/reports/${r.id}`} className="block">{(r.lot_number as string) ?? '—'}</Link></td>

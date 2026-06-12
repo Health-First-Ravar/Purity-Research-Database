@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "status": "UNRESOLVED",
+  "product_key": null,
+  "report_number": "RESEARCH-2023-01-swiss-water-honduras-18-conejo-blend-washed-2021-22",
+  "test_date": "2023-01-01",
+  "sample_name": "Swiss Water - Honduras – 18 Conejo – Blend – Washed - 2021/22",
+  "lot_or_po": null,
+  "supersedes": null,
+  "superseded_by": null,
+  "lab": "Laboratorio de Quimica e Bioatividade de Alimentos & Nucleo de Pesquisa em Cafe Prof. Luiz Carlos Trugo (UFRJ)",
+  "serving_size_g": null,
+  "matrix": "green",
+  "source_file": "COAs/Purity results - January - 2023 (1).docx",
+  "source_hash": "fb2ae5939fedc127",
+  "parse_confidence": 0.9,
+  "parse_notes": [
+    "grid COA: 1 of N coffees from a multi-sample Trugo/Farah research report",
+    "values are mean of mean+/-SD as reported"
+  ],
+  "analytes": [
+    {
+      "analyte": "Water content",
+      "panel": "moisture",
+      "value_normalized": 8.22,
+      "unit_normalized": "%",
+      "value_as_reported": "8.22 ± 0.05",
+      "unit_as_reported": "%",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Caffeine",
+      "panel": "alkaloids",
+      "value_normalized": 0.06,
+      "unit_normalized": "g/100g",
+      "value_as_reported": "0.06 ± 0.00",
+      "unit_as_reported": "g/100g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Trigonelline",
+      "panel": "alkaloids",
+      "value_normalized": 0.92,
+      "unit_normalized": "g/100g",
+      "value_as_reported": "0.92 ± 0.02",
+      "unit_as_reported": "g/100g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "3-CQA",
+      "panel": "chlorogenic_acids",
+      "value_normalized": 1030.19,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "1030.19 ± 2.08",
+      "unit_as_reported": "mg/100g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "4-CQA",
+      "panel": "chlorogenic_acids",
+      "value_normalized": 1086.81,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "1086.81 ± 3.14",
+      "unit_as_reported": "mg/100g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "5-CQA",
+      "panel": "chlorogenic_acids",
+      "value_normalized": 2044.76,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "2044.76 ± 4.30",
+      "unit_as_reported": "mg/100g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "3-FQA",
+      "panel": "chlorogenic_acids",
+      "value_normalized": 5.62,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "5.62 ± 0.09",
+      "unit_as_reported": "mg/100g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "4-FQA",
+      "panel": "chlorogenic_acids",
+      "value_normalized": 64.78,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "64.78 ± 0.37",
+      "unit_as_reported": "mg/100g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "5-FQA",
+      "panel": "chlorogenic_acids",
+      "value_normalized": 162.42,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "162.42 ± 2.87",
+      "unit_as_reported": "mg/100g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "3,4-diCQA",
+      "panel": "chlorogenic_acids",
+      "value_normalized": 75.91,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "75.91 ± 1.05",
+      "unit_as_reported": "mg/100g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "3,5-diCQA",
+      "panel": "chlorogenic_acids",
+      "value_normalized": 183.74,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "183.74 ± 1.69",
+      "unit_as_reported": "mg/100g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "4,5-diCQA",
+      "panel": "chlorogenic_acids",
+      "value_normalized": 82.95,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "82.95 ± 0.97",
+      "unit_as_reported": "mg/100g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Total CGA",
+      "panel": "chlorogenic_acids",
+      "value_normalized": 4.73,
+      "unit_normalized": "g/100g",
+      "value_as_reported": "4.73 ± 0.12",
+      "unit_as_reported": "g/100g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    }
+  ],
+  "ingested_at": "2026-06-12T12:37:47.256790+00:00"
+}
