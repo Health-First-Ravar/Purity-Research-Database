@@ -1,0 +1,499 @@
+molecules
+Article
+The Coffee Diterpene, Kahweol, Ameliorates Pancreatic β-Cell
+Function in Streptozotocin (STZ)-Treated Rat INS-1 Cells
+through NF-kB and p-AKT/Bcl-2 Pathways
+Waseem El-Huneidi 1,2,*
+, Shabana Anjum 2, Khuloud Bajbouj 1
+, Eman Abu-Gharbieh 2,3
+and Jalal Taneera 1,2,*
+
+
+Citation: El-Huneidi, W.; Anjum, S.;
+Bajbouj, K.; Abu-Gharbieh, E.;
+Taneera, J. The Coffee Diterpene,
+Kahweol, Ameliorates Pancreatic
+β-Cell Function in Streptozotocin
+(STZ)-Treated Rat INS-1 Cells
+through NF-kB and p-AKT/Bcl-2
+Pathways. Molecules 2021, 26, 5167.
+https://doi.org/10.3390/
+molecules26175167
+Academic Editors: Masao Yamasaki
+and Shaikh Mizanoor Rahman
+Received: 27 July 2021
+Accepted: 24 August 2021
+Published: 26 August 2021
+Publisher’s Note: MDPI stays neutral
+with regard to jurisdictional claims in
+published maps and institutional afﬁl-
+iations.
+Copyright: © 2021 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed
+under
+the
+terms
+and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).
+1
+Department of Basic Medical Sciences, College of Medicine, University of Sharjah,
+Sharjah 27272, United Arab Emirates; Kbajbouj@sharjah.ac.ae
+2
+Sharjah Institute for Medical Research, University of Sharjah, Sharjah 27272, United Arab Emirates;
+anjum6repro@gmail.com (S.A.); eabugharbieh@sharjah.ac.ae (E.A.-G.)
+3
+Department of Clinical Sciences, College of Medicine, University of Sharjah,
+Sharjah 27272, United Arab Emirates
+*
+Correspondence: welhuneidi@sharjah.ac.ae (W.E.-H.); jtaneera@sharjah.ac.ae (J.T.);
+Tel.: +97-(16)-5057222 (W.E.-H.); +97-(16)-5057743 (J.T.)
+Abstract: Kahweol is a diterpene molecule found in coffee that exhibits a wide range of biological
+activity, including anti-inﬂammatory and anticancer properties. However, the impact of kahweol on
+pancreatic β-cells is not known. Herein, by using clonal rat INS-1 (832/13) cells, we performed several
+functional experiments including; cell viability, apoptosis analysis, insulin secretion and glucose
+uptake measurements, reactive oxygen species (ROS) production, as well as western blotting analysis
+to investigate the potential role of kahweol pre-treatment on damage induced by streptozotocin (STZ)
+treatment. INS-1 cells pre-incubated with different concentrations of kahweol (2.5 and 5 µM) for 24 h,
+then exposed to STZ (3 mmol/L) for 3 h reversed the STZ-induced effect on cell viability, apoptosis,
+insulin content, and secretion in addition to glucose uptake and ROS production. Furthermore,
+Western blot analysis showed that kahweol downregulated STZ-induced nuclear factor kappa B
+(NF-κB), and the antioxidant proteins, Heme Oxygenase-1 (HMOX-1), and Inhibitor of DNA binding
+and cell differentiation (Id) proteins (ID1, ID3) while upregulated protein expression of insulin
+(INS), p-AKT and B-cell lymphoma 2 (BCL-2). In conclusion, our study suggested that kahweol
+has anti-diabetic properties on pancreatic β-cells by suppressing STZ induced apoptosis, increasing
+insulin secretion and glucose uptake. Targeting NF-κB, p-AKT, and BCL-2 in addition to antioxidant
+proteins ID1, ID3, and HMOX-1 are possible implicated mechanisms.
+Keywords: kahweol; diabetes; streptozotocin; apoptosis; pancreatic β-cells; insulin secretion; INS-1 cells
+1. Introduction
+Diabetes mellitus (DM) is a metabolic condition associated with high blood glucose
+levels over long periods. The most common types of DM are type 1 and type 2 diabetes.
+T1D is characterized by β-cell dysfunction and apoptosis due to autoimmune disorder,
+leading to a lifelong reliance on insulin therapy. On the other hand, T2D is characterized by
+insufﬁcient insulin and/or insulin resistance [1]. Typically, secreted insulin from pancreatic
+β-cells maintain normal glucose concentration in circulation [1]. Consequently, dysfunc-
+tional conditions of pancreatic β-cells, such as apoptosis, glucotoxicity, and oxidative stress,
+may cause disturbance in insulin production and secretion [2].
+Glucose molecules enter cells through glucose transporters under prolonged hyper-
+glycemic conditions; consequently, an increasing amount of glycolysis occurs in the β-cells,
+culminating in a further increase in ROS (reactive oxygen species) production through
+multiple routes [3]. When ROS continuously increases, oxidative stress occurs, leading to
+Molecules 2021, 26, 5167. https://doi.org/10.3390/molecules26175167
+https://www.mdpi.com/journal/molecules
+
+Molecules 2021, 26, 5167
+2 of 11
+cell damage and apoptosis in pancreatic cells. Therefore, inhibiting ROS formation from
+glucose metabolism may reduce oxidative damage and apoptosis in pancreatic cells [3].
+A growing body of research suggests that a healthy lifestyle with exercise and diet
+can mitigate T2D. In addition, various epidemiological studies suggest that moderate
+coffee intake is allied with a lower risk of developing T2D [4,5]. Kahweol (as shown
+in Figure 1) is a coffee diterpene molecule found in abundance in arabica coffee bean
+oil [6]. In arabica coffee, kahweol content ranges between 661 and 923 mg/100 g [7], while
+in coffee oil, kahweol concentration is between 33 and 42 g/Kg oil [8]. Recently, it has
+been shown that kahweol has various physiological activities, including anti-proliferative,
+anti-inﬂammatory, anti-ﬁbrotic, anti-angiogenic, and antioxidant effects in different cell
+types [9,10]. In addition, kahweol has been demonstrated to diminish liver inﬂammation
+in hepatocytes by reducing the activation of nuclear factor kappa B (NF-kB), as well as
+signal transducer and transcription factors (STAT3) [11].
+Figure 1. Chemical structure of kahweol.
+Nonetheless, the issue of whether kahweol could have a protective role in β-cell
+damage is unknown. Therefore, the effect of kahweol pre-treatment on STZ-induced
+apoptosis and oxidative stress in rat insulinoma (INS-1 832/13) cells was examined in this
+work. Moreover, we explored the NF-κB signaling pathway as a possible mechanism.
+2. Results
+2.1. Kahweol Protects INS-1 Cells against STZ-Induced Damage
+As illustrated in Figure 2A, MTT assay results revealed that treating INS-1 cells with
+various concentrations (2.5–10 µM) of kahweol showed no signiﬁcant effect of cell viability
+compared to untreated control cells (p > 0.05). In contrast, a substantial reduction in viable
+cells (~50%; p < 0.05) was observed in INS-1 cells exposed to STZ (3 µM) for 3 h (Figure 2B).
+Next, we tested whether kahweol has a protective effect in INS-1 against STZ-treatment. As
+shown in Figure 2C, cells pre-incubated with different concentrations (2.5 and 5.0 µM) of
+kahweol for 24 h prior to STZ-treatment exhibited a dramatic improvement in cell viability
+level (~55%; p < 0.05).
+Likewise, apoptosis assay tested by annexin-V staining revealed a signiﬁcant increase
+(~9.5%; p > 0.05) in the percentage of apoptotic cells (early and late apoptosis) out of the
+total number of STZ-treated cells, compared to 2.4% in the control cells (Figure 2C, upper
+panels). Necrotic cells stained by the counterstain propidium iodide (PI) that discriminates
+necrotic cells from apoptotic cells showed a 2.7% in STZ-treated cells compared to 0.4%
+in the control cells (p > 0.05) (Figure 2C, upper panels). Interestingly, cells pre-incubated
+with 2.5 µM of kahweol showed a signiﬁcant decrease (p > 0.05) in the apoptotic (6%) and
+necrotic cells (1.4%) compared to cells with no kahweol (Figure 2C, lower panels). The
+decrease in apoptotic (4.3%) and necrotic (0.04%) cells was greater with 5 µM kahweol
+treatment (p > 0.05) compared to STZ-treatment alone (Figure 2C, lower panels). These
+ﬁndings demonstrate that kahweol can protect INS-1 cells against STZ-induced damage.
+
+Molecules 2021, 26, 5167
+3 of 11
+Figure 2. Effect of kahweol on viability and apoptosis in STZ-treated cells. (A) Percentage of cell viability in INS-
+1 cells treated with different concentrations of kahweol (2.5, 5, 10 µM) for 24 h compared to control cells (untreated
+cells). (B) Percentage of cell viability in INS-1 cells exposed to STZ (3 mM) or cells pre-incubated for 24 h with different
+concentrations of kahweol (2.5 and 5 µM) followed by STZ treatment compared to control cells. (C) Assessment of apoptosis
+in control cells, STZ-treated cells for 3 h and cells pre-incubated with kahweol for 24 h followed by STZ-treatment as
+analyzed by ﬂow cytometry. Q1 represents the necrotic cell population, Q2 represents the late apoptosis cell population,
+Q3 represents the early apoptosis cell population. Data are shown from three independent experiments. ** p < 0.01. Bars
+represent mean ± SD.
+2.2. Kahweol Increases Insulin Secretion and Content in STZ-Treated Cells
+As illustrated in Figure 3A, INS-1 cells treated with STZ showed signiﬁcant decrease
+in glucose-stimulated insulin secretion (GSIS) at basal level (2.8 mM) (~50%; p < 0.05)
+and stimulation level (16.7 mM) (~44%; p < 0.05) compared to control cells. Furthermore,
+STZ-treated cells showed less insulin content (~40%; p < 0.05) compared to untreated cells
+(Figure 3A).
+Interestingly, pre-incubating STZ-treated INS-1 cells with kahweol (2.5 and 5 µM) for
+24 h exhibited a signiﬁcantly increased insulin secretion at 2.8 mM or 16.7 mM glucose
+(p < 0.05) (Figure 3A). A three-fold increase in basal insulin secretion was observed at
+2.5 and 5 µM of kahweol pre-incubation. The stimulation of insulin secretion increased
+almost two-fold (Figure 3A) relative to STZ-treated cells. The increase in insulin secretion
+was associated with a dramatic elevation in insulin content in cells pre-incubated with
+kahweol compared to STZ-treated cells (p < 0.05) (Figure 3B). Cells pre-incubated with
+5 µM of kahweol showed an almost one-fold increase in insulin content (Figure 3B). This
+was further conﬁrmed with Western blot of insulin, where STZ-treated cells showed a
+signiﬁcant decrease in insulin expression while kahweol treated cells recovered the insulin
+expression, as shown in Figure 3C.
+
+Molecules 2021, 26, 5167
+4 of 11
+Figure 3. Effect of kahweol on insulin secretion, content, expression, and glucose uptake in STZ-
+treated cells. (A) Normalized stimulated insulin secretion in response to 2.8 mM glucose and 16.7 mM
+glucose as determined by ELISA in STZ-treated cells for 3 h or cells pre-incubated with kahweol
+for 24 h followed by STZ-treatment compared to control cells. (B) Normalized insulin content
+measurements from STZ-treated cells for 3 h or cells pre-incubated with kahweol for 24 h followed
+by STZ-treatment compared to control cells. (C) Western blot analysis of INS (insulin) in STZ-treated
+cells for 3 h or cells pre-incubated with kahweol for 24 h followed by STZ-treatment compared to
+control cells. β-actin was used as endogenous control. Data are shown from three independent
+experiments. * p < 0.05 and ** p < 0.01. Bars represent mean ± SD.
+2.3. Kahweol Reduces Intracellular ROS and Increases Glucose Uptake in INS-1 Cells
+ROS measurements in STZ-treated cells revealed an increase in the ROS level lumines-
+cence (RLU) (~50%; p < 0.05) compared to control cells (Figure 4A). Alternatively, kahweol
+pre-incubated cells (2.5 or 5 µM) substantially reduced (~60%; p < 0.05) the ROS level
+luminescence (RLU) when compared to STZ-treated cells (Figure 4A). In addition, we
+found that STZ-treated cells exhibited a signiﬁcant decrease in the level of glucose uptake
+(~60%; p < 0.05) relative to control cells (Figure 4B). Pre-incubated cells with kahweol (2.5
+or 5 µM) reversed glucose uptake activity (~55%; p < 0.5) to average level compared to
+STZ-treated cells (Figure 4B).
+
+Molecules 2021, 26, 5167
+5 of 11
+Figure 4. Effect of kahweol on ROS production and glucose uptake in STZ-treated cells. (A) Levels
+of ROS were determined by ﬂuorescence intensity in STZ-treated cells for 3 h or pre-incubated
+with kahweol for 24 h, followed by STZ-treatment compared to control cells. (B) Glucose uptake
+assessment as determined by ﬂow cytometry in STZ-treated cells for 3 h or pre-incubated with
+kahweol for 24 h followed by STZ-treatment compared to control cells. Data are shown from three
+independent experiments. * p < 0.05 and ** p < 0.01 Bars represent mean ± SD.
+2.4. Kahweol’s Effect on NF-κB Activation, p-AKT and Bcl-2, HMOX1, ID1 and ID3 Protein
+Expression
+As illustrated in Figure 5, STZ-treated cells induced the expression of H1 (Figure 5A,G)
+and NF-κB (Figure 5B,H), ID1 (Figure 5E,K), and ID3 (Figure 5F,L), whereas marked
+suppression of Bcl2 (Figure 5D,J) was observed. In addition, the relative Expression of p-
+AKT/AKT showed a signiﬁcant reduction was observed (Figure 5C,I). Upon pre-incubation
+with 2.5 or 5 µM of kahweol, a signiﬁcant down-regulation of NF-κB, Hmox1, ID1, and ID3
+was manifested (p < 0.05). In contrast, the expression of BCL-2 and relative p-AKT/AKT
+was increased after kahweol pre-incubation (p < 0.05), as shown in Figure 5.
+
+Molecules 2021, 26, 5167
+6 of 11
+Figure 5. Effect of kahweol on the protein expression in STZ-treated cells. Western blot analysis of HMOX1 (A,G), NF-κB
+(B,H), p-AKT (C,I), Bcl2 (D,J), ID1 (E,K), and ID3 (F,L) in STZ-treated cells for 3 h or cells pre-incubated with kahweol for
+24 h followed by STZ-treatment compared to control cells. β-actin was used as endogenous control. * p < 0.05 and ** p < 0.01.
+Bars represent mean ± SD.
+3. Discussion
+Coffee is among the most extensively consumed drinks globally; it contains many
+effective anti-diabetic compounds, including caffeine, kahweol, cafestol, and chlorogenic
+acid [12–18]. On the other hand, literature reported that high coffee consumption is associ-
+ated with some adverse effects such as gastrointestinal disturbances, tachycardia, and sleep
+disorders. However, these effects are mainly related to methylxanthine alkaloid, caffeine,
+especially when consumed orally in a dose of more than 400 mg per day [19]. On the other
+hand, cafestol and kahweol have been reported to be linked to lipid disturbances [10].
+Yet, the anti-diabetic effect of kahweol has not been investigated. This study demon-
+strated that kahweol could protect the clonal rat pancreatic β-cell (INS-1832/13) against
+STZ-induced damage, enhanced insulin secretion, insulin content, decreased ROS levels,
+and increased glucose uptake. Moreover, we found that cells pre-incubated with kahweol
+down-regulated the expression of NF-κB, HMOX1, ID1, and ID3 and upregulated the
+expression of BCL-2, p-AKT, and INS. Thus, to the best of our knowledge, this is the ﬁrst
+study that demonstrates a beneﬁcial effect of kahweol on pancreatic β-cells.
+Our data showed that kahweol restored the capacity of INS-1 cells to produce and
+secrete insulin and glucose uptake in the STZ-treated cells. In line with our ﬁnding, it has
+been reported that cafestol, a fatty ester present in Turkish coffee with a single bond in
+
+Molecules 2021, 26, 5167
+7 of 11
+its structure, can stimulate glucose uptake and secretion of insulin in INS-1E and muscle
+cells [15]. In contrast, oxokahweol, a synthetic derivative of kahweol, showed no signiﬁcant
+effects on insulin secretion [15]. Even though the impact of oxokahweol was unexpected,
+the molecular mechanism underlying the effect of cafestol is still unrevealed. The increased
+level of insulin secretion in our study was accompanied by a signiﬁcant elevation in insulin
+biosynthesis, as evident by insulin content and protein expression analysis. Still, more
+studies are warranted to explain how kahweol induces insulin expression. Additionally, the
+observed increase in glucose uptake may be attributed to the ability of kahweol to activate
+Adenosine 5‘monophosphate-activated protein kinase (AMPK), which is considered a
+central modulator of glucose metabolism [10].
+Kahweol has been shown to protect DNA from oxidative stress by inducing HMOX1
+to control intracellular ROS levels in human neuroblastoma cells [20]. Kahweol was
+also praised for its ability to inhibit inducible nitric oxide synthase and macrophage
+cyclooxygenase-2 expression, as well as its modulator effect on NF kappa-β expression [21].
+The current study used STZ, a commonly used chemical in experimental diabetes models,
+to induce pancreatic β-cell injury [22]. Pancreatic β-cells uptake STZ via Glut2 receptors, re-
+sulting in increased oxidative stress due to NO release and ROS production [22]. Pancreatic
+β-cells are typically prone to oxidative stress because of their relatively low expression of
+antioxidant enzymes [23]. Indeed, our data showed that INS-1 cells treated with STZ exhib-
+ited a dramatic increase in ROS and antioxidant enzymes. HMOX-1, while pre-incubating
+INS-1 cells with kahweol, reversed the effect of STZ in a concentration-dependent manner.
+This ﬁnding is consistent with previous research indicating that antioxidants may positively
+impact INS-1 cells [3].
+Pre-treatment of INS-1 cells with kahweol effectively inhibited STZ-induced damage,
+implying that its enhancement of INS-1 cell viability and functionality may be attributed
+to its apoptotic inhibition. It has been reported that apoptosis induced through STZ in
+pancreatic β-cells is mediated by ROS [23,24]. This increase in ROS has also been linked to
+NF-κB activation, a transcription factor that regulates various genes expression associated
+with cell apoptosis, inﬂammation, and immunity [25]. The inactivated form of NF-κB is
+commonly found in the cytoplasm linked with its inhibitor “IκB” to prevent the localization
+of NF-κB into the nucleus, which is essential for its activity. Among other stimuli, ROS
+phosphorylates IB kinase, which causes it to dissociate from NF-κB and translocate to the
+nucleus, promoting transcription by binding to target genes [25].
+INS-1 cells exposure to STZ signiﬁcantly induced the expression of NF-κB, while pre-
+incubation with kahweol effectively reduced the expression. On the contrary, BCL-2, one
+of the genes regulated by NF-κB, exhibits an anti-apoptotic effect via different mechanisms
+such as pro-caspases sequestering or inhibiting the release of mitochondrial apoptogenic
+factors into the cytoplasm [26]. Altogether, these ﬁndings suggest that kahweol’s apoptosis
+reduction could be mediated by NF-κB and consequent regulation of the expression of BCL-
+2 family protein. Furthermore, these ﬁndings concur with the previous studies conducted
+on STZ-induced diabetic rats [27,28].
+In addition, STZ-treatment reduced relative p-AKT and BCL-2 protein expression in
+INS-1 cells, while kahweol signiﬁcantly upregulated them. These results agree with the
+previous reports showing that ROS decreased Akt phosphorylation through inhibition of
+PI3K/AKT pathway [29]. Furthermore, reduced Akt phosphorylation decreases BCL-2,
+which is an anti-apoptotic protein and one of the downstream molecules of Akt in the
+PI3K/Akt regulatory pathway [29].
+It is worth mentioning that reduced expression of numerous essential antioxidant
+genes, such as GPX1, Sod1–2, and catalase, may contribute to β-cells vulnerability to
+oxidative stress [30]. On the other hand, other antioxidant genes either exhibit strong
+expression in β-cells or are noticeably upregulated when oxidative stress is induced (e.g.,
+Hmox1, ID1, and ID3) [31,32]. This study showed that STZ treatment upregulated the
+expression of antioxidant proteins HMOX1 in addition to ID1 and 3. Our results agree with
+
+Molecules 2021, 26, 5167
+8 of 11
+another study showing an overproduction in HMOX1, ID1, and ID3 in the diabetic mouse
+model and in vitro H2O2 induced oxidative stress in MIN6 β-cells [31].
+In sum, our study demonstrated that kahweol has a protective effect against STZ
+induced damage in pancreatic β-cells. The effect is possibly mediated through the NF-
+κB/BCL-2 pathway and pAKT/BCL-2 pathway, alongside affecting the expression of
+antioxidant proteins such as ID1, ID3, and HMOX1.
+4. Materials and Methods
+4.1. Culturing of INS-1 Cell Line
+The clonal rat INS-1 (832/13) cells (a gift from Dr. C. Newgard; Duke University,
+North Carolina, USA) were maintained in a complete RPMI 1640 medium as previously
+described [33,34].
+4.2. Cell Viability Assay
+A 20 × 104 INS-1 cells were seeded in a 96-wells plate. Kahweol was purchased
+from Santa Santa Cruz Biotechnology Inc. (Santa Cruz, CA, USA), and the cells were
+pre-incubated with different concentrations of kahweol (2.5, 5 and 10 µM) for 24 h followed
+by STZ treatment (3 mM) for 3 h, as previously described [35]. Untreated cells were used as
+a negative control. Afterward, cells were incubated with 10 uL of MTT (5 mg/mL) solution
+(Sigma-Aldrich, St. Louis, MO, USA) and set for 2 h at 37 ◦C. Formazan crystals were then
+dissolved in dimethyl sulfoxide (DMSO), and absorbance at 570 nm was detected using
+a microplate reader. The average 570 nm absorbance values were used to calculate the
+percentage of cell viability based on the following formula: % cell viability = (OD 570 nm
+of sample/OD 570 nm of control) × 100.
+4.3. Apoptosis Assay
+Treated cells were washed with buffer saline, followed by resuspension in 500 µL of
+Annexin-V Binding Buffer (BD Biosciences, CA, USA). A total 5 µL of Annexin V-FITC and
+PI were used to stain treated cells for 10 min in the dark, followed by analysis using BD
+FACS Aria III ﬂow cytometer (BD Biosciences).
+4.4. Insulin Secretion Assays
+Glucose–stimulated insulin secretion (GSIS) assay was performed 24 h post-treatment.
+Brieﬂy, cells were washed twice with secretion assay buffer (SAB) (pH 7.2, 114 m MNaCl,
+4.7 m MKCl, 1.2 mM KH2PO4, 1.16 mM MgSO4, 20 mM HEPES, 2.5 mM CaCl2, 25.5 mM
+NaHCO3 and 0.2% bovine serum albumin) containing 2.8 mM glucose, then normalized for
+2 h using the same buffer. Next, cells were incubated in 1 mL SAB containing either 2.8 mM
+glucose or 16.7 mM glucose for 1 h, as previously described [32,33]. Secreted insulin was
+determined using a rat insulin ELISA kit (Mercodia, Sweden). Insulin content was assayed
+by extracting total protein using M-PER mammalian protein extraction reagent. Extracted
+proteins were quantiﬁed by Pierce BCA protein assay (Thermo Fisher Scientiﬁc, MA, USA),
+and insulin content (diluted 1:250) was determined using a rat insulin ELISA kit (Mercodia,
+Sweden) then normalized to the total protein amount.
+4.5. Glucose Uptake Assay
+Glucose uptake was evaluated using a 2-NBDG glucose uptake assay kit (Invitrogen
+#N13195). The test was performed according to the manufacturer’s instructions. Brieﬂy,
+2-NBDG was added over the treated cells and incubated for one hour. Then, cells were
+harvested and washed with cell-based assay buffer and analyzed immediately with ﬂow
+cytometry using the FITC detector (Excitation/Emission 485/535 nm).
+4.6. Intracellular Reactive Oxygen Species (ROS) Measurement
+The H2O2 assay was performed as directed by the manufacturer, as follows. A
+20 × 104 of cells per well in a total volume of 100 µL were seeded in a 96-wells plate.
+
+Molecules 2021, 26, 5167
+9 of 11
+The compounds (Kahweol with different concentrations) were added to 96 well-plates in
+the 80 µL of media for 24 h. After 24 h, the cells were treated with streptozotocin, STZ
+(3 mM) for 3 h at 37 ◦C in a 5% CO2 incubator. After 3 h of STZ treatment, the H2O2
+substrate solution was added (20 µL), bringing the ﬁnal volume to 100 µL. Next, the plate
+was incubated at 37 ◦C in a 5% CO2 incubator for 3 h. After that, 100 µL of the ROS-Glo
+detection solution was added to each well at the end of the incubation and incubated at
+room temperature for 20 min. Immediately luminescence was recorded using a plate reader.
+The average values were used to calculate the relative luminescence unit (RLU).
+4.7. Western Blot Analysis
+M-PER mammalian protein extraction reagent (Thermo Fisher), containing a protease
+inhibitor cocktail, was used to extract protein lysate from treated and untreated control
+cells (Thermo Fisher). SDS-PAGE was used to separate 40 µg of protein lysate, followed
+by blotting onto a nitrocellulose membrane (Bio-Rad, Hercules, CA, USA). The membrane
+was blocked using 5% skimmed milk in Tris-buffered saline containing 0.1% Tween 20
+(TBST) for 1 h. Subsequently, the blot was incubated overnight at 4 ◦C with primary
+antibodies against Insulin (mouse; #8138s, Cell signalling Technology, Danvers, MA, USA),
+NF-kB (rabbit; #Ab32536; Abcam, Cambridge, UK), BCL-2 (rabbit; #A19693; Abclonal,
+Wuhan, China), HMOX-1 (rabbit; #ab189491; Abcam), ID1 (rabbit; #ab230679), ID3 (mouse;
+#ab236505), AKT (#A17909), Phospho-AKT-S473 (#AP0637, from ABclonal technology
+(Woburn, MA, USA)), or β-actin (#A5441, Sigma-Aldrich, Hamburg, Germany). The
+membrane was incubated with secondary antibodies (anti-mouse #7076S and anti-rabbit
+#7074S, Cell signaling Technology, USA) at room temperature for 1 h. ECL substrate kit
+(Bio-Rad, Hercules, CA, USA) was used to detect chemiluminescence. Bio-Rad Image Lab
+software (Bio-Rad, Hercules, CA, USA) was used to detect protein bands. Quantiﬁcation
+of the bands was done using Image J software. In all experiments, β-actin was used as an
+endogenous control.
+4.8. Statistical Analysis
+One-way ANOVA nonparametric tests were used for statistical analysis. GraphPad
+Prism (version 8.0.0 for Windows, GraphPad Software, San Diego, CA, USA,) was used
+to conduct all statistical analyses. Data within this study are presented as mean ± S.D.
+Differences were considered signiﬁcant at p < 0.05.
+5. Conclusions
+In conclusion, our data provide evidence that kahweol has an anti-diabetic effect that
+could prevent or manage diabetes. Furthermore, results revealed that kahweol enhances
+glucose uptake and reduces ROS in pancreatic β-cells. Thus, the ﬁndings of this study pave
+the way to consider the potential use of kahweol in preventing and treating T2D. However,
+it is important to keep in mind that the ﬁndings of this study are based on in vitro studies.
+Therefore, further in vivo and clinical studies are required to conﬁrm our ﬁndings.
+Author Contributions: Conceptualization, W.E.-H. and J.T.; Methodology, W.E.-H., S.A., K.B., J.T.
+and E.A.-G.; Statistical analysis, W.E.-H., J.T. and S.A.; Investigation, W.E.-H., J.T., S.A., K.B. and
+E.A.-G., Writing—Original Draft Preparation, W.E.-H. and J.T., Data curation, W.E.-H., J.T., E.A.-G.
+and K.B.; Funding Acquisition, W.E.-H. and J.T. All authors have read and agreed to the published
+version of the manuscript.
+Funding: The College of Research funded the study and Graduate Studies, University of Sharjah
+(No. 1901090160-P, 2001090176 and 2001090176/VCGSR).
+Institutional Review Board Statement: Not applicable.
+Informed Consent Statement: Not applicable.
+Data Availability Statement: Data is contained within the article.
+Conﬂicts of Interest: Authors declare no conﬂicts of interest.
+
+Molecules 2021, 26, 5167
+10 of 11
+Sample Availability: Samples of the compounds are not available.
+References
+1.
+Sapra, A.; Bhandari, P. Diabetes Mellitus; StatPearls: Treasure Island, FL, USA, 2021.
+2.
+Galicia-Garcia, U.; Benito-Vicente, A.; Jebari, S.; Larrea-Sebal, A.; Siddiqi, H.; Uribe, K.B.; Ostolaza, H.; Martín, C. Pathophysiology
+of Type 2 Diabetes Mellitus. Int. J. Mol. Sci. 2020, 21, 6275. [CrossRef]
+3.
+Anastasiou, I.A.; Eleftheriadou, I.; Tentolouris, A.; Koliaki, C.; Kosta, O.A.; Tentolouris, N. The Effect of Oxidative Stress and
+Antioxidant Therapies on Pancreatic B-cell Dysfunction: Results from in Vitro and in Vivo Studies. Curr. Med. Chem. 2020, 28,
+1328–1346. [CrossRef]
+4.
+Ding, M.; Bhupathiraju, S.N.; Chen, M.; van Dam, R.M.; Hu, F.B. Caffeinated and decaffeinated coffee consumption and risk of
+type 2 diabetes: A systematic review and a dose-response meta-analysis. Diabetes Care 2014, 37, 569–586. [CrossRef]
+5.
+Huxley, R.; Lee, C.M.Y.; Barzi, F.; Timmermeister, L.; Czernichow, S.; Perkovic, V.; Grobbee, D.E.; Batty, D.; Woodward, M. Coffee,
+decaffeinated coffee, and tea consumption in relation to incident type 2 diabetes mellitus: A systematic review with meta-analysis.
+Arch. Intern. Med. 2009, 169, 2053–2063. [CrossRef]
+6.
+Shah, S.; Kumar, A. Coffee: Constituents and Health Beneﬁts. Biotechnol. J. Int. 2020, 24, 22–38. [CrossRef]
+7.
+Campanha, F.G.; Dias, R.C.E.; Benassi, M.d.T. Discrimination of Coffee Species Using Kahweol and Cafestol: Effects of Roasting
+and of Defects; 2010. Available online: http://www.sbicafe.ufv.br:80/handle/123456789/3921 (accessed on 19 August 2021).
+8.
+Chartier, A.; Beaumesnil, M.; de Oliveira, A.L.; Elfakir, C.; Bostyn, S. Optimization of the isolation and quantitation of kahweol
+and cafestol in green coffee oil. Talanta 2013, 117, 102–111. [CrossRef] [PubMed]
+9.
+Ismail, T.; Donati-Zeppa, S.; Akhtar, S.; Turrini, E.; Layla, A.; Sestili, P.; Fimognari, C. Coffee in cancer chemoprevention: An
+updated review. Expert Opin. Drug Metab. Toxicol. 2021, 17, 69–85. [CrossRef] [PubMed]
+10.
+Ren, Y.; Wang, C.; Xu, J.; Wang, S. Cafestol and Kahweol: A Review on Their Bioactivities and Pharmacological Properties. Int. J.
+Mol. Sci. 2019, 20, 4238. [CrossRef]
+11.
+Seo, H.Y.; Kim, M.K.; Lee, S.H.; Hwang, J.S.; Park, K.G.; Jang, B.K. Kahweol Ameliorates the Liver Inﬂammation through the
+Inhibition of NF-kappaB and STAT3 Activation in Primary Kupffer Cells and Primary Hepatocytes. Nutrients 2018, 10, 863.
+[CrossRef]
+12.
+Alperet, D.J.; Rebello, S.A.; Khoo, E.Y.-H.; Tay, Z.; Seah, S.S.-Y.; Tai, B.-C.; Emady-Azar, S.; Chou, C.J.; Darimont, C.; van Dam,
+R.M. A randomized placebo-controlled trial of the effect of coffee consumption on insulin sensitivity: Design and baseline
+characteristics of the Coffee for METabolic Health (COMETH) study. Contem. Clin. Trials Commun. 2016, 4, 105–117. [CrossRef]
+13.
+Bhattacharya, S.; Oksbjerg, N.; Young, J.; Jeppesen, P. Caffeic acid, naringenin and quercetin enhance glucose-stimulated insulin
+secretion and glucose sensitivity in INS-1E cells. Diabetes Obes. Metab. 2014, 16, 602–612. [CrossRef] [PubMed]
+14.
+Fernandez-Gomez, B.; Lezama, A.; Amigo-Benavent, M.; Ullate, M.; Herrero, M.; Martín, M.Á.; Mesa, M.D.; del Castillo, M.D.
+Insights on the health beneﬁts of the bioactive compounds of coffee silverskin extract. J. Funct. Foods 2016, 25, 197–207. [CrossRef]
+15.
+Mellbye, F.B.; Jeppesen, P.B.; Hermansen, K.; Gregersen, S. Cafestol, a bioactive substance in coffee, stimulates insulin secretion
+and increases glucose uptake in muscle cells: Studies in vitro. J. Nat. Prod. 2015, 78, 2447–2451. [CrossRef]
+16.
+Muley, A.; Muley, P.; Shah, M. Coffee to reduce risk of type 2 diabetes? A systematic review. Curr. Diabetes Rev. 2012, 8, 162–168.
+[CrossRef] [PubMed]
+17.
+Pimentel, G.D.; Zemdegs, J.C.; Theodoro, J.A.; Mota, J.F. Does long-term coffee intake reduce type 2 diabetes mellitus risk?
+Diabetol. Metab. Syndr. 2009, 1, 6. [CrossRef]
+18.
+Van Dam, R.M.; Willett, W.C.; Manson, J.E.; Hu, F.B. Coffee, caffeine, and risk of type 2 diabetes: A prospective cohort study in
+younger and middle-aged US women. Diabetes Care 2006, 29, 398–403. [CrossRef] [PubMed]
+19.
+Temple, J.L.; Bernard, C.; Lipshultz, S.E.; Czachor, J.D.; Westphal, J.A.; Mestre, M.A. The Safety of Ingested Caffeine: A
+Comprehensive Review. Front. Psychiatry 2017, 8, 80. [CrossRef]
+20.
+Hwang, Y.P.; Jeong, H.G. The coffee diterpene kahweol induces heme oxygenase-1 via the PI3K and p38/Nrf2 pathway to protect
+human dopaminergic neurons from 6-hydroxydopamine-derived oxidative stress. FEBS Lett. 2008, 582, 2655–2662. [CrossRef]
+21.
+Kim, J.Y.; Jung, K.S.; Lee, K.J.; Na, H.K.; Chun, H.-K.; Kho, Y.-H.; Jeong, H.G. The coffee diterpene kahweol suppress the inducible
+nitric oxide synthase expression in macrophages. Cancer Lett. 2004, 213, 147–154. [CrossRef]
+22.
+Islam, M.S. Experimental rodent models of type 2 diabetes: A review. Methods Find. Exp. Clin. Pharmacol. 2009, 31, 249–261.
+[CrossRef]
+23.
+Eguchi, N.; Vaziri, N.D.; Dafoe, D.C.; Ichii, H. The Role of Oxidative Stress in Pancreatic beta Cell Dysfunction in Diabetes. Int. J.
+Mol. Sci. 2021, 22, 1509. [CrossRef]
+24.
+Garcia-Sanchez, A.; Miranda-Diaz, A.G.; Cardona-Munoz, E.G. The Role of Oxidative Stress in Physiopathology and Pharma-
+cological Treatment with Pro- and Antioxidant Properties in Chronic Diseases. Oxid. Med. Cell. Longev. 2020, 2020, 2082145.
+[CrossRef]
+25.
+Karin, M.; Yamamoto, Y.; Wang, Q.M. The IKK NF-kappa B system: A treasure trove for drug development. Nat. Rev. Drug Discov.
+2004, 3, 17–26. [CrossRef]
+26.
+Glab, J.A.; Cao, Z.; Puthalakath, H. Bcl-2 family proteins, beyond the veil. Int. Rev. Cell Mol. Biol. 2020, 351, 1–22. [CrossRef]
+[PubMed]
+
+Molecules 2021, 26, 5167
+11 of 11
+27.
+Kumar, S.; Prasad, S.; Sitasawad, S.L. Multiple antioxidants improve cardiac complications and inhibit cardiac cell death in
+streptozotocin-induced diabetic rats. PLoS ONE 2013, 8, e67009. [CrossRef]
+28.
+Suanarunsawat, T.; Anantasomboon, G.; Piewbang, C. Anti-diabetic and anti-oxidative activity of ﬁxed oil extracted from
+Ocimum sanctum L. leaves in diabetic rats. Exp. Ther. Med. 2016, 11, 832–840. [CrossRef] [PubMed]
+29.
+Li, L.; Wang, F.; Zhang, J.; Wang, K.; De, X.; Li, L.; Zhang, Y. Typical phthalic acid esters induce apoptosis by regulating the
+PI3K/Akt/Bcl-2 signaling pathway in rat insulinoma cells. Ecotoxicol. Environ. Saf. 2021, 208, 111461. [CrossRef] [PubMed]
+30.
+Lenzen, S.; Drinkgern, J.; Tiedge, M. Low antioxidant enzyme gene expression in pancreatic islets compared with various other
+mouse tissues. Free Radic. Biol. Med. 1996, 20, 463–466. [CrossRef]
+31.
+Bensellam, M.; Montgomery, M.K.; Luzuriaga, J.; Chan, J.Y.; Laybutt, D.R. Inhibitor of differentiation proteins protect against
+oxidative stress by regulating the antioxidant-mitochondrial response in mouse beta cells. Diabetologia 2015, 58, 758–770.
+[CrossRef]
+32.
+Lacraz, G.; Figeac, F.; Movassat, J.; Kassis, N.; Coulaud, J.; Galinier, A.; Leloup, C.; Bailbe, D.; Homo-Delarche, F.; Portha, B.
+Diabetic beta-cells can achieve self-protection against oxidative stress through an adaptive up-regulation of their antioxidant
+defenses. PLoS ONE 2009, 4, e6500. [CrossRef]
+33.
+Taneera, J.; Dhaiban, S.; Hachim, M.; Mohammed, A.K.; Mukhopadhyay, D.; Bajbouj, K.; Hamoudi, R.; Salehi, A.; Hamad, M.
+Reduced expression of Chl1 gene impairs insulin secretion by down-regulating the expression of key molecules of β-cell function.
+Exp. Clin. Endocrinol. Diabetes 2019, 127, 1–9. [CrossRef] [PubMed]
+34.
+Taneera, J.; Mohammed, I.; Mohammed, A.K.; Hachim, M.; Dhaiban, S.; Malek, A.; Duner, P.; Elemam, N.M.; Sulaiman, N.; Hamad,
+M.; et al. Orphan G-protein coupled receptor 183 (GPR183) potentiates insulin secretion and prevents glucotoxicity-induced
+beta-cell dysfunction. Mol. Cell. Endocrinol. 2020, 499, 110592. [CrossRef] [PubMed]
+35.
+Zheng, S.; Zhao, M.; Ren, Y.; Wu, Y.; Yang, J. Sesamin suppresses STZ induced INS-1 cell apoptosis through inhibition of
+NF-kappaB activation and regulation of Bcl-2 family protein expression. Eur. J. Pharmacol. 2015, 750, 52–58. [CrossRef]

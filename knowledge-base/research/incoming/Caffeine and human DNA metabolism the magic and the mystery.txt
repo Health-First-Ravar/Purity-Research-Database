@@ -1,0 +1,1329 @@
+Mutation Research 532 (2003) 85–102
+Caffeine and human DNA metabolism: the magic and the mystery
+William K. Kaufmann a,b,c,∗, Timothy P. Heffernan a, Lea M. Beaulieu a,
+Sharon Doherty a,1, Alexandra R. Frank a, Yingchun Zhou a, Miriam F. Bryant a,
+Tong Zhou a, Douglas D. Luche a, Nana Nikolaishvili-Feinberg a,
+Dennis A. Simpson a, Marila Cordeiro-Stone a,b,c
+a Department of Pathology and Laboratory Medicine, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599, USA
+b Lineberger Comprehensive Cancer Center, University of North Carolina at Chapel Hill, CB#7295, Chapel Hill, NC 27599, USA
+c Center for Environmental Health and Susceptibility, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599, USA
+Received 2 July 2003; received in revised form 20 August 2003; accepted 20 August 2003
+Abstract
+The ability of caffeine to reverse cell cycle checkpoint function and enhance genotoxicity after DNA damage was examined
+in telomerase-expressing human ﬁbroblasts. Caffeine reversed the ATM-dependent S and G2 checkpoint responses to DNA
+damage induced by ionizing radiation (IR), as well as the ATR- and Chk1-dependent S checkpoint response to ultraviolet
+radiation (UVC). Remarkably, under conditions in which IR-induced G2 delay was reversed by caffeine, IR-induced G1
+arrest was not. Incubation in caffeine did not increase the percentage of cells entering the S phase 6–8 h after irradiation;
+ATM-dependent phosphorylation of p53 and transactivation of p21Cip1/Waf1 post-IR were resistant to caffeine. Caffeine alone
+induced a concentration- and time-dependent inhibition of DNA synthesis. It inhibited the entry of human ﬁbroblasts into S
+phase by 70–80% regardless of the presence or absence of wildtype ATM or p53. Caffeine also enhanced the inhibition of
+cell proliferation induced by UVC in XP variant ﬁbroblasts. This effect was reversed by expression of DNA polymerase ,
+indicating that translesion synthesis of UVC-induced pyrimidine dimers by DNA pol  protects human ﬁbroblasts against
+UVC genotoxic effects even when other DNA repair functions are compromised by caffeine.
+© 2003 Elsevier B.V. All rights reserved.
+Keywords: Caffeine; Checkpoints; DNA repair; ATM; ATR; Ionizing radiation; Ultraviolet radiation
+1. Introduction
+Caffeine occupies an important niche in the cell cy-
+cle checkpoint ﬁeld. Not only does it help bleary-eyed
+scientists concentrate on their experiments, it directly
+inhibits the checkpoint kinases, ATM and ATR [1,2].
+∗Corresponding author. Present address: Tel.: +1-919-966-8209;
+fax: +1-919-966-9673.
+E-mail address: wkarlk@med.unc.edu (W.K. Kaufmann).
+1 Current address: School of Biomedical Sciences, University of
+Ulster at Coleraine, Coleraine, Northern Ireland.
+Indeed, caffeine’s ability to reverse delays in cell
+proliferation [3] was known before ATM and ATR
+were identiﬁed [4–6] and even before the concept of
+checkpoints was originated [7]. Caffeine is not a spe-
+ciﬁc inhibitor of ATM and ATR, however, and many
+of its physiologic activities derive from its action
+on other enzymes, such as cyclic AMP phosphodi-
+esterase [8]. Studies examining the effects of caffeine
+on cellular responses to DNA damage are motivated
+by reproducible demonstrations that it enhances the
+toxicity of radiations [9,10] and chemical carcinogens
+[11,12].
+0027-5107/$ – see front matter © 2003 Elsevier B.V. All rights reserved.
+doi:10.1016/j.mrfmmm.2003.08.012
+
+86
+W.K. Kaufmann et al. / Mutation Research 532 (2003) 85–102
+Caffeine inhibits ATM and ATR in a dose-dependent
+fashion. The concentration that inhibits ATM by 50%
+in vitro is 1 mM and the 50% inhibitory concentra-
+tion for ATR is about 3 mM [1]. These concentrations
+deﬁne the range at which caffeine effectively reverses
+cell cycle checkpoints and enhances cytotoxicity in
+carcinogen-damaged cells [3,9,13] without signiﬁcant
+toxicity of its own. Lower concentrations are less
+effective at reversing checkpoint function and higher
+concentrations cause a reduction in DNA synthesis
+associated with cytotoxicity [13].
+The enhancing effects of caffeine on cytotoxicity
+in carcinogen-damaged cells may derive from its re-
+versal of checkpoints that act in S or G2. For ionizing
+radiations (IR), caffeine produces maximal enhance-
+ment of cytotoxicity on late S/G2 cells [9], whereas
+for UVC maximal enhancement occurs in S [14].
+These results are rationalized by the knowledge that
+DNA repair protects cells against the lethal effects of
+carcinogen-induced damage [15] and the expectation
+that reducing the time available for repair in prolif-
+erating cells reduces repair efﬁciency. DNA double
+strand breaks are believed to be the lethal lesion in-
+duced by ionizing radiation, and this complex lesion
+may require an hour or more for repair [16]. Provi-
+sion of an extra hour or two for repair before entry
+into mitosis, when chromosome condensation likely
+blocks further repair and permanently ﬁxes the double
+strand break, would appear to be beneﬁcial. Several
+studies have shown that reversal of checkpoint func-
+tion using caffeine [10,17] and UCN-01 [18] doubled
+the toxicity of IR in human cancer cell lines.
+Caffeine enhances the cytotoxicity of ultraviolet
+radiation (UVC) by its effect on damaged S phase
+cells. Here the issue is complicated by the nature of
+UVC-induced cellular damage and its mechanism of
+toxicity. UVC-induced cyclobutane pyrimidine dimers
+and 6–4 pyrimidine–pyrimidone adducts in DNA are
+repaired by nucleotide excision repair. It is during
+replication of UVC-damaged DNA that mutations and
+chromosomal aberrations are induced [19–21], and
+repair of photoproducts before DNA replication can
+provide signiﬁcant protection against such genotoxic
+outcomes. However, inactivation of colony formation
+in human skin ﬁbroblasts is rather invariant across
+the cell cycle [19], suggesting that the blockage of
+transcription of vital genes, and not DNA replication
+errors, accounts for inactivation of colony formation.
+Nucleotide excision repair and especially trans-
+cription-coupled repair provide signiﬁcant protection
+against UVC-induced genotoxicity, reducing the lethal
+effects of UVC by about 10-fold [22]. A system of
+post-replication repair that includes efﬁcient transle-
+sion synthesis of cyclobutane pyrimidine dimers by
+DNA pol  also provides a measure of protection.
+Accurate translesion synthesis by DNA pol  reduces
+mutagenesis by a factor of 4 [20], and decreases clasto-
+genesis and cytotoxicity by a factor of two-fold or less
+[20,23]. Caffeine is also known to inhibit the repair of
+gaps in daughter-strand DNA in UVC-damaged cells
+[24]. The effects of caffeine are especially notable
+in XP variant cells [24], which lack DNA pol  and
+must rely upon other more error-prone mechanisms
+of replication through UVC-induced photoproducts.
+Thus, while caffeine is now known to reverse an
+ATR-dependent S checkpoint that slows the rate of
+replicon initiation in UVC-treated cells [25], it may
+have an additional effect on pol -independent bypass
+of cyclobutane pyrimidine dimers, which could in-
+volve translesion synthesis by other DNA polymerases
+or recombinational repair of daughter-strand gaps.
+The studies reported here were undertaken with a
+motivation to deﬁne more fully the biological effects
+of caffeine in normal human ﬁbroblasts (NHF). We
+applied sensitive and quantitative measures of cell
+cycle checkpoint function to monitor DNA damage
+responses in G1, S and G2 cells. While caffeine was
+found to reverse the S and G2 checkpoint responses
+to IR, it had very little effect on G1 checkpoint func-
+tion, implying that ATM is less sensitive to caffeine
+in G1. Moreover, caffeine itself was found to induce
+an ATM- and p53-independent G1 delay, which was
+saturated at 2 mM concentration of the drug. The
+mechanism of this biological response remains a mys-
+tery. While caffeine also reversed the ATR-dependent
+S checkpoint response to UVC, it produced very lit-
+tle enhancement of UVC-induced inhibition of cell
+proliferation in normal human ﬁbroblasts (NHF). In
+contrast, caffeine enhanced the UVC-induced inhibi-
+tion of XP variant cell proliferation by eight-fold, and
+this hypersensitivity was corrected by transduction of
+DNA pol . This result is consistent with an emerg-
+ing model that ATR (and downstream effectors) help
+to stabilize blocked growing points to prevent repli-
+cation fork collapse and lethal cytogenetic damage
+[26,27].
+
+W.K. Kaufmann et al. / Mutation Research 532 (2003) 85–102
+87
+2. Materials and methods
+2.1. Cell lines and culture conditions
+Normal human ﬁbroblasts (NHF1) were derived
+from neonatal foreskin [28]. Ataxia telangiectasia
+(AT) and xeroderma pigmentosum variant (XP-V)
+correspond to dermal ﬁbroblasts from affected indi-
+viduals. The original mutant ﬁbroblast strains were
+obtained from the NIGMS Human Genetic Cell
+Repository (GM02052A, AT) and the American
+Type Culture Collection (CRL1162, XP-V, strain
+XP4BE). Immortalized cell lines from these strains
+of human ﬁbroblasts were obtained by ectopic ex-
+pression of human telomerase (hTERT), as previously
+described [25]. The derivative cell lines described
+below are also immortalized. For simplicity, we re-
+fer to the immortalized normal human ﬁbroblasts
+as F1-hTERT. XP-V ﬁbroblasts (CRL1162-hTERT)
+were complemented for expression of wildtype hu-
+man DNA pol  (CRL1162 +XPV) by infection with
+a replication-defective retrovirus carrying the XPV
+cDNA (a generous gift from Dr. Fumio Hanaoka,
+Osaka University) and the neomycin-resistance gene
+under control of the same viral promoter (pLXIN).
+An isogenic cell line carrying the empty vector
+(CRL1162 + LXIN) was derived in parallel. The
+same strategy was used to derive NHF1 ﬁbroblasts
+expressing human papilloma virus (HPV) type 16 E6
+oncoprotein (F1-hTERT + E6) or the vector control
+(F1-hTERT + LXIN). Detailed characterization of
+these derivative cell lines will be published elsewhere.
+Fibroblasts were maintained in Dulbecco’s modi-
+ﬁed Eagle’s medium (Invitrogen) supplemented with
+2 mM glutamine (Invitrogen) and, in NHF1 cultures,
+10% fetal bovine serum (FBS, Sigma), in AT cul-
+tures, 15% FBS, and, in XP-V cultures, 10% FBS
+and 200 g/ml Geneticin (Invitrogen). All cell lines
+were maintained at 37 ◦C in a humidiﬁed atmosphere
+of 5% CO2.
+2.2. Cell treatment and irradiation
+Caffeine (concentrations indicated in ﬁgure leg-
+ends) was added to the culture medium 30 min prior
+to irradiation and remained for the duration of the ex-
+periment. For UVC irradiation, culture medium was
+removed and reserved. Cultures were washed once
+with warm Hank’s balanced salt solution (HBSS, In-
+vitrogen), then placed uncovered under a UV lamp
+emitting primarily 254 nm radiation at a ﬂuence rate
+of 0.5 J/m2/s. Reserved medium was added back
+and the cultures incubated for the indicated periods
+of time. Cells were exposed to ionizing radiation
+(gamma rays) in their culture medium, using a 137Cs
+source at a dose rate of 0.84 Gy/min.
+2.3. DNA synthesis assay
+Logarithmically growing cells were plated at a den-
+sity of 2.5 × 105 cells per 60 mm dish and grown at
+37 ◦C for 36–48 h in medium containing 5 nCi/ml of
+[14C] thymidine (ICN Radiochemicals) to uniformly
+label DNA. Radioactive medium was replaced with
+fresh medium to chase [14C]-labeled precursors into
+DNA for at least 3 h. The effect of caffeine concen-
+tration on DNA synthesis was measured by adding
+to the culture medium 5% volume of solvent (PBS)
+containing caffeine at various concentrations and in-
+cubating the cultures at 37 ◦C for 30 min, and then
+pulse-labeling DNA with 10 Ci/ml [3H] thymidine
+for 15 min. The time course of inhibition of DNA syn-
+thesis was measured by adding solvent only or 2 mM
+caffeine to the cultures, incubating them for 30 min to
+8 h (see ﬁgure legend), and then pulse-labeling DNA
+as indicated above. Radioactive medium was removed
+and plates washed twice with cold PBS, before adding
+3 ml of cold 4% trichloroacetic acid (TCA) and in-
+cubating at 4 ◦C for 30 min. After washing the plates
+with cold 4% TCA and air drying at 4 ◦C, the ﬁxed
+cells were dissolved in 0.4 M NaOH and transferred
+to test tubes. Acid-insoluble material was collected
+on GF/C microﬁbre glass ﬁlters for measurement of
+radioactivity by liquid scintillation counting. Net 3H
+radioactivity corrected for 14C spillover was normal-
+ized for cell number (total 14C radioactivity). Average
+3H/14C ratios from triplicate cultures were taken as
+the speciﬁc activity of incorporation of [3H] thymi-
+dine in DNA and as measurements of DNA synthesis
+rates in cells treated with caffeine.
+2.4. Velocity sedimentation analysis of nascent DNA
+The velocity sedimentation methodology used to
+determine the steady-state distribution of sizes of
+nascent DNA 30–45 min after irradiation of log phase
+
+88
+W.K. Kaufmann et al. / Mutation Research 532 (2003) 85–102
+cultures with either 1 J/m2 UVC or 1.5 Gy IR has
+been described previously [23,29].
+2.5. Western-blot analyses
+These were performed essentially as described
+[25]. Brieﬂy, logarithmically growing cells were
+seeded at 106 per 100 mm dish and incubated for
+40 h. Cultures were treated as speciﬁed in the ﬁgure
+legends, harvested by trypsinization, washed once in
+PBS, and resuspended in lysis buffer (10 mM sodium
+phosphate buffer, pH 7.2, 1 mM EDTA, 1 mM EGTA,
+150 mM NaCl, 1% NP40, supplemented with 10 mM
+4-(2-aminoethyl) benzenesulfonyl ﬂuoride (AEBSF),
+10 mM -glycerophosphate, 10 mM sodium ortho-
+vanadate, and 10 g/ml of leupeptin and aprotinin).
+Protein concentrations were determined using the
+Bio-Rad DC Protein Assay (Bio-Rad Laboratories).
+Samples containing equal amounts of protein were
+mixed with an equal volume of 2× Laemmli sample
+buffer (125 mM Tris–HCl, pH 6.8, 4% SDS, 20%
+glycerol) containing 5% -mercaptoethanol, boiled,
+and separated by SDS-PAGE. Proteins were trans-
+ferred to nitrocellulose and probed with antibodies
+against p53 (DO1; Santa Cruz), p21Cip1/Waf1 (Labvi-
+sion), phospho-serine-15 p53 (Cell Signaling), actin
+(Santa Cruz), and DNA pol  (a generous gift from
+Dr. Fumio Hanaoka, Osaka University [30]).
+2.6. G1 checkpoint analysis
+Cells were irradiated and/or treated with caffeine
+as indicated in the ﬁgure legends. Six hours after ir-
+radiation or continuous incubation in caffeine, 10 M
+5′-bromo-2′-deoxyuridine (BrdU; Sigma) was added
+to the medium and the cultures incubated for another
+2 h. Cells were harvested, washed with PBS, and ﬁxed
+in PBS containing 67% ethanol. Cells were stained
+with propidium iodide and ﬂuorescein isothiocyanate
+(FITC)-conjugated anti-BrdU antibody (Becton Dick-
+inson) as described [31]. Flow cytometric analyses
+were done on a FACScan machine using Summit
+software (Cytomation Inc.).
+2.7. G2 checkpoint analysis
+Mitotic cells were quantiﬁed via ﬂow cytometric
+analysis by enumerating cells with 4N DNA that
+stained positive for the mitotic cell-speciﬁc epitope
+phospho-histone H3, as previously described [32,33].
+Brieﬂy, cells were harvested by tripsinization, washed
+with PBS, and ﬁxed in 1% formaldehyde in PBS.
+Fixed cells were then rinsed once with PBS contain-
+ing 67% ethanol and resuspended in PBS containing
+0.5 g of anti-phospho-histone H3 antibody (Upstate
+Biotechnology), 5% FBS, 0.1% sodium azide, and
+150 mM NaCl (IFA solution). Cells were washed
+twice in IFA and stained with propidium iodide and
+FITC-conjugated anti-mouse antibody (Santa Cruz).
+Flow cytometric analyses were done on a FACScan
+machine using Summit software (Cytomation Inc.).
+2.8. Cytotoxicity assay
+UVC-induced inhibition of cell proliferation was
+measured as an index of cytotoxicity as previously
+described [34]. Brieﬂy, logarithmically growing cells
+were plated at a density of 1 × 104 (F1-hTERT)
+or 1.5 × 104 (CRL1162-hTERT and derivative cell
+lines) cells per well in 6-well dishes. Twenty-four
+hours later, the cells were irradiated with the indi-
+cated ﬂuences of UVC and fed with fresh medium
+±1 mM caffeine. After 2 days, the old medium was
+replaced with fresh medium ±1 mM caffeine. The
+following day (72 h after UVC irradiation), cells were
+incubated with 1 Ci/ml [3H] thymidine for 1 h. As
+described above, cells were washed and ﬁxed with
+4% TCA, and radioactivity in acid-insoluble material
+measured by liquid scintillation counting. Reduction
+in the incorporation rate of [3H] thymidine (average
+of triplicate cultures) was taken as an indirect mea-
+surement of the degree of inhibition of proliferation
+of cells exposed to UVC. Preliminary experiments es-
+tablished that under the culture conditions described
+here, control cultures remained in log phase and did
+not reach conﬂuence prior to the end of the exper-
+iment. This assay produced results in concordance
+with the UVC-induced inhibition of colony formation
+in human ﬁbroblasts, which is a common measure of
+cytotoxicity in this cell type [35,36].
+Colony formation was measured in logarithmically
+growing F1-hTERT cells that were plated at 500 or
+750 cells per 100 mm diameter dish and incubated
+for 18 h or less before exposure to increasing ﬂuences
+of UVC (5–10 dishes per ﬂuence). Cells were incu-
+bated for 2 weeks, with one medium change on day
+
+W.K. Kaufmann et al. / Mutation Research 532 (2003) 85–102
+89
+8, then cell colonies were ﬁxed with methanol:acetic
+acid (3:1 (v/v)) and stained with Giemsa. Only
+colonies with >50 cells were counted. The relative
+colony-forming efﬁciency of UVC-treated cells was
+expressed as a fraction of the sham-treated controls.
+This index of cell proliferation (clonal expansion)
+was compared to that determined in the short-term as-
+say based on [3H] thymidine incorporation described
+above.
+3. Results
+3.1. Caffeine inhibits G2 checkpoint function
+Incubation with caffeine following exposure to IR
+was shown previously to reverse radiation-induced G2
+delay in HeLa cells [3]. It also enhanced IR-induced
+cytotoxicity in a cycle phase-dependent manner with
+synchronized G2 cells displaying the greatest incre-
+ment of cell killing [9,37]. Flow cytometry was used
+to quantify G2 checkpoint function in diploid human
+ﬁbroblasts that were immortalized by expression of
+telomerase [38]. Normal ﬁbroblasts displayed 2%
+of cells with 4N DNA content and expression of a
+mitosis-speciﬁc phospho-histone H3 (Fig. 1A). Treat-
+ment with 1.5 Gy of IR 2 h before cell harvest reduced
+the fraction of these mitotic cells to 0.1%, correspond-
+ing to 5% of control and reﬂecting a radiation-induced
+G2 delay. AT ﬁbroblasts displayed an attenuation of
+this response to IR with a mitotic fraction in irradi-
+ated cells that was 50% of that in the sham-treated
+control culture (Fig. 1B). These results conﬁrm pre-
+vious reports that the radiation-induced G2 delay is
+a checkpoint response and that it is defective in AT
+cells [39,40]. Incubation with 2 mM caffeine for 2.5 h
+had little effect on the mitotic fraction in cultures
+of sham-treated normal and AT ﬁbroblasts, but re-
+versed the radiation-induced inhibition of mitosis by
+90–100% (Fig. 1).
+AT cells displayed a 50% inhibition of mitosis
+post-irradiation, and this inhibition likely reﬂects
+the activity of the ATM-and rad3-related checkpoint
+kinase, ATR. We and others have shown that ex-
+pression of a kinase-inactive ATR also attenuates the
+G2 checkpoint response to IR [5,38]. Our analyses
+suggest that ATM and ATR contribute equally to the
+IR-induced G2 delay. Inactivation of either enzyme
+attenuates the G2 checkpoint response by about 50%.
+The full ablation by caffeine of G2 checkpoint re-
+sponse has been attributed to its inhibition of ATM
+[41]. A recent publication disputes the interpretation
+that ATM and ATR are directly inhibited by caffeine
+in cultured cells [42]. The new ﬁndings show that
+ATM autophosphorylation and ATM/ATR-dependent
+phosphorylation of Chk1 are resistant to caffeine.
+These results imply that caffeine inhibits the signal-
+ing cascades in the G2 checkpoint response that are
+downstream of ATM, ATR and Chk1.
+3.2. Caffeine inhibits S checkpoint function
+Caffeine-enhancement of cytotoxicity by UVC also
+is cycle phase-dependent but S phase cells display the
+greatest sensitivity. Synergistic lethality by caffeine
+with nitrogen mustard was correlated with reversal of
+the mustard-induced inhibition of replicon initiation
+in S phase cells [12,13]. The IR-induced S check-
+point response of inhibition of replicon initiation is
+ATM-dependent, as shown in Fig. 2. While normal
+ﬁbroblasts responded to IR with a selective inhibi-
+tion of incorporation of radiolabeled precursor in low
+molecular weight nascent DNA intermediates, AT
+cells were resistant to this effect, displaying the phe-
+notype of radioresistant DNA synthesis. Treatment
+with caffeine reversed the S checkpoint response to
+IR in normal ﬁbroblasts. AT cells displayed a normal
+S checkpoint response to UVC, with 1 J/m2 producing
+the same selective inhibition of replicon initiation in
+normal and AT cells. We have recently demonstrated
+that the UVC-induced inhibition of replicon initia-
+tion is an ATR- and Chk1-dependent S checkpoint
+response [25]. Incubation with caffeine post-UVC re-
+versed the inhibition of replicon initiation in normal
+and AT ﬁbroblasts (Fig. 2). Thus, caffeine also ab-
+lated the S checkpoint responses to radiation-induced
+cellular damage.
+In view of the recent report that caffeine does not in-
+hibit ATM and ATR in cells [42], we performed a west-
+ern immunoblot analysis of Chk1 phosphorylation in
+HeLa cells after treatment with UVC and IR. While
+both 1 J/m2 UVC and 5 Gy IR induced the phosphory-
+lation of Chk1 at ser317 within 45 min after treatment,
+these effects were not blocked by caffeine (results
+not shown), conﬁrming the observations by Cortez
+[42].
+
+90
+W.K. Kaufmann et al. / Mutation Research 532 (2003) 85–102
+Fig. 1. Caffeine inhibits G2 checkpoint function. Logarithmically growing F1-hTERT (A) and AT-hTERT (B) ﬁbroblasts were pretreated
+with 2 mM caffeine for 30 min prior to either being sham-treated or irradiated with 1.5 Gy. Two hours post-IR the cells were harvested and
+processed as described in Section 2 for determination of mitotic index. Propidium iodide was used to stain DNA (X-axis) and an antibody
+speciﬁc for phospho-histone H3 was used to stain mitotic cells (Y-axis).
+
+W.K. Kaufmann et al. / Mutation Research 532 (2003) 85–102
+91
+F1-hTERT
+0.000
+0.200
+0.400
+0.600
+0
+10
+20
+30
+F1-hTERT
+0.00
+0.15
+0.30
+0.45
+0.60
+0
+10
+20
+30
+F1-hTERT
+0.00
+0.40
+0.80
+1.20
+1.60
+0
+10
+20
+30
+F1-hTERT
+0.00
+0.30
+0.60
+0.90
+1.20
+0
+10
+20
+30
+AT-hTERT
+0.000
+0.200
+0.400
+0.600
+0.800
+0
+10
+20
+30
+AT-hTERT
+0.000
+0.200
+0.400
+0.600
+0.800
+0
+10
+20
+30
+AT-hTERT
+0.00
+0.30
+0.60
+0.90
+1.20
+1.50
+0
+10
+20
+30
+AT-hTERT
+0.00
+0.40
+0.80
+1.20
+1.60
+0
+10
+20
+30
+Fraction Number
+Normalized H CPM
+3
+Control
+Caffeine
+IR
+UVC
+IR
+UVC
+Fig. 2. Caffeine abrogates the ATM- and ATR-dependent S checkpoints. F1-hTERT and AT-hTERT ﬁbroblasts were uniformly labeled with
+[14C] thymidine as described and incubated for 30 min in medium alone or medium containing 2 mM caffeine. Cells were sham-treated
+or irradiated with 1 J/m2 UVC or 1.5 Gy IR, incubated in reserved medium for 30 min and then pulse-labeled with [3H] thymidine for
+15 min. Cells were harvested and nascent DNA separated by velocity sedimentation (see Section 2). Net 3H radioactivity corrected for
+14C spillover was normalized to cell number (total 14C radioactivity). Open circles: sham-treated cells; closed circles: irradiated cells. The
+UVC proﬁles illustrated in this ﬁgure have been previously published [25].
+
+92
+W.K. Kaufmann et al. / Mutation Research 532 (2003) 85–102
+3.3. Caffeine does not inhibit G1 checkpoint function
+but induces G1 delay
+To complete our survey of caffeine effects on cell
+cycle checkpoint function in diploid human ﬁbrob-
+lasts, we quantiﬁed radiation-induced G1 checkpoint
+function in the presence or absence of caffeine. Treat-
+ment of normal human ﬁbroblasts with 1.5 Gy IR
+produced a selective 97% reduction of cells in the
+ﬁrst half of S phase, as seen by labeling cells with
+BrdU 6–8 h after irradiation (Fig. 3A). This selective
+emptying of the early S compartment is a checkpoint
+response to IR, as AT ﬁbroblasts were resistant to
+this effect (Fig. 3B). No signiﬁcant increment of S
+phase cells was observed in cultures of irradiated
+normal human ﬁbroblasts upon post-irradiation in-
+cubation with caffeine (Figs. 3A and 4A). However,
+caffeine alone at 2 mM reduced the fraction of cells
+in early S phase by 70–80% in normal and AT ﬁbrob-
+last cultures (Figs. 3 and 5A). Quantiﬁcation of G1
+checkpoint function in three independent experiments
+using normal human ﬁbroblasts is shown in Fig. 4.
+While IR reduced the mean fractions of ﬁbroblasts in
+the ﬁrst half of S phase from 12 to 0.7%, a similar
+fraction of 0.7% of cells were in early S phase follow-
+ing post-irradiation incubation with 2 mM caffeine.
+Caffeine alone reduced the fraction of cells in early S
+phase from 12 to 4%. Consequently, when expressed
+as a percentage of the sham-treated control (Fig. 3),
+caffeine-treated cultures appeared to have an attenu-
+ation of the G1 checkpoint response to IR. Such an
+attenuation became more evident when the caffeine
+concentration was increased to 5 mM (Fig. 3A), a
+concentration that signiﬁcantly inhibits DNA synthe-
+sis in human ﬁbroblasts, as discussed below (Fig. 6).
+In comparison to the 90–100% reversal of G2 (Fig. 1)
+and S (Fig. 2) checkpoint responses to IR produced
+by 2 mM caffeine, the G1 checkpoint response to
+IR (Fig. 3A) was substantially non-responsive to
+this concentration of caffeine (Figs. 3A and 4A). In
+
+Fig. 3. Caffeine does not inhibit G1 checkpoint function but induces a G1 delay. Logarithmically growing F1-hTERT (A) and AT-hTERT
+(B) ﬁbroblasts were pretreated with 0, 2, or 5 mM caffeine for 30 min prior to being sham-treated or irradiated with 1.5 Gy. Cells were
+incubated for 6 h and then pulsed with 10 mM BrdU for 2 h. Cells were harvested and analyzed for G1 checkpoint function by ﬂow cytometry
+as described in Section 2. Propidium iodide was used to stain for DNA content (X-axis) and anti-BrdU-FITC to stain BrdU-labeled cells
+(Y-axis). Numbers within the boxes represent the fraction of total cells in the ﬁrst half of S phase. The indicated percent of control was
+calculated from the matched sham proﬁle (non-irradiated proﬁle from cells incubated in the same concentration of caffeine).
+the same experiments, quantiﬁcation of cells in the
+G2/M compartment 8 h post-IR revealed the expected
+IR-induced accumulation associated with G2 delay
+(Fig. 4B). Post-irradiation incubation with caffeine
+reversed this effect, indicating that in the same popu-
+lation of cells in which G1 arrest was little affected by
+caffeine, the G2 checkpoint response was completely
+abrogated.
+Flow scattergrams and quantitation of cells in the
+ﬁrst half of S indicated that 2 mM caffeine alone in-
+duced a signiﬁcant G1 delay in normal and AT ﬁ-
+broblasts (Figs. 3 and 5A). To determine whether the
+G1 delay that was induced by caffeine required p53
+signaling, we tested whether inactivation of p53 with
+HPV16E6 oncoprotein would eliminate this G1 delay.
+Incubation of E6-expressing and vector-control ﬁbrob-
+lasts with 2 or 5 mM caffeine for 8.5 h produced the
+same 70–80% reduction of cells in the ﬁrst half of S
+phase (Fig. 5A). This ﬁnding indicated that p53 func-
+tion, and any other function affected by HPV16E6,
+was not required for the caffeine-induced G1 delay.
+ATM phosphorylates p53 on ser15, and ATM
+signaling is required for induction of p53 protein
+after IR. Activation of p53 induces synthesis of the
+cyclin-dependent kinase inhibitor p21Cip1/Waf1 as the
+effector of the ATM- and p53-dependent G1 check-
+point response. Western immunoblot analysis was
+done to test whether caffeine affected p53 signaling in
+response to IR. While treatment with IR induced p53
+protein, p53-ser15 phosphorylation and p21Cip1/Waf1
+expression in normal ﬁbroblasts, these effects were
+not reversed by incubation in caffeine (Fig. 5B). Incu-
+bation with caffeine induced neither p53 or p21 but,
+rather, reduced expression of p21Cip1/Waf1 in both ir-
+radiated and unirradiated cells. As p21Cip1/Waf1 is, in
+part, growth-regulated, this may reﬂect the inhibition
+of cell proliferation induced by caffeine as described
+above. The caffeine-induced G1 delay therefore ap-
+pears to be independent of the ATM/p53/p21Cip1/Waf1
+signaling pathway.
+
+W.K. Kaufmann et al. / Mutation Research 532 (2003) 85–102
+93
+
+94
+W.K. Kaufmann et al. / Mutation Research 532 (2003) 85–102
+(A)
+0
+2
+4
+6
+8
+10
+12
+14
+Sham
+IR
+Caffeine
+Caffeine+IR
+percent of cells in early S
+(B)
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+Sham
+IR
+Caffeine
+Caffeine+IR
+percent of cells in G2/M
+Fig. 4. Caffeine reverses IR-induced G2 delay but not G1 arrest. The effect of IR and caffeine (2 mM) on G1 and G2 checkpoint function
+in F1-hTERT ﬁbroblasts was determined by ﬂow cytometric studies as illustrated in Fig. 3. Results from several experiments were graphed
+as the average percent of cells in early S phase (A) or the percentage of cells in G2/M (B) (mean ± S.D., n = 3).
+
+W.K. Kaufmann et al. / Mutation Research 532 (2003) 85–102
+95
+Fig. 5. Caffeine-induced G1 delay is independent of p53. (A) Logarithmically growing F1-hTERT-LXIN, F1-hTERT-E6, and AT-hTERT
+ﬁbroblasts were treated with either 0, 2, or 5 mM caffeine for 6 h and then pulsed with BrdU for an additional 2 h. Cells were harvested
+and the effect of caffeine on S phase entry analyzed by ﬂow cytometry as described in the legend to Fig. 3. In this graph, the Y-axis
+shows the percent inhibition of entry of cells into early S by caffeine. The results shown represent the average of two experiments. (B)
+F1-hTERT and AT-hTERT ﬁbroblasts were incubated for 30 min in medium alone or medium containing 2 mM caffeine and then either
+sham-treated or irradiated with 1.5 Gy IR. Cells were incubated for 6 h and then harvested. Protein extracts were prepared and 100 g of
+total protein analyzed by western immunoblot analysis.
+3.4. Caffeine inhibits DNA synthesis
+Previous studies of caffeine using transformed or
+cancer cell lines showed that concentrations higher
+than 3 mM inhibited DNA synthesis and inacti-
+vated clonal expansion [13]. To explore this dose-
+dependence
+on
+diploid
+human
+ﬁbroblasts,
+we
+monitored incorporation of [3H] thymidine after
+a brief incubation with various concentrations of
+caffeine, or after prolonged incubation with 2 mM
+caffeine (Fig. 6). Normal and AT ﬁbroblasts were
+both sensitive to inhibition of incorporation of [3H]
+thymidine by high concentrations of caffeine. While
+1–2 mM inhibited DNA synthesis on average by about
+30%, 30 min incubation with 5 mM reduced [3H]
+thymidine incorporation by 60% and 10 mM reduced
+it by >80% (Fig. 6A). During the ﬁrst 2 h of incubation
+with 2 mM caffeine, incorporation of [3H] thymidine
+
+96
+W.K. Kaufmann et al. / Mutation Research 532 (2003) 85–102
+(A)
+0
+20
+40
+60
+80
+100
+120
+0
+2
+4
+6
+8
+10
+1
+Caffeine concentration (mM)
+DNA synthesis
+(% of control)
+0
+20
+40
+60
+80
+100
+120
+0
+2
+4
+6
+8
+Time (h)
+DNA synthesis
+(% of control)
+10
+2
+(B)
+Fig. 6. Caffeine inhibits DNA synthesis. F1-hTERT and AT-hTERT ﬁbroblasts were grown in the presence of [14C] thymidine for ∼40 h to
+label DNA uniformly, and then in non-radioactive medium for ≥3 h. (A) Cells were treated with 0, 1, 2, 5, or 10 mM caffeine, incubated
+at 37 ◦C for 30 min, and then labeled for 15 min in medium containing [3H] thymidine. (B) In time course studies, cells were treated with
+0 or 2 mM caffeine for 0.5, 1, 2, 4, 6, or 8 h and then labeled for 15 min in medium containing [3H] thymidine. Net 3H radioactivity
+corrected for 14C spillover was normalized to cell number (total 14C radioactivity). Normalized 3H CPM was graphed as a percent of
+sham controls. Open circles: F1-hTERT; closed circles: AT-hTERT.
+varied from 60 to 70% of control in AT cells and
+85–95% of control in normal ﬁbroblasts (Fig. 6B).
+Thereafter, incorporation declined more or less con-
+tinuously, such that incorporation was reduced to 30%
+of control after 8 h incubation in caffeine. This degree
+of inhibition (70%) was similar to the reduction in S
+phase cells that were labeled with BrdU 6.5–8.5 h after
+addition of caffeine. The inhibition of incorporation of
+[3H] thymidine 4–8 h after addition of 2 mM caffeine
+therefore reﬂects the caffeine-induced G1 delay.
+3.5. DNA pol η suppresses the enhancement of UVC
+cytotoxicity by caffeine
+Although a variety of data suggest that caffeine en-
+hancement of cytotoxicity may be due to abrogation
+
+W.K. Kaufmann et al. / Mutation Research 532 (2003) 85–102
+97
+of protective cell cycle checkpoint function, other ef-
+fects of caffeine on DNA repair might also contribute.
+For example, pol -dependent translesion synthesis
+of UVC-induced pyrimidine dimers provides a mod-
+est increment of protection against cytotoxicity over
+that afforded by nucleotide excision repair [43,44].
+Caffeine has long been known to interfere with pro-
+cesses commonly known as post-replication repair
+[24,45,46], inhibiting in particular an ill-deﬁned
+post-replication repair pathway that is operational in
+XP variant cells [35,47,48]. As shown in Fig. 2, caf-
+feine does not appear to interfere with pol -dependent
+translesion synthesis, as the inhibition of DNA chain
+elongation was not enhanced in normal human and
+AT ﬁbroblasts by post-UVC incubation with caf-
+feine. It is conceivable that caffeine may inhibit a
+pol -independent post-replication repair process,
+as suggested by one notable study. Lehmann [46]
+showed that the average size of nascent DNA strands
+that were synthesized in pol -defective XP vari-
+ant cells in the presence of caffeine was equivalent
+to the average spacing between pyrimidine dimers.
+This observation suggested that the caffeine-sensitive
+post-replication repair pathway retained by XP vari-
+ant cells involves pol eta-independent mechanism(s)
+of repair of daughter-strand gaps formed across
+UVC-induced DNA photoproducts. To disclose an
+effect of caffeine on post-replication repair, we em-
+ployed an assay that quantiﬁed DNA synthesis in
+diploid normal and XP variant ﬁbroblasts 72 h after
+treatment with UVC. As illustrated in Fig. 7A, this
+short-term assay for inhibition of cell proliferation
+[34] agreed very well with an assay of colony forma-
+tion as surrogates of radiation-induced cytotoxicity.
+Normal human ﬁbroblasts displayed a dose-dependent
+decrease in colony-formation efﬁciency or inhibition
+of DNA synthesis post-UVC with a 60% reduction
+at 8 J/m2 and 90% reduction at 12 J/m2. Addition
+of 1 mM caffeine for the 72 h post-UVC had only a
+small effect in normal human ﬁbroblasts. XP variant
+ﬁbroblasts (CRL1162-hTERT) displayed increased
+sensitivity to UVC with 70% inhibition of DNA syn-
+thesis after 4 J/m2 and >90% inhibition after 8 J/m2
+(Fig. 7B). In contrast to the minor enhancement seen
+in normal ﬁbroblasts, incubation of XP variant cells
+with caffeine post-UVC produced a signiﬁcant incre-
+ment of inhibition of DNA synthesis. While 4 J/m2
+reduced synthesis to 30% of the control in the absence
+0.1
+1.0
+10.0
+100.0
+0
+5
+10
+15
+UVC (J/m2)
+Proliferation index
+(% of control)
+0.1
+1.0
+10.0
+100.0
+0
+5
+10
+15
+UVC (J/m2)
+Proliferation index
+(% of control)
+(A)
+(B)
+Fig. 7. Caffeine enhances UVC-induced cytotoxicity. Log cultures
+of F1-hTERT (A) and CRL1162-hTERT (B) were irradiated with
+the indicated ﬂuences of UVC and then incubated for 72 h in
+medium containing either 0 or 1 mM caffeine. Cells were pulse
+labeled with 1 mCi/ml [3H] thymidine for 1 h, and acid-insoluble
+DNA collected on microﬁbre ﬁlters. [3H] thymidine incorporation
+was graphed as a percent of sham controls. (A) F1-hTERT grown
+in the absence (open circles) or the presence (closed circles) of
+1 mM caffeine following exposure to UVC; dashed line with open
+triangles represents the colony-forming efﬁciency of F1-hTERT
+in the absence of caffeine. (B) CRL1162-hTERT grown in the
+absence (open triangles) or the presence (closed triangles) of 1 mM
+caffeine after irradiation; the dashed line represents the results with
+F1-hTERT grown in the absence of caffeine (open circles in A).
+of caffeine, in its presence 4 J/m2 reduced synthesis
+to 2% of control. Similarly, in the absence of caffeine
+2 J/m2 reduced synthesis to 70% of control but in the
+presence of caffeine 2 J/m2 reduced synthesis to 10%
+of control. In summary, the short-term assays [34],
+in full agreement with measurements of colony for-
+mation [49], conﬁrmed that XP variant cells display
+
+98
+W.K. Kaufmann et al. / Mutation Research 532 (2003) 85–102
+Fig. 8. DNA pol eta suppresses the enhancement of UVC cytotox-
+icity by caffeine. (A) Log cultures of CRL1162-pLXIN (−) and
+CRL1162-pLXIN-XPV (+) ﬁbroblasts were harvested and whole
+cell extracts were prepared. Protein (50 g) was separated on an
+8% SDS-PAGE and then probed with speciﬁc antibodies against
+DNA pol  and actin. (B) Log cultures of CRL1162-pLXIN (closed
+triangles), CRL1162-hTERT-XPV (open triangles), and F1-hTERT
+(dashed line) ﬁbroblasts were irradiated with indicated ﬂuences of
+UVC and incubated for 72 h in medium containing 1 mM caffeine.
+The degree of cytotoxicity was determined as described in the leg-
+end to Fig. 7. The dashed line represents the results observed with
+F1-hTERT in the presence of caffeine (Fig. 7A, closed circles).
+hypersensitivity to caffeine enhancement of cytotoxi-
+city by UVC.
+The CRL1162-hTERT line was transduced with
+DNA pol  or the empty vector by infection with
+a replication-defective retrovirus. Fig. 8A illustrates
+the expression of DNA pol  in the CRL1162+XPV
+cell line. XP variant cells that were infected with the
+empty vector alone displayed the expected hypersen-
+sitivity to UVC. XP variant cells that were transduced
+with DNA pol  displayed sensitivity to UVC equiv-
+alent to that seen in the F1-hTERT normal ﬁbroblast
+line (Fig. 8B). Thus, caffeine-enhancement of cyto-
+toxicity in XP variant cells was related to the defect
+in expression of DNA pol .
+4. Discussion
+This survey of the effects of caffeine on DNA
+metabolism in diploid human ﬁbroblast strains con-
+ﬁrmed the inhibition of ATM- and ATR-dependent S
+and G2 checkpoint function and enhancement of UVC
+cytotoxicity in DNA pol -defective XP variant cells.
+Unexpectedly, especially in view of a previous report
+[50], caffeine at 2 mM concentration did not inhibit
+ATM-dependent G1 checkpoint function. There was
+no decrement of IR-induced G1 arrest under condi-
+tions in which G2 delay was ablated. This result sug-
+gests that ATM signaling in G1 cells may be resistant
+to caffeine. The fact that caffeine also induced G1 de-
+lay in the absence of damage reveals a potential lim-
+itation in the use of checkpoint inhibitors to enhance
+cytotoxicity of chemo- and radiotherapies. Although
+the magical reversal of checkpoint function by caf-
+feine is now well established, several of the biological
+effects of caffeine identiﬁed here remain a mystery.
+Previous studies had indicated that caffeine inhib-
+ited ATM and ATR signaling in checkpoints acting
+in G1, S and G2 [2,41,51]. We were not surprised
+therefore to ﬁnd that caffeine fully abrogated ATM-
+and ATR-dependent S and G2 checkpoint responses
+in IR- and UVC-treated human ﬁbroblasts. We were
+surprised to ﬁnd that caffeine did not abrogate ATM-
+and p53-dependent G1 checkpoint response to IR un-
+der conditions in which G2 delay was fully reversed.
+ATM-dependent phosphorylation of p53 at ser15 and
+p53-dependent induction of p21Cip1/Waf1 were not
+inhibited by caffeine, indicating that ATM function
+in G1 cells was insensitive to caffeine. Recently,
+Cortez [42] showed that caffeine did not inhibit ATM
+autophosphorylation nor ATM- and ATR-dependent
+phosphorylation of Chk1 in cells with DNA damage,
+even though it inhibited the G2 checkpoint response
+to DNA damage. We conﬁrmed that caffeine did not
+block ATM- and ATR-dependent phosphorylation of
+Chk1. These results suggest that caffeine must inter-
+fere with signaling downstream of ATM, ATR, and
+Chk1 to abrogate S and G2 checkpoint responses to
+DNA damage.
+The S checkpoint response to IR-induced DNA
+damage has been shown to involve signaling through
+ATM and Chk2 to Cdc25A [52], and the G2 check-
+point response to IR includes signaling from ATM,
+ATR and Chk1 to Cdc25C [53]. The Cdc25 protein
+
+W.K. Kaufmann et al. / Mutation Research 532 (2003) 85–102
+99
+phosphatases (Cdc25A, Cdc25B and Cdc25C) are dual
+speciﬁcity phosphatases that activate Cdk1 and Cdk2
+by removing inhibitory phosphotyrosine and phospho-
+threonine residues from the ATP binding site [54]. One
+arm of DNA damage checkpoint responses includes
+ATM-dependent phosphorylation of Cdc25’s by Chk1
+and Chk2. Phosphorylation of Cdc25A leads to its
+proteolysis [52] while phosphorylation of Cdc25C
+creates a 14-3-3 binding site to sequester the protein
+in the cytoplasm and possibly inhibit activity [53,55].
+The net effect of phosphorylation of Cdc25’s is to sus-
+tain inhibition of Cdk1 and Cdk2, which are required
+for initiation of mitosis and DNA synthesis, respec-
+tively. As caffeine does not block intracellular ATM
+autophosphorylation and phosphorylation of Chk1
+and Chk2 [42], the Cdc25 pathway does not appear
+to be the target of checkpoint abrogation by caffeine.
+Inactivation of the Cdc25C regulatory pathway by
+expression of Cdk1AF, a non-phosphorylatable form
+of Cdk1, produced only a modest reversal of G2 check-
+point function [56]. Subsequent studies demonstrated
+that cyclin B1/Cdk1 complexes were also regulated by
+cellular compartmentalization, with the Crm1 nuclear
+exporter actively sequestering cyclin B1 in the cyto-
+plasm [57,58]. Phosphorylation of cyclin B1 by the
+Polo-like kinase, Plk1, blocks Crm1-mediated nuclear
+export allowing nuclear accumulation of cyclin B1
+[59]. Plk1 is inhibited by IR-induced DNA damage by
+an ATM-dependent mechanism [60,61]. The net effect
+of ATM/Plk1/cyclin B1 signaling is to block nuclear
+accumulation of cyclin B1/Cdk1 complexes, thereby
+preventing entry into mitosis. The ATR-dependent
+decatenation checkpoint also appears to rely upon
+inhibition of Plk1 to block the onset of mitosis [62].
+Caffeine has been shown to block the IR-induced inhi-
+bition of Plk1 [61] suggesting at least one mechanism
+whereby caffeine abrogates G2 checkpoint function.
+Quantiﬁcation of [3H] thymidine incorporation is
+a sensitive measure of UVC-induced genotoxicity
+and cytotoxicity. Caffeine enhanced genotoxicity in
+UVC-treated XP variant cells and this effect was
+fully reversed by expression of DNA pol . We had
+originally interpreted this phenomenon of caffeine en-
+hancement of genotoxicity to reﬂect a requirement for
+ATR to prevent the demise of replication forks blocked
+at cyclobutane pyrimidine dimers, in analogy to the re-
+quirement for Mec1 in alkylated yeast strains [63]. In
+view of the apparent insensitivity of intracellular ATR
+to caffeine this hypothesis in untenable. Treatment of
+XP variant cells with UVC leads to a condition in S
+phase cells with many blocked growing points and
+replicative gaps due to the absence of the bypass poly-
+merase pol . This condition may be similar to that
+produced by hydroxyurea in pol -expressing cells,
+and the combination of hydroxyurea and caffeine is
+particularly lethal in mammalian cells [64]. These
+observations imply that there is a caffeine-sensitive
+pathway that stabilizes arrested replication forks or
+replicative gaps. The work of Lehmann [46] implies
+that this pol -independent pathway may facilitate
+bypass of cyclobutane pyrimidine dimers. Work must
+now focus on the caffeine-sensitive steps of processing
+of nascent DNA at arrested replication forks and grow-
+ing points. It will be particularly interesting to deter-
+mine whether the caffeine-sensitive regulation of Plk1
+intersects with signaling at arrested growing points.
+The mechanism of caffeine-induced G1 delay re-
+mains to be determined. Caffeine has long been known
+to induce a G1 delay in mammalian cells [65–67],
+and we showed that caffeine-induced ∼75% inhibi-
+tion of G1/S progression in diploid human ﬁbrob-
+last strains. ATM and p53 were not required as AT
+cells and cells expressing HPV16E6 to inactivate p53
+also arrested in G1 when incubated in caffeine. The
+caffeine-induced G1 delay was not associated with in-
+duction of p21Cip1/Waf1. Previous studies of caffeine
+effects on the cell cycle have been devoted largely
+to cancer cell lines, which often display defects in
+G1 checkpoint function deriving from inactivation of
+p53 and pRB regulatory pathways. For example, HeLa
+cells express HPV18E6 and E7 to inactivate p53 and
+pRB. The fact that caffeine produced only a modest
+G1 delay in HeLa cells suggests that pRB may be re-
+quired for the caffeine-induced G1 delay [3]. We had
+entertained the thought that the effect could be a DNA
+damage response. However, because p53 was not re-
+quired and p21Cip1/Waf1 was not induced by caffeine,
+this possibility appears unlikely. Caffeine might affect
+some component of the signaling pathway that inac-
+tivates pRB to promote S phase entry. Clearly caf-
+feine does not inhibit cyclin B1/Cdk1 which is the
+cyclin-dependent kinase that promotes G2/M progres-
+sion. As caffeine did not induce a dramatic inhibition
+of DNA synthesis at 1–2 mM, it seems unlikely that
+it inhibits the cyclin E/Cdk2 and cyclin A/Cdk2 com-
+plexes that are required for initiation of replication and
+
+100
+W.K. Kaufmann et al. / Mutation Research 532 (2003) 85–102
+progression through S. Perhaps the cyclin D1/Cdk4,6
+complexes that are required for inactivation of pRB
+are sensitive to caffeine.
+In summary, caffeine has the magical property
+of reversing S and G2 checkpoint function and re-
+ducing DNA repair in irradiated cells. Mysteries
+remain concerning how intracellular ATM and ATR
+checkpoint kinases resist caffeine, the nature of the
+caffeine-sensitive steps in the S and G2 checkpoints,
+and how caffeine induces G1 delay.
+Acknowledgements
+This work was supported in part by PHS grants
+CA55065, CA81343, and P30-CA16086 from the
+National Cancer Institute, and ES11012, ES11391,
+and P30-ES10126 from the National Institute of En-
+vironmental Health Sciences (NIEHS). TPH is a doc-
+toral student supported by T32-ES07017 and DDL
+is the recipient of a postdoctoral fellowship from the
+International Agency for Research on Cancer. The
+contents of this article are solely the responsibility
+of the authors and do not necessarily represent the
+ofﬁcial views of the funding agencies.
+References
+[1] J.N. Sarkaria, E.C. Busby, R.S. Tibbetts, P. Roos, Y. Taya,
+L.M. Karnitz, R.T. Abraham, Inhibition of ATM and ATR
+kinase activities by the radiosensitizing agent, caffeine,
+Cancer Res. 59 (1999) 4375–4382.
+[2] A. Blasina, B.D. Price, G.A. Turenne, C.H. McGowan,
+Caffeine inhibits the checkpoint kinase ATM, Curr. Biol. 9
+(1999) 1135–1138.
+[3] L. Tolmach, R.W. Jones, P.M. Busse, The action of caffeine
+on X-irradiated HeLa cells. I. Delayed inhibition of DNA
+synthesis, Radiat. Res. 71 (1977) 653–665.
+[4] K. Savitsky, A. Bar-Shira, S. Gilad, G. Rotman, Y. Ziv, L.
+Vanagaite, D.A. Tagle, S. Smith, T. Uziel, S. Sfez, et al.,
+A single ataxia telangiectasia gene with a product similar to
+PI-3 kinase, Science 268 (1995) 1749–1753.
+[5] W.A. Cliby, C.J. Roberts, K.A. Cimprich, C.M. Stringer,
+J.R. Lamb, S.L. Schreiber, S.H. Friend, Overexpression of
+a kinase-inactive ATR protein causes sensitivity to DNA-
+damaging agents and defects in cell cycle checkpoints, Embo
+J. 17 (1998) 159–169.
+[6] J.A. Wright, K.S. Keegan, D.R. Herendeen, N.J. Bentley,
+A.M. Carr, M.F. Hoekstra, P. Concannon, Protein kinase
+mutants of human ATR increase sensitivity to UV and ionizing
+radiation and abrogate cell cycle checkpoint control, Proc.
+Natl. Acad. Sci. U.S.A. 95 (1998) 7445–7450.
+[7] L.H. Hartwell, T.A. Weinert, Checkpoints: controls that ensure
+the order of cell cycle events, Science 246 (1989) 629–634.
+[8] J.M. Vaugeois, Signal transduction: positive feedback from
+coffee, Nature 418 (2002) 734–736.
+[9] P.M. Busse, S.K. Bose, R.W. Jones, L.J. Tolmach, The action
+of caffeine on X-irradiated HeLa cells. II. Synergistic lethality,
+Radiat. Res. 71 (1977) 666–677.
+[10] S.N. Powell, J.S. DeFrank, P. Connell, M. Eogan, F.
+Preffer, D. Dombkowski, W. Tang, S. Friend, Differential
+sensitivity of p53(−) and p53(+) cells to caffeine-induced
+radiosensitization and override of G2 delay, Cancer Res. 55
+(1995) 1643–1648.
+[11] T. Nomura, Similarity of the mechanism of chemical
+carcinogen-initiated teratogenesis and carcinogenesis in mice,
+Cancer Res. 37 (1977) 969–973.
+[12] J.P. Murnane, J.E. Byﬁeld, J.F. Ward, P. Calabro-Jones, Effects
+of methylated xanthines on mammalian cells treated with
+bifunctional alkylating agents, Nature 285 (1980) 326–329.
+[13] J.P. Murnane, J.E. Byﬁeld, C.T. Chen, C.H. Wang, The
+structure of methylated xanthines in relation to their effects on
+DNA synthesis and cell lethality in nitrogen mustard-treated
+cells, Biophys. J. 35 (1981) 665–676.
+[14] M. Domon, A.M. Rauth, Ultraviolet-light irradiation of mouse
+L cells: effects on cells in the DNA synthesis phase, Radiat.
+Res. 40 (1969) 414–429.
+[15] V.M. Maher, J.J. McCormick, Effect of DNA repair on
+the cytotoxicity and mutagenicity of UV irradiation and of
+chemical carcinogens in normal and xeroderma pigmentosum
+cells, in: J.M. Yuhas, et al. (Eds.), Biology of Radiation
+Carcinogensis. Raven Press, New York, 1976, pp. 129–145.
+[16] B. Nevaldine, J.A. Longo, M. Vilenchik, G.A. King, P.J.
+Hahn, Induction and repair of DNA double-strand breaks in
+the same dose range as the shoulder of the survival curve,
+Radiat. Res. 140 (1994) 161–165.
+[17] K.J. Russell, L.W. Wiens, G.W. Demers, D.A. Galloway, S.E.
+Plon, M. Groudine, Abrogation of the G2 checkpoint results
+in differential radiosensitization of G1 checkpoint-deﬁcient
+and G1 checkpoint-competent cells, Cancer Res. 55 (1995)
+1639–1642.
+[18] Q. Wang, S. Fan, A. Eastman, P.J. Worland, E.A. Sausville,
+P.M. O’Connor, UCN-01: a potent abrogator of G2 checkpoint
+function in cancer cells with disrupted p53, J. Natl. Cancer
+Inst. 88 (1996) 956–965.
+[19] B.
+Konze-Thomas,
+R.M.
+Hazard,
+V.M.
+Maher,
+J.J.
+McCormick, Extent of excision repair before DNA synthesis
+determines the mutagenic but not the lethal effect of UV
+radiation, Mutat. Res. 94 (1982) 421–434.
+[20] M. Watanabe, V.M. Maher, J.J. McCormick, Excision repair
+of UV- or benzo[a]pyrene diol epoxide-induced lesions in
+xeroderma pigmentosum variant cells is ‘error free’, Mutat.
+Res. 146 (1985) 285–294.
+[21] W.K. Kaufmann, Cell cycle checkpoints and DNA repair
+preserve the stability of the human genome, Cancer Metastasis
+Rev. 14 (1995) 31–41.
+[22] J.E.
+Cleaver,
+Common
+pathways
+for
+ultraviolet
+skin
+carcinogenesis in the repair and replication defective groups
+of xeroderma pigmentosum, J. Dermatol. Sci. 23 (2000) 1–11.
+
+W.K. Kaufmann et al. / Mutation Research 532 (2003) 85–102
+101
+[23] M. Cordeiro-Stone, A. Frank, M. Bryant, I. Oguejiofor,
+S.B. Hatch, L.D. McDaniel, W.K. Kaufmann, DNA damage
+responses protect xeroderma pigmentosum variant from
+UVC-induced clastogenesis, Carcinogenesis 23 (2002) 959–
+965.
+[24] A.R. Lehmann, S. Kirk-Bell, C.F. Arlett, S.A. Harcourt, E.A.
+de Weerd-Kastelein, W. Keijzer, P. Hall-Smith, Repair of
+ultraviolet light damage in a variety of human ﬁbroblast cell
+strains, Cancer Res. 37 (1977) 904–910.
+[25] T.P. Heffernan, D.A. Simpson, A.R. Frank, A.N. Heinloth,
+R.S. Paules, M. Cordeiro-Stone, W.K. Kaufmann, An ATR-
+and Chk1-dependent S checkpoint inhibits replicon initiation
+following UVC-induced DNA damage, Mol. Cell Biol. 22
+(2002) 8552–8561.
+[26] E.J. Brown, D. Baltimore, Essential and dispensable roles of
+ATR in cell cycle arrest and genome maintenance, Genes
+Dev. 17 (2003) 615–628.
+[27] A.M. Casper, P. Nghiem, M.F. Arlt, T.W. Glover, ATR
+regulates fragile site stability, Cell 111 (2002) 779–789.
+[28] J.C. Boyer, W.K. Kaufmann, M. Cordeiro-Stone, Role of
+postreplication repair in transformation of human ﬁbroblasts
+to anchorage independence, Cancer Res. 51 (1991) 2960–
+2964.
+[29] C.A. Cistulli, W.K. Kaufmann, p53-dependent signaling
+sustains DNA replication and enhances clonogenic survival in
+254 nm ultraviolet-irradiated human ﬁbroblasts, Cancer Res.
+58 (1998) 1993–2002.
+[30] P. Kannouche, B.C. Broughton, M. Volker, F. Hanaoka, L.H.
+Mullenders, A.R. Lehmann, Domain structure, localization,
+and function of DNA polymerase eta, defective in xeroderma
+pigmentosum variant cells, Genes Dev. 15 (2001) 158–172.
+[31] W.K. Kaufmann, E.N. Levedakou, H.L. Grady, R.S. Paules,
+G.H. Stein, Attenuation of G2 checkpoint function precedes
+human cell immortalization, Cancer Res. 55 (1995) 7–11.
+[32] G. Juan, F. Traganos, W.M. James, J.M. Ray, M. Roberge,
+D.M. Sauve, H. Anderson, Z. Darzynkiewicz, Histone H3
+phosphorylation and expression of cyclins A and B1 measured
+in individual cells during their progression through G2 and
+mitosis, Cytometry 32 (1998) 71–77.
+[33] B. Xu, S.T. Kim, D.S. Lim, M.B. Kastan, Two molecularly
+distinct
+G(2)/M
+checkpoints
+are
+induced
+by
+ionizing
+irradiation, Mol. Cell Biol. 22 (2002) 1049–1059.
+[34] A. Yamada, C. Masutani, S. Iwai, F. Hanaoka, Comple-
+mentation of defective translesion synthesis and UV light
+sensitivity in xeroderma pigmentosum variant cells by human
+and mouse DNA polymerase eta, Nucleic Acids Res. 28
+(2000) 2473–2480.
+[35] C.F. Arlett, S.A. Harcourt, B.C. Broughton, The inﬂuence
+of caffeine on cell survival in excision-deﬁcient xeroderma
+pigmentosum and normal human cell strains following
+ultraviolet-light irradiation, Mutat. Res. 33 (1975) 341–346.
+[36] J.C. Boyer, W.K. Kaufmann, B.P. Brylawski, M. Cordeiro-
+Stone, Defective postreplication repair in xeroderma pigmen-
+tosum variant ﬁbroblasts, Cancer Res. 50 (1990) 2593–2598.
+[37] P.M. Busse, S.K. Bose, R.W. Jones, L.J. Tolmach, The action
+of caffeine on X-irradiated HeLa cells. III. Enhancement of
+X-ray-induced killing during G2 arrest, Radiat. Res. 76 (1978)
+292–307.
+[38] P.B. Deming, C.A. Cistulli, H. Zhao, P.R. Graves, H.
+Piwnica-Worms, R.S. Paules, C.S. Downes, W.K. Kaufmann,
+The human decatenation checkpoint, Proc. Natl. Acad. Sci.
+U.S.A. 98 (2001) 12044–12049.
+[39] F. Zampetti-Bosseler, D. Scott, Cell death, chromosome da-
+mage and mitotic delay in normal human, ataxia telangiectasia
+and retinoblastoma ﬁbroblasts after X-irradiation, Int. J.
+Radiat. Biol. Relat. Stud. Phys. Chem. Med. 39 (1981) 547–
+558.
+[40] R.S. Paules, E.N. Levedakou, S.J. Wilson, C.L. Innes, N.
+Rhodes, T.D. Tlsty, D.A. Galloway, L.A. Donehower, M.A.
+Tainsky, W.K. Kaufmann, Defective G2 checkpoint function
+in cells from individuals with familial cancer syndromes,
+Cancer Res. 55 (1995) 1763–1773.
+[41] B.B.
+Zhou, P. Chaturvedi, K. Spring, S.P. Scott, R.A. Johanson, R.
+Mishra, M.R. Mattern, J.D. Winkler, K.K. Khanna, Caffeine
+abolishes the mammalian G(2)/M DNA damage checkpoint
+by inhibiting ataxia-telangiectasia-mutated kinase activity, J.
+Biol. Chem. 275 (2000) 10342–10348.
+[42] D. Cortez, Caffeine inhibits checkpoint responses without
+inhibiting ATM and ATR, J. Biol. Chem. 278 (2003) 37139–
+37145.
+[43] V.M. Maher, L.M. Ouellette, R.D. Curren, J.J. McCormick,
+Frequency of ultraviolet light-induced mutations is higher in
+xeroderma pigmentosum variant cells than in normal human
+cells, Nature 261 (1976) 593–595.
+[44] B.C. Myhr, D. Turnbull, J.A. DiPaolo, Ultraviolet mutagenesis
+of normal and xeroderma pigmentosum variant human
+ﬁbroblasts, Mutat. Res. 62 (1979) 341–353.
+[45] A.R. Lehmann, Postreplication repair of DNA in UV-
+irradiated mammalian cells, Basic Life Sci. 5B (1975) 617–
+623.
+[46] A.R. Lehmann, The relationship between pyrimidine dimers
+and replicating DNA in UV-irradiated human ﬁbroblasts,
+Nucleic Acids Res. 7 (1979) 1901–1912.
+[47] A.R. Lehmann, S. Kirk-Bell, C.F. Arlett, M.C. Paterson, P.H.
+Lohman, E.A. de Weerd-Kastelein, D. Bootsma, Xeroderma
+pigmentosum cells with normal levels of excision repair have
+a defect in DNA synthesis after UV-irradiation, Proc. Natl.
+Acad. Sci. U.S.A. 72 (1975) 219–223.
+[48] Y. Fujiwara, M. Tatsumi, Replicative bypass repair of
+ultraviolet damage to DNA of mammalian cells: caffeine
+sensitive and caffeine resistant mechanisms, Mutat. Res. 37
+(1976) 91–110.
+[49] R.R. Laposa, L. Feeney, J.E. Cleaver, Recapitulation of the
+cellular xeroderma pigmentosum-variant phenotypes using
+short interfering RNA for DNA polymerase H, Cancer Res.
+63 (2003) 3909–3912.
+[50] M.B. Kastan, O. Onyekwere, D. Sidransky, B. Vogelstein,
+R.W. Craig, Participation of p53 protein in the cellular
+response to DNA damage, Cancer Res. 51 (1991) 6304–6311.
+[51] M.B. Kastan, O. Onyekwere, D. Sidransky, B. Volgelstein, R.
+Craig, Participation of p53 protein in the cellular responses
+to DNA damage, Cancer Res. 51 (1991) 6304–6311.
+[52] J. Falck, N. Mailand, R.G. Syljuasen, J. Bartek, J. Lukas,
+The ATM-Chk2-Cdc25A checkpoint pathway guards against
+radioresistant DNA synthesis, Nature 410 (2001) 842–847.
+
+102
+W.K. Kaufmann et al. / Mutation Research 532 (2003) 85–102
+[53] C.Y. Peng, P.R. Graves, R.S. Thoma, Z. Wu, A.S. Shaw,
+H. Piwnica-Worms, Mitotic and G2 checkpoint control:
+regulation of 14-3-3 protein binding by phosphorylation
+of
+Cdc25C on
+serine-216,
+Science
+277
+(1997)
+1501–
+1505.
+[54] M. Donzelli, G.F. Draetta, Regulating mammalian checkpoints
+through Cdc25 inactivation, EMBO Rep. 4 (2003) 671–
+677.
+[55] A. Blasina, I.V. de Weyer, M.C. Laus, W.H. Luyten,
+A.E. Parker, C.H. McGowan, A human homologue of the
+checkpoint kinase Cds1 directly inhibits Cdc25 phosphatase,
+Curr. Biol. 9 (1999) 1–10.
+[56] P. Jin, S. Hardy, D.O. Morgan, Nuclear localization of cyclin
+B1 controls mitotic entry after DNA damage, J. Cell Biol.
+141 (1998) 875–885.
+[57] F. Toyoshima, T. Moriguchi, A. Wada, M. Fukuda, E. Nishida,
+Nuclear export of cyclin B1 and its possible role in the DNA
+damage-induced G2 checkpoint, Embo J. 17 (1998) 2728–
+2735.
+[58] A. Hagting, C. Karlsson, P. Clute, M. Jackman, J. Pines,
+MPF localization is controlled by nuclear export, Embo. J.
+17 (1998) 4127–4138.
+[59] F.
+Toyoshima-Morimoto,
+E.
+Taniguchi,
+N.
+Shinya,
+A.
+Iwamatsu, E. Nishida, Polo-like kinase 1 phosphorylates
+cyclin B1 and targets it to the nucleus during prophase, Nature
+410 (2001) 215–220.
+[60] V.A. Smits, R. Klompmaker, L. Arnaud, G. Rijksen, E.A.
+Nigg, R.H. Medema, Polo-like kinase-1 is a target of the
+DNA damage checkpoint, Nat. Cell Biol. 2 (2000) 672–676.
+[61] M.A. van Vugt, V.A. Smits, R. Klompmaker, R.H. Medema,
+Inhibition of Polo-like kinase-1 by DNA damage occurs in an
+ATM- or ATR-dependent fashion, J. Biol. Chem. 276 (2001)
+41656–41660.
+[62] P.B. Deming, K.G. Flores, C.S. Downes, R.S. Paules, W.K.
+Kaufmann, ATR enforces the topoisomerase II-dependent G2
+checkpoint through inhibition of Plk1 kinase, J. Biol. Chem.
+277 (2002) 36832–36838.
+[63] J.A. Tercero, J.F. Difﬂey, Regulation of DNA replication
+fork progression through damaged DNA by the Mec1/Rad53
+checkpoint, Nature 412 (2001) 553–557.
+[64] K.L. Beetham, P.M. Busse, L.J. Tolmach, Synergistic killing
+of HeLa cells by hydroxyurea and caffeine, J. Cell Physiol.
+115 (1983) 283–290.
+[65] A.B. Pardee, L.J. James, Selective killing of transformed baby
+hamster kidney (BHK) cells, Proc. Natl. Acad. Sci. U.S.A.
+72 (1975) 4994–4998.
+[66] F.J. O’Neill, Differential effects of cytochalasin B and caffeine
+on control of DNA synthesis in normal and transformed cells,
+J. Cell Physiol. 101 (1979) 201–217.
+[67] K.L. Beetham, L.J. Tolmach, Growth and death of HeLa cells
+in the presence of caffeine, J. Cell Physiol. 113 (1982) 385–
+397.

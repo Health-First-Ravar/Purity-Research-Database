@@ -1,0 +1,945 @@
+Dynamic Molecular Structure of
+Plant Biomass-Derived Black Carbon
+(Biochar)
+M A R C O
+K E I L U W E I T , † P E T E R
+S .
+N I C O , ‡
+M A R K
+G .
+J O H N S O N , § A N D
+M A R K U S
+K L E B E R * , †
+Department of Crop and Soil Science, Oregon State University,
+Corvallis, Oregon 97331, Earth Science Division, Lawrence
+Berkeley National Laboratory, University of
+CaliforniasBerkeley, Berkeley, California 94720, and U.S.
+Environmental Protection Agency, National Health and
+Environmental Effects Research Laboratory, Western Ecology
+Division, Corvallis, Oregon, 97333
+Received October 19, 2009. Revised manuscript received
+December 22, 2009. Accepted December 22, 2009.
+Char black carbon (BC), the solid residue of incomplete
+combustion, is continuously being added to soils and sediments
+due to natural vegetation ﬁres, anthropogenic pollution, and
+new strategies for carbon sequestration (“biochar”). Here we
+present a molecular-level assessment of the physical
+organization and chemical complexity of biomass-derived
+charsand,speciﬁcally,thatofaromaticcarbonincharstructures.
+Brunauer-Emmett-Teller (BET)-N2 surface area (SA),
+X-ray diffraction (XRD), synchrotron-based near-edge X-ray
+absorptionﬁnestructure(NEXAFS),andFouriertransforminfrared
+(FT-IR) spectroscopy are used to show how two plant
+materials(woodandgrass)undergoanalogousbutquantitatively
+differentphysical-chemicaltransitionsascharringtemperature
+increases from 100 to 700 °C. These changes suggest the
+existence of four distinct categories of char consisting of a
+unique mixture of chemical phases and physical states: (i) in
+transitionchars,thecrystallinecharacteroftheprecursormaterials
+is preserved; (ii) in amorphous chars, the heat-altered
+molecules and incipient aromatic polycondensates are randomly
+mixed; (iii) composite chars consist of poorly ordered graphene
+stacks embedded in amorphous phases; and (iv) turbostratic
+charsaredominatedbydisorderedgraphiticcrystallites.Molecular
+variations among the different char categories likely translate
+into differences in their ability to persist in the environment
+and function as environmental sorbents.
+Introduction
+Black carbon (BC) is an important constituent of soils and
+sediments (1–4). BC has received much attention for three
+reasons. First, there is a general lack of knowledge of the
+processes that lead to the loss of BC from soils and sediments,
+which prevents a clear understanding of ﬂuxes into and out
+of the Earth’s slow-cycling C pools (3). Second, the addition
+of synthetic BC (“biochar”) in soils combined with bioenergy
+productionhasbeensuggestedasameanstomitigateclimate
+change (5, 6). Finally, BC in soils and sediments is recognized
+as an effective sorbent for potentially hazardous organic
+compounds (2, 7). Consequently, there is gathering interest
+in understanding the behavior of BC; precise information
+regarding the structure and properties of BC is needed.
+However, BC is not a well-deﬁned chemical substance and
+encompasses C forms with varying degrees of aromaticity
+such as partly charred plant matter, char, soot, and graphite
+(8). This fact creates difﬁculties in quantifying BC concentra-
+tions in natural environments (9); it complicates the iden-
+tiﬁcation of biochars with properties beneﬁcial to soils (5)
+and results in large variations in the sorptive potential of BC
+(10).Masiello(3)summarizedthenatureoftheproblemwhen
+she stated: “discrepancies between BC studies occur at least
+in part because of a lack of a common model of BC.”
+Biomass-derived char BC is deﬁned as the solid residue
+of incomplete combustion. A widely accepted conceptual
+approach to represent the transient chemical properties of
+char BC is based on the gradual increase in aromaticity
+observed for the heat-induced transformation of plant
+biomass into char (3, 11). This concept is commonly referred
+to as the “combustion continuum” and assumes that, with
+increasing charring temperature, plant biomass undergoes
+chemical transformations leading to the formation of aro-
+matic ring structures, followed by a progressive condensation
+of smaller aromatic units into larger conjugated sheets (4).
+Recently, Knicker et al. (12, 13) conceptualized char BC
+created at a temperature of 350 °C and in the presence of O2
+as a heterogeneous mixture of thermally altered biomacro-
+molecules with substantial substitution with O, H, and S and
+average cluster sizes of aromatic units smaller than six rings.
+While Knicker et al. did not attempt to relate physical
+propertiesoftheircharBCtoitsmolecularstructure,therecent
+pasthasrevealedindicationsoftheoccurrenceofnonlinearities
+and phase transitions during the thermal decomposition of
+biomass, which can be explained only by relatively abrupt
+changes in physical properties of chars, namely, crystallinity
+andporosity.Forinstance,N2-accessibleSAofcharBCexhibits
+a rapid increase at intermediate charring temperatures (5, 10).
+ThisisapproximatelythesametemperatureregionwhereXRD
+data (14–16) show a transition from low-density disordered C
+to the formation of turbostratic crystallites.
+It thus appears critical for the prediction of fate and
+reactivity of char BC to relate the evolution of the chemical
+structureofcharscreatedacrossarelevanttemperaturerange
+to their physical properties. Consequently, the primary
+objective of this study is to integrate physical and chemical
+information into a comprehensive model for the physical
+nature of plant biomass-derived char. We test the hypothesis
+that physical transitions expressed by changes in SA along
+a representative charring temperature range are reﬂected in
+corresponding changes in crystal structure as determined
+by X-ray diffraction. We further explore the extent to which
+physical phase transitions as observed by Paris et al. (16) are
+reﬂected in chemical changes and test whether this infor-
+mation can be combined with chemical data to recognize
+speciﬁc categories of chars.
+Plant biomass variability is considered by using lignin-
+rich pine wood shavings (Pinus ponderosa) and lignin-poor
+tall fescue grass (Festuca arundinacea) as starting materials
+for char production across a charring temperature range of
+100-700 °C. The properties of the chars are characterized
+via elemental and gravimetric analysis, BET-N2 SA mea-
+surements, and FT-IR spectroscopy. Synchrotron-based
+NEXAFS at the carbon K absorption edge is employed to
+relate C speciation to the degree of structural order.
+* Corresponding
+author
+phone:
+(01)-541-737-5718;
+email:
+markus.kleber@oregonstate.edu.
+† Oregon State University.
+‡ Lawrence Berkeley National Laboratory.
+§ U.S. Environmental Protection Agency.
+Environ. Sci. Technol. 2010, 44, 1247–1253
+10.1021/es9031419
+2010 American Chemical Society
+VOL. 44, NO. 4, 2010 / ENVIRONMENTAL SCIENCE & TECHNOLOGY 9 1247
+Published on Web 01/25/2010
+
+Experimental Section
+Production.CommerciallyavailablePonderosapineshavings
+were purchased through GEM Shavings in Auburn, WA. Tall
+fescue straw was collected at the Oregon State University
+Hyslop Field Research Laboratory in Corvallis, OR. After
+grinding to obtain a particle size of less than 1.5 mm, the
+materials were charred at 100, 200, 300, 400, 500, 600, and
+700 °C for 1 h in a closed container under oxygen-limited
+conditions in a 550 series Fisher Scientiﬁc Isotemp mufﬂe
+furnace (Fisher Scientiﬁc, Pittsburgh, PA). Char yield was
+recorded and the samples were milled to pass a 0.25 mm
+sieve (60 mesh) prior to further analyses. Samples are
+hereafter referred to as WX00 (wood) and GX00 (grass), with
+X indicating the ﬁnal charring temperature (100-700 °C).
+For comparison, fresh plant material (W000 and G000) was
+included in some analyses.
+Characterization.Allcharsweresubjectedtothefollowing
+procedures. Gravimetric analyses were conducted according
+to the American Society for Testing and Materials (ASTM)
+D1762-84 (17) to determine volatile matter, ﬁxed C, and ash
+contents. Total carbon, nitrogen, and hydrogen were mea-
+sured on a Carlo Erba NA-1500 CNS analyzer (Carlo Erba
+Instruments, Milan, Italy). BET-N2 SA of all char samples
+were obtained by use of a Nova 2200e surface area analyzer
+(Quantachrome Instruments Corp., Boynton Beach, FL). All
+N2 measurements were performed in triplicate (N ) 3). FT-
+IR spectroscopy was performed on a Thermo Nicolet Nexus
+670 FT-IR spectrophotometer equipped with a smart endur-
+ancesingle-bouncediamondattenuatedtotalreﬂection(ATR)
+accessory (Thermo Fisher Scientiﬁc, Waltham, MA). Dif-
+fraction patterns were recorded on a PANanalytical X’Pert
+Pro instrument using Co KR radiation. NEXAFS spectra were
+collected by use of a synchrotron-based scanning transmis-
+sion X-ray microscope (STXM) at the Advanced Light Source,
+Lawrence Berkeley National Laboratory, beamline 5.3.2. A
+moredetailedaccountoftheproductionandcharacterization
+procedures and peak assignments for FT-IR and NEXAFS is
+available in Tables S1 and S2, respectively, in Supporting
+Information.
+Results and Discussion
+Characterization. Table 1 displays the numerical results for
+proximate and elemental analyses and BET-N2 SA measure-
+ments for wood and grass char samples generated at various
+charring temperatures. Yields begin to decline most rapidly
+at200°Cforwoodandat300°Cforgrassandremainrelatively
+stable above 400 °C. Final yields of grass char (∼29%) are
+higher than those of wood char (∼22%).
+Volatile matter (VM) and ﬁxed C contents give relative
+measures of the more labile and more stable components of
+chars, respectively (see Supporting Information for details).
+Volatile components of both wood and grass char decrease
+substantially between 400 and 600 °C. Fixed C values show
+a reverse trend in this temperature range. This corroborates
+observations by Schenkel (18) summarized in Antal and
+Gronli (19), which ﬁnd a large increase of ﬁxed C contents
+between 300 and 500 °C. Ash contents in wood char increase
+slightly at 400 °C and stabilize at ∼4% at higher temperatures,
+whereas those of grass chars are generally higher and
+eventually stabilize at ∼19%.
+Relative elemental contents show the rapid loss of oxygen
+and hydrogen between 300 and 500 °C, suggesting similar
+condensation reactions for wood and grass. When plotted in
+a typical van Krevelen diagram (as shown in Figure S1 in
+SupportingInformation),theprogressivedecreaseintheH/C
+andO/Catomicratioswithtemperaturefollowsthetrajectory
+associated with dehydration reactions (20). N contents are
+relatively stable for wood chars but show a maximum (1.24%)
+at 400 °C, indicating the enrichment of N-containing
+compounds. Starting at 400 and 500 °C for wood and grass
+chars, respectively, a dramatic rise in SA is observed with
+increasing temperatures. Final values for wood char (347 m2
+g-1) are signiﬁcantly higher than those of grass char (140 m2
+g-1). The falloff in SA observed for wood chars at the ﬁnal
+temperatures is consistent with observations showing SA
+maxima at relatively high temperatures (500-900 °C) (19).
+Fourier Transform Infrared Spectroscopy. The evolution
+of FT-IR spectra of wood and grass chars as a function of
+charring temperature is shown in Figure 1. The reader is
+referred to the Supporting Information for a more detailed
+discussion of these results. To summarize, (i) no FT-IR-
+detectablechemicalchangesoccurasplantmaterialisheated
+to 100 and 200 °C. Spectra then show (ii) dehydration of
+cellulosic and ligneous components starting at 300 °C
+(3500-3200 cm-1), (iii) presence of lignin/cellulose-derived
+transformation products at 400 °C (multiple peaks at
+1600-700 cm-1), and (iv) an increasing degree of condensa-
+tion at charring temperatures of 500 °C and beyond (loss of
+intensityat1650-1500cm-1relativetothatat885-752cm-1).
+X-ray Diffraction. The X-ray diffraction patterns of the
+grass and wood chars are presented in Figure 2, showing
+intensity of the diffracted beam as a function of the Bragg
+TABLE 1. Char and Fixed-C Yields, Volatile Matter, and Ash Contents, Elemental Composition and Ratios, and BET-N2 Surface
+Area (N = 3) of Wood and Grass Chars Prepared at Various Charring Temperatures
+component,a wt %
+atomic ratioa
+sample
+yield
+VM
+ﬁxed C
+ash
+C
+N
+H
+O
+H/C
+O/C
+BET-N2 SA,b m2 g-1
+W100
+99.8
+77.1
+21.7
+1.2
+50.6
+0.05
+6.68
+42.7
+1.59
+0.63
+1.6 ( 0.3
+W200
+95.9
+77.1
+21.4
+1.5
+50.9
+0.04
+6.95
+42.2
+1.64
+0.62
+2.3 ( 0.1
+W300
+62.2
+70.3
+28.2
+1.5
+54.8
+0.05
+6.50
+38.7
+1.42
+0.53
+3.0 ( 0.0
+W400
+35.3
+36.4
+62.2
+1.4
+74.1
+0.06
+4.95
+20.9
+0.80
+0.21
+28.7 ( 1.5
+W500
+28.4
+25.2
+72.7
+2.1
+81.9
+0.08
+3.54
+14.5
+0.52
+0.13
+196 ( 11
+W600
+23.9
+11.1
+85.2
+3.7
+89.0
+0.06
+2.99
+8.0
+0.40
+0.07
+392 ( 11
+W700
+22.0
+6.3
+92.0
+1.7
+92.3
+0.08
+1.62
+6.0
+0.21
+0.05
+347 ( 11
+G100
+99.9
+69.6
+23.5
+6.9
+48.6
+0.64
+7.25
+44.1
+1.81
+0.69
+1.8 ( 0.4
+G200
+96.9
+70.7
+23.6
+5.7
+47.2
+0.61
+7.11
+45.1
+1.81
+0.72
+3.3 ( 0.4
+G300
+75.8
+54.4
+36.2
+9.4
+59.7
+1.02
+6.64
+32.7
+1.34
+0.41
+4.5 ( 0.6
+G400
+37.2
+26.8
+56.9
+16.3
+77.3
+1.24
+4.70
+16.7
+0.73
+0.16
+8.7 ( 0.5
+G500
+31.4
+20.3
+64.3
+15.4
+82.2
+1.09
+3.32
+13.4
+0.48
+0.12
+50 ( 0.4
+G600
+29.8
+13.5
+67.6
+18.9
+89.0
+0.99
+2.47
+7.6
+0.33
+0.06
+75 ( 12
+G700
+28.8
+9.1
+71.6
+19.3
+94.2
+0.70
+1.53
+3.6
+0.20
+0.03
+139 ( 11
+a Yields and ﬁxed C, ash, and VM contents are on a water-free basis (dried at 105 °C). Elemental contents and atomic
+ratios are on a water- and ash-free basis.
+b Shown are average values calculated from N replicate measurements (
+standard deviations.
+1248 9 ENVIRONMENTAL SCIENCE & TECHNOLOGY / VOL. 44, NO. 4, 2010
+
+angle (2θ, in degrees). Sharp, nonlabeled peaks in grass chars
+indicate miscellaneous inorganic components. Although not
+discussed in detail, the greater prevalence of these peaks is
+consistent with the higher percentage of ash in the grass
+chars. Peak spacings of 0.60, 0.53, 0.404, and 0.259 nm are
+assigned to hkl 101, 110, 200, and 004 crystallographic planes
+of completely ordered (i.e., crystalline) regions of cellulose,
+respectively, if a monoclinic unit cell is assumed with c as
+the ﬁber axis (21). Spacings between 0.392 and 0.372 nm and
+between 0.209 and 0.207 nm are assigned to hkl 002 and to
+overlapping 101 and 100 planes, respectively, of graphene
+sheets within turbostratic carbon crystallites (14, 15).
+As the charring temperature increases from 100 to 300 °C,
+strong peaks from cellulose (i.e., 0.60, 0.53, 0.404, and 0.259
+nm) progressively lose intensity and become broader (Figure
+2), indicating a gradual decrease in cellulose crystallinity. A
+complete loss of crystal structure in cellulose is indicated by
+the disappearance of the 0.60 and 0.53 nm signals and the
+coincidental shift of the 0.404 nm signal to higher angles in
+the 400 °C treatment (0.392 nm).
+Further heating gives rise to broad peaks around 0.381
+and 0.207 nm. The narrowing of these peaks with increasing
+temperature indicates developing atomic order in the
+increasingly carbonized plant material and is attributed to
+the formation and evolution of turbostratic crystallites. At
+advanced carbonization stages (i.e., temperatures > 400 °C),
+X-rayscatteringhasrevealedprogressivestackingofgraphene
+sheets (14, 16). These small graphene packets are arranged
+in turbostratic disorder and are therefore referred to as
+turbostratic crystallites. Lateral growth of graphene planes
+is indicated by the increasing intensity of the 101 and 100
+planes at 0.208-0.207 nm (22). Note that the 0.381 nm peak
+in the wood chars is narrower and shows much higher
+intensitiesthanthesignalintherespectivegrasschars(Figure
+2), indicating that wood chars are signiﬁcantly more crystal-
+line. Compared to XRD peaks of pure graphite (23), those of
+G700 and W700 are broad and featureless. The presented
+results are a further indication of the structural differences
+between chars consisting of turbostratic chrystallites and
+highly ordered graphite.
+The XRD data demonstrate that cellulose crystallinity of
+wood and grass chars is lost between 300 and 400 °C, while
+turbostraticcrystallitesevolveatcharringtemperaturesabove
+400 °C. In addition to these two crystalline phases, X-ray
+scattering has revealed an intermediate, amorphous C stage
+within the narrow temperature interval 410-450 °C during
+the charring process of wood (16). Our data suggest such a
+disintegrated and entirely random C phase for wood and
+grass within a narrow temperature interval between 300 and
+400 °C, where crystallinity stemming from both cellulosic
+components and turbostratic crystallites is at its minimum.
+Near-Edge X-ray Absorption Fine Structure Spectros-
+copy. Stacked C 1s NEXAFS spectra of each wood and grass
+char are displayed in Figure 3. The large number of peaks
+observed at low temperatures (100-300 °C) demonstrates
+how the greater variety of C forms present in fresh plant
+material remains preserved. The 1s-π* CdC transition at
+285.3 eV corresponding to H-, CH3-, or C-bonded aromatic
+C (24) is more prominent for wood than for grass, which can
+be ascribed to the higher lignin content of woody material.
+Further, lignin in coniferous wood (here Ponderosa pine) is
+composed of phenolic monomers derived from coniferyl
+alcohol, forming a peak at 287 eV that is prominent in the
+wood spectra (25). However, we also expect a contribution
+ofthemixed1s-3p/σ*resonanceatthisenergythatcorrelates
+with aliphatic C-H. A second common feature associated
+with aromatic C is a broader band between 292 and 295 eV
+(1s-σ*resonance)(26).Spectraofgrasscharsshowadditional
+features in the intermediate region (286-287.5 eV). Here
+resonances of carbonyl groups (286.4 eV) and of aliphatic
+C-H and phenolic C-OH (287.1-287.3 eV) are located. At
+higher energies, carboxyl C-OOH (288.6 eV) and C-O (289.3
+eV) of (hemi)cellulose and lignin are found (see peak
+assignments in Table S2 in Supporting Information).
+With intensity gains for the prominent bands in wood
+(285 and 287 eV) and almost all characteristic peaks in grass
+char at 300 °C, spectral features appear to be in a transitional
+state toward those observed at higher temperatures.
+Charring at 400 °C results in a pronounced increase in
+aromatic C (1s-π* transition at 285 eV) and a drastic loss of
+other functional groups. The 1s-π* transition band slightly
+broadens, extending toward 284-285 and 286 eV. Absorption
+bands at this energy correspond to CdC π transitions of
+molecules with low-energy π* states such as quinone-like
+components (27, 28). Concomitantly, almost all bands
+associated with O-containing and aliphatic groups in the
+intermediate region are lost.
+FIGURE 1. Stacked ATR FT-IR spectra of (a) wood and (b) grass
+char samples heated to temperatures ranging from 100 to 700
+°C.
+VOL. 44, NO. 4, 2010 / ENVIRONMENTAL SCIENCE & TECHNOLOGY 9 1249
+
+Increasingthecharringtemperatureleadstotheformation
+of a plateau between 286 and 288 eV. The gradual increase
+of the ratio of absorption at 285 eV (aromatic C) to that at
+286-288 eV (aliphatic/oxygen-containing C) is an indication
+of the increasingly condensed nature of these chars. In pure
+graphite samples, this plateau is found at a 285 to 286-288
+eV ratio of ∼2.0 (29). In our work, the ratio for wood and
+grass chars is ∼1.0 at 400 °C and, as the plateau gradually
+ﬂattens, rises to ∼1.5 at 700 °C. The remaining absorbance
+at 286.4 and 288.6 eV may be due to residual oxygenated
+functional groups (30, 31). However, this region has also been
+associated with “interlayer states” caused by poor alignment
+of graphene sheets (29, 32).
+The notion that condensation takes place is further
+supported by the broad absorption band emerging at 500 °C
+between 291 and 295 eV. This signal is thought to arise from
+1s-σ* CdC transitions (33) and has a possible contribution
+of the 1s-σ* exciton band (see below). The 1s-π* transitions
+at 285 eV are characteristic of aromatic double bonds but
+lack information on the degree of condensation of these
+aromatic components. The 1s-σ* resonance, however, has
+been used to infer the degree of condensation and the long-
+range order of other carbonaceous materials (28, 34). Sharp
+1s-σ* exciton peaks absorbing between 291 and 292 eV (see
+Figure 3 for an idealized peak representation inset) are
+induced by long-range ordering of extensive polycondensed
+domains (see the Supporting Information for a brief discus-
+sion of 1s-σ* excitons). We observe evidence for such distinct
+featuresinspectraofcharsproducedat600and700°C(Figure
+3). Brandes et al. (29) used 1s-π* transitions in combination
+with 1s-σ* resonance and exciton features to propose a
+schemetoclassifythecrystallinity(i.e.,thedegreeofstructural
+order) of natural graphite samples. According to this scheme,
+well-ordered graphite features both distinct peaks at 285 and
+292 eV as well as a distinctive 1s-σ* exciton peak. A missing
+or poorly expressed exciton peak, however, is thought to
+indicate the presence of smaller graphene sheets. Chars
+produced at 600 and 700 °C in this study would fall in the
+lattercategory,thusrepresentingpoorlycrystallinematerials.
+NEXAFS spectra for chars reveal that (i) aromatic and
+quinonic compounds become prevalent while O-containing
+and aliphatic groups are lost at 400 °C, (ii) ﬁrst evidence for
+condensation reactions is found at 500 °C, and (iii) chars
+produced at 600 and 700 °C are poorly crystalline in nature.
+Speciﬁc Char Categories and Their Components. FT-IR,
+XRD, and NEXAXS illustrate how chars derived from wood
+and grass biomass experience several phase transitions
+leading from microcrystalline cellulose over a largely amor-
+phous intermediate phase toward the formation of turbos-
+tratic crystallites. They allow for the identiﬁcation of four
+distinct categories of char (Figure 4).
+Plant Material: Largely Unaltered by Thermal Treatment.
+At initial charring stages, char yield and XRD data indicate
+FIGURE 2. X-ray diffraction proﬁles (cobalt radiation) of (a) wood and (b) grass chars generated at temperatures ranging from 100 to
+700 °C. Vertical lines indicate peak positions; associated numbers are d-spacings between crystallographic planes in nanometers.
+Sharp, nonlabeled peaks are from inorganic components.
+FIGURE 3. C NEXAFS spectra of (a) wood and (b) grass char
+temperature series, including a noncharred sample of each.
+Individual spectra are shifted on the absorbance axis for better
+discrimination. The gray shaded area indicates the region in
+which 1s-σ* resonance and 1s-σ* exciton peak are located.
+The black line represents the idealized spectral features
+arising from 1s-σ* exciton and resonance characteristic of
+highly conjugated graphene sheets adapted from Brandes et al.
+(29). Additionally, absorption bands at 297.2 and 299 eV are
+attributed to potassium (K) LIII and LII edges, respectively.
+1250 9 ENVIRONMENTAL SCIENCE & TECHNOLOGY / VOL. 44, NO. 4, 2010
+
+the loss of water and initial dehydration reactions of the
+wood and grass precursors. Overall, the native structure of
+the plant biopolymers (i.e., cellulose, hemicellulose, and
+lignin) remains preserved.
+Transition Chars: Volatile Dissociation Products Forming
+AmorphousCentersamidstaLargelyIntactCrystallineMatrix.
+At the next charring stage, FT-IR spectra (loss of 1030 cm-1
+peak) and lower H/C and O/C ratios clearly show that plant
+materials increasingly undergo dehydration and depoly-
+merization of plant biopolymers, creating small volatile
+dissociation products. Greater signals of ketones, aldehyde,
+and carboxyl C observed in FT-IR spectra are indicative of
+depolymerization products derived from lignin (35) and
+cellulose (36). Volatile compounds such as anhydro sugars,
+pyrans, and furans are typical transformation products
+(37–39).Moreover,thestrongerpresenceofphenols(NEXAFS
+absorbance at 285 and 287 eV) may form through secondary
+reactions of cellulose-derived intermediates (38). Despite the
+dissociation of such products, lignin sustains strong IR
+absorption (at 1510, 1440, and 1375 cm-1) and XRD patterns
+illustrate that cellulose retains a notable portion of its
+crystallinity.
+Amorphous Char: An Entirely Amorphous Mixture Com-
+posedofSmall,Heat-ResistantAliphaticand(Hetero)Aromatic
+Elements. The sharp rise in aromatic C detected spectro-
+scopically and the increasing growth of XRD reﬂections
+associated with condensation reactions are characteristic of
+this charring stage. The absence of pronounced 1s-σ*
+features in the NEXAFS data indicates that there is not yet
+signiﬁcant long-range ordering as expected in the presence
+of larger condensed sheets. Instead, broad XRD signals
+present at 0.392-0.372 and 0.209-0.207 nm suggest the
+dominanceofsmallaromaticunitsarrangedinrandomorder.
+In good agreement with the model proposed by Knicker et
+al. (12, 13) and studies of pyrolysis processes (19, 37–39), we
+observe (i) the formation of intermediates such as pyranones,
+anhydro sugars, phenols, quinones, pyrroles, and furans as
+well as small (poly)aromatic units and (ii) the relative
+enrichment of stable aromatic lignin residues due to the loss
+oflessheat-resistantmaterialreﬂectedinthedramaticdecline
+in char yield, non-C atoms, and VM contents. In addition,
+substantial amounts of VM, along with aliphatic signals in
+NEXAFS and FT-IR spectra, suggest that not only cyclic and
+aromaticvolatilesareretained.Almendrosetal.(40)proposed
+that aliphatic components such as cutans and lipids are
+“ﬁxed”inpredominantlyaromaticmatrices,therebyresisting
+volatilization and degradation. The fact that crystalline
+celluloseisalmostcompletelydepolymerized,combinedwith
+the evidence presented above, suggest a disintegrated and
+randomly disordered C phase.
+Composite Char: Turbostratic Crystallites Embedded in a
+Low-Density Amorphous Phase. A larger degree of condensa-
+tion as reﬂected in FT-IR (out-of-plane vibrations) and
+NEXAFS spectra (285 to 286-288 eV ratio) and the formation
+of turbostratic crystallites as seen in the 002 XRD reﬂections
+are distinctive for chars formed upon further heating.
+BET-N2 SA values are well below the maximum achieved
+at higher temperatures, while gravimetric and elemental
+analyses indicate that some volatile noncondensed com-
+ponents are retained in the char matrix. Bourke et al. (23)
+found that the lack of atomic pore space within the crystallite
+carbon layers, as well as recondensation and trapping of VM
+inpores,reducestheSA.Spectroscopicinformationpresented
+in this study points speciﬁcally to the preservation of
+aromatic, aliphatic, and O-containing components, forming
+the amorphous matrix surrounding turbostratic crystallites.
+Turbostratic Char: Nanoporous Phase of Turbostratic
+Crystallites. At high temperatures, successive growth and
+increasing long-range order of the turbostratic crystallites
+are seen. Condensation proceeds as inferred from the more
+prominent 1s-σ* resonance band in NEXAFS spectra,
+whereas the appearance of the exciton feature, along with
+the evolution of the 002 XRD reﬂection, veriﬁes the presence
+of increasingly crystalline structures. The dramatic rise in
+N2-accessible SA at this charring stage is in part due to the
+lateral growth of graphene-like sheets at the expense of
+amorphousC(botharomaticandaliphatic)(14).Thegraphitic
+crystallites are denser than the original amorphous C forms;
+thus conversion of the former into the latter eventually leads
+to the formation of nanopores (d < 2 nm). Moreover, the fact
+that turbostratic chars are poorly crystalline in nature
+maintains a clear division between chars and natural or
+FIGURE 4. Dynamic molecular structure of plant biomass-derived black carbon (biochar) across a charring gradient and schematic
+representation of the four proposed char categories and their individual phases. (A) Physical and chemical characteristics of
+organic phases. Exact temperature ranges for each category are controlled by both charring conditions (i.e., temperature, duration,
+and atmosphere) and relative contents of plant biomass components (i.e., hemicellulose, cellulose, and lignin). (B) Char composition
+as inferred from gravimetric analysis. Yields, VM, ﬁxed C, and ash contents are averaged across wood and grass chars. Relative
+contributions above 700 °C are estimates.
+VOL. 44, NO. 4, 2010 / ENVIRONMENTAL SCIENCE & TECHNOLOGY 9 1251
+
+synthetic graphite. Bourke et al. (23) revealed the structural
+differences using XRD in conjunction with NMR and matrix-
+assisted laser desorption ionization time-of-ﬂight mass
+spectrometry (MALDI-TOF MS). It is shown that the relatively
+high heteroatom content, SA, electrical conductivity, and
+abundance of unpaired electrons in the structure unequivo-
+cally distinguish chars from graphite.
+Figure 4B summarizes the trends in char and ﬁxed-C yield
+observed herein as well as those discussed in the review by
+Antal and Gronli (19). Collectively, these studies report a
+rapid decrease in char yield and a relative increase in ﬁxed-C
+yield at charring temperatures greater than ∼250-300 °C
+followed by a stabilization in yields at charring temperatures
+greater than ∼700 °C.
+Comparison of Precursor Materials. FT-IR spectra and
+elemental ratios suggest that the breakdown of grass appears
+to begin at slightly lower temperatures than that of wood.
+Generally,heat-induceddecompositionofhemicelluloseand
+cellulose in biomass occurs rapidly at low temperatures
+(between 230 and 400 °C), whereas that of lignin happens
+over a broader temperature range (160-900 °C) (41). This
+suggeststhattheactivationenergyforheat-inducedalteration
+of grass char is lower, presumably due to higher contents of
+thermally labile hemicelluloses, than for the more complex
+ligneous polymer structure of wood. The relative quantities
+of biopolymers in the native plant material thus determine
+the speciﬁc conditions under which biomass charring yields
+transition chars (Figure 4).
+ThetransitionfromamorphousCintoorderedturbostratic
+crystallites is not only seen for wood chars, but also quite
+evident for grass chars. Consequently, the two-phase model
+by Kercher and Nagle (14) initially developed for wood chars
+maybeapplicabletovarioustypesofplantbiomass.However,
+it is clear that higher yields of crystalline chars with larger
+SAs from wood can be achieved at lower temperatures than
+from grass biomass. This will be important for applications
+seeking to maximize the reactivity of chars as soil amend-
+ments (5).
+Implications for degradability are probable and already
+have been suggested. Hamer et al. (42) showed that corn
+stover and rye char were mineralized more rapidly than wood
+char. Nguyen and Lehmann (43) reported that mineralization
+andoxidationdecreaseathighertemperaturesforcorn(grass)
+chars, whereas no such effect was observed for oak (wood)
+char.
+Environmental Implications. Persistence in the Environ-
+ment. The “paradox of refractory-labile BC” (44) refers to the
+lack of explanations for the large observed differences in
+residence time between seemingly refractory BC forms and
+other forms that appear to be more dynamic. Our investiga-
+tion has revealed structural and chemical differences which
+make it plain that the persistence of BC in the environment
+depends to a great extent on its particular chemistry and
+physicalstructure.Attemptstorationalizeobservedvariations
+in the chars’ resistance to abiotic and biotic degradation (or
+“aging”) (20, 42) will lead to more robust results when they
+are based on the multiphase model presented in Figure 4.
+Chars as Environmental Sorbents. A clear distinction
+between the categories of chars and their various phases
+entering soils and sediments will aid the more accurate
+descriptionofthesorptionbehavioroforganiccontaminants.
+Different types of char have different BC-water distribution
+coefﬁcients (KBC) (2). These variations are attributed to
+differences in SA and pore size distributions, which are well-
+reﬂected in the proposed categories. Chen et al. (10) divide
+chars into a noncondensed partition (absorption) medium
+and carbonized phases that are viewed as a sorbent surface
+but are indifferent toward the molecular properties of the
+noncondensed phase. Our results show that mobile, non-
+condensed components may comprise both crystalline (i.e.,
+native cellulose) and heat-altered amorphous components
+[i.e., lignin residues, aliphatics, and small (poly)aromatic
+units], which are expected to show dissimilar sorptive
+behavior.
+Quantiﬁcation in Environmental Systems. Despite sub-
+stantial progress, different techniques yield widely varying
+BC “contents” for soils and sediments (9). These authors
+conclude that all quantiﬁcation methods are selective, for
+example,foramorphouswoodcharormorecondensedwood
+chars. We suggest considering that the quantiﬁcation pro-
+tocols tested might be selective for one or more char
+categories. The reader is referred to the Supporting Informa-
+tion for a more detailed account of the environmental
+implications of structural differences among the char
+categories.
+We conclude with the suggestion that future research
+efforts need to recognize the existence of various categories
+of char BC with distinct (i) physical architecture and (ii)
+molecular compositions (Figure 4). The unique combination
+of physical and chemical features in each category is likely
+to translate into widely differing dynamics and functions in
+soil and sediment environments. Future investigations of
+the effect of both charring conditions (e.g., charring duration
+and ramp rates) and biomass properties (e.g., other than
+wood and grass) on properties and yields of individual char
+categories will help to reﬁne the presented classiﬁcation
+scheme.
+Acknowledgments
+WethankF.PrahlandM.Sparrowforassistancewithpyrolysis
+procedures and elemental analysis, and D. Kilcoyne for
+providing “after hours” support at ALS beamline 5.3.2. M.
+Keiluweit acknowledges a merit scholarship awarded by the
+Department of Crop and Soil Science (OSU). Partial support
+was provided by the Ofﬁce of Science, Climate and Envi-
+ronmental Science Division, of the U.S. DOE under Contract
+DE-AC02-05CH11231. Use of the ALS was provided by U.S.
+DOE, Ofﬁce of Science, Basic Energy Sciences under the same
+contract. The information in this document has been funded
+in part by the U.S. Environmental Protection Agency. It has
+been subjected to review by the National Health and
+Environmental Effects Research Laboratory’s Western Ecol-
+ogy Division and approved for publication. Approval does
+not signify that the contents reﬂect the views of the agency,
+nor does mention of trade names or commercial products
+constitute endorsement or recommendation for use.
+Supporting Information Available
+Detailed descriptions of char production and FT-IR proce-
+dures;twotableslistingFT-IRandNEXAFSpeakassignments;
+a ﬁgure showing a van Krevelen plot of char elemental
+contents; discussion of the 1s-σ* exciton phenomenon
+(NEXAFS); and a more detailed account of environmental
+implications of the proposed char categories.This material
+is available free of charge via the Internet at http://
+pubs.acs.org.
+Literature Cited
+(1) Kuhlbusch, T. A. J. Black carbon and the carbon cycle. Science
+1996, 280, 1903–1904.
+(2) Koelmans, A. A.; Jonker, M. T. O.; Cornelissen, G.; Bucheli, T. D.;
+Van Noort, P. C. M.; Gustafsson, O. Black carbon: The reverse
+of its dark side. Chemosphere 2006, 63 (3), 365–377.
+(3) Masiello, C. A. New directions in black carbon organic geochem-
+istry. Mar. Chem. 2004, 92 (1-4), 201–213.
+(4) Preston, C. M.; Schmidt, M. W. I. Black (pyrogenic) carbon: a
+synthesis of current knowledge and uncertainties with special
+consideration of boreal regions. Biogeosciences 2006, 3 (4), 397–
+420.
+(5) Lehmann, J. Bio-energy in the black. Front. Ecol. Environ. 2007,
+5 (7), 381–387.
+1252 9 ENVIRONMENTAL SCIENCE & TECHNOLOGY / VOL. 44, NO. 4, 2010
+
+(6) Lehmann, J. A handful of carbon. Nature 2007, 447 (7141), 143–
+144.
+(7) Loganathan, V. A.; Feng, Y.; Sheng, G. D.; Clement, T. P. Crop-
+residue-derived char inﬂuences sorption, desorption and bio-
+availability of atrazine in soils. Soil Sci. Soc. Am. J. 2009, 73,
+967–974.
+(8) Seiler, W.; Crutzen, P. J. Estimates of gross and net ﬂuxes of
+carbon between the biosphere and the atmosphere from
+biomass burning. Clim. Change 1980, 2, 207–247.
+(9) Hammes, K.; Schmidt, M. W. I.; Smernik, R. J.; Currie, L. A.; Ball,
+W. P.; Nguyen, T. H.; Louchouarn, P.; Houel, S.; Gustafsson, O¨ .;
+Elmquist, M. Comparison of quantiﬁcation methods to measure
+ﬁre-derived (black/elemental) carbon in soils and sediments
+using reference materials from soil, water, sediment and the
+atmosphere. Global Biogeochem. Cycles 2007, 21 (3), GB3016,
+(doi 10.1029/2006GB002914).
+(10) Chen, B.; Zhou, D.; Zhu, L. Transitional adsorption and partition
+of nonpolar and polar aromatic contaminants by biochars of
+pine needles with different pyrolytic temperatures. Environ.
+Sci. Technol. 2008, 42 (14), 5137–5143.
+(11) Hedges,J.I.;Eglinton,G.;Hatcher,P.G.;Kirchman,D.L.;Arnosti,
+C.; Derenne, S.; Evershed, R. P.; Kogel-Knabner, I.; de Leeuw,
+J. W.; Littke, R.; Michaelis, W.; Rullkotter, J. The molecularly-
+uncharacterized component of nonliving organic matter in
+natural environments. Org. Geochem. 2000, 31 (10), 945–958.
+(12) Knicker, H. How does ﬁre affect the nature and stability of soil
+organic nitrogen and carbon? A review. Biogeochemistry 2007,
+85 (1), 91–118.
+(13) Knicker, H.; Hilscher, A.; Gonzalez-Vila, F. J.; Almendros, G. A
+new conceptual model for the structural properties of char
+produced during vegetation ﬁres. Org. Geochem. 2008, 39 (8),
+935–939.
+(14) Kercher, A. K.; Nagle, D. C. Microstructural evolution during
+charcoal carbonization by X-ray diffraction analysis. Carbon
+2003, 41 (1), 15–27.
+(15) Kumar, M.; Gupta, R. C.; Sharma, T. X-ray diffraction studies
+of Acacia and Eucalyptus wood chars. J. Mater. Sci. 1993, 28,
+805–810.
+(16) Paris, O.; Zollfrank, C.; Zickler, G. A. Decomposition and
+carbonisation of wood biopolymers - a microstructural study
+of softwood pyrolysis. Carbon 2005, 43 (1), 53–66.
+(17) D1762-84 Standard Test Method for Chemical Analysis of Wood
+Charcoal. American Society for Testing and Materials: Con-
+shohocken, PA, 2007.
+(18) Schenkel, Y. Modelisation des ﬂux massiques et energetiques
+danslacarbonisationduboisenfourCornue.Ph.D.Dissertation,
+Gembloux, Belgium, 1999.
+(19) Antal, M.; Gronli, M. The art, science, and technology of charcoal
+production. Ind. Eng. Chem. Res. 2003, 42 (8), 1619–1640.
+(20) Baldock, J. A.; Smernik, R. J. Chemical composition and
+bioavailability of thermally altered Pinus resinosa (Red Pine)
+wood. Org. Geochem. 2002, 33 (9), 1093–1109.
+(21) Koyama, M.; Helbert, W.; Imai, T.; Sugiyama, J.; Henrissat, B.
+Parallel-up structure evidences the molecular directionality
+during biosynthesis of bacterial cellulose. Proc. Natl. Acad. Sci.
+U.S.A. 1997, 94 (17), 9091–9095.
+(22) Byrne, C.; Nagle, D. Carbonized wood monoliths - Character-
+ization. Carbon 1997, 35 (2), 267–273.
+(23) Bourke, J.; Manley-Harris, M.; Fushimi, C.; Dowaki, K.; Nunoura,
+T.; Antal, M. J. Do all carbonized charcoals have the same
+chemical structure? 2. A model of the chemical structure of
+carbonized charcoal. Ind. Eng. Chem. Res. 2007, 46 (18), 5954–
+5967.
+(24) Urquhart, S. G.; Ade, H.; Rafailovich, M.; Sokolov, J. S.; Zhang,
+Y. Chemical and vibronic effects in the high-resolution near-
+edge X-ray absorption ﬁne structure spectra of polystyrene
+isotopomers. Chem. Phys. Lett. 2000, 322 (5), 412–418.
+(25) Cody, G.; Brandes, J.; Jacobsen, C.; Wirick, S. Soft X-ray induced
+chemical modiﬁcation of polysaccharides in vascular plant cell
+walls. J. Electron Spectrosc. Relat. Phenom. 2009, 170 (1-3), 57–
+64.
+(26) Cody, G.; Botto, R.; Ade, H.; Behal, S.; Disko, M. Inner-shell
+spectroscopy and imaging of a subbituminous coal: In-situ
+analysis of organic and inorganic microstructure using C (1s)-,
+Ca (2p)-, and Cl (2s)-NEXAFS. Energy Fuels 1995, 9, 525–533.
+(27) Francis, J. T.; Hitchcock, A. P. Inner-shell spectroscopy of para-
+benzoquinone, hydroquinone, and phenol - distinguishing
+quinoid and benzenoid structures. J. Phys. Chem. 1992, 96 (16),
+6598–6610.
+(28) di Stasio, S.; Braun, A. Comparative NEXAFS study on soot
+obtained from an ethylene/air ﬂame, a diesel engine, and
+graphite. Energy Fuels 2006, 20 (1), 187–194.
+(29) Brandes, J. A.; Cody, G. D.; Rumble, D.; Haberstroh, P.; Wirick,
+S.; Gelinas, Y. Carbon K-edge XANES spectromicroscopy of
+natural graphite. Carbon 2008, 46 (11), 1424–1434.
+(30) Cody, G. D.; Ade, H.; Wirick, S.; Mitchell, G. D.; Davis, A.
+Determination of chemical-structural changes in vitrinite
+accompanying luminescence alteration using C-NEXAFS analy-
+sis. Org. Geochem. 1998, 28 (7-8), 441–455.
+(31) Hitchcock, A. P.; Urquhart, S. G.; Rightor, E. G. Inner-shell
+spectroscopy of benzaldehyde, terephthaladehyde, ethyl ben-
+zoate, terephthaloyl chloride, and phosgene - models for core
+excitation for poly(ethylene-terephthalate). J. Phys. Chem. 1992,
+96 (22), 8736–8750.
+(32) Fischer, D. A.; Wentzcovitch, R. M.; Carr, R. G.; Continenza, A.;
+Freeman, A. J. Graphitic interlayer states - a carbon-K near-
+edge X-ray-absorption ﬁne-structure study. Phys. Rev. B: Con-
+dens. Matter 1991, 44 (3), 1427–1429.
+(33) Sto¨hr, J. NEXAFS Spectroscopy; Springer: New York, 1996.
+(34) Banerjee, S.; Hemraj-Benny, T.; Balasubramanian, M.; Fischer,
+D.A.;Misewich,J.A.;Wong,S.S.Surfacechemistryandstructure
+of puriﬁed, ozonized, multiwalled carbon nanotubes probed
+by NEXAFS and vibrational spectroscopies. ChemPhysChem
+2004, 5 (9), 1416–1422.
+(35) Liu, Q.; Wang, S.; Zheng, Y.; Luo, Z.; Cen, K. Mechanism study
+of wood lignin pyrolysis by using TG-FTIR analysis. J. Anal.
+Appl. Pyrolysis 2008, 82 (1), 170–177.
+(36) Reeves, J. B.; McCarty, G. W.; Rutherford, D. W.; Wershaw, R. L.
+Mid-infrared diffuse reﬂectance spectroscopic examination of
+charred pine wood, bark, cellulose, and lignin: Implications for
+the quantitative determination of charcoal in soils. Appl.
+Spectrosc. 2008, 62 (2), 182–189.
+(37) Essig, M. G.; Richards, G. N.; Schenck, E. M. Mechanisms of
+formation of the major volatile products from the pyrolysis of
+cellulose. In Cellulose and Wood Chemistry and Technology;
+Schuerch, C., Ed.; J. Wiley & Sons: New York, 1989.
+(38) Pastorova, I.; Botto, R. E.; Arisz, P.; Boon, J. Cellulose char
+structure - a combined analytical PY-GC-MS, FTIR, and NMR-
+study. Carbohydr. Res. 1994, 262 (1), 27–47.
+(39) Shaﬁzadeh, F. Introduction to pyrolysis of biomass. J. Anal.
+Appl. Pyrolysis 1982, 3 (4), 283–305.
+(40) Almendros, G.; Knicker, H.; Gonzalez-Vila, F. J. Rearrangement
+of carbon and nitrogen forms in peat after progressive thermal
+oxidation as determined by solid-state C-13 and N-15-NMR
+spectroscopy. Org. Geochem. 2003, 34 (11), 1559–1568.
+(41) Yang, H.; Yan, R.; Chen, H.; Lee, D. H.; Zheng, C. Characteristics
+of hemicellulose, cellulose and lignin pyrolysis. Fuel 2007, 86
+(12-13), 1781–1788.
+(42) Hamer,U.;Marschner,B.;Brodowski,S.;Amelung,W.Interactive
+priming of black carbon and glucose mineralisation. Org.
+Geochem. 2004, 35 (7), 823–830.
+(43) Nguyen, B. T.; Lehmann, J. Black carbon decomposition under
+varying water regimes. Org. Geochem. 2009, 40 (8), 846–853.
+(44) Czimczik, C. I.; Masiello, C. A. Controls on black carbon storage
+in soils. Global Biogeochem. Cycles 2007, 21 (3), GB3005, (doi
+10.1029/2006GB002798).
+ES9031419
+VOL. 44, NO. 4, 2010 / ENVIRONMENTAL SCIENCE & TECHNOLOGY 9 1253

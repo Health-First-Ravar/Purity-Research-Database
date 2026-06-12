@@ -1,0 +1,939 @@
+Review
+Impact of biochar application on yield-scaled greenhouse gas intensity:
+A meta-analysis
+Xiang Liu a, Peini Mao a, Lanhai Li b,c,⁎, Jie Ma d
+a Institute of Geography and Resources Science, Sichuan Normal University, Chengdu 610101, China
+b National Engineering Laboratory for Integrated Aero-Space-Ground-Ocean Big Data Application Technology, Northwestern Polytechnical University, Xi'an 710072, China
+c Shaanxi Networks Innovation Institute, Northwestern Polytechnical University, Xi'an 710072, China
+d Hebei University of Engineering, Handan 056038, China
+H I G H L I G H T S
+• Overall, biochar signiﬁcantly reduced
+GHGI by 29%.
+• The effect of biochar on reducing GHGI
+was signiﬁcantly affected by cropping
+system.
+• Biochar had no effect on GHGI when no
+nitrogen fertilizer was applied.
+• Properties of soil and biochar have little
+impact on the response of GHGI to
+biochar.
+G R A P H I C A L
+A B S T R A C T
+a b s t r a c t
+a r t i c l e
+i n f o
+Article history:
+Received 26 September 2018
+Received in revised form 21 November 2018
+Accepted 26 November 2018
+Available online 30 November 2018
+Editor: Jay Gan
+The application of biochar to agricultural ecosystems is a potential solution to mitigate climate change and guar-
+antee food security. However, the impacts of biochar on greenhouse gas emissions and crop yield are usually
+evaluated separately and the results are contradictory in individual studies. In this study, a meta-analysis was
+conducted based on data from 28 peer-reviewed studies to quantify the impacts of biochar application on green-
+house gas emissions and crop yield using yield-scaled greenhouse gas intensity (GHGI). Potential factors (exper-
+imental conditions and properties of soil and biochar) inﬂuencing the effect of biochar on yield-scaled GHGI were
+explored. The results showed that overall, biochar signiﬁcantly reduced yield-scaled GHGI by 29%. The reductions
+in yield-scaled GHGI induced by biochar varied with different experimental conditions and properties of soil and
+biochar. However, the difference was only signiﬁcant between the two cropping systems, with signiﬁcantly
+greater reduction being observed in dry lands (−41%) than in paddy ﬁelds (−17%). Therefore, it is suggested
+that biochar amendment in dry lands may bring more environmental and agronomic beneﬁts than that in
+paddy ﬁelds. The response of crop yield to biochar application further implied that biochar made from crop res-
+idue, biochar produced at low pyrolysis temperatures (≤400 °C), and biochar with high pH (N9.0) might contrib-
+ute to save the production cost of biochar while promoting crop yield in agricultural ecosystems. Long-term ﬁeld
+trials are required to elucidate the persistence of the impact of biochar on reducing yield-scaled GHGI and to clar-
+ify the underlying mechanisms. The balance between the price of biochar production and the beneﬁts brought by
+biochar should also be focused in further studies.
+© 2018 Elsevier B.V. All rights reserved.
+Keywords:
+Biochar
+Greenhouse gas intensity
+Global warming
+Food security
+Agricultural ecosystem
+Meta-analysis
+Science of the Total Environment 656 (2019) 969–976
+⁎ Corresponding author at: National Engineering Laboratory for Integrated Aero-Space-Ground-Ocean Big Data Application Technology, Northwestern Polytechnical University, No. 127
+West Youyi Road, Beilin District, Xi'an, Shaanxi 710072, China.
+E-mail address: lilh@ms.xjb.ac.cn (L. Li).
+https://doi.org/10.1016/j.scitotenv.2018.11.396
+0048-9697/© 2018 Elsevier B.V. All rights reserved.
+Contents lists available at ScienceDirect
+Science of the Total Environment
+journal homepage: www.elsevier.com/locate/scitotenv
+
+Contents
+1.
+Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+970
+2.
+Materials and methods
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+970
+2.1.
+Data sources and compilation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+970
+2.2.
+Meta-analysis . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+971
+3.
+Results . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+971
+3.1.
+Changes in yield-scaled GHGI after biochar application as affected by experimental conditions . . . . . . . . . . . . . . . . . . . . . .
+971
+3.2.
+Changes in yield-scaled GHGI after biochar application as affected by soil properties
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+971
+3.3.
+Changes in yield-scaled GHGI after biochar application as affected by biochar properties. . . . . . . . . . . . . . . . . . . . . . . . .
+972
+4.
+Discussion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+972
+4.1.
+Potential mechanisms of biochar affecting GWP and crop yield . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+972
+4.2.
+Experimental conditions
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+972
+4.3.
+Soil properties . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+973
+4.4.
+Biochar properties . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+974
+5.
+Conclusion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+974
+Acknowledgement . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+974
+Appendix A.
+Supplementary data . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+974
+References. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+975
+1. Introduction
+Agriculture serves as one of the major contributors of atmospheric
+greenhouse gases, accounting for approximately 52% and 84% of global
+anthropogenic methane (CH4) and nitrous oxide (N2O) emissions, re-
+spectively (Smith et al., 2008). Despite its signiﬁcant role in inﬂuencing
+global climate change, agriculture also faces the great challenge of pro-
+viding enough food for the growing population by using limited land re-
+sources (Smith et al., 2013; Valin et al., 2013). Therefore, effective
+agricultural management practices are urgently needed to promote
+both greenhouse gas mitigation and food security.
+Biochar, the carbonaceous residue of pyrolyzed organic materials
+(e.g. crop residue) at relatively low temperatures (b700 °C) in the par-
+tial or total absence of O2 (Lehmann et al., 2011; Nguyen et al., 2017),
+has drawn an increasing attention in the last decade due to its poten-
+tially environmental and agronomic beneﬁts such as mitigating green-
+house gas emissions, improving soil fertility, and increasing crop yield
+after its application to agricultural soils (Sohi et al., 2010; Lehmann
+et al., 2011; Cornelissen et al., 2018). However, such effects are highly
+variable because of the differences in experimental conditions and the
+nature of soil and biochar in individual studies (Jeffery et al., 2011; Liu
+et al., 2016). Empirical evidence showed that biochar could stay in
+soils for a long time due to its high biochemical stability (Atkinson
+et al., 2010; Wang et al., 2016). Therefore, biochar may have irreversible
+impacts on soil properties and ecosystem functions (Sohi et al., 2010).
+Before the large-scale implementation of biochar as a soil amendment,
+a great deal of work still need to be conducted in order to provide
+more rational information for policy-makers when dealing with global
+warming and food production through biochar application (Jeffery
+et al., 2011). In this case, a systematic synthesis of biochar effects on
+greenhouse gas emissions and crop yield based on the results from pub-
+lished literature may provide suggestions and implications for further
+research (Cayuela et al., 2014). Since both global warming and food se-
+curity are great challenges that humans must face (Lal, 2004), the re-
+sponses of greenhouse gas emissions and crop yield to biochar
+application should better be assessed together rather than separately.
+Greenhouse gas intensity (GHGI), deﬁned as the ratio of global
+warming potential (GWP) to crop yield, has been used to relate agricul-
+tural production to greenhouse gas emissions (Mosier et al., 2006;
+Zhang et al., 2012). A smaller value of GHGI indicates that a lower
+GWP is produced to obtain a same crop yield, whereas a lager value im-
+plies that producing a same crop yield induces a higher GWP. Hence,
+GHGI can be an effective indicator when optimizing agricultural man-
+agement practices for simultaneously mitigating climatic impacts and
+ensuring food security (Huang et al., 2013; van Groenigen et al.,
+2013). Although some previous studies pointed out that yield-scaled
+GHGI could be reduced by biochar application (Zhang et al., 2012; Liu
+et al., 2014; Li et al., 2015), no response or even an increase of GHGI
+after biochar application were also reported (Koyama et al., 2015; Ly
+et al., 2015). Factors inﬂuencing the response of GHGI to biochar appli-
+cation are currently poorly understood.
+In this study, 81 experimental observations derived from 28 peer-
+reviewed publications were synthesized to quantitatively examine the
+impact of biochar application on yield-scaled GHGI in agricultural eco-
+systems using meta-analysis procedures. Potential factors regulating
+the impact of biochar on yield-scaled GHGI were also explored. The re-
+sults would provide implications for future studies which aim to evalu-
+ate the effectiveness of biochar application on greenhouse gas
+mitigation and crop yield promotion.
+2. Materials and methods
+2.1. Data sources and compilation
+A literature search was conducted through ISI Web of Science and
+Google Scholar using the keywords “biochar” OR “charcoal” AND
+“greenhouse gas intensity” OR “greenhouse gas” OR “nitrous oxide”
+OR “methane” OR “N2O” OR “CH4” AND “crop yield” OR “crop productiv-
+ity” (cut-off data: 18th September 2018). Since most of the related stud-
+ies separately assessed the effects of biochar application on greenhouse
+gas emissions and crop yield, only 81 observations from 28 peer-
+reviewed studies were collected based on the following criteria:
+(1) data of yield-scaled GHGI must be reported or could be calculated
+through GWP and crop yield for control and biochar treatment; (2) sam-
+ple size must be given for each treatment with a minimum of three rep-
+lications. It should be noted that the only difference between control
+and biochar treatment was the application of biochar. In this meta-
+analysis, GWP (t carbon dioxide (CO2)-eq ha−1) was deﬁned as the
+sum of cumulative CO2-equivalent emission in a 100-year horizon for
+CH4 and N2O using a conversion factor of 25 for CH4 and 298 for N2O
+(IPCC, 2007), respectively, which were used to calculate GWP in most
+of the selected studies. For studies which used different conversion fac-
+tors, the GWP was recalculated to make the results comparable. Yield-
+scaled GHGI (t CO2-eq t−1 grain yield) was deﬁned as the GWP divided
+by the grain yield (t ha−1). When the raw data was presented in graphs
+rather than in tables, the GetData Graph Digitizer (version 2.25, Russian
+Federation) was used to extract numerical data (Liu et al., 2018). For
+each study, information on the location of the experimental site (coun-
+try), application rates of nitrogen (N) fertilizer and biochar, planted crop
+970
+X. Liu et al. / Science of the Total Environment 656 (2019) 969–976
+
+species as well as the feedstock and pyrolysis temperature of biochar
+was also compiled (Table S1).
+The compiled dataset was grouped by categories including experi-
+mental conditions (type of experiment, cropping system and applica-
+tion rates of N fertilizer and biochar), properties of soil (pH and
+texture), and properties of biochar (feedstock, pyrolysis temperature
+and pH) to explore the potential factors affecting the response of
+yield-scaled GHGI to biochar application (Table 1). The three categories
+of soil texture were based on USDA classiﬁcations (Soil Survey Staff,
+2014), which grouped the soil texture of clay, silt clay and sandy clay
+into ﬁne; the soil texture of clay loam, loam, silty clay loam, silt and
+silt loam into medium; and the soil texture of sandy loam, sandy clay
+loam and loamy sand into coarse, respectively (Cayuela et al., 2014).
+2.2. Meta-analysis
+In this study, the natural log-transformed response ratio (R) was
+used as a measure of effect size for the meta-analysis (Lam et al., 2012):
+lnR ¼ ln
+Xt
+Xc
+
+
+ð1Þ
+where Xt and Xc represent the mean yield-scaled GHGI of biochar treat-
+ment and control group, respectively. The results were back trans-
+formed to percentage change ((R-1) × 100) to present the effect of
+biochar application on yield-scaled GHGI. Negative values indicate
+that GHGI values were reduced by biochar application, and positive
+values indicate increases in GHGI after biochar application.
+In previous meta-analyses, effect sizes were weighted by the inverse
+of pooled variance (Ainsworth and Long, 2005), replication (Lam et al.,
+2012) or unweighted (Shi et al., 2016). Since not all the collected studies
+reported variances, the effect sizes in this study were weighted by a func-
+tion of sample size (Lam et al., 2012; Xia et al., 2017; Liu et al., 2018):
+weight ¼ nt  nc
+nt þ nc
+ð2Þ
+where nt and nc are the numbers of replications of the biochar treatment
+and control, respectively.
+Mean effect sizes and 95% conﬁdence intervals (CIs) were generated
+through bootstrapping (4999 interactions) using MetaWin 2.1
+(Rosenberg et al., 2000). Although a mixed-effects model or a ﬁxed-
+effects model was technically not applicable for non-parametric meta-
+analytic procedure based on weighting by replication, a ﬁxed-effects
+model must be selected when performing a correct bootstrapping
+using MetaWin (Lam et al., 2012; Xia et al., 2017; Liu et al., 2018). The
+impact of biochar application on yield-scaled GHGI was considered sig-
+niﬁcant if the 95% CIs did not overlap with zero. Means of categorical
+variables were considered signiﬁcantly if their 95% CIs did not overlap.
+3. Results
+3.1. Changes in yield-scaled GHGI after biochar application as affected by
+experimental conditions
+Overall, biochar application signiﬁcantly reduced yield-scaled GHGI
+by 29%. The reduction in pot experiments was higher (−33%) than
+that in ﬁeld experiments (−27%), but the difference between them
+was not signiﬁcant (Fig. 1a). By contrast, the reductions in GHGI induced
+by biochar differed signiﬁcantly between the two cropping systems. The
+reduction in dry lands (−41%) was signiﬁcantly higher compared to
+that in paddy ﬁelds (−17%) (Fig. 1b). When no N fertilizer was applied,
+biochar application had no effect on GHGI. In contrast, GHGI was signif-
+icantly reduced by 23–54% as a result of biochar application when N fer-
+tilizer was applied, and the reductions decreased in the order: high
+application rate (N300 kg N ha−1) N low application rate (N0,
+≤150 kg N ha−1) N moderate application rate (N150, ≤300 kg N ha−1).
+However, the differences in reductions in GHGI among the three appli-
+cation rates were not signiﬁcant (Fig. 1c). Biochar signiﬁcantly reduced
+GHGI by 21% when the application rate of biochar did not exceed
+5 t ha−1. The reductions in GHGI varied in a range of 26–50% when
+the application rate of biochar was higher than 5 t ha−1, but the differ-
+ences among different treatments were also not signiﬁcant (Fig. 1d).
+3.2. Changes in yield-scaled GHGI after biochar application as affected by
+soil properties
+Signiﬁcant reductions (−31%) in yield-scaled GHGI were observed
+when incorporating biochar into acidic and alkaline soils. In contrast,
+applying biochar to neutral soils had no effect on GHGI. Although the re-
+ductions in GHGI in acidic and alkaline soils were 3.4 times greater than
+that in neutral soils after biochar application, the differences among
+them were not signiﬁcant (Fig. 2a). As shown in Fig. 2b, applying bio-
+char to soils with different textures signiﬁcantly reduced GHGI by
+25–49%, and the reduction in soils with ﬁne texture was almost twice
+Table 1
+Factors categorized as predictive variables in this meta-analysis.
+Factor
+Levels
+Experimental
+conditions
+Type of experiment
+Field; pot
+Cropping system
+Dry lands; paddy ﬁelds
+Application rate of nitrogen
+fertilizer (kg N ha−1)
+0; N0, ≤150; N 150, ≤300;
+N300
+Application rate of biochar
+(t ha−1)
+≤5; N5, ≤10; N10, ≤20; N20,
+≤30; N30
+Soil properties
+Soil pH
+Acidic (≤6.5); neutral (N6.5,
+≤7.5); alkaline (N7.5)
+Soil texture
+Fine; medium; coarse
+Biochar
+properties
+Feedstock
+Wood; crop residue
+Pyrolysis temperature (°C)
+≤400; N400, ≤500; N500
+Biochar pH
+≤9.0; N9.0, ≤10.0; N10.0
+Pot (26)
+Field (55)
+Grand mean (81)
+Paddy fields (40)
+Dry lands (37)
+Grand mean (77)
+> 300 (14)
+> 150, ≤ 300 (29)
+> 0, ≤ 150 (22)
+0 (12)
+Grand mean (77)
+> 30 (21)
+> 20, ≤ 30 (8)
+> 10, ≤ 20 (16)
+> 5, ≤ 10 (14)
+≤ 5 (22)
+Grand mean (81)
+-80
+-40
+0
+40
+80
+a
+b
+c
+d
+Changes in yield-scaled GHGI (%)
+Fig. 1. Changes in yield-scaled greenhouse gas intensity (GHGI) after biochar application
+as inﬂuenced by type of experiment (a), cropping system (b), application rate of
+nitrogen fertilizer (kg N ha−1) (c) and application rate of biochar (t ha−1) (d). The dash
+reference lines indicate no change in GHGI after biochar application. Points are means
+with 95% conﬁdence intervals. Numbers of experimental observations are in parentheses.
+971
+X. Liu et al. / Science of the Total Environment 656 (2019) 969–976
+
+as large as those in soils with medium and coarse textures. Nevertheless,
+the differences did not differ signiﬁcantly among the three soil textures.
+3.3. Changes in yield-scaled GHGI after biochar application as affected by
+biochar properties
+On average, biochar made from wood and biochar made from crop
+residue signiﬁcantly reduced yield-scaled GHGI by 35% and 28%, respec-
+tively, but the difference between them was not signiﬁcant (Fig. 3a). No
+difference in reduction in GHGI was detected after applying biochar
+with different pyrolysis temperatures, although biochar produced at
+low pyrolysis temperatures (≤400 °C) led to a higher reduction in
+GHGI (−49%) than those produced at moderate (N400, ≤500 °C)
+(−19%) and high (N500 °C) (−32%) pyrolysis temperatures (Fig. 3b).
+As presented in Fig. 3c, signiﬁcant reductions in GHGI were observed
+after biochar amendment regardless of the different pH of biochar.
+The highest reduction in GHGI (−29%) was observed when the pH of
+applied biochar did not exceed 9.0, but the reduction did not differ sig-
+niﬁcantly with those after applying biochar with higher pH (−19 to
+−23%).
+4. Discussion
+4.1. Potential mechanisms of biochar affecting GWP and crop yield
+Overall, the present meta-analysis showed that biochar application
+signiﬁcantly decreased GWP by 21% (Fig. S1a), while signiﬁcantly in-
+creasing crop yield by 11% (Fig. S2a). Therefore, a signiﬁcant reduction
+in yield-scaled GHGI (29%) was detected after biochar application
+(Fig. 1a). The results were in line with ﬁndings of previous meta-
+analyses (Jeffery et al., 2011; Liu et al., 2013; Cayuela et al., 2014;
+Jeffery et al., 2016), which indicated that biochar played signiﬁcant
+roles in mitigating N2O and CH4 emissions and improving crop produc-
+tivity. To date, a number of mechanisms have been proposed to explain
+how biochar inﬂuences the production and consumption of N2O and
+CH4 in soils. In general, the mechanisms by which biochar may suppress
+soil N2O emissions include: (1) biochar liming effect leading to an in-
+crease in soil pH, which may shift the product stoichiometry of denitri-
+ﬁcation to increased production of N2 rather than N2O; (2) enhanced
+soil aeration restraining denitriﬁcation as more O2 being present in
+soils; (3) the adsorption of NO3
+−and/or NH4
++ by biochar decreasing
+the substrate availability of nitriﬁcation and denitriﬁcation; (4) labile
+organic carbon (C) of biochar increasing the availability of dissolved or-
+ganic C pool, which leads to a complete denitriﬁcation; and (5) the in-
+hibitory or toxic compounds of biochar releasing into soils and
+inhibiting nitriﬁcation or denitriﬁcation (Clough et al., 2013; Cayuela
+et al., 2014). The potential mechanisms of how biochar decreases CH4
+emissions from soils include: (1) biochar improving soil aeration,
+which may stimulate CH4 oxidation and/or suppress CH4 production
+(Karhu et al., 2011; Jeffery et al., 2016); (2) biochar has the capacity to
+adsorb CH4 on its surface (Yaghoubi et al., 2014); and (3) biochar in-
+creasing methanotrophic abundances and decreasing the ratios of me-
+thanogenic to methanotrophic abundances under anoxic conditions
+(Feng et al., 2012). The positive effect of biochar on increasing crop pro-
+ductivity is mainly attributed to that biochar improves soil fertility
+through enhancing the retention and availability of soil nutrients (e.g.
+N, Ca and Mg) and water (Atkinson et al., 2010; Major et al., 2010; Liu
+et al., 2013; Agegnehu et al., 2016). In acidic soils, the liming effect of
+biochar can also alleviate Al and P stress by regulating soil pH for better
+growth of crops (Steiner et al., 2007; Pandit et al., 2018). In addition,
+empirical evidence indicated that biochar was effective in reducing
+the bioavailability, phytotoxicity, and plant uptake of potentially toxic
+elements (e.g. As, Cd and Pb), which not only promotes the growth of
+crops, but also reduces the risk of potentially toxic elements to human
+health (Park et al., 2011; Khan et al., 2014). However, most of the
+above-mentioned mechanisms are only assumed or speculated. Further
+research is required to discern the underlying mechanisms of biochar
+impacts on greenhouse gas emissions and crop productivity.
+4.2. Experimental conditions
+Biochar signiﬁcantly reduced yield-scaled GHGI in both ﬁeld and pot
+studies, but the difference between them was not signiﬁcant (Fig. 1a).
+The results, which were in agreement with observations of previous
+meta-analyses (Liu et al., 2013; He et al., 2017), indicated that the pos-
+itive effects of biochar on mitigating global warming and improving
+crop yield were not changed by the experimental method. However,
+the collected observations were generally short-term trials with periods
+Alkaline (19)
+Neutral (10)
+Acidic (52)
+Grand mean (81)
+Coarse (14)
+Medium (28)
+Fine (16)
+Grand mean (58)
+-80
+-40
+0
+40
+80
+a
+b
+Changes in yield-scaled GHGI (%)
+Fig. 2. Changes in yield-scaled greenhouse gas intensity (GHGI) after biochar application
+as inﬂuenced by soil pH (a) and soil texture (b). The dash reference lines indicate no
+change in GHGI after biochar application. Points are means with 95% conﬁdence
+intervals. Numbers of experimental observations are in parentheses.
+Crop residue (62)
+Wood (14)
+Grand mean (76)
+> 500 (9)
+> 400, ≤ 500 (43)
+≤ 400 (17)
+Grand mean (69)
+> 10.0 (22)
+> 9.0, ≤ 10.0 (30)
+≤ 9.0 (12)
+Grand mean (64)
+-80
+-40
+0
+40
+80
+Changes in yield-scaled GHGI (%)
+a
+b
+c
+Fig. 3. Changes in yield-scaled greenhouse gas intensity (GHGI) after biochar application
+as inﬂuenced by feedstock (a), pyrolysis temperature (°C) (b) and pH (c) of biochar. The
+dash reference lines indicate no change in GHGI after biochar application. Points are
+means with 95% conﬁdence intervals. Numbers of experimental observations are in
+parentheses.
+972
+X. Liu et al. / Science of the Total Environment 656 (2019) 969–976
+
+of b4 years for ﬁeld studies and ≤4 months for pot studies. Although
+both the environmental and agronomic beneﬁts produced by biochar
+have been discussed in previous studies, the long-term beneﬁts of
+using biochar as a soil amendment are still unclear because the trial
+lengths were generally within 5 years (Dong et al., 2019). What is cer-
+tain is that biochar is irretrievable once applied to soils, implying that
+biochar may have irreversible effects on soil function, greenhouse gas
+balance, and crop productivity (Sohi et al., 2010). A recent model
+study pointed out that biochar had negligible effect on long-term
+(32 years) corn yields in the US Midwest, suggesting that biochar had
+limited impact on improving crop productivity after remaining in soils
+for a long time (Aller et al., 2018). Therefore, long-term trials, particu-
+larly those under ﬁeld conditions, are needed to clarify the persistence
+of the impact of biochar on reducing yield-scaled GHGI. In contrast,
+the effect of biochar on GHGI differed signiﬁcantly between the two
+cropping systems (Fig. 1b). The difference was due to the soils of
+paddy ﬁelds being usually under anoxic conditions, which favored
+methanogens while inhibiting methanotrophs (Conrad, 2007), making
+paddy ﬁelds a signiﬁcant source of CH4 and resulting in a higher GWP
+than dry lands. In this case, even though biochar exerted a positive effect
+on reducing GWP in paddy ﬁelds, the reduction (−10%) was not signif-
+icant and was considerably lower than that in dry lands (−34%)
+(Fig. S1b). Since the increases in crop yield induced by biochar did not
+differ signiﬁcantly between the two cropping systems (12% for dry
+lands and 11% for paddy ﬁelds, respectively) (Fig. S2b), the reduction
+in GHGI caused by biochar was thus greater in dry lands than that in
+paddy ﬁelds. A recent meta-analysis indicated that biochar did not inﬂu-
+ence carbon dioxide (CO2) emissions in dry lands, but signiﬁcantly in-
+creased CO2 emissions by 18% in paddy ﬁelds (Liu et al., 2016).
+Consequently, biochar amendment in dry lands may have a better per-
+formance on mitigating global warming and improving crop production
+than that in paddy ﬁelds.
+Biochar amendment had no effect on yield-scaled GHGI without the
+application of N fertilizer, but signiﬁcantly reduced GHGI by 23–54%
+when N fertilizer was applied (Fig. 1c). In practice, N fertilizer is neces-
+sary for agricultural production because the original level of available N
+in soils cannot meet the requirement of crop growth. However, the ap-
+plication of N fertilizer also induces many environmental issues, one of
+which is the high emissions of soil N2O (Shcherbak et al., 2014). It is es-
+timated that N2O emissions from agricultural soils are responsible for
+84% of the global anthropogenic N2O emissions, mainly due to the appli-
+cation of N fertilizer (Smith et al., 2008). Although N2O emissions usu-
+ally increase with the application rate of N fertilizer (Shcherbak et al.,
+2014), as illustrated above, biochar can suppress soil N2O emissions
+through affecting the microbial processes of nitriﬁcation and denitriﬁca-
+tion, which are two major sources of soil N2O (Clough et al., 2013;
+Cayuela et al., 2014). As shown in Fig. S2c, the increases in crop yield in-
+duced by biochar increased with the application rate of N fertilizer, pos-
+sibly due to that biochar enhanced N use efﬁciency through adsorbing
+NO3
+−and/or NH4
++ (Atkinson et al., 2010; Clough et al., 2013). Hence, sig-
+niﬁcant reductions in both GWP (−13 to −43%) (Fig. S1c) and GHGI
+were observed after biochar amendment in soils with N application. In
+a previous meta-analysis, Cayuela et al. (2014) pointed out that the ef-
+fectiveness of biochar on reducing N2O emissions could also be affected
+by the chemical form of N fertilizer, with the greatest effect (80% reduc-
+tion) being detected when the applied form of N was NO3
+−. However,
+the impact of N fertilizer form on GHGI was not assessed in the present
+study because most of the selected studies did not give the form of ap-
+plied N fertilizer, which should be focused in further studies.
+The reductions in yield-scaled GHGI generally increased with bio-
+char application rate when the application rate of biochar did not ex-
+ceed 30 t ha−1, but showed a decreasing trend when the application
+rate of biochar was higher than 30 t ha−1 (Fig. 1d). The results implied
+that the environmental and agronomic beneﬁts brought by biochar did
+not always increase with biochar application rate. The ﬁnding was con-
+sistent with observations of previous meta-analyses (Liu et al., 2013;
+Jeffery et al., 2011; He et al., 2017). The reasons why the positive effects
+of biochar on mitigating greenhouse gas emissions and improving crop
+yield weakened at certain application rates are still unclear, likely as a
+result of the differences in management practices, planted crop species,
+and properties of soil and biochar in individual studies (Kloss et al.,
+2014; Laghari et al., 2015). Since the production of biochar not only con-
+sumes biomass and energy, but also leads to greenhouse gas emissions,
+the balance between the price of biochar production and the beneﬁts
+brought by biochar should be paid closer attention to in the future
+(Pandit et al., 2018).
+4.3. Soil properties
+Previous meta-analyses observed that soil pH was an important fac-
+tor that inﬂuenced the performance of biochar in agricultural ecosys-
+tems (Jeffery et al., 2011; Cayuela et al., 2014; Jeffery et al., 2016; Liu
+et al., 2016). Results of the present study indicated that biochar amend-
+ment in acidic and alkaline soils could signiﬁcantly reduce GHGI. How-
+ever, biochar had no effect on GHGI in neutral soils (Fig. 2a). In general,
+biochar has a higher pH than the soil in which it is applied (Zhang et al.,
+2012; Koyama et al., 2015), thereby a liming effect is often induced by
+biochar application (van Zwieten et al., 2010; Chintala et al., 2014). In
+the collected studies, the acidic soils were mostly from tropical and sub-
+tropical regions, where crop growth was often limited by low availabil-
+ity of P, K, Ca, Mg and by low level of soil organic matter (Glaser et al.,
+2002). The increase in soil pH after biochar amendment could not
+only enhance the availability of soil nutrients (e.g. P and K), but also re-
+duce the toxicity of metal ion (e.g. Al3+), contributing to better crop
+growth in these regions (Jeffery et al., 2011; Liu et al., 2013). Therefore,
+a signiﬁcant increase in crop yield (14%) was observed after biochar
+amendment in acidic soils (Fig. S2e). Biochar's liming effect might also
+inﬂuence the production and consumption of N2O and CH4 in acidic
+soils. The increase in soil pH induced by the liming effect could create
+a favorable environment for N2O reductase and methanotrophic com-
+munities, which contributed to the formation of N2 and the oxidation
+of CH4, respectively (Clough et al., 2013; Jeffery et al., 2016). The re-
+duced toxicity of Al3+ to methanotrophs might also lead to the mitiga-
+tion of CH4 (Jeffery et al., 2016). Consequently, it is suggested that the
+liming effect of biochar is the main reason for the reduced yield-scaled
+GHGI in acidic soils. In alkaline soils, the signiﬁcantly decreased GHGI
+after biochar application was unlikely to be a result of the liming effect
+due to the high soil pH (8.3 on average). Based on the above-
+mentioned mechanisms, it is hypothesized that the changes in soil labile
+organic C pool and nutrient status (e.g. the adsorption of mineral N),
+which have considerable impacts on soil microbial activities and crop
+growth, are possible explanations for the decreased GHGI in alkaline
+soils after biochar amendment. However, the hypothesized mecha-
+nisms need to be tested in further studies.
+Soil texture is an important factor that inﬂuences soil aeration as
+well as soil water and nutrient availability (Silver et al., 2000). Empirical
+evidence showed that the effects of biochar on greenhouse gas emis-
+sions and crop growth varying with soil texture (Butnan et al., 2015;
+He et al., 2017). Unfortunately, there is currently no consensus on
+how soil texture affects the performance of biochar in soils. Biochar
+has a highly porous structure, which can improve a range of soil physical
+properties such as porosity and pore size distribution (Hardie et al.,
+2014). In general, it is speculated that particles in coarse soils are easier
+to mix with biochar compared to those in ﬁne and medium soils,
+resulting in a better aeration condition in coarse soils (Liu et al., 2016).
+The improved soil aeration may further stimulate the decomposition
+of soil organic C and the activity of methanotrophs (Liu et al., 2016;
+He et al., 2017). Therefore, higher CO2 emissions and lower CH4 emis-
+sions are usually observed in coarse soils than those in ﬁne and medium
+soils after biochar application (Liu et al., 2016; He et al., 2017). In con-
+trast, the effectiveness of biochar on mitigating N2O emissions and pro-
+moting crop yield is often not inﬂuenced by soil texture (Liu et al., 2013;
+973
+X. Liu et al. / Science of the Total Environment 656 (2019) 969–976
+
+Cayuela et al., 2014). Similarly, results of the present study indicated
+that the response of yield-scaled GHGI to biochar application was not af-
+fected by soil texture (Fig. 2b). It is likely that the impacts of biochar on
+N2O emissions and crop yield depend more on microbial activity and
+nutrient availability than soil physical properties (Atkinson et al.,
+2010; Clough et al., 2013).
+4.4. Biochar properties
+The feedstock of biochar, which is a key factor determining the com-
+positional constituents of biochar, has received much attention during
+the last decade when evaluating the performance of biochar in green-
+house gas mitigation and crop yield promotion (Mukome et al., 2013).
+The most commonly used materials for biochar production are crop res-
+idue (e.g. rice husk and wheat straw) and wood, both of which can be
+easily obtained in most areas of the world (Mukome et al., 2013).
+Other feedstocks of biochar include, but are not limited to sewage
+sludge, manure, and municipal wastes (Ronsse et al., 2013). In the col-
+lected studies, the applied biochars were mainly made from crop resi-
+due or wood. Therefore, only two feedstocks of biochar were
+considered in this study. The results showed that the feedstock of bio-
+char did not alter the response of yield-scaled GHGI to biochar
+(Fig. 3a). In contrast, the response of crop yield to biochar was signiﬁ-
+cantly affected by the biochar feedstock, with no response (−3%) after
+applying biochar made from wood but a signiﬁcant increase (15%)
+after applying biochar made from crop residue (Fig. S2g). Using meta-
+analysis, Nguyen et al. (2017) found that the decreases in NH4
++ and
+NO3
+−were greater in soils with crop residue derived biochar than
+those in soils with woody biochar, suggesting that biochar made from
+crop residue might have a better impact on the retention of available
+N than biochar made from wood. After reviewing the effects of biochar
+on soil hydrological properties, Omondi et al. (2016) observed that crop
+residue derived biochar induced greater increases in soil porosity, water
+holding capacity, and saturated hydraulic conductivity compared to
+wood derived biochar. Hence, crop residue derived biochar may have
+a better performance on increasing the availability of N and water
+than woody biochar, creating a better soil environment for crop growth.
+Taking the performance of biochar and the cost of biochar production
+into consideration (Mukome et al., 2013), it is suggested that crop resi-
+due may be a better option for producing biochar than wood in agricul-
+tural ecosystems.
+The pyrolysis temperature of biochar has been recognized as an-
+other important factor that affects biochar properties (Hossain et al.,
+2011; Al-Wabel et al., 2013). Results of the present study show that
+the effect of biochar on yield-scaled GHGI was not inﬂuenced by the py-
+rolysis temperature of biochar (Fig. 3b). In contrast, crop yield signiﬁ-
+cantly increased after applying biochar produced at low (22%) and
+moderate pyrolysis temperatures (13%), and showed no response to
+biochar produced at high pyrolysis temperatures (−1%) (Fig. S2h).
+The results were inconsistent with those of Liu et al. (2013), who re-
+ported that biochars made from wood and crop residue at low pyrolysis
+temperatures (b350 °C) had no effect, or even signiﬁcantly decreased
+crop productivity, whereas biochar produced at high pyrolysis temper-
+atures (≥350 °C) resulted in signiﬁcant increases in crop productivity.
+The contradictory results were due to that the assessed indexes were
+different in the two studies. In the present study, only the impact of bio-
+char on crop yield was considered. In contrast, the impacts of biochar on
+both crop yield and aboveground biomass were assessed by Liu et al.
+(2013). In general, as pyrolysis temperature increased, the pH, electrical
+conductivity, ash content, C stability, and nutrient contents of biochar
+show increasing trends, whereas the yield of biochar decreases
+(Hossain et al., 2011; Al-Wabel et al., 2013; Yuan et al., 2015). Conse-
+quently, biochar produced at low pyrolysis temperatures may contrib-
+ute to save the production cost of biochar while promoting crop yield.
+The results showed that the effectiveness of biochar on reducing
+yield-scaled GHGI was not affected by biochar pH (Fig. 3c). In contrast,
+biochar application had no impact on crop yield (0%) if the pH of biochar
+was lower than 9.0, whereas it signiﬁcantly increased crop yield by
+13–16% if the biochar pH was higher than 9.0 (Fig. 2i). Previous studies
+indicated that biochar generally had a higher pH than the soil in which it
+was applied (Zhang et al., 2012; Koyama et al., 2015). In the collected
+studies, the pH of biochar varied from 6.3 to 10.4 with an average
+value of 9.5. By contrast, the average pH of soils was only 6.5. In this
+case, biochar was able to induce a liming effect after being applied to
+soils, especially acidic soils (Chintala et al., 2014). As illustrated above,
+biochar's liming effect not only improves mineral nutrient supply for
+crop growth, but can also alleviate Al and P stress for better crop health
+in acidic soils (Steiner et al., 2007; Asai et al., 2009; Schulz and Glaser,
+2012). Consequently, biochars with high pH might have a better perfor-
+mance on improving soil fertility than those with low pH due to their
+stronger liming effects, resulting in signiﬁcant increases in crop yield.
+Based on the results of this meta-analysis, it is suggested that biochar
+application in dry lands may produce more environmental and agro-
+nomic beneﬁts than that in paddy ﬁelds. Since the effectiveness of bio-
+char on reducing yield-scaled GHGI does not always increase with the
+application rate of biochar, an appropriate application rate of biochar
+should be explored to maximize the beneﬁts brought by biochar from
+a regional perspective. Soil pH and texture generally have little impact
+on the response of GHGI to biochar application, for which the reasons
+are currently unclear and require further studies to elucidate. The per-
+formance of biochar on reducing yield-scaled GHGI is also not inﬂu-
+enced
+by
+biochar
+properties
+including
+feedstock,
+pyrolysis
+temperature, and pH. However, the response of crop yield to biochar
+amendment indicates that biochar made from crop residue, biochar
+produced at low pyrolysis temperatures (≤400 °C), and biochar with
+high pH (N9.0) may contribute to save the production cost of biochar
+while promoting crop yield in agricultural ecosystems. Long-term ﬁeld
+trials are required to examine the persistence of the impact of biochar
+on reducing yield-scaled GHGI in the future.
+5. Conclusion
+Results of this meta-analysis showed that biochar application signif-
+icantly reduced yield-scaled GHGI by 29%, indicating that biochar appli-
+cation might be an effective soil amendment for mitigating greenhouse
+gas emissions and simultaneously increasing crop yield in agricultural
+ecosystems. Although the reductions in GHGI after biochar application
+varied with different experimental conditions and properties of soil
+and biochar, the difference was only signiﬁcant between the two
+cropping systems. In dry lands, the reduction in GHGI was signiﬁcantly
+higher than that in paddy ﬁelds after biochar amendment, implying that
+biochar amendment in dry lands might produce more environmental
+and agronomic beneﬁts than that in paddy ﬁelds. Taking the impacts
+of biochar on crop yield into consideration, it is suggested that biochar
+made from crop residue, biochar pyrolyzed at low temperatures (≤400
+°C), and biochar with high pH (N9.0) are potentially effective soil
+amendments for saving the production cost of biochar while promoting
+crop yield in agricultural ecosystems. More studies, particularly long-
+term ﬁeld studies, should be conducted to obtain a robust conclusion
+on how these factors regulate the effect of biochar on yield-scaled
+GHGI and to clarify the underlying mechanisms. Optimizing the impacts
+of biochar on greenhouse gas mitigation and crop yield promotion and
+evaluating the balance between the price of biochar production and
+the beneﬁts brought by biochar should also be paid closer attention to
+in the future.
+Acknowledgement
+This study was supported by the Strategic Priority Research Program
+of Chinese Academy of Sciences, Pan-Third Pole Environment Study for
+a Green Silk Road (Pan-TPE) (No. XDA2004030202). The authors are
+grateful to the authors of the cited literature for their constructive
+974
+X. Liu et al. / Science of the Total Environment 656 (2019) 969–976
+
+original research and the anonymous referees for their valuable sugges-
+tions for improving the manuscript.
+Appendix A. Supplementary data
+Supplementary data to this article can be found online at https://doi.
+org/10.1016/j.scitotenv.2018.11.396.
+References
+Agegnehu, G., Nelson, P.N., Bird, M.I., 2016. The effects of biochar, compost and their mix-
+ture and nitrogen fertilizer on yield and nitrogen use efﬁciency of barley grown on a
+nitisol in the highlands of Ethiopia. Sci. Total Environ. 569, 869–879.
+Ainsworth, E.A., Long, S.P., 2005. What have we learned from 15 years of free-air CO2 en-
+richment (FACE)? A meta-analytic review of the responses of photosynthesis, canopy
+properties and plant production to rising CO2. New Phytol. 165, 351–372.
+Aller, D.M., Archontoulis, S.V., Zhang, W., Sawadgo, W., Laird, D.A., Moore, K., 2018. Long
+term biochar effects on corn yield, soil quality and proﬁtability in the US Midwest.
+Field Crop Res. 227, 30–40.
+Al-Wabel, M.I., Al-Omran, A., El-Naggar, A.H., Nadeem, M., Usman, A.R.A., 2013. Pyrolysis
+temperature induced changes in characteristics and chemical composition of biochar
+produced from conocarpus wastes. Bioresour. Technol. 131, 374–379.
+Asai, H., Samson, B.K., Stephan, H.M., Songyikhangsuthor, K., Homma, K., Kiyono, Y., Inoue,
+Y., Shiraiwa, T., Horie, T., 2009. Biochar amendment techniques for upland rice pro-
+duction in Northern Laos: 1. Soil physical properties, leaf SPAD and grain yield.
+Field Crop Res. 111, 81–84.
+Atkinson, C.J., Fitzgerald, J.D., Hipps, N.A., 2010. Potential mechanisms for achieving agri-
+cultural beneﬁts from biochar application to temperate soils: a review. Plant Soil 337,
+1–18.
+Butnan, S., Deenik, J.L., Toomsan, B., Antal, M.J., Vityakon, P., 2015. Biochar characteristics
+and application rates affecting corn growth and properties of soils contrasting in tex-
+ture and mineralogy. Geoderma 237, 105–116.
+Cayuela, M.L., van Zwieten, L., Singh, B.P., Jeffery, S., Roig, A., Sánchez-Monedero, M.A.,
+2014. Biochar's role in mitigating soil nitrous oxide emissions: a review and meta-
+analysis. Agric. Ecosyst. Environ. 191, 5–16.
+Chintala, R., Mollinedo, J., Schumacher, T.E., Malo, D.D., Julson, J.L., 2014. Effect of biochar
+on chemical properties of acidic soil. Arch. Agron. Soil Sci. 60, 393–404.
+Clough, T.J., Condron, L.M., Kammann, C., Müller, C., 2013. A review of biochar and soil ni-
+trogen dynamics. Agronomy 3, 275–293.
+Conrad, R., 2007. Microbial ecology of methanogens and methanotrophs. Adv. Agron. 96,
+1–63.
+Cornelissen, G., Nurida, N.L., Hale, S.E., Martinsen, V., Silvani, L., Mulder, J., 2018. Fading
+positive effect of biochar on crop yield and soil acidity during ﬁve growth seasons
+in an Indonesian Ultisol. Sci. Total Environ. 634, 561–568.
+Dong, X., Singh, B.P., Li, G., Lin, Q., Zhao, X.R., 2019. Biochar increased ﬁeld soil inorganic
+carbon content ﬁve years after application. Soil Tillage Res. 186, 36–41.
+Feng, Y., Xu, Y., Yu, Y., Xie, Z., Lin, X., 2012. Mechanisms of biochar decreasing methane
+emission from Chinese paddy soils. Soil Biol. Biochem. 46, 80–88.
+Glaser, B., Lehmann, J., Zech, W., 2002. Ameliorating physical and chemical properties of
+highly weathered soils in the tropics with charcoal-a review. Biol. Fertil. Soils 35,
+219–230.
+van Groenigen, K.J., van Kessel, C., Hungate, B.A., 2013. Increased greenhouse-gas inten-
+sity of rice production under future atmospheric conditions. Nat. Clim. Chang. 3,
+288–291.
+Hardie, M., Clothier, B., Bound, S., Oliver, G., Close, D., 2014. Does biochar inﬂuence soil
+physical properties and soil water availability? Plant Soil 376, 347–361.
+He, Y., Zhou, X., Jiang, L., Li, M., Du, Z., Zhou, G., Shao, J., Wang, X., Xu, Z., Bai, S.H., Wallace,
+H., Xu, C., 2017. Effects of biochar application on soil greenhouse gas ﬂuxes: a meta-
+analysis. GCB Bioenergy 9, 743–755.
+Hossain, M.K., Strezov, V., Chan, K.Y., Ziolkowski, A., Nelson, P.F., 2011. Inﬂuence of pyrol-
+ysis temperature on production and nutrient properties of wastewater sludge bio-
+char. J. Environ. Manag. 92, 223–228.
+Huang, T., Gao, B., Christie, P., Ju, X., 2013. Net global warming potential and greenhouse
+gas intensity in a double-cropping cereal rotation as affected by nitrogen and straw
+management. Biogeosciences 10, 7897–7911.
+IPCC, 2007. Changes in atmospheric constituents and in radiative forcing. In: Solomon, S.,
+Qin, D., Manning, M., et al. (Eds.), Climate Change 2007: The Physical Science Basis.
+Contribution of Working Group I to the Fourth Assessment Report of the Intergovern-
+mental Panel on Climate Change. Cambridge University Press, Cambridge, UK.
+Jeffery, S., Verheijen, F.G.A., van der Velde, M., Bastos, A.C., 2011. A quantitative review of
+the effects of biochar application to soils on crop productivity using meta-analysis.
+Agric. Ecosyst. Environ. 144, 175–187.
+Jeffery, S., Verheijen, F.G.A., Kammann, C., Abalos, D., 2016. Biochar effects on methane
+emissions from soils: a meta-analysis. Soil Biol. Biochem. 101, 251–258.
+Karhu, K., Mattila, T., Bergström, I., Regina, K., 2011. Biochar addition to agricultural soil
+increased CH4 uptake and water holding capacity–results from a short-term pilot
+ﬁeld study. Agric. Ecosyst. Environ. 140, 309–313.
+Khan, S., Reid, B.J., Li, G., Zhu, Y.G., 2014. Application of biochar to soil reduces cancer risk
+via rice consumption: a case study in Miaoqian village, Longyan, China. Environ. Int.
+68, 154–161.
+Kloss, S., Zehetner, F., Wimmer, B., Buecker, J., Rempt, F., Soja, G., 2014. Biochar application
+to temperate soils: effects on soil fertility and crop growth under greenhouse condi-
+tions. J. Plant Nutr. Soil Sci. 177, 3–15.
+Koyama, S., Inazaki, F., Minamikawa, K., Kato, M., Hayashi, H., 2015. Increase in soil carbon
+sequestration using rice husk charcoal without stimulating CH4 and N2O emissions in
+an andosol paddy ﬁeld in Japan. Soil Sci. Plant Nutr. 61, 873–884.
+Laghari, M., Mirjat, M.S., Hu, Z., Fazal, S., Xiao, B., Hu, M., Chen, Z., Guo, D., 2015. Effects of
+biochar application rate on sandy desert soil properties and sorghum growth. Catena
+135, 313–320.
+Lal, R., 2004. Soil carbon sequestration impacts on global climate change and food secu-
+rity. Science 304, 1623–1627.
+Lam, S.K., Chen, D., Norton, R., Armstrong, R., Mosier, A.R., 2012. Nitrogen dynamics in
+grain crop and legume pasture systems under elevated atmospheric carbon dioxide
+concentration: a meta-analysis. Glob. Chang. Biol. 18, 2853–2859.
+Lehmann, J., Rillig, M.C., Thies, J., Masiello, C.A., Hockaday, W.C., Crowley, D., 2011. Biochar
+effects on soil biota–a review. Soil Biol. Biochem. 43, 1812–1836.
+Li, B., Fan, C.H., Zhang, H., Chen, Z.Z., Sun, L.Y., Xiong, Z.Q., 2015. Combined effects of nitro-
+gen fertilization and biochar on the net global warming potential, greenhouse gas in-
+tensity and net ecosystem economic budget in intensive vegetable agriculture in
+southeastern China. Atmos. Environ. 100, 10–19.
+Liu, X., Zhang, A., Ji, C., Joseph, S., Bian, R., Li, L., Pan, G., Paz-Ferreiro, J., 2013. Biochar's ef-
+fect on crop productivity and the dependence on experimental conditions–a meta-
+analysis of literature data. Plant Soil 373, 583–594.
+Liu, J., Shen, J., Li, Y., Su, Y., Ge, T., Jones, D.L., Wu, J., 2014. Effects of biochar amendment on
+the net greenhouse gas emission and greenhouse gas intensity in a Chinese double
+rice cropping system. Eur. J. Soil Biol. 65, 30–39.
+Liu, S., Zhang, Y., Zong, Y., Hu, Z., Wu, S., Zhou, J., Jin, Y., Zou, J., 2016. Response of soil car-
+bon dioxide ﬂuxes, soil organic carbon and microbial biomass carbon to biochar
+amendment: a meta-analysis. GCB Bioenergy 8, 392–406.
+Liu, X., Yang, T., Wang, Q., Huang, F., Li, L., 2018. Dynamics of soil carbon and nitrogen
+stocks after afforestation in arid and semi-arid regions: a meta-analysis. Sci. Total En-
+viron. 618, 1658–1664.
+Ly, P., Vu, Q.D., Jensen, L.S., Pandey, A., de Neergaard, A., 2015. Effects of rice straw, biochar
+and mineral fertiliser on methane (CH4) and nitrous oxide (N2O) emissions from rice
+(Oryza sativa L.) grown in a rain-fed lowland rice soil of Cambodia: a pot experiment.
+Paddy Water Environ. 13, 465–475.
+Major, J., Rondon, M., Molina, D., Riha, S.J., Lehmann, J., 2010. Maize yield and nutrition
+during 4 years after biochar application to a Colombian savanna oxisol. Plant Soil
+333, 117–128.
+Mosier, A.R., Halvorson, A.D., Reule, C.A., Liu, X.J., 2006. Net global warming potential and
+greenhouse gas intensity in irrigated cropping systems in northeastern Colorado.
+J. Environ. Qual. 35, 1584–1598.
+Mukome, F.N.D., Zhang, X., Silva, L.C.R., Six, J., Parikh, S.J., 2013. Use of chemical and phys-
+ical characteristics to investigate trends in biochar feedstocks. J. Agric. Food Chem. 61,
+2196–2204.
+Nguyen, T.T.N., Xu, C.Y., Tahmasbian, I., Che, R., Xu, Z., Zhou, X., Wallace, H.M., Bai, S.H.,
+2017. Effects of biochar on soil available inorganic nitrogen: a review and meta-
+analysis. Geoderma 288, 79–96.
+Omondi, M.O., Xia, X., Nahayo, A., Liu, X., Korai, P.K., Pan, G., 2016. Quantiﬁcation of bio-
+char effects on soil hydrological properties using meta-analysis of literature data.
+Geoderma 274, 28–34.
+Pandit, N.R., Mulder, J., Hale, S.E., Zimmerman, A.R., Pandit, B.H., Cornelissen, G., 2018. Multi-
+year double cropping biochar ﬁeld trials in Nepal: ﬁnding the optimal biochar dose
+through agronomic trials and cost-beneﬁt analysis. Sci. Total Environ. 637, 1333–1341.
+Park, J.H., Choppala, G.K., Bolan, N.S., Chung, J.W., Chuasavathi, T., 2011. Biochar reduces
+the bioavailability and phytotoxicity of heavy metals. Plant Soil 348, 439–451.
+Ronsse, F., Van Hecke, S., Dickinson, D., Prins, W., 2013. Production and characterization of
+slow pyrolysis biochar: inﬂuence of feedstock type and pyrolysis conditions. GCB
+Bioenergy 5, 104–115.
+Rosenberg, M.S., Adams, D.C., Gurevitch, J., 2000. MetaWin Version 2: Statistical Software
+for Meta-analysis. Sinauer Associates Inc., Sunderland.
+Schulz, H., Glaser, B., 2012. Effects of biochar compared to organic and inorganic fertilizers
+on soil quality and plant growth in a greenhouse experiment. J. Plant Nutr. Soil Sci.
+175, 410–422.
+Shcherbak, I., Millar, N., Robertson, G.P., 2014. Global metaanalysis of the nonlinear re-
+sponse of soil nitrous oxide (N2O) emissions to fertilizer nitrogen. Proc. Natl. Acad.
+Sci. U. S. A. 111, 9199–9204.
+Shi, S., Peng, C., Wang, M., Zhu, Q., Yang, G., Yang, Y., Xi, T., Zhang, T., 2016. A global meta-
+analysis of changes in soil carbon, nitrogen, phosphorus and sulfur, and stoichiomet-
+ric shifts after forestation. Plant Soil 407, 323–340.
+Silver, W.L., Neff, J., McGroddy, M., Veldkamp, E., Keller, M., Cosme, R., 2000. Effects of soil
+texture on belowground carbon and nutrient storage in a lowland Amazonian forest
+ecosystem. Ecosystems 3, 193–209.
+Smith, P., Martino, D., Cai, Z., Gwary, D., Janzen, H., Kumar, P., McCarl, B., Ogle, S., O'Mara,
+F., Rice, C., Scholes, B., Sirotenko, O., Howden, M., McAllister, T., Pan, G., Romanenkov,
+V., Schneider, U., Towprayoon, S., Wattenbach, M., Smith, J., 2008. Greenhouse gas
+mitigation in agriculture. Philos. Trans. R. Soc. B 363, 789–813.
+Smith, P., Haberl, H., Popp, A., Erb, K., Lauk, C., Harper, R., Tubiello, F.N., de Siqueira Pinto,
+A., Jafari, M., Sohi, S., Masera, O., Böttcher, H., Berndes, G., Bustamante, M., Ahammad,
+H., Clark, H., Dong, H., Elsiddig, E.A., Mbow, C., Ravindranath, N.H., Rice, C.W., Abad,
+C.R., Romanovskaya, A., Sperling, F., Herrero, M., House, J.I., Rose, S., 2013. How
+much land-based greenhouse gas mitigation can be achieved without compromising
+food security and environmental goals? Glob. Chang. Biol. 19, 2285–2302.
+Sohi, S.P., Krull, E., Lopez-Capel, E., Bol, R., 2010. A review of biochar and its use and func-
+tion in soil. Adv. Agron. 105, 47–82.
+Staff, S.S., 2014. Keys to Soil Taxonomy. USDA–Natural Resources Conservation Service,
+Washington, DC.
+Steiner, C., Teixeira, W.G., Lehmann, J., Nehls, T., de MacêdoWinfried, J.L.V., Blum, W.E.H.,
+Wolfgang, Z., 2007. Long term effects of manure, charcoal and mineral fertilization on
+975
+X. Liu et al. / Science of the Total Environment 656 (2019) 969–976
+
+crop production and fertility on a highly weathered Central Amazonian upland soil.
+Plant Soil 291, 275–290.
+Valin, H., Havlik, P., Mosnier, A., Herrero, M., Schmid, E., Obersteiner, M., 2013. Agricultural
+productivity and greenhouse gas emissions: trade-offs or synergies between mitiga-
+tion and food security? Environ. Res. Lett. 8, 035019.
+Wang, J., Xiong, Z., Kuzyakov, Y., 2016. Biochar stability in soil: meta-analysis of decompo-
+sition and priming effects. GCB Bioenergy 8, 512–523.
+Xia, L., Lam, S.K., Chen, D., Wang, J., Tang, Q., 2017. Can knowledge-based N management
+produce more staple grain with lower greenhouse gas emission and reactive nitrogen
+pollution? A meta-analysis. Glob. Chang. Biol. 23, 1917–1925.
+Yaghoubi, P., Yargicoglu, E.N., Reddy, K.R., 2014. Effects of biochar-amendment to landﬁll
+cover soil on microbial methane oxidation: initial results. Geo-Congress 2014 Techni-
+cal Papers. Am. Soc. Civ. Eng., pp. 1849–1858
+Yuan, H., Lu, T., Huang, H., Zhao, D., Kobayashi, N., Chen, Y., 2015. Inﬂuence of pyrolysis
+temperature on physical and chemical properties of biochar made from sewage
+sludge. J. Anal. Appl. Pyrolysis 112, 284–289.
+Zhang, A., Bian, R., Pan, G., Cui, L., Hussain, Q., Li, L., Zheng, J., Zheng, J., Zhang, X., Han, X.,
+Yu, X., 2012. Effects of biochar amendment on soil quality, crop yield and greenhouse
+gas emission in a Chinese rice paddy: a ﬁeld study of 2 consecutive rice growing cy-
+cles. Field Crop Res. 127, 153–160.
+van Zwieten, L., Kimber, S., Morris, S., Chan, K.Y., Downie, A., Rust, J., Joseph, S., Cowie, A.,
+2010. Effects of biochar from slow pyrolysis of papermill waste on agronomic perfor-
+mance and soil fertility. Plant Soil 327, 235–246.
+976
+X. Liu et al. / Science of the Total Environment 656 (2019) 969–976

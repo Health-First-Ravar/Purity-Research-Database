@@ -1,0 +1,719 @@
+Citation: Rodas, L.; Martínez, S.;
+Riera-Sampol, A.; Moir, H.J.; Tauler, P.
+Effects of Caffeine and
+5-Caffeoylquinic Acid on Blood Cell
+In Vitro Cytokine Production in
+Response to Lipopolysaccharide
+Stimulation. Appl. Sci. 2022, 12, 7322.
+https://doi.org/10.3390/
+app12147322
+Academic Editor: Susan Hall
+Received: 14 June 2022
+Accepted: 18 July 2022
+Published: 21 July 2022
+Publisher’s Note: MDPI stays neutral
+with regard to jurisdictional claims in
+published maps and institutional afﬁl-
+iations.
+Copyright:
+© 2022 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed
+under
+the
+terms
+and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).
+applied  
+sciences
+Article
+Effects of Caffeine and 5-Caffeoylquinic Acid on Blood Cell In
+Vitro Cytokine Production in Response to
+Lipopolysaccharide Stimulation
+Lluis Rodas 1, Sonia Martínez 2,3
+, Aina Riera-Sampol 2,3
+, Hannah J. Moir 4,*
+and Pedro Tauler 1,3,*
+1
+Research Group on Evidence, Lifestyles and Health, Department of Fundamental Biology and Health
+Sciences, Research Institute of Health Sciences (IUNICS), University of the Balearic Islands,
+07122 Palma, Spain; lluisrodas@hotmail.com
+2
+Research Group on Evidence, Lifestyles and Health, Department of Nursing and Physiotherapy,
+Research Institute of Health Sciences (IUNICS), University of the Balearic Islands, 07122 Palma, Spain;
+sonia.martinez@uib.es (S.M.); ana.riera@uib.es (A.R.-S.)
+3
+Health Research Institute of the Balearic Islands (IdISBa), 07120 Palma, Spain
+4
+School of Life Sciences, Pharmacy and Chemistry, Faculty of Science Engineering and Computing,
+Kingston University London, Penryhn Road, Surrey KT1 2EE, UK
+*
+Correspondence: hannah.moir@kingston.ac.uk (H.J.M.); pedro.tauler@uib.es (P.T.); Tel.: +34-971-172858 (P.T.)
+Abstract: Previous in vitro studies the have suggested anti-inﬂammatory properties of caffeine.
+Coffee is also rich in phenolic acids with several potential health beneﬁts (chlorogenic acids), mainly
+5-caffeoylquinic acid (5-CQA). The aim of the present study was to determine the effect of caffeine
+and 5-CQA, using concentrations comparable to typical human consumption, on LPS-induced
+cytokine production in whole blood in vitro cultures. Whole blood samples (n = 10) were stimulated
+for 24 h with LPS in the presence of caffeine or 5-CQA. The concentrations of various cytokines,
+malondialdehyde (MDA) and adenosine-3′,5′-cyclic monophosphate (cAMP) were determined in
+the culture media. Signiﬁcant effects of caffeine were found only for the stimulated production of
+TNF-α (p = 0.014) and cAMP (p = 0.001). However, only the highest caffeine concentration (50 µM)
+induced lower TNF-α (p = 0.016) and higher cAMP (p = 0.006) levels in comparison to the control. The
+5-CQA only inﬂuenced the stimulated production of IL-6 (p = 0.002), with lower values for the highest
+5-CQA concentrations (2 µM: p = 0.012; 20 µM: p < 0.001). Neither caffeine (p = 0.227) nor 5-CQA
+(p = 0.259) inﬂuenced MDA concentrations. In conclusion, both caffeine and 5-CQA exerted limited
+in vitro anti-inﬂammatory effects. For caffeine, these effects were attained with high physiological
+concentrations. However, for 5-CQA, supraphysiological concentrations were needed.
+Keywords: caffeine; chlorogenic acids; cytokines; LPS challenge; human blood cell culture
+1. Introduction
+Coffee is one of the most commonly consumed beverages in the world [1]. For
+many populations, coffee is the major source of caffeine [1], the most widely consumed
+psychostimulant [2]. However, coffee is also a very rich source of chlorogenic acids (CGAs),
+naturally-produced phenolic acids that are derived from the esteriﬁcation of cinnamic acids
+and quinic acid [3]. The most abundant CGA in coffee is 5-caffeoylquinic acid (5-CQA),
+which accounts for approximately 80% of the total CGA content [4]. Furthermore, coffee is
+the main source of CGAs in the human diet, with less contribution provided from other
+products such as tea and some fruits and vegetables [5].
+It has been reported that a regular intake of coffee is associated with a reduced risk
+of chronic diseases, such as type 2 diabetes [6,7], metabolic syndrome [8], cardiovascular
+diseases [9,10], and cancer [10]. Furthermore, consumption of coffee has been recently
+associated with lower all-cause cancer mortality [11]. Interestingly, some studies have
+shown an anti-inﬂammatory effect of regular coffee consumption [12–15].
+Appl. Sci. 2022, 12, 7322. https://doi.org/10.3390/app12147322
+https://www.mdpi.com/journal/applsci
+
+Appl. Sci. 2022, 12, 7322
+2 of 10
+Due to having antioxidant and anti-inﬂammatory properties, the health beneﬁts of
+coffee have been attributed, at least in part, to CGAs [3,14,16]. Studies testing the anti-
+inﬂammatory activity of CGAs are scarce, but some have conﬁrmed this anti-inﬂammatory
+effect [3]. Two studies carried out with mouse macrophages demonstrated how the presence
+of 5-CQA (the CGA most commonly tested), in cell culture suppressed the lipopolysac-
+charide (LPS)-stimulated production of pro-inﬂammatory compounds [17,18]. On the
+other hand, studies in animal models have shown that the administration of 5-CQA causes
+suppresses in the circulating levels of pro-inﬂammatory cytokines [19–21]. However, no
+studies using human cells, particularly blood cells, focused on to analyzing the possible
+anti-inﬂammatory effect of chlorogenic acids currently exist in the literature. Furthermore,
+in some studies, the 5-CQA concentrations used were in the µM range [17,18], whereas
+concentrations observed in human plasma after coffee ingestion are typically in the nM
+range [22]. Therefore, it would be of interest to analyze the anti-inﬂammatory effect of
+5-CQA, as it is the most abundant CGA in coffee, using human blood cells stimulated with
+LPS, a commonly used model.
+However, the potential effects of caffeine should also be considered. Caffeine can
+interact with almost all tissues in the organism, including the immune system [23]. In
+this regard, a number of animal and in vitro studies have been focused on the effects
+of caffeine on immune related parameters, such as tumor necrosis factor (TNF)-α and
+antibody production, hypersensitivity and natural killer cell cytotoxicity, indicating an
+anti-inﬂammatory role for caffeine [23]. As such, some studies have reported that caffeine
+suppresses TNF-α production in vitro [24,25], but only when caffeine concentrations are
+higher than the physiological ones.
+Taking into account these considerations, the aim of the present study was to determine
+the effect of caffeine and 5-CQA, using physiological concentrations comparable to typical
+human consumption, on the LPS-induced cytokine production in whole blood in vitro
+cultures. Due to the low concentrations tested, limited effects of caffeine and 5-CQA on
+cytokine production are expected.
+2. Materials and Methods
+2.1. Study Participants
+All of the participants were classiﬁed as healthy individuals recruited from the Uni-
+versity of the Balearic Islands, Spain, and were aged 30–45 years. The exclusion criteria
+included: common colds, ﬂus (or similar diseases), infectious diseases, allergic episodes
+and/or consumption of anti-inﬂammatory medication within the two weeks preceding the
+study, and regular drugs or alcohol (more than one daily alcoholic drink in women and
+two daily alcohol drinks in men) consumption. Informed written consent was obtained
+from ten volunteers (ﬁve men and ﬁve women). All of the measurements and experiments
+were completed for all of the participants, leading to the ﬁnal number of ten participants.
+This number of participants is similar and even higher than previously considered [24,25].
+The protocol was performed in accordance with the Declaration of Helsinki for research on
+human participants and was approved by the Balearic Islands Clinical Investigation Ethics
+Committee (IB 3493/17 PI).
+2.2. Laboratory Visit
+After an overnight fast of approximately 12 h, the participants arrived at the laboratory
+between 08:00 a.m. and 10:00 a.m. The volunteers were requested to abstain from any
+caffeine-containing food and beverages for at least 24 h prior at arriving to the laboratory.
+Each participant was required to void their bladder before body mass and stature were
+recorded. Body mass was measured to the nearest 0.1 kg using an electronic scale (Seca
+700, Seca GmbH, Hamburg, Germany) and stature was measured to the nearest 0.5 cm
+using a stadiometer (Seca 220 (CM) Telescopic Height Rod for Column Scales, Seca GmbH,
+Hamburg, Germany). Body mass index (BMI) was calculated as body mass (kg) divided
+by stature (m) squared (kg·m−2). The participants then sat quietly for 10 min before a
+
+Appl. Sci. 2022, 12, 7322
+3 of 10
+venous blood sample was taken. Whole blood venous samples were collected into suitable
+Vacutainer® blood collection tubes with ethylenediaminetetraacetic acid (EDTA) or heparin
+as an anticoagulant (BD, Madrid, Spain). The total blood volume was approximately 8 mL.
+Leukocyte numbers were quantiﬁed using the EDTA blood sample with an automatic ﬂow
+cytometer analyzer (ABX Pentra 60, Horiba Medical, Montpellier, France). Blood EDTA
+samples were then centrifuged at 1000× g for 10 min to extract the plasma. The plasma
+was subsequently stored at −70 ◦C until subsequent analysis. Whole blood collected with
+heparin was used for the subsequent blood culture in vitro experiments.
+2.3. Plasma Caffeine Measurement
+To ensure that no residual caffeine was present in the participants’ plasma samples,
+caffeine levels were measured in the EDTA-plasma by a high-performance liquid chro-
+matography (HPLC) method previously described [26]. Caffeine was undetectable in all of
+the participants’ whole blood samples (n = 10).
+2.4. Blood Culture, In Vitro Blood LPS Stimulation and Effects of Caffeine and 5-CQA
+Whole heparin blood samples (n = 10) obtained by venepuncture were subsequently
+diluted with a 1:3 ratio with culture media (RPMI-1640 Medium, Sigma, St. Louis, MO,
+USA). The diluted whole blood was then pipetted into the wells of a sterile 12-well plate
+(Sarstedt, Nümbrecht, Germany). To each well, 50 µL of either medium (control sample),
+pharmaceutical grade caffeine powder (1,3,7-trimethylxanthine, dissolved in medium to
+yield ﬁnal concentrations in a culture of 5, 10, 15, 30, and 50 µM) or 5-CQA (dissolved
+in medium to yield ﬁnal concentrations in a culture of 5, 20, 200 nM, and 2 and 20 µM)
+were added. For each experiment, caffeine and 5-CQA, a different set of controls was
+applied. Following a 1 h incubation at 37 ◦C in a 5% CO2 atmosphere, a total of 50 µL
+of LPS (Escherichia coli serotype 055:B5; Sigma, St. Louis, MO, USA; ﬁnal concentration
+10 ng/mL dissolved in culture media) or the same volume of culture media (spontaneous
+production) were added to each well. Culture plates were then incubated for a further 24 h
+at 37 ◦C in a 5% CO2 atmosphere. Immediately following incubation, the samples were
+then centrifuged at 1000× g for 10 min to obtain the supernatants. The supernatant aliquots
+were then stored at −70 ◦C until measurements were performed.
+2.5. Cytokine Measurements in Cell Culture Supernatants
+The concentrations of interleukin (IL)-6, IL-10, IL-12, IL-1β and TNF-α were deter-
+mined in culture supernatants from both caffeine and 5-CQA experiments using commer-
+cially available enzyme-linked immunosorbent assay (ELISA) kits (Invitrogen, Carlsbad,
+CA, USA), with a spectrophotometric microplate reader (PowerWavei; BioTek, Winooski,
+VT, USA). Blood monocyte numbers were used to normalize cytokine production (differ-
+ence between cytokine concentration in stimulated and unstimulated cultures) on a per cell
+basis [27].
+2.6. Adenosine-3′,5′-Cyclic Monophosphate (cAMP) Measurement
+In this case, cAMP concentrations were measured in culture supernatants from the caf-
+feine treated samples using a commercially available ELISA kit (Arbor Assays, Eisenhower
+Place Ann Arbor, MI, USA) with a spectrophotometric microplate reader (PowerWavei;
+BioTek, Winooski, VT, USA). Here, cAMP concentrations in cultures were expressed as the
+difference between concentrations in stimulated and unstimulated samples.
+2.7. Malondialdehyde (MDA) Measurement
+MDA was determined in culture supernatants following an adaptation of a previously
+described HPLC method [28]. In this method, MDA was derivatized using 2-thiobarbituric
+acid (TBA), leading to the formation of the ﬂuorescent MDA–TBA complex. MDA culture
+concentrations were expressed as the difference between the supernatant concentrations in
+stimulated and unstimulated samples.
+
+Appl. Sci. 2022, 12, 7322
+4 of 10
+2.8. Statistical Analysis
+Statistical analysis was performed using IBM SPSS Statistics 27.0 software (SPSS/IBM,
+Chicago, IL, USA). All of the data were normally distributed (Kolmogorov–Smirnov test)
+and results were reported as arithmetic mean ± standard deviation (SD). General character-
+istics of the participants were compared between sexes using a t-test for unpaired data. The
+data were analyzed using the one-way analysis of variance (ANOVA). For any statistically
+signiﬁcant effects, post hoc comparisons were analyzed using the Dunnett’s two-tailed test,
+with the control sample as the reference. Eta squared (η2) was determined as a measure of
+effect size for the ANOVA. The statistical signiﬁcance was set at p < 0.05.
+3. Results
+3.1. Characteristics of Participants in the Study
+The general characteristics of the participants in the study, as a whole and stratiﬁed by
+sex, are shown in Table 1. No differences were found between men and women in any of
+the measured parameters (p > 0.05).
+Table 1. General characteristics of participants in the study.
+Parameter
+All
+(n = 10)
+Men
+(n = 5)
+Women
+(n = 5)
+p Value
+Age (years)
+36.5 ± 6.5
+35.8 ± 8.1
+37.2 ± 5.3
+0.754
+Body mass (kg)
+68.5 ± 11.6
+70.6 ± 14.6
+66.4 ± 9.0
+0.599
+Stature (cm)
+169.7 ± 7.0
+173.6 ± 5.7
+165.8 ± 6.3
+0.073
+BMI (kg·m−2)
+23.8 ± 3.4
+23.3 ± 3.9
+24.2 ± 3.3
+0.722
+Leukocytes (103·µL−1)
+5.28 ± 1.07
+5.34 ± 1.40
+5.22 ± 0.78
+0.871
+Lymphocytes (103·µL−1)
+1.53 ± 0.37
+1.65 ± 0.39
+1.41 ± 0.35
+0.334
+Monocytes (103·µL−1)
+0.35 ± 0.13
+0.38 ± 0.17
+0.32 ± 0.07
+0.495
+Values are expressed as means ± SD.
+3.2. Effects of Caffeine on Culture Cytokine, MDA and cAMP Concentrations
+Signiﬁcant effects of caffeine were found for TNF-α stimulated production (p = 0.014)
+(Table 2). Caffeine induced lower TNF-α concentrations, with a signiﬁcant decrease in
+comparison to the control only for the highest (50 µM) caffeine concentration (p = 0.016).
+Caffeine did not inﬂuence IL-10 (p = 0.208), IL-6 (p = 0.543), IL-12 (p = 0.700) nor IL-1β
+(p = 0.501)—stimulated production. No effects of caffeine were observed for unstimulated
+cytokine production (Table S1). Furthermore, caffeine did not inﬂuence MDA culture
+concentrations (p = 0.227).
+Table 2. Effects of caffeine on LPS-stimulated cytokine production and MDA concentration.
+Caffeine Concentrations (µM)
+ANOVA
+Control
+5
+10
+15
+30
+50
+p (η2)
+IL-10 (pg·10−3 cells)
+21.9 ± 3.4
+22.1 ± 6.5
+20.6 ± 3.9
+22.7 ± 4.5
+24.0 ± 4.9
+24.6 ± 3.9
+0.208 (0.137)
+IL-6 (pg·10−3 cells)
+385.2 ± 88.6
+448.2 ± 96.3
+451.5 ± 99.8
+412.4 ± 82.5
+440.6 ± 107
+396.1 ± 93.6
+0.543 (0.070)
+TNF-α (pg·10−3 cells)
+58.6 ± 10.4
+57.5 ± 9.8
+55.2 ± 9.4
+49.2 ± 9.1
+47.9 ± 8.3
+45.1 ± 7.7 #
+0.014 * (0.250)
+IL-12 (pg·10−3 cells)
+4.13 ± 0.84
+4.50 ± 0.78
+5.01 ± 0.11
+4.91 ± 0.66
+4.36 ± 0.8
+4.50 ± 0.95
+0.700 (0.053)
+IL-1β (pg·10−3 cells)
+17.2 ± 5.0
+19.3 ± 6.0
+18.2 ± 5.3
+19.4 ± 4.8
+16.8 ± 6.3
+20.1 ± 5.1
+0.501 (0.073)
+MDA (nM)
+0.62 ± 0.10
+0.63 ± 0.12
+0.72 ± 0.13
+0.72 ± 0.12
+0.62 ± 0.11
+0.58 ± 0.11
+0.227 (0.147)
+Values are expressed as means ± SD and represents the percentage with respect to the control. * p < 0.05 indicates
+signiﬁcant differences (ANOVA one-way test). # Indicates signiﬁcant differences vs. control. η2 value is provided
+as a measure of effect size.
+When the effect of caffeine on the stimulated cytokine production was analyzed in
+samples stratiﬁed by sex, no signiﬁcant effect was observed (results not shown).
+Figure 1 shows cAMP culture concentrations expressed as the difference between the
+concentrations in the stimulated and unstimulated samples. A signiﬁcant effect of caffeine
+
+Appl. Sci. 2022, 12, 7322
+5 of 10
+was found for supernatant cultured cAMP concentrations (p = 0.001, η2 = 0.354). However,
+only the highest caffeine concentration had a signiﬁcantly higher cAMP concentration in
+comparison with the control (p = 0.006). For the remaining concentrations, no signiﬁcant
+differences were observed, with p-values ranging from 0.052 to 1.000.
+ 
+Figure 1. Effects of caffeine and LPS-stimulation on culture cAMP concentrations. Values are
+expressed as means ± SD. # indicates signiﬁcant differences vs.
+control.
+cAMP: Adenosine-
+3′,5′-cyclic monophosphate.
+3.3. Effects of 5-CQA on Culture Cytokine and MDA Concentrations
+Table 3 shows the effect of the different concentrations of 5-CQA on cytokine-stimulated
+production. 5-CQA signiﬁcantly inﬂuenced the stimulated production of IL-6 (p = 0.002).
+The 2 µM (p = 0.012) and 20 µM (p < 0.001) concentrations of 5-CQA induced signiﬁcantly
+lower IL-6 concentrations than in the control. However, no effects of 5-CQA were observed
+on the stimulated production of IL-10 (p = 0.438), TNF-α (p = 0.068), IL-12 (p = 0.650) or
+IL-1β (p = 0.571). No effects of 5-CQA were observed for unstimulated cytokine production
+(Table S2). 5-CQA did not inﬂuence MDA culture concentrations (p = 0.259).
+Table 3. Effects of 5-CQA on LPS-stimulated cytokine production and MDA concentration.
+5-CQA Concentrations
+ANOVA
+Control
+5 nM
+20 nM
+200 nM
+2 µM
+20 µM
+p (η2)
+IL-10 (pg·10−3 cells)
+21.2 ± 4.5
+20.8 ± 6.6
+20.2 ± 5.7
+19.2 ± 6.8
+17.4 ± 6.2
+17.8 ± 6.5
+0.438 (0.083)
+IL-6 (pg·10−3 cells)
+385.2 ± 92.4
+351.2 ± 83.1
+326.5 ± 93.9
+291.9 ± 86.1
+252.0 ± 85.8 #
+202.2 ± 82.5 #
+0.002 * (0.286)
+TNF-α (pg·10−3 cells)
+58.2 ± 9.8
+55.1 ± 10.1
+55.4 ± 8.0
+49.2 ± 9.9
+46.9 ± 7.3
+44.7 ± 8.5
+0.068 (0.169)
+IL-12 (pg·10−3 cells)
+4.48 ± 0.10
+4.22 ± 0.97
+4.53 ± 0.12
+4.24 ± 0.14
+4.05 ± 0.98
+3.75 ± 0.10
+0.650 (0.058)
+IL-1β (pg·10−3 cells)
+16.2 ± 4.0
+18.5 ± 5.0
+17.8 ± 5.3
+18.4 ± 5.8
+15.8 ± 7.7
+14.8 ± 5.7
+0.571 (0.067)
+MDA (nM)
+0.61 ± 0.11
+0.65 ± 0.14
+0.70 ± 0.14
+0.68 ± 0.14
+0.70 ± 0.11
+0.65 ± 0.10
+0.259 (0.111)
+Values are expressed as means ± SD. * p < 0.05 indicates signiﬁcant differences (ANOVA one-way test). # Indicates
+signiﬁcant differences vs. control. η2 value is provided as a measure of effect size.
+When the inﬂuence of 5-CQA on the stimulated-cytokine production was analyzed in
+samples stratiﬁed per sex, no signiﬁcant effect was observed (results not shown).
+4. Discussion
+The current study determined the effect of physiological concentrations of caffeine
+and 5-CQA on the LPS-induced cytokine production in whole blood cultures. The main
+ﬁndings were that caffeine induces lower TNF-α in vitro concentrations. These effects were
+observed for caffeine concentrations that can be attained after in ingestion of two to three
+cups of coffee and suggest a limited anti-inﬂammatory effect of caffeine. On the other
+hand, 5-CQA at physiological concentrations did not inﬂuence in vitro cytokine-stimulated
+
+Appl. Sci. 2022, 12, 7322
+6 of 10
+production. This is the ﬁrst known study using human blood-derived cells, to analyze the
+anti-inﬂammatory effect of chlorogenic acid, 5-CQA.
+A diluted whole-blood method was applied for the determination of cytokine-stimulated
+production. When whole blood, rather than isolated cells, is used, the natural cell–cell
+interactions are preserved avoiding artifacts from preparation, whereas the methods used
+to isolate peripheral blood mononuclear cells modify the lymphocyte to monocyte ratio
+and remove endogenous immunomodulators. Therefore, in vivo conditions are more ac-
+curately represented using whole-blood culture methods [29]. In addition, physiological
+concentrations of both caffeine and 5-CQA were used. In this regard, two studies per-
+formed by our research group have shown plasma concentrations around 40–50 µM after
+ingesting 6 mg caffeine/kg body weight [26,30], the caffeine content of three to four cups
+of coffee. Furthermore, we found that plasma caffeine concentrations after ingesting one
+cup of coffee are around 10 µM (unpublished results). These observations ﬁt with results
+reported by others, with peak concentrations of 1–10 µM after ingesting a cup of coffee, and
+20–50 µM following the ingestion of two to three cups of coffee or an equivalent caffeine
+amount [2,31,32]. These observations lead us to propose that caffeine concentrations higher
+than 50 µM are not relevant and, therefore, we focused the present study on a range of
+concentrations relevant to habitual levels of caffeine consumption (0–50 µM). Considering
+the caffeine ingestion needed to achieve values close to 50 µM, these ﬁgures would not
+be commonly attained. Regarding 5-CQA, concentrations around the ones observed in
+plasma after coffee drinking, 5–12 nM [22], were tested. Furthermore, to allow the compari-
+son with similar studies using much higher concentrations, values in the µM range were
+also considered.
+The results from the present study indicate an anti-inﬂammatory effect of caffeine,
+characterized by a less pronounced production of in vitro pro-inﬂammatory TNF-α. Two
+previous studies reported inhibitory effects of caffeine on stimulated in vitro TNF-α produc-
+tion in whole blood cultures [24,25]. In the present study, the inhibitory effects of caffeine
+were observed for the 50 µM concentration. Therefore, as has been indicated above, it is
+unlikely that this effect could be observed commonly in vivo due to the high caffeine intake
+required to achieve this concentration. Actually, in previous studies the inhibitory effect
+of caffeine was observed for higher concentrations, 200 µg/mL (around 1 mM), which
+supposes a concentration 20-fold higher than the highest concentration tested in the present
+study, and also using S. pneumoniae rather than LPS as a stimulant [24], and 100 µM [25].
+It is difﬁcult to ascertain the reasons for the different caffeine concentrations required to
+produce signiﬁcant decreases in TNF-α production. In fact, the only differences that can be
+surmised are methodological, such as different blood dilution, different LPS concentrations,
+or blood donors as in the study from Horrigan, a low number (eight), only female partic-
+ipants were considered. However, as observed in the present study, Horrigan et al. [25]
+reported, albeit non-signiﬁcant, a downward trend from the lower concentration tested
+(10 µM). The results could not be considered essentially different because in the present
+study, a non-signiﬁcant downward trend from the lower concentration tested (10 µM) was
+also observed. It is also noteworthy that a wide range of caffeine concentrations have
+been suggested to inhibit TNF-α production when different cell cultures have been used.
+In this sense, a study using human adipose tissue primary cultures, found an inhibitory
+effect of caffeine on TNF-α spontaneous production with a caffeine concentration as low as
+0.5 µM [33]. Less pronounced levels in TNF-α production have been attributed to increased
+levels of the immunomodulator cAMP [34] and mediated by the cAMP/ protein kinase
+A (PKA) pathway [25]. In this regard, a signiﬁcant effect of caffeine increasing cAMP
+concentration was observed, with signiﬁcantly higher values for the highest caffeine con-
+centration. It should be considered that in the present study cAMP levels were measured
+only in supernatants; however, because of their intracellular role, the concentrations in
+supernatants may not properly reﬂect intracellular cAMP concentrations.
+Changes in cAMP concentrations in the presence of caffeine could be expected be-
+cause caffeine, acting as an adenosine antagonist, inﬂuences cAMP concentrations. Fur-
+
+Appl. Sci. 2022, 12, 7322
+7 of 10
+thermore, caffeine, as an inhibitor of cAMP-phosphodiesterase, induces higher cAMP
+concentrations [23]. Actually, the anti-inﬂammatory effects of caffeine, at least in in vitro
+studies, have been mainly attributed to the inhibition of cAMP-phosphodiesterase (PDE) [23]. It
+is worth noting that a previous study reported a signiﬁcant inhibition of PDE following a
+coffee intervention, highlighting that this inhibition was not directly dependent on caffeine
+consumption [35]. Therefore, while these authors recognized a role for caffeine, they con-
+cluded that other components of coffee could play an important role in the modulation of
+cAMP contributing to the potential health beneﬁts of coffee [35]. In this regard, cAMP has
+been reported to stimulate the synthesis of the anti-inﬂammatory IL-10 [34]. However, in
+agreement with previous studies [24,25], no signiﬁcant effects of caffeine were observed
+on IL-10 concentrations. On the other hand, cAMP has been suggested to inhibit IL-12.
+However, and in the same line as IL-10, no effect of caffeine was observed on IL-12 pro-
+duction [24,25]. The mechanisms leading to the differential effect of caffeine on cytokine
+production remains to be elucidated. However, similar effects have been reported for other
+methylxanthines such as theophylline or pentoxifylline [24,36]. On the other hand, it was
+shown in an animal model that adenosine receptor agonists increased LPS-induced plasma
+IL-10 levels [37]. Therefore, it was suggested that although caffeine did not modify IL-10
+and IL-12 production in vitro, these interleukins may be modulated in vivo by caffeine and
+other adenosine receptor agonists [25].
+Since oxidative stress is involved in pro-inﬂammatory cytokine production, mainly
+through the activation of the redox-sensitive Nuclear Factor κB (NF-κB) [38,39], MDA
+was measured in cell culture supernatants. However, no effect of caffeine or 5-CQA was
+observed on MDA levels. Despite antioxidant effects having been attributed to caffeine [40],
+this result is mainly relevant for the 5-CQA experiments. In this regard, chlorogenic acids
+have been characterized as important antioxidants [3,41], exerting, among other effects, an
+attenuation of NF-κB [17,18,42]. In agreement with this observation, two studies carried
+out with mouse macrophages demonstrated how the presence of 5-CQA (the most used
+CGA in studies), in cell culture with LPS-stimulation suppressed the expression of pro-
+inﬂammatory compounds such as cyclooxygenase [18] as well as IL-1β, TNF-α and IL-6 [17].
+In these studies, the lower pro-inﬂammatory expression was associated with attenuated
+NF-κB [17,18]. However, it should be noted that in both studies 5-CQA concentrations in
+the range of µM, much higher than physiological ones, were used. In the present study,
+5-CQA inﬂuenced only IL-6 production, with suppressed levels, but only for the highest
+5-CQA concentrations tested, 2 µM and 20 µM. This result is in agreement with the effect
+observed in cultures of mouse macrophages using similar high 5-CQA concentrations and
+with the role of 5-CQA in attenuating NF-κB activation [17]. On the other hand, when
+physiological concentrations were considered, no effect of 5-CQA was observed. Due to the
+relationship between oxidative stress and activation of the NF-κB [38], the limited effects of
+5-CQA on cytokine production in the present study may be related to the lack of effects on
+culture MDA concentrations. However, it cannot be discarded that chlorogenic acids play
+an important role in vivo as has been suggested from studies focused on the health effects
+of coffee consumption [3,14,16]. In this regard, studies in animal models have shown that
+the administration of 5-CQA lowers the circulating concentrations of pro-inﬂammatory
+cytokines such as TNF-α or IL-1β [19–21]. On the contrary, supplementations in humans
+using coffee preparation have shown little (mainly increasing adiponectin concentrations) or
+no effect on inﬂammatory markers (reviewed by Paiva et al. [43]). Moreover, only a higher
+increase in total plasma antioxidant capacity, without affecting the inﬂammatory response,
+was observed in response to exercise after supplementation with high-chlorogenic-acid
+coffee [44].
+The authors acknowledge some of the limitations that are present in this study. No
+intracellular measurements, mainly cAMP but also MDA, were performed. The concentra-
+tions of cAMP and MDA were measured only in culture supernatants. Furthermore, NF-κB
+was not measured. The effects of caffeine and 5-CQA were not tested together. Since in
+
+Appl. Sci. 2022, 12, 7322
+8 of 10
+coffee, as well as in other products such as tea, they are found in combination, it would be
+of interest to test the combined effects of both substances.
+5. Conclusions
+The results from the present study indicate an anti-inﬂammatory effect of caffeine,
+at least under in vitro conditions, characterized by an inhibition of the pro-inﬂammatory
+TNF-α production. However, caffeine concentrations higher than usual physiological
+plasma values are needed to produce this effect. 5-CQA concentrations relevant to human
+coffee consumption did not inﬂuence in vitro cytokine-stimulated production, as only a
+suppression in IL-6 with the highest, non-physiological, concentrations were observed.
+More studies are therefore required to clarify whether these concentrations could inﬂuence
+low grade systemic inﬂammation.
+Supplementary Materials: The following supporting information can be downloaded at: https:
+//www.mdpi.com/article/10.3390/app12147322/s1, Table S1. Effects of caffeine on spontaneous
+cytokine production. Table S2. Effects of 5-CQA on spontaneous cytokine production.
+Author Contributions: Conceptualization, P.T.; methodology, P.T., S.M., A.R.-S. and L.R.; formal
+analysis, P.T. and H.J.M.; investigation, L.R., S.M., A.R.-S. and P.T.; resources, P.T. and S.M., data
+curation, A.R.-S. and P.T.; writing-original draft preparation, L.R.; writing-review and editing, P.T.
+and H.J.M.; visualization, A.R.-S.; supervision, P.T. and S.M.; project administration, P.T. All authors
+have read and agreed to the published version of the manuscript.
+Funding: This research was funded in part by the Government of the Balearic Islands and the
+European Regional Development Funds (FEDER) “Una manera de hacer Europa”, Acció Especial
+AAEE041/2017.
+Institutional Review Board Statement: The study was conducted in accordance with the Declaration
+of Helsinki, and approved by the Balearic Islands Clinical Investigation Ethics Committee (protocol
+code IB 3493/17 PI, date of approval 8 September 2017) for studies involving humans.
+Informed Consent Statement: Informed consent was obtained from all participants involved in
+the study.
+Data Availability Statement: The data presented in this study are available on request from the
+corresponding author.
+Acknowledgments: The authors want to thank all participants in the study.
+Conﬂicts of Interest: The authors declare no conﬂict of interest.
+References
+1.
+Reyes, C.M.; Cornelis, M.C. Caffeine in the diet: Country-level consumption and guidelines. Nutrients 2018, 10, 1772. [CrossRef]
+[PubMed]
+2.
+Faudone, G.; Ariﬁ, S.; Merk, D. The medicinal chemistry of caffeine. J. Med. Chem. 2021, 64, 7156–7178. [CrossRef] [PubMed]
+3.
+Liang, N.; Kitts, D.D. Role of Chlorogenic Acids in Controlling Oxidative and Inﬂammatory Stress Conditions. Nutrients 2015,
+8, 16. [CrossRef] [PubMed]
+4.
+Neveu, V.; Perez-Jiménez, J.; Vos, F.; Crespy, V.; du Chaffaut, L.; Mennen, L.; Knox, C.; Eisner, R.; Cruz, J.; Wishart, D.; et al.
+Phenol-Explorer: An online comprehensive database on polyphenol contents in foods. Database 2010, 2010, bap024. [CrossRef]
+5.
+Farah, A.; de Paula Lima, J. Consumption of chlorogenic acids through coffee and health implications. Beverages 2019, 5, 11.
+[CrossRef]
+6.
+Akash, M.S.H.; Rehman, K.; Chen, S. Effects of coffee on type 2 diabetes mellitus. Nutrition 2014, 30, 755–763. [CrossRef]
+7.
+Ding, M.; Bhupathiraju, S.N.; Chen, M.; van Dam, R.M.; Hu, F.B. Caffeinated and decaffeinated coffee consumption and risk of
+type 2 diabetes: A systematic review and a dose-response meta-analysis. Diabetes Care 2014, 37, 569–586. [CrossRef]
+8.
+Shang, F.; Li, X.; Jiang, X. Coffee consumption and risk of the metabolic syndrome: A meta-analysis. Diabetes Metab. 2016,
+42, 80–87. [CrossRef]
+9.
+Ding, M.; Satija, A.; Bhupathiraju, S.N.; Hu, Y.; Sun, Q.; Han, J.; Lopez-Garcia, E.; Willett, W.; van Dam, R.M.; Hu, F.B. Association
+of coffee consumption with total and cause-speciﬁc mortality in 3 large prospective cohorts. Circulation 2015, 132, 2305–2315.
+[CrossRef]
+10.
+Grosso, G.; Godos, J.; Galvano, F.; Giovannucci, E.L. Coffee, Caffeine, and Health Outcomes: An Umbrella Review. Annu. Rev.
+Nutr. 2017, 37, 131–156. [CrossRef]
+
+Appl. Sci. 2022, 12, 7322
+9 of 10
+11.
+Torres-Collado, L.; Compañ-Gabucio, L.M.; González-Palacios, S.; Leyre, N.-B.; Oncina-Cánovas, A.; Vioque, J.; García-de la Hera,
+M. Coffee Consumption and All-Cause, Cardiovascular, and Cancer Mortality in an Adult Mediterranean Population. Nutrients
+2021, 13, 1241. [CrossRef] [PubMed]
+12.
+Williams, C.J.; Fargnoli, J.L.; Hwang, J.J.; van Dam, R.M.; Blackburn, G.L.; Hu, F.B.; Mantzoros, C.S. Coffee Consumption Is
+Associated with Higher Plasma Adiponectin Concentrations in Women with or Without Type 2 Diabetes A prospective cohort
+study. Diabetes Care 2008, 31, 504–507. [CrossRef] [PubMed]
+13.
+Kotani, K.; Tsuzaki, K.; Sano, Y.; Maekawa, M.; Fujiwara, S.; Hamada, T.; Sakane, N. The relationship between usual coffee
+consumption and serum C-reactive protein level in a Japanese female population. Clin. Chem. Lab. Med. 2008, 46, 1434–1437.
+[CrossRef] [PubMed]
+14.
+Lopez-Garcia, E.; van Dam, R.M.; Qi, L.; Hu, F.B. Coffee consumption and markers of inﬂammation and endothelial dysfunction
+in healthy and diabetic women. Am. J. Clin. Nutr. 2006, 84, 888–893. [CrossRef] [PubMed]
+15.
+Maki, T.; Pham, N.M.; Yoshida, D.; Yin, G.; Ohnaka, K.; Takayanagi, R.; Kono, S. The relationship of coffee and green tea
+consumption with high-sensitivity C-reactive protein in Japanese men and women. Clin. Chem. Lab. Med. 2010, 48, 849–854.
+[CrossRef]
+16.
+Tajik, N.; Tajik, M.; Mack, I.; Enck, P. The potential effects of chlorogenic acid, the main phenolic components in coffee, on health:
+A comprehensive review of the literature. Eur. J. Nutr. 2017, 56, 2215–2244. [CrossRef]
+17.
+Hwang, S.J.; Kim, Y.-W.W.; Park, Y.; Lee, H.-J.J.; Kim, K.-W.W. Anti-inﬂammatory effects of chlorogenic acid in lipopolysaccharide-
+stimulated RAW 264.7 cells. Inﬂamm. Res. 2013, 63, 81–90. [CrossRef]
+18.
+Shan, J.; Fu, J.; Zhao, Z.; Kong, X.; Huang, H.; Luo, L.; Yin, Z. Chlorogenic acid inhibits lipopolysaccharide-induced
+cyclooxygenase-2 expression in RAW264.7 cells through suppressing NF-KB and JNK/AP-1 activation. Int. Immunopharmacol.
+2009, 9, 1042–1048. [CrossRef]
+19.
+Chauhan, P.S.; Satti, N.K.; Sharma, P.; Sharma, V.K.; Suri, K.A.; Bani, S. Differential effects of chlorogenic acid on various
+immunological parameters relevant to rheumatoid arthritis. Phytother. Res. 2012, 26, 1156–1165. [CrossRef]
+20.
+Yun, N.; Kang, J.-W.; Lee, S.-M. Protective effects of chlorogenic acid against ischemia/reperfusion injury in rat liver: Molecular
+evidence of its antioxidant and anti-inﬂammatory properties. J. Nutr. Biochem. 2012, 23, 1249–1255. [CrossRef]
+21.
+Shin, H.S.; Satsu, H.; Bae, M.J.; Zhao, Z.; Ogiwara, H.; Totsuka, M.; Shimizu, M. Anti-inﬂammatory effect of chlorogenic acid on
+the IL-8 production in Caco-2 cells and the dextran sulphate sodium-induced colitis symptoms in C57BL/6 mice. Food Chem.
+2015, 168, 167–175. [CrossRef] [PubMed]
+22.
+Monteiro, M.; Farah, A.; Perrone, D.; Trugo, L.C.; Donangelo, C. Chlorogenic acid compounds from coffee are differentially
+absorbed and metabolized in humans. J. Nutr. 2007, 137, 2196–2201. [CrossRef] [PubMed]
+23.
+Horrigan, L.A.; Kelly, J.P.; Connor, T.J. Immunomodulatory effects of caffeine: Friend or foe? Pharmacol. Ther. 2006, 111, 877–892.
+[CrossRef] [PubMed]
+24.
+Van Furth, A.M.; Seijmonsbergen, E.M.; Langermans, J.A.; van der Meide, P.H.; van Furth, R. Effect of xanthine derivates and
+dexamethasone on Streptococcus pneumoniae-stimulated production of tumor necrosis factor alpha, interleukin-1 beta (IL-1
+beta), and IL-10 by human leukocytes. Clin. Diagn. Lab. Immunol. 1995, 2, 689–692. [CrossRef] [PubMed]
+25.
+Horrigan, L.A.; Kelly, J.P.; Connor, T.J. Caffeine suppresses TNF-alpha production via activation of the cyclic AMP/protein kinase
+A pathway. Int. Immunopharmacol. 2004, 4, 1409–1417. [CrossRef]
+26.
+Tauler, P.; Martinez, S.; Moreno, C.; Monjo, M.; Martinez, P.; Aguilo, A. Effects of caffeine on the inﬂammatory response induced
+by a 15-km run competition. Med. Sci. Sport. Exerc. 2013, 45, 1269–1276. [CrossRef]
+27.
+Segre, E.; Fullerton, J.N. Stimulated whole blood cytokine release as a biomarker of immunosuppression in the critically ill: The
+need for a standardized methodology. Shock 2016, 45, 490–494. [CrossRef]
+28.
+Agarwal, R.; Chase, S.D. Rapid, ﬂuorimetric-liquid chromatographic determination of malondialdehyde in biological samples. J.
+Chromatogr. B. Anal. Technol. Biomed. Life Sci. 2002, 775, 121–126. [CrossRef]
+29.
+Damsgaard, C.T.; Lauritzen, L.; Calder, P.C.; Kjær, T.M.R.; Frøkiær, H. Whole-blood culture is a valid low-cost method to measure
+monocytic cytokines—A comparison of cytokine production in cultures of human whole-blood, mononuclear cells and monocytes.
+J. Immunol. Methods 2009, 340, 95–101. [CrossRef]
+30.
+Tauler, P.; Martinez, S.; Martinez, P.; Lozano, L.; Moreno, C.; Aguiló, A. Effects of Caffeine Supplementation on Plasma and Blood
+Mononuclear Cell IL-10 Levels After Exercise. Int. J. Sport Nutr. Exerc. Metab. 2016, 26, 8–16. [CrossRef]
+31.
+De Leon, J.; Diaz, F.J.; Rogers, T.; Browne, D.; Dinsmore, L.; Ghosheh, O.H.; Dwoskin, L.P.; Crooks, P.A. A pilot study of plasma
+caffeine concentrations in a US sample of smoker and nonsmoker volunteers. Prog. Neuro-Psychopharmacol. Biol. Psychiatry 2003,
+27, 165–171. [CrossRef]
+32.
+Horrigan, L.A.; Diamond, M.; Connor, T.J.; Kelly, J.P. Caffeine inhibits monocyte and neutrophil chemotaxis at concentrations
+relevant to normal human consumption. In Proceedings of the International Cytokine Society Annual Meeting, Dublin, Ireland,
+20–24 September 2003; pp. 49–54.
+33.
+Dray, C.; Daviaud, D.; Guigné, C.; Valet, P.; Castan-Laurell, I. Caffeine reduces TNFα up-regulation in human adipose tissue
+primary culture. J. Physiol. Biochem. 2007, 63, 329–336. [CrossRef] [PubMed]
+34.
+Eigler, A.; Siegmund, B.; Emmerich, U.; Baumann, K.H.; Hartmann, G.; Endres, S. Anti-inﬂammatory activities of cAMP-elevating
+agents: Enhancement of IL-10 synthesis and concurrent suppression of TNF production. J. Leukoc. Biol. 1998, 63, 101–107.
+[CrossRef] [PubMed]
+
+Appl. Sci. 2022, 12, 7322
+10 of 10
+35.
+Montoya, G.A.; Bakuradze, T.; Eirich, M.; Erk, T.; Baum, M.; Habermeyer, M.; Eisenbrand, G.; Richling, E. Modulation of
+3′,5′-cyclic AMP homeostasis in human platelets by coffee and individual coffee constituents. Br. J. Nutr. 2014, 112, 1427–1437.
+[CrossRef] [PubMed]
+36.
+Marcinkiewicz, J.; Grabowska, A.; Lauterbach, R.; Bobek, M. Differential effects of pentoxifylline, a non-speciﬁc phosphodiesterase
+inhibitor, on the production of IL-10, IL-12 p40 and p35 subunits by murine peritoneal macrophages. Immunopharmacology 2000,
+49, 335–343. [CrossRef]
+37.
+Haskó, G.; Szabó, C.; Németh, Z.H.; Kvetan, V.; Pastores, S.M.; Vizi, E.S. Adenosine receptor agonists differentially regulate IL-10,
+TNF-alpha, and nitric oxide production in RAW 264.7 macrophages and in endotoxemic mice. J. Immunol. 1996, 157, 4634–4640.
+38.
+Socała, K.; Szopa, A.; Serefko, A.; Poleszak, E.; Wla´z, P. Neuroprotective effects of coffee bioactive compounds: A review. Int. L.
+Mol. Sci. 2020, 22, 107. [CrossRef]
+39.
+Lawrence, T. The nuclear factor NF-kappaB pathway in inﬂammation. Cold Spring Harb. Perspect. Biol. 2009, 1, a001651. [CrossRef]
+40.
+Barcelos, R.P.; Lima, F.D.; Carvalho, N.R.; Bresciani, G.; Royes, L.F. Caffeine effects on systemic metabolism, oxidative-
+inﬂammatory pathways, and exercise performance. Nutr. Res. 2020, 80, 1–17. [CrossRef]
+41.
+Gómez-Ruiz, J.Á.; Leake, D.S.; Ames, J.M. In vitro antioxidant activity of coffee compounds and their metabolites. J. Agric. Food
+Chem. 2007, 55, 6962–6969. [CrossRef]
+42.
+Zatorski, H.; Sałaga, M.; Zieli´nska, M.; Piechota-Pola´nczyk, A.; Owczarek, K.; Kordek, R.; Lewandowska, U.; Chen, C.; Fichna, J.
+Experimental colitis in mice is attenuated by topical administration of chlorogenic acid. Naunyn-Schmiedebergs Arch. Pharmacol.
+2015, 388, 643–651. [CrossRef] [PubMed]
+43.
+Paiva, C.L.R.S.; Beserra, B.T.S.; Reis, C.E.G.; Dorea, J.G.; Da Costa, T.H.M.; Amato, A.A. Consumption of coffee or caffeine and
+serum concentration of inﬂammatory markers: A systematic review. Crit. Rev. Food Sci. Nutr. 2019, 59, 652–663. [CrossRef]
+[PubMed]
+44.
+Nieman, D.C.; Goodman, C.L.; Capps, C.R.; Shue, Z.L.; Arnot, R. Inﬂuence of 2-weeks ingestion of high chlorogenic acid coffee
+on mood state, performance, and postexercise inﬂammation and oxidative stress: A randomized, placebo-controlled trial. Int. J.
+Sport Nutr. Exerc. Metab. 2018, 28, 55–65. [CrossRef] [PubMed]

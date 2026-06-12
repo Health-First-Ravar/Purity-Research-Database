@@ -1,0 +1,891 @@
+Understanding the fate of chlorogenic acids in coffee roasting using mass
+spectrometry based targeted and non-targeted analytical strategies†
+Rakesh Jaiswal,a Marius F. Matei,a Agnieszka Golon,a Matthias Wittb and Nikolai Kuhnert*a
+Received 18th November 2011, Accepted 24th June 2012
+DOI: 10.1039/c2fo10260a
+Coffee is one of mankind’s most popular beverages obtained from green coffee beans by roasting.
+Much effort has been expended towards the chemical characterisation of the components of the roasted
+coffee bean, frequently termed melanoidines, which are dominated byproducts formed from its most
+relevant secondary metabolites – chlorogenic acids. However, impeded by a lack of suitable authentic
+reference standards and analytical techniques sufﬁciently powerful for providing insight into an
+extraordinarily complex enigmatic material, unsurprisingly little structural and mechanistic
+information about the products of coffee roasting is available. Here we report on the characterisation
+of low molecular weight melanoidine fractions of roasted coffee using a conceptually novel
+combination of targeted and non-targeted mass spectrometrical techniques. We provide an
+unprecedented account of the chemical composition of roasted coffee beans. Using a targeted analytical
+approach we show for the ﬁrst time, by comparison to authentic reference standards obtained by
+chemical synthesis, that chlorogenic acids follow four distinct reaction pathways including
+epimerization, acyl migration, lactonisation and dehydration. The analytical strategy employed in a
+non-targeted approach uses high resolution mass spectrometry to identify the most abundant
+molecular formulas present in roasted coffee samples and model roasts followed by van Krevelen and
+homologous series analysis. We identiﬁed the molecular formulas formed from reactions of chlorogenic
+acids, carbohydrates and proteins, both between classes of compounds and within same classes of
+compounds. Furthermore, we identiﬁed two new classes of compounds formed from chlorogenic acids
+during roasting, chlorogenic acid acetates and O-phenolic quinoyl and shikimoyl esters of chlorogenic
+acids.
+Introduction
+Globally, coffee is following water and black tea as the third
+most consumed beverage with an annual production of around 8
+Mt and an average daily consumption of 2.3 billion cups a day.1
+In several countries, such as the USA or Germany, it is even the
+second most consumed beverage. Coffee is obtained from the
+seeds of the cherries of Coffea arabica or Coffea conifera
+(otherwise known as Robusta coffee) referred to as green coffee
+beans. To obtain the popular beverage green coffee beans are
+roasted at temperatures ranging from 180 C to 250 C with
+roasting times ranging from 5 to 30 minutes, producing so called
+light to dark roasts.2
+While the volatile compounds formed in coffee roasting have
+been thoroughly investigated and studied, with so far around 800
+distinct volatile compounds identiﬁed, including heterocycles
+such as pyrazines, furanethiols, disulﬁdes and aldehydes,3–7 the
+chemistry and structure of the non-volatile components of
+roasted coffee have only been investigated on few occasions and
+a dramatic lack of knowledge exists on this extraordinarily
+important dietary material, consumed at levels of several millions
+of tons annually.2,8–10 The non-volatile products of coffee roast-
+ing are usually referred to as melanoidines, which have been
+shown by Schols and co-workers to be composed from several
+fractions of varying molecular weight that can be readily sepa-
+rated using dialysis.2,8 Due to the complexity of the material it
+has been impossible to obtain useful structural information on
+the majority of the compounds formed in coffee roasting due to a
+lack of analytical techniques and strategies available to solve this
+enormously difﬁcult task. Coffee melanoidines are formed in the
+roasting process from the main constituents of the green coffee
+beans which are chlorogenic acids, the main secondary plant
+metabolites of the green coffee bean, carbohydrates and proteins.
+Chlorogenic acids (CGAs) by deﬁnition are hydroxycinnamate
+esters of quinic acid with caffeic and ferulic acid being the most
+common substituents and 5-caffeoyl quinic acid 1 being the
+aSchool of Engineering and Science, Centre for Molecular Life Sciences,
+Jacobs University Bremen, Campusring 8, 28759 Bremen, Germany.
+E-mail: n.kuhnertx@jacobs-university.de; Tel: +49 421 2003120
+bBruker Daltonics, Fahrenheitstrasse 4, 28359 Bremen, Germany
+† Electronic supplementary information (ESI) available. See DOI:
+10.1039/c2fo10260a
+976 | Food Funct., 2012, 3, 976–984
+This journal is ª The Royal Society of Chemistry 2012
+Dynamic Article LinksC
+<
+Food & Function
+Cite this: Food Funct., 2012, 3, 976
+www.rsc.org/foodfunction
+PAPER
+Downloaded by University of Sussex on 13 December 2012
+Published on 26 July 2012 on http://pubs.rsc.org | doi:10.1039/C2FO10260A
+View Article Online / Journal Homepage / Table of Contents for this issue
+
+major constituent.11,12 The chlorogenic acid fraction, accounting
+for an estimated 10 w% of the green coffee bean, has been
+thoroughly investigated with Coffea arabica containing around
+45 well characterized derivatives and Coffea conifera containing
+around 80 different chlorogenic acid derivatives.13,14 Structural
+analyses of CGAs poses a particular challenge due to the pres-
+ence of regio- and stereoisomeric compounds in natural sources.
+For example, for dicaffeoyl quinic acid six regiosisomers exist in
+theory, of which four have been reported in green coffee beans
+(see e.g., 2–4 Fig. 1). Trans–cis isomerisation of the caffeoyl
+oleﬁnic moiety furnishes additional 18 isomers, of which 12 have
+been identiﬁed in green coffee leaves.15 Taking into account
+potential epimerization at the quinic acid moiety the total
+number of theoretically possible dicaffeoyl quinic acids adds up
+to 112, all hypothetically present in the roasted coffee melanoi-
+dine fraction. Recent advances in tandem mass spectrometry
+have allowed identiﬁcation and reliable structural assignment of
+CGA regio- and stereoisomers based on isomer resolution by
+taking advantage of the multi-dimensional speciﬁcity of LC-
+tandem MS, under the provision that authentic reference mate-
+rials are available.12,16
+Within the roasting process it has been shown that the
+phenolic moieties of CGAs are largely maintained in the roasted
+melanoidine products and that on hydrolysis of melanoidines
+hydroxycinnamates and quinic acid are released from the mela-
+noidine fraction.17 Following roasting HPLC analysis of the
+roasted material shows that at least 150 resolved chromato-
+graphic peaks correspond to novel chlorogenic acid derivatives
+not present in the green bean, formed during roasting as judged
+by their characteristic UV absorption at 320 nm and diagnostic
+fragment ions in tandem mass spectrometry at m/z 191 and
+173.12,16 Following roasting, around 50% of the original CGA
+content of the green coffee bean is lost, with around half of
+these producing, in a hydrolysis reaction, quinic acid and
+hydroxycinnamic acids such as caffeic and ferulic acid.18,19 The
+fate of the remaining quarter of CGAs remains largely obscure
+and mysterious. Only on two occasions were structurally deﬁned
+products obtained from CGAs formed in roasting reported in the
+literature. Firstly, the group of Farah identiﬁed CGA lactones,
+formed through dehydration from CGAs.20 Secondly, the group
+of Maier identiﬁed epimers of quinic acids in the coffee roast.21
+Next to CGAs carbohydrates might play an important role in
+melanoidine formation either by caramelisation-type processes
+or by reaction of coffee carbohydrates with CGAs or proteins.
+The carbohydrate content in the green coffee bean has been
+investigated in depth.22 Among the monosaccharides glucose and
+fructose dominate in unripe beans, whereas in ripe fruits sucrose
+dominates. Among the polysaccharides galacacturomannans
+and
+arabinoglycans
+dominate
+with
+some
+cellulose
+being
+present. After hydrolysis of total coffee carbohydrates the
+following percentage from total dry weight of compounds is
+observed on average: 22% mannose, 4% arabinose, 7% glucose,
+11% galactose, 7% fructose. The main analytical challenge
+in characterisation of products formed from the reaction
+between coffee CGAs and coffee carbohydrates lies again in the
+formation of thousands of products, affording an unresolved
+complex mixture in the chromatograms which can only be
+resolved in the m/z dimension using ultra high resolution mass
+spectrometry.
+Finally, the green coffee beans contain a series of further
+constituents such as alkaloids (caffeine and trigonelline), lipids,
+phytosterols and a series of small organic acids that require
+additional considerations when analysing melanoidines.
+Materials and methods
+Chemicals and materials
+All the chemicals (analytical grade) were purchased from Sigma-
+Aldrich (Bremen, Germany). Chlorogenic acids crude meth-
+anolic extracts from green coffee beans were obtained using the
+procedure described earlier.14 Roasted coffee (Robusta) samples
+(powder) were obtained from the Kraft Foods Bremen (Ger-
+many). The pleated dialysis tubing 3500 MWCO with 22 mm
+diameter (Thermo Scientiﬁc USA) was used for the dialysis
+experiment. Authentic reference standards for 1-acyl quinic
+acids, 1-acyl quinic acids lactones, cis derivatives of chlorogenic
+acids and caffeoyl shikimates were obtained according to the
+procedures described earlier.15,23–25 Synthesis of muco quinic acid
+derivatives is described in the ESI.†
+Methanolic extract of roasted coffee
+Seven different samples of roasted coffee powder (5 g of each)
+were extracted with methanol by Soxhlet extraction using
+aqueous methanol (70%) for 5 h. The extract was treated with
+Carrez reagents (1 mL of reagent A plus 1 mL of reagent B) to
+precipitate the colloidal material and was subsequently ﬁltered
+through a Whatman no. 1 ﬁlter paper. The methanol and water
+were removed in vacuo and the residue was stored at 20 C until
+required, it was then thawed at room temperature, dissolved in
+methanol (6 g L1), ﬁltered through membrane ﬁlter and used for
+LC-MS.
+Fig. 1
+Structures of four typical chlorogenic acids 1–4 found in green
+coffee beans.
+This journal is ª The Royal Society of Chemistry 2012
+Food Funct., 2012, 3, 976–984 | 977
+Downloaded by University of Sussex on 13 December 2012
+Published on 26 July 2012 on http://pubs.rsc.org | doi:10.1039/C2FO10260A
+View Article Online
+
+Model roasting
+For the model roasting experiment 5-CQA, 5-CQA and caffeic
+acid, 1,3-diCQA and caffeic acid were heated at 200 C for 12
+minutes.
+Dialysis of coffee
+5 g each of green Arabica (2 samples) and Robusta (2 samples)
+coffee was roasted at 200 C for 12 minutes and ground to a ﬁne
+powder, which were then dissolved in 100 mL of water and
+transferred in a dialysis tube. The dialysis tube was kept in a
+beaker ﬁlled with water (2 L) and stirred overnight at 4 C. After
+the dialysis, a sample from the dialysis tube was collected in a
+ﬂask and the water was removed in vacuo. The residue was stored
+at 20 C until required, it was then thawed at room tempera-
+ture, dissolved in methanol (60 mg/10 mL), ﬁltered through a
+membrane ﬁlter and used for LC-MS.
+LC-MSn
+The LC equipment (Agilent 1100 series, Waldbronn, Germany)
+comprised a binary pump, an auto sampler with a 100 mL loop
+and a DAD detector with a light-pipe ﬂow cell (recording at 320
+and 254 nm and scanning from 200 to 600 nm). This was inter-
+faced with an ion-trap mass spectrometer ﬁtted with an ESI
+source (Bruker Daltonics HCT Ultra, Bremen, Germany) oper-
+ating in full scan, auto MSn mode to obtain fragment ion m/z. As
+necessary, MS2, MS3 and MS4 fragment-targeted experiments
+were performed to focus only on compounds producing a parent
+ion at m/z 319, 335, 337, 349, 353, 363, 367, 381, 499, 513, 515,
+529, 543, 557, 559 and 573. Tandem mass spectra were acquired
+in Auto-MSn mode (smart fragmentation) using a ramping of the
+collision energy. Maximum fragmentation amplitude was set to
+1 V, starting at 30% and ending at 200%. MS operating condi-
+tions (negative mode) had been optimized using 5-caffeoyl quinic
+acid with a capillary temperature of 365 C, a dry gas ﬂow rate of
+10 L min1 and a nebulizer pressure of 10 psi. High resolution
+LC-MS was carried out using the same HPLC equipped with a
+MicrOTOF mass spectrometer (Bruker Daltonics, Bremen,
+Germany) ﬁtted with an ESI source and internal calibration was
+achieved with 10 mL of 0.1 M sodium formate solution injected
+through a six port valve prior to each chromatographic run.
+Calibration was carried out using the enhanced quadratic mode.
+HPLC
+Separation was achieved on a 150  3 mm i.d. column containing
+diphenyl 5 mm, with a 5 mm  3 mm i.d. guard column (Varian,
+Darmstadt,
+Germany).
+Solvent
+A
+was
+water/formic
+acid
+(1000 : 0.05 v/v) and solvent B was methanol. Solvents were
+delivered at a total ﬂow rate of 500 mL min1. The gradient proﬁle
+was from 10% B to 70% B linearly in 60 min followed by 10 min
+isocratic and a return to 10% B at 90 min and 10 min isocratic to
+re-equilibrate.
+ESI-FT-ICR mass spectrometry
+Ultra-high resolution mass spectra were acquired using a Bruker
+solarix Fourier transform ion cyclotron resonance mass spec-
+trometer (FTICR-MS) with a 12 T refrigerated superconducting
+cryo-magnet. The instrument was equipped with a dual electro-
+spray ion source with ion funnel technology. Spectra of the coffee
+samples were acquired in electrospray ionization positive and
+negative ion modes using direct infusion with a syringe pump with
+a ﬂow rate of 120 mL h1. Stock solutions (1 mg mL1 in MeOH) of
+the samples were diluted 1 : 40 in 50 : 50 MeOH : water for
+negative ion mode and 1 : 20 in 49.95 : 49.95 MeOH : water and
+0.1% formic acid for positive ion mode. The drying gas temper-
+ature of the ion source was set to 200 C. The instrument was
+externally calibrated with arginine cluster using a 10 mg mL1
+arginine solution containing 50% methanol. Spectra were
+acquired with 4 M datapoints resulting in a resolving power of
+500 000 at m/z 400. Data were zero ﬁlled once to a data size of 8 M
+datapoints. A single sine apodization was performed prior to
+Fourier transformation of the time domain signal. After spectra
+acquisition the mass spectra were internally calibrated with
+known polyphenolic pseudo-molecular ions (see ESI†). The ion
+accumulation time wasset to0.1 s and300 scanswere accumulated
+and added up for each mass spectrum in a mass range between m/z
+200 and 3000.
+Results and discussion
+The aim of this contribution is to give a comprehensive account
+on the chemical transformations of chlorogenic acids taking
+place during coffee roasting to form the enigmatic melanoidine
+reaction products. The characterization approach takes advan-
+tage of powerful modern mass spectrometry (MS) techniques,
+not available until recently. High resolution MS provides ulti-
+mate resolution in the molecular weight dimension and provides
+lists of molecular formulas corresponding to melanoidine
+compounds, whereas LC-tandem MS provides resolution at
+isomeric levels combined with gas phase isolation of targeted
+ions, adding structural information via fragment spectra. This
+conceptually novel analytical approach, which we propose to
+name domino-tandem MS to indicate the consecutive nature of
+high resolution and tandem MS, is applied here for the ﬁrst time
+to a dietary material processed by heat treatment.
+Firstly, a targeted approach was selected in which potential
+reaction products formed from chlorogenic acids in coffee
+roasting were postulated taking into account basic chemical
+reactivity principles. Selected classes of such reaction products
+were obtained by chemical synthesis and the authentic reference
+materials compared to actual roasted coffee tandem LC-MS data
+of roasted coffee samples.
+Secondly, a non-targeted approach is followed. The analytical
+strategy employs high resolution FT-ICR-MS measurements as
+direct infusion measurements to obtain ultimate resolution in the
+molecular weight dimension and generate molecular formula lists
+of all components present in the coffee brew. These molecular
+formula lists are subjected to graphical interpretation tools such
+as the van Krevelen analysis, homologous series analysis and
+Kendrick analysis to provide inspiration for identiﬁcation of
+structural trends, likely reaction mechanisms and ultimately a
+structural hypothesis for roasted coffee constituents.26,27 A
+combined approach provides unprecedented information at a
+level corresponding technically to state-of-the-art analytical
+chemistry with obvious limitations, considering that thousands
+978 | Food Funct., 2012, 3, 976–984
+This journal is ª The Royal Society of Chemistry 2012
+Downloaded by University of Sussex on 13 December 2012
+Published on 26 July 2012 on http://pubs.rsc.org | doi:10.1039/C2FO10260A
+View Article Online
+
+of reaction products are formed that can physically neither be
+separated nor compared to authentic reference materials.
+Targeted approach: identiﬁcation of chlorogenic acid derivatives
+by comparison to synthetic standards
+In a targeted approach we decided to propose a reaction scheme
+including a variety of chemical transformations that CGAs could
+undergo at elevated temperatures including acyl migration,
+thermal trans–cis isomerisation, dehydration and epimerisation.
+Selected examples of postulated reaction pathways are shown
+in Fig. 2. In this approach we obtained selected compounds from
+each of the hypothetical reaction pathways by chemical synthesis
+and compared the authentic standards to tandem LC-MS data of
+roasted coffee methanolic extracts. We hereby demonstrate as a
+proof of principle, whether any products 6–12 of such speculative
+reaction pathways a–g (Fig. 2) are actually formed in coffee
+roasting.
+Acyl migration
+Acyl migration here signiﬁes formally the migration of a
+hydroxycinnamoyl group from any of the four OHs of quinic
+acid to another one. Mechanistically, these reactions can occur
+intramolecularly or intermolecularly by a two step hydrolysis re-
+esteriﬁcation process. Clifford et al. reported on the migration of
+acyl groups in selected chlorogenic acids in basic aqueous solu-
+tion,28 while Dawidowicz and Typek recently reported on acyl
+migration in 5-caffeoyl quinic acid in acidic aqueous solution.29
+Any CGA derivative absent in the green bean and observed in the
+roasted bean at detectable concentrations again points towards
+the existence of acyl migration processes.
+Here we propose that experimentally the presence of acyl
+migration products can be most readily substantiated by identi-
+ﬁcation of the 1-substitued quinic acid esters, since these
+compounds are absent in the green bean, hence it must be formed
+by an acyl migration process. The syntheses of authentic 1-acyl
+derivatives have been reported by our group on several occasions
+and the compounds obtained serve here as authentic reference
+materials.23,30,31 Here we could, for example, positively identify
+12 1-acyl CGAs and their 1-acyl substituted lactone derivatives
+(see Table 1) in the extracted ion chromatograms (EICs) of the
+LC-MS data of roasted coffee extracts. As a representative
+example,
+identiﬁcation
+of
+1-caffeoyl-4-dimethoxycinnamoyl
+quinic acid 14 from an EIC is shown in Fig. 3. Therefore, we
+demonstrate for the ﬁrst time that acyl migration in CGAs takes
+place during coffee roasting.
+Fig. 2
+Possible chemical transformations occur during the roasting process of green coffee beans: (a) lactonisation, (b) water elimination, (c) water
+addition, (d) trans–cis isomerisation, (e) epimerization, (f) oxidation, (g) acyl-migration.
+This journal is ª The Royal Society of Chemistry 2012
+Food Funct., 2012, 3, 976–984 | 979
+Downloaded by University of Sussex on 13 December 2012
+Published on 26 July 2012 on http://pubs.rsc.org | doi:10.1039/C2FO10260A
+View Article Online
+
+Thermal trans–cis isomerisation of chlorogenic acids
+Photochemical trans–cis isomerisation of the hydroxyl cinna-
+moyl moiety in CGAs has been demonstrated on several occa-
+sions in plant tissue exposed to UV light.15,24 Recently,
+Dawidowicz and Typek have reported on thermal trans–cis iso-
+merisation in acidic aqueous medium, presumably occurring by a
+thermal water addition–elimination pathway.29 In our previous
+work we obtained authentic reference material for 22 distinct cis-
+caffeoyl quinic acids and screened for these compounds using
+targeted MSn experiments. In the extracted ion chromatograms
+(EICs) from the LC-MS data of the roasted coffee extracts,15,24
+no cis-derivatives could be positively identiﬁed, therefore
+showing that thermal trans–cis isomerisation does not take place
+in the dry coffee bean during roasting. Additionally, the specu-
+lative reaction intermediates resulting from the conjugate addi-
+tion of water at m/z 371.1 and 533.1 to the oleﬁnic double bonds
+of CGAs26 were found to be absent from the samples.
+Dehydration
+In the ﬁrst dehydration step, in theory the CGAs can produce
+either lactones or cyclohexene derivatives such as shikimic acid
+derivatives after the loss of a single water molecule from the quinic
+acid moiety. The group of Farah20 has reported lactone formation
+in roasted coffee and we have recently reported the formation of
+caffeoyl shikimates in roasted mate.24 Both classes of compounds
+are isomeric and elute at similar retention times in a chromato-
+gram and can therefore be easily mistaken for one another. We
+obtained, by chemical synthesis, reference standards for two
+regioisomeric caffeoyl shikimates and two regioisomeric caffeoyl
+quinides (the third regioisomers follow automatically) and could
+demonstrate that all six isomers can be discriminated by their MS2
+spectra.32 In roasted coffee all three regioisomers of caffeoyl
+quinides 21–23 and two regioisomers of caffeoyl shikimate 19, 20
+could be unambiguously identiﬁed from EICs of roasted coffee
+samples (see Fig. 4). Three further hydroxycinnamate derivatives
+of shikimic acid could be positively identiﬁed in EICs in LC-MS
+data (see Fig. 4), therefore demonstrating for the ﬁrst time the
+presence of an alternative dehydration pathway for CGAs in
+roasted coffee to form hydroxycinnamoyl shikimate derivatives.
+Epimerisation
+The group of Maier21 demonstrated that in roasted coffee all
+possible six diastereoisomers of quinic acid are present. Whether
+these compounds are obtained from epimerisation of chlorogenic
+acids or from epimerisation of quinic acid following ester
+hydrolysis remains at the time unclear. To resolve this issue we
+decided to obtain selected epimers of chlorogenic acids. We
+decided to obtain derivatives of muco-quinic acid (formally
+quinic acid inverted at C-3) possessing an equatorial 3-OH and
+therefore constituting the thermodynamically most stable dia-
+stereoisomer of quinic acid, most likely to be formed in coffee
+roasting. The chemical synthesis is described in the ESI† and was
+based on a highly diastereoselective reduction of a 3-dihy-
+droquinic acid as a key synthetic step. A total of ﬁve CGAs based
+on muco-quinic acid were thus obtained. In the LC-MS analysis
+of roasted coffee, two epimers of CGAs, 3-caffeoyl muco-quinic
+acid 30 and 3-feruloyl muco-quinic acid 31, could be positively
+identiﬁed in the EICs according to their unique tandem MS data
+(see Fig. 5 and Table 2), thus demonstrating for the ﬁrst time that
+epimerisation at the quinic acid moiety of CGAs occurs during
+Table 1
+List of C1-acylated CGAs arising from acyl migration reactions identiﬁed by tandem LC-MS in the negative ion mode
+Name
+RT (min)
+Theor. m/z (M  H)
+Exp. m/z (M H)
+Error (ppm)
+13
+1-O-Caffeoyl-4-O-feruloylquinic acid
+39.3
+529.1351
+529.1351
+0.2
+14
+1-O-Caffeoyl-4-O-
+dimethoxycinnamoylquinic acid
+40.8
+543.1508
+543.1486
+4.1
+15
+1-O-Caffeoyl-3-O-sinapoylquinic acid
+47.7
+559.1457
+559.1436
+3.8
+16
+1-O-Feruloyl-4-O-sinapoylquinic acid
+53.3
+573.1614
+573.1594
+3.4
+17
+1-O-Feruloyl-3-O-sinapoylquinic acid
+52.1
+573.1614
+573.1612
+0.9
+18
+1-O-Caffeoyl-3-O-
+trimethoxycinnamoylquinic acid
+59.5
+573.1614
+573.1594
+3.4
+Fig. 3
+Extracted ion chromatogram of caffeoyl-dimethoxycinnamoyl-
+quinic acid at m/z 543 (negative ion mode) showing acyl migration
+product 1-caffeoyl-4-dimethoxycinnamoyl quinic acid 1C-4DQA 14.
+Fig. 4
+Extracted ion chromatogram (EIC) of CGA model roast (for
+roasted coffee 5-CSA is absent) extract at m/z 335 (negative ion mode)
+showing caffeoylshikimic acids (CSAs) and caffeoylquinic acid lactones
+(CQLs) 19–23.
+980 | Food Funct., 2012, 3, 976–984
+This journal is ª The Royal Society of Chemistry 2012
+Downloaded by University of Sussex on 13 December 2012
+Published on 26 July 2012 on http://pubs.rsc.org | doi:10.1039/C2FO10260A
+View Article Online
+
+coffee roasting. Furthermore, we demonstrate for the ﬁrst time
+that aspects of relative stereochemistry assignment in CGA
+derivatives is possible based on the multi-dimensional speciﬁcity
+of LC-tandem MS, with the muco-3-caffeoyl quinic acid 30 dia-
+stereomer displaying an MS2 fragment spectrum distinctly
+different from that of the 3-caffeoyl quinic acid (see ESI†).
+Non-targeted approach ESI-FT-ICR-MS measurement of
+melanoidine fraction
+Whereas in the targeted approach compounds formed in coffee
+roasting based on the chlorogenic acid framework were identi-
+ﬁed, a non-targeted approach allows identiﬁcation of all further
+melanoidine-type compounds present in the samples including
+products derived from reactions between CGAs and other coffee
+constituents including proteins and carbohydrates. For this
+approach low molecular weight melanoidine fractions were iso-
+lated from roasted Arabica and Robusta coffee using the
+procedure of Schols et al.,8 including extraction followed by
+dialysis with a molecular weight cut off of 2000 Da. To aid
+identiﬁcation of the origin of roasted coffee products under
+identical roasting conditions, model roast systems were prepared
+including a roast of a total chlorogenic acid extract, 5-caffeoyl
+quinic acid and a model roast of a typical green coffee bean
+carbohydrate mixture. Roasting was carried out under identical
+roasting conditions compared to the coffee samples (12 minutes
+at 200 C). All samples were analysed as a direct infusion in
+aqueous methanol at 1 mg mL1 using a 12T FT-ICR-MS
+instrument using ESI ionisation. The mass spectral data obtained
+in this way provides a comprehensive overview of all low
+molecular weight reaction products comprising the melanoidine
+fraction detectable by ESI-MS. A representative mass spectrum
+is shown in Fig. 6 and complete lists of molecular formulas
+identiﬁed are given in the ESI.†
+From the ESI-FT-ICR MS data, mass lists were generated
+with a S/N ratio above four. From the mass lists, molecular
+formula lists were obtained assuming an error below 2 ppm and
+the presence of the elements C, H, O and N for all signals with a
+relative intensity of 0.001% of the base peak. The data were then
+subjected to interpretation tools.27
+Graphical data interpretation
+From a ﬁrst inspection of the data it becomes obvious that the
+FT-ICR MS data for roasted CGA extracts were more complex
+than those for roasted coffee extracts. In the roasted CGA
+extracts 1000 peaks with a S/N ration larger than 1000 could be
+observed, whereas in the roasted coffee samples only 400 signals
+above the same S/N ratio could be observed. This result clearly
+shows that CGA alone can form a very large number of reaction
+products under roasting conditions. A signiﬁcant number of
+signals appearing in the model roast are, however, absent from
+the actual roasted coffee sample. The number of ions observed in
+this
+experiment
+give
+directly
+the
+minimum
+number
+of
+compounds present in the sample, which needs to be multiplied
+with the average number of isomers present. It is worth noting
+that the MS method used here is isomer blind and for example,
+for the dominant peaks at m/z 353.08671 including all regio- and
+diastereoisomers a total of 28 isomers could exist, while at m/z
+515.1184 a total of 42 isomers could exist (we have previously
+excluded cis-isomers). It is reasonable to assume that several
+thousand compounds can be formed, although the determination
+of a reliable ﬁgure is impossible at this stage.
+A comparison of the molecular formulas for the ﬁrst 300 most
+intense peaks in the roasted coffee samples with the model roast
+systems reveals the following ﬁndings. 127 molecular formulas
+are identical to molecular formulas from the roasted CGA
+extract model samples, 98 molecular formulas are identical to the
+roasted carbohydrate model sample leaving a total of 75
+molecular formulas as products deﬁnitely not formed within the
+model roast. Out of these 75 molecular formulas 55 molecular
+formulas contain one or more nitrogen atoms, pointing to true
+Maillard products involving nitrogen containing species as the
+reaction partner, most likely amino acids or peptides.
+These ﬁndings allow the following tentative conclusion: CGAs
+and carbohydrates tend to react with one another, within the
+same class of compounds as reaction partners. They react only to
+a limited degree, with around only 20% of signals arising from
+cross reaction products, with compounds of other classes (e.g.,
+CGAs with peptides or carbohydrates). This observation can be
+rationalized through assuming compartmentalisation and local-
+isation of the individual classes of compounds in the bean or due
+to an inherent lack of cross reactivity.
+In a second line of data interpretation, the determination of
+elemental ratios from the molecular formula lists allows genera-
+tion of van Krevelen diagrams for the individual samples. In a van
+Krevelen diagram, elemental ratios such as H/C or O/C are
+generated from molecular formula lists and are displayed in a two
+dimensional plot with each molecular formula observed corre-
+sponding to one point on the two dimensional plot. These
+diagrams allow identiﬁcation of possible reaction trends in the
+sample and tentative classiﬁcation of compound classes within the
+samples based on elemental ratio boundaries deﬁning compound
+classes.26,27 Fig. 7 and 8 show van Krevelen diagrams of a roasted
+chlorogenic acid fraction and a roasted coffee extract. Within the
+diagram typical elemental ratio boundaries for carbohydrates
+(right top corner), polyphenols (centre of the plot) or aromatic-
+like compounds (bottom left) indicate the compound classes of the
+melanoidine reaction products. Additionally, reaction classes can
+be tentatively identiﬁed from the plot. For example, gradual
+dehydrations lead to data points being shifted along the diagonal
+of the plot towards its origin. From the van Krevelen plot indi-
+vidual molecular formulas obtained can thus be classiﬁed as
+polyphenol-like, carbohydrate-like or aromatic-like.
+Fig. 5
+Extracted ion chromatograms (EICs) at m/z 367.2 in negative ion
+mode of roasted coffee extract showing feruloyl-muco-quinic acid (3-
+FmQA) 31.
+This journal is ª The Royal Society of Chemistry 2012
+Food Funct., 2012, 3, 976–984 | 981
+Downloaded by University of Sussex on 13 December 2012
+Published on 26 July 2012 on http://pubs.rsc.org | doi:10.1039/C2FO10260A
+View Article Online
+
+The mass lists and resulting molecular formula lists (see ESI†)
+provided here may serve as an inspiration for developing struc-
+tural hypothesis of the chemical constituents of roasted coffee
+and are all amenable to further investigation by tandem LC-MS.
+A complete interpretation would be outside the scope of this
+contribution but selected conclusions are illustrated below,
+which focus on roasting products directly obtained from CGAs.
+Transesteriﬁcation products in roasted coffee
+In order to obtain inspiration for likely chemical structures
+formed in the coffee roasting a homologous series analysis and
+Kendrick analysis reveals the presence of short dehydration
+series starting from CGAs to give probably hydroxybenzoate
+esters
+of
+hydroxycinnamates.
+Further
+homologous
+series
+included addition of mass increments of +C2H3O (acetate),
++C7H11O5 (quinate) and +C7H9O4 (shikimate). This ﬁnding
+suggests that CGA derivatives undergo further condensation
+reactions to form, in a transesteriﬁcation process, esters with any
+of the three acids mentioned above.
+In roasted coffee we observed, for example, four isomeric
+acetyl-caffeoyl quinic acids 32, 33 (Fig. 9) at m/z 395.1. Their MS2
+spectra are fully consistent with acetylation occurring at the
+quinic acid moiety. It has to be noted that O-acetyl-caffeoyl
+quinic acids, alternative isomers, were available as authentic
+reference standards and could be excluded as reaction products
+based on retention times and tandem MS spectra.13 All quinic
+acid acetates were showing MS base peaks at m/z 395 and MS2
+base peaks at m/z 233.1 by loss of a caffeoyl residue and in each
+case secondary peak at m/z 353 originating from loss of an
+acetate group (Fig. 10).
+In the MS3 spectra of precursor mass m/z 233 (MS2 base peak)
+produced the base peak at m/z 191 by the loss of an acetyl group
+and the precursor m/z 353 produced the MS3 base peak at m/z 191
+(1-, 3- or 5-acylation) and/or m/z 173 (4-acylation) by the loss of a
+caffeoyl residue and a caffeic acid, respectively. The regiochem-
+istry of the caffeoyl substituent can be unambiguously estab-
+lished using our hierarchical key,12 however, due to a lack of
+reference standards unambiguous assignment of regiochemistry
+of the acetate was not in all cases possible at this stage.
+In order to probe this structural hypothesis of CGA esteriﬁ-
+cation with quinic and shikimic acid, targeted tandem MS data
+Table 2
+List of dehydrated CGA derivatives including lactones and shikimic acid derivatives and epimerisation products identiﬁed by tandem LC-MS
+in the negative ion mode
+No.
+Name
+RT (min)
+Theor. m/z (M  H)
+Exp. m/z (M  H)
+Error (ppm)
+19
+3-O-Caffeoylshikimic acid
+25.6
+335.0772
+335.0763
+2.9
+20
+4-O-Caffeoylshikimic acid
+23.8
+335.0772
+335.0760
+3.8
+21
+1-O-Caffeoyl-1,5-quinide lactone
+32.9
+335.0772
+335.0769
+1.1
+22
+3-O-Caffeoyl-1,5-quinide lactone
+27.0
+335.0772
+335.0773
+0.1
+23
+4-O-Caffeoyl-1,5-quinide lactone
+30.7
+335.0772
+335.0765
+2.3
+24
+1-O-Feruloyl-1,5-quinide lactone
+40.3
+349.0929
+349.0924
+1.4
+25
+3-O-Feruloyl-1,5-quinide lactone
+34.8
+349.0929
+349.0934
+1.6
+26
+4-O-Feruloyl-1,5-quinide lactone
+37.5
+349.0929
+349.0936
+2.0
+27
+1-O-p-Coumaroyl-1,5-quinide lactone
+38.0
+319.0823
+319.0828
+4.4
+28
+3-O-p-Coumaroyl-1,5-quinide lactone
+32.2
+319.0823
+319.0826
+1.0
+29
+4-O-p-Coumaroyl-1,5-quinide lactone
+35.2
+319.0823
+319.0828
+1.4
+30
+3-O-Caffeoyl-muco-quinic acid
+14.4
+353.0878
+353.0875
+0.9
+31
+3-O-Feruloyl-muco-quinic acid
+23.5
+367.1035
+367.1036
+0.4
+Fig. 6
+Direct infusion ESI-FT-ICR mass spectrum in the negative ion
+mode of a low molecular weight melanoidine fraction of roasted Arabica
+coffee.
+Fig. 7
+Van Krevelen plot of direct infusion MS data of model roast from
+Robusta coffee CGA fraction of 120 most intense ions with (a) elemen-
+tary boundaries for carbohydrates, (b) elementary boundaries for poly-
+phenolics, (c) elementary boundaries for aromatics.
+982 | Food Funct., 2012, 3, 976–984
+This journal is ª The Royal Society of Chemistry 2012
+Downloaded by University of Sussex on 13 December 2012
+Published on 26 July 2012 on http://pubs.rsc.org | doi:10.1039/C2FO10260A
+View Article Online
+
+were obtained on selected derivatives at m/z 527.2 (C23H27O14
+caffeoyl quinic acid + quinic acid) 35, 509.2 (C23H25O13 caffeoyl
+quinic acid + shikimic acid) 34, 527.2, 689.3 (C30H35O19 dicaf-
+feoyl quinic acid + quinic acid) 36 and 671.3 (C30H33O18 dicaf-
+feoyl quinic acid + shikimic acid) 37. In the LC-tandem MS data
+of roasted coffee samples multiple peaks at these masses are
+clearly present, however, tandem mass spectra were generally not
+of sufﬁcient quality to obtain structural conﬁrmation (see ESI†).
+However, in LC-tandem MS data of the model roast of a typical
+coffee CGA fraction identical peaks at identical retention times
+were observed and MS2 and MS3 fragment spectra clearly indi-
+cate the formation of caffeoyl quinic acid aryl-O-quinates and
+shikimates as identiﬁed by typical MS2 base peaks at m/z 353.1
+(C16H17O9 caffeoyl quinic acid) accompanied by a fragment ion
+at m/z 191.1 (M-O-caffeoyl quinate or shikimate) (see Fig. 9 for
+tentative structures, with regiochemistry at the aromatic ring
+unresolved at this stage).
+Additionally, further molecular formulas observed in the mass
+list generated from FT-ICR-MS data point towards the presence
+of further esteriﬁcation products of CGAs with small organic
+acids present in coffee, e.g., maloyl caffeoyl quinic acid (at m/z
+469.09876, C20H22O13), on which we have reported previously
+by
+Burdock
+and
+Arnica,33,34
+citroyl-caffeoyl
+quinic
+acid
+(at m/z 497.13006, C22H26O13), or propionoyl caffeoyl quinic
+acid (at m/z 409.1140, C19H22O10).
+Conclusion
+In conclusion, we have applied a conceptually novel mass spec-
+trometry based characterisation strategy for the ﬁrst time to a
+dietary material obtained by thermal treatment, the highly
+important roasted coffee product. We have elucidated four
+distinct reaction pathways undergone by chlorogenic acids in
+coffee roasting, including acyl migration, dehydration, epimeri-
+zation and transesteriﬁcation with acetic, quinic and shikimic
+acid. Selected structures were unambiguously identiﬁed using a
+targeted approach based on synthetic reference standards.
+Additionally, a non-targeted analytical strategy furnished a
+comprehensive list of molecular formulas for all analytes
+detectable in a low molecular weight roasted coffee melanoidine
+Fig. 8
+Van Krevelen plot of direct infusion MS data of melanoidine
+fraction from Robusta coffee of 120 most intense ions with (a) elementary
+boundaries for carbohydrates, (b) elementary boundaries for poly-
+phenolics, (c) elementary boundaries for aromatics.
+Fig. 9
+Tentative structures of transesteriﬁcation products of chlorogenic
+acids 32–37 from FT-ICR-MS and LC-MS data (regiochemistry of acetyl
+groups and phenolic attachment in 34–37 selected randomly).
+Fig. 10
+Extracted ion chromatogram at m/z 395 corresponding to acetyl
+caffeoyl quinic acids (e.g., 32 or 33) above and MS2, MS3 and MS4 spectra
+of major acetyl caffeoyl quinic acid at RT 33 minutes tentatively assigned
+as 3-caffeoyl-4-acetyl quinic acid 32.
+This journal is ª The Royal Society of Chemistry 2012
+Food Funct., 2012, 3, 976–984 | 983
+Downloaded by University of Sussex on 13 December 2012
+Published on 26 July 2012 on http://pubs.rsc.org | doi:10.1039/C2FO10260A
+View Article Online
+
+fraction. Graphical interpretation tools have allowed classiﬁca-
+tion of reaction products formed in coffee roasting using van
+Krevelen analysis and further tandem MS studies have revealed
+the presence of esteriﬁcation products of chlorogenic acids with
+small organic acids.
+Our manuscript offers an unprecedented insight into roasted
+coffee, an extraordinarily complex material enjoyed by billions of
+humans on a daily basis. This novel insight on a molecular basis
+will allow further understanding of the sensory and processing
+properties as well as the beneﬁcial health effects associated with
+the coffee beverage.1
+Notes and references
+1 J. V. Higdon and B. Frei, Crit. Rev. Food Sci. Nutr., 2006, 46, 101–
+123.
+2 E. K. Bekedam, M. J. Loots, H. A. Schols, M. Van Boekel and
+G. Smit, J. Agric. Food Chem., 2008, 56, 7138–7145.
+3 M. Czerny and W. Grosch, J. Agric. Food Chem., 2000, 48, 868–872.
+4 C. A. B. De Maria, R. F. A. Moreira and L. C. Trugo, Quim. Nova,
+1999, 22, 209–217.
+5 M. Korhonova, K. Hron, D. Klimcikova, L. Mueller, P. Bednar and
+P. Bartak, Talanta, 2009, 80, 710–715.
+6 O. G. Vitzthum and P. Werkhoff, J. Food Sci., 1974, 39, 1210–1215.
+7 D. Ryan, R. Shellie, P. Tranchida, A. Casilli, L. Mondello and
+P. Marriott, J. Chromatogr., A, 2004, 1054, 57–65.
+8 E. K. Bekedam, E. Roos, H. A. Schols, M. van Boekel and G. Smit, J.
+Agric. Food Chem., 2008, 56, 4060–4067.
+9 M. Daglia, A. Papetti, C. Aceti, B. Sordelli, C. Gregotti and
+G. Gazzani, J. Agric. Food Chem., 2008, 56, 11653–11660.
+10 C. Delgado-Andrade and F. J. Morales, J. Agric. Food Chem., 2005,
+53, 1403–1407.
+11 M. N. Clifford, J. Sci. Food Agric., 1999, 79, 362–372.
+12 M. N. Clifford, K. L. Johnston, S. Knight and N. Kuhnert, J. Agric.
+Food Chem., 2003, 51, 2900–2911.
+13 R. Jaiswal, M. A. Patras, P. J. Eravuchira and N. Kuhnert, J. Agric.
+Food Chem., 2010, 58, 8722–8737.
+14 N. Kuhnert, R. Jaiswal, P. Eravuchira, R. M. El-Abassy, B. von der
+Kammer and A. Materny, Anal. Methods, 2011, 3, 144–155.
+15 M. N. Clifford, J. Kirkpatrick, N. Kuhnert, H. Roozendaal and
+P. R. Salgado, Food Chem., 2008, 106, 379–385.
+16 M. N. Clifford, S. Knight and N. Kuhnert, J. Agric. Food Chem.,
+2005, 53, 3821–3832.
+17 E. K. Bekedam, H. A. Schols, M. Van Boekel and G. Smit, J. Agric.
+Food Chem., 2008, 56, 2055–2063.
+18 A. Crozier, I. B. Jaganath and M. N. Clifford, Nat. Prod. Rep., 2009,
+26, 1001–1043.
+19 K. R. Maatta, A. Kamal-Eldin and A. R. Torronen, J. Agric. Food
+Chem., 2003, 51, 6736–6744.
+20 A. Farah, T. De Paulis, L. C. Trugo and P. R. Martin, J. Agric. Food
+Chem., 2005, 53, 1505–1513.
+21 B. M. Scholz and H. G. Maier, Z. Lebensm.-Unters. Forsch., 1990,
+190, 132–134.
+22 M. Fischer, S. Reimann, V. Trovato and R. J. Redgwell, Carbohydr.
+Res., 2001, 330, 93–101.
+23 R. Jaiswal and N. Kuhnert, Rapid Commun. Mass Spectrom., 2010,
+24, 2283–2294.
+24 R. Jaiswal, T. Sovdat, F. Vivan and N. Kuhnert, J. Agric. Food
+Chem., 2010, 58, 5471–5484.
+25 N. Kuhnert and A. Le-Gresley, Org. Biomol. Chem., 2005, 3, 2175–
+2182.
+26 N. Kuhnert, Arch. Biochem. Biophys., 2010, 501, 37–51.
+27 N. Kuhnert, J. W. Drynan, J. Obuchowicz, M. N. Clifford and
+M.
+Witt,
+Rapid
+Commun.
+Mass
+Spectrom.,
+2010,
+24,
+3387–
+3404.
+28 M. N. Clifford, B. Kellard and G. G. Birch, Food Chem., 1989, 33,
+115–123.
+29 A. L. Dawidowicz and R. Typek, J. Agric. Food Chem., 2010, 58,
+12578–12584.
+30 M. N. Clifford, S. Knight, B. Surucu and N. Kuhnert, J. Agric. Food
+Chem., 2006, 54, 1957–1969.
+31 N. Kuhnert, R. Jaiswal, M. F. Matei, T. Sovdat and S. Deshpande,
+Rapid Commun. Mass Spectrom., 2010, 24, 1575–1582.
+32 R. Jaiswal, M. F. Matei, F. Ullrich and N. Kuhnert, J. Mass
+Spectrom., 2011, 46, 933–942.
+33 R. Jaiswal and N. Kuhnert, Food Funct., 2011, 2, 63–71.
+34 R. Jaiswal and N. Kuhnert, J. Agric. Food Chem., 2011, 59, 4033–
+4039.
+984 | Food Funct., 2012, 3, 976–984
+This journal is ª The Royal Society of Chemistry 2012
+Downloaded by University of Sussex on 13 December 2012
+Published on 26 July 2012 on http://pubs.rsc.org | doi:10.1039/C2FO10260A
+View Article Online

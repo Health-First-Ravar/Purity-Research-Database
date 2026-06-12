@@ -1,0 +1,788 @@
+CHAPTER 1
+A Brief Introduction to Lignin
+Structure
+RUI KATAHIRA,a THOMAS J. ELDERb AND
+GREGG T. BECKHAM*a
+a National Bioenergy Center, National Renewable Energy Laboratory,
+15013 Denver West Parkway, Golden, CO 80403, USA; b USDA-Forest
+Service, Southern Research Station, 521 Devall Dr., Auburn, AL 36849, USA
+*Email: gregg.beckham@nrel.gov
+1.1
+Introduction
+Lignocellulosic biomass is a vast resource for the sustainable production of
+renewable fuels, chemicals, and materials for mankind.1,2 Biomass, espe-
+cially wood, has been used for millennia as a building and construction
+material for myriad applications and a source for heat as a fuel. The majority
+of mass in plants is in the cell walls, which are primarily composed of the
+polysaccharides cellulose, hemicellulose, and pectin along with the alkyl-
+aromatic heteropolymer lignin. The three basic building blocks of lignin,
+p-coumaryl alcohol, coniferyl alcohol, and sinapyl alcohol, are synthesized
+via the phenylpropanoid pathway in plants and diﬀer in their extent of
+methoxylation (0, 1, and 2, respectively).3 Lignin is synthesized via enzymatic
+dehydrogenation of these monomers, which form both C–O and C–C bonds,
+leading to a heterogeneous structure and a three-dimensional structure.
+As discussed briefly below, additional components of lignin such as
+hydroxycinnamic acids and flavonoids further complicate the structure and
+decorate the aromatic heteropolymer with additional linkages and chemical
+functionality.
+Energy and Environment Series No. 19
+Lignin Valorization: Emerging Approaches
+Edited by Gregg T. Beckham
+r The Royal Society of Chemistry 2018
+Published by the Royal Society of Chemistry, www.rsc.org
+1
+Downloaded from http://books.rsc.org/books/edited-volume/chapter-pdf/1549280/bk9781782625544-00001.pdf by guest on 20 March 2025
+
+Although under development for at least the last century, the conversion
+of biomass polysaccharides into fuels and chemicals has especially gained
+substantial momentum in the past several decades, primarily motivated by
+the potential to oﬀset petroleum usage with a renewable, sustainable feed-
+stock and to reduce associated global greenhouse gas emissions. For fuels
+production, the primary biorefinery models examined to date have adopted a
+strategy to utilize thermochemical pretreatment and enzymatic hydrolysis to
+produce pentose and hexose sugars for subsequent fermentation to ethanol
+using natural or engineered yeast or bacterial strains.1,4 Enormous technical
+diversity exists around this biomass deconstruction paradigm with many
+diﬀerent thermochemical deconstruction/pretreatment strategies being
+pursued, including (but not limited to) the use of acid, base, hot water,
+steam, organic solvents, and ionic liquids.4,5 Industrial enzyme systems to
+date have primarily focused on the use of carbohydrate-active enzymes
+from cellulolytic fungi6 and anaerobic rumen bacteria,7 but the rise of the
+(meta)genomics-enabled science has rapidly accelerated the discovery of
+new polysaccharide deconstruction paradigms and individual enzymes.8
+Both thermochemical and enzymatic polysaccharide deconstruction ap-
+proaches remain highly pursued areas of research.
+Lignin, conversely, is typically relegated for heat and power due to its
+inherent heterogeneity and recalcitrance.9 However, techno-economic anal-
+ysis of lignocellulosic biorefineries is revealing that lignin utilization is a
+crucial component of integrated biorefineries,10 and thus new strategies for
+lignin must be developed. As such, many new discoveries and developments
+are emerging in the past decade regarding lignin utilization, especially given
+significant government and industrial funding in large consortia and centers
+throughout the world. This book brings together world-leading experts in
+lignin utilization to present and review the most recent discoveries in lignin
+valorization to highlight opportunities going forward to utilize lignin more
+eﬃciently and sustainably. Emphasis is placed on very recent, emerging
+topics in chemical and biological catalysis for lignin valorization. This
+introductory chapter primarily focuses on the chemical aspects of lignin
+structure, as a preface to the subsequent chapters.
+1.2
+Lignin Structure
+Lignin is a polyphenolic material and one of the main components in the
+plant cell wall. Its biosynthesis occurs through enzymatic dehydrogenation
+of three phenylpropanoid monomers, p-coumaryl alcohol (2), coniferyl al-
+cohol (3), and sinapyl alcohol (4) (Figure 1.1).11–15 Phenoxyl radials generated
+from these three monolignols are randomly polymerized to produce a bio-
+polymer with a three-dimensional network. The weight average molecular
+weight (Mw) of isolated lignin (milled wood lignin) is 6700, 14 900, and
+23 500 Da from Eucalyptus globulus, Southern pine, and Norway spruce,
+respectively,16 with the molecular weight of lignin varying widely with
+isolation method. Lignin contents, as measured by the Klason method, are
+2
+Chapter 1
+Downloaded from http://books.rsc.org/books/edited-volume/chapter-pdf/1549280/bk9781782625544-00001.pdf by guest on 20 March 2025
+
+Figure 1.1
+Repeating units in lignin.
+A Brief Introduction to Lignin Structure
+3
+Downloaded from http://books.rsc.org/books/edited-volume/chapter-pdf/1549280/bk9781782625544-00001.pdf by guest on 20 March 2025
+
+25–35% in softwood, 20–25% in hardwood, and 15–25% in herbaceous
+plants.17 In the cell wall of a hardwood, lignin deposition starts from the
+middle lamella, then in a primary wall and S1 layer in the secondary wall.
+Subsequently, lignin is located in the S2 and S3 layers.18,19
+An understanding of the chemical structure of lignin is critical for de-
+veloping robust and eﬀective lignin valorization processes. In past decades,
+many lignin chemists have studied and developed methods for the de-
+termination, isolation from biomass, destructive/non-destructive analytical
+methods, and the degradation of lignin, which is reviewed in more detail in
+Chapter 15. The main quantitative lignin determination methods are the
+original Klason acid hydrolysis method, the modified Klason method,17,20
+and the acetyl bromide method.21 Various lignin isolation methods have
+also been developed with less structural changes.22 Among these are milled
+wood lignin (MWL),23,24 cellulolytic enzymatic lignin (CEL),24 kraft lignin,
+soda lignin, and organosolv lignin,23 with MWL and CEL considered to re-
+tain the native lignin structure. Isolated lignin has been characterized using
+numerous methods such as solution- and solid-state NMR,25–27 SEC,28
+GC-MSn, LC-MSn, UV-Vis,29 FTIR,30,31 Raman,32 SEM/TEM, and EPR. NMR,
+especially solution-state NMR, which is a non-destructive method, has pro-
+vided analytical breakthroughs for insights into the interunit linkages of
+whole lignin. In addition, several methods have been developed for under-
+standing the chemical structure of lignin based on its degradation products.
+These include acidolysis,26,33,34 thioacidolysis,35 DFRC,36–39 nitrobenzene
+oxidation,40 hydrogenolysis,41–43 ozonation,44,45 permanganate oxidation,46
+and nucleus exchange reaction.47–49 While a large number of such studies
+have focused on lignin chemical structure, to date the whole lignin chemical
+structure has still not been determined. It is obvious, however, that the large
+amount of information based on these instrumental and degradation
+methods has provided considerable insights into the structure of the
+polymer. In the next section, insights about the type and frequency of in-
+terunit linkages, their side chain composition, and functional groups are
+described.
+The three phenylpropane building blocks of lignin correspond to
+p-hydroxyphenyl (1H), guaiacyl (1G), and syringyl (1S) structures in lignin,
+respectively (Figure 1.1). Softwood lignin is composed of mainly G-units
+with a small amount of H-unit lignin, while hardwood lignin consists of both
+G- and S-units. Herbaceous plant lignin contains all three monolignol units
+of G, S, and H units, and p-coumarate and ferulate, which are incorporated
+with normal G- and S-units. G-units and S-units with a Ca¼O (1G0, 1S0)
+also exist.
+1.2.1
+Side Chain Structure in the End-group
+Based on analyses of degradation products, p-coumarate (5), ferulate (6),
+hydroxycinnamyl alcohol (7), hydroxycinnamaldehyde (8), and arylglycerol
+end-units (11) have been identified in lignin (Figure 1.2).11–13,33,41
+4
+Chapter 1
+Downloaded from http://books.rsc.org/books/edited-volume/chapter-pdf/1549280/bk9781782625544-00001.pdf by guest on 20 March 2025
+
+Figure 1.2
+Side chain structure in end-groups in lignin.
+A Brief Introduction to Lignin Structure
+5
+Downloaded from http://books.rsc.org/books/edited-volume/chapter-pdf/1549280/bk9781782625544-00001.pdf by guest on 20 March 2025
+
+Using a color reaction method the abundance of hydroxycinnamaldehyde
+and hydroxycinnamyl alcohol in spruce MWL were determined to be
+0.02–0.04/OAr, and 0.02, respectively.20 The cinnamyl alcohol (including
+5-hydroxyconiferyl alcohol) units are more abundant in hardwoods than
+softwoods and herbaceous plants as detected by solution-state HSQC NMR,
+while p-coumarate and ferulate end-units are found in mainly in her-
+baceous species.50 Dihydrocinnamyl alcohol end-units (9) are incorporated
+primarily into softwood lignin.51 This unit is homo- and cross-coupled
+with coniferyl alcohol to generate the dibenzodioxocin unit, as described
+below.52 Guaiacylpropane-1,3-diol end-units (10) are derived from di-
+hydrocinnamyl alcohol end-units (9), and found in low concentrations in
+pine and in high concentrations in CAD-deficient pine mutants.53 The
+arylglycerol end-unit (11) was detected in the hydrolysates from dioxane–
+H2O and hot water,54 but specific methods for its determination have not
+yet been established.
+1.2.2
+Acylated End-groups
+Various products with acyl groups from incomplete monolignol bio-
+synthesis are generated, such as hydroxycinnamic acids (12; p-coumaric
+acid, ferulic acid, sinapic acid, and p-hydroxybenzoic acid) and hydroxy-
+cinnamaldehydes (8). These molecules incorporate into the lignin polymer
+through ester linkages to create various acylating end-groups at the g-OH
+position in many lignins, such as acetate (14), p-coumarate (15), and
+p-hydroxybenzoate (16) (Figure 1.3). For instance, over 50% of kenaf bast
+fiber lignin contains g-acetylate (14),55 and g-p-coumarate (15) makes up
+about 10% of grass lignins.56 The g-p-hydroxybenzoate substituents (16)
+with an aliphatic hydroxyl group is present up to a level of 10% in aspen
+native lignin.57 Additionally, g-p-hydroxybenzoate was also detected in
+poplar lignin, palm, and willow.58–62 Sinapyl p-hydroxybenzoate has also
+been isolated in lignifing xylem tissue in poplar, and its synthetic mech-
+anism was proposed to be a coupling reaction of sinapyl alcohol (4)
+and sinapyl p-hydroxybenzoate (16).63 Recently, it was shown that the
+p-hydroxybenzoate selectively acylates the g-hydroxyl group in the S unit.64
+More importantly, it was found that these acylating groups are not
+introduced from acylation of the lignin polymer, but that acylated lignin
+monomers are generated first and then these monomers are polymerized
+through
+radical
+coupling
+to
+incorporate
+into
+acylated
+lignin.64,65
+This indicates that these acylated compounds are pre-acylated lignin pre-
+cursors in parallel to the classical three monolignols.64 With regard to
+the enzymes that promote the acylated monolignol in the lignin bio-
+synthesis pathway, p-coumaroyl-CoA:monolignol transferases in grasses
+and feruloyl-CoA:monolignol transferases in engineered poplar promote
+p-coumaroylation
+and
+feruloylation
+of
+monolignols,
+respectively.66,67
+These results imply the existence of p-hydroxybenzoyl-CoA:monolignol
+transferase.64
+6
+Chapter 1
+Downloaded from http://books.rsc.org/books/edited-volume/chapter-pdf/1549280/bk9781782625544-00001.pdf by guest on 20 March 2025
+
+Figure 1.3
+Acylated end-groups in lignin.
+A Brief Introduction to Lignin Structure
+7
+Downloaded from http://books.rsc.org/books/edited-volume/chapter-pdf/1549280/bk9781782625544-00001.pdf by guest on 20 March 2025
+
+1.2.3
+Lignin Interunit Linkages
+To identify interunit linkages, lignin is generally degraded to low molecular
+weight products of monomers, dimers, and oligomers, and analyzed using
+GC-MS, LC-MS, and NMR. Based on these techniques and computational
+modeling, estimates of the type and relative abundance of interunit linkages
+have been determined. The common interunit linkages found are sum-
+marized in Figure 1.4. Among these, the b-O-4, b-b, b-5, and 5-50 units are the
+main structures, with dibenzodioxocin, spirodienone, and benzodioxane
+representing recently discovered units. Other linkages such as b-1, 4-O-5
+diphenyl, and a-O-4 are relatively uncommon. The relative abundance of
+each linkage depends on the species of biomass, lignin type, and isolation
+method.68–70
+1.2.3.1
+Aryl Ether Unit (b-O-4)
+The most frequent interunit linkage in lignin is the arylglycerol-b-aryl ether
+(b-O-4) bond, which is considered to occur at levels of 40–60% in softwood
+and hardwood.15,71 Adler et al. reported that the arylglycerol-b-aryl ether
+structure was degraded to Hibbert ketones through acidolysis, and esti-
+mated the b-O-4 content at 0.25–0.3/OAr in spruce lignin.72 Lapierre et al.
+found that thioacidolysis could specifically cleave the b-O-4 structure in
+lignin and reported both the levels of b-O-4 units and H/G/S ratio from
+various lignin samples and biomass species including herbaceous plants.35
+More recently, Ralph et al. developed the derivatization followed by reductive
+cleavage (DFRC) method, which can also degrade b-O-4 units using AcBr and
+is followed by reductive cleavage with zinc.36–39 Using spectroscopic ana-
+lyses, the b-O-4 linkage can be estimated by 1H NMR of acetylated lignin
+samples and by quantitative 13C NMR of non-derivatized lignin samples.
+More recently, it has been demonstrated that the advanced two-dimensional
+NMR technique HSQC could measure relative amounts of b-O-4 units in the
+whole cell wall.50,73 Based on these results from chemical degradation and
+spectroscopic methods, it has been confirmed that the b-O-4 unit is the
+predominant interunit linkage in lignin and is critical for depolymerization.
+1.2.3.2
+Resinol Unit (b-b)
+The pinoresinol structure was first detected in the enzymatic dehydroge-
+nation polymer (DHP) of coniferyl alcohol,74 while other resinol units such
+as syringaresinol, episyringaresinol, lariciresinol, and dimethoxylariciresinol
+have also been isolated in percolation hydrolysate and hydrogenation
+products from hardwood.75–77 The amount of resinol has been estimated to
+be 0.02 and 0.03–0.05/OAr in spruce and birch lignin, respectively. Based on
+the quantitative data of these resinol units, it was found that hardwood
+lignin contains more resinol units than softwood, but maize lignin has no
+resinol structures.50
+8
+Chapter 1
+Downloaded from http://books.rsc.org/books/edited-volume/chapter-pdf/1549280/bk9781782625544-00001.pdf by guest on 20 March 2025
+
+Figure 1.4
+Main interunit linkages in lignin.
+A Brief Introduction to Lignin Structure
+9
+Downloaded from http://books.rsc.org/books/edited-volume/chapter-pdf/1549280/bk9781782625544-00001.pdf by guest on 20 March 2025
+
+1.2.3.3
+Phenylcoumaran Unit (b-5)
+The b-5 structure was found in dioxane–H2O (1 : 1, v/v) hydrolysate.78,79 The
+ring-opened b-5 dimer/trimers were isolated after hydrogenolysis.80 The b-5
+unit was determined to be 0.11/OAr by quantification of phenylcoumarone
+structure by UV-Vis, which was converted from the phenylcoumaran struc-
+ture after acidolysis.81 Based on quantitative analysis of isohemipic acid
+after potassium permanganate oxidation, the amount of b-5 units was also
+estimated to be 0.05 and 0.09–0.12/OAr from birch and spruce lignin,
+respectively.82,83 The solution-state HSQC NMR spectra of whole cell wall
+samples revealed that poplar had fewer b-5 units than pine and that maize
+lignin had no b-5 structures.50
+1.2.3.4
+Biphenyl Unit (5-50)
+The biphenyl structure was confirmed by the isolation of dehydrodivanillin
+from nitrobenzene oxidation products.84 Other biphenyl dimers have been
+also detected in the hydrogenolysis products. The amount of biphenyl was
+estimated to be 0.045, 0.09–0.11, and 0.023/OAr in birch, spruce, and beech,
+respectively, calculated from the amount of the corresponding oxidative
+degradation products.82,83,85
+1.2.3.5
+Dibenzodioxocin (5-50/b-O-4) and Spirodienone
+(b-1/a-O-a) Units
+The dibenzodioxocin structure was discovered in softwood lignin using
+several two-dimensional NMR techniques (HMQC and HOHAHA) by
+Karhunen et.al.86 This structure has also been found in MWL of hardwood in
+low amounts.86,87 Later, using confocal laser-scanning fluorescence micro-
+scopy (CLSM), Kukkola found that dibenzodioxocine was localized in the S3
+layer in Norway spruce and silver birch xylem.88 Spirodienones have also
+been observed with 0.03/OAr abundance in spruce and with 0.018/OAr
+abundance in aspen lignin.89 The unit contains the b-1 structure and
+therefore has been considered as a precursor of b-1 linkage. According to
+studies using 1D and 2D NMR techniques (quantitative 13C, HSQC, HSQC-
+TOCSY, and HMBC), it has been found that the spirodienone structure is the
+predominant form of the b-1 structures present in both softwood and
+hardwood native lignin, and that a spirodienone structure of the guaiacyl
+type exist in spruce lignin and the syringyl type is predominant in kenaf and
+birch lignin at levels of 0.03–0.04/OAr.89,90
+1.2.3.6
+Benzodioxane Unit (C-Lignin)
+Most recently, a catechyl lignin polymer was found in the seed coats of
+both monocot and dicot plants.91,92 This lignin is derived solely from caﬀeyl
+alcohol, which was usually not considered as a monolignol, linked in a linear
+10
+Chapter 1
+Downloaded from http://books.rsc.org/books/edited-volume/chapter-pdf/1549280/bk9781782625544-00001.pdf by guest on 20 March 2025
+
+benzodioxane chain. It has been dubbed ‘‘C-lignin’’ and is observed in
+the
+seed
+coat
+of
+the
+vanilla
+orchid
+with
+high
+concentration.91,92
+5-Hydroxyconiferyl alcohol can also be produced by genetic modification
+of hardwoods that interrupts the formation of sinapyl alcohol. These units
+have been incorporated into angiosperm lignin. Currently, the 5-hydro-
+xyconiferyl alcohol is also considered to form benzodioxane units.93
+1.2.3.7
+Tricin Unit
+Tricin is a flavonoid that exists in wheat, oat bran, sugarcane, and maize. It
+is recognized as a valuable compound due to its antioxidant, antiaging, and
+anticancer properties.94 Recently, the flavonoid tricin has been implicated as
+a monomer in monocot lignin by assignment of unknown spectra on HSQC
+of whole cell wall and MWL of wheat straw95 and other monocots.96,97
+However, the mechanism of incorporation of tricin with lignin and the
+role of tricin remained unclear. Most recently, by comparison of DHP from
+tricin-monolignols with maize stover lignin, substantive findings showed
+that tricin is incorporated into monocot lignins via a free radial coupling
+mechanism, that there is a covalent bond between tricin and the lignin
+polymer through the b-O-4 linkage, and that tricin functions as a nucleation
+site for the growth of the lignin polymer chain in monocots.98 Based on
+these findings, it was found that tricin is the only non-cinnamyl alcohol
+derived from outside of the canonical cinnamyl alcohol biosynthesis path-
+ways. Due to the structural analogy between tricin-lignin oligomer/polymer
+and MWL, they were renamed flavonolignin units.98 The abundance of
+lignin-integrated tricin has also been estimated using thioacidolysis at
+levels of 0.0331 and 0.0327/OAr of lignin in oat straw and wheat straw,
+respectively.99 Using thioacidolysis, it was also revealed that the amount of
+tricin integrated into lignin is much higher than the extractable tricin, in-
+dicating that lignin in cell wall and solubilized waste lignin from biorefinery
+processing have potential to provide the valuable compound tricin.99
+1.2.4
+Lignin Functional Groups
+Lignin has various functional groups such as phenolic hydroxyl, aliphatic
+hydroxyl, benzyl alcohol, noncyclic benzyl ether, carbonyl groups, and
+methoxyl groups. The abundance of these functional groups directly aﬀects
+reactivity of the lignin in various chemical reactions. This section introduces
+the determination methods of main functional groups and their roles.
+1.2.4.1
+Phenolic and Aliphatic Hydroxyl Groups
+Lignin has phenolic and aliphatic hydroxyl groups, with the former playing
+an important role for both lignin biosynthesis100 and degradation re-
+actions.101,102 For instance, phenolic hydroxyl groups are directly related to
+growth of lignin. In the cell wall, phenoxy radicals are generated by
+A Brief Introduction to Lignin Structure
+11
+Downloaded from http://books.rsc.org/books/edited-volume/chapter-pdf/1549280/bk9781782625544-00001.pdf by guest on 20 March 2025
+
+peroxidase from phenolic hydroxyl groups in the three monolignols, and the
+generated radical resonance structures couple with each other randomly to
+create various C–C and C–O–C bonds in lignin.11 In the ‘‘endwise’’ poly-
+merization process, a cinnamyl phenoxy radical abstracts a hydrogen from
+the end of the polymer chain. The newly formed radical then couples with
+another cinnamyl phenoxy radical to increase the chain length. The phenolic
+hydroxyl group also increases by cleavage of the b-O-4 bond in the oxidative
+and base-catalyzed depolymerization of lignin.101,102 In addition, the
+amount of phenolic hydroxyl groups in crude pulp contributes to the degree
+of brightness and stability. Therefore, the phenolic hydroxyl group is an
+important functional group in lignin. On the other hand, aliphatic hydroxyl
+groups on Ca and Cg positions eﬀect catalytic and chemical depolymer-
+ization reactions, especially acidolysis.26
+As reviewed in more detail in Chapter 15, there are several quantitative
+analytical methods for the determination of phenolic hydroxyl groups in
+lignin103 such as UV-vis,24,104 aminolysis,105,106 acetylation/titration,107,108
+acetylation/quantitative
+13C
+NMR,109–111
+and
+periodate
+oxidation24,106
+methods. Based on these methods, the abundance of free phenolic hy-
+droxyl groups was estimated to be 0.1–0.13/OAr and 0.09–0.1/OAr in spruce
+and aspen wood meal, respectively,106 and to be 0.2–0.33/OAr in spruce
+MWL.24,103,105 Quite recently, quantitative 31P NMR methods have been
+developed to estimate individual phenolic hydroxyl groups in P, G, and S
+units in isolated lignins.112–114 These methods can provide information
+on phenolic hydroxyl groups as well as aliphatic hydroxyl group and
+carboxylic acids.
+1.2.4.2
+Benzyl Ether and Benzyl Alcohol Groups
+Benzyl ether and benzyl alcohol groups are critical to chemical reactions in
+lignin since most degradation reactions, including b-O-4 cleavage, start from
+the benzyl position. There are three diﬀerent types of benzyl ethers, the non-
+cyclic benzyl aryl ether, cyclic benzyl aryl ether such as phenylcoumaran and
+pinoresinol structures, and benzyl alkyl ether. The determination of these
+groups is also quite relevant for structural and chemical characterization of
+lignin. The total content of benzyl ether and benzyl alcohol groups in spruce
+MWL was determined to be 0.43/OAr by acid hydrolysis in methanol115 and
+0.33/OAr by NMR.116 The abundance of the benzyl alcohol is also quantified
+by a combination of several chemical methods to be 0.05/OAr with phenolic
+units and 0.15/OAr with non-phenolic units.115–117
+1.2.4.3
+Carbonyl Groups
+There are three diﬀerent types of carbonyl groups on lignin side chains.
+These are conjugated carbonyls of the Ca¼O and cinnamaldehyde (CgHO)
+type and non-conjugated carbonyls of the Cb¼O type (Figure 1.1 (G0, S0),
+Figure 1.2). Other types of carbonyls can be found on the aromatic ring, such
+12
+Chapter 1
+Downloaded from http://books.rsc.org/books/edited-volume/chapter-pdf/1549280/bk9781782625544-00001.pdf by guest on 20 March 2025
+
+as a quinones.118 The total carbonyl content has been determined using
+hydroxylamine hydrochloride at levels of 0.19/OAr in spruce MWL.119 In this
+method, one mole of the carbonyl group reacts with hydroxylamine hydro-
+chloride to quantitatively generate one mole of oxime and hydrochloric acid.
+The generated hydrochloric acid can be determined by titration.118 Alter-
+natively, a combination of the reduction of carbonyl groups with sodium
+borohydride and UV-Vis detection is considered to determine all conjugated
+carbonyl groups.119 By the reduction diﬀerence spectrum in the UV-Vis
+method (Der method), total carbonyl groups in the same spruce MWL is
+estimated to be 0.43/OAr, which is much larger than the value obtained from
+the hydroxylamine hydrochloride method because the calculation of correct
+absorptivity for each carbonyl type for UV-Vis is diﬃcult in the Der method.
+Based on detailed investigations,120,121 the hydroxylamine hydrochloride
+method is currently considered to provide more accurate determination of
+the carbonyl content in lignin.
+1.2.5
+Linkages between Lignin and Polysaccharides
+Lignin is also present as part of the lignin–carbohydrate complex (LCC).
+Several diﬀerent linkages between lignin and polysaccharides have been
+identified (Figure 1.5A–D): (A) benzyl ether, (B) g-ester, (C) conjugate g-ester,
+and (D) phenyl glycoside bond type.122,123 To determine the exact linkage
+positions in both lignin and carbohydrate moieties, various wet chemistry
+techniques such as DDQ oxidation have been applied to extracted
+LCC fractions and MWLs.124–126 It was found that lignin links directly to
+arabinoglucuronoxylan via ester bonds at either benzyl or conjugated ester at
+g positions.127 Recently, spectroscopic methods such as FT-IR, solid-state
+NMR, and solution-state NMR have also been applied to the analysis of LCC
+structure. Especially, combinations of quantitative 13C solution-state NMR
+and 2D NMR techniques are suﬃciently advanced to obtain detailed insights
+into LCC structures.128–130
+The presence of bonds between polysaccharides and hydroxycinnamic
+acids such as p-coumaric acid, ferulic acid, and sinapic acid in the cell wall
+has been proposed.131,132 Based on intensive research into relationships
+among lignin, cellulose, and hemicellulose in the past several decades, it
+was found that ferulic acid residues linked with arabinoxylan via ester
+linkages between carboxylic acid in ferulic acid and primary alcohol at
+C5 position in arabinose group,133 and that ferulic acid also linked to
+lignin monomers through oxidative coupling pathways to form ferulate–
+polysaccharide–lignin complexes via ether bonds (Figure 1.5E and G).134,135
+Another cross-linked structure between ferulates and arabinoxylan via
+diferulate esters might occur (Figure 1.5F).135 These results indicate that
+ferulates could have important roles as initiation or nucleation sites for
+lignification,136,137 a key component of the cross-linked structure between
+lignin and carbohydrates135 and therefore a critical functional group for
+reducing recalcitrance to hydrolysis.138
+A Brief Introduction to Lignin Structure
+13
+Downloaded from http://books.rsc.org/books/edited-volume/chapter-pdf/1549280/bk9781782625544-00001.pdf by guest on 20 March 2025
+
+Figure 1.5
+Possible lignin–carbohydrate structures (A–D); (A) benzyl ether, (B) g-ester, (C) conjugate g-ester, (D) phenyl glycoside type, and
+feruloylated glucuronoarabinoxylan; (E) ferulic acid residue esterified to an arabinose residue, (F) diferulic acid cross-linking
+two arabinoxylan chains, and (G) ferulic acid residue etherified to lignin moiety.
+14
+Chapter 1
+Downloaded from http://books.rsc.org/books/edited-volume/chapter-pdf/1549280/bk9781782625544-00001.pdf by guest on 20 March 2025
+
+1.3
+Scope of This Book
+This book consists of chapters aimed at reviewing the latest breakthroughs
+and challenges in upgrading lignin to biofuels and biochemicals. In as-
+sembling this book, the specific aims were to bring together experts from
+biology, catalysis, engineering, and analytical chemistry to present a com-
+prehensive, interdisciplinary picture of how lignocellulosic biorefineries
+could potentially employ lignin valorization technologies. Specific focus is
+on (i) methods for isolating lignin in the context of the lignocellulosic
+biorefinery, (ii) thermal, chemo-catalytic, and biological methods for lignin
+depolymerization, (iii) chemo-catalytic and biological methods for up-
+grading lignin, (iv) characterization of lignin, and (v) techno-economic and
+life-cycle analysis of integrated processes to utilize lignin in an integrated
+biorefinery. Chapters will specifically focus on the production of fuels and
+chemicals (not materials) from lignin. We also note that an exciting amount
+of in planta lignin modifications has emerged in the past decade, but these
+are not reviewed in this book. For materials from lignin and genetic modi-
+fications to lignin biosynthesis, readers are encouraged to consult many of
+the recent, excellent reviews on these topics.139–143
+Acknowledgements
+RK and GTB acknowledge the U.S. Department of Energy Bioenergy
+Technologies Oﬃce (DOE-BETO) for funding via Contract No. DE-AC36-
+08GO28308 with the National Renewable Energy Laboratory.
+References
+1. M. E. Himmel, S.-Y. Ding, D. K. Johnson, W. S. Adney, M. R. Nimlos,
+J. W. Brady and T. D. Foust, Science, 2007, 315, 804–807.
+2. A. J. Ragauskas, C. K. Williams, B. H. Davison, G. Britovsek, J. Cairney,
+C. A. Eckert, W. J. Frederick, J. P. Hallett, D. J. Leak and C. L. Liotta,
+Science, 2006, 311, 484–489.
+3. W. Boerjan, J. Ralph and M. Baucher, Annu. Rev. Plant Biol., 2003, 54,
+519–546.
+4. N. Mosier, C. Wyman, B. Dale, R. Elander, Y. Lee, M. Holtzapple and
+M. Ladisch, Bioresour. Technol., 2005, 96, 673–686.
+5. C. Li, B. Knierim, C. Manisseri, R. Arora, H. V. Scheller, M. Auer,
+K. P. Vogel, B. A. Simmons and S. Singh, Bioresour. Technol., 2010, 101,
+4900–4906.
+6. C. M. Payne, B. C. Knott, H. B. Mayes, H. Hansson, M. E. Himmel,
+M. Sandgren, J. Ståhlberg and G. T. Beckham, Chem. Rev., 2015, 115,
+1308–1448.
+7. E. A. Bayer, J.-P. Belaich, Y. Shoham and R. Lamed, Annu. Rev. Micro-
+biol., 2004, 58, 521–554.
+A Brief Introduction to Lignin Structure
+15
+Downloaded from http://books.rsc.org/books/edited-volume/chapter-pdf/1549280/bk9781782625544-00001.pdf by guest on 20 March 2025
+
+8. L. R. Lynd, P. J. Weimer, W. H. Van Zyl and I. S. Pretorius, Microbiol.
+Mol. Biol. Rev., 2002, 66, 506–577.
+9. A. J. Ragauskas, G. T. Beckham, M. J. Biddy, R. Chandra, F. Chen,
+M. F. Davis, B. H. Davison, R. A. Dixon, P. Gilna and M. Keller, Science,
+2014, 344, 1246843.
+10. R. Davis, L. Tao, E. C. D. Tan, M. J. Biddy, G. T. Beckham, C. Scarlata,
+J. Jacobson, K. Caﬀerty, J. Ross and J. Lukas, Process Design and Eco-
+nomics for the Conversion of Lignocellulosic Biomass to Hydrocarbons:
+Dilute-Acid and Enzymatic Deconstruction of Biomass to Sugars and Bio-
+logical Conversion of Sugars to Hydrocarbons, Technical Report, NREL,
+2013.
+11. C. W. Dence, Methods in Lignin Chemistry, Springer-Verlag, 1992.
+12. D. V. Evtuguin, C. P. Neto, A. M. Silva, P. M. Domingues, F. M. Amado,
+D. Robert and O. Faix, J. Agric. Food Chem., 2001, 49, 4252–4261.
+13. G. Brunow, Biopolym. Online, 2005.
+14. C. Heitner, D. R. Dimmel and J. A. Schmidt, Lignin and Lignans:
+Advances in Chemistry, CRC Press, 2010.
+15. P. Azadi, O. R. Inderwildi, R. Farnood and D. A. King, Renewable
+Sustainable Energy Rev., 2013, 21, 506–523.
+16. A. Tolbert, H. Akinosho, R. Khunsupat, A. K. Naskar and A. J. Ragauskas,
+Biofuels, Bioprod. Biorefin., 2014, 8, 836–856.
+17. C. W. Dence, Methods in Lignin Chemistry, Springer, 1992, pp. 33–61.
+18. K. Sarkanen and H. Hergert, Lignins: Occurrence, Formation, Structure
+and Reactions, Wiley-Interscience, 1971, pp. 43–94.
+19. K. Fukushima and N. Terashima, Holzforschung, 1991, 45, 87–94.
+20. J. B. Sluiter, R. O. Ruiz, C. J. Scarlata, A. D. Sluiter and D. W. Templeton,
+J. Agric. Food Chem., 2010, 58, 9043–9053.
+21. R. S. Fukushima and R. D. Hatfield, J. Agric. Food Chem., 2001, 49, 3133–
+3139.
+22. Y. Lai and K. V. Sarkanen, Lignins: Occurrence, Formation, Structure and
+Reactions, Wiley-Interscience, 1971, pp. 165–240.
+23. R. El Hage, N. Brosse, L. Chrusciel, C. Sanchez, P. Sannigrahi and
+A. Ragauskas, Polym. Degrad. Stab., 2009, 94, 1632–1638.
+24. H. M. Chang, E. B. Cowling and W. Brown, Holzforschung, 1975, 29,
+153–159.
+25. K. Lundquist, Methods in Lignin Chemistry, Springer, 1992, pp. 242–249.
+26. K. Lundquist, Methods in Lignin Chemistry, Springer, 1992, pp. 289–300.
+27. Y. Pu, B. Hallac and A. J. Ragauskas, Aqueous Pretreatment of Plant
+Biomass for Biological and Chemical Conversion to Fuels and Chemicals,
+2013, DOI: 10.1002/9780470975831.ch18, pp. 369–390.
+28. G. Gellerstedt, Methods in Lignin Chemistry, Springer, 1992, pp. 487–497.
+29. O. Goldschmid, Lignins: Occurrence, Formation, Structure and Reactions,
+1971, Wiley-Interscience, pp. 241–266.
+30. H. L. Hergert, Lignins: Occurrence, Formation, Structure and Reactions,
+1971, Wiley-Interscience, pp. 267–297.
+31. O. Faix, Methods in Lignin Chemistry, Springer, 1992, pp. 83–109.
+16
+Chapter 1
+Downloaded from http://books.rsc.org/books/edited-volume/chapter-pdf/1549280/bk9781782625544-00001.pdf by guest on 20 March 2025
+
+32. R. Atalla, U. Agarwal and J. Bond, Methods in Lignin Chemistry, Springer,
+1992, pp. 162–176.
+33. J. Pepper, P. Baylis and E. Adler, Can. J. Chem., 1959, 37, 1241–1248.
+34. P. J. Deuss, M. Scott, F. Tran, N. J. Westwood, J. G. de Vries and K. Barta,
+J. Am. Chem. Soc., 2015.
+35. C. Rolando, B. Monties and C. Lapierre, Methods in Lignin Chemistry,
+Springer, 1992, pp. 334–349.
+36. F. Lu and J. Ralph, J. Agric. Food Chem., 1997, 45, 2590–2592.
+37. F. Lu and J. Ralph, J. Agric. Food Chem., 1997, 45, 4655–4660.
+38. F. Lu and J. Ralph, J. Agric. Food Chem., 1998, 46, 547–552.
+39. J. Ralph and F. Lu, J. Agric. Food Chem., 1998, 46, 4616–4619.
+40. C.-L. Chen, Methods in Lignin Chemistry, Springer, 1992, pp. 301–321.
+41. A. Sakakibara, Methods in Lignin Chemistry, Springer, 1992, pp. 350–368.
+42. K. M. Torr, D. J. van de Pas, E. Cazeils and I. D. Suckling, Bioresour.
+Technol., 2011, 102, 7608–7611.
+43. Q. Song, F. Wang, J. Cai, Y. Wang, J. Zhang, W. Yu and J. Xu, Energy
+Environ. Sci., 2013, 6, 994–1007.
+44. K. Sarkanen, A. Islam and C. Anderson, Methods in Lignin Chemistry,
+Springer, 1992, pp. 387–406.
+45. J. Quesada, M. Rubio and D. Go´mez, J. Wood Chem. Technol., 1999, 19,
+115–137.
+46. G. Gellerstedt, Methods in Lignin Chemistry, Springer, 1992, pp. 322–333.
+47. M. Funaoka and I. Abe, J. Jpn. Wood Res. Soc., 1978.
+48. M. Funaoka and I. Abe, On the formation of catechol from MWL,
+dioxane
+lignin
+and
+kraft
+lignin,
+Mokuzai
+Gakkaishi,
+1978,
+24,
+256–261.
+49. M. Funaoka and I. Abe, Wood Sci. Technol., 1987, 21, 261–279.
+50. S. D. Mansfield, H. Kim, F. Lu and J. Ralph, Nat. Protoc., 2012, 7, 1579–
+1589.
+51. K. Lundquist and K. Stern, Nord. Pulp Pap. Res. J., 1989, 4, 210–213.
+52. C. Lapierre, B. Pollet, J. J. MacKay and R. R. Sederoﬀ, J. Agric. Food
+Chem., 2000, 48, 2326–2331.
+53. J. Ralph, H. Kim, J. Peng and F. Lu, Org. Lett., 1999, 1, 323–326.
+54. H. Nimz, Chem. Ber., 1965, 98, 3153–3159.
+55. J. Ralph, J. Nat. Prod., 1996, 59, 341–342.
+56. J. Ralph, R. D. Hatfield, S. Quideau, R. F. Helm, J. H. Grabber and
+H.-J. G. Jung, J. Am. Chem. Soc., 1994, 8, 29.
+57. D. C. Smith, J. Chem. Soc., 1955, 2347–2351.
+58. L. L. Landucci, G. C. Deka and D. Roy, Holzforschung, 1992, 46, 505–512.
+59. H. Meyermans, K. Morreel, C. Lapierre, B. Pollet, A. De Bruyn,
+R. Busson, P. Herdewijn, B. Devreese, J. Van Beeumen and J. M. Marita,
+J. Biol. Chem., 2000, 275, 36899–36909.
+60. J. Nakano, A. Ishizu and N. Migata, Tappi, 1961, 44, 30–32.
+61. R. Sun, J. Fang and J. Tomkinson, J. Wood Chem. Technol., 1999, 19,
+335–356.
+62. S. Li and K. Lundquist, Nord. Pulp Pap. Res. J., 2001, 16, 63–67.
+A Brief Introduction to Lignin Structure
+17
+Downloaded from http://books.rsc.org/books/edited-volume/chapter-pdf/1549280/bk9781782625544-00001.pdf by guest on 20 March 2025
+
+63. F. Lu, J. Ralph, K. Morreel, E. Messens and W. Boerjan, Org. Biomol.
+Chem., 2004, 2, 2888–2890.
+64. F. Lu, S. D. Karlen, M. Regner, H. Kim, S. A. Ralph, R.-C. Sun,
+K.-I. Kuroda, M. A. Augustin, R. Mawson and H. Sabarez, BioEnergy Res.,
+2015, 8, 934–952.
+65. J. Ralph, K. Lundquist, G. Brunow, F. Lu, H. Kim, P. F. Schatz,
+J. M. Marita, R. D. Hatfield, S. A. Ralph and J. H. Christensen,
+Phytochem. Rev., 2004, 3, 29–60.
+66. D. L. Petrik, S. D. Karlen, C. L. Cass, D. Padmakshan, F. Lu, S. Liu,
+P. Bris, S. Antelme, N. Santoro and C. G. Wilkerson, Plant J., 2014, 77,
+713–726.
+67. C. Wilkerson, S. Mansfield, F. Lu, S. Withers, J.-Y. Park, S. Karlen,
+E. Gonzales-Vigil, D. Padmakshan, F. Unda and J. Rencoret, Science,
+2014, 344, 90–93.
+68. F. S. Chakar and A. J. Ragauskas, Ind. Crops Prod., 2004, 20,
+131–141.
+69. N.-E. El Mansouri and J. Salvado´, Ind. Crops Prod., 2007, 26, 116–124.
+70. Y. Pu, D. Zhang, P. M. Singh and A. J. Ragauskas, Biofuels, Bioprod.
+Biorefin., 2008, 2, 58–73.
+71. J. Zakzeski, P. C. Bruijnincx, A. L. Jongerius and B. M. Weckhuysen,
+Chem. Rev., 2010, 110, 3552–3599.
+72. E. Adler, J. Pepper and E. Eriksoo, Ind. Eng. Chem., 1957, 49, 1391–1392.
+73. H. Kim and J. Ralph, Org. Biomol. Chem., 2010, 8, 576–591.
+74. K. Freudenberg, C.-L. Chen, J. Harkin, H. Nimz and H. Renner, Chem.
+Commun., 1965, 224–225.
+75. H. Nimz and H. Gaber, Chem. Ber., 1965, 98, 538–539.
+76. A. S. Shigetoshi Omori, Mokuzai Gakkaishi, 1971, 17, 464–467.
+77. A. S. Kenichi Suto, Mokuzai Gakkaishi, 1973, 19, 165–169.
+78. H. Nimz, I. Mogharab and H. D. Lu¨demann, Die Makromolekulare
+Chemie, 1974, 175, 2563–2575.
+79. J. C. Pew and W. J. Connors, Nature, 1967, 215, 623–625.
+80. S. Yasuda and A. Sakakibara, J. Jpn. Wood Res. Soc., 1975.
+81. E. Adler, S. Delin and K. Lundquist, Acta Chem. Scand., 1959, 13, 2149–
+2150.
+82. M. Erickson, S. Larsson and G. E. Miksche, Acta Chem. Scand., 1973, 27,
+903–914.
+83. S. Larsson and G. E. Miksche, Acta Chem. Scand., 1971, 25, 647–662.
+84. J. C. Pew, J. Am. Chem. Soc., 1955, 77, 2831–2833.
+85. H. Nimz, Angew. Chem., Int. Ed. Engl., 1974, 13, 313–321.
+86. P. Karhunen, P. Rummakko, J. Sipila¨, G. Brunow and I. Kilpela¨inen,
+Tetrahedron Lett., 1995, 36, 169–170.
+87. G. Brunow, I. Kilpela¨inen, J. Sipila¨, K. Syrja¨nen, P. Karhunen, H. Seta¨la¨
+and P. Rummakko, Am. Chem. Soc. Symp. Ser., 1998, 697, 131–147.
+88. E.
+M.
+Kukkola,
+S.
+Koutaniemi,
+E.
+Po¨lla¨nen,
+M.
+Gustafsson,
+P. Karhunen, T. K. Lundell, P. Saranpa¨a¨, I. Kilpela¨inen, T. H. Teeri and
+K. V. Fagerstedt, Planta, 2004, 218, 497–500.
+18
+Chapter 1
+Downloaded from http://books.rsc.org/books/edited-volume/chapter-pdf/1549280/bk9781782625544-00001.pdf by guest on 20 March 2025
+
+89. L. Zhang and G. Gellerstedt, Chem. Commun., 2001, 2744–2745.
+90. L. Zhang, G. Gellerstedt, J. Ralph and F. Lu, J. Wood Chem. Technol.,
+2006, 26, 65–79.
+91. F. Chen, Y. Tobimatsu, D. Havkin-Frenkel, R. A. Dixon and J. Ralph,
+Proc. Natl. Acad. Sci. U. S. A., 2012, 109, 1772–1777.
+92. F. Chen, Y. Tobimatsu, L. Jackson, J. Nakashima, J. Ralph and
+R. A. Dixon, Plant J., 2013, 73, 201–211.
+93. J. Ralph, C. Lapierre, F. Lu, J. M. Marita, G. Pilate, J. Van Doorsselaere,
+W. Boerjan and L. Jouanin, J. Agric. Food Chem., 2001, 49, 86–91.
+94. Y. Ogo, K. Ozawa, T. Ishimaru, T. Murayama and F. Takaiwa, Plant
+Biotechnol. J., 2013, 11, 734–746.
+95. J. C. Del Rı´o, J. Rencoret, P. Prinsen, A. T. Martı´nez, J. Ralph and
+A. Gutie´rrez, J. Agric. Food Chem., 2012, 60, 5922–5935.
+96. T. T. You, J. Z. Mao, T. Q. Yuan, J. L. Wen and F. Xu, J. Agric. Food Chem.,
+2013, 61, 5361–5370.
+97. J. Rencoret, J. Ralph, G. Marques, A. Gutie´rrez, A. T. Martı´nez and
+J. C. Del Rı´o, J. Agric. Food Chem., 2013, 61, 2434–2445.
+98. W. Lan, F. Lu, M. Regner, Y. Zhu, J. Rencoret, S. A. Ralph, U. I. Zakai,
+K. Morreel, W. Boerjan and J. Ralph, Plant Physiol., 2015, 167, 1284–
+1295.
+99. W. Lan, J. Rencoret, F. Lu, S. D. Karlen, B. G. Smith, P. J. Harris,
+J. C. del Rı´o and J. Ralph, Plant J., 2016, 88, 1046–1057.
+100. C. L. Chen and W. J. Conners, J. Org. Chem., 1974, 39, 3877–3880.
+101. J. Gierer, Wood Sci. Technol., 1985, 19, 289–312.
+102. J. Gierer, Wood Sci. Technol., 1986, 20, 1–33.
+103. Y.-Z. Lai, Methods in Lignin Chemistry, Springer, 1992, pp. 423–434.
+104. O. Goldschmid, Anal. Chem., 1954, 26, 1421–1423.
+105. P. Mansson, Holzforschung, 1983, 37, 143–146.
+106. Y. Z. Lai, X. P. Guo and W. Situ, J. Wood Chem. Technol., 1990, 10,
+365–377.
+107. J. P. Butler and T. P. Czepiel, Anal. Chem., 1956, 28, 1468–1472.
+108. H. Pobiner, Anal. Chim. Acta, 1983, 155, 57–65.
+109. L. L. Landucci, Holzforschung, 1985, 39, 355–360.
+110. D. R. Robert and G. Brunow, Holzforschung, 1984, 38, 85–90.
+111. D. Robert, Methods in Lignin Chemistry, Springer, 1992, pp. 250–273.
+112. D. S. Argyropoulos, J. Wood Chem. Technol., 1994, 14, 45–63.
+113. D. S. Argyropoulos and H. I. Bolker, Holzforschung, 1993, 47, 50–56.
+114. S. I. Tohmura and D. S. Argyropoulos, J. Agric. Food Chem., 2001, 49,
+536–542.
+115. E. Adler and J. Gierer, The alkylation of lignin with alcoholic hydro-
+chloric acid, Acta Chem. Scand., 1955, 9, 84–93.
+116. C. H. Ludwig, B. J. Nist and J. L. McCarthy, J. Am. Chem. Soc., 1964, 86,
+1186–1196.
+117. H. Becker and E. Adler, Acta Chem. Scand., 1961, 15, 218.
+118. C.-L. Chen, Methods in Lignin Chemistry, Springer, 1992, pp. 446–457.
+119. E. Adler and J. Marton, Acta Chem. Scand., 1959, 13, 75–96.
+A Brief Introduction to Lignin Structure
+19
+Downloaded from http://books.rsc.org/books/edited-volume/chapter-pdf/1549280/bk9781782625544-00001.pdf by guest on 20 March 2025
+
+120. I. Mild, Acta Chem. Scand., 1961, 15, 370–383.
+121. J. Marton, E. Adler and K.-I. Persson, Acta Chem. Scand., 1961, 75,
+384–392.
+122. M. Balakshin, E. Capanema, H. Gracz, H.-M. Chang and H. Jameel,
+Planta, 2011, 233, 1097–1110.
+123. T. Koshijima and T. Watanabe, Association between Lignin and Carbo-
+hydrates in Wood and Other Plant Tissues, Springer Science & Business
+Media, 2013.
+124. O. Eriksson, D. A. I. Goring and B. O. Lindgren, Wood Sci. Technol.,
+1980, 14, 267–279.
+125. J. R. Obst, Tappi, 1982, 65, 109–112.
+126. T. Watanabe, Wood Res., 1989.
+127. T. Watanabe and T. Koshijima, Agric. Biol. Chem., 1988, 52, 2953–2955.
+128. T.-Q. Yuan, S.-N. Sun, F. Xu and R.-C. Sun, J. Agric. Food Chem., 2011,
+59, 10604–10614.
+129. L. Zhang and G. Gellerstedt, Magn. Reson. Chem., 2007, 45, 37–45.
+130. T.-T. You, L.-M. Zhang, S.-K. Zhou and F. Xu, Ind. Crops Prod., 2015, 71,
+65–74.
+131. C. T. Brett, G. Wende, A. C. Smith and K. W. Waldron, J. Sci. Food Agric.,
+1999, 79, 421–424.
+132. M. Bunzel, J. Ralph, H. Kim, F. Lu, S. A. Ralph, J. M. Marita,
+R. D. Hatfield and H. Steinhart, J. Agric. Food Chem., 2003, 51, 1427–
+1434.
+133. J. Ralph and R. F. Helm, Forage Cell Wall Structure and Digestibility,
+1993, ch. 9, p. 201.
+134. T. Kondo, K. Mizuno and T. Kato, Can. J. Plant Sci., 1990, 70, 495–499.
+135. M. D. O. Marcia, Mol. Plant, 2009, 2, 861–872.
+136. K. Iiyama, T. B. T. Lam and B. A. Stone, Plant Physiol., 1994, 104, 315–
+320.
+137. B. Bartolome, C. B. Faulds, P. A. Kroon, K. Waldron, H. J. Gilbert,
+G. Hazlewood and G. Williamson, Appl. Environ. Microbiol., 1997, 63,
+208–212.
+138. D. M. Oliveira, A. Finger-Teixeira, T. Rodrigues Mota, V. H. Salvador,
+F. C. Moreira-Vilar, H. B. Correa Molinari, C. Mitchell, R. Andrew,
+R. Marchiosi and O. Ferrarese-Filho, Plant Biotechnol. J., 2015, 13, 1224–
+1232.
+139. R. Vanholme, K. Morreel, J. Ralph and W. Boerjan, Curr. Opin. Plant
+Biol., 2008, 11, 278–285.
+140. N. D. Bonawitz and C. Chapple, Curr. Opin. Biotechnol., 2013, 24, 336–
+343.
+141. R. Rinaldi, R. Jastrzebski, M. T. Clough, J. Ralph, M. Kennema,
+P. C. Bruijnincx and B. M. Weckhuysen, Angew. Chem., Int. Ed., 2016,
+55, 8164–8215.
+142. A. Duval and M. Lawoko, React. Funct. Polym., 2014, 85, 78–96.
+143. B. M. Upton and A. M. Kasko, Chem. Rev., 2016, 116, 2275–2306.
+20
+Chapter 1
+Downloaded from http://books.rsc.org/books/edited-volume/chapter-pdf/1549280/bk9781782625544-00001.pdf by guest on 20 March 2025

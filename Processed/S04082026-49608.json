@@ -1,0 +1,232 @@
+{
+  "schema_version": 1,
+  "status": "UNRESOLVED",
+  "product_key": null,
+  "report_number": "S04082026-49608",
+  "test_date": "2026-04-27",
+  "sample_name": "Hacienda Cincinati",
+  "lot_or_po": "Colombia P014",
+  "supersedes": null,
+  "superseded_by": null,
+  "lab": "Trilogy Analytical Laboratories",
+  "serving_size_g": null,
+  "source_file": "/home/runner/work/Purity-Research-Database/Purity-Research-Database/COAs/49608.pdf",
+  "source_hash": "9c9598cf36f8c8dd",
+  "parse_confidence": 1.0,
+  "parse_notes": [
+    "pages=1 tables=0",
+    "trilogy_rows=19"
+  ],
+  "analytes": [
+    {
+      "analyte": "15-Acetyl Deoxynivalenol",
+      "panel": "other",
+      "value_normalized": 0.1,
+      "unit_normalized": "ppm",
+      "value_as_reported": "<0.1",
+      "unit_as_reported": "ppm",
+      "method": "LC-MS/MS",
+      "loq": "0.1",
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "3-Acetyl Deoxynivalenol",
+      "panel": "other",
+      "value_normalized": 0.1,
+      "unit_normalized": "ppm",
+      "value_as_reported": "<0.1",
+      "unit_as_reported": "ppm",
+      "method": "LC-MS/MS",
+      "loq": "0.1",
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Aflatoxin B1",
+      "panel": "mycotoxins",
+      "value_normalized": 1.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<1",
+      "unit_as_reported": "ppb",
+      "method": "LC-MS/MS",
+      "loq": "1",
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Aflatoxin B2",
+      "panel": "mycotoxins",
+      "value_normalized": 1.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<1",
+      "unit_as_reported": "ppb",
+      "method": "LC-MS/MS",
+      "loq": "1",
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Aflatoxin G1",
+      "panel": "mycotoxins",
+      "value_normalized": 1.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<1",
+      "unit_as_reported": "ppb",
+      "method": "LC-MS/MS",
+      "loq": "1",
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Aflatoxin G2",
+      "panel": "mycotoxins",
+      "value_normalized": 1.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<1",
+      "unit_as_reported": "ppb",
+      "method": "LC-MS/MS",
+      "loq": "1",
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Citrinin",
+      "panel": "other",
+      "value_normalized": 50.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<50",
+      "unit_as_reported": "ppb",
+      "method": "LC-MS/MS",
+      "loq": "50",
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Diacetoxyscirpenol",
+      "panel": "other",
+      "value_normalized": 100.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<100",
+      "unit_as_reported": "ppb",
+      "method": "LC-MS/MS",
+      "loq": "100",
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Deoxynivalenol",
+      "panel": "other",
+      "value_normalized": 0.1,
+      "unit_normalized": "ppm",
+      "value_as_reported": "<0.1",
+      "unit_as_reported": "ppm",
+      "method": "LC-MS/MS",
+      "loq": "0.1",
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Fumonisin B1",
+      "panel": "other",
+      "value_normalized": 0.1,
+      "unit_normalized": "ppm",
+      "value_as_reported": "<0.1",
+      "unit_as_reported": "ppm",
+      "method": "LC-MS/MS",
+      "loq": "0.1",
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Fumonisin B2",
+      "panel": "other",
+      "value_normalized": 0.1,
+      "unit_normalized": "ppm",
+      "value_as_reported": "<0.1",
+      "unit_as_reported": "ppm",
+      "method": "LC-MS/MS",
+      "loq": "0.1",
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Fumonisin B3",
+      "panel": "other",
+      "value_normalized": 0.1,
+      "unit_normalized": "ppm",
+      "value_as_reported": "<0.1",
+      "unit_as_reported": "ppm",
+      "method": "LC-MS/MS",
+      "loq": "0.1",
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Fusarenon-X",
+      "panel": "other",
+      "value_normalized": 0.5,
+      "unit_normalized": "ppm",
+      "value_as_reported": "<0.5",
+      "unit_as_reported": "ppm",
+      "method": "LC-MS/MS",
+      "loq": "0.5",
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Neosolaniol",
+      "panel": "other",
+      "value_normalized": 20.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<20",
+      "unit_as_reported": "ppb",
+      "method": "LC-MS/MS",
+      "loq": "20",
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Nivalenol",
+      "panel": "other",
+      "value_normalized": 0.5,
+      "unit_normalized": "ppm",
+      "value_as_reported": "<0.5",
+      "unit_as_reported": "ppm",
+      "method": "LC-MS/MS",
+      "loq": "0.5",
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Ochratoxin A",
+      "panel": "mycotoxins",
+      "value_normalized": 1.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<1",
+      "unit_as_reported": "ppb",
+      "method": "LC-MS/MS",
+      "loq": "1",
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Zearalenone",
+      "panel": "other",
+      "value_normalized": 12.5,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<12.5",
+      "unit_as_reported": "ppb",
+      "method": "LC-MS/MS",
+      "loq": "12.5",
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "T-2 Toxin",
+      "panel": "other",
+      "value_normalized": 5.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<5",
+      "unit_as_reported": "ppb",
+      "method": "LC-MS/MS",
+      "loq": "5",
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "HT-2 Toxin",
+      "panel": "other",
+      "value_normalized": 5.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<5",
+      "unit_as_reported": "ppb",
+      "method": "LC-MS/MS",
+      "loq": "5",
+      "retest_sequence": 0
+    }
+  ],
+  "ingested_at": "2026-05-31T16:47:31+00:00"
+}

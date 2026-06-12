@@ -1,0 +1,914 @@
+Physicochemical characterization of coffee pulp-derived biochar and its 
+effects on soil abiotic and biotic properties
+Piyaphad Ninlaphong a, Kesinee Iamsaard b
+, Sasiprapa Kullachonphuri a
+,  
+Phonlawat Soilueang a, Yupa Chromkaew a, Metinee Nakdee a,c
+, Toungporn Uttarotai d,  
+Yaoliang Chen e, Nuttapon Khongdee d,*
+a Department of Plant and Soil Science, Faculty of Agriculture, Chiang Mai University, Chiang Mai 50200, Thailand
+b Department of Natural Resources and Environment, Faculty of Agriculture, Natural Resources and Environment, Naresuan University, 65000, Thailand
+c Faculty of Science and Agricultural Technology, Rajamangala University of Technology Lanna, Lampang 52000, Thailand
+d Department of Highland Agriculture and Natural Resources, Faculty of Agriculture, Chiang Mai University, Chiang Mai 50200, Thailand
+e School of Geographical Sciences, Fujian Normal University, Fuzhou 350117, China
+A R T I C L E  I N F O
+Keywords:
+Agricultural waste
+Coffee biochar
+Microbial populations
+Soil properties
+A B S T R A C T
+Coffee processing waste, particularly coffee pulp, has been accumulating at increasing rates, resulting in sub­
+stantial environmental concerns. Unfortunately, comprehensive documentation of effective waste management 
+approaches is still lacking. Therefore, this study aims to assess the effectiveness of coffee pulp-derived biochar on 
+agricultural soil health by examining its influence on several soil parameters, including nutrient content, 
+physicochemical properties, and microbial activity. The experimental design was a Completely Randomized 
+Design, consisting of five treatments. The approaches entailed incorporating coffee pulp-derived biochar into soil 
+at proportions of 0, 2.50, 3.75, 5.00, and 7.50 % of the soil’s weight. The characterization of biochar was 
+analyzed by scanning electron microscope (SEM), Energy Dispersive X-Ray Spectroscopy (EDS), and Fourier- 
+transform infrared spectroscopy (FTIR). Results showed the coffee pulp biochar contains various pore’s struc­
+ture and high spectra of –C–O stretching functional group. High carbon (C) content (66.60 %) and abundance of 
+exchangeable K were detected in as-made biochar. The analysis of basic soil nutrients after treatment with coffee 
+biochar revealed statistically significant differences (P ≤0.05) in available P exchangeable K, exchangeable Mg 
+(highest at 7.5 %), exchangeable Ca (highest at 5 %), and %SOM (increased at 3.75 %). Notably, soil microbial 
+respiration (SMR) and dissolved organic carbon (DOC) increased proportionally with the percentage of coffee 
+biochar used. Conversely, microbial biomass carbon (MBC) decreased as the dosage of coffee biochar increased. 
+Microbial analysis revealed reduced fungal counts (max 68 % at 5 % biochar) and increased cellulase-producing 
+(39 %) and phosphate-solubilizing (14 %) microorganisms at 2.5 % biochar compared to control. The correlation 
+matrix has evidenced significant exchangeable K content in coffee pulp biochar demonstrating the positive 
+correlation with soil biological improvement. Coffee pulp biochar produced from traditional kiln considerably 
+enhances soil characteristics and modifies microbial populations.
+1. Introduction
+Improperly processed agricultural waste would not only result in 
+significant loss of renewable resources but also present major environ­
+mental risks, such as increased emissions of greenhouse gases (GHGs), 
+water pollution, and land degradation (Xu et al., 2024). The World 
+Health Organization states that 21 % of GHGs are caused by the ongoing 
+burning of agricultural waste (Singh and Jadeja, 2024). Therefore, the 
+above-mentioned problem needs to be concentrated for reducing the 
+gaining of the GHGs emission from agricultural waste burning. In this 
+case, coffee waste is one of the current issues that need to be considered. 
+This is due to the increasing global demand for coffee resulting the huge 
+waste generating annually. Normally, coffee pulp is often disposed of in 
+landfills, leading to significant environmental and health issues. Coffee 
+pulp refers to the solid debris that is mostly produced during the wet 
+processing of arabica coffee cherries. It accounts for approximately 50 % 
+* Corresponding author.
+E-mail address: nuttapon.k@cmu.ac.th (N. Khongdee). 
+Contents lists available at ScienceDirect
+Cleaner Waste Systems
+journal homepage: www.journals.elsevier.com/cleaner-waste-systems
+https://doi.org/10.1016/j.clwas.2025.100341
+Received 16 February 2025; Received in revised form 29 June 2025; Accepted 29 June 2025  
+Cleaner Waste Systems 12 (2025) 100341 
+Available online 1 July 2025 
+2772-9125/© 2025 The Author(s). Published by Elsevier Ltd. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ ). 
+
+of the total amount of the mature fruit (Ameca et al., 2018). Presently, 
+worldwide coffee consumption has been rising at an average pace above 
+2 % per annum during the past decade (Quadra et al., 2020). The Thai 
+coffee business shown development from 2016 to 2020. The annual 
+average demand for coffee beans in Thailand is around 79,000 tons 
+(Soilueang et al., 2023). In the coffee processing, biological losses are 
+estimated at 40–45 %, encompassing pulp, husk, parchment, silver skin, 
+and wasted coffee grounds (Esquivel and Jimenez, 2012). Coffee pulp 
+constitutes up to 29 % of the total dry weight, resulting in waste disposal 
+that contributes to environmental contamination and incurs substantial 
+management costs (Aristiz´abal-Marulanda et al., 2017). Improper 
+decomposition of coffee pulp results in the release of carbon dioxide 
+(CO2), nitrates (NO3
+- ), sulfates (SO4
+2-), and phosphates (PO4
+3-), which 
+might potentially pollute surface water. Coffee pulp contains significant 
+amounts of carbon-rich compounds like cellulose, hemicellulose, lignin, 
+proteins, and sugars. When these decompose properly through 
+controlled composting, much of this C can be incorporated into stable 
+soil organic matter. Improper management shifts the balance toward 
+atmospheric 
+carbon 
+release 
+instead 
+of 
+carbon 
+sequestration 
+(Pongsiriyakul et al., 2024). To mitigate the environmental impact and 
+alleviate waste management challenges, researchers have developed 
+methods to extract and valorize bioactive compounds from coffee pulp, 
+including polyphenols, caffeine, and pectin, which have potential ap­
+plications in food, pharmaceutical, and cosmetic industries (Hu et al., 
+2023; Manasa et al., 2021).
+A method to leverage agricultural waste is through value addition. It 
+has recently been utilized to manufacture diverse materials intended to 
+address environmental issues. Biochar produced from agricultural waste 
+has been extensively researched over the past decade owing to its 
+distinctive features and performance efficiency. Biochar has been 
+extensively utilized to enhance soil quality. Utilizing biochar in soil 
+represents an innovative approach to repurpose agricultural waste. 
+Biochar is an affordable and eco-friendly material that enhances agri­
+cultural productivity and mitigates soil contamination (Oni et al., 2019; 
+Khan et al., 2024). In China, soil amendment with biochar by pyrolyzing 
+wheat straw increased rice yields by 12–14 % (Zhang et al., 2010). 
+Moreover, biochar application has been shown to increase microbial 
+abundance and diversity, improve water retention and air circulation, 
+enhance soil structure and aggregation, promote plant growth and root 
+development, stimulate the production of beneficial soil enzymes and 
+metabolites. These effects are primarily attributed to biochar’s high 
+surface area, porous structure, and capacity to adsorb and retain nutri­
+ents (de Jesus Duarte et al., 2019; Głąb et al., 2016; Lyu et al., 2022). In 
+terms of the environment, biochar may reduce the absorption of toxic 
+elements such as various heavy metals, contaminated soil, and toxic 
+compounds (Herath et al., 2013; Iamsaard et al., 2022; Khan et al., 2014; 
+Lehmann, 2007).
+The utilization of coffee pulp biochar has been linked to elevated soil 
+pH and reduced soil EC. This is essential for enhancing the growing 
+conditions for crops, especially in saline-alkali soils. Biochar treatments 
+have shown a decrease in soil salinity and pH levels, hence improving 
+nutrient availability and facilitating enhanced root growth (Zuo et al., 
+2022). While, previous study reported that coffee pulp biochar enhances 
+the availability of vital nutrients, including P, K, and N in the soil (Gu 
+et al., 2023). In addition, biochar serves as a phosphorus supply and 
+modifies its solubility via pH alterations, thereby improving nutrient 
+absorption by plants (Huang et al., 2023). Studies demonstrate that 
+using coffee pulp biochar can improve nutrient cycling and availability, 
+essential for plant development. It has been demonstrated to enhance 
+the physical, chemical, and biological properties of soils utilized for 
+coffee growth (S´anchez-Reinoso et al., 2023). Research indicates that 
+5 % application of coffee pulp biochar can markedly decrease water 
+evaporation and enhance penetration rates in soils, resulting in 
+improved moisture availability and increased plant biomass, including 
+both root and shoot development in maize (Alghamdi et al., 2024). 
+Biochar generated from coffee pulp enhances soil structure by 
+augmenting porosity and water retention. For example, the application 
+of 5 % coffee biochar decreased water evaporation by 57–66 % and 
+enhanced water retention by 101–130 % in loamy sand soil (Alghamdi 
+et al., 2024). For soil biological properties, the integration of coffee husk 
+biochar into soil has been associated with enhanced microbial biomass 
+and activity. Studies indicate that microbial biomass carbon can sub­
+stantially increase with elevated applications of coffee biochar, creating 
+a conducive habitat for beneficial microbial populations. This augmen­
+tation is ascribed to the porous architecture of biochar, which provides 
+environments for microorganisms and amplifies their metabolic func­
+tions (Pouangam Ngalani et al., 2023). Whereas, the fast decomposition 
+of coffee pulp by microbes depletes nutrients such as N during organic 
+matter degradation, resulting in temporary immobilization. Research 
+indicates that microbial fermentation during pulp breakdown modifies 
+nutrient dynamics, diminishing immediate plant availability (Juliastuti 
+et al., 2018). Although, the examination of agricultural by-products, 
+including coffee waste, has lately become significant for enhancing 
+soil conditions worldwide (S´anchez-Reinoso et al., 2023). Nevertheless, 
+research on the impact of local waste derived biochar on the changes of 
+soil characteristic and their application rate in coffee plantation area 
+remains limited. In addition, the absence of a comprehensive investi­
+gation of the sustainable coffee pulp biochar production chain in the 
+local region has been encountered.
+While biochar derived from agricultural waste shows promise for soil 
+amendment, current research has not yet definitively established 
+optimal applications for specific feedstocks to consistently improve soil 
+quality and agricultural outcomes. Coffee processing residues, particu­
+larly coffee pulp, represent a significant agricultural waste stream in 
+highland regions of northern Thailand. These areas present unique 
+waste management challenges due to limited accessibility and trans­
+portation infrastructure. The strategic importance of highland areas, 
+often situated in watershed headwaters, underscores the need for 
+effective coffee pulp management. We hypothesized that coffee pulp 
+biochar would serve as an option for recycling local waste and enhance 
+soil quality, hence benefiting the sustainable coffee production chain in 
+the studied area. Moreover, this study utilizes coffee pulp-derived bio­
+char from traditional kiln method. Several methods are currently used to 
+produce biochar, including traditional kiln and modern techniques. 
+Traditional kiln methods offer remarkable accessibility to smallholder 
+farmers and communities with limited resources, providing a more 
+democratized approach to soil amendment compared to industrial sys­
+tems that require substantial capital investment (Jeffery et al., 2015). 
+While modern gasification systems achieve higher efficiency, traditional 
+techniques leverage locally available materials and indigenous knowl­
+edge, creating culturally appropriate solutions that modern technologies 
+often fail to incorporate (Lehmann and Joseph, 2015). The simplicity of 
+traditional kilns provides exceptional resilience against technical fail­
+ures unlike automated systems that require specialized maintenance, 
+eliminating dependency on complex machinery or external energy 
+sources in remote regions (Cornelissen et al., 2016). Although contin­
+uous reactors produce more consistent biochar, traditional methods 
+create valuable employment opportunities and preserve cultural heri­
+tage while contributing to climate change mitigation, aspects typically 
+overlooked in efficiency-focused modern approaches (Glaser et al., 
+2015). Research by Maˇsek et al. (2013) demonstrates that when prop­
+erly managed, traditional kilns can produce biochar with beneficial 
+properties comparable to more sophisticated methods but with signifi­
+cantly lower investment costs, making them particularly appropriate for 
+developing regions where modern pyrolysis infrastructure is unattain­
+able. Therefore, the primary objectives of this study were (i) to char­
+acterize the physicochemical properties of coffee pulp derived biochar 
+produced from traditional kiln method, (ii) to investigate the efficiency 
+of coffee pulp biochar application for enhancing soil physicochemical 
+and biological properties. This study would demonstrate the potential of 
+biochar derived from local waste in coffee producing regions. The sub­
+sequent use of as-made biochar would be mainly focused on the 
+P. Ninlaphong et al.                                                                                                                                                                                                                            
+Cleaner Waste Systems 12 (2025) 100341 
+2 
+
+cultivation of coffee cultivation system. The physicochemical and bio­
+logical properties of the soil were examined to explore the potential 
+practical application rate of biochar in the local farm.
+2. Materials and methods
+2.1. Site description and experimental design
+The experiment was conducted in a greenhouse at Faculty of Agri­
+culture, Chiang Mai University, Thailand (18◦76′42′′N, 98◦93′68′′E). The 
+experiment commenced in the cold and dry seasons, spanning from 
+October 2023 to April 2024. The experimental design was a completely 
+randomized design (CRD) comprising 5 treatments with 3 replications. 
+The treatments involved mixing coffee pulp biochar into soil at rates of 
+0, 2.50, 3.75, 5.00, and 7.50 % of soil weight (5 kg), referred to as B0, 
+B2.5, B3.75, B5, and B7.5, respectively, following the preliminary trial. 
+The soil samples were incubated with different application rates of 
+biochar, with each pot receiving daily irrigation of 50 mL. The pots used 
+in this study were 8 in. in diameter. Three replicates were collected for 
+each soil sample. Soil physicochemical and biological properties were 
+analyzed at 55 days (first day after soil incubation) and 98 days (ends of 
+the experiment). Soil physicochemical properties were assessed in trip­
+licate, while biological properties were analyzed once. The overall 
+research workflow is shown in Fig. 1.
+2.2. Raw material for biochar production
+Coffee pulp was collected from the Highland Agricultural Research 
+Station, Faculty of Agriculture, Chiang Mai University, Thailand 
+(Fig. 2a). Prior to biochar production, the coffee pulp underwent pre­
+treatment via sun-drying. The desiccated coffee pulp was subsequently 
+stored in plastic bags for further processing into biochar.
+2.3. Biochar fabrication
+The sun-dried coffee pulp was carbonized through pyrolysis in a 
+traditional kiln to produce coffee pulp biochar (Fig. 2b). The coffee pulp 
+was placed in the chamber, with heat generated beneath it and the lid 
+tightly sealed. The material heated intensely for approximately 
+30–40 mins and began burning after 60 mins. When it released gases 
+and the flame turned blue without smoke, this indicated complete 
+combustion. The coffee pulp biochar was produced by burning firewood 
+at the bottom of the kiln to initiate the pyrolysis process, which 
+continued for 4 h, followed by a 24 h cooling period. Finally, the coffee 
+pulp biochar was pulverized and filtered through a 2 mm sieve before 
+being used in subsequent studies.
+2.4. Coffee pulp biochar characterizations
+The surface morphology and element components of the coffee pulp 
+biochar were analyzed by using a High-Resolution Field Emission 
+Scanning Electron Microscope (FE-SEM) with an Energy Dispersive X- 
+Ray detector (Thermo Scientific Apreo S, USA). The pH and EC were 
+analyzed in a suspension of the deionized water-to-biochar solid (1:5 
+(w/v)) (Rajkovich et al., 2012).
+2.5. Soil properties analysis
+2.5.1. Soil chemical properties
+Soil pH was measured with a Eutech pH 2700 using a ratio of soil 
+with water suspensions (1:2 w/v). Soil electrical conductivity (EC) was 
+measured with a CON 150 EUTECH using a ratio of soil with water 
+suspensions (1:5 w/v). Total N was analyzed using an automated Dumas 
+combustion method (Nitrogen analyzer, LECO 828 Series). Soil 
+exchangeable K, Ca, and Mg were measured using 1 N NH4OAc (pH 7.0) 
+as the extractant (Thomas, 1982). The exchangeable concentration was 
+analyzed by an atomic absorption spectrophotometer (AAS) (Model 
+contrAA 800/Analytik Jena, Germany). Available P was extracted with 
+Bray No.2 (0.03 N NH4F + 0.1 N HCl) (Bray and Kurtz, 1945) and 
+measured the absorbance at 882 nm with a Thermo Genesys 20 Spec­
+trophotometer. Soil organic matter (SOM) analysis was measured by 
+following the protocol (Walkley and Black, 1934; Nelson and Sommers, 
+1982). This is a wet combustion method for analyzing organic carbon in 
+soil. The equation was computed as follows: 
+SOC (%) = SOM (%) × 0.58                                                           (1)
+Where SOC is Soil organic matter, SOM is Soil organic matter, and 
+0.58 is a conversion factor.
+2.5.2. Soil biological properties
+Microbial populations were determined by using culture media (Egg 
+albumin agar, Rose bengal agar, CMC medium, and Czapek medium). 
+SMR was analyzed by following the protocol (Cheng et al., 2013). 25 g of 
+soil sample was placed into a jar with a sealed lid. Then, the soil mois­
+ture was adjusted to achieve 60 % of its water holding capacity. 10 mL 
+of 1.0 M NaOH was added into the jar containing the soil sample for CO2 
+trap, where the NaOH captures CO2 released by microbial respiration. 
+Fig. 1. The research workflow of this study.
+P. Ninlaphong et al.                                                                                                                                                                                                                            
+Cleaner Waste Systems 12 (2025) 100341 
+3 
+
+Then, the soil sample was incubated in the dark for 24 h. After the in­
+cubation period, soil sample was dropped with 2 mL of 0.5 M BaCl2 and 
+5 drops of phenolphthalein indicator then, titrate the solution with 
+0.1 M HCl procedure, but without adding the soil sample. DOC and MBC 
+were measured following the protocol (Vance et al., 1987; Brookes et al., 
+1985; Joergensen, 1995; Jenkinson and Powlson, 1976). 10 g of soil 
+sample was placed 2 sets in each sample jar, dividing fumigated and 
+unfumigated ethanol-free chloroform in a fume hood by incubating in 
+the dark for 3 days equally. 10 g of soil sample were placed in two sets of 
+sample jars, one set for fumigation and one for non-fumigation. The 
+fumigation was performed using ethanol-free chloroform in a fume 
+hood, with both sets incubated in the dark for 3 days. Subsequently, each 
+soil sample was extracted with 50 mL of 0.5 M K2SO4 and shaken at 
+250 rpm for 45 mins. The resulting mixture was filtered, and 5 mL of the 
+filtrate was transferred to an Erlenmeyer flask. To this, 5 mL of 0.07 M 
+K2Cr2O7 and 10 mL of H2SO4 were added. Subsequently, 30 mL of 
+distilled water was added to the cooled solution. The mixture was then 
+titrated with 0.01 M ferrous ammonium sulfate hexahydrate ((NH4)2Fe 
+(SO4)2 ⋅ 6 H2O) until a visible color change was observed. The DOC and 
+MBC were calculated using the Eqs. (2) and (3), respectively; 
+DOC (µg C/kg soil) = Cfum                                                            (2)
+MBC (µg C/kg soil) = (Cfum - Cnon-fum) / kEC                              (3)
+Where DOC is dissolved organic carbon, MBC is microbial biomass 
+carbon, Cfum is carbon in fumigated sample, Cnon-fum is carbon in non- 
+fumigated sample, kEC is extraction efficiency factor (0.45).
+2.6. Statistical analysis
+The soil parameters were compared before and after treatment with 
+coffee pulp biochar using one-way ANOVA to determine if there were 
+any statistically significant differences. The least significant difference 
+(LSD) test at a confidence level of 95 % was used to perform the sta­
+tistical difference among the treatments using Statistix version 10. 
+Correlation analysis was performed by R program. The figures of results 
+were generated through SigmaPlot version 15.
+3. Results and discussion
+3.1. Biochar characterization
+Prior to examining the practical applications of biochar in agricul­
+tural soil, a comprehensive characterization analysis of the as- 
+synthesized biochar was conducted. Table 1 presents the results of the 
+coffee pulp biochar characterization. The traditional kiln process used 
+for biochar production yielded approximately 40–45 % of the total dry 
+weight. The coffee pulp biochar exhibited an alkalinity with a pH of 9.77 
+and an EC of 0.24 dS m−1. The pH of the synthesized coffee pulp biochar 
+was marginally elevated compared to the prior study (Kullachonphuri 
+et al., 2025)., who reported a pH of 9.42. The coffee pulp biochar had a 
+total N content of 0.85 %, slightly lower than that reported in the prior 
+study (Kebede et al., 2023). Additionally, the elemental components K, 
+Ca, and Mg were identified in the coffee pulp biochar, with respective 
+values of 9.69 %, 7.71 %, and 0.72 %.
+The characterization of coffee pulp biochar produced in a homemade 
+traditional kiln was assessed by analyzing its surface morphology at 
+three distinct magnifications. Fig. 3a depicts the matrix distribution of 
+pore diameters resembling a honeycomb structure in the coffee pulp 
+biochar samples. The measured pore sizes of the synthesized biochar are 
+33.90 µm and 25.14 µm at a magnification of 500 × . However, the 
+presence of a homogeneous pore structure with minute particle cracks 
+was detected after pyrolysis. At a magnification of 1000 × , the pro­
+nounced large pore size with an intricate pore structure of the coffee 
+pulp biochar is evident (Fig. 3b). Upon increasing the magnification to 
+3000 × , the existence of a substantial pore size is distinctly apparent 
+(Fig. 3c). As a result of surface morphology analysis, the coffee pulp 
+biochar synthesized from a homemade traditional kiln had pore size 
+distributions. It could serve as an alternative material for boosting soil 
+quality through the adsorption of water or nutrients for sustainable 
+agricultural production.
+To determine the important element component in the as-made 
+biochar, an investigation was performed to ascertain the elemental 
+composition of the coffee pulp biochar sample and quantify the elements 
+contained within it (Fig. 4). The analysis revealed that the dominant 
+Fig. 2. Location of arabica coffee cultivation (a) and schematic layout of traditional kiln (b).
+Table 1 
+Characteristics of coffee pulp biochar and soil sample.
+Parameters
+Coffee pulp biochar
+Soil sample
+Yield
+45 ± 5 %
+-
+pH
+9.77 ± 0.01
+6.04 ± 0.07
+EC
+0.24 ± 0.001 dS m−1
+0.36 ± 0.09 dS m−1
+OM
+17.29 ± 0.05 %
+2.96 ± 0.16 %
+Ntotal
+0.85 ± 0.01 %
+0.13 ± 0.01 %
+Pavi
+6.11 ± 0.25 %
+174.6 ± 17.90 mg kg−1
+K
+9.69 ± 0.12 %
+208.4 ± 9.79 mg kg−1
+Ca
+7.71 ± 0.40 %
+5181 ± 163.58 mg kg−1
+Mg
+0.72 ± 0.01 %
+160.7 ± 6.58 mg kg−1
+P. Ninlaphong et al.                                                                                                                                                                                                                            
+Cleaner Waste Systems 12 (2025) 100341 
+4 
+
+element is C, accounting for 66.60 % of the total. This is followed by O, 
+which makes up 19.13 %, and K, which constitutes 11.63 %.
+A critical parameter of biochar properties is the presence of surface 
+functional groups. Fig. 4 illustrates the surface functional groups of 
+coffee pulp biochar sample. The results demonstrate the diverse infrared 
+spectra containing in coffee pulp biochar produced by the conventional 
+kiln process. As can be seen from Fig. 5, the functional peaks located at 
+699.57 cm−1 were attributed to the C–H out of plane bending vibration 
+(Mungasavalli et al., 2007). The peak of 827.02 cm−1 corresponded to 
+N–H and C–H rocking (Jin and Bai, 2002). The peaks located at 
+1004.23 cm−1 were attributed to the –C–O–C stretching vibration 
+(Philip, 2011). The functional peaks at the wavenumber of 
+1372.49 cm−1 corresponded to the –C–O stretching (Philip, 2011; 
+Kumar et al., 2012). A functional peak appeared at 1581.82 cm−1 
+indicated the N–H bending (Jin and Bai, 2002). The peaks at 
+2716.74 cm−1 and 2920.03 cm−1 resulted from the asymmetry of the 
+stretching vibration of symmetrical C–H, primarily originating from 
+aliphatic chemicals, carbohydrates, and alicyclic compounds in organic 
+substances (Chen et al., 2008). Biochar exhibited a peak at a wave­
+number of 3865.34 cm−1, corresponding to the stretching vibration of 
+O–H, primarily attributed to the-carboxylic acid, hydroxyl groups, and 
+phenol (Tomczyk et al., 2020).
+3.2. Soil properties as affected by coffee pulp biochar application
+3.2.1. Soil physicochemical properties
+The practical utilization of coffee pulp biochar was assessed by 
+evaluating the alterations in soil characteristics following its applica­
+tion. As shown in Fig. 6(a), the addition of coffee pulp biochar resulted 
+in a significant decrease in available P content from 55 days to 98 days, 
+Fig. 3. Surface morphology of synthesized coffee pulp biochar at different magnifications of 50 × (a), 500 × (b), 1000 × (c) and 3000 × (d).
+Fig. 4. Elemental components of coffee pulp biochar.
+P. Ninlaphong et al.                                                                                                                                                                                                                            
+Cleaner Waste Systems 12 (2025) 100341 
+5 
+
+which was proportional to the percentage of coffee pulp biochar treat­
+ment (p < 0.05). In comparison, a reduction in available P content was 
+found across all biochar dose applications following treatment with 
+coffee pulp biochar, even in the absence of biochar addition. Based on 
+the research by Agegnehu et al. (2017), biochar has been found to 
+stimulate microbial growth in soil, potentially immobilizing P and thus 
+reducing available P. For SOM, the incorporation of coffee pulp biochar 
+did not increase a statistically significant difference (p > 0.05) in SOM 
+from 55 days to 98 days across treatments with no biochar, 2.5 %, and 
+5 % biochar dose as shown in Fig. 6(b). However, the treatment with 
+3.75 % dosage of biochar showed a statistically significant increase 
+(p < 0.05) in SOM. In contrast, the application of 7.5 % biochar dosage 
+demonstrated a statistically significant reduction (p < 0.05) in SOM 
+following 98 days of biochar treatment. This phenomenon suggests that 
+adding biochar in excessive amounts might lead to SOM saturation, 
+reducing microbial utilization of organic matter due to an excess of 
+organic material. It could also introduce toxins or inhibitors that nega­
+tively impact soil microbial activity, thereby reducing organic matter 
+decomposition and accumulation in the soil. Additionally, optimal bio­
+char application can increase SOM and other soil properties, but 
+excessive application may have detrimental effects on SOM and other 
+soil characteristics (Lehmann and Joseph, 2024; Atkinson et al., 2010; 
+Steiner et al., 2007).
+The application of biochar into soils significantly influenced the al­
+terations of exchangeable cations due to its alkaline characteristics. The 
+result of soil exchangeable cations analysis is shown from Fig. 7a - c. For 
+exchangeable K, it values increased proportionally with the percentage 
+of coffee pulp biochar treatment. A statistically significant increase was 
+found (p < 0.05) in the treatment of coffee pulp biochar, except for the 
+treatment without addition of biochar (control). This can be attributed 
+to the high K content in coffee pulp biochar as shown in EDS analysis 
+result (Fig. 4), where the K was as high as 11.63 %. Consequently, this 
+led to a corresponding increase in soil exchangeable K after coffee pulp 
+biochar application. Similar results representing an increase in soil 
+exchangeable K after the addition of biochar are reported by a previ­
+ously published article (Adhikari et al., 2024). As a result, exchangeable 
+K is the dominant exchangeable cations in the biochar produced from 
+coffee pulp (Fig. 4). The increase of exchangeable K in the soil-biochar 
+mixture may have resulted from the displacement of soil exchangeable 
+K by the exchangeable K released from biochar. Consequently, coffee 
+pulp biochar is considered a reservoir for significant exchangeable K in 
+soil. For soil exchangeable Ca, the results were only statistically signif­
+icantly (p < 0.05) increase in the dose of biochar 5 % (Fig. 7b). In 
+treatments with 2.5 %, 3.75 %, and 7 % biochar doses, the soil 
+exchangeable Ca exhibited a modest increase, but not statistically sig­
+nificant changes were noted (p > 0.05). However, there was not statis­
+tically significant decrease in soil exchangeable Ca of control treatment. 
+As shown in Fig. 7c, the soil exchangeable Mg values decreased signif­
+icantly (p < 0.05) in all biochar treatment and control. However, a 
+statistically significant decrease (p < 0.05) was observed, except for the 
+treatment with 2.5 % biochar dosage. Alkharabsheh et al. (2021) in­
+dicates that biochar can effectively absorb Ca and Mg due to its high 
+CEC. This result presents in a decrease of exchangeable Ca and 
+exchangeable Mg in the soil after biochar treatment. The incorporation 
+of biochar with low Ca and Mg content (as indicated in Table 1) or the 
+adsorption of Ca and Mg from the soil may be inadequate to offset the Ca 
+and Mg absorbed by the biochar. According to Laird et al. (2010), bio­
+char has been shown to increase CEC in soil, thereby enhancing the 
+levels of exchangeable K. However, concurrently, it may decrease 
+exchangeable due to ion competition and changes in soil pH. Biochar 
+with an elevated pH (e.g., 8.76) has demonstrated the capacity to raise 
+soil pH in acidic soils by 0.5–1 unit. The increase in pH may lead to the 
+Fig. 5. Fourier transforms infrared spectroscopy (FTIR) spectra of coffee 
+pulp biochar.
+Fig. 6. Soil available P (a) and soil organic matter (b) after treated with different dosages of coffee pulp biochar. Distinct letters indicate statistically significant 
+differences (p < 0.05).
+P. Ninlaphong et al.                                                                                                                                                                                                                            
+Cleaner Waste Systems 12 (2025) 100341 
+6 
+
+precipitation of K⁺ in less soluble forms, hence diminishing its avail­
+ability for exchange (Anderson et al., 2011).
+Fig. 8a illustrates the soil pH results after coffee pulp biochar treat­
+ment. The soil pH consistently elevated following the dosage of coffee 
+pulp biochar application. The most significant rise in soil pH following 
+the application of coffee pulp biochar was noted at a concentration of 
+7.5 % biochar treatment. According to previous study of Jalalabadi 
+(2021), the finding has shown that biochar production at high temper­
+atures results in alkaline substances such as calcium carbonate (CaCO3) 
+and potassium carbonate (K2CO3), which are major factors contributing 
+to soil pH increase after biochar application. A similar trend of increase 
+was observed in the result of soil EC after biochar treatment (Fig. 8b). 
+The tendency of increased soil EC was seen with the duration of coffee 
+pulp biochar treatment. The maximum soil EC was also observed in the 
+treatment with a biochar dosage of 7.5 %. Xu et al. (2017) demonstrate 
+the impact of biochar derived from diverse sources, including coffee 
+pulp and shells, on soil EC. The application of biochar was found to 
+increase soil EC, primarily attributed to the release of ions such as Ca2+, 
+Mg2+, and K+ from the biochar into the soil solution.
+3.2.2. Soil biological properties
+The biological qualities of soil undergo fast changes relative to its 
+physical and chemical properties. Therefore, to illustrate the ability of 
+coffee pulp biochar as the soil amendment, the soil biological properties 
+were analyzed after biochar treatment. As shown in Fig. 9a, after 
+treatment with coffee pulp biochar, SMR exhibited statistically signifi­
+cantly difference among treatments (p < 0.05). The treatment with 
+7.5 % coffee pulp biochar addition in soil demonstrated the highest in­
+crease in SMR compared to other treatments. Also, coffee pulp biochar 
+resulted in statistically significant differences (p < 0.05) increase in 
+DOC (Fig. 9b). However, the observed values for MBC exhibited an in­
+verse relationship (Fig. 9c). The treatment without the addition of coffee 
+pulp biochar was substantially higher than the biochar treatment. The 
+7.5 % biochar application dosage was the lowest, although it was not 
+significantly different from the 5 % dosage. As aforementioned results, it 
+is evident that SMR and DOC increased when increasing the percentages 
+of coffee pulp biochar application. Conversely, MBC decreases with 
+increasing dosage of biochar application. According to the studies of 
+Lehmann et al. (2011) and Nguyen et al. (2013), SMR is an indicator of 
+microbial respiratory activity in the soil, which typically increases when 
+additional nutrients are introduced into the soil, such as in the case of 
+coffee pulp biochar application. Coffee pulp biochar may serve as a 
+source of organic carbon for microbial metabolism. While the increase in 
+DOC in the soil results in higher SMR, as microorganisms can utilize this 
+DOC as an energy source for their respiratory processes. On the other 
+hand, MBC represents the amount of carbon incorporated into microbial 
+cells in the soil. The rise in SMR may enhance carbon metabolism in the 
+soil, potentially resulting in a reduction in MBC, as the metabolized 
+carbon may not promptly facilitate the production of new MBC. This 
+could also indicate a reduction in the microbial population in the soil 
+during periods of increased metabolic activity.
+Fig. 10a clearly indicates that treatment with coffee pulp biochar 
+correlates with an increase in bacterial and actinomycete populations 
+except for treatment with 7.5 % biochar of soil weight. While fungi in 
+the biochar treatments decreased as compared to control treatment. 
+However, the increase of fungi was evidenced in the 7.5 % of biochar 
+dosage. The augmented bacteria and fungi may be stimulated by a 
+biochar-mediated increase in pH that alleviates acid stress in bacteria. 
+The co-occurrence network demonstrated that the addition of biochar 
+enhanced bacterial competition against fungi, resulting in reduced ag­
+gregation and stability (Chen et al., 2021). According to Lehmann and 
+Fig. 7. Soil exchangeable K (a), exchangeable Ca (b), and exchangeable Mg (c) after treated with different dosages of coffee pulp biochar. Distinct letters indicate 
+statistically significant differences (p < 0.05).
+Fig. 8. Soil pH (a) and soil EC (b) after incubation with different dosage of 
+coffee pulp biochar. Note: * = Significant difference at p < 0.05, ns = Non- 
+statistical significant difference at p < 0.05. Error bars = Standard Error.
+P. Ninlaphong et al.                                                                                                                                                                                                                            
+Cleaner Waste Systems 12 (2025) 100341 
+7 
+
+Joseph (2024), biochar significantly influences the distribution and 
+quantity of soil microorganisms, particularly increasing bacteria and 
+actinomycetes, while decreasing fungi. This is due to biochar’s chemical 
+and physical properties that can alter soil environmental conditions. 
+Cellulases are crucial for the breakdown of organic materials and the 
+cycle of nitrogen in soil environments (Ma et al., 2024). This investi­
+gation highlighted the increase of cellulase-producing microbes after 
+as-made biochar treatment. The glucose generated from cellulose 
+decomposition acts as a carbon source for soil microbes. These micro­
+organisms mineralize organic nitrogen molecules (e.g., proteins) into 
+inorganic forms such as ammonium (NH₄⁺), which can then be reduced 
+to nitrate (NO₃⁻) via nitrification. This mechanism renders nitrogen 
+accessible for plant absorption, hence enhancing plant growth and soil 
+fertility (Choi et al., 2018). There is evidence for an increase in the 
+number of cellulase-producing microorganisms in the biochar treatment 
+of 2.5 % and 5 % (Fig. 10c). An increase in phosphate-solubilizing mi­
+croorganisms was also found in without biochar treatment as compared 
+to original soil sample. The application of 5 % biochar resulted in a 
+singular enhancement in phosphate-solubilizing bacteria relative to the 
+original soil sample among the treatments.
+Fig. 9. Levels of Soil Microbial Respiration (SMR) (a), Dissolved Organic Carbon (DOC) (b), and Microbial biomass carbon (MBC) (c) under treated with coffee pulp 
+biochar for 98 days. Distinct letters indicate statistically significant differences (p < 0.05).
+Fig. 10. The results of microbial population (a), Microbial population ratio (b), Capable microbes (c) and Capable microbes ratio (d), under different coffee pulp 
+biochar application rates.
+P. Ninlaphong et al.                                                                                                                                                                                                                            
+Cleaner Waste Systems 12 (2025) 100341 
+8 
+
+3.2.3. Correlation between soil physicochemical and biological properties
+The correlation analysis between soil properties after coffee pulp 
+biochar treatment is tabulated (Fig. 11). Exchangeable K and available P 
+were both positively associated with SMR and DOC. The strong associ­
+ation is evidenced in the relationship between exchangeable K and DOC 
+(r = 0.95). Consequently, SMR exhibits a positive correlation with DOC 
+(r = 0.84). The coffee pulp biochar contains a high amount of 
+exchangeable K (Table 1 and Fig. 3) resulting in the high value of the 
+SMR and DOC. According to the soil properties analysis results, the 
+maximum exchangeable K was observed with a 7.5 % biochar applica­
+tion. A similar pattern was noted for SMR and DOC, both of which were 
+significantly highest in the 7.5 % condition. The MBC exhibits a robust 
+negative connection with exchangeable K (r = -0.87). While the 
+exchangeable Mg displayed an inverse link with the SMR and DOC. 
+However, exchangeable Mg exhibits a favorable correlation with the 
+MBC (r = 0.73). Furthermore, SOM exhibited a favorable connection 
+with exchangeable Mg (r = 0.72) and MBC (r = 0.73).
+4. Conclusions
+Coffee pulp biochar produced from traditional kiln method exposed a 
+unique property which contains the high amount of exchangeable K, 
+various surface functional groups and evident pore structures. The 
+incorporation of coffee pulp biochar dramatically altered soil physico­
+chemical and biological characteristics during a short incubation period 
+of 55 and 98 days. High containing exchangeable K in coffee pulp bio­
+char considerably elevated soil exchangeable K, correlating with biochar 
+application rates ranging from 0 % to 7.50 %. While, the substantial 
+increase in SOM was seen solely at 3.75 % and 7.50 % biochar treatment 
+rates. For the soil biological analysis, dosages of biochar at 2.50 %, 
+3.75 %, and 5 % significantly enhanced the populations of bacteria and 
+actinomycetes. However, when the dose was increased to 7.5 %, the 
+populations of bacteria, actinomycetes, and fungus dropped to levels 
+lower than those in the untreated biochar. Similarly, excessive addition 
+of biochar at 7.5 % led to a reduction in cellulase-producing 
+microorganisms and phosphate-solubilizing microorganisms. The 
+connection distinctly illustrates the positive association of soil 
+exchangeable potassium with the soil biological parameters of soil mi­
+crobial respiration and dissolved organic carbon at 0.91 and 0.95, 
+respectively. This suggests that moderate levels of coffee pulp biochar 
+application can beneficially impact soil microbial populations and 
+enzyme activities, while higher levels may have adverse effects on 
+certain beneficial microorganisms. This study contributes to the 
+comprehension of waste management in coffee production and presents 
+an examination of soil parameters following treatment with coffee pulp 
+biochar, facilitating future research planning. Nonetheless, the lasting 
+effects of biochar on soil chemical and microbiological characteristics 
+may differ among distinct biochar feedstocks. Consequently, further 
+investigations on diverse biochar feedstocks are necessary to evaluate 
+the effects of biochar on soils in contemporary situations. Also, an 
+assessment of the capacity of coffee pulp biochar to absorb carbon and 
+enhance soil resistance to climate change, especially in areas susceptible 
+to drought or excessive rainfall, is necessary.
+CRediT authorship contribution statement
+Nuttapon Khongdee: Writing – review & editing, Writing – original 
+draft, Visualization, Validation, Supervision, Resources, Project admin­
+istration, Methodology, Investigation, Funding acquisition, Formal 
+analysis, Data curation, Conceptualization. Yaoliang Chen: Writing – 
+review & editing, Writing – original draft, Supervision, Methodology, 
+Conceptualization. Piyaphad Ninlaphong: Writing – review & editing, 
+Writing – original draft, Methodology, Investigation, Formal analysis, 
+Data curation, Conceptualization. Sasiprapa Kullachonphuri: Writing 
+– review & editing, Formal analysis, Data curation. Kesinee Iamsaard: 
+Writing – review & editing, Writing – original draft, Visualization, Su­
+pervision, Investigation, Formal analysis, Conceptualization. Yupa 
+Chromkaew: Writing – review & editing, Writing – original draft, 
+Validation, Supervision, Resources, Methodology, Formal analysis, 
+Conceptualization. Phonlawat Soilueang: Writing – review & editing, 
+Fig. 11. Pearson’s correlation matrix of soil properties after coffee pulp biochar treatment for 98 days at significant value of p ≤0.05. More circular shapes indicate 
+weaker correlations. A curve from white to dark blue signifies positive correlations. An oval shape from white to dark red indicates negative correlations. Dark blue or 
+red represent robust correlations.
+P. Ninlaphong et al.                                                                                                                                                                                                                            
+Cleaner Waste Systems 12 (2025) 100341 
+9 
+
+Formal analysis, Data curation. Toungporn Uttarotai: Writing – review 
+& editing, Writing – original draft, Visualization, Supervision, Concep­
+tualization. Metinee Nakdee: Writing – review & editing, Writing – 
+original draft, Methodology, Investigation, Data curation.
+Funding
+The authors declare and confirm nonexistence of any competing 
+interests among themselves.
+Declaration of Competing Interest
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper.
+Acknowledgement
+This research was supported by CMU Junior Research Fellowship 
+Program, Chiang Mai University.
+Data availability
+Data will be made available on request.
+References
+Adhikari, S., Moon, E., Timms, W., 2024. Identifying biochar production variables to 
+maximise exchangeable cations and increase nutrient availability in soils. J. Clean. 
+Prod. 446, 141454. https://doi.org/10.1016/j.jclepro.2024.141454.
+Agegnehu, G., Srivastava, A.K., Bird, M.I., 2017. The role of biochar and biochar-compost 
+in improving soil quality and crop performance: a review. Appl. Soil Ecol. 119, 
+156–170. https://doi.org/10.1016/j.apsoil.2017.06.008.
+Alghamdi, A.G., Alomran, A., Ibrahim, H.M., Alkhasha, A., Majrashi, M.A., 2024. Spent 
+coffee waste-derived biochar improves physical properties, water retention, and 
+maize (Zea mays L.) growth in sandy soil. Sci. Rep. 14 (1), 19753. https://doi.org/ 
+10.1038/s41598-024-70504-5.
+Alkharabsheh, H.M., Seleiman, M.F., Battaglia, M.L., Shami, A., Jalal, R.S., Alhammad, B. 
+A., Al-Saif, A.M., 2021. Biochar and its broad impacts in soil quality and fertility, 
+nutrient leaching and crop productivity: A review. Agronomy 11 (5), 993. https:// 
+doi.org/10.3390/agronomy11050993.
+Ameca, G.M., Cerrilla, M.E.O., C´ordoba, P.Z., Cruz, A.D., Hern´andez, M.S., Haro, J.H., 
+2018. Chemical composition and antioxidant capacity of coffee pulp. Ciˆencia e 
+Agrotecnologia 42 (3), 307–313. https://doi.org/10.1590/1413- 
+70542018423000818.
+Anderson, C.R., Condron, L.M., Clough, T.J., Fiers, M., Stewart, A., Hill, R.A., 
+Sherlock, R.R., 2011. Biochar induced soil microbial community change: 
+implications for biogeochemical cycling of carbon, nitrogen and phosphorus. 
+Pedobiologia 54 (5-6), 309–320. https://doi.org/10.1016/j.pedobi.2011.07.005.
+Aristiz´abal-Marulanda, V., Chac´on-Perez, Y., Alzate, C.A.C., 2017. The biorefinery 
+concept for the industrial valorization of coffee processing by-products. Handbook of 
+Coffee Processing By-Products. Academic Press, pp. 63–92. https://doi.org/ 
+10.1016/B978-0-12-811290-8.00003-7.
+Atkinson, C.J., Fitzgerald, J.D., Hipps, N.A., 2010. Potential mechanisms for achieving 
+agricultural benefits from biochar application to temperate soils: a review. Plant Soil 
+337, 1–18. https://doi.org/10.1007/s11104-010-0464-5.
+Bray, R.H., Kurtz, L.T., 1945. Determination of total, organic, and available forms of 
+phosphorus in soils. Soil Sci. 59 (1), 39–46.
+Brookes, P.C., Landman, A., Pruden, G., Jenkinson, D.S., 1985. Chloroform fumigation 
+and the release of soil nitrogen: a rapid direct extraction method to measure 
+microbial biomass nitrogen in soil. Soil Biol. Biochem. 17 (6), 837–842. https://doi. 
+org/10.1016/0038-0717(85)90144-0.
+Chen, Z., Kumar, A., Fu, Y., Singh, B.P., Ge, T., Tu, H., Xu, J., 2021. Biochar decreased 
+rhizodeposits stabilization via opposite effects on bacteria and fungi: diminished 
+fungi-promoted aggregation and enhanced bacterial mineralization. Biol. Fertil. Soils 
+57, 533–546. https://doi.org/10.1007/s00374-020-01539-9/Published.
+Chen, B., Zhou, D., Zhu, L., 2008. Transitional adsorption and partition of nonpolar and 
+polar aromatic contaminants by biochars of pine needles with different pyrolytic 
+temperatures. Environ. Sci. Technol. 42 (14), 5137–5143. https://doi.org/10.1021/ 
+es8002684.
+Cheng, F., Peng, X., Zhao, P., Yuan, J., Zhong, C., Cheng, Y., Cui, C., Zhang, S., 2013. Soil 
+microbial biomass, basal respiration and enzyme activity of main forest types in the 
+Qinling Mountains. PloS One 8 (6), e67353. https://doi.org/10.1371/journal. 
+pone.0067353.
+Choi, J., Bach, E., Lee, J., Flater, J., Dooley, S., Howe, A., Hofmockel, K.S., 2018. Spatial 
+structuring of cellulase gene abundance and activity in soil. Front. Environ. Sci. 6, 
+107. https://doi.org/10.3389/fenvs.2018.00107.
+Cornelissen, G., Pandit, N.R., Taylor, P., Pandit, B.H., Sparrevik, M., Schmidt, H.P., 2016. 
+Emissions and char quality of flame-curtain" Kon Tiki" Kilns for Farmer-Scale 
+charcoal/biochar production. PloS One 11 (5), e0154617. https://doi.org/10.1371/ 
+journal.pone.0154617.
+Esquivel, P., Jimenez, V.M., 2012. Functional properties of coffee and coffee by-products. 
+Food Res. Int. 46 (2), 488–495. https://doi.org/10.1016/j.foodres.2011.05.028.
+Głąb, T., Palmowska, J., Zaleski, T., Gondek, K., 2016. Effect of biochar application on 
+soil hydrological properties and physical quality of sandy soil. Geoderma 281, 
+11–20. https://doi.org/10.1016/j.geoderma.2016.06.028.
+Glaser, B., Wiedner, K., Seelig, S., Schmidt, H.P., Gerber, H., 2015. Biochar organic 
+fertilizers from natural resources as substitute for mineral fertilizers. Agron. Sustain. 
+Dev. 35, 667–678. https://doi.org/10.1007/s13593-014-0251-4.
+Gu, B., Qin, T., Qiu, M., Yu, J., Zhang, L., Li, Y., 2023. Addition of exogenous organic 
+ameliorants mediates soil bacteriome and microbial community carbon source 
+utilization pattern in coastal saline–alkaline soil. Agriculture 14 (1), 44. https://doi. 
+org/10.3390/agriculture14010044.
+Herath, H.M.S.K., Camps-Arbestain, M., Hedley, M., 2013. Effect of biochar on soil 
+physical properties in two contrasting soils: an Alfisol and an Andisol. Geoderma 
+209, 188–197. https://doi.org/10.1016/j.geoderma.2013.06.016.
+Hu, S., Gil-Ramírez, A., Martín-Trueba, M., Benítez, V., Aguilera, Y., Martín-Cabrejas, M. 
+A., 2023. Valorization of coffee pulp as bioactive food ingredient by sustainable 
+extraction methodologies. Curr. Res. Food Sci. 6, 100475. https://doi.org/10.1016/ 
+j.crfs.2023.100475.
+Huang, K., Zhang, J., Tang, G., Bao, D., Wang, T., Kong, D., 2023. Impacts and 
+mechanisms of biochar on soil microorganisms. Plant Soil Environ. 69 (2), 45–54. 
+https://doi.org/10.17221/348/2022-PSE.
+Iamsaard, K., Weng, C.H., Yen, L.T., Tzeng, J.H., Poonpakdee, C., Lin, Y.T., 2022. 
+Adsorption of metal on pineapple leaf biochar: key affecting factors, mechanism 
+identification, and regeneration evaluation. Bioresour. Technol. 344, 126131. 
+https://doi.org/10.1016/j.biortech.2021.126131.
+Jalalabadi, T. (2021). Molten Salt Slow Pyrolysis for Advanced Carbon and Renewable 
+Energy. [Doctoral dissertation, The University of Newcastle].
+Jeffery, S., Meinders, M.B., Stoof, C.R., Bezemer, T.M., van de Voorde, T.F., Mommer, L., 
+van Groenigen, J.W., 2015. Biochar application does not improve the soil 
+hydrological function of a sandy soil. Geoderma 251, 47–54. https://doi.org/ 
+10.1016/j.geoderma.2015.03.022.
+Jenkinson, D.S., Powlson, D.S., 1976. The effects of biocidal treatments on metabolism in 
+soil—I. Fumigation with chloroform. Soil Biol. Biochem. 8 (3), 167–177. https://doi. 
+org/10.1016/0038-0717(76)90001-8.
+de Jesus Duarte, S., Glaser, B., Pellegrino Cerri, C.E., 2019. Effect of biochar particle size 
+on physical, hydrological and chemical properties of loamy and sandy tropical soils. 
+Agronomy 9 (4), 165. https://doi.org/10.3390/agronomy9040165.
+Jin, L., Bai, R., 2002. Mechanisms of lead adsorption on chitosan/PVA hydrogel beads. 
+Langmuir 18 (25), 9765–9770. https://doi.org/10.1021/la025917l.
+Joergensen, R.G., 1995. Microbial biomass. Methods in Applied Soil Microbiology and 
+Biochemistry. Academic Press, pp. 375–417. https://doi.org/10.1016/B978- 
+012513840-6/50023-9.
+Juliastuti, S.R., Widjaja, T., Altway, A., Sari, V.A., Arista, D., Iswanto, T., 2018. The 
+effects of microorganism on coffee pulp pretreatment as a source of biogas 
+production (EDP Sciences). MATEC Web Conf. 156, 03010. https://doi.org/ 
+10.1051/matecconf/201815603010.
+Kebede, T., Berhe, D.T., Zergaw, Y., 2023. Effects of biochar and compost application on 
+soil properties and on the growth and yield of hot pepper (Capsicum annuum L.). 
+Appl. Environ. Soil Sci. 2023 (1), 8546135. https://doi.org/10.1155/2023/ 
+8546135.
+Khan, S., Irshad, S., Mehmood, K., Hasnain, Z., Nawaz, M., Rais, A., Ibrar, D., 2024. 
+Biochar production and characteristics, its impacts on soil health, crop production, 
+and yield enhancement: A review. Plants 13 (2), 166. https://doi.org/10.3390/ 
+plants13020166.
+Khan, S., Reid, B.J., Li, G., Zhu, Y.G., 2014. Application of biochar to soil reduces cancer 
+risk via rice consumption: a case study in Miaoqian village, Longyan, China. Environ. 
+Int. 68, 154–161. https://doi.org/10.1016/j.envint.2014.03.017.
+Kullachonphuri, S., Soilueang, P., Ninlaphong, P., Nakdee, M., Jaikarsan, K., 
+Chromkaew, Y., Khongdee, N., 2025. Mitigating drought stress in Coffea arabica L. 
+seedlings through soil stabilization with corncob derived biochar. J. Agric. Food 
+Res., 101965 https://doi.org/10.1016/j.jafr.2025.101965.
+Kumar, K.M., Mandal, B.K., Sinha, M., Krishnakumar, V., 2012. Terminalia chebula 
+mediated green and rapid synthesis of gold nanoparticles. Spectrochim. Acta Part A 
+Mol. Biomol. Spectrosc. 86, 490–494. https://doi.org/10.1016/j.saa.2011.11.001.
+Laird, D.A., Fleming, P., Davis, D.D., Horton, R., Wang, B., Karlen, D.L., 2010. Impact of 
+biochar amendments on the quality of a typical Midwestern agricultural soil. 
+Geoderma 158 (3-4), 443–449. https://doi.org/10.1016/j.geoderma.2010.05.013.
+Lehmann, J., 2007. A handful of carbon. Nature 447 (7141), 143–144. https://doi.org/ 
+10.1038/447143a.
+Lehmann, J., Joseph, S., 2015. Biochar for environmental management: an introduction. 
+Biochar for Environmental Management. Routledge, pp. 1–13.
+Lehmann, J., Joseph, S. (Eds.), 2024. Biochar Environmental Management Science 
+Technology Implementation. Taylor Francis. https://doi.org/10.4324/ 
+9781003297673.
+Lehmann, J., Rillig, M.C., Thies, J., Masiello, C.A., Hockaday, W.C., Crowley, D., 2011. 
+Biochar effects on soil biota–a review. Soil Biol. Biochem. 43 (9), 1812–1836. 
+https://doi.org/10.1016/j.soilbio.2011.04.022.
+Lyu, H., Zhang, H., Chu, M., Zhang, C., Tang, J., Chang, S.X., Ok, Y.S., 2022. Biochar 
+affects greenhouse gas emissions in various environments: a critical review, 3327-3 
+Land Degrad. Dev. 33 (17). https://doi.org/10.1002/ldr.4405.
+P. Ninlaphong et al.                                                                                                                                                                                                                            
+Cleaner Waste Systems 12 (2025) 100341 
+10 
+
+Ma, Y.N., Mongkolthanaruk, W., Riddech, N., 2024. Enhancing soil amendment for salt 
+stress using pretreated rice straw and cellulolytic fungi. Sci. Rep. 14 (1), 13903. 
+https://doi.org/10.1038/s41598-024-64705-1.
+Manasa, V., Padmanabhan, A., Appaiah, K.A., 2021. Utilization of coffee pulp waste for 
+rapid recovery of pectin and polyphenols for sustainable material recycle. Waste 
+Manag. 120, 762–771. https://doi.org/10.1016/j.wasman.2020.10.045.
+Maˇsek, O., Brownsort, P., Cross, A., Sohi, S., 2013. Influence of production conditions on 
+the yield and environmental stability of biochar. Fuel 103, 151–155. https://doi. 
+org/10.1016/j.fuel.2011.08.044.
+Mungasavalli, D.P., Viraraghavan, T., Jin, Y.C., 2007. Biosorption of chromium from 
+aqueous solutions by pretreated Aspergillus niger: batch and column studies (1-3). 
+Colloids Surf. A Physicochem. Eng. Asp. 301, 214–223. https://doi.org/10.1016/j. 
+colsurfa.2006.12.060.
+Nelson, D.W., Sommers, L.E., 1982. Total carbon, organic carbon, and organic matter. 
+Methods Soil Anal. Part 2 Chem. Microbiol. Prop. 9, 539–579. https://doi.org/ 
+10.2134/agronmonogr9.2.2ed.c29.
+Nguyen, T.A.H., Ngo, H.H., Guo, W.S., Zhang, J., Liang, S., Yue, Q.Y., Nguyen, T.V., 
+2013. Applicability of agricultural waste and by-products for adsorptive removal of 
+heavy metals from wastewater. Bioresour. Technol. 148, 574–585. https://doi.org/ 
+10.1016/j.biortech.2013.08.124.
+Oni, B.A., Oziegbe, O., Olawole, O.O., 2019. Significance of biochar application to the 
+environment and economy. Ann. Agric. Sci. 64 (2), 222–236. https://doi.org/ 
+10.1016/j.aoas.2019.12.006.
+Philip, D., 2011. Mangifera indica leaf-assisted biosynthesis of well-dispersed silver 
+nanoparticles. Spectrochim. Acta Part A Mol. Biomol. Spectrosc. 78 (1), 327–331. 
+https://doi.org/10.1016/j.saa.2010.10.015.
+Pongsiriyakul, K., Wongsurakul, P., Kiatkittipong, W., Premashthira, A., Kuldilok, K., 
+Najdanovic-Visak, V., Assabumrungrat, S., 2024. Upcycling coffee waste: key 
+industrial activities for advancing circular economy and overcoming 
+commercialization challenges. Processes 12 (12), 2851. https://doi.org/10.3390/ 
+pr12122851.
+Pouangam Ngalani, G., Dzemze Kagho, F., Peguy, N.N.C., Prudent, P., Ondo, J.A., 
+Ngameni, E., 2023. Effects of coffee husk and cocoa pods biochar on the chemical 
+properties of an acid soil from West Cameroon. Arch. Agron. Soil Sci. 69 (5), 
+744–758. https://doi.org/10.1080/03650340.2022.2033733.
+Quadra, G.R., Paranaíba, J.R., Vilas-Boas, J., Roland, F., Amado, A.M., Barros, N., 
+Cardoso, S.J., 2020. A global trend of caffeine consumption over time and related- 
+environmental impacts. Environ. Pollut. 256, 113343. https://doi.org/10.1016/j. 
+envpol.2019.113343.
+Rajkovich, S., Enders, A., Hanley, K., Hyland, C., Zimmerman, A.R., Lehmann, J., 2012. 
+Corn growth and nitrogen nutrition after additions of biochars with varying 
+properties to a temperate soil. Biol. Fertil. Soils 48, 271–284. https://doi.org/ 
+10.1007/s00374-011-0624-7.
+S´anchez-Reinoso, A.D., ´Avila-Pedraza, E.´A., Lombardini, L., Restrepo-Díaz, H., 2023. The 
+application of coffee pulp biochar improves the physical, chemical, and biological 
+characteristics of soil for coffee cultivation. J. Soil Sci. Plant Nutr. 23 (2), 
+2512–2524. https://doi.org/10.1007/s42729-023-01208-4.
+Singh, J., Jadeja, R., 2024. Recent advances in agricultural waste derived magnetic 
+biochar for heavy metal ion sensing: mechanistic insights and technological 
+innovation. J. Mol. Struct., 141005 https://doi.org/10.1016/j. 
+molstruc.2024.141005.
+Soilueang, P., Jaikrasen, K., Chromkaew, Y., Buachun, S., Yimyam, N., Sanjunthong, W., 
+Khongdee, N., 2023. Dynamics of soil nitrogen availability following conversion of 
+natural forests to various coffee cropping systems in northern Thailand. Heliyon 9 
+(12). https://doi.org/10.1016/j.heliyon.2023.e22988.
+Steiner, C., Teixeira, W.G., Lehmann, J., Nehls, T., de Macˆedo, J.L.V., Blum, W.E., 
+Zech, W., 2007. Long term effects of manure, charcoal and mineral fertilization on 
+crop production and fertility on a highly weathered Central Amazonian upland soil. 
+Plant Soil 291, 275–290. https://doi.org/10.1007/s11104-007-9193-9.
+Thomas, G.W., 1982. Exchangeable cations. Methods of Soil Analysis: Part 2 Chemical 
+and Microbiological Properties, pp. 159–165. https://doi.org/10.2134/ 
+agronmonogr9.2.2ed.c9 vol. 9. 
+Tomczyk, A., Sokołowska, Z., Boguta, P., 2020. Biochar physicochemical properties: 
+pyrolysis temperature and feedstock kind effects. Rev. Environ. Sci. Bio. Technol. 19 
+(1), 191–215. https://doi.org/10.1007/s11157-020-09523-3.
+Vance, E.D., Brookes, P.C., Jenkinson, D.S., 1987. An extraction method for measuring 
+soil microbial biomass C. Soil Biol. Biochem. 19 (6), 703–707. https://doi.org/ 
+10.1016/0038-0717(87)90052-6.
+Walkley, A., Black, I.A., 1934. An examination of the Degtjareff method for determining 
+soil organic matter, and a proposed modification of the chromic acid titration 
+method. Soil Sci. 37 (1), 29–38.
+Xu, Q., Zhang, T., Niu, Y., Mukherjee, S., Abou-Elwafa, S.F., Nguyen, N.S.H., Shaheen, S. 
+M., 2024. A comprehensive review on agricultural waste utilization through 
+sustainable conversion techniques, with a focus on the additives effect on the fate of 
+phosphorus and toxic elements during composting process. Sci. Total Environ., 
+173567 https://doi.org/10.1016/j.scitotenv.2024.173567.
+Xu, X., Zhao, Y., Sima, J., Zhao, L., Maˇsek, O., Cao, X., 2017. Indispensable role of 
+biochar-inherent mineral constituents in its environmental applications: a review. 
+Bioresour. Technol. 241, 887–899. https://doi.org/10.1016/j.biortech.2017.06.023.
+Zhang, A., Cui, L., Pan, G., Li, L., Hussain, Q., Zhang, X., Crowley, D., 2010. Effect of 
+biochar amendment on yield and methane and nitrous oxide emissions from a rice 
+paddy from Tai Lake plain, China. Agric. Ecosyst. Environ. 139 (4), 469–475. 
+https://doi.org/10.1016/j.agee.2010.09.003.
+Zuo, W., Xu, L., Qiu, M., Yi, S., Wang, Y., Shen, C., Bai, Y., 2022. Effects of different 
+exogenous organic materials on improving soil fertility in coastal saline-alkali soil. 
+Agronomy 13 (1), 61. https://doi.org/10.3390/agronomy13010061.
+P. Ninlaphong et al.                                                                                                                                                                                                                            
+Cleaner Waste Systems 12 (2025) 100341 
+11 

@@ -1,0 +1,1231 @@
+1 3
+Arch Toxicol
+DOI 10.1007/s00204-014-1216-8
+In vitro systems 
+Toxicity of the mycotoxin citrinin and its metabolite 
+dihydrocitrinone and of mixtures of citrinin and  
+ochratoxin A in vitro
+Wolfram Föllmann · Claudia Behm · Gisela H. Degen 
+Received: 3 December 2013 / Accepted: 19 February 2014 
+© Springer-Verlag Berlin Heidelberg 2014
+respect to in vivo concentrations of CIT and OTA, which 
+are found in animals and in humans.
+Keywords  Cytotoxicity · Genotoxicity · Metabolite · 
+Mixtures
+Introduction
+The mycotoxins citrinin (CIT) and ochratoxin A (OTA) 
+are produced by some Aspergillus and Penicillium spe-
+cies (Frisvad et  al. 2006), and can co-occur as contami-
+nants in grains, cereal products and feeds (EFSA 2006, 
+2012). CIT and OTA are both nephrotoxic to animals and 
+have been implicated in the aetiology of Balkan endemic 
+nephropathy (BEN) in humans (Flajs and Peraica 2009; 
+Petkova-Bocharova et  al. 1991; WHO/IPCS 2001). OTA 
+is carcinogenic in rodents and has been classified by IARC 
+as a possible human carcinogen (group 2B), whilst CIT 
+is in group 3 (not classifiable as to its carcinogenicity to 
+humans) because of limited evidence for carcinogenicity 
+in experimental animals (IARC 1986, 1993). Since risks 
+for human health from mycotoxins depend upon exposure, 
+tolerable intake (health-based guidance) values have been 
+derived by scientific committees, and many countries have 
+set regulations on maximal mycotoxin levels in food (EU 
+Commission Regulation 1881/2006). In the case of OTA, 
+EFSA (2006) derived a tolerable weekly intake (TWI) of 
+120 ng/kg bodyweight/day, and for different foods, a legal 
+limit, e.g. 5 μg OTA/kg for unprocessed cereals and roasted 
+and ground roasted coffee beans, was set (EU Commission 
+Regulation 1881/2006).
+Surveys on OTA contamination of various foods have 
+been conducted that along with biomonitoring data now 
+provide good insight into human exposure (EC/SCOOP 
+Abstract  Citrinin (CIT) and ochratoxin A (OTA) are 
+mycotoxins produced by several species of the genera 
+Aspergillus, Penicillium and Monascus. Both can be pre-
+sent as contaminants in various food commodities and 
+in animal feed. The occurrence and toxicity of OTA and 
+human exposure have been intensively studied, but for CIT 
+such data are scarce by comparison. Recently, dihydroc-
+itrinone (DH-CIT) was detected as main metabolite of CIT 
+in human urine, and co-occurrence of CIT and OTA was 
+shown in human blood plasma (Blaszkewicz et al. in Arch 
+Toxicol 87:1087–1094, 2013). In light of these new find-
+ings, we have now investigated the toxicity of the metab-
+olite DH-CIT in comparison with CIT and analysed the 
+effects of mixtures of CIT and OTA in vitro. The cytotoxic 
+potency of DH-CIT (IC50 of 320/200 μM) was distinctly 
+lower compared with CIT (IC50 of 70/62 μM) after treat-
+ment of V79 cells for 24 and 48 h. Whereas CIT induced 
+a concentration-dependent increase in micronucleus fre-
+quencies at concentrations ≥30 μM, DH-CIT showed no 
+genotoxic effect up to 300 μM. Thus, conversion of CIT 
+to DH-CIT in humans can be regarded as a detoxification 
+step. Mixtures of CIT and OTA exerted additive effects in 
+cytotoxicity assays. The effect of CIT and OTA mixtures 
+on induction of micronuclei varied dependent on the used 
+concentrations between additive for low μM concentra-
+tions and more-than-additive for high μM concentrations. 
+Effects on cell cycle were mostly triggered by OTA when 
+both mycotoxins were used in combination. The implica-
+tions of our and related in vitro studies are discussed with 
+W. Föllmann (*) · C. Behm · G. H. Degen 
+Leibniz Research Centre for Working Environment and Human 
+Factors (IfADo), Ardeystr. 67, 44139 Dortmund, Germany
+e-mail: foellmann@ifado.de
+
+	
+Arch Toxicol
+1 3
+2002; Duarte et al. 2011). In contrast, there are only few 
+data on the occurrence of CIT in foods for human con-
+sumption, partly due to analytical challenges and since 
+there are presently no legal requirements to measure this 
+contaminant (Xu et  al. 2006; EFSA 2012). On the other 
+hand, the recent EFSA document indicates that CIT can 
+occur frequently in grains and grain-based products, yet 
+there is the necessity for a further assessment of human 
+dietary exposure to CIT, also in light of possible combined 
+toxic effects of CIT and OTA (EFSA 2012).
+Biomonitoring can be regarded as complementary and 
+comprehensive approach to investigate exposure in the 
+general population or in specific population groups (Degen 
+2011; Degen et al. 2013). Recently, we developed sensitive 
+methods for CIT analysis in human blood and urine (Blasz-
+kewicz et al. 2013). The application in a small pilot study 
+revealed the presence of CIT and OTA at low (nM) concen-
+trations in blood plasma of all 8 German adults and excre-
+tion of CIT along with dihydrocitrinone (DH-CIT) as major 
+metabolite in several urines of children and adults. This 
+metabolite (DH-CIT) was identified previously in a kinetic 
+study in rat urine as a minor product (Dunn et al. 1983), but 
+has not been characterized so far with regard to its toxic-
+ity. To investigate whether CIT metabolism to DH-CIT is a 
+toxication or a detoxification reaction, we have now charac-
+terized the cytotoxic and genotoxic potency of DH-CIT in 
+relation to CIT by neutral red uptake and by micronucleus 
+assays in V79 cells.
+The new findings from analysis of human blood plasma 
+are indicative for co-exposure to both CIT and OTA (Blasz-
+kewicz et  al. 2013) and in line with available data from 
+dietary analysis (EFSA 2012). As CIT and OTA are both 
+nephrotoxic, their co-occurrence also raises the question 
+of additive or synergistic toxicity. Therefore, toxic effects 
+(cytotoxicity and genotoxicity) induced by binary mixtures 
+of CIT and OTA were also investigated since published 
+data on combined effects were controversial (see discus-
+sion and Table 1). As we can refer to a large database for 
+the toxicity of different mycotoxins in V79 cells (Behm 
+et al. 2012; Föllmann et al. 2000, 2009), we used this cell 
+line for the present study.
+Materials and methods
+Materials
+Citrinin and OTA were obtained from Sigma–Aldrich, 
+Taufkirchen, Germany. Dihydrocitrinone was from Ana-
+lytiCon Discovery, Potsdam, Germany. All other chemicals 
+were purchased in analytical grade from Sigma–Aldrich, 
+Taufkirchen, Germany, and sterile plastic materials were 
+from Sarstedt, Nümbrecht, Germany. Cell culture media 
+and supplements were purchased from PAN, Aidenbach, 
+Germany.
+Cell culture
+V79 cells (Chinese hamster lung fibroblasts) purchased 
+from the Deutsche Sammlung von Mikroorganismen und 
+Zellkulturen GmbH (Braunschweig, Germany) were rou-
+tinely cultured in DMEM medium supplemented with 
+10  % (v/v) foetal calf serum (FCS) and 1  % (v/v) peni-
+cillin (100  units/mL)/streptomycin (100  μg/mL), in a 
+humidified atmosphere of 5 % CO2 at 37 °C. Cells were 
+regularly checked for mycoplasma contamination and split 
+twice weekly when cultures had reached 80 % confluence. 
+V79 cells of passages 20–34 were used in studies on the 
+cytotoxicity and genotoxicity of graded concentrations of 
+individual compounds and binary mixtures. For treatment 
+concentrations in the different assays, see text below and 
+Figs. 1, 2, 3, 4, 5, 6, 7 and 8.
+Neutral red uptake (NRU) assay
+Cell viability was measured by means of NRU, an assay 
+well suited to determine cytotoxicity of various compounds 
+including mycotoxins (Babich and Borenfreund 1991; 
+Behm et al. 2009, 2012; Föllmann et al. 2009). Here, 4,000 
+V79 cells were seeded in 200 μl culture medium per well, 
+in transparent 96-well microtiter plates and precultured for 
+24 h. Culture medium was then withdrawn, and cells were 
+treated with graded concentrations of single mycotoxins 
+(0.1–100 μM CIT, 0.1–300 μM DH-CIT and 0.1–100 μM 
+OTA) or binary mixtures (3, 10 and 20 μM OTA combined 
+with 1, 10, 50 and 100  μM CIT, respectively) in culture 
+medium with 5 % FCS for 24 or 48 h; the final solvent con-
+centration did not exceed 0.1 % (v/v) in mycotoxin-treated 
+cultures and concurrent solvent controls. All experiments 
+were performed in triplicate (three independent assays) 
+with eight replicates for each concentration.
+After the treatment period, the medium was withdrawn 
+and replaced by fresh culture medium with neutral red 
+dye (NR, 0.05 mg/ml). After incubation for 3 h, the cells 
+were washed twice with PBS and fixed with 0.2 ml fixa-
+tive (glacial acetic acid/water/ethanol, 1:49:50) per well, 
+which brings the dye from cells into solution upon 20 min 
+of shaking (600  rpm) on a plate shaker (MTS2, IKA® 
+Labortechnik, Staufen, Germany). Then, NR absorbance 
+was measured with a plate photometer (SpectraFluor Plus 
+microplate reader, Tecan, Crailsheim, Germany) at 540 nm; 
+NR uptake in treated cells was expressed in per cent rela-
+tive to the solvent control (100 %), and IC50 values were 
+derived from the concentration–effect curves.
+
+Arch Toxicol	
+1 3
+Table 1   In vitro studies on toxic effects of citrinin/ochratoxin A combinations
+FCS foetal calf serum, NRU neutral red uptake, MTT 3-(4,5-dimethylthiazol-2-yl)-2,5-diphenyltetrazolium bromide reduction
+a  No statement for incubation conditions by the authors; according to the mycotoxin concentrations used, treatment with 10 % FCS in the medium can be assumed
+Cell type
+Incubation medium
+Concentrations [μM]
+Endpoint
+Outcome
+Reference
+Rat liver HTC cells
+FCS  % not givena
+100 CIT + 90 OTA
+Protein synthesis RNA synthesis
+“Cooperative” effect (additive  
+to synergistic)
+Creppy et al. (1980)
+Hamster lung fibroblast V79 cells
+Serum-free
+1–10 CIT + 1–10 OTA
+Cytotoxicity (NRU)
+No additive or synergistic effect
+Föllmann et al. 
+(2000)
+Primary porcine urinary bladder 
+epithelial cells PUBEC
+Serum-free
+0.001–1 CIT + 0.001–1 OTA
+Cytotoxicity (NRU)
+No additive or synergistic effect
+Pig lymphocytes
+10 % FCS
+2–16 CIT 0.2–1.8 OTA
+Proliferation assay
+Synergistic effect
+Bernhoft et al. (2004)
+Immortalized human kidney  
+epithelial IHKE cells
+Serum-free
+0.25–1 CIT + 0.025 or 0.050 OTA
+Caspase 3-activity
+Additive effect
+Knecht et al. (2005)
+Immortalized human kidney  
+epithelial IHKE cells
+Serum-free
+2.5–5 CIT + 0.025 or 0.050 OTA
+Caspase 3-activity
+Antagonistic effect
+Immortalized human kidney  
+epithelial IHKE cells
+Serum-free
+7.5–15 CIT + 0.025 or 0.050 OTA
+Caspase 3-activity
+At most additive effect
+Porcine renal LLC-PK1 cells
+10 % FCS
+70–170 CIT + 10–14 OTA
+Cytotoxicity (MTT)
+Synergistic effect
+Heussner et al. 
+(2006)
+Green monkey kidney vero cells
+FCS  % not givena
+10–250 CIT + 10–50 OT
+Cytotoxicity (MTT)
+Synergistic effect  
+(more-than-additive)
+Bouslimi et al. 
+(2008a)
+Green monkey kidney vero cells
+FCS  % not givena
+25 CIT + 0–80 OTA
+DNA Fragmentation
+Synergistic effect
+Green monkey kidney vero cells
+FCS  % not givena
+10–250 CIT + 10–50 OTA
+Cytotoxicity (MTT, Trypan  
+Blue, NRU)
+Synergistic effect
+Bouslimi et al. 
+(2008b)
+Green monkey kidney vero cells
+FCS  % not givena
+60 CIT + 12.5 or 25 OTA
+Lipid Peroxidation (MDA Level)
+Synergistic effect
+Porcine kidney PK 15 cells
+Serum-free
+30 and 50 CIT + 6 and 10 OTA
+Cytotoxicity (MTT, Trypan Blue)
+Additive effect
+Klaric et al. (2012)
+Porcine kidney PK 15 cells
+Serum-free
+30 and 50 CIT + 6 and 10 OTA
+Apoptosis, necrosis
+Synergistic effect
+Porcine kidney PK 15 cells
+Serum-free
+30 and 50 CIT + 6 and 10 OTA
+Micronucleus assay
+Antagonistic effect
+Hamster lung fibroblast V79 cells
+5 % FCS
+1–100 CIT + 3–20 OTA
+Cytotoxicity (NRU)
+Additive effect
+Present study
+
+	
+Arch Toxicol
+1 3
+In vitro micronucleus (MN) assay
+The MN assay with V79 cells was conducted as described 
+previously (Behm et  al. 2009; Dorn et  al. 2008; Föllmann 
+et al. 2007) with minor adaptations. Per 25-cm2 flask 5 × 105 
+cells were seeded in DMEM medium with supplements (see 
+above). On the next day, the culture medium was changed to 
+remove non-attached cells. The following day, the medium 
+was removed and replaced by fresh culture medium contain-
+ing graded concentrations of test compounds. For compari-
+son of CIT and DH-CIT, 10–100 μM CIT and 1–500 μM 
+DH-CIT were used. For comparison of CIT and OTA and 
+their combined effects, CIT was used from 0.1 to 50  μM 
+and OTA from 0.1 to 30 μM for treatment of single myco-
+toxin and 5, 10, 20 and 30 μM OTA combined with 10, 30 
+or 50 μM CIT for binary mixtures. Reference chemicals act-
+ing as aneugen (VCR = vincristine 8.33 nM) or as clastogen 
+(4-NQO = 4-nitro-quinoline oxide 5 μM) were added from 
+DMSO stock solutions. Controls were treated with solvent 
+alone (DMSO 0.1 % v/v) in culture medium.
+After 24 h (a period of about 1.5 cell cycles for V79 cells 
+to allow expression of MN), the medium was removed, and 
+cells were detached by disaggregation with trypsin/EDTA 
+(0.05  % trypsin/0.02  % EDTA) and then subjected to 
+hypotonic conditions with 0.4 % KCl. After centrifugation 
+(130×g, 10  min), cell pellets were re-suspended in 5  ml 
+ice-cold methanol/acetic acid (3:1) as fixative for 15 min 
+at −20 °C. The fixation step was repeated three times, and 
+the cell pellet was finally re-suspended in 0.5 ml fixative. 
+Some drops of the suspension were transferred onto glass 
+slides, and cells were fixed by heat treatment. The slides 
+were stained with acridine orange solution (0.05  mg/ml) 
+0
+20
+40
+60
+80
+100
+120
+control
+control
+0.1
+1
+10
+100
+1000
+concentration [µM]
+NR uptake [% of control]
+Citrinin   IC50 =   70 µM
+DH-CIT    IC50  = 320 µM
+0
+20
+40
+60
+80
+100
+120
+0.1
+1
+10
+100
+1000
+NR uptake [% of control]
+concentration [µM]
+Citrinin   IC50 =   62 µM
+DH-CIT    IC50  = 200 µM
+A
+B
+Fig. 1   Cytotoxicity of citrinin and dihydrocitrinone in V79 cells 
+treated for 24 h (a) or 48 h (b) using the neutral red uptake assay. 
+IC50-values were calculated from the resulting dose–effect curves; 
+diamonds = citrinin, squares = dihydrocitrinone
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+DMSO
+0.1%
+10
+20
+30
+50
+75
+100
+VCR
+8.33nM
+   4NQO
+5 µM
+MN / 1,000 cells
+164
++48
+Citrinin [µM]
+A
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+DMSO
+0.1%
+DMSO
+0.2%
+1
+10
+100
+150
+200
+300
+500
+VCR
+8,33nM
+ 4NQO
+5 µM
+MN / 1,000 cells
+Dihydrocitrinone [µM]
+123 
++45
+B
+Fig. 2   Induction of micronuclei by citrinin (a) or dihydrocitrinone 
+(b) in V79 cells treated for 24  h given as micronuclei per 1,000 
+cells ±SEM; white bars = solvent controls, black bars = citrinin or 
+dihydrocitrinone, striped bars  = positive controls (VCR =  vincris-
+tine, 4NQO = 4-nitroquinoline oxide)
+Fig. 3   Cytotoxicity of citrinin and ochratoxin A in V79 cells treated 
+for 48  h using the neutral red uptake assay. Diamonds  =  citrinin, 
+squares = ochratoxin A
+
+Arch Toxicol	
+1 3
+and examined using a DM LB fluorescence microscope 
+(Leica, Germany, excitation filter 440–490 nm, barrier fil-
+ter I3) at 400× magnification. For each condition, at least 
+2,000 cells with well-preserved cytoplasm were examined 
+and analysed for MN. Scoring for MN followed published 
+criteria (Fenech 1993; Countryman and Heddle 1976): 
+only cells with intact cytoplasm, where the micronucleus 
+size was maximally 1/3 of the main nucleus and showed 
+a similar colour and shape, were counted. The results were 
+expressed as micronucleus rate (number of MN per 1,000 
+cells) for each treatment group. The effect was assessed in 
+two independent experiments.
+Flow cytometry
+Analysis by fluorescence-activated cell sorting (FACS) 
+was used to quantify the distribution of cells in cell cycle 
+phases including apoptotic cells according to established 
+methods (Dorn et  al. 2008; Krishan 1975; Riccardi and 
+Nicoletti 2006) with minor adaptations. V79 cells (1 × 106 
+in 25  cm2 culture flasks) were precultured for 24  h and 
+then treated with fresh culture medium containing 5, 10, 
+20 and 30 μM of OTA or 10, 30, 50 and 100 μM of CIT, or 
+mixtures of OTA and CIT (5, 10, 20 and 30 μM OTA com-
+bined with 5, 10, 30 and 50 μM CIT) or the solvent only 
+(controls). After the treatment period, first the cell cul-
+ture supernatant was collected and centrifuged to include 
+also detached cells. The resulting pellet was then com-
+bined with the cells harvested after trypsinization (0.05 % 
+trypsin/0.02 % EDTA). Cells were suspended in medium 
+with 40 % FCS, centrifuged at 200×g for 8 min and then 
+resuspended in medium, and cell density was adjusted 
+to 1x106 cells/900 μl medium; then, 100 μl DMSO was 
+added, and samples were frozen (−80 °C). Prior to FACS 
+analysis, the cells were resuspended in 2 ml PBS and cen-
+trifuged again (200×g for 8 min 4 °C). The pellet was dis-
+solved in 378 μl lysis buffer (consisting of 15 mM Tris, 
+2  mM Na2EDTA, 0.5  mM spermine tetrahydrochloride, 
+80  mM KCl, 20  mM NaCl, 0.1  % (v/v) Triton X-100 
+adjusted to pH 7.5 with HCl and 15 mM 2-mercaptoetha-
+nol). Then, 2 μl RNAse (10 mg/ml in distiled water) and 
+20 μl propidium iodide (1 mg/ml in distiled water) were 
+added, and the samples were incubated for 30 min in the 
+dark at 4 °C. Flow cytometry was carried out on a FACS 
+Calibur™ (Becton and Dickinson, Heidelberg, Germany) 
+with an argon laser (488  nm for excitation), and 10,000 
+cells were analysed per sample.
+Data were analysed by means of “CellQuest Pro” soft-
+ware in histograms of fluorescence intensity (reflecting 
+DNA content) versus cell counts. The peak located at rela-
+tive fluorescence intensity of 200 corresponds to cells in 
+G0/G1 phase with a diploid (2n) DNA content, the peak 
+located at 400 (DNA content of 4n) to those in G2/M phase 
+and that in between to cells in S phase. For each sample, 
+the fraction of cells in the distinct cell cycle phases and 
+the percentage of apoptotic cells (broad hypodiploid peak) 
+were determined.
+Statistics
+Data for NRU assays of single mycotoxins are expressed 
+as mean values (±SEM) of dye uptake compared to sol-
+vent controls (set at 100 %). The IC20 and IC50 values were 
+derived from concentration response curves obtained from 
+at least three independent experiments with n = 8 values 
+per concentration. Data for the combination experiments 
+0
+20
+40
+60
+80
+100
+120
+expected
+measured
+expected
+measured
+expected
+measured
+expected
+measured
+3 µM OTA + 1 µM CIT
+3 µM OTA + 10 µM CIT
+3 µM OTA + 50 µM CIT 3 µM OTA + 100 µM CIT
+]
+%
+[
+y
+tili
+b
+a
+i
+v
+ll
+e
+c
+f
+o
+n
+o
+it
+c
+u
+d
+e
+r
+A
+0
+20
+40
+60
+80
+100
+120
+expected
+measured
+expected
+measured
+expected
+measured
+expected
+measured
+10 µM OTA + 1 µM CIT 10 µM OTA + 10 µM CIT 10 µM OTA + 50 µM CIT 10 µM OTA +100 µM CIT
+]
+%
+[
+y
+tili
+b
+a
+i
+v
+ll
+e
+c
+f
+o
+n
+o
+it
+c
+u
+d
+e
+r
+B
+0
+20
+40
+60
+80
+100
+120
+expected
+measured
+expected
+measured
+expected
+measured
+expected
+measured
+20 µM OTA + 1 µM CIT 20 µM OTA + 10 µM CIT 20 µM OTA + 50 µM CIT20 µM OTA +100 µM CIT
+]
+%
+[
+y
+tili
+b
+a
+i
+v
+ll
+e
+c
+f
+o
+n
+o
+it
+c
+u
+d
+e
+r
+C
+Fig. 4   Cytotoxic effect of combinations of citrinin and ochratoxin A 
+in V79 cells detected with the neutral red uptake assay. Cells were 
+treated with CIT (1 to 100 μM) combined with OTA at 3 μM (a), 
+10 μM (b) or 30 μM (c) for 48 h. Grey bars = expected reduction in 
+viability for an additive cytotoxic effect ±SEM, black bars = cyto-
+toxic effect measured in the experiment ±SEM
+
+	
+Arch Toxicol
+1 3
+are represented as mean of induced cytotoxic effect 
+(reduction in cell viability compared to the solvent con-
+trol)  ±SEM (standard error of mean). We compared the 
+measured values with expected values that were calculated 
+for an additive mode of action of the respective combina-
+tion. The expected values are the mean (and SEM value) 
+obtained after exposure to mycotoxin (myc) 1 alone plus 
+the mean (and SEM) value obtained after exposure to 
+mycotoxin (myc) 2 alone, e.g.:
+Mean % (expected for combination)
+= mean % (myc1) + mean % (myc2)
+SEM (expected for combination)
+=
+
+(SEM for myc1)2 + (SEM for myc2)21/2
+Fig. 5   Induction of micronu-
+clei by citrinin or ochratoxin 
+A in V79 cells treated for 24 h 
+given as micronuclei per 1,000 
+cells ±SEM. White bars = sol-
+vent controls, black bars = cit-
+rinin, striped bars = ochratoxin 
+A
+0
+10
+20
+30
+0
+0.1
+0.3
+1
+3
+5
+10
+30
+50
+0
+0.1
+0.3
+1
+3
+5
+10
+20
+30
+Citrinin [µM]
+Ochratoxin A [µM]
+MN / 1,000 cells
+0
+10
+20
+30
+40
+50
+10
+30
+50
+10
+30
+50
+10
+30
+50
+10
+30
+50
+5
+10
+20
+30
+MN / 1,000 cells 
+measured
+expected
+CIT [µM]
+OTA [µM]
+Fig. 6   Effect of combinations of ochratoxin A and citrinin on induc-
+tion of micronuclei analysed in V79 cells after 24-h treatment. Grey 
+bars  =  expected frequencies for an additive effect  ±SEM, black 
+bars = micronuclei frequency measured in the experiment ±SEM
+Fig. 7   Influence of the single 
+mycotoxins citrinin and 
+ochratoxin A on cell cycle 
+in V79 cells treated for 24 h 
+with the stated mycotoxin 
+concentrations or solvent 
+control (C = NaHCO3/DMSO). 
+Fractions (top to bottom): 
+grey = subG1/apoptotic cells, 
+black = G2/M, white = S phase, 
+striped = G0/G1 phase
+
+Arch Toxicol	
+1 3
+The significance of difference between the expected 
+and measured values was calculated using an unpaired 
+t test in case of equal variances. In case of unequal vari-
+ances, the Welch t test was applied. Equality of variances 
+was checked using the folded F test with α = 0.05. All tests 
+were computed using SAS/STAT© software. The results 
+were interpreted as follows: an additive effect is implied if 
+the measured values are not significantly above or below 
+the expected values; a synergistic effect is implied if the 
+measured values are significantly above the expected val-
+ues; an antagonistic effect is implied if the measured values 
+are significantly below the expected values.
+Results
+Toxicity of citrinin and dihydrocitrinone in vitro
+Neutral red uptake assays conducted in V79 cells with 
+24-h and 48-h treatment revealed a clearly lower cytotoxic 
+potency of DH-CIT compared with the parent compound 
+CIT (Fig. 1a, b). The IC50-values for DH-CIT of 320 μM 
+(24-h treatment, Fig.  1a) and 200  μM (48-h treatment, 
+Fig. 1b) are much higher compared to 70 μM and 62 μM 
+for CIT. These results are indicative that the metabolism 
+of CIT to DH-CIT can be regarded as a detoxification 
+reaction.
+Also, micronucleus assays with CIT and DH-CIT 
+showed an explicit difference with respect to their geno-
+toxic potential. Whereas CIT induced a pronounced 
+increase in micronucleus frequency at concentrations 
+≥30  μM (Fig.  2a), the treatment with DH-CIT did not 
+result in an increased frequency of micronuclei up to con-
+centrations of 300 μM (Fig. 2b).
+Taken together, these results demonstrate that the metab-
+olite DH-CIT exerts a much lower toxicity than the parent 
+compound CIT. Because of the low toxicity of its metab-
+olite, only CIT was used in further experiments aimed to 
+evaluate the effects of mixtures with the mycotoxin OTA.
+Toxicity of CIT and OTA mixtures in vitro
+The cytotoxicity of CIT and OTA was determined with 
+the NRU assay in V79 cells treated for 48 h (Fig. 3). The 
+IC50-values obtained for single mycotoxins of 58 μM for 
+CIT and 17 μM for OTA show that CIT is less cytotoxic 
+compared to OTA. For the following experiments aimed to 
+evaluate the effect of combined exposure to CIT and OTA, 
+we chose three OTA concentrations which included a low 
+concentration that had not induced measurable cytotoxic-
+ity (3 μM), a medium concentration (10 μM) that induced 
+weak cytotoxicity and a high concentration (20 μM) that 
+had induced strong cytotoxic effects in cytotoxicity assay 
+of the single agent. These OTA concentrations were com-
+bined with different CIT concentrations (1–100 μM) that 
+alone exerted no cytotoxicity to high cytotoxicity. We cal-
+culated which effect can be expected when we assume an 
+additive effect for cytotoxicity. The expected effect values 
+were compared with the measured results from the mixture 
+experiments in V79 cells (Fig. 4a–c). Since the expected 
+degree of cytotoxicity (based on the assumption of an 
+additive effect) was not significantly different from values 
+measured in the real experiments, we can conclude that the 
+effect of the two mycotoxins for the endpoint of cytotoxic-
+ity is additive for this cell system.
+Then, genotoxicity of mixtures of CIT and OTA was 
+evaluated in the MN assay with V79 cells and treatment 
+for 24 h. At sufficiently high concentrations (CIT at 30 and 
+Fig. 8   Influence of the myco-
+toxin combinations on cell 
+cycle in V79 cells treated for 
+24 h with the stated combined 
+concentrations of citrinin 
+and ochratoxin A or solvent 
+control (C = NaHCO3/DMSO). 
+Fractions (top to bottom): 
+grey = subG1/apoptotic cells, 
+black = G2/M, white = S phase, 
+striped = G0/G1 phase
+
+	
+Arch Toxicol
+1 3
+50 μM, OTA at 20 and 30 μM), the individual mycotoxins 
+induced clearly increased frequencies of micronuclei above 
+background rate in the solvent control (Fig.  5). Based on 
+these results, different concentration levels were selected to 
+study combination effects of binary mycotoxin mixtures. An 
+expected effect for the mixtures was calculated for “additiv-
+ity” (based on the effects of individual mycotoxins) and then 
+compared with the experimental data. The results are shown 
+in Fig. 6 as net increase in micronucleus rate above back-
+ground. When a low OTA concentration (5 μM) was com-
+bined with increasing CIT concentrations (10, 30 or 50 μM), 
+the measured effect was not different from that expected 
+for additive action. At higher OTA concentrations (10 and 
+20 μM), the measured effect was as expected in the presence 
+of 10 μM CIT, but more-than-additive (synergistic) for mix-
+tures with 30 and 50 μM CIT. For combinations of a high 
+OTA concentration (30 μM) with 10–50 μM CIT, the meas-
+ured effect was lower-than-additive. The latter result could 
+be due to strong cytotoxicity (with an increase in apoptotic 
+cell death) and/or inhibition of cell cycle progression ham-
+pering expression of micronuclei. Thus, effects of mycotoxin 
+treatments were further analysed by flow cytometry.
+Effects on cell cycle
+Initially, the effect of CIT and OTA was determined for 
+the single compounds by FACS analysis of the entire cell 
+population from mycotoxin-treated cultures (Fig.  7). OTA 
+(5–30  μM) induced a concentration-dependent increase in 
+the cell fraction in G2/M phase, whilst CIT induced a nota-
+ble G2/M arrest only at higher concentrations (≥50  μM). 
+Similarly, the fraction of cells in subG1 (apoptotic cells) was 
+increased in the mycotoxin-treated cultures at concentrations 
+found to exert cytotoxicity in V79 cells (see above, Fig. 3).
+The results from treatment of V79 cells with OTA/CIT 
+mixtures are shown in Fig. 8: combining a given OTA con-
+centration (5, 10, 20 or 30 μM) with CIT concentrations 
+between 5 and 30 μM had no clear impact on the cell cycle 
+(compared to the effect of OTA alone), whilst the higher 
+CIT concentration (50 μM) caused a further increase in the 
+fraction of cells in G2/M. Taken together, these results from 
+flow cytometric analysis show that simultaneous treatment 
+with rather high mycotoxin concentrations induced a G2/M 
+arrest, which may hamper expression of micronuclei. On 
+the other hand, mixtures of individually non-effective or 
+weakly effective concentrations of the mycotoxins had no 
+additional impact on the cell cycle.
+Discussion
+As first step to enable biomonitoring studies for an expo-
+sure assessment, we have recently developed a sensitive 
+method for CIT analysis in human blood and urine: appli-
+cation in a pilot study revealed the presence of both CIT 
+and OTA in serum of German adults (Blaszkewicz et  al. 
+2013). Moreover, we detected DH-CIT as major metabolite 
+of CIT in several urines, an interesting finding as nothing 
+was known so far about the fate of CIT within the human 
+organism. The new biomonitoring data prompted us to 
+conduct in vitro studies on (i) the toxicity of the identified 
+metabolite in relation to the parental CIT and (ii) the com-
+bined effects of CIT and OTA on cells. These results are 
+now discussed.
+Toxicity of dihydrocitrinone (DH‑CIT) in relation to CIT
+Already in 1983, DH-CIT was identified as minor metab-
+olite in rat urine (Dunn et  al. 1983), but its toxicity has 
+not been characterized since then. In the present in vitro 
+study, we have shown that DH-CIT is clearly less cytotoxic 
+compared to parental CIT (Fig. 1). Concentrations which 
+reduce NR uptake by 50 % (IC50) are 3.2–4.5-fold lower for 
+CIT than for its metabolite. Also, the genotoxic potential of 
+DH-CIT is much lower compared to CIT as demonstrated 
+by micronucleus assays in V79 cells: CIT caused a strong 
+induction of micronuclei at 50 μM, whereas only tenfold 
+higher levels of the metabolite led to a notable increase in 
+micronuclei (Fig. 2). Taken together, these new results sup-
+port the conclusion that metabolism of CIT to DH-CIT can 
+be regarded as a detoxification reaction.
+The CIT concentration range found in this study to effi-
+ciently induce micronuclei is comparable to that reported 
+in previous studies with V79 cells (Pfeiffer et  al. 1998), 
+with HepG2 cells (Knasmüller et al. 2004), HEK 293 cells 
+and human lymphocytes (Chang et  al. 2011; Dönmez-
+Altuntas et al. 2007). Treatment of cells with 30-40 μM 
+CIT or more (50-100  μM with human lymphocytes) 
+caused induction of predominantly kinetochore-posi-
+tive micronuclei indicative of its aneuploidogenic activ-
+ity (Knasmüller et  al. 2004; Pfeiffer et  al. 1998) and a 
+decrease in the ratio of binucleated/mono-nucleated cells 
+(Dönmez-Altuntas et al. 2007). In all the in vitro studies 
+including our own, CIT concentrations lower than 30 μM 
+did not elicit an increase in micronucleus frequency or a 
+mitotic arrest.
+The results show that CIT at high μM concentrations is 
+genotoxic to cultured mammalian cells. Yet, in light of its 
+mode of action (aneuploidogen) and a lack of mutagenic 
+activity demonstrated in other assays (reviewed in EFSA 
+2012), a threshold for genotoxicity of CIT could exist at 
+low internal concentrations resulting from dietary exposure. 
+On the other hand, as consumption of mycotoxin-contami-
+nated foods can result in exposure to both CIT and OTA, it 
+is important to study also toxicity of mixtures (Speijers and 
+Speijers 2004).
+
+Arch Toxicol	
+1 3
+Combined effects of CIT and OTA in vitro
+The combinatory effects of CIT and OTA have been stud-
+ied previously in several cell types by means of different 
+endpoints and with variable outcomes (Table  1). When 
+concentrations of agents applied in the mixture are already 
+effective (e.g. cytotoxic) when tested individually, the out-
+come for the mixture is often an additive or synergistic 
+(more-than-additive) effect, for example in rat liver cells 
+(Creppy et al. 1980), in pig lymphocytes (Bernhoft et al. 
+2004) or in various kidney-derived cell lines (Bouslimi 
+et al. 2008a, b; Heussner et al. 2006; Klaric et al. 2012). 
+But the effect of mixtures also depends on the used con-
+centrations in the CIT/OTA combination: for instance, 
+Föllmann et al. (2000) observed no additive or synergis-
+tic effect in cytotoxicity assays with V79 cells or primary 
+urinary bladder epithelial cells for CIT/OTA combinations 
+tested at low concentrations of the two mycotoxins (up to 
+1 μM each in PUBEC and up to 10 μM in V79 cells) in 
+serum-free medium. Similarly, when Knecht et al. (2005) 
+applied low concentrations of CIT (0.25 and 1 μM) along 
+with 0.025 or 0.05 μM OTA in human proximal tubule cell 
+cultures, there was no influence on the OTA-induced cas-
+pase 3 activity (apoptosis marker). With 2.5 and 5 μM CIT 
+in the mixture, the overall effect was antagonistic, and for 
+higher CIT concentrations (7.5 and 15 μM), the combined 
+effect was additive. Klaric et al. (2012) found in porcine 
+kidney cells for CIT/OTA mixtures (at concentrations that 
+exert notable toxicity in serum-free medium), effects from 
+antagonistic to additive and also synergistic (Table  1), 
+dependent on the endpoint measured (cytotoxicity, apopto-
+sis/necrosis or genotoxicity).
+In the present in vitro study, the effects of CIT and OTA 
+mixtures also varied with the endpoint and the concentra-
+tions used: for cytotoxicity (Fig. 4a–c), we found overall 
+an additive effect, but for genotoxicity (Fig. 6) the observed 
+outcome varied from additive to more-than-additive for 
+5 to 20 μM OTA combined with 10–50 μM CIT. But the 
+higher OTA concentration of 30 μM combined with CIT 
+resulted in a lower-than-additive (antagonistic) effect. The 
+latter result resembles antagonistic effects for the CIT/OTA 
+mixture in the micronucleus assay described by Klaric 
+et  al. (2012). They noted that “the number of micronu-
+clei induced by combined OTA + CIT exposure does not 
+reflect their real genotoxic potential, since micronucleus 
+formation was disabled by high toxicity and increased cell 
+death”. On the other hand, CIT may decrease the uptake of 
+OTA in cells as observed by Knecht et al. (2005), although 
+they noted that this may not be the only explanation for 
+an antagonistic effect of CIT at certain concentrations. 
+Another explanation for a quasi protective effect of CIT 
+may be induction of heat shock protein (hsp 70) in cells, as 
+proposed by Bouslimi et al. (2008b).
+Expression of micronuclei is hampered when mitotic 
+arrest occurs or by increased cell death (vide supra). Thus, 
+we examined by FACS analysis the effect of CIT and OTA 
+(or mixtures) on cell cycle distribution in V79 cells: OTA 
+induced a concentration-dependent increase in apoptotic 
+cells and an arrest in G2/M between 5 and 30 μM (Fig. 7), 
+whilst a clear effect of CIT alone was only observed at 
+concentrations above 50 μM. In HEK293 cells, CIT also 
+induced a G2/M arrest between 50 and 100  μM appar-
+ently due to its ability to interfere with tubulin polymeri-
+zation and microtubule organization (Chang et  al. 2011). 
+Also, OTA has been shown to inhibit cell cycle progres-
+sion by arresting cells in G2/M phase in several cell lines 
+(Cui et al. 2010; Kamp et al. 2005; Palma et al. 2007). As 
+further discussed below, also for this endpoint the effec-
+tive OTA concentrations varied considerably for cell treat-
+ments in the absence or presence of serum in the culture 
+medium. In the present study, the effect of binary myco-
+toxin mixtures on V79 cells was mainly based on the 
+impact of OTA (5–30 μM), whereas an effect of CIT on the 
+cell cycle appeared only at high (≥50 μM) CIT concentra-
+tions (Fig. 8). It is worth noting that in this and the other 
+experiments, treatment concentrations are higher than those 
+measured in animals or in humans.
+Caveats in an extrapolation of in vitro results to the in vivo 
+situation
+In vitro studies of hazardous compounds or mixtures usu-
+ally use relatively high concentrations of the test agents, 
+in our case mycotoxins or their metabolite, to characterize 
+the toxic effects on cells. From studies with single com-
+pounds discussed above and those for mixtures compiled in 
+Table 1, it is evident that the effective OTA concentrations 
+clearly differ for cells treated in the absence or presence 
+of serum in the culture medium. This is due to the high 
+affinity of OTA to serum proteins (Chu 1971; Galtier et al. 
+1979) that decreases the fraction of free (unbound) OTA 
+available for uptake in the cell. Accordingly, we and others 
+found that serum content in cell cultures clearly affects the 
+cytotoxic potency (IC50 values) of OTA (e.g. Degen et al. 
+1997; Grosse et al. 1995). This explains also much lower 
+effective concentrations for OTA in studies on its effects 
+in mixtures with CIT when cell is treated in serum-free 
+medium compared to studies using serum (Table 1): treat-
+ment of cells in serum-free medium with OTA results in 
+toxicity already at sub-μM concentrations, whereas about 
+20-fold higher (μM) concentrations are found to exert tox-
+icity in serum-containing cultures. The effective CIT con-
+centrations do not differ so much, as this mycotoxin has no 
+strong affinity to serum proteins.
+Another point finally to be reflected is the relationship 
+between effective concentrations in vitro and the internal 
+
+	
+Arch Toxicol
+1 3
+levels resulting from in vivo mycotoxin exposure in humans 
+and animals. Although it is difficult to predict intracellular 
+concentrations in target organs in vivo, data available for 
+blood concentrations can provide some orientation on cir-
+culating mycotoxin levels. In a subacute toxicity study with 
+CIT in pigs given intragastric doses of 0.02  mg/kg  b.w. 
+once daily for a period of 8 weeks, the mean plasma con-
+centration varied between 84 (week 6) and 111 (week 8) 
+ng/ml (Sándor et  al. 1991). Thus, pig plasma levels of 
+0.34–0.44 μM were found after repeated exposure to doses 
+considered to correspond to an average CIT contamination 
+in feed in Central Europe. Much lower CIT plasma lev-
+els (about 0.001 μM) were measured recently in German 
+adults (Blaszkewicz et al. 2013; Ali N et al. unpublished 
+data). There is a much better data base for internal OTA 
+levels in animals and humans. The repeated oral adminis-
+tration of OTA doses (70 or 210 μg/kg b.w./day) known to 
+cause tumours in the chronic rodent bioassay resulted at 
+90 days in plasma concentrations of 2.34 and 7.44 μM in 
+male rats (Rached et al. 2007). In another study with male 
+rats given orally 120 μg/kg b.w./day, the blood plasma con-
+centration at 60 days was 22 μM, but lower (2.31 μM) in 
+kidney homogenate (Petrik et al. 2003). In humans, mean 
+OTA blood (plasma or serum) levels resulting from dietary 
+intake within the European Union range between 0.4 and 
+4 nM (EFSA 2006; EC/SCOOP 2002), whilst higher con-
+centrations, up to 100 nM (0.1 μM) OTA, have been found 
+in BEN patients (Hult et al. 1982; Petkova-Bocharova et al. 
+1991). Thus, circulating OTA levels in humans are orders 
+of magnitude lower than in experimental animals or con-
+centrations applied in in vitro studies for hazard character-
+ization. On the other hand, as discussed by Mally (2012) 
+in a recent review, there is the possibility of OTA uptake 
+in proximal tubule epithelium as an early event leading to 
+local enrichment in kidney target cells. Therefore, chronic 
+exposure to mycotoxins should be kept low. When dietary 
+exposure does not exceed tolerable daily intake values, it 
+is highly unlikely that critical internal concentrations are 
+reached, or combination effects for CIT and OTA as found 
+in vitro will exacerbate their toxicity.
+Conclusions
+Our comparative data on the cytotoxicity and genotoxicity 
+of CIT and DH-CIT clearly indicate that formation of this 
+metabolite can be regarded as a detoxification reaction.
+The major outcome of our studies on the combined 
+effects of CIT and OTA in V79 cells supports the view that 
+additive and/or synergistic effects occur only at rather high 
+concentrations, far above those observed in vivo in humans 
+with “normal” mycotoxin background exposure. In an 
+approach to get closer to the in vivo situation, combined 
+effects of lower concentrations should be tested, also in 
+typical target cells.
+Acknowledgments  We wish to thank Dr. Silvia Selinski for her 
+kind support in statistics and Anke Jung and Ingrid Ester for their 
+excellent technical assistance.
+References
+Babich H, Borenfreund E (1991) Cytotoxicity of T-2 toxin and its 
+metabolites determined with the neutral red cell viability assay. 
+Appl Environ Microbiol 57:2101–2103
+Behm C, Degen GH, Föllmann W (2009) The Fusarium toxin enni-
+atin B exerts no genotoxic activity, but pronounced cytotoxicity 
+in vitro. Mol Nutr Food Res 53:423–430
+Behm C, Föllmann W, Degen GH (2012) Cytotoxic potency of myco-
+toxins in cultures of V79 lung fibroblast cells. J Toxicol Environ 
+Health A 75:1226–1231
+Bernhoft A, Keblys M, Morrison E, Larsen HJ, Flåøyen A (2004) 
+Combined effects of selected Penicillium mycotoxins on in 
+vitro proliferation of porcine lymphocytes. Mycopathologia 
+158:441–450
+Blaszkewicz M, Muñoz K, Degen GH (2013) Methods for analysis of 
+citrinin in human blood and urine. Arch Toxicol 87:1087–1094
+Bouslimi A, Bouaziz C, Ayed-Boussema I, Hassen W, Bacha H 
+(2008a) Individual and combined effects of ochratoxin A and cit-
+rinin on viability and DNA fragmentation in cultured Vero cells 
+and on chromosome aberrations in mice bone marrow cells. Toxi-
+cology 251:1–7
+Bouslimi A, Ouannes Z, El Golli E, Bouaziz C, Hassen W, Bacha 
+H (2008b) Cytotoxicity and oxidative damage in kidney cells 
+exposed to the mycotoxins ochratoxin A and citrinin: individual 
+and combined effects. Toxicol Mech Methods 18:341–349
+Chang CH, Yu FY, Wu TS, Wang LT, Liu BH (2011) Mycotoxin cit-
+rinin induced cell cycle G2/M arrest and numerical chromosomal 
+aberration associated with disruption of microtubule formation in 
+human cells. Toxicol Sci 119:84–92
+Chu FS (1971) Interaction of ochratoxin A with bovine serum albu-
+min. Arch Biochem Biophys 147:359–366
+Countryman PI, Heddle JA (1976) The production of micronuclei 
+from chromosome aberrations in irradiated cultures of human 
+lymphocytes. Mutat Res 41:321–332
+Creppy EE, Lorkowski G, Beck G, Röschenthaler R, Dirheimer 
+G (1980) Combined action of citrinin and ochratoxin A on 
+hepatoma tissue culture cells. Toxicol Lett 5:375–380
+Cui J, Xing L, Li Z, Wu S, Wang J, Liu J, Wang J, Yan X, Zhang 
+X (2010) Ochratoxin A induces G2 phase arrest in human gastric 
+epithelium GES-1 cells in vitro. Toxicol Lett 193:152–158
+Degen GH (2011) Tools for investigating workplace-related risks 
+from mycotoxin exposure. World Mycotoxin J 4:315–327
+Degen GH, Gerber MM, Obrecht-Pflumio S, Dirheimer G (1997) 
+Induction of micronuclei with ochratoxin A in ovine seminal ves-
+icle cell cultures. Arch Toxicol 71:365–371
+Degen GH, Muñoz K, Hengstler JG (2013) Occurrence of mycotoxins 
+in breast milk. In: Zibadi S, Watson RR, Preedy V (eds) Handbook 
+of Dietary and Nutritional Aspects of Human Breast Milk. Wagen-
+ingen Academic, Wageningen, The Netherlands, pp 813–831 
+Dönmez-Altuntas H, Dumlupinar G, Imamoglu N, Hamurcu Z, 
+Liman BC (2007) Effects of the mycotoxin citrinin on micronu-
+cleus formation in a cytokinesis-block genotoxicity assay in cul-
+tured human lymphocytes. J Appl Toxicol 27:337–341
+Dorn S, Bolt HMB, Thevis M, Diel P, Degen GH (2008) Induction 
+of micronuclei in V79 cells by the anabolic steroids tetrahydro-
+gestrinone and trenbolone. Arch Toxicol 82:257–263
+
+Arch Toxicol	
+1 3
+Duarte SC, Pena A, Lino CM (2011) Human ochratoxin A biomark-
+ers—from exposure to effect. Crit Rev Toxicol 41:187–212
+Dunn BB, Stack ME, Park DL, Joshi A, Friedman L, King RL (1983) 
+Isolation and identification of dihydrocitrinone, a urinary metabo-
+lite of citrinin in rats. J Toxicol Environ Health 12:283–289
+EC/SCOOP—European Commission (2002) Assessment of dietary 
+intake of ochratoxin A by the population of EU Member States. 
+Report of the Scientific Cooperation, Task 3.2.7. Directorate-
+General Health and Consumer Protection, European Commis-
+sion. http://ec.europa.eu/food/fs/scoop/index_en.html
+EU Commission Regulation No 1881/2006 of 19 December 2006 set-
+ting maximum levels for certain contaminants in foodstuffs. Off J 
+L 364, 20.12.2006, p 5
+European Food Safety Authority (EFSA) (2006) Opinion of the sci-
+entific panel on contaminants in the food chain on a request 
+from the commission related to ochratoxin A in food. EFSA J 
+365:1–56
+European Food Safety Authority (EFSA) Panel on Contaminants in 
+the Food Chain (CONTAM) (2012) Scientific Opinion on the 
+risks for public and animal health related to the presence of cit-
+rinin in food and feed. EFSA J 10:2605
+Fenech M (1993) The cytokinesis-block micronucleus technique: a 
+detailed description of the method and its application to genotox-
+icity studies in human populations. Mutat Res 285:35–44
+Flajs D, Peraica M (2009) Toxicological properties of citrinin. Arh 
+Hig Rada Toksikol 60:457–464
+Föllmann W, Lebrun S, Kullik B, Koch M, Römer HC, Golka K 
+(2000) Cytotoxicity of ochratoxin A and citrinin in different cell 
+types in vitro. Mycotoxin Res 16:123–126
+Föllmann W, Behm C, Degen GH (2007) Induction of micronuclei by 
+ochratoxin A is a sensitive parameter of its genotoxicity in cul-
+tured cells. Mycotoxin Res 23:101–109
+Föllmann W, Behm C, Degen GH (2009) The emerging Fusarium 
+toxin enniatin B: in vitro studies on its genotoxic potential and 
+cytotoxicity in V79 cells in relation to other mycotoxins. Myco-
+toxin Res 25:11–19
+Frisvad JC, Thrane U, Samson RA, Pitt JI (2006) Important myco-
+toxins and the fungi which produce them. Adv Exp Med Biol 
+571:3–31
+Galtier P, Charpenteau JL, Alvinerie M, Labouche C (1979) The phar-
+macokinetic profile of ochratoxin A in the rat after oral and intra-
+venous administration. Drug Metab Dispos 7:429–434
+Grosse Y, Baudrimont I, Castegnaro M, Betbeder AM, Creppy EE, 
+Dirheimer G, Pfohl-Leszkowicz A (1995) Formation of ochra-
+toxin A metabolites and DNA-adducts in monkey kidney cells. 
+Chem Biol Interact 95:175–187
+Heussner AH, Dietrich DR, O′Brien E (2006) In vitro investigation 
+of individual and combined cytotoxic effects of ochratoxin A 
+and other selected mycotoxins on renal cells. Toxicol In Vitro 
+20:332–341
+Hult K, Plestina R, Habazin-Novak V, Radic B, Ceovic S (1982) 
+Ochratoxin A in human blood and balkan endemic nephropathy. 
+Arch Toxicol 51:313–351
+IARC (International Agency for Research on Cancer) (1986) Citrinin: 
+some naturally occurring and synthetic food components, furo-
+coumarins and ultraviolet radiation. IARC Monogr Eval Car-
+cinog Risk Chem Hum 40:67
+IARC (International Agency for Research on Cancer) (1993) Some 
+naturally occurring substances: heterocyclic aromatic amines 
+and mycotoxins. IARC Monogr Eval Carcinog Risk Chem Hum 
+56:397–444
+Kamp HG, Eisenbrand G, Schlatter J, Würth K, Janzowski C (2005) 
+Ochratoxin A: induction of (oxidative) DNA damage, cytotoxic-
+ity and apoptosis in mammalian cell lines and primary cells. Tox-
+icology 206:413–425
+Klaric´ MS, Zelježic´ D, Rumora L, Peraica M, Pepeljnjak S, Domi-
+jan AM (2012) A potential role of calcium in apoptosis and aber-
+rant chromatin forms in porcine kidney PK15 cells induced by 
+individual and combined ochratoxin A and citrinin. Arch Toxicol 
+86:97–107
+Knasmüller S, Cavin C, Chakraborty A, Darroudi F, Majer BJ, Huber 
+WW, Ehrlich VA (2004) Structurally related mycotoxins ochra-
+toxin A, ochratoxin B, and citrinin differ in their genotoxic activi-
+ties and in their mode of action in human-derived liver (HepG2) 
+cells: implications for risk assessment. Nutr Cancer 50:190–197
+Knecht A, Schwerdt G, Gekle M, Humpf H-U (2005) Combinatory 
+effects of citrinin and ochratoxin A in immortalized human proxi-
+mal tubule cells. Mycotoxin Res 21:176–181
+Krishan A (1975) Rapid flow cytofluorometric analysis of mammalian 
+cell cycle by propidium iodide staining. J Cell Biol 66:188–193
+Mally A (2012) Ochratoxin A and mitotic disruption: mode of action 
+analysis of renal tumor formation by ochratoxin A. Toxicol Sci 
+127:315–330
+Palma N, Cinelli S, Sapora O, Wilson SH, Dogliotti E (2007) Ochra-
+toxin A-induced mutagenesis in mammalian cells is consist-
+ent with the production of oxidative stress. Chem Res Toxicol 
+20:1031–1037
+Petkova-Bocharova T, Castegnaro M, Michelon J, Maru V (1991) 
+Ochratoxin A and other mycotoxins in cereals from an area of 
+Balkan endemic nephropathy and urinary tract tumours in Bul-
+garia in mycotoxin, endemic nephropathy and urinary tract 
+tumours. In: Castegnaro M, Pleština R, Driheimer G, Chernozem-
+sky IN, Bartsch H (eds.) IARC Scientific Publications 115:83–87
+Petrik J, Zanic´-Grubisic´ T, Barisic´ K, Pepeljnjak S, Radic´ B, Feren-
+cic´ Z, Cepelak I (2003) Apoptosis and oxidative stress induced by 
+ochratoxin A in rat kidney. Arch Toxicol 77:685–693
+Pfeiffer E, Gross K, Metzler M (1998) Aneuploidogenic and clasto-
+genic potential of the mycotoxins citrinin and patulin. Carcino-
+genesis 19:1313–1318
+Rached E, Hard GC, Blumbach K, Weber K, Draheim R, Lutz WK, 
+Ozden S, Steger U, Dekant W, Mally A (2007) Ochratoxin A: 
+13-week oral toxicity and cell proliferation in male F344/N rats. 
+Toxicol Sci 97:288–298
+Riccardi C, Nicoletti I (2006) Analysis of apoptosis by propidium 
+iodide staining and flow cytometry. Nat Protoc 1:1458–1461
+Sándor G, Busch A, Watzke H, Reek J, Ványi A (1991) Subacute tox-
+icity testing of ochratoxin A and citrinin in swine. Acta Vet Hung 
+39:149–160
+Speijers GJA, Speijers MHM (2004) Combined toxic effects of myco-
+toxins. Toxicol Lett 153:91–98
+WHO/IPCS (International Programme on Chemical Safety) (2001) 
+Safety evaluation of certain mycotoxins in food. WHO Food 
+Addit Ser 47:103–415
+Xu B, Jia X, Gu L, Sung C (2006) Review on the qualitative and 
+quantitative analysis of the mycotoxin citrinin. Food Control 
+17:271–285

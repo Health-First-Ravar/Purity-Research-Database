@@ -1,0 +1,79 @@
+name: Research Auto-Sync
+
+on:
+  schedule:
+    - cron: '0 11 * * *'   # daily 11:00 UTC (after COA sync)
+  workflow_dispatch:
+    inputs:
+      force_embed:
+        description: 'Re-embed the entire knowledge base (ignore incremental)'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write          # commit pulled papers + manifest
+  id-token: write          # Workload Identity Federation
+
+concurrency:
+  group: research-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Authenticate to Google (WIF, no key)
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: ${{ vars.GCP_WIF_PROVIDER }}
+          service_account: ${{ vars.GCP_SERVICE_ACCOUNT }}
+
+      - name: Install Python deps
+        run: pip install -r scripts/requirements.txt
+
+      - name: Install Node deps
+        working-directory: dashboard/app
+        run: npm ci
+
+      - name: Pull new research papers from Drive
+        env:
+          DRIVE_RESEARCH_FOLDER_ID: ${{ vars.DRIVE_RESEARCH_FOLDER_ID }}
+        run: python3 scripts/pull-new-research.py
+
+      - name: Embed knowledge base into chunks
+        working-directory: dashboard/app
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          VOYAGE_API_KEY: ${{ secrets.VOYAGE_API_KEY }}
+        run: npm run ingest
+
+      - name: Refresh bibliography catalog
+        working-directory: dashboard/app
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+        # Idempotent upsert from the 448-row xlsx catalog. Safe to run every time;
+        # only changed/new rows are written.
+        continue-on-error: true
+        run: npm run import-bibliography
+
+      - name: Commit pulled papers + manifest
+        run: |
+          git config user.name  "research-sync-bot"
+          git config user.email "bot@puritycoffee.com"
+          git add knowledge-base/research/ || true
+          git diff --cached --quiet || git commit -m "Research auto-sync $(date -u +%F)"
+          git push || true

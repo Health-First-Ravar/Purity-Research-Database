@@ -1,0 +1,1415 @@
+Accepted Manuscript
+Prediction of key aroma development in coffees roasted to different degrees by
+colorimetric sensor array
+Su-Yeon Kim, Jung-A Ko, Bo-Sik Kang, Hyun-Jin Park
+PII:
+S0308-8146(17)31293-1
+DOI:
+http://dx.doi.org/10.1016/j.foodchem.2017.07.139
+Reference:
+FOCH 21523
+To appear in:
+Food Chemistry
+Received Date:
+27 February 2017
+Revised Date:
+6 July 2017
+Accepted Date:
+25 July 2017
+Please cite this article as: Kim, S-Y., Ko, J-A., Kang, B-S., Park, H-J., Prediction of key aroma development in
+coffees roasted to different degrees by colorimetric sensor array, Food Chemistry (2017), doi: http://dx.doi.org/
+10.1016/j.foodchem.2017.07.139
+This is a PDF file of an unedited manuscript that has been accepted for publication. As a service to our customers
+we are providing this early version of the manuscript. The manuscript will undergo copyediting, typesetting, and
+review of the resulting proof before it is published in its final form. Please note that during the production process
+errors may be discovered which could affect the content, and all legal disclaimers that apply to the journal pertain.
+
+  
+1 
+ 
+ 
+1 
+ 
+2 
+Prediction of key aroma development in coffees roasted to different degrees 
+3 
+by colorimetric sensor array 
+4 
+ 
+5 
+Su-Yeon Kima, Jung-A Koa, Bo-Sik Kangb,*, Hyun-Jin Parka,* 
+6 
+ 
+7 
+ 
+8 
+ 
+9 
+aDepartment of Biotechnology, College of Life Sciences and Biotechnology, Korea University, Anam-dong, 
+10 
+Seongbuk-gu, Seoul, 02841, Republic of Korea 
+11 
+bDepartment of Wine and Coffee, Daekyeung University, Jain-myeon, Gyeongsan-Si, Gyeongbuk, 38547, 
+12 
+Republic of Korea 
+13 
+ 
+14 
+*Corresponding authors. Tel.: +82 31 698 2100; fax: +82 31 737 6059; E-mail address: csfbsk@csfood.com, Tel.: 
+15 
++82 2 3290 3450; fax: +82 2 953 5892; E-mail address: hjpark@korea.ac.kr  
+16 
+ 
+17 
+ 
+18 
+ 
+ 
+19 
+
+  
+2 
+ 
+Abstract 
+20 
+We developed a colorimetric sensor array (CSA) that is sensitive to highly contributory volatile compounds of 
+21 
+coffee aroma for discrimination of coffee samples roasted to different roast degrees. Strecker aldehydes and α-
+22 
+diketones were significantly higher for the medium roast than the other roast degrees. The development of 
+23 
+several sulfur compounds was pronounced in the medium-dark and dark roasts, except for dimethyl sulfide, 
+24 
+which was only detected in the light roast. The CSA method coupled with principal component analysis or 
+25 
+hierarchical cluster analysis successfully distinguished the roasted coffee samples according to roast degree. 
+26 
+Partial least squares regression results showed that the CSA responses were well-correlated with the 
+27 
+concentrations of volatile compounds in the coefficient of determination (rp
+2) range of 0.686–0.955. These 
+28 
+results demonstrate that the CSA rapidly responded to coffee aroma compounds and was capable of predicting 
+29 
+coffee aroma development.  
+30 
+ 
+31 
+ 
+32 
+Keywords: colorimetric artificial nose, cross-responsive sensor, multivariate analysis, 
+33 
+roast degree, coffee roasting 
+34 
+ 
+ 
+35 
+
+  
+3 
+ 
+1. Introduction 
+36 
+The ultimate purpose of roasting coffee beans is to impart desired flavors for consumers by causing various 
+37 
+physical and chemical changes in the coffee beans. The color and characteristic flavor of coffee beans are 
+38 
+developed via a complex series of reactions involving precursors in green beans, such as the Maillard reaction, 
+39 
+Strecker degradation, breakdown of amino acids, and interactions between intermediate decomposition products 
+40 
+(Baggenstoss, Poisson, Kaegi, Perren, & Escher, 2008; Buffo & Cardelli-Freire, 2004; Wang & Lim, 2014). 
+41 
+Numerous studies have focused on roasting (e.g., roast degree and roasting time and temperature profiles) 
+42 
+because of the significant impact of roasting on the formation of several hundreds of chemical compounds 
+43 
+associated with coffee flavor that are directly linked to coffee quality (Baggenstoss, Poisson, Kaegi, Perren, & 
+44 
+Escher, 2008; Gloess, Vietri, Wieland, Smrke, Schönbächler, et al., 2014; Santos, Viegas, Páscoa, Ferreira, 
+45 
+Rangel, & Lopes, 2016; Sunarharum, Williams, & Smyth, 2014). Flavor is a combination of aroma, taste, 
+46 
+texture, and mouthfeel and chemesthesis or trigeminal sensations; among these, aroma is the most important 
+47 
+component, allowing consumers to recognize coffee flavors (Sunarharum, Williams, & Smyth, 2014). In this 
+48 
+regard, Bhumiratana, Adhikari, and Chambers (2011) found that a light roast gives sweet, cocoa, and nutty 
+49 
+aromas, whereas a dark roast produces burnt/acrid, ashy/sooty, sour, pungent, coffee, and roasted aromas. 
+50 
+Bhumiratana, Adhikari, and Chambers (2011); Schenker, Heinemann, Huber, Pompizzi, Perren, and Escher 
+51 
+(2002) reported that a more complex aroma profile was exhibited at a medium degree of roast, for which the 
+52 
+highest increase in the concentration of aroma compounds was observed. A previous study by Baggenstoss, 
+53 
+Poisson, Kaegi, Perren, and Escher (2008) showed that rapid roasting (high temperature-short time roasting) led 
+54 
+to considerable differences in aroma formation compared to slow roasting (low temperature-long time roasting). 
+55 
+Thus, it is important to develop an optimal roasting profile to satisfy consumer preferences while maintaining 
+56 
+the quality of coffee products. In addition, monitoring the quality of coffee product is required to meet consumer 
+57 
+expectations; a rapid analytical tool is needed to detect coffee flavor development during roasting and identify 
+58 
+different coffee products with different roasting profiles (Dorfner, Ferge, Yeretzian, Kettrup, & Zimmermann, 
+59 
+2004; Gloess, Vietri, Wieland, et al., 2014).  
+60 
+More than 800 volatile compounds have been identified in roasted coffees (Buffo & Cardelli-Freire, 2004; 
+61 
+Czerny, Mayer, & Grosch, 1999). Despite the complexity of coffee flavor, previous investigations revealed that 
+62 
+
+  
+4 
+ 
+as few as 20–30 volatile compounds are predominantly responsible for the characteristic coffee aroma (Blank, 
+63 
+Sen, & Grosch, 1992; Czerny, Mayer, & Grosch, 1999; Semmelroch, Laskawy, Blank, & Grosch, 1995). Sulfur 
+64 
+compounds such as sulfides and thiols, particularly 2-furfurylthiol, are the most important aroma compounds in 
+65 
+coffee because of their extremely low odor thresholds and concentrations, resulting in a greater olfactory 
+66 
+contribution to coffee flavor (Baggenstoss, Poisson, Kaegi, Perren, & Escher, 2008; Dulsat-Serra, Quintanilla-
+67 
+Casas, & Vichi, 2016; Sunarharum, Williams, & Smyth, 2014). Strecker aldehydes, such as methylpropanal, 2-
+68 
+methylbutanal, and 3-methylbutanal, were found to be potent compounds affecting coffee aroma (Czerny, Mayer, 
+69 
+& Grosch, 1999; Holscher & Steinhar, 1992). Czerny, Mayer, and Grosch (1999) through sensory analyses 
+70 
+determined that these Strecker aldehydes are responsible for malty notes. α-Dicarbonyls such as 2,3-butanedione 
+71 
+and 2,3-pentanedione have been proposed as indices for aroma freshness of coffee brews by Pérez-Martínez, 
+72 
+Sopelana, De Pena, and Cid (2008), who reported that decreases in these compounds in coffee brews was 
+73 
+dependent on storage period, which significantly affected several sensory notes.  
+74 
+The volatile compounds responsible for coffee aroma are typically investigated using various forms of 
+75 
+headspace sampling methods, mainly solid-phase microextraction (SPME) and gas chromatography (GC) 
+76 
+coupled to either mass spectrometry (MS) or flame ionization detector (FID) (Cheong, Tong, Ong, Liu, Curran, 
+77 
+& Yu, 2013; Lee, Cheong, Curran, Yu, & Liu, 2015; Yang, Liu, Liu, Degn, Munchow, & Fisk, 2016). GC-based 
+78 
+methods are the commonly used techniques, but component-by-component analysis has important limitations 
+79 
+and must be conducted by a skilled operator; the operations are also cumbersome and time-consuming. A 
+80 
+sensor-based method may overcome these limitations. In several studies, an electronic nose (E-nose) system was 
+81 
+used either to monitor and predict coffee roasting or to differentiate different coffee samples (Gardner, Shurmer, 
+82 
+& Tan, 1992; Romani, Cevoli, Fabbri, Alessandrini, & Dalla Rosa, 2012). Suslick, Feng, and Suslick (2010) 
+83 
+successfully applied a colorimetric sensor array (CSA) technique to differentiate between coffee samples. These 
+84 
+sensor-based methods are advantageous for discrimination of similar complex mixtures such as coffee because 
+85 
+they are faster, easier to use, and less costly compared to conventional analytical methods. Moreover, the CSA 
+86 
+technique is a promising analytical tool based on strong chemical interactions between a sensor and analytes, 
+87 
+including Brønsted and Lewis acid-base, hydrogen bonding, dipolar, and π–π interactions, rather than weak 
+88 
+interactions, including van der Waals and physical adsorption, on which E-nose is exclusively based (Askim, 
+89 
+Mahmoudi, & Suslick, 2013). In addition, the CSA technique successfully discriminated complex food matrices 
+90 
+
+  
+5 
+ 
+in beverages such as beers (Zhang, Bailey, & Suslick, 2006), soft drinks (Zhang & Suslick, 2007), and green 
+91 
+teas (Huo, Wu, Yang, Fa, Luo, & Hou, 2014). CSA-based methods have also shown potential for recognizing 
+92 
+changes in the volatile compositions of foodstuffs, such as those in vinegar during fermentation (Guan, Zhao, 
+93 
+Cai, Lin, Yao, & Sun, 2014), and in fish (Zaragozá, Fuentes, Fernández-Segovia, Vivancos, Rizo, Ros-Lis, et al., 
+94 
+2013), pork (Huang, Zou, Shi, Guo, Zhao, Zhang, et al., 2014), and cooked chicken during storage (Kim, Li, 
+95 
+Lim, Kang, & Park, 2016).  
+96 
+The aim of this study was to develop a simple and rapid CSA-based method to differentiate between coffee 
+97 
+samples roasted to different roast degrees. The array was fabricated using 2,4-dinitrophenylydrazine (DNPH) as 
+98 
+an aldehyde- and ketone-specific sensing material and 5,5′-dithiobis(2-nitrobenzoic acid) (DTNB) as a thiol- 
+99 
+and sulfide-specific sensing material so that the sensor array would be more sensitive to important coffee aroma 
+100 
+compounds, such as Strecker aldehydes, α-diketones, thiols, and sulfides, than to other chemical species in 
+101 
+roasted coffee. We demonstrated the potential of the CSA method to detect important volatile compounds known 
+102 
+as ‘key odorants’ by determining the good relationships between GC and CSA methods using partial least square 
+103 
+regression (PLSR).  
+104 
+ 
+105 
+2. Materials and methods 
+106 
+2.1. Sample preparation 
+107 
+Arabica green coffee beans, which were harvested in the Chiapas of Mexico at an altitude of 1300–1600 m and 
+108 
+processed by the washed method, were purchased from an importer. Coffee roasting was conducted using a 
+109 
+Hottop roaster (Model KN-8828P; Chang Yue Industrial Co., Tainan, Taiwan). Approximately 250 g green beans 
+110 
+were poured into the roasting chamber at 75 °C, as recommended by the manufacturer, and roasted using the 
+111 
+automatic roasting program. Once the temperature of the roasting chamber on the display reached 187 °C (light 
+112 
+roast), 202 °C (medium roast), 217 °C (medium-dark roast), or 225 °C (dark roast), the roasted coffee beans 
+113 
+were ejected from the roasting chamber into the cooling tray for automatic cooling for 5 min. The roasted beans 
+114 
+were cooled for an additional 30 min at room temperature (approximately 25 °C) and finely ground using a 
+115 
+coffee grinder (Model Super Jolly Electronic; Mazzer Luigi S.R.L., Venice, Italy) immediately before each 
+116 
+
+  
+6 
+ 
+usage. Roasting degrees were established based on roasting progress: light roast, the point at the beginning of 
+117 
+the first crack; medium roast, the point at the peak of the first crack; medium-dark roast, the point at the 
+118 
+beginning of the second crack; dark roast, the point at the end of the second crack.  
+119 
+ 
+120 
+2.2. Color values, weight loss, and moisture content of the samples 
+121 
+The L*, a*, and b* values of the samples were analyzed using a chromameter (Model CR-400; Konica Minolta 
+122 
+Sensing, Inc., Tokyo, Japan) (Wang & Lim, 2014). L* indicates the lightness (0, black and 100, white). a* is 
+123 
+red/green coordinate (+, red and −, green) and b* is yellow/blue coordinate (+, yellow and −, blue). 
+124 
+Approximately 12 g of each ground roasted coffee sample were placed in a Petri dish (ø = 60 mm) and covered 
+125 
+with the lid of a Petri dish to level the surface. After removing each lid, the L*, a*, and b* values of different 
+126 
+three areas on the surface in the Petri dish were measured and averaged. The mean for each sample was obtained 
+127 
+from triplicate measurements. The weight loss of each sample was measured immediately after cooling and was 
+128 
+expressed as the mean obtained from triplicate measurements. The moisture content of the samples was 
+129 
+determined using a moisture analyzer (Model MX-50; A&D Co., Ltd., Seoul, Korea). The values were measured 
+130 
+seven times for each sample and averaged.  
+131 
+ 
+132 
+2.3. Determination of volatile compounds  
+133 
+2.3.1. Extraction of volatile compounds by headspace solid-phase microextraction (HS-
+134 
+SPME) 
+135 
+Approximately 2.0 g of ground roasted coffee sample were transferred into a 20-mL headspace-vial containing a 
+136 
+magnetic stir bar and then 6 mL of saturated sodium chloride solution and 10 µL of fluorobenzene solution (50 
+137 
+mg/L in methanol) as an internal standard were added. The vial was tightly capped with a silicon septum and 
+138 
+allowed to equilibrate for 90 min at room temperature under constant agitation on a magnetic stirrer (Model MS-
+139 
+300HS; Misung Scientific Co., Ltd., Seoul, Korea). Next, an 85-µm Carboxen/polydimethylsiloxane 
+140 
+(CAR/PDMS) SPME fiber (Supelco, Bellefonte, PA) was exposed to the headspace of the vial for 20 min at 
+141 
+
+  
+7 
+ 
+room temperature under stirring. After extraction, the fiber was inserted into the injection port of the GC for 10 
+142 
+min at 230 °C (Akiyama, Murakami, Ohtani, Iwatsuki, Sotoyama, Wada, et al., 2003; Petisca, Pérez-Palacios, 
+143 
+Pinho, & Ferreira, 2014).  
+144 
+ 
+145 
+2.3.2. Gas chromatography-flame ionization detection (GC-FID) 
+146 
+Analyses were performed on a model 7890 GC (Agilent Technologies, Santa Clara, CA) with a DB-WAX 
+147 
+column (60 m × 0.25 mm × 0.25 µm, Agilent Technologies). The flow of helium carrier gas was 1.0 mL/min and 
+148 
+split mode (10:1) was used. The oven temperature was maintained at 50 °C for 2 min and then increased at 
+149 
+5 °C/min until 230 °C. The detector was maintained at 250 °C.  
+150 
+ 
+151 
+2.3.3. Quantification of volatile compounds 
+152 
+To calculate the concentrations of the ten targeted volatile compounds, calibration curves were determined by 
+153 
+adding each mixed-solution of authentic volatile compounds of known concentration with the internal standard 
+154 
+to a deodorized coffee sample as a blank matrix (Du, Song, Baldwin, & Rouseff, 2015). The blank matrix was 
+155 
+obtained by pumping the volatile compounds in ground light-roasted coffee in a vacuum oven at room 
+156 
+temperature for 12 h. The mixed-authentic standard solutions, containing ranges of 233.5–7472.5 mg/L for 2-
+157 
+methylpropanal, 601.6–9625.0 mg/L for 2,3-butanedione, 473.6–7577.5 mg/L for 3-methylbutanal, 238.6–
+158 
+7636.3 mg/L for 2-methylbutanal, 576.0–9216.3 mg/L for 2,3-pentanedione, 7.5–119.5 mg/L for dimethyl 
+159 
+sulfide, 10.2–654.9 mg/L for dimethyl disulfide, 40.1–2565.6 mg/L for methional, 10.7–2730.7 mg/L for 2-
+160 
+furfurylthiol, and 11.3–2901.6 mg/L for dimethyl trisulfide, were used to draw calibration curves considering 
+161 
+the actual concentrations in the coffee samples.  
+162 
+Approximately 2.0 g of the matrix and 6 mL of saturated NaCl solution were transferred into a 20-mL headspace 
+163 
+vial. Next, 10 µL of mixed-authentic standard solution and 10 µL of internal standard solution were added and 
+164 
+tightly capped with a silicon septum. For the blank test, there was no addition of a mixed-authentic standard 
+165 
+solution. As described in Section 2.3.1, analysis was conducted after volatile compound extraction after 90 min 
+166 
+of equilibration. The coefficient of determination (r2) for individual calibration curves was 0.9912–0.9995 
+167 
+
+  
+8 
+ 
+(Table S1).  
+168 
+ 
+169 
+2.4. Fabrication of CSA and data collection 
+170 
+2.4.1. Preparation of stock solutions 
+171 
+Stock solutions of (1) DNPH, (2) pH indicators, (3) polyethylene glycol (PEG)-400, and (4) DTNB were 
+172 
+prepared as follows:  
+173 
+(1) Approximately 1.0 g of DNPH was dissolved in a mixed solution of 3 mL of water and 10 mL of ethanol, 
+174 
+and then 5 mL of concentrated sulfuric acid were added dropwise during magnetic stirring. After 10 min of 
+175 
+stirring, the solution was filtered through a filter paper.  
+176 
+(2) Nine pH indicator solutions were prepared using thymol blue, cresol red, bromocresol purple, neutral red, 
+177 
+bromoxylenol blue, metanil yellow, bromothymol blue, bromophenol blue, and chlorophenol red. 
+178 
+Approximately 5 mg of each pH indicator were dissolved in 10 mL of ethanol.  
+179 
+(3) Approximately 2.0 g of PEG-400 were dissolved in ethanol and adjusted to a volume of 20 mL with ethanol.  
+180 
+(4) Approximately 5.0 mg of DTNB were dissolved in 5 mL of phosphate buffer (pH 7.0).  
+181 
+ 
+182 
+2.4.2. Fabrication of CSA 
+183 
+Two classes of sensing materials were prepared.  
+184 
+The first class consisted of six sensing materials to detect carbonyl compounds, such as aldehydes and ketones. 
+185 
+One of the six pH indicator solutions, including thymol blue, cresol red, bromocresol purple, neutral red, 
+186 
+bromoxylenol blue, and metanil yellow, was added to a mixed solution of DNPH and PEG-400, so that the ratios 
+187 
+of pH indicator/DNPH/PEG-400 were 1:3:3.  
+188 
+The second class consisted of six sensing materials to detect sulfur compounds, such as thiols and sulfides. One 
+189 
+of the six pH indicator solutions, including bromothymol blue, cresol red, bromoxylenol blue, bromophenol blue, 
+190 
+
+  
+9 
+ 
+chlorophenol red, and metanil yellow, was added to a mixed solution of DTNB, PEG-400, and 0.1 N NaOH, so 
+191 
+that the ratios of pH indicator/DTNB/PEG-400/0.1 N NaOH were 1:3:3:1. To fabricate the 3 × 4 CSA, the 
+192 
+twelve sensing materials were printed on a polyvinylidene fluoride membrane using a micropipette. The array 
+193 
+was dried in a fume hood for 30 min and used for analysis. 
+194 
+ 
+195 
+2.4.3. Data collection 
+196 
+As shown in Fig S1, an online monitoring system coupled with Color Analysis software was used (Kim, Li, Lim, 
+197 
+Kang, & Park, 2016). The CSA was placed in the reaction chamber and 10.0 g of sample were transferred to the 
+198 
+sample chamber. The sample was allowed to stand for 5 min under nitrogen gas flow at 300 mL/min towards A 
+199 
+to stabilize the array and equilibrate the headspace of the sample chamber. Next, two three-way valves were 
+200 
+concurrently turned towards B, and CSA images were immediately captured by a digital camera at 0.5-min 
+201 
+intervals for 4.5 min. Following analysis, all gas lines were purged with nitrogen gas at 300 mL/min for 
+202 
+subsequent analyses.  
+203 
+Color Analysis software was used to extract color values (R, red; G, green; and B, blue) from the captured CSA 
+204 
+images. Averaged color values were extracted from the center of each sensing spot in a collected image, and 
+205 
+then values of color change (∆R, Rf–Ri; ∆G, Gf–Gi; and ∆B, Bf–Bi) were obtained by subtracting the color 
+206 
+values of the initial image (Ri, Gi, and Bi) from the color values of the final images (Rf, Gf, and Bf). The reaction 
+207 
+time for CSA analysis was set to 4 min, at which the total Euclidean distances stabilized (Fig. S2).  
+208 
+To recognize color differences between samples with the naked eye, a color difference image of the array for 
+209 
+each sample was obtained by expanding the mean color change values in the spots of the first dye class from 0–
+210 
+20 to 0–255 and in the spots of the second dye class from 0–50 to 0–255 using PowerPoint version 2016 
+211 
+(Microsoft Co.). The mean color change values were obtained from six replicate CSA analyses.  
+212 
+ 
+213 
+2.5. Statistical analysis 
+214 
+One-way analysis of variance (ANOVA) was conducted on the color values, weight loss, moisture content, and 
+215 
+
+  
+10 
+ 
+concentrations of volatile compounds, and Duncan’s multiple range test was applied when ANOVA revealed p < 
+216 
+0.05. The GC and CSA datasets (i.e., 4 sample groups × 6 replicates) were studied by principal component 
+217 
+analysis (PCA) and hierarchical analysis (HCA), not only to determine whether the samples could be classified 
+218 
+by different roast degrees but also to demonstrate the feasibility of the CSA method. Each trial for the GC and 
+219 
+CSA methods provided 10-dimensional (concentrations of 10 compounds) and 36-dimensional vectors (3 color 
+220 
+components × 12 sensing materials), and all data for the vector were used for statistical analyses. Partial least 
+221 
+squares regression (PLSR) was used to investigate the correlation between the independent variables (CSA color 
+222 
+responses of the sensing materials of the first class) and dependent variables (concentrations of carbonyl 
+223 
+compounds) and between the independent variables (CSA color responses of the sensing materials of the second 
+224 
+class) and dependent variables (concentrations of sulfur compounds). To avoid overfitting, the total of 24 
+225 
+samples was divided into 2 subsets; 12 samples (3 of 6 replicates for each roast degree) were assigned to a 
+226 
+calibration for modelling. The other 12 samples (3 of 6 replicates for each roast degree) were assigned to a 
+227 
+prediction set, to test the performance of the final model. The robustness of each established model was 
+228 
+evaluated by determining the coefficient of determination (r2), root mean square error of calibration (RMSEC), 
+229 
+and root mean square error of prediction (RMSEP) for each model. Significant differences between RMSEC and 
+230 
+RMSEP were determined by independent-sample t-test. All data were used without any further treatments.  
+231 
+ 
+232 
+3. Results and discussion 
+233 
+3.1. Color values, weight loss, and moisture content of roasted coffee samples 
+234 
+Table 1 shows the color values, weight loss, and moisture content of the samples. These parameters have been 
+235 
+proposed as indicators for determining an optimal roast degree, although there is no accepted definition for this 
+236 
+determination (Yang, Liu, Liu, Degn, Munchow, & Fisk, 2016). The L*, a*, and b* values of the samples 
+237 
+significantly decreased with roast degree, whereas weight loss increased depending on roast degree. These 
+238 
+trends were also observed in previous studies (Cho, Park, Kim, Kim, & Han, 2014; Wang & Lim, 2014). The 
+239 
+moisture contents of the samples ranged from 2.14 ± 0.37% to 3.27 ± 0.18%. The content of the samples 
+240 
+significantly decreased according to roast degree, but there was no significant difference between the medium-
+241 
+dark-roasted sample and dark-roasted sample. In general, the moisture content of green coffee beans decreases 
+242 
+
+  
+11 
+ 
+from approximately 8–12% to 2–3% after roasting (Gloess, Vietri, Wieland, Smrke, Schönbächler, López, et al., 
+243 
+2014; Schenker, Heinemann, Huber, Pompizzi, Perren, & Escher, 2002). We observed a similar tendency in our 
+244 
+roasted coffee samples.  
+245 
+ 
+246 
+3.2. Discrimination of coffee samples roasted to different degrees by HS-SPME-GC-FID  
+247 
+The concentrations of volatile compounds in the samples are shown in Table 2, and chromatographic results are 
+248 
+shown in Fig. S3 and Fig. S4. Quantified compounds are regarded as potent aroma compounds in roasted coffee, 
+249 
+and can be also used either as markers for aroma freshness of coffee or as indicators for distinguishing coffees 
+250 
+of different origin (Holscher & Steinhart, 1992; Mayer, Czerny, & Grosch, 1999; Pérez-Martínez, Sopelana, De 
+251 
+Pena, & Cid, 2008). Although sulfur compounds are present at low levels in roasted coffee, these compounds 
+252 
+play an important role in coffee aroma because of their very low odor thresholds (Sunarharum, Williams, & 
+253 
+Smyth, 2014). Dimethyl sulfide is a marker for the aroma freshness of roasted coffee and may be derived from 
+254 
+the thermal degradation of methionine or S-methylmethionine during roasting (Baggenstoss, Poisson, Kaegi, 
+255 
+Perren, & Escher, 2008). Dimethyl sulfide was detected in the light-roasted coffee sample at a concentration of 
+256 
+0.10 ± 0.01 mg/kg, but was not detected in further roasted coffee samples. Dimethyl disulfide is considered an 
+257 
+oxidation product of methanethiol, and may be converted to dimethyl sulfide and dimethyl trisulfide through 
+258 
+disproportionation (Baggenstoss, Poisson, Kaegi, Perren, & Escher, 2008; Baggenstoss, Poisson, Luethi, Perren, 
+259 
+& Escher, 2007). The concentration of dimethyl disulfide in the coffee samples continuously increased during 
+260 
+roasting from 0.08 ± 0.00 mg/kg to 0.39 ± 0.02 mg/kg. Dimethyl trisulfide in the samples increased from 0.34 ± 
+261 
+0.01 mg/kg in the light roast to 0.49 ± 0.03 mg/kg in the medium roast. The concentration slightly decreased in 
+262 
+the medium-dark roast, but increased again in the dark roast. This biphasic behavior was also observed in a 
+263 
+study by Baggenstoss, Poisson, Kaegi, Perren, and Escher (2008), who reported the biphasic development 
+264 
+pattern of dimethyl sulfide during roasting, regardless of the roasting process used.  
+265 
+2-Fufurylthiol is considered one of the most important compounds because of its high contribution to the roasted 
+266 
+character of coffee flavor (Baggenstoss, Poisson, Kaegi, Perren, & Escher, 2008; Mayer, Czerny, & Grosch, 
+267 
+1999). The concentration of 2-furfurylthiol gradually increased from 0.50 ± 0.00 mg/kg in the light roast to 0.81 
+268 
+± 0.05 mg/kg in the medium-dark roast, and then slightly decreased to 0.75 ± 0.02 mg/kg in the dark roast. This 
+269 
+
+  
+12 
+ 
+tendency is slightly different from the results of Baggenstoss, Poisson, Kaegi, Perren, and Escher (2008), who 
+270 
+reported that 2-furfurylthiol concentration increased constantly during the roasting process, and a decrease in 
+271 
+concentration was only observed following excessive roasting. They suggested that the continuous increase in 2-
+272 
+furfurylthiol was attributed to the precursor abundance. However, Mayer, Czerny, and Grosch (1999) showed 
+273 
+that the concentration of 2-furfurylthiol depends on the coffee bean variety. In the study, 2-furfurylthiol in the 
+274 
+two varieties continuously increased during roasting, whereas the concentration in the other coffee variety 
+275 
+increased from the light roast to the medium roast, but decreased in the dark roast. Thus, coffee variety may 
+276 
+contribute to the formation of 2-furfurylthiol because its precursors may rely on coffee variety.  
+277 
+Methional may be produced from the precursor methionine through Strecker degradation (Mottram, 2007). β-
+278 
+Elimination of the compound results in the formation of methanethiol, which is related to the aroma freshness of 
+279 
+roasted coffee and can be further oxidized to dimethyl disulfide (Dorfner, Ferge, Yeretzian, Kettrup, & 
+280 
+Zimmermann, 2004). Methional was not detected in light- and medium-roasted samples, but was detected at a 
+281 
+concentration of 1.62 ± 0.17 mg/kg in the medium-dark-roasted sample and 2.36 ± 0.17 in the dark-roasted 
+282 
+sample.  
+283 
+2-Methylpropanal, 2-methylbutanal, and 3-methylbutanal are also produced through Strecker degradation from 
+284 
+the corresponding precursors, valine, isoleucine, and leucine (Mottram, 2007). The concentrations of the 
+285 
+aldehydes were higher in the light- and medium-roasted samples than in medium-dark- and dark-roasted 
+286 
+samples. In the medium roast, the aldehydes reached individual maximum concentrations of 17.52 ± 3.28 mg/kg 
+287 
+for 2-methylpropanal, 19.79 ± 3.23 mg/kg for 2-methylbutanal, and 10.91 ± 1.67 mg/kg for 3-methylbutanal. 
+288 
+When the roasting process was extended, these concentrations decreased. α-Diketones, such as 2,3-butanedione 
+289 
+and 2,3-pentanedione, are formed by a reaction between amino acids (e.g., glycine and alanine) and sugars (e.g., 
+290 
+glucose and mannose) in coffee beans during roasting, as well as by various possible reaction pathways 
+291 
+(Baggenstoss, Poisson, Kaegi, Perren, & Escher, 2008; Gaffney, Abelmann, Pierce, Glynn, Henshaw, McCarthy, 
+292 
+et al., 2015). These compounds increased rapidly and reached individual maximum concentrations of 21.96 ± 
+293 
+2.27 mg/kg for 2,3-butanedione and 25.64 ± 2.96 mg/kg for 2,3-pentanedione in the medium roast. After further 
+294 
+roasting, these values gradually decreased. Holscher and Steinhart (1992) showed that 2-methylpropanal, 3-
+295 
+methylbutanal, and 2-methylbutanal decreased gradually during roasting, whereas 2,3-butanedione and 2,3-
+296 
+pentanedione decreased dramatically after an initial increase during roasting. In contrast, 3-methylbutanal, 2,3-
+297 
+
+  
+13 
+ 
+butanedione, and 2,3-pentanedione in the roasted coffee samples increased up to individual maximum points, 
+298 
+and then decreased during roasting in a previous study (Baggenstoss, Poisson, Kaegi, Perren, & Escher, 2008). 
+299 
+The development patterns in the latter study were similar to results obtained in our study, while the results of the 
+300 
+former study were not.  
+301 
+Fig. 1a shows a two-dimensional score plot using the first two principal components (PCs) obtained from PCA 
+302 
+using concentrations of volatile compounds. PC1 and PC2 account for 55.03% and 35.26% of total variance, 
+303 
+respectively. The samples closely gathered in the plot according to roast degree and no overlapping was 
+304 
+observed. PC1 separated the samples into three cluster groups, i.e., dark roast, medium-dark roast, and a group 
+305 
+of light and medium roasts. The light and medium roasted coffee samples were not separated by PC1 according 
+306 
+to roast degree, but could be separated by PC2. In contrast, an HCA with the concentrations of volatile 
+307 
+compounds clearly distinguished the samples with different roast degrees without any mis-clustering (Fig. S5). 
+308 
+The clustering pattern was similar to the separation by PC2 rather than that by PC1. The PCA loading plot 
+309 
+presented in Fig. 1b shows the compounds that affected the grouping. The medium-dark- and dark-roasted 
+310 
+samples were positioned to the left plane on the score plot, indicating that separation was primarily affected by 
+311 
+four sulfur compounds, including dimethyl trisulfide, 2-furfurylthiol, dimethyl disulfide, and methional. The two 
+312 
+roasted samples positioned in the left plane on the score plot had higher concentrations for the four sulfur 
+313 
+compounds except for dimethyl sulfide, compared to those in the right plane on the score plot. This might affect 
+314 
+the separation of medium-dark- and dark-roasted samples from other samples. In contrast, the medium-roasted 
+315 
+coffee samples were positioned in the upper-right area of the score plot and close to the location of five carbonyl 
+316 
+compounds on the loading plot. This indicates that separation of the medium-roasted coffee samples was 
+317 
+responsible for the five carbonyl compounds. The location of dimethyl sulfide suggests that the compound 
+318 
+functions as a classifier of light-roasted coffee samples.  
+319 
+The different patterns for the samples according to roast degree on the PCA score plot suggests the development 
+320 
+pattern of aroma compounds during roasting. For the light roast, most compounds except for dimethyl sulfide 
+321 
+were less prominent. For the medium roast, the development of carbonyl compounds was remarkable. During 
+322 
+the roasting process, most of the sulfur compounds were noticeably developed. Based on these results, the 
+323 
+development of sensory characteristics may be expected, although this development depends on the odor-active 
+324 
+value for each compound in the coffee and masking by other more potent aroma compounds. The three Strecker 
+325 
+
+  
+14 
+ 
+aldehydes, 2-methylpropanal, 2-methylbutanal, and 3-methylbutanal, impart malty odor notes in roasted coffees 
+326 
+(Czerny, Mayer, & Grosch, 1999). The two α-diketones, 2,3-butanedione and 2,3-pentanedion, impart buttery 
+327 
+odor notes and may significantly contribute to the aroma of coffee brews with the above Strecker aldehydes 
+328 
+(Blank, Sen, & Grosch, 1992; Mayer, Czerny, & Grosch, 2000). This indicates that in the medium roast, 
+329 
+malty/buttery odor note is more perceptible than in other roast degrees in our study. 2-Furfurylthiol gives potent 
+330 
+sulfurous/roasty odor notes and plays an important role in coffee aroma (Czerny, Mayer, & Grosch, 1999). A 
+331 
+cooked potato-like odor note in roasted coffees is likely generated by methional, and its high impact on the 
+332 
+aroma of coffee brews has been demonstrated in other studies (Czerny, Mayer, & Grosch, 1999; Mayer, Czerny, 
+333 
+& Grosch, 2000). Individual sulfur compounds can develop the overall coffee flavor when presented with other 
+334 
+sulfur compounds highly associated with coffee aroma (Mayer, Czerny, & Grosch, 2000). These results suggest 
+335 
+that in medium-dark and dark roasts, sulfurous/roasty odor notes may be easily perceptible compared to those in 
+336 
+other roast degrees of coffee in our study.  
+337 
+Although we monitored 10 important volatile compounds that contribute to coffee aroma, discrimination of the 
+338 
+roasted coffee samples according to roast degree was successfully performed using GC data. The results showed 
+339 
+that the composition of volatile compounds of Mexican Arabica coffee was highly dependent on roast degree, 
+340 
+resulting in significant differences between roasted coffee samples. This suggests that the 10 volatile compounds 
+341 
+are good indicators for evaluating the roast degree of Mexican Arabica coffee. 
+342 
+ 
+343 
+3.3. Discrimination of coffee samples roasted to different roast degrees by CSA  
+344 
+Fig. 2 shows the difference images of roasted coffee samples, and original images are shown in Fig. S6. The 
+345 
+upper 6 sensing spots belong to the first class targeting aldehydes and ketones, while the lower 6 spots belong to 
+346 
+the second class targeting thiols and sulfides. The individual difference images show a unique pattern and can be 
+347 
+used to distinguish the samples according to roast degree with the naked eye. These distinctive patterns indicate 
+348 
+that the CSA correctly recognized the development of coffee aroma during roasting and, thus, can be used to 
+349 
+differentiate the samples.  
+350 
+Unlike GC-based methods, which enable component-by-component analysis, the CSA method is based on non-
+351 
+
+  
+15 
+ 
+specific sensitivity and cross-reactivity to a variety of volatile compounds in a sample. This is because a sensing 
+352 
+material of an array is simultaneously responsive to numerous analytes, and an analyte is simultaneously 
+353 
+responsive to all sensing materials of the array, making it difficult to relate a color change pattern with a specific 
+354 
+volatile compound (Li, Chen, Zhao, & Ouyang, 2014). However, our sensor array may be sensitive to specific 
+355 
+chemical species, such as aldehydes, ketones, thiols, and sulfides, because of the specific reactions induced by 
+356 
+the sensing materials used, such as DNPH and DTNB. Thus, color responses may be mainly induced by the 
+357 
+aforementioned specific chemical species, although the sensor array may still be simultaneously responsive to 
+358 
+numerous volatile compounds in the samples. The CSA responses were dynamic over 1 min and became nearly 
+359 
+stabilized within 5 min (Fig. S2). The sensing materials belonging to the second class showed more rapid and 
+360 
+dynamic color changes compared to those belonging to the first class, as observed in Fig. 2.  
+361 
+Fig. 3 shows a 2-dimensional score plot using the first two PCs obtained from PCA using the CSA results. PC1 
+362 
+and PC2 explain 66.75% and 12.32% of the total variance, respectively. The samples clearly clustered according 
+363 
+to roast degree without overlapping. They were separated by PC1 into three clusters, i.e., light roasted coffee, 
+364 
+medium roasted coffee, and medium-dark- and dark-roasted coffees. The light roasted samples were positioned 
+365 
+farthest away from the other samples. PC1 did not distinctly separate the medium-dark-roasted and dark-roasted 
+366 
+samples into each group, while PC2 showed good separation abilities for the two sample groups. In contrast, all 
+367 
+samples clearly clustered according to roast degree without any mis-clustering by HCA using the CSA results 
+368 
+(Fig. S7). In the HCA dendrogram, the last clustering included the light-roasted sample and a prior cluster. This 
+369 
+clustering pattern was similar to the pattern observed after separation by PC1 than by PC2 (Fig 3). These results 
+370 
+suggest that the CSA could identify the samples depending on roast degree.  
+371 
+ 
+372 
+3.4. Correlations between the results obtained with HS-SPME-GC-FID and CSA 
+373 
+We demonstrated that both the HS-SPME-GC-FID and CSA methods could successfully discriminate coffee 
+374 
+samples roasted to different roast degrees. We also conducted PLSR to determine whether the CSA could predict 
+375 
+important aroma compounds in the roasted coffee samples and whether it can be used as a reliable alternative to 
+376 
+conventional methods. In general, in a PLSR model, the coefficient of determination and root mean square error 
+377 
+relate to accuracy and precision, respectively (Zaragozá, et al., 2013). Good accuracy indicates that the 
+378 
+
+  
+16 
+ 
+coefficient of determination is close to 1, while good precision indicates that root mean square error is close to 0 
+379 
+(Zaragozá, et al., 2013). As shown in Fig. 4 and Fig. S8, there was no significant difference between the 
+380 
+calibration and prediction sets. In addition, no significant difference between RMSEC and RMSEP was 
+381 
+observed in each model. This indicates that the samples assigned into the calibration set can be used to assess 
+382 
+the robustness of the final model. Most PLSR models show acceptable r2 values in both calibration and 
+383 
+prediction sets, and several models with higher r2 are shown in Fig. 4. Among the PLSR models for carbonyl 
+384 
+compounds, the models for 2-methylpropanal (rc
+2 = 0.837, rp
+2 = 0.927), 2,3-butanedione (rc
+2 = 0.930, rp
+2 = 
+385 
+0.824), and 2,3-pentanedione (rc
+2 = 0.954, rp
+2 = 0.900) showed higher r2 values than other carbonyl compounds. 
+386 
+Among the PLSR models for sulfur compounds, the models for dimethyl sulfide (rc
+2 = 0.873, rp
+2 = 0.940), 
+387 
+dimethyl disulfide (rc
+2 = 0.901, rp
+2 = 0.867), and methional (rc
+2 = 0.918, rp
+2 = 0.955) showed higher r2 values 
+388 
+than other sulfur compounds. Several prediction models using CSA data for food quality indices were also 
+389 
+successful in other studies (Huang, et al., 2014; Zaragozá, et al., 2013). Huang, et al. (2014) applied a CSA to 
+390 
+determine pork spoilage and obtained a good correlation between the CSA responses and either biogenic amine 
+391 
+index (rc
+2 = 0.77 and rp
+2 = 0.73) or total viable count (rc
+2 = 0.89 and rp
+2 = 0.87). Robust prediction models for 
+392 
+microbial count as an index to evaluate fish spoilage with high r2 values (0.9177 and 0.9510 for mesophilic 
+393 
+bacteria and Enterobaceriaceae, respectively) and low RMSEC values (0.6692 and 03694 for mesophilic 
+394 
+bacteria and Enterobaceriaceae, respectively ) were reported (Zaragozá, et al., 2013). These studies suggested 
+395 
+CSA methods as a rapid alternative for predicting parameters for spoilage, such as microbial counts and 
+396 
+formation of amines. Our study also revealed that the CSA technique is a promising analytical tool and can be 
+397 
+used as an alternative to laborious and time-consuming conventional methods. Despite the complexity of coffee 
+398 
+aroma, the CSA method developed in this study showed good prediction ability because of the specific reactions 
+399 
+between the sensing materials and compounds.  
+400 
+ 
+401 
+4. Conclusions 
+402 
+We proposed a CSA method for the rapid and simple detection of key compounds contributing to coffee aroma. 
+403 
+Coffees roasted to different roast degrees were successfully discriminated by PCA and HCA using either CSA or 
+404 
+HS-SPME-GC-FID results. The PLSR results showed that the CSA responses were quantitatively correlated, 
+405 
+
+  
+17 
+ 
+with the concentrations of volatile compounds in an acceptable r2 range of 0.686–0.955. These results 
+406 
+demonstrate that the CSA method coupled with multivariate statistical analysis could clearly differentiate the 
+407 
+roasted coffee samples according to roast degree and could well predict the development of important coffee 
+408 
+aroma compounds. Therefore, the CSA is proposed as an alternative analytical tool to conventional methods, 
+409 
+such as GC and E-nose, for rapid discrimination of different roasted coffee samples. Moreover, this CSA method 
+410 
+may be useful for quality control of coffee products, development of optimal roasting processes, and evaluation 
+411 
+of coffee aroma.  
+412 
+ 
+413 
+ 
+414 
+Acknowledgements 
+415 
+This research was supported by the Individual Basic Science & Engineering Research Program funded by 
+416 
+National Research Foundation (NRF), Korea (grant of NRF-2016R1D1A1B03933896) and by both School of 
+417 
+Life Sciences and Biotechnology for BK21PLUS and Institute of Biomedical Science & Food Safety, Korea 
+418 
+University. 
+419 
+420 
+
+  
+18 
+ 
+References 
+421 
+Akiyama, M., Murakami, K., Ohtani, N., Iwatsuki, K., Sotoyama, K., Wada, A., Tokuno, K., Iwabuchi, H., 
+422 
+& Tanaka, K. (2003). Analysis of volatile compounds released during the grinding of 
+423 
+roasted coffee beans using solid-phase microextraction. Journal of Agricultural and Food 
+424 
+Chemistry, 51(7), 1961-1969. 
+425 
+Askim, J. R., Mahmoudi, M., & Suslick, K. S. (2013). Optical sensor arrays for chemical sensing: the 
+426 
+optoelectronic nose. Chemical Society Reviews, 42(22), 8649-8682. 
+427 
+Baggenstoss, J., Poisson, L., Kaegi, R., Perren, R., & Escher, F. (2008). Coffee roasting and aroma 
+428 
+formation: application of different time−temperature conditions. Journal of Agricultural 
+429 
+and Food Chemistry, 56(14), 5836-5846. 
+430 
+Baggenstoss, J., Poisson, L., Luethi, R., Perren, R., & Escher, F. (2007). Influence of water quench 
+431 
+cooling on degassing and aroma stability of roasted coffee. Journal of Agricultural and 
+432 
+Food Chemistry, 55(16), 6685-6691. 
+433 
+Bhumiratana, N., Adhikari, K., & Chambers, E. (2011). Evolution of sensory aroma attributes from 
+434 
+coffee beans to brewed coffee. LWT-Food Science and Technology, 44(10), 2185-2192. 
+435 
+Blank, I., Sen, A., & Grosch, W. (1992). Potent odorants of the roasted powder and brew of Arabica 
+436 
+coffee. Zeitschrift für Lebensmittel-Untersuchung und-Forschung, 195(3), 239-245. 
+437 
+Buffo, R. A., & Cardelli‐Freire, C. (2004). Coffee ﬂavour: an overview. Flavour and Fragrance Journal, 
+438 
+19(2), 99-104. 
+439 
+Cheong, M. W., Tong, K. H., Ong, J. J. M., Liu, S. Q., Curran, P., & Yu, B. (2013). Volatile composition 
+440 
+and antioxidant capacity of Arabica coffee. Food Research International, 51(1), 388-396. 
+441 
+Cho, A. R., Park, K. W., Kim, K. M., Kim, S. Y., & Han, J. (2014). Influence of roasting conditions on 
+442 
+the antioxidant characteristics of Colombian coffee (Coffea arabica L.) beans. Journal of 
+443 
+Food Biochemistry, 38(3), 271-280. 
+444 
+Czerny, M., Mayer, F., & Grosch, W. (1999). Sensory study on the character impact odorants of 
+445 
+roasted Arabica coffee. Journal of Agricultural and Food Chemistry, 47(2), 695-699. 
+446 
+Dorfner, R., Ferge, T., Yeretzian, C., Kettrup, A., & Zimmermann, R. (2004). Laser mass spectrometry 
+447 
+as on-line sensor for industrial process analysis: process control of coffee roasting. 
+448 
+Analytical Chemistry, 76(5), 1386-1402. 
+449 
+Du, X., Song, M., Baldwin, E., & Rouseff, R. (2015). Identification of sulphur volatiles and GC-
+450 
+olfactometry aroma profiling in two fresh tomato cultivars. Food Chemistry, 171, 306-314. 
+451 
+Dulsat-Serra, N., Quintanilla-Casas, B., & Vichi, S. (2016). Volatile thiols in coffee: A review on their 
+452 
+formation, degradation, assessment and influence on coffee sensory quality. Food 
+453 
+Research International, 89, 982-988. 
+454 
+Gaffney, S. H., Abelmann, A., Pierce, J. S., Glynn, M. E., Henshaw, J. L., McCarthy, L. A., Lotter, J. T., 
+455 
+Liong, M., & Finley, B. L. (2015). Naturally occurring diacetyl and 2,3-pentanedione 
+456 
+
+  
+19 
+ 
+concentrations associated with roasting and grinding unflavored coffee beans in a 
+457 
+commercial setting. Toxicology Reports, 2, 1171-1181. 
+458 
+Gardner, J. W., Shurmer, H., & Tan, T. (1992). Application of an electronic nose to the discrimination 
+459 
+of coffees. Sensors and Actuators B: Chemical, 6(1), 71-75. 
+460 
+Gloess, A. N., Vietri, A., Wieland, F., Smrke, S., Schönbächler, B., López, J. A. S., Petrozzi, S., Bongers, 
+461 
+S., Koziorowski, T., & Yeretzian, C. (2014). Evidence of different flavour formation dynamics 
+462 
+by roasting coffee from different origins: On-line analysis with PTR-ToF-MS. International 
+463 
+Journal of Mass Spectrometry, 365-366, 324-337. 
+464 
+Guan, B., Zhao, J., Cai, M., Lin, H., Yao, L., & Sun, L. (2014). Analysis of volatile organic compounds 
+465 
+from Chinese vinegar substrate during solid-state fermentation using a colorimetric sensor 
+466 
+array. Analytical Methods, 6(23), 9383-9391. 
+467 
+Holscher, W., & Steinhart, H. (1992). Investigation of roasted coffee freshness with an improved 
+468 
+headspace technique. Zeitschrift für Lebensmittel-Untersuchung und Forschung, 195(1), 
+469 
+33-38. 
+470 
+Huang, X. W., Zou, X. B., Shi, J. Y., Guo, Y., Zhao, J. W., Zhang, J., & Hao, L. (2014). Determination of 
+471 
+pork spoilage by colorimetric gas sensor array based on natural pigments. Food Chemistry, 
+472 
+145, 549-554. 
+473 
+Huo, D., Wu, Y., Yang, M., Fa, H., Luo, X., & Hou, C. (2014). Discrimination of Chinese green tea 
+474 
+according to varieties and grade levels using artificial nose and tongue based on 
+475 
+colorimetric sensor arrays. Food Chemistry, 145, 639-645. 
+476 
+Kim, S. Y., Li, J., Lim, N. R., Kang, B. S., & Park, H. J. (2016). Prediction of warmed-over flavour 
+477 
+development in cooked chicken by colorimetric sensor array. Food Chemistry, 211, 440-
+478 
+447. 
+479 
+Lee, L. W., Cheong, M. W., Curran, P., Yu, B., & Liu, S. Q. (2015). Coffee fermentation and flavor–An 
+480 
+intricate and delicate relationship. Food chemistry, 185, 182-191. 
+481 
+Li, H., Chen, Q., Zhao, J., & Ouyang, Q. (2014). Non-destructive evaluation of pork freshness using 
+482 
+a portable electronic nose (E-nose) based on a colorimetric sensor array. Analytical 
+483 
+Methods, 6(16), 6271-6277. 
+484 
+Mayer, F., Czerny, M., & Grosch, W. (1999). Influence of provenance and roast degree on the 
+485 
+composition of potent odorants in Arabica coffees. European Food Research and 
+486 
+Technology, 209(3-4), 242-250. 
+487 
+Mayer, F., Czerny, M., & Grosch, W. (2000). Sensory study of the character impact aroma 
+488 
+compounds of a coffee beverage. European Food Research and Technology, 211(4), 272-
+489 
+276. 
+490 
+Mottram, D. S. (2007). The Maillard reaction: source of flavour in thermally processed foods. In  
+491 
+Flavours and Fragrances, (pp. 269-283): Springer Berlin Heidelberg. 
+492 
+Pérez-Martínez, M., Sopelana, P., De Pena, M. P., & Cid, C. (2008). Changes in volatile compounds 
+493 
+
+  
+20 
+ 
+and overall aroma profile during storage of coffee brews at 4 and 25 °C. Journal of 
+494 
+Agricultural and Food Chemistry, 56(9), 3145-3154. 
+495 
+Petisca, C., Pérez-Palacios, T., Pinho, O., & Ferreira, I. M. P. L. V. O. (2014). Optimization and 
+496 
+application of a HS-SPME-GC-MS methodology for quantification of furanic compounds in 
+497 
+espresso coffee. Food Analytical Methods, 7(1), 81-88. 
+498 
+Romani, S., Cevoli, C., Fabbri, A., Alessandrini, L., & Dalla Rosa, M. (2012). Evaluation of coffee 
+499 
+roasting degree by using electronic nose and artificial neural network for off‐line quality 
+500 
+control. Journal of Food Science, 77(9), C960-C965. 
+501 
+Santos, J. R., Viegas, O., Páscoa, R. N., Ferreira, I. M., Rangel, A. O., & Lopes, J. A. (2016). In-line 
+502 
+monitoring of the coffee roasting process with near infrared spectroscopy: Measurment of 
+503 
+sucrose and colour. Food Chemistry, 208, 103-110. 
+504 
+Schenker, S., Heinemann, C., Huber, M., Pompizzi, R., Perren, R., & Escher, R. (2002). Impact of 
+505 
+roasting conditions on the formation of aroma compounds in coffee beans. Journal of 
+506 
+Food Science, 67(1), 60-66. 
+507 
+Semmelroch, P., Laskawy, G., Blank, I., & Grosch, W. (1995). Determination of potent odourants in 
+508 
+roasted coffee by stable isotope dilution assays. Flavour and Fragrance Journal, 10(1), 1-7. 
+509 
+Sunarharum, W. B., Williams, D. J., & Smyth, H. E. (2014). Complexity of coffee flavor: A 
+510 
+compositional and sensory perspective. Food Research International, 62, 315-325. 
+511 
+Suslick, B. A., Feng, L., & Suslick, K. S. (2010). Discrimination of complex mixtures by a colorimetric 
+512 
+sensor array: coffee aromas. Analytical Chemistry, 82(5), 2067-2073. 
+513 
+Wang, X., & Lim, L. T. (2014). A kinetics and modeling study of coffee roasting under isothermal 
+514 
+conditions. Food and Bioprocess Technology, 7(3), 621-632. 
+515 
+Yang, N., Liu, C., Liu, X., Degn, T. K., Munchow, M., & Fisk, I. (2016). Determination of volatile 
+516 
+marker compounds of common coffee roast defects. Food Chemistry, 211, 206-214. 
+517 
+Zaragozá, P., Fuentes, A., Fernández-Segovia, I., Vivancos, J. L., Rizo, A., Ros-Lis, J. V., Barat, J. M., & 
+518 
+Martínez-Máñez, R. (2013). Evaluation of sea bream (Sparus aurata) shelf life using an 
+519 
+optoelectronic nose. Food Chemistry, 138(2), 1374-1380. 
+520 
+Zhang, C., Bailey, D. P., & Suslick, K. S. (2006). Colorimetric sensor arrays for the analysis of beers: a 
+521 
+feasibility study. Journal of Agricultural and Food Chemistry, 54(14), 4925-4931. 
+522 
+Zhang, C., & Suslick, K. S. (2007). Colorimetric sensor array for soft drink analysis. Journal of 
+523 
+Agricultural and Food Chemistry, 55(2), 237-242. 
+524 
+ 
+525 
+ 
+ 
+526 
+
+  
+21 
+ 
+Figure captions 
+527 
+ 
+528 
+Fig. 1. PCA score (a) and loading (b) plots based on the concentrations of volatile compounds. 
+529 
+Fig. 2. Difference images of CSA for coffees roasted to different degrees. 
+530 
+Fig. 3. PCA score plot based on the CSA responses.  
+531 
+Fig. 4. Measured versus predicted values of 2-methylpropanal (a), 2,3-pentanedione (b), dimethyl sulfide (c), 
+532 
+and methional (d).  
+533 
+ 
+534 
+ 
+ 
+535 
+
+  
+22 
+ 
+ 
+536 
+Fig. 1 
+537 
+ 
+538 
+
+  
+23 
+ 
+ 
+539 
+Fig. 2 
+540 
+ 
+541 
+ 
+542 
+ 
+ 
+543 
+
+  
+24 
+ 
+ 
+544 
+Fig. 3 
+545 
+ 
+546 
+ 
+547 
+ 
+548 
+ 
+ 
+549 
+
+  
+25 
+ 
+ 
+550 
+Fig. 4 
+551 
+ 
+552 
+ 
+553 
+ 
+554 
+ 
+ 
+555 
+
+  
+26 
+ 
+Table 1. Color values, weight loss, and moisture content of coffees roasted to different degrees 
+556 
+Samples 
+L* 
+a* 
+b* 
+Weight loss (%) 
+Moisture (%) 
+Light 
+50.79±0.87 a1) 
+11.92±0.12 a 
+20.01±0.17 a 
+11.89±0.30 d 
+3.27±0.18 a 
+Medium 
+40.80±2.11 b 
+8.92±1.27 b 
+10.98±2.32 b 
+14.08±0.48 c 
+2.61±0.13 b 
+Medium-dark 
+36.79±0.19 c 
+6.14±0.07 c 
+6.04±0.01 c 
+17.34±0.47 b 
+2.21±0.21 c 
+Dark 
+34.45±0.53 d 
+4.57±0.07 d 
+3.81±0.07 d 
+19.29±0.44 a 
+2.14±0.37 c 
+1)There are significant differences between mean values marked with different letters in each column.   
+557 
+ 
+558 
+ 
+559 
+ 
+560 
+ 
+ 
+561 
+
+  
+27 
+ 
+Table 2. Concentrations (mg/kg) of volatile compounds in coffees roasted to different degrees  
+562 
+Compounds 
+Light 
+Medium 
+Medium-dark 
+Dark 
+Sulfur 
+ 
+ 
+ 
+ 
+Dimethyl sulfide 
+0.10 ± 0.01 
+ND1) 
+ND 
+ND 
+Dimethyl disulfide 
+0.08 ± 0.00 d2) 
+0.19 ± 0.03 c 
+0.22 ± 0.01 b 
+0.39 ± 0.02 a 
+Dimethyl trisulfide 
+0.34 ± 0.01 c 
+0.49 ± 0.03 a 
+0.45 ± 0.03 b 
+0.52 ± 0.02 a 
+2-Furfurylthiol 
+0.50 ± 0.00 d 
+0.69 ± 0.04 c 
+0.81 ± 0.05 a 
+0.75 ± 0.02 b 
+Methional 
+ND 
+ND 
+1.62 ± 0.17 b 
+2.36 ± 0.17 a 
+Carbonyl  
+ 
+ 
+ 
+ 
+2-Methylpropanal 
+15.02 ± 1.73 b 
+17.52 ± 3.28 a 
+7.90 ± 0.86 c 
+5.56 ± 0.47 d 
+2-Methylbutanal 
+15.98 ± 1.80 b 
+19.79 ± 3.23 a 
+10.98 ± 1.06 c 
+9.07 ± 0.78 c 
+3-Methylbutanal 
+7.78 ± 0.98 b 
+10.91 ± 1.67 a 
+7.14 ± 1.06 bc 
+6.19 ± 0.60 c 
+2,3-Butanedione 
+10.04 ± 0.66 d 
+21.96 ± 2.27 a 
+14.24 ± 1.02 b 
+11.68 ± 0.66 c 
+2,3-Pentanedione 
+9.05 ± 0.66 bc 
+25.64 ± 2.96 a 
+10.42 ± 1.02 b 
+7.23 ± 0.58 c 
+1)Not detected. 
+563 
+2)There are significant differences between mean values marked with different letters in a row. 
+564 
+ 
+565 
+ 
+ 
+566 
+
+  
+28 
+ 
+Highlights 
+567 
+ 
+568 
+ 
+569 
+ A colorimetric sensor array was developed to differentiate coffees roasted to different 
+570 
+degrees. 
+571 
+ There were significant differences between the composition of key aroma compounds in 
+572 
+the samples. 
+573 
+ The sensor responses were quantitatively correlated with the concentrations of compounds. 
+574 
+ The CSA was capable of predicting coffee aroma development from light roast to dark 
+575 
+roast. 
+576 
+ 
+577 
+ 
+578 
+ 
+579 

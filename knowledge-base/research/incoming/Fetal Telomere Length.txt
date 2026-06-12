@@ -1,0 +1,657 @@
+© 2020 Global Health and Education Projects, Inc.
+International Journal of Maternal and Child Health and AIDS (2020), Volume 9, Issue 1, 14-21
+INTERNATIONAL JOURNAL of
+MATERNAL and CHILD HEALTH and AIDS
+ISSN 2161-864X (Online)
+ISSN 2161-8674 (Print)
+	
+Available online at www.mchandaids.org	
+DOI: 10.21106/ijma.290
+ORIGINAL ARTICLE
+Maternal Caffeine Consumption and Racial Disparities in Fetal 
+Telomere Length
+Isabel Griffin, MPH;1 Boubakari Ibrahimou, PhD;1 Natasha Navejar, BS;2 Anjali Aggarwal, MD;3 
+Kristopher Myers, MPH;1 Daniel Mauck, MPH;1 Korede K. Yusuf, MBBS, PhD;4 Usman J. Wudil, MD, MPH;5 
+Muktar H. Aliyu, MD, DrPH;5 Hamisu M. Salihu, MD, PhD2
+1Florida International University, Robert Stempel College of Public Health and Social Work, Department of Epidemiology, 11200 SW 8th Street #500, 
+Miami, Florida 33174, USA; 2Center of Excellence in Health Equity, Training and Research, Baylor College of Medicine, One Baylor Plaza, MS:411 Houston, 
+TX 77030, USA; 3Department of Family and Community Medicine, Baylor College of Medicine, 3701 Kirby Drive, Houston, Texas, 77098, USA; 4Adelphi 
+University, College of Nursing and Public Health, One South Avenue, Garden City, NY 11530, USA; 5Vanderbilt University Medical Center, Vanderbilt Insti­
+tute for Global Health, 2525 West End Ave, Suite 750, Nashville, TN 37203, USA
+Corresponding author email: hamisu.salihu@bcm.edu
+ABSTRACT
+Background and Objectives: The identification of risk factors for shorter telomere length, especially 
+during fetal development, would be important towards caffeine consumption recommendations for 
+pregnant women on a global scale. The purpose of this study was to evaluate the association between 
+caffeine intake and fetal telomere length as well as racial/ethnic differences in telomere length regardless of 
+maternal caffeine consumption status.
+Methods: Caffeine intake was measured using a food frequency questionnaire (FFQ). Three generalized 
+linear models (GLM) were compared based on binary categorical variables of caffeine levels using data mean 
+value of 117.3 mg as cut-off; the World Health Organization (WHO) recommendations of 300 mg; and the 
+American College of Obstetricians and Gynecologists (ACOG) recommendations of 200 mg. The association 
+between caffeine consumption and telomere length (telomere to single-copy [T/S] ratio) was then assessed.
+Results: Among 57 maternal-fetal dyads, 77.2% reported less than 200 mg of caffeine (ACOG) and 89.5% 
+less than 300 mg (WHO). Both WHO and ACOG models found that caffeine intake was significantly and 
+positively associated with longer telomere length (p<0.05); and sodium (p<0.05). Other” race (p<0.001) 
+and “white” race (p<0.001) were also significantly and positively associated with longer telomere length in 
+the same models. Increasing maternal age shortened telomere length significantly in all models (p<0.001).
+Conclusion and Global Health implications: Caffeine intake, maternal age, and race may be 
+associated with alterations in fetal telomere length. This indicates that caffeine consumption during 
+pregnancy may have long-term implications for fetal development. The racial/ethnic differences in telomere 
+length found in this study warrant larger studies to further confirm these associations.
+Key words: • Telomere • Fetal telomere length • Caffeine • Pregnancy • Maternal-Fetal medicine 
+• Racial/ethnic differences
+Copyright © 2020 Griffin et al. This is an open-access article distributed under the terms of the Creative Commons 
+Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original 
+work is properly cited.
+
+Caffeine and Fetal Telomere Length
+15
+© 2020 Global Health and Education Projects, Inc.
+|  www.mchandaids.org
+1. Introduction
+Telomeres are DNA-based regions that cap the 
+end of chromosomes to prevent degradation of 
+essential genes involved in cell replication. Telomeres 
+progressively shorten, and cells become susceptible 
+to degradation as the shortening occurs, which 
+is the result of low telomerase levels (an enzyme 
+that elongates chromosomes by adding TTAGGG 
+sequences).1 As telomere length can strongly 
+predict chromosomal aging and long-term health 
+outcomes, researchers have aimed to explore the 
+association between dietary factors and telomere 
+length. Caffeine, a stimulant found in foods (tea, 
+coffee, soft drinks, chocolate, and over-the-counter 
+medications), is believed to influence telomere 
+length at a cellular level. Evident in laboratory 
+studies conducted with yeast, caffeine appears to 
+act through the phosphoinositide 3-kinase-related 
+protein kinases Tel1 and MEc1, which are known 
+regulators of telomere length.2 Several studies 
+provide 
+contradictory 
+findings 
+regarding 
+the 
+influence of caffeine on telomere length. In a study by 
+Liu et al. among 4,780 female nurses who reported 
+coffee consumption, the investigators found that 
+telomere length increased with elevated levels 
+of caffeine consumption.3 However, in a separate 
+study by Tucker et al., researchers found that for 
+each 100 mg of caffeine consumed, telomeres were 
+35.4 base pairs shorter.4 This same study found 
+that coffee consumption within this population was 
+positively associated with longer telomere length.4 
+These inconsistent findings indicate the need to 
+continue examining the association while taking 
+into account additional confounding factors as well 
+as population subgroups, such as pregnant women, 
+where caffeine consumption may be detrimental to 
+the development of a healthy fetus.5
+A major gap in knowledge is the impact of 
+caffeine consumption within a pregnant population. 
+During pregnancy, caffeine clearance from the 
+mother’s blood slows down significantly. A  study 
+by Wierzejeska et al. found that caffeine consumed 
+by a pregnant woman passes through the placenta 
+to the fetus freely.6 In another study by Torstein 
+et al., researchers found that high caffeine intake 
+in the third trimester may be a risk factor for fetal 
+growth restriction, in particular, if the fetus is a boy.7 
+Current recommendations from the World Health 
+Organization (WHO) advise pregnant women to 
+limit total caffeine consumption to less than 300 mg 
+per day.8 The American Congress of Obstetricians 
+and Gynecologists (ACOG) reported that moderate 
+caffeine consumption of less than 200 mg per day 
+during pregnancy does not appear to be a risk 
+factor for miscarriage or preterm births.9 Caffeine 
+restrictions during pregnancy are based on several 
+studies that have shown poor fetal outcomes, such as 
+low birth weight babies and spontaneous abortions 
+resulting from high caffeine intake prenatally.8-11 The 
+identification of risk factors for shorter telomere 
+length, especially during fetal development, would 
+provide important information essential for making 
+caffeine consumption recommendations on a global 
+scale. In addition to the unknown influence of caffeine 
+consumption on fetal telomere length, several studies 
+have found that certain factors are associated with 
+shorter telomere lengths. Previous research found 
+that maternal-perceived stress during pregnancy was 
+associated with shorter telomere length.1 However, 
+there is paucity of data on the differential effects of 
+caffeine consumption by race/ethnicity.
+1.1. Aims and Hypothesis
+The purposes of this study were to: (1) examine the 
+association between caffeine consumption during 
+the third trimester of pregnancy and fetal telomere 
+while taking into account potential confounders 
+including maternal depression, maternal age, and 
+sodium consumption; (2) examine this association 
+with respect to the WHO and the ACOG 
+recommendations regarding caffeine consumption 
+during pregnancy; and (3) assess racial/ethnic 
+differences in telomere length regardless of maternal 
+caffeine consumption status.
+2. Materials and Methods
+A prospective cohort study was conducted by the 
+University of South Florida (USF) Morsani College 
+of Medicine from July 2011 to September 2012. 
+The study enrolled pregnant women in labor at 
+Tampa General Hospital (TGH) in Tampa, Florida, 
+USA. TGH admits patients for delivery who are 
+socioeconomically disadvantaged, racially/ethnically 
+
+Griffin et al.
+International Journal of Maternal and Child Health and AIDS (2020), Vol. 9, No. 1, 14-21
+16
+www.mchandaids.org  |
+© 2020 Global Health and Education Projects, Inc.
+diverse, and primarily uninsured or insured with 
+Medicaid. Inclusion criteria for study participants 
+required being over the age of 18, with a primary 
+language of English or Spanish, and delivering full-term 
+single live birth with no congenital malformations. 
+A food history questionnaire (FHQ) was provided to 
+the study participants, which was completed before 
+hospital discharge. Informed consent was obtained, 
+and the study was approved by the institutional 
+review boards at USF and TGH.1
+2.1. Cord Blood Telomere Ratio
+Telomere length and DNA extraction were 
+performed by the USF Global Health Infectious 
+Disease Research Laboratory. Laboratory personnel 
+were blinded to all sociodemographic, health status, 
+and birth outcome data. At birth, umbilical cord 
+blood was collected from full-term infants. Because 
+of the scarcity of the amount of genomic DNA 
+obtained and the sample size, each individual sample 
+was run in triplicate to determine the relative 
+telomere to single-copy gene (T/S) ratio. Genomic 
+DNA was isolated from a 200-µL buffy-coat layer 
+using the Qiagen DNeasy Blood and Tissue Kit. 
+Isolated DNA was quantified with Nanodrop 2000c 
+(Thermo Scientific, Waltham, MA, USA) and stored 
+at 4ºC. The relative telomere lengths were then 
+quantified by a comparison of the cycle threshold 
+obtained by quantitative polymerase chain reaction 
+(qPCR) cycle threshold (∆Ct) values for the tel1 
+gene and reference single-copy gene, 36B4. Each 
+cord blood sample was performed in triplicate. 
+The relative telomere lengths in the DNA samples 
+(telomere to single-copy number [T/S] ratio) were 
+determined from cord blood by dividing the Ct 
+values of the absolute copy of the single gene 36B4.1 
+Participants with T/S ratios greater than three and 
+negative values were excluded as these values were 
+considered non-informative outliers.
+2.2. Variables of Interest
+Sociodemographic data and newborn measurements 
+were obtained from electronic medical records. 
+Newborn characteristics included mean gestational 
+age (weeks) and mean head circumference (cm). 
+Variables of interest used in this study included 
+maternal age in years (20 – 24, 25 – 29, 30 – 35, 36 
+– 39, 40 – 44), race/ethnicity (White, Black, Hispanic, 
+Asian, Other), insurance status type (Medicaid/No 
+Insurance, Private), marital status (Single, Married), 
+number of previous pregnancies (<2  vs. ≥2), and 
+body mass index (<18.5 [Underweight], ≥18.5 – 
+≤25 [Normal], >25 – <30 [Overweight], vs. ≥30 
+[Obese]). Telomere length was categorized based on 
+the mean T/S ratio (≤0.861 vs. >0.861). We defined 
+dietary caffeine level (mg) using the mean level of 
+the study sample (≤127.2  vs. >127.2), the WHO 
+caffeine recommendation (≤300  vs. >300), and 
+ACOG caffeine recommendation (≤200  vs. >200). 
+Caffeine intake was measured using the Dietary 
+History Questionnaire-1 (DHQ), a food frequency 
+questionnaire (FFQ) developed by the Risk Factor 
+Monitoring and Methods Branch (RFMMB) of 
+the National Cancer Institute (NCI).12 The DHQ 
+consisting of 124 food items, which include 
+portion size and dietary supplement questions, is 
+a validated tool that provides reasonable nutrient 
+estimates.12-14 The questionnaire addressed caffeine 
+consumption by asking about coffee, iced tea, and 
+hot tea consumption behaviors, and choosing 
+between decaffeinated and caffeinated versions 
+of these beverages. These responses were used to 
+calculate the levels of caffeine consumption. It takes 
+about an hour to complete the questionnaire, and 
+analysis of the data was performed with the National 
+Cancer Institute’s Diet*Calc software developed 
+based on the DHQ nutrient database.15-17 The 
+nutrient and food group database was framed on 
+the national dietary intake data from the 1994-96 
+U.S. Department of Agriculture’s (USDA) Continuing 
+Survey of Food Intake by Individuals (CSFII).17
+2.3. Data Analysis
+Descriptive statistics were used to describe study 
+variables. A  generalized linear model (GLM) was 
+utilized to examine the relationship between 
+caffeine level and telomere length. Caffeine 
+consumption was evaluated within the model as a 
+dichotomous variable. Three GLMs were compared 
+based on the categorical variable of serum caffeine 
+levels using means from the data as cut-off; WHO 
+recommendation, and ACOG recommendation. The 
+final GLMs consisted of mean T/S ratio (≥ 0.899 vs. 
+< 0.899), included serum caffeine levels in mg (mean 
+
+Caffeine and Fetal Telomere Length
+17
+© 2020 Global Health and Education Projects, Inc.
+|  www.mchandaids.org
+117.29 or WHO recommendation 300 or ACOG 
+recommendation 200), sodium (mean 4127.8  mg), 
+maternal age (mean 25.45), depression diagnosis 
+(yes or no), and race/ethnicity (White, Hispanic, 
+Asian, Black, and Other). Descriptive statistics were 
+calculated in SAS 9.4 (Cary, NC: SAS Institute Inc; 
+2014.), while the GLM analysis was conducted in R 
+version 3.3.1 (Vienna, Austria; R Core Team; 2017).
+3. Results
+Fifty-seven (59.4%) of 96 maternal-fetal dyads with 
+their corresponding fetal T/S ratios were included 
+in this analysis, and pairs with T/S ratios greater 
+than three or negative were excluded. The mean 
+maternal age was 25.5  years (SD=5.19, range 
+18 – 39). Among the mothers, 35.7% were White; 
+30.4% were Black; 25.0% were Hispanic, and 8.9% 
+were Other. About 80.7% of the study population 
+was covered by private health insurance, and 19.3% 
+were on Medicaid or uninsured. Regarding marital 
+status, 71.9% of the women were single, and 28.1% 
+were married. About 71.9% of the mothers reported 
+two or fewer previous pregnancies. The mean blood 
+caffeine level (mg) was 117.3 (range 0 – 940.9). Among 
+the mothers, 77.2% had a caffeine level of less than 
+200 mg, consistent with ACOG recommendations, 
+and 89.5% had a blood caffeine level of less than 
+300  mg, consistent with WHO recommendations. 
+The mean gestational age of the newborns at 
+delivery was 39.5 weeks (standard deviation = 1.31, 
+range 37 – 42). All newborns were delivered during 
+the third trimester. The mean newborn birthweight 
+was 3381.4 grams (range 2101 – 4510) (Table 1).
+Three GLMs were run to fit the data in R 
+using three different cut-off points for caffeine 
+(sample mean, WHO recommendation, and ACOG 
+recommendation) and T/S ratios. The first GLM using 
+mean caffeine consumption (Figure 1) did not find a 
+statistically significant association between the mean 
+T/S ratio and mean maternal caffeine level. However, 
+both GLM models that included ACOG and WHO 
+recommendations cut-off points for caffeine found 
+that caffeine was statistically associated with longer 
+telomere lengths (p<0.05) (Figure 2). Older maternal 
+age (p<0.001) was significantly associated with 
+shorter telomere length, whereas sodium intake 
+(p<0.05)“white” race (p<0.001) and “other” race 
+(p<0.001) were associated with longer telomere 
+length (Figure 2).
+4. Discussion
+This study suggests that high maternal caffeine 
+intake and other factors including race, may be 
+associated with increased fetal telomere length, 
+whereas advanced maternal age may be associated 
+with shortened fetal telomere lengths. The finding 
+that caffeine food history questionnaire dietary 
+levels were positively associated with telomere 
+length suggests that caffeine consumption during 
+pregnancies may have long term implications from a 
+chromosomal perspective. It is unclear why certain 
+races/ethnicities were associated with longer 
+telomere length. However, there may be certain health 
+disparities within certain racial populations that 
+may predispose infants to premature chromosomal 
+aging. Drury et al. found significant differences in 
+telomere length between African American infants 
+who weighed significantly less than white infants at 
+birth, yet had significantly longer telomere length 
+than White infants (p=0.01), with the strongest 
+association observed in Black female infants.18 In 
+addition, research has also found that high caffeine 
+intake during the third trimester of pregnancy may 
+be a risk for fetal growth retardation, in particular, 
+if the fetus is male.7 However, the gender of the 
+fetus was not provided in our study, and as such we 
+were unable to examine the role of fetal gender on 
+telomere length.
+We found that maternal age may be associated 
+with shorter telomeres. This is consistent with 
+the literature, which has reported that maternal 
+age is weakly associated with telomere terminal 
+restriction fragment (TRF) length in white blood 
+cells in newborns.19 In addition, Prescott et al. found 
+that paternal age, which was not available for this 
+study, may be associated with fetal telomere length.20 
+However, both paternal and maternal ages may be 
+confounded by one another as a mother may be 
+more likely to choose a partner close to her age.
+Based on the results of this study, if the sample 
+population were to be increased to include babies 
+with congenital defects and those who were excluded 
+
+Griffin et al.
+International Journal of Maternal and Child Health and AIDS (2020), Vol. 9, No. 1, 14-21
+18
+www.mchandaids.org  |
+© 2020 Global Health and Education Projects, Inc.
+for complications, we might have detected a stronger 
+association between caffeine and telomere length. 
+The association between sodium and telomere 
+length, in addition to caffeine, suggests the need for 
+future studies to examine the role of diet during the 
+third trimester of pregnancy on fetal telomere length.
+Table 1: Demographic and developmental characteristics of mother and newborn at time of delivery
+(n = 57 maternal-newborn pairs)
+Maternal Characteristics
+Study Population (n=57)
+Mean, standard deviation (range) n (%)
+Maternal Age at delivery (years)
+25.5, 5.2 (18 – 39)
+Race/Ethnicity
+White
+20 (35.7%)
+Black
+17 (30.4%)
+Hispanic
+14 (25.0%)
+Other
+5 (8.9%)
+Health Insurance Status
+Private 
+46 (80.7%)
+Medicaid /No Insurance
+11 (19.3%)
+Marital Status
+Married
+16 (28.07%)
+Single
+41 (71.9%)
+Gravidity
+2.19, 1.65 (1 – 10)
+≤2
+41 (71.9%)
+>2
+16 (28.1%)
+Maternal Weight 
+91.5, 25.6 (54.4 – 189.6)
+Body Mass Index (kg/m2)
+34.7 (48.9 – 67.5)
+Normal/Underweight
+14 (24.8%)
+Overweight
+10 (17.5%)
+Obese
+33 (57.9%)
+Depression Status
+Yes
+48 (92.3%)
+No
+4 (7.7%)
+Blood Caffeine Levels (mg)
+117.3, 192.5 (0 – 940.9)
+ACOG Recommendations
+>200 mg
+13 (22.8%)
+≤200 mg
+44 (77.2%)
+WHO Recommendations
+>300 mg
+6 (10.5%)
+≤300 mg
+51 (89.5%)
+Sodium (mg)
+4127.8 (431.8 – 17263)
+Newborn Characteristics 
+Gestational Age (weeks)
+39.5, 1.3 (37 – 42)
+Birth Weight (grams)
+3381.4, 509.1 (2101 – 4510)
+T/S Ratio
+0.9, 0.2 (0.4 – 1.8)
+*One individual was missing race; Five individuals were missing depression status
+
+Caffeine and Fetal Telomere Length
+19
+© 2020 Global Health and Education Projects, Inc.
+|  www.mchandaids.org
+4.1. Limitations
+A limitation of this study is the possible selection 
+bias in how study participants were recruited and 
+included in the study. At-risk births (e.g., those with 
+congenital malformations) were excluded from this 
+study, which could have resulted in bias in the findings 
+of this report as those births might have been more 
+likely to have shorter telomere length (the outcome 
+of interest) which would have probably impacted 
+our current findings. Furthermore, given that only 
+mothers with single births were included in this study, 
+as such it is unknown whether multiple births may 
+affect the findings. The participants of the study were 
+also recruited from a low-income area of Tampa, 
+Florida, as Tampa General Hospital often admits 
+patients for delivery who are socioeconomically 
+disadvantaged and primarily uninsured or insured 
+with Medicaid; however, the women who met the 
+inclusion criteria reported private insurance. Women 
+who did not have access to prenatal care might not 
+have received current recommendations regarding 
+caffeine consumption during pregnancy, which may 
+affect their caffeine consumption behaviors. Limited 
+education levels among participants might also have 
+played a role in understanding the different sources 
+of caffeine in beverages, foods, and medications.
+We were also unable to examine caffeine levels 
+within fetal umbilical cord blood to strengthen the 
+association that women with high levels of caffeine 
+in their blood passed it to the fetus via the placenta, 
+which could be a more direct measure of association 
+between fetal exposure to caffeine and telomere 
+length. However, in the future, statistical methods 
+could be used to derive actual maternal bioavailability, 
+which could minimize this limitation. In addition, data 
+were only provided on caffeine exposures during 
+the third trimester of pregnancy, although a better 
+capture of caffeine exposure would have covered 
+the first and second trimester as well. Nonetheless, 
+this study bears several areas of strength including 
+the elucidation of the association of race/ethnicity 
+with telomere length over and beyond the caffeine-
+telomere length relationship.
+5. Conclusion and Global Health 
+Implications
+This study identifies the need for further research 
+to examine the association between fetal telomere 
+length and caffeine consumption during pregnancy 
+(i.e.,  fetal and maternal caffeine serum levels). 
+Higher caffeine intake and certain racial categories 
+may have a protective effect on fetal telomere 
+length, suggesting that caffeine consumption during 
+pregnancy may have long-term implications for fetal 
+development. This study reinforced the literature in 
+that maternal age was shown to have a significant 
+association with shortened fetal telomere length. 
+Figure 1: Regression Coefficients of Caffeine Effect on Telomere 
+Length Stratified by Cutoff Point for Caffeine (Sample Mean, 
+WHO Recommendation, and ACOG Recommendation)
+Figure 2: Regression Coefficients of Other Variable Effects on 
+Telomere Length Stratified by Cutoff Point for Caffeine (Sample 
+Mean, WHO Recommendation, and ACOG Recommendation)
+
+Griffin et al.
+International Journal of Maternal and Child Health and AIDS (2020), Vol. 9, No. 1, 14-21
+20
+www.mchandaids.org  |
+© 2020 Global Health and Education Projects, Inc.
+The racial/ethnic differences in telomere length 
+found in this study warrant the conduct of larger 
+studies to further delineate these associations.
+The relationship between caffeine consumption 
+and telomere length promises to be an avenue 
+for exploring the impact of coffee consumption 
+on pregnancy outcomes. Apart from water and 
+tea, coffee is the third most consumed drink 
+in the world.21 The findings in this study are, 
+therefore, of global importance because it provides 
+additional information that could inform future 
+recommendations of prenatal caffeine consumption 
+at the global level.
+Compliance with Ethical Considerations
+Conflicts of Interest: The authors have no conflicts of 
+interest to report. Financial Disclosure: The authors have 
+no financial disclosures to declare. Funding/Support: This 
+work was supported by the James and Esther King Biomedical 
+Research Program, Florida Department of Health (grant 
+number 4KB03 & 1KG14-33987), and the University of 
+South Florida Neuroscience Collaborative – Seed Grant 
+Program and the University of South Florida Internal 
+Awards Program Proposal Enhancement Grant. The funding 
+agencies did not have any role in the conduct of the study, 
+and the authors have no financial conflicts of interest. 
+Ethical Approval: This study received IRB approval from 
+the University of South Florida, Tampa.
+References
+1.	
+Salihu HM, King LM, Nwoga C, et al. Association 
+Between Maternal-Perceived Psychological Stress 
+and Fetal Telomere Length. Southern Medical Journal. 
+2016; 109.12: 767-72.
+2.	
+Saiardi A, Resnick AC, Snowman AM, Wendland B, 
+and Snyder SH. Inositol Pyrophosphates Regulate 
+Cell 
+Death 
+and Telomere 
+Length 
+through 
+Phosphoinositide 3-kinase-related Protein Kinases. 
+Proceedings of the National Academy of Sciences. 2005; 
+102.6: 1911-914.
+3.	
+Liu JJ, Crous-Bou M, Giovannucci E, and De Vivo I. 
+Coffee Consumption is Positively Associated with 
+Longer Leukocyte Telomere Length in the Nurses’ 
+Health Study. Journal of Nutrition. 2016; 146(7): 
+1373‑378.
+4.	
+Tucker LA. Caffeine Consumption and Telomere 
+Length in Men and Women of the National Health 
+and Nutrition Examination Survey (NHANES). 
+Nutrition & Metabolism. 2017; 14 (1).
+5.	
+Jarosz M, Wierzejska R, Siuba M. Maternal Caffeine 
+Intake and its Effect on Pregnancy Outcomes. 
+European Journal of Obstetrics & Gynecology and 
+Reproductive Biology. 2012; 160.2:156–160
+6.	
+Wierzejska, R, Jarosz M, Siuba M, and Sawicki WA. 
+Comparison of Maternal and Fetal Blood Levels 
+of Caffeine and its Metabolite. A Pilot Study. Polish 
+Gynaecology. 2014; 85.7.
+7.	
+Vik T, Bakketeig L, Trygg KU, Lund-Larsen K, and 
+Jacobsen G. High Caffeine Consumption in the Third 
+Trimester of Pregnancy: Gender-specific Effects on 
+Fetal Growth. Paediatric and Perinatal Epidemiology. 
+2003; 17.4: 324-31.
+8.	
+World Health Organization (WHO). Restricting 
+Caffeine Intake during Pregnancy. World Health 
+Organization. 
+https://www.who.int/elena/titles/
+caffeine-pregnancy/en/Accessed 11 Mar. 2017.
+9.	
+Rhee J, Kim R, Kim Y, et al. Maternal Caffeine 
+Consumption during Pregnancy and Risk of Low 
+Birth Weight: A  Dose-Response Meta-Analysis of 
+Observational Studies. Plos One. 2015; 10.7.
+10.	
+Adams T, Kelsberg G, and Safranek S. Clinical 
+Inquiry: Does Caffeine Intake during Pregnancy 
+Affect Birth Weight? The Journal of Family Practice. 
+Mar. 2016.
+11.	
+Li J, Hong Zhao J, Zhang J, Tang Y, and Xin C. A Meta-
+analysis of Risk of Pregnancy Loss and Caffeine and 
+Key Messages
+•	 High maternal caffeine intake and other 
+factors, including race, may be associated with 
+longer fetal telomere length, whereas older 
+maternal age may be associated with shorter 
+fetal telomere length.
+•	 The significant association between dietary 
+caffeine levels and longer telomere length sug­
+gests that caffeine consumption during preg­
+nancy may have positive long-term implications 
+from a chromosomal perspective.
+•	 There is a need for more studies to further 
+explore the effect of caffeine consumption 
+during pregnancy on fetal telomere length.
+
+Caffeine and Fetal Telomere Length
+21
+© 2020 Global Health and Education Projects, Inc.
+|  www.mchandaids.org
+Coffee Consumption during Pregnancy. International 
+Journal of Gynecology & Obstetrics. 2015; 130.2: 116‑22.
+12.	
+National Institutes of Health. Diet History 
+Questionnaire, Version 1.0. National Institutes of 
+Health, Applied Research Program. 2007.
+13.	
+National Cancer Institute. Diet*Calc Analysis 
+Program, Version 1.4.3. National Cancer Institute, 
+Applied Research Program. 2005.
+14.	
+National Cancer Institute. DHQ Nutrient Database. 
+dhq1_003282006.csv. National Cancer Institute, 
+Applied Research Program. 2005.
+15.	
+Subar AF, Ziegler RG, Thompson FE, Johnson CC, 
+Weissfeld JL, Reding D, et al. For the Prostate, 
+Lung, Colorectal, and Ovarian Cancer Screen 
+Trial Investigators. is shorter always better? 
+Relative importance of questionnaire length and 
+cognitive ease on response rates and data quality 
+for two dietary questionnaires. American Journal of 
+Epidemiology. 2001; 153(4):404.
+16.	
+Thompson FE, Subar AF, Brown CC, Smith AF, 
+Sharbaugh CO, Jobe JB, et al. Cognitive research 
+enhances accuracy of food frequency questionnaire 
+reports: results of an experimental validation study. 
+Journal of the American Dietetic Association. 2002; 
+102:212-25.
+17.	
+Subar AF, Thompson FE, Kipnis V, Midthune D, 
+Hurwitz P, McNutt S, et al. Comparative Validation of 
+the Block, Willett, and National Cancer Institute Food 
+Frequency Questionnaires: The Eating at America’s 
+Table Study. American Journal of Epidemiology. 2001; 
+154:1089-99.
+18.	
+Drury S, Esteves K, Hatch V. et al. Setting the 
+Trajectory: Racial Disparities in Newborn Telomere 
+Length. The Journal of Pediatrics. 2015; 166  (5): 
+1181‑1186.
+19.	
+Okuda K, Bardeguez A, Gardener JP. et al. Telomere 
+Length in the Newborn. Pediatric Research. 2002; 
+52 (3): 377-381.
+20.	
+Prescott J, M. Du. Wong J, and De Vivo I. Paternal 
+Age at Birth is Associated with Offspring Leukocyte 
+Telomere Length in the Nurses’ Health Study. 
+Human Reproduction. 2012; 27.12: 3622-631.
+21.	
+The World’s Top Drink. National Geographic. https://
+www.nationalgeographic.com/people-and-culture/
+onward/2014/04/28/the-worlds-top-drink/Accessed 
+June 7 2019.

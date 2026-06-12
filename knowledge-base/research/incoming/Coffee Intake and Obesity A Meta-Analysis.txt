@@ -1,0 +1,513 @@
+nutrients
+Review
+Coﬀee Intake and Obesity: A Meta-Analysis
+Ariel Lee 1,†, Woobin Lim 2,†, Seoyeon Kim 2, Hayeong Khil 2, Eugene Cheon 2, Soobin An 2,
+SungEun Hong 2, Dong Hoon Lee 3
+, Seok-Seong Kang 2, Hannah Oh 4,*, NaNa Keum 2,3,* and
+Chung-Cheng Hsieh 5
+1
+Dartmouth College, Hanover, NH 03755, USA; ariel.lee.21@dartmouth.edu
+2
+Department of Food Science and Biotechnology, Dongguk University, Goyang 10325, Korea;
+dladnqls1234@naver.com (W.L.); sy98727@naver.com (S.K.); kyk3079@naver.com (H.K.);
+eugenecheon9@naver.com (E.C.); asv0321@naver.com (S.A.); olivialol@naver.com (S.H.);
+sskang@dongguk.edu (S.-S.K.)
+3
+Department of Nutrition, Harvard T.H. Chan School of Public Health, Boston, MA 02138, USA;
+dhlee@mail.harvard.edu
+4
+College of Health Sciences, Korea University, Seoul 02841, Korea
+5
+Department of Epidemiology, Harvard T.H. Chan School of Public Health, Boston, MA 02138, USA;
+CHESIEH@hsph.harvard.edu
+*
+Correspondence: hannahoh@korea.ac.kr (H.O.); nak212@mail.harvard.edu (N.K.);
+Tel.: +82-02-3290-5678 (H.O.); Tel: +82-031-961-5145 (N.K.)
+†
+These authors contributed equally as co-ﬁrst authors.
+Received: 27 April 2019; Accepted: 29 May 2019; Published: 5 June 2019
+
+
+Abstract: Many studies have explored the relationship between coﬀee—one of the most commonly
+consumed beverages today—and obesity. Despite inconsistent results, the relationship has not
+been systematically summarized. Thus, we conducted a meta-analysis by compiling data from 12
+epidemiologic studies identiﬁed from PubMed and Embase through February 2019. The included
+studies assessed obesity by body mass index (BMI, a measure of overall adiposity) or waist
+circumference (WC, a measure of central adiposity); analyzed the measure as a continuous outcome or
+binary outcome. Using random eﬀects model, weighted mean diﬀerence (WMD) and 95% conﬁdence
+interval (CI) were obtained for continuous outcomes; summary relative risk (RR) and 95% CI for the
+highest vs. lowest categories of coﬀee intake were estimated for binary outcome. For BMI, WMD was
+−0.08 (95% CI −0.14, −0.02); RR was 1.49 (95% CI 0.97, 2.29). For WC, WMD was −0.27 (95% CI −0.51,
+−0.02) and RR was 1.07 (95% CI 0.84, 1.36). In subgroup analysis by sex, evidence for an inverse
+association was more evident in men, speciﬁcally for continuous outcome, with WMD −0.05 (95% CI
+−0.09, −0.02) for BMI and −0.21 (95% CI −0.35, −0.08) for WC. Our meta-analysis suggests that higher
+coﬀee intake might be modestly associated with reduced adiposity, particularly in men.
+Keywords: coﬀee intake; obesity; adiposity; body mass index; waist circumference; meta-analysis
+1. Introduction
+Having gained signiﬁcant popularity worldwide in the last few decades, coﬀee has been a
+preferred source of caﬀeine for many people. Coﬀee is high in not only caﬀeine but also other bioactive
+compounds, such as polyphenol and chlorogenic acid that have been suggested to confer diverse
+health beneﬁts [1]. Recent umbrella reviews concluded that higher coﬀee intake may be associated
+with decreased risk of type 2 diabetes, cardiovascular disease, certain cancers (e.g., breast, colorectal,
+endometrial, and prostate cancers), Parkinson’s disease, and mortality [2,3].
+Nutrients 2019, 11, 1274; doi:10.3390/nu11061274
+www.mdpi.com/journal/nutrients
+
+Nutrients 2019, 11, 1274
+2 of 10
+Considering that obesity has been established as a major underlying cause for the aforementioned
+health risks, it is plausible that coﬀee intake may be associated with reduced risk of obesity. Several
+studies have examined the eﬀect of coﬀee intake on adiposity, as assessed by diverse anthropometric
+measures including body mass index (BMI) or waist circumference (WC) [4–15]. However, the results
+are largely inconsistent with results ranging from suggesting anti-obesity beneﬁt [1,16,17] to reporting
+no eﬀect [8,11] and even indicating increased obesity associated with higher coﬀee consumption [6,7].
+With obesity reaching global epidemic proportions [18], it is critical to evaluate the current evidence
+on the eﬀect of coﬀee intake on adiposity. Thus, we conducted a meta-analysis to systematically
+summarize the relationship between coﬀee intake and adiposity.
+2. Methods
+The design, analysis, and reporting of this meta-analysis were based on the Meta-analysis
+Of Observational Studies in Epidemiology (MOOSE) checklist [19]. Three authors (AL, WL, SK)
+participated in literature search, study selection, and data extraction independently. Inconsistency
+between researchers was resolved through discussion with a fourth author (NK).
+2.1. Search Strategy
+PubMed and Embase were searched for epidemiologic studies published up to February 2019
+using the provided search terms (Table S1). The language was restricted to English. Nonoriginal
+studies (e.g., case reports, commentaries, letters, and editorials) and animal experiments were excluded.
+The reference lists of all the articles included in this meta-analysis were reviewed for additional articles.
+2.2. Study Selection
+To be included under the scope of this paper, studies had to be an observational study
+(e.g., cross-sectional, case-control, and cohort studies) or experimental study (e.g., randomized
+controlled trials) that examined the relationship between coﬀee intake and adiposity as indicated by
+weight, BMI, or WC. Studies that tested the eﬀect of coﬀee extract supplements were excluded. We also
+excluded studies that reported results only from univariable analyses because estimates from these
+studies are highly likely to be confounded by factors such as age, alcohol intake, and smoking. Because
+obesity patterns in men and women generally diﬀer, with men being more prone to abdominal adiposity
+(“apple shape”) and women more prone to lower-body adiposity (“pear shape”), coﬀee intake, if plays
+a role in inducing obesity, may exert diﬀerential eﬀects by sex. For this reason, we primarily extracted
+separate estimates by sex unless studies provided only a pooled estimate. The ﬂow diagram of the
+study selection is presented in Figure 1.
+From each study, the following information was extracted: First author, publication year, study
+design, characteristics of study population (e.g., cohort name, country, age at enrollment, sex, sample
+size), unit and type of coﬀee intake, measure and deﬁnition of obesity, and variables controlled for.
+For studies that used continuous outcome (i.e., BMI, WC), mean or mean diﬀerence and corresponding
+standard deviation were extracted. For studies that used binary outcome (i.e., the status of overall and
+central obesity as indicated by BMI and WC, respectively), relative risk (RR) (odds ratio, rate ratio,
+or hazard ratio) and 95% conﬁdence interval (CI) were extracted.
+
+Nutrients 2019, 11, 1274
+3 of 10
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  602 potentially relevant publications were retrieved: 
+ 
+PubMed: 257 publications 
+ 
+Embase: 345 publications 
+198 duplicates were removed. 
+404 publications were screened based on title and abstract 
+346 publications excluded for  
+not meeting the relevance 
+46 publications excluded: 
+• 
+27 reviews, letters or case reports 
+• 
+11 nonhuman studies 
+• 
+5 publications without accessible full text 
+• 
+3 publications excluded of univariates, unadjusted 
+12 publications included in meta-analysis: 
+ 
+BMI: 
+ 
+continuous: 3 publications 
+ 
+binary: 3 publications 
+ 
+WC:  
+ 
+continuous: 4 publications  
+ 
+binary: 6 publications 
+58 publications were assessed based on full text and their 
+references were reviewed for additional publications 
+Figure 1. Flowchart for study selection.
+2.3. Statistical Analyses
+To obtain summary estimates accounting for potential clinical and methodological variations across
+studies, we pooled the results using DerSimonian–Laird random eﬀects model [20]. For continuous
+outcome, weighted mean diﬀerence (WMD) and 95% CI were obtained; for binary outcome, summary
+RR and 95% CI were estimated.
+Heterogeneity in the relationship between coﬀee intake and adiposity across studies was quantiﬁed
+by I2 statistic, which represents the percentage of total variation across studies that is attributable to
+between-study heterogeneity [21]. I2 values of <25%, 25–49%, 50–74%, and ≥75% were considered to
+represent low, moderate, high, and very high heterogeneity, respectively. Potential for small study
+eﬀects, such as publication bias, was assessed using Egger’s test [22]. Given a small number of studies,
+Egger’s test might have limited power to detect the bias. To address this issue, we considered there is
+evidence of small study eﬀects if PEgger < 0.1 instead of 0.05.
+Subgroup analyses and meta-regression9 were conducted by a priori selected variables related to
+potential eﬀect modiﬁers (e.g., sex).
+For statistical signiﬁcance, two-sided α was set at 0.05. All statistical analyses were conducted
+using STATA/SE V15.0 (StataCorp, College Station, TX, USA).
+
+Nutrients 2019, 11, 1274
+4 of 10
+3. Results
+3.1. Characteristics of Studies Included in the Meta-Analysis
+A total of 12 studies were included in this meta-analysis [4–15]. Detailed information on these
+studies is delineated in Table S2. In brief, out of the 12 studies, six studies provided the results for
+overall adiposity based on BMI [5–8,11,13] and 10 studies for central adiposity based on WC [4,6,8–15].
+By study design, 11 studies were cross-sectional studies and one study was a cohort study [15].
+By country, ﬁve studies were conducted in Asia [6,10,12–14], ﬁve studies in Europe [4,7,9,11,15], and
+two studies in America [5,8]. Across the studies, excess coﬀee intake in the highest category compared
+to the lowest categories ranged from 0 cup/day [6–9] to >6 cups/day [15].
+3.1.1. For Overall Adiposity
+Coﬀee Intake and Continuous BMI
+Based on three studies [5,8,11] that reported outcomes in continuous BMI, the summary WMD in
+BMI comparing the highest vs. lowest categories of coﬀee intake was −0.08 (95% CI = −0.14, −0.02)
+(Figure 2A). While high heterogeneity was indicated (I2 = 65%), it was largely driven by diﬀerence in
+eﬀect size and not by inconsistency in the direction of associations. There was no evidence of small
+study eﬀects, such as publication bias (PEgger = 0.39). By sex, a signiﬁcant inverse association was
+found in men (WMD = −0.05, 95% CI = −0.09, −0.02, I2 = 0%) but not in women (WMD = −0.12,
+95% CI = −0.27, 0.03, I2 = 84%) (Table 1). Heterogeneity by sex was not statistically signiﬁcant
+(Pheterogeneity = 0.68).
+Table 1. Meta-analyses of coﬀee intake and overall and central adiposity by sex.
+Outcome
+Among Men
+Among Women
+Pheterogeneity by Sex
+Overall adiposity
+BMI
+No. of studies
+3
+3
+WMD (95% CI; I2)
+−0.05 (−0.09, −0.02; 0%)
+−0.12 (−0.27, 0.03; 84%)
+0.68
+Overweight or obesity as deﬁned by BMI
+No. of studies
+1
+2
+RR (95% CI; I2)
+1.25 (0.95, 1.65; NR)
+2.01 (1.25, 3.21; 83%)
+0.13
+Central adiposity
+WC
+No. of studies
+3
+3
+WMD (95% CI; I2)
+−0.21 (−0.35, −0.08; 0%)
+−0.36 (−2.00, 1.28; 64%)
+0.58
+Central obesity as deﬁned by WC
+No. of studies
+3
+4
+RR (95% CI; I2)
+0.90 (0.66, 1.23; 59%)
+1.18 (0.75, 1.86; 90%)
+0.59
+Abbreviations: BMI, body mass index; CI, conﬁdence interval; NR, not relevant; RR, relative risk; WC, waist
+circumference; WMD, weighted mean diﬀerence.
+
+Nutrients 2019, 11, 1274
+5 of 10
+(A) 
+ 
+(B) 
+Figure 2. Meta-analysis of coﬀee intake with (A) continuous BMI and (B) overall obesity deﬁned by
+BMI. Abbreviations: BMI, body mass index; CI, conﬁdence interval; M, men; RR, relative risk; W,
+women; WMD, weighted mean diﬀerence.
+Coﬀee Intake and Overweight or Obesity Deﬁned by BMI
+A total of three studies were included [6,7,13], of which two Asian studies [6,13] analyzed
+overweight and obesity as a single category. The summary RR of overweight or obesity comparing
+the highest vs. lowest categories of coﬀee intake was 1.49 (95% CI = 0.97, 2.29). There was very high
+heterogeneity (I2 = 94%) (Figure 2B), with studies conducted in South Korea [6,13] showing variable
+but strong positive associations (summary RR = 1.71, 95% CI = 1.12, 2.61, I2 = 86%). Small study
+eﬀects, such as publication bias, were not indicated (PEgger = 0.19). In subgroup analysis by sex,
+the association was not signiﬁcantly heterogeneous (Pheterogeneity = 0.13), but a signiﬁcant positive
+association was pronounced in women (summary RR = 2.01, 95% CI = 1.25, 3.21, I2 = 83%) than in men
+(summary RR = 1.25, 95% CI = 0.95, 1.65, I2 = not relevant) (Table 1).
+
+Nutrients 2019, 11, 1274
+6 of 10
+3.1.2. For Central Adiposity
+Coﬀee Intake and Continuous WC
+Based on four studies [8,10,11,15], the summary WMD in WC comparing the highest vs. lowest
+categories of coﬀee intake was −0.27 (95% CI = −0.51, −0.02), with moderate heterogeneity (I2 = 45%)
+(Figure 3A). There was no evidence of small study eﬀects, such as publication bias (PEgger = 0.98).
+Within each sex, an inverse association was suggested, but it was statistically signiﬁcant only in men
+(WMD = −0.21, 95% CI = −0.35, −0.08, I2 = 0%) (Table 1). Heterogeneity by sex was not statistically
+signiﬁcant (Pheterogeneity = 0.58).
+(A) 
+Overall  (I-squared = 44.7%, p = 0.093)
+Bouchard, 2010 (M)
+Larsen, 2018 (M)
+First author, year
+Balk, 2009 (W)
+Bouchard, 2010 (W)
+Larsen, 2018 (W)
+Hino, 2007
+Balk, 2009 (M)
+-0.27 (-0.51, -0.02)
+0.73 (-1.37, 2.83)
+-0.22 (-0.35, -0.09)
+WMD (95% CI)
+2.60 (-1.10, 6.30)
+-1.96 (-3.85, -0.07)
+-0.22 (-0.39, -0.05)
+-1.25 (-2.30, -0.20)
+2.30 (-2.80, 7.40)
+-0.27 (-0.51, -0.02)
+0.73 (-1.37, 2.83)
+-0.22 (-0.35, -0.09)
+WMD (95% CI)
+2.60 (-1.10, 6.30)
+-1.96 (-3.85, -0.07)
+-0.22 (-0.39, -0.05)
+-1.25 (-2.30, -0.20)
+2.30 (-2.80, 7.40)
+ 
+ 
+0
+-5
+0
+5
+WMD for highest vs. lowest coffee intake
+(B) 
+Figure 3. Meta-analysis of coﬀee intake with (A) continuous WC and (B) central obesity deﬁned by WC.
+Abbreviations: CI, conﬁdence interval; M, men; RR, relative risk; W, women; WC, waist circumference;
+WMD, weighted mean diﬀerence.
+
+Nutrients 2019, 11, 1274
+7 of 10
+Coﬀee Intake and Central Obesity Deﬁned by WC
+A total of six studies were included in this meta-analysis [4,6,9,12–14]. In deﬁning central obesity,
+the cutoﬀof WC ≥90 cm was used in men except for one study (WC ≥85 cm) [12] and WC ≥80 cm
+was used in women except for three studies (WC ≥85 cm) [12–14]. The summary RR of central obesity
+comparing the highest vs. lowest categories of coﬀee intake was 1.07 (95% CI = 0.84, 1.36) (Figure 3B).
+The degree of heterogeneity in the associations was very high (I2 = 82%), with studies published in
+Asia showing opposite associations [6,12–14]. Small study eﬀects were not indicated (PEgger = 0.92).
+In subgroup analysis by sex, higher coﬀee intake was associated with reduced central obesity in men
+(summary RR = 0.90, 95% CI = 0.66, 1.23) but increased central obesity in women (summary RR = 1.18,
+95% CI = 0.75, 1.86) (Table 1). However, the associations were not statistically signiﬁcant and there was
+no evidence of heterogeneity by sex (Pheterogeneity = 0.59).
+4. Discussion
+In this meta-analysis of observational epidemiologic studies, higher coﬀee intake was signiﬁcantly
+associated with modestly lower BMI and WC in men but not in women. However, these ﬁndings
+were not replicated in the meta-analysis of observational epidemiologic studies that deﬁned overall or
+central obesity using speciﬁc cutoﬀs of BMI and WC. For overweight or obesity as deﬁned by BMI,
+there was no evidence of an association in men, while a higher coﬀee intake was signiﬁcantly associated
+with an increased risk in women. For central obesity as deﬁned by WC, higher coﬀee intake was
+associated with reduced risk, albeit statistically nonsigniﬁcant, in men; a statistically nonsigniﬁcant
+but positive association was indicated in women.
+For BMI and WC, respectively, the inconsistent ﬁndings between the continuous and binary
+outcomes can be explained from several perspectives. First, because no study examined coﬀee intake in
+relation to both continuous and binary anthropometric measures, diﬀerent studies contributed to our
+meta-analyses of continuous and binary forms of a given adiposity measure. Studies diﬀer in diverse
+factors including study design, population, and methodological quality, and these variations may have
+contributed to the inconsistency. For instance, studies conducted in Korea where instant coﬀee mixes
+containing sugar and creamer account for a major proportion of overall coﬀee consumption were
+included in the meta-analyses of binary outcome only, mostly contributing highly positive associations
+between coﬀee intake and obesity [6,13]. Alternatively, the discrepant ﬁndings may represent a minimal
+beneﬁt of coﬀee intake in controlling adiposity. In case of coﬀee intake and WC in men, the lack of a
+signiﬁcant inverse association with the status of central obesity may suggest that the magnitude of
+association between coﬀee intake and continuous WC is not substantial enough for extra cups of coﬀee
+per day to prevent the progression from normal status to central obesity.
+Despite the modest degree of association between coﬀee intake and continuous BMI and WC, there
+are several biological mechanisms that add support to the anti-obesity beneﬁt of coﬀee. Biologically
+active compounds in coﬀee, such as chlorogenic acid, caﬀeine, trigonelline, and magnesium, have
+shown to be associated with anti-obesity beneﬁts [1]. Supplementation with chlorogenic acid reduced
+body weight, visceral fat mass, and triglyceride content in adipose tissue in high-fat-fed mice [23]. In an
+in vitro study, trigonelline inhibited adipocyte proliferation and lipid accumulation in diﬀerentiating
+adipocytes [24]. A pronounced beneﬁt of coﬀee among men than among women may be in part related
+to greater susceptibility of men toward obesity, particularly visceral obesity, originating from genetic
+variations [25] and sex hormones [26].
+There are several limitations in our meta-analysis. First, our study extends the limitations of the
+included studies, which were mostly cross-sectional. Thus, the validity of our meta-analysis to infer
+temporal relationship between coﬀee intake and adiposity is compromised; residual confounding by
+smoking cannot be ruled out. Larson et al. performed a sensitivity analysis among never smokers
+and an association became attenuated and statistically nonsigniﬁcant [11]. Additionally, due to
+insuﬃcient data, no meta-analysis was conducted by type of coﬀee (e.g., caﬀeinated vs. decaﬀeinated,
+
+Nutrients 2019, 11, 1274
+8 of 10
+sweetened vs. unsweetened, added cream vs. no cream, etc.), which may have diﬀerential eﬀects
+on adiposity. It is notable in our meta-analysis on central obesity that most studies published in
+Korea, where instant coﬀee mixes containing sugar and cream are widely consumed, found a positive
+association [6,13]. In the Lee study [6], a positive association was found even after the adjustment for
+sugar and cream additive use as covariates in their multivariable regression models. On the contrary,
+in another study conducted in Korea that deﬁned coﬀee consumption as drinking coﬀee without sugar
+and cream by selecting subjects who responded that they consumed coﬀee with “almost no sugar
+added” and “almost no cream added,” an inverse association, albeit not statistically signiﬁcant, was
+observed [14]. Furthermore, the highest vs. lowest categories of coﬀee intake ranged from 0 cup/day to
+>6 cups/day among the studies included in our meta-analysis. However, we did not conduct a separate
+meta-analysis based on the diﬀerence in coﬀee intake levels between the extreme categories because
+only a few studies provided all required information for such analysis. Only three studies [6,7,15]
+provided an estimate for at least 3 cups/day of diﬀerence in intake and they reported discordant
+endpoints (continuous BMI, binary BMI, continuous WC, binary WC). Finally, our meta-analysis
+included a small number of studies. However, based on Egger’s test, we found no evidence of small
+study eﬀects, such as publication bias, in our results even after using more strict cutpoint (PEgger < 0.1).
+Although Egger’s test can be low-powered given a small number of studies, Egger’s test is still
+more sensitive in detecting many types of biases associated with small studies compared with other
+equivalent tests such as Begg’s test.
+Yet, our meta-analyses have strengths as well. To our knowledge, this is the ﬁrst meta-analysis
+that summarized the relationship between coﬀee intake and adiposity. By analyzing coﬀee intake in
+relation to both BMI and WC, and in both continuous and binary forms, this meta-analysis exhaustively
+examined any potential eﬀect that coﬀee intake may have on both the amount and the distribution of
+adiposity. As a meta-analysis combines multiple studies, the increased statistical power enabled us to
+detect a modest beneﬁt of coﬀee intake in reducing adiposity, as indicated by a small reduction in BMI
+and WC.
+In conclusion, coﬀee intake may be modestly associated with lower adiposity as indicated by BMI
+and WC, particularly in men. While the beneﬁt of coﬀee intake against obesity was not as fundamental
+as balanced diets and physical activity, in view of considerable evidence supporting the protective
+eﬀect of coﬀee against major chronic diseases [2,3], coﬀee may be incorporated into a part of healthy
+lifestyle to promote overall health.
+Supplementary Materials: The following are available online at http://www.mdpi.com/2072-6643/11/6/1274/s1,
+Table S1: Database search strategy, Table S2: Characteristics of studies included.
+Author Contributions: A.L. and W.L. collected, analyzed, and interpreted the data, and drafted the manuscript.
+S.K. collected and analyzed the data. H.K., E.C., S.H., and S.A. drafted the manuscript. D.H.L. and H.O. interpreted
+the data and drafted the manuscript. S.-S.K. interpreted the data and drafted the manuscript. C.-C.H. analyzed
+and interpreted the data and drafted the manuscript. N.K. designed the study, interpreted the results, and drafted
+the manuscript.
+Funding: This work was supported by the National Research Foundation of Korea (NRF) grants funded by the
+Korea government (2018R1C1B6008822 [N.K.]; 2018R1A4A1022589 [N.K.]; 2019R1G1A1004227 [H.O.]); a Korea
+University Grant (K1808781) (H.O.); the Dongguk University Research Grant of 2017 (N.K.).
+Conﬂicts of Interest: The authors declare no conﬂict of interest.
+References
+1.
+Higdon, J.V.; Frei, B. Coﬀee and health: A review of recent human research. Crit. Rev. Food Sci. Nutr. 2006,
+46, 101–123. [CrossRef] [PubMed]
+2.
+Poole, R.; Kennedy, O.J.; Roderick, P.; Fallowﬁeld, J.A.; Hayes, P.C.; Parkes, J. Coﬀee consumption and health:
+Umbrella review of meta-analyses of multiple health outcomes. BMJ 2017, 359, j5024. [CrossRef] [PubMed]
+3.
+Grosso, G.; Godos, J.; Galvano, F.; Giovannucci, E.L. Coﬀee, Caﬀeine, and Health Outcomes: An Umbrella
+Review. Annu. Rev. Nutr. 2017, 37, 131–156. [CrossRef] [PubMed]
+
+Nutrients 2019, 11, 1274
+9 of 10
+4.
+Grosso, G.; Stepaniak, U.; Micek, A.; Topor-Madry, R.; Pikhart, H.; Szafraniec, K.; Pajak, A. Association of
+daily coﬀee and tea consumption and metabolic syndrome: Results from the Polish arm of the HAPIEE
+study. Eur. J. Nutr. 2015, 54, 1129–1137. [CrossRef] [PubMed]
+5.
+Lopez-Garcia, E.; van Dam, R.M.; Rajpathak, S.; Willett, W.C.; Manson, J.E.; Hu, F.B. Changes in caﬀeine
+intake and long-term weight change in men and women. Am. J. Clin. Nutr. 2006, 83, 674–680. [CrossRef]
+[PubMed]
+6.
+Lee, J.; Kim, H.Y.; Kim, J. Coﬀee Consumption and the Risk of Obesity in Korean Women. Nutrients 2017, 9,
+1340. [CrossRef]
+7.
+Nordestgaard, A.T.; Thomsen, M.; Nordestgaard, B.G. Coﬀee intake and risk of obesity, metabolic syndrome
+and type 2 diabetes: A Mendelian randomization study. Int. J. Epidemiol. 2015, 44, 551–565. [CrossRef]
+8.
+Bouchard, D.R.; Ross, R.; Janssen, I. Coﬀee, tea and their additives: Association with BMI and waist
+circumference. Obes. Facts. 2010, 3, 345–352. [CrossRef]
+9.
+Grosso, G.; Marventano, S.; Galvano, F.; Pajak, A.; Mistretta, A. Factors associated with metabolic syndrome
+in a mediterranean population: Role of caﬀeinated beverages. J. Epidemiol. 2014, 24, 327–333. [CrossRef]
+10.
+Hino, A.; Adachi, H.; Enomoto, M.; Furuki, K.; Shigetoh, Y.; Ohtsuka, M.; Kumagae, S.; Hirai, Y.; Jalaldin, A.;
+Satoh, A.; et al. Habitual coﬀee but not green tea consumption is inversely associated with metabolic
+syndrome: An epidemiological study in a general Japanese population. Diabetes Res. Clin. Pract. 2007, 76,
+383–389. [CrossRef]
+11.
+Larsen, S.C.; Mikkelsen, M.L.; Frederiksen, P.; Heitmann, B.L. Habitual coﬀee consumption and changes
+in measures of adiposity: A comprehensive study of longitudinal associations. Sci. Rep. 2018, 42, 880–886.
+[CrossRef] [PubMed]
+12.
+Takami, H.; Nakamoto, M.; Uemura, H.; Katsuura, S.; Yamaguchi, M.; Hiyoshi, M.; Sawachika, F.; Juta, T.;
+Arisawa, K. Inverse correlation between coﬀee consumption and prevalence of metabolic syndrome: Baseline
+survey of the Japan Multi-Institutional Collaborative Cohort (J-MICC) Study in Tokushima, Japan. J. Epidemiol.
+2013, 23, 12–20. [CrossRef] [PubMed]
+13.
+Kim, J.H.; Park, Y.S. Light coﬀee consumption is protective against sarcopenia, but frequent coﬀee consumption
+is associated with obesity in Korean adults. Nutr. Res. 2017, 41, 97–102. [CrossRef] [PubMed]
+14.
+Shin, H.; Linton, J.A.; Kwon, Y.; Jung, Y.; Oh, B.; Oh, S. Relationship between Coﬀee Consumption and
+Metabolic Syndrome in Korean Adults: Data from the 2013-2014 Korea National Health and Nutrition
+Examination Survey. Korean J. Fam. Med. 2017, 38, 346–351. [CrossRef] [PubMed]
+15.
+Balk, L.; Hoekstra, T.; Twisk, J. Relationship between long-term coﬀee consumption and components of the
+metabolic syndrome: The Amsterdam Growth and Health Longitudinal Study. Eur. J. Epidemiol. 2009, 24,
+203–209. [CrossRef] [PubMed]
+16.
+Maki, C.; Funakoshi-Tago, M.; Aoyagi, R.; Ueda, F.; Kimura, M.; Kobata, K.; Tago, K.; Tamura, H. Coﬀee extract
+inhibits adipogenesis in 3T3-L1 preadipocyes by interrupting insulin signaling through the downregulation
+of IRS1. PLoS ONE 2017, 12, e0173264. [CrossRef]
+17.
+Wille, N.; Erhart, M.; Petersen, C.; Ravens-Sieberer, U. The impact of overweight and obesity on health-related
+quality of life in childhood–results from an intervention study. BMC Public Health 2008, 8, 421. [CrossRef]
+18.
+Hruby, A.; Hu, F.B. The Epidemiology of Obesity: A Big Picture. PharmacoEconomics 2015, 33, 673–689.
+[CrossRef]
+19.
+Stroup, D.F.; Berlin, J.A.; Morton, S.C.; Olkin, I.; Williamson, G.D.; Rennie, D.; Moher, D.; Becker, B.J.;
+Sipe, T.A.; Thacker, S.B. Meta-analysis of observational studies in epidemiology: A proposal for reporting.
+Meta-analysis Of Observational Studies in Epidemiology (MOOSE) group. JAMA 2000, 283, 2008–2012.
+[CrossRef] [PubMed]
+20.
+DerSimonian, R.; Laird, N. Meta-analysis in clinical trials. Control Clin. Trials 1986, 7, 177–188. [CrossRef]
+21.
+Higgins, J.P.; Thompson, S.G.; Deeks, J.J.; Altman, D.G. Measuring inconsistency in meta-analyses. BMJ 2003,
+327, 557–560. [CrossRef] [PubMed]
+22.
+Harbord, R.M.; Egger, M.; Sterne, J.A.C. A modiﬁed test for small-study eﬀects in meta-analyses of controlled
+trials with binary endpoints. Stat. Med. 2006, 25, 3443–3457. [CrossRef] [PubMed]
+23.
+Cho, A.S.; Jeon, S.M.; Kim, M.J.; Yeo, J.; Seo, K.I.; Choi, M.S.; Lee, M.K. Chlorogenic acid exhibits anti-obesity
+property and improves lipid metabolism in high-fat diet-induced-obese mice. Food Chem. Toxicol. 2010, 48,
+937–943. [CrossRef] [PubMed]
+
+Nutrients 2019, 11, 1274
+10 of 10
+24.
+Ilavenil, S.; Arasu, M.V.; Lee, J.C.; Kim, D.H.; Roh, S.G.; Park, H.S.; Choi, G.J.; Mayakrishnan, V.; Choi, K.C.
+Trigonelline attenuates the adipocyte diﬀerentiation and lipid accumulation in 3T3-L1 cells. Phytomedicine
+2014, 21, 758–765. [CrossRef] [PubMed]
+25.
+Wang, T.; Ma, X.; Peng, D.; Zhang, R.; Sun, X.; Chen, M.; Yan, J.; Wang, S.; Yan, D.; He, Z.; et al. Eﬀects of
+Obesity Related Genetic Variations on Visceral and Subcutaneous Fat Distribution in a Chinese Population.
+Sci. Rep. 2016, 6, 20691. [CrossRef]
+26.
+Leeners, B.; Geary, N.; Tobler, P.N.; Asarian, L. Ovarian hormones and obesity. Hum. Reprod. Update 2017, 23,
+300–321. [CrossRef]
+© 2019 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access
+article distributed under the terms and conditions of the Creative Commons Attribution
+(CC BY) license (http://creativecommons.org/licenses/by/4.0/).

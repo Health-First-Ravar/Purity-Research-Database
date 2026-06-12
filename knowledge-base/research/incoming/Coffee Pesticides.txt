@@ -1,0 +1,1790 @@
+TYPE Review
+PUBLISHED 08 November 2022
+DOI 10.3389/fpubh.2022.1004570
+OPEN ACCESS
+EDITED BY
+Iﬀat Elbarazi,
+United Arab Emirates University,
+United Arab Emirates
+REVIEWED BY
+Carlos Alexandre Galinaro,
+University of São Paulo, Brazil
+Haruna Moda,
+Manchester Metropolitan University,
+United Kingdom
+*CORRESPONDENCE
+Hussein F. Hassan
+Hussein.hassan@lau.edu.lb
+SPECIALTY SECTION
+This article was submitted to
+Environmental health and Exposome,
+a section of the journal
+Frontiers in Public Health
+RECEIVED 27 July 2022
+ACCEPTED 05 September 2022
+PUBLISHED 08 November 2022
+CITATION
+Merhi A, Kordahi R and Hassan HF
+(2022) A review on the pesticides in
+coﬀee: Usage, health eﬀects,
+detection, and mitigation.
+Front. Public Health 10:1004570.
+doi: 10.3389/fpubh.2022.1004570
+COPYRIGHT
+© 2022 Merhi, Kordahi and Hassan.
+This is an open-access article
+distributed under the terms of the
+Creative Commons Attribution License
+(CC BY). The use, distribution or
+reproduction in other forums is
+permitted, provided the original
+author(s) and the copyright owner(s)
+are credited and that the original
+publication in this journal is cited, in
+accordance with accepted academic
+practice. No use, distribution or
+reproduction is permitted which does
+not comply with these terms.
+A review on the pesticides in
+coﬀee: Usage, health eﬀects,
+detection, and mitigation
+Areej Merhi, Rita Kordahi and Hussein F. Hassan*
+Department of Natural Sciences, School of Arts and Sciences, Lebanese American University, Beirut,
+Lebanon
+Coﬀee is considered among the most popular beverages and is classiﬁed as
+the second most exported item worldwide. The presence of pesticides in this
+staple commodity is a challenge to import and export activities, in addition to
+the fact that pesticides are toxins of public health concern. Even if pesticides
+are applied properly and their residues are within the acceptable range, it
+is important to know the fate of these pesticides prior to their ingestion.
+A plethora of research has been done to optimize methods and thus to
+have valid procedures to test for the presence of pesticides in coﬀee. In this
+review, the analytical methods used in these articles to detect and quantify the
+pesticides in coﬀee beans, roasted coﬀee, and coﬀee infusion were identiﬁed.
+This review highlights as well the main factors that play a key role in having
+good separation, identiﬁcation, and recovery of pesticide residues in the
+aforementioned items. In addition, the review explains the eﬀect of pesticides
+on human health and the mitigation techniques for pesticide exposure.
+KEYWORDS
+coﬀee, pesticide residues, analytical methods, mitigation, beverage
+Introduction
+Coﬀee is part of the Rubiaceae family, which is a type of ﬂowering plant with seeds
+producing coﬀee. It is estimated that 75–80% of the world’s coﬀee manufacturing is from
+Coﬀea arabica and about 20% is from C. canephora (1, 2). Coﬀee is classiﬁed among the
+most consumed beverages in the world (3). Coﬀee beverages are produced from ground
+roasted beans of Coﬀea spp plant. The main commercialized coﬀee species related to
+genus Coﬀea are Coﬀea arabica, Coﬀea canephora and Coﬀea liberica (4, 5). Coﬀee is
+known for its enhanced impact on the economy in tropical agricultural regions due to
+its high rate of exportation. It has a global market and is considered, after oil, the most
+merchandised product in the world (6). Coﬀee is rich in valuable antioxidants mainly
+chlorogenic acid (1).
+As with any crop, pests and plant diseases can aﬀect the coﬀee plants. To avoid
+diseases that control the quality and quantity of production, pesticides are used at
+diﬀerent stages of cultivation of coﬀee crops (7). The World Health Organization and
+the Food and Agricultural Organization have deﬁned pesticides as: any substance or a
+mixture of substances intended for repelling, destroying, or controlling any pest during
+or interfering in the production, processing, storage, or marketing of food (8). An ideal
+Frontiers in Public Health
+01
+frontiersin.org
+
+Merhi et al.
+10.3389/fpubh.2022.1004570
+pesticide should be very selective, eﬀective for pest control for
+a determined period of time and degrading afterwards (9).
+Insecticides are mainly used in coﬀee crops. Insecticides include
+organophosphates (OP), pyrethroids, and carbamates.
+After spraying the plants with pesticides, the residues might
+be present in the crop which might lead to harmful health
+conditions in humans due to their toxicity. However, time-
+temperature steps determine the chemical composition and
+characteristics of coﬀee such as ﬂavor, aroma, and color (10).
+Prior to roasting the green coﬀee beans, they are dried at a
+temperature <160◦C. Then, roasting takes place by increasing
+the temperature up to 260◦C. Important chemical reactions take
+place when the temperature reaches 190◦C such as pyrolytic
+reactions including hydrolysis, decarboxylation, oxidation, and
+reduction. Even after these steps, studies have shown that
+pesticides have the capacity to still exist in commercial coﬀee.
+This makes pesticide residues in coﬀee a major health concern
+and monitoring the pesticides is crucial since unintended
+exposure to pesticides can occur via consuming coﬀee (1).
+In
+addition
+to
+health
+problems,
+environmental
+contamination
+could
+be
+another
+consequence
+of
+using
+pesticides. To answer the question about the fate of pesticides
+after being sprayed, an attempt to evaluate and predict their
+destination was presented using the level I fugacity model
+(11). The modeling studies (Fugacity Level I) conﬁrm that
+pesticides are mostly abundant in the sediment when it comes to
+concentration in the environment but without considering the
+volume of the compartments. Regarding the percentage and the
+volume of the compartments, pesticides were mostly abundant
+in the soil. Therefore, sediment and soil had the highest
+risk when it comes to the evaluation of pesticides. However,
+more attempts are in progress to use other levels of modeling
+(fugacity), while taking into consideration environmental
+characteristics where advection, degradation, emission, and
+transfer of substances between compartments occur. We
+recommend being selective when it comes to choosing the type
+and quantity of the pesticides used and to continue monitoring
+their fate afterwards (11).
+Since coﬀee, along with other agricultural waste, contains
+important nutrients, the defective coﬀee bean can be a solution
+to the problem. A study showed the function of micro niches in
+the porous surface of the green coﬀee bean in the beans’ bacterial
+biodegradation of dichlorodiphenyltrichloroethane (DDT) and
+endosulfan (12). Scanning Electron Microscope (SEM) analysis
+was conducted to evaluate the changes occurring on the surface
+of the coﬀee beans, when cultivating them. The coﬀee beans
+were air dried, ground, and sieved. Afterwards, the isolation
+of organochlorine pesticide degrading bacteria from coﬀee
+beans was performed, followed by the bacterial inoculum
+preparation. However, coﬀee beans contain important amounts
+of carbon and nutrients which promote bacterial growth
+(13). Anaerobic and aerobic conditions promote electrophilic
+aromatic contaminants (such as organochlorine and azo)
+mineralization (14). In other words, defective green coﬀee
+beans contain important nutrients that could be used in
+organochlorine pesticide degrading bacteria in liquid media. It
+is worth mentioning that DDT is an organochlorine pesticide
+that was banned in agriculture. Organochlorine pesticides
+have halogen electron removing groups which create electron
+deﬁciency in the molecule leading to the resistance of aerobic
+degradation (15). When reductive states occur, those pesticides
+will be more prone to attack especially when introducing
+auxiliary electron donors. Therefore, DDT mineralization needs
+a combination of environmental states (redox potential, pH,
+co-substrate, pollutant concentration, etc.). Currently, agro-
+industrial wastes demonstrated positive eﬀects in the toxic
+organopollutant biodegradation improvement (16–18).
+In short, analyzing coﬀee samples prior to consumption is
+a necessity to evaluate the pesticide levels in these samples. In
+addition, it is vital to understand the percentage of the pesticides
+transferred from the coﬀee bean to the coﬀee beverage to assess
+the factors that inﬂuence such transfer. This responsibility lies in
+the hands of the big industries that must run regular analysis of
+the coﬀee samples through accredited and certiﬁed labs to meet
+the laws of each country until we reach strict regulations about
+either using green pesticides or following organic farming.
+In order to determine and measure pesticides in nutritional
+goods and the environment, many chromatographic methods
+have been created by utilizing GC or LC (19). These include
+delicate extraction techniques: liquid-liquid extraction, solid
+phase extraction (SPE), single-drop microextraction and solid-
+phase microextraction. The identiﬁcation of pesticides in foods
+was based on the development of other extraction methods
+which were used to develop multi-residue methods. In the last
+2 years, research has been oriented to show and prove the eﬀect
+of pesticides on both human’s health and psychology in addition
+to polluting surface water. This is to motivate a move back to
+organic farming proving that pesticides can kill some natural
+enemies that do a similar job as that of pesticides (20).
+Eﬀect of exposure to pesticides on
+health and environment
+The permanent presence of coﬀee culture for a long period
+of time in the ﬁeld creates environmental changes which
+may lead to the accumulation of pests and the occurrence
+of diseases caused by fungi, insects, nematodes, and weeds.
+Harmful modiﬁcations, induced by these organisms, aﬀect the
+development, production, and quality of the coﬀee (21). Many
+pesticides are implemented in order to diminish the prevalence
+of unfavorable organisms or plant species in coﬀee lands (20).
+Nevertheless, pesticides have toxic eﬀects on both humans
+and the environment, which implies delicate control for their
+application and residues. The exportation of coﬀee represents
+more than 50% of the external exchange earnings in several
+Frontiers in Public Health
+02
+frontiersin.org
+
+Merhi et al.
+10.3389/fpubh.2022.1004570
+under-developed countries. Brazil was considered, since 2008,
+the country that has the highest consumption rate of pesticides.
+The Brazilian Health Regulatory Agency (Anvisa) conﬁrmed
+that Brazil’s consumption of food containing pesticide residues
+is about 15% which may lead to damaging health eﬀects (22). A
+stronger control of residues in foods, such as coﬀee, is crucial
+due to the major usage of pesticides in the agriculture ﬁeld
+(23). One of the side eﬀects of organo-phosphorus pesticides
+(OPPs) is that they block the mammalian acetylcholinesterase
+(AChE). This leads to the development of clinical signs related to
+several areas of the nervous system (24, 25). Acetylcholine levels
+will be automatically increased and accumulate in the muscles
+once cholinesterase is inhibited causing muscle disruption (26).
+Increased exposure to anticholinesterase compounds might
+seriously depress cholinesterase. In this spirit, the Tanzanian
+component of East Africa Pesticide Network (EAPN) evaluated
+the presence of clinical signs of pesticides’ side eﬀects on the
+Tanzanian minimal scale coﬀee farmers (27). It was shown that
+short-term spraying of OPPs might not be very harmful, but
+long-term spraying can be dangerous.
+Due to the high consumption of coﬀee, both producers and
+consumers could be subjected to health risks due to pesticides
+in coﬀee, so attention should be drawn to the safety of coﬀee.
+A recent study proved that the exposure to pesticides increases
+the mortality risk for patients diagnosed with Parkinson’s
+disease (28). Yet, more cases are to be considered to explain
+the reasons. Another detailed survey in Tanzania showed that
+acute pesticide poisoning (APP) is a health threat that is
+leading to an increase in the death rate for those exposed
+to pesticides (29). In proving the relation between the risk
+of hormonal exposure and risk of Parkinson’s disease among
+postmenopausal women, the exposure to pesticides was among
+the factors. That is, women who were farmers or lived near farms
+where pesticides were used had a higher percentage of having
+Parkinson’s disease with respect to control cases (30). Preclinical
+evidence proved the action of certain pesticides to increase
+the risk of Parkinson’s. Dieldrin is an organochlorine that is
+widely used as an insecticide. This pesticide has been linked
+to neural apoptosis (31). Rotenone behaves as a neurotoxin
+as well. Moreover, the negative impact of pesticides is not
+restricted only to the farmers or consumers, but also on the
+future of coﬀee wastewater (CWW). A recent critical review
+showed how the use of the CWW after proper treatment could
+be beneﬁcial economically and environmentally except for the
+minimal residues of pesticides that threaten the aquatic life even
+if present as trace amounts (32). This has been already conﬁrmed
+in older studies showing the phytotoxicity and cytogenotoxicity
+in coﬀee wastewater (33) given that trials and attempts to
+remove these pesticides were initiated in 2013 and showed
+unsatisfactory results (34). Using coﬀee residues might be a way
+to generate extra income for coﬀee growers helping them oﬀset
+production costs. The latter is subject to the use of pesticides.
+As 80 % of the population in Ethiopia depends on agriculture
+using uncontrolled amounts of pesticides, concerns were raised
+recently, and consequently, many studies in this regard have
+been initiated emphasizing the pesticide-related health and
+environmental risks. To estimate risk and develop solutions, a
+recent study based on an electronic database was conducted
+speciﬁcally on the direct use of dichlorodiphenyltrichloroethane
+(DDT). The data showed DDT was detected in soil, surface
+water, and human breast milk indicating the direct use of DDT
+on food crops. Moreover, this is a sign of chronic health risk
+to the public harming ﬁsh, bees, soil organisms, and wildlife.
+Hence, misuse of pesticides can lead to interruption of the entire
+life cycle (35). This study was a call for the necessity of raising
+awareness to reduce the risks resulting from pesticides’ misuse.
+Recent studies have been oriented to study the inﬂuence of
+pesticides not only on the soil, but also on the entire surrounding
+population. More speciﬁcally, investigations are looking at
+safety measures when spraying coﬀee beans with pesticides. For
+example, a recent study focused on the cytotoxic and genotoxic
+eﬀects of pesticides’ exposure to male farmworkers. Results
+showed that 87% of the farmers do not put on masks or gloves
+when spraying coﬀee crops with pesticides (36). This puts them
+at risk of respiratory problems. Symptoms can be clear upon
+either direct exposure or after a certain period of time. Despite
+the diﬀerent levels of risk the farmers had, the problem is
+the same. It is true that the optimal solution is to revert to
+organic farming, but meanwhile it is important to take steps
+to control pesticide use. This could be by training farmers to
+handle pesticides safely. In addition to knowledge, protective
+clothing must be obligatory, especially in poor countries, where
+occupational health standards are weakly controlled. In short,
+with these preliminary results proving that pesticides can cause
+cancer, more restrictive regulations for pesticide use are needed.
+Serious strict control for applying these rules is required. A
+similar study was carried out in Thailand that came to the
+same conclusions about the necessity of training the farmers and
+providing them with protective tools for handling pesticides due
+to their lack of knowledge toward the pesticides’ toxicity (37).
+There is no doubt that the lifestyle is the key for all the
+health conditions including depression signs. Since Brazil is the
+largest coﬀee-producing nation, a spotlight was focused not only
+on the farmers’ health but also on their psychological status
+since they have used pesticides intensively since 2008. Hence,
+a detailed study was conducted on the impact of pesticides
+on the farmers’ psychology. A validated correlation between
+exposure to pesticides and depression was found. Mental health
+is another consequence to add to pesticides’ use. It is true that
+depressive symptoms can result from many factors other than
+pesticides’ exposure, but the latter is a factor and increases the
+risk as well (38). Hence, farm workers’ well-being is another
+issue to pay attention to either by restrictive rules toward
+pesticides’ use or by spreading awareness for rural workers
+so that they are followed-up with to avoid entering the cycle
+of depression. In an attempt to increase the yield of crops,
+Frontiers in Public Health
+03
+frontiersin.org
+
+Merhi et al.
+10.3389/fpubh.2022.1004570
+there was a move toward using chemicals associated with a
+reduction of shade trees. In this regard, a study tested the
+relationship between distance from the forest, use of chemicals,
+shade cover, and the quality and quantity of butterﬂies that are,
+in turn, considered a bio indicator in coﬀee home gardens (39).
+Results showed that the use of chemicals (pesticides) aﬀected
+the abundance of the butterﬂies negatively. On the other hand,
+shade trees had a positive impact on the number and the
+diversity of the butterﬂies. This is a shift toward better crop
+management and reducing the use of pesticides. This is, in
+fact, one of the reasons behind the dramatic increase of coﬀee
+production in Indonesia in the past 10 years. Organochlorine
+and organophosphorus pesticides were detected and quantiﬁed
+in the surface water next to an agricultural area planted with
+coﬀee. Water samples were subjected to microwave-assisted
+extraction before injecting samples to GC equipped with an
+electron microcapture detector to quantify endosulfan, DDT,
+heptachlor, methoxychlor, parathion, and chlorpyrifos (40). This
+shows how use of such pesticides contaminates the water and
+exposes peoples’ health to hazardous problems and chronic
+diseases. Pesticides entering the water cycle are interrupting
+almost all the life cycles for a long time since these pesticides
+have long life-times.
+Detection of pesticides in coﬀee
+beans
+To quantify the pesticides in foods and thus to provide good
+control measures, analytical techniques have always been the
+prerequisite to get precise results. It is widely known and agreed
+that gas chromatography and liquid chromatography are used
+(19). The choice of the technique is mainly dependent on the
+class of pesticides under study. That is, LC is used when the
+limitation of the GC is reached if the pesticides under study
+are polar, non-volatile, and/or thermally labile. Keys to having
+a validated and successful measurement lie in the choice of the
+spectrometric technique, and the extraction procedure using the
+minimum amount of chemicals, time, and cost. In addition,
+optimized clean-up steps are crucial depending on the food
+tested to avoid aﬀecting the matrix (41–43). In our case, coﬀee
+is considered a diﬃcult matrix to work on. This is because
+green coﬀee beans contain large amounts of sugars, organic
+acids, phenolic acids, important antioxidants, pigments, fatty
+acids, and caﬀeine (44, 45). Within the same chromatography,
+many factors can inﬂuence the validation of the method. In this
+part, a summary of the main key factors that solved challenges
+in extraction, separation, or enhancing recovery percentages
+is presented. The choice of the chromatography is dependent
+on the nature of the pesticides in question. For example, for
+Imidacloprid to be detected using GC, it needs to be derivatized
+since it is thermo-labile. If derivatization is not possible, LC
+should be used instead (46). In addition, the clean-up will be
+inﬂuenced by the choice of the chromatography. For example,
+to perform the GC–MS procedure, an additional clean-up was
+crucial. In case of LC, solvents can be run at a low ﬂow rate after
+running samples so that the column is cleaned and washed by
+many cycles. In the case of the GC, this could not be done. As
+the principle of the GC, the sample evaporates and in the case
+of contaminants, they will block the ion source and stick on the
+column. Baking the column can solve a part of the problem, and
+cleaning the ion source is possible, but this is problematic and
+might alter the results of the coming samples. That is why when
+dealing with GC, additional caution is paid regarding the clean-
+up steps. For that purpose, C18 and Primary and Secondary
+Amines (PSA) were used as dispersive solid-phase extraction
+(d-SPE) sorbents. The role of C18 is to remove the lipids and
+esters (47) where the PSA is mainly used to eliminate more polar
+compounds like sugars, free fatty acids, pigments, and organic
+acids (48, 49). In this section, diﬀerent methods and techniques
+are discussed and then summarized in Tables 1, 2.
+QuEChERS
+A method was optimized using QuEChERS (Quick, Easy,
+Cheap, Eﬀective, Rugged, and Safe) for clean-up prior to
+analyzing 181 samples of Indonesian green coﬀee beans
+to quantify 14 pesticides using LC-ESI-MS/MS (50). This
+extraction method is based mainly on having a homogeneous
+sample in an organic solvent and then adding salts like
+NaCl and MgSO4 for dehydration followed by a clean-up
+achieved by means of solid phase extraction. In this part,
+it is important to retain the analyte under study in the
+extract. The triple quadrupole system coupled to this LC
+facilitates having two or more transition states to validate
+the precursor-product pairs. Samples were collected from
+diﬀerent regions of Indonesia to show that some of them
+contained pesticide levels higher than the MRL. After weighing
+the coﬀee samples (10 g) in acetonitrile (10 mL), acetic acid
+(1 %), sodium citrate (1 g), sodium chloride (1 g), sodium
+hydrogen citrate (0.5 g), and magnesium sulfate (4 g) were
+added, and the mixture was subjected to centrifugation for
+10 min. Modifying the standard QuEChERS was achieved by
+using graphitized carbon black (GCB). Despite the fact that
+GCB retains planar pesticides, it removes the pigments from
+the coﬀee bean samples (58). As for the clean-up procedure,
+a volume of 4 mL of the acetonitrile phase was removed and
+treated with PSA (150 mg), GCB (45 mg) and MgSO4 (855 mg)
+and centrifuged again. The extract was kept in the fridge
+overnight, and then ﬁltered through PTFE (0.2µm) before being
+injected into the LC. The method developed in this study is
+considered a better one compared to the previous study (1).
+This is due to a better limit of quantiﬁcation (LOQ) values
+compared to the maximum residual limits (MRL) required by
+the importing countries. In other words, this method is reliable
+Frontiers in Public Health
+04
+frontiersin.org
+
+Merhi et al.
+10.3389/fpubh.2022.1004570
+TABLE 1 Summary of the detected pesticides in coﬀee samples, the corresponding clean-up and chromatography used.
+Publication Year
+No of Pesticides
+Samples
+Detection Method
+Clean-up
+Reference
+2015
+14
+Green beans
+LC-ESI-MS/MS
+QuEChERS
+(50)
+2017
+52
+Coﬀee leaves
+UHPLC-TOFMSLC/QqTOF-MS/MS
+DLLME
+(51)
+2018
+117
+Ground coﬀee
+LC-ESI-MS/MS
+QuEChERS
+(52)
+2019
+7
+Roasted coﬀee
+LC-MS/MS
+LLME
+(53)
+2019
+81
+Raw beans
+LC-MS/MS
+SPE
+(54)
+2020
+4
+Roasted coﬀee
+GC-ECD
+NP
+(55)
+2022
+34
+Ground coﬀee
+GC-MS
+QuEChERS
+(56)
+2022
+7
+Roasted coﬀee
+GC-MS
+IL
+(57)
+TABLE 2 Experimental conditions for extracting coﬀee samples and the analytical parameters of the method.
+sample
+(g)
+Extraction
+Solvent
+Number of samples
+LOQ
+(µg/kg)
+RSD %
+R2
+LOD
+(µg/kg)
+Recovery %
+Reference
+10
+Acetonitrile
+181
+0.8–9.7
+<20
+>0.981
+0.2–2.9
+70–120
+(50)
+1
+Acetonitrile
+20
+0.03–2.25
+<20
+>0.99
+0.01–0.25
+87–94
+(51)
+10
+Acetonitrile
+—
+10–50
+<20
+>0.99
+–
+70–120
+(52)
+1
+Acetonitrile
+–
+0.1
+<10
+>0.99
+0.02–0.05
+74–99
+(53)
+2
+Acetonitrile
+–
+–
+–
+–
+–
+–
+(54)
+3.5
+Acetonitrile
+–
+4.45–4.77
+<5
+>0.99
+1.33–1.42
+74–113
+(55)
+3
+Acetonitrile:hexane
+(2:1)
+150
+3–9.3 µg/kg
+<6
+>0.994
+1–3.2 µg/kg
+83–100
+(56)
+2
+Dichloromethane:Acetonitrile
+13
+–
+<10
+–
+–
+35–97
+(57)
+to test tea. After validating the method and optimizing the
+extraction procedure using spiked samples, the method was
+applied to 118 samples of green coﬀee beans. Results proved
+the absence of the following pesticides: methomyl, aldicarb,
+diuron, and propiconazole. On the other hand, other tested
+pesticides were detected in diﬀerent samples as presented in
+Table 3.
+To study the impact of toxicants in coﬀee, 34 pesticides
+were detected and quantiﬁed in 150 coﬀee samples and risk
+assessment was calculated (56). Samples were extracted using
+QuEChERS. Coﬀee (3 g) was mixed with water (6mL) for
+2 min, acetonitrile (12mL) and hexane (6 ml) were added,
+and the mixture was stirred. NaCl (1g) and MgSO4 (4 g)
+were added and centrifuged for 12 min at 3,500 rpm at
+−5◦C. PSA were added prior to analyzing the samples using
+GC-MS. This was done to test the samples imported from
+diﬀerent countries. Analysis of the samples was followed
+by a risk assessment calculation based on the population’s
+consumption. Results of the hazard index indicates the high
+risk of health problems in addition to environmental pollution
+(56) if country A (anonymous indexing) was chosen. Hence,
+the analysis of the samples prior to consumption is an
+essential step to prevent and control the risk of toxicants to
+the consumers.
+Dispersive liquid–liquid extraction
+Being one of the most consumed beverages worldwide,
+it is essential that coﬀee follows the European food safety
+regulations, especially when it comes to imported raw coﬀee
+since diﬀerent countries have various regulations and control
+regarding the quality and quantity of pesticides sprayed on
+coﬀee crops. This calls attention to the necessity of analyzing
+pesticide residues and other contaminants that might be present
+in quantities exceeding the MRLs. For coﬀee samples to be
+analyzed, extraction is a must. This step is challenging due
+to the negative impact of caﬀeine present in coﬀee on the
+chromatograms obtained using the GC-MS. This is related to
+the large and broad peak of caﬀeine that blocks the analysis
+of the chromatogram and masks many pesticides that have
+retention times in the range of this wide peak (3). Additionally,
+caﬀeine can interact with the sorbent yielding a decrease
+in the recovery percentage. For example, in an attempt to
+detect the pesticides in the coﬀee leaves, the peaks of the
+52 detected pesticides were accompanied with that of caﬀeine
+despite the use of modiﬁed QuEChERS prior to analysis using
+LC-MS/MS. Hence, modiﬁcations were made to enhance the
+results. This included testing the inﬂuence of diﬀerent solid
+phase extractions parallel with varying the amount of C18.
+Frontiers in Public Health
+05
+frontiersin.org
+
+Merhi et al.
+10.3389/fpubh.2022.1004570
+TABLE 3 The number of real samples vs. the occurrence of pesticides above LOQ with respect to diﬀerent MRLs.
+Pesticide
+Below
+MRLs of
+EU
+Below
+MRLs of
+Japan
+Below
+MRLs of
+US
+Above
+MRLs of
+EU
+Above
+MRLs of
+Japan
+Above
+MRLs of
+US
+Carbaryl
+1
+1
+–
+3
+1
+–
+Carbofuran
+4
+4
+4
+–
+–
+–
+Diazinon
+32
+39
+–
+11
+4
+–
+Diclorvos
+4
+1
+–
+–
+3
+–
+Dimethoate
+Imidacloprid
+Malathion
+Methidathion
+Profenofos
+Propoxur
+3
+11
+6
+2
+3
+3
+4
+11
+4
+2
+3
+4
+–
+11
+–
+–
+–
+–
+1
+–
+–
+–
+–
+1
+–
+–
+2
+–
+–
+–
+–
+–
+–
+–
+–
+–
+Despite many attempts, the caﬀeine peak was still a problem.
+As a consequence, additional extraction techniques had to
+be implemented with QuEchERS to have chromatograms free
+form caﬀeine peaks. In fact, QuEChERS could be coupled with
+dispersive liquid–liquid micro-extraction (DLLME). In this case,
+DLLME is used for the extraction and QuEChERS is used
+for the clean-up. This combination was presented in 2015
+prior to quantifying organochlorine pesticides in raw coﬀee
+samples (3). Based on this, 52 pesticides in coﬀee leaf extracts
+were detected and quantiﬁed using QuEChERS combined with
+DLLME for extraction and clean-up steps (51). The target of
+the study was to analyze the coﬀee crops that are planted
+under organic conditions. For this, the aforementioned validated
+method was used to analyze the coﬀee leaf extracts from 12
+traditionally grown trees and 8 organically grown trees. Results
+showed the absence of pesticides in all of the organic samples.
+Furthermore, thiametosan was detected in 6 samples taken from
+the traditionally grown trees.
+It is worth mentioning that one disadvantage of using
+DLLME
+is
+the
+very
+low
+recovery
+percentage
+(absence
+sometimes) for very polar pesticides. This could be prevented
+by testing these pesticides using LC-MS/MS instead of GC-MS
+following the exact same extraction procedure with the absence
+of the DLLME step. This is because the caﬀeine peak is not an
+issue when using LC-MS/MS. In other words, the use of the
+DLLME step is dependent on both the polarity of the pesticides
+under study and the analytical technique used.
+Studies have been carried out to show the relation between
+the sonication time and the recovery percentages (59). In
+addition, the use of both QuEChERS and dispersive liquid–
+liquid microextraction (DLLME) to determine pesticides in fruit
+samples has been reported (60). Based on these previous studies,
+a successful approach to determine seven pesticides present
+in four chemical families (carbamate, neonicotinoid, triazole,
+and organophosphate) in roasted coﬀee (Coﬀea Arabica) was
+demonstrated combining the ultrasonic solvent extraction
+method with DLLME as the cleaning step prior to analysis using
+ultra-performance LC-tandem MS (UPLC-MS/MS) technique
+(53). Coﬀee samples were grinded and stored. Then, samples
+(1g) were spiked with standard solution (500 µL), with
+speciﬁc concentrations (0.1, 0.2, 0.3, and 0.5 µg/kg). For each
+fortiﬁcation level, three replicate analyses were performed.
+Several parameters regarding the procedure were assessed such
+as solvent type and quantity and sonication time. Optimized
+conditions could be summarized as testing roasted coﬀee (1 g),
+in acetonitrile (5 mL) having an optimal sonication period of
+15 min, and dichloromethane (1 mL) as the extraction solvent
+in the clean-up step. The average recoveries ranged from 74.3
+to 99.9%, with RSDs ranging from 0.7 to 10.2%. These results
+prove that the combination of ultrasonic solvent extraction
+parallel with the optimal sonication time and DLLME (cleaning
+step) demonstrated accurate and precise measurement of the
+residues. The LOD values had a range between 0.02 and
+0.05 µg/kg, where LOQ had a value of 0.1 µg/kg for all
+the residues. In order to evaluate the repeatability of the
+procedure, nine consecutive analyses of 0.1 µg/kg pesticide
+standard solutions were performed, and the RSDs ranged from
+1.1 to 10.2%. The procedure demonstrated a good linearity for
+all the pesticides by observing correlation coeﬃcients >0.99.
+The results of analyzing real coﬀee samples manufactured in
+Brazil showed that they are pesticide-free. Despite the absence
+of pesticides, this study yielded a method that has better
+accuracy, precision, LOD, LOQ, and RSD values. Hence, it is
+selective for multiresidue analysis of pesticides when compared
+to analysis of the same pesticides done by Dias et al. (2)
+and Yang et al. (1). In addition, LOQs were compatible with
+respect to the limit values established by Brazilian legislation
+and the Codex Alimentarius. Furthermore, it could be described
+as an economical procedure since only a small sample size
+was needed for the performance of the procedure providing
+Frontiers in Public Health
+06
+frontiersin.org
+
+Merhi et al.
+10.3389/fpubh.2022.1004570
+signiﬁcant savings at the level of solvent, consumables, and
+analysis time.
+Dilution
+Therefore, a main focus of this study was to optimize
+the QuEChERS procedure, omitting the least needed steps,
+and highlighting the most important steps for identiﬁcation of
+several pesticides present in the complex coﬀee matrix. It was
+necessary to optimize the QuEChERS procedure by performing
+tests with acetonitrile acidiﬁed with acetic acid or formic acid,
+with or without a buﬀer and with or without clean-up of
+the extracts before the LC-ESI-MS/MS step. Afterwards, the
+clean-up approach consisted of the evaluation of seven d-SPE
+sorbents and their several mixtures. A validation method was
+then conducted in order to obtain an eﬃcient performance for
+the extraction and chromatographic procedures. The removal
+of the buﬀer and clean-up steps from the procedure showed
+an eﬃcient extraction, speciﬁcally in decreasing the waste. The
+samples were spiked with pesticides at 3 concentration levels
+with 6 replicates at each concentration followed by the diﬀerent
+steps of extraction and the two extracts underwent dilution
+two-fold with methanol containing propoxur as I.I.S for the
+purpose of technique improvement of the early eluting polar
+analytes. Afterwards, the LC-ESIMS/ MS procedures were used
+for pesticides analysis. For the optimization of the QuEChERS
+approach, using as an extraction solvent, acetonitrile acidiﬁed
+with 1% acetic acid, without performing a clean-up step,
+proved the validation of the procedure. In addition, the two-
+fold dilution of samples prior to testing improved LC results.
+That is, upon decreasing the concentration by dilution of the
+extracted sample, resolution of peaks was better. In addition,
+this guarantees that the concentration of the sample ﬁts in the
+calibration curves set, and results are enhanced. In summary,
+117 out of 131 pesticides (89%) showed good results (recovery
+within the range of 70–120% and RSD <20%) due to diluting
+samples prior to testing (52). It is worth mentioning that this
+study was targeted to show the inﬂuence of diluting the samples
+parallel with reducing the clean-up steps to get faster, greener,
+and more economical methods to analyze pesticides in coﬀee
+samples. This has been applied to spiked samples proving the
+reliability of the method to test real coﬀee samples when needed.
+Solid phase extraction
+Carbon spheres have functional groups like carboxyl or
+hydroxyl that make the adsorption of metal precursors easier
+(61, 62). Oxides are non-toxic, and stable chemically and
+thermally. Additionally, they are of low cost. Due to their
+porous structures, they have many uses in the technology of
+separation (63). The functional groups on such composites
+provide selectivity in the interaction with the target molecules
+(64). In this regard, it could be used for the extraction step
+when analyzing pesticides. A recent study in 2020 illustrates
+the synthesis and implementation of a magnetic amino-
+functionalized hollow silica-titania microsphere (SiO2-TiO2-
+NH2@Fe3O4), identiﬁed as the sorbent for magnetic dispersive
+micro-solid phase extraction (MD-µ-SPE) of four pesticides
+in coﬀee bean samples (55). The structure of the sorbent was
+characterized by Fourier infrared spectroscopy, ﬁeld emission
+scanning electron microscopy, transition electron microscopy,
+energy-dispersive X-ray spectroscopy, and vibrating sample
+magnetometer procedures. This method is characterized by the
+use of nanosorbents doped with magnetic nanoparticles (NPs)
+in a batch mode in order for the analytes to be rapidly extracted.
+Afterwards, the separation of the sorbent from the sample
+solution was performed by a handheld magnet. Therefore,
+centrifugation or ﬁltration phases were not conducted. Hence,
+selective extraction occurred due to the possible alteration
+of the surface functionality of the sorbent. Afterwards, the
+residues were analyzed using the gas chromatography-electron
+capture detection (GC-ECD) method. The magnetic solid
+phase extraction was optimized by considering the following
+parameters: desorption conditions such as desorption solvent
+and time, sorbent quantity, extraction time, and pH of
+the sample solution and the salt concentration. The highest
+recoveries were obtained by using ethyl acetate (0.6 mL), vortex
+time (4 min), sorbent (25 mg), and extraction time of 15 min at
+pH = 6. The extraction time is important since it is related to the
+adsorption equilibrium where suﬃcient time of contact between
+the sorbent and the analytes is needed (65). Another important
+factor that plays a key role is the pH control. Hydrolysis of
+the target analytes was observed at low pH (strongly acidic)
+and high pH (strongly basic) (66, 67). The method presented
+in this study showed high performance and applicability in
+identifying pesticides in green and roasted coﬀee bean samples
+with good recoveries between 74 and 113% for the spiked
+samples. Therefore, the used sorbent can be implicated for the
+(MD-µ-SPE) of pesticides in complex matrices, such as a plant-
+derived food matrix by eliminating the clean-up phase including
+the centrifugation or ﬁltration. This reduces both time and cost.
+In addition, when compared to diﬀerent methods to detect
+the same pesticides reported in literature, this method is more
+eﬃcient, has better recovery, precision, and higher sensitivity
+when it comes to the LOD and LOQ (2, 51, 52, 54).
+Ionization mode
+The characteristics and the design of the origin of ionization
+impact the execution of a bioanalytical technique such as LC-
+MS/MS when analyzing pesticides. UniSpray (US) ionization,
+also called impactor ionization, is an atmospheric ionization
+procedure using high-velocity spray for the ionization of
+Frontiers in Public Health
+07
+frontiersin.org
+
+Merhi et al.
+10.3389/fpubh.2022.1004570
+analytes (68). However, it provides additional droplet break-
+up, desolvation, and enhanced performance when compared
+to electrospray ionization (ESI). Analyzing various samples is
+critically aﬀected by the matrix eﬀect due to its components
+that can enhance or suppress the ionization step in the mass
+spectrometer. A recent research study evaluated the eﬀect of
+US compared to ESI, used in the multi-residue analysis of
+pesticides, on the same LC-MS/MS. The assessment of both
+interfaces was demonstrated by performing an analysis on three
+diﬀerent matrices (coﬀee, apple, and water), in order to conclude
+if the multi-residue analysis of 81 pesticides by QuEChERS
+(acetonitrile extraction; PSA and C18 clean-up) and LC-MS/MS
+analysis, have an improvement possibility (54). The parameters
+reﬂecting the analytical execution such as signal intensity, signal-
+to-noise (S/N) ratio, linearity, accuracy, precision (%RSD),
+relative abundance (ion ratio), extraction recovery, sensitivity
+(LOD and LOQ), and ME, as well as recovery eﬃciency (RE)
+and PE were assessed and compared.
+When only considering the matrix eﬀect regardless of the
+chemical class, a signiﬁcant gain in signal intensity (22- to 32-
+fold in peak area, six to seven-fold in peak height) was observed
+with US. A rise of threefold to fourfold in signal-to-noise ratio
+was also observed. Adding to it, the linearity and precision were
+comparable between UniSpray and ESI. The total LOD and LOQ
+did not show any signiﬁcant ranging between the two ionization
+interfaces. Several components showed a gain in sensitivity
+with US. ESI had higher signal suppression than US which led
+most of the ME values to be within the satisfying variation.
+The matrix eﬀect was 3 to 4 times higher, but more satisfying
+compared to ESI. No diﬀerence was observed between ESI and
+US regarding the recovery eﬃciency in diﬀerent matrices. Thus,
+the amelioration of the process eﬃciency reached 3 to 4 times
+higher progress with US compared to ESI (54).
+Ionic liquids
+The extraction phase could use ionic liquid (IL) as well. Ionic
+liquids (ILs) are organic salts made up of non-toxic ions that
+are liquid at room temperature. ILs are named as a designer
+solvent due to their interesting physical properties that play
+a role in various applications such as separation. In addition
+of being friendly to the environment, they enhance sensitivity,
+selectivity, and accuracy (69). Furthermore, their properties
+can be tunable depending on the application. They are known
+to have a low melting point, elevated thermal stability, low
+vapor pressure, high extractability, and air-moisture stability
+(70). In this attempt, IL was synthesized, supported on silica,
+and then functionalized with graphene oxide to serve as
+sorbents used for microextraction in the aim of detecting OCPs
+(diazinon, heptachlor, aldrin, endrin, dieldrin, endosulfan, and
+methoxychlor) in coﬀee samples (57). This created phase was
+compared to other sorbents where some are functionalized
+with graphene as well, but it gave the best results due to
+its selectivity and adsorption capacity that were evaluated by
+the GC. In turn, this method was later adapted for detecting
+pesticides in 13 coﬀee samples. Results showed that all pesticides
+are not detected using this methods’ parameters except for
+methoxychlor. The latter was present in ﬁve of these samples
+with concentrations ranging between 29.5 and 180.02 µg/L.
+Birds as bio indicators
+Birds are considered as good bioindicators since they
+are sensitive to toxicants, observable, and live in various
+trophic areas. To understand the relationship between diseases
+and health, it is vital to analyze the interactions between
+the organisms and the environment (71). Human activities
+implemented the use of chemical compounds that have had
+impacts on many animal species. Add to this, the environmental
+changes that have been monitored chemically and physically.
+Birds have been playing as an essential role as bioindicators
+since 1916 when canaries were used in mines (72). Later
+in 1965, hawks and seabirds were used as indicators for
+pesticide accumulation (73). The latest method to detect
+contamination speciﬁcally due to pesticides is by the aid of birds
+as bio indicators (74).The cytologic technique is used in this
+assessment following the results of the DNA. In particular, a
+study conducted tests to measure the eﬃciency of the blue-black
+grassquit in responding to in-situ pesticides’ contamination in
+various-sized coﬀee farms in Brazil. The erythrocytes of the birds
+were tested by the micronuclei test. By comparing the results
+to the results of tests using established techniques to test for
+contamination by pesticides, the method proved to be sensitive
+and eﬃcient enough to be used on coﬀee farms. The evolution
+of technology resulted in the transfer from the laboratory to
+practical needs matching operational simplicity. For instance,
+fabrication of large-scale surface-enhanced Raman scattering
+(SERS) substrates via a simple strategy was reported in 2018 (75).
+It is worth mentioning that neither complicated instruments
+nor toxic chemicals were needed. First, Ag nanomaterials (NPs)
+were synthesized. After having a drop of the Ag NPs dry on
+a horizontal surface, a layered structure will form, and by
+evaporation clingy resistance loads the capillary ﬂow. In this
+way, the coﬀee-ring eﬀect is removed and as a result AG NP
+deposits. In turn, these deposits function as active layers to detect
+pesticides in coﬀee. This method is economical, eﬃcient, and
+could be applicable on a large scale with high precision and with
+no extraction or clean-up steps.
+Transfer of pesticides before infusion
+preparation
+The testing of pesticides is aﬀected by the processing
+methods a coﬀee bean passes through. Following a precise
+Frontiers in Public Health
+08
+frontiersin.org
+
+Merhi et al.
+10.3389/fpubh.2022.1004570
+protocol can inﬂuence the quantity and quality of pesticides
+present in the coﬀee beans and hence the inﬂuence of these
+pesticides on human health upon consumption. A study has
+been conducted to determine the dinotefuran (an insecticide
+of neonicotinoid class) and its metabolites during the diﬀerent
+steps—washing, roasting, and brewing the beans; preparing
+the infusion-using LC-MS (76). The aim of the study was to
+prove the necessity of the follow-up of transfer of pesticides
+before having the infusion ready to be consumed taking
+into consideration the half-life of the pesticide of interest.
+Neonicotinoid are considered the best insecticides which work
+on insect nicotinic acetylcholine receptors and are by far
+the most successful insecticides (77, 78). Dinotefuran (RS)-
+1-methyl-2-nitro-3-(tetrahydro-3-furylmethyl) guanidine is a
+recent furanicotinyl and a part of the third generation of
+neonicotinoid insecticides (79). Dinotefuran has maximum
+residue limits ranging between 0.05 and 25mg·kg−1 in several
+consumable goods. The reasonable daily intakes range between
+0 and 0.2 mg kg−1 body weight (bw) and the acute reference
+doses are around 1 mg kg−1 bw. Their contamination of
+raw and processed (washing, roasting, and brewing) coﬀee
+beans has been rarely mentioned in the literature. However,
+it is also crucial to investigate the impact of these processes
+on pesticide residues and their metabolites in coﬀee beans.
+Therefore, in order to detect dinotefuran in coﬀee beans,
+an advanced sensitive and speciﬁc technique using Florisil
+solid phase extraction (SPE) cartridges combined with liquid
+chromatography-tandem mass spectrometry (LC-MS/MS) was
+established. A dissipation assessment of dinotefuran in coﬀee
+beans was conducted in Yunnan province, China, following
+supervised ﬁeld trials with specialized agricultural monitoring.
+Then, washing, roasting, and brewing processes were conducted.
+An analysis of wash water and coﬀee sludge was then performed.
+A matrix-matched calibration standard for the quantiﬁcation of
+residues in coﬀee-bean samples by the utilization of LC-MS/MS
+analyses was done. The Kruskal-Wallis test was performed
+for the determination of percent reductions of pesticide after
+washing, roasting, and brewing. Matrix-matched calibration
+curves were used and matrix eﬀects were calculated following
+equations as mentioned in literature (80). Dinotefuran had
+a recovery in coﬀee beans (before and after processing) and
+water ranging between 73.5 and 106.3% with relative SDs
+<10% and regression coeﬃcients (r2) > 0.997. Dinotefuran
+had limits of detection and quantiﬁcation of 0.003 and 0.01 mg
+kg−1. The analyses of the coﬀee-bean samples during 2015
+and 2016 demonstrated initial deposits of dinotefuran between
+2.59 and 2.86 mg kg−1 and a mean half-life of 40.8 day. After
+being washed for 5 min under tap water where temperature
+ranges between 25 and 30◦C, raw and processed coﬀee beans
+observed a decrease in concentrations of dinotefuran, by 44.4–
+86.7%. It is worth mentioning at this stage that the washing
+step is related to many factors, such as the temperature and
+the solubility of the pesticide of interest in addition to the
+age of the residue (81). The roasting process that took place
+at 230–240◦C for 12–14 min diminished the concentrations
+of dinotefuran by 62.2–100% with the highest reductions
+between 1 and 14 days. Placed in boiling water for 12 min,
+Dinotefuran was not present in sludge at 28 days after brewing,
+while dinotefuran was diminished by 92.9–100% in the upper
+liquid layers. The brewing was the most successful step for
+removing dinotefuran residues from coﬀee beans compared
+to the washing and roasting steps. The Kruskal-Wallis test
+demonstrated signiﬁcant diﬀerences in the consistency of the
+residues in coﬀee beans between the several steps of processing
+(P ≤0.05). The washing step reduced the concentration of
+pesticides less than the roasting (P = 0.0001) and brewing (P
+= 0.002) steps. Dinotefuran was detectable in coﬀee sludge and
+wash water at 1–56 days following crop treatments. Therefore,
+it is necessary to avoid consuming coﬀee sludge when drinking
+brewed coﬀee as suggested by Mekonin et al. (82). To conclude,
+the recommended maximum exposures to pesticide residues
+normally do not cause harmful eﬀects to the overall population
+during the collection and processing of coﬀee between 28 and 35
+days following pesticide treatment where dinotefuran was in the
+allowed recommendation. However, coﬀee-bean wash water and
+coﬀee sludge are proven to cause contamination.
+Mitigation techniques
+In attempts to avoid and limit using pesticides for coﬀee,
+alternatives were suggested such as using alcohol traps targeting
+the reduction of insects’ generations in Vietnam. This was to
+limit the risks to farmers and consumers due to using pesticides.
+Studies are now looking to ﬁnd solutions other than using
+pesticides to protect the coﬀee crops from being attacked by
+insects. A recent study showed that using alcohol traps at speciﬁc
+times of the year was eﬀective to kill the female coﬀee berry
+borer (CBB). In addition, the use of Beauveria bassiana was more
+eﬀective when compared to using insecticides to reduce the level
+of CBB (83).
+Many attempts and steps are currently being taken in
+diﬀerent parts in the world to spread awareness about the quality
+and quantity of pesticide use. In addition, tips are provided to
+obtain optimal results. An example could be what was recently
+reported in Indonesia regarding training the farmers about
+spacing of coﬀee seeds, spacing and types of protective trees,
+and pruning coﬀee and protective plants to get the best results
+at the level of coﬀee beans parallel with the minimum use of
+pesticides (84).
+The solution is not avoid drinking coﬀee since even non-
+consumers are exposed to pesticides used for coﬀee beans. It
+is because these pesticides will pollute underground water and
+hence be a pollutant that will disrupt all life cycles. For instance,
+the aquatic cycle in Brazil is in danger. A study was conducted
+in regard to pesticides sprayed on coﬀee plantations evaluating
+Frontiers in Public Health
+09
+frontiersin.org
+
+Merhi et al.
+10.3389/fpubh.2022.1004570
+the percentage of the pesticides that go into the ground. It
+was shown that by using pesticides, there is a chance of 45
+and 24% for these pesticides to contaminate the surface water
+and the ground water, respectively. More speciﬁcally, ametryn,
+cyproconazole, diuron, epoxiconazole, ﬂutriafol, triadimenol
+and triazophos pose a risk to contaminate both the ground water
+and the surface water (85). This is a factor to be added to the
+regulations where, if the use of pesticides is a necessity, then
+the location must be away from water sources in an attempt to
+reduce the risk of such contamination. A similar study was also
+conducted in Rwanda (86). In particular, malathion was detected
+in surface water at concentrations above the threshold posing a
+risk for arthropods. Moreover, the surface water was polluted by
+malaxyl and carbendazim. This could be related to the fact that
+they are the most used pesticides by farmers there. Respiratory
+problems could be a consequence of exposure to pesticides.
+It is true that many factors can lead to respiratory issues,
+but this has been proven in Rio De Janeiro upon performing
+cholinesterase tests for family farmers in the crop-season and
+spirometry in both crop- and oﬀ-season (87). In fact, they had
+40, 31, and 24% for coughs, nasal allergies, and chest tightness,
+respectively. It is true that exposure to pesticides is not the
+only reason for such diseases, but there is no doubt that it
+is a factor that increases the risk and could be a reason of
+chronic diseases.
+An alternative solution could be to start moving toward
+organic cultivation. This is based on recent studies that are
+based on calculations and comparisons. An example is a recent
+study that was published in 2022 mentioning the results of
+a three-year follow-up for coﬀee corps evaluating the eﬀect
+of the cultivation system of coﬀee against the attack of the
+coﬀee berry borer in Indonesia (88). For 3 years, coﬀee plants
+were planted organically and conventionally. Surprising results
+showed that the attack of the CBB was similar on both the
+organic and the conventional coﬀee plants. This tells that the
+use of pesticides did not have a signiﬁcant inﬂuence. Add
+to this the cost of buying pesticides, the negative impact
+on the environment, water surfaces, and human health and
+psychology. Results were interpreted, and it was explained that
+the CBBs were attacked by natural enemies under organic
+conditions; this explains the similar levels of attack by CBBs
+in the presence of pesticides. This can be related also to the
+possibility that the pesticides are limiting the population of
+natural enemies.
+Conclusion
+In conclusion, an overview of the pesticides in coﬀee was
+presented. Research has been conducted to quantify pesticides
+in coﬀee beans, coﬀee leaves, and coﬀee infusions. Many factors
+have been optimized to provide valid methods that could be
+adapted to test coﬀee samples. Pesticides must be used on all
+crops including coﬀee. It is not a solution to avoid coﬀee. This
+study shows the importance of controlling the type and the
+quantity of pesticides used. Then using the methods validated,
+calculations of transfer of pesticides from the coﬀee bean to
+the body of the consumer must be done. This permits the
+safe daily consumption based on the consumer’s body weight.
+In addition, proper training and qualiﬁcations are needed to
+handle pesticides. This can be initiated by farmers to reduce
+the negative impacts on public health and the environment.
+New strategies can be applied to reduce pesticide residues in
+coﬀee, and in turn reduce their impact on human health and the
+environment. Integrated management is needed. For example,
+producers must adapt phytosanitary measurements parallel with
+studying the type of soil. Plant diseases should be controlled
+with rational use of pesticides that are environmentally
+safe, less toxic, and avoid the choice of resistance strains.
+On the other hand, recent studies have called for organic
+farming or providing natural solutions rather than the use
+of pesticides.
+Author contributions
+AM analyzed articles in the literature and co-wrote
+the
+manuscript.
+RK
+co-wrote
+the
+manuscript.
+HH
+conceptualized the project and co-wrote the manuscript.
+All authors contributed to the article and approved the
+submitted version.
+Conﬂict of interest
+The authors declare that the research was conducted in the
+absence of any commercial or ﬁnancial relationships that could
+be construed as a potential conﬂict of interest.
+Publisher’s note
+All claims expressed in this article are solely those of the
+authors and do not necessarily represent those of their aﬃliated
+organizations, or those of the publisher, the editors and the
+reviewers. Any product that may be evaluated in this article, or
+claim that may be made by its manufacturer, is not guaranteed
+or endorsed by the publisher.
+Frontiers in Public Health
+10
+frontiersin.org
+
+Merhi et al.
+10.3389/fpubh.2022.1004570
+References
+1. Yang XWJ, Xu DC, Qui JW, Ma Y, Cui J. Simultaneous determination of 69
+pesticide residues in coﬀee by gas chromatography-mass spectrometry. Food Anal
+Methods. (2011) 4:186–95. doi: 10.1007/s12161-010-9155-3
+2. Dias CM, Oliveira FA, Madureira FD, Silva G, Souza WR, Cardeal ZL, et al.
+Multi-residue method for the analysis of pesticides in Arabica coﬀee using liquid
+chromatography/tandem mass spectrometry. Food Addit Contam, Part A. (2013)
+30:1308–15. doi: 10.1080/19440049.2013.801088
+3.
+Bresin
+B,
+Piol
+M,
+Fabbro
+D,
+Mancini
+MA,
+Casetta
+B,
+Del
+Bianco C, et al. Analysis of organo-chlorine pesticides residue in raw
+coﬀee
+with
+a
+modiﬁed
+“quick
+easy
+cheap
+eﬀective
+rugged
+and
+safe”
+extraction/clean up procedure for reducing the impact of caﬀeine on the gas
+chromatography-mass spectrometry measurement. J Chromatogr A. (2015)
+1376:167–71. doi: 10.1016/j.chroma.2014.12.016
+4. García-Moraleja A, Font G, Mañes J, Ferrer E. Analysis of mycotoxins in coﬀee
+and risk assessment in Spanish adolescents and adults. Food Chem Toxicol. (2015)
+86:225–33. doi: 10.1016/j.fct.2015.10.014
+5. Paterson RRM, Lima N, Taniwaki MH. Coﬀee, mycotoxins and climate change.
+Food Res Int. (2014) 61:1–15. doi: 10.1016/j.foodres.2014.03.037
+6. Chanakya HN and De Alwis AAP. Environmental issues and management
+in primary coﬀee processing. Process Saf Environ Prot. (2004) 82:291–
+300. doi: 10.1205/095758204323162319
+7.
+Pizzutti
+IR,
+de
+Kok
+A,
+Cardoso
+CD,
+Reichert
+B,
+de
+Kroon
+M,
+Wind W, et al. A multi-residue method for pesticides analysis in green
+coﬀee beans using gas chromatography-negative chemical ionization mass
+spectrometry in selective ion monitoring mode. J. Chromatogr A. (2012) 1251:16–
+26. doi: 10.1016/j.chroma.2012.06.041
+8. World Health Organization. Manual on Development and Use of FAO and
+WHO Speciﬁcations for Pesticides. Rome, Italy: Food and Agriculture Org (2016).
+9. dos Reis MR, Fernandes FL, Lopes EA, Gorri JE, Alves FM. Chapter
+26 - Pesticide Residues in Coﬀee Agroecosystems, in Coﬀee in Health and
+Disease Prevention. (2015), Preedy VE (ed). Academic Press: San Diego. p. 235–
+244. doi: 10.1016/B978-0-12-409517-5.00026-7
+10. Oosterveld A, Voragen AGJ, Schols HA. Eﬀect of roasting on the
+carbohydrate composition of Coﬀea arabica beans. Carbohydr Polym. (2003)
+54:183–92. doi: 10.1016/S0144-8617(03)00164-4
+11. Soares AFS, Leao MMD, Neto MRV. Environmental fate of pesticides
+applied on coﬀee crops in southeast of Brazil. Afr J Environ Sci Technol. (2017)
+11:103–12. doi: 10.5897/AJEST2016.2187
+12.
+Barragan-Huerta
+BE,
+Costa-Pérez
+C,
+Peralta-Cruza
+J,
+Barrera-
+Cortés
+J,
+Esparza-García
+F,
+Rodríguez-Vázquez
+R,
+et
+al.
+Biodegradation
+of
+organochlorine
+pesticides
+by
+bacteria
+grown
+in
+microniches
+of
+the
+porous structure of green bean coﬀee. Int Biodeterior Biodegrad. (2007)
+59:239–44. doi: 10.1016/j.ibiod.2006.11.001
+13. Belitz HD, Grosch W. Food Chemistry, Second Edition. (1999). Berlin,
+Germany: Springer. 800 pp.
+14. Field JA, Stams AJ, Kato M, Schraa G. Enhanced biodegradation of aromatic
+pollutants in cocultures of anaerobic and aerobic bacterial consortia. Antonie Van
+Leeuwenhoek. (1995) 67:47–77. doi: 10.1007/BF00872195
+15. Rieger PG, Meier HM, Gerle M, Vogt U, Groth T, Knackmuss HJ,
+et al. Xenobiotics in the environment: present and future strategies to
+obviate the problem of biological persistence. J. Biotechnol. (2002) 94:101–
+123. doi: 10.1016/S0168-1656(01)00422-9
+16. Chavez-Gomez B, Quintero R, Esparza-García F, Mesta-Howard AM, Zavala
+Díaz de la Serna FJ, Hernández-Rodríguez CH, et al. Removal of phenanthrene
+from soil by co-cultures of bacteria and fungi pregrown on sugarcane bagasse pith.
+Bioresour Technol. (2003) 89:177–83. doi: 10.1016/S0960-8524(03)00037-3
+17. Perez-Armendariz B, Loera-Corral O, Fernández-Linares L, Esparza-García
+F, Rodríguez-Vázquez R. Biostimulation of microorganisms from sugarcane
+bagasse pith for the removal of weathered hydrocarbon from soil. Lett Appl
+Microbiol. (2004) 38:373–7. doi: 10.1111/j.1472-765X.2004.01502.x
+18. Aslan S, Turkman A. Combined biological removal of nitrate and
+pesticides using wheat straw as substrates. Process Biochem. (2005) 40:935–
+43. doi: 10.1016/j.procbio.2004.02.020
+19. Samsidar A, Siddiquee S, Shaarani SM. A review of extraction, analytical and
+advanced methods for determination of pesticides in environment and foodstuﬀs.
+Trends Food Sci Technol. (2018) 71:188–201. doi: 10.1016/j.tifs.2017.11.011
+20. Analdo VM, Santa Cecilia A, Souza LVC, Compatibility GC. of Beauveria
+bassiana with chemical pesticides for the control of the coﬀee root mealybug
+Dysmicoccus texensis tinsley (Hemiptera : Pseudococcidae). Neotrop Entomol.
+(2004) 33:463–7. doi: 10.1590/S1519-566X2004000400011
+21. Matthews G, Wiles T, Baleguel P. A survey of pesticide application
+in Cameroon. Crop Prot. (2003) 22:707–14. doi: 10.1016/S0261-2194(03)0
+0008-5
+22. Pedlowski MA, Canela MC, da Costa Terra MA, de Faria RMR.
+Modes
+of
+pesticides
+utilization
+by
+Brazilian
+smallholders
+and
+their
+implications for human health and the environment. Crop Prot. (2012)
+31:113–8. doi: 10.1016/j.cropro.2011.10.002
+23. International Coﬀee Organization (ICO) (2011). London: International
+Coﬀee Organization.
+24. Coye MJ, Lowe JA, Maddy KJ. Biological monitoring of agricultural
+workers exposed to pesticides: II. Monitoring of intact pesticides and their
+metabolites. J Occup Med. (1986) 28:628–36. doi: 10.1097/00043764-198608000-
+00019
+25. Magnotti RA, Dowling K, Eberly JP, McConnelld RS. Field measurement
+of plasma and erythrocyte cholinesterases [Erratum to document cited in
+CA109(25):224092p]. Clin Chim Acta. (1989) 180:111.
+26. Hayes WJ, Laws ER. Handbook of Pesticide Toxicology, Vol. 1: General
+Principles. (1991). Cambridge, MA: Academic Press, Inc. 497 pp.
+27. Ngowi AV, Maeda DN, Partanen TJ, Sanga MP, Mbise G. Acute
+health eﬀects of organophosphorus pesticides on Tanzanian small-scale coﬀee
+growers. J Expo Anal Environ Epidemiol. (2001) 11:335–9. doi: 10.1038/sj.jea.75
+00172
+28. Schneider Medeiros M, Reddy PS, Socal PM, Schumacher-Schuh AF, Mello
+Rieder CR. Occupational pesticide exposure and the risk of death in patients
+with Parkinson’s disease: an observational study in southern Brazil. Environmental
+Health. (2020) 19:68. doi: 10.1186/s12940-020-00624-8
+29. Lekei E, Ngowi AV, Kapeleka J, London L. Acute pesticide poisoning amongst
+adolescent girls and women in northern Tanzania. BMC Public Health. (2020)
+20:303. doi: 10.1186/s12889-020-8374-9
+30. Canonico M, Pesce G, Bonaventure A, Le Noan-Lainé M, Benatru I,
+Ranoux D, et al. Increased risk of Parkinson’s disease in women after bilateral
+oophorectomy. Movement Disord. (2021) 36:1696–700. doi: 10.1002/mds.28563
+31.
+Angelopoulou
+E,
+Paudel
+YN,
+Papageorgiou
+SG,
+Piperi
+C.
+Environmental
+impact
+on
+the
+epigenetic
+mechanisms
+underlying
+parkinsonandrsquo;s disease pathogenesis: a narrative review. Brain Sci. (2022)
+12:175. doi: 10.3390/brainsci12020175
+32. Campos RC, Pinto VRA, Melo LF, da Rocha SJ, Coimbra SS. New sustainable
+perspectives for “Coﬀee Wastewater” and other by-products: a critical review.
+Future Foods. (2021) 4:100058. doi: 10.1016/j.fufo.2021.100058
+33. Aguiar J, Estevinho BN, Santos L. Microencapsulation of natural antioxidants
+for food application – The speciﬁc case of coﬀee antioxidants—A review. Trends
+Food Sci Technol. (2016) 58:21–39. doi: 10.1016/j.tifs.2016.10.012
+34. de Oliveira JL, da Silva JN, Pereira EG, Oliveira Filho D, et al. Characterization
+and mapping of waste from coﬀee and eucalyptus production in Brazil for
+thermochemical conversion of energy via gasiﬁcation. Renew Sustain Energy Rev.
+(2013) 21:52–8. doi: 10.1016/j.rser.2012.12.025
+35.
+Negatu
+B,
+Dugassa
+S,
+Mekonnen
+Y.
+Environmental
+and
+health
+risks
+of
+pesticide
+use
+in
+Ethiopia.
+J
+Health
+Poll.
+(2021)
+11:210601. doi: 10.5696/2156-9614-11.30.210601
+36. Hutter HP, Khan AW, Lemmerer K, Wallner P, Kundi M, Moshammer
+H, et al. Cytotoxic and genotoxic eﬀects of pesticide exposure in male coﬀee
+farmworkers of the Jarabacoa Region, Dominican Republic. Int J Environ Res Public
+Health. (2018) 15:1641. doi: 10.3390/ijerph15081641
+37. Riwthong S, Schreinemachers P, Grovermann C, Berger T. Agricultural
+commercialization: Risk perceptions, risk management and the role of pesticides
+in Thailand. Kasetsart J Soc Sci. (2017) 38:264–72. doi: 10.1016/j.kjss.2016.11.001
+38. Conti CL, Barbosa WM, Simão JBP, Álvares-da-Silva AM. Pesticide exposure,
+tobacco use, poor self-perceived health and presence of chronic disease are
+determinants of depressive symptoms among coﬀee growers from Southeast Brazil.
+Psychiatry Res. (2018) 260:187–92. doi: 10.1016/j.psychres.2017.11.063
+39. Campera M, Balestri M, Manson S, Hedger K, Ahmad N, Adinda E, et al.
+Shade trees and agrochemical use aﬀect butterﬂy assemblages in coﬀee home
+gardens. Agric Ecosyst Environ. (2021) 319:107547. doi: 10.1016/j.agee.2021.107547
+40. Garcia Rios A, Martínez AS, Londoño ÁL, Restrepo B, Landázuri P.
+Determination of organochlorine and organophosphorus residues in surface
+Frontiers in Public Health
+11
+frontiersin.org
+
+Merhi et al.
+10.3389/fpubh.2022.1004570
+waters from the coﬀee zone in Quindío, Colombia. J Environ Sci Health, Part B.
+(2020) 55:968–73. doi: 10.1080/03601234.2020.1802185
+41. Walorczyk S. Development of a multi-residue method for the determination
+of pesticides in cereals and dry animal feed using gas chromatography–tandem
+quadrupole mass spectrometry: II. Improvement Exten New Analytes J Chromatogr
+A. (2008) 1208:202–14. doi: 10.1016/j.chroma.2008.08.068
+42.
+Hercegová
+A,
+Dömötörová
+M,
+Matisová
+E.
+Sample
+preparation
+methods
+in
+the
+analysis
+of
+pesticide
+residues
+in
+baby
+food
+with
+subsequent
+chromatographic
+determination.
+J
+Chromatogr
+A.
+(2007)
+1153:54–73. doi: 10.1016/j.chroma.2007.01.008
+43. Lesueur C, Knittl P, Gartner M, Mentler A, Fuerhacker M. Analysis
+of
+140
+pesticides
+from
+conventional
+farming
+foodstuﬀ
+samples
+after
+extraction
+with
+the
+modiﬁed QuECheRS
+method.
+Food
+Control.
+(2008)
+19:906–14. doi: 10.1016/j.foodcont.2007.09.002
+44. Dias Soares CM, Alves RC, Casal S, Oliveira MB, Fernandes JO.
+Development and validation of a matrix solid-phase dispersion method to
+determine acrylamide in coﬀee and coﬀee substitutes. J Food Sci. (2010) 75:T57–
+63. doi: 10.1111/j.1750-3841.2010.01545.x
+45.
+de
+Oliveira
+LAB,
+Pacheco
+HP,
+Scherer
+R.
+Flutriafol
+and
+pyraclostrobin
+residues
+in
+Brazilian
+green
+coﬀees.
+Food
+Chem.
+(2016)
+190:60–63. doi: 10.1016/j.foodchem.2015.05.035
+46. Lodevico RG, Li QX. Determination of total imidacloprid residues in
+coﬀee by gas chromatography-mass spectrometry. Anal Lett. (2002) 35:315–
+26. doi: 10.1081/AL-120002532
+47.
+Gillespie
+AM,
+Walters
+SM.
+Rapid
+clean-up
+of
+fat
+extracts
+for
+organophosphorus
+pesticide
+residue
+determination
+using
+C18
+solid-phase
+extraction
+cartridges.
+Anal
+Chim
+Acta.
+(1991)
+245:259–
+65. doi: 10.1016/S0003-2670(00)80230-5
+48. Shimelis O, Yang Y, Stenerson K, Kaneko T, Ye M. Evaluation of a solid-
+phase extraction dual-layer carbon/primary secondary amine for clean-up of fatty
+acid matrix components from food extracts in multiresidue pesticide analysis. J
+Chromatogr A. (2007) 1165:18–25. doi: 10.1016/j.chroma.2007.07.037
+49. Anastassiades M, Lehotay SJ, Stajnbaher D, Schenck FJ. Fast and
+easy multiresidue method employing acetonitrile extraction/partitioning and
+“dispersive solid-phase extraction” for the determination of pesticide residues in
+produce. J AOAC Int. (2003) 86:412–31. doi: 10.1093/jaoac/86.2.412
+50. Harmoko Kartasasmita RE, Tresnawati A. QuEChERS method for the
+determination of pesticide residues in indonesian green coﬀee beans using liquid
+chromatography tandem mass spectrometry. ITB J Math Fundam Sci. (2015)
+47:296–308. doi: 10.5614/j.math.fund.sci.2015.47.3.7
+51. Trevisan MTS, Owen RW, Calatayud-Vernich P, Breuer A, Picó Y.
+Pesticide analysis in coﬀee leaves using a quick, easy, cheap, eﬀective,
+rugged
+and
+safe
+approach
+and
+liquid
+chromatography
+tandem
+mass
+spectrometry: optimization of the clean-up step. J Chromatogr A. (2017)
+1512:98–106. doi: 10.1016/j.chroma.2017.07.033
+52. Reichert B, de Kok A, Pizzutti IR, Scholten J, Cardoso CD, Spanjer
+M, et al. determination of 117 pesticides and 30 mycotoxins in raw coﬀee,
+without clean-up, by LC-ESI-MS/MS analysis. Anal Chim Acta. (2018) 1004:40–
+50. doi: 10.1016/j.aca.2017.11.077
+53. da Silva Souza NR, Navickiene S. Multiresidue determination of carbamate,
+organophosphate, neonicotinoid and triazole pesticides in roasted coﬀee
+using ultrasonic solvent extraction and liquid chromatography-tandem mass
+spectrometry. J AOAC Int. (2019) 102:33–7. doi: 10.5740/jaoacint.18-0294
+54. Galani JHY, Houbraken M, Van Hulle M, Spanoghe P. Comparison of
+electrospray and UniSpray, a novel atmospheric pressure ionization interface, for
+LC-MS/MS analysis of 81 pesticide residues in food and water matrices. Anal
+Bioanal Chem. (2019) 411:5099–113. doi: 10.1007/s00216-019-01886-z
+55. Asadi M, Sereshti H. Magnetic amino-functionalized hollow silica-titania
+microsphere as an eﬃcient sorbent for extraction of pesticides in green and roasted
+coﬀee beans. J Sep Sci. (2020) 43:2115–24. doi: 10.1002/jssc.201901135
+56. Taghizadeh SF, Rezaee R, Azizi M, Giesy JP, Karimi G. Polycyclic
+aromatic hydrocarbons, mycotoxins, and pesticides residues in coﬀee: a
+probabilistic assessment of risk to health. Int J Environ Anal Chem. (2022) 1–
+23. doi: 10.1080/03067319.2022.2036984
+57. Jordan-Sinisterra M, Lanças FM. Microextraction by packed sorbent of
+selected pesticides in coﬀee samples employing ionic liquids supported on
+graphene nanosheets as extraction phase. Anal Bioanal Chem. (2022) 414:413–
+23. doi: 10.1007/s00216-021-03245-3
+58. Chen G, Cao P, Liu R. A multi-residue method for fast determination of
+pesticides in tea by ultra performance liquid chromatography–electrospray tandem
+mass spectrometry combined with modiﬁed QuEChERS sample preparation
+procedure. Food Chem. (2011) 125:1406–11. doi: 10.1016/j.foodchem.2010.10.017
+59.
+Pan
+J,
+Xia
+XX,
+Liang
+J.
+Analysis
+of
+pesticide
+multi-residues
+in
+leafy
+vegetables
+by
+ultrasonic
+solvent
+extraction
+and
+liquid
+chromatography-tandem
+mass
+spectrometry.
+Ultrason
+Sonochem.
+(2008)
+15:25–32. doi: 10.1016/j.ultsonch.2007.06.005
+60. Andrascikova M, Hrouzkova S, Cunha SC. Combination of QuEChERS and
+DLLME for GC-MS determination of pesticide residues in orange samples. Food
+Addit Contam, Part A. (2013) 30:286–97. doi: 10.1080/19440049.2012.736029
+61. Hu J, Chen M, Fang X, Wu L. Fabrication and application of inorganic hollow
+spheres. Chem Soc Rev. (2011) 40:472–5491. doi: 10.1039/c1cs15103g
+62. Suthabanditpong W, Takai C, Fuji M, Buntem R, Shirai T. Improved optical
+properties of silica/UV-cured polymer composite ﬁlms made of hollow silica
+nanoparticles with a hierarchical structure for light diﬀuser ﬁlm applications. Phys
+Chem Chem Phys. (2016) 18:16293–301. doi: 10.1039/C6CP01005A
+63. Morozov R, Krivtsov I, Avdina V, Amghouz Z, Gorshkov A, Pushkova
+E, et al. Microporous composite SiO2-TiO2 spheres prepared via the peroxo
+route: Lead(II) removal in aqueous media. J Non-Cryst Solids. (2018) 497:71–81.
+doi: 10.1016/j.jnoncrysol.2017.11.031
+64. Gao P, Yang C, Liang Z, Wang W, Zhao Z, Hu B, et al. N-propyl functionalized
+spherical mesoporous silica as a rapid and eﬃcient adsorbent for steroid estrogen
+removal: adsorption behaviour and eﬀects of water chemistry. Chemosphere. (2019)
+214:361–70. doi: 10.1016/j.chemosphere.2018.09.115
+65. Li N, Chen J, Shi YP. Magnetic graphene solid-phase extraction
+for
+the
+determination
+of
+carbamate
+pesticides
+in
+tomatoes
+coupled
+with
+high
+performance
+liquid
+chromatography.
+Talanta.
+(2015)
+141:212–9. doi: 10.1016/j.talanta.2015.04.018
+66. Farajzadeh MA, Djozan D, Nouri N, Bamorowat M, Shalamzari MS.
+Coupling stir bar sorptive extraction-dispersive liquid–liquid microextraction
+for preconcentration of triazole pesticides from aqueous samples followed
+by GC-FID and GC-MS determinations. J
+Sep
+Sci. (2010) 33:1816–28.
+doi: 10.1002/jssc.201000088
+67. Katsumata H, Kojima H, Kaneco S, Suzuki T, Ohta K. Preconcentration of
+atrazine and simazine with multiwalled carbon nanotubes as solid-phase extraction
+disk. Microchem J. (2010) 96:348–51. doi: 10.1016/j.microc.2010.06.005
+68. Lubin A, Geerinckx S, Bajic S, Cabooter D, Augustijns P, Cuyckens
+F, et al. Enhanced performance for the analysis of prostaglandins and
+thromboxanes by liquid chromatography-tandem mass spectrometry using a new
+atmospheric pressure ionization source. J Chromatogr A. (2016) 1440:260–5.
+doi: 10.1016/j.chroma.2016.02.055
+69. Deli´nska K, Yavir K, Kloskowski A. Ionic liquids in extraction techniques:
+determination of pesticides in food and environmental samples. TrAC Trends Anal
+Chem. (2021) 143:116396. doi: 10.1016/j.trac.2021.116396
+70. Abdulra’uf LB, Lawal A, Sirhan AY, Tan GH. Review of ionic liquids in
+microextraction analysis of pesticide residues in fruit and vegetable samples.
+Chromatographia. (2020) 83:11–33. doi: 10.1007/s10337-019-03818-6
+71.
+Colborn
+T.
+A
+case
+for
+revisiting
+the
+safety
+of
+pesticides:
+a
+closer
+look
+at
+neurodevelopment.
+Environ
+Health
+Perspect.
+(2006)
+114:10–7. doi: 10.1289/ehp.7940
+72. Burrell GA, Seibert FM. Gases Found in Coal Mines, vol. 14. (1916).
+Washington, D.C.: US Government Printing Oﬃce.
+73. Moore NW. Pesticides and birds—A review of the situation in Great Britain
+in 1965. Bird Study. (1965) 12:222–52. doi: 10.1080/00063656509476102
+74. Souto HN, de Campos Júnior EO, Campos CF, Rodrigues TS, and Pereira
+BB, Morelli S. Biomonitoring birds: the use of a micronuclei test as a tool to assess
+environmental pollutants on coﬀee farms in southeast Brazil. Environ Sci Poll Res.
+(2018) 25:24084–92. doi: 10.1007/s11356-018-2466-4
+75. Zhu J, Lin G, Wu M, Chen Z, Lu P, Wu W, et al. Large-scale
+fabrication of ultrasensitive and uniform surface-enhanced raman scattering
+substrates
+for
+the
+trace
+detection
+of
+pesticides.
+Nanomaterials.
+(2018)
+8:520. doi: 10.3390/nano8070520
+76. Chen Z, Song S, Mao L, Wei J, Li Y, Tan H, et al. Determinations
+of dinotefuran and metabolite levels before and after household coﬀee
+processing in coﬀee beans using solid-phase extraction coupled with liquid
+chromatography-tandem mass spectrometry. J Sci Food Agric. (2019) 99:1267–
+74. doi: 10.1002/jsfa.9300
+77. Mori K, Okumoto T, Kawahara N, Ozoe Y. Interaction of dinotefuran and
+its analogues with nicotinic acetylcholine receptors of cockroach nerve cords. Pest
+Manage Sci. (2002) 58:190–6. doi: 10.1002/ps.437
+78. Wakita T, Kinoshita K, Yamada E, Yasui N, Kawahara N, Naoi A, et al.
+The discovery of dinotefuran: A novel neonicotinoid. Pest Manage Sci. (2003)
+59:1016–22. doi: 10.1002/ps.727
+79. Franc M, Genchi C, Bouhsira E, Warin S, Kaltsatos V, Baduel L, et al.
+Eﬃcacy of dinotefuran, permethrin and pyriproxyfen combination spot-on
+Frontiers in Public Health
+12
+frontiersin.org
+
+Merhi et al.
+10.3389/fpubh.2022.1004570
+against Aedes aegypti mosquitoes on dogs. Vet Parasitol. (2012) 189:333–
+7. doi: 10.1016/j.vetpar.2012.04.026
+80. Antignac JP, Wasch K, Monteau F, De Brabander H, Andre F, Le Bizeca
+B, et al. The ion suppression phenomenon in liquid chromatography-mass
+spectrometry and its consequences in the ﬁeld of residue analysis. AnalChim Acta.
+(2005) 529:129–136. doi: 10.1016/j.aca.2004.08.055
+81. Thanki N, Joshi P, Joshi H. Eﬀect of household processing on reduction of
+pesticide residues in Bringal (eggplant, Solanum melongena). Adv Appl Sci Res.
+(2012) 3:2860–5.
+82. Mekonen S, Ambelu A, Spanoghe P. Eﬀect of Household Coﬀee Processing
+on Pesticide Residues as a Means of Ensuring Consumers’ Safety. J Agric Food
+Chem. (2015) 63:8568–73. doi: 10.1021/acs.jafc.5b03327
+83. Suu BT, Huy DTN, Hoa NT. Sustainable Value Chain Issues, Insect Traps and
+Solutions for Coﬀee Berry Borer in The North of Vietnam. Plant Cell Biotechnol
+Mol Biol. (2021) 22:55–6.
+84. Suswati S, Hutapea S, Barus RI, Setiawan S, Hutapea AP. Integrated control of
+coﬀee bean borer (Hypothenemus Hampei) on sigararutang coﬀee, motung village,
+ajibata sub-district, toba samosir district, sumatera utara. Budapest Int Res Exact Sci
+(BirEx) J. (2020) 2:52–61. doi: 10.33258/birex.v2i1.700
+85. De Queiroz VT, Azevedo MM, da Silva Quadros IP, Costa AV,
+do Amaral AA, Juvanhol RS, et al. Environmental risk assessment for
+sustainable pesticide use in coﬀee production. J Contam Hydrol. (2018) 219:18–
+27. doi: 10.1016/j.jconhyd.2018.08.008
+86. Houbraken M, Habimana V, Senaeve D, López-Dávila E, Spanoghe P. Multi-
+residue determination and ecological risk assessment of pesticides in the lakes of
+Rwanda. Sci Total Environ. (2017) 576:888–94. doi: 10.1016/j.scitotenv.2016.10.127
+87. Buralli RJ, Ribeiro H, Mauad T, Amato-Lourenço LF, Salge JM, Diaz-
+Quijano FA, et al. Respiratory condition of family farmers exposed to pesticides
+in the State of Rio de Janeiro, Brazil. Int J Environ Res Public Health. (2018)
+15:1203. doi: 10.3390/ijerph15061203
+88. Husni H, Jauharlina J, Sayuthi M, Mulyadi E, Yulianda P, Maulidia N, et al.
+Consistency of attack level of coﬀee berry borer (Hypotenemus hampei Ferr.) on
+organic and conventional arabica coﬀee plantation in Aceh Tengah District, Aceh
+Province, Indonesia. In: IOP Conference Series: Earth and Environmental Science.
+(2022). Bristol, UK: IOP Publishing.
+Frontiers in Public Health
+13
+frontiersin.org

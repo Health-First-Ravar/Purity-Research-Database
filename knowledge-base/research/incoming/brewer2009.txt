@@ -1,0 +1,1475 @@
+Characterization of Biochar
+from Fast Pyrolysis and
+Gasiﬁcation Systems
+Catherine E. Brewer,a,b Klaus Schmidt-Rohr,c Justinus A. Satrio,a and Robert C. Browna
+a Center for Sustainable Environmental Technologies (CSET), Iowa State University, Ames, IA 50011; rcbrown@iastate.edu
+(for correspondence)
+b Department of Chemical and Biological Engineering, Iowa State University, Ames, IA 50011
+c Department of Chemistry, Iowa State University, Ames, IA 50011
+Published online 5 August 2009 in Wiley InterScience (www.interscience.wiley.com). DOI 10.1002/ep.10378
+Thermochemical processing of biomass produces a
+solid product containing char (mostly carbon) and
+ash. This char can be combusted for heat and power,
+gasiﬁed, activated for adsorption applications, or
+applied to soils as a soil amendment and carbon
+sequestration agent. The most advantageous use of a
+given char depends on its physical and chemical
+characteristics,
+although
+the
+relationship
+of
+char
+properties to these applications is not well understood.
+Chars from fast pyrolysis and gasiﬁcation of switch-
+grass and corn stover were characterized by proxi-
+mate analysis, CHNS elemental analysis, Brunauer-
+Emmet-Teller (BET) surface area, particle density,
+higher heating value (HHV), scanning electron mi-
+croscopy, X-ray ﬂuorescence ash content analysis,
+Fourier
+transform
+infrared
+spectroscopy
+using
+a
+photo-acoustic detector (FTIR-PAS), and quantitative
+13C nuclear magnetic resonance spectroscopy (NMR)
+using direct polarization and magic angle spinning.
+Chars from the same feedstocks produced under slow
+pyrolysis conditions, and a commercial hardwood
+charcoal, were also characterized. Switchgrass and
+corn stover chars were found to have high ash con-
+tent (32–55 wt %), much of which was silica. BET
+surface areas were low (7–50 m2/g) and HHVs
+ranged from 13 to 21 kJ/kg. The aromaticities from
+NMR, ranging between 81 and 94%, appeared to
+increase with reaction time. A pronounced decrease
+in aromatic CH functionality between slow pyroly-
+sis and gasiﬁcation chars was observed in NMR and
+FTIR-PAS spectra. NMR estimates of fused aromatic
+ring cluster size showed fast and slow pyrolysis chars
+to be similar (7–8 rings per cluster), while higher-
+temperature gasiﬁcation char was much more con-
+densed (17 rings per cluster).  2009 American Insti-
+tute of Chemical Engineers Environ Prog, 28: 386–396, 2009
+Keywords: switchgrass, corn stover, char quality,
+solid-state 13C NMR
+INTRODUCTION
+Thermochemical
+processing
+of
+biomass
+has
+received signiﬁcant recent attention as a platform for
+economically producing energy and chemicals from
+biorenewable resources [1, 2]. Product composition
+from these processes varies with reaction conditions
+and includes noncondensable gases (syn or producer
+gas), condensable vapors/liquids (bio-oil, tar), and
+solids (char, ash). In fast pyrolysis systems, dry bio-
+mass is heated very rapidly (up to 10008C/s) in the
+absence of oxygen and the products quickly removed
+and quenched to maximize production of bio-oils.
+Traditional charcoal-making typically employs slow
+pyrolysis conditions: slow heating rates (1–208C/min)
+in the absence of oxygen, and long char residence
+times (hours to days). Gasiﬁcation uses higher tem-
+peratures and some oxygen (less than the stoichio-
+metric ratio) to produce a noncondensable gas rich in
+hydrogen and carbon dioxide. Both fast pyrolysis and
+gasiﬁcation yield some amount of char, typically 15–
+20% and 5–10% of the feedstock mass, respectively.
+ 2009 American Institute of Chemical Engineers
+386
+October 2009
+Environmental Progress & Sustainable Energy (Vol.28, No.3) DOI 10.1002/ep
+
+How to best use this coproduct depends on the local
+economic circumstances and the char properties.
+Combusting the char to supply process heat is com-
+mon [3, 4], while a few chars may be suitable for
+further activation to be used in higher-value adsorp-
+tion applications [5, 6].
+Use of coproduct char as biochar, that is, char
+from biomass applied to soil as a soil amendment
+and/or a carbon sequestration agent, is another
+option [2]. Although biochars have been used for
+millennia in some cultures’ agricultural practices,
+current interest in biochars stems from the investiga-
+tion of terra preta soils in the central Amazon. These
+dark, incredibly fertile soils have been shown to
+contain man-made charcoal that functions as soil or-
+ganic matter [7–9]. The link between char properties
+and their efﬁcacy in soils, however, is not well
+understood, much less how to engineer the process
+conditions to produce desired biochar properties.
+This is especially true for chars from gasiﬁcation and
+fast pyrolysis; most research in this area has focused
+on product yields and char combustion properties
+[4, 10–12].
+The purpose of this research was to provide a
+thorough characterization of chars produced under
+typical fast pyrolysis and gasiﬁcation conditions using
+locally common feedstocks: switchgrass and corn sto-
+ver. This characterization serves as the initial step in
+an overall engineered biochar production scheme.
+The next steps would include soil incubation and
+crop growth studies using chars from these processes,
+the formulation of desired biochar properties based
+on soil tests, and ﬁnally, the engineered production
+of chars with these properties.
+A key aspect of determining char quality for bio-
+char (and other) applications is the ability to quanti-
+tatively characterize the forms of carbon present, as
+the type of carbon is believed to be related to char’s
+reactivity and recalcitrance in soil [8, 13–17]. Con-
+cern has been expressed about ‘‘incompletely’’ pyro-
+lyzed biomass as it may provide too much bio-avail-
+able carbon to the soil without enough simultaneous
+nitrogen, resulting in nitrogen immobilization and
+therefore, negative short-term effects on plant yield
+[15]. Previous studies have used proximate analysis
+to differentiate between ‘‘volatile’’ and ‘‘ﬁxed’’ car-
+bon [18], X-ray diffraction to measure carbon crystal-
+linity [3], FTIR spectroscopy to identify char carbon
+functionality [19, 20], and various solid-state 13C nu-
+clear magnetic resonance spectroscopy (NMR) tech-
+niques such as cross-polarization/magic angle spin-
+ning (CP/MAS) to measure carbon functionality and
+aromaticity of chars [14, 19, 21–23], and other highly
+aromatic materials [24, 25]. The difﬁculty with all of
+these methods is the semiquantitative nature of the
+information they provide. CP NMR, for example,
+tends to underestimate the nonprotonated fraction
+of black carbons due to the slow transfer of hydro-
+gen magnetization to carbons in the middle of large
+aromatic structures and is sensitive to signal loss by
+interaction with unpaired electrons, rendering up to
+70% of carbon ‘‘invisible’’ [26, 27]. The direct-polar-
+ization (DP) or Bloch-decay MAS NMR approach is
+superior in most respects [26, 28, 29], since it is
+inherently quantitative and detects most carbon [26].
+Further, DP/MAS NMR can be combined with dipolar
+dephasing to quantify the fraction of nonprotonated
+aromatic C [30]. This study explores the application
+of these quantitative NMR techniques to study the
+structure of fast pyrolysis and gasiﬁcation chars. The
+use of two complementary NMR methods for esti-
+mating the size of clusters of fused aromatic rings in
+chars, based on spectral analysis and 1H-13C dipolar
+distance, is also demonstrated.
+EXPERIMENTAL
+Char Selection
+Seven representative chars were selected for this
+study, one from each thermochemical process for
+each feedstock and one commercially available wood
+charcoal. Switchgrass and corn stover were obtained
+locally (Story County, IA). Before thermochemical
+processing, feedstocks were ground in a hammer mill
+to pass a [¼]" screen and dried to <10% moisture.
+Mixed hardwood charcoal was obtained from a com-
+mercial kiln (Streumph Charcoal Company, Belle,
+MO). This char had been used in a biochar soil col-
+umn nutrient leaching study [31] and was considered
+a good candidate for comparison.
+Slow Pyrolysis
+Slow pyrolysis was performed by placing feed-
+stock into a paint-can ﬁtted with a nitrogen purge
+(1 L/min ﬂow rate) and a thermocouple for tempera-
+ture measurement. The sealed can was placed into a
+mufﬂe furnace and heated at 158C/min to 5008C.
+Corn stover (50 g) was held at 5008C for 30 min;
+switchgrass (125 g) was held at 5008C for 2 h. The
+char was then cooled under nitrogen ﬂow and
+stored in sealed glass jars. Mass yield of char was
+33.2% and 41.0% for corn stover and switchgrass,
+respectively.
+Fast Pyrolysis
+Fast pyrolysis was performed on a 5 kg/h capacity
+bubbling ﬂuidized bed reactor optimized for bio-oil
+production [5]. The sand bed was ﬂuidized with nitro-
+gen preheated at 5008C. Char was collected using a
+high-throughput cyclone catch and cooled under
+nitrogen before being stored in resealable plastic
+bags.
+Gasiﬁcation
+Gasiﬁcation was performed on a 3 kg/h capacity
+bubbling ﬂuidized bed reactor using an air/nitrogen
+ﬂuidizing gas (0.20 equivalence ratio). For reactor set-
+up details, see Meehan et al. [32]. The average steady
+state temperature was 7608C for switchgrass and
+7308C for corn stover. Char was again collected by
+cyclone, cooled under nitrogen, and stored in reseal-
+able plastic bags.
+Environmental Progress & Sustainable Energy (Vol.28, No.3) DOI 10.1002/ep
+October 2009
+387
+
+Physical Properties
+Brunauer-Emmet-Teller
+(BET)
+surface
+area
+was
+measured by nitrogen gas sorption analysis at 77 K
+(NOVA 4200e, Quantachrome Instruments, Boynton
+Beach, FL). Before analysis, samples were vacuum
+degassed at 3008C for 4–16 h (conditions typical for
+carbons). Degassing time varied based on the time
+necessary to reach a stable surface area measurement.
+Particle density was measured by helium pycnometer
+(Pentapycnometer, Quantachrome Instruments) using
+degassed samples from BET analysis and long purge
+times (10 min) to prevent errors due to volatile con-
+tent outgassing.
+Char particle structure and surface topography
+were
+analyzed
+by
+scanning
+electron
+microscopy
+(SEM) using a Hitachi S-2460N variable pressure scan-
+ning electron microscope. Samples were mounted on
+carbon disks. Variable pressure mode allowed for ex-
+amination of insulating samples with minimal sample
+preparation. A residual atmosphere of 60 Pa (0.5
+Torr) of helium was adequate to eliminate charging
+from samples, while allowing reasonably high magni-
+ﬁcations (up to 15003).
+Chemical Properties
+Moisture, volatiles, ﬁxed carbon, and ash content
+were determined in triplicate by ASTM proximate anal-
+ysis method for wood charcoals (ASTM D1762-84,
+reapproved 2007). Fused quartz crucibles were used
+and chars were not ground prior to analysis (most
+were already ﬁne powders). Elemental analysis was
+performed by LECO Corporation (St. Joseph, MI) using
+TRUSPEC-CHN and TRUSPEC-S analyzers (LECO).
+Samples (0.1 g) with larger particles were crushed
+using a mortar and pestle before analysis. Oxygen
+content was not able to be determined consistently
+due to high inorganic oxygen content (in the ash)
+decomposing during analysis. Higher heating value
+(HHV) of chars was determined by oxygen bomb
+calorimeter (Parr Instrument Company, Moline, IL)
+according to Parr Sheet No. 240M, 205M, and 207M.
+Mineral content was measured by X-ray ﬂuores-
+cence (XRF) spectrophotometer (PHILIPS PW2404)
+equipped with a rhodium target X-ray tube and a
+4 kW generator. Dry char (4 g) was mixed with X-ray
+pellet mix powder (1.5 g) and boric acid (1 g) for
+2 min in a puck grinder, and then pressed into a pellet
+under vacuum to 25 tons pressure for 15 s. Dry feed-
+stock was also analyzed to verify that char had not
+been contaminated by sand from the ﬂuidized bed.
+FTIR-PAS
+Surface functionality was investigated by Fourier
+transform infrared (FTIR) spectroscopy using a Digi-
+lab FTS-7000 FTIR spectrophotometer equipped with
+a PAC 300 photoacoustic detector (MTEC Photoacous-
+tics, Ames, IA). The sample chamber was purged
+with helium for several minutes prior to analysis to
+prevent the interference of water and carbon dioxide.
+Spectra of dried feedstock and char samples were
+taken at 4 cm21 resolution and 1.2 kHz scanning
+speed for a total of 64 coadded scans.
+Solid-State 13C NMR
+13C NMR experiments were performed using a
+Bruker DSX400 spectrometer at 100 MHz (400 MHz
+1H frequency). Quantitative 13C Direct Polarization/
+Magic Angle Spinning (DP/MAS) NMR experiments
+were performed using 4-mm sample rotors at a spin-
+ning frequency of 14 kHz. The 908 13C pulse-length
+was 4.5 ls. Sufﬁciently strong 1H decoupling at gB1/
+2p 5 72 kHz with the two-pulse phase-modulated
+(TPPM) scheme was applied during an acquisition
+time of 2 ms. Recycle delays (10–40 s) were deter-
+mined by the Cross Polarization/Spin-Lattice Relaxa-
+tion Time/Total Sideband Suppression (CP/T1-TOSS)
+technique to make sure that all carbon sites were
+>95% relaxed [33]. Delays were conﬁrmed by a series
+of DP experiments with increasing recycle delays. To
+obtain quantitative information on the nonprotonated
+aromatic carbon fraction, DP/MAS
+13C NMR with
+recoupled dipolar dephasing was used [30]. The dipo-
+lar dephasing time was 68 ls. The total time for DP/
+MAS and DP/MAS with gated decoupling experiments
+was typically 23 h per sample.
+Qualitative char composition information, in partic-
+ular alkyl carbon composition, was obtained with
+good sensitivity by 13C CP/TOSS NMR experiments
+with samples in 7-mm rotors at a spinning speed of
+7 kHz, a CP time of 1 ms, a 1H 908 pulse-length of
+4 ls, and a recycle delay of 0.5 s. Four-pulse TOSS
+was employed before detection and TPPM decou-
+pling was applied for optimum resolution.
+The size of fused aromatic rings typical of charcoal
+can be estimated based on recoupled 1H-13C dipolar
+dephasing [34]. In short, two 1H 1808 pulses per rota-
+tion period prevent magic angle spinning (MAS) from
+averaging out weak CH dipolar couplings. Composite
+908x-1808y-908x pulses were used to reduce effects of
+imperfect pulse ﬂip angles. To detect nonprotonated
+carbons with good relative efﬁciency, DP/TOSS was
+used at a spinning speed of 7 kHz, in 7-mm rotors
+for the pyrolysis chars. All experiments on the gasiﬁ-
+cation char had to be performed in 4-mm rotors,
+where
+the
+pronounced
+400-MHz
+radio-frequency
+absorption
+due
+to
+sample
+conductivity
+was
+less
+severe than for the larger amount of material in the
+7-mm rotor. The 13C 908 and 1808-pulse lengths were
+4.5 and 9 ls, respectively. The recycle delays were
+the same as used for DP/MAS spectra. Instead of the
+total aromatic signal between 107 and 142 ppm, only
+the signal of nonprotonated C (after 40 ls of regular
+gated decoupling) was considered in the analysis. For
+reference, milled-wood lignin [35] (a better-deﬁned
+sample than the commercial lignin in Ref. 34) was
+run under the same conditions, with a 60-s recycle
+delay.
+RESULTS AND DISCUSSION
+Physical Properties
+SEM micrographs of switchgrass and the three
+types of switchgrass char are shown in Figure 1.
+Overall plant structure was visible in all of the chars.
+Increased porosity from volatiles escaping during
+388
+October 2009
+Environmental Progress & Sustainable Energy (Vol.28, No.3) DOI 10.1002/ep
+
+thermochemical degradation can also be seen. The
+particle size decrease observed in the gasiﬁcation and
+fast pyrolysis char is believed to be caused by rapid
+devolatilization creating very porous (macroporous)
+and fragmented chars [36]. In general, gasiﬁcation
+chars are ﬁne powders while fast pyrolysis are very
+ﬁne powders [3]. Table 1 shows the particle densities
+and BET surface areas of the representative chars.
+Surface areas were very low (7–50 m2/g) compared
+to commercial activated carbons and increased with
+process temperature and char residence time. Particle
+density,
+also
+known
+as
+solid
+or
+true
+density,
+increased with ash (mineral) content and process
+temperature. It has been suggested that particle den-
+sity can be used to estimate the charring temperature.
+As temperature and reaction time increase, the degree
+of graphitization increases and char’s particle density
+(typically 1.5–1.7 g/cm3) approaches that of solid
+graphite (2.25 g/cm3) [37]. The presence of minerals,
+which are denser than most forms of carbon, can
+also cause higher apparent particle density in high-
+ash chars.
+Chemical Properties
+Results from proximate and elemental analysis of
+chars are shown in Table 1. Switchgrass and corn
+stover chars had high ash contents (32–55 wt %) at
+the
+expense
+of
+carbon
+content.
+For
+most
+char
+applications, this high ash content puts switchgrass
+and corn stover chars at a disadvantage compared to
+chars from low-ash feedstocks. Char HHVs (Table 1)
+are similar to those presented by Boateng and are
+comparable to coals [3]. Table 2 lists the ash composi-
+tion of switchgrass, corn stover, and hardwood chars
+as determined by XRF. (Because of the nature of the
+samples and the calibration method, the relative con-
+centrations of the elements are accurate, but the over-
+all mineral content in the char is overestimated.)
+Corn stover and switchgrass ashes predominantly
+contain silica, while hardwood ash contains mostly
+alkali
+metals.
+Biomass
+combustion
+research
+has
+shown that feedstocks containing more silica have
+relatively high slagging tendencies [38]. Furthermore,
+contamination by sand or soil during biomass collec-
+tion enhances this tendency [38]. For this reason,
+chars from switchgrass and corn stover (collected by
+farming equipment) have three inherent challenges
+compared to traditional charcoals for use as fuels:
+high overall ash content, high silica content, and
+contamination by soil.
+Aromaticity from NMR
+Figure 2 presents quantitative
+13C DP/MAS NMR
+spectra of switchgrass slow pyrolysis, fast pyrolysis,
+and gasiﬁcation chars. The corresponding quantitative
+spectra of nonprotonated carbons and CH3 groups,
+obtained after 68 ls of dipolar dephasing [26], are
+also shown (thick lines). The spectra are dominated
+by the band of the aromatic carbons around 128
+ppm, the majority of which are not protonated. Small
+signals of C¼¼O and alkyl groups are also detected.
+These are seen more clearly in the CP/TOSS spectra
+of Figure 3, which over-represent the signals of
+protonated
+C
+and
+contain
+no
+residual
+spinning
+Figure 1. Scanning electron micrographs of switchgrass (a) feedstock, (b) slow pyrolysis char, (c) fast pyrolysis
+char, and (d) gasiﬁcation char.
+Environmental Progress & Sustainable Energy (Vol.28, No.3) DOI 10.1002/ep
+October 2009
+389
+
+sidebands. In addition to spectra of pyrolysis chars,
+the spectrum of the switchgrass feedstock is shown
+for reference in Figure 3c. Figure 3d shows the CP
+spectrum of fast pyrolysis char from corn stover. The
+relative fractions of eight types of functional groups
+obtained from the DP spectra are compiled in Table
+3. The sum of of the aromatic CO, nonprotonated
+aromatics, and aromatic CH fractions gives the total
+aromaticity. Although the aromaticities of the different
+chars are similar (see ﬁrst column of Table 5), the
+fraction of protonated aromatic carbons decreases
+signiﬁcantly from slow pyrolysis to gasiﬁcation.
+From the abundance and estimated composition of
+the functional groups in Table 3, the elemental com-
+position
+can
+be
+estimated.
+Since
+COH
+and
+COC groups have similar resonance positions,
+their ratio cannot be determined; a 50:50 ratio of
+ethers and OH groups was assumed in the analysis.
+The resulting fractional oxygen contents listed in Ta-
+ble 3 take into account ether oxygen shared between
+its two bonded carbons. Since ether oxygen atoms
+are not protonated, the H contribution is correspond-
+ingly reduced. Table 4 compares these NMR-derived
+composition values with those from combustion anal-
+ysis. The good agreement validates the NMR assign-
+ments. Both elemental analyses consistently show
+much higher oxygen content for the fast pyrolysis
+char. The detailed NMR analysis (see Table 3) reveals
+higher fractions of all kinds of oxygen-containing
+moieties.
+Degree of Aromatic Condensation from NMR
+In addition to determining aromaticity, NMR can
+also provide an estimate of the degree of aromatic
+condensation.
+Various
+research
+groups
+have
+attempted to use NMR to quantify the fraction of
+bridgehead carbons (fbridge) as a measure of the
+degree of aromatic condensation. Several groups sim-
+Table 1. Composition, physical properties, and higher heating value (HHV) of representative chars.
+Char
+Particle
+density
+(g/cc)
+BET surface
+area (m2/g)
+Moisture
+(wt %)
+Volatiles
+(wt %)
+Fixed C
+(wt %)
+Ash
+(wt %)
+C
+(wt %)
+H
+(wt %)
+N
+(wt %)
+S
+(wt %)
+HHV (as
+received)
+(MJ/kg)
+Switchgrass S. P.
+1.76
+50.2
+0.9
+7.1
+39.5
+52.5
+39.4
+1.3
+0.7
+0.002
+15.37
+Switchgrass F. P.
+1.78
+21.6
+2.7
+16.4
+26.4
+54.6
+38.7
+2.5
+0.6
+0.21
+16.34
+Switchgrass gasiﬁcation
+2.06
+31.4
+2.5
+10.3
+34.3
+53.0
+42.8
+1.6
+0.8
+0.17
+15.86
+Corn stover S. P.
+1.54
+20.9
+1.8
+11.1
+54.7
+32.4
+62.8
+2.9
+1.3
+0.05
+21.60
+Corn stover F. P.
+1.85
+7.0
+1.0
+14.9
+34.4
+49.7
+37.8
+2.5
+0.8
+0.06
+13.83
+Corn stover gasiﬁcation
+1.92
+23.9
+1.9
+5.5
+38.5
+54.0
+38.5
+1.3
+0.7
+0.09
+15.29
+Switchgrass F. P. [3]
+ND
+7.7
+3.8
+28.4
+42.0
+25.9
+63
+3.7
+0.8
+ND
+19.37
+Hardwood S. P.
+1.60
+19.7
+2.6
+19.7
+63.8
+13.9
+65.3
+2.6
+0.6
+0.05
+22.64
+Elemental composition values are reported on a dry weight basis; HHV and proximate analysis results presented on a wet basis.
+S.P., slow pyrolysis; F.P., fast pyrolysis; ND, not determined.
+Table 2. Ash composition of switchgrass, corn stover,
+and hardwood char samples by X-ray ﬂuorescence
+spectroscopy prepared by the pressed pellet method.
+Element
+Switchgrass
+F.P. char
+Corn stover
+F.P. char
+Hardwood
+char
+Al2O3
+0.49
+2.33
+0.60
+CaO
+3.65
+3.80
+22.37
+Cl
+0.47
+0.59
+0.03
+Fe2O3
+0.76
+1.87
+2.36
+K2O
+6.00
+4.03
+1.35
+MgO
+1.55
+2.02
+0.48
+MnO2
+0.15
+0.13
+0.83
+Na2O
+0.07
+0.20
+0.06
+P2O5
+3.86
+1.19
+0.20
+SiO2
+43.62
+29.98
+5.67
+SO3
+0.99
+0.28
+0.27
+Other
+0.25
+0.64
+0.51
+Total
+61.86
+47.06
+34.73
+All values are dry weight %. Elements are represented
+as their respective oxides. F.P., fast pyrolysis.
+390
+October 2009
+Environmental Progress & Sustainable Energy (Vol.28, No.3) DOI 10.1002/ep
+
+ply assumed that all carbons resonating around 130
+ppm are bridgehead C, and that aromatic CH
+resonances are in a narrow band around 108 ppm
+[39, 40]; the clear dipolar dephasing by >20% of the
+130-ppm band in the spectra in Figure 2, however,
+demonstrates the signiﬁcant presence of CH signal
+and thus shows that this assumption is false.
+A better approach was suggested by Solum et al.,
+who focused on the signals of nonprotonated C
+(selected by dipolar dephasing) and assigned those
+between 135 and 90 ppm to bridgehead carbons [24,
+25]. Still, the spectra in Figure 2 show no indication
+of a minimum near 135 ppm that would indicate a
+spectral separation of bridgehead from other nonpro-
+tonated aromatic carbons; instead, the spectra suggest
+that the bridgehead carbon band extends beyond 135
+ppm and cannot be reliably separated from smaller
+bands of other nonprotonated aromatic C. Indeed, in
+two coals of high aromaticity, the assumptions of So-
+lum et al. resulted in a higher fraction of alkylated
+aromatics than that of total alkyl carbons, which con-
+ﬁrms
+that
+some
+bridgehead
+carbon
+signal
+was
+assigned incorrectly [24]. In addition, the use of cross
+polarization from 1H is likely to result in an under-
+representation of the bridgehead carbons far from the
+nearest
+1H and must, therefore, be avoided in the
+study of chars.
+We propose here that the degree of aromatic con-
+densation can be estimated most reliably by combin-
+ing two complementary approaches: spectral analysis
+and long-range HC dipolar dephasing. From quan-
+titative 13C NMR spectra, one can estimate the fraction
+of carbons along the edges of the aromatic rings,
+vedge 5 1 2 vbridge, which decreases with increasing
+aromatic ring cluster size. The usually dominant spec-
+tral contributions to the aromatic edge carbons in
+chars come from aromatic CH and aromatic CO
+moieties, whose fractions vCH 5 faCH/far and vCO 5
+faCO/far can be determined quite easily from the 13C
+spectra. (far, faCH, and faCO stand for aromatic carbon
+fractions:
+total
+aromatic
+carbon,
+aromatic
+carbon
+bonded to hydrogen, and aromatic carbon bonded to
+oxygen, respectively.) Together, they constitute the
+minimum aromatic edge fraction,
+vedge;min ¼ vCH þ vCO
+(1)
+Additional contributions can come from alkyl C
+and C¼¼O bonded to the aromatic rings. Thus, the
+upper limit of the edge fraction is provided by
+vedge;max ¼ vedge;min þ valkyl þ vC¼O
+(2)
+If the fraction of C¼¼O groups exceeds that of
+alkyls, one can show that some of the C¼¼O must be
+bonded to the aromatic rings (and thus contribute to
+vedge,min), but this is not relevant with the samples
+studied here. Table 5 lists the values of vedge,min and
+vedge,max for the chars studied. Given the relatively
+small alkyl (valkyl 5 falkyl/far) and C¼¼O fractions in
+chars, the range of vedge between vedge,min and
+vedge,max is quite limited, particularly for the slow py-
+rolysis sample.
+Figure 2. Quantitative 13C NMR spectra, obtained with
+direct polarization at 14-kHz MAS, of three chars
+made from switchgrass: (a) slow pyrolysis, (b) fast
+pyrolysis, (c) gasiﬁcation char. Thin line: spectrum of
+all carbons; bold line: corresponding spectrum of
+nonprotonated C and CH3, obtained after 68 ls of
+dipolar dephasing. ssb, spinning side band.
+Figure 3. CP/MAS/TOSS 13C NMR spectra, highlighting
+the signals of alkyl residues, of (a) slow pyrolysis char
+from switchgrass, (b) fast pyrolysis char from
+switchgrass, (c) switchgrass feedstock for reference,
+and (d) fast pyrolysis char from corn stover.
+Environmental Progress & Sustainable Energy (Vol.28, No.3) DOI 10.1002/ep
+October 2009
+391
+
+The geometry of condensation, for example, linear
+(primary catenation) versus clustered (e.g., circular
+catenation), can be assessed based on vedge,max [24]:
+in
+linearly
+condensed
+systems,
+vedge
+>
+0.5,
+so
+vedge,max< 0.5 excludes linear condensation. More
+generally, based on the equations given by Solum
+et al., one can show that the number of carbons, nC,
+in a cluster relates to the edge fraction by
+3=ðvedge  0:5Þ  nC  6=v2
+edge  6=v2
+edge;max
+(3)
+with the upper limit for linear and the lower for cir-
+cular condensation [24]. For instance, if vedge,max 
+0.4, then there must be more than nC 5 37 carbons
+in a cluster. Table 5 lists these minimum cluster sizes.
+The second approach, long-range
+1H-13C dipolar
+dephasing, probes distances of the aromatic carbons
+from hydrogen at the edge of the condensed ring sys-
+tem in terms of the strongly distance-dependent 1H-13C
+dipolar couplings [34]. The larger the average 1H-13C
+distance, the slower the dephasing of the 13C signal;
+thus, a slower decay indicates a larger cluster size. The
+slower dephasing for the gasiﬁcation char compared to
+the pyrolysis chars (see Figure 4) indicates a larger aro-
+matic-cluster size in the former, consistent with the
+spectral analysis. Curves for speciﬁc sites in model com-
+pounds [34], with two two-bond and two three-bond
+couplings, provide an approximate length-scale calibra-
+tion (see dashed and dash-dotted lines in Figure 4).
+The dephasing for the slow pyrolysis char nearly
+coincides with the three-bond calibration curve, indi-
+Table 3. Quantitative NMR spectral analysis of switchgrass and corn stover chars.
+Moieties
+Location (ppm)
+Carbonyls
+Aromatics
+Alkyls
+C¼¼O
+210-183
+COO
+183-165
+CO0.75H0.5
+165-145
+Cnon-pro/CH
+145-90
+HCO0.75H0.5
+90-50
+CH1.5
+50-25
+CH3
+25-6
+Switchgrass S. P.
+0.8
+1.4
+6.7
+52
+35
+1.4
+1.6
+1.3
+Switchgrass F. P.
+3.3
+3.2
+10.3
+49
+24
+3.6
+2.6
+4.0
+Switchgrass
+gasiﬁcation
+2.0
+2.2
+6.4
+66
+15
+4.0
+2.0
+2.0
+Corn stover F. P.
+3.5
+4.2
+11.7
+42
+27
+3.3
+3.7
+4.8
+Corn stover
+gasiﬁcation
+2.5
+2.8
+8.2
+61
+18
+3.0
+2.3
+1.3
+All values are % of total 13C signal. Cnon-pro, nonprotonated aromatic carbon.
+S.P., slow pyrolysis; F.P., fast pyrolysis.
+Error margins: 6 1%.
+Table 4. Elemental analysis of switchgrass and corn stover chars from NMR and combustion (in parentheses).
+Char
+C (wt %)
+H (wt %)
+O 1 N (wt %)
+Switchgrass S. P.
+(39.4 6 0.4)
+1.53 (1.31 6 0.01)
+4.9 (6.3)
+Switchgrass F. P.
+(38.7 6 0.2)
+1.63 (2.49 6 0.03)
+10.1 (5.7)
+Switchgrass gasiﬁcation
+(42.8 6 0.1)
+1.18 (1.60 6 0.02)
+7.9 (3.9)
+Corn stover F. P.
+(37.8 6 0.6)
+1.82 (2.48 6 0.05)
+11.3 (10.5)
+Corn stover gasiﬁcation
+(38.5 6 0.2)
+1.08 (1.29 6 0.01)
+8.2 (7.2)
+S.P., slow pyrolysis; F.P., fast pyrolysis.
+Table 5. Aromaticities, fractions of aromatic edge carbons, and minimum number of carbons per aromatic
+cluster in switchgrass and corn stover chars.
+Char
+Aromaticity
+vCH
+vedge,min
+vedge,max
+nC,min
+Harom/Halk
+Switchgrass S. P.
+94
+0.37
+0.44
+0.51
+>23 C
+4.5
+Switchgrass F. P.
+83
+0.29
+0.41
+0.61
+>16 C
+1.2
+Switchgrass gasiﬁcation
+86
+0.17
+0.25
+0.40
+>37 C
+1.4
+Corn stover F. P.
+81
+0.33
+0.48
+0.72
+>12 C
+1.2
+Corn stover gasiﬁcation
+87
+0.21
+0.30
+0.44
+>31 C
+2
+Aromaticity is listed as % of total 13C signal. F.P., fast pyrolysis; S.P., slow pyrolysis.
+392
+October 2009
+Environmental Progress & Sustainable Energy (Vol.28, No.3) DOI 10.1002/ep
+
+cating that the nonprotonated carbons in this char are
+on average at a three-bond distance from the nearest
+1H. Figure 5a shows a typical fused-ring system that
+is compatible with the NMR data, both spectroscopic
+and dipolar-dephasing, for the slow pyrolysis char.
+Here,
+the
+number
+of
+sites
+(ﬁlled
+triangles
+and
+squares) that dephase slower than the calibration
+sites is similar to the number of sites (thin-line ellip-
+ses) that dephase faster. The corresponding model
+for fast pyrolysis char (see Figure 5b), has a smaller
+CH and larger CO fraction, but features an only
+slightly
+smaller
+fused-ring
+system.
+The
+slower
+dephasing
+for
+the
+gasiﬁcation
+char
+in
+Figure
+4
+requires a signiﬁcantly larger fraction of C at a 3-
+bond distance from the nearest 1H. The structure in
+Figure 5c contains many more slow-dephasing (ﬁlled
+triangles or squares) than fast-dephasing (thin-line
+ellipses) sites.
+Comparison with Previous NMR Studies of Char
+The structures with signiﬁcant clustered aromatic
+condensation
+derived
+here
+from
+the
+dual
+NMR
+approach are very different from the small, linearly
+condensed structures proposed by Knicker for cellu-
+lose heated under oxic conditions, based on CP/NMR
+[23, 41]. The difference may arise primarily from dif-
+ferences in char production conditions, namely the
+presence of oxygen and the lower temperature; fol-
+lowing the temperature-ring size relationship sug-
+gested above, a less condensed (but not necessarily
+linear) structure would be expected. The oxic heating
+conditions may have resulted in local ‘‘hot spots,’’
+where the temperature exceeded that of the furnace
+setting as some of the carbon was exothermically
+combusted.
+Form of H in Chars
+Based on the quantitative NMR analysis, we can
+estimate
+the
+ratio
+of
+the
+fractions
+of
+hydrogen
+attached to aromatic and alkyl carbons, Harom/Halk.
+The data in Table 5 show that in spite of the high
+aromaticity of all chars, aromatic H is strongly domi-
+nant only in the slow pyrolysis char.
+Figure 4. Plot of the area of signals of nonprotonated
+aromatic carbons resonating between 107 and 142
+ppm, under long-range 1H-13C dipolar dephasing.
+Circles: Gasiﬁcation char from switchgrass. Squares:
+Slow and fast pyrolysis char, whose data coincide
+within the error margins of 62%. Dash-dotted
+line: Carbons 11 and 13 of 1, 8-dihydoxy-3-
+methylanthraquinone, which are three bonds away
+from the two nearest protons. Dashed line: Carbon 1
+of 3-methoxy benzamide, which is two bonds away
+from the two nearest protons. The new reference
+data for lignin (triangles) coincide with this line.
+Figure 5. Typical aromatic clusters, derived from
+NMR, in (a) slow pyrolysis char, (b) fast pyrolysis
+char, and (c) gasiﬁcation char from switchgrass.
+Symbols label the distance of carbons resonating
+between 107 and 142 ppm from the nearest
+proton(s). Thin-line ellipse: Two bonds from multiple
+H. Thick-line ellipse: Two bonds from one H. Open
+triangle: Three bonds from multiple H. Filled triangle:
+Three bonds from one H. Open square: Four bonds
+from multiple H. Filled square: Four bonds from one
+H, or more than four bonds from any H.
+Environmental Progress & Sustainable Energy (Vol.28, No.3) DOI 10.1002/ep
+October 2009
+393
+
+FTIR-PAS
+FTIR-PAS is a very fast and easy method to gauge
+the ‘‘progress’’ of the pyrolysis reaction. Drying is the
+only sample preparation step needed to perform this
+analysis, which eliminates the sample handling and
+dilution
+difﬁculties
+encountered
+when
+pelletizing
+samples with potassium bromide [42]. The FTIR-PAS
+spectra in Figure 6 show the progression of switch-
+grass feedstock to gasiﬁcation char; the spectra for
+corn stover (not shown) were very similar to those of
+switchgrass. The spectrum from commercial hard-
+wood
+slow
+pyrolysis
+is
+also
+shown.
+The
+most
+dramatic change is the OH stretch peak around
+3400 cm21, which dominates the feedstock spectrum
+but is almost absent in the gasiﬁcation char spectrum.
+Assignment
+of
+other
+peaks
+important
+for
+chars,
+including the aliphatic CH stretch at 3000–2860
+cm21, the aromatic CH stretch around 3060 cm21,
+and the various aromatic ring modes at 1590 and
+1515 cm21, can be found in a paper by Sharma et al.
+on lignin chars [20]. The series of spectra in Figure 6
+suggests a gradual loss of lignocellulosic functional
+groups, but the NMR spectra of Figure 3 show that all
+of the chars contain little, if any, polysaccharide
+residues. The relatively strong aromatic CH stretch
+in slow pyrolysis char matches well with the large
+aromatic CH concentration seen in the NMR spec-
+tra. It was noted that fast pyrolysis char appeared less
+‘‘reacted’’ than the slow pyrolysis char, but again this
+is not supported by NMR; rather, the higher oxygen
+content in the fast pyrolysis char makes the distribu-
+tion of functional groups more similar to those of the
+switchgrass feedstock.
+Effects of Synthesis Conditions on
+Char Structure
+NMR showed that the aromaticity of slow pyrolysis
+char is higher than that of fast pyrolysis or gasiﬁca-
+tion chars. Tentatively, this can be attributed to the
+long residence time (2 h) in slow pyrolysis, compared
+to that of fast pyrolysis and gasiﬁcation in a ﬂuidized
+bed reactor (<2 s). Nevertheless, slow pyrolysis char
+exhibited a cluster size only slightly larger than fast
+pyrolysis char and much smaller than gasiﬁcation
+char. This suggests that cluster size is controlled
+mostly by reaction temperature, not duration.
+None of the chars contained recognizable frag-
+ments of feedstock biopolymers, showing that the
+reaction time was sufﬁcient for complete conversion
+to char. This preempts concerns about unreacted,
+bio-available fractions in carbon sequestration and
+soil amendment applications. Elemental analysis and
+NMR showed consistently that fast pyrolysis char con-
+tained more oxygen in various functional groups, not
+just alkyl COH as the feedstock. The somewhat
+enhanced COO concentration in fast compared to
+slow pyrolysis char may actually result in a slightly
+better cation exchange capacity. In conjunction with
+the similar aromatic cluster size, this suggests that fast
+pyrolysis char should perform similarly as, if not
+better than, slow pyrolysis char in soil amendment
+applications. Gasiﬁcation char, though similar to slow
+pyrolysis char in aromaticity, has much larger aro-
+matic
+clusters,
+suggesting
+signiﬁcantly
+different
+properties. The larger cluster size is proven not only
+by the dual NMR approach introduced here, but also
+by
+the
+lower
+ppm
+value
+of
+the
+nonprotonated
+aromatic carbon band, which is characteristic of
+bridgehead carbons [22], and by the observed radio-
+frequency power absorption due to conductivity of
+sufﬁciently large fused ring systems [43].
+CONCLUSIONS
+1. Chars from fast pyrolysis and gasiﬁcation are
+physically and chemically different from traditional
+hardwood charcoals and chars prepared from herba-
+ceous feedstocks by slow pyrolysis. The types of
+carbon present appear to depend on process temper-
+ature and, to a lesser extent, reaction time. None of
+the chars contained a detectable amount of only
+partially pyrolyzed biomass.
+2. Fast pyrolysis and gasiﬁcation chars should be
+included in biochar trials. Their wider range of prop-
+erties and reaction conditions will offer insight on
+how to engineer desirable biochars. The structural
+features of fast pyrolysis char suggest favorable prop-
+erties in this application. Coproduction of biochar
+and bioenergy may prove to be a more cost-effective
+and resource efﬁcient use of biomass crops and crop
+residues.
+3. Switchgrass and corn stover chars have high
+silica ash content and low surface area, and therefore,
+will present challenges to traditional char applications
+such as combustion or activation; the best use of
+switchgrass and corn stover chars may be soil appli-
+cation depending on the economic circumstances and
+the local soil properties.
+4. Solid-state 13C NMR using techniques presented
+here (DP/MAS, DP/MAS with dipolar dephasing, CP/
+TOSS, and DP/TOSS with recoupled 1H-13C dipolar
+dephasing) can provide the quantitative information
+needed to reliably track changes in carbon structure
+Figure 6. FTIR-PAS spectra of switchgrass, switchgrass
+chars, and a commercial hardwood char.
+394
+October 2009
+Environmental Progress & Sustainable Energy (Vol.28, No.3) DOI 10.1002/ep
+
+over reaction time and temperature, which will be
+meaningful to engineered char production and bio-
+char testing.
+Financial support for this research was provided
+by a National Science Foundation Graduate Research
+Fellowship and an ISU Plant Science Institute Gradu-
+ate Research Fellowship (Brewer), and the ISU Bio-
+economy Institute. The authors thank the following
+for their assistance on various aspects of the analysis
+process: undergraduates Daniel Assmann and Hernan´
+Trevin˜o, CSET colleagues for providing char samples
+and process information, CSET staff on HHV, Xiao-
+wen Fang on NMR, Warren Straszheim on SEM, Scott
+Schlorholtz on XRF, and John McClelland and Roger
+Jones on FTIR-PAS. They also thank David Laird for
+his valuable comments on agronomic applications of
+biochar.
+LITERATURE CITED
+1. Wright, M.M., & Brown, R.C. (2007). Comparative
+economics of bioreﬁneries based on the bio-
+chemical and thermochemical platforms, Biofuels,
+Bioproducts and Bioreﬁning, 1, 49–56.
+2. Laird, D.A. (2008). The charcoal vision: A win
+win win scenario for simultaneously producing
+bioenergy,
+permanently
+sequestering
+carbon,
+while improving soil and water quality, Agron-
+omy Journal, 100, 178–181.
+3. Boateng, A.A. (2007). Characterization and ther-
+mal
+conversion
+of
+charcoal
+derived
+from
+ﬂuidized-bed
+fast
+pyrolysis
+oil
+production
+of
+switchgrass, Industrial & Engineering Chemistry
+Research, 46, 8857–8862.
+4. Boateng, A.A., Mullen, C.A., Goldberg, N., Hicks,
+K.B., Jung, H.-J.G., & Lamb, J.F.S. (2008). Produc-
+tion of bio-oil from Alfalfa stems by ﬂuidized-bed
+fast pyrolysis. Industrial & Engineering Chemistry
+Research, 47, 4115–4122.
+5. Fan, M., Marshall, W., Daugaard, D., & Brown,
+R.C. (2004). Steam activation of chars produced
+from oat hulls and corn stover, Bioresource Tech-
+nology, 93, 103–107.
+6. Azargohar, R., & Dalai, A.K. (2008). Steam and
+KOH activation of biochar: Experimental and
+modeling studies, Microporous and Mesoporous
+Materials, 110, 413–421.
+7. Lehmann, J., Gaunt, J., & Rondon, M. (2006). Bio-
+char sequestration in terrestrial ecosystems—A
+review, Mitigation and Adaptation Strategies for
+Global Change, 11, 395–419.
+8. Glaser, B., Lehmann, J., & Zech, W. (2002).
+Ameliorating physical and chemical properties of
+highly weathered soils in the tropics with char-
+coal—A review, Biology and Fertility of Soils, 35,
+219–230.
+9. Glaser, B., Haumaier, L., Guggenberger, G., &
+Zech, W. (2001). The ‘Terra Preta’ phenomenon:
+A model for sustainable agriculture in the humid
+tropics, Naturwissenschaften, 88, 37–41.
+10. Yanik, J., Kornmayer, C., Saglam, M., & Yuksel,
+M. (2007). Fast pyrolysis of agricultural wastes:
+Characterization of pyrolysis products, Fuel Proc-
+essing Technology, 88, 942–947.
+11. Lee, K.H., Kang, B.S., Park, Y.K., & Kim, J.S.
+(2005).
+Inﬂuence
+of
+reaction
+temperature,
+pretreatment, and a char removal system on the
+production of bio-oil from rice straw by fast
+pyrolysis, using a ﬂuidized bed, Energy & Fuels,
+19, 2179–2184.
+12. Tsai, W.T., Lee, M.K., & Chang, Y.M. (2007). Fast
+pyrolysis of rice husk: Product yields and compo-
+sitions, Bioresource Technology, 98, 22–28.
+13. Baldock, J.A., & Smernik, R.J. (2002). Chemical
+composition
+and
+bioavailability
+of
+thermally
+altered Pinus resinosa (Red pine) wood, Organic
+Geochemistry, 33, 1093–1109.
+14. Novak, J.M., Busscher, W.J., Laird, D., Ahmedna,
+M.,
+Watts,
+D.W.,
+&
+Niandou,
+M.A.S.
+(2009).
+Impact of biochar amendment on fertility of a
+Southeastern coastal plain soil, Soil Science, 174,
+105–112.
+15. Joseph, S., Peacocke, C., Lehmann, J., & Munroe,
+P. (2009). Developing a biochar classiﬁcation and
+test methods. In
+J.Lehmann &
+S.Joseph (Eds.),
+Biochar for environmental management science
+and technology, London: Earthscan, 107–126.
+16. Preston, C.M., & Schmidt, M.W.I. (2006). Black
+(pyrogenic) carbon: A synthesis of current knowl-
+edge and uncertainties with special consideration
+of boreal regions, Biogeosciences, 3, 397–420.
+17. Schmidt, M.W.I., & Noack, A.G. (2000). Black car-
+bon in soils and sediments: Analysis, distribution,
+implications and current challenges, Global Bio-
+geochemical Cycles, 14, 777–793.
+18. Antal, M.J., Allen, S.G., Dai, X., Shimizu, B., Tam,
+M.S., & Gronli, M. (2000). Attainment of the theo-
+retical yield of carbon from biomass, Industrial &
+Engineering Chemistry Research, 39, 4024–4031.
+19. Cheng, C.-H., Lehmann, J., Thies, J.E., Burton,
+S.D., & Engelhard, M.H. (2006). Oxidation of
+black carbon by biotic and abiotic processes,
+Organic Geochemistry, 37, 1477–1488.
+20. Sharma, R.K., Wooten, J.B., Baliga, V.L., Lin, X.,
+Geoffrey Chan, W., & Hajaligol, M.R. (2004).
+Characterization of chars from pyrolysis of lignin,
+Fuel, 83, 1469–1482.
+21. Czimczik, C.I., Preston, C.M., Schmidt, M.W.I.,
+Werner, R.A., & Schulze, E.-D. (2002). Effects of
+charring on mass, organic carbon, and stable
+carbon isotope composition of wood, Organic
+Geochemistry, 33, 1207–1223.
+22. Knicker, H., Totsche, K.U., Almendros, G., &
+Gonza´lez-Vila, F.J. (2005). Condensation degree
+of burnt peat and plant residues and the reliabil-
+ity of solid-state VACP MAS 13C NMR spectra
+obtained from pyrogenic humic material, Organic
+Geochemistry, 36, 1359–1377.
+23. Knicker, H., Hilscher, A., Gonza´lez-Vila, F.J., &
+Almendros, G. (2008). A new conceptual model
+for the structural properties of char produced
+during vegetation ﬁres, Organic Geochemistry,
+39, 935–939.
+24. Solum, M.S., Pugmire, R.J., & Grant, D.M. (1989).
+Carbon-13 solid-state NMR of Argonne-premium
+coals, Energy & Fuels, 3, 187–193.
+Environmental Progress & Sustainable Energy (Vol.28, No.3) DOI 10.1002/ep
+October 2009
+395
+
+25. Kelemen,
+S.R.,
+Afeworki,
+M.,
+Gorbaty,
+M.L.,
+Sansone, M., Kwiatek, P.J., Walters, C.C., Freund,
+H., Siskin, M., Bence, A.E., Curry, D.J., Solum, M.,
+Pugmire, R.J., Vandenbroucke, M., Leblond, M., &
+Behar, F. (2007). Direct characterization of kero-
+gen by X-ray and solid-state 13C nuclear mag-
+netic resonance methods, Energy & Fuels, 21,
+1548–1561.
+26. Smerni, k R.J., & Oades, J.M. (2000). The use of
+spin counting for determining quantitation in
+solid state 13C NMR spectra of natural organic
+matter, Part 2: HF-treated soil fractions, Geo-
+derma, 96, 159–171.
+27. Simpson, M.J., & Hatcher, P.G. (2004). Determina-
+tion of black carbon in natural organic matter by
+chemical oxidation and solid-state 13C nuclear
+magnetic resonance spectroscopy, Organic Geo-
+chemistry, 35, 923–935.
+28. Mao, J.D., Hu, W.G., Schmidt-Rohr, K., Davies, G.,
+Ghabbour, E.A., & Xing, B. (2000). Quantitative
+characterization of humic substances by solid-state
+carbon-13 nuclear magnetic resonance, Soil Sci-
+ence Society of America Journal, 64, 873–884.
+29. Hammes, K., Smernik, R.J., Skjemstad, J.O., &
+Schmidt, M.W.I. (2008). Characterisation and eval-
+uation of reference materials for black carbon
+analysis
+using
+elemental
+composition,
+colour,
+BET surface area and 13C NMR spectroscopy,
+Applied Geochemistry, 23, 2113–2122.
+30. Mao, J.D., & Schmidt-Rohr, K. (2004). Accurate
+quantiﬁcation of aromaticity and nonprotonated
+aromatic carbon fraction in natural organic matter
+by 13C solid-state nuclear magnetic resonance,
+Environmental Science & Technology, 38, 2680–
+2684.
+31. Laird, D., Fleming, P., Wang, B., Horton, R., &
+Karlen, D.L. (2008). Impact of soil biochar appli-
+cations on nutrient leaching. 2008 GSA-SSSA-ASA-
+CSA Joint Meeting. Houston, TX.
+32. Meehan, P.M., Jones, S.T., & Brown, R.C. Feed-
+stock potassium as a gasiﬁcation promoter, Bio-
+mass and Bioenergy, Submitted for publication.
+33. Mao, J.-D., Hu, W.-G., Schmidt-Rohr, K., Davies,
+G., Ghabbour, E.A., & Xing, B. (2000). Quantita-
+tive characterization of humic substances by solid-
+state carbon-13 nuclear magnetic resonance, Soil
+Science Society of America Journal, 64, 873–884.
+34. Mao, J.D., & Schmidt-Rohr, K. (2003). Recoupled
+long-range C-H dipolar dephasing in solid-state
+NMR, and its use for spectral selection of fused
+aromatic rings, Journal of Magnetic Resonance,
+162, 217–227.
+35. Mao, J., Holtman, K.M., Scott, J.T., Kadla, J.F., &
+Schmidt-Rohr, K. (2006). Differences between lig-
+nin in unprocessed wood, milled wood, mutant
+wood, and extracted lignin detected by 13C
+solid-state NMR, Journal of Agricultural and Food
+Chemistry, 54, 9677–9686.
+36. Scala, F., Chirone, R., & Salatino, P. (2006). Com-
+bustion and attrition of biomass chars in a ﬂuid-
+ized bed, Energy & Fuels, 20, 91–102.
+37. Downie, A., Crosky, A., & Munroe, P. (2009).
+Physical properties of biochar. In
+J.Lehmann &
+S.Joseph
+(Eds.),
+Biochar
+for
+environmental
+management science and technology, London:
+Earthscan, 13–32.
+38. LindstroI`m, E., OI`hman, M., Backman, R., & Bos-
+troI`m, D. (2008). Inﬂuence of sand contamination
+on slag formation during combustion of wood
+derived fuels, Energy & Fuels, 22, 2216–2220.
+39. Mann, A.L., Patience, R.L., & Poplett, I.J.F. (1991).
+Determination of molecular structure of kerogens
+using 13C NMR spectroscopy. I. The effects of
+variation in kerogen type, Geochimica et Cosmo-
+chimica Acta, 55, 2259–2268.
+40. Wei, Z., Gao, X., Zhang, D., & Da, J. (2005).
+Assessment of thermal evolution of kerogen geo-
+polymers with their structural parameters mea-
+sured
+by
+solid-state
+13C
+NMR
+spectroscopy,
+Energy & Fuels, 19, 240–250.
+41. Kaal, J., Brodowski, S., Baldock, J.A., Nierop,
+K.G.J., & Cortizas, A.M. (2008). Characterisation
+of aged black carbon using pyrolysis-GC/MS,
+thermally
+assisted
+hydrolysis
+and
+methylation
+(THM), direct and cross-polarisation 13C nuclear
+magnetic resonance (DP/CP NMR) and the ben-
+zenepolycarboxylic acid (BPCA) method, Organic
+Geochemistry, 39, 1415–1426.
+42. McClelland, J.F., Jones, R.W., Luo, S., & Seaver-
+son, L.M. (1993). A practical guide to FT-IR pho-
+toacoustic spectroscopy. In
+P.B.Coleman (Ed.),
+Practical sampling techniques for infrared analy-
+sis, Boca Raton, FL: CRC Press, 107–144.
+43. Jiang, Y.J., Solum, M.S., Pugmire, R.J., Grant,
+D.M., Schobert, H.H., & Pappano, P.J. (2002). A
+new method for measuring the graphite content
+of anthracite coals and soots, Energy & Fuels, 16,
+1296–1300.
+396
+October 2009
+Environmental Progress & Sustainable Energy (Vol.28, No.3) DOI 10.1002/ep

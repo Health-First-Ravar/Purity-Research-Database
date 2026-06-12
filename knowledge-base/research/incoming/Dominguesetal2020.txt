@@ -1,0 +1,1204 @@
+agronomy
+Article
+Enhancing Cation Exchange Capacity of Weathered
+Soils Using Biochar: Feedstock, Pyrolysis Conditions
+and Addition Rate
+Rimena R. Domingues 1, Miguel A. Sánchez-Monedero 2
+, Kurt A. Spokas 3,
+Leônidas C. A. Melo 4, Paulo F. Trugilho 5
+, Murilo Nunes Valenciano 6 and Carlos A. Silva 4,*
+1
+Soil Science, 1830. Larpenteur Av. W, St Paul, MN 55113, USA; rimenas@gmail.com
+2
+Department of Soil and Water Conservation and Organic Waste Management, Centro de Edafología y
+Biología Aplicada del Segura (CEBAS-CSIC), 30100 Murcia, Spain; monedero@cebas.csic.es
+3
+Soil and Water Management Unit, United States Department of Agriculture—Agricultural Research Service,
+St. Paul, MN 55108, USA; kurt.spokas@usda.gov
+4
+Department of Soil Science, Federal University of Lavras, Lavras, Minas Gerais 37200900, Brazil;
+leonidas.melo@uﬂa.br
+5
+Department of Forest Science, Federal University of Lavras, Lavras, Minas Gerais 37200900, Brazil;
+trugilho@uﬂa.br
+6
+Department of Soil Science, College of Agriculture “Luiz de Queiroz” (ESALQ-USP),
+University of São Paulo—Piracicaba, São Paulo 13418900, Brazil; mvalenciano@usp.br
+*
+Correspondence: csilva@uﬂa.br; Tel.: +55-35-99108-6763
+Received: 27 March 2020; Accepted: 22 May 2020; Published: 11 June 2020
+
+
+Abstract: The addition of alkaline and high-cation exchange capacity (CEC) biochars is a suitable
+strategy to increase the CEC of weathered soils. The aim of this study was to evaluate the eﬀect of
+biochar from diﬀerent feedstocks and pyrolysis temperatures on the CEC of two contrasting Oxisols.
+Biochars produced from chicken manure (CM), eucalyptus sawdust (ES), coﬀee husk (CH) and
+sugarcane bagasse (SB),plus a control (without biochar), at 350, 450, and 750 ◦C were mixed with
+the soils at 2; 5; 10 and 20% (w/w) and incubated for 9 months. Feedstock, pyrolysis temperature
+and addition rate of biochar were key factors controlling the alteration of soil CEC. The CH biochar
+pyrolyzed at 350 ◦C was the most eﬀective matrix at increasing soil CEC. In a rate-dependent way,
+ES and SB biochars increased C contents of both soils without improving soil CEC. The eﬃciency of
+high-ash biochars in enhancing soil CEC in both Oxisols was limited by the alkalization caused by
+high rates of CH and CM biochars. The increase in CEC is soil-dependent and modulated by high-ash
+biochar CEC and application rate, as well as by the original soil CEC.
+Keywords: thermal stability; aging; high-ash biochar; biochar aromatic character; chicken manure;
+coﬀee husk; biochar agronomic rate
+1. Introduction
+Brazilian weathered soils are characterized by high levels of Al3+, low availability of nutrients
+(mainly P) and a clay fraction dominated by low chemical activity minerals, resulting in extremely low
+cation exchange capacity (CEC) [1]. Under native “cerrado” vegetation, the median value for CEC of
+typical Brazilian soils is 1.1 cmolc dm−3, and 96.5% of the samples present a CEC< 4 cmolc dm−3 [2].
+In such conditions, most of the negative charges are developed on the surface of organic matter colloids,
+which explains the strong correlation between CEC and organic C in these soils [3]. Increasing CEC in
+weathered soils by adding exogenous sources of C such as those contained in crop residues or other
+organic wastes is not a simple task, since the decomposition of the added C is favored by the large
+Agronomy 2020, 10, 824; doi:10.3390/agronomy10060824
+www.mdpi.com/journal/agronomy
+
+Agronomy 2020, 10, 824
+2 of 17
+soil microbial activity in warm and moist conditions of humid tropical areas, compared to temperate
+regions [4]. Crop residues represent 80% of biomass produced worldwide (8201 Tg y−1) of which 38%,
+after pyrolysis, are eligible to act as nutrient sources to plants and inputs to improve fertility and C
+content of weathered tropical soils [5,6].
+The use of biochar as a soil amendment has attracted increasing attention [7,8]. The motivation
+for producing biochar was stimulated by the high fertility status and high CEC of the Terra Preta de
+Índio (TPI) (Amazonian Black Earth) soils found scattered within a landscape predominantly of highly
+weathered and acidic tropical soils known as Latosols and Argissols (Oxisols and Ultisols by USDA
+Soil Taxonomy). Aromatic black C found in TPIs assures a high persistence of C compounds in soils of
+these regions [9–11]. Anthropogenic fertile soils have stimulated scientiﬁc investigation to converting
+organic wastes into biochar, since black C was hypothesized to be the primary reason for the high
+soil organic matter (OM) content, improved nutrient availability, and high CEC [12–14]. The eﬀorts
+to use biochar in soil as a black C amendment can recreate artiﬁcial black earths in a short period,
+with the potential to overcome the limitations of Brazilian soils to grow crops such as high acidity,
+low reservoirs of available nutrients and reduced CEC.
+Although biochar is principally recalcitrant in nature and is decomposed at a slower rate than
+fresh residues, it also contains organic functional groups that could increase soil CEC and, consequently,
+adsorption of nutrients and heavy metals [15–18]. The negative charge density on biochar surface
+is increased because pyrolysis introduces polar organic moieties such as carboxylic acids, ketones
+and aldehydes due to depolymerization of cellulose and lignin [17,19–21]. Therefore, biochar CEC
+will depend on the feedstock and pyrolysis temperature [22–26]. High-ash feedstocks are potential
+sources to produce biochar with greater CEC than wood and other low-ash wastes. During pyrolysis,
+elements such as Mg, K, Na, and P can catalyze the formation of surface oxygen groups, such as
+carboxylic acids, lactones, and phenols, which increase the negative charge density of biochars [27–29].
+As pyrolysis temperature increases, the loss of O and H on the biochar surface results in a drastic
+reduction in the biochar CEC [30–32]. For instance, the abundance of carboxylic and phenolic groups
+decreases at high temperatures, which is the reason why CEC is inversely correlated with pyrolysis
+temperature [33]. The high presence of aromatic moieties and graphitized ordered structures and low
+amounts of polar organic functional groups explain the lower CEC and decreased susceptibility to
+oxidation of charred matrices produced at higher pyrolysis temperatures (> 600 ◦C) [27,34]. In addition
+to pyrolysis temperature, the development of negative charges on biochar surface is pH-dependent,
+which is analogous to humic substances [30,35]. Thus, the eﬀect of biochar on soil CEC is due not only
+to the original CEC of biochar, but also to the application rate and liming value of biochar added to
+soil, in line with Domingues [28]. According to Jieng and Wang [36], the incubation for 105 days of a
+Leucaena wood waste-derived biochar at 2.5%, and 5% (w/w) rates signiﬁcantly increased the pH of
+a weathered soil from 3.9 to 5.1, CEC from 7.41 to 10.8 cmolc kg−1, base saturation from 6.4 to 26%,
+microbial biomass C, as well as reduced soil erosion over the control (unamended).
+Although several studies report positive contribution of biochar to soil CEC [37–39], the mechanism
+behind soil CEC increase in short and medium-term experiments is not clear [40,41]. In that direction,
+the evaluation of CEC of soils amended with biochar should be supported by other studies based on
+the use of tailored biochars from feedstocks exposed to variable temperatures and added to soils with
+varying OM and clay contents. We hypothesized that the application rate, pyrolysis temperature and
+ash content of biochars are the main factors driving its impact on soil CEC. It is also hypothesized
+that high-ash biochars prepared at relative low temperatures (≤450 ◦C) would be more eﬀective than
+wood-derived biochars to increase soil CEC. The aim of this study was to investigate the eﬀect of
+addition rates of contrasting feedstock and pyrolysis temperature-derived biochars on the enhancement
+of CEC of two weathered soils of diﬀerent texture and OM content in a short-term incubation study.
+
+Agronomy 2020, 10, 824
+3 of 17
+2. Materials and Methods
+2.1. Biochar and Soil Characterization
+Biochar samples were produced from chicken manure (CM), eucalyptus sawdust (ES) (Eucalyptus
+ssp.), coﬀee husk (CH) (Coﬀea ssp.) and sugarcane (Saccharum ssp.) bagasse (SB). The feedstocks
+were chosen based on their availability in Brazil and due to their contrasting composition in terms of
+alkali metals, mainly K, and classes of organic components (cellulose, hemicellulose, and lignin) [28],
+which were expected to generate contrasting CEC values of the produced biochars.
+The slow pyrolysis procedure was carried out in a muﬄe furnace with automatic temperature
+control and condensers for cooling the condensable gases that make up the pyroligneous acid. The
+feedstocks were oven-dried at 105 ◦C until constant weight and then heated up to the desired
+temperature (350, 450 and 750 ◦C), at constant heating rate of 1.67 ◦C/min and kept for 30 min at
+the ﬁnal temperature. For convenience, biochars were referred to by the feedstock abbreviation
+followed by the pyrolysis temperature. For instance, CH350 stands for coﬀee husk pyrolyzed at 350
+◦C. The pyrolysis temperatures were chosen based on the degradability of precursor components
+from feedstocks and stability of the biochars formed [21]. Thus, 350 ◦C was selected to create biochar
+with functional groups capable to generate negative charges; 450 ◦C was chosen as an intermediate
+temperature that completely degrades hemicellulose and cellulose and still preserves some organic
+functional groups. In contrast, 750 ◦C stabilizes C through aromatization and strongly reduces the
+functional groups that bolster CEC. With these assumptions, the contrasting eﬀects of the pyrolysis
+temperature on CEC could be evaluated.
+Selected chemical and physicochemical properties of the biochars are shown in Table 1. The volatile
+matter and ash concentrations were determined according to standard procedure D-1762-84, established
+by the American Society for Testing and Materials [42]. The total C was determined by dry combustion
+using a total carbon analyzer (Vario TOC cube, Elementar, Germany). Biochar pH was determined in
+deionized water at a 1:10 (w/v) ratio. The biochar CEC was determined by the modiﬁed ammonium
+acetate compulsory displacement method, adapted to biochar [28,43].
+Table 1. Chemical and physicochemical properties of the dystrophic Red Latosol (RL) and Red-Yellow
+Latosol (RYL) soils.
+Soil Property
+Red Latosol a
+Red-Yellow Latosol a
+pH (1:2.5; H2O)
+4.3 ± 0.1
+5.3 ± 0.1
+H+Al (cmolc dm−3)
+11.8 ± 0.1
+2.9 ± 0.1
+CEC b at pH 7 (cmolc dm−3)
+16 ± 1.6
+2.4 ± 0.5
+Total C (%)
+6.6 ± 0.4
+2.5 ± 0.2
+Exchangeable K (mg dm−3)
+51 ± 1.8
+74 ± 1.2
+Available P (mg dm−3)
+1.8 ± 0.1
+0.7 ± 0.01
+Ca2+ (cmolc dm−3)
+0.6 ± 0.1
+1.9 ± 0.1
+Al3+ (cmolc dm−3)
+1.9 ± 0.1
+0.3 ± 0.05
+Clay (%)
+75 ± 0.9
+23 ± 0.2
+a According to the Brazilian Soil Classiﬁcation System [44]. The standard error (±, n = 3) are presented after the
+mean of each attribute. b CEC—cation exchange capacity.
+Two soils were chosen based on their contrasting properties, including clay and total C contents.
+Samples from the 0–20 cm soil layer were collected from a dystrophic Red Latosol and Red-Yellow
+Latosol [44] located in Lavras, Minas Gerais (MG), Brazil (21◦14′ S, 45◦00′ W) and Itumirim, MG,
+Brazil (21◦19′ S, 44◦52′ W), respectively. Both soils can be classiﬁed as Oxisols according to USDA Soil
+Taxonomy [45]. Soil samples were air-dried and sieved (<2 mm) prior to the incubation experiment.
+Soil properties are shown in Table 1, and determined according to analytical protocols described in
+Silva [46].
+
+Agronomy 2020, 10, 824
+4 of 17
+2.2. Laboratory Incubation and Experimental Design
+Biochar samples (<0.25 mm) were homogenously mixed with each soil type (100 g) at ﬁve
+application rates: 0% (control), 2%, 5%, 10% and 20% (w/w). Samples were placed into 250 mL plastic
+containers with a lid with small holes (5 mm) to allow aeration. Three replicates of each treatment
+were prepared, placed randomly and incubated under laboratory conditions in a dark room at 25 ◦C
+for 9 months. The moisture was maintained constant at 70% of maximum soil water-holding capacity
+by regularly replacing water by weight diﬀerences during the incubation. A completely randomized
+experimental design was used including three pyrolysis temperature (350, 450, 750 ◦C) combined
+with four addition rates (2%, 5%, 10% and 20%, w/w) for each biochar (CM, ES, CH, SB) and soil type
+(Red Latosol and Red-Yellow Latosol). The incubation period was chosen based on a previous study
+(data not published) to allow enough time for the stabilization of the alkaline reactions among biochars
+and soils, even though longer-term experiments could be needed to allow for complete aging and
+functionalization of biochar [15].
+2.3. Soil Analysis after Incubation
+After 9 months of incubation, the soil samples were oven-dried at 65 ◦C and analyzed for pH,
+total C and CEC. The soil pH was determined in deionized water at the ratio of 1:2.5 (w/v), after shaking
+the slurry for 5 min, followed by 30 min of particle settling time. The total soil C was determined on a
+0.2 g sub-sample of ground and sieved (<75 µm) by dry combustion using a combustion elemental
+analyzer (Vario TOC cube, Elementar, Germany). Soil CEC was determined by a modiﬁed ammonium
+acetate compulsory displacement method [28,43]. Brieﬂy, 2.0 g of soil were leached with ﬁve portions
+of 20 mL deionized water to remove excess of salts with vacuum ﬁltration and a 0.45 µm pore size
+ﬁlter. In sequence, samples were washed with a 1.0 mol L−1 sodium acetate (pH 8.2) three times,
+followed by ﬁve portions of 20 mL ethanol to remove free (not-adsorbed) Na+ ions. Samples were
+then washed with 20 mL of 1.0 mol L−1 ammonium acetate four times to displace the Na+ on the
+exchangeable sites of the soil. The leachates were collected and stored in a 100 mL volumetric ﬂask,
+and Na+ contents in leachates were determined by ﬂame photometry. The CEC corresponds to the
+amount of Na+ displaced per unit mass of soil or kg C in the biochar, expressed in cmolc kg−1.
+2.4. Statistical Analysis
+The dataset was submitted to analysis of variance (ANOVA) for signiﬁcant diﬀerences of the
+factors tested such as pyrolysis temperature, biochar rate and their interaction on the soil attributes
+investigated. When signiﬁcant, the F-test was applied (p < 0.05) to discriminate the eﬀect of pyrolysis
+temperature on the soil CEC. The linear regression was used to examine the eﬀect of biochar rates
+on soil CEC. ANOVA was performed for each soil and biochar separately. The Pearson´s correlation
+analysis was performed to measure the association between CEC and other soil properties, such as C
+and delta pH (∆pH). The ∆pH value hereafter is deﬁned as the change in soil pH induced by biochar
+application compared to the control soil. Data were statistically analyzed using the SISVAR, a free
+software developed at the Federal University of Lavras [47]. To account for soil and biochar properties,
+a multiple linear regression model was performed to predict the ﬁnal soil CEC. This was performed
+using the data analysis package in Microsoft Excel, following the model as described in Equation (1).
+Predicted soil CEC = a + b CEC biochar weight + c CEC soil weight
+(1)
+In Equation (1), CEC biochar weight is the mass fraction of the biochar addition (e.g., 2% = 0.02),
+CEC soil weight represent the mass fraction of soil (e.g., 98% soil = 0.98), biochar CEC and soil CEC are
+the values for the CEC of the individual components, respectively, and ﬁnal soil CEC is the ﬁnal CEC
+of the mixture; a, b and c are the regression coeﬃcients.
+
+Agronomy 2020, 10, 824
+5 of 17
+3. Results and Discussion
+3.1. Biochar Properties
+Some selected properties of biochar are shown in Table 2. A more detailed discussion of biochar
+properties used in this study is available in Domingues et al. [28]. Overall, the ash content was highly
+variable among the biochar samples, ranging from 0.7% to 56% and following the order of CM > CH >
+SB > ES. Volatile matter decreased and C content increased (except for CM) with increasing pyrolysis
+temperature. Biochar pH was in the alkaline range, except for the ES pyrolyzed at 350 ◦C. CEC of
+biochars was also highly variable ranging from 1.3 cmolc kg−1 (SB at 750 ◦C) to 72 cmolc kg−1 (CH at
+450 ◦C). As the pyrolysis temperature increased the biochar CEC decreased, mainly for CH at 750 ◦C.
+The highest biochar CEC per kg C was observed for CM at 450 ◦C (151 cmolc kg−1), which may be
+attributed to the catalyst eﬀect of the CM mineral fraction generating chemical functional groups [48].
+Compared to other biochars, the ash protection eﬀect was also evidenced in the CM biochar due to the
+high CEC value obtained at 750 ◦C (86 cmolc kg−1). High concentrations of alkali metals, mainly K,
+increase biochar yield and concentration of stable C, as well as the thermal stability of feedstock
+components during pyrolysis [48]. Silicon contents are variable among biochars and could play a role
+in protecting feedstock components against thermal degradation during pyrolysis, considering the
+C−Si coupling interaction eﬀects on solubility and physicochemical properties, and higher C ﬁxation
+of Si-derived charred matrices [49].
+Table 2. Chemical and physicochemical properties of the biochars produced from four feedstocks
+pyrolyzed at 350, 450 and 750 ◦C.
+Feedstock
+T (◦C)
+Ash
+VM
+C
+pH
+CEC
+%
+cmolc kg−1
+cmolc kg−1 C
+Chicken Manure
+350
+52 ± 0.2
+37 ± 0.3
+31 ± 0.2
+9.7 ± 0.01
+41.6 ± 0.9
+135 ± 3.0
+450
+55 ± 0.2
+31 ± 0.1
+27 ± 0.5
+10.2 ± 0.00
+40.7 ± 0.9
+151 ± 3.3
+750
+56 ± 0.1
+27 ± 0.1
+25 ± 0.9
+11.7 ± 0.02
+21.3 ± 0.5
+86 ± 2.0
+Eucalyptus Sawdust
+350
+0.9 ± 0.0
+37 ± 0.1
+70 ± 0.3
+5.9 ± 0.13
+10.8 ± 0.2
+5.6 ± 0.1
+450
+0.7 ± 0.0
+29 ± 0.1
+79 ± 1.2
+8.0 ± 0.02
+2.2 ± 0.2
+3.2 ± 0.3
+750
+1.1 ± 0.0
+6 ± 0.1
+91 ± 2.0
+9.3 ± 0.01
+1.4 ± 0.3
+1.8 ± 0.4
+Coﬀee Husk
+350
+13 ± 0.1
+35 ± 0.2
+61 ± 1.0
+9.7 ± 0.00
+69.7 ± 1.3
+115 ± 2.1
+450
+13 ± 0.1
+26 ± 0.3
+61 ± 0.3
+9.8 ± 0.00
+72.0 ± 1.7
+117 ± 2.8
+750
+20 ± 0.0
+18 ± 0.4
+66 ± 1.3
+9.8 ± 0.00
+18.9 ± 0.6
+29 ± 0.9
+Sugarcane Bagasse
+350
+1.9 ± 0.0
+35 ± 0.3
+75 ± 0.6
+7.0 ± 0.00
+4.6 ± 0.3
+12 ± 0.8
+450
+2.1 ± 0.0
+24 ± 0.3
+82 ± 0.7
+8.7 ± 0.01
+1.8 ± 0.1
+1.8 ± 0.1
+750
+2.2 ± 0.0
+8 ± 0.1
+91 ± 1.0
+9.7 ± 0.02
+1.3 ± 0.3
+1.1 ± 0.3
+The standard error (±, n = 3) is presented after the mean of each attribute. Legend: T = pyrolysis temperature;
+VM = volatile matter; EC = electrical conductivity; CEC = cation exchange capacity. Source: data adapted from
+Domingues et al. [28].
+3.2. Soil Cation Exchange Capacity
+The CEC values measured in the amended soils after 9 months of incubation were aﬀected by
+biochar addition rates. Increasing the application rate of CM and CH biochars augmented the CEC of
+both soils (Figure 1A,C,E,G). On the other hand, the addition of ES (Figure 1B,F) and SB (Figure 1D,H)
+biochars did not increase the soil CEC. In fact, a statistically signiﬁcant reduction in CEC was observed
+for some of the soil–biochar combinations (Figure 1B,D,F,H).
+
+Agronomy 2020, 10, 824
+6 of 17
+(C) Coffee husk 
+0
+5
+10
+15
+20
+CEC, cmolc kg-1
+13
+22
+31
+40
+49
+350 ºC (y = 15.13 + 1.24x  R² = 0.98)
+450 ºC (y = 18.86 + 0.53x  R² = 0.99)
+750 ºC (y = 15.42 + 0.85x - 0.02x²  R² = 0.98)
+(A) Chicken manure
+0
+5
+10
+15
+20
+13
+22
+31
+40
+49
+350 ºC (y = 20.20 + 0.35x  R² = 0.91)
+450 ºC (y = 24.39 - 0.51x + 0.03x²  R² = 0.99)
+750 ºC (y = 18.93 + 0.32x  R² = 0.84)
+(B) Eucalyptus sawdust
+0
+5
+10
+15
+20
+13
+22
+31
+40
+49
+350 ºC (y = y)
+450 ºC (y = 18.11 - 0.20x  R² = 0.96)
+750 ºC (y = 17.41 - 0.16x  R² = 0.72)
+(D) Sugarcane bagasse
+0
+5
+10
+15
+20
+13
+22
+31
+40
+49
+350 ºC (y = 20.07 - 0.56x + 0.02x²  R² = 0.71)
+450 ºC (y = 20.41 - 0.68x + 0.02x²  R² = 0.82)
+750 ºC (y = 17.94 - 0.23x  R² = 0.87)
+dystrophic Red Latosol (clayey texture)
+LSD (1.26)
+LSD (1.25)
+LSD (1.56)
+LSD (1.52)
+(G) Coffee husk
+Biochar rate, %
+0
+5
+10
+15
+20
+0
+10
+20
+30
+350 ºC (y = 1.78 + 1.12x  R² = 0.95)
+450 ºC (y = 0.98 + 1.38x - 0.05x²  R² = 0.93)
+750 ºC (y = 1.38 + 0.42x - 0.01x²  R² = 0.90)
+(E) Chicken manure
+0
+5
+10
+15
+20
+0
+10
+20
+30
+350 ºC (y = 2.70 + 0.40x  R² = 0.97)
+450 ºC (y = 2.82 + 0.26x  R² = 0.99)
+750 ºC (y = 3.36 + 0.08x  R² = 0.96)
+(F) Eucalyptus sawdust
+0
+5
+10
+15
+20
+0
+10
+20
+30
+350 ºC (y = 2.46 + 0.11x  R² = 0.74)
+450 ºC (y = y)
+750 ºC (y = y)
+(H) Sugarcane bagasse
+0
+5
+10
+15
+20
+0
+10
+20
+30
+Mean value of three temperatures
+y = 3.58 - 0.22x + 0.02x²  R² = 0.99)
+Red-Yellow Latosol (medium texture)
+LSD (0.92)
+LSD (0.82)
+LSD (0.97)
+       Tukey's LSD (p< 0.05)
+       Unamended soil
+       95 % confidence interval
+Figure 1. The CEC of the RedLatosol (clayey texture) and Red-Yellow Latosol (medium texture) as a
+function of biochar rates of chicken manure (A,E), eucalyptus sawdust (B,F), coﬀee husk (C,G) and
+sugarcane bagasse (D,H) pyrolyzed under diﬀerent temperatures, after 9 months of incubation. Tukey’s
+Least Signiﬁcant Diﬀerence (LSD) (p < 0.05).
+The highest increase in CEC was observed for the soil amended with CH biochar at 350 ◦C,
+which diﬀered from the other pyrolysis temperatures at the highest biochar rate (Figure 1C,G).
+In the Red Latosol, the addition of 20% CH350 biochar roughly doubled the soil CEC (from 19.1
+to 40.4 cmolc kg−1) (Figure 1C), while in the Red-Yellow Latosol, the same treatment increased the
+soil CEC by ten-fold from 2.3 to 23.1 cmolc kg−1 (Figure 1G). Despite the high rate (20%), it was
+possible to achieve a high CEC with a single application, surpassing even CEC values measured in
+Amazonian TPI soils [50,51]. The positive eﬀect of adding CH350 to soils was hypothesized due to
+
+Agronomy 2020, 10, 824
+7 of 17
+the high CEC of these charred matrix (70 cmolc kg−1, Table 1), which was the combination of low
+pyrolysis temperature and an ash-rich feedstock. Similar results were already reported by other
+authors [30,52]. The high CEC observed for CH biochar is possibly due to the high K content in the
+feedstock, which during pyrolysis can intercalate and cause the separation of carbonaceous lamellae
+by the oxidation of cross-linking C atoms [29]. According to Veiga et al. [53], compared to wood
+biomasses, coﬀee husk has greater lignin, ash and ﬁxed C contents, which contribute to its higher
+thermal stability evidenced by thermal gravimetric analysis. The presence of K in the feedstock alters
+C degradation due to a greater thermal stability of organic compounds formed during pyrolysis [54].
+In another study, the addition of 15 t ha−1 coﬀee husk biochar (pyrolyzed at 500 ◦C) in an acid soil
+also increased the CEC from 24.9 to 34.9 cmolc kg−1 after three months of incubation as a result of
+the high CEC of the biochar (79 cmolc kg−1) [37]. For both clayey and medium texture soils used in
+this study, the CEC values are the highest already reported for Brazilian weathered soils. With this
+perspective, it may be possible to create in the short-term an artiﬁcial black earth soil with a high
+capacity to retain cations in exchangeable forms, and even with a greater CEC than those values
+reported for the most fertile Brazilian Indian black earths [8]. However, to increase the soil CEC and
+avoid soil alkalization, the application rate of CM and CH-derived biochars should not exceed 2%
+(w/w), regardless of the pyrolysis temperature. Accordingly, to increase the soil CEC with high rates of
+CM and CH biochars, both materials need to be neutralized prior to soil application, otherwise both
+Oxisols will be alkalinized, and the fertility of these typical tropical soils will not be improved.
+The addition of CH750 only had a minor impact on the CEC of both soils evaluated in this
+study (Figure 1C,G), which reﬂects the reduction in the CEC of biochars prepared at high pyrolysis
+temperatures, possibly, due to the loss of oxygenated functional groups during pyrolysis [17,55–57].
+Additionally, CEC could be reduced due to the conversion of carbonate species (i.e., CaCO3) into
+oxides (CaO) [54]. Although CH450 has CEC values (Table 1) and functional groups (Figure 1C) like
+those observed in the CH350, its eﬀect on soil CEC was lower than that of CH350 (Figure 1C,G).
+The dissimilar eﬀect of CH350 and CH450 on soil CEC can be linked to the thermal stability of
+ligno-cellulosic compounds. Approximately 75% of the original cellulose mass remains in matrices
+heated at temperatures up to 350 ◦C, whereas from 330 to 430 ◦C, the cellulose decomposes rapidly,
+reducing to only about 15% of the original compounds as estimated by thermal decomposition [58,59].
+Consequently, the higher content of cellulose could stimulate a greater microbial activity, potentially
+leading to the oxidation and formation of new functional groups in the structure of the biochars
+incubated in soil (e.g., biochar “weathering”) [8,9,60].
+CM350 also increased the soil CEC with increasing application rates, reaching values up to
+27.5 cmolc kg−1 in the Red Latosol, and 10.8 cmolc kg–1 in the Red-Yellow Latosol. The high temperature
+biochar also caused a signiﬁcant increase in the soil CEC, even though this increase was slightly lower
+than that observed for low pyrolysis temperature biochars (Figures 1E and 2A). As for the CM biochar,
+the intensity of organic functional groups in the biochars by FTIR spectra remained largely unchanged,
+regardless of the pyrolysis temperature [28]. Protection of organic groups, even at high pyrolysis
+temperature, may be associated with the high ash content found in CH and CM feedstocks (Table 1).
+The elemental components in ash could act as catalysts for carbonization reactions [61] or even altering
+the thermal energy transfer [54], which may protect organic compounds against degradation, and may
+hinder the formation of aromatic structures as charring intensity advances [62].
+There was a linear decrease in the CEC of the Red Latosol with increasing application rates of ES
+and SB biochars (Figure 1B,H). The soil CEC reduced gradually from 19.1 cmolc kg−1 (unamended soil)
+to a minimum of 14.3 and 13.2 cmolc kg−1 when the soil was amended with 20% ES750 and SB750,
+respectively. In the Red-Yellow Latosol (medium texture), there was a slight increase in the CEC after
+the application of ES350 and SB at all pyrolysis temperatures, with values of 2.36 and 3.23 cmolc kg−1
+above the control, respectively (Figures 2B and 1H). Such results can be explained due to the dilution
+eﬀect at these high biochar application rates, since the CEC of these biochars (ES and SB) is lower than
+those of the soils. Similar results were observed by Schulz and Glaser [63], considering that soil CEC
+
+Agronomy 2020, 10, 824
+8 of 17
+was not increased by wood biochar addition. Although the length in this study is longer than other
+short-term incubation studies with biochar [10,39,64–67], it was not long enough to cause oxidation
+on the surface structure of the studied biochars. Such an eﬀect would take long periods under ﬁeld
+conditions for reactions to occur as was hypothesized for the Terra Preta soils [51]. This is the reason
+why it is important to tailor the biochar prior to its application to improve key soil properties and
+beneﬁts to crops from the short-term use of charred matrices.
+3.3. Soil C
+Total soil C increased linearly over biochar addition rates in both soils. Furthermore, except for the
+CM treatments, the total C increased over increasing pyrolysis temperature (Figure 2). High temperature
+biochar is characterized by a high degree of polymerization, leading to a more condensed C
+structure in the biochar [12]. The larger number of aromatic structures increases the resistance
+of the biochar to microbial degradation, increasing the persistence of its derived C in soil [10,21].
+This supports the assumed low mineralization rates of charred C even after 9 months incubation of the
+soil–biochar mixtures.
+The highest increase in soil C content was observed for soils amended with ES biochar (especially
+for ES750), compared to the other biochar types (Figure 2B,F). In the Red Latosol (Figure 2B) and
+Red-YellowLatosol (Figure 2F), the total C contents were, respectively, 13.2% and 18.6% for ES750 at
+20% addition rate, which is 3.1 and 11.2 times greater than the C content of control. In the Red Latosol
+amended with CH and SB biochars, the total C reached a maximum of 14.0% and 16.9%, respectively.
+As for the Red- Yellow Latosol, the highest values of C were 10.9% (CM) and 12.6 % (SB). Compared to
+other biochars, the CM-derived biochar was not as eﬀective as other biochars in increasing soil total
+C content (Figure 2A,E). Increase in soil C contents was preferentially driven by C input from the
+added biochar rather by the variation of clay and OM contents of soils. The C contents reported in this
+study for the low-ash (SB and ES) biochar-amended soils are possibly the highest already reported
+for non-ﬂooded and artiﬁcially managed soils found in the warm and rainy Brazilian landscape,
+considering the C contents already reported for soils of the “cerrado” biome of Minas Gerais [68].
+Figure 2. Cont.
+
+Agronomy 2020, 10, 824
+9 of 17
+Figure 2. The total C of the Red Latosol (clayey texture) and Red-Yellow Latosol as a function of biochar
+rates of chicken manure (A,E), eucalyptus sawdust (B,F), coﬀee husk (C,G) and sugarcane bagasse
+(D,H) pyrolyzed under diﬀerent temperatures, after 9 months of incubation. Tukey’s Least Square
+Diﬀerence (LSD) (p < 0.05).
+3.4. Soil pH
+The soil pH increased signiﬁcantly in both soils (Red Latosol and Red-Yellow Latosol) with the
+addition of all biochars, after 9 months of incubation (Figure 3). Soils treated with CM and CH biochars
+showed markedly the highest soil pH (compared to the other biochar treatments), which correlated
+positively with the increasing biochar rates (Figure 3A,C,E,F). The pH of the Red Latosol increased
+from 3.4 to a maximum of 7.4 (CM at all temperatures) and 9.2 (CH750). The maximum pH values
+of the Red-Yellow Latosol were 9.2 (CM750) and 10.0 (CH750), which were signiﬁcantly higher than
+the pH of control (4.6). This pH increase is consistent with the alkali compounds and liming value
+of these biochars (Table S1). Cations such as Ca, Mg, and K contained in large quantities in some
+feedstocks are converted into oxides, hydroxides, and carbonates, which are concentrated in the ash
+fraction of the biochar, mainly in those produced at high pyrolysis temperature [66]. The solubilization
+of these alkaline substances makes biochars function as a liming agent when applied to soil [41,56].
+According to Sigua et al. [69], the treatment of a highly weathered soil with a mixture of pine chips
+and poultry litter biochar increased the pH from 5.9 to up 8.4, as well as improved the soil fertility
+status. After a 65-day incubation study, the use of plant-derived biochars increased the pH and
+exchangeable cations and reduced the readily available Al contents of strong acidic tea soils [67]. In an
+acidic Ultisol (pH 4.3), the use of legume straw-derived biochars, compared to the non-legume-derived
+ones, was more eﬀective in increasing the pH and base saturation while reducing the toxic levels of
+exchangeable Al3+ [39]. Similar results were observed for the pH values of the biochar-amended soils
+investigated in this study.
+
+Agronomy 2020, 10, 824
+10 of 17
+ 
+A) Chicken manure
+0
+5
+10
+15
+20
+2
+5
+8
+11
+14
+Mean value of three temperatures
+y = 4.46 + 0.36x - 0.01x²  R² = 0.85
+B) Eucalyptus sawdust
+0
+5
+10
+15
+20
+2
+5
+8
+11
+14
+350 ºC (y = 4.14 - 0.09x + 0.004x²  R² = 0.91)
+450 ºC (y = 4.98 - 0.25x + 0.004x²  R² = 0.91)
+750 ºC (y = 3.14 + 0.08x  R² = 0.88)
+LSD (0.32)
+C) Coffee husk
+0
+5
+10
+15
+20
+pH H2O
+2
+5
+8
+11
+14
+350 ºC (y = 3.58 + 0.36x - 0.01x²  R² = 0.99)
+450 ºC (y = 3.47 + 0.42x - 0.01x²  R² = 0.98)
+750 ºC (y = 4.13 + 0.25x  R² = 0.99)
+LSD (0.49)
+D) Sugarcane bagasse
+0
+5
+10
+15
+20
+2
+5
+8
+11
+14
+Mean value of three temperatures
+y = 5.19 - 0.09x + 0.05x²  R² = 0.83
+dystrophic Red Latosol  (clayey texture)
+F) Eucalyptus sawdust
+0
+5
+10
+15
+20
+3
+6
+9
+12
+15
+Mean value of three temperatures
+y= 5.9 - 0.09x + 0.005x²  R² = 0.83
+E) Chicken manure
+0
+5
+10
+15
+20
+3
+6
+9
+12
+15
+350 ºC (y = 5.38 + 0.33x - 0.01x²  R² = 0.97)
+450 ºC (y = 6.23 + 0.23x - 0.006x²  R² = 0.93)
+750 ºC (y = 6.96 + 0.12x  R² = 0.96)
+G) Coffee husk
+Biochar rate, %
+0
+5
+10
+15
+20
+3
+6
+9
+12
+15
+350 ºC (y = 5.45 + 0.37x - 0.01  R² = 0.99)
+450 ºC (y = 5.20 + 0.62x - 0.02  R² = 0.99)
+750 ºC (y = 4.89 + 0.87x - 0.03  R² = 0.88)
+H) Sugarcane bagasse
+0
+5
+10
+15
+20
+3
+6
+9
+12
+15
+Mean value of three temperatures
+ y = y
+LSD (0.52)
+LSD (0.38)
+Red-Yellow Latosol (medium texture)
+       Tukey's LSD (p< 0.05)
+       Unamended soil
+       95 % confidence interval
+Figure 3. The pH of the dystrophic Red Latosol (clayey texture) and Red-Yellow Latosol (medium
+texture) as a function of biochar rates of chicken manure (A,E), eucalyptus sawdust (B,F), coﬀee
+husk (C,G) and sugarcane bagasse (D,H), pyrolyzed under diﬀerent temperatures, after 9 months of
+incubation. Tukey’s Least Signiﬁcant Diﬀerence (LSD) (p < 0.05).
+The lowest values of pH were observed for both soils amended with ES and SB biochars (Figures 3B
+and 4D,F,H). In these cases, the pH reached maximum values of 4.8 (ES750) and 4.6 (SB, regardless of
+pyrolysis temperature), being only slightly greater than the pH of Red Latosol control (Figure 3B,D).
+In the Red-Yellow Latosol, the pH was not signiﬁcantly inﬂuenced by pyrolysis temperature. In fact,
+pH increased from 4.6 (control) to 5.3 and 5.8, respectively, for ES and SB at the highest biochar addition
+rate (Figure 3F,H).
+
+Agronomy 2020, 10, 824
+11 of 17
+3.5. Modelling the Eﬀects of Biochar on Soil CEC
+Changes in soil CEC caused by biochar additions are the direct result of the high CEC values of
+some biochars, which are from a combination of feedstock properties and extent of charring conditions
+(e.g., pyrolysis temperature). Anthropogenic soils (Indian Black Earth) of the Amazon region have
+almost double the CEC of adjacent soils from the same parent material, which is majorly attributed to
+high C charge density of pyrogenic-derived and functionalized organic matter [51]. It was shown by
+Cunha et al. [70] that the CEC of anthropogenic soils was strongly correlated to the humin C fraction
+(stable fraction) and total C, possibly inherited from added charred materials. Interestingly, in this
+study, the CEC did not correlate with total C in biochar-amended soils (Table 3).
+Table 3. Pearson’s correlation coeﬃcient calculated for the whole dataset of C contents and pH as
+related to CEC of each biochar-amended soil.
+Soil Property
+Pearson’s CorrelationCoeﬃcient (R)
+CEC—Red Latosol
+CEC—Red-Yellow Latosol
+Total C
+−0.162 ns
+0.149 ns
+pH
+0.705 *
+0.529 *
+Notes: ns non-signiﬁcant; * statically signiﬁcant at p ≤0.05.
+Furthermore, the increase in soil C by biochar addition did not explain the increase in soil CEC,
+which is demonstrated by the low coeﬃcient of correlation observed for both soils (Table 3). This can
+be veriﬁed in the treatments with C-rich biochars (ES and SB), which increased the C content but did
+not alter the CEC. In some situations, the addition of some biochars even caused a reduction in the soil
+CEC due to the dilution eﬀect at high addition rates (Figure 3).
+In each soil, pH signiﬁcantly correlated with soil CEC for all biochar types and rates tested.
+The highest correlation coeﬃcient for soil pH and soil CEC was observed for the Red Latosol. This is
+due to the high native content of soil C, as well as the inﬂuence of pH on the density of negative
+charges on organic colloids. Cation exchange capacity is strongly pH-dependent on tropical soils
+and some alkaline biochars can raise the soil pH and, consequently, the soil CEC [32,56,71], with a
+concomitant contribution of the biochar CEC itself [35]. In a soil acidiﬁed by the excessive use of N
+fertilizers, the use of peanut shell-derived biochar (300–400 ◦C) increased the pH, CEC, SOM, as well
+as the maize biomass by 15–33% [72].
+The observed increase in the CEC of soils by the addition of CH and CM biochars was a result of
+the high CEC of these matrices, as well as their high liming values. Available data suggest that the
+intrinsic CEC of biochars is consistently higher in high-ash than in low-ash biochars [43,73]. During the
+conversion of feedstock into biochar at low pyrolysis temperatures, elements such as Mg, K, Na, and P
+are able to catalyze the formation of oxygenated surface groups in the edge of the biochar matrix [74],
+with the subsequent formation of carboxylic, lactones and phenols, which contribute to the increase
+in biochar density of negative charges. However, negative charges of biochar surface groups may
+be sharply reduced with increasing pyrolysis temperature [33]. Therefore, the high concentration of
+K in CH feedstock could be the reason for the high potential CEC of CH biochars pyrolyzed at low
+temperatures (350 ◦C and 450 ◦C) [28].
+To predict the changes in soil CEC due to the addition of diﬀerent biochars, linear regression
+models are presented in Table S2. The results for the comparison between observed and predicted soil
+CEC are shown in Figure 4. As seen in Figure 4, there is good predictability of the soil CEC based on
+this model.
+The results shown in Figure 4 indicate that the ﬁnal soil CEC can be predicted theoretically by the
+original CEC of the biochar and soil. Although biochar oxidation and functionalization in the Oxisol
+richer in C and clay content might be expected, the results of this study suggest that there is only a
+minor change of CEC in soil due to biochar aging in this short-term incubation study. These results
+suggest that CEC created in some biochar–soil mixtures are derived from the original biochar feedstock,
+
+Agronomy 2020, 10, 824
+12 of 17
+the extent of pyrolysis conditions, biochar CEC, and its amendment rate and, as a minor factor, the
+eﬀect of biochar in neutralizing the soil acidity. With progressive aging, the biochar surface is believed
+to be enriched with functional groups such as carboxyl, phenolic, and carbonyl while oxonium groups
+are reduced and pyrydine and pyrydone groups are transformed [19]. However, biochar aging is not
+expected to occur within short-term studies, as biochar oxidation is slow in natural ecosystems [15].
+Since the CEC of native soil organic components are greater than that of low-ash and wood
+biochars, biochar application in acidic sandy soils with low C contents will have neglectable impact,
+unless biochar oxidation signiﬁcantly occurs with time [35]. High availability of dissolved organic
+matter in soils or in the biochar matrix could also stimulate microbial activity, contributing to accelerated
+biochar oxidation [34]. In a long-term ﬁeld incubation study (5 years), Dong et al. [75] reported that
+mass loss of biochar mixed with an agricultural soil was nearly 40%, although only slight chemical
+structural diﬀerences were observed for the aged and fresh biochars. In our study, there were only
+minor losses of C from biochar in soil during the incubation, especially in the Red-Yellow Latosol
+(Figure 2), where the predicted CEC are correlated with the observed CEC. In the case of both Oxisols
+(Figure 4), there was some variation of soil CEC that could not be fully predicted by the model. The use
+of the whole dataset (soils combined) improved the CEC prediction. As far as we are aware, this was
+the ﬁrst attempt to develop a decision support tool for predicting the soil CEC increase in response to
+biochar addition in weathered contrasting soils. The modelling approach used in this study is useful to
+forecast whether biochar addition will result in positive, negative or neutral eﬀect on soil CEC as a
+function of the inherent soil CEC and biochar CEC, as well as the biochar rate rather than the biochar
+liming eﬀect on the ﬁnal soil pH.
+0
+10
+20
+30
+40
+Predicted CEC (cmolc kg-1)
+0
+10
+20
+30
+40
+Two soils combined 
+Observed CEC (cmolc kg-1)
+12
+18
+24
+30
+36
+12
+18
+24
+30
+36
+dystrophic Red Latosol
+Red-Yellow Latosol
+0
+6
+12
+18
+24
+0
+6
+12
+18
+24
+r = 0.97
+r = 0.90
+r = 0.83
+Figure 4. Cation exchange capacity (CEC) predicted by Equation (1) (soil CEC = a + b CEC biochar
+weight + c CEC soil weight) and CEC determined by the sodium acetate method.
+3.6. Agronomic and Environmental Implications and Future Guidelines
+The results of this study showed that the use of high-ash biochar (pyrolyzed at 750 ◦C) can
+alkalinize the Oxisols. Even at low application rates, alkalization of soils treated with high-ash biochars
+such as those derived from CH and CM can occur, representing a potential constraint on soluble P
+forms, cationic micronutrient availability, and increased volatilization of N as ammonia, mainly in the
+low-buﬀered middle texture soil. Therefore, the recommended rate of biochar to increase soil CEC
+should be based on the capacity of the charred matrix to alter pH levels below the threshold limit for
+most crops. For this reason, the addition rates of CM and CH-derived biochars, regardless of the soil
+incubated, must be ≤2% (w/w). Alternatively, low-ash/wood biochars, regardless of the rate added to
+Oxisols, are more suitable to store C without causing soil alkalization, though they are not eﬀective
+in improving CEC. The addition of naturally or artiﬁcially oxidized [19] high-ash derived biochar
+pyrolyzed at low temperatures could eﬀectively increase the capacity of soil to retain nutrients and
+crop yield, while serving as suitable matrices to increase the C stored in soils. Pyrolysis conditions
+and oxidation pretreatments of CH and CM feedstocks with phosphoric or sulfuric acids to produce
+high-agronomic value biochars should be performed to increase the beneﬁts of these charred matrices
+
+Agronomy 2020, 10, 824
+13 of 17
+on soil CEC without increasing soil alkalinity. Apart from the impact on soil CEC reported in this
+study, the use of functionalized, aged and high-CEC biochars could also represent a suitable way to
+increase availability of water for crops and the biota activity in drought-aﬀected soils [76]. Moreover,
+the use of high rates of ash-enriched biochars with the subsequent alkalization of soils could be a
+management practice to decrease metal leaching from heavy metal contaminated soils. Finally, in line
+with Glaser et al. [8], the use of some of ES and SB-derived biochars is a suitable practice to increase
+C concentration in weathered Brazilian soils, though they are ineﬀective in increasing pH and CEC.
+Alternatively, CH an CM are potentially matrices to increase the C content, CEC and soil pH, but their
+use for these purposes is limited by a sharp increase in soil pH to levels beyond those adequate for
+plentiful crop growth. Regardless of the Oxisol investigated, to improve the fertility of typical low
+CEC, acidic and poor nutrient tropical soils, high ash-biochars pH must be adequately pretreated in
+order to increase CEC without causing soil alkalization. CH biochars can supplement imported and
+expensive K fertilizers used in Brazil, while P from CM biochar can supply part of the P required by
+crops [28]. In that direction, high-ash biochar added to soil at low agronomic rates at the bottom of
+furrow in band can act as sources of K (CH biochar), or K, P and Ca (CM biochar), while correcting soil
+acidity in the zone adjacent to plant roots.
+The challenge is to mix biochars that combine the right pH and the capacity to increase the
+storage of persistent C in soils, as well as the levels of nutrients (such as Ca, P and K). However,
+to achieve this goal, it is necessary to optimize the pyrolysis temperature, select the right feedstock,
+and mix compatible biochars to avoid soil alkalization. The preconditioning of biomass to create near
+neutral and high-CEC biochars is also an option to improve soil CEC without causing alkalization.
+These actions can improve the use of biochar as a technology to enhance soil fertility of most Brazilian
+crop ﬁelds and biomes. Functionalization through pre- and post-pyrolysis treatments of ES and SB
+feedstocks and their derived biochars is another strategy to improve soil CEC and the persistence of
+charred C in soil.
+4. Conclusions
+Feedstock, pyrolysis temperature and amendment rate are key factors controlling the CEC of
+biochar-amended soils and C stored in the two Oxisols. High-ash biochars produced at low pyrolysis
+temperatures (≤450 ◦C) are eﬀective in increasing CEC without improving the Oxisols fertility status.
+Interestingly, an increase in soil CEC relies on biochar CEC and rate rather than alterations in soil
+pH. Low-ash biochars (ES and SB) are eﬀective at increasing C storage in soils without causing
+alkalization. CEC of the amended soils can be predicted from the biochar CEC, addition rate, and the
+original soil CEC. In this short-term incubation study, aging is a minor factor controlling CEC of the
+biochar-amended Oxisols. To avoid soil alkalization, the pH alteration in biochar-amended soil is a
+key property to deﬁne the maximum application rate of high-ash biochars.
+Overall, this study provides results that guide the tailoring and selecting biochars for speciﬁc
+agronomic and environmental applications, such as improving soil CEC. The combined use of high
+and low-ash biochars may accomplish apparently conﬂicting goals such as the simultaneous increase
+in soil C storage and CEC without causing negative pH eﬀects to plants, nutrients and microbial
+soil processes.
+Supplementary Materials: The following are available online at http://www.mdpi.com/2073-4395/10/6/824/s1,
+Table S1: Liming value of the biochars produced from four feedstocks pyrolyzed at 350, 450 and 750 ◦C. Table S2
+Linear regression mathematical models used to predict the ﬁnal CEC of biochar-amended soils, using as predictors
+biochar CEC and mass added to soil, soil original CEC and mass, and, when pertinent, net pH (delta pH of the pH
+biochar treated soil over pH of control soil).
+Author Contributions: C.A.S. and M.A.S.-M. conceptualized the research; C.A.S., M.A.S.-M. and R.R.D. designed
+the research project; R.R.D. performed the study in controlled conditions; R.R.D, C.A.S, P.F.T., M.N.V. and L.C.A.M.
+analyzed the data; the manuscript was written by R.R.D., M.A.S.-M., L.C.A.M., K.A.S., and C.A.S; All authors
+have read and agreed to the current version of the manuscript.
+
+Agronomy 2020, 10, 824
+14 of 17
+Funding: This study was funded by the National Council for Technological and Scientiﬁc Development—CNPq,
+grants 303899/2015-8 and 307447/2019-7, and the Coordination for the Improvement of Higher Level Education
+Personnel (CAPES-PROEX AUXPE 593/2018). CAPES provided a PhD scholarship for RRD, and CNPq ﬁnanced
+research scholarships for PFT, LCAM and CAS. MASM would like to acknowledge Project No. RTI2018-099417-B-I00
+from the Spanish Ministry of Science, Innovation and Universities, coﬁnanced with EU FEDER funds.
+Acknowledgments: The authors are grateful to Isabel Cristina N.A. de Melo and Claudinéia Olímpia de Assis for
+producing some of the biochar samples. USDA is an equal opportunity provider and employer.
+Conﬂicts of Interest: The authors declare no conﬂict of interest. The funders play no role in the design of the
+study, analyses, or interpretation of data, as well as in the writing of the manuscript, or in the decision to publish
+the results.
+References
+1.
+Lopes, A.S.; Guilherme, L.R.G. A career perspective on soil management in the cerrado region of Brazil.
+Adv. Agron. 2016, 137, 1–72. [CrossRef]
+2.
+Lopes, A.S. A Survey of the Fertility Status of Soils under “Cerrado” Vegetation in Brazil. Master’s Thesis,
+Department of Soil Science, North Carolina State University, Raleigh, NC, USA, 1975.
+3.
+Madari, B.E.; Cunha, T.J.F.; Novotny, E.H.; Milori, D.M.B.P.; Martin Neto, L.; Benites, V.M.; Coelho, M.R.;
+Santos, G.A. Organic matter of Amazonian antropical soils (Terra Preta de Índio): Its characteristics and
+role in soil fertility sustainability. In As Terras Pretas de Índio da Amazônia: Sua Caracterização e Uso Deste
+Conhecimento na Criação de Novas Áreas; Teixeira, W.G., Kern, D.C., Madari, B.E., Lima, H.N., Woods, W.I.,
+Eds.; Embrapa Amazônia Ocidental: Manaus, Brazil, 2009; pp. 172–188.
+4.
+Mielniczuk, J.; Bayer, C.; Vezzani, F.M.; Lovato, T.; Fernandes, F.F.; Debarba, L. Soil and crop management
+and their relationship with carbon and soil nitrogen stocks (in Portuguese). In Tópicos em Ciência do Solo;
+Curi, N., Marques, J.J., Guilherme, L.R.G., Lima, J.M., Lopes, S., Alvarez, V.V.H., Eds.; Sociedade Brasileira
+de Ciência do Solo: Viçosa, Brazil, 2003; pp. 209–248.
+5.
+Li, Z.; Delvaux, B. Phytolith-rich biochar: A potential Si fertilizer in desilicated soils. GCB Bioenergy 2019, 11,
+1264–1282. [CrossRef]
+6.
+Li, Z.; Delvaux, B.; Yans, J.; Dufour, N.; Houben, D.; Cornelis, J.-T. Phytolith-rich biochar increases cotton
+biomass and silicon-mineralomass in a highly weathered soil. J. Plant Nutr. Soil Sci. 2018, 181, 537–546.
+[CrossRef]
+7.
+Novotny, E.H.; Maia, C.M.B.F.; Carvalho, M.T.M.; Madari, B.E. Biochar: Pyrogenic carbon for agricultural
+use—A critical review. Rev. Bras. Ciênc. Solo 2015, 39, 321–344. [CrossRef]
+8.
+Glaser, B.; Lehmann, J.; Zech, W. Ameliorating physical and chemical properties of highly weathered soils in
+the tropics with charcoal—A review. Biol. Fertil. Soils 2002, 35, 219–230. [CrossRef]
+9.
+Cheng, C.-H.; Lehmann, J.; Thies, J.E.; Burton, S.D. Stability of black carbon in soils across a climatic gradient.
+J. Geophys. Res. Biogeosci. 2008, 113, 1–10. [CrossRef]
+10.
+Keith, A.; Singh, B.; Singh, B.P. Interactive priming of biochar and labile organic matter mineralization in a
+smectite-rich soil. Environ. Sci. Technol. 2011, 45, 9611–9618. [CrossRef]
+11.
+Nguyen, B.T.; Lehmann, J.; Hockaday, W.C.; Joseph, S.; Masiello, C.A. Temperature sensitivity of black carbon
+decomposition and oxidation. Environ. Sci. Technol. 2010, 44, 3324–3331. [CrossRef]
+12.
+Lehmann, J.; Joseph, S. Biochar for Environmental Management: Science and Technology; Routledge: London,
+UK, 2015; p. 976.
+13.
+Glaser, B.; Haumaier, L.; Guggenberger, G.; Zech, W. The ‘Terra Preta’ phenomenon—a model for sustainable
+agriculture in the humid tropics. Naturwissenschaften 2001, 88, 37–41. [CrossRef]
+14.
+Glaser, B.; Birk, J.J. State of the scientiﬁc knowledge on properties and genesis of Anthropogenic Dark Earths
+in Central Amazonia (terra preta de Índio). Geochim. Cosmochim. Acta 2012, 82, 39–51. [CrossRef]
+15.
+Mia, S.; Dijkstra, F.A.; Singh, B. Long-term aging of biochar: A molecular understanding with agricultural
+and environmental implications. Adv. Agron. 2017, 141, 1–51. [CrossRef]
+16.
+Atkinson, C.J.; Fitzgerald, J.D.; Hipps, N.A. Potential mechanisms for achieving agricultural beneﬁts from
+biochar application to temperate soils: A review. Plant Soil 2010, 337, 1–18. [CrossRef]
+17.
+Chen, B.; Zhou, D.; Zhu, L. Transitional adsorption and partition of nonpolar and polar aromatic contaminants
+by biochars of pine needles with diﬀerent pyrolytic temperatures. Environ. Sci. Technol. 2008, 42, 5137–5143.
+[CrossRef] [PubMed]
+
+Agronomy 2020, 10, 824
+15 of 17
+18.
+Xu, G.; Sun, J.; Shao, H.; Chang, S.X. Biochar had eﬀects on phosphorus sorption and desorption in three
+soils with diﬀering acidity. Ecol. Eng. 2014, 62, 54–60. [CrossRef]
+19.
+Mia, S.; Feike, A.; Dijkstra, F.A.; Singh, B. Aging Induced Changes in Biochar’s Functionality and Adsorption
+Behaviour for Phosphate and Ammonium. Environ. Sci. Technol. 2017, 51, 8359–8367. [CrossRef]
+20.
+Ahmad, M.; Lee, S.S.; Dou, X.; Mohan, D.; Sung, J.-K.; Yang, J.E.; Ok, Y.S. Eﬀects of pyrolysis temperature on
+soybean stover- and peanut shell-derived biochar properties and TCE adsorption in water. Bioresour. Technol.
+2012, 118, 536–544. [CrossRef]
+21.
+Keiluweit, M.; Nico, P.S.; Johnson, M.G.; Kleber, M. Dynamic molecular structure of plant biomass-derived
+black carbon (biochar). Environ. Sci. Technol. 2010, 44, 1247–1253. [CrossRef]
+22.
+Tomczyk, A.; Sokolowska, Z.; Boguta, P. Biochar physicochemical properties: Pyrolysis temperature and
+feedstock kind eﬀects. Rev. Environ. Sci. Bio/Technol. 2020, 19, 191–215. [CrossRef]
+23.
+Cantrell, K.B.; Hunt, P.G.; Uchimiya, M.; Novak, J.M.; Ro, K.S. Impact of pyrolysis temperature and manure
+source on physicochemical characteristics of biochar. Bioresour. Technol. 2012, 107, 419–428. [CrossRef]
+24.
+Ippolito, J.A.; Laird, D.A.; Busscher, W.J. Environmental beneﬁts of biochar. J. Environ. Qual. 2012, 41,
+967–972. [CrossRef]
+25.
+Jindo, K.; Mizumoto, H.; Sawada, Y.; Sanchez-Monedero, M.A.; Sonoki, T. Physical and chemical
+characterization of biochars derived from diﬀerent agricultural residues. Biogeosciences 2014, 11, 6613–6621.
+[CrossRef]
+26.
+Lehmann, J.; Gaunt, J.; Rondon, M. Biochar sequestration in terrestrial ecosystems—A review. Mitig. Adapt.
+Strateg. Glob. Chang. 2006, 11, 403–427. [CrossRef]
+27.
+Banik, C.; Lawrinenko, M.; Bakshi, S.; Laird, D.A. Impact of pyrolysis temperature and feedsctock on surface
+charge and functional group chemistry of biochars. J. Environ. Qual. 2018, 47, 452–461. [CrossRef]
+28.
+Domingues, R.R.;
+Trugilho, P.F.;
+Silva, C.A.;
+Melo, I.C.N.A.;
+Melo, L.C.A.;
+Magriotis, Z.M.;
+Sánchez-Monedero, M.A. Properties of biochar derived from wood and high-nutrient biomasses with
+the aim of agronomic and environmental beneﬁts. PLoS ONE 2017, 12, e0176884. [CrossRef] [PubMed]
+29.
+Adinata, D.; Daud, W.M.A.W.; Aroua, M.K. Preparation and characterization of activated carbon from palm
+shell by chemical activation with K2CO3. Bioresour. Technol. 2007, 98, 145–149. [CrossRef]
+30.
+Lee, J.W.; Kidder, M.; Evans, B.R.; Paik, S.; Buchanan, A.C.; Garten, C.T.; Brown, R.C. Characterization
+of biochars produced from corn stovers for soil amendment. Environ. Sci. Technol. 2010, 44, 7970–7974.
+[CrossRef]
+31.
+Luo, Y.; Durenkamp, M.; De Nobili, M.; Lin, Q.; Brookes, P.C. Short-term soil priming eﬀects and the
+mineralisation of biochar following its incorporation to soils of diﬀerent pH. Soil Biol. Biochem. 2011, 43,
+2304–2314. [CrossRef]
+32.
+Melo, L.C.A.; Coscione, A.R.; Abreu, C.A.; Puga, A.P. Inﬂuence of pyrolysis temperature on cadmium and
+zinc sorption capacity of sugar cane straw–derived biochar. BioResources 2013, 8, 4992–5004. [CrossRef]
+33.
+Song, W.; Guo, M. Quality variations of poultry litter biochar generated at diﬀerent pyrolysis temperatures.
+J. Anal. Appl. Pyrolysis. 2012, 94, 138–145. [CrossRef]
+34.
+Heitkötter, J.; Marschner, B. Interactive eﬀects of biochar ageing in soils related to feedstock, pyrolysis
+temperature, and historic charcoal production. Geoderma 2015, 245, 56–64. [CrossRef]
+35.
+Silber, A.; Levkovitch, I.; Graber, E.R. pH-dependent mineral release and surface properties of cornstraw
+biochar: Agronomic implications. Environ. Sci. Technol. 2010, 44, 9318–9323. [CrossRef] [PubMed]
+36.
+Jien, S.-H.; Wang, C.-S. Eﬀects of biochar on soil properties and erosion potential in a highly weathered soil.
+Catena 2013, 110, 225–233. [CrossRef]
+37.
+Dume, B.; Mosissa, T.; Nebiyu, A. Eﬀect of biochar on soil properties and lead (Pb) availability in a military
+camp in South West Ethiopia. Afr. J. Environ. Sci. Technol. 2016, 10, 77–85. [CrossRef]
+38.
+Yuan, J.-H.; Xu, R.-K. Eﬀects of biochars generated from crop residues on chemical properties of acid soils
+from tropical and subtropical China. Soil Res. 2012, 50, 570–578. [CrossRef]
+39.
+Yuan, J.-H.; Xu, R.-K.; Qian, W.; Wang, R.-H. Comparison of the ameliorating eﬀects on an acidic Ultisol
+between four crop straws and their biochars. J. Soils Sediments 2011, 11, 741–750. [CrossRef]
+40.
+Gai, X.; Wang, H.; Liu, J.; Zhai, L.; Liu, S.; Ren, T.; Liu, H. Eﬀects of feedstock and pyrolysis temperature on
+biochar adsorption of ammonium and nitrate. PLoS ONE 2014, 9, e113888. [CrossRef]
+41.
+Yuan, J.-H.; Xu, R.-K.; Zhang, H. The forms of alkalis in the biochar produced from crop residues at diﬀerent
+temperatures. Bioresour. Technol. 2011, 102, 3488–3497. [CrossRef]
+
+Agronomy 2020, 10, 824
+16 of 17
+42.
+ASTM. Standard Method for Chemical Analysis of Wood Charcoal. D1762–84; American Society for Testing and
+Materials (ASTM), International: West Conshohocken, PA, USA, 1990.
+43.
+Gaskin, J.W.; Steiner, C.; Harris, K.; Das, C.; Bibens, B. Eﬀect of low temperature pyrolysis conditions on
+biochar for agricultural use. Trans. ASABE 2008, 51, 2061–2069. [CrossRef]
+44.
+EMBRAPA (Empresa Brasileira de Pesquisa Agropecuária). Brazilian Soil Classiﬁcation System; Embrapa
+Solos: Rio de Janeiro, Brazil, 2006.
+45.
+USDA. Keys to Soil Taxonomy. Soil Conservation Service, USDA. 1998. Available online: https://www.nrcs.
+usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_051241.pdf (accessed on 2 February 2017).
+46.
+Silva, F.C. Manual of Chemical Analysis of Soils, Plants and Fertilizers; Embrapa Comunicação para Transferência
+de Tecnologia: Brasília, Brazil, 1999; p. 370.
+47.
+Ferreira, D.F. Sisvar: Um sistema computacional de análise estatística. Ciênc. Agrotec. 2011, 35, 1039–1042.
+[CrossRef]
+48.
+Mašek, O.; Buss, W.; Brownsort, P.; Rovere, M.; Tagliaferro, A.; Zhao, L.; Cao, X.; Xu, G. Potassium doping
+increases biochar carbon sequestration potential by 45%, facilitating decoupling of carbon sequestration
+from soil improvement. Sci. Rep. 2019, 9, 5514. [CrossRef]
+49.
+Wang, Y.; Xiao, X.; Xu, Y.; Chen, B. Environmental Eﬀects of Silicon within Biochar (Sichar) and Carbon–Silicon
+Coupling Mechanisms: A Critical Review. Environ. Sci. Technol. 2019, 53, 13570–13582. [CrossRef] [PubMed]
+50.
+Falcão, N.; Moreira, A.; Comenford, N.B. The fertility of the soils of Terra Preta de Índio of Central Amazonia
+(in Portuguese). In As Terras Pretas de Índio da Amazônia: Sua Caracterização e uso Deste Conhecimento na Criação
+de Novas Áreas; Teixeira, W.G., Kern, D.C., Madari, B.E., Lima, H.N., Woods, W.I., Eds.; Embrapa Amazônia
+Ocidental: Manaus, Brazil, 2009; pp. 189–200.
+51.
+Liang, B.; Lehmann, J.; Solomon, D.; Kinyangi, J.; Grossman, J.; O’Neill, B.; Skjemstad, J.O.; Thies, J.;
+Luizão, F.J.; Petersen, J.; et al. Black carbon increases cation exchange capacity in soils. Soil Sci. Soc. Am. J.
+2006, 70, 1719–1730. [CrossRef]
+52.
+Wang, Y.; Hu, Y.; Zhao, X.; Wang, S.; Xing, G. Comparisons of Biochar Properties from Wood Material and
+Crop Residues at Diﬀerent Temperatures and Residence Times. Energy Fuels 2013, 27, 5890–5899. [CrossRef]
+53.
+Veiga, T.R.L.A.; Lima, J.T.; Dessimoni, A.L.A.; Pego, M.F.P.; Soares, J.R.; Trugilho, P.F. Diﬀerent plant biomass
+characterizations for biochar production. Cerne 2017, 23, 529–536. [CrossRef]
+54.
+Misra, M.K.; Ragland, K.W.; Baker, A.J. Wood ash composition as a function of furnace temperature.
+Biomass Bioenergy 1993, 4, 103–116. [CrossRef]
+55.
+Bruun, E.W.; Hauggaard-Nielsen, H.; Ibrahim, N.; Egsgaard, H.; Ambus, P.; Jensen, P.A.; Dam-Johansen, K.
+Inﬂuence of fast pyrolysis temperature on biochar labile fraction and short-term carbon loss in a loamy soil.
+Biomass Bioenergy 2011, 35, 1182–1189. [CrossRef]
+56.
+Novak, J.M.; Lima, I.; Gaskin, J.W.; Steiner, C.; Das, K.C.; Ahmedna, M.; Watts, D.W.; Warren, J.; Schomberg, H.
+Characterization of designer biochar produced at diﬀerent temperatures and their eﬀects on a loamy sand.
+Ann. Environ. Sci. 2009, 3, 195–206.
+57.
+Zimmerman, A.R. Abiotic and microbial oxidation of laboratory-produced black carbon (biochar).
+Environ. Sci. Technol. 2010, 44, 1295–1301. [CrossRef]
+58.
+Shen, D.K.; Gu, S.; Bridgwater, A.V. The thermal performance of the polysaccharides extracted from
+hardwood: Cellulose and hemicellulose. Carbohydr. Polym. 2010, 82, 39–45. [CrossRef]
+59.
+Velden, M.; Baeyens, J.; Brems, A.; Janssens, B.; Dewil, R. Fundamentals, kinetics and endothermicity of the
+biomass pyrolysis reaction. Renew. Energy 2010, 35, 232–242. [CrossRef]
+60.
+Cheng, C.-H.; Lehmann, J.; Thies, J.E.; Burton, S.D.; Engelhard, M.H. Oxidation of black carbon by biotic and
+abiotic processes. Org. Geochem. 2006, 37, 1477–1488. [CrossRef]
+61.
+Xu, P.; Chen, W.; Wang, Q.; Zhu, T.; Wu, M.; Qiao, J.; Chen, Z.; Zhang, J. Eﬀects of transition metal precursors
+(Co, Fe, Cu, Mn, or Ni) on pyrolyzed carbon supported metal-aminopyrine electrocatalysts for oxygen
+reduction reaction. RSC Adv. 2015, 5, 6195–6206. [CrossRef]
+62.
+Enders, A.; Hanley, K.; Whitman, T.; Joseph, S.; Lehmann, J. Characterization of biochars to evaluate
+recalcitrance and agronomic performance. Bioresour. Technol. 2012, 114, 644–653. [CrossRef] [PubMed]
+63.
+Schulz, H.; Glaser, B. Eﬀects of biochar compared to organic and inorganic fertilizers on soil quality and
+plant growth in a greenhouse experiment. J. Plant Nutr. Soil Sci. 2012, 175, 410–422. [CrossRef]
+64.
+Basso, A.S.; Miguez, F.E.; Laird, D.A.; Horton, R.; Westgate, M. Assessing potential of biochar for increasing
+water-holding capacity of sandy soils. GCB Bioenergy 2013, 5, 132–143. [CrossRef]
+
+Agronomy 2020, 10, 824
+17 of 17
+65.
+Bruun, S.; Jensen, E.S.; Jensen, L.S. Microbial mineralization and assimilation of black carbon: Dependency
+on degree of thermal alteration. Org. Geochem. 2008, 39, 839–845. [CrossRef]
+66.
+Houben, D.; Evrard, L.; Sonnet, P. Mobility, bioavailability and pH-dependent leaching of cadmium, zinc
+and lead in a contaminated soil amended with biochar. Chemosphere 2013, 92, 1450–1457. [CrossRef]
+67.
+Wang, L.; Butterly, C.R.; Wang, Y.; Herath, H.M.S.K.; Xi, Y.G.; Xiao, X.J. Eﬀect of crop residue biochar on soil
+acidity amelioration in strongly acidic tea garden soils. Soil Use Manag. 2014, 30, 119–128. [CrossRef]
+68.
+Morais, V.A.; Ferreira, G.W.D.; Mello, J.M.; Silva, C.A.; Mello, C.R.; Araújo, E.J.G.; David, H.C.; Silva, A.C.;
+Scolforo, J.R.S. Spatial distribution of soil carbon stocks in the Cerrado biome of Minas Gerais, Brazil. Catena
+2020, 185, 104285. [CrossRef]
+69.
+Sigua, G.C.; Novak, J.M.; Watts, D.W. Ameliorating soil chemical properties of a hard setting subsoil layer in
+Coastal Plain USA with diﬀerent designer biochars. Chemosphere 2016, 142, 168–175. [CrossRef]
+70.
+Cunha, T.J.F.; Madari, B.E.; Canellas, L.P.; Ribeiro, L.P.; Benites, V.M.; Santos, G.A. Soil organic matter and
+fertility of anthropogenic dark earths (Terra Preta de Índio) in the Brazilian Amazon basin. Rev. Bras. Ci. Solo
+2009, 33, 85–93. [CrossRef]
+71.
+Hossain, M.K.; Strezov, V.; Chan, K.Y.; Ziolkowski, A.; Nelson, P.F. Inﬂuence of pyrolysis temperature on
+production and nutrient properties of wastewater sludge biochar. J. Environ. Manag. 2011, 92, 223–228.
+[CrossRef]
+72.
+Wang, Z.Y.; Chen, L.; Sun, F.L.; Luo, X.X.; Wang, H.F.; Liu, G.C.; Xu, Z.H.; Jiang, Z.X.; Pan, B.; Zheng, H.
+Eﬀects of adding biochar on the properties and nitrogen bioavailability of an acidic soil. Eur. J. Soil Sci. 2017,
+68, 559–572. [CrossRef]
+73.
+Mukome, F.N.D.; Zhang, X.; Silva, L.C.R.; Six, J.; Parikh, S.J. Use of chemical and physical characteristics to
+investigate trends in biochar feedstocks. J. Agric. Food Chem. 2013, 61, 2196–2204. [CrossRef] [PubMed]
+74.
+Díaz-Terán, J.; Nevskaia, D.M.; Fierro, J.L.G.; López-Peinado, A.J.; Jerez, A. Study of chemical activation
+process of a lignocellulosic material with KOH by XPS and XRD. Microporous Mesoporous Mater. 2003, 60,
+173–181. [CrossRef]
+75.
+Dong, X.; Li, G.; Lin, Q.; Zhao, X. Quantity and quality changes of biochar aged for 5 years in soil under ﬁeld
+conditions. Catena 2017, 159, 136–143. [CrossRef]
+76.
+Paetsch, L.; Mueller, C.W.; Kögel-Knabner, I.; Lutzow, M.; Girardin, C.; Rumpel, C. Eﬀect of in-situ aged and
+fresh biochar on soil hydraulic conditions and microbial C use under drought conditions. Sci. Rep. 2018, 8,
+1–11. [CrossRef]
+© 2020 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access
+article distributed under the terms and conditions of the Creative Commons Attribution
+(CC BY) license (http://creativecommons.org/licenses/by/4.0/).

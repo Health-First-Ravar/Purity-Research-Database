@@ -1,0 +1,2060 @@
+Association of Coffee Drinking With Mortality
+by Genetic Variation in Caffeine Metabolism
+Findings From the UK Biobank
+Erikka Loftfield, PhD; Marilyn C. Cornelis, PhD; Neil Caporaso, MD; Kai Yu, PhD; Rashmi Sinha, PhD;
+Neal Freedman, PhD
+IMPORTANCE Prospective cohorts in North America, Europe, and Asia show consistent
+inverse associations between coffee drinking and mortality, including deaths from
+cardiovascular disease and some cancers. However, concerns about coffee, particularly
+among people with common genetic polymorphisms affecting caffeine metabolism and
+among those drinking more than 5 cups per day, remain.
+OBJECTIVE To evaluate associations of coffee drinking with mortality by genetic caffeine
+metabolism score.
+DESIGN, SETTING, AND PARTICIPANTS The UK Biobank is a population-based study that invited
+approximately 9.2 million individuals from across the United Kingdom to participate. We used
+baseline demographic, lifestyle, and genetic data form the UK Biobank cohort, with follow-up
+beginning in 2006 and ending in 2016, to estimate hazard ratios (HRs) for coffee intake and
+mortality, using multivariable-adjusted Cox proportional hazards models. We investigated
+potential effect modification by caffeine metabolism, defined by a genetic score of previously
+identified polymorphisms in AHR, CYP1A2, CYP2A6, and POR that have an effect on caffeine
+metabolism. Of the 502 641 participants who consented with baseline data, we included
+those who were not pregnant and had complete data on coffee intake and smoking status
+(n = 498 134).
+EXPOSURES Total, ground, instant, and decaffeinated coffee intake.
+MAIN OUTCOMES AND MEASURES All-cause and cause-specific mortality.
+RESULTS The mean age of the participants was 57 years (range, 38-73 years); 271 019 (54%)
+were female, and 387 494 (78%) were coffee drinkers. Over 10 years of follow-up, 14 225
+deaths occurred. Coffee drinking was inversely associated with all-cause mortality. Using
+non–coffee drinkers as the reference group, HRs for drinking less than 1, 1, 2 to 3, 4 to 5, 6 to 7,
+and 8 or more cups per day were 0.94 (95% CI, 0.88-1.01), 0.92 (95% CI, 0.87-0.97), 0.88
+(95% CI, 0.84-0.93), 0.88 (95% CI, 0.83-0.93), 0.84 (95% CI, 0.77-0.92), and 0.86 (95% CI,
+0.77-0.95), respectively. Similar associations were observed for instant, ground, and
+decaffeinated coffee, across common causes of death, and regardless of genetic caffeine
+metabolism score. For example, the HRs for 6 or more cups per day ranged from 0.70 (95%
+CI, 0.53-0.94) to 0.92 (95% CI, 0.78-1.10), with no evidence of effect modification across
+strata of caffeine metabolism score (P = .17 for heterogeneity).
+CONCLUSIONS AND RELEVANCE Coffee drinking was inversely associated with mortality,
+including among those drinking 8 or more cups per day and those with genetic
+polymorphisms indicating slower or faster caffeine metabolism. These findings suggest the
+importance of noncaffeine constituents in the coffee-mortality association and provide
+further reassurance that coffee drinking can be a part of a healthy diet.
+JAMA Intern Med. 2018;178(8):1086-1097. doi:10.1001/jamainternmed.2018.2425
+Published online July 2, 2018.
+Supplemental content
+Author Affiliations: Metabolic
+Epidemiology Branch, Division of
+Cancer Epidemiology and Genetics,
+National Cancer Institute, National
+Institutes of Health, Rockville,
+Maryland (Loftfield, Sinha,
+Freedman); Feinberg School of
+Medicine, Northwestern University,
+Chicago, Illinois (Cornelis);
+Occupational and Environmental
+Epidemiology Branch, Division of
+Cancer Epidemiology and Genetics,
+National Cancer Institute, National
+Institutes of Health, Rockville,
+Maryland (Caporaso); Biostatistics
+Branch, Division of Cancer
+Epidemiology and Genetics, National
+Cancer Institute, National Institutes
+of Health, Rockville, Maryland (Yu).
+Corresponding Author: Erikka
+Loftfield, PhD, Metabolic
+Epidemiology Branch, Division of
+Cancer Epidemiology and Genetics,
+National Cancer Institute Shady
+Grove, 9609 Medical Center Dr,
+Ste 6E320, Rockville, MD 20850-9768
+(erikka.loftfield@nih.gov).
+Research
+JAMA Internal Medicine | Original Investigation
+1086
+(Reprinted)
+jamainternalmedicine.com
+© 2018 American Medical Association. All rights reserved.
+Downloaded From:  by a Midwestern University User  on 01/23/2019
+
+C
+offee is one of the most commonly consumed bever-
+ages worldwide. Epidemiologic studies have gen-
+erally reported inverse associations with chronic
+disease, including cardiovascular disease1,2; diabetes3; Par-
+kinson disease4; and liver,5 colorectal,6 and endometrial7
+cancer. Furthermore, prospective studies have consistently
+observed inverse associations with all-cause and cause-
+specific mortality.8-16 Such evidence played a major role in
+the 2015 US Dietary Guidelines Advisory Committee report,
+which concluded that moderate coffee consumption of up
+to 5 eight-ounce cups per day can be a part of a healthy
+diet.17
+Nevertheless, there remain concerns about the effects
+of coffee drinking. Coffee is a major source of caffeine, and
+between-person variation in caffeine metabolism is consid-
+erable. Clinical and epidemiologic studies have identified
+genetic variants that affect caffeine metabolism and coffee
+consumption,18 and several studies have suggested that cof-
+fee drinkers with common genetic polymorphisms affecting
+caffeine metabolism may be at increased risk of cardiovas-
+cular disease.19,20 However, the impact of common genetic
+polymorphisms that affect caffeine metabolism on the
+coffee-mortality association is unknown. There is also con-
+cern about heavy coffee drinking (≥6 cups/d) more gener-
+ally. However, prior studies have had a limited number
+of participants in this intake range, precluding stable risk
+estimates.
+We used the 500 000-participant UK Biobank cohort to in-
+vestigate possible effect modification by caffeine metabo-
+lism score, defined by previously identified polymorphisms
+that affect caffeine metabolism.18
+Methods
+Study Design
+The UK Biobank study design has been described else-
+where.21,22 In brief, the study mailed invitations to approxi-
+mately 9.2 million individuals in the United Kingdom’s
+National Health Service (NHS), ages 40 to 69 years who re-
+sided within 40 km of 22 assessment centers across the United
+Kingdom.21Intotal,503 317individualsvisitedassessmentcen-
+ters between 2006 and 201022; answered comprehensive
+touchscreen questionnaires, including about diet; received
+physical examinations; and provided biological samples. Data
+from 502 641 participants were available for our study. We ex-
+cluded participants with incomplete data on coffee intake
+(n = 2269)orsmokingstatus(n = 1866),womenwhowerepreg-
+nant or unsure whether they were pregnant (n = 369), and
+those with no follow-up time (n = 3), resulting in an analytic
+cohort of 498 134 participants.
+The UK Biobank study was approved by the National In-
+formation Governance Board for Health and Social Care and
+the NHS North West Multicenter Research Ethics Committee.
+Written consent was obtained from all participants. Accord-
+ing to the UK Biobank information leaflet for participants, par-
+ticipation is “entirely voluntary” and participants are “free to
+withdraw at any time later.”21,22
+Cohort Follow-up
+Follow-up time was counted from the date of assessment cen-
+ter visit until the date of death or the date of censor (ie, Janu-
+ary 31, 2016, for England and Wales and November 30, 2015,
+for Scotland), whichever came first. For cause-specific mor-
+tality analyses, individuals who died from other causes were
+censored at their date of death.
+Death Ascertainment
+Vitalstatus,date,andunderlying(primary)causeofdeathwere
+provided by the National Health Service (NHS) Information
+CentreforparticipantsfromEnglandandWalesandbytheNHS
+Central Register, Scotland, for those from Scotland. We de-
+fined the following 3 broad categories (ie, causes with >500
+deaths) of cause-specific mortality using the International Sta-
+tistical Classification of Diseases and Related Health Problems,
+Tenth Revision (ICD-10), codes: cancer (C00-D48), cardiovas-
+cular disease (I00-I79), and respiratory diseases (J09-J18 and
+J40-J47). In addition, for cancer and cardiovascular disease,
+wefurtherdefinedthecommoncausesofdeath(ie,causeswith
+>500 deaths) within these broad categories: colorectal can-
+cer (C18-C20), bronchus and lung cancer (C34), female breast
+cancer (C50), and pancreatic cancer (C25); ischemic heart dis-
+eases (I20-I25); and stroke (I60-I69).
+Exposure Assessment
+Participantswereasked“Howmanycupsofcoffeedoyoudrink
+each day (including decaffeinated coffee)?” Participants se-
+lected either the number of cups, “Less than 1,” “Do not know,”
+or“Prefernottoanswer.”Ifparticipantsreporteddrinkingmore
+than 10 cups, they were asked to confirm the response. For the
+main analysis of coffee and all-cause mortality, we defined cof-
+fee intake as follows: 0, less than 1, 1, 2 to 3, 4 to 5, 6 to 7, and
+8 or more cups per day. The top 2 categories were collapsed
+for secondary analyses, to preserve sample size. Coffee drink-
+erswerealsoasked“Whattypeofcoffeedoyouusuallydrink?”
+and were able to select 1 of 6 mutually exclusive responses in-
+cluding “decaffeinated coffee (any type),” “instant coffee,” or
+“ground coffee (include espresso, filter, etc).”
+The baseline questionnaire also assessed potential con-
+founding factors, including smoking, alcohol, tea, race, edu-
+cation, physical activity, and body mass index (BMI) (calcu-
+Key Points
+Question Moderate coffee consumption has been inversely
+associated with mortality; however, does heavy intake, particularly
+among those with common genetic polymorphisms that impair
+caffeine metabolism, increase risk of mortality?
+Findings This large prospective cohort study of a half million
+people found inverse associations for coffee drinking with
+mortality, including among participants drinking 1 up to 8 or more
+cups per day. No differences were observed in analyses that were
+stratified by genetic polymorphisms affecting caffeine
+metabolism.
+Meaning This study provides further evidence that coffee
+drinking can be part of a healthy diet and offers reassurance to
+coffee drinkers.
+Association of Coffee Drinking With Mortality by Genetic Variation in Caffeine Metabolism
+Original Investigation Research
+jamainternalmedicine.com
+(Reprinted)
+JAMA Internal Medicine
+August 2018
+Volume 178, Number 8
+1087
+© 2018 American Medical Association. All rights reserved.
+Downloaded From:  by a Midwestern University User  on 01/23/2019
+
+lated as weight in kilograms divided by height in meters
+squared). We created a 25-level detailed smoking variable by
+combining data on smoking status, lifetime smoking, previ-
+ous smoking intensity, current smoking intensity, time since
+quitting for former smokers, type of tobacco smoked previ-
+ously, and type of tobacco smoked currently. We created a
+6-level variable for alcohol drinking by combining data on
+drinking status and amount consumed. Less than 9% of the
+cohort lacked data on any single covariate, and indicator vari-
+ables were created to represent missing data categories in re-
+gression models.
+AllUKBiobankparticipantsweregenotypedusinggenome-
+wide arrays. The initial 50 000 participants were genotyped
+using the Affymetrix UK BiLEVE Axiom array, while the re-
+maining were genotyped using the Affymetrix UK Biobank
+Axiom array. The 2 arrays were extremely similar and can be
+imputed together. Quality control and imputation to the Hap-
+lotype Reference Consortium (HRC), version 1.1, and UK10K
+reference panels was performed centrally by the Wellcome
+TrustCentreforHumanGeneticsasdescribedelsewhere.23Ge-
+netic data were available from 403 816 participants in our ana-
+lytic sample after excluding sample outliers based on hetero-
+zygosity and missingness, participants with sex discrepancies
+between the self-reported and X-chromosome heterozygos-
+ity, and those potentially related to other participants, based
+on estimated kinship coefficients for all pairs of samples. We
+derived 2 genetic “caffeine metabolism” scores (CMSG) by add-
+ing the number of alleles of single base changes, or single-
+nucleotide polymorphisms (SNPs), previously associated with
+blood caffeine metabolite levels, and the map near genes with
+plausible roles in caffeine metabolism.24 All SNPs were avail-
+able from the HRC, version 1.1, imputation. CMSG2 included
+the 2 SNPs presenting with the largest effect sizes in a genome-
+wide association study (GWAS) of caffeine metabolites24:
+rs2472297 (near CYP1A2) and rs6968554 (near AHR). CMSG4
+also included rs17685 (in POR) and rs56113850 (near CYP2A6).
+Corresponding weighted genetic “caffeine metabolism” scores
+(wCMSG) were derived by summing the number of alleles mul-
+tiplied by their β-coefficients. The latter were estimated by
+z/{sqrt[p(1 −p)]}, where z is the SNP z-score for the paraxan-
+thine to caffeine ratio24 and p is the SNP minor allele fre-
+quency. Estimated β-coefficients for rs6968554, rs2472297,
+rs17685, and rs56113850 were 17.58, 21.58, 3.79, and 19.43, re-
+spectively.Weightedscoreswerethencalibratedsuchthatboth
+CMSG2 and wCMSG2 ranged from 0 to 4 and both CMSG4 and
+wCMSG4rangedfrom0to8,withhigherscorespredictingfaster
+caffeine metabolism. All 4 SNPs have previously been linked
+tocoffeeconsumptionintheUKBiobank.24,25Becausers762551
+(CYP1A2*1F) has been examined previously for interactions
+with coffee and disease outcomes,19 we conducted a separate
+analysis of this SNP.`
+Statistical Analysis
+We used Cox proportional hazard regression models to esti-
+mate hazard ratios (HRs) and 95% CIs for mortality. Person-
+years (ie, calendar time) of follow-up was used as the under-
+lying time metric. We estimated the Spearman partial
+correlation coefficients between coffee intake and each CMSG,
+adjusting for age, sex, smoking status, genotyping array, and
+the first 5 genetic principal components. We tested the pro-
+portional-hazards assumption by comparing the multivari-
+ablemodelwiththeinteractiontermbetweenperson-timeand
+coffee intake to the model without it; we observed no devia-
+tions from this assumption. Statistical tests were 2-sided, and
+P < .05 was interpreted as statistically significant. We used SAS
+software (version 9.4; SAS Institute Inc) and the computa-
+tional resources of the National Institutes of Health’s (NIH)
+High-Performance Computing Biowulf cluster to conduct
+analyses.
+In our analysis of coffee intake with all-cause mortality,
+we first adjusted for age and sex, followed by additional ad-
+justment for other potential confounders; adjustment for de-
+tailed smoking history had the largest effect on risk esti-
+mates. We tested for trends across increasing categories of
+coffee intake by modeling the midpoint of each intake cat-
+egory as a continuous variable, with the highest intake cat-
+egories of 8 or more cups per day and 6 or more cups per day
+assigned values of 8 and 6, respectively. We evaluated the mul-
+tivariable-adjusted associations of coffee intake with cause-
+specific mortality and with all-cause mortality by coffee type,
+including non–coffee drinkers as the reference group in each
+subgroup analysis. We also ran multivariable-adjusted mod-
+els stratified by the following potential effect modifiers:
+wCMSG2 (0-1, >1 to 2, or >2), CMSG4 (0-2, >2 to 3, >3 to 4, or >4),
+age (<55 or ≥55 years), sex (male or female), smoking status
+(never, former, or current smoker), general health status (ex-
+cellent/good or fair/poor health), BMI (18.5 to <25.0, 25.0 to
+<30.0, or ≥30.0), history of diabetes (yes or no), and history
+of cancer, heart attack, or stroke (yes or no). The thresholds
+for strata of CMSG were based on the distribution of the scores;
+however, we also considered a 1-unit and 2-unit increase in the
+weighted scores (eTable 1 in the Supplement). We assessed po-
+tential effect modification by modeling the cross-product term
+of the stratifying variable with coffee intake; the P value for
+heterogeneity corresponds to the likelihood ratio test com-
+paring the multivariable models with and without the cross-
+producttermsforeachlevelofthestratifyingvariablewithcof-
+fee intake (continuous) except in the case of genetic caffeine
+metabolism scores, which were modeled as continuous vari-
+ables. Finally, to better understand the potential effect of re-
+verse causality, we conducted a lag analysis in which we ex-
+amined deaths occurring in 0 to less than 3 years, 3 to less than
+5 years, and 5 or more years of follow-up.
+Results
+IntheUKBiobankcohort,110 640(22%)participantswerenon–
+coffee drinkers. Among coffee drinkers, 214 119 (56%), 87 665
+(23%), and 74 053 (19%) reported usually drinking instant,
+ground, and decaffeinated coffee, respectively. Coffee drink-
+ers, compared with non–coffee drinkers, were more likely to
+be male, white, former smokers, and drink alcohol. Partici-
+pants drinking 4 or more cups per day, compared with those
+drinking less coffee and nondrinkers, were more likely to drink
+instant coffee and be current smokers, whereas participants
+Research Original Investigation
+Association of Coffee Drinking With Mortality by Genetic Variation in Caffeine Metabolism
+1088
+JAMA Internal Medicine
+August 2018
+Volume 178, Number 8
+(Reprinted)
+jamainternalmedicine.com
+© 2018 American Medical Association. All rights reserved.
+Downloaded From:  by a Midwestern University User  on 01/23/2019
+
+drinking 1 to 3 cups per day were older, more likely to have a
+university degree, and more likely to report “excellent” health
+(Table 1).
+Over 10 years of follow-up (median, 7 years) and 3.4 mil-
+lion person-years, 14 225 deaths occurred. After multivari-
+able adjustment, we observed an inverse dose-dependent
+association (P< .001 for trend) for total coffee intake and all-
+cause mortality (Table 2). The HRs for drinking less than 1, 1,
+2 to 3, 4 to 5, 6 to 7, and 8 or more cups per day were 0.94 (95%
+CI, 0.88-1.01), 0.92 (95% CI, 0.87-0.97), 0.88 (95% CI,
+0.84-0.93), 0.88 (95% CI, 0.83-0.93), 0.84 (95% CI,
+0.77-0.92), and 0.86 (95% CI, 0.77-0.95), respectively. Ap-
+proximately 8294 (58%), 2833 (20%), and 553 (4%) deaths in
+the cohort were due to cancer, cardiovascular disease, and re-
+spiratory disease, respectively. We observed inverse associa-
+tions for coffee drinking with all-cancer and all-cardiovascu-
+lar disease mortality. The number of deaths for specific types
+of cancer and cardiovascular disease were modest, yet we did
+observe potential inverse associations, without statistical sig-
+nificance, for stroke, colorectal cancer, and female breast can-
+cer. We observed inverse associations for each coffee type with
+all-cause and cause-specific mortality; associations were gen-
+erally stronger for ground coffee than for instant or decaffein-
+ated coffee (Table 3).
+Next, we evaluated the effect of CMSG, defined using 2 or
+4 known caffeine-related SNPs. Each score was positively and
+statistically significantly correlated with coffee intake, with
+Spearman partial correlation coefficients of 0.07 (P < .001) for
+both CMSG2 and CMSG4, reflecting prior UK Biobank
+reports.24,25 Using the weighted CMSG2, based on variants in
+AHR and CYP1A2, participants with a lower wCMSG2 or
+wCMSG4 (ie, slower caffeine metabolizers) had similar asso-
+ciations for coffee drinking and mortality as participants with
+a higher wCMSG2 (P = .75 for heterogeneity) or wCMSG4 (P = .17
+for heterogeneity) (ie, faster caffeine metabolizers), indicat-
+ing no modification of the association between coffee drink-
+ing and all-cause mortality by these common polymor-
+phisms related to caffeine metabolism (Table 4). We found
+similar results when limiting the CMSG analyses to those with
+white and/or British ancestry only (data not shown), using
+different thresholds (ie, 1- or 2-unit increase) for wCMSG strata
+(eTable 1 in the Supplement), stratifying by CYP1A2*1F
+only (eTable 2 in the Supplement), and using the unweighted
+CMSG (eTable 3 in the Supplement). In addition, we observed
+a positive association between wCMSG4 and all-cause mortal-
+ity in multivariable models with (HR for a 1-unit increase in
+wCMSG4 = 1.02; 95% CI, 1.01-1.03) and without (HR for a 1-unit
+increase in wCMSG4 = 1.02; 95% CI, 1.00-1.03) adjustment for
+coffee and tea intake.
+Associations for coffee drinking and mortality did not
+meaningfully differ by sex, age group, BMI, history of diabe-
+tes, or previous diagnosis of cancer, heart attack, or stroke. We
+did observe a statistically significant interaction between cof-
+fee drinking and self-reported health, with a stronger inverse
+association among those reporting worse health than those re-
+portingbetterhealth(Table5).Associationsalsoseemedstron-
+ger among former and current smokers than never-smokers,
+withthelatterassociationlackingstatisticalsignificance.How-
+ever, the formal test for interaction was not statistically sig-
+nificant. Finally, inverse associations seemed stronger for
+deaths occurring within the first 3 years of follow-up, al-
+though similar patterns were also observed in later years
+(eTable 4 in the Supplement).
+Discussion
+Inthislargestudyofnearly500 000peopleintheUnitedKing-
+dom, coffee drinking was inversely associated with all-cause
+mortality, with statistically significant inverse associations ob-
+served in participants drinking 1 to 8 or more cups per day. In-
+verse associations were also observed for ground and instant
+coffee,althoughweresomewhatweakerforinstantcoffee,and
+for cancer and cardiovascular disease mortality, the 2 most
+common causes of death in the cohort. Common genetic poly-
+morphisms predisposing individuals to slower or faster caf-
+feine metabolism did not modify associations between cof-
+fee drinking and mortality, although, as previously reported
+in the UK Biobank,24,25 higher CMSG was significantly corre-
+lated with higher coffee intake. We also observed inverse as-
+sociations for both caffeinated and decaffeinated coffee, fur-
+ther suggesting the importance of noncaffeine compounds in
+the association.
+Ourfindingsareconsistentwithprior,large,prospectivein-
+vestigationsofcoffeedrinkingandall-causemortalityconducted
+intheUnitedStates,9,11-13Europe,10andAsia,15aswellasthemost
+recent meta-analyses14,16 and the 2015 US Dietary Guidelines
+AdvisoryCommitteereport,whichconcludedthatmoderatecof-
+fee consumption can be a part of a healthy diet.17 However, it
+shouldbenotedthatnoneofthesepriorstudieswereabletolook
+at potential effect modification by caffeine metabolism. In ad-
+dition,ourfindingsforall-cancerandall-cardiovasculardisease
+mortalityarereflectiveofrecentlargeprospectivestudiesofcer-
+tain cancers8 and cardiovascular disease.13
+There has been concern about the health effects of heavy
+coffee drinking, particularly in participants with common ge-
+netic polymorphisms that affect caffeine metabolism. For ex-
+ample, prior studies have suggested that variants in CYP1A2,
+encoding the enzyme responsible for more than 95% of caf-
+feinemetabolism,mayalterassociationsofcoffeedrinkingwith
+cardiovascular-related outcomes, with slower caffeine me-
+tabolizers having higher risk of developing hypertension20 or
+having a myocardial infarction19 relative to their nondrinking
+counterparts, whereas faster caffeine metabolizers who drink
+coffee are at no or lower risk of these outcomes. However, prior
+largeprospectivecohortshavelackedgeneticdataonmostpar-
+ticipants, such that it was not possible to examine how ge-
+netic variation in caffeine metabolism affects associations be-
+tweencoffeedrinkingandmortality.Withgeneticdataonmore
+than 400 000 participants in the UK Biobank, we were able to
+stratify each participant based on their genetic susceptibility
+for slower or faster caffeine metabolism. We found very simi-
+lar associations between coffee drinking and mortality across
+levels of examined caffeine metabolism scores. Genetic caf-
+feine metabolism scores are also associated with coffee and di-
+etary caffeine intake behavior18,24,25 and have therefore been
+Association of Coffee Drinking With Mortality by Genetic Variation in Caffeine Metabolism
+Original Investigation Research
+jamainternalmedicine.com
+(Reprinted)
+JAMA Internal Medicine
+August 2018
+Volume 178, Number 8
+1089
+© 2018 American Medical Association. All rights reserved.
+Downloaded From:  by a Midwestern University User  on 01/23/2019
+
+Table 1. Baseline Characteristics by Total Coffee Intake in the UK Biobank Cohorta
+Characteristic
+Coffee Consumption, Cups/d, by 498 134 Participants, No. (%)
+0
+<1
+1
+2-3
+4-5
+6-7
+≥8
+No. (%)
+110 640 (22.2)
+36 159 (7.3)
+99 895 (20.1)
+154 337 (31.0)
+66 539 (13.4)
+20 539 (4.1)
+10 025 (2.0)
+Age, median (IQR), y
+56 (49-62)
+57 (50-63)
+59 (51-64)
+59 (51-64)
+58 (50-63)
+57 (50-63)
+55 (48-61)
+Tea intake, median (IQR), cups/d
+4 (2-6)
+4 (3-6)
+4 (2-5)
+3 (1-4)
+2 (0-3)
+0.5 (0-3)
+0 (0-2)
+wCMSG2, median (IQR)b
+1.8 (0.9-2.0)
+1.8 (0.9-2.0)
+1.8 (0.9-2.0)
+1.8 (0.9-2.0)
+1.8 (0.9-2.0)
+1.8 (0.9-2.9)
+1.8 (0.9-2.9)
+wCMSG4, median (IQR)b
+3.6 (2.5-4.7)
+3.6 (2.5-4.7)
+3.7 (2.5-4.9)
+3.7 (2.6-4.9)
+3.8 (2.6-5.0)
+3.9 (2.6-5.0)
+3.9 (2.7-5.0)
+rs762551 (CYP1A2*1A)b
+0
+7825 (8.8)
+2510 (8.6)
+6557 (8.1)
+9566 (7.6)
+3848 (7.1)
+1140 (6.9)
+507 (6.3)
+1
+36 447 (41.0)
+11 925 (40.16)
+33 065 (40.7)
+50 271 (39.9)
+21 050 (39.1)
+6435 (38.8)
+3075 (38.3)
+2
+44 601 (50.2)
+14 917 (50.8)
+41 620 (51.2)
+66 017 (52.5)
+28 978 (53.8)
+9024 (54.4)
+4438 (55.3)
+Coffee typec
+Instant
+NA
+17 296 (51.0)
+50 855 (52.9)
+83 929 (55.7)
+41 490 (63.7)
+13 623 (67.7)
+6926 (71.2)
+Ground
+NA
+9736 (28.7)
+25 832 (26.9)
+38 133 (25.3)
+10 606 (16.3)
+2336 (11.6)
+1022 (10.5)
+Decaffeinated
+NA
+6854 (20.2)
+19 487 (20.3)
+28 725 (19.1)
+13 044 (20.0)
+4160 (20.7)
+1783 (18.3)
+Sex
+Male
+46 233 (41.8)
+16 179 (44.7)
+42 824 (42.9)
+71 855 (46.6)
+33 704 (50.7)
+10 573 (51.5)
+5747 (57.3)
+Female
+64 407 (58.2)
+19 980 (55.3)
+57 071 (57.1)
+82 482 (53.4)
+32 835 (49.3)
+9966 (48.5)
+4278 (42.7)
+Smoking status
+Never
+65 025 (58.8)
+21 127 (58.4)
+57 666 (57.7)
+84 410 (54.7)
+32 567 (48.9)
+8619 (42.0)
+3301 (32.9)
+Former
+34 767 (31.4)
+12 045 (33.3)
+34 877 (34.9)
+55 591 (36.0)
+24 572 (36.9)
+7531 (36.7)
+3333 (33.2)
+Current
+10 848 (9.8)
+2987 (8.3)
+7352 (7.4)
+14 336 (9.3)
+9400 (14.1)
+4389 (21.4)
+3391 (33.8)
+Race/ethnicity
+White
+99 427 (90.2)
+33 548 (93.1)
+93 754 (94.1)
+148 527 (96.6)
+64 898 (97.9)
+20 113 (98.3)
+9793 (98.0)
+Black
+3419 (3.1)
+757 (2.1)
+1720 (1.7)
+1472 (1.0)
+393 (0.6)
+86 (0.4)
+43 (0.4)
+Asian
+5155 (4.7)
+1102 (3.1)
+2464 (2.5)
+1851 (1.2)
+397 (0.6)
+94 (0.5)
+32 (0.3)
+Mixed
+782 (0.7)
+250 (0.7)
+638 (0.6)
+826 (0.5)
+303 (0.5)
+72 (0.4)
+60 (0.6)
+Other
+1451 (1.3)
+374 (1.0)
+1007 (1.0)
+1154 (0.8)
+310 (0.5)
+105 (0.5)
+61 (0.6)
+Self-reported health
+Excellent
+15 804 (14.4)
+5745 (16.0)
+16 945 (17.0)
+27 649 (18.0)
+11 061 (16.7)
+2965 (14.5)
+1350 (13.6)
+Good
+61 050 (55.5)
+21 036 (58.5)
+58 767 (59.1)
+91 471 (59.5)
+38 576 (58.2)
+11 470 (56.1)
+5052 (50.7)
+Fair
+26 253 (23.9)
+7483 (20.8)
+19 859 (20.0)
+29 334 (19.1)
+13 945 (21.0)
+4892 (23.9)
+2653 (26.6)
+Poor
+6859 (6.2)
+1683 (4.7)
+3912 (3.9)
+5323 (3.5)
+2677 (4.0)
+1115 (5.5)
+900 (9.0)
+(continued)
+Research Original Investigation
+Association of Coffee Drinking With Mortality by Genetic Variation in Caffeine Metabolism
+1090
+JAMA Internal Medicine
+August 2018
+Volume 178, Number 8
+(Reprinted)
+jamainternalmedicine.com
+© 2018 American Medical Association. All rights reserved.
+Downloaded From:  by a Midwestern University User  on 01/23/2019
+
+Table 1. Baseline Characteristics by Total Coffee Intake in the UK Biobank Cohorta (continued)
+Characteristic
+Coffee Consumption, Cups/d, by 498 134 Participants, No. (%)
+0
+<1
+1
+2-3
+4-5
+6-7
+≥8
+BMI
+<18.5
+628 (0.6)
+197 (0.6)
+482 (0.5)
+651 (0.4)
+255 (0.4)
+88 (0.4)
+61 (0.6)
+18.5 to <25.0
+35 035 (32.3)
+12 330 (34.7)
+34 761 (35.4)
+49 339 (32.5)
+17 666 (27.0)
+5091 (25.2)
+2563 (26.1)
+25.0 to <30.0
+44 542 (41.1)
+14 865 (41.9)
+41 338 (42.2)
+66 265 (43.7)
+29 246 (44.7)
+8751 (43.4)
+4100 (41.8)
+30.0 to <35.0
+19 597 (18.1)
+5845 (16.5)
+15 520 (15.8)
+26 015 (17.2)
+13 109 (20.0)
+4365 (21.6)
+2137 (21.8)
+≥35.0
+8517 (7.9)
+2259 (6.4)
+5965 (6.1)
+9398 (6.2)
+5113 (7.8)
+1877 (9.3)
+948 (9.7)
+Physical activity (>10 min of moderate or
+vigorous activity), d/wk
+0
+13 227 (13.3)
+3651 (11.1)
+9244 (10.0)
+14 656 (10.2)
+7403 (12.0)
+2704 (14.4)
+1516 (16.7)
+1-2
+13 330 (13.4)
+4656 (14.2)
+12 319 (13.3)
+19 915 (13.9)
+9096 (14.8)
+2807 (15.0)
+1220 (13.4)
+2-3
+16 665 (16.7)
+6073 (18.5)
+16 721 (18.1)
+26 365 (18.4)
+11 197 (18.2)
+3193 (17.0)
+1374 (15.1)
+≥5
+56 574 (56.7)
+18 450 (56.2)
+54 101 (58.6)
+82 470 (57.5)
+33 814 (55.0)
+10 052 (53.6)
+4991 (54.8)
+Alcohol drinking status, drink/wk
+Never
+9704 (8.8)
+1487 (4.1)
+3813 (3.8)
+4307 (2.8)
+1772 (2.7)
+641 (3.1)
+372 (3.7)
+Former
+6403 (5.8)
+1031 (2.9)
+2701 (2.7)
+3898 (2.5)
+2196 (3.3)
+921 (4.5)
+744 (7.4)
+Current, <1
+31 488 (28.5)
+8958 (24.8)
+22 138 (22.2)
+29 188 (18.9)
+13 388 (20.1)
+4958 (24.2)
+2883 (28.8)
+Current, >1 to <7
+24 656 (22.3)
+9605 (26.6)
+27 538 (27.6)
+40 333 (26.2)
+15 849 (23.8)
+4350 (21.2)
+1771 (17.7)
+Current, 1 to 3
+30 237 (27.4)
+12 134 (33.6)
+35 962 (36.0)
+62 989 (40.8)
+26 649 (40.1)
+7603 (37.1)
+3156 (31.5)
+Current, >3
+8028 (7.3)
+2898 (8.0)
+7668 (7.7)
+13 490 (8.7)
+6619 (10.0)
+2040 (9.9)
+1080 (10.8)
+Education level
+College or university degree
+29 355 (34.6)
+12 440 (41.1)
+33 169 (40.7)
+55 367 (42.7)
+21 949 (39.9)
+5732 (34.9)
+2524 (32.5)
+A levels/AS levels or equivalent
+11 471 (13.5)
+4384 (14.5)
+11 216 (13.8)
+17 592 (13.6)
+7212 (13.1)
+2246 (13.7)
+1015 (13.1)
+O levels/GCSEs or equivalent
+23 441 (27.7)
+7784 (25.7)
+20 795 (25.5)
+31 999 (24.7)
+14 060 (25.6)
+4505 (27.4)
+2138 (27.5)
+CSEs or equivalent
+7245 (8.5)
+1663 (5.5)
+4656 (5.7)
+7347 (5.7)
+3688 (6.7)
+1353 (8.2)
+761 (9.8)
+NVQ or HND or HNC equivalent
+7766 (9.2)
+2224 (7.4)
+6312 (7.7)
+9215 (7.1)
+4609 (8.4)
+1535 (9.3)
+830 (10.7)
+Other professional qualifications
+5495 (6.5)
+1754 (5.8)
+5301 (6.5)
+8098 (6.2)
+3460 (6.3)
+1055 (6.4)
+504 (6.5)
+Abbreviations: BMI, body mass index (calculated as weight in kilograms divided by height in meters squared);
+CSE, Certificate of Secondary Education; GCSE, General Certificate of Secondary Education; HNC, Higher National
+Certificate; HND, Higher National Diploma; IQR, interquartile range; NA, not applicable; NVQ, National Vocational
+Qualification; wCMSG2, weighted genetic caffeine metabolism score defined using 2 single-nucleotide
+polymorphisms (near AHR, CYP1A2); wCMSG4, weighted genetic caffeine metabolism score defined using 4
+single-nucleotide polymorphisms (near AHR, CYP1A2, POR, CYP2A6).
+a Numbers may not sum to n = 498 134 owing to missing data, and percentages may not total 100% owing to
+rounding.
+bn = 403 816 included in the genetic analyses.
+c n = 7086 reported “other type of coffee”; n = 4571 had missing data.
+Association of Coffee Drinking With Mortality by Genetic Variation in Caffeine Metabolism
+Original Investigation Research
+jamainternalmedicine.com
+(Reprinted)
+JAMA Internal Medicine
+August 2018
+Volume 178, Number 8
+1091
+© 2018 American Medical Association. All rights reserved.
+Downloaded From:  by a Midwestern University User  on 01/23/2019
+
+Table 2. Hazard Ratios for Coffee Intake and All-Cause and Cause-Specific Mortality in the UK Biobank
+Cause of Death
+Coffee Consumption, Cups/d, by 498 134 Participants, HR (95% CI)
+0 (n = 110 640)
+<1 (n = 36 159)
+1 (n = 99 895)
+2-3 (n = 154 337)
+4-5 (n = 66 539)
+6-7 (n = 20 539)
+≥8 (n = 10 025)
+P Value for Trenda
+All Causes
+Deaths, No.
+3395
+994
+2694
+4098
+1957
+690
+397
+Age- and sex-adjusted
+1.00
+0.83 (0.77-0.89)
+0.77 (0.73-0.81)
+0.76 (0.72-0.79)
+0.87 (0.82-0.92)
+1.01 (0.93-1.10)
+1.30 (1.17-1.45)
+.05
+Multivariable-adjustedb
+1.00
+0.94 (0.88-1.01)
+0.92 (0.87-0.97)
+0.88 (0.84-0.93)
+0.88 (0.83-0.93)
+0.84 (0.77-0.92)
+0.86 (0.77-0.95)
+<.001
+Cause of Death
+0 (n = 110 640)
+<1 (n = 36 159)
+1 (n = 99 895)
+2-3 (n = 154 337)
+4-5 (n = 66 539)
+≥6 (n = 30 564)
+P Value for Trend
+All cancer
+Deaths, No.
+1885
+588
+1628
+2450
+1149
+594
+Multivariable-adjustedb
+1 [Reference]
+0.97 (0.88-1.06)
+0.95 (0.89-1.02)
+0.91 (0.86-0.97)
+0.92 (0.85-1.00)
+0.87 (0.79-0.96)
+.003
+Bronchial and Lung Cancer
+Deaths, No.
+383
+90
+229
+381
+245
+160
+Multivariable-adjustedb
+1 [Reference]
+0.84 (0.66-1.05)
+0.79 (0.67-0.94)
+0.80 (0.69-0.93)
+0.91 (0.77-1.09)
+0.86 (0.70-1.05)
+.41
+Colorectal Cancer
+Deaths, No.
+169
+61
+156
+256
+90
+57
+Multivariable-adjustedb
+1 [Reference]
+1.04 (0.77-1.39)
+0.93 (0.74-1.16)
+0.94 (0.77-1.15)
+0.74 (0.56-0.97)
+0.96 (0.70-1.32)
+.14
+Female Breast Cancerc
+Deaths, No.
+193
+58
+145
+221
+73
+33
+Multivariable-adjusted
+1 [Reference]
+0.93 (0.69-1.26)
+0.84 (0.68-1.05)
+0.91 (0.74-1.12)
+0.75 (0.56-0.99)
+0.74 (0.50-1.09)
+.06
+Pancreatic Cancer
+Deaths, No.
+115
+36
+119
+172
+78
+32
+Multivariable-adjustedb
+1 [Reference]
+0.94 (0.65-1.37)
+1.05 (0.81-1.36)
+0.96 (0.75-1.24)
+0.99 (0.73-1.34)
+0.81 (0.54-1.24)
+.44
+All Cardiovascular Disease
+Deaths, No.
+676
+196
+524
+781
+417
+239
+Multivariable-adjustedb
+1 [Reference]
+0.97 (0.82-1.13)
+0.93 (0.83-1.05)
+0.86 (0.77-0.96)
+0.91 (0.80-1.04)
+0.87 (0.74-1.02)
+.05
+Ischemic Heart Disease
+Deaths, No.
+375
+111
+293
+460
+251
+144
+Multivariable-adjustedb
+1 [Reference]
+1.00 (0.80-1.23)
+0.97 (0.83-1.13)
+0.94 (0.81-1.08)
+0.99 (0.83-1.17)
+0.91 (0.74-1.12)
+.50
+Stroke
+Deaths, No.
+148
+34
+106
+140
+73
+42
+Multivariable-adjustedb
+1 [Reference]
+0.76 (0.52-1.10)
+0.83 (0.64-1.07)
+0.70 (0.55-0.89)
+0.75 (0.55-1.01)
+0.75 (0.52-1.09)
+.05
+Respiratory Disease
+Deaths, No.
+154
+34
+77
+137
+78
+73
+Multivariable-adjustedb
+1 [Reference]
+0.88 (0.61-1.28)
+0.74 (0.56-0.98)
+0.88 (0.69-1.12)
+0.92 (0.69-1.24)
+1.20 (0.88-1.64)
+.25
+Abbreviations:CSE,CertificateofSecondaryEducation;GCSE,GeneralCertificateofSecondaryEducation;HNC,Higher
+NationalCertificate;HND,HigherNationalDiploma;HR,hazardratio;NVQ,NationalVocationalQualification.
+a Pvaluefortrendcorrespondstotheχ2teststatisticforcoffeeintakeasacontinuousvariable,usingthemidpointofeach
+categoryandvaluesof8and6forthehighestintakecategoriesof8cups/dand6cups/d,respectively.
+bMultivariable model is also adjusted for detailed smoking history (25-level variable incorporating current
+smoking status, smoking intensity [current and former smokers]; time since quitting [former smokers], and cigar
+and pipe use [current and former smokers]); race/ethnicity (white, black, Asian, mixed, or other race); alcohol
+drinking (never drinker, former drinker, infrequent drinker [<1 drink/wk], occasional drinker [>1 drink/wk but <1
+drink/d], moderate daily drinker [1-3 drinks/d], or heavy daily drinker [>3 drinks/d]); general health status
+(excellent, good, fair, or poor); education level (college or university degree, A levels/AS levels or equivalent,
+O levels/GCSEs or equivalent, CSEs or equivalent, NVQ or HND or HNC equivalent, or other professional
+qualifications); and body mass index (calculated as weight in kilograms divided by height in meters squared)
+(<18.5, 18.5 to <25.0, 25.0 to <30.0, 30.0 to <35.0, or 35.0); physical activity (0, 1-2, 3-4, or 5 d of >10 min of
+moderate- or vigorous-intensity activity); tea intake (0, <1, 1, 2 or 3, 4 or 5, or 6 cups/d).
+c n = 271 019 women.
+Research Original Investigation
+Association of Coffee Drinking With Mortality by Genetic Variation in Caffeine Metabolism
+1092
+JAMA Internal Medicine
+August 2018
+Volume 178, Number 8
+(Reprinted)
+jamainternalmedicine.com
+© 2018 American Medical Association. All rights reserved.
+Downloaded From:  by a Midwestern University User  on 01/23/2019
+
+Table 3. Multivariable-Adjusted Hazard Ratios (HRs) and 95% CIs for Coffee Intake and All-Cause and Cause-Specific Mortality by Coffee Type in the UK Biobank
+Cause of Death
+Coffee Consumption, Cups/d, by 498 134 Participants
+0
+<1
+1
+2-3
+4-5
+≥6
+P Value
+for Trend a
+Instant Coffee vs None (n = 324 759)b
+All causes
+Deaths, No.
+3395
+552
+1484
+2427
+1277
+779
+<.001
+HR (95% CI)c
+1 [Reference]
+0.98 (0.90-1.07)
+0.90 (0.85-0.96)
+0.90 (0.85-0.95)
+0.87 (0.81-0.93)
+0.85 (0.78-0.92)
+All cancer
+Deaths, No.
+1885
+315
+875
+1389
+742
+420
+.004
+HR (95% CI) c
+1 [Reference]
+0.99 (0.88-1.11)
+0.92 (0.85-1.00)
+0.89 (0.83-0.96)
+0.91 (0.83-1.00)
+0.87 (0.77-0.98)
+All CVD
+Deaths, No.
+676
+112
+280
+490
+296
+178
+.47
+HR (95% CI)c
+1 [Reference]
+0.98 (0.80-1.20)
+0.86 (0.74-0.99)
+0.90 (0.79-1.02)
+0.97 (0.84-1.13)
+0.91 (0.76-1.09)
+Ground Coffee vs None (n = 198 305)b
+All causes
+Deaths, No.
+3395
+205
+596
+812
+248
+92
+<.001
+HR (95% CI)c
+1 [Reference]
+0.89 (0.77-1.02)
+0.94 (0.85-1.03)
+0.80 (0.74-0.87)
+0.76 (0.67-0.87)
+0.74 (0.60-0.92)
+All cancer
+Deaths, No.
+1885
+132
+385
+537
+153
+48
+.004
+HR (95% CI)c
+1 [Reference]
+0.96 (0.80-1.15)
+1.03 (0.91-1.15)
+0.91 (0.82-1.02)
+0.85 (0.71-1.01)
+0.73 (0.55-0.98)
+All CVD
+Deaths, No.
+676
+40
+127
+129
+32
+17
+<.001
+HR (95% CI)c
+1 [Reference]
+0.90 (0.65-1.24)
+1.01 (0.83-1.24)
+0.63 (0.51-0.77)
+0.46 (0.32-0.66)
+0.61 (0.37-1.00)
+Decaffeinated Coffee vs None (n = 184 693)
+All causes
+Deaths, No.
+3395
+157
+492
+733
+379
+173
+<.001
+HR (95% CI)c
+1 [Reference]
+0.86 (0.73-1.01)
+0.88 (0.80-0.97)
+0.85 (0.78-0.93)
+0.90 (0.81-1.01)
+0.78 (0.66-0.91)
+All cancer
+Deaths, No.
+1885
+93
+303
+457
+217
+106
+.09
+HR (95% CI)c
+1 [Reference]
+0.87 (0.70-1.07)
+0.93 (0.82-1.05)
+0.92 (0.83-1.02)
+0.93 (0.80-1.08)
+0.88 (0.72-1.08)
+All CVD
+Deaths, No.
+676
+26
+93
+130
+82
+31
+.03
+HR (95% CI)c
+1 [Reference]
+0.78 (0.52-1.15)
+0.88 (0.70-1.09)
+0.78 (0.64-0.95)
+0.96 (0.75-1.22)
+0.67 (0.46-0.98)
+Abbreviations: CSE, Certificate of Secondary Education; CVD, cardiovascular disease; GCSE, General Certificate of
+Secondary Education; HNC, Higher National Certificate; HND, Higher National Diploma; NVQ, National Vocational
+Qualification.
+a P value for trend corresponds to the χ2 test statistic for coffee intake as a continuous variable, using the
+midpoint of each category and a value of 6 for 6 cups/d.
+bSample size for each coffee type includes n = 110 640 non–coffee drinkers; n = 11 657 participants were missing data
+on coffee type or reported “other type of coffee” to the question “What type of coffee do you usually drink?”
+c Multivariable model is adjusted for age, sex, detailed smoking history (25-level variable incorporating current
+smoking status, smoking intensity [current and former smokers]; time since quitting [former smokers], and cigar
+and pipe use [current and former smokers]); race/ethnicity (white, black, Asian, mixed, or other race); alcohol
+drinking (never drinker, former drinker, infrequent drinker [<1 drink/wk], occasional drinker [>1 drink/wk but <1
+drink/d], moderate daily drinker [1 to 3 drinks/d], or heavy daily drinker [>3 drinks/d]); general health status
+(excellent, good, fair, or poor); education level (college or university degree, A levels/AS levels or equivalent,
+O levels/GCSEs or equivalent, CSEs or equivalent, NVQ or HND or HNC equivalent, or other professional
+qualifications); and body mass index (calculated as weight in kilograms divided by height in meters squared)
+(<18.5, 18.5 to <25.0, 25.0 to <30.0, 30.0 to <35.0, or 35.0); physical activity (0, 1-2, 3-4, or 5 d of >10
+minutes of moderate- or vigorous-intensity activity); tea intake (0, <1, 1, 2 or 3, 4 or 5, or 6 cups/d).
+Association of Coffee Drinking With Mortality by Genetic Variation in Caffeine Metabolism
+Original Investigation Research
+jamainternalmedicine.com
+(Reprinted)
+JAMA Internal Medicine
+August 2018
+Volume 178, Number 8
+1093
+© 2018 American Medical Association. All rights reserved.
+Downloaded From:  by a Midwestern University User  on 01/23/2019
+
+Table 4. Association Between Coffee Intake and All-Cause Mortality in the UK Biobank Stratified by Weighted Genetic Caffeine Metabolism Score (wCMSG)a
+Coffee Consumption, Cups/d
+P Value
+0
+<1
+1
+2-3
+4-5
+≥6
+Trendb
+Heterogeneityc
+Overall (n = 403 816)
+Deaths, No.
+2654
+786
+2141
+3256
+1546
+867
+HR (95% CI)d
+1 [Reference]
+0.94 (0.87-1.02)
+0.91 (0.86-0.97)
+0.87 (0.83-0.92)
+0.86 (0.80-0.92)
+0.84 (0.77-0.91)
+<.001
+CMSG2
+e
+0 to 1 (n = 139 311)
+.75
+Deaths, No.
+982
+291
+751
+1031
+511
+257
+HR (95% CI)d
+1 [Reference]
+0.94 (0.82-1.07)
+0.90 (0.81-0.99)
+0.83 (0.76-0.91)
+0.93 (0.83-1.05)
+0.91 (0.79-1.05)
+.11
+>1 to 2 (n = 178 336)
+Deaths, No.
+1151
+329
+939
+1468
+669
+371
+HR (95% CI)d
+1 [Reference]
+0.90 (0.80-1.02)
+0.91 (0.83-0.99)
+0.88 (0.81-0.96)
+0.83 (0.75-0.92)
+0.79 (0.69-0.89)
+<.001
+>2 (n = 86 169)
+Deaths, No.
+521
+166
+451
+757
+366
+239
+HR (95% CI)d
+1 [Reference]
+1.05 (0.88-1.25)
+0.96 (0.85-1.09)
+0.92 (0.82-1.03)
+0.82 (0.71-0.95)
+0.83 (0.70-0.98)
+.002
+CMSG4
+f
+0 to 2 (n = 46 732)
+.17
+Deaths, No.
+313
+101
+236
+317
+145
+64
+HR (95% CI)d
+1 [Reference]
+1.00 (0.79-1.25)
+0.87 (0.73-1.03)
+0.82 (0.70-0.97)
+0.83 (0.67-1.02)
+0.70 (0.53-0.94)
+.007
+>2 to 3 (n = 100 609)
+Deaths, No.
+692
+205
+581
+756
+361
+189
+HR (95% CI)d
+1 [Reference]
+0.93 (0.79-1.08)
+0.98 (0.87-1.10)
+0.86 (0.77-0.96)
+0.94 (0.82-1.08)
+0.92 (0.78-1.10)
+.15
+>3 to 4 (n = 121 719)
+Deaths, No.
+809
+224
+639
+989
+469
+273
+HR (95% CI)d
+1 [Reference]
+0.90 (0.78-1.05)
+0.90 (0.81-1.00)
+0.84 (0.76-0.93)
+0.84 (0.74-0.95)
+0.86 (0.74-1.00)
+.006
+>4 (n = 134 756)
+Deaths, No.
+840
+256
+685
+1194
+571
+341
+HR (95% CI)d
+1 [Reference]
+0.97 (0.85-1.12)
+0.89 (0.81-0.99)
+0.92 (0.83-1.00)
+0.83 (0.74-0.93)
+0.78 (0.68-0.90)
+<.001
+Abbreviations: CMSG; Genetic Caffeine Metabolism Score; GCSE, General Certificate of Secondary Education;
+HNC, Higher National Certificate; HND, Higher National Diploma; HR, hazard ratio; NVQ, National Vocational
+Qualification; SNP, single-nucleotide polymorphism.
+a Genetic caffeine metabolism scores were weighted by summing the number of alleles multiplied by their
+β-coefficients (see Methods section). The latter were estimated by z/{sqrt[p(1 −p)]}, where z is the SNP z-score
+for the paraxanthine to caffeine ratio and p is the SNP minor allele frequency. Weighted scores were then
+calibrated such that wCMSG2 and wCMSG4 scores ranged from 0 to 4 and from 0 to 8, respectively, with higher
+scores predicting faster caffeine metabolism.
+bP value for trend corresponds to the χ2 test statistic for coffee intake as a continuous variable, using the
+midpoint of each category and a value of 6 for 6 cups/d.
+c P value for heterogeneity corresponds to the χ2 test statistic for the likelihood ratio test comparing the models
+with and without the interaction term between the coffee (cups/d) and the CMSG variable of interest
+(continuous score).
+dMultivariable model is adjusted for age, sex, detailed smoking history (25-level variable incorporating current
+smoking status, smoking intensity [current and former smokers]; time since quitting [former smokers], and cigar
+and pipe use [current and former smokers]); race/ethnicity (white, black, Asian, mixed, or other race); alcohol
+drinking (never drinker, former drinker, infrequent drinker [<1 drink/wk], occasional drinker [>1 drink/wk but <1
+drink/d], moderate daily drinker [1-3 drinks/d], or heavy daily drinker [>3 drinks/d]); general health status
+(excellent, good, fair, or poor); education level (college or university degree, A levels/AS levels or equivalent, O
+levels/GCSE or equivalent, CSE or equivalent, NVQ or HND or HNC equivalent, or other professional
+qualifications); and body mass index (calculated as weight in kilograms divided by height in meters squared)
+(<18.5, 18.5 to <25.0, 25.0 to <30.0, 30.0 to <35.0, or 35.0); physical activity (0, 1-2, 3-4, or 5 d of >10 min of
+moderate- or vigorous-intensity activity); tea intake (0, <1, 1, 2 or 3, 4 or 5, or 6 cups/d).
+e wCMSG2 defined using 2 SNPs, AHR, CYP1A2.
+f wCMSG4 defined using 4 SNPs, AHR, CYP1A2, POR, CYP2A6.
+Research Original Investigation
+Association of Coffee Drinking With Mortality by Genetic Variation in Caffeine Metabolism
+1094
+JAMA Internal Medicine
+August 2018
+Volume 178, Number 8
+(Reprinted)
+jamainternalmedicine.com
+© 2018 American Medical Association. All rights reserved.
+Downloaded From:  by a Midwestern University User  on 01/23/2019
+
+used in Mendelian randomization studies of coffee and
+health.26,27 In the present study, we observed a weak positive
+association between wCMSG4 and all-cause mortality, which
+may indicate that slower caffeine metabolism is beneficial.
+However, results of these Mendelian randomization studies
+warrant careful interpretation because CMSG explains only a
+very small proportion of the variance in coffee intake25 and,
+importantly, also reflects biological exposure to caffeine,24,28
+which is how we have applied it in the present study.
+The UK Biobank presented a unique opportunity to as-
+sess potential differences between drinking instant vs ground
+coffee because 55% of coffee drinkers reported usually drink-
+ing instant coffee. Associations for ground coffee and all-
+cause mortality were generally stronger than those for in-
+stant coffee. This observation may be explained by residual
+confounding owing to unmeasured or poorly measured con-
+founders. For example, instant coffee was more common
+among participants without a college degree than among col-
+lege graduates. Alternatively, instant coffees have been shown
+tohaveloweramountsofbioactivecompounds,includingpoly-
+phenols, than ground coffees,29 which may have an effect on
+observed associations. Mechanisms hypothesized to explain
+the potential protective effect of coffee drinking on mortality
+risk include reduced inflammation,30 improved insulin
+sensitivity,31 and effects on liver enzyme levels31 and endo-
+thelial function.32 Further studies with more detailed infor-
+mationoncoffeetypeandpreparationmayprovideinsightinto
+the mechanisms underlying coffee–chronic disease associa-
+Table 5. Association Between Coffee Intake and All-Cause Mortality in the UK Biobank Stratified by Potential Risk Factors
+Baseline
+Characteristic
+Subgroup
+Coffee Consumption, Cups/d
+P Value
+0
+<1
+1
+2-3
+4-5
+≥6
+Trenda
+Hetero-
+geneityb
+Men (n = 227 115)
+Deaths, No.
+2001
+611
+1579
+2486
+1239
+711
+.45
+HR (95% CI)c
+1 [Reference]
+0.97 (0.88-1.06)
+0.93 (0.87-0.99)
+0.88 (0.83-0.94)
+0.88 (0.81-0.95)
+0.84 (0.77-0.92) <.001
+Women (n = 27 1019)
+Deaths, No.
+1394
+383
+1115
+1612
+718
+376
+HR (95% CI)c
+1 [Reference]
+0.91 (0.81-1.02)
+0.91 (0.84-0.98)
+0.89 (0.83-0.96)
+0.88 (0.80-0.97)
+0.86 (0.76-0.97)
+.005
+<55 Years of Age (n = 209 103)
+Deaths, No.
+735
+168
+407
+666
+386
+258
+.89
+HR (95% CI)d
+1 [Reference]
+0.84 (0.71-1.00)
+0.87 (0.77-0.98)
+0.86 (0.77-0.96)
+0.88 (0.77-1.00)
+0.85 (0.72-0.99)
+.05
+≥55 Years of Age (n = 289 031)
+Deaths, No.
+2660
+826
+2287
+3432
+1571
+829
+HR (95% CI)d
+1 [Reference]
+0.97 (0.90-1.05)
+0.93 (0.88-0.99)
+0.89 (0.84-0.94)
+0.88 (0.82-0.94)
+0.85 (0.78-0.92) <.001
+Never-Smoker (n = 272 715)
+Deaths, No.
+1271
+392
+1144
+1628
+634
+240
+.29
+HR (95% CI)c
+1 [Reference]
+0.95 (0.85-1.06)
+0.96 (0.88-1.04)
+0.94 (0.87-1.01)
+0.93 (0.84-1.03)
+0.93 (0.80-1.07)
+.14
+Former Smoker (n = 172 716)
+Deaths, No.
+1392
+436
+1168
+1805
+824
+395
+HR (95% CI)d
+1 [Reference]
+0.97 (0.87-1.08)
+0.92 (0.85-0.99)
+0.89 (0.83-0.96)
+0.86 (0.79-0.95)
+0.83 (0.73-0.93) <.001
+Current Smoker (n = 52 703)
+Deaths, No.
+732
+166
+382
+665
+499
+452
+HR (95% CI)d
+1 [Reference]
+0.91 (0.77-1.08)
+0.88 (0.77-0.99)
+0.78 (0.70-0.87)
+0.80 (0.71-0.91)
+0.76 (0.67-0.87) <.001
+Excellent/Good Health (n = 368 941)
+Deaths, No.
+1561
+527
+1459
+2361
+1086
+528
+.01
+HR (95% CI)c
+1 [Reference]
+0.95 (0.86-1.05)
+0.89 (0.83-0.96)
+0.89 (0.83-0.95)
+0.89 (0.82-0.97)
+0.89 (0.80-0.99)
+.01
+Fair/Poor Health (n = 126 888)
+Deaths, No.
+1789
+453
+1211
+1697
+862
+546
+HR (95% CI)c
+1 [Reference]
+0.94 (0.85-1.04)
+0.94 (0.87-1.01)
+0.86 (0.80-0.93)
+0.83 (0.76-0.91)
+0.78 (0.70-0.86) <.001
+BMI 18.5 to <25.0 (n = 156 785)
+Deaths, No.
+886
+282
+749
+1050
+457
+281
+.19
+HR (95% CI)c
+1 [Reference]
+0.99 (0.86-1.13)
+0.93 (0.84-1.03)
+0.88 (0.80-0.97)
+0.88 (0.78-0.99)
+0.88 (0.76-1.02)
+.01
+BMI 25.0 to <30.0 (n = 209 107)
+Deaths, No.
+1281
+366
+1046
+1673
+777
+404
+HR (95% CI)c
+1 [Reference]
+0.88 (0.78-0.99)
+0.88 (0.81-0.96)
+0.86 (0.80-0.93)
+0.85 (0.77-0.93)
+0.82 (0.73-0.93) <.001
+BMI ≥30.0 (n = 120 665)
+Deaths, No.
+968
+8104
+775
+1162
+611
+330
+HR (95% CI)c
+1 [Reference]
+1.00 (0.88-1.14)
+1.03 (0.94-1.13)
+0.93 (0.85-1.02)
+0.91 (0.81-1.01)
+0.83 (0.73-0.95)
+.001
+No History of Diabetes (n = 470 575)e
+Deaths, No.
+2867
+867
+2348
+3575
+1695
+922
+.18
+HR (95% CI)c
+1 [Reference]
+0.95 (0.88-1.03)
+0.92 (0.87-0.97)
+0.88 (0.84-0.93)
+0.88 (0.82-0.94)
+0.83 (0.77-0.90) <.001
+(continued)
+Association of Coffee Drinking With Mortality by Genetic Variation in Caffeine Metabolism
+Original Investigation Research
+jamainternalmedicine.com
+(Reprinted)
+JAMA Internal Medicine
+August 2018
+Volume 178, Number 8
+1095
+© 2018 American Medical Association. All rights reserved.
+Downloaded From:  by a Midwestern University User  on 01/23/2019
+
+tions. For example, information on coffee preparation (ie, fil-
+tered, cappuccino, espresso, and latte) is available on a sub-
+set of approximately 70 000 UK Biobank participants who
+completed 24-hour dietary recalls at baseline and will be use-
+ful as the cohort matures.
+Strengths and Limitations
+Strengths of this study include its prospective design, large
+sample size, wide range of coffee intake, and availability of
+genotype and coffee type data. Limitations include the
+study’s low participation rate, approximately 5.5%; conse-
+quently, the cohort is not demographically representative of
+the general UK population, with evidence of a “healthy vol-
+unteer” selection bias.22 Nevertheless, valid estimation of
+exposure-disease relationships does not require a represen-
+tative population,22 and our results reflect those from prior
+studies in different populations worldwide. Despite the
+large size of the cohort, there were relatively few deaths
+from specific types of cancer and cardiovascular disease.
+However, future analyses of these end points will be pos-
+sible as the UK Biobank cohort matures.
+Conclusions
+In the very large UK Biobank cohort, coffee drinking was as-
+sociated inversely with all-cause mortality, including in those
+drinking at least 8 cups per day, in both slow and fast metabo-
+lizers of caffeine, and in consumers of ground, instant, and de-
+caffeinated coffee. Our results are based on observational data
+and should be interpreted with caution. Nevertheless, these
+results provide further evidence that coffee drinking can be
+part of a healthy diet and may provide reassurance to those
+who drink coffee and enjoy it.
+ARTICLE INFORMATION
+Accepted for Publication: April 18, 2018.
+Published Online: July 2, 2018.
+doi:10.1001/jamainternmed.2018.2425
+Author Contributions: Dr Loftfield had full access
+to all of the data in the study and takes
+responsibility for the integrity of the data and the
+accuracy of the data analysis.
+Study concept and design: Loftfield, Yu, Sinha,
+Freedman.
+Acquisition, analysis, or interpretation of data:
+Loftfield, Cornelis, Caporaso, Yu, Freedman.
+Drafting of the manuscript: Loftfield, Cornelis,
+Sinha.
+Critical revision of the manuscript for important
+intellectual content: All authors.
+Statistical analysis: Loftfield, Cornelis, Yu.
+Administrative, technical, or material support:
+Loftfield, Caporaso, Freedman.
+Study supervision: Sinha, Freedman.
+Conflict of Interest Disclosures: None reported.
+Funding/Support: This research was conducted
+using the UK Biobank resource (applications 18623
+and 21394). The UK Biobank was established by the
+Wellcome Trust, the Medical Research Council, the
+UK Department of Health, and the Scottish
+Government. The UK Biobank has also received
+funding from the Welsh Assembly Government, the
+British Heart Foundation, and Diabetes United
+Kingdom. This work used the computational
+resources of the National Institutes of Health’s
+(NIH) High-Performance Computing Biowulf cluster
+and was supported by the Intramural Research
+Program of the NIH; Division of Cancer
+Epidemiology and Genetics, National Cancer
+Institute, NIH; and the Department of Health and
+Human Services.
+Role of the Funder/Sponsor: The study sponsors
+had no role in the design and conduct of the study;
+collection, management, analysis, and
+interpretation of the data; preparation, review, or
+Table 5. Association Between Coffee Intake and All-Cause Mortality in the UK Biobank Stratified by Potential Risk Factors (continued)
+Baseline
+Characteristic
+Subgroup
+Coffee Consumption, Cups/d
+P Value
+0
+<1
+1
+2-3
+4-5
+≥6
+Trenda
+Hetero-
+geneityb
+History of Diabetes (n = 26 063)c
+Deaths, No.
+505
+124
+336
+503
+253
+159
+HR (95% CI)c
+1 [Reference]
+0.89 (0.73-1.09)
+0.91 (0.79-1.05)
+0.86 (0.75-0.98)
+0.82 (0.69-0.96)
+0.88 (0.72-1.06)
+.06
+No History of Cancer, Heart Attack, or Stroke (n = 447 064)f
+Deaths, No.
+2325
+684
+1831
+2841
+1413
+781
+.19
+HR (95% CI)c
+1 [Reference]
+0.94 (0.86-1.02)
+0.88 (0.83-0.94)
+0.85 (0.80-0.90)
+0.87 (0.81-0.93)
+0.84 (0.77-0.92) <.001
+History of Cancer, Heart Attack, or Stroke (n = 51 070)f
+Deaths, No.
+1070
+310
+863
+1257
+544
+306
+HR (95% CI)c
+1 [Reference]
+0.96 (0.84-1.09)
+1.00 (0.92-1.10)
+1.00 (0.92-1.09)
+0.91 (0.82-1.02)
+0.87 (0.75-0.99)
+.03
+Abbreviations: BMI, body mass index (calculated as weight in kilograms divided
+by height in meters squared); GCSE, General Certificate of Secondary
+Education; HNC, Higher National Certificate; HND, Higher National Diploma;
+HR, hazard ratio; NVQ, National Vocational Qualification.
+a P value for trend corresponds to the χ2 test statistic for coffee intake as a
+continuous variable, using the midpoint of each category and a value of 6 for
+6 cups/d.
+bP value for heterogeneity corresponds to the χ2 test statistic for the likelihood
+ratio test comparing the models with and without the interaction term
+between coffee (continuous) and the stratifying variable of interest
+(categorical).
+c Multivariable model is adjusted for age, sex, detailed smoking history (25-level
+variable incorporating current smoking status, smoking intensity [current and
+former smokers]; time since quitting [former smokers], and cigar and pipe use
+[current and former smokers]); race/ethnicity (white, black, Asian, mixed, or
+other race); alcohol drinking (never drinker, former drinker, infrequent drinker
+[<1 drink/wk], occasional drinker [>1 drink/wk but <1 drink/d], moderate daily
+drinker [1-3 drinks/d], or heavy daily drinker [>3 drinks/d]); general health
+status (excellent, good, fair, or poor); education level (college or university
+degree, A levels/AS levels or equivalent, O levels/GCSE or equivalent, CSE,
+NVQ or HND or HNC equivalent, or other professional qualifications); and
+body mass index (calculated as weight in kilograms divided by height in
+meters squared) (<18.5, 18.5 to <25.0, 25.0 to <30.0, 30.0 to <35.0, or 35.0);
+physical activity (0, 1-2, 3-4, or 5 d of >10 min of moderate- or
+vigorous-intensity activity); tea intake (0, <1, 1, 2 or 3, 4 or 5, or 6 cups/d) less
+the stratifying variable.
+dAge and smoking subgroups (ie, former and current smokers) are adjusted for
+all variables including age and detailed former or current smoking.
+e Self-reported diagnosis of diabetes by a physician.
+f Self-reported diagnosis of cancer, other than nonmelanoma skin cancer, or
+heart attack, or stroke by a physician.
+Research Original Investigation
+Association of Coffee Drinking With Mortality by Genetic Variation in Caffeine Metabolism
+1096
+JAMA Internal Medicine
+August 2018
+Volume 178, Number 8
+(Reprinted)
+jamainternalmedicine.com
+© 2018 American Medical Association. All rights reserved.
+Downloaded From:  by a Midwestern University User  on 01/23/2019
+
+approval of the manuscript; and decision to submit
+the manuscript for publication.
+Additional Contributions: We thank Michael
+Stagner, BS, at Information Management Services,
+who provided technical support, for which he was
+compensated.
+REFERENCES
+1. Ding M, Bhupathiraju SN, Satija A, van Dam RM,
+Hu FB. Long-term coffee consumption and risk of
+cardiovascular disease: a systematic review and a
+dose-response meta-analysis of prospective cohort
+studies. Circulation. 2014;129(6):643-659.
+2. Larsson SC, Orsini N. Coffee consumption and
+risk of stroke: a dose-response meta-analysis of
+prospective studies. Am J Epidemiol. 2011;174(9):
+993-1001.
+3. Ding M, Bhupathiraju SN, Chen M, van Dam RM,
+Hu FB. Caffeinated and decaffeinated coffee
+consumption and risk of type 2 diabetes:
+a systematic review and a dose-response
+meta-analysis. Diabetes Care. 2014;37(2):569-586.
+4. Liu R, Guo X, Park Y, et al. Caffeine intake,
+smoking, and risk of Parkinson disease in men and
+women. Am J Epidemiol. 2012;175(11):1200-1207.
+5. Bravi F, Bosetti C, Tavani A, Gallus S, La Vecchia
+C. Coffee reduces risk for hepatocellular carcinoma:
+an updated meta-analysis. Clin Gastroenterol Hepatol.
+2013;11(11):1413-1421.e1.
+6. Gan Y, Wu J, Zhang S, et al. Association of coffee
+consumption with risk of colorectal cancer:
+a meta-analysis of prospective cohort studies.
+Oncotarget. 2017;8(12):18699-18711.
+7. Zhou Q, Luo ML, Li H, Li M, Zhou JG. Coffee
+consumption and risk of endometrial cancer:
+a dose-response meta-analysis of prospective
+cohort studies. Sci Rep. 2015;5:13410.
+8. Gapstur SM, Anderson RL, Campbell PT, et al.
+Associations of coffee drinking and cancer mortality
+in the Cancer Prevention Study-II. Cancer Epidemiol
+Biomarkers Prev. 2017;26(10):1477-1486.
+9. Park SY, Freedman ND, Haiman CA, Le Marchand
+L, Wilkens LR, Setiawan VW. Association of coffee
+consumption with total and cause-specific
+mortality among nonwhite populations. Ann Intern
+Med. 2017;167(4):228-235.
+10. Gunter MJ, Murphy N, Cross AJ, et al. Coffee
+drinking and mortality in 10 European countries:
+a multinational cohort study. Ann Intern Med. 2017;
+167(4):236-247.
+11. Freedman ND, Park Y, Abnet CC, Hollenbeck AR,
+Sinha R. Association of coffee drinking with total
+and cause-specific mortality. N Engl J Med. 2012;
+366(20):1891-1904.
+12. Loftfield E, Freedman ND, Graubard BI, et al.
+Association of coffee consumption with overall and
+cause-specific mortality in a large US prospective
+cohort study. Am J Epidemiol. 2015;182(12):1010-
+1022.
+13. Ding M, Satija A, Bhupathiraju SN, et al.
+Association of coffee consumption with total and
+cause-specific mortality in 3 large prospective
+cohorts. Circulation. 2015;132(24):2305-2315.
+14. Crippa A, Discacciati A, Larsson SC, Wolk A,
+Orsini N. Coffee consumption and mortality from all
+causes, cardiovascular disease, and cancer:
+a dose-response meta-analysis. Am J Epidemiol.
+2014;180(8):763-775.
+15. Tamakoshi A, Lin Y, Kawado M, Yagyu K, Kikuchi
+S, Iso H; JACC Study Group. Effect of coffee
+consumption on all-cause and total cancer
+mortality: findings from the JACC study. Eur J
+Epidemiol. 2011;26(4):285-293.
+16. Poole R, Kennedy OJ, Roderick P, Fallowfield JA,
+Hayes PC, Parkes J. Coffee consumption and health:
+umbrella review of meta-analyses of multiple health
+outcomes. BMJ. 2017;359:j5024.
+17. Dietary Guidelines for Americans Advisory
+Committee. Scientific Report of the 2015 Dietary
+Guidelines Advisory Committee. Washington, DC:
+USDA and US Department of Health and Human
+Services; 2015.
+18. Cornelis MC, Byrne EM, Esko T, et al; Coffee and
+Caffeine Genetics Consortium; International
+Parkinson’s Disease Genomics Consortium (IPDGC);
+North American Brain Expression Consortium
+(NABEC); UK Brain Expression Consortium
+(UKBEC). Genome-wide meta-analysis identifies six
+novel loci associated with habitual coffee
+consumption. Mol Psychiatry. 2015;20(5):647-656.
+19. Cornelis MC, El-Sohemy A, Kabagambe EK,
+Campos H. Coffee, CYP1A2 genotype, and risk of
+myocardial infarction. JAMA. 2006;295(10):1135-1141.
+20. Palatini P, Ceolotto G, Ragazzo F, et al. CYP1A2
+genotype modifies the association between coffee
+intake and the risk of hypertension. J Hypertens.
+2009;27(8):1594-1601.
+21. Sudlow C, Gallacher J, Allen N, et al. UK
+Biobank: an open access resource for identifying
+the causes of a wide range of complex diseases of
+middle and old age. PLoS Med. 2015;12(3):e1001779.
+22. Fry A, Littlejohns TJ, Sudlow C, et al.
+Comparison of sociodemographic and
+health-related characteristics of UK Biobank
+participants with those of the general population.
+Am J Epidemiol. 2017;186(9):1026-1034.
+23. Bycroft C, Freeman C, Petkova D, et al.
+Genome-wide genetic data on ~500,000 UK
+Biobank participants [preprint]. bioRxiv. 2017.
+https://www.biorxiv.org/content/early/2017/07/20
+/166298. Accessed April 26, 2018.
+24. Cornelis MC, Kacprowski T, Menni C, et al;
+Swiss Kidney Project on Genes in Hypertension
+(SKIPOGH) team. Genome-wide association study
+of caffeine metabolites provides new insights to
+caffeine metabolism and dietary caffeine-
+consumption behavior. Hum Mol Genet. 2016;25
+(24):5472-5482.
+25. Taylor AE, Davey Smith G, Munafò MR.
+Associations of coffee genetic risk scores with
+consumption of coffee, tea, and other beverages in
+the UK Biobank. Addiction. 2018;113(1):148-157.
+26. Nordestgaard AT, Thomsen M, Nordestgaard
+BG. Coffee intake and risk of obesity, metabolic
+syndrome and type 2 diabetes: a Mendelian
+randomization study. Int J Epidemiol. 2015;44(2):
+551-565.
+27. Nordestgaard AT, Nordestgaard BG. Coffee
+intake, cardiovascular disease and all-cause
+mortality: observational and Mendelian
+randomization analyses in 95 000-223 000
+individuals. Int J Epidemiol. 2016;45(6):1938-1952.
+28. van Dam RM. Can “omics” studies provide
+evidence for causal effects of coffee consumption
+on risk of type 2 diabetes? J Intern Med. 2018.
+29. Rodrigues NP, Bragagnolo N. Identification and
+quantification of bioactive compounds in coffee
+brews by HPLC-DAD-MSn. J Food Compos Anal.
+2013;32(2):105-115.
+30. Loftfield E, Shiels MS, Graubard BI, et al.
+Associations of coffee drinking with systemic
+immune and inflammatory markers. Cancer
+Epidemiol Biomarkers Prev. 2015;24(7):1052-1060.
+31. Jacobs S, Kröger J, Floegel A, et al. Evaluation of
+various biomarkers as potential mediators of the
+association between coffee consumption and
+incident type 2 diabetes in the EPIC-Potsdam Study.
+Am J Clin Nutr. 2014;100(3):891-900.
+32. Lopez-Garcia E, van Dam RM, Qi L, Hu FB.
+Coffee consumption and markers of inflammation
+and endothelial dysfunction in healthy and diabetic
+women. Am J Clin Nutr. 2006;84(4):888-893.
+Association of Coffee Drinking With Mortality by Genetic Variation in Caffeine Metabolism
+Original Investigation Research
+jamainternalmedicine.com
+(Reprinted)
+JAMA Internal Medicine
+August 2018
+Volume 178, Number 8
+1097
+© 2018 American Medical Association. All rights reserved.
+Downloaded From:  by a Midwestern University User  on 01/23/2019

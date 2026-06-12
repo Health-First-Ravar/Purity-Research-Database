@@ -1,0 +1,1056 @@
+Vol.:(0123456789)
+1 3
+Waste and Biomass Valorization 
+https://doi.org/10.1007/s12649-020-01021-5
+ORIGINAL PAPER
+Extraction and Identification of Biomolecules from Lignin Alkaline 
+Hydrolysate from Coffee Husk
+Boutros Sarrouh1   · Roberta Oliveira Aguiar de Souza2 · Raissa Hellen da Silva Florindo2 · 
+Renata Carolina Zanetti Lofrano3 · Ana Maria de Oliveira1
+Received: 28 October 2019 / Accepted: 16 March 2020 
+© Springer Nature B.V. 2020
+Abstract 
+Lignin has aroused great interest in the scientific and economic areas because of its aromatic and complex nature. It can be 
+used as a raw material for obtaining aromatic aldehydes but the great potential of lignin is not satisfactorily utilized. The 
+interest is justified by the fact that, when its structure is spun off through pre-treatment processes, it produces some phenolic 
+compounds of important industrial interest. These are bioactive compounds that can be used to promote benefits to human 
+health, such as reducing the incidence of degenerative diseases like cancer and diabetes, as antioxidant, ant mutagenic activi-
+ties, anti allergic, anti-inflammatory and antimicrobial effects. The present work aimed to the extraction and identification 
+by UPLC-MS of biomolecules found in alkaline lignin hydrolysate from coffee husk. These compounds were classified 
+as terpenes with relevant biological activities which make them interesting for pharmaceutical and cosmetic industries as 
+discussed in literature.
+Graphic Abstract
+Coffee husk Hydrolysate 
+Extraction 
+Identification 
+Keywords  Solvent extraction · Lignocellulosic extract · Bioactive molecules · Phenylpropanoids
+ *	 Boutros Sarrouh 
+	
+bsarrouh@ufsj.edu.br
+1	
+Department of Chemistry, Biotechnology and Bioprocess 
+Engineering (DQBIO), Federal University of São João 
+del-Rei (UFSJ) – Campus Alto Paraopeba (CAP), Rodovia, 
+MG 443, Km 07, Bairro Fazenda Do Cadete, Ouro Branco, 
+Minas Gerais CEP 36420‑000, Brazil
+2	
+Bioprocess Engineering, Federal University of São João 
+del-Rei (UFSJ), Campus Alto Paraopeba (CAP), Rodovia, 
+MG 443, Km 07, Bairro Fazenda Do Cadete, Ouro Branco, 
+Minas Gerais CEP 36420‑000, Brazil
+3	
+Department of Chemical Engineering, Federal University 
+of São João del-Rei (DEQUI), Federal University of São João 
+del-Rei (UFSJ) – Campus Alto Paraopeba (CAP), Rodovia, 
+MG 443, Km 07, Bairro Fazenda Do Cadete, Ouro Branco, 
+Minas Gerais CEP 36420‑000, Brazil
+
+	
+Waste and Biomass Valorization
+1 3
+Statement of Novelty
+Lignin is known for its complex aromatic structure. It con-
+fers rigidity, impermeability and resistance to microbiologi-
+cal and mechanical attacks on plant tissues. In bioprocesses 
+involving the conversion of lignocellulosic biomass, such as 
+coffee husk, into high value-added products, lignin hydro-
+lysate (also known as, effluent, liquor or extract) is gener-
+ated. This work aimed to valorize this hydrolysate through 
+solvent extraction of different biomolecules of pharmaceuti-
+cal interest. These biomolecules were identified by UPLC-
+MS as terpenes with important biological activities for 
+human health, as discussed in literature.
+Introduction
+Lignin and Pretreatment Methods
+Lignin is known to be a three-dimensional biopolymer with 
+polyphenolic structure and also for being the second most 
+abundant polymer in nature, after cellulose [1]. It is an amor-
+phous, recalcitrant and water insoluble substance of high 
+molecular weight and complex chemical structure consisting 
+of an aromatic system composed of phenylpropane units, 
+which is covalently bound to cellulose and other polymers 
+of the plant cell wall [2]. Figure 1 shows, in a simplified way, 
+the structure of a eucalyptus lignin.
+In the biomass, the structure of lignin is linked to hemi-
+cellulose and cellulose by covalent and non-covalent bond-
+ing, forming the lignocellulosic biomass. The side chains 
+and hemicellulose branches interact with the cellulose, 
+providing stability, elasticity and flexibility to the structure. 
+Thus, the hemicellulose acts as a bridge between the cel-
+lulose and lignin, since their side chains allow interaction 
+between them [3]. The combination of the components of 
+lignocellulosic material provides high resistance to chemi-
+cal, enzymatic and microbial attacks. Thus, a pretreatment 
+is needed to access the biomass to be facilitated [4].
+In second generation ethanol industry, delignification in 
+alkaline medium is designed to remove the lignin and make 
+more accessible cellulose structure to enzymatic action, 
+aimed at producing glucose and subsequent conversion to 
+ethanol [5]. On the other hand, phenol, guaiacol and syrin-
+gol units are mainly present in the complex structure of the 
+more or less fragmented lignin [6]. Rabelo [7] points out that 
+many researchers believe that the action of alkaline solutions 
+O
+C
+H3
+O
+-
+O
+H
+OH
+O
+OH
+O
+O
+O
+CH3
+O
+H
+OH
+O
+CH3
+O
+OH
+O
+O
+H
+O
+C
+H3
+O
+O
+CH3
+O
+O
+H
+OH
+O
+H
+O
+H
+O
+C
+H3
+O
+CH3
+O
+O
+O
+C
+H3
+O
+O
+H
+OH
+O
+O
+O
+H
+O
+CH3
+O
+-
+C
+H3
+O
+O
+CH3
+O
+CH3
+O
+O
+O
+H
+O
+H
+O
+O
+C
+H3
+OH
+O
+-
+OH
+OH
+O
+C
+H3
+O
+H
+O
+O
+C
+H3
+O
+O
+C
+H3
+C
+H3
+O
+H
+O
+CH3
+O
+-
+O
+H
+O
+-
+O
+CH3
+O
+O
+O
+H
+O
+OH
+Fig. 1   Representative scheme for generic molecular structure of lignin. Adapted from Santos et al. [63]
+
+Waste and Biomass Valorization	
+1 3
+on lignocellulosic biomass occurs through the breakage of 
+esters linking bond, through saponification, to produce an 
+alcohol and a sodium salt, as described in Fig. 2 [8].
+According to Oliveira [9], the mechanism involved in 
+breaking of ether bonds in lignin structure (Fig. 3) is based 
+on deprotonation of a phenolic hydroxyl group, giving a qui-
+none methylene structure, for a result of the cleavage occurs 
+in the alpha carbon.
+Biomolecules Found in Lignin Extract
+In plants, the phenolic compounds are extremely important, 
+in view of play important roles in the growth and repro-
+duction of plants, since protect them against predators and 
+pathogens. The phenols are known to represent the largest 
+class of phytochemicals agents, i.e. compounds not nutrients 
+but which possess biological activities of interest to living 
+beings as antioxidant activities, antiallergic, antimicrobial, 
+antithrombotic, anti-inflammatory, hypocholesterolemic, 
+cardioprotective and vasodilatory [10]. These attributes 
+allow the neutralization or scavenging free radicals and the 
+chelation of metals, acting in the initiation stage and further 
+oxidation process [11]. Phenolic compounds can be clas-
+sified into different groups because of the large number of 
+phenol rings, and also how these rings are linked together. 
+In view of this, there are three main groups: phenolic acids, 
+flavonoids and tannins [12].
+The Flavonoids are the largest groups of free phenols in 
+plants (Fig. 4). They are part of plant defense mechanism 
+and are synthesized from phenylpropanoids and acetate. 
+These are precursors to certain groups of substances as ali-
+phatic amino acids, terpenoids, fatty acids, among others 
+[13]. They have activity against allergies, hypertension, 
+viral diseases, inflammation, arthritis, mutations and car-
+cinogenesis, cancer and AIDS [14].
+Tannins are considered to be associated with extracts 
+the lignocellulose fibers are in the peel of the vegetables, 
+roots, leaves, sap and seeds [15]. They are classified into 
+two groups: hydrolysable and condensed tannins [15, 16]. 
+The hydrolysable tannins have ester carbonyl bonds that 
+are easily broken under acidic and basic conditions giv-
+ing rise to carbohydrate and phenolic acids [17]. They are 
+often used in pharmaceutical, given its antiviral, antibacte-
+rial, and antihepatotóxic, by the inhibition of xanthine oxi-
+dase and monoamine oxidase and inhibition of glycosyl-
+transferase [18]. The present work aimed to the extraction 
+and identification by UPLC-MS of biomolecules found in 
+alkaline lignin hydrolysate from coffee husk.
+Material and Methods
+Coffee Husk
+For the extraction assays coffee husk "in natura" was col-
+lected from Santa Clara farm, located in the municipality 
+of Oliveira, Minas Gerias State, Brazil (20° 41′ 48.2″ S 
+44° 49′ 42.0″ W). The farm cultivates mainly “Arabica 
+coffee” species. Such species represents 70% of Brazilian 
+total coffee production. Husks were ground in a household 
+blender and the particles sizes were standardized using a 
+sieve (Bertel Indústria Metalúrgica LTDA) with a 1.70 mm 
+(12 mesh) aperture.
+Fig. 2   Representative scheme 
+for saponification reaction 
+mechanism [8]
+R
+O
+R'
+O
+OH
+-
+R
+O
+H
+O
+-
+O
+R'
+R
+O
+H
+O
+-OR'
+R
+O
+-
+O
+HOR'
++
++
+OH
+OR
+L
+H3CO
+OH
+OH-
+-H2O
+OH
+OR
+L
+H3CO
+O
+-
+- RO-
+OH
+L
+H3CO
+O
+methylene quinone
+Fig. 3   Lignin fragmentation mechanism in an alkaline medium with 
+elimination on the alpha carbon. Source: adapted from Oliveira [9]
+O
+O
+O
+H
+O
+H
+O
+H
+OH
+OH
+OH
+OH
+OH
+OH
+OH
+R = flavan-3-ol
+3'
+O
+8
+7
+1'
+5
+4
+3
+2
+6
+2'
+4'
+5'
+6'
+Generic flavanoids structure
+Fig. 4   Representative scheme of the generic molecular structure of 
+Flavanoids. Adapted from Manach et al. [12] and Rockenbach [14]
+
+	
+Waste and Biomass Valorization
+1 3
+Reagents
+The following reagents and materials were used for the 
+execution of the experimental assays in this work. Concen-
+trated sulphuric acid (99%) and ethil acetate (A.C.S. grade) 
+were purchased from Impex/Brazil. Ultra pure water (Mil-
+lipore), sodium hydroxide 98% (Sigma-Aldrich), methanol 
+and formic acid (HPLC grade, Sigma-Aldrich/Brazil). Hex-
+ane (A.C.S. grade, Dinâmica Química/Brazil). Kieselgel S 
+(0.063–0.2 mm, Riedel-de Haën/Brazil).
+Alkaline Hydrolysis of Lignin Fraction from Coffee 
+Husk
+For the alkaline hydrolysis of lignin fraction from coffee 
+husk, a solution of sodium hydroxide 10% (w/v) was pre-
+pared using distilled water. Subsequently, a mixture of 5.0 g 
+of coffee husk (dry basis) and 50 ml of the alkaline solution 
+was added in a 125 ml erlenmeyer flask. Solid/liquid ratio 
+was set at 1:10 in all hydrolysis tests performed. Next, the 
+erlenmeyeres were autoclaved (CS, Prismatec Autoclaves) 
+at 120 °C for 60 min. The samples were then filtered using 
+filter paper (Qualy—Φ 12.5 cm) and stored in glass tubes at 
+4 °C for posterior analysis [19].
+Solid Phase Extraction of Biomolecules from Lignin 
+Alkaline Hydrolysate
+Solid phase extraction (SFE) is considered to be a simple; 
+quick; have a low cost; providing extracts that are relatively 
+free from interfering, have high recoveries with good accu-
+racy and precision for the analytes of interest [20]. For the 
+extraction of biomolecules found in alkaline lignin hydro-
+lysate, sulfuric acid (99%) was added until soluble lignin 
+complete precipitation. Samples were filtered using Cellu-
+lose Ester Membrane (CEM), with 0.45 µm porosity and 
+47 mm diameter (APROLAB). The filtered solution was then 
+separated in a silica column (0.063–0.2 mm). Where, 1.0 g 
+of the filtered solution was administrated to a 40 cm sílica 
+packed glass column (Kieselgel S). The elution occurred 
+using 5.0 ml of methanol, 1.0 ml of ethyl acetate and 1.0 ml 
+of hexane. The extracts of each solvent were collected for 
+posterior identification [20].
+Ultra Pressure Liquid Chromatography Coupled 
+to Mass Spectrometer
+For the identification of the molecular mass of the extracted 
+biomolecules and alkaline hydrolysate, the samples were 
+injected in an H-Class UPLC SM-FTN Waters (Milford, 
+Massachusetts, EUA) equipped with a mass spectrometer 
+(MS) Waters Xevo G2-XS QTOF (ESI-QTOF), A col-
+umn Cortecs T3 (2.1, 100 mm × 1.8 µm) was used for the 
+separation of the studied biomolecules. The mobile phases 
+used were: (A) water with formic acid 0.1% (v/v), and (B) 
+methanol with formic acid 0.1% (v/v). The gradient was pro-
+grammed as follow: solvent A:solvent B, 99:1 for 0.5 min, 
+60:40 from 0.5 min until 8 min, 1:99 from 8.0 min until 
+11.0 min and 99:1 until 15.0 min. Other chromatographic 
+conditions were 0.3 ml min−1 of mobile phase flow rate and 
+1.0 μl of injection volume. The MS parameters were set as 
+follows: negative and positive ionization mode, aquisition 
+MSE Continuum, m/z 50–1200, LE 6 eV, HE 10–30 eV, 
+resolution mode 30,000 FWHM and scan rate 5 Hz.
+Results and Discussion
+Phenylpropanoids are aromatic compounds consisting of a 
+phenylpropane structural core found in several essential oils. 
+These compounds can have 5 carbon atoms (C) named as 
+hemiterpenes, 10C (monoterpenes), 15C (sesquiterpenes), 
+20C (diterpenes), 30C (triterpenes) and 40C (tetraterpenes). 
+They possess a complex structure in which organic functions 
+such as ester, ether, ketone, hydrocarbons and alcohols can 
+be present. Such compounds may be isolated from all parts 
+of plants, but mainly from seeds and/or flowers by steam 
+distillation or solvent extraction [21].
+In this work, lignin liquor was obtained by submitting 
+coffee husk to an alkaline hydrolysis reaction. The obtained 
+hydrolysate was then used in an extraction process using 
+solvents with different polarities. For this reason, four sol-
+vents: water, methanol, ethyl acetate and hexane were chosen 
+to be employed in liquid–solid extraction, since they can 
+cover a wide range of polarity. The lignin solid content was 
+found to be in the order of 11% (w/v) in both the alkaline 
+hydrolysate and the extracted liquor. Data obtained from sol-
+vent extraction and ultra HPLC identification assays showed 
+that a total of twelve biomolecules (Table 1), were isolated 
+using the four studied solvents (water and methanol as polar 
+solvents, ethyl acetate as a solvent with intermediate polar-
+ity and hexane as a nonpolar solvent). These biomolecules 
+exhibited polarity-conferring organic functions such as alco-
+hols, ethers, esters, as well as nonpolar functions such as 
+benzene ring and hydrocarbons, according to their chemi-
+cal structure, as shown in Table 1. The fact that the studied 
+biomolecules can be obtained in both polar and nonpolar 
+solvents is considered interesting from technical and eco-
+nomical point of view, for further purification studies and 
+high scale production.
+The natural occurrence and biological activities of the 
+identified biomolecules (Table 1) were evaluated according 
+to various published studies. Examples of these cases are 
+presented hereafter.
+Andrographolide is the major compounds extracted 
+from Andrographis paniculata, belonging to Acanthaceae 
+
+Waste and Biomass Valorization	
+1 3
+Table 1.   Biomolecules 
+extracted and identified from 
+lignin alkaline hydrolysate from 
+coffee husk
+Biomolecules
+Molecular 
+formula
+Chemical structurea
+References
+14-Deoxy-11,12-
+methoxyandrographolide
+C21H32O5
+O
+O
+OH
+H
+C
+H3
+CH2
+CH3
+O
+H
+H
+O
+H
+[58]
+Bletilol B
+C27H26O7
+O
+OH
+OCH3
+H3CO
+O
+H
+OAc
+[22]
+Bruceaketolic acid
+C22H28O12
+O
+O
+OH
+O
+H
+C
+H3
+OAc
+O
+O
+OH
+[24]
+Sibirioside A
+C21H28O12
+O
+O
+O
+O
+O
+OH
+O
+H
+OH
+OH
+OH
+OH
+OH
+[26]
+Zingibroside R1
+C42H66O14
+O
+O
+O
+O
+H
+CH3
+CH3
+O
+O
+H
+O
+O
+H
+C
+H3
+C
+H3
+CH3
+H
+CH3
+H
+H
+OH
+OH
+OH
+O
+H
+OH
+CH3
+H
+Adapted from Bermejo et 
+al. [31]
+Nigakihemiacetal
+C22H30O6
+O
+CH3
+CH3
+OH
+O
+O
+CH3
+CH3
+O
+O
+C
+H3
+CH3
+Adapted from Liu et al
+[33]
+Cissogenin
+C21H34O5
+C
+H3
+OH
+O
+H
+C
+H3
+CH3
+H
+O
+H
+O
+H
+OH
+H
+H
+[34]
+Lucidenic acid
+C27H40O7
+OH
+C
+H3
+CH3
+C
+H3
+OH
+O
+H
+CH3
+OH
+O
+O
+O
+CH3
+H
+CH3
+[59]
+Mulberrofuran G
+C34H26O8
+O
+O
+O
+O
+H
+OH
+OH
+O
+H
+H
+H
+H
+C
+H3
+OH
+[37, 38]
+Oxofangchirine
+C37H34N2
+O7
+N
+C
+H3
+OCH3
+O
+N
+O
+OCH3
+OCH3
+H3CO
+O
+[60]
+Madecassoside
+C48H78O20
+O
+O
+O
+O
+O
+O
+O
+O
+H
+C
+H3
+OH
+C
+H3
+C
+H3
+H
+O
+H
+OH
+O
+H
+H
+C
+H3
+O
+H
+OH
+O
+H
+H
+CH3
+CH3
+O
+H
+OH
+O
+H
+O
+H
+CH3
+O
+H
+OH
+[61]
+Oriediterpenoside
+C25H40O6
+CH3
+O
+CH3
+C
+H3
+CH3
+O
+O
+OH
+OH
+O
+H
+Adapted from Tian et al.
+[62]
+a Chemical structures were reproduced by the authors based on literature data
+
+	
+Waste and Biomass Valorization
+1 3
+family, commonly known as King of Bitters. Among the 
+andrographolide analogues, 14-deoxy-11,12-didehydroan-
+drographolide is immunostimulatory, anti-infective, anti-
+atherosclerotic and vasorelaxating [22–24].
+Yamaki et al. [25] where the first to isolate, from tubers of 
+Bletilla striata, three dihydrophenanthropyran derivatives, 
+bletilols A, B and C. Extracts from Bletilla roots has proven 
+reduce the edema and enhance hemostasis of the lung, stom-
+ach and nose. When applied topically, Bletilla is also used to 
+treat skin cracks, abscesses, burns and freckles when com-
+bined with other traditional Chinese medicines [26].
+The work of Lin et al. [27] identified five quassinoids iso-
+lated from the ethanol extract of the fruit of Brucea javanica. 
+These were identified as brusatol, dehydrobruceine B, bru-
+ceine D, bruceine E and bruceaketolic acid. Which were 
+reported to have lipolytic activity and to suppress weight 
+gain and is therefore considered a therapeutic target for obe-
+sity [28].
+Sibirioside A is an ester glycoside, consisting of cinnamic 
+acid and sucrose. phenylpropanoid are the most abundant 
+and important constituents, secondary toiridoid glycosides 
+found in Scrophulariae Radix (SR). This plant exhibits a 
+variety of pharmacological actions such as anti-inflamma-
+tion, analgesia, immunoregulation, blood sugar regulation, 
+anticoagulation, cardiovascular protection, and neuroprotec-
+tion [29–33].
+Huan-Li [34] isolated a saponin, identified as zingibro-
+side R1, from the root of Achyranthese bidentata Bl. This 
+root is a commonly used medicinal herb prescribed by prac-
+titioners of traditional Chinese medicine for the treatment 
+of osteodynia of lumbar and knees, spasm and flaccidity of 
+limbs [34]
+Also, according to the work of [34] Nigakihemiacetal bio-
+molecules have been isolated mainly from Picrasma sp., and 
+Quassia sp. genus of flowering plants in the family Simarou-
+baceae. These compounds are considered as 2,3-unsaturated 
+quasinoids (which can be 16-hemiacetals). In traditional 
+world medicine, the species of the Simaroubaceae family 
+are members important and are used for various uses such 
+as insecticides, antidisenteric, febrifuge, antimalarial, sto-
+machic, anticancer, tonic, cathartic, emetic, vermifuges, in 
+skin infections and even as incenses [35].
+Phytochemical studies with Marsdenia tenacissima 
+focused in polyoxypregnan derivatives were able to isolate 
+cissogenina and their analogs from the native plant seeds 
+from India [36]. Plants from the genus Marsdenia, Apocyn-
+aceae (Asclepiadoideae) family, present worldwide distribu-
+tion, although it is predominantly in the tropics.
+Weng et al. [37] observed that lucidenic acid, a triterpe-
+noid, extracted from a mushroom of the species Ganoderma 
+lucidum, was found to have an anti-cancer potential by pre-
+senting an anti-invasive activity on phorbol-12-myristate-
+13-acetate (PMA) induced HepG2 cells by suppressing the 
+matrix metalloproteinase (MMP)-9 activity. According to 
+Hsu and Yen [38] triterpenoids have been investigated for 
+their biological activities, including antibacterial, antiviral, 
+antitumor, antiosteoclastic differentiation activity, anti-
+HIV-1, hepatoprotection, antioxidation, antihypertension, 
+cholesterol reduction, and antiaggregation functions.
+Geng et al. [39] isolated the biomolecules Mulberro-
+furan G (1) and isomulberrofuran G (2), a pair of isomeric 
+Diels–Alder-type adducts, from the root bark of Morus alba 
+L. The authors observed that Mulberrofuran G (1) showed 
+a moderate activity in inhibiting hepatitis B virus (HBV) 
+DNA replication with the IC50 value of 3.99 μM, according 
+to the anti-HBV assay on the HepG 2.2.15 cell line in vitro. 
+Morus, a plant genus from the family of Moraceae, is used 
+as traditional medicines in Asian countries. The root barks 
+are normally used for the treatment of inflammatory, anti-
+microbic and respiratory diseases [40].
+Two alkaloids, namely oxofangchirine (bisbenzylisoqui-
+noline) and stephenanthrine (phenanthrene with a tertiary 
+amino side chain), were isolated from Stephenia tetrandra 
+[41]. A bisbenzylisoquinoline alkaloid that is 1′,2′,3′,4′-tetra-
+dehydroberbaman containing a methyl group, four methoxy 
+and one oxo group [39]. The plant Stephania tetrandra, a 
+species of Menispermaceae, form the major source of the 
+bisbenzylisoquinoline alkaloid-tetrandrine. Tetrandrine can 
+act as a calcium channel blocker, has been tested in clini-
+cal trials and found effective against silicosis, hypertension, 
+inflammation and lung cancer without any toxicity [41–44].
+Madecassoside is an abundant triterpene found in Cen-
+tella asiatica (L.). Urban, a perennial herbaceous plant with 
+pleiotropic bioactivity. Mainly consists of pentacyclictrit-
+erpenes, including the glycosides madecassoside and asia-
+ticoside as well as their corresponding aglycones, such as 
+madecassic acid and asiatic acid [45, 46]. Madecassoside 
+has a wide range of reported biological activities includ-
+ing, anti-inflammatory, wound healing, and anti-oxidant 
+activities [47]. According to Xu et al. [48] madecassic acid 
+conferred protection against DSS-treated colitis in mice and 
+restored the Th17/Treg balance. Another application was 
+presented in the study of Bonté et al. [49] where the authors 
+observed that the administration of two triterpenes, asia-
+ticoside and madecassoside in cultured human fibroblasts, 
+improved Type I collagen secretion by 25–30%. The same 
+authors emphasized that collagen I is responsible for Skin 
+aging and plays an important role in wound healing.
+Guo-ping and Feng-chang [50] investigated the chemical 
+constituents of the rhizomes of Alisma orientalis Juzep. Two 
+compounds were characterized as ent-kaurane diterpenes 
+and were named as oriediterpenol and oriediterpenoside. 
+Alisma canaliculatum (common name water plantain) is 
+commonly used in traditional Korean medicine [51]. This 
+plant has unique terpenoids, such as alisol A, B, and C, ali-
+sol A 24-acetate, alisol B 23-acetate, alisol C 23-acetate, 
+
+Waste and Biomass Valorization	
+1 3
+alismalactone 23-acetate, alismols A, B,and C, sulfoori-
+entalol A, oriediterpenol, and oriediterpenoside [52, 53]. 
+Furthermore, it has been shown to possess antibacterial 
+[54], anti-tumor [55] and hepatoprotective effects [56]. As 
+mentioned before, tetrandrine can act as a calcium channel 
+blocker [57].
+Conclusions
+Lignin is of great interest in both academic and industrial 
+segments due to its aromatic composition with antioxidant 
+activities. This interest is due mainly to the fact that lignin 
+extracts can be used as a raw material for obtaining bioactive 
+molecules, important for human welfare. Alkaline hydrol-
+ysis has been an effective technique for the extraction of 
+lignin serum, which has been characterized in this work for 
+containing different bioactive molecules of pharmaceutical 
+interest. It was observed that terpenes originated from coffee 
+husk lignin extracts possess biological activities important 
+for human health, as discussed in literature.
+Acknowledgements  The authors would like to thank: CNPq, 
+FAPEMIG and UFSJ for their financial support for the development 
+of this study, and Waters Brazil for H-Class UPLC SM-FTN equipped 
+analysis of the samples.
+References
+	 1.	 Souza, K.C.A., Abreu, H.S.: Biotechnology applied to the study 
+of lignification. Floresta e Ambiente 14(1), 93–109 (2007)
+	 2.	 García, A.A., Carril, E.P.-U.: Secondary plant metabolism. Red-
+uca (Biologia) 2(3), 119–145 (2011)
+	 3.	 Araújo, C.R., Garrido, C.V.S., Santos, J.M.G.M., Leal, S.C.S., 
+Campos, L.M.A.: Study of the chemical and biological hydrolysis 
+routes for the production of second generation ethanol from lig-
+nocellulosic residues. Student Seminar on Academic Production 
+12(1), (2013)
+	 4.	 Saha, B.C.: Hemicellulose bioconversion. J. Ind. Microbiol. Biot. 
+30(5), 279–291 (2003)
+	 5.	 Boopathy, R., Dawson, L.: Cellulosic ethanol production from 
+sugarcane baggase without enzymatic saccharification. BioRe-
+sources 3(2), 452–460 (2008)
+	 6.	 Gonzaga, F.M.: Study of the influence of the alkaline/mechanical 
+treatment on the mechanical properties of composites of short 
+sisal/epoxy fibers, a undergraduate thesis presented at the Uni-
+versidade Federal do Rio de Janeiro (2014)
+	 7.	 Rabelo, S.C.: Evaluation and optimization of pre-treatments and 
+enzymatic hydrolysis of sugarcane bagasse for the production of 
+second generation ethanol, a doctoral thesis presented at the Uni-
+versidade Estadual de Campinas (2010)
+	 8.	 Bruice, P.Y.: Química Orgânica. Pearson Prentice Hall, São Paulo 
+(2006)
+	 9.	 Oliveira, F.D.C.: Oxidation of lignin from agroindustrial ligno-
+cellulosic residues to obtain aromatic chemical compounds with 
+higher value-added, a doctoral thesis presented at the Universi-
+dade de São Paulo (2015)
+	10.	 Balasundram, N., Sundram, K., Samman, S.: Phenolic compounds 
+in plants and agri-industrial by-products: antioxidant activity, 
+occurrence, and potential uses. Food Chem. 99(1), 191–203 
+(2006)
+	11.	 Sousa, C.M., Silva, H.R., Vieira, G.M., Ayres, M.C.C., Costa, 
+C.L.S., Araújo, D.S., Cavalcante, L.C.D., Barros, E.D.S., Araújo, 
+P.B.M., Brandão, M.S., Chaves, M.H.: Total phenols and antioxi-
+dant activity of five medicinal plants. Quím. Nova 30(2), 351–355 
+(2007)
+	12.	 Manach, C., Scalbert, A., Morand, C., Rémésy, C., Jiménez, L.: 
+Polyphenols: food sources and bioavailability. Am. J. Clin. Nutr 
+79(5), 727–747 (2004)
+	13.	 King, A., Young, G.: Characteristics and occurrence of phenolic 
+phytochemicals. J. Am. Diet Assoc. 99(2), 213–218 (1999)
+	14.	 Rockenbach, I.I.: Phenolic compounds, fatty acids and antioxi-
+dant capacity of grape marc from vinification of red grapes (Vitis 
+vinifera and Vitis labrusca), a master’s thesis presented at the 
+Universidade Federal de Santa Catarina (2008)
+	15.	 Battestin, V., Matsuda, L.K., Macedo, G.A.: Sources and appli-
+cations of tannins and tannases in food. Alimentos e Nutrição 
+Araraquara 15(1), 63–72 (2008)
+	16.	 Brígida, A.I.S., Rosa, M.D.F.: Determination of Tannin content in 
+the Coconut nucifera Bark. Proc. Interamerican Soc. Trop. Hortic. 
+47, 25–27 (2003)
+	17.	 Costa, C.T.C., Bevilaquia, C.M.L., Morais, S.M., Viera, S.L.: Tan-
+nins and their use in small ruminants. Rev. Bras. Plantas Med. 
+10(4), 108–116 (2008)
+	18.	 Almeida, N.F., Mori, F.A., Goulart, S.L., Mendes, L.M.: Study of 
+reactivity of tannins of leaves and barks of Barbatimão Stryphno-
+dendron adstringens (Mart.) Coville. Sci. Forest. 38(87), 401–408 
+(2010)
+	19.	 Durso, T. Sarrouh, B.: Deslignificação da casca de café: pré-
+tratamento de uma matéria-prima renovável promissora visando à 
+obtenção de moléculas bioativas. 1ª. Ed. Novas Edições Acadêmi-
+cas. ISBN: 978620240633-8. p. 53. (2017)
+	20.	 Queiroz, S.C.N., Collins, C.H., Jardim, I.C.S.F.: Methods of 
+extraction and/or concentration of compounds found in biologi-
+cal fluids for subsequent chromatographic determination, Quím. 
+Nova 24(1), 68–76 (2001)
+	21.	 Engel, R., Kriz, G.S., Lampman, G.M., Pavia, D.L.: Química 
+orgânica experimental – Técnicas em pequena escala, pp. 873–
+877. Cengage Learning, São Paulo (2012)
+	22.	 Chao, W., Lin, B.: Isolation and identification of bioactive com-
+pounds in Andrographis paniculata (Chuanxinlian). Chin. Med. 
+5(17), 2–15 (2010)
+	23.	 Zhang, C.Y., Tan, B.K.: Mechanism of cardiovascular activity of 
+Andrographispaniculata in the anaesthetized rat. J. Ethnopharma-
+col. 56, 97–101 (1997)
+	24.	 Zhang, C.Y., Tan, B.K.: Vasorelaxation of rat thoracic aorta 
+caused by 14-deoxyandrographolide. Clin. Exp. Pharmacol. 
+Physiol. 25, 424–429 (1998)
+	25.	 Yamaki, M., Bai, L., Kato, T., Inoue, K., Takagi, S.: Three dihy-
+drophenanthropyrans from Bletilla Striata. Phytochemistry 32(2), 
+427–430 (1993)
+	26.	 Zhang, C.Y., Tan, B.K., Huang, W., Chen, Y., Jin, B., Chen, N., 
+Ding, Z., Ding, X.: Antioxidant, antityrosinase and antitumor 
+activity comparison: the potential utilization of fibrous root part 
+of Bletilla striata (Thunb.) Reichb.f. PLoS ONE 8(2), e58004 
+(2013)
+	27.	 Lin, L.Z., Zhang, J.S., Chen, Z.L., Xu, R.S.: Isolation and iden-
+tification of bruceaketolic acid and four other quassinoids. Acta 
+Chim. Sinica 40, 73–78 (1982)
+	28.	 Lahrita, L., Moriai, K., Iwata, R., Kato, E.: Quassinoids in Brucea 
+javanica are potent stimulators of lipolysis in adipocytes. Fitotera-
+pia 137, 104250 (2019)
+
+	
+Waste and Biomass Valorization
+1 3
+	29.	 Zhang, Y., Liu, L., Xu, F., Shang, M., Liu, G., Cai, S.: Investiga-
+tion of the in vivo metabolism of Sibirioside A and Angoroside 
+C in rats by HPLC-ESI-IT-TOF-MS. Molecules 23, 2702–2716 
+(2018)
+	30.	 Zhang, L., Zhang, L., Zhang, Y.D.: Comparative study on the 
+pharmacognosy and anti-inflammatory activities of Scrophularia 
+buergeriana Miq. Var. tsinglingensis Tsoong and S. ninpoensis 
+Hemsl. Northwest Pharm. J. 29, 264–267 (2014)
+	31.	 Bermejo, B.P., Diaz, L.A., Silvan, S.A., De Santos, G.Z., Fernan-
+dez, M.L., Sanz, G.A., Abad, M.J.: Effects of some iridoids from 
+plant origin on arachidonic acid metabolism in cellular systems. 
+Planta Med. 66, 324–328 (2000)
+	32.	 Ni, Z., Cai, X.Z., Huang, Y.P., Wang, D.J., Bian, H.M.: Effect of 
+extracts of Scrophularia ningpoensis Hemsl. on hemorrheology, 
+coagulation and fibrinolysis in rats. J. Chin. Microcirc. 3, 152–153 
+(2004)
+	33.	 Liu, G.L., Fu, P.Y., Wang, Z.Y., Xing, D.Y.: Effects of water 
+extract of four Chinese herbal drugs on the binding of insulin 
+with human erythroeyte insulin receptor. Chin. J. Integr. Trad. 
+West. Med. 10, 606–607 (1991)
+	34.	 Huan-Li, W., Yan-Jing, L., Jun, C., Ping, L.: Triterpenoid sapo-
+nins in roots of Achyranthese bidentata. Chin. J. Nat. Med 10(2), 
+98–101 (2012)
+	35.	 Castañeda, C.D.L. Revisión sobre los nortriterpenos aislados de 
+la familia Simaroubaceae, y sobre un arbusto medicinal mexicano 
+“chaparro amargoso” (Castela erecta subsp. texana). PhD thesis, 
+Instituto de Química, U.N.A.M, México. 2005. P.96.
+	36.	 Singhal, S., Khare, M.P., Khare, A.: Cissogenin, a pregnane genin 
+from Marsdenia tenacissima. Phytochem. 19(11), 2427–2430 
+(1980)
+	37.	 Weng, C., Chau, C., Hsieh, Y., Yang, S., Yen, G.: Lucidenic acid 
+inhibits PMA-induced invasion of human hepatoma cells through 
+inactivating MAPK/ERK signal transduction pathway and reduc-
+ing binding activities of NF-kB and AP-1. Carcinogenesis 29(1), 
+147–156 (2008)
+	38.	 Hsu, C., Yen, G.: Chapter three: ganoderic acid and lucidenic acid 
+(triterpenoid). Enzymes 36, 33–56 (2014)
+	39.	 Geng, C., Ma, Y., Zhang, X., Yao, S., Xue, D., Zhang, R., Chen, 
+J.: Mulberrofuran G and isomulberrofuran G from Morus alba L. 
+antihepatitis B virus activity and mass spectrometric fragmenta-
+tion. J. Agric. Food Chem. 60, 8197–8202 (2012)
+	40.	 Wei, H., Zhu, J., Liu, X., Feng, W., Wang, Z., Yan, L.: Review of 
+bioactive compounds from root barks of Morus plants (Sang-Bai-Pi) 
+and their pharmacological effects. Cogent Chem. 2, 1212320 (2016)
+	41.	 Behl, T.: Herbal plants: a boon in the treatment of diabetic retin-
+opathy. Pharmacologia. 6(1), 1–10 (2015)
+	42.	 Bhagya, N., Chandrashekar, K.R.: Tetrandrine: a molecule of wide 
+bioactivity. Phytochemistry 125, 5–13 (2016)
+	43.	 Chen, Y.J.: Potential role of tetrandrine in cancer therapy. Acta 
+Pharmacol. Sin. 23(12), 1102–1106 (2002)
+	44.	 Huang, Y.L., Cui, S.Y., Cui, X.Y., Cao, Q., Ding, H., Song, J.Z., 
+Hu, X., Ye, H., Yu, B., Sheng, Z.F., Wang, Z.J., Zhang, Y.H.: 
+Tetrandrine, an alkaloid from S. tetrandra exhibits anti-hyperten-
+sive and sleep-enhancing effects in SHR via different mechanisms. 
+Phytomedicine 15(23), 1821–1829 (2016)
+	45.	 Chandrika, U.G., Prasad Kumarab, P.A.: Gotu kola (Centella asi-
+atica): nutritional properties and plausible health benefits. Adv. 
+Food Nutr. Res. 76, 125–157 (2015)
+	46.	 James, J.T., Dubery, I.A.: Pentacyclic triterpenoids from the 
+medicinal herb, Centella asiatica (L.) urban. Molecules 14, 
+3922–3941 (2009)
+	47.	 Puttarak, P., Brantner, A., Panichayupakaranant, P.: Biological 
+activities and stability of a standardized pentacyclic triterpene 
+enriched Centella asiatica extract. Nat. Prod. Sci. 22(1), 20–24 
+(2016)
+	48.	 Xu, X., Wang, Y., Wei, Z., Wei, W., Zhao, P., Tong, B., Xia, Y., 
+Dai, Y.: Madecassic acid, the contributor to the anti-colitis effect 
+of madecassoside, enhances the shift of Th17 toward Treg cells 
+via the PPARγ/AMPK/ACC1 pathway. Cell Death Dis. 8, e2723 
+(2017)
+	49.	 Bonté, F., Dumas, M., Chaudagne, C., Meybeck, A.: Compara-
+tive activity of asiaticoside and madecassoside on type I and III 
+collagen synthesis by cultured human fibroblasts. Ann. Pharm Fr. 
+53(1), 38–42 (1995)
+	50.	 Guo-ping, P., Feng-chang, L.: Isolation and identification of diter-
+penes from Alisma orientalis Juzep. Acta Pharm. Sinica. 37(12), 
+950–954 (2002)
+	51.	 Hossain, M.E., Kim, G.M., Lee, S.K., Yang, C.J.: Growth perfor-
+mance, meat yield, oxidative stability, and fatty acid composition 
+of meat from broilers fed diets supplemented with a medicinal 
+plant and probiotics. Asian-Australas. J. Anim. Sci. 25, 1159–
+1168a (1168a)
+	52.	 Hossain, M.E., Ko, S.Y., Kim, G.M., Firman, J.D., Yang, C.J.: 
+Evaluation of probiotic strains for development of fermented 
+Alisma canaliculatum and their effects on broiler chickens. Poult. 
+Sci. 91, 3121–3131 (2012)
+	53.	 Peng, G.P., Lou, F.C.: Isolation and identification of diterpenoids 
+from Alisma orientalis. Acta Pharm. Sinica 37(12), 950–954 
+(2002)
+	54.	 Ikamo, H., Kawazoe, K., Izumi, K., Sato, Y., Tamaya, T.: Effects 
+of crude herbal ingredients on intrauterineinfection in a rat model. 
+Curr. Ther. Res. 59, 122–127 (1998)
+	55.	 Huang, Y.T., Huang, D.M., Chueh, S.C., Teng, C.M., Guh, J.H.: 
+Alisol B acetate, a triterpene from Alismatisrhizoma, induces Bax 
+nuclear translocation and apoptosis in human hormone-resistant 
+prostate cancer PC-3cells. Cancer Lett. 231, 270–278 (2006)
+	56.	 Jang, M.K., Han, Y.R., Nam, J.S., Han, C.W., Kim, B.J., Jeong, 
+H.S., Ha, K.T., Jung, M.H.: Protective effects of Alisma orientale 
+extract against hepatic steatosis via inhibition of endoplasmic 
+reticulum stress. Int. J. Mol. Sci. 16, 26151–26165 (2015)
+	57.	 Hu, T.M., Zhao, S.X.: The structures of oxofangchirine and ste-
+phenanthrine isolated from Stephania tetrandra S. Moore. Acta 
+Pharm. Sin. 21, 29–34 (1986)
+	58.	 https​://pubch​em.ncbi.nlm.nih.gov/compo​und/10473​975#secti​
+on=2D-Struc​ture
+	59.	 https​://pubch​em.ncbi.nlm.nih.gov/compo​und/Lucid​enic-acid-N
+	60.	 https​://pubch​em.ncbi.nlm.nih.gov/compo​und/12810​8
+	61.	 https​://pubch​em.ncbi.nlm.nih.gov/compo​und/45356​919#secti​
+on=Struc​tures​
+	62.	 Tian, T., Chen, H., Zhao, Y.: Traditional uses, phytochemistry, 
+pharmacology, toxicology and quality control of Alisma orientale 
+(Sam) Juzep: a review. J. Ethnopharmacol. 158, 373–387 (2014)
+	63.	 Santos, F.A., Queiróz, J.H., Colodette, J.L., Guimarães, V.M., 
+Rezende, S.T.: Potencial da palha de cana-de-açúcar para 
+produção de etanol. Quím. Nova 35(5), 1004–1010 (2012)
+Publisher’s Note  Springer Nature remains neutral with regard to 
+jurisdictional claims in published maps and institutional affiliations.

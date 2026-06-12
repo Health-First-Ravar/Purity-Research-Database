@@ -1,0 +1,867 @@
+Kinetics of ochratoxin A destruction during coffee roasting
+Mariano B.M. Ferraz a, Adriana Farah b, Beatriz T. Iamanaka a, Daniel Perrone b, Marina V. Copetti a,
+Viviane X. Marques b, Alfredo A. Vitali a, Marta H. Taniwaki a,*
+a Instituto de Tecnologia de Alimentos – ITAL, Av. Brasil, 2880, 13070-178 Campinas, SP, Brazil
+b Laboratório de Bioquímica Nutricional e de Alimentos, Universidade Federal do Rio de Janeiro, Instituto de Química, Departamento de Bioquímica,
+Ilha do Fundão, CT bloco A, 21949-900 Rio de Janeiro, RJ, Brazil
+a r t i c l e
+i n f o
+Article history:
+Received 3 August 2009
+Received in revised form 24 November 2009
+Accepted 4 December 2009
+Keywords:
+Coffee
+Ochratoxin A
+Chlorogenic acids
+Coffee roasting
+Modeling
+a b s t r a c t
+In the present study, Coffea arabica was artiﬁcially contaminated with spores of toxigenic Aspergillus west-
+erdijkiae. The contaminated coffee was roasted in a vertical spouted bed roaster at four different temper-
+atures (180 C, 200 C, 220 C and 240 C) and three different time periods (5, 8 and 12 min), in order to
+obtain more accurate results for the development of the kinetic model for ochratoxin A (OTA). Chlorogen-
+ic acids (CGA) content during coffee roasting was also evaluated to investigate the effect of the heat
+employed to destroy OTA in these health promoting compounds. Coffee treated with spouted bed roast-
+ing signiﬁcantly reduced the OTA level from 8% to 98%. The spouted bed roasting proved to be a very efﬁ-
+cient procedure for OTA reduction in coffee, and its reduction depended directly on the degree of roasting.
+OTA degradation during coffee roasting followed ﬁrst order reaction kinetics. Using the apparent activa-
+tion energy of OTA degradation and the temperature-dependent reaction rate, there was a compliance
+with the Arrhenius equation. This model was capable of predicting the thermal induced degradation of
+OTA and may become an important predicting tool in the coffee industry. The present study was also able
+to propose roasting conditions appropriate to destroy OTA and maintain most of the CGA at the same
+time.
+ 2009 Elsevier Ltd. All rights reserved.
+1. Introduction
+Coffee is one of the most popular and consumed food products
+in the world. Recently, epidemiological and clinical studies have
+been attributing beneﬁcial health effects to this beverage, mainly
+due to its high content of phenolic compounds, which make coffee
+one of the highest contributors to antioxidant intake in western
+diets (Farah, 2009). In addition to phenolic compounds, coffee
+may also contain other potentially beneﬁcial bioactive components
+such as the vitamin niacin and trigonelline, among others (Farah,
+2009; Farah & Donangelo, 2006; Perrone, Donangelo, & Farah,
+2008). Because of these bioactive components, coffee has been con-
+sidered to be a potential functional food product (Farah, 2009).
+However, coffee may also contain undesirable compounds that
+may be intrinsic to the beans or produced during primary or indus-
+trial processing. One of the most relevant prejudicial compounds in
+coffee is ochratoxin A (OTA).
+OTA consists of a polyketide-derived dihydroisocoumarin moi-
+ety linked through the 12-carboxy group to phenylalanine (Van
+der Merwe, Steyn, & Fourie, 1965). Its toxicity has been reviewed
+by the International Agency for Research on Cancer (IARC, 1993)
+which has classiﬁed OTA as a possible human carcinogen (group
+2B). The kidneys are considered to be the main target organ for
+OTA effects, and nephrotoxic and carcinogenic properties have,
+therefore, been the major focus of the safety evaluation performed
+by scientiﬁc bodies (Krogh et al., 1988; Kuiper-Goodman, 1996).
+In coffee, OTA is mainly produced by Aspergillus westerdijkiae,
+Aspergillus steynii, Aspergillus ochraceus and related species, and
+Aspergillus carbonarius, with a small number of isolates of Aspergil-
+lus niger (Frisvad, Thrane, Samson, & Pitt, 2006; Pardo, Marin, Ra-
+mos, & Sanchis, 2004; Taniwaki, Pitt, Teixeira, & Iamanaka, 2003;
+Urbano, Leitão, Vicentini, & Taniwaki, 2001). The contamination
+of coffee by fungi may take place when coffee fruits fall onto the
+ground and if acquire higher moisture content during drying and
+storage (Bucheli & Taniwaki, 2002; Pardo et al., 2004; Suárez-Quir-
+oz et al., 2004; Taniwaki et al., 2003; Urbano et al., 2001). The pres-
+ence of OTA in coffee was ﬁrst reported by Levi, Trenk, and Mohr
+(1974) and, since then, systematic investigations on OTA incidence
+in green, roasted and instant coffee and brew have been exten-
+sively reported (Burdaspal & Legarda, 1998; Lombaert et al.,
+2002; Perez de Obanos, Gonzales-Penas, & Lopez de Cerain, 2005;
+Studer-Rohr, Dietrich, Schlatter, & Schlatter, 1995; Taniwaki,
+2006; Taniwaki et al., 2003).
+OTA is generally stable to the level of heat utilized in ordinary
+cooking. Boudra, Le Bars, and Le Bars (1995) showed that OTA is
+0956-7135/$ - see front matter  2009 Elsevier Ltd. All rights reserved.
+doi:10.1016/j.foodcont.2009.12.001
+* Corresponding author. Tel.: +55 19 3743 1819; fax: +55 19 3743 1822.
+E-mail address: marta@ital.sp.gov.br (M.H. Taniwaki).
+Food Control 21 (2010) 872–877
+Contents lists available at ScienceDirect
+Food Control
+journal homepage: www.elsevier.com/locate/foodcont
+
+heat stable and only up to 20% of OTA in wheat was decomposed
+by dry heat at 100 C for 160 min or 150 C for 32 min. On the other
+hand, because of the high temperatures used for coffee roasting, a
+higher percentage of destruction is observed. However, contradic-
+tory results from different studies have been reported. Tsubouchi,
+Yamamoto, Hisada, Sakabe, and Udagawa (1987) reported that
+OTA in artiﬁcially contaminated green coffee beans was only
+slightly reduced (0–12%) by heat treatment at 200 C for 10–
+20 min and that almost all the toxin was infused into the coffee
+decoction when the roasted samples were ground and extracted
+with boiling water. This is broadly in agreement with results of
+Studer-Rohr et al. (1995) but in contradiction with those of Micco,
+Grossi, Miraglia, and Brera (1989) and Blanc, Pittet, Munoz-Box,
+and Viani (1998) which showed that up to 80% of the OTA was de-
+stroyed during industrial roasting due to both thermal destruction
+and coffee chaff removal.
+Even though coffee roasting may be an effective process for OTA
+destruction, the practice of severe roasting should not be used in
+an indiscriminate way, since other thermolabile compounds which
+are beneﬁcial to human health, such as chlorogenic acids (CGA)
+may be destroyed. CGA are the main phenolic compounds in coffee
+(4–12% of green coffee composition), formed by the esteriﬁcation
+of one or two molecules of certain trans cinnamic acids with (-)-
+quinic acid (Farah, DePaulis, Trugo, & Martin, 2005). The major
+classes of CGA in coffee, containing at least three important iso-
+mers, are caffeoylquinic acids (CQA), dicaffeoylquinic acids (diCQA)
+and feruloylquinic acids (FQA). During roasting, CGA are lost as a
+consequence of the thermal breakage of carbon–carbon covalent
+bonds, resulting in molecule changes and degradation (Farah &
+Donangelo, 2006; Farah et al., 2005). Several beneﬁcial health ef-
+fects have been attributed to CGA and derivatives, mainly related
+to their potent antioxidant capacity. Other reported activities are
+hypoglycemic and antibacterial, among others (Almeida, Farah, Sil-
+va, Nunan, & Glória, 2006; Antonio et al., in press; Farah, 2009;
+Hemmerle et al., 1997; Herling et al., 1998; Shearer, Sellars, Farah,
+Graham, & Wasserman, 2007; Shearer et al., 2003).
+Although kinetic studies are useful for food technologists to de-
+sign speciﬁc processes with greater efﬁciency and avoid energy
+and product losses, few studies on the kinetics of OTA destruction
+in coffee have been carried out. In the present study, twelve roast-
+ing conditions were used to model OTA thermal degradation kinet-
+ics in coffee. Since the analysis of OTA in naturally contaminated
+green coffee beans is difﬁcult due to the low contents found in
+these samples, we used artiﬁcially contaminated green coffee
+beans (inoculated with A. westerdijkiae), in order to obtain more
+accurate results for the development of the kinetic model. CGA
+content during coffee roasting was also evaluated to investigate
+the effect of the heat employed to destroy OTA in these health pro-
+moting compounds.
+2. Material and methods
+2.1. Coffee sample
+Green Coffea arabica beans obtained by drying and de-husking
+of coffee fruits, were harvested in São Paulo State, Brazil and ac-
+quired directly from producers.
+2.2. Selection and preparation of spore suspensions
+A. westerdijkiae isolated from coffee grown in Brazil was inocu-
+lated into malt extract agar (MEA) and incubated at 25 C for
+5 days. The growing culture was transferred into a test tube con-
+taining 30 mL of 0.1% peptone water plus 0.1% tween 80, and the
+suspension was agitated in a vortex for 1 min. A spore concentra-
+tion of 107 CFU/mL was obtained by dilution technique.
+2.3. Inoculation of Aspergillus westerdijkiae spores into coffee beans
+Sixteen 2 L Polyethylene Terephthalate (PET) ﬂasks were sur-
+face decontaminated with 70% alcohol and dried under UV light
+for 15 min. Following this, 1 kg of green coffee beans was placed
+into each ﬂask and 120 mL of the inoculum were added. Content
+was homogenized by hand shaking for
+2 min. Additionally,
+120 mL of peptone water 0.1% without fungal inoculum were
+added to one ﬂask containing the same amount of green coffee
+beans to achieve similar water activity conditions and be used as
+a control. Flask tops were loosened and the ﬂasks were incubated
+at 25 C for 30 days. Flasks were shaken daily and opened for aer-
+ation inside an aseptic cabinet ﬂow. After 30 days, all the A. west-
+erdijkiae contaminated coffee and the non-inoculated control
+were homogenized and analyzed for OTA and CGA.
+2.4. Coffee roasting
+Coffee samples (300 g) were roasted in duplicate in a vertical
+spouted bed roaster (105 mm diam, 590 mm height, 20 mm screen,
+45 angle) operating at 180, 200, 220 and 240 C for 5, 8 and
+12 min. The roaster was previously heated with hot air until the
+roasting temperature was achieved. After roasting, samples were
+immediately placed into a dry air cooler until reaching room tem-
+perature. Roasted coffee samples were ground in a Probat mill
+(Probat Emmerich Stawert Mühlenbau Typ K32/20, Germany)
+and sieved (20 mesh).
+2.5. Roasting degree classiﬁcation
+Colorimetric values were obtained using an Agtron Model E10-
+CP spectrophotometer (Agtron, Reno, NV – USA) and compared
+with the color disks from the ‘‘Roasting Color Classiﬁcation Sys-
+tem” (Agtron) for determination of roasting degrees.
+2.6. Ochratoxin A analysis
+Ochratoxin A from green and roasted coffee was analyzed
+according to Vargas, Santos, and Pittet (2005). A 25 g aliquot of cof-
+fee samples was extracted with 200 mL of a mixture of methanol:
+3% aqueous sodium bicarbonate (50:50). Extracts were ﬁltered and
+diluted with phosphate buffered saline and applied to an immuno-
+afﬁnity column (Vicam L.P., Watertown, MA) containing monoclo-
+nal antibody speciﬁc for OTA. After washing with distilled water,
+OTA was eluted with HPLC grade methanol and quantiﬁed by re-
+verse-phase HPLC with ﬂuorescence detection. A volume of 20 lL
+was injected through a SIL-10ADVP auto injector (Shimadzu Cor-
+poration, Japan). The mobile phase was methanol:acetronitri-
+le:water:acetic acid [35:35:29:10, (v/v/v/v)], with an isocratic
+ﬂow rate of 0.8 mL/min pumped by a SLC-10AVP (Shimadzu Corpo-
+ration, Japan). The equipment used was a Shimadzu LC-10VP sys-
+tem (Shimadzu Corporation, Japan) with a ﬂuorescence detector
+RF-10AXL (Shimadzu Corporation, Japan) set at 333 nm excitation
+and 477 nm emission. Chromatographic separation was achieved
+using a SupelcosilTM LC-18 column (5 lm, 250  4.6 mm, Supelco,
+Bellefonte, PA) equipped with an ODS Hypersil pre-column (5 lm,
+25  4.6 mm) placed into a CTO-10ADVP column oven (Shimadzu
+Corporation, Japan) at 40 C. The method to analyze OTA in green
+coffee was already validated. To recover determination, coffee
+samples were spiked with OTA standard (Sigma, USA) at three lev-
+els (4.8, 8.0 and 80.0 ng/g). The obtained OTA recoveries were
+86.5%, 78% and 81%, respectively. The detection and quantiﬁcation
+M.B.M. Ferraz et al. / Food Control 21 (2010) 872–877
+873
+
+limits of the method were 0.1 and 0.3 ng/g, respectively. OTA levels
+were expressed as ng/g of coffee on a wet basis.
+2.7. Chlorogenic acids analysis
+Green and roasted coffee samples were ground to pass through
+a 0.046 mm sieve and extracted in duplicate with boiling water,
+according to a modiﬁcation of the method of Trugo and Macrae
+(1984), described in detail in Farah et al. (2005). Analyses by a
+HPLC gradient system using 10 mM citric acid solution and meth-
+anol as the mobile phase were performed as also described in Farah
+et al. (2005) and Farah, de Paulis, Moreira, Trugo, and Martin
+(2006). Chromatographic separation was achieved using a Rex-
+chrom ODS-C18 column (5 lm, 250  4.6 mm, Regis Technologies,
+Morton Grove, IL) coupled with a guard column (Rexchrom, 5 lm,
+10  3 mm). Detection was performed by a UV detector (Model
+SPD-10AVp Shimadzu, Japan), operating at 325 nm. The variation
+coefﬁcient of the analytical method was lower than 5%. The detec-
+tion limit for 5-CQA, the main representative of CGA class in coffee,
+was 1.7 lg/mL. CGA levels were expressed as g/100 g of coffee on a
+dry weight basis.
+2.8. Water content
+In order to express the amount of CGA per weight of dry matter,
+the water content of the freshly ground beans was determined
+according to AOAC (2000).
+2.9. Kinetics of OTA degradation
+The kinetic model used in this study was chosen because of the
+balance between its simplicity and the good performance of exper-
+imental data it provided. We assumed that the kinetic parameters
+followed the Arrhenius law. The dependence of the degradation
+rate constant on the temperature was quantiﬁed by the Arrhenius
+equation (Nisha, Singhal, & Pandit, 2005; Tarade, Singhal, Jayram, &
+Pandit, 2007; Özdemir & Devres, 2000).
+3. Results and discussion
+3.1. Production of ochratoxin A by A. westerdijkiae
+The average content of ochratoxin A produced by A. westerdij-
+kiae in the contaminated raw coffee sample after 30 days of incu-
+bation was 247 ng/g which is about 100 times the average values
+reported in the literature for naturally contaminated coffee beans
+(MAFF, 1996; Studer-Rohr et al., 1995; Taniwaki, 2006).
+3.2. Roasting of the beans
+Table 1 shows the colorimetric values and respective roasting
+degrees of coffee before and after being roasted in different roast-
+ing conditions. Color development was directly related to roasting
+time and temperature, and roasting degrees varied from very light
+to very dark.
+Table 1
+Roasting conditions, colorimetric values and roasting degree of the coffee samples used in this study.
+Roasting conditions
+Instrumental colora (Agtron scale)
+Disc color #
+Roasting degree
+Temperature (C)
+Time (min)
+180
+5
+96.9 ± 0.0
+95
+Very light
+8
+96.9 ± 0.0
+95
+Very light
+12
+92.5 ± 0.1
+95
+Very light
+200
+5
+96.9 ± 0.0
+95
+Very light
+8
+85.8 ± 1.3
+95
+Very light
+12
+66.3 ± 0.6
+85
+Light
+220
+5
+88.6 ± 0.3
+95
+Very light
+8
+55.9 ± 0.6
+75
+Moderately light
+12
+44.7 ± 0.1
+55
+Medium
+240
+5
+59.7 ± 0.4
+75
+Moderately light
+8
+27.4 ± 0.2
+35
+Dark
+12
+10.9 ± 0.7
+25
+Very dark
+a Results are the average ± SD of three measurements.
+Table 2
+Ochratoxin A content and percent loss in green and roasted coffee samples used to compute the degradation model.
+Roasting conditions
+Ochratoxin A (ng/g)a
+Ochratoxin A loss (%)
+k (min1)
+Temperature (C)
+Time (min)
+Green coffee
+247 ± 20.1
+–
+–
+180
+5
+227 ± 20.0
+8.2
+0.10
+8
+143 ± 12.9
+42.1
+12
+115 ± 5.6
+53.6
+200
+5
+173 ± 31.7
+29.9
+0.11
+8
+108 ± 9.1
+56.1
+12
+80.6 ± 3.2
+67.4
+220
+5
+132 ± 8.0
+46.7
+0.20
+8
+58.9 ± 3.3
+76.2
+12
+31.7 ± 8.0
+87.2
+240
+5
+57.5 ± 9.5
+76.7
+0.43
+8
+14.0 ± 2.9
+94.3
+12
+2.8 ± 1.0
+98.9
+a Results are the average ± SD of four replicates of analysis.
+874
+M.B.M. Ferraz et al. / Food Control 21 (2010) 872–877
+
+3.3. Ochratoxin A destruction
+After roasting, coffee samples were analyzed for OTA content.
+Table 2 shows the contents of OTA in green and roasted coffee sam-
+ples used to compute the degradation kinetic models. Percent
+reduction in OTA content due to roasting is also shown. After
+12 min roasting, OTA content reduction ranged from 53% to 99%
+for samples roasted at 180 and 240 C, respectively. Samples
+roasted at intermediate roasting temperatures showed intermedi-
+ate OTA losses, as expected. Our results are in agreement with
+those obtained using naturally contaminated coffee beans (Blanc
+et al., 1998). On the other hand, the results of Tsubouchi et al.
+(1987) showed that OTA was slightly reduced (0–12%) by heat
+treatment at 200 C for 10–20 min. This discrepancy may be
+mainly due to their using of a static oven in which the convection
+heat exchange is very low and a considerable part of the roasting
+time might have been used just for drying, with the beans remain-
+ing at the wet bulb temperature (estimated to be around 80–90 C)
+for this experimental condition.
+Evaluation of zero and ﬁrst order equations, based on correla-
+tion coefﬁcient, showed that the best ﬁt (R2 > 0.88) was obtained
+when OTA degradation reaction was considered to be of ﬁrst order.
+Using linear regression analysis, the degradation rate equation data
+were analyzed as a function of temperature.
+Fig. 1 shows the ﬁrst order plots of OTA degradation in coffee
+samples at the tested temperatures. The half-life (t½), time re-
+quired for OTA to degrade to 50% of its original value, was calcu-
+lated from the rate constant k, as ‘ln2/k’. The average rate
+constants
+for
+OTA
+degradation
+increased
+from
+0.0687
+to
+0.3775 min1 at 180 and 240 C, respectively. A corresponding de-
+crease in half-life, from 10.09 to 1.84 min, respectively, was
+observed.
+The linear nature of the obtained plot (R2 > 0.90) indicates that
+thermal destruction of total OTA conforms to the Arrhenius equa-
+tion. Apparent activation energies Ea (kJ mol1) were calculated as
+a product of the gas constant R (8.3145 J mol1 K1) and the slope
+of the graph obtained by plotting ‘lnk’ vs. ‘1/T’. The apparent acti-
+vation energy for OTA thermal degradation was found to be
+49.2 kJ mol1. The frequency factor A0 (min1) was calculated as
+the exponential of the intercept of the Arrhenius plot at 1/T = 0
+and found to be 1.26  105.
+The degradation of OTA during coffee roasting was used imple-
+menting the calculated rate constants for OTA degradation, k. A
+strong correlation (R2 = 0.96) between experimental and calculated
+values was obtained (Fig. 2). An average relative error of 9.1% was
+found between experimental and calculated values. This relative
+error is in agreement with those reported by other modeling stud-
+ies in the literature (Nisha et al., 2005; Tarade et al., 2007).
+3.4. Chlorogenic acids destruction
+Because
+CGA are
+biologically relevant
+thermolabile com-
+pounds in coffee, their destruction during coffee roasting was
+also evaluated. The contents of total CGA and of CQA, FQA and
+diCQA classes, as well as CGA percent loss in the coffee samples
+used in this study are presented in Table 3. CGA content in green
+coffee was 5.98 g/100 g, which is in agreement with numerous
+studies in the literature (Clifford, 1999; Farah & Donangelo,
+2006; Farah et al., 2005; Perrone et al., 2008; Trugo & Macrae,
+1984). As expected, CGA content reduced during roasting, with
+the exception of the sample roasted at 180 C for 5 min. After
+12 min roasting, CGA loss ranged from 17% to 99% for samples
+roasted at 180 and 240 C, respectively. Fig. 3 presents the per-
+cent loss of both OTA and CGA contents due to coffee roasting.
+It is possible to observe that OTA percent loss was more pro-
+nounced that CGA percent loss when coffee was roasted at 180,
+200 and 220 C. When the roasting temperature was set to
+y = -0.4306x + 0.651
+R
+2 = 0.99
+y = -0.2008x + 0.301
+R
+2 = 0.98
+y = -0.0953x + 0.328
+R
+2 = 0.92
+y = -0.1074x + 0.129
+R
+2 = 0.96
+-5
+-4.5
+-4
+-3.5
+-3
+-2.5
+-2
+-1.5
+-1
+-0.5
+0
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+Time (min)
+180 oC
+200 oC
+220 oC
+240 oC
+ln (OTA t/OTA t=0) 
+Fig. 1. First order plots of OTA degradation in coffee samples at 180, 200, 220 and 240 C.
+y = 0.9814x
+R2 = 0.98
+0
+50
+100
+150
+200
+250
+0
+50
+100
+150
+200
+250
+Calculated OTA content  (ng/g)
+Experimental OTA content (ng/g)
+Fig. 2. Comparison of experimental and calculated OTA content (ng/g) in roasted
+coffee samples using a kinetic model based on a ﬁrst order reaction rate and the
+Arrhenius law.
+M.B.M. Ferraz et al. / Food Control 21 (2010) 872–877
+875
+
+240 C, however, the percent losses of both compounds are very
+similar, especially after longer periods of roasting (8 and 12 min).
+To better compare the roasting conditions in terms of efﬁciency
+to destroy OTA and retain CGA, we calculated the ratio between
+CGA and OTA percent losses. Some restrictions were made, since
+only high efﬁciencies of OTA destruction (>75%) were used. Two
+samples showed OTA percent losses nearly to 80%, namely those
+roasted at 220 C for 8 min and at 240 C for 5 min. These sam-
+ples were both classiﬁed in terms of roasting degree as moder-
+ately light (disc #75) and their calculated ratios (CGA/OTA)
+were 0.84 and 0.76, respectively. The samples roasted at 220 C
+for 12 min and 240 C for 8 and 12 min. showed roasting degrees
+as medium (disc #55), dark (disc #35) and very dark (disc #25),
+and their calculated ratios (CGA/OTA) were 0.92, 1.00 and 1.00,
+respectively. In this way, lower roasting temperatures for longer
+periods of time would favor OTA destruction and CGA retention.
+Nevertheless, it is clear from our results that in order to destroy
+most of the OTA present in the coffee, CGA content was signiﬁ-
+cantly affected. It should be noted, however, that the nature of
+the cell wall of coffee beans probably changed during incubation,
+which could have facilitated the destruction of CGA and also, to a
+lower extent, OTA.
+5 min
+8 min
+12 min
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+OTA
+CGA
+Component loss (%)
+5 min
+8 min
+12 min
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+OTA
+CGA
+Component loss (%)
+5 min
+8 min
+12 min
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+OTA
+CGA
+Component loss (%)
+5 min
+8 min
+12 min
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+OTA
+CGA
+Component loss (%)
+180ºC 
+220ºC 
+240ºC
+200ºC 
+Fig. 3. Percent loss in OTA and CGA contents when green coffee was for roasted at 180, 200, 220 and 240 C for 5, 8 and 12 min.
+Table 3
+Chlorogenic acids contents and percent loss in green and roasted coffee samples.a
+Roasting conditions
+Total CGA (g/100 g)b
+CQA (g/100 g)b
+FQA (g/100 g)b
+diCQA (g/100 g)b
+Total CGA loss (%)
+Temperature (C)
+Time (min)
+Green
+5.98 ± 0.03
+4.84 ± 0.02
+0.15 ± 0.00
+0.90 ± 0.01
+–
+180
+5
+6.17 ± 0.05
+5.13 ± 0.03
+0.17 ± 0.00
+0.85 ± 0.02
+3.0
+8
+5.73 ± 0.29
+4.87 ± 0.22
+0.15 ± 0.01
+0.70 ± 0.05
+4.2
+12
+4.99 ± 0.13
+4.25 ± 0.12
+0.17 ± 0.01
+0.56 ± 0.01
+16.6
+200
+5
+5.69 ± 0.58
+4.78 ± 0.41
+0.20 ± 0.11
+0.71 ± 0.05
+4.9
+8
+4.26 ± 0.42
+3.67 ± 0.30
+0.17 ± 0.05
+0.42 ± 0.08
+28.7
+12
+3.23 ± 0.08
+2.80 ± 0.10
+0.14 ± 0.03
+0.28 ± 0.01
+45.9
+220
+5
+4.52 ± 0.41
+3.87 ± 0.30
+0.19 ± 0.07
+0.46 ± 0.04
+24.4
+8
+2.14 ± 0.12
+1.90 ± 0.12
+0.09 ± 0.01
+0.15 ± 0.02
+64.2
+12
+1.20 ± 0.17
+1.06 ± 0.11
+0.09 ± 0.04
+0.06 ± 0.01
+79.9
+240
+5
+2.50 ± 0.16
+2.21 ± 0.14
+0.11 ± 0.01
+0.18 ± 0.01
+58.2
+8
+0.35 ± 0.02
+0.29 ± 0.01
+0.05 ± 0.01
+0.01 ± 0.00
+94.2
+12
+0.05 ± 0.01
+0.04 ± 0.00
+0.01 ± 0.00
+0.00 ± 0.00
+99.1
+a CGA = chlorogenic acids; CQA = caffeoylquinic acids; FQA = feruloylquinic acids; diCQA = dicaffeoyl-quinic acids.
+b Results are the average ± SD of two replicates of analysis.
+876
+M.B.M. Ferraz et al. / Food Control 21 (2010) 872–877
+
+In conclusion, in the present study, we showed that spouted bed
+roasting is a very efﬁcient procedure for OTA reduction in coffee,
+and its reduction depends directly on the degree of roasting. OTA
+degradation during coffee roasting followed ﬁrst order reaction
+kinetics. Using the apparent activation energy of OTA degradation
+and the temperature-dependent reaction rate, a compliance with
+the Arrhenius equation was shown. This model was capable of pre-
+dicting the thermal induced degradation of OTA. The proposed
+model may become an important predicting tool in the coffee
+industry. However, it should be kept in mind that using contami-
+nated beans will greatly affect the quality of the beverage and that
+severe roasting of coffee beans to destroy OTA will also directly af-
+fect the levels of CGA, which are beneﬁcial compounds to human
+health. Therefore, even though roasting may destroy OTA, the use
+of highly contaminated beans in coffee blends is not a recom-
+mended practice.
+Acknowledgements
+This work was funded by the Consórcio Brasileiro de Pesquisa e
+Desenvolvimento do Café – EMBRAPA. The Support from CNPq and
+FAPERJ (Brazil) are gratefully acknowledged.
+References
+Almeida, A. A. P., Farah, A., Silva, D., Nunan, E. A., & Glória, M. B. (2006). Antibacterial
+activity of coffee extracts and selected coffee chemical compounds. Journal of
+Agricultural and Food Chemistry, 54, 8738–8743.
+Antonio, A. G., Moraes, R. S., Perrone, D., Maia, L. C., Santos K. R. N., Iório, N.L. P.,
+Farah, A. (in press). Species, roasting degree and decaffeination inﬂuence the
+antibacterial activity of coffee against Streptococcus mutans. Food Chemistry.
+doi:10.1016/j.foodchem.2009.05.063.
+Association of Ofﬁcial Analytical Chemists – AOAC (2000). Ofﬁcial methods of
+analysis of the association of ofﬁcial analytical chemists (17th ed.). Gaithersburg,
+MD, USA: Association of Ofﬁcial Analytical chemists.
+Blanc, M., Pittet, A., Munoz-Box, R., & Viani, R. (1998). Behavior of ochratoxin A
+during green coffee roasting and soluble coffee manufacture. Journal of
+Agricultural and Food Chemistry, 46, 673–675.
+Boudra, H., Le Bars, P., & Le Bars, J. (1995). Thermostability of ochratoxin A in wheat
+under two moisture conditions. Applied and Environmental Microbiology, 61,
+1156–1159.
+Bucheli, P., & Taniwaki, M. H. (2002). Research on the origin, and the impact of
+postharvest handling and manufacturing on the presence of ochratoxin A in
+coffee. Food Additives and Contaminants, 19, 655–665.
+Burdaspal, P. A., & Legarda, T. M. (1998). Ochratoxin A in roasted and soluble coffee
+marketed in Spain. Alimentaria, 296, 31–35.
+Clifford, M. N. (1999). Chlorogenic acids and other cinnamates – Nature, occurrence
+and dietary burden. Journal of the Science of Food and Agriculture, 79, 362–372.
+Farah, A. (2009). Coffee as a speciality and functional beverage. In P. Paquin (Ed.),
+Speciality and functional beverages (pp. 370–395). Cambrige, NY: Woodhead
+Publishing Limited, UK-CRC press (chap. 15).
+Farah, A., de Paulis, T., Moreira, D. P., Trugo, L. C., & Martin, P. R. (2006). Chlorogenic
+acids and lactones in regular and water-decaffeinated arabica coffees. Journal of
+Agricultural and Food Chemistry, 54, 374–381.
+Farah, A., DePaulis, T., Trugo, L. C., & Martin, P. R. (2005). Formation of chlorogenic
+acids lactones in roasted coffee. Journal of Agricultural and Food Chemistry, 53,
+1105–1113.
+Farah, A., & Donangelo, C. M. (2006). Phenolic compounds in coffee. Brazilian Journal
+of Plant Physiology, 18, 23–26.
+Frisvad, J. C., Thrane, U., Samson, R. A., & Pitt, J. I. (2006). Important mycotoxins and
+the fungi which produce them. In A. D. Hocking, J. I. Pitt, R. A. Samson, & U.
+Thrane (Eds.), Advances in food mycology (pp. 3–31). New York: Springer.
+Hemmerle, H., Burger, H., Bellow, P., Schubert, G., Rippel, R., Schindler, P. W., et al.
+(1997). Chlorogenic acid and synthetic chlorogenic acid derivatives: Novel
+inhibitors of hepatic glucose-6-phosphate translocase. Journal of Medicinal
+Chemistry, 40, 137–145.
+Herling, A. W., Burger, H. J., Schwab, D., Hemmerle, H., Below, P., & Schubert, G.
+(1998). Pharmacodynamic proﬁle of a novel inhibitor of the hepatic glucose-6-
+phosfatase system. American Journal of Physiology, 274, G1087–G1093.
+International Agency and for Research on Cancer – IARC (1993). Ochratoxin A.
+Monograph on the evaluation of carcinogenic risk to humans.v.56. Some naturally
+occurring substances: Food items and constituents, heterocyclic aromatic amines
+and mycotoxins. Lyon (Lyon: IARC): International Agency of Research on Cancer.
+Krogh, P., Gyrd-Hansen, N., Hald, B., Larsen, S., Nielsen, J. P., Smith, M., et al. (1988).
+Renal
+enzyme
+activities
+in
+experimental
+ochratoxin
+A-induced
+porcine
+nephropathy: Diagnostic potential of phosphoenolpyruvate carboxykinase
+and
+gammaglutamyl
+transpeptidase
+activity.
+Journal
+of
+Toxicology
+and
+Environmental Health, 23, 1–15.
+Kuiper-Goodman, T. (1996). Risk assessment of ochratoxin A: An update. Food
+Additives and Contaminants Supplement, S13, 53–57.
+Levi, C. P., Trenk, H. L., & Mohr, H. K. (1974). Study of the occurrence of ochratoxin A
+in green coffee beans. Journal of the Association of Ofﬁcial Analytical Chemists, 57,
+866–870.
+Lombaert, G. A., Pellaers, P., Chettiar, M., Lavalce, D., Scott, P. M., & Lau, B. P. Y.
+(2002). Survey of Canadian retail coffees for ochratoxin A. Food Additives and
+Contaminants, 19, 869–877.
+Micco, C., Grossi, M., Miraglia, M., & Brera, C. (1989). A study of the contamination
+by ochratoxin A of green and roasted coffee beans. Food Additives and
+Contaminants, 6, 333–339.
+Ministry of Agriculture, Fisheries and Food – MAFF. (1996). Surveillance of
+ochratoxin A in green (unroasted) coffee beans, Food Surveillance Information
+Sheet 80.
+Nisha, P., Singhal, R. S., & Pandit, A. B. (2005). A study on degradation kinetics of
+riboﬂavin in green gram whole (Vigna radiata L.). Food Chemistry, 89, 577–582.
+Özdemir, M., & Devres, O. (2000). Analysis of color development during roasting of
+hazelnuts using response surface methodology. Journal of Food Engineering, 45,
+17–24.
+Pardo, E., Marin, S., Ramos, A. J., & Sanchis, V. (2004). Occurrence of ochratoxigenic
+fungi and ochratoxin A in green coffee from different origins. Food Science and
+Technology International, 10, 45–49.
+Perez de Obanos, A., Gonzales-Penas, E., & Lopez de Cerain, A. (2005). Inﬂuence of
+roasting and brew preparation on the ochratoxin A content in coffee infusion.
+Food Additives and Contaminants, 22, 463–471.
+Perrone, D., Donangelo, C. M., & Farah, A. (2008). Fast simultaneous analysis of
+caffeine,
+trigonelline,
+nicotinic
+acid
+and
+sucrose
+in
+coffee
+by
+liquid
+chromatography–mass spectrometry. Food Chemistry, 110, 1030–1035.
+Shearer, J., Farah, A., de Paulis, T., Bracy, D. P., Pencek, R. R., Graham, T. E., et al.
+(2003). Quinides of roasted coffee enhance insulin action in conscious rats.
+Journal of Nutrition, 133, 3529–3532.
+Shearer, J., Sellars, E. A., Farah, A., Graham, T. E., & Wasserman, D. H. (2007). Effects
+of chronic coffee consumption on in vivo glucose kinetics in high-fat fed rats.
+Canadian Journal of Physiology and Pharmacology, 85, 823–830.
+Studer-Rohr, I., Dietrich, D. R., Schlatter, J., & Schlatter, C. (1995). The occurrence of
+ochratoxin A in coffee. Food and Chemical Toxicology, 33, 341–355.
+Suárez-Quiroz, M., González-Rios, O., Barel, M., Guyot, B., Schorr-Galindo, S., &
+Guiraud, J. P. (2004). Study of ochratoxin A producing strains in coffee
+processing. International Journal of Food Science and Technology, 39, 501–507.
+Taniwaki, M. H. (2006). An update on ochratoxigenic fungi and ochratoxin A in
+coffee. In A. D. Hocking, J. I. Pitt, R. A. Samson, & U. Thrane (Eds.), Advances in
+food mycology (pp. 189–202). New York: Springer.
+Taniwaki, M. H., Pitt, J. I., Teixeira, A. A., & Iamanaka, B. T. (2003). The source of
+ochratoxin A in Brazilian coffee and its formation in relation to processing
+methods. International Journal of Food Microbiology, 82, 173–179.
+Tarade, K. M., Singhal, R. S., Jayram, R. V., & Pandit, A. B. (2007). Kinetics of
+degradation of ODAP in Lathyrus sativus L. ﬂour during food processing. Food
+Chemistry, 104, 643–649.
+Trugo, L. C., & Macrae, R. (1984). A study of the composition of roasting on the
+chlorogenic acid composition of coffee using HPLC. Food Chemistry, 15, 219–227.
+Tsubouchi, H., Yamamoto, K., Hisada, K., Sakabe, Y., & Udagawa, S. (1987). Effect of
+roasting on ochratoxin A level in green coffee beans inoculated with Aspergillus
+ochraceus. Mycopathology, 97, 111–115.
+Urbano, G. R., Leitão, M. F. F., Vicentini, M. C., Taniwaki, M. H. (2001). Preliminary
+studies on destruction of ochratoxin A in coffee during roasting. In: Proceedings
+of the 19th international scientiﬁc colloquium on coffee, Trieste – Italy, May
+14–18th 2001. CD room 5p.
+Van der Merwe, K. J., Steyn, P. S., & Fourie, L. (1965). Ochratoxin A, a toxic metabolite
+produced by Aspergillus ochraceus Wilh. Nature, 205, 1112–1113.
+Vargas, E. A., Santos, E. A., & Pittet, A. (2005). Determination of ochratoxin A in green
+coffee
+by
+immunoafﬁnity
+column
+cleanup
+and
+liquid
+chromatography
+collaborative study. J.A.O.A.C., 58, 773–779.
+M.B.M. Ferraz et al. / Food Control 21 (2010) 872–877
+877

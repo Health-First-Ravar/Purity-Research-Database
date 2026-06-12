@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "status": "UNRESOLVED",
-  "product_key": null,
+  "status": "OK",
+  "product_key": "BALANCE",
   "report_number": "4533910-0",
   "test_date": "2024-06-12",
   "sample_name": "BALANCE 2024 Nutrition Eurofins Sample: 14191417",
@@ -239,5 +239,5 @@
       "retest_sequence": 0
     }
   ],
-  "ingested_at": "2026-05-31T05:44:15+00:00"
+  "ingested_at": "2026-05-31T16:47:35+00:00"
 }

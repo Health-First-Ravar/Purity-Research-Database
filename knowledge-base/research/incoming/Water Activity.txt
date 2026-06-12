@@ -1,0 +1,1280 @@
+Maillard Reaction in Limited Moisture
+and Low Water Activity Environment
+C.W. Wong, H.B. Wijayanti, and B.R. Bhandari
+Abbreviations
+aw
+Water activity
+IMF
+Intermediate moisture food
+ΔE*
+Color difference
+k
+Reaction rate constants
+r2
+Coefﬁcients of determination
+C
+Values of index (color)
+t
+Time
+K
+Relation between the zero-order kinetic constant for the color
+formation
+k0
+Zero-order kinetic constant for the color formation
+k1
+First-order kinetic constant for the color disappearance
+t0
+Induction time
+ANOVA
+Analysis of variance
+MRPs
+Maillard reaction products
+1
+Introduction
+Maillard reaction is a nonenzymatic browning reaction that involves the reaction of
+carbonyl groups, primarily reducing sugars with free amino groups which cause the
+changes of chemical and physiological properties of proteins (Labuza and
+Saltmarch 1981). It results in the development of complex mixtures of colored
+C.W. Wong • H.B. Wijayanti • B.R. Bhandari (*)
+School of Agriculture and Food Sciences, The University of Queensland,
+Brisbane, QLD 4072, Australia
+e-mail: b.bhandari@uq.edu.au
+© Springer Science+Business Media New York 2015
+G.F. Gutie´rrez-Lo´pez et al. (eds.), Water Stress in Biological, Chemical,
+Pharmaceutical and Food Systems, Food Engineering Series,
+DOI 10.1007/978-1-4939-2578-0_4
+41
+
+and colorless reaction products which range from ﬂavor volatiles (low molecular
+weight compounds) to melanoidins, a series of brown pigments with high molecular
+weights (Carabasa-Giribet and Ibarz-Ribas 2000; Martins and Van-Boekel 2005);
+these effects could be either desirable or undesirable. Browning and the formation
+of aroma are desired in baking, roasting, or frying, while it is undesirable in the
+foods which have a typical weak or other color of their own such as browning in the
+products of condensed milk, white dried soups, tomato soup, etc. and generation of
+off-ﬂavors in food during storage. Besides, Maillard reaction can also have negative
+effects on nutritional values such as the losses of essential amino acids, as well as
+the formation of mutagenic compounds (Belitz et al. 2004).
+The rate of Maillard reaction and the nature of the colored products are con-
+trolled by its immediate chemical environment including temperature, heating time,
+pH, and the composition of the system (nature, concentration, and proportion of the
+reactants), as well as water activity (aw). The regulation of all these factors is one of
+the ways to control the Maillard reaction progress and hence the browning com-
+pounds formed in the system (Ames 1990; Laroque et al. 2008).
+Water activity is believed to be one of the important factors in controlling the
+Maillard reaction. The chemical reaction is controlled by the effect of moisture
+content or aw on reactant dissolution, mobility, and concentration. An increase in aw
+to a certain level can increase reactant solubility and mobility and thus the rate of
+chemical reaction. However, the reaction rate will decrease when aw increases
+further. This is because the moisture content tends to dilute the concentration of
+reactants; thus, it limits the availability of mobile water lowering the mobility of the
+system and thereby decreases the reaction rate. The maximum browning rate
+generally had been observed in most foods at aw 0.65–0.75, and reaction will
+cease at aw below 0.3 (Warmbier et al. 1976).
+Glycerol is a liquid humectant which contains residual water of less than 0.5 %.
+It is naturally present in many foods and is used as food additive, as well as a
+conditioner, moisturizer, and solvent for ﬂavor extracts (Cerny and Guntz-Dubini
+2006). It also helps to lower the aw in the food; therefore, it increases the microbial
+stability of the food and provides longer shelf life to the product especially in
+intermediate moisture food (IMF). The glass transition temperature of the pure
+glycerol is >80 C (He et al. 2006). Therefore, glycerol has a sufﬁcient molecular
+mobility at higher temperatures than 80 C to allow the chemical reactions to
+occur.
+Maillard reaction has been proved to occur even at low aw due to the presence of
+glycerol. This was thought to be an effect of reduced aw and the different
+physiochemical environments (Cerny and Guntz-Dubini 2006). This effect was
+studied few decades ago (Warmbier et al. 1976; Eichner and Karel 1972; Labuza
+and Saltmarch 1981; Mustapha et al. 1998; Sherwin and Labuza 2003). Eichner and
+Karel (1972) studied the extent of Maillard browning in a liquid model system of
+glycine-glucose in glycerol and found that browning rate increased with decreasing
+water activity. Besides, Mustapha et al. (1998) noted high browning in xylose/
+lysine in glycerol model system if no water was added, even though the reactants
+were not fully solubilized. These authors added that the maximum browning
+42
+C.W. Wong et al.
+
+occurred if moisture content increased up to 30–40 %. Similarly, Sherwin and
+Labuza (2003) reported that high browning rates were observed over the aw of
+0.11–0.75 in the glycerol model system in their study. They proved that aw cannot
+be used alone as an indicator to predict the nonenzymatic browning reaction rate
+because solubility and interference reactant mobility within the total phase are the
+main key for reactions to proceed. Their result showed that the addition of liquid
+phase humectants (glycerol) in a model system of D-glucose-caseinate-sodium
+benzoate had a higher reaction rate compared to control at low to intermediate
+aw. However, acceleration of the Maillard reaction caused by added humectants has
+not been previously reported. Further understanding of the Maillard reactions in
+limited water but mobile system would be helpful to explain the stability issues of
+many dried and intermediate food products. Therefore, the objective of this
+research is to investigate the Maillard reaction in non-water semipolar model liquid
+systems. Glycerol has been found solubilizing all the common sugars (fructose,
+glucose, lactose, maltose, and sucrose) at various degrees (Bhandari 2010). The
+hypothesis of this research was that if glycerol can dissolve solutes (reactant
+molecules), then it will promote various chemical reactions in foods in the similar
+way that water does, by increasing the molecular mobility of the system.
+2
+Materials and Methods
+2.1
+Preparation of Model System
+Chemicals used in this study included hexoses (D-glucose, D-fructose) and a disac-
+charide (lactose), amino acid (glycine), and glycerol (99.5 % v/v). All the chemicals
+used were of the analytical grade supplied by Ajax Finechem (Sydney, Australia).
+The model systems used in the experiment consisted of 13.5 mg of reducing
+sugar and 6.68 mg of glycine in 3.5 mL of glycerol at three added moisture levels:
+0, 5, and 10 % (v/v). The calculated aw for the three moisture levels was as follows:
+~0 (aw ¼ 0.025), 5 (aw ¼ 0.21), and 10 % (aw ¼ 0.36). These aw values were
+predicted based on Couchman-Karasz model as illustrated by Katkov and Levine
+(2004). All sugars and glycine were dried in vacuum oven at 65 C for 1–2 h in
+order to obtain anhydrous condition in the system. The samples were considered to
+be close to “zero” % moisture content (actual moisture contents were determined to
+be 0.5 %, since pure glycerol contained 0.5 % (v/v) moisture). The residual
+moisture in the dried sugars and amino acid can be considered negligible since
+the amount of sugars and amino acid used in the experiment was very low.
+0.1567 mL and 0.3308 mL of Milli-Q water was added to adjust the moisture
+level to 5 and 10 % (v/v) in 3.5 mL glycerol. The samples were prepared in a Pyrex
+glass test tube and heated for 1, 2, 3, 4, 10, 17, and 24 h at 100 C. The test tubes
+containing samples with ~0 % moisture were uncapped to ensure minimum residual
+moisture capture in the product, whereas the samples with 5 and 10 % moisture
+Maillard Reaction in Limited Moisture and Low Water Activity Environment
+43
+
+were capped to avoid moisture evaporation. Each sample was mixed with a vortex
+mixer for 30 s, before and after heating. At different lengths of heating time up to
+24 h, the samples were removed from the oven and cooled immediately to room
+temperature before color measurement analyses.
+As for control, a series of sample consisting only glycine and glycerol without
+reducing sugars were prepared with the same concentration and treated at the same
+heating conditions. Systems consisting of each reducing sugar only in glycerol were
+also prepared and treated at the same heating temperature and time conditions to
+ensure that there is no caramelization of sugars. This can otherwise interfere the
+results. This step should not be overlooked. All treatments were performed in
+duplicate as per the experimental design described in Sect. 2.4 below.
+2.2
+Color Parameters and Absorbance Measurements
+Absorbance values to determine the extent of browning in the Maillard reaction
+were analyzed by spectrophotometry. Spectrophotometric measurements were
+performed in a UV/VIS spectrophotometer (Shimadzu UV-1700 PharmaSpec
+series, Tokyo, Japan) using 1 cm quartz cell. The absorption spectra were deter-
+mined over the wavelength range of 200–500 nm. Before analysis, 0.5 mL of
+samples (reaction products) from each test tube was taken and diluted to 10 mL
+by using Milli-Q water (5:100 v/v) in a 10 mL volumetric ﬂask. The absorbance was
+recorded at 280 and 420 nm.
+The CIE L*, a*, and b* values were measured by chromameter (CR-400,
+Minolta, Crystal Lake, III., USA). Tristimulus values give a three-dimensional
+value for color in which equal distances approximate to equal perceived color
+differences. The L*, a*, and b* values are the three dimensions of the measured
+color which gives speciﬁc color value of the material. L* values represent light-dark
+spectrum; a* value represents the green-red spectrum, while b* value represents
+blue-yellow spectrum. This method has been used to measure the intensity of the
+browning in the Maillard product by various researchers (Ozdemir and Devres
+2000). Color difference (ΔE*) was expressed as ((Δa*)2 + (Δb*)2 + (ΔL*)2)1/2.
+Three measurements were obtained from each sample and these values were
+averaged. Calibration was performed against a standard white tile (calibration
+plate CR-400) each time when the instrument was used.
+2.3
+Kinetic Studies
+The data were subjected to regression analysis to determine the reaction order of the
+browning reaction. Reaction rate constants (k) and their coefﬁcients of determina-
+tion (r2) were calculated. General reaction rate equation was used to evaluate the
+kinetic reaction rate order, when:
+44
+C.W. Wong et al.
+
+n ¼ 0 zero-order
+ð
+Þ, C ¼ C0  kt;
+ð1Þ
+n ¼ 1 first-order
+ð
+Þ, C ¼ C0exp kt
+ð
+Þ
+ð2Þ
+The rate of browning reaction is expressed as:
+dC=dt ¼ kCn;
+ð3Þ
+where C is the values of index (color), n is the reaction order, k is the reaction rate
+constant, and t is time. In some cases, the following combined equation (4)
+(a pseudo-ﬁrst-order kinetics) was tested according to Carabasa-Giribet and
+Ibarz-Ribas (2000):
+C ¼ K 1  exp  k1
+ð
+Þ` t  t0
+ð
+Þ
+ð
+Þ
+ð
+Þ
+ð4Þ
+where K is the relation between the zero-order kinetic constant for the color formation
+(k0) and the ﬁrst-order kinetic constant for the color disappearance (k1)` and t0 is the
+induction time.
+2.4
+Experimental Design and Statistical Analysis
+The objective of this experiment was to study the effects of different independent
+variables, namely, heating time and moisture content on the nonenzymatic brow-
+ning reaction, prepared from various sugar-amino acid-glycerol model systems.
+The dependent variables (experimental response) that were investigated in this
+study were the extent of browning (absorbance) and the intensity of browning
+(CIE L*, a*, and b* values). All data was collected from a completely randomized
+experiment, and all samples were independent and freshly prepared. Experiments
+were performed at least twice.
+All experimental data were analyzed using the analysis of variance (ANOVA)
+and linear regression data analysis tools in Minitab version 15 and Microsoft Excel
+2003, respectively. Whereas the nonlinear regression was done by SigmaPlot 10.0,
+ANOVA was performed to ﬁnd out the effect of moisture and heating time on the
+development of browning color in the model systems. The level of statistical
+signiﬁcance for the process variables was deﬁned at p < 0.05. Results reported
+were the average of the data.
+Maillard Reaction in Limited Moisture and Low Water Activity Environment
+45
+
+3
+Results and Discussion
+3.1
+Preliminary Results
+3.1.1
+Color Development in Control
+Preliminary experiments were conducted to investigate whether each reducing
+sugar-glycerol system and glycine-glycerol system, which was the control used in
+this experiment, could develop brown color under the experimental conditions.
+Results showed that there was no color development in each tested reducing sugar-
+glycerol system even though the reducing sugars were fully dissolved in glycerol
+either in the presence of moisture or in the absence of moisture when heated up to
+24 h. No color development was noted when glycerol was heated alone under the
+experimental condition. This is because Maillard reaction will only occur if there is
+a condensation or interaction between carbonyl group from sugar and a free amine
+group from an amino acid (Labuza and Saltmarch 1981). However, brown color
+development was noted when glycine-glycerol systems heated in the absence of
+sugars, which also was observed in the studies from Obanu et al. (1977) and Seow
+and Cheah (1985). It should be noted that glycerol, a sugar alcohol, belongs to the
+polyol group; therefore, browning reaction did not occur between glycerol and
+reducing sugars, but had some effect on glycine-glycerol systems (Fig. 1a). How-
+ever, the development of color was low in glycine-glycerol system as compared to
+each reducing sugar-glycine-glycerol model system as shown in Fig. 1b.
+3.1.2
+Determination of Spectrum Peak
+With the aim of ﬁnding the peak of absorbance vs. wavelength, the absorbance
+spectra between 200 and 500 nm were recorded. Simple structure compounds,
+produced during the early stages of Maillard reaction, are related to absorbance in
+the UV region (Zegota and Bachman 1987). The analysis of the spectra of browning
+at different moisture conditions and temperatures used allowed the detection of
+changes related to subsequent stages of Maillard reaction. The ﬁrst stages of the
+browning reaction in the systems used are characterized by the appearance of
+absorption around 280 nm that can be related to heterocyclic derivatives. This
+absorbing material becomes progressively reduced due to the appearance of more
+complex compounds absorbing at 350 nm as the reaction proceeds (Cuzzoni
+et al. 1998). Wijewickreme et al. (1997) reported that the appearance of absorbance
+at 320 nm is due to the formation of soluble pre-melanoidins, while the absorbance
+at 420 nm has been used as the end-point measurement for quantifying the yield of
+high molecular weight melanoidins (Fogliano et al. 1999).
+46
+C.W. Wong et al.
+
+In this experiment, the absorbance peak was observed along the wavelength
+between 282 and 293 nm for glucose and lactose and 278–293 nm for fructose.
+Absorbance peaks also occurred between 335 and 344 nm for glucose. In any case,
+this range of wavelength has been associated with an early stage of the reaction and
+low molecular weight of Maillard reaction product such as furans, pyrroles, and
+pyrazines (Lu et al. 2005a). Pyrazine compounds were present abundantly in the
+glycerol model system (Lu et al. 2005b). Figure 2a illustrated the trend of absor-
+bance spectra of three sugars at 0 % moisture level when heated for 24 h. Obvi-
+ously, the absorbance peak of these three sugars was not occurring at the exactly
+same wavelength. Absorbance peaks were shifted to a slightly higher wavelength if
+moisture was present which is shown in Fig. 2b. This indicated that the brown
+pigments produced in each reducing sugar-amino acid-glycerol model system
+- 0.050
+0.000
+0.050
+0.100
+0.150
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+22
+24
+Abs. (280nm)
+time (h)
+a
+b
+glycine-glycerol (0% moisture)
+glycine-glycerol (5% moisture)
+glycine-glycerol (10% moisture)
+- 0.400
+0.000
+0.400
+0.800
+1.200
+1.600
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+22
+24
+Abs. (280nm)
+time (h)
+fructose-glycine-glycerol
+lactose-glycine-glycerol
+glucose-glycine-glycerol
+glycine-glycerol
+Fig. 1 (a) Absorbance of control (glycine-glycerol) at three moisture levels monitored at 280 nm.
+(b) Comparison of absorbance (280 nm) between sugar-glycine-glycerol model systems with
+control (glycine-glycerol) at moisture level 0 %
+Maillard Reaction in Limited Moisture and Low Water Activity Environment
+47
+
+heated under different experimental conditions are more likely to consist of a
+variety of several low molecular weight chromophores. Besides, no obvious absor-
+bance peak was observed at wavelength 420 nm, which is associated with the
+presence of high molecular weight browning compounds, as melanoidins, even
+though high browning was visually observed especially when the samples with 0 %
+moisture were heated. It is believed that the presence of high molecular weight
+color material is mainly due to the colored low molecular weight molecules that
+were physically entrapped in the high molecular weight polymers that formed in the
+system, which has been reported by Fogliano et al. (1999) in gluten-glucose system
+under wet and dry conditions. Before this study, Hofmann (1998) also deemed that
+low molecular weight compounds were the main responsible factor for color
+formation in foods rather than high molecular weight compounds.
+0
+0.5
+1
+1.5
+2
+2.5
+3
+200
+300
+400
+500
+Absorbance
+wavelength(nm)
+glu-gly-glycerol
+fruc-gly-glycerol
+lac-gly-glycerol
+288nm
+278nm
+293nm
+0
+0.5
+1
+1.5
+2
+2.5
+200
+300
+400
+500
+Absorbance
+wavelength (nm)
+a
+b
+0%
+5%
+10%
+280nm
+Fig. 2 (a) Absorbance spectra of glucose-, fructose-, and lactose-glycine-glycerol model system
+at 0 % moisture level and heated for 24 h. (b) Absorbance spectra of fructose-glycine-glycerol
+model system at three moisture levels and heated for 24 h. All values refer to diluted samples
+(5:100 v/v)
+48
+C.W. Wong et al.
+
+3.1.3
+Effect of Moisture Content in the Color Development
+All sugars in the glycine-glycerol systems showed the highest browning at moisture
+content 0 % (w/w), followed by 5 % (w/w), and 10 % (w/w) showed the least
+browning (Fig. 3). The intensity of the browning increased over heating time.
+This observation indicated that the role of water, which used to increase the
+solubility of the reactant and mobility of the system, thus the rate of the chemical
+reaction, could be replaced by using glycerol. This ﬁnding once again proved that
+glycerol was able to shift the water activity downward (Warmbier et al. 1976;
+Eichner and Karel 1972; Mustapha et al. 1998) and hence the water activity for the
+maximum browning to occur either due to the hygroscopic nature (Mustapha
+et al. 1998) or the plasticizing effect of the glycerol itself (Eichner and Karel
+1972). In any case, glycerol was proved to enhance the molecular mobility of the
+system and brought the maximum browning to the system at lower water activity.
+Water activity, in this case, was not the major factor for browning.
+In this study, solubilization of the reactants (sugars and glycine) was visually
+observed whether there was sediment at the bottom of the test tubes. High browning
+was observed when no water was added to the sugar-glycine-glycerol model system
+(0 % moisture level), even though the reactants especially for fructose- and lactose-
+glycine were not completely soluble in glycerol during the ﬁrst few hours heating time.
+This ﬁnding was in line with the study from Mustapha et al. (1998) who also observed
+the same phenomenon in lysine and xylose in the glycerol model system than in an
+aqueous matrix. However, all these three sugars were conﬁrmed to be solubilized
+completely in the glycerol at 0 % moisture level after a few hours of heating time.
+Glucose was solubilized in the glycerol at the ﬁrst hour heating time at 100 C.
+The rate of the Maillard reaction is dependent on the temperature, moisture, and
+heating time (Ames 1990; Misharina et al. 1992). The increasing of the browning
+reaction was being observed along the increasing of heating time. The browning
+reaction decreased as the moisture content in the glycerol model system increased.
+Fig. 3 Picture of browning
+color in glucose-glycine-
+glycerol system at 0, 5, and
+10 % moisture content
+( from left to right) after
+heated for 24 h
+Maillard Reaction in Limited Moisture and Low Water Activity Environment
+49
+
+Water, which acts as a strong polar solvent, decreased the browning rates for at least
+two reasons: ﬁrst, a more structured liquid would be formed due to the presence of
+water in the solution impeding the collision of reactants by hydrogen bonding and
+dipole interaction between water molecules and the reactants or intermediates that
+developed in the solution; second, the activation step may be involved in liquidating
+electrical charge in the reactive molecules, and this can cause the browning rate to
+decrease if the content of the more polar molecule water increased.
+3.1.4
+Color Parameters
+The tristimulus coordinates (L*, a*, and b* values) for each samples in the model
+system were measured. ANOVA was performed to determine the signiﬁcant effect
+of the factors such as heating time and moisture content on the color changes in
+each sugar-glycine in glycerol model system. The measurement of glucose-, lac-
+tose-, and fructose-glycine in glycerol model systems showed that moisture content
+and heating time signiﬁcantly affected L*, a*, and b* of the color development in
+the system ( p < 0.05) during heating.
+A detailed analysis with one-way ANOVA was performed to determine the effect
+of each moisture content and heating time on the color changes in the model system.
+For lactose-glycine in glycerol model system, there was no signiﬁcant difference over
+the range of moisture content studied in this experiment in L* and a* values
+(p> 0.05), only at the ﬁrst heating hour, while b* value was signiﬁcantly affected.
+Other than that, the effect of heating time on L*, a*, and b* values for all reducing
+sugar-glycine in glycerol model system was signiﬁcant (p < 0.05).
+Here, L* represents the “lightness,” while a* and b* are the color intensity
+coordinates where +a* is the red direction, a* is the green direction, +b* is the
+yellow direction, and b* is the blue direction (Gu et al. 2006; Ozdemir and Devres
+2000). Redness (a*) and yellowness (b*) color parameters for glucose-, fructose-,
+and lactose-glycine in glycerol model system were measured and plotted in Fig. 4 at
+three moisture levels (a) 0 %, (b) 5 %, and (c) 10 %.
+As can be seen in Fig. 4a, at moisture level 0 %, the redness (a*) and yellowness
+(b*) values for the three sugar-glycines in glycerol model system were unexpectedly
+decreased over time, even though the intensity of the color getting darker (observed
+visually) or the L* values (not shown in data) were decreased over time. The trend of
+the L* values was in the same direction as a* and b* values’ trend; as a* and b* values
+decreased, L* values decreased at the same time. The a* and b* values in lactose-
+glycine in glycerol model system increased at the beginning, but the yellowness (b*)
+decreased when it reached the maximum point at 2 h heating time and shifted to +a*
+value at 3 h heating. Both a* and b* values decreased over time after that. For
+fructose-glycine in glycerol model system, b* value reached the maximum point at
+1 h heating time, but started to decrease at 2 h heating time. The band was shifted to
++a* or the redness was increased at 2 h heating time, and both a* and b* values
+decreased over time after 2 h heating. Glucose-glycine in glycerol model system
+decreased over time after both a* and b* values reached the maximum point at the ﬁrst
+50
+C.W. Wong et al.
+
+-2.00
+0.00
+2.00
+4.00
+6.00
+8.00
+10.00
+12.00
+14.00
+16.00
+18.00
+-20.00
+-15.00 -10.00
+-5.00
+0.00
+5.00
+10.00
+15.00
+20.00
+b*
+a*
+fructose 0%
+lactose 0%
+glucose 0%
+starting point
+-2.00
+0.00
+2.00
+4.00
+6.00
+8.00
+10.00
+12.00
+14.00
+16.00
+18.00
+-20.00 -15.00 -10.00
+-5.00
+0.00
+5.00
+10.00
+15.00
+20.00
+b*
+a*
+fructose 5%
+lactose 5%
+glucose 5%
+-2.00
+0.00
+2.00
+4.00
+6.00
+8.00
+10.00
+12.00
+14.00
+16.00
+-20.00 -15.00 -10.00
+-5.00
+0.00
+5.00
+10.00
+15.00
+20.00
+b*
+a*
+fructose 10%
+lactose 10%
+glucose 10%
+a
+b
+c
+Fig. 4 a* vs. b* plot with the heating time (from 0 to 24 h) at 100 C for fructose-, lactose-, and
+glucose-glycine-glycerol system at moisture content (a) 0 %, (b) 5 %, and (c) 10 %
+Maillard Reaction in Limited Moisture and Low Water Activity Environment
+51
+
+hour heating time. Generally, the behavior for all these three sugar-glycines in
+glycerol model system in a* and b* plot was similar at 0 % moisture content as a*
+and b* values decreased over time after they reached the maximum point, respec-
+tively, even though marked browning was visually observed.
+In contrast, for the system at 5 and 10 % moisture levels, as illustrated in Fig. 4b, c,
+yellowness (b*) increased over time, but there were slight inconsistent changes in a*
+values,especiallyfor10%moisturelevelmodelsystem.Itshouldbenotedthatthetrend
+for glucose and fructose model system in b* values was similar to the model system at
+0 % moisture level during the end of the process, when the color of the samples began
+gettingdarker (visually observed)or L* values decreased as heating time increased. The
+trends for both sugar model systems shifted to +a* at the end of few hours heating time,
+and yellowness (b*) was decreased signiﬁcantly for glucose model system and slightly
+decreased for fructose model system. The similar trend was expected for lactose model
+system if longer heating time was tested, since the drawn band was shifted slightly to
++a*,anditwaspostulatedthatthetrendofa*andb*valueswilldecreaseaftertheyreach
+the maximum point, as the other two sugars behaved.
+The decrease of yellowness and redness over time was observed in 0 % moisture
+and also in some samples in 5 % moisture model system, especially in glucose
+model system, even though strong browning was visually observed. However, it
+could be explained as below:
+(a)
+The decrease of lightness (L*) over time was attributed to the less amount of
+light scattering. Reactants had reacted in the glycerol and browning formed
+over time; hence, it is reasonable to ﬁnd that browning color of the solution
+became stronger as the heating time increased.
+(b)
+The decrease of a* and b* values might be due to the brown color being too
+dark to be detected. Referring to Fig. 5 and the picture illustrated in Fig. 6, the
+-5.00
+0.00
+5.00
+10.00
+15.00
+20.00
+-20.00
+-15.00
+-10.00
+-5.00
+0.00
+5.00
+10.00
+15.00
+20.00
+b*
+a*
+fructose 0%
+fructose 5%
+fructose 10%
+starting point
+increasing
+increasing
+time
+Fig. 5 a* vs. b* plot with the heating time (from 0 to 24 h) at 100 C for fructose-glycine-glycerol
+model system at moisture content 0, 5, and 10 %. Note: 2 points were overlapping at 17 and 24 h at
+moisture level 0 %
+52
+C.W. Wong et al.
+
+b* value reached the maximum point when the sample turned from the
+optically transparent color into light yellow brown at heating time 1 h
+(Fig. 6 1 h moisture 0 %,). The trend was then shifted to +a* (redness) while
+going down to b* direction at the 2 h heating time. Both a* and b* values
+tended to decrease from heating time at 3 h. This indicated that the colorimeter
+could only be able to detect the formation of yellowish color up to 1 h in
+fructose-glycine in glycerol model system at 0 % moisture content (Fig. 6 1 h
+moisture 0 %), while formation of redness until 2 h (Fig. 6 2 h moisture 0 %).
+(c)
+For 5 % moisture level, the b* values (yellowness) increased over time up to
+17 h. The trend tended to shift to the +a* (redness) after 10 h heating time. The
+b* value (yellowness) decreased after 17 h heating time (Fig. 5). The color-
+imeter could only detect the formation of yellowish color up to 17 h as shown
+in Fig. 6 (17 h, moisture 5 %).
+(d)
+Therefore, it can be concluded that the tolerance of the colorimeter in
+detecting yellowish pigment was only up to the color intensity as illustrated
+in Fig. 6 (17 h, moisture 5 %; 1 h, moisture 0 %) or lighter. Therefore, it seems
+that it is not a problem for the model system consisting of 10 % moisture
+content, due to the lightness of the brown color formed in this system.
+Sherwin and Labuza (2003) reported that the change of b value showed a
+consistent increase over time and correlates well to brown pigment production;
+therefore, it was thought to be a most reliable measurement than absorbance
+method; however, it is not the case for this experiment. Authors also deemed that
+Fig. 6 Color development in fructose-glycine in glycerol model system at moisture level of 0, 5,
+and 10 % (top to bottom)
+Maillard Reaction in Limited Moisture and Low Water Activity Environment
+53
+
+L and a* values were not useful indicators for brown pigment production, due to the
+variability of these parameters which was greater than any consistent increase or
+decrease (Sherwin and Labuza 2003). This is true for a* values in this experiment
+but not L* values. L* values were showing consistent decrease (data not shown) as
+the darkness of the samples increased.
+The color difference (ΔE*) of three sugar model systems was plotted in Fig. 7a–c
+at three moisture levels. Clearly, the formation of color in these three sugar model
+systems was very high at 0 % moisture level. For glucose-glycine model system
+(Fig. 7a), the color changed signiﬁcantly during the ﬁrst induction time, but after all,
+it remained unchanged over the heating time. A similar trend was also observed in
+fructose and lactose model systems that increased signiﬁcantly at the ﬁrst few hours
+of heating time and remained constant after reaching the maximum point at a certain
+heating time. At 5 and 10 % moisture levels, the color changes (ΔE*), for glucose and
+fructose model system increased steadily over time, but less signiﬁcant color change
+was observed for lactose model system.
+3.1.5
+Reaction Rate and Kinetic Order
+Absorbance was measured at 280 and 420 nm, and the results showed that color
+development was signiﬁcantly affected by moisture content and heating time
+( p < 0.05). The rate of nonenzymatic browning reaction at three different moisture
+levels of the model systems increased with the heating time. As expected, the
+browning rate was the highest in 0 % moisture content model system, since the
+strong browning was visually observed as illustrated in Fig. 8, followed by 5 % and
+then 10 % moisture content model system which gave the least browning rate.
+Comparing both absorbances at 280 and 420 nm, the rate obtained at 280 nm was
+higher than the one at 420 nm, and this has been reported by many other researchers
+(Warmbier et al. 1976; Carabasa-Giribet and Ibarz-Ribas 2000; Miao and Roos
+2004) (Fig. 8). This trend was typical for food models with low and intermediate
+water contents (Warmbier et al. 1976).
+Generally, the nonenzymatic browning reaction in foods follows either ﬁrst
+order (see Eq. (2)) or zero order (see Eq. (1)) (Warmbier et al. 1976; Kamman
+and Labuza 1985; Laroque et al. 2008; Miao and Roos 2004). When the change in
+intermediate Maillard reaction products (MRPs) yields a linear plot versus reaction
+time, it is regarded as zero-order reaction; when the production of MRPs increases
+in the course of the Maillard reaction and ﬁnally reaches a plateau phase, the
+reaction is called ﬁrst order with respect to intermediate MRPs (Laroque
+et al. 2008). However, it is not always possible to apply kinetics as simple as zero
+or ﬁrst order to describe the color changes in Maillard reaction (Ibarz et al. 1999).
+Two stage mechanisms in the nonenzymatic browning reaction were proposed by
+Ibarz et al. (1999) on the basis of the color deterioration produced in thermal
+treatments. The ﬁrst stage consists of browned polymeric compound formation
+which is regarded as a zero-order kinetics, while the second stage is the decompo-
+sition of these brown pigments to give colorless compounds (or color destruction)
+54
+C.W. Wong et al.
+
+35
+30
+25
+20
+15
+10
+5
+0
+35
+30
+25
+20
+15
+10
+5
+0
+35
+c
+b
+a
+30
+25
+20
+15
+10
+5
+0
+0
+2
+4
+6
+8
+glucose 0%
+glucose 5%
+glucose 10%
+10
+time (h)
+12
+14
+16
+18
+20
+22
+24
+0
+2
+4
+6
+8
+10
+time (h)
+12
+14
+16
+18
+20
+22
+24
+0
+2
+4
+6
+8
+10
+time (h)
+12
+14
+16
+18
+20
+22
+24
+fructose 0%
+fructose 5%
+fructose 10%
+lactose 0%
+lactose 5%
+lactose 10%
+ΔE*
+ΔE*
+ΔE*
+Fig. 7 The color difference (ΔE*) of three sugar-glycines in glycerol model system, namely, (a)
+glucose, (b) fructose, and (c) lactose, at 0, 5, and 10 % moisture content
+Maillard Reaction in Limited Moisture and Low Water Activity Environment
+55
+
+which is regarded as a ﬁrst-order kinetics (Ibarz et al. 1999; Carabasa-Giribet and
+Ibarz-Ribas 2000). Color destruction generally occurs when the reaction took place
+at high temperature with excessive heating time.
+Plots of absorbance at either 280 or 420 nm in 0 % moisture content in glycerol
+model system for glucose and fructose showed a linear increase in absorbance
+during initial induction period, but the trend remained unchanged or reached
+plateau phase at the ﬁnal stage. However, the curve did not ﬁt well to either zero-
+order or ﬁrst-order kinetic models, and it was noted that the plot actually followed
+pseudo-ﬁrst-order kinetics as described by Carabasa-Giribet and Ibarz-Ribas (2000)
+(results not shown). In this case, it was considered that two stages occurred in the
+nonenzymatic browning reaction. The ﬁrst one was the color formation (zero-order
+kinetics), while the second stage was the formation of colorless compounds which
+followed ﬁrst-order kinetics. The kinetics of the Maillard reaction is very complex
+due to the many reaction paths and the effect of experimental condition. The
+-0.400
+0.000
+0.400
+0.800
+1.200
+1.600
+0
+2
+4
+6
+8
+10 12 14 16 18 20 22 24
+time (h)
+Abs. 280nm
+a
+b
+c
+glucose 0%
+glucose 5%
+glucose 10%
+-0.100
+0.000
+0.100
+0.200
+0.300
+0.400
+0
+2
+4
+6
+8
+10 12 14 16 18 20 22 24
+time (h)
+Abs. (420nm)
+-0.400
+0.000
+0.400
+0.800
+1.200
+1.600
+0
+2
+4
+6
+8
+10 12 14 16 18 20 22 24
+time (h)
+Abs. (280nm)
+fructose 0%
+fructose 5%
+fructose 10%
+-0.100
+0.000
+0.100
+0.200
+0.300
+0
+2
+4
+6
+8 10 12 14 16 18 20 22 24
+time (h)
+Abs. (420nm)
+-0.400
+0.000
+0.400
+0.800
+1.200
+1.600
+0
+2
+4
+6
+8 10 12 14 16 18 20 22 24
+time (h)
+Abs. (280nm)
+lactose 0%
+lactose 5%
+lactose 10%
+-0.100
+0.000
+0.100
+0.200
+0.300
+0
+2
+4
+6
+8
+10 12 14 16 18 20 22 24
+time (h)
+Abs. (420nm)
+Fig. 8 Plot of absorbance at 280 nm (a) and 420 nm (b) vs. heating time for glucose-glycine in
+glycerol model system at 0, 5, and 10 % moisture level. Data were ﬁtted to the kinetic model of
+Eq. (1) (a and b) and Eq. (4) (c). The kinetic prediction data is also shown on each graph
+56
+C.W. Wong et al.
+
+formation color and colorless compounds in the reaction can usually be described as
+zero-order kinetics at short heating times, but become complex at longer heating
+time and higher temperatures.
+In contrast, lactose in 0 % moisture glycerol model system showed a linear
+increase over heating time and ﬁtted well to zero-order kinetic model. Plots of
+absorbance for the reducing sugar-glycine in glycerol at 5 and 10 % moisture level
+model system were also ﬁtted to linear regression and showed that both systems
+followed zero-order kinetic reaction. All of these ﬁtted well to zero-order kinetics
+probably due to the low initial color formation in the system and also slow
+browning rate.
+3.1.6
+Reactivity of Reducing Sugars in Maillard Reaction
+Browning rate is signiﬁcantly inﬂuenced by the type of reducing sugar involved in
+the reaction (Schwartzberg and Hartel 1992; Naranjo et al. 1998). The tendency of
+the relative reactivity of different sugars in the Maillard reaction that follows in the
+descending order pentoses > hexoses > disaccharides and aldoses > ketoses is well
+recognized (Laroque et al. 2008; Mauron 1990).
+In this experiment, three reducing sugars that included aldohexoses (glucose),
+ketohexoses (fructose), and disaccharide (lactose) were selected, and their absor-
+bencies were recorded. The plot for sugar-glycine in glycerol 0, 5, and 10 %
+moisture model systems, monitored at absorbance 280 nm, is shown in Fig. 9.
+The rate of browning was used to determine the reactivity of reducing sugars.
+Clearly, the rate of browning is highest in glucose-glycine in 0 % moisture
+content glycerol model system, followed by fructose and ﬁnally lactose; hence, the
+reactivity of these reducing sugars toward glycine was glucose > fructose > lactose;
+this trend was also observed in the absorbance plot at 420 nm. The result is
+consistent with previous ﬁndings (Oliver et al. 2006; Buera et al. 1987) in moder-
+ately high moisture level model systems. It should be noted that most studies were
+conducted in a liquid model system, which mainly used water as a solvent. In this
+case, it should be said that water activity did not inﬂuence the reactivity of sugars,
+since the reactivity of glucose was conﬁrmed in 0 % moisture system in the present
+study and also observed in other studies at moderately high moisture levels. Against
+all expectations, the absorbance values of fructose were higher than glucose at 5 %
+moisture level during 10 and 17 h heating time. Both absorbance values for glucose
+and fructose overlapped at the same point when it came to 24 h heating time, while
+browning rate for fructose was higher than glucose when moisture level reached
+10 % over all the heating time. Therefore, reactivity of sugar at 5 and 10 % moisture
+levels was fructose > glucose > lactose. However, glucose was still the most reac-
+tive sugar if compared to fructose in the formation of high molecular weight
+compounds at 420 nm (Fig. 10). It should be noted that the absorbance values for
+both sugars were very close especially at 10 and 17 h heating time. Glucose showed
+a linear increase during all the induction period. On the other hand, fructose was
+noted more reactive than glucose when the moisture level increased to 10 %, which
+Maillard Reaction in Limited Moisture and Low Water Activity Environment
+57
+
+-0.400
+0.000
+0.400
+0.800
+1.200
+1.600
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+22
+24
+time (h)
+Abs. (280nm)
+fructose 0%
+a
+b
+lactose 0%
+glucose 0%
+-0.100
+0.000
+0.100
+0.200
+0.300
+0.400
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+22
+24
+time (h)
+Abs. (280nm)
+fructose 5%
+lactose 5%
+glucose 5%
+-0.050
+0.000
+0.050
+0.100
+0.150
+0.200
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+22
+24
+time (h)
+Abs. (280nm)
+c
+fructose 10%
+lactose 10%
+glucose 10%
+Fig. 9 Time course of the absorbance (280 nm) of fructose-, glucose-, lactose-glycine in glycerol
+model system at (a) 0 %, (b) 5 %, and (c) 10 % moisture level after heated at 100 C with assumed
+pH 7
+58
+C.W. Wong et al.
+
+is similar to the plot at 280 nm (Fig. 9c). Lactose still remained the least reactive
+sugar, which showed a lower browning rate than the others.
+The
+descending
+order
+of
+the
+reactivity
+of
+reducing
+sugars,
+glucose > fructose > lactose, in the browning development is widely recognized
+and supported by many studies. However, there are still major conﬂicts on the
+reactivity of sugars on the degree of browning, as some authors noted fructose is
+more reactive than glucose (Benjakul et al. 2005; Brands and van-Boekel 2002)
+which was also noted in our study in 5 and 10 % moisture glycerol model systems.
+These discrepancies were sometimes explained as higher participation of ketoses to
+browning via caramelization compared to aldoses (Jing and Kitts 2004; Ajandouz
+et al. 2001). However, this was not the case in the present study. When sugars were
+heated alone in glycerol with moisture or without moisture, the solutions were
+visually clear, and no color changes were noted, either by assessing the values of
+L*, a*, and b* or absorbance, even though the samples were heated at temperature
+100 C for 24 h (assumed pH  7). This ﬁnding is on the contrary to the study from
+Ajandouz et al. (2001) who noted caramelization occurred in aqueous solutions of
+-0.010
+0.000
+0.010
+0.020
+0.030
+0.040
+0.050
+0.060
+0.070
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+22
+24
+Absorbance (420nm)
+time (h)
+fructose 5%
+lactose 5%
+glucose 5%
+-0.005
+0.000
+0.005
+0.010
+0.015
+0.020
+0.025
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+22
+24
+Absorbance  (420nm)
+time (h)
+fructose 10%
+lactose 10%
+glucose 10%
+Fig. 10 Comparison of absorbance plot of sugar-glycine in glycerol model system with different
+moisture levels at 420 nm
+Maillard Reaction in Limited Moisture and Low Water Activity Environment
+59
+
+fructose after heating to 100 C at pH 7. The discrepancy of the results from
+Ajandouz et al. (2001) and our present study might be caused by the protective
+effect of glycerol to the sugars.
+In the case for 5 and 10 % moisture model system at absorbance 280 nm, the
+reactivity of fructose was higher than glucose could be attributed to the glycerol
+(solvent), which is used in this study to create different moisture environments, as
+different types of reducing sugar used will produce different synthesized products
+in the chemical composition (Wijewickreme and Kitts 1997), depending on the
+condition and environment that the reaction takes place. Moreover, Suarez
+et al. (1988) noted that Heyns products resulting from glycation with ketoses
+were highly reactive and facilitate faster conversion to ﬂuorophores compared to
+ketonic groups present in Amadori products; therefore, ketose sugars are more
+reactive in nonenzymatic glycation reactions (Wijewickreme and Kitts 1997).
+The similar explanation was also given by Ajandouz et al. (2001), who claimed
+that this observation might be due to the formation of some rate-limiting interme-
+diates during the nonenzymatic browning reaction of glucose, but not in fructose.
+Besides, the difference of the reactivity of glucose and fructose could be also
+attributed to the different mechanisms of the reaction that take place for fructose
+and glucose (Ajandouz et al. 2001) at different moisture levels in glycerol model
+system.
+Moderate browning was observed for fructose- and glucose-glycine in glycerol
+model system over the range of tested moisture levels. However, the color devel-
+opment in lactose-glycine system was not as strong as the other two sugars, over the
+range of moisture level and testing time. Oliver et al. (2006) who tested the
+reactivity of reducing sugars against caseinate explained that the slight yellow
+developing in caseinate-lactose system can be attributed to the galactopyranoside
+group in the Amadori rearrangement compound formed from protein-lactose inter-
+action, and this acted to protect the C-4 hydroxyl group of glucose (in lactose) and
+hence delay browning, which could be used to explain the reactivity of lactose in
+the present study.
+4
+Conclusion and Recommendations for Future Research
+Maillard reaction has proved to occur at low moisture environment, even as low as
+0 % moisture content, in all reducing sugar-glycine-glycerol model systems. The
+browning rate was found maximum at 0 % moisture model system, followed by
+5 %, and then 10 %. Once again, it has been proved that water activity was not one
+of the important parameters for Maillard reaction to take place.
+In the present study, the browning rate for glucose- and fructose-glycine in
+glycerol at 0 % moisture model system obeyed the pseudo-ﬁrst-order kinetics, a
+combined equation of zero-order and ﬁrst-order reaction which has been reported
+previously, while others besides fructose and glucose in 0 % moisture model system
+followed to zero-order reaction.
+60
+C.W. Wong et al.
+
+In the case of the reactivity reducing sugars in the early stage of the reaction
+(absorbance 280 nm) in the present study, glucose was noted more reactive than
+fructose in 0 % moisture model system, but fructose became more reactive than
+glucose when the moisture content in the model system increased to 5 and 10 %.
+Lactose remained the least reactive reducing sugars. The phenomena have been
+discussed widely in the past; however, the reaction pathway that these aldo- and
+ketohexoses took place in either aqueous or glycerol model system is unclear. This
+needs further investigation.
+Maillard reaction is very complex since the rate of nonenzymatic browning was
+not only inﬂuenced by water activity, but also temperature, heating time, solvent
+used in the system, type of reducing sugars, and amino acids. Other parameters
+include pH and the presence of transition metal ions which were not included in the
+present study. All these parameters will inﬂuence the browning rate that needs to be
+studied further.
+Simple reaction pathway of the Maillard reaction has been established, but the
+complex reaction pathway remains unclear. The study of the reaction pathway due
+to the discovery of the Maillard reaction occurring in glycerol model system in a
+limited moisture environment will pose another big challenge ahead in Maillard
+chemistry ﬁeld.
+Since Maillard reaction has proved to occur at low moisture content, with the
+high browning rate, it is recommended that the next research studies the proﬁle of
+the browning compounds that generated from such a low moisture system. Few
+studies had been carried out in the past to investigate the aroma and ﬂavor proﬁle or
+mutagenic compounds in sugar-amino acid-glycerol model system at different
+water activities and relatively high temperatures. However, more effort should be
+put to indentify more volatile and nonvolatile compound, potential antioxidant, as
+well as carcinogenic compounds (if any) of the resulting MRPs, by testing different
+types of sugars and amino acids at different moisture levels and heating tempera-
+tures. By obtaining all these knowledge, Maillard reaction is therefore able to be
+controlled, in order to obtain desired color, ﬂavors and aromas, potential antioxi-
+dant, and low carcinogenic compounds.
+Besides, it is also suggested that the experiments can be conducted in a real food
+system by applying the knowledge from the model system. Since Maillard reaction
+proved to occur at low moisture content, the success of this research will help to
+enhance the shelf life of the intermediate moisture food (IMF) products, and hence,
+great contribution could be made in the food industry.
+References
+Ajandouz EH, Tchiakpe LS, Ore FD, Benajiba A, Puigserver A (2001) Effects of pH on
+caramelization and Maillard reaction kinetics in fructose-lysine model systems. J Food Sci
+66(7):926–931
+Ames JM (1990) Control of the reaction in food systems. Trends Food Sci Technol 1:150–154
+Maillard Reaction in Limited Moisture and Low Water Activity Environment
+61
+
+Belitz H D, Grosch W, Schieberle P (2004) Food chemistry, 3rd revised edn. Springer, Berlin
+Benjakul S, Lertittikul W, Baurer F (2005) Antioxidant activity of Maillard reaction products from
+a porcine plasma protein-sugar model system. Food Chem 93:189–196
+Bhandari BR (2010) Beyond water: waterlike functions of other biological compounds in a
+waterless system. In: Reid DS, Sajjaanantakul T, Lillford PJ, Charoenrein S (eds) Water
+properties in food, health, pharmaceutical and biological systems: ISOPOW 10. Wiley-
+Blackwell, Ames, IA, pp 157–164
+Brands CMJ, vanBoekel MAJS (2002) Kinetic modeling of reactions in heated monosaccharide-
+casein systems. J Agric Food Chem 50:6725–6739
+Buera MDP, Chirife J, Resnik SL, Wetzler G (1987) Nonenzymatic browning in liquid model
+systems of high water activity: kinetics of color changes due to Maillard’s reaction between
+different single sugars and glycine and comparison with caramelization browning. J Food Sci
+52(4):1063–1067
+Carabasa-Giribet M, Ibarz-Ribas A (2000) Kinetics of colour development in aqueous glucose
+systems at high temperatures. J Food Eng 44:181–189
+Cerny C, Guntz-Dubini R (2006) Glycerol, another pyrazine precursor in the Maillard reaction.
+Recent Advances and Trends, Flavor Science, pp 351–354
+Cuzzoni MT, Stoppini G, Gazzani G (1998) Inﬂuence of water activity and reaction temperature of
+ribose-lysine and glucose-lysine Maillard systems on mutagenicity, absorbance and content of
+furfurals. Food Chem Toxicol 26(10):815–822
+Eichner K, Karel M (1972) The inﬂuence of water content and water activity on the sugar-amino
+browning reaction in model systems under various conditions. J Agric Food Chem 20
+(2):218–223
+Fogliano V, Monti SM, Musella T, Randazzo G, Ritieni A (1999) Formation of coloured Maillard
+reaction products in a gluten-glucose model system. Food Chem 66:293–299
+Gu YS, Corradini MG, McClemnts DJ, DesRochers J (2006) Properties of low moisture composite
+materials consisting of oil droplets dispersed in a protein-carbohydrate-glycerol matrix: effect
+of continuous phase composition. J Agric Food Chem 54:417–424
+He X, Fowler A, Toner M (2006) Water activity and mobility in solutions of glycerol and small
+molecular weight sugars: Implication for cryo- and lyopreservation. J Appl Phys 100
+(074702):1–11
+Hofmann T (1998) Characterization of the chemical structure of novel colored Maillard reaction
+products from furan-2-carboxaldehyde and amino acids. J Agric Food Chem 46:932–940
+Ibarz A, Pagan J, Garza S (1999) Kinetic models for color changes in pear puree during heating at
+relatively high temperatures. J Food Eng 39:415–422
+Jing H, Kitts DD (2004) Antioxidant activity of sugar-lysine Maillard reaction products in cell free
+and cell culture systems. Arch Biochem Biophys 429:154–163
+Kamman JF, Labuza TP (1985) A comparison of the effect of oil versus plasticized vegetable
+shortening on rates of glucose utilization in nonenzymatic browning. J Food Process Preserv
+9:217–222
+Katkov II, Levine F (2004) Prediction of the glass transition temperature of water solutions:
+comparison of different models. Cryobiology 49:62–82
+Labuza TP, Saltmarch M (1981) The nonenzymatic browning reaction as affected by water in
+foods. In: Rockland LB, Stewart GF (eds) Water activity: inﬂuences on food quality. Academic
+Press, Inc., New York, pp 605–650
+Laroque D, Inisan C, Berger C, Vouland E, Dufosse L (2008) Kinetic study on the Maillard
+reaction. Consideration of sugar reactivity. Food Chem 111:1032–1042
+Lu CY, Hao Z, Payne R, Ho CT (2005a) Effects of water content on volatile generation and
+peptide degradation in the Maillard reaction of glycine, diglycine, and triglycine. J Agric Food
+Chem 53:6443–6447
+Lu CY, Payne R, Ho CT (2005b) The effect of water content on volatile formation from the
+Maillard reaction of peptides and glucose. Ann N Y Acad Sci 1043:894
+62
+C.W. Wong et al.
+
+Martins SIFS, Van-Boekel MAJS (2005) A kinetic model for glucose/glycine Maillard reaction
+pathways. Food Chem 90:257–269
+Mauron J (1990) Inﬂuence of processing on protein quality. J Nutr Sci Vitaminol 36:557–569
+Miao S, Roos H (2004) Nonenzymatic browning kinetics of a carbohydrate-based low-moisture
+food system at temperatures applicable to spray drying. J Agric Food Chem 52(16):5250–5257
+Misharina TA, Golovnya RV, Yakovleva VN (1992) Effect of time and temperature on the
+preparation of pyrazines in model reactions of the synthesis of aroma-forming substances.
+Russ Chem Bull 41(7):1258–1263
+Mustapha WAW, Hill SE, Blanshard JMV, Derbyshire W (1998) Maillard reactions: do the
+properties of liquid matrices matter? Food Chem 62(4):441–449
+Naranjo GB, Malec LS, Vigo MS (1998) Reducing sugars effect on available lysine loss of casein
+by moderate heat treatment. Food Chem 62(3):309–313
+Obanu ZA, Ledward DA, Lawrie RA (1977) Reactivity of glycerol in intermediate moisture
+meats. Meat Sci 1:177–183
+Oliver CM, Melton LD, Stanley RA (2006) Glycation of caseinate by Fructose and fructo-
+oligosaccharides during controlled heat treatment in the ‘dry’ state. J Sci Food Agric
+86:722–731
+Ozdemir M, Devres O (2000) Kinetics of color changes of hazelnuts during roasting. J Food Eng
+44:31–38
+Schwartzberg HG, Hartel RW (1992) Physical chemistry of foods. Marcel Dekker, New York
+Seow CC, Cheah PB (1985) Reactivity of sorbic acid and glycerol in non-enzymatic browning in
+liquid intermediate moisture model systems. Food Chem 18:71–80
+Sherwin CP, Labuza TP (2003) Role of moisture in Maillard browning reaction rate in interme-
+diate moisture foods: comparing solvent phase and matrix properties. J Food Sci 68:588–594
+Suarez G, Rajaram R, Bhuyan KC, Oronsky AL, Goidl JA (1988) Administration of an aldose
+reductase inhibitor induces a decrease of collagen ﬂuorescence in diabetic rats. J Clin Investig
+82:624–627
+Warmbier HC, Schnickels RA, Labuza TP (1976) Effect of glycerol on non-enzymatic browning
+in a solid intermediate moisture model food system. J Food Sci 41(3):528–531
+Wijewickreme AN, Kitts DD (1997) Inﬂuence of reaction conditions on the oxidative behavior of
+model Maillard reaction products. J Agric Food Chem 45:4571–4576
+Wijewickreme AN, Kitts DD, Durance TD (1997) Reaction conditions inﬂuence the elementary
+composition and metal chelating afﬁnity of nondialyzable model Maillard reaction products.
+J Agric Food Chem 45:4577–4583
+Zegota A, Bachman S (1987) Nonenzymatic browning induced by gamma-irradiation in model
+system. Z Lebensmittelunters Forsch 184:3–7
+Maillard Reaction in Limited Moisture and Low Water Activity Environment
+63

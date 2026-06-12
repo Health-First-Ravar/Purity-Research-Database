@@ -1,0 +1,1854 @@
+Neuron 52, 155–168, October 5, 2006 ª2006 Elsevier Inc.
+DOI 10.1016/j.neuron.2006.09.020
+Review
+Neural Synchrony in Brain
+Disorders: Relevance for Cognitive
+Dysfunctions and Pathophysiology
+Peter J. Uhlhaas1,2,* and Wolf Singer1,3
+1Department of Neurophysiology
+Max Planck Institute for Brain Research
+Deutschordenstrasse 46
+Frankfurt am Main, 60528
+Germany
+2Laboratory for Neurophysiology and Neuroimaging
+Department of Psychiatry
+Johann Wolfgang Goethe University
+Heinrich-Hoffmann-Strasse 10
+Frankfurt am Main, 60528
+Germany
+3Frankfurt Institute for Advanced Studies
+Johann Wolfgang Goethe University
+Max-von-Laue-Strasse 1
+Frankfurt am Main, 60438
+Germany
+Following the discovery of context-dependent syn-
+chronization of oscillatory neuronal responses in the
+visual system, novel methods of time series analysis
+have been developed for the examination of task- and
+performance-related oscillatory activity and its syn-
+chronization. Studies employing these advanced tech-
+niques revealed that synchronization of oscillatory
+responses in the b- and g-band is involved in a variety
+of cognitive functions, such as perceptual grouping,
+attention-dependent stimulus selection, routing of sig-
+nals across distributed cortical networks, sensory-
+motor integration, working memory, and perceptual
+awareness. Here, we review evidence that certain brain
+disorders, such as schizophrenia, epilepsy, autism,
+Alzheimer’s disease, and Parkinson’s are associated
+with abnormal neural synchronization. The data sug-
+gest close correlations between abnormalities in
+neuronal synchronization and cognitive dysfunctions,
+emphasizing the importance of temporal coordination.
+Thus, focused search for abnormalities in temporal
+patterning may be of considerable clinical relevance.
+Introduction
+Most of the brain’s cognitive functions are based on the
+coordinated interactions of large numbers of neurons
+that are distributed within and across different special-
+ized brain areas. A fundamental, yet unresolved, prob-
+lem of modern neuroscience is how this coordination is
+achieved. Integration and segregation of neural activity
+needs to occur at various spatial and temporal scales,
+and these scales must be dynamically adjusted depend-
+ing on the nature of the respective cognitive tasks.
+In contrast to the large number of studies that investi-
+gated the role of synchrony in a wide range of cognitive
+and executive processes, relatively few investigations
+have examined the possible relevance of neural syn-
+chrony in pathological brain states, such as schizophre-
+nia, epilepsy, autism, and Alzheimer’s disease (AD).
+Until recently, most of the investigations of electro-
+physiological correlates of pathological brain states
+concentrated on the analysis of power distributions in
+various frequency bands of resting-state electroence-
+phalograpic (EEG) activity, or on the search for abnor-
+malities in averaged, event related potentials (ERPs)
+(John et al., 1988). Relatively few studies have examined
+task- and performance-related synchronization phe-
+nomena in a clinical context because the methods re-
+quired for the determination of synchrony have become
+available only recently (e.g., Lachaux et al., 1999; Tass
+et al., 1998).
+Therefore, we focus this review on studies that specif-
+ically investigated neural synchrony in association with
+circumscribed impairments in cognition in schizophre-
+nia, epilepsy, autism, and AD. Furthermore, we review
+recent data on the relation between abnormal synchro-
+nization and motor deﬁcits in Parkinson’s disease (PD).
+In addition to the obvious medical relevance of this
+research, further insights into the underlying pathophys-
+iological mechanisms are also likely to enhance our un-
+derstanding of normal brain functions. Speciﬁcally, we
+hope that these correlations between neural synchrony
+and pathological brain states will shed some new light
+on the respective pathophysiological mechanisms and
+the role of synchrony in normal brain functions. We con-
+centrate on noninvasive studies with EEG and magneto-
+enecephalography (MEG), as these methods have the re-
+quired temporal resolution to assess neural synchrony.
+In addition, because the database on neural synchrony
+established with these methods in disease-related stud-
+ies is still sparse, we also review investigations based on
+magnetic resonance imaging (MRI) since they can pro-
+vide evidence, albeit indirectly, on abnormalities of struc-
+tural and functional connectivity between cortical areas
+that predict disturbances in large-scale synchronization.
+Distributed Processing and Neuronal
+Synchronization
+Due to the distributed organization of sensory systems,
+the representation of sensory objects requires integra-
+tion of responses across different cortical regions. The
+reason is that even basic features of an object are pro-
+cessed in parallel in different, specialized areas of the
+cortex. This intramodal integration must be comple-
+mented by mechanisms permitting binding of signals
+across different sensory modalities, since many objects
+encountered in the world are multisensory and possess,
+in various combinations, visual, auditory, haptic, and
+olfactory properties. In addition, at all levels of sensory
+processing, neuronal activity is shaped by top-down at-
+tentional mechanisms that dynamically select and bind
+sensory signals in a context-dependent way as a func-
+tion of expectancies and a priori knowledge (Engel
+et al., 2001; Fries et al., 2001a). Finally, dynamic and
+ﬂexible binding between sensory and motor areas is
+required to allow for the versatility of sensory-motor
+coordination (Roelfsema et al., 1997).
+Transient synchronization of neuronal discharges
+has been proposed as one possible mechanism to
+*Correspondence: uhlhaas@mpih-frankfurt.mpg.de
+
+dynamically bind widely distributed sets of neurons into
+functionally coherent ensembles that represent the neu-
+ral correlates of a cognitive content or a motor program
+(Singer, 1999). This hypothesis ﬁrst received experimen-
+tal support from investigations on feature binding in
+vision (Gray et al., 1989). However, neural synchrony
+also seems relevant for large-scale integration of distrib-
+uted neural activity since it occurs across distant corti-
+cal areas, such as, for example, across visual areas in
+the two hemispheres (Engel et al., 1991), and is modu-
+lated in a task- and attention-dependent way (Roelfsema
+et al., 1997). Furthermore, studies in human subjects
+combining noninvasive recording techniques such as
+EEG and MEG with advanced methods of time series
+analysis have revealed that neural synchrony is associ-
+ated with cognitive functions that require large-scale
+integration of distributed neural activity. Examples are
+attention-dependent stimulus selection, multimodal in-
+tegration, working memory, selective routing of activity,
+and conscious processing of stimuli (for a review see
+Singer, 1999; Schnitzler and Gross, 2005; and Varela
+et al., 2001). Synchronization in these studies was con-
+sistently associated with an oscillatory patterning of
+neuronal responses, most often in the b- (15–30 Hz)
+and g- (30–80 Hz) frequency range. Subsequent research
+has indicated that such high-frequency oscillations
+are particularly effective in supporting precise synchro-
+nization of neuronal discharges (Fries et al., 2001b). In
+general, there is a correlation between the distance
+over
+which
+synchronization
+is
+observed
+and
+the
+frequency of the synchronized oscillations. Short dis-
+tance synchronization tends to occur at higher frequen-
+cies (g-band) than long-distance synchronization, which
+often manifests itself in the b- but also in the q- (4–8 Hz)
+and a- (8–12 Hz) frequency range (Kopell et al., 2000;
+Schnitzler and Gross, 2005; von Stein and Sarnthein,
+2000).
+Measures of Oscillatory Activity and Synchrony
+Recording methods that assess the activity of large
+populations of neurons, such as microelectrode record-
+ings of local ﬁeld potentials (LFPs) or EEG- and MEG-
+registrations, can only detect neuronal activity if it
+exhibits some degree of synchrony. Entirely uncoordi-
+nated activity would not be detectable because the cur-
+rents of synaptic events, which are the major source of
+the measured signals (Mitzdorf and Singer, 1979), would
+cancel out.
+In most cases, the signals recorded from neuron pop-
+ulations consist of oscillations that cover a broad fre-
+quency spectrum and are usually quantiﬁed by comput-
+ing the relative power in distinct frequency bands. Until
+a decade ago, the most frequently applied technique for
+this spectral decomposition was the Fourier analysis.
+This classical method has recently been complemented
+by wavelet-based techniques (Bertrand et al., 1994) and
+multitaper analyses (Mitra and Pesaran, 1999), which are
+better adapted for the spectral decomposition of non-
+stationary time series.
+In addition to analyzing the frequency spectrum of
+spontaneous oscillations, it is of interest to determine
+the time course of stimulus- or task-related oscillations.
+Two forms of stimulus-related oscillatory activity need
+to be distinguished: (1) evoked and 2) induced oscil-
+lations (Tallon-Baudry and Bertrand, 1999). Evoked os-
+cillations are strictly phase-locked to the onset of a
+stimulus and, therefore, can be measured by stimulus-
+triggered
+averaging
+of
+responses.
+Although
+these
+evoked oscillations are related to early, stimulus-driven
+encoding processes, they are state-dependent and can
+be modulated by top-down processes such as attention
+(Herrmann et al., 2004; Tiitinen et al., 1993). In contrast,
+induced oscillations appear in association with stimu-
+lus-triggered cognitive processes, but reﬂect self-paced
+temporal coordination of neuronal responses. They are
+not phase-locked with external events, and are therefore
+abolished by averaging. These induced oscillations typ-
+ically occur in the b- and g-frequency range and appear
+in association with a large variety of cognitive pro-
+cesses, ranging from the construction of coherent per-
+cepts (Tallon-Baudry and Bertrand, 1999) to focused
+attention (Fries et al., 2001a) and the preparation of
+movements (Murphy and Fetz, 1996).
+Although the amplitude of LFP, EEG, or MEG signals
+correlates with the degree of synchrony of neuronal re-
+sponses, there are numerous confounding variables
+that make it difﬁcult to draw ﬁrm conclusions on syn-
+chrony by considering only amplitude measures. Among
+these are the size and the alignment of the dipole ﬁelds
+of the contributing neurons, the fraction of synchro-
+nously active neurons in the population of cells con-
+tributing to the signal, and, above all, the degree of
+precision with which the neuronal discharges are syn-
+chronized. The latter variable is particularly critical when
+neurons engage in high-frequency oscillatory activity. In
+this case, the precision of synchrony needs to be in the
+millisecond range in order to permit effective summation
+of synaptic currents and to yield a measurable signal.
+Therefore, methods have been developed which permit
+assessment of synchrony independently of amplitude
+(Lachaux et al., 1999; Tass et al., 1998; Zeitler et al.,
+2006). In essence, they determine separately for differ-
+ent frequency bands the precision and intertrial variance
+of phase relations between signals recorded simulta-
+neously from different sites.
+These measures need to be distinguished from mea-
+sures of ‘‘coherence,’’ which determine the covariance
+of the amplitude of oscillations recorded from different
+sites for the various frequency bands (Andrew and
+Pfurtscheller, 1996). Both phase synchronization and
+coherence have been used to assess functional cou-
+pling among distributed neuronal populations (Rodri-
+guez et al., 1999; Bressler et al., 1993).
+Finally, measures for large-scale coordination of neu-
+ronal activity have also been derived from covariations
+of the amplitudes and latencies of hemodynamic signals
+in different brain regions (Friston et al., 1993). Although
+this method has very low temporal resolution and
+cannot assess the synchrony of evoked and induced os-
+cillatory activity, it provides indications on functional
+connectivity and can contribute to the identiﬁcation
+of the distributed networks supporting particular cogni-
+tive processes. Because clinical studies using mea-
+surements of phase synchronization to determine deﬁ-
+ciencies in temporal coordination are still sparse, we
+also included in this review selected studies that applied
+coherence analysis to EEG and MEG signals and dis-
+cuss fMRI data on functional connectivity.
+Neuron
+156
+
+Neural Synchrony: Anatomical Substrate
+and Neurotransmitters
+Studies involving lesions (Engel et al., 1991) and devel-
+opmental manipulations (Lo¨ wel and Singer, 1992) indi-
+cate that neural synchronization in the high-frequency
+range (b- and g-band) is mainly mediated by cortico-
+cortical connections that reciprocally link cells situated
+in the same cortical area, but also cells distributed
+across different areas and even across the two hemi-
+spheres. Accordingly, synchronization probability be-
+tween neurons reﬂects the anatomical layout of ex-
+citatory cortico-cortical connections (Schmidt et al.,
+1997a, 1997b). Direct evidence for the synchronizing
+function
+of
+reciprocal
+cortico-cortical
+connections
+comes from the ﬁnding that section of the corpus cal-
+losum abolishes synchronization of induced oscillatory
+responses between neurons located in different hemi-
+spheres (Engel et al., 1991). These and related studies in-
+dicate that cortical mechanisms dominate in the genera-
+tion and precise synchronization of high-frequency
+oscillatory activity in the b- and g-frequency bands. In
+contrast, subcortical structures, and especially the thal-
+amus, appear to dominate in the generation and syn-
+chronization of oscillatory activity in the lower frequency
+bands (a, q, D, and below) (Steriade, 2005; Llinas and
+Steriade, 2006). However, more research is needed to
+clarify how exactly cortical and subcortical mechanisms
+cooperate in the generation and synchronization of
+rhythmic activity in the various frequency bands.
+The generation and synchronization of cortical b- and
+g-oscillations involves several neurotransmitter sys-
+tems. GABAergic neurons play a pivotal role in the pri-
+mary generation of high-frequency oscillations and their
+local synchronization, whereas glutamatergic connec-
+tions appear to control their strength, duration, and
+long-range synchronization (Traub et al., 2004; Wang
+and Buzsaki, 1996). Recent evidence indicates that cho-
+linergic modulation plays a crucial role in the fast, state-
+dependent facilitation of high-frequency oscillations
+and the associated response synchronization (Rodri-
+guez et al., 2004; Steriade et al., 1991; Wespatat et al.,
+2004). In addition to chemical synaptic transmission,
+direct electrotonic coupling through gap junctions be-
+tween inhibitory neurons also contributes to the tempo-
+ral patterning of population activity and, in particular,
+to the precise synchronization of oscillatory activity
+(Draguhn et al., 1998; Fukuda et al., 2006; Hormuzdi
+et al., 2001; Nase et al., 2003; Traub et al., 2001).
+Neural Synchrony in Schizophrenia
+Schizophrenia is a severe mental disorder with an esti-
+mated life-time prevalence of 1%. The disorder is char-
+acterized by psychotic symptoms (delusions, hallucina-
+tions), negative symptoms (ﬂattening of affect, apathy),
+and disorganization of thought and behavior. Cognitive
+dysfunctions are prominent throughout the course of
+schizophrenia and have been shown to be a better pre-
+dictor for outcome than the overt symptoms, suggesting
+that cognitive deﬁcits represent a core pathology of the
+disorder (Green, 1996). The pathophysiological mecha-
+nisms leading to the overt symptoms and deﬁcits in cog-
+nition are, however, largely unknown.
+Current theories of schizophrenia (Friston, 1999; Phil-
+lips and Silverstein, 2003) emphasize that core aspects
+of the pathophysiology are due to deﬁcits in the coordi-
+nation of distributed processes that both involve multi-
+ple cortical areas and are associated with speciﬁc cog-
+nitive deﬁcits. Some of the deﬁcits concern functions,
+such as working memory, attention, and perceptual or-
+ganization, that have been proposed to involve synchro-
+nization of oscillatory activity in the high-frequency band
+(b and g) (Phillips and Silverstein, 2003). Impairments in
+perceptual organization as are found in schizophrenia
+lead to very circumscribed deﬁcits in experimental
+tasks. These deﬁcits can produce superior performance
+relative to controls in tasks in which contextual informa-
+tion and dynamic grouping have a distractive effect. This
+underlines the speciﬁcity of the disease-related impair-
+ment of perceptual grouping functions (for a review,
+see Uhlhaas and Silverstein, 2005).
+A substantial body of EEG studies supports the hy-
+pothesis that schizophrenia is related to impaired neural
+synchrony. Examination of auditory and visual steady-
+state responses to repetitive stimulation in patients with
+schizophrenia has revealed a speciﬁc reduction in the
+power of the stimulus-locked response in the b- and
+g-frequency range, but not in the lower frequencies
+(Kwon et al., 1999; Krishnan et al., 2005). This could be
+due to reduced synchronization of stimulus-evoked
+high-frequency oscillations and/or an inability of neu-
+rons to follow high stimulation rates. Moreover, there
+is evidence for a reduction of evoked stimulus-locked
+oscillatory activity, again in the high-frequency range,
+following auditory and visual stimuli. Reductions in
+evoked oscillatory activity have been reported for tasks
+involving visual binding (Spencer et al., 2003, 2004), for
+backward-masking (Wynn et al., 2005) and in the audi-
+tory oddball-paradigm (Gallinat et al., 2004). Further-
+more, there is also preliminary evidence for reduction
+of induced, non-stimulus-locked oscillations in the
+g-band range during the processing of visual stimuli
+(Green et al., 2003; Haig et al., 2000). These results sug-
+gest selective deﬁciencies in the ability of cortical net-
+works or cortico-thalamo-cortical loops to engage in
+precisely synchronized high-frequency oscillations.
+In addition to these analyses of spectral power of
+evoked oscillatory activity, several studies have exam-
+ined phase synchrony between distributed neuronal
+populations while patients performed cognitive tasks
+(Slewa-Younan et al., 2004; Spencer et al., 2003; Sy-
+mond et al., 2005; Uhlhaas et al., 2006). In a recent study
+(Uhlhaas et al., 2006), we provided evidence for a close
+relation between impaired neural synchrony in schizo-
+phrenia and speciﬁc cognitive deﬁcits (see Figure 1)
+using Mooney faces as stimuli. Mooney faces consist
+of degraded pictures of human faces where all shades
+of gray are removed, thus leaving only black and white
+contours. Schizophrenia patients exhibited a deﬁcit in
+the perception of Mooney faces and reduced phase syn-
+chrony in the b-band, while the power of induced g-band
+oscillations was in the normal range. This suggests that
+large-scale synchronization is crucially impaired in
+patients with schizophrenia, while local synchrony in the
+g-band is largely intact. Indirect, but compatible, evi-
+dence for deﬁcits in large-scale coordination in schizo-
+phrenia comes from fMRI studies that have reported re-
+duced functional connectivity, i.e., reduced covariance
+of BOLD signals, for a wide range of cognitive tasks
+Review
+157
+
+(Honey et al., 2005; Meyer-Lindenberg et al., 2005;
+Schlosser et al., 2003).
+Impairments in the ability of distributed networks to
+establish precise synchronization of neuronal assem-
+blies oscillating at high frequencies can have many rea-
+sons. These comprise both a host of local factors that
+determine the time constants of interactions within the
+oscillating microcircuits and the properties of long-dis-
+tance connections that mediate interareal synchroniza-
+tion. Abnormalities have been identiﬁed for some of
+these candidate mechanisms in schizophrenia patients.
+In vivo anatomical examination with diffusion tensor im-
+aging (DTI) has revealed white matter anomalies that
+might be related to deﬁciencies in long-range synchroni-
+zation (for a review see Kubicki et al., 2006). Cortico-cor-
+tical connections were reduced in the frontal, temporal,
+and parietal lobes, and between the two hemispheres.
+However, there is also evidence for locally increased
+connectivity that is related to productive symptoms,
+such as auditory hallucinations (Hubl et al., 2004). One in-
+terpretation of these seemingly paradoxical ﬁndings is
+that hyperconnectivity between higher- and lower-order
+cortical areas favors backpropagation to the respective
+primary sensory cortices of oscillatory activity generated
+in higher sensory areas during visual and auditory imag-
+ery, thus generating activation patterns that resemble
+those induced by sensory stimulation. This interpreta-
+tion receives some support by the ﬁnding that hallucina-
+tions are associated with the following: (1) increased g-
+oscillations in the corresponding sensory areas of the
+cerebral cortex (Lee et al., 2006); (2) long-range synchro-
+nization (Uhlhaas et al., 2006), and (3) increased hemody-
+namic responses (BOLD signal) in the respective primary
+sensory areas (Dierks et al., 1999). For several reasons,
+this increased BOLD signal is likely to reﬂect the entrain-
+ment of neurons in the primary areas into synchronized,
+high-frequency oscillations: ﬁrst, it is improbable that
+neurons in primary sensory areasexhibit major increases
+in discharge rates in the absence of sensory stimulation.
+Second, top-down effects, such as those associated
+with focused attention, cause an entrainment of selected
+neuronal populations into well-synchronized g-oscilla-
+tions without enhancing the discharge rates (Fries
+et al., 2001a). Third, increases of the BOLD signal corre-
+late much better with the entrainment of neurons into
+synchronized high-frequency g-oscillations than with in-
+creases in discharge rates (Niessing et al., 2005).
+Further candidate mechanisms for deﬁcient synchro-
+nization in the high-frequency range are abnormalities in
+the rhythm-generating networks of inhibitory interneu-
+rons and abnormalities in the glutamatergic neurons
+mediating long-distance synchronization. Abnormalities
+in GABAergic inhibitory neurons (Lewis et al., 2005)
+and NMDA-receptor dysregulation (Moghaddam, 2003)
+have both been found in patients with schizophrenia.
+The possible role of NMDA-receptors in the pathophys-
+iology of schizophrenia is supported by the acute effects
+of NMDA antagonists, such as ketamine or phencycli-
+dine (PCP), on healthy volunteers. For example, sub-
+anaesthetic doses of ketamine produce an acute psy-
+chosis that includes many of the symptoms and
+characteristic cognitive dysfunctions of schizophrenia
+(Krystal et al., 1994). Hypofunctioning of the NMDA-
+receptor in schizophrenia is also compatible with the
+dopamine hypothesis of schizophrenia, as NMDA an-
+tagonists can induce dopamine dysregulation (Jentsch
+and Roth, 1999). Because the typical and atypical neuro-
+leptics interfere with dopaminergic and serotonergic
+neurotransmission, respectively, abnormalities in these
+transmitter systems are thought to play a central role
+in the pathophysiology of schizophrenia. Whether these
+systems play a role in modulating neural synchrony has
+not been investigated yet.
+There is preliminary evidence, however, indicating a
+relationship between dopaminergic neurotransmission
+Figure 1. Neural Synchrony during Gestalt Perception in Schizo-
+phrenia
+Group average of phase synchrony for all electrodes and for correct
+trials during a Gestalt perception task in controls (A and B). Phase-
+synchrony values are displayed in standard deviations (SD) in refer-
+ence to the baseline. Phase synchrony during Gestalt perception in
+controls exhibited two maxima over an average frequency range of
+20–30 Hz (A). The increase in phase synchrony between 200–300 ms
+has been related to the construction of coherent object representa-
+tions (Rodriguez et al., 1999), whereas the second peak indexes the
+preparation and execution of the motor response. In patients with
+schizophrenia (B), the onset of the ﬁrst peak in the face condition
+was delayed and occurred between 350–400 ms in the frequency
+range of 20–25 Hz (C). In addition, a second, weaker peak was found
+around 600 ms. Compared with controls, the reduction in phase syn-
+chrony in the frequency range of 20–30 Hz was signiﬁcant [frequency
+range: 20–30 Hz, time interval: 200–280 ms, t(36) = 2.96, p = 0.005].
+(C) shows the topography of phase synchrony between 20–30 Hz.
+Synchrony between electrodes is indicated by lines, which are
+drawn only if the synchrony value is beyond a two-tailed probability
+of p < 0.0005. Differences between groups are displayed in the bot-
+tom row. Black lines indicate a decrease in synchrony in schizophre-
+nia patients compared with controls. Green lines indicate increase
+in synchrony for patients with schizophrenia relative to controls.
+The decrease in phase synchrony between 200–300 ms indexes a
+deﬁcit in the long-range synchronization during Gestalt perception
+in schizophrenia. Adapted from Uhlhaas et al., 2006, copyright
+2006 by the Society for Neuroscience.
+Neuron
+158
+
+and neural synchrony. For example, studies that have
+examined the relationship between dopamine-mediated
+neurotransmission in PD and neural synchrony show
+that dopamine agonists decrease pathological b-oscil-
+lations in the subthalamic nucleus (STN) and increase
+g-band oscillations in cortical and subcortical networks
+(Brown et al., 2001; Sharott et al., 2005). Moreover,
+dopaminergic dysfunctions could affect neural synchro-
+nization in schizophrenia via dopaminergic action on
+GABAergic interneurons (Seamans and Yang, 2004).
+So far, direct evidence for a link between neural syn-
+chrony and neurotransmitter systems is available only
+for the cholinergic system (Rodriguez et al., 2004). Cor-
+tical networks can only engage in synchronized, high-
+frequency oscillations when muscarinic receptors are
+activated. Further studies need to clarify whether this
+ﬁnding can be related to the emerging evidence that
+deﬁcits in cholinergic transmission may be involved in
+abnormal cortical information processing in schizophre-
+nia (Sarter et al., 2005).
+In summary, there is consistent evidence that neural
+synchrony is impaired in patients with schizophrenia.
+This impairment is particularly pronounced for oscilla-
+tory activity in the b- and g-frequency ranges and for
+the synchronization of these high-frequency oscillations
+over longer distances. Because synchronization of
+oscillatory activity in this frequency range is associated
+with cognitive functions that are disturbed in schizo-
+phrenia patients, it is conceivable that the relation be-
+tween impaired synchrony and the symptomatology
+of schizophrenia is not merely correlative. Data on ana-
+tomical connectivity and neurotransmitter systems in
+schizophrenia suggest several potential causes for im-
+paired neural synchrony, but more focused studies are
+required to distinguish between cause and effect.
+Neural Synchrony in Epilepsy
+Epilepsy designates a group of heterogeneous disor-
+ders of the nervous system that differ with respect to
+etiology and symptomatology. Traditionally, epilepsy
+has been assumed to result from abnormal, typically
+too high and too extended, neural synchronization. Pen-
+ﬁeld et al. (1954), for example, suggested that the high
+voltages recorded from epileptic cortex reﬂect hyper-
+synchronous neural activity.
+Etiologically, a wide range of factors can induce ab-
+normal synchronization. These range from structural
+damage (encephalitis, craniocerebral trauma and tu-
+mors) to abnormal metabolic states (fever, sleep depri-
+vation, alkalosis, etc.). Genetic predisposition also plays
+a role in epileptogenesis. Depending on etiology and
+disposition, seizures can be conﬁned to restricted re-
+gions of the cortex (focal epilepsy). This leads to speciﬁc
+cognitive or motor symptoms, such as hallucinations, in
+the case of complex partial seizures within sensory
+areas, or myoclonia, if the focus is in motor areas. In
+contrast, in convulsive seizure disorders (grand-mal
+epilepsia), abnormal synchronization tends to spread
+over the whole neocortex, involving also subcortical
+structures, and leads to comatose states. In absence
+seizures,
+characteristic,
+highly
+synchronized
+low-
+frequency oscillations generated by thalamo-cortico-
+thalamic loops cause a breakdown of all higher cogni-
+tive functions (Niedermeyer, 2005). Together with the
+evidence that synchronization of neural responses plays
+an important role in signal transduction and information
+processing (see Introduction), these well-established
+correlations between abnormal synchronization and
+the breakdown of neuronal functions are strong support
+for the hypothesis that temporal patterning of neural ac-
+tivity and a precisely regulated trade-off between corre-
+lated and decorrelated activation patterns are crucial for
+normal brain functions.
+One of the hallmarks of epileptiform activity is abnor-
+mally high synchrony in extensive brain regions as re-
+ﬂected by large-amplitude ﬂuctuations in the EEG both
+during and between seizures (Niedermeyer, 2005; Ster-
+iade, 2003). For example, during absence seizures, the
+sudden arrest of ongoing behavior and the impairment
+of consciousness are accompanied by the abrupt occur-
+rence of synchronous, low-frequency, three-per-second
+spike-and-wave discharges (SWDs) in the EEG over
+a wide range of cortical areas. Meeren et al. (2002)
+showed in a genetic animal model of absence epilepsy
+that SWDs originate in the cortex and initiate oscillations
+in the thalamo-cortical-thalamic loop. These results are
+consistent with ﬁndings that cortical-spike wave sei-
+zures can still be recorded after ipsilateral thalamec-
+tomy (Steriade and Contreras, 1998), thus making it
+unlikely that seizure generation depends only on tha-
+lamic mechanisms.
+Epilepsy is typically associated with a number of char-
+acteristic cognitive and behavioral phenomena. Com-
+plex partial seizures are frequently accompanied by
+auras that involve hallucinations in different modalities,
+unusual sensations, de´ ja` vu experiences, emotional
+feelings, and recall of old memories (Medvedev, 2002).
+After partial complex, generalized tonic-clonic, and cer-
+tain other types of seizures, loss of short-term memories
+and retrograde amnesia has been reported. Depending
+on the involved cortical regions, speciﬁc cognitive dys-
+functions are observed. Temporal lobe epilepsy (TLE)
+is typically associated with memory impairment, while
+focal epilepsy over the language-dominant hemisphere
+can cause word ﬁnding and naming difﬁculties (Mota-
+medi and Meador, 2003). These correlations suggest
+that abnormal temporal patterning of neural activity
+disrupts cognitive processes.
+High-frequency oscillatory activity, especially in the g-
+band, has been frequently observed in the EEG before
+and during epileptic events (for a review see Rampp
+and Stefan, 2006). Allen et al. (1992) and Fisher et al.
+(1992) reported activity in the g-band before and at the
+onset of seizures. High-frequency oscillations (100–500
+Hz) were also found in intracerebral recordings in pa-
+tients with focal epilepsy near the time of the onset of
+the seizure (Jirsch et al., 2006). The presence of high-
+frequency oscillatory activity prior to the onset of ictal
+activity has also been observed in rodent models of
+epilepsy (Bragin et al., 1999).
+Several studies examined phase synchrony during
+interictal, ictal, and preictal activity and have provided
+further insights into the role of neural synchrony in the
+generation of seizure activity. These studies challenged
+the notion that neural synchrony is generally increased
+in epilepsy. Evidence from hippocampal slices shows
+that bursts in CA1 pyramidal neurons are caused by
+neuronal
+activity
+that
+is
+synchronized
+with
+high
+Review
+159
+
+precision (<10 ms) in the b-band; however, during sei-
+zures, neuronal activity is no longer synchronous (Netoff
+and Schiff, 2002). Garcia Dominguez et al. (2005) ana-
+lyzed MEG data from epileptic patients with generalized
+seizures in order to determine the extent of phase syn-
+chronization within and across distant cortical areas.
+The results revealed increased local synchrony in the
+b- and lower g-band, whereas synchrony was normal,
+or even reduced, between distant regions. This is in
+agreement with the study by van Putten (2003), which
+showed that only enhanced local phase synchronization
+is a signiﬁcant correlate of seizure activity.
+Analyzing phase synchrony during preictal EEG activ-
+ity has also challenged the notion that neural synchrony
+is generally increased. Le Van Quyen et al. (2003) exam-
+ined phase synchrony with intracranial recordings from
+eight patients exhibiting neocortical focal epilepsy. In
+77% of the seizures, there was a preictal decrease in
+synchrony in the b-band. This reduction of synchrony
+between different electrode sites sometimes occurred
+before the actual seizure and was characterized by re-
+current spatial patterns that were close to the actual
+sites of the epileptogenic focus. This suggests that pre-
+ictal desynchronization may facilitate seizure activity
+through isolating the pathologically discharging neu-
+rons of the epileptic focus from the controlling inﬂuence
+of the embedding network. It is thus conceivable that re-
+duction of coherence and the associated reduction in
+coupling allows the focus to engage in supracritical syn-
+chronous activity, which then spreads into the surround-
+ing networks.
+Data from functional and anatomical imaging studies
+support this view. Waites et al. (2006) showed that dur-
+ing resting state, patients with TLE exhibit reduced func-
+tional connectivity between the brain areas involved in
+language generation. Likewise, in a recent DTI study,
+Dumas de la Roque et al. (2005) reported that patients
+with intractable partial epilepsy had reduced connectiv-
+ity between cortical areas surrounding the electric
+focus, as well as reduced connectivity between more
+distant cortical areas.
+Experimental and clinical data suggest that convul-
+sive epilepsy is often associated with an imbalance
+between excitatory and inhibitory neurotransmitter sys-
+tems, causing enhanced excitability. GABAergic inter-
+neurons play a critical role in maintaining this balance
+(Levitt, 2005) and accordingly, convulsive seizures can
+be suppressed or reduced by enhancing GABAergic
+transmission (Snead, 1992). However, in vitro data indi-
+cate that seizure activity can be precipitated by the ad-
+ministration of GABAergic drugs (von Krosigk et al.,
+1993). In animal models of absence seizures, GABA(B)
+receptor agonists increase spiking activity, whereas
+blocking of GABA(B) receptors reduces the number of
+spiking episodes (Marrosu et al., 2006). These heteroge-
+neous effects of GABAergic drugs have to do with the
+multiple functional roles of inhibitory interneurons. On
+the one hand, their activity reduces network excitability;
+on the other hand, they contribute essentially to the
+oscillatory patterning and synchronization of neural
+activity (see above). As synchronization increases the
+impact of neural activity in target structures, enhanced
+GABAergic transmission may, in certain cases, facilitate
+seizures by inducing synchronous population dis-
+charges that then spread very effectively across neigh-
+boring networks. In the case of absence seizures,
+GABA-mediated hyperpolarization is essential for the
+development of the synchronized, low-frequency oscil-
+lations because these depend on low-threshold Ca2+
+channels that are only activatible when the membrane
+potential drops substantially below the average resting
+level (e.g., McCormick and Williamson, 1989; Huguenard
+and Prince, 1994; Ulrich and Huguenard, 1996). How-
+ever, there is also evidence that abnormalities in
+GABAergic transmission alone may not be sufﬁcient
+for epileptogenesis in mature cortex and that seizure
+activity is likely to depend, in addition, upon synergistic
+alterations
+of
+glutamatergic
+transmission
+involving
+NMDA-receptors (Khalilov et al., 2005).
+Furthermore, gap junctions have been proposed to
+play an important role in the synchronization and prop-
+agation of epileptic activity (Carlen et al., 2000; Traub
+et al., 2001). In vitro data show that the generation of
+the high-frequency oscillations associated with preictal
+EEG activity is facilitated by direct electrotonic coupling
+of neurons via gap junctions (Draguhn et al., 1998). Ac-
+cordingly, gap junction blockers have been shown to
+be effective in suppressing seizures in rat models of
+focal cortical epilepsy (Nilsen et al., 2006), in modifying
+the expression of rhythmical discharges, and in control-
+ling the duration and propagation of individual seizures
+in vivo (Gajda et al., 2003).
+In conclusion, seizures are not only a consequence of
+heightened neuronal excitability such as results from an
+imbalance between excitatory and inhibitory mecha-
+nisms. Alterations of the mechanisms that support the
+oscillatory patterning and the synchronization of neuro-
+nal activity appear to be equally important. As synchro-
+nization enhances the coupling among distributed neu-
+ronal populations (Abeles, 1991; Bruno and Sakmann,
+2006; Fries, 2005), reduced synchrony could contribute
+to the functional isolation of foci, allowing them to
+develop supracritical excitatory states, while synchroni-
+zation could facilitate maintenance of supracritical
+excitatory activity in re-entrant loops and the spread of
+seizure activity. Both the reduced synchronization pre-
+ceding some forms of epileptic activity and the en-
+hanced synchronization associated with seizures proper
+go along with the disturbance of cognitive functions,
+supporting the notion that normal brain functions re-
+quire not only appropriate adjustment of neuronal excit-
+ability, but also a subtle balance of synchrony.
+Neural Synchrony in Autism
+Autism is a developmental brain disorder characterized
+by a triad of impairments that affect social interaction,
+verbal and nonverbal communication, and the repertoire
+of interests and activities (APA, 2000). Similar to recent
+work in schizophrenia (Uhlhaas and Silverstein, 2005;
+Phillips and Silverstein, 2003), theories that account for
+the pervasive cognitive dysfunctions associated with
+autism have highlighted a deﬁcit in the integration of
+cognitive mechanisms (Frith and Happe, 1994; Hill and
+Frith, 2003). A number of studies have demonstrated
+superior performance in tasks requiring recognition
+of details and directing attention to small elements as,
+for example, in visual search and in the identiﬁcation
+of hidden ﬁgures. This reduced ability to integrate
+Neuron
+160
+
+components into coherent representations is not con-
+ﬁned to visual perception, but has also been found in
+the processing of auditory information, linguistic con-
+text, and social cues (for a review, see Happe and Frith,
+2006).
+Current theories and experimental data (Belmonte
+et al., 2004; Brock et al., 2002; Hill and Frith, 2003; Just
+et al., 2004; Polleux and Lauder, 2004) converge on the
+notion that dysfunctional integrative mechanisms in au-
+tism may be the result of reduced neural synchroniza-
+tion. Recent fMRI and EEG studies have supported
+this view. Just et al. (2004) examined functional connec-
+tivity by measuring the covariances of BOLD signals
+during sentence comprehension in high-functioning
+individuals with autism. The study showed systematic
+differences between groups with respect to the distribu-
+tion of brain activation and functional connectivity.
+Compared to controls, subjects with autism were char-
+acterized by a marked reduction in functional connectiv-
+ity throughout the cortical language system that was
+most pronounced during comprehension of sentences.
+In addition, individuals with autism showed reduced ac-
+tivation in the left inferior frontal gyrus (LIFG; also known
+as Broca’s Areas), but enhanced activation in the left
+posterior superior temporal gyrus (LSTG) compared
+with the control group. This suggests that autistic sub-
+jects engaged more in extensive processing of the
+meaning of the individual words, as reﬂected in the ac-
+tivity in the LSTG, but reduced processing of syntactic
+and conceptual information.
+A number of additional fMRI studies have supported
+the concept of reduced functional connectivity in
+autism. In a second study, Just et al. (2006) reported re-
+duced functional connectivity between frontal and pari-
+etal areas during an executive task. Furthermore, there
+is evidence for reduced volume of the corpus callosum.
+fMRI studies of social cognition (Castelli et al., 2002),
+working memory (Koshino et al., 2005), and visuo-motor
+coordination (Villalobos et al., 2005) have further sup-
+ported the notion that reduced functional connectivity
+may underlie a wide range of cognitive deﬁcits in autism.
+In analogy to the ﬁndings in schizophrenia patients,
+these data predict that autism should be associated
+with reduced neural synchrony. However, so far only
+a few studies have examined this possibility. Grice
+et al. (2001) analyzed induced g-band activity in individ-
+uals with autism and in a matched control group during
+the perception of face stimuli. In controls, an increase in
+induced g-power differentiated responses to face from
+no-face stimuli, while subjects with autism showed no
+difference between the two experimental conditions.
+Analysis of auditory steady-state responses indicates
+that, similar to patients with schizophrenia, there is a re-
+duction in the power of the stimulus-locked responses
+in the g-band range in autism (Wilson et al., 2006).
+Several authors have recently proposed that cortical
+networks in autism may be characterized by an imbal-
+ance between excitation and inhibition, which leads to
+hyperexcitability and unstable cortical networks (Huss-
+man, 2001; Rubenstein and Merzenich, 2003). This hy-
+pothesis is consistent with abnormalities in GABAergic
+and glutamatergic transmitter systems. Indications for
+reduced GABAergic inhibition have been derived from
+the evidence that autism is associated with mutations
+of genes encoding subunits of the GABA(A) receptor, re-
+duced expression of GAD 65 and GAD 67, and synthesis
+of abnormal isoforms of these enzymes (DiCicco-Bloom
+et al., 2006; Polleux and Lauder, 2004). Abnormal gluta-
+matergic neurotransmission is supported by polymor-
+phisms in genes that encode both metabotropic and
+ionotropic glutamate receptors (Carlsson, 1998; Polleux
+and Lauder, 2004), and a post mortem study has re-
+ported reduced AMPA-receptors in the cerebellum (Pur-
+cell et al., 2001). In addition, the serotonergic system
+may be dysregulated in autism (Polleux and Lauder,
+2004). To date, it is unclear how these abnormalities re-
+late to the cognitive deﬁcits in autism, whether they play
+a role in the hypothesized disruption of integrative pro-
+cesses, and whether there are electrographic correlates
+of reduced large-scale synchronization in this disorder.
+Anatomically, there is evidence for both hyper- as well
+as hypoconnectivity in autism. During early develop-
+ment (between 7–11 years), white matter increases sig-
+niﬁcantly more in autistic than in normal children. In
+the same age group, gray matter is reduced in a number
+of regions, including the hippocampus and amygdala
+(Herbert et al., 2003). Evidence for a transient hypertro-
+phy of white matter has also been found in previous
+studies (Courchesne et al., 2001), and this ﬁnding has
+later been complemented by results suggesting exag-
+gerated pruning to subnormal levels, consistent with
+evidence for anatomical hypoconnectivity (Just et al.,
+2004; McCaffery and Deutsch, 2005). These anatomical
+results also predict reduced or otherwise abnormal syn-
+chrony, but more EEG and MEG studies with advanced
+techniques for the identiﬁcation of synchrony are re-
+quired to clarify this issue.
+Neural Synchrony in Alzheimer’s Disease
+AD is the most common form of dementia, affecting ap-
+proximately 11% of the world population older than 65
+years of age (Hof and Morrison, 1999). AD is associated
+with a wide range of cognitive dysfunctions that typically
+start with characteristic memory impairment, followed
+by deﬁcits in visuo-spatial and executive processes.
+These differential impairments in cognitive domains
+reﬂect the spread of cortical pathology from medial-
+temporal to parietal association areas (Braak and Braak,
+1991; Pantel et al., 2004). Patients with AD show pro-
+nounced deﬁcits while performing tasks that require
+interhemispheric
+transfer
+of
+information,
+executive
+processing, and episodic memory (for a review, see
+Delbeuck et al., 2003). In contrast, in early stages of
+the disease, automatic processing is intact. Delbeuck
+et al. (2003) have suggested that the proﬁle of neuropsy-
+chological deﬁcits is consistent with a disconnection
+syndrome.
+A hallmark of the resting-state EEG in patients with AD
+is a relative increase in the q and D-band activity that co-
+occurs with a reduction in activity in the a- and b-band.
+The reduction in a-band activity correlates well with the
+severity of the disease and the cognitive deﬁcits (Jeong,
+2004). These power changes in distinct frequency bands
+are associated with impaired synchrony. Patients with
+AD show reduced coherence of oscillations in the a- and
+b-frequency band both for distant and nearby recording
+sites. More direct evidence comes from studies that
+have utilized more sensitive measures of synchrony.
+Review
+161
+
+Stam and colleagues (Stam et al., 2003, 2005, 2006) have
+analyzed EEG resting data using a measure of synchro-
+nization likelihood (SL) (Stam and van Dijk, 2002) that
+is sensitive to linear and nonlinear interdependencies
+between EEG channels. The results indicate that pa-
+tients with AD show a reduction in b- as well as a-band
+synchronization. Topographically, the reduction of syn-
+chrony is particularly pronounced for long-range syn-
+chronization (Babiloni et al., 2004; Stam et al., 2006).
+In addition to lowered synchronization in the a- and
+b-band, patients with AD are also characterized by a
+reduction in g-band synchronization in the resting state
+(Koenig et al., 2005).
+Thus, there is substantial evidence for reduced neural
+synchrony during the resting state, but relatively little
+research has been performed so far to link reductions
+in neural synchrony directly to impaired cognition by
+analyzing task- and performance-related changes of
+synchronization. The only task-related study is the in-
+vestigation by Pijnenburg et al. (2004). The authors ex-
+amined neural synchrony in patients with AD during
+a working memory task. Patients with AD showed a re-
+duction of a- and b-band synchronization during mainte-
+nance of information in working memory compared with
+control subjects.
+fMRI studies support this evidence of reduced coordi-
+nation of neural activity in AD. By applying a working
+memory task, Grady et al. (2001) found reduced func-
+tional connectivity between prefrontal cortex and hippo-
+campus and suggested that this reﬂects impaired cou-
+pling and may underlie the typical memory breakdown
+associated with the disease. Bokde et al. (2006) exam-
+ined functional connectivity during a face-matching task
+in subjects with Mild Cognitive Impairment (MCI). Indi-
+viduals with MCI have a higher risk of conversion to AD
+than cognitively normal subjects. Similar to the results by
+Grady and colleagues, MCI patients were characterized
+by a reduction in functional connectivity involving the fu-
+siform gyrus (FG), the parietal lobes, and the dorsolateral
+prefrontal cortex (DLPFC). Interestingly, the groups did
+not differ in performance or activation. Also, the ampli-
+tudes of the BOLD signal were in the normal range, indi-
+cating that reduced functional connectivity might repre-
+sent one of the earliest functional markers of AD.
+The hypothesis that impaired neural synchrony under-
+lies some of the cognitive deﬁcits in AD is compatible
+with data suggesting that the degenerative processes
+caused by AD lead to a neocortical disconnection syn-
+drome (Delbeuck et al., 2003). Neuroﬁbrillary tangles
+(NFT) and neuritic plaques (NP) are particularly promi-
+nent in brain areas that give rise to long cortio-cortical
+tracts (Pearson et al., 1985). Accordingly, DTI studies
+(Naggara et al., 2006; Medina et al., 2006) disclosed dis-
+integration of white matter ﬁber tracts. Furthermore,
+neural synchrony in the high-frequency range is ex-
+pected to be reduced because AD leads to a pro-
+nounced degeneration of the cholinergic projections to
+the cerebral cortex that originate in the basal forebrain
+and have been shown to be a necessary prerequisite
+for the generation of b- and g-band oscillations and re-
+sponse synchronization in this frequency range (Rodri-
+guez et al., 2004). The evidence that muscarinic antago-
+nists, such as scopolamine, induce a pattern of memory
+and cognitive deﬁcits characteristic of elderly subjects
+and shift EEG power toward lower frequencies (Ebert
+and Kirch, 1998) is compatible with this hypothesis.
+Finally, there is evidence for alterations in glutamater-
+gic neurotransmission, which may also affect neuronal
+synchronization in AD. Snyder et al. (2005) demon-
+strated that NPs produce a persistent depression of
+NMDA-evoked currents in cortical neurons. Moreover,
+neurons from a genetically modiﬁed mouse model of
+AD expressed reduced amounts of NMDA-receptors.
+These ﬁndings suggest that AD-related alterations of
+cellular functions can cause depression of NMDA-
+receptor-mediated synaptic transmission. A more direct
+link between AD and impaired neural synchrony has
+been reported by Stern et al. (2004). Increased expres-
+sion of amyloid precursor protein in transgenic mice
+produced an increased jitter in the timing of evoked ac-
+tion potentials in intracellular recordings from neocorti-
+cal pyramidal neurons. These ﬁnding suggest the possi-
+bility that accumulation of AD-related proteins has
+speciﬁc effects on neural excitability and synaptic trans-
+mission that impair neural synchrony and, hence, also
+the propagation and temporal coordination of activity.
+Taken together, these data suggest that the cognitive
+disturbances associated with AD may not solely be due
+to the loss of neurons, but also due to impairments in the
+temporal coordination of distributed neuronal activity.
+So far, studies have concentrated on neural synchrony
+in the lower frequency bands, especially in the a-band,
+and more investigations are required to examine the ex-
+pected deﬁcits of long-range synchrony in the higher
+frequency bands.
+Neural Synchrony in Parkinson’s Disease
+Neural synchronization is not only relevant for cognitive
+functions; it also plays a major role in the temporal pat-
+terning of motor-related activity. For example, there is
+evidence for enhanced synchronized b-band activity
+prior to movement preparation and during visuo-motor
+coordination (Murphy and Fetz, 1996; Roelfsema et al.,
+1997). However, during the execution of movements
+this b-band synchronization disappears and gives way
+to synchronized g-band oscillations (Schoeffelen et al.,
+2005). These movement-related synchronization phe-
+nomena have been found in a widely distributed network
+comprising premotor and parietal areas of the neocor-
+tex, the cerebellum, the striatum, and subthalamic
+nucleus. Because we have focused this review on rela-
+tions between synchrony and cognitive functions in
+selected brain disorders, we do not attempt to give
+a comprehensive overview of the numerous studies
+that have examined relations between oscillatory activ-
+ity patterns, such as the m or Piper rhythm, and motor
+processes. Instead, we review recent evidence on corre-
+lations between abnormal synchronization and move-
+ment disorders in PD.
+This neurodegenerative disorder is due to the loss of
+dopaminergic neurons in the substantia nigra and
+causes changes in the patterning of neural activity in
+the basal ganglia (BG). Among the cardinal symptoms
+of PD are impaired motor activity, such as akinesia (in-
+ability to initiate movement and slowness of movement),
+rigidity (stiffness of muscles), and tremor. Evidence indi-
+cates that thepathophysiological mechanisms responsi-
+ble for the akinesia and the tremor differ (Brown, 2003).
+Neuron
+162
+
+Traditionally, BG dysfunctions were explained in terms
+of alterations in neural ﬁring rates that underlie the spec-
+trum of movement disorders (Hutchinson et al., 2004).
+However, recent research has emphasized a speciﬁc re-
+lation between large-scale synchronization of oscilla-
+tions in the b-frequency band and akinesia (for a review,
+see Boroud et al., 2005; Brown, 2003; and Schnitzler and
+Gross, 2005).
+Increases in b-band activity in PD have been reported
+in the STN, globus pallidus externus (Gpe), and internus
+(Gpi) in single-unit activity and LFPs (Boroud et al.,
+2005). Moreover, noninvasive EEG and MEG recordings
+have yielded complementary data on increased long-
+range synchronization in the b-range between these
+structures and activity over cortical motor areas. This
+led to the hypothesis that enhanced synchronization in
+the b-band is responsible for the associated akinesia.
+This hypothesis is supported by the evidence that, in
+normal subjects, initiation of movements is associated
+with inhibition of b-rhythms in the STN and a burst of
+g-oscillations. The duration of this b-suppression in-
+creases with the complexity of the intended movement,
+and the latency of b-suppression predicts the onset of
+movement; the earlier the suppression, the shorter the
+movement latency. In agreement with this hypothesis,
+therapeutic interventions reducing the akinetic symp-
+toms have all been shown to reduce the enhanced syn-
+chronization in the b-band and to facilitate g-oscilla-
+tions. This holds for pharmalogical treatments that
+enhance endogeneous dopamine levels, for the stereo-
+tactic lesioning of the STN, and for the very effective
+electrical stimulation of the STN at high frequencies
+(>100 Hz) (Brown et al., 2001; Sharott et al., 2005).
+As expected, a direct relation exists between oscilla-
+tory neuronal activity and the tremor in PD. Levy et al.
+(2000) examined the discharge patterns of STN neurons
+in PD patients with limb tremor who underwent func-
+tional stereotactic mapping. In patients who exhibited
+limb tremor during the recording session, neurons
+showed oscillatory activity that was coherent with the
+frequency of the tremor. Related results have been
+obtained with MEG recordings that have disclosed an
+extended tremor-related network exhibiting oscillatory
+activity that was harmonically related to the tremor fre-
+quency (Timmermann et al., 2003).
+Neural Synchrony and Pathological Brain States
+The evidence reviewed suggests that schizophrenia,
+autism, epilepsy, AD, and PD are characterized by
+changes in neural synchrony that are likely to play an im-
+portant role in the pathophysiology of the disorders (see
+Table 1 for a summary). There is consistent evidence
+across studies that disorders in schizophrenia, autism,
+and AD are associated with a reduction of neural syn-
+chrony that involves both local as well as long-range
+synchronization. In addition, the cognitive functions
+that are impaired have all been shown to be associated
+with neural synchronization, suggesting that abnormal
+synchrony could be one of the causes of the cognitive
+dysfunctions. The conditions in epilepsy and PD are
+more complex, as in these cases enhanced synchrony
+is responsible for some of the symptomatology.
+The impairments of neural synchrony observed in
+schizophrenia, autism, and AD are consistent with cur-
+rent theories that emphasize a disconnection syndrome
+as the underlying pathophysiological mechanism. Ac-
+cording to these theories, cognitive dysfunctions as
+well as the overt symptoms of these disorders arise
+from a dysfunction in the coordination of distributed
+neural activity between and within functionally special-
+ized regions of the cerebral cortex. Reduced neural syn-
+chronization can be a consequence of disconnection,
+but it can also be the cause of impaired coupling
+between brain areas because synchronization of neural
+responses is essential for their propagation across
+sparsely connected networks (Abeles, 1991). At present,
+it is difﬁcult to differentiate between these possibilities.
+In contrast, epilepsy and PD are characterized by
+a large variety of abnormalities in the temporal pattern-
+ing of neural activity, involving changes in the frequency
+of oscillatory activity and increases as well as decreases
+in synchronization. Each of these abnormalities is asso-
+ciated with speciﬁc impairments of cognitive or motor
+functions, supporting the notion that normal brain
+Table 1. Selected Neurobiological Elements of Cognitive Dysfunction
+Disorder
+Neural synchrony
+Cognitive dysfunctions
+Anatomical connectivity
+Neurotransmitters
+Schizophrenia
+consistent evidence for
+a reduction of local- and
+long-range
+synchronization
+perception, executive
+processes, memory,
+attention, social cognition
+evidence for reduced
+anatomical connectivity
+glutamate, GABA,
+dopamine
+Epilepsy
+increase in local synchrony;
+evidence for a reduction in
+long-range
+synchronization
+speciﬁc cognitive deﬁcits in
+relationship to seizure focus
+reduced connectivity
+between seizure focus and
+surrounding cortical areas
+GABA, glutamate
+Autism
+reduced functional
+connectivity; preliminary
+evidence for impaired
+neural synchrony
+perception, executive
+functions, social cognition,
+attention, memory
+increased connectivity during
+early development, but
+possibly hypoconnectivity
+in mature cortex
+GABA, glutamate,
+serotonin
+Alzheimer’s disease
+reduced neural synchrony
+during resting state;
+evidence for reduced
+functional connectivity
+working memory, perception,
+attention, executive
+processes
+reduction in anatomical
+connectivity
+acetylcholine,
+glutamate
+Parkinson’s disease
+increase in neural synchrony
+in the basal ganglia, but
+also between subcortical-
+cortial structures
+especially motor functioning,
+but also perception, working
+memory, attention,
+executive functions
+unknown
+dopamine
+Review
+163
+
+functions depend to a crucial extent on the appropriate
+adjustment and coordination of temporally structured
+activity. This ﬁne-tuning appears to involve selection of
+oscillation frequencies as well as a delicate balance be-
+tween synchronization and desynchronization of inter-
+acting cell assemblies.
+Neural Synchrony and Pathological Brain States:
+Implications for Normal Brain Functioning
+A wide range of cognitive functions requires the coordi-
+nation of distributed neural activity, and current theories
+highlight neural synchrony as a putative mechanism
+for this coordination. The ﬁndings summarized in this
+review provide further support for this hypothesis by
+demonstrating a correlation between abnormal syn-
+chronization and speciﬁc cognitive deﬁcits in a variety
+of neuropsychiatric disorders.
+These data also suggest that deﬁcits of mainly large-
+scale integration correlate with cognitive impairments.
+In schizophrenia (Uhlhaas et al., 2006), AD (Bokde
+et al., 2006; Stam et al., 2006), and autism (Just et al.,
+2004), large-scale integration was found to be more
+impaired than local synchronization, as reﬂected by the
+amplitude of local oscillatory activity and BOLD activa-
+tion. Furthermore, cognitive dysfunctions were par-
+ticularly pronounced for tasks requiring interactions be-
+tween widely distributed brain areas, such as integration
+of polymodal stimulus attributes, dynamic perceptual
+grouping, working memory, and executive processes
+(Delbeuck et al., 2003; Minshew et al., 1997; Phillips
+and Silverstein, 2003). This agrees with the proposals of
+several authors that complex cognitive processes, such
+as attention, memory, dynamic grouping, and aware-
+ness require large-scale integration of activity (Fries,
+2005; Schnitzler and Gross, 2005; Varela et al., 2001).
+Future Perspectives of Research on Neural
+Synchrony in Pathological Brain States
+The data reviewed here suggest that measures of neural
+synchronization may be of importance for the diagnosis
+of neuropsychiatric disorders. As measurements of neu-
+ronal synchrony are noninvasive and quantiﬁable in an
+objective way that is largely immune to observer bias,
+advanced methods of time series analysis may provide
+valuable diagnostic tools for the assessment of disease
+progression and efﬁciency of therapeutic interventions.
+For example, analysis of phase synchronization has
+been applied to the EEG data of patients with epilepsy,
+and the results suggest that seizures can be predicted
+based on changes in synchronization (Le Van Quyen
+et al., 2003). Aberrant large-scale integration of neural
+activity may also turn out to be a predictor of incipient
+AD. The study by Bokde et al. (2006) showed that the
+covariance of BOLD responses during a face-matching
+task was a more sensitive measure for impaired brain
+functioning in patients with MCI than behavioral perfor-
+mance or the amplitude of regional brain activation, sug-
+gesting that reduced functional connectivity might rep-
+resent one of the earliest markers of changes in brain
+functioning in AD. Prospective longitudinal studies of
+phase synchronization with EEG, and preferably MEG,
+methodology are required to examine whether changes
+of synchrony in the high-frequency bands can be used
+as an early predictor of AD.
+Impaired neural synchrony may also guide further re-
+search into the pathophysiological mechanisms under-
+lying neuropsychiatric disorders. For example, there is
+increasing interest in the role of GABAergic neurotrans-
+mission in schizophrenia and autism. These efforts have
+already led to the investigation of therapeutic effects of
+GABAergic modulators in these disorders. We believe
+that further research into neurotransmitter systems
+and other mechanisms involved in the generation of os-
+cillatory activity and its synchronization could ultimately
+help develop more precise pharmacological interven-
+tions for these disorders.
+Besides pathological brain states such as AD, schizo-
+phrenia, epilepsy, autism, and PD, neural synchrony is
+also of relevance for several other disorders that have
+not been reviewed here. One case is multiple sclerosis
+(MS) because it is to be expected that axonal damage
+and demyelination interfere with the temporal coordina-
+tion of neuronal activity. In particular, long-distance syn-
+chronization is likely to be impaired by prolongation of
+conduction times as has been recently demonstrated
+by Cover et al. (2006).
+Future studies could also consider the use of mea-
+sures of neural synchrony rather than just the power of
+EEG or MEG signals as biofeedback signals. Evidence
+indicates that biofeedback can be used to modify brain
+states in neuropsychiatric disorders (Sterman and
+Egner, 2006). So far, the therapeutic effects of this ap-
+proach have been variable, but it is conceivable that
+more advanced measures of the temporal coordination
+of distributed activity will be more effective in helping the
+patients bring aberrant activity under voluntary control.
+Conclusion
+Theoretical considerations and experimental results
+suggest that synchronization of neuronal activity within
+and across different brain regions is a fundamental
+property of cortical and subcortical networks and serves
+a variety of functions in cognitive processes (for reviews,
+see Fries, 2005; Singer, 1999; and Varela et al., 2001).
+The data reviewed here suggest, in addition, that neuro-
+nal synchrony is altered in a number of pathological
+brain states, such as schizophrenia, epilepsy, autism,
+AD, and PD, and that these alterations in neural syn-
+chrony may account for some of the cognitive and motor
+dysfunctions associated with these diseases. Some of
+the disease-related alterations of anatomical conditions
+and neurotransmitter systems interfere directly with
+mechanisms that support synchronization of neuronal
+responses. These correlations between changes in neu-
+ronal substrate, synchrony, and cognitive performance
+support the hypothesis that temporal coordination of
+distributed neuronal activity through precise synchroni-
+zation plays an important role in normal brain functions.
+Furthermore, these correlations suggest that a focused
+search for abnormalities in the temporal patterning and
+coordination of neuronal responses may be of potential
+clinical relevance both for the diagnosis and eventually
+for the treatment of those disorders as well.
+Acknowledgments
+This research was supported by the Max Planck Society.
+Neuron
+164
+
+References
+Abeles, A. (1991). Corticonics: Neural Circuits of the Cerebral Cortex
+(Cambridge: Cambridge University Press).
+Allen, P.J., Fish, D.R., and Smith, S.J. (1992). Very high-frequency
+rhythmic activity during SEEG suppression in frontal lobe epilepsy.
+Electroencephalogr. Clin. Neurophysiol. 82, 155–159.
+APA (American Psychiatric Association). (2000). Diagnostic and
+Statistical Manual of Mental Disorders, Fourth Edition, Text Revision
+(Washington, D.C.: American Psychiatric Association).
+Andrew, C., and Pfurtscheller, G. (1996). Event-related coherence as
+a tool for studying dynamic interaction of brain regions. Electroence-
+phalogr. Clin. Neurophysiol. 98, 144–148.
+Babiloni, C., Ferri, R., Moretti, D.V., Strambi, A., Binetti, G., Dal
+Forno, G., Ferreri, F., Lanuzza, B., Bonato, C., Nobili, F., et al.
+(2004). Abnormal fronto-parietal coupling of brain rhythms in mild
+Alzheimer’s disease: a multicentric EEG study. Eur. J. Neurosci.
+19, 2583–2590.
+Belmonte, M.K., Allen, G., Beckel-Mitchener, A., Boulanger, L.M.,
+Carper, R.A., and Webb, S.J. (2004). Autism and abnormal develop-
+ment of brain connectivity. J. Neurosci. 24, 9228–9231.
+Bertrand, O., Bohorquez, J., and Pernier, J. (1994). Time-frequency
+digital ﬁltering based on an invertible wavelet transform: an applica-
+tion to evoked potentials. IEEE Trans. Biomed. Eng. 41, 77–88.
+Bokde, A.L., Lopez-Bayo, P., Meindl, T., Pechler, S., Born, C.,
+Faltraco, F., Teipel, S.J., Moller, H.J., and Hampel, H. (2006). Func-
+tional connectivity of the fusiform gyrus during a face-matching
+task in subjects with mild cognitive impairment. Brain 129, 1113–
+1124.
+Boroud, T., Brown, P., Goldberg, J.A., Graybiel, A.M., and Magill,
+P.J. (2005). Oscillations in the Basa Ganglia: The good, the bad,
+and the unexpected. In The Basal Ganglia VIII, J.P. Bolam, C.A.
+Ingham, and P.J. Magill, eds. (New York: Springer), pp. 3–24.
+Braak, H., and Braak, E. (1991). Neuropathological stageing of
+Alzheimer-related changes. Acta Neuropathol. (Berl.) 82, 239–259.
+Bragin, A., Engel, J., Jr., Wilson, C.L., Fried, I., and Mathern, G.W.
+(1999). Hippocampal and entorhinal cortex high-frequency oscilla-
+tions (100–500 Hz) in human epileptic brain and in kainic acid–
+treated rats with chronic seizures. Epilepsia 40, 127–137.
+Bressler, S.L., Coppola, R., and Nakamura, R. (1993). Episodic mul-
+tiregional cortical coherence at multiple frequencies during visual
+task performance. Nature 366, 153–156.
+Brock, J., Brown, C.C., Boucher, J., and Rippon, G. (2002). The tem-
+poral binding deﬁcit hypothesis of autism. Dev. Psychopathol. 14,
+209–224.
+Brown, P. (2003). The oscillatory nature of human basal ganglia ac-
+tivity: relationship to the pathophysiology of Parkinson’s disease.
+Mov. Disord. 18, 357–363.
+Brown, P., Oliviero, A., Mazzone, P., Insola, A., Tonali, P., and Di Laz-
+zaro, V. (2001). Dopamine dependency of oscillations between sub-
+thalamic nucleus and pallidum in Parkinson’s disease. J. Neurosci.
+21, 1033–1038.
+Bruno, R.M., and Sakmann, B. (2006). Cortex is driven by weak but
+synchronously
+active thalamocortical
+synapses.
+Science 312,
+1622–1627.
+Carlen, P.L., Skinner, F., Zhang, L., Naus, C., Kushnir, M., and Perez
+Velazquez, J.L. (2000). The role of gap junctions in seizures. Brain
+Res. Brain Res. Rev. 32, 235–241.
+Carlsson, M.L. (1998). Hypothesis: is infantile autism a hypoglutama-
+tergic disorder? Relevance of glutamate - serotonin interactions for
+pharmacotherapy. J. Neural Transm. 105, 525–535.
+Castelli, F., Frith, C., Happe, F., and Frith, U. (2002). Autism, As-
+perger syndrome and brain mechanisms for the attribution of mental
+states to animated shapes. Brain 125, 1839–1849.
+Courchesne, E., Karns, C.M., Davis, H.R., Ziccardi, R., Carper, R.A.,
+Tigue, Z.D., Chisum, H.J., Moses, P., Pierce, K., Lord, C., et al. (2001).
+Unusual brain growth patterns in early life in patients with autistic
+disorder: an MRI study. Neurology 57, 245–254.
+Cover, K.S., Vrenken, H., Geurts, J.J., van Oosten, B.W., Jelles, B.,
+Polman, C.H., Stam, C.J., and van Dijk, B.W. (2006). Multiple sclero-
+sis patients show a highly signiﬁcant decrease in alpha band inter-
+hemispheric synchronization measured using MEG. Neuroimage
+29, 783–788.
+Delbeuck, X., Van der Linden, M., and Collette, F. (2003). Alzheimer’s
+disease as a disconnection syndrome? Neuropsychol. Rev. 13,
+79–92.
+DiCicco-Bloom, E., Lord, C., Zwaigenbaum, L., Courchesne, E.,
+Dager, S.R., Schmitz, C., Schultz, R.T., Crawley, J., and Young,
+L.J. (2006). The developmental neurobiology of autism spectrum
+disorder. J. Neurosci. 26, 6897–6906.
+Dierks, T., Linden, D.E., Jandl, M., Formisano, E., Goebel, R., Lanfer-
+mann, H., and Singer, W. (1999). Activation of Heschl’s gyrus during
+auditory hallucinations. Neuron 22, 615–621.
+Draguhn, A., Traub, R.D., Schmitz, D., and Jefferys, J.G. (1998). Elec-
+trical coupling underlies high-frequency oscillations in the hippo-
+campus in vitro. Nature 394, 189–192.
+Dumas de la Roque, A., Oppenheim, C., Chassoux, F., Rodrigo, S.,
+Beuvon, F., Daumas-Duport, C., Devaux, B., and Meder, J.F.
+(2005). Diffusion tensor imaging of partial intractable epilepsy. Eur.
+Radiol. 15, 279–285.
+Ebert, U., and Kirch, W. (1998). Scopolamine model of dementia:
+electroencephalogram ﬁndings and cognitive performance. Eur. J.
+Clin. Invest. 28, 944–949.
+Engel, A.K., Konig, P., Kreiter, A.K., and Singer, W. (1991). Interhemi-
+spheric synchronization of oscillatory neuronal responses in cat
+visual cortex. Science 252, 1177–1179.
+Engel, A.K., Fries, P., and Singer, W. (2001). Dynamic predictions:
+oscillations and synchrony in top-down processing. Nat. Rev. Neu-
+rosci. 2, 704–716.
+Fisher, R.S., Webber, W.R., Lesser, R.P., Arroyo, S., and Uematsu, S.
+(1992). High-frequency EEG activity at the start of seizures. J. Clin.
+Neurophysiol. 9, 441–448.
+Fries, P. (2005). A mechanism for cognitive dynamics: neuronal
+communication through neuronal coherence. Trends Cogn. Sci. 9,
+474–480.
+Fries, P., Reynolds, J.H., Rorie, A.E., and Desimone, R. (2001a).
+Modulation of oscillatory neuronal synchronization by selective
+visual attention. Science 291, 1560–1563.
+Fries, P., Neuenschwander, S., Engel, A.K., Goebel, R., and Singer,
+W. (2001b). Rapid feature selective neuronal synchronization
+through correlated latency shifting. Nat. Neurosci. 4, 194–200.
+Friston, K.J. (1999). Schizophrenia and the disconnection hypothe-
+sis. Acta Psychiatr. Scand. 395, 68–79.
+Friston, K.J., Frith, C.D., Liddle, P.F., and Frackowiak, R.S.J. (1993).
+Functional connectivity: the principal component analysis of large
+data sets. J. Cereb. Blood Flow Metab. 13, 5–14.
+Frith, U., and Happe, F. (1994). Autism: beyond ‘‘theory of mind’’.
+Cognition 50, 115–132.
+Fukuda, T., Kosaka, T., Singer, W., and Galuske, R.A. (2006). Gap
+junctions among dendrites of cortical GABAergic neurons establish
+a dense and widespread intercolumnar network. J. Neurosci. 26,
+3434–3443.
+Gajda, Z., Gyengesi, E., Hermesz, E., Ali, K.S., and Szente, M. (2003).
+Involvement of gap junctions in the manifestation and control of the
+duration of seizures in rats in vivo. Epilepsia 44, 1596–1600.
+Gallinat, J., Winterer, G., Herrmann, C.S., and Senkowski, D. (2004).
+Reduced
+oscillatory
+gamma-band
+responses
+in
+unmedicated
+schizophrenic patients indicate impaired frontal network process-
+ing. Clin. Neurophysiol. 115, 1863–1874.
+Garcia Dominguez, L., Wennberg, R.A., Gaetz, W., Cheyne, D.,
+Snead, O.C., III, and Perez Velazquez, J.L. (2005). Enhanced syn-
+chrony in epileptiform activity? Local versus distant phase synchro-
+nization in generalized seizures. J. Neurosci. 25, 8077–8084.
+Grady, C.L., Furey, M.L., Pietrini, P., Horwitz, B., and Rapoport, S.I.
+(2001). Altered brain functional connectivity and impaired short-term
+memory in Alzheimer’s disease. Brain 124, 739–756.
+Gray, C.M., Koenig, P., Engel, A.K., and Singer, W. (1989). Oscillatory
+responses in cat visual cortex exhibit inter-columnar synchroniza-
+tion which reﬂects global stimulus properties. Nature 23, 334–337.
+Review
+165
+
+Green, M.F. (1996). What are the functional consequences of neuro-
+cognitive deﬁcits in schizophrenia? Am. J. Psychiatry 153, 321–330.
+Green, M.F., Mintz, J., Salveson, D., Nuechterlein, K.H., Breitmeyer,
+B., Light, G.A., and Braff, D.L. (2003). Visual masking as a probe for
+abnormal gamma range activity in schizophrenia. Biol. Psychiatry
+53, 1113–1119.
+Grice, S.J., Spratling, M.W., Karmiloff-Smith, A., Halit, H., Csibra, G.,
+de Haan, M., and Johnson, M.H. (2001). Disordered visual process-
+ing and oscillatory brain activity in autism and Williams syndrome.
+Neuroreport 12, 2697–2700.
+Haig, A.R., Gordon, E., De Pascalis, V., Meares, R.A., Bahramali, H.,
+and Harris, A. (2000). Gamma activity in schizophrenia: evidence of
+impaired network binding? Clin. Neurophysiol. 111, 1461–1468.
+Happe, F., and Frith, U. (2006). The weak coherence account: detail-
+focused cognitive style in autism spectrum disorders. J. Autism Dev.
+Disord. 36, 5–25.
+Herbert, M.R., Ziegler, D.A., Deutsch, C.K., O’Brien, L.M., Lange, N.,
+Bakardjiev, A., Hodgson, J., Adrien, K.T., Steele, S., Makris, N., et al.
+(2003). Dissociations of cerebral cortex, subcortical and cerebral
+white matter volumes in autistic boys. Brain 126, 1182–1192.
+Herrmann, C.S., Munk, M.H., and Engel, A.K. (2004). Cognitive func-
+tions of gamma-band activity: memory match and utilization. Trends
+Cogn. Sci. 8, 347–355.
+Hill, E.L., and Frith, U. (2003). Understanding autism: insights from
+mind and brain. Philos. Trans. R. Soc. Lond. B Biol. Sci. 358, 281–
+289.
+Hof, P.R., and Morrison, J.H. (1999). The cellular basis of cortical dis-
+connection in Alzheimer disease and related dementing conditions.
+In Alzheimer Disease, R. Terry, R. Katzman, K.L. Bick, and S. Siso-
+dia, eds. (New York: Lippincott Williams and Wilkins), pp. 197–229.
+Honey,
+G.D.,
+Pomarol-Clotet,
+E.,
+Corlett,
+P.R.,
+Honey,
+R.A.,
+McKenna, P.J., Bullmore, E.T., and Fletcher, P.C. (2005). Functional
+dysconnectivity in schizophrenia associated with attentional modu-
+lation of motor function. Brain 128, 2597–2611.
+Hormuzdi, S.G., Pais, I., LeBeau, F.E., Towers, S.K., Rozov, A., Buhl,
+E.H., Whittington, M.A., and Monyer, H. (2001). Impaired electrical
+signaling disrupts gamma frequency oscillations in connexion 36-
+deﬁcient mice. Neuron 31, 487–495.
+Hubl, D., Koenig, T., Strik, W., Federspiel, A., Kreis, R., Boesch, C.,
+Maier, S.E., Schroth, G., Lovblad, K., and Dierks, T. (2004). Pathways
+that make voices: white matter changes in auditory hallucinations.
+Arch. Gen. Psychiatry 61, 658–668.
+Huguenard, J.R., and Prince, D.A. (1994). Intrathalamic rhythmicity
+studied in vitro: nominal T-current modulation causes robust antio-
+scillatory effects. J. Neurosci. 14, 5485–5502.
+Hussman, J.P. (2001). Suppressed GABAergic inhibition as a com-
+mon factor in suspected etiologies of autism. J. Autism Dev. Disord.
+31, 247–248.
+Hutchinson, W.D., Dostrovsky, J.O., Walters, J.R., Courtemanche,
+R., Boroud, T., Goldberg, J., and Brown, P. (2004). Neuronal oscilla-
+tions in the basl ganglia and movement disorders: Evidence from
+whole animal and human recordings. J. Neurosci. 24, 9240–9243.
+Jentsch, J.D., and Roth, R.H. (1999). The neuropsychopharmacol-
+ogy of phencyclidine: from NMDA receptor hypofunction to the do-
+pamine hypothesis of schizophrenia. Neuropsychopharmacology
+20, 201–225.
+Jeong, J. (2004). EEG dynamics in patients with Alzheimer’s disease.
+Clin. Neurophysiol. 115, 1490–1505.
+Jirsch, J.D., Urrestarazu, E., LeVan, P., Olivier, A., Dubeau, F., and
+Gotman, J. (2006). High-frequency oscillations during human focal
+seizures. Brain 129, 1593–1608.
+John, E.R., Prichep, L.S., Fridman, J., and Easton, P. (1988). Neuro-
+metrics: computer-assisted differential diagnosis of brain dysfunc-
+tions. Science 239, 162–169.
+Just, M.A., Cherkassky, V.L., Keller, T.A., and Minshew, N.J. (2004).
+Cortical activation and synchronization during sentence compre-
+hension in high-functioning autism: evidence of underconnectivity.
+Brain 127, 1811–1821.
+Just, M.A., Cherkassky, V.L., Keller, T.A., Kana, R.K., and Minshew,
+N.J. (2006). Functional and anatomical cortical underconnectivity in
+Autism: Evidence from an fMRI study of an executive function task
+and corpus callosum morphometry. Cereb. Cortex, in press.
+Khalilov, I., Le Van Quyen, M., Gozlan, H., and Ben-Ari, Y. (2005).
+Epileptogenic actions of GABA and fast oscillations in the develop-
+ing hippocampus. Neuron 48, 787–796.
+Koenig, T., Prichep, L., Dierks, T., Hubl, D., Wahlund, L.O., John,
+E.R., and Jelic, V. (2005). Decreased EEG synchronization in
+Alzheimer’s disease and mild cognitive impairment. Neurobiol.
+Aging 26, 165–171.
+Kopell, N., Ermentrout, G.B., Whittington, M.A., and Traub, R.D.
+(2000). Gamma rhythms and beta rhythms have different synchroni-
+zation properties. Proc. Natl. Acad. Sci. USA 97, 1867–1872.
+Koshino, H., Carpenter, P.A., Minshew, N.J., Cherkassky, V.L.,
+Keller, T.A., and Just, M.A. (2005). Functional connectivity in an
+fMRI working memory task in high-functioning autism. Neuroimage
+24, 810–821.
+Krishnan, G.P., Vohs, J.L., Hetrick, W.P., Carroll, C.A., Shekhar, A.,
+Bockbrader, M.A., and O’Donnell, B.F. (2005). Steady state visual
+evoked potential abnormalities in schizophrenia. Clin. Neurophysiol.
+116, 614–624.
+Krystal, J.H., Karper, L.P., Seibyl, J.P., Freeman, G.K., Delaney, R.,
+Bremner, J.D., Heninger, G.R., Bowers, M.B., Jr., and Charney,
+D.S. (1994). Subanesthetic effects of the noncompetitive NMDA
+antagonist, ketamine, in humans. Psychotomimetic, perceptual,
+cognitive, and neuroendocrine responses. Arch. Gen. Psychiatry
+51, 199–214.
+Kubicki, M., McCarley, R., Westin, C.F., Park, H.J., Maier, S., Kikinis,
+R., Jolesz, F.A., and Shenton, M.E. (2006). A review of diffusion ten-
+sor imaging studies in schizophrenia. J. Psychiatr. Res., in press.
+Kwon, J.S., O’Donnell, B.F., Wallenstein, G.V., Greene, R.W.,
+Hirayasu, Y., Nestor, P.G., Hasselmo, M.E., Potts, G.F., Shenton,
+M.E., and McCarley, R.W. (1999). Gamma frequency-range abnor-
+malities to auditory stimulation in schizophrenia. Arch. Gen. Psychi-
+atry 56, 1001–1005.
+Lachaux, J.P., Rodriguez, E., Martinerie, J., and Varela, F.J. (1999).
+Measuring phase synchrony in brain signals. Hum. Brain Mapp. 8,
+194–208.
+Le Van Quyen, M., Navarro, V., Martinerie, J., Baulac, M., and Varela,
+F.J. (2003). Toward a neurodynamical understanding of ictogenesis.
+Epilepsia 44 (Suppl 12), 30–43.
+Lee, S.H., Wynn, J.K., Green, M.F., Kim, H., Lee, K.J., Nam, M., Park,
+J.K., and Chung, Y.C. (2006). Quantitative EEG and low resolution
+electromagnetic tomography (LORETA) imaging of patients with
+persistent auditory hallucinations. Schizophr. Res. 83, 111–119.
+Levitt, P. (2005). Disruption of interneuron development. Epilepsia
+46 (Suppl 7), 22–28.
+Levy, R., Hutchinson, W.D., Lozano, A.M., and Dostrovsky, J.O.
+(2000). High-frequency synchronization of neuronal activity in the
+subthalamic nucleus of parkinsonian patients with lim tremor.
+J. Neurosci. 20, 7766–7775.
+Lewis, D.A., Hashimoto, T., and Volk, D.W. (2005). Cortical inhibitory
+neurons and schizophrenia. Nat. Rev. Neurosci. 6, 312–324.
+Llinas, R.R., and Steriade, M. (2006). Bursting of thalamic neurons
+and states of vigilance. J. Neurophysiol. 95, 3297–3308.
+Lo¨ wel, S., and Singer, W. (1992). Selection of intrinsic horizontal con-
+nections in the visual cortex by correlated neuronal activity. Science
+255, 209–212.
+Marrosu, F., Santoni, F., Fa, M., Puligheddu, M., Barberini, L., Gen-
+ugu, F., Frau, R., Manunta, M., and Mereu, G. (2006). Beta and
+gamma range EEG power-spectrum correlation with spiking dis-
+charges in DBA/2J mice absence model: role of GABA receptors.
+Epilepsia 47, 489–494.
+McCaffery, P., and Deutsch, C.K. (2005). Macrocephaly and the con-
+trol of brain growth in autistic disorders. Prog. Neurobiol. 77, 38–56.
+McCormick, D.A., and Williamson, A. (1989). Convergence and
+divergence of neurotransmitter action in human cerebral cortex.
+Proc. Natl. Acad. Sci. USA 86, 8098–8102.
+Medina, D., DeToledo-Morrell, L., Urresta, F., Gabrieli, J.D., Moseley,
+M., Fleischman, D., Bennett, D.A., Leurgans, S., Turner, D.A., and
+Stebbins, G.T. (2006). White matter changes in mild cognitive
+Neuron
+166
+
+impairment and AD: A diffusion tensor imaging study. Neurobiol.
+Aging 27, 663–672.
+Medvedev, A.V. (2002). Epileptiform spikes desynchronize and di-
+minish fast (gamma) activity of the brain. An ‘‘anti-binding’’ mecha-
+nism? Brain Res. Bull. 58, 115–128.
+Meeren, H.K., Pijn, J.P., Van Luijtelaar, E.L., Coenen, A.M., and
+Lopes da Silva, F.H. (2002). Cortical focus drives widespread corti-
+cothalamic networks during spontaneous absence seizures in rats.
+J. Neurosci. 22, 1480–1495.
+Meyer-Lindenberg, A.S., Olsen, R.K., Kohn, P.D., Brown, T., Egan,
+M.F., Weinberger, D.R., and Berman, K.F. (2005). Regionally speciﬁc
+disturbance of dorsolateral prefrontal-hippocampal functional con-
+nectivity in schizophrenia. Arch. Gen. Psychiatry 62, 379–386.
+Minshew, N.J., Goldstein, G., and Siegel, D.J. (1997). Neuropsycho-
+logic functioning in autism: proﬁle of a complex information pro-
+cessing disorder. J. Int. Neuropsychol. Soc. 3, 303–316.
+Mitra, P.P., and Pesaran, B. (1999). Analysis of dynamic brain imag-
+ing data. Biophys. J. 76, 691–708.
+Mitzdorf, U., and Singer, W. (1979). Excitatory synaptic ensemble
+properties in the visual cortex of the macaque monkey: a current
+source density analysis of electrically evoked potentials. J. Comp.
+Neurol. 187, 71–83.
+Moghaddam, B. (2003). Bringing order to the glutamate chaos in
+schizophrenia. Neuron 40, 881–884.
+Motamedi, G., and Meador, K. (2003). Epilepsy and cognition. Epi-
+lepsy Behav. 4 (Supp2), 25–38.
+Murphy, V.N., and Fetz, E.E. (1996). Oscillatory activity in sensorimo-
+tor cortex of awake monkeys: synchronization of local ﬁeld poten-
+tials and relation to behavior. J. Neurophysiol. 76, 3949–3967.
+Naggara, O., Oppenheim, C., Rieu, D., Raoux, N., Rodrigo, S., Dalla
+Barba, G., and Meder, J.F. (2006). Diffusion tensor imaging in early
+Alzheimer’s disease. Psychiatry Res. 146, 243–249.
+Nase, G., Singer, W., Monyer, H., and Engel, A.K. (2003). Features of
+neuronal synchrony in mouse visual cortex. J. Neurophysiol. 90,
+1115–1123.
+Netoff, T.I., and Schiff, S.J. (2002). Decreased neuronal synchroniza-
+tion during experimental seizures. J. Neurosci. 22, 7297–7307.
+Niedermeyer, E. (2005). Epileptic Seizure Disorders. In Electroen-
+cephalography: Basic Principles, Clinical Applications, And Related
+Fields, Fifth Edition, E. Niedermeyer and F. Lopes Da Silva, eds.
+(Philadelphia: Lippincott Williams and Wilkins), pp. 505–621.
+Niessing, J., Ebisch, B., Schmidt, K.E., Niessing, M., Singer, W., and
+Galuske, R.A. (2005). Hemodynamic signals correlate tightly with
+synchronized gamma oscillations. Science 309, 948–951.
+Nilsen, K.E., Kelso, A.R., and Cock, H.R. (2006). Antiepileptic effect
+of Gap-junction blockers in a rat model of refractory focal cortical
+epilepsy. Epilepsia 47, 1169–1175.
+Pantel, J., Schonknecht, P., Essig, M., and Schroder, J. (2004). Dis-
+tribution of cerebral atrophy assessed by magnetic resonance imag-
+ing reﬂects patterns of neuropsychological deﬁcits in Alzheimer’s
+dementia. Neurosci. Lett. 361, 17–20.
+Pearson, R.C., Esiri, M.M., Hiorns, R.W., Wilcock, G.K., and Powell,
+T.P. (1985). Anatomical correlates of the distribution of the patholog-
+ical changes in the neocortex in Alzheimer disease. Proc. Natl. Acad.
+Sci. USA 82, 4531–4534.
+Penﬁeld, W., Jaspers, H., and McNaughton, F. (1954). Epilepsy and
+the Functional Anatomy of the Human Brain (Boston: Little Brown).
+Phillips, W.A., and Silverstein, S.M. (2003). Convergence of biologi-
+cal and psychological perspectives on cognitive coordination in
+schizophrenia. Behav. Brain Sci. 26, 65–82.
+Pijnenburg, Y.A., v d Made, Y., van Cappellen van Walsum, A.M.,
+Knol, D.L., Scheltens, P., and Stam, C.J. (2004). EEG synchronization
+likelihood in mild cognitive impairment and Alzheimer’s disease dur-
+ing a working memory task. Clin. Neurophysiol. 115, 1332–1339.
+Polleux, F., and Lauder, J.M. (2004). Toward a developmental neuro-
+biology of autism. Ment. Retard. Dev. Disabil. Res. Rev. 10, 303–317.
+Purcell, A.E., Jeon, O.H., Zimmerman, A.W., Blue, M.E., and Pevsner,
+J. (2001). Postmortem brain abnormalities of the glutamate neuro-
+transmitter system in autism. Neurology 57, 1618–1628.
+Rampp, S., and Stefan, H. (2006). Fast activity as a surrogate marker
+of epileptic network function? - A review. Clin. Neurophysiol.,
+in press.
+Rodriguez, E., George, N., Lachaux, J.P., Martinerie, J., Renault, B.,
+and Varela, F.J. (1999). Perception’s shadow: long-distance syn-
+chronisation of human brain activity. Nature 397, 430–433.
+Rodriguez, R., Kallenbach, U., Singer, W., and Munk, M.H. (2004).
+Short- and long-term effects of cholinergic modulation on gamma
+oscillations and response synchronization in the visual cortex.
+J. Neurosci. 24, 10369–10378.
+Roelfsema, P.R., Engel, A.K., Konig, P., and Singer, W. (1997). Visuo-
+motor integration is associated with zero time-lag synchronisation
+among cortical areas. Nature 385, 157–161.
+Rubenstein, J.L., and Merzenich, M.M. (2003). Model of autism: in-
+creased ratio of excitation/inhibition in key neural systems. Genes
+Brain Behav. 2, 255–267.
+Sarter, M., Nelson, C.L., and Bruno, J.P. (2005). Cortical cholinergic
+transmission and cortical information processing in schizophrenia.
+Schizophr. Bull. 31, 117–138.
+Schlosser, R., Gesierich, T., Kaufmann, B., Vucurevic, G., Hunsche,
+S., Gawehn, J., and Stoeter, P. (2003). Altered effective connectivity
+during working memory performance in schizophrenia: a study with
+fMRI and structural equation modeling. Neuroimage 19, 751–763.
+Schmidt, K.E., Goebel, R., Lowel, S., and Singer, W. (1997a). The per-
+ceptual grouping criterion of colinearity is reﬂected by anisotropies
+of connections in the primary visual cortex. Eur. J. Neurosci. 9, 1083–
+1089.
+Schmidt, K.E., Kim, D.S., Singer, W., Bonhoeffer, T., and Lowel, S.
+(1997b). Functional speciﬁcity of long-range intrinsic and interhemi-
+spheric connections in the visual cortex of strabismic cats. J. Neuro-
+sci. 17, 5480–5492.
+Schnitzler, A., and Gross, J. (2005). Normal and pathological oscilla-
+tory communication in the brain. Nat. Rev. Neurosci. 6, 285–296.
+Schoeffelen, J.M., Oostenveld, R., and Fries, P. (2005). Neuronal
+Coherence as a mechanism of effective corticospinal interaction.
+Science 308, 111–113.
+Seamans, J.K., and Yang, C.R. (2004). The principal features and
+mechanisms of dopamine modulation in the prefrontal cortex.
+Prog. Neurobiol. 74, 1–58.
+Sharott, A., Magill, P.J., Harnack, D., Kupsch, A., Meissner, W., and
+Brown, P. (2005). Dopamine depletion increases the power and co-
+herence of beta-oscillations in the cerebral cortex and subthalamic
+nucleus of the awake rat. Eur. J. Neurosci. 21, 1413–1422.
+Singer, W. (1999). Neuronal synchrony: A versatile code of the deﬁ-
+nition of relations? Neuron 24, 49–65.
+Slewa-Younan, S., Gordon, E., Harris, A.W., Haig, A.R., Brown, K.J.,
+Flor-Henry, P., and Williams, L.M. (2004). Sex differences in func-
+tional connectivity in ﬁrst-episode and chronic schizophrenia
+patients. Am. J. Psychiatry 161, 1595–1602.
+Snead, O.C., III. (1992). Evidence for GABAB-mediated mechanisms
+in experimental generalized absence seizures. Eur. J. Pharmacol.
+31, 343–349.
+Snyder, E.M., Nong, Y., Almeida, C.G., Paul, S., Moran, T., Choi, E.Y.,
+Nairn, A.C., Salter, M.W., Lombroso, P.J., Gouras, G.K., and Green-
+gard, P. (2005). Regulation of NMDA receptor trafﬁcking by amyloid-
+beta. Nat. Rev. Neurosci. 8, 1051–1058.
+Spencer, K.M., Nestor, P.G., Niznikiewicz, M.A., Salisbury, D.F.,
+Shenton, M.E., and McCarley, R.W. (2003). Abnormal neural syn-
+chrony in schizophrenia. J. Neurosci. 23, 7407–7411.
+Spencer, K.M., Nestor, P.G., Perlmutter, R., Niznikiewicz, M.A.,
+Klump, M.C., Frumin, M., Shenton, M.E., and McCarley, R.W.
+(2004). Neural synchrony indexes disordered perception and
+cognition in schizophrenia. Proc. Natl. Acad. Sci. USA 101, 17288–
+17293.
+Stam, C., and van Dijk, B.W. (2002). Synchronization likelihood: an
+unbiased measure of generalized synchronization in multivariate
+data sets. Physica D. 163, 236–251.
+Stam, C.J., van der Made, Y., Pijnenburg, Y.A., and Scheltens, P.
+(2003). EEG synchronization in mild cognitive impairment and
+Alzheimer’s disease. Acta Neurol. Scand. 108, 90–96.
+Review
+167
+
+Stam, C.J., Montez, T., Jones, B.F., Rombouts, S.A., van der Made,
+Y., Pijnenburg, Y.A., and Scheltens, P. (2005). Disturbed ﬂuctuations
+of resting state EEG synchronization in Alzheimer’s disease. Clin.
+Neurophysiol. 116, 708–715.
+Stam, C.J., Jones, B.F., Nolte, G., Breakspear, M., and Scheltens, P.
+(2006). Small-world networks and functional connectivity in Alz-
+heimer’s disease. Cereb. Cortex, in press.
+Steriade, M. (2003). Neuronal Substrates of Sleep and Epilepsy
+(Cambridge: Cambridge University Press).
+Steriade, M. (2005). Cellular substrates of brain rhythms. In Electro-
+encephalography: Basic Principles, Clinical Applications, And Re-
+lated Fields, Fifth Edition, E. Niedermeyer and F. Lopes Da Silva,
+eds. (Philadelphia: Lippincott Williams and Wilkins), pp. 505–621.
+Steriade, M., and Contreras, D. (1998). Spike-wave complexes and
+fast components of cortically generated seizures. I. Role of neocor-
+tex and thalamus. J. Neurophysiol. 80, 1439–1455.
+Steriade, M., Dossi, R.C., Pare, D., and Oakson, G. (1991). Fast oscil-
+lations (20-40 Hz) in thalamocortical systems and their potentiation
+by mesopontine cholinergic nuclei in the cat. Proc. Natl. Acad. Sci.
+USA 88, 4396–4400.
+Sterman, M.B., and Egner, T. (2006). Foundation and practice of
+neurofeedback for the treatment of epilepsy. Appl. Psychophysiol.
+Biofeedback 31, 21–35.
+Stern, E.A., Bacskai, B.J., Hickey, G.A., Attenello, F.J., Lombardo,
+J.A., and Hyman, B.T. (2004). Cortical synaptic integration in vivo
+is disrupted by amyloid-beta plaques. J. Neurosci. 24, 4535–4540.
+Symond, M.P., Harris, A.W., Gordon, E., and Williams, L.M. (2005).
+‘‘Gamma synchrony’’ in ﬁrst-episode schizophrenia: a disorder of
+temporal connectivity? Am. J. Psychiatry 162, 459–465.
+Tallon-Baudry, C., and Bertrand, O. (1999). Oscillatory gamma activ-
+ity in humans and its role in object representation. Trends Cogn. Sci.
+3, 151–162.
+Tass, P., Rosenblum, M.G., Weule, J., Kurths, J., Pikovsky, A., Volk-
+mann, J., Schnitzler, A., and Freund, H.J. (1998). Detection of n:m
+phase locking from noisy data: application to magnetoencephalog-
+raphy. Phys. Rev. Lett. 81, 3291–3294.
+Tiitinen, H., Sinkkonen, J., Reinikainen, K., Alho, K., Lavikainen, J.,
+and Naatanen, R. (1993). Selective attention enhances the auditory
+40-Hz transient response in humans. Nature 364, 59–60.
+Timmermann, L., Gross, J., Dirks, M., Volkmann, J., Freund, H.J.,
+and Schnitzler, A. (2003). The cerebral oscillatory network of parkin-
+sonian resting tremor. Brain 126, 199–212.
+Traub, R.D., Whittington, M.A., Buhl, E.H., LeBeau, F.E., Bibbig, A.,
+Boyd, S., Cross, H., and Baldeweg, T. (2001). A possible role for
+gap junctions in generation of very fast EEG oscillations preceding
+the onset of, and perhaps initiating, seizures. Epilepsia 42, 153–170.
+Traub, R.D., Bibbig, A., LeBeau, F.E.N., Buhl, E.H., and Whittington,
+M.A. (2004). Cellular mechanisms of neuronal population oscillations
+in the hippocampus in vitro. Annu. Rev. Neurosci. 27, 247–278.
+Uhlhaas, P.J., and Silverstein, S.M. (2005). Perceptual organization
+in schizophrenia spectrum disorders: empirical research and theo-
+retical implications. Psychol. Bull. 131, 618–632.
+Uhlhaas, P.J., Linden, D.E.J., Singer, W., Haenschel, C., Lindner, M.,
+Maurer, K., and Rodriguez, E. (2006). Dysfunctional long-range coor-
+dination of neural activity during Gestalt perception in schizophre-
+nia. J. Neurosci. 26, 8168–8175.
+Ulrich, D., and Huguenard, J.R. (1996). Gamma-aminobutyric acid
+type B receptor-dependent burst-ﬁring in thalamic neurons: a dy-
+namic clamp study. Proc. Natl. Acad. Sci. USA 93, 13245–13249.
+van Putten, M.J. (2003). Nearest neighbor phase synchronization as
+a measure to detect seizure activity from scalp EEG recordings.
+J. Clin. Neurophysiol. 20, 320–325.
+Varela, F., Lachaux, J.P., Rodriguez, E., and Martinerie, J. (2001). The
+brainweb: phase synchronization and large-scale integration. Nat.
+Rev. Neurosci. 2, 229–239.
+Villalobos, M.E., Mizuno, A., Dahl, B.C., Kemmotsu, N., and Muller,
+R.A. (2005). Reduced functional connectivity between V1 and inferior
+frontal cortex associated with visuomotor performance in autism.
+Neuroimage 25, 916–925.
+von Krosigk, M., Bal, T., and McCormick, D.A. (1993). Cellular mech-
+anisms of a synchronized oscillation in the thalamus. Science 261,
+361–364.
+von Stein, A., and Sarnthein, J. (2000). Different frequencies for dif-
+ferent scales of cortical integration: from local gamma to long range
+alpha/theta synchronization. Int. J. Psychophysiol. 38, 301–313.
+Waites, A.B., Briellmann, R.S., Saling, M.M., Abbott, D.F., and Jack-
+son, G.D. (2006). Functional connectivity networks are disrupted in
+left temporal lobe epilepsy. Ann. Neurol. 59, 335–343.
+Wang, X.J., and Buzsaki, G. (1996). Gamma oscillation by synaptic
+inhibition in a hippocampal interneuronal network model. J. Neuro-
+sci. 16, 6402–6413.
+Wespatat, V., Tennigkeit, F., and Singer, W. (2004). Phase sensitivity
+of synaptic modiﬁcations in oscillating cells of rat visual cortex.
+J. Neurosci. 24, 9067–9075.
+Wilson, T.W., Rojas, D.C., Reite, M.L., Teale, P.D., and Rogers, S.J.
+(2006). Children and adolescents with Autism exhibit reduced MEG
+steady-state gamma responses. Biol. Psychiatry, in press.
+Wynn, J.K., Light, G.A., Breitmeyer, B., Nuechterlein, K.H., and
+Green, M.F. (2005). Event-related gamma activity in schizophrenia
+patients during a visual backward-masking task. Am. J. Psychiatry
+162, 2330–2336.
+Zeitler, M., Fries, P., and Gielen, S. (2006). Assessing neuronal co-
+herence with single-unit, multi-unit, and local ﬁeld potentials. Neural
+Comput. 18, 2256–2281.
+Neuron
+168

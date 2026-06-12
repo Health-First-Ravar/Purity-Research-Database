@@ -1,0 +1,3307 @@
+ 
+ 
+ESCUELA DE QUÍMICA 
+CARRERA DE INGENIERÍA AMBIENTAL 
+ 
+ 
+Proyecto Final de Graduación para optar por el grado de Licenciatura en Ingeniería 
+Ambiental 
+ 
+ 
+ 
+“Control de calidad de biocarbón para la producción de Terra Preta” 
+ 
+ 
+ 
+Diana María Segura Chavarría 
+ 
+ 
+CARTAGO, noviembre, 2018 
+ 
+
+
+ 
+ 
+“Control de calidad de biocarbón para la producción de Terra Preta” 
+ 
+Informe presentado a la Escuela de Química del Instituto Tecnológico de Costa Rica como 
+requisito parcial para optar por el título de Ingeniero Ambiental con el grado de licenciatura 
+ 
+Miembros del tribunal 
+ 
+______________________________ 
+PhD. Federico Masís Meléndez  
+Director 
+ 
+__________________________  
+PhD. Jaime Quesada Kimzey  
+Lector 1 
+  
+__________________________  
+MSc. Karolina Villagra Mendoza 
+Lector 2 
+ 
+__________________________ 
+MSC. Ing Diana Alexandra Zambrano Piamba 
+Coordinador COTRAFIG 
+ 
+__________________________  
+PhD. Floria Roa Gutiérrez  
+Directora Escuela de Química 
+ 
+__________________________  
+MSc. Ing. Ana Lorena Arias Zúñiga  
+Coordinadora Carrera de Ingeniería Ambiental 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+DEDICATORIA  
+ 
+ 
+“Deja en manos de Dios todo lo que haces, y tus proyectos se harán realidad” 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Proverbios 16:3 
+ 
+ 
+A mis padres por darme un apoyo incondicional y por creer en mí siempre, donde el amor y 
+paciencia prevalecieron en todos estos años de aprendizaje. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+AGRADECIMIENTOS 
+ 
+ 
+ 
+Infinitas gracias a Dios, por darme las fuerzas y la sabiduría necesaria en todos estos años 
+de aprendizaje. 
+ 
+A mi familia y amigos cercanos, por apoyarme en cada una de las etapas que he vivido, por 
+creer en mí siempre y por sus oraciones. 
+ 
+A Fabio, por su comprensión y apoyo en todo momento, viviendo conmigo cada logro. 
+ 
+Al profesor Ph.D Federico Masís, por ser un excelente tutor, al guiarme e instruirme en este 
+proyecto. 
+ 
+A Marco, laboratorista de la Escuela de Ingeniería Ambiental, por brindarme su ayuda 
+siempre, ser un buen amigo y compañero. 
+ 
+Al Centro de Investigación y de Servicios Químicos y Microbiológicos (CEQIATEC) por 
+brindarme un espacio en sus instalaciones y analizar algunas de las propiedades 
+físicoquímicas realizadas en este proyecto. 
+ 
+A la Escuela de Ingeniería Agrícola, por brindarme un espacio de trabajo y préstamos de 
+equipo. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+1 
+ 
+1 TABLA DE CONTENIDO 
+1 
+INTRODUCCIÓN ................................................................................................................ 8 
+2 
+OBJETIVOS ....................................................................................................................... 9 
+2.1 
+Objetivo general ................................................................................................................. 9 
+2.2 
+Objetivos específicos .......................................................................................................... 9 
+3 
+REVISIÓN DE LITERATURA ............................................................................................... 11 
+3.1 
+¿Qué es biocarbón?.......................................................................................................... 11 
+3.1.1 
+Producción de biocarbón ............................................................................................ 12 
+3.1.2 
+Propiedades físicas y químicas .................................................................................... 14 
+3.2 
+Aplicaciones del biocarbón .............................................................................................. 17 
+3.2.1 
+Sostenibilidad y ambiente ........................................................................................... 19 
+4 
+MATERIALES Y MÉTODOS ............................................................................................... 21 
+4.1 
+Producción de biocarbón ................................................................................................. 21 
+4.1.1 
+Preparación de la biomasa y biocarbón ...................................................................... 21 
+4.2 
+Análisis del biocarbón ...................................................................................................... 23 
+4.2.1 
+Análisis físicos .............................................................................................................. 24 
+4.2.2 
+Análisis Químicos ......................................................................................................... 25 
+4.2.3 
+Análisis de contaminantes en biocarbón .................................................................... 29 
+4.3 
+Dosificación de biocarbón: Diseño Experimental ............................................................. 29 
+4.3.1 
+Determinación de agua disponible .............................................................................. 31 
+4.4 
+Criterios de sustentabilidad ............................................................................................. 32 
+4.4.1 
+Proyección de cantidad de biomasa y biocarbón ........................................................ 32 
+5 
+RESULTADOS Y DISCUSIÓN .............................................................................................. 33 
+5.1 
+Calidad de los biocarbones .............................................................................................. 33 
+5.1.1 
+Temperatura ................................................................................................................ 33 
+5.1.2 
+Distribución del tamaño de partículas ........................................................................ 34 
+5.1.3 
+Microscopía Electrónica de Barrido (MEB) .................................................................. 36 
+5.1.4 
+Hidrofobicidad ............................................................................................................. 37 
+5.1.5 
+Análisis próximo y elemental ...................................................................................... 39 
+5.1.6 
+Capacidad de intercambio catiónico y aniónico (CIC y CIA) ........................................ 46 
+
+2 
+ 
+5.1.7 
+pH, CE y Efecto Encalante ............................................................................................ 48 
+5.1.8 
+Metales pesados .......................................................................................................... 50 
+5.2 
+dosificación óptima a partir del agua disponible ............................................................. 51 
+5.3 
+Sostenibilidad ambiental ................................................................................................. 53 
+5.3.1 
+Aspectos sociales, ambientales y económicos ............... ¡Error! Marcador no definido. 
+5.3.2 
+Factor económico en la producción de biocarbón ......... ¡Error! Marcador no definido. 
+5.3.3 
+Propuesta del carbonizador ........................................... ¡Error! Marcador no definido. 
+5.3.4 
+Estructura de costo ......................................................... ¡Error! Marcador no definido. 
+5.3.5 
+Proyección de biocarbón y biomasa ............................... ¡Error! Marcador no definido. 
+6 
+CONCLUSIONES Y RECOMENDACIONES ........................................................................... 63 
+6.1 
+Conclusiones .................................................................................................................... 63 
+6.2 
+recomendaciones ............................................................................................................. 64 
+7 
+REFERENCIAS .................................................................................................................. 65 
+8 
+APÉNDICES ..................................................................................................................... 85 
+ 
+ 
+ 
+ 
+
+3 
+ 
+LISTA DE FIGURAS  
+ 
+Figura 4.1 a) Bambú utilizado para la producción de biocarbón, b) Estructura interna de la 
+Estufa de Finca  y c) Madera colocada en la estufa ya preparada para la producción de 
+biocarbón. ..................................................................................................................... 22 
+Figura 4.2 a) Estufa de finca utilizada para la producción de biocarbón, modificada con dos 
+termocuplas y b) carbonizador. .................................................................................... 22 
+Figura 4.4.3 a) Molienda y b) tamizado del biocarbón por malla N° 10 VWR Scientific ... 23 
+Figura 4.4. Técnica de la gota sésil sobre una lámina de doble tape adhesivo impregnada 
+con biocarbón. .............................................................................................................. 25 
+Figura 4.5 Muestras de compost con biocarbón en saturación, de acuerdo a las dos dosis 5 y 
+10 % de biocarbón junto con el control de compost..................................................... 30 
+Figura 5.1 Distribución del tamaño de partículas para los biocarbones de madera (a) y 
+bambú (b), a partir del modelo matemático Rosin-Rammler. ...................................... 35 
+Figura 5.2 Micrografías MEB para ambos los biocarbones de bambú (a y b) y madera (c y 
+d), con acercamientos de 1000x, 800x y 500x. ............................................................ 37 
+Figura 5.3. Resultados obtenidos en la hidrofobicidad por medio del método de la gota 
+Sésil para los biocarbones de madera y bambú, a y b respectivamente ....................... 39 
+Figura 5.4 Comportamiento de las curvas termogravimétricas para biocarbones de bambú 
+BA, BB y BC (a,b y c) y madera MA, MB y MC (d, e y f), ante un aumento de 
+temperatura. .................................................................................................................. 42 
+Figura 5.5. Relación entre la temperatura vs la relación C / N de los biocarbones de bambú 
+y de madera. .................................................................................................................. 44 
+Figura 5.6 Composición elemental entre las relaciones de O/C y H/C para los biocarbones 
+de madera y bambú. ...................................................................................................... 45 
+Figura 5.7. Resultados obtenidos en la CIC y CIA para los seis biocarbones en estudio 
+(Error con desviación estándar). ................................................................................... 48 
+Figura 5.8. Valores de retención de agua de acuerdo a las dosis de 5% y 10% para cada 
+biocarbón BA, BB y BC correspondientes al bambú Guadua y MA, MB y MC para 
+madera de construcción. (Error a partir de la desviación estándar).............................. 53 
+ 
+
+4 
+ 
+ 
+LISTA DE CUADROS 
+ 
+Cuadro 4.1. Diseño experimental utilizado para la dosificación de biocarbones. ....... ¡Error! 
+Marcador no definido. 
+Cuadro 5.1. Comportamiento de temperaturas en la carbonización de bambú (BA, BB Y 
+BC) y madera (MA, MB Y MC) a dos niveles de altura Termoculpa 1 (18 cm) y 
+Termocupla 2 (13 cm). ................................................................................................. 34 
+Cuadro 5.2. Granulometría de los biocarbones. ................................................................... 35 
+Cuadro 5.3. Resultados correspondientes al análisis de próximo ( % m/m) para cada uno de 
+los biocarbones de bambú (BA; BB, BC) y madera (MA, MB,MC). .......................... 41 
+Cuadro 5.4. Análisis elemental (% m/m) de los biocarbones de bambú BA, BB, BC y 
+madera MA, MB y MC. ............................................................................................... 43 
+Cuadro 5.5  Valores obtenidos de tres métodos diferentes para determinar el pH en los 
+biocarbones, conductividad y efecto de encalado a partir de los equivalentes de CaCO3
+ ...................................................................................................................................... 50 
+Cuadro 5.6. Concentración de contaminantes inorgánicos (metales pesados) presentes en 
+biocarbones de bambú y madera de pino, junto con la normativa de IBI y EBC. ........ 51 
+Cuadro 5.7. Porcentajes de rendimiento obtenido a partir de la estufa de finca para cada uno 
+de los biocarbones. ....................................................... ¡Error! Marcador no definido. 
+Cuadro 5.8. Parámetros comparativos entre la estufa de finca empleada y la nueva 
+propuesta del carbonizador, para la obtención de biocarbón, donde D: diámetro, L: 
+largo y C: circunferencia .............................................. ¡Error! Marcador no definido. 
+Cuadro 5.9 Materiales y precios para la elaboración de la propuesta del carbonizador.
+ ...................................................................................... ¡Error! Marcador no definido. 
+Cuadro 5.10. Estructura de costos para el primer caso de producción de biocarbón en la 
+estufa de finca empleada............................................... ¡Error! Marcador no definido. 
+Cuadro 5.11 Estructura de costo para el proceso de carbonización del biocarbón con el 
+reactor propuesto. ......................................................... ¡Error! Marcador no definido. 
+ 
+ 
+
+5 
+ 
+LISTA DE SIGLAS Y ACRÓNIMOS  
+ 
+ 
+ASTM  
+Normas 
+Americanas 
+para 
+Pruebas 
+y 
+Materiales, por sus siglas en inglés 
+CE 
+Conductividad Eléctrica 
+CIA   
+Capacidad de Intercambio Aniónico 
+CIC 
+Capacidad de Intercambio Catiónico 
+Cu 
+Coeficiente de Uniformidad 
+EBC 
+Certificación Europea de Biocarbón, por sus 
+siglas en inglés 
+FAO 
+Organización de las Naciones Unidas para 
+la Alimentación y  la Agricultura, por sus 
+siglas en inglés 
+HAPs 
+Hidrocarburos Aromáticos Policíclicos 
+IBI 
+Iniciativa Internacional de Biocarbón, por 
+sus siglas en inglés 
+MEB 
+Microscopía Electrónica de Barrido 
+ONU 
+Organización de las Naciones Unidas 
+TP 
+Tierra Negra, por sus siglas en portugués, 
+Terra Preta 
+TLUD  
+Reactor de corriente ascendente, por sus 
+siglas en inglés 
+STP 
+Saneamiento con Terra Preta 
+
+6 
+ 
+RESUMEN 
+ 
+El desarrollo de métodos agrícolas que incrementen la productividad en cultivos y mejoren 
+la calidad de los suelos de manera sostenible, es esencial en la actualidad debido a la alta 
+degradación que presentan los suelos. La propuesta que se plantea es el uso del biocarbón 
+para su posterior mezcla en la producción de Terra Preta, como un mejorador orgánico de 
+suelos. No obstante, debido a la variabilidad en las propiedades físicoquímicas del 
+biocarbón, provenientes principalmente de la biomasa y temperatura de producción, se 
+obtienen calidades heterogéneas dificultando la comprensión de los beneficios que pueden 
+brindar al utilizarlo como enmienda de suelos. Por lo tanto, en el presente estudio se 
+realizaron pruebas físicoquímicas de laboratorio a biocarbones provenientes de biomasa de 
+desechos de construcción (pino) y de bambú (Guadua angustifolia var. Sur): capacidad de 
+intercambio catiónico (CIC), hidrofobicidad, agua disponible para las plantas a partir de 
+dosificaciones de 5 y 10 % mezclado con material de biosólidos sépticos tratados 
+(compost), son algunas de las pruebas más destacadas, junto con un análisis de 
+sostenibilidad ambiental y socioeconómico. Los resultados obtenidos a partir de las pruebas 
+físicoquímicas son favorables para ambas biomasas, no obstante el biocarbón de bambú 
+guadua presentó mejores resultados en general, como lo fue en el CIC con un valor de 
+19.97 cmolc/kg como valor máximo obtenido en el análisis, correspondiente a la primera 
+carbonización. Por otra parte, la hidrofobidad se reduce en un menor tiempo para las 
+pruebas de bambú. La retención de agua disponible para las plantas en las mezclas de 
+bambú al emplear la dosis de 10 % y biosólidos sépticos, son favorables y presentaron un 
+72 % de retención neta para la primera carbonización y 58 % para la tercera carbonización. 
+Por lo tanto, se recomienda utilizar la biomasa de bambú guadua como posible biomasa 
+para la producción de biocarbón, debido a las propiedades físicoquímicas obtenidas y el 
+análisis de sostenibilidad efectuado con respecto a la versatilidad de aplicación, beneficios 
+ambientales y socioeconómicos. A partir del carbonizador propuesto, se puede lograr un 
+rendimiento de producción del 26 % y a la vez reducir costos operacionales, ya que se 
+espera ahorrar $1.367,92 al cambiar el reactor, con respecto a la producción de biocarbón 
+realizada en el presente estudio.  
+Palabras clave: Biocarbón, Cambio Climático, Enmienda, Sostenibilidad 
+
+7 
+ 
+ABSTRACT 
+ 
+ 
+The development of agricultural methods that increase crop productivity and improve the 
+quality of soils in a sustainable manner, is essential nowadays due to the high degradation 
+of soils. The proposal presented here is the use of biochar for its subsequent mixing in the 
+production of Terra Preta, as an organic soil improver. However, due to the variability in 
+the physicochemical properties of biochar, coming mainly from biomass and production 
+temperature, heterogeneous qualities are obtained, making it difficult to understand the 
+benefits it can offer when used as soil amendment. Therefore, in the present study 
+physicochemical laboratory tests were carried out on biochars obtained from construction 
+waste (pine) and bamboo biomass (Guadua angustifolia var. Sur): cation exchange capacity 
+(CEC), hydrophobicity, water available for plants from dosages of 5 and 10 %, are some of 
+the most important tests, together with an analysis of environmental and socioeconomic 
+sustainability. The results obtained from the physicochemical tests are favorable for both 
+biomasses; however, the bamboo biochar showed better results in general, as it was in the 
+CEC with a value of 19.97 cmolc / kg as the maximum value obtained in the biochars, 
+corresponding to the first carbonization. On the other hand, the hydrophobicity is reduced 
+in a shorter time for the bamboo tests. The retention of water available for the plants in the 
+bamboo mixtures when using the 10 % dose, are favorable and presented a 72 % net 
+retention for the first carbonization and 58 % for the third carbonization. Therefore, it is 
+recommended to use bamboo biomass for the production of biochar, due to the 
+physicochemical properties obtained and the sustainability analysis carried out with respect 
+to the versatility of application, environmental and socioeconomic benefits. From the 
+proposed carbonizer, a production yield of 26 % can be achieved, at the same time reduce 
+operational costs, since it is expected to save ₡ 820 750, respect to the production of 
+biochar obtained in the present study. 
+ 
+ 
+ 
+Keywords: Biochar, Climate Change, Amendment, Sustainability 
+
+8 
+ 
+1 
+INTRODUCCIÓN 
+La agricultura debe hacer frente a una serie de desafíos, por ejemplo la degradación y 
+pérdida de fertilidad de los suelos, el cambio climático, además de la alta demanda de 
+alimentos (FAO, 2018). El suelo como un recurso finito vulnerable (Salcedo, 2014), 
+presenta aproximadamente un 33 % de la superficie terrestre afectada debido a factores 
+como la erosión, agotamiento de nutrientes, pérdida de carbono orgánico, entre otros (FAO, 
+2016). Costa Rica no es la excepción, 10 % del territorio se encuentra erosionado, lo cual 
+equivale a 5 110 km2 de la geografía del país, de acuerdo con la Comisión Asesora en 
+Degradación de Tierras (CADETI, 2015). 
+ 
+En el presente proyecto se propone el biocarbón como una enmienda mejoradora de suelos 
+y cultivos, siendo a la vez una alternativa innovadora para la mitigación del cambio 
+climático. El biocarbón es obtenido a partir de biomasa como materia prima y brinda 
+beneficios al aplicarlo en suelos como: secuestro de carbono, efecto de encalado, 
+incremento en la capacidad de retención de agua en suelo y en la disponibilidad de 
+nutrientes para las plantas, entre los más destacados (Vaccari et al., 2015; Lehmann & 
+Joseph, 2009). Además, diversas investigaciones han demostrado mejores resultados al 
+mezclar el biocarbón en compostajes orgánicos previo a su aplicación en suelos (Wu et al., 
+2017; Liu et al., 2012). El biocarbón es un componente esencial en suelos denominados 
+Terra Preta (TP), un suelo antropogénico de la Amazonia de color negro (Silva, 2013). La 
+TP puede crearse bajo una síntesis acelerada, obteniendo características similares en un 
+menor tiempo, al proceso se le denomina Saneamiento con Terra Preta (STP) (Salcedo & 
+Guzmán, 2014). 
+ 
+En el presente proyecto se estableció una caracterización físicoquímica de los biocarbones, 
+definiendo posteriormente el biocarbón que presentó mejor calidad de acuerdo con los 
+resultados obtenidos, además de presentar un enfoque de sostenibilidad ambiental, social y 
+económico, para ser empleado posteriormente en TP y aplicarlo en suelos agrícolas. 
+  
+ 
+
+9 
+ 
+2 
+ OBJETIVOS 
+2.1 
+OBJETIVO GENERAL 
+Establecer un protocolo de caracterización de la calidad de biocarbones para su utilización 
+en la síntesis de Terra Preta, dirigido al saneamiento y la producción de mejoradores de 
+suelos. 
+ 
+ 
+2.2 
+OBJETIVOS ESPECÍFICOS 
+ Determinar la calidad del biocarbón generado a partir de bambú (guadua) y madera 
+de construcción (pino) mediante métodos fisicoquímicos. 
+ 
+ Recomendar dosis óptimas de biocarbón según la calidad de los biosólidos sépticos 
+para la producción de Terra Preta. 
+ 
+ Ajustar criterios de sustentabilidad para dos sistemas de carbonización con biomasa 
+para el posterior uso en mezclas de biosólidos sépticos. 
+
+
+11 
+ 
+3 
+REVISIÓN DE LITERATURA 
+3.1 
+¿QUÉ ES BIOCARBÓN? 
+El biocarbón (biochar, término en inglés) es producto de la descomposición térmica de 
+materia orgánica en un ambiente limitado de oxígeno destinado a su aplicación en suelos 
+(Aller, 2016), a diferencia del tradicional carbón vegetal que es utilizado como 
+combustible/energía (Lehmann & Joseph, 2009). Es considerado como una enmienda, 
+debido a sus propiedades físicoquímicas y biológicas, capaces de incrementar el 
+rendimiento de cultivos y mejorar la fertilidad del suelo (Guerra, 2015; Qian et al., 2015). 
+Puede ser producido a partir de una gran variedad de materias primas y diversas 
+condiciones de carbonización, otorgándole características físicoquímicas particulares, por 
+ejemplo, grupos poliaromáticos condensados que otorgan estabilidad, alta porosidad, 
+retención de iones en la superficie, entre otros (Sparkes & Stoutjesdijk, 2011; Xie et., 2014; 
+Cuthbertson, 2018). 
+ 
+A pesar de que la aplicación del biocarbón como enmienda es reciente, investigaciones 
+científicas desde el siglo XIX y XX relatan el uso del carbón en la agricultura. La base 
+existente ante la aplicación del producto carbonoso, es debido al descubrimiento de 
+partículas similares al carbón en suelos muy fértiles denominado como Terra Preta do 
+Indio, en la Amazonia (Lehmann et al., 2011; Maia, 2011; Guerra, 2015). Las evidencias 
+obtenidas determinan que los nativos modificaban la fertilidad del suelo con la quema de 
+troncos, ramas, malezas y también con el carbón de las cocinas junto con las cenizas 
+(Sparkes & Stoutjesdijk, 2011). Por lo tanto, los suelos tienen un origen antropogénico y se 
+predice que se encuentran sobre antiguos asentamientos indígenas (Martínez, 2015). 
+Muchos de estos suelos originales del Amazonas se consideran estériles y la alta fertilidad 
+de la Terra Preta es debido al alto contenido de materia orgánica, carbón y nutrientes (Maia 
+et al., 2011). 
+ 
+El estudio de los suelos Terra Preta permitió concluir que presentaban excelentes 
+propiedades beneficiosas para los suelos y cultivos, entre las que se puede mencionar: 
+elevado contenido de materia orgánica y carbono, elevada disponibilidad de nutrientes, 
+
+12 
+ 
+altos contenidos de humedad, mayor capacidad de intercambio catiónico y actividad 
+microbiológica (Lehmann & Joseph, 2009). Por lo que, de estos suelos surgió la idea de 
+emplear una tecnología semejante para que el carbón obtenido de la quema de desechos 
+vegetales fuese aplicado en el suelo, como una forma de capturar de manera relativamente 
+permanente el exceso de carbono atmosférico y contribuir positivamente el efecto del 
+cambio climático y mejorar los suelos. El intento de imitar o recrear este tipo de suelos con 
+altos contenidos de carbón y tan buenas características, favoreciendo la alta productividad 
+en cultivos, originó el interés particular en el estudio del biocarbón (Escalante et al., 2016). 
+ 
+3.1.1 Producción de biocarbón  
+De acuerdo con Rosas-Mayoral (2015), la biomasa y la temperatura de producción, 
+influyen sobre las propiedades físicoquímicas del biocarbón, por lo tanto, realizar una 
+cuidadosa elección de la biomasa y del reactor de producción es punto clave para obtener 
+una buena calidad. La biomasa está compuesta por varios componentes (celulosa, 
+hemicelulosa, lignina y compuestos minerales) que se descomponen a diferentes 
+temperaturas (Ranzi et al., 2008; Xie et al., 2014). Por lo tanto, la velocidad de 
+calentamiento, la temperatura y el tiempo de residencia desempeñan un papel importante, 
+ya que controlan los compuestos químicos que se descomponen (Ronsse et al., 2013; Xie et 
+al., 2014). 
+ 
+El biocarbón se puede obtener por medio de pirólisis, gasificación o carbonización, siendo 
+los métodos más comunes (Guerra, 2015). La pirólisis se refiere a la descomposición 
+térmica de la materia orgánica a temperaturas mayores o iguales a 300 °C en ausencia de 
+oxígeno, y se obtienen gases, aceites y/o condensados (Aller, 2016). Por otra parte, la 
+gasificación es la oxidación parcial de la biomasa a temperaturas superiores de 800 °C 
+empleando pequeñas cantidades de oxígeno o un agente gasificante (aire, vapor de agua e 
+hidrógeno) (Duku, Gu & Hagan, 2011; Cely, 2016). La conversión térmica que se 
+fundamenta en el calentamiento de biomasa en ausencia o poco oxígeno, es denominada 
+carbonización (Aller, 2016).  
+
+13 
+ 
+El biocarbón debe producirse en reactores eficientes que produzcan muy pocas o ninguna 
+emisión aparte del dióxido de carbono y el agua (Lehmann & Joseph, 2015). Para muchos 
+diseños de hornos, esto se puede lograr con un aislamiento de calor adecuado, control 
+efectivo del aire de entrada y monitoreo del proceso. No obstante, los métodos tradicionales 
+de carbonización están en constante mejoramiento, como lo son las estufas de corriente 
+ascendente (TLUD, por sus siglas en inglés) empleadas en el presente estudio, que reducen 
+las emisiones de gases causantes del efecto invernadero (Martínez et al., 2009).   
+ 
+La producción de biocarbón en Costa Rica surge hace aproximadamente 20 años y 
+Talamanca ha sido una zona de atención para la aplicación de proyectos y promoción del 
+desarrollo rural, para la aplicación de biocarbón como enmienda. Es por eso que la 
+organización estadounidense SeaChar difundió el uso de la estufa de finca en Costa Rica 
+para producir el biocarbón a un bajo costo y a la vez reducir problemas de salud y mejorar 
+cultivos (Acosta, 2014; Avilés-López, 2014). Por otra parte, en el presente año la 
+Universidad de Costa Rica ha dado inicio la investigación del biocarbón a partir del rastrojo 
+de piña, como una alternativa para el manejo adecuado de los desechos de la fruta (Salas, 
+2018). 
+3.1.1.1 Variables que afectan la carbonización 
+Las variables involucradas en la carbonización incluyen la composición de la biomasa, 
+intervalo de calentamiento, temperatura, entre las más importantes (Escalante et al., 2016). 
+Al entender la influencia de las variables indicadas en el producto final (biocarbón), se 
+puede anticipar la caracterización deseada (Lehmann et al., 2011).  
+ 
+La biomasa utilizada para producir biocarbón está compuesta por materiales heterogéneos y 
+varían de acuerdo a las especies de las cuales provienen, por lo que, los componentes son 
+responsables de la complejidad y variedad de las características (Brownsort, 2009; 
+Lehmann & Joseph, 2015).  Es importante destacar que en la actualidad para la producción 
+de biocarbón, no solo se pueden utilizar los materiales que originalmente contribuyeron en 
+la formación de la Terra Preta, (ej: restos de árboles, malezas, huesos), sino también los 
+lodos residuales pueden ser carbonizados (Cantrell et al., 2012; Lashari et al., 2013; Lu et 
+
+14 
+ 
+al., 2015). Por otra parte, el intervalo de calentamiento toma en consideración el aumento 
+de temperatura por segundo y la duración del calentamiento, por lo que afectan las 
+reacciones de pirólisis/carbonización.  Es por esto, que la temperatura es otro parámetro 
+importante ya que modifica las características y el valor que puede aportar a la agricultura, 
+aunque no haya un consenso sobre cuál es la mejor temperatura y materia prima en 
+términos de uso en el suelo (Sohi et al., 2010).  
+3.1.2 Propiedades físicas y químicas 
+Las propiedades de los biocarbones son muy variadas, siendo la biomasa y las condiciones 
+de carbonización los principales parámetros determinantes en las características 
+físicoquímicas del biocarbón (Bachmann et al., 2015; Janus et al., 2015; Teβin, 2016). Un 
+estudio realizado por Amin et al. (2016), explica que algunas de las propiedades 
+físicoquímicas del biocarbón pueden cambiar después de la exposición ambiental, 
+desafiando la capacidad de predecir la función de este a largo plazo en el ecosistema, por 
+ejemplo la capacidad de intercambio catiónico y el pH.    
+ 
+La estandarización de los análisis físicoquímicos es necesaria, por lo que existen dos 
+iniciativas que brindan directrices a seguir para obtener un biocarbón de calidad, estas son: 
+la Iniciativa Internacional de Biocarbón (IBI) y la Certificación Europea de Biocarbón 
+(EBC), (Guerra, 2015). Por otra parte, las normas Americanas para Pruebas y Materiales 
+(ASTM), también juegan un papel importante para cumplir con procedimientos 
+certificados; para este caso las pruebas de análisis próximo y último se obtienen a partir de 
+la norma E 113-08, aunque estén dirigidas a la caracterización de combustibles sólidos 
+como el carbón.  
+ 
+La ASTM, brinda la definición de los siguientes análisis a partir del concepto de las 
+fórmulas anotadas en el apartado 4.3.1.1: la humedad del biocarbón es considerada como la 
+cantidad de masa de agua perdida durante el secado de la muestra, asumiendo que es el 
+único material volátil a una temperatura de 105 °C.  Por otra parte, el contenido de material 
+volátil es la pérdida de masa del producto gaseoso, excluyendo el vapor húmedo en la 
+muestra del carbón. Las cenizas son la fracción no orgánica del biocarbón que se 
+
+15 
+ 
+encuentran libre de humedad y presenta gran cantidad de minerales (Bachmann et al., 
+2015). El contenido de carbono fijo es el residuo del análisis del contenido de materia 
+volátil y se determina restando a 100 la suma de los porcentajes de humedad, material 
+volátil y cenizas, todos referidos en base seca (McLaughin, Andersin, Shields & Reed, 
+2009). 
+ 
+Con respecto al contenido de carbono y nitrógeno, la relación C/N es un factor importante a 
+considerar en la aplicación de enmiendas, ya que se debe tener una relación C/N que no sea 
+superior a aproximadamente 30 para evitar la inmovilización con nitrógeno (Wang et al., 
+2012). Los biocarbones están compuestos por carbono y suelen tener relaciones de carbono 
+y nitrógeno muy altas en una base de composición elemental, donde casi todo el carbono no 
+estará disponible para los microorganismos, debido a la estructura recalcitrante (Lehmann 
+et al., 2011; Jiang et al., 2016), lo que significa que la relación C/N efectiva no será 
+afectada en su totalidad por el biocarbón. Sin embargo, si el biocarbón no se 
+piroliza/carboniza en su totalidad, parte del carbono aún puede estar biodisponible y 
+posiblemente cause la inmovilización del nitrógeno, dando como resultado efectos 
+negativos a corto plazo en el rendimiento del cultivo (Kimetu et al., 2008; Jiang et al., 
+2016).    
+ 
+La capacidad de intercambio catiónico o CIC es una característica importante que 
+determina capacidad de adsorción y desorción de nutrientes (Guerra, 2015) de la superficie 
+interna y externa de los biocarbones. Similar a la CIC del suelo, entre más alto sean los 
+valores de CIC, mayor la capacidad de retener cationes de valor nutricional (ej, K+, Ca2+ y 
+Mg2+) en la zona de las raíces. Por lo que, enmiendas con alta CIC tienden a mejorar la 
+productividad de los suelos (Sohi et al., 2010). Con el paso del tiempo, luego de su 
+incorporación en los suelos, las superficies de las partículas del biocarbón se oxidan, dando 
+como resultado un aumento de los grupos funcionales y por consecuente un aumento de la 
+CIC (McElligott et al., 2011). 
+ 
+Los grupos funcionales presentes en el biocarbón, dependen de la composición inicial de la 
+biomasa, temperatura del proceso de carbonización y velocidad de calentamiento (Lehmann 
+
+16 
+ 
+& Joseph, 2009). A partir de un aumento de la temperatura, grupos hidroxilo tienden a 
+desaparecer como un resultado de la deshidratación, de igual forma con los grupos 
+carboxilo y fenólico (Hagner et al., 2015; Jindo, 2014).  Al reducir o desaparecer estos 
+grupos funcionales se origina una condición hidrófoba en el biocarbón (Sohi et al., 2010). 
+Cabe destacar que la presencia de grupos funcionales superficiales alifáticos y aromáticos, 
+reducen la afinidad con el agua (Jindo, 2014).  El biocarbón presenta una alta capacidad de 
+absorción de agua, debido al área superficial con grupos funcionales poco hidrófobos y al 
+aumento de la porosidad con respecto a la temperatura de carbonización/pirolización (Antal 
+& Grønli, 2003), por lo que dicha capacidad implica un aumento del contenido de agua 
+disponible para las plantas (Baronti et al., 2014). Diversos estudios han evaluado que el 
+biocarbón incrementa la capacidad de retención de agua en los suelos (Glaser et al., 2002; 
+Laird et al., 2010; Revell, 2011; Hale et al., 2014), aunque también se han encontrado casos 
+en los que no genera un efecto en la retención (Brewer et al., 2012; Muter et al., 2014), sin 
+embargo, es incierta la cantidad de agua disponible para las plantas. Muy pocos estudios 
+han evaluado el agua disponible del biocarbón para las plantas, e incluso en mezclas con 
+compost y su capacidad de mejorar en los suelos (Karer et al 2013; Tammeorg et al., 2014; 
+Baronti et al, 2014). 
+ 
+La distribución del tamaño de partículas depende de la biomasa empleada y la temperatura 
+de producción, lo que ocasiona un desgaste del material orgánico durante el proceso 
+térmico (Olmo, 2016). En general, los biocarbones a base de madera presentan estructuras 
+funcionales como el xilema (Verheijen et al., 2010) que pueden ser observadas por medio 
+de microscopías electrónicas de barrido (MEB), además de los micro y macro poros. 
+ 
+Por otra parte, el pH varía de ácido a alcalino con el incremento de la temperatura, debido a 
+la pérdida de grupos ácidos, separación de minerales y sales alcalinas de la fracción 
+orgánica de la biomasa (Janus et al., 2015; Srinivasarao et al. 2013). Además, Jeffery et al. 
+(2011), mencionan que la adición de biocarbón puede aumentar (0.6 a 1 unidades de pH) en 
+los niveles de pH del suelo, obteniendo un efecto positivo en la producción de cultivos en 
+suelos ácidos. El pH o acidez en disolución de una mezcla de biocarbón - agua puede 
+determinarse directamente utilizando una relación 1:2, así también se pueden emplear 
+
+17 
+ 
+disoluciones de KCl o CaCl2, para cuantificar la acidez intercambiable. La alcalinidad de 
+un biocarbón se puede ver reflejada en la capacidad de encalado, por lo que la capacidad 
+total de ácido neutralizante de un biocarbón es especialmente importante para los caracteres 
+con alto contenido de ceniza que pueden actuar como agentes de encalado en los suelos 
+(Brewer, 2012). La conductividad eléctrica (CE) representa la medida del contenido total de 
+sales disueltas en el biocarbón, incluyendo todos los nutrientes y sales neutras que se 
+encuentran en la materia prima (Kumari et al., 2014).  
+ 
+El contenido de compuestos tóxicos orgánicos e inorgánicos en el biocarbón son muy 
+variables en función de los parámetros de producción. Los principales contaminantes en los 
+biocarbones son los metales pesados y los hidrocarburos aromáticos policíclicos (HAPs). 
+En particular, los HAPs se producen durante la combustión incompleta de la biomasa y, por 
+lo tanto, se generan inherentemente durante la producción de biocarbón. Debido a su 
+toxicidad y sus características cancerígenas, el riesgo de generar estas toxinas al ambiente 
+requiere una cuidadosa elección de biomasa antes de su producción. (Tang, Zhu, Kookana, 
+& Katayama, 2013; Yargicoglu, Yamini, Reddy, & Spokas, 2015). Por otra parte, los 
+metales pesados se encuentran originalmente en la biomasa y pueden volatilizarse durante 
+el proceso de carbonización, al igual que los HAPs son considerados  tóxicos, por lo que las 
+concentraciones de ambos tipos de contaminantes deben ser comparados ante los límites 
+brindados por las certificaciones establecidas (Bachmann et al., 2015; Zheng, Holm, & 
+Spokas, 2016).  
+ 
+3.2 
+APLICACIONES DEL BIOCARBÓN 
+La aplicación del biocarbón en los suelos se ha incrementado en los últimos años, de igual 
+manera la investigación de sus beneficios al emplearse en suelos. De acuerdo con Edenborn 
+et al. (2015), el biocarbón puede utilizarse con el fin de disminuir la contaminación de 
+metales en suelos y mejorar la fertilidad. Olmo, (2016) y Jeffery et al. (2015), hacen 
+referencia a otros beneficios con respecto a la disminución en el uso de recursos naturales, 
+como ejemplo el agua para irrigación, y el ahorro en la inversión de materias primas, 
+
+18 
+ 
+debido a que se puede disminuir el uso de fertilizantes, agua, cal y reducción de pérdidas de 
+nutrientes, entre las características más destacadas. 
+ 
+Cabe destacar que el biocarbón en los cultivos, en el peor de los casos, no tendrá ningún 
+efecto. Sin embargo, hay tres casos de acuerdo con Domingues et al. (2017) en que el 
+biocarbón puede producir un efecto negativo. El primer caso involucra los efectos del pH 
+de la aplicación de biocarbón, especialmente cuando se usan biocarbones muy alcalinos 
+(valores de pH mayores a 11) y altos valores en cenizas. Si la adición de biocarbón aumenta 
+el pH del suelo demasiado alto, ciertas poblaciones microbianas involucradas en el ciclo de 
+nutrientes y la disponibilidad de micronutrientes como el hierro se verían afectadas 
+negativamente. El segundo caso es la contaminación del suelo con metales pesados u otras 
+toxinas durante la aplicación de biocarbón. Para evitar este problema antes de su uso, 
+deberá existir un control de calidad sobre niveles de HAPs presentes en el biocarbón a 
+aplicarse y del contenido previo de metales pesados en las materias primas (biomasas). El 
+tercer caso es la inmovilización de nitrógeno debido a una alta proporción de carbono - 
+nitrógeno disponible en la enmienda de biocarbón. 
+ 
+El uso de biocarbón como aditivo para el compostaje, permite a través de propiedades 
+fisicoquímicas y microbiológicas una interacción más favorable comparado a su aplicación 
+individual, debido a la sinergia entre el conjunto de materia orgánica, nutrientes y biomasa 
+microbiana del compost y el biocarbón (Sánchez-Monedero et al., 2017). La adición 
+permitirá la activación del proceso de compostaje, dando un aumento en la actividad 
+microbiana, reduciendo el tiempo de compostaje y brindando estabilidad en los materiales, 
+incluso en dosis de 5 % peso seco (Sánchez-García et al., 2015). 
+ 
+Por otra parte, el saneamiento con Terra Preta (STP) es un nuevo sistema inspirado en  el  
+descubrimiento de suelos TP del Amazonas (Factura  et  al.,  2010) y utiliza el biocarbón 
+como materia prima. Los suelos TP han mantenido altas cantidades de carbono orgánico 
+incluso miles de años después de ser abandonados (Andreev et al., 2014), evidenciándose 
+en el rendimiento de los cultivos. Los antiguos amazónicos emplearon residuos carbonosos 
+para fertilizar sus tierras, incluyendo también orina y heces. Por lo que el STP es presentada 
+
+19 
+ 
+como una tecnología que utiliza fermentación de ácido láctico, biocarbón y procesos de 
+vermicompostaje para convertir las heces en un compost rico en  nutrientes  e  
+higiénicamente  seguro  que  se  puede  utilizar  en  la  fertilización  de  suelos en un 
+periodo más corto  (Factura  et  al.,  2010). 
+ 
+En Costa Rica, la aplicación de enmiendas orgánicas está respaldada por el reglamento 
+técnico: Rtcr 485:2016. Sustancias Químicas. Fertilizantes y Enmiendas para Uso Agrícola. 
+Tolerancias y Límites Permitidos para la Concentración de los Elementos y Contaminantes. 
+El reglamento tiene como fin establecer las tolerancias y los límites permitidos en la 
+concentración de los elementos, metales pesados e impurezas en los fertilizantes y en las 
+enmiendas tanto orgánicas como inorgánicas. Toma en consideración para los fertilizantes 
+y enmiendas para uso agrícola, la posibilidad de que pueden ser nocivos para la salud 
+humana, el ambiente, la sanidad vegetal y la competitividad del sector agrícola, por lo que 
+se requiere la fiscalización por medio del control de calidad.  
+ 
+3.2.1 Sostenibilidad y ambiente 
+En el año 2015 se llevó a cabo la conferencia denominada COP21 en París, para aprobar la 
+agenda de desarrollo sostenible a cumplir para el año 2030 y se sustituyen los objetivos del 
+milenio por 17 Objetivos de Desarrollo Sostenible (ODS), considerando el crecimiento 
+económico, inclusión social y protección ambiental (ONU, 2018).  De acuerdo con la ONU, 
+los objetivos planteados no siguen ningún orden prioritario y todos se encuentran 
+relacionados entre sí. Considerando el aspecto ambiental, se plantearon políticas con el fin 
+de reducir el impacto del sector agrícola en la generación de gases de efecto invernadero, ya 
+que el sector agrícola es responsable del 14 % de las emisiones (FAO, 2017). 
+ 
+Investigaciones sobre el uso del biocarbón en la agricultura podrían significar un aporte 
+importante para el cumplimiento de algunos ODS planteados, y son enunciados a 
+continuación: ODS 2: Poner fin al hambre, lograr la seguridad alimentaria, mejora de la 
+nutrición y promover la agricultura sostenible; ODS 12: Producción y consumo 
+responsables; ODS 13: Adoptar medidas para combatir el cambio climático y ODS 15: 
+
+20 
+ 
+Proteger y promover el uso sostenible de los ecosistemas terrestres, detener e invertir la 
+degradación de las tierras (ONU, 2018). 
+ 
+La mención del Objetivo de Desarrollo Sostenible sobre el cambio climático, es debida al 
+beneficio que aporta el biocarbón en los suelos ya que permite ser un sumidero importante 
+de CO2 (Lehmann et al., 2011). El suelo juega un papel importante por ser una fuente de 
+emisión de gases de efecto invernadero, ya que al agregar materia orgánica en el suelo se 
+degradará rápidamente generando emisiones a la atmósfera, no así, al agregar biocarbón 
+(Sohi et al., 2009), debido a la estructura recalcitrante que impide la fácil descomposición 
+microbiana (Lehmann et al., 2011). Diversas investigaciones indican que el biocarbón 
+puede ser beneficioso debido a la retención de gas es en el suelo, estabilizando la enmienda 
+ya que se mineraliza de forma lenta (Cely et al., 2014), lo que permite disminuir las 
+emisiones tras la adición del biocarbón a los suelos (Guerra, 2015). No obstante, tal efecto 
+está condicionado a los diversos procesos biológicos: actividad microbiana y nutrientes, en 
+donde el pH es otro factor importante a considerar en las emisiones de gases (Lehmann & 
+Joseph, 2009). Al incrementar el pH del suelo (como ejemplo, el efecto de encalado) el 
+proceso de desnitrificación libera menos N2O (Lehmann & Joseph, 2015), reduciendo con 
+esto los gases emitidos a la atmósfera. 
+  
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+21 
+ 
+4 
+MATERIALES Y MÉTODOS 
+A continuación, se muestran los procedimientos realizados para el desarrollo del presente 
+estudio, desarrollados en las facilidades del CEQIATEC y el Laboratorio de Suelos, 
+Escuela de Ingeniería Agrícola, Edificio de la carrera de Ingeniería Ambiental y la 
+preparación de las muestras en el CIPA, todos localizados en la sede central del Instituto 
+Tecnológico de Costa Rica.  
+ 
+Se realizaron ensayos físico-químicos para la caracterización y análisis de la calidad para 
+cada uno de los biocarbones producidos. Posteriormente se llevaron a cabo experimentos 
+para determinar la dosificación adecuada a partir de la mezcla con lodos sépticos tratados 
+(compost) 
+4.1 
+PRODUCCIÓN DE BIOCARBÓN 
+4.1.1 Preparación de la biomasa y biocarbón 
+Se escogieron dos tipos de biomasa, bambú guadua (Guadua angustifolia var. Sur) y 
+madera de construcción (pino). Ambas biomasas consideradas como opciones de residuos 
+que se pueden obtener fácilmente. 
+ 
+La biomasa fue limpiada y cortada en trozos, con medidas cercanas a los 15 cm x 8 cm, y 
+con un grosor de 0.7 cm y 2 cm para el bambú guadua y tabla de pino respectivamente, 
+luego se dejó secar al aire libre, ver Figura 4.1a. Posteriormente se colocó de manera 
+vertical con respecto a la base para permitir el ingreso ordenado de una pequeña cantidad 
+de aire, ver Figuras 4.1b y 4.1c. 
+
+22 
+ 
+  
+ 
+Figura 4.1 a) Bambú utilizado para la producción de biocarbón, b) Estructura interna de la Estufa 
+de Finca  y c) Madera colocada en la estufa ya preparada para la producción de biocarbón. 
+ 
+La producción de biocarbones a pequeña escala fue realizada con una Estufa Finca 
+SeaChar®, se le realizaron dos agujeros para colocar dos termocuplas tipo k a 
+diferentes alturas, una colocada en la parte superior (Termocupla 1, 18 cm de altura) y otra 
+en el centro de esta (Termocupla 2, 13 cm de altura), ver Figura 4.2b, y por medio de un 
+Arduino Uno Rev3 se registró la temperatura durante la carbonización. 
+ 
+Transcurrido el tiempo de producción, los biocarbones fueron trasladados a un recipiente de 
+metal con una termocupla colocada en el centro y tapada, ver Figura 4.2a, hasta que los 
+biocarbones alcanzaran temperaturas cercanas a los 30 °C.  
+ 
+ 
+Figura 4.2 a) Estufa de finca utilizada para la producción de biocarbón, modificada con dos 
+termocuplas y b) carbonizador. 
+
+23 
+ 
+ 
+El rendimiento en la producción de biocarbón se calculó considerando la masa del 
+biocarbón obtenido con respecto a la masa de la biomasa inicial, tal y como se muestra en 
+la Ecuación 1. 
+ 
+% 𝑑𝑒 𝑟𝑒𝑛𝑑𝑖𝑚𝑖𝑒𝑛𝑡𝑜=
+𝑚𝑎𝑠𝑎 𝑑𝑒𝑙 𝑏𝑖𝑜𝑐𝑎𝑟𝑏ó𝑛 𝑜𝑏𝑡𝑒𝑛𝑖𝑑𝑎(𝑔)
+𝑚𝑎𝑠𝑎 𝑑𝑒 𝑙𝑎 𝑏𝑖𝑜𝑚𝑎𝑠𝑎 𝑖𝑛𝑖𝑐𝑖𝑎𝑙(𝑔)                                                 [1] 
+4.2 
+ ANÁLISIS DEL BIOCARBÓN 
+Los biocarbones fueron triturados primeramente con mortero en un crisol, ver Figura 4.3, 
+para finalmente tamizarlos por una malla N° 10 (< 2 mm) marca VWR Scientific. 
+    
+ 
+Figura 4.3 a) Molienda y b) tamizado del biocarbón por malla N° 10 VWR Scientific 
+ 
+ 
+La caracterización físico-química de los biocarbones, se realizó de acuerdo a los 
+lineamientos para una producción sustentable de biocarbón, dados por el Certificado 
+Europeo de Biocarbón (EBC, 2016) y normas de la ASTM. Se llevaron a cabo en el 
+Instituto Tecnológico de Costa Rica en los laboratorios del centro de investigación 
+CEQIATEC. 
+ 
+
+24 
+ 
+4.2.1 Análisis físicos 
+Se realizó el análisis estadístico mediante medidas de tendencia central, el análisis de 
+varianza ANOVA de un factor, y analizar por medio de la prueba Tukey las medias, al 
+haber diferencias significativas entre los seis biocarbones y los métodos analizados. Se 
+utilizó el software estadístico Minitab® 17.2.1, a un 95 % de confianza.  
+4.2.1.1 Distribución del tamaño de partículas 
+Se pesó dos gramos de biocarbón y se utilizó cuatro tamices de (710, 500, 355 y 250 µm) 
+colocándose en este orden, el biocarbón fue agitado por aproximadamente tres minutos 
+manualmente. Se realizó por duplicado. Se utilizó el modelo matemático de Rosin- 
+Rammler (Rosin & Rammler, 1933) para el análisis de distribución de tamaño de 
+partículas. 
+ 
+4.2.1.2 Microscopía Electrónica de Barrido (MEB) 
+Las muestras de biocarbón fueron llevadas al Laboratorio Institucional de Microscopía 
+ubicado en la sede Central del Instituto Tecnológico de Costa Rica en donde se analizó una 
+muestra de biocarbón de guadua y otra de pino, obteniéndose micrografías por medio del 
+equipo TM 3000, Tabletop Microscope. 
+ 
+4.2.1.3 Hidrofobicidad 
+Siguiendo Bachmann et al. (2000), se utilizó la técnica de gota sésil. Las muestras fueron 
+tamizadas por la  malla  63 µm, posteriormente en un cubreobjetos de vidrio se colocó una 
+cinta adhesiva dobletape Scotch, se cubrió con biocarbón al dobletape y con un peso de 100 
+g se fijó el biocarbón por 5 segundos, el exceso no adherido en la superficie fue retirado 
+aplicando una ligera vibración.  
+Como se muestra en la Figura 2.4, para medir el ángulo de contacto, se colocó el biocarbon 
+tamizado sobre una placa de vidrio en un Goniómetro Ramé – Hart. Se programó el 
+software Drop Image version 2.5.02 para que cada 10 segundos se midiera el ángulo de 
+
+25 
+ 
+contacto entre la monocapa de biocarbón y la gota de agua destilada de 4 µl. Finalmente, se 
+utilizó el modelo de Subedi, (2005) para el análisis de hidrofobicidad. 
+ 
+Figura 4.4. Técnica de la gota sésil sobre una lámina de doble tape adhesivo impregnada con 
+biocarbón. 
+ 
+ 
+4.2.2 Análisis Químicos 
+4.2.2.1 Contenido de humedad, ogánicos volátiles, carbono fijado y cenizas  
+Se utilizó el equipo TA SDT Q600 para obtener los datos de la materia volátil, humedad, 
+carbón fijo y cenizas por medio de la norma ASTM E1131-08. Se utilizó una masa de 8-10 
+mg de biocarbón bajo un ambiente de nitrógeno con un flujo de masa de 50 mL/min, hasta 
+llegar a 110 °C por medio de una rampa de 50 °C/min, seguidamente de una isoterma de 5 
+min, para iniciar una rampa a 10 °C/min y finalizar a una temperatura de 600 °C. Se inició 
+por 15 min una isoterma, para cambiar el gas de Nitrógeno a Oxígeno manteniendo el flujo 
+de masa de 50 ml /min. Una última isoterma de 10 min fue utilizada para finalizar el 
+proceso con una rampa de 20 °C/min hasta llegar a 900 °C. Los datos fueron analizados en 
+el programa  Universal Analysis 2000, TA Instruments. Se utilizaron las Ecuaciones (3, 4, 5 
+y 6) dadas en la norma ASTM E1131-08. 
+ 
+
+26 
+ 
+% 𝑑𝑒 ℎ𝑢𝑚𝑒𝑑𝑎𝑑= 𝑊−𝑅
+𝑊
+ x 100 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ [3] 
+donde: 
+W: Masa inicial de biocarbón (mg) 
+R: Masa de biocarbón medida a una temperatura X (mg) 
+ 
+% 𝑉𝑜𝑙á𝑡𝑖𝑙𝑒𝑠= 𝑅−𝑆
+𝑊
+ x 100 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ [4] 
+donde: 
+W: Masa inicial de biocarbón (mg) 
+R: Masa de biocarbón medida a una temperatura X (mg) 
+S: Masa de biocarbón medida a una temperatura Y (mg) 
+ 
+ 
+% 𝐶𝑎𝑟𝑏𝑜𝑛𝑜 𝐹𝑖𝑗𝑎𝑑𝑜= 𝑆−𝑇
+𝑊
+ x 100 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  [5] 
+donde: 
+W: Masa inicial de biocarbón (mg) 
+S: Masa de biocarbón medida a una temperatura Y (mg) 
+T: Masa de biocarbón medida a una temperatura Z (mg) 
+ 
+ 
+ 
+% 𝐶𝑒𝑛𝑖𝑧𝑎𝑠= 𝑇
+𝑊 x 100 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+[6] 
+donde: 
+W: Masa inicial de biocarbón (mg) 
+T: Masa de biocarbón medida a una temperatura Z (mg) 
+ 
+
+27 
+ 
+4.2.2.2 Análisis Elemental  
+El análisis de CNHS se efectuó con un Autoanalizador elemental 2400 Series II, por el 
+método de combustión seca. El contenido de oxígeno se obtuvo a partir de la diferencia 
+(con base a 100 como contenido total) de los elementos analizados de acuerdo con lo 
+realizado en otros estudios (Cely et al., 2015; Mahmood et al., 2015; Veiga et al., 2017).  
+ 
+4.2.2.3 Capacidad Intercambio Catiónico y Aniónico 
+Se pesó medio gramo de biocarbón en la balanza analítica marca Precisa, se agregó 50 ml 
+de KCl 1 M. Se colocó en el agitador orbital  marca Hotech Instruments Corp. 702R 
+durante  1  hora  a una velocidad de (20 ± 1) rpm  y una temperatura de (20.00 ± 0.25) °C, 
+concluída la hora se eliminó la disolución mediante una filtración al vacío. El biocarbón fue 
+devuelto al frasco por medio de la disolución de KCl 0.01 M, se colocó de nuevo en el 
+orbital, bajo las mismas condiciones. Se procedió a realizar otro lavado con KCl 0.01 M y 
+se trasladó todo el biocarbón a un crisol Gooch. Se midió la masa de dos crisoles Gooch y 
+filtro número 393 marca Sartorius Stedim. Posteriormente se realizaron tres enjuagues con 
+agua destilada utilizando piseta, y se midió la masa exacta del conjunto: crisol, papel filtro 
+100 mm y biocarbón. Con una disoliciónde NaNO3 0.5 M en piseta, se trasladó todo el 
+biocarbón en un frasco previamente pesado, evitando pérdidas. Finalmente, se midió la 
+masa exacta del crisol seco con el filtro y la disolución fue agitada durante 1 hora con 
+agitador orbital. En un Kitasato seco, se realizó la útlima filtración utilizando el mismo 
+filtro empleado en los lavados. Los datos finales del método correspondieron a 
+miliequivalentes de K+ y Cl- por cada 100 gramos de biocarbon para la determinación de 
+capacidad de intercambio cationico y anionico respectivamente. 
+ 
+4.2.2.4 pH  utilizando tres disoluciones (CaCl2 0.01 M, H2O y KCl 1 M) 
+Por duplicado se midieron dos gramos de biocarbón en  una  balanza  granataria  Precisa  
+2200, utilizando  frascos  plásticos  de  50  ml. Se  agregaron 20 ml de la  disolución 
+extractora (CaCl2 0.01 M/ H2O destilada / KCl 1M) y se  agitó  por  1  hora  a  (30 ± 1) 
+
+28 
+ 
+rpm, a una temperatura de (25.00 ± 0.25) °C con el agitador orbital marca Hotech 
+Instruments Corp. 702R. La suspensión obtenida se midió  directamente  con  un  medidor  
+de  pH marca Orion 2 Star. 
+Nota aclaratoria: El procedimiento para la determinación de pH en las muestras es el 
+mismo, excepto por la disolución extractora empleada 
+ 
+4.2.2.5 Capacidad encalante del biocarbón 
+Por duplicado se pesó un gramo de biocarbón en la balanza granataria Precisa 2200, 
+posteriormente se agregó 50 ml de HCl 0.5 M en beakers  de 100 ml, se hirvieron durante 5 
+minutos en una plantilla marca IKA C-MAG HS 7. La mezcla se dejó enfriar y se filtró   
+con papel número 393 (100 mm) marca Sartorius Stedim. Se tomó 10 ml del filtrado para 
+valorar el HCl remanente con NaOH 0.2576 M (previamente estandarizado con ftalato 
+ácido de potasio) y se utilizó fenolftaleína al 0.05 % como indicador. Por lo que el cálculo 
+del valor de neutralización del biocarbón a partir del método según Briceño & Pacheco 
+(1984), se presenta en la Ecuación 7. 
+ 
+% 𝐶𝑎𝐶𝑂3 = (𝑚𝐿 𝐻𝐶𝑙 x 𝑚𝑜𝑙 𝐿−1 𝐻𝐶𝑙−𝑚𝐿 𝑁𝑎𝑂𝐻  x  𝑚𝑜𝑙 𝐿−1𝑁𝑎𝑂𝐻) x 0.050 x 100
+𝑃. 𝑀  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+[7] 
+ 
+4.2.2.6 Conductividad eléctrica 
+La prueba se realizó por duplicado, por lo tanto se prepararon doce envases plásticos de 50 
+ml, y se agregaron tres gramos de biocarbón en 30ml de agua desionizada, luego fueron 
+colocados en un agitador orbital marca Hotech Instruments Corp. 702R durante 1 hora  a  
+30  ± 1 rpm y 25 ± 0.25 °C. Posteriormente  se  filtró  la  mezcla  con  papel  número  393  
+(100 mm)  marca Sartorius Stedim  y  se  tomó  la  medición  en  el  filtrado  con  un  
+conductímetro  HANNA  INSTRUMENTS,  el  resultado  se  reportó  en µS/cm.  
+ 
+
+29 
+ 
+4.2.3 Análisis de contaminantes en biocarbón 
+4.2.3.1 Traza de metales pesados 
+Se pesó 0.25 g de biocarbón en cada uno de los frascos de reacción del microondas, luego 
+se añadió 7 ml de HNO3 65 % Merck KgaA y 1 ml de H2O2 al 50 % CAS 7722-84-1. El 
+recipiente de reacción se selló y se colocó en el microondas.  
+ 
+Flujo de programa de la digestión de la presión de microondas: un primer paso de 10 min a 
+una temperatura de 220 °C, posteriormente una isoterma de 20 min a una temperatura de 
+220 °C, y terminando el proceso con 3 min a 100 °C. Todo esto a un 63 %  de operación. 
+ 
+Las muestras finalmente fueron filtradas con papel filtro 393 (100 mm) marca Sartorius 
+Stedim, y aforadas en un balón de 50 ml, posteriormente las muestras fueron analizadas en 
+el equipo de absorción atómica marca Perkin Elmer modelo AAnalyst 800. 
+ 
+4.3 
+DOSIFICACIÓN DE BIOCARBÓN: DISEÑO EXPERIMENTAL 
+El diseño experimental presentado en este estudio fue completamente al azar con arreglo 
+factorial. Los factores involucrados fueron dos (bifactorial), denominados como F1 y F2, 
+correspondientes al biocarbón y a la dosificación. Por lo que, F1 presentó seis niveles 
+(asignándose tres niveles para el biocarbón de bambú BA, BB, BC y tres para el de madera 
+de pino MA, MB y MC), por otra parte, F2 presentó dos niveles (dosis de 5 % y 10 %). Se 
+realizaron 4 réplicas, dando como resultado un total de 48 muestras (N = 48). La variable 
+de respuesta fue la ganancia en agua útil para cada una de las mezclas con biosólidos: el 
+biocarbón con respecto al biosólido sin dosis  de biocarbón (entiéndase biosólido séptico 
+como la materia prima para la producción de TP). 
+ 
+Por lo que a partir del diseño experimental, se procedió a tomar 40 gramos de compost y se 
+dosificó con 5 % (0.5:10) y 10 % (1:10) para cada uno de los niveles de F1. Cada una de las 
+mezclas fue agregada individualmente a vasos plásticos con un filtro de cigarro para 
+finalmente ser colocados en un recipiente con agua a un nivel que tuviera contacto con los 
+
+30 
+ 
+filtros y sobre un cartón con el fin de sostener los vasos, ver en Figura 4.5. Se dejaron en 
+saturación por un mes.    
+ 
+El compost que se utilizó fue obtenido de la mezcla de biosólidos sépticos mezclados con 
+pergamino de café, colectados en el periodo 2015-2016 (procedentes de baños secos de una 
+la finca de café ubicada en León Cortés), luego de un periodo de maduración de 12 meses. 
+Dado compost es materia prima dentro del esquema de producción de STP en un proyecto 
+de investigación del TEC.  
+ 
+ 
+ 
+      
+ 
+ 
+Figura 4.5 Muestras de compost con biocarbón en saturación, de acuerdo a las dos dosis 5 y 10 % 
+de biocarbón junto con el control de compost. 
+ 
+ 
+Se realizó el análisis estadístico por medio del el análisis de la varianza (ANOVA) de un 
+factor y la prueba Tukey, este último debido a que las diferencias obtenidas entre las dosis 
+eran significativamente diferentes, datos analizados por medio de Minitab® 17.2.1, a un 95 
+% de confianza. 
+ 
+
+31 
+ 
+4.3.1 Determinación de agua disponible 
+Para determinar el agua útil, el contenido gravimétrico de agua se estableció por medio de 
+la diferencia de dos potenciales pF 2 y pF 4.2, ver ecuación 8.  Para el pF de 4.2, se pesó en 
+una balanza analítica aproximadamente dos gramos de mezcla de compost con biocarbón, 
+utilizando dosis 5 % y 10 %, sobre cápsulas de acero. Se les añadió una masa de agua 
+conocida, se cubrieron con una tapa plástica y se dejó equilibrar durante 16 horas a 
+temperatura ambiente.  
+ 
+𝐴𝑔𝑢𝑎 ú𝑡𝑖𝑙= 𝑎𝑔𝑢𝑎 𝑑𝑒 𝑝𝐹 2 −𝑎𝑔𝑢𝑎 𝑑𝑒 𝑝𝐹 4.2 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  [8] 
+ 
+donde: 
+pF = log |-cm H2O| 
+ 
+El pF 2, también denominado como capacidad de campo, hace referencia a la cantidad 
+máxima de agua capilar retenida por el suelo, en este caso por la mezcla utilizada, por otra 
+parte el pF a 4.2 permite indicar el punto de marchitez permanente y marca el límite del 
+agua absorbible por las plantas (Cujó, 1985).  
+ 
+Por medio de un potenciómetro WP4C (Dewpoint Potentiameter Decagon) se determinó el 
+potencial de agua resultante para cada una de las muestras. Finalmente se colocaron las 
+muestras a 105 °C por 24 horas, luego las muestras fueron equilibradas a temperatura 
+ambiente en un desecador y pesadas en balanza analítica hasta alcanzar peso constante.  
+ 
+En anillos de acero se colocó por duplicado un aproximado de dos gramos de mezcla con 
+biocarbón por cada dosis y de igual manera para el control. Se dejó saturar las muestras por 
+30 minutos y se colocaron en la caja de arena sintética (53-74 µm) marca Eijkelkamp, por 6 
+días para desaturar las muestras hasta un potencial de pF 2. Posteriormente el contenido de 
+agua se determinó por diferencia de masa al calentar las muestras a 105 °C por 48 horas 
+hasta lograr el peso constante.  
+ 
+
+32 
+ 
+Finalmente, el criterio utilizado para la elección de la dosis óptima de biocarbón, fue a 
+partir de las muestras que presentaron una mayor retención de agua disponible (g agua/g 
+biocarbón) según el tipo de biocarbón. 
+ 
+4.4 
+CRITERIOS DE SUSTENTABILIDAD 
+A partir de los dos tipos de biomasa empleados en este estudio, se analizaron factores 
+sociales, ambientales y económicos para posteriormente analizar la viabilidad de la 
+producción y aplicación del biocarbón en suelos destinados a cultivos agrícolas.  
+ 
+Además, se comparó la producción de biocarbón a partir de la estufa de finca contra un 
+carbonizador propuesto, con el fin de lograr un mejor rendimiento en la producción y a la 
+vez reducir gastos de inversión y tiempo invertido por los trabajadores. 
+ 
+4.4.1 Proyección de cantidad de biomasa y biocarbón 
+A partir de la eficiencia del carbonizador propuesto, se estimó la cantidad de biomasa 
+necesaria para la producción de biocarbón y su posterior aplicación como mejorador de 
+suelos. Se planteó un terreno de cultivo de 50 m x 50 m de extensión, para calcular la masa 
+de suelo a la cual se le añadirá la enmienda; además, se tomó en consideración una 
+densidad aparente del suelo de 1400 kg/m3 y una profundidad de 20 cm. El cálculo 
+mencionado se obtuvo a partir de la ecuación 9. 
+ 
+𝑚𝑎𝑠𝑎 𝑑𝑒𝑙 𝑏𝑖𝑜𝑐𝑎𝑟𝑏ó𝑛 𝑝𝑟𝑜𝑝𝑢𝑒𝑠𝑡𝑜 (𝑔)
+𝑚𝑎𝑠𝑎 𝑑𝑒𝑙 𝑠𝑢𝑒𝑙𝑜 (𝑔)
+ x  𝑚𝑎𝑠𝑎 𝑑𝑒𝑙 𝑠𝑢𝑒𝑙𝑜 𝑎𝑝𝑟𝑜𝑣𝑒𝑐ℎ𝑎𝑏𝑙𝑒 (𝑔)  
+[9]  
+ 
+ 
+ 
+ 
+ 
+ 
+
+33 
+ 
+ 
+ 
+ 
+ 
+5 
+RESULTADOS Y DISCUSIÓN 
+5.1 
+CALIDAD DE LOS BIOCARBONES 
+A continuación se muestran los resultados obtenidos en las pruebas físico-químicas 
+realizadas: 
+5.1.1 Temperatura durante la producción del biocarbón  
+Las temperaturas obtenidas para cada una de las carbonizaciones, a partir de las dos 
+termocuplas empleadas, presentan diferencias significativas entre las medias de la 
+termocupla 2 a un 95 % de confianza (p < 0.05). Se realizaron tres carbonizaciones por 
+cada biomasa estudiada, por lo que en el presente estudio se hará referencia a las 
+carbonizaciones de bambú como BA, BB y BC y para madera MA, MB y MC, siendo las 
+letras A, B y C el orden de las carbonizaciones realizadas por triplicado. 
+ 
+Las temperaturas generadas se muestran en el Cuadro 5.1, las diferencias obtenidas están 
+relacionadas con la biomasa, debido a que las condiciones de carbonización se mantuvieron 
+para todas las réplicas. Las temperaturas presentan una constancia entre el mismo tipo de 
+biomasa en las temperaturas promedio de ambas termocuplas, siendo más bajas en los 
+biocarbones de bambú 484, 486 y 495 °C para BA, BB y BC respectivamente. Los 
+biocarbones de madera obtienen valores más altos, logrando una temperatura máxima 
+registrada en la termocupla 2 de 854 °C para MC. En la producción de biocarbones es usual 
+aplicar temperaturas entre 300 – 700 °C sin importar el tipo de biomasa (Huff, Kumar, & 
+Lee, 2014; Ronsse, Hecke, Dickinson, & Prins, 2013), no obstante, también se ha obtenido 
+en el uso de la Estufa de Finca temperaturas entre los 200 y 600 °C, de acuerdo al tipo de 
+biomasa (Acosta, 2014).  
+ 
+ 
+
+34 
+ 
+ 
+ 
+ 
+ 
+Cuadro 5.1. Comportamiento de temperaturas en la carbonización de bambú (BA, BB Y BC) y 
+madera (MA, MB Y MC) a dos niveles de altura Termoculpa 1 (18 cm) y Termocupla 2 (13 cm). 
+ 
+ 
+Termocupla 1  
+Termocupla 2 
+ 
+Biocarbón 
+Promedio  
+Máxima  
+Promedio   
+( °C ) 
+Máxima 
+ 
+Promedio final  
+| 
+412 
+775 
+557 
+790 
+484 
+BB 
+439 
+744 
+533 
+752 
+486 
+BC 
+472 
+726 
+519 
+756 
+495 
+MA 
+553 
+683 
+558 
+685 
+555 
+MB 
+549 
+767 
+546 
+724 
+547 
+MC 
+547 
+717 
+654 
+854 
+600 
+ 
+5.1.2 Distribución del tamaño de partículas 
+El tamaño de partículas para ambos tipos de biocarbón se muestra en la Figura 5.1, 
+obteniendo las curvas de distribución a partir del modelo de Rosin- Rammler (Rosin & 
+Rammler, 1933), que permite evaluar la distribución de tamaño de partículas y porcentaje 
+de material retenido (Cerná, 2016). Los tamaños de partículas (d) se reportan en µm 
+correspondientes a 10, 50 y 60 % de masa de tamaño inferior acumulada como D10, D50 
+(diámetro medio) y D60, respectivamente, en el Cuadro 5.2.  
+ 
+
+35 
+ 
+ 
+Figura 5.1 Distribución del tamaño de partículas para los biocarbones de madera (a) y bambú 
+(b), a partir del modelo matemático Rosin-Rammler. 
+ 
+ 
+El comportamiento de las curvas son similares para ambos biocarbones, a pesar de que el 
+tamaño está influenciado principalmente por la biomasa y la temperatura (Kim, Kim, Cho, 
+& Choi, 2012). No obstante, por medio del D50 se obtiene que los biocarbones de bambú 
+presentan un tamaño de partícula mayor al de madera, afirmando el resultado físico-visual 
+de las muestras obtenidas luego del tamizaje con la malla N° 10 (< 2 mm). El coeficiente de 
+uniformidad (Cu = D60 / D10) de ambos biocarbones fueron mayores a cuatro. Por lo tanto, 
+los tamaños de partícula no se distribuyeron uniformemente (poco uniformes). 
+ 
+ 
+Cuadro 5.2. Granulometría de los biocarbones. 
+ 
+Biocarbón 
+D60  
+D50  
+D10  
+Cu 
+BA 
+619.2 
+479.1 
+84.8 
+7.3 
+BB 
+591.1 
+491.1 
+84.8 
+7.0 
+BC 
+486.1 
+397.3 
+101.7 
+4.8 
+MA 
+423.6 
+309.7 
+37.4 
+11.3 
+MB 
+429.5 
+343.2 
+75.6 
+5.7 
+MC 
+464.3 
+458.8 
+113.5 
+4.1 
+ 
+ 
+
+36 
+ 
+5.1.3 Microscopía Electrónica de Barrido (MEB) 
+En la Figura 5.2, se ilustran los biocarbones BB y MA, donde se visualiza las diferencias en 
+la morfología entre ambas muestras. Se seleccionaron dos biocarbones al azar, ya que la 
+variación estructural entre el mismo tipo de biomasa no es considerable, debido a la 
+similitud en las condiciones de carbonización. En general, las muestras para ambos 
+biocarbones no revelaron una forma definida y presentaron pequeños trozos provenientes 
+de restos de células vecinas, por causa de la molienda.  
+ 
+Con respecto a la porosidad, en ambos biocarbones no se observan microporos en la 
+superficie ni en la parte interna del biocarbón. El biocarbón de bambú presenta espacios 
+longitudinales entre células más ordenados y con tamaños similares, visualizándose de una 
+manera más compacta y rígida, el mismo efecto se vio reflejado en un estudio de bambú 
+realizado por Hernandez-Mena, Pécora, & Beraldo (2014), con respecto al biocarbón de 
+madera, a diferencia del bambú presenta espacios intercelulares no rectos y de diferentes 
+tamaños. Los poros grandes, aproximadamente de a 20 a 40 µm, pueden ser resultado de la 
+liberación de gases generados en el proceso de carbonización (Hernandez-Mena et al., 
+2014). Además, se puede observar en la Figura 5.2d, una textura áspera o rugosa en la 
+superficie, posiblemente debido a que la lignina experimentó una degradación parcial 
+(Fuertes et al., 2010). 
+ 
+
+37 
+ 
+ 
+Figura 5.2 Micrografías MEB para ambos los biocarbones de bambú (a y b) y madera (c y d), con 
+acercamientos de 1000x, 800x y 500x. 
+ 
+5.1.4 Hidrofobicidad  
+Por medio del método de la gota Sésil se determinó que inicialmente los biocarbones son 
+hidrófobos para los biocarbones de madera, demostrado en la Figura 5.3 donde fue aplicado 
+el modelo que plantea Subedi, (2005), para ambos tipos de biocarbón. Después de 3 
+minutos, los biocarbones alcanzan el rango de hidrofobicidad subcrítica, es decir, que 
+reducen su hidrofobidad, siendo el valor crítico 90° (Yi, Witt, Chiu, Guo, & Imhoff, 2015). 
+La reducción de los ángulos y por consecuente el tamaño de la gota de agua, fueron 
+reduciéndose de manera gradual, hasta ser absorbido por las partículas del biocarbón, un 
+caso similar se obtuvo en el estudio realizado por Nowak, Combes, Stitt, & Pacek, (2013).  
+ 
+
+38 
+ 
+En la carbonización, los biocarbones de madera presentan mayores temperaturas que las de 
+bambú, tal y como fue mostrado en el Cuadro 5.1, dada condición implica una disminución 
+en el contenido de oxígeno y un aumento en el carbono (Schimmelpfennig & Glaser, 2012), 
+siendo un motivo de la hidrofobicidad inicial, de manera similar se demuestra en el estudio 
+de Smetanová, Dotterweich, Diehl, Ulrich, & Fohrer, (2012). No obstante, el 
+comportamiento obtenido no es universal, debido a que algunos autores señalan que a 
+temperaturas de producción cercanas a 400 °C, se presenta un comportamiento hidrófobo 
+pero reduce su condición cuando la temperatura aumenta a 600 °C (Gray, Johnson, Dragila 
+& Kleber, 2014; Yi et al., 2015). La causa del cambio de condición, de acuerdo con Gray et 
+al. (2014) y Lin et al. (2012), se asocia a los poros revestidos por grupos funcionales que no 
+fueron eliminados durante la combustión, impidiendo la filtración del agua al generar 
+fuerzas capilares negativas, pero conforme avanza el tiempo los poros van permitiendo el 
+paso del agua debido a que el revestimiento es degradable con el agua.  
+
+39 
+ 
+ 
+Figura 5.3. Resultados obtenidos en la hidrofobicidad por medio del método de la gota Sésil para 
+los biocarbones de madera y bambú, a y b respectivamente 
+ 
+ 
+5.1.5 Análisis próximo y elemental 
+Los resultados de la composición próxima (contenido de humedad, volátiles, carbón fijado 
+y cenizas) y elemental (carbono, nitrógeno, hidrógeno, oxígeno y azufre) se pueden 
+observar en el Cuadro 5.3 y Cuadro 5.4, respectivamente. Con respecto a los resultados de 
+las curvas termogravimétricas, en la Figura 5.4a se muestra la pérdida de masa de acuerdo a 
+la temperatura, resumida posteriormente para cada uno de los biocarbones en el Cuadro 5.3. 
+
+40 
+ 
+Los resultados obtenidos en el análisis próximo para ambos biocarbones, no representan 
+diferencias significativas entre cada uno de los análisis a un 95% de confianza (p > 0.05), 
+excepto para el contenido de cenizas. 
+ 
+Los valores de humedad para los biocarbones de madera son menores, con un mínimo para 
+MC de 6.28 %, la variedad porcentual se atribuye a la temperatura promedio expuesta de 
+600 °C, conforme aumenta la temperatura es usual que el contenido porcentual de humedad 
+disminuya (Lin et al., 2012; Scurlock, Dayton, & Hames, 2008). Con lo que respecta al 
+contenido de volátiles, se obtiene similitud en los resultados para ambos biocarbones, su 
+contenido es alto con valores de hasta 55 %, comparado a lo citado en otros estudios que 
+emplean la misma biomasa y rangos de temperatura empleados en este estudio que obtienen 
+valores cercanos a 20% a 500 °C, reduciéndose conforme aumenta la temperatura (Chen, 
+Liu, Zhang, Chen, & Li, 2015; X. Liu & Li, 2014; Ronsse et al., 2013). 
+ 
+El contenido porcentual del carbono fijado no sigue un patrón con respecto a la 
+temperaturas expuestas como es usual en otras investigaciones (Lin, Munroe, Joseph, 
+Henderson, & Ziolkowski, 2012; Yargicoglu, Yamini, Reddy, & Spokas, 2015). En 
+general, los biocarbones de madera presentan los valores más altos: 29.9 %, 55.6% y 31.5% 
+para MA, MB y MC respectivamente. Cabe a destacar que el carbono fijado es un 
+parámetro importante que determina la calidad del biocarbón, siendo favorables los valores 
+altos, ya que brinda estabilidad a la enmienda (Pardavé, Delvasto & Sánchez, 2017). 
+ 
+El contenido de cenizas en bambú presenta los valores más altos: 11.1 %, 28.2 % y 33.7% 
+para BA, BB y BC respectivamente, no obstante, el valor de BA varía significativamente a 
+un 95 % de confianza, siendo un valor cercano a los obtenidos en el biocarbón de madera: 
+8.4 %, 10.2 % y 10.3 % para MA, MB y MC respectivamente. En estudios realizados por 
+Lu et al. (2017) y Ye et al. (2015), muestran coincidencia en el resultado de cenizas para 
+bambú. Es usual encontrar en estudios de madera y bambú bajos contenidos de ceniza, 
+cercanos a 2 % (Scurlock et al., 2008; Shen, Zhu, Liu, Zhang, & Tan, 2010). No se presenta 
+un patrón a seguir con respecto a la temperatura y los contenidos de ceniza, como se puede 
+observar en estudios de Dume, Berecha, & Tulu, (2015) y Chen et al. (2015). 
+
+41 
+ 
+ 
+Cuadro 5.3. Resultados correspondientes al análisis de próximo ( % m/m) para cada uno de los 
+biocarbones de bambú (BA; BB, BC) y madera (MA, MB,MC). 
+ 
+Biocarbón 
+  Humedad 
+ 
+  Materia Volátil   
+Carbón Fijado  
+      Ceniza  
+BA 
+10.5 
+55.1 
+23.2 
+11.1 
+BB 
+9.2 
+34.2 
+27.3 
+28.2 
+BC 
+7.5 
+42.9 
+16.2 
+33.7 
+MA 
+7.1 
+55.0 
+29.9 
+8.4 
+MB 
+7.2 
+26.9 
+55.6 
+10.2 
+MC 
+6.3 
+51.9 
+31.5 
+10.3 
+ 
+
+42 
+ 
+ 
+Figura 5.4 Comportamiento de las curvas termogravimétricas para biocarbones de bambú BA, 
+BB y BC (a,b y c) y madera MA, MB y MC (d, e y f), ante un aumento de temperatura. 
+ 
+ 
+ 
+
+43 
+ 
+ 
+Con respecto al análisis elemental, el carbón presente en ambos tipos de biocarbón son 
+superiores al 50 % y no varía significativamente a un 95% de confianza (p < 0.05) entre las 
+medias de cada tipo de biocarbón, siendo el biocarbón de madera el que presenta los 
+valores más altos 76.14 %, 76.24 % y 78.36 % para MA, MB y MC, respectivamente. EBC 
+(2012), establece como parámetro a un biocarbón de calidad cuando contiene ≥ 50 % de 
+carbón, ya que un contenido menor cae en la clasificación de carbón mineral, por lo que 
+ambos biocarbones cumplen lo establecido. Es usual obtener un mayor contenido de 
+carbono a temperaturas más altas, es decir los biocarbones de madera cumplen con el 
+comportamiento esperado y los estudios presentados por Hu et al. (2016) y Ye et al. (2015), 
+afirman lo señalado.  
+ 
+El contenido de nitrógeno no varía significativamente entre ambos biocarbones a un 95 % 
+de confianza (p > 0.05), y los valores que presentan los biocarbones de madera son menores 
+y contienen 0.22 %, 0.23 % y 0.19 % para MA, MB y MC respectivamente. Existe una 
+relación con las temperaturas expuestas, de acuerdo con Aller, (2016), temperaturas entre 
+500 °C y 600 °C producen cambios en la estructura química, donde la superficie es 
+recalcitrante reduciendo con esto el contenido de nitrógeno en el biocarbón. Es usual 
+encontrar en la literatura valores menores a 1 % en el contenido de nitrógeno en diferentes 
+tipos de biomasa, coincidiendo con los valores (Huff et al., 2014; Mohanty et al., 2013; 
+Scurlock et al., 2008). 
+ 
+Cuadro 5.4. Análisis elemental (% m/m) de los biocarbones de bambú BA, BB, BC y madera MA, 
+MB y MC. 
+ 
+Biocarbón 
+C  
+N  
+ 
+H 
+O* 
+S 
+C/N 
+H/C 
+O/C 
+BA 
+68.3 
+0.4 
+2.1 
+29.1 
+0.13 
+162 
+0.03 
+0.42 
+BB 
+62.7 
+0.4 
+2.2 
+34.6 
+0.21 
+174 
+0.04 
+0.55 
+BC 
+60.8 
+0.4 
+2.0 
+36.6 
+0.13 
+135 
+0.03 
+0.60 
+MA 
+76.1 
+0.2 
+2.2 
+21.3 
+0.13 
+346 
+0.02 
+0.28 
+MB 
+76.2 
+0.2 
+2.3 
+21.1 
+0.14 
+331 
+0.03 
+0.28 
+
+44 
+ 
+MC 
+78.4 
+0.2 
+2.6 
+18.7 
+0.12 
+412 
+0.03 
+0.24 
+*Obtenido a partir de la diferencia de los elementos analizados  
+  
+Los resultados obtenidos para C / N son mayores para los biocarbones de madera 346.09, 
+331.48 y 412.42 para MA, MB y MC respectivamente, siendo un resultado esperado por las 
+temperaturas expuestas, 600 °C, tal y como lo señala Gul et al. (2015). No obstante, C / N 
+puede variar considerablemente debido a la materia prima y las condiciones de la 
+carbonización (Kookana et al., 2011). En la Figura 5.6 se puede observar la relación entre 
+la temperatura y los valores de C / N donde afirma lo indicado anteriormente, los resultados 
+más bajos corresponden al biocarbón de bambú siendo la temperatura un parámetro que 
+influye en los resultados de C / N, ya que conforme aumenta la temperatura la relación C / 
+N será mayor y viceversa, estadísticamente los resultados entre ambos biocarbones son 
+significativamente diferentes (P < 0.05). 
+ 
+ 
+Figura 5.5. Relación entre la temperatura vs la relación C / N de los biocarbones de bambú y de 
+madera.  
+ 
+
+45 
+ 
+El biocarbón puede presentar valores elevados en la relación C / N, por ejemplo Escalante 
+et al. (2016), reportan valores de 245 en cáscara de nuez. A pesar de que la relación C / N 
+es utilizada como un indicador de la liberación de nitrógeno inorgánico en suelos, una alta 
+relación causaría la deficiencia de nitrógeno en las plantas (Moreno et al., 2014).  El límite 
+que se ha fijado para dada relación y evitar lo indicado, se encuentra entre 25 y 30, de 
+acuerdo a lo citado por el mismo autor. Sin embargo, el efecto de la relación C / N no 
+siempre se cumple al utilizar el biocarbón como enmienda, ya que está formado por 
+carbono recalcitrante y no es fácilmente mineralizable, por lo que dada relación será 
+despreciable (Chan & Xu, 2009; Kimetu et al., 2008). 
+  
+ 
+Figura 5.6 Composición elemental entre las relaciones de O/C y H/C para los biocarbones de 
+madera y bambú. 
+  
+Las relaciones elementales de biocarbón estudiadas (O / C y H / C) se pueden resumir en el 
+gráfico van Krevelen como una representación del origen de los materiales de los 
+biocarbones y posible estabilidad de los biocarbones (Fryda & Visser, 2015), ver Figura 
+5.6. Ya que por ejemplo en el estudio de Spokas et al. (2011), señalan que los biocarbones 
+con una relación O / C entre 0.2 y 0.6 tienen una vida media larga entre 100–1000 años.  En 
+
+46 
+ 
+la misma figura, también se muestran relaciones elementales de otros estudios a 
+temperaturas entre 350 °C y 550 °C para biocarbones de pino (Crombie et al. 2014; 
+Dominguez et al., 2017) y bambú (Du, Chen & Lucas, 2014; Chen et al., 2015), con el fin 
+de comparar el comportamiento con los resultados obtenidos en el presente estudio, sin 
+embargo, solamente los biocarbones de madera de pino muestran una tendencia similar. De 
+acuerdo con la certificación IBI, los biocarbones deben cumplir con los límites de H / C < 
+0.6 y O / C < 0.4 para cumplir con la calidad, no obstante, los biocarbones de bambú BA, 
+BB y BC superan los límites para O / C al obtener 0.42, 0.55 y 0.60 respectivamente. Dado 
+comportamiento se atribuye al hecho de que los minerales de ceniza alteran su composición 
+a través de la fusión durante la carbonización (Xiao et al., 2014). Las relaciones que se 
+comparan en la Figura 5.7 disminuyen al aumentar la temperatura de carbonización, 
+especialmente en la relación O / C, un efecto similar a partir del biocarbón de pino se 
+obtuvo en el estudio de Crombie et al. (2013), y es posible que se deba a la deshidratación 
+(Al-Wabel et al., 2013). Por otra parte la relación H / C no presenta un cambio significativo 
+a considerar entre los resultados de los biocarbones. 
+ 
+Los biocarbones que presentan mayores relaciones de H / C y O / C, suelen ser más 
+interactivos con los compuestos polares (Suguihiro et al., 2013), es decir los biocarbones de 
+bambú, dado resultado es respaldado por los análisis de hidrofobicidad los cuales coinciden 
+con lo analizado. El estudio de Novak et al. (2009), presenta una similitud con respecto al 
+comportamiento de los resultados, donde a menores temperaturas los biocarbones fueron 
+más polares cumpliendo a la vez lo indicado sobre las relaciones de H / C y O / C. 
+ 
+5.1.6 Capacidad de intercambio catiónico y aniónico (CIC y CIA) 
+Los resultados de CIC y CIA se muestran en la Figura 5.6, junto con el error a partir de la 
+desviación estándar, por otra parte, las letras ubicadas en la parte superior de cada columna 
+de CIC indican que son estadísticamente diferentes cuando estas no presentan una letra en 
+común (p < 0.05).  
+ 
+
+47 
+ 
+El biocarbón de bambú presenta resultados favorables de 19,97; 8,99 y 15,40 cmolc/kg para 
+BA, BB y BC respectivamente, correspondientes al CIC. Existe una relación con la 
+temperatura de carbonización, en el biocarbón de bambú las temperaturas fueron menores 
+tal y como se mostró en el Cuadro 5.1, por lo tanto las concentraciones de CIC aumentaron. 
+Diversos estudios comprueban que los resultados de CIC presentan una relación con las 
+temperaturas de carbonización en diversos tipos de biomasa (Harvey, Herbert, Rhue, & 
+Kuo, 2011; Jiang, Denef, Stewart, & Cotrufo, 2016; Rajkovich, Enders, Hanley, Hyland, & 
+Zimmerman, 2012). Otras posibles variables que interfieren en los valores de CIC son el 
+pH, grupos funcionales superficiales y contenido de metales (Fuertes et al., 2010; Kookana 
+et al., 2011; Lee et al., 2010). 
+  
+Un dato importante a destacar, es que una vez incorporado el biocarbón al suelo, estudios 
+demuestran que la CIC tiende a aumentar gradualmente con el tiempo, debido a la 
+oxidación que se da en la superficie del biocarbón (Verheijen et al., 2010).   
+ 
+Con lo que respecta a CIA, el análisis estadístico no refleja diferencias significativas a un 
+95% de confianza, entre los biocarbones de madera y bambú, siendo los resultados 
+inferiores a 4.6 cmol/kg. De acuerdo con Lawrinenko & Laird (2015), la CIA tiene una 
+relación con el pH de los biocarbones, debido a que se da una disminución de la 
+competencia de los iones hidróxido por los sitios de intercambio aniónico. Si se presentan 
+sitios de intercambio de aniones estables en las superficies de los biocarbones, cuando se 
+aplica como enmienda, pueden reducir las pérdidas de lixiviación de nitrato y fosfato en 
+contraste con los suelos que no contienen biocarbón (Lee et al., 2010).  
+ 
+ 
+
+48 
+ 
+ 
+Figura 5.7. Resultados obtenidos en la CIC y CIA para los seis biocarbones en estudio (Error con 
+desviación estándar). 
+ 
+5.1.7 pH, CE y Efecto Encalante 
+Los resultados de pH, conductividad y capacidad de encalado se muestran en el Cuadro 5.4, 
+de acuerdo con la disolución extractora más empleada en los estudios de biocarbón según lo 
+explicado por Aller, (2016). Valores de pH provenientes de la disolución de CaCl2 y KCl, 
+permiten indicar la posibilidad de que existan fuentes de acidez adsorbidas con mayor 
+fuerza. Por lo que, un comportamiento esperado, es que al utilizar la disolución de H2O los 
+valores sean menores que al utilizar dadas disoluciones extractoras (Jorg et al., 2016), no 
+obstante, solamente BA y MB cumplen con lo señalado al presentar valores 7.56 y 7.31 
+respectivamente. En general, los tres métodos de pH no presentan una diferencia 
+significativa entre los biocarbones de bambú y madera (p > 0.05) a un 95% de confianza. 
+ 
+El pH obtenido para ambos biocarbones y disoluciones es alcalino, siendo un 
+comportamiento usual en dado material (Djousse Kanouo, Allaire, & Munson, 2017), pero 
+varían las unidades entre los biocarbones al utilizar un mismo método, donde influye la 
+temperatura, elementos orgánicos e inorgánicos (Fuertes et al., 2010; Yuan, Xu, Qian, & 
+Wang, 2011). La unidad más baja la presenta MA con 7.3 en la disolución de H2O y el pH 
+
+49 
+ 
+más alto en general se obtuvo en la disolución de KCl en los biocarbones de madera con 
+10.38, 10.44 y 10.37 para MA, MB y MC, respectivamente. En estudios, es común 
+observar un incremento del pH conforme aumenta la temperatura, siendo esta última 
+específica, como en el estudio de bambú realizado por Hu et al. (2016). Sin embargo, los 
+resultados obtenidos no muestran una relación a dada tendencia, posiblemente debido a la 
+oscilación de las temperaturas y otros factores a considerar como la cantidad de las cenizas 
+y grupos funcionales superficiales (Bachmann et al., 2015; Teβin, 2016; Zhao, Cao, Mašek, 
+& Zimmerman, 2013). 
+ 
+Por otra parte, la conductividad eléctrica de los biocarbones de bambú, superaron los 
+valores máximos de medición del conductímetro empleado, siendo este de 4000 mS/cm, 
+por lo que se realizaron diluciones a partir de 20 mL de disolución y agua desionizada, 
+obteniendo 2451, 2681, 2356 mS/cm para BA, BB y BC respectivamente. Con respecto a 
+los biocarbones de madera el valor mínimo obtenido fue de 850 µS/cm para MA. Es usual 
+que la concentración aumente conforme la temperatura incrementa, no obstante, el 
+comportamiento obtenido es opuesto comparado al estudio de Al-Wabel, Al-Omran, El-
+Naggar, Nadeem, & Usman (2013). A pesar de que los estándares de calidad IBI y EBC no 
+cuentan con límites para el parámetro, concentraciones elevadas de salinidad en los 
+biocarbones no es recomendable por su posible toxicidad al aplicarse en suelos (Nates, 
+2014). 
+ 
+El efecto de encalado en los biocarbones es muy similar en todos los resultados y no varían 
+significativamente a un 95 % de confianza (p < 0.05) entre los biocarbones, los porcentajes 
+de CaCO3 correspondientes a la madera son levemente mayores a los de bambú al presentar 
+75.2 %, 74.6 % y 75.3 % para MA, MB y MC respectivamente. Se vincula con la 
+alcalinidad de los biocarbones y su posterior relación con la condición de suelos y 
+capacidad productiva al aplicarlo, teniendo un efecto positivo ante la posible reducción de 
+la cantidad de aplicación de cales, tal y como lo reportan estudios de Sizmur et al. (2016). 
+ 
+ 
+ 
+
+50 
+ 
+Cuadro 5.5  Valores obtenidos de tres métodos diferentes para determinar el pH en los 
+biocarbones, conductividad y efecto de encalado a partir de los equivalentes de CaCO3. 
+ 
+Biocarbón 
+pH H2O 
+pH KCl  
+1M 
+pH CaCl2 
+0.01M 
+Conductividad 
+(mS/cm) 
+Capacidad 
+encalado eq.  
+CaCO3 (%) 
+BA 
+7.56   (0.06)* 
+10.06 (0.01) 
+8.02   (0.05) 
+2451 (25) 
+73.1  
+BB 
+10.00  (0.03) 
+ 9.84   (0.02) 
+9.77   (0.02) 
+2681 (18) 
+72.1 
+BC 
+10.32  (0.01) 
+10.06 (0.01) 
+10.22 (0.04) 
+2406 (38) 
+72.4 
+MA 
+9.85    (0.26) 
+10.38 (0.05) 
+8.80   (0.23) 
+850.00 (15) 
+75.2 
+MB 
+7.31    (0.06) 
+10.44 (0.13) 
+8.74   (0.06) 
+1020.00 (13) 
+74.6 
+MC 
+10.61  (0.08) 
+10.27 (0.32) 
+10.40 (0.09) 
+1240.00 (33) 
+75.3 
+*(Valores entre paréntesis: Desviación estándar) 
+ 
+5.1.8 Metales pesados 
+El análisis de contaminantes inorgánicos se muestra en el Cuadro 5.5, junto con la 
+normativa de IBI y EBC. Comparando los resultados con las normativas, se obtiene que los 
+biocarbones de madera incumplen con los límites de Cu dados por EBC al superar los 100 
+mg/kg establecidos, presentando concentraciones de 264, 118 y 124 mg/kg para MA, MB y 
+MC respectivamente, no obstante, cumplen con la normativa dada por IBI, una 
+concentración similar a la obtenida  lo muestra Z. Liu, Fei, Jiang, & Liu (2014), para el 
+metal cobre. Es usual observar en otros estudios, concentraciones altas en cobre, no así en 
+los demás metales pesados (Chen et al., 2016;  Liu et al., 2014). 
+ 
+Con respecto al cumplimiento de los biocarbones ante los límites analizados para arsénico, 
+cromo, níquel y zinc, estos se encuentran por debajo de los límites establecidos por las 
+normativas. La presencia de metales en concentraciones por debajo del límite de acuerdo a 
+cada metal, es debido a que la mayoría de los metales pesados no se volatilizan a las 
+temperaturas expuestas en la estufa de finca, permaneciendo en el biocarbón como cenizas 
+minerales no volátiles (Meyer et al., 2017). 
+ 
+
+51 
+ 
+Los resultados obtenidos descartan una implicación negativa al ambiente, tanto en el 
+proceso productivo como en su aplicación, cabe a destacar que el análisis es esencial para 
+determinar la calidad de los biocarbones (Steiner, 2016).   
+ 
+Cuadro 5.6. Concentración de contaminantes inorgánicos (metales pesados) presentes en 
+biocarbones de bambú y madera de pino, junto con la normativa de IBI y EBC.  
+ 
+ Concentración de Metales Pesados (mg/kg) 
+Biocarbón 
+Cu 
+As 
+Cr 
+Ni 
+Zn 
+BA 
+(76.00±0.21) 
+<0.6 
+(1.200±0.001) 
+(19.600±0.004) 
+(205.00±0.07) 
+BB 
+(60.00±0.13) 
+<0.6 
+(1.600±0.001) 
+<2 
+<18 
+BC 
+(74.00±0.13) 
+<0.6 
+(2.400±0.001) 
+<2 
+<18 
+MA 
+(264.00±0.14) 
+<0.6 
+<1 
+(2.600±0.003) 
+(136.00±0.07) 
+MB 
+(118.00±0.13) 
+<0.6 
+(4.000±0.001) 
+<2 
+<18 
+MC 
+(124.00±0.13) 
+<0.6 
+(4.000±0.001) 
+(3.200±0.003) 
+<18 
+Normativa 
+ 
+ 
+ 
+ 
+ 
+IBI 
+≤6000 
+≤100 
+≤1200 
+≤420 
+≤7400 
+EBC Básico 
+≤100 
+≤13 
+≤90 
+≤50 
+≤400 
+EBC.Premium 
+≤100 
+≤13 
+≤80 
+≤30 
+≤400 
+ 
+5.2 
+DOSIFICACIÓN ÓPTIMA A PARTIR DEL AGUA DISPONIBLE 
+El agua disponible o agua útil para las plantas (en términos gravimétricos, g agua/ g de 
+biocarbón) de mezclas de biocarbón: compost 0,5:10 y 1:10 se obtuvo a partir de la resta 
+del contenido de agua determinado a dos potenciales. El pF 4,2 por el método de Dew Point 
+y el pF 2 al utilizar la caja de arena. Los datos mostrados en la Figura 5.4 representan el 
+contenido de agua neto disponible, es decir, todos los datos expresados restan del valor 
+total, el valor de retención de agua disponible del compost (0,46 g agua/ g compost). La 
+estadística de los datos indica por medio de la prueba ANOVA que son significativamente 
+diferentes (p > 0,05) al comparar las dosis empleadas, por lo tanto se realizó la prueba 
+estadística Tukey, estos resultados son indicados en la parte superior de las columnas con 
+letras de acuerdo a las dosificaciones, es decir, para 5 % letras c y d y para 10 % letras a y 
+
+52 
+ 
+b, por lo tanto se concluye que los biocarbones que presentan dos letras juntas no son 
+significativamente diferentes a un 95 % de confianza. 
+ 
+Los resultados demuestran que la aplicación de ambas dosis de biocarbón en el compost, 
+aumentan el agua disponible de la mezcla. El aporte brindado por los biocarbones en la 
+retención de agua es de aproximadamente 0,4 g agua/ g biocarbón al utilizar 5 % como 
+dosis, excepto para los biocarbones MA y BA, ya que presentaron una disminución en la 
+retención de agua, con respecto a los demás biocarbones, con valores de 0,20 y 0,33 g agua/ 
+g biocarbón respectivamente. Por otra parte, en las dosificaciones de 10 %, los biocarbones 
+de bambú presentaron una mayor retención de agua, específicamente en los biocarbones 
+BA y BC al obtener valores de 0,72 y 0,58 g agua/ g biocarbón. En el caso de los 
+biocarbones de madera al emplear la dosis de 10 %, obtuvieron una retención de agua muy 
+similar a los obtenidos con la dosis de 5 %, excepto MB que presentó un valor más alto, 
+0,52 g agua/ g biocarbón. Por lo que, a partir de los resultados obtenidos se puede deducir 
+que el biocarbón de bambú presenta los resultados más favorables al retener 
+aproximadamente un 10 % por encima de la media general de los resultados obtenidos, con 
+la dosis de 10 %. En el estudio realizado por Hseu et al. (2014), se obtienen resultados 
+favorables del parámetro analizado al aplicar una dosis de 10 % de biocarbón, por lo que 
+coincide con el resultado positivo de la misma dosis aplicada en el presente estudio. 
+ 
+
+53 
+ 
+Figura 5.8. Valores de retención de agua de acuerdo a las dosis de 5% y 10% para cada biocarbón 
+BA, BB y BC correspondientes al bambú Guadua y MA, MB y MC para madera de construcción. 
+(Error a partir de la desviación estándar). 
+  
+El incremento de la retención de agua disponible para las plantas aumenta con respecto a la 
+dosificación de biocarbón. Diversas investigaciones científicas demuestran el aumento de 
+retención de agua con mezclas de suelo/compost y biocarbón, justificando el resultado ante 
+la alta proporción de meso y macro poros y el área superficial, donde las fuerzas capilares 
+fuertes son efectivas para almacenar grandes cantidades de agua (Teβin, 2016; Sun & Lu, 
+2013; Liu et al., 2012). No obstante, en el presente estudio no se analizan las propiedades 
+mencionadas, por lo que aplicar las pruebas correspondientes para confirmar lo señalado 
+será fundamental para justificar lo mencionado. Por otra parte, Glab et al. (2016) y Kinney 
+et al. (2012), indican que el factor de temperatura influye en los resultados del agua 
+disponible para las plantas, siendo favorable las altas temperaturas (> 600 °C), sin embargo, 
+dada relación no se refleja en los biocarbones de estudio, ya que los biocarbones de madera 
+presentaron las temperaturas más altas, ver Cuadro 5.1. 
+ 
+5.3 
+SOSTENIBILIDAD AMBIENTAL 
+A partir de un punto de vista físicoquímico, los biocarbones obtenidos representan una 
+buena alternativa para su aplicación en suelos poco fértiles y como mejorador de cultivos 
+(Agegnehu, Srivastava, & Bird, 2017; Verheijen, Jeffery, Bastos, va der Velde, & Diafas, 
+2010). Sin embargo, también se debe tomar en cuenta aspectos sociales, ambientales y 
+económicos para considerarse como una elección más sostenible. 
+ 
+Para la sostenibilidad de la producción de biocarbón, se debe tomar en consideración la 
+viabilidad en la obtención de biomasa, ya que dependerá principalmente de la cercanía 
+donde haya construcciones o cultivos de bambú, esto con respecto al sitio donde se 
+producirá y aplicará el biocarbón. Dando la recomendación de que la producción sea en el 
+mismo sitio donde se utilizará la enmienda, y la obtención de la biomasa se encuentre 
+dentro de un perímetro cercano al terreno de aplicación,  ya que representaría una inversión 
+
+54 
+ 
+mayor de transporte, aumentando la huella ecológica del producto e incluso el costo de 
+producción.    
+ 
+La madera como residuo mayoritario de la construcción en Costa Rica (Abarca-guerrero & 
+Leandro-Hernández, 2016), se considera una buena alternativa para la reducción de 
+residuos valorizables, lo que significa una disminución en gastos destinados a la compra de 
+biomasa, sin embargo, la certeza de contar siempre con este tipo de biomasa en las 
+cantidades requeridas es incierta. Por otra parte, el cultivo de bambú en Costa Rica se ha 
+extendido territorialmente debido a la gran variedad de usos y el potencial de adaptación al 
+cambio climático que presenta, denominándose como la madera del siglo 21 (Fonseca-
+González & Vargas, 2016). Además de las características físicoquímicas obtenidas, se 
+recomienda este último como posible uso para la producción de biocarbón y generador de 
+empleo por su versatilidad de uso, además de presentar una mayor probabilidad de obtener 
+dada biomasa. 
+ 
+A nivel nacional la distribución de plantaciones de bambú es amplia ya que es usual que se 
+encuentren en altitudes entre los 240 y 500 m, en zonas con precipitaciones anuales 
+promedio de 3 000 - 4 000 mm y en la Región Brunca, esta última debido a proyectos 
+destinados al cultivo de bambú Guadua (Briceño, Villalobos, & Fonseca, 2017). Por lo 
+tanto, obtener  biomasa de bambú para su posterior carbonización en terrenos destinados al 
+cultivo, por ejemplo en tomateras, presentan altas probabilidades, debido a que al menos  
+en la región Brunca  aproximadamente 75 ha se han cultivado al año 2015 (López, 2016). 
+ 
+5.4 
+ASPECTOS SOCIALES, AMBIENTALES Y ECONÓMICOS 
+La comunicación entre las partes interesadas para la producción y aplicación de biocarbón, 
+es vital para comprender las necesidades del sector productivo meta, a partir de la 
+obtención de información previa y la transferencia de conocimiento ante los posibles 
+beneficios que se pueden obtener en la aplicación de la enmienda como mejorador de 
+suelos. El desarrollo social es un punto clave y es parte del octavo objetivo de los ODS 
+(ONU, 2018), como generador de empleo y desarrollador de capacidades locales. 
+
+55 
+ 
+ 
+El potencial ambiental que presenta el biocarbón recomendado, es debido a las propiedades 
+obtenidas: hidrófobas, CIC, pH, capacidad de encalado entre las más destacadas, que 
+aportarán positivamente a los cultivos y suelos. El valor agregado que brinda los 
+biocarbones como enmienda y mejor aún, en la mezcla para obtener STP, permitirá a 
+pequeños y grandes productores obtener mejores resultados en sus cultivos, reduciendo 
+pérdidas en la fase de producción y a la vez, logrando una reducción de gastos tanto en 
+fertilizantes como en agua, como lo señala Escalante et al. (2016) y Laird (2008). Además 
+de que pueden aportar al desarrollo sostenible y  a la disponibilidad de los recursos 
+naturales, haciendo frente a la escasez de agua y fortaleciendo con ello el ODS 6 y 12. 
+ 
+Además, la mayoría de las investigaciones consultadas hacen hincapié a la capacidad de los 
+biocarbones para fijar de carbono en suelos, cumpliendo por medio de la enmienda el ODS 
+13 que enfatiza la acción de mitigación ante el cambio climático. Siendo un punto clave, 
+debido a la gran susceptibilidad que tiene la agricultura ante las variantes en el clima (FAO, 
+2018), considerándose la enmienda como parte de la adaptación que se debe implementar 
+para atenuar los efectos del cambio climático y aportar a la Agenda para el año 2030. 
+ 
+Una vez evaluados los beneficios y puntos clave que aportan a la sostenibilidad la 
+aplicación de la enmienda,, se debe contemplar los factores económicos para su aplicación, 
+donde se muestra en el apartado 6.2 los parámetros a contemplar en la fase de producción. 
+ 
+5.5 
+FACTOR ECONÓMICO EN LA PRODUCCIÓN DE BIOCARBÓN 
+La producción de biocarbón realizada en el presente estudio y en la propuesta que se 
+plantea, es dirigido a un sistema de producción de biocarbón a pequeña escala. El potencial 
+de crear proyectos con biocarbón a pequeña escala es mucho más realista que las 
+operaciones industriales de mayor dimensión, con respecto a los mercados actuales de 
+electricidad y biocarbón (Van Beilen, 2016). El análisis completo de costo-beneficio para el 
+biocarbón, desde su adquisición hasta su aplicación en suelo puede ser muy variada en cada 
+posible caso de producción, debido a que las variables a considerar. Algunos beneficios 
+
+56 
+ 
+físicoquímicos y ambientales son a largo plazo, siendo difícil persuadir el interés inicial de 
+las partes involucradas para la inversión (Van Beilen, 2016).  
+ 
+El valor económico final del biocarbón depende principalmente de las características de la 
+materia prima, la técnica empleada en la producción  y las características físicoquímicas 
+que pueden mejorar la productividad en cultivos (Galinato, Yoder, & Granatstein, 2011). 
+De acuerdo con IBI (2012), el costo del biocarbón puro es aproximadamente  $2.06 y el 
+costo medio al por menor para el biocarbón puro es de $3.08 kg. Por lo tanto, se deben 
+considerar aspectos importantes previos a su uso, de acuerdo a las necesidades del cultivo y 
+del suelo. A continuación se muestran las estimaciones planteadas a partir de los factores 
+implicados en el proceso de producción realizados en el presente estudio. 
+ 
+Al considerar el rendimiento de la estufa de finca empleada, se plantea que es ideal para la 
+producción de biocarbón y posterior aplicación en cultivos no extensivos, el rendimiento 
+obtenido se muestra en el Cuadro 6.1. Los resultados son considerados como bajos y no 
+variaron significativamente con respecto a la biomasa (P > 0.05), debido a que este tipo de 
+estufas presentan un rendimiento general de 26 % (Aker, 2014). Para ambas biomasas los 
+rendimientos fueron bajos, no obstante los biocarbones de madera presenta rendimientos 
+inferiores al obtener 16, 19 y 18 % para MA, MB y MC respectivamente. Los bajos 
+rendimientos podrían deberse a las características propias de la biomasa, ya que la madera 
+presentó residuos de cemento (polvo), y las piezas en general eran de formas y tamaños 
+heterogéneos, por lo que su colocación en la estufa no fue homogénea en las 
+carbonizaciones realizadas, considerándose como un posible factor ante la disminución del 
+rendimiento, además de las propiedades propias de las biomasa. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+57 
+ 
+Cuadro 5.7. Porcentajes de rendimiento obtenido a partir de la estufa de finca para cada uno de 
+los biocarbones. 
+ 
+Biocarbón 
+Masa Biomasa 
+Masa Biocarbón  
+(kg) 
+Rendimiento (%) 
+BA 
+2.30 
+0.48 
+21 
+BB 
+2.75 
+0.65 
+24 
+BC 
+1.80 
+0.35 
+19 
+MA 
+3.10 
+0.51 
+16 
+MB 
+3.38 
+0.63 
+19 
+MC 
+3.25 
+0.60 
+18 
+ 
+ 
+5.5.1 Propuesta del carbonizador 
+Se plantea una opción alternativa para la carbonización de biomasa con el fin de aumentar 
+la eficiencia en la etapa de producción, bajo el mismo ideal de la estufa de finca, se 
+aumentará la dimensión de la estufa al utilizar como base de reacción un estañón de metal. 
+Los datos que se emplearán serán estimaciones a partir de la experiencia obtenida en la 
+producción de biocarbón con la estufa de finca, para una propuesta de bajo costo y mayor 
+rendimiento, al utilizar la biomasa de bambú con un 24 % de rendimiento siendo el máximo 
+rendimiento obtenido. La comparación de dimensiones se pueden observar en el Cuadro 
+6.2.  
+Cuadro 5.8. Parámetros comparativos entre la estufa de finca empleada y la nueva propuesta 
+del carbonizador, para la obtención de biocarbón, donde D: diámetro, L: largo y C: 
+circunferencia. 
+ 
+Parámetro 
+Estufa de Finca 
+Carbonizador Propuesto 
+Dimensiones (cm) 
+D: 30 
+L: 40 
+ 
+D: 65 
+L: 90 
+C: 185 
+Volumen (dm3) 
+28 
+300 
+Masa biomasa (kg) 
+3 
+32.14* 
+Masa biocarbón (kg) 
+0.63 
+6.74* 
+*estimación realizada a partir de la carbonización con estufa de finca. 
+ 
+
+58 
+ 
+Para la propuesta del carbonizador, se realiza una cotización a partir de los precios 
+brindados por la Ferretería y Acabados Maderas San Carlos, por medio de una consulta 
+presencial realizada en el mes de julio del presente año. La mano de obra planteada, es un 
+estimado para el ensamble de un carbonizador. El detalle del costo del carbonizador se 
+desglosa en el Cuadro 6.3. 
+ 
+Cuadro 5.9 Materiales y precios para la elaboración de la propuesta del carbonizador. 
+ 
+Material 
+Precio ($) 
+Estañón  con tapa 
+ 5* 
+Lámina Lisa (0.92x1.83)m  N°30 
+  6,85* 
+Chimenea (Diámetro: 35cm, Alto: 70cm) 
+   16,66* 
+Mano de obra 
+                                66,66 
+Total 
+                                95,18 
+*Precio de materiales basados en la venta de la Ferretería Maderas San Carlos SA, mes de julio 2018 
+5.5.2 Estructura de costo 
+Se presentan dos estructuras de costo, la primera de acuerdo a las carbonizaciones 
+realizadas y la segunda hace referencia a la propuesta recomendada para lograr la 
+sostenibilidad económica en la producción de biocarbón, con el ideal de mantener la 
+calidad de la carbonización de biomasa y reducir costos. Para ambos casos, en la sección de 
+Apéndices se encuentra el detalle de los gastos de los Cuadros 6.4 y 6.5. 
+ 
+El Cuadro 6.4 hace referencia a los rubros de gastos obtenidos en su totalidad para el 
+proceso de carbonización realizado en el presente estudio por medio de la estufa de finca, 
+es decir, se tomó en consideración la obtención de la estufa de finca y biomasa, adecuación 
+de la biomasa, carbonización de la biomasa y trituración del biocarbón.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+59 
+ 
+Cuadro 5.10. Estructura de costos para el primer caso de producción de biocarbón en la estufa 
+de finca empleada. 
+ 
+Rubros de gastos 
+ 
+Costo ($) 
+Mano de obra Directa 
+Materiales directos 
+Costos Indirectos 
+Total 
+ 
+13 
+500 
+  1.135 
+ 1.650 
+  
+Por otra parte, el escenario propuesto se plantea a partir de los resultados obtenidos con la 
+estufa de finca, por medio de posibles mejoras para optimizar el proceso de carbonización. 
+A continuación se plantean las propuestas para cada una de las etapas que involucra el 
+proceso general para obtener biocarbón, donde se resumen en el Cuadro 6.5, a partir del 
+desglose mostrado en el Apéndice. 
+ 
+Para la obtención de biomasa, al igual que la biomasa utilizada en el presente estudio, se 
+busca que sea a partir de residuos valorizables de bambú para evitar gastos en la compra de 
+la materia prima. Se plantean dos recomendaciones con respecto a la actividad destinada al 
+transporte de biomasa: 
+ 
+-Pagar un flete (camión de carga): $8 /km y un encargado (peón agrícola) que realice la 
+carga/descarga de la biomasa a la zona de almacenaje. 
+-Con un transporte propio: utilizar un camión de carga, aproximadamente equivale a 15 L 
+por cada 100 km recorridos, precio diésel/ litro $ 1 (RECOPE, 2018), y el salario del chofer 
+equivale a ₡18 asignado a la jornada laboral (Ministerio de Trabajo y Seguridad Social, 
+2018). 
+Ambas opciones dependen de la cercanía para la obtención de biomasa al lugar de destino, 
+no obstante, se estima un tiempo como mínimo de 4 horas para la actividad de recolección 
+y transporte de la biomasa. 
+ 
+En la adecuación de la biomasa, se va a requerir de un peón agrícola encargado de colocar 
+la cantidad de biomasa al sol para secarla en su totalidad. Se recomienda un periodo 
+
+60 
+ 
+mínimo de 5 días. Dentro del proceso se debe tener en cuenta que se requiere realizar una 
+limpieza y corte de la biomasa, para adecuarla al reactor. Por lo que en total equivale 
+aproximadamente a una jornada de trabajo $18. 
+ 
+El carbonizador propuesto sigue el ideal de la estufa de finca y cuenta con una mayor 
+dimensión, tal y como se detalla en el Cuadro 6.2 y no se considera necesaria la 
+contratación de un especialista para su ensamblaje, por lo que, el precio de la mano de obra 
+es un estimado, donde un peón agrícola puede realizar el trabajo. Se toma en consideración 
+el costo de los materiales necesarios para el carbonizador propuesto, brindados en el 
+Cuadro 6.3, el cual presenta un precio unitario aproximado de $95,18, no obstante, se 
+recomienda utilizar dos reactores simultáneamente para lograr una mayor eficiencia con 
+respecto al tiempo de producción, lo que equivale a un precio total de $190,38. Además, se 
+recomienda tener dos estañones extra para el posterior enfriamiento de los biocarbones, 
+equivalente a un precio final de $ 200,38; el tiempo estimado para el proceso completo de 
+carbonización es de 2 horas laboradas por un peón agrícola y 1 hora destinada al 
+enfriamiento del biocarbón.   
+  
+La Trituración del biocarbón abarca 2 horas laboradas para su posterior almacenaje, se 
+requiere un lugar bajo techo para evitar que los biocarbones se mojen o absorban mucha 
+humedad. 
+ 
+Cuadro 5.11 Estructura de costo para el proceso de carbonización del biocarbón con el reactor 
+propuesto. 
+ 
+Rubros de gastos 
+ 
+Costo ($) 
+Mano de obra Directa 
+ 
+18,53 
+Materiales directos 
+ 
+83,82 
+Costos Indirectos 
+ 
+181,06 
+Total 
+ 
+281,85 
+ 
+ 
+La estructura de costo para el segundo escenario propuesto, no involucra lo referente a la 
+obtención de biomasa, debido a las variables que fueron mencionadas, sin embargo, se tiene 
+
+61 
+ 
+como resultado una disminución considerable del monto económico de inversión y en 
+procesos, además es importante recalcar que se incluyó los dos carbonizadores propuestos 
+dentro de la estructura de costo, eliminando con esto la estufa de finca. 
+ 
+Para ambos casos, el rubro de costos indirectos son los que presentan mayor costo, aun así 
+para el caso del segundo escenario se disminuyó considerablemente los gastos, la diferencia 
+de dinero obtenida con la propuesta es de $1.367,92. 
+
+
+63 
+ 
+6 
+CONCLUSIONES Y RECOMENDACIONES 
+6.1 
+CONCLUSIONES 
+La producción de biocarbón a partir de la Estufa de Finca y la caracterización 
+físicoquímica, no ha sido estudiada en otras investigaciones en biomasa de bambú y madera 
+de residuos de la construcción, por lo que el presente estudio refuerza un vacío en la 
+investigación. 
+ 
+Los resultados físicoquímicos a partir de las dos biomasas empleadas son de calidad, a 
+pesar de que presentan variabilidad en los resultados debido a la biomasa y a las 
+temperaturas obtenidas en la carbonización. 
+ 
+El biocarbón de bambú presentó valores más favorables en el análisis de CIC, considerado 
+un análisis esencial que favorece al aporte de nutrientes para las plantas, donde BA, BB y 
+BC presentaron valores de 19,97; 8,99 y 15,40 cmol /kg, respectivamente. 
+ 
+Las mezclas de biocarbón y compost, son capaces de retener más de un 80 % e incluso 
+hasta un 118 % de agua disponible, donde un 43 % corresponde al aporte del compost. 
+ 
+Se obtuvo mejores resultados al aplicar la dosis de 10 % con el biocarbón de bambú al 
+provocar una retención adicional de aproximadamente 10 % sobre la media general. 
+ 
+La variación en la dosificación no implicó diferencia alguna en la retención de agua 
+disponible para el biocarbón de madera de construcción. 
+ 
+Se considera la biomasa de bambú como una materia prima sostenible, debido a su amplia 
+versatilidad de aplicación y beneficios socioeconómicos y ambientales. 
+ 
+El biocarbón como enmienda permite plantear un modelo de agricultura sostenible, dado 
+que aprovecha biomasa residual y se considera un mejorador de suelos y como un posible 
+potenciador de captación de carbono. 
+
+64 
+ 
+La propuesta del cambio de carbonizador para aumentar el rendimiento de producción y 
+disminuir costos de operación, se obtuvo a partir de la estructura de costo y presenta un 
+posible ahorro de $1.367,92. 
+  
+6.2 
+RECOMENDACIONES 
+En la preparación de la biomasa, previo a la carbonización, se requiere que se encuentre 
+completamente seca para evitar emisiones de gases (humo) al ambiente. 
+ 
+Dar seguimiento a la aplicación de la enmienda y determinar los efectos que brindarán a los 
+cultivos y suelos. 
+ 
+Completar la caracterización físicoquímica de los biocarbones con los análisis de HAPs, 
+espectroscopía de infrarrojos y porosidad para determinar los grupos funcionales y área 
+superficial. 
+ 
+Comprobar la eficiencia de producción de biocarbón a partir del reactor propuesto y 
+verificar las estimaciones planteadas. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+65 
+ 
+7 
+REFERENCIAS 
+Abarca-guerrero, L., & Leandro-hernández, A. G. (2016). Actual situation of construction 
+materials management in Costa Rica Situación actual de la gestión de los materiales de 
+construcción en Costa Rica, 29, 111–122. https://doi.org/10.18845/tm.v29i4.3042 
+ 
+Acosta, J. (2014). Efecto del biocarbón en cacao orgánico (Theobroma cacao L.) y manejo 
+biológico del Mal de Panamá (Fusarium Oxysporum f.sp cubense) con biocarbón y 
+microorganismos benéficos. 
+ 
+Agegnehu, G., Srivastava, A. K., & Bird, M. I. (2017). The role of biochar and biochar-
+compost in improving soil quality and crop performance: A review. Applied Soil 
+Ecology, 119(June), 156–170. https://doi.org/10.1016/j.apsoil.2017.06.008 
+ 
+Aker Narváez, C (2014). Evaluación de la eficiencia, uso y adopción de una estufa 
+mejorada especializada en producir biocarbón en comparación con estufas de leña 
+tradicionales en tres municipios del departamento de León, Nicaragua. 
+ 
+Al-Wabel, M. I., Al-Omran, A., El-Naggar, A. H., Nadeem, M., & Usman, A. R. A. (2013). 
+Pyrolysis temperature induced changes in characteristics and chemical composition of 
+biochar produced from conocarpus wastes. Bioresource Technology, 131, 374–379. 
+https://doi.org/10.1016/j.biortech.2012.12.165 
+ 
+Aller, 
+M. 
+F. 
+(2016). 
+Biochar 
+properties: 
+Transport, 
+fate 
+and 
+impact. 
+https://doi.org/10.1080/10643389.2016.1212368 
+ 
+American Standard for Testing and Materials. ASTM E1131-08 Standard Method for 
+Compositional Analysis by Thermogravimetry.  
+ 
+ 
+Amin,  F.  R.,  Huang,  Y.,  He,  Y.,  Zhang,  R.,  Liu,  G.,  &  Chen,  C.  (2016).  Biochar  
+applications  and  modern  techniques  for  characterization.  Clean  Technologies  and  
+
+66 
+ 
+Environmental  Policy. 
+ 
+ 
+Andreev, N., Álvarez, M. G., Wendland, C., Klimek, F., Ronteltap, M., & Lens, P. (2012). 
+A concept for a sustainable sanitation chain based on the semi centralised production 
+of Terra Preta for Moldova. 
+ 
+Andreev,  N.,  Ronteltap,  M.,  Boincean,  B.,  &  Lens,  P.  (2014).  The  effect  of  a  terra  
+preta-like  soil  improver  on  the  germination  and  growth  of  radish  and  parsley. 
+ 
+Andreev, N., Ronteltap, M., Boincean, B., & Lens, P.  (2017). Treatment of Source-
+Separated Human Feces via Lactic Acid Fermentation Combined with Thermophilic 
+Composting Treatment of Source-Separated Human Feces via Lactic Acid 
+Fermentation. 
+Compost 
+Science 
+& 
+Utilization, 
+0(0), 
+1–11. 
+https://doi.org/10.1080/1065657X.2016.1277809 
+ 
+Antal, M. J., & Grønli, M. (2003). The art, science, and technology of charcoal 
+production. Industrial & Engineering Chemistry Research, 42(8), 1619-1640. 
+ 
+Avilés  López,  L.  (2014).  Evaluación  participativa  del  Proyecto  Estufa  Finca  en  
+familias  Bribri  de  Talamanca,  Costa  Rica. Trabajo  de  graduación,  MPD.  CATIE,  
+Turrialba,  Costa  Rica 
+ 
+Bachmann, H. J., Bucheli, T. D., Dieguez-alonso, A., Fabbri, D., Knicker, H. E., Schmidt, 
+H., … Zehetner, F. (2015). Towards the standardization of biochar analysis : the 
+COST 
+Action 
+TD1107 
+inter-laboratory 
+comparison. 
+https://doi.org/10.1021/acs.jafc.5b05055 
+ 
+Baronti, S., Vaccari, F. P., Miglietta, F., Calzolari, C., Lugato, E., Orlandini, S., ... & 
+Genesio, L. (2014). Impact of biochar application on plant water relations in Vitis 
+vinifera (L.). European Journal of Agronomy, 53, 38-44. 
+
+67 
+ 
+ 
+Brewer, C. E. (2012). Biochar characterization and engineering. 
+ 
+Briceño, J. A., & Pacheco, R. (1984). Métodos analíticos para el estudio de suelos y 
+plantas. 
+ 
+Briceño, E., Villalobos, V., & Fonseca, L. (2017). Desarrollo de un modelo de producción 
+de bambú guadua mediante la aplicación de técnicas silviculturales óptimas para la 
+cuantificación del crecimiento y la capacidad de almacenamiento de carbono en 
+plantaciones (Guadua angustifolia) en la Zona Sur de Costa Rica. 
+ 
+Brownsort, P. A. (2009). Biomass pyrolysis processes: performance parameters and their 
+influence on biochar system benefits. 
+ 
+Bucheli, T. D., Hilber, I., & Schmidt, H. P. (2015). Polycyclic aromatic hydrocarbons and 
+polychlorinated aromatic compounds in biochar. Biochar for Environmental 
+Management: Science, Technology and Implementation, 595-624. 
+ 
+CADETI (2015). Informe del estado del ambiente Costa Rica. Estado del ambiente 
+ costarricense. 
+ 
+Cantrell, K. B., Hunt, P. G., Uchimiya, M., Novak, J. M., & Ro, K. S. (2012). Impact of 
+pyrolysis temperature and manure source on physicochemical characteristics of 
+biochar. Bioresource technology, 107, 419-428. 
+ 
+Cely, P., Gascó, G., Paz-Ferreiro, J., & Méndez, A. (2015). Agronomic properties of 
+biochars from different manure wastes. Journal of Analytical and Applied 
+Pyrolysis, 111, 173-182. 
+ 
+Cely, P. (2016). Evaluacion del uso de residuos organicos para la produccion de biochar y 
+su aplicacion como enmienda orgánica. 
+
+68 
+ 
+ 
+Cerná, I. (2016). Influence of texture of briquettes from biomass to their mechanical 
+properties. 
+ 
+ 
+Chan, K. Y., & Xu, Z. (2009). Biochar: Nutrient properties and their enhancement.  
+ Biocarbón for enviromental management. 
+ 
+Chen, D., Liu, D., Zhang, H., Chen, Y., & Li, Q. (2015). Bamboo pyrolysis using TG – 
+FTIR and a lab-scale reactor : Analysis of pyrolysis behavior , product properties , and 
+carbon 
+and 
+energy 
+yields. 
+FUEL, 
+148, 
+79–86. 
+https://doi.org/10.1016/j.fuel.2015.01.092 
+ 
+Chen, Z., Luo, L., Xiao, D., Lv, J., Wen, B., Ma, Y., & Zhang, S. (2016). Selected dark 
+sides of biomass-derived biochars as environmental amendments, 4, 1–8. 
+ 
+ 
+Crombie, K., Mašek, O., Sohi, S. P., Brownsort, P., & Cross, A. (2013). The effect of 
+pyrolysis conditions on biochar stability as determined by three methods. Gcb 
+Bioenergy, 5(2), 122-131. 
+ 
+Cujó, P. (1985). Compendio de agronomía tropical (Vol. 1). Bib. Orton IICA/CATIE. 
+ 
+Cuthbertson, D. M. (2018). The Production of Pyrolytic Biochar for Addition in Value-
+Added Composite Material. 
+ 
+Djousse Kanouo, B. M., Allaire, S. E., & Munson, A. D. (2017). Quality of Biochars Made 
+from Eucalyptus Tree Bark and Corncob Using a Pilot-Scale Retort Kiln. Waste and 
+Biomass Valorization, 9(6), 899–909. https://doi.org/10.1007/s12649-017-9884-2. 
+ 
+Domingues, R.R., Trugilho, P.F., Silva, C.A., De Melo, I.C.N.A., Melo, L.C.A., Magriotis, 
+
+69 
+ 
+Z.M., & Sánchez-Monedero, M.A. (2017). Properties of biochar derived from wood 
+and high-nutrient biomasses with the aim of agronomic and environmental benefits. 
+PLoS One 12 (5). 
+ 
+Du, S. W., Chen, W. H., & Lucas, J. A. (2014). Pretreatment of biomass by torrefaction and 
+carbonization for coal blend used in pulverized coal injection. Bioresource 
+technology, 161, 333-339. 
+ 
+Duku, M. H., Gu, S., & Hagan, E. B. (2011). Biochar production potential in Ghana—a 
+review. Renewable and Sustainable Energy Reviews 
+ 
+Dume, B., Berecha, G., & Tulu, S. (2015). Characterization of Biochar Produced at 
+Different Temperatures and its Effect on Acidic Nitosol of Jimma , Southwest 
+Ethiopia. 
+International 
+Journak 
+of 
+Soil 
+Science, 
+63–73. 
+https://doi.org/10.3923/ijss.2015.63.73 
+ 
+EBC (2012) 'European Biochar Certificate - Guidelines for a Sustainable Production of 
+Biochar.' European Biochar Foundation (EBC), Arbaz, Switzerland 
+ 
+Edenborn, S. L., Edenborn, H. M., Krynock, R. M., & Haug, K. Z. (2015). Influence of 
+biochar application methods on the phytostabilization of a hydrophobic soil 
+contaminated with lead and acid tar. Journal of environmental management, 150, 226-
+234. 
+ 
+Escalante, A., Pérez, G., Hidalgo, C., López, J., Campo, J., Valtierra, E., & Etchevers, J. D. 
+(2016). Biocarbón ( biochar ) I : Naturaleza , historia , fabricación y uso en el suelo. 
+Terra Latinoamericana, 34, 367–382. 
+ 
+Factura,  H.,  Bettendorf,  T.,  Buzie,  C.,  Pieplow,  H.,  Reckin,  J.,  &  Otterpohl,  R.  
+(2010).  Terra  Preta  sanitation:  re-discovered  from  an  ancient  Amazonian  
+civilisation  –integrating  sanitation  ,  bio-waste  management  and  agriculture,  
+
+70 
+ 
+2673–2679.  https://doi.org/10.2166/wst.2010.201 
+ 
+FAO. (2016). El estado mundial de la pesca y la acuicultura 2016. Contribución a la 
+ seguridad alimentaria y la nutrición para todos. Roma. 
+ 
+FAO.  (2017).  La  alimentación  y  la  agricultura.   
+ 
+FAO. (2018). Transformar la alimentación y la agricultura para alcanzar los ODS. 
+ 
+Fonseca-gonzález, W., & Vargas, M. R. (2016). Acumulación y predicción de biomasa y 
+carbono en plantaciones de bambú en Costa Rica * Biomass and Carbon 
+Accumulation and Prediction in Bamboo Plantations in Costa Rica Accumulation et 
+prédiction de biomasse et carbone dans les plantations de bambou à Costa Rica, 
+XX(38), 85–98. https://doi.org/10.11144/Javeriana.up14-4.ayd20-38.apbc 
+ 
+Fryda, L., & Visser, R. (2015). Biochar for soil improvement: Evaluation of biochar from 
+gasification and slow pyrolysis. Agriculture, 5(4), 1076-1115. 
+ 
+Fuertes, A. B., Arbestain, M. C., Sevilla, M., Fiol, S., Smernik, R. J., Aitkenhead, W. P., … 
+Macias, F. (2010). Chemical and structural properties of carbonaceous products 
+obtained by pyrolysis and hydrothermal carbonisation of corn stover, 618–626. 
+ 
+Galinato, S. P., Yoder, J. K., & Granatstein, D. (2011). The economic value of biochar in 
+crop production and carbon sequestration. Energy Policy, 39(10), 6344–6350. 
+https://doi.org/10.1016/j.enpol.2011.07.035 
+ 
+Głąb, T., Palmowska, J., Zaleski, T., & Gondek, K. (2016). Effect of biochar application on 
+soil hydrological properties and physical quality of sandy soil. Geoderma, 281, 11–20. 
+doi:10.1016/j.geoderma.2016.06.028. 
+ 
+Glaser B., Lehmann J., & Zech W. (2002). Ameliorating physical and chemical properties 
+
+71 
+ 
+of highly weathered soils in the tropics with charcoal - a review. Biology and Fertility 
+of Soils. 35:219-230. 
+ 
+Gray, M., Johnson, M., Dragila, M. I., & Kleber, M. (2014). Water uptake in biochars : The 
+roles of porosity and hydrophobicity ScienceDirect Water uptake in biochars : The 
+roles of porosity and hydrophobicity. Biomass and Bioenergy, 61, 196–205. 
+https://doi.org/10.1016/j.biombioe.2013.12.010 
+ 
+Guerra, L. (2015). Producción y caracterización de Biochar a partir de la biomasa residual 
+de sistemas agroforestales y de agricultura convencional en la Amazonía Peruana. 
+ 
+Gul, S., Whalen, J. K., Thomas, B. W., & Sachdeva, V. (2015). Physico-chemical 
+properties and microbial responses in biochar-amended soils : Mechanisms and future 
+directions. 
+“Agriculture, 
+Ecosystems 
+and 
+Environment,” 
+206, 
+46–59. 
+https://doi.org/10.1016/j.agee.2015.03.015. 
+ 
+Gundale & DeLuca (2006), concluyeron que el pH más alto con temperaturas de pirólisis 
+más altas podría ocurrir debido a la acumulación de óxidos de metales alcalinos. 
+ 
+Hale L., Luth M., Kenney R., & Crowley D. (2014). Evaluation of pinewood biochar as a 
+carrier of bacterial strain Enterobacter cloacae UW5 for soil inoculation. Applied Soil 
+Ecology 84:192–199. 
+ 
+Hagner, M., Hallman, S., Jauhiainen, L., Kemppainen, R., Rämö, S., Tiilikkala, K., & 
+Setälä, H. (2015). Birch (Betula spp.) wood biochar is a potential soil amendment to 
+reduce glyphosate leaching in agricultural soils. Journal of environmental 
+management, 164, 46-52. 
+ 
+Harvey, O. R., Herbert, B. E., Rhue, R. D., & Kuo, L. J. (2011). Metal interactions at the 
+biochar-water interface: Energetics and structure-sorption relationships elucidated by 
+flow adsorption microcalorimetry. Environmental Science and Technology, 45(13), 
+
+72 
+ 
+5550–5556. https://doi.org/10.1021/es104401h 
+ 
+Hseu, Z.-Y., Jien, S.-H., Chien, W.-H., & Liou, R.-C. (2014). Impacts of Biochar on 
+Physical Properties and Erosion Potential of a Mudstone Slopeland Soil. The 
+Scientific World Journal, 2014, 1–10.  
+ 
+ 
+Hernandez-Mena, L. E., Pécora, A. A. B., & Beraldo, A. L. (2014). Slow Pyrolysis of 
+Bamboo 
+Biomass : 
+Analysis 
+of 
+Biochar 
+Properties, 
+37. 
+https://doi.org/10.3303/CET1437020 
+ 
+Hu, H., Jiang, B., Wu, H., Zhang, J., & Chen, X. (2016). Bamboo (Acidosasa edulis) shoot 
+shell biochar: Its potential isolation and mechanism to perrhenate as a chemical 
+surrogate for pertechnetate. Journal of Environmental Radioactivity, 165, 39–46. 
+https://doi.org/10.1016/j.jenvrad.2016.09.004 
+ 
+Huff, M. D., Kumar, S., & Lee, J. W. (2014). Comparative analysis of pinewood , peanut 
+shell , and bamboo biomass derived biochars produced via hydrothermal conversion 
+and pyrolysis, 146. https://doi.org/10.1016/j.jenvman.2014.07.016 
+ 
+IBI (2012). Standardized product definition and product testing guidelines for biochar that 
+is used in soil. 
+ 
+Janus, A., Pelfrêne, A., Heymans, S., Deboffe, C., Douay, F., & Waterlot, C. (2015). 
+Elaboration, characteristics and advantages of biochars for the management of 
+contaminated soils with a specific overview on Miscanthus biochars. Journal of 
+environmental management, 162, 275-289. 
+ 
+Jeffery,  S.,  Verheijen,  F.  G.  A.,  Van  der  Velde,  M.,  and  Bastos,  A.  C.  (2011).  A
+   quantitative  review  of  the  effects  of  biochar 
+  application  to  soils  on  crop  
+ productivity  using  metaanalysis.  Agriculture,  Ecosystems  &  Environment. 
+
+73 
+ 
+ 
+Jiang, X., Denef, K., Stewart, C. E., & Cotrufo, M. F. (2016). Controls and dynamics of 
+biochar decomposition and soil microbial abundance , composition , and carbon use 
+efficiency 
+during 
+long-term 
+biochar-amended 
+soil 
+incubations, 
+1–14. 
+https://doi.org/10.1007/s00374-015-1047-7 
+ 
+Jindo, K., Matsumoto, K., García Izquierdo, C., Sonoki, T., & Sanchez-Monedero, M. A. 
+(2014). Methodological interference of biochar in the determination of extracellular 
+enzyme activities in composting samples. Solid Earth, 5(2), 713-719. 
+ 
+Jorg, H., Bucheli, T. D., Dieguez-Alonso, A., Fabbri, D., Knicker, H., Schmidt, H., … 
+Zehetner, F. (2016). Toward the Standardization of Biochar Analysis: The COST 
+Action TD1107 Interlaboratory Comparison. https://doi.org/10.1021/acs.jafc.5b05055 
+ 
+Karer J., Wimmer B., Zehetner F., Kloss S. & Soja G. (2013). Biochar application to 
+temperate soils: effects on nutrient uptake and crop yield under field 
+conditions.Agricultural and food science 22: 390–403. 
+ 
+ 
+Kim, K. H., Kim, J. Y., Cho, T. S., & Choi, J. W. (2012). Influence of pyrolysis 
+temperature on physicochemical properties of biochar obtained from the fast pyrolysis 
+of 
+pitch 
+pine 
+(Pinus 
+rigida). 
+Bioresource 
+Technology, 
+118, 
+158–162. 
+https://doi.org/10.1016/j.biortech.2012.04.094 
+ 
+ 
+Kimetu, J. M., Lehmann, J., Ngoze, S. O., Mugendi, D. N., Kinyangi, J. M., Riha, S., ... & 
+Pell, A. N. (2008). Reversibility of soil productivity decline with organic matter of 
+differing quality along a degradation gradient. Ecosystems, 11(5), 726. 
+ 
+Kinney, T. J., Masiello, C. A., Dugan, B., Hockaday, W. C., Dean, M. R., Zygourakis, K., 
+& Barnes, R. T. (2012). Hydrologic properties of biochars produced at different 
+
+74 
+ 
+temperatures. Biomass and Bioenergy, 41, 34–43 
+ 
+ 
+Kookana, R. S., Sarmah, A. K., Van Zwieten, L., Krull, E., & Singh, B. (2011). Biochar 
+application to soil. agronomic and environmental benefits and unintended 
+consequences. Advances in Agronomy (1st ed., Vol. 112). Elsevier Inc. 
+https://doi.org/10.1016/B978-0-12-385538-1.00003-2 
+ 
+Kumari,  K.  G.  I.  .,  Moldrup,  P.,  Paradelo,  M.,  Elsgaard,  L.,  Hauggaard-Nielsen,  H.,  
+&  de  Jonge,  L.  (2014).  Effects  of  Biochar  on  Air  and  Water  Permeability  and  
+Colloid  and  Phosphorus  Leaching  in  Soils  from  a  Natural  Calcium  Carbonate  
+Gradient. 
+ 
+Laird, D. A. (2008). The Charcoal Vision: A Win–Win–Win Scenario for Simultaneously 
+Producing Bioenergy, Permanently Sequestering Carbon, while Improving Soil and 
+Water Quality. https://doi.org/10.2134/agronj2007.0161 
+ 
+ 
+ 
+Laird, D., Fleming, P., Davis, D., Horton, R., Wang, B., & Karlen, DL. (2010). Impact of 
+biochar amendments on the quality of a typical Midwestern agricultural soil. 
+Geoderma 
+ 
+Lashari, M. S., Liu, Y., Li, L., Pan, W., Fu, J., Pan, G., ... & Yu, X. (2013). Effects of 
+amendment of biochar-manure compost in conjunction with pyroligneous solution on 
+soil quality and wheat yield of a salt-stressed cropland from Central China Great 
+Plain. Field Crops Research, 144, 113-118. 
+ 
+Lawrinenko, M., & Laird, D. A. (2015). Anion exchange capacity of biochar. 
+ Green Chemistry, 17(9), 4628-4636. 
+ 
+
+75 
+ 
+Lee, J. W., Kidder, M., Evans, B. R., Paik, S., Buchanan, A. C., Garten, C. T., & Brown, R. 
+ C. (2010). Characterization of biochars produced from cornstovers for soil 
+ amendment. Environmental Science and Technology, 44(20), 7970–7974. 
+ 
+ 
+ 
+Lehmann, J.,  Rillig,  MC.,  Thies,  J.,  Masiello,  CA.,  Hockaday,  WC.,  &  Crowley  D.
+   (2011). Biochar  effects  on  soil  biota. 
+ 
+Lehmann, J.,  &  Joseph,  S.  (2015). Biochar  for  Environmental  Management:  Science
+   and  Technology.  
+ 
+ 
+Lin, Y., Munroe, P., Joseph, S., Henderson, R., & Ziolkowski, A. (2012). Chemosphere 
+Water extractable organic carbon in untreated and chemical treated biochars. 
+Chemosphere, 87(2), 151–157. https://doi.org/10.1016/j.chemosphere.2011.12.007 
+ 
+Liu, X., & Li, Z. (2014). Energy balance analysis of the cattle manure slow pyrolysis 
+process The cow manure slow pyrolysis system, 1–9. 
+ 
+Liu, Z., Fei, B., Jiang, Z., & Liu, X. (2014). Combustion characteristics of bamboo-
+biochars. 
+BIORESOURCE 
+TECHNOLOGY, 
+167, 
+94–99. 
+https://doi.org/10.1016/j.biortech.2014.05.023 
+ 
+López, L. (2016). Manual técnico del cultivo de tomate. 
+ 
+Lu, H., Lashari, M. S., Liu, X., Ji, H., Li, L., Zheng, J., ... & Pan, G. (2015). Changes in soil 
+microbial community structure and enzyme activity with amendment of biochar-
+manure compost and pyroligneous solution in a saline soil from Central 
+China. European Journal of Soil Biology, 70, 67-76. 
+ 
+Lu, K., Yang, X., Gielen, G., Bolan, N., Sik, Y., Khan, N., … Wang, H. (2017). Effect of 
+
+76 
+ 
+bamboo and rice straw biochars on the mobility and redistribution of heavy metals ( 
+Cd , Cu , Pb and Zn ) in contaminated soil. Journal of Environmental Management, 
+186, 285–292. https://doi.org/10.1016/j.jenvman.2016.05.068. 
+ 
+Mahmood, W. M. F. W., Ariffin, M. A., Harun, Z., Ishak, N., Ghani, J. A., & Ab Rahman, 
+M. N. (2015). Characterisation and potential use of biochar from gasified oil palm 
+wastes. Journal of Engineering Science and Technology, 10(Spec. Issue on 4th 
+International Technical Conference (ITC) 2014), 45-54. 
+ 
+Maia, C. M. B., Madari, B. E., & Novotny, E. H. (2011). Advances in biochar research in 
+Brazil. Embrapa Solos-Artigo em periódico indexado (ALICE). 
+ 
+ 
+Martínez, C. (2015). Efectos de enmiendas de biochar sobre el desarrollo en Cucumis 
+sativus L. Var. SMR-58. 
+ 
+McElligott, K., Dumroese, D., & Coleman, M. (2011). Bioenergy production systems and 
+biochar application in forests: potential for renewable energy, soil enhancement, and 
+carbon sequestration.  
+ 
+McLaughlin, H., P. S. Anderson, F. E. Shields, and T. B. Reed. (2009). All biochars are not 
+created equal, and how to tell them apart. North American Biochar Conference 
+ 
+Martínez,  A.,  García,  J.  A.,  Delgado,  T.  E.,  Garzón,  E.  M.,  &  Yáñez,  E.  E.  (2009).
+   Desarrollo  de  perfiles  térmicos  en  pilas  aéreas  para  carbonización  de  estípite
+   de  palma  de  aceite.  Revista  Palmas,  30(1).  
+ 
+ 
+Martínez-Cháves,  C.  (2015).  Efectos  de  enmiendas  de  biochar  sobre  el  desarrollo  en  
+Cucumis  sativus.  Jalisco. 
+ 
+
+77 
+ 
+Meyer, S., Genesio, L., Vogel, I., Schmidt, H., Someus, E., Shackley, S., … Glaser, B. 
+(2017). 
+Biochar 
+standardization 
+and 
+legislation 
+harmonization. 
+https://doi.org/10.3846/16486897.2016.1254640 
+ 
+Ministerio de Trabajo y Seguridad Social (2018). Lista de ocupaciones clasificada por el 
+personal técnico del Departamento. 
+ 
+Mohanty, P., Nanda, S., Pant, K. K., Naik, S., Kozinski, J. A., & Dalai, A. K. (2013). 
+Evaluation of the physiochemical development of biochars obtained from pyrolysis of 
+wheat straw , timothy grass and pinewood : Effects of heating rate. Journal of 
+Analytical 
+and 
+Applied 
+Pyrolysis, 
+104, 
+485–493. 
+https://doi.org/10.1016/j.jaap.2013.05.022 
+ 
+Moreno Casco, J., Moral Herrero, R., García Morales, J. L., Valero, P., Antonio, J., 
+Calderón, B., & Pilar, M. (2014). Enmiendas orgánicas de nueva generación: biochar y 
+otras biomoléculas (No. 631.875 E58e). Madrid, ES: Mundi-Prensa, 2014. 
+ 
+ 
+Muter O., Lebedeva G., & Galina Telysheva G. (2014). Evaluation of the changes induced 
+by gasification biochar in a peat-sand substrate. Int. Agrophys. 28:471-478. 
+ 
+ 
+Nates, E. (2014). Evaluación del efecto del biochar en el suelo y la calidad de los frutos en 
+un cultivo de uchuva. 
+ 
+Novak, J. M., Lima, I., Xing, B., Gaskin, J. W., Steiner, C., Das, K. C. & Schomberg, H. 
+(2009). Characterization of designer biochar produced at different temperatures and 
+their effects on a loamy sand. Annals of Environmental Science. 
+ 
+Nowak, E., Combes, G., Stitt, H., & Pacek, A. (2013). A comparison of contact angle 
+measurement techniques applied to highly porous catalyst supports. Powder 
+
+78 
+ 
+Technology, 233, 52–64. https://doi.org/10.1016/j.powtec.2012.08.032 
+ 
+Pardavé, W., Delvasto, P., & Sánchez, M. (2017). Caracterización fisicoquímica y 
+  morfológica de dos muestras de biocarbón producidas mediante pirolisis de 
+ residuos de poda y jardinería.  
+ 
+Olmo,  M.  (2016).  Efectos  del  biochar  sobre  el  suelo,  las  características  de  la  raíz  y  
+la  producción  vegetal.  Córdoba. 
+ 
+ONU 
+( 
+2018). 
+Objetivos 
+de 
+Desarrollo 
+sostenible. 
+Recuperado 
+de 
+https://www.un.org/sustainabledevelopment/es/objetivos-de-desarrollo-sostenible/ 
+ 
+ 
+Qian, K., Kumar, A., Zhang, H., Bellmer, D., & Huhnke, R. (2015). Recent advances in 
+utilization of biochar. Renewable and Sustainable Energy Reviews, 42, 1055-1064. 
+ 
+Rajkovich, S., Enders, A., Hanley, K., Hyland, C., & Zimmerman, A. R. (2012). Corn 
+growth and nitrogen nutrition after additions of biochars with varying properties to a 
+temperate soil, 271–284. https://doi.org/10.1007/s00374-011-0624-7 
+ 
+Ranzi, E., Cuoci, A., Faravelli, T., Frassoldati, A., Migliavacca, G., Pierucci, S., & 
+Sommariva, S. (2008). Chemical kinetics of biomass pyrolysis. Energy & Fuels, 22(6), 
+4292-4300. 
+ 
+RECOPE 
+(2018). 
+Precios 
+vigentes. 
+Recuperado 
+de 
+https://www.recope.go.cr/productos/precios-nacionales/tabla-precios/ 
+ 
+Revell K.T. (2011). The effect of fast pyrolysis biochar made from poultry litter on soil 
+properties and plant growth. Virginia Polytechnic Institute and State University. 76 p. 
+ 
+Ronsse, F., Hecke, S. Van, Dickinson, D., & Prins, W. (2013). Production and 
+
+79 
+ 
+characterization of slow pyrolysis biochar : influence of feedstock type and pyrolysis 
+conditions, 104–115. https://doi.org/10.1111/gcbb.12018. 
+ 
+Rosas -Mayoral, J. G. (2015). Producción de biochar a partir de viñas agotadas mediante 
+pirólisis en reactor a escala piloto y en reactor móvil energéticamente sostenible. 
+ 
+Rosin, P & Rammler, E. (1933). The laws governing the fineness of powdered coal. Berlin 
+ 
+Salcedo, S., & Guzmán, L. (2014). Agricultura familiar en América Latina y el  Caribe: 
+ recomendaciones de política. Santiago: FAO. 
+ 
+Sánchez-García,  M.,  Alburquerque,  J.  A.,  Sánchez-Monedero,  M.  A.,  Roig,  A.,  & 
+ Cayuela,  M.  L.  (2015).  Biochar  accelerates  organic  matter  degradation  and
+ enhances  N  mineralisation  during  composting  of  poultry  manure  without  a  
+  relevant  impact  on  gas  emissions.  Bioresource  Technology,  192,  272-279. 
+ 
+Sánchez-Monedero,  M .,  Cayuela,  A.,  Roig,  K.,  Jindo,  C.,  &  Mondini,  N.  (2017).  
+Role  of  biochar  as  an  additive  in  organic  waste  composting.  Bioresource  
+Technology.  https://doi.org/10.1016/j.biortech.2017.09.193 
+ 
+Shackley, S., ruysschaert, G., Zwart, K., & Glaser, B. (2016).  Biochar in European soils 
+and agriculture. Science and Practice.  
+ 
+Schimmelpfennig, S., & Glaser, B. (2012). One Step Forward toward Characterization: 
+Some Important Material Properties to Distinguish Biochars. Journal of 
+Environmental Quality, 32. https://doi.org/10.2134/jeq2011.0146 
+ 
+Scurlock, J. M. O., Dayton, D. C., & Hames, B. (2008). Bamboo : an overlooked biomass 
+resource ?, 19(2000), 229–244 
+ 
+Shen, J., Zhu, S., Liu, X., Zhang, H., & Tan, J. (2010). The prediction of elemental 
+
+80 
+ 
+composition of biomass based on proximate analysis. Energy Conversion and 
+Management, 51(5), 983–987. https://doi.org/10.1016/j.enconman.2009.11.039 
+ 
+Silva, J. H. D. (2013). Impacto del uso de biocarbón sobre la calidad de suelos y 
+ Producción de cacao (Theobroma cacao L.) en sistemas agroforestales, Reserva 
+ Indígena Bribri, Talamanca, Costa Rica. 
+ 
+ 
+Sizmur, T., Quilliam, R., Puga, A. P., Moreno-jiménez, E., Beesley, L., & Gomez-eyles, J. 
+L. 
+(2016). 
+Application 
+of 
+Biochar 
+for 
+Soil 
+Remediation, 
+295–324. 
+https://doi.org/10.2136/sssaspecpub63.2014.0046.5 
+ 
+Smetanová, A., Dotterweich, M., Diehl, D., Ulrich, U., & Fohrer, N. (2012). Influence of 
+biochar and terra preta substrates on wettability and erodibility of soils, 57(October), 
+111–134. https://doi.org/10.1127/0372-8854/2012/S-00117 
+ 
+Sohi,  SP.,  Krull,  E.,  Lopez-Capel,  E.,  &  Bol  R.  (2010).  A  review  of  biochar  and  
+its  use  and  function  in  soil.  Advances  in  Agronomy. 
+ 
+Sparkes, J., & Stoutjesdijk, P. (2011). Biochar: implications for agricultural productivity. 
+  
+Spokas, K. A., Novak, J. M., Stewart, C. E., Cantrell, K. B., Uchimiya, M., DuSaire, M. G., 
+& Ro, K. S. (2011). Qualitative analysis of volatile organic compounds on 
+biochar. Chemosphere, 85(5), 869-882. 
+ 
+Srinivasarao, C., Gopinath, K. A., Venkatesh, G., Dubey, A. K., Wakudkar, H., 
+Purakayastha, T. J.,  & Mandal, S. (2013). Use of biochar for soil health management 
+and greenhouse gas mitigation in India: Potential and constraints. Central Research 
+Institute for Dryland Agriculture, Hyderabad, Andhra Pradesh. 51p. 
+ 
+Steiner, 
+C. 
+(2016). 
+Considerations 
+in 
+Biochar 
+Characterization. 
+
+81 
+ 
+https://doi.org/10.2136/sssaspecpub63.2014.0038.5 
+ 
+Subedi, S. (2005). Characterizing Time-Dependent Contact Angles for Sands 
+Hydrophobized with Oleic and Stearic Acids. https://doi.org/10.2136/vzj2011.0055 
+ 
+Sun, F., & Lu, S. (2013). Biochars improve aggregate stability, water retention, and pore-
+space properties of clayey soil. Journal of Plant Nutrition and Soil Science, 177(1), 
+26–33. doi:10.1002/jpln.201200639 
+ 
+Suguihiro, T. M., de Oliveira, P. R., de Rezende, E. I. P., Mangrich, A. S., Junior, L. H. M., 
+& Bergamini, M. F. (2013). An electroanalytical approach for evaluation of biochar 
+adsorption 
+characteristics 
+and 
+its 
+application 
+for 
+lead 
+and 
+cadmium 
+determination. Bioresource technology, 143, 40-45. 
+ 
+Tammeorg P., Simojoki A., Mäkelä P., Stoddard F.L., Laura Alakukku L., & Helenius J. 
+(2014). Short-term effects of biochar on soil properties and wheat yield formation with 
+meat bone meal and inorganic fertiliser on a boreal loamy sand. Agriculture, 
+Ecosystems and Environment. 
+ 
+Tang, J., Zhu, W., Kookana, R., & Katayama, A. (2013). Characteristics of biochar and its 
+application in remediation of contaminated soil. Journal of Bioscience and 
+Bioengineering, 116(6), 653–659. https://doi.org/10.1016/j.jbiosc.2013.05.035 
+ 
+Teβin, A.-K. (2016). Biochar in soil : Effect on physical , chemical and hydrological 
+properties in differently textured soils . 
+ 
+Vaccari, F. P., Maienza, A., Miglietta, F., Baronti, S., Lonardo, S. Di, Giagnoni, L., … 
+Genesio, L. (2015). Agriculture , Ecosystems and Environment Biochar stimulates 
+plant growth but not fruit yield of processing tomato in a fertile soil. “Agriculture, 
+Ecosystems 
+and 
+Environment,” 
+207, 
+163–170. 
+https://doi.org/10.1016/j.agee.2015.04.015. 
+
+82 
+ 
+ 
+Veiga, T. R. L. A., Lima, J. T., Dessimoni, A. L. D. A., Pego, M. F. F., Soares, J. R., & 
+Trugilho, P. F. (2017). Different plant biomass characterizations for biochar 
+production. cerne, 23(4), 529-536. 
+ 
+Verheijen, F., Jeffery, S., Bastos, A. ., va der Velde, M., & Diafas, I. (2010). Biochar 
+Application to Soils. https://doi.org/10.2788/472. 
+ 
+Wang, J., Pan, X., Liu, Y., Zhang, X., & Xiong, Z. (2012). Effects of biochar amendment in 
+two soils on greenhouse gas emissions and crop production. Plant and soil, 360(1-2), 
+287-298. 
+ 
+Wu, H., Lai, C., Zeng, G., Liang, J., Chen, J., Xu, J., & Lu, L. (2017). The interactions of 
+composting and biochar and their implications for soil amendment and pollution 
+remediation: a review. Critical reviews in biotechnology, 37(6), 754-764. 
+ 
+Xiao, X., Chen, B., & Zhu, L. (2014). Transformation, morphology, and dissolution of 
+silicon and carbon in rice straw-derived biochars under different pyrolytic 
+temperatures. Environmental science & technology, 48(6), 3411-3419. 
+ 
+  Xie, T., Reddy, K. R., Wang, C., Yargicoglu, E., & Spokas, K. (2015). Characteristics and 
+applications of biochar for environmental remediation: a review. Critical Reviews in 
+Environmental Science and Technology, 45(9), 939-969. 
+ 
+Yargicoglu, E. N., Yamini, B., Reddy, K. R., & Spokas, K. (2015). Physical and chemical 
+characterization of waste wood derived biochars, 36, 256–268 
+ 
+Ye, L., Zhang, J., Zhao, J., Luo, Z., Tu, S., & Yin, Y. (2015). Properties of biochar obtained 
+from pyrolysis of bamboo shoot shell. Journal of Analytical and Applied Pyrolysis, 
+114, 172–178. https://doi.org/10.1016/j.jaap.2015.05.016 
+ 
+
+83 
+ 
+Yi, S., Witt, B., Chiu, P., Guo, M., & Imhoff, P. (2015). The Origin and Reversible Nature 
+of Poultry Litter Biochar Hydrophobicity. Journal of Environment Quality, 44(3), 963. 
+https://doi.org/10.2134/jeq2014.09.0385 
+ 
+Yuan, J., Xu, R., Qian, W., & Wang, R. (2011). Comparison of the ameliorating effects on 
+an acidic ultisol between four crop straws and their biochars, 741–750. 
+https://doi.org/10.1007/s11368-011-0365-0 
+ 
+Zhao, L., Cao, X., Mašek, O., & Zimmerman, A. (2013). Heterogeneity of biochar 
+properties as a function of feedstock sources and production temperatures. Journal of 
+Hazardous Materials. https://doi.org/10.1016/j.jhazmat.2013.04.015 
+ 
+Zheng, W., Holm, N., & Spokas, K. A. (2016). Research and application of Biochar in 
+North America, 475–494. https://doi.org/10.2136/sssaspecpub63.2014.0053 
+ 
+ 
+
+
+ 
+ 
+8 
+APÉNDICES 
+ 
+Cuadro9.1. Desglose de gastos para el primer caso de la producción de biocarbón en la estufa de finca empleada. 
+Proceso y 
+actividades 
+Valor unitario 
+($) 
+Cantidad 
+Horas 
+Valor total 
+($) 
+Obtención de 
+biomasa 
+a)Transporte 
+b) Investigadores (3) 
+c) Asistente 
+a)  333,33 
+b) 83,33 
+c) 1,83 
+1000 kg 
+3 
+1.088,83 
+Adecuación de la 
+biomasa 
+a) corte y limpieza 
+a) 1,83 
+20 kg 
+2 
+3,67 
+Producción de 
+biocarbón 
+a)Adquisición de 
+estufa 
+b) Preparación de la 
+estufa y biomasa 
+c) Carbonización 
+* Mascarilla con 
+filtros 
+*Guantes 
+*Alcohol 
+a) 83,33 
+b) 1,83 
+c) 1,83 
+*28,17 
+*18,23 
+*1 
+a)10 L/100km 
+b) 3 kg 
+c) 1 c/u 
+a) 6 
+b) 2 
+c) 2 
+554,73 
+Preparación de 
+biocarbón 
+a) Trituración 
+b) Tamizaje 
+*Guantes 
+a) y b) 1,83 
+* 0,33 
+ 
+ 
+0,7 kg 
+2 
+4 
+Total 
+ 
+ 
+ 
+1.651,23 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+Cuadro9.1. Desglose de gastos para el primer caso de la producción de biocarbón en la estufa de finca empleada. 
+Proceso y 
+actividades 
+Valor unitario 
+($) 
+Cantidad 
+Horas 
+Valor total 
+($) 
+Obtención de 
+biomasa 
+a)Flete 
+b)Transporte propio 
+a) 4.500/km y 
+16,77 
+b)586/L diésel y 
+16,77 jornada 
+laboral 
+a)1 transporte 
+1 Peón agrícola 
+b) 1 vehículo y 1 
+chofer 
+4 
+ 
+Adecuación de la 
+biomasa 
+16,77 
+1 
+1/2 jornada 
+laboral 
+8,43 
+Producción de 
+biocarbón 
+a) Elaboración de 
+estufa 
+b)  Carbonización 
+* Mascarilla con 
+filtros 
+*Guantes 
+*Alcohol 
+a)95,19 
+b) 16,77 
+*28,16 
+*18,23 
+*1 
+a) 2 
+b)2carbonizaciones/ 
+1 peón agrícola 
+a)5 horas 
+b) 1 jornada 
+laboral 
+264,55 
+Trituración de 
+biocarbón 
+*Guantes 
+16,77 
+0,33 
+1 peón agrícola 
+2 pares 
+1/2 jornada 
+laboral 
+9,05 
+Total 
+ 
+ 
+ 
+473,98 
+ 
+ 
+ 

@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "status": "UNRESOLVED",
+  "product_key": null,
+  "report_number": "995712-01-EC",
+  "test_date": "2026-03-24",
+  "sample_name": null,
+  "lot_or_po": null,
+  "supersedes": null,
+  "superseded_by": null,
+  "lab": "CROM-MASS / UIS",
+  "serving_size_g": null,
+  "source_file": "/home/runner/work/Purity-Research-Database/Purity-Research-Database/COAs/995712-EC \u00c1CIDO CLOROG\u00c9NICO Caf\u00e9_firmado.pdf",
+  "source_hash": "22e77cb1afb67695",
+  "parse_confidence": 1.0,
+  "parse_notes": [
+    "pages=3 tables=2",
+    "cromass_cga=1"
+  ],
+  "analytes": [
+    {
+      "analyte": "Chlorogenic Acid",
+      "panel": "cga",
+      "value_normalized": 49403.0,
+      "unit_normalized": "mg/kg",
+      "value_as_reported": "49403",
+      "unit_as_reported": "mg/kg",
+      "method": null,
+      "loq": "0.02",
+      "retest_sequence": 0
+    }
+  ],
+  "ingested_at": "2026-05-31T16:47:32+00:00"
+}

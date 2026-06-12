@@ -1,0 +1,2363 @@
+CLINICAL MICROBIOLOGY REVIEWS, July 2003, p. 497–516
+Vol. 16, No. 3
+0893-8512/03/$08.000
+DOI: 10.1128/CMR.16.3.497–516.2003
+Copyright © 2003, American Society for Microbiology. All Rights Reserved.
+Mycotoxins
+J. W. Bennett1* and M. Klich2
+Department of Cell and Molecular Biology, Tulane University, New Orleans, Louisiana 70118,1 and Agricultural Research Service,
+Southern Regional Research Center, New Orleans, Louisiana 701242
+INTRODUCTION.......................................................................................................................................................497
+Mycoses and Mycotoxicoses ..................................................................................................................................497
+Deﬁnitions, Etymology, and General Principles.................................................................................................498
+Toxicology and Human Health .............................................................................................................................499
+MAJOR MYCOTOXINS............................................................................................................................................499
+Aﬂatoxins .................................................................................................................................................................499
+Citrinin.....................................................................................................................................................................501
+Ergot Alkaloids........................................................................................................................................................502
+Fumonisins...............................................................................................................................................................503
+Ochratoxin ...............................................................................................................................................................504
+Patulin......................................................................................................................................................................505
+Trichothecenes.........................................................................................................................................................505
+Zearalenone .............................................................................................................................................................507
+Other Mycotoxins and Purported Mycotoxicoses...............................................................................................508
+SPECIAL TOPICS......................................................................................................................................................508
+Bioterrorism.............................................................................................................................................................508
+Indoor Air Quality and Sick-Building Syndrome...............................................................................................509
+FOOD SAFETY AND REGULATION.....................................................................................................................509
+SUMMARY..................................................................................................................................................................510
+ACKNOWLEDGMENTS ...........................................................................................................................................511
+REFERENCES ............................................................................................................................................................511
+INTRODUCTION
+Mycoses and Mycotoxicoses
+Fungi are major plant and insect pathogens, but they are not
+nearly as important as agents of disease in vertebrates, i.e., the
+number of medically important fungi is relatively low. Frank
+growth of fungi on animal hosts produces the diseases collec-
+tively called mycoses, while dietary, respiratory, dermal, and
+other exposures to toxic fungal metabolites produce the dis-
+eases collectively called mycotoxicoses.
+Mycoses range from merely annoying (e.g., athlete’s foot) to
+life-threatening (e.g., invasive aspergillosis). The fungi that
+cause mycoses can be divided into two categories, primary
+pathogens (e.g., Coccidioides immitis and Histoplasma capsu-
+latum) and opportunistic pathogens (e.g., Aspergillus fumigatus
+and Candida albicans). Primary pathogens affect otherwise
+healthy individuals with normal immune systems. Opportunis-
+tic pathogens produce illness by taking advantage of debili-
+tated or immunocompromised hosts. The majority of human
+mycoses are caused by opportunistic fungi (149, 172, 245, 265).
+The mechanisms of pathogenesis of both primary and oppor-
+tunistic fungi are complex, and medical mycologists have de-
+voted considerable research energy trying to identify the fac-
+tors that distinguish fungal pathogens from saprophytic and
+commensal species (31, 66). Some infections remain localized,
+while others progress to systemic infection. For many mycoses,
+the ordinary portal of entry is through the pulmonary tract, but
+direct inoculation through skin contact is not uncommon.
+In contrast to mycoses, mycotoxicoses are examples of “poi-
+soning by natural means” and thus are analogous to the pa-
+thologies caused by exposure to pesticides or heavy metal res-
+idues. The symptoms of a mycotoxicosis depend on the type of
+mycotoxin; the amount and duration of the exposure; the age,
+health, and sex of the exposed individual; and many poorly
+understood synergistic effects involving genetics, dietary status,
+and interactions with other toxic insults. Thus, the severity of
+mycotoxin poisoning can be compounded by factors such as
+vitamin deﬁciency, caloric deprivation, alcohol abuse, and in-
+fectious disease status. In turn, mycotoxicoses can heighten
+vulnerability to microbial diseases, worsen the effects of mal-
+nutrition, and interact synergistically with other toxins.
+The number of people affected by mycoses and mycotoxico-
+ses is unknown. Although the total number affected is believed
+to be smaller than the number afﬂicted with bacterial, proto-
+zoan, and viral infections, fungal diseases are nevertheless a
+serious international health problem. Mycoses caused by op-
+portunistic pathogens are largely diseases of the developed
+world, usually occurring in patients whose immune systems
+have been compromised by advanced medical treatment. My-
+cotoxicoses, in contrast, are more common in underdeveloped
+nations. One of the characteristics shared by mycoses and
+mycotoxicoses is that neither category of illness is generally
+communicable from person to person.
+Mycoses are frequently acquired via inhalation of spores
+from an environmental reservoir or by unusual growth of a
+* Corresponding author. Mailing address: Department of Cell and
+Molecular Biology, Tulane University, New Orleans, LA 70118.
+Phone: (504) 788-8101. Fax: (504) 788-8765. E-mail: jbennett@tulane
+.edu.
+497
+
+commensal species that is normally resident on human skin or
+the gastrointestinal tract. These commensal species become
+pathogenic in the presence of antibacterial, chemotherapeutic,
+or immunosuppressant drugs, human immunodeﬁciency virus
+infection, in-dwelling catheters, and other predisposing factors
+(31, 66). The majority of mycotoxicoses, on the other hand,
+result from eating contaminated foods. Skin contact with mold-
+infested substrates and inhalation of spore-borne toxins are
+also important sources of exposure. Except for supportive ther-
+apy (e.g., diet, hydration), there are almost no treatments for
+mycotoxin exposure, although Fink-Gremmels (80) described
+a few methods for veterinary management of mycotoxicoses,
+and there is some evidence that some strains of Lactobacillus
+effectively bind dietary mycotoxins (72, 73). Oltipraz, a drug
+originally used to treat schistosomiasis, has been tested in
+Chinese populations environmentally exposed to aﬂatoxin
+(111).
+In plant pathology, many secondary metabolites produced
+by bacteria and fungi are pathogenicity or virulence factors,
+i.e., they play a role in causing or exacerbating the plant dis-
+ease. The phytotoxins made by fungal pathogens of Cochliobo-
+lus (Helminthosporium) and Alternaria, for example, have well-
+established roles in disease development (287), and several
+mycotoxins made by Fusarium species are important in plant
+pathogenesis (62). On the other hand, there is relatively little
+evidence that mycotoxins enhance the ability of fungi to grow
+in vertebrate hosts. Aspergillus fumigatus is case in point. It is
+the major species associated with aspergillosis and produces
+gliotoxins (inhibitors of T-cell activation and proliferation as
+well as macrophage phagocytosis). However, gliotoxin is not
+known to be produced in signiﬁcant amounts by Aspergillus
+fumigatus during human disease (265). On the other hand,
+there are reports that gliotoxin has been associated with infec-
+tions by Candida albicans (230, 231). The ability to grow at
+human body temperature (37°C) is clearly an important re-
+quirement for systemic mycotic infection, but the optimum
+temperature for the biosynthesis of most mycotoxins is within
+a more mesophilic range (20 to 30°C). For this and other
+reasons, the current view is that while some mycotoxins are
+known pathogenicity factors in plants, their signiﬁcance in hu-
+man mycoses is not yet clear.
+Deﬁnitions, Etymology, and General Principles
+It is difﬁcult to deﬁne mycotoxin in a few words. All myco-
+toxins are low-molecular-weight natural products (i.e., small
+molecules) produced as secondary metabolites by ﬁlamentous
+fungi. These metabolites constitute a toxigenically and chem-
+ically heterogeneous assemblage that are grouped together
+only because the members can cause disease and death in
+human beings and other vertebrates. Not surprisingly, many
+mycotoxins display overlapping toxicities to invertebrates,
+plants, and microorganisms (10).
+The term mycotoxin was coined in 1962 in the aftermath of
+an unusual veterinary crisis near London, England, during
+which approximately 100,000 turkey poults died (22, 82). When
+this mysterious turkey X disease was linked to a peanut
+(groundnut) meal contaminated with secondary metabolites
+from Aspergillus ﬂavus (aﬂatoxins), it sensitized scientists to the
+possibility that other occult mold metabolites might be deadly.
+Soon, the mycotoxin rubric was extended to include a number
+of previously known fungal toxins (e.g., the ergot alkaloids),
+some compounds that had originally been isolated as antibiot-
+ics (e.g., patulin), and a number of new secondary metabolites
+revealed in screens targeted at mycotoxin discovery (e.g., och-
+ratoxin A).
+The period between 1960 and 1975 has been termed the
+mycotoxin gold rush (157) because so many scientists joined
+the well-funded search for these toxigenic agents. Depending
+on the deﬁnition used, and recognizing that most fungal toxins
+occur in families of chemically related metabolites,. some 300
+to 400 compounds are now recognized as mycotoxins, of which
+approximately a dozen groups regularly receive attention as
+threats to human and animal health (49). Mycotoxicoses are
+the animal diseases caused by mycotoxins; mycotoxicology is
+the study of mycotoxins (84).
+While all mycotoxins are of fungal origin, not all toxic com-
+pounds produced by fungi are called mycotoxins. The target
+and the concentration of the metabolite are both important.
+Fungal products that are mainly toxic to bacteria (such as
+penicillin) are usually called antibiotics. Fungal products that
+are toxic to plants are called phytotoxins by plant pathologists
+(confusingly, the term phytotoxin can also refer to toxins made
+by plants; see Graniti [93] for a cogent discussion of the ety-
+mology of phytotoxin and its use in plant pathology). Myco-
+toxins are made by fungi and are toxic to vertebrates and other
+animal groups in low concentrations. Other low-molecular-
+weight fungal metabolites such as ethanol that are toxic only in
+high concentrations are not considered mycotoxins (10). Fi-
+nally, although mushroom poisons are deﬁnitely fungal metab-
+olites that can cause disease and death in humans and other
+animals, they are rather arbitrarily excluded from discussions
+of mycotoxicology. Molds (i.e., microfungi) make mycotoxins;
+mushrooms and other macroscopic fungi make mushroom poi-
+sons. The distinction between a mycotoxin and a mushroom
+poison is based not only on the size of the producing fungus,
+but also on human intention. Mycotoxin exposure is almost
+always accidental. In contrast, with the exception of the victims
+of a few mycologically accomplished murderers, mushroom
+poisons are usually ingested by amateur mushroom hunters
+who have collected, cooked, and eaten what was misidentiﬁed
+as a delectable species (184).
+Mycotoxins are not only hard to deﬁne, they are also chal-
+lenging to classify. Due to their diverse chemical structures and
+biosynthetic origins, their myriad biological effects, and their
+production by a wide number of different fungal species, clas-
+siﬁcation schemes tend to reﬂect the training of the person
+doing the categorizing. Clinicians often arrange them by the
+organ they affect. Thus, mycotoxins can be classiﬁed as hepa-
+totoxins, nephrotoxins, neurotoxins, immunotoxins, and so
+forth. Cell biologists put them into generic groups such as
+teratogens, mutagens, carcinogens, and allergens. Organic
+chemists have attempted to classify them by their chemical
+structures (e.g., lactones, coumarins); biochemists according to
+their biosynthetic origins (polyketides, amino acid-derived,
+etc.); physicians by the illnesses they cause (e.g., St. Anthony’s
+ﬁre, stachybotryotoxicosis), and mycologists by the fungi that
+produce them (e.g., Aspergillus toxins, Penicillium toxins).
+None of these classiﬁcations is entirely satisfactory. Moreover,
+as our anthropomorphic focus shifts attention, the same com-
+498
+BENNETT AND KLICH
+CLIN. MICROBIOL. REV.
+
+pound may get placed in different cognitive cubbyholes. Aﬂa-
+toxin, for example, is a hepatotoxic, mutagenic, carcinogenic,
+difuran-containing, polyketide-derived Aspergillus toxin. Zea-
+ralenone is a Fusarium metabolite with potent estrogenic ac-
+tivity; hence, in addition to being called (probably erroneously)
+a mycotoxin, it also has been labeled a phytoestrogen, a my-
+coestrogen, and a growth promotant. For this article, we will
+eschew classiﬁcation and simply list the major mycotoxins in
+alphabetical order by name.
+Toxicology and Human Health
+Toxicologists tend to concentrate their efforts on hazardous
+chemicals such as polyaromatic hydrocarbons, heavy metals,
+and organic pesticides. Because they have devoted less effort to
+natural products, agriculturalists, chemists, microbiologists,
+and veterinarians who are often unfamiliar with the basic prin-
+ciples of toxicology have conducted most of the mycotoxin
+research. There has been a lot of reinventing of the wheel and
+sometimes an imprecise use of toxicology jargon.
+For example, mycotoxicoses, like all toxicological syn-
+dromes, can be categorized as acute or chronic. Acute toxicity
+generally has a rapid onset and an obvious toxic response,
+while chronic toxicity is characterized by low-dose exposure
+over a long time period, resulting in cancers and other gener-
+ally irreversible effects (128). Accepting that it is often difﬁcult
+to distinguish between acute and chronic effects, many papers
+on mycotoxicoses blur this basic dichotomy entirely, and it is
+not always easy to interpret the published data on purported
+health effects. Almost certainly, the main human and veteri-
+nary health burden of mycotoxin exposure is related to chronic
+exposure (e.g., cancer induction, kidney toxicity, immune sup-
+pression). However, the best-known mycotoxin episodes are
+manifestations of acute effects (e.g., turkey X syndrome, hu-
+man ergotism, stachybotryotoxicosis).
+In order to demonstrate that a disease is a mycotoxicosis, it
+is necessary to show a dose-response relationship between the
+mycotoxin and the disease. For human populations, this cor-
+relation requires epidemiological studies. Supportive evidence
+is provided when the characteristic symptoms of a suspected hu-
+man mycotoxicosis are evoked reproducibly in animal models by
+exposure to the mycotoxin in question (121). Human exposure to
+mycotoxins is further determined by environmental or biological
+monitoring. In environmental monitoring, mycotoxins are mea-
+sured in food, air, or other samples; in biological monitoring, the
+presence of residues, adducts, and metabolites is assayed directly
+in tissues, ﬂuids, and excreta (121).
+In general, mycotoxin exposure is more likely to occur in
+parts of the world where poor methods of food handling and
+storage are common, where malnutrition is a problem, and
+where few regulations exist to protect exposed populations. How-
+ever, even in developed countries, speciﬁc subgroups may be
+vulnerable to mycotoxin exposure. In the United States, for ex-
+ample, Hispanic populations consume more corn products than
+the rest of the population, and inner city populations are more
+likely to live in buildings that harbor high levels of molds (5).
+Methods for controlling mycotoxins are largely preventive.
+They include good agricultural practice and sufﬁcient drying of
+crops after harvest (153). There is considerable on-going re-
+search on methods to prevent preharvest contamination of
+crops. These approaches include developing host resistance
+through plant breeding and through enhancement of antifun-
+gal genes by genetic engineering, use of biocontrol agents, and
+targeting regulatory genes in mycotoxin development (26). As
+of now, none of these methods has solved the problem. Be-
+cause mycotoxins are “natural” contaminants of foods, their
+formation is often unavoidable. Many efforts to address the
+mycotoxin problem simply involve the diversion of mycotoxin-
+contaminated commodities from the food supply through gov-
+ernment screening and regulation programs.
+There is a vast literature on mycotoxins, and numerous
+monographs have been published (15, 16, 19, 47, 49, 64, 133,
+136, 150, 162, 177, 211, 216, 235, 237, 246, 259, 283, 285, 286).
+In addition, there are hundreds of review articles and thou-
+sands and thousands of papers in the primary literature. Un-
+fortunately, too many publications about mycotoxins consist
+largely of mind-numbing accumulations of assorted facts: lists
+of clinical manifestations in different animal species (both ex-
+posure tests in laboratories and veterinary diagnoses of mycotox-
+icoses in agricultural settings), compendia of different toxins
+found in different foodstuffs, comparisons of assay protocols, ta-
+bles of international regulations governing mycotoxin levels, and
+so forth. There is also a signiﬁcant literature addressing funda-
+mental studies describing organic syntheses, elucidation of bio-
+synthetic pathways, cloning of mycotoxin pathway genes, and
+other less applied aspects of mycotoxin research.
+The scientiﬁc quality of the mycotoxin literature is extremely
+variable. There is a disconcertingly high level of inaccuracy in
+a few reports, with some authors culling their information from
+earlier reviews of questionable merit and thereby perpetuating
+factual errors and discredited hypotheses. Where possible, we
+will attempt to point out such misinformation. We will focus on
+those mycotoxins that are known or suspected to cause human
+disease; on metabolites that are produced by molds that are
+associated with human food or habitation; and on other topics
+related directly to human health. Previous reviews on myco-
+toxins and human health include those by the Council for
+Agricultural Science and Technology (53), Robens and Rich-
+ard (215), Beardall and Miller (7), Kuiper-Goodman (145),
+Fink-Gremmels (80), Peraica et al. (195), Hussein and Brasel
+(126), and Etzel (76). Because the ﬁeld of mycotoxin research
+is so large and so fragmented, and because the criteria for
+establishing human mycotoxicoses are so elusive, the goal of
+this article is to give a simple introduction to clinical microbi-
+ologists. We will brieﬂy describe what is known about the
+chemical structure and biosynthesis of the mycotoxin, list the
+producing fungal species, and give the clinical manifestations
+and toxicological proﬁles of the associated mycotoxicoses. In
+each case, we will refer the reader to selected pertinent papers
+from the primary literature as well as to other, more compre-
+hensive reviews.
+MAJOR MYCOTOXINS
+Aﬂatoxins
+The aﬂatoxins were isolated and characterized after the
+death of more than 100,000 turkey poults (turkey X disease)
+was traced to the consumption of a mold-contaminated peanut
+meal (22, 91). The four major aﬂatoxins are called B1, B2, G1,
+VOL. 16, 2003
+MYCOTOXINS
+499
+
+and G2 based on their ﬂuorescence under UV light (blue or
+green) and relative chromatographic mobility during thin-layer
+chromatography. Aﬂatoxin B1 (Fig. 1) is the most potent nat-
+ural carcinogen known (243) and is usually the major aﬂatoxin
+produced by toxigenic strains. It is also the best studied: in a
+large percentage of the papers published, the term aﬂatoxin
+can be construed to mean aﬂatoxin B1. However, well over a
+dozen other aﬂatoxins (e.g., P1. Q1, B2a, and G2a) have been
+described, especially as mammalian biotransformation prod-
+ucts of the major metabolites (104). The classic book Aﬂatoxin:
+Scientiﬁc Background, Control, and Implications, published in
+1969 (91), is still a valuable resource for reviewing the history,
+chemistry, toxicology, and agricultural implications of aﬂatoxin
+research.
+Aﬂatoxins are difuranocoumarin derivatives produced by a
+polyketide pathway by many strains of Aspergillus ﬂavus and
+Aspergillus parasiticus; in particular, Aspergillus ﬂavus is a com-
+mon contaminant in agriculture. Aspergillus bombycis, Aspergil-
+lus ochraceoroseus, Aspergillus nomius, and Aspergillus pseudo-
+tamari are also aﬂatoxin-producing species, but they are
+encountered less frequently (92, 139, 197). From the mycolog-
+ical perspective, there are great qualitative and quantitative
+differences in the toxigenic abilities displayed by different
+strains within each aﬂatoxigenic species. For example, only
+about half of Aspergillus ﬂavus strains produce aﬂatoxins (138),
+while those that do may produce more than 106 g/kg (51).
+Many substrates support growth and aﬂatoxin production by
+aﬂatoxigenic molds. Natural contamination of cereals, ﬁgs, oil-
+seeds, nuts, tobacco, and a long list of other commodities is a
+common occurrence (63, 65). Like the genetic ability to make
+aﬂatoxin, contamination is highly variable. Sometimes crops
+become contaminated with aﬂatoxin in the ﬁeld before harvest,
+where it is usually associated with drought stress (65, 137);
+even more problematic is the fate of crops stored under con-
+ditions that favor mold growth. In storage, usually the most
+important variables are the moisture content of the substrate
+and the relative humidity of the surroundings (63, 280). Aﬂa-
+toxin contamination has been linked to increased mortality in
+farm animals and thus signiﬁcantly lowers the value of grains as
+an animal feed and as an export commodity (238). Milk prod-
+ucts can also serve as an indirect source of aﬂatoxin. When
+cows consume aﬂatoxin-contaminated feeds, they metaboli-
+cally biotransform aﬂatoxin B1 into a hydroxylated form called
+aﬂatoxin M1 (267).
+Aﬂatoxin is associated with both toxicity and carcinogenicity
+in human and animal populations (70, 186, 193, 232). The
+diseases caused by aﬂatoxin consumption are loosely called
+aﬂatoxicoses. Acute aﬂatoxicosis results in death; chronic af-
+latoxicosis results in cancer, immune suppression, and other
+“slow” pathological conditions (121). The liver is the primary
+target organ, with liver damage occurring when poultry, ﬁsh,
+rodents, and nonhuman primates are fed aﬂatoxin B1. There
+are substantial differences in species susceptibility. Moreover,
+within a given species, the magnitude of the response is inﬂu-
+enced by age, sex, weight, diet, exposure to infectious agents,
+and the presence of other mycotoxins and pharmacologically
+active substances. Thousands of studies on aﬂatoxin toxicity
+have been conducted, mostly concerning laboratory models or
+agriculturally important species (56, 70, 186).
+Cytochrome P450 enzymes convert aﬂatoxins to the reactive
+8,9-epoxide form (also referred to as aﬂatoxin-2,3 epoxide in
+the older literature), which is capable of binding to both DNA
+and proteins (70). Mechanistically, it is known that the reactive
+aﬂatoxin epoxide binds to the N7 position of guanines. More-
+over, aﬂatoxin B1-DNA adducts can result in GC to TA trans-
+versions. A reactive glutathione S-transferase system found in
+the cytosol and microsomes catalyzes the conjugation of acti-
+vated aﬂatoxins with reduced glutathione, leading to the ex-
+cretion of aﬂatoxin (208). Variation in the level of the gluta-
+thione
+transferase
+system
+as
+well
+as
+variations
+in
+the
+cytochrome P450 system are thought to contribute to the dif-
+ferences observed in interspecies aﬂatoxin susceptibility (70,
+71).
+Because of the differences in aﬂatoxin susceptibility in test
+animals, it has been difﬁcult to extrapolate the possible effects
+of aﬂatoxin to humans, but acute toxicity of aﬂatoxins in Homo
+sapiens has not been observed very often. It is believed that a
+1974 Indian outbreak of hepatitis in which 100 people died
+may have been due to the consumption of maize that was
+heavily contaminated with aﬂatoxin. Some adults may have
+eaten 2 to 6 mg of aﬂatoxin in a single day (141). Subsequently,
+it was calculated that the acute lethal dose for adults is ap-
+proximately 10 to 20 mg of aﬂatoxins (200). One anecdotal
+report refutes this estimate. A woman who had ingested over
+40 mg of puriﬁed aﬂatoxin in a suicide attempt was still alive 14
+years later. Multiple laboratory tests of her urine and blood,
+and X-ray, ultrasound, and computerized axial tomography
+analyses of her abdomen, liver, and spleen all gave normal
+results (279).
+It has been hypothesized that kwashiorkor, a severe malnu-
+trition disease, may be a form of pediatric aﬂatoxicosis (109).
+Further early speculations that aﬂatoxin might be involved in
+Reye’s syndrome, an encephalopathy, and fatty degeneration
+of the viscera in children and adolescents (102) have not been
+substantiated. Nevertheless, aﬂatoxin has achieved some noto-
+riety as a poison. The plot of The Human Factor, a spy thriller
+by Graham Greene (95), revolves around the murder of a
+central ﬁgure whose whiskey was laced with aﬂatoxin (a toxi-
+cologically improbable way to kill someone). Nevertheless, af-
+latoxin’s reputation has a potent poison may explain why it has
+been adopted for use in bioterrorism. There is substantial
+evidence that Iraq stockpiled aﬂatoxin to be delivered in mis-
+siles (see section on bioterrorism below).
+The data on aﬂatoxin as a human carcinogen are far more
+damning than the data implicating it in acute human toxicities.
+FIG. 1. Aﬂatoxin B1.
+500
+BENNETT AND KLICH
+CLIN. MICROBIOL. REV.
+
+Exposure to aﬂatoxins in the diet is considered an important
+risk factor for the development of primary hepatocellular car-
+cinoma, particularly in individuals already exposed to hepatitis
+B. In classical epidemiology, several studies have linked liver
+cancer incidence to estimated aﬂatoxin consumption in the
+diet (152, 193, 270). The results of these studies have not been
+entirely consistent, and quantiﬁcation of lifetime individual
+exposure to aﬂatoxin is extremely difﬁcult. The incidence of
+liver cancer varies widely from country to country, but it is one
+of the most common cancers in China, the Philippines, Thai-
+land, and many African countries. The presence of hepatitis B
+virus infection, an important risk factor for primary liver can-
+cer, complicates many of the epidemiological studies. In one
+case-control study involving more than 18,000 urine samples
+collected over 3.5 years in Shanghai, China, aﬂatoxin exposure
+alone yielded a relative risk of about 2; hepatitis B virus anti-
+gen alone yielded a relative risk of about 5; combined exposure
+to aﬂatoxin and hepatitis B yielded a relative risk of about 60
+(217). Vaccination against hepatitis B virus is recommended as
+a more realistic and cost-effective strategy for lowering liver
+cancer incidence than removing aﬂatoxin from the diet (111,
+112).
+In molecular epidemiology, it is possible to demonstrate
+with more certainty the association between putative carcino-
+gens and speciﬁc cancers. Biomonitoring of aﬂatoxins can be
+done by analyzing for the presence of aﬂatoxin metabolites in
+blood, milk, and urine; moreover, excreted DNA adducts and
+blood protein adducts can also be monitored (221). The aﬂa-
+toxin B1-N7-guanine adduct represents the most reliable uri-
+nary biomarker for aﬂatoxin exposure but reﬂects only recent
+exposure. Numerous studies have shown that carcinogenic po-
+tency is highly correlated with the extent of total DNA adducts
+formed in vivo (69, 70).
+Inactivation of the p53 tumor suppressor gene may be im-
+portant in the development of primary hepatocellular carci-
+noma. Studies of liver cancer patients in Africa and China have
+shown that a mutation in the p53 tumor suppressor gene at
+codon 249 is associated with a G-to-T transversion (23, 122).
+Mechanistically, it is known that the reactive aﬂatoxin epoxide
+binds to the N7 position of guanines. Moreover, aﬂatoxin B1-
+DNA adducts can result in GC to TA transversions. The spe-
+ciﬁc mutation in codon 249 of the p53 gene has been called the
+ﬁrst example of a “carcinogen-speciﬁc” biomarker that re-
+mains ﬁxed in the tumor tissue (69).
+There is also considerable evidence associating aﬂatoxin
+with neoplasms in extrahepatic tissues, particularly the lungs.
+For example, one early epidemiological study of Dutch peanut
+processing workers exposed to dust contaminated with aﬂa-
+toxin B1 showed a correlation between both respiratory cancer
+and total cancer in the exposed group compared with unex-
+posed cohorts (103). Anecdotal and circumstantial evidence of
+air-borne aﬂatoxin exposure leading to cancer has been re-
+ported. Deger (59) concluded that dust from scrapings of chro-
+matographic plates from aﬂatoxin analyses contributed to
+causing cancer in two young adults. Aﬂatoxin is a pulmonary
+carcinogen in experimental animals. The nonhepatic effects of
+aﬂatoxin B1 have been summarized by Coulombe (52).
+To recapitulate, there is no other natural product for which
+the data on human carcinogenicity are so compelling. The
+International Agency for Research on Cancer has classiﬁed
+aﬂatoxin B1 as a group I carcinogen (127).
+In developed countries, sufﬁcient amounts of food combined
+with regulations that monitor aﬂatoxin levels in these foods
+protect human populations from signiﬁcant aﬂatoxin ingestion.
+However, in countries where populations are facing starvation
+or where regulations are either not enforced or nonexistent,
+routine ingestion of aﬂatoxin may occur (51). Worldwide, liver
+cancer incidence rates are 2 to 10 times higher in developing
+countries than in developed countries (112). Unfortunately,
+strict limitation of aﬂatoxin-contaminated food is not always an
+option. A joint Food and Agriculture Organization/World
+Health
+Organization/United
+Nations
+Environment
+Pro-
+gramme Conference report stated that “in developing coun-
+tries, where food supplies are already limited, drastic legal
+measure may lead to lack of food and to excessive prices. It
+must be remembered that people living in these countries
+cannot exercise the option of starving to death today in order
+to live a better life tomorrow” (quoted in Henry et al. [112]).
+There has been considerable fundamental work on the af-
+latoxins, especially on their biosynthesis and molecular biology.
+The ﬁrst stable step in the biosynthetic pathway is the produc-
+tion of norsolorinic acid, an anthraquinone precursor, by a type
+II polyketide synthase. An elaborate series of at least 15 post-
+polyketide synthase steps follows, yielding a series of increas-
+ingly toxigenic metabolites (12, 48, 114, 192, 256, 257). Sterig-
+matocystin, a related dihydrofuran toxin, is a late metabolite in
+the aﬂatoxin pathway and is also produced as a ﬁnal biosyn-
+thetic product by a number of species such as Aspergillus ver-
+sicolor and Aspergillus nidulans. Sterigmatocystin is both mu-
+tagenic and tumorigenic but is less potent than aﬂatoxin (14).
+Analysis of the molecular genetics of sterigmatocystin biosyn-
+thesis in the genetically tractable species Aspergillus nidulans
+has provided a useful model system. The genes for the sterig-
+matocystin gene cluster from Aspergillus nidulans have been
+cloned and sequenced (25). Cognate genes for aﬂatoxin path-
+way enzymes from Aspergillus ﬂavus and Aspergillus parasiticus
+show high sequence similarity to the sterigmatocystin pathway
+genes (192, 288, 289). The organization of genes in the As-
+pergillus ﬂavus, Aspergillus nidulans, and Aspergillus parasiticus
+sterigmatocystin-aﬂatoxin pathway has been compared by Cary
+et al. (34) and Hicks et al. (114).
+Finally, it should be mentioned that Aspergillus oryzae and As-
+pergillus sojae, species that are widely used in Asian food fermen-
+tations such as soy sauce, miso, and sake, are closely related to the
+aﬂatoxigenic species Aspergillus ﬂavus and Aspergillus parasiticus.
+Although these food fungi have never been shown to produce
+aﬂatoxin (276), they contain homologues of several aﬂatoxin bio-
+synthesis pathway genes (140). Deletions and other genetic de-
+fects have led to silencing of the aﬂatoxin pathway in both As-
+pergillus oryzae and Aspergillus sojae (254, 274).
+Citrinin
+Citrinin (Fig. 2) was ﬁrst isolated from Penicillium citrinum
+prior to World War II (113); subsequently, it was identiﬁed in
+over a dozen species of Penicillium and several species of
+Aspergillus (e.g., Aspergillus terreus and Aspergillus niveus), in-
+cluding certain strains of Penicillium camemberti (used to pro-
+duce cheese) and Aspergillus oryzae (used to produce sake,
+VOL. 16, 2003
+MYCOTOXINS
+501
+
+miso, and soy sauce) (158). More recently, citrinin has also
+been isolated from Monascus ruber and Monascus purpureus,
+industrial species used to produce red pigments (21).
+Citrinin has been associated with yellow rice disease in Ja-
+pan (222). It has also been implicated as a contributor to
+porcine nephropathy. Citrinin acts as a nephrotoxin in all an-
+imal species tested, but its acute toxicity varies in different
+species (33). The 50% lethal dose for ducks is 57 mg/kg; for
+chickens it is 95 mg/kg; and for rabbits it is 134 mg/kg (100).
+Citrinin can act synergistically with ochratoxin A to depress
+RNA synthesis in murine kidneys (223). For a review of the
+early literature, see Krogh (142).
+Wheat, oats, rye, corn, barley, and rice have all been re-
+ported to contain citrinin (2). With immunoassays, citrinin was
+detected in certain vegetarian foods colored with Monascus
+pigments (39). Citrinin has also been found in naturally fer-
+mented sausages from Italy (4). Although citrinin is regularly
+associated with human foods, its signiﬁcance for human health
+is unknown.
+Ergot Alkaloids
+The ergot alkaloids are among the most fascinating of fungal
+metabolites. They are classiﬁed as indole alkaloids and are
+derived from a tetracyclic ergoline ring system. Lysergic acid, a
+structure common to all ergot alkaloids, was ﬁrst isolated in
+1934. The clavines have ergoline as a basic structure but lack
+peptide components; the lysergic acid alkaloids include ergot-
+amine and lysergic acid amide (ergine) (11). The structure of
+ergotamine is shown in Fig. 3.
+These compounds are produced as a toxic cocktail of alka-
+loids in the sclerotia of species of Claviceps, which are common
+pathogens of various grass species. The ingestion of these scle-
+rotia, or ergots, has been associated with diseases since anti-
+quity. An Assyrian tablet dated to 600 B.C.E., referring to a
+“noxious pustule in the ear of grain,” is believed to be an early
+reference to ergot (120). The human disease acquired by eat-
+ing cereals infected with ergot sclerotia, usually in the form of
+bread made from contaminated ﬂour, is called ergotism or St.
+Anthony’s ﬁre. Two forms of ergotism are usually recognized,
+gangrenous and convulsive. The gangrenous form affects the
+blood supply to the extremities, while convulsive ergotism af-
+fects the central nervous system (11).
+Human ergotism was common in Europe in the Middle
+Ages. For example, a three-volume work entitled Handbook of
+Geographical and Historical Pathology published in London by
+August Hirch between 1883 and 1886 recorded 132 epidemics
+of European ergotism between the 6th and 18th centuries (98).
+Matossian (170) has suggested that the “slow nervous fever”
+described by the 18th century English physician Jon Huxham
+may be another example of human ergotism. Slow nervous
+fever usually occurred in the summer and fall after a severe
+winter; Huxham suspected “bad food” as the source of the
+trouble. Matossian (171) has also postulated that ergot alka-
+loids may have had a strong inﬂuence on fertility trends in
+England and other European countries during the 17th and
+18th centuries.
+Modern methods of grain cleaning have almost eliminated
+ergotism as a human disease. Nevertheless, purported ergot
+poisoning occurred in the French town of Pont-St.-Esprit in
+1951 and was the subject of a full-length book treatment, The
+Day of St. Anthony’s Fire (85). Ergotism is still an important
+veterinarian problem. The principal animals at risk are cattle,
+sheep, pigs, and chickens. Clinical symptoms of ergotism in
+animals include gangrene, abortion, convulsions, suppression
+of lactation, hypersensitivity, and ataxia (154).
+Sometimes the line between toxin and drug is deﬁned with
+the shift of a decimal point or a change in a small chemical
+moiety. The ergot alkaloids are a case in point. Their myriad
+actions have long engaged the interest of physicians and phar-
+macologists. Several ergot alkaloids induce smooth muscle
+contractions. For centuries it had been observed that grazing
+on grass infected with ergot caused abortion in pregnant farm
+animals, so it is not surprising that midwives and others
+adopted ergot as a folk medicine, using it as both an abortifa-
+cient and a drug to accelerate to uterine contractions for
+women in labor (213). During the 20th century, the famous
+hallucinogen lysergic acid diethylamide (LSD) was discovered
+as the result of research with ergot alkaloids conducted at the
+Sandoz Laboratories in Basel, Switzerland. A chemist named
+Hofmann combined different amines in peptide linkage with
+lysergic acid to produce ergobasine (also called ergometrine
+and ergonovine), the ﬁrst semisynthetic ergot alkaloid. Then,
+by varying the amino alcohol constituent, he obtained Mether-
+gine, a compound prescribed widely for decades to control
+hemorrhage after childbirth. Hofmann continued to synthesize
+new lysergic acid derivatives; the 25th substance in his series
+was D-lysergic acid diethylamide (LSD-25). In 1943, after ac-
+FIG. 2. Citrinin.
+FIG. 3. Ergotamine.
+502
+BENNETT AND KLICH
+CLIN. MICROBIOL. REV.
+
+cidentally ingesting some of the compound, he discovered the
+hallucinogenic properties of this semisynthetic derivative
+(120). For a while, Sandoz marketed LSD to psychiatrists un-
+der the trademark Delysid. It was used unsuccessfully to treat
+schizophrenia. In a bizarre chapter of American history, the
+Central Intelligence Agency, under the code name MK-
+ULTRA, used LSD as a truth serum for interrogating sus-
+pected communists (262). More recently, pure ergotamine has
+been used for the treatment of migraine headaches. Other
+ergot derivatives are used as prolactin inhibitors, in the treat-
+ment of Parkinsonism, and in cases of cerebrovascular insuf-
+ﬁciency (11). The therapeutic administration of ergot alkaloids
+may cause sporadic cases of human ergotism (30).
+Finally, it has been hypothesized that the Salem witchcraft
+affair may have been a form of convulsive ergotism related to
+consumption of rye infected with Claviceps sclerotia (32, 169).
+Although some historians dispute this hypothesis (242), the
+epidemiological and clinical data are quite provocative (11).
+Robin Cook, the author of a number of bestsellers, used the
+Salem-ergot hypothesis as the basis for a novel in which a
+young physician isolates Claviceps spores from a damp New
+England cellar, cultures the fungus, and then discovers a new
+alkaloid with mind- and energy-enhancing properties. Taking a
+cue from the Central Intelligence Agency, he names his drug
+Ultra and founds a biotechnology company in order to reap
+proﬁts from the would-be “billion-dollar molecule.” In the end
+it is discovered that the euphoria-inducing ﬁctional alkaloid
+has horrifying side effects (50). Cook’s novel is our personal
+favorite example of mycotoxins in popular culture.
+Fumonisins
+Fumonisins were ﬁrst described and characterized in 1988
+(17, 87). The most abundantly produced member of the family
+is fumonisin B1 (Fig. 4). They are thought to be synthesized by
+condensation of the amino acid alanine into an acetate-derived
+precursor (250). Fumonisins are produced by a number of
+Fusarium species, notably Fusarium verticillioides (formerly
+Fusarium moniliforme  Gibberella fujikuroi), Fusarium prolif-
+eratum, and Fusarium nygamai, as well as Alternaria alternata f.
+sp. lycopersici (164, 210). These fungi are taxonomically chal-
+lenging, with a complex and rapidly changing nomenclature
+which has perplexed many nonmycologists (and some mycol-
+ogists, too) (151, 165). The major species of economic impor-
+tance is Fusarium verticillioides, which grows as a corn endo-
+phyte in both vegetative and reproductive tissues, often
+without causing disease symptoms in the plant. However, when
+weather conditions, insect damage, and the appropriate fungal
+and plant genotype are present, it can cause seedling blight,
+stalk rot, and ear rot (185). Fusarium verticillioides is present in
+virtually all corn samples (167, 164). Most strains do not pro-
+duce the toxin, so the presence of the fungus does not neces-
+sarily mean that fumonisin is also present (203). Although it is
+phytotoxic, fumonisin B1 is not required for plant pathogenesis
+(60, 160).
+Fumonisins affect animals in different ways by interfering
+with sphingolipid metabolism (68, 161, 175, 273). They cause
+leukoencephalomalacia (hole in the head syndrome) in
+equines (163) and rabbits (27); pulmonary edema and hydro-
+thorax in swine (101); and hepatotoxic and carcinogenic effects
+(87, 88, 89) and apoptosis in the liver of rats (204). In humans,
+there is a probable link with esophageal cancer (252). The
+occurrence of fumonisin B1 is correlated with the occurrence
+of a higher incidence of esophageal cancer in regions of Tran-
+skei (South Africa), China, and northeast Italy (195). It has
+been isolated at high levels in corn meal and corn grits, includ-
+ing seven samples from a supermarket in Charleston, S.C., a
+city which has the highest incidence of esophageal cancer
+among African-Americans in the United States (252). Several
+other mycotoxins, nutritional parameters, and other factors
+have also been implicated in the etiology of human esophageal
+cancer; see Beardall and Miller (7) for an excellent discussion
+of the way in which multiple etiological factors are suspected to
+interact.
+A possible case of acute exposure to fumonisin B1 involved
+27 villages in India, where consumption of unleavened bread
+FIG. 4. Fumonisin B1.
+VOL. 16, 2003
+MYCOTOXINS
+503
+
+made from moldy sorghum or corn caused transient abdominal
+pain, borborygmus, and diarrhea. All those affected recovered
+fully (18). Finally, fumonisins can cause neural tube defects in
+experimental animals and thus may also have a role in human
+cases. It has been hypothesized that a cluster of anencephaly
+and spina biﬁda cases in southern Texas may have been related
+to fumonisins in corn products (107, 108, 181). The Interna-
+tional Agency for Research on Cancer has evaluated the can-
+cer risk of fumonisins to humans and classiﬁed them as group
+2B (probably carcinogenic) (210).
+Unlike most known mycotoxins, which are soluble in organic
+solvents, fumonisins are hydrophilic. This makes them difﬁcult
+to study. Usually they are extracted in aqueous methanol or
+aqueous acetonitrile (20). High-performance liquid chroma-
+tography with ﬂuorescent detection is the most widely used
+analytic method (202). The fumonisin story raises the specter
+that there may be many other occult but toxic products of
+fungal metabolism that have not yet been discovered because
+of their hydrophilic nature.
+Ochratoxin
+Ochratoxin A (Fig. 5) was discovered as a metabolite of
+Aspergillus ochraceus in 1965 during a large screen of fungal
+metabolites that was designed speciﬁcally to identify new my-
+cotoxins (266). Shortly thereafter, it was isolated from a com-
+mercial corn sample in the United States (234) and recognized
+as a potent nephrotoxin. Members of the ochratoxin family
+have been found as metabolites of many different species of
+Aspergillus, including Aspergillus alliaceus, Aspergillus aurico-
+mus, Aspergillus carbonarius, Aspergillus glaucus, Aspergillus
+melleus, and Aspergillus niger (1, 6, 46). Because Aspergillus
+niger is used widely in the production of enzymes and citric acid
+for human consumption, it is important to ensure that indus-
+trial strains are nonproducers (105, 255). Although some early
+reports implicated several Penicillium species, it is now thought
+that Penicillium verrucosum, a common contaminant of barley,
+is the only conﬁrmed ochratoxin producer in this genus (41,
+199). Nevertheless, many mycotoxin reviews reiterate errone-
+ous species lists.
+As with other mycotoxins, the substrate on which the molds
+grow as well as the moisture level, temperature, and presence
+of competitive microﬂora interact to inﬂuence the level of
+toxin produced. Ochratoxin A has been found in barley, oats,
+rye, wheat, coffee beans, and other plant products, with barley
+having a particularly high likelihood of contamination. There is
+also concern that ochratoxin may be present in certain wines,
+especially those from grapes contaminated with Aspergillus car-
+bonarius (166, 200, 269).
+Of the Aspergillus toxins, only ochratoxin is potentially as
+important as the aﬂatoxins. The kidney is the primary target
+organ. Ochratoxin A is a nephrotoxin to all animal species
+studied to date and is most likely toxic to humans, who have
+the longest half-life for its elimination of any of the species
+examined (54). In addition to being a nephrotoxin, animal
+studies indicate that ochratoxin A is a liver toxin, an immune
+suppressant, a potent teratogen, and a carcinogen (7, 146).
+Ochratoxin A disturbs cellular physiology in multiple ways, but
+it seems that the primary effects are associated with the en-
+zymes involved in phenylalanine metabolism, mostly by inhib-
+iting the enzyme involved in the synthesis of the phenylalanine-
+tRNA complex (28, 166). In addition, it inhibits mitochondrial
+ATP production (174) and stimulates lipid peroxidation (207).
+Ochratoxin has been detected in blood and other animal
+tissues and in milk, including human milk (166). It is frequently
+found in pork intended for human consumption (80). Ochra-
+toxin is believed to be responsible for a porcine nephropathy
+that has been studied intensively in the Scandinavian countries.
+The disease is endemic in Denmark, where rates of porcine
+nephropathy and ochratoxin contamination in pig feed are
+highly correlated (143). In addition, ochratoxin is associated
+with disease and death in poultry (29, 99).
+There has been speculation that ochratoxins are involved in
+a human disease called endemic Balkan nephropathy (123,
+143). This condition is a progressive chronic nephritis that
+occurs in populations who live in areas bordering the Danube
+River in parts of Romania, Bulgaria, and the former Yugosla-
+via. In one Bulgarian study, ochratoxin contamination of food
+and the presence of ochratoxin in human serum were more
+common in families with endemic Balkan nephropathy and
+urinary tract tumors than in unaffected families (35). In addi-
+tion to ochratoxin poisoning, this curious disease has been
+attributed to genetic factors, heavy metals, and possible occult
+infectious agents. The current consensus is that endemic Bal-
+kan nephropathy is of unknown etiology, but many mycotoxin
+reviews list it, without caveat, as an ochratoxicosis.
+It has also been hypothesized that the gene for phenylketo-
+nuria might occur in relatively high frequency because of a
+heterozygous advantage against ochratoxin poisoning (284)
+and that ochratoxin might be a risk factor for testicular cancer
+(226).
+How common is human exposure to ochratoxin? Studies
+from Canada, Sweden, West Germany, and Yugoslavia de-
+tected ochratoxin in human blood and serum (146). Analyses
+of urine from children in Sierra Leone detected both ochra-
+toxin and aﬂatoxin throughout the year (135).
+Several detailed risk assessments have been conducted for
+ochratoxin A (146). Given the known human exposure and the
+abundance of toxicological data from animal studies, the Eu-
+ropean Union Scientiﬁc Committee has recommended that
+ochratoxin A levels be reduced to below 5 ng/kg of body weight
+per day (251). In addition, several European countries have
+proposed individual regulations, with maximum tolerated con-
+centrations varying greatly from country to country (131, 268).
+The International Agency for Research on Cancer has rated
+ochratoxin as a possible human carcinogen (category 2B) (7).
+FIG. 5. Ochratoxin A.
+504
+BENNETT AND KLICH
+CLIN. MICROBIOL. REV.
+
+In conclusion, it would be prudent for the medical commu-
+nity to pay closer attention to the possibility of ochratoxin
+toxicity in patients with symptoms of renal pathology (54).
+Although the role of ochratoxin A in human disease is still
+speculative, its acute nephrotoxicity, immunosuppressive ac-
+tions, and teratogenic effects in animal models, coupled with its
+ability to be carried through the food chain, merit concern.
+Patulin
+Patulin, 4-hydroxy-4H-furo[3,2c]pyran-2(6H)-one, is pro-
+duced by many different molds but was ﬁrst isolated as an
+antimicrobial active principle during the 1940s from Penicil-
+lium patulum (later called Penicillium urticae, now Penicillium
+griseofulvum). The same metabolite was also isolated from
+other species and given the names clavacin, claviformin, ex-
+pansin, mycoin c, and penicidin (45). The chemical structure is
+shown in Fig. 6. A number of early studies were directed
+towards harnessing its antibiotic activity. For example, it was
+tested as both a nose and throat spray for treating the common
+cold and as an ointment for treating fungal skin infections (44,
+45). However, during the 1950s and 1960s, it became apparent
+that, in addition to its antibacterial, antiviral, and antiprotozoal
+activity, patulin was toxic to both plants and animals, preclud-
+ing its clinical use as an antibiotic. During the 1960s, patulin
+was reclassiﬁed as a mycotoxin.
+Nowadays, Penicillium expansum, the blue mold that causes
+soft rot of apples, pears, cherries, and other fruits, is recog-
+nized as one of the most common offenders in patulin contam-
+ination. Patulin is regularly found in unfermented apple juice,
+although it does not survive the fermentation into cider prod-
+ucts (260). Patulin is toxic at high concentration in laboratory
+settings, but evidence for natural poisoning is indirect and
+inconclusive. Nevertheless, the Joint Food and Agriculture Or-
+ganization–World Health Organization Expert Committee on
+Food Additives has established a provisional maximum toler-
+able daily intake for patulin of 0.4 mg/kg of body weight per
+day (260).
+Patulin has also played an important role in the study of the
+classical biochemistry of polyketide biosynthesis. The ﬁrst cell
+extract for a fungal polyketide synthase involved studies on a
+6-methylsalicylic acid synthase from the species then called
+Penicillium urticae (now Penicillium griseofulvum); see Bentley
+and Bennett (13) for a review.
+Trichothecenes
+The trichothecenes constitute a family of more than sixty
+sesquiterpenoid metabolites produced by a number of fungal
+genera, including Fusarium, Myrothecium, Phomopsis, Stachy-
+botrys, Trichoderma, Trichothecium, and others (49, 227, 261).
+The term trichothecene is derived from trichothecin, which
+was the one of the ﬁrst members of the family identiﬁed. All
+trichothecenes contain a common 12,13-epoxytrichothene
+skeleton and an oleﬁnic bond with various side chain substitu-
+tions. They are commonly found as food and feed contami-
+nants, and consumption of these mycotoxins can result in ali-
+mentary hemorrhage and vomiting; direct contact causes
+dermatitis (8, 133, 165).
+Trichothecenes are classiﬁed as macrocylic or nonmacrocy-
+clic, depending on the presence of a macrocylic ester or an
+ester-ether bridge between C-4 and C-15 (40). The nonmac-
+rocylic trichothecenes in turn can be subclassiﬁed into two
+groups: type A, which have a hydrogen or ester type side chain
+at the C-8 position, and include T-2 toxin (Fig. 7), neosolaniol,
+and diacetoxyscirpenol, while the type B group contain a ke-
+tone and include fusarenon-x, nivalenol, and deoxynivalenol
+(Fig. 8). Fusarium is the major genus implicated in producing
+the nonmacrocylic trichothecenes. Many members of this ge-
+nus are signiﬁcant plant pathogens; their convoluted taxonomy
+has already been mentioned (165).
+The trichothecenes are extremely potent inhibitors of eu-
+karyotic protein synthesis; different trichothecenes interfere
+with initiation, elongation, and termination stages. Trichoder-
+min was the ﬁrst trichothecene shown to inhibit peptidyl trans-
+ferase activity (244, 275). Subsequently, it would appear that
+while all trichothecenes inhibit peptidyl transferase by binding
+to the same ribosome-binding site (79), they exert different
+FIG. 6. Patulin.
+FIG. 7. T-2 toxin.
+VOL. 16, 2003
+MYCOTOXINS
+505
+
+effects which can be correlated with different functional
+groups. The 12,13-epoxide group is essential for inhibition of
+protein synthesis; reduction of the 9,10 double bond reduces
+toxicity (173).
+There is a long history of moldy grain “intoxications” in
+Japan, where disease in both human beings and farm animals
+has been attributed to Fusarium mycotoxicoses. Fusarium gra-
+minearum (teleomorph Gibberella zeae), regularly found on
+barley, oats, rye, and wheat, is considered the most important
+plant pathogen in Japan and is believed to be the cause of red
+mold disease (Akakabi toxicosis) (227, 261). As with all myco-
+toxins, depending on weather conditions, the growth of tricho-
+thecene-producing fungi and subsequent production of toxins
+vary considerably from year to year and from place to place
+(42).
+Diacetoxyscirpenol, deoxynivalenol, and T-2 are the best
+studied of the trichothecenes produced by Fusarium species.
+Deoxynivalenol is one of the most common mycotoxins found
+in grains. When ingested in high doses by agricultural animals,
+it causes nausea, vomiting, and diarrhea; at lower doses, pigs
+and other farm animals exhibit weight loss and food refusal
+(218). For this reason, deoxynivalenol is sometimes called
+vomitoxin or food refusal factor. Although less toxic than many
+other major trichothecenes, it is the most prevalent and is
+commonly found in barley, corn, rye, safﬂower seeds, wheat,
+and mixed feeds (178).
+The symptoms produced by various trichothecenes include
+effects on almost every major system of the vertebrate body;
+many of these effects are due to secondary processes that are
+initiated by often poorly understood metabolic mechanisms
+related to the inhibition of protein synthesis. A valiant attempt
+to compile and interpret the data for different trichothecenes,
+studied in different organisms, administered by different
+routes, at different doses, at dissimilar intervals, is given by
+Beasley (8). Of the naturally occurring trichothecenes, T-2 and
+diacetoxyscirpenol appear to be the most potent in animal
+studies. In addition to their cytotoxic activity, they have an
+immunosuppressive effect that results in decreased resistance
+to infectious microbes (196, 218). They cause a wide range of
+gastrointestinal, dermatological, and neurologic symptoms; see
+Trenholm et al. (258) for a summary of 50% lethal dose and
+other effects in a wide range of experimental and agricultural
+animals.
+It has been hypothesized that T-2 and diacetoxyscirpenol are
+associated with a human disease called alimentary toxic aleu-
+kia. The symptoms of the disease include inﬂammation of the
+skin, vomiting, and damage to hematopoietic tissues. The acute
+phase is accompanied by necrosis in the oral cavity, bleeding
+from the nose, mouth, and vagina, and central nervous system
+disorders. It is possible that alimentary toxic aleukia may some-
+times have been misdiagnosed as diphtheria or scurvy (171).
+The Soviet literature contains many reports of disease out-
+breaks associated with eating moldy grain, some dating back to
+the 19th century. Alimentary toxic aleukia affected a large
+population in the Orenburg district of the former U.S.S.R.
+during World War II. The sick people had eaten overwintered
+grain colonized with Fusarium sporotrichioides and Fusarium
+poae (132, 155).
+The work on alimentary toxic aleukia has been reviewed in
+detail by Joffe (133) and by Beadall and Miller (7). Likewise,
+Matossian (171) analyzed patterns of weather and mortality
+from Russian data for 1861 to 1913 and concluded that low
+April temperatures (taken as a predictor of T-2 toxin in over-
+wintered and stored grain) were predictive of increased mor-
+tality the following summer. It has been pointed out that the
+hypothesis for an alimentary toxic aleukia-trichothecene con-
+nection would be strengthened if T-2 toxin were actually de-
+tected in samples of overwintered grain associated with ali-
+mentary toxic aleukia outbreaks (165) There has been little
+recent study of alimentary toxic aleukia, but mention of the
+disease is a ﬁxture of mycotoxin reviews that emphasize human
+health. More research is needed.
+The macrocyclic trichothecenes are produced largely by My-
+rothecium, Stachybotrys, and Trichothecium species. Glutinosin,
+a mixture of the macrocyclic trichothecenes verrucarin A and
+B, was originally identiﬁed as an antimicrobial agent (96).
+Recently, the trichothecenes produced by Stachybotrys atra
+(Stachybotrys chartarum) have received the most attention.
+They include satratoxins (Fig. 9), roridins, verrucarins, and
+atranones (116).
+Stachybotryotoxicosis was ﬁrst described as an equine dis-
+ease of high mortality associated with moldy straw and hay.
+Much of the early work on Stachybotrys toxins was published in
+the Russian literature, focused on horses, and has been well
+summarized by Forgacs (83). Until recently, human stachybot-
+ryotoxicosis was considered a rare occupational disease limited
+FIG. 8. Deoxynivalenol.
+FIG. 9. Satratoxin H.
+506
+BENNETT AND KLICH
+CLIN. MICROBIOL. REV.
+
+largely to farm workers who handle moldy hay (117). However,
+it has become apparent that Stachybotrys grows well on all sorts
+of wet building materials with high cellulose content, for ex-
+ample, water-damaged gypsum board, ceiling tiles, wood ﬁber
+boards, and even dust-lined air conditioning ducts (55, 188,
+189). The presence of Stachybotrys has been associated with
+pulmonary bleeding in infants (36, 77). Although toxic mold
+was found in the homes of the children with pulmonary bleed-
+ing, a cause-and-effect relationship has been difﬁcult to prove
+(86, 134). Nevertheless, this incident and a few other highly
+publicized mold cases seem to have precipitated a series of
+multimillion-dollar law suits against contractors, real estate
+developers, and insurance companies as well as a great deal of
+public apprehension about “toxic molds.” See the section on
+sick building syndrome below for more on this aspect of my-
+cotoxicology.
+It was suggested that the 10th plague visited on Egypt was a
+Stachybotrys infestation, but since the plague infected grain,
+not hay, it is more likely that Aspergillus or Penicillium was the
+culprit (224).
+Many of the genes involved in trichothecene biosynthesis in
+Fusarium sporotrichioides and in Myrothecium roridum have
+been cloned and sequenced (34, 61, 206), and there is also
+considerable progress in understanding the regulation of the
+trichothecene gene cluster (253). Homologues of these tricho-
+thecene pathway genes have also been reported for Fusarium
+graminearum (24).
+Zearalenone
+Zearalenone (6-[10-hydroxy-6-oxo-trans-1-undecenyl]-B-resor-
+cyclic acid lactone), a secondary metabolite from Fusarium
+graminearum (teleomorph Gibberella zeae) was given the trivial
+name zearalenone as a combination of G. zeae, resorcylic acid
+lactone, -ene (for the presence of the C-1 to C-2 double
+bond), and -one, for the C-6 ketone (263). Almost simulta-
+neously, a second group isolated, crystallized, and studied the
+metabolic properties of the same compound and named it F-2
+(38, 180). Much of the early literature uses zearalenone and
+F-2 as synonyms; the family of analogues are known as
+zearalenones and F-2 toxins, respectively. The structure of
+zearalenone is given in Fig. 10. Perhaps because the original
+work on these fungal macrolides coincided with the discovery
+of aﬂatoxins, chapters on zearalenone have become a regular
+ﬁxture in monographs on mycotoxins (see, for example, Miro-
+cha and Christensen [179] and Betina [15]). Nevertheless, the
+word
+toxin
+is
+almost
+certainly
+a
+misnomer
+because
+zearalenone, while biologically potent, is hardly toxic; rather, it
+sufﬁciently resembles 17-estradiol, the principal hormone
+produced by the human ovary, to allow it to bind to estrogen
+receptors in mammalian target cells (147) Zearalenone is bet-
+ter classiﬁed as a nonsteroidal estrogen or mycoestrogen.
+Sometimes it is called a phytoestrogen. For the structure-ac-
+tivity relationships of zearalenone and its analogues, see Hurd
+(124) and Shier (233).
+The zearalenones are biosynthesized through a polyketide
+pathway by Fusarium graminearum, Fusarium culmorum,
+Fusarium equiseti, and Fusarium crookwellense. All these spe-
+cies are regular contaminants of cereal crops worldwide (97).
+An association between moldy grain consumption and hyper-
+estrogenism in swine has been observed since the 1920s; mod-
+ern work shows that dietary concentrations of zearalenone as
+low as 1.0 ppm may lead to hyperestrogenic syndromes in pigs;
+higher concentrations can lead to disrupted conception, abor-
+tion, and other problems (148). Reproductive problems have
+also been observed in cattle and sheep (73).
+The reduced form of zearalenone, zearalenol, has increased
+estrogenic activity. A synthetic commercial formulation called
+zeranol (Ralgro) has been marketed successfully for use as an
+anabolic agent for both sheep and cattle (53, 119). In 1989,
+zeranol was banned by the European Union, but it is still used
+in other parts of the world (97). Zearalenone has also been
+used to treat postmenopausal symptoms in women (264), and
+both zearelanol and zearalenone have been patented as oral
+contraceptives (115). It has been claimed that the high fre-
+quency of early menarche in Puerto Rico might be due to
+zearalenone and related compounds in the human diet (225);
+however, studies by the Food and Drug Administration do not
+support this hypothesis (147).
+Recently, endocrine (hormone) disrupters have received a
+lot of public attention and are widely believed to reduce male
+fertility in human and wildlife populations (106) but it is not
+clear how much the zearalenones contribute to the total envi-
+ronmental load of xenoestrogens (233). Sometimes, hormone
+disrupters are labeled environmental toxicants, further mud-
+dying the distinction between a compound that can cause death
+(toxin) and a compound that has other pharmacological activ-
+ities.
+In summary, the zearalenone family of metabolites illus-
+trates some of the limitations of scientiﬁc language. The bio-
+logical potency of these compounds is high, but the actual
+toxicity is low. The 50% lethal dose in female rats is greater
+than 10,000 mg/kg; in female guinea pigs it is 5,000 mg/kg
+(115), while as little as one g/kg may create a detectable
+uterogenic response in female swine. Thus, mycoestrogen is a
+more appropriate rubric than mycotoxin. Moreover, like the
+ergot alkaloids, in certain formulations some analogues of
+these macrolides can be called drugs.
+Extensive reviews of Canadian and Scandinavian epidemio-
+logical data have concluded that the risk to human populations
+is
+minimal.
+The
+recommended
+safe
+human
+intake
+of
+zearalenone is estimated to be 0.05 g/kg of body weight per
+day (147). Zearalenone levels in foodstuffs are not yet regu-
+lated anywhere (97). Nevertheless, because of its genuine bi-
+FIG. 10. Zearalenone.
+VOL. 16, 2003
+MYCOTOXINS
+507
+
+ological potency and regular dietary cooccurrence with true
+mycotoxins such as the fumonisins and trichothecenes, it would
+not be prudent to ignore the potential of zearalenone to cause
+adverse health effects.
+Other Mycotoxins and Purported Mycotoxicoses
+Penicillium roqueforti and Penicillium camemberti (Penicil-
+lium caseicola), species used to manufacture mold-ripened
+cheeses, produce a number of toxic metabolites, including pen-
+icillin acid, roquefortine, isoﬂumigaclavines A and B, PR toxin,
+and cyclopiazonic acid (228).
+Several mycotoxins induce tremors as a neurological re-
+sponse in farm animals; most of these fungal tremorgens con-
+tain a modiﬁed indole moiety and are produced by certain
+species of Aspergillus, Penicillium, and Claviceps. The tremor-
+genic mycotoxins include the penitrems, janthitrems, lolitrems,
+aﬂatrem, paxilline, paspaline, paspalicine, paspalinine, and
+paspalitrem A and B (247). Penicillium crustosum produces
+penitrem A, a compound implicated in several cases of canine
+intoxication and one case of human tremor, vomiting, and
+bloody diarrhea (53, 118).
+Originally isolated from Penicillium cyclopium (now Penicil-
+lium aurantiogriseum), cyclopiazonic acid is an indole tetramic
+acid. This mycotoxin is a speciﬁc inhibitor of calcium-depen-
+dent ATPase and induces alterations in ion transport across
+cell membranes (214). It is produced by many other species of
+Penicillium as well as several species of Aspergillus, including
+Aspergillus ﬂavus. Cyclopiazonic acid was isolated from a sam-
+ple of the ground nut meal that had been implicated in the
+original turkey X disease and may have contributed to the
+severity of that early aﬂatoxicosis. Furthermore, consumption
+of a kodo millet that was heavily contaminated with molds and
+contained detectable levels of cyclopiazonic acid produced
+kuduo poisoning, characterized by giddiness and nausea (209).
+Finally, some strains of Penicillium camembertii involved in the
+production of gourmet cheese produce cyclopiazonic acid
+(201).
+The yellow rice toxins (citrinin, citreoviridin, luteoskyrin,
+rugulosin, rubroskyrin, and related compounds) are believed to
+have exacerbated Shoshin-kakke, a particularly malignant form
+of beriberi seen in Japan in the early 20th century (222).
+A number of rare and obscure diseases have been hypothe-
+sized to be possible mycotoxicoses, often on extremely meager
+evidence. These include Kashin-Beck disease in Russia, mse-
+lini joint disease and onylalai in Africa, endemic familial ar-
+thritis of Malnad in India, frontoethmoidal encephalomenin-
+gocele in Myanmar, sago hemolysis in Papua New Guinea, and
+deteriorated sugar cane poisoning in China. Descriptions of
+these conditions and their purported association with exposure
+to toxigenic fungi have been admirably summarized by
+Beardall and Miller (7).
+SPECIAL TOPICS
+The two aspects of mycotoxin research that have received
+the most coverage in the popular press concern their possible
+use as agents of chemical warfare and their potential involve-
+ment in a variety of building-related disease conditions. Very
+brief introductions to these topics are given here.
+Bioterrorism
+Mycotoxins can be used as chemical warfare agents (43).
+There is considerable evidence that Iraqi scientists developed
+aﬂatoxins as part of their bioweapons program during the
+1980s. Toxigenic strains of Aspergillus ﬂavus and Aspergillus
+parasiticus were cultured, and aﬂatoxins were extracted to pro-
+duce over 2,300 liters of concentrated toxin. The majority of
+this aﬂatoxin was used to ﬁll warheads; the remainder was
+stockpiled (248, 290). Aﬂatoxins seem a curious choice for
+chemical warfare because the induction of liver cancer is
+“hardly a knockout punch on the battleﬁeld” (249). Even so,
+the repugnance caused by the use of chemical and biological
+weapons is the kind of emotional response that terrorists seek
+to elicit. Furthermore, if used against ethnic groups such as the
+Kurds, the long-term physical and psychological results could
+be devastating. Finally, some experts think aﬂatoxin might
+have been selected simply because it was the “pet” toxin of an
+inﬂuential Iraqi scientist (249).
+Unlike the aﬂatoxins, trichothecenes can act immediately
+upon contact, and exposure to a few milligrams of T-2 is po-
+tentially lethal. In 1981, then Secretary of State Alexander
+Haig of the United States accused the Soviet Union of attack-
+ing Hmong tribesman in Laos and Kampuchea with a myste-
+rious new chemical warfare agent, thereby violating the 1972
+Biological Weapons Convention. The symptoms exhibited by
+purported victims included internal hemorrhaging, blistering
+of the skin, and other clinical responses that are caused by
+exposure to trichothecenes. Leaf samples from Kampuchea
+were analyzed by Chester Mirocha of the University of Min-
+nesota, who found nivalenon, deoxynivalenon, and T-2. Fur-
+thermore, Mirocha stated that the quantity and proportions of
+the toxins were unknown in nature and that, based on reports
+in the scientiﬁc literature, these mycotoxins did not occur nat-
+urally in Southeast Asia. (We now know that trichothecene-
+producing fungi do exist in Southeast Asia.) The purported
+chemical warfare agent came to be known as yellow rain (168).
+In a bizarre turn of events, Matthew Meselson of Harvard
+University produced compelling evidence that yellow rain
+might have a benign natural explanation. Specks of yellow
+material found on foliage and other samples of the purported
+warfare agents from Southeast Asia were composed of plant
+pollen. The pollen grains were the result of so-called “cleans-
+ing ﬂights” (mass defecations) dropped by swarms of wild
+Asian honeybees (190). Although many government ofﬁcials
+tried to dismiss Meselson’s explanation as a “great bee caper,”
+the pollen hypothesis was widely accepted. An editorial by
+John Maddox stated, for example, that the pollen work created
+“a serious challenge for those who have been arguing that
+visual observations of ‘yellow rain’ can be counted as evidence
+of the use of chemical weapons against embattled populations”
+(reference 156, p. 207). As one mycologist subsequently
+quipped, the bee pollen theory “seems too ludicrous not to be
+true” (reference 182, p. 166).
+At the time, several well-written and accessible summaries
+of the yellow rain controversy appeared in the popular press
+(see, for example, Pringle [205] and Whiteside [278]). Two
+books were also published on the subject. The government
+mycotoxin theory was promulgated in Yellow Rain (229), while
+the opposing position was addressed in The Yellow Rainmakers:
+508
+BENNETT AND KLICH
+CLIN. MICROBIOL. REV.
+
+Are Chemical Weapons Being Used in Southeast Asia? (78).
+Although analytical methods were in their infancy during the
+controversy, they were still sensitive enough to pick up low
+levels of environmental trichothecene contamination. The gov-
+ernment research highlighted, if nothing else, that natural my-
+cotoxicoses were an important health hazard in Southeast Asia
+(78).
+Indoor Air Quality and Sick-Building Syndrome
+Associated with dirty air conditioning vents and ﬁlters, the
+dust dislodged during renovations, and the aftermath of water
+damage to interiors, molds in indoor environments have been
+implicated in allergies for many years. The most common gen-
+era of indoor molds are Alternaria, Aspergillus, Cladosporium,
+and Penicillium (57, 94, 176). However, several relatively re-
+cent events have changed the way in which people view moldy
+indoor environments and their associated health threats. The
+ﬁrst stems from changes in modern, energy-efﬁcient building
+practices. Many occupants of “tight” new buildings exhibit
+adverse health effects that are relieved when they leave the
+building. The condition has come to be called sick-building
+syndrome. The most prevalent symptoms are irritation of the
+eyes and respiratory tract, but a large number of other vague
+complaints have also been reported, including headache and
+fatigue, skin irritation, nonspeciﬁc hypersensitive reaction, and
+peculiar odor and taste sensations. By stipulated deﬁnition, the
+designation sick-building syndrome means that no speciﬁc eti-
+ological factor can be identiﬁed (75, 90, 191). Among the
+suspected etiological agents of sick-building syndrome are
+poor ventilation, ofﬁce and cleaning supply chemicals, and
+different forms of microbial contamination. When causal fac-
+tors can be identiﬁed (e.g., as in Legionnaires’ disease or as-
+bestos contamination), the appropriate term is supposed to be
+building-related illness (90, 125, 220). However, in the public
+imagination, sick-building syndrome is often associated with
+the presence of toxic molds, especially Stachybotrys.
+Much of the concern about Stachybotrys toxins originated in
+1994 with the publication by the Centers for Disease Control of
+a cluster of eight cases of idiopathic pulmonary hemorrhage
+among infants in Cleveland, Ohio (36). Stachybotrys chartarum
+was implicated in the outbreak. The mold was found more
+frequently in the houses of affected babies than in control
+houses (58). A case-control study identiﬁed water damage
+(leaks and ﬂooding) and smoking as risk factors for developing
+the infant pulmonary hemorrhage (183). Other evaluations
+and a second report from the Centers for Disease Control and
+Prevention were more equivocal and concluded that a cause-
+and-effect relationship had not been proven (37, 86, 134). Nev-
+ertheless, the Committee on Public Health of the American
+Academy of Pediatrics issued a statement on the toxic effects
+of indoor molds, alerting pediatricians to the possibility that
+idiopathic pulmonary hemorrhage may be associated with
+molds (3). Strains of the fungus isolated from the Cleveland
+outbreak produced a number of highly toxic macrocylic tricho-
+thecenes (130). Stachybotrys chartarum was also shown to pro-
+duce the hemolysin stachylysin (272). Although there is no
+method for testing for Stachybotrys mycotoxins in humans,
+PCR methods for evaluating the presence of Stachybotrys char-
+tarum have been developed (271).
+Without a doubt, fungi, including many toxigenic species,
+are regularly encountered in damp indoor environments, but
+there have been relatively few determinations of mycotoxins in
+these environments (reference 129, p. 49). Because mycotox-
+ins, as currently deﬁned, are not volatile, respiratory exposure
+is thought to be related to inhalation of mold spores, hyphal
+fragments, and contaminated dusts. It should be pointed out
+that almost nothing is known about the toxicity of the myriad
+volatile compounds produced by fungi.
+The early literature on mycotoxins in indoor air has been
+reviewed by Hendry and Cole (110). It is known that spores in
+air-borne dust can cause ochratoxin exposure. Signiﬁcant levels
+of ochratoxin A were found in dusts from cowsheds in Norway
+(236) and from a “problem household” in the United States
+(212). In the latter study, all of the mammals in the affected
+house (humans, dogs, and guinea pigs) exhibited polyuria, a
+known symptom of ochratoxicosis in farm animals; the human
+residents also complained of increased thirst, edema, skin rash,
+and general lethargy (212). Sterigmatocystin has been isolated
+from water-damaged wallpaper (187) and from damp carpet-
+ing (74). Trichothecenes are found in aerosolized conidia, so
+inhalation of aerosols containing high spore concentrations is a
+potential health hazard (241). T-2, diacetoxyscirpenol, roridine
+A, and T-2 tetraol have been detected in the dust from ofﬁce
+ventilation systems (240).
+Toxic-mold fears have precipitated a spate of lawsuits. In
+particular, a Texas case against Farmers Insurance Group has
+attracted a lot of publicity, and the number of mold damage
+cases, especially in water-damaged homes, is growing at a rapid
+rate (9). Unfortunately, much of the evidence is conjectural.
+Mycotoxins and other microbial products have been implicated
+as causative agents, but the range of symptoms attributed to
+toxic molds exceeds what can be explained rationally in terms
+of toxicological mechanisms (194).
+In summary, many occupants of modern, sealed, air-condi-
+tioned buildings, especially water-damaged buildings, have re-
+ported adverse health effects. No speciﬁc microbe or toxin has
+been identiﬁed as the single dominant etiological agent. Expo-
+sure to fungi in home and work settings is an increasing area of
+concern, and the legal climate has led to the development of a
+new cottage industry in mold abatement. More data are
+needed before any deﬁnite conclusions can be made about the
+health effects resulting from inhalation of toxigenic mold
+spores (129).
+FOOD SAFETY AND REGULATION
+Mycotoxin-producing mold species are extremely common,
+and they can grow on a wide range of substrates under a wide
+range of environmental conditions. For agricultural commod-
+ities, the severity of crop contamination tends to vary from year
+to year based on weather and other environmental factors.
+Aﬂatoxin, for example, is usually worst during drought years;
+the plants are weakened and become more susceptible to in-
+sect damage and other insults (67). Mycotoxins occur, with
+varying severity, in agricultural products all around the world.
+The estimate usually given is that one quarter of the world’s
+crops are contaminated to some extent with mycotoxins (80,
+159).
+Mycotoxins can enter the food chain in the ﬁeld, during
+VOL. 16, 2003
+MYCOTOXINS
+509
+
+storage, or at later points. Mycotoxin problems are exacer-
+bated whenever shipping, handling, and storage practices are
+conducive to mold growth. The end result is that mycotoxins
+are commonly found in foods. Kuiper-Goodman (144), a lead-
+ing ﬁgure in the risk assessment ﬁeld, ranks mycotoxins as the
+most important chronic dietary risk factor, higher than syn-
+thetic contaminants, plant toxins, food additives, or pesticide
+residues.
+The economic consequences of mycotoxin contamination
+are profound. Crops with large amounts of mycotoxins often
+have to be destroyed. Alternatively, contaminated crops are
+sometimes diverted into animal feed. Giving contaminated
+feeds to susceptible animals can lead to reduced growth rates,
+illness, and death. Moreover, animals consuming mycotoxin-
+contaminated feeds can produce meat and milk that contain
+toxic residues and biotransformation products. Thus, aﬂatoxins
+in cattle feed can be metabolized by cows into aﬂatoxin M1,
+which is then secreted in milk (267). Ochratoxin in pig feed can
+accumulate in porcine tissues (219). Court actions between
+grain farmers, livestock owners, and feed companies can in-
+volve considerable amounts of money. The ability to diagnose
+and verify mycotoxicoses is an important forensic aspect of the
+mycotoxin problem (198).
+People who have enough to eat normally avoid foods that
+are heavily contaminated by molds, so it is believed that dietary
+exposure to acute levels of mycotoxins is rare in developed
+countries. Nevertheless, many mycotoxins survive processing
+into ﬂours and meals. When mold-damaged materials are pro-
+cessed into foods and feeds, they may not be detectable with-
+out special assay equipment. It is important to have policies in
+place that ensure that such “hidden” mycotoxins do not pose a
+signiﬁcant hazard to human health.
+It would require an entirely different review article to do
+justice to the subject of food safety and the related issues of
+mycotoxin analysis, regulation, and legal liability. Several na-
+tional and international organizations and agencies have spe-
+cial committees and commissions that set recommended guide-
+lines, develop standardized assay protocols, and maintain up-
+to-date information on regulatory statutes. There are also
+several mycotoxin associations. The web sites for these com-
+missions and organizations are excellent sources for the latest
+information. See, for example, the Council for Agricultural
+Science and Technology (www.cast-science.org), the Mycotoxi-
+cology Newsletter (www.mycotoxicology.org), the Society for
+Mycotoxin Research (www.mycotoxin.de), the American Oil
+Chemists Society Technical Committee on Mycotoxins (www
+.aocs.org), the Food and Agriculture Organization of the
+United Nations (www.fao.org), the International Union for
+Pure and Applied Chemistry Section on Mycotoxins and Phy-
+cotoxins (www.iupac.org), the Japanese Association of Myco-
+toxicology (www.chujo-u.ac.jp/myco/index.html), and the U.S.
+Food and Drug Administration Committee on Additives and
+Contaminants (www.fda.gov).
+Since it is normally impracticable to prevent the formation
+of mycotoxins, the food industry has established internal mon-
+itoring methods. Similarly, government regulatory agencies
+survey for the occurrence of mycotoxins in foods and feeds and
+establish regulatory limits. Guidelines for establishing these
+limits are based on epidemiological data and extrapolations
+from animal models, taking into account the inherent uncer-
+tainties associated with both types of analysis. Estimations of
+an appropriate safe dose are usually stated as a tolerable daily
+intake (144, 145, 239).
+Considerable research has been devoted to developing ana-
+lytical methods for identifying and quantifying mycotoxins in
+food and feeds. The chemical diversity of mycotoxins and the
+equally diverse substrates in which they occur pose challenges
+for analytical chemistry. Each group of compounds and each
+substrate have different chemical and physical properties, so
+the methods for the separation of toxins from substrates must
+be developed on a case-by-case basis. It is, for example, quite
+a different matter to assay aﬂatoxin from peanut butter than it
+is to identify T-2 toxin from corn. Mycotoxins are often pro-
+duced in trace concentrations, so the sensitivity of the detec-
+tion systems is also essential. Traditional methods have relied
+on solvents for clean-up steps and various chromatographic
+techniques for quantiﬁcation; more recently, immunogenic as-
+says that can be applied to samples with little or no clean-up
+have been developed (39). Since mycotoxins are low-molecu-
+lar-weight haptens, they are nonimmunogenic. Nonetheless,
+they can be conjugated to a protein carrier, and antibodies
+against almost all the major mycotoxins are now available. See
+Mycotoxin Protocols (259) and the chapter by Wilson et al. on
+mycotoxin analytical techniques in Mycotoxins in Agriculture
+and Food Safety (282) and the references cited therein for a
+good summary of information on equipment, reagents, and
+procedures for assaying mycotoxins.
+Complete elimination of any natural toxicant from foods is
+an unattainable objective. Therefore, naturally occurring tox-
+ins such as mycotoxins are regulated quite differently from
+food additives (81). The U.S. Food and Drug Administration,
+the European Union, the Institute of Public Health in Japan,
+and many other governmental agencies around the world test
+products for aﬂatoxins and other mycotoxins and have estab-
+lished guidelines for safe doses, but there is a need for world-
+wide harmonization of mycotoxin regulations (281). The
+United States uses one set of guidelines, the European Union
+uses another, and Japan yet another, and many other guide-
+lines have also been developed. Unfortunately, sometimes the
+regulatory community seems to be setting limits based more on
+current analytical capabilities than on realistic health factors
+(281). The Food and Agriculture Organization of the United
+Nations has published a series of compendia summarizing
+worldwide regulations for mycotoxins (81). A modiﬁed version
+of this compendium is presented as an appendix by Weiden-
+borner (277).
+SUMMARY
+Fungi cause human illness in different ways. Mycoses are the
+best-known diseases of fungal etiology, but toxic secondary
+metabolites produced by saprophytic species are also an im-
+portant health hazard. The term mycotoxin is an artiﬁcial ru-
+bric used to describe pharmacologically active mold metabo-
+lites characterized by vertebrate toxicity. They fall into several
+chemically unrelated classes, are produced in a strain-speciﬁc
+way, and elicit some complicated and overlapping toxigenic
+activities in sensitive species that include carcinogenicity, inhi-
+bition of protein synthesis, immunosuppression, dermal irrita-
+tion, and other metabolic perturbations. Mycotoxins usually
+510
+BENNETT AND KLICH
+CLIN. MICROBIOL. REV.
+
+enter the body via ingestion of contaminated foods, but inha-
+lation of toxigenic spores and direct dermal contact are also
+important routes.
+It is difﬁcult to prove that a disease is a mycotoxicosis. Molds
+may be present without producing any toxin. Thus, the dem-
+onstration of mold contamination is not the same thing as the
+demonstration of mycotoxin contamination. Moreover, even
+when mycotoxins are detected, it is not easy to show that they
+are the etiological agents in a given veterinary or human health
+problem. Nevertheless, there is sufﬁcient evidence from animal
+models and human epidemiological data to conclude that my-
+cotoxins pose an important danger to human and animal
+health, albeit one that is hard to pin down. The incidence of
+mycotoxicoses may be more common than suspected. It is easy
+to attribute the symptoms of acute mycotoxin poisoning to
+other causes; the opposite is true of etiology. It is not easy to
+prove that cancer and other chronic conditions are caused by
+mycotoxin exposure. In summary, in the absence of appropri-
+ate investigative criteria and reliable laboratory tests, the my-
+cotoxicoses will remain diagnostically daunting diseases.
+ACKNOWLEDGMENTS
+Research in J.W.B.’s laboratory was supported by a cooperative
+agreement from the U.S. Department of Agriculture.
+We thank Shannon Beltz for technical assistance and Michael Dut-
+ton for reviewing the manuscript.
+REFERENCES
+1. Abarca, M. L., M. R. Bragulat, G. Sastella, and F. J. Cabanes. 1994.
+Ochratoxin A production by strains of Aspergillus niger var. niger. Appl.
+Environ. Microbiol. 60:2650–2652.
+2. Abramson, D., E. Usleber, and E. Marlbauer. 2001. Immunochemical
+method for citrinin. p. 195–204. In M. W. Trucksess and A. F. Pohland
+(ed.), Mycotoxin protocols. Humana Press, Totowa, N.J.
+3. American Academy of Pediatrics. 1998. Toxic effects of indoor molds.
+Pediatrics 101:712–714.
+4. Anderson, S. J. 1995. Compositional changes in surface mycoﬂora during
+ripening of naturally fermented sausages. J. Food Protect. 58:426–429.
+5. Barrett, J. 2000. Mycotoxins: of molds and maladies. Environ. Health
+Perspect. 108:A20–A23.
+6. Bayman, P., J. L. Baker, M. A. Doster, T. J. Michailides and, N. E. Ma-
+honey. 2002. Ochratoxin production by the Aspergillus ochraceus group and
+Aspergillus alliaceus. Appl. Environ. Microbiol. 68:2326–2329.
+7. Beardall, J. M., and J. D. Miller. 1994. Disease in humans with mycotoxins
+as possible causes, p. 487–539. In J. D. Miller and H. L. Trenholm (ed.),
+Mycotoxins in grains. Compounds other than aﬂatoxin. Eagan Press, St.
+Paul, Minn.
+8. Beasley, V. R. (ed.). 1989. Trichothecene mycotoxicosis: pathophysiologic
+effects, vol. I. CRC Press, Boca Raton, Fla.
+9. Belkin, L. 2001. Haunted by mold. New York Times Magazine, Aug. 12, p.
+62, 64–65.
+10. Bennett, J. W. 1987. Mycotoxins, mycotoxicoses, mycotoxicology and my-
+copathology. Mycopathlogia 100:3–5.
+11. Bennett, J. W., and R. Bentley. 1999. Pride and prejudice: the story of ergot.
+Perspect. Biol. Med. 42:333–355.
+12. Bennett, J. W., P.-K. Chang, and D. Bhatnagar. 1997. One gene to whole
+pathway: the role of norsolorinic acid in aﬂatoxin research. Adv. Appl.
+Microbiol. 45:1–15.
+13. Bentley, R., and J. W. Bennett. 1999. Constructing polyketides: from Collie
+to combinatorial biosynthesis. Annu. Rev. Microbiol. 53:411–446.
+14. Berry, C. L. 1988. The pathology of mycotoxins. J. Pathol. 154:301–311.
+15. Betina, V. 1989. Bioactive molecules vol. 9. Mycotoxins: chemical, biological
+and environmental aspects. Elsevier, Amsterdam, The Netherlands.
+16. Betina, V. (ed.). 1984. Mycotoxins: production, isolation, separation, and
+puriﬁcation. Elsevier, Amsterdam, The Netherlands
+17. Bezuidenhout, S. C., W. C. A. Gelderblom, C. P. Gorst-Allman, R. M.
+Horak, W. F. O. Marasas; G. Spiteller, and R. Vleggaar. 1988. Structure
+elucidation of the fumonisins, mycotoxins from Fusarium moniliforme.
+J. Chem. Soc. Chem. Commun. 1988:743–745.
+18. Bhat, R. V., P. H. Shetty, R. P. Amruth, and R. V. Sudershan. 1997. A
+foodborne disease outbreak due to the consumption of moldy sorghum and
+maize containing fumonisin mycotoxins. J. Clin. Toxicol. 35:249–255.
+19. Bhatnagar, D., E. B. Lillehoj, and D. K. Arora. 1992. Handbook of applied
+mycology, vol. 5. Mycotoxins in ecological systems. Marcel Dekker, Inc.,
+New York, N.Y.
+20. Blackwell, B. A., O. E. Edwards, A. Fruchier, J. W. ApSimon, and J. D.
+Miller. 1996. NMR structural studies of fumonisin B1 and related com-
+pounds from Fusarium moniliforme, p. 75–91 In L. S. Jackson, J. W.
+DeVries, and L. B. Bullerman (ed.), Fumonisins in food. Plenum Press,
+New York, N.Y.
+21. Blanc, P. J., M. O. Loret, and G. Goma. 1995. Production of citrinin by
+various species of Monascus. Biotechnol. Lett. 17:291–294.
+22. Blout, W. P. 1961. Turkey “X” disease. Turkeys 9:52, 55–58, 61, 77.
+23. Bressac, B., M. Kew, J. Wands, and M. Ozturk. 1991. Selective G to T
+mutations of p53 gene in hepatocellular carcinoma from southern Africa.
+Nature 350:429–431.
+24. Brown, D., S. P. McCormick, N. A. Alexander, R. H. Proctor, and A. E.
+Desjardins. 2001. A genetic and biochemical approach to study trichoth-
+ecene diversity in Fusarium sporotrichioides and Fusarium graminearum.
+Fung. Genet. Biol. 32:121–133.
+25. Brown, D. H., J. H. Yu, H. S. Kelkar, M. Fernandes, T. C. Nesbitt, N. P.
+Keller, T. H. Adams, and T. J. Leonard. 1996. Twenty-ﬁve co-regulated
+transcripts deﬁne a sterigmatocystin gene cluster in Aspergillus nidulans.
+Proc. Natl. Acad. Sci. USA 93:1418–1422.
+26. Brown, R. L., D. Bhatnagar, T. E. Cleveland, and J. W. Cary. 1998. Recent
+advances in preharvest prevention of mycotoxin contamination, p. 351–379.
+In K. K. Sinha and D. Bhatnagar, (ed.), Mycotoxins in agriculture and food
+safety. Marcel Dekker, Inc., New York, N.Y.
+27. Bucci, T., D. K. Hansen and J. B. LaBorde. 1996. Leucoencephalomalacia
+and hemorrhage in the brain of rabbits gavaged with mycotoxin fumonisin
+B1. Nat. Toxins 4:51–52.
+28. Bunge, I., K. Heller, and R. Roschenthaler. 1979. Isolation and puriﬁcation
+of ochratoxin A. Z. Lebensm. Unters. Forsch. 168:457–458.
+29. Burns, R. P., and P. Dwivedi. 1986. The natural occurrence of ochratoxin A
+and its effects in poultry. A review. Part II. Pathology and immunology.
+World Poultry Sci. 42:48–62.
+30. Cabellero-Granado, F. J., P. Viciana, E. Cordero, M. J. Gomez-Vera, M. del
+Nozal, and L. F. Opez-Cortes. 1997. Ergotism related to concurrent admin-
+istration of ergotamine tartrate and ritonavir in an AIDS patient. Antimi-
+crob. Agents Chemother. 41:1297.
+31. Calderone, R. A., and R. L. Cihlar (ed.). 2002. Fungal pathogenesis: prin-
+ciples and clinical applications. Marcel Dekker, Inc., New York, N.Y.
+32. Caporael, L. R. 1976. Ergotism: the Satan loosed in Salem? Science 192:
+21–26.
+33. Carlton, W. W., and J. Tuite. 1977. Metabolites of P. viridicatum toxicology,
+p. 525–555. In J. V. Rodricks, C. W. Hesseltine, and M. A. Mehlman (ed.),
+Mycotoxins in human and animal health. Pathotox Publications., Inc., Park
+Forest South, Ill.
+34. Cary, J. W., P.-K. Chang, and D. Bhatnagar. 2001. Clustered metabolic
+pathway genes in ﬁlamentous fungi, p. 165–198. In G. G. Khachatourians
+and D. K. Arora (ed.), Applied mycology and biotechnology, vol. I. Agri-
+culture and food production. Elsevier Science, Amsterdam, The Nether-
+lands.
+35. Castegnaro, M., H. Barsch and I. Chernozemsky. 1987. Endemic nephrop-
+athy and urinary tract tumors in the Balkans. Cancer Res. 47:3606–3609.
+36. Centers for Disease Control and Prevention. 1994. Acute pulmonary hem-
+orrhage/hemosiderosis among infants—-Cleveland, Ohio, January 1993-
+November 1994. Morb. Mortal. Wkly. Rep. 43:881–883.
+37. Centers for Disease Control and Prevention. 2000. Update: pulmonary
+hemorrhage/hemosiderosis among infants—- Cleveland, Ohio, 1993–1999.
+Morb. Mortal. Wkly Rep. 49:180–184.
+38. Christensen, C. M., G. H. Nelson, and C. J. Mirocha. 1965. Effect on the
+white rat uterus of a toxic substance isolated from Fusarium. Appl. Micro-
+biol. 13:653–659.
+39. Chu, F. S. 1991. Current immunochemical methods for mycotoxin analysis,
+p. 140–157. In M. Vanderlaan, L. H. Stanker, B. E. Watkins, and D. W.
+Roberts (ed.). Immunoassays for trace chemical analysis: monitoring toxic
+chemicals in humans, food, and the environment. American Chemical So-
+ciety, Washington, D.C.
+40. Chu, F. S. 1998. Mycotoxins—occurrence and toxic effect, p. 858–869. In M.
+Sadler, J. J. Strain and B. Caballero (ed.) Encyclopedia of human nutrition.
+Academic Press, New York, N.Y.
+41. Chu, F. S. 1974. Studies on ochratoxins. Crit. Rev. Toxicol. 2:499–524.
+42. Chu, F. S. 1997. Trichothecene mycotoxicoses. Encyclopedia Hum. Biol.
+8:511–522.
+43. Ciegler, A. 1986. Mycotoxins: a new class of chemical weapons. NBC De-
+fense & Technol. Int., April 1986, p. 52–57.
+44. Ciegler, A. 1977. Patulin, p. 609–624. In J. V. Rodricks, C. W. Hesseltine,
+and M. A. Mehlman (ed.), Mycotoxins in human and animal health. Patho-
+tox Publishers, Inc., Park Forest South, Ill.
+45. Ciegler, A., R. W. Detroy, and E. B. Lillejoj. 1971. Patulin, penicillic acid
+and other carcinogenic lactones, p. 409–434. In A. Ciegler, S. Kadis and S. J.
+Ajl (ed.), Microbial toxins, vol. VI: fungal toxins. Academic Press. New
+York, N.Y.
+VOL. 16, 2003
+MYCOTOXINS
+511
+
+46. Ciegler, A., D. J. Fennell, H. J. Mintzlaff, and L. Leistner. 1972. Ochratoxin
+synthesis by Penicillium species. Naturwissenschaften 59:365–366.
+47. Ciegler, A., S. Kadis, and S. J. Ajl (ed.). 1971. Microbial toxins, vol. VI:
+fungal toxins. Academic Press. New York, N.Y.
+48. Cleveland, T. E., and D. Bhatnagar. 1992. Molecular strategies for reducing
+aﬂatoxin levels in crops before harvest, p. 205–228. In D. Bhatnagar and
+T. E. Cleveland (ed.), Molecular approaches to improving food quality and
+safety. Van Nostrand Reinhold, New York, N.Y.
+49. Cole, R. J., and R. H. Cox. 1981. Handbook of toxic fungal metabolites.
+Academic Press, New York, N.Y.
+50. Cook, R. 1996. Acceptable risk. Barkley, New York, N.Y.
+51. Cotty, P. J., P. Bayman, D. S. Egel, and K. S. Elias. 1994. Agriculture,
+aﬂatoxins and Aspergillus, p. 1–27. In K. A. Powell, A. Renwick, and J. F.
+Peberdy (ed.), The genus Aspergillus. Plenum Press, New York, N.Y.
+52. Coulombe, R. A., Jr. 1994. Nonhepatic disposition and effects of aﬂatoxin
+B1, p. 89–110. In D. L. Eaton, and J. D. Groopman (ed.), The toxicology of
+aﬂatoxins: human health, veterinary, and agricultural signiﬁcance. Aca-
+demic Press, San Diego, Calif.
+53. Council for Agricultural Science and Technology. 1989. Mycotoxins. Eco-
+nomic and health risks. Council for Agricultural Science and Technology
+Task Force Report. No. 116. Council for Agricultural Science and Tech-
+nology, Ames, Iowa
+54. Creppy, E. E. 1999. Human ochratoxicosis. J. Toxicol. Toxin Rev. 18:277–
+293.
+55. Croft, W. A., B. B. Jarvis, and C. S. Yatawara. 1986. Airborne outbreak of
+trichothecene toxicosis. Atmos. Environ. 20:549–552.
+56. Cullen, J. M., and P. N. Newberne. 1994. Acute heptoxotoxicity of aﬂatox-
+ins, p. 3–26. In D. L. Eaton and J. J. Groopman (ed.), The toxicity of
+aﬂatoxins. Human health, veterinary, and agricultural signiﬁcance. Aca-
+demic Press, San Diego.
+57. Dales, R. E., R. Burnett, and H. Zwaneburg. 1991. Adverse health effects
+among adults exposed to home dampness and molds. Am. Rev. Respir. Dis.
+143:505–509.
+58. Dearborn, D. G., I. Yike, W. G. Sorenson, M. J. Miller, and R. A. Etzel.
+1999. Overview of investigation into pulmonary hemorrhage among infants
+in Cleveland, Ohio. Environ. Health Perspect. Suppl. 3 107:495–499.
+59. Deger, G. E. 1976. Aﬂatoxin—human colon carcinogenesis? Ann. Intern.
+Med. 85:204–205.
+60. Desjardins, A. E., and R. D. Plattner. 2000. Fumonisin B (1)-nonproducing
+strains of Fusarium verticillioides cause maize (Zea mays) ear infection and
+ear rot. J. Agric. Food Chem. 48:5773–5780.
+61. Desjardins, A. E., T. M. Hohn, and S. P. McCormick. 1993. Trichothecene
+biosynthesis in Fusarium species: chemistry, genetics, and signiﬁcance. Mi-
+crobiol. Rev. 57:595–604.
+62. Desjardins, A. E. G. F. Spencer, R. D. Plattner, and M. N. Beremand. 1989.
+Furanocoumarin phytoalexins, trichothecene toxins and infection of Pasti-
+naca sativa by Fusarium sporotrichioides. Phtyopathology 79:170–175.
+63. Detroy, R. W., E. B. Lillehoj, and A. Ciegler. 1971. Aﬂatoxin and related
+compounds, p. 3–178. In A. Ciegler, S. Kadis, and S. J. Ajl (ed.), Microbial
+toxins, vol. VI: fungal toxins. Academic Press, New York, N.Y.
+64. De Vries, J. W., M. W. Trucksess, and L. S. Jackson (ed.). 2002. Mycotoxins
+and food safety. Kluwer Academic/Plenum Publications, New York, N.Y.
+65. Diener, U. L., R. J. Cole, T. H. Sanders, G. A. Payne, L. S. Lee, and M. A.
+Klich. 1987. Epidemiology of aﬂatoxin formation by Aspergillus ﬂavus.
+Annu. Rev. Phytopathol. 25:249–270.
+66. Dixon, D. M. M. M. McNeil, M. L. Cohen, B. G. Gellin, and J. R. LaMon-
+tagne. 1996. Fungal infections. A growing threat. Public Health Rep. 111:
+226–235.
+67. Dowd, D. 1998. Involvement of arthropods in the establishment of myco-
+toxigenic fungi under ﬁeld conditions, p. 307–350. In K. K. Sinha and D.
+Bhatnagar (ed.), Mycotoxins in agriculture and food safety. Marcel Dekker,
+Inc., New York, N.Y.
+68. Dutton, M. F. 1996. Fumonisins, mycotoxins of increasing importance: their
+nature and their effects. Pharmacol. Ther. 70:137–161.
+69. Eaton, D. L., and E. P. Gallagher. 1994. Mechanisms of aﬂatoxin carcino-
+genesis. Annu. Rev. Pharmacol. Toxicol. 34:135–172.
+70. Eaton, D. L., and J. D. Groopman (ed.). 1994. The toxicology of aﬂatoxins:
+human health, veterinary, and agricultural signiﬁcance. Academic Press,
+San Diego, Calif.
+71. Eaton, D. L., and H. S. Ramsdel. 1992. Species and diet related differences
+in aﬂatoxin biotransformation, p. 157–182. In D. Bhatnagar, E. B. Lillehoj,
+and D.K. Arora (ed.), Handbook of applied mycology, vol. 5, mycotoxins in
+ecological systems. Marcel Dekker, Inc., New York, N.Y.
+72. El-Nezami, H., P. E. Kankaanpaa, S. Salminen, and J. T. Ahokas. 1998.
+Physico-chemical alterations enhance the ability of dairy strains of lactic
+acid bacteria to remove aﬂatoxins from contaminated media. J. Food Prot.
+61:466–468.
+73. El-Nezami, H., N. Polychronaki, S. Salminen, and H. Mykkanen. 2002.
+Binding rather than metabolism may explain the interaction of two food-
+grade Lactobacillus strains with zearalenone and its derivative -zearalenol.
+Appl. Environ. Microbiol. 68:3545–3549.
+74. Engelhart, S., A. Loock, D. Skutlarek, H. Sagunski, A. Lommel, H. Farber,
+and M. Exner. 2002. Occurrence of toxigenic Aspergillus versicolor isolates
+and sterigmatocystin in carpet dust from damp indoor environments. Appl.
+Environ. Microbiol. 68:3886–3890.
+75. Environmental Protection Agency. 1991. Sick building syndrome. Indoor
+Air Quality Fact Sheet 4. Environmental Protection Agency, Washington,
+D.C.
+76. Etzel, R. A. 2002. Mycotoxins. J. Am. Med. Assoc. 287:425–427.
+77. Etzel, R. A., E. Montana, W. G. Sorenson, G. J. Kullman, T. M. Allan, and
+D. G. Dearborn. 1998. Acute pulmonary hemorrhage in infants associated
+with exposure to Stachybotrys atra and other fungi. Arch. Pediatr. Adolesc.
+Med. 152:757–762.
+78. Evans, G. 1983. The yellow rainmakers. Are chemical weapons being used
+in Southeast Asia? Verso/Schocken, London, United Kingdom.
+79. . Feinberg, B., and C. S. McLaughlin. 1989. Biochemical mechanism of
+action of trichothecene mycotoxins, p. 27–35. In V. R. Beasley (ed.), Tri-
+chothecene mycotoxicoses: pathophysiologic effects, vol. I. CRC Press,
+Boca Raton, Fla.
+80. Fink-Gremmels, J. 1999. Mycotoxins: their implications for human and
+animal health. Vet. Q. 21:115–120.
+81. Food and Agricultural Organization. 1997. Food and Agricultural Organi-
+zation of the United Nations food and nutrition paper 64. Worldwide
+regulations for mycotoxins. A compendium. Food and Agricultural Orga-
+nization, Rome, Italy.
+82. Forgacs, J. 1962. Mycotoxicoses—the neglected diseases. Feedstuffs 34:
+124–134.
+83. Forgacs, J. 1972. Stachybotryotoxicosis, p. 95–128. In S. Kadis, A. Ciegler,
+and S. J. Ajl (ed.), Microbial toxins, vol. VI: fungal toxins. Academic Press,
+New York, N.Y.
+84. Forgacs, J., and W. T. Carll. 1962. Mycotoxicoses. Adv. Vet. Sci. 7:273–382.
+85. Fuller, J. G. 1968. The day of St. Anthony’s ﬁre. Macmillan, New York,
+N.Y.
+86. Fung, F., R. Clark, and S. Williams. 1998. Stachybotrys, a mycotoxin pro-
+ducing fungus of increasing toxigenic importance. J. Toxicol. Clin. Toxicol.
+36:79–86.
+87. Gelderblom, W. C. A., K. Jaskiewicz, W. F. O. Marasas, P. G. Thiel, R. M.
+Horak, R. Vleggaar, and N. P. J. Kriek. 1988. Fumonisins- novel mycotoxins
+with cancer-promoting activity produced by Fusarium moniliforme Appl.
+Environ. Microbiol. 54:1806–1811.
+88. Gelderblom, W. C. A., K. Jaskiewicz, W. F. O. Marasas, and P. G. Thiel.
+1991. Toxicity and carcinogenicity of the Fusarium moniliforme metabolite,
+fumonisin B1 in rats. Carcinogenesis 12:1247–1251.
+89. Gelderblom, W. C. A., C. M. Smuts, S. Abel, S. D. Snyman, M. E. Cawood,
+L. van der Westhuizen, and S. Swanevelder. 1996. Effect of fumonisin B1 on
+protein and lipid synthesis in primary rat hepatocytes. Food Chem. Toxicol.
+34:361–369.
+90. Godish, T. 1995. Sick buildings. Deﬁnition, diagnosis, and mitigation, Lewis
+Publications, Boca Raton, Fla.
+91. Goldblatt, L. (ed.). 1969. Aﬂatoxin. scientiﬁc background, control, and
+implications. Academic Press, New York, N.Y.
+92. Goto, T., D. T. Wicklow, and Y. Ito. 1996. Aﬂatoxin and cyclopiazonic acid
+production by a sclerotium-producing Aspergillus tamarii strain. Appl. En-
+viron. Microbiol. 62:4036–4038.
+93. Graniti, A. 1972. The evolution of the toxic concept in plant pathology, p.
+1–18. In R. K. Wood, A. Ballio, and A. Graniti (ed.), Phytotoxins in plant
+diseases. Academic Press, New York, N.Y.
+94. Graveson, S., J. C. Frisvad, and R. A. Samson. 1994. Microfungi. Munks-
+gaard Publications, Copenhagen, Denmark.
+95. Greene, G. 1979. The human factor. Everyman’s Library, London, United
+Kingdom.
+96. Grove, J. F. 1968. The constituents of glutinosin. J. Chem. Soc.1968:810.
+97. Hagler, W. M., Jr., N. R. Towers, C. J. Mirocha, R. M. Eppley, and W. L.
+Bryden. 2001. Zearalenone: mycotoxin or mycoestrogen?, p. 321–331. In
+B. A. Summerell, J. F. Leslie, D. Backhouse, W. L. Bryden, and L. W.
+Burgess (ed.), Fusarium. Paul E. Nelson Memorial Symposium. APS Press,
+St. Paul, Minn.
+98. Haller, J. S., Jr. 1993. Ergotism, p. 718–719. In K. F. Kiple (ed.), The
+Cambridge world history of human disease. Cambridge University Press,
+Cambridge, United Kingdom.
+99. Hamilton, P. B., W. E. Huff, J. R. Harris, and R. D. Wyatt. 1982. Natural
+occurrences of ochratoxicosis in poultry. Poult. Sci. 61:1832–1836.
+100. Hanika, C., and W. W. Carlton. 1994. Toxicology and pathology of citrinin,
+p. 41–63. In G. C. Llewellyn, W. V. Dashek, and C. E. O’Rear (ed.),
+Biodeterioriation research, vol. 4. Plenum Press, New York, N.Y.
+101. Harrison, L. R., B. M. Colvin, J. T. Greene, L. E. Newman, and J. R. Cole,
+Jr. 1990. Pulmonary edema and hydrothorax in swine produced by fumo-
+nisin B1 a toxic metabolite of Fusarium moniliforme. J. Vet. Diagn. Investig.
+2:217–221.
+102. Hayes, A. W. 1980. Mycotoxins: a review of biological effects and their role
+in human diseases. Clin. Toxicol. 17:45–83.
+103. Hayes, R. B., J. P. van Nienwenhuise, J. W. Raatgever, and F. J. W. Ten
+Kate. 1984. Aﬂatoxin exposure in the industrial setting: an epidemiological
+study of mortality. Food Chem. Toxicol. 22:39–43.
+512
+BENNETT AND KLICH
+CLIN. MICROBIOL. REV.
+
+104. Heathcote, J. G., and J. R. Hibbert. 1978. Aﬂatoxins: chemical and biolog-
+ical aspects. Elsevier Scientiﬁc Publishing Company, Amsterdam, The
+Netherlands.
+105. Heenan, C. N., K. J. Shaw, and J. I. Pitt. 1998. Ochratoxin A production by
+Aspergillus carbonarius and A. niger isolates and detection using coconut
+cream agar. J. Food Mycol. 1:67–72.
+106. Heffron, J. 1999. Endocrine disrupters. Are they an insidious risk to health?
+Biochemist 1999:28–31.
+107. Hendricks, K. 1999. Fumonisins and neural tube defects in south Texas.
+Epidemiology 10:198–200.
+108. Hendricks, K. A., J. S. Simpson, and R. D. Larsen. 1999. Neural tube
+defects along the Texas-Mexico border, 1993–1995. Am. J. Epidemiol.
+149L:1119–1127.
+109. Hendrickse, R. G. 1997. Of sick turkeys, kwashiorkor, malaria, perinatal
+mortality, heroin addicts and food poisoning: research on the inﬂuence of
+aﬂatoxins on child health in the tropics. Ann. Trop. Med. Parasitol. 91:787–
+793.
+110. Hendry, K. M., and E. C. Cole. 1993. A review of mycotoxins in indoor air.
+J. Toxic. Environ. Health 38:183–198.
+111. Henry, S. H., F. X. Bosch, and J. C. Bowers. 2002. Aﬂatoxin, hepatitis and
+worldwide liver cancer risks, p. 229–320. In J. W. DeVries, M. W. Trucksess,
+and L. S. Jackson (ed.), Mycotoxins and food safety. Kluwer Academic/
+Plenum Publications., New York, N.Y.
+112. Henry, S. H., F. X. Bosch, T. C. Troxell, and P. M. Bolger. 1999. Reducing
+liver cancer—global control of aﬂatoxin. Science 286:2453–2454.
+113. Hetherington, A. C., and H. Raistrick. 1931. Studies in the biochemistry of
+microorganisms. Part XIV. On the production and chemical constitution of
+a new yellow colouring matter, citrinin, produced from glucose by Penicil-
+lium citrinum Thom. Phil. Trans. R. Soc. London Ser. B 220B:269–295.
+114. Hicks, J. K., K. Shimizu, and N. P. Keller. 2002. Genetics and biosynthesis
+of aﬂatoxins and sterigmatocystin, p. 55–69. In F. Kempken (ed.), The
+mycota, vol. XI. Agricultural applications. Springer-Verlag, Berlin, Ger-
+many.
+115. Hidy, P. H. R. S. Baldwin, R. L. Greasham, C. L. Keith, and J. R. Mc-
+Mullen. 1977. Zearalenone and some derivatives: production and biological
+activities. Adv. Appl. Microbiol. 22:59–82.
+116. Hinkley, S. F., and B. B. Jarvis. 2001. Chromatographic method for Stachy-
+botrys toxins, p. 173–194. In M. W. Trucksess, and A. E. Pohland (ed.),
+Mycotoxin protocols. Humana Press, Totowa, N.J.
+117. Hintikka, E.-L. 1978. Human stachybotryotoxicosis, p. 87–89. In T. D.
+Wyllie and L. G. Morehouse (ed.), Mycotoxic fungi, mycotoxins, mycotox-
+icoses, vol. 2. Marcel Dekker, New York, N.Y.
+118. Hocking, A. D., K. Holds, and N. F. Tobin. 1988. Intoxication by tremor-
+genic mycotoxin (penitrem A) in a dog. Aust. Vet. J. 65:82–85.
+119. Hodge, E. G., P. H. Hidy, and H. J. Wehrmeister. 1966. Estrogenic com-
+pounds and animal growth promoters. U.S. Patent 3239345.
+120. Hofmann, A. 1972. Ergot—a rich source of pharmacologically active sub-
+stances, p. 236–260. In T. Swain (ed.), Plants in the development of modern
+medicine. Harvard University Press, Cambridge, Mass.
+121. Hsieh, D. 1988. Potential human health hazards of mycotoxins, p. 69–80. In
+S. Natori, K. Hashimoto, and Y. Ueno (ed.), Mycotoxins and phytotoxins.
+Third Joint Food and Agriculture Organization/W.H.O./United Nations E?
+Program International Conference of Mycotoxins. Elsevier, Amsterdam,
+The Netherlands.
+122. Hsu, I. C., R. A. Metcalf, T. Sun, J. A. Welsh, N. J. Wang, and C. C. Harris.
+1991. Mutational hotspot in the p53 gene in human hepatocellular carci-
+nomas. Nature 350:377–378.
+123. Hult, K., R. Piestina, V. Habazin-Novak, B. Radic, and S. Ceovic. 1982.
+Ochratoxin A in human blood and Balkan endemic nephropathy. Arch.
+Toxicol. 51:313.
+124. Hurd, R. N. 1977. Structure activity relationships in zearalenones, p. 379–
+391. In J. V. Rodricks, C. W. Hesseltine, and M. A. Mehlman (ed.), My-
+cotoxins in human and animal health. Pathotox Publications, Inc., Park
+Forest South, Ill.
+125. Husman, T. 1996. Health effects of indoor-air microorganisms: a review.
+Scand. J. Work Environ. Health 22:5–13.
+126. Hussein, H. S., and J. M. Brasel. 2001. Toxicity, metabolism, and impact of
+mycotoxins on humans and animals. Toxicology 167:101–134.
+127. International Agency for Research on Cancer. 1982. The evaluation of the
+carcinogenic risk of chemicals to humans. IARC Monograph Supplement 4.
+International Agency for Research on Cancer, Lyon, France.
+128. James, R. C. 1985. General principles of toxicology, p.7–26. In P. L. Wil-
+liams and J. L. Burson (ed.), Industrial toxicology. Van Nostrand Reinhold,
+New York, N.Y.
+129. Jarvis, B. B. 2002. Chemistry and toxicology of molds isolated from water
+damaged buildings, p. 43–52. In J. W. deVries, M. W. Trucksess, and L. S.
+Jackson (ed.), Mycotoxins and food safety. Kluwer Academic/Plenum Pub-
+lications, New York, N.Y.
+130. Jarvis, B. B., W. G. Sorenson, E.-L. Hintikka, M. Nikulin, Y. Zhou, J. Jiang,
+S. Wang, S. Hinklye, R. A. Etzel and D. Dearborn. 1998. Study of toxin
+production by isolates of Stachybotrys chartarum and Memnoniella echinata
+isolated during a study of pulmonary hemosiderosis in infants. Appl. Envi-
+ron. Microbiol. 64:3620–3625.
+131. Jelinek, C. P. A., E. Pohland, and G. E. Wood. 1989. Worldwide occurrence
+of mycotoxins in food and feeds, an update. J. Assoc. Off. Anal. Chem.
+72:223–247.
+132. Joffe, A. Z. 1978. Fusarium poae and F. sporotrichioides as principal causal
+agents of alimentary toxic aleukia, p. 21–86. In T. D. Wyllie and L. G.
+Morehouse (ed.), Mycotoxic fungi, mycotoxins, mycotoxicoses, vol. 3. Mar-
+cel Dekker, New York, N.Y.
+133. Joffe, A. Z. 1986. Fusarium species: their biology and toxicology. John Wiley
+and Sons, New York, N.Y.
+134. Johanning, J. 1998. Stachybotrys revisited. J. Toxicol. Clin. Toxicol. 36:629–
+631.
+135. Jonsyn-Ellis, F. E. 2000. Seasonal variation in exposure frequency and
+concentration levels of aﬂatoxins and ochratoxins in urine samples of boys
+and girls. Mycopathologia 152:35–40.
+136. Kadis, S., A. Ciegler, and S. J. Ajl (ed.). 1972. Microbial toxins, vol. VIII:
+fungal toxins. Academic Press. New York, N.Y.
+137. Klich, M. A. 1987. Relation of plant water potential at ﬂowering to subse-
+quent cottonseed infection by Aspergillus ﬂavus. Phytopathology 77:739–
+741.
+138. Klich, M. A., and J. I. Pitt. 1988. Differentiation of Aspergillus ﬂavus from
+Aspergillus parasiticus and other closely related species. Trans. Br. Mycol.
+Soc. 91:99–108.
+139. Klich, M. A., E. J. Mullaney, C. B. Daly, and J. W. Cary. 2000. Molecular
+and physiological aspects of aﬂatoxin and sterigmatocystin biosynthesis by
+A. tamarii and A. ochraceoroseus. Appl. Microbiol. Biotechnol. 53:605–609.
+140. Klich, M. A., J. Yu, P.-K. Chang, E. J. Mullaney, D. Bhatnagar, and T. E.
+Cleveland. 1995. Hybridization of genes involved in aﬂatoxin biosynthesis to
+DNA of aﬂatoxigenic and nonaﬂatoxigenic aspergilli. Appl. Microbiol. Bio-
+technol. 44:439–443.
+141. Krishnamachari, K. A. V. R., R. V. Bhat, V. Nagarajan, and T. M. G.
+Tilnak. 1975. Hepatitis due to aﬂatoxicosis. An outbreak in Western India.
+Lancet i:1061–1063.
+142. Krogh, P. 1976. Mycotoxic nephropathy. Adv. Vet. Sci. Comp. Med. 20:
+147–170.
+143. Krogh, P. 1987. Ochratoxin in foods, p. 97–110. In P. Krogh (ed.), Myco-
+toxins in food. Academic Press, London, United Kingdom.
+144. Kuiper-Goodman, T. 1998. Food safety: mycotoxins and phycotoxins in
+perspective, p. 25–48. In M. Miraglia, H. van Edmond, C. Brera, and J.
+Gilbert (ed.), Mycotoxins and phycotoxins—developments in chemistry,
+toxicology and food safety. Alaken Inc., Fort Collins, Colo.
+145. Kuiper-Goodman, T. 1994. Prevention of human mycotoxicoses through
+risk assessment and risk management, p. 439–469. In J. D. Miller and H. L.
+Trenholm (ed.), Mycotoxins in grain. Compounds other than aﬂatoxin.
+Eagan Press, St. Paul, Minn.
+146. Kuiper-Goodman, T., and P. M. Scott. 1989. Risk assessment of the myco-
+toxin ochratoxin A. Biomed. Environ. Sci. 2:179–248.
+147. Kuiper-Goodman, T., P. M. Scott, and H. Watanabe. 1987. Risk assessment
+of the mycotoxin zearalenone. Regul. Toxicol. Pharmacol. 7:253–306.
+148. Kurtz, H. J., and J. Mirocha. 1978. Zearalenone (F2) induced estrogenic
+syndrome in swine, p. 1256–1264. In T. D. Wyllie and L. G. Morehouse
+(ed.), Mycotoxic fungi, mycotoxins, mycotoxicoses, vol. 2. Marcel Dekker,
+New York, N.Y.
+149. Kwon-Chung, K. J., and J. E. Bennett. 1992. Medical mycology. Lea &
+Febiger, Philadelphia, Pa.
+150. Lacey, J. (ed.). 1985. Trichothecenes and other mycotoxins. John Wiley and
+Sons, Chichester, United Kingdom.
+151. Leslie, J. F. 1996. Introductory biology of Fusarium moniliforme, p. 153–
+164. In L. S. Jackson, J. W. DeVries, and L. B. Bullerman (ed.), Fumonisins
+in food. Plenum Press, New York, N.Y.
+152. Li, F.-Q., T. Yoshizawa, S. Kawamura, S.-Y. Luo, and Y.-W. Li. 2001.
+Aﬂatoxins and fumonisins in corn from the high-incidence area for human
+hepatocellular carcinoma in Guangxi, China. J. Agric. Food Chem. 49:
+4122–4126.
+153. Lisker, N., and E. B. Lillehoj. 1991. Prevention of mycotoxin contamiantion
+(principally aﬂatoxins and Fusarium toxins) at the preharvest stage, p.
+689–719. In J. E. Smith and R. S. Henderson (ed.), Mycotoxins and animals
+foods. CRC Press, Boca Raton, Fla.
+154. Lorenz, K. 1979. Ergot on cereal grains. Crit. Rev. Food Sci. Nutr. 11:311–
+354.
+155. Lutsky, I. N. Mor, B. Yagen, and A. Z. Joffe. 1978. The role of T-2 toxin in
+experimental alimentary toxic aleukia: a toxicity study in cats. Toxicol.
+Appl. Pharmacol. 43:111–124.
+156. Maddox, J. 1984. Natural history of yellow rain. Nature 309:207.
+157. Maggon, K. K., S. K. Gupta, and T. A. Venkitasubramanian. 1977. Biosyn-
+thesis of aﬂatoxins. Bacteriol. Rev. 41:822–855.
+158. Manabe, M. 2001. Fermented foods and mycotoxins. Mycotoxins 51:25–28.
+159. Mannon, J., and E. Johnson. 1985. Fungi down on the farm. New Sci.
+105:12–16.
+160. Marasas, W. F. O. 1996. Fumonsins: history, world-wide occurrence and
+VOL. 16, 2003
+MYCOTOXINS
+513
+
+impact, p. 1–17. In L. S. Jackson, J. W. DeVries, and L. B. Bullerman (ed.),
+Fumonosins in food. Plenum Press, New York, N.Y.
+161. Marasas, W. F. O. 1995. Fumonisins: their implications for human and
+animal health. Nat. Toxins 3:193–198.
+162. Marasas, W. F. O., and P. E. Nelson. 1987. Mycotoxicology. The Pennsyl-
+vania State University Press, University Park, Pa.
+163. Marasas, W. F. O., T. S. Kellerman, W. C. A. Gelderblom, J. A. W. Coetzer,
+P. G. Thiel, and J. J. Van Der Lugt. 1988. Leukoencephalomalacia in horse
+induced by fumonisin B1 isolated from Fusarium moniliforme. Onder-
+stepoort J. Vet. Res. 55:197–203.
+164. Marasas, W. F. O., J. D. Miller, R. T. Riley, and A. Visconti. 2001. Fumo-
+nisins—occurrence, toxicology, metabolism and risk assessment, p, 332–
+359. In B. A. Summerell, J. F. Leslie, D. Backhouse, W. L. Bryden, and
+L. W. Burgess (ed.), Fusarium. Paul E. Nelson Memorial Symposium. APS
+Press, St. Paul, Minn.
+165. Marasas, W. F. O., P. E. Nelson, and T. A. Toussoun. 1984. Toxigenic
+Fusarium species: identity and mycotoxicology. The Pennsylvania State
+University Press, University Park, Pa.
+166. Marquardt, R. R., and A. A Frohlich. 1992. A review of recent advances in
+understanding ochratoxicosis. J. Anim. Sci. 70:3968–3988.
+167. Marshall, E. 1983. Yellow rain experts battle over corn mold. Science
+221:526–529.
+168. Marshall, E. 1982. Yellow rain: ﬁlling in the gaps. Science 217:31–34.
+169. Matossian, M. K. 1982. Ergot and the Salem witchcraft affair. Am. Sci.
+70:355–357.
+170. Matossian, M. K. 1981. Mold poisoning: an unrecognized English health
+problem, 1150–1800. Med. History 25:73–84.
+171. Matossian, M. K. 1989. Poisons of the past: molds, epidemics, and history.
+Yale University Press, New Haven, Conn.
+172. McGinnis, M. R., L. Sigler, and M. G. Rinaldi. 1999. Some medically
+important fungi and their common synonyms and names of uncertain ap-
+plication. Clin. Infect. Dis. 29:728–730.
+173. McLaughlin, C. S. M. H. Vaughan, I. M. Campbell, C. M. Wei, M. E.
+Stafford, and B. S. Hansen. 1977. Inhibition of protein synthesis by tricho-
+thecenes, p. 261–284. In J. V. Rodricks, C. W. Hesseltine, and M. A.
+Mehlman (ed.), Mycotoxins in human and animal health. Pathotox Publi-
+cations, Park Forest South, Ill.
+174. Meisner, H., and P. Meisner. 1981. Ochratoxin A, an inhibitor of renal
+phosphoenolpyruvate carboxylase. Arch. Biochem. Biophys. 208:146–151.
+175. Merrill, A. H. Jr, M. C. Sullards, E. Wang, K. A. Voss, and R. T. Riley. 2001.
+Sphingolipid metabolism: roles in signal transduction and disruption by
+fumonisins. Environ. Health Perspect. 109(Suppl. 2):283–289.
+176. Miller, J. D. 1992. Fungi as contaminants in indoor air. Atmosph. Environ.
+26:2163–2172.
+177. Miller, J. D., and H. L. Trenholm (ed.). 1994. Mycotoxins in grain. Com-
+pounds other than aﬂatoxin. Eagan Press, St. Paul, Minn.
+178. Miller, J. D., J. W. ApSimon, B. A. Blackwell, R. Greenhalgh, and A. Taylor.
+2001. Deoxynivalenol: a 25 year perspective on a trichothecene of agricul-
+tural importance, p. 310–319. In B. A. Summerell, J. F. Leslie, D. Back-
+house, W. L. Bryden, and L. W. Burgess (ed.), Fusarium, Paul E. Nelson
+Memorial Symposium. APS Press, St. Paul, Minn.
+179. Mirocha, C. J., and C. M. Christensen. 1974. Oestrogenic mycotoxins
+synthesized by Fusarium, p. 129–148. In I. F. H. Purchase (ed.), Mycotoxins.
+Elsevier, Amsterdam, The Netherlands.
+180. Mirocha, C. J., C. M. Christensen, and G. H. Nelson. 1967. Estrogenic
+metabolite produced by Fusarium graminearum in stored grain. Appl. Mi-
+crobiol. 15:497–503.
+181. Missmer, S., K. A. Hendricks, L. Suarez, R. D. Larsen, and I. J. Rothman.
+2000. Fumonisins and neural tube defects. Epidemiology 11:183–184.
+182. Money, N. 2002. Mr. Bloomﬁeld’s orchard. The mysterious world of mush-
+rooms, molds and mycologists. Oxford University Press, New York, N.Y.
+183. Montana, E., A. Etzel, T. Allen, T. E. Horgan, and D. G. Dearborn. 1997.
+Environmental risk factors associated with pediatric idiopathic pulmonary
+hemorrhage/hemosiderosis in a Cleveland community. Pediatrics 99:117–
+124.
+184. Moss, M. O. 1996. Mycotoxins. Mycol. Res. 100:513–523.
+185. Nelson, P. E., A. E. Desjardins, and R. D. Plattner. 1993. Fumonisins,
+mycotoxins produced by Fusarium species: biology, chemistry and signiﬁ-
+cance. Annu. Rev. Phytopathol. 31:233–252.
+186. Newberne, P. M., and W. H. Butler. 1969. Acute and chronic effect of
+aﬂatoxin B1 on the liver of domestic and laboratory animals: a review.
+Cancer Res. 29:236–250.
+187. Nielsen, K. F., S. Gravesen, P. A. Nielsen, B. Andersen, U. Thrane, and J. C.
+Frisvad. 1999. Production of mycotoxins on artiﬁcially and naturally in-
+fested building materials. Mycopathologia 145:43–56.
+188. Nielsen, K. F., M. O. Hansen, T. O. Larsen, and U. Thrane. 1998. Produc-
+tion of trichothecene mycotoxins on water damaged gypsum boards in
+Danish buildings. Int. Biodeterioration Biodegradation 42:1–7.
+189. Nikulin, M., A.-L. Pasanen, S. Berg, and E.-L. Hintikka. 1994. Stachybotrys
+atra growth and toxin production in some building materials and fodder
+under different relative humidities. Appl. Environ. Microbiol. 60:3421–
+3424.
+190. Nowicke, J. W., and M. Meselson. 2000. Yellow rain—a palynological anal-
+ysis. Nature 309:205–206.
+191. O’Reilly, J. T., P. Hagan, R. Gots, and A. Hedge. 1998. Keeping buildings
+healthy. How to monitor and prevent indoor environmental problems. John
+Wiley & Sons, Inc., New York, N.Y.
+192. Payne, G., and M. P. Brown. 1998. Genetics and physiology of aﬂatoxin
+biosynthesis. Annu. Rev. Plant Pathol. 36:329–362.
+193. Peers, F. G., and C. A. Linsell. 1973. Dietary aﬂatoxins and human liver
+cancer—a population study based in Kenya. Br. J. Cancer 27:473–484.
+194. Peltola, J., M. A. Andersson, T. Haahtela, M. Mussalo-Rauhamaa, F. A.
+Rainey, R. M. Kroppenstedt, R. A. Samson, and M. S. Salkinoja-Salonen.
+2001. Toxic-metabolite-producing bacteria and fungus in an indoor envi-
+ronment. Appl. Environ. Microbiol. 67:3269–3274.
+195. Peraica, M., B. Radic, A. Lucic, and M. Pavlovic. 1999. Toxic effects of
+mycotoxins in humans. Bull. W.H.O. 77:754–766.
+196. Pestka, J. J., and G. S. Bondy. 1994. Immunotoxic effects of mycotoxins, p.
+339–358. In J. D. Miller and H. Trenhold (ed.), Mycotoxins in grain. Com-
+pounds other than aﬂatoxins. Eagan, St. Paul, Minn.
+197. Peterson, S. W., Y. Ito, B. W. Horn, and T. Goto. 2001. Aspergillus bombycis,
+a new aﬂatoxigenic species and genetic variation in its sibling species, A.
+nomius. Mycologia 93:689–703.
+198. Pier, A. C., J. L. Richard, and S. J. Cysewski. 1980. Implications of myco-
+toxins in animal disease. J. Am. Vet. Med. Assoc. 176:719–724.
+199. Pitt, J. I. 1987. Penicillium viridicatum, Penicillium verrucosum, and produc-
+tion of ochratoxin A. Appl. Environ. Microbiol. 53:266–269.
+200. Pitt, J. I. 2000. Toxigenic fungi: which are important? Med. Mycol.
+38(Suppl. 1):17–22.
+201. Pitt, J. I., R. H. Cruickshank, and L. Leistner. 1986. Penicillium commune,
+P. camembertii, the origin of white cheese moulds, and the production of
+cyclopiazonic acid. Food Microbiol. 3:363–371.
+202. Plattner, R. D., D. Weisleder, and S. M. Poling. 1996. Analytical determi-
+nation of fumonisins and other metabolites produced by Fusarium monili-
+forme and related species on corn. Adv. Exp. Med. Biol. 392:57–64.
+203. Plumlee, K. H., and F. D. Galey. 1994. Neurotoxic mycotoxins: A review of
+fungal toxins that cause neurological disease in large animals. J. Vet. Intern.
+Med. 8:49–54.
+204. Pozzi, C. R., B. Correa, J. G. Xavier, G. M. Direito, R. B. Orsi, and S. V.
+Matarazzo. 2000. Effects of prolonged oral administration of fumonisin B1
+and aﬂatoxin B1 in rats. Mycopathologia 151:21–27.
+205. Pringle, P. 1985. Political science. Atlantic Monthly, Oct. 1985, p. 67–81.
+206. Proctor, R. H. 2000. Fusarium toxins: trichothecenes and fumonisins, p.
+363–381. In J. W. Cary, J. E. Linz, and D. Bhatnagar (ed.), Microbial
+food-borne diseases: mechanisms of pathogenesis and toxin synthesis.
+Technomic Publications, Lancaster, Pa.
+207. Rahimtula, A. D., J. C. Bereziat, V. Bussacchini-Griot, and H. Bartsch.
+1988. Lipid peroxidation as a possible cause of ochratoxin A toxicity. Bio-
+chem. Pharmacol. 37:4469–4475.
+208. Raj, H. G., H. R. Prasanna, Pl N Mage, and P. D. Lotlikar. 1986. Effect of
+puriﬁed rat and hamster hepatic glutathione S-transferases on the micro-
+some mediated binding of aﬂatoxin B1 to DNA. Cancer Lett. 33:1–9.
+209. Rao, L. B., and A. Husain. 1985. Presence of cyclopiazonic acid in kodo
+millet (Paspalum scrobiculatum) causing kodua poisoning“in man and its
+production by associated fungi”. Mycopathologia 89:177–180.
+210. Rheeder, J. P., W. F. Marasas, and H. F. Vismer. 2002. Production of
+fumonisin analogs by Fusarium species. Appl. Environ. Microbiol. 68:2102–
+2105.
+211. Richard, J. L,, and J. R. Thurston. 1986. Diagnosis of mycotoxicoses.
+Martinus Nijhoff Publications, Dordrecht, The Netherlands.
+212. Richard, J. L., R. D. Plattner, J. May, and S. L. Liska. 1999. The occurrence
+of ochratoxin A in dust collected from a problem household. Mycopatho-
+logia 146:99–103.
+213. Riddle, J. M. 1997. Eve’s herbs. A history of contraception and abortion in
+the west. Harvard University Press, Cambridge, Mass.
+214. Riley, R. T., and D E. Goeger. 1992. Cyclopiazonic acid: speculations on its
+function in fungi, p. 385–402. In D. Bhatnagar, E. B. Lillehoj, and D. K.
+Arora (ed.), Handbook of applied mycology, vol. 5. Mycotoxins in ecolog-
+ical systems. Marcel Dekker, Inc., New York, N.Y.
+215. Robens, J. F., and J. L. Richard. 1992. Aﬂatoxins in animal and human
+health. Rev. Environ. Contam. Toxicol. 127:69–94.
+216. Rodricks, J. V., C. W. Hesseltine, and M. A. Mehlman (ed.). 1977. Myco-
+toxins in human and animal health. Pathotox Publishers, Inc., Park Forest
+South, Ill.
+217. Ross, R. K., J. M. Yuan, M. C. Yu, G. N. Wogan, G. S. Qian, J. T. Tu, J.
+Groopman, Y. T. Gao, and B. E. Henderson. 1992. Urinary aﬂatoxin bi-
+omarkers and risk of hepatocellular carcinoma. Lancet 339:1413–1414.
+218. Rotter, B. A., D. B. Prelusky, and J. J. Pestka. 1996. Toxicology of deoxyni-
+valenol (vomitoxin). J. Toxicol. Environ. Health 48:1–34.
+219. Rutqvist, L., N.-E. Bjorklund, K. Hult, E. Hockby, and B. Carlsson. 1978.
+Ochratoxin A as the cause of spontaneous nephropathy in fattening pigs.
+Appl. Environ. Microbiol. 36:920–925.
+220. Rylander, R. 1998. Microbial cell wall constituents in indoor air and their
+relation to disease. Indoor Air 4(Suppl.):59–65.
+514
+BENNETT AND KLICH
+CLIN. MICROBIOL. REV.
+
+221. Sabbioni, G., and O. Sepai. 1994. Determination of human exposure to
+aﬂatoxins, p. 183–226. In K. K. Sinha and K. Bhatnagar (ed.), Mycotoxins
+in agriculture and food safety. Marcel Dekker, Inc., New York, N.Y.
+222. Saito, M., M. Enomoto, and T. Tatsuno. 1971. Yellowed rice toxins:
+luteroskyrin and related compounds, chlorine-containing compounds and
+citrinin, p. 299–380. In A. Ciegler, S. Kadis, and S. J. Ajl (ed.), Microbial
+toxins, vol. VI: fungal toxins. Academic Press, New York, N.Y.
+223. Sansing, G. A., E. B. Lillehoj, and R. W. Detroy. 1976. Synergistic toxic
+effect of citrinin, ochratoxin A and penicillic acid in mice. Toxicon 14:213–
+220.
+224. Schoental, R. 1984. Mycotoxins and the Bible. Perspect. Biol. Med. 28:117–
+120.
+225. Schoental, R. 1983. Precocious sexual development in Puerto Rico and
+oestrogenic mycotoxins (zearalenone). Lancet i:537.
+226. Schwartz, G. G. 2002. Hypothesis: does ochratoxin A cause testicular can-
+cer? Cancer Causes Control 13:91–100.
+227. Scott, P. M. 1989. The natural occurrence of trichothecenes, p. 1–26. In
+V. H. Beasley (ed.), Trichothecene mycotoxicosis: pathophysiologic effects,
+vol. I. CRC Press, Boca Raton, Fla.
+228. Scott, P. M. 1981. Toxins of Penicillium species used in cheese manufacture.
+J. Food Prot. 44:702–710.
+229. Seagrave, S. 1981. Yellow rain: a journey through the terror of chemical
+warfare. M. Evans and Co., Inc., New York, N.Y.
+230. Shah, D. T., and B. Larsen. 1991. Clinical isolates of yeast produce a
+gliotoxin-like substance. Mycopathologia 116:203–208.
+231. Shah, D. T., D. D. Glover, and B. Larsen. 1995. In situ mycotoxin produc-
+tion by Candida albicans in women with vaginitis. Gynecol. Obstet. Investig.
+39:67–69.
+232. Shank, R. C., N. Bhamarapravati, J. E. Gordon, and G. N. Wogan. 1972.
+Dietary aﬂatoxins and human liver cancer. IV. Incidence of primary liver
+cancer in two municipal populations in Thailand. Food Cosmet. Toxicol.
+10:171–179.
+233. Shier, W. T. 1998. Estrogenic mycotoxins. Rev. Med. Vet. 149:599–604.
+234. Shotwell, L. L., C. W. Hesseltine, and M. L. Goulden. 1969. Ochratoxin A:
+occurrence as natural contaminant of a corn sample. Appl. Microbiol.
+17:765–766.
+235. Sinha, K. K., and D. Bhatnagar (ed.). 1998. Mycotoxins in agriculture and
+food safety. Marcel Dekker, Inc. New York, N.Y.
+236. Skaug, M. A., E. Eduard, and F. C. Stormer. 2000. Ochratoxin A in air-
+borne dust and fungal conidia. Mycopathologia 151:93–98.
+237. Smith, J. E., and R. A. Anderson (ed.). 1991. Mycotoxins and animal foods.
+CRC Press, Boca Raton, Fla.
+238. Smith, J. E., and M. O. Moss. 1985. Mycotoxins. Formation, analyses and
+signiﬁcance. John Wiley and Sons, Chichester, United Kingdom.
+239. Smith, J. E., G. Solomons, C. Lewis, and J. C. Anderson. 1995. Role of
+mycotoxins in human and animal nutrition and health. Nat. Toxins 3:187–
+192.
+240. Smoragliewicz, W., B. Cossette, A. Boutard, and K. Krzystyniak. 1993.
+Trichothecene mycotoxins in the dust of ventilation systems in ofﬁce build-
+ings. Int. Arch. Occup. Environ. Health 65:113–117.
+241. Sorenson, W. G., D. G. Frazzer, B. B. Jarvis, J. Simpson, and V. A. Rob-
+inson. 1987. Trichothecene mycotoxins in aerosolized conidia of Stachybot-
+rys atra. Appl. Environ. Microbiol. 53:1370–1375.
+242. Spanos, N. P., and J. Gottlieb. 1976. Ergotism and the Salem Village witch
+trials. Science 194:1390–1394.
+243. Squire, R. A. 1981. Ranking animal carcinogens: a proposed regulatory
+approach. Science 214:877–880.
+244. Stafford, M. E., and C. S. McLaughlin. 1973. Trichodermin, a possible
+inhibitor of the termination process of protein synthesis. J. Cell Physiol.
+82:121–124.
+245. Sternberg, S. 1994. The emerging fungal threat. Science 266:1632–1634.
+246. Steyn, P. S. (ed.). 1980. The biosynthesis of mycotoxins: a study in second-
+ary metabolism. Academic Press, New York, N.Y.
+247. Steyn, P. S., and R. Vleggaar. 1985. Tremorgenic mycotoxins, p. 1–80. In W.
+Herz, H. Griseback, G. W. Kirby, and Ch. Tamm (ed.), Progress in the
+chemistry of organic natural products, vol. 48. Springer-Verlag, Vienna,
+Austria.
+248. Stone, R. 2001. Down to the wire on bioweapons talks. Science 293:414–
+416.
+249. Stone, R. 2002. Peering into the shadows: Iraq’s bioweapons program.
+Science 297:1110–1112.
+250. Sweeney, M. J., and A. D. W. Dobson. 1999. Molecular biology of mycotoxin
+production. FEMS Microbiol. Lett. 175:149–163.
+251. Sweeney, M. J., S. White, and A. D. W. Dobson. 2000. Mycotoxins in
+agriculture and food safety. Irish J. Agric. Food. Res. 39:235–244.
+252. Sydenham, E. W., G. S. Shephard, P. G. Thiel, W. F. O. Marasas, and S.
+Stockenstrom. 1991. Fumonsin contamination of commercial corn-based
+human foodstuffs. J. Agric. Food Chem. 39:2014–2018.
+253. Tag, A. G., G. F. Garifullina, A. W. Peplow, C. Ake, Jr., T D. Phillips, T. M.
+Hohn, and M. N. Beremand. 2001. A novel regulatory gene, tri10, controls
+trichothecene toxin production and gene expression. Appl. Environ. Micro-
+biol. 67:5294–5302.
+254. Takahashi, T., P.-K.Chang, K. Matsushima, J. Yu, K. Abe, D. Bhatnagar,
+T. E. Cleveland, and Y. Koyama. 2002. Nonfunctionality of Aspergillus sojae
+aﬂR in a strain of Aspergillus parasiticus with a disrupted aﬂR gene. Appl.
+Environ. Microbiol. 68:3737–3743.
+255. Teren, J., J. Varga, Z. Hamari, E. Rinyu, and F. Kevei. 1996. Immuno-
+chemical detection of ochratoxin A in black Aspergillus strains. Mycopatho-
+logia 134:171–186.
+256. Townsend, C. A. 1997. Progress towards a biosynthetic rationale of the
+aﬂatoxin pathway. Pure Appl. Chem. 58:227–238.
+257. Trail, F., N. Mahanti, and J. Linz. 1995. Molecular biology of aﬂatoxin
+biosynthesis. Microbiology 141:755–765.
+258. Trenholm, H. L., D. Friend, R. M. G. Hamilton, D. B. Prelusky, and B. C.
+Foster. 1989. Lethal toxicity and nonspeciﬁc effects, p. 107–142. In V. L.
+Beasley (ed.), Trichothecene mycotoxicosis: pathophysiologic effects, vol. I.
+CRC Press, Boca Raton, Fla.
+259. Trucksess, M. W., and A.E. Pohland, (ed.). 2001. Mycotoxin protocols.
+Humana0 Press. Totowa, N.J.
+260. Trucksess, M. W., and Y. Tang. 2001. Solid phase extraction method for
+patulin in apple juice and unﬁltered apple juice, p. 205–213. In M. W.
+Trucksess and A. F. Pohland (ed.), Mycotoxin protocols. Humana Press,
+Totowa, N.J.
+261. Ueno, Y. (ed.). 1983. Trichothecenes: chemical, biological and toxicological
+aspects. Elsevier, Amsterdam, The Netherlands.
+262. Ulrich, R. F., and B. M. Patten. 1991. The rise, decline, and fall of LSD.
+Perspect. Biol. Med. 34:561–578.
+263. Urry, W. H., H. L. Wehrmeister, E. B. Hodge, and P. H. Hidy. 1966. The
+structure of zearalenone. Tetrahedron Lett. 27:3109–3114.
+264. Utian, W. H. 1973. Comparative trial of P1496, a new non-steroidal oes-
+trogen analogue. Br. Medical J. 1:579–581.
+265. Van Burik, J., and P. T. Magee. 2001. Aspects of fungal pathogenesis in
+humans. Annu. Rev. Microbiol. 55:743–772.
+266. Van der Merwe, K. J., P. S. Steyne, L. F. Fourie, D. B. Scott, and J. J.
+Theron. 1965. Ochratoxin A, a toxic metabolite produced by Aspergillus
+ochraceus Wilh. Nature 205:1112–1113.
+267. Van Egmond, H. P. 1989. Aﬂatoxin M1: occurrence, toxicity, regulation, p.
+11–55. In H. P. Van Egmond (ed.), Mycotoxins in dairy products. Elsevier
+Applied Science, London.
+268. Van Egmond, H. P. 1991. Worldwide regulations for ochratoxin A, p.
+331–336. In M. Castegnaro, R. Plestina, G. Dirheimer, I. N. Chernozemsky,
+and H. Bartsch (ed.), Mycotoxins, endemic nephropathy, and urinary tract
+tumors. Publication no. 115. International Agency for Research on Cancer.
+Lyon, France.
+269. Van Egmond, H. P., and G. J. A. Speijers. 1994. Survey of data on the
+incidence and levels of ochratoxin A in food and animal feed worldwide.
+Nat. Toxins 3:125–144.
+270. Van Rensburg, S. J., P. Cook-Mazaffari, D. J. van Schalkwyk, J. J. van der
+Watt, T. J. Vincent, and I. F. Purchase. 1985. Heptatocellular carcinoma
+and dietary aﬂatoxin in Mozambique and Transkei. Br. J. Cancer 51:713–
+720.
+271. Vesper, S., D. G. Dearborn, I. Yike, T. Allen, J. Sobolewski, S. F. Hinkley,
+B. B. Jarvis, and R. A. Haugland. 2000. Evaluation of Stachybotrys charta-
+rum in the house of an infant with pulmonary hemorrhage: quantitative
+assessment before, during and after remediation. J. Urban Health 77:68–85.
+272. Vesper, S. J., M. L. Magnuson, D. G. Dearborn, I. Yike, and R. A.
+Haugland. 2001. Initial characterization of the hemolysin stachylysin from
+Stachybotrys chartarum. Infect. Immun. 69:912–916.
+273. Wang, E., W. P. Norred C. W. Bacon, R. T. Riley, and A. H. Merrill, Jr.
+1991. Inhibition of sphingolipid biosynthesis by fumonsins. J. Biol. Chem.
+266:14486–14490.
+274. Watson, A. J., L. J. Fuller, D. J. Jeens, and D. B. Archer. 1999. Homologues
+of aﬂatoxin biosynthesis genes and sequence of aﬂR in Aspergillus oryzae
+and Aspergillus sojae. Appl. Environ. Microbiol. 65:307–310.
+275. Wei, C.-M., I. M. Campbell, C. S. McLaughlin, and M. H. Vaughn. 1974.
+Binding of trichodermin to mammalian ribosomes and its inhibition by
+other 12,13-epoxytrichothecenes. Mol. Cell Biochem. 3:215–219.
+276. Wei, D. L., and S. C. Jong. 1986. Production of aﬂatoxins by strains of the
+Aspergillus ﬂavus group maintained in ATCC. Mycopathologia 93:19–24.
+277. Weidenborner, W. 2001. Encyclopedia of food mycotoxins. Springer, Berlin,
+Germany.
+278. Whiteside, T. 1991. Annals of the Cold War: the yellow rain complex. New
+Yorker, 11 Feb. 1991, p. 38–67; 18 Feb. 1991, p. 44–66.
+279. Willis, R. M., J. J. Mulvihill, and J. H. Hoofnagle. 1980. Attempted suicide
+with puriﬁed aﬂatoxin. Lancet, i:1198–1199.
+280. Wilson, D. M., and G. A. Payne. 1994. Factors affecting Aspergillus ﬂavus
+group infection and aﬂatoxin contamination of crops, p. 309–325. In D. L
+Eaton and J. D. Groopman (ed.), The toxicology of aﬂatoxins. Human
+health, veterinary and agricultural signiﬁcance. Academic Press, San Diego,
+Calif.
+281. Wilson, D. M., W. Mubatanhema, and Z. Jurjevic. 2002. Biology and ecol-
+ogy of mycotoxigenic Aspergillus species as related to economic and health
+concerns, p. 3–17. In J. W. deVries, M. W. Trucksess, and L. S. Jackson
+VOL. 16, 2003
+MYCOTOXINS
+515
+
+(ed.), Mycotoxins and food safety. Kluwer Academic Plenum Publications,
+Dordrecht, The Netherlands.
+282. Wilson, D. M., E. W. Sydenham, G. A. Lombaert, M. W. Trucksess, D.
+Abramson, and G. A. Bennett. 1998. Mycotoxin analytical techniques, p.
+135–182. In K. S. Sinha and D. Bhatnagar (ed.), Mycotoxins in agriculture
+and food safety. Marcel Dekker, Inc., New York, N.Y.
+283. Wogan, G. N. (ed.). 1965. Mycotoxins in foodstuffs. M.I.T. Press, Cam-
+bridge, Mass.
+284. Woolf, L. I. 1986. The heterozygote advantage in phenylketonuria. Am. J.
+Hum. Genet. 38:773–775.
+285. Wyllie, T. D., and L. G. Morehouse (ed.). 1977. Mycotoxic fungi, mycotox-
+ins, mycotoxicoses: an encyclopedic handbook, vol. 1. Marcel Dekker, Inc.
+New York, N.Y.
+286. Wyllie, T. D., and L. G. Morehouse (ed.). 1978. Mycotoxic fungi, mycotox-
+ins, mycotoxicoses: an encyclopedic handbook, vol. 2. Marcel Dekker, Inc.
+New York, N.Y.
+287. Yoder, O. C. 1980. Toxins in pathogenesis. Annu. Rev. Phytopathol. 18:
+103–129.
+288. Yu, J., P.-K. Chang, D. Bhatnagar, T. E. Cleveland. 2000. Genes encoding
+cytochrome P450 and monooxygenase enzymes deﬁne one end of the aﬂa-
+toxin pathway gene cluster in Aspergillus parasiticus. Appl. Microbiol. Bio-
+technol. 53:583–590.
+289. Yu, J., C. P. Woloshuk, D. Bhatnagar, and T. E. Cleveland. 2000. Cloning
+and characterization of avfA and omtB genes involved in aﬂatoxin biosyn-
+thesis in three Aspergillus species. Gene 248:157–167.
+290. Zilinskas, R. A. 1997. Iraq’s biological weapons. The past as future? J. Am.
+Med. Assoc. 276:418–424.
+516
+BENNETT AND KLICH
+CLIN. MICROBIOL. REV.

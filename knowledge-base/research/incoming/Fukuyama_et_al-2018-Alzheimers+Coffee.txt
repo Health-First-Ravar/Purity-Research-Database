@@ -1,0 +1,609 @@
+RESEARCH ARTICLE
+Alzheimer’s Disease
+www.mnf-journal.com
+Roasted Coﬀee Reduces β-Amyloid Production by
+Increasing Proteasomal β-Secretase Degradation in Human
+Neuroblastoma SH-SY5Y Cells
+Kazuya Fukuyama, Shota Kakio, Yosuke Nakazawa, Kenji Kobata,
+Megumi Funakoshi-Tago, Toshiharu Suzuki, and Hiroomi Tamura*
+Scope: Epidemiological studies have shown that coﬀee consumption may be
+associated with a lower risk of developing several neurological disorders,
+including Alzheimer’s disease (AD). Caﬀeine is a prominent candidate
+component underlying the preventive eﬀects of coﬀee; however, the
+contribution of other constituents is unclear. To clarify this issue, the eﬀect of
+roasting coﬀee beans on β-secretase (BACE1) expression in human
+neuroblastoma SH-SY5Y cells is investigated.
+Methods and results: Coﬀee (2%) reduces Aβ accumulation in culture
+medium to 80% of control levels after 24 h. Accordingly, BACE1 expression is
+decreased to 70% of control levels at 12 h. Experiments using cycloheximide
+and MG132, a proteasome inhibitor, reveal that coﬀee enhanced BACE1
+degradation through activation of proteasomal activity. Furthermore, coﬀee
+activates cAMP-dependent protein kinase, and consequently, phosphorylation
+of a serine residue of proteasome 26S subunit, non-ATPase 11 (PSMD11).
+Pyrocatechol, a strong antioxidant known as catechol or
+1,2-dihydroxybenzene, produced from chlorogenic acid during roasting, also
+reduces BACE1 expression by activation of proteasomal activity. Furthermore,
+pyrocatechol reduces Aβ production in SH-SY5Y cells.
+Conclusion: The data suggest that the roasting process may be crucial for the
+protective eﬀects of coﬀee consumption in AD.
+1. Introduction
+Coﬀee is a world-wide consumed beverage. Epidemiologi-
+cal studies show that coﬀee consumption may be associated
+K. Fukuyama, Dr. S. Kakio, Dr. Y. Nakazawa, Dr. M. Funakoshi-Tago,
+Prof. H. Tamura
+Graduate School of Pharmaceutical Sciences
+Keio University
+Tokyo, 105-8512, Japan
+E-mail: tamura-hr@pha.keio.ac.jp
+Prof. K. Kobata
+Department of Pharmaceutical and Health Sciences
+Josai University
+Saitama, Japan
+Prof. T. Suzuki
+Laboratory of Neuroscience
+Graduate School of Pharmaceutical Sciences
+Hokkaido University
+Sapporo, Japan
+DOI: 10.1002/mnfr.201800238
+with a lower risk for several neurolog-
+ical disorders, such as Alzheimer’s dis-
+ease (AD) and Parkinson’s disease.[1–3]
+Several cross-sectional and longitudi-
+nal population-based studies have sug-
+gested a protective eﬀect of coﬀee use
+against late-life cognitive impairment
+and decline.[3] However, elucidation of
+the molecular mechanisms for the pro-
+tective eﬀects of coﬀee against these neu-
+rological disorders have not been fully ex-
+plored.
+Genetic and experimental evidence
+implicate the accumulation of β-amyloid
+(Aβ) in the brain and the toxicity of Aβ
+oligomers in the etiology of AD.[4] Aβ
+peptides are generated from the cleav-
+age of amyloid precursor protein (APP)
+by the enzymes β- and γ -secretases.[5]
+Inhibition of these secretases represents
+an obvious logical strategy to inhibit the
+generation of Aβ. However, γ -secretase
+not only cleaves APP but many other
+type I transmembrane proteins within
+their transmembrane domains includ-
+ing Notch receptors.[6] Therefore, long-
+term treatment of AD patients with
+γ -secretase inhibitors appears unfeasible due to side eﬀects.[6]
+On the other hand, the β-site APP-cleaving enzyme 1 (BACE1)
+is the major protease with β-secretase activity in the brain
+and is thought to initiate the amyloidogenic pathway to cleave
+APP to form the N-terminus of Aβ peptides.[5,7] Therefore, the
+development of selective BACE1 inhibitors has been pursued
+in academia and industry.[8,9] However, recent clinical trials of
+BACE1 inhibitors have failed to rescue the cognitive decline in
+patients with mild-to-moderate AD, indicating that treatment at
+the symptomatic stage might be too late.[10] In these circum-
+stances, elucidation of the molecular basis of eﬀects of the coﬀee
+on AD is an urgent issue, because the safety and eﬃcacy of coﬀee
+intake of treating AD progression is highly expected.[11]
+Arendash et al. reported that caﬀeine protected AD mice
+against cognitive impairment and reduced Aβ production by
+the reduction of β- and γ -secretase activities.[12,13] Although
+caﬀeine is the most prominent constituent of coﬀee, and a
+likely candidate for its preventive eﬀect against AD,[12–14] recent
+studies revealed that the therapeutic beneﬁts of coﬀee are not
+Mol. Nutr. Food Res. 2018, 62, 1800238
+C⃝2018 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+1800238 (1 of 9)
+
+www.advancedsciencenews.com
+www.mnf-journal.com
+due to caﬀeine alone.[14–16] Shukitt-Hale et al. showed that
+improvements in cognition and psychomotor behavior in aged
+rats were due to coﬀee, and not caﬀeine itself.[17] Furthermore,
+crude caﬀeine, a by-product of the coﬀee decaﬀeination process,
+exhibited greater therapeutic eﬀect on memory impairment in
+AD mice than caﬀeine alone.[18] This study also reported that
+administration of crude caﬀeine reduced the Aβ levels and the
+number of amyloid plaques in the hippocampus in AD mice.[18]
+To elucidate the molecular basis of the preventive eﬀect of
+coﬀee against AD, we focused on the eﬀects of coﬀee on BACE1
+expression in human neuroblastoma SH-SY5Y cells by using
+coﬀee beans with diﬀerent degrees of roasting.
+2. Experimental Section
+2.1. Materials
+SH-SY5Y cells were purchased from DS Pharma Biomedical Co.
+Ltd (Osaka, Japan). Reagents for PCR were purchased from Ap-
+plied Biosystems Inc. (Warrington, UK). Antibodies for BACE1,
+phospho-serine, and PSMD11 were purchased from Abcam
+(Cambridge, UK), QIAGEN (Hilden, Germany) and ATGen Co.,
+Ltd (Gyeongi-do, South Korea), respectively. The antibody for
+β-actin was purchased from Santa Cruz Biotechnology Inc.
+(Santa Cruz, CA). Monoclonal antibodies for Aβ1-27 (2D1), Aβ1−40
+end-speciﬁc (4D1), and Aβ1-42 end-speciﬁc (4D8) were prepared
+as previously described.[19] Caﬀeine, caﬀeic acid, chlorogenic
+acid, chloroquine, and trigonelline were purchased from Sigma
+(St. Louis, MO). MG132 and H89 were purchased from Nacalai
+Tesque (Tokyo, Japan).
+2.2. Cell Culture and Treatment with Coﬀee or Reagents
+SH-SY5Y cells were grown in Ham’s F12/DMEM medium (1:
+1) supplemented with 1% nonessential amino acids, 15% fetal
+bovine serum, and 100 U mL–1 penicillin–100 µg mL–1 strepto-
+mycin (Nacalai Tesque, Tokyo, Japan) at 37°C in a humidiﬁed at-
+mosphere of 5% CO2. The cultured cells were exposed to coﬀee
+with 0, 0.25, 0.5, 1.0, 2.0% v/v, or to 100 µm caﬀeine, caﬀeic acid,
+chlorogenic acid, or trigonelline. Cell numbers and viability were
+monitored by Vi-CELL counter (Beckman Coulter, Tokyo, Japan)
+and WST assay (Takara Bio Inc., Shiga, Japan), respectively. For
+BACE1 degradation analysis, cells were treated with 10 µm cyclo-
+heximide, 10 µm MG132, or 25 µm chloroquine for 1 h prior to
+coﬀee treatment.
+2.3. Preparation of Coﬀee Extract
+Roasted coﬀee powder (Columbia Arabica) was obtained from
+Starbucks Coﬀee Japan (Tokyo, Japan). Brewed coﬀee was pre-
+pared by a common method, in which 8 g of powder was extracted
+with 140 mL hot water (95 °C) and ﬁltered through a paper ﬁlter
+(Mellita, Minden, Germany). The brewed coﬀee was then ster-
+ile ﬁltered, divided into small aliquots, and stored at –80 °C until
+used. Undiluted brewed coﬀee, with a dry weight of 8.4 mg mL–1,
+was assigned a concentration of 100% (v/v). For roasting exper-
+iments, Columbian Arabica coﬀee green beans were purchased
+from Nakaya Coﬀee (Tokyo, Japan), and the green beans were
+roasted at 200—220 °C for up to 20 min. Green and roasted beans
+were ground, and then coﬀee extracts were prepared and stored
+as described above. Optical densities at 500 nm of 10% brewed
+coﬀee made from the roasted beans were 0.05 (green beans),
+0.153 (medium roasted beans), and 0.269 (dark roasted beans).
+2.4. Measurement of Aβ40 Level in Cell Supernatants
+Cells were treated with coﬀee (0–2%) for 24 h; the culture super-
+natant was collected. The amount of Aβ40 in the supernatants
+was determined by ELISA, according to the method described
+previously.[19] Brieﬂy, 96-well plates were coated with the mon-
+oclonal Aβ1−40 end-speciﬁc antibody (4D1) (0.3 µg per well),
+washed with PBS containing 0.05% (v/v) Tween 20 (washing
+buﬀer, WB), blocked with bovine serum albumin (3% (w/v) in
+PBS), washed with WB. The supernatant (100 µL) was then incu-
+bated together with a standard of synthetic Aβ1–40 peptide (gifted
+from the W. M. Keck Foundation Biotechnology Resource Lab-
+oratory, Yale University) for one night at 4 °C. After washing,
+wells were treated with the biotinylated antibody for Aβ1-27 (2D1)
+(12.5 ng), washed, and incubated with 100 µL of a streptavidin–
+horseradish peroxidase complex (1:5000) (GE Healthcare Bio-
+Science Japan, Tokyo, Japan). The plate was further washed, and
+100 µL of TMB peroxidase substrate solution (Agilent Technolo-
+gies, Santa Clara) was added to wells and incubated for 20 min
+at room temperature. The reaction was stopped by the addition
+of 100 µL of 0.2 m sulfate, and the absorbance at 450 nm was
+measured.
+2.5. Analysis of Gene Expression
+Total RNA was isolated from the cultured cells by the guani-
+dinium thiocyanate-phenol-chloroform extraction method using
+Isogen (Nippon Gene, Tokyo, Japan). First-strand cDNA was syn-
+thesized from 1 µg of total RNA using 100 units of reverse
+transcriptase and random primers according to the manufac-
+turer’s protocol (TOYOBO Life Science, Osaka, Japan). Quan-
+titative real-time PCR (qPCR) was performed using the SYBR
+green PCR core reagent kit (Roche, Basel, Switzerland) ac-
+cording to the manufacturer’s protocol. The primers used for
+the ampliﬁcation of BACE1 cDNA were designed based on
+the published sequences as follows (forward and reverse, 5′
+to 3′); CACCACCAACCTTCGTTTGC and TTAGGTAGAGTGA-
+GATGACTGGGAAA.
+2.6. Immunoprecipitaion and Immunoblotting
+Cells were lysed in Nonidet P-40 lysis buﬀer (50 mm Tris-HCl
+(pH 8.0), 120 mm NaCl, 1 mm NaCl, 1 mm EDTA, 0.5% Nonidet
+P-40, phosphatase inhibitor cocktail (Nacalai Tesque), and pro-
+tease inhibitor cocktail (Nacalai Tesque). Crude cell extracts were
+centrifuged at 20 000 × g for 10 min, and proteins (10 µg) were
+Mol. Nutr. Food Res. 2018, 62, 1800238
+C⃝2018 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+1800238 (2 of 9)
+
+www.advancedsciencenews.com
+www.mnf-journal.com
+resolved by SDS-PAGE and transferred onto PVDF membrane
+(Millipore, Billerica, MA). The membrane was incubated for 1 h
+at room temperature in blocking buﬀer consisting of TBS (20 mm
+Tris-HCl pH 7.4, 137 mm NaCl) containing 5% skim milk. The
+membrane was then incubated overnight at 4 °C with the desig-
+nated primary antibody. The membrane was further incubated
+with horseradish peroxidase-linked secondary antibodies (Agi-
+lent Technologies, Santa Clara). Immunoreactive proteins were
+visualized with the ECL detection system (GE Healthcare Bio-
+Science Japan, Tokyo, Japan).
+2.7. Immunoprecipitation Analysis
+Cell lysates were incubated with anti-PSMD11 antibody and then
+protein G-Sepharose (Zymed Laboratory, South San Francisco,
+CA, USA) at 4 °C for 4 h. Immune complexes were precipi-
+tated and washed ﬁve times with lysis buﬀer, then eluted with
+Laemmli buﬀer. Eluted proteins were resolved using SDS–PAGE
+and transferred to PVDF membranes (Millipore, Billerica, MA).
+Membranes were probed using the anti-phosphoserine antibody
+(Abcam) and visualized with the ECL detection system.
+2.8. Assay for Proteasome Activity in SH-SY5Y Cells
+Proteasome activity within the cells was measured using Pro-
+teasome 20S Activity Assay Kit (Sigma–Aldrich, St. Louis, MO)
+according to the manufacturer’s protocol, with minor modiﬁca-
+tions. In brief, 3 × 105 cells were plated in a 96-well plate and
+incubated overnight at 37 °C in a humidiﬁed atmosphere of 5%
+CO2. Cells were treated with coﬀee or other compounds in 100 µL
+protease assay loading buﬀer containing 1 µg LLVY-R110 sub-
+strate, then the ﬂuorescence intensity generated by proteasome
+cleavage of the substrate was measured at λex = 490 nm and λem
+= 525 nm with a plate reader (Inﬁnite 200, TECAN Japan, Tokyo,
+Japan) after 4 h.
+2.9. Extraction and Separation of Coﬀee Extracts
+To extract coﬀee constituents with organic solvents, brewed cof-
+fee (1 mL) was extracted sequentially with an equal volume of
+hexane, ethyl acetate, and n-butanol, sequentially. Organic and
+aqueous phases were then concentrated by evaporation, and the
+concentrates were dissolved in 20 µL DMSO. To separate ethyl
+acetate extracts, dried ethyl acetate extracts (equivalent to 15 mL
+coﬀee) were dissolved in 15 mL of methanol/ethyl acetate (2:1),
+applied to Sep-Pak C18 column (Waters, Milford, MA), and eluted
+by 15 mL step-wise rinses of water (R1), 20% methanol (R2), and
+100% methanol (R3).
+2.10. High-Performance Liquid Chromatography of Coﬀee
+Extracts
+High-performance liquid chromatography (HPLC) analyses were
+performed using an ODS column (Inertsil ODS-3 column,
+Figure 1. Coﬀee reduces Aβ production in SH-SY5Y cells. Cells were
+treated with 0–2% (v/v) coﬀee for 24 h and the amount of Aβ1−40 in
+the culture medium was determined by sandwich ELISA as described in
+the Experimental Section. The Aβ amount of the control (0% coﬀee) was
+1400 pg mL–1. **p < 0.01 (n = 3).
+4.6 × 250 mm, GL Sciences Inc., Tokyo, Japan) at 40 °C. Coﬀee
+extracts or standards were applied to the column and eluted with
+the solvent A (5% acetate) to B (100% methanol) gradient system
+at a ﬂow rate of 1 mL min–1, detected with ﬂuorescence at λex =
+280 nm and λem = 320 nm.
+2.11. Statistics
+Student’s t-tests were used for statistical analyses and p < 0.05
+was considered signiﬁcant.
+3. Results
+3.1. Coﬀee Reduces Aβ Production in SH-SY5Y Cells
+To explore the eﬀect of coﬀee on Aβ production in neural cells,
+human neuroblastoma SH-SY5Y cells were treated with coﬀee,
+and secreted Aβ protein in the media was measured. Since in
+our conditions, treatments with less than 2.5% (v/v) coﬀee did
+not exhibit any cytotoxicity as determined using trypan blue stain-
+ing and WST assay (data not shown), we measured the eﬀects of
+coﬀee preparations of less than 2% (v/v). After 24 h incubation
+with coﬀee (0–2%), the amount of Aβ40 in the media was deter-
+mined by sandwich ELISA as described.[19] The Aβ40 amounts
+decreased in a dose-dependent manner, reaching –20% of initial
+level following treatment with 2% coﬀee (Figure 1). The amount
+of Aβ42 was too low to detect by our methods.
+3.2. Coﬀee Reduces BACE1 Expression in SH-SY5Y Cells
+In the amyloidogenic pathway, BACE1 cleaves APP at the
+β-secretase site to initiate the production of Aβ peptides, and
+this cleavage constitutes the rate-limiting step.[4] Therefore, we
+measured the eﬀect of coﬀee on the expression of BACE1 protein
+Mol. Nutr. Food Res. 2018, 62, 1800238
+C⃝2018 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+1800238 (3 of 9)
+
+www.advancedsciencenews.com
+www.mnf-journal.com
+Figure 2. Coﬀee reduces BACE1 expression in SH-SY5Y cells. Cells were
+treated with 2% coﬀee for the indicated times and harvested. A) Cell lysates
+(10 µg) were subjected to immunoblotting for BACE1 and β-actin, and B)
+the band intensities of BACE1 were quantiﬁed with an image analyzer. C)
+RNA was isolated from the harvested cells and BACE1 mRNA levels were
+measured by real time-PCR. D) Cells were treated with diﬀerent concen-
+trations of coﬀee ranging 0 to 2% for 15 h and the BACE1 expression was
+measured as in (A) and (B). *p < 0.05, **p < 0.01 (n = 3).
+and BACE1 mRNA in SH-SY5Y cells using immunoblotting and
+real-time PCR, respectively. After exposure to 2% coﬀee, BACE1
+protein levels gradually reduced to 60% of initial level at 12 h
+(Figure 2A and B), while the expression of BACE1 mRNA was
+not signiﬁcantly aﬀected (Figure 2C). The reduction in Aβ40 ac-
+cumulation was dose dependent, as shown in Figure 2D. Without
+coﬀee treatments, no signiﬁcant change was observed in BACE1
+expression.
+3.3. Coﬀee Enhanced BACE1 Degradation in SH-SY5Y Cells
+To determine whether coﬀee aﬀects the BACE1 degradation, cells
+were treated with cycloheximide (CHX) to inhibit de novo pro-
+tein synthesis, and BACE1 expression was measured in cells
+with or without coﬀee treatment. Although initial rates of BACE1
+degradation were similar, BACE1 degradation was enhanced in
+cells treated with coﬀee after 6 h incubation (Figure 3A).
+Since it has been reported that BACE1 is degraded by the lyso-
+somal pathway,[20] we applied chloroquine, an inhibitor of lysoso-
+mal proteases, in addition to cycloheximide for the measurement
+of BACE1 degradation. Although chloroquine slightly delayed the
+degradation rate, the addition of coﬀee signiﬁcantly enhanced the
+rate of BACE1 degradation after 6 h incubation (Figure 3B). It has
+also been reported that the degradation of BACE1 is regulated
+by the ubiquitin-proteasome system (UPS), the major intracellu-
+lar protein quality control system in eukaryotic cells.[21] To eluci-
+date the eﬀect of coﬀee on the UPS-dependent BACE1 degrada-
+tion, we analyzed the eﬀect of MG132, a proteasome inhibitor, on
+the enhancement of BACE1 degradation by coﬀee. As shown in
+Figure 3C, MG132 attenuated the coﬀee-mediated reduction in
+BACE1 protein expression.
+3.4. Coﬀee Induced Proteasomal Activity via Protein Kinase A
+Activation in SH-SY5Y Cells
+To elucidate the molecular basis for the coﬀee-mediated activa-
+tion of UPS, we measured proteasomal activity in coﬀee-treated
+SH-SY5Y cells using a synthetic substrate LLVY-R110. As shown
+in Figure 4A and B, proteasomal activity was induced by coﬀee
+treatment in a dose-dependent manner. Since it was reported that
+proteasome function is regulated by cyclic AMP-dependent pro-
+tein kinase A (PKA) through the phosphorylation of PSMD11
+(proteasome 26S subunit, non-ATPase 11)—one of 19S protea-
+some subunits[22]—we measured the eﬀect of PKA inhibitor
+H89 on the coﬀee-mediated activation of proteasome activity. As
+shown in Figure 4B, H89 blocked the coﬀee-mediated activation
+of proteasome activity. To further investigate the eﬀect of coﬀee
+on the phosphorylation of PSMD11 induced by PKA, SH-SY5Y
+cells were treated with coﬀee in the presence and absence of H89.
+PSMD11 was then immunoprecipitated with anti-PSMD11 anti-
+body and then immunoblotted with anti-phosphoserine antibody.
+Strikingly, coﬀee induced phosphorylation of PSMD11, and this
+phosphorylation was blocked with H89, suggesting that coﬀee
+induced the PKA-mediated PSMD11, leading to the activation of
+proteasomes (Figure 4C).
+3.5. Analyses of Coﬀee Constituents Responsible for the
+Reduction in BACE1 Expression
+There are several major constituents in coﬀee extracts, which ex-
+hibit speciﬁc physiological activities. These include caﬀeine, caf-
+feic acid, chlorogenic acid, and trigonelline (Figure 5A). To ex-
+plore which coﬀee constituent is responsible for the reduction in
+BACE1 expression in coﬀee-treated SH-SY5Y cells, we measured
+the eﬀects of major coﬀee components at 100 µm (the concentra-
+tion equivalent to 2–5% coﬀee for all components. No compound
+exhibited reduction in BACE1 expression (Figure 5A).
+Although caﬀeine is recognized as the most prominent
+constituent for the preventive eﬀect of coﬀee against AD,[14]
+no reduction was observed with caﬀeine treatment. Therefore,
+we examined the eﬀect of decaﬀeinated coﬀee on BACE1
+Mol. Nutr. Food Res. 2018, 62, 1800238
+C⃝2018 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+1800238 (4 of 9)
+
+www.advancedsciencenews.com
+www.mnf-journal.com
+Figure 3. Coﬀee enhanced BACE1 degradation in SH-SY5Y cells. A) Cells were treated with 100 µm cycloheixime for 1 h and then further incubated with
+or without 2% coﬀee for 12 h. Cells were harvested at the indicated times, and the amounts of BACE1 proteins were detected by immunoblotting (upper)
+and quantiﬁed (lower). B) Cells were treated with 100 µm cycloheximide and 25 µm chloroquine for 1 h and then incubated with or without 2% coﬀee
+for 9 h. BACE1 expression was measured as in (A). C) Cells were treated with 100 µm cycloheximide, 25 µM chloroquine, and 10 µm MG132 for 1 h and
+further incubated with or without 2% coﬀee for 12 h. Cells were harvested and the amounts of BACE1 were detected by immunoblotting and quantiﬁed.
+CHX, cycloheximide; CQ, chloroquine; MG, MG132. *p < 0.05, **p < 0.01 (n = 3).
+expression. Decaﬀeinated coﬀee contains only a trace amount
+of caﬀeine (<1/100 of the original coﬀee; unpublished data).
+Nonetheless, 2% decaﬀeinated coﬀee treatment signiﬁcantly
+reduced BACE1 expression, although the magnitude of the
+reduction was slightly weaker than that observed following
+treatment with normal coﬀee (Figure 5B). Furthermore, de-
+caﬀeinated coﬀee also enhanced proteasomal activity, and the
+enhancement was attenuated by H89 (Figure 5C).
+To examine the possibility that active components are formed
+during the roasting process, we assayed the activity of extracts
+from beans that had undergone varying degrees of roasting be-
+fore brewing (Figure 6A). As shown in Figure 6B, coﬀee prepared
+from the roasted beans (medium and dark) but not from the
+green beans reduced BACE1 expression in treated cells. To fur-
+ther characterize active coﬀee constituents, coﬀee brewed from
+dark roasted beans was sequentially extracted with equal volume
+of n-hexane, ethyl acetate, and n-butanol, and the eﬀect of each
+extract on BACE1 expression was measured. Activity to reduce
+BACE1 expression was only detected in the ethyl acetate extract
+(Figure 6C).
+3.6. Pyrocatechol Reduced BACE1 Expression via the Activation
+of Proteasomal Activity
+In order to characterize the components responsible for the
+BACE1 reduction, we performed HPLC analysis using a reverse
+phase column. The analysis of the coﬀee extracts revealed that
+two major substances, pyrocatechol and 4-ethyl catechol, were
+produced during roasting process (Figure 7A). These two sub-
+stances were separated by Sep-Pak C18 column chromatography
+and the major BACE1 expression reducing activity was recovered
+in the fraction containing pyrocatechol (R2) (Figure 7B). Since
+the dark coﬀee extract contained 2.5 µm pyrocatechol at 2% (v/v),
+we measured the eﬀect of pyrocatechol on BACE1 expression in
+SH-SY5Y cells up to 10 µm, a concentration at which no cytotoxi-
+city was observed. After 12 h incubation, 2.5 µm pyrocatechol re-
+duced BACE1 expression to half of the control level (Figure 8A).
+Pyrocatechol also induced proteasomal activity and the eﬀect was
+inhibited by H89 (Figure 8B). Pyrocatechol strongly activated ser-
+ine phosphorylation of PSMD11 (Figure 8C). In addition, pyro-
+catechol reduced Aβ secretion into the medium, as was observed
+Mol. Nutr. Food Res. 2018, 62, 1800238
+C⃝2018 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+1800238 (5 of 9)
+
+www.advancedsciencenews.com
+www.mnf-journal.com
+Figure 4. Coﬀee-induced proteasomal activity via protein kinase A activation in SH-SY5Y cells. A) Cells were plated in a 96-well plate and treated with or
+without 2% coﬀee in 100 µL assay buﬀer containing LLVY-R110 as a substrate. At indicated times, the ﬂuorescence intensity generated by 26S proteasome
+cleavage of the substrate was monitored at λex = 490 nm and λem = 525 nm. B) Cells were incubated with 0–2% coﬀee or 2% coﬀee and 10 µm H89
+for 4 h. Proteasomal activities were measured as in (A). C) Cells were treated with 2% coﬀee ± 10 µm H89 for 4 h and cell lysates were prepared. The
+lysates (500 µg) were immunoprecipitated with 1 µg anti-PSMD11 antibody. Immune complexes were recovered with Protein G-Sepharose beads and
+subjected to immunoblot analyses using anti-phosphoserine antibody. Band intensities of p-Ser were quantiﬁed. *p < 0.05, **p < 0.01 (n = 3).
+Figure 5. Analyses of coﬀee constituents for the reduction in BACE1 expression. A) Cells were incubated with 2% coﬀee or 100 µm major constituents,
+caﬀeine, caﬀeic acid, chlorogenic acid, or trigonelline, for 15 h. BACE1 expression were monitored by immunoblotting. Ctrl, control (0.1% DMSO). B)
+Cells were treated with decaﬀeinated coﬀee (0.5–2%) for 15 h and BACE1 expression was measured. C) Cells were incubated with 0–2% decaﬀeinated
+coﬀee or 2% coﬀee and 10 µm H89 for 4 h. Proteasomal activities were measured as in Figure 4. *p < 0.05, **p < 0.01 (n = 3).
+Mol. Nutr. Food Res. 2018, 62, 1800238
+C⃝2018 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+1800238 (6 of 9)
+
+www.advancedsciencenews.com
+www.mnf-journal.com
+Figure 6. Roasting beans enhanced coﬀee-mediated reduction in BACE1
+expression. A) Photographs of coﬀee beans with diﬀerent roasting de-
+grees (upper). Cells were treated with 2% coﬀee brewed from green beans,
+medium-roasted beans or dark roasted beans for 15 h, and BACE1 expres-
+sion in each cell lysate was detected by immunoblotting (middle) and band
+intensities were measured (lower). B) Aliquots (1 ml) of coﬀee brewed
+from dark roasted beans were sequentially extracted with equal volume of
+hexane, ethyl acetate, and 1-butanol. All extracts were dried by evaporation
+and dissolved in 20 µL DMSO. Cells were treated with each extract at the
+concentration equivalent to 2% coﬀee for 15 h and BACE1 expression was
+detected by immunoblotting. Ctrl, control (0.1% DMSO); cf, 2% coﬀee;
+HX, n-hexane extract; EA, ethyl acetate extract; BT, n-butanol extract; AQ,
+aquaphase. *p < 0.05, **p < 0.01 (n = 3).
+using coﬀee (Figure 8D). Caﬀeine at 100 µm (equivalent to 4%
+coﬀee) had no eﬀect in either measurement.
+4. Discussion
+Accumulating evidence from epidemiological and animal stud-
+ies indicate that chronic coﬀee consumption may protect or de-
+lay the onset of dementias including AD.[1,2] However, molecu-
+lar mechanisms underlying the protective eﬀect of coﬀee are not
+yet fully understood. Although caﬀeine has been recognized as
+a key molecule for the protective eﬀect,[16] several studies have
+indicated components other than caﬀeine show positive eﬀects
+on cognitive functions in aged experimental animals.[17,18] In this
+study we also demonstrated that constituents that emerged dur-
+ing the process of roasting coﬀee beans reduced BACE1 expres-
+sion through activation of proteasomal degradation in human
+neuroblastoma SY-SH5Y cells (Figure 9). Furthermore, we re-
+vealed that pyrocatechol, a product generated by roasting from
+chlorogenic acid, exhibited same activity as well as roasting cof-
+fee (Figure 9).
+Treatment with 2% coﬀee decreased Aβ1−40 production to 70%
+of control levels after 24 h incubation in SH-SY5Y cells (Figure 1).
+BACE1 expression was reduced by 40% following 12 h of incu-
+bation. These data suggest that the reduction in Aβ production
+was mainly due to the coﬀee-mediated reduction in BACE1 activ-
+ity, since BACE1 cleavage constitutes the rate-limiting step of Aβ
+production.[4] However, γ -secretase activity also inﬂuences Aβ
+production. Although the expression of presenilin, a component
+of γ -secretase, was not aﬀected by the coﬀee treatment at mRNA
+and protein levels (data not shown), γ -secretase activity should
+be investigated in our experimental models in future.
+In this study, we found that coﬀee activates BACE1 degrada-
+tion and that this activation is sensitive to MG132 but not to
+chloroquine (Figure 3), indicating that coﬀee activates UPS. We
+also revealed that the activation in UPS was due to proteasomal
+activation through serine phosphorylation of 19S subunit
+PSMD11 by activated PKA (Figure 4). This phosphorylation
+was reported to be a key step in regulating overall proteasome
+activity.[21] Although caﬀeine has been reported to induce PKA
+signaling in the brain of Alzheimer’s transgenic mice,[12,22]
+caﬀeine had no eﬀect on the proteasomal activity in our exper-
+imental conditions (Figure 8C). Our preliminary data indicated
+that even 1 mm caﬀeine did not alter BACE1 expression.
+In addition, decaﬀeinated coﬀee also induced H89-sensitive
+BACE1 reduction (Figure 5C and D). Furthermore, pyrocatechol,
+a constituent produced during the roasting process, was found
+to induce BACE1 reduction throughH89-sensitive proteasomal
+activation within the cells (Figures 7 and 8). Finally, pyrocatechol
+reduced Aβ production the same as coﬀee. These results strongly
+suggest that pyrocatechol, not caﬀeine, is a key molecule in
+coﬀee-mediated BACE1 reduction and consequently in the Aβ
+reduction by coﬀee in SH-SY5Y cells.
+There is growing evidence showing a tight relationship be-
+tween Aβ and UPS, and this relationship plays an important
+role in AD pathogenesis.[23] The UPS consists of many factors
+including E3 ubiquitin ligases, ubiquitin hydrolases, ubiquitin
+and ubiquitin-like molecules, and the proteasome itself.[24] The
+neuron-speciﬁc F-box protein Fbx2 ubiquitinates β-secretase,
+thus targeting it for proteasomal degradation and reducing gen-
+eration of Aβ.[25] Although our preliminary data suggest that cof-
+fee treatment did not aﬀect Fbx2 gene expression and BACE1
+ubiquitination (data not shown), further investigation is needed
+to clarify the eﬀects of coﬀee and/or pyrocatechol on UPS, espe-
+cially related to the selectivity for BACE1 reduction in SH-SY5Y
+cells.
+Recent studies have shown that therapeutic beneﬁts of coﬀee
+are not due to caﬀeine alone.[15,17,18] This suggests that there may
+be potentiating eﬀects from other unknown coﬀee components
+on caﬀeine, leading to its beneﬁts in preventing AD. Our data
+Mol. Nutr. Food Res. 2018, 62, 1800238
+C⃝2018 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+1800238 (7 of 9)
+
+www.advancedsciencenews.com
+www.mnf-journal.com
+Figure 7. Characterization of coﬀee extracts with HPLC. A) HPLC of coﬀee extracts brewed from green beans and dark roast beans using an ODS column
+detected with ﬂuorescence at λex = 280 nm and λem = 320 nm. B) HPLC of fractions (R1, R2, and R3) separated with Sep-Pak C18 from ethyl acetate
+extracts of dark roasted coﬀee as described in the Experimental Section (upper). Cells were treated with each fraction for 15 h and the BACE1 expression
+was monitored (lower). Arrows indicate the position of standards as follows: arrow 1, pyrocatechol; arrow 2, caﬀeine; arrow 3, 4-ethyl catechol.
+Figure 8. Pyrocatechol reduced BACE1 expression via activation of proteasomal activity in SH-SY5Y cells. A) Cells were treated with 0–10 µm pyrocatechol
+for 15 h and then the cell lysates were subjected to immunoblot for BACE1 (upper) and quantiﬁed (lower). B) Cells were treated with 2% coﬀee, 10 µm
+pyrocatechol and 100 µm caﬀeine for 15 h in the presence or the absence of H89. BACE1 expression was detected by immunoblots (upper) and measured
+(lower). C) Cells treated with 10 µm pyrocatechol for 15 h in the presence or the absence of H89. Cell lysates were subjected to the assay for p-Ser in
+PSMD11 as described in Figure 4C. D) Cells were treated as in (B) and the Aβ1−40 accumulation in the medium was measured as described in Figure 1.
+*p < 0.05, **p < 0.01 (n = 3).
+Mol. Nutr. Food Res. 2018, 62, 1800238
+C⃝2018 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+1800238 (8 of 9)
+
+www.advancedsciencenews.com
+www.mnf-journal.com
+Figure 9. Schematic illustration of the eﬀects of coﬀee and pyrocatechol
+on the Aβ production through BACE1 degradation.
+support this, although caﬀeine had no eﬀect on BACE1 expres-
+sion in our experiments. Our results suggest that pyrocatechol,
+known as a strong antioxidant, is a promising candidate as the
+active compound in coﬀee to protect the brain in AD. It is not
+clear at the moment whether the antioxidant activity of pyrocate-
+chol is a key function for the preventive action of coﬀee, however,
+it is tempting to use the active component as a supplement for
+prophylactic intervention far before surfacing of AD symptoms
+in future. For this purpose, elucidation of the eﬀectiveness and
+safety of pyrocatechol using animal models is required.
+Acknowledgements
+This work was supported by JSPS KAKENHI Grant Number 15K00883, and
+by grants from the MEXT-Supported Program for the Strategic Research
+Foundation at Private Universities and from All Japan Coﬀee Association.
+Conﬂict of Interest
+The authors declare no conﬂict of interest.
+Keywords
+Alzheimer’s disease, Aβ, β-secretase, coﬀee, SH-SY5Y
+Received: March 8, 2018
+Revised: June 29, 2018
+Published online: September 9, 2018
+[1] M. H. Eskelinen, T. Ngandu, J. Tuomilehto, H. Soininen, M. Kivipelto,
+J. Alzheimers Dis. 2009, 16, 85.
+[2] C. Santos, J. Costa, J. Santos, A. Vaz-Carneiro, N. Lunet, J. Alzheimers
+Dis. 2010, 20(Suppl. 1), S187.
+[3] V. Solfrizzi, C. Custodero, M. Lozupone, B. P. Imbimbo, V. Valiani,
+P. Agosti, A. Schilardi, A. D’Introno, M. La Montagna, M. Calvani, V.
+Guerra, R. Sardone, D. I. Abbrescia, A. Bellomo, A. Greco, A. Daniele,
+D. Seripa, G. Logroscino, C. Sabb´a, F. Panza, J. Alzheimers Dis. 2017,
+59, 815.
+[4] J. Tan, G. Evin, J. Neurochem. 2012, 120, 869.
+[5] M. Ohno, Brain Res. Bull. 2016, 126(Pt 2), 183.
+[6] R. MacLeod, E. K. Hillert, R. T. Cameron, G. S. Baillie, Future Sci. OA,
+2015, 1, FSO11.
+[7] X. Lin, G. Koelsch, S. Wu, D. Downs, A. Dashti, J. Tang, Proc. Natl.
+Acad. Sci. U. S. A. 2000, 97, 1456.
+[8] K. Sakamoto, S. Matsuki, K. Matsuguma, T. Yoshihara, N. Uchida, F.
+Azuma, M. Russell, G. Hughes, S. B. Haeberlein, R. C. Alexander, S.
+Eketj¨all, A. R. Kugler, J. Clin. Pharmacol. 2017, 57, 1460.
+[9] C. E. Moussa, Expert Opin. Investig. Drugs 2017, 26, 1131.
+[10] F. Peters, H. Salihoglu, E. Rodrigues, E. Herzog, T. Blume, S. Filser,
+M. Dorostkar, D. R. Shimshek, N. Brose, U. Neumann, J. Herms, Acta
+Neuropathol. 2018, 135, 695.
+[11] G. Messina, C. Zannella, V. Monda, A. Dato, D. Liccardo, S. De Blasio,
+A. Valenzano, F. Moscatelli, A. Messina, G. Cibelli, M. Monda, Biol.
+Med. 2015, 7, 240.
+[12] G. W. Arendash, W. Schleif, K. Rezai-Zadeh, E. K. Jackson, L. C.
+Zacharia, J. R. Cracchiolo, D. Shippy, J. Tan, Neurosci. 2006, 142, 941.
+[13] G. W. Arendash, T. Mori, C. Cao, M. Mamcarz, M. Runfeldt, A. Dick-
+son, K. Rezai-Zadeh, J. Tane, B. A. Citron, X. Lin, V. Echeverria, H.
+Potter, J. Alzheimers Dis. 2009, 17, 661.
+[14] G. W. Arendash, C. Cao, J. Alzheimers Dis. 2010, 20(Suppl.1), S117.
+[15] C. Cao, L. Wang, X. Lin, M. Mamcarz, C. Zhang, G. Bai, J. Nong, S.
+Sussman, G. Arendash, J. Alzheimers Dis. 2011, 25, 323.
+[16] K. L. Chang, P. C. Ho, PLoS One 2014, 9, e104621
+[17] B. Shukitt-Hale, M. G. Miller, U. Y. F. Ch, B. J. Lyle, J. A. Joseph, Age
+2013, 35, 2183.
+[18] Y.-F. Chu, W. H. Chang, R. M. Black, J. R. Liu, P. Sompol, Y. Chen, H.
+Wei, Q. Zhao, I. H. Cheng, Food Chem. 2012, 135, 2095.
+[19] S. Tomita, Y. Kirino, T. Suzuki, J. Biol. Chem. 1998, 273, 6277.
+[20] Y. H. Koh, C. A. von Arnim, B. T. Hyman, R. E. Tanzi, G. Tesco, J. Biol.
+Chem. 2005, 280, 32499.
+[21] S. Lokireddy, N. V. Kukushkin, A. L. Goldberg, Proc. Natl. Acad. Sci.
+U. S. A. 2015, 7176.
+[22] R. Zeitlin, S. Patel, S. Burgess, G. W. Arendash, V. Echeverria, Brain
+Res. 2011, 1417, 127–136.
+[23] L. Hong, H. C. Huang, Z. F. Jiang, Neurol. Res. 2014, 36, 276.
+[24] B. Gong, M. Radulovic, M. E. Figueiredo-Pereira, C. Cardozo, Front
+Mol. Neurosci. 2016, 9, 4.
+[25] G. Atkin, H. Paulson, Front. Mol. Neurosci. 2014, 7, 63.
+Mol. Nutr. Food Res. 2018, 62, 1800238
+C⃝2018 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+1800238 (9 of 9)

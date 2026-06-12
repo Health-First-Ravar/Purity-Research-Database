@@ -1,0 +1,1449 @@
+ORIGINAL RESEARCH
+published: 12 October 2018
+doi: 10.3389/fnins.2018.00735
+Edited by:
+Yuanlong Pan,
+Nestlé R&D, United States
+Reviewed by:
+Giuseppe Caruso,
+Associazione Oasi Maria SS. Onlus
+(IRCCS), Italy
+Evelyne Gozal,
+University of Louisville, United States
+*Correspondence:
+Donald F. Weaver
+dweaver@uhnres.utoronto.ca
+Specialty section:
+This article was submitted to
+Neuroenergetics, Nutrition and Brain
+Health,
+a section of the journal
+Frontiers in Neuroscience
+Received: 25 June 2018
+Accepted: 24 September 2018
+Published: 12 October 2018
+Citation:
+Mancini RS, Wang Y and
+Weaver DF (2018) Phenylindanes
+in Brewed Coffee Inhibit Amyloid-Beta
+and Tau Aggregation.
+Front. Neurosci. 12:735.
+doi: 10.3389/fnins.2018.00735
+Phenylindanes in Brewed Coffee
+Inhibit Amyloid-Beta and Tau
+Aggregation
+Ross S. Mancini1, Yanfei Wang1 and Donald F. Weaver1,2,3*
+1 Department of Fundamental Neurobiology, Krembil Research Institute, University Health Network, Toronto, ON, Canada,
+2 Department of Chemistry, University of Toronto, Toronto, ON, Canada, 3 Department of Medicine, University of Toronto,
+Toronto, ON, Canada
+Coffee consumption has been correlated with a decreased risk of developing
+Alzheimer’s disease (AD) and Parkinson’s disease (PD), but the mechanism by which
+coffee may provide neuroprotection in humans is not fully understood. We hypothesized
+that compounds found in brewed coffee may elicit neuroprotective effects by inhibiting
+the aggregation of amyloid-beta (Aβ) and tau (AD) or α-synuclein (PD). Three instant
+coffee extracts (light roast, dark roast, decaffeinated dark roast) and six coffee
+components [caffeine (1), chlorogenic acid (2), quinic acid (3), caffeic acid (4), quercetin
+(5), and phenylindane (6)] were investigated for their ability to inhibit the ﬁbrillization
+of Aβ and tau proteins using thioﬂavin T (ThT) and thioﬂavin S (ThS) ﬂuorescence
+assays, respectively. Inhibition of Aβ and α-synuclein oligomerization was assessed
+using ELISA assays. All instant coffee extracts inhibit ﬁbrillization of Aβ and tau, and
+promote α-synuclein oligomerization at concentrations above 100 µg/mL. Dark roast
+coffee extracts are more potent inhibitors of Aβ oligomerization (IC50 ca. 10 µg/mL) than
+light roast coffee extract (IC50 = 40.3 µg/mL), and pure caffeine (1) has no effect on Aβ,
+tau or α-synuclein aggregation. Coffee components 2, 4, and 5 inhibit the ﬁbrillization of
+Aβ at 100 µM concentration, yet only 5 inhibits Aβ oligomerization (IC50 = 10.3 µM). 1–
+5 have no effect on tau ﬁbrillization. Coffee component 6, however, is a potent inhibitor
+of both Aβ and tau ﬁbrillization, and also inhibits Aβ oligomerization (IC50 = 42.1 µM).
+Coffee components 4 and 5 promote the aggregation of α-synuclein at concentrations
+above 100 µM; no other coffee components affect α-synuclein oligomerization. While
+the neuroprotective effect of coffee consumption is likely due to a combination of factors,
+our data suggest that inhibition Aβ and tau aggregation by phenylindane 6 (formed
+during the roasting of coffee beans, higher quantities found in dark roast coffees) is a
+plausible mechanism by which coffee may provide neuroprotection. The identiﬁcation of
+6 as a dual-inhibitor of both Aβ and tau aggregation is noteworthy, and to our knowledge
+this is the ﬁrst report of the aggregation inhibition activity of 6.
+Keywords: Alzheimer’s, Parkinson’s, protein misfolding, aggregation inhibition, coffee, caffeine, phenylindane,
+neuroprotective
+Frontiers in Neuroscience | www.frontiersin.org
+1
+October 2018 | Volume 12 | Article 735
+
+Mancini et al.
+Phenylindanes Inhibit Aβ and Tau Aggregation
+INTRODUCTION
+Coﬀee is one of the most widely consumed beverages worldwide,
+with approximately 500 billion cups consumed annually (Butt
+and Sultan, 2011). Coﬀee drinks are available in a variety of
+diﬀerent ﬂavors, roasting levels, and also with or without caﬀeine.
+More recently, coﬀee has attracted interest in the medical
+community due to a growing number of epidemiological studies
+and meta-analyses which have correlated coﬀee consumption
+with a reduced risk of developing diabetes mellitus, various
+cancers and neurodegenerative disorders such as Alzheimer’s
+disease (AD) and Parkinson’s disease (PD) (Butt and Sultan,
+2011). It is generally accepted that caﬀeine and caﬀeinated
+coﬀee elicit short-term improvements in alertness, attention and
+memory (Butt and Sultan, 2011), but the ability to protect against
+age-related cognitive decline is less clear. A 2010 systematic
+review and meta-analysis by Santos et al. (2010) suggests
+that a positive correlation between coﬀee consumption and
+dementia prevention is apparent, but inconsistencies in study
+design and methodology make interpretation of experimental
+results complicated (Costa et al., 2010). A more recent study
+by Mirza et al. (2014) claim that there is no correlation
+between coﬀee consumption and incident dementia, attributing
+the perceived neuroprotective beneﬁts to a reverse causality
+eﬀect.
+The major psychoactive component of coﬀee is caﬀeine (1),
+a xanthine alkaloid that readily crosses the blood-brain barrier
+(BBB). It is known that caﬀeine content in coﬀee is highly
+variable, and depends on the type of coﬀee bean (Arabica versus
+Robusta), roasting method (light roast versus dark roast) and
+extraction method (drip versus boiled) employed. For example,
+a standard cup of drip coﬀee contains on average 70—80 mg
+caﬀeine per 150 mL (Barone and Roberts, 1996), whereas espresso
+coﬀees contain approximately 950 mg caﬀeine per 150 mL
+(Ludwig et al., 2014). However, given the diﬀerences in serving
+size between a typical 8 oz cup of drip coﬀee and 1 oz espresso
+shot, the overall caﬀeine intake is similar. Caﬀeine is also highly
+bioavailable, with nearly 100% absorption of caﬀeine occurring
+45 min post-ingestion (Blanchard and Sawers, 1983). These
+favorable drug-like properties have prompted research eﬀorts
+into the use of caﬀeine to treat cognitive decline associated
+with AD (Arendash et al., 2006, 2009) and PD (Chen et al.,
+2001; Xu et al., 2010). However, it has recently been suggested
+that chronic caﬀeine administration may exacerbate behavioral
+and psychological symptoms of patients with dementia (anxiety-
+related behaviors), and could interfere with any potential
+cognitive beneﬁts of caﬀeine consumption (Baeta-Corral et al.,
+2018).
+In addition to caﬀeine, coﬀee also contains a variety of
+polyphenolic acids known collectively as chlorogenic acids, as
+well as various ﬂavinoids, tannins and melanoidans. In fact,
+transgenic mouse models of AD that were administered crude
+caﬀeine – the byproduct of coﬀee’s decaﬀeination process,
+containing a variety of other phytochemicals in addition
+to caﬀeine – exhibited less memory impairment and lower
+hippocampal levels of Aβ peptide and Aβ plaques versus mice
+treated with pure caﬀeine (Chu et al., 2012). It has even been
+suggested that caﬀeine may have synergistic eﬀects with other
+components in coﬀee to produce the overall neuroprotective
+eﬀect (Cao et al., 2011). Our lab has an interest in identifying
+naturally occurring small molecules which can inhibit the
+aggregation of amyloidogenic proteins; the formation of protein
+aggregates in the brain (in particular pre-ﬁbrillar oligomers) is
+known to be neurotoxic (Ono, 2017, 2018), and inhibition of
+the aggregation process is an attractive strategy for the treatment
+of neurodegenerative disorders. As such, there is a need for
+the identiﬁcation of drug-like molecules capable of preventing
+the aggregation of amyloidogenic proteins associated with AD
+(Aβ/tau) and PD (α-synuclein) to spur drug discovery projects.
+It is worth noting, however, that some small molecule inhibitors
+of protein aggregation exhibit their eﬀects by stabilizing smaller
+oligomeric species (Dedmon et al., 2005; Taniguchi et al., 2005;
+Masuda et al., 2006; Zhu et al., 2013; Matos et al., 2017),
+which have the potential to be neurotoxic (Caruso et al.,
+2017).
+We have recently reported that components of Canadian
+maple syrup can reduce the aggregation of amyloidogenic Aβ
+and tau (Hawco et al., 2016), and we were curious if caﬀeine or
+other components found in brewed coﬀee elicit neuroprotective
+eﬀects through a similar mechanism. Herein we report our
+investigation into the eﬀects of coﬀee on the aggregation of
+misfolded proteins associated with dementia to determine if
+inhibition of protein aggregation is a viable mechanism of
+neuroprotection associated with coﬀee consumption. We show
+that a number of polyphenolic compounds found in brewed
+coﬀee (Figure 1) can alter the aggregation proﬁle of Aβ,
+tau and α-synuclein. Of the coﬀee components investigated,
+pyrolysis product 6 is found to be a potent inhibitor of
+both Aβ and tau aggregation, and is the only component
+tested capable of inhibiting tau aggregation. A related series of
+indanedione analogs are also known to inhibit Aβ ﬁbrillization
+(Catto et al., 2010), but tau aggregation was not investigated
+in this report. To our knowledge, this is the ﬁrst report
+of the aggregation inhibition activity of 6 for Aβ, tau and
+α-synuclein.
+MATERIALS AND METHODS
+Coffee Extracts and Coffee Components
+Starbucks brand 100% Arabica instant coﬀee (Starbucks Via
+InstantTM) was obtained in three diﬀerent varieties: light roast,
+dark roast and decaﬀeinated dark roast. Stock solutions of coﬀee
+extracts were prepared in water that was micropore ﬁltered
+and deionized (MilliQ
+R⃝Advantage A10, Millipore Sigma) at a
+concentration of 10.0 mg/mL for in vitro screening. Caﬀeine
+(1) was purchased from BDH biochemical (Mississauga, ON,
+Canada). Chlorogenic acid (2), quinic acid (3), caﬀeic acid (4) and
+quercetin (5) were purchased from Combi-Blocks (San Diego,
+CA, United States). Phenylindane (6) was prepared as outlined
+below, according to modiﬁed literature procedure (Stadler et al.,
+1996). Stock solutions of compounds 1–4 and 6 were prepared
+in MilliQ
+R⃝water at a concentration of 25.0 mM for in vitro
+screening. Stock solution of compound 5 was prepared in
+Frontiers in Neuroscience | www.frontiersin.org
+2
+October 2018 | Volume 12 | Article 735
+
+Mancini et al.
+Phenylindanes Inhibit Aβ and Tau Aggregation
+FIGURE 1 | Structures of coffee components investigated for aggregation inhibition activity.
+DMSO (due to low solubility in water) at 25.0 mM for in vitro
+screening.
+Chemical Synthesis of Phenylindane (6)
+Flash chromatography was performed on RediSep columns
+using an Isco CombiFlash system from Teledyne Isco (Lincoln,
+NE, United States). Thin-layer chromatography (TLC) was
+performed using Merck silica gel 60 F254 aluminum-backed
+plates, and products were visualized by UV irradiation at
+254 nm. Solvents were purchased from Sigma-Aldrich (Oakville,
+ON, Canada) or Fisher Scientiﬁc (Markham, ON, Canada).
+Deionized water was acquired from an in-house supply. Proton
+nuclear magnetic resonance (1H NMR) spectra and carbon
+nuclear magnetic resonance (13C NMR) spectra were recorded
+on a 500 MHz Agilent DD2 spectrometer (Santa Clara, CA,
+United States). Chemical shifts for protons are reported in parts
+per million (ppm) downﬁeld from tetramethylsilane and are
+referenced to residual protium in the NMR solvent (CD3OD: δ
+3.31). Chemical shifts for carbon are reported in ppm downﬁeld
+from tetramethylsilane and are referenced to the carbon
+resonances of the solvent (CD3OD: δ 49.0). Data are represented
+as follows: chemical shift (δ, ppm); multiplicity (s, singlet; d,
+doublet; dd, doublet of doublets; ddd, doublet of doublet of
+doublets; q, quartet; m, multiplet); integration; coupling constant
+(J, Hz), proton assignment. Proton resonances were assigned
+based on 2-D COSY, HSQC, and HMBC experiments. Mass
+spectra were recorded using electron spray ionization (ESI+) with
+a Xevo TQ-XS Tandem Triple Quadrupole Mass Spectrometer
+(Waters brand, Taunton, MA, United States). High-performance
+liquid chromatography (HPLC) was performed using a Waters
+Acquity UPLC (2.1 × 50 mm, 1.7 µm particle size) using gradient
+elution [acetonitrile/0.100% (v/v) formic acid in water/0.100%
+(v/v) formic acid] at a ﬂow rate of 0.600 mL/min. UV detection
+was carried out at a wavelength of 254 nm.
+Phenylindane (6) was prepared according to modiﬁed
+literature procedure (Stadler et al., 1996): caﬀeic acid (4) (5.00 g,
+27.8 mmol) was suspended in a solution of 2.00 N sulfuric acid
+(100 mL) and heated to reﬂux. The solution was stirred at reﬂux
+for 4 h and then allowed to cool to room temperature. The
+organic compounds were extracted by washing of the aqueous
+phase three times with diethyl ether. The organic extracts were
+combined and dried over anhydrous magnesium sulfate, ﬁltered
+and concentrated under reduced pressure to give a purple solid.
+The crude material was puriﬁed by ﬂash column chromatography
+on silica gel (gradient elution, 10–50% diethyl ether in hexanes).
+Product fractions were identiﬁed by treating aliquots of the
+collected fractions with a small amount of 1.00 M sodium
+hydroxide aqueous solution; a deep purple color is observed for
+phenylindane-rich fractions. Product fractions were collected and
+the solvent was removed under reduced pressure to yield 665 mg
+of a brown/orange amorphous solid which contained ca. 25%
+of an unidentiﬁed byproduct. This material was further puriﬁed
+using reverse-phase ﬂash column chromatography on C18 silica
+gel (1:9 acetonitrile:water). Product fractions were combined
+Frontiers in Neuroscience | www.frontiersin.org
+3
+October 2018 | Volume 12 | Article 735
+
+Mancini et al.
+Phenylindanes Inhibit Aβ and Tau Aggregation
+and washed three times with methyl tert-butyl ether (MTBE).
+The organic extracts were combined and dried over anhydrous
+magnesium sulfate, ﬁltered and concentrated under reduced
+pressure to give an orange amorphous solid. This material was
+once again puriﬁed by ﬂash column chromatography on silica
+gel (6:4 MTBE:hexanes) to yield pure 6 as an orange amorphous
+solid (204 mg, 2.69%), isolated as a mixture of stereoisomers
+(1.00:1.87 cis:trans). NMR data are consistent with previous
+literature reports (Stadler et al., 1996). TLC RF = 0.65 (diethyl
+ether). cis-Isomer: 1H NMR (500 MHz, CD3OD): δ (ppm) 6.69
+(d, 1H, J = 8.0 Hz, H-5′), 6.63 (d, 1H, J = 0.9 Hz, H-7), 6.60 (d, 1H,
+J = 2.1 Hz, H-2′), 6.53 (ddd, 1H, J = 8.1, 2.1, 0.4 Hz, H-6′), 6.27
+(d, 1H, J = 1.0 Hz, H-4), 3.94 (dd, 1H, J = 10.6, 7.1 Hz, H-1), 3.01
+(m, 1H, H-3), 2.58 (dd, 1H, J = 12.0, 6.9 Hz, H-2), 1.43 (dd, 1H,
+J = 12.0, 10.4 Hz, H-2), 1.28 (d, 1H, J = 6.7 Hz, CH3). 13C NMR
+(125 MHz, CD3OD): δ (ppm) 146.2, 145.2, 144.9, 144.6, 141.1,
+139.7, 138.7, 120.7, 116.1, 116.1, 112.4, 110.5, 51.0, 48.4, 39.0, 20.1.
+trans-Isomer: 1H NMR (500 MHz, CD3OD): δ (ppm) 6.65 (d, 1H,
+J = 8.0 Hz, H-5′), 6.64 (s, 1H, H-7), 6.49 (d, 1H, J = 2.1 Hz, H-2′),
+6.44 (dd, 1H, J = 8.1, 2.2 Hz, H-6′), 6.38 (d, 1H, J = 0.8 Hz, H-
+4), 4.13 (dd, 1H, J = 8.0, 5.7 Hz, H-1), 3.19 (m, 1H, H-3), 2.14
+(ddd, 1H, J = 12.5, 7.6, 5.9 Hz, H-2), 2.05 (ddd, 1H, J = 12.5, 8.1,
+5.5 Hz, H-2), 1.17 (d, 1H, J = 6.7 Hz, CH3). 13C NMR (125 MHz,
+CD3OD): δ (ppm) 146.1, 145.4, 145.1, 144.3, 141.5, 139.6, 138.7,
+120.1, 116.1, 115.7, 112.7, 111.0, 50.0, 46.7, 38.9, 21.3. HRMS (ESI,
+m/z) Calculated for [C16H16O4] (M)+ 272.1043; Found 272.1047.
+Calculated for [C16H15O4] (M-H)+ 271.0965; Found: 271. 0970.
+β-Amyloid ThT Aggregation Assay
+This assay was adapted from LeVine (1993). Aβ1−40 (>95%)
+was purchased from AnaSpec (Freemont, CA, United States) and
+stored at −80◦C. All other reagents were of the highest available
+purity, purchased from Sigma-Aldrich (Oakville, ON, Canada),
+and used without further puriﬁcation. All water used in the
+assays was micropore ﬁltered and deionized (MilliQ
+R⃝). Aβ1−40
+(1.00 mg) was dissolved in hexaﬂuoro-2-propanol (HFIP) and
+sonicated for 30 min to disassemble any pre-formed aggregates.
+HFIP was removed using a stream of argon gas prior to
+dissolution of Aβ1−40 in 1.00 mL Tris base (20.0 mM, pH
+10.0) using vortex and 10 min sonication. The solution was
+then further diluted with 4.70 mL of Tris base followed by
+adjusting to pH 7.40 using concentrated hydrochloric acid and
+then ﬁltered using a 0.200 µm syringe ﬁlter. The pretreated
+Aβ1−40 was diluted with an equal volume (5.70 mL) of 8.00 µM
+ThT in Tris (20.0 mM, pH 7.40, 300 mM NaCl) and 200 µL
+aliquots of this solution [20.0 µM Aβ1−40 and 4.00 µM ThT
+in Tris (20.0 mM, pH 7.40, 150 mM NaCl)] were added to
+wells of a black polystyrene 96-well plate. 4.00 µL of test
+compound solutions at various concentrations were added to
+each well. Each sample was performed in triplicate and MilliQ
+R⃝
+water alone served as a vehicle control. Plates were sealed and
+incubated in a microplate reader (Tecan Genios) at 37.0◦C
+with ﬂuorescence measurements recorded (λex = 450 nm,
+λem = 480 nm) every 15 min after ﬁrst being shaken at high
+intensity for 15 s and then allowed to settle for 10 s before each
+reading.
+β-Amyloid Oligomerization Assay
+This assay was adapted from LeVine (2006). Biotinylated Aβ1−42
+was purchased from AnaSpec (Freemont, CA, United States).
+An ELISA plate (Costar 9018) was coated with 50.0 µL of a
+stock solution containing 1.00 µg/mL NeutrAvidin in sodium
+phosphate buﬀer (10.0 mM, pH 7.50). The plate was sealed
+and stored at 4◦C overnight prior to blocking for 2 h at room
+temperature with 200 µL/well of OFB-T buﬀer [20.0 mM sodium
+phosphate, 150 mM NaCl, pH 7.50, 0.100% (v/v) Tween 20].
+Then, 20.0 µL of Aβ1−42 stock solution (0.100 mg/mL) was
+treated with HFIP and dried under a stream of argon. One
+hundred microliter of triﬂuoroacetic acid (TFA) was added to the
+tube and the sample was dissolved using a vortex mixer prior
+to drying under a stream of argon. HFIP was added and dried
+under a stream or argon to remove residual TFA. The biotinylated
+Aβ1−42 was then dissolved in 870 µL of DMSO, and 2.00 µL of
+the solution was added to each well of a 96-well polypropylene
+plate (Costar 3365) followed by 100 µL of test compound
+diluted in OFB-T buﬀer (various concentrations). The plate was
+incubated for 1 h at room temperature without shaking, and then
+stopped by the addition of 50.0 µL of 0.300% (v/v) Tween 20
+in MilliQ
+R⃝water. 50.0 µL of the biotinylated Aβ1−42/compound
+solutions was added to each well of the NeutrAvidinTM-coated
+plate (after removing blocking solution) and the plate was sealed
+and incubated for 2 h with shaking at 150 rpm. The plate was
+washed three times with TBST solution [20.0 mM Tris-HCl,
+34.0 mM sodium chloride, pH 7.50, 0.100% (v/v) Tween 20],
+then 50.0 µL of Streptavidin-HRP (1:20,000) in OFB-T buﬀer was
+added and the plate was sealed and incubated for 1 h with shaking
+at 150 rpm. The plate was again washed three times with TBST,
+followed by addition of 100 µL of tetramethylbenzidine/H2O2
+substrate solution to each well. The reaction was stopped after
+10–30 min by the addition of 100 µL of 2.00% (v/v) aqueous
+sulfuric acid prior to reading absorbance at 450 nm in a plate
+reader.
+Preparation of Tau Protein
+Human tau40
+(tau) cDNA was ampliﬁed by polymerase
+chain
+reaction
+(PCR)
+with
+tau
+forward
+primer
+(5′-
+GCTGAGCCCCGCCAGGAGTTCG-3′)
+and
+tau
+reverse
+primer (5′-TCACAAACCCTGCTTGGCCAGG-3′) using Taq
+DNA polymerase (ThermoFisher Scientiﬁc, Waltham, MA,
+United States) and was cloned into Champion pET SUMO vector
+(ThermoFisher Scientiﬁc, Waltham, MA, United States) by using
+TA cloning. After transforming into TOP10 E. coli strain, colonies
+with correct orientation were selected by colony PCR with T7
+reverse primer (5′-TAGTTATTGCTCAGCGGTGG-3′) and tau
+internal forward primer (5′-CGCATGGTCAGTAAAAGCAAA-
+3′). Plasmid DNAs were prepared, sequenced and the one
+with correct sequence was selected. pET SUMO tau vector
+was then transformed into BL21(DE3) E. coli strain for the
+expression of the gene. BL21(DE3) E. coli with pET SUMO
+tau vector were grown in media71757 (Overnight ExpressTM
+Instant LB Medium – Novagen with kanamycin). Expression was
+maintained for 7 h before harvesting the cells by centrifugation.
+Harvested E. coli were lysed by sonication in the presence of
+Frontiers in Neuroscience | www.frontiersin.org
+4
+October 2018 | Volume 12 | Article 735
+
+Mancini et al.
+Phenylindanes Inhibit Aβ and Tau Aggregation
+1.00% (v/v) Triton X-100/50.0 mM Tris-HCl/pH 7.40/500 mM
+NaCl/EDTA-free protease inhibitors cocktail (Roche, Germany)
+in ice. Soluble lysate was recovered after removing insoluble
+debris by centrifugation at 20,000 × g. SUMO-tau with
+6 × His tag was puriﬁed by elution through Talon IMAC
+resin (Clonetech, Mountain View, CA, United States) and the
+eluent was dialyzed against 50.0 mM Tris-HCl/pH 7.40/150 mM
+NaCl/1.00 mM dithiothreitol/0.200% (v/v) NP40. 6 × His-SUMO
+tag was cleaved using SUMO protease and tag-free tau protein
+was recovered by elution through Talon IMAC column. The
+tag-free tau protein was further puriﬁed by preparative reversed-
+phase HPLC using a C18 column (150 × 21.2 mm, 5.00 µm
+particle size) using gradient elution [1–30% acetonitrile/0.100%
+(v/v) formic acid in MilliQ
+R⃝water/0.100% (v/v) formic acid] at
+a ﬂow rate of 4.00 mL/min. UV detection was carried out at a
+wavelength of 220 nM.
+Tau ThS Aggregation Assay
+This assay was adapted from Friedhoﬀet al. (1998). A 4.00 µM
+solution of tau in 5.00 µM ThS in Tris (50.0 mM, pH 7.40,
+10.0 µg/mL heparin, 1.00 mM dithiothreitol, 50.0 µM sodium
+azide) was prepared fresh for each experiment and 200 µL
+aliquots were added to wells of a black polystyrene 96-well plate.
+4.00 µL of compound solutions at various concentrations were
+added to each well. Each sample was performed in triplicate
+and MilliQ
+R⃝water alone served as a vehicle control. Plates were
+sealed and incubated in a microplate reader (Tecan Genios) at
+37◦C with ﬂuorescence measurements recorded (λex = 450 nm,
+λem = 480 nm) every 15 min.
+α-Synuclein Oligomerization Assay
+This assay was adapted from El-Agnaf et al. (2004). Capture
+antibody (α-synuclein 211) and detection antibody (α-synuclein
+211, HRP) were purchased from Santa Cruz (Freemont, CA,
+United States) and stored at 4◦C. α-Synuclein was purchased
+from rPeptide (Watkinsville, GA, United States) and stored at
+−80◦C. A 0.100 mg/mL stock solution of α-synuclein in DMSO
+was prepared, and 1.80 µg of α-synuclein was diluted with
+5.00 mL of phosphate buﬀered saline (PBS), mixed well using
+vortex and 50.0 µL aliquots were added to each well of a
+low-binding plate (Costar). Compound solutions of various
+concentrations were prepared in PBS, and 50.0 µL aliquots were
+added to each well of the plate containing α-synuclein. The
+plate was shaken at 450 rpm for 45 s at 20◦C using Eppendorf
+plate shaker, and then incubated for 16 h at room temperature
+without shaking. The reaction was stopped by the addition of
+50.0 µL of 0.300% (v/v) Tween 20 in MilliQ
+R⃝water and gently
+mixed. 50.0 µL of the capture antibody in 10.0 mM sodium
+phosphate/pH 7.50 was added to each well of a high-binding
+ELISA plate (Costar) and allowed to sit overnight at 4◦C. The
+plate was blocked by addition of 250 µL of TBST with 2.00%
+fatty acid-free bovine serum albumin at room temperature for 1–
+2 h. The plate was washed three times with TBST after blocking,
+then 50–100 µL of the test compound/α-synuclein solution was
+added to each well and the plate was sealed and incubated at
+room temperature for 2 h. The plate was then washed, and
+50.0 µL of the detection antibody (1:1000 in TBST) was added.
+The plate was sealed and incubated at room temperature for
+1 h followed by washing three times with TBST. 100 µL of
+tetramethylbenzidine/H2O2 substrate solution was added to each
+well. Reaction was stopped after 25–30 min with the addition
+of 100 µL of 0.118 M aqueous sulfuric acid prior to reading
+absorbance at 450 nm in a plate reader.
+Statistical Analysis
+Data analysis was performed using GraphPad Prism software
+(version 7.04; GraphPad Software, San Diego, CA, United States).
+Diﬀerences were considered statistically signiﬁcant at P < 0.05.
+Fibrillization data were expressed as mean ± standard deviation;
+% inhibition was calculated relative to vehicle control sample
+containing no analyte (taken as 0% inhibition). Group diﬀerences
+in % inhibition were assessed using two-way ANOVAs to explore
+factors of roasting level (light roast versus dark roast) and
+caﬀeine content (caﬀeinated dark versus decaﬀeinated dark)
+across each concentration level; post-hoc pairwise comparisons
+were performed using Sidak’s tests. Inhibitory eﬀects of coﬀee
+components 2–6 were analyzed using one-way ANOVA with
+post-hoc Dunnett’s test.
+Oligomerization data were expressed as mean IC50 ± standard
+deviation; IC50 values were extrapolated by ﬁtting to a dose
+response curve using least squares regression (R2 > 0.9).
+Group diﬀerences in IC50 values were analyzed using unpaired
+two-tailed t-tests for each factor (roasting level or caﬀeine
+content). Bonferroni correction was applied for running multiple
+comparisons (P = 0.05/2 tests).
+RESULTS
+Coffee Extracts and Caffeine
+We began by assessing the aggregation inhibition activity of
+instant coﬀee extracts. We chose to investigate three diﬀerent
+types of coﬀee – light roast, dark roast, and decaﬀeinated
+dark roast. The eﬀect of caﬀeine content would be assessed by
+comparing the activity of caﬀeinated and decaﬀeinated dark roast
+coﬀee extracts. Further, since it is known that diﬀerent levels
+of roasting aﬀect the composition of the coﬀee brew (Farah
+et al., 2005; Jaiswal et al., 2012), comparison of light versus
+dark roast coﬀee extracts was also performed. The ability of the
+coﬀee extracts to inhibit the formation of ﬁbrillar aggregates was
+investigated using a ThT ﬂuorescence assay for Aβ (Figure 2) and
+ThS ﬂuorescence assay for tau (Figure 3).
+All three coﬀee extracts inhibited the ﬁbrillization of both Aβ
+and tau proteins at 200 µg/mL concentration, with moderate
+levels of inhibition maintained for Aβ ﬁbrils at 5 µg/mL (Table 1).
+A small but measurable level of inhibition was observed for
+tau ﬁbrillization at 40 µg/mL coﬀee extract (Table 2). For
+Aβ ﬁbrillization, no main eﬀects of roast level (light versus
+dark) or caﬀeine content (dark roast versus decaﬀeinated dark
+roast) were observed. For tau ﬁbrillization, an eﬀect of roast
+level was observed (P = 0.0059), but only at concentrations of
+200 µg/mL (P < 0.0001); caﬀeine content had no eﬀect. We
+were surprised to ﬁnd that caﬀeine content did not inﬂuence
+aggregation inhibition, and thus performed a post-hoc analysis of
+Frontiers in Neuroscience | www.frontiersin.org
+5
+October 2018 | Volume 12 | Article 735
+
+Mancini et al.
+Phenylindanes Inhibit Aβ and Tau Aggregation
+FIGURE 2 | Fibrillization of Aβ peptide. 20.0 µM Aβ1−40 in Tris buffer (20.0 mM, pH 7.4, 150 mM NaCl) was incubated at 37.0◦C in the presence of 4.0 µM ThT and
+variable concentration of analyte. (red) = 200 µg/mL, (blue) = 40.0 µg/mL, (yellow) = 5.0 µg/mL, (black) = 0.0 µg/mL (vehicle control). (A) Light roast instant coffee
+extract. (B) Dark roast instant coffee extract. (C) Decaffeinated dark roast coffee extract. (D) Caffeine 1.
+pure caﬀeine (1) (one-way ANOVA). No eﬀect on ﬁbril growth
+was observed relative to the vehicle control, consistent with the
+results for caﬀeinated versus decaﬀeinated coﬀee extracts.
+The coﬀee extracts were also investigated for their ability
+to inhibit oligomerization of Aβ and α-synuclein: IC50 values
+for coﬀee extracts and caﬀeine are shown in Table 3. All
+coﬀee extracts showed potent aggregation inhibition activity
+for Aβ and displayed pro-aggregation eﬀects for α-synuclein
+at concentrations above 100 µg/mL. Furthermore, the dark
+roast coﬀee extract showed more potent aggregation inhibition
+activity for Aβ oligomerization than the light roast coﬀee
+extract (P < 0.001), and decaﬀeinated dark roast coﬀee extract
+displayed almost identical potency to the caﬀeinated dark roast
+coﬀee extract (P > 0.9). Pure caﬀeine (1) failed to inhibit the
+oligomerization of Aβ or α-synuclein, and no measurable IC50
+values could be obtained.
+Coffee Components
+In an eﬀort to determine the active component(s) in the coﬀee
+extracts responsible for the observed aggregation inhibition
+activity, we assayed the compounds shown in Figure 1 as
+representative examples of coﬀee’s individual components (for
+a rationale of how the components were chosen, see Discussion
+section below). All compounds were able to inhibit the formation
+of Aβ ﬁbrils at 100 µM, with the exception of quinic acid (3)
+which was found to promote the growth of Aβ ﬁbrils relative
+to the control sample (Figures 4A and 5A). Tau ﬁbrillization
+(Figures 4B and 5B) was unaﬀected by compounds 2–4 at
+100 µM, but a measurable inhibitory eﬀect was observed for
+5 and 6 (23.7 and 95.2% inhibition, respectively). Given the
+potent activity of 6 toward both Aβ and tau, phenylindane
+(6) was rescreened in the ﬁbrillization assays at a reduced
+concentration of 20 µM; Aβ ﬁbrillization remained completely
+inhibited (Figure 5A), and modest levels of tau inhibition were
+maintained (Figure 5B). Calculated values for % inhibition of Aβ
+and tau ﬁbrillization by 2–6 are shown in Table 4.
+Coﬀee components 2–6 were also tested in the oligomerization
+assays, and the IC50 values for Aβ and α-synuclein are shown in
+Table 5. While components 2, 3, and 4 were unable to inhibit the
+oligomerization of Aβ under the assay conditions, quercetin (5)
+and phenylindane (6) were identiﬁed as fairly potent inhibitors
+of Aβ oligomerization with IC50 values of 10.3 µM and 42.1 µM,
+respectively. Oligomerization of α-synuclein was unaﬀected by
+2, 3, and 6, but a pro-aggregation eﬀect for α-synuclein was
+observed in the presence of caﬀeic acid (4) and quercetin (5) at
+concentrations above 100 µM.
+DISCUSSION
+Caffeine
+The perceived beneﬁts of caﬀeine (1) have been attributed mainly
+to its action as an A2A receptor antagonist (Svenningsson et al.,
+Frontiers in Neuroscience | www.frontiersin.org
+6
+October 2018 | Volume 12 | Article 735
+
+Mancini et al.
+Phenylindanes Inhibit Aβ and Tau Aggregation
+FIGURE 3 | Fibrillization of tau protein. 4.0 µM tau in Tris buffer (50.0 mM, pH 7.4, 10.0 µg/mL heparin, 1.0 mM dithiothreitol, 50.0 mM sodium azide) was incubated
+at 37.0◦C in the presence of 5.0 µM ThS and variable concentration of analyte. (red) = 200 µg/mL, (blue) = 40.0 µg/mL, (yellow) = 5.0 µg/mL, (black) = 0.0 µg/mL
+(vehicle control). (A) Light roast instant coffee extract. (B) Dark roast instant coffee extract. (C) Decaffeinated dark roast coffee extract. (D) Caffeine 1.
+TABLE 1 | Inhibition of Aβ ﬁbril formation by coffee extracts in ThT ﬂuorescence
+assay.a
+Concentration
+(µg/mL)
+Light roast
+coffee extract
+(% inhibition)
+Dark roast
+coffee extract
+(% inhibition)
+Decaffeinated
+dark roast
+coffee extract
+(% inhibition)
+Caffeine
+(1)b
+(% inhibition)
+200
+98.5 ± 1.0
+100.1 ± 1.8
+100.5 ± 1.5
+−5.4 ± 3.5
+40.0
+96.6 ± 1.0
+88.4 ± 1.6
+94.9 ± 1.4
+–
+5.0
+46.6 ± 2.2
+46.5 ± 2.2
+47.4 ± 2.5
+5.7 ± 3.0
+a% inhibition calculated relative to vehicle control sample (taken as 0% inhibition),
+and is reported as the mean ± standard deviation of three separate experiments.
+bPost-hoc investigation of pure caffeine (1): no signiﬁcant effect relative to vehicle
+control (one-way ANOVA with post-hoc Dunnett’s test).
+1999; Arendash et al., 2009), as the observed neuroprotective
+eﬀects of caﬀeine have been replicated using either selective A2A
+receptor antagonists (Canas et al., 2009) or A2A knockout mice
+(Chen et al., 2001; Canas et al., 2009). Laboratory experiments
+have also shown that caﬀeine treatment can improve working
+memory and decrease brain Aβ loads in mouse models of AD
+via suppression of both β-secretase (BACE1) and presenilin
+1 (PS1)/γ-secretase expression (Arendash et al., 2006, 2009),
+and improve locomotor function and attenuate dopamine
+depletion in the 1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine
+(MPTP) induced toxicity model of PD in mice (Chen et al.,
+2001; Xu et al., 2010). However, there is still some ambiguity
+TABLE 2 | Inhibition of tau ﬁbril formation by coffee extracts in ThS ﬂuorescence
+assay.a
+Concentration
+(µg/mL)
+Light roast
+coffee extract
+(% inhibition)
+Dark roast
+coffee extract
+(% inhibition)
+Decaffeinated
+dark roast
+coffee extract
+(% inhibition)
+Caffeine
+(1)c
+(% inhibition)
+200
+86.2 ± 1.0
+102.6 ± 2.4
+95.8 ± 2.1
+−4.2 ± 3.4
+40.0
+17.0 ± 2.4
+17.7 ± 2.4
+17.6 ± 2.3
+–
+5.0b
+−4.5 ± 3.2
+−5.5 ± 3.3
+−0.9 ± 2.9
+−4.0 ± 3.2
+a% inhibition calculated relative to vehicle control sample (taken as 0% inhibition),
+and is reported as the mean ± standard deviation of three separate experiments.
+bNo signiﬁcant effect relative to vehicle control. cPost-hoc investigation of pure
+caffeine (1): no signiﬁcant effect relative to vehicle control (one-way ANOVA with
+post-hoc Dunnett’s test).
+as to whether the neuroprotective eﬀects of coﬀee are due to
+the caﬀeine component: in Drosophila models of AD and PD,
+consumption of caﬀeinated or decaﬀeinated coﬀee led to identical
+neuroprotective eﬀects whereas pure caﬀeine failed to provide
+any therapeutic outcome in this system (Trinh et al., 2010). The
+authors attribute the beneﬁts of (de)caﬀeinated coﬀee to its action
+on the Nrf2-dependent anti-oxidative pathway, which would
+protect against neuroinﬂammation associated with the diseases.
+Caﬀeine (1) is also known to protect against degeneration of the
+BBB associated with AD and PD (Chen et al., 2010), and may also
+contribute to the neuroprotective eﬀect of coﬀee.
+Frontiers in Neuroscience | www.frontiersin.org
+7
+October 2018 | Volume 12 | Article 735
+
+Mancini et al.
+Phenylindanes Inhibit Aβ and Tau Aggregation
+TABLE 3 | IC50 values for coffee extracts and caffeine in oligomer assays.a
+Extract
+Aβ IC50 (µg/mL)
+α-synuclein IC50
+(µg/mL)
+Light roast coffee extract
+40.3 ± 4.6
+pro-aggregate
+Dark roast coffee extract
+9.5 ± 1.7
+pro-aggregate
+Decaffeinated dark roast coffee extract
+9.4 ± 1.5
+pro-aggregate
+Caffeine (1)
+N.D.
+N.D.
+aData are reported as the mean ± standard deviation of three separate
+experiments. Pro-aggregate effect observed at concentrations >100 µg/mL.
+N.D. = not determined (>200 µM).
+With respect to caﬀeine’s ability to prevent the aggregation
+of amyloidogenic proteins in the brain, previous reports have
+suggested that caﬀeine (1) may inhibit the aggregation of Aβ
+by forming hydrophobic contacts with monomers or small
+aggregates (Sharma and Paul, 2016; Sharma et al., 2016). In
+this system, a modest but observable eﬀect of caﬀeine on Aβ
+ﬁbrillization occurs at a caﬀeine:Aβ ratio of 3:1, with signiﬁcant
+levels of inhibition achieved at or above a 10-fold molar
+excess of caﬀeine. Our results suggest that any neuroprotective
+properties of caﬀeine (1) are not due to its association with
+amyloidogenic proteins or protein aggregates associated with
+AD, as caﬀeine failed to alter the aggregation proﬁle of Aβ (50-
+fold molar excess caﬀeine) or tau in our ﬁbrillization assays
+(Figures 2D and 3D). The diﬀerences in experimental outcomes
+are likely due to diﬀerences in assay conditions, wherein the
+prior study was conducted using truncated Aβ16−22 (rather than
+Aβ1−40 used in this investigation) and assays were conducted
+in pure water in an eﬀort to closely replicate the computational
+simulations performed by the group. This surprising diﬀerence
+in experimental outcomes highlights the complexity of the
+aggregation process, and speaks to the importance of designing
+assay conditions which closely mimic physiological conditions to
+allow translation of experimental results to in vivo environments.
+Changes to the solution pH, buﬀer composition, concentration of
+Aβ or tau etc. are known to produce variation in the experimental
+results (LeVine, 1993; Tiiman et al., 2015), and assay conditions
+which are most representative of the biological environment
+are more likely to be reproduced in living systems. However,
+there are no assurances that in vitro results will be replicated
+in vivo, and caution should be exercised during interpretation
+of in vitro data. Higher concentrations of caﬀeine (1) were
+not investigated given that the coﬀee extracts displayed more
+potent aggregation inhibition activity than caﬀeine at the same
+concentration (Figures 2 and 3, Tables 1–3).
+Caﬀeine (1) also failed to inhibit the oligomerization
+of α-synuclein, and no pro-aggregation eﬀect was observed
+(Table 3). This result is consistent with a previous report on
+the ﬁbrillization of α-synuclein in the presence of caﬀeine (1)
+(Kardani and Roy, 2015): ﬁbrils grown in the presence of caﬀeine
+(1) showed diﬀerent morphology relative to ﬁbrils grown in
+its absence, but the authors claim that this was not due to
+an interaction of caﬀeine (1) with the α-synuclein protein.
+The lack of an observable interaction between caﬀeine (1) and
+Aβ/tau/α-synuclein would suggest that the observed activity of
+the coﬀee extracts is not due to the caﬀeine component. While
+caﬀeine (1) may have aggregation inhibition activity at higher
+concentrations, other components found in coﬀee are likely to be
+more potent inhibitors of protein aggregation. The comparable
+activity observed between the caﬀeinated and decaﬀeinated coﬀee
+extracts support this hypothesis.
+Chlorogenic Acids
+Chlorogenic acids (CGAs) are the major polyphenolic acid found
+in coﬀee beans, accounting for up to 15% dry weight of green
+(unroasted) coﬀee beans. There are nine isomers of CGAs
+that have been identiﬁed, with the major isomer being 5-O-
+caﬀeoquinolinic acid (2) which accounts for approximately 60%
+of total CGA content (Farah and Donangelo, 2006). A typical
+cup of coﬀee contains 70—300 mg CGAs depending on the
+type of bean and the roasting procedure (Farah and Donangelo,
+2006; Ludwig et al., 2014). CGAs are known to enter the
+bloodstream via intestinal absorption (Olthof et al., 2001) and
+have been correlated to a variety of health beneﬁts due to
+their anticarcinogenic, antithrombotic, anti-inﬂammatory, and
+hypoglycemic eﬀects (Johnston et al., 2003; Feng et al., 2005; dos
+Santos et al., 2006; Lee and Zhu, 2006; Park, 2009). Given the
+potential health beneﬁts of CGAs, as well as its bioavailability, we
+felt that investigation of CGAs was warranted. Being the major
+CGA component, we tested 5-O-caﬀeoquinolinic acid (2) as a
+representative example of the CGAs found in coﬀee.
+A
+considerable
+body
+of
+literature
+has
+shown
+that
+administration of CGAs to various neuronal cell lines in vitro
+can improve cell viability under conditions of oxidative stress or
+in the presence of neurotoxins (Anggreani and Lee, 2017; Nabavi
+et al., 2017). The neuroprotective eﬀects were attributed to the
+high antioxidant capacity of CGAs, which protects cells from
+damage by reactive oxygen species. It has also been demonstrated
+that CGA treatment attenuates the pro-inﬂammatory response
+of microglia upon lipopolysaccharide (LPS) stimulation (Shen
+et al., 2012). Our data show that 2 is a potent inhibitor of Aβ
+ﬁbrillization in the ThT assay at 100 µM (Figure 4A), which is in
+agreement with a previously reported IC50 value of ca. 40 µM for
+inhibition of Aβ ﬁbrillization by 2 (Masuda et al., 2006). However,
+2 was unable to inhibit the oligomerization of Aβ (Table 5),
+suggesting that the interaction of 2 with monomeric/oligomeric
+Aβ proteins is diﬀerent than its interaction with larger Aβ
+aggregates. Such an eﬀect has been reported previously, wherein
+small organic molecules inhibited the formation of larger
+aggregates of Aβ (Masuda et al., 2006), tau (Taniguchi et al.,
+2005), and α-synuclein (Dedmon et al., 2005) by stabilizing the
+smaller oligomeric aggregates. Our data for the interaction of 2
+with Aβ are consistent with this type of behavior.
+Tau ﬁbrillization was unaﬀected in the presence of 2 at 100
+µM (Figure 4B), which is again consistent with literature data
+(Masuda et al., 2006), and no observable interaction between
+2 and α-synuclein could be detected in our oligomerization
+assay (Table 5). However, 2 is reported to be a reasonably
+potent inhibitor of α-synuclein aggregation, with an IC50 for
+ﬁbrillization inhibition of ca. 80 µM (Masuda et al., 2006). The
+absence of an observable inhibitory eﬀect of 2 toward α-synuclein
+oligomerization would again suggest that 2 interacts diﬀerently
+with larger and smaller aggregates of α-synuclein, and that 2
+Frontiers in Neuroscience | www.frontiersin.org
+8
+October 2018 | Volume 12 | Article 735
+
+Mancini et al.
+Phenylindanes Inhibit Aβ and Tau Aggregation
+FIGURE 4 | (A) Fibrillization of Aβ peptide. 20.0 µM Aβ1−40 in Tris buffer (20.0 mM, pH 7.4, 150 mM NaCl) was incubated at 37.0◦C in the presence of 4.0 µM ThT
+and 100 µM of analyte. (B) Fibrillization of tau protein. 4.0 µM tau in Tris buffer (50.0 mM, pH 7.4, 10.0 µg/mL heparin, 1.0 mM dithiothreitol, 50.0 mM sodium azide)
+was incubated at 37.0◦C in the presence of 5.0 µM ThS and 100 µM of analyte. (red) = chlorogenic acid (2), (green) = quinic acid (3), (purple) = caffeic acid (4),
+(blue) = quercetin (5), (black) = no compound (vehicle control).
+FIGURE 5 | Inhibition of ﬁbril formation by phenylindane 6. (A) Fibrillization of Aβ peptide. 20.0 µM Aβ1−40 in Tris buffer (20.0 mM, pH 7.4, 150 mM NaCl) was
+incubated at 37.0◦C in the presence of 4.0 µM ThT and variable concentration of analyte. (B) Fibrillization of tau protein. 4.0 µM tau in Tris buffer (50.0 mM, pH 7.4,
+10.0 µg/mL heparin, 1.0 mM dithiothreitol, 50.0 mM sodium azide) was incubated at 37.0◦C in the presence of 5.0 µM ThS and variable concentration of analyte.
+(red) = 100 µM, (blue) = 20.0 µM, (black) = 0.0 µM (vehicle control).
+may inhibit α-synuclein ﬁbrillization via stabilization of smaller
+oligomeric species analogous to what is observed for Aβ (Masuda
+et al., 2006). Given that soluble amyloid oligomers of Aβ, tau
+and α-synuclein share common structural features (Kayed et al.,
+2003), it is reasonable to assume that 2 would exhibit similar
+interaction behaviors toward oligomeric Aβ and α-synuclein
+which is consistent with our results.
+Although
+CGAs
+are
+quite
+bioavailable
+it
+has
+been
+demonstrated that compounds such as 2 are unlikely to cross the
+BBB (Lardeau and Poquet, 2013). As such, CGAs in coﬀee are
+not likely to inhibit the aggregation of amyloidogenic proteins
+in the brain. Secondary mechanisms of neuroprotection cannot
+be ruled out; ischemic rat models that were administered CGA
+showed improvements in sensory-motor function and reduced
+levels of brain compression versus a control group (Ahn et al.,
+2011). Ischemic events have been correlated to AD progression
+(Kalaria, 2000), and it is possible that consumption of CGAs
+found in coﬀee could have neuroprotective eﬀects in spite of the
+low BBB penetrance. Nonetheless, given that 2 is only able to
+inhibit the aggregation of Aβ at relatively high concentrations,
+together with the lack of any observable interaction with tau or
+α-synuclein, it is unlikely that 2 or other CGAs found in brewed
+coﬀee are responsible for the observed aggregation inhibition
+activity of the coﬀee extracts.
+TABLE 4 | Inhibition of Aβ and tau ﬁbril formation by 2–6 in ThT and ThS
+ﬂuorescence assays.a
+Coffee component
+Aβ ﬁbril inhibition (%)
+Tau ﬁbril inhibition (%)
+Chlorogenic acid (2)
+97.7 ± 0.7
+3.4 ± 2.9b
+Quinic acid (3)
+−48.8 ± 2.8
+6.7 ± 3.0b
+Caffeic acid (4)
+99.4 ± 0.9
+−2.6 ± 3.4b
+Quercetin (5)
+97.9 ± 0.4
+23.7 ± 2.4
+Phenylindane (6)
+99.0 ± 0.4
+95.2 ± 1.7
+Phenylindane (6)c
+99.2 ± 0.4
+34.4 ± 2.4
+aSamples 2–6 were screened at a concentration of 100 µM. Aggregation of
+Aβ was measured using ThT ﬂuorescence assay; data are reported as the
+mean ± standard deviation of three separate experiments. Aggregation of
+tau was measured using ThS ﬂuorescence assay; data are reported as the
+mean ± standard deviation of three separate experiments. % inhibition was
+calculated relative to vehicle control (taken as 0% inhibition). bNo signiﬁcant effect
+relative to vehicle control. cExperiment repeated using 20.0 µM concentration;
+statistical signiﬁcance determined using unpaired two-tailed t-test.
+Quinic Acid and Caffeic Acid
+During the roasting of coﬀee beans, CGAs are transformed
+via ester cleavage processes into quinic acid (3) and various
+phenolic cinnamates. A typical light roast coﬀee bean will lose
+approximately 25% of the initial CGA content, whereas medium
+and dark roast coﬀee beans will lose 45 and 90% of their
+Frontiers in Neuroscience | www.frontiersin.org
+9
+October 2018 | Volume 12 | Article 735
+
+Mancini et al.
+Phenylindanes Inhibit Aβ and Tau Aggregation
+TABLE 5 | IC50 values of coffee components 2–6 in oligomer assays.a
+Coffee component
+Aβ IC50 (µM)
+α-synuclein IC50 (µM)
+Chlorogenic acid (2)
+N.D.
+N.D.
+Quinic acid (3)
+N.D.
+N.D.
+Caffeic acid (4)
+N.D.
+pro-aggregate
+Quercetin (5)
+10.3 ± 1.1
+pro-aggregate
+Phenylindane (6)
+42.1 ± 1.4
+N.D.
+aData are reported as the mean ± standard deviation of three separate
+experiments.
+Pro-aggregate
+effect
+observed
+at
+concentrations
+>100
+µM.
+N.D. = not determined (>200 µM).
+CGA content, respectively (Trugo and Macrae, 1984; Ludwig
+et al., 2014). The majority of CGA that is “lost” during roasting
+is incorporated into melanoidans via the Maillard reaction.
+Melanoidins, though indigestible, may serve a prebiotic function
+by promoting the growth of beneﬁcial types of gut bacteria and
+acting as dietary ﬁber (Reichardt et al., 2009), but were omitted
+from our investigation on the basis that they would not be
+absorbed into the bloodstream. Caﬀeic acid (4), which is readily
+bioavailable (Olthof et al., 2001), was chosen as a representative
+example of the phenolic cinnamates found in brewed coﬀee,
+as it is formed via ester cleavage of 5-O-caﬀeoquinolinic acid
+(2) [the major CGA component found in coﬀee beans (Farah
+and Donangelo, 2006)]. Quinic acid (3) was also tested in the
+protein aggregation assays, although it is worth noting that
+some free quinic acid (3) is converted to the 1,5-lactone during
+roasting (Farah and Donangelo, 2006). However, 3 displayed
+no observable activity as an aggregation inhibitor of Aβ, tau or
+α-synuclein.
+Caﬀeic acid (4) is known to have antioxidant properties
+(Guillot et al., 1996; Gulcin, 2006), and the related ester derivative
+rosmarinic acid has been shown to inhibit the ﬁbrillization of Aβ,
+tau and α-synuclen in vitro (Masuda et al., 2006). In line with
+these previous experiments, our assays show that 4 is an eﬀective
+inhibitor of Aβ ﬁbrillization (Figure 4A), yet no inhibitory eﬀect
+toward Aβ oligomerization was observed (Table 5). 4 was also
+unable to inhibit the ﬁbrillization of tau (Figure 4B), the other
+hallmark protein aggregate of AD. The similar behavior of 2 and
+4 toward Aβ and tau would suggest that the observed activity
+of 2 is due to the hydroxycinnamic acid moiety (i.e., 4) given
+that quinic acid (3) had no observable inhibitory eﬀect in the
+aggregation assays. Of note, 4 was observed to induce aggregation
+of α-synuclein at concentrations above 100 µM (Table 5), which
+could have a neuroprotective eﬀect by promoting Lewy body
+formation and thus reducing the concentration of toxic oligomer
+species in the brain (Pinotsi et al., 2016; Ono, 2017). However,
+the high concentration of 4 required to induce aggregation of
+α-synuclein is not likely to accumulate in vivo.
+Despite the capacity of 4 and its derivatives to enter the
+bloodstream, it has been demonstrated that compounds of
+this type are not likely to penetrate the BBB (Lardeau and
+Poquet, 2013). Thus it is unlikely that any neuroprotective
+eﬀects of coﬀee are derived from these components. However,
+a secondary mechanism involving the action of polyphenols on
+the gut microbiome (Olthof et al., 2001; Johnston et al., 2003)
+cannot be ruled out, particularly in PD where environmental
+factors are suggested to contribute to the pathology of the
+disease (Di Monte et al., 2002; Patel et al., 2005). Changes in
+hormone secretion and molecular absorption could ultimately
+lead to less accumulation of neurotoxic compounds in the brain,
+although further investigation is required to identify such an
+eﬀect. Nonetheless, given that 3 and 4 did not inhibit the
+oligomerization of Aβ, and no aggregation inhibition activity was
+observed for tau, it is unlikely that these coﬀee components are
+responsible for the observed activity of the coﬀee extracts.
+Quercetin
+While caﬀeine and CGAs represent the main components found
+in coﬀee beans, a variety of ﬂavonoids have also been identiﬁed,
+albeit in lower concentrations. Quercetin (5), a known coﬀee
+ﬂavonoid, is reported to have antioxidant properties which
+help mitigate oxidative stress and inﬂammation (Guillot et al.,
+1996; Laura et al., 2011). It has also been demonstrated that 5
+can increase glutathione (GSH) expression, providing additional
+mechanisms of antioxidant/anti-inﬂammatory neuroprotection
+(Lee et al., 2016). In fact, it has recently been suggested that
+quercetin (5) rather than caﬀeine (1) is the component which is
+responsible for the neuroprotective eﬀects of coﬀee (Lee et al.,
+2016), although the authors suggest a mechanism based on
+antioxidant/anti-inﬂammatory pathways (inhibition of protein
+aggregation was not investigated in this report). Pharmacokinetic
+data has shown that 5 and its metabolites accumulate in the
+brains of rats (Ishisaka et al., 2011) despite the low bioavailability
+[approximately 20% absorption following oral administration
+(Chen et al., 2005)].
+Consistent with previous reports (Masuda et al., 2006; Matos
+et al., 2017), we observed that 5 is a potent inhibitor of Aβ
+aggregation (Figure 4A, Table 5), yet a loading of 100 µM
+5 showed only a modest inhibitory eﬀect for tau ﬁbrillization
+(Figure 4B), again consistent with previous data (reported IC50
+for tau ﬁbrillization by 5 > 200 µM) (Masuda et al., 2006).
+However, in contrast to literature data, we observed that 5
+was able to promote the aggregation of α-synuclein rather than
+inhibit its ﬁbrillization (Table 5) (Masuda et al., 2006). This
+discrepancy is likely due to the diﬀerences in assay conditions
+(oligomer assay versus ﬁbril assay), which suggests that 5
+interacts diﬀerently with monomeric/oligomeric α-synuclein and
+its mature aggregates. Indeed, such eﬀects have been described
+previously (Zhu et al., 2013); 5 inhibits the formation of
+α-synuclein ﬁbrils via stabilization of smaller oligomeric species
+which form prior to ﬁbrillization. Covalent modiﬁcation of the
+α-synuclein monomer/oligomer by 5 leads to an increase in
+hydrophilic surface area, stabilizing the α-synuclein-quercetin
+adduct in aqueous medium and preventing further aggregation.
+It has also been suggested that 5 may promote the formation of
+small oligomeric aggregates of Aβ through a similar mechanism,
+which have the potential to be neurotoxic (Matos et al.,
+2017). However, no pro-aggregation eﬀect of 5 was observed
+in our Aβ oligomerization assay (Table 5), and in fact 5
+was shown to be an eﬀective inhibitor of Aβ oligomerization
+(IC50 = 10.3 µM).
+Our data, taken together with literature reports, suggest that
+quercetin (5) in brewed coﬀee may provide neuroprotection
+Frontiers in Neuroscience | www.frontiersin.org
+10
+October 2018 | Volume 12 | Article 735
+
+Mancini et al.
+Phenylindanes Inhibit Aβ and Tau Aggregation
+in vivo through inhibiting the aggregation of pathogenic Aβ in
+the brain in addition to its known antioxidant/anti-inﬂammatory
+properties (Sabogal-Guaqueta et al., 2015; Lee et al., 2016).
+However, the inability of 5 to inhibit tau ﬁbrillization limits
+its eﬃcacy as a therapeutic agent to treat protein misfolding
+disorders associated with AD. In addition, the propensity of 5
+to promote and stabilize oligomeric aggregates of α-synuclein
+through covalent modiﬁcation is a potential disadvantage of
+using 5 to treat PD pathology. It has also been shown that 5 can
+form smaller oligomeric aggregates of α-synuclein at the expense
+of larger ﬁbrillar aggregates (Zhu et al., 2013). This is another
+drawback, as ﬁbril formation is suspected to be neuroprotective.
+Phenylindanes
+Phenylindanes are formed from hydroxylated cinnamates such
+as caﬀeic acid (4) during the roasting of coﬀee beans (Guillot
+et al., 1996; Stadler et al., 1996), and mechanisms for their
+formation have been proposed (Stadler et al., 1996; Frank
+et al., 2007). Higher concentrations of phenylindanes are
+found in dark roast coﬀees (longer roasting times) such as
+espressos, and are largely responsible for the bitter taste
+of dark roast coﬀee blends (Frank et al., 2007). Literature
+reports have shown that the phenylindanes found in coﬀee
+brews display surprisingly potent antioxidant activity (Guillot
+et al., 1996; Stadler et al., 1996), more potent than 5-O-
+caﬀeoquinolinic acid (2), caﬀeic acid (4) and quercetin (5), but
+their ability to interact with amyloidogenic proteins has not
+yet been reported. Given the observed diﬀerences in activity
+between the light roast and dark roast coﬀee extracts (Tables 2
+and 3) we felt investigation of this coﬀee component was
+warranted.
+We observed that the phenylindane mixture 6 (1.00:1.87
+cis:trans 6) displayed potent aggregation inhibition activity
+in both the Aβ ﬁbrillization assay (Figure 5A) and the Aβ
+oligomerization assay (Table 5). Further, 6 displayed more potent
+levels of tau aggregation inhibition (Figure 5B) than any other
+compound investigated. Given that the dark roast coﬀee extracts
+(both caﬀeinated and decaﬀeinated) show more potent levels of
+aggregation inhibition in the Aβ oligomer assays versus light
+roast coﬀee extract (Table 3), and higher quantities of 6 are
+found in darker roast coﬀee beans, we propose that it is the
+phenylindane (6) component which is largely responsible for
+the observed aggregation inhibition activity of coﬀee extracts
+for both Aβ and tau. Given that the decaﬀeination procedure
+occurs before roasting of the coﬀee beans, it is reasonable to
+assume that similar quantities of 6 are produced in both types
+of dark roast coﬀees (assuming that roasting times are also
+similar).
+It could be argued that the increase in roasting time from
+light roast to dark roast coﬀee beans might also lead to increased
+quercetin (5) concentration in dark roast coﬀee blends via
+hydrolysis of quercetin glycosides (glycoside hydrolysis may
+increase the concentration of quercetin aglycone 5), which
+might correlate with increased aggregation inhibition activity
+of dark roast coﬀee extracts. However, it has been shown that
+while the concentration of quercetin glycosides decreases under
+pyrolysis (i.e., roasting) conditions, the concentration of 5 and
+its derivatives (oxidation products) does not change signiﬁcantly
+(Rohn et al., 2007). A rationale is proposed wherein 5 and
+its derivatives, which are inherently electrophilic, react with
+nucleophilic components present in the food mixture to generate
+polymeric composites such as tannins (Rohn et al., 2007; Oracz
+et al., 2015). More likely, increased roasting of coﬀee beans
+would cause a decrease in the amount of 5. We therefore
+propose that it is the higher concentration of phenylindane (6)
+in dark roast coﬀee extracts that is responsible for the increase
+in aggregation inhibition activity of dark roast coﬀee extract
+versus light roast coﬀee extract in the Aβ oligomerization assay
+(Table 3).
+When 6 was tested in the α-synuclein aggregation assay, we
+were unable to calculate an apparent IC50 value nor did we
+observe any pro-aggregation behavior (Table 5). The absence
+of any observable interaction between 6 and α-synuclein would
+suggest that 6 is not responsible for the pro-aggregation activity
+of the coﬀee extracts. More likely, this behavior is derived from
+caﬀeic acid (4) and quercetin (5). While it is unlikely that any
+neuroprotective eﬀects of coﬀee with respect to PD is due to the
+interaction of 6 with α-synuclein, it is plausible that 6 could elicit
+a neuroprotective eﬀect in PD pathologies by other mechanisms
+such as neuroinﬂammatory/antioxidant pathways or by altering
+gene/protein expression to reduce the amount of pathogenic
+α-synuclein in the brain. A similar mechanism could also be
+operative for AD pathologies, although such an eﬀect has yet to
+be reported in either case. Further research is thus warranted
+to determine if phenylindanes in coﬀee promote additional
+mechanisms of neuroprotection in cell or animal models of AD
+and PD.
+Information on the bioavailability 6 has yet to be reported. It is
+known that while 6 is water soluble, it can be completely extracted
+into ether (99.8%) from the water phase (Guillot et al., 1996)
+giving promise for oral bioavailability and BBB penetrance. Taken
+together, these results suggest that the phenylindane scaﬀold is
+a promising lead for the development of drug-like molecules to
+treat neurodegenerative disorders, in particular those involving
+the aggregation of pathogenic Aβ and tau (AD). Further
+investigation into the bioavailability and pharmacokinetics of
+phenylindanes in coﬀee, as well as their BBB penetrance is
+warranted.
+CONCLUSION
+In summary, we have quantiﬁed the aggregation inhibition
+activity of three instant coﬀee extracts (light roast, dark roast,
+decaﬀeinated dark roast) and a variety of components found in
+coﬀee (1–6) toward Aβ, tau and α-synuclein. We have identiﬁed
+phenylindane (6) as a dual-inhibitor of Aβ and tau aggregation,
+and propose that it is the phenylindane component of coﬀee that
+is responsible for the observed aggregation inhibition activity of
+the coﬀee extracts toward Aβ and tau. While our investigation did
+not identify any aggregation inhibition activity of coﬀee extracts
+toward α-synuclein, we have identiﬁed caﬀeic acid (4) and
+quercetin (5) as pro-aggregates of α-synuclein at concentrations
+above 100 µM.
+Frontiers in Neuroscience | www.frontiersin.org
+11
+October 2018 | Volume 12 | Article 735
+
+Mancini et al.
+Phenylindanes Inhibit Aβ and Tau Aggregation
+While
+the
+perceived
+neuroprotective
+eﬀect
+of
+coﬀee
+consumption is likely due to a combination of factors related
+to the various biological activities of 1–6, the ability of 6 to
+interact directly with pathogenic Aβ and tau to inhibit their
+aggregation is noteworthy. Inhibition of Aβ and tau aggregation
+by phenylindanes (6) in coﬀee can be considered as a plausible
+mechanism of neuroprotection in AD pathologies for individuals
+who consume coﬀee beverages. To our knowledge this is the
+ﬁrst report of the aggregation inhibition activity of 6, and the
+phenylindane (6) scaﬀold should be considered for future drug
+discovery projects which target the protein aggregation process.
+The ability of 6 to reduce Aβ, tau and α-synuclein loads in cell
+and animal models of AD and PD is currently under investigation
+by our group, and will be reported in due course.
+DATA AVAILABILITY STATEMENT
+The raw data supporting the conclusions of this manuscript will
+be made available by the authors, without undue reservation, to
+any qualiﬁed researcher.
+AUTHOR CONTRIBUTIONS
+RM
+performed
+chemical
+synthesis
+and
+structural
+characterization, planned biological assays, data interpretation
+and drafting the manuscript. YW planned biological assays,
+performed all biological assays and processed all raw data
+obtained in biological assays. DW helped edit and revise the
+manuscript.
+FUNDING
+The authors thank the Krembil Foundation for ﬁnancial support.
+DW thanks the Canada Research Chairs program for support as
+a Tier I CRC in Protein Misfolding Diseases.
+ACKNOWLEDGMENTS
+The authors thank A. A. Waito for helpful discussion regarding
+statistical analysis.
+REFERENCES
+Ahn, E. H., Kim, D. W., Shin, M. J., Kwon, S. W., Kim, Y. N., Kim, D. S., et al.
+(2011). Chlorogenic acid improves neuroprotective eﬀect of PEP-1-Ribosomal
+protein S3 against ischemic insult. Exp. Neurobiol. 20, 169–175. doi: 10.5607/
+en.2011.20.4.169
+Anggreani, E., and Lee, C. Y. (2017). Neuroprotective eﬀect of chlorogenic acids
+against Alzheimer’s disease. Int. J. Food Sci. Nutr. Diet. 6, 330–337.
+Arendash, G. W., Mori, T., Cao, C., Mamcarz, M., Runfeldt, M., Dickson, A., et al.
+(2009). Caﬀeine reverses cognitive impairment and decreases brain amyloid-
+beta levels in aged Alzheimer’s disease mice. J. Alzheimers Dis. 17, 661–680.
+doi: 10.3233/JAD-2009-1087
+Arendash, G. W., Schleif, W., Rezai-Zadeh, K., Jackson, E. K., Zacharia,
+L. C., Cracchiolo, J. R., et al. (2006). Caﬀeine protects Alzheimer’s
+mice
+against
+cognitive
+impairment
+and
+reduces
+brain
+beta-amyloid
+production. Neuroscience 142, 941–952. doi: 10.1016/j.neuroscience.2006.
+07.021
+Baeta-Corral, R., Johansson, B., and Gimenez-Llort, L. (2018). Long-term
+treatment with low-dose caﬀeine worsens BPSD-like proﬁle in 3xTg-AD mice
+model of Alzheimer’s disease and aﬀects mice with normal aging. Front.
+Pharmacol. 9:79. doi: 10.3389/fphar.2018.00079
+Barone, J. J., and Roberts, H. R. (1996). Caﬀeine consumption. Food Chem. Toxicol.
+34, 119–129. doi: 10.1016/0278-6915(95)00093-3
+Blanchard, J., and Sawers, S. J. A. (1983). The absolute bioavailability of caﬀeine in
+man. Eur. J. Clin. Pharmacol. 24, 93–98. doi: 10.1007/BF00613933
+Butt, M. S., and Sultan, M. T. (2011). Coﬀee and its consumption: beneﬁts and
+risks. Crit. Rev. Food Sci. Nutr. 51, 363–373. doi: 10.1080/1040839090358
+6412
+Canas, P. M., Porciuncula, L. O., Cunha, G. M., Silva, C. G., Machado, N. J.,
+Oliveira, J. M., et al. (2009). Adenosine A2A receptor blockade prevents
+synaptotoxicity and memory dysfunction caused by beta-amyloid peptides via
+p38 mitogen-activated protein kinase pathway. J. Neurosci. 29, 14741–14751.
+doi: 10.1523/JNEUROSCI.3728-09.2009
+Cao, C., Wang, L., Lin, X., Mamcarz, M., Zhang, C., Bai, G., et al. (2011). Caﬀeine
+synergizes with another coﬀee component to increase plasma GCSF: linkage to
+cognitive beneﬁts in Alzheimer’s mice. J. Alzheimers Dis. 25:12. doi: 10.3233/
+JAD-2011-110110
+Caruso, G., Distefano, D. A., Parlascino, P., Fresta, C. G., Lazzarino, G., Lunte,
+S. M., et al. (2017). Receptor-mediated toxicity of human amylin fragment
+aggregated by short- and long-term incubations with copper ions. Mol. Cell.
+Biochem. 425, 85–93. doi: 10.1007/s11010-016-2864-1
+Catto, M., Aliano, R., Carotti, A., Cellamare, S., Palluotto, F., Purgatorio, R.,
+et al. (2010). Design, synthesis and biological evaluation of indane-
+2-arylhydrazinylmethylene-1,3-diones and indol-2-aryldiazenylmethylene-3-
+ones as β-amyloid aggregation inhibitors. Eur. J. Med. Chem. 45, 1359–1366.
+doi: 10.1016/j.ejmech.2009.12.029
+Chen, J.-F., Xu, K., Petzer, J. P., Staal, R., Xu, Y.-H., Beilstein, M., et al. (2001).
+Neuroprotection by caﬀeine and A2A adenosine receptor inactivation in a
+model of Parkinson’s disease. J. Neurosci. 21:RC143.
+Chen, X., Ghribi, O., and Geiger, J. D. (2010). Caﬀeine protects against disruptions
+of the blood-brain barrier in animal models of Alzheimer’s and Parkinson’s
+diseases. J. Alzheimers Dis. 20(Suppl. 1), S127–S141. doi: 10.3233/JAD-2010-
+1376
+Chen, X., Yin, O. Q., Zuo, Z., and Chow, M. S. (2005). Pharmacokinetics and
+modeling of quercetin and metabolites. Pharm. Res. 22, 892–901. doi: 10.1007/
+s11095-005-4584-1
+Chu, Y. F., Chang, W. H., Black, R. M., Liu, J. R., Sompol, P., Chen, Y., et al.
+(2012). Crude caﬀeine reduces memory impairment and amyloid beta(1-
+42) levels in an Alzheimer’s mouse model. Food Chem. 135, 2095–2102.
+doi: 10.1016/j.foodchem.2012.04.148
+Costa, J., Lunet, N., Santos, C., Santos, J., and Vaz-Carneiro, A. (2010). Caﬀeine
+exposure and the risk of Parkinson’s disease: a systematic review and meta-
+analysis of observational studies. J. Alzheimers Dis. 20(Suppl. 1), S221–S238.
+doi: 10.3233/JAD-2010-091525
+Dedmon, M. M., Christodoulou, J., Wilson, M. R., and Dobson, C. M. (2005).
+Heat shock protein 70 inhibits alpha-synuclein ﬁbril formation via preferential
+binding to preﬁbrillar species. J. Biol. Chem. 280, 14733–14740. doi: 10.1074/
+jbc.M413024200
+Di Monte, D. A., Lavasani, M., and Manning-Bog, A. B. (2002). Environmental
+factors in Parkinson’s disease. Neurotoxicology 23, 487–502. doi: 10.1016/S0161-
+813X(02)00099-2
+dos Santos, M. D., Almeida, M. C., Lopes, N. P., and de Souza, G. E. (2006).
+Evaluation of the anti-inﬂammatory, analgesic and antipyretic activities of
+the natural polyphenol chlorogenic acid. Biol. Pharm. Bull. 29, 2236–2240.
+doi: 10.1248/bpb.29.2236
+El-Agnaf, O. M. A., Paleologou, K. E., Greer, B., Abogrein, A. M., King, J. E., Salem,
+S. A., et al. (2004). A strategy for designing inhibitors of α-synuclein aggregation
+and toxicity as a novel treatment for Parkinson’s disease and related disorders.
+FASEB J. 18, 1315–1317. doi: 10.1096/fj.03-1346fje
+Farah, A., de Paulis, T., Trugo, L. C., and Martin, P. R. (2005). Eﬀect of roasting
+on the formation of chlorogenic acid lactones in coﬀee. J. Agric. Food Chem. 53,
+1505–1513. doi: 10.1021/jf048701t
+Frontiers in Neuroscience | www.frontiersin.org
+12
+October 2018 | Volume 12 | Article 735
+
+Mancini et al.
+Phenylindanes Inhibit Aβ and Tau Aggregation
+Farah, A., and Donangelo, C. M. (2006). Phenolic compounds in coﬀee. Braz. J.
+Plant Physiol. 18, 23–36. doi: 10.1590/S1677-04202006000100003
+Feng, R., Lu, Y., Bowman, L. L., Qian, Y., Castranova, V., and Ding, M. (2005).
+Inhibition of activator protein-1, NF-kappaB, and MAPKs and induction of
+phase 2 detoxifying enzyme activity by chlorogenic acid. J. Biol. Chem. 280,
+27888–27895. doi: 10.1074/jbc.M503347200
+Frank, O., Blumberg, S., Kunert, C., Zehentbauer, G., and Hofmann, T. (2007).
+Structure determination and sensory analysis of bitter-tasting 4-vinylcatechol
+oligomers and their identiﬁcation in roasted coﬀee by means of LC-MS/MS.
+J. Agric. Food Chem. 55, 1945–1954. doi: 10.1021/jf0632280
+Friedhoﬀ, P., Schneider, A., Mandelkow, E.-M., and Mandelkow, E. (1998).
+Rapid assembly of Alzheimer-like paired helical ﬁlaments from microtubule-
+associated protein tau monitored by ﬂuorescence in Solution. Biochemistry 37,
+10223–10230. doi: 10.1021/bi980537d
+Guillot, F. L., Malnoë, A., and Stadler, R. H. (1996). Antioxidant properties of novel
+tetraoxygenated phenylindan isomers formed during thermal decomposition
+of caﬀeic acid. J. Agric. Food Chem. 44, 2503–2510. doi: 10.1021/jf950
+8155
+Gulcin, I. (2006). Antioxidant activity of caﬀeic acid (3,4-dihydroxycinnamic acid).
+Toxicology 217, 213–220. doi: 10.1016/j.tox.2005.09.011
+Hawco, C. L., Wang, Y., Taylor, M., and Weaver, D. F. (2016). A maple syrup
+extract prevents beta-amyloid aggregation. Can. J. Neurol. Sci. 43, 198–201.
+doi: 10.1017/cjn.2015.270
+Ishisaka, A., Ichikawa, S., Sakakibara, H., Piskula, M. K., Nakamura, T., Kato, Y.,
+et al. (2011). Accumulation of orally administered quercetin in brain tissue
+and its antioxidative eﬀects in rats. Free Radic. Biol. Med. 51, 1329–1336. doi:
+10.1016/j.freeradbiomed.2011.06.017
+Jaiswal, R., Matei, M. F., Golon, A., Witt, M., and Kuhnert, N. (2012).
+Understanding the fate of chlorogenic acids in coﬀee roasting using mass
+spectrometry based targeted and non-targeted analytical strategies. Food Funct.
+3, 976–984. doi: 10.1039/c2fo10260a
+Johnston, K. L., Cliﬀord, M. N., and Morgan, L. M. (2003). Coﬀee acutely modiﬁes
+gastrointestinal hormone secretion and glucose tolerance in humans: glycemic
+eﬀects of chlorogenic acid and caﬀeine. Am. J. Clin. Nutr. 78, 728–733. doi:
+10.1093/ajcn/78.4.728
+Kalaria, R. N. (2000). The role of cerebral ischemia in Alzheimer’s disease.
+Neurobiol. Aging 21, 321–330. doi: 10.1016/S0197-4580(00)00125-1
+Kardani, J., and Roy, I. (2015). Understanding caﬀeine’s role in attenuating the
+toxicity of alpha-synuclein aggregates: implications for risk of Parkinson’s
+disease. ACS Chem. Neurosci. 6, 1613–1625. doi: 10.1021/acschemneuro.
+5b00158
+Kayed, R., Head, E., Thompson, J. L., McIntire, T. M., Milton, S. C., Cotman,
+C. W., et al. (2003). Common structure of soluble amyloid oligomers implies
+common mechanism of pathogenesis. Science 300, 486–489. doi: 10.1126/
+science.1079469
+Lardeau, A., and Poquet, L. (2013). Phenolic acid metabolites derived from coﬀee
+consumption are unlikely to cross the blood-brain barrier. J. Pharm. Biomed.
+Anal. 76, 134–138. doi: 10.1016/j.jpba.2012.12.016
+Laura, M., Massimo, F., Monica, B., Laura, M., Ilaria, T., Andrea, M., et al. (2011).
+Dietary ﬂavonoids: molecular mechanisms of action as anti- inﬂammatory
+agents. Recent Pat. Inﬂamm. Allergy Drug Discov. 5, 200–220. doi: 10.2174/
+187221311797264937
+Lee, M., McGeer, E. G., and McGeer, P. L. (2016). Quercetin, not caﬀeine, is a
+major neuroprotective component in coﬀee. Neurobiol. Aging 46, 113–123.
+doi: 10.1016/j.neurobiolaging.2016.06.015
+Lee, W. J., and Zhu, B. T. (2006). Inhibition of DNA methylation by caﬀeic acid
+and chlorogenic acid, two common catechol-containing coﬀee polyphenols.
+Carcinogenesis 27, 269–277. doi: 10.1093/carcin/bgi206
+LeVine, H. III. (1993). Thioﬂavine T interaction with synthetic Alzheimer’s disease
+β-amyloid peptides: detection of amyloid aggregation in solution. Protein Sci. 2,
+404–410. doi: 10.1002/pro.5560020312
+LeVine, H. III. (2006). Biotin-avidin interaction-based screening assay for
+Alzheimer’s beta-peptide oligomer inhibitors. Anal. Biochem. 356, 265–272.
+doi: 10.1016/j.ab.2006.04.036
+Ludwig, I. A., Mena, P., Calani, L., Cid, C., Del Rio, D., Lean, M. E.,
+et al. (2014). Variations in caﬀeine and chlorogenic acid contents of
+coﬀees: what are we drinking? Food Funct. 5, 1718–1726. doi: 10.1039/c4fo
+00290c
+Masuda, M., Suzuki, N., Taniguchi, S., Oikawa, T., Nonaka, T., Iwatsubo, T.,
+et al. (2006). Small molecule inhibitors of α-synuclein ﬁlament assembly.
+Biochemistry 45, 6085–6094. doi: 10.1021/bi0600749
+Matos, A. M., Cristóvão, J. S., Yashunsky, D. V., Nifantiev, N. E., Viana, A. S.,
+Gomes, C. M., et al. (2017). Synthesis and eﬀects of ﬂavonoid structure variation
+on amyloid-β aggregation. Pure Appl. Chem. 89, 1305–1320. doi: 10.1016/j.
+ijbiomac.2015.07.052
+Mirza, S. S., Tiemeier, H., de Bruijn, R. F. A. G., Hofman, A., Franco, O. H., Kiefte-
+de Jong, J., et al. (2014). Coﬀee consumption and incident dementia. Eur. J.
+Epidemiol. 29, 735–741. doi: 10.1007/s10654-014-9943-y
+Nabavi, S. F., Tejada, S., Setzer, W. N., Gortzi, O., Sureda, A., Braidy, N.,
+et al. (2017). Chlorogenic acid and mental diseases: from chemistry
+to
+medicine.
+Curr.
+Neuropharmacol.
+15,
+471–479.
+doi:
+10.2174/
+1570159X14666160325120625
+Olthof, M. R., Hollman, P. C. H., and Katan, M. B. (2001). Chlorogenic acid
+and caﬀeic acid are absorbed in humans. J. Nutr. 131, 66–71. doi: 10.1093/jn/
+131.1.66
+Ono, K. (2017). The oligomer hypothesis in alpha-synucleinopathy. Neurochem.
+Res. 42, 3362–3371. doi: 10.1007/s11064-017-2382-x
+Ono, K. (2018). Alzheimer’s disease as oligomeropathy. Neurochem. Int. 119,
+57–70. doi: 10.1016/j.neuint.2017.08.010
+Oracz, J., Nebesny, E., and ˙Zy˙zelewicz, D. (2015). Changes in the ﬂavan-3-ols,
+anthocyanins, and ﬂavanols composition of cocoa beans of diﬀerent Theobroma
+cacao L. groups aﬀected by roasting conditions. Eur. Food Res. Technol. 241,
+663–681. doi: 10.1007/s00217-015-2494-y
+Park, J. B. (2009). 5-Caﬀeoylquinic acid and caﬀeic acid orally administered
+suppress P-selectin expression on mouse platelets. J. Nutr. Biochem. 20, 800–
+805. doi: 10.1016/j.jnutbio.2008.07.009
+Patel, S., Sinha, A., Parmar, D., and Singh, M. P. (2005). An update on the role
+of environmental factors in Parkinson’s disease. Ann. Neurosci. 12, 79–86. doi:
+10.5214/ans.0972.7531.2005.120404
+Pinotsi, D., Michel, C. H., Buell, A. K., Laine, R. F., Mahou, P., Dobson, C. M., et al.
+(2016). Nanoscopic insights into seeding mechanisms and toxicity of alpha-
+synuclein species in neurons. Proc. Natl. Acad. Sci. U.S.A. 113, 3815–3819.
+doi: 10.1073/pnas.1516546113
+Reichardt, N., Gniechwitz, D., Steinhart, H., Bunzel, M., and Blaut, M.
+(2009). Characterization of high molecular weight coﬀee fractions and their
+fermentation by human intestinal microbiota. Mol. Nutr. Food Res. 53, 287–299.
+doi: 10.1002/mnfr.200700509
+Rohn, S., Buchner, N., Driemel, G., Rauser, M., and Kroh, L. W. (2007). Thermal
+degradation of onion quercetin glucosides under roasting conditions. J. Agric.
+Food Chem. 55, 1568–1573. doi: 10.1021/jf063221i
+Sabogal-Guaqueta, A. M., Munoz-Manco, J. I., Ramirez-Pineda, J. R., Lamprea-
+Rodriguez, M., Osorio, E., and Cardona-Gomez, G. P. (2015). The ﬂavonoid
+quercetin ameliorates Alzheimer’s disease pathology and protects cognitive and
+emotional function in aged triple transgenic Alzheimer’s disease model mice.
+Neuropharmacology 93, 134–145. doi: 10.1016/j.neuropharm.2015.01.027
+Santos, C., Costa, J., Santos, J., Vaz-Carneiro, A., and Lunet, N. (2010). Caﬀeine
+intake and dementia: systematic review and meta-analysis. J. Alzheimers Dis.
+20(Suppl. 1), S187–S204. doi: 10.3233/JAD-2010-091387
+Sharma, B., Kalita, S., Paul, A., Mandal, B., and Paul, S. (2016). The role of
+caﬀeine as an inhibitor in the aggregation of amyloid forming peptides: a
+uniﬁed molecular dynamics simulation and experimental study. RSC Adv. 6,
+78548–78558. doi: 10.1039/C6RA17602J
+Sharma, B., and Paul, S. (2016). Action of caﬀeine as an amyloid inhibitor in
+the aggregation of Abeta16-22 peptides. J. Phys. Chem. B 120, 9019–9033.
+doi: 10.1021/acs.jpcb.6b03892
+Shen, W., Qi, R., Zhang, J., Wang, Z., Wang, H., Hu, C., et al. (2012). Chlorogenic
+acid inhibits LPS-induced microglial activation and improves survival of
+dopaminergic neurons. Brain Res. Bull. 88, 487–494. doi: 10.1016/j.brainresbull.
+2012.04.010
+Stadler, R. H., Welti, D. H., Stämpﬂi, A. A., and Fay, L. B. (1996). Thermal
+decomposition of caﬀeic acid in model systems:? identiﬁcation of novel
+tetraoxygenated phenylindan isomers and their stability in aqueous solution.
+J. Agric. Food Chem. 44, 898–905. doi: 10.1021/jf950411c
+Svenningsson, P., Le Moine, C., Fisone, G., and Fredholm, B. B. (1999).
+Distribution, biochemistry and function of striatal adenosine A2A receptors.
+Prog. Neurobiol. 59, 355–396. doi: 10.1016/S0301-0082(99)00011-8
+Frontiers in Neuroscience | www.frontiersin.org
+13
+October 2018 | Volume 12 | Article 735
+
+Mancini et al.
+Phenylindanes Inhibit Aβ and Tau Aggregation
+Taniguchi, S., Suzuki, N., Masuda, M., Hisanaga, S., Iwatsubo, T., Goedert, M.,
+et al. (2005). Inhibition of heparin-induced tau ﬁlament formation by
+phenothiazines, polyphenols, and porphyrins. J. Biol. Chem. 280, 7614–7623.
+doi: 10.1074/jbc.M408714200
+Tiiman, A., Krishtal, J., Palumaa, P., and Tõugu, V. (2015). In vitro ﬁbrillization
+of Alzheimer’s amyloid-β peptide (1-42). AIP Adv. 5:092401. doi: 10.1063/1.
+4921071
+Trinh, K., Andrews, L., Krause, J., Hanak, T., Lee, D., Gelb, M., et al.
+(2010). Decaﬀeinated coﬀee and nicotine-free tobacco provide neuroprotection
+in Drosophila models of Parkinson’s disease through an NRF2-dependent
+mechanism. J. Neurosci. 30, 5525–5532. doi: 10.1523/JNEUROSCI.4777-09.
+2010
+Trugo, L. C., and Macrae, R. (1984). A study of the eﬀect of roasting on the
+chlorogenic acid composition of coﬀee using HPLC. Food Chem. 15, 219–227.
+doi: 10.1016/j.fct.2018.02.029
+Xu, K., Xu, Y. H., Chen, J. F., and Schwarzschild, M. A. (2010). Neuroprotection
+by caﬀeine: time course and role of its metabolites in the MPTP model of
+Parkinson’s disease. Neuroscience 167, 475–481. doi: 10.1016/j.neuroscience.
+2010.02.020
+Zhu, M., Han, S., and Fink, A. L. (2013). Oxidized quercetin inhibits alpha-
+synuclein ﬁbrillization. Biochim. Biophys. Acta 1830, 2872–2881. doi: 10.1016/j.
+bbagen.2012.12.027
+Conﬂict of Interest Statement: The authors declare that the research was
+conducted in the absence of any commercial or ﬁnancial relationships that could
+be construed as a potential conﬂict of interest.
+Copyright © 2018 Mancini, Wang and Weaver. This is an open-access article
+distributed under the terms of the Creative Commons Attribution License (CC BY).
+The use, distribution or reproduction in other forums is permitted, provided the
+original author(s) and the copyright owner(s) are credited and that the original
+publication in this journal is cited, in accordance with accepted academic practice.
+No use, distribution or reproduction is permitted which does not comply with these
+terms.
+Frontiers in Neuroscience | www.frontiersin.org
+14
+October 2018 | Volume 12 | Article 735

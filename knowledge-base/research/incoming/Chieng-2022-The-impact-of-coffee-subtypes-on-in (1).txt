@@ -1,0 +1,780 @@
+European Journal of Preventive Cardiology (2022) 29, 2240–2249 
+https://doi.org/10.1093/eurjpc/zwac189
+FULL RESEARCH PAPER 
+Nutrition/obesity
+.........................................................................................................................................................................................
+.........................................................................................................................................................................................
+The impact of coffee subtypes on incident 
+cardiovascular disease, arrhythmias, and 
+mortality: long-term outcomes from  
+the UK Biobank
+David Chieng 
+1,2,3, Rodrigo Canovas4,5, Louise Segan 
+1,2,3, 
+Hariharan Sugumar1,2,3, Aleksandr Voskoboinik1,2,3, Sandeep Prabhu1,2,3,  
+Liang-Han Ling1,2,3, Geoffrey Lee3,6, Joseph B. Morton3,6, David M. Kaye1,2,7, 
+Jonathan M. Kalman 
+3,6,7, and Peter M. Kistler 
+1,2,3,7*
+1Clinical Electrophysiology Research Laboratory, Baker Heart and Diabetes Research Institute, 55 Commercial Road, Melbourne 3004, Australia; 2Department of Cardiology, Alfred 
+Hospital, 55 Commercial Road, Melbourne 3004, Australia; 3Department of Medicine, University of Melbourne, Parkville 3010, Australia; 4Cambridge Baker Systems Genomics Initiaive, 
+75 Commercial Road, Melbourne 3004, Australia; 5Baker Department of Cardiometabolic Health, 75 Commercial Road, Melbourne 3004, Australia; 6Royal Melbourne Hospital, 300 
+Grattan Street, Melbourne 3010, Australia; and 7Department of Medicine, Faculty of Medicine, Monash University, Melbourne 3800, Australia
+Received 13 June 2022; revised 9 August 2022; accepted 24 August 2022; online publish-ahead-of-print 27 September 2022
+See the editorial comment for this article ‘Editorial: The effects of coffee intake on the risk of cardiovascular disease’, by James M. 
+Muchira, https://doi.org/10.1093/eurjpc/zwac257.
+Aims
+Epidemiological studies report the beneficial effects of habitual coffee consumption on incident arrhythmia, cardiovascular 
+disease (CVD), and mortality. However, the impact of different coffee preparations on cardiovascular outcomes and sur­
+vival is largely unknown. The aim of this study was to evaluate associations between coffee subtypes on incident outcomes, 
+utilizing the UK Biobank.
+Methods 
+and results
+Coffee subtypes were defined as decaffeinated, ground, and instant, then divided into 0, <1, 1, 2–3, 4–5, and >5 cups/day, 
+and compared with non-drinkers. Cardiovascular disease included coronary heart disease, cardiac failure, and ischaemic 
+stroke. Cox regression modelling with hazard ratios (HRs) assessed associations with incident arrhythmia, CVD, and mor­
+tality. Outcomes were determined through ICD codes and death records. A total of 449 563 participants (median 58 
+years, 55.3% females) were followed over 12.5 ± 0.7 years. Ground and instant coffee consumption was associated 
+with a significant reduction in arrhythmia at 1–5 cups/day but not for decaffeinated coffee. The lowest risk was 4– 
+5 cups/day for ground coffee [HR 0.83, confidence interval (CI) 0.76–0.91, P < 0.0001] and 2–3 cups/day for instant coffee 
+(HR 0.88, CI 0.85–0.92, P < 0.0001). All coffee subtypes were associated with a reduction in incident CVD (the lowest risk 
+was 2–3 cups/day for decaffeinated, P = 0.0093; ground, P < 0.0001; and instant coffee, P < 0.0001) vs. non-drinkers. All- 
+cause mortality was significantly reduced for all coffee subtypes, with the greatest risk reduction seen with 2–3 cups/day 
+for decaffeinated (HR 0.86, CI 0.81–0.91, P < 0.0001); ground (HR 0.73, CI 0.69–0.78, P < 0.0001); and instant coffee (HR 
+0.89, CI 0.86–0.93, P < 0.0001).
+Conclusion
+Decaffeinated, ground, and instant coffee, particularly at 2–3 cups/day, were associated with significant reductions in in­
+cident CVD and mortality. Ground and instant but not decaffeinated coffee was associated with reduced arrhythmia.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+* Corresponding author. Tel: +61 0390762000, Fax: +61 0390762461, Email: peter.kistler@baker.edu.au
+© The Author(s) 2022. Published by Oxford University Press on behalf of the European Society of Cardiology. All rights reserved. For permissions, please email: 
+journals.permissions@oup.com.
+Downloaded from https://academic.oup.com/eurjpc/article/29/17/2240/6704995 by guest on 10 December 2024
+
+D. Chieng et al.                                                                                                                                                                                     2241
+.........................................................................................................................................................................................
+Graphical Abstract
+Coffee subtypes and associations with incident arrhythmia, CVD, and mortality. Caffeinated (ground/instant) but not decaffeinated coffee re­
+duced the risk of arrhythmia. Both caffeinated and decaffeinated coffee reduced incident CVD and all-cause and cardiovascular mortality risks. 
+CI, confidence interval; CVD, cardiovascular disease; HR, hazard ratio.
+Keywords 
+Coffee • Decaffeinated • Instant • Ground • Arrhythmia • Cardiovascular disease • Coronary heart disease • 
+Congestive cardiac failure • Stroke
+Introduction
+Coffee is ubiquitous in most societies, with its main constituent caf­
+feine the most commonly consumed psychostimulant worldwide.1
+With increasing public awareness on cardiovascular disease (CVD) 
+prevention, significant interest has focused on modifiable lifestyle 
+risk factors, including the safety of coffee. Historically up to 80% of 
+health practitioners recommend avoiding coffee in patients with 
+CVD.2 This misconception has been challenged by recent observa­
+tional studies, which not only report the safety but a beneficial effect 
+of coffee intake on incident arrhythmia and CVD prevention.1,3,4 In 
+fact, coffee consumption at 3–4 cups/day is described as moderately 
+beneficial in the prevention of CVD in the 2021 European Society of 
+Cardiology guidelines,5 although no such recommendation was made 
+in the 2019 AHA/ACC guidelines.6
+Although observational studies support the beneficial health ef­
+fects of coffee, there is a lack of dedicated studies aiming to address 
+the impact of different coffee subtypes on hard clinical outcomes 
+such as arrhythmia, CVD, and mortality.4 Much attention is directed 
+towards coffee’s major constituent, caffeine; however, coffee is made 
+up of more than 100 different biologic agents. The aim of this study 
+was to provide some mechanistic insights into the role of caffeine on 
+cardiovascular (CV) outcomes by comparing the impact of decaffei­
+nated and caffeinated coffee.
+Methods
+Study design/setting
+The UK Biobank study was approved by the National Information 
+Governance Board for Health and Social Care and the National Health 
+Service North West Multicenter Research Ethics Committee.7 A proto­
+col for the study is available online.8 Between 1 January 2006 and 31 
+December 2010, the study recruited UK participants aged between 40 
+and 69 years. Survey and questionnaire responses on lifestyle risk factors 
+and physical examination findings were collected at baseline. Participants 
+were followed up long term to assess health outcomes.
+Analyses performed in this study had been conducted using the UK 
+Biobank Resource under application number 55469 from the Baker 
+Heart and Diabetes Institute, Melbourne, Australia. The study was con­
+ducted in accordance with the principles of the Declaration of Helsinki.
+Participant inclusion/exclusion criteria
+The UK Biobank data set consisted of 502 521 participants. For this 
+study, participants were excluded if they withdrew from the UK 
+Biobank or did not provide ethnic background information (17 617). 
+Furthermore, participants were excluded if responses were not provided 
+for the following: coffee intake (1170, 0.2%), coffee type (8984, 1.8%), tea 
+intake (665, 0.1%), and body mass index (BMI)/smoking/alcohol status 
+(3764, 0.7%). Participants with self-reported atrial fibrillation (AF) at 
+baseline were also excluded (389, 0.1%). Participants who already had 
+Downloaded from https://academic.oup.com/eurjpc/article/29/17/2240/6704995 by guest on 10 December 2024
+
+2242                                                                                                                                         
+Coffee subtypes and cardiovascular outcomes
+a diagnosis of CVD at the time of enrolment into the UK Biobank were 
+considered prevalent cases and excluded (20 369, 4.0%).
+The associations between coffee subtypes and incident CV outcomes 
+were analysed in a cohort consisting of participants who developed a CV 
+diagnosis during follow-up (incident cases), along with participants who 
+did not receive any diagnosis of arrhythmia or CVD on follow-up 
+(‘healthy’ cases).
+Coffee consumption
+Coffee consumption was self-reported by participants based on touchsc­
+reen questionnaire responses at the assessment centres. Participants 
+were asked how many cups of coffee they drank each day. Coffee drin­
+kers were also asked what type of coffee they usually drank including in­
+stant coffee, ground coffee (such as cappuccino or filtered coffee), and 
+decaffeinated coffee. Those who reported drinking >10 drinks were 
+asked to reconfirm the response. Participants were only able to select 
+one type of coffee on the questionnaires, so the possibility that a propor­
+tion of participants may have consumed more than one type could not be 
+excluded. For this study, participants were grouped into six daily intake 
+categories, consisting of 0, <1, 1, 2–3, 4–5, and >5 cups/day. Those who 
+answered ‘do not know’ or ‘prefer not to answer’ were excluded from 
+the analysis.
+Variables/outcome measurement
+The primary outcome of interest was the relationship between 
+coffee subtypes and incidence of arrhythmias, CVD, and mortality. 
+The coffee subtypes that were examined in this study were decaffeinated 
+coffee and caffeinated coffee (ground and instant). Cardiovascular disease 
+was defined as a composite of coronary heart disease (CHD), congestive 
+cardiac failure (CCF), and ischaemic stroke. Arrhythmia included ectopy, 
+atrial fibrillation/atrial flutter (AF/flutter), supraventricular tachycardia 
+(SVT), and ventricular tachycardia (VT)/ventricular fibrillation (VF). 
+Mortality outcomes included all-cause mortality, CV mortality, and sudden 
+cardiac death.
+Other analyses include the relationship between coffee subtype con­
+sumption and the incidence of subcategories of arrhythmias, namely AF/ 
+flutter, SVT, and VT/VF; as well as the subcategories of CVD (CHD, CCF, 
+and stroke). We also evaluated the associations between overall coffee 
+intake and incident arrhythmia, CVD, CCF, CHD, stroke, and mortality 
+outcomes.
+Incident events were assessed between January 2006 and August 
+2021. For each endpoint, we considered participants with the respective 
+disease incident cases and the ‘healthy’ cohort, and analysed the effects of 
+differing coffee intake levels on the risk of developing the studied end­
+point against non-coffee drinkers. Some participants may have two or 
+more incident CV diagnoses which are not adjusted for in each endpoint 
+evaluation.
+Data sources/measurement
+The outcomes of interest were ascertained using the International 
+Classification of Diseases, Tenth Revision (ICD-10) codes available 
+from medical records (see Supplementary material online, Table S1). 
+Hospital inpatient and procedure data were identified through data link­
+age with the Hospital Episode Statistics database (England), Scottish 
+Morbidity Records (Scotland), and Patient Episode Database for Wales 
+Database (Wales). Data linkage with other providers is performed at 
+the participant level using identifiers including National Health Service 
+(NHS) number (England or Wales) or Community Health Index (CHI) 
+number (Scotland) and name, date of birth, sex, residential address, 
+and postcode.
+Statistical methods
+Continuous data were expressed as mean ± standard deviation when 
+normally distributed, and medians ± interquartile range (IQR) when 
+skewed. Categorical data were presented as numbers and percentages. 
+Differences in variables were compared using the χ2 test for categorical 
+data, and the Student t-test or Mann–Whitney U test for normally dis­
+tributed and skewed continuous data respectively. Cox proportional ha­
+zards regression models were used to assess coffee effects on endpoint 
+events, adjusting for potential confounding covariates. Coffee consump­
+tion of 0 cup/day was used as reference for comparisons with other le­
+vels of intake.
+Covariates adjusted for in regression modelling to account for po­
+tentially confounding effects included: age, gender (male, females), eth­
+nicity (White or other ethnicity), BMI, comorbidities [hypertension, 
+diabetes mellitus (DM), and obstructive sleep apnoea (OSA)], and life­
+style risk factors (smoking status, tea, and alcohol consumption). 
+Alcohol intake was subcategorized as none, daily, weekly, and monthly. 
+BMI was subdivided into ≤30 or >30 kg/m2. Hypertension, diabetes, 
+and OSA diagnoses were determined by ICD-10 codes (see 
+Supplementary material online, Table S1). In adjusted models, age 
+was inputted as a continuous variable, whereas other covariates 
+were inputted as categorical variables. Participants’ level of physical ac­
+tivity was not considered due to missing data in 17.4% of the cohort. 
+We also did not include analysis of genetic variants/polygenic risk 
+scores associated with caffeine metabolism as recent studies have 
+not identified a significant effect modification on associations between 
+coffee consumption and CV outcomes.7,9
+Statistical significance was computed using Wald’s statistic (corre­
+sponding to the ratio of each regression coefficient to its standard error). 
+Proportional hazards assumptions were assessed using log–log survival 
+plots.7 Statistical significance was defined as a two-tailed P-value of 
+<0.05. All analyses were performed using R (4.1.0) program’s survival 
+package.
+The Strengthening the Reporting of Observational Studies in 
+Epidemiology guidelines were followed in reporting this study.
+Results
+Overall coffee intake and incident cardiac 
+arrhythmias
+There were 449 563 participants in the final study cohort. The par­
+ticipants had a median age of 58 years (IQR 50–63), with 55.3% fe­
+males. The median follow-up was 12.5 years (IQR 11.7–13.2). 
+There were 100 510 (22.4%) non-coffee drinkers who served as con­
+trols. An arrhythmia was diagnosed in 30 100 (6.7%) participants dur­
+ing long-term follow-up which included AF/flutter in 15 302 (3.4%), 
+SVT in 3023 (0.7%), and VT/VF in 2008 (0.4%). Compared with non- 
+drinkers, a U-shaped relationship was seen between increasing levels 
+of coffee consumption and incidence of any arrhythmia (Figure 1). 
+After adjustment for covariables age, gender, alcohol intake, tea in­
+take, obesity, DM, hypertension, OSA, and smoking status, the low­
+est risk for arrhythmias was seen in those who consumed 2–3 coffee 
+cups/day, with a hazard ratio (HR) of 0.91 [confidence interval (CI) 
+0.88–0.94, P < 0.0001; see Supplementary material online, 
+Table S2]. A similar relationship was observed for AF/flutter and 
+SVT. For AF/flutter, significant risk reductions were seen in those 
+who consumed between 1 and 5 cups/day, with the peak risk reduc­
+tion seen in 4–5 cups/day (HR 0.88, CI 0.83–0.94, P < 0.0001). 
+Downloaded from https://academic.oup.com/eurjpc/article/29/17/2240/6704995 by guest on 10 December 2024
+
+D. Chieng et al.                                                                                                                                                                                     2243
+For VT/VF, increasing coffee intake was associated with lower risk of 
+incident arrhythmia, with the lowest risk seen in 4–5 cups/day (HR 
+0.83, CI 0.70–0.97, P = 0.0201; see Supplementary material online, 
+Table S3).
+Overall coffee intake and incident 
+cardiovascular disease
+Cardiovascular disease was diagnosed in 43 173 (9.6%) partici­
+pants during follow-up. A total of 34 677 (7.7%) participants 
+were diagnosed with incident CHD, 12 966 (2.8%) with incident 
+CCF, and 6767 (1.5%) with incident stroke. Habitual coffee intake 
+of up to 5 cups/day was associated with significant reductions in 
+the risk of incident CVD, when compared with non-drinkers. 
+Significant reductions in the risk of incident CHD were associated 
+with habitual coffee intake of up to 5 cups/day, with the lowest 
+risk for CHD observed in those who consumed 2–3 cups/day 
+(HR 0.89, CI 0.86–0.91, P < 0.0001). Coffee consumption at all le­
+vels was associated with significant reduction in the risk of CCF 
+and ischaemic stroke (Figure 2). The lowest risks were observed 
+in those who consumed 2–3 cups/day, with HR 0.83 for CCF 
+(CI 0.79–0.87, P < 0.0001), and HR 0.84 for ischaemic stroke 
+(CI 0.78–0.90, P < 0.0001; see Supplementary material online, 
+Table S2).
+Overall coffee intake and all-cause/ 
+cardiovascular mortality
+A total of 27 809 (6.2%) participants died during long-term follow- 
+up, including 4402 (1.0%) from CV causes. A significant reduction 
+in all-cause mortality was associated with coffee consumption up 
+to 5 cups/day, with the greatest effect seen with 2–3 cups/day (HR 
+0.86, CI 0.83–0.89, P < 0.0001). A significant reduction in CV mortal­
+ity was observed in coffee drinkers of 1–5 cups/day (lowest risk 1 
+cup/day; HR 0.82, CI 0.74–0.90, P < 0.0001; see Supplementary 
+material online, Figure S1). Coffee intake was not associated with a 
+risk of sudden cardiac death (see Supplementary material online, 
+Figure S2).
+Coffee subtype analysis
+Coffee subtype analyses were undertaken in the same 449 536 par­
+ticipant cohort who did not have a prevalent diagnosis of CVD at 
+baseline. The coffee type was instant in 198 062 (44.1%), ground in 
+82 575 (18.4%), and decaffeinated in 68 416 (15.2%). The overall 
+characteristics of the cohort are summarized in Table 1.
+Ground coffee
+Of the 82 575 ground coffee drinkers, an arrhythmia was diagnosed 
+in 5872 (7.0%) which was predominantly AF/flutter (3269, 3.9%); 
+Figure 1 Coffee intake and incident cardiac arrhythmias. ‘U-shaped’ relationship between coffee cups/day and incident arrhythmias, atrial fibrillation/ 
+flutter, supraventricular tachycardia, and ventricular tachycardia/ventricular fibrillation. Model adjusted for the covariables of age, gender, alcohol intake, 
+tea intake, obesity, diabetes mellitus, hypertension, obstructive sleep apnoea, and smoking status. *P < 0.05; †P < 0.01; ‡P < 0.0001.
+Downloaded from https://academic.oup.com/eurjpc/article/29/17/2240/6704995 by guest on 10 December 2024
+
+2244                                                                                                                                         
+Coffee subtypes and cardiovascular outcomes
+CVD in 8670 (10.5%), CHD in 7154 (8.6%), CCF in 1976 (2.3%), and 
+stroke in 1114 (1.3%). Total mortality was 5.5% (4511) at a median 
+follow-up of 12.5 years (IQR 11.7–13.2). Ground coffee intake be­
+tween 1 and 5 cups/day was associated with a significant reduction 
+in the incidence of any arrhythmia, and specifically AF/flutter 
+(Figure 3A, Supplementary material online, Table S4). A reduction in 
+SVT and VT/VF risk was seen with 2–5 cups/day (Figure 3B). 
+Ground coffee consumption at up to 5 cups/day was associated 
+with a significant reduction in the risk of CVD, CHD, and CCF 
+(Figure 4). Ground coffee consumption at all levels significantly re­
+duced the risk of all-cause and CV mortality (Figure 5). All-cause mor­
+tality was lowest at 2–3 cups/day (HR 0.73, CI 0.69–0.78, P < 
+0.0001), whereas CV mortality was lowest at 4–5 cups/day (HR 
+0.65, CI 0.51–0.83, P < 0.0001; see Supplementary material online, 
+Table S5).
+Instant coffee
+Of the 198 062 instant coffee drinkers, an arrhythmia was diagnosed 
+in 16 696 (8.4%) which was predominantly AF/flutter (9273, 4.7%), 
+CVD in 29 751 (15.0%), CHD in 25 051 (12.6%), CCF in 7029 
+(3.5%), and stroke in 3707 (1.8%). Total mortality was 7.7% (15 
+365) at a median follow-up of 12.5 years (IQR 11.7–13.2). In general, 
+a U-shaped relationship was observed between instant coffee intake 
+and the various CVD endpoints. In particular, 2–3 cups of instant 
+coffee/day was associated with the lowest risk for any arrhythmia 
+(HR 0.88, CI 0.85–0.92, P < 0.001), CVD (HR 0.91, CI 0.88–0.94, 
+P < 0.0001), CHD (HR 0.91, CI 0.88–0.94, P < 0.0001), stroke (HR 
+0.83, CI 0.76–0.90, P < 0.0001), and all-cause mortality (HR 0.89, 
+CI 0.86–0.93, P < 0.0001; Figures 4 and 5). Amongst the arrhythmia 
+subtypes incident risks were lowest at 4–5 cups/day for AF/flutter 
+(HR 0.85, CI 0.79–0.91, P < 0.0001; Figure 3A), and SVT (HR 0.75, 
+CI 0.63–0.88, P = 0.0005; Figure 3B, Supplementary material online, 
+Table S4).
+Decaffeinated coffee
+Of the 68 416 decaffeinated coffee drinkers, an arrhythmia was diag­
+nosed in 6737 (9.8%) with (AF/flutter in 3889), CVD in 9904 (14.5%), 
+CCF in 2263 (3.3%), and ischaemic stroke in 1224 (1.7%). Total mor­
+tality was 10.9% (7434) at a median follow-up of 12.5 years (IQR 
+11.7–13.2). The risk of CVD, CHD, and CCF were reduced particu­
+larly with an intake of 2–3 cups/day, with hazard ratios of 0.94 (CI 
+0.90–0.99, P = 0.0093), 0.94 (CI 0.89–0.99, P = 0.0127), and 0.86 
+(CI 0.79–0.94, P = 0.0004), respectively (Graphical Abstract). A 
+U-shaped relationship was demonstrated between decaffeinated 
+coffee intake and all-cause mortality, with the lowest risk seen 
+with 2–3 cups/day (HR 0.86, CI 0.80–0.91, P < 0.0001). 
+Cardiovascular mortality was also reduced at a coffee intake be­
+tween 1 and 3 cups/day (lowest risk 1 cup/day: HR 0.74, CI 0.61– 
+0.89, P = 0.0012; Graphical Abstract). Decaffeinated coffee intake 
+was generally associated with a neutral effect against any arrhythmias 
+(Figure 3A, Supplementary material online, Table S4).
+Figure 2 Coffee intake and incident cardiovascular disease. Coffee consumption up to 5 cups/day was associated with reduced risk of cardio­
+vascular disease and coronary heart disease. All levels of coffee consumption reduced risk of congestive cardiac failure and stroke. Model adjusted 
+for covariables age, gender, alcohol intake, tea intake, obesity, diabetes mellitus, hypertension, obstructive sleep apnoea, smoking status. *P < 0.05; 
+†P < 0.01; ‡P < 0.0001.
+Downloaded from https://academic.oup.com/eurjpc/article/29/17/2240/6704995 by guest on 10 December 2024
+
+D. Chieng et al.                                                                                                                                                                                     2245
+Sensitivity analyses
+A sensitivity analysis was conducted among coffee drinkers only. Using 1 
+cup/day as the reference category, we found no significant difference in 
+the incidence of CVD at all intake categories and across all coffee sub­
+types (see Supplementary material online, Figure S3). We also consid­
+ered subgroups with/without the following comorbidities: in those 
+with prevalent hypertension, coffee drinking was associated with a re­
+duction in incident CVD when compared with non-drinkers (HR 0.91, 
+CI 0.89–0.94, P<0.0001). In those without prevalent hypertension, cof­
+fee drinking was associated with a reduction in incident CVD (HR 0.90, 
+CI 0.86–0.94, P<0.0001). Similarly, coffee drinking, when compared 
+with non-drinkers, was also associated with reduced incidence of 
+CVD in those with prevalent DM (HR 0.92, CI 0.88–0.97, P=0.001), 
+those without prevalent DM (HR 0.91, CI 0.88–0.93, P<0.0001), those 
+with prevalent OSA (HR 0.87, CI 0.78–0.96, P=0.008), and those with­
+out prevalent OSA (HR 0.91, CI 0.89–0.94, P<0.0001).
+Discussion
+In this large prospective cohort study, we investigated the associa­
+tions between habitual coffee intake, more specifically the impact 
+of coffee subtype including decaffeinated coffee, and major CV end­
+points. The main findings from the study are: 
+(1)
+Ground, instant, and decaffeinated coffee were associated with 
+equivalent reductions in the incidence of CVD and CV/all-cause 
+mortality.
+(2)
+Two to three cups/day of all coffee subtypes was consistently 
+associated with the largest risk reduction in CVD, CHD, 
+CCF, and all-cause mortality.
+(3)
+Ground and instant coffee but not decaffeinated were asso­
+ciated with a reduction in arrhythmias including AF.
+(4)
+A ‘U-shaped’ relationship exists between caffeinated coffee in­
+take and incidence of any arrhythmia, including AF. The largest 
+risk reduction was present at 4–5 cups/day.
+Coffee subtypes and cardiovascular 
+outcomes
+Coffee is a complex compound composed of >100 biologically active 
+components, with caffeine the most well recognized.10 Acute caf­
+feine intake results in sympathetic activation, mediated by phospho­
+diesterase inhibition, cytosolic calcium increase, and stimulation of 
+noradrenaline/adrenaline release.4 Coffee is the most common cog­
+nitive enhancer increasing mental alertness and concentration. 
+.....................................................................................................................................................
+Table 1
+Cohort characteristics for coffee subtype analysis
+None (n = 100 510)
+Decaffeinated (n = 68 416)
+Ground (n = 82 575)
+Instant (n = 198 062)
+Demographic
+Age (years), median (IQR)
+56 (49–62)
+59 (52–64)
+57 (50–63)
+58 (51–64)
+White ethnicity
+90 973 (90.5%)
+65 954 (96.4%)
+79 828 (96.7%)
+190 317 (96.1%)
+Female, n (%)
+59 803 (59.5%)
+43 996 (64.3%)
+43 213 (52.3%)
+101 958 (51.5%)
+BMI >30 kg/m2, n (%)
+24 926 (24.8%)
+16 178 (23.6%)
+15 269 (18.5%)
+49 382 (24.9%)
+Cardiovascular risk factors, n (%)
+Hypertension
+28 041 (27.9%)
+19 327 (28.2%)
+18 104 (21.9%)
+55 152 (27.8%)
+Diabetes mellitus
+7960 (7.9%)
+5548 (8.1%)
+4585 (5.6%)
+17 363 (8.8%)
+Obstructive sleep apnoea
+1804 (1.7%)
+482 (0.7%)
+1271 (1.5%)
+3525 (1.8%)
+Smoking
+Previous
+30 910 (30.7%)
+22 442 (32.8%)
+30 484 (36.9%)
+69 742 (35.2%)
+Current
+9619 (9.5%)
+4570 (6.7%)
+7656 (9.3%)
+24 831 (12.5%)
+Never
+59 981 (59.7%)
+41 404 (60.5%)
+44 435 (53.8%)
+103 489 (52.3%)
+Alcohol
+Monthly
+28 596 (28.5%)
+17 983 (26.3%)
+11 542 (13.9%)
+42 517 (21.5%)
+Weekly
+14 112 (14.0%)
+5397 (7.9%)
+3208 (3.9%)
+11 270 (5.7%)
+Daily
+43 100 (42.8%)
+34 534 (50.5%)
+42 234 (51.1%)
+102 212 (51.6%)
+Never
+33 273 (33.1%)
+10 502 (15.4%)
+25 591 (30.9%)
+42 063 (21.2%)
+Deaths
+Total
+6309 (6.2%)
+4076 (5.9%)
+4084 (4.9%)
+13 340 (6.7%)
+Cardiovascular death
+1035 (1.0%)
+600 (0.9%)
+581 (0.7%)
+2186 (1.1%)
+Sudden cardiac death
+57 (0.06%)
+25 (0.03%)
+41 (0.04%)
+135 (0.06%)
+Coffee cups/day n (%)
+<1
+0 (0%)
+1949 (2.9%)
+3567 (4.3%)
+6694 (3.4%)
+1
+0 (0%)
+5156 (7.5%)
+8838 (10.7%)
+17 124 (8.6%)
+2–3
+0 (0%)
+20 624 (30.1%)
+28 054 (33.9%)
+60 131 (30.4%)
+4–5
+0 (0%)
+17 700 (25.9%)
+19 972 (24.2%)
+47 642 (24.1%)
+>5
+0 (0%)
+11 172 (16.3%)
+11 546 (13.9%)
+30 636 (15.5%)
+Downloaded from https://academic.oup.com/eurjpc/article/29/17/2240/6704995 by guest on 10 December 2024
+
+2246                                                                                                                                         
+Coffee subtypes and cardiovascular outcomes
+However, higher intake levels can result in feelings of anxiety, rest­
+lessness, insomnia, and psychomotor agitation, with toxic effects es­
+timated to occur with intakes of ≥1.2 g.11 Intracellular calcium 
+elevation may increase atrial pacemaker cell automaticity and after 
+depolarization-induced triggered activity, which may increase ar­
+rhythmia risk particularly in high doses.12 Coffee may acutely elevate 
+blood pressure through sympathetic activation,13 although tolerance 
+develops quickly and there is minimal effect on long-term blood pres­
+sure control. Caffeine can adversely impact the effects of antihyper­
+tensive medications including beta-blockers and calcium-channel 
+blockers like felodipine.14 Caffeine has near 100% bioavailability 
+with metabolism determined by cytochrome CYP1A2 enzyme 
+Figure 3 (A) Coffee subtype intake and incident any arrhythmia and atrial fibrillation. Ground and instant coffee intake at 1–5 cups/day were 
+consistently associated with reduced risk of any arrhythmia, and atrial fibrillation/flutter. Model adjusted for covariables age, gender, alcohol intake, 
+tea intake, obesity, diabetes mellitus, hypertension, obstructive sleep apnoea, smoking status. (B) Coffee subtype intake and incident supraventricular 
+tachycardia and ventricular tachycardia/ventricular fibrillation. Ground and instant coffee intake at 2–5 cups/day were consistently associated with 
+reduced risk of supraventricular tachycardia. Ventricular tachycardia/ventricular fibrillation risk was reduced with 2–5 cups/day or ground coffee. 
+Model adjusted for covariables age, gender, alcohol intake, tea intake, obesity, diabetes mellitus, hypertension, obstructive sleep apnoea, smoking 
+status. *P < 0.05; †P < 0.01; ‡P < 0.0001.
+Downloaded from https://academic.oup.com/eurjpc/article/29/17/2240/6704995 by guest on 10 December 2024
+
+D. Chieng et al.                                                                                                                                                                                     2247
+activity, which vary by as much as 24%. Furthermore, CYP1A2 activ­
+ity can be affected by medications and dietary factors.15 This may ex­
+plain the considerable variation in the effects and tolerability of coffee 
+between individuals. Few studies have explored the relationship be­
+tween the habitual intake of different coffee subtypes, and more spe­
+cifically the impact of caffeinated vs. decaffeinated coffee, on CV 
+Figure 4 Coffee subtype intake and incident cardiovascular disease. Decaffeinated coffee intake was associated with reduced incidence of car­
+diovascular disease/congestive cardiac failure at an intake of 1–3 cups/day. Ground and instant coffee intake up to 5 cups/day were consistently 
+associated with reduced risk of cardiovascular disease, coronary heart disease, congestive cardiac failure, and stroke. Model adjusted for covariables 
+age, gender, alcohol intake, tea intake, obesity, diabetes mellitus, hypertension, obstructive sleep apnoea, and smoking status. *P < 0.05; 
+†P < 0.01; ‡P < 0.0001.
+Figure 5 Coffee subtype intake and mortality outcomes. U-shaped relationships were seen between decaffeinated, ground, and instant coffee 
+intake and all-cause mortality, with the lowest risk seen in 2–3 cups/day across all three coffee subtypes. Cardiovascular mortality reduction was 
+seen 1–3 cups/day for decaffeinated coffee, 1–3 cups/day for instant coffee, and all levels of consumption for ground coffee. Model adjusted 
+for covariables age, gender, alcohol intake, tea intake, obesity, diabetes mellitus, hypertension, obstructive sleep apnoea, and smoking status. 
+*P < 0.05; †P < 0.01; ‡P < 0.0001.
+Downloaded from https://academic.oup.com/eurjpc/article/29/17/2240/6704995 by guest on 10 December 2024
+
+2248                                                                                                                                         
+Coffee subtypes and cardiovascular outcomes
+endpoints and mortality. In the present study, ground and instant but 
+not decaffeinated coffee consumption were associated with a signifi­
+cantly lower risk of incident arrhythmias. Habitual coffee consump­
+tion has not been shown to result in changes in heart rate, 
+electrocardiogram parameters, or heart rate variability.1 Caffeine 
+also has antiarrhythmic properties particularly through the inhibition 
+of adenosine A1 and A2A receptors. Endogenous adenosine short­
+ens refractory periods in both the atrium and ventricle and conse­
+quently increases the risk of arrhythmias.16,17
+By blocking 
+adenosine receptors, caffeinated coffee may mitigate the effects of 
+endogenous adenosine and protect against arrhythmias. This may ex­
+plain the differing effects of caffeinated vs. decaffeinated coffee on the 
+incidence of arrhythmias reported in the present study.
+In the UK Biobank cohort, all three coffee subtypes were asso­
+ciated with a significant reduction in CVD, CCF, CHD, stroke, and 
+CV/all-cause mortality. Caffeine increases endothelial nitric oxide re­
+lease, down-regulates lipogenesis, reduces insulin sensitivity, and has 
+antioxidant properties which may all in part reduce CVD.4,18,19
+However, coffee also contains polyphenols such as chlorogenic 
+acid, antioxidant ferulic acid, and microelements such as magnesium. 
+These constituents have been shown to reduce oxidative stress, 
+modulate metabolism through stimulation of insulin-mediated cellu­
+lar glucose uptake through GLUT4 and insulin receptor activation, 
+reduce leptin production, and improve the gut microbiome.11,18,20,21
+A meta-analysis of 28 prospective studies also demonstrated that in­
+creasing coffee intake was associated with a progressive reduction in 
+T2DM risk compared with non-drinkers, regardless of whether caf­
+feinated or decaffeinated coffee was consumed.22 Caffeinated and 
+decaffeinated coffee have a neutral effect on the incidence of 
+hypertension.17,23
+In the NIH–AARP Diet and Health Study, 229 119 men and 173 
+141 women were followed from 1995 to 2008.24 The study re­
+ported a significant reduction in total and cause specific mortality 
+in coffee drinkers, with the greatest benefit at 4–5 cups/day among 
+both men (HR 0.88, 95% CI 0.84–0.93) and women (HR 0.84, 95% 
+CI 0.79–0.90). Importantly, the beneficial effects on mortality reduc­
+tion was observed in both caffeinated and decaffeinated coffee drin­
+kers.24 Lopez-Garcia et al.25 reported an inverse relationship 
+between consumption of both caffeinated and decaffeinated coffee 
+and all-cause and CV mortality. The relative importance of the non- 
+caffeinated constituents of coffee in reducing mortality is supported 
+by genomics. Genetic variants which determine the rate of caffeine 
+metabolism did not affect the relationship between coffee consump­
+tion and all-cause mortality.9,24 In concert with the findings from the 
+present study, non-caffeinated compounds are likely responsible for 
+the beneficial effects of coffee consumption on CVD and survival.
+Overall coffee intake and incident 
+arrhythmia and cardiovascular disease 
+outcomes
+Our findings from the UK Biobank further corroborate the beneficial 
+associations of habitual coffee intake as reported in recent 
+population studies.22,26–32 Coffee intake at mild–moderate levels 
+(1–7 cups/week) was shown to significantly reduce the incidence 
+of AF.28 Kim et al.7 reported an incremental 3% risk reduction in in­
+cident arrhythmia with each additional cup of coffee/day in the UK 
+Biobank cohort but did not report on coffee subtypes. In keeping 
+with the findings of the present study, a meta-analysis showed an in­
+verse association between coffee intake and CVD/CHD risk, with 
+the lowest risk seen at 3–5 cups/day.26Another meta-analysis re­
+ported a U-shaped dose–response relationship between coffee 
+and CCF, with the strongest risk reduction seen in those who con­
+sumed 4 cups/day of coffee.29 Coffee consumption between 3 and 
+6 cups/day was also shown to reduce stroke risk.33 In addition, sev­
+eral smaller studies reported reductions in all-cause and CV mortality 
+in habitual coffee drinkers,9,24,34,35 with the greatest benefit seen at 
+between 3 and 5 cups/day.30,36
+Strengths and limitations
+The study provides insights into the associations between coffee and 
+coffee subtypes and important CV outcomes in a very large pro­
+spective cohort followed for more than 10 years. This may provide 
+some mechanistic insights particularly into the putative role of caf­
+feine as the predominant component of coffee. Sensitivity analyses 
+were performed to adjust for potential confounders on the associa­
+tions between coffee and outcomes, including demographic, risk fac­
+tors, and comorbid conditions.
+There are several limitations to consider when interpreting the 
+study findings. A number of participants were excluded for missing 
+data. Coffee intake was based on participant self-reporting, with 
+the attendant risk of reporting bias. However, as the data were col­
+lected before incident conditions had developed, the occurrence of 
+recall bias was extremely unlikely. Coffee consumption at baseline 
+was assumed to remain unchanged throughout the participants’ 
+follow-up. This is supported by previous studies, which have shown 
+that the assessment of nutrient intake has a high degree of reproduci­
+bility over time.37 It is possible that some participants consumed more 
+than one subtype of coffee over time. Outcome assessment relied on 
+ICD-10 codes, which may be subject to measurement/reporting er­
+rors. The detection of certain arrhythmias may be missed, in particular 
+atrial/ventricular ectopy, in the absence of routine monitoring. 
+However, false negatives would be expected to reduce the power 
+to detect an association. The UK Biobank is a predominantly 
+Caucasian population and the findings may not be entirely applicable 
+to the populations of other ethnicities. Lastly, residual/unaccounted 
+confounding including dietary factors may have occurred despite the 
+multivariate adjustment.
+Conclusions
+In this large prospective cohort study, consumption of instant, 
+ground, and decaffeinated coffee subtypes, particularly at 2–3 cups/ 
+day, was associated with significant reductions in incident CVD and 
+mortality. Arrhythmia reduction was seen with caffeinated but not 
+decaffeinated coffee. Mild–moderate coffee intake of all types should 
+not be discouraged but rather considered part of a healthy lifestyle.
+Author contributions
+D.C. wrote the first draft with inputs from P.M.K. and R.C. R.C. con­
+ducted all statistical analyses. D.C., P.M.K., and R.C. had full access to 
+Downloaded from https://academic.oup.com/eurjpc/article/29/17/2240/6704995 by guest on 10 December 2024
+
+D. Chieng et al.                                                                                                                                                                                     2249
+the data. All authors commented on multiple drafts and supported the 
+decision of D.C. and P.M.K to submit the final draft.
+Supplementary material
+Supplementary material is available at European Journal of Preventive 
+Cardiology.
+Funding
+None.
+Conflict of interest: D.C. is supported by cofunded NHMRC/NHF 
+post-graduate scholarship. The following industry funding sources re­
+garding activities outside the submitted work have been declared in ac­
+cordance with ICMJE guidelines. P.M.K. has received funding from 
+Abbott Medical for consultancy and speaking engagements and fellow­
+ship support from Biosense Webster. J.M.K. holds a Practitioner 
+Fellowship of the NHMRC and has research and fellowship support 
+from Medtronic, Abbott, and Biosense Webster. D.M.K. is the recipient 
+of an NHMRC Research Fellowship. S.P. has an NHMRC Post-Doctoral 
+Research Fellowship. A.V. has a National Heart Foundation Early Career 
+Fellowship. The remaining authors have nothing to disclose.
+Data availability
+The data underlying this article will be shared upon reasonable request to 
+the corresponding author.
+References
+1. Voskoboinik A, Koh Y, Kistler PM. Cardiovascular effects of caffeinated beverages. 
+Trends Cardiovasc Med 2019;29:345–350.
+2. Hughes JR, Amori G, Hatsukami DK. A survey of physician advice about caffeine. J 
+Subst Abuse 1988;1:67–70.
+3. Voskoboinik A, Kalman JM, Kistler PM. Caffeine and arrhythmias: time to grind the 
+data. JACC Clin Electrophysiol 2018;4:425–432.
+4. Chieng D, Kistler PM. Coffee and tea on cardiovascular disease (CVD) prevention. 
+Trends Cardiovasc Med 2021. doi:10.1016/j.tcm.2021.08.004.
+5. Visseren FLJ, Mach F, Smulders YM, Carballo D, Koskinas KC, Bäck M, Benetos A, 
+Biffi A, Boavida JM, Capodanno D, Cosyns B, Crawford C, Davos CH, Desormais 
+I, Di Angelantonio E, Franco OH, Halvorsen S, Hobbs FDR, Hollander M, 
+Jankowska EA, Michal M, Sacco S, Sattar N, Tokgozoglu L, Tonstad S, Tsioufis KP, 
+van Dis I, van Gelder IC, Wanner C, Williams B. 2021 ESC guidelines on cardiovas­
+cular disease prevention in clinical practice. Eur Heart J 2021;42:3227–3337.
+6. Arnett DK, Blumenthal RS, Albert MA, Buroker AB, Goldberger ZD, Hahn EJ, 
+Himmelfarb CD, Khera A, Lloyd-Jones D, McEvoy JW, Michos ED, Miedema MD, 
+Muñoz D, Smith SC Jr, Virani SS, Williams KA Sr, Yeboah J, Ziaeian B. 2019 ACC/ 
+AHA guideline on the primary prevention of cardiovascular disease. J Am Coll 
+Cardiol 2019;74:e177–e232.
+7. Kim EJ, Hoffman TJ, Nah G, Vittinghoff E, Delling F, Marcus GM. Coffee consumption 
+and incident tachyarrhythmias. Reported behavior, Mendelian randomization, and 
+their interactions. JAMA Intern Med 2021.
+8. UK Biobank. About UK Biobank. 2022. http://www.ukbiobank.ac.uk/aboutbiobank- 
+uk/. (1 February 2022).
+9. Loftfield E, Cornelis MC, Caporaso N, Yu K, Sinha R, Freedman N. Association of 
+coffee drinking with mortality by genetic variation in caffeine metabolism: findings 
+from the UK Biobank. JAMA Intern Med 2018;178:1086–1097.
+10. Steffen M, Kuhle C, Hensrud D, Erwin PJ, Murad MH. The effect of coffee consump­
+tion on blood pressure and the development of hypertension: a systematic review 
+and meta-analysis. J Hypertens 2012;30:2245–2254.
+11. van Dam RM, Hu FB, Willett WC. Coffee, caffeine, and health. N Engl J Med 2020; 
+383:369–378.
+12. Artin B, Singh M, Richeh C, Jawad E, Arora R, Khosla S. Caffeine-related atrial fibril­
+lation. Am J Ther 2010;17:169–171.
+13. Mesas AE, Leon-Munoz LM, Rodriguez-Artalejo F, Lopez-Garcia E. The effect of cof­
+fee on blood pressure and cardiovascular disease in hypertensive individuals: a sys­
+tematic review and meta-analysis. Am J Clin Nutr 2011;94:1113–1126.
+14. Bailey DG, Dresser GK, Urquhart BL, Freedman DJ, Arnold JM. Coffee—antihyper­
+tensive drug interaction: a hemodynamic and pharmacokinetic study with felodipine. 
+Am J Hypertens 2016;29:1386–1393.
+15. Willson C. The clinical toxicology of caffeine: a review and case study. Toxicol Rep 
+2018;5:1140–1153.
+16. Klatsky AL, Hasan AS, Armstrong MA, Udaltsova N, Morton C. Coffee, caffeine, and 
+risk of hospitalization for arrhythmias. Perm J 2011;15:19–25.
+17. O’Keefe JH, Bhatti SK, Patil HR, DiNicolantonio JJ, Lucan SC, Lavie CJ. Effects of ha­
+bitual coffee consumption on cardiometabolic disease, cardiovascular health, and all- 
+cause mortality. J Am Coll Cardiol 2013;62:1043–1051.
+18. Konstantinidi M, Koutelidakis AE. Functional foods and bioactive compounds: a re­
+view of its possible role on weight management and obesity’s metabolic conse­
+quences. Medicines 2019;6:1–24.
+19. Keijzers GB, DeGalan BE, Tack CJ, Smits P. Caffeine can decrease insulin sensitivity in 
+humans. Diabetes Care 2002;25:364–369.
+20. Xu Y, Zhang M, Wu T, Dai S, Xu J, Zhou Z. The anti-obesity effect of green tea poly­
+saccharides, polyphenols and caffeine in rats fed with a high-fat diet. Molecules 2018; 
+23:1176.
+21. Akash MS, Rehman K, Chen S. Effects of coffee on type 2 diabetes mellitus. Nutrition 
+2014;30:755–763.
+22. Ding M, Bhupathiraju SN, Chen M, van Dam RM, Hu FB. Caffeinated and decaffei­
+nated coffee consumption and risk of type 2 diabetes: a systematic review and a 
+dose-response meta-analysis. Diabetes Care 2014;37:569–586.
+23. Rhee JJ, Qin F, Hedlin HK, Chang TI, Bird CE, Zaslavsky O, Manson JE, Stefanick ML, 
+Winkelmayer WC. Coffee and caffeine consumption and the risk of hypertension in 
+postmenopausal women. Am J Clin Nutr 2016;103:210–217.
+24. Freedman ND, Park Y, Abnet CC, Hollenbeck AR, Sinha R. Association of coffee 
+drinking with total and cause-specific mortality. N Engl J Med 2012;366:1891–1904.
+25. Lopez-Garcia E, van Dam RM, Li TY, Rodriguez-Artalejo F, Hu FB. The relationship 
+of coffee consumption with mortality. Ann Intern Med 2008;148:904–914.
+26. Ding M, Bhupathiraju SN, Satija A, van Dam RM, Hu FB. Long-term coffee consump­
+tion and risk of cardiovascular disease: a systematic review and a dose-response 
+meta-analysis of prospective cohort studies. Circulation 2014;129:643–659.
+27. Wu JN, Ho SC, Zhou C, Ling WH, Chen WQ, Wang CL, Chen YM. Coffee con­
+sumption and risk of coronary heart diseases: a meta-analysis of 21 prospective co­
+hort studies. Int J Cardiol 2009;137:216–225.
+28. Cheng M, Hu Z, Lu X, Huang J, Gu D. Caffeine intake and atrial fibrillation incidence: 
+dose response meta-analysis of prospective cohort studies. Can J Cardiol 2014;30: 
+448–454.
+29. Mostofsky E, Rice MS, Levitan EB, Mittleman MA. Habitual coffee consumption and 
+risk of heart failure: a dose-response meta-analysis. Circ Heart Fail 2012;5:401–405.
+30. Kim Y, Je Y, Giovannucci E. Coffee consumption and all-cause and cause-specific 
+mortality: a meta-analysis by potential modifiers. Eur J Epidemiol 2019;34:731–752.
+31. Larsson SC, Orsini N. Coffee consumption and risk of stroke: a dose-response 
+meta-analysis of prospective studies. Am J Epidemiol 2011;174:993–1001.
+32. Cicco S. Diet as a cornerstone of cardiovascular prevention: the key role of coffee 
+consumption. Eur J Prev Cardiol 2022;29:979–981.
+33. D’Elia L, Cairella G, Garbagnati F, Scalfi L, Strazzullo P. Moderate coffee consumption 
+is associated with lower risk of stroke: metaanalysis of prospective studies. J 
+Hypertens 2012:e107.
+34. Crippa A, Discacciati A, Larsson SC, Wolk A, Orsini N. Coffee consumption and 
+mortality from all causes, cardiovascular disease, and cancer: a dose-response 
+meta-analysis. Am J Epidemiol 2014;180:763–775.
+35. Simon J, Fung K, Raisi-Estabragh Z, Aung N, Khanji MY, Kolossváry M, Merkely B, 
+Munroe PB, Harvey NC, Piechnik SK, Neubauer S, Petersen SE, Maurovich- 
+Horvat P. Light to moderate coffee consumption is associated with lower risk of 
+death: a UK Biobank study. Eur J Prev Cardiol 2022;29:982–991.
+36. Malerba S, Turati F, Galeone C, Pelucchi C, Verga F, La Vecchia C, Tavani A. A 
+meta-analysis of prospective studies of coffee consumption and mortality for all 
+causes, cancers and cardiovascular diseases. Eur J Epidemiol 2013;28:527–539.
+37. Yuan C, Spiegelman D, Rimm EB, Rosner BA, Stampfer MJ, Barnett JB, Chavarro JE, 
+Subar AF, Sampson LK, Willett WC. Validity of a dietary questionnaire assessed by 
+comparison with multiple weighed dietary records or 24-hour recalls. Am J Epidemiol 
+2017;185:570–584.
+Downloaded from https://academic.oup.com/eurjpc/article/29/17/2240/6704995 by guest on 10 December 2024

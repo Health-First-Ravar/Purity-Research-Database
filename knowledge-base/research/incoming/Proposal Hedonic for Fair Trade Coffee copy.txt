@@ -1,0 +1,964 @@
+ 
+1
+ 
+Is Fair Trade Fair for Consumers? A Hedonic Analysis of U.S. Retail Fair Trade Coffee 
+Prices 
+ 
+ 
+ 
+Xiaojin Wang, PhD Student 
+Department of Agricultural Economics, University of Kentucky 
+312 Charles E. Barnhart Bldg. Lexington, KY 40546-0276 
+E-mail: xiaojin.wang2010@uky.edu 
+Phone: (859)-494-4750 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Selected Paper prepared for presentation for the 2016 Agricultural & Applied 
+Economics Association, Boston, MA, July 31-August 2 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Copyright 2016 by Wang. All rights reserved. Readers may make verbatim copies of this document for 
+non-commercial purposes by any means, provided that this copyright notice appears on all such copies. 
+ 
+ 
+ 
+ 
+ 
+
+ 
+2
+Is Fair Trade Fair for Consumers? A Hedonic Analysis of U.S. Retail Fair Trade Coffee 
+Prices 
+ 
+Abstract  
+This study aims to investigate the impact of the fair trade label on the market for coffee in the 
+United States, a country with high public awareness regarding environmental and social matters. 
+A revealed preference approach is adopted, using monthly Nielsen scanner sales panel data. The 
+pricing of labeled ground and whole bean coffee is studied over the 2011-2013 period. Hedonic 
+estimates are obtained for what consumers pay for different product characteristics. Results 
+would provide information on the existing price differences between labeled and conventional 
+coffee, and add to the ongoing analysis and debate over fair trade coffee. 
+ 
+JEL classification: C13, D44, O31, Q13 
+Keywords: fair trade; coffee; hedonic price; social premium; Nielsen scanner data 
+ 
+Introduction  
+Coffee is big business and remains the world's second most valuable traded commodity, behind 
+only petroleum. However, many of the world’s 25 million coffee growers (Food and Agriculture 
+Organization, 2013) are small-scale family farmers who live in remote locations and lack access 
+to credit. They are vulnerable to middlemen who offer cash for their coffee at a fraction of its 
+value, and to the volatile international market and its wildly fluctuating prices. Moreover, coffee 
+prices have shown a declining long-term real price trend. Fair Trade has made a breakthrough as 
+a global social movement and a major certification system, with coffee as its primary illustrative 
+
+ 
+3
+case of the model1. product. It guarantees farmers a minimum price, and links farmers directly 
+with importers, creating long-term sustainability. The fair trade minimum price is set at $1.40 per 
+pound for Fair Trade certified (conventional, washed Arabica, price varies by coffee type and 
+origin) coffee, plus a 20 cents Fair Trade Premium (also known as the Community Development 
+Premium) which are paid directly to the farmer groups and a 30 cents differential for organic 
+production2 (Fairtrade International, 2011). The numbers coffee farmers in the Fairtrade system 
+reached to 737,100 in 2013, representing a 12 percentage increase over 2012, producing more 
+than 314 million lbs. of Fairtrade certifiable coffee valued at $651.4 million in 2012-2013. Total 
+coffee premiums of $56 million were received by producers in 2013 (Fairtrade International, 
+2014). Fairtrade certification purports to guarantee not only fair prices, but also the principles of 
+ethical purchasing. These principles include adherence to International Labor Organization 
+standards for their paid employees—such as paying any local minimum wage, banning child and 
+slave labor, and protection and conservation of the environment. 
+There is a growing desire for socially-conscious consumers to align their purchasing 
+habits with their values on sustainable and responsible coffee products. Data from a report by 
+National Coffee Association (NCA, 2014) show the majority of the coffee drinkers believe that 
+Fair Trade Certification means fair prices and better working conditions for farmers compared 
+with other labels. According to data from the Natural Marketing Institute (NMI, 2014), consumer 
+awareness of the Fair Trade label increased to 55% of the U.S. population, 37% of the U.S. adult 
+coffee drinkers state that they are more likely to buy coffee if it has the Fair Trade USA seal, 
+                                                        
+1 Though coffee was the first—and remains the primary—commodity channeled through the Fair Trade 
+network, today the network certifies and distributes a vast array of commodities, including bananas, cocoa, 
+cotton, flowers, sugar, tea, fruit, gold, honey, rice, and even sports balls (Claar and Haight, 2015). 
+2 In 2011 Fairtrade International revised its pricing standards to include a 50 per cent increase in the 
+organic premium (from $0.20 to $0.30 per pound) paid for Fairtrade coffee, aiming to account for the 
+higher costs of organic production and provide an incentive to farmers to convert to or maintain organic 
+production (Fair Trade USA, 2011). 
+
+ 
+4
+same percentage for the USDA Certified Organic seal. Moreover, Fair trade certified is the one 
+ethical attribute that resonates most across all generations (Agriculture and Agri-Food Canada, 
+2013). In 2012, imports of fair trade certified coffee in North America hit a record high at more 
+than 160 million pounds and over $30 million in premium funds were paid to coffee farmers. 
+Fair Trade made up about 5 percent of the U.S. coffee market in 2012, but is growing steadfastly 
+(Fair Trade USA, 2013). 
+Coffee is the largest food import of the United States, which is also the largest coffee 
+importing country. Several studies have been performed on the US demand for fair trade coffee. 
+Most of them rely on the stated preferences approach (conjoint/choice analysis), examining 
+consumers’ willingness to pay for coffee with fair trade labels. The majority of these studies 
+finds that consumers are willing to pay higher premiums for coffee with eco-labels. Loureiro and 
+Lotade (2005) conducted surveys in four grocery stores located in Colorado and Wyoming in 
+2002, asking 276 participants valuation questions regarding the fair trade, shade grown, and 
+organic coffee labels. They found that consumers were willing to pay the highest premium of 
+about 22 cents/lb for fair trade coffee, followed by premiums of 20 and 16 cents/lb, respectively, 
+for the shade grown and organic coffee. Basu and Hicks (2008) investigated label performance 
+and consumer willingness to pay for fair trade coffee in the United States and Germany. They 
+found that US respondents would like to pay 50 cents up to $1.40 for Fair Trade coffee, 
+depending on the level of grower revenue increases. Hertel, Scruggs, and Heidkamp (2009) 
+found that over 75% of the 508 nationally surveyed coffee buyers in the United States in 2006 
+said they would be willing to pay at least 50 cents more per pound for Fair Trade coffee versus 
+noncertified coffee (a premium of roughly 16% over the average price of coffee at the time), and 
+more than half said they would pay a premium of a dollar or more. Different from previous 
+
+ 
+5
+studies, Hainmueller, Hiscox, and Sequeira (2014) conducted field experiments in a U.S. grocery 
+store chain and found that consumers buying the more expensive and more popular French 
+Roasted Regular coffee were willing to pay a sizable premium (8%) for Fair Trade labeled coffee 
+and had less price elastic demand, while consumers buying the lower-priced coffee blend were 
+price sensitive and were not willing to pay a premium for Fair Trade. 
+While consumers have shown a willingness to pay more for fair trade coffee, the 
+premiums are not necessarily reflected in retail prices. Compared with specialty coffees of a 
+higher grade, Fair Trade coffee can come in any quality grade, but the coffee is considered part 
+of the specialty coffee market because of its special production requirements and pricing 
+structure. Some argue that these requirements and pricing structure that create a quality problem 
+for Fair Trade coffee (Elliott, 2012). It is virtually impossible to know whether the higher price 
+for the Fair Trade coffee is due to higher quality, higher costs, or price-gouging. Besides, some 
+believe that retailers/roasters offer Fair Trade coffee as a “loss-leader”. Presumably, the 
+companies are absorbing the additional costs themselves rather than passing it on directly to 
+consumers or relying on cross-subsidization. Given the difficulties in controlling for quality 
+differences, it is simply impossible to know whether consumers are paying more than they 
+should.  
+Reinstein and Song (2012) developed a model to explain that even consumers who are 
+fully informed and rational may prefer to purchase the fair trade product. Their model predicted 
+that the consumer premium for fair trade should not exceed the premium paid to farmers. We try 
+to test their model empirically by comparing the coefficient on a fair trade dummy in a hedonic 
+regression at the consumer level by using recent supermarket scanner data to a similar coefficient 
+in a regression at the farmer level. Hedonic analysis for fair trade coffee has been done for some 
+
+ 
+6
+European countries: such as the UK (Galarraga and Markandya, 2004), Italy (Maietta, 2003), 
+France (Cailleba and Casteran, 2010) and Sweden (Schollenberg, 2012). Hoehn and Session 
+(2015) is the only study to our knowledge, which explicitly analyzed the demand for labeled 
+coffee in the U.S. They used a hedonic pricing approach and estimate the marginal retail value of 
+coffee attributes for the U.S. market from 1997 through 2014. They used nominal retail price and 
+quality data derived from 1,350 cupping evaluations posted online by Coffee Review. They 
+found that Estate and Fair Trade designations detract (-6%), rather than add, value to coffees sold 
+in U.S. retail markets, while organic/nature labels add values by 12%.  
+The rest of this paper is organized as follows: section 2 is concerned with the employed 
+model and methodology. Section 3 discusses the data and variable construction. Empirical results 
+from the estimations are presented in section 4, while section 5 summarizes findings and 
+concludes the paper. 
+ 
+The Hedonic Framework 
+Research on hedonic theory originates from Waugh (1928), but it is Court (1939) who developed 
+the method using multiple regression techniques. Hedonic pricing was revived and further 
+evolved by Grilliches (1961), Lancaster (1966), Rosen (1974) and Ladd and Zober (1977) etc. 
+Hedonic pricing model (HPM) rests on the assumption that goods are valued for their utility-
+bearing attributes or characteristics. Hedonic prices are defined as the implicit prices of attributes 
+and are revealed from observed prices of differentiated products and the specific amounts of 
+characteristics associated with them. One of the most attractive components of HPM is that it is 
+able to monetize those differences between levels of one attribute and across attributes. We are 
+interested in identifying price premia/discounts associated with the characteristics of fair trade 
+
+ 
+7
+coffee. A first-stage hedonic price function is an appropriate approach to our problem. It allows 
+us to estimate the implicit prices of the attributes of a good, including its ethical characteristics. 
+Our model specification follows Rosen (1974) and specifies the price of a product as a 
+function of the product attributes. In its most general form the model can be written as: 
+                                   Pit = f (z1, z2, …, zn)                                                           (1) 
+where Pit is the price of product i at time t, and z1, …, zn is a vector of attributes that determine 
+the price of the product. The partial derivative of this function with respect to any attribute is the 
+implicit marginal attribute price, ceteris paribus, which can be easily acquired from the 
+regression coefficient. 
+Linear and log-linear functional forms are frequently found in the literature for hedonic 
+price models (some studies use Box-Cox functional forms). For our model, we use a simple 
+linear form as it is easier to interpret than a log-linear form. In this analysis, the attributes are all 
+expressed as dummy variables (see table 1).  
+ 
+Data 
+We estimate a hedonic price function and calculate the implicit prices of product attributes for 
+labeled coffee. We extract ground and whole bean coffee product3 data from the 2011-2013 
+Nielsen Homescan panel dataset, which covers nearly 0.7 million monthly transactions made by 
+55,470 households located in 264 counties from the 48 continental states plus the District of 
+Columbia. Compared with Nielsen Retail Scanner data, the Homescan data have more retail 
+channel types. If the purchase is made in Nielsen cooperating retailers, the price prompt is 
+bypassed and filled by Nielsen with the average weighted price for the item that week in that 
+                                                        
+3 Instant coffee, coffee beverage, and coffee substitutes (coffee partners and alternatives) are excluded 
+since ground and whole bean coffee products have the largest degree of product variety, with number of 
+UPCs accounting for almost 80% of the total.  
+
+ 
+8
+particular store. Otherwise, households are instructed to enter the price and quantity for that 
+particular purchase. In our dataset, consumers purchase coffee products via 62 different retail 
+channels, with the majority of purchases made in grocery stores, followed by discount stores4 
+and warehouse clubs. 
+One major advantage of the data is that it is at the UPC level and has detailed product 
+attributes information. Numerous coffee attributes, such as sustainability certification (such as 
+organic, Fairtrade, FLO, Organic, shade grown/bird-friendly), brand, roast type, decaffeinated, 
+and flavor were accessible from the data. Therefore, it is possible to identify several relevant 
+attributes and to elicit that the premium consumers are actually paying for the fair trade label and 
+other coffee attributes. 
+Roast types include light, medium, dark roasted and others.  Container types include bag, 
+can, brick, canister and all others (i.e., plastic canister, packet, plastic jug, filter packs, box, 
+pouch, individual bag, or wrap). Types describe the caffeine content, according which we 
+categorize the product into three types: decaffeinated, low caffeine, and regular coffee. Country 
+of origin information was also extracted, including Hawaii (Kona), Mexico, Guatemala, 
+Colombia, Indonesia (Java and Sumatra), Nicaragua, Brazil, Peru, Ethiopia, Kenya, Costa Rica 
+and products with no origin information specified.  We reclassified the retail channels into six 
+categories: grocery, hypermarket/warehouse club, coffee store/gourmet coffee shop, 
+discount/dollar store, online shopping, and all other stores. 
+Table 1 presents summary statistics of the model’s variables. In our final dataset, there 
+were 540 different brands and 6,714 ground and whole bean coffee products at the UPC level. 
+ 
+                                                        
+4  Nielsen codes all mass merchandisers, including Kmart, Target, and Wal-Mart in the "Discount Store" 
+channel.  
+
+ 
+9
+Empirical Results 
+Table 2 reports the results for the linear hedonic price regression using the Nielsen monthly 
+scanner data over the sample period of January 2011 to December 2013. Each column of the 
+table contains estimates from a separate regression that adds fixed effects sequentially across 
+columns in order to understand how each set of controls impacts our estimates. Column (4) has 
+the largest R2(=0.631) among all the columns, indicating that 63.1% of the variation in coffee 
+prices is explained by the product attributes and control variables. Thus, we focus on interpreting 
+the results from column (4). Channel type variables are dropped once retailer dummies are 
+included, due to the multicollinearity issue.  
+The results indicate that there are statistically significant attributes in all categories, 
+indicating that all the attribute groups influence the price of coffee. As far as our main variable of 
+interest, Fair Trade labeling, is concerned, the estimated coefficient (0.056) is highly statistically 
+significant and of the expected positive sign. The positive price premium was anticipated given 
+the fact that the Fair Trade label guarantees a good minimum price to the producers disregarding 
+world market price developments (Galarraga Gallastegui, 2001). Organic labeling yielded a 
+slightly larger coefficient (0.067), indicating organic coffee receive a relatively higher premium. 
+Country of origin has a strong influence on market price, as also found in earlier studies. 
+Products with the country of origin information have higher prices compared with those without 
+such information. The individual parameters indicate that on average Nicaragua and Kenya 
+coffee obtains the highest price on the US market. Moreover, consumers are willing to pay a 6 
+cents per oz. premium for Hawaii coffee relative to coffee with no origin information. 
+ 
+Conclusions 
+
+ 
+10 
+We used a hedonic pricing model to analyze the sale prices of ground and whole beans coffee 
+products sold during the period of 2011-2013 by using the Nielsen consumer panel datasets. The 
+most notable contributions are the revealed price premiums for credence attributes that have 
+received little or no attention in the hedonic literature, i.e. substantial price premiums for 
+production method (organic VS conventional operation); a premium for a fair trade coffee. These 
+results signal that some consumers prefer and are willing to pay more for sustainable coffee. In 
+this way, the market may help promote a more environmentally friendly production and ethical 
+trade method at the expense of other methods perceived to be less so. 
+Nielsen data are limited to discrete product attributes, they don’t have all the information 
+regarding sustainability or eco-friendly labels, such as bird-friendly, UTZ Certified, and 
+Rainforest Alliance. In addition, private labels have substantial market shares and provide 
+consumers with important decision cues. There are usually price differences between different 
+private retailer labels or brands and national brands, i.e. brands owned by manufacturers. Due to 
+data limitations associated with scanner data, notably a lack of detail on individual retailers’ 
+brands and how these are priced, our study has not been able to explore the value of private 
+labels. This calls for further research by using more detailed product attributes data.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+11 
+References 
+Arnot, C., Boxall, P. C., & Cash, S. B. (2006). Do ethical consumers care about price? A 
+revealed preference analysis of Fair Trade coffee purchases. Canadian Journal of 
+Agricultural Economics, 54, 555–565. 
+Bacon, C. M., Rice, R. A., & Maryanski, H. (2015). 22. Fair trade coffee and 
+environmental sustainability in Latin America. Handbook of Research on Fair 
+Trade, P388. 
+Basu, A. K., & Hicks, R. L. (2008). Label performance and the willingness to pay for Fair Trade 
+coffee: a cross-national perspective. International Journal of Consumer Studies, 32(5), 
+470-478. 
+Cailleba, P., & Casteran, H. (2010). Do ethical values work? A quantitative study of the impact 
+of fair trade coffee on consumer behavior. Journal of Business Ethics, 97(4), 613-624. 
+Carlsson, F., Garcı´a, J. H., & Lofgren, A. (2010). Conformity and the demand for environmental 
+goods. Environmental Resource Economics, 47, 407–421. 
+Claar, V. V., & Haight, C. E. (2015). Is Fair Trade Worth Its Cost?. Faith & Economics, 
+65, 25-34. 
+Cranfield, J., Henson, S., Northey, J., & Masakure, O. (2010). An assessment of consumer 
+preference for Fair Trade coffee in Toronto and Vancouver. Agribusiness, 26, 307–325. 
+De Pelsmacker, P., Driesen, L., & Rayp, G. (2005). Do consumers care about ethics? 
+Willingness to pay for fair-trade coffee. Journal of Consumer Affairs, 39, 363–385. 
+Dharmasena, S., Capps Jr, O., & Clauson, A. (2011). Ascertaining the Impact of the 2000 USDA 
+Dietary Guidelines for Americans on the Intake of Calories, Caffeine, Calcium, and 
+Vitamin C from At-Home Consumption of Nonalcoholic Beverages. Journal of 
+Agricultural and Applied Economics, 43(1), 13. 
+Fair Trade USA, 2011. ‘Fairtrade International Announces Changes to Fair Trade Coffee Minimum Price, 
+Premiums 
+and 
+Standards’, 
+available 
+at 
+https://www.fairtradeusa.org/press-
+room/press_release/fairtrade-international-announces-changes-fair-trade-coffee-minimum-price-p 
+(accessed May 2016).  
+Food and Agriculture Organization of the United Nations (FAO). (2013). FAOStat. Retrieved 
+from http://faostat.fao.org/default.aspx?lang=en. 
+Galarraga, I. and Markandya, A. (2004), “Economic techniques to estimate the demand for 
+sustainable products: a case study for Fair Trade and organic coffee in the United 
+Kingdom”, Economı´a Agraria y Recursos Naturales, Vol. 7 No. 7, pp. 109-34. 
+Hainmueller, J., Hiscox, M. J., & Sequeira, S. (2015). Consumer demand for the fair trade label: 
+evidence from a multi-store field experiment. Review of Economics and Statistics. 97(2): 
+242-256.  
+Hertel, S., Scruggs, L., & Heidkamp, C. P. (2009). Human rights andpublic opinion: From 
+attitudes to action. Political Science Quarterly, 143, 443–459. 
+Hoehn, J. and Session, S.P., (2015). What’s a Cup Worth?: A Hedonic Analysis of US Retail 
+Coffees Prices. Selected Poster prepared for presentation at the Agricultural & Applied 
+Economics Association’s 2015 AAEA Annual Meeting, San Francisco, July 26- 28, 2015. 
+Kilts-Nielsen Data Center at the University of Chicago Booth School of Business. Nielsen 
+Consumer Panel Data. Information on availability and access to the data is available 
+at research.ChicagoBooth.edu/nielsen. 
+Loureiro, M. L., & Lotade, J. (2005). Do fair trade and eco-labels in coffee wake up the 
+consumer conscience? Ecological Economics, 53(1), 129-138. 
+
+ 
+12 
+Maietta, O. W. (2003). The hedonic price of fair trade coffee for the Italian consumer. In 
+Proceedings of the International Conference on Agricultural Policy Reform and the 
+WTO: where are we heading. 
+Reinstein, D., & Song, J. (2012). Efficient consumer altruism and fair trade products. Journal of 
+Economics & Management Strategy, 21(1), 213-241. 
+Rosen, S. (1974). Hedonic prices and implicit markets: product differentiation in pure 
+competition. The journal of political economy, 34-55.  
+Schollenberg, L. (2012). Estimating the hedonic price for Fair Trade coffee in Sweden. British 
+Food Journal, 114(3), 428-446. 
+Trudel, R., & Cotte, J. (2009). Does it pay to be good? MIT Sloane Management Review, 50, 61–
+68. 
+Valkila, J. (2014). Do Fair Trade Pricing Policies Reduce Inequalities in Coffee 
+Production and Trade?. Development Policy Review, 32(4), 475-493. 
+Zheng, Y., & Kaiser, H. M. (2008). Advertising and US nonalcoholic beverage demand. 
+Agricultural and Resource Economics Review, 37(2), 147-159. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+13 
+Table 1. Descriptive Statistics 
+Variables 
+Mean 
+Std. Dev 
+Min 
+Max 
+Prices 
+Price $/oz(N= 709,550) 
+0.363 
+0.181 
+0 
+3.755 
+Price $/oz(organic, n= 9723) 
+0.505 
+0.222 
+0 
+1.757 
+Price $/oz(conventional, n= 699,827) 
+0.361 
+0.180 
+0 
+3.755 
+Price $/oz(Fair trade, n=118) 
+0.725 
+0.216 
+0.249 
+1.483 
+Price $/oz(Non-Fair trade, n= 709,432) 
+0.363 
+0.181 
+0 
+3.755 
+Roast levels  
+Light 
+0.015 
+0.120 
+0 
+1 
+Medium 
+0.359 
+0.480 
+0 
+1 
+Dark 
+0.162 
+0.368 
+0 
+1 
+All other roasted levels 
+0.532 
+0.499 
+0 
+1 
+Flavor  
+ 
+ 
+ 
+ 
+Regular 
+0.888 
+0.315 
+0 
+1 
+Others 
+0.112 
+0.315 
+0 
+1 
+Type  
+Decaf 
+0.101 
+0.301 
+0 
+1 
+Low caffeine 
+0.036 
+0.186 
+0 
+1 
+Regular 
+0.863 
+0.343 
+0 
+1 
+Container  
+Bag 
+0.356 
+0.479 
+0 
+1 
+Can 
+0.224 
+0.417 
+0 
+1 
+Brick 
+0.044 
+0.205 
+0 
+1 
+Canister 
+0.103 
+0.304 
+0 
+1 
+Others 
+0.274 
+0.446 
+0 
+1 
+Country of Origin 
+Hawaii 
+0.006 
+0.078 
+0 
+1 
+Mexico 
+0.001 
+0.025 
+0 
+1 
+Guatemala 
+0.002 
+0.039 
+0 
+1 
+Colombia 
+0.076 
+0.266 
+0 
+1 
+Indonesia 
+0.006 
+0.077 
+0 
+1 
+Nicaragua 
+0.0002 
+0.014 
+0 
+1 
+Brazil 
+0.001 
+0.035 
+0 
+1 
+Peru 
+0.001 
+0.024 
+0 
+1 
+Ethiopia 
+0.0001 
+0.011 
+0 
+1 
+Kenya 
+0.0005 
+0.022 
+0 
+1 
+Costa Rica 
+0.001 
+0.035 
+0 
+1 
+Not specified 
+ 
+ 
+ 
+ 
+Sustainability labels 
+Organic 
+0.014 
+0.116 
+0 
+1 
+Fair Trade 
+0.0002 
+0.013 
+0 
+1 
+Shade Grown 
+0.001 
+0.023 
+0 
+1 
+Channel type  
+Grocery store 
+0.568 
+0.495 
+0 
+1 
+Hypermarket/Warehouse Club 
+0.092 
+0.288 
+0 
+1 
+Coffee Store/Gourmet Coffee Shop 
+0.007 
+0.084 
+0 
+1 
+Discount/dollar store 
+0.245 
+0.430 
+0 
+1 
+Online shopping 
+0.011 
+0.102 
+0 
+1 
+
+ 
+14 
+All Other Stores 
+0.078 
+0.268 
+0 
+1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+15 
+Table 2. Coefficient Estimates for Hedonic Regressions of Monthly Retail Coffee Price ($/oz) 
+ Independent 
+ Variables 
+(1) 
+(2) 
+(3) 
+(4) 
+Roast levels (base: all others) 
+Light 
+0.007*** 
+0.038*** 
+0.030*** 
+0.031*** 
+(0.001) 
+(0.001) 
+(0.001) 
+(0.001) 
+Medium 
+-0.003*** 
+-0.003*** 
+-0.001 
+-0.000 
+(0.000) 
+(0.000) 
+(0.000) 
+(0.000) 
+Dark 
+0.022*** 
+0.024*** 
+0.023*** 
+0.023*** 
+(0.000) 
+(0.000) 
+(0.000) 
+(0.000) 
+Flavor (base: regular) 
+ 
+ 
+ 
+ 
+Others 
+0.094*** 
+0.061*** 
+0.055*** 
+0.055*** 
+(0.001) 
+(0.001) 
+(0.001) 
+(0.001) 
+Type (base: decaf) 
+Low caffeine 
+-0.065*** 
+-0.050*** 
+-0.054*** 
+-0.054*** 
+(0.001) 
+(0.001) 
+(0.001) 
+(0.001) 
+Regular 
+-0.067*** 
+-0.061*** 
+-0.061*** 
+-0.062*** 
+(0.001) 
+(0.000) 
+(0.000) 
+(0.000) 
+Container (base: bag) 
+Can 
+-0.214*** 
+-0.144*** 
+-0.147*** 
+-0.148*** 
+(0.000) 
+(0.001) 
+(0.001) 
+(0.001) 
+Brick 
+-0.097*** 
+-0.048*** 
+-0.046*** 
+-0.046*** 
+(0.001) 
+(0.001) 
+(0.001) 
+(0.001) 
+Canister 
+-0.212*** 
+-0.142*** 
+-0.153*** 
+-0.149*** 
+(0.001) 
+(0.001) 
+(0.001) 
+(0.001) 
+Others 
+-0.152*** 
+-0.082*** 
+-0.097*** 
+-0.098*** 
+(0.000) 
+(0.001) 
+(0.001) 
+(0.001) 
+Country of Origin (base: not specified) 
+Hawaii 
+0.114*** 
+0.067*** 
+0.057*** 
+0.057*** 
+(0.002) 
+(0.002) 
+(0.002) 
+(0.002) 
+Mexico 
+-0.000 
+0.087*** 
+0.084*** 
+0.082*** 
+(0.008) 
+(0.008) 
+(0.007) 
+(0.007) 
+Guatemala 
+0.026*** 
+0.065*** 
+0.065*** 
+0.062*** 
+(0.004) 
+(0.004) 
+(0.004) 
+(0.004) 
+Colombia 
+0.026*** 
+0.039*** 
+0.037*** 
+0.037*** 
+(0.001) 
+(0.001) 
+(0.001) 
+(0.001) 
+Indonesia 
+0.126*** 
+0.060*** 
+0.055*** 
+0.055*** 
+(0.002) 
+(0.002) 
+(0.002) 
+(0.002) 
+Nicaragua 
+0.126*** 
+0.163*** 
+0.154*** 
+0.150*** 
+(0.011) 
+(0.010) 
+(0.009) 
+(0.009) 
+Brazil 
+0.017*** 
+0.021*** 
+0.013*** 
+0.012*** 
+(0.005) 
+(0.004) 
+(0.004) 
+(0.004) 
+Peru 
+-0.051*** 
+0.021*** 
+0.042*** 
+0.045*** 
+(0.007) 
+(0.008) 
+(0.008) 
+(0.008) 
+Ethiopia 
+0.078*** 
+0.057*** 
+0.051*** 
+0.059*** 
+(0.015) 
+(0.013) 
+(0.012) 
+(0.012) 
+Kenya 
+0.159*** 
+0.092*** 
+0.091*** 
+0.092*** 
+(0.008) 
+(0.007) 
+(0.006) 
+(0.006) 
+Costa Rica 
+0.030*** 
+0.037*** 
+0.031*** 
+0.032*** 
+
+ 
+16 
+(0.005) 
+(0.004) 
+(0.004) 
+(0.004) 
+Sustainability labels 
+Organic 
+0.067*** 
+0.075*** 
+0.067*** 
+0.067*** 
+(0.002) 
+(0.001) 
+(0.001) 
+(0.001) 
+Fair Trade 
+0.126*** 
+0.153*** 
+0.053*** 
+0.056*** 
+(0.013) 
+(0.018) 
+(0.018) 
+(0.018) 
+Shade Grown 
+0.059*** 
+-0.006 
+-0.003 
+-0.000 
+(0.008) 
+(0.013) 
+(0.013) 
+(0.013) 
+Channel type (base: grocery store) 
+Hypermarket/Warehouse Club 
+-0.083*** 
+-0.068*** 
+ 
+ 
+ 
+(0.001) 
+(0.001) 
+ 
+ 
+Coffee Store/Gourmet Coffee Shop 
+0.276*** 
+0.157*** 
+ 
+ 
+ 
+(0.002) 
+(0.002) 
+ 
+ 
+Discount/dollar store 
+-0.015*** 
+-0.001*** 
+ 
+ 
+ 
+(0.000) 
+(0.000) 
+ 
+ 
+Online shopping 
+0.029*** 
+0.022*** 
+ 
+ 
+ 
+(0.002) 
+(0.001) 
+ 
+ 
+All Other Stores 
+-0.017*** 
+-0.033*** 
+ 
+ 
+ 
+(0.001) 
+(0.001) 
+ 
+ 
+Constant 
+0.531*** 
+0.481*** 
+0.627*** 
+0.587*** 
+ 
+(0.001) 
+(0.001) 
+(0.012) 
+(0.012) 
+Brand fixed effects 
+No  
+Yes 
+Yes  
+Yes 
+Retailer fixed effects 
+No 
+No 
+Yes  
+Yes 
+Time fixed effects 
+No 
+No 
+No 
+Yes  
+Observations 
+709,430 
+709,430 
+709,430 
+709,430 
+R-squared 
+0.411 
+0.598 
+0.623 
+0.631 
+Note: Standard errors in parentheses. *** represents statistical significance at 1% level of significance. 
+ 
+ 
+ 

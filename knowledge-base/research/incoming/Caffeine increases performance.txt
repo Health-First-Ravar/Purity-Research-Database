@@ -1,0 +1,972 @@
+1
+Vol.:(0123456789)
+Scientific Reports |        (2021) 11:24327  
+| https://doi.org/10.1038/s41598-021-03158-2
+www.nature.com/scientificreports
+Caffeine increases performance 
+and leads to a cardioprotective 
+effect during intense exercise 
+in cyclists
+Felipe Sampaio‑Jorge1,2,3*, Anderson Pontes Morales1,2,3,4, Rafael Pereira5, Thiago Barth6 & 
+Beatriz Gonçalves Ribeiro3,4
+The present study was designed to investigate the effects of different caffeine dietary strategies 
+to compare the impact on athletic performance and cardiac autonomic response. The order of 
+the supplementation was randomly assigned: placebo(4-day)-placebo(acute)/PP, placebo(4-day)-
+caffeine(acute)/PC and caffeine(4-day)-caffeine(acute)/CC. Fourteen male recreationally-trained 
+cyclists ingested capsules containing either placebo or caffeine (6 mg ­kg−1) for 4 days. On day 5 
+(acute), capsules containing placebo or caffeine (6 mg ­kg−1) were ingested 60 min before completing 
+a 16 km time-trial (simulated cycling). CC and PC showed improvements in time (CC vs PP, Δ − 39.3 s 
+and PC vs PP, Δ − 43.4 s; P = 0.00; ƞ2 = 0.33) and in output power (CC vs PP, Δ 5.55 w and PC vs PP, Δ 
+6.17 w; P = 0.00; ƞ2 = 0.30). At the final of the time-trial, CC and PC exhibited greater parasympathetic 
+modulation (vagal tone) when compared to the PP condition (P < 0.00; ƞ2 = 0.92). Our study provided 
+evidence that acute caffeine intake (6 mg∙kg−1) increased performance (time-trial) and demonstrated a 
+relevant cardioprotective effect, through increased vagal tone.
+Abbreviations
+CAF	
+Caffeine
+A1, A2a, A2b	
+Adenosine receptors
+cAMP	
+Cyclic adenosine monophosphate
+cGMP	
+Cyclic guanosine monophosphate
+RR	
+Intervals time elapsed between two successive R-waves
+HRV	
+Heart rate variability
+ANS	
+Autonomic nervous system
+V0	
+Sympathetic modulation
+V1	
+Sympathetic and parasympathetic modulation
+V2	
+Parasympathetic modulation
+TT-test	
+16 Km time trial test
+PRE suppl	
+Pre supplementation (before the ingestion of the capsule)
+PRE exerc	
+Pre exercise (60 min after supplementation)
+POST	
+Post exercise (10 min after the TT-test)
+PP	
+Placebo–placebo
+PC	
+Placebo–caffeine
+CC	
+Caffeine–caffeine
+REST	
+5 Minutes while supine
+HRV-SP	
+Recordings of the HRV in supine position
+OPEN
+1Higher Institutes of Education of CENSA (ISECENSA), Campos dos Goytacazes, Rio de Janeiro  28030‑260, 
+Brazil. 2Macaé Sports Secretary, City Government of Macaé (PMM), Macaé, Rio de Janeiro  27913‑080, 
+Brazil. 3Present address: Laboratory Research and Innovation in Sports Sciences, Federal University of Rio de 
+Janeiro (UFRJ), Macaé Campus, 50, Aluízio da Silva Gomes, Granja Dos Cavaleiros, Rio de Janeiro  27930‑560, 
+Brazil. 4Postgraduate Program in Nutrition, Josué de Castro Nutrition Institute, Federal University of Rio de Janeiro 
+(UFRJ), Macaé, Rio de Janeiro  21941‑590, Brazil. 5Integrative Physiology Research Center, State University of 
+Southwest Bahia (UESB), Jequié, BA 45210‑506, Brazil. 6Laboratory of Bioactive Products, Federal University of 
+Rio de Janeiro (UFRJ), Macaé, Rio de Janeiro 27933‑378, Brazil. *email: felipesjorge@gmail.com
+
+2
+Vol:.(1234567890)
+Scientific Reports |        (2021) 11:24327  | 
+https://doi.org/10.1038/s41598-021-03158-2
+www.nature.com/scientificreports/
+HRV-TT	
+Recording of the HRV during the TT-test
+HRV-SP PRE suppl	
+Recordings of the HRV in supine position pre supplementation
+HRV-SP POST suppl	
+Recordings of the HRV in supine position post supplementation
+HRV-SP Post	
+Recordings of the HRV in supine position post 16 km TT
+CYP1A2	
+Cytochrome P450
+VO2max	
+Maximal oxygen uptake
+VO2	
+Oxygen uptake
+Caffeine (1,3,7-Trimethylxanthine) is one of the most consumed supplements by both, general and athletes 
+­population1 owing to an expected ergogenic effect for endurance ­exercise2, anaerobic-based ­exercise3 and 
+strength/power activities. However, regarding the caffeine supplementation for ergogenic aims, two concerns 
+have been raised: (1) as it is described many mechanisms involving the autonomic nervous system (at central and 
+peripherical sites), the cardiovascular safety of supplementation previously to exercises with high cardiovascular 
+demands need to be investigated; (2) as for any drug, tolerance could be developed with a regular use, which 
+have been discussed in recent ­studies4,5, but with contradictory results.
+Despite caffeine (CAF) consumption is safe even in patients with cardiovascular ­disease6, its security is linked 
+to the dose, as well as to the age, sex, pathophysiology of the consumer, or type of sport (if used for ergogenic 
+aims). Indeed, CAF supplementation could promotes ­tachycardia7 and decreased perceived exertion, increas-
+ing the time until muscle fatigue during ­exercises8. Among proposed action mechanisms that explain how CAF 
+influences cardiovascular function, the first one is the sympathetic autonomic nervous system activation by 
+catecholamines released in blood plasma and the second is the blocking of the adenosine receptors (A1, A2a, 
+A2b) on the central nervous ­system9. A primary role of adenosine in the nervous system appears to be to inhibit 
+the release of various neurotransmitters, and possibly glutamate in particular, through presynaptic receptors. 
+Therefore adenosine antagonists, such as CAF, can be expected to increase the release of ­neurotransmitters10. 
+Although innocuous, these changes may be related to high risks of cardiovascular ­events11 especially during/
+after ­exercise12.
+Findings from CAF use are focusing directly on heart cells and vessels, as a stimulant to induce arrhythmias 
+through ryanodine receptors and their mutated forms. Caffeine, by binding to the ryanodine receptor, stimulates 
+calcium fluxes that can result in arrhythmias, which are linked to the positive inotropic effect of caffeine. Another 
+possibility is inhibition of phosphodiesterases, which results in an increase in the intracellular concentration of 
+cAMP and cGMP (which under normal circumstances are degraded by phosphodiesterase)13.
+The analysis of successive RR intervals (the time elapsed between two successive R-waves of the QRS signal on 
+the electrocardiogram), also reported as heart rate variability (HRV), allows estimating the autonomic nervous 
+system (ANS) activity through a non-invasive ­method14. Previous ­studies15,16 investigated the impact of CAF 
+on ANS through HRV, reporting HRV decrease with some doses, while different strategies could increase the 
+HRV. Methodological aspects could explain divergent results, especially owing to complex HRV behavior during 
+exercise, which could be minimized with appropriate mathematical methods to extract RR interval variability, 
+as with non-linear ­methods17. Notwithstanding, lack of pattern of supplementation approach, including dose 
+and selected strategy, also contribute to divergence in the issue of this study.
+Different CAF dietary strategies are used to enhance ­performance18. Some authors defend its use a high dose 
+only on the competition’s day, after a withdrawal from any CAF source during the training period, since it is 
+hypothesized that this strategy could enhance its ergogenic ­effect19–21. On the other hand, despite the findings of 
+­studies22–24 that indicate tolerance to ergogenic effects with the regular use of CAF, other ­authors4,5 recommend 
+the use of doses that represent an average amount of caffeine above the usual (i.e., reducing the tolerance effect), 
+having its ergogenic effect potentiated. Furthermore, ­findings25 indicate that doses of 300–400 mg of caffeine 
+delay post-exercise parasympathetic reactivation, whereas others induced no caffeine effect at doses associated 
+with < 3 mg ­kg−1 body mass. Although it is difficult comparing and contrasting the results, these inconsistent 
+findings may be related to the dosage of caffeine used.
+However, the use of these strategies can cause a high risk of adverse ­effects4,5, such as changes in autonomic 
+modulation, which can promote an enabling environment for the development of rhythm disturbances and 
+abnormal responses of heart ­rate26.
+The present study was designed to investigate, in cyclists, the effects of different CAF dietary strategies to 
+compare the impact on athletic performance and cardiac autonomic response.
+Results
+Food consumption analysis. 
+Food intake did not exhibit significant main effects in treatment 24 h before 
+the trials: energy (Kcal) PP = 2132 ± 743, PC = 2056 ± 389, CC = 2056 ± 389 (P = 0.45); carbohydrates (g ­day−1) 
+PP = 250 ± 67, PC = 242 ± 67, CC = 276 ± 80 (P = 0.34); protein (g ­day−1) PP = 121 ± 45, PC = 114 ± 42, CC = 126 ± 47 
+(P = 0.1450); and lipids (g ­day−1) PP = 78 ± 45, PC = 69 ± 25, CC = 62 ± 27 (P = 0.17).
+Blinding efficacy. 
+At the post-exercise assessment, in the PP condition, 7.1% (1) got their caffeine intake 
+right, 14.3% (2) got it wrong, and 78.6% (11) were unable to answer. In the PC condition, 14.3% (2) were right, 
+14.3% (2) were wrong and 71.4% (10) were unable to answer. In the CC condition, 14.3% (2) were right, 7.1% (1) 
+were wrong and 78.6% (11) were unable to answer.
+Blood caffeine concentration. 
+The Blood sample analysis exhibited significant time (P = 0.0001) and 
+treatment (P = 0.0001) main effects for caffeine concentration (Table 1).
+
+3
+Vol.:(0123456789)
+Scientific Reports |        (2021) 11:24327  | 
+https://doi.org/10.1038/s41598-021-03158-2
+www.nature.com/scientificreports/
+HRV evaluation in the supine position. 
+No significant main effect was observed for treatment in all 
+studied HRV parameters (V0—sympathetic modulation: F = 1.3, P = 0.293; ƞ2 = 0.106; V1—sympathetic and 
+parasympathetic modulation: F = 0.471, P = 0.630; ƞ2 = 0.041; V2—parasympathetic modulation: F = 1.849, 
+P = 0.181; ƞ2 = 0.144), indicating the supplementation strategy had no effect for comparisons from recording at 
+supine position. On the other hand, a significant main effect for measures (V0: F = 491.36, P < 0.001; ƞ2 = 0.978; 
+V1: F = 1015.27, P < 0.001; ƞ2 = 0.989; V2: F = 127.3, P < 0.001; ƞ2 = 0.920). A post hoc analysis indicated that all 
+studied HRV parameters changed significantly after the TT-test, without differences between pre supplementa-
+tion and pre exercise measures (Fig. 1).
+Considering the caffeine supplementation comparisons, Bayesian analysis indicated moderate to anecdotal 
+posterior probability favoring the null hypothesis, which was found for V0, V1 and V2. The results from infer-
+ential and Bayesian statistics are presented in Table 2.
+TT‑test time and average power output. 
+The TT-test time in seconds (s) exhibited a significant main 
+effect for treatment (F = 6.49, P = 0.005; ƞ2 = 0.333). The time was significantly greater (P < 0.05) in the condition 
+PP when compared to other conditions (Δ for PP vs PC was 43.4 s and for PP vs CC was 39.3 s). There was no 
+difference (P > 0.05) between PC and CC (Δ for PC vs CC was − 4.07 s) (Fig. 2A). The average power output 
+exhibited a significant main effect for treatment (F = 5.75, P = 0.009; ƞ2 = 0.307) but not for measures (F = 2.27, 
+Table 1.   Analysis of blood caffeine concentration (n = 14). Median (interquartile deviation) of caffeine 
+concentration with 3 experimental conditions: Placebo–Placebo (PP), Placebo–Caffeine (PC) and Caffeine–
+Caffeine (CC). *Significantly different from baseline (P < 0.05). #Significantly different from PP (P < 0.05).
+Baseline (µg/mL−1)
+60’ post caffeine ingestion (µg/mL−1)
+PP
+0.30 (0.44)
+0.30 (0.44)
+PC
+0.00 (0.32)
+7.60 (1.32)*#
+CC
+0.45 (0.41)
+8.19 (0.76)*#
+Figure 1.   (A) Mean ± SE of V0 (%) at the pre supplementation, pre exercise, and post exercise (i.e., TT-test) 
+with 3 experimental conditions: Placebo-Placebo (PP), Placebo-Caffeine (PC) and Caffeine-Caffeine (CC). (θ) 
+Post was significantly different from other moments. (*) Significantly different from other moments (P < 0.05). 
+(B) Mean ± SE of V1 (%) at the PRE suppl, PRE exerc and POST exercise (i.e., TT-test) with 3 experimental 
+conditions: Placebo-Placebo (PP), Placebo-Caffeine (PC) and Caffeine-Caffeine (CC). (θ) Post was significantly 
+different from other moments. (*) Significantly different from other moments (P < 0.05). (C) Mean ± SE of V2 
+(%) at the PRE suppl, PRE exerc and POST exercise (i.e., TT-test) with 3 experimental conditions: Placebo-
+Placebo (PP), Placebo-Caffeine (PC) and Caffeine-Caffeine (CC). (θ) Post was significantly different from other 
+moments (P < 0.05). (*) Significantly different from other moments (P < 0.05).
+
+4
+Vol:.(1234567890)
+Scientific Reports |        (2021) 11:24327  | 
+https://doi.org/10.1038/s41598-021-03158-2
+www.nature.com/scientificreports/
+P = 0.12; ƞ2 = 0.14). A significant treatment × measure interaction was found (F = 2.48, P = 0.05; ƞ2 = 0.16), the 
+condition PP was significantly lower than other conditions at the beginning of the exercise protocol (Fig. 2B).
+According to Bayes Factor analyzes for time of TT-test execution, there is a posterior probability of 85.9% 
+and 92.1% to observe a difference between PP and PC and PP and CC, respectively. These Bayes Factor indi-
+cated that the posterior probability favoring the alternative hypothesis were moderate and strong, respectively. 
+According to Bayes Factor analyzes for average power output, there is a posterior probability of 96.2% and 99.8% 
+to observe a difference between PP and PC and PP and CC, respectively. These Bayes Factor indicated that the 
+posterior probability favoring the alternative hypothesis were strong and very strong, respectively. The results 
+from inferential and Bayesian statistics are presented in Table 3.
+HRV at TT‑test. 
+The parameter V0 exhibited a significant main effect for treatment (F = 6.77, P = 0.005; 
+ƞ2 = 0.381) and measures (F = 491.36, P < 0.001; ƞ2 = 0.978). The parameter V0 was significantly greater in the 
+condition PP when compared to other conditions. The V0 exhibited a decline along the TT-test. The significant 
+treatment × measure interaction was also found for V0 (F = 2.85, P = 0.03; ƞ2 = 0.206). The condition CC was 
+significantly lower than PP condition at the midway of the exercise protocol. The parameter V1 exhibited a sig-
+Table 2.   Bayesian analysis for the comparison of symbolic analysis parameters obtained at supine position and 
+at different caffeine supplementation conditions. The posterior odds have been corrected for multiple testing 
+by fixing to 0.5 the prior probability that the null hypothesis holds across all comparisons (Westfall, Johnson, 
+& Utts, 1997). Individual comparisons are based on the default t test with a Cauchy (0, r = 1/sqrt(2)) prior. 
+The “U” in the Bayes factor denotes that it is uncorrected (PP: Placebo–Placebo; PC: Placebo–Caffeine; CC: 
+Caffeine–Caffeine). Letters indicate the outcome classified as: A = anecdotal; M = moderate; V = very strong; 
+E = extreme favoring the alternative hypothesis; a = anecdotal; m = moderate favoring the null hypothesis.
+Experimental condition
+Prior odds
+Posterior odds
+BF10, U
+Probability %
+V0
+PP
+PC
+0.587
+5.36
+0.267m
+21.1
+PP
+CC
+0.587
+12.20
+0.537a
+34.9
+PC
+CC
+0.587
+0.11
+0.210m
+17.4
+V1
+PP
+PC
+0.587
+0.25
+0.185m
+15.6
+PP
+CC
+0.587
+0.12
+0.280m
+21.9
+PC
+CC
+0.587
+0.26
+0.218m
+17.9
+V2
+PP
+PC
+0.587
+2.23
+0.437a
+30.4
+PP
+CC
+0.587
+23.00
+0.647a
+39.4
+PC
+CC
+0.587
+0.19
+0.200m
+16.7
+Figure 2.   (A) Mean ± SE of time to execute the TT-test with 3 experimental conditions: Placebo-Placebo 
+(PP), Placebo-Caffeine (PC) and Caffeine-Caffeine (CC). (*) Significantly different from other experimental 
+conditions (P < 0.05). (B) Mean ± SE of average power output (W) with 3 experimental conditions: Placebo-
+Placebo (PP), Placebo-Caffeine (PC) and Caffeine-Caffeine (CC) in three different moments of the TT-test. (*) 
+Significantly different from other experimental conditions (P < 0.05).
+
+5
+Vol.:(0123456789)
+Scientific Reports |        (2021) 11:24327  | 
+https://doi.org/10.1038/s41598-021-03158-2
+www.nature.com/scientificreports/
+nificant difference only for measures (F = 1015.27, P < 0.001; ƞ2 = 0.989). It was observed a significantly increase 
+along the TT-test (Fig. 3A,B). Regarding the parameter V2, it was found a significant main effect for treatment 
+(F = 8.89, P = 0.001; ƞ2 = 0.447) and measures (F = 127.30, P < 0.001; ƞ2 = 0.920). The V2 was significantly greater 
+in the condition CC when compared to other conditions. Additionally, the V2 increased along the TT-test. The 
+significant treatment × measure interaction was also found for V2 (F = 3.54, P = 0.01; ƞ2 = 0.243). At the condi-
+tion PC, the V2 exhibited a significantly increase from midway to the final of exercise protocol. At the final of 
+exercise protocol, CC and PC exhibited greater V2 when compared to the condition PP (Fig. 3C).
+According to Bayes Factor analyzes, there is a posterior probability of 90.1% and 95.4% to observe a differ-
+ence in V0 between PP and PC and PP and CC, respectively. These Bayes Factor indicated that the posterior 
+probability favoring the alternative hypothesis were moderate and strong, respectively. For V2, the Bayes Factor 
+analyzes indicated a posterior probability 79.0% and 97.5% to observe a difference between PP and PC and PP 
+and CC, respectively, indicating that the posterior probability favoring the alternative hypothesis were moder-
+ate and very strong, respectively. The results from inferential and Bayesian statistics are presented in Table 4.
+Discussion
+Since our study presented data from (1) procedures to ensure the control of experiments (blood CAF quantifi-
+cation, HRV PRE suppl and POS exerc); (2) performance in TT-test; (3) HRV along and after the TT-test, the 
+discussion was structured to follow the exposed sequence.
+In our study, volunteers performed the TT-test under the same nutritional conditions, since the 24-h dietary 
+records did not show significant differences between the PP, PC, and CC conditions. Additionally, the presence 
+of foods, substances, supplements, or medicines containing CAF was also not detected in the records, since blood 
+analysis by HPLC confirmed no serum CAF concentration in athletes at the baseline (for PC and CC conditions), 
+and after the supplementation, when submitted to placebo condition (i.e., PP). As expected, at the conditions 
+PC and CC, blood CAF concentration increased 1 h after supplementation (Table 1). It is important to highlight 
+that the use of analytical methods, as HPLC, to detect CAF in blood samples before and after supplementation is 
+fundamental control method to ensure and validate the supplementation ­effects27 and, in our study, was critical 
+to ensure that volunteers performed the tests exclusively under the effect of experimental supplementation of 
+CAF (i.e., PC or CC conditions) or placebo (i.e., PP condition).
+Other adopted procedure to ensure the control of experiments was the recordings of successive RR inter-
+vals before and after supplementation, and our results indicated no differences among the CAF (i.e., PC or CC 
+conditions) and placebo condition. A recent ­study28 investigated the influence of different caffeinated bever-
+ages (energy drink, coffee, and cola) on HRV parameters obtained through non-linear methods. From a 5-min 
+recording at sitting position, the authors identified that energy drink and coffee beverages could influence the 
+HRV complexity (parameters: Largest Lyapunov exponent and correlation dimension), suggesting a greater vari-
+ability of successive RR intervals, which have been associated to a better health status. We also used a nonlinear 
+approach to obtain HRV parameters, but chose the symbolic analysis method, since its interpretations is more 
+useful/feasible for clinical ­practice28.
+The use of non-linear methods to analyze the RR intervals variability has been reported as a more suitable tool 
+to quantify complex phenomena such as control of cardiac function mediated by ­ANS29,30. With the symbolic 
+analysis method the percentage of occurrence of each pattern of variation was calculated and results are reported 
+as V0%, V1% and V2%. Results from pharmacological ­blockage29 and during tilt ­test29 found that the V0 pat-
+tern reflects sympathetic modulation, the V2 pattern parasympathetic modulation, and the V1 pattern reflects 
+sympathovagal balance. Thus, our results support the hypothesis that CAF supplementation (6 mg ­kg−1 of body 
+weight) did not change the sympato-vagal balance at rest, which was valid for recordings at supine position after 
+the TT-test. These results also confirm that the probability of harmful effects from acute CAF supplementation 
+is anecdotal, which was confirmed by Bayesian analysis carried out in our study.
+Table 3.   Bayes factor analysis for time of TT-test execution and average power output among caffeine 
+supplementation conditions. The posterior odds have been corrected for multiple testing by fixing to 0.5 the 
+prior probability that the null hypothesis holds across all comparisons (Westfall, Johnson, & Utts, 1997). 
+Individual comparisons are based on the default t test with a Cauchy (0, r = 1/sqrt(2)) prior. The “U” in 
+the Bayes factor denotes that it is uncorrected (PP: Placebo–Placebo; PC: Placebo–Caffeine; CC: Caffeine–
+Caffeine). Letters indicate the outcome classified as: A = anecdotal; M = moderate; V = very strong; E = extreme 
+favoring the alternative hypothesis; a = anecdotal; m = moderate favoring the null hypothesis.
+Experimental condition
+Prior odds
+Posterior odds
+BF10, U
+Probability %
+Time (s)
+PP
+PC
+0.587
+3.574
+6.084M
+85.9
+PP
+CC
+0.587
+6.889
+11.728S
+92.1
+PC
+CC
+0.587
+0.164
+0.280a
+21.9
+Average power output (W)
+PP
+PC
+0.587
+14.862
+25.301S
+96.2
+PP
+CC
+0.587
+47.066
+80.125V
+99.8
+PC
+CC
+0.587
+0.103
+0.175a
+14.9
+
+6
+Vol:.(1234567890)
+Scientific Reports |        (2021) 11:24327  | 
+https://doi.org/10.1038/s41598-021-03158-2
+www.nature.com/scientificreports/
+It is important to note that the behavior of successive RR intervals is different at rest and along a high-intensity 
+physical test, then, the significant differences in HRV parameters observed during the TT-test should be discussed 
+apart from data obtained at supine position.
+We found a significant acute performance improvement with CAF supplementation, independently of sup-
+plementation strategy (i.e., PC or CC) and Bayesian analysis indicated a moderate (PC vs. PP) to strong (CC 
+vs. PP) posterior probability favoring the alternative hypothesis (Table 3). The ergogenic effect of CAF is widely 
+demonstrated, especially in TT-tests31–33, as we used.
+The present study also observed a better power output performance of athletes in the caffeine condition when 
+compared to the placebo condition. Curiously, the behavior of power output along the TT-test was clearly differ-
+ent between CAF supplementation (PC or CC) and placebo (Fig. 2B). At CAF supplementation conditions the 
+power output was higher since the beginning of TT-test, maintaining quasi-stable along all the exercise, while 
+at placebo condition the power was increasing along the exercise. The excitatory and alerting effects caused by 
+CAF may explain the increased locomotor activity seen at the beginning of the ­test34. Mechanisms involving 
+the effects of caffeine at the level of the central pattern generator of the lumbar spine network, enhancing the 
+locomotor action, have been recently ­described35, facilitating limb activity through inhibition of A1 receptors 
+and subsequent activation of dopamine receptors through an intracellular mechanism dependent on cAMP-
+dependent protein kinase. This effect probably leads to a great ability to develop power output since the begin-
+ning of the exercise.
+Figure 3.   (A) Mean ± SE of V0 (%) at the beginning, midway and final of exercise protocol with 3 experimental 
+conditions: Placebo-Placebo (PP), Placebo-Caffeine (PC) and Caffeine-Caffeine (CC). (θ) Beggining was 
+significantly different from midway and final of the exercise protocol in all experimental conditions; (Φ) 
+Midway was significantly different from final of the exercise protocol in PC experimental conditions (P < 0.05); 
+(#) Significantly difference between CC and PP experimental conditions at the midway of the exercise protocol 
+(P < 0.05); (*) Significantly different from other experimental conditions (P < 0.05). (B) Mean ± SE of V1 (%) at 
+the beginning, midway and final of exercise protocol with 3 experimental conditions: Placebo–Placebo (PP), 
+Placebo–Caffeine (PC) and Caffeine–Caffeine (CC). (θ) Beggining was significantly different from midway and 
+final of the exercise protocol in all experimental conditions (P < 0.05). (C) Mean ± SE of V2 (%) at the beginning, 
+midway and final of exercise protocol with 3 experimental conditions: Placebo–Placebo (PP), Placebo–Caffeine 
+(PC) and Caffeine–Caffeine (CC). (θ) Beggining was significantly different from midway and final of the 
+exercise protocol in all experimental conditions (P < 0.05); (Φ) Midway was significantly different from final of 
+the exercise protocol in PC experimental conditions (P < 0.05); (δ) Significantly difference among PP and both 
+CC and PC experimental conditions at the final of the exercise protocol (P < 0.05); (*) Significantly different 
+from other experimental conditions (P < 0.05).
+
+7
+Vol.:(0123456789)
+Scientific Reports |        (2021) 11:24327  | 
+https://doi.org/10.1038/s41598-021-03158-2
+www.nature.com/scientificreports/
+Compared to tests with anaerobic predominance, as the Wingate test, the chosen TT-test spends a long time 
+to be completed, making it infeasible to apply a maximal power output all time along the exercise. It is expected 
+that experienced cyclists learn to control the intensity to complete the TT-test, then it is interesting the diver-
+gent behavior between supplemented conditions and placebo, since at placebo conditions volunteers adjusted 
+the power output along the exercise, while at CAF supplementation they maintained the power output along all 
+TT-test, being higher than placebo at the beginning of TT-test.
+In general, well-designed caffeine supplementation strategies can contribute to the improvement of counter-
+movement jump (CMJ) height, average power, peak power, endurance muscle, and strength ­muscle36. ­Findings37 
+support the hypothesis that the ergogenic effect of CAF would act in a dose-dependent manner. Furthermore, 
+they suggest that habitual consumption of products containing CAF would alter the CAF supplementation effect. 
+Durkalec-Michalski et al.37 observed in their study, testing different doses of CAF, that among judokas who 
+usually consumed products containing CAF, only 9 mg ­kg−1 body mass CAF was more effective than 3 mg ­kg−1 
+body mass. Thus, they suggested that athletes who habitually consume caffeine-containing products would need 
+higher doses to promote specific performance improvement.
+The ergogenic effects of caffeine depend on several mechanisms that can vary, such as time course, dose, and 
+magnitude of dependence. Regular caffeine consumption positively induces the production of the Cytochrome 
+P450 (CYP1A2) enzyme group, increasing the rate of metabolism in regular ­users5. Therefore, different con-
+sumption strategies added to acute intake doses (pre-test) can produce distinct ergogenic effects. For example, 
+Beaumont et al.22 observed that chronic (21 days) use of caffeine supplementation (1.5 mg ­kg−1 ­day−1) followed 
+by acute ingestion (3 mg ­kg−1 body mass of caffeine) induced tolerance to the ergogenic effect. This strategy 
+impacts the ability to perform total work on the cycle ergometer, generating tolerance effects on endurance 
+performance. Furthermore, constant caffeine use also affected cycle ergometer sprint performance. Lara et al.4, 
+followed athletes daily using an incremental test and Wingate test in cycle ergometer to test the effects of caffeine 
+supplementation (3 mg ­kg−1 ­day−1) for 20 days. They found that this strategy chronically caused a reduction in 
+the magnitude of ergogenicity in the ventilatory response. However, it significantly increased peak power during 
+a maximal incremental test during the first 15 days of ingestion. They also found an improvement in ­VO2max 
+in the first four days when compared to placebo treatment. Daily caffeine intake before exercise also produced 
+a higher peak power for approximately 18 days after ingestion. After that period, the performance increases 
+were not statistically different from placebo. These results suggest the existence of progressive tolerance to the 
+performance benefits of caffeine, as the ergogenic magnitude of caffeine was verified in the first days of ingestion 
+for both endurance and muscle power exercises. Thus, the time course of habituation is poorly understood and 
+can be mainly affected by routine caffeine consumption. The impact of habituation probably can be modified by 
+acute intake substantially greater than usual.
+Concerns about caffeine consumption on cardiovascular activity during intense exercise are commonly related 
+to dose, being reported that high-dose of caffeine intake can cause tachycardia, palpitations, and a rapid rise in 
+blood ­pressure38. However, moderate caffeine intake does not adversely affect cardiovascular ­health39, despite 
+moderate CAF consumption could affect contractility, myocardial conduction, vascular tone, and the sympa-
+thoadrenal ­system40. Previous ­findings41 indicated that both 3 and 6 mg ­kg−1 of caffeine were able to increase 
+parasympathetic modulation following an acute bout of anaerobic exercise in recreational athletes. In this setting, 
+the results of this study reinforce the possibility of increasing parasympathetic modulation after caffeine ingestion 
+and add important information suggesting that the relationship between caffeine dosage and parasympathetic 
+reactivity is not linear.
+Table 4.   Bayesian analysis for the comparison of symbolic analysis parameters among caffeine 
+supplementation conditions. The posterior odds have been corrected for multiple testing by fixing to 0.5 the 
+prior probability that the null hypothesis holds across all comparisons (Westfall, Johnson, & Utts, 1997). 
+Individual comparisons are based on the default t test with a Cauchy (0, r = 1/sqrt(2)) prior. The “U” in 
+the Bayes factor denotes that it is uncorrected (PP: Placebo–Placebo; PC: Placebo–Caffeine; CC: Caffeine–
+Caffeine). Letters indicate the outcome classified as: A = anecdotal; M = moderate; V = very strong; E = extreme 
+favoring the alternative hypothesis; a = anecdotal; m = moderate favoring the null hypothesis.
+Experimental condition
+Prior odds
+Posterior odds
+BF10, U
+Probability %
+V0
+PP
+PC
+0.587
+5.36
+9.13M
+90.1
+PP
+CC
+0.587
+12.20
+20.77S
+95.4
+PC
+CC
+0.587
+0.11
+0.18a
+15.2
+V1
+PP
+PC
+0.587
+0.25
+0.42a
+29.5
+PP
+CC
+0.587
+0.12
+0.20m
+16.7
+PC
+CC
+0.587
+0.26
+0.44a
+30.4
+V2
+PP
+PC
+0.587
+2.23
+3.76M
+79.0
+PP
+CC
+0.587
+23.00
+39.16VS
+97.5
+PC
+CC
+0.587
+0.19
+0.32m
+24.4
+
+8
+Vol:.(1234567890)
+Scientific Reports |        (2021) 11:24327  | 
+https://doi.org/10.1038/s41598-021-03158-2
+www.nature.com/scientificreports/
+Sarshin et al.41 applied a dose window of 3–6 mg ­kg−1 and found an increased resting cardiac autonomic 
+modulation and faster post-exercise autonomic recovery after an anaerobic exercise bout (Wingate test) in rec-
+reationally active young men. These data present robust evidence of an interesting clinical effect of CAF, diverg-
+ing from the mainstream of harmful effect of CAF supplementation on cardiovascular health. It is worthwhile 
+to emphasize ­that41 did not analyzed the RR interval variability along the exercise, leaving a lack of information 
+about the safety of caffeine during intense exercise.
+Our data obtained along the TT-test indicated a progressive increase of the parameter V2, achieving higher 
+values at CAF supplementation (PC and CC), when compared to placebo. These find suggest a progressive 
+increase of an indicator of parasympathetic ­activity17.
+The pattern variation of successive RR intervals, evaluated by symbolic analysis along the TT-test revealed that 
+the sympathetic modulation (V0) had similar behavior between the conditions (PP, CP, and CC) at the begin-
+ning and midway of the exercise, being more pronounced at the beginning of the test, as expected, owing to the 
+high sympathetic drive at the beginning of exercises. The V0 exhibited a decline along with the exercise, which 
+could be related to expected cardiovascular adjusts along the submaximal long exercise. At the final of TT-test, 
+we found an interesting behavior with smaller V0, a marker of sympathetic modulation, at CAF conditions (PC 
+and CC) when compared to placebo. The parameter V1 (pattern reflecting sympathovagal balance) exhibited an 
+increase along the exercise, with similar behavior among the conditions. The parameter V2 (pattern reflecting 
+parasympathetic modulation) increased along the TT-test similarly among supplementation conditions (PP, 
+PC, and CC) at the beginning and midway of the exercise. However, at the final, a prominent parasympathetic 
+modulation was observed in the CAF conditions (PC and CC) compared to the placebo.
+These results could reflect a protective effect of CAF during the used TT-test since the sympathetic drive 
+was not the greater in CAF conditions at the beginning of the activity, despite a higher power output at this 
+moment. Autonomic control during physical exercise under CAF conditions can be modified; the baroreflex is 
+attenuated at the brainstem level due to activation of the metaboreflex. Increased metabolic accumulation (i.e., 
+lactate, ­Pi, and ­H+) caused by the use of CAF, as a result of increased cellular metabolism, promotes activation of 
+metaboreceptors. As a consequence, stimulation of non-myelinated afferent fibers (III and IV) leads to sympa-
+thetic activity, inducing a more accentuated parasympathetic response due to the maintenance of output power 
+for a longer time during ­exercise25. Similar responses were observed by Bunsawat et al. The ­authors42 observed a 
+parasympathetic response with the ingestion of 400 mg of caffeine (capsules) compared to the placebo condition, 
+resulting in greater exercise performance.
+Divergently from CAF conditions (PC and CC), the placebo condition demanded more power output to 
+complete the exercise at an expected time (i.e., shorter time as possible) (Fig. 2B), which justifies a more promi-
+nent sympathetic drive at the final TT-test. In line with this hypothesis, a parasympathetic withdrawal will be 
+expected at the placebo condition, as we found. This suggests that the rapid onset of the sympathetic response 
+in the final phase (i.e., TT-final) of exercise observed in the placebo (Fig. 3A) condition may have induced an 
+increase in ­Ca2+ release, as well as a decrease in ­Ca2+ reuptake by the sarcoplasmic reticulum, making available 
+more ­Ca2+ to the myocardial contractile mechanism, hindering a more pronounced parasympathetic ­response43.
+A direct effect of caffeine could not be neglected since the protective effect of caffeine on the cardiovascular 
+system is reported by Gourine and ­Gourine44, highlighting the importance of neural mechanisms involved in 
+heart protection against lethal ischemia/reperfusion injury. They suggested that effective cardioprotection strate-
+gies should increase cardiac parasympathetic activity, thus conferring plausible efficiency in reducing myocardial 
+damage and decreasing myocardial morbidity and ­mortality44. Our data could corroborate with this hypoth-
+esis, since CAF (6 mg ­kg−1) induced a greater vagal tone (V2 parameter) and smaller sympathetic activity (V1 
+parameter) during high-intensity activity, despite it is not possible to attribute this “cardioprotective” effect to 
+a direct action, which is out of scope from our study, being necessary more experiments with animal and/or 
+isolated cells to confirm it. Notwithstanding, it is important to note that the posterior probability of greater V2 
+and smaller V0 along TT-test with CAF supplementation were moderate to very-strong, as found with Bayesian 
+inference (Table 4).
+Clark et al.45 did not find differences in RMSSD, a HRV parameter obtained with a linear method (time 
+domain approach) and associated with parasympathetic modulation. However, three methodological aspects 
+need to be emphasized when comparing the results from this ­study45 and ours. They used (1) a low dose of CAF 
+(an energy drink formula containing 140 mg of caffeine); (2) a graded exercise test to exhaustion; (3) a linear 
+method to obtain estimations of heart autonomic modulation. A significant parasympathetic withdrawal is 
+expected in exercise designed to increase the intensity in a predetermined manner until failure, and the lower 
+CAF dose could be not sufficient to sustain the parasympathetic modulation along the exercise. Our study used 
+an exercise mimetizing a competition, where the athlete could choose the intensity, but be aware of the aim of 
+the exercise (i.e., conclude the 16 km as fast as possible). The last relevant difference ­between45 and our study 
+was the chosen method to analyze the variability of successive RR intervals, and nonlinear methods, as we used, 
+is reported to be more suitable to quantify complex phenomena such as control of cardiac function mediated 
+by ­ANS46–48.
+Despite the great effort to control the variables involved in the study, some limitations should be considered. 
+One of the limitations of our findings is associated with the use of a cycle ergometer in the laboratory. Thus, the 
+findings of the present study should be confirmed in additional research protocols, which use field tests (i.e., 
+cycling competition or simulations) or assessments using the athlete’s bicycle, to accurately transfer the results 
+of this investigation to coaches. Other limitations of the present study are related to the analysis of the plasma 
+catecholamine concentrations and the sympathetic nerve activity; however, we used HRV, a simple non-invasive 
+method and one of the most promising quantitative markers of autonomic heart rate ­balance49. The urine con-
+tent of caffeine metabolites (paraxanthine, theobromine, and theophylline) was also not analyzed in the present 
+study, which could indirectly reflect the pharmacokinetics of CAF. It has been shown that the increase in the 
+
+9
+Vol.:(0123456789)
+Scientific Reports |        (2021) 11:24327  | 
+https://doi.org/10.1038/s41598-021-03158-2
+www.nature.com/scientificreports/
+concentration of paraxanthine (one of the metabolites of CAF) has a different relationship with plasma levels of 
+CAF after the 60-min period of CAF ingestion (time used in the present study)50. The increase in paraxanthine 
+occurs at a slower rate than the CAF in plasma during this period (60 min), making its detection in urine even 
+more ­difficult51. Finally, we do not control Cytochrome P450 (CYP1A2) polymorphisms. These variations in 
+genes encoding CYP1A2 proteins can impact caffeine metabolism and potentiate dopaminergic neurotransmis-
+sion. However, as this condition is uncommon, conducting a study with this genetic outcome requires a robust 
+number of ­participants52.
+As a novelty from our study we highlight the use of a 16 km TT-test, a long task that mimetize cycling com-
+petitions tasks, instead of predominantly anaerobic tests, which have been used in previous studies, investigat-
+ing the cardiovascular effects of CAF supplementation. The use of symbolic analysis to estimate sympathovagal 
+modulation, and the Bayesian inference as a statistical approach, also represent novelty, since previous studies 
+in the field of our study did not include these promising mathematical approaches.
+In conclusion, our study has provided evidence that acute intake of CAF (6 mg ­kg−1) promotes ergogenic 
+effects in cyclists during 16 km TT-test, enhancing their average power output at the beginning of the TT-test 
+and sustaining it along the exercise. In addition, supplementation or withdrawal of CAF (6 mg ­kg−1) for 4 days 
+proved to be safe ergogenic strategies, since heart autonomic balance did not change 60 min after acute CAF 
+supplementation, 10 min after the TT-test and, demonstrated a relevant cardioprotective effect, through increased 
+vagal tone, along the TT-test, with a good posterior probability estimated by Bayesian inference. It is noteworthy 
+that the cardioprotective effect of caffeine was observed in healthy volunteers, and our findings should not be 
+transmitted to patients at high cardiovascular risk or cardiovascular disease. Other studies must be carried out 
+to assess the effects of different doses of CAF, and establish the most accurate dosage that enhances the results, 
+favors cardioprotection, and minimizes risks.
+Methods
+Sample size. 
+A statistical analysis of the test’s power (G * Power 3.1) was performed to estimate the sam-
+ple size based on the time trial cycling test (16 km) of a pilot study (n = 8 cyclists). Assuming repeated meas-
+ures, within factors (three interventions). The projected sample size was n = 12 with an effect size “f” of 0.41, 
+alpha = 0.05 and power = 0.80. Using a more conservative approach (a priori), with an effect size “f”of 0.36 (aver-
+age effect size), the projected sample size was n = 14, alpha = 0.05 and power = 0.80.
+Subjects. 
+Therefore, fourteen (n = 14) male recreationally-trained cyclists participated in an information 
+session with anamnesis purpose before the study began. The inclusion criteria were: all had at least 4 years 
+of experience, participated in at least 20 competitions (in 2018 and 2019), have no history of cardiorespira-
+tory, gastrointestinal, and musculoskeletal disorders in the last 3 months. A simple questionnaire evaluated the 
+training volume of all participants to warrant a homogenous sample for the study. They had a mean ± standard 
+deviation (SD) age of 34.1 ± 4.4 years, a height of 178 ± 9 cm, body mass of 79.1 ± 11.8 kg, body mass index of 
+24.6 ± 2.1 kg ­m2, maximal oxygen uptake ­(VO2max) of 51.5 ± 6.3 mL ­kg−1 ­min−1, and power output max (Wmax) 
+of 398.9 ± 35.1 W. The training volume of the cyclists was 202 ± 83 km per week. In addition, a validated caffeine 
+consumption questionnaire was administered to the participants, showing that all participants were moderate to 
+high caffeine consumers (285.92 ± 108.04 mg ­day−1)53,54. The research protocol (2.540.958/2018) was approved 
+by the Research Ethics Committee of the Federal University of Rio de Janeiro (UFRJ), and that all methods 
+were performed according to the guidelines of the Declarations of Helsinki. The project was registered with 
+the Brazilian Registry of Clinical Trials (RBR-5745nv—04/12/2019), which is accredited by the World Health 
+Organization.
+Study design
+A randomized, double-blind, crossover, placebo-controlled design was used in this study. On the first visit to 
+the laboratory, participants underwent dietary assessment and cycling test to exhaustion. On the second visit, 
+cyclists became familiar with the time trial test. So they received four visits from the researchers at home, one 
+per day, for delivery and verification of capsule consumption (according to randomization). The other day they 
+consumed the capsule acutely 60 min before the 16 km time trial test. The study preconized a seven-day washout 
+between the different intervention ­strategies19–21,55. We tested the following strategies: Placebo–Placebo (PP), 
+participants received Placebo (4-day supplementation), and Placebo (acute ingestion, 60 min before simulated 
+cycling TT-test completed). Placebo capsules were 250 mg of magnesium silicate single daily dose. Placebo–Caf-
+feine (PC), participants received Placebo (4-day supplementation), and Caffeine (acute ingestion, 60 min before 
+simulated cycling TT-test completed). Caffeine capsules were 6 mg ­kg−1 body mass. Caffeine–Caffeine (CC), 
+participants received Caffeine (4-day supplementation), and Caffeine (acute ingestion, 60 min before simulated 
+cycling TT-test completed). At the first visit to the laboratory, the researchers verified the routine energy and 
+caffeine intake of food, ­VO2max, and workload capacity in the graded test until exhaustion in the cycle ergometer. 
+The athletes were instructed to withdraw all their caffeine consumption (i.e., food sources of caffeine) during 
+the experiment and were monitored by telephone contact, email, and in-person. On the test day, cyclists arrived 
+fasting in the laboratory, and soon an intravenous cannula (20G Jelco; B. Braun Medical Inc., Bethlehem, PA, 
+USA) was inserted into the forearm, and then two blood samples (10 mL) were obtained: before ingestion of 
+capsules (baseline) and 60 min after intake of capsules. Cyclists did not exercise 24 h before the experimental 
+trials in the laboratory. The athletes were instructed to continue the routine of daily training. The experimental 
+trials were performed at the same time of day (7:00 a.m.).
+Informed consent. 
+Informed consent was obtained from all the participants involved in the study.
+
+10
+Vol:.(1234567890)
+Scientific Reports |        (2021) 11:24327  | 
+https://doi.org/10.1038/s41598-021-03158-2
+www.nature.com/scientificreports/
+Methodology
+Randomization. 
+We use the block randomization method to ensure a balanced sample size across the 
+groups using an online page http://​www.​rando​mizat​ion.​com (Supplementary File-Disposition of study partici-
+pants).
+VO2max and workload capacity. 
+To determine the ­VO2max, participants performed a graded exercise 
+test to exhaustion on the cycle ergometer (Cefise, São Paulo, Brazil). Participants started pedaling with 113 W 
+power, with 45 W increments every 2 min, and the pedaling rate 88 rev ­min−1 was kept constant until exhaus-
+tion. The maximum workload capacity (Wmax) was determined by the following equation: Wmax = Output 
+power (output) + ((t/113) * 45), “Output” is the workload in the last completed stage and “t” Is the time spent in 
+the final stage not ­completed53. Heart rate was monitored continuously (Polar Electro Oy, Kempele, Finland). 
+The pulmonary gas exchange was determined breath by breath for carbon dioxide, oxygen concentrations, and 
+minute ventilation using a VO2000 gas analysis system (MedGraphics, St. Paul, MN, USA). The equipment 
+was automatically calibrated according to the manufacturer’s specifications before each test. The present study 
+determined and validated the ­VO2max following these criteria: increase in ­VO2 less than 2.1 mL ­kg−1 ­min−1 by 
+increasing the intensity; exhaustion of the individual; the respiratory exchange ratio bigger than 1.10. The pla-
+teau in ­VO2 was determined when the difference in oxygen consumption in the final 30 s of the last two stages 
+(∆VO2) was ≤ 2.1 mL ­kg−1 ­min−1.
+Nutritional intervention. 
+The participants took a dose of anhydrous caffeine (6 mg ­kg−1 body mass) or pla-
+cebo (250 mg magnesium silicate), provided in gelatin capsules, identical in color, size, and appearance. Because 
+the participants are used to consuming average amounts of caffeine daily, around 285.92 ± 108.04 mg ­day−1 (veri-
+fied through a questionnaire), the present study chose to offer a higher dose than usual. This dose (6 mg ­kg−1 
+of body weight) represented a dosage of 474.78 ± 70.80 mg, exceeding the average amount of usual consump-
+tion, which made it possible to verify the effects of tolerance. In the presence of a researcher, all athletes were 
+instructed to take a single capsule daily at the same time (9:00 a.m.) during the 4-day supplementation. In 
+acute ingestion, the capsule was administered with 250 mL of water before simulated cycling TT-test completed. 
+Supplements for each participant were prepared and separated by a non-affiliated researcher to ensure double-
+blinding.
+Blinding efficacy. 
+Both in the caffeine and the placebo trials, after the exercise session, participants 
+responded to the following question: “Which supplement do you think you have ingested?”. The question had 
+three possible responses: (a) “caffeine”, (b) “placebo” and (c) “I do not know”56. With this information, we would 
+know the percentage of belief of caffeine consumption. A high frequency of this belief could influence the study 
+results as described by other ­authors56.
+Habitual food intake recording and caffeine‑containing foods. 
+Cyclists were instructed to main-
+tain their dietary and hydration patterns. A 24-h dietary record was completed by each athlete on the first visit 
+and, before the first test, it was photocopied and returned to the athletes so that the same diet could be repeated 
+for subsequent trials. The energy intake, carbohydrates, total proteins, and total lipids was determined. The 
+TACO database was used to quantify macronutrient intake and the Dietpro 5i software (version 5.8.1, Dietpro, 
+Minas Gerais, Brazil; https://​dietp​ro.​com.​br/​store/) for calculating nutrients and ensuring control of the study. 
+To assess the dietary frequency and the amount of caffeine, a validated questionnaire was applied by trained 
+nutritionists. The questionnaire consists of a list of dietary sources of CAF (coffee, tea, cocoa, chocolate, soft 
+drinks, medicines, and dietary supplements) and the time of consumption. Household measures were used to 
+assess the amount of food consumed according to the following frequency of ­consumption54. Types of foods, 
+dietary supplements, and medications that contained caffeine were identified. The CAF content was obtained 
+from the U.S. DEPARTMENT OF AGRICULTURE food composition databases, on food labels, and the medica-
+tion package insert.
+HRV analysis. 
+Participants went to the laboratory with a comfortable temperature (20–23 °C) at standard-
+ized times, individually scheduled on an 8-h fast and after a good night’s sleep (at least 6 h). Successive RR inter-
+vals were acquired for 5 min while supine (REST) and along the TT-test. Beat-to-beat intervals were recorded by 
+a validated heart rate monitor (Polar RS800, Polar Electro Oy, Kempele, Finland) for HRV ­analysis57. The sam-
+pling frequency was set at 1000 Hz, the smoothness prior method with alpha set at 500 was used for detrended 
+the R-R intervals series. They were studied 48 h far away from the last bout of physical exercise to avoid the short-
+term autonomic and cardiovascular confounding after-effects induced by recent training sessions. Recordings at 
+supine position (HRV-SP) were performed three times, before the ingestion of the capsule (PRE suppl), 60 min 
+after supplementation (PRE exerc), and 10 min after the TT-test (POST). Recording of the HRV during the TT-
+test (HRV-TT) was done during the entire time of the exercise execution. The nonlinear dynamics of successive 
+RR intervals were assessed by symbolic ­analysis29 during the TT-test. The R-R dynamics were classified into three 
+pattern families: (I) patterns with no variation (V0; all three symbols were equal); (II) patterns with one variation 
+(V1; two consequent symbols were equal, and the remaining symbol was different); and (III) patterns with two 
+unlike or like variations (V2; all of the symbols were different from the previous ones). The percentage of the pat-
+terns V0 was calculated as sympathetic modulation predominance, V1 reflects sympathetic and parasympathetic 
+modulation, and the V2 calculated as a parasympathetic modulation as suggested by Santos et al.17. The data (i.e., 
+successive RR intervals) were transferred to a computer for analysis. For the recordings from supine position, the 
+
+11
+Vol.:(0123456789)
+Scientific Reports |        (2021) 11:24327  | 
+https://doi.org/10.1038/s41598-021-03158-2
+www.nature.com/scientificreports/
+5-min successive RR intervals were selected for analysis, while for TT-test, the visual inspection was carried out 
+to find and select a segment of 1000 successive RR intervals where the stationarity of the time series was accept-
+able at three moments: beginning, midway and final of each TT-test session. All RR interval variability analyses 
+were carried out by the same researcher which was blind for the applied treatment in each data set.
+Blood caffeine levels. 
+The measurement of blood levels of caffeine was performed at baseline and 60 min 
+after intake of capsules. Serum was obtained by centrifugation at 2.500 rpm at 4 °C for 20 min. The resultant 
+serum was stored at − 20 °C until the analyses could be performed. The caffeine blood levels were determined 
+using a HPLC method previously ­described20. The HPLC analyses were carried out using a Shimadzu chroma-
+tograph (Shimadzu Corp., Kyoto, Japan).
+16 km time trial test (TT‑test). 
+Before the TT-test, the participants underwent a 5-min warm-up at 
+113 W (88 rev ­min−1), followed immediately by the TT-test. The protocol consisted of a continuous test, the par-
+ticipant was instructed to cover the distance of 16 km in the work intensity as quickly as possible with 50% of the 
+maximum workload capacity (199.67 ± 17.90 W equivalent ~ 407 kJ) on the cycle ­ergometer58. The cycle ergom-
+eter was connected to a laptop using the “Ergometric” software (version 7.0, Cefise, São Paulo, Brazil; https://​
+cefise.​com.​br/​produ​tos/​ciclo​ergom​etria/) for the collection and storage of data, such as power (W) and cadence 
+(rev ­min−1). Participants did not receive any performance feedback during the tests. The only information that 
+the participants received was the distance reached: 2 km, 4 km, 6 km, 8 km, 10 km, 12 km, 14 km, and 16 km. The 
+analyses of the power outputs were measured in 3 equals intervals (Beginning, Midway and Final) of the com-
+pleted TT-test time curve. All tests were carried out in a laboratory with a controlled temperature of 20–23 °C 
+with a relative humidity of 45–55%. The dynamics of data acquisition in the laboratory can be seen in Fig. 4.
+Statistical analysis. 
+Data expressed as mean ± SD (mean ± SE in graphics) or median (interquartile devia-
+tion) according to the normality assessed by the Shapiro Wilk test. When data showed normal distribution the 
+variables were analyzed by mixed ANOVA with repeated measures. The Mauchly sphericity test was performed 
+for all tested variables, and the Greenhouse–Geisser correction was used in cases where the sphericity assump-
+tion was violated. Tukey’s post hoc test was used for means multiple comparisons. When data presented a non-
+normal distribution the Kruskal Wallis test was used (version 19.0, SPSS; https://​www.​ibm.​com/​br-​pt/​analy​tics/​
+spss-​stati​stics-​softw​are). Effect sizes (ES) were reported as η2 p with 95% confidence intervals and Delta (Δ) of 
+CAF supplementation was calculated as the difference between the means corresponding to CAF (PC and CC) 
+and placebo (PP). For all statistical analyzes, a significance level of 5% was adopted (α = 5%). To check the quali-
+tative outcomes and the probability to replicate the same results (i.e., the magnitude of the evidence), we applied 
+the Bayes Factor hypothesis testing analyses. The posterior odds have been corrected for multiple testing by fix-
+ing to 0.5 the prior probability that the null hypothesis holds across all ­comparisons59. Individual comparisons 
+are based on the default t test with a Cauchy (0, r = 1/sqrt(2)) prior. The "U" in the Bayes factor denotes that it 
+is uncorrected. The outcomes were classified as anecdotal (BF10 = 1–3), moderate (3–10), strong (10–30), very 
+strong (30–100) and extreme (> 100) favoring the alternative hypothesis; or anecdotal (BF10 = 1–0.33), moderate 
+(0.33–0.1), strong (0.1–0.03), very strong (0.03–0.01) and extreme (< 0.01) favoring the null hypothesis (Lee and 
+Wagenmakers’ classification)60. To calculate the probability to find the same results again, we divided the actual 
+BF10 value by BF10 + 1. We made all BF analysis through the JAMOVI.
+Figure 4.   Dynamics of data acquisition. Placebo–Placebo (PP), Placebo–Caffeine (PC) and Caffeine–Caffeine 
+(CC) conditions were tested in 16 km time Trial (16 km TT) performance and HRV analysis were done 
+pre supplementation (HRV-SP PRE suppl), post supplementation (HRV-SP POST suppl) during 16 km TT 
+(HRV-TT) and post 16 km TT (HRV-SP Post).
+
+12
+Vol:.(1234567890)
+Scientific Reports |        (2021) 11:24327  | 
+https://doi.org/10.1038/s41598-021-03158-2
+www.nature.com/scientificreports/
+Received: 15 August 2021; Accepted: 29 November 2021
+References
+	 1.	 Mitchell, D. C., Knight, C. A., Hockenberry, J., Teplansky, R. & Hartman, T. J. Beverage caffeine intakes in the U.S.. Food Chem. 
+Toxicol. 63, 136–142 (2014).
+	 2.	 Southward, K., Rutherfurd-Markwick, K. J. & Ali, A. The effect of acute caffeine ingestion on endurance performance: A systematic 
+review and meta-analysis. Sports Med. 48, 1913–1928 (2018).
+	 3.	 Ferreira, R. E. S. et al. Effects of caffeine supplementation on physical performance of soccer players: Systematic review and meta-
+analysis. Sports Health 13, 347–358 (2021).
+	 4.	 Lara, B., Ruiz-Moreno, C., Salinero, J. J. & Del Coso, J. Time course of tolerance to the performance benefits of caffeine. PLoS ONE 
+14, e0210275 (2019).
+	 5.	 Pickering, C. & Kiely, J. What should we do about habitual caffeine use in athletes?. Sports Med. 49, 833–842 (2019).
+	 6.	 Zuchinali, P. et al. Short-term effects of high-dose caffeine on cardiac arrhythmias in patients with heart failure: A randomized 
+clinical trial. JAMA Intern. Med. 176, 1752–1759 (2016).
+	 7.	 Kitano, T., Okajima, M., Sato, K., Noda, T. & Taniguchi, T. Suicidal attempt with caffeine overdose treated with dexmedetomidine: 
+A case report. J. Med. Case Rep. 15, 11 (2021).
+	 8.	 Elhaj, H. M., Imam, O., Page, B. W., Vitale, J. M. & Malek, M. H. Perceived consumption of a high-dose caffeine drink delays 
+neuromuscular fatigue. J. Strength Cond. Res. Publish Ahead of Print (2020).
+	 9.	 Schwabe, U., Ukena, D. & Lohse, M. J. Xanthine derivatives as antagonists at A1 and A2 adenosine receptors. Naunyn. Schmiede-
+bergs. Arch. Pharmacol. 330, 212–221 (1985).
+	10.	 Petzer, A., Pienaar, A. & Petzer, J. P. The interactions of caffeine with monoamine oxidase. Life Sci. 93, 283–287 (2013).
+	11.	 Lévy, S. et al. European Cardiac Arrhythmia Society Statement on the cardiovascular events associated with the use or abuse of 
+energy drinks. J. Interv. Card. Electrophysiol. 56, 99–115 (2019).
+	12.	 Basrai, M. et al. Energy drinks induce acute cardiovascular and metabolic changes pointing to potential risks for young adults: A 
+randomized controlled trial. J. Nutr. 149, 441–450 (2019).
+	13.	 Okudaira, N., Kuwahara, M., Hirata, Y., Oku, Y. & Nishio, H. A knock-in mouse model of N-terminal R420W mutation of cardiac 
+ryanodine receptor exhibits arrhythmogenesis with abnormal calcium dynamics in cardiomyocytes. Biochem. Biophys. Res. Com-
+mun. 452, 665–668 (2014).
+	14.	 Malik, M. et al. Heart rate variability: Standards of measurement, physiological interpretation, and clinical use. Eur. Heart J. 17, 
+354–381 (1996).
+	15.	 Dömötör, Z., Szemerszky, R. & Köteles, F. Subjective and objective effects of coffee consumption—Caffeine or expectations?. Acta 
+Physiol. Hung. 102, 77–85 (2015).
+	16.	 Sondermeijer, H. P., van Marle, A. G. J., Kamen, P. & Krum, H. Acute effects of caffeine on heart rate variability. Am. J. Cardiol. 90, 
+906–907 (2002).
+	17.	 dos Santos, J. H. B. et al. The D allele of angiotensin-converting enzyme gene is associated with a worse autonomic heart control 
+in community-based older adults. Exp. Gerontol. 146, 111227 (2021).
+	18.	 Kim, J. & Kim, E.-K. Nutritional strategies to optimize performance and recovery in rowing athletes. Nutrients 12, 1685 (2020).
+	19.	 Wilk, M., Krzysztofik, M., Maszczyk, A., Chycki, J. & Zajac, A. The acute effects of caffeine intake on time under tension and power 
+generated during the bench press movement. J. Int. Soc. Sports Nutr. 16, 8 (2019).
+	20.	 Ribeiro, B. G. et al. Caffeine attenuates decreases in leg power without increased muscle damage. J. Strength Cond. Res. 30, 
+2354–2360 (2016).
+	21.	 Irwin, C. et al. Caffeine withdrawal and high-intensity endurance cycling performance. J. Sports Sci. 29, 509–515 (2011).
+	22.	 Beaumont, R. et al. Chronic ingestion of a low dose of caffeine induces tolerance to the performance benefits of caffeine. J. Sports 
+Sci. 35, 1920–1927 (2017).
+	23.	 Martins, G. L., Guilherme, J. P. L. F., Ferreira, L. H. B., de Souza-Junior, T. P. & Lancha, A. H. Jr. Caffeine and exercise performance: 
+Possible directions for definitive findings. Front Sports Act Living 2, 574854 (2020).
+	24.	 Dodd, S. L., Brooks, E., Powers, S. K. & Tulley, R. The effects of caffeine on graded exercise performance in caffeine naive versus 
+habituated subjects. Eur. J. Appl. Physiol. Occup. Physiol. 62, 424–429 (1991).
+	25.	 Gonzaga, L. A., Vanderlei, L. C. M., Gomes, R. L. & Valenti, V. E. Caffeine affects autonomic control of heart rate and blood pres-
+sure recovery after aerobic exercise in young adults: A crossover study. Sci. Rep. 7, 14091 (2017).
+	26.	 Lahiri, M. K. et al. Recovery of heart rate variability and ventricular repolarization indices following exercise. Ann. Noninvasive 
+Electrocardiol. 17, 349–360 (2012).
+	27.	 Reserch, C. M., Case Medical Research. Comparison of plasma caffeine concentration after oral consumption of caffeinated bever-
+ages with varied Bioactive compounds in healthy volunteers. Case Med. Res. https://​doi.​org/​10.​31525/​ct1-​nct04​281758 (2020).
+	28.	 Caliskan, S. G. & Bilgin, M. D. Non-linear analysis of heart rate variability for evaluating the acute effects of caffeinated beverages 
+in young adults—ERRATUM. Cardiol. Young 30, 1382 (2020).
+	29.	 Guzzetti, S. et al. Symbolic dynamics of heart rate variability: A probe to investigate cardiac autonomic modulation. Circulation 
+112, 465–470 (2005).
+	30.	 Porta, A. et al. Assessment of cardiac autonomic modulation during graded head-up tilt by symbolic analysis of heart rate vari-
+ability. Am. J. Physiol. Heart Circ. Physiol. 293, H702–H708 (2007).
+	31.	 Glaister, M. & Moir, G. Effects of caffeine on time trial performance and associated physiological responses: A meta-analysis. J. 
+Caffeine Adenosine Res. 9, 40–52 (2019).
+	32.	 Shen, J. G., Brooks, M. B., Cincotta, J. & Manjourides, J. D. Establishing a relationship between the effect of caffeine and duration 
+of endurance athletic time trial events: A systematic review and meta-analysis. J. Sci. Med. Sport 22, 232–238 (2019).
+	33.	 Ivy, J. L. et al. Improved cycling time-trial performance after ingestion of a caffeine energy drink. Int. J. Sport Nutr. Exerc. Metab. 
+19, 61–78 (2009).
+	34.	 Khcharem, A., Souissi, M., Atheymen, R., Souissi, W. & Sahnoun, Z. Acute caffeine ingestion improves 3-km run performance, 
+cognitive function, and psychological state of young recreational runners. Pharmacol. Biochem. Behav. 207, 173219 (2021).
+	35.	 Acevedo, J. et al. Caffeine stimulates locomotor activity in the mammalian spinal cord via adenosine A1 receptor-dopamine D1 
+receptor interaction and PKA-dependent mechanisms. Neuropharmacology 101, 490–505 (2016).
+	36.	 Lago-RodrÍguez, Á., Jodra, P., Bailey, S. & DomÍnguez, R. Caffeine improves performance but not duration of the countermove-
+ment jump phases. J. Sports Med. Phys. Fitness 61, 199–204 (2021).
+	37.	 Durkalec-Michalski, K., Nowaczyk, P. M., Główka, N. & Grygiel, A. Dose-dependent effect of caffeine supplementation on judo-
+specific performance and training activity: A randomized placebo-controlled crossover trial. J. Int. Soc. Sports Nutr. 16, 1–14 (2019).
+	38.	 De Sanctis, V. et al. Caffeinated energy drink consumption among adolescents and potential health consequences associated with 
+their use: A significant public health hazard. Acta Biomed. 88, 222–231 (2017).
+	39.	 Smith, B. D., Gupta, U. & Gupta, B. S. Caffeine and activation theory: effects on health and behavior (CRC Press, Boca Raton, 2006).
+	40.	 Riksen, N. P., Smits, P. & Rongen, G. A. The cardiovascular effects of methylxanthines. Handb. Exp. Pharmacol. 413–437 (2011).
+
+13
+Vol.:(0123456789)
+Scientific Reports |        (2021) 11:24327  | 
+https://doi.org/10.1038/s41598-021-03158-2
+www.nature.com/scientificreports/
+	41.	 Sarshin, A. et al. The effects of varying doses of caffeine on cardiac parasympathetic reactivation following an acute bout of anaero-
+bic exercise in recreational athletes. J. Int. Soc. Sports Nutr. 17, 44 (2020).
+	42.	 Bunsawat, K., White, D. W., Kappus, R. M. & Baynard, T. Caffeine delays autonomic recovery following acute exercise. Eur. J. Prev. 
+Cardiol. 22, 1473–1479 (2015).
+	43.	 Hartzell, H. C., Méry, P. F., Fischmeister, R. & Szabo, G. Sympathetic regulation of cardiac calcium current is due exclusively to 
+cAMP-dependent phosphorylation. Nature 351, 573–576 (1991).
+	44.	 Gourine, A. & Gourine, A. V. Neural mechanisms of cardioprotection. Physiology 29, 133–140 (2014).
+	45.	 Clark, N. W. et al. Heart rate variability behavior during exercise and short-term recovery following energy drink consumption 
+in men and women. Nutrients 12, 2372 (2020).
+	46.	 Voss, A., Kurths, J., Kleiner, H. J., Witt, A. & Wessel, N. Improved analysis of heart rate variability by methods of nonlinear dynam-
+ics. J. Electrocardiol. 28(Suppl), 81–88 (1995).
+	47.	 Kurths, J. et al. Quantitative analysis of heart rate variability. Chaos 5, 88–94 (1995).
+	48.	 Henriques, T. et al. Nonlinear methods most applied to heart-rate time series: A review. Entropy 22, 309 (2020).
+	49.	 Vanderlei, L. C. M., Pastre, C. M., Hoshi, R. A., Carvalho, T. D. & Godoy, M. F. Basic notions of heart rate variability and its clinical 
+applicability. Rev. Bras. Cir. Cardiovasc. 24, 205–217 (2009).
+	50.	 Conway, K. J., Orr, R. & Stannard, S. R. Effect of a divided caffeine dose on endurance cycling performance, postexercise urinary 
+caffeine concentration, and plasma paraxanthine. J. Appl. Physiol. 94, 1557–1562 (2003).
+	51.	 Lajin, B., Schweighofer, N., Goessler, W. & Obermayer-Pietsch, B. The determination of the paraxanthine/caffeine ratio as a meta-
+bolic biomarker for CYP1A2 activity in various human matrices by UHPLC-ESIMS/MS. Talanta 234, 122658 (2021).
+	52.	 Fulton, J. L. et al. Impact of genetic variability on physiological responses to caffeine in humans: A systematic review. Nutrients 
+10, 1373 (2018).
+	53.	 Gonçalves, L. D. S. et al. Dispelling the myth that habitual caffeine consumption influences the performance response to acute 
+caffeine supplementation. J. Appl. Physiol. 123, 213–220 (2017).
+	54.	 Shohet, K. L. & Landrum, R. E. Caffeine consumption questionnaire: A standardized measure for caffeine consumption in under-
+graduate students. Psychol. Rep. 89, 521–526 (2001).
+	55.	 Konishi, Y. et al. Effect of single caffeine intake on neuropsychological functions in healthy volunteers: A double-blind placebo-
+controlled study. PLoS ONE 13, e0202247 (2018).
+	56.	 Saunders, B. et al. Placebo in sports nutrition: A proof-of-principle study involving caffeine supplementation. Scand. J. Med. Sci. 
+Sports 27, 1240–1247 (2017).
+	57.	 da Cruz, C. J. G. et al. Impact of heart rate on reproducibility of heart rate variability analysis in the supine and standing positions 
+in healthy men. Clinics 74, e806 (2019).
+	58.	 Jeukendrup, A. E., Hopkins, S., Aragón-Vargas, L. F. & Hulston, C. No effect of carbohydrate feeding on 16 km cycling time trial 
+performance. Eur. J. Appl. Physiol. 104, 831–837 (2008).
+	59.	 Westfall, P. A Bayesian perspective on the Bonferroni adjustment. Biometrika 84, 419–427 (1997).
+	60.	 Quintana, D. S. & Williams, D. R. Bayesian alternatives for common null-hypothesis significance tests in psychiatry: A non-
+technical guide using JASP. BMC Psychiatry 18, 178 (2018).
+Author contributions
+F.S.-J., A.P.M. and B.G.R. were involved in the conceptualization of the study, data collection, data analysis, and 
+the writing of the manuscript. R.P. assisted in analysis, and interpretation. T.B. helped with the HPLC analyses. 
+All authors reviewed the manuscript.
+Funding
+This study was financed in part by the Coordenação de Aperfeiçoamento de Pessoal de Nível Superior—CAPES—
+Brasil and by Fundação de Amparo à Pesquisa do Estado do Rio de Janeiro (FAPERJ).
+Competing interests 
+The authors declare no competing interests.
+Additional information
+Supplementary Information The online version contains supplementary material available at https://​doi.​org/​
+10.​1038/​s41598-​021-​03158-2.
+Correspondence and requests for materials should be addressed to F.S.-J.
+Reprints and permissions information is available at www.nature.com/reprints.
+Publisher’s note  Springer Nature remains neutral with regard to jurisdictional claims in published maps and 
+institutional affiliations.
+Open Access   This article is licensed under a Creative Commons Attribution 4.0 International 
+License, which permits use, sharing, adaptation, distribution and reproduction in any medium or 
+format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the 
+Creative Commons licence, and indicate if changes were made. The images or other third party material in this 
+article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the 
+material. If material is not included in the article’s Creative Commons licence and your intended use is not 
+permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from 
+the copyright holder. To view a copy of this licence, visit http://​creat​iveco​mmons.​org/​licen​ses/​by/4.​0/.
+© The Author(s) 2021

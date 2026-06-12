@@ -1,0 +1,1528 @@
+pharmaceutics
+Review
+Interaction of Energy Drinks with Prescription Medication and
+Drugs of Abuse
+Olga Hladun 1,2, Esther Papaseit 1,2,*, Soraya Martín 1, Ana Maria Barriocanal 1,2, Lourdes Poyatos 1,2
+,
+Magí Farré 1,2,†
+and Clara Pérez-Mañá 1,2,†
+
+
+Citation: Hladun, O.; Papaseit, E.;
+Martín, S.; Barriocanal, A.M.; Poyatos,
+L.; Farré, M.; Pérez-Mañá, C.
+Interaction of Energy Drinks with
+Prescription Medication and Drugs of
+Abuse. Pharmaceutics 2021, 13, 1532.
+https://doi.org/10.3390/
+pharmaceutics13101532
+Academic Editors: Im-Sook Song and
+Min-Koo Choi
+Received: 16 July 2021
+Accepted: 18 September 2021
+Published: 22 September 2021
+Publisher’s Note: MDPI stays neutral
+with regard to jurisdictional claims in
+published maps and institutional afﬁl-
+iations.
+Copyright: © 2021 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed
+under
+the
+terms
+and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).
+1
+Clinical Pharmacology Unit, Hospital Universitari Germans Trias i Pujol, Institut de Recerca Germans Trias i
+Pujol (HUGTiP-IGTP), 08916 Badalona, Spain; ohladun.germanstrias@gencat.cat (O.H.);
+smartins.mn.ics@gencat.cat (S.M.); abarrio.germanstrias@gencat.cat (A.M.B.); lpoyatos@igtp.cat (L.P.);
+mfarre.germanstrias@gencat.cat (M.F.); cperezm.mn.ics@gencat.cat (C.P.-M.)
+2
+Department of Pharmacology, Therapeutics and Toxicology, Universitat Autònoma de Barcelona,
+08193 Cerdanyola del Vallés, Spain
+*
+Correspondence: epapaseit.germanstrias@gencat.cat; Tel.: +34-934978843
+†
+These authors have contributed equally to this work.
+Abstract: In recent years, the consumption of energy drinks (EDs) has become increasingly popular,
+especially among adolescents. Caffeine, a psychostimulant, is the main compound of EDs which
+also contain other substances with pharmacological effects. This review aims to compile current
+evidence concerning the potential interactions between EDs, medicines, and drugs of abuse as they
+are frequently consumed in combination. The substances involved are mainly substrates, inductors
+or inhibitors of CYP1A2, psychostimulants, alcohol and other depressant drugs. Furthermore,
+intoxications reported with EDs and other substances have also been screened to describe acute
+toxicity. The results of our review show that the consumption of both EDs alone and in combination
+is not as safe as previously thought. Health professionals and consumers need to be aware of the
+potential interactions of these drinks as well as the absence of long-term safety data.
+Keywords: energy drinks; caffeine; drug interactions; pharmacokinetics
+1. Introduction
+Since the 1980s, the consumption of energy drinks (EDs) has increased, with teenagers
+and young adults representing the principal consumers [1]. In a United States national
+survey [2], the greatest prevalence of ED consumption was found among 13–24 years old
+(10% of caffeine consumers). In a European one, 13% of daily caffeine intake in adolescents
+was from EDs [3]. Combining EDs with alcohol is also popular among young people, either
+as a mixed cocktail or in the same drinking session [4]. For instance, one in four youths in
+North America had consumed alcohol with EDs during the previous year [5,6]. In Europe,
+48% of university students using EDs had taken them with alcohol [7] while in Australia
+half of respondents reported mixing alcohol and EDs at least once in the last year [8]. In
+the 2019 survey of Monitoring for the Future, between 10% and 12% of students in 8th,
+10th, and 12th grades reported using one or more EDs per day in the United States. In the
+same report, 4% to 5% of students in all three grades reported use of one or more energy
+shots per day, each typically coming in containers of two to three ounces [9].
+The latest Survey on Drug Use in Secondary Schools in Spain (ESTUDES survey),
+designed to collect data on situations and trends in drug use and other addictions among
+secondary school students aged 14 to 18 years, reported that 4 out of 10 had drunk EDs
+in the previous 30 days. Prevalence was found to be higher in boys (49.7%) than girls
+(31.1%). Regarding consumption of EDs with recreational drugs [10], alcohol was the ﬁrst
+concomitant drug (74.4%), followed by tobacco (40%), cannabis (31.3%), sedatives (8.3%),
+cocaine (1.85%), and ecstasy (1.3%) [11].
+Pharmaceutics 2021, 13, 1532. https://doi.org/10.3390/pharmaceutics13101532
+https://www.mdpi.com/journal/pharmaceutics
+
+Pharmaceutics 2021, 13, 1532
+2 of 16
+The main ingredient in EDs is caffeine. Depending on the brand, other components
+include guarana (a plant containing concentrated caffeine), taurine, ginseng, Ginkgo biloba,
+5-hydroxytryptophan, bitter orange, B vitamins, yerba mate, glucuronolactone, and high
+sugar content [12,13]. The short and long-term health effects of many of these ingredients,
+and ED consumption in general, are, for the most part unknown [13].
+Young people report ED consumption as conferring increased energy, augmented
+alertness, and improved athletic performance [14,15]. In recent years, many authors have
+observed that ED intake causes adverse effects, including high blood pressure, changes
+in corrected QT interval (QTc), serious cardiovascular events, digestive and kidney disor-
+ders, metabolic adverse effects, poor sleep, neuropsychiatric adverse effects, seizures, and
+death [16–21]. Furthermore, several studies suggest that EDs may serve as a gateway to
+other forms of substance dependence [16,22,23]. Additionally, an association with suicide
+plan/attempt in a paediatric population with a frequent use of EDs (≥5 times/week) has
+been described [24].
+The purpose of this narrative review is to outline the potential interactions of EDs with
+medication and drugs of abuse, and perform a literature search of reports of intoxication,
+even those with fatal consequences.
+2. Materials and Methods
+We carried out the search for interactions and cases of intoxication with EDs on
+the PubMed/MEDLINE and Cochrane Library electronic databases. The keywords em-
+ployed were: energy drink combined with interaction, intoxication, poisoning, emergency,
+fatal outcome, adverse event, death, alcohol interaction, methanol interaction, cocaine,
+amphetamine, methamphetamine, mephedrone, nicotine, ecstasy, MDMA, heroin, mari-
+huana, cannabis, medical drugs and herbal medicine. Interactions mentioned in reference
+books and online databases [25], and in the product information of caffeine-containing
+medication [26], were also included.
+Additionally, we looked for systematic reviews and meta-analyses assessing the
+effects of EDs combined with alcohol using the words ‘energy drink and alcohol’, limiting
+the search for this kind of studies. Clinical trials published after 2 March 2017 were
+also screened.
+All references published until 3 September 2021 were included.
+3. Results
+3.1. Mechanism of Action, Pharmacokinetics, and Adverse Effects
+EDs have stimulant properties due to their caffeine content. They also contain other
+ingredients with pharmacological effects. Nevertheless, it should be taken into account
+that the quantities of the substances other than caffeine found in popular EDs could be
+lower than expected in order to produce either therapeutic beneﬁts or adverse effects [14].
+3.1.1. Caffeine
+Caffeine is a common ingredient in all EDs. A standard 250 mL ED contains 80 mg,
+which is equivalent to an average cup of coffee. The content of caffeine depends on the
+brand, ranging from 80 mg to 320 mg per unit [27]. The most concentrated EDs are usually
+called energy shots and can have up to 350 mg per unit. Caffeine may be derived from
+other ED ingredients such as guarana and yerba mate [14,28], and is also a component of
+some medicines [29].
+Caffeine is a methylxanthine, in the same group as theophylline. It is a central nervous
+system (CNS) stimulant through its blockage of adenosine receptors, mainly A1 and A2A
+subtypes, thus competitively antagonizing their action. The absorption of adenosine by the
+CNS cells is one of the mechanisms that triggers sleep and sedation. Moreover, caffeine
+slightly increases the release of norepinephrine and dopamine, enhancing the neural ac-
+tivity of numerous brain areas. In addition, it exerts cardiovascular effects (chronotropic
+effect, hypotension, diuresis). Tachycardia can be explained by phosphodiesterase (PDE)
+
+Pharmaceutics 2021, 13, 1532
+3 of 16
+3 inhibition, A1 receptor antagonism, and catecholamine release. Hypotension is mediated
+by β2 adrenergic receptor-agonism while the diuretic effect is due to adenosine A recep-
+tor antagonism. Furthermore, caffeine acts as a PDE4 inhibitor causing bronchospasm,
+increased gastric secretions, headache, and vomiting. Bronchodilation can also be ex-
+plained by A1 receptor antagonism, the catecholamine release is associated with headache
+and vomiting [13,30,31].
+The main pharmacokinetic features of caffeine are rapid absorption when ingested
+orally, with a peak level in blood reached within 30 to 120 min, depending on the
+formulation [22,31,32]. It is metabolized into active methylxanthine metabolites through
+liver cytochrome P450 1A2 (CYP1A2) [31], including 3% to 10% into theophylline [32].
+Caffeine metabolites are excreted in urine [32]. At lower dosages, caffeine follows ﬁrst-
+order elimination kinetics. However, at higher concentrations, enzymatic saturation occurs,
+and metabolism converts it to zero-order kinetics. This may lead to accumulation and in-
+creased toxicity [33]. The elimination half-life of caffeine in adults ranges from 3 to 7 h [34]
+depending on CYP1A2 activity [31].
+Caffeine poisoning symptoms have been extensively described according to the
+systems involved. Among the cardiovascular side effects, the following have been ob-
+served: increased blood pressure and heart rate [22,35], arrhythmias [35], coronary artery
+spasm [35,36], aortic dissection [35], acute ST-elevation myocardial infarction [35–37],
+stress-induced cardiomyopathy or Takotsubo cardiomyopathy [35,38]. Digestive and
+kidney disorders [39] include emesis [40], hepatitis [13], acute renal failure [13], rhab-
+domyolysis [22], and metabolic acidosis [22]. Obesity and hyperinsulinemia have been
+reported as metabolic adverse effects [22]. Neuropsychiatric adverse effects include epilep-
+tic seizures [13,14,24,32,37,40,41], reversible cerebral vasoconstriction [22], intracerebral
+haemorrhage [13,22], acute psychosis [13,22,37], and risk-taking behaviours [13] (for in-
+stance, hazardous driving with excessive speed and seat belt omission [22], sexual risk
+taking [22], and drug use [41]).
+3.1.2. Guarana
+Guarana (Paullinia cupana) contains concentrated caffeine, up to 3.6–5.8% by weight
+(twice that found in coffee beans). Its mechanism of action, pharmacokinetics, and effects
+are therefore similar to those previously described for caffeine (see Section 3.1.1). Guarana
+intoxication produces water loss, gastric irritation, nausea, vomiting, metabolic acidosis, hy-
+perglycaemia, ketosis, chest pain, syncope, tachydysrhythmia (a risk that is increased in the
+case of structural heart disease), shortness of breath, insomnia, nervousness, restlessness,
+tremors, anxiety, mania, seizures, and even sudden death [14,35,41].
+3.1.3. Yerba Mate
+Yerba mate (Ilex paraguariensis) contains xanthines such as caffeine, theophylline, and
+theobromine. The dried leaves of the plant contain approximately 1–2% caffeine [42].
+Effects described for caffeine can also be applied for this substance [19,28].
+3.1.4. Taurine
+Taurine is a derivative of the amino acid cysteine naturally produced in the body [21].
+It is sometimes erroneously classiﬁed as a CNS stimulant, although it has anxiolytic effects
+and interacts with the glutamatergic and GABAergic receptors [43]. In vitro studies have
+shown that taurine has inotropic effects on cardiac muscle similar to those of caffeine, and
+enhances caffeine-induced muscle contracture [36]. It also reduces blood pressure [21].
+Taurine, once ingested and absorbed by active transport through the enterocytes,
+reaches the blood circulation and enters cells through the taurine transporter (TauT) [44].
+Taurine, which does not seem to have liver metabolism, has urinary excretion [45]. In
+healthy volunteers, adverse effects appeared with high doses and consisted in muscle
+cramps [21]. Death has been documented only in combination with caffeine [14], or
+caffeine plus strenuous physical activity in physiologically predisposed individuals [36].
+
+Pharmaceutics 2021, 13, 1532
+4 of 16
+3.1.5. Ginseng
+Ginseng (Panax ginseng) is also a CNS/cardiac stimulant. Ginseng is used to relieve
+fatigue [46] and to treat hyperglycaemia because it has hypoglycaemic effects [21]. Intoxi-
+cation leads to insomnia, headaches, vertigo, euphoria, mania, mastalgia, rashes, vaginal
+bleeding, amenorrhea, tachycardia, palpitations, hypertension, and oedema [34].
+3.1.6. Ginkgo biloba
+Ginkgo biloba is one of the oldest living tree species. Most ginkgo products are made
+from the extract obtained from its fan-shaped leaves. It contains ginkgo-ﬂavone glycosides,
+terpenes, lactones (ginkgolides), and 4’-O-methylpyridoxine (ginkgotoxin). Ginkgo-ﬂavone
+glycosides have antioxidant effects while ginkgolides inhibit platelet-activating factor (PAF)
+facilitating blood ﬂow [47].
+3.1.7. 5-Hydroxytryptophan
+5-hydroxytryptophan is made from the seeds of the African plant Griffonia simplicifolia.
+It is a chemical precursor and metabolic intermediate in the biosynthesis of the neuro-
+transmitter serotonin. It can be effective to treat depression, ﬁbromyalgia, binge eating
+associated with obesity, chronic headaches, and insomnia [48].
+3.1.8. Bitter Orange
+Bitter orange (Citrus aurantium) is also a stimulant. It contains an active ingredient
+called synephrine that is similar to ephedra [49]. Intoxication leads to myocardial infarction,
+hypertension, dysrhythmia, stroke, seizure, migraine, headache, and photosensitivity [14].
+3.1.9. Glucuronolactone
+Glucuronolactone is a carbohydrate derived from glucose through its metabolism in
+the liver. It is transformed to L-ascorbic and xylulose (the enzyme involved is unknown)
+and excreted by the kidneys [50]. No reports of intoxication with this product have been
+found [19,34,51].
+3.2. Interactions with Prescription Medication and Drugs of Abuse
+As well as for pharmacological effects, caffeine is the primary ingredient of concern
+when considering ED interactions with other substances. EDs contain other ingredients
+that may interact with medicines and drugs of abuse, but none of these components, apart
+from caffeine and ginseng, have been reported as being a substrate, inducer, or inhibitor of
+CYP450, thus reducing the risk of pharmacokinetic interactions [42,52].
+3.2.1. Caffeine
+Caffeine can interact with prescription and over-the-counter medication, herbs, and
+drugs of abuse. Such interactions could be pharmacokinetic (PK) or pharmacodynamic
+(PD) ones. The former appear when a change in concentrations may result in a change in
+effects while the latter are present when there is a change in effects [53].
+Furthermore, individual pre-existing conditions or diseases, and inter-individual
+differences, mostly genetically determined, may condition caffeine metabolism in both
+directions (increase or reduction), contributing to a different individual “sensitivity” to the
+substance’s effects [31].
+The main pharmacokinetic interactions of caffeine are with medication that is a substrate,
+inductor or inhibitor of CYP1A2 (see Table 1 [42,54]). While coffee is known to be a CYP1A2
+inductor (polycyclic aromatic hydrocarbons are at least partially responsible), results of
+studies investigating caffeine CYP1A2 inducing effects are inconsistent [55].
+CYP1A2 inducers may decrease caffeine concentrations while inhibitors can increase
+them, leading to adverse effects. In addition, caffeine interacts with legal and illegal drugs
+including tobacco, alcohol, and cannabis.
+
+Pharmaceutics 2021, 13, 1532
+5 of 16
+Table 1. List of CYP1A2 substrates, inducers and inhibitors.
+Substrates
+Inducers
+Inhibitors
+agomelatine
+alosetron
+amitriptyline
+asenapine
+caffeine
+chlorpromazine
+clomipramine
+clopidogrel
+clozapine
+cyclobenzaprine
+dacarbazine
+domperidone
+duloxetine
+ergotamine
+estradiol
+ﬂutamide
+ﬂuvoxamine
+frovatriptan
+guanabenz
+haloperidol
+imipramine
+lidocaine
+melatonin
+mirtazapine
+nabumetone
+nacetamoline
+nacetamoline
+naproxen
+ondansetron
+olanzapine
+oxytamine
+paracetamol
+phenacetin
+pirfenidone
+pomalidomide
+propafenone
+propranolol
+ramelteon
+ramosetron
+riluzole
+ropivacaine
+ropirinole
+R-warfarin
+tacrine
+tasimelteon
+theophylline
+tizanidine
+triamterene
+verapamil
+zolmitriptan
+antipyrine
+carbamazepine
+coffee
+insulin
+lansoprazole
+nafcillin
+nelﬁnavir
+omeprazole
+phenobarbital
+phenytoin
+pentobarbital
+polycyclic
+hydrocarbons
+(tobacco smoke)
+primaquine
+rifampin
+ritonavir
+secobarbital
+sulﬁnpyrazone
+teriﬂunomide
+acyclovir
+allopurinol
+amiodarone
+cimetidine
+clarithromycin
+disulﬁram
+duloxetine
+efavirenz
+enoxacin
+erythromycin
+famotidine
+ﬂuoroquinolones
+ﬂuvoxamine
+grapefruit juice
+isoniazid
+ketoconazole
+methoxsalen
+mexiletine
+oral
+contraceptives
+peginterferon-
+alfa-2a
+piperine
+propafenone
+rhytomycin
+ticlopidine
+tolfenamic acid
+troleandomycin
+rofecoxib
+verapamil
+zaﬁrlukast
+zileuton
+Tobacco smoke accelerates the metabolism of caffeine through CYP1A2 induction
+produced in liver microsomes by polycyclic hydrocarbons of tobacco [56]. Furthermore,
+an induction of CYP1A2 through cannabis smoking has also been reported, and therefore
+a reduction in caffeine concentrations is expected in both cases [25,57].
+Additionally,
+acute alcohol ingestion inhibits caffeine metabolism through
+CYP1A2 [58–60].
+Likewise, caffeine increases clozapine concentrations due to competitive inhibition
+of CYP1A2 [42,61]. It has also been reported that caffeine appears to raise the rate of
+absorption of paracetamol and levodopa with no clear changes in bioavailability [42].
+Caffeine augments lithium excretion. A reduction in its consumption can therefore
+increase lithium concentrations and adverse effects [25].
+Coadministration with caffeine may raise the serum concentrations of theophylline.
+The proposed mechanism involves competitive inhibition of theophylline metabolism
+via CYP450 1A2, as well as metabolic conversion of caffeine to theophylline in vivo, and
+saturation of theophylline metabolism at higher serum concentrations [25].
+The PD interactions of caffeine can be classiﬁed as synergistic, additive, and antago-
+nistic in nature. When the overall effect caused by a drug combination is the sum of the
+pharmacological effects of each individual drug an additive interaction occurs. Synergy
+is produced when the overall effect of the drug combination is greater than additive, and
+antagonism takes place when the drug combination effect is less than additive [42].
+Synergic or additive effects of caffeine with other psychostimulants such as cocaine,
+amphetamines, 3,4-methylenedioxymethamphetamine (MDMA), and cathinones are ex-
+pected. Tachycardic and hypertensive effects of sympathomimetics may be enhanced by
+caffeine, and myocardial ischemia can appear with concurrent use [10].
+Caffeine increases postprandial hyperglycaemia and reduces insulin sensitivity, and
+may decrease the effectiveness of diabetes medication (insulin and oral hypoglycaemic
+
+Pharmaceutics 2021, 13, 1532
+6 of 16
+agents) [25,62]. Caffeine also reduces methotrexate efficacy possibly due to its antagonistic ef-
+fects on adenosine receptors. Adenosine accumulation results in anti-inflammatory effects [25].
+Furthermore, caffeine might decrease blood clotting. The ingestion of caffeine jointly
+with medication that reduces clotting might increase the chances of bruising and bleeding.
+Some of these include aspirin, clopidogrel, diclofenac, ibuprofen, naproxen, dalteparin,
+enoxaparin, heparin, and warfarin. In addition, caffeine modestly raises the bioavailability,
+rate of absorption, and plasma levels of aspirin [42].
+On the other hand, caffeine partially antagonizes the effects of sedative drugs such as
+benzodiazepines [63–65], Z-drugs [64,66], and alcohol [67–69].
+During alcohol intoxication, caffeine antagonizes the somnogenic effects of alcohol
+by blocking the adenosine A1 receptors, while the anxiolytic effects of alcohol could
+compensate for the anxiogenic effects of caffeine [67].
+Additionally, caffeine blocks peripheral pro-nociceptive adenosine signalling, im-
+proves analgesic absorption through lower gastric pH and changes perception of pain. It
+has been shown to enhance analgesic effects of paracetamol/acetaminophen, acetylsalicylic
+acid/aspirin, and ibuprofen [70].
+3.2.2. Guarana and Yerba Mate
+As guarana and yerba mate contain caffeine, interactions for caffeine can be applied
+to them [19,21,28].
+3.2.3. Taurine, Ginseng and Bitter Orange
+Taurine, ginseng, and bitter orange may interact with other stimulants, or have
+antagonistic effects with sedative drugs, as they are considered stimulants [14]. Taurine
+may increase the physiologic actions of caffeine in cardiovascular system [71]. Taurine with
+caffeine leads to an increase in blood pressure instead of a decrease [71]. There is, however,
+insufﬁcient evidence to attribute such effects to taurine intake [14] or to suggest an unsafe
+level of consumption [36].
+Coadministration of ginseng with antidiabetic drugs (insulin and oral hypoglycaemic
+agents) may increase the risk of hypoglycaemia (unknown mechanism) [25,42,72]. Cau-
+tion should be exercised when taking ginseng with anticoagulant or antiplatelet drugs
+as ginsenosides can decrease platelet aggregation and lower warfarin plasma concentra-
+tions (unknown mechanism) [25,72,73]. Furthermore, ginsenosides have been reported to
+decrease plasma alcohol concentrations due to the induction of the microsomal ethanol
+oxidizing system or a delay in gastric emptying [74,75]. Ginseng inhibits CYP3A4, respon-
+sible for imatinib metabolism. Their combination can cause liver toxicity [52]. Furthermore,
+ginseng may falsely increase digoxin levels and have additive effects with corticosteroids
+and oestrogens [76].
+3.2.4. Ginkgo biloba
+Increased risk of bleeding is possible when Ginkgo biloba is combined with medication
+that has antiplatelet action (e.g., warfarin, acenocumarol, acetylsalicylic acid, clopidogrel,
+dabigatran, rivaroxaban, ibuprofen). 4′-O-methylpyridoxine competes with vitamin B6,
+which causes an indirect inhibition of glutamate decarboxylase and subsequent decrease
+in the formation of gamma-aminobutyric acid (GABA) in the brain. A theoretical in-
+creased risk of seizure is expected when combined with other agents that can lower the
+seizure threshold such as selective serotonin reuptake inhibitors (SSRI antidepressants and
+anorectics), monoamine oxidase inhibitors, neuroleptic agents, CNS stimulants, opioids,
+tricyclic antidepressants, other tricyclic compounds (e.g., cyclobenzaprine, phenothiazines),
+carbapenems, cholinergic agents, ﬂuoroquinolones, interferons, chloroquine, meﬂoquine,
+lindane, and theophylline [25,47,72,73].
+
+Pharmaceutics 2021, 13, 1532
+7 of 16
+3.2.5. 5-Hydroxytryptophan
+5-hydroxytryptophan can interact with antidepressants, or other agents with seroton-
+ergic activity, and augment the risk of serotoninergic syndrome [25].
+3.2.6. Other Ingredients
+Interactions between B vitamins contained in EDs and medicines are not expected.
+Nevertheless, the high carbohydrate load associated with ED ingestion should be taken
+into account in diabetic patients in order to appropriately adjust their insulin regimens [77].
+No reports of interaction with glucuronolactone have been found.
+3.2.7. Interactions with Energy Drinks
+The potential interactions of EDs with medicines and drugs of abuse include those
+previously reported for individual components.
+The interaction of EDs with alcohol deserves special attention because this mix is
+trendy in adolescents and young people. In all, 16% of students reported consumption of
+alcohol mixed with ED (AmED) [11]. Reasons include reducing the unpleasant taste of
+alcohol, or counteracting alcohol sedative effects thus allowing longer drinking sessions.
+The counterpart of such a combination could be a predisposition to adopt risky
+behaviours whilst under its inﬂuence, or the predisposition to alcohol use disorders. It has
+been reported that the caffeine content of EDs enhances the rewarding effects of alcohol [67].
+The combination of alcohol with EDs increases the risk of cardiovascular complications as
+both produce tachycardia [21].
+Several experimental studies have been conducted to assess whether there is an acute
+interaction between alcohol and EDs on a number of outcomes (intoxication, subjective
+outcomes, psychomotor and cognitive performance). Evidence has been summarized in at
+least 7 different systematic reviews included in Table 2 [78–84]. In summary, in experimental
+conditions, EDs combined with alcohol did not reduce drunkenness [78,82,84]. They did,
+however, reduce sedation and partially improve alcohol-induced impairment of cognitive
+and psychomotor performance [79,80,84]. Effects on alcohol consumption or engagement
+in risk-taking behaviours are not clear as mixed results have been found [80–82].
+Since the last meta-analysis [82] another study has been published [78] assessing the
+effects of AmED on attentional and working memory. Like in previous studies, mutual
+antagonism was not evident in all tasks and depended on alcohol and ED dose, and the
+blood alcohol limb [85].
+Table 2. Published systematic reviews of the effects of AmED.
+Recreational
+Drug
+Reference
+Type of
+Study
+Number of
+Studies
+Dose of
+EDs
+Dose of
+Alcohol
+Outcomes
+Results
+Type of
+Interaction
+AmED
+McKetin
+et al., 2015
+Systematic
+review
+62 studies
+80 mg of
+caffeine
+2–7 drinks
+Effects on alcohol
+consumption,
+intoxication,
+alcohol-induced
+impairment, breath
+alcohol concentration
+AmED reduces
+alcohol-induced
+impairment on some,
+but not all aspects of
+complex tasks
+PD
+Verster et al.,
+2018
+Systematic
+review and
+meta-analysis
+80 original
+articles
+NA
+NA
+Alcohol consumption
+Subjective
+intoxication
+Risk-taking
+behaviour
+No increase in
+alcohol consumption
+or risk-taking
+behaviours
+No effect on
+subjective
+intoxication
+PD
+Benson
+et al., 2014
+Systematic
+review and
+meta-analysis
+9 studies (4
+with ED)
+1.2 mg/kg–
+5.5 mg/kg
+of caffeine
+0.29 g/kg–
+1.068 g/kg
+Subjective
+intoxication
+Caffeine had no effect
+on the judgement of
+subjective alcohol
+intoxication
+PD
+Lalanne
+et al., 2017
+Systematic
+review
+12 studies
+2–4 mg/kg
+of caffeine
+or 80 mg
+(an ED can)
+0.6 g/kg–
+1.068 g/kg
+Dual task interference
+and motor
+coordination ability
+to drive,
+alcohol-induced
+subjective effects, risk
+of developing
+addictive behaviours
+EDs counteract some
+cognitive deﬁcits and
+adverse effects of
+alcohol, but not in
+complex tasks.
+AmED increases the
+risk of alcohol use
+disorder
+PD
+
+Pharmaceutics 2021, 13, 1532
+8 of 16
+Table 2. Cont.
+Recreational
+Drug
+Reference
+Type of
+Study
+Number of
+Studies
+Dose of
+EDs
+Dose of
+Alcohol
+Outcomes
+Results
+Type of
+Interaction
+Peacock
+et al., 2014
+Systematic
+review
+19 studies
+3.57 mg/kg–
+80 mg of
+caffeine
+0.65 mg/kg
+Physiological,
+psychological,
+cognitive and
+psychomotor
+outcomes, hazardous
+drinking practices,
+risk-taking behaviour
+AmED increases
+stimulation and
+reduces sedation.
+AmED consumers
+report more
+hazardous alcohol
+consumption patterns
+and greater
+engagement in
+risk-taking behaviour
+PD
+AmED
+Roemer
+et al., 2017
+Systematic
+review
+13 studies
+NA
+NA
+Drinking behaviours,
+impulsivity or
+risk-taking
+propensity,
+self-reported injury
+outcomes.
+Association between
+AmED and increased
+risk of injury
+PD
+Verster et al.,
+2016
+Systematic
+review and
+meta-analysis
+14 studies
+NA
+NA
+Consumption pattern
+AmED has no
+signiﬁcant impact on
+total alcohol
+consumption on a
+typical single
+drinking occasion
+PD
+ED: energy drink; NA: not available; PD: pharmacodynamic; PK: pharmacokinetic.
+The most recent studies [86,87] assessed the effects of AmED on driving-related skills,
+and showed that EDs increase willingness to drive while drunk, but did not, or only
+partially counteract alcohol effects on objective performance outcomes. An increase in
+alcohol and caffeine plasma concentrations was also observed with AmED in comparison
+with alcohol or ED alone [86]. EDs impair judgement of alcohol perceived intoxication in
+observational studies [88]. Altogether these results suggest higher risk while driving under
+their inﬂuence.
+3.3. Intoxications with EDs and Management
+Published cases of intoxication with EDs have been screened to identify the substances
+most concomitantly consumed and the reported effects. The main characteristics of each
+case report are summarized in Table 3 for combination with alcohol [89–93] and Table 4 for
+combination with other drugs of abuse [1,16,33,85,88,94–97].
+Table 3. Intoxications from AmED, and surveys reporting AmED use.
+Recreational
+Drug
+References
+Type of Study
+Number of
+Studies
+Dose of
+EDs
+Dose of
+Alcohol
+Outcomes
+Results
+Type of
+Interaction
+AmED
+Snipes et al.,
+2013
+Online survey
+704
+undergraduate
+students 84.7%
+alcohol 19.4%
+AmED
+NA
+NA
+Behavioural disturbance,
+Sexual risk behaviour
+Unprotected sex
+Alcohol dependence
+Binge drinking
+Potential for sexually
+transmitted infections
+AmED consumers
+were more likely to
+use marijuana,
+ecstasy, and cocaine
+PD
+Bonar et al,
+2015
+Emergency
+department
+medical
+records
+2414 cases
+(range
+14–20 years
+old) 36%
+AmED
+NA
+NA
+Feeling jittery, restless, on
+edge, or nervous,
+insomnia, increased
+alertness, stomach pain
+or irritation, feeling
+irritable, irregular
+heartbeat, headaches,
+muscle twitching, had to
+go to doctor, risk
+behaviours, alcohol use
+severity
+Participants
+reported medical
+consequences of
+combined use and
+higher rates of other
+risk behaviours
+(sexual, substance
+use and
+driving-related risk
+behaviour)
+PD
+Matuszkiewicz
+et al., 2015
+Case report
+1 subject
+NA
+NA
+GCS 8 points. Somnolence,
+restless, seizures,
+respiratory insufﬁciency
+NA
+PD
+Snipes et al.,
+2015
+Online survey
+757
+undergraduate
+college
+students 11.6%
+AmED
+NA
+NA
+Impulsivity
+Alcohol dependence
+AmED consumption
+associated with
+problematic alcohol
+consumption
+PD
+
+Pharmaceutics 2021, 13, 1532
+9 of 16
+Table 3. Cont.
+Recreational
+Drug
+References
+Type of Study
+Number of
+Studies
+Dose of
+EDs
+Dose of
+Alcohol
+Outcomes
+Results
+Type of
+Interaction
+Caviness
+et al., 2017
+Phone
+interview
+481 young
+adults
+(18–25 years
+old) 31.2%
+AmED
+NA
+Alcohol use 7,
+9 ± 5.5 days
+per month
+Binge drinking
+Alcohol use disorder
+Higher binge
+drinking, negative
+consequences and
+rates of alcohol use
+disorder among
+AmED consumers
+PD
+ED: energy drink; GCS: Glasgow Coma Scale; NA: not available; PD: pharmacodynamic; PK: pharmacokinetic.
+Table 4. Intoxications and surveys reporting use of EDs with other drugs.
+Recreational
+Drug
+References
+Type of Study
+Number of
+Subjects
+Dose of EDs
+Dose of
+Drug
+Clinics/Outcomes
+Results
+Type of
+Interaction
+MDMA
+Israelit et al.,
+2012
+Case report
+1 subject,
+24 years
+20 cans of XL
+2000 mg of
+caffeine
+NA
+Chest pain, nausea,
+vomiting, acute
+myocardial
+infarction
+Ventricular
+ﬁbrillation and death
+PD
+Cannabis
+Tobacco
+Binge drinking
+Hamilton
+et al., 2013
+Survey of
+drug use
+4342 students
+(grades 7–12)
+NA
+NA
+Sensation seeking
+Use of other drugs
+Binge drinking
+EDs consumption
+was highly associated
+with tobacco,
+cannabis,
+non-medicinal use of
+prescription drugs,
+and binge drinking
+PD
+Cannabis
+Tobacco
+Binge drinking
+Ali et al.,
+2014
+Systematic
+review of case
+reports
+43 reports
+1–24 cans
+NA
+Chest pain
+Seizures
+Psychomotor
+agitation
+EDs use is associated
+with substance abuse
+leading to increased
+risky behaviours as
+well as injuries
+PD
+Alcohol
+Marijuana
+Cocaine Meth
+Nordt et al.,
+2017
+Survey in
+emergency
+department
+270 subjects
+(13–17 years)
+192 ED
+(24% + ethanol
+illicit drugs)
+NA or
+NA
+Insomnia, jittery,
+palpitations,
+abdominal pain,
+nausea, vomiting,
+or diarrhoea,
+headache, chest
+pain, dyspnoea and
+seizures
+40% reported an
+adverse event
+PD
+Ecstasy
+Polydrug use
+Pennay
+et al., 2017
+Survey drug
+use
+7028
+individuals22.6%
+ED ecstasy 4.0
+cannabis 2.9%
+meth 2.6%,
+cocaine 1.6%
+polydrug 2%
+NA
+NA
+No description
+ED correlated with
+ecstasy use (OR 1.81)
+and polydrug use
+(OR 1.53). The latter
+more involved in
+physical aggression
+and accidents or
+injuries
+PD
+Alcohol
+Ecstasy
+Peacock
+et al., 2016
+Survey of
+regular ecstasy
+users
+693 individuals
+(>16 years old)
+77% ED +
+alcohol (70%)
+ecstasy(57%)
+3 EDs (range
+1–30) on their
+last drinking
+occasion
+NA
+Headache, heart
+palpitations,
+nausea, vomiting,
+on edge, heart
+burn, stressed out
+50% of AmED and
+25% of ED + ecstasy
+consumers reported
+at least one negative
+adverse outcome
+PD
+Alcohol
+Illegal
+stimulants
+Kaestle
+et al., 2017
+Brief interview
+4628 participants
+6% > 3 ED 8.2%
+stimulants
+NA
+NA
+Subjective
+intoxication
+Blood alcohol
+concentration
+(BAC)
+Co-consumption of
+ED/stimulant drugs
+with alcohol impairs
+intoxication
+judgement
+PD
+Alcohol
+Stimulants
+Housman
+et al., 2016
+Survey
+1304 students
+(grade 12).
+44% AmED
+(8.3%
+non-medical use
+of Ritalin and
+20.8% of
+Adderall)
+NA
+NA
+Anxiety, irritability,
+agitation, insomnia,
+increased systolic
+blood pressure,
+cardiac
+abnormalities,
+seizures
+and tachycardia
+Greater frequency of
+AmED use was also
+associated with
+greater frequency of
+Ritalin and Adderall
+use
+PD
+Alcohol
+Stimulants
+Cannabis
+Mcketin
+et al., 2014
+Online survey
+alcohol users
+1994 cases
+(18–30 years old)
+63% alcohol and
+21% ED (last
+Saturday)
+497 ecstasy/
+688 cannabis
+past year
+NA
+NA
+Drug intoxication
+Binge drinking
+Alcohol use
+disorder
+A strong association
+between stimulant
+intoxication and
+excessive alcohol
+consumption
+PD
+ED: energy drink; MDMA: 3, 4-methylenedioxymethamphetamine; meth: methamphetamine; NA: not available; PD: pharmacodynamic;
+PK: pharmacokinetic.
+Intake of more than three cans of EDs, or less in poor tolerance individuals, can lead
+to caffeine intoxication [14].
+
+Pharmaceutics 2021, 13, 1532
+10 of 16
+ED intoxication comprises a wide range of symptoms. Intoxicated patients more
+often will be adolescents or young people who party all night. The patient may present
+palpitations, chest pain, agitation, headache, insomnia, tremors, seizures, nausea and
+vomiting, with or without increased diuresis.
+Faced with these symptoms, the emergency clinician should ask the patient about
+the consumption of EDs, as well as other stimulant substances. If the patient has cardiac
+symptomatology, reports ingestion of several EDs in a short period of time or the equivalent
+to more than >500 mg of caffeine/day [19,31,34] in adults (>3 mg/kg body weight per day
+in children) [98] an electrocardiogram should be performed. Blood pressure and heart rate
+monitoring is recommended till caffeine concentrations are reduced to non-toxic levels
+(according to half-life the time needed to eliminate all caffeine is 15–35 h).
+Likewise, it is recommended to inquire about the concomitant use of other drugs and
+any medication, since both caffeine and other components of EDs could interact with them,
+as mentioned before.
+If the patient in the emergency room has been involved in a trafﬁc accident, has
+aggressive behaviour or sexual alterations, the concomitant use of alcohol with EDs must
+be ruled out [12,99,100]. If the patient reports consumption of medicines, other drugs or
+has a positive urine screen test, the pertinent algorithm for each type of intoxication must
+be followed [101].
+Regarding medication it is important to keep in mind that EDs can increase the effects
+of drugs such as clozapine, paracetamol/acetaminophen, lithium and theophylline; and
+reduce the effects of diabetes medication, methotrexate, sedative drugs and decrease blood
+clotting (might increase the effects of drugs that reduce clotting too) [25,42,61–69].
+Treatment of caffeine intoxication is symptomatic and supportive as there is no speciﬁc
+antidote. If ingestion has occurred within one hour of the emergency visit, a single dose
+of activated charcoal can be administered. Nausea and vomiting can be treated with
+ondansetron. Benzodiazepines are indicated for CNS excitation (tremors, anxiety, and
+agitation). If seizures are refractory barbiturics and propofol can be considered [13].
+Medical therapy for supraventricular tachycardia and ventricular dysrhythmias is
+available in speciﬁc guidelines [102].
+3.4. Caffeine/ED Substance Use Disorder
+The existence of a caffeine use disorder is still a topic of debate. It is not yet clear to
+what extent it is a clinically signiﬁcant disorder, and for this reason not included in the
+ﬁfth edition of the Diagnostic and Statistical Manual of Mental Disorders (DSM-5) [103].
+In parallelism, there is thus insufﬁcient evidence to talk about the existence of an ED
+use disorder.
+DSM-5 includes the following disorders related to caffeine: caffeine intoxication,
+caffeine withdrawal, other caffeine-induced disorders (e.g., anxiety and sleep disorders, as
+caffeine can aggravate symptoms of anxiety, panic disorder, and insomnia), and unspeciﬁed
+caffeine-related disorder [103,104].
+Caffeine intoxication diagnosis is assigned to individuals who experience symptoms
+including restlessness, nervousness, insomnia, or digestive issues after consuming a high
+dose. Caffeine intoxication meets the following criteria: recent caffeine use, usually in
+excess of 250 mg, and ﬁve or more symptoms that develop shortly thereafter, such as rest-
+lessness, nervousness, insomnia, gastrointestinal disturbance, and tachycardia [103,104].
+Caffeine withdrawal disorder is characterized by prolonged daily use of caffeine and
+three or more withdrawal symptoms occurring within 24 h of abrupt cessation/reduction in
+intake. These include headache, marked fatigue or drowsiness, dysphoric mood/depressed
+mood/irritability, difﬁculty in concentration, and ﬂu-like symptoms. Symptoms usually
+begin 12–24 h after the last caffeine dose and peak after 1–2 days of abstinence with
+spontaneous amelioration [103,104].
+Unspeciﬁed caffeine-related disorder applies to presentations in which symptoms
+characteristic of a caffeine-related disorder causing clinically signiﬁcant distress or impair-
+
+Pharmaceutics 2021, 13, 1532
+11 of 16
+ment in social, occupational, or other major areas of functioning predominate. Nevertheless,
+they do not meet the full criteria for any speciﬁc caffeine-related disorder, or any of the
+disorders in the substance-related/addictive disorder diagnostic class [103,104].
+4. Discussion
+Based on our review, we have made several suggestions on the attitude that the
+physician should have towards the consumption of EDs. Patients should be informed
+about possible short- and medium-term adverse effects of ED consumption, as well as the
+possibility of interactions with other substances. In addition, it has been proposed what
+the management should be in case that an intoxicated patient needs to be treated in the
+emergencFy room (based on the management of caffeine intoxication).
+The consumption of EDs with medicines and drugs of abuse is, in general terms,
+not recommended as potential interactions and adverse effects can appear, mainly due
+to the high ED caffeine content. Patients exposed to polypharmacy (e.g., patients living
+with diabetes) are those at higher risk of drug interactions and should refrain from the
+consumption of these products [105]. EDs consumption could be replaced with natural
+sources of caffeine such as coffee or tea, which also may have cardiovascular beneﬁts [106].
+In order to reduce the risk of ED interactions, it is advisable for physicians to ask
+about EDs consumption and consult the product information of the prescribed medication
+(the leaﬂet in the case of patients) [26]. They should look for interactions with caffeine or
+other psychostimulants that would include EDs. Online databases of interactions may also
+be helpful [25] as it could be to check a review manuscript like this one.
+Children and adolescents are at the greatest risk of suffering the possibly deleterious
+effects of acute and regular ED consumption. In fact, the information available is insuf-
+ﬁcient to establish a safe caffeine intake, and the level of safety concern set at 3 mg/kg
+body weight per day is extrapolated from adult data [98]. Several studies have linked
+prolonged consumption of EDs with a more frequent consumption of drugs of abuse, such
+as cocaine and alcohol. It has been hypothesized that the consumption of substances with
+the greatest addictive potential may be favoured by ED intake in adolescence [16,22,97].
+ED consumption also has been linked to other risky behaviours in young people, such
+as sexual risk-taking, ﬁghting, and seat belt omission [107]. Because of these reasons, we
+are convinced of the importance of informing adolescents and young adults and their
+families of these possible risks. There is as yet insufﬁcient evidence regarding the safety of
+regular consumption of these drinks [108]. Nevertheless, it should be taken into account
+that concomitant use of caffeine and sugary soft drinks in children and adolescents may
+result in poor dietary habits across the lifespan, and increase the risk of obesity and dental
+caries [109,110]. In sedentary individuals, insulin resistance may explain the deleterious
+effects of EDs [111].
+In our opinion, knowledge concerning the acute and long-term risks of consuming
+such beverages should be improved with educational programs at schools focused on
+children and their parents. In addition, health professionals should screen ED consumption
+in young people, as is done for other dietary habits and drugs, and provide advice to
+reduce associated risks. It could be beneﬁcial to add ED consumption to ongoing youth
+health monitoring programs [24,107] and in emergency poisoning algorithms.
+5. Conclusions
+Taking into account the broad consumption of EDs throughout the world, the scarce
+information about their potential interactions with medicines and drugs of abuse is of
+concern. EDs can interact with substrates, inductors or inhibitors of CYP1A2, psychostimu-
+lants, alcohol and other depressant drugs.
+The greatest consumers of EDs are young people. They also tend to combine EDs
+with alcohol and consume drugs of abuse, thus presenting a higher risk of interactions.
+Healthcare professionals should provide information about such potential health and
+behavioural risks in order to raise awareness among adolescents and their parents [107].
+
+Pharmaceutics 2021, 13, 1532
+12 of 16
+Acute effects in various body systems have been reported in ED intoxications including
+cardiac, digestive, psychiatric, and neurological conditions. Even fatal cardiac events have
+been reported [36]. Regarding long-term effects, both metabolic issues [109] and greater
+susceptibility to the consumption of drugs of abuse have been described [112]. However,
+data on long-term safety are scarce.
+To conclude, during the medical interview, questions should be raised regarding the
+consumption of EDs, in addition to other substances, in order to reduce adverse effects and
+avoid potential drug interactions that could have fatal consequences.
+Author Contributions: Conceptualization, O.H., E.P., M.F. and C.P.-M.; methodology, O.H., M.F.;
+C.P.-M.; investigation, O.H., M.F. and C.P.-M.; resources, C.P.-M., E.P. and M.F.; data curation, O.H.,
+M.F., C.P.-M.; writing—original draft preparation, O.H., E.P., M.F., C.P.-M.; writing—review and
+editing, O.H., E.P., S.M., A.M.B., L.P., M.F., C.P-M. All authors have read and agreed to the published
+version of the manuscript.
+Funding: The investigation was partially funded by grants from Ministerio de Sanidad, Política Social
+e Igualdad (Plan Nacional sobre Drogas-PNSD, Grant Number: 2018I037 and 2016I024); Instituto
+de Salud Carlos III (ISCIII-Red de Trastornos Adictivos RTA, Grant Number: RD16/0017/0003),
+AGAUR Gencat Suport Grups de Recerca (Grant Number: 2017 SGR 316); Lourdes Poyatos has
+a predoctoral PFIS fellowship (ISCIII, FI18/00179).
+Institutional Review Board Statement: Not applicable.
+Informed Consent Statement: Not applicable.
+Data Availability Statement: Not applicable.
+Conﬂicts of Interest: The authors declare no conﬂict of interest.
+References
+1.
+Hamilton, H.A.; Boak, A.; Ilie, G.; Mann, R.E.; Hamilton, H. Energy Drink Consumption and Associations with Demographic
+Characteristics, Drug Use and Injury among Adolescents. Can. J. Public Health 2013, 104, 496–501. [CrossRef]
+2.
+Mitchell, D.C.; Knight, C.A.; Hockenberry, J.; Teplansky, R.; Hartman, T.J. Beverage caffeine intakes in the U.S. Food Chem. Toxicol.
+2014, 63, 136–142. [CrossRef]
+3.
+Zucconi, S.; Volpato, C.; Adinolﬁ, F.; Gandini, E.; Gentile, E.; Loi, A.; Fioriti, L. Gathering consumption data on speciﬁc consumer
+groups of energy drinks. EFSA Support. Publ. 2013, 10, EN-394. [CrossRef]
+4.
+Arria, A.M.; Caldeira, K.M.; Bugbee, B.A.; Kathryn, B.; Grady, K.E.O. Energy Drink Use Patterns Among Young Adults:
+Associations with Drunk Driving. Alcohol. Clin. Exp. Res. 2016, 40, 2456–2466. [CrossRef]
+5.
+Martz, M.E.; Patrick, M.E.; Schulenberg, J.E. Alcohol mixed with energy drink use among U.S. 12th-grade students: Prevalence,
+correlates, and associations with unsafe driving. J. Adolesc. Health 2015, 56, 557–563. [CrossRef]
+6.
+Wilson, M.N.; Cumming, T.; Burkhalter, R.; Langille, D.B.; Ogilvie, R.; Asbridge, M. Driving under the inﬂuence behaviours
+among high school students who mix alcohol with energy drinks. Prev. Med. 2018, 111, 402–409. [CrossRef] [PubMed]
+7.
+Oteri, A.; Salvo, F.; Caputi, A.P.; Calapai, G. Intake of energy drinks in association with alcoholic beverages in a cohort of students
+of the school of medicine of the university of Messina. Alcohol. Clin. Exp. Res. 2007, 31, 1677–1680. [CrossRef]
+8.
+Goggin, L.S.; Gately, N.; Bridle, R.I. Novel Psychoactive Substance and Other Drug Use by Young Adults in Western Australia.
+J. Psychoact. Drugs 2015, 47, 140–148. [CrossRef]
+9.
+Johnston, L.D.; Miech, R.A.; O’Malley, P.M.; Bachman, J.G.; Schulenberg, J.E.; Patrick, M.E. Monitoring the Future National
+Survey Results on Drug Use 1975–2020: Overview, key Findings on Adolescent Drug Use. Available online: http://www.
+monitoringthefuture.org//pubs/monographs/mtf-overview2020.pdf (accessed on 15 May 2021).
+10.
+Vanattou-Saïfoudine, N.; McNamara, R.; Harkin, A. Caffeine provokes adverse interactions with 3,4- methylenedioxymetham-
+phetamine (MDMA, ’ecstasy’) and related psychostimulants: Mechanisms and mediators.
+Br.
+J. Pharmacol.
+2012, 167,
+946–959. [CrossRef] [PubMed]
+11.
+Observatorio Español de las Drogas y las Adicciones INFORME 2020 Alcohol, Tabaco y Drogas Ilegales en España. Encuesta
+Sobre Uso de Drogas en Enseñanzas Secundarias en España (ESTUDES), 1994-2018/2019. Available online: https://pnsd.sanidad.
+gob.es/profesionales/sistemasInformacion/sistemaInformacion/pdf/ESTUDES_2020_Informe.pdf (accessed on 15 May 2021).
+12.
+Pennay, A.; Lubman, D.I.; Miller, P. Combining energy drinks and alcohol: A recipe for trouble? Aust. Fam. Physician 2011, 40,
+104–107. [PubMed]
+13.
+Wolk, B.J.; Ganetsky, M.; Babu, K.M. Toxicity of energy drinks. Curr. Opin. Pediatr. 2012, 24, 243–251. [CrossRef]
+14.
+Clauson, K.A.; Shields, K.M.; McQueen, C.; Persad, N.; Jean, F.; Starkey, C. Safety issues associated with commercially available
+energy drinks. J. Am. Pharm. Assoc. 2008, 48, 55–67. [CrossRef] [PubMed]
+
+Pharmaceutics 2021, 13, 1532
+13 of 16
+15.
+Souza, D.B.; Del Coso, J.; Casonatto, J.; Polito, M.D. Acute effects of caffeine-containing energy drinks on physical performance:
+A systematic review and meta-analysis. Eur. J. Nutr. 2017, 56, 13–27. [CrossRef]
+16.
+Israelit, S.H.; Strizevsky, A.; Raviv, B. ST elevation myocardial infarction in a young patient after ingestion of caffeinated energy
+drink and ecstasy. World J. Emerg. Med. 2012, 3, 305–307. [CrossRef]
+17.
+Patrick, M.E.; Grifﬁn, J.; Huntley, E.D.; Maggs, J.L. Energy Drinks and Binge Drinking Predict College Students’ Sleep Quantity,
+Quality, and Tiredness. Behav. Sleep Med. 2018, 16, 92–105. [CrossRef] [PubMed]
+18.
+Nowak, D.; Go´sli´nski, M.; Nowatkowska, K. The effect of acute consumption of energy drinks on blood pressure, heart rate and
+blood glucose in the group of young adults. Int. J. Environ. Res. Public Health 2018, 15, 544. [CrossRef] [PubMed]
+19.
+Lévy, S.; Santini, L.; Capucci, A.; Oto, A.; Santomauro, M.; Riganti, C.; Raviele, A.; Cappato, R. European Cardiac Arrhythmia
+Society Statement on the cardiovascular events associated with the use or abuse of energy drinks. J. Interv. Card. Electrophysiol.
+2019, 56, 99–115. [CrossRef] [PubMed]
+20.
+Subaiea, G.M.; Altebainawi, A.F.; Alshammari, T.M. Energy drinks and population health: Consumption pattern and adverse
+effects among Saudi population. BMC Public Health 2019, 19, 1539. [CrossRef] [PubMed]
+21.
+Moussa, M.; Hansz, K.; Rasmussen, M.; Gillman, C.; Pollard, C.; Kwak, E.; Izsak, E. Cardiovascular Effects of Energy Drinks in
+the Pediatric Population. Pediatr. Emerg. Care 2020, online ahead of print. [CrossRef]
+22.
+Higgins, J.P.; Phil, M.; Babu, K.; Deuster, P.A.; Shearer, J. Energy Drinks: A Contemporary Issues Paper. Curr. Sports Med. Rep.
+2018, 17, 65–72. [CrossRef]
+23.
+Yasuma, N.; Imamura, K.; Watanabe, K.; Nishi, D.; Kawakami, N.; Takano, A. Association between energy drink consump-
+tion and substance use in adolescence: A systematic review of prospective cohort studies.
+Drug Alcohol Depend.
+2021,
+219, 108470. [CrossRef]
+24.
+Nadeem, I.M.; Shanmugaraj, A.; Sakha, S.; Horner, N.S.; Ayeni, O.R.; Khan, M. Energy Drinks and Their Adverse Health Effects:
+A Systematic Review and Meta-analysis. Sports Health 2021, 13, 265–277. [CrossRef] [PubMed]
+25.
+Drug Interactions Checker. Available online: www.drugs.com/drug_interactions.html (accessed on 15 May 2021).
+26.
+Agencia Española del Medicamento y Productos Sanitarios Product Information. Available online: https://cima.aemps.es/cima/
+publico/home.html (accessed on 10 May 2021).
+27.
+Curran, C.P.; Marczinski, C.A. Taurine, caffeine, and energy drinks: Reviewing the risks to the adolescent brain. Birth Defects Res.
+2017, 109, 1640–1648. [CrossRef] [PubMed]
+28.
+Heck, C.I.; De Mejia, E.G. Yerba mate tea (Ilex paraguariensis): A comprehensive review on chemistry, health implications, and
+technological considerations. J. Food Sci. 2007, 72, R138–R151. [CrossRef]
+29.
+Pardo Lozano, R.; Alvarez García, Y.; Barral Tafalla, D.; Farré Albaladejo, M. Cafeína: Un nutriente, un fármaco, o una droga de
+abuso. Adicciones 2007, 19, 225. [CrossRef]
+30.
+Boswell-Smith, V.; Spina, D.; Page, C.P. Phosphodiesterase inhibitors. Br. J. Pharmacol. 2006, 147, 252–257. [CrossRef]
+31.
+Cappelletti, S.; Daria, P.; Sani, G.; Aromatario, M. Caffeine: Cognitive and Physical Performance Enhancer or Psychoactive Drug?
+Curr. Neuropharmacol. 2014, 13, 71–88. [CrossRef]
+32.
+Woo, T.M.; Hanley, J.R. “How High Do They Look?”: Identiﬁcation and Treatment of Common Ingestions in Adolescents.
+J. Pediatr. Health Care 2013, 27, 135–144. [CrossRef]
+33.
+Nordt, S.P.; Claudius, I.; Rangan, C.; Armijo, E.; Milano, P.; Yanger, S.; Tomaszsewski, C. Reasons for energy drink use and
+reported adverse effects among adolescent emergency department patients. Pediatr. Emerg. Care 2017, 33, 770–773. [CrossRef]
+34.
+De Sanctis, V.; Soliman, N.; Soliman, A.T.; Elsedjy, H.; Di Maio, S.; El Kholy, M.; Piscina, B. Caffeinated energy drink consumption
+among adolescents and potential health consequences associated with their use: A signiﬁcant public health hazard. Acta Biomed.
+2017, 88, 222–231. [CrossRef] [PubMed]
+35.
+Higgins, J.P.; Yarlagadda, S.; Yang, B. Cardiovascular Complications of Energy Drinks. Beverages 2015, 1, 104–126. [CrossRef]
+36.
+Berger, A.J.; Alford, K. Clinical record Cardiac arrest in a young man following excess consumption of caffeinated “energy
+drinks”. Med. J. Aust. 2009, 190, 41–43. [CrossRef]
+37.
+Gunja, N.; Brown, J.A. Energy drinks: Health risks and toxicity Naren. Med. J. Aust. 2012, 196, 46–49. [CrossRef] [PubMed]
+38.
+Mattioli, A.V.; Pennella, S.; Farinetti, A.; Manenti, A. Energy drinks and atrial ﬁbrillation in young adults. Clin. Nutr. 2017, 37,
+1073–1074. [CrossRef] [PubMed]
+39.
+Ruiz, L.D.; Scherr, R.E. Risk of Energy Drink Consumption to Adolescent Health. Am. J. Lifestyle Med. 2018, 13, 22–25. [CrossRef]
+[PubMed]
+40.
+Nordt, S.P.; Vilke, G.M.; Clark, R.F.; Lee Cantrell, F.; Chan, T.C.; Galinato, M.; Nguyen, V.; Castillo, E.M. Energy Drink Use and
+Adverse Effects among Emergency Department Patients. J. Community Health 2012, 37, 976–981. [CrossRef] [PubMed]
+41.
+Thyagarajan, B.; Alagusundaramoorthy, S.S. Case Report Atrial Fibrillation Due to Over The Counter Stimulant Drugs in A Young
+Adult. J. Clin. Diagn. Res. 2015, 9, 5–7. [CrossRef]
+42.
+Baxter, K. Stockley’s Drug Interactions, 9th ed.; Pharmaceutical Press: Grayslake, IL, USA, 2010.
+43.
+Tarragon, E.; Calleja-Conde, J.; Giné, E.; Segovia-Rodríguez, L.; Durán-González, P.; Echeverry-Alzate, V. Alcohol mixed with
+energy drinks: What about taurine? Psychopharmacology 2021, 238, 1–8. [CrossRef]
+44.
+Wójcik, O.P.; Koenig, K.L.; Zeleniuch-Jacquotte, A.; Costa, M.; Chen, Y. The potential protective effects of taurine on coronary
+heart disease. Atherosclerosis 2010, 208, 19. [CrossRef]
+45.
+Caine, J.J. Taurine, energy drinks, and neuroendocrine effects. Clin. J. Med. 2016, 83, 895–904. [CrossRef]
+
+Pharmaceutics 2021, 13, 1532
+14 of 16
+46.
+Arring, N.M.; Millstine, D.; Marks, L.A.; Nail, L.M. Ginseng as a treatment for fatigue: A systematic review. J. Altern. Complement.
+Med. 2018, 24, 624–633. [CrossRef] [PubMed]
+47.
+Diamond, B.J.; Bailey, M.R. Ginkgo biloba.
+Indications, Mechanisms, and Safety.
+Psychiatr.
+Clin.
+N. Am.
+2013, 36,
+73–83. [CrossRef] [PubMed]
+48.
+Birdsall, T.C. 5-Hydroxytryptophan: A Clinically-Effective Serotonin Precursor. Altern. Med. Rev. 1998, 3, 271–280.
+49.
+Stohs, S.J. Safety, Efﬁcacy, and Mechanistic Studies Regarding Citrus aurantium (Bitter orange) Extract and p-Synephrine. Phyther.
+Res. 2017, 31, 1463–1474. [CrossRef]
+50.
+Baker, E.M.; Bierman, E.L.; Plough, I.C. Effect glucoronic acid and D-glucuronolactone Acid. Am. J. Clin. Nutr. 1960, 8,
+369–373. [CrossRef]
+51.
+Ehlers, A.; Marakis, G.; Lampen, A.; Hirsch-Ernst, K.I. Risk assessment of energy drinks with focus on cardiovascular parameters
+and energy drink consumption in Europe. Food Chem. Toxicol. 2019, 130, 109–121. [CrossRef] [PubMed]
+52.
+Bilgi, N.; Bell, K.; Ananthakrishnan, A.N.; Atallah, E. Imatinib and Panax ginseng: A potential interaction resulting in liver
+toxicity. Ann. Pharmacother. 2010, 44, 926–928. [CrossRef] [PubMed]
+53.
+Carrillo, J.A.; Benitez, J. Clinically signiﬁcant pharmacokinetic interactions between dietary caffeine and medications. Clin.
+Pharmacokinet. 2000, 39, 127–153. [CrossRef] [PubMed]
+54.
+Nelson, L.S.; Howland, M.A.; Lewin, N.A.; Smith, S.W.; Goldfrank, L.R.; Hoffman, R.S. Goldfrank’s Toxicologic Emergencies, 11th
+ed.; McGraw-Hill Education: New York, NY, USA, 2019.
+55.
+Djordjevic, N.; Ghotbi, R.; Bertilsson, L.; Jankovic, S.; Aklillu, E. Induction of CYP1A2 by heavy coffee consumption in Serbs and
+Swedes. Eur. J. Clin. Pharmacol. 2008, 64, 381–385. [CrossRef] [PubMed]
+56.
+Zevin, S.; Benowitz, N.L. Dugs interactions with tobacco smoking. Clin. Pharmacokinet. 1999, 36, 425–438. [CrossRef]
+57.
+Qian, Y.; Gurley, B.J.; Markowitz, J.S. The Potential for Pharmacokinetic Interactions between Cannabis Products and Conventional
+Medications. J. Clin. Psychopharmacol. 2019, 39, 462–471. [CrossRef]
+58.
+Nuotto, E.; Mattila, M.J.; Seppälä, T.; Konno, K. Coffee and caffeine and alcohol effects on psychomotor function. Clin. Pharmacol.
+Ther. 1982, 31, 68–76. [CrossRef]
+59.
+George, J.; Murphy, T.; Roberts, R.; Cooksley, W.G.E.; Halliday, J.W.; Powell, L.W. Inﬂuence of alcohol and caffeine consumption
+on caffeine elimination. Clin. Exp. Pharmacol. Physiol. 1986, 13, 731–739. [CrossRef]
+60.
+Gazzaz, M.; Kinzig, M.; Schaeffeler, E.; Jübner, M.; Hsin, C.-H.; Li, X.; Taubert, M.; Trueck, C.; Iltgen-Breburda, J.; Kraus, D.; et al.
+Drinking Ethanol Has Few Acute Effects on CYP2C9, CYP2C19, NAT2, and P-Glycoprotein Activities but Somewhat Inhibits
+CYP1A2, CYP2D6, and Intestinal CYP3A: So What? Clin. Pharmacol. Ther. 2018, 104, 1249–1259. [CrossRef]
+61.
+Yartsev, A.; Peisah, C. Caffeine-clozapine interaction associated with severe toxicity and multiorgan system failure: A case report.
+BMC Psychiatry 2021, 21, 192. [CrossRef]
+62.
+Shi, X.; Xue, W.; Liang, S.; Zhao, J.; Zhang, X. Acute caffeine ingestion reduces insulin sensitivity in healthy subjects: A systematic
+review and meta-analysis. Nutr. J. 2016, 15, 103. [CrossRef] [PubMed]
+63.
+File, S.E.; Bond, A.J.; Lister, R.G. Interaction between effects of caffeine and lorazepam in performance tests and self-ratings.
+J. Clin. Psychopharmacol. 1982, 2, 102–106. [CrossRef] [PubMed]
+64.
+Mattila, M.E.; Mattila, M.J.; Nuotto, E. Caffeine Moderately Antagonizes the Effects of Triazolam and Zopiclone on the Psychomo-
+tor Performance of Healthy Subjectsf. Pharmacol. Toxicol. 1992, 70, 286–289. [CrossRef]
+65.
+Roache, J.D.; Grifﬁths, R.R. Interactions of diazepam and caffeine: Behavioral and subjective dose effects in humans. Pharmacol.
+Biochem. Behav. 1987, 26, 801–812. [CrossRef]
+66.
+Cysneiros, R.M.; Farkas, D.; Harmatz, J.S.; Von Moltke, L.L.; Greenblatt, D.J. Pharmacokinetic and pharmacodynamic interactions
+between zolpidem and caffeine. Clin. Pharmacol. Ther. 2007, 82, 54–62. [CrossRef] [PubMed]
+67.
+Ferré, S.; O’Brien, M.C. Alcohol and Caffeine: The Perfect Storm. J. Caffeine Res. 2011, 1, 153–162. [CrossRef] [PubMed]
+68.
+Liguori, A.; Robinson, J.H. Caffeine antagonism of alcohol-induced driving impairment. Drug Alcohol Depend. 2001, 63,
+123–129. [CrossRef]
+69.
+Mackay, M.; Tiplady, B.; Scholey, A.B. Interactions between alcohol and caffeine in relation to psychomotor speed and accuracy.
+Hum. Psychopharmacol. 2002, 17, 151–156. [CrossRef] [PubMed]
+70.
+Derry, C.J.; Derry, S.; Moore, R.A. Caffeine as an analgesic adjuvant for acute pain in adults. Cochrane Database Syst. Rev. 2014,
+2014, CD009281. [CrossRef]
+71.
+Grasser, E.K.; Miles-Chan, J.L.; Charrière, N.; Loonam, C.R.; Dulloo, A.G.; Montani, J.-P. Energy Drinks and Their Impact on the
+Cardiovascular System: Potential Mechanisms 1,2. Adv. Nutr. 2016, 7, 950–960. [CrossRef]
+72.
+Posadzki, P.; Watson, L.; Ernst, E. Herb-drug interactions: An overview of systematic reviews. Br. J. Clin. Pharmacol. 2013, 75,
+603–618. [CrossRef] [PubMed]
+73.
+Fugh-Berman, A. Herb-drug interactions. Lancet 2000, 355, 134–138. [CrossRef]
+74.
+Koo, M.W.L. Effects of ginseng on ethanol induced sedation in mice. Life Sci. 1998, 64, 153–160. [CrossRef]
+75.
+Lee, Y.J.; Pantuck, C.B.; Pantuck, E.J. Effect of ginseng on plasma levels of ethanol in the rat.
+Planta Med.
+1993, 59,
+17–19. [CrossRef] [PubMed]
+76.
+Miller, L.G. Herbal Medicinals. Arch. Intern. Med. 1998, 158, 2200. [CrossRef] [PubMed]
+77.
+Olateju, T.; Begley, J.; Green, D.J.; Kerr, D. Physiological and Glycemic Responses Following Acute Ingestion of a Popular
+Functional Drink in Patients with Type 1 Diabetes. Can. J. Diabetes 2015, 39, 78–82. [CrossRef]
+
+Pharmaceutics 2021, 13, 1532
+15 of 16
+78.
+Benson, S.; Verster, J.C.; Alford, C.; Scholey, A. Effects of mixing alcohol with caffeinated beverages on subjective intoxication:
+A systematic review and meta-analysis. Neurosci. Biobehav. Rev. 2014, 47, 16–21. [CrossRef]
+79.
+Lalanne, L.; Lutz, P.E.; Paille, F. Acute impact of caffeinated alcoholic beverages on cognition: A systematic review. Prog.
+Neuro-Psychopharmacol. Biol. Psychiatry 2017, 76, 188–194. [CrossRef]
+80.
+Peacock, A.; Pennay, A.; Droste, N.; Bruno, R.; Lubman, D.I. “High” risk? A systematic review of the acute outcomes of mixing
+alcohol with energy drinks. Addiction 2014, 109, 1612–1633. [CrossRef]
+81.
+Roemer, A.; Stockwell, T. Alcohol Mixed with Energy Drinks and Risk of Injury: A Systematic Review. J. Stud. Alcohol Drugs 2017,
+78, 175–183. [CrossRef]
+82.
+Verster, J.C.; Benson, S.; Johnson, S.J.; Alford, C.; Godefroy, S.B.; Scholey, A. Alcohol mixed with energy drink (AMED): A critical
+review and meta-analysis. Hum. Psychopharmacol. Clin. Exp. 2018, 33, 2650. [CrossRef]
+83.
+Verster, J.C.; Benson, S.; Johnson, S.J.; Scholey, A.; Alford, C. Mixing alcohol with energy drink (AMED) and total alcohol
+consumption: A systematic review and meta-analysis. Hum. Psychopharmacol. Clin. Exp. 2016, 31, 2–10. [CrossRef]
+84.
+McKetin, R.; Coen, A.; Kaye, S. A comprehensive review of the effects of mixing caffeinated energy drinks with alcohol. Drug
+Alcohol Depend. 2015, 151, 15–30. [CrossRef]
+85.
+Peacock, A.; Sindicich, N.; Dunn, M.; Whittaker, E.; Sutherland, R.; Entwistle, G.; Burns, L.; Bruno, R. Co-ingestion of energy
+drinks with alcohol and other substances among a sample of people who regularly use ecstasy. Drug Alcohol Rev. 2016, 35,
+352–358. [CrossRef]
+86.
+Pérez-Mañá, C.; Mateus, J.A.; Díaz-Pellicer, P.; Díaz-Baggerman, A.; Pérez, M.; Pujadas, M.; Fonseca, F.; Papaseit, E.; Pujol, J.;
+Langohr, K.; et al. Effects of Mixing Energy Drinks with Alcohol on Driving-Related Skills. Int. J. Neuropsychopharmacol. 2021,
+2021, 1–13. [CrossRef]
+87.
+Marczinski, C.A.; Fillmore, M.T.; Stamates, A.L.; Maloney, S.F. Alcohol-Induced Impairment of Balance is Antagonized by Energy
+Drinks. Alcohol. Clin. Exp. Res. 2017, 42, 144–152. [CrossRef]
+88.
+Kaestle, C.E.; Droste, N.; Peacock, A.; Bruno, R.; Miller, P. Perception of intoxication in a ﬁeld study of the night-time economy:
+Blood alcohol concentration, patron characteristics, and event-level predictors. Addict. Behav. 2018, 76, 195–200. [CrossRef]
+89.
+Bonar, E.E.; Cunningham, R.M.; Polshkova, S.; Chermack, S.T.; Blow, F.C.; Walton, M.A. Alcohol and energy drink use among
+adolescents seeking emergency department care. Addict. Behav. 2014, 43, 11–17. [CrossRef]
+90.
+Caviness, C.M.; Anderson, B.J.; Stein, M.D. Substance Abuse Energy Drinks and Alcohol Related Risk among Young Adults.
+Subst. Abus. 2017, 38, 376–381. [CrossRef] [PubMed]
+91.
+Matuszkiewicz, E.; Łukasik-Gł˛ebocka, M.; Sommerfeld, K.; Tezyk, A.; Zieli´nska-Psuja, B.; Zaba, C. Energy drinks as a cause of
+seizures—Real or possible danger? Case report. Prz. Lek. 2015, 72, 42–44.
+92.
+Snipes, D.J.; Jeffers, A.J.; Green, B.A.; Benotsch, E.G. Alcohol mixed with energy drinks are robustly associated with patterns of
+problematic alcohol consumption among young adult college students. Addict. Behav. 2015, 41, 136–141. [CrossRef]
+93.
+Snipes, D.J.; Benotsch, E.G. High-risk cocktails and high-risk sex: Examining the relation between alcohol mixed with energy
+drink consumption, sexual behavior, and drug use in college students. Addict. Behav. 2013, 38, 1418–1423. [CrossRef] [PubMed]
+94.
+Housman, J.M.; Williams, R.D.; Woolsey, C.L. Impact of alcohol and alcohol mixed with energy drinks on non-medical prescription
+stimulant use in a nationally representative sample of 12th-grade students. Am. J. Addict. 2016, 25, 378–384. [CrossRef] [PubMed]
+95.
+Mcketin, R.; Chalmers, J.; Sunderland, M.; Bright, D.A. Recreational drug use and binge drinking: Stimulant but not cannabis
+intoxication is associated with excessive alcohol consumption. Drug Alcohol Rev. 2014, 33, 436–445. [CrossRef]
+96.
+Pennay, A.; Jenkinson, R.; Quinn, B.; Droste, N.T.; Peacock, A.; Lubman, D.I.; Miller, P.G. Investigating Differences between
+Drugs Used in the Australian Night-Time Economy: Demographics, Substance Use, and Harm. Subst. Use Misuse 2017, 52,
+71–81. [CrossRef] [PubMed]
+97.
+Ali, F.; Rehman, H.; Babayan, Z.; Stapleton, D.; Joshi, D.D. Energy drinks and their adverse health effects: A systematic review of
+the current evidence. Postgrad. Med. 2015, 127, 308–322. [CrossRef]
+98.
+European Food Safety Autorithy (EFSA); Panel on Dietetic Products, Nutrition and Allergies (NDA). Scientiﬁc Opinion on
+the Safety of Caffeine. Available online: https://efsa.onlinelibrary.wiley.com/doi/epdf/10.2903/j.efsa.2015.4102 (accessed on
+10 May 2021).
+99.
+Williams, R.D.; Housman, J.M.; Woolsey, C.L.; Sather, T.E. High-Risk Driving Behaviors among 12th Grade Students: Differences
+between Alcohol-Only and Alcohol Mixed with Energy Drink Users. Subst. Use Misuse 2018, 53, 137–142. [CrossRef]
+100. Ball, N.J.; Miller, K.E.; Quigley, B.M.; Eliseo-Arras, R.K. Alcohol Mixed with Energy Drinks and Sexually Related Causes of
+Conﬂict in the Barroom. J. Interpers. Violence 2021, 36, 3353–3373. [CrossRef] [PubMed]
+101. Mégarbane, B.; Oberlin, M.; Alvarez, J.C.; Balen, F.; Beaune, S.; Bédry, R.; Chauvin, A.; Claudet, I.; Danel, V.; Debaty, G.; et al.
+Management of pharmaceutical and recreational drug poisoning. Ann. Intensive Care 2020, 10, 519. [CrossRef]
+102. Brugada, J.; Katritsis, D.G.; Arbelo, E.; Arribas, F.; Bax, J.J.; Blomstrom-Lundqvist, C.; Calkins, H.; Corrado, D.; Deftereos, S.G.;
+Diller, G.P.; et al. 2019 ESC Guidelines for themanagement of patients with supraventricular tachycardia. Eur. Heart J. 2020, 41,
+655–720. [CrossRef]
+103. American Psychiatric Association. Diagnostic and Statistical Manual of Mental Disorders, 5th ed.; Available online: https://doi.org/
+10.1176/appi.books.9780890425596 (accessed on 10 May 2021).
+104. Addicott, M.A. Caffeine Use Disorder: A Review of the Evidence and Future Implications. Curr. Addict. Rep. 2014, 1,
+186–192. [CrossRef]
+
+Pharmaceutics 2021, 13, 1532
+16 of 16
+105. Dobrică, E.C.; Găman, M.A.; Cozma, M.A.; Bratu, O.G.; Stoian, A.P.; Diaconu, C.C. Polypharmacy in type 2 diabetes mellitus:
+Insights from an internal medicine department. Medicina 2019, 55, 436. [CrossRef]
+106. Lin, Y.; Shi, D.; Su, B.; Wei, J.; Găman, M.A.; Sedanur Macit, M.; Borges do Nascimento, I.J.; Guimaraes, N.S. The effect of green
+tea supplementation on obesity: A systematic review and dose–response meta-analysis of randomized controlled trials. Phyther.
+Res. 2020, 34, 2459–2470. [CrossRef]
+107. Harris, J.L.; Munsell, C.R. Energy drinks and adolescents: What’s the harm? Nutr. Rev. 2015, 73, 247–257. [CrossRef]
+108. Seifert, S.M.; Schaechter, J.L.; Hershorin, E.R.; Lipshultz, S.E. Health effects of energy drinks on children, adolescents, and young
+adults. Pediatrics 2011, 127, 511–528. [CrossRef]
+109. Ludwig, D.S.; Peterson, K.E.; Gortmaker, S.L. Relation between consumption of sugar-sweetened drinks and childhood obesity:
+A prospective, observational analysis. Lancet 2001, 357, 505–508. [CrossRef]
+110. Majewski, R. Dental caries in adolescents associated with caffeinated carbonated beverages.
+Pediatr.
+Dent.
+2019, 23,
+198–203. [CrossRef]
+111. Shearer, J.; Graham, T.E. Performance effects and metabolic consequences of caffeine and caffeinated energy drink consumption
+on glucose disposal. Nutr. Rev. 2014, 72, 121–136. [CrossRef] [PubMed]
+112. Chad, J.; Reissig, E.C.S.; Grifﬁths, R.R. Caffeinated Energy Drinks—A Growing Problem Chad. Drug Alcohol Depend. 2009, 99,
+1–10. [CrossRef]

@@ -1,0 +1,1267 @@
+Enhancing soil properties and plant growth with coffee and oil palm 
+biochar: A sustainable circular economy approach in agroindustry
+Jose Villa-Parejo a, Sonia Aguirre-Forero a, Nelson Piraneque-Gambasica a,  
+Rosmery Cruz-O’Byrne a,b,*
+a Universidad del Magdalena, Santa Marta, Colombia
+b University of Delaware, Newark, United States
+A R T I C L E  I N F O
+Keywords:
+Dry tropics
+Nutrients
+Organic carbon
+Pyrolysis
+Soil amendment
+Sustainable agriculture
+A B S T R A C T
+Biochar is a promising amendment with diverse environmental and agronomic applications by improving soil 
+properties, contributing to climate change mitigation, and promoting a circular economy. This study evaluates 
+the effects of biochar from coffee pulp-CP (Coffea arabica) and oil palm empty fruit bunch-OPEFB (Elaeis gui­
+neensis) on soil properties and kidney bean growth under controlled conditions. Polymers of each biomass were 
+measured, and biochar was produced at different temperatures (250, 300, 350 ◦C) and applied to dry tropical 
+soils at three doses (10, 20, 30 % (w/w)). After 30 days, soil physicochemical parameters and plant growth 
+variables were measured. The data were analyzed to determine the variability and relationships between soil and 
+plant growth characteristics following biochar treatments. Results showed that treatments increased soil mois­
+ture, porosity, cation exchange capacity (CEC), soil organic carbon (SOC), and macro and micronutrients while 
+decreasing bulk density. OPEFB biochar progressively increased soil pH and EC, whereas CP biochar remained 
+relatively constant. Higher temperatures in CP biochar improved plant growth, while OPEFB biochar had the 
+opposite effect. Coffee pulp biochar is associated with improved soil porosity, SOC, N, Fe, Ca, Mn, Zn, Cu, and 
+plant growth, while OPEFB biochar is related to increments in soil moisture, EC, pH, P, K, S, Mg, and Na. 
+Applying biochar, especially from coffee pulp, improved soil properties, suggesting its potential use as a soil 
+amendment in dry areas. However, the contrasting effect on plant growth highlights the importance of 
+considering soil and crop needs when selecting the appropriate biomass and pyrolysis conditions.
+1. Introduction
+Biochar, a carbon-rich product usually derived from the pyrolysis of 
+plant biomass, is a versatile material known for its agricultural and 
+environmental benefits. Its most common use is as a soil amendment 
+since it promotes plant growth and increases crop yields by influencing 
+pH and cation exchange capacity (CEC) while improving structural 
+stability, moisture content, and nutrient availability (Guo et al., 2016; 
+Hou, 2021). Additionally, biochar application has been shown to 
+enhance soil organic carbon sequestration and significantly reduce 
+greenhouse gas emissions, contributing to climate change mitigation 
+(Roberts et al., 2010; Zhao et al., 2020). Biochar also supports beneficial 
+microbial communities (Jien et al., 2021), immobilizes heavy metals 
+(Khan et al., 2020; Madrid and Marrugo-Negrete, 2021), degrades toxic 
+compounds (Fang et al., 2016; Huang et al., 2018), minimizes soil 
+erosion (Wani et al., 2023), and mitigates soil salinity (Alam et al., 
+2020).
+In addition to these agronomic and environmental benefits, the 
+properties of biochar are highly dependent on the type of biomass used 
+and the conditions under which it is produced. Historically, biochar has 
+been produced from various biomass sources, each imparting distinct 
+physicochemical characteristics as the result of the char formation, 
+depolymerization, and fragmentation processes that occur during the 
+pyrolysis of cellulose, hemicellulose, and lignin (Collard and Blin, 2014). 
+It suggests that a wide range of agricultural biomass residues can be 
+utilized to produce biochar, providing huge potential to close resource 
+cycles and promote a circular economy with value-added products while 
+reducing environmental impacts (Wurzer et al., 2022). In addition, 
+applying biochar can alleviate soil physical limitations, improve soil 
+fertility, and recover salt-affected soils in drylands (Nascimento et al., 
+2023). These ecosystems are characterized by low organic matter con­
+tent and face desertification and degradation caused by continuous 
+* Corresponding author at: University of Delaware, Newark, United States.
+E-mail address: rcruz@udel.edu (R. Cruz-O’Byrne). 
+Contents lists available at ScienceDirect
+Industrial Crops & Products
+journal homepage: www.elsevier.com/locate/indcrop
+https://doi.org/10.1016/j.indcrop.2025.121491
+Received 6 August 2024; Received in revised form 21 May 2025; Accepted 7 July 2025  
+Industrial Crops & Products 233 (2025) 121491 
+Available online 9 July 2025 
+0926-6690/© 2025 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY-NC-ND license ( http://creativecommons.org/licenses/by- 
+nc-nd/4.0/ ). 
+
+droughts, global warming, and anthropogenic activities (Huang et al., 
+2016; Nascimento et al., 2023; Reynolds et al., 2007).
+The urgency to restore degraded soils is particularly acute in regions 
+with limited organic matter and increasing vulnerability to climate ex­
+tremes. Biochar provides a promising solution, especially when derived 
+from abundant local biomass sources. In Colombia, 78.9 % of dry areas 
+are affected by some level of desertification, mainly driven by erosion 
+and salinization (MinAmbiente, 2004). At the same time, the 
+agro-industrial sector produces substantial volumes of organic byprod­
+ucts, which are often poorly managed, leading to environmental 
+degradation and missed opportunities to enhance soil health and agri­
+cultural productivity (Pe˜naranda et al., 2020; Vargas and P´erez, 2018). 
+Among these byproducts, coffee pulp (CP) and oil palm empty fruit 
+bunches (OPEFB) stand out due to their abundance and potential for 
+valorization. The coffee industry alone produces approximately 162,900 
+tons of fresh pulp waste for every million 60 kg bags of coffee exported 
+(Rodriguez and Zambrano, 2010), while oil palm processing yields 
+about 350 kg of empty fruit bunch per ton of oil produced (Van Dam, 
+2016).
+Given their volume and composition, CP and OPEFB residues 
+represent a promising feedstock for biochar production, particularly as a 
+sustainable strategy to enhance soil properties. Studies have demon­
+strated that coffee pulp biochar produced at 500 ◦C significantly in­
+creases organic carbon content and nutrient availability while reducing 
+bulk density or exchangeable acidity, leading to enhanced plant growth 
+and yield, particularly in hot pepper and coffee crops (Kebede et al., 
+2023; S´anchez-Reinoso et al., 2022, 2023). Similarly, biochar derived 
+from OPEFB has demonstrated potential as a soil amendment in regions 
+with acidic and nutrient-depleted soils, improving soil physicochemical 
+properties by increasing pH, reducing acidity, and enhancing organic 
+carbon and nitrogen levels when produced at 300–450 ◦C (Bakar et al., 
+2015; Haque, et al., 2022a; 2022b; Mosharrof et al., 2021; Syuhada 
+et al., 2016). These improvements are consistently associated with 
+greater nutrient availability, enhanced crop productivity, and increased 
+water and nutrient use efficiency, particularly under water-saving irri­
+gation systems. However, despite these documented benefits, the effects 
+of CP and OPEFB biochars have not been thoroughly investigated in dry 
+tropical soils, where such amendments could offer substantial agro­
+nomic and environmental advantages.
+To address this knowledge gap, the present study aims to (i) char­
+acterize the biochar obtained from coffee pulp and oil palm empty fruit 
+bunch at different pyrolysis temperatures; (ii) determine the impact of 
+varied doses of CP and OPEFB biochar on physicochemical parameters 
+in soils of the dry tropics; (iii) establish the influence of the application 
+of CP and OPEFB biochar on growth variables of kidney bean plants; (iv) 
+delineate the variability and relationships between soil and plant growth 
+parameters affected by different biochar treatments.
+2. Materials and methods
+2.1. Study site and soil properties
+Soil samples of 0–20 cm depth were collected from the Experimental 
+Farm at Universidad del Magdalena, located in Santa Marta, Colombia 
+(11◦13’18.31" N, 74◦11’08.80" W). This site is situated at an elevation of 
+21 m.a.s.l and lies within a Tropical Dry Forest life zone characterized by 
+a semi-arid climate. It experiences a unimodal-biseasonal precipitation 
+regime, with an average annual rainfall of 501 mm, significant water 
+deficits during the dry season, and mega-thermal conditions, with an 
+average temperature of 27.3 ºC (IDEAM, 2015; Rangel and Carvajal, 
+2012). The soil is poorly developed, of alluvial origin, and classified 
+within the Entisol order, Psamments suborder (V´asquez et al., 2010). It 
+has a sandy loam texture comprising 72 % sand, 18 % silt, and 10 % clay, 
+with physicochemical properties detailed in Table 1.
+2.2. Biochar production and characterization
+Coffee pulp and oil palm empty fruit bunch were used to produce 
+biochar at various temperatures. Initially, each type of biomass was sun- 
+dried for 48 h, then ground and sieved to achieve a uniform particle size 
+of 0.25 mm to ensure efficient heat transfer during pyrolysis (Tripathi 
+et al., 2016). The polymer content in each biomass type was analyzed 
+using acid detergent fiber (ADF) and acid detergent lignin (ADL) 
+methods (ISO, 2008). The analysis indicated that CP contained 17.86 % 
+lignin, 29.11 % cellulose, and 12.01 % hemicellulose, while OPEFB had 
+7.05 % lignin, 46.47 % cellulose, and 23.99 % hemicellulose.
+Biochar was then produced from each material at different temper­
+atures (T1 = 250 ◦C, T2 = 300 ◦C, T3 = 350 ◦C) using a 60-liter muffle 
+furnace (LM-E60, ARDER, Colombia). The pyrolysis temperature was 
+reached at a heating rate of 10 ◦C per minute and maintained at the 
+maximum temperature for 1 h (Igalavithana et al., 2019). This proced­
+ure was replicated for CP and OPEFB biomass, resulting in three distinct 
+types of biochar from each biomass source (Table 2).
+2.3. Experimental design and set-up
+A mesocosm experiment was conducted using kidney beans (Pha­
+seolus vulgaris) grown in plastic pots (15 ×20 x 30 cm) under protected 
+cultivation conditions in the same area where the soils were collected. 
+The kidney bean seeds were initially sown in seedbeds to germinate, and 
+15 days later, the seedlings were transplanted into the pots containing 
+the treatments. The experimental design included biochar derived from 
+CP and OPEFB, produced at three different temperatures (T1, T2, T3). 
+Each type of biochar was applied at three doses (D1 = 10 %, D2 = 20 %, 
+D3 = 30 % w/w) to the soil samples, which were thoroughly mixed to 
+ensure uniform distribution before being added to the mesocosms. A 
+control group, receiving no biochar treatment, was also established. The 
+plants were irrigated daily, and no fertilizers were applied to treatments. 
+The experiment was set up in triplicates for each treatment combination. 
+Treatment nomenclatures (e.g., CP_TxDx or OPEFB_TxDx) was 
+Table 1 
+Initial soil properties.
+Parameter
+Value
+Sand (%)a
+72
+Silt (%)a
+18
+Clay (%)a
+10
+Bulk Density (g cm−3)b
+1.38
+Particle Density (g cm−3)c
+1.69
+Porosity (%)d
+18.34
+Moisture (%)e
+17.2
+pHf
+7.43
+Electrical Conductivity (dS m−1)g
+3.27
+Cation Exchange Capacity (meq 100 g−1)c
+12.3
+Oxidizable Organic Carbon (%)h
+1.41
+Organic Matter (%)i
+2.43
+Total N (%)j
+0.117
+C/N
+12.05
+P (mg kg−1)k
+281.0
+K (meq 100 g−1)l
+1.32
+Ca (meq 100 g−1)l
+15.0
+S (mg kg−1)m
+81.4
+Mg (meq 100 g−1)l
+2.37
+Fe (mg kg−1)n
+6.89
+Zn (mg kg−1)n
+18.1
+Mn (mg kg−1)n
+58.2
+B (mg kg−1)◦
+2.22
+Cu (mg kg−1)n
+0.62
+Na (meq 100 g−1)l
+0.553
+Parameter measured based on a (ICONTEC, 2018b), b Paraffin-coated method, c 
+(ICONTEC, 2022a), d Calculation based on densities, e Gravimetric method, f (ICONTEC, 
+2018a), g (ICONTEC, 2022b), h (ICONTEC, 2021), i Calculation with van Bemmelen 
+factor, j Dumas combustion method, k (ICONTEC, 2020), l (ICONTEC, 2016), m 
+(ICONTEC, 2006), n (ICONTEC, 2024), ◦Colorimetric method.
+J. Villa-Parejo et al.                                                                                                                                                                                                                            
+Industrial Crops & Products 233 (2025) 121491 
+2 
+
+established by combining the biomass type with the corresponding py­
+rolysis temperature (Tx) and biochar dose (Dx), as previously defined.
+2.4. Soil and plant growth characterization
+Thirty days after transplanting, soil and plant samples were collected 
+from each mesocosm to assess their treatment responses. Soil properties 
+were analyzed in duplicate per treatment, following the protocols 
+outlined in Table 1. For plant assessments, morphological and biomass 
+measurements were conducted in triplicate, including the number of 
+leaves, plant height (measured from the base of the plant to the base of 
+the petiole of the last emitted leaf), and dry weights of aboveground 
+(AB) and belowground biomass (BB) (Kenzo et al., 2023; Nyamukuru 
+et al., 2023).
+Table 2 
+Characterization of biochar from coffee pulp (CP) and oil palm empty fruit bunch (OPEFB) obtained at different temperatures (T1 = 250 ◦C, T2 = 300 ◦C, T3 = 350 ◦C).
+Parameter
+CP_T1
+CP_T2
+CP_T3
+OPEFB_T1
+OPEFB_T2
+OPEFB_T3
+Yield (%)a
+70.20
+60.60
+48.20
+33.30
+26.67
+20.20
+Ash (%)b
+14.50
+10.20
+33.30
+23.10
+13.30
+13.80
+Volatilization Loss (%)b
+83.70
+87.60
+64.60
+72.30
+83.10
+83.00
+Moisture (%)b
+1.77
+2.18
+2.14
+4.62
+3.59
+3.19
+Water Holding Capacity (%)b
+124.00
+128.00
+107.00
+180.00
+296.00
+213.00
+Particle Density (g cm−3)b
+0.42
+0.45
+0.50
+0.29
+0.26
+0.28
+pHb
+6.73
+6.96
+7.66
+8.65
+8.10
+8.59
+Electrical Conductivity (dS m−1)b
+7.68
+6.53
+8.32
+38.60
+23.10
+20.80
+CEC (meq 100 g−1)b
+43.10
+41.40
+47.60
+70.40
+51.30
+54.50
+Oxidizable Organic Carbon (%)b
+34.80
+36.30
+29.10
+24.00
+21.30
+18.70
+Total N (%)bc
+3.83
+5.13
+4.34
+1.78
+1.49
+1.35
+C/N
+9.09
+7.08
+6.71
+13.48
+14.30
+13.85
+Total P (%)cd
+0.62
+0.81
+0.57
+1.06
+0.64
+0.44
+Total K (%)be
+1.64
+1.44
+1.32
+6.93
+4.64
+4.92
+Total Ca (%)bf
+2.51
+2.80
+3.20
+1.45
+1.04
+1.41
+Total S (%)bg
+0.28
+0.34
+0.21
+0.26
+0.15
+0.16
+Total Mg (%)bf
+0.49
+0.71
+0.71
+0.70
+0.59
+0.58
+Total Fe (%)bf
+0.36
+0.17
+0.62
+0.19
+0.02
+0.01
+Total Zn (mg kg−1)bf
+85.80
+54.00
+256.00
+94.10
+70.30
+66.00
+Total Mn (mg kg−1)bf
+101.00
+92.00
+170.00
+90.20
+58.50
+56.90
+Total B (mg kg−1)bh
+64.30
+142.00
+97.80
+88.20
+16.80
+23.70
+Total Cu (mg kg−1)bf
+20.60
+27.20
+31.50
+43.10
+30.90
+31.00
+Total Na (%)bfi
+0.08
+0.08
+0.19
+0.14
+0.07
+0.10
+Parameter measured based on a (Rehrah et al., 2014), b (ICONTEC, 2022a), c (ICONTEC, 2011), d (ICONTEC, 1996), e (ICONTEC, 2001), f (EPA, 2015), g (ICONTEC, 
+2005), h (ICONTEC, 2013), i (ICONTEC, 1976).
+Fig. 1. Effect of biochar from coffee pulp (CP) and oil palm empty fruit bunch (OPEFB) on general soil physicochemical properties. a) Moisture, b) bulk density, c) 
+porosity, d) pH, e) electrical conductivity, f) cation exchange capacity.
+J. Villa-Parejo et al.                                                                                                                                                                                                                            
+Industrial Crops & Products 233 (2025) 121491 
+3 
+
+2.5. Statistical analysis
+Data are presented as the means of three replicates. Specifically, 
+values for soil organic carbon and plant parameters are reported along 
+with their standard deviations. Principal Component Analysis (PCA) and 
+k-means clustering were performed to understand the trends and effects 
+of each treatment on all soil and plant parameters. These analyses and 
+corresponding plots were created using a Jupyter Notebook (Python 3). 
+For statistical comparison among treatments for each type of biochar, an 
+Analysis of Variance (ANOVA) was employed, followed by Fisher’s Least 
+Significant Difference (LSD) test at a significance level of 0.05. These 
+statistical tests were executed using InfoStat version 2014.
+3. Results
+3.1. Impact of biochar on soil physicochemical properties
+3.1.1. General soil properties
+The effect of the different biochar treatments on soil moisture, bulk 
+density, porosity, pH, electrical conductivity (EC), and cation exchange 
+capacity (CEC) is shown in Fig. 1. Significant statistical differences were 
+observed between the doses applied by biochar in most parameters 
+(p < 0.05); however, exceptions to this trend were identified for CP_T2 
+in moisture (p = 0.50), all CP biochar in pH (p > 0.20), CP_T3 in EC 
+(p = 0.11), and both CP_T1 (p = 0.08) and OPEFB_T3 (p = 0.12) in CEC.
+OPEFB biochar led to more substantial increases in soil moisture, pH, 
+and EC compared to coffee pulp biochar, with these enhancements 
+becoming more pronounced as the doses increased (Fig. 1a, d, e). While 
+moisture values in OPEFB biochar showed a similar increasing trajectory 
+with each dose, the pattern in the coffee pulp biochar group differed in 
+CP_T2 at a 10 % dose. Regarding pH, OPEFB biochar exhibited pro­
+gressive increases with doses applied, while CP biochar remained rela­
+tively constant. Concerning electrical conductivity, higher production 
+temperatures result in lower EC values in OPEFB biochar across all 
+doses; however, this trend is only noted at the highest dose in coffee pulp 
+biochar.
+Bulk density consistently declined across all treatments with 
+increased biochar doses (Fig. 1b). For both types of biochar, the lowest 
+production temperatures resulted in higher bulk densities, particularly 
+noticeable at a 20 % dose. Additionally, increased production temper­
+atures are associated with lower bulk densities in coffee pulp biochar. 
+Conversely, porosity and CEC increased across all treatments (Fig. 1c, f). 
+Porosity values in coffee pulp biochar are higher with increasing pro­
+duction temperatures, while in OPEFB biochar, higher temperatures 
+lead to lower increases in CEC.
+3.1.2. Soil organic carbon
+Soil Organic Carbon (SOC) increased progressively across all treat­
+ments, demonstrating significant statistical differences (p < 0.05) in 
+response to increasing doses (Table 3). Overall, biochar derived from 
+coffee pulp exhibited higher values than OPEFB, where CP_T3 achieved 
+a higher increase with 11.12 % SOC at a 30 % dose. However, biochar 
+produced at 300 ◦C (T2) from both biomass types showed similar SOC 
+values when applied at a 30 % dose. Additionally, it is notable that SOC 
+content in coffee pulp biochar increases with the production tempera­
+ture. In contrast, in OPEFB biochar, it peaks at the second temperature 
+(300 ◦C) and then declines at 350 ◦C.
+3.1.3. Macronutrients
+The impact of biochar applications on soil macronutrients is detailed 
+in Fig. 2. Overall, nitrogen content significantly increases with higher 
+doses of both types of biochar (p < 0.05), with coffee pulp biochar 
+showing higher nitrogen levels than palm ones produced at the same 
+temperature and applied at similar doses (Fig. 2a). The most pronounced 
+increase is obtained by CP_T3, which reached the maximum at doses of 
+30 % with 0.93 % of total N. Notably, the lowest production tempera­
+ture (T1) has a lesser impact on N content in each biochar type. How­
+ever, the nitrogen values for CP_T1, CP_T2, and OPEFB_T2 are similar at 
+the highest dose. Although significant variations were observed in the 
+soil carbon and nitrogen contents following biochar application, the C/N 
+ratio remained relatively constant, with the highest value obtained at a 
+10 % dose of coffee pulp biochar produced at 250◦C.
+Regarding P, K, and Mg, OPEFB biochar exhibited higher content 
+across increasing doses compared to coffee pulp biochar (Fig. 2b, c, f). 
+However, there were no significant differences in P content in soils 
+treated with CP_T1 (p = 0.21) and CP_T3 (p = 0.23). OPEFB biochar 
+consistently showed that lower production temperatures yield higher 
+values for these macronutrients. In contrast, this trend of increasing 
+nutrient content with lower temperatures was only observed for K values 
+in CP biochar.
+In the case of Ca, contrasting effects are evident between the two 
+biochar groups. In coffee pulp biochar, Ca content increases with higher 
+doses and is influenced by rising production temperatures. Conversely, 
+in OPEFB biochar, calcium values decrease, exhibiting similar behavior 
+in the treatments OPEFB_T2 and OPEFB_T3 (Fig. 2d). For S, the highest 
+content was observed in OPEFB_T1, which showed a pronounced in­
+crease as doses increased (Fig. 2e). The lowest S value was obtained with 
+coffee pulp biochar produced at the same temperature (CP_T1), the only 
+treatment displaying no significant differences between the applied 
+doses (p = 0.21).
+3.1.4. Micronutrients
+The micronutrient content displayed differential behavior between 
+the treatments applied for the two types of biochar (Fig. 3). Fe, B, and Na 
+levels significantly increased with increasing doses across all treatments, 
+showing statistical differences (p < 0.05) (Fig. 3a, d, f). Coffee pulp 
+biochar exhibited a steeper increase in Fe content than OPEFB biochar at 
+similar doses, with CP_T1 reaching the highest value at a 30 % dose. For 
+Boron, OPEFB biochar showed a more variable response than CP bio­
+char, which maintained a consistent upward trajectory across all treat­
+ments. Regarding Na, a clear differentiation between the two biochar 
+groups is observed, with OPEFB biochar presenting higher values. 
+Additionally, it is noted that the production temperature influences Na 
+content in coffee pulp biochar, where higher temperatures yield higher 
+Na values.
+Concerning Zn content, variability is observed depending on the type 
+Table 3 
+Changes in soil organic carbon content after applying biochar from coffee pulp (CP) and oil palm empty fruit bunch (OPEFB).
+Dose (%)
+Oxidizable Organic Carbon (%)
+CP_T1
+CP_T2
+CP_T3
+OPEFB_T1
+OPEFB_T2
+OPEFB_T3
+0*
+1.41 ± 0.00 A
+1.41 ± 0.00 A
+1.41 ± 0.00 A
+1.41 ± 0.00 A
+1.41 ± 0.00 A
+1.41 ± 0.00 A
+10
+3.99 ± 0.42 AB
+5.90 ± 1.15 B
+6.42 ± 0.42 B
+4.05 ± 0.07 B
+3.96 ± 0.30 B
+3.72 ± 0.22 B
+20
+6.18 ± 0.56 BC
+8.89 ± 0.47 BC
+9.44 ± 1.21 BC
+4.76 ± 0.01 C
+7.06 ± 0.16 C
+6.51 ± 0.55 C
+30
+8.51 ± 1.58 C
+8.27 ± 0.45 C
+11.12 ± 1.68 C
+6.03 ± 0.08 D
+8.20 ± 0.61 C
+6.91 ± 0.54 C
+Adj. R2 (CP_T1 = 0.86, CP_T2 = 0.92, CP_T3 = 0.88, OPEFB_T1 = 1.00, OPEFB_T2 = 0.98, OPEFB_T3 = 0.96).
+Mean ± SD values with a common letter (columns) are not significantly different in Fisher’s LSD test (p > 0.05).
+* Initial conditions. Biochar temperature production.
+J. Villa-Parejo et al.                                                                                                                                                                                                                            
+Industrial Crops & Products 233 (2025) 121491 
+4 
+
+Fig. 2. Impact of biochar from coffee pulp (CP) and oil palm empty fruit bunch (OPEFB) on soil macronutrients. a) Nitrogen, b) phosphorus, c) potassium, d) calcium, 
+e) sulfur, f) magnesium.
+Fig. 3. Impact of biochar from coffee pulp (CP) and oil palm empty fruit bunch (OPEFB) on soil micronutrients. a) Iron, b) zinc, c) manganese, d) boron, e) copper, 
+f) sodium.
+J. Villa-Parejo et al.                                                                                                                                                                                                                            
+Industrial Crops & Products 233 (2025) 121491 
+5 
+
+of biochar and the dose applied (Fig. 3b). The lower production tem­
+perature (T1) for both biochar groups resulted in higher Zn levels, with 
+CP_T1 exhibiting the highest values and variability across doses. It is 
+noted that the initial application dose for OPEFB_T2, OPEFB_T3, and 
+CP_T2 resulted in lower Zn values compared to the initial soil conditions, 
+which then converged at a 20 % dose. However, only OPEFB_T3 and 
+CP_T2 showed increased Zn content with increasing doses, following a 
+similar upward trajectory. Overall, the values obtained suggest that 
+higher temperatures during biochar production may influence Zn con­
+centration in soils.
+In the case of Mn, all treatments except CP_T2 exhibited significant 
+differences when doses varied (p < 0.05). At lower doses, there is a 
+notable initial increase in Mn content, particularly in biochar produced 
+at lower temperatures (T1), with this increase being most pronounced in 
+CP_T1 and similar in CP_T2 (Fig. 3c). OPEFB biochar treatments, espe­
+cially OPEFB_T2 and OPEFB_T3, display more uniform Mn content re­
+sponses as doses increase, in contrast to the variability seen in coffee 
+pulp biochar. No significant differences were observed between doses of 
+copper for any treatments (p > 0.05) (Fig. 3e). OPEFB_T2 is the only 
+treatment that shows a consistent decrease in Cu content with increasing 
+doses, while other treatments, such as CP_T1 and CP_T3, exhibit an 
+initial pronounced increase in Cu values at lower doses, which does not 
+continue at higher doses.
+3.2. Influence of biochar on plant growth
+The effect of adding biochar from coffee pulp and oil palm empty 
+fruit bunch on kidney bean growth is shown in Fig. 4. Most treatments, 
+excluding CP_T2 and CP_T3, displayed significant statistical differences 
+in number of leaves between doses (p ≤0.05) (Fig. 4a). These treat­
+ments exhibited more leaves than the control and OPEFB biochar, 
+especially CP_T2 when applied at a 20 % dose. Concerning plant height, 
+CP_T3 shows particularly significant growth (p < 0.05), reaching the 
+greatest elongation at 10 % dose (Fig. 4b). No consistent pattern in plant 
+height was observed across the treatments as doses increased, except for 
+OPEFB_T2, where it decreased with increasing doses.
+Regarding aboveground biomass, the two biochar groups exhibit 
+contrasting effects; CP biochar increases, while OPEFB biochar generally 
+decreases compared to the control (Fig. 4c). Significant differences 
+(p < 0.05) are observed only in CP_T3 and OPEFB_T1. Notably, 
+increasing the doses of biochar produced at 300◦C (T2) and 350◦C (T3) 
+leads to a decrease in aboveground biomass, with this reduction being 
+more pronounced in CP biochar.
+Finally, belowground biomass varies across different biochar treat­
+ments and doses (Fig. 4d). Coffee pulp biochar generally promotes an 
+increase in root biomass, with CP_T3 showing the most significant in­
+crease at a 10 % dose. On the other hand, OPEFB biochar exhibits a 
+mixed response, with no significant differences across doses for any 
+treatments (p > 0.10). However, the maximum belowground biomass 
+within the OPEFB group is also obtained in the one produced at the 
+highest temperature (OPEFB_T3).
+3.3. Multivariate effects of biochar treatments on soil and plant growth 
+parameters
+The principal component analysis (PCA) delineated the variability 
+and relationships among soil and plant growth parameters affected by 
+different biochar treatments (Fig. 5). This analysis revealed that 66.10 % 
+of the total variation is explained by the first two principal components 
+(PC1 and PC2), which are subsequently grouped into three different 
+clusters. Additionally, it is notable that the control group is distinct from 
+most biochar treatments, particularly in relation to PC1.
+The first cluster closely groups all the coffee pulp biochar treatments 
+and indicates a substantial effect on all plant growth parameters, cal­
+cium content, and micronutrients such as Cu, Zn, and Mg. Also, the 
+relation of C and N soil contents with CP_T3D3 is particularly evident. 
+The second cluster includes OPEFB biochar applied at higher doses (D2 
+and D3), which is related to soil pH, moisture, electrical conductivity, 
+and macronutrients (P, K, S, and Mg). The third cluster is associated with 
+bulk density and mainly comprises OPEFB biochar applied at the lowest 
+dose (D1) and CP_T1D1
+Fig. 4. Influence of biochar from coffee pulp (CP) and oil palm empty fruit bunch (OPEFB) on bean growth parameters. a) Number of leaves, b) height, c) 
+aboveground biomass, d) belowground biomass.
+J. Villa-Parejo et al.                                                                                                                                                                                                                            
+Industrial Crops & Products 233 (2025) 121491 
+6 
+
+4. Discussion
+4.1. Influence of biomass composition and pyrolysis temperature on 
+biochar properties
+The initial composition of biochar obtained from the biomass of 
+coffee pulp and oil palm empty fruit bunch at different temperatures was 
+influenced by the hemicellulose, cellulose, and lignin content, which 
+consequently impacted the soil characteristics 30 days after application 
+at different doses. All treatments produced a decrease in soil bulk den­
+sity and an increase in moisture content and porosity due to the 
+improved particle size distribution, aligned with findings from other 
+studies using similar biomass (Kebede et al., 2023; Radin et al., 2018; 
+S´anchez-Reinoso et al., 2023). However, since CP biomass had higher 
+lignin content, the produced biochar had a larger particle size, signifi­
+cantly increasing soil porosity and decreasing soil bulk density.
+Lignin provides the highest char yield compared to cellulose and 
+hemicellulose, which is influenced by operating conditions and the 
+chemical reactions involved (Goyal et al., 2008; Van de Velden et al., 
+2010). A high heating rate favors the formation of volatile compounds, 
+while a low heating rate promotes char production and offers larger 
+mass yields (Bridgwater, 2003; Goyal et al., 2008; Li and Chen, 2018). 
+Lignin decomposes slowly, forming a more carbon-rich and stable bio­
+char due to the aromatic polycyclic structures in pyrolysis products 
+(Collard and Blin, 2014; Yang et al., 2007). In contrast, biomass with 
+high cellulose and hemicellulose content, such as OPEFB, undergoes 
+faster pyrolysis, resulting in more extensive decomposition and volatil­
+ization, leading to less carbon retention (Collard and Blin, 2014; Gani 
+and Naruse, 2007). In this study, CP biomass produced biochar with 
+higher carbon content, especially at lower temperatures. However, the 
+highest increase in soil carbon was achieved with biochar produced at 
+the highest temperature, indicating that a higher carbon content in 
+biochar does not necessarily result in higher soil carbon. This is likely 
+due to the more stable and recalcitrant carbon structure formed at 
+higher temperatures, which is less prone to decomposition and more 
+effective at long-term carbon sequestration (Li and Chen, 2018).
+4.2. Impact of biochar on soil physicochemical properties
+4.2.1. General soil properties
+Biochar produced from diverse sources has been observed to increase 
+pH, electrical conductivity, and cation exchange capacity due to its acid- 
+neutralizing capacity and large amounts of extractable base cations 
+(Chintala et al., 2014; Martinsen et al., 2015; Sun et al., 2022). The 
+alkalinity generated by biochar application is also related to the 
+increased ash content originating during pyrolysis, which adds oxides (e. 
+g., Ca, Mg, K), hydroxides, and carbonates to the soil (Han et al., 2020; 
+Tomczyk et al., 2020). The increase in CEC can also be attributed to the 
+increased surface area of biochar, which exposes its internal functional 
+groups, allowing them to acquire a negative charge when ionized 
+(Fahmi et al., 2018; Lee et al., 2010).
+In this study, OPEFB biochar led to more substantial increases in pH, 
+EC, and CEC than coffee pulp biochar due to their higher initial pH, 
+surface area, mineral content, and release of basic cations, especially 
+potassium. These same behaviors were also reported for OPEFB biochar 
+by Samsuri et al. (2020) and Hwong et al. (2022) when using biochar 
+produced at 250 ◦C and 300–400 ◦C, respectively. Concerning CP bio­
+char, its pH increased with temperatures up to 350 ◦C but resulted in 
+lower values than those reported in biochar produced at temperatures 
+between 450 and 500 ◦C (Kebede et al., 2023; Reyes-Herrera et al., 
+2023; Rivera et al., 2022). Considering this, higher pH values could be 
+expected if the production temperature increases.
+Additionally, progressive increases in soil moisture were observed 
+with increasing biochar application rates across all treatments. How­
+ever, an atypical trend was noted in the CP_T2 treatment, where the 
+10 % dose of CP biochar resulted in higher moisture retention. This 
+aligns with findings from other studies reporting that moderate appli­
+cations of biochar can maximize water retention, while higher doses 
+may lead to diminishing returns or even reductions due to altered pore 
+structure, suggesting the existence of an optimal application threshold 
+for enhancing soil moisture (Frimpong et al., 2025; Ndede et al., 2022).
+Fig. 5. Principal component analysis (PCA) and k-means clustering of the effect of biochar from coffee pulp (CP) and oil palm empty fruit bunch (OPEFB) on soil 
+physicochemical properties and plant growth.
+J. Villa-Parejo et al.                                                                                                                                                                                                                            
+Industrial Crops & Products 233 (2025) 121491 
+7 
+
+4.2.2. Soil nutrients
+The availability of nutrients is influenced by the proportion between 
+cations, where Mg is affected by high K contents, and this, in turn, is 
+affected by the Ca and Mg contents (Agbenin and Yakubu, 2006; Jayadi 
+et al., 2022). A positive relationship between Mg and K was observed in 
+coffee pulp and oil palm empty fruit bunch treatments. However, a 
+negative relationship between K and Ca is only evident in the OPEFB 
+treatments, mainly due to the higher K concentrations in these biochars. 
+This observation aligns with findings by Radin et al. (2018), who re­
+ported increased K release from OPEFB biochar due to its high potassium 
+content.
+In addition to these cation interactions, biochar also influenced N 
+dynamics in the soil. The increase in N content for all treatments, 
+particularly in coffee pulp biochar, can be attributed not only to its 
+initial nitrogen content but also to various biochar-induced mechanisms. 
+Biochar application has been shown to accelerate microbially mediated 
+nitrogen-cycling processes, potentially reducing gaseous and leaching 
+losses and thereby enhancing nitrogen retention and bioavailability 
+(Clough et al., 2013; Zheng et al., 2013). This effect is linked to the 
+simultaneous increase in SOC and enhanced porosity, which support 
+microbial activity and growth, as well as the increased CEC that 
+contributed to nutrient retention (Domingues et al., 2017; Zhang et al., 
+2018). These interacting factors contributed to the observed mainte­
+nance of a stable C/N ratio, reflecting a balanced improvement in both 
+soil fertility and structure.
+Besides the improvement of soil structure, the influence on soil pH 
+and chemical reactions, the enhanced nutrient retention and availabil­
+ity, and stimulation of soil microbial activity, biochar treatments also 
+significantly increased the availability of B and Mn in the soils through 
+its intrinsic nutrient content. Soil available P also increased after biochar 
+addition, especially in the OPRFB treatments, as reported in other 
+studies (Bakar et al., 2015; Hwong et al., 2022; Lee et al., 2017). Similar 
+studies suggest that this increase may result from increased pH in 
+biochar-treated soil (Colantoni et al., 2016; Yang et al., 2017; Zaidun 
+et al., 2019). However, Hwong et al. (2022) state that phosphorus can 
+become less available at pH higher than 7.5, due to its association with 
+Fe, Al, and Ca. This explains the lower P availability observed in CP 
+treatments, which contained higher levels of these elements.
+The differences in soil nutrient availability across treatments and 
+doses can also be attributed to the marked influence of pyrolysis tem­
+perature on the chemical composition and nutrient profile of biochar. At 
+lower pyrolysis temperatures, more volatile organic compounds and 
+labile forms of nutrients, especially N and P, are conserved (Chen et al., 
+2011), enhancing their availability for plant uptake. As temperature 
+increases, however, more extensive carbonization occurs, ash content 
+rises, and more stable aromatic structures form. This process can reduce 
+nitrogen availability due to volatilization but simultaneously concen­
+trate non-volatile elements such as K, Ca, and Mg (Rajkovich et al., 
+2012).
+Micronutrients are also affected by pyrolysis temperature. Relatively 
+stable elements like Fe and Mn tend to accumulate in biochar at higher 
+temperatures, as they are not lost through volatilization and remain in 
+the residual mineral fraction (Novak et al., 2012). In contrast, more 
+volatile micronutrients such as Zn and Cu often decline with increasing 
+temperature, likely due to thermal losses (Beesley et al., 2010; Cantrell 
+et al., 2012). However, the pH of biochar can also influence nutrient 
+availability, which tends to increase with pyrolysis temperature, 
+affecting the solubility of some of these nutrients (Zhao et al., 2013). In 
+addition, the increasing concentrations of nutrients like B and Na with 
+higher biochar doses suggest that their release is related to ash content, 
+which is greater in biochars produced at high temperatures (Brewer 
+et al., 2009).
+4.3. Impact of biochar on plant growth
+The growth variables of the kidney bean plants exhibited 
+improvements compared to the control when the soil was treated with 
+CP biochar. In contrast, OPRFB biochar showed the opposite effect, 
+contracting with findings in maize, where it had a positive effect in soils 
+contaminated with Cd, Cu, and Pb (Abdullah et al., 2021; Samsuri et al., 
+2020). Plant height is influenced by factors such as organic matter and 
+total nitrogen content in the soil amendment (Yenani et al., 2021), 
+which enhance the plant’s ability to absorb nutrients, conserve soil 
+moisture, and enrich its fertility by improving porosity, aeration, and 
+WHC (Adrinal et al., 2021; Oka, 2010; Pham et al., 2020). The number of 
+leaves is influenced by the variation in organic carbon, total nitrogen 
+content, exchangeable cations (e.g., K, Ca, and Mg), and pH neutral to 
+alkaline (Berhe et al., 2022). This is consistent with the CP biochar 
+treatments in this work, which presented higher porosity, organic car­
+bon, total nitrogen, moderate Mg, K, and Ca contents, and pH between 
+7.32 and 7.73. Similar findings were obtained in pepper growth using 
+the coffee pulp biochar produced at 500 ◦C, where the height and 
+number of leaves improved with increasing application doses (Kebede 
+et al., 2023).
+Regarding root growth, studies by Santos et al. (2020) found that it 
+depends on the soil EC and pH, where high values of these can produce 
+adverse effects. This is corroborated by the negative relationship iden­
+tified between the growth variables, pH, and EC in the PCA analysis. On 
+the other hand, Tangmankongworakoon (2019) observed that proper­
+ties in biocarbon derived from coffee residues, such as basic pH, high 
+WHC, EC between 2 and 5 dS m−1, and C/N ratio between 15 and 35, 
+were favorable for the growth of corn plants. These statements align 
+with the findings in this study, where the CP biochar treatments pre­
+sented those characteristics, resulting in improved growth of kidney 
+bean plants and coinciding with the improvement in root and leaf dry 
+weight in lettuce when applying coffee pulp biochar produced at 450 ◦C 
+(Rivera et al., 2022).
+It has been shown that biochar applications in doses greater than 
+20 % affect growth variables, particularly generating negative effects on 
+dry matter and root length, as high doses cause an excess of cations, 
+thereby altering the availability of nutrients for plants (Chrysargyris 
+et al., 2019; Puentes-Escobar et al., 2022). Excess cations such as K⁺, 
+Ca²⁺, and Mg²⁺ in the cation exchange complex can unbalance the uptake 
+of other essential nutrients such as nitrogen, phosphorus, and zinc (Laird 
+et al., 2010; Yuan et al., 2011). This cation saturation can also increase 
+soil pH to levels that affect the availability of micronutrients such as Fe, 
+Mn, and Cu, interfering with key physiological processes for plant 
+development (Biederman and Harpole, 2013; Chintala et al., 2014).
+Furthermore, excess biochar can increase soil adsorption capacity, 
+retaining nutrients in less available forms or altering the osmotic bal­
+ance in the rhizosphere, especially in soils with low buffering capacity 
+(Van Zwieten et al., 2010). This explains why high doses of OPRFB 
+biochar negatively affected growth in this study, possibly due to excess 
+soluble salts or high EC (Lehmann et al., 2011), and aligns with the 
+results of this study, where applying doses greater than 30 % led to 
+lower growth variables in all treatments, especially in dry aboveground 
+and belowground biomass.
+5. Conclusions
+This study demonstrates that biochar produced from coffee pulp and 
+oil palm empty fruit bunch can improve soil physicochemical properties 
+in dry tropical soils, including increased moisture retention, nutrient 
+availability, organic carbon content, and reduced bulk density. While 
+both biochars provided benefits, CP produced at temperatures between 
+300 and 350 ◦C and applied at rates below 20 % w/w was more strongly 
+associated with enhanced plant growth. In contrast, OPEFB had a 
+greater impact on soil chemical properties such as CEC, moisture, pH, 
+EC, and the availability of P, K, S, and Mg, with these effects becoming 
+more pronounced at higher pyrolysis temperatures and doses. These 
+results underscore the importance of selecting adequate biomass sour­
+ces, pyrolysis conditions, and application rates based on specific soil and 
+J. Villa-Parejo et al.                                                                                                                                                                                                                            
+Industrial Crops & Products 233 (2025) 121491 
+8 
+
+crop requirements, particularly to avoid excessive applications that may 
+negatively affect plant development.
+Overall, this research highlights the potential of agro-industrial 
+residues as sustainable biochar feedstocks for soil restoration and 
+enhanced crop productivity in degraded dryland systems. Given their 
+availability and low cost, biochar application offers a promising strategy 
+to support circular and climate-resilient agriculture in tropical regions. 
+The findings contribute valuable insight into the short-term effects of CP 
+and OPEFB biochars and provide a foundation for future field-scale 
+studies exploring long-term impacts, economic feasibility, and farmer 
+adoption. Ongoing monitoring and site-specific management will be 
+essential to fully realize the benefits of biochar while minimizing po­
+tential negative impacts.
+CRediT authorship contribution statement
+Jose Villa-Parejo: Resources, Investigation, Data curation, Writing – 
+review & editing, Methodology, Funding acquisition, Conceptualization. 
+Sonia Aguirre-Forero: Writing – review & editing, Validation, Re­
+sources, Conceptualization, Supervision, Investigation. Nelson Pirane­
+que-Gambasica: Writing – review & editing, Formal analysis, 
+Investigation, Conceptualization. Cruz-O′Byrne Rosmery: Visualiza­
+tion, Formal analysis, Writing – original draft, Methodology, Data 
+curation.
+Declaration of Competing Interest
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper.
+Acknowledgements
+This work was supported by the FONCIENCIAS research fund of the 
+Universidad del Magdalena (Grant code VIN2022165).
+Data availability
+Available at http://doi.org/10.17632/4fb5y3ncsk.1
+References
+Abdullah, R., Ishak, C.F., Osman, N., Halim, N.S.A., Panhwar, Q.A., 2021. Determining 
+the characteristics and potential of plantbased biochars to reduce copper uptake in 
+maize. Bragantia 80, e2221. https://doi.org/10.1590/1678-4499.20200389.
+Adrinal, Gusmini, Darfis, I., Putri, E.L., 2021. Performance of Some Soil Physical 
+Properties of Arabica Coffee Plantation in Solok Regency. IOP Conference Series 
+Earth Environmental Science 741 (1), 012028. https://doi.org/10.1088/1755-1315/ 
+741/1/012028.
+Agbenin, J.O., Yakubu, S., 2006. Potassium–calcium and potassium–magnesium 
+exchange equilibria in an acid savanna soil from northern Nigeria. Geoderma 136 
+(3), 542–554. https://doi.org/10.1016/j.geoderma.2006.04.008.
+Alam, S.N., Khalid, Z., Sweta, Singh, B., Guldhe, A., Shahi, D.K., Bauddh, K., 2020. 
+Application of Biochar in Agriculture: A Sustainable Approach for Enhanced Plant 
+Growth, Productivity and Soil Health. In: Bauddh, K., Kumar, S., Singh, R.P., 
+Korstad, J. (Eds.), Ecological and Practical Applications for Sustainable Agriculture. 
+Springer, pp. 107–130. https://doi.org/10.1007/978-981-15-3372-3_6.
+Bakar, R.A., Razak, Z.A., Ahmad, S.H., Seh-Bardan, B.J., Tsong, L.C., Meng, C.P., 2015. 
+Influence of Oil Palm Empty Fruit Bunch Biochar on Floodwater pH and Yield 
+Components of Rice Cultivated on Acid Sulphate Soil under Rice Intensification 
+Practices. Plant Prod. Sci. 18 (4), 491–500. https://doi.org/10.1626/pps.18.491.
+Beesley, L., Moreno-Jim´enez, E., Gomez-Eyles, J.L., 2010. Effects of biochar and 
+greenwaste compost amendments on mobility, bioavailability and toxicity of 
+inorganic and organic contaminants in a multi-element polluted soil. Environ. Pollut. 
+158 (6), 2282–2287. https://doi.org/10.1016/j.envpol.2010.02.003.
+Berhe, D.T., Zergaw, Y., Kebede, T., 2022. Organic Amendments: Direct Application and 
+Residual Effects on Vegetative and Reproductive Growth of Hot Pepper. Sci. World J. 
+2022, e2805004. https://doi.org/10.1155/2022/2805004.
+Biederman, L.A., Harpole, W.S., 2013. Biochar and its effects on plant productivity and 
+nutrient cycling: A meta-analysis. GCB Bioenergy 5 (2), 202–214. https://doi.org/ 
+10.1111/gcbb.12037.
+Brewer, C.E., Schmidt-Rohr, K., Satrio, J.A., Brown, R.C., 2009. Characterization of 
+biochar from fast pyrolysis and gasification systems. Environ. Prog. Sustain. Energy 
+28 (3), 386–396. https://doi.org/10.1002/ep.10378.
+Bridgwater, A.V., 2003. Renewable fuels and chemicals by thermal processing of 
+biomass. Chem. Eng. J. 91 (2), 87–102. https://doi.org/10.1016/S1385-8947(02) 
+00142-0.
+Cantrell, K.B., Hunt, P.G., Uchimiya, M., Novak, J.M., Ro, K.S., 2012. Impact of pyrolysis 
+temperature and manure source on physicochemical characteristics of biochar. 
+Bioresour. Technol. 107, 419–428. https://doi.org/10.1016/j.biortech.2011.11.084.
+Chen, B., Chen, Z., Lv, S., 2011. A novel magnetic biochar efficiently sorbs organic 
+pollutants and phosphate. Bioresour. Technol. 102 (2), 716–723. https://doi.org/ 
+10.1016/j.biortech.2010.08.067.
+Chintala, R., Mollinedo, J., Schumacher, T.E., Malo, D.D., Julson, J.L., 2014. Effect of 
+biochar on chemical properties of acidic soil. Arch. Agron. Soil Sci. 60 (3), 393–404. 
+https://doi.org/10.1080/03650340.2013.789870.
+Chrysargyris, A., Prasad, M., Kavanagh, A., Tzortzakis, N., 2019. Biochar Type and Ratio 
+as a Peat Additive/Partial Peat Replacement in Growing Media for Cabbage Seedling 
+Production. Agronomy 9 (11), 693. https://doi.org/10.3390/agronomy9110693.
+Clough, T.J., Condron, L.M., Kammann, C., Müller, C., 2013. A Review of Biochar and 
+Soil Nitrogen Dynamics. Agronomy 3 (2), 275–293. https://doi.org/10.3390/ 
+agronomy3020275.
+Colantoni, A., Evic, N., Lord, R., Retschitzegger, S., Proto, A.R., Gallucci, F., Monarca, D., 
+2016. Characterization of biochars produced from pyrolysis of pelletized agricultural 
+residues. Renew. Sustain. Energy Rev. 64, 187–194. https://doi.org/10.1016/j. 
+rser.2016.06.003.
+Collard, F.-X., Blin, J., 2014. A review on pyrolysis of biomass constituents: Mechanisms 
+and composition of the products obtained from the conversion of cellulose, 
+hemicelluloses and lignin. Renew. Sustain. Energy Rev. 38, 594–608. https://doi. 
+org/10.1016/j.rser.2014.06.013.
+Domingues, R.R., Trugilho, P.F., Silva, C.A., Melo, I.C.N.A., de, Melo, L.C.A., 
+Magriotis, Z.M., S´anchez-Monedero, M.A., 2017. Properties of biochar derived from 
+wood and high-nutrient biomasses with the aim of agronomic and environmental 
+benefits. PLOS ONE 12 (5), e0176884. https://doi.org/10.1371/journal. 
+pone.0176884.
+EPA. (2015). SW-846 Test Method 7000B: Flame Atomic Absorption Spectrophotometry 
+[Other Policies and Guidance]. EPA. 〈https://www.epa.gov/hw-sw846/sw-846-te 
+st-method-7000b-flame-atomic-absorption-spectrophotometry〉.
+Fahmi, A.H., Samsuri, A.W., Jol, H., Singh, D., 2018. Bioavailability and leaching of Cd 
+and Pb from contaminated soil amended with different sizes of biochar. R. Soc. Open 
+Sci. 5 (11), 181328. https://doi.org/10.1098/rsos.181328.
+Fang, W., Wang, Q., Han, D., Liu, P., Huang, B., Yan, D., Ouyang, C., Li, Y., Cao, A., 2016. 
+The effects and mode of action of biochar on the degradation of methyl 
+isothiocyanate in soil. Sci. Total Environ. 565, 339–345. https://doi.org/10.1016/j. 
+scitotenv.2016.04.166.
+Frimpong, K.A., Owusu, S., Darko, R.O., Hanyabui, E., Abbey, A.N.A., Tetteh, D.A., 2025. 
+Effect of biochar application rates on soil properties and growth of Amaranthus 
+caudatus. Discov. Agric. 3 (1), 21. https://doi.org/10.1007/s44279-025-00172-0.
+Gani, A., Naruse, I., 2007. Effect of cellulose and lignin content on pyrolysis and 
+combustion characteristics for several types of biomass. Renew. Energy 32 (4), 
+649–661. https://doi.org/10.1016/j.renene.2006.02.017.
+Goyal, H.B., Seal, D., Saxena, R.C., 2008. Bio-fuels from thermochemical conversion of 
+renewable resources: A review. Renew. Sustain. Energy Rev. 12 (2), 504–517. 
+https://doi.org/10.1016/j.rser.2006.07.014.
+Guo, M., He, Z., Uchimiya, S.M., 2016. Introduction to Biochar as an Agricultural and 
+Environmental Amendment. Agricultural and Environmental Applications of 
+Biochar: Advances and Barriers. John Wiley & Sons, Ltd., pp. 1–14. https://doi.org/ 
+10.2136/sssaspecpub63.2014.0034
+Han, L., Sun, K., Yang, Y., Xia, X., Li, F., Yang, Z., Xing, B., 2020. Biochar’s stability and 
+effect on the content, composition and turnover of soil organic carbon. Geoderma 
+364, 114184. https://doi.org/10.1016/j.geoderma.2020.114184.
+Haque, A.N.A., Uddin, M.K., Sulaiman, M.F., Amin, A.M., Hossain, M., Solaiman, Z.M., 
+Mosharrof, M., 2022b. Rice Growth Performance, Nutrient Use Efficiency and 
+Changes in Soil Properties Influenced by Biochar under Alternate Wetting and 
+Drying Irrigation. Article 13. Sustainability 14 (13). https://doi.org/10.3390/ 
+su14137977.
+Haque, A.N.A., Uddin, M.K., Sulaiman, M.F., Amin, A.M., Hossain, M., Solaiman, Z.M., 
+Aziz, A.A., Mosharrof, M., 2022a. Combined Use of Biochar with 15Nitrogen 
+Labelled Urea Increases Rice Yield, N Use Efficiency and Fertilizer N Recovery under 
+Water-Saving Irrigation. Article 13. Sustainability 14 (13). https://doi.org/10.3390/ 
+su14137622.
+Hou, D., 2021. Biochar for sustainable soil management. Soil Use Manag. 37 (1), 2–6. 
+https://doi.org/10.1111/sum.12693.
+Huang, J., Yu, H., Guan, X., Wang, G., Guo, R., 2016. Accelerated dryland expansion 
+under climate change. Nat. Clim. Change 6 (2), 166–171. https://doi.org/10.1038/ 
+nclimate2837.
+Huang, S., Bao, J., Shan, M., Qin, H., Wang, H., Yu, X., Chen, J., Xu, Q., 2018. Dynamic 
+changes of polychlorinated biphenyls (PCBs) degradation and adsorption to biochar 
+as affected by soil organic carbon content. Chemosphere 211, 120–127. https://doi. 
+org/10.1016/j.chemosphere.2018.07.133.
+Hwong, C.N., Sim, S.F., Kho, L.K., Teh, Y.A., Harrold, L.D., Chua, K.H., Zainal, N.H., 
+2022. Effects of biochar from oil palm biomass on soil properties and growth 
+performance of oil palm seedlings. J. Sustain. Sci. Manag. 17 (4), 183–200. https:// 
+doi.org/10.46754/jssm.2022.4.014.
+ICONTEC. (1976). Fertilizers. Determination of sodium content. Spectrophotometry 
+method (No. 1146). ICONTEC. 〈https://tienda.icontec.org/sectores/servicios-organi 
+zacion-de-la-empresa-gestion-y-calidad-administracion-transporte-sociologia/organi 
+J. Villa-Parejo et al.                                                                                                                                                                                                                            
+Industrial Crops & Products 233 (2025) 121491 
+9 
+
+zacion-y-gestion-administrativa-sistemas-de-gestion/organizacion-y-gestion-a 
+dministrativa-en-general/gp-fertilizantes-metodo-de-determinacion-del-so〉.
+ICONTEC. (1996). Fertilizers. Test method for quantitative determination of phosphorus 
+(No. 234). ICONTEC. 〈https://tienda.icontec.org/gp-abonos-o-fertilizantes-metodo 
+-de-ensayo-para-la-determinacion-cuantitativa-del-fosforo-ntc234-1996.html〉.
+ICONTEC. (2001). Quantitative methods to determine water soluble potassium, in 
+fertilizers and material sources for fertilizers production (No. 202). ICONTEC. 〈http 
+s://tienda.icontec.org/gp-metodos-cuantitativos-para-la-determinacion-de-potasio- 
+soluble-en-agua-en-abonos-o-fertilizantes-y-fuentes-de-materias-para-su-fabri 
+cacion-ntc202-2001.html〉.
+ICONTEC. (2005). Soil fertilizers and amendments. Determination of sulphur content 
+(No. 1154). ICONTEC. https://tienda.icontec.org/gp-fertilizantes-y- 
+acondicionadores-de-suelos-determinacion-de-azufre-ntc1154-2005.html.
+ICONTEC. (2006). Soil quality. Determination of available sulfur (No. 5402). ICONTEC. 
+〈https://tienda.icontec.org/gp-calidad-del-suelo-determinacion-del-azufre-disponi 
+ble-ntc5402-2006.html〉.
+ICONTEC. (2011). Fertilizer. Determination of total nitrogen content (No. 370). 
+ICONTEC. https://tienda.icontec.org/gp-abonos-o-fertilizantes-determinacion-del- 
+nitrogeno-total-ntc370-2011.html.
+ICONTEC. (2013). Fertilizers. Determination of boron content. Azomethine H method 
+(No. 1860). ICONTEC. 〈https://tienda.icontec.org/gp-productos-quimicos-para- 
+uso-agricola-abonos-o-fertilizantes-metodo-de-ensayo-para-determinar-el-conteni 
+do-de-boro-metodo-de-azometina-h-ntc1860-2013.html〉.
+ICONTEC. (2016). Soil quality: Determination of exchangeable bases. Method of 
+extraction using ammonium acetate 1n and ph 7 (No. 5349). ICONTEC. 〈htt 
+ps://tienda.icontec.org/gp-calidad-de-suelo-determinacion-de-las-bases-cambiables- 
+metodo-del-acetato-amonio-1m-ph-70-ntc5349-2016.html〉.
+ICONTEC. (2018a). Soil quality. Determination of pH (No. 5264). ICONTEC. 〈https://ti 
+enda.icontec.org/gp-calidad-del-suelo-determinacion-del-ph-ntc5264-2018.html〉.
+ICONTEC. (2018b). Soil quality. Determination of texture by bouyoucos (No. 6299). 
+ICONTEC. 〈https://tienda.icontec.org/gp-calidad-del-suelo-determinacion-de-la-text 
+ura-por-bouyoucos-ntc6299-2018.html〉.
+ICONTEC. (2020). Soil quality. Determination of available phosphorus (No. 5350). 
+ICONTEC. 〈https://tienda.icontec.org/gp-calidad-del-suelo-determinacion-de-fosfo 
+ro-disponible-ntc5350-2020.html〉.
+ICONTEC. (2021). Soil quality. Determination of organic carbon (No. 5403). ICONTEC. 
+〈https://tienda.icontec.org/gp-calidad-del-suelo-determinacion-del-carbono-organ 
+ico-ntc5403-2021.html〉.
+ICONTEC. (2022a). Agricultural industry products. Organic products used as fertilizers 
+and soil amendments (No. 5167). ICONTEC. 〈https://tienda.icontec.org/gp-ntc-pro 
+ductos-para-la-industria-agricola-productos-organicos-usados-como-abonos-o-fertili 
+zantes-y-enmiendas-o-acondicionadores-de-suelo-ntc5167-2022.html〉.
+ICONTEC. (2022b). Soil quality. Determination of electrical conductivity (No. 5596). 
+ICONTEC. 〈https://tienda.icontec.org/gp-ntc-calidad-de-suelo-determinacion-de- 
+la-conductividad-electrica-ntc5596-2022.html〉.
+ICONTEC. (2024). Soil quality. Determination of available micronutrients; Cupper, Zinc, 
+Iron and manganese (No. 5526). ICONTEC. 〈https://tienda.icontec.org/gp-ntc-calid 
+ad-del-suelo-determinacion-de-micronutrientes-disponibles-cobre-zinc-hierro-y- 
+manganeso-ntc5526-2024.html〉.
+IDEAM. (2015). Características climatol´ogicas de ciudades principales y municipios 
+turisticos. 〈http://www.ideam.gov.co/documents/21021/21789/1Sitios+turisticos 
+2.pdf/cd4106e9-d608-4c29-91cc-16bee9151ddd〉.
+Igalavithana, A.D., Kwon, E.E., Vithanage, M., Rinklebe, J., Moon, D.H., Meers, E., 
+Tsang, D.C.W., Ok, Y.S., 2019. Soil lead immobilization by biochars in short-term 
+laboratory incubation studies. Environ. Int. 127, 190–198. https://doi.org/10.1016/ 
+j.envint.2019.03.031.
+ISO. (2008). Animal feeding stuffs—Determination of acid detergent fiber (ADF) and acid 
+detergent lignin (ADL) contents (No. 13906). ISO. 〈https://www.iso.org/stan 
+dard/43032.html〉.
+Jayadi, M., Wahid, K., Neswati, R., Andriansyah, A., 2022. Improvement of post-nickel 
+mining soil fertility with biochar and calcite. J. Degraded Min. Lands Manag. 10 (1), 
+3803. https://doi.org/10.15243/jdmlm.2022.101.3803.
+Jien, S.-H., Kuo, Y.-L., Liao, C.-S., Wu, Y.-T., Igalavithana, A.D., Tsang, D.C.W., Ok, Y.S., 
+2021. Effects of field scale in situ biochar incorporation on soil environment in a 
+tropical highly weathered soil. Environ. Pollut. 272, 116009. https://doi.org/ 
+10.1016/j.envpol.2020.116009.
+Kebede, T., Berhe, D.T., Zergaw, Y., 2023. Effects of Biochar and Compost Application on 
+Soil Properties and on the Growth and Yield of Hot Pepper (Capsicum annuum L.). 
+Appl. Environ. Soil Sci. 2023, e8546135. https://doi.org/10.1155/2023/8546135.
+Kenzo, T., Yoneda, R., Alias, M.A., 2023. Estimation of above and belowground biomass 
+for grass, herb, and fern species in Peninsula Malaysia. Trop. Ecol. 64 (3), 500–510. 
+https://doi.org/10.1007/s42965-022-00268-4.
+Khan, A.Z., Khan, S., Khan, M.A., Alam, M., Ayaz, T., 2020. Biochar reduced the uptake 
+of toxic heavy metals and their associated health risk via rice (Oryza sativa L.) grown 
+in Cr-Mn mine contaminated soils. Environ. Technol. Innov. 17, 100590. https://doi. 
+org/10.1016/j.eti.2019.100590.
+Laird, D., Fleming, P., Wang, B., Horton, R., Karlen, D., 2010. Biochar impact on nutrient 
+leaching from a Midwestern agricultural soil. Geoderma 158 (3), 436–442. https:// 
+doi.org/10.1016/j.geoderma.2010.05.012.
+Lee, J.W., Kidder, M., Evans, B.R., Paik, S., Buchanan III, A.C., Garten, C.T., Brown, R.C., 
+2010. Characterization of Biochars Produced from Cornstovers for Soil Amendment. 
+Environ. Sci. Technol. 44 (20), 7970–7974. https://doi.org/10.1021/es101337x.
+Lee, S.C.K., Rosenani, A.B., Ishak, C.F., Idris, A., Abdul Rahim, K., Meyer-Aurich, A., 
+2017. 15N-labelled fertiliser recovery by maize (Zea mays L.) and leaching of 
+nutrients as influenced by oil palm empty fruit bunch biochar in a mini-lysimeter 
+under controlled tropical environment. Arch. Agron. Soil Sci. 63 (12), 1711–1724. 
+https://doi.org/10.1080/03650340.2017.1303574.
+Lehmann, J., Rillig, M.C., Thies, J., Masiello, C.A., Hockaday, W.C., Crowley, D., 2011. 
+Biochar effects on soil biota – A review. Soil Biol. Biochem. 43 (9), 1812–1836. 
+https://doi.org/10.1016/j.soilbio.2011.04.022.
+Li, S., Chen, G., 2018. Thermogravimetric, thermochemical, and infrared spectral 
+characterization of feedstocks and biochar derived at different pyrolysis 
+temperatures. Waste Manag. 78, 198–207. https://doi.org/10.1016/j. 
+wasman.2018.05.048.
+Madrid, D.E.M., Marrugo-Negrete, J., 2021. Effects of adding amendments on the 
+immobilization of heavy metals in mining soils of southern Bolívar, Colombia. Cienc. 
+Y. Tecnol. ía Agropecu. 22 (2). https://doi.org/10.21930/rcta.vol22_num2_art:2272.
+Martinsen, V., Alling, V., Nurida, N., Mulder, J., Hale, S., Ritz, C., Rutherford, D., 
+Heikens, A., Breedveld, G., Cornelissen, G., 2015. pH effects of the addition of three 
+biochars to acidic Indonesian mineral soils. Soil Sci. Plant Nutr. 61 (5), 821–834. 
+https://doi.org/10.1080/00380768.2015.1052985.
+MinAmbiente. (2004). Plan de Acci´on Nacional de Lucha contra la Desertificaci´on y la 
+Sequía en Colombia. MinAmbiente. 〈https://www.unccd.int/sites/default/files/n 
+aps/colombia-spa2004.pdf〉.
+Mosharrof, M., Uddin, M.K., Sulaiman, M.F., Mia, S., Shamsuzzaman, S.M., Haque, A.N. 
+A., 2021. Combined Application of Biochar and Lime Increases Maize Yield and 
+Accelerates Carbon Loss from an Acidic Soil. Article 7 Agronomy 11 (7). https://doi. 
+org/10.3390/agronomy11071313.
+Nascimento, ´I.V., do, Fregolente, L.G., Pereira, A.P., de, A., Nascimento, C.D.V., do, 
+Mota, J.C.A., Ferreira, O.P., Sousa, H.H., de, F., Silva, D.G.G., da, Sim˜oes, L.R., Souza 
+Filho, A.G., Costa, M.C.G., 2023. Biochar as a carbonaceous material to enhance soil 
+quality in drylands ecosystems: A review. Environ. Res. 233, 116489. https://doi. 
+org/10.1016/j.envres.2023.116489.
+Ndede, E.O., Kurebito, S., Idowu, O., Tokunari, T., Jindo, K., 2022. The Potential of 
+Biochar to Enhance the Water Retention Properties of Sandy Agricultural Soils. 
+Article 2. Agronomy 12 (2). https://doi.org/10.3390/agronomy12020311.
+Novak, J.M., Busscher, W.J., Watts, D.W., Amonette, J.E., Ippolito, J.A., Lima, I.M., 
+Gaskin, J., Das, K.C., Steiner, C., Ahmedna, M., Rehrah, D., Schomberg, H., 2012. 
+Biochars Impact on Soil-Moisture Storage in an Ultisol and Two Aridisols. Soil Sci. 
+177 (5), 310. https://doi.org/10.1097/SS.0b013e31824e5593.
+Nyamukuru, A., Whitney, C., Tabuti, J.R.S., Esaete, J., Low, M., 2023. Allometric models 
+for aboveground biomass estimation of small trees and shrubs in African savanna 
+ecosystems. Trees For. People 11, 100377. https://doi.org/10.1016/j. 
+tfp.2023.100377.
+Oka, Y., 2010. Mechanisms of nematode suppression by organic soil amendments—A 
+review. Appl. Soil Ecol. 44 (2), 101–115. https://doi.org/10.1016/j. 
+apsoil.2009.11.003.
+Pe˜naranda, L.V., Montenegro, S.P., Giraldo, P.A., 2020. Aprovechamiento de residuos 
+agroindustriales en Colombia. Rev. De. Invest. ´oN. Agrar. Y. Ambient. 8 (2), 
+141–150. https://doi.org/10.22490/21456453.2040.
+Pham, T.T., Nguyen, N.H., Yen, P.N.D., Lam, T.D., Le, N.T.T., 2020. Proposed Techniques 
+to Supplement the Loss in Nutrient Cycling for Replanted Coffee Plantations in 
+Vietnam. Agronomy 10 (6), 905. https://doi.org/10.3390/agronomy10060905.
+Puentes-Escobar, T.C., Rodríguez-Carlosama, A., L´opez, C., 2022. Effect of biochar use as 
+a substrate on granadilla (Passiflora ligularis Juss.) growth parameters. Agron. ía 
+Colomb. 40 (1), 22–28. https://doi.org/10.15446/agron.colomb.v40n1.98112.
+Radin, R., Abu Bakar, R., Ishak, C.F., Ahmad, S.H., Tsong, L.C., 2018. Biochar-compost 
+mixture as amendment for improvement of polybag-growing media and oil palm 
+seedlings at main nursery stage. Int. J. Recycl. Org. Waste Agric. 7 (1), 11–23. 
+https://doi.org/10.1007/s40093-017-0185-3.
+Rajkovich, S., Enders, A., Hanley, K., Hyland, C., Zimmerman, A.R., Lehmann, J., 2012. 
+Corn growth and nitrogen nutrition after additions of biochars with varying 
+properties to a temperate soil. Biol. Fertil. Soils 48 (3), 271–284. https://doi.org/ 
+10.1007/s00374-011-0624-7.
+Rangel, J.O., Carvajal, J.E., 2012. Clima de la Regi´on Caribe Colombiana. In: Rangel, J.O. 
+(Ed.), Colombia diversidad bi´otica XII : La regi´on Caribe de Colombia. Universidad 
+Nacional de Colombia, Facultad de Ciencias, pp. 67–129. 〈https://repositorio.unal. 
+edu.co/handle/unal/81474〉.
+Rehrah, D., Reddy, M.R., Novak, J.M., Bansode, R.R., Schimmel, K.A., Yu, J., Watts, D. 
+W., Ahmedna, M., 2014. Production and characterization of biochars from 
+agricultural by-products for use in soil quality enhancement. J. Anal. Appl. Pyrolysis 
+108, 301–309. https://doi.org/10.1016/j.jaap.2014.03.008.
+Reyes-Herrera, D.F., S´anchez-Reinoso, A.D., Lombardini, L., Restrepo-Díaz, H., 2023. 
+Physiological responses of coffee (Coffea arabica L.) plants to biochar application 
+under water deficit conditions, 12873–12873 Notulae Botanicae Horti Agrobotanici 
+Cluj-Napocaa 51 (3). https://doi.org/10.15835/nbha51312873.
+Reynolds, J.F., Smith, D.M.S., Lambin, E.F., Turner, B.L., Mortimore, M., Batterbury, S.P. 
+J., Downing, T.E., Dowlatabadi, H., Fern´andez, R.J., Herrick, J.E., Huber- 
+Sannwald, E., Jiang, H., Leemans, R., Lynam, T., Maestre, F.T., Ayarza, M., 
+Walker, B., 2007. Global Desertification: Building a Science for Dryland 
+Development. Science 316 (5826), 847–851. https://doi.org/10.1126/ 
+science.1131634.
+Rivera, J., Reyes, J., Cuervo, J., Martínez-Cord´on, M., Zamudio, A., Rivera, J., Reyes, J., 
+Cuervo, J., Martínez-Cord´on, M., Zamudio, A., 2022. Effect of biochar amendments 
+on the growth and development of ‘Vera’ crisp lettuce in four soils contaminated 
+with cadmium. Chil. J. Agric. Res. 82 (2), 244–255. https://doi.org/10.4067/S0718- 
+58392022000200244.
+Roberts, K.G., Gloy, B.A., Joseph, S., Scott, N.R., Lehmann, J., 2010. Life Cycle 
+Assessment of Biochar Systems: Estimating the Energetic, Economic, and Climate 
+Change Potential. Environ. Sci. Technol. 44 (2), 827–833. https://doi.org/10.1021/ 
+es902266r.
+J. Villa-Parejo et al.                                                                                                                                                                                                                            
+Industrial Crops & Products 233 (2025) 121491 
+10 
+
+Rodriguez, N., & Zambrano, D.A. (2010). Los subproductos del caf´e: Fuente de energía 
+renovable. In Avances t´ecnicos No. 393. Cenicaf´e. 〈https://www.cenicafe.org/es/in 
+dex.php/nuestras_publicaciones/avances_tecnicos/avance_tecnico_0393〉.
+Samsuri, A.W., Fahmi, A.H., Jol, H., Daljit, S., 2020. Particle size and rate of biochar 
+affected the phytoavailability of Cd and Pb by mustard plants grown in contaminated 
+soils. Int. J. Phytoremediat. 22 (6), 567–577. https://doi.org/10.1080/ 
+15226514.2019.1687423.
+S´anchez-Reinoso, A.D., Lombardini, L., Restrepo-Díaz, H., 2022. Physiological behaviour 
+and nutritional status of coffee (Coffea arabica L. var. Castillo) trees in response to 
+biochar application. J. Agric. Sci. 160 (3–4), 220–234. https://doi.org/10.1017/ 
+S0021859622000338.
+S´anchez-Reinoso, A.D., ´Avila-Pedraza, E.´A., Lombardini, L., Restrepo-Díaz, H., 2023. The 
+Application of Coffee Pulp Biochar Improves the Physical, Chemical, and Biological 
+Characteristics of Soil for Coffee Cultivation. J. Soil Sci. Plant Nutr. 23 (2), 
+2512–2524. https://doi.org/10.1007/s42729-023-01208-4.
+Santos, L.E.R., Meili, L., Soletti, J.I., de Carvalho, S.H.V., Ribeiro, L.M.O., Duarte, J.L.S., 
+Santos, R., 2020. Impact of temperature on vacuum pyrolysis of Syagrus coronata for 
+biochar production. J. Mater. Cycles Waste Manag. 22 (3), 878–886. https://doi.org/ 
+10.1007/s10163-020-00978-8.
+Sun, Z., Hu, Y., Shi, L., Li, G., Pang, Z., Liu, S., Chen, Y., Jia, B., 2022. Effects of biochar 
+on soil chemical properties: A global meta-analysis of agricultural soil. Plant Soil 
+Environ. 68 (6), 272–289. https://doi.org/10.17221/522/2021-PSE.
+Syuhada, A.B., Shamshuddin, J., Fauziah, C.I., Rosenani, A.B., Arifin, A., 2016. Biochar 
+as soil amendment: Impact on chemical properties and corn nutrient uptake in a 
+Podzol. Can. J. Soil Sci. 96 (4), 400–412. https://doi.org/10.1139/cjss-2015-0044.
+Tangmankongworakoon, N., 2019. An approach to produce biochar from coffee residue 
+for fuel and soil amendment purpose. Int. J. Recycl. Org. Waste Agric. 8 (1), 37–44. 
+https://doi.org/10.1007/s40093-019-0267-5.
+Tomczyk, A., Sokołowska, Z., Boguta, P., 2020. Biochar physicochemical properties: 
+Pyrolysis temperature and feedstock kind effects. Rev. Environ. Sci. Bio/Technol. 19 
+(1), 191–215. https://doi.org/10.1007/s11157-020-09523-3.
+Tripathi, M., Sahu, J.N., Ganesan, P., 2016. Effect of process parameters on production of 
+biochar from biomass waste through pyrolysis: A review. Renew. Sustain. Energy 
+Rev. 55, 467–481. https://doi.org/10.1016/j.rser.2015.10.122.
+Van Dam, J., 2016. Subproductos de la palma de aceite como materias primas de 
+biomasa. Palmas 37, 149–156.
+Van de Velden, M., Baeyens, J., Brems, A., Janssens, B., Dewil, R., 2010. Fundamentals, 
+kinetics and endothermicity of the biomass pyrolysis reaction. Renew. Energy 35 (1), 
+232–242. https://doi.org/10.1016/j.renene.2009.04.019.
+Van Zwieten, L., Kimber, S., Morris, S., Chan, K.Y., Downie, A., Rust, J., Joseph, S., 
+Cowie, A., 2010. Effects of biochar from slow pyrolysis of papermill waste on 
+agronomic performance and soil fertility. Plant Soil 327 (1), 235–246. https://doi. 
+org/10.1007/s11104-009-0050-x.
+Vargas, Y.A., P´erez, L.I., 2018. Aprovechamiento de residuos agroindustriales en el 
+mejoramiento de la calidad del ambiente. Revista Facultad de Ciencias B´asicas 14 
+(1), 59–72. https://doi.org/10.18359/rfcb.3108.
+V´asquez, J.R., Baena, D., Menjivar, J.C., 2010. Variabilidad espacial de propiedades 
+físicas y químicas en suelos de la granja experimental de la Universidad del 
+Magdalena (Santa Marta, Colombia). Acta Agron. 59 (4), 449–456.
+Wani, I., Narde, S.R., Huang, X., Remya, N., Kushvaha, V., Garg, A., 2023. Reviewing role 
+of biochar in controlling soil erosion and considering future aspect of production 
+using microwave pyrolysis process for the same. Biomass.. Convers. Biorefinery 13 
+(13), 11543–11569. https://doi.org/10.1007/s13399-021-02060-1.
+Wurzer, C., Jayakumar, A., Maˇsek, O., 2022. Sequential biochar systems in a circular 
+economy. In: Tsang, D.C.W., Ok, Y.S. (Eds.), Biochar in Agriculture for Achieving 
+Sustainable Development Goals. Academic Press, pp. 305–319. https://doi.org/ 
+10.1016/B978-0-323-85343-9.00016-1.
+Yang, H., Yan, R., Chen, H., Lee, D.H., Zheng, C., 2007. Characteristics of hemicellulose, 
+cellulose and lignin pyrolysis. Fuel 86 (12), 1781–1788. https://doi.org/10.1016/j. 
+fuel.2006.12.013.
+Yang, X., Lan, Y., Meng, J., Chen, W., Huang, Y., Cheng, X., He, T., Cao, T., Liu, Z., 
+Jiang, L., Gao, J., 2017. Effects of maize stover and its derived biochar on 
+greenhouse gases emissions and C-budget of brown earth in Northeast China. 
+Environ. Sci. Pollut. Res. 24 (9), 8200–8209. https://doi.org/10.1007/s11356-017- 
+8500-0.
+Yenani, E., Santoso, H., Sutanto, A., Muhfahroyin, 2021. Organic fertilizer of coffee peel 
+with PUMAKKAL starter formula for sustainable plantation cultivation. J. Phys. 
+Conf. Ser. 1796 (1), 012038. https://doi.org/10.1088/1742-6596/1796/1/012038.
+Yuan, J.-H., Xu, R.-K., Zhang, H., 2011. The forms of alkalis in the biochar produced from 
+crop residues at different temperatures. Bioresour. Technol. 102 (3), 3488–3497. 
+https://doi.org/10.1016/j.biortech.2010.11.018.
+Zaidun, S.W., Jalloh, M.B., Awang, A., Sam, L.M., Besar, N.A., Musta, B., Ahmed, O.H., 
+Omar, L., 2019. Biochar and clinoptilolite zeolite on selected chemical properties of 
+soil cultivated with maize (Zea mays L.). Eurasia J. Soil Sci. 8 (1), 1–10. https://doi. 
+org/10.18393/ejss.468100.
+Zhang, L., Jing, Y., Xiang, Y., Zhang, R., Lu, H., 2018. Responses of soil microbial 
+community structure changes and activities to biochar addition: A meta-analysis. 
+Sci. Total Environ. 643, 926–935. https://doi.org/10.1016/j.scitotenv.2018.06.231.
+Zhao, L., Cao, X., Maˇsek, O., Zimmerman, A., 2013. Heterogeneity of biochar properties 
+as a function of feedstock sources and production temperatures. J. Hazard. Mater. 
+256–257, 1–9. https://doi.org/10.1016/j.jhazmat.2013.04.015.
+Zhao, Y., Lin, S., Liu, Y., Li, G., Wang, J., Butterbach-Bahl, K., 2020. Application of mixed 
+straw and biochar meets plant demand of carbon dioxide and increases soil carbon 
+storage in sunken solar greenhouse vegetable production. Soil Use Manag. 36 (3), 
+439–448. https://doi.org/10.1111/sum.12579.
+Zheng, H., Wang, Z., Deng, X., Herbert, S., Xing, B., 2013. Impacts of adding biochar on 
+nitrogen retention and bioavailability in agricultural soil. Geoderma 206, 32–39. 
+https://doi.org/10.1016/j.geoderma.2013.04.018.
+J. Villa-Parejo et al.                                                                                                                                                                                                                            
+Industrial Crops & Products 233 (2025) 121491 
+11 
