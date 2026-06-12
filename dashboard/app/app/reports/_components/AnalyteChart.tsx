@@ -208,13 +208,16 @@ export function AnalyteChart({ rows, analytes, limit }: Props) {
             <Tooltip
               contentStyle={{ background: bgColor, borderColor: gridColor, fontSize: 12 }}
               labelStyle={{ color: axisColor }}
-              formatter={(value: number, name: string, item: { payload?: Record<string, unknown> }) => {
+              formatter={(value, name, item) => {
+                const v = typeof value === 'number' ? value : Number(value);
+                const nm = String(name);
                 if (multi && normalize) {
-                  const a = analytes.find((x) => x.label === name);
-                  const raw = a && item?.payload ? (item.payload[`${a.key}__raw`] as number | undefined) : undefined;
-                  return raw != null ? [`${fmt(raw)} (${fmt(value)}%)`, name] : [fmt(value), name];
+                  const a = analytes.find((x) => x.label === nm);
+                  const payload = (item as { payload?: Record<string, unknown> })?.payload;
+                  const raw = a && payload ? (payload[`${a.key}__raw`] as number | undefined) : undefined;
+                  return raw != null ? [`${fmt(raw)} (${fmt(v)}%)`, nm] : [fmt(v), nm];
                 }
-                return [fmt(value), name];
+                return [fmt(v), nm];
               }}
             />
             <Legend wrapperStyle={{ fontSize: 12 }} />
