@@ -1,7 +1,58 @@
 {
-  "generated_at": "2026-06-12T12:41:41.541190+00:00",
-  "total_reports": 249,
+  "generated_at": "2026-06-12T13:15:19.347110+00:00",
+  "total_reports": 251,
   "reports": [
+    {
+      "report_id": "S04082026-49608",
+      "report_status": "ACTIVE",
+      "superseded_by": null,
+      "report_date": "2026-04-27",
+      "lab": "Trilogy Analytical Laboratories",
+      "lab_detected": "unknown",
+      "matrix": null,
+      "client": "Purity Coffee",
+      "source_file_name": "49608.pdf",
+      "drive_file_id": null,
+      "sample_count": 1,
+      "analyte_count": 19,
+      "product_names": [],
+      "ingested_at": "2026-05-31T16:47:31+00:00",
+      "_local_path": "Processed/S04082026-49608.json"
+    },
+    {
+      "report_id": "995712-01-DR",
+      "report_status": "ACTIVE",
+      "superseded_by": null,
+      "report_date": "2026-03-26",
+      "lab": "CROM-MASS / UIS",
+      "lab_detected": "eurofins",
+      "matrix": null,
+      "client": "Purity Coffee",
+      "source_file_name": "995712-01-DR MRP Cafe_firmado.pdf",
+      "drive_file_id": null,
+      "sample_count": 1,
+      "analyte_count": 0,
+      "product_names": [],
+      "ingested_at": "2026-05-31T16:47:32+00:00",
+      "_local_path": "Processed/995712-01-DR.json"
+    },
+    {
+      "report_id": "995712-01-EC",
+      "report_status": "ACTIVE",
+      "superseded_by": null,
+      "report_date": "2026-03-24",
+      "lab": "CROM-MASS / UIS",
+      "lab_detected": "eurofins",
+      "matrix": null,
+      "client": "Purity Coffee",
+      "source_file_name": "995712-EC ÁCIDO CLOROGÉNICO Café_firmado.pdf",
+      "drive_file_id": null,
+      "sample_count": 1,
+      "analyte_count": 1,
+      "product_names": [],
+      "ingested_at": "2026-05-31T16:47:32+00:00",
+      "_local_path": "Processed/995712-01-EC.json"
+    },
     {
       "report_id": "CHG-50217786-0",
       "report_status": "ACTIVE",
@@ -11,12 +62,12 @@
       "lab_detected": "silliker",
       "matrix": null,
       "client": "Purity Coffee",
-      "source_file_name": "MXNS-COA-17-02-2026-50217786-0-EN.pdf",
+      "source_file_name": "COA-17-Feb-26-50217786-0.pdf",
       "drive_file_id": null,
       "sample_count": 1,
       "analyte_count": 24,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:12:05+00:00",
+      "ingested_at": "2026-05-31T16:47:44+00:00",
       "_local_path": "Processed/CHG-50217786-0.json"
     },
     {
@@ -33,7 +84,7 @@
       "sample_count": 1,
       "analyte_count": 23,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:43+00:00",
+      "ingested_at": "2026-05-31T16:47:45+00:00",
       "_local_path": "Processed/CHG-50217970-0.json"
     },
     {
@@ -50,7 +101,7 @@
       "sample_count": 1,
       "analyte_count": 24,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:43+00:00",
+      "ingested_at": "2026-05-31T16:47:45+00:00",
       "_local_path": "Processed/CHG-50217971-0.json"
     },
     {
@@ -67,7 +118,7 @@
       "sample_count": 1,
       "analyte_count": 1,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:42+00:00",
+      "ingested_at": "2026-05-31T16:47:43+00:00",
       "_local_path": "Processed/CHG-50203561-0.json"
     },
     {
@@ -84,7 +135,7 @@
       "sample_count": 1,
       "analyte_count": 4,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:55+00:00",
+      "ingested_at": "2026-05-31T16:48:15+00:00",
       "_local_path": "Processed/CHG-50189458-0.json"
     },
     {
@@ -120,7 +171,7 @@
       "sample_count": 1,
       "analyte_count": 14,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:43:54+00:00",
+      "ingested_at": "2026-05-31T16:47:11+00:00",
       "_local_path": "Processed/5251003-0.json"
     },
     {
@@ -137,7 +188,7 @@
       "sample_count": 1,
       "analyte_count": 14,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:43:54+00:00",
+      "ingested_at": "2026-05-31T16:47:11+00:00",
       "_local_path": "Processed/5251004-0.json"
     },
     {
@@ -154,7 +205,7 @@
       "sample_count": 1,
       "analyte_count": 14,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:43:54+00:00",
+      "ingested_at": "2026-05-31T16:47:11+00:00",
       "_local_path": "Processed/5251007-0.json"
     },
     {
@@ -171,7 +222,7 @@
       "sample_count": 1,
       "analyte_count": 14,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:43:54+00:00",
+      "ingested_at": "2026-05-31T16:47:11+00:00",
       "_local_path": "Processed/5251009-0.json"
     },
     {
@@ -188,7 +239,7 @@
       "sample_count": 1,
       "analyte_count": 14,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:43:54+00:00",
+      "ingested_at": "2026-05-31T16:47:11+00:00",
       "_local_path": "Processed/5251010-0.json"
     },
     {
@@ -205,7 +256,7 @@
       "sample_count": 1,
       "analyte_count": 11,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:43:54+00:00",
+      "ingested_at": "2026-05-31T16:47:11+00:00",
       "_local_path": "Processed/5240035-0.json"
     },
     {
@@ -222,7 +273,7 @@
       "sample_count": 1,
       "analyte_count": 1,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:47+00:00",
+      "ingested_at": "2026-05-31T16:47:55+00:00",
       "_local_path": "Processed/CHG-50124140-0.json"
     },
     {
@@ -239,7 +290,7 @@
       "sample_count": 1,
       "analyte_count": 23,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:55+00:00",
+      "ingested_at": "2026-05-31T16:48:14+00:00",
       "_local_path": "Processed/CHG-49995972-0.json"
     },
     {
@@ -277,7 +328,7 @@
       "product_names": [
         "EASE"
       ],
-      "ingested_at": "2026-04-27T05:11:52+00:00",
+      "ingested_at": "2026-05-31T16:48:11+00:00",
       "_local_path": "Processed/BRN-49871856-0.json"
     },
     {
@@ -366,7 +417,7 @@
       "sample_count": 1,
       "analyte_count": 15,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:41+00:00",
+      "ingested_at": "2026-05-31T16:47:31+00:00",
       "_local_path": "Processed/5130625-0.json"
     },
     {
@@ -383,7 +434,7 @@
       "sample_count": 1,
       "analyte_count": 15,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:44:13+00:00",
+      "ingested_at": "2026-05-31T16:47:31+00:00",
       "_local_path": "Processed/5130626-0.json"
     },
     {
@@ -402,7 +453,7 @@
       "product_names": [
         "FLOW"
       ],
-      "ingested_at": "2026-05-31T05:44:46+00:00",
+      "ingested_at": "2026-05-31T16:48:06+00:00",
       "_local_path": "Processed/CHG-49656108-0.json"
     },
     {
@@ -421,7 +472,7 @@
       "product_names": [
         "FLOW"
       ],
-      "ingested_at": "2026-05-31T05:45:19+00:00",
+      "ingested_at": "2026-05-31T16:48:41+00:00",
       "_local_path": "Processed/CHG-49656184-0.json"
     },
     {
@@ -440,7 +491,7 @@
       "product_names": [
         "FLOW"
       ],
-      "ingested_at": "2026-04-27T05:11:48+00:00",
+      "ingested_at": "2026-05-31T16:47:58+00:00",
       "_local_path": "Processed/CHG-49654978-1.json"
     },
     {
@@ -459,7 +510,7 @@
       "product_names": [
         "FLOW"
       ],
-      "ingested_at": "2026-05-31T05:45:16+00:00",
+      "ingested_at": "2026-05-31T16:48:37+00:00",
       "_local_path": "Processed/CHG-49655274-0.json"
     },
     {
@@ -510,7 +561,7 @@
       "sample_count": 1,
       "analyte_count": 8,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:44:14+00:00",
+      "ingested_at": "2026-05-31T16:47:33+00:00",
       "_local_path": "Processed/4966234-0.json"
     },
     {
@@ -526,8 +577,10 @@
       "drive_file_id": null,
       "sample_count": 1,
       "analyte_count": 26,
-      "product_names": [],
-      "ingested_at": "2026-05-31T05:45:07+00:00",
+      "product_names": [
+        "ALZ"
+      ],
+      "ingested_at": "2026-05-31T16:48:29+00:00",
       "_local_path": "Processed/4962586-0.json"
     },
     {
@@ -544,7 +597,7 @@
       "sample_count": 1,
       "analyte_count": 43,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:44:13+00:00",
+      "ingested_at": "2026-05-31T16:47:31+00:00",
       "_local_path": "Processed/4806513-0.json"
     },
     {
@@ -561,7 +614,7 @@
       "sample_count": 1,
       "analyte_count": 18,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:40+00:00",
+      "ingested_at": "2026-05-31T16:47:31+00:00",
       "_local_path": "Processed/4767921-0.json"
     },
     {
@@ -765,7 +818,7 @@
       "sample_count": 1,
       "analyte_count": 20,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:45:07+00:00",
+      "ingested_at": "2026-05-31T16:48:28+00:00",
       "_local_path": "Processed/4756188-0.json"
     },
     {
@@ -782,7 +835,7 @@
       "sample_count": 1,
       "analyte_count": 31,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:40+00:00",
+      "ingested_at": "2026-05-31T16:47:31+00:00",
       "_local_path": "Processed/4763819-0.json"
     },
     {
@@ -799,7 +852,7 @@
       "sample_count": 1,
       "analyte_count": 531,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:45:06+00:00",
+      "ingested_at": "2026-05-31T16:48:28+00:00",
       "_local_path": "Processed/4759070-0.json"
     },
     {
@@ -816,7 +869,7 @@
       "sample_count": 1,
       "analyte_count": 11,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:45:07+00:00",
+      "ingested_at": "2026-05-31T16:48:28+00:00",
       "_local_path": "Processed/4760379-0.json"
     },
     {
@@ -828,12 +881,12 @@
       "lab_detected": "eurofins",
       "matrix": null,
       "client": "Purity Coffee",
-      "source_file_name": "4707692-0_COA APONTE.pdf",
+      "source_file_name": "4707692-0_COA.pdf",
       "drive_file_id": null,
       "sample_count": 1,
       "analyte_count": 9,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:44:10+00:00",
+      "ingested_at": "2026-05-31T16:47:28+00:00",
       "_local_path": "Processed/4707692-0.json"
     },
     {
@@ -850,7 +903,7 @@
       "sample_count": 1,
       "analyte_count": 9,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:44:10+00:00",
+      "ingested_at": "2026-05-31T16:47:28+00:00",
       "_local_path": "Processed/4707693-0.json"
     },
     {
@@ -867,7 +920,7 @@
       "sample_count": 1,
       "analyte_count": 9,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:37+00:00",
+      "ingested_at": "2026-05-31T16:47:28+00:00",
       "_local_path": "Processed/4707694-0.json"
     },
     {
@@ -884,7 +937,7 @@
       "sample_count": 1,
       "analyte_count": 21,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:36+00:00",
+      "ingested_at": "2026-05-31T16:47:27+00:00",
       "_local_path": "Processed/4706419-0.json"
     },
     {
@@ -901,7 +954,7 @@
       "sample_count": 1,
       "analyte_count": 21,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:36+00:00",
+      "ingested_at": "2026-05-31T16:47:27+00:00",
       "_local_path": "Processed/4706420-0.json"
     },
     {
@@ -920,7 +973,7 @@
       "product_names": [
         "FLOW"
       ],
-      "ingested_at": "2026-04-27T05:11:37+00:00",
+      "ingested_at": "2026-05-31T16:47:28+00:00",
       "_local_path": "Processed/4709941-0.json"
     },
     {
@@ -939,7 +992,7 @@
       "product_names": [
         "PROTECT"
       ],
-      "ingested_at": "2026-04-27T05:11:38+00:00",
+      "ingested_at": "2026-05-31T16:47:28+00:00",
       "_local_path": "Processed/4709942-0.json"
     },
     {
@@ -955,8 +1008,10 @@
       "drive_file_id": null,
       "sample_count": 1,
       "analyte_count": 16,
-      "product_names": [],
-      "ingested_at": "2026-04-27T05:11:38+00:00",
+      "product_names": [
+        "BALANCE"
+      ],
+      "ingested_at": "2026-05-31T16:47:28+00:00",
       "_local_path": "Processed/4709943-0.json"
     },
     {
@@ -973,7 +1028,7 @@
       "sample_count": 1,
       "analyte_count": 25,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:38+00:00",
+      "ingested_at": "2026-05-31T16:47:29+00:00",
       "_local_path": "Processed/4709944-0.json"
     },
     {
@@ -985,12 +1040,12 @@
       "lab_detected": "eurofins",
       "matrix": null,
       "client": "Purity Coffee",
-      "source_file_name": "4756188-0_COA (3).pdf",
+      "source_file_name": "4709968-0_COA.pdf",
       "drive_file_id": null,
       "sample_count": 1,
       "analyte_count": 25,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:39+00:00",
+      "ingested_at": "2026-05-31T16:47:29+00:00",
       "_local_path": "Processed/4709968-0.json"
     },
     {
@@ -1007,7 +1062,7 @@
       "sample_count": 1,
       "analyte_count": 25,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:44:11+00:00",
+      "ingested_at": "2026-05-31T16:47:29+00:00",
       "_local_path": "Processed/4709969-0.json"
     },
     {
@@ -1026,7 +1081,7 @@
       "product_names": [
         "CALM"
       ],
-      "ingested_at": "2026-05-31T05:44:11+00:00",
+      "ingested_at": "2026-05-31T16:47:29+00:00",
       "_local_path": "Processed/4710008-0.json"
     },
     {
@@ -1128,7 +1183,7 @@
       "sample_count": 1,
       "analyte_count": 20,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:36+00:00",
+      "ingested_at": "2026-05-31T16:47:27+00:00",
       "_local_path": "Processed/4599192-0.json"
     },
     {
@@ -1145,7 +1200,7 @@
       "sample_count": 1,
       "analyte_count": 23,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:36+00:00",
+      "ingested_at": "2026-05-31T16:47:27+00:00",
       "_local_path": "Processed/4600874-0.json"
     },
     {
@@ -1162,7 +1217,7 @@
       "sample_count": 1,
       "analyte_count": 5,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:34+00:00",
+      "ingested_at": "2026-05-31T16:47:27+00:00",
       "_local_path": "Processed/4576367-0.json"
     },
     {
@@ -1179,7 +1234,7 @@
       "sample_count": 1,
       "analyte_count": 16,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:34+00:00",
+      "ingested_at": "2026-05-31T16:47:27+00:00",
       "_local_path": "Processed/4579845-0.json"
     },
     {
@@ -1196,7 +1251,7 @@
       "sample_count": 1,
       "analyte_count": 16,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:35+00:00",
+      "ingested_at": "2026-05-31T16:47:27+00:00",
       "_local_path": "Processed/4579847-0.json"
     },
     {
@@ -1213,7 +1268,7 @@
       "sample_count": 1,
       "analyte_count": 16,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:35+00:00",
+      "ingested_at": "2026-05-31T16:47:27+00:00",
       "_local_path": "Processed/4579848-0.json"
     },
     {
@@ -1230,7 +1285,7 @@
       "sample_count": 1,
       "analyte_count": 16,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:35+00:00",
+      "ingested_at": "2026-05-31T16:47:27+00:00",
       "_local_path": "Processed/4579849-0.json"
     },
     {
@@ -1249,7 +1304,7 @@
       "product_names": [
         "FLOW"
       ],
-      "ingested_at": "2026-05-31T05:44:09+00:00",
+      "ingested_at": "2026-05-31T16:47:27+00:00",
       "_local_path": "Processed/4582334-0.json"
     },
     {
@@ -1266,7 +1321,7 @@
       "sample_count": 1,
       "analyte_count": 16,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:34+00:00",
+      "ingested_at": "2026-05-31T16:47:27+00:00",
       "_local_path": "Processed/4579846-0.json"
     },
     {
@@ -1285,7 +1340,7 @@
       "product_names": [
         "EASE"
       ],
-      "ingested_at": "2026-05-31T05:45:05+00:00",
+      "ingested_at": "2026-05-31T16:48:27+00:00",
       "_local_path": "Processed/4533908-0.json"
     },
     {
@@ -1301,8 +1356,10 @@
       "drive_file_id": null,
       "sample_count": 1,
       "analyte_count": 20,
-      "product_names": [],
-      "ingested_at": "2026-05-31T05:44:15+00:00",
+      "product_names": [
+        "BALANCE"
+      ],
+      "ingested_at": "2026-05-31T16:47:35+00:00",
       "_local_path": "Processed/4533910-0.json"
     },
     {
@@ -1318,8 +1375,10 @@
       "drive_file_id": null,
       "sample_count": 1,
       "analyte_count": 20,
-      "product_names": [],
-      "ingested_at": "2026-05-31T05:44:14+00:00",
+      "product_names": [
+        "ALZ"
+      ],
+      "ingested_at": "2026-05-31T16:47:33+00:00",
       "_local_path": "Processed/4533911-0.json"
     },
     {
@@ -1338,7 +1397,7 @@
       "product_names": [
         "CALM"
       ],
-      "ingested_at": "2026-05-31T05:44:18+00:00",
+      "ingested_at": "2026-05-31T16:47:38+00:00",
       "_local_path": "Processed/4534035-0.json"
     },
     {
@@ -1357,7 +1416,7 @@
       "product_names": [
         "CALM"
       ],
-      "ingested_at": "2026-05-31T05:44:17+00:00",
+      "ingested_at": "2026-05-31T16:47:36+00:00",
       "_local_path": "Processed/4534144-0.json"
     },
     {
@@ -1373,8 +1432,10 @@
       "drive_file_id": null,
       "sample_count": 1,
       "analyte_count": 554,
-      "product_names": [],
-      "ingested_at": "2026-05-31T05:44:14+00:00",
+      "product_names": [
+        "ALZ"
+      ],
+      "ingested_at": "2026-05-31T16:47:33+00:00",
       "_local_path": "Processed/4534146-0.json"
     },
     {
@@ -1390,8 +1451,10 @@
       "drive_file_id": null,
       "sample_count": 1,
       "analyte_count": 554,
-      "product_names": [],
-      "ingested_at": "2026-05-31T05:44:15+00:00",
+      "product_names": [
+        "BALANCE"
+      ],
+      "ingested_at": "2026-05-31T16:47:34+00:00",
       "_local_path": "Processed/4534147-0.json"
     },
     {
@@ -1410,7 +1473,7 @@
       "product_names": [
         "CALM"
       ],
-      "ingested_at": "2026-05-31T05:44:18+00:00",
+      "ingested_at": "2026-05-31T16:47:37+00:00",
       "_local_path": "Processed/4541083-0.json"
     },
     {
@@ -1427,7 +1490,7 @@
       "sample_count": 1,
       "analyte_count": 0,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:47+00:00",
+      "ingested_at": "2026-05-31T16:47:56+00:00",
       "_local_path": "Processed/CHG-48225520-0.json"
     },
     {
@@ -1444,7 +1507,7 @@
       "sample_count": 1,
       "analyte_count": 39,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:45:22+00:00",
+      "ingested_at": "2026-05-31T16:48:43+00:00",
       "_local_path": "Processed/4427271-0.json"
     },
     {
@@ -1461,7 +1524,7 @@
       "sample_count": 1,
       "analyte_count": 18,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:45:07+00:00",
+      "ingested_at": "2026-05-31T16:48:28+00:00",
       "_local_path": "Processed/4390346-0.json"
     },
     {
@@ -1478,7 +1541,7 @@
       "sample_count": 1,
       "analyte_count": 38,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:45:19+00:00",
+      "ingested_at": "2026-05-31T16:48:41+00:00",
       "_local_path": "Processed/4391128-0.json"
     },
     {
@@ -1495,7 +1558,7 @@
       "sample_count": 1,
       "analyte_count": 4,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:43+00:00",
+      "ingested_at": "2026-05-31T16:47:44+00:00",
       "_local_path": "Processed/CHG-47833077-0.json"
     },
     {
@@ -1511,8 +1574,10 @@
       "drive_file_id": null,
       "sample_count": 1,
       "analyte_count": 20,
-      "product_names": [],
-      "ingested_at": "2026-04-27T05:11:41+00:00",
+      "product_names": [
+        "BALANCE"
+      ],
+      "ingested_at": "2026-05-31T16:47:35+00:00",
       "_local_path": "Processed/4265998-0.json"
     },
     {
@@ -1531,7 +1596,7 @@
       "product_names": [
         "CALM"
       ],
-      "ingested_at": "2026-05-31T05:45:05+00:00",
+      "ingested_at": "2026-05-31T16:48:26+00:00",
       "_local_path": "Processed/4268059-0.json"
     },
     {
@@ -1547,8 +1612,10 @@
       "drive_file_id": null,
       "sample_count": 1,
       "analyte_count": 23,
-      "product_names": [],
-      "ingested_at": "2026-05-31T05:44:16+00:00",
+      "product_names": [
+        "BALANCE"
+      ],
+      "ingested_at": "2026-05-31T16:47:35+00:00",
       "_local_path": "Processed/4268060-0.json"
     },
     {
@@ -1565,7 +1632,7 @@
       "sample_count": 1,
       "analyte_count": 9,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:42+00:00",
+      "ingested_at": "2026-05-31T16:47:42+00:00",
       "_local_path": "Processed/CHG-47557056-0.json"
     },
     {
@@ -1584,7 +1651,7 @@
       "product_names": [
         "FLOW"
       ],
-      "ingested_at": "2026-05-31T05:44:08+00:00",
+      "ingested_at": "2026-05-31T16:47:26+00:00",
       "_local_path": "Processed/4211524-0.json"
     },
     {
@@ -1601,7 +1668,7 @@
       "sample_count": 1,
       "analyte_count": 24,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:44:09+00:00",
+      "ingested_at": "2026-05-31T16:47:27+00:00",
       "_local_path": "Processed/4211525-0.json"
     },
     {
@@ -1618,7 +1685,7 @@
       "sample_count": 1,
       "analyte_count": 333,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:46+00:00",
+      "ingested_at": "2026-05-31T16:47:49+00:00",
       "_local_path": "Processed/CHG-47227024-0.json"
     },
     {
@@ -1637,7 +1704,7 @@
       "product_names": [
         "EASE"
       ],
-      "ingested_at": "2026-04-27T05:11:52+00:00",
+      "ingested_at": "2026-05-31T16:48:11+00:00",
       "_local_path": "Processed/CHG-47167293-0.json"
     },
     {
@@ -1673,7 +1740,7 @@
       "product_names": [
         "FLOW"
       ],
-      "ingested_at": "2026-04-27T05:12:02+00:00",
+      "ingested_at": "2026-05-31T16:48:25+00:00",
       "_local_path": "Processed/3957436-0.json"
     },
     {
@@ -1690,7 +1757,7 @@
       "sample_count": 1,
       "analyte_count": 13,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:12:03+00:00",
+      "ingested_at": "2026-05-31T16:48:25+00:00",
       "_local_path": "Processed/3965144-0.json"
     },
     {
@@ -1707,7 +1774,7 @@
       "sample_count": 1,
       "analyte_count": 13,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:12:03+00:00",
+      "ingested_at": "2026-05-31T16:48:25+00:00",
       "_local_path": "Processed/3965145-0.json"
     },
     {
@@ -1724,7 +1791,7 @@
       "sample_count": 1,
       "analyte_count": 13,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:12:03+00:00",
+      "ingested_at": "2026-05-31T16:48:25+00:00",
       "_local_path": "Processed/3965146-0.json"
     },
     {
@@ -1741,7 +1808,7 @@
       "sample_count": 1,
       "analyte_count": 13,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:12:02+00:00",
+      "ingested_at": "2026-05-31T16:48:25+00:00",
       "_local_path": "Processed/3955587-0.json"
     },
     {
@@ -1758,7 +1825,7 @@
       "sample_count": 1,
       "analyte_count": 13,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:12:02+00:00",
+      "ingested_at": "2026-05-31T16:48:25+00:00",
       "_local_path": "Processed/3955588-0.json"
     },
     {
@@ -2234,7 +2301,7 @@
       "sample_count": 1,
       "analyte_count": 13,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:12:02+00:00",
+      "ingested_at": "2026-05-31T16:48:25+00:00",
       "_local_path": "Processed/3925428-0.json"
     },
     {
@@ -2251,7 +2318,7 @@
       "sample_count": 1,
       "analyte_count": 15,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:44:53+00:00",
+      "ingested_at": "2026-05-31T16:48:14+00:00",
       "_local_path": "Processed/CHG-46543197-0.json"
     },
     {
@@ -2268,7 +2335,7 @@
       "sample_count": 1,
       "analyte_count": 5,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:33+00:00",
+      "ingested_at": "2026-05-31T16:47:26+00:00",
       "_local_path": "Processed/3857393-0.json"
     },
     {
@@ -2285,7 +2352,7 @@
       "sample_count": 1,
       "analyte_count": 13,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:44:08+00:00",
+      "ingested_at": "2026-05-31T16:47:26+00:00",
       "_local_path": "Processed/3858957-0.json"
     },
     {
@@ -2302,7 +2369,7 @@
       "sample_count": 1,
       "analyte_count": 8,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:33+00:00",
+      "ingested_at": "2026-05-31T16:47:26+00:00",
       "_local_path": "Processed/3862430-0.json"
     },
     {
@@ -2319,7 +2386,7 @@
       "sample_count": 1,
       "analyte_count": 26,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:12:01+00:00",
+      "ingested_at": "2026-05-31T16:48:24+00:00",
       "_local_path": "Processed/3862460-0.json"
     },
     {
@@ -2336,7 +2403,7 @@
       "sample_count": 1,
       "analyte_count": 13,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:12:01+00:00",
+      "ingested_at": "2026-05-31T16:48:24+00:00",
       "_local_path": "Processed/3864529-0.json"
     },
     {
@@ -2353,7 +2420,7 @@
       "sample_count": 1,
       "analyte_count": 13,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:12:02+00:00",
+      "ingested_at": "2026-05-31T16:48:25+00:00",
       "_local_path": "Processed/3864530-0.json"
     },
     {
@@ -2370,7 +2437,7 @@
       "sample_count": 1,
       "analyte_count": 8,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:33+00:00",
+      "ingested_at": "2026-05-31T16:47:26+00:00",
       "_local_path": "Processed/3866181-0.json"
     },
     {
@@ -2387,7 +2454,7 @@
       "sample_count": 1,
       "analyte_count": 8,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:12:01+00:00",
+      "ingested_at": "2026-05-31T16:48:24+00:00",
       "_local_path": "Processed/3808129-0.json"
     },
     {
@@ -2404,7 +2471,7 @@
       "sample_count": 1,
       "analyte_count": 44,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:12:01+00:00",
+      "ingested_at": "2026-05-31T16:48:24+00:00",
       "_local_path": "Processed/3808128-0.json"
     },
     {
@@ -2421,7 +2488,7 @@
       "sample_count": 1,
       "analyte_count": 33,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:12:00+00:00",
+      "ingested_at": "2026-05-31T16:48:24+00:00",
       "_local_path": "Processed/3750933-0.json"
     },
     {
@@ -2440,7 +2507,7 @@
       "product_names": [
         "PROTECT"
       ],
-      "ingested_at": "2026-04-27T05:11:59+00:00",
+      "ingested_at": "2026-05-31T16:48:24+00:00",
       "_local_path": "Processed/3655789-0.json"
     },
     {
@@ -2457,7 +2524,7 @@
       "sample_count": 1,
       "analyte_count": 13,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:33+00:00",
+      "ingested_at": "2026-05-31T16:47:26+00:00",
       "_local_path": "Processed/3650901-0.json"
     },
     {
@@ -2529,7 +2596,7 @@
       "sample_count": 1,
       "analyte_count": 4,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:32+00:00",
+      "ingested_at": "2026-05-31T16:47:26+00:00",
       "_local_path": "Processed/3629638-0.json"
     },
     {
@@ -2546,7 +2613,7 @@
       "sample_count": 1,
       "analyte_count": 21,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:31+00:00",
+      "ingested_at": "2026-05-31T16:47:25+00:00",
       "_local_path": "Processed/3613233-0.json"
     },
     {
@@ -2563,7 +2630,7 @@
       "sample_count": 1,
       "analyte_count": 17,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:45:08+00:00",
+      "ingested_at": "2026-05-31T16:48:29+00:00",
       "_local_path": "Processed/3596065-0.json"
     },
     {
@@ -2601,7 +2668,7 @@
       "product_names": [
         "FLOW"
       ],
-      "ingested_at": "2026-04-27T05:11:28+00:00",
+      "ingested_at": "2026-05-31T16:47:24+00:00",
       "_local_path": "Processed/3594987-0.json"
     },
     {
@@ -2620,7 +2687,7 @@
       "product_names": [
         "EASE"
       ],
-      "ingested_at": "2026-04-27T05:11:28+00:00",
+      "ingested_at": "2026-05-31T16:47:24+00:00",
       "_local_path": "Processed/3594988-0.json"
     },
     {
@@ -2639,7 +2706,7 @@
       "product_names": [
         "PROTECT"
       ],
-      "ingested_at": "2026-04-27T05:11:30+00:00",
+      "ingested_at": "2026-05-31T16:47:24+00:00",
       "_local_path": "Processed/3599299-0.json"
     },
     {
@@ -2727,14 +2794,14 @@
       "lab_detected": "eurofins",
       "matrix": null,
       "client": "Purity Coffee",
-      "source_file_name": "3608933-0_COA.pdf",
+      "source_file_name": "3608933-0_COA (1).pdf",
       "drive_file_id": null,
       "sample_count": 1,
       "analyte_count": 24,
       "product_names": [
         "PROTECT"
       ],
-      "ingested_at": "2026-04-27T05:11:31+00:00",
+      "ingested_at": "2026-05-31T16:47:24+00:00",
       "_local_path": "Processed/3608933-0.json"
     },
     {
@@ -2753,7 +2820,7 @@
       "product_names": [
         "PROTECT"
       ],
-      "ingested_at": "2026-04-27T05:11:32+00:00",
+      "ingested_at": "2026-05-31T16:47:26+00:00",
       "_local_path": "Processed/3622131-0.json"
     },
     {
@@ -2772,7 +2839,7 @@
       "product_names": [
         "EASE"
       ],
-      "ingested_at": "2026-04-27T05:11:32+00:00",
+      "ingested_at": "2026-05-31T16:47:26+00:00",
       "_local_path": "Processed/3622294-0.json"
     },
     {
@@ -2789,7 +2856,7 @@
       "sample_count": 1,
       "analyte_count": 51,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:31+00:00",
+      "ingested_at": "2026-05-31T16:47:25+00:00",
       "_local_path": "Processed/3614864-0.json"
     },
     {
@@ -2806,7 +2873,7 @@
       "sample_count": 1,
       "analyte_count": 51,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:31+00:00",
+      "ingested_at": "2026-05-31T16:47:26+00:00",
       "_local_path": "Processed/3614865-0.json"
     },
     {
@@ -2818,12 +2885,12 @@
       "lab_detected": "eurofins",
       "matrix": null,
       "client": "Purity Coffee",
-      "source_file_name": "18_Conejo_Barium_Strontium.pdf",
+      "source_file_name": "3522613-0_COA.pdf",
       "drive_file_id": null,
       "sample_count": 1,
-      "analyte_count": 2,
+      "analyte_count": 22,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:43:54+00:00",
+      "ingested_at": "2026-05-31T16:47:23+00:00",
       "_local_path": "Processed/3522613-0.json"
     },
     {
@@ -2835,12 +2902,12 @@
       "lab_detected": "eurofins",
       "matrix": null,
       "client": "Purity Coffee",
-      "source_file_name": "2022-Current and New Coffee.pdf",
+      "source_file_name": "PRADERA_P003365_COA.pdf",
       "drive_file_id": null,
       "sample_count": 1,
-      "analyte_count": 36,
+      "analyte_count": 42,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:44:01+00:00",
+      "ingested_at": "2026-05-31T16:48:42+00:00",
       "_local_path": "Processed/3492052-0.json"
     },
     {
@@ -2857,7 +2924,7 @@
       "sample_count": 1,
       "analyte_count": 1,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:25+00:00",
+      "ingested_at": "2026-05-31T16:47:22+00:00",
       "_local_path": "Processed/3477003-0.json"
     },
     {
@@ -2874,7 +2941,7 @@
       "sample_count": 1,
       "analyte_count": 2,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:25+00:00",
+      "ingested_at": "2026-05-31T16:47:22+00:00",
       "_local_path": "Processed/3477081-0.json"
     },
     {
@@ -2908,7 +2975,7 @@
       "sample_count": 1,
       "analyte_count": 2,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:26+00:00",
+      "ingested_at": "2026-05-31T16:47:22+00:00",
       "_local_path": "Processed/3477083-0.json"
     },
     {
@@ -2925,7 +2992,7 @@
       "sample_count": 1,
       "analyte_count": 24,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:26+00:00",
+      "ingested_at": "2026-05-31T16:47:23+00:00",
       "_local_path": "Processed/3478123-0.json"
     },
     {
@@ -2976,7 +3043,7 @@
       "sample_count": 1,
       "analyte_count": 22,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:44:16+00:00",
+      "ingested_at": "2026-05-31T16:47:35+00:00",
       "_local_path": "Processed/3481080-0.json"
     },
     {
@@ -2993,7 +3060,7 @@
       "sample_count": 1,
       "analyte_count": 22,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:44:16+00:00",
+      "ingested_at": "2026-05-31T16:47:35+00:00",
       "_local_path": "Processed/3481081-0.json"
     },
     {
@@ -3022,12 +3089,12 @@
       "lab_detected": "eurofins",
       "matrix": null,
       "client": "Purity Coffee",
-      "source_file_name": "LIFEBOOST_DECAF_COA.pdf",
+      "source_file_name": "3481083-0_COA.pdf",
       "drive_file_id": null,
       "sample_count": 1,
       "analyte_count": 22,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:12:04+00:00",
+      "ingested_at": "2026-05-31T16:47:23+00:00",
       "_local_path": "Processed/3481083-0.json"
     },
     {
@@ -3044,7 +3111,7 @@
       "sample_count": 1,
       "analyte_count": 37,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:45:08+00:00",
+      "ingested_at": "2026-05-31T16:48:29+00:00",
       "_local_path": "Processed/3481129-0.json"
     },
     {
@@ -3095,7 +3162,7 @@
       "sample_count": 1,
       "analyte_count": 22,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:27+00:00",
+      "ingested_at": "2026-05-31T16:47:23+00:00",
       "_local_path": "Processed/3481484-0.json"
     },
     {
@@ -3112,7 +3179,7 @@
       "sample_count": 1,
       "analyte_count": 35,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:45:08+00:00",
+      "ingested_at": "2026-05-31T16:48:29+00:00",
       "_local_path": "Processed/3488986-0.json"
     },
     {
@@ -3129,7 +3196,7 @@
       "sample_count": 1,
       "analyte_count": 27,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:25+00:00",
+      "ingested_at": "2026-05-31T16:47:22+00:00",
       "_local_path": "Processed/3453071-0.json"
     },
     {
@@ -3146,7 +3213,7 @@
       "sample_count": 1,
       "analyte_count": 1,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:25+00:00",
+      "ingested_at": "2026-05-31T16:47:22+00:00",
       "_local_path": "Processed/3425524-0.json"
     },
     {
@@ -3163,7 +3230,7 @@
       "sample_count": 1,
       "analyte_count": 34,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:45:07+00:00",
+      "ingested_at": "2026-05-31T16:48:28+00:00",
       "_local_path": "Processed/3430251-0.json"
     },
     {
@@ -3180,7 +3247,7 @@
       "sample_count": 1,
       "analyte_count": 43,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:45:08+00:00",
+      "ingested_at": "2026-05-31T16:48:29+00:00",
       "_local_path": "Processed/3416250-0.json"
     },
     {
@@ -3197,7 +3264,7 @@
       "sample_count": 1,
       "analyte_count": 27,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:24+00:00",
+      "ingested_at": "2026-05-31T16:47:22+00:00",
       "_local_path": "Processed/3383293-0.json"
     },
     {
@@ -3214,7 +3281,7 @@
       "sample_count": 1,
       "analyte_count": 22,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:24+00:00",
+      "ingested_at": "2026-05-31T16:47:22+00:00",
       "_local_path": "Processed/3347322-0.json"
     },
     {
@@ -3231,7 +3298,7 @@
       "sample_count": 1,
       "analyte_count": 14,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:44:03+00:00",
+      "ingested_at": "2026-05-31T16:47:20+00:00",
       "_local_path": "Processed/3294925-0.json"
     },
     {
@@ -3248,7 +3315,7 @@
       "sample_count": 1,
       "analyte_count": 79,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:45:05+00:00",
+      "ingested_at": "2026-05-31T16:48:26+00:00",
       "_local_path": "Processed/3325286-0.json"
     },
     {
@@ -3265,7 +3332,7 @@
       "sample_count": 1,
       "analyte_count": 15,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:23+00:00",
+      "ingested_at": "2026-05-31T16:47:20+00:00",
       "_local_path": "Processed/3210921-0.json"
     },
     {
@@ -3277,12 +3344,12 @@
       "lab_detected": "eurofins",
       "matrix": null,
       "client": "Purity Coffee",
-      "source_file_name": "3206088-0_COA-PeruSWMarch2021.pdf",
+      "source_file_name": "3206088-0_COA.pdf",
       "drive_file_id": null,
       "sample_count": 1,
       "analyte_count": 13,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:44:02+00:00",
+      "ingested_at": "2026-05-31T16:47:20+00:00",
       "_local_path": "Processed/3206088-0.json"
     },
     {
@@ -3316,7 +3383,7 @@
       "sample_count": 1,
       "analyte_count": 2,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:23+00:00",
+      "ingested_at": "2026-05-31T16:47:20+00:00",
       "_local_path": "Processed/3053462-0.json"
     },
     {
@@ -3333,7 +3400,7 @@
       "sample_count": 1,
       "analyte_count": 1,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:22+00:00",
+      "ingested_at": "2026-05-31T16:47:19+00:00",
       "_local_path": "Processed/3045650-0.json"
     },
     {
@@ -3350,7 +3417,7 @@
       "sample_count": 1,
       "analyte_count": 22,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:23+00:00",
+      "ingested_at": "2026-05-31T16:47:19+00:00",
       "_local_path": "Processed/3045729-0.json"
     },
     {
@@ -3367,7 +3434,7 @@
       "sample_count": 1,
       "analyte_count": 33,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:44:02+00:00",
+      "ingested_at": "2026-05-31T16:47:20+00:00",
       "_local_path": "Processed/3047167-0.json"
     },
     {
@@ -3384,7 +3451,7 @@
       "sample_count": 1,
       "analyte_count": 1,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:57+00:00",
+      "ingested_at": "2026-05-31T16:48:24+00:00",
       "_local_path": "Processed/3026569-0.json"
     },
     {
@@ -3401,7 +3468,7 @@
       "sample_count": 1,
       "analyte_count": 1,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:58+00:00",
+      "ingested_at": "2026-05-31T16:48:24+00:00",
       "_local_path": "Processed/3026570-0.json"
     },
     {
@@ -3418,7 +3485,7 @@
       "sample_count": 1,
       "analyte_count": 33,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:22+00:00",
+      "ingested_at": "2026-05-31T16:47:19+00:00",
       "_local_path": "Processed/3009359-0.json"
     },
     {
@@ -3435,7 +3502,7 @@
       "sample_count": 1,
       "analyte_count": 9,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:44:19+00:00",
+      "ingested_at": "2026-05-31T16:47:38+00:00",
       "_local_path": "Processed/2904069-0.json"
     },
     {
@@ -3452,7 +3519,7 @@
       "sample_count": 1,
       "analyte_count": 15,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:43:54+00:00",
+      "ingested_at": "2026-05-31T16:47:12+00:00",
       "_local_path": "Processed/2852904-0.json"
     },
     {
@@ -3469,7 +3536,7 @@
       "sample_count": 1,
       "analyte_count": 338,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:44:20+00:00",
+      "ingested_at": "2026-05-31T16:47:40+00:00",
       "_local_path": "Processed/CHG-43453407-0.json"
     },
     {
@@ -3486,7 +3553,7 @@
       "sample_count": 1,
       "analyte_count": 29,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:44:21+00:00",
+      "ingested_at": "2026-05-31T16:47:41+00:00",
       "_local_path": "Processed/CHG-43452104-0.json"
     },
     {
@@ -3503,7 +3570,7 @@
       "sample_count": 1,
       "analyte_count": 312,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:44:21+00:00",
+      "ingested_at": "2026-05-31T16:47:40+00:00",
       "_local_path": "Processed/CHG-43439844-0.json"
     },
     {
@@ -3520,7 +3587,7 @@
       "sample_count": 1,
       "analyte_count": 26,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:45:02+00:00",
+      "ingested_at": "2026-05-31T16:48:24+00:00",
       "_local_path": "Processed/CHG-43182324-0.json"
     },
     {
@@ -3537,7 +3604,7 @@
       "sample_count": 1,
       "analyte_count": 9,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:44:25+00:00",
+      "ingested_at": "2026-05-31T16:47:44+00:00",
       "_local_path": "Processed/CHG-43075267-0.json"
     },
     {
@@ -3554,25 +3621,8 @@
       "sample_count": 1,
       "analyte_count": 9,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:44:25+00:00",
+      "ingested_at": "2026-05-31T16:47:44+00:00",
       "_local_path": "Processed/CHG-43075268-0.json"
-    },
-    {
-      "report_id": "RESEARCH-2019-10-green-arthur-s",
-      "report_status": "ACTIVE",
-      "superseded_by": null,
-      "report_date": "2019-10-01",
-      "lab": "Research lab (CGA profiling study, inferred)",
-      "lab_detected": "research",
-      "matrix": "green",
-      "client": "Purity Coffee",
-      "source_file_name": "Purity results october 2019 (1).docx",
-      "drive_file_id": null,
-      "sample_count": 1,
-      "analyte_count": 15,
-      "product_names": [],
-      "ingested_at": "2026-06-12T04:50:45.421065+00:00",
-      "_local_path": "Processed/RESEARCH-2019-10-green-arthur-s.json"
     },
     {
       "report_id": "RESEARCH-2019-10-green-arthurs",
@@ -3707,7 +3757,7 @@
       "sample_count": 1,
       "analyte_count": 9,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:44:38+00:00",
+      "ingested_at": "2026-05-31T16:47:58+00:00",
       "_local_path": "Processed/CHG-42793689-0.json"
     },
     {
@@ -3724,7 +3774,7 @@
       "sample_count": 1,
       "analyte_count": 9,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:44:29+00:00",
+      "ingested_at": "2026-05-31T16:47:49+00:00",
       "_local_path": "Processed/CHG-42780029-0.json"
     },
     {
@@ -3741,7 +3791,7 @@
       "sample_count": 1,
       "analyte_count": 16,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:44:23+00:00",
+      "ingested_at": "2026-05-31T16:47:42+00:00",
       "_local_path": "Processed/CHG-42744732-3.json"
     },
     {
@@ -3758,7 +3808,7 @@
       "sample_count": 1,
       "analyte_count": 4,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:44:23+00:00",
+      "ingested_at": "2026-05-31T16:47:42+00:00",
       "_local_path": "Processed/CHG-42744732-1.json"
     },
     {
@@ -3775,7 +3825,7 @@
       "sample_count": 1,
       "analyte_count": 3,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:44:55+00:00",
+      "ingested_at": "2026-05-31T16:48:16+00:00",
       "_local_path": "Processed/CHG-42744732-0.json"
     },
     {
@@ -3792,7 +3842,7 @@
       "sample_count": 1,
       "analyte_count": 9,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:44:38+00:00",
+      "ingested_at": "2026-05-31T16:47:58+00:00",
       "_local_path": "Processed/CHG-42693247-0.json"
     },
     {
@@ -3809,7 +3859,7 @@
       "sample_count": 1,
       "analyte_count": 38,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:44:23+00:00",
+      "ingested_at": "2026-05-31T16:47:43+00:00",
       "_local_path": "Processed/CHG-42655731-0.json"
     },
     {
@@ -3826,7 +3876,7 @@
       "sample_count": 1,
       "analyte_count": 10,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:44:55+00:00",
+      "ingested_at": "2026-05-31T16:48:15+00:00",
       "_local_path": "Processed/CHG-42542261-0.json"
     },
     {
@@ -3843,7 +3893,7 @@
       "sample_count": 1,
       "analyte_count": 11,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:44:50+00:00",
+      "ingested_at": "2026-05-31T16:48:10+00:00",
       "_local_path": "Processed/CHG-42526682-0.json"
     },
     {
@@ -3860,7 +3910,7 @@
       "sample_count": 1,
       "analyte_count": 4,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:55+00:00",
+      "ingested_at": "2026-05-31T16:48:14+00:00",
       "_local_path": "Processed/CHG-42436434-0.json"
     },
     {
@@ -3877,7 +3927,7 @@
       "sample_count": 1,
       "analyte_count": 8,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:44:24+00:00",
+      "ingested_at": "2026-05-31T16:47:43+00:00",
       "_local_path": "Processed/CHG-42267664-0.json"
     },
     {
@@ -3894,7 +3944,7 @@
       "sample_count": 1,
       "analyte_count": 12,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:44:50+00:00",
+      "ingested_at": "2026-05-31T16:48:10+00:00",
       "_local_path": "Processed/CHG-42225570-0.json"
     },
     {
@@ -3911,7 +3961,7 @@
       "sample_count": 1,
       "analyte_count": 328,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:47+00:00",
+      "ingested_at": "2026-05-31T16:47:57+00:00",
       "_local_path": "Processed/CHG-42174365-2.json"
     },
     {
@@ -3923,12 +3973,12 @@
       "lab_detected": "silliker",
       "matrix": null,
       "client": "Purity Coffee",
-      "source_file_name": "COA-Nicaragua 2019-GREEN COFFEE.pdf",
+      "source_file_name": "COA-Nicaragua 2019.pdf",
       "drive_file_id": null,
       "sample_count": 1,
-      "analyte_count": 326,
+      "analyte_count": 328,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:44:58+00:00",
+      "ingested_at": "2026-05-31T16:48:20+00:00",
       "_local_path": "Processed/CHG-42174365-3.json"
     },
     {
@@ -3945,13 +3995,13 @@
       "sample_count": 1,
       "analyte_count": 11,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:44:29+00:00",
+      "ingested_at": "2026-05-31T16:47:49+00:00",
       "_local_path": "Processed/CHG-42176956-0.json"
     },
     {
       "report_id": "CHG-42174365-0",
-      "report_status": "VOID",
-      "superseded_by": "CHG-42174365-1",
+      "report_status": "ACTIVE",
+      "superseded_by": null,
       "report_date": "2019-03-19",
       "lab": "Silliker / Mérieux NutriSciences",
       "lab_detected": "silliker",
@@ -3962,7 +4012,7 @@
       "sample_count": 1,
       "analyte_count": 320,
       "product_names": [],
-      "ingested_at": "2026-04-27T05:11:44+00:00",
+      "ingested_at": "2026-05-31T16:47:46+00:00",
       "_local_path": "Processed/CHG-42174365-0.json"
     },
     {
@@ -3996,7 +4046,7 @@
       "sample_count": 1,
       "analyte_count": 11,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:44:27+00:00",
+      "ingested_at": "2026-05-31T16:47:46+00:00",
       "_local_path": "Processed/CHG-42085356-0.json"
     },
     {
@@ -4013,7 +4063,7 @@
       "sample_count": 1,
       "analyte_count": 13,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:44:49+00:00",
+      "ingested_at": "2026-05-31T16:48:10+00:00",
       "_local_path": "Processed/CHG-42012903-0.json"
     },
     {
@@ -4030,7 +4080,7 @@
       "sample_count": 1,
       "analyte_count": 1,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:44:53+00:00",
+      "ingested_at": "2026-05-31T16:48:14+00:00",
       "_local_path": "Processed/CHG-41860002-0.json"
     },
     {
@@ -4047,7 +4097,7 @@
       "sample_count": 1,
       "analyte_count": 7,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:44:51+00:00",
+      "ingested_at": "2026-05-31T16:48:12+00:00",
       "_local_path": "Processed/CHG-41853260-0.json"
     },
     {
@@ -4064,7 +4114,7 @@
       "sample_count": 1,
       "analyte_count": 19,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:44:25+00:00",
+      "ingested_at": "2026-05-31T16:47:45+00:00",
       "_local_path": "Processed/CHG-41596127-0.json"
     },
     {
@@ -4081,7 +4131,7 @@
       "sample_count": 1,
       "analyte_count": 8,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:44:50+00:00",
+      "ingested_at": "2026-05-31T16:48:11+00:00",
       "_local_path": "Processed/CHG-41545447-0.json"
     },
     {
@@ -4098,7 +4148,7 @@
       "sample_count": 1,
       "analyte_count": 3,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:44:24+00:00",
+      "ingested_at": "2026-05-31T16:47:43+00:00",
       "_local_path": "Processed/CHG-41389861-0.json"
     },
     {
@@ -4115,7 +4165,7 @@
       "sample_count": 1,
       "analyte_count": 9,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:44:50+00:00",
+      "ingested_at": "2026-05-31T16:48:10+00:00",
       "_local_path": "Processed/CHG-41358639-0.json"
     },
     {
@@ -4132,7 +4182,7 @@
       "sample_count": 1,
       "analyte_count": 3,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:44:51+00:00",
+      "ingested_at": "2026-05-31T16:48:12+00:00",
       "_local_path": "Processed/CHG-41266153-0.json"
     },
     {
@@ -4149,7 +4199,7 @@
       "sample_count": 1,
       "analyte_count": 4,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:44:24+00:00",
+      "ingested_at": "2026-05-31T16:47:43+00:00",
       "_local_path": "Processed/CHG-41199692-0.json"
     },
     {
@@ -4166,7 +4216,7 @@
       "sample_count": 1,
       "analyte_count": 6,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:44:52+00:00",
+      "ingested_at": "2026-05-31T16:48:12+00:00",
       "_local_path": "Processed/CHG-41169643-0.json"
     },
     {
@@ -4183,7 +4233,7 @@
       "sample_count": 1,
       "analyte_count": 318,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:45:02+00:00",
+      "ingested_at": "2026-05-31T16:48:23+00:00",
       "_local_path": "Processed/CHG-41077692-0.json"
     },
     {
@@ -4200,7 +4250,7 @@
       "sample_count": 1,
       "analyte_count": 1,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:44:35+00:00",
+      "ingested_at": "2026-05-31T16:47:56+00:00",
       "_local_path": "Processed/CHG-41025356-0.json"
     },
     {
@@ -4217,7 +4267,7 @@
       "sample_count": 1,
       "analyte_count": 319,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:45:21+00:00",
+      "ingested_at": "2026-05-31T16:48:43+00:00",
       "_local_path": "Processed/CHG-40804923-0.json"
     },
     {
@@ -4234,7 +4284,7 @@
       "sample_count": 1,
       "analyte_count": 9,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:44:54+00:00",
+      "ingested_at": "2026-05-31T16:48:14+00:00",
       "_local_path": "Processed/CHG-40722135-0.json"
     },
     {
@@ -4251,7 +4301,7 @@
       "sample_count": 1,
       "analyte_count": 9,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:44:27+00:00",
+      "ingested_at": "2026-05-31T16:47:46+00:00",
       "_local_path": "Processed/CHG-40700476-0.json"
     },
     {
@@ -4268,7 +4318,7 @@
       "sample_count": 1,
       "analyte_count": 9,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:44:51+00:00",
+      "ingested_at": "2026-05-31T16:48:12+00:00",
       "_local_path": "Processed/CHG-40616086-0.json"
     },
     {
@@ -4285,7 +4335,7 @@
       "sample_count": 1,
       "analyte_count": 318,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:44:35+00:00",
+      "ingested_at": "2026-05-31T16:47:55+00:00",
       "_local_path": "Processed/CHG-39259611-0.json"
     },
     {
@@ -4302,7 +4352,7 @@
       "sample_count": 1,
       "analyte_count": 8,
       "product_names": [],
-      "ingested_at": "2026-05-31T05:44:24+00:00",
+      "ingested_at": "2026-05-31T16:47:44+00:00",
       "_local_path": "Processed/CHG-39093908-0.json"
     }
   ]
