@@ -1,0 +1,46 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  dashboard:
+    name: Dashboard typecheck + build
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: dashboard/app
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: dashboard/app/package-lock.json
+      - run: npm ci
+      - name: Build (typechecks — same as Vercel)
+        run: npm run build
+        env:
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          NEXT_PUBLIC_SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+      - name: Lint (if configured)
+        run: npm run lint --if-present
+
+  parser:
+    name: Python parser tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -r scripts/requirements.txt pytest
+      - name: Run parser tests
+        run: |
+          if ls tests/test_*.py >/dev/null 2>&1; then pytest -q; else echo "no tests yet"; fi
