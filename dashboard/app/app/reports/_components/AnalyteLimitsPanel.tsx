@@ -3,6 +3,7 @@
 // Limit data comes from the `coa_limits` table via lib/coa-limits.loadLimits()
 // — the parent page does the load once and passes a single Limit (or null) here.
 
+import Link from 'next/link';
 import type { Limit } from '@/lib/coa-limits';
 
 export function AnalyteLimitsPanel({ analyteKey, analyteLabel, limit }: {
@@ -65,9 +66,9 @@ export function AnalyteLimitsPanel({ analyteKey, analyteLabel, limit }: {
 
       <div className="mt-4 flex items-center justify-between text-[10px] text-purity-muted dark:text-purity-mist">
         <code className="rounded bg-purity-cream/60 px-1.5 py-0.5 dark:bg-purity-ink/40">{analyteKey}</code>
-        <a href="/reports/limits" className="hover:text-purity-green dark:hover:text-purity-aqua">
+        <Link href="/reports/limits" className="hover:text-purity-green dark:hover:text-purity-aqua">
           edit limits →
-        </a>
+        </Link>
       </div>
     </aside>
   );
