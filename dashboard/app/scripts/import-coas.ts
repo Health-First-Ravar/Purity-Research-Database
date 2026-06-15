@@ -44,6 +44,7 @@ type ProcessedCOA = {
   lab: string | null;
   source_file: string | null;
   parse_confidence: number;
+  matrix?: string | null;
   analytes: Analyte[];
 };
 
@@ -233,6 +234,7 @@ function mapToCOARow(doc: ProcessedCOA): Record<string, unknown> | null {
     lot_number: cleanLot(doc.lot_or_po),
     origin: extractOrigin(doc.sample_name),
     lab: doc.lab ?? null,
+    matrix: doc.matrix ?? null,
     pdf_filename,
     ota_ppb: toPpb(ota),
     aflatoxin_ppb: aflaSummed ?? toPpb(afla),
