@@ -4,8 +4,9 @@ import { supabaseServer } from '@/lib/supabase';
 
 export const dynamic = 'force-dynamic';
 
-// Customer-support snapshot: the MOST RECENT COA for each blend and each green
-// coffee, showing a limited, customer-friendly panel of contaminants + nutrients.
+// Customer-support snapshot: per blend and per green coffee, the most recent
+// NON-NULL value for each analyte across that product's COAs (so a narrow or
+// empty latest report doesn't blank the panel).
 
 const CONTAMINANTS: { key: string; label: string; unit: string }[] = [
   { key: 'ota_ppb',        label: 'Ochratoxin A', unit: 'ppb' },
@@ -18,6 +19,7 @@ const NUTRIENTS: { key: string; label: string; unit: string }[] = [
   { key: 'trigonelline_mg_g', label: 'Trigonelline', unit: 'mg/g' },
   { key: 'caffeine_pct',      label: 'Caffeine', unit: '%' },
 ];
+const ALL = [...CONTAMINANTS, ...NUTRIENTS];
 
 type Row = Record<string, unknown> & {
   id: string;
@@ -26,7 +28,6 @@ type Row = Record<string, unknown> & {
   coffee_name: string | null;
   origin: string | null;
   matrix: string | null;
-  lab: string | null;
 };
 
 function num(v: unknown): number | null {
@@ -39,6 +40,15 @@ function fmt(v: number | null, unit: string): string {
   return `${s} ${unit}`;
 }
 
+type Snap = {
+  key: string;
+  id: string;
+  origin: string | null;
+  latestDate: string | null;
+  values: Record<string, number | null>;
+  valueDates: Record<string, string | null>;
+};
+
 export default async function SupportReportPage() {
   const supabase = supabaseServer(await cookies());
 
@@ -46,7 +56,7 @@ export default async function SupportReportPage() {
     .from('coas')
     .select('*')
     .order('report_date', { ascending: false })
-    .limit(2000);
+    .limit(5000);
 
   function groupKey(r: Row): string | null {
     if (r.blend) return `Blend · ${r.blend}`;
@@ -55,24 +65,43 @@ export default async function SupportReportPage() {
     return null;
   }
 
-  const latest = new Map<string, Row>();
+  const byGroup = new Map<string, Row[]>();
   for (const r of (rows ?? []) as Row[]) {
     const k = groupKey(r);
     if (!k) continue;
-    const cur = latest.get(k);
-    if (!cur) latest.set(k, r);
-    else {
-      const a = String(r.report_date ?? '');
-      const b = String(cur.report_date ?? '');
-      if (a.localeCompare(b) > 0) latest.set(k, r);
-    }
+    if (!byGroup.has(k)) byGroup.set(k, []);
+    byGroup.get(k)!.push(r);
   }
 
-  const groups = Array.from(latest.entries()).sort((a, b) => a[0].localeCompare(b[0]));
-  const blends = groups.filter(([k]) => k.startsWith('Blend'));
-  const greens = groups.filter(([k]) => k.startsWith('Green'));
+  const snaps: Snap[] = [];
+  for (const [k, list] of byGroup) {
+    list.sort((a, b) => String(b.report_date ?? '').localeCompare(String(a.report_date ?? '')));
+    const values: Record<string, number | null> = {};
+    const valueDates: Record<string, string | null> = {};
+    for (const col of ALL) {
+      let v: number | null = null;
+      let d: string | null = null;
+      for (const r of list) {
+        const x = num(r[col.key]);
+        if (x != null) { v = x; d = (r.report_date as string) ?? null; break; }
+      }
+      values[col.key] = v;
+      valueDates[col.key] = d;
+    }
+    snaps.push({
+      key: k,
+      id: list[0].id,
+      origin: (list[0].origin as string) ?? null,
+      latestDate: (list[0].report_date as string) ?? null,
+      values,
+      valueDates,
+    });
+  }
+  snaps.sort((a, b) => a.key.localeCompare(b.key));
+  const blends = snaps.filter((s) => s.key.startsWith('Blend'));
+  const greens = snaps.filter((s) => s.key.startsWith('Green'));
 
-  function Section({ title, items }: { title: string; items: [string, Row][] }) {
+  function Section({ title, items }: { title: string; items: Snap[] }) {
     if (items.length === 0) return null;
     return (
       <div className="mb-8">
@@ -83,24 +112,26 @@ export default async function SupportReportPage() {
               <tr className="border-b border-purity-bean/10 text-left text-xs text-purity-muted dark:border-purity-paper/10 dark:text-purity-mist">
                 <th className="p-3">Product</th>
                 <th className="p-3">Latest test</th>
-                {CONTAMINANTS.map((c) => <th key={c.key} className="p-3">{c.label}</th>)}
-                {NUTRIENTS.map((n) => <th key={n.key} className="p-3">{n.label}</th>)}
+                {ALL.map((c) => <th key={c.key} className="p-3">{c.label}</th>)}
               </tr>
             </thead>
             <tbody>
-              {items.map(([k, r]) => (
-                <tr key={k} className="border-b border-purity-bean/5 hover:bg-purity-cream/40 dark:border-purity-paper/5 dark:hover:bg-purity-ink/40">
+              {items.map((s) => (
+                <tr key={s.key} className="border-b border-purity-bean/5 hover:bg-purity-cream/40 dark:border-purity-paper/5 dark:hover:bg-purity-ink/40">
                   <td className="p-3">
-                    <Link href={`/reports/${r.id}`} className="block">
-                      {k.replace(/^(Blend|Green) · /, '')}
-                      {r.origin && !k.includes(r.origin as string) ? (
-                        <span className="text-purity-muted dark:text-purity-mist"> · {r.origin as string}</span>
+                    <Link href={`/reports/${s.id}`} className="block">
+                      {s.key.replace(/^(Blend|Green) · /, '')}
+                      {s.origin && !s.key.includes(s.origin) ? (
+                        <span className="text-purity-muted dark:text-purity-mist"> · {s.origin}</span>
                       ) : null}
                     </Link>
                   </td>
-                  <td className="p-3 text-purity-muted dark:text-purity-mist">{(r.report_date as string) ?? '—'}</td>
-                  {CONTAMINANTS.map((c) => <td key={c.key} className="p-3 font-mono tabular-nums">{fmt(num(r[c.key]), c.unit)}</td>)}
-                  {NUTRIENTS.map((n) => <td key={n.key} className="p-3 font-mono tabular-nums">{fmt(num(r[n.key]), n.unit)}</td>)}
+                  <td className="p-3 text-purity-muted dark:text-purity-mist">{s.latestDate ?? '—'}</td>
+                  {ALL.map((c) => (
+                    <td key={c.key} className="p-3 font-mono tabular-nums" title={s.valueDates[c.key] ? `as of ${s.valueDates[c.key]}` : undefined}>
+                      {fmt(s.values[c.key], c.unit)}
+                    </td>
+                  ))}
                 </tr>
               ))}
             </tbody>
@@ -119,12 +150,12 @@ export default async function SupportReportPage() {
         </Link>
       </div>
       <p className="mb-6 max-w-2xl text-sm text-purity-muted dark:text-purity-mist">
-        The most recent certificate of analysis for each blend and green coffee, with a customer-friendly
-        contaminant and nutrient panel. Click a product to open its full COA.
+        Most recent measured value for each blend and green coffee. Each cell is the latest
+        COA that actually reported that analyte (hover a value for its test date). Click a product for its newest full COA.
       </p>
 
       {error && <p className="text-purity-rust">Error: {error.message}</p>}
-      {!error && groups.length === 0 && (
+      {!error && snaps.length === 0 && (
         <p className="text-purity-muted dark:text-purity-mist">No COA rows found.</p>
       )}
 
