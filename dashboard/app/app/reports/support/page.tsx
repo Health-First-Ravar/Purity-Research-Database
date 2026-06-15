@@ -92,7 +92,7 @@ export default async function SupportReportPage() {
       key: k,
       id: list[0].id,
       origin: (list[0].origin as string) ?? null,
-      latestDate: (list[0].report_date as string) ?? null,
+      latestDate: (Object.values(valueDates).filter(Boolean).sort().pop() as string | undefined) ?? (list[0].report_date as string) ?? null,
       values,
       valueDates,
     });
