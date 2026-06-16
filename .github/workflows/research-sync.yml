@@ -2,7 +2,7 @@ name: Research Auto-Sync
 
 on:
   schedule:
-    - cron: '0 11 * * *'   # daily 11:00 UTC (after COA sync)
+    - cron: '0 11 * * *'    # daily 11:00 UTC (after COA sync)
   workflow_dispatch:
     inputs:
       force_embed:
@@ -11,8 +11,9 @@ on:
         default: false
 
 permissions:
-  contents: write          # commit pulled papers + manifest
-  id-token: write          # Workload Identity Federation
+  contents: write
+  pull-requests: write
+  id-token: write
 
 concurrency:
   group: research-sync
@@ -65,15 +66,29 @@ jobs:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
           NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-        # Idempotent upsert from the 448-row xlsx catalog. Safe to run every time;
-        # only changed/new rows are written.
         continue-on-error: true
         run: npm run import-bibliography
 
-      - name: Commit pulled papers + manifest
-        run: |
-          git config user.name  "research-sync-bot"
-          git config user.email "bot@puritycoffee.com"
-          git add knowledge-base/research/ || true
-          git diff --cached --quiet || git commit -m "Research auto-sync $(date -u +%F)"
-          git push || true
+      # --- Open a PR instead of pushing straight to main ---
+      # Uses BOT_PAT so the PR's events trigger CI (GITHUB_TOKEN does not).
+      - name: Open / update sync PR
+        id: cpr
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.BOT_PAT }}
+          add-paths: |
+            knowledge-base/research
+          branch: auto/research-sync
+          delete-branch: true
+          commit-message: "Research auto-sync ${{ github.run_number }}"
+          title: "Research auto-sync"
+          body: |
+            Automated research-paper pull + embed + bibliography refresh.
+            Auto-merges once CI is green.
+          labels: automation
+
+      - name: Enable auto-merge
+        if: steps.cpr.outputs.pull-request-number
+        env:
+          GH_TOKEN: ${{ secrets.BOT_PAT }}
+        run: gh pr merge --squash --auto "${{ steps.cpr.outputs.pull-request-number }}"
