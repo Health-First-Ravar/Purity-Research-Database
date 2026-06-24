@@ -2,10 +2,13 @@
 
 type Row = Record<string, unknown>;
 
-export function CsvDownload({ rows, analyteKey, analyteLabel }: { rows: Row[]; analyteKey: string; analyteLabel: string }) {
+export function CsvDownload({ rows, analyteKey, analyteLabel }: { rows: Row[]; analyteKey?: string | null; analyteLabel?: string | null }) {
   function download() {
-    const headers = ['report_date', 'blend', 'coffee_name', 'lot_number', 'origin', analyteKey, 'lab'];
-    const headerLabels = ['Date', 'Blend', 'Coffee', 'Lot', 'Origin', analyteLabel, 'Lab'];
+    // When no analyte is selected, export the coffee/origin/lot/blend/date/lab
+    // columns only, without an analyte value column.
+    const hasAnalyte = !!analyteKey;
+    const headers = ['report_date', 'blend', 'coffee_name', 'lot_number', 'origin', ...(hasAnalyte ? [analyteKey!] : []), 'lab'];
+    const headerLabels = ['Date', 'Blend', 'Coffee', 'Lot', 'Origin', ...(hasAnalyte ? [analyteLabel ?? analyteKey!] : []), 'Lab'];
     const lines = [headerLabels.join(',')];
     for (const r of rows) {
       lines.push(headers.map((h) => {
@@ -18,7 +21,7 @@ export function CsvDownload({ rows, analyteKey, analyteLabel }: { rows: Row[]; a
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = `purity-coa-${analyteKey}-${new Date().toISOString().slice(0, 10)}.csv`;
+    a.download = `purity-coa-${hasAnalyte ? analyteKey : 'all'}-${new Date().toISOString().slice(0, 10)}.csv`;
     a.click();
     URL.revokeObjectURL(url);
   }

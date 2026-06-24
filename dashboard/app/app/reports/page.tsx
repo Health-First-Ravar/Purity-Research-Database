@@ -70,7 +70,17 @@ export default async function ReportsPage({ searchParams }: { searchParams: Prom
     .order('report_date', { ascending: true })
     .limit(500);
   if (params.blend)  q = q.eq('blend', params.blend);
-  if (params.coffee) q = q.ilike('coffee_name', `%${params.coffee}%`);
+  // Free-text search across the COA descriptor columns that actually exist on
+  // the `coas` table (coffee_name, origin, lot_number, blend). Green-coffee /
+  // origin lots store their descriptor in coffee_name + origin (the importer
+  // splits the source sample name into those), so a single-column search misses
+  // most of them. Trim the term and strip the characters that would break the
+  // PostgREST .or() grammar before building one case-insensitive OR group.
+  const searchTerm = (params.coffee ?? '').trim().replace(/[,()]/g, ' ').trim();
+  if (searchTerm) {
+    const cols = ['coffee_name', 'origin', 'lot_number', 'blend'];
+    q = q.or(cols.map((c) => `${c}.ilike.%${searchTerm}%`).join(','));
+  }
   if (params.origin) q = q.eq('origin', params.origin);
   if (params.lab)    q = q.eq('lab', params.lab);
   if (params.matrix === 'green' || params.matrix === 'roasted') q = q.eq('matrix', params.matrix);
@@ -128,13 +138,17 @@ export default async function ReportsPage({ searchParams }: { searchParams: Prom
 
   const flatOptions = [...TOP_ANALYTES, ...rawAnalytes];
 
+  // Analyte selection is optional. The default (no analyte) browses every COA
+  // independent of which analytes it contains. Selecting one or more analytes
+  // re-enables the chart, the per-analyte column, and the limit reference line.
   const selectedKeys = asArray(params.analyte).filter((k) => flatOptions.some((o) => o.key === k));
-  const selectedAnalytes = (selectedKeys.length ? selectedKeys : [TOP_ANALYTES[0].key])
+  const selectedAnalytes = selectedKeys
     .map((k) => flatOptions.find((o) => o.key === k)!)
     .map((o) => ({ key: o.key, label: o.label }));
+  const hasAnalyte = selectedAnalytes.length > 0;
   const isMulti = selectedAnalytes.length > 1;
-  const primary = selectedAnalytes[0];
-  const matchingLimit = !isMulti ? (getLimit(primary.key, limits) ?? null) : null;
+  const primary = hasAnalyte ? selectedAnalytes[0] : null;
+  const matchingLimit = primary && !isMulti ? (getLimit(primary.key, limits) ?? null) : null;
 
   function withAnalytes(keys: string[]): string {
     const sp = new URLSearchParams();
@@ -171,14 +185,16 @@ export default async function ReportsPage({ searchParams }: { searchParams: Prom
 
   let chartRows = (rows ?? []).map((r) => ({
     ...r,
-    __value: readAnalyte(r as Record<string, unknown>, primary.key),
+    __value: primary ? readAnalyte(r as Record<string, unknown>, primary.key) : null,
   }));
-  if (params.has_data === '1') {
+  // The "only rows with data" toggle only applies when an analyte is selected;
+  // with no analyte chosen it is ignored so every matching COA stays visible.
+  if (hasAnalyte && params.has_data === '1') {
     chartRows = chartRows.filter((r) =>
       selectedAnalytes.some((a) => readAnalyte(r as Record<string, unknown>, a.key) != null),
     );
   }
-  const hasData = !error && chartRows.filter((r) =>
+  const hasData = hasAnalyte && !error && chartRows.filter((r) =>
     r.report_date && selectedAnalytes.some((a) => readAnalyte(r as Record<string, unknown>, a.key) != null),
   ).length >= 2;
   const totalCount = rows?.length ?? 0;
@@ -269,24 +285,25 @@ export default async function ReportsPage({ searchParams }: { searchParams: Prom
           </select>
         </label>
         <label className="flex flex-col gap-1">
-          <span className="text-xs text-purity-muted dark:text-purity-mist">Coffee (contains)</span>
-          <input name="coffee" defaultValue={params.coffee ?? ''} className={selectInputClass + ' dark:placeholder:text-purity-mist/70'} />
+          <span className="text-xs text-purity-muted dark:text-purity-mist">Search (coffee, origin, lot, blend)</span>
+          <input name="coffee" defaultValue={params.coffee ?? ''} placeholder="e.g. Ethiopia, Bette Buna, FLOW" className={selectInputClass + ' dark:placeholder:text-purity-mist/70'} />
         </label>
         <label className="flex flex-col gap-1 md:col-span-2">
           <span className="flex items-center justify-between text-xs text-purity-muted dark:text-purity-mist">
-            <span>Analytes (select one or several)</span>
+            <span>Analytes (optional)</span>
             <span className="flex gap-2">
               <Link href={withAnalytes(allAnalyteKeys)} className="hover:text-purity-green dark:hover:text-purity-aqua">All</Link>
-              <Link href={withAnalytes([TOP_ANALYTES[0].key])} className="hover:text-purity-green dark:hover:text-purity-aqua">Clear</Link>
+              <Link href={withAnalytes([])} className="hover:text-purity-green dark:hover:text-purity-aqua">Clear</Link>
             </span>
           </span>
           <select
             name="analyte"
             multiple
             size={6}
-            defaultValue={selectedAnalytes.map((a) => a.key)}
+            defaultValue={hasAnalyte ? selectedAnalytes.map((a) => a.key) : ['']}
             className={selectInputClass}
           >
+            <option value="">All analytes (no analyte filter)</option>
             <optgroup label="Headline">
               {TOP_ANALYTES.map((a) => <option key={a.key} value={a.key}>{a.label}</option>)}
             </optgroup>
@@ -295,7 +312,7 @@ export default async function ReportsPage({ searchParams }: { searchParams: Prom
             </optgroup>
           </select>
           <span className="text-[11px] text-purity-muted dark:text-purity-mist">
-            Cmd/Ctrl-click to pick several — each becomes its own line on the graph.
+            Leave on &quot;All analytes&quot; to browse every COA. Pick one or several to chart them. Cmd/Ctrl-click to pick several, each becomes its own line on the graph.
           </span>
         </label>
         <label className="flex flex-col gap-1">
@@ -306,8 +323,8 @@ export default async function ReportsPage({ searchParams }: { searchParams: Prom
           <span className="text-xs text-purity-muted dark:text-purity-mist">To</span>
           <input type="date" name="to" defaultValue={params.to ?? ''} className={selectInputClass} />
         </label>
-        <label className="flex items-end gap-2 pb-1">
-          <input type="checkbox" name="has_data" value="1" defaultChecked={params.has_data === '1'} className="h-4 w-4 rounded border-purity-bean/30 dark:border-purity-paper/30" />
+        <label className={'flex items-end gap-2 pb-1' + (hasAnalyte ? '' : ' opacity-50')}>
+          <input type="checkbox" name="has_data" value="1" defaultChecked={hasAnalyte && params.has_data === '1'} disabled={!hasAnalyte} className="h-4 w-4 rounded border-purity-bean/30 dark:border-purity-paper/30" />
           <span className="text-xs text-purity-muted dark:text-purity-mist">Only rows with data for a selected analyte</span>
         </label>
         <div className="md:col-span-4 flex flex-wrap items-center gap-3">
@@ -319,12 +336,16 @@ export default async function ReportsPage({ searchParams }: { searchParams: Prom
           </Link>
           <span className="text-xs text-purity-muted dark:text-purity-mist">{visibleCount} of {totalCount} matching</span>
           {chartRows.length > 0 && (
-            <CsvDownload rows={chartRows as Record<string, unknown>[]} analyteKey="__value" analyteLabel={primary.label} />
+            <CsvDownload
+              rows={chartRows as Record<string, unknown>[]}
+              analyteKey={primary ? '__value' : null}
+              analyteLabel={primary ? primary.label : null}
+            />
           )}
         </div>
       </form>
 
-      {hasData ? (
+      {hasData && primary ? (
         <div className="mb-6 grid gap-4 lg:grid-cols-3">
           <div className="lg:col-span-2">
             <AnalyteChart
@@ -341,7 +362,7 @@ export default async function ReportsPage({ searchParams }: { searchParams: Prom
             />
           </div>
         </div>
-      ) : visibleCount > 0 ? (
+      ) : hasAnalyte && visibleCount > 0 ? (
         <p className="mb-6 text-sm text-purity-muted dark:text-purity-mist">
           Chart needs at least 2 data points for a selected analyte. Try a broader filter, another analyte,
           or untick &quot;Only rows with data for a selected analyte&quot; to see all matching rows.
@@ -357,33 +378,36 @@ export default async function ReportsPage({ searchParams }: { searchParams: Prom
               <th className="p-3">Lot</th>
               <th className="p-3">Origin</th>
               <th className="p-3">Region</th>
-              <th className="p-3">{primary.label}</th>
+              {primary && <th className="p-3">{primary.label}</th>}
               <th className="p-3">Lab</th>
             </tr>
           </thead>
           <tbody>
-            {error && <tr><td colSpan={7} className="p-4 text-purity-rust">Error: {error.message}</td></tr>}
+            {error && <tr><td colSpan={primary ? 7 : 6} className="p-4 text-purity-rust">Error: {error.message}</td></tr>}
             {chartRows.length === 0 && !error && (
               <tr>
-                <td colSpan={7} className="p-4 text-purity-muted dark:text-purity-mist">
+                <td colSpan={primary ? 7 : 6} className="p-4 text-purity-muted dark:text-purity-mist">
                   {totalCount === 0
                     ? 'No COA rows match. Import COAs via scripts/import-coas.ts.'
-                    : `No rows match the current filters. ${totalCount} hidden — try clearing filters.`}
+                    : `No rows match the current filters. ${totalCount} hidden. Try clearing filters.`}
                 </td>
               </tr>
             )}
             {chartRows.slice().sort((a, b) => String(b.report_date ?? '').localeCompare(String(a.report_date ?? ''))).map((r) => {
-              const reported = (() => {
-                if (primary.key.startsWith('raw:')) {
-                  const name = primary.key.slice(4);
+              let reported: string | null = null;
+              let cellClass = '';
+              if (primary) {
+                const key = primary.key;
+                if (key.startsWith('raw:')) {
+                  const name = key.slice(4);
                   const raw = (r.raw_values ?? {}) as Record<string, { as_reported?: string | null }>;
-                  return raw[name]?.as_reported ?? null;
+                  reported = raw[name]?.as_reported ?? null;
+                } else {
+                  const qmap = (r.value_qualifiers ?? {}) as Record<string, string>;
+                  reported = qmap[key] ?? null;
                 }
-                const qmap = (r.value_qualifiers ?? {}) as Record<string, string>;
-                return qmap[primary.key] ?? null;
-              })();
-              const cellEval = evaluate({ key: primary.key, value: typeof r.__value === 'number' ? r.__value : null, reported, limits });
-              const cellClass = statusStyle(cellEval.status);
+                cellClass = statusStyle(evaluate({ key, value: typeof r.__value === 'number' ? r.__value : null, reported, limits }).status);
+              }
               const cellDisplay = r.__value == null && !reported ? '—' : fmtValue(typeof r.__value === 'number' ? r.__value : null, reported);
               return (
                 <tr key={r.id as string} className="border-b border-purity-bean/5 transition hover:bg-purity-cream/40 dark:border-purity-paper/5 dark:hover:bg-purity-ink/40">
@@ -392,7 +416,7 @@ export default async function ReportsPage({ searchParams }: { searchParams: Prom
                   <td className="p-3 font-mono text-xs"><Link href={`/reports/${r.id}`} className="block">{(r.lot_number as string) ?? '—'}</Link></td>
                   <td className="p-3"><Link href={`/reports/${r.id}`} className="block">{(r.origin as string) ?? '—'}</Link></td>
                   <td className="p-3"><Link href={`/reports/${r.id}`} className="block">{(r.region as string) ?? '—'}</Link></td>
-                  <td className={`p-3 font-mono ${cellClass}`}><Link href={`/reports/${r.id}`} className="block">{cellDisplay}</Link></td>
+                  {primary && <td className={`p-3 font-mono ${cellClass}`}><Link href={`/reports/${r.id}`} className="block">{cellDisplay}</Link></td>}
                   <td className="p-3 text-purity-muted dark:text-purity-mist"><Link href={`/reports/${r.id}`} className="block">{(r.lab as string) ?? '—'}</Link></td>
                 </tr>
               );
