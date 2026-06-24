@@ -45,7 +45,10 @@ FOLDER_ID = os.environ.get("DRIVE_COA_FOLDER_ID")
 NOT_COA_FILENAME = re.compile(
     r"(^s\d{4,5}-|sciadv|^Ray-2013|Saraiva|schubert|sustainability_assessment|"
     r"Coffee Guide|Sacred Cups|tax|Packing.?List|WIRE TRANSFER|Trilogy|"
-    r"Green Coffee samples|Offer Sample|PSS\b)",
+    r"Green Coffee samples|Offer Sample|PSS\b|"
+    # Branding sheets and cover letters are not COAs even though their names
+    # contain "COA" / "CLOROGÉNICO". Checked before COA_FILENAME below.
+    r"branding|\bcarta\b)",
     re.IGNORECASE,
 )
 COA_FILENAME = re.compile(

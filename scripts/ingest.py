@@ -177,6 +177,38 @@ def process_file(path: Path, index: dict, product_map: dict, *, dry_run: bool, f
     product_key = resolve_product(env, product_map)
     record = build_record(env, product_key)
 
+    # Quarantine guard: a file that parses to ZERO analytes AND has NO report
+    # number is not a usable COA (branding sheet, cover letter, or a scan the
+    # parser cannot read). Record it under index["quarantined"] and do NOT emit
+    # a Processed shell, so it stops polluting the parse-quality audit and the
+    # coas table. Also remove any stale shell a previous run wrote for it.
+    if not record["analytes"] and not (record["report_number"] or "").strip():
+        if dry_run:
+            print(f"  DRY-RUN would quarantine (0 analytes, no report#): {key}")
+            return None
+        prev = index.get("files", {}).get(key)
+        if prev and prev.get("processed_path"):
+            stale = ROOT / prev["processed_path"]
+            try:
+                stale.unlink()
+            except FileNotFoundError:
+                pass
+        _append_unique(index.setdefault("quarantined", []),
+                       {"file": key, "sample_name": env.sample_name,
+                        "reason": "zero analytes, no report number"})
+        # Track the hash (no processed_path) so unchanged reruns skip it, but
+        # re-parses after a parser improvement (--force) can still pick it up.
+        index.setdefault("files", {})[key] = {
+            "source_file": env.source_file,
+            "source_hash": env.source_hash,
+            "processed_path": None,
+            "report_number": None,
+            "status": "QUARANTINED",
+            "ingested_at": record["ingested_at"],
+        }
+        print(f"  quarantined (0 analytes, no report#): {key}")
+        return None
+
     out_name = (record["report_number"] or env.source_hash) + ".json"
     out_path = PROCESSED_DIR / out_name
 
