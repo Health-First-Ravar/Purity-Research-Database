@@ -255,7 +255,7 @@ async function main() {
   const files = readdirSync(PROCESSED_DIR).filter((f) => f.endsWith('.json'));
   console.log(`[import-coas] ${files.length} JSON files in ${PROCESSED_DIR}`);
 
-  let inserted = 0, updated = 0, skipped = 0, errors = 0;
+  let inserted = 0, updated = 0, deduped = 0, skipped = 0, errors = 0;
 
   for (const file of files) {
     const raw = readFileSync(join(PROCESSED_DIR, file), 'utf8');
@@ -279,30 +279,45 @@ async function main() {
       continue;
     }
 
-    // Check if exists — only by a NON-EMPTY report_number. Rows with a null
-    // or empty report_number must be matched by pdf_filename instead, or they
-    // will all collide on the same '' key and overwrite each other.
-    let existing: { id: string } | null = null;
+    // Find existing rows by a stable key: report_number when present, else
+    // pdf_filename. Select ALL matches rather than .maybeSingle(): once two or
+    // more duplicates exist, .maybeSingle() returns an error, the old code read
+    // that as data=null, and so INSERTED yet another row — compounding the
+    // duplication on every 6-hour sync (e.g. T7047 grew to 108 rows). We now
+    // update the first match and delete the rest, so the table self-heals.
+    //
+    // For null-report_number rows we additionally require report_number IS NULL
+    // on the match so a shell parse can never collide with (and clobber) a real
+    // dated row that happens to share the same pdf_filename (e.g. 49608.pdf,
+    // where one row is the 19-analyte Trilogy parse and the rest are shells).
+    let matches: { id: string }[] = [];
     if (row.report_number) {
       const { data } = await sb
         .from('coas')
         .select('id')
         .eq('report_number', row.report_number as string)
-        .maybeSingle();
-      existing = data ?? null;
+        .order('created_at', { ascending: true });
+      matches = data ?? [];
     } else if (row.pdf_filename) {
       const { data } = await sb
         .from('coas')
         .select('id')
         .eq('pdf_filename', row.pdf_filename as string)
-        .maybeSingle();
-      existing = data ?? null;
+        .is('report_number', null)
+        .order('created_at', { ascending: true });
+      matches = data ?? [];
     }
 
-    if (existing) {
-      const { error } = await sb.from('coas').update(row).eq('id', existing.id);
+    if (matches.length > 0) {
+      const { error } = await sb.from('coas').update(row).eq('id', matches[0].id);
       if (error) { console.error(`[import-coas] update error ${file}:`, error.message); errors++; }
       else updated++;
+      if (matches.length > 1) {
+        const extra = matches.slice(1).map((m) => m.id);
+        const { error: delErr } = await sb.from('coas').delete().in('id', extra);
+        if (delErr) console.error(`[import-coas] dedupe delete error ${file}:`, delErr.message);
+        else deduped += extra.length;
+      }
     } else {
       const { error } = await sb.from('coas').insert(row);
       if (error) { console.error(`[import-coas] insert error ${file}:`, error.message); errors++; }
@@ -310,7 +325,7 @@ async function main() {
     }
   }
 
-  console.log(`\n[import-coas] done. inserted=${inserted} updated=${updated} skipped=${skipped} errors=${errors}`);
+  console.log(`\n[import-coas] done. inserted=${inserted} updated=${updated} deduped=${deduped} skipped=${skipped} errors=${errors}`);
 }
 
 main().catch((e) => { console.error(e); process.exit(1); });

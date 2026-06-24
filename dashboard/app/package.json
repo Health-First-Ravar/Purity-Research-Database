@@ -10,6 +10,7 @@
     "ingest": "tsx scripts/ingest-kb.ts",
     "embed-canon": "tsx scripts/embed-canon.ts",
     "import-coas": "tsx scripts/import-coas.ts",
+    "dedupe-coas": "tsx scripts/dedupe-coas.ts",
     "embed-coas": "tsx scripts/embed-coas.ts",
     "import-bibliography": "tsx scripts/import-bibliography.ts",
     "dedupe-research": "tsx scripts/dedupe-research.ts",
