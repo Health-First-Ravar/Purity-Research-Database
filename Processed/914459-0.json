@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "status": "UNRESOLVED",
+  "product_key": null,
+  "report_number": "914459-0",
+  "test_date": "2020-12-03",
+  "sample_name": "GREEN COFFEE",
+  "lot_or_po": "LA FLORESTA",
+  "supersedes": null,
+  "superseded_by": null,
+  "lab": "M\u00e9rieux NutriSciences (Brasil)",
+  "serving_size_g": null,
+  "source_file": "/Users/jeremybehne/Library/CloudStorage/GoogleDrive-jravar@puritycoffee.com/My Drive/Purity-Lab-Data/COAs/20-914459-0-1-1898469_PT_Purity Coffee_Portugu\u00eas.pdf",
+  "source_hash": "f9ba45c74d82a983",
+  "parse_confidence": 1.0,
+  "parse_notes": [
+    "pages=16 tables=35",
+    "merieux_pt_rows=2"
+  ],
+  "analytes": [
+    {
+      "analyte": "Glyphosate",
+      "panel": "pesticide",
+      "value_normalized": 0.01,
+      "unit_normalized": "mg/kg",
+      "value_as_reported": "<0.010",
+      "unit_as_reported": "mg/kg",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Glufosinate",
+      "panel": "other",
+      "value_normalized": 0.05,
+      "unit_normalized": "mg/kg",
+      "value_as_reported": "<0.050",
+      "unit_as_reported": "mg/kg",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    }
+  ],
+  "ingested_at": "2026-06-24T05:32:40+00:00"
+}

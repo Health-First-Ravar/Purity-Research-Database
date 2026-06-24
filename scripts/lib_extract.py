@@ -171,6 +171,44 @@ RE_SILLIKER_ANALYTE_LINE = re.compile(
 )
 
 
+# --------------- Mérieux NutriSciences Brasil (Portuguese "RELATÓRIO DE ENSAIO") ---------------
+# Same company as Silliker, but the São Paulo lab issues Portuguese-language
+# reports with a completely different layout: "RELATÓRIO DE ENSAIO N°: 631304-0",
+# "Data do Relatório de Ensaio: 01/07/2019" (DD/MM/YYYY), "Nome Comercial: ...",
+# and analyte rows that use comma decimals ("143,00") and µg/kg units. The
+# English Silliker regexes match none of this, so these parsed to zero analytes.
+RE_MERIEUX_PT_SIG = re.compile(r"RELAT[ÓO]RIO\s+DE\s+ENSAIO", re.I)
+RE_PT_REPORT = re.compile(r"RELAT[ÓO]RIO\s+DE\s+ENSAIO\s+N[°ºo]\s*:?\s*([0-9]+-[0-9]+)", re.I)
+RE_PT_DATE = re.compile(r"Data\s+do\s+Relat[óo]rio\s+de\s+Ensaio\s*:?\s*(\d{1,2}/\d{1,2}/\d{2,4})", re.I)
+RE_PT_SAMPLE = re.compile(r"Nome\s+Comercial\s*:?\s*([^\r\n]+)", re.I)
+RE_PT_LOT = re.compile(r"N[°ºo]\s*do\s*Lote\s*:?\s*([^\r\n]+?)(?:\s{2,}|Forma\s+de|Coletado|$)", re.I)
+RE_PT_BRAND = re.compile(r"Marca\s*:?\s*([^\r\n]+?)(?:\s{2,}|N[°ºo]\s*do\s*Lote|Forma\s+de|$)", re.I)
+# Analyte rows: "<name> <value> <unit> ..." with comma decimals and an optional "<".
+_PT_UNIT_ALT = r"µg/kg|mcg/kg|ug/kg|mg/kg|g/kg|ng/g|ng/kg|mg/100g|g/100g|%|UFC/g|NMP/g"
+RE_PT_ANALYTE_LINE = re.compile(
+    r"^(?P<name>[A-Za-zÀ-ÿ0-9][A-Za-zÀ-ÿ0-9 \-\(\)\,\./'+&]+?)\s+"
+    r"(?P<value><\s*[-+]?[\d.,]+|[-+]?[\d.,]+)\s+"
+    r"(?P<unit>" + _PT_UNIT_ALT + r")(?:\s|$)",
+    re.IGNORECASE,
+)
+
+
+def _pt_iso_date(raw: str) -> Optional[str]:
+    """Parse a Brazilian DD/MM/YYYY date into ISO YYYY-MM-DD."""
+    parts = raw.strip().split("/")
+    if len(parts) != 3:
+        return None
+    try:
+        d, m, y = int(parts[0]), int(parts[1]), int(parts[2])
+        if y < 100:
+            y += 2000
+        if not (1 <= m <= 12 and 1 <= d <= 31):
+            return None
+        return f"{y:04d}-{m:02d}-{d:02d}"
+    except ValueError:
+        return None
+
+
 def _hash(path: Path) -> str:
     h = hashlib.sha256()
     with path.open("rb") as f:
@@ -234,9 +272,15 @@ def extract_pdf(path: Path) -> COAEnvelope:
     env.parse_notes.append(f"pages={len(text_parts)} tables={len(tables)}")
 
     # Lab detection — Silliker/Mérieux has a distinct layout and needs a separate parser.
-    if RE_SILLIKER_LAB_SIG.search(full_text):
-        env.lab = "Silliker / Mérieux NutriSciences"
-        _extract_silliker(env, full_text)
+    if RE_SILLIKER_LAB_SIG.search(full_text) or RE_MERIEUX_PT_SIG.search(full_text):
+        # The São Paulo lab issues Portuguese "RELATÓRIO DE ENSAIO" reports with a
+        # different layout; route those to the dedicated Brazilian extractor.
+        if RE_MERIEUX_PT_SIG.search(full_text):
+            env.lab = "Mérieux NutriSciences (Brasil)"
+            _extract_merieux_pt(env, full_text)
+        else:
+            env.lab = "Silliker / Mérieux NutriSciences"
+            _extract_silliker(env, full_text)
         # Confidence heuristic (shared with Eurofins path)
         if not env.report_number:
             env.parse_confidence -= 0.25
@@ -457,6 +501,73 @@ def _extract_silliker(env: COAEnvelope, full_text: str) -> None:
     env.analytes.extend(rows)
     if rows:
         env.parse_notes.append(f"silliker_rows={len(rows)}")
+
+
+def _extract_merieux_pt(env: COAEnvelope, full_text: str) -> None:
+    """Mérieux NutriSciences Brasil extractor (Portuguese 'RELATÓRIO DE ENSAIO').
+
+    Handles the Portuguese-header layout: 'RELATÓRIO DE ENSAIO N°', a DD/MM/YYYY
+    report date, 'Nome Comercial' as the sample name, and analyte rows that use
+    comma decimals and µg/kg units. Multi-page reports repeat the header on every
+    page, so analytes are gathered across the whole document and de-duplicated.
+    """
+    if m := RE_PT_REPORT.search(full_text):
+        env.report_number = m.group(1).strip()
+    if m := RE_PT_DATE.search(full_text):
+        env.test_date = _pt_iso_date(m.group(1))
+    if m := RE_PT_SAMPLE.search(full_text):
+        env.sample_name = m.group(1).strip()[:200]
+    if m := RE_PT_LOT.search(full_text):
+        env.lot_or_po = m.group(1).strip()[:200]
+    elif m := RE_PT_BRAND.search(full_text):
+        env.lot_or_po = m.group(1).strip()[:200]
+
+    rows: List[AnalyteRow] = []
+    seen = set()
+    for raw_line in full_text.splitlines():
+        line = raw_line.strip()
+        if not line:
+            continue
+        low = line.lower()
+        # Skip method references, section captions, page furniture, and the
+        # bulk "[CAS nº], (unit/LD/LQ)" not-detected listings.
+        if low.startswith((
+            "mr ", "mr-", "testes", "resultados", "análise", "analise",
+            "ld:", "fim ", "página", "pagina", "relat", "data do",
+            "nome comercial", "etiqueta", "n° da amostra", "nº da amostra",
+            "componentes não detectados", "componentes nao detectados",
+            "este documento", "estes resultados", "mérieux", "merieux",
+        )):
+            continue
+        if "[" in line and "(" in line and "/kg/" in line.replace(" ", ""):
+            continue  # CAS-list line, not a single result
+        m = RE_PT_ANALYTE_LINE.match(line)
+        if not m:
+            continue
+        name = m.group("name").strip()
+        if len(name) < 2 or not RE_HAS_ALPHA.search(name):
+            continue
+        low_name = name.lower()
+        if low_name in {"page", "página", "resultado", "teste", "testes", "unidades"}:
+            continue
+        # Comma decimals -> dot so downstream unit normalization can parse floats.
+        value = m.group("value").strip().replace(" ", "").replace(",", ".")
+        unit = m.group("unit").strip()
+        key = (low_name, value, unit)
+        if key in seen:
+            continue
+        seen.add(key)
+        rows.append(AnalyteRow(
+            analyte=name,
+            value_raw=value,
+            unit_raw=unit,
+            source_row_text=line,
+            panel=_guess_panel(name),
+        ))
+
+    env.analytes.extend(rows)
+    if rows:
+        env.parse_notes.append(f"merieux_pt_rows={len(rows)}")
 
 
 # --------------- Trilogy Analytical Laboratories (tabular layout) ---------------

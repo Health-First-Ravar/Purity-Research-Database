@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "status": "UNRESOLVED",
+  "product_key": null,
+  "report_number": "631307-0",
+  "test_date": "2019-07-01",
+  "sample_name": "COFFEE 4",
+  "lot_or_po": null,
+  "supersedes": null,
+  "superseded_by": null,
+  "lab": "M\u00e9rieux NutriSciences (Brasil)",
+  "serving_size_g": null,
+  "source_file": "/Users/jeremybehne/Library/CloudStorage/GoogleDrive-jravar@puritycoffee.com/My Drive/Purity-Lab-Data/COAs/19-631307-0-1-1898469_PT_Purity_Port.pdf",
+  "source_hash": "5ca913755118f939",
+  "parse_confidence": 1.0,
+  "parse_notes": [
+    "pages=1 tables=4",
+    "merieux_pt_rows=1"
+  ],
+  "analytes": [
+    {
+      "analyte": "Acrilamida",
+      "panel": "other",
+      "value_normalized": 100.0,
+      "unit_normalized": "\u00b5g/kg",
+      "value_as_reported": "<100.00",
+      "unit_as_reported": "\u00b5g/kg",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    }
+  ],
+  "ingested_at": "2026-06-24T05:32:37+00:00"
+}
