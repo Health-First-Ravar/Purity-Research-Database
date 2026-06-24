@@ -334,12 +334,25 @@ def main() -> int:
 
         if not args.dry_run:
             save_json(INDEX_PATH, index)
-
-        print(f"Done. new/updated={processed_any} errors={len(errors)}"
-              f" last_successful_sync={index.get('last_successful_sync')}")
-        return 0 if not errors else 1
     finally:
         release_lock()
+
+    # Stale-record sweep (dedup, dead shells, orphans) — runs every sync.
+    # Loaded by path because the filename is hyphenated. Does its own IO; the
+    # index lock is already released above.
+    try:
+        import importlib.util
+        spec = importlib.util.spec_from_file_location("clean_stale_processed",
+                                                      HERE / "clean-stale-processed.py")
+        mod = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(mod)  # type: ignore[union-attr]
+        mod.clean(dry_run=args.dry_run)
+    except Exception as e:  # cleanup must never fail the sync
+        print(f"  WARN: stale-record cleanup skipped: {e}", file=sys.stderr)
+
+    print(f"Done. new/updated={processed_any} errors={len(errors)}"
+          f" last_successful_sync={index.get('last_successful_sync')}")
+    return 0 if not errors else 1
 
 
 if __name__ == "__main__":
