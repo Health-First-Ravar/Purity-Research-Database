@@ -63,6 +63,12 @@ jobs:
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
         run: npm run import-coas
 
+      # Surface parse quality (zero-analyte / low-confidence / dup counts) in
+      # every sync log. Non-strict: prints a summary, never fails the run.
+      - name: COA parse-quality audit (report only)
+        continue-on-error: true
+        run: python3 scripts/audit-coa-quality.py
+
       # --- Open a PR instead of pushing straight to main ---
       # Uses BOT_PAT (a fine-grained PAT) so the PR's events trigger CI.
       # The default GITHUB_TOKEN deliberately does NOT trigger workflows.
