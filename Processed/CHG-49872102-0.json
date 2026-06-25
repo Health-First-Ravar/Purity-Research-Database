@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "status": "UNRESOLVED",
+  "product_key": null,
+  "report_number": "CHG-49872102-0",
+  "test_date": "2025-10-31",
+  "sample_name": "Bette Buna Roasted",
+  "lot_or_po": "Bette Buna",
+  "supersedes": null,
+  "superseded_by": null,
+  "lab": "Silliker / M\u00e9rieux NutriSciences",
+  "serving_size_g": null,
+  "source_file": "/home/runner/work/Purity-Research-Database/Purity-Research-Database/COAs/COA-31-Oct-25-Bette-Buna-49872102-0.pdf",
+  "source_hash": "1be9a3dcab84d858",
+  "parse_confidence": 1.0,
+  "parse_notes": [
+    "pages=1 tables=2",
+    "silliker_rows=10"
+  ],
+  "analytes": [
+    {
+      "analyte": "Acrylamide",
+      "panel": "acrylamide",
+      "value_normalized": 264.0,
+      "unit_normalized": "ppb (w/w)",
+      "value_as_reported": "264",
+      "unit_as_reported": "ppb (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Caffeine",
+      "panel": "other",
+      "value_normalized": 1.25,
+      "unit_normalized": "% (w/w)",
+      "value_as_reported": "1.25",
+      "unit_as_reported": "% (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "neo-Chlorogenic Acid",
+      "panel": "cga",
+      "value_normalized": 489.33333333333337,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "73.4",
+      "unit_as_reported": "mg/dose",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Total Chlorogenic Acid",
+      "panel": "cga",
+      "value_normalized": 2526.6666666666665,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "379",
+      "unit_as_reported": "mg/dose",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "AMPA",
+      "panel": "pesticide",
+      "value_normalized": 0.003,
+      "unit_normalized": "ppm (w/w)",
+      "value_as_reported": "<0.003",
+      "unit_as_reported": "ppm (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Glyphosate",
+      "panel": "pesticide",
+      "value_normalized": 0.003,
+      "unit_normalized": "ppm (w/w)",
+      "value_as_reported": "<0.003",
+      "unit_as_reported": "ppm (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Polyphenols",
+      "panel": "other",
+      "value_normalized": 780.0,
+      "unit_normalized": "mg/dose",
+      "value_as_reported": "780.0",
+      "unit_as_reported": "mg/dose",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Vitamin E",
+      "panel": "other",
+      "value_normalized": 2.4,
+      "unit_normalized": "mg a-tocoph/100g",
+      "value_as_reported": "2.4",
+      "unit_as_reported": "mg a-tocoph/100g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Yeast",
+      "panel": "micro",
+      "value_normalized": 10.0,
+      "unit_normalized": "/g",
+      "value_as_reported": "<10",
+      "unit_as_reported": "/g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Mold",
+      "panel": "micro",
+      "value_normalized": 10.0,
+      "unit_normalized": "/g",
+      "value_as_reported": "<10",
+      "unit_as_reported": "/g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    }
+  ],
+  "ingested_at": "2026-06-25T05:57:44+00:00"
+}
