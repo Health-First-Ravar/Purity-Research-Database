@@ -5695,13 +5695,13 @@
     "5130625-0_COA.pdf": {
       "source_file": "/home/runner/work/Purity-Research-Database/Purity-Research-Database/COAs/5130625-0_COA.pdf",
       "source_hash": "d3de134fd7109775",
-      "processed_path": "Processed/5130625-0.json",
+      "processed_path": null,
       "report_number": "5130625-0",
       "test_date": "2025-10-24",
       "sample_name": "WB-BrewedRegular Eurofins Sample: 15815871",
       "lot_or_po": "rt",
       "product_key": null,
-      "status": "UNRESOLVED",
+      "status": "QUARANTINED",
       "supersedes": null,
       "superseded_by": null,
       "parse_confidence": 1.0,
@@ -9355,7 +9355,7 @@
       "superseded_by_report": "CHG-42744732-1"
     }
   ],
-  "last_sync_attempt": "2026-07-09T01:32:31+00:00",
+  "last_sync_attempt": "2026-07-09T09:05:16+00:00",
   "last_sync_error": [
     "MXNS-COA-14-04-2020-43453407-0 (1).pdf: PdfminerException: No /Root object! - Is this really a PDF?"
   ],
