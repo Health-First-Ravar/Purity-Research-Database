@@ -5410,13 +5410,13 @@
     "4707692-0_COA APONTE.pdf": {
       "source_file": "/home/runner/work/Purity-Research-Database/Purity-Research-Database/COAs/4707692-0_COA APONTE.pdf",
       "source_hash": "702e24818cf7b6cc",
-      "processed_path": "Processed/4707692-0.json",
+      "processed_path": null,
       "report_number": "4707692-0",
       "test_date": "2024-11-07",
       "sample_name": "2024-25 Contaminants Aponte Eurofins Sample: 14677265",
       "lot_or_po": "rt",
       "product_key": null,
-      "status": "UNRESOLVED",
+      "status": "QUARANTINED",
       "supersedes": null,
       "superseded_by": null,
       "parse_confidence": 1.0,
@@ -5425,13 +5425,13 @@
     "4707692-0_COA.pdf": {
       "source_file": "/home/runner/work/Purity-Research-Database/Purity-Research-Database/COAs/4707692-0_COA.pdf",
       "source_hash": "5bbd42c74412cd13",
-      "processed_path": "Processed/4707692-0.json",
+      "processed_path": null,
       "report_number": "4707692-0",
       "test_date": "2024-11-07",
       "sample_name": "2024-25 Contaminants Aponte Eurofins Sample: 14677265",
       "lot_or_po": "rt",
       "product_key": null,
-      "status": "UNRESOLVED",
+      "status": "QUARANTINED",
       "supersedes": null,
       "superseded_by": null,
       "parse_confidence": 1.0,
@@ -5470,13 +5470,13 @@
     "4709941-0_COA.pdf": {
       "source_file": "/home/runner/work/Purity-Research-Database/Purity-Research-Database/COAs/4709941-0_COA.pdf",
       "source_hash": "b997dd39e1335dff",
-      "processed_path": "Processed/4709941-0.json",
+      "processed_path": null,
       "report_number": "4709941-0",
       "test_date": "2024-11-06",
       "sample_name": "FLOW Eurofins Sample: 14676470",
       "lot_or_po": "rt",
       "product_key": "FLOW",
-      "status": "OK",
+      "status": "QUARANTINED",
       "supersedes": null,
       "superseded_by": null,
       "parse_confidence": 1.0,
@@ -9355,7 +9355,7 @@
       "superseded_by_report": "CHG-42744732-1"
     }
   ],
-  "last_sync_attempt": "2026-07-17T01:25:57+00:00",
+  "last_sync_attempt": "2026-07-17T07:53:55+00:00",
   "last_sync_error": [
     "MXNS-COA-14-04-2020-43453407-0 (1).pdf: PdfminerException: No /Root object! - Is this really a PDF?"
   ],
