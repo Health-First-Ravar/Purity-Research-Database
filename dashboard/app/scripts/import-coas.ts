@@ -234,7 +234,7 @@ function mapToCOARow(doc: ProcessedCOA): Record<string, unknown> | null {
     lot_number: cleanLot(doc.lot_or_po),
     origin: extractOrigin(doc.sample_name),
     lab: doc.lab ?? null,
-    matrix: doc.matrix ?? null,
+    ...(doc.matrix != null ? { matrix: doc.matrix } : {}),
     pdf_filename,
     ota_ppb: toPpb(ota),
     aflatoxin_ppb: aflaSummed ?? toPpb(afla),
