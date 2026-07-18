@@ -1160,3 +1160,61 @@ holds 35 chunks: `embed-coas` deletes chunks for the **new** source id after
 upserting, never for the row it just retired. Not a correctness problem —
 `match_chunks` filters them out — but it accumulates dead embeddings on every
 content change. Worth a sweep at some point; not touched here.
+
+---
+
+## Task 6 — over-limit lots: flag, don't hide — **PASS**
+
+### (a) Flagging added to the audit-team UI
+
+Before, an over-limit cell was only `text-purity-rust font-semibold` — red bold
+text with no label and no threshold. A reader scanning the table had to already
+know the ceiling to recognise 3.9 as a failure.
+
+`app/reports/page.tsx` now has:
+
+1. **A per-cell badge** — `OVER 2 ppb` / `UNDER 40 mg/g` next to the value, with
+   the full limit label, direction, threshold and source string on hover.
+2. **A summary banner above the table**, listing every out-of-limit result in
+   the current filtered set with measured value, the threshold it breached, the
+   product, the lot, and the date.
+
+```
+"3 results outside the Ochratoxin A limit"
+  7.3 ppb  vs ceiling 2 ppb · APONTE PINK BAG DECAF     · lot RUSH-SOLUBLE · 2026-02-17
+  6 ppb    vs ceiling 2 ppb · APONTE PINK BAG DECAF     · lot RUSH-SOLUBLE · 2026-02-17
+  3.9 ppb  vs ceiling 2 ppb · APONTE GREEN BAG REGULAR  · lot RUSH-SOLUBLE · 2026-02-17
+  Source: CHC Health-Grade Green Standard
+```
+
+The banner covers the currently selected analyte, so it follows the filter set
+rather than being a fixed OTA-only panel.
+
+### (b) Still visible to the audit team
+
+Nothing hidden, nothing deleted. The banner is additive.
+
+### (c) CS visibility under the Task 1/2 allowlist — **your decision**
+
+All three are **`unclassified`**, so under the fail-closed allowlist **none
+would be visible to CS**:
+
+```
+CHG-50217786-0   OTA 3.9   APONTE GREEN BAG REGULAR   lot RUSH-SOLUBLE   2026-02-17   unclassified
+CHG-50217970-0   OTA 6.0   APONTE PINK BAG DECAF      lot RUSH-SOLUBLE   2026-02-17   unclassified
+CHG-50217971-0   OTA 7.3   APONTE PINK BAG DECAF      lot RUSH-SOLUBLE   2026-02-17   unclassified
+```
+
+**But that is an accident, not a decision.** They are invisible because nothing
+maps "APONTE" to a product, not because anyone judged them out of CS scope.
+APONTE is a Colombian producer and these are plausibly Purity green lots. If
+Task 7's mapping work classifies them as `purity`, all three become CS-visible
+**with an OVER LIMIT badge** the moment the allowlist ships.
+
+So the messaging decision is live, not deferred: decide before the mapping
+lands, not after. Points worth noting for that decision — all three share lot
+`RUSH-SOLUBLE` and date 2026-02-17, so this is one event, not three; and two
+are the same product (PINK BAG DECAF) at 6.0 and 7.3.
+
+Nothing in the app alerts on these. The badge and banner are passive; someone
+has to open `/reports` with OTA selected.
