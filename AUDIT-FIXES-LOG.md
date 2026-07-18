@@ -596,3 +596,87 @@ Not fixed, still able to mislead:
 **Correction to my own earlier work:** the audit artifact published earlier
 tonight says "365 orphaned COA sources". The real figure is **57**. See Task 7.
 The artifact has not been regenerated.
+
+---
+---
+
+# UNATTENDED SESSION 2 — 2026-07-18
+
+## Task 0 — pre-flight — **PARTIAL (b blocked)**
+
+### (a) Scheduled sync disabled — PASS
+
+```
+COA Auto-Sync        active -> disabled_manually   (id 286234410)
+Research Auto-Sync   active -> disabled_manually   (id 286542284)
+CI                   active (left alone — PR/push only, no schedule)
+```
+
+Disabled with `gh workflow disable "<name>"`, **not** by editing the workflow
+files. GitHub reads `schedule:` from the **default branch**, and we are on
+`migrations-framework` — editing `.github/workflows/coa-sync.yml` here would
+have looked like a fix and disabled nothing.
+
+**Re-enable with:**
+```
+gh workflow enable "COA Auto-Sync"
+gh workflow enable "Research Auto-Sync"
+```
+
+Third scheduler, left running deliberately: the **Vercel cron**
+(`vercel.json` -> `/api/update/cron`, `0 10 * * *`). It cannot be disabled from
+the repo — `vercel.json` only takes effect on redeploy. It next fires
+2026-07-19T10:00Z, ~14h after session start (2026-07-18T20:09Z), so it will not
+overlap this session. It writes `sources`/`chunks`, never `coas`.
+
+### (b) Database snapshots — **BLOCKED, substituted**
+
+`SUPABASE_DB_URL` in `dashboard/app/.env.local` is an unfilled placeholder:
+
+```
+SUPABASE_DB_URL="PASTE_THE_URI_HERE?sslmode=require"
+```
+
+`supabase/.temp/project-ref` is empty, so `supabase db query --linked` fails
+with "Cannot find project ref". No connection string or DB password exists
+anywhere in the repo. PostgREST (the service-role client) cannot execute DDL.
+
+**Therefore there is no way to run CREATE TABLE, ALTER TABLE, or any DDL from
+this machine.** I did not attempt to work around it — the only remaining route
+would be driving the Supabase dashboard SQL editor through the browser using
+your authenticated session, which is an unaudited, irreversible action on
+production regulated data that you did not authorise.
+
+Substituted an off-database snapshot, which is a valid rollback point and is
+arguably safer (immune to a bad statement against the DB itself):
+
+```
+backups/coas_backup_session2.json      266 rows   1.3 MB
+backups/sources_backup_session2.json  2453 rows   2.1 MB
+```
+
+Full row payloads, all columns. Restorable by upsert.
+
+**This also means `npm run migrate` has never been runnable** — the migration
+framework committed last session is inert until this variable is filled in.
+
+### (c) Working tree — PASS
+
+Clean apart from `.claude/settings.local.json` and
+`knowledge-base/research/incoming/Kang2011.txt`, as expected.
+
+### Cascade — what this blocks
+
+| Task | Needs DDL? | Status |
+|---|---|---|
+| 1 · `product_scope` column | **YES** (ALTER TABLE) | analysis can proceed; **cannot apply** |
+| 2 · allowlist on CS surfaces | depends on Task 1 column | **blocked by 1** |
+| 3 · duplicate retire | **YES** (`coas` has no retired/valid_until column) | cause fixable; **retire blocked** |
+| 4 · fabricated derived values | no — UPDATE via PostgREST | runnable |
+| 5 · orphan cleanup | no — `sources.valid_until` already exists | runnable |
+| 6 · over-limit flagging | no — UI only | runnable |
+| 7 · sample_to_product | no — file + re-ingest | runnable |
+
+To unblock: paste the real URI into `SUPABASE_DB_URL`
+(Supabase -> Settings -> Database -> Connection string -> URI, append
+`?sslmode=require`). Everything blocked above then runs unattended.
