@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "status": "LOW_CONFIDENCE",
+  "product_key": "BALANCE",
+  "report_number": null,
+  "test_date": null,
+  "sample_name": "Coffee sample Water content (%) Instrumental color Color by Agtron scale Caffeine (g/100g) Trigonelline (g/100g)",
+  "lot_or_po": "unds",
+  "supersedes": null,
+  "superseded_by": null,
+  "lab": "Eurofins (inferred)",
+  "serving_size_g": null,
+  "source_file": "/Users/jeremybehne/code/purity/COAs/BALANCE-Caffeine-CGA-Trigonelline-June 2024 (1).pdf",
+  "source_hash": "285beae738a56d25",
+  "parse_confidence": 0.1,
+  "parse_notes": [
+    "pages=1 tables=2",
+    "missing_report_number",
+    "missing_test_date",
+    "no_analyte_rows_extracted"
+  ],
+  "analytes": [],
+  "ingested_at": "2026-07-18T20:33:42+00:00"
+}

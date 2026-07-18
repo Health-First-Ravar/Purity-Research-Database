@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "status": "LOW_CONFIDENCE",
+  "product_key": null,
+  "report_number": null,
+  "test_date": null,
+  "sample_name": null,
+  "lot_or_po": null,
+  "supersedes": null,
+  "superseded_by": null,
+  "lab": "Silliker / M\u00e9rieux NutriSciences",
+  "serving_size_g": null,
+  "source_file": "/Users/jeremybehne/code/purity/COAs/19-631304-0-1-1898469_PT_Purity_Port.pdf",
+  "source_hash": "26ec6cc46853bd2c",
+  "parse_confidence": 0.1,
+  "parse_notes": [
+    "pages=1 tables=4",
+    "missing_report_number",
+    "missing_test_date",
+    "no_analyte_rows_extracted"
+  ],
+  "analytes": [],
+  "ingested_at": "2026-07-18T20:33:28+00:00"
+}

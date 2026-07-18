@@ -1218,3 +1218,77 @@ are the same product (PINK BAG DECAF) at 6.0 and 7.3.
 
 Nothing in the app alerts on these. The badge and banner are passive; someone
 has to open `/reports` with OTA selected.
+
+---
+
+## Task 7 — sample_to_product / UNRESOLVED coverage — **PASS, but the premise is wrong**
+
+### (a) Groups, largest first (208 UNRESOLVED Processed records)
+
+```
+  82  other (mixed descriptors)
+  73  origin-named        e.g. "Sao Pedro Brazil Honey", "GR-19-500 / Green Colombia"
+  18  PSS sample          e.g. "La Pradera PSS to Seaforth"
+  15  decaf               e.g. "18-114 / Decaf Nicaragua Roasted"
+  10  panel-named         e.g. "2024-25 Contaminants Aponte"
+   5  green coffee lot
+   3  ALL CAPS descriptor
+   2  (empty sample_name)
+```
+
+Most-repeated names: `Sao Pedro Brazil Honey` (4), `GR-19-500 / Green Colombia`
+(3), `Purity Decaf` (2), `Purity Dark Roast` (2), `18-104 / Purity Coffee
+Normal` (2), `GR-19-200 / Nicaragua 2019` (2).
+
+### (b)(c) proposed-mappings.json
+
+Written to repo root. 10 entries, 6 unique names, **all high confidence**, each
+with `sample_name`, `normalized`, `proposed_product`, `confidence`, `evidence`,
+`report_number`.
+
+Nothing reached medium or low: my medium rule required a blend key to appear as
+a standalone word, and the remaining 198 names contain no blend reference at
+all. They are origins, farm names and internal sample codes. **No amount of
+pattern matching maps "Sao Pedro Brazil Honey" to a blend** — that is knowledge
+about which lot went into which product, and it waits for you and Ildi.
+
+### (d) Applied — exact matches only
+
+Added 6 entries to `product-map.json.sample_to_product`:
+`BALANCE, Balance, Calm, Ease, Flow, Protect`. Re-ran `ingest.py --force`
+(a product-map change does not alter the source hash, so incremental mode
+would have skipped every file) and `import-coas`.
+
+### Verification — and the correction
+
+```
+UNRESOLVED Processed:  208 -> 208     (no change)
+coas blend null:       233 -> 224
+by blend: {ALZ:4, BALANCE:6, CALM:7, EASE:5, FLOW:11, PROTECT:9}
+```
+
+**The mappings changed nothing, because they were redundant.**
+`resolve_product` (`ingest.py:110-117`) already falls back to substring
+matching against product keys, display names and aliases, so a sample named
+`FLOW Eurofins Sample: 14676470` was *already* resolving to FLOW before I added
+anything. Every record my exact-match rule targeted was already `status=OK`.
+
+So the brief's premise — *"201 of 265 rows are UNRESOLVED (sample_to_product is
+empty); this is the highest-leverage remaining fix"* — **does not hold.** An
+empty `sample_to_product` is not what causes the 208 unresolved. The alias
+fallback already covers everything nameable by pattern. The 208 are unresolved
+because they are green lots and origin samples whose product association exists
+only in someone's head or in purchasing records, not in the COA.
+
+Populating `sample_to_product` **is** the fix, but it is a data-entry task
+requiring domain knowledge, not a code or configuration fix. Expected yield
+from further automation: approximately zero.
+
+The blend-null improvement (233 -> 224) is the Task 5 fix from session 1 being
+re-applied by this session's re-import — BALANCE and ALZ recovered again after
+the 18:41 cron reverted them. It is not attributable to Task 7.
+
+### Not done
+
+Did not guess any origin-to-product mapping. `proposed-mappings.json` contains
+only what the data proves.
