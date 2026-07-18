@@ -1355,3 +1355,109 @@ duplicate pdf_filename groups      1   (49608.pdf, 6 rows — pre-existing, not 
 ```
 
 `inserted=0` on every import this session. Growth is stopped.
+
+### (d) Session summary
+
+| Task | Result |
+|---|---|
+| 0 · pre-flight | **PARTIAL** — cron disabled; DB snapshot tables **blocked** (no DDL), JSON snapshots substituted |
+| 1 · product_scope | **STOPPED at apply** — migration + backfill written, analysis complete, column cannot be created |
+| 2 · allowlist on CS surfaces | **BLOCKED by 1** — no code changed; scope mapped and it is wider than briefed |
+| 3 · duplicates | **PASS (a)(b)** cause fixed, growth stopped · **STOPPED (c)(d)** — canonical-by-newest would destroy the only good row |
+| 4 · fabricated values | **PASS** — 91 rows corrected, 159 → 0 violations |
+| 5 · orphan cleanup | **PASS** — 57 retired, coverage 266/266 |
+| 6 · over-limit flagging | **PASS** — badge + banner; all 3 currently outside the CS allowlist |
+| 7 · sample_to_product | **PASS, premise corrected** — mappings were redundant; the real blocker is domain knowledge |
+| 8 · re-enable + write-up | **(a) refused with reasons** · (b)(c) PASS |
+
+Unrequested fixes: durable quarantine in `pull-new-coas.py` (session 2);
+LOQ qualifiers in embedded COA text (session 1).
+
+### (e) Honest assessment
+
+**Is `/reports/support` NOW safe for a CS team to read lab values from? — NO.**
+
+Three independent reasons, any one of which is disqualifying:
+
+1. **Competitor rows are still visible, and there are six, not three.**
+   `MUDWTR`, `KION`, `JAVA_BURN`, two `BULLETPROOF`, `Lifeboost`. Four show only
+   a bare sample code (`21-465`, `21-521`, `21-357`, `21-137`, `21-247`). The
+   allowlist that fixes this is blocked on a missing database credential.
+2. **CS does not only see `/reports/support`.** Per `auth-roles.ts`,
+   `customer_service` reaches the **full `/reports` browser** and
+   `/reports/[id]`, where every competitor COA is listed and openable by URL.
+   Fixing only the support page would have left the main exposure intact.
+3. **None of the fixes are live.** Every improvement from both sessions is on
+   `migrations-framework`. Production runs `main`. A rep using the app today
+   sees the pre-session-1 behaviour: below-LOQ values as bare numbers, no limit
+   badges, competitor rows unmarked.
+
+What remains, in order:
+- Fill `SUPABASE_DB_URL`; apply `0002_add_product_scope.sql`; run the backfill.
+- Filter `/reports/support`, `/reports`, `/reports/[id]` and CSV at query level.
+- Exclude competitor COAs from `chunks`, or `/chat` will keep citing them.
+- Decide the 12 Purity-branded-but-unmapped products (Dark Roast, Decaf,
+  Original) — in or out of the allowlist.
+- Resolve cold brew: it has zero representation in the data.
+- Merge to `main` and deploy.
+
+**Is the app ready for Ildi's audit team? — NO, but it is close, and the gap is
+deployment rather than function.**
+
+The audit surfaces are in good shape: `/reports` now flags out-of-limit results
+explicitly with threshold, lot and date; the stored numerics no longer fabricate
+detections; retrieval no longer surfaces 57 deleted reports. Seeing competitors
+is correct for benchmarking, so Task 1/2 being blocked does not block this
+audience.
+
+Blocking: nothing is on `main`. Also `/reports` truncates at 500 rows while its
+facet counts query 2000, so "All (N)" overstates what is rendered — an audit
+team will hit that. And 208 of 266 records are UNRESOLVED, so any
+product-level analysis is working from ~22% coverage.
+
+**Is it ready for leadership adoption? — NO, and not close.**
+
+- `/metrics` is a function of `messages`, which holds **25 rows**. Every KPI
+  reads `—`. A leadership dashboard with no data is worse than none.
+- 208 of 266 COAs have no product association, so "how is PROTECT trending"
+  cannot be answered.
+- `promotion_candidates` is 0 and `canon_qa` holds 2 rows — the feedback loop
+  that is supposed to grow the answer cache has not started.
+- Nothing is deployed.
+
+Leadership adoption needs real chat traffic and the product mapping first. It
+is a sequencing problem, not a bug list.
+
+### (f) Things you did not ask about
+
+**Could put a wrong or misattributed lab value in front of a customer:**
+
+1. **`/chat` can cite a competitor's COA as ours.** All six competitor COAs are
+   embedded and retrievable; `retrieve.ts` includes `'coa'` for health
+   questions. The citation shows a bare sample code. **Session 1 made this
+   worse** — re-embedding for staleness took coverage 140 → 265 and swept the
+   competitors in with it.
+2. **308 `kind='coa'` sources are not COAs.** Created by `lib/sync.ts`, which
+   labels everything in the COA Drive folder `kind='coa'` with no
+   classification — including **12 copies of the book manuscript**.
+   `pull-new-coas.py` classifies and quarantines; the TypeScript pipeline does
+   not. Same folder, two pipelines, different rules.
+3. **CSV export** inherits whatever the page query returns, so it will leak
+   competitor rows until the filter is at query level.
+4. **`coa_limits` fails silently to hardcoded defaults** when the table is empty
+   or the service-role key is missing. The compliance badges keep rendering,
+   sourced from code rather than the table an admin is editing, with no signal.
+
+**Operational:**
+
+5. **`SUPABASE_DB_URL` is a placeholder**, so `npm run migrate` has never been
+   runnable and the migration framework committed in session 1 is inert.
+6. **`embed-coas` leaks chunks.** It retires the old source row on a content
+   change but deletes chunks for the *new* id, so dead embeddings accumulate —
+   ~35 in a 50-source sample. Not a correctness issue (`match_chunks` filters
+   `valid_until`) but it grows every run.
+7. **The two migration ledgers** (`migrations/` and
+   `dashboard/app/supabase/migrations/`) both have a `0001` and cannot see each
+   other. CLAUDE.md documents only the second.
+8. **Session-1 correction:** the audit artifact still says 365 orphaned COA
+   sources. The real figure is 57. Not regenerated.
