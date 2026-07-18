@@ -857,3 +857,71 @@ To finish: fill `SUPABASE_DB_URL`, run `npm run migrate`, then
 I committed these rather than leaving them uncommitted, since an unattended
 session should not leave its only deliverable in an uncommitted working tree.
 The commit message states plainly that nothing was applied.
+
+---
+
+## Task 2 — apply allowlist to CS surfaces — **BLOCKED by Task 1**
+
+Cannot enforce `product_scope = 'purity'` at query level while the column does
+not exist; the query would error. No code changed. Scoping done, since it is
+needed the moment the column lands — and it is worse than briefed.
+
+### The CS surface is not just /reports/support
+
+`lib/auth-roles.ts`: `customer_service` gets **"Research Hub (chat), Reports,
+Bibliography, Audit"**. Actual gates on the COA surfaces:
+
+| Surface | Gate in page | CS can reach? | Competitors visible? |
+|---|---|---|---|
+| `/reports` | `isAdmin` guards only the Limits *link*; page renders for any authed user | **YES** | **YES — full browser, all 6** |
+| `/reports/[id]` | `hasElevatedAccess` guards only the *edit form* | **YES** | **YES — any COA by URL** |
+| `/reports/support` | **no gate at all** | **YES** | **YES** |
+| CSV export | client-side, from `/reports` rows | **YES** | **YES** |
+| `/chat` | `canChat` = admin + customer_service | **YES** | **YES — see below** |
+| `/audit` | `auth.getUser` only, no role check | **YES** | via chunks |
+
+The brief treats `/reports/support` as the CS surface. It is not — CS has the
+**full `/reports` browser**, where all six competitor COAs are listed and
+individually openable. Fixing only the support page would leave the main
+exposure untouched.
+
+### Chat can cite a competitor's lab data in a customer answer
+
+All 6 competitor COAs are embedded and retrievable right now:
+
+```
+3481129-0       1 chunk   "21-465 (2021-11-17) Report 3481129-0"      MUDWTR
+3479396-0       1 chunk   "21-521 (2021-11-17) Report 3479396-0"      KION
+CHG-42436434-0  1 chunk   "19-905 / Lifeboost Meium Ground (2019-06-07)"
+3481081-0       1 chunk   "21-357 (2021-11-17) Report 3481081-0"      BULLETPROOF
+3481080-0       1 chunk   "21-137 (2021-11-17) Report 3481080-0"      BULLETPROOF
+3488986-0       1 chunk   "21-247 (2021-11-17) Report 3488986-0"      JAVA_BURN
+```
+
+`lib/rag/retrieve.ts` includes `'coa'` in `source_kinds` for the `health`
+category, deliberately, so a customer asking about mycotoxins can be answered
+from a chunk whose title is a bare sample code that is actually Bulletproof's
+lab result. The source title shown as a citation gives no indication.
+
+**I made this worse in session 1.** Task 3 of that session re-embedded every
+COA, taking coverage from 140/265 to 265/265 — which included all six
+competitors. Before that, some were not retrievable. Fixing the staleness and
+widening the misattribution risk were the same action, and I did not notice.
+
+### Required when the column exists
+
+1. `/reports/support` — add `.eq('product_scope','purity')` to the query.
+2. `/reports` — same, but **only for non-elevated roles**; the audit team must
+   keep seeing everything for benchmarking. Needs a role read the page does not
+   currently do for data scoping.
+3. `/reports/[id]` — reject a non-`purity` id for non-elevated roles with
+   `notFound()`, before render, so a URL cannot bypass the list filter.
+4. CSV export — inherits (2) if filtered at query level, which is why it must
+   be at query level and not in the view.
+5. **`chunks`** — the embedded copies need the same treatment. Either exclude
+   competitor COAs at `embed-coas` time, or retire their sources. A query
+   filter on `coas` does nothing for retrieval, which reads `chunks`.
+6. Visible note on the CS surface that it shows current Purity products only.
+
+Item 5 is the one most likely to be missed: the allowlist is a `coas` concept,
+and chat never touches `coas`.
