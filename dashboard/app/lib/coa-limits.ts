@@ -108,10 +108,23 @@ export function evaluate(args: {
 }): EvalResult {
   const limit = getLimit(args.key, args.limits ?? DEFAULT_LIMITS);
   if (!limit) return { status: 'no_limit', value: args.value ?? null, reported: args.reported };
-  if (args.value == null) return { status: 'no_value', limit, reported: args.reported };
 
   const reported = args.reported ?? null;
   const belowLoq = !!reported && /^\s*</.test(reported);
+
+  // A below-LOQ result now stores a NULL numeric (the threshold is not a
+  // measurement — see isBelowLoq in scripts/import-coas.ts), so the null check
+  // must come after the below-LOQ branches. Otherwise "not detected" would
+  // evaluate as "not tested" and lose a genuine pass against a ceiling.
+  if (args.value == null && belowLoq) {
+    if (limit.direction === 'ceiling') {
+      // Nothing detected, so the ceiling is met.
+      return { status: 'ok', limit, value: null, reported, belowLoq };
+    }
+    // Against a floor or a range, a non-detection cannot confirm the minimum.
+    return { status: 'no_value', limit, value: null, reported, belowLoq };
+  }
+  if (args.value == null) return { status: 'no_value', limit, reported: args.reported };
 
   if (limit.direction === 'ceiling' && limit.value != null) {
     if (belowLoq) return { status: 'ok', limit, value: args.value, reported, belowLoq };

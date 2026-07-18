@@ -1017,3 +1017,104 @@ substitute.
 The five shells are inert — no analyte values, so they cannot produce a wrong
 lab number. They inflate counts and would confuse a `pdf_filename` lookup.
 Leaving them is low-risk; the growth is stopped.
+
+---
+
+## Task 4 — fabricated derived values — **PASS**
+
+### (a) Audit of derived values — correction to the brief
+
+The brief says to fix `ingest.py` / `lib_extract.py`. **The parser does not
+derive anything.** It emits individual components (`Aflatoxin B1`, `B2`, `G1`,
+`G2`) with their `as_reported` strings intact. All derivation happens in
+`import-coas.ts:mapToCOARow`. So **no re-parse was needed** — a re-import was
+sufficient, which is cheaper and lower risk.
+
+Full audit of derived/summed fields:
+
+| Field | Derived? | Below-LOQ handling before |
+|---|---|---|
+| `aflatoxin_ppb` | **YES** — sums B1+B2+G1+G2 when no reported total | summed thresholds as if measured |
+| `ota_ppb`, `acrylamide_ppb`, `cga_mg_g`, `melanoidins_mg_g`, `trigonelline_mg_g`, `caffeine_pct`, `moisture_pct`, `water_activity` | no — single analyte | stored the threshold as the value |
+| `heavy_metals` (jsonb) | no — per-analyte map via `toPpb` | stored the threshold as the value |
+| `raw_values` (jsonb) | no — verbatim, keeps `as_reported` | correct already |
+
+`aflatoxin_ppb` is the only genuinely derived field. `lib_units.py`'s
+"total aflatoxins" / "total chlorogenic acids" entries normalise a *reported*
+total, they do not compute one.
+
+### (b) Approach
+
+Two changes, both in `import-coas.ts`:
+
+1. **Derived total.** If every component is below LOQ, `aflatoxin_ppb` is
+   `null` and the qualifier carries the **true bound — the sum of the component
+   thresholds**. Four `<0.500` components bound the total at `<2.00`, not
+   `<0.500`. The old code stored the first component's qualifier, understating
+   the bound by 4x. Mixed case (some detected): sum only the detected
+   components, since adding a threshold for an undetected one invents signal.
+   **Zero mixed cases exist in the corpus**, so that path is defensive.
+
+2. **All analytes, not just derived.** `toPpb` / `toMgPerG` / `toPct` and
+   `water_activity` now return `null` for a below-LOQ input. The same argument
+   applies to a single value: OTA reported `<1.00` was stored as `1` against a
+   2 ppb ceiling — half-limit for a clean sample. Your verification criterion
+   (zero rows with a `<` qualifier and a non-null numeric) requires this, so it
+   is not just the derived case. The threshold is preserved in
+   `value_qualifiers` and `raw_values.as_reported`; nothing is lost.
+
+Consequential fix in `lib/coa-limits.ts`: `evaluate()` returned early on a null
+value, so nulling the numerics would have regressed every below-LOQ ceiling
+check from "within limit" to "not tested". The null check now runs *after* the
+below-LOQ branches — non-detection passes a ceiling, and still cannot confirm a
+floor.
+
+### (c)(d) Re-import — 91 rows changed
+
+```
+import-coas: inserted=0 updated=250 skipped=22 errors=0
+embed-coas : inserted=81 unchanged=185 errors=0
+```
+
+Sample of the changes:
+
+```
+3210921-0        ota_ppb 1 -> null (<1.00)      aflatoxin_ppb 2 -> null (<2)
+3325286-0        ota_ppb 1 -> null (<1.00)      aflatoxin_ppb 2 -> null (<2)
+2904069-0        ota_ppb 1 -> null (<1.00)      aflatoxin_ppb 2 -> null (<2)
+3481129-0        ota_ppb 1 -> null (<1.00)      aflatoxin_ppb 2 -> null (<2)
+                 cga_mg_g 0.05 -> null (<5.00)
+3206088-0        ota_ppb 1 -> null (<1.00)      aflatoxin_ppb 2 -> null (<2)
+3622294-0        ota_ppb 1 -> null (<1.00)      aflatoxin_ppb 2 -> null (<2)
+4579845-0        ota_ppb 1 -> null (<1.00)      aflatoxin_ppb 2 -> null (<2)
+4390346-0        ota_ppb 1 -> null (<1.00)      aflatoxin_ppb 2 -> null (<2)
+3955587-0        ota_ppb 1 -> null (<1.00)      aflatoxin_ppb 2 -> null (<2)
+3613233-0        ota_ppb 1 -> null (<1.00)      aflatoxin_ppb 2 -> null (<2)
+CHG-40804923-0   aflatoxin_ppb 0.7 -> null (<0.7)
+CHG-41077692-0   aflatoxin_ppb 0.7 -> null (<0.7)
+```
+
+Note `3481129-0` — `cga_mg_g` was stored as **0.05** from a `<5.00` reading.
+That is not just a fabricated detection, it is off by two orders of magnitude
+from the threshold, and against a 40 mg/g floor it read as catastrophically
+low rather than "not measured above 5".
+
+### Verification
+
+```
+rows with '<' qualifier AND non-null numeric:  0   (was 159)
+  previously: ota_ppb 67, aflatoxin_ppb 91, cga_mg_g 1
+
+3210921-0   aflatoxin_ppb = null
+            ota_ppb       = null
+            qualifiers    = {"ota_ppb":"<1.00","aflatoxin_ppb":"<2"}
+```
+
+Retrieval text also corrected:
+
+```
+- Ochratoxin A (OTA): not detected (below 1.00 ppb)
+- Aflatoxin (total B1+B2+G1+G2): not detected (below 2 ppb)
+```
+
+No remaining cases to explain — the count is exactly zero.
