@@ -301,3 +301,81 @@ I did not fix it. Stopping new duplicates is a one-line change
 five rows receives future updates, and cleaning up the existing four is a
 delete. Both are decisions on regulated data. Needs your call on which row is
 canonical.
+
+---
+
+## Task 6 — add 'coa' to the claim validator — **STOPPED, change NOT made**
+
+### Premise corrections
+
+1. The filter is `['research_paper', 'coffee_book']`, not
+   `['brand','research','coffee_book']`.
+2. **There is no comment explaining the exclusion.** The only comment restates
+   the behaviour (`// 1) retrieve evidence — research_paper + coffee_book
+   only.`). `git log` on the file shows a single commit, so no rationale was
+   ever recorded anywhere.
+
+Since the instruction was conditional on a documented reason and none exists, I
+tested empirically instead of assuming the exclusion was an oversight. It is
+not safe to remove yet.
+
+### Evidence — health claim
+
+Draft: *"PROTECT delivers higher chlorogenic acids because we roast lighter,
+which supports cardiovascular health."*
+
+```
+['research_paper','coffee_book']          ['research_paper','coffee_book','coa']
+0.742 [research_paper] Coffee Guide...    0.752 [coa] Coffee Guide..._V1-IR-EDITS
+0.740 [research_paper] Coffee Guide...    0.752 [coa] Coffee Guide..._V1-IR-EDITS (1)
+0.735 [research_paper] Circular Health    0.751 [coa] Coffee Guide..._V6-578pages
+0.726 [research_paper] Krol-2020 poly...  0.750 [coa] Coffee Guide..._V2-IR-EDITS
+```
+
+Adding `'coa'` displaced **8 of 8** research chunks. Not one is a lab report —
+they are book-manuscript proofs misclassified as `kind='coa'`, and they
+outrank genuine research on health queries because book prose about
+coffee-and-health is semantically closer to a health claim than a table of
+analyte values is. The auditor would have *less* evidence, not more.
+
+### Evidence — lab claim
+
+Draft: *"Our PROTECT blend tested below 2 ppb for ochratoxin A in the most
+recent lot."*
+
+```
+0.711 [coa]            COA-2016-PurityFullScreen
+0.710 [research_paper] Lifeboost Mycotoxin Test      <- COMPETITOR
+0.709 [coa]            JAVA_BURN_COA                 <- COMPETITOR
+0.709 [coa]            COA_Report_3750933-0
+```
+
+Real COA chunks are reachable here — the mechanism works. But the `coa` kind
+also holds **competitors' lab reports** (Java Burn, Lifeboost). An auditor
+citing those to support a claim about Purity coffee would attribute another
+brand's lab result to a Purity product, in regulated health-claim copy. That is
+a worse failure than having no lab data.
+
+### Third concern — the evidence hierarchy
+
+The auditor assigns `evidence_tier` 1..7, where 1 = pre-registered RCT and
+7 = in vitro. A certificate of analysis is not on that scale. A COA showing
+40 mg/g CGA is not evidence that CGA does anything physiological, but it is
+exactly the kind of chunk a model may cite to satisfy "evidence_engaged" for a
+health claim. Enabling `'coa'` without teaching the prompt that lab data is
+composition evidence, never efficacy evidence, invites the category error the
+auditor exists to prevent.
+
+### What would have to be true to enable it
+
+1. Clean the 365 orphaned `kind='coa'` sources (Task 7) — these include the
+   misclassified book manuscripts that dominated test 1.
+2. Separate competitor COAs from Purity COAs, e.g. a `sources.metadata.brand`
+   filter or a distinct kind.
+3. Extend the SYSTEM prompt so COA chunks are treated as composition evidence
+   only, and never count toward `evidence_tier`.
+
+Then re-run both probes above. Until then the exclusion is doing real work.
+
+**Nothing committed for this task** beyond this log entry. `audit-claim.ts` is
+unmodified.
