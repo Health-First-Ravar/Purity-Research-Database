@@ -183,9 +183,24 @@ export default async function ReportsPage({ searchParams }: { searchParams: Prom
     return qs ? `/reports?${qs}` : '/reports';
   }
 
+  // Resolve the '<'/'>' qualifier for the primary analyte, from raw_values for
+  // raw: keys and from value_qualifiers for headline columns. Carried on the
+  // row so the CSV export can render below-LOQ results as "not detected"
+  // rather than emitting the bare LOQ threshold as if it were a measurement.
+  function reportedFor(r: Record<string, unknown>, key: string): string | null {
+    if (key.startsWith('raw:')) {
+      const name = key.slice(4);
+      const raw = (r.raw_values ?? {}) as Record<string, { as_reported?: string | null }>;
+      return raw[name]?.as_reported ?? null;
+    }
+    const qmap = (r.value_qualifiers ?? {}) as Record<string, string>;
+    return qmap[key] ?? null;
+  }
+
   let chartRows = (rows ?? []).map((r) => ({
     ...r,
-    __value: primary ? readAnalyte(r as Record<string, unknown>, primary.key) : null,
+__value: primary ? readAnalyte(r as Record<string, unknown>, primary.key) : null,
+    __reported: primary ? reportedFor(r as Record<string, unknown>, primary.key) : null,
   }));
   // The "only rows with data" toggle only applies when an analyte is selected;
   // with no analyte chosen it is ignored so every matching COA stays visible.

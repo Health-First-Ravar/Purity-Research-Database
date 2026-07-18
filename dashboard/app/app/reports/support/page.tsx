@@ -1,6 +1,7 @@
 import { cookies } from 'next/headers';
 import Link from 'next/link';
 import { supabaseServer } from '@/lib/supabase';
+import { formatAnalyte } from '@/lib/coa-limits';
 
 export const dynamic = 'force-dynamic';
 
@@ -33,11 +34,10 @@ type Row = Record<string, unknown> & {
 function num(v: unknown): number | null {
   return typeof v === 'number' ? v : null;
 }
-function fmt(v: number | null, unit: string): string {
-  if (v == null) return '—';
-  const abs = Math.abs(v);
-  const s = abs >= 100 ? v.toFixed(0) : abs >= 1 ? v.toFixed(2) : v.toPrecision(2);
-  return `${s} ${unit}`;
+
+/** Per-analyte '<'/'>' qualifier recorded at import, keyed like the columns. */
+function qualifiersOf(r: Row): Record<string, string> {
+  return (r.value_qualifiers ?? {}) as Record<string, string>;
 }
 
 type Snap = {
@@ -46,6 +46,7 @@ type Snap = {
   origin: string | null;
   latestDate: string | null;
   values: Record<string, number | null>;
+  quals: Record<string, string | null>;
   valueDates: Record<string, string | null>;
 };
 
@@ -77,15 +78,23 @@ export default async function SupportReportPage() {
   for (const [k, list] of byGroup) {
     list.sort((a, b) => String(b.report_date ?? '').localeCompare(String(a.report_date ?? '')));
     const values: Record<string, number | null> = {};
+    const quals: Record<string, string | null> = {};
     const valueDates: Record<string, string | null> = {};
     for (const col of ALL) {
       let v: number | null = null;
+      let q: string | null = null;
       let d: string | null = null;
       for (const r of list) {
         const x = num(r[col.key]);
-        if (x != null) { v = x; d = (r.report_date as string) ?? null; break; }
+        const qual = qualifiersOf(r)[col.key] ?? null;
+        // A below-LOQ result is information ("not detected"), so a row that
+        // carries only a qualifier still counts as the latest reported result.
+        if (x != null || qual) {
+          v = x; q = qual; d = (r.report_date as string) ?? null; break;
+        }
       }
       values[col.key] = v;
+      quals[col.key] = q;
       valueDates[col.key] = d;
     }
     snaps.push({
@@ -94,6 +103,7 @@ export default async function SupportReportPage() {
       origin: (list[0].origin as string) ?? null,
       latestDate: (Object.values(valueDates).filter(Boolean).sort().pop() as string | undefined) ?? (list[0].report_date as string) ?? null,
       values,
+      quals,
       valueDates,
     });
   }
@@ -127,11 +137,30 @@ export default async function SupportReportPage() {
                     </Link>
                   </td>
                   <td className="p-3 text-purity-muted dark:text-purity-mist">{s.latestDate ?? '—'}</td>
-                  {ALL.map((c) => (
-                    <td key={c.key} className="p-3 font-mono tabular-nums" title={s.valueDates[c.key] ? `as of ${s.valueDates[c.key]}` : undefined}>
-                      {fmt(s.values[c.key], c.unit)}
-                    </td>
-                  ))}
+                  {ALL.map((c) => {
+                    const d = formatAnalyte(s.values[c.key], s.quals[c.key], c.unit);
+                    return (
+                      <td
+                        key={c.key}
+                        className={`p-3 font-mono tabular-nums ${
+                          d.kind === 'not_detected'
+                            ? 'text-purity-green dark:text-purity-aqua'
+                            : d.kind === 'not_tested'
+                              ? 'italic text-purity-muted/70 dark:text-purity-mist/70'
+                              : ''
+                        }`}
+                        title={
+                          d.kind === 'not_detected'
+                            ? `Not detected — below the lab's reporting limit of ${d.bound?.replace('<', '')} ${c.unit}${s.valueDates[c.key] ? ` (as of ${s.valueDates[c.key]})` : ''}`
+                            : d.kind === 'not_tested'
+                              ? 'This analyte was not measured on any COA for this product'
+                              : s.valueDates[c.key] ? `as of ${s.valueDates[c.key]}` : undefined
+                        }
+                      >
+                        {d.text}
+                      </td>
+                    );
+                  })}
                 </tr>
               ))}
             </tbody>
@@ -149,10 +178,20 @@ export default async function SupportReportPage() {
           ← Full reports
         </Link>
       </div>
-      <p className="mb-6 max-w-2xl text-sm text-purity-muted dark:text-purity-mist">
-        Most recent measured value for each blend and green coffee. Each cell is the latest
+      <p className="mb-3 max-w-2xl text-sm text-purity-muted dark:text-purity-mist">
+        Most recent reported result for each blend and green coffee. Each cell is the latest
         COA that actually reported that analyte (hover a value for its test date). Click a product for its newest full COA.
       </p>
+      <div className="mb-6 flex max-w-2xl flex-wrap gap-x-5 gap-y-1 rounded-md border border-purity-bean/10 bg-purity-cream/50 p-3 text-xs dark:border-purity-paper/10 dark:bg-purity-shade/50">
+        <span className="text-purity-muted dark:text-purity-mist">How to read these:</span>
+        <span><span className="font-mono">1.20 ppb</span> — measured at that level</span>
+        <span className="text-purity-green dark:text-purity-aqua">
+          <span className="font-mono">Not detected</span> — none found, below the lab&rsquo;s reporting limit
+        </span>
+        <span className="italic text-purity-muted/70 dark:text-purity-mist/70">
+          Not tested — no COA measured it. Not the same as zero.
+        </span>
+      </div>
 
       {error && <p className="text-purity-rust">Error: {error.message}</p>}
       {!error && snaps.length === 0 && (

@@ -151,6 +151,47 @@ export function fmtValue(value: number | null | undefined, reported?: string | n
   return value.toPrecision(2);
 }
 
+/**
+ * Three-state analyte display for customer-facing surfaces.
+ *
+ * A below-LOQ result means the lab did NOT detect the analyte. Rendering the
+ * bare numeric (the LOQ threshold itself) states a detected value that was
+ * never measured, so below-LOQ must never format as a plain number. These
+ * three states must also be distinguishable from each other: a dash or blank
+ * is not acceptable for "not tested" because it reads as zero.
+ */
+export type AnalyteDisplayKind = 'measured' | 'not_detected' | 'not_tested';
+export type AnalyteDisplay = { text: string; kind: AnalyteDisplayKind; bound?: string };
+
+export function formatAnalyte(
+  value: number | null | undefined,
+  reported?: string | null,
+  unit?: string,
+): AnalyteDisplay {
+  const rep = (reported ?? '').trim();
+  const u = unit ? ` ${unit}` : '';
+
+  // "<0.500" — below the limit of quantitation. Not detected.
+  if (/^</.test(rep)) {
+    return { text: `Not detected (${rep}${u})`, kind: 'not_detected', bound: rep };
+  }
+  // ">50" — above the upper reporting bound. A real detection, bound unknown.
+  if (/^>/.test(rep)) {
+    return { text: `${rep}${u}`, kind: 'measured', bound: rep };
+  }
+  if (value == null) return { text: 'Not tested', kind: 'not_tested' };
+  return { text: `${fmtValue(value)}${u}`, kind: 'measured' };
+}
+
+/** Plain-text form for CSV export — same three states, no markup. */
+export function formatAnalyteCsv(
+  value: number | null | undefined,
+  reported?: string | null,
+): string {
+  const d = formatAnalyte(value, reported);
+  return d.kind === 'not_tested' ? 'not tested' : d.text;
+}
+
 export function statusStyle(status: EvalStatus): string {
   switch (status) {
     case 'over':
