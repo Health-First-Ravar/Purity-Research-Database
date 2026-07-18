@@ -925,3 +925,95 @@ widening the misattribution risk were the same action, and I did not notice.
 
 Item 5 is the one most likely to be missed: the allowlist is a `coas` concept,
 and chat never touches `coas`.
+
+---
+
+## Task 3 — duplicates — **(a)(b) PASS · (c)(d) STOPPED, see objection**
+
+### (a) Root cause — found, and it is not what the brief guessed
+
+Scope is smaller than feared: **0** duplicate groups by `report_number`,
+exactly **1** by `pdf_filename` (`49608.pdf`). 10 rows have a null
+`report_number`; only this one has siblings.
+
+The mechanism is two compounding faults:
+
+**1. One PDF produces two Processed files.**
+
+```
+Processed/S04082026-49608.json    report_number=S04082026-49608   19 analytes   status=UNRESOLVED
+Processed/9c9598cf36f8c8dd.json   report_number=None               0 analytes   status=LOW_CONFIDENCE
+```
+
+Both from `COAs/49608.pdf`. The second is a **failed parse**, named by content
+hash because it has no report number. `ingest.py` still wrote it out, and
+`import-coas` still admitted it, because the old guard accepted any row with an
+identifier — and `sample_name` counts, since it is scraped from the page header
+even when no analytes parse.
+
+**2. `.maybeSingle()` errors on multi-match and returns `data = null`.**
+The caller reads that as "no existing row" and inserts. Once a second duplicate
+exists the lookup can never succeed again, so every run adds exactly one more.
+Self-accelerating, as observed.
+
+### (b) Cause fixed — PASS
+
+- `mapToCOARow` now requires a `report_number` **or** at least one real analyte
+  value. A name alone is not a record. This stops the shell at the source.
+- Both existence lookups use `.order('created_at').limit(1)` instead of
+  `.maybeSingle()`, so a pre-existing duplicate set is **updated** rather than
+  extended.
+
+```
+before   total 266   49608.pdf rows 6
+run      inserted=0  updated=250  skipped=22  errors=0
+after    total 266   49608.pdf rows 6
+```
+
+`inserted` was 1 on every prior run; it is now 0. `skipped` rose 20 -> 22,
+which is the tightened guard correctly rejecting the two data-less parses.
+
+### (c)(d) Cleanup — **STOPPED. I am objecting to the instruction.**
+
+The brief says: *"Canonical row = NEWEST (by created_at...)"*. **Following that
+here would destroy the only row that contains lab data.**
+
+There are **six** rows, not five. My first pass missed one because it has a
+`report_number` and therefore grouped separately:
+
+```
+e78bd9c7  2026-05-31  10/24 fields   report_number=S04082026-49608  report_date=2026-04-27
+                                     ota_ppb=1  aflatoxin_ppb=4  raw_values  value_qualifiers
+0fe75607  2026-06-24   4/24 fields   empty shell
+c6440669  2026-07-15   4/24 fields   empty shell
+bcc3afa2  2026-07-15   4/24 fields   empty shell
+6a4137de  2026-07-18   4/24 fields   empty shell
+de80e5db  2026-07-18   4/24 fields   empty shell    <- "newest"
+```
+
+The newest five are the *failures*. The oldest is the real record. Task 3(e)
+exists precisely to catch this, and it caught it:
+
+```
+!! e78bd9c7 has fields the canonical LACKS:
+   report_number, report_date, ota_ppb, aflatoxin_ppb, raw_values, value_qualifiers
+>>> RETIRING WOULD LOSE DATA — STOP
+```
+
+Newest-wins is a reasonable default when duplicates are re-imports of the same
+record. It is wrong when the duplicates are *repeated failures* of one parse,
+because failures get newer while the successful parse stays old.
+
+**Proposed rule instead** (for your approval): canonical = the row with the
+most populated fields, tie-broken by newest. On this group that selects
+`e78bd9c7` and retires the five shells. I have not implemented it.
+
+Second, independent blocker: **`coas` has no `valid_until` / retired column**,
+so a soft retire is impossible without DDL, which Task 0b established is
+unavailable. Even with the canonical rule settled, (d) cannot execute today.
+Hard-deleting instead would violate the ground rule and is not something I will
+substitute.
+
+The five shells are inert — no analyte values, so they cannot produce a wrong
+lab number. They inflate counts and would confuse a `pdf_filename` lookup.
+Leaving them is low-risk; the growth is stopped.
