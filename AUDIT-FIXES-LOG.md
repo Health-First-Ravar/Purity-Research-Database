@@ -192,3 +192,46 @@ Re-embedded all 265 after the change: 190 re-embedded, 75 unchanged, 0 errors.
 I judged this in-scope-adjacent rather than improvisation: it is text
 rendering, changes no stored value, and applies the fix pattern already
 approved in Task 1. Committed separately so it can be reverted on its own.
+
+---
+
+## Task 4 — Reva SKILL path — **PASS**
+
+### Changed
+
+`lib/rag/reva.ts`
+
+- Replaced the single `path.join(process.cwd(), ...)` with
+  `skillPathCandidates()`, trying repo-root-relative, cwd-relative, and
+  module-relative (`import.meta.url`) anchors, taking the first that exists.
+- Replaced `.catch(() => '')` with real handling. If no candidate loads it
+  logs the full candidate list and throws `RevaSkillUnavailableError`. Reva now
+  refuses to answer rather than serving an unconfigured persona behind a 200.
+- Added a second guard: if the file loads but a mode section does not match, it
+  throws naming the affected modes. That was a second silent-degradation path —
+  a renamed heading in SKILL.md would have emptied a prompt with no signal.
+- Failures are not cached, so it self-heals once the file is reachable.
+- Logs the resolved path and per-mode byte counts on success.
+
+`next.config.ts` — added `outputFileTracingRoot` and
+`outputFileTracingIncludes` for `/api/reva`. Without this the path fix works
+locally and Reva throws on every request in deploy, because SKILL.md sits
+outside the app directory and is not traced into the bundle.
+
+### Verification
+
+```
+RESOLVED: /Users/jeremybehne/code/purity/knowledge-base/reva/SKILL.md  (21,468 bytes)
+  create      2,057 bytes  NON-EMPTY
+  analyze     6,450 bytes  NON-EMPTY
+  challenge   1,539 bytes  NON-EMPTY
+```
+
+All three were 0 bytes before. Typecheck clean.
+
+### Note
+
+Reva now hard-fails when SKILL.md is missing, per the instruction to surface a
+clear error rather than serve an empty prompt. That is a deliberate
+availability trade: a broken deploy takes Reva down instead of quietly
+degrading it. Reva is admin-only, so blast radius is one role.
