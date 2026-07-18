@@ -1292,3 +1292,66 @@ the 18:41 cron reverted them. It is not attributable to Task 7.
 
 Did not guess any origin-to-product mapping. `proposed-mappings.json` contains
 only what the data proves.
+
+---
+
+## Task 8 — re-enable and write up
+
+### (a) Scheduled sync — **NOT re-enabled. This is a deliberate objection.**
+
+You asked me to turn the cron back on. I have not, because doing so would
+predictably undo most of this session within 6 hours.
+
+`main` contains **none** of session 1's or session 2's commits — 20 commits sit
+on `migrations-framework`. The cron runs from `main`. So re-enabling it means
+`main`'s **old** `import-coas` runs against the database and:
+
+- **reverts Task 4** — LOQ thresholds get re-written as measurements; the 159
+  fabricated numerics come back, including `aflatoxin_ppb = 2` for samples
+  where nothing was detected
+- **reverts Task 7 / session-1 Task 5** — BALANCE and ALZ lose their blend again
+  (this already happened once, at 2026-07-18T18:41Z)
+- **resumes Task 3's duplicate growth** — the guard and the `.limit(1)` fix are
+  not on `main`, so `49608.pdf` starts accumulating shells again every 6 hours
+
+That is a worse state than leaving it off. Both workflows remain
+`disabled_manually`.
+
+**Re-enable once `migrations-framework` is merged to `main`:**
+```
+gh workflow enable "COA Auto-Sync"
+gh workflow enable "Research Auto-Sync"
+```
+
+If you want them on before merging, that is your call to make with this
+tradeoff visible — but I would not make it unattended on regulated data.
+
+### (b) Full chain run manually — PASS
+
+```
+pull-new-coas.py   found 286 · skipped 286 · downloaded 0 · failed 0
+ingest.py          errors=0 · last_successful_sync 2026-07-18T20:42:19Z  (advanced)
+import-coas        inserted=0 · updated=250 · skipped=22 · errors=0
+embed-coas         inserted=0 · unchanged=266 · errors=0
+```
+
+Fully idempotent: a second consecutive run changes nothing.
+
+**Extra fix required to get there (not requested).** The first chain run had
+`errors=1` and `last_successful_sync` did not advance. The 3-byte corrupt PDF I
+quarantined in session 1 had been **re-downloaded**: `pull-new-coas.py` skips
+only files present in `COAs/`, so moving a bad file to `_NotCOA/` is undone on
+the very next pull. The quarantine was never durable, and that single file is
+what has kept the staleness signal broken. The skip-set now includes
+`_NotCOA/`. After the fix: 286 skipped, 0 downloaded, `errors=0`,
+`last_successful_sync` advancing.
+
+### (c) No new duplicates — PASS
+
+```
+total coas                       266   (unchanged across the whole session)
+duplicate report_number groups     0
+duplicate pdf_filename groups      1   (49608.pdf, 6 rows — pre-existing, not new)
+```
+
+`inserted=0` on every import this session. Growth is stopped.
