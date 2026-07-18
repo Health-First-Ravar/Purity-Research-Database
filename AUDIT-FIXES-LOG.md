@@ -466,3 +466,133 @@ boilerplate ("...as provided by client. This report may not be distributed") —
 a parser failure that captured disclaimer text as a title.
 
 **STOPPED as instructed. Nothing deleted.**
+
+---
+
+# Task 8 — Final summary
+
+## Fixed and verified
+
+| # | Task | Result |
+|---|---|---|
+| 1 | LOQ rendering on support page + CSV | **PASS** — below-LOQ now "Not detected (<X)", three distinct states |
+| 2 | Limit evaluation on support page | **PASS** — from `coa_limits` only; no-limit analytes never show a pass |
+| 3 | `embed-coas` on the 6h schedule | **PASS** — 265/265 embedded (was 140), newest chunk == newest row |
+| 4 | Reva SKILL path | **PASS** — 21,468 bytes load, all 3 modes non-empty (were 0) |
+| 5 | BLEND_KEYS | **PASS** — blend-null 233/265 -> 224/266; BALANCE + ALZ recovered |
+| — | LOQ in embedded COA text (extra) | Done — chat no longer reads "OTA: 1 ppb" for clean coffee |
+| 6 | `'coa'` in claim validator | **STOPPED** — not made; evidence says exclusion is doing real work |
+| 7 | Orphan cleanup | **DRY RUN ONLY** — 57 orphans found, nothing deleted |
+
+Every task committed separately. `audit-claim.ts` untouched.
+
+---
+
+## Is /reports/support safe for a customer service team to read lab values from?
+
+**No. It is substantially safer than it was this morning, but it is not safe,
+and one defect is disqualifying on its own.**
+
+### The disqualifying one: competitor products are displayed as ours
+
+Three rows in `coas` are **other brands' coffee**, and all three group onto the
+support page indistinguishably from Purity products:
+
+```
+CHG-42436434-0   19-905 / Lifeboost Meium Ground   COA-7-Jun-19-42436434-0.pdf
+3481081-0        21-357                            BULLETPROOF_DECAF_COA.pdf
+3481080-0        21-137                            BULLETPROOF_MED_COA.pdf
+```
+
+Two render as "21-357" and "21-137" — internal sample codes that give a rep no
+clue they are Bulletproof. A rep asked "what's the mycotoxin level in your
+decaf?" can land on `21-357`, read Bulletproof's numbers, and state them as
+Purity's. Nothing on the page distinguishes them. This is a direct route from
+the database to a false statement about our product, and no amount of LOQ
+formatting fixes it.
+
+**Until competitor COAs are excluded from that page, do not point a CS team at
+it.** The narrow fix is a `coas.is_purity` / `brand` column set at import,
+defaulting to false for anything not matched to a Purity product, with the
+support page filtering on it.
+
+### What I fixed, and what that does and does not buy you
+
+Fixed: a below-LOQ contaminant no longer reads as a measured value; "not
+tested" is no longer a dash that reads as zero; over-limit results are flagged;
+analytes with no threshold say so rather than implying a pass. Those were the
+worst *rendering* defects and they are genuinely closed.
+
+Not fixed, still able to mislead:
+
+1. **Competitor products** — above. Highest severity.
+2. **Duplicate rows, growing every 6 hours.** `49608.pdf` has 5 rows and gains
+   one per sync (Task 5 log for the mechanism). Rows with a null
+   `report_number` are affected; 10 rows are exposed. Which duplicate a
+   grouped cell draws from is arbitrary.
+3. **Cells in one row can come from different COAs and different years.** The
+   "latest test" date is the max across cells, not the date of any particular
+   value. A rep reading across a row may quote a 2021 OTA result and a 2026
+   CGA result as one product snapshot. The hover shows each cell's real date,
+   but the row reads as a unit.
+4. **The aflatoxin total in the database is still fabricated** — four
+   non-detections summed to 2.0 ppb. Display is now safe because all such
+   records have a qualifier (I verified: **0** records mix detected and
+   non-detected components, so none slip through). But the wrong number is
+   still what any other consumer sees: chat retrieval, the API, a future
+   export, a BI tool.
+5. **`coa_limits` fails silently to hardcoded defaults.** `loadLimits()` falls
+   back to `DEFAULT_LIMITS` on error *or* when the table returns zero active
+   rows, with no logging and no UI signal. If the service-role key is missing
+   or an admin deactivates every limit, the compliance badges I added keep
+   rendering — sourced from code, not from the table the admin is editing. A
+   compliance indicator that cannot tell you it is running on stale defaults is
+   a hazard.
+6. **No in-page auth or role gate.** `/reports/support` makes no
+   `auth.getUser()` call; it relies entirely on middleware and RLS. Any
+   authenticated user of any role sees it.
+7. **Three lots are over the OTA ceiling and nothing alerts.** The badge is
+   passive. `CHG-50217971-0` at 7.3 ppb, `CHG-50217970-0` at 6.0,
+   `CHG-50217786-0` at 3.9, against a 2 ppb ceiling.
+
+### Minimum before handing it to a CS team
+
+1. Exclude non-Purity COAs from the page (blocker).
+2. Stop the duplicate-row growth.
+3. Show each cell's date inline rather than on hover, or scope a row to one report.
+4. Make the `coa_limits` fallback loud.
+
+---
+
+## Things you did not ask about
+
+**Wrong lab values reaching a customer**
+
+- **Competitor COAs in `coas`** — above. Also present in `sources`/`chunks` as
+  `kind='coa'` (`JAVA_BURN_COA`, `Lifeboost Mycotoxin Test`), so chat can
+  retrieve them for a Purity question. This is the same defect on two surfaces.
+- **`lib/sync.ts` labels the whole COA Drive folder `kind='coa'`** with no
+  classification, which is how 12 copies of the book manuscript became "COAs".
+  `pull-new-coas.py` does classify and quarantine; the TypeScript pipeline does
+  not. Two pipelines, one folder, different rules.
+- **Heavy metals rendered null as "not detected"** in embedded text — fixed
+  tonight, but it had been asserting negative results that were never obtained.
+
+**Other**
+
+- `import-coas` still does not consult `coa_mapping_rules`, so every 6-hour
+  sync can overwrite origins the rules were meant to correct.
+- `/reports` caps at 500 rows while its facet counts query 2000, so "All (N)"
+  can exceed what is rendered.
+- 61 records fall below the CGA floor of 40 mg/g. Possibly a green-vs-roasted
+  mismatch in the threshold rather than 61 failing lots — worth checking before
+  anyone reads that badge as a quality signal.
+- `scripts/embed-canon.ts` is referenced by `package.json` but does not exist;
+  `npm run embed-canon` is broken.
+- The two migration ledgers (`migrations/` vs
+  `dashboard/app/supabase/migrations/`) both have a `0001` and cannot see each
+  other. CLAUDE.md documents only the second.
+
+**Correction to my own earlier work:** the audit artifact published earlier
+tonight says "365 orphaned COA sources". The real figure is **57**. See Task 7.
+The artifact has not been regenerated.
