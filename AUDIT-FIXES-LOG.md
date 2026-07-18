@@ -680,3 +680,180 @@ Clean apart from `.claude/settings.local.json` and
 To unblock: paste the real URI into `SUPABASE_DB_URL`
 (Supabase -> Settings -> Database -> Connection string -> URI, append
 `?sslmode=require`). Everything blocked above then runs unattended.
+
+---
+
+## Task 1 — Purity vs non-Purity classification — **STOPPED at apply (DDL blocked)**
+
+Analysis complete. Migration and backfill script written and typechecked.
+**Neither has been applied** — no DDL path (Task 0b).
+
+### FIRST: session 1's fixes are not in production
+
+`main` contains **none** of session 1's 12 commits. They are all on
+`migrations-framework`, unmerged.
+
+```
+COA Auto-Sync ran 2026-07-18T18:41:22Z   (after session 1, before session 2)
+main's import-coas:  BLEND_KEYS = ['PROTECT','FLOW','EASE','CALM']   <- old code
+Result: all 9 ALZ/BALANCE/Founders rows are blend=null again
+```
+
+The Task 5 blend fix I verified last session (BALANCE 6, ALZ 4) has been
+**reverted by the scheduled sync running old code from main**. Blend counts are
+back to `{FLOW:11, PROTECT:9, CALM:7, EASE:5, BALANCE:1}`.
+
+Everything from session 1 is in the same position: LOQ rendering, limit badges,
+the embed-coas workflow step, the Reva path fix. Committed, verified, **not
+live**, and any data effect is undone within 6 hours of the cron running.
+
+This is the single most important thing in this log. Merging
+`migrations-framework` to `main` is the precondition for any of it to matter.
+
+### Design choice
+
+`product_scope text not null default 'unclassified'` with a CHECK of
+`('purity','competitor','unclassified')`.
+
+- **Text, not boolean.** `is_purity` would collapse "not ours" and "we don't
+  know yet" into one false value. They must behave differently: unknown fails
+  closed for CS but stays visible to the audit team, and must be countable so
+  it can be worked down.
+- **NOT NULL with a default**, so a row inserted by any future code path starts
+  invisible to CS. A nullable column lets NULL slip past `<> 'competitor'`
+  filters — the failure mode being defended against.
+- Indexed, since CS queries filter on it.
+
+### Rules used
+
+| Bucket | Rule |
+|---|---|
+| competitor | third-party brand in coffee_name / pdf_filename / lot_number |
+| purity | `blend` column is a known blend key, **or** the SAMPLE NAME names a blend or a product-map alias |
+| unclassified | everything else |
+
+**Rejected signal: "Purity" in `pdf_filename`.** It looks like a strong signal
+and is not. Those are Purity's own commissioned reports —
+`Purity Results Green Coffee 1-2018 Crop.pdf` contains
+`Royal-CR-Amist-2018 / Royal Coffee Ref 37150`, a supplier's green lot;
+`Purity results - January - 2025.docx` contains Ethiopian farm samples. "We
+paid for this test" is not "we sell this coffee". Using it would have put 57
+extra rows into the CS allowlist including third-party benchmark samples.
+Excluding it costs recall (genuine Purity green lots land in `unclassified`),
+which is the correct direction to err.
+
+### Counts
+
+```
+purity          46
+competitor       6
+unclassified   214
+TOTAL          266
+```
+
+### Every competitor record
+
+```
+3481129-0        21-465                    MUDWTR_COA.pdf                "MUDWTR"
+3479396-0        21-521                    KION_DECAF_COA.pdf            "KION"
+CHG-42436434-0   19-905 / Lifeboost Medium COA-7-Jun-19-42436434-0.pdf   "Lifeboost"
+3481081-0        21-357                    BULLETPROOF_DECAF_COA.pdf     "BULLETPROOF"
+3481080-0        21-137                    BULLETPROOF_MED_COA.pdf       "BULLETPROOF"
+3488986-0        21-247                    JAVA_BURN_COA.pdf             "JAVA BURN"
+```
+
+**Correction to session 1: there were 6, not 3.** My session-1 regex used
+`java\s*burn` and `\bkion\b`, and `_` is a word character — so neither `\s*`
+nor `\b` matches across `JAVA_BURN` or `KION_DECAF`. I repeated the same class
+of error on the first pass this session before catching it. The fix normalises
+`[_\-.]` to spaces before matching.
+
+Four of the six carry **only a bare sample code** (`21-465`, `21-521`,
+`21-357`, `21-137`, `21-247`) as their customer-visible name. Nothing on screen
+would tell a rep these are not ours.
+
+**This is the argument for the allowlist, made twice by my own errors.** Two
+independent passes over the same 266 rows each missed a brand. A blocklist
+cannot be trusted to be complete; only `product_scope = 'purity'` is safe.
+
+### 20 unclassified
+
+```
+2904069-0        (null)                          COA Green Coffee- Colombia- 1.pdf
+3210921-0        Pradera Castillo Washed         3210921-0_COA.pdf
+3325286-0        Purity Original 2021            COMPLETE 2021 PURITY ORIGINAL COA.pdf
+3481483-0        21-510                          PURITY_ORIG_COA.pdf
+3045650-0        La Pradera PSS to Seaforth      3045650-0_COA.pdf
+4390346-0        Ethiopia San Cristobal          Ethiopia San Cristobal 1 BF.pdf
+(null)           Hacienda Cincinati Cert No: S…  49608.pdf
+4579848-0        Santa Maria 2 PSS 4             4579848-0_COA (1).pdf
+3206088-0        Olam Peru SW Decaf              3206088-0_COA.pdf
+631308-0         COFFEE 5                        19-631308-0-…_PT_Purity_Pouches.pdf
+3613233-0        18 Conejo April                 3613233-0_COA.pdf
+914463-0         GREEN COFFEE                    20-914463-0-1-1898469_PT.pdf
+CHG-41025356-0   batch 121318 / Roasted for LE…  COA-21-Mar-18-Lead test.pdf
+3955587-0        SANTA MARIA                     COA_Report_3955587-0.pdf
+631306-0         COFFEE 3                        19-631306-0-…_PT_Purity_Pouches.pdf
+631307-0         COFFEE 4                        19-631307-0-…_PT_Purity_Pouches.pdf
+631305-0         COFFEE 2                        19-631305-0-…_PT_Purity_Pouches.pdf
+CHG-40804923-0   Royal-CR-Amist-2018 / Royal Co… Purity Results Green Coffee 1-2018.pdf
+CHG-41077692-0   NICA-2018-OFFER / Green Nicara… COA-Nicaragua-2018.pdf
+3650901-0        SWP Honduras Decaf              3650901-0_COA.pdf
+```
+
+### (d) Allowlist derived
+
+From `product-map.json`, `products[*].type === 'blend'`:
+
+```
+PROTECT, EASE, FLOW, CALM, BALANCE, ALZ
+aliases: Balance | Founders ALZ | ALZ Contaminants | ALZ Nutrition
+```
+
+ALZ included per your instruction.
+
+### (d) COLD BREW — **no representation in the data**
+
+Searched all 266 rows across `coffee_name`, `pdf_filename`, `blend`,
+`lot_number` for `cold brew | coldbrew | nitro | \bCB\b`: **zero matches**.
+`product-map.json` has no cold brew product.
+
+**Cold brew does not exist in this dataset.** If it is customer-facing, either
+its COAs have never been ingested, or they are among the 214 unclassified under
+a name that does not say "cold brew". I cannot tell which. This is new scope
+and needs your input — no rule I write can allowlist a product with no data.
+
+### Purity-branded products NOT in product-map.json
+
+12 rows name a Purity product that the map does not define, so they fall to
+`unclassified` under the strict rule:
+
+```
+2  18-104 / Purity Coffee Normal      1  Purity Original 2021
+2  Purity Dark Roast                  1  Purity Coffee 2020-21
+2  Purity Decaf                       1  PURITY2019 / Nicaragua, Columbia, Honduras blend
+1  Roasted regular Purity             1  060919 / Purity Batch BB
+1  Roasted Purity blended Honduras    1  16-159 / Purity Coffee
+1  Roasted Purity Dk Rst              1  Roasted decaf Purity
+```
+
+Are Dark Roast / Decaf / Original current sellable products or historical? If
+current, `product-map.json` is incomplete and they belong in the allowlist. I
+did not add them — that is a domain call, and adding a product to a
+customer-facing allowlist on my own inference is exactly the wrong risk.
+
+### Deliverables (NOT applied)
+
+- `migrations/0002_add_product_scope.sql`
+- `dashboard/app/scripts/backfill-product-scope.ts` — dry run by default,
+  `--apply` to write. Detects the missing column and exits 2 with instructions.
+
+Both typecheck. Dry run currently exits with:
+`ERROR: coas.product_scope does not exist. Apply migrations/0002_add_product_scope.sql first`
+
+To finish: fill `SUPABASE_DB_URL`, run `npm run migrate`, then
+`npx tsx scripts/backfill-product-scope.ts --apply`.
+
+I committed these rather than leaving them uncommitted, since an unattended
+session should not leave its only deliverable in an uncommitted working tree.
+The commit message states plainly that nothing was applied.
