@@ -131,3 +131,39 @@ Separately, 61 records fall below the CGA floor of 40 mg/g. That reads as a
 quality/marketing spec rather than a safety limit, but it is a large fraction
 of the corpus and may indicate the floor is set for roasted values while much
 of the data is green, or vice versa.
+
+---
+
+## Task 3 — wire embed-coas into the schedule — **PASS**
+
+### Changed
+
+`.github/workflows/coa-sync.yml` — added a "Re-embed COAs for retrieval" step
+after "Import to database", with `SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_URL`,
+`SUPABASE_SERVICE_ROLE_KEY`, `VOYAGE_API_KEY`. **No `continue-on-error`** — a
+silent failure here recreates exactly the drift being fixed, and it is not
+visible from any dashboard.
+
+### Ran it once
+
+```
+[embed-coas] 265 COA rows
+[embed-coas] 165 chunks to embed (100 unchanged)
+[embed-coas] done. inserted=165 unchanged=100 errors=0
+```
+
+The delete inside that script is `chunks.delete().eq('source_id', source_id)`
+— scoped to one source, gated by a content hash. Not a broad destructive op.
+
+### Verification
+
+```
+newest coas row      : 2026-07-18
+newest coa chunk src : 2026-07-18     <- same day
+coas rows            : 265
+  embedded           : 265   (was 140)
+  NOT embedded       :   0   (was 125)
+```
+
+Orphaned coa sources are unchanged at 365 (now 630 active sources = 265 live +
+365 orphans). That is Task 7's scope and was left alone.

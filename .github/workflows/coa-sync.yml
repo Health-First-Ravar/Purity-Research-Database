@@ -68,6 +68,19 @@ jobs:
       - name: COA parse-quality audit (report only)
         continue-on-error: true
         run: python3 scripts/audit-coa-quality.py
+      # Without this the `coas` table advances every 6h while the retrievable
+      # chunks do not, so chat answers lab questions from a stale snapshot and
+      # newly imported COAs are invisible to retrieval entirely. Deliberately
+      # NOT continue-on-error: a silent failure here reintroduces exactly that
+      # drift, and it is not visible from any dashboard.
+      - name: Re-embed COAs for retrieval
+        working-directory: dashboard/app
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          VOYAGE_API_KEY: ${{ secrets.VOYAGE_API_KEY }}
+        run: npm run embed-coas
 
       # --- Open a PR instead of pushing straight to main ---
       # Uses BOT_PAT (a fine-grained PAT) so the PR's events trigger CI.
