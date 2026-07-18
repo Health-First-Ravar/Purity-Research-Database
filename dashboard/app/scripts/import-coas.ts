@@ -48,6 +48,36 @@ type ProcessedCOA = {
   analytes: Analyte[];
 };
 
+/**
+ * Blend keys, read from product-map.json (`products[*].type === 'blend'`).
+ *
+ * This used to be a hardcoded Set that had drifted from the map: BALANCE and
+ * ALZ were absent, so their COAs resolved to a product_key but stored
+ * blend=null and vanished from the /reports blend filter. Reading the map means
+ * adding a product needs no code change here.
+ */
+const BLEND_KEYS: Set<string> = (() => {
+  const fallback = new Set(['PROTECT', 'FLOW', 'EASE', 'CALM', 'BALANCE', 'ALZ']);
+  try {
+    const mapPath = process.env.PRODUCT_MAP
+      ?? resolve(process.cwd(), '..', '..', 'product-map.json');
+    const map = JSON.parse(readFileSync(mapPath, 'utf8')) as {
+      products?: Record<string, { type?: string }>;
+    };
+    const keys = Object.entries(map.products ?? {})
+      .filter(([, v]) => v?.type === 'blend')
+      .map(([k]) => k);
+    if (keys.length) {
+      console.log(`[import-coas] blend keys from product-map.json: ${keys.join(', ')}`);
+      return new Set(keys);
+    }
+    console.warn('[import-coas] product-map.json has no blend products; using fallback set');
+  } catch (e) {
+    console.warn(`[import-coas] could not read product-map.json (${(e as Error).message}); using fallback set`);
+  }
+  return fallback;
+})();
+
 function findAnalyte(analytes: Analyte[], pattern: RegExp): Analyte | undefined {
   return analytes.find((a) => pattern.test(a.analyte));
 }
@@ -220,8 +250,10 @@ function mapToCOARow(doc: ProcessedCOA): Record<string, unknown> | null {
     }
   }
 
-  // Determine blend from product_key
-  const BLEND_KEYS = new Set(['PROTECT', 'FLOW', 'EASE', 'CALM']);
+  // Determine blend from product_key, using product-map.json as the source of
+  // truth rather than a second hardcoded list. The hardcoded set had drifted
+  // and was missing BALANCE and ALZ, so rows resolved to a product_key but
+  // landed with blend=null and disappeared from the /reports blend filter.
   const blend = doc.product_key && BLEND_KEYS.has(doc.product_key) ? doc.product_key : null;
 
   const pdf_filename = doc.source_file ? doc.source_file.split('/').pop() ?? null : null;

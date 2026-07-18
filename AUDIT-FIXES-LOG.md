@@ -235,3 +235,69 @@ Reva now hard-fails when SKILL.md is missing, per the instruction to surface a
 clear error rather than serve an empty prompt. That is a deliberate
 availability trade: a broken deploy takes Reva down instead of quietly
 degrading it. Reva is admin-only, so blast radius is one role.
+
+---
+
+## Task 5 — BLEND_KEYS — **PASS**
+
+### Scope correction
+
+Your brief named PROTECT / FLOW / EASE / CALM / BALANCE as the known set.
+`product-map.json` defines **six** products, and ALZ carries `"type": "blend"`,
+`"tier": 1` — identical to the other five, with aliases "Founders ALZ",
+"ALZ Contaminants", "ALZ Nutrition". By the repo's own source of truth ALZ is a
+blend, so BALANCE and ALZ were both missing. I added both. If ALZ is meant to be
+excluded from customer-facing filters, say so and I will special-case it.
+
+### Changed
+
+`scripts/import-coas.ts` — replaced the hardcoded `BLEND_KEYS` Set with a
+derivation from `product-map.json`, filtering `products[*].type === 'blend'`,
+with the six-key set as fallback if the file is unreadable. The root cause was
+two lists of blends that had to agree by hand; now there is one. Logs the keys
+it resolved on every run.
+
+### Verification
+
+```
+BEFORE   blend null: 233 of 265   {CALM:7, EASE:5, FLOW:11, PROTECT:9}
+AFTER    blend null: 224 of 266   {ALZ:4, BALANCE:6, CALM:7, EASE:5, FLOW:11, PROTECT:9}
+```
+
+10 rows recovered (BALANCE 6 + ALZ 4). `matrix` still 51, so the Task-1-era
+patch survived another import. Run: inserted=1 updated=251 skipped=20 errors=0.
+
+### FLAG — active duplicate-row corruption, NOT fixed
+
+Row count went 265 -> 266, and both of tonight's import runs reported
+`inserted=1`. `49608.pdf` now has **five** rows:
+
+```
+c6440669  2026-07-15T02:26   pdf=49608.pdf   report_number = NULL
+bcc3afa2  2026-07-15T02:29   pdf=49608.pdf
+0fe75607  2026-06-24T02:03   pdf=49608.pdf
+6a4137de  2026-07-18T15:18   pdf=49608.pdf   <- tonight, stage 3
+de80e5db  2026-07-18T16:07   pdf=49608.pdf   <- tonight, Task 5 re-run
+```
+
+Cause: `import-coas.ts` matches on `report_number`, and falls back to
+`pdf_filename` when that is null:
+
+```ts
+const { data } = await sb.from('coas').select('id')
+  .eq('pdf_filename', row.pdf_filename).maybeSingle();
+```
+
+`.maybeSingle()` errors when more than one row matches and yields `data = null`.
+The code reads that as "no existing row" and inserts another. So once a second
+duplicate exists the check can never succeed again, and every subsequent sync
+adds one more. **Self-accelerating, every 6 hours.**
+
+10 rows have a null/empty `report_number` and are exposed to this. There are no
+duplicate `report_number` values, so rows with a report number are safe.
+
+I did not fix it. Stopping new duplicates is a one-line change
+(`.order(...).limit(1).maybeSingle()`), but that picks arbitrarily which of the
+five rows receives future updates, and cleaning up the existing four is a
+delete. Both are decisions on regulated data. Needs your call on which row is
+canonical.
