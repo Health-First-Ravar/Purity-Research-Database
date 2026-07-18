@@ -1,7 +1,7 @@
 import { cookies } from 'next/headers';
 import Link from 'next/link';
 import { supabaseServer } from '@/lib/supabase';
-import { formatAnalyte } from '@/lib/coa-limits';
+import { formatAnalyte, evaluate, getLimit, loadLimits, type Limit } from '@/lib/coa-limits';
 
 export const dynamic = 'force-dynamic';
 
@@ -50,8 +50,61 @@ type Snap = {
   valueDates: Record<string, string | null>;
 };
 
+/**
+ * Compliance indicator for one cell.
+ *
+ * Thresholds come only from `coa_limits`. An analyte with no limit row must
+ * say so — it must never render as a pass, because "no threshold on file" and
+ * "measured and within threshold" are different claims.
+ */
+function LimitBadge({
+  analyteKey, value, reported, limits,
+}: { analyteKey: string; value: number | null; reported: string | null; limits: Limit[] }) {
+  const limit = getLimit(analyteKey, limits);
+  if (!limit) {
+    return <span className="text-[10px] text-purity-muted/70 dark:text-purity-mist/70">no limit on file</span>;
+  }
+  const res = evaluate({ key: analyteKey, value, reported, limits });
+
+  if (res.status === 'over' || res.status === 'under') {
+    const word = res.status === 'over' ? 'OVER LIMIT' : 'BELOW MINIMUM';
+    const bound = limit.direction === 'range'
+      ? `${limit.min}–${limit.max}`
+      : String(limit.value);
+    return (
+      <span
+        className="rounded bg-purity-rust/12 px-1.5 py-0.5 text-[10px] font-semibold text-purity-rust"
+        title={`${limit.label}: ${limit.direction} ${bound} ${limit.unit} — ${limit.source}`}
+      >
+        {word}
+      </span>
+    );
+  }
+  if (res.status === 'ok') {
+    return (
+      <span
+        className="text-[10px] text-purity-green dark:text-purity-aqua"
+        title={`${limit.label}: ${limit.direction} ${limit.direction === 'range' ? `${limit.min}–${limit.max}` : limit.value} ${limit.unit} — ${limit.source}`}
+      >
+        within limit
+      </span>
+    );
+  }
+  // no_value: either never tested, or a below-LOQ result against a floor,
+  // where a non-detection cannot confirm the minimum is met.
+  if (res.belowLoq) {
+    return (
+      <span className="text-[10px] text-purity-muted/70 dark:text-purity-mist/70" title={`Not detected, so the ${limit.value} ${limit.unit} minimum cannot be confirmed from this result.`}>
+        not confirmable
+      </span>
+    );
+  }
+  return <span className="text-[10px] text-purity-muted/50 dark:text-purity-mist/50">not tested</span>;
+}
+
 export default async function SupportReportPage() {
   const supabase = supabaseServer(await cookies());
+  const limits = await loadLimits();
 
   const { data: rows, error } = await supabase
     .from('coas')
@@ -157,7 +210,15 @@ export default async function SupportReportPage() {
                               : s.valueDates[c.key] ? `as of ${s.valueDates[c.key]}` : undefined
                         }
                       >
-                        {d.text}
+                        <span className="block">{d.text}</span>
+                        <span className="mt-0.5 block font-sans">
+                          <LimitBadge
+                            analyteKey={c.key}
+                            value={s.values[c.key]}
+                            reported={s.quals[c.key]}
+                            limits={limits}
+                          />
+                        </span>
                       </td>
                     );
                   })}
