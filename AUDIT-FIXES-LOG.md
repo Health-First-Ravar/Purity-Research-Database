@@ -379,3 +379,90 @@ Then re-run both probes above. Until then the exclusion is doing real work.
 
 **Nothing committed for this task** beyond this log entry. `audit-claim.ts` is
 unmodified.
+
+---
+
+## Task 7 — orphaned COA sources — **DRY RUN ONLY, nothing deleted**
+
+### Correction to my earlier audit
+
+I reported "365 of 505 embedded coa sources are orphaned". **That was wrong.**
+I computed the join with `path.replace('coa:','')`, which turns a `null` path
+into `''` and counted every null-path source as an orphan. Correct breakdown:
+
+```
+860  kind='coa' sources
+495  resolve to a live coas row     (written by embed-coas, path='coa:<uuid>')
+ 57  TRUE orphans                   (path set, coas row deleted)
+308  path = null                    (a different pipeline; NOT orphans)
+```
+
+Retrieval exposure from true orphans is **57 chunks**, not thousands. The
+earlier figure overstated it by ~6x. The artifact published earlier tonight
+carries the wrong number.
+
+### What the 308 null-path sources actually are
+
+All 308 have a `drive_file_id`; 299 were created on 2026-05-05. They come from
+`lib/sync.ts` — the Vercel-cron Drive ingestion — which labels everything in
+the COA Drive folder `kind='coa'` without classifying it. **All 12 copies of
+"The Coffee Guide to Better Health" manuscript are in this group.** That is the
+same misclassified book text that displaced all 8 research chunks in Task 6.
+
+So the two problems are distinct, and this matters for sequencing:
+
+- Cleaning the 57 orphans does **not** remove the book manuscripts.
+- The retrieval pollution blocking Task 6 lives in the 308, not the orphans.
+
+Root cause is the two-parallel-pipelines finding from the audit:
+`pull-new-coas.py` classifies and quarantines non-COAs into `_NotCOA/`, while
+`lib/sync.ts` ingests the same Drive folder with no classification at all and
+blanket-labels the contents `kind='coa'`.
+
+### Script
+
+`dashboard/app/scripts/clean-orphan-coa-sources.ts`, left ready for your
+approval. Not wired into any workflow or npm script.
+
+- Dry run is the default.
+- Deleting needs **both** `--delete` and `--yes-i-am-sure`; either alone exits 2.
+- It **retires rather than destroys**: stamps `sources.valid_until` and removes
+  the dependent chunks, so retrieval stops surfacing them while provenance
+  survives. Nothing is hard-deleted from `sources`.
+- Reversible: clear `valid_until` and re-run `npm run embed-coas`.
+- Null/malformed paths are reported separately and explicitly **left alone**,
+  since they are not orphans.
+
+### Dry-run output
+
+```
+kind='coa' sources      : 860
+  resolve to a coas row : 495
+  ORPHANED              : 57
+    still active        : 57   <- retrievable today
+    already retired     : 0
+  malformed path        : 308
+chunks on active orphans: 57
+```
+
+Sample of 10 active orphans:
+
+```
+222d2019  2026-04-26  Coffee COA Report 371593d3-87e9-4a76-a76b-bd7ca88ebc49
+b90110dc  2026-04-26  Coffee COA Report c149ac23-519e-4dd4-909f-d87841b983c0
+bfa75435  2026-04-26  Coffee COA Report 072934f0-a50a-4f7f-83ee-dc429db93d1d
+eb45a943  2026-04-26  Coffee COA Report 3c7db963-9f6b-48cb-bab8-680daa13d565
+9f93e9fa  2026-04-26  FTO SWP Mexico- NKG.coffee (Interamerican) Report c0d670cc
+465cbeb8  2026-04-26  Roasted coffee, ground- Aponte Dark Roast Report 96dc9e3d
+8c9b2fbf  2026-04-26  CALM Report a62e26ba-0aef-47d6-9009-3bac230e81fb
+c0491b20  2026-04-26  "s as provided by client. This report may not be distributed..."
+3ab33417  2026-04-26  Coffee COA Report 6fe4856d-24b3-4cb2-80d8-61efec95d49e
+90f926cf  2026-04-26  Coffee COA Report fbe9a43c-9605-4b24-8454-08c07675cbf3
+```
+
+All 57 were created 2026-04-26, suggesting one early embed run against a COA
+set that was later replaced. Note `c0491b20`, whose title is a fragment of lab
+boilerplate ("...as provided by client. This report may not be distributed") —
+a parser failure that captured disclaimer text as a title.
+
+**STOPPED as instructed. Nothing deleted.**
