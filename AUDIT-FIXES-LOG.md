@@ -1118,3 +1118,45 @@ Retrieval text also corrected:
 ```
 
 No remaining cases to explain — the count is exactly zero.
+
+---
+
+## Task 5 — orphan cleanup — **PASS**
+
+### (a) Re-confirmed before executing
+
+```
+ORPHANED 57 · still active 57 · already retired 0 · chunks on active orphans 57
+```
+
+Exactly 57, unchanged from the session-1 dry run. Proceeded.
+
+### (c) Executed
+
+```
+Retiring 57 orphaned sources and deleting their chunks...
+done. retired=57 chunks_deleted=57
+```
+
+### Verification
+
+```
+active orphans        57 -> 0
+coas rows             266
+with an ACTIVE source 266      (full coverage retained)
+```
+
+Retrieval exclusion is genuine, not assumed: `match_chunks`
+(`0001_initial.sql`) contains `and s.valid_until is null` in its WHERE clause,
+so a retired source cannot be returned. Reversible by clearing `valid_until`
+and re-running `npm run embed-coas`.
+
+### Housekeeping observation
+
+367 `kind='coa'` sources are now retired — 57 from this run plus ~310 retired
+naturally by `embed-coas` when a COA's rendered text changes (it retires the
+old source row and inserts a new one). A sample of 50 retired sources still
+holds 35 chunks: `embed-coas` deletes chunks for the **new** source id after
+upserting, never for the row it just retired. Not a correctness problem —
+`match_chunks` filters them out — but it accumulates dead embeddings on every
+content change. Worth a sweep at some point; not touched here.
