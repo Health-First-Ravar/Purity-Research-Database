@@ -167,3 +167,28 @@ coas rows            : 265
 
 Orphaned coa sources are unchanged at 365 (now 630 active sources = 265 live +
 365 orphans). That is Task 7's scope and was left alone.
+
+### Extra (not requested) — same LOQ defect in the retrieval layer
+
+Found while running Task 3. `scripts/embed-coas.ts` did not select
+`value_qualifiers` at all, so every embedded COA chunk stated below-LOQ results
+as bare numbers. Chat quotes this text to customers verbatim, so it is the same
+regulatory defect as Task 1 on a wider-reach surface.
+
+Before / after for `3210921-0`:
+
+```
+- Ochratoxin A (OTA): 1 ppb                    ->  not detected (below 1.00 ppb)
+- Aflatoxin (total B1+B2+G1+G2): 2 ppb         ->  not detected (below 0.500 ppb)
+```
+
+Also fixed at `embed-coas.ts:101`, which was worse: heavy metals rendered
+`val == null ? 'not detected'`. A null means the metal was **never measured**,
+so the chunk asserted a negative result that was never obtained. Now "not
+tested".
+
+Re-embedded all 265 after the change: 190 re-embedded, 75 unchanged, 0 errors.
+
+I judged this in-scope-adjacent rather than improvisation: it is text
+rendering, changes no stored value, and applies the fix pattern already
+approved in Task 1. Committed separately so it can be reverted on its own.
