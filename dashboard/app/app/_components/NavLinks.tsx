@@ -5,7 +5,8 @@
 //   Research            — ask reva (admin only), bibliography, atlas
 //   Admin               — metrics, users
 //
-// Three flat top-level items: Research Hub (chat), Reports, Audit.
+// Flat top-level items: Research Hub (chat), Reports, Assign products
+// (staff only), Audit.
 // Each role sees only what they're entitled to.
 
 import Link from 'next/link';
@@ -26,6 +27,10 @@ const ADMIN: Exclude<Role, null>[]  = ['admin'];
 const SECTIONS: (FlatItem | Group)[] = [
   { kind: 'item', href: '/chat',         label: 'Research Hub', visibleTo: CHAT_OK },
   { kind: 'item', href: '/reports',      label: 'Reports',      visibleTo: ALL },
+  // Staff-only working queue. Sits next to Reports because it operates on the
+  // same records, and flat rather than nested because it was unreachable
+  // before — burying it in a group is how it stays unfound.
+  { kind: 'item', href: '/reports/assign', label: 'Assign products', visibleTo: STAFF },
   { kind: 'item', href: '/audit',        label: 'Audit',        visibleTo: ALL },
   {
     kind: 'group',
