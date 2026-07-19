@@ -2678,3 +2678,111 @@ The work splits cleanly:
 
 So the tool needs to do two different things well: apply one decision to a whole
 bucket, and present a single record with everything needed to identify it.
+
+## Tasks 2-5 — the assignment review tool — **PASS**
+
+### Page, not CSV — the argument
+
+Three requirements settle it.
+
+- *"Record who assigned what and when"* — a CSV carries no identity. You would
+  be trusting a filename and whoever emailed it.
+- *"Show scope consequence at assignment time"* — a spreadsheet cannot tell you
+  a row is about to become customer-visible. That warning has to be live.
+- *"Two people working through it"* — CSV round-trips produce merge conflicts,
+  on regulated data, with no reconciliation story.
+
+A page gives auth-backed attribution, live consequence, and no merge step. CSV
+remains available as a read-only export for offline reading; it just is not the
+write path.
+
+### What was built
+
+`migrations/0010_coa_assignment_audit.sql`
+- `coas.assigned_by` / `assigned_at` — current state, and the signal the
+  backfill uses to leave a human decision alone.
+- `coa_assignment_log` — append-only, holding the **previous** values so a
+  revert restores exactly rather than approximating. Editor-only RLS.
+
+`lib/coa-assign.ts` — bucketing and suggestions. **Proposes only.** The
+sibling-lot rule is deliberately narrow: same *lot number* already assigned.
+Same producer is **not** treated as evidence — a farm sells into several blends,
+and treating origin as destiny is exactly the guess this session is forbidden
+from making.
+
+`app/api/reports/assign/route.ts` — editor-gated. `assign` / `revert` / `skip`.
+**Dry run is the default**; writing is opt-in (`dry_run: false`). The UI's
+confirmation is rendered from the API's own dry run, so what a reviewer approves
+is computed by the same code that applies it — not a second implementation that
+can drift.
+
+`app/reports/assign/` — bucket list, per-record identifying fields, suggestion
+with its evidence shown inline, select-all-in-bucket, and a confirmation step
+stating the scope consequence before anything is written.
+
+### Task 4 — assignments cannot be silently reverted
+
+`scripts/backfill-product-scope.ts` now skips any row with `assigned_by` set and
+logs how many it skipped. The rules classify from the sample name, so they would
+re-derive `unclassified` for a green lot someone deliberately mapped — the same
+failure that nearly pulled three over-limit lots off the CS surface in session 5.
+`MANUAL_SCOPE` covers the hardcoded cases; this covers everything assigned
+through the tool. Backfill still reports **0 rows would change**.
+
+### Task 5 — dry run on the "producer · Sao Pedro" bucket (8 records)
+
+Through real JWTs against the running server:
+
+```
+1. customer_service               -> 403 {"error":"editor role required"}
+2. editor dry run                 -> 200
+     dry_run             : true
+     would_update        : 8
+     becoming_cs_visible : 8
+     examples            : CHG-46543197-0, 3862430-0, 3864529-0, 3864530-0, 3858957-0
+     sample row change   : from {blend:null, scope:unclassified}
+                             to {blend:"PROTECT", scope:"purity"}
+3. invalid blend                  -> 400 unknown blend "NOT_A_BLEND"
+
+after the dry run:
+  scope   competitor:6 purity:51 unclassified:204   (unchanged)
+  log rows 0                                        (dry run writes nothing)
+```
+
+Reversibility proved end to end on one record:
+
+```
+before      {blend:null, scope:unclassified}
+assign      {assigned:1, became_cs_visible:1}
+after       {blend:PROTECT, scope:purity, assigned_by:0d03a2b1, assigned_at:set}
+revert      {reverted:1}
+after       {blend:null, scope:unclassified, assigned_by:null}
+restored exactly: true
+
+audit trail:
+  assign  null/unclassified -> PROTECT/purity
+  revert  PROTECT/purity    -> null/unclassified
+```
+
+Final scope distribution identical to baseline. Nothing assigned this session.
+
+### A defect my own cleanup found — 0011
+
+Removing the temp editor failed: `coa_assignment_log.actor` referenced
+`profiles(id)` with `NO ACTION`, so **any editor who had ever assigned anything
+could never be removed from the system**. Staff leave, and an audit trail that
+blocks offboarding is one that eventually gets worked around by deleting audit
+rows — worse than the problem it guards.
+
+`0011_assignment_log_survives_user_deletion.sql` adds `actor_email`, captured at
+write time, backfills it, and changes the FK to `on delete set null`. The record
+of who decided outlives the account; only the live join is lost.
+
+```
+before removal: actor_uuid=true   actor_email=claude-verify-editor@example.invalid
+after removal : actor_uuid=false  actor_email=claude-verify-editor@example.invalid
+temp users remaining: 0   orphaned profiles: 0
+```
+
+I did not delete the two audit rows to force the cleanup through. Deleting audit
+records to make an operation succeed is the habit this table exists to prevent.

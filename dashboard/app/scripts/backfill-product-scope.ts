@@ -103,6 +103,7 @@ type Row = {
   lot_number: string | null;
   pdf_filename: string | null;
   product_scope?: string | null;
+  assigned_by?: string | null;
 };
 
 function classify(r: Row): { scope: 'purity' | 'competitor' | 'unclassified'; why: string } {
@@ -151,7 +152,7 @@ async function main() {
 
   const { data, error } = await sb
     .from('coas')
-    .select('id, report_number, blend, coffee_name, lot_number, pdf_filename, product_scope');
+    .select('id, report_number, blend, coffee_name, lot_number, pdf_filename, product_scope, assigned_by');
   if (error) {
     if (/product_scope/.test(error.message)) {
       console.error(
@@ -164,10 +165,28 @@ async function main() {
   }
 
   const rows = (data ?? []) as Row[];
+
+  // Rows a human assigned through /reports/assign are authoritative. The rules
+  // classify from the sample name, so they would re-derive `unclassified` for a
+  // green lot someone deliberately mapped to a blend and silently undo the
+  // decision — the same failure that nearly pulled three known over-limit lots
+  // off the customer-service surface (session 5 task 3). MANUAL_SCOPE covers
+  // the hardcoded cases; this covers everything assigned through the tool.
+  const humanAssigned = rows.filter((r) => r.assigned_by);
+  if (humanAssigned.length) {
+    console.log(`[backfill] skipping ${humanAssigned.length} row(s) with a human assignment (coas.assigned_by set)`);
+  }
+
   const counts = { purity: 0, competitor: 0, unclassified: 0 };
   const changes: { id: string; report_number: string | null; from: string; to: string; why: string }[] = [];
 
   for (const r of rows) {
+    if (r.assigned_by) {
+      // Count it where it actually sits; never propose a change.
+      const cur = (r.product_scope ?? 'unclassified') as keyof typeof counts;
+      if (cur in counts) counts[cur] += 1;
+      continue;
+    }
     const { scope, why } = classify(r);
     counts[scope] += 1;
     if ((r.product_scope ?? 'unclassified') !== scope) {
