@@ -4037,3 +4037,99 @@ Two things follow, both for a human to decide:
 
 Nothing about the work in the commits changes. Only my claim about where it
 lives was wrong.
+
+---
+
+# SESSION 12 — 2026-07-19
+
+## Task 1: branch and push state
+
+**Nothing was pushed. Nothing was merged. `main` is untouched — the merge was
+tested in a throwaway worktree, which has been removed.**
+
+### Actual state
+
+```
+branch : main   (migrations-framework is stale at 2132aaa, merged in Session 10)
+        ahead 11 · behind 2
+```
+
+The 11 local commits are Sessions 10–11. The 2 remote commits are
+`COA auto-sync 208 (#164)` and `209 (#165)` — the bot, still running. Origin
+moved *during* my fetch (`8a04b89..0f99bc1`), so treat any snapshot as stale.
+
+### First correction: the numbers in the brief are out of date
+
+The brief says "323 rows, 66 CS-visible, 261 unclassified". Live count is:
+
+```
+323 live  →  66 purity · 15 competitor · 242 unclassified
+```
+
+261 was the figure *before* Session 11 applied 21 reclassifications and Task 3's
+backfill moved 3 NAT FORCE rows to competitor. The backlog is **242, not 261**.
+66 CS-visible is correct.
+
+### Merge, not rebase — and the reason is specific
+
+Three files conflict: `Processed/CHG-49872102-0.json`,
+`Processed/CHG-50217786-0.json`, `index.json`. All three are **derived
+artifacts** — timestamps, machine paths, sync bookkeeping. No substantive code
+conflict exists.
+
+**Rebase would corrupt this log.** Session 11's entries cite commit hashes by
+name (`de9572c`, `14cc3bf`, `635fcd2`, `2f48ecd`, `14b3cab`, `e42e686`). A
+rebase rewrites every one of them and turns the log's own citations into
+dangling references. Merge preserves them. That alone settles it.
+
+### The recommended push — for you to run, not me
+
+```sh
+git merge origin/main
+git checkout --theirs Processed/CHG-49872102-0.json \
+                      Processed/CHG-50217786-0.json index.json
+git add -A && git commit
+git push origin main
+```
+
+Take **origin's** side on all three: the bot is the canonical producer of those
+files, and the resolution is self-healing — once the updated `ingest.py` is on
+`main`, the next CI run regenerates them *with* `sample_id`. Taking my side
+instead would write local absolute paths that the bot immediately reverts.
+
+Re-fetch first; the bot may have moved again.
+
+On a feature branch: **not worth it here.** The work is already committed against
+`main` and cited by hash in this log; relocating it needs the same merge plus a
+PR round-trip. Note the repo convention though — `8c5f8f7` moved *bots* to
+auto-merging PRs rather than pushing to `main` directly. If humans are meant to
+follow that too, this should be a PR, and that is your call not mine.
+
+### Two things found while looking
+
+**1. `source_file` stores an absolute path, so these files conflict forever.**
+
+```
+mine   : /Users/jeremybehne/code/purity/COAs/COA-31-Oct-25-Bette-Buna-49872102-0.pdf
+CI     : /home/runner/work/Purity-Research-Database/.../COAs/COA - Bette Buna.pdf
+```
+
+Every locally-run ingest will conflict with every CI-run ingest, permanently, on
+every file both touch. This is structural, not bad luck. Storing a repo-relative
+path would end it. Not fixed here — it is outside this task and wants its own
+dry run — but it will keep costing a manual resolution every session until it is.
+
+**2. The CI sync has been failing for ~9 hours.**
+
+```
+last_successful_sync : 2026-07-19T05:24:51Z
+last_sync_attempt    : 2026-07-19T14:05:41Z
+last_sync_error      : MXNS-COA-14-04-2020-43453407-0 (1).pdf:
+                       PdfminerException: No /Root object! - Is this really a PDF?
+```
+
+**No data is being lost.** The ` (1).pdf` suffix marks it a duplicate copy, and
+report `43453407-0` is already ingested from a good original
+(`Processed/CHG-43453407-0.json`). But the sync will fail on it on every run
+until the file is quarantined or removed from Drive. A quarantine mechanism
+already exists (`619acd5`). Worth pointing it at this file.
