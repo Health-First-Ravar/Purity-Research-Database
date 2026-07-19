@@ -174,6 +174,16 @@ export default async function SupportReportPage() {
   const blends = snaps.filter((s) => s.key.startsWith('Blend'));
   const greens = snaps.filter((s) => s.key.startsWith('Green'));
 
+  // Whether any cell on this page renders an out-of-limit badge. The guidance
+  // note below is shown only when there is something to route, so it stays
+  // meaningful rather than becoming permanent furniture a rep stops reading.
+  const hasOutOfLimit = snaps.some((sn) =>
+    ALL.some((col) => {
+      const st = evaluate({ key: col.key, value: sn.values[col.key], reported: sn.quals[col.key], limits }).status;
+      return st === 'over' || st === 'under';
+    }),
+  );
+
   function Section({ title, items }: { title: string; items: Snap[] }) {
     if (items.length === 0) return null;
     return (
@@ -285,6 +295,25 @@ export default async function SupportReportPage() {
       {!error && snaps.length === 0 && (
         <p className="text-purity-muted dark:text-purity-mist">No COA rows found.</p>
       )}
+
+      {hasOutOfLimit ? (
+        <div className="mb-6 max-w-2xl rounded-md border border-purity-rust/30 bg-purity-rust/5 p-3 text-xs">
+          <p className="font-semibold text-purity-rust">
+            Some results below are outside the threshold on file
+          </p>
+          <p className="mt-1 text-purity-bean dark:text-purity-paper">
+            An <span className="font-semibold">OVER LIMIT</span> marking means the measured value
+            for that analyte was above the strictest published threshold we track, shown on hover
+            with its source. <span className="font-semibold">BELOW MINIMUM</span> means it fell
+            under a minimum we track. Either is a statement about the measurement against that
+            threshold, and nothing more.
+          </p>
+          <p className="mt-1 text-purity-bean dark:text-purity-paper">
+            Do not interpret one for a customer or explain what it means for the product. Send the
+            question to an editor with the product name, lot number and test date from this table.
+          </p>
+        </div>
+      ) : null}
 
       <Section title="Blends" items={blends} />
       <Section title="Green coffees" items={greens} />

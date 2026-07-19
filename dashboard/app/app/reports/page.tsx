@@ -447,6 +447,11 @@ __value: primary ? readAnalyte(r as Record<string, unknown>, primary.key) : null
           <p className="mt-2 text-xs text-purity-muted dark:text-purity-mist">
             Shown because they are real results. Source: {outOfLimit[0]?.ev.limit?.source}.
           </p>
+          <p className="mt-1 text-xs text-purity-muted dark:text-purity-mist">
+            A marking here compares the measured value against that threshold and says nothing
+            beyond it. If a customer asks about one, route it to an editor with the product, lot
+            and test date rather than interpreting it.
+          </p>
         </div>
       ) : null}
 

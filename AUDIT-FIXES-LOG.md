@@ -2080,3 +2080,40 @@ introduced, and it errs toward showing the worse result — but if the intent is
 that a rep can see every over-limit lot, the support page's grouping is the
 wrong shape for it and needs a per-lot view. I did not change the aggregation;
 that is a product decision.
+
+## Task 2 — rep-facing guidance for over-limit results — **PASS**
+
+Added to both CS-reachable surfaces that render the badge.
+
+`/reports/support` — a note above the tables, shown **only when a cell on that
+page is actually out of limit** (`hasOutOfLimit`), so it does not become
+permanent furniture a rep stops reading:
+
+> **Some results below are outside the threshold on file**
+> An **OVER LIMIT** marking means the measured value for that analyte was above
+> the strictest published threshold we track, shown on hover with its source.
+> **BELOW MINIMUM** means it fell under a minimum we track. Either is a
+> statement about the measurement against that threshold, and nothing more.
+> Do not interpret one for a customer or explain what it means for the product.
+> Send the question to an editor with the product name, lot number and test
+> date from this table.
+
+`/reports` — appended to the existing out-of-limit banner:
+
+> A marking here compares the measured value against that threshold and says
+> nothing beyond it. If a customer asks about one, route it to an editor with
+> the product, lot and test date rather than interpreting it.
+
+### Wording constraints honoured
+
+No health claim, no safety characterisation, and no reassurance language — the
+text never says a result is fine, acceptable, or nothing to worry about. It
+states what the number is compared against, that it means nothing beyond that
+comparison, and who to hand it to. Deliberately no "don't worry" framing: a rep
+who is told not to worry will improvise a reassurance to the customer, which is
+the failure this is meant to prevent.
+
+### Verification
+
+Through PostgREST with the customer_service JWT: **12** out-of-limit cells are
+visible on `/reports/support`, so the note renders.
