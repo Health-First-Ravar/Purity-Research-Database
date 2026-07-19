@@ -1461,3 +1461,78 @@ is a sequencing problem, not a bug list.
    other. CLAUDE.md documents only the second.
 8. **Session-1 correction:** the audit artifact still says 365 orphaned COA
    sources. The real figure is 57. Not regenerated.
+
+---
+---
+
+# UNATTENDED SESSION 3 — 2026-07-18 (post-merge)
+
+Branch: `main`, clean, in sync. `SUPABASE_DB_URL` now works (session pooler,
+IPv4) — DDL is available for the first time.
+
+## Task 1 — apply migration 0002 + backfill — **PASS**
+
+### Pre-flight
+
+```
+connected  db=postgres user=postgres  PostgreSQL 17.6
+coas rows 266 · product_scope exists: false · schema_migrations: (none yet)
+```
+
+Snapshot taken before any DDL: `public.coas_backup_session3`, 266 rows, RLS
+enabled, row count matched.
+
+### Migration
+
+`npm run migrate` applied both pending files (the runner had never executed —
+`schema_migrations` did not exist):
+
+```
+apply  0001_add_matrix_column ...  ok
+apply  0002_add_product_scope ...  ok
+done: 2 applied, 0 skipped
+```
+
+Verified in the catalog, not just from the runner's output:
+
+```
+column : product_scope · text · is_nullable=NO · default 'unclassified'::text
+check  : CHECK (product_scope = ANY (ARRAY['purity','competitor','unclassified']))
+index  : coas_product_scope_idx
+initial: 266 unclassified
+```
+
+NOT NULL with a default is the fail-closed property: a row inserted by any
+future code path starts invisible to CS rather than visible.
+
+### Backfill
+
+```
+purity          48
+competitor       6
+unclassified   212
+TOTAL          266
+applied. updated=54 failed=0
+```
+
+### Every competitor record
+
+```
+3479396-0        21-521                         KION_DECAF_COA.pdf            "KION"
+3481080-0        21-137                         BULLETPROOF_MED_COA.pdf       "BULLETPROOF"
+3481081-0        21-357                         BULLETPROOF_DECAF_COA.pdf     "BULLETPROOF"
+3481129-0        21-465                         MUDWTR_COA.pdf                "MUDWTR"
+3488986-0        21-247                         JAVA_BURN_COA.pdf             "JAVA BURN"
+CHG-42436434-0   19-905 / Lifeboost Meium Gr…   COA-7-Jun-19-42436434-0.pdf   "Lifeboost"
+```
+
+All six known competitors caught. The underscore bug is handled: `_` is a word
+character, so `\bkion\b` does NOT match `KION_DECAF` and `java\s*burn` does not
+match `JAVA_BURN`. The script normalises `[_\-.]` to spaces before matching, so
+`\b` boundaries behave. Two earlier passes over this corpus each missed a brand
+with the naive regex — which is why CS is gated by the `purity` allowlist and
+not by this brand list.
+
+Five of the six show only a bare sample code as their customer-visible name
+(`21-521`, `21-137`, `21-357`, `21-465`, `21-247`). Nothing on screen would
+tell a rep these are not ours.
