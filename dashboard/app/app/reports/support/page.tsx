@@ -2,6 +2,7 @@ import { cookies } from 'next/headers';
 import Link from 'next/link';
 import { supabaseServer } from '@/lib/supabase';
 import { formatAnalyte, evaluate, getLimit, loadLimits, type Limit } from '@/lib/coa-limits';
+import { CS_SCOPE } from '@/lib/coa-scope';
 
 export const dynamic = 'force-dynamic';
 
@@ -106,9 +107,14 @@ export default async function SupportReportPage() {
   const supabase = supabaseServer(await cookies());
   const limits = await loadLimits();
 
+  // This is the customer-service surface by definition, so it is pinned to the
+  // allowlist unconditionally rather than by role — an editor previewing what a
+  // rep sees should see exactly that. Competitor and unclassified rows never
+  // enter the payload.
   const { data: rows, error } = await supabase
     .from('coas')
     .select('*')
+    .eq('product_scope', CS_SCOPE)
     .order('report_date', { ascending: false })
     .limit(5000);
 
@@ -242,6 +248,12 @@ export default async function SupportReportPage() {
       <p className="mb-3 max-w-2xl text-sm text-purity-muted dark:text-purity-mist">
         Most recent reported result for each blend and green coffee. Each cell is the latest
         COA that actually reported that analyte (hover a value for its test date). Click a product for its newest full COA.
+      </p>
+      <p className="mb-3 max-w-2xl rounded-md border border-purity-green/25 bg-purity-green/5 p-3 text-xs text-purity-bean dark:border-purity-aqua/25 dark:text-purity-paper">
+        <strong>Shows current Purity products only.</strong> Lab reports we hold for
+        other brands, and lots not yet matched to a product, are deliberately excluded.
+        If a coffee you expect is missing, that is scope rather than an error — ask an
+        editor to check the full reports view.
       </p>
       <div className="mb-6 flex max-w-2xl flex-wrap gap-x-5 gap-y-1 rounded-md border border-purity-bean/10 bg-purity-cream/50 p-3 text-xs dark:border-purity-paper/10 dark:bg-purity-shade/50">
         <span className="text-purity-muted dark:text-purity-mist">How to read these:</span>

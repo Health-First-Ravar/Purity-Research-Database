@@ -2,6 +2,7 @@ import { cookies } from 'next/headers';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { supabaseServer } from '@/lib/supabase';
+import { getCoaViewer, scopeCoaQuery } from '@/lib/coa-scope';
 import { CopyButton } from '../../_components/CopyButton';
 import { CoaEditableFields } from './EditableFields';
 import { hasElevatedAccess } from '@/lib/auth-roles';
@@ -15,20 +16,20 @@ export default async function CoaDetailPage({ params }: { params: Promise<{ id: 
   const { id } = await params;
   const supabase = supabaseServer(await cookies());
 
-  const { data: row, error } = await supabase
-    .from('coas')
-    .select('*')
-    .eq('id', id)
-    .maybeSingle();
+  // Resolve visibility BEFORE fetching, so the scope filter goes into the
+  // query. A restricted row must never reach this process — filtering after
+  // the fetch would still put a competitor's lab values in the response the
+  // page is rendered from, and a direct URL is exactly how someone reaches a
+  // row that is absent from the list.
+  const viewer = await getCoaViewer(supabase);
+  const isEditor = viewer.elevated;
+
+  const { data: row, error } = await scopeCoaQuery(
+    supabase.from('coas').select('*').eq('id', id),
+    viewer,
+  ).maybeSingle();
 
   if (error || !row) notFound();
-
-  const { data: auth } = await supabase.auth.getUser();
-  let isEditor = false;
-  if (auth.user) {
-    const { data: p } = await supabase.from('profiles').select('role').eq('id', auth.user.id).single();
-    isEditor = hasElevatedAccess(p?.role);
-  }
 
   const limits = await loadLimits();
   const raw = (row.raw_values ?? {}) as Record<string, Analyte>;

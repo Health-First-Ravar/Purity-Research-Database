@@ -1536,3 +1536,84 @@ not by this brand list.
 Five of the six show only a bare sample code as their customer-visible name
 (`21-521`, `21-137`, `21-357`, `21-465`, `21-247`). Nothing on screen would
 tell a rep these are not ours.
+
+## Task 2 — CS allowlist enforced at query level — **PASS**
+
+### Shared helper
+
+New `dashboard/app/lib/coa-scope.ts` so the rule exists once and cannot drift
+between surfaces:
+
+- `CS_SCOPE = 'purity'`
+- `getCoaViewer(supabase)` — resolves role; returns `elevated: false` for a
+  signed-out user, a missing profile, or a thrown lookup, so **every error path
+  narrows visibility rather than widening it**.
+- `scopeCoaQuery(query, viewer)` — appends `.eq('product_scope','purity')`
+  unless the viewer is elevated.
+
+### Applied to all four `coas` read sites
+
+| Surface | Enforcement |
+|---|---|
+| `/reports` main query | `scopeCoaQuery` — role-based; audit team unfiltered |
+| `/reports` facet query | `scopeCoaQuery` — otherwise origin/lab dropdowns and year counts would still be computed from competitor rows |
+| `/reports/[id]` | `scopeCoaQuery` **before** the fetch, so a restricted id returns no row and hits `notFound()` |
+| `/reports/support` | pinned to `CS_SCOPE` unconditionally — it is the CS surface by definition, so an editor previewing it sees exactly what a rep sees |
+
+`/api/reports/coa/[id]` is PATCH-only and already `hasElevatedAccess`-gated; it
+exposes no read. No other route reads `coas`.
+
+**CSV export needed no change**, which is the payoff of query-level
+enforcement: `CsvDownload` receives `chartRows` ← `rows` ← the scoped query, so
+it cannot export what the page never fetched. Had this been a post-fetch filter
+the CSV would have leaked.
+
+### /api/chat — the leak outside `coas`
+
+Chat is reachable by `customer_service` and retrieves `chunks`, not `coas`, so
+a `coas` filter does nothing for it. All six competitor COAs were retrievable:
+
+```
+before   competitor sources 6 · chunks 6 retrievable
+action   chunks deleted 16 · sources retired 6 (soft, valid_until, reversible)
+after    competitor chunks retrievable by /api/chat: 0
+```
+
+`scripts/embed-coas.ts` now carries `.neq('product_scope','competitor')` so
+they cannot return on the next embed. Filtering at embed time rather than at
+retrieval means the text never enters the vector store.
+
+### Visible scope note
+
+`/reports/support` now states it shows current Purity products only, and that a
+missing coffee is scope rather than an error.
+
+## Task 3 — verification — **PASS**
+
+Probes: competitor `3481080-0` (`BULLETPROOF_MED_COA.pdf`) and purity
+`3599299-0` (PROTECT).
+
+```
+competitor  -> CS surface / detail URL / CSV : BLOCKED    audit team: visible
+PROTECT     -> CS surface / detail URL / CSV : VISIBLE    audit team: visible
+
+rows in CS payload    :  48
+rows in audit payload : 266
+competitor chunks retrievable by /api/chat: 0
+```
+
+Helper behaviour proven directly, not inferred:
+
+```
+customer_service ->  [["product_scope","purity"]]
+editor           ->  []                            (no filter — sees all)
+signed-out/null  ->  [["product_scope","purity"]]  (fails closed)
+```
+
+## Task 4 — build — **PASS**
+
+```
+✓ Compiled successfully in 8.1s
+  Checking validity of types ...
+exit code: 0 · 50 routes
+```

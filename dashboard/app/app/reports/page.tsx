@@ -6,6 +6,7 @@ import { AnalyteLimitsPanel } from './_components/AnalyteLimitsPanel';
 import { CsvDownload } from './_components/CsvDownload';
 import { evaluate, fmtValue, statusStyle, loadLimits, getLimit, type EvalResult } from '@/lib/coa-limits';
 import { isAdmin } from '@/lib/auth-roles';
+import { getCoaViewer, scopeCoaQuery } from '@/lib/coa-scope';
 
 export const dynamic = 'force-dynamic';
 
@@ -56,19 +57,22 @@ export default async function ReportsPage({ searchParams }: { searchParams: Prom
 
   const supabase = supabaseServer(await cookies());
 
-  const { data: auth } = await supabase.auth.getUser();
-  let isAdminUser = false;
-  if (auth.user) {
-    const { data: p } = await supabase.from('profiles').select('role').eq('id', auth.user.id).single();
-    isAdminUser = isAdmin(p?.role);
-  }
+  // One role read, used for both the admin-only links and COA visibility.
+  // Customer service sees only product_scope='purity'; the audit team sees
+  // everything, competitors included, because that comparison data is the
+  // reason we hold it.
+  const viewer = await getCoaViewer(supabase);
+  const isAdminUser = isAdmin(viewer.role);
   const limits = await loadLimits();
 
-  let q = supabase
-    .from('coas')
-    .select('*')
-    .order('report_date', { ascending: true })
-    .limit(500);
+  let q = scopeCoaQuery(
+    supabase
+      .from('coas')
+      .select('*')
+      .order('report_date', { ascending: true })
+      .limit(500),
+    viewer,
+  );
   if (params.blend)  q = q.eq('blend', params.blend);
   // Free-text search across the COA descriptor columns that actually exist on
   // the `coas` table (coffee_name, origin, lot_number, blend). Green-coffee /
@@ -89,10 +93,10 @@ export default async function ReportsPage({ searchParams }: { searchParams: Prom
 
   const { data: rows, error } = await q;
 
-  const { data: optRows } = await supabase
-    .from('coas')
-    .select('origin, lab, report_date')
-    .limit(2000);
+  const { data: optRows } = await scopeCoaQuery(
+    supabase.from('coas').select('origin, lab, report_date').limit(2000),
+    viewer,
+  );
   const originSet = new Set<string>();
   const labSet = new Set<string>();
   const yearCounts = new Map<string, number>();

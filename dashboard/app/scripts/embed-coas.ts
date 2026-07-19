@@ -193,7 +193,14 @@ async function upsertSource(args: {
 async function main() {
   const { data: coas, error } = await sb
     .from('coas')
-    .select('id, report_number, report_date, blend, coffee_name, lot_number, origin, region, lab, pdf_filename, ota_ppb, aflatoxin_ppb, acrylamide_ppb, cga_mg_g, melanoidins_mg_g, trigonelline_mg_g, caffeine_pct, moisture_pct, water_activity, heavy_metals, raw_values, value_qualifiers');
+    .select('id, report_number, report_date, blend, coffee_name, lot_number, origin, region, lab, pdf_filename, ota_ppb, aflatoxin_ppb, acrylamide_ppb, cga_mg_g, melanoidins_mg_g, trigonelline_mg_g, caffeine_pct, moisture_pct, water_activity, heavy_metals, raw_values, value_qualifiers')
+    // Never embed a third-party product. Chat retrieves these chunks and
+    // quotes them to customers, and a competitor's COA carries a bare sample
+    // code as its title — so a cited chunk would attribute another brand's lab
+    // result to Purity coffee with nothing on screen to indicate otherwise.
+    // Filtering here (rather than at retrieval) means the text never enters
+    // the vector store at all.
+    .neq('product_scope', 'competitor');
   if (error) throw error;
 
   const rows = (coas ?? []) as CoaRow[];
