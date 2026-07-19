@@ -4396,3 +4396,70 @@ deleting the account. Recommended as migration 0014, mirroring 0011.
 Four rows in `canon_qa`, all `status='deprecated'` (inert, never served) and
 tagged `['verification']`, with `created_by` nulled. Soft-retired rather than
 deleted per the standing rule. Safe for a human to remove.
+
+## Task 5: the "Purity Decaf" recovered row
+
+**Verdict: leave it unclassified. It is a Purity sample, but not a current
+product, and it was never a production lot release.**
+
+### Evidence from the source document
+
+`COAs/PURITY DECAF v. LA PRADERA pre-SWD.pdf`, report `3522613-0`,
+Eurofins sample `11261567`:
+
+```
+Report Date:   05-Jan-2022
+Sample Name:   Purity Decaf
+Eurofins Sample: 11261567
+PO Number:     PURITY_COF-20211216-0017
+               Competitors 2
+```
+
+The client is Purity Coffee and the sample is named "Purity Decaf", so this is
+ours, not co-branded or private-label. That part of the tag is honest.
+
+**But the PO says `Competitors 2`.** I checked the other samples filed under the
+same report number:
+
+```
+PURITY DECAF v. LA PRADERA pre-SWD.pdf   Purity Decaf   PO PURITY_COF-20211216-0017
+NAT_FORCE_MED_COA.pdf                    21-209         PO PURITY_COF-20211216-0017
+NAT_FORCE_DECAF_COA.pdf                  21-429         PO PURITY_COF-20211216-0017
+```
+
+Identical PO. **The Purity Decaf sample was submitted in the same
+competitor-benchmarking batch as the NAT FORCE competitor products** — as the
+in-house reference the competitors were measured against. Report `3522613-0` is
+one benchmarking submission from December 2021, not six product releases.
+
+The filename says the same thing: "PURITY DECAF **v.** LA PRADERA **pre-SWD**" —
+a comparison against La Pradera before Swiss Water decaffeination. That is an
+R&D sourcing document.
+
+### Is there a decaf in the current lineup?
+
+**No.** `product-map.json` lists six products — PROTECT, EASE, FLOW, CALM,
+BALANCE, ALZ. There is no decaf entry, and no decaf alias anywhere in the file.
+
+The naming is the other tell. Current products are "Purity PROTECT", "Purity
+FLOW" — brand plus blend key. "Purity Decaf" is brand plus plain descriptor,
+exactly the pattern Session 5 identified as the discontinued 2016–2021
+predecessor line. A January 2022 report date sits right at the end of that
+window.
+
+### Conclusion
+
+Three independent signals agree: a benchmarking PO shared with competitor
+samples, a comparison-study filename, and a product name that matches no current
+SKU while matching the known discontinued line.
+
+Making it CS-visible would put a **four-year-old R&D comparison sample for a
+product Purity does not sell** in front of a rep as though it were a current
+product COA. Left `unclassified`.
+
+The other two recovered rows from the same report — `Honduras 18 Conejo`
+(`18_Conejo_Barium_Strontium.pdf`) and `Nicaragua Selva Negra`
+(`SELVA_NEGRA_2021-22.pdf`) — are green-coffee origin samples under the same
+benchmarking PO. Same reasoning, same outcome: left unclassified.
+
+No guessing was required and none was done. Nothing changed.
