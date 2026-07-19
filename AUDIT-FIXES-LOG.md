@@ -2569,3 +2569,36 @@ session 6, after 0009 revert     718 ms med · 1906 ms cold
 Median improved slightly; the cold number is higher because this run genuinely
 discarded plans first. **This is the number to re-measure after any large
 ingest** — it scales with the corpus, and it is the one with the least room.
+
+## Task 5 — build, cleanup, verification
+
+```
+✓ Compiled successfully in 5.4s · Checking validity of types · exit 0
+```
+
+### Cron — did it fire mid-session?
+
+**No.** Last `COA Auto-Sync` run 2026-07-18T18:41:22Z, before this session began
+at 02:30Z. Drift check against the baseline:
+
+```
+coas total      266 -> 266     unchanged
+coas live       261 -> 261     unchanged
+chunks        30606 -> 30606   unchanged (nothing deleted)
+max created_at  2026-07-18T16:07:54Z  (unmoved)
+new rows from a cron run: 0
+scope: competitor 6->6 · purity 51->51 · unclassified 209->209
+chunks retired: 76
+```
+
+**No new unclassified rows.** Cron left enabled throughout, as instructed.
+
+### Temp users removed
+
+```
+claude-verify-cs@example.invalid       removed
+claude-verify-editor@example.invalid   removed
+temp users remaining: 0   orphaned profiles: 0
+```
+
+Not pushed, per instruction.
