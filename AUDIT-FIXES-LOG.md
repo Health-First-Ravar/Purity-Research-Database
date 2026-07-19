@@ -1967,3 +1967,55 @@ Live path: `coa_limits` has 14 active rows, so production returns
   Checking validity of types ...
 exit code 0 · 50 routes
 ```
+
+### Task 6 addendum — a production regression I introduced in Task 1, and fixed
+
+While sanity-checking that the currently-deployed 4-argument callers still
+resolved after 0003 changed the signature, both the 4-arg and 5-arg forms
+**timed out through PostgREST**. Direct SQL was fast (77 ms), which is why the
+Task 1 verification missed it — my repeated direct runs had warmed the cache,
+and PostgREST is the path the application actually uses.
+
+Isolated it by recreating the pre-0003 body under a temporary name and calling
+both through PostgREST with identical arguments:
+
+```
+ORIGINAL body (pre-0003)  via PostgREST : OK, 8 rows, 1399 ms
+CURRENT match_chunks      via PostgREST : canceling statement due to statement timeout
+```
+
+Cause: `left join public.coas co on s.kind='coa' and s.path = 'coa:'||co.id::text`
+builds a string on the `coas` side, so no index can serve the predicate and the
+planner nested-loops over `coas` per candidate chunk. `authenticated` carries
+`statement_timeout=8s`, so **chat was down in production for every non-service-role
+caller** between 0003 and this fix.
+
+`0005_match_chunks_scope_perf.sql`:
+
+1. LEFT JOIN replaced with a correlated `EXISTS`, so when
+   `allowed_coa_scopes is null` (editors, admins, all ingestion jobs) the clause
+   short-circuits and the plan is identical to pre-0003.
+2. Compares on `co.id` (primary key) by casting the extracted text to uuid
+   rather than casting the key to text — a PK index lookup. The path is
+   regex-guarded so a malformed value cannot raise a cast error mid-query.
+
+After:
+
+```
+4-arg (deployed prod code)  : OK 8 rows 792ms
+5-arg scopes=null (editor)  : OK 8 rows 190ms
+5-arg scopes=purity (CS)    : OK 8 rows 259ms
+```
+
+Semantics unchanged: `scopes=NULL` -> 1522 COA chunks, `scopes=['purity']` -> 48,
+non-purity COA chunks in a CS retrieval **0**.
+
+**Lesson for the log:** verifying a query change on a direct pooler connection
+does not verify it for the application. PostgREST runs under a different role
+with an 8-second statement timeout. Any future retrieval change must be timed
+through PostgREST before it is called done.
+
+### Cron
+
+`COA Auto-Sync` re-enabled at the end of the session. `Research Auto-Sync`
+remains disabled — it was already disabled on arrival and is out of scope.
