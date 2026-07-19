@@ -1,3 +1,127 @@
+# WHERE WE LEFT OFF — 2026-07-19, end of night
+
+Read this first. Everything below this section is chronological session history.
+
+## State
+
+- Branch `main`, working tree **clean**.
+- **5 commits unpushed** (`origin/main..HEAD`). Jeremy pushes; do not push
+  unprompted.
+
+```
+ffac155  Recurse into COA subfolders, excluding Lost files
+0a66640  Fetch Word documents in pull-new-coas.py, not just PDFs
+d55c7ba  Task 6: effort model for the assignment backlog
+e4e25ed  Tasks 2-5: assignment review tool
+543d533  Task 1: characterize the unassigned COAs into decision buckets
+```
+
+- **Database is ahead of the unpushed code.** Migrations 0001-0011 are applied
+  in production, and tonight's ingest has already written 323 COA rows. So the
+  DB reflects work whose code is not yet on `origin/main`. Pushing is safe;
+  rolling back the branch would not roll back the data.
+- Cron `COA Auto-Sync` **active**. `Research Auto-Sync` disabled (was already,
+  before these sessions).
+- Nothing uncommitted. No temp users left; verification users are removed at the
+  end of every session that creates them.
+
+## Live numbers
+
+```
+coas          323 total · 318 live · 5 soft-retired
+  purity        51   <- the only rows customer service can see
+  competitor     6
+  unclassified 261   <- the backlog
+chunks        30695
+max report_date  2026-06-22  (but see open item 1 — this field is wrong)
+```
+
+## How to verify anything
+
+Never use `service_role` — it bypasses RLS and carries no statement timeout, and
+it showed green while the CS allowlist was fully bypassable. Create temporary
+users, verify through a real JWT via PostgREST, remove them at the end:
+
+```
+claude-verify-cs@example.invalid       role customer_service
+claude-verify-editor@example.invalid   role editor
+```
+
+Any change touching retrieval must be timed the way production calls it
+(`match_chunks`, k=8, sim=0.55). The `authenticated` role has an 8 s
+`statement_timeout`; the CS path is the slow one (~900 ms cold) because the RLS
+chain `chunks -> sources -> coas` is evaluated per candidate row.
+
+## Top three open items
+
+### 1. The parser stores the wrong date — systemic, and now confirmed
+
+Every Eurofins COA carries four dates. `lib_extract` picks the wrong one:
+
+```
+Report Date    01-Jul-2026    <- correct; confirmed by Jeremy reading the PDF
+Receipt Date   19-Jun-2026    <- also confirmed by Jeremy
+Login Date     16-Jun-2026
+Date Started   22-Jun-2026    <- what we store
+```
+
+`5427133-0` is the worked example: stored `2026-06-22`, actual report date
+`01-Jul-2026`. This is not one file — the header is standard across Eurofins,
+so **report dates corpus-wide are likely skewed early by days to weeks**, which
+undermines every trend question and every "latest test" display.
+
+Deliberately not fixed in the recursion change: correcting it rewrites a
+regulated field on ~300 records and needs its own change with before/after
+evidence on a sample, plus a re-embed.
+
+### 2. 261 unclassified — the tool is built but not reachable
+
+`/reports/assign` exists, is editor-gated, reversible, attributed, and refuses
+to auto-apply. It is **not linked from any navigation**; nobody will find it.
+
+Sizing (from session 7, before tonight's +57): ~31 batch decisions clear ~66%,
+with a hard tail needing the source PDF opened. Tonight's arrivals push the
+backlog from 204 to 261, so re-run the bucketing before quoting an estimate.
+
+Also: the backfill respects `coas.assigned_by`, so a later run cannot silently
+revert a human decision. That protection is tested; keep it.
+
+### 3. NAT_FORCE — three competitor products collapsed into one row
+
+```
+NAT_FORCE_DARK_COA.pdf   -> report 3522613-0
+NAT_FORCE_DECAF_COA.pdf  -> report 3522613-0
+NAT_FORCE_MED_COA.pdf    -> report 3522613-0
+```
+
+All three parsed to the same pre-existing report number, so `import-coas`
+matched on it and updated one row three times — last write wins. There is no
+NAT_FORCE row for the blocklist entry (added tonight) to act on. Either the
+parser misreads these, or all three genuinely cite one report; needs the PDFs
+opened.
+
+## Smaller things worth not losing
+
+- **One name conflict awaiting a human**:
+  `COA-31-Oct-25-Bette-Buna-49872102-0.pdf` is 143,950 B in the base folder and
+  81,212 B in `Processed/`, different hashes. The base copy was taken; the other
+  was deliberately **not** ingested. Compare them.
+- **`Purity Results - Caffeine.doc`** — legacy `.doc`, not fetchable
+  (python-docx cannot read the binary format). Convert to `.docx` in Drive and
+  it will come through.
+- **Two `SACRED CUPS` rows** arrived as genuine COAs, while "Sacred Cups" sits
+  in the non-COA *filename* blocklist. Those two facts should be reconciled.
+- **`ingest.py` deletes** `Processed/*.json` via `clean-stale-processed.py` on
+  every run (pre-existing, commit `749eee0`). Only derived artefacts, all
+  git-tracked, never the database — but know that it happens.
+- **`extract_docx` is weak.** Of 17 Word files fetched, 3 produced rows and all
+  three have null `report_number`, `test_date` and `sample_name`. It recovers
+  analyte tables but not headers, and merges multi-row cells.
+- **Cold brew now has data** (`4978036-0`, `4978127-0`), which session 5 had
+  recorded as entirely absent.
+
+---
+
 # Audit fixes — unattended session 2026-07-18
 
 Rollback point: `2651400` (two commits — pipeline output, then migration framework).
