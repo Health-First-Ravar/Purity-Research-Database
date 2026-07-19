@@ -2117,3 +2117,47 @@ the failure this is meant to prevent.
 
 Through PostgREST with the customer_service JWT: **12** out-of-limit cells are
 visible on `/reports/support`, so the note renders.
+
+## Task 3 — record the RESEARCH-* decision, and a hazard it exposed — **PASS**
+
+### The decision, recorded in code
+
+`scripts/backfill-product-scope.ts` now carries a comment at the
+`unclassified` fallthrough naming the three records and stating why
+`report_number` is deliberately **not** a matching signal:
+
+> They are research-sweep analyses of a blend, not the retail-lot QC a
+> customer-service rep is reading the support page for. Surfacing them there
+> would mix research results into a table a rep quotes as production data […]
+> If this is ever revisited, the change needed is a separate scope value for
+> research material, not a widening of `purity`.
+
+Confirmed all three remain `unclassified`.
+
+### The hazard this surfaced — task 1 would have been silently reverted
+
+Running the backfill dry-run to check the comment had not changed behaviour
+showed it computing `purity 48` against a database holding **51**, and
+`3 row(s) would change`. Those three rows were **exactly the APONTE lots
+classified in task 1**.
+
+The rules classify from the sample name. `APONTE PINK BAG DECAF` contains no
+blend or alias, so the rules say `unclassified` no matter how deliberately the
+row was placed. The next person to run `--apply` — routine after adding a
+product — would have demoted all three and taken three known over-limit results
+off the customer-service surface, with no error and nothing in the output
+flagging it as a reversal.
+
+This is the same failure shape as the session-2 cron reverting fixes: an
+automated pass reasserting itself over a human decision on regulated data.
+
+### Fix
+
+Added `MANUAL_SCOPE`, keyed by `report_number` and consulted before the rules,
+carrying the decision and its reason for each of the three lots. The rules now
+reproduce the owner decision instead of overwriting it.
+
+```
+before fix : purity 48 · 3 row(s) would change   <- would have reverted task 1
+after fix  : purity 51 · 0 row(s) would change   <- idempotent
+```

@@ -74,6 +74,27 @@ const normalise = (s: string) => s.replace(/[_\-.]+/g, ' ');
 
 const esc = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
+/**
+ * Manual scope decisions, applied before the rules.
+ *
+ * The pattern rules classify from the sample name, so a record whose name
+ * carries no blend or alias falls to `unclassified` however deliberately it was
+ * placed. Without this map, re-running the backfill silently demotes an owner
+ * decision — the APONTE lots below were set to `purity` by hand and the next
+ * run would have put them back, taking three known over-limit results off the
+ * customer-service surface without anyone noticing.
+ *
+ * Keyed by `report_number`. Anything here is authoritative over the rules.
+ */
+const MANUAL_SCOPE: Record<string, { scope: 'purity' | 'competitor' | 'unclassified'; why: string }> = {
+  // Session 5 task 1, owner decision 2026-07-19: our lots, our testing, and the
+  // record of an over-limit result belongs in front of CS with the badge rather
+  // than hidden behind an unclassified scope.
+  'CHG-50217971-0': { scope: 'purity', why: 'manual: APONTE PINK BAG DECAF, OTA 7.3 over the 2 ppb ceiling — owner decision to keep CS-visible' },
+  'CHG-50217970-0': { scope: 'purity', why: 'manual: APONTE PINK BAG DECAF, OTA 6.0 over the 2 ppb ceiling — owner decision to keep CS-visible' },
+  'CHG-50217786-0': { scope: 'purity', why: 'manual: APONTE GREEN BAG REGULAR, OTA 3.9 over the 2 ppb ceiling — owner decision to keep CS-visible' },
+};
+
 type Row = {
   id: string;
   report_number: string | null;
@@ -85,6 +106,9 @@ type Row = {
 };
 
 function classify(r: Row): { scope: 'purity' | 'competitor' | 'unclassified'; why: string } {
+  const manual = r.report_number ? MANUAL_SCOPE[r.report_number.trim()] : undefined;
+  if (manual) return manual;
+
   const brandHay = normalise([r.coffee_name, r.pdf_filename, r.lot_number].filter(Boolean).join(' '));
   const m = brandHay.match(COMPETITOR);
   if (m) return { scope: 'competitor', why: `third-party brand "${m[0]}"` };
@@ -98,6 +122,26 @@ function classify(r: Row): { scope: 'purity' | 'competitor' | 'unclassified'; wh
   const a = ALIASES.find(([al]) => new RegExp(`\\b${esc(al)}\\b`, 'i').test(name));
   if (a) return { scope: 'purity', why: `sample name alias "${a[0]}" -> ${a[1]}` };
 
+  // DELIBERATELY NOT MATCHED: `report_number`.
+  //
+  // Three records carry a blend name in the report number but have a null
+  // sample name, so this function leaves them unclassified:
+  //
+  //   RESEARCH-2023-01-protect
+  //   RESEARCH-2024-10-protect
+  //   RESEARCH-2024-10-balance
+  //
+  // They are genuinely ours, and it is tempting to "fix" the gap by adding
+  // report_number as a matching signal. Do not. They are research-sweep
+  // analyses of a blend, not the retail-lot QC a customer-service rep is
+  // reading the support page for. Surfacing them there would mix research
+  // results into a table a rep quotes as production data, and the two are not
+  // interchangeable — a research sample is chosen to answer a question, not to
+  // represent what shipped.
+  //
+  // Decision recorded 2026-07-19 (session 5 task 3). If this is ever revisited,
+  // the change needed is a separate scope value for research material, not a
+  // widening of `purity`.
   return { scope: 'unclassified', why: 'no blend column, no blend/alias in sample name' };
 }
 
