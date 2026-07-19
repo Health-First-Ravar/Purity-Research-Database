@@ -2602,3 +2602,79 @@ temp users remaining: 0   orphaned profiles: 0
 ```
 
 Not pushed, per instruction.
+
+---
+---
+
+# UNATTENDED SESSION 7 — 2026-07-19
+
+`main`, clean, in sync at `7a64514`. Cron active. Temp users created for
+authenticated verification, removed in task 6.
+
+## Task 1 — characterize the unassigned — **PASS**
+
+### Population correction
+
+**204 live, not 209.** The 209 figure counts the 5 duplicate parse artefacts
+soft-retired in session 6. Those are excluded from every surface and should not
+be in anyone's work queue.
+
+### Grouping — first attempt over-fragmented
+
+Grouping on name shape produced 43 groups, but split `Aponte`/`APONTE`,
+`Pradera`/`PRADERA`, `Peru`/`PERU`, `Santa Maria`/`SANTA MARIA` on case alone.
+Those are the same decision. Regrouped on the axis a human actually decides on:
+**which producer/origin does this material come from, and does it feed a
+blend?**
+
+### Decision buckets (producer/origin normalised)
+
+```
+  31  unmatched                      cum  31/204 (15%)
+  26  no sample name                 cum  57/204 (28%)
+  14  producer · La Pradera          cum  71/204 (35%)
+  11  producer · 18 Conejo           cum  82/204 (40%)
+  11  country only · Nicaragua       cum  93/204 (46%)
+  11  country only · Colombia        cum 104/204 (51%)
+  11  producer · Montebonito         cum 115/204 (56%)
+   9  producer · Santa Maria         cum 124/204 (61%)
+   9  country only · Honduras        cum 133/204 (65%)
+   9  producer · Aponte              cum 142/204 (70%)
+   8  bare internal code             cum 150/204 (74%)
+   8  producer · Sao Pedro           cum 158/204 (77%)
+   6  country only · Ethiopia        cum 164/204 (80%)
+   5  COFFEE N batch                 cum 169/204 (83%)
+   4  producer · Royal               cum 173/204 (85%)
+   4  country only · Peru            cum 177/204 (87%)
+   ... 18 further buckets of 1-3 records each          cum 204/204 (100%)
+
+  buckets: 34 · top 12 cover 158/204 = 77%
+```
+
+**The headline: 12 decisions cover 77% of the backlog.** 16 cover 87%. The
+remaining 18 buckets are 1-3 records each.
+
+### The hard tail — 57 records that grouping cannot help
+
+**`no sample name` (26)** — `coffee_name` is null. Only 3 carry a lot number,
+and most filenames are just the report number (`3053462-0_COA.pdf`). A handful
+are informative (`Minamihara Feb 2024 Green.pdf`,
+`COA Green Coffee- Colombia- 1.pdf`). **These need a human to open the PDF** —
+no grouping, suggestion or heuristic reaches them.
+
+**`unmatched` (31)** — named, but with no producer or country token, e.g.
+`Bette Buna Roasted`, `Royal-CR-Amist-2018`, `Purity Original 2021`.
+
+Four rows in the tail have `report_number = null` and filenames like
+`New Branding COAs.pdf` / `COA's New Branding.pdf` — branding sheets that were
+never COAs. Session 6's ingest classifier stops new ones; these predate it.
+
+### What this means for the tooling
+
+The work splits cleanly:
+- **~12-16 batch decisions** clear 77-87% of records
+- **~57 records** need individual human inspection of the source PDF
+- 18 small buckets sit in between
+
+So the tool needs to do two different things well: apply one decision to a whole
+bucket, and present a single record with everything needed to identify it.
