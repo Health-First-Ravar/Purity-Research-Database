@@ -2387,3 +2387,73 @@ previously-hidden lots now visible: 40 across 10 products
 
 The 6.0 lot is visible with its own badge. Both APONTE lots, all 11 FLOW lots,
 all 9 PROTECT lots are individually inspectable.
+
+## Task 2 — stale chunks from retired source versions — **PASS, with a reverted step**
+
+### Population
+
+```
+chunks on retired coa sources, total : 300
+   live purity COAs                  :  76   <- the brief's target
+   live unclassified COAs            : 224   <- same defect, not in scope
+live purity COAs with no live source :   0   (nothing loses retrievability)
+```
+
+### Mechanism
+
+`embed-coas` retires the old `sources` row and inserts a new one, but deletes
+chunks only for the NEW source id. The old source's chunks survive every
+content change.
+
+### Implemented
+
+`0008_add_chunk_retired.sql` adds `chunks.retired_at` / `retired_reason` with a
+partial index, mirroring `coas.retired_at` and `sources.valid_until`.
+
+```
+chunks retired : 76 (76 expected)
+chunks total   : 30606 (unchanged — nothing deleted)
+retrieval fingerprint before/after: 20 / 20  IDENTICAL
+```
+
+### The predicate I added and then reverted
+
+0008 also added `c.retired_at is null` to `match_chunks`, so a future query
+reading `chunks` without joining `sources` would still be safe. Timed it as
+required:
+
+```
+                      min      med      max
+editor              417 ms   590 ms  1817 ms   fine
+customer_service   6934 ms  8574 ms  9168 ms   TIMING OUT
+```
+
+Editor unaffected; the customer-service path broke. CS evaluates the 0007 RLS
+chain — `chunks -> sources -> coas` — per candidate row, and the extra filter
+changed the plan enough to pay that nested cost on far more rows. CS was 826 ms
+median before 0008.
+
+`0009_revert_chunk_retired_predicate.sql` removes the predicate and keeps the
+column. **It buys nothing today**: every chunk retired here sits on a source
+with `valid_until` set, which `match_chunks` already filters. It was defence
+against a hypothetical future caller, and that protection lives in the column,
+which such a caller can filter on. Paying an 8-second timeout on the
+customer-facing path for redundant defence is the wrong trade.
+
+```
+after revert:
+customer_service   595 / 886 / 981 ms    headroom 88%
+editor             181 / 196 / 719 ms    headroom 91%
+retired chunks appearing in retrieval: 0
+```
+
+**I only caught this because the rules required timing as `authenticated`.**
+The editor path — and any service-role check — looked completely healthy.
+
+### Not done, and why
+
+The **224 stale chunks on unclassified COAs** have the identical defect. I did
+not retire them: the brief scoped this to 76, they are not CS-visible, and
+expanding a write over regulated data beyond the brief is the kind of
+improvisation the rules forbid. One word and I will; the query is the same with
+`product_scope='unclassified'`.
