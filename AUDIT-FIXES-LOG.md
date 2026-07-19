@@ -2523,3 +2523,49 @@ The 12 already in the DB remain `kind='coa'` with `path=null`. Under the 0007
 sources policy a `kind='coa'` row without a resolvable `coas` row is invisible
 to non-editors, so they already fail closed. Retiring them is a separate
 cleanup and was not in the brief.
+
+## Task 4 — cold-start latency after these changes — **PASS**
+
+Through PostgREST as `authenticated`, six distinct real embeddings per shape,
+`discard plans` beforehand so the first call of each series is genuinely cold.
+
+```
+=== customer_service ===
+  chat   k=8  sim=0.55 health     cold 1906   med  718   max 1906 ms   headroom 76%
+  chat   k=8  sim=0.55 all        cold  195   med  196   max  255 ms   headroom 97%
+  biblio k=12 sim=0.45 all        cold  206   med  207   max  213 ms   headroom 97%
+  reva   k=12 sim=0.30 brand      cold   97   med   90   max   98 ms   headroom 99%
+  audit  k=8  sim=0.35 research   cold  185   med  187   max  408 ms   headroom 95%
+
+=== editor ===
+  chat   k=8  sim=0.55 health     cold  154   med  154   max  183 ms   headroom 98%
+  chat   k=8  sim=0.55 all        cold  140   med  141   max  154 ms   headroom 98%
+  biblio k=12 sim=0.45 all        cold  151   med  151   max  180 ms   headroom 98%
+  reva   k=12 sim=0.30 brand      cold   86   med   81   max   86 ms   headroom 99%
+  audit  k=8  sim=0.35 research   cold  136   med  141   max  370 ms   headroom 95%
+```
+
+**Worst case anywhere: 1906 ms cold, on the CS chat/health shape — 76%
+headroom.** Every other shape is at or above 95%. Nothing approaches the 8 s
+limit.
+
+### The shape to watch
+
+`chat k=8 sim=0.55 health` on the **customer_service** path is the only
+non-trivial number, and it is the only shape that combines all three costs:
+the `coa` source kind is in scope, so the 0007 RLS chain
+(`chunks -> sources -> coas`) is evaluated, *and* `match_chunks` forces the
+purity scope. Editor runs the same shape in 154 ms because `is_editor()`
+short-circuits the scope predicate entirely — a 12x difference.
+
+Comparison across sessions for that shape:
+
+```
+session 5, after 0006/0007      826 ms med · 1020 ms max
+session 6, with 0008 predicate  8574 ms med · TIMING OUT
+session 6, after 0009 revert     718 ms med · 1906 ms cold
+```
+
+Median improved slightly; the cold number is higher because this run genuinely
+discarded plans first. **This is the number to re-measure after any large
+ingest** — it scales with the corpus, and it is the one with the least room.
