@@ -2278,3 +2278,33 @@ Two observations worth recording:
   shape — the largest real caller is bibliography at k=12 — but it marks the
   ceiling. If anyone raises `RETRIEVAL_TOP_K` substantially, re-run this battery
   before shipping.
+
+## Task 6 — build, cleanup, push
+
+```
+✓ Compiled successfully in 4.8s · Checking validity of types · exit 0
+```
+
+### Cron — did it fire mid-session?
+
+**No.** Last `COA Auto-Sync` run was 2026-07-18T18:41:22Z, before this session
+began at 02:01Z. Drift check against the baseline:
+
+```
+total coas     266 -> 266   unchanged
+live coas      261 -> 261   unchanged
+chunks       30606 -> 30606 unchanged
+max created_at  2026-07-18T16:07:54Z  (unmoved)
+new rows introduced by a cron run: 0
+```
+
+Scope movement `purity 48 -> 51`, `unclassified 212 -> 209` is entirely the
+task-1 APONTE reclassification. Nothing was absorbed silently.
+
+`COA Auto-Sync` was left **enabled** throughout, per your note. It was never
+disabled, so there is nothing to re-enable. `Research Auto-Sync` remains
+disabled — it was already disabled before this session and is out of scope.
+
+### Verification users removed
+
+Both temporary users deleted; 0 remaining, 0 orphaned profile rows.
