@@ -3314,3 +3314,130 @@ unchanged and listed here for your decision.
 
 Affected rows: `995712-01-DR`, `995712-EC`, `995712-CG`, `995712-AO`, and two
 siblings — all dated 2026-03-20..2026-03-26.
+
+## Task 2 — route the assignment tool — **PASS**
+
+`/reports/assign` was linked from nowhere. Added to `NavLinks` as a flat
+staff-visible item next to Reports — flat rather than nested, because burying an
+already-unreachable page inside a group is how it stays unfound. `STAFF`
+matches the page's own `hasElevatedAccess` gate exactly.
+
+Verified with real JWTs against a running server:
+
+```
+editor            nav link: true    /reports/assign 200, renders
+customer_service  nav link: false   /reports/assign 200, "Editor role required"
+```
+
+## Task 3 — re-bucketed at 261 — **PASS**
+
+```
+buckets total          : 43
+batchable buckets      : 39  covering 178 records (68%)
+individual-review recs : 83  (unmatched 35 · no sample name 32 · bare code 11 · COFFEE N 5)
+decisions              : 39 batch + 83 individual = 122
+estimate               : ~5.5 h one person · ~2.7 h for two
+```
+
+Largest buckets: unmatched 35 · no sample name 32 · La Pradera 16 · Nicaragua
+13 · Colombia 12 · panel-named 12 · 18 Conejo 11 · Santa Maria 11 · bare code
+11 · Montebonito 11 · Aponte 11 · Honduras 9 · Ethiopia 8 · Sao Pedro 8. Then a
+long tail of 1-5.
+
+New buckets since last time, from tonight's arrivals: **cold brew** (2),
+**GESHA** (5), **Sacred Cups** (5), Clearpath, Terra Verda, Kovachii, Villa
+Rica, Elevafinca.
+
+### 22 records reclassify with ZERO human input — the backfill has not been run
+
+While bucketing, `PROTECT 2023-24 Nutrition` and `FLOW 2023-24 Nutrition`
+appeared as *unclassified* — but they name a blend, so the existing rules
+already classify them. They are unclassified only because
+`backfill-product-scope.ts` has not run since those rows landed. It is **not
+part of the sync chain**, so every new COA stays unclassified even when the
+rules would classify it.
+
+Dry run: **22 rows would change** — 16 to `purity`, 6 to `competitor`:
+
+```
+purity       51 -> 67      unclassified 261 -> 244      competitor 6 -> 12
+```
+
+The 6 competitors are the KION / MUDWTR / LIFEBOOST rows now matched by the
+brand list. The 16 purity rows are named PROTECT / FLOW / CALM / EASE / BALANCE
+COAs.
+
+**Not applied.** 16 of them become customer-service visible, which is a scope
+change you should make knowingly rather than have me fold into a bucketing
+report. One word and it runs.
+
+Confirmed `MANUAL_SCOPE` is protecting your session-5 decision: an ad-hoc
+re-derivation said 25 changes, the real backfill says 22, and the difference is
+exactly the three APONTE over-limit lots. They stay `purity`.
+
+Two things in that list worth a look regardless:
+- `3629638-0 "LIVER VITALITY"` carries `blend = PROTECT`. If that is a
+  co-branded or private-label product rather than Purity PROTECT, the blend
+  column is wrong at the source.
+- `BRN-49871859-0` has `blend = BALANCE` but **no sample name at all**.
+
+## Task 4 — the NAT_FORCE collapse — **PASS, and it is not what it looked like**
+
+### Not a parser bug
+
+All three NAT_FORCE PDFs genuinely print `Report Number: 3522613-0`, and so
+does `SELVA_NEGRA_2021-22.pdf`. It is **one Eurofins report covering seven
+samples**, each with its own `Sample Name`:
+
+```
+NAT_FORCE_DARK_COA.pdf              Sample Name: 21-319
+NAT_FORCE_MED_COA.pdf               Sample Name: 21-209
+NAT_FORCE_DECAF_COA.pdf             Sample Name: 21-429
+SELVA_NEGRA_2021-22.pdf             Sample Name: Nicaragua Selva Negra
+18_Conejo_Barium_Strontium.pdf      Sample Name: Honduras 18 Conejo
+PURITY DECAF v. LA PRADERA…pdf      Sample Name: Purity Decaf
+3522613-0_COA.pdf
+```
+
+The parser reads the report number correctly. The defect is the **dedup key**:
+`Processed/<report_number>.json` and `import-coas`'s matching both assume one
+report = one sample. Seven samples collapse to one file and one row,
+last-write-wins. The surviving row is `Nicaragua Selva Negra`.
+
+### How widely does the pattern apply — measured, not assumed
+
+```
+report numbers backed by >1 source file : 82
+  filename duplicates (X.pdf / X (1).pdf, harmless) : 99 files
+  reports holding >1 DISTINCT sample name           : 3
+```
+
+Of those three, two are false positives — the same `Eurofins Sample:` ID
+described two ways:
+
+```
+3492052-0   "La Pradera Castillo Washed" / "Purity Coffee"   both Sample 11184141
+3206088-0   "Olam Peru SW Decaf" / "Peru SW Decaf"           both Sample 10369997
+```
+
+**So the genuine loss is one report and five samples**, all under `3522613-0`.
+The raw "119 lost" implied by file counts is wrong; 99 of those are the same
+document filed twice.
+
+### What was lost
+
+Five COAs are absent from the database entirely: three NAT_FORCE products
+(a competitor), `Honduras 18 Conejo`, and `Purity Decaf` — the last two ours.
+
+### Fix proposed, deliberately not applied
+
+The disambiguator is already in the documents: `Eurofins Sample: <id>` is unique
+per sample. The dedup key should become `(report_number, sample_id)` rather than
+`report_number` alone, in both `ingest.py`'s output filename and
+`import-coas`'s matching.
+
+I did not implement it. It changes how **all 323 rows** are matched on every
+future import, and a mistake there merges or splits records corpus-wide. It
+warrants its own change with a dry run showing exactly which rows re-key, not a
+same-session addition to a date fix. Scope is one report and five samples, so
+nothing is on fire.
