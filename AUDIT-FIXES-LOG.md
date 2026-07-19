@@ -1913,3 +1913,57 @@ products, but they are research-sweep analyses rather than retail lot QC, so
 putting them on the CS surface would mix research results into a page a rep
 reads as production data. I did not classify them. Your call whether
 `report_number` should be a backfill signal for records with no sample name.
+
+## Task 5 — coa_limits silent fallback — **PASS**
+
+### What was wrong
+
+`loadLimits()` swapped in hardcoded `DEFAULT_LIMITS` on three paths — query
+error, zero active rows, or a thrown client — and returned them with **no log
+and no signal**. An admin who deactivated every limit, or a deploy missing
+`SUPABASE_SERVICE_ROLE_KEY`, would see compliance badges continue to render,
+sourced from code constants rather than the table they were editing.
+
+### Changed
+
+`loadLimits()` now returns `LimitsResult { limits, verified, reason }`:
+
+- **Logs loudly on every fallback**, with the specific cause, on each cache
+  miss rather than once — a one-shot log is as silent as none after the first
+  minute.
+- `verified: false` plus a machine-readable `reason` propagates to callers.
+- Distinguishes the three causes: `query failed: <msg>`,
+  `coa_limits returned no active rows`, `client unavailable: <msg>`.
+
+### Surfaced in the UI
+
+A red banner on `/reports`, `/reports/[id]` and `/reports/support` when
+`verified` is false, stating the thresholds are unverified and that pass/fail
+markings are provisional.
+
+`LimitBadge` on the CS surface appends **"(unverified)"** to `within limit` /
+`OVER LIMIT` / `BELOW MINIMUM` when the thresholds are fallback-sourced.
+
+I deliberately did **not** suppress the badge entirely. `OVER LIMIT` is a
+safety signal, and hiding it because the threshold source is degraded would
+trade one silent failure for another. It is marked, not withheld.
+
+### Verification — all three paths forced
+
+```
+ok      verified=true   reason=—                                       logged: no
+empty   verified=false  reason=coa_limits returned no active rows      logged: YES
+error   verified=false  reason=query failed: permission denied         logged: YES
+throw   verified=false  reason=client unavailable: SUPABASE_SERVICE…   logged: YES
+```
+
+Live path: `coa_limits` has 14 active rows, so production returns
+`verified: true` and no banner shows.
+
+## Task 6 — build
+
+```
+✓ Compiled successfully in 8.7s
+  Checking validity of types ...
+exit code 0 · 50 routes
+```

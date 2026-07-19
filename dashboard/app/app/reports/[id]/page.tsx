@@ -31,7 +31,7 @@ export default async function CoaDetailPage({ params }: { params: Promise<{ id: 
 
   if (error || !row) notFound();
 
-  const limits = await loadLimits();
+  const { limits, verified: limitsVerified } = await loadLimits();
   const raw = (row.raw_values ?? {}) as Record<string, Analyte>;
   const analyteRows = Object.entries(raw)
     .map(([name, v]) => ({ name, ...(v ?? {}) }))
@@ -65,6 +65,17 @@ export default async function CoaDetailPage({ params }: { params: Promise<{ id: 
           ← Back to Reports
         </Link>
       </div>
+
+      {!limitsVerified ? (
+        <div className="mb-4 rounded-lg border border-purity-rust/40 bg-purity-rust/10 p-3 text-sm">
+          <p className="font-semibold text-purity-rust">Limit thresholds are unverified</p>
+          <p className="mt-1 text-xs text-purity-bean dark:text-purity-paper">
+            The <code className="font-mono">coa_limits</code> table could not be read, so the
+            compliance fields below use built-in defaults from the application code rather than
+            the thresholds on file. Treat every pass/fail marking as provisional.
+          </p>
+        </div>
+      ) : null}
 
       <h1 className="mb-1 font-serif text-2xl">
         {row.coffee_name ?? row.blend ?? 'COA Report'}

@@ -59,13 +59,16 @@ type Snap = {
  * "measured and within threshold" are different claims.
  */
 function LimitBadge({
-  analyteKey, value, reported, limits,
-}: { analyteKey: string; value: number | null; reported: string | null; limits: Limit[] }) {
+  analyteKey, value, reported, limits, verified,
+}: { analyteKey: string; value: number | null; reported: string | null; limits: Limit[]; verified: boolean }) {
   const limit = getLimit(analyteKey, limits);
   if (!limit) {
     return <span className="text-[10px] text-purity-muted/70 dark:text-purity-mist/70">no limit on file</span>;
   }
   const res = evaluate({ key: analyteKey, value, reported, limits });
+  // A pass/fail marking derived from fallback thresholds is not a compliance
+  // result. Mark it rather than asserting it.
+  const mark = (t: string) => (verified ? t : `${t} (unverified)`);
 
   if (res.status === 'over' || res.status === 'under') {
     const word = res.status === 'over' ? 'OVER LIMIT' : 'BELOW MINIMUM';
@@ -77,7 +80,7 @@ function LimitBadge({
         className="rounded bg-purity-rust/12 px-1.5 py-0.5 text-[10px] font-semibold text-purity-rust"
         title={`${limit.label}: ${limit.direction} ${bound} ${limit.unit} — ${limit.source}`}
       >
-        {word}
+        {mark(word)}
       </span>
     );
   }
@@ -87,7 +90,7 @@ function LimitBadge({
         className="text-[10px] text-purity-green dark:text-purity-aqua"
         title={`${limit.label}: ${limit.direction} ${limit.direction === 'range' ? `${limit.min}–${limit.max}` : limit.value} ${limit.unit} — ${limit.source}`}
       >
-        within limit
+        {mark('within limit')}
       </span>
     );
   }
@@ -105,7 +108,7 @@ function LimitBadge({
 
 export default async function SupportReportPage() {
   const supabase = supabaseServer(await cookies());
-  const limits = await loadLimits();
+  const { limits, verified: limitsVerified } = await loadLimits();
 
   // This is the customer-service surface by definition, so it is pinned to the
   // allowlist unconditionally rather than by role — an editor previewing what a
@@ -224,6 +227,7 @@ export default async function SupportReportPage() {
                             value={s.values[c.key]}
                             reported={s.quals[c.key]}
                             limits={limits}
+                            verified={limitsVerified}
                           />
                         </span>
                       </td>
@@ -250,6 +254,16 @@ export default async function SupportReportPage() {
         Most recent reported result for each blend and green coffee. Each cell is the latest
         COA that actually reported that analyte (hover a value for its test date). Click a product for its newest full COA.
       </p>
+      {!limitsVerified ? (
+        <div className="mb-4 rounded-lg border border-purity-rust/40 bg-purity-rust/10 p-3 text-sm">
+          <p className="font-semibold text-purity-rust">Limit thresholds are unverified</p>
+          <p className="mt-1 text-xs text-purity-bean dark:text-purity-paper">
+            The <code className="font-mono">coa_limits</code> table could not be read, so the
+            indicators below use built-in defaults from the application code rather than the
+            thresholds on file. Treat every pass/fail marking as provisional.
+          </p>
+        </div>
+      ) : null}
       <p className="mb-3 max-w-2xl rounded-md border border-purity-green/25 bg-purity-green/5 p-3 text-xs text-purity-bean dark:border-purity-aqua/25 dark:text-purity-paper">
         <strong>Shows current Purity products only.</strong> Lab reports we hold for
         other brands, and lots not yet matched to a product, are deliberately excluded.

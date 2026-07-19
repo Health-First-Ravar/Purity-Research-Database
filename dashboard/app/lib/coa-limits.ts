@@ -44,12 +44,42 @@ export const DEFAULT_LIMITS: Limit[] = [
 
 // Cached DB load. The cache is module-scoped so within a single server
 // process subsequent page renders re-use it. TTL keeps it fresh after edits.
-let cache: { limits: Limit[]; expires: number } | null = null;
+let cache: { result: LimitsResult; expires: number } | null = null;
 const TTL_MS = 30_000;
 
-export async function loadLimits(): Promise<Limit[]> {
+/**
+ * Limits plus their provenance.
+ *
+ * `verified: false` means the thresholds came from the hardcoded
+ * `DEFAULT_LIMITS` rather than the `coa_limits` table. A compliance badge
+ * rendered from unverified thresholds is a claim the operator cannot audit —
+ * they may have edited the table and be looking at code constants instead — so
+ * callers MUST surface this rather than presenting the badge as authoritative.
+ */
+export type LimitsResult = {
+  limits: Limit[];
+  verified: boolean;
+  /** Why the fallback was used. Null when verified. */
+  reason: string | null;
+};
+
+export async function loadLimits(): Promise<LimitsResult> {
   const now = Date.now();
-  if (cache && cache.expires > now) return cache.limits;
+  if (cache && cache.expires > now) return cache.result;
+
+  const fallback = (reason: string): LimitsResult => {
+    // Loud, and on every cache miss rather than once — a silent degradation
+    // here means compliance badges render from code while an admin believes
+    // they are editing the live thresholds.
+    console.error(
+      `[coa-limits] FALLING BACK to hardcoded DEFAULT_LIMITS — ${reason}. ` +
+        'Compliance indicators are UNVERIFIED until coa_limits loads.',
+    );
+    const result: LimitsResult = { limits: DEFAULT_LIMITS, verified: false, reason };
+    cache = { result, expires: now + TTL_MS };
+    return result;
+  };
+
   try {
     const sb = supabaseAdmin();
     const { data, error } = await sb
@@ -57,9 +87,9 @@ export async function loadLimits(): Promise<Limit[]> {
       .select('id, key, label, unit, category, direction, value, min_value, max_value, source, notes, display_order, active')
       .eq('active', true)
       .order('display_order', { ascending: true });
-    if (error || !data || data.length === 0) {
-      cache = { limits: DEFAULT_LIMITS, expires: now + TTL_MS };
-      return DEFAULT_LIMITS;
+    if (error) return fallback(`query failed: ${error.message}`);
+    if (!data || data.length === 0) {
+      return fallback('coa_limits returned no active rows');
     }
     const limits: Limit[] = data.map((r) => ({
       id: r.id,
@@ -76,10 +106,11 @@ export async function loadLimits(): Promise<Limit[]> {
       display_order: r.display_order ?? 0,
       active: !!r.active,
     }));
-    cache = { limits, expires: now + TTL_MS };
-    return limits;
-  } catch {
-    return DEFAULT_LIMITS;
+    const result: LimitsResult = { limits, verified: true, reason: null };
+    cache = { result, expires: now + TTL_MS };
+    return result;
+  } catch (e) {
+    return fallback(`client unavailable: ${(e as Error).message}`);
   }
 }
 

@@ -63,7 +63,7 @@ export default async function ReportsPage({ searchParams }: { searchParams: Prom
   // reason we hold it.
   const viewer = await getCoaViewer(supabase);
   const isAdminUser = isAdmin(viewer.role);
-  const limits = await loadLimits();
+  const { limits, verified: limitsVerified } = await loadLimits();
 
   let q = scopeCoaQuery(
     supabase
@@ -409,6 +409,17 @@ __value: primary ? readAnalyte(r as Record<string, unknown>, primary.key) : null
         </p>
       ) : null}
 
+      {!limitsVerified ? (
+        <div className="mb-4 rounded-lg border border-purity-rust/40 bg-purity-rust/10 p-3 text-sm">
+          <p className="font-semibold text-purity-rust">Limit thresholds are unverified</p>
+          <p className="mt-1 text-xs text-purity-bean dark:text-purity-paper">
+            The <code className="font-mono">coa_limits</code> table could not be read, so the
+            indicators below use built-in defaults from the application code rather than the
+            thresholds on file. Treat every pass/fail marking as provisional and do not quote
+            it as a compliance result until this is resolved.
+          </p>
+        </div>
+      ) : null}
       {outOfLimit.length > 0 ? (
         <div className="mb-4 rounded-lg border border-purity-rust/30 bg-purity-rust/5 p-4">
           <p className="text-sm font-semibold text-purity-rust">
