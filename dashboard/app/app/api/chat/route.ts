@@ -11,6 +11,7 @@ import { cookies } from 'next/headers';
 import { supabaseServer, supabaseAdmin } from '@/lib/supabase';
 import { classify } from '@/lib/rag/classify';
 import { findCanonHit, retrieveChunks } from '@/lib/rag/retrieve';
+import { getCoaViewer, CS_SCOPE } from '@/lib/coa-scope';
 import { generateAnswer, type PriorTurn } from '@/lib/rag/generate';
 import { embedOne } from '@/lib/voyage';
 import { checkChatRateLimit } from '@/lib/rate-limit';
@@ -110,7 +111,16 @@ export async function POST(req: NextRequest) {
   }
 
   // 3. Retrieve
-  const chunks = await retrieveChunks(supabase, question, cls);
+  //
+  // Chat is reachable by customer_service, and answers quote retrieved chunk
+  // text back to the customer. COA chunks are titled with a bare sample code,
+  // so a chunk from a third-party product or an unidentified lot is
+  // indistinguishable from one of ours once it is in the answer. Restrict
+  // COA-derived chunks to the allowlist for anyone without elevated access;
+  // editors and admins retrieve everything, as on /reports.
+  const viewer = await getCoaViewer(supabase);
+  const allowedCoaScopes = viewer.elevated ? null : [CS_SCOPE];
+  const chunks = await retrieveChunks(supabase, question, cls, allowedCoaScopes);
 
   // 4. Generate
   const result = await generateAnswer({ question, chunks, classification: cls, prior });

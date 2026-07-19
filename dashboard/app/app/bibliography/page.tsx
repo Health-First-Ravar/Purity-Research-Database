@@ -1,5 +1,6 @@
 import { cookies } from 'next/headers';
 import { supabaseServer } from '@/lib/supabase';
+import { getCoaViewer, CS_SCOPE } from '@/lib/coa-scope';
 import { CiteButton } from './_components/CiteButton';
 import { DebouncedTitleInput } from './_components/DebouncedTitleInput';
 import { FormAutoSubmit } from './_components/FormAutoSubmit';
@@ -83,7 +84,13 @@ export default async function BibliographyPage({ searchParams }: { searchParams:
   ).sort();
 
   let searchResults: SemanticHit[] = [];
-  if (params.q && params.q.trim()) searchResults = await semanticSearch(params.q.trim());
+  const bibViewer = await getCoaViewer(supabase);
+  if (params.q && params.q.trim()) {
+    searchResults = await semanticSearch(
+      params.q.trim(),
+      bibViewer.elevated ? null : [CS_SCOPE],
+    );
+  }
 
   return (
     <div>
@@ -264,7 +271,7 @@ type SemanticHit = {
   similarity: number; kind: string; title: string; chapter: string | null;
 };
 
-async function semanticSearch(q: string): Promise<SemanticHit[]> {
+async function semanticSearch(q: string, allowedCoaScopes: string[] | null): Promise<SemanticHit[]> {
   const { embedOne } = await import('@/lib/voyage');
   const { supabaseAdmin } = await import('@/lib/supabase');
   const vec = await embedOne(q, 'query');
@@ -274,6 +281,11 @@ async function semanticSearch(q: string): Promise<SemanticHit[]> {
     match_count: 12,
     source_kinds: null,
     min_similarity: 0.45,
+    // source_kinds is null here, so this search spans EVERY kind including
+    // 'coa'. The page has no role gate and runs the RPC under the service-role
+    // client, so without this a customer-service user could surface a
+    // competitor's or an unidentified lot's lab text through the search box.
+    allowed_coa_scopes: allowedCoaScopes,
   });
   return (data ?? []) as SemanticHit[];
 }

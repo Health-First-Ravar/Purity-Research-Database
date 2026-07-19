@@ -1617,3 +1617,71 @@ signed-out/null  ->  [["product_scope","purity"]]  (fails closed)
   Checking validity of types ...
 exit code: 0 · 50 routes
 ```
+
+---
+---
+
+# UNATTENDED SESSION 4 — 2026-07-19
+
+`main`, clean, in sync. `SUPABASE_DB_URL` works. **Disabled `COA Auto-Sync`
+at 01:23Z** — next fire was 06:00Z, mid-session, and tasks 1-2 do data surgery.
+Re-enabled in task 6. `Research Auto-Sync` was already disabled and left so.
+
+## Task 1 — role-based chat scope — **PASS**
+
+### Enforced in SQL, not in the caller
+
+`match_chunks` had no scope parameter, so the `coas` allowlist from session 3
+did nothing for chat — retrieval reads `chunks`/`sources` and never touches
+`coas`. Migration `0003_match_chunks_coa_scope.sql` adds
+`allowed_coa_scopes text[] default null`:
+
+- `null` -> unrestricted (editors, admins, ingestion jobs)
+- `ARRAY['purity']` -> customer-service allowlist
+
+The old 4-arg signature is dropped first, deliberately: adding a defaulted 5th
+parameter would create an **overload** rather than a replacement, leaving two
+definitions to drift. Existing 4-arg callers resolve to the new function via
+the default.
+
+Non-COA chunks are never affected. A `kind='coa'` source whose `path` does not
+resolve to a live `coas` row is **excluded** when a restriction is supplied —
+unresolvable provenance cannot be shown to fail closed any other way. That
+incidentally removes the ~221 chunks from the 308 null-path `kind='coa'`
+sources, which include the 12 misclassified book-manuscript copies.
+
+### Wired up
+
+- `retrieveChunks(client, question, cls, allowedCoaScopes = null)`
+- `/api/chat` resolves the viewer via `getCoaViewer` and passes
+  `elevated ? null : [CS_SCOPE]`
+
+### Second leak found while doing this — /bibliography
+
+`app/bibliography/page.tsx` calls `match_chunks` with **`source_kinds: null`**
+(every kind, COA included), has **zero role checks**, and runs the RPC under
+the **service-role client**. A customer-service user could surface a
+competitor's or an unidentified lot's lab text through the search box. Now
+passes the same role-derived scope.
+
+Audited the other two callers and left them alone, correctly:
+`lib/rag/reva.ts` pins `['purity_brain','reva_skill']` and
+`['research_paper','coffee_book']`; `lib/rag/audit-claim.ts` pins
+`['research_paper','coffee_book']`. Neither can reach a COA chunk.
+
+### Verification
+
+RPC level:
+
+```
+allowed_coa_scopes = NULL        ->  487 coa chunks
+allowed_coa_scopes = ['purity']  ->   48 coa chunks   (= the purity row count)
+```
+
+Chat's health-category kinds, top-1000 by similarity:
+
+```
+EDITOR / ADMIN   chunks 1000, of which COA 680
+CS / non-editor  chunks 1000, of which COA   2
+non-purity COA chunks reachable in a CS retrieval: 0
+```

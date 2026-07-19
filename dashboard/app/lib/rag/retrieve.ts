@@ -47,10 +47,19 @@ export async function findCanonHit(
   return hits[0] ?? null;
 }
 
+/**
+ * @param allowedCoaScopes restricts COA-derived chunks by coas.product_scope.
+ *   `null` = unrestricted (editors, admins, ingestion). `['purity']` = the
+ *   customer-service allowlist. Passed into the RPC so the restriction is
+ *   applied in SQL — a post-fetch filter would still have pulled a competitor's
+ *   or an unidentified lot's lab text into this process, and would need
+ *   re-implementing correctly at every call site.
+ */
 export async function retrieveChunks(
   client: SupabaseClient,
   question: string,
   cls: Classification,
+  allowedCoaScopes: string[] | null = null,
 ): Promise<ChunkHit[]> {
   const emb = await embedOne(question, 'query');
   // Category-based source kind bias. Coarse but effective at MVP.
@@ -60,6 +69,7 @@ export async function retrieveChunks(
     match_count: TOP_K,
     source_kinds: kinds,
     min_similarity: CHUNK_THRESHOLD,
+    allowed_coa_scopes: allowedCoaScopes,
   });
   if (error) throw error;
   return (data ?? []) as ChunkHit[];
