@@ -3394,3 +3394,103 @@ future import, and a mistake there merges or splits records corpus-wide. It
 warrants its own change with a dry run showing exactly which rows re-key, not a
 same-session addition to a date fix. Scope is one report and five samples, so
 nothing is on fire.
+
+---
+---
+
+# SESSION 11 — 2026-07-19
+
+## Task 2 first — the two misattribution flags — **RESOLVED, opposite outcomes**
+
+Done before task 1, because **both flagged rows were inside the 22**. Applying
+first would have made a possibly-mislabelled row customer-visible.
+
+### `3629638-0` "LIVER VITALITY" — left unclassified
+
+Three files claim this report; all are the same sample
+(`Eurofins Sample: 11608386`). The document reads:
+
+```
+Sample Name: LIVER VITALITY      Eurofins Sample: 11608386
+Lot Number COLOMBIA              Description ROASTED COFFEE
+```
+
+The `blend = PROTECT` came from the **filenames** it was filed under
+(`Purity Protect - Metals per Serving 2022.pdf`), not from the certificate.
+LIVER VITALITY is not in `product-map.json`. This is the signal explicitly
+rejected in session 5: "we filed this under Protect" is not "this is Protect".
+
+Per your guidance — *if the source shows a different product entirely, say so
+and leave unclassified* — it is held at `unclassified` in `MANUAL_SCOPE` so the
+rules cannot promote it. **Needs your call on what LIVER VITALITY actually is.**
+
+### `BRN-49871859-0` — promoted to purity
+
+The document's own `Sample Name` is literally **BALANCE**. The tag matches the
+source, so per your guidance the tag is used. The null `coffee_name` is a
+separate Silliker parser gap, not a classification problem — the row carries
+`lot = O-P-All` and renders, but with no product name.
+
+## Task 1 — apply the reclassifications — **PASS (21, not 22)**
+
+The dry run moved from 22 to 23 once LIVER VITALITY was held, and inspection
+found **two demotions that would have destroyed correct labels**:
+
+```
+3481080-0  competitor -> unclassified   (21-137)
+3481081-0  competitor -> unclassified   (21-357)
+```
+
+Both are Bulletproof, proven by the source documents:
+
+```
+BULLETPROOF_MED_COA.pdf     Sample Name: 21-137  Eurofins Sample: 11153973
+3481080-0_COA.pdf           Sample Name: 21-137  Eurofins Sample: 11153973   <- same sample
+BULLETPROOF_DECAF_COA.pdf   Sample Name: 21-357  Eurofins Sample: 11153979
+3481081-0_COA.pdf           Sample Name: 21-357  Eurofins Sample: 11153979   <- same sample
+```
+
+Each report is filed under both a descriptive name and a generic
+`<report>_COA.pdf`. The generic one won the last import, so `pdf_filename` no
+longer contains "BULLETPROOF" and the brand rule can no longer see it. Applying
+blind would have erased two correct competitor labels.
+
+Held at `competitor` in `MANUAL_SCOPE` with the evidence recorded. The
+underlying defect — **a generic filename overwriting a descriptive one on
+update** — is logged as an open item; `import-coas` should not let
+`<report>_COA.pdf` replace a name carrying brand information.
+
+### Applied
+
+```
+applied. updated=21 failed=0
+purity 51 -> 66 · competitor 6 -> 12 · unclassified 261 -> 245
+```
+
+### The 15 newly CS-visible rows, verified through a customer_service JWT
+
+```
+3608933-0       2022-03-01  PROTECT  Purity PROTECT 2022
+4227190-0       2023-09-13  PROTECT  PROTECT 2023-24 Nutrition      [CGA 20.9 BELOW 40]
+3622341-0       2022-03-01  CALM     Purity CALM 2022
+3622340-0       2022-03-01  FLOW     Purity FLOW 2022
+4227101-0       2023-09-13  PROTECT  PROTECT 2023-24 Contaminants
+4231208-0       2023-09-13  FLOW     FLOW 2023-24 Contaminants
+4231209-0       2023-09-13  FLOW     FLOW 2023-24 Contaminants
+4430620-0       2024-03-12  FLOW     Purity Flow March 2024
+4533907-0       2024-06-12  FLOW     FLOW 2024 Nutrition            [CGA 20.0 BELOW 40]
+4533909-0       2024-06-12  PROTECT  PROTECT 2024 Nutrition         [CGA 22.4 BELOW 40]
+4534143-0       2024-06-11  EASE     EASE 2024 CONTAMINANTS
+4541070-0       2024-06-11  FLOW     FLOW 2024 CONTAMINANTS
+4541084-0       2024-06-11  PROTECT  PROTECT 2024 CONTAMINANTS
+4227189-0       2023-09-13  FLOW     FLOW 2023-24 Nutrition         [CGA 17.7 BELOW 40]
+BRN-49871859-0  2025-10-31  BALANCE  (no name)  lot O-P-All
+```
+
+All 15 carry a report date and a blend. **None lacks a date.** One lacks a
+sample name (`BRN-49871859-0`).
+
+Four now show **CGA BELOW MINIMUM** badges against the 40 mg/g floor. That
+floor has looked wrong since session 2 — 61 records fall under it — and these
+are roasted-product COAs where a green-coffee floor may simply not apply.
+Worth resolving before a rep is asked about it.

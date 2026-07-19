@@ -96,6 +96,29 @@ const MANUAL_SCOPE: Record<string, { scope: 'purity' | 'competitor' | 'unclassif
   'CHG-50217971-0': { scope: 'purity', why: 'manual: APONTE PINK BAG DECAF, OTA 7.3 over the 2 ppb ceiling — owner decision to keep CS-visible' },
   'CHG-50217970-0': { scope: 'purity', why: 'manual: APONTE PINK BAG DECAF, OTA 6.0 over the 2 ppb ceiling — owner decision to keep CS-visible' },
   'CHG-50217786-0': { scope: 'purity', why: 'manual: APONTE GREEN BAG REGULAR, OTA 3.9 over the 2 ppb ceiling — owner decision to keep CS-visible' },
+
+  // Session 11 task 2. The blend column says PROTECT, but that came from the
+  // FILENAMES someone filed it under ("Purity Protect - Metals per Serving
+  // 2022.pdf"). The document itself reads:
+  //     Sample Name: LIVER VITALITY   Eurofins Sample: 11608386
+  //     Lot Number COLOMBIA           Description ROASTED COFFEE
+  // LIVER VITALITY is not in product-map.json. Trusting a filename over the
+  // certificate is the exact error rejected in session 5 — "we filed this under
+  // Protect" is not "this is Protect". Held at unclassified so it cannot reach
+  // customer service as a Purity blend until someone confirms what it is.
+  '3629638-0': { scope: 'unclassified', why: 'manual: document Sample Name is LIVER VITALITY; PROTECT came from the filename, not the COA' },
+
+  // Session 11 task 1. Both are Bulletproof, proven by the source documents:
+  //   BULLETPROOF_MED_COA.pdf    Sample Name: 21-137  Eurofins Sample: 11153973
+  //   BULLETPROOF_DECAF_COA.pdf  Sample Name: 21-357  Eurofins Sample: 11153979
+  // Each report is also filed under a generic <report>_COA.pdf carrying the
+  // same sample id, and the generic name won the last import — so
+  // `pdf_filename` no longer contains "BULLETPROOF" and the brand rule can no
+  // longer see it. Without this the backfill would DEMOTE two confirmed
+  // competitors to unclassified, erasing a correct label. Held until
+  // import-coas stops letting a generic filename overwrite a descriptive one.
+  '3481080-0': { scope: 'competitor', why: 'manual: Bulletproof (BULLETPROOF_MED_COA.pdf, sample 11153973); generic filename overwrote the brand evidence' },
+  '3481081-0': { scope: 'competitor', why: 'manual: Bulletproof (BULLETPROOF_DECAF_COA.pdf, sample 11153979); generic filename overwrote the brand evidence' },
 };
 
 type Row = {
