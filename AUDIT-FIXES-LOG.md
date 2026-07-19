@@ -2019,3 +2019,64 @@ through PostgREST before it is called done.
 
 `COA Auto-Sync` re-enabled at the end of the session. `Research Auto-Sync`
 remains disabled — it was already disabled on arrival and is out of scope.
+
+---
+---
+
+# UNATTENDED SESSION 5 — 2026-07-19
+
+`main`, clean, in sync at `7946a90`. Migrations 0003/0004/0005 already applied.
+**COA Auto-Sync left ENABLED** per your mid-session note — baseline captured at
+02:01Z so a mid-session run is detectable rather than absorbed silently:
+
+```
+total coas 266 · live 261 · competitor 6 / purity 48 / unclassified 212
+max created_at 2026-07-18T16:07:54Z · chunks 30606 · live coa sources 568
+```
+
+### Verification method for this session
+
+Created two **temporary** users so every check runs through PostgREST as a real
+`authenticated` role, not `service_role`:
+
+```
+claude-verify-cs@example.invalid       profile.role = customer_service
+claude-verify-editor@example.invalid   profile.role = editor
+```
+
+`service_role` bypasses RLS and carries no `statement_timeout`, which is
+precisely how the 0003 regression passed its check. Both users are removed in
+task 6.
+
+## Task 1 — classify the APONTE over-OTA lots as purity — **PASS**
+
+```
+CHG-50217971-0  APONTE PINK BAG DECAF     OTA 7.3  2026-02-17  lot RUSH-SOLUBLE
+CHG-50217970-0  APONTE PINK BAG DECAF     OTA 6.0  2026-02-17  lot RUSH-SOLUBLE
+CHG-50217786-0  APONTE GREEN BAG REGULAR  OTA 3.9  2026-02-17  lot RUSH-SOLUBLE
+```
+
+All three `unclassified -> purity`. Scope distribution now
+`purity 51 / competitor 6 / unclassified 204`.
+
+Verified through PostgREST with the customer_service JWT, running the exact
+`/reports/support` query:
+
+```
+CS payload rows: 51
+Green · APONTE PINK BAG DECAF      OTA 7.3 ppb -> [OVER LIMIT]  ceiling 2 ppb  lot RUSH-SOLUBLE  2026-02-17
+Green · APONTE GREEN BAG REGULAR   OTA 3.9 ppb -> [OVER LIMIT]  ceiling 2 ppb  lot RUSH-SOLUBLE  2026-02-17
+```
+
+### One consequence worth your attention
+
+`/reports/support` collapses to **one row per product**, and the two PINK BAG
+DECAF lots share a `coffee_name`. So a rep sees a single row showing **7.3**;
+the **6.0** lot is not separately visible on that surface. Both appear
+individually on `/reports`.
+
+That is the pre-existing per-product aggregation, not something this change
+introduced, and it errs toward showing the worse result — but if the intent is
+that a rep can see every over-limit lot, the support page's grouping is the
+wrong shape for it and needs a per-lot view. I did not change the aggregation;
+that is a product decision.
