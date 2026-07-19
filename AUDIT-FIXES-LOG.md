@@ -1836,3 +1836,80 @@ twice (2021-11-17) and `Roasted decaf Purity` once (2019). If a decaf product
 is still sold under a name absent from `product-map.json`, those records could
 be current rather than historical, and the date argument would not settle it.
 I did not resolve this by inference. Needs your confirmation.
+
+## Task 4 — audit the remaining unclassified — **report only, hypothesis CONFIRMED**
+
+207 live unclassified rows (212 minus the 5 retired in task 2). Nothing changed.
+
+### What they are
+
+```
+A. report_number namespace          B. source document
+   100  NNNNNNN-N  (Eurofins)          161  individual PDF
+    54  CHG-*      (Silliker)           45  Purity research sweep (multi-report DOCX)
+    44  RESEARCH-* (research sweeps)     1  other DOCX
+     8  other
+     1  BRN-*
+
+C. matrix                           D. name shape
+   157  (unset)                        127  origin / farm / producer named
+    41  green                           36  other
+     9  roasted                         27  (no name)
+                                         9  green-lot / sample / test descriptor
+                                         8  bare internal sample code
+```
+
+**Zero unclassified rows carry a `blend` value.**
+
+### The decisive test
+
+A sellable product is roasted. Only **9** of 207 are roasted — and **all nine
+are `RESEARCH-*` records**:
+
+```
+2019-10-01  Roasted Purity blended Honduras     2023-01-01  RESEARCH-2023-01-protect  (null)
+2019-10-01  Roasted regular Purity              2023-01-01  Gesha
+2019-10-01  Roasted Purity Dk Rst               2024-10-04  RESEARCH-2024-10-balance  (null)
+2019-10-01  Roasted decaf Purity                2024-10-04  RESEARCH-2024-10-protect  (null)
+2019-10-01  Test batch #2
+```
+
+Everything else is green coffee or unset. Representative sample of the 127
+origin-named rows:
+
+```
+Colombia – Santa Maria – Castillo – Washed - 2022/23
+Ethiopia - Asikana Farm – Wann Kolli – Organic – Sundried Natural, 2024
+Montebonito – cv Castillo – Lot 3          Swiss Water - Honduras – 18 Conejo
+La Pradera –Castillo Lavado - P39919       HLD02646 / SWP-PERU ORGANIC
+PSS or Offer HONDURAS 2024-Aug             APONTE PINK BAG DECAF
+```
+
+These are green lots, offer samples and PSS (pre-shipment sample) evaluations —
+sourcing and audit material, not retail COAs.
+
+### Verdict: your belief is correct
+
+**Most of the 207 are research and sourcing material, not sellable products.**
+Supporting evidence, independent lines: 61% are origin/farm named; none carries
+a blend; only 4% are roasted and every one of those is a research record; 45
+come from multi-report research sweep documents.
+
+Only **4** are both roasted and within the current lineup era (2022+), so the
+population a CS rep could plausibly be asked about is ~4 records, not 207.
+
+### One thing worth your attention
+
+Three of those four have a **null `coffee_name` but a `report_number` that
+names a current blend**:
+
+```
+RESEARCH-2023-01-protect    RESEARCH-2024-10-protect    RESEARCH-2024-10-balance
+```
+
+The backfill reads `coffee_name`, which is null, so it never saw them — these
+are research analyses **of PROTECT and BALANCE**. They are genuinely our
+products, but they are research-sweep analyses rather than retail lot QC, so
+putting them on the CS surface would mix research results into a page a rep
+reads as production data. I did not classify them. Your call whether
+`report_number` should be a backfill signal for records with no sample name.
