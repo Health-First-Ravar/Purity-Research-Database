@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "notes": "Owner-maintained. Maps sample codes / lot numbers / PO numbers to canonical product keys. Start empty \u2014 system flags unmapped samples as UNRESOLVED in index.json. Populate after bootstrap ingestion to see which IDs need mapping. | sample_to_product seeded 2026-07-18 with exact blend-name matches only (session 2 task 7); origin-named and code-named samples still require owner mapping.",
+  "notes": "Owner-maintained. Maps sample codes / lot numbers / PO numbers to canonical product keys. Start empty — system flags unmapped samples as UNRESOLVED in index.json. Populate after bootstrap ingestion to see which IDs need mapping.",
   "products": {
     "PROTECT": {
       "display_name": "Purity PROTECT",
@@ -30,19 +30,13 @@
       "display_name": "Purity BALANCE",
       "tier": 1,
       "type": "blend",
-      "aliases": [
-        "Balance"
-      ]
+      "aliases": ["Balance"]
     },
     "ALZ": {
       "display_name": "Purity ALZ",
       "tier": 1,
       "type": "blend",
-      "aliases": [
-        "Founders ALZ",
-        "ALZ Contaminants",
-        "ALZ Nutrition"
-      ]
+      "aliases": ["Founders ALZ", "ALZ Contaminants", "ALZ Nutrition"]
     }
   },
   "sample_to_product": {
@@ -50,7 +44,6 @@
     "Flow": "FLOW",
     "Ease": "EASE",
     "Calm": "CALM",
-    "Balance": "BALANCE",
-    "BALANCE": "BALANCE"
+    "Balance": "BALANCE"
   }
 }
