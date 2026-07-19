@@ -61,7 +61,9 @@ export async function POST(req: NextRequest) {
   const answer   = overrides.answer   ?? msg.answer ?? '';
   const freshness_tier = overrides.freshness_tier ?? 'stable';
 
-  const question_embed = await embedOne(question, 'document');
+  // See the input_type note in app/api/editor/canon/[id]/route.ts — canon
+  // matching is question-to-question and must use the symmetric 'query' type.
+  const question_embed = await embedOne(question, 'query');
 
   const { data: canonRow, error: canonErr } = await supabase
     .from('canon_qa')

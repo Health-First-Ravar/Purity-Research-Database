@@ -75,7 +75,12 @@ export async function POST(
 
   let embedUpdate: Record<string, unknown> = {};
   if (questionChanged) {
-    const vec = await embedOne(finalQuestion, 'document');
+    // input_type 'query', not 'document'. canon matching is question-to-question,
+    // which is symmetric; voyage's asymmetric document embeddings put even an
+    // IDENTICAL question at cosine 0.6955, below match_canon's 0.80 floor — so
+    // the cache could never fire for any input. Stored as 'query' the same pair
+    // scores 0.9999 and a near paraphrase 0.8815. Measured, session 12.
+    const vec = await embedOne(finalQuestion, 'query');
     embedUpdate = { question_embed: vec as unknown as string };
   }
 
@@ -159,7 +164,7 @@ export async function PATCH(
   }
 
   if (questionChanged) {
-    const vec = await embedOne(update.question as string, 'document');
+    const vec = await embedOne(update.question as string, 'query');
     update.question_embed = vec as unknown as string;
   }
 

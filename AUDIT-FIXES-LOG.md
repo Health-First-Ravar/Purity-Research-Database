@@ -4299,3 +4299,100 @@ So:
 
 I have not made change 3 — it is a UI judgment beyond the scope of removing the
 mappings feature, and it is one line whenever you want it.
+
+## Task 4: re-point the canon loop at canon_misses
+
+### The headline finding — canon could never have worked
+
+While verifying that a promoted row can actually serve, I found the reason
+`hit_count` has been 0 on every canon row since the system was built. It is not
+only that neither row was `active`. **`match_canon` was mathematically incapable
+of returning a hit for any input whatsoever.**
+
+Canon questions were embedded with voyage `input_type: 'document'`, while
+`findCanonHit()` queries with `'query'`. Those embeddings are asymmetric by
+design — meant for short-query-against-long-passage retrieval. Canon matching is
+question-against-question, which is symmetric, so the mismatch threw away most
+of the signal. Measured against the live index:
+
+```
+                       stored 'document'   stored 'query'
+identical question          0.6955            0.9999
+near paraphrase             0.6362            0.8815
+casual paraphrase           0.6122            0.8195
+different phrasing          0.5703            0.7846
+unrelated (control)         0.2976            0.3041
+```
+
+`match_canon`'s floor is **0.80**. Under the old scheme an exact, word-for-word
+repeat of a canon question scored **0.6955** — it could not clear the bar. The
+0.80 threshold was never wrong; the storage type was.
+
+Fixed at all four write sites (`editor/label`, `editor/canon/[id]` ×2,
+`editor/canon/bulk`) and existing rows re-embedded.
+
+**`npm run embed-canon` pointed at `scripts/embed-canon.ts`, which did not
+exist.** The documented repair path had never been written. It exists now, with
+a dry run by default, and has been applied: `re-embedded=5 failed=0`.
+
+### The loop, re-pointed
+
+`promotion_candidates` filters on `user_rating = 1`. Across the app's entire
+history there has never been a single thumbs-up — 24 of 25 messages unrated, one
+thumbs-down. A queue fed by an action nobody performs stays empty forever.
+
+`canon_misses` (thumbs-down OR escalated OR insufficient_evidence) fills itself
+as a byproduct of normal use and already holds rows. New **Gaps** tab on
+`/editor/canon`, now the default tab, reading `canon_misses` and excluding
+anything already promoted so the queue drains as it is worked.
+
+### One design point I did not follow literally
+
+A promotion candidate is a *good* answer you copy verbatim. **A miss is an
+answer the system got wrong.** Wiring "promote" to a miss the way it is wired to
+a candidate would canonise the failure and then serve it — with canon's
+authority, ahead of the LLM path — to the next person who asks.
+
+So the Gaps queue has no one-click promote. The editor must **write** the
+answer; the button stays disabled until they do; the failed answer is shown
+collapsed as context and is never the default. The API already supported this
+via `overrides.answer`.
+
+### Verified end to end, through a real authenticated JWT
+
+```
+draft  -> served by match_canon? no   (correct — drafts must not serve)
+active -> served by match_canon? YES
+          similarity 0.8195 >= 0.80 threshold, 68ms via PostgREST (8s budget)
+cleanup: temp auth users 0, temp profiles 0
+```
+
+### A second bug found by the cleanup failing
+
+Removing the temp account failed with "Database error deleting user". The cause
+is the same class of bug migration 0011 fixed for `coa_assignment_log.actor`:
+`canon_qa.created_by` references `profiles(id)` with no `ON DELETE`.
+
+It is not one column. **Ten** FK columns reference `profiles(id)` with no delete
+action — `canon_qa.created_by` / `.reviewed_by`, `messages.user_id` /
+`.editor_id`, `update_jobs.triggered_by`, `escalation_events.actor_id`,
+`reva_sessions.user_id`, `claim_audits.user_id`, `coas.assigned_by`. Migration
+0011 fixed exactly one of them.
+
+The practical effect: **any user who has ever asked a chat question, run a claim
+audit, opened a Reva session or created canon can never be deleted.** Offboarding
+anyone will hit this. 0011's own commit message argued that an audit trail which
+blocks offboarding eventually gets worked around by deleting audit rows, which is
+worse — that argument applies verbatim to the other nine.
+
+**Not fixed here.** Changing nine FK constraints across `messages`,
+`claim_audits` and `reva_sessions` is a schema-wide change well beyond
+re-pointing a queue, and it deserves its own dry run. I unblocked my own cleanup
+narrowly instead, by nulling `created_by` on the verification rows before
+deleting the account. Recommended as migration 0014, mirroring 0011.
+
+### Verification artefacts left behind
+
+Four rows in `canon_qa`, all `status='deprecated'` (inert, never served) and
+tagged `['verification']`, with `created_by` nulled. Soft-retired rather than
+deleted per the standing rule. Safe for a human to remove.

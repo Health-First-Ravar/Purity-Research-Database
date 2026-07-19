@@ -132,7 +132,9 @@ export async function POST(req: NextRequest) {
   for (let i = 0; i < pairs.length; i += 32) {
     const batch = pairs.slice(i, i + 32);
     try {
-      const vecs = await embed(batch.map((p) => p.question), 'document');
+      // 'query' not 'document' — canon matching is symmetric. See
+      // app/api/editor/canon/[id]/route.ts for the measured numbers.
+      const vecs = await embed(batch.map((p) => p.question), 'query');
       const rows = batch.map((p, j) => ({
         question: p.question,
         answer:   p.answer,
