@@ -1762,3 +1762,77 @@ audit team (/reports) : 261
 CS (/reports/support) :  48
 duplicate groups remaining: none
 ```
+
+## Task 3 — the "Purity"-named unclassified — **PASS, premise refuted**
+
+### Scoping correction first
+
+Session 3 said "15 records have Purity in the name". Searching name **or
+filename** returns **66** — but the extra 51 are matches on *Purity's own
+research documents* (`Purity results - January - 2023 (1).docx`), whose
+contents are origin samples like `Montebonito – cv Castillo – Lot 4`. "Purity
+commissioned this test" is not "this is a Purity product", the same trap
+identified in session 2. The real population is the **15** whose
+`coffee_name` names a Purity product.
+
+### What they are
+
+```
+2016-08-10  CHG-39259611-0   16-159 / Purity Coffee
+2018-06-04  CHG-41266153-0   18-104 / Purity Coffee Normal
+2018-07-03  CHG-41358639-0   18-104 / Purity Coffee Normal
+2018-08-31  CHG-41545447-0   060919 / Purity Batch BB 060919-Costa-Nica
+2019-08-12  CHG-42655731-0   PURITY2019 / Nicaragua, Columbia, Honduras blend
+2019-10-01  RESEARCH-2019-10-…  Roasted Purity Dk Rst
+2019-10-01  RESEARCH-2019-10-…  Roasted decaf Purity
+2019-10-01  RESEARCH-2019-10-…  Roasted Purity blended Honduras
+2019-10-01  RESEARCH-2019-10-…  Roasted regular Purity
+2020-10-15  3047167-0        Purity Coffee 2020-21
+2021-05-26  3325286-0        Purity Original 2021
+2021-11-17  3478124-0        Purity Decaf
+2021-11-17  3478123-0        Purity Dark Roast
+2021-11-17  3477003-0        Purity Decaf
+2021-11-17  3477083-0        Purity Dark Roast
+```
+
+### The decisive evidence
+
+```
+Purity-product-named unclassified :  2016-08-10 .. 2021-11-17
+Named-blend lineup                :  2022-03-01 .. 2026-02-09
+
+  CALM     2022-03-01 .. 2025-10-31      BALANCE  2023-10-18 .. 2024-11-06
+  EASE     2022-03-01 .. 2025-10-31      ALZ      2024-06-11 .. 2025-06-26
+  FLOW     2022-03-01 .. 2025-10-31      PROTECT  2022-03-01 .. 2026-02-09
+```
+
+**The two naming schemes do not overlap by a single record.** Every
+"Purity &lt;descriptor&gt;" COA predates 2022-03-01; every named-blend COA is on
+or after it. That is the signature of a **product-line rename**, not a mapping
+gap — Purity Original / Dark Roast / Decaf / Coffee Normal became PROTECT /
+FLOW / EASE / CALM at the 2021→2022 boundary.
+
+**So the premise is refuted.** These are not "sellable products that are simply
+unmapped". They are the predecessor line. Adding them to the CS allowlist would
+let a rep quote 2021 lab values for products that no longer exist — the same
+class of error as quoting a competitor's, just with our own name on it.
+
+### Why the backfill missed them — correctly
+
+The rule requires a blend key or a declared product-map alias in the sample
+name. These contain neither, because they name products that predate the blend
+lineup and have no entry in `product-map.json`. The rule behaved as designed.
+
+### Applied: nothing
+
+`proposed-purity-named-mappings.json` written — 15 records, all **high**
+confidence, **0 recommended for the CS allowlist**, each with its evidence and
+the reason the backfill skipped it.
+
+### One open question, flagged not guessed (3 records)
+
+The current lineup contains **no decaf blend**, yet `Purity Decaf` appears
+twice (2021-11-17) and `Roasted decaf Purity` once (2019). If a decaf product
+is still sold under a name absent from `product-map.json`, those records could
+be current rather than historical, and the date argument would not settle it.
+I did not resolve this by inference. Needs your confirmation.
