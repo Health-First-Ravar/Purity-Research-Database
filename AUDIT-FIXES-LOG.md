@@ -3813,3 +3813,85 @@ That is a different feature from the one sitting in the tree.
 
 **Nothing was deleted for this task.** This is the argument; the removal is a
 decision to take, not one to take unilaterally.
+
+---
+
+## Session 11 — Task 6: canon_qa (2 rows) and promotion_candidates (0)
+
+### What it was designed to do
+
+A curated Q&A cache checked *before* the LLM path. `/api/chat` calls
+`findCanonHit()`; if a stored question scores above the similarity threshold the
+turn short-circuits and returns the approved answer — no retrieval, no
+generation. It buys three things: cost and latency on repeat questions, and,
+more importantly for a regulated product, **a guarantee that the common answers
+are ones a human approved**.
+
+The growth loop was meant to run: customer thumbs-up → message appears in
+`promotion_candidates` → editor promotes → `canon_qa` row at `status='draft'` →
+second editor pass flips it to `active` → it starts serving.
+
+### The machinery is complete and works
+
+Not a stub anywhere:
+- `api/editor/label/route.ts:52` promotes, embeds via `embedOne`, writes
+  `status='draft'`.
+- `api/editor/canon/[id]/route.ts` approves/rejects drafts, refusing to act on a
+  non-draft row (409, line 48).
+- `CanonActiveList.tsx:151,157` toggles active ↔ deprecated.
+- Both stored rows have a non-null `question_embed`.
+
+Editors have used it: `editor_label` shows 2 `promote_to_canon` and 1 `good`.
+
+### Why it is at zero — two separate causes
+
+**1. `promotion_candidates` is empty because nobody has ever clicked thumbs-up.**
+Across all 25 messages: `user_rating` is null on 24 and `-1` on one. The view's
+other three clauses pass easily (25 have answers, 25 are non-canon, 12 are
+un-escalated). The single `user_rating = 1` clause empties it.
+
+I checked whether the button is broken. **It is not** —
+`RatingButtons.tsx:45` calls `send(1)` correctly, with optimistic update and
+rollback. Zero upvotes is genuine non-use, not a defect.
+
+**2. The canon cache is structurally dead.** `match_canon`
+(`0001_initial.sql:417`) filters `q.status = 'active'`. Of the two rows, one is
+`deprecated` and one is `draft`. **Neither is active, so the cache cannot return
+a hit under any input.** `hit_count = 0` on both confirms it never has.
+
+That second point has a consequence worth naming: `/metrics` renders a "Quick
+answers ready" figure derived from canon coverage. It is reporting on a cache
+that is incapable of firing.
+
+### Is it worth reviving?
+
+**Not by pushing on the designed trigger. The volume is not there.** 25 messages
+over two months (2026-04-25 → 2026-06-26) is roughly one every two days. A cache
+earns its keep on repeat questions; at this rate there are no repeats to catch,
+and asking a handful of internal users to remember to click thumbs-up in order
+to bootstrap a cache is a workflow that has already failed for two months.
+
+**But the loop should be re-pointed, because a better trigger already has data
+in it.** 13 of 25 messages escalated — a **52% escalation rate**. Those are, by
+definition, the questions the system could not answer well, and they are already
+collected: `canon_misses` holds **14 rows**, against `promotion_candidates`'
+zero.
+
+Canon should be fed from what the system got *wrong*, not from what a customer
+took the trouble to praise. The miss queue fills itself as a byproduct of normal
+use; the praise queue requires an action nobody performs.
+
+### Cheapest useful moves, in order
+
+1. **Resolve the two rows.** One draft has sat unreviewed since 2026-04-30.
+   Approve it or deprecate it — leaving canon in a state where nothing can ever
+   serve is worse than having no canon at all, because `/metrics` reports on it
+   as if it were live.
+2. **Point the editor queue at `canon_misses`** (14 waiting) instead of
+   `promotion_candidates` (0). No schema change; the view exists.
+3. **Treat the 52% escalation rate as the headline number.** It is the strongest
+   signal in the database and it is currently buried on an admin-only page whose
+   percentages are statistically meaningless at n=25.
+
+**Nothing was changed for this task.** Flipping a canon row to `active` makes it
+serve answers to customers; that is a content decision, not a cleanup.
