@@ -2308,3 +2308,82 @@ disabled — it was already disabled before this session and is out of scope.
 ### Verification users removed
 
 Both temporary users deleted; 0 remaining, 0 orphaned profile rows.
+
+---
+---
+
+# UNATTENDED SESSION 6 — 2026-07-19
+
+`main`, clean, in sync at `d9c5037`. Cron active, last run 18:41Z, next 06:00Z.
+Baseline captured for drift detection. Two temp users created for authenticated
+verification, removed in task 5.
+
+## Task 1 — per-product collapse on /reports/support — **PASS**
+
+### The defect was worse than reported
+
+Diagnosed before choosing a fix. The roll-up took the latest non-null value per
+analyte **independently**, which produced two distinct failures:
+
+**Hiding** — APONTE PINK BAG DECAF has two lots at OTA 7.3 and 6.0. The row
+showed 7.3; the 6.0 lot was invisible.
+
+**Chimera** — because each analyte was sourced separately, a single row could
+mix lots. **6 of 10 multi-lot groups rendered a chimera:**
+
+```
+FLOW (11 lots)     acrylamide 153  <- CHG-49655274-0  [2025-08-26]
+                   CGA        18.1 <- 3594987-0       [2022-03-02]
+                   caffeine   0.46 <- CHG-49656184-0  [2025-08-27]
+
+PROTECT (9 lots)   acrylamide 167  <- 5014697-0       [2025-06-19]
+                   CGA        19.9 <- 3655789-0       [2022-04-22]
+
+EASE, CALM, ALZ, BALANCE — same pattern, 2-3 lots merged per row
+```
+
+A rep reading the FLOW row saw a 2022 CGA value beside 2025 acrylamide and
+caffeine, presented as one product's profile. **That row described no lot that
+has ever existed.**
+
+### Decision and reasoning
+
+The brief offered two options: one row per lot, or keep the roll-up and make
+multiplicity explicit.
+
+Annotating the roll-up ("latest of 11 lots", show range, drill-through) fixes
+the *hiding* but not the *chimera* — and the label would itself be false. A
+merged row is not the latest of anything; it is a composite of several. There
+is no honest annotation for a number that describes no real sample.
+
+**One row per lot** is therefore the only option that fixes both. Every number
+stays bound to the report number, lot and date it came from. The cost is more
+rows (51 vs 11), mitigated by grouping under product headers with the lot count
+stated, so navigation survives and multiplicity is explicit anyway.
+
+### Implemented
+
+- `Snap` (per-product aggregate) replaced with `LotRow` (one COA lot, never an
+  aggregate). No cross-lot value selection anywhere in the file.
+- Table is grouped by product with a header row stating
+  `"N lots tested — each row below is one lot, values are not combined"`, or
+  `"1 lot tested"` when unambiguous.
+- Every row carries lot number, report number and test date. Every cell tooltip
+  names the lot and date it came from.
+- Intro copy corrected: *"One row per tested lot. Values are never combined
+  across lots — each number is from the single COA named on its row."*
+
+### Verification (customer_service JWT, through PostgREST)
+
+```
+APONTE PINK BAG DECAF — 2 lots tested, each row below is one lot, values are not combined
+   lot RUSH-SOLUBLE  CHG-50217971-0  2026-02-17  OTA 7.3  [OVER LIMIT]
+   lot RUSH-SOLUBLE  CHG-50217970-0  2026-02-17  OTA 6    [OVER LIMIT]
+
+lot rows rendered : 51   (was 11 aggregate rows)
+rows mixing >1 lot: 0    (structurally impossible now)
+previously-hidden lots now visible: 40 across 10 products
+```
+
+The 6.0 lot is visible with its own badge. Both APONTE lots, all 11 FLOW lots,
+all 9 PROTECT lots are individually inspectable.

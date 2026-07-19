@@ -1,3 +1,4 @@
+import { Fragment } from 'react';
 import { cookies } from 'next/headers';
 import Link from 'next/link';
 import { supabaseServer } from '@/lib/supabase';
@@ -41,14 +42,33 @@ function qualifiersOf(r: Row): Record<string, string> {
   return (r.value_qualifiers ?? {}) as Record<string, string>;
 }
 
-type Snap = {
-  key: string;
+/**
+ * One COA lot. Never an aggregate.
+ *
+ * This page previously rolled every lot of a product into a single row, taking
+ * the latest non-null value per analyte INDEPENDENTLY. That produced two
+ * distinct failures:
+ *
+ *   Hiding  — APONTE PINK BAG DECAF has two lots at OTA 7.3 and 6.0; the row
+ *             showed 7.3 and the 6.0 lot was invisible.
+ *   Chimera — because each analyte was sourced separately, one row could mix
+ *             lots. FLOW merged three: acrylamide from a 2025-08-26 lot, CGA
+ *             from 2022-03-02, caffeine from 2025-08-27. That row described no
+ *             lot that has ever existed.
+ *
+ * A COA is lot-specific. Annotating the roll-up ("latest of 11 lots") would fix
+ * the hiding but not the chimera — a merged row is not the latest of anything.
+ * So every row here is one lot, with its own report number and date.
+ */
+type LotRow = {
+  groupKey: string;
   id: string;
+  reportNumber: string | null;
+  lotNumber: string | null;
+  reportDate: string | null;
   origin: string | null;
-  latestDate: string | null;
   values: Record<string, number | null>;
   quals: Record<string, string | null>;
-  valueDates: Record<string, string | null>;
 };
 
 /**
@@ -137,113 +157,129 @@ export default async function SupportReportPage() {
     byGroup.get(k)!.push(r);
   }
 
-  const snaps: Snap[] = [];
+  // One row per lot. No cross-lot aggregation of any kind.
+  const lotRows: LotRow[] = [];
   for (const [k, list] of byGroup) {
     list.sort((a, b) => String(b.report_date ?? '').localeCompare(String(a.report_date ?? '')));
-    const values: Record<string, number | null> = {};
-    const quals: Record<string, string | null> = {};
-    const valueDates: Record<string, string | null> = {};
-    for (const col of ALL) {
-      let v: number | null = null;
-      let q: string | null = null;
-      let d: string | null = null;
-      for (const r of list) {
-        const x = num(r[col.key]);
-        const qual = qualifiersOf(r)[col.key] ?? null;
-        // A below-LOQ result is information ("not detected"), so a row that
-        // carries only a qualifier still counts as the latest reported result.
-        if (x != null || qual) {
-          v = x; q = qual; d = (r.report_date as string) ?? null; break;
-        }
+    for (const r of list) {
+      const values: Record<string, number | null> = {};
+      const quals: Record<string, string | null> = {};
+      for (const col of ALL) {
+        values[col.key] = num(r[col.key]);
+        quals[col.key] = qualifiersOf(r)[col.key] ?? null;
       }
-      values[col.key] = v;
-      quals[col.key] = q;
-      valueDates[col.key] = d;
+      lotRows.push({
+        groupKey: k,
+        id: r.id,
+        reportNumber: (r.report_number as string) ?? null,
+        lotNumber: (r.lot_number as string) ?? null,
+        reportDate: (r.report_date as string) ?? null,
+        origin: (r.origin as string) ?? null,
+        values,
+        quals,
+      });
     }
-    snaps.push({
-      key: k,
-      id: list[0].id,
-      origin: (list[0].origin as string) ?? null,
-      latestDate: (Object.values(valueDates).filter(Boolean).sort().pop() as string | undefined) ?? (list[0].report_date as string) ?? null,
-      values,
-      quals,
-      valueDates,
-    });
   }
-  snaps.sort((a, b) => a.key.localeCompare(b.key));
-  const blends = snaps.filter((s) => s.key.startsWith('Blend'));
-  const greens = snaps.filter((s) => s.key.startsWith('Green'));
+  // Group -> lots, newest first, groups alphabetical.
+  const byProduct = new Map<string, LotRow[]>();
+  for (const lr of lotRows) {
+    if (!byProduct.has(lr.groupKey)) byProduct.set(lr.groupKey, []);
+    byProduct.get(lr.groupKey)!.push(lr);
+  }
+  const products = [...byProduct.entries()].sort((a, b) => a[0].localeCompare(b[0]));
+  const blends = products.filter(([k]) => k.startsWith('Blend'));
+  const greens = products.filter(([k]) => k.startsWith('Green'));
 
   // Whether any cell on this page renders an out-of-limit badge. The guidance
   // note below is shown only when there is something to route, so it stays
   // meaningful rather than becoming permanent furniture a rep stops reading.
-  const hasOutOfLimit = snaps.some((sn) =>
+  const hasOutOfLimit = lotRows.some((lr) =>
     ALL.some((col) => {
-      const st = evaluate({ key: col.key, value: sn.values[col.key], reported: sn.quals[col.key], limits }).status;
+      const st = evaluate({ key: col.key, value: lr.values[col.key], reported: lr.quals[col.key], limits }).status;
       return st === 'over' || st === 'under';
     }),
   );
 
-  function Section({ title, items }: { title: string; items: Snap[] }) {
+  function Section({ title, items }: { title: string; items: [string, LotRow[]][] }) {
     if (items.length === 0) return null;
     return (
       <div className="mb-8">
         <h2 className="mb-3 font-serif text-lg">{title}</h2>
         <div className="overflow-x-auto rounded-lg border border-purity-bean/10 bg-white shadow-sm dark:border-purity-paper/10 dark:bg-purity-shade dark:shadow-none">
-          <table className="w-full min-w-[760px] text-sm">
+          <table className="w-full min-w-[900px] text-sm">
             <thead>
               <tr className="border-b border-purity-bean/10 text-left text-xs text-purity-muted dark:border-purity-paper/10 dark:text-purity-mist">
-                <th className="p-3">Product</th>
-                <th className="p-3">Latest test</th>
+                <th className="p-3">Lot / report</th>
+                <th className="p-3">Tested</th>
                 {ALL.map((c) => <th key={c.key} className="p-3">{c.label}</th>)}
               </tr>
             </thead>
             <tbody>
-              {items.map((s) => (
-                <tr key={s.key} className="border-b border-purity-bean/5 hover:bg-purity-cream/40 dark:border-purity-paper/5 dark:hover:bg-purity-ink/40">
-                  <td className="p-3">
-                    <Link href={`/reports/${s.id}`} className="block">
-                      {s.key.replace(/^(Blend|Green) · /, '')}
-                      {s.origin && !s.key.includes(s.origin) ? (
-                        <span className="text-purity-muted dark:text-purity-mist"> · {s.origin}</span>
-                      ) : null}
-                    </Link>
-                  </td>
-                  <td className="p-3 text-purity-muted dark:text-purity-mist">{s.latestDate ?? '—'}</td>
-                  {ALL.map((c) => {
-                    const d = formatAnalyte(s.values[c.key], s.quals[c.key], c.unit);
-                    return (
-                      <td
-                        key={c.key}
-                        className={`p-3 font-mono tabular-nums ${
-                          d.kind === 'not_detected'
-                            ? 'text-purity-green dark:text-purity-aqua'
-                            : d.kind === 'not_tested'
-                              ? 'italic text-purity-muted/70 dark:text-purity-mist/70'
-                              : ''
-                        }`}
-                        title={
-                          d.kind === 'not_detected'
-                            ? `Not detected — below the lab's reporting limit of ${d.bound?.replace('<', '')} ${c.unit}${s.valueDates[c.key] ? ` (as of ${s.valueDates[c.key]})` : ''}`
-                            : d.kind === 'not_tested'
-                              ? 'This analyte was not measured on any COA for this product'
-                              : s.valueDates[c.key] ? `as of ${s.valueDates[c.key]}` : undefined
-                        }
-                      >
-                        <span className="block">{d.text}</span>
-                        <span className="mt-0.5 block font-sans">
-                          <LimitBadge
-                            analyteKey={c.key}
-                            value={s.values[c.key]}
-                            reported={s.quals[c.key]}
-                            limits={limits}
-                            verified={limitsVerified}
-                          />
-                        </span>
+              {items.map(([groupKey, lots]) => (
+                <Fragment key={groupKey}>
+                  {/* Product header. The lot count is stated explicitly so a rep
+                      can never mistake one lot's numbers for the product's. */}
+                  <tr className="border-b border-purity-bean/10 bg-purity-cream/60 dark:border-purity-paper/10 dark:bg-purity-ink/50">
+                    <td colSpan={2 + ALL.length} className="px-3 py-2">
+                      <span className="font-semibold">{groupKey.replace(/^(Blend|Green) · /, '')}</span>
+                      <span className="ml-2 text-xs text-purity-muted dark:text-purity-mist">
+                        {lots.length === 1
+                          ? '1 lot tested'
+                          : `${lots.length} lots tested — each row below is one lot, values are not combined`}
+                      </span>
+                    </td>
+                  </tr>
+                  {lots.map((lr) => (
+                    <tr key={lr.id} className="border-b border-purity-bean/5 hover:bg-purity-cream/40 dark:border-purity-paper/5 dark:hover:bg-purity-ink/40">
+                      <td className="p-3">
+                        <Link href={`/reports/${lr.id}`} className="block">
+                          <span className="font-mono text-xs">{lr.lotNumber ?? lr.reportNumber ?? '—'}</span>
+                          {lr.lotNumber && lr.reportNumber ? (
+                            <span className="block font-mono text-[10px] text-purity-muted dark:text-purity-mist">
+                              {lr.reportNumber}
+                            </span>
+                          ) : null}
+                        </Link>
                       </td>
-                    );
-                  })}
-                </tr>
+                      <td className="p-3 font-mono text-xs text-purity-muted dark:text-purity-mist">
+                        {lr.reportDate ?? '—'}
+                      </td>
+                      {ALL.map((c) => {
+                        const d = formatAnalyte(lr.values[c.key], lr.quals[c.key], c.unit);
+                        return (
+                          <td
+                            key={c.key}
+                            className={`p-3 font-mono tabular-nums ${
+                              d.kind === 'not_detected'
+                                ? 'text-purity-green dark:text-purity-aqua'
+                                : d.kind === 'not_tested'
+                                  ? 'italic text-purity-muted/70 dark:text-purity-mist/70'
+                                  : ''
+                            }`}
+                            title={
+                              d.kind === 'not_detected'
+                                ? `Not detected — below the lab's reporting limit of ${d.bound?.replace('<', '')} ${c.unit}. Lot ${lr.lotNumber ?? lr.reportNumber}, tested ${lr.reportDate ?? 'date unknown'}.`
+                                : d.kind === 'not_tested'
+                                  ? `This analyte was not measured on this lot (${lr.reportNumber ?? 'unknown report'})`
+                                  : `Lot ${lr.lotNumber ?? lr.reportNumber}, tested ${lr.reportDate ?? 'date unknown'}`
+                            }
+                          >
+                            <span className="block">{d.text}</span>
+                            <span className="mt-0.5 block font-sans">
+                              <LimitBadge
+                                analyteKey={c.key}
+                                value={lr.values[c.key]}
+                                reported={lr.quals[c.key]}
+                                limits={limits}
+                                verified={limitsVerified}
+                              />
+                            </span>
+                          </td>
+                        );
+                      })}
+                    </tr>
+                  ))}
+                </Fragment>
               ))}
             </tbody>
           </table>
@@ -261,8 +297,8 @@ export default async function SupportReportPage() {
         </Link>
       </div>
       <p className="mb-3 max-w-2xl text-sm text-purity-muted dark:text-purity-mist">
-        Most recent reported result for each blend and green coffee. Each cell is the latest
-        COA that actually reported that analyte (hover a value for its test date). Click a product for its newest full COA.
+        One row per tested lot. Values are never combined across lots — each number is
+        from the single COA named on its row. Click a lot for its full COA.
       </p>
       {!limitsVerified ? (
         <div className="mb-4 rounded-lg border border-purity-rust/40 bg-purity-rust/10 p-3 text-sm">
@@ -292,7 +328,7 @@ export default async function SupportReportPage() {
       </div>
 
       {error && <p className="text-purity-rust">Error: {error.message}</p>}
-      {!error && snaps.length === 0 && (
+      {!error && lotRows.length === 0 && (
         <p className="text-purity-muted dark:text-purity-mist">No COA rows found.</p>
       )}
 
