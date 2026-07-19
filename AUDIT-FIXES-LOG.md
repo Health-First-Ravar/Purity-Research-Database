@@ -2161,3 +2161,82 @@ reproduce the owner decision instead of overwriting it.
 before fix : purity 48 · 3 row(s) would change   <- would have reverted task 1
 after fix  : purity 51 · 0 row(s) would change   <- idempotent
 ```
+
+## Task 4 — CS leak sweep — **PASS, major leak found and closed**
+
+### The leak: the allowlist was application-only
+
+Every control built in sessions 3-4 lived in page queries. RLS on `coas` was
+`auth.role() = 'authenticated'`, and `sources`/`chunks` were the same. Verified
+with a real customer_service JWT and the public anon key:
+
+```
+coas       READABLE, 266 rows      <- including all 6 competitors
+sources    READABLE, 2534 rows
+chunks     READABLE, 30606 rows    <- 200 COA chunks, competitor text among them
+```
+
+`match_chunks` was `security invoker` and took `allowed_coa_scopes` **from the
+caller**, so a non-editor could pass `null` and retrieve every COA chunk,
+defeating 0003/0005 entirely.
+
+Neither requires an exotic attack. The anon key ships in the client bundle by
+design and the session JWT is in the user's own browser. **A control a rep can
+step around with devtools is not a control.**
+
+### Fixes — both server-side
+
+`0006_enforce_coa_scope_in_rls.sql`
+- `coas_read` policy scoped by role: editors see everything, everyone else sees
+  live `purity` rows only. Keeps the `authenticated` requirement so the new
+  clause cannot expose purity rows to `anon`.
+- `match_chunks` now computes the effective scope **itself**. `auth.uid() is
+  null` (service_role, jobs) or `is_editor()` honours the caller's value;
+  everyone else is forced to `['purity']` regardless of what was passed. The
+  parameter can only narrow.
+
+`0007_scope_sources_chunks_rls.sql`
+- Scope applied on `sources` only; `chunks` requires its source to be visible.
+  Because RLS applies inside a policy's own subqueries, the sources policy
+  composes automatically — the rule is expressed once, on `coas`.
+
+### Route table
+
+Gate column is the in-page role check; **scope enforcement is now RLS for every
+row**, which is why the leak column is uniform.
+
+| Route | Gate | Reads | Scope enforcement | Leak |
+|---|---|---|---|---|
+| `/reports` | session (admin only gates a link) | coas | app filter + RLS | no |
+| `/reports/[id]` | session (editor gates edit form) | coas | app filter + RLS | no |
+| `/reports/support` | none in page | coas | pinned purity + RLS | no |
+| `/bibliography` | none in page | match_chunks | role-derived + RPC forces | no |
+| `/api/chat` | session | match_chunks, canon_qa | role-derived + RPC forces | no |
+| `/api/reports/coa/[id]` | editor+ | coas (write) | editor gate + RLS | no |
+| `/api/atlas`, `/api/atlas/unmapped` | session / editor+ | sources | RLS; queries exclude `coa` kind | no |
+| `/api/atlas/candidates/discover` | editor+ | chunks, sources | editor gate + RLS | no |
+| `/api/admin/limits*` | admin | coa_limits | admin gate | no |
+| `/reports/limits`, `/reports/mappings` | admin / editor+ | — | gate | no |
+| `/editor/*`, `/atlas*`, `/heatmap`, `/metrics`, `/reva*` | editor+ / admin | — | gate | no |
+| CSV export | inherits `/reports` rows | — | inherits scoped query | no |
+| **Direct PostgREST with a CS JWT** | n/a | coas/sources/chunks | **RLS** | **no (was YES)** |
+
+### Verification — customer_service, through PostgREST
+
+```
+coas total readable              : 51    (= live purity)
+coas scope=competitor            : 0
+coas scope=unclassified          : 0
+coas retired readable            : 0
+competitor 3481129-0 by id       : 0     (detail URL blocked)
+match_chunks(scopes=NULL)        : 51 coa chunks -> true scopes: purity:51
+coa chunks direct-readable       : 127
+
+editor: coas 266, competitor 6   (benchmarking preserved)
+```
+
+Asking the RPC for **everything** still returns only purity. The 127 direct-
+readable chunks resolve to exactly the 51 live purity COAs — 76 of them are
+chunks from *retired source versions* of those same COAs. Own products, stale
+text, and `match_chunks` filters `valid_until` so retrieval never returns them.
+Noted as housekeeping, not a misattribution risk.
