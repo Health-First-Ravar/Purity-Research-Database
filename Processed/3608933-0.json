@@ -1,24 +1,22 @@
 {
   "schema_version": 1,
-  "status": "VOID",
+  "status": "OK",
   "product_key": "PROTECT",
   "report_number": "3608933-0",
   "test_date": "2022-03-01",
   "sample_name": "Purity PROTECT 2022 Eurofins Sample: 11484824",
   "lot_or_po": "rt",
   "supersedes": "3598471-0",
-  "superseded_by": "3622131-0",
+  "superseded_by": null,
   "lab": "Eurofins (inferred)",
   "serving_size_g": null,
-  "source_file": "/Users/jeremybehne/code/purity/COAs/3608933-0_COA (1).pdf",
-  "source_hash": "3b22fd5b4e82bab5",
+  "source_file": "/Users/jeremybehne/code/purity/COAs/Purity Protect per 100g Roasted Pesticides.pdf",
+  "source_hash": "306702d54edc47a1",
   "parse_confidence": 1.0,
   "parse_notes": [
-    "pages=4 tables=2",
-    "text_rows=31",
-    "retest:Pesticides screened (other):kept='Not Detected ' prior=[{'value_raw': 'Not Detected', 'unit_raw': '', 'source_row_text': 'Pesticides screened (other) Not Detected at LOQ'}]",
-    "retest:Lead:kept='10.6 ppb' prior=[{'value_raw': '36.3', 'unit_raw': 'ppb', 'source_row_text': 'Lead 36.3 ppb'}, {'value_raw': '20.4', 'unit_raw': 'ppb', 'source_row_text': 'Lead 20.4 ppb'}, {'value_raw': '14.8', 'unit_raw': 'ppb', 'source_row_text': 'Lead 14.8 ppb'}]",
-    "retest:Arsenic:kept='21.4 ppb' prior=[{'value_raw': '65.4', 'unit_raw': 'ppb', 'source_row_text': 'Arsenic 65.4 ppb'}, {'value_raw': '27.4', 'unit_raw': 'ppb', 'source_row_text': 'Arsenic 27.4 ppb'}, {'value_raw': '21.5', 'unit_raw': 'ppb', 'source_row_text': 'Arsenic 21.5 ppb'}]"
+    "pages=3 tables=2",
+    "text_rows=21",
+    "retest:Pesticides screened (other):kept='Not Detected ' prior=[{'value_raw': 'Not Detected', 'unit_raw': '', 'source_row_text': 'Pesticides screened (other) Not Detected at LOQ'}]"
   ],
   "analytes": [
     {
@@ -64,50 +62,6 @@
       "method": null,
       "loq": null,
       "retest_sequence": 0
-    },
-    {
-      "analyte": "Lead",
-      "panel": "heavy_metals",
-      "value_normalized": 10.6,
-      "unit_normalized": "ppb",
-      "value_as_reported": "10.6",
-      "unit_as_reported": "ppb",
-      "method": null,
-      "loq": null,
-      "retest_sequence": 3
-    },
-    {
-      "analyte": "Mercury",
-      "panel": "heavy_metals",
-      "value_normalized": 5.0,
-      "unit_normalized": "ppb",
-      "value_as_reported": "<5.00",
-      "unit_as_reported": "ppb",
-      "method": null,
-      "loq": null,
-      "retest_sequence": 0
-    },
-    {
-      "analyte": "Cadmium",
-      "panel": "heavy_metals",
-      "value_normalized": 7.66,
-      "unit_normalized": "ppb",
-      "value_as_reported": "7.66",
-      "unit_as_reported": "ppb",
-      "method": null,
-      "loq": null,
-      "retest_sequence": 0
-    },
-    {
-      "analyte": "Arsenic",
-      "panel": "heavy_metals",
-      "value_normalized": 21.4,
-      "unit_normalized": "ppb",
-      "value_as_reported": "21.4",
-      "unit_as_reported": "ppb",
-      "method": null,
-      "loq": null,
-      "retest_sequence": 3
     },
     {
       "analyte": "Glyphosate",
@@ -286,5 +240,5 @@
       "retest_sequence": 0
     }
   ],
-  "ingested_at": "2026-07-18T20:33:36+00:00"
+  "ingested_at": "2026-07-19T05:24:47+00:00"
 }

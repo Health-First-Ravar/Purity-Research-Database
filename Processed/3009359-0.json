@@ -10,12 +10,12 @@
   "superseded_by": null,
   "lab": "Eurofins (inferred)",
   "serving_size_g": null,
-  "source_file": "/Users/jeremybehne/code/purity/COAs/3009359-0_COA.pdf",
-  "source_hash": "daeaa18aba03065d",
+  "source_file": "/Users/jeremybehne/code/purity/COAs/3009359-0_COA PURITY 2021.pdf",
+  "source_hash": "fa203b1d07d6fec6",
   "parse_confidence": 1.0,
   "parse_notes": [
     "pages=4 tables=2",
-    "text_rows=33"
+    "text_rows=32"
   ],
   "analytes": [
     {
@@ -135,17 +135,6 @@
       "unit_normalized": "mcg/g",
       "value_as_reported": "927",
       "unit_as_reported": "mcg/g",
-      "method": null,
-      "loq": null,
-      "retest_sequence": 0
-    },
-    {
-      "analyte": "Yeast Plate Count",
-      "panel": "micro",
-      "value_normalized": 10.0,
-      "unit_normalized": "CFU/g",
-      "value_as_reported": "<10",
-      "unit_as_reported": "CFU/g",
       "method": null,
       "loq": null,
       "retest_sequence": 0
@@ -382,5 +371,5 @@
       "retest_sequence": 0
     }
   ],
-  "ingested_at": "2026-07-18T20:33:33+00:00"
+  "ingested_at": "2026-07-19T05:23:41+00:00"
 }

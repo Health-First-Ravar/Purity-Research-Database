@@ -10,49 +10,62 @@
   "superseded_by": null,
   "lab": "Silliker / M\u00e9rieux NutriSciences",
   "serving_size_g": null,
-  "source_file": "/Users/jeremybehne/code/purity/COAs/COA-4Jun18 Purity Check+Colombia Check.pdf",
-  "source_hash": "9069d50aeefefa73",
+  "source_file": "/Users/jeremybehne/code/purity/COAs/Jun-18-Redacted-Several Coffee v Purity.pdf",
+  "source_hash": "d845d89b57b65ab7",
   "parse_confidence": 1.0,
   "parse_notes": [
-    "pages=1 tables=2",
-    "silliker_rows=7",
-    "retest:Yeast:kept='<10 /g' prior=[{'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Yeast <10 /g'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Yeast <10 /g'}]",
-    "retest:Mold:kept='<10 /g' prior=[{'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Mold <10 /g'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Mold <10 /g'}]"
+    "pages=3 tables=7",
+    "silliker_rows=59",
+    "retest:Acrylamide:kept='260 ppb (w/w)' prior=[{'value_raw': '160', 'unit_raw': 'ppb (w/w)', 'source_row_text': \"Acrylamide 160 ppb (w/w) Int'l LC/MS/MS H146 6/4/18\"}, {'value_raw': '260', 'unit_raw': 'ppb (w/w)', 'source_row_text': \"Acrylamide 260 ppb (w/w) Int'l LC/MS/MS H146 6/4/18\"}, {'value_raw': '160', 'unit_raw': 'ppb (w/w)', 'source_row_text': \"Acrylamide 160 ppb (w/w) Int'l LC/MS/MS H146 6/4/18\"}, {'value_raw': '160', 'unit_raw': 'ppb (w/w)', 'source_row_text': \"Acrylamide 160 ppb (w/w) Int'l LC/MS/MS H146 6/4/18\"}, {'value_raw': '260', 'unit_raw': 'ppb (w/w)', 'source_row_text': \"Acrylamide 260 ppb (w/w) Int'l LC/MS/MS H146 6/4/18\"}, {'value_raw': '160', 'unit_raw': 'ppb (w/w)', 'source_row_text': \"Acrylamide 160 ppb (w/w) Int'l LC/MS/MS H146 6/4/18\"}, {'value_raw': '160', 'unit_raw': 'ppb (w/w)', 'source_row_text': \"Acrylamide 160 ppb (w/w) Int'l LC/MS/MS H146 6/4/18\"}, {'value_raw': '160', 'unit_raw': 'ppb (w/w)', 'source_row_text': \"Acrylamide 160 ppb (w/w) Int'l LC/MS/MS H146 6/4/18\"}, {'value_raw': '160', 'unit_raw': 'ppb (w/w)', 'source_row_text': \"Acrylamide 160 ppb (w/w) Int'l LC/MS/MS H146 6/4/18\"}, {'value_raw': '160', 'unit_raw': 'ppb (w/w)', 'source_row_text': \"Acrylamide 160 ppb (w/w) Int'l LC/MS/MS H146 6/4/18\"}, {'value_raw': '140', 'unit_raw': 'ppb (w/w)', 'source_row_text': \"Acrylamide 140 ppb (w/w) Int'l LC/MS/MS H146 6/4/18\"}, {'value_raw': '120', 'unit_raw': 'ppb (w/w)', 'source_row_text': \"Acrylamide 120 ppb (w/w) Int'l LC/MS/MS H146 6/4/18\"}, {'value_raw': '120', 'unit_raw': 'ppb (w/w)', 'source_row_text': \"Acrylamide 120 ppb (w/w) Int'l LC/MS/MS H146 6/4/18\"}]",
+    "retest:Yeast:kept='50 /g' prior=[{'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Yeast <10 /g'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Yeast <10 /g'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Yeast <10 /g'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Yeast <10 /g'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Yeast <10 /g'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Yeast <10 /g'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Yeast <10 /g'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Yeast <10 /g'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Yeast <10 /g'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Yeast <10 /g'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Yeast <10 /g'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Yeast <10 /g'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Yeast <10 /g'}, {'value_raw': '50', 'unit_raw': '/g', 'source_row_text': 'Yeast 50 /g'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Yeast <10 /g'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Yeast <10 /g'}, {'value_raw': '50', 'unit_raw': '/g', 'source_row_text': 'Yeast 50 /g'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Yeast <10 /g'}, {'value_raw': '50', 'unit_raw': '/g', 'source_row_text': 'Yeast 50 /g'}]",
+    "retest:Mold:kept='10 /g' prior=[{'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Mold <10 /g'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Mold <10 /g'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Mold <10 /g'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Mold <10 /g'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Mold <10 /g'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Mold <10 /g'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Mold <10 /g'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Mold <10 /g'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Mold <10 /g'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Mold <10 /g'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Mold <10 /g'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Mold <10 /g'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Mold <10 /g'}, {'value_raw': '10', 'unit_raw': '/g', 'source_row_text': 'Mold 10 /g'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Mold <10 /g'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Mold <10 /g'}, {'value_raw': '10', 'unit_raw': '/g', 'source_row_text': 'Mold 10 /g'}, {'value_raw': '<10', 'unit_raw': '/g', 'source_row_text': 'Mold <10 /g'}, {'value_raw': '10', 'unit_raw': '/g', 'source_row_text': 'Mold 10 /g'}]",
+    "retest:Ochratoxin by HPLC:kept='<0.2 mcg/kg' prior=[{'value_raw': '<0.2', 'unit_raw': 'mcg/kg', 'source_row_text': 'Ochratoxin by HPLC <0.2 mcg/kg AOAC 2000.03 5/25/18'}, {'value_raw': '<0.2', 'unit_raw': 'mcg/kg', 'source_row_text': 'Ochratoxin by HPLC <0.2 mcg/kg AOAC 2000.03 5/25/18'}, {'value_raw': '<0.2', 'unit_raw': 'mcg/kg', 'source_row_text': 'Ochratoxin by HPLC <0.2 mcg/kg AOAC 2000.03 5/25/18'}, {'value_raw': '<0.2', 'unit_raw': 'mcg/kg', 'source_row_text': 'Ochratoxin by HPLC <0.2 mcg/kg AOAC 2000.03 5/25/18'}]"
   ],
   "analytes": [
     {
       "analyte": "Acrylamide",
       "panel": "acrylamide",
-      "value_normalized": 160.0,
+      "value_normalized": 260.0,
       "unit_normalized": "ppb (w/w)",
-      "value_as_reported": "160",
+      "value_as_reported": "260",
       "unit_as_reported": "ppb (w/w)",
       "method": null,
       "loq": null,
-      "retest_sequence": 0
+      "retest_sequence": 13
     },
     {
       "analyte": "Yeast",
       "panel": "micro",
-      "value_normalized": 10.0,
+      "value_normalized": 50.0,
       "unit_normalized": "/g",
-      "value_as_reported": "<10",
+      "value_as_reported": "50",
       "unit_as_reported": "/g",
       "method": null,
       "loq": null,
-      "retest_sequence": 2
+      "retest_sequence": 19
     },
     {
       "analyte": "Mold",
       "panel": "micro",
       "value_normalized": 10.0,
       "unit_normalized": "/g",
-      "value_as_reported": "<10",
+      "value_as_reported": "10",
       "unit_as_reported": "/g",
       "method": null,
       "loq": null,
-      "retest_sequence": 2
+      "retest_sequence": 19
+    },
+    {
+      "analyte": "Ochratoxin by HPLC",
+      "panel": "mycotoxins",
+      "value_normalized": 0.2,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.2",
+      "unit_as_reported": "mcg/kg",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 4
     }
   ],
-  "ingested_at": "2026-07-18T20:34:03+00:00"
+  "ingested_at": "2026-07-19T05:24:30+00:00"
 }

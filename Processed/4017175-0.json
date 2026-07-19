@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "status": "UNRESOLVED",
+  "product_key": null,
+  "report_number": "4017175-0",
+  "test_date": "2023-03-15",
+  "sample_name": "Gesha Special Reserve-Nutrients Eurofins Sample: 12715440",
+  "lot_or_po": "rt",
+  "supersedes": null,
+  "superseded_by": null,
+  "lab": "Eurofins (inferred)",
+  "serving_size_g": 15.0,
+  "source_file": "/Users/jeremybehne/code/purity/COAs/Gesha Nutrients.pdf",
+  "source_hash": "031e96e6b8e8cb94",
+  "parse_confidence": 1.0,
+  "parse_notes": [
+    "pages=2 tables=1",
+    "text_rows=11"
+  ],
+  "analytes": [
+    {
+      "analyte": "Iron",
+      "panel": "other",
+      "value_normalized": 0.368,
+      "unit_normalized": "mg/Serving Size",
+      "value_as_reported": "0.368",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Copper",
+      "panel": "other",
+      "value_normalized": 0.189,
+      "unit_normalized": "mg/Serving Size",
+      "value_as_reported": "0.189",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Calcium",
+      "panel": "other",
+      "value_normalized": 14.3,
+      "unit_normalized": "mg/Serving Size",
+      "value_as_reported": "14.3",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Potassium",
+      "panel": "other",
+      "value_normalized": 241.0,
+      "unit_normalized": "mg/Serving Size",
+      "value_as_reported": "241",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Zinc",
+      "panel": "other",
+      "value_normalized": 0.417,
+      "unit_normalized": "mg/Serving Size",
+      "value_as_reported": "0.417",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Phosphorus",
+      "panel": "other",
+      "value_normalized": 25.9,
+      "unit_normalized": "mg/Serving Size",
+      "value_as_reported": "25.9",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Magnesium",
+      "panel": "other",
+      "value_normalized": 26.5,
+      "unit_normalized": "mg/Serving Size",
+      "value_as_reported": "26.5",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Vitamin E",
+      "panel": "other",
+      "value_normalized": 0.39,
+      "unit_normalized": "mg/Serving Size",
+      "value_as_reported": "0.390",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Riboflavin",
+      "panel": "other",
+      "value_normalized": 0.047,
+      "unit_normalized": "mg/Serving Size",
+      "value_as_reported": "0.047",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Niacin",
+      "panel": "other",
+      "value_normalized": 0.663,
+      "unit_normalized": "mg/Serving Size",
+      "value_as_reported": "0.663",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Biotin",
+      "panel": "other",
+      "value_normalized": 5.46,
+      "unit_normalized": "mcg/Serving Size",
+      "value_as_reported": "5.46",
+      "unit_as_reported": "mcg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    }
+  ],
+  "ingested_at": "2026-07-19T05:24:29+00:00"
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "status": "UNRESOLVED",
-  "product_key": null,
+  "status": "OK",
+  "product_key": "PROTECT",
   "report_number": "3629638-0",
   "test_date": "2022-04-04",
   "sample_name": "LIVER VITALITY Eurofins Sample: 11608386",
@@ -10,8 +10,8 @@
   "superseded_by": null,
   "lab": "Eurofins (inferred)",
   "serving_size_g": 15.0,
-  "source_file": "/Users/jeremybehne/code/purity/COAs/3629638-0_COA.pdf",
-  "source_hash": "19a362c09b7eeabe",
+  "source_file": "/Users/jeremybehne/code/purity/COAs/Purity Protect - Metals per Serving 2022.pdf",
+  "source_hash": "fec25321d91642ee",
   "parse_confidence": 1.0,
   "parse_notes": [
     "pages=1 tables=1",
@@ -63,5 +63,5 @@
       "retest_sequence": 0
     }
   ],
-  "ingested_at": "2026-07-18T20:33:36+00:00"
+  "ingested_at": "2026-07-19T05:24:46+00:00"
 }

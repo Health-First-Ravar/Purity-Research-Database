@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "status": "LOW_CONFIDENCE",
+  "product_key": null,
+  "report_number": "F-PA-02",
+  "test_date": null,
+  "sample_name": "995712-01: SG-3529 / ELEVAFINCA / P000060 / CINCINNATI / ORG\u00c1NICO / NOP EXCELSO EP10% - 84 + SC4",
+  "lot_or_po": null,
+  "supersedes": null,
+  "superseded_by": null,
+  "lab": "CROM-MASS / UIS",
+  "serving_size_g": null,
+  "source_file": "/Users/jeremybehne/code/purity/COAs/INF 26-0275 RIOSIERRA SAS - Laboratorio CR.pdf",
+  "source_hash": "ff982ae1e6c6b473",
+  "parse_confidence": 0.35,
+  "parse_notes": [
+    "pages=1 tables=12",
+    "missing_test_date",
+    "no_analyte_rows_extracted"
+  ],
+  "analytes": [],
+  "ingested_at": "2026-07-19T05:24:30+00:00"
+}

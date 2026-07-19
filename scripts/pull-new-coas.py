@@ -7,8 +7,10 @@ Auth: Application Default Credentials (ADC).
   - Locally: run `gcloud auth application-default login` once.
 
 Behavior:
-  1. List every PDF and .docx directly under DRIVE_COA_FOLDER_ID (no recursion —
-     subfolders belong to other workflows and are deliberately not walked).
+  1. Walk DRIVE_COA_FOLDER_ID recursively for PDFs and .docx, skipping the
+     folders named in SKIP_FOLDERS. Current lab work is filed both in the base
+     folder and in subfolders (Reese and others use Processed/), so a
+     non-recursive listing misses live COAs.
   2. Classify COA vs not-COA (filename + first-page text fingerprint).
   3. Skip filenames already present in COAs/.
   4. Download missing COAs into COAs/. Quarantine non-COAs into _NotCOA/.
@@ -21,6 +23,7 @@ Env:
 """
 from __future__ import annotations
 
+import hashlib
 import io
 import json
 import os
@@ -88,8 +91,68 @@ MIME_DOC_LEGACY = "application/msword"
 FETCH_MIMES = (MIME_PDF, MIME_DOCX)
 
 
+# Subfolders NOT walked.
+#
+# "Lost files" is human tidying — book manuscripts, Sacred Cups material and
+# admin documents the classifier already blocks. Walking it would download tens
+# of megabytes of material only to quarantine it.
+SKIP_FOLDERS = {"Lost files"}
+
+
 def list_documents(drive, folder_id):
-    """Direct children only. Subfolder recursion is intentionally absent."""
+    """Recursive walk. Returns files tagged with the folder path they came from."""
+    mime_clause = " or ".join(f"mimeType='{m}'" for m in FETCH_MIMES)
+    out = []
+
+    def walk(fid, path):
+        token = None
+        while True:
+            resp = (
+                drive.files()
+                .list(
+                    q=f"'{fid}' in parents and ({mime_clause}) and trashed=false",
+                    fields="nextPageToken, files(id,name,size,md5Checksum,mimeType)",
+                    pageSize=200,
+                    pageToken=token,
+                    supportsAllDrives=True,
+                    includeItemsFromAllDrives=True,
+                )
+                .execute()
+            )
+            for f in resp.get("files", []):
+                f["_folder"] = path
+                out.append(f)
+            token = resp.get("nextPageToken")
+            if not token:
+                break
+        token = None
+        while True:
+            resp = (
+                drive.files()
+                .list(
+                    q=f"'{fid}' in parents and mimeType='application/vnd.google-apps.folder' and trashed=false",
+                    fields="nextPageToken, files(id,name)",
+                    pageSize=200,
+                    pageToken=token,
+                    supportsAllDrives=True,
+                    includeItemsFromAllDrives=True,
+                )
+                .execute()
+            )
+            for d in resp.get("files", []):
+                if d["name"] in SKIP_FOLDERS:
+                    print(f"  skipping folder (excluded): {d['name']}")
+                    continue
+                walk(d["id"], f"{path}/{d['name']}" if path else d["name"])
+            token = resp.get("nextPageToken")
+            if not token:
+                break
+
+    walk(folder_id, "")
+    return out
+
+
+def _unused_flat_listing(drive, folder_id):
     files, token = [], None
     mime_clause = " or ".join(f"mimeType='{m}'" for m in FETCH_MIMES)
     q = f"'{folder_id}' in parents and ({mime_clause}) and trashed=false"
@@ -184,13 +247,28 @@ def main():
     # the file is re-downloaded, re-parsed, and fails again. That is how one
     # 3-byte non-PDF kept ingest.py's error count at 1 and stopped
     # last_successful_sync from ever advancing.
-    def _names(d):
-        # Match every extension we now fetch, not just .pdf — otherwise a
-        # downloaded .docx is invisible to the skip-set and re-downloaded on
-        # every run, and re-quarantined ones come back from _NotCOA/.
-        return {p.name for p in d.glob("*") if p.suffix.lower() in {".pdf", ".docx"}} if d.exists() else set()
+    def _local(d):
+        return [p for p in d.glob("*") if p.suffix.lower() in {".pdf", ".docx"}] if d.exists() else []
 
-    existing = _names(COAS_DIR) | _names(NOTCOA_DIR)
+    local_files = _local(COAS_DIR) + _local(NOTCOA_DIR)
+    existing = {p.name for p in local_files}
+
+    # Content index. Drive's md5Checksum lets us recognise a file we already
+    # hold even when it arrives under a different name or from another folder,
+    # so recursion cannot re-download the same document twice.
+    def _md5(path: Path) -> str:
+        h = hashlib.md5()
+        with path.open("rb") as fh:
+            for block in iter(lambda: fh.read(1024 * 1024), b""):
+                h.update(block)
+        return h.hexdigest()
+
+    existing_md5 = {}
+    for p in local_files:
+        try:
+            existing_md5[_md5(p)] = p.name
+        except Exception:
+            pass
 
     drive = drive_client()
     files = list_documents(drive, FOLDER_ID)
@@ -206,12 +284,47 @@ def main():
     manifest = {"run": datetime.now(timezone.utc).isoformat(), "items": []}
     counts = {"found": len(files), "skipped_existing": 0, "downloaded": 0,
               "downloaded_pdf": 0, "downloaded_docx": 0,
+              "skipped_same_content": 0, "name_conflicts": 0,
               "quarantined": 0, "failed": 0}
+
+    # Resolve same-name collisions across folders BEFORE downloading.
+    #
+    # Rule: deduplicate on content hash, never on filename.
+    #   same name + same md5  -> one document filed twice; take the base-folder
+    #                            copy, which is where current lab work lands.
+    #   same name + diff md5  -> genuinely different documents. Both would parse
+    #                            to the same report_number, and import-coas
+    #                            matches on that, so ingesting the second would
+    #                            OVERWRITE the first and last-write would win.
+    #                            Take the base copy and REPORT the other rather
+    #                            than silently choosing.
+    by_name = {}
+    for f in files:
+        by_name.setdefault(f["name"], []).append(f)
+    conflicts = []
+    chosen = []
+    for name, group in by_name.items():
+        if len(group) == 1:
+            chosen.append(group[0])
+            continue
+        hashes = {g.get("md5Checksum") for g in group}
+        group.sort(key=lambda g: (g.get("_folder") or ""))  # base folder ("") first
+        chosen.append(group[0])
+        if len(hashes) > 1:
+            conflicts.append({"name": name, "taken": group[0].get("_folder") or "(base)",
+                              "copies": [{"folder": g.get("_folder") or "(base)",
+                                          "size": g.get("size"),
+                                          "md5": g.get("md5Checksum")} for g in group]})
+    counts["name_conflicts"] = len(conflicts)
+    files = chosen
 
     for f in files:
         name, fid = f["name"], f["id"]
         if name in existing:
             counts["skipped_existing"] += 1
+            continue
+        if f.get("md5Checksum") and f["md5Checksum"] in existing_md5:
+            counts["skipped_same_content"] += 1
             continue
         try:
             kind = classify(drive, f)
@@ -227,17 +340,26 @@ def main():
         except Exception as e:
             counts["failed"] += 1
             status = f"failed: {e}"
-        manifest["items"].append({"name": name, "id": fid, "status": status})
+        manifest["items"].append({"name": name, "id": fid, "status": status,
+                                  "folder": f.get("_folder") or "(base)"})
 
     LOGS_DIR.mkdir(exist_ok=True)
     out = LOGS_DIR / f"coa-sync-{datetime.now(timezone.utc):%Y%m%d-%H%M%S}.json"
     manifest["counts"] = counts
+    manifest["name_conflicts"] = conflicts
     out.write_text(json.dumps(manifest, indent=2))
 
     print("COA Drive sync summary")
     for k, v in counts.items():
         print(f"  {k:18} {v}")
     print(f"  manifest -> {out.relative_to(ROOT)}")
+    if conflicts:
+        print(f"  NAME CONFLICTS ({len(conflicts)}) — same filename, DIFFERENT content.")
+        print("    Took the base-folder copy; the other is NOT ingested. Inspect manually:")
+        for c in conflicts:
+            print(f"      {c['name']}")
+            for cp in c["copies"]:
+                print(f"         {cp['folder']:<12} {str(cp['size']):>9} B  md5={str(cp['md5'])[:12]}")
     if legacy:
         print(f"  NOTE: {len(legacy)} legacy .doc file(s) NOT fetched "
               f"(python-docx cannot read the old binary format):")

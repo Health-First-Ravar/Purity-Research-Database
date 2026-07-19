@@ -2951,3 +2951,140 @@ real `914463-0` row is intact in the database. Nothing was lost.
 
 Flagging it because it means **every ingest run now deletes files**, which was
 not obvious from the task description and is worth knowing.
+
+---
+---
+
+# SESSION 9 — 2026-07-19 · subfolder recursion
+
+Correcting the earlier instruction to skip subfolders: `Processed/` holds
+current Purity lab work filed by Reese and others, not another project's data.
+
+## Change
+
+`scripts/pull-new-coas.py`
+- `list_documents` now walks the folder tree recursively, tagging each file
+  with the folder it came from.
+- `SKIP_FOLDERS = {"Lost files"}` — book manuscripts and Sacred Cups material
+  the classifier already blocks; walking it would download tens of megabytes
+  only to quarantine them.
+- Both PDF and `.docx` still fetched; legacy `.doc` still reported, not fetched.
+
+`scripts/backfill-product-scope.ts` — `nat force|natforce` added to the
+competitor blocklist, with the comment updated to record that **three**
+separate passes over this corpus have now each missed a brand (MUDWTR and KION
+in session 5, NAT_FORCE here), all arriving from a folder the puller had never
+read. That is the argument for the `purity` allowlist, not the blocklist,
+being what protects customer service.
+
+## The duplicate-filename rule, stated before applying
+
+Measured first: **7 filename collisions across folders, not 11** — the earlier
+figure conflated Drive-side collisions with names already present in `coas`.
+Six are byte-identical; exactly one differs.
+
+**Rule: deduplicate on content hash, never on filename.**
+
+1. **Same name, same md5** — one document filed twice. Take the base-folder
+   copy; it is where current lab work lands. Six of seven resolve here.
+2. **Same name, different md5** — genuinely different documents. Take the base
+   copy and **do not ingest the other**, reporting it by name, size and hash.
+
+Reasoning for (2): both copies parse to the same `report_number`, and
+`import-coas` matches on that, so ingesting the second would **update the same
+row** and whichever ran last would win. The one real case is
+`COA-31-Oct-25-Bette-Buna-49872102-0.pdf` at 143,950 B (base) against 81,212 B
+(`Processed/`) — plausibly truncated. Silently overwriting a good record with a
+worse parse is the failure mode; surfacing it costs one line and loses nothing.
+
+A local md5 index was added so a file already held is recognised even under a
+different name — recursion cannot re-download the same document twice.
+
+## Chain run
+
+```
+pull    found 528 · skipped_existing 313 · downloaded 151 · skipped_same_content 3
+        name_conflicts 1 · quarantined 54 · failed 0
+ingest  errors 0 · last_successful_sync 2026-07-19T05:24:51Z · clean-stale deleted 0
+import  inserted 54 · updated 205 · deduped 0 · skipped 11 · errors 0
+embed   inserted 86 · unchanged 231 · errors 0
+```
+
+Second pull: `found 528 · skipped_existing 518 · downloaded 0` — idempotent.
+
+## Results
+
+```
+coas total 269 -> 323  (+54)      live 264 -> 318
+  competitor    6 -> 6
+  purity       51 -> 51
+  unclassified 207 -> 261  (+54)   <- every new row landed unclassified
+chunks 30609 -> 30695  (+86)
+max report_date 2026-04-27 -> 2026-06-22
+duplicate report_number groups : 0
+same-file same-report groups   : 0
+```
+
+**All 54 new rows are `unclassified`**, so none is visible to customer service.
+That is the allowlist behaving correctly on an influx of unidentified material.
+
+### The two named reports — present
+
+```
+5427133-0  Clearpath_Fernando_Ospina_El_Graniz   5427133-0_COA.pdf
+5427134-0  Clearpath_Libardo_Ospina_LasOrquide   5427134-0_COA.pdf
+```
+
+### Notable arrivals
+
+**Cold brew now has data.** Session 5 recorded cold brew as having zero
+representation anywhere in the corpus, flagged as new scope with nothing behind
+it. `Processed/` held it all along:
+
+```
+2025-06-19  4978036-0  2025 Nutrition COLD BREW
+2025-06-19  4978127-0  2025 Contaminants COLD BREW
+```
+
+Also arrived: `GESHA 2026`, three 2026-02 PSS samples (Colombia Decaf, Aponte
+Honey, Santa Maria), Peru/Colombia organics, and two `SACRED CUPS` rows —
+worth a look, since "Sacred Cups" is in the non-COA filename blocklist as
+non-COA material yet these are genuine COAs whose *sample name* is Sacred Cups.
+
+## Two defects found, neither fixed here
+
+### 1. The parser stores the wrong date — systemic
+
+`5427133-0_COA.pdf` page 1:
+
+```
+Report Date    01-Jul-2026     <- correct
+Receipt Date   19-Jun-2026
+Login Date     16-Jun-2026
+Date Started   22-Jun-2026     <- what we stored
+```
+
+`lib_extract` picks **Date Started**, not **Report Date**. This is not specific
+to one file — every Eurofins COA carries the same four-date header, so report
+dates across the corpus are likely skewed early by days to weeks.
+
+Not fixed here: correcting date extraction rewrites a regulated field on every
+Eurofins record, and belongs in its own change with before/after evidence for a
+sample of records, not folded into a recursion PR.
+
+### 2. Three NAT_FORCE files collapsed onto one existing row
+
+```
+NAT_FORCE_DARK_COA.pdf   -> report 3522613-0
+NAT_FORCE_DECAF_COA.pdf  -> report 3522613-0
+NAT_FORCE_MED_COA.pdf    -> report 3522613-0
+```
+
+All three parsed to the **same** report number, which already existed, so
+`import-coas` matched on it and updated that one row three times — last write
+wins. Three distinct competitor products are represented by one record, and
+there is no NAT_FORCE row for the blocklist addition to act on.
+
+Either the parser is misreading the report number on these, or all three
+genuinely cite one report. Needs the PDFs opened. The blocklist entry stays: it
+is correct and will apply once the rows exist separately.

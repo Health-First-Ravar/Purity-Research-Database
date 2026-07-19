@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "status": "UNRESOLVED",
+  "product_key": null,
+  "report_number": "S04172026-49930",
+  "test_date": "2026-04-23",
+  "sample_name": "APONTE DECAF ROASTED",
+  "lot_or_po": "APONTE DECAF ROASTED",
+  "supersedes": null,
+  "superseded_by": null,
+  "lab": "Trilogy Analytical Laboratories",
+  "serving_size_g": null,
+  "source_file": "/Users/jeremybehne/code/purity/COAs/Aponte Decaf EA 2026 Mycotoxins.pdf",
+  "source_hash": "9495eab8e156761c",
+  "parse_confidence": 1.0,
+  "parse_notes": [
+    "pages=1 tables=0",
+    "trilogy_rows=12"
+  ],
+  "analytes": [
+    {
+      "analyte": "Aflatoxin B1",
+      "panel": "mycotoxins",
+      "value_normalized": 1.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<1",
+      "unit_as_reported": "ppb",
+      "method": "LC-MS/MS",
+      "loq": "1",
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Aflatoxin B2",
+      "panel": "mycotoxins",
+      "value_normalized": 1.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<1",
+      "unit_as_reported": "ppb",
+      "method": "LC-MS/MS",
+      "loq": "1",
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Aflatoxin G1",
+      "panel": "mycotoxins",
+      "value_normalized": 1.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<1",
+      "unit_as_reported": "ppb",
+      "method": "LC-MS/MS",
+      "loq": "1",
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Aflatoxin G2",
+      "panel": "mycotoxins",
+      "value_normalized": 1.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<1",
+      "unit_as_reported": "ppb",
+      "method": "LC-MS/MS",
+      "loq": "1",
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Deoxynivalenol",
+      "panel": "other",
+      "value_normalized": 0.1,
+      "unit_normalized": "ppm",
+      "value_as_reported": "<0.1",
+      "unit_as_reported": "ppm",
+      "method": "LC-MS/MS",
+      "loq": "0.1",
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Fumonisin B1",
+      "panel": "other",
+      "value_normalized": 0.1,
+      "unit_normalized": "ppm",
+      "value_as_reported": "<0.1",
+      "unit_as_reported": "ppm",
+      "method": "LC-MS/MS",
+      "loq": "0.1",
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Fumonisin B2",
+      "panel": "other",
+      "value_normalized": 0.1,
+      "unit_normalized": "ppm",
+      "value_as_reported": "<0.1",
+      "unit_as_reported": "ppm",
+      "method": "LC-MS/MS",
+      "loq": "0.1",
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Fumonisin B3",
+      "panel": "other",
+      "value_normalized": 0.1,
+      "unit_normalized": "ppm",
+      "value_as_reported": "<0.1",
+      "unit_as_reported": "ppm",
+      "method": "LC-MS/MS",
+      "loq": "0.1",
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Ochratoxin A",
+      "panel": "mycotoxins",
+      "value_normalized": 1.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<1",
+      "unit_as_reported": "ppb",
+      "method": "LC-MS/MS",
+      "loq": "1",
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Zearalenone",
+      "panel": "other",
+      "value_normalized": 12.5,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<12.5",
+      "unit_as_reported": "ppb",
+      "method": "LC-MS/MS",
+      "loq": "12.5",
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "T-2 Toxin",
+      "panel": "other",
+      "value_normalized": 5.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<5",
+      "unit_as_reported": "ppb",
+      "method": "LC-MS/MS",
+      "loq": "5",
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "HT-2 Toxin",
+      "panel": "other",
+      "value_normalized": 5.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<5",
+      "unit_as_reported": "ppb",
+      "method": "LC-MS/MS",
+      "loq": "5",
+      "retest_sequence": 0
+    }
+  ],
+  "ingested_at": "2026-07-19T05:23:52+00:00"
+}

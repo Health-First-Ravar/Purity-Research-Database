@@ -62,12 +62,15 @@ for (const [k, v] of Object.entries(map.products ?? {})) {
 // them — `\bkion\b` does NOT match "KION_DECAF". Normalise separators to
 // spaces first (see `normalise`), then plain \b boundaries are reliable.
 //
-// This list is EVIDENCE for labelling, never the safety mechanism. Two
-// separate passes over this corpus each missed a brand; a blocklist cannot be
-// trusted to be complete, which is exactly why customer service is gated by
-// the `purity` allowlist instead.
+// This list is EVIDENCE for labelling, never the safety mechanism. THREE
+// separate passes over this corpus have now each missed a brand — MUDWTR and
+// KION in session 5, NAT_FORCE in session 9, all arriving from a folder the
+// puller had never read. A blocklist cannot be trusted to be complete, which
+// is exactly why customer service is gated by the `purity` allowlist instead:
+// an unrecognised brand lands as `unclassified` and is invisible to CS by
+// default rather than being shown as ours.
 const COMPETITOR =
-  /\b(bulletproof|lifeboost|java burn|mud wtr|mudwtr|kion|folgers|starbucks|peets?|death wish|kicking horse|maxwell|nescafe|dunkin|caribou|four sigmatic)\b/i;
+  /\b(bulletproof|lifeboost|java burn|mud wtr|mudwtr|kion|nat force|natforce|folgers|starbucks|peets?|death wish|kicking horse|maxwell|nescafe|dunkin|caribou|four sigmatic)\b/i;
 
 /** Underscores/hyphens -> spaces so \b works against filename tokens. */
 const normalise = (s: string) => s.replace(/[_\-.]+/g, ' ');

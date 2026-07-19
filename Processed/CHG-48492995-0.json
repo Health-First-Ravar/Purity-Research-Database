@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "status": "UNRESOLVED",
+  "product_key": null,
+  "report_number": "CHG-48492995-0",
+  "test_date": "2024-08-15",
+  "sample_name": "Guatemala La Hermosa PSS Green Sample",
+  "lot_or_po": null,
+  "supersedes": null,
+  "superseded_by": null,
+  "lab": "Silliker / M\u00e9rieux NutriSciences",
+  "serving_size_g": null,
+  "source_file": "/Users/jeremybehne/code/purity/COAs/Retest-Silliker-Guatemala and Colombia MWP Aug 2024.pdf",
+  "source_hash": "2c9a9f247efecc1b",
+  "parse_confidence": 1.0,
+  "parse_notes": [
+    "pages=1 tables=2",
+    "silliker_rows=12",
+    "retest:Arsenic:kept='<0.01 ppm (w/w)' prior=[{'value_raw': '<0.01', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Arsenic <0.01 ppm (w/w)'}, {'value_raw': '<0.01', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Arsenic <0.01 ppm (w/w)'}]",
+    "retest:Cadmium:kept='0.008 ppm (w/w)' prior=[{'value_raw': '0.002', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Cadmium 0.002 ppm (w/w)'}, {'value_raw': '0.008', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Cadmium 0.008 ppm (w/w)'}]",
+    "retest:Lead:kept='<0.01 ppm (w/w)' prior=[{'value_raw': '0.11', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Lead 0.11 ppm (w/w)'}, {'value_raw': '<0.01', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Lead <0.01 ppm (w/w)'}]",
+    "retest:Mercury:kept='<0.005 ppm (w/w)' prior=[{'value_raw': '<0.005', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Mercury <0.005 ppm (w/w)'}, {'value_raw': '<0.005', 'unit_raw': 'ppm (w/w)', 'source_row_text': 'Mercury <0.005 ppm (w/w)'}]"
+  ],
+  "analytes": [
+    {
+      "analyte": "Arsenic",
+      "panel": "heavy_metals",
+      "value_normalized": 10.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.01",
+      "unit_as_reported": "ppm (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 2
+    },
+    {
+      "analyte": "Cadmium",
+      "panel": "heavy_metals",
+      "value_normalized": 8.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "0.008",
+      "unit_as_reported": "ppm (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 2
+    },
+    {
+      "analyte": "Lead",
+      "panel": "heavy_metals",
+      "value_normalized": 10.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.01",
+      "unit_as_reported": "ppm (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 2
+    },
+    {
+      "analyte": "Mercury",
+      "panel": "heavy_metals",
+      "value_normalized": 5.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.005",
+      "unit_as_reported": "ppm (w/w)",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 2
+    }
+  ],
+  "ingested_at": "2026-07-19T05:24:51+00:00"
+}

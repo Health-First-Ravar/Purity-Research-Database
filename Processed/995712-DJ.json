@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "status": "UNRESOLVED",
+  "product_key": null,
+  "report_number": "995712-DJ",
+  "test_date": "2026-03-24",
+  "sample_name": null,
+  "lot_or_po": null,
+  "supersedes": null,
+  "superseded_by": null,
+  "lab": "CROM-MASS / UIS",
+  "serving_size_g": null,
+  "source_file": "/Users/jeremybehne/code/purity/COAs/995712-DJ GLIFOSATO Cafe_firmado.pdf",
+  "source_hash": "a5e18bc0e83e8322",
+  "parse_confidence": 0.6,
+  "parse_notes": [
+    "pages=2 tables=25",
+    "no_analyte_rows_extracted"
+  ],
+  "analytes": [],
+  "ingested_at": "2026-07-19T05:23:51+00:00"
+}

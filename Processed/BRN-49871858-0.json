@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "status": "OK",
+  "product_key": "CALM",
+  "report_number": "BRN-49871858-0",
+  "test_date": "2025-10-31",
+  "sample_name": "CALM",
+  "lot_or_po": "O-P-All",
+  "supersedes": null,
+  "superseded_by": null,
+  "lab": "Silliker / M\u00e9rieux NutriSciences",
+  "serving_size_g": null,
+  "source_file": "/Users/jeremybehne/code/purity/COAs/COA-31-Oct-25-49871858-0.pdf",
+  "source_hash": "eb215c674b4bf941",
+  "parse_confidence": 0.6,
+  "parse_notes": [
+    "pages=1 tables=2",
+    "no_analyte_rows_extracted"
+  ],
+  "analytes": [],
+  "ingested_at": "2026-07-19T05:24:14+00:00"
+}
