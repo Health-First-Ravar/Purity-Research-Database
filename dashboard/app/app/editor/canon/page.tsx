@@ -16,10 +16,9 @@ const VALID_TABS: Tab[] = ['drafts', 'active', 'deprecated'];
 
 export default async function CanonReviewPage({
   searchParams,
-}: { searchParams: Promise<{ tab?: string; q?: string }> }) {
+}: { searchParams: Promise<{ tab?: string; q?: string; topic?: string }> }) {
   const params = await searchParams;
   const tab: Tab = (VALID_TABS.includes(params.tab as Tab) ? params.tab : 'drafts') as Tab;
-  const search = (params.q ?? '').trim();
 
   const supabase = supabaseServer(await cookies());
   const { data: auth } = await supabase.auth.getUser();
@@ -42,6 +41,22 @@ export default async function CanonReviewPage({
   const activeCount = activeCntRes.count ?? 0;
   const deprecatedCount = deprecatedCntRes.count ?? 0;
 
+  // The heatmap's "Draft canon for this topic →" sends ?topic=<slug>. This page
+  // previously read only tab and q, so that link landed on an unfiltered list
+  // and the editor had to re-find the topic by hand — severing the one workflow
+  // the heatmap exists to start. Resolve the slug to its human label and use it
+  // as the search term.
+  let topicLabel: string | null = null;
+  if (params.topic) {
+    const { data: topic } = await supabase
+      .from('question_topics')
+      .select('label')
+      .eq('slug', params.topic)
+      .maybeSingle();
+    topicLabel = topic?.label ?? null;
+  }
+  const search = (params.q ?? topicLabel ?? '').trim();
+
   // Fetch the rows for the current tab
   let q = supabase
     .from('canon_qa')
@@ -50,8 +65,14 @@ export default async function CanonReviewPage({
     .order('last_reviewed_at', { ascending: false, nullsFirst: false })
     .order('created_at', { ascending: false })
     .limit(200);
-  if (search) q = q.or(`question.ilike.%${search}%,answer.ilike.%${search}%`);
-  const { data: rows } = await q;
+  // Strip the characters that break PostgREST's .or() grammar before building
+  // the filter — same treatment as the COA search in app/reports/page.tsx. A
+  // term containing a comma or parenthesis previously produced a malformed
+  // filter, and because the error was discarded below, the page rendered it as
+  // "no matches" — telling an editor canon is empty when it is not.
+  const searchTerm = search.replace(/[,()]/g, ' ').trim();
+  if (searchTerm) q = q.or(`question.ilike.%${searchTerm}%,answer.ilike.%${searchTerm}%`);
+  const { data: rows, error: rowsError } = await q;
 
   return (
     <div className="space-y-5">
@@ -76,6 +97,13 @@ export default async function CanonReviewPage({
         <TabLink current={tab} value="deprecated" label="Deprecated" count={deprecatedCount} />
       </nav>
 
+      {topicLabel && !params.q && (
+        <p className="rounded-md border border-purity-bean/15 bg-purity-cream/60 px-3 py-2 text-xs text-purity-muted dark:border-purity-paper/15 dark:bg-purity-ink/30 dark:text-purity-mist">
+          Filtered to <span className="font-medium">{topicLabel}</span>, from the
+          question heatmap. Clear the search to see all {tab}.
+        </p>
+      )}
+
       <form className="flex items-center gap-2" action="">
         <input type="hidden" name="tab" value={tab} />
         <input
@@ -94,7 +122,19 @@ export default async function CanonReviewPage({
         )}
       </form>
 
-      {tab === 'drafts' ? (
+      {/* Never let a failed query render as an empty result — that is how a
+          search bug reads as "canon is empty" for months. */}
+      {rowsError ? (
+        <div className="rounded-md border border-red-500/30 bg-red-500/5 px-4 py-3 text-sm">
+          <p className="font-medium text-red-600 dark:text-red-400">
+            This search could not be run.
+          </p>
+          <p className="mt-1 text-purity-muted dark:text-purity-mist">
+            No results are shown because the query failed, not because canon is
+            empty. Try a simpler search term. ({rowsError.message})
+          </p>
+        </div>
+      ) : tab === 'drafts' ? (
         <CanonDraftList drafts={rows ?? []} />
       ) : (
         <CanonActiveList rows={rows ?? []} tab={tab} />

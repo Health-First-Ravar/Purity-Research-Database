@@ -18,7 +18,7 @@ export default async function UsersPage() {
   const { data: profile } = await supabase
     .from('profiles').select('role').eq('id', auth.user.id).single();
   if (!isAdmin(profile?.role)) {
-    return <p className="text-sm text-purity-rust">Editor role required.</p>;
+    return <p className="text-sm text-purity-rust">Admin role required.</p>;
   }
 
   return (

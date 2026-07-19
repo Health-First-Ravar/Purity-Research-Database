@@ -4,7 +4,7 @@
 import { NextResponse } from 'next/server';
 import { cookies } from 'next/headers';
 import { supabaseServer, supabaseAdmin } from '@/lib/supabase';
-import { auditClaim, type AuditContext } from '@/lib/rag/audit-claim';
+import { auditClaim, AuditUnparseableError, type AuditContext } from '@/lib/rag/audit-claim';
 import { checkChatRateLimit } from '@/lib/rate-limit';
 
 export const dynamic = 'force-dynamic';
@@ -43,7 +43,21 @@ export async function POST(req: Request) {
     );
   }
 
-  const audit = await auditClaim({ draft, context });
+  // A parse failure must not be stored. auditClaim throws
+  // AuditUnparseableError rather than returning an all-false result that would
+  // be persisted, and read back later, as a clean audit.
+  let audit: Awaited<ReturnType<typeof auditClaim>>;
+  try {
+    audit = await auditClaim({ draft, context });
+  } catch (e) {
+    if (e instanceof AuditUnparseableError) {
+      return NextResponse.json(
+        { error: 'audit_unparseable', message: e.message },
+        { status: 502 },
+      );
+    }
+    throw e;
+  }
 
   // Persist with admin client so we always insert (RLS still allows
   // self-insert by the user, but the admin path skips the policy round-trip

@@ -32,7 +32,7 @@ function newSessionId() {
     : `sess_${Date.now()}_${Math.random().toString(36).slice(2)}`;
 }
 
-export default function ChatClient() {
+export default function ChatClient({ paperCount }: { paperCount?: number | null }) {
   const [turns, setTurns] = useState<Turn[]>([]);
   const [input, setInput] = useState('');
   const [busy, setBusy] = useState(false);
@@ -148,8 +148,12 @@ export default function ChatClient() {
           {turns.length === 0 && !busy && (
             <p className="text-sm text-purity-muted dark:text-purity-mist">
               Ask a customer-service or research question. The assistant answers from the Purity
-              knowledge base (brand docs, Ildi&apos;s book, 34 research papers, curated Q&amp;A).
-              It will escalate to Ildi or Jeremy when the evidence isn&apos;t sufficient.
+              knowledge base (brand docs, Ildi&apos;s book,{' '}
+              {typeof paperCount === 'number'
+                ? `${paperCount.toLocaleString()} research papers`
+                : 'the research library'}
+              , curated Q&amp;A). It will escalate to Ildi or Jeremy when the evidence isn&apos;t
+              sufficient.
             </p>
           )}
           {turns.map((t, i) => (

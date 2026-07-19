@@ -4133,3 +4133,98 @@ report `43453407-0` is already ingested from a good original
 (`Processed/CHG-43453407-0.json`). But the sync will fail on it on every run
 until the file is quarantined or removed from Drive. A quarantine mechanism
 already exists (`619acd5`). Worth pointing it at this file.
+
+## Task 2: the five surface-audit bugs
+
+Fixed in **order of harm if unnoticed**, not order of effort:
+
+### 1. A failed claim audit was stored as a clean one *(worst)*
+
+`lib/rag/audit-claim.ts` caught unparseable model output and returned an
+all-false result carrying `reasoning: 'audit JSON could not be parsed'`, which
+`api/audit/route.ts` then persisted to `claim_audits` like any real audit. In
+the Recent-audits list a parse failure was indistinguishable from a claim that
+engaged no layers and raised no regulatory flags — **a silent pass on a
+regulated health claim**.
+
+Now throws `AuditUnparseableError`; the route returns 502 and **persists
+nothing**. This follows the precedent already in the codebase —
+`RevaSkillUnavailableError` (`lib/rag/reva.ts:78`) replaced exactly this shape
+of silent fallback with a loud refusal.
+
+### 2. Canon search reported "no matches" when the query had failed
+
+`app/editor/canon/page.tsx` built `.or()` by raw interpolation and then wrote
+`const { data: rows } = await q` — discarding the error. A malformed filter
+returned undefined, which rendered as an empty list.
+
+Now sanitised with the same `[,()]` strip used by `app/reports/page.tsx:83`,
+**and the error is surfaced** rather than swallowed: a failed query renders a
+red "This search could not be run" panel that explicitly says no results are
+shown because the query failed, not because canon is empty. Sanitising alone
+would have fixed these inputs while leaving the next failure just as invisible.
+
+**Verified through a real authenticated JWT** (temp editor, PostgREST, not
+service_role):
+
+```
+term                        | before fix     | after fix
+----------------------------|----------------|------------------
+CGA, FLOW                   | ERROR PGRST100 | 0 rows (128ms)
+ship, to Canada             | ERROR PGRST100 | 0 rows (86ms)
+chlorogenic acid (CGA)      | 0 rows (62ms)  | 0 rows (91ms)
+Canada                      | 1 rows (97ms)  | 1 rows (86ms)   <- control
+```
+
+**Correction to Session 11.** I reported this as breaking on "a comma or
+parenthesis". Only the **comma** actually errors — `chlorogenic acid (CGA)` ran
+fine before the fix. Stripping both is still correct and harmless, but the
+parenthesis half of that claim was wrong and I only found out by testing it.
+
+All well inside the 8s authenticated timeout.
+
+### 3. Bibliography misreported the catalog size
+
+`.select('*')` never requested `{ count: 'exact' }`, so `count` was always null
+and the header fell back to `rows.length` — rendering **"500 of 500 entries"**
+against a 1,583-row catalog, i.e. as though you were seeing everything.
+
+Now requests an exact count, and when the 500-row cap is hit the header says so:
+"Showing 500 of 1,583 matching entries · capped at 500, narrow the filters to
+see the rest." The cap is a named constant rather than a literal buried in the
+query.
+
+### 4. Chat understated the corpus
+
+`ChatClient.tsx` hardcoded "34 research papers". That is the figure from
+`knowledge-base/README.md` for the `research/` folder, not a count of what the
+box searches — **off by roughly 46x**. Now read live from `bibliography_view`
+and passed in from the server component.
+
+`bibliography_view` deliberately, not `sources`: CLAUDE.md documents that papers
+are ingested under several chapter folders on purpose, so the raw `sources`
+count (1,581 `research_paper` rows) double-counts. The view is DOI-deduped.
+
+Worth flagging: **CLAUDE.md's own "34 research papers" and "448-article
+bibliography" are both stale.** Live figures are 1,583 catalog entries and 2,218
+live sources. The research auto-sync has grown the corpus well past what the
+docs describe.
+
+### 5. The heatmap's only outbound workflow was severed
+
+`TopicDrawer.tsx:81` links to `/editor/canon?topic=<slug>`, but the page read
+only `{ tab, q }` — `topic` was ignored, so "Draft canon for this topic →"
+landed on an unfiltered list and the editor had to re-find the topic by hand.
+
+Now resolves the slug through `question_topics` to its human label, uses it as
+the search term, and shows a banner explaining why the list is filtered and how
+to clear it.
+
+### Also fixed — one word, actively misleading
+
+`/editor/users` gates on `isAdmin` but told a denied user "Editor role
+required." An editor reading that would conclude the system was broken rather
+than that they lacked access. Corrected in the page and in the API's 403 body.
+
+Typecheck clean. Temp verification account removed and confirmed: 0 auth users,
+0 profiles remaining.

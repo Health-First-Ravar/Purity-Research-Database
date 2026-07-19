@@ -23,7 +23,7 @@ async function gateEditor() {
   const { data: auth } = await sb.auth.getUser();
   if (!auth.user) return { error: NextResponse.json({ error: 'unauthenticated' }, { status: 401 }) };
   const { data: profile } = await sb.from('profiles').select('role').eq('id', auth.user.id).single();
-  if (!isAdmin(profile?.role)) return { error: NextResponse.json({ error: 'editor role required' }, { status: 403 }) };
+  if (!isAdmin(profile?.role)) return { error: NextResponse.json({ error: 'admin role required' }, { status: 403 }) };
   return { user: auth.user };
 }
 

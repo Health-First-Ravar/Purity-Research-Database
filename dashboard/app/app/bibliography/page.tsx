@@ -13,6 +13,10 @@ import { EmptyState } from '../_components/EmptyState';
 
 export const dynamic = 'force-dynamic';
 
+/** Catalog rows fetched per request. The header states this cap explicitly
+ *  whenever it is hit, so a truncated page never reads as a complete one. */
+const PAGE_LIMIT = 500;
+
 type Search = {
   q?: string;            // semantic chunk search
   title?: string;        // catalog title ilike
@@ -47,12 +51,16 @@ export default async function BibliographyPage({ searchParams }: { searchParams:
   const sortDir: 'asc' | 'desc' = rawDir === 'asc' ? 'asc' : 'desc';
 
   // Left column: paginated catalog.
+  // count: 'exact' is what makes the header honest. Without it `count` comes
+  // back null, the header falls back to rows.length, and a 500-row page of a
+  // 2,955-row catalog renders as "500 of 500 entries" — i.e. as though you were
+  // seeing everything.
   let q = supabase
     .from('bibliography_view')
-    .select('*')
+    .select('*', { count: 'exact' })
     .order(sortCol, { ascending: sortDir === 'asc', nullsFirst: false })
     .order('title', { ascending: true })
-    .limit(500);
+    .limit(PAGE_LIMIT);
 
   if (params.topic)     q = q.eq('drive_location', params.topic);
   if (params.category)  q = q.eq('topic_category', params.category);
@@ -96,8 +104,11 @@ export default async function BibliographyPage({ searchParams }: { searchParams:
     <div>
       <h1 className="mb-2 font-serif text-2xl">Bibliography</h1>
       <p className="mb-4 text-sm text-purity-muted dark:text-purity-mist">
-        {rows?.length ?? 0} of {count ?? rows?.length ?? 0} entries · catalog on the left, semantic
-        search across full text on the right.
+        Showing {rows?.length ?? 0} of {count ?? rows?.length ?? 0} matching entries
+        {(rows?.length ?? 0) >= PAGE_LIMIT && (
+          <> · capped at {PAGE_LIMIT}, narrow the filters to see the rest</>
+        )}
+        {' · '}catalog on the left, semantic search across full text on the right.
       </p>
 
       <div className="grid gap-6 md:grid-cols-2">

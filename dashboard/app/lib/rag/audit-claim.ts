@@ -194,22 +194,31 @@ type ParsedAudit = {
   cited_chunk_ids: string[];
 };
 
+/** Thrown when the model's audit response cannot be parsed.
+ *
+ *  This used to return an all-false fallback carrying
+ *  `reasoning: 'audit JSON could not be parsed'`, which the caller then
+ *  persisted to `claim_audits` like any real result. In the Recent-audits list
+ *  a parse failure was indistinguishable from a claim that engaged no layers
+ *  and raised no regulatory flags — i.e. from a clean pass.
+ *
+ *  On regulated health claims a silent pass is the worst available failure
+ *  mode. Same reasoning as RevaSkillUnavailableError above: refuse loudly
+ *  rather than answer from an unconfigured state. */
+export class AuditUnparseableError extends Error {
+  constructor(raw: string) {
+    super(
+      'The claim auditor returned a response that could not be parsed as JSON, ' +
+        'so no audit was performed. Nothing was saved. Try again. ' +
+        `First 200 characters of the response: ${raw.slice(0, 200)}`,
+    );
+    this.name = 'AuditUnparseableError';
+  }
+}
+
 function parseAuditJson(raw: string): ParsedAudit {
   const m = raw.match(/\{[\s\S]*\}/);
-  const fallback: ParsedAudit = {
-    compounds_detected: [],
-    mechanism_engaged: false,
-    bioavailability_engaged: false,
-    evidence_engaged: false,
-    practical_engaged: false,
-    weakest_link: null,
-    regulatory_flags: [],
-    evidence_tier: null,
-    suggested_rewrite: '',
-    reasoning: 'audit JSON could not be parsed',
-    cited_chunk_ids: [],
-  };
-  if (!m) return fallback;
+  if (!m) throw new AuditUnparseableError(raw);
   try {
     const j = JSON.parse(m[0]);
     return {
@@ -229,7 +238,8 @@ function parseAuditJson(raw: string): ParsedAudit {
       reasoning: String(j.reasoning ?? ''),
       cited_chunk_ids: Array.isArray(j.cited_chunk_ids) ? j.cited_chunk_ids.map(String) : [],
     };
-  } catch {
-    return fallback;
+  } catch (e) {
+    if (e instanceof AuditUnparseableError) throw e;
+    throw new AuditUnparseableError(raw);
   }
 }
