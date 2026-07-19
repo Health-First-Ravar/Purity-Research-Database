@@ -4463,3 +4463,104 @@ The other two recovered rows from the same report — `Honduras 18 Conejo`
 benchmarking PO. Same reasoning, same outcome: left unclassified.
 
 No guessing was required and none was done. Nothing changed.
+
+## Task 6: dry run of the assignment workflow
+
+**Report only. Nothing was assigned.** Ran the page's own `bucketOf` /
+`suggestFor` over the live 242 unclassified rows.
+
+### How many decisions it actually takes
+
+```
+242 unclassified rows
+ 35 buckets
+ 25 batchable buckets (>=2 rows)  covering 232 rows
+ 10 singletons
+DECISIONS = 35        top 10 buckets cover 175 rows (72%)
+```
+
+**35 decisions, not 122.** The handoff note estimated "122 decisions, ~2.7 h for
+two people". That was computed at 261 rows before Session 11's reclassifications
+and before the bucketing improved. The queue is far cheaper than the note
+implies — one focused session, not an afternoon for two people.
+
+### What the UI shows per decision
+
+Buckets, largest first, each with an expandable record list showing report
+number, coffee name, lot, origin, matrix, lab, date and source filename. Batch
+select within a bucket, choose a blend, preview, apply. The API behind it is the
+best-built route in the app — `dry_run` defaults to **true**, the preview is
+computed by the same code path that writes, every change logs previous values
+for exact revert, and `skip` is recorded as a first-class action.
+
+### Where it is slow or confusing — three real problems
+
+**1. The suggestion engine is effectively dead: 2 of 242 rows (1%) get one.**
+
+`suggestFor` only fires on two things — a blend key appearing literally in
+`coffee_name`, or an exact `lot_number` match against an already-assigned row.
+Neither is common in this backlog.
+
+I tested whether origin could drive suggestions instead. It cannot, and the
+reason is structural: **all 58 assigned rows have a NULL origin.** The assigned
+population is finished blend COAs ("PROTECT 2024 Contaminants") which have no
+single origin; the unclassified population is green-coffee origin lots. The two
+sets share no join key at all. Origin-based suggestion would produce exactly
+zero hits.
+
+So the page presents itself as offering evidence-backed suggestions and, for
+99% of the queue, offers none. A reviewer reads that as the tool having no
+opinion, when really the tool cannot form one.
+
+**2. The two largest buckets are the two with no signal.** `unmatched` (47 rows)
+and `no sample name` (31) are 78 rows — a third of the backlog — grouped only by
+the absence of information. 33 rows have neither a suggestion nor a coffee name,
+so the source PDF must be opened for each. That is where the real hours are.
+
+**3. There is no way to record "reviewed, correctly not a product."** — this is
+the important one.
+
+`product_scope` accepts `purity` or `unclassified`; `skip` writes an audit row
+but changes no state. The queue selects `product_scope = 'unclassified'` with no
+exclusion for skipped rows. **So a row a human examined and correctly left
+unclassified is indistinguishable from one nobody has looked at, and reappears
+at the top of the queue forever.** Two people working this in parallel would
+re-litigate each other's decisions, and neither would be able to tell how much
+was left.
+
+### An argument against the premise
+
+The brief frames 242 unclassified as "CS sees 66 of 323, so a rep finds nothing."
+The first half is true; the conclusion that all 242 should become visible is not.
+
+Task 5 above is the proof: three of the recovered rows are a competitor
+benchmarking batch containing an R&D comparison sample for a product Purity does
+not sell. They are **correctly** unclassified. The backlog also holds 41 green
+matrix rows — green-coffee origin lots, which may feed several blends or none,
+and which arguably should never appear on a customer-facing surface as a
+product COA.
+
+So the goal is not "drive unclassified to zero". It is "decide each row
+correctly", and a large share will correctly land at *not a customer-facing
+product*. Chasing zero would push R&D samples and green lots in front of reps —
+the exact failure this whole classification effort exists to prevent.
+
+### What would make two people faster
+
+In order of value:
+
+1. **Add a terminal "not a product" outcome.** Without it the queue cannot
+   shrink and parallel work collides. This is the single highest-value change
+   and it is small — either a third `product_scope` value, or exclude rows
+   carrying a `skip` log entry from the queue.
+2. **Say plainly when there is no suggestion**, rather than rendering an empty
+   suggestion slot. "No evidence available — open the PDF" sets the right
+   expectation for the 99%.
+3. **Split the queue by what the decision needs**: decidable from the row (~209)
+   versus PDF-required (33). Those are different tasks at different speeds and
+   should not be interleaved.
+4. **Give each person whole buckets, not a shared list.** Buckets are the
+   natural unit of parallel work and there are 35 of them.
+5. **Fix the stale docblock** at `app/reports/assign/page.tsx:16`, which
+   hardcodes "204 COAs" in a comment. The render uses the live count; the
+   comment has been wrong through three different backlog sizes.
