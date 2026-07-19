@@ -115,6 +115,7 @@ export default async function SupportReportPage() {
     .from('coas')
     .select('*')
     .eq('product_scope', CS_SCOPE)
+    .is('retired_at', null)
     .order('report_date', { ascending: false })
     .limit(5000);
 

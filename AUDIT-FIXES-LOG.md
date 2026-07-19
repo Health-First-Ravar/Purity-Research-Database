@@ -1685,3 +1685,80 @@ EDITOR / ADMIN   chunks 1000, of which COA 680
 CS / non-editor  chunks 1000, of which COA   2
 non-purity COA chunks reachable in a CS retrieval: 0
 ```
+
+## Task 2 — duplicate cleanup — **PASS**
+
+### Table-wide scan, and a trap avoided
+
+Grouping by the importer's identity key (report_number else pdf_filename) found
+**1 group, 5 rows**. But that key *splits* the 49608.pdf set, because the good
+row has a report_number and the shells do not — so it undercounts.
+
+Grouping by source PDF instead found **6 groups**, and this is where care was
+needed:
+
+```
+27x  distinct report_numbers=27   Purity results - January - 2023 (1).docx
+11x  distinct report_numbers=11   Purity results - January - 2025.docx
+ 7x  distinct report_numbers=7    Purity results october 2019 (1).docx
+ 6x  distinct report_numbers=1    49608.pdf                    <- genuine duplicates
+ 5x  distinct report_numbers=5    Purity results - October 2024.docx
+ 2x  distinct report_numbers=2    MXNS-COA-08-04-2022-45845698-0.pdf
+```
+
+Five of those six are **multi-report documents** — a single DOCX holding 27
+separate COAs, each a distinct report. Retiring on filename alone would have
+withdrawn **52 legitimate rows**. The correct test is same source document AND
+the same (or absent) report identity. Only `49608.pdf` qualifies.
+
+### The approved rule, and why it matters here
+
+```
+e78bd9c7  2026-05-31  7/24 fields   report_number=S04082026-49608
+0fe75607  2026-06-24  4/24 fields
+c6440669  2026-07-15  4/24 fields
+bcc3afa2  2026-07-15  4/24 fields
+6a4137de  2026-07-18  4/24 fields
+de80e5db  2026-07-18  4/24 fields   <- newest
+```
+
+Most-populated-tie-break-newest selects **e78bd9c7**, the only row carrying
+`report_number`, `report_date` and analyte values. Newest-wins would have
+retired it and kept an empty shell. Your rule is right and the data confirms it.
+
+Data-loss check ran before any write: all five non-canonical rows hold **no
+field the canonical lacks**. No group was stopped.
+
+### Mechanism
+
+Migration `0004_add_coa_retired.sql` adds `retired_at timestamptz` and
+`retired_reason text` with a partial index. `coas` previously had no way to
+withdraw a row — the only alternative was DELETE, which is why these had
+accumulated. Mirrors `sources.valid_until`.
+
+Retiring writes a reason and touches no analyte value:
+
+```
+duplicate parse artefact of S04082026-49608 (49608.pdf);
+canonical row has more populated fields
+```
+
+Reverse with `update public.coas set retired_at = null, retired_reason = null
+where id = ...`.
+
+### Read surfaces updated — otherwise the retire is cosmetic
+
+`scopeCoaQuery` now applies `.is('retired_at', null)` for **every** viewer
+including the audit team: these are parse artefacts, not findings, and showing
+them reintroduces the ambiguity the retire removes. `/reports/support` pins the
+same filter.
+
+### Verification
+
+```
+266 total rows (nothing deleted)
+261 live · 5 retired
+audit team (/reports) : 261
+CS (/reports/support) :  48
+duplicate groups remaining: none
+```

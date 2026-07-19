@@ -54,7 +54,12 @@ export async function getCoaViewer(
  * or a client component that forgets to re-filter.
  */
 export function scopeCoaQuery<T>(query: T, viewer: CoaViewer): T {
-  if (viewer.elevated) return query;
+  // Retired rows are withdrawn from EVERY reader, including the audit team.
+  // They are duplicate parse artefacts, not findings — the row is preserved in
+  // the table for reconstruction, but showing it would just reintroduce the
+  // ambiguity it was retired to remove.
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  return (query as any).eq('product_scope', CS_SCOPE) as T;
+  const live = (query as any).is('retired_at', null);
+  if (viewer.elevated) return live as T;
+  return live.eq('product_scope', CS_SCOPE) as T;
 }
