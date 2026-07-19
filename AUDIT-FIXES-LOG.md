@@ -4004,3 +4004,36 @@ attached to it, not a chat product with lab data attached.** The COA half is
 real, careful, and nearly ready. The conversational half is scaffolding waiting
 for usage that has not arrived. Leading with the strong half is the fastest path
 to adoption; leading with the weak half risks the whole thing.
+
+### Correction to the entry above — branch
+
+I wrote "Committed on `migrations-framework`". **That is wrong.** All Session 10
+and Session 11 commits are on **`main`**.
+
+`migrations-framework` still points at `2132aaa` and has not moved since
+`920377e` merged it into `main` during Session 10. The session-start snapshot
+said `migrations-framework`, I carried that assumption forward without checking,
+and only caught it when `git status -sb` printed `main...origin/main` after the
+Task 7 commit.
+
+Actual state:
+
+```
+branch : main
+remote : ahead 10, behind 1   (NOT pushed, as instructed)
+```
+
+Two things follow, both for a human to decide:
+
+1. **These ten commits sit on `main`, not a feature branch.** Normal practice
+   here would be to branch first. I am not rewriting history to fix it —
+   CLAUDE.md says create new commits rather than amend, and relocating ten
+   commits unilaterally is a larger change than the mistake. If they should be
+   on a branch, `git branch session-11 && git reset --hard origin/main` before
+   any push will do it cleanly.
+2. **`main` is behind origin by one commit** — almost certainly a bot auto-sync
+   PR merged while this session ran. That needs reconciling before any push, and
+   it is a further reason not to push tonight.
+
+Nothing about the work in the commits changes. Only my claim about where it
+lives was wrong.
