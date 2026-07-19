@@ -2833,3 +2833,121 @@ unchanged, scope distribution unchanged). Left enabled throughout.
 ### Temp users
 
 Both removed. 0 remaining, 0 orphaned profiles. Not pushed.
+
+---
+---
+
+# SESSION 8 — 2026-07-19 · fetch Word documents
+
+## Change
+
+`scripts/pull-new-coas.py` asked Drive only for `mimeType='application/pdf'`,
+while `ingest.py` accepts `{".pdf", ".docx"}` and `lib_extract` parses Word with
+python-docx. 22 COA-like Word files at the top level had therefore never been
+fetched; the 51 Word-sourced rows already in `coas` got there because someone
+copied them in by hand.
+
+- `list_pdfs` -> `list_documents`, querying PDF **and** `.docx`.
+- **Subfolder recursion deliberately NOT added**, as instructed. `Processed/`
+  belongs to another workflow and `Lost files/` is human tidying.
+- Legacy `.doc` (`application/msword`) is **not** fetched — python-docx cannot
+  read the old binary format, so `ingest.py` would skip it and it would sit in
+  `COAs/` as clutter. The run now *reports* them instead of dropping them
+  silently. One exists: `Purity Results - Caffeine.doc`.
+- `first_page_text` gained a Word branch. Without it every ambiguous `.docx`
+  would fall through to `""` and be quarantined purely because fitz cannot open
+  it.
+- Skip-set widened from `*.pdf` to `{.pdf,.docx}` across `COAs/` and
+  `_NotCOA/`; otherwise every `.docx` is re-downloaded on each run.
+- **`python-docx` added to `scripts/requirements.txt`** — it was missing, so in
+  CI `import docx` fails and `extract_docx` raises. The Word path would have
+  broken on the runner the first time it was exercised.
+
+## Chain run
+
+```
+pull    found 313 · skipped 286 · downloaded 17 (0 pdf, 17 docx) · quarantined 10 · failed 0
+ingest  errors 0 · last_successful_sync 2026-07-19T04:07:14Z
+import  inserted 3 · updated 188 · deduped 0 · skipped 3 · errors 0
+embed   inserted 3 · unchanged 260 · errors 0
+```
+
+Second pull: `found 313 · skipped_existing 313 · downloaded 0` — idempotent.
+
+## What actually came through — 3 rows, and they are poor
+
+```
+coas total 266 -> 269 (+3) · live 261 -> 264 · unclassified 204 -> 207
+chunks 30606 -> 30609 (+3)
+duplicate report_number groups : 0
+same-file same-report groups   : 0
+```
+
+The three new rows:
+
+```
+report_date  report_number  coffee_name              analytes  source
+—            (null)         —                        199       COA-2016-PurityFullScreen-.docx
+—            (null)         —                        199       COA-10-AUG-16-PurityFullScreen-2016.docx
+—            (null)         Prep\tAcid Digest…       33        COA-Nicaragua 2019.docx
+```
+
+**17 Word files were fetched; 14 produced no record at all.** All 17 are indexed
+with no report number.
+
+The 199 "analytes" are genuine — a full pesticide screen, ~190 compounds at
+`<0.005 ppm`. So `lib_extract`'s table extraction works. What fails is the
+header and the cell structure:
+
+```
+report_number : None      test_date : None      sample_name : None
+analyte 'Aflatoxin B2 Aflatoxin G1 Aflatoxin G2 Afla…'  value '<0.6\n<0.6\n<0.'
+```
+
+Multi-row table cells are merged into one analyte, and no identifying field is
+recovered. **The fetch is fixed; the Word parser is not good enough to rely
+on.** These three rows carry real below-LOQ pesticide data but no identity — no
+report number, no date, no sample name. They are `unclassified`, so invisible to
+customer service, and they add 3 to the assignment backlog with nothing a human
+could use to assign them without opening the source document.
+
+I left them in place rather than retiring them: they are inert, reversible, and
+deleting freshly ingested regulated data to tidy a report would be the wrong
+instinct. But `extract_docx` needs work before Word ingestion is worth
+repeating at scale.
+
+## June 2026 — nothing new, and that is correct
+
+```
+June 2026 rows  before 0 -> after 0
+max report_date before 2026-04-27 -> after 2026-04-27
+```
+
+The June-2026 dates seen in Drive are **modifiedTime, not report_date** — the
+date someone last touched the file. Those files (`5014697-0_COA.pdf`,
+`COA-26-Jun-25-49460888-0.pdf`, `COA-23-Jun-25-49452388-0.pdf`,
+`0017849997.pdf`, …) were already in the corpus; the earlier cross-reference
+showed 24 of the 30 most-recently-modified direct children already present. The
+Word documents are 2016-2020 content. So no June 2026 *test* dates exist to
+find, and none appeared.
+
+## Pre-existing DELETE observed, not introduced here
+
+`ingest.py` invokes `scripts/clean-stale-processed.py` (commit `749eee0`), which
+**deletes `Processed/*.json` files**. This run removed 12:
+
+```
+[clean-stale] total=206 delete=12 (dead_shells=12 orphans=0) kept=194
+```
+
+Verified before continuing: it touches only `Processed/` via `p.unlink()`, never
+the database. All 12 were dead shells — 0 analytes and no report number — and
+all are git-tracked, so recoverable with `git checkout`. `Processed/` is a
+derived artefact regenerable from `COAs/`.
+
+Checked the one deleted file named by report number rather than hash,
+`914463-0.json`: its own `report_number` was `None` with 0 analytes, and the
+real `914463-0` row is intact in the database. Nothing was lost.
+
+Flagging it because it means **every ingest run now deletes files**, which was
+not obvious from the task description and is worth knowing.

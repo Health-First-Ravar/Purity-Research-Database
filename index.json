@@ -4480,7 +4480,7 @@
     "19-631304-0-1-1898469_PT_Purity_Port.pdf": {
       "source_file": "/Users/jeremybehne/code/purity/COAs/19-631304-0-1-1898469_PT_Purity_Port.pdf",
       "source_hash": "26ec6cc46853bd2c",
-      "processed_path": "Processed/26ec6cc46853bd2c.json",
+      "processed_path": "Processed/631304-0.json",
       "report_number": null,
       "test_date": null,
       "sample_name": null,
@@ -4495,7 +4495,7 @@
     "19-631305-0-1-1898469_PT_Purity_Port.pdf": {
       "source_file": "/Users/jeremybehne/code/purity/COAs/19-631305-0-1-1898469_PT_Purity_Port.pdf",
       "source_hash": "60cf1c72a9a8126e",
-      "processed_path": "Processed/60cf1c72a9a8126e.json",
+      "processed_path": "Processed/631305-0.json",
       "report_number": null,
       "test_date": null,
       "sample_name": null,
@@ -4510,7 +4510,7 @@
     "19-631306-0-1-1898469_PT_Purity_Port.pdf": {
       "source_file": "/Users/jeremybehne/code/purity/COAs/19-631306-0-1-1898469_PT_Purity_Port.pdf",
       "source_hash": "aaf03ebffa3a68d5",
-      "processed_path": "Processed/aaf03ebffa3a68d5.json",
+      "processed_path": "Processed/631306-0.json",
       "report_number": null,
       "test_date": null,
       "sample_name": null,
@@ -4525,7 +4525,7 @@
     "19-631307-0-1-1898469_PT_Purity_Port.pdf": {
       "source_file": "/Users/jeremybehne/code/purity/COAs/19-631307-0-1-1898469_PT_Purity_Port.pdf",
       "source_hash": "5ca913755118f939",
-      "processed_path": "Processed/5ca913755118f939.json",
+      "processed_path": "Processed/631307-0.json",
       "report_number": null,
       "test_date": null,
       "sample_name": null,
@@ -4540,7 +4540,7 @@
     "19-631308-0-1-1898469_PT_Purity_Port.pdf": {
       "source_file": "/Users/jeremybehne/code/purity/COAs/19-631308-0-1-1898469_PT_Purity_Port.pdf",
       "source_hash": "7e14394e23b63e3c",
-      "processed_path": "Processed/7e14394e23b63e3c.json",
+      "processed_path": "Processed/631308-0.json",
       "report_number": null,
       "test_date": null,
       "sample_name": null,
@@ -4555,13 +4555,13 @@
     "20-914459-0-1-1898469_PT.pdf": {
       "source_file": "/Users/jeremybehne/code/purity/COAs/20-914459-0-1-1898469_PT.pdf",
       "source_hash": "858a91d35dbd9a5a",
-      "processed_path": "Processed/858a91d35dbd9a5a.json",
+      "processed_path": null,
       "report_number": null,
       "test_date": null,
       "sample_name": null,
       "lot_or_po": null,
       "product_key": null,
-      "status": "LOW_CONFIDENCE",
+      "status": "QUARANTINED",
       "supersedes": null,
       "superseded_by": null,
       "parse_confidence": 0.1,
@@ -4570,7 +4570,7 @@
     "20-914459-0-1-1898469_PT_Purity Coffee_Portugu\u00eas.pdf": {
       "source_file": "/Users/jeremybehne/code/purity/COAs/20-914459-0-1-1898469_PT_Purity Coffee_Portugu\u00eas.pdf",
       "source_hash": "f9ba45c74d82a983",
-      "processed_path": "Processed/f9ba45c74d82a983.json",
+      "processed_path": "Processed/914459-0.json",
       "report_number": null,
       "test_date": null,
       "sample_name": null,
@@ -5830,13 +5830,13 @@
     "BALANCE-Caffeine-CGA-Trigonelline-June 2024 (1).pdf": {
       "source_file": "/Users/jeremybehne/code/purity/COAs/BALANCE-Caffeine-CGA-Trigonelline-June 2024 (1).pdf",
       "source_hash": "285beae738a56d25",
-      "processed_path": "Processed/285beae738a56d25.json",
+      "processed_path": null,
       "report_number": null,
       "test_date": null,
       "sample_name": "Coffee sample Water content (%) Instrumental color Color by Agtron scale Caffeine (g/100g) Trigonelline (g/100g)",
       "lot_or_po": "unds",
       "product_key": "BALANCE",
-      "status": "LOW_CONFIDENCE",
+      "status": "QUARANTINED",
       "supersedes": null,
       "superseded_by": null,
       "parse_confidence": 0.1,
@@ -6055,13 +6055,13 @@
     "COA's New Branding.pdf": {
       "source_file": "/Users/jeremybehne/code/purity/COAs/COA's New Branding.pdf",
       "source_hash": "4d72d7994e635e52",
-      "processed_path": "Processed/4d72d7994e635e52.json",
+      "processed_path": null,
       "report_number": null,
       "test_date": null,
       "sample_name": null,
       "lot_or_po": null,
       "product_key": null,
-      "status": "LOW_CONFIDENCE",
+      "status": "QUARANTINED",
       "supersedes": null,
       "superseded_by": null,
       "parse_confidence": 0.1,
@@ -7690,13 +7690,13 @@
     "COMPLETE 2021 PURITY ORIGINAL COA-heavy metals.pdf": {
       "source_file": "/Users/jeremybehne/code/purity/COAs/COMPLETE 2021 PURITY ORIGINAL COA-heavy metals.pdf",
       "source_hash": "24178949c1934373",
-      "processed_path": "Processed/24178949c1934373.json",
+      "processed_path": null,
       "report_number": null,
       "test_date": null,
       "sample_name": null,
       "lot_or_po": null,
       "product_key": null,
-      "status": "LOW_CONFIDENCE",
+      "status": "QUARANTINED",
       "supersedes": null,
       "superseded_by": null,
       "parse_confidence": 0.1,
@@ -8020,13 +8020,13 @@
     "carta 995712-EC \u00c1CIDO CLOROG\u00c9NICO Caf\u00e9.pdf": {
       "source_file": "/Users/jeremybehne/code/purity/COAs/carta 995712-EC \u00c1CIDO CLOROG\u00c9NICO Caf\u00e9.pdf",
       "source_hash": "c8e30bf035128af5",
-      "processed_path": "Processed/c8e30bf035128af5.json",
+      "processed_path": null,
       "report_number": null,
       "test_date": null,
       "sample_name": null,
       "lot_or_po": null,
       "product_key": null,
-      "status": "LOW_CONFIDENCE",
+      "status": "QUARANTINED",
       "supersedes": null,
       "superseded_by": null,
       "parse_confidence": 0.1,
@@ -8166,6 +8166,163 @@
       "superseded_by": null,
       "parse_confidence": 1.0,
       "ingested_at": "2026-07-18T20:34:05+00:00"
+    },
+    "3009359-0_COA PURITY 2021.docx": {
+      "source_file": "/Users/jeremybehne/code/purity/COAs/3009359-0_COA PURITY 2021.docx",
+      "source_hash": "b914debc08cb81e6",
+      "processed_path": null,
+      "report_number": null,
+      "status": "QUARANTINED",
+      "ingested_at": "2026-07-19T04:06:22+00:00"
+    },
+    "3206088-0_COA.docx": {
+      "source_file": "/Users/jeremybehne/code/purity/COAs/3206088-0_COA.docx",
+      "source_hash": "60201c6c807be6a7",
+      "processed_path": null,
+      "report_number": null,
+      "status": "QUARANTINED",
+      "ingested_at": "2026-07-19T04:06:23+00:00"
+    },
+    "3325286-0_COA (1).docx": {
+      "source_file": "/Users/jeremybehne/code/purity/COAs/3325286-0_COA (1).docx",
+      "source_hash": "0bc567853d0e5fa1",
+      "processed_path": null,
+      "report_number": null,
+      "status": "QUARANTINED",
+      "ingested_at": "2026-07-19T04:06:23+00:00"
+    },
+    "Boletim de analise acrilamida 02-2017 - Caf\u00e9[13620].docx": {
+      "source_file": "/Users/jeremybehne/code/purity/COAs/Boletim de analise acrilamida 02-2017 - Caf\u00e9[13620].docx",
+      "source_hash": "cca0cd3aedf05919",
+      "processed_path": null,
+      "report_number": null,
+      "status": "QUARANTINED",
+      "ingested_at": "2026-07-19T04:06:32+00:00"
+    },
+    "COA-10-AUG-16-PurityFullScreen-2016.docx": {
+      "source_file": "/Users/jeremybehne/code/purity/COAs/COA-10-AUG-16-PurityFullScreen-2016.docx",
+      "source_hash": "63e75c6496e5ab14",
+      "processed_path": "Processed/63e75c6496e5ab14.json",
+      "report_number": null,
+      "test_date": null,
+      "sample_name": null,
+      "lot_or_po": "st",
+      "product_key": null,
+      "status": "UNRESOLVED",
+      "supersedes": null,
+      "superseded_by": null,
+      "parse_confidence": 0.6,
+      "ingested_at": "2026-07-19T04:06:35+00:00"
+    },
+    "COA-20-Feb-19 Competition Coffee.docx": {
+      "source_file": "/Users/jeremybehne/code/purity/COAs/COA-20-Feb-19 Competition Coffee.docx",
+      "source_hash": "fbdfdb356e9161f8",
+      "processed_path": null,
+      "report_number": null,
+      "status": "QUARANTINED",
+      "ingested_at": "2026-07-19T04:06:39+00:00"
+    },
+    "COA-2016-PurityFullScreen-.docx": {
+      "source_file": "/Users/jeremybehne/code/purity/COAs/COA-2016-PurityFullScreen-.docx",
+      "source_hash": "2fa0ef8134a4bab0",
+      "processed_path": "Processed/2fa0ef8134a4bab0.json",
+      "report_number": null,
+      "test_date": null,
+      "sample_name": null,
+      "lot_or_po": "st",
+      "product_key": null,
+      "status": "UNRESOLVED",
+      "supersedes": null,
+      "superseded_by": null,
+      "parse_confidence": 0.6,
+      "ingested_at": "2026-07-19T04:06:40+00:00"
+    },
+    "COA-23-Jan-20 LA_PRADERA.docx": {
+      "source_file": "/Users/jeremybehne/code/purity/COAs/COA-23-Jan-20 LA_PRADERA.docx",
+      "source_hash": "39844ba850e7c663",
+      "processed_path": null,
+      "report_number": null,
+      "status": "QUARANTINED",
+      "ingested_at": "2026-07-19T04:06:45+00:00"
+    },
+    "COA-4-Jun-18 Purity Verfication.docx": {
+      "source_file": "/Users/jeremybehne/code/purity/COAs/COA-4-Jun-18 Purity Verfication.docx",
+      "source_hash": "499ae622ce889524",
+      "processed_path": null,
+      "report_number": null,
+      "status": "QUARANTINED",
+      "ingested_at": "2026-07-19T04:06:53+00:00"
+    },
+    "COA-5-May-18 - Purity Check.docx": {
+      "source_file": "/Users/jeremybehne/code/purity/COAs/COA-5-May-18 - Purity Check.docx",
+      "source_hash": "cfe712c34348d404",
+      "processed_path": null,
+      "report_number": null,
+      "status": "QUARANTINED",
+      "ingested_at": "2026-07-19T04:06:54+00:00"
+    },
+    "COA-5-May-18-41169643-0 (1).docx": {
+      "source_file": "/Users/jeremybehne/code/purity/COAs/COA-5-May-18-41169643-0 (1).docx",
+      "source_hash": "4adb42040607a0e0",
+      "processed_path": null,
+      "report_number": null,
+      "status": "QUARANTINED",
+      "ingested_at": "2026-07-19T04:06:54+00:00"
+    },
+    "COA-Nicaragua 2019.docx": {
+      "source_file": "/Users/jeremybehne/code/purity/COAs/COA-Nicaragua 2019.docx",
+      "source_hash": "dc1ad8c21de2a622",
+      "processed_path": "Processed/dc1ad8c21de2a622.json",
+      "report_number": null,
+      "test_date": null,
+      "sample_name": "Prep\tAcid Digest  -\tEPA 3050b\t3/15/19 Lead\t\t<0.01  ppm (w/w)\tEPA 3050/6020 USP730     3/19/19",
+      "lot_or_po": "unds",
+      "product_key": null,
+      "status": "UNRESOLVED",
+      "supersedes": null,
+      "superseded_by": null,
+      "parse_confidence": 1.0,
+      "ingested_at": "2026-07-19T04:06:59+00:00"
+    },
+    "COA_Report_2852904-0 (1).docx": {
+      "source_file": "/Users/jeremybehne/code/purity/COAs/COA_Report_2852904-0 (1).docx",
+      "source_hash": "c540e491b60e636e",
+      "processed_path": null,
+      "report_number": null,
+      "status": "QUARANTINED",
+      "ingested_at": "2026-07-19T04:07:01+00:00"
+    },
+    "COA_Report_2875088-0.docx": {
+      "source_file": "/Users/jeremybehne/code/purity/COAs/COA_Report_2875088-0.docx",
+      "source_hash": "01f0f32aaf6b9713",
+      "processed_path": null,
+      "report_number": null,
+      "status": "QUARANTINED",
+      "ingested_at": "2026-07-19T04:07:01+00:00"
+    },
+    "COA_Report_2904069-0.docx": {
+      "source_file": "/Users/jeremybehne/code/purity/COAs/COA_Report_2904069-0.docx",
+      "source_hash": "4dbab6f2f518ed23",
+      "processed_path": null,
+      "report_number": null,
+      "status": "QUARANTINED",
+      "ingested_at": "2026-07-19T04:07:01+00:00"
+    },
+    "NUTRITION FACTS-Flow-APPROXIMATE.docx": {
+      "source_file": "/Users/jeremybehne/code/purity/COAs/NUTRITION FACTS-Flow-APPROXIMATE.docx",
+      "source_hash": "c2f41a7c0de51f00",
+      "processed_path": null,
+      "report_number": null,
+      "status": "QUARANTINED",
+      "ingested_at": "2026-07-19T04:07:12+00:00"
+    },
+    "NUTRITION FACTS.docx": {
+      "source_file": "/Users/jeremybehne/code/purity/COAs/NUTRITION FACTS.docx",
+      "source_hash": "af29f6196a90f949",
+      "processed_path": null,
+      "report_number": null,
+      "status": "QUARANTINED",
+      "ingested_at": "2026-07-19T04:07:12+00:00"
     }
   },
   "unresolved_samples": [
@@ -9178,6 +9335,21 @@
       "file": "COA-31-Oct-25-Bette-Buna-49872102-0.pdf",
       "sample_name": "Bette Buna Roasted",
       "lot_or_po": "Bette Buna"
+    },
+    {
+      "file": "COA-10-AUG-16-PurityFullScreen-2016.docx",
+      "sample_name": null,
+      "lot_or_po": "st"
+    },
+    {
+      "file": "COA-2016-PurityFullScreen-.docx",
+      "sample_name": null,
+      "lot_or_po": "st"
+    },
+    {
+      "file": "COA-Nicaragua 2019.docx",
+      "sample_name": "Prep\tAcid Digest  -\tEPA 3050b\t3/15/19 Lead\t\t<0.01  ppm (w/w)\tEPA 3050/6020 USP730     3/19/19",
+      "lot_or_po": "unds"
     }
   ],
   "low_confidence_parses": [
@@ -9320,7 +9492,79 @@
       "superseded_by_report": "CHG-42744732-1"
     }
   ],
-  "last_sync_attempt": "2026-07-18T20:42:19+00:00",
+  "last_sync_attempt": "2026-07-19T04:07:14+00:00",
   "last_sync_error": null,
-  "last_successful_sync": "2026-07-18T20:42:19+00:00"
+  "last_successful_sync": "2026-07-19T04:07:14+00:00",
+  "quarantined": [
+    {
+      "file": "3009359-0_COA PURITY 2021.docx",
+      "sample_name": "s",
+      "reason": "zero analytes, no report number"
+    },
+    {
+      "file": "3206088-0_COA.docx",
+      "sample_name": null,
+      "reason": "zero analytes, no report number"
+    },
+    {
+      "file": "3325286-0_COA (1).docx",
+      "sample_name": null,
+      "reason": "zero analytes, no report number"
+    },
+    {
+      "file": "Boletim de analise acrilamida 02-2017 - Caf\u00e9[13620].docx",
+      "sample_name": "n\u00ba 16-544\t   689  \u00b1  15  \u00b5g/kg",
+      "reason": "zero analytes, no report number"
+    },
+    {
+      "file": "COA-20-Feb-19 Competition Coffee.docx",
+      "sample_name": "s as provided by client. This report may not be distributed or reproduced except in full. Client shall not at any time misrepresent the content of this report. M\u00e9rieux NutriSciences assumes no respons",
+      "reason": "zero analytes, no report number"
+    },
+    {
+      "file": "COA-23-Jan-20 LA_PRADERA.docx",
+      "sample_name": "s as provided by client. This report may not be distributed or reproduced except in full. Client shall not at any time misrepresent the content of this report. M\u00e9rieux NutriSciences assumes no respons",
+      "reason": "zero analytes, no report number"
+    },
+    {
+      "file": "COA-4-Jun-18 Purity Verfication.docx",
+      "sample_name": null,
+      "reason": "zero analytes, no report number"
+    },
+    {
+      "file": "COA-5-May-18 - Purity Check.docx",
+      "sample_name": "Prep\tAcid Digest  -\tEPA 3050b\t5/2/18 Bacillus cereus - Presumptive\t\t\t<10  /g\tAOAC 980.31\t5/1/18 Yeast and Mold\t\t\t\tFDA-BAM, 7th ed.\t5/5/18",
+      "reason": "zero analytes, no report number"
+    },
+    {
+      "file": "COA-5-May-18-41169643-0 (1).docx",
+      "sample_name": "Prep\tAcid Digest  -\tEPA 3050b\t5/2/18 Bacillus cereus - Presumptive\t\t\t<10  /g\tAOAC 980.31\t5/1/18 Yeast and Mold\t\t\t\tFDA-BAM, 7th ed.\t5/5/18",
+      "reason": "zero analytes, no report number"
+    },
+    {
+      "file": "COA_Report_2852904-0 (1).docx",
+      "sample_name": null,
+      "reason": "zero analytes, no report number"
+    },
+    {
+      "file": "COA_Report_2875088-0.docx",
+      "sample_name": null,
+      "reason": "zero analytes, no report number"
+    },
+    {
+      "file": "COA_Report_2904069-0.docx",
+      "sample_name": null,
+      "reason": "zero analytes, no report number"
+    },
+    {
+      "file": "NUTRITION FACTS-Flow-APPROXIMATE.docx",
+      "sample_name": null,
+      "reason": "zero analytes, no report number"
+    },
+    {
+      "file": "NUTRITION FACTS.docx",
+      "sample_name": null,
+      "reason": "zero analytes, no report number"
+    }
+  ]
 }
