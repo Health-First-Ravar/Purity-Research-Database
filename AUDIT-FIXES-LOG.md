@@ -2786,3 +2786,50 @@ temp users remaining: 0   orphaned profiles: 0
 
 I did not delete the two audit rows to force the cleanup through. Deleting audit
 records to make an operation succeed is the habit this table exists to prevent.
+
+## Task 6 — how many decisions, and how long
+
+### Effort model
+
+```
+batchable buckets      : 31   covering 135 records
+individual-review recs : 69   unmatched 31 · no sample name 25 · bare code 8 · COFFEE N 5
+total decisions        : 31 batch + 69 individual = 100
+
+at 2 min per batch decision, 3 min per individual (opening the source PDF):
+  batch       62 min
+  individual 207 min
+  total      269 min = 4.5 h  one person
+  two people in parallel      ~2.2 h
+```
+
+### The honest shape of it
+
+**204 records collapse to ~100 decisions, not 204** — but the reduction is
+lopsided. 31 batch decisions clear 135 records (66%) in about an hour. The
+remaining 69 do not collapse at all: they are unnamed, bare-coded, or carry no
+producer token, so each needs someone to open the PDF and read it. That is
+~3.5 of the 4.5 hours.
+
+The top 12 buckets alone clear 77% of records in roughly 25 minutes of decisions.
+**If the goal is unblocking trend questions rather than perfect coverage, that
+first 25 minutes buys most of the value** — and the tool is built so that
+partial progress is safe and durable: each assignment is attributed, reversible,
+and protected from the backfill.
+
+### Realistic estimate
+
+Two people, one session: **2-3 hours** to work the whole backlog, or **~30
+minutes** to clear the top dozen buckets and make blend-level trends answerable
+for the products that matter. The 69 individual records are genuinely slower and
+some may end in "skip" — which the tool records, so the next pass knows they
+were examined rather than missed.
+
+### Cron
+
+`COA Auto-Sync` did not fire mid-session (baseline drift: 0 new rows, chunks
+unchanged, scope distribution unchanged). Left enabled throughout.
+
+### Temp users
+
+Both removed. 0 remaining, 0 orphaned profiles. Not pushed.
