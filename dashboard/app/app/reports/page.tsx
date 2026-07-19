@@ -255,9 +255,6 @@ __value: primary ? readAnalyte(r as Record<string, unknown>, primary.key) : null
               Limits →
             </Link>
           )}
-          <Link href="/reports/mappings" className="text-xs text-purity-muted hover:text-purity-green dark:text-purity-mist dark:hover:text-purity-aqua">
-            Mapping rules →
-          </Link>
         </div>
       </div>
 
@@ -399,6 +396,7 @@ __value: primary ? readAnalyte(r as Record<string, unknown>, primary.key) : null
               analyteKey={primary.key}
               analyteLabel={primary.label}
               limit={matchingLimit}
+              canEditLimits={isAdminUser}
             />
           </div>
         </div>

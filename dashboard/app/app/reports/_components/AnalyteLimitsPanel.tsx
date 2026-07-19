@@ -6,10 +6,12 @@
 import Link from 'next/link';
 import type { Limit } from '@/lib/coa-limits';
 
-export function AnalyteLimitsPanel({ analyteKey, analyteLabel, limit }: {
+export function AnalyteLimitsPanel({ analyteKey, analyteLabel, limit, canEditLimits }: {
   analyteKey: string;
   analyteLabel: string;
   limit: Limit | null | undefined;
+  /** /reports/limits is admin-only; hide the link rather than dead-end a rep. */
+  canEditLimits: boolean;
 }) {
   return (
     <aside className="rounded-lg border border-purity-bean/10 bg-white p-4 text-sm dark:border-purity-paper/10 dark:bg-purity-shade">
@@ -66,9 +68,13 @@ export function AnalyteLimitsPanel({ analyteKey, analyteLabel, limit }: {
 
       <div className="mt-4 flex items-center justify-between text-[10px] text-purity-muted dark:text-purity-mist">
         <code className="rounded bg-purity-cream/60 px-1.5 py-0.5 dark:bg-purity-ink/40">{analyteKey}</code>
-        <Link href="/reports/limits" className="hover:text-purity-green dark:hover:text-purity-aqua">
-          edit limits →
-        </Link>
+        {/* /reports/limits is admin-only. Showing this to everyone sent CS reps
+            to an "Admin role required" dead end. */}
+        {canEditLimits && (
+          <Link href="/reports/limits" className="hover:text-purity-green dark:hover:text-purity-aqua">
+            edit limits →
+          </Link>
+        )}
       </div>
     </aside>
   );

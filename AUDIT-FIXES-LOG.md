@@ -4228,3 +4228,74 @@ than that they lacked access. Corrected in the page and in the API's 403 body.
 
 Typecheck clean. Temp verification account removed and confirmed: 0 auth users,
 0 profiles remaining.
+
+## Task 3: remove the mapping-rules feature
+
+### Removed
+
+- `app/reports/mappings/` (page + client) and `app/api/reports/mappings/`
+  (list/create, patch/delete, apply) — 5 files.
+- The "Mapping rules →" link on `/reports`.
+- `apply_coa_mapping_rules()` — dropped in migration 0013.
+
+### Kept, deliberately
+
+`coa_mapping_rules` is **soft-retired, not dropped**, per the standing
+no-DELETE rule: privileges revoked so nothing can read or write it, structure
+and RLS left intact, and the reason recorded in a table comment that points at
+`0008` for the dropped function's definition. The table holds 0 rows so nothing
+is lost either way — but a dropped table cannot answer "what was this for?"
+later, and a retired one can.
+
+### Confirmed nothing else consumes it
+
+Grep across `*.ts`, `*.tsx`, `*.py`, `*.sql`: after removal the only remaining
+references are the two migration files (`0008` defining it, `0013` retiring it).
+No consumer in `scripts/`, `lib/`, or any route.
+
+**Verified through a real authenticated editor JWT**, not service_role:
+
+```
+RPC apply_coa_mapping_rules : blocked (PGRST202 — function not found)
+SELECT coa_mapping_rules    : blocked (42501 — insufficient privilege)
+INSERT coa_mapping_rules    : blocked (42501)
+table still exists          : yes (recoverable via admin)
+cleanup: temp users remaining = 0
+```
+
+### Also fixed while here
+
+`AnalyteLimitsPanel` rendered "edit limits →" for every role, but
+`/reports/limits` is admin-only — so a CS rep clicking it hit "Admin role
+required". Now gated on `canEditLimits`.
+
+### Should `region` exist at all?
+
+**Yes — but it is aspirational today, and one of its two display sites should
+go.**
+
+The case for keeping it: `scripts/embed-coas.ts:79` writes
+`Origin: <origin>, <region>` into embedded chunk text, so region is genuinely
+retrieval-bearing metadata, not decoration. For origin-level questions
+("what's in the Huila lot?") it is exactly the discriminator you want.
+
+The case against: it is populated on **0 of 323 rows**, and after this change
+its only writer is the manual per-row editor on `/reports/[id]` — which nobody
+has used for it in the months the column has existed. A field whose sole
+population path is "an editor remembers to type it" will stay empty.
+
+So:
+
+1. **Keep the column and the manual editor.** Cheap, and it feeds embeddings.
+2. **Give it a real population path** — extract region alongside origin in
+   `extractOrigin` (`import-coas.ts:162`). The sample names that encode
+   "Colombia" frequently encode "Huila" in the same string. That is the same
+   work the mapping rules were meant to do, done where the data already is and
+   without a live bulk UPDATE.
+3. **Drop it from the `/reports` list view until then.** A column rendering "—"
+   on all 323 rows is noise that makes the table wider and tells a reader
+   nothing. Keep it on the detail page, where an empty field reads as "not
+   recorded" rather than as a broken column.
+
+I have not made change 3 — it is a UI judgment beyond the scope of removing the
+mappings feature, and it is one line whenever you want it.
