@@ -1,5 +1,7 @@
 'use client';
 
+import { formatAnalyteCsv } from '@/lib/coa-limits';
+
 type Row = Record<string, unknown>;
 
 export function CsvDownload({ rows, analyteKey, analyteLabel }: { rows: Row[]; analyteKey?: string | null; analyteLabel?: string | null }) {
@@ -12,7 +14,16 @@ export function CsvDownload({ rows, analyteKey, analyteLabel }: { rows: Row[]; a
     const lines = [headerLabels.join(',')];
     for (const r of rows) {
       lines.push(headers.map((h) => {
-        const val = r[h] == null ? '' : String(r[h]);
+        // The analyte column must never export a bare number when the lab
+        // reported a below-LOQ result — that states a detection that never
+        // happened. Everything else exports verbatim.
+        const val =
+          h === analyteKey
+            ? formatAnalyteCsv(
+                typeof r[analyteKey] === 'number' ? (r[analyteKey] as number) : null,
+                typeof r.__reported === 'string' ? r.__reported : null,
+              )
+            : r[h] == null ? '' : String(r[h]);
         return val.includes(',') || val.includes('"') || val.includes('\n')
           ? `"${val.replace(/"/g, '""')}"` : val;
       }).join(','));

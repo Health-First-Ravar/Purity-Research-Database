@@ -48,12 +48,60 @@ type ProcessedCOA = {
   analytes: Analyte[];
 };
 
+/**
+ * Blend keys, read from product-map.json (`products[*].type === 'blend'`).
+ *
+ * This used to be a hardcoded Set that had drifted from the map: BALANCE and
+ * ALZ were absent, so their COAs resolved to a product_key but stored
+ * blend=null and vanished from the /reports blend filter. Reading the map means
+ * adding a product needs no code change here.
+ */
+const BLEND_KEYS: Set<string> = (() => {
+  const fallback = new Set(['PROTECT', 'FLOW', 'EASE', 'CALM', 'BALANCE', 'ALZ']);
+  try {
+    const mapPath = process.env.PRODUCT_MAP
+      ?? resolve(process.cwd(), '..', '..', 'product-map.json');
+    const map = JSON.parse(readFileSync(mapPath, 'utf8')) as {
+      products?: Record<string, { type?: string }>;
+    };
+    const keys = Object.entries(map.products ?? {})
+      .filter(([, v]) => v?.type === 'blend')
+      .map(([k]) => k);
+    if (keys.length) {
+      console.log(`[import-coas] blend keys from product-map.json: ${keys.join(', ')}`);
+      return new Set(keys);
+    }
+    console.warn('[import-coas] product-map.json has no blend products; using fallback set');
+  } catch (e) {
+    console.warn(`[import-coas] could not read product-map.json (${(e as Error).message}); using fallback set`);
+  }
+  return fallback;
+})();
+
 function findAnalyte(analytes: Analyte[], pattern: RegExp): Analyte | undefined {
   return analytes.find((a) => pattern.test(a.analyte));
 }
 
+/**
+ * A below-LOQ result is not a measurement.
+ *
+ * When a lab reports "<0.500" the parser stores 0.500 — the reporting
+ * threshold — in `value_normalized`. Persisting that as the analyte's numeric
+ * asserts a detection that never happened: OTA reported "<1.00" was stored as
+ * 1 against a 2 ppb ceiling, reading as half-limit for a clean sample.
+ *
+ * The numeric column therefore holds only genuine measurements. The threshold
+ * itself is preserved in `value_qualifiers` (and in `raw_values.as_reported`),
+ * so nothing is lost — "below 1.00" is still recoverable, it is just no longer
+ * masquerading as 1.00.
+ */
+function isBelowLoq(a: Analyte | undefined): boolean {
+  return !!a && /^\s*</.test(String(a.value_as_reported ?? ''));
+}
+
 function toMgPerG(a: Analyte | undefined): number | null {
   if (!a || a.value_normalized == null) return null;
+  if (isBelowLoq(a)) return null;   // threshold, not a measurement
   const unit = (a.unit_normalized ?? '').toLowerCase();
   if (unit === 'mg/g') return a.value_normalized;
   if (unit === 'mg/100g') return a.value_normalized / 100;
@@ -64,6 +112,7 @@ function toMgPerG(a: Analyte | undefined): number | null {
 
 function toPpb(a: Analyte | undefined): number | null {
   if (!a || a.value_normalized == null) return null;
+  if (isBelowLoq(a)) return null;   // threshold, not a measurement
   const unit = (a.unit_normalized ?? '').toLowerCase();
   if (unit === 'ppb' || unit === 'µg/kg' || unit === 'ug/kg') return a.value_normalized;
   if (unit === 'ppm' || unit === 'mg/kg') return a.value_normalized * 1000;
@@ -72,6 +121,7 @@ function toPpb(a: Analyte | undefined): number | null {
 
 function toPct(a: Analyte | undefined): number | null {
   if (!a || a.value_normalized == null) return null;
+  if (isBelowLoq(a)) return null;   // threshold, not a measurement
   const unit = (a.unit_normalized ?? '').toLowerCase().trim();
   // Accept "%", "% (w/w)", "% w/w", "%(w/w)" — same thing.
   if (/^%(\s*\(?w\/w\)?)?$/.test(unit)) return a.value_normalized;
@@ -140,18 +190,45 @@ function mapToCOARow(doc: ProcessedCOA): Record<string, unknown> | null {
   // OTA
   const ota = findAnalyte(A, /ochratoxin\s*a\b/i);
 
-  // Aflatoxin — prefer reported total, else sum B1+B2+G1+G2.
+  // Aflatoxin — prefer a reported total, else derive from B1+B2+G1+G2.
+  //
+  // A below-LOQ component is NOT a measurement: the stored numeric is the
+  // lab's reporting threshold. Summing four "<0.500" results produced
+  // aflatoxin_ppb = 2.0 — a detection that appears nowhere in the source
+  // document, against a 4 ppb ceiling, i.e. an apparently half-limit result
+  // for a sample where nothing was found.
+  //
+  // Rule: if EVERY component is below LOQ the derived total is null, with a
+  // qualifier carrying the true upper bound (the sum of the component
+  // thresholds — four <0.500 components bound the total at <2.00, not
+  // <0.500). Never 0, and never the sum of thresholds as if measured.
   const aflaTotal = findAnalyte(A, /aflatoxin\s*total/i)
     ?? findAnalyte(A, /^total\s*aflatoxin/i);
   let afla: Analyte | undefined = aflaTotal;
   let aflaSummed: number | null = null;
+  let aflaDerivedQualifier: string | null = null;
+  let aflaPartial = false;
   if (!aflaTotal) {
     const parts = ['b1', 'b2', 'g1', 'g2']
       .map((p) => findAnalyte(A, new RegExp(`aflatoxin\\s*${p}\\b`, 'i')))
       .filter((x): x is Analyte => !!x && x.value_normalized != null);
     if (parts.length) {
-      aflaSummed = parts.reduce((s, a) => s + (a.value_normalized ?? 0), 0);
-      afla = parts[0]; // for unit reference
+      const detected = parts.filter((a) => !isBelowLoq(a));
+      const below = parts.filter(isBelowLoq);
+      afla = parts[0]; // unit reference
+
+      if (detected.length === 0) {
+        // Nothing detected. Total is null; bound is the sum of thresholds.
+        const bound = below.reduce((s, a) => s + (a.value_normalized ?? 0), 0);
+        aflaSummed = null;
+        aflaDerivedQualifier = `<${Number(bound.toPrecision(4))}`;
+      } else {
+        // Mixed. Sum only what was actually measured — adding a threshold for
+        // an undetected component would invent signal. The true total lies
+        // between this sum and this sum plus the undetected thresholds.
+        aflaSummed = detected.reduce((s, a) => s + (a.value_normalized ?? 0), 0);
+        aflaPartial = below.length > 0;
+      }
     }
   }
 
@@ -205,7 +282,12 @@ function mapToCOARow(doc: ProcessedCOA): Record<string, unknown> | null {
     if (/^[<>]/.test(trimmed)) qualifiers[headlineKey] = trimmed;
   }
   captureQualifier('ota_ppb',          ota);
-  captureQualifier('aflatoxin_ppb',    aflaTotal ?? afla);
+  // For a DERIVED total the qualifier is the computed bound above, not the
+  // qualifier of whichever component happened to be first — that reported the
+  // single-component threshold (<0.500) as if it bounded the four-component
+  // total (<2.00).
+  if (aflaDerivedQualifier) qualifiers['aflatoxin_ppb'] = aflaDerivedQualifier;
+  else if (!aflaPartial) captureQualifier('aflatoxin_ppb', aflaTotal ?? afla);
   captureQualifier('acrylamide_ppb',   acrylamide);
   captureQualifier('cga_mg_g',         cga);
   captureQualifier('melanoidins_mg_g', melanoidins);
@@ -220,8 +302,10 @@ function mapToCOARow(doc: ProcessedCOA): Record<string, unknown> | null {
     }
   }
 
-  // Determine blend from product_key
-  const BLEND_KEYS = new Set(['PROTECT', 'FLOW', 'EASE', 'CALM']);
+  // Determine blend from product_key, using product-map.json as the source of
+  // truth rather than a second hardcoded list. The hardcoded set had drifted
+  // and was missing BALANCE and ALZ, so rows resolved to a product_key but
+  // landed with blend=null and disappeared from the /reports blend filter.
   const blend = doc.product_key && BLEND_KEYS.has(doc.product_key) ? doc.product_key : null;
 
   const pdf_filename = doc.source_file ? doc.source_file.split('/').pop() ?? null : null;
@@ -234,7 +318,7 @@ function mapToCOARow(doc: ProcessedCOA): Record<string, unknown> | null {
     lot_number: cleanLot(doc.lot_or_po),
     origin: extractOrigin(doc.sample_name),
     lab: doc.lab ?? null,
-    matrix: doc.matrix ?? null,
+    ...(doc.matrix != null ? { matrix: doc.matrix } : {}),
     pdf_filename,
     ota_ppb: toPpb(ota),
     aflatoxin_ppb: aflaSummed ?? toPpb(afla),
@@ -244,7 +328,7 @@ function mapToCOARow(doc: ProcessedCOA): Record<string, unknown> | null {
     trigonelline_mg_g: toMgPerG(trigonelline),
     caffeine_pct: toPct(caffeine),
     moisture_pct: toPct(moisture),
-    water_activity: waterActivity?.value_normalized ?? null,
+    water_activity: isBelowLoq(waterActivity) ? null : (waterActivity?.value_normalized ?? null),
     heavy_metals: Object.keys(metals).length ? metals : null,
     raw_values: rawValues,
     value_qualifiers: Object.keys(qualifiers).length ? qualifiers : null,

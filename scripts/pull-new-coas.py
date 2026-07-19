@@ -134,7 +134,13 @@ def main():
     if not FOLDER_ID:
         sys.exit("DRIVE_COA_FOLDER_ID not set")
     COAS_DIR.mkdir(exist_ok=True)
+    # Skip anything already pulled, INCLUDING quarantined files. Without the
+    # _NotCOA/ half, moving a bad file out of COAs/ is undone on the next run:
+    # the file is re-downloaded, re-parsed, and fails again. That is how one
+    # 3-byte non-PDF kept ingest.py's error count at 1 and stopped
+    # last_successful_sync from ever advancing.
     existing = {p.name for p in COAS_DIR.glob("*.pdf")}
+    existing |= {p.name for p in NOTCOA_DIR.glob("*.pdf")} if NOTCOA_DIR.exists() else set()
 
     drive = drive_client()
     files = list_pdfs(drive, FOLDER_ID)

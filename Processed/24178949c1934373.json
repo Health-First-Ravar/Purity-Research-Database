@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "status": "LOW_CONFIDENCE",
+  "product_key": null,
+  "report_number": null,
+  "test_date": null,
+  "sample_name": null,
+  "lot_or_po": null,
+  "supersedes": null,
+  "superseded_by": null,
+  "lab": "Eurofins (inferred)",
+  "serving_size_g": null,
+  "source_file": "/Users/jeremybehne/code/purity/COAs/COMPLETE 2021 PURITY ORIGINAL COA-heavy metals.pdf",
+  "source_hash": "24178949c1934373",
+  "parse_confidence": 0.1,
+  "parse_notes": [
+    "pages=2 tables=2",
+    "missing_report_number",
+    "missing_test_date",
+    "no_analyte_rows_extracted"
+  ],
+  "analytes": [],
+  "ingested_at": "2026-07-18T20:34:11+00:00"
+}

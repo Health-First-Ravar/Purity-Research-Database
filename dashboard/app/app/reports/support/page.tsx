@@ -1,6 +1,7 @@
 import { cookies } from 'next/headers';
 import Link from 'next/link';
 import { supabaseServer } from '@/lib/supabase';
+import { formatAnalyte, evaluate, getLimit, loadLimits, type Limit } from '@/lib/coa-limits';
 
 export const dynamic = 'force-dynamic';
 
@@ -33,11 +34,10 @@ type Row = Record<string, unknown> & {
 function num(v: unknown): number | null {
   return typeof v === 'number' ? v : null;
 }
-function fmt(v: number | null, unit: string): string {
-  if (v == null) return '—';
-  const abs = Math.abs(v);
-  const s = abs >= 100 ? v.toFixed(0) : abs >= 1 ? v.toFixed(2) : v.toPrecision(2);
-  return `${s} ${unit}`;
+
+/** Per-analyte '<'/'>' qualifier recorded at import, keyed like the columns. */
+function qualifiersOf(r: Row): Record<string, string> {
+  return (r.value_qualifiers ?? {}) as Record<string, string>;
 }
 
 type Snap = {
@@ -46,11 +46,65 @@ type Snap = {
   origin: string | null;
   latestDate: string | null;
   values: Record<string, number | null>;
+  quals: Record<string, string | null>;
   valueDates: Record<string, string | null>;
 };
 
+/**
+ * Compliance indicator for one cell.
+ *
+ * Thresholds come only from `coa_limits`. An analyte with no limit row must
+ * say so — it must never render as a pass, because "no threshold on file" and
+ * "measured and within threshold" are different claims.
+ */
+function LimitBadge({
+  analyteKey, value, reported, limits,
+}: { analyteKey: string; value: number | null; reported: string | null; limits: Limit[] }) {
+  const limit = getLimit(analyteKey, limits);
+  if (!limit) {
+    return <span className="text-[10px] text-purity-muted/70 dark:text-purity-mist/70">no limit on file</span>;
+  }
+  const res = evaluate({ key: analyteKey, value, reported, limits });
+
+  if (res.status === 'over' || res.status === 'under') {
+    const word = res.status === 'over' ? 'OVER LIMIT' : 'BELOW MINIMUM';
+    const bound = limit.direction === 'range'
+      ? `${limit.min}–${limit.max}`
+      : String(limit.value);
+    return (
+      <span
+        className="rounded bg-purity-rust/12 px-1.5 py-0.5 text-[10px] font-semibold text-purity-rust"
+        title={`${limit.label}: ${limit.direction} ${bound} ${limit.unit} — ${limit.source}`}
+      >
+        {word}
+      </span>
+    );
+  }
+  if (res.status === 'ok') {
+    return (
+      <span
+        className="text-[10px] text-purity-green dark:text-purity-aqua"
+        title={`${limit.label}: ${limit.direction} ${limit.direction === 'range' ? `${limit.min}–${limit.max}` : limit.value} ${limit.unit} — ${limit.source}`}
+      >
+        within limit
+      </span>
+    );
+  }
+  // no_value: either never tested, or a below-LOQ result against a floor,
+  // where a non-detection cannot confirm the minimum is met.
+  if (res.belowLoq) {
+    return (
+      <span className="text-[10px] text-purity-muted/70 dark:text-purity-mist/70" title={`Not detected, so the ${limit.value} ${limit.unit} minimum cannot be confirmed from this result.`}>
+        not confirmable
+      </span>
+    );
+  }
+  return <span className="text-[10px] text-purity-muted/50 dark:text-purity-mist/50">not tested</span>;
+}
+
 export default async function SupportReportPage() {
   const supabase = supabaseServer(await cookies());
+  const limits = await loadLimits();
 
   const { data: rows, error } = await supabase
     .from('coas')
@@ -77,15 +131,23 @@ export default async function SupportReportPage() {
   for (const [k, list] of byGroup) {
     list.sort((a, b) => String(b.report_date ?? '').localeCompare(String(a.report_date ?? '')));
     const values: Record<string, number | null> = {};
+    const quals: Record<string, string | null> = {};
     const valueDates: Record<string, string | null> = {};
     for (const col of ALL) {
       let v: number | null = null;
+      let q: string | null = null;
       let d: string | null = null;
       for (const r of list) {
         const x = num(r[col.key]);
-        if (x != null) { v = x; d = (r.report_date as string) ?? null; break; }
+        const qual = qualifiersOf(r)[col.key] ?? null;
+        // A below-LOQ result is information ("not detected"), so a row that
+        // carries only a qualifier still counts as the latest reported result.
+        if (x != null || qual) {
+          v = x; q = qual; d = (r.report_date as string) ?? null; break;
+        }
       }
       values[col.key] = v;
+      quals[col.key] = q;
       valueDates[col.key] = d;
     }
     snaps.push({
@@ -94,6 +156,7 @@ export default async function SupportReportPage() {
       origin: (list[0].origin as string) ?? null,
       latestDate: (Object.values(valueDates).filter(Boolean).sort().pop() as string | undefined) ?? (list[0].report_date as string) ?? null,
       values,
+      quals,
       valueDates,
     });
   }
@@ -127,11 +190,38 @@ export default async function SupportReportPage() {
                     </Link>
                   </td>
                   <td className="p-3 text-purity-muted dark:text-purity-mist">{s.latestDate ?? '—'}</td>
-                  {ALL.map((c) => (
-                    <td key={c.key} className="p-3 font-mono tabular-nums" title={s.valueDates[c.key] ? `as of ${s.valueDates[c.key]}` : undefined}>
-                      {fmt(s.values[c.key], c.unit)}
-                    </td>
-                  ))}
+                  {ALL.map((c) => {
+                    const d = formatAnalyte(s.values[c.key], s.quals[c.key], c.unit);
+                    return (
+                      <td
+                        key={c.key}
+                        className={`p-3 font-mono tabular-nums ${
+                          d.kind === 'not_detected'
+                            ? 'text-purity-green dark:text-purity-aqua'
+                            : d.kind === 'not_tested'
+                              ? 'italic text-purity-muted/70 dark:text-purity-mist/70'
+                              : ''
+                        }`}
+                        title={
+                          d.kind === 'not_detected'
+                            ? `Not detected — below the lab's reporting limit of ${d.bound?.replace('<', '')} ${c.unit}${s.valueDates[c.key] ? ` (as of ${s.valueDates[c.key]})` : ''}`
+                            : d.kind === 'not_tested'
+                              ? 'This analyte was not measured on any COA for this product'
+                              : s.valueDates[c.key] ? `as of ${s.valueDates[c.key]}` : undefined
+                        }
+                      >
+                        <span className="block">{d.text}</span>
+                        <span className="mt-0.5 block font-sans">
+                          <LimitBadge
+                            analyteKey={c.key}
+                            value={s.values[c.key]}
+                            reported={s.quals[c.key]}
+                            limits={limits}
+                          />
+                        </span>
+                      </td>
+                    );
+                  })}
                 </tr>
               ))}
             </tbody>
@@ -149,10 +239,20 @@ export default async function SupportReportPage() {
           ← Full reports
         </Link>
       </div>
-      <p className="mb-6 max-w-2xl text-sm text-purity-muted dark:text-purity-mist">
-        Most recent measured value for each blend and green coffee. Each cell is the latest
+      <p className="mb-3 max-w-2xl text-sm text-purity-muted dark:text-purity-mist">
+        Most recent reported result for each blend and green coffee. Each cell is the latest
         COA that actually reported that analyte (hover a value for its test date). Click a product for its newest full COA.
       </p>
+      <div className="mb-6 flex max-w-2xl flex-wrap gap-x-5 gap-y-1 rounded-md border border-purity-bean/10 bg-purity-cream/50 p-3 text-xs dark:border-purity-paper/10 dark:bg-purity-shade/50">
+        <span className="text-purity-muted dark:text-purity-mist">How to read these:</span>
+        <span><span className="font-mono">1.20 ppb</span> — measured at that level</span>
+        <span className="text-purity-green dark:text-purity-aqua">
+          <span className="font-mono">Not detected</span> — none found, below the lab&rsquo;s reporting limit
+        </span>
+        <span className="italic text-purity-muted/70 dark:text-purity-mist/70">
+          Not tested — no COA measured it. Not the same as zero.
+        </span>
+      </div>
 
       {error && <p className="text-purity-rust">Error: {error.message}</p>}
       {!error && snaps.length === 0 && (

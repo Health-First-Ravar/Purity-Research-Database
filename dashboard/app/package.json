@@ -16,7 +16,8 @@
     "dedupe-research": "tsx scripts/dedupe-research.ts",
     "verify-rls": "tsx scripts/verify-rls.ts",
     "seed-question-topics": "tsx scripts/seed-question-topics.ts",
-    "backfill-question-topics": "tsx scripts/backfill-question-topics.ts"
+    "backfill-question-topics": "tsx scripts/backfill-question-topics.ts",
+    "migrate": "node --env-file=.env.local scripts/migrate.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.36.0",
@@ -26,6 +27,7 @@
     "d3": "^7.9.0",
     "googleapis": "^144.0.0",
     "next": "^15.5.15",
+    "pg": "^8.21.0",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
     "recharts": "^3.8.1",

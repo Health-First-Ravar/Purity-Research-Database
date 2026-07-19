@@ -40,10 +40,22 @@ type CoaRow = {
   moisture_pct: number | null;
   water_activity: number | null;
   heavy_metals: Record<string, number | null> | null;
-  raw_values: Record<string, { value: number | null; unit: string | null; panel: string | null }> | null;
+  raw_values: Record<string, { value: number | null; unit: string | null; panel: string | null; as_reported?: string | null }> | null;
+  value_qualifiers: Record<string, string> | null;
 };
 
-function fmtNum(v: number | null | undefined, unit: string): string {
+/**
+ * Render one analyte for retrieval.
+ *
+ * A below-LOQ result must never render as a bare number: the stored numeric is
+ * the reporting threshold, not a measurement, and chat quotes this text to
+ * customers verbatim. "not tested" and "not detected" are also different
+ * claims and must not be collapsed into each other.
+ */
+function fmtNum(v: number | null | undefined, unit: string, reported?: string | null): string {
+  const rep = (reported ?? '').trim();
+  if (/^</.test(rep)) return `not detected (below ${rep.slice(1)} ${unit})`.trim();
+  if (/^>/.test(rep)) return `${rep} ${unit}`.trim();
   if (v == null) return 'not tested';
   // Trim trailing zeros without losing precision for small numbers.
   return `${Number(v.toPrecision(4))} ${unit}`.trim();
@@ -58,6 +70,7 @@ function renderCoaText(c: CoaRow): { title: string; content: string } {
   ].filter(Boolean);
   const title = titleParts.join(' ');
 
+  const q = c.value_qualifiers ?? {};
   const lines: string[] = [];
   lines.push(`Certificate of Analysis — Report ${id}`);
   if (c.report_date) lines.push(`Test date: ${c.report_date}`);
@@ -71,34 +84,36 @@ function renderCoaText(c: CoaRow): { title: string; content: string } {
 
   // Mycotoxins — primary safety concern for green coffee.
   lines.push('Mycotoxins:');
-  lines.push(`- Ochratoxin A (OTA): ${fmtNum(c.ota_ppb, 'ppb')}`);
-  lines.push(`- Aflatoxin (total B1+B2+G1+G2): ${fmtNum(c.aflatoxin_ppb, 'ppb')}`);
+  lines.push(`- Ochratoxin A (OTA): ${fmtNum(c.ota_ppb, 'ppb', q['ota_ppb'])}`);
+  lines.push(`- Aflatoxin (total B1+B2+G1+G2): ${fmtNum(c.aflatoxin_ppb, 'ppb', q['aflatoxin_ppb'])}`);
   lines.push('');
 
   // Process contaminants from roasting.
   lines.push('Process contaminants:');
-  lines.push(`- Acrylamide: ${fmtNum(c.acrylamide_ppb, 'ppb')}`);
+  lines.push(`- Acrylamide: ${fmtNum(c.acrylamide_ppb, 'ppb', q['acrylamide_ppb'])}`);
   lines.push('');
 
   // Bioactive compounds — health-relevant constituents.
   lines.push('Bioactive compounds:');
-  lines.push(`- Chlorogenic acids (CGAs, total): ${fmtNum(c.cga_mg_g, 'mg/g')}`);
-  lines.push(`- Melanoidins: ${fmtNum(c.melanoidins_mg_g, 'mg/g')}`);
-  lines.push(`- Trigonelline: ${fmtNum(c.trigonelline_mg_g, 'mg/g')}`);
+  lines.push(`- Chlorogenic acids (CGAs, total): ${fmtNum(c.cga_mg_g, 'mg/g', q['cga_mg_g'])}`);
+  lines.push(`- Melanoidins: ${fmtNum(c.melanoidins_mg_g, 'mg/g', q['melanoidins_mg_g'])}`);
+  lines.push(`- Trigonelline: ${fmtNum(c.trigonelline_mg_g, 'mg/g', q['trigonelline_mg_g'])}`);
   lines.push('');
 
   // Composition.
   lines.push('Composition:');
-  lines.push(`- Caffeine: ${fmtNum(c.caffeine_pct, '%')}`);
-  lines.push(`- Moisture: ${fmtNum(c.moisture_pct, '%')}`);
-  lines.push(`- Water activity: ${c.water_activity != null ? Number(c.water_activity.toPrecision(3)) : 'not tested'}`);
+  lines.push(`- Caffeine: ${fmtNum(c.caffeine_pct, '%', q['caffeine_pct'])}`);
+  lines.push(`- Moisture: ${fmtNum(c.moisture_pct, '%', q['moisture_pct'])}`);
+  lines.push(`- Water activity: ${fmtNum(c.water_activity, '', q['water_activity'])}`);
   lines.push('');
 
   // Heavy metals (always in ppb after import-coas normalization).
   if (c.heavy_metals && Object.keys(c.heavy_metals).length > 0) {
     lines.push('Heavy metals (ppb):');
     for (const [name, val] of Object.entries(c.heavy_metals)) {
-      lines.push(`- ${name}: ${val == null ? 'not detected' : Number(val.toPrecision(4))}`);
+      // A null here means the analyte was not measured. Reporting that as
+      // "not detected" asserts a negative result that was never obtained.
+      lines.push(`- ${name}: ${fmtNum(val, 'ppb', q[`heavy_metals.${name}`])}`);
     }
     lines.push('');
   } else {
@@ -122,8 +137,8 @@ function renderCoaText(c: CoaRow): { title: string; content: string } {
   for (const [name, v] of Object.entries(c.raw_values ?? {})) {
     if (!v || v.panel === 'heavy_metals') continue;
     if (HEADLINE_KEYS.some((re) => re.test(name))) continue;
-    if (v.value == null) continue;
-    otherEntries.push(`- ${name}: ${Number(v.value.toPrecision(4))} ${v.unit ?? ''}`.trim());
+    if (v.value == null && !v.as_reported) continue;
+    otherEntries.push(`- ${name}: ${fmtNum(v.value, v.unit ?? '', v.as_reported)}`);
   }
   if (otherEntries.length) {
     lines.push('Other reported analytes:');
@@ -178,7 +193,7 @@ async function upsertSource(args: {
 async function main() {
   const { data: coas, error } = await sb
     .from('coas')
-    .select('id, report_number, report_date, blend, coffee_name, lot_number, origin, region, lab, pdf_filename, ota_ppb, aflatoxin_ppb, acrylamide_ppb, cga_mg_g, melanoidins_mg_g, trigonelline_mg_g, caffeine_pct, moisture_pct, water_activity, heavy_metals, raw_values');
+    .select('id, report_number, report_date, blend, coffee_name, lot_number, origin, region, lab, pdf_filename, ota_ppb, aflatoxin_ppb, acrylamide_ppb, cga_mg_g, melanoidins_mg_g, trigonelline_mg_g, caffeine_pct, moisture_pct, water_activity, heavy_metals, raw_values, value_qualifiers');
   if (error) throw error;
 
   const rows = (coas ?? []) as CoaRow[];

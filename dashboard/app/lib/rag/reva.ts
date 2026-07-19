@@ -13,6 +13,7 @@
 
 import path from 'node:path';
 import fs from 'node:fs/promises';
+import { fileURLToPath } from 'node:url';
 import { anthropic, MODEL_GENERATE } from '../anthropic';
 import { embedOne } from '../voyage';
 import { supabaseAdmin } from '../supabase';
@@ -54,7 +55,36 @@ export type RevaAnswer = {
 // ---------------------------------------------------------------------------
 // Mode prompt loader — slice SKILL.md by H3 section headings.
 // ---------------------------------------------------------------------------
-const SKILL_PATH = path.join(process.cwd(), 'knowledge-base', 'reva', 'SKILL.md');
+// SKILL.md lives at the REPO ROOT, but Next runs with process.cwd() set to
+// dashboard/app, so a bare cwd join silently misses it. Resolve against every
+// plausible anchor and take the first that exists, so this works from the app
+// dir, the repo root, and a traced serverless bundle alike.
+function skillPathCandidates(): string[] {
+  const cwd = process.cwd();
+  const candidates = [
+    path.join(cwd, '..', '..', 'knowledge-base', 'reva', 'SKILL.md'), // cwd = dashboard/app
+    path.join(cwd, 'knowledge-base', 'reva', 'SKILL.md'),             // cwd = repo root
+  ];
+  try {
+    // Anchor on this module's own location — survives an unexpected cwd.
+    const here = path.dirname(fileURLToPath(import.meta.url));
+    candidates.push(path.join(here, '..', '..', '..', '..', 'knowledge-base', 'reva', 'SKILL.md'));
+  } catch {
+    // import.meta.url unavailable under this bundler; cwd candidates stand.
+  }
+  return candidates;
+}
+
+export class RevaSkillUnavailableError extends Error {
+  constructor(tried: string[]) {
+    super(
+      'Reva SKILL.md could not be loaded, so the mode prompts would be empty. ' +
+        'Refusing to answer with an unconfigured persona. Tried:\n  ' +
+        tried.join('\n  '),
+    );
+    this.name = 'RevaSkillUnavailableError';
+  }
+}
 
 let modePromptsCache: Record<RevaMode, string> | null = null;
 
@@ -86,15 +116,51 @@ const MODE_HEADINGS: Record<RevaMode, RegExp[]> = {
 
 async function loadModePrompts(): Promise<Record<RevaMode, string>> {
   if (modePromptsCache) return modePromptsCache;
-  const skill = await fs.readFile(SKILL_PATH, 'utf-8').catch(() => '');
-  const out: Record<RevaMode, string> = {
-    create: '',
-    analyze: '',
-    challenge: '',
-  };
+
+  const tried = skillPathCandidates();
+  let skill = '';
+  let loadedFrom: string | null = null;
+  for (const p of tried) {
+    try {
+      skill = await fs.readFile(p, 'utf-8');
+      loadedFrom = p;
+      break;
+    } catch {
+      // try the next candidate
+    }
+  }
+
+  // Previously this was `.catch(() => '')`, which produced empty prompts for
+  // all three modes and served them as if configured — a silent 200 with an
+  // unconfigured persona. Fail loudly instead.
+  if (!loadedFrom || !skill.trim()) {
+    console.error('[reva] FATAL: SKILL.md not found. Tried:', tried);
+    throw new RevaSkillUnavailableError(tried);
+  }
+
+  const out: Record<RevaMode, string> = { create: '', analyze: '', challenge: '' };
+  const empty: RevaMode[] = [];
   for (const mode of Object.keys(MODE_HEADINGS) as RevaMode[]) {
     out[mode] = sliceSection(skill, MODE_HEADINGS[mode]);
+    if (!out[mode].trim()) empty.push(mode);
   }
+
+  // The file loaded but a heading moved — also a silent-degradation path.
+  if (empty.length) {
+    console.error(
+      `[reva] FATAL: loaded ${loadedFrom} but no section matched for mode(s): ${empty.join(', ')}. ` +
+        'MODE_HEADINGS is out of sync with SKILL.md.',
+    );
+    throw new Error(
+      `Reva SKILL.md loaded from ${loadedFrom} but no section matched for: ${empty.join(', ')}. ` +
+        'The mode headings in lib/rag/reva.ts no longer match the document.',
+    );
+  }
+
+  console.log(
+    `[reva] loaded SKILL.md from ${loadedFrom} — ` +
+      (Object.keys(out) as RevaMode[]).map((m) => `${m}:${out[m].length}b`).join(' '),
+  );
   modePromptsCache = out;
   return out;
 }

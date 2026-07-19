@@ -4,7 +4,7 @@ import { supabaseServer } from '@/lib/supabase';
 import { AnalyteChart } from './_components/AnalyteChart';
 import { AnalyteLimitsPanel } from './_components/AnalyteLimitsPanel';
 import { CsvDownload } from './_components/CsvDownload';
-import { evaluate, fmtValue, statusStyle, loadLimits, getLimit } from '@/lib/coa-limits';
+import { evaluate, fmtValue, statusStyle, loadLimits, getLimit, type EvalResult } from '@/lib/coa-limits';
 import { isAdmin } from '@/lib/auth-roles';
 
 export const dynamic = 'force-dynamic';
@@ -183,9 +183,24 @@ export default async function ReportsPage({ searchParams }: { searchParams: Prom
     return qs ? `/reports?${qs}` : '/reports';
   }
 
+  // Resolve the '<'/'>' qualifier for the primary analyte, from raw_values for
+  // raw: keys and from value_qualifiers for headline columns. Carried on the
+  // row so the CSV export can render below-LOQ results as "not detected"
+  // rather than emitting the bare LOQ threshold as if it were a measurement.
+  function reportedFor(r: Record<string, unknown>, key: string): string | null {
+    if (key.startsWith('raw:')) {
+      const name = key.slice(4);
+      const raw = (r.raw_values ?? {}) as Record<string, { as_reported?: string | null }>;
+      return raw[name]?.as_reported ?? null;
+    }
+    const qmap = (r.value_qualifiers ?? {}) as Record<string, string>;
+    return qmap[key] ?? null;
+  }
+
   let chartRows = (rows ?? []).map((r) => ({
     ...r,
-    __value: primary ? readAnalyte(r as Record<string, unknown>, primary.key) : null,
+__value: primary ? readAnalyte(r as Record<string, unknown>, primary.key) : null,
+    __reported: primary ? reportedFor(r as Record<string, unknown>, primary.key) : null,
   }));
   // The "only rows with data" toggle only applies when an analyte is selected;
   // with no analyte chosen it is ignored so every matching COA stays visible.
@@ -197,6 +212,27 @@ export default async function ReportsPage({ searchParams }: { searchParams: Prom
   const hasData = hasAnalyte && !error && chartRows.filter((r) =>
     r.report_date && selectedAnalytes.some((a) => readAnalyte(r as Record<string, unknown>, a.key) != null),
   ).length >= 2;
+  // Out-of-limit results across the CURRENT filtered set, for the banner. These
+  // are legitimate findings — a lot tested over a threshold and we recorded it.
+  // They are surfaced, never hidden: the audit team needs them at the top, not
+  // buried in a scroll.
+  // `primary` is null when no analyte is selected, so this must be guarded —
+  // there is no column to evaluate against in that mode.
+  const outOfLimit = primary
+    ? chartRows
+        .map((r) => {
+          const rep = reportedFor(r as Record<string, unknown>, primary.key);
+          const ev = evaluate({
+            key: primary.key,
+            value: typeof r.__value === 'number' ? r.__value : null,
+            reported: rep,
+            limits,
+          });
+          return { r, ev };
+        })
+        .filter((x) => x.ev.status === 'over' || x.ev.status === 'under')
+    : [];
+
   const totalCount = rows?.length ?? 0;
   const visibleCount = chartRows.length;
 
@@ -369,6 +405,36 @@ export default async function ReportsPage({ searchParams }: { searchParams: Prom
         </p>
       ) : null}
 
+      {outOfLimit.length > 0 ? (
+        <div className="mb-4 rounded-lg border border-purity-rust/30 bg-purity-rust/5 p-4">
+          <p className="text-sm font-semibold text-purity-rust">
+            {outOfLimit.length} result{outOfLimit.length === 1 ? '' : 's'} outside the {primary?.label} limit
+          </p>
+          <ul className="mt-2 flex flex-col gap-1 text-xs">
+            {outOfLimit.map(({ r, ev }) => (
+              <li key={r.id as string}>
+                <Link href={`/reports/${r.id}`} className="hover:underline">
+                  <span className="font-mono font-semibold text-purity-rust">
+                    {fmtValue(typeof r.__value === 'number' ? r.__value : null, null)} {ev.limit?.unit}
+                  </span>
+                  <span className="text-purity-muted dark:text-purity-mist">
+                    {' '}vs {ev.limit?.direction}{' '}
+                    {ev.limit?.direction === 'range' ? `${ev.limit?.min}–${ev.limit?.max}` : ev.limit?.value}
+                    {' '}{ev.limit?.unit}
+                    {' · '}{(r.blend as string) ?? (r.coffee_name as string) ?? 'unnamed'}
+                    {r.lot_number ? ` · lot ${r.lot_number as string}` : ''}
+                    {r.report_date ? ` · ${r.report_date as string}` : ''}
+                  </span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+          <p className="mt-2 text-xs text-purity-muted dark:text-purity-mist">
+            Shown because they are real results. Source: {outOfLimit[0]?.ev.limit?.source}.
+          </p>
+        </div>
+      ) : null}
+
       <div className="overflow-x-auto rounded-lg border border-purity-bean/10 bg-white shadow-sm dark:border-purity-paper/10 dark:bg-purity-shade dark:shadow-none">
         <table className="w-full min-w-[680px] text-sm">
           <thead>
@@ -396,6 +462,9 @@ export default async function ReportsPage({ searchParams }: { searchParams: Prom
             {chartRows.slice().sort((a, b) => String(b.report_date ?? '').localeCompare(String(a.report_date ?? ''))).map((r) => {
               let reported: string | null = null;
               let cellClass = '';
+              // Keep the full evaluation, not just its status: the out-of-limit
+              // badge needs the limit's direction, threshold and source too.
+              let cellEval: EvalResult | null = null;
               if (primary) {
                 const key = primary.key;
                 if (key.startsWith('raw:')) {
@@ -406,7 +475,8 @@ export default async function ReportsPage({ searchParams }: { searchParams: Prom
                   const qmap = (r.value_qualifiers ?? {}) as Record<string, string>;
                   reported = qmap[key] ?? null;
                 }
-                cellClass = statusStyle(evaluate({ key, value: typeof r.__value === 'number' ? r.__value : null, reported, limits }).status);
+                cellEval = evaluate({ key, value: typeof r.__value === 'number' ? r.__value : null, reported, limits });
+                cellClass = statusStyle(cellEval.status);
               }
               const cellDisplay = r.__value == null && !reported ? '—' : fmtValue(typeof r.__value === 'number' ? r.__value : null, reported);
               return (
@@ -416,7 +486,28 @@ export default async function ReportsPage({ searchParams }: { searchParams: Prom
                   <td className="p-3 font-mono text-xs"><Link href={`/reports/${r.id}`} className="block">{(r.lot_number as string) ?? '—'}</Link></td>
                   <td className="p-3"><Link href={`/reports/${r.id}`} className="block">{(r.origin as string) ?? '—'}</Link></td>
                   <td className="p-3"><Link href={`/reports/${r.id}`} className="block">{(r.region as string) ?? '—'}</Link></td>
-                  {primary && <td className={`p-3 font-mono ${cellClass}`}><Link href={`/reports/${r.id}`} className="block">{cellDisplay}</Link></td>}
+
+{primary && <td className={`p-3 font-mono ${cellClass}`}>
+                    <Link href={`/reports/${r.id}`} className="block">
+                      {cellDisplay}
+                      {cellEval && (cellEval.status === 'over' || cellEval.status === 'under') && cellEval.limit ? (
+                        <span
+                          className="ml-2 rounded bg-purity-rust/12 px-1.5 py-0.5 font-sans text-[10px] font-semibold text-purity-rust"
+                          title={`${cellEval.limit.label}: ${cellEval.limit.direction} ${
+                            cellEval.limit.direction === 'range'
+                              ? `${cellEval.limit.min}–${cellEval.limit.max}`
+                              : cellEval.limit.value
+                          } ${cellEval.limit.unit} — ${cellEval.limit.source}`}
+                        >
+                          {cellEval.status === 'over' ? 'OVER' : 'UNDER'} {
+                            cellEval.limit.direction === 'range'
+                              ? `${cellEval.limit.min}–${cellEval.limit.max}`
+                              : cellEval.limit.value
+                          } {cellEval.limit.unit}
+                        </span>
+                      ) : null}
+                    </Link>
+                  </td>}
                   <td className="p-3 text-purity-muted dark:text-purity-mist"><Link href={`/reports/${r.id}`} className="block">{(r.lab as string) ?? '—'}</Link></td>
                 </tr>
               );

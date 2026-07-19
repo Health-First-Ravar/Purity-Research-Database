@@ -108,10 +108,23 @@ export function evaluate(args: {
 }): EvalResult {
   const limit = getLimit(args.key, args.limits ?? DEFAULT_LIMITS);
   if (!limit) return { status: 'no_limit', value: args.value ?? null, reported: args.reported };
-  if (args.value == null) return { status: 'no_value', limit, reported: args.reported };
 
   const reported = args.reported ?? null;
   const belowLoq = !!reported && /^\s*</.test(reported);
+
+  // A below-LOQ result now stores a NULL numeric (the threshold is not a
+  // measurement — see isBelowLoq in scripts/import-coas.ts), so the null check
+  // must come after the below-LOQ branches. Otherwise "not detected" would
+  // evaluate as "not tested" and lose a genuine pass against a ceiling.
+  if (args.value == null && belowLoq) {
+    if (limit.direction === 'ceiling') {
+      // Nothing detected, so the ceiling is met.
+      return { status: 'ok', limit, value: null, reported, belowLoq };
+    }
+    // Against a floor or a range, a non-detection cannot confirm the minimum.
+    return { status: 'no_value', limit, value: null, reported, belowLoq };
+  }
+  if (args.value == null) return { status: 'no_value', limit, reported: args.reported };
 
   if (limit.direction === 'ceiling' && limit.value != null) {
     if (belowLoq) return { status: 'ok', limit, value: args.value, reported, belowLoq };
@@ -149,6 +162,47 @@ export function fmtValue(value: number | null | undefined, reported?: string | n
   if (abs >= 1)   return value.toFixed(2);
   if (abs >= 0.1) return value.toFixed(3);
   return value.toPrecision(2);
+}
+
+/**
+ * Three-state analyte display for customer-facing surfaces.
+ *
+ * A below-LOQ result means the lab did NOT detect the analyte. Rendering the
+ * bare numeric (the LOQ threshold itself) states a detected value that was
+ * never measured, so below-LOQ must never format as a plain number. These
+ * three states must also be distinguishable from each other: a dash or blank
+ * is not acceptable for "not tested" because it reads as zero.
+ */
+export type AnalyteDisplayKind = 'measured' | 'not_detected' | 'not_tested';
+export type AnalyteDisplay = { text: string; kind: AnalyteDisplayKind; bound?: string };
+
+export function formatAnalyte(
+  value: number | null | undefined,
+  reported?: string | null,
+  unit?: string,
+): AnalyteDisplay {
+  const rep = (reported ?? '').trim();
+  const u = unit ? ` ${unit}` : '';
+
+  // "<0.500" — below the limit of quantitation. Not detected.
+  if (/^</.test(rep)) {
+    return { text: `Not detected (${rep}${u})`, kind: 'not_detected', bound: rep };
+  }
+  // ">50" — above the upper reporting bound. A real detection, bound unknown.
+  if (/^>/.test(rep)) {
+    return { text: `${rep}${u}`, kind: 'measured', bound: rep };
+  }
+  if (value == null) return { text: 'Not tested', kind: 'not_tested' };
+  return { text: `${fmtValue(value)}${u}`, kind: 'measured' };
+}
+
+/** Plain-text form for CSV export — same three states, no markup. */
+export function formatAnalyteCsv(
+  value: number | null | undefined,
+  reported?: string | null,
+): string {
+  const d = formatAnalyte(value, reported);
+  return d.kind === 'not_tested' ? 'not tested' : d.text;
 }
 
 export function statusStyle(status: EvalStatus): string {
