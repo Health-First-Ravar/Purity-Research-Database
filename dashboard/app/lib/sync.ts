@@ -23,12 +23,51 @@ type SyncArgs = { trigger: 'cron' | 'manual'; triggered_by?: string };
 type SyncResult = {
   job_id: string;
   sources_checked: number;
+  /** Files in the COA folder skipped because they are not COAs. */
+  skipped_not_coa?: number;
   sources_added: number;
   sources_updated: number;
   chunks_embedded: number;
   has_more?: boolean;
   error?: string;
 };
+
+/**
+ * Filename classification for the COA folder.
+ *
+ * `FOLDERS` below assigns `kind` from which Drive folder a file sits in, with
+ * no inspection of the file itself. The COA folder is a working folder — it
+ * also holds branding sheets, cover letters, packing lists and, in practice,
+ * twelve copies of "The Coffee Guide to Better Health" manuscript. All twelve
+ * were ingested as `kind='coa'`, which put book prose into COA retrieval.
+ *
+ * `scripts/pull-new-coas.py` already classifies before downloading and
+ * quarantines non-COAs into `_NotCOA/`. This is the same rule applied to the
+ * TypeScript path, which had none — the two pipelines read the same folder with
+ * different beliefs about what is in it.
+ *
+ * Kept deliberately in sync with pull-new-coas.py:NOT_COA_FILENAME /
+ * COA_FILENAME. If you change one, change the other.
+ */
+const NOT_COA_FILENAME =
+  /(^s\d{4,5}-|sciadv|^Ray-2013|Saraiva|schubert|sustainability_assessment|Coffee Guide|Sacred Cups|tax|Packing.?List|WIRE TRANSFER|Trilogy|Green Coffee samples|Offer Sample|PSS\b|branding|\bcarta\b)/i;
+
+const COA_FILENAME =
+  /(COA|\b\d{6,8}-\d\b|Contaminants|Nutrition|Nutition|Caffeine|CGA|Trigonelline|[\u00c1A]CIDO\s+CLOROG[\u00c9E]NICO|CLOROG[\u00c9E]NICO|informe)/i;
+
+/**
+ * Should a file found in the COA folder be ingested as a COA?
+ *
+ * Mirrors the Python quarantine decision. Returns false for material that is
+ * clearly not a certificate of analysis, so it is skipped rather than
+ * mislabelled. We skip rather than guess a different kind: assigning
+ * `coffee_book` to something because its name mentions a book would be the same
+ * class of inference that created this problem.
+ */
+export function looksLikeCoa(filename: string): boolean {
+  if (NOT_COA_FILENAME.test(filename)) return false;
+  return COA_FILENAME.test(filename);
+}
 
 const FOLDERS: { id: string | undefined; kind: string }[] = [
   { id: process.env.DRIVE_COA_FOLDER_ID,         kind: 'coa' },
@@ -100,7 +139,7 @@ export async function runSync(args: SyncArgs): Promise<SyncResult> {
   const job_id = jobRow!.id as string;
 
   const result: SyncResult = {
-    job_id, sources_checked: 0, sources_added: 0, sources_updated: 0, chunks_embedded: 0,
+    job_id, sources_checked: 0, skipped_not_coa: 0, sources_added: 0, sources_updated: 0, chunks_embedded: 0,
   };
 
   try {
@@ -126,6 +165,16 @@ export async function runSync(args: SyncArgs): Promise<SyncResult> {
         for (const f of list.data.files ?? []) {
           if (!f.id || !f.name) continue;
           result.sources_checked++;
+
+          // Classify before trusting the folder. A file in the COA folder that
+          // is not a COA is skipped, not relabelled — downstream filtering
+          // should not be the only thing standing between a book manuscript
+          // and COA retrieval.
+          if (kind === 'coa' && !looksLikeCoa(f.name)) {
+            result.skipped_not_coa = (result.skipped_not_coa ?? 0) + 1;
+            console.warn(`[sync] skipping non-COA file in the COA folder: ${f.name}`);
+            continue;
+          }
 
           const r = await syncOne(sb, drive, {
             fileId: f.id,

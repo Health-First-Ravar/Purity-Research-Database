@@ -2457,3 +2457,69 @@ not retire them: the brief scoped this to 76, they are not CS-visible, and
 expanding a write over regulated data beyond the brief is the kind of
 improvisation the rules forbid. One word and I will; the query is the same with
 `product_scope='unclassified'`.
+
+## Task 3 — lib/sync.ts mislabelling — **PASS**
+
+### Cause
+
+`lib/sync.ts` assigned `kind` purely from **which Drive folder a file sits in**,
+with no inspection of the file:
+
+```ts
+const FOLDERS = [
+  { id: process.env.DRIVE_COA_FOLDER_ID, kind: 'coa' },   // <- everything here became a COA
+  ...
+];
+```
+
+The COA folder is a working folder: it also holds branding sheets, cover
+letters, packing lists, and twelve copies of "The Coffee Guide to Better
+Health". All twelve were ingested as `kind='coa'`, putting book prose into COA
+retrieval.
+
+`scripts/pull-new-coas.py` has classified since the beginning and quarantines
+non-COAs into `_NotCOA/`. **The two pipelines read the same folder with
+different beliefs about what is in it** — the TypeScript path had no classifier
+at all.
+
+### Fix
+
+Ported `NOT_COA_FILENAME` / `COA_FILENAME` from `pull-new-coas.py` into
+`lib/sync.ts` as `looksLikeCoa()`, applied in the folder loop before ingest:
+
+```ts
+if (kind === 'coa' && !looksLikeCoa(f.name)) {
+  result.skipped_not_coa++;
+  console.warn(`[sync] skipping non-COA file in the COA folder: ${f.name}`);
+  continue;
+}
+```
+
+Skipped, **not relabelled**. Assigning `coffee_book` because a filename mentions
+a book would be the same class of inference that caused this. The regexes carry
+a note that they are kept in sync with the Python pair deliberately.
+
+`skipped_not_coa` is added to the sync result so the count shows up in
+`update_jobs` rather than being invisible.
+
+### Verification, against the real filenames
+
+```
+The Coffee Guide to Better Health V-1-Photos              SKIP
+The Coffee Guide to Better Health_7x10_FINAL-09-30        SKIP
+... all twelve                                            SKIP
+  -> 12/12 now skipped
+
+3594397-0_COA.pdf                                         INGEST
+4211524-0_COACOFFEE FLOWER TEA.pdf                        INGEST
+4582334-0_COA (3) PFAS.pdf                                INGEST
+... all twelve genuine COA filenames                      INGEST
+  -> 12/12 still ingested
+```
+
+### Existing rows left alone
+
+The 12 already in the DB remain `kind='coa'` with `path=null`. Under the 0007
+sources policy a `kind='coa'` row without a resolvable `coas` row is invisible
+to non-editors, so they already fail closed. Retiring them is a separate
+cleanup and was not in the brief.
