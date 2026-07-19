@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "status": "UNRESOLVED",
+  "status": "VOID",
   "product_key": null,
   "report_number": "CHG-42174365-1",
   "test_date": "2019-03-19",
   "sample_name": "GR-19-200 / Nicaragua 2019",
   "lot_or_po": null,
   "supersedes": "CHG-42174365-0",
-  "superseded_by": null,
+  "superseded_by": "CHG-42174365-2",
   "lab": "Silliker / M\u00e9rieux NutriSciences",
   "serving_size_g": null,
   "source_file": "/Users/jeremybehne/code/purity/COAs/COA-19-Mar-19-42174365-1.pdf",
@@ -3550,5 +3550,5 @@
       "retest_sequence": 0
     }
   ],
-  "ingested_at": "2026-07-19T05:24:00+00:00"
+  "ingested_at": "2026-07-19T13:37:33+00:00"
 }

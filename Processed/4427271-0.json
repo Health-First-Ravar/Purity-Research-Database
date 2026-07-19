@@ -3,19 +3,20 @@
   "status": "UNRESOLVED",
   "product_key": null,
   "report_number": "4427271-0",
-  "test_date": "2024-02-09",
+  "test_date": "2024-03-19",
   "sample_name": "Santa Maria ROASTED Eurofins Sample: 13766605",
   "lot_or_po": "rt",
   "supersedes": null,
   "superseded_by": null,
   "lab": "Eurofins (inferred)",
   "serving_size_g": 15.0,
-  "source_file": "/Users/jeremybehne/code/purity/COAs/GESHA-Roasted-Mar-2024-COA.pdf",
-  "source_hash": "d0a61ca157ed1fd9",
+  "source_file": "/Users/jeremybehne/code/purity/COAs/Santa Maria NOT Decaffeinated.pdf",
+  "source_hash": "fbf48a778a8f1d3a",
   "parse_confidence": 1.0,
   "parse_notes": [
-    "pages=3 tables=2",
-    "text_rows=30"
+    "pages=4 tables=2",
+    "text_rows=40",
+    "retest:Deoxynivalenol:kept='2.2 ppm' prior=[{'value_raw': '<100', 'unit_raw': 'ppb', 'source_row_text': 'Deoxynivalenol <100 ppb'}]"
   ],
   "analytes": [
     {
@@ -219,13 +220,13 @@
     {
       "analyte": "Deoxynivalenol",
       "panel": "other",
-      "value_normalized": 100.0,
-      "unit_normalized": "ppb",
-      "value_as_reported": "<100",
-      "unit_as_reported": "ppb",
+      "value_normalized": 2.2,
+      "unit_normalized": "ppm",
+      "value_as_reported": "2.2",
+      "unit_as_reported": "ppm",
       "method": null,
       "loq": null,
-      "retest_sequence": 0
+      "retest_sequence": 1
     },
     {
       "analyte": "T-2 Toxin",
@@ -347,7 +348,106 @@
       "method": null,
       "loq": null,
       "retest_sequence": 0
+    },
+    {
+      "analyte": "Benz(a)anthracene",
+      "panel": "other",
+      "value_normalized": 0.25,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.250",
+      "unit_as_reported": "ppb",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Benzo(a)pyrene",
+      "panel": "other",
+      "value_normalized": 0.25,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.250",
+      "unit_as_reported": "ppb",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Benzo(b)fluoranthene",
+      "panel": "other",
+      "value_normalized": 0.25,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.250",
+      "unit_as_reported": "ppb",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Benzo(g,h,i)perylene",
+      "panel": "other",
+      "value_normalized": 0.25,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.250",
+      "unit_as_reported": "ppb",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Benzo(k)fluoranthene",
+      "panel": "other",
+      "value_normalized": 0.25,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.250",
+      "unit_as_reported": "ppb",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Chrysene",
+      "panel": "other",
+      "value_normalized": 0.25,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.250",
+      "unit_as_reported": "ppb",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Dibenz(a,h)anthracene",
+      "panel": "other",
+      "value_normalized": 0.25,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.250",
+      "unit_as_reported": "ppb",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Indeno(1,2,3-c,d)pyrene",
+      "panel": "other",
+      "value_normalized": 0.25,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<0.250",
+      "unit_as_reported": "ppb",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Pyrene",
+      "panel": "other",
+      "value_normalized": 0.352,
+      "unit_normalized": "ppb",
+      "value_as_reported": "0.352",
+      "unit_as_reported": "ppb",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
     }
   ],
-  "ingested_at": "2026-07-19T05:24:29+00:00"
+  "ingested_at": "2026-07-19T13:38:26+00:00"
 }

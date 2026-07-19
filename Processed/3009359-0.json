@@ -3,19 +3,19 @@
   "status": "UNRESOLVED",
   "product_key": null,
   "report_number": "3009359-0",
-  "test_date": "2020-09-10",
+  "test_date": "2020-09-23",
   "sample_name": "PSS-P002593 Eurofins Sample: 9834923",
   "lot_or_po": "rt",
   "supersedes": null,
   "superseded_by": null,
   "lab": "Eurofins (inferred)",
   "serving_size_g": null,
-  "source_file": "/Users/jeremybehne/code/purity/COAs/3009359-0_COA PURITY 2021.pdf",
-  "source_hash": "fa203b1d07d6fec6",
+  "source_file": "/Users/jeremybehne/code/purity/COAs/3009359-0_COA.pdf",
+  "source_hash": "daeaa18aba03065d",
   "parse_confidence": 1.0,
   "parse_notes": [
     "pages=4 tables=2",
-    "text_rows=32"
+    "text_rows=33"
   ],
   "analytes": [
     {
@@ -135,6 +135,17 @@
       "unit_normalized": "mcg/g",
       "value_as_reported": "927",
       "unit_as_reported": "mcg/g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Yeast Plate Count",
+      "panel": "micro",
+      "value_normalized": 10.0,
+      "unit_normalized": "CFU/g",
+      "value_as_reported": "<10",
+      "unit_as_reported": "CFU/g",
       "method": null,
       "loq": null,
       "retest_sequence": 0
@@ -371,5 +382,5 @@
       "retest_sequence": 0
     }
   ],
-  "ingested_at": "2026-07-19T05:23:41+00:00"
+  "ingested_at": "2026-07-19T13:37:13+00:00"
 }

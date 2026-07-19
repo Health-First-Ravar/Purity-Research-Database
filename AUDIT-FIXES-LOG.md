@@ -3212,3 +3212,105 @@ there is no NAT_FORCE row for the blocklist addition to act on.
 Either the parser is misreading the report number on these, or all three
 genuinely cite one report. Needs the PDFs opened. The blocklist entry stays: it
 is correct and will apply once the rows exist separately.
+
+---
+---
+
+# SESSION 10 — 2026-07-19
+
+## Task 1 — report-date field — **PASS**
+
+### Per-lab investigation, not one assumed pattern
+
+Extracted every date-labelled line from real PDFs for each of the six labs in
+the corpus rather than assuming one format:
+
+| Lab | Rows | Correct label on the document | Parser used | Verdict |
+|---|---|---|---|---|
+| Eurofins | 180 | `Report Date: 01-Jul-2026` | `Date Started` | **WRONG** |
+| Silliker / Mérieux | 71+1 | `COA Date 2/17/26` | `(?:COA\|Report)\s+Date` | correct |
+| UFRJ (research sweeps) | 50 | period label, no date field | period | not applicable |
+| Mérieux Brasil (PT) | 7 | `Data do Relatório de Ensaio:` | same | correct |
+| CROM-MASS / UIS | 6 | **no report-date field exists** | `FECHA DE ANÁLISIS` | **ambiguous — left alone** |
+| Trilogy | 3 | `Date Reported: 04/27/2026` | `Date Reported` | correct |
+
+Eurofins prints four dates in one header block:
+
+```
+Report Date: 01-Jul-2026      <- certificate issued
+Receipt Date 19-Jun-2026      <- sample arrived
+Login Date 16-Jun-2026        <- registered
+Date Started 22-Jun-2026      <- analysis began   <- what we stored
+```
+
+### Fix
+
+`lib_extract.py` gains `RE_REPORT_DATE`, preferred over `RE_DATE_STARTED` at
+both Eurofins sites (PDF and docx). `Date Started` remains a **fallback** so a
+non-standard layout still yields a date, and when the fallback fires it records
+`date_from_date_started_fallback` in `parse_notes` — a silent wrong date is
+what caused this, so the degraded path is now labelled. **0 records needed the
+fallback**, so every Eurofins COA in the corpus carries a real Report Date.
+
+### Result — 168 rows changed, every one Eurofins
+
+```
+changed by lab:   168  Eurofins (inferred)
+unchanged:         71  Silliker / Mérieux        50  UFRJ
+                    7  Mérieux Brasil             6  CROM-MASS
+                    4  Eurofins (no date at all)  3  Trilogy  1  Silliker WI
+```
+
+Sample (20 shown of 168, newest first):
+
+```
+5427133-0   2026-06-22 -> 2026-07-01   +9d
+5427134-0   2026-06-22 -> 2026-07-01   +9d
+5414705-0   2026-06-12 -> 2026-06-22  +10d
+5348238-0   2026-04-22 -> 2026-04-30   +8d
+5347384-0   2026-04-21 -> 2026-04-29   +8d
+5298713-0   2026-03-12 -> 2026-03-23  +11d
+5251011-0   2026-02-09 -> 2026-02-13   +4d
+5251005-0   2026-02-07 -> 2026-02-13   +6d
+5249597-0   2026-02-06 -> 2026-02-13   +7d
+5249598-0   2026-02-06 -> 2026-02-13   +7d
+5251006-0   2026-02-07 -> 2026-02-13   +6d
+5251004-0   2026-02-07 -> 2026-02-13   +6d
+5251008-0   2026-02-07 -> 2026-02-13   +6d
+5251010-0   2026-02-07 -> 2026-02-13   +6d
+5251003-0   2026-02-07 -> 2026-02-13   +6d
+5251009-0   2026-02-07 -> 2026-02-13   +6d
+5251007-0   2026-02-07 -> 2026-02-13   +6d
+5240043-0   2026-02-03 -> 2026-02-05   +2d
+5240044-0   2026-02-03 -> 2026-02-05   +2d
+5240035-0   2026-02-03 -> 2026-02-05   +2d
+
+skew: min +1d · median +8d · max +40d · all moved later: true
+max report_date 2026-06-22 -> 2026-07-01
+```
+
+Every change moves the date **later**, which is the only direction a correction
+from "analysis started" to "report issued" can go. That the whole set moves one
+way is itself evidence the fix is right rather than shuffling noise.
+
+Chain: `ingest --force` re-parsed 390 files, 0 errors; `import-coas` updated
+259, inserted 0, **deduped 0**; `embed-coas` re-embedded 165 chunks so the
+corrected dates appear in retrieval text.
+
+### Ambiguous, deliberately NOT guessed — CROM-MASS / UIS (6 rows)
+
+The CROM-MASS certificates carry **no report-date field**:
+
+```
+FECHA DE RECEPCIÓN: 2026-03-18     sample received
+FECHA DE ANÁLISIS:  2026-03-26     analysis performed   <- currently stored
+FECHA DE MUESTREO:  2026-03-11     sampling
+Fecha de vencimiento 2032-12-28    (expiry, unrelated)
+```
+
+There is no "fecha del informe". Analysis date is a defensible choice and is
+what is stored; changing it would be substituting one guess for another. Left
+unchanged and listed here for your decision.
+
+Affected rows: `995712-01-DR`, `995712-EC`, `995712-CG`, `995712-AO`, and two
+siblings — all dated 2026-03-20..2026-03-26.

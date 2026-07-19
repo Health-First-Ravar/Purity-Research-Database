@@ -59,6 +59,26 @@ class COAEnvelope:
 # --------------- regex patterns (Eurofins conventions) ---------------
 
 RE_REPORT = re.compile(r"(?:Report\s*(?:No\.?|Number)\s*[:#]?\s*)([0-9]{6,}-?\d*)", re.I)
+# Eurofins prints FOUR dates in the same header block:
+#
+#   Report Date: 01-Jul-2026      <- the date the certificate was issued
+#   Receipt Date 19-Jun-2026      <- sample arrived
+#   Login Date 16-Jun-2026        <- registered
+#   Date Started 22-Jun-2026      <- analysis began
+#
+# The parser previously took "Date Started", so every Eurofins record carried
+# the date the lab began work rather than the date the result was reported —
+# skewing ~180 rows early by days to weeks and making every trend answer wrong.
+# Verified against 5427133-0, where the document reads 01-Jul-2026 and the
+# database held 2026-06-22.
+#
+# "Report Date" is preferred; "Date Started" remains as a fallback so a
+# non-standard Eurofins layout still yields something rather than nothing.
+RE_REPORT_DATE = re.compile(
+    r"Report\s*Date\s*[:]?\s*"
+    r"([0-9]{1,2}[-/][A-Za-z]{3}[-/][0-9]{2,4}|[0-9]{1,2}[-/][0-9]{1,2}[-/][0-9]{2,4})",
+    re.I,
+)
 RE_DATE_STARTED = re.compile(
     r"Date\s*Started\s*[:]?\s*"
     r"([0-9]{1,2}[-/][A-Za-z]{3}[-/][0-9]{2,4}|[0-9]{1,2}[-/][0-9]{1,2}[-/][0-9]{2,4})",
@@ -328,8 +348,12 @@ def extract_pdf(path: Path) -> COAEnvelope:
 
     if m := RE_REPORT.search(full_text):
         env.report_number = m.group(1)
-    if m := RE_DATE_STARTED.search(full_text):
+    if m := RE_REPORT_DATE.search(full_text):
         env.test_date = iso_date(m.group(1))
+    elif m := RE_DATE_STARTED.search(full_text):
+        # No "Report Date" on this layout — fall back, and say so.
+        env.test_date = iso_date(m.group(1))
+        env.parse_notes.append("date_from_date_started_fallback")
     if m := RE_SUPERSEDES.search(full_text):
         env.supersedes = m.group(1)
     if m := RE_SAMPLE.search(full_text):
@@ -779,8 +803,11 @@ def extract_docx(path: Path) -> COAEnvelope:
     paragraphs = "\n".join(p.text for p in doc.paragraphs)
     if m := RE_REPORT.search(paragraphs):
         env.report_number = m.group(1)
-    if m := RE_DATE_STARTED.search(paragraphs):
+    if m := RE_REPORT_DATE.search(paragraphs):
         env.test_date = iso_date(m.group(1))
+    elif m := RE_DATE_STARTED.search(paragraphs):
+        env.test_date = iso_date(m.group(1))
+        env.parse_notes.append("date_from_date_started_fallback")
     if m := RE_SUPERSEDES.search(paragraphs):
         env.supersedes = m.group(1)
     if m := RE_SAMPLE.search(paragraphs):

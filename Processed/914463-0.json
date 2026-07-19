@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "status": "UNRESOLVED",
+  "product_key": null,
+  "report_number": "914463-0",
+  "test_date": "2020-12-03",
+  "sample_name": "GREEN COFFEE",
+  "lot_or_po": "LA FLORESTA",
+  "supersedes": null,
+  "superseded_by": null,
+  "lab": "M\u00e9rieux NutriSciences (Brasil)",
+  "serving_size_g": null,
+  "source_file": "/Users/jeremybehne/code/purity/COAs/20-914463-0-1-1898469_PT.pdf",
+  "source_hash": "919f930406f9d828",
+  "parse_confidence": 0.6,
+  "parse_notes": [
+    "pages=1 tables=4",
+    "no_analyte_rows_extracted"
+  ],
+  "analytes": [],
+  "ingested_at": "2026-07-19T13:37:10+00:00"
+}
