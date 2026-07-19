@@ -3723,3 +3723,93 @@ tagging volume).
 Decide deliberately: `/reports/mappings` (Task 5), `/atlas` + `/atlas/triage`
 (handsome, genuinely interesting, but the taxonomy is hardcoded and the triage
 loop has never been run — it is a research toy until someone routes a topic).
+
+---
+
+## Session 11 — Task 5: /reports/mappings — wire it up, or remove it?
+
+**Recommendation: remove the rules engine as built. The need it was meant to
+serve is real; this is the wrong mechanism for it.**
+
+### What it was for
+
+Migration 0008 added `coa_mapping_rules` (pattern → origin/region, priority
+ordered) plus `apply_coa_mapping_rules()`, a bulk `UPDATE` over `coas`. Intent
+is clear: most COA sample names encode their origin, so let an editor write
+"contains `Huila` → Colombia / Huila" once and backfill every matching row
+instead of editing them one at a time.
+
+### It is a closed loop
+
+`coa_mapping_rules` is referenced in exactly four non-migration files, and all
+four are its own CRUD UI and API. `scripts/` and `lib/` contain **zero**
+references. `import-coas.ts` derives origin independently at line 321 via
+`extractOrigin(doc.sample_name)` and never sets `region` at all.
+
+So the table is not "written but never read" — it is never written either. With
+0 rules, the "Apply rules to all COAs" button is permanently disabled
+(`MappingsClient.tsx:102`).
+
+### The need is genuine — this part matters
+
+- **origin is populated on 100 of 323 live COAs (31%).** 223 rows have none.
+- **region is populated on 0 of 323.** The column 0008 added for this feature
+  has never held a value, while being rendered on `/reports:508` and
+  `/reports/[id]:122` — so it displays "—" everywhere, permanently.
+- Both fields are **not cosmetic**: `scripts/embed-coas.ts:79` writes
+  `Origin: <origin>, <region>` into the embedded chunk text, and `origin` is a
+  filter facet on `/reports` (`page.tsx:88,97`). Missing origin degrades both
+  retrieval and browsing.
+
+A backfill mechanism is worth having. That is the honest case for wiring it up,
+and it is not weak.
+
+### Why this implementation should still go
+
+**1. It is a less safe duplicate of a mechanism this repo already built
+properly.** `/reports/assign` does bulk classification with `dry_run` defaulting
+to **true** ("writing is opt-in", `assign/route.ts:42`), the preview computed by
+the same code path that applies it, every write logging previous values to
+`coa_assignment_log` for exact revert, and `skip` recorded as a first-class
+action. `apply_coa_mapping_rules()` has **none** of that: no dry run, no audit
+row, no revert. One button, unbounded `UPDATE`, no way back.
+
+**2. It silently overwrites human decisions.** The RPC sets
+`origin = coalesce(m.new_origin, c.origin)`. A rule that specifies an origin
+therefore **wins over a value an editor typed by hand** on `/reports/[id]` —
+which is currently the only mechanism actually populating these fields. The
+careful path loses to the bulk path, with no record that it happened. On
+provenance data for regulated lab results, that is the wrong direction to fail.
+
+**3. Its stated semantics are already wrong.** The page copy
+(`mappings/page.tsx:44`) promises "first match wins per field." The SQL does
+`distinct on (c.id) ... order by c.id, r.priority asc` — first match per *row*,
+applying that one rule's origin **and** region together. A high-priority
+origin-only rule would block a lower-priority region-only rule entirely. Nobody
+has hit this because there are no rules, but the feature does not do what its
+own UI says.
+
+**4. Two mechanisms for one field is the actual risk.** Today origin comes from
+`extractOrigin` at ingest and from manual edit. Adding a third writer that runs
+on a button press, out of band, with no log, makes "why does this COA say
+Colombia?" unanswerable.
+
+### What to do instead
+
+Meet the need where the data already is:
+
+- **Improve `extractOrigin`** (`import-coas.ts:162`). It already gets 31% from
+  `sample_name` alone. The lookup table a rules engine would hold is the same
+  table this function could hold — in version control, code-reviewed, re-run by
+  re-import, with no live bulk `UPDATE` and no overwrite of manual edits.
+- **Keep the manual editor** on `/reports/[id]` for genuine exceptions.
+- **Decide `region` deliberately.** Nothing populates it and nothing plans to.
+  Either extract it alongside origin, or stop rendering a column that is
+  structurally always empty.
+
+If a bulk backfill is still wanted after that, rebuild it on the
+`/reports/assign` pattern — dry run by default, audit row per change, revert.
+That is a different feature from the one sitting in the tree.
+
+**Nothing was deleted for this task.** This is the argument; the removal is a
+decision to take, not one to take unilaterally.
