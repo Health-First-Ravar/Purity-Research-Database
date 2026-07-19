@@ -3585,3 +3585,141 @@ moving it to `purity` *increases* customer visibility. `Honduras 18 Conejo` and
 products, which may not belong on a customer surface at all.
 
 Three rows, one decision each. Not improvised here.
+
+---
+
+## Session 11 — Task 4: what every surface actually does
+
+**Report only. No code was changed for this task.**
+
+First correction to the brief: `/customer-questions` and `/research` are not
+routes and appear nowhere in the codebase. They are **nav group labels** in
+`app/_components/NavLinks.tsx:38,47` — dropdowns containing other pages. Nothing
+is missing.
+
+There are also more surfaces than the brief listed. Full route inventory: 22
+pages, 29 API routes.
+
+### Reachability
+
+Everything is reachable. The four pages absent from the nav are reached by
+in-page link:
+
+| Page | Reached from |
+|---|---|
+| `/reports/support` | `app/reports/page.tsx:250` |
+| `/reports/limits` | `app/reports/page.tsx:254` (admin) + `AnalyteLimitsPanel.tsx:69` |
+| `/reports/mappings` | `app/reports/page.tsx:258` |
+| `/atlas/triage` | `app/atlas/page.tsx:37` (editor-gated button) |
+| `/editor/canon/bulk` | `app/editor/canon/page.tsx:66` |
+
+No orphans. One loose thread: the `AnalyteLimitsPanel.tsx:69` "edit limits →"
+link renders for every role but the page is admin-only, so a CS rep clicking it
+hits "Admin role required". Cosmetic dead end, not a leak.
+
+### Does it render real data?
+
+| Surface | Data | Verdict |
+|---|---|---|
+| `/reports` | 323 live COAs, 14 limits | **Real and load-bearing** |
+| `/reports/[id]` | single COA + limits | Real |
+| `/reports/support` | Purity-scoped COAs | **Real — best-reasoned page in the app** |
+| `/reports/assign` | 242 unclassified | Real, working queue |
+| `/bibliography` | 2,955 sources / 31,027 chunks | **Real, most data-rich** |
+| `/audit` | 14 claim_audits | **Real — full retrieval + Sonnet + persistence** |
+| `/atlas` | 24 branches, 44 edges | Renders, but routing is hardcoded regex |
+| `/chat` | 25 messages | Works; always renders empty by design |
+| `/editor` | 25 messages, 22 events | Real |
+| `/metrics` | 9 view rows over 25 messages | Renders; **statistically empty** |
+| `/heatmap` | 44 cells, 18 tags | Structure real, signal ~zero |
+| `/reva` | 6 sessions / 6 messages | Working and hardened, lightly used |
+| `/editor/canon` | 2 rows, neither active | Renders 2 rows |
+| `/atlas/triage` | 0 candidates, 0 routes | Empty by data, not by bug |
+| `/reports/mappings` | **0 rules** | See Task 5 |
+| `/editor/users` | 5 profiles | Real |
+
+Three zero-row tables — `coa_mapping_rules`, `kb_atlas_edge_candidates`,
+`kb_atlas_topic_routes` — all say the same thing: those loops have never been
+run once in production.
+
+### Real bugs found (verified by hand, not just reported)
+
+1. **Canon search silently returns "no matches" for ordinary terms.**
+   `app/editor/canon/page.tsx:53` builds `.or()` with raw interpolation, and
+   line 54 is `const { data: rows } = await q` — **the error is discarded**. Any
+   search containing `,` `(` or `)` produces a malformed PostgREST filter, `rows`
+   comes back undefined, and `rows ?? []` renders as "no matches." The fix
+   already exists 30 lines away in a sibling file: `app/reports/page.tsx:83`
+   strips `[,()]` first, with a comment explaining exactly why.
+
+2. **Bibliography misreports the catalog size.** `page.tsx:70` destructures
+   `count` from a query that never asked for `{ count: 'exact' }`, so `count` is
+   always null. The header (`:99`) falls back to `rows.length`, rendering
+   **"500 of 500 entries"** against a 2,955-row corpus — hiding both the true
+   size and the 500-row cap. Reads as "you are seeing everything." You are not.
+
+3. **`/api/metrics` is dead code.** Nothing fetches it; the only references are
+   Next's own generated `.next/types`. It duplicates the page's query logic and
+   recomputes the same rates independently — a maintenance fork with no consumer.
+
+4. **A failed claim audit is stored as a clean one.** `lib/rag/audit-claim.ts:197`
+   swallows unparseable model output and returns an all-false fallback, which
+   `app/api/audit/route.ts:52` then persists to `claim_audits` like any real
+   result. In the Recent-audits list a parse failure is indistinguishable from a
+   claim that passed. On regulated claim review that is the wrong direction to
+   fail.
+
+5. **The heatmap's only outbound workflow is severed.** `TopicDrawer.tsx:80`
+   links to `/editor/canon?topic=<slug>`, but `app/editor/canon/page.tsx:19`
+   reads only `{ tab, q }` — `topic` is ignored. "Draft canon for this topic →"
+   lands on an unfiltered list. The heatmap exists to point at canon gaps, and
+   the click-through drops the pointer.
+
+### Decorative or misleading
+
+- **`/metrics` at n=25.** One escalation moves a headline KPI by 4 points and
+  can flip a status dot. `statusFromCanon` (`page.tsx:54`) deliberately refuses
+  to show red on thin data — the right instinct — but its three sibling status
+  functions have no such guard. The two editor inbox tiles (`:90-91`) are also
+  un-windowed: they ignore the date selector while sitting under a header that
+  reads "in the last N days."
+- **`/heatmap` colour channel conveys nothing.** `DEMAND_CEILING = 25` with a
+  `// tune later` comment; no topic is close, so every cell renders at near
+  minimum tint.
+- **`/atlas` taxonomy is code, not content.** `kb_atlas_topic_routes` is empty,
+  so every paper is routed by a hardcoded regex cascade that is *triplicated*
+  across three files (`api/atlas/route.ts:27,50`, `unmapped/route.ts:29`,
+  `candidates/discover/route.ts:31`) — while a shared `_routing.ts` exists that
+  the main graph endpoint does not import. `paperToBranch` (`route.ts:101`) is
+  defined and never called.
+- **`/reva` prototype residue:** a dead `<Link href="#">` (`reva/page.tsx:47`),
+  `/heatmap` advertised as a slash command but unhandled, `/cite` explicitly
+  stubbed while still promoted in the placeholder, historical citations dropped
+  on reload (`[session]/page.tsx:52`), and a complete pin/rename PATCH endpoint
+  with no UI that calls it.
+
+### Stale copy
+
+- `app/chat/_components/ChatClient.tsx:151` — "34 research papers". That matches
+  `knowledge-base/README.md` for `research/`, so it is not false, but it badly
+  understates what the box actually searches (448-article bibliography, 2,955
+  `sources`). A rep reading it will under-trust the tool.
+- `app/reports/assign/page.tsx:16` — hardcoded "204 COAs" in a comment; the
+  render uses the live count.
+- `app/editor/users/page.tsx:21` — gate is `isAdmin`, message says "Editor role
+  required." Will actively mislead a denied editor.
+- `api/editor/users/route.ts:5` — documents a `'user'` role that no longer
+  exists (`customer_service | editor | admin`).
+
+### Worth keeping
+
+Keep and rely on: `/reports`, `/reports/[id]`, `/reports/support`,
+`/reports/assign`, `/bibliography`, `/audit`, `/editor`, `/editor/users`.
+
+Keep but fix before showing anyone: `/metrics` (needs an n-threshold),
+`/editor/canon` (search bug), `/heatmap` (needs the `?topic=` handoff and real
+tagging volume).
+
+Decide deliberately: `/reports/mappings` (Task 5), `/atlas` + `/atlas/triage`
+(handsome, genuinely interesting, but the taxonomy is hardcoded and the triage
+loop has never been run — it is a research toy until someone routes a topic).
