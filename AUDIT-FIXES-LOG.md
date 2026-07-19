@@ -1,54 +1,48 @@
-# WHERE WE LEFT OFF — 2026-07-19, after the date fix
+# WHERE WE LEFT OFF — 2026-07-19, after session 12
 
 Read this first. Everything below is chronological session history.
 
 ## State
 
-- Branch `main`, tree **clean**. **4 commits unpushed** — Jeremy pushes.
-- Database is **ahead of unpushed code**: migrations 0001-0011 applied, 323 COA
-  rows written, and tonight's date correction is already live in the data.
-- Cron `COA Auto-Sync` **active**. `Research Auto-Sync` disabled.
-- No temp users left (verified 0 remaining, 0 orphaned profiles).
+- Branch `main`, tree **clean**. **18 commits unpushed** — Jeremy pushes.
+- `main` is **behind origin by 2** auto-sync commits. A merge is needed before
+  any push, and **merge, not rebase** — this log cites commit hashes that a
+  rebase would invalidate. Exact commands in the Session 12 / Task 1 entry.
+- Migrations 0001-0013 applied. Cron `COA Auto-Sync` active; CI sync has been
+  failing on one corrupt duplicate PDF (no data loss — see Task 1).
+- No temp users left (verified 0 auth users, 0 profiles, repeatedly).
 
 ```
-coas 323 total · 318 live · 5 soft-retired
-  purity 51 · competitor 6 · unclassified 261
-chunks 30695 · max report_date 2026-07-01   <- now correct
-retrieval: CS 1141ms med / editor 284ms med · 84% headroom to the 8s timeout
+coas 328 total · 323 live · 5 soft-retired
+  purity 66 · competitor 15 · unclassified 242
+CS sees 66 rows, all purity scope, 0 retired    <- verified via a real CS JWT
+canon_qa 5 rows · 0 active · 4 are verification artefacts (deprecated)
+knowledge base: 2,218 live sources · 1,583 distinct papers · 31k chunks
 ```
 
 ## Top three open items
 
-### 1. Run the backfill — 22 rows reclassify for free
+### 1. Merge origin and push (Jeremy)
 
-`backfill-product-scope.ts` is **not in the sync chain**, so new COAs stay
-`unclassified` even when the rules already classify them. A dry run shows **22
-rows changing with no human input**: 16 to `purity`, 6 to `competitor`,
-dropping the backlog 261 -> 244.
+18 local commits, 2 remote auto-sync commits, three conflicts all in derived
+artifacts. Merge — do not rebase. Commands in Session 12 / Task 1.
 
-Not applied because 16 become customer-service visible — a scope change to make
-knowingly. One word runs it. Wiring the backfill into the chain afterwards stops
-the drift recurring.
+### 2. Nine FK constraints still block user offboarding
 
-### 2. Dedup key assumes one report = one sample
+Migration 0011 fixed `coa_assignment_log.actor`. Nine other columns still
+reference `profiles(id)` with no `ON DELETE`, so **any user who has asked a chat
+question, run a claim audit, opened a Reva session or created canon cannot be
+deleted.** Found when a temp-account cleanup failed. Recommended as migration
+0014, mirroring 0011. See Session 12 / Task 4.
 
-Eurofins issues one report number covering several samples. `3522613-0` covers
-**seven**, and the key `report_number` collapses them to one row —
-**five COAs are absent from the database**: three NAT_FORCE (competitor),
-`Honduras 18 Conejo` and `Purity Decaf` (ours).
+### 3. The assignment queue needs a "not a product" outcome
 
-Measured spread: 82 reports have multiple source files, but 99 of those are the
-same document filed twice, and only this one report genuinely holds distinct
-samples. Fix is to key on `(report_number, sample_id)` using the
-`Eurofins Sample:` id already in the documents. Not applied — it re-keys all 323
-rows and needs its own dry run.
-
-### 3. 261 unclassified — the tool is now reachable
-
-`/reports/assign` is in staff navigation as of this session. 43 buckets, 39
-batchable covering 178 records (68%), 83 needing the source PDF opened. **122
-decisions, ~2.7 h for two people.** Re-run the bucketing after item 1, which
-removes 22 from the queue.
+242 unclassified, but only **35 decisions** (not the 122 previously estimated).
+The blocker is that a row a human reviewed and correctly left unclassified is
+indistinguishable from an unreviewed one and reappears forever, so the queue
+cannot shrink and two people would collide. Small fix, highest value. And note
+the goal is **not** zero unclassified — a large share (green lots, R&D
+benchmarking batches) should correctly stay invisible. See Session 12 / Task 6.
 
 ## Smaller things worth not losing
 
@@ -4564,3 +4558,86 @@ In order of value:
 5. **Fix the stale docblock** at `app/reports/assign/page.tsx:16`, which
    hardcodes "204 COAs" in a comment. The render uses the live count; the
    comment has been wrong through three different backlog sizes.
+
+## Task 7: build, and the customer-safety question
+
+**Build: green.** `npm run build` exit 0, no errors, no warnings. `tsc --noEmit`
+clean, `next lint` clean. `/reports/mappings` is gone from the route table.
+Tree clean. **Committed on `main`. NOT pushed.**
+
+### Could anything I touched put a wrong or misattributed lab value in front of a customer?
+
+**No.** Verified, not assumed — through a real `customer_service` JWT:
+
+```
+CS sees 66 COA rows      by scope: { purity: 66 }      retired visible: 0
+Session-11 recovered samples visible to CS : 0  (expected 0)
+canon rows visible to CS                   : 0
+cleanup: temp auth users 0, temp profiles 0
+```
+
+Reasoning per change:
+
+- **Nothing this session wrote to `coas`.** No scope changed, no blend changed,
+  no analyte touched. The CS-visible set is the same 66 rows it was at the start.
+- **Task 5 was the live risk and it went the safe way.** Promoting "Purity Decaf"
+  would have put a four-year-old R&D benchmarking sample, for a product Purity
+  does not sell, in front of a rep as a current product COA. The evidence said
+  leave it. It was left.
+- **Task 3 (mappings removal) strictly reduced risk.** The thing removed was the
+  one mechanism that could silently overwrite hand-entered provenance with no
+  audit trail.
+- **Task 2's audit fix strictly reduced risk.** A claim audit that failed to
+  parse was being stored as a clean pass on a regulated health claim; it now
+  refuses and stores nothing.
+- **Task 4 is the one to watch, and it is currently inert.** Canon can now
+  actually serve — that is the point of the fix — which means a wrong canon
+  answer *would* reach a customer ahead of the LLM path. Three things stand
+  between here and that: `canon_qa` has **0 active rows**, drafts provably do not
+  serve, and the Gaps queue refuses to promote a failed answer verbatim. But the
+  safety property that used to hold by accident ("canon can never fire") now
+  holds only by policy. **Every row flipped to `active` from here is a published
+  answer.** That is the correct design and it is worth saying out loud.
+- **Verification artefacts:** 4 rows in `canon_qa`, all `deprecated`, `created_by`
+  nulled, tagged `['verification']`, and confirmed invisible to CS. Soft-retired
+  per the standing rule; safe to remove.
+
+### State of the app
+
+**What works and is load-bearing:** `/reports`, `/reports/[id]`,
+`/reports/support`, `/reports/assign`, `/bibliography`, `/audit`, `/editor`,
+`/editor/users`, and the ingestion pipeline.
+
+**What changed from decorative to real this session:** canon. It was complete
+machinery attached to a cache that could not fire under any input. It fires now,
+verified at 0.8195 similarity in 68ms, fed by a queue that fills itself instead
+of one waiting on a thumbs-up nobody has ever given.
+
+**What is still decorative:** `/metrics` (9 view rows over 25 messages;
+percentages are noise at n=25), `/heatmap` (44 cells, 18 tags, colour channel
+conveys nothing), `/atlas` + `/atlas/triage` (hardcoded taxonomy triplicated
+across three files; triage loop never run).
+
+**What is still misleading:** `/metrics` inbox tiles ignore the date selector
+while sitting under a "last N days" header; `/api/metrics` is dead code;
+CLAUDE.md's own corpus figures ("34 research papers", "448-article
+bibliography") are stale against 1,583 catalog entries.
+
+### Shortest path to leadership adoption — unchanged, but better scoped
+
+Still the same blocker: CS sees 66 of 323. But Task 6 changed the shape of the
+fix. It is **35 decisions, not 122** — one focused session. And the goal is not
+zero unclassified; a large share should correctly stay invisible, which Task 5
+demonstrated concretely.
+
+1. Add the "not a product" outcome so the queue can shrink (small, highest value).
+2. Work the 35 decisions.
+3. Demo `/reports/support` and `/reports`. Not `/metrics`, not `/chat`.
+4. Then decide about chat: 52% escalation is a corpus or threshold question, not
+   a tuning one. Canon working makes that answerable for the first time.
+
+The honest framing is the same as last session and I have not found a reason to
+soften it: **this is a working lab-data system with a chat feature attached, not
+a chat product with lab data attached.** The difference after tonight is that the
+chat half now has a functioning memory, so it can start to improve instead of
+repeating itself.
