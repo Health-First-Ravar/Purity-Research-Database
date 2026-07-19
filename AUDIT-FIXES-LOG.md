@@ -2240,3 +2240,41 @@ readable chunks resolve to exactly the 51 live purity COAs — 76 of them are
 chunks from *retired source versions* of those same COAs. Own products, stale
 text, and `match_chunks` filters `valid_until` so retrieval never returns them.
 Noted as housekeeping, not a misattribution risk.
+
+## Task 5 — retrieval timing under load-realistic conditions — **PASS**
+
+Measured **through PostgREST as `authenticated`** with real user JWTs, six
+distinct real embeddings per shape, `discard plans` beforehand so the first
+call of each series is cold. Not a direct pooler connection — that is what
+missed the 0003 regression.
+
+```
+=== customer_service ===
+  chat   k=8  sim=0.55 health      8 rows   min  430  med  826  max 1020 ms   headroom 87%
+  chat   k=8  sim=0.55 all         8 rows   min  185  med  196  max  270 ms   headroom 97%
+  biblio k=12 sim=0.45 all        12 rows   min  190  med  199  max  211 ms   headroom 97%
+  reva   k=12 sim=0.30 brand      12 rows   min   69  med   86  max  101 ms   headroom 99%
+  audit  k=8  sim=0.35 research    8 rows   min  180  med  193  max  203 ms   headroom 97%
+
+=== editor ===
+  chat   k=8  sim=0.55 health      8 rows   min  136  med  161  max  366 ms   headroom 95%
+  chat   k=8  sim=0.55 all         8 rows   min  135  med  526  max  885 ms   headroom 89%
+  biblio k=12 sim=0.45 all        12 rows   min  139  med  151  max  176 ms   headroom 98%
+  reva   k=12 sim=0.30 brand      12 rows   min   75  med   83  max   85 ms   headroom 99%
+  audit  k=8  sim=0.35 research    8 rows   min  136  med  140  max  195 ms   headroom 98%
+```
+
+**Worst case across every shape and both roles: 1020 ms — 87% headroom to the
+8 s `authenticated` timeout.** No path approaches it.
+
+Two observations worth recording:
+
+- The CS path is consistently *slower* than the editor path on the health shape
+  (826 ms median vs 161 ms). That is the RLS scope predicate doing real work:
+  the planner filters COA chunks through the sources→coas EXISTS. It is well
+  within budget, but it is the component that would grow if the corpus grows,
+  so it is the number to re-measure after any large ingest.
+- An artificial `k=2000, sim=0.0` call **does** exceed 8 s. Nothing calls that
+  shape — the largest real caller is bibliography at k=12 — but it marks the
+  ceiling. If anyone raises `RETRIEVAL_TOP_K` substantially, re-run this battery
+  before shipping.
