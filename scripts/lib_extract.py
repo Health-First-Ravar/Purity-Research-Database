@@ -44,6 +44,7 @@ class AnalyteRow:
 class COAEnvelope:
     report_number: Optional[str] = None
     test_date: Optional[str] = None          # ISO yyyy-mm-dd
+    sample_id: Optional[str] = None           # lab sample id within a report
     sample_name: Optional[str] = None
     lot_or_po: Optional[str] = None
     supersedes: Optional[str] = None
@@ -86,6 +87,12 @@ RE_DATE_STARTED = re.compile(
 )
 RE_SUPERSEDES = re.compile(r"Supe?rcedes?\s*[:]?\s*([0-9]{6,}-?\d*)", re.I)
 RE_SAMPLE = re.compile(r"Sample\s*(?:Name|Description|ID)?\s*[:]?\s*(.+)", re.I)
+
+# One report number can cover several samples; the lab prints a per-sample id:
+#     Sample Name: Nicaragua Selva Negra Eurofins Sample: 11261580
+# Captured so (report_number, sample_id) can key a COA. Report 3522613-0 covers
+# seven samples, and keying on report_number alone lost five of them.
+RE_SAMPLE_ID = re.compile(r"(?:Eurofins\s+)?Sample\s*[:#]\s*(\d{5,})", re.I)
 RE_LOT = re.compile(r"(?:Lot|PO|P\.O\.?|Batch)\s*(?:No\.?|#)?\s*[:]?\s*([A-Z0-9-]+)", re.I)
 RE_SERVING_SIZE = re.compile(r"(?:Sample\s+)?Serving\s+Size\s+(\d+(?:\.\d+)?)\s*g\b", re.I)
 
@@ -882,10 +889,21 @@ def _guess_panel(name: str) -> str:
 def extract(path: Path) -> COAEnvelope:
     ext = path.suffix.lower()
     if ext == ".pdf":
-        return extract_pdf(path)
-    if ext == ".docx":
-        return extract_docx(path)
-    raise ValueError(f"Unsupported file type: {ext}")
+        env = extract_pdf(path)
+    elif ext == ".docx":
+        env = extract_docx(path)
+    else:
+        raise ValueError(f"Unsupported file type: {ext}")
+
+    # Sample id is derived centrally rather than in each of the nine
+    # lab-specific parsers: the pattern is identical wherever it appears, and
+    # every parser already carries it inside sample_name
+    # ("… Eurofins Sample: 11261580").
+    if not env.sample_id:
+        hay = env.sample_name or ""
+        if m := RE_SAMPLE_ID.search(hay):
+            env.sample_id = m.group(1)
+    return env
 
 
 # --------------- retest collapse ---------------

@@ -82,7 +82,21 @@ def clean(*, dry_run: bool = False) -> dict:
     for (_key, paths) in groups.items():
         if len(paths) < 2:
             continue
-        best = max(paths, key=lambda p: (_analytes(docs[p]), docs[p].get("parse_confidence") or 0))
+        # A record carrying a sample_id is strictly better identified than one
+        # without, so it wins ahead of analyte count. Without this, migration
+        # 0012's rename loses: the pre-0012 `<report>.json` and the new
+        # `<report>__S<id>.json` parse identically from the same source, the
+        # first two keys tie, and `max` keeps whichever sorts first — which is
+        # always the old name, since "." < "_". The re-ingest then silently
+        # undoes itself.
+        best = max(
+            paths,
+            key=lambda p: (
+                bool(docs[p].get("sample_id")),
+                _analytes(docs[p]),
+                docs[p].get("parse_confidence") or 0,
+            ),
+        )
         for p in paths:
             if p != best:
                 to_delete.add(p)

@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "status": "UNRESOLVED",
+  "product_key": null,
+  "report_number": "5240043-0",
+  "test_date": "2026-02-05",
+  "sample_id": "16186057",
+  "sample_name": "SACRED CUPS PURPLE BOX Eurofins Sample: 16186057",
+  "lot_or_po": "rt",
+  "supersedes": null,
+  "superseded_by": null,
+  "lab": "Eurofins (inferred)",
+  "serving_size_g": 4.0,
+  "source_file": "/Users/jeremybehne/code/purity/COAs/0017408509.pdf",
+  "source_hash": "0328e30075862301",
+  "parse_confidence": 1.0,
+  "parse_notes": [
+    "pages=2 tables=1",
+    "text_rows=11"
+  ],
+  "analytes": [
+    {
+      "analyte": "Potassium",
+      "panel": "other",
+      "value_normalized": 251.0,
+      "unit_normalized": "mg/Serving Size",
+      "value_as_reported": "251",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Magnesium",
+      "panel": "other",
+      "value_normalized": 26.1,
+      "unit_normalized": "mg/Serving Size",
+      "value_as_reported": "26.1",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Caffeine",
+      "panel": "other",
+      "value_normalized": 189.0,
+      "unit_normalized": "mg/Serving Size",
+      "value_as_reported": "189",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Neochlorogenic Acid",
+      "panel": "cga",
+      "value_normalized": 1307.5,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "52.3",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Chlorogenic Acid",
+      "panel": "cga",
+      "value_normalized": 2825.0,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "113",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "4-O Caffeolyquinic Acid",
+      "panel": "cga",
+      "value_normalized": 1582.5,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "63.3",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Unknown (Calculated as Chlorogenic Acid)",
+      "panel": "cga",
+      "value_normalized": 347.5,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "13.9",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "3 4-Dicaffeoylquinic Acid",
+      "panel": "cga",
+      "value_normalized": 647.5,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "25.9",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "3 5-Dicaffeoylquinic Acid",
+      "panel": "cga",
+      "value_normalized": 169.25,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "6.77",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "4 5-Dicaffeoylquiic Acid",
+      "panel": "cga",
+      "value_normalized": 85.5,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "3.42",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Total Chlorogenic Acids",
+      "panel": "cga",
+      "value_normalized": 6975.0,
+      "unit_normalized": "mg/100g",
+      "value_as_reported": "279",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    }
+  ],
+  "ingested_at": "2026-07-19T14:19:31+00:00"
+}

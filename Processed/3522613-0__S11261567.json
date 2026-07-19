@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "status": "UNRESOLVED",
+  "product_key": null,
+  "report_number": "3522613-0",
+  "test_date": "2022-01-05",
+  "sample_id": "11261567",
+  "sample_name": "Purity Decaf Eurofins Sample: 11261567",
+  "lot_or_po": "rt",
+  "supersedes": null,
+  "superseded_by": null,
+  "lab": "Eurofins (inferred)",
+  "serving_size_g": null,
+  "source_file": "/Users/jeremybehne/code/purity/COAs/PURITY DECAF v. LA PRADERA pre-SWD.pdf",
+  "source_hash": "83be737f5141fffa",
+  "parse_confidence": 1.0,
+  "parse_notes": [
+    "pages=3 tables=2",
+    "text_rows=13"
+  ],
+  "analytes": [
+    {
+      "analyte": "Calcium",
+      "panel": "other",
+      "value_normalized": 1130.0,
+      "unit_normalized": "ppm",
+      "value_as_reported": "1130",
+      "unit_as_reported": "ppm",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Copper",
+      "panel": "other",
+      "value_normalized": 14.0,
+      "unit_normalized": "ppm",
+      "value_as_reported": "14.0",
+      "unit_as_reported": "ppm",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Iron",
+      "panel": "other",
+      "value_normalized": 36.3,
+      "unit_normalized": "ppm",
+      "value_as_reported": "36.3",
+      "unit_as_reported": "ppm",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Magnesium",
+      "panel": "other",
+      "value_normalized": 2060.0,
+      "unit_normalized": "ppm",
+      "value_as_reported": "2060",
+      "unit_as_reported": "ppm",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Manganese",
+      "panel": "other",
+      "value_normalized": 33.0,
+      "unit_normalized": "ppm",
+      "value_as_reported": "33.0",
+      "unit_as_reported": "ppm",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Phosphorus",
+      "panel": "other",
+      "value_normalized": 1860.0,
+      "unit_normalized": "ppm",
+      "value_as_reported": "1860",
+      "unit_as_reported": "ppm",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Potassium",
+      "panel": "other",
+      "value_normalized": 17700.0,
+      "unit_normalized": "ppm",
+      "value_as_reported": "17700",
+      "unit_as_reported": "ppm",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Zinc",
+      "panel": "other",
+      "value_normalized": 6.06,
+      "unit_normalized": "ppm",
+      "value_as_reported": "6.06",
+      "unit_as_reported": "ppm",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Yeast Plate Count",
+      "panel": "micro",
+      "value_normalized": 10.0,
+      "unit_normalized": "CFU/g",
+      "value_as_reported": "<10",
+      "unit_as_reported": "CFU/g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Mold Plate Count",
+      "panel": "micro",
+      "value_normalized": 10.0,
+      "unit_normalized": "CFU/g",
+      "value_as_reported": "<10",
+      "unit_as_reported": "CFU/g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Arsenic",
+      "panel": "heavy_metals",
+      "value_normalized": 28.7,
+      "unit_normalized": "ppb",
+      "value_as_reported": "28.7",
+      "unit_as_reported": "ppb",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Cadmium",
+      "panel": "heavy_metals",
+      "value_normalized": 5.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "<5.00",
+      "unit_as_reported": "ppb",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Nickel",
+      "panel": "other",
+      "value_normalized": 383.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "383",
+      "unit_as_reported": "ppb",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    }
+  ],
+  "ingested_at": "2026-07-19T14:20:39+00:00"
+}

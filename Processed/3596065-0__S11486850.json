@@ -1,0 +1,211 @@
+{
+  "schema_version": 1,
+  "status": "UNRESOLVED",
+  "product_key": null,
+  "report_number": "3596065-0",
+  "test_date": "2022-03-11",
+  "sample_id": "11486850",
+  "sample_name": "Montebonito 2021 Lot Eurofins Sample: 11486850",
+  "lot_or_po": "rt",
+  "supersedes": null,
+  "superseded_by": null,
+  "lab": "Eurofins (inferred)",
+  "serving_size_g": 100.0,
+  "source_file": "/Users/jeremybehne/code/purity/COAs/MONTEBONITO-Nutrition_COA.pdf",
+  "source_hash": "7eee06c338f9a98e",
+  "parse_confidence": 1.0,
+  "parse_notes": [
+    "pages=3 tables=3",
+    "text_rows=17"
+  ],
+  "analytes": [
+    {
+      "analyte": "Saturated Fatty Acids (Acid Form)",
+      "panel": "other",
+      "value_normalized": 2.05,
+      "unit_normalized": "g/Serving Size",
+      "value_as_reported": "2.05",
+      "unit_as_reported": "g/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Total Cis Unsaturated Fatty Acids (Acid Form)",
+      "panel": "other",
+      "value_normalized": 2.45,
+      "unit_normalized": "g/Serving Size",
+      "value_as_reported": "2.45",
+      "unit_as_reported": "g/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Monounsaturated Fatty Acids (Acid Form)",
+      "panel": "other",
+      "value_normalized": 0.424,
+      "unit_normalized": "g/Serving Size",
+      "value_as_reported": "0.424",
+      "unit_as_reported": "g/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Polyunsaturated Fatty Acids (Acid Form)",
+      "panel": "other",
+      "value_normalized": 2.03,
+      "unit_normalized": "g/Serving Size",
+      "value_as_reported": "2.03",
+      "unit_as_reported": "g/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Trans Fatty Acids (Acid Form)",
+      "panel": "other",
+      "value_normalized": 0.007,
+      "unit_normalized": "g/Serving Size",
+      "value_as_reported": "<0.007",
+      "unit_as_reported": "g/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Omega 3 Fatty Acids",
+      "panel": "other",
+      "value_normalized": 0.072,
+      "unit_normalized": "g/Serving Size",
+      "value_as_reported": "0.072",
+      "unit_as_reported": "g/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Omega 6 Fatty Acids",
+      "panel": "other",
+      "value_normalized": 2.05,
+      "unit_normalized": "g/Serving Size",
+      "value_as_reported": "2.05",
+      "unit_as_reported": "g/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Omega 9 Fatty Acids",
+      "panel": "other",
+      "value_normalized": 0.417,
+      "unit_normalized": "g/Serving Size",
+      "value_as_reported": "0.417",
+      "unit_as_reported": "g/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Total Fatty Acids",
+      "panel": "other",
+      "value_normalized": 4.72,
+      "unit_normalized": "g/Serving Size",
+      "value_as_reported": "4.72",
+      "unit_as_reported": "g/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Calcium",
+      "panel": "other",
+      "value_normalized": 82.5,
+      "unit_normalized": "mg/Serving Size",
+      "value_as_reported": "82.5",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Copper",
+      "panel": "other",
+      "value_normalized": 0.972,
+      "unit_normalized": "mg/Serving Size",
+      "value_as_reported": "0.972",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Iron",
+      "panel": "other",
+      "value_normalized": 2.24,
+      "unit_normalized": "mg/Serving Size",
+      "value_as_reported": "2.24",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Magnesium",
+      "panel": "other",
+      "value_normalized": 166.0,
+      "unit_normalized": "mg/Serving Size",
+      "value_as_reported": "166",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Phosphorus",
+      "panel": "other",
+      "value_normalized": 153.0,
+      "unit_normalized": "mg/Serving Size",
+      "value_as_reported": "153",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Zinc",
+      "panel": "other",
+      "value_normalized": 0.491,
+      "unit_normalized": "mg/Serving Size",
+      "value_as_reported": "0.491",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Potassium",
+      "panel": "other",
+      "value_normalized": 1530.0,
+      "unit_normalized": "mg/Serving Size",
+      "value_as_reported": "1530",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Sodium",
+      "panel": "other",
+      "value_normalized": 2.49,
+      "unit_normalized": "mg/Serving Size",
+      "value_as_reported": "<2.49",
+      "unit_as_reported": "mg/Serving Size",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    }
+  ],
+  "ingested_at": "2026-07-19T14:20:28+00:00"
+}

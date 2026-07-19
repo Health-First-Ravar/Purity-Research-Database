@@ -38,6 +38,7 @@ type ProcessedCOA = {
   status: string;
   product_key: string | null;
   report_number: string | null;
+  sample_id?: string | null;
   test_date: string | null;
   sample_name: string | null;
   lot_or_po: string | null;
@@ -312,6 +313,7 @@ function mapToCOARow(doc: ProcessedCOA): Record<string, unknown> | null {
 
   return {
     report_number: doc.report_number,
+    sample_id: doc.sample_id ?? null,
     report_date: doc.test_date ?? null,
     coffee_name: extractCoffeeNameFromSample(doc.sample_name),
     blend,
@@ -375,11 +377,42 @@ async function main() {
     // dated row that happens to share the same pdf_filename (e.g. 49608.pdf,
     // where one row is the 19-analyte Trilogy parse and the rest are shells).
     let matches: { id: string }[] = [];
-    if (row.report_number) {
+    if (row.report_number && row.sample_id) {
+      // A report number can cover several samples, so it alone does not
+      // identify a COA. Report 3522613-0 covers seven; keying on report_number
+      // meant each file matched its siblings and the dedupe below removed
+      // them, losing five COAs. Match on the pair.
       const { data } = await sb
         .from('coas')
         .select('id')
         .eq('report_number', row.report_number as string)
+        .eq('sample_id', row.sample_id as string)
+        .order('created_at', { ascending: true });
+      matches = data ?? [];
+
+      // Nothing keyed yet: adopt ONE legacy row for this report that has no
+      // sample_id, rather than inserting beside it. Rows imported before
+      // migration 0012 have sample_id null, and without this every one of them
+      // would gain a duplicate on the first run after the change.
+      if (matches.length === 0) {
+        const { data: legacy } = await sb
+          .from('coas')
+          .select('id')
+          .eq('report_number', row.report_number as string)
+          .is('sample_id', null)
+          .order('created_at', { ascending: true })
+          .limit(1);
+        matches = legacy ?? [];
+      }
+    } else if (row.report_number) {
+      // No sample id on this document (non-Eurofins labs do not print one).
+      // Restrict to rows that are themselves unkeyed, so a sample-keyed
+      // sibling is never matched or removed by an unkeyed parse.
+      const { data } = await sb
+        .from('coas')
+        .select('id')
+        .eq('report_number', row.report_number as string)
+        .is('sample_id', null)
         .order('created_at', { ascending: true });
       matches = data ?? [];
     } else if (row.pdf_filename) {
@@ -397,9 +430,20 @@ async function main() {
       if (error) { console.error(`[import-coas] update error ${file}:`, error.message); errors++; }
       else updated++;
       if (matches.length > 1) {
+        // Soft-retire rather than delete. These are regulated records, and a
+        // matching bug that removes rows is unrecoverable — the earlier
+        // report_number-only key would have deleted genuinely distinct samples.
+        // retired_at hides them from every read surface and is reversible.
         const extra = matches.slice(1).map((m) => m.id);
-        const { error: delErr } = await sb.from('coas').delete().in('id', extra);
-        if (delErr) console.error(`[import-coas] dedupe delete error ${file}:`, delErr.message);
+        const { error: delErr } = await sb
+          .from('coas')
+          .update({
+            retired_at: new Date().toISOString(),
+            retired_reason: `duplicate of ${row.report_number ?? row.pdf_filename}` +
+              `${row.sample_id ? ` sample ${row.sample_id}` : ''} superseded on import`,
+          })
+          .in('id', extra);
+        if (delErr) console.error(`[import-coas] dedupe retire error ${file}:`, delErr.message);
         else deduped += extra.length;
       }
     } else {

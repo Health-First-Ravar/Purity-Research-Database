@@ -148,6 +148,7 @@ def build_record(env: COAEnvelope, product_key: Optional[str]) -> dict:
         "product_key": product_key,
         "report_number": env.report_number,
         "test_date": env.test_date,
+        "sample_id": env.sample_id,
         "sample_name": env.sample_name,
         "lot_or_po": env.lot_or_po,
         "supersedes": env.supersedes,
@@ -209,7 +210,13 @@ def process_file(path: Path, index: dict, product_map: dict, *, dry_run: bool, f
         print(f"  quarantined (0 analytes, no report#): {key}")
         return None
 
-    out_name = (record["report_number"] or env.source_hash) + ".json"
+    # One report number can cover several samples, so the filename must include
+    # the sample id or later samples silently overwrite earlier ones — that is
+    # how five COAs under report 3522613-0 vanished.
+    if record["report_number"] and record.get("sample_id"):
+        out_name = f'{record["report_number"]}__S{record["sample_id"]}.json'
+    else:
+        out_name = (record["report_number"] or env.source_hash) + ".json"
     out_path = PROCESSED_DIR / out_name
 
     if dry_run:

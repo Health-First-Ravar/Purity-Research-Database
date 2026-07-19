@@ -3494,3 +3494,94 @@ Four now show **CGA BELOW MINIMUM** badges against the 40 mg/g floor. That
 floor has looked wrong since session 2 — 61 records fall under it — and these
 are roasted-product COAs where a green-coffee floor may simply not apply.
 Worth resolving before a rep is asked about it.
+
+---
+
+## Session 11 — Task 3: one report, many samples
+
+### The bug
+
+`Processed/<report_number>.json` and `import-coas`'s dedup both treated
+`report_number` as unique. Eurofins does not: one report number can cover
+several distinct samples. Report `3522613-0` covers six. Five of them had no
+row in the database at all — not mislabelled, **absent**.
+
+### The fix
+
+Eurofins prints the disambiguator on every certificate:
+
+```
+Sample Name: Nicaragua Selva Negra Eurofins Sample: 11261580
+                                                    ^^^^^^^^
+```
+
+- `migrations/0012_add_coa_sample_id.sql` — adds nullable `coas.sample_id` +
+  index on `(report_number, sample_id)`. Nullable on purpose: other labs print
+  no such id, and pre-0012 rows have none.
+- `scripts/lib_extract.py` — `sample_id` on `COAEnvelope`, derived centrally in
+  `extract()` so every input format gets it.
+- `scripts/ingest.py` — Processed files are now `<report>__S<sample>.json`.
+- `dashboard/app/scripts/import-coas.ts` — matching ladder is
+  `(report_number, sample_id)` → adopt one legacy `sample_id IS NULL` row →
+  `pdf_filename`. Adoption is why re-import did not duplicate the 259 existing
+  rows.
+
+### A self-cancelling re-ingest (worth remembering)
+
+The first two `--force` runs both reported *exactly* `total=455 delete=179
+kept=276` and left only **5 of 276** records carrying a `sample_id`. The parser
+was fine — re-extracting by hand returned `9447720` for a record stored as
+`None`.
+
+`clean-stale-processed.py` Rule 2 collapses `(source_file, report_number)`
+duplicates with:
+
+```python
+best = max(paths, key=lambda p: (_analytes(...), parse_confidence))
+```
+
+Old `<report>.json` and new `<report>__S<id>.json` parse identically from the
+same source, so both keys tie — and `max` keeps whichever sorts first, which is
+always the old name because `"." < "_"`. **The cleanup silently undid the
+migration on every run.** Fixed by making `bool(sample_id)` the top sort key: a
+record that is better identified wins ahead of analyte count.
+
+After the fix: **184 of 276** records carry a `sample_id` — all 184 Eurofins.
+The 92 without are Silliker/Mérieux (72), Mérieux Brasil (7), CROM-MASS (6) and
+Trilogy (3), none of which print one, plus 4 legacy Eurofins files that have no
+`report_number` either and still match on `pdf_filename`.
+
+### Result
+
+```
+import: inserted=5  updated=259  deduped=0  skipped=12  errors=0
+live rows 318 → 323          duplicate (report_number, sample_id) pairs: 0
+```
+
+The five recovered COAs are the five that were missing. `deduped=0` confirms
+nothing collapsed elsewhere.
+
+Report `3522613-0` after the fix:
+
+```
+S11261559  competitor     21-209                  (NAT FORCE Medium)
+S11261561  competitor     21-319                  (NAT FORCE Dark)
+S11261563  competitor     21-429                  (NAT FORCE Decaf)
+S11261567  unclassified   Purity Decaf
+S11261578  unclassified   Honduras 18 Conejo
+S11261580  unclassified   Nicaragua Selva Negra
+```
+
+The three cryptic codes were **NAT FORCE, a third-party brand**. Backfill
+classified them `competitor` (`updated=3`) — a change that only ever *reduces*
+visibility, so it is fail-closed and was safe to apply.
+
+### Left for a human — deliberately not decided
+
+The other three recovered rows stay `unclassified` and therefore invisible to
+CS. `Purity Decaf` is self-evidently ours, but the row carries **no blend**, and
+moving it to `purity` *increases* customer visibility. `Honduras 18 Conejo` and
+`Nicaragua Selva Negra` read as green-coffee origin samples rather than finished
+products, which may not belong on a customer surface at all.
+
+Three rows, one decision each. Not improvised here.

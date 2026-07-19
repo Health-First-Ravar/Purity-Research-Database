@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "status": "UNRESOLVED",
+  "product_key": null,
+  "report_number": "3522613-0",
+  "test_date": "2022-01-05",
+  "sample_id": "11261578",
+  "sample_name": "Honduras 18 Conejo Eurofins Sample: 11261578",
+  "lot_or_po": "rt",
+  "supersedes": null,
+  "superseded_by": null,
+  "lab": "Eurofins (inferred)",
+  "serving_size_g": null,
+  "source_file": "/Users/jeremybehne/code/purity/COAs/18_Conejo_Barium_Strontium.pdf",
+  "source_hash": "544886187100e333",
+  "parse_confidence": 1.0,
+  "parse_notes": [
+    "pages=1 tables=1",
+    "text_rows=2"
+  ],
+  "analytes": [
+    {
+      "analyte": "Barium",
+      "panel": "other",
+      "value_normalized": 8200.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "8200",
+      "unit_as_reported": "ppb",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    },
+    {
+      "analyte": "Strontium",
+      "panel": "other",
+      "value_normalized": 7230.0,
+      "unit_normalized": "ppb",
+      "value_as_reported": "7230",
+      "unit_as_reported": "ppb",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 0
+    }
+  ],
+  "ingested_at": "2026-07-19T14:19:33+00:00"
+}
