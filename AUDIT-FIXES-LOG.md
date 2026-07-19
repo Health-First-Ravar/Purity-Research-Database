@@ -3895,3 +3895,112 @@ use; the praise queue requires an action nobody performs.
 
 **Nothing was changed for this task.** Flipping a canon row to `active` makes it
 serve answers to customers; that is a content decision, not a cleanup.
+
+---
+
+## Session 11 — Task 7: build, and an honest state of the app
+
+**Build: green.** `npm run build` exit 0, no errors, no warnings. 22 routes
+compile. Working tree clean. **Committed on `migrations-framework`. NOT pushed.**
+
+Session 11 commits: `e42e686` (Tasks 1–2), `de9572c` (Task 3), `14cc3bf`,
+`635fcd2`, `2f48ecd` (Tasks 4–6), plus this entry.
+
+Also cleared: the temporary verification accounts
+`claude-verify-cs@example.invalid` and `claude-verify-editor@example.invalid`
+were deleted and confirmed gone — `auth.users` and `profiles` both back to 5,
+0 remaining. The two `coa_assignment_log` rows they wrote **survived** the
+deletion, which is migration 0011 doing exactly what it was written for.
+
+### Where the data actually stands
+
+```
+COAs           323 live  →  66 purity | 15 competitor | 242 unclassified
+knowledge base 2,955 sources | 31,027 chunks
+chat           25 messages over 2 months | 52% escalated | 0 thumbs-up
+canon          2 rows, neither active
+```
+
+### What works, and is genuinely good
+
+- **`/reports` and `/reports/[id]`** — 323 real COAs, filterable, chartable
+  against 14 real limit thresholds, CSV export. Load-bearing.
+- **`/reports/support`** — the best-reasoned page in the codebase. It refuses to
+  show a pass when no limit exists ("no limit on file"), distinguishes *not
+  confirmable* from *not tested*, and renders one row per lot after a previous
+  version was found merging three lots into a product that never existed.
+- **`/reports/assign`** — dry-run defaults to true, preview computed by the same
+  code path that writes, every change logged with previous values for exact
+  revert, `skip` recorded as a real action. This is the pattern the rest of the
+  app should copy.
+- **`/bibliography`** — 2,955 sources, 31,027 chunks, semantic search. The most
+  data-rich surface.
+- **`/audit`** (Claim Auditor) — real retrieval + Sonnet + persistence. Not a mock.
+- **The ingestion pipeline** — six lab formats, LOQ semantics preserved,
+  soft-retire throughout, idempotent re-import. Task 3 proved it: a re-ingest of
+  276 records updated 259 and duplicated none.
+
+### What is decorative
+
+- **`/metrics`** — reads real views, but 9 rows over 25 messages. Percentages
+  are noise; one escalation moves a headline KPI 4 points.
+- **`/heatmap`** — all 44 cells render, but 18 tags across them means the colour
+  channel encodes nothing and canon-gap detection cannot trigger.
+- **`/atlas` + `/atlas/triage`** — handsome and genuinely interesting, but the
+  taxonomy is a hardcoded regex cascade triplicated across three files, and the
+  triage loop has never been run once (`kb_atlas_edge_candidates` 0,
+  `kb_atlas_topic_routes` 0).
+- **`/reports/mappings`** — 0 rules, no consumer outside its own UI (Task 5).
+- **`/api/metrics`** — dead route, no caller, duplicate query logic.
+- **canon** — complete machinery, structurally incapable of serving (Task 6).
+
+### What is actively misleading — fix before anyone senior sees it
+
+1. **`/bibliography` says "500 of 500 entries"** against a 2,955-row corpus,
+   because `count` was never requested. It reads as "you are seeing everything."
+   You are seeing 17%.
+2. **Canon search silently returns "no matches"** for any term containing a
+   comma or parenthesis — the PostgREST error is discarded. An editor concludes
+   canon is empty when it is not.
+3. **A claim audit that fails to parse is stored as a clean audit.** On
+   regulated health claims, a silent pass is the worst available failure mode.
+4. **`/metrics` reports "quick answers ready"** for a cache that cannot fire.
+5. **"Editor role required"** shown on an admin-only gate — a denied editor will
+   believe the system is broken.
+6. **`/chat` says "34 research papers"** when the searchable corpus is 2,955
+   sources. Reps will under-trust the tool.
+
+None of these are hard fixes. #1 and #2 are one line each, and #2's fix already
+exists 30 lines away in a sibling file.
+
+### Shortest path to leadership adoption
+
+**The blocker is not the app. It is that 242 of 323 COAs (75%) are
+unclassified, so customer service sees 66.**
+
+A rep searching for a product they sell will usually find nothing, conclude the
+tool does not have the data, and stop opening it. Every other item on this list
+is cosmetic next to that. The tooling to fix it already exists and is safe —
+`/reports/assign` with dry-run, audit log and revert. It has been used twice.
+
+In order:
+
+1. **Work the assignment queue.** Highest leverage by a wide margin. 242 rows,
+   bucketed with evidence-backed suggestions. Every batch directly increases
+   what a rep can find.
+2. **Fix the six misleading items above.** Perhaps a day. They are exactly the
+   things that destroy trust in a demo, and they are all small.
+3. **Demo `/reports/support` and `/reports`. Do not demo `/metrics` or
+   `/chat`.** The COA surfaces have real data, careful reasoning, and answer a
+   question the business actually has. The chat surfaces have 25 messages, a 52%
+   escalation rate, and a dead cache — they will read as a prototype because at
+   this volume that is what they are.
+4. **Then decide about chat.** A 52% escalation rate is not a tuning problem, it
+   is a signal that either the corpus does not cover what people ask or the
+   confidence floor is wrong. Answer that before promoting chat to anyone.
+
+The honest summary: **this is a working lab-data system with a chat feature
+attached to it, not a chat product with lab data attached.** The COA half is
+real, careful, and nearly ready. The conversational half is scaffolding waiting
+for usage that has not arrived. Leading with the strong half is the fastest path
+to adoption; leading with the weak half risks the whole thing.
