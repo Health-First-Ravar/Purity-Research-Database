@@ -4641,3 +4641,85 @@ soften it: **this is a working lab-data system with a chat feature attached, not
 a chat product with lab data attached.** The difference after tonight is that the
 chat half now has a functioning memory, so it can start to improve instead of
 repeating itself.
+
+## Session 12 addendum: auto-sync merge resolved + CI naming determination
+
+### Part 1 — the bot pulled NO new COAs
+
+Before resolving, checked whether auto-sync 208/209/210 brought in any
+report_number we lack. **They did not.**
+
+- Every report_number on origin/main is already in HEAD. HEAD has **267**
+  distinct report_numbers vs origin's **260** — we are ahead, because Session 11
+  split report `3522613-0` and recovered five COAs.
+- The only two Processed files the bot touched, `CHG-49872102-0`
+  (Bette Buna Roasted) and `CHG-50217786-0` (APONTE GREEN BAG REGULAR), already
+  exist in our index.json and in the database. The bot had re-ingested the same
+  two COAs from differently-named Drive files (`COA - Bette Buna.pdf` vs our
+  `COA-31-Oct-25-Bette-Buna-49872102-0.pdf`), producing the same report_number
+  with a CI `source_file` path.
+- auto-sync 209 and 210 were `last_sync_attempt` timestamp bumps only — the CI
+  sync failing on the corrupt duplicate PDF, re-stamping and nothing else.
+
+So there was nothing new to keep or re-parse. Resolution took **our** side on
+all three files (merge commit `5817db7`): the two Processed files carry the
+`sample_id` key from migration 0012 (null, since both are non-Eurofins CHG rows
+and keep the plain name — no `__S` suffix), and index.json is our superset.
+
+Note these two are non-Eurofins, so migration 0012 does not rename them; "take
+mine" here means the version carrying the `sample_id` field, not a new filename.
+
+This also corrects my Task 1 recommendation to take origin's side as
+"self-healing". It would not self-heal — see Part 2 — so taking ours was right.
+
+### Part 2 — CI picks up the new naming automatically once pushed. No workflow change needed.
+
+`.github/workflows/coa-sync.yml` runs, in order:
+
+```
+actions/checkout@v4            # fetches the default branch (main) at HEAD — no pinned ref
+python3 scripts/pull-new-coas.py
+python3 scripts/ingest.py      # <-- the naming lives entirely here
+npm run import-coas            # <-- the (report_number, sample_id) matching ladder
+npm run embed-coas
+```
+
+The workflow runs whatever `scripts/ingest.py` is on main. It does not pin a
+ref, vendor a copy, or hold naming logic of its own. So the naming convention is
+determined solely by the script on origin/main.
+
+Proof of why the bot still emits old names:
+
+```
+origin/main scripts/ingest.py:212   out_name = (report_number or source_hash) + ".json"      # OLD
+local HEAD  scripts/ingest.py:216   f'{report_number}__S{sample_id}.json'  when sample_id set # NEW
+```
+
+The new-naming `ingest.py` (plus `lib_extract.py` deriving `sample_id`,
+`clean-stale-processed.py`'s tie-break, and `import-coas.ts`'s ladder) is in
+commit **`de9572c`**, which is **unpushed**. origin/main still has the pre-0012
+script, so every 6-hour run faithfully reproduces old-naming output.
+
+**Answer: automatic, not a YAML change. The fix is `git push`.** The next
+scheduled run after the 19 commits reach origin will `checkout` the new
+`ingest.py` and emit `__S`-suffixed names for any multi-sample Eurofins report.
+
+Two caveats, neither requiring a workflow edit:
+
+1. **The scheduled run does not use `--force`** (line 57 — force is gated on
+   manual `workflow_dispatch`). So it will not re-parse COAs already on main. It
+   does not need to: Session 11's `--force` re-ingest already rebuilt the whole
+   Processed/ tree with sample_ids and split `3522613-0`, and that tree is in the
+   commits being pushed. `3522613-0` was the only genuine multi-sample collapse
+   (Session 11: 82 reports have multiple source files but 99 are the same
+   document filed twice). If a future audit finds another, a one-time
+   `workflow_dispatch` with `force=true` re-splits it.
+
+2. **The real recurrence risk is not naming — it is the `source_file` absolute
+   path.** This merge conflicted because both a local machine (Session 11) and
+   CI parsed the same two CHG COAs, writing `/Users/...` vs `/home/runner/...`.
+   Correct naming does not fix that; a COA parsed in both places will always
+   conflict on that field. After the push, if local re-ingestion stops, CI is
+   the sole writer and there is no divergence. The durable fix is to store a
+   repo-relative `source_file` — flagged in Task 1, still worth doing, still out
+   of scope for tonight.
