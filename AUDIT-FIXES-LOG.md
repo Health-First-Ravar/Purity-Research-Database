@@ -4763,3 +4763,70 @@ resolves it (our index.json is the superset — never take the bot's wholesale, 
 would revert the five recovered COAs and the 3522613-0 split).
 
 The root cause of these recurring timestamp-only PRs is fixed in Task 2.
+
+## Task 2: stop the conflict recurring
+
+### The naming question (answered Session 12, re-confirmed)
+
+`.github/workflows/coa-sync.yml` does `actions/checkout@v4` then runs
+`python3 scripts/ingest.py` directly — no pinned ref, no vendored copy. So the
+naming is whatever `ingest.py` is on main. **CI adopts migration 0012's naming
+automatically the moment the commits are pushed; no YAML change is needed.** The
+bot still emits old names only because the new `ingest.py` (commit `de9572c`)
+is unpushed. Confirmed the workflow file is unchanged on origin.
+
+### The real recurrence: a corrupt PDF had stalled every sync for ~28h
+
+`last_successful_sync` was stuck at 2026-07-19T05:24:51 while the bot opened a
+timestamp-only PR every 6 hours. Cause found in `ingest.py`:
+
+```
+line 336:  if not errors: index["last_successful_sync"] = now_iso
+```
+
+A file the parser cannot open at all — here
+`MXNS-COA-14-04-2020-43453407-0 (1).pdf`, a corrupt `(1)` duplicate of an
+already-ingested report — throws `PdfminerException: No /Root object`, lands in
+`errors`, and **blocks `last_successful_sync` for the entire corpus on every
+run, forever**, because it fails identically each time.
+
+The PDFs are gitignored (`.gitignore:95` `COAs/`, `:98` `*.pdf`) so they never
+reach the repo — 0 `_NotCOA/` files tracked on origin. That means the fix cannot
+be "commit it to `_NotCOA/`"; it has to be in tracked code.
+
+**Fix (`ingest.py`):** classify a structurally-unreadable file (`PdfminerException`,
+`PDFSyntaxError`, "No /Root", "not a PDF", encrypted, empty) as a recorded
+quarantine under `index["unreadable"]` rather than a sync-failing error. One bad
+file no longer stalls the whole sync.
+
+Safety: an unreadable file yields **no** extractable values by definition, so
+this can never put a wrong or missing value anywhere it wasn't already — it only
+converts a permanent hard-fail into a logged, visible skip. The classifier is
+deliberately narrow: a genuinely readable-but-difficult COA that fails for any
+other reason still falls through to the loud error path. Verified:
+
+```
+classifier unit test: 5/5 (the real CI error and encrypted -> unreadable;
+                            a parse difficulty and a KeyError -> still errors)
+against the real corrupt PDF:
+  UNREADABLE (quarantined, not a sync error): ... No /Root object
+  Done. errors=0   (was errors=1)   exit 0   (was exit 1)
+  clean-stale: 276 kept, 0 deleted  (no regression)
+```
+
+Once pushed, the next CI run records the corrupt file under `unreadable`,
+`last_successful_sync` advances, and the timestamp-only PR churn stops.
+
+### Left as a recommendation, not done
+
+`lib_extract.py` stores `source_file` as an absolute path
+(`/Users/...` locally, `/home/runner/...` in CI), which is the other thing that
+makes a Processed file differ between bot and local when both parse it. Every
+consumer already uses `os.path.basename(source_file)` (`clean-stale-processed.py:56`,
+`audit-coa-quality.py:41`, `rebuild_index.py:35`) and `ingest_grid_coa.py:129`
+already stores a repo-relative `COAs/{name}`, so switching `lib_extract` to a
+relative path is safe and correct. **Not done tonight:** it touches the
+regulated parser, its benefit is marginal once the bot is the canonical producer
+(the `ingested_at` timestamp still differs on any co-parsed file), and I would
+not ship an untested parser change into the pre-demo window. Recommended as a
+follow-up with a `--force` re-ingest to migrate existing rows.

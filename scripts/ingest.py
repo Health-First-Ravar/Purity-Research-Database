@@ -277,6 +277,26 @@ def _append_unique(lst: list, entry: dict) -> None:
         lst.append(entry)
 
 
+# Signatures of a file the parser cannot open AT ALL — a corrupt download, a
+# truncated PDF, a renamed non-PDF. Deliberately narrow: these mean "there is no
+# document here to read", which is different from "this COA is hard to parse".
+# Only the former is treated as a quarantine rather than a sync-failing error,
+# so a genuinely readable-but-difficult COA still surfaces loudly.
+_UNREADABLE_EXC_NAMES = {"PDFSyntaxError", "PdfminerException", "PSEOF", "PDFException"}
+_UNREADABLE_MSG_MARKERS = (
+    "no /root", "not a pdf", "is this really a pdf",
+    "cannot open", "file has not been decrypted", "empty file",
+)
+
+
+def _is_unreadable(exc: Exception) -> bool:
+    name = type(exc).__name__
+    if name in _UNREADABLE_EXC_NAMES:
+        return True
+    msg = str(exc).lower()
+    return any(m in msg for m in _UNREADABLE_MSG_MARKERS)
+
+
 def _find_by_report(index: dict, report_number: str) -> Optional[str]:
     for fname, meta in index.get("files", {}).items():
         if meta.get("report_number") == report_number:
@@ -328,8 +348,25 @@ def main() -> int:
                     processed_any = True
             except Exception as e:
                 msg = f"{path.name}: {type(e).__name__}: {e}"
-                print(f"  ERROR: {msg}", file=sys.stderr)
-                errors.append(msg)
+                if _is_unreadable(e):
+                    # A structurally-unreadable file (not a valid PDF/DOCX the
+                    # parser can even open) fails identically on every run. Left
+                    # in `errors` it blocks last_successful_sync for the WHOLE
+                    # corpus indefinitely — one 3-byte non-PDF stalled the sync
+                    # for over a day. It cannot yield lab values either way, so
+                    # record it visibly under index["unreadable"] and do NOT
+                    # count it as a sync error. Nothing is silently dropped: the
+                    # file is listed with its error for a human to action in
+                    # Drive, and a genuinely readable COA that fails for any
+                    # OTHER reason still falls through to the error path below.
+                    print(f"  UNREADABLE (quarantined, not a sync error): {msg}", file=sys.stderr)
+                    if not args.dry_run:
+                        _append_unique(index.setdefault("unreadable", []),
+                                       {"file": path.name,
+                                        "reason": f"{type(e).__name__}: {e}"[:200]})
+                else:
+                    print(f"  ERROR: {msg}", file=sys.stderr)
+                    errors.append(msg)
 
         now_iso = datetime.now(timezone.utc).isoformat(timespec="seconds")
         index["last_sync_attempt"] = now_iso
