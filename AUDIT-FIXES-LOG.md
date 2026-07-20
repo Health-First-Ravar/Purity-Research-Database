@@ -68,6 +68,12 @@ benchmarking batches) should correctly stay invisible. See Session 12 / Task 6.
 
 ## Smaller things worth not losing
 
+- **Stray temp script tracked in the repo:** `dashboard/app/.verify-lib.mjs`
+  was accidentally committed in `de9572c` (Session 11, via `git add -A`). It is
+  dead scaffolding — it reads a password from a `/tmp` file that no longer
+  exists. Safe to `git rm`; left in place this session rather than deleted
+  unilaterally under the no-DELETE rule.
+
 - **CROM-MASS dates are ambiguous** (6 rows). Those certificates carry no
   report-date field, only recepción / análisis / muestreo. Analysis date is
   stored; changing it swaps one guess for another. Needs your call.
