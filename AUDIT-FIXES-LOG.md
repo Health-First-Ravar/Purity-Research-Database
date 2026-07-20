@@ -1,33 +1,47 @@
-# WHERE WE LEFT OFF — 2026-07-19, after session 12
+# WHERE WE LEFT OFF — 2026-07-20, after session 13
 
 Read this first. Everything below is chronological session history.
 
 ## State
 
-- Branch `main`, tree **clean**. **18 commits unpushed** — Jeremy pushes.
-- `main` is **behind origin by 2** auto-sync commits. A merge is needed before
-  any push, and **merge, not rebase** — this log cites commit hashes that a
-  rebase would invalidate. Exact commands in the Session 12 / Task 1 entry.
-- Migrations 0001-0013 applied. Cron `COA Auto-Sync` active; CI sync has been
-  failing on one corrupt duplicate PDF (no data loss — see Task 1).
+- Branch `main`, tree **clean**. **25 commits unpushed** — Jeremy pushes.
+- `main` is **ahead 25, behind 0** (Session 13 merged auto-sync 208-212, all
+  timestamp/derived-artifact only, no new COAs). **Merge, not rebase** if the
+  bot has pushed again — this log cites commit hashes a rebase would break.
+  Exact command in Session 13 / Task 1.
+- Migrations 0001-0013 applied. Cron `COA Auto-Sync` active. The CI sync had
+  been failing ~28h on one corrupt duplicate PDF; Session 13 / Task 2 fixed the
+  cause (unreadable files are now quarantined, not sync-failing) — takes effect
+  once pushed.
 - No temp users left (verified 0 auth users, 0 profiles, repeatedly).
 
 ```
-coas 328 total · 323 live · 5 soft-retired
-  purity 66 · competitor 15 · unclassified 242
+coas 323 total · 318 live · 5 soft-retired
+  purity 66 · competitor 13 · unclassified 239
 CS sees 66 rows, all purity scope, 0 retired    <- verified via a real CS JWT
-canon_qa 5 rows · 0 active · 4 are verification artefacts (deprecated)
+canon_qa 6 rows · 0 active · 5 are verification artefacts (deprecated)
 knowledge base: 2,218 live sources · 1,583 distinct papers · 31k chunks
 ```
 
-## Top three open items
+## THE ONE THING TO DO FIRST: push
 
-### 1. Merge origin and push (Jeremy)
+Every open item below is downstream of the 25 commits being unpushed. Most
+urgent reason (found Session 13 / Task 3): **CI runs the OLD `import-coas`
+against the PRODUCTION database every sync**, and it has re-collapsed report
+`3522613-0` from Session 11's six recovered sample rows back to one
+misattributed row (the other five hard-deleted). This recurs until the new
+`import-coas` (soft-retire + `(report_number, sample_id)` key) is on `main`.
+Customer-safe in the meantime — the collapsed row is competitor-scoped and
+hidden from CS (Task 9 proved no customer-visible row is affected) — but it is
+active data drift. Push stops it.
 
-18 local commits, 2 remote auto-sync commits, three conflicts all in derived
-artifacts. Merge — do not rebase. Commands in Session 12 / Task 1.
+```sh
+git -C ~/code/purity push origin main      # re-fetch + merge --ours index.json if rejected
+```
 
-### 2. Nine FK constraints still block user offboarding
+## Other open items
+
+### 1. Nine FK constraints still block user offboarding
 
 Migration 0011 fixed `coa_assignment_log.actor`. Nine other columns still
 reference `profiles(id)` with no `ON DELETE`, so **any user who has asked a chat
@@ -35,14 +49,22 @@ question, run a claim audit, opened a Reva session or created canon cannot be
 deleted.** Found when a temp-account cleanup failed. Recommended as migration
 0014, mirroring 0011. See Session 12 / Task 4.
 
-### 3. The assignment queue needs a "not a product" outcome
+### 2. The assignment queue needs a "not a product" outcome
 
-242 unclassified, but only **35 decisions** (not the 122 previously estimated).
+239 unclassified, but only **~35 decisions** (not the 122 previously estimated).
 The blocker is that a row a human reviewed and correctly left unclassified is
 indistinguishable from an unreviewed one and reappears forever, so the queue
 cannot shrink and two people would collide. Small fix, highest value. And note
 the goal is **not** zero unclassified — a large share (green lots, R&D
 benchmarking batches) should correctly stay invisible. See Session 12 / Task 6.
+
+### 3. Follow-ups worth doing, not urgent
+
+- Make `lib_extract.source_file` repo-relative so bot and local Processed files
+  stop differing on the path prefix (all consumers already use basename). See
+  Session 13 / Task 2.
+- `region` column is 0-populated: give it a population path in `extractOrigin`
+  or drop it from the `/reports` list view. See Session 12 / Task 5.
 
 ## Smaller things worth not losing
 
@@ -4957,3 +4979,64 @@ and every one of the 66 customer-visible rows comes from a clean single-sample
 report. Combined with the Task 3 checks (CS sees only purity, 0 retired rows
 visible, canon has 0 active rows so the cache serves nothing), the
 customer-facing data path is provably clean on the misattribution axis.
+
+## Task 10: honest state of the app, demo-safety, and the customer-value question
+
+### What is demo-safe (show these)
+
+- **`/reports`** — 66 customer-visible COAs for CS, all 318 for editors; real
+  values, 65 of 66 dated, filterable, chart + limit badges backed by 14 real
+  thresholds. Verified both roles via real JWTs.
+- **`/reports/[id]`** — opens and renders real analyte detail.
+- **`/reports/support`** — the CS snapshot, scoped to purity, one row per lot.
+  The most carefully-reasoned screen in the app.
+- **`/chat`** — retrieval works and is fast: 8 chunks in ~1.5s against an 8s
+  budget. Answers from 1,583 papers + brand docs. Escalates when unsure.
+- **`/reports/assign`** (editor) — 239-row queue with dry-run/audit/revert.
+
+All protected routes gate correctly (307 -> /login). Build is clean.
+
+### What to keep off the screen
+
+- **`/metrics`** — real views, but 9 rows over 25 messages; the percentages are
+  statistical noise at this volume. Fine internally, misleading in a demo.
+- **`/heatmap`, `/atlas`** — structurally sound but thinly populated; the colour
+  channels convey little yet.
+- **canon cache** — 0 active rows, so it serves nothing today. The Gaps loop
+  (Session 12) is wired and a promoted row demonstrably returns a hit, but canon
+  only starts helping once an editor promotes from the 14 waiting misses.
+
+### Could anything I touched put a wrong or misattributed lab value in front of a customer?
+
+**No — and this session it is proven, not asserted.**
+
+- Nothing this session wrote to `coas`, changed a scope, or altered a value.
+- Task 3 (real CS JWT): CS sees exactly 66 rows, all `purity`, 0 retired, 0 of
+  the collapsed/competitor rows.
+- Task 9 (corpus-vs-production scan): `3522613-0` is the only multi-sample
+  report in 267; it is competitor-scoped and hidden; **all 66 customer-visible
+  rows are single-sample reports**, so no collapse or misattribution can reach a
+  customer.
+- Task 2 (ingest change): only converts an unreadable file from a hard sync
+  failure into a logged skip. An unreadable file yields no values, so it cannot
+  introduce a wrong or missing one.
+- Canon (which could serve a wrong answer with authority) has 0 active rows and
+  provably does not serve drafts.
+
+The one real integrity issue — `3522613-0` re-collapsing in production — lives
+entirely in competitor-scoped data a customer never sees, and is stopped by the
+push. The customer-facing surface is clean.
+
+### The honest one-paragraph state
+
+This is a working lab-data system with a solid customer-facing reporting surface
+and a functioning retrieval chat, held back by one operational fact: **25 commits
+of fixes are unpushed, and CI runs the old code against production in the
+meantime.** Push, and the multi-sample recovery holds, the sync stops failing,
+and the naming converges. The reporting screens are demo-ready today; the
+analytics screens (metrics, heatmap, atlas) are real but too thinly populated to
+show; canon is one editor session away from being useful. Nothing customer-facing
+is misattributed. The single highest-leverage action is not code — it is
+`git push`.
+
+--- end Session 13 ---
