@@ -5046,3 +5046,254 @@ is misattributed. The single highest-leverage action is not code — it is
 `git push`.
 
 --- end Session 13 ---
+
+---
+---
+
+# SESSION 14 — 2026-07-20 (pre-presentation, two tasks only)
+
+Scope was two fixes and nothing else. Both turned out to be different from the
+brief, and both premises were reported before any change was made.
+
+---
+
+## Task 1 — Reva could not see COA data — **PASS**
+
+### Cause: no COA retrieval was wired at all
+
+Not the persona, not a missing allow-list entry. `lib/rag/reva.ts`
+`retrieveWeighted()` fired exactly two `match_chunks` RPCs, pinned to
+`['purity_brain','reva_skill']` and `['research_paper','coffee_book']`. The
+`coa` kind was never requested by any call in the file.
+
+`knowledge-base/reva/SKILL.md` contains **zero** occurrences of "COA" or
+"certificate of analysis". The persona neither grants nor forbids it, so
+Reva's "I don't have access to Purity Coffee's Certificate of Analysis
+documents" was an honest report of empty evidence, not a scripted refusal.
+
+Session 5 / Task 1 audited this exact call site and left it pinned ("Neither
+can reach a COA chunk"), correctly at the time — it was checking for a leak,
+not for a gap.
+
+### The blocker in the verification request
+
+`/api/reva/route.ts:25` gates on `isAdmin`, which is `role === 'admin'` only.
+So **editor and customer_service both get 403 from Reva today**, and there is
+no customer_service account in the database at all (5 profiles: 4 admin, 1
+editor). Verifying "as a customer_service JWT" end-to-end was impossible
+without changing who may use Reva.
+
+Jeremy's call: fix retrieval, leave the gate alone. **The gate is unchanged.**
+
+### The finding that shaped the design
+
+A similarity threshold cannot separate a real certificate from the junk in
+`kind='coa'`. Measured against this corpus:
+
+```
+question                                    top genuine COA    top book-manuscript
+"what is the most recent COA"                    0.420                  —
+"mycotoxin and OTA results on our latest lot"    0.658                  —
+"Instagram caption about why we roast lighter"     —                  0.546
+"how does CGA survive roasting"                    —                  0.684
+```
+
+The misclassified book manuscripts (the 308 null-path `kind='coa'` sources
+`lib/sync.ts` blanket-labelled) score HIGHER on brand and mechanism questions
+than a genuine analyte table scores on a genuine COA question. A first attempt
+at a 0.45 floor was wrong in both directions: it returned nothing for the
+actual COA question and would still have admitted manuscript chunks.
+
+**Provenance separates them; similarity does not.** `match_chunks` only applies
+the `path ~ '^coa:<uuid>$'` join to a live `coas` row when `allowed_coa_scopes`
+is NON-null. Passing `null` (the usual "unrestricted" idiom) switches that join
+off. So elevated viewers get an explicit `ALL_COA_SCOPES` list instead of null:
+same three scopes, but the join stays on and the unclassified sources are
+structurally excluded.
+
+With the join in place, brand / mechanism / challenge questions retrieve **zero**
+COA chunks even at a 0.0 floor, so the similarity floor is not carrying the
+noise argument and was set to 0.30 to match the other two legs.
+
+### Changed
+
+- `lib/rag/reva.ts` — third, **additive** COA retrieval leg. Brand and evidence
+  keep their exact former counts, so existing behaviour is unmoved. Runs on the
+  caller's client (RLS) AND passes `allowed_coa_scopes` (parameter), the same
+  two independent controls `/api/chat` uses. A failed COA leg now logs rather
+  than reading as "no lab data exists" — that silent degradation is what
+  produced the original symptom.
+- `lib/coa-scope.ts` — added `ALL_COA_SCOPES` with the reasoning above.
+- `app/api/reva/route.ts` — derives visibility with `getCoaViewer`/`CS_SCOPE`,
+  the same helper `/api/chat` uses, so the two surfaces cannot drift.
+- System prompt states the COA access plainly and carries two guardrails across
+  from the chat path: a COA is **composition** evidence and never **efficacy**
+  evidence, and a below-LOQ result is a non-detection, not a measurement at the
+  threshold.
+
+### Verification — real JWTs, never service_role
+
+Two temporary accounts were minted, signed in with a password to obtain real
+access tokens, and deleted afterwards (both removals confirmed). **No
+`reva_sessions` row was created** — that FK has no `ON DELETE` (open item #1),
+so opening a session would have made the probe accounts undeletable.
+
+Asking "What is the most recent COA and what did it show?":
+
+```
+customer_service   4 COA chunks cited, all product_scope=purity
+                   BALANCE/CALM/EASE/PROTECT (BRN-4987185*-0)
+editor             4 COA chunks cited, including 995712-AO "MERCURIO Cafe"
+                   — a non-Purity report, correctly withheld from CS
+
+denies COA access  before: yes (both roles)    after: no (both roles)
+```
+
+Leak probe: the CS JWT explicitly requesting
+`['competitor','unclassified','purity']` got purity rows only. The database
+floor (`match_chunks` is security-invoker) holds regardless of what the client
+asks for.
+
+### Known limitation, NOT fixed
+
+"Most recent" is answered by **semantic similarity, not by date**. Reva reported
+the 2025-10-31 blends as most recent when the actual newest is 2026-07-01. Chat
+has the same limitation. Correcting it means a date-aware retrieval path, which
+is new scope. Worth knowing before demoing that exact phrasing.
+
+---
+
+## Task 2 — report dates on the two newest records — **PASS (data), cause is NOT the parser**
+
+### There was no parser bug to fix
+
+The brief asked to fix the parser match, and the parser is already correct:
+
+- `scripts/lib_extract.py:78` has `RE_REPORT_DATE`, preferred over
+  `RE_DATE_STARTED` at both the PDF and DOCX sites (Session 10 / Task 1).
+- Re-parsing `COAs/5427133-0_COA.pdf` and `5427134-0_COA.pdf` in-process right
+  now yields `test_date = 2026-07-01` for both — matching the human read of
+  "Report Date 01-Jul-2026".
+- `Processed/5427133-0__S16668754.json` on disk already held `2026-07-01`.
+
+(The envelope field is `test_date`. There is no `report_date` key in the
+Processed JSON; a probe for that name returns None and looks like a parse
+failure when it is not one.)
+
+### The real cause: production is being overwritten by CI running pre-fix code
+
+`origin/main` does **not** contain the fix:
+
+```
+git show origin/main:scripts/lib_extract.py | grep -c RE_REPORT_DATE   ->  0
+git show origin/main:Processed/5427133-0.json  ->  test_date 2026-06-22
+```
+
+CI checks out `origin/main` every 6 hours and imports into production, writing
+the pre-fix date back. This is the mechanism the top of this log already warns
+about, observed on a second field.
+
+### Correction to the brief's framing
+
+The brief said a prior fix "corrected 168 confirmed-Eurofins rows and likely
+skipped inferred ones". That is inverted. `Eurofins (inferred)` is the **only**
+Eurofins label the parser emits (`lib_extract.py:286` and `:807`) — there is no
+"confirmed Eurofins" category. The 168 rows Session 10 corrected **were** the
+inferred ones, and all 168 had been reverted.
+
+### Before
+
+```
+Eurofins (inferred) rows in DB   185
+  stale report_date              168     <- every one wrong
+  agreed with parsed date          2
+  null report_number (inert)      13
+  no Processed file                2
+
+stale rows by CS visibility:  purity 39 · unclassified 117 · competitor 12
+```
+
+### After
+
+```
+npm run import-coas   inserted=5 updated=259 deduped=0 skipped=12 errors=0
+npm run embed-coas    inserted=163 unchanged=152 errors=0
+
+Eurofins (inferred) rows in DB   190
+  stale report_date                0     <- all corrected
+  agreed with parsed date        175
+
+report_date changed on existing rows: 168
+rows removed: 0
+```
+
+Verified through a real **editor** JWT (never service_role):
+
+```
+5427133-0   report_date = 2026-07-01   Eurofins (inferred)
+5427134-0   report_date = 2026-07-01   Eurofins (inferred)
+```
+
+Rollback snapshot of all 323 pre-change rows:
+`backups/coas_report_date_pre_session14.json`.
+
+### Side effect, not requested: 5 rows restored
+
+`inserted=5` was not a surprise on inspection — they are the report `3522613-0`
+multi-sample rows that CI's old `import-coas` had hard-deleted (named at the top
+of this log). The current `(report_number, sample_id)` keying re-created them:
+
+```
+3522613-0 sample 11261561  21-319                 NAT_FORCE_DARK_COA.pdf
+3522613-0 sample 11261563  21-429                 NAT_FORCE_DECAF_COA.pdf
+3522613-0 sample 11261578  Honduras 18 Conejo     18_Conejo_Barium_Strontium.pdf
+3522613-0 sample 11261567  Purity Decaf           PURITY DECAF v. LA PRADERA pre-SWD.pdf
+3522613-0 sample 11261580  Nicaragua Selva Negra  SELVA_NEGRA_2021-22.pdf
+```
+
+All `unclassified`, so none are customer-visible. This is a restoration of data
+the old code destroyed, not new drift.
+
+### THIS WILL REVERT WITHIN 6 HOURS
+
+Nothing above changes the cause. The next `COA Auto-Sync` run checks out
+`origin/main`, parses with the old `lib_extract.py` and imports the old
+Processed JSON, putting all 168 dates back to `Date Started`. Not pushed, per
+instruction. To make it durable, either:
+
+```sh
+git -C ~/code/purity push origin main       # the actual fix
+gh workflow disable "COA Auto-Sync"         # or hold the line until you push
+```
+
+---
+
+## Flagged, not fixed (outside the two-task scope)
+
+- **7 live `kind='coa'` sources carry a stale date in their title and chunk
+  text.** All 7 are `product_scope='competitor'`: `embed-coas` deliberately
+  never embeds competitor rows, so the date correction did not propagate to
+  sources embedded before that exclusion existed. Never visible to CS. Reachable
+  by an editor through Reva's new COA leg, showing a date 5-12 days early.
+  Reports `3479395-0`, `3481079-0`, `3481082-0`, `3481083-0`, `3481481-0`,
+  `3481482-0`, `3522613-0`.
+
+- **Competitor COA chunks are reachable by Reva for elevated viewers**, which
+  follows the documented policy ("editors see everything, competitors included
+  — that comparison data is the point", `lib/coa-scope.ts`). But Reva CREATE
+  mode drafts marketing copy, and four competitor rows carry only a bare sample
+  code (`21-357`, `21-137`) as their title. Citing one while drafting a Purity
+  claim would misattribute another brand's lab result in regulated copy. The
+  cheap mitigation is naming the brand in the rendered chunk text at
+  `embed-coas` time, not narrowing the scope.
+
+- **Something else was writing to this repo during this session.**
+  `dashboard/app/tmp/` gained `before-reva.ts`, `diag-reva-coa.mjs`,
+  `diag-coa-sim.mjs`, `diag-coa-sim2.mjs`, `diag-coa-sources.mjs` and `users.mjs`
+  at 13:45-13:48 while this session was running, and `before-reva.ts` is a probe
+  for this exact task. `tmp/` is gitignored so nothing was committed, and no
+  tracked file was touched by it — but `npx tsc --noEmit` now fails on
+  `tmp/before-reva.ts`, which calls `askReva` with the old 3-argument shape.
+  Not deleted: not mine to delete.
+
+--- end Session 14 ---
