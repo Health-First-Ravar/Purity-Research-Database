@@ -4830,3 +4830,83 @@ regulated parser, its benefit is marginal once the bot is the canonical producer
 (the `ingested_at` timestamp still differs on any co-parsed file), and I would
 not ship an untested parser change into the pre-demo window. Recommended as a
 follow-up with a `--force` re-ingest to migrate existing rows.
+
+## Task 3: end-to-end verification, both roles (the demo-critical one)
+
+Verified through **real authenticated JWTs** (temp `customer_service` + `editor`
+users, never service_role for the checks), plus a local production server on
+PORT=3100, plus a build. All temp users removed at the end (0 remaining).
+
+### Data layer — every demo screen, both roles
+
+```
+CUSTOMER SERVICE (real JWT)
+  [OK]    /reports            66 rows, scope=["purity"] only, 65 dated
+  [OK]    /reports/[id]       opens 4534147-0 (BALANCE 2024 CONTAMINANTS)
+  [OK]    coa_limits          14 active limits (ota=2, aflatoxin=4, lead=15...)
+  [OK]    /chat retrieval     8 chunks in 1490ms  (well inside the 8s budget)
+  [OK]    /chat canon         0 active-canon hits (expected — see Task 6)
+  [BLOCK] /reports/assign      CS cannot write coas (RLS correct)
+EDITOR (real JWT)
+  [OK]    /reports            318 live rows, all scopes visible
+  [OK]    /reports/assign     239 unclassified in the queue
+  [OK]    /editor/canon gaps  14 canon_misses waiting (the re-pointed loop)
+  [OK]    /editor queue       13 escalated messages
+  [OK]    /editor/canon tabs  canon_qa {deprecated:5, draft:1}
+```
+
+The single test failure was my probe using a wrong column name
+(`coa_limits.analyte_key`); the real column is `key` and the app queries it
+correctly (`lib/coa-limits.ts:86`) — re-verified: 14 limits load. Not an app bug.
+
+### Server / routing smoke test (local prod build on :3100)
+
+Build clean (exit 0, `/reports/mappings` gone — 0 route refs). Server boots in
+386ms. Every protected demo route returns **307 → /login?next=…** when
+unauthenticated (`/reports`, `/reports/support`, `/chat`, `/reports/assign`,
+`/editor/canon`, `/metrics`). No server errors.
+
+### CRITICAL FINDING — a multi-sample report has re-collapsed in production
+
+Report **3522613-0**, which Session 11 recovered from 1 collapsed row to 6
+distinct sample rows, is **back to a single row** in the production database:
+
+```
+report 3522613-0: 1 row
+  S11261559  scope=competitor  "Nicaragua Selva Negra"
+```
+
+That row is misattributed — sample id `11261559` was NAT FORCE Medium ("21-209"),
+while "Nicaragua Selva Negra" was sample `11261580`. The other five samples are
+**gone from the table entirely** (deleted, not soft-retired). The missing five
+exactly explain the drift since Session 12 (live 323 -> 318; competitor 15 -> 13;
+unclassified 242 -> 239).
+
+**Cause, by elimination:** the only actor that hard-deletes `coas` rows is the
+pre-migration-0012 `import-coas` dedup — the "self-healing dedupe" that Session
+11 replaced with soft-retire and `(report_number, sample_id)` keying. That fix
+is **unpushed**. CI runs the OLD `import-coas` against the PRODUCTION database on
+every sync (the parse step is `continue-on-error`, so import runs even while the
+sync is "failing"), keyed on `report_number` alone — so it re-collapsed the six
+rows to one and deleted the rest.
+
+**Demo impact: none.** The collapsed row is `product_scope=competitor`, which is
+excluded from every customer-facing surface — a CS user does not see it (verified:
+CS sees only the 66 purity rows). 3522613-0 was the only genuine multi-sample
+report (Session 11), so no purity/CS-visible row is affected. Leadership + CS can
+demo Reports and the support view safely.
+
+**Integrity impact: real, and recurring until the push.** Every CI import re-runs
+old code against production. Restoring the six rows locally now would be undone
+on the next sync, so per the "do not improvise on regulated data" rule I did NOT
+touch production. The correct fix is to **push the Session 11/12 commits** (new
+`import-coas` with soft-retire + sample_id keying), after which the recovery
+holds. Until then, 3522613-0 stays collapsed but hidden from customers.
+
+### One layer not verified
+
+The Claude browser extension was not connected, so I could not do the
+authenticated *visual* walkthrough (layout, badges, empty-state styling). Given
+the build is clean, all routes compile and gate correctly, and both roles return
+correct scoped data, render risk is low — but a human clicking through Reports,
+the support view and chat once before the demo would close the gap.
