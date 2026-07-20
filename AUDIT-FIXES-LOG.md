@@ -4910,3 +4910,50 @@ authenticated *visual* walkthrough (layout, badges, empty-state styling). Given
 the build is clean, all routes compile and gate correctly, and both roles return
 correct scoped data, render risk is low — but a human clicking through Reports,
 the support view and chat once before the demo would close the gap.
+
+## Tasks 4-8: already completed in Session 12 — verified intact
+
+These were done in Session 12 and are committed. Re-verified this session rather
+than duplicated:
+
+- **Task 4 (five audit bugs)** — commit `abfa418`. Verified in code: canon
+  search sanitized + error surfaced; `/bibliography` uses `count:'exact'`; chat
+  copy reads a dynamic `paperCount`; audit throws `AuditUnparseableError`;
+  heatmap `?topic=` resolved. The demo-verify run also exercised canon and chat.
+- **Task 5 (remove mappings)** — commit `643f207`. `/reports/mappings` and its
+  API are gone (build shows 0 route refs); migration `0013` retires
+  `coa_mapping_rules`. On `region`: it remains 0-populated; keep the column (it
+  feeds embed-coas chunk text) but give it a real population path in
+  `extractOrigin` or drop it from the `/reports` list view — argued in Session 12.
+- **Task 6 (canon -> canon_misses)** — commit `3f08838`. `CanonGapList` present,
+  page reads `canon_misses`; demo-verify confirmed 14 misses in the Gaps tab and
+  that a promoted+activated row returns a hit (Session 12 measured 0.8195/68ms).
+- **Task 7 (Purity Decaf)** — commit `e391bbe`. Left unclassified with evidence
+  (PO `Competitors 2` shared with the NAT FORCE samples; matches the discontinued
+  2016-2021 "Purity <descriptor>" line; no decaf in the current lineup).
+- **Task 8 (assignment dry run)** — commit `83aaf94`. 35 decisions to clear the
+  backlog (not 122); the queue's blocker is the missing "reviewed, not a product"
+  terminal state.
+
+## Task 9: production integrity scan — is any CUSTOMER-VISIBLE value misattributed?
+
+Chosen because Task 3 found the CI collapsing a multi-sample report in
+production, and the one question that matters for a customer demo is whether that
+can put a wrong value in front of a customer. Scanned the local Processed corpus
+(source of truth) against the live production DB:
+
+```
+Local Processed: 267 report_numbers, 1 genuinely multi-sample (3522613-0, 6 samples)
+production 3522613-0: 1 live row, scope=competitor  [COLLAPSED, but hidden]
+CS-visible rows from a collapsed multi-sample report: 0
+purity (CS-visible) rows: 66, of which from a multi-sample report: 0
+  -> all purity rows are single-sample reports
+```
+
+**Conclusion (evidence, not assertion): no collapsed or misattributed lab value
+can reach a customer.** The only multi-sample report in the entire corpus is
+`3522613-0`, it is competitor-scoped and excluded from every customer surface,
+and every one of the 66 customer-visible rows comes from a clean single-sample
+report. Combined with the Task 3 checks (CS sees only purity, 0 retired rows
+visible, canon has 0 active rows so the cache serves nothing), the
+customer-facing data path is provably clean on the misattribution axis.
