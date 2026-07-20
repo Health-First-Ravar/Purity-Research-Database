@@ -6,6 +6,7 @@ import { supabaseServer, supabaseAdmin } from '@/lib/supabase';
 import { askReva, type RevaMode, type RevaPriorTurn } from '@/lib/rag/reva';
 import { checkChatRateLimit } from '@/lib/rate-limit';
 import { isAdmin } from '@/lib/auth-roles';
+import { getCoaViewer, CS_SCOPE } from '@/lib/coa-scope';
 
 export const dynamic = 'force-dynamic';
 
@@ -73,7 +74,16 @@ export async function POST(req: Request) {
     content: question,
   });
 
-  const answer = await askReva({ question, mode, prior });
+  // COA visibility is derived exactly as /api/chat derives it, from one helper,
+  // so the two surfaces cannot drift apart. `sb` (the caller's client) is passed
+  // rather than the admin client so RLS applies to the COA leg as well.
+  const viewer = await getCoaViewer(sb);
+  const answer = await askReva({
+    question,
+    mode,
+    prior,
+    coa: { client: sb, allowedScopes: viewer.elevated ? null : [CS_SCOPE] },
+  });
 
   // Persist the assistant turn.
   const { data: msgRow } = await adb

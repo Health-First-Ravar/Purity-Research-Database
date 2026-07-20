@@ -20,6 +20,20 @@ import type { SupabaseClient } from '@supabase/supabase-js';
 /** The only scope customer service may read. */
 export const CS_SCOPE = 'purity' as const;
 
+/**
+ * Every value `coas.product_scope` may hold (migration 0002's CHECK).
+ *
+ * Passing this to `match_chunks` is NOT the same as passing `null`, even though
+ * both admit all three scopes. `null` short-circuits the scope predicate
+ * entirely; a non-null list forces the `path ~ '^coa:<uuid>$'` join to a live
+ * `coas` row. That join is what separates a real certificate from the ~308
+ * `kind='coa'` sources that `lib/sync.ts` blanket-labelled without classifying
+ * — a group that includes twelve copies of the book manuscript. Those score
+ * HIGHER on a health or brand question than a genuine analyte table does, so a
+ * similarity threshold cannot tell them apart. The provenance join can.
+ */
+export const ALL_COA_SCOPES = ['purity', 'competitor', 'unclassified'] as const;
+
 export type CoaViewer = { role: DbRole; elevated: boolean };
 
 /**

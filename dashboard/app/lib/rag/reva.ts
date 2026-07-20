@@ -4,8 +4,8 @@
 //   * a system prompt sliced from knowledge-base/reva/SKILL.md so the prompts
 //     stay in sync with the canonical skill (read at request time on the
 //     server; cached in-memory for the lifetime of the lambda)
-//   * different retrieval weights between brand-voice (purity_brain + reva_skill)
-//     and evidence (research_paper + coffee_book)
+//   * different retrieval weights between brand-voice (purity_brain + reva_skill),
+//     evidence (research_paper + coffee_book) and lab data (coa)
 //
 // Unlike /api/chat, Reva is allowed to synthesize beyond the chunks. When she
 // does, she sets flags.left_evidence = true. The UI surfaces this as a banner
@@ -14,9 +14,11 @@
 import path from 'node:path';
 import fs from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
+import type { SupabaseClient } from '@supabase/supabase-js';
 import { anthropic, MODEL_GENERATE } from '../anthropic';
 import { embedOne } from '../voyage';
 import { supabaseAdmin } from '../supabase';
+import { ALL_COA_SCOPES } from '../coa-scope';
 
 export type RevaMode = 'create' | 'analyze' | 'challenge';
 
@@ -31,6 +33,22 @@ export type RevaChunk = {
   kind: string;
   title: string;
   chapter: string | null;
+};
+
+/**
+ * Who this request may see COA data as.
+ *
+ * `allowedScopes: null` = unrestricted (admin/editor, the audit view).
+ * `['purity']` = the customer-service allowlist. Resolve it with `getCoaViewer`
+ * at the route so Reva and /api/chat derive visibility from one place.
+ *
+ * `client` should be the CALLER's Supabase client. Omitting it falls back to
+ * the service-role client, which bypasses RLS — acceptable only for scripts and
+ * ingestion, never for a user-facing request.
+ */
+export type CoaAccess = {
+  client?: SupabaseClient;
+  allowedScopes: string[] | null;
 };
 
 export type RevaFlags = {
@@ -95,6 +113,27 @@ const RETRIEVAL_WEIGHTS: Record<RevaMode, { brand: number; evidence: number }> =
 };
 
 const TOTAL_CHUNKS = 12;
+
+// --- COA (lab data) retrieval -----------------------------------------------
+// Reva could not see a single Certificate of Analysis before this: the two RPCs
+// below were pinned to brand + research kinds, so every COA question was
+// answered "I don't have access to those documents" while 323 rows sat in the
+// database. There was no persona rule and no allow-list entry causing it — the
+// kind was simply never requested.
+//
+// The COA leg is ADDITIVE. Brand and evidence keep their exact former counts,
+// so nothing about Reva's existing behaviour shifts; lab chunks arrive on top.
+const COA_CHUNKS = 4;
+
+// Same 0.30 floor as the other two legs. A stricter floor was tried first and
+// was wrong in both directions: measured against this corpus, a genuine COA
+// tops out at 0.420 for "what is the most recent COA" (so 0.45 returned
+// nothing), while misclassified book-manuscript chunks reached 0.546 on a brand
+// question. Similarity does not separate these; provenance does, and the scope
+// join below handles it. With that join in place, brand / mechanism / challenge
+// questions retrieve zero COA chunks even at a 0.0 floor, so the floor is not
+// carrying the noise argument and does not need to be special.
+const COA_MIN_SIMILARITY = 0.30;
 
 const MODE_HEADINGS: Record<RevaMode, RegExp[]> = {
   create: [
@@ -206,6 +245,19 @@ You may synthesize beyond the provided <evidence> chunks when the question
 calls for it. When you do, set flags.left_evidence = true and say so plainly
 in the answer. When you stay within the evidence, set it to false.
 
+You DO have access to Purity's Certificate of Analysis (COA) lab data. It
+arrives as evidence chunks with kind "coa" and holds real measured analyte
+values for real lots. Use them when a question concerns lab results, and quote
+the report number and date so the operator can trace the figure. If no coa
+chunk was retrieved for a lab question, say the retrieval returned nothing for
+that query — do not say you have no access to COA documents, because you do.
+
+Two rules on lab data. A COA is COMPOSITION evidence, never EFFICACY evidence:
+it shows what is in the coffee, never that the coffee does anything
+physiological, so it can never carry a health claim on its own. And a result
+reported below the limit of quantitation is a NON-DETECTION, not a measurement
+at the threshold — report it as not detected, with the bound.
+
 Set flags.regulatory_risk = true if your draft contains any disease/treat/cure/prevent
 language or any unhedged health claim. Set flags.weakest_link to the layer of
 the Compound Reasoning Stack the answer is most exposed on, or null.
@@ -233,13 +285,29 @@ ${sliced}`;
 async function retrieveWeighted(
   vec: number[],
   mode: RevaMode,
+  coa: CoaAccess,
 ): Promise<RevaChunk[]> {
   const sb = supabaseAdmin();
   const w = RETRIEVAL_WEIGHTS[mode];
   const brandCount = Math.round(TOTAL_CHUNKS * w.brand);
   const evidenceCount = TOTAL_CHUNKS - brandCount;
 
-  const [brandRes, evidenceRes] = await Promise.all([
+  // The COA leg runs on the CALLER's client, not the admin one, so RLS on
+  // sources/coas independently withholds rows this viewer may not see. The
+  // explicit allowed_coa_scopes argument is the second control: match_chunks is
+  // security-invoker and only honours the parameter when auth.uid() is null
+  // (service_role), so a user-scoped call is floored by the database regardless
+  // of what we pass. Two independent controls, same as /api/chat.
+  const coaClient = coa.client ?? sb;
+
+  // `null` means "unrestricted" everywhere else in this codebase, but handing
+  // null to match_chunks would also switch OFF the provenance join and let the
+  // unclassified `kind='coa'` sources (book manuscripts, orphans) into Reva's
+  // evidence. Elevated viewers therefore get the explicit full scope list,
+  // which admits every genuine certificate and nothing else. See ALL_COA_SCOPES.
+  const coaScopes: string[] = coa.allowedScopes ?? [...ALL_COA_SCOPES];
+
+  const [brandRes, evidenceRes, coaRes] = await Promise.all([
     brandCount > 0
       ? sb.rpc('match_chunks', {
           query_embedding: vec as unknown as string,
@@ -256,11 +324,25 @@ async function retrieveWeighted(
           min_similarity: 0.30,
         })
       : Promise.resolve({ data: [] as RevaChunk[] }),
+    coaClient.rpc('match_chunks', {
+      query_embedding: vec as unknown as string,
+      match_count: COA_CHUNKS,
+      source_kinds: ['coa'],
+      min_similarity: COA_MIN_SIMILARITY,
+      allowed_coa_scopes: coaScopes,
+    }),
   ]);
+
+  // A failed COA leg must not look like "no lab data exists" — that is the exact
+  // silent degradation that made Reva deny having COA access in the first place.
+  if (coaRes.error) {
+    console.error('[reva] COA retrieval failed:', coaRes.error);
+  }
 
   const merged = [
     ...((brandRes.data ?? []) as RevaChunk[]),
     ...((evidenceRes.data ?? []) as RevaChunk[]),
+    ...((coaRes.data ?? []) as RevaChunk[]),
   ];
   // Dedupe + sort by similarity desc
   const seen = new Set<string>();
@@ -276,15 +358,16 @@ export async function askReva(args: {
   question: string;
   mode: RevaMode;
   prior: RevaPriorTurn[];      // last 4-6 turns of session context
+  coa: CoaAccess;
 }): Promise<RevaAnswer> {
-  const { question, mode, prior } = args;
+  const { question, mode, prior, coa } = args;
   const t0 = Date.now();
 
   const [vec, modePrompts] = await Promise.all([
     embedOne(question, 'query'),
     loadModePrompts(),
   ]);
-  const chunks = await retrieveWeighted(vec, mode);
+  const chunks = await retrieveWeighted(vec, mode, coa);
 
   const evidenceBlock = chunks.length
     ? chunks
