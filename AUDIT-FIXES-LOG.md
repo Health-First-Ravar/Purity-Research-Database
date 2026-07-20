@@ -4723,3 +4723,43 @@ Two caveats, neither requiring a workflow edit:
    the sole writer and there is no divergence. The durable fix is to store a
    repo-relative `source_file` — flagged in Task 1, still worth doing, still out
    of scope for tonight.
+
+---
+
+# SESSION 13 — 2026-07-20 (unattended; leadership + CS demo in hours)
+
+Note: Sessions 11-12 already completed most of this task list (the branch merge,
+the five audit-bug fixes, the mappings removal, the canon re-point, the Purity
+Decaf investigation, the assignment dry run). This session re-verifies the
+demo-critical items against the LIVE current state and does the end-to-end app
+walkthrough that had not yet been done.
+
+## Task 1: branch / conflict state (re-verified against live origin)
+
+The task context ("ten commits, behind origin, three Processed/ conflicts") was
+the Session 12 starting state. Current live state after fetch:
+
+- Session 12 already merged auto-sync 208-210 (the three Processed/ conflicts,
+  resolved keeping our migration-0012 versions). Committed, not pushed.
+- Overnight the bot pushed **auto-sync 211 and 212**. Both are pure
+  `last_sync_attempt` timestamp bumps — **no new COAs, no new report_numbers**
+  (origin 260, HEAD 267). Verified by diffing each commit and by set-comparing
+  report_numbers before resolving, per the rules.
+- Merged locally (`faeaae1`), keeping our index.json superset.
+
+**State now: `main` ahead 21, behind 0, tree clean. Nothing pushed.**
+
+### Exact command for Jeremy
+
+```sh
+git -C ~/code/purity push origin main
+```
+
+Re-fetch first if it has been more than ~6h — the bot may have opened another
+timestamp-only PR. If `push` is rejected as non-fast-forward, the new commits
+will again be timestamp bumps; `git merge origin/main` then
+`git checkout --ours index.json && git add index.json && git commit --no-edit`
+resolves it (our index.json is the superset — never take the bot's wholesale, it
+would revert the five recovered COAs and the 3522613-0 split).
+
+The root cause of these recurring timestamp-only PRs is fixed in Task 2.
