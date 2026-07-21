@@ -23,6 +23,9 @@ export default async function AtlasPage() {
     .eq('id', auth.user.id)
     .single();
   const isEditor = hasElevatedAccess(profile?.role);
+  if (!isEditor) {
+    return <p className="text-sm text-purity-rust">Editor role required.</p>;
+  }
 
   return (
     <div>
