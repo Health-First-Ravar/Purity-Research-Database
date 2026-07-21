@@ -5,6 +5,8 @@
 import type { SupabaseClient } from '@supabase/supabase-js';
 import { embedOne } from '../voyage';
 import type { Classification } from './classify';
+import { ALL_COA_SCOPES } from '../coa-scope';
+import { detectCoaLookup, fetchCoaLookupChunks } from './coa-lookup';
 
 const CANON_THRESHOLD = Number(process.env.CANON_MATCH_THRESHOLD ?? 0.82);
 const CHUNK_THRESHOLD = Number(process.env.CHUNK_MATCH_THRESHOLD ?? 0.55);
@@ -28,6 +30,9 @@ export type ChunkHit = {
   kind: string;
   title: string;
   chapter: string | null;
+  // Set when the chunk was selected structurally (by report_date / report_number)
+  // rather than by embedding distance. Renders as `selected=<via>` in evidence.
+  via?: 'report_date' | 'report_number';
 };
 
 export async function findCanonHit(
@@ -72,7 +77,29 @@ export async function retrieveChunks(
     allowed_coa_scopes: allowedCoaScopes,
   });
   if (error) throw error;
-  return (data ?? []) as ChunkHit[];
+  const semantic = (data ?? []) as ChunkHit[];
+
+  // Structured COA leg — same fix as Reva's COA path. "Most recent COA" is an
+  // ORDER (report_date) and "COA <report#>" is a KEY (report_number); neither
+  // survives nearest-neighbour ranking, so for those signals we select from
+  // `coas` directly and prepend the certificates' already-embedded chunks.
+  // Runs on the same caller client (RLS applies) with the same scope allowlist;
+  // `null` (elevated) maps to the full scope list, mirroring coa-scope.
+  const signals = detectCoaLookup(question);
+  if (signals.recency || signals.reportTokens.length) {
+    const structured = await fetchCoaLookupChunks(
+      client,
+      signals,
+      allowedCoaScopes ?? [...ALL_COA_SCOPES],
+    );
+    if (structured.length) {
+      const seen = new Set<string>();
+      return [...structured, ...semantic].filter((c) =>
+        seen.has(c.id) ? false : (seen.add(c.id), true),
+      );
+    }
+  }
+  return semantic;
 }
 
 function kindsForCategory(cat: Classification['category']): string[] | null {

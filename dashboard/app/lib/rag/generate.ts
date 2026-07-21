@@ -124,6 +124,11 @@ The <evidence> chunks may include research papers, brand-source content
     and flag the contradiction in the reasoning field.
   - If the chunks include a COA value, use it precisely and cite it. Never
     invent a number.
+  - A COA chunk marked "selected=report_date" is the most recent certificate by
+    test date; one marked "selected=report_number" is a specific report the
+    customer named. These were chosen by structured lookup, not text similarity,
+    so for a "most recent COA" or specific-report question trust them first and
+    quote the report number and test date.
 
 ────────────────────────────────────────────────────────────────────────
 RETURN FORMAT
@@ -160,7 +165,7 @@ export async function generateAnswer(args: {
           (c, i) =>
             `--- chunk ${i + 1} (id=${c.id}, source=${c.kind}:${c.title}${
               c.chapter ? `, ch ${c.chapter}` : ''
-            }, similarity=${c.similarity.toFixed(3)}) ---\n${
+            }, ${c.via ? `selected=${c.via}` : `similarity=${c.similarity.toFixed(3)}`}) ---\n${
               c.heading ? `# ${c.heading}\n` : ''
             }${c.content}`,
         )
