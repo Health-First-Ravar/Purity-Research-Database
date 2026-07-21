@@ -19,6 +19,7 @@ import { anthropic, MODEL_GENERATE } from '../anthropic';
 import { embedOne } from '../voyage';
 import { supabaseAdmin } from '../supabase';
 import { ALL_COA_SCOPES } from '../coa-scope';
+import { detectCoaLookup, fetchCoaLookupChunks } from './coa-lookup';
 
 export type RevaMode = 'create' | 'analyze' | 'challenge';
 
@@ -33,6 +34,9 @@ export type RevaChunk = {
   kind: string;
   title: string;
   chapter: string | null;
+  // Set when the chunk was selected structurally (by report_date / report_number)
+  // rather than by embedding distance. Renders as `selected=<via>` in evidence.
+  via?: 'report_date' | 'report_number';
 };
 
 /**
@@ -252,6 +256,14 @@ the report number and date so the operator can trace the figure. If no coa
 chunk was retrieved for a lab question, say the retrieval returned nothing for
 that query — do not say you have no access to COA documents, because you do.
 
+Some COA chunks are chosen by structured lookup, not by semantic similarity:
+their header reads "selected=report_date" (the newest certificates by test
+date) or "selected=report_number" (a specific report you were asked about).
+Semantic search cannot order by date or reliably find one lot by its number, so
+for a "most recent COA" or a specific-report question, trust these first and
+quote their report number and test date. If none are present for such a
+question, say the lookup found no matching certificate.
+
 Two rules on lab data. A COA is COMPOSITION evidence, never EFFICACY evidence:
 it shows what is in the coffee, never that the coffee does anything
 physiological, so it can never carry a health claim on its own. And a result
@@ -286,6 +298,7 @@ async function retrieveWeighted(
   vec: number[],
   mode: RevaMode,
   coa: CoaAccess,
+  question: string,
 ): Promise<RevaChunk[]> {
   const sb = supabaseAdmin();
   const w = RETRIEVAL_WEIGHTS[mode];
@@ -339,12 +352,27 @@ async function retrieveWeighted(
     console.error('[reva] COA retrieval failed:', coaRes.error);
   }
 
+  // Structured COA leg: for recency / specific-report questions, select
+  // certificates from `coas` by report_date / report_number — an ORDER and a
+  // key that embedding distance cannot honour — and inject their
+  // already-embedded chunks ahead of the semantic hits. Runs only when the
+  // question shows those signals; everything else is byte-for-byte unchanged.
+  const signals = detectCoaLookup(question);
+  const structured: RevaChunk[] =
+    signals.recency || signals.reportTokens.length
+      ? await fetchCoaLookupChunks(coaClient, signals, coaScopes)
+      : [];
+
   const merged = [
+    ...structured,
     ...((brandRes.data ?? []) as RevaChunk[]),
     ...((evidenceRes.data ?? []) as RevaChunk[]),
     ...((coaRes.data ?? []) as RevaChunk[]),
   ];
-  // Dedupe + sort by similarity desc
+  // Dedupe (first occurrence wins, so a structural hit keeps its `via` marker
+  // when the same chunk also arrives semantically) + sort by similarity desc.
+  // Structural hits carry similarity=1 so they sort to the top; V8's stable
+  // sort preserves their report-first-then-most-recent order among equals.
   const seen = new Set<string>();
   return merged
     .filter((c) => (seen.has(c.id) ? false : (seen.add(c.id), true)))
@@ -367,7 +395,7 @@ export async function askReva(args: {
     embedOne(question, 'query'),
     loadModePrompts(),
   ]);
-  const chunks = await retrieveWeighted(vec, mode, coa);
+  const chunks = await retrieveWeighted(vec, mode, coa, question);
 
   const evidenceBlock = chunks.length
     ? chunks
@@ -375,7 +403,7 @@ export async function askReva(args: {
           (c, i) =>
             `--- chunk ${i + 1} (id=${c.id}, ${c.kind}:${c.title}${
               c.chapter ? `, ch ${c.chapter}` : ''
-            }, sim=${c.similarity.toFixed(3)}) ---\n${
+            }, ${c.via ? `selected=${c.via}` : `sim=${c.similarity.toFixed(3)}`}) ---\n${
               c.heading ? `# ${c.heading}\n` : ''
             }${c.content}`,
         )
