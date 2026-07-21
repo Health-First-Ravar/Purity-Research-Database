@@ -10,6 +10,7 @@
 import { anthropic, MODEL_GENERATE } from '../anthropic';
 import { embedOne } from '../voyage';
 import { supabaseAdmin } from '../supabase';
+import { stripDashes } from './sanitize';
 
 export type AuditContext = 'newsletter' | 'module' | 'chat_answer' | 'product_page' | 'other';
 
@@ -93,7 +94,7 @@ Return ONLY valid JSON in this exact shape — no prose:
   "weakest_link": "mechanism"|"bioavailability"|"evidence"|"practical"|null,
   "regulatory_flags": ["cure_word", ...],
   "evidence_tier": 1..7|null,
-  "suggested_rewrite": "<the version that holds up — use 'may support', 'associated with', 'research suggests'; never 'cures', 'prevents', 'treats'>",
+  "suggested_rewrite": "<the version that holds up. Use 'may support', 'associated with', 'research suggests'; never 'cures', 'prevents', 'treats'. Never use em dashes or en dashes; use commas, colons, or periods.>",
   "reasoning": "<one or two sentences explaining the audit; editor log>",
   "cited_chunk_ids": ["<uuid>", ...]
 }`;
@@ -167,7 +168,7 @@ ${draft}
     weakest_link: parsed.weakest_link,
     regulatory_flags: parsed.regulatory_flags,
     evidence_tier: parsed.evidence_tier,
-    suggested_rewrite: parsed.suggested_rewrite,
+    suggested_rewrite: stripDashes(parsed.suggested_rewrite),
     reasoning: parsed.reasoning,
     cited_chunk_ids: parsed.cited_chunk_ids.length
       ? parsed.cited_chunk_ids

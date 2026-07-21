@@ -6,6 +6,7 @@
 // retrieval).
 
 import { anthropic, MODEL_GENERATE, parseGenerateResult } from '../anthropic';
+import { stripDashes } from './sanitize';
 import type { ChunkHit } from './retrieve';
 import type { Classification } from './classify';
 import { buildSafetyContext } from './safety-context';
@@ -217,5 +218,7 @@ ${evidence}
   const tokens_out = res.usage?.output_tokens ?? 0;
   const cost_usd = (tokens_in * 3 + tokens_out * 15) / 1_000_000;
 
-  return { ...parsed, tokens_in, tokens_out, cost_usd };
+  // Brand rule: strip em/en dashes from the customer-facing answer even when
+  // the model ignored the prompt instruction to avoid them.
+  return { ...parsed, answer: stripDashes(parsed.answer), tokens_in, tokens_out, cost_usd };
 }

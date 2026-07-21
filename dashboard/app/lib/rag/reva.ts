@@ -20,6 +20,7 @@ import { embedOne } from '../voyage';
 import { supabaseAdmin } from '../supabase';
 import { ALL_COA_SCOPES } from '../coa-scope';
 import { detectCoaLookup, fetchCoaLookupChunks } from './coa-lookup';
+import { stripDashes } from './sanitize';
 
 export type RevaMode = 'create' | 'analyze' | 'challenge';
 
@@ -243,6 +244,10 @@ claim survives scrutiny, say so plainly and explain why.`,
   return `You are Reva — peer-level intellectual partner to Jeremy Rävar and
 Ildi Revi on Circular Health Coffee (CHC) and Purity Coffee.
 
+Writing mechanics (Purity brand rule): never use em dashes or en dashes in
+prose. Use commas, colons, parentheses, or periods instead. Hyphens are allowed
+only inside compound words (health-first, soil-to-cup).
+
 ${modeRules[mode]}
 
 You may synthesize beyond the provided <evidence> chunks when the question
@@ -443,7 +448,7 @@ ${evidenceBlock}
   const cost_usd = (tokens_in * 3 + tokens_out * 15) / 1_000_000;
 
   return {
-    answer: parsed.answer,
+    answer: stripDashes(parsed.answer),
     mode,
     cited_chunk_ids: parsed.cited_chunk_ids,
     retrieved_chunk_ids: chunks.map((c) => c.id),
