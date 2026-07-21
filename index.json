@@ -10492,6 +10492,21 @@
       "superseded_by": null,
       "parse_confidence": 1.0,
       "ingested_at": "2026-07-21T03:52:07+00:00"
+    },
+    "COLO_MEXICO.pdf": {
+      "source_file": "/home/runner/work/Purity-Research-Database/Purity-Research-Database/COAs/COLO_MEXICO.pdf",
+      "source_hash": "cf11712296d907b0",
+      "processed_path": "Processed/S07102026-52097.json",
+      "report_number": "S07102026-52097",
+      "test_date": "2026-07-20",
+      "sample_name": null,
+      "lot_or_po": null,
+      "product_key": null,
+      "status": "UNRESOLVED",
+      "supersedes": null,
+      "superseded_by": null,
+      "parse_confidence": 1.0,
+      "ingested_at": "2026-07-21T20:17:14+00:00"
     }
   },
   "unresolved_samples": [
@@ -12014,6 +12029,11 @@
       "file": "MXNS-COA-17-02-2026-50217786-0-EN.pdf",
       "sample_name": "APONTE GREEN BAG REGULAR",
       "lot_or_po": "RUSH-SOLUBLE"
+    },
+    {
+      "file": "COLO_MEXICO.pdf",
+      "sample_name": null,
+      "lot_or_po": null
     }
   ],
   "low_confidence_parses": [
@@ -12219,9 +12239,9 @@
       "superseded_by_report": "CHG-42174365-2"
     }
   ],
-  "last_sync_attempt": "2026-07-21T14:51:07+00:00",
+  "last_sync_attempt": "2026-07-21T20:18:02+00:00",
   "last_sync_error": null,
-  "last_successful_sync": "2026-07-21T14:51:07+00:00",
+  "last_successful_sync": "2026-07-21T20:18:02+00:00",
   "quarantined": [
     {
       "file": "3009359-0_COA PURITY 2021.docx",
