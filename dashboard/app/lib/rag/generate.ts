@@ -151,6 +151,13 @@ The <evidence> chunks may include research papers, brand-source content
     customer named. These were chosen by structured lookup, not text similarity,
     so for a "most recent COA" or specific-report question trust them first and
     quote the report number and test date.
+  - A chunk beginning "STRUCTURED COA DATABASE QUERY" is the complete, exact
+    result of a database query, not a sample of nearby chunks. For any "which
+    lots / how many / are there any lots over or under X" question, that block
+    IS the answer: report exactly the lots it lists, and if it says 0 matching
+    lots, state plainly that none do. Never override it with, or add lots from,
+    the semantic chunks, and never conclude "none exceed" from the absence of an
+    over-limit chunk when no query block is present.
 
 ────────────────────────────────────────────────────────────────────────
 RETURN FORMAT

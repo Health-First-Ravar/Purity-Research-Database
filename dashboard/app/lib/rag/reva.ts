@@ -19,7 +19,12 @@ import { anthropic, MODEL_GENERATE } from '../anthropic';
 import { embedOne } from '../voyage';
 import { supabaseAdmin } from '../supabase';
 import { ALL_COA_SCOPES } from '../coa-scope';
-import { detectCoaLookup, fetchCoaLookupChunks } from './coa-lookup';
+import {
+  detectCoaLookup,
+  fetchCoaLookupChunks,
+  detectCoaThreshold,
+  fetchCoaThresholdChunk,
+} from './coa-lookup';
 import { stripDashes } from './sanitize';
 
 export type RevaMode = 'create' | 'analyze' | 'challenge';
@@ -269,6 +274,13 @@ for a "most recent COA" or a specific-report question, trust these first and
 quote their report number and test date. If none are present for such a
 question, say the lookup found no matching certificate.
 
+A chunk beginning "STRUCTURED COA DATABASE QUERY" is the complete, exact result
+of a numeric database query, not a semantic sample. For any "which lots / how
+many / are any over or under X" question it IS the answer: report exactly the
+lots it lists, and if it reports 0 matches, say none match. Do NOT generalize a
+false all-clear from the semantic chunks, and do NOT claim no lot exceeds a
+threshold unless that query block confirms zero matches.
+
 Two rules on lab data. A COA is COMPOSITION evidence, never EFFICACY evidence:
 it shows what is in the coffee, never that the coffee does anything
 physiological, so it can never carry a health claim on its own. And a result
@@ -362,6 +374,15 @@ async function retrieveWeighted(
   // key that embedding distance cannot honour — and inject their
   // already-embedded chunks ahead of the semantic hits. Runs only when the
   // question shows those signals; everything else is byte-for-byte unchanged.
+  // Threshold / aggregate leg: "which lots exceed the OTA ceiling" is a numeric
+  // predicate, not a similarity. Answer it from `coas` directly with one
+  // authoritative, complete result block so Reva stops generalizing a false
+  // all-clear from whichever clean lots semantic search happened to surface.
+  const thresholdSpec = detectCoaThreshold(question);
+  const thresholdChunks: RevaChunk[] = thresholdSpec
+    ? await fetchCoaThresholdChunk(coaClient, thresholdSpec, coaScopes)
+    : [];
+
   const signals = detectCoaLookup(question);
   const structured: RevaChunk[] =
     signals.recency || signals.reportTokens.length
@@ -369,6 +390,7 @@ async function retrieveWeighted(
       : [];
 
   const merged = [
+    ...thresholdChunks,
     ...structured,
     ...((brandRes.data ?? []) as RevaChunk[]),
     ...((evidenceRes.data ?? []) as RevaChunk[]),

@@ -6,7 +6,12 @@ import type { SupabaseClient } from '@supabase/supabase-js';
 import { embedOne } from '../voyage';
 import type { Classification } from './classify';
 import { ALL_COA_SCOPES } from '../coa-scope';
-import { detectCoaLookup, fetchCoaLookupChunks } from './coa-lookup';
+import {
+  detectCoaLookup,
+  fetchCoaLookupChunks,
+  detectCoaThreshold,
+  fetchCoaThresholdChunk,
+} from './coa-lookup';
 
 const CANON_THRESHOLD = Number(process.env.CANON_MATCH_THRESHOLD ?? 0.82);
 const CHUNK_THRESHOLD = Number(process.env.CHUNK_MATCH_THRESHOLD ?? 0.55);
@@ -85,19 +90,30 @@ export async function retrieveChunks(
   // `coas` directly and prepend the certificates' already-embedded chunks.
   // Runs on the same caller client (RLS applies) with the same scope allowlist;
   // `null` (elevated) maps to the full scope list, mirroring coa-scope.
+  const scopes = allowedCoaScopes ?? [...ALL_COA_SCOPES];
+  const structured: ChunkHit[] = [];
+
+  // Threshold / aggregate leg: "which lots exceed X", "how many over the limit".
+  // A numeric predicate is a WHERE clause, not a similarity, so answer it from
+  // `coas` directly and prepend one authoritative, complete result block. This
+  // is what stops the false all-clear semantic retrieval produces here.
+  const threshold = detectCoaThreshold(question);
+  if (threshold) {
+    structured.push(...(await fetchCoaThresholdChunk(client, threshold, scopes)));
+  }
+
+  // Date / specific-report leg — "most recent COA" (an ORDER) and "COA <report#>"
+  // (a KEY), neither of which survives nearest-neighbour ranking.
   const signals = detectCoaLookup(question);
   if (signals.recency || signals.reportTokens.length) {
-    const structured = await fetchCoaLookupChunks(
-      client,
-      signals,
-      allowedCoaScopes ?? [...ALL_COA_SCOPES],
+    structured.push(...(await fetchCoaLookupChunks(client, signals, scopes)));
+  }
+
+  if (structured.length) {
+    const seen = new Set<string>();
+    return [...structured, ...semantic].filter((c) =>
+      seen.has(c.id) ? false : (seen.add(c.id), true),
     );
-    if (structured.length) {
-      const seen = new Set<string>();
-      return [...structured, ...semantic].filter((c) =>
-        seen.has(c.id) ? false : (seen.add(c.id), true),
-      );
-    }
   }
   return semantic;
 }

@@ -22,6 +22,7 @@
 // excluded to match `embed-coas`, which never embeds them — so this leg can
 // only surface certificates the semantic leg could also have surfaced.
 
+import { randomUUID } from 'node:crypto';
 import type { SupabaseClient } from '@supabase/supabase-js';
 
 /** A structured hit, shaped like a retrieved chunk plus its provenance. */
@@ -180,6 +181,166 @@ export async function fetchCoaLookupChunks(
     return out;
   } catch (e) {
     console.error('[coa-lookup] structured leg failed, falling back to semantic only:', e);
+    return [];
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Threshold / aggregate lookup — "which lots exceed X", "how many are over the
+// limit". Semantic search cannot answer these: it returns the top-k nearest
+// chunks, so if those happen to be clean lots the model concludes "none exceed"
+// even when over-limit lots exist. A "which rows satisfy a numeric predicate"
+// question is a WHERE clause, not a similarity, so we run it against `coas`
+// directly and hand back one authoritative, complete result block. Scope is
+// enforced exactly like the date/lookup leg above.
+// ---------------------------------------------------------------------------
+
+export type CoaThresholdSpec = {
+  column: string;
+  label: string;
+  unit: string;
+  op: 'gt' | 'lt';
+  threshold: number;
+};
+
+// Analytes we can evaluate against a numeric ceiling (contaminants) or floor
+// (beneficial compounds). Ceilings/floors mirror Purity's coa_limits and the
+// figures rendered on the reports pages.
+const THRESHOLD_ANALYTES: {
+  keys: RegExp;
+  column: string;
+  label: string;
+  unit: string;
+  ceiling?: number;
+  floor?: number;
+}[] = [
+  { keys: /\b(ochratoxin|ota)\b/i, column: 'ota_ppb', label: 'ochratoxin A', unit: 'ppb', ceiling: 2 },
+  { keys: /\baflatoxins?\b/i, column: 'aflatoxin_ppb', label: 'total aflatoxin', unit: 'ppb', ceiling: 4 },
+  { keys: /\bacrylamide\b/i, column: 'acrylamide_ppb', label: 'acrylamide', unit: 'ppb', ceiling: 400 },
+  { keys: /\b(chlorogenic|cgas?)\b/i, column: 'cga_mg_g', label: 'chlorogenic acids', unit: 'mg/g', floor: 40 },
+];
+
+// Aggregate framing: a set-selecting verb/quantifier plus a lot/report noun, or
+// a bare superlative. "what is the OTA of PROTECT" must NOT trigger; "which lots
+// exceed the OTA limit" and "how many reports are over 2 ppb" must.
+const AGG_INTENT = /\b(which|what|any|list|how\s+many|are\s+there|show|find|are\s+any)\b/i;
+const LOT_NOUN = /\b(lots?|coas?|reports?|samples?|certificates?|batches?|coffees?)\b/i;
+const SUPERLATIVE = /\b(highest|lowest|max(?:imum)?|min(?:imum)?|worst|most)\b/i;
+const OVER = /\b(exceed(?:s|ed|ing)?|over|above|higher|greater|more\s+than|breach(?:es|ed|ing)?|surpass(?:es|ed|ing)?|outside|fail(?:s|ed|ing)?)\b/i;
+const UNDER = /\b(below|under|less\s+than|lower|beneath|short\s+of)\b/i;
+const LIMIT_WORD = /\b(limit|ceiling|threshold|maximum|standard|spec|floor|minimum)\b/i;
+
+/**
+ * Detect a threshold/aggregate COA question and resolve it to a numeric
+ * predicate. Returns null when the question is not of this shape, so the caller
+ * simply falls through to normal retrieval.
+ */
+export function detectCoaThreshold(question: string): CoaThresholdSpec | null {
+  const hasAggregate = AGG_INTENT.test(question) || SUPERLATIVE.test(question);
+  if (!hasAggregate) return null;
+
+  const analyte = THRESHOLD_ANALYTES.find((a) => a.keys.test(question));
+  if (!analyte) return null;
+
+  // Require a lot/report noun or an explicit limit word so a vague mention does
+  // not trigger a full-table scan.
+  if (!LOT_NOUN.test(question) && !LIMIT_WORD.test(question)) return null;
+
+  // An explicit number is only trusted when it carries a unit ("2 ppb"), so
+  // "top 5 lots" does not become a threshold of 5.
+  const numMatch = question.match(/(\d+(?:\.\d+)?)\s*(ppb|mg\/g|%|ppm)\b/i);
+  const explicit = numMatch ? parseFloat(numMatch[1]) : null;
+  const over = OVER.test(question);
+  const under = UNDER.test(question);
+
+  if (analyte.ceiling != null) {
+    // Contaminant: default to exceedance unless the question clearly asks "below".
+    const op: 'gt' | 'lt' = under && !over ? 'lt' : 'gt';
+    return {
+      column: analyte.column,
+      label: analyte.label,
+      unit: analyte.unit,
+      op,
+      threshold: explicit ?? analyte.ceiling,
+    };
+  }
+  if (analyte.floor != null) {
+    // Beneficial compound: default to below-floor unless the question asks "over".
+    const op: 'gt' | 'lt' = over && !under ? 'gt' : 'lt';
+    return {
+      column: analyte.column,
+      label: analyte.label,
+      unit: analyte.unit,
+      op,
+      threshold: explicit ?? analyte.floor,
+    };
+  }
+  return null;
+}
+
+/**
+ * Run the threshold predicate against `coas` and return a single authoritative
+ * evidence chunk listing every matching lot (capped at 50). Same scope
+ * enforcement as `fetchCoaLookupChunks`. Returns [] on error so the request
+ * degrades to plain retrieval rather than failing.
+ */
+export async function fetchCoaThresholdChunk(
+  client: SupabaseClient,
+  spec: CoaThresholdSpec,
+  allowedScopes: string[],
+): Promise<CoaLookupChunk[]> {
+  try {
+    let q = client
+      .from('coas')
+      .select(`report_number, coffee_name, blend, report_date, ${spec.column}`)
+      .is('retired_at', null)
+      .neq('product_scope', 'competitor')
+      .in('product_scope', allowedScopes)
+      .not(spec.column, 'is', null);
+    q = spec.op === 'gt' ? q.gt(spec.column, spec.threshold) : q.lt(spec.column, spec.threshold);
+    const { data, error } = await q
+      .order(spec.column, { ascending: spec.op === 'lt' })
+      .limit(50);
+    if (error) throw error;
+
+    const rows = (data ?? []) as unknown as Record<string, unknown>[];
+    const cmp = spec.op === 'gt' ? 'above' : 'below';
+    const otherSide = spec.op === 'gt' ? 'at or below' : 'at or above';
+
+    const header =
+      `STRUCTURED COA DATABASE QUERY (authoritative and complete, not semantic search).\n` +
+      `Query: Purity lots with a measured ${spec.label} value ${cmp} ${spec.threshold} ${spec.unit}.\n` +
+      `Result: ${rows.length} matching lot(s). This is the COMPLETE list for the records you can see. ` +
+      `Any lot not listed is ${otherSide} ${spec.threshold} ${spec.unit}, or was not tested for ${spec.label} ` +
+      `(a non-detection below the reporting limit is not "${cmp} the limit").`;
+
+    const body = rows.length
+      ? rows
+          .map((r) => {
+            const name = (r.coffee_name as string) || (r.blend as string) || '(unnamed)';
+            const rn = (r.report_number as string) || '(no report number)';
+            const val = r[spec.column];
+            const date = r.report_date ? ` (${r.report_date as string})` : '';
+            return `- ${rn} · ${name} · ${spec.label} ${val} ${spec.unit}${date}`;
+          })
+          .join('\n')
+      : '(no lots match this predicate)';
+
+    return [
+      {
+        id: randomUUID(),
+        source_id: 'coa-threshold-query',
+        heading: null,
+        content: `${header}\n${body}`,
+        similarity: 1,
+        kind: 'coa',
+        title: `Purity COA database: ${spec.label} ${cmp} ${spec.threshold} ${spec.unit}`,
+        chapter: null,
+        via: 'report_number',
+      },
+    ];
+  } catch (e) {
+    console.error('[coa-threshold] structured leg failed, falling back to semantic only:', e);
     return [];
   }
 }
