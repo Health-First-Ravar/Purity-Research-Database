@@ -17,7 +17,7 @@ export default async function RevaIndex() {
   if (!auth.user) return <p className="text-sm text-purity-muted">Sign in.</p>;
   const { data: profile } = await sb.from('profiles').select('role').eq('id', auth.user.id).single();
   if (!isAdmin(profile?.role)) {
-    return <p className="text-sm text-purity-rust">Reva is editor-only.</p>;
+    return <p className="text-sm text-purity-rust">Reva is admin-only.</p>;
   }
 
   const { data: sessRows } = await sb

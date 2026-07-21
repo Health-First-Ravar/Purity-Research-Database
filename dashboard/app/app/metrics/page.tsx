@@ -74,7 +74,7 @@ export default async function MetricsPage({ searchParams }: { searchParams: Prom
   const { data: profile } = await supabase
     .from('profiles').select('role').eq('id', auth.user.id).single();
   if (!isAdmin(profile?.role)) {
-    return <p className="text-sm text-purity-rust">Editor role required.</p>;
+    return <p className="text-sm text-purity-rust">Admin role required.</p>;
   }
 
   const since = new Date(Date.now() - days * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
