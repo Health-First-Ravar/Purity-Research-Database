@@ -203,15 +203,22 @@ export async function POST(req: NextRequest) {
     insufficient_evidence: result.insufficient_evidence,
     escalated,
     escalation_reason,
-    cited_chunks: chunks
-      .filter((c) => result.cited_chunk_ids.includes(c.id))
-      .map((c) => ({
-        id: c.id,
-        title: c.title,
-        kind: c.kind,
-        chapter: c.chapter,
-        similarity: c.similarity,
-      })),
+    // Dedupe citations by document title so the same source is not listed
+    // several times when multiple of its chunks were cited. Chunks arrive in
+    // rank order, so keeping the first occurrence keeps the best-ranked one.
+    cited_chunks: (() => {
+      const seenTitles = new Set<string>();
+      return chunks
+        .filter((c) => result.cited_chunk_ids.includes(c.id))
+        .filter((c) => (seenTitles.has(c.title) ? false : (seenTitles.add(c.title), true)))
+        .map((c) => ({
+          id: c.id,
+          title: c.title,
+          kind: c.kind,
+          chapter: c.chapter,
+          similarity: c.similarity,
+        }));
+    })(),
   });
 }
 

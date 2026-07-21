@@ -77,7 +77,7 @@ export async function retrieveChunks(
     allowed_coa_scopes: allowedCoaScopes,
   });
   if (error) throw error;
-  const semantic = (data ?? []) as ChunkHit[];
+  const semantic = ((data ?? []) as ChunkHit[]).filter(isSubstantiveChunk);
 
   // Structured COA leg — same fix as Reva's COA path. "Most recent COA" is an
   // ORDER (report_date) and "COA <report#>" is a KEY (report_number); neither
@@ -100,6 +100,16 @@ export async function retrieveChunks(
     }
   }
   return semantic;
+}
+
+// Some ingested book-manuscript chunks are blank pages or parser boilerplate
+// ("this page intentionally left blank") that carry no evidence yet can still
+// surface as citations. Drop them before they reach context or the sources list.
+function isSubstantiveChunk(c: ChunkHit): boolean {
+  const t = (c.content ?? '').replace(/\s+/g, ' ').trim();
+  if (t.length < 20) return false;
+  if (/this page (is )?intentionally left blank/i.test(t)) return false;
+  return true;
 }
 
 function kindsForCategory(cat: Classification['category']): string[] | null {
