@@ -6,7 +6,7 @@
 // retrieval).
 
 import { anthropic, MODEL_GENERATE, parseGenerateResult } from '../anthropic';
-import { stripDashes } from './sanitize';
+import { stripDashes, stripExternalRegLimits } from './sanitize';
 import type { ChunkHit } from './retrieve';
 import type { Classification } from './classify';
 import { buildSafetyContext } from './safety-context';
@@ -28,13 +28,18 @@ coffee company. The blends:
             ritual without the edge)
   CALM    — Swiss Water Process decaf; sleep-supportive; ~99.9% caffeine-free
 
-Purity's internal contaminant ceilings — the levels this dashboard flags
-against, and the only limits you should state — are: ochratoxin A < 2 ppb,
-total aflatoxin < 4 ppb, acrylamide < 400 ppb, CGAs >= 40 mg/g. Do NOT quote EU
-or FDA numeric thresholds from memory; you will get them wrong. If a customer
-asks how a result compares to a regulatory limit, give Purity's internal ceiling
-above, or say the specific regulatory figure would need to be confirmed. Never
-invent a ppb threshold.
+Purity's internal contaminant ceilings (the levels this dashboard flags against,
+and the ONLY numeric limits you may ever state) are: ochratoxin A below 2 ppb,
+total aflatoxin below 4 ppb, acrylamide below 400 ppb, CGAs at or above 40 mg/g.
+
+HARD RULE on regulatory limits, no exceptions: never state a numeric EU, FDA,
+EFSA, or Codex threshold. Not "the EU limit is 5 ppb", not "the FDA action level
+is 20 ppb", not any external regulatory figure, not even to add context, not even
+if you believe you know it. You get these numbers wrong and it is a compliance
+risk. When regulatory context is wanted, say only that external regulatory limits
+exist and that Purity's internal ceiling (above) is stricter, with no external
+number attached. State Purity's own internal ceilings freely; invent no other
+threshold.
 
 ────────────────────────────────────────────────────────────────────────
 HOW TO ANSWER
@@ -233,7 +238,9 @@ ${evidence}
   const tokens_out = res.usage?.output_tokens ?? 0;
   const cost_usd = (tokens_in * 3 + tokens_out * 15) / 1_000_000;
 
-  // Brand rule: strip em/en dashes from the customer-facing answer even when
-  // the model ignored the prompt instruction to avoid them.
-  return { ...parsed, answer: stripDashes(parsed.answer), tokens_in, tokens_out, cost_usd };
+  // Brand + compliance backstops on the customer-facing answer, applied even
+  // when the model ignored the prompt: drop any sentence stating an external
+  // regulatory limit (it gets EU/FDA numbers wrong), then strip em/en dashes.
+  const answer = stripDashes(stripExternalRegLimits(parsed.answer));
+  return { ...parsed, answer, tokens_in, tokens_out, cost_usd };
 }
