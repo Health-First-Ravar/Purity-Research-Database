@@ -15,6 +15,7 @@
     "import-bibliography": "tsx scripts/import-bibliography.ts",
     "dedupe-research": "tsx scripts/dedupe-research.ts",
     "verify-rls": "tsx scripts/verify-rls.ts",
+    "seed-test-users": "tsx scripts/seed-test-users.ts",
     "seed-question-topics": "tsx scripts/seed-question-topics.ts",
     "backfill-question-topics": "tsx scripts/backfill-question-topics.ts",
     "migrate": "node --env-file=.env.local scripts/migrate.mjs"
