@@ -10462,6 +10462,36 @@
       "superseded_by": null,
       "parse_confidence": 1.0,
       "ingested_at": "2026-07-19T14:20:48+00:00"
+    },
+    "COA - Bette Buna.pdf": {
+      "source_file": "/home/runner/work/Purity-Research-Database/Purity-Research-Database/COAs/COA - Bette Buna.pdf",
+      "source_hash": "1be9a3dcab84d858",
+      "processed_path": "Processed/CHG-49872102-0.json",
+      "report_number": "CHG-49872102-0",
+      "test_date": "2025-10-31",
+      "sample_name": "Bette Buna Roasted",
+      "lot_or_po": "Bette Buna",
+      "product_key": null,
+      "status": "UNRESOLVED",
+      "supersedes": null,
+      "superseded_by": null,
+      "parse_confidence": 1.0,
+      "ingested_at": "2026-07-21T03:51:16+00:00"
+    },
+    "MXNS-COA-17-02-2026-50217786-0-EN.pdf": {
+      "source_file": "/home/runner/work/Purity-Research-Database/Purity-Research-Database/COAs/MXNS-COA-17-02-2026-50217786-0-EN.pdf",
+      "source_hash": "545004f19598dc00",
+      "processed_path": "Processed/CHG-50217786-0.json",
+      "report_number": "CHG-50217786-0",
+      "test_date": "2026-02-17",
+      "sample_name": "APONTE GREEN BAG REGULAR",
+      "lot_or_po": "RUSH-SOLUBLE",
+      "product_key": null,
+      "status": "UNRESOLVED",
+      "supersedes": null,
+      "superseded_by": null,
+      "parse_confidence": 1.0,
+      "ingested_at": "2026-07-21T03:52:07+00:00"
     }
   },
   "unresolved_samples": [
@@ -11974,6 +12004,16 @@
       "file": "20-914463-0-1-1898469_PT.pdf",
       "sample_name": "GREEN COFFEE",
       "lot_or_po": "LA FLORESTA"
+    },
+    {
+      "file": "COA - Bette Buna.pdf",
+      "sample_name": "Bette Buna Roasted",
+      "lot_or_po": "Bette Buna"
+    },
+    {
+      "file": "MXNS-COA-17-02-2026-50217786-0-EN.pdf",
+      "sample_name": "APONTE GREEN BAG REGULAR",
+      "lot_or_po": "RUSH-SOLUBLE"
     }
   ],
   "low_confidence_parses": [
@@ -12179,9 +12219,9 @@
       "superseded_by_report": "CHG-42174365-2"
     }
   ],
-  "last_sync_attempt": "2026-07-19T14:20:48+00:00",
+  "last_sync_attempt": "2026-07-21T03:52:33+00:00",
   "last_sync_error": null,
-  "last_successful_sync": "2026-07-19T14:20:48+00:00",
+  "last_successful_sync": "2026-07-21T03:52:33+00:00",
   "quarantined": [
     {
       "file": "3009359-0_COA PURITY 2021.docx",
@@ -12342,6 +12382,12 @@
       "file": "carta 995712-EC \u00c1CIDO CLOROG\u00c9NICO Caf\u00e9.pdf",
       "sample_name": null,
       "reason": "zero analytes, no report number"
+    }
+  ],
+  "unreadable": [
+    {
+      "file": "MXNS-COA-14-04-2020-43453407-0 (1).pdf",
+      "reason": "PdfminerException: No /Root object! - Is this really a PDF?"
     }
   ]
 }
