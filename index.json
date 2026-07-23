@@ -8785,9 +8785,9 @@
       "sample_name": "COLD BREW Eurofins Sample: 16637568",
       "lot_or_po": "rt",
       "product_key": null,
-      "status": "UNRESOLVED",
+      "status": "VOID",
       "supersedes": null,
-      "superseded_by": null,
+      "superseded_by": "5424890-0",
       "parse_confidence": 1.0,
       "ingested_at": "2026-07-19T14:19:47+00:00"
     },
@@ -10492,6 +10492,216 @@
       "superseded_by": null,
       "parse_confidence": 1.0,
       "ingested_at": "2026-07-21T03:52:07+00:00"
+    },
+    "COLO_MEXICO.pdf": {
+      "source_file": "/home/runner/work/Purity-Research-Database/Purity-Research-Database/COAs/COLO_MEXICO.pdf",
+      "source_hash": "cf11712296d907b0",
+      "processed_path": "Processed/S07102026-52097.json",
+      "report_number": "S07102026-52097",
+      "test_date": "2026-07-20",
+      "sample_name": null,
+      "lot_or_po": null,
+      "product_key": null,
+      "status": "UNRESOLVED",
+      "supersedes": null,
+      "superseded_by": null,
+      "parse_confidence": 1.0,
+      "ingested_at": "2026-07-21T20:17:14+00:00"
+    },
+    "52097.pdf": {
+      "source_file": "/home/runner/work/Purity-Research-Database/Purity-Research-Database/COAs/52097.pdf",
+      "source_hash": "cf11712296d907b0",
+      "processed_path": "Processed/S07102026-52097.json",
+      "report_number": "S07102026-52097",
+      "test_date": "2026-07-20",
+      "sample_name": null,
+      "lot_or_po": null,
+      "product_key": null,
+      "status": "UNRESOLVED",
+      "supersedes": null,
+      "superseded_by": null,
+      "parse_confidence": 1.0,
+      "ingested_at": "2026-07-22T14:46:55+00:00"
+    },
+    "5347384-0_COA-2.pdf": {
+      "source_file": "/home/runner/work/Purity-Research-Database/Purity-Research-Database/COAs/5347384-0_COA-2.pdf",
+      "source_hash": "ddaaa1824280f7cd",
+      "processed_path": "Processed/5347384-0__S16456532.json",
+      "report_number": "5347384-0",
+      "test_date": "2026-04-29",
+      "sample_name": "Peru Villa Rica-GREEN COFFEE Eurofins Sample: 16456532",
+      "lot_or_po": "rt",
+      "product_key": null,
+      "status": "UNRESOLVED",
+      "supersedes": null,
+      "superseded_by": null,
+      "parse_confidence": 1.0,
+      "ingested_at": "2026-07-22T14:46:56+00:00"
+    },
+    "5398578-0_COA.pdf": {
+      "source_file": "/home/runner/work/Purity-Research-Database/Purity-Research-Database/COAs/5398578-0_COA.pdf",
+      "source_hash": "55822c7102933964",
+      "processed_path": "Processed/5398578-0__S16588065.json",
+      "report_number": "5398578-0",
+      "test_date": "2026-06-10",
+      "sample_name": "CovoyaRwandaCokoCWS_Washed Eurofins Sample: 16588065",
+      "lot_or_po": "rt",
+      "product_key": null,
+      "status": "UNRESOLVED",
+      "supersedes": null,
+      "superseded_by": null,
+      "parse_confidence": 1.0,
+      "ingested_at": "2026-07-22T14:46:56+00:00"
+    },
+    "5398579-0_COA.pdf": {
+      "source_file": "/home/runner/work/Purity-Research-Database/Purity-Research-Database/COAs/5398579-0_COA.pdf",
+      "source_hash": "73d39b01639d4152",
+      "processed_path": "Processed/5398579-0__S16588072.json",
+      "report_number": "5398579-0",
+      "test_date": "2026-06-10",
+      "sample_name": "CovoyaGuat_SHG_Nat Eurofins Sample: 16588072",
+      "lot_or_po": "rt",
+      "product_key": null,
+      "status": "UNRESOLVED",
+      "supersedes": null,
+      "superseded_by": null,
+      "parse_confidence": 1.0,
+      "ingested_at": "2026-07-22T14:46:56+00:00"
+    },
+    "5398580-0_COA.pdf": {
+      "source_file": "/home/runner/work/Purity-Research-Database/Purity-Research-Database/COAs/5398580-0_COA.pdf",
+      "source_hash": "f27f0280118d28d5",
+      "processed_path": "Processed/5398580-0__S16588076.json",
+      "report_number": "5398580-0",
+      "test_date": "2026-06-10",
+      "sample_name": "Atlantic_Mexico Eurofins Sample: 16588076",
+      "lot_or_po": "rt",
+      "product_key": null,
+      "status": "UNRESOLVED",
+      "supersedes": null,
+      "superseded_by": null,
+      "parse_confidence": 1.0,
+      "ingested_at": "2026-07-22T14:46:56+00:00"
+    },
+    "5414705-0_COA-1.pdf": {
+      "source_file": "/home/runner/work/Purity-Research-Database/Purity-Research-Database/COAs/5414705-0_COA-1.pdf",
+      "source_hash": "60363560bd6ea4d0",
+      "processed_path": "Processed/5414705-0__S16637568.json",
+      "report_number": "5414705-0",
+      "test_date": "2026-06-22",
+      "sample_name": "COLD BREW Eurofins Sample: 16637568",
+      "lot_or_po": "rt",
+      "product_key": null,
+      "status": "UNRESOLVED",
+      "supersedes": null,
+      "superseded_by": null,
+      "parse_confidence": 1.0,
+      "ingested_at": "2026-07-22T14:46:56+00:00"
+    },
+    "5424890-0_COA.pdf": {
+      "source_file": "/home/runner/work/Purity-Research-Database/Purity-Research-Database/COAs/5424890-0_COA.pdf",
+      "source_hash": "c065c4e0c367176b",
+      "processed_path": "Processed/5424890-0__S16637568.json",
+      "report_number": "5424890-0",
+      "test_date": "2026-06-30",
+      "sample_name": "COLD BREW Eurofins Sample: 16637568",
+      "lot_or_po": "rt",
+      "product_key": null,
+      "status": "UNRESOLVED",
+      "supersedes": "5414705-0",
+      "superseded_by": null,
+      "parse_confidence": 1.0,
+      "ingested_at": "2026-07-22T14:46:57+00:00"
+    },
+    "5433207-0_COA.pdf": {
+      "source_file": "/home/runner/work/Purity-Research-Database/Purity-Research-Database/COAs/5433207-0_COA.pdf",
+      "source_hash": "24795dc43c0b159c",
+      "processed_path": "Processed/5433207-0__S16720441.json",
+      "report_number": "5433207-0",
+      "test_date": "2026-07-07",
+      "sample_name": "18 Conejo Honduras Eurofins Sample: 16720441",
+      "lot_or_po": "rt",
+      "product_key": null,
+      "status": "UNRESOLVED",
+      "supersedes": null,
+      "superseded_by": null,
+      "parse_confidence": 1.0,
+      "ingested_at": "2026-07-22T14:46:57+00:00"
+    },
+    "5435449-0_COA.pdf": {
+      "source_file": "/home/runner/work/Purity-Research-Database/Purity-Research-Database/COAs/5435449-0_COA.pdf",
+      "source_hash": "5162b1fb2a8601da",
+      "processed_path": "Processed/5435449-0__S16696624.json",
+      "report_number": "5435449-0",
+      "test_date": "2026-07-09",
+      "sample_name": "StardayNutrients Eurofins Sample: 16696624",
+      "lot_or_po": "rt",
+      "product_key": null,
+      "status": "UNRESOLVED",
+      "supersedes": null,
+      "superseded_by": null,
+      "parse_confidence": 1.0,
+      "ingested_at": "2026-07-22T14:46:57+00:00"
+    },
+    "5436438-0_COA-1.pdf": {
+      "source_file": "/home/runner/work/Purity-Research-Database/Purity-Research-Database/COAs/5436438-0_COA-1.pdf",
+      "source_hash": "ca782f709930502e",
+      "processed_path": "Processed/5436438-0__S16720439.json",
+      "report_number": "5436438-0",
+      "test_date": "2026-07-09",
+      "sample_name": "Selva Negra Nicaragua Eurofins Sample: 16720439",
+      "lot_or_po": "rt",
+      "product_key": null,
+      "status": "UNRESOLVED",
+      "supersedes": null,
+      "superseded_by": null,
+      "parse_confidence": 1.0,
+      "ingested_at": "2026-07-22T14:46:58+00:00"
+    },
+    "5436457-0_COA-1.pdf": {
+      "source_file": "/home/runner/work/Purity-Research-Database/Purity-Research-Database/COAs/5436457-0_COA-1.pdf",
+      "source_hash": "7eb92cf200d9f9e4",
+      "processed_path": "Processed/5436457-0__S16720443.json",
+      "report_number": "5436457-0",
+      "test_date": "2026-07-09",
+      "sample_name": "Santa Maria Colombia Eurofins Sample: 16720443",
+      "lot_or_po": "rt",
+      "product_key": null,
+      "status": "UNRESOLVED",
+      "supersedes": null,
+      "superseded_by": null,
+      "parse_confidence": 1.0,
+      "ingested_at": "2026-07-22T14:46:58+00:00"
+    },
+    "5436458-0_COA-1.pdf": {
+      "source_file": "/home/runner/work/Purity-Research-Database/Purity-Research-Database/COAs/5436458-0_COA-1.pdf",
+      "source_hash": "d37c13f10120c45f",
+      "processed_path": "Processed/5436458-0__S16720445.json",
+      "report_number": "5436458-0",
+      "test_date": "2026-07-09",
+      "sample_name": "Eleva Finca Peru Eurofins Sample: 16720445",
+      "lot_or_po": "rt",
+      "product_key": null,
+      "status": "UNRESOLVED",
+      "supersedes": null,
+      "superseded_by": null,
+      "parse_confidence": 1.0,
+      "ingested_at": "2026-07-22T14:46:58+00:00"
+    },
+    "5441456-0_COA.pdf": {
+      "source_file": "/home/runner/work/Purity-Research-Database/Purity-Research-Database/COAs/5441456-0_COA.pdf",
+      "source_hash": "0759ce22b7b57aa4",
+      "processed_path": "Processed/5441456-0__S16740236.json",
+      "report_number": "5441456-0",
+      "test_date": "2026-07-14",
+      "sample_name": "Santa Maria Castillo 2026 Eurofins Sample: 16740236",
+      "lot_or_po": "rt",
+      "product_key": null,
+      "status": "UNRESOLVED",
+      "supersedes": null,
+      "superseded_by": null,
+      "parse_confidence": 1.0,
+      "ingested_at": "2026-07-22T14:46:58+00:00"
     }
   },
   "unresolved_samples": [
@@ -12014,6 +12224,76 @@
       "file": "MXNS-COA-17-02-2026-50217786-0-EN.pdf",
       "sample_name": "APONTE GREEN BAG REGULAR",
       "lot_or_po": "RUSH-SOLUBLE"
+    },
+    {
+      "file": "COLO_MEXICO.pdf",
+      "sample_name": null,
+      "lot_or_po": null
+    },
+    {
+      "file": "52097.pdf",
+      "sample_name": null,
+      "lot_or_po": null
+    },
+    {
+      "file": "5347384-0_COA-2.pdf",
+      "sample_name": "Peru Villa Rica-GREEN COFFEE Eurofins Sample: 16456532",
+      "lot_or_po": "rt"
+    },
+    {
+      "file": "5398578-0_COA.pdf",
+      "sample_name": "CovoyaRwandaCokoCWS_Washed Eurofins Sample: 16588065",
+      "lot_or_po": "rt"
+    },
+    {
+      "file": "5398579-0_COA.pdf",
+      "sample_name": "CovoyaGuat_SHG_Nat Eurofins Sample: 16588072",
+      "lot_or_po": "rt"
+    },
+    {
+      "file": "5398580-0_COA.pdf",
+      "sample_name": "Atlantic_Mexico Eurofins Sample: 16588076",
+      "lot_or_po": "rt"
+    },
+    {
+      "file": "5414705-0_COA-1.pdf",
+      "sample_name": "COLD BREW Eurofins Sample: 16637568",
+      "lot_or_po": "rt"
+    },
+    {
+      "file": "5424890-0_COA.pdf",
+      "sample_name": "COLD BREW Eurofins Sample: 16637568",
+      "lot_or_po": "rt"
+    },
+    {
+      "file": "5433207-0_COA.pdf",
+      "sample_name": "18 Conejo Honduras Eurofins Sample: 16720441",
+      "lot_or_po": "rt"
+    },
+    {
+      "file": "5435449-0_COA.pdf",
+      "sample_name": "StardayNutrients Eurofins Sample: 16696624",
+      "lot_or_po": "rt"
+    },
+    {
+      "file": "5436438-0_COA-1.pdf",
+      "sample_name": "Selva Negra Nicaragua Eurofins Sample: 16720439",
+      "lot_or_po": "rt"
+    },
+    {
+      "file": "5436457-0_COA-1.pdf",
+      "sample_name": "Santa Maria Colombia Eurofins Sample: 16720443",
+      "lot_or_po": "rt"
+    },
+    {
+      "file": "5436458-0_COA-1.pdf",
+      "sample_name": "Eleva Finca Peru Eurofins Sample: 16720445",
+      "lot_or_po": "rt"
+    },
+    {
+      "file": "5441456-0_COA.pdf",
+      "sample_name": "Santa Maria Castillo 2026 Eurofins Sample: 16740236",
+      "lot_or_po": "rt"
     }
   ],
   "low_confidence_parses": [
@@ -12217,11 +12497,16 @@
       "void_file": "COA-19-Mar-19-42174365-1.pdf",
       "void_report_number": "CHG-42174365-1",
       "superseded_by_report": "CHG-42174365-2"
+    },
+    {
+      "void_file": "5414705-0_COA.pdf",
+      "void_report_number": "5414705-0",
+      "superseded_by_report": "5424890-0"
     }
   ],
-  "last_sync_attempt": "2026-07-21T03:52:33+00:00",
+  "last_sync_attempt": "2026-07-22T20:05:21+00:00",
   "last_sync_error": null,
-  "last_successful_sync": "2026-07-21T03:52:33+00:00",
+  "last_successful_sync": "2026-07-22T20:05:21+00:00",
   "quarantined": [
     {
       "file": "3009359-0_COA PURITY 2021.docx",

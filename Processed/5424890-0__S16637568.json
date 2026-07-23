@@ -1,22 +1,24 @@
 {
   "schema_version": 1,
-  "status": "VOID",
+  "status": "UNRESOLVED",
   "product_key": null,
-  "report_number": "5414705-0",
-  "test_date": "2026-06-22",
+  "report_number": "5424890-0",
+  "test_date": "2026-06-30",
   "sample_id": "16637568",
   "sample_name": "COLD BREW Eurofins Sample: 16637568",
   "lot_or_po": "rt",
-  "supersedes": null,
-  "superseded_by": "5424890-0",
+  "supersedes": "5414705-0",
+  "superseded_by": null,
   "lab": "Eurofins (inferred)",
   "serving_size_g": 15.0,
-  "source_file": "/home/runner/work/Purity-Research-Database/Purity-Research-Database/COAs/5414705-0_COA-1.pdf",
-  "source_hash": "60363560bd6ea4d0",
+  "source_file": "/home/runner/work/Purity-Research-Database/Purity-Research-Database/COAs/5424890-0_COA.pdf",
+  "source_hash": "c065c4e0c367176b",
   "parse_confidence": 1.0,
   "parse_notes": [
-    "pages=5 tables=2",
-    "text_rows=43"
+    "pages=5 tables=3",
+    "text_rows=47",
+    "retest:Yeast Plate Count:kept='<10 CFU/g' prior=[{'value_raw': '<10', 'unit_raw': 'CFU/g', 'source_row_text': 'Yeast Plate Count <10 CFU/g'}, {'value_raw': '<10', 'unit_raw': 'CFU/g', 'source_row_text': 'Yeast Plate Count <10 CFU/g'}]",
+    "retest:Mold Plate Count:kept='<10 CFU/g' prior=[{'value_raw': '<10', 'unit_raw': 'CFU/g', 'source_row_text': 'Mold Plate Count <10 CFU/g'}]"
   ],
   "analytes": [
     {
@@ -237,7 +239,18 @@
       "unit_as_reported": "CFU/g",
       "method": null,
       "loq": null,
-      "retest_sequence": 0
+      "retest_sequence": 2
+    },
+    {
+      "analyte": "Mold Plate Count",
+      "panel": "micro",
+      "value_normalized": 10.0,
+      "unit_normalized": "CFU/g",
+      "value_as_reported": "<10",
+      "unit_as_reported": "CFU/g",
+      "method": null,
+      "loq": null,
+      "retest_sequence": 1
     },
     {
       "analyte": "Lead",
@@ -493,5 +506,5 @@
       "retest_sequence": 0
     }
   ],
-  "ingested_at": "2026-07-22T14:46:56+00:00"
+  "ingested_at": "2026-07-22T14:46:57+00:00"
 }
