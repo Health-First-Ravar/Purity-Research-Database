@@ -12,6 +12,7 @@ import {
   detectCoaThreshold,
   fetchCoaThresholdChunk,
 } from './coa-lookup';
+import { CUSTOMER_EXCLUDED_TYPES, type SourceType } from './source-classify';
 
 const CANON_THRESHOLD = Number(process.env.CANON_MATCH_THRESHOLD ?? 0.82);
 const CHUNK_THRESHOLD = Number(process.env.CHUNK_MATCH_THRESHOLD ?? 0.55);
@@ -76,13 +77,21 @@ export async function retrieveChunks(
   const kinds = kindsForCategory(cls.category);
   const { data, error } = await client.rpc('match_chunks', {
     query_embedding: emb as unknown as string,
-    match_count: TOP_K,
+    match_count: TOP_K * 2, // over-fetch; the vetted-source filter below trims back to TOP_K
     source_kinds: kinds,
     min_similarity: CHUNK_THRESHOLD,
     allowed_coa_scopes: allowedCoaScopes,
   });
   if (error) throw error;
-  const semantic = ((data ?? []) as ChunkHit[]).filter(isSubstantiveChunk);
+  // Customer-facing retrieval: drop research sources tagged as non-science
+  // (media, marketing, certificate, competitor) so a health answer is never
+  // backed by a HuffPost article or a competitor's lab test. Reva has its own
+  // retrieval path and is intentionally unaffected. Then trim to TOP_K.
+  const vetted = await dropUnvettedResearch(
+    client,
+    ((data ?? []) as ChunkHit[]).filter(isSubstantiveChunk),
+  );
+  const semantic = vetted.slice(0, TOP_K);
 
   // Structured COA leg — same fix as Reva's COA path. "Most recent COA" is an
   // ORDER (report_date) and "COA <report#>" is a KEY (report_number); neither
@@ -126,6 +135,33 @@ function isSubstantiveChunk(c: ChunkHit): boolean {
   if (t.length < 20) return false;
   if (/this page (is )?intentionally left blank/i.test(t)) return false;
   return true;
+}
+
+// Customer-facing safety filter: research sources carry a `source_type` in
+// sources.metadata (set by ingest via the classifier). Drop the types a customer
+// answer must never cite. Only `research_paper` chunks can carry an excluded
+// type, so other kinds pass untouched. Fails OPEN on a lookup error, since the
+// primary retrieval already succeeded and dropping all evidence on a secondary
+// hiccup is worse than the rare miss the excluded types represent.
+async function dropUnvettedResearch(
+  client: SupabaseClient,
+  chunks: ChunkHit[],
+): Promise<ChunkHit[]> {
+  const researchIds = [
+    ...new Set(chunks.filter((c) => c.kind === 'research_paper').map((c) => c.source_id)),
+  ];
+  if (!researchIds.length) return chunks;
+  const { data, error } = await client.from('sources').select('id, metadata').in('id', researchIds);
+  if (error) {
+    console.error('[retrieve] source_type lookup failed, keeping all chunks:', error.message);
+    return chunks;
+  }
+  const excluded = new Set<string>();
+  for (const s of (data ?? []) as { id: string; metadata: Record<string, unknown> | null }[]) {
+    const t = (s.metadata?.source_type ?? null) as SourceType | null;
+    if (t && CUSTOMER_EXCLUDED_TYPES.has(t)) excluded.add(s.id);
+  }
+  return chunks.filter((c) => !excluded.has(c.source_id));
 }
 
 function kindsForCategory(cat: Classification['category']): string[] | null {

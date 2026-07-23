@@ -11,6 +11,8 @@ import { join, relative, basename } from 'node:path';
 import { createHash } from 'node:crypto';
 import { createClient } from '@supabase/supabase-js';
 import { embed } from '../lib/voyage';
+import { classifySourceType } from '../lib/rag/source-classify';
+import { deriveSourceMetadata } from '../lib/rag/source-metadata';
 
 const KB_ARG = process.argv.indexOf('--kb');
 const DEFAULT_KB = process.env.KB_ROOT || require('node:path').resolve(process.cwd(), '..', '..', 'knowledge-base');
@@ -87,15 +89,38 @@ function chunkText(text: string): { content: string; heading: string | null }[] 
 
 async function upsertSource(args: {
   kind: SourceKind; title: string; relPath: string; sha256: string; chapter: string | null;
+  metadata: Record<string, unknown>; doi: string | null; yearPublished: number | null;
 }) {
   const { data: existing } = await sb
     .from('sources')
-    .select('id, sha256')
+    .select('id, sha256, title, doi, year_published, has_pdf, metadata')
     .eq('path', args.relPath)
     .is('valid_until', null)
     .maybeSingle();
 
+  // Derived bibliography columns are only written for the research pool, so we
+  // never clobber catalog fields on brand/skill/book rows. has_pdf=true because
+  // an ingested research source is full-text queryable.
+  const derivedCols =
+    args.kind === 'research_paper'
+      ? { doi: args.doi, year_published: args.yearPublished, has_pdf: true }
+      : {};
+
   if (existing && existing.sha256 === args.sha256) {
+    // Content unchanged, so no re-embed. Refresh the derived fields (clean title,
+    // DOI, year, source_type) in place so a plain re-run cleans the existing
+    // corpus without a full re-embed pass. Chunks are untouched.
+    const cur = (existing.metadata as Record<string, unknown> | null) ?? {};
+    const mergedMeta = { ...cur, ...args.metadata };
+    const patch: Record<string, unknown> = { title: args.title, metadata: mergedMeta, ...derivedCols };
+    const changed =
+      existing.title !== args.title ||
+      JSON.stringify(cur) !== JSON.stringify(mergedMeta) ||
+      (args.kind === 'research_paper' &&
+        (existing.doi !== args.doi ||
+          existing.year_published !== args.yearPublished ||
+          existing.has_pdf !== true));
+    if (changed) await sb.from('sources').update(patch).eq('id', existing.id);
     return { id: existing.id as string, unchanged: true };
   }
   if (existing) {
@@ -111,6 +136,8 @@ async function upsertSource(args: {
       sha256: args.sha256,
       chapter: args.chapter,
       freshness_tier: args.kind === 'coa' ? 'weekly' : 'stable',
+      metadata: args.metadata,
+      ...derivedCols,
     })
     .select('id')
     .single();
@@ -129,15 +156,34 @@ async function main() {
     const sha = createHash('sha256').update(raw).digest('hex');
     const kind = detectKind(rel);
     const chapter = detectChapter(rel);
-    const title = deriveTitle(raw, basename(rel));
+
+    // Research is the mixed-quality pool: extract real title/DOI/year and tag a
+    // source_type so retrieval can keep customers on vetted science. Brand,
+    // skill, and book sources are already separated by `kind` and keep the
+    // simple heading-based title.
+    let title: string;
+    let doi: string | null = null;
+    let yearPublished: number | null = null;
+    const metadata: Record<string, unknown> = {};
+    if (kind === 'research_paper') {
+      const m = deriveSourceMetadata(raw, basename(rel));
+      title = m.title;
+      doi = m.doi;
+      yearPublished = m.year ? Number.parseInt(m.year, 10) : null;
+      metadata.source_type = classifySourceType(rel, basename(rel), raw.slice(0, 4000));
+    } else {
+      title = deriveTitle(raw, basename(rel));
+    }
 
     if (DRY) {
-      console.log(`[dry] ${rel} kind=${kind} ch=${chapter ?? '-'} sha=${sha.slice(0, 8)}`);
+      console.log(
+        `[dry] ${rel} kind=${kind} type=${metadata.source_type ?? '-'} doi=${doi ?? '-'} year=${yearPublished ?? '-'} ch=${chapter ?? '-'}`,
+      );
       continue;
     }
 
     const { id: source_id, unchanged: same } = await upsertSource({
-      kind, title, relPath: rel, sha256: sha, chapter,
+      kind, title, relPath: rel, sha256: sha, chapter, metadata, doi, yearPublished,
     });
     if (same) { unchanged++; continue; }
     srcCount++;
