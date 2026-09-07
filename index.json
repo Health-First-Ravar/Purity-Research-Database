@@ -7166,13 +7166,13 @@
     "COA-7-Dec-18-41860002-0.pdf": {
       "source_file": "/Users/jeremybehne/code/purity/COAs/COA-7-Dec-18-41860002-0.pdf",
       "source_hash": "6be69bafdce7d5da",
-      "processed_path": "Processed/CHG-41860002-0.json",
+      "processed_path": null,
       "report_number": "CHG-41860002-0",
       "test_date": "2018-12-07",
       "sample_name": "18-114 / Decaf Nicaragua Roasted",
       "lot_or_po": null,
       "product_key": null,
-      "status": "UNRESOLVED",
+      "status": "QUARANTINED",
       "supersedes": null,
       "superseded_by": null,
       "parse_confidence": 1.0,
@@ -12504,9 +12504,9 @@
       "superseded_by_report": "5424890-0"
     }
   ],
-  "last_sync_attempt": "2026-09-07T12:40:49+00:00",
+  "last_sync_attempt": "2026-09-07T22:01:09+00:00",
   "last_sync_error": null,
-  "last_successful_sync": "2026-09-07T12:40:49+00:00",
+  "last_successful_sync": "2026-09-07T22:01:09+00:00",
   "quarantined": [
     {
       "file": "3009359-0_COA PURITY 2021.docx",
