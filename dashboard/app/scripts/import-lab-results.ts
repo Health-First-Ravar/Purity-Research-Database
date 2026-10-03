@@ -15,6 +15,7 @@ import { readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { createClient } from '@supabase/supabase-js';
 import { buildStandard, recordStatus, type LabRecord, type StdRow } from '../lib/lab-status';
+import { trackerView, type BrianOverride, type BrianRecord } from '../lib/lab-snapshot';
 
 const arg = (name: string) => {
   const i = process.argv.indexOf(name);
@@ -28,11 +29,6 @@ const KEY = process.env.SUPABASE_SERVICE_ROLE_KEY;
 if (!URL || !KEY) throw new Error('Supabase URL/service-role key required');
 const sb = createClient(URL, KEY, { auth: { persistSession: false } });
 
-type BrianRecord = {
-  id: string; kind: string; product?: string | null; name?: string; desc?: string; lab?: string;
-  stype?: string; date?: string; status?: string; order?: string; sample?: string; report?: string;
-  src?: string; link?: string; r?: Record<string, { v?: number; q?: string; raw?: string; rt?: boolean }[]>;
-};
 type BrianClaim = {
   id: string; claim: string; category?: string; channel?: string; src?: string; risk?: string;
   products?: string[]; count?: number; evidence_needed?: string; evidence_type?: string; notes?: string;
@@ -41,6 +37,7 @@ type BrianClaim = {
 type Snapshot = {
   snapshot_id: string; taken_at: string; source: { name: string; url: string };
   standard: StdRow[]; records: BrianRecord[]; claims: BrianClaim[];
+  overrides?: Record<string, BrianOverride>;
 };
 
 const KINDS = new Set(['product', 'green', 'rd', 'roasted-other', 'competitor']);
@@ -101,11 +98,13 @@ async function main() {
   const statusCounts: Record<string, number> = {};
   let certMatched = 0;
 
-  const rows = snap.records.map((r) => {
+  // The records as Brian's tracker shows them: his de-duplication and overrides.
+  const viewRecs = trackerView(snap.records, snap.overrides || {});
+  const rows = viewRecs.map((r) => {
     const rec: LabRecord = {
       id: r.id, kind: r.kind, product: r.product ?? null, name: r.name ?? null, description: r.desc ?? null,
       sample_type: r.stype ?? null, status: r.status ?? null, test_date: r.date ?? null, lab: r.lab ?? null,
-      analytes: (r.r || {}) as LabRecord['analytes'],
+      analytes: (r.r || {}) as LabRecord['analytes'], excluded: !!r.excluded, excluded_reason: r.excluded_reason ?? null,
     };
     const computed = recordStatus(rec, std);
     statusCounts[computed] = (statusCounts[computed] || 0) + 1;
@@ -117,6 +116,7 @@ async function main() {
       sample_type: rec.sample_type, test_date: rec.test_date, status: rec.status,
       order_number: r.order ?? null, sample_number: r.sample ?? null, report_number: r.report ?? null,
       source: r.src ?? null, analytes: rec.analytes, computed_status: computed, certificate_url: cert,
+      excluded: !!r.excluded, excluded_reason: r.excluded_reason ?? null, original_kind: r.original_kind,
       snapshot_id: snap.snapshot_id, synced_at: new Date().toISOString(),
     };
   });
@@ -128,8 +128,12 @@ async function main() {
     snapshot_id: snap.snapshot_id, synced_at: new Date().toISOString(),
   }));
 
-  const detail = { status_counts: statusCounts, certificates_matched: certMatched, source: snap.source?.url };
-  console.log(`[import-lab-results] ${rows.length} records, ${claims.length} claims, ${snap.standard.length} standard rows`);
+  const detail = {
+    status_counts: statusCounts, certificates_matched: certMatched, source: snap.source?.url,
+    overrides_applied: Object.keys(snap.overrides || {}).length, deduplicated: snap.records.length - viewRecs.length,
+    excluded: viewRecs.filter((r) => r.excluded).length,
+  };
+  console.log(`[import-lab-results] ${rows.length} records (${detail.deduplicated} duplicates dropped, ${detail.overrides_applied} overrides, ${detail.excluded} set aside), ${claims.length} claims, ${snap.standard.length} standard rows`);
   console.log(`[import-lab-results] ${certMatched} records linked to an existing certificate PDF`);
   console.log('[import-lab-results] computed status:', statusCounts);
   if (DRY) { console.log('[import-lab-results] dry run, nothing written'); return; }

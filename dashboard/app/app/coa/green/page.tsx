@@ -30,7 +30,7 @@ export default async function GreenLotsPage() {
                 return (
                   <tr key={r.id}>
                     <td className="whitespace-nowrap">{niceDate(r.test_date)}</td>
-                    <td>{r.name}<div className="text-xs text-purity-muted dark:text-purity-mist">{r.lab}</div></td>
+                    <td>{r.name}<div className="text-xs text-purity-muted dark:text-purity-mist">{r.lab}</div>{r.excluded && <div className="text-xs text-purity-muted dark:text-purity-mist">Not scored: {r.excluded_reason || 'set aside by CERO'}</div>}</td>
                     <td><StatusChip status={rl.status} label={rl.label} /></td>
                     <td className="text-xs">
                       {KEY.filter((c) => r.analytes?.[c]).map((c) => {

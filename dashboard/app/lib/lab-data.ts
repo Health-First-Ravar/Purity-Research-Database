@@ -32,7 +32,7 @@ export type LabData = { recs: LabRecord[]; std: Standard; syncedAt: string | nul
 export async function loadLab(sb: SupabaseClient): Promise<LabData> {
   const [{ data: rows, error }, { data: stdRows, error: e2 }] = await Promise.all([
     sb.from('lab_results')
-      .select('id, kind, product, name, description, sample_type, status, test_date, lab, analytes, certificate_url, order_number, report_number, sample_number, synced_at')
+      .select('id, kind, product, name, description, sample_type, status, test_date, lab, analytes, certificate_url, order_number, report_number, sample_number, excluded, excluded_reason, synced_at')
       .order('test_date', { ascending: false, nullsFirst: false })
       .order('id', { ascending: false })
       .range(0, 4999),

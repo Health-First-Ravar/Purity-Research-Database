@@ -127,6 +127,7 @@ html:not(.dark):not(.light) body { /* neither class — let prefers-color-scheme
 .st-detect  { background: #E8EEFA; color: #2F5AA8; }
 .st-cleared { background: #E6F1E9; color: #3B7D4F; }
 .st-exempt  { background: #F1F2F2; color: #8A8F8E; }
+.st-excluded { background: #EEF1F1; color: #5F6F6D; }
 .st-pending { background: #EEF1F1; color: #5F6F6D; border: 1px dashed #5F6F6D; }
 html.dark .st-fail    { background: #3D1C18; color: #FF8A7A; }
 html.dark .st-watch   { background: #3A2D12; color: #F0B955; }
@@ -137,6 +138,7 @@ html.dark .st-info    { background: #222D2C; color: #A9B8B5; }
 html.dark .st-detect  { background: #1C2740; color: #8FB2F5; }
 html.dark .st-cleared { background: #1A2E21; color: #8FD3A3; }
 html.dark .st-exempt  { background: #242A29; color: #A9ADAC; }
+html.dark .st-excluded { background: #222D2C; color: #A9B8B5; }
 html.dark .st-pending { background: #222D2C; color: #A9B8B5; border-color: #A9B8B5; }
 
 /* Printable substantiation packet: hide chrome, keep the content. */

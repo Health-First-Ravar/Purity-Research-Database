@@ -22,6 +22,8 @@ export type LabRecord = {
   lab: string | null;
   analytes: AnalyteMap;
   certificate_url?: string | null;
+  excluded?: boolean | null;
+  excluded_reason?: string | null;
   order_number?: string | null;
   report_number?: string | null;
   sample_number?: string | null;
@@ -49,14 +51,14 @@ export function buildStandard(rows: StdRow[]): Standard {
 }
 
 export type Status =
-  | 'exempt' | 'info' | 'nd' | 'pass' | 'cleared' | 'detect' | 'incon' | 'watch' | 'fail' | 'pending';
+  | 'excluded' | 'exempt' | 'info' | 'nd' | 'pass' | 'cleared' | 'detect' | 'incon' | 'watch' | 'fail' | 'pending';
 
 export const RANK: Record<Status, number> = {
-  exempt: 0, info: 0, nd: 1, pass: 2, cleared: 3, detect: 4, incon: 5, watch: 6, fail: 7, pending: 0,
+  excluded: 0, exempt: 0, info: 0, nd: 1, pass: 2, cleared: 3, detect: 4, incon: 5, watch: 6, fail: 7, pending: 0,
 };
 
 export const LABEL: Record<Status, string> = {
-  exempt: 'Not scored (Sacred Cups)', fail: 'Over limit', watch: 'Near limit', incon: 'LOQ above limit',
+  excluded: 'Not scored (set aside)', exempt: 'Not scored (Sacred Cups)', fail: 'Over limit', watch: 'Near limit', incon: 'LOQ above limit',
   detect: 'Detected', cleared: 'Cleared on retest', pass: 'Within limit', nd: 'Not detected', info: 'Info',
   pending: 'Awaiting sample',
 };
@@ -93,9 +95,9 @@ export function evalOne(x: Reading | undefined, code: string, rec: LabRecord, st
     if (g.rule === 'floor' && g.value != null) {
       if (v == null || lt) return 'info';
       if (code === 'CAF' && isDecaf(rec)) return v >= 0.1 ? 'fail' : 'pass';
-      // Parity with Brian's tracker: his GREEN table marks CGA as src:'Required' but his check reads
-      // g.req, which is never set, so every shortfall shows as near limit. Mirror that until he
-      // fixes it (flagged to him); then this becomes `g.required ? 'fail' : 'watch'`.
+      // Deliberate in Brian's tracker (see its Standard tab): CGA below 3.0% and caffeine below
+      // 0.9% are flagged for review, not failed, because labs report CGA on different bases
+      // (as-is vs dry, 5-CQA vs total isomers). Decaf caffeine is the exception above.
       if (v < g.value) return 'watch';
       return 'pass';
     }
@@ -117,6 +119,7 @@ export type AnalyteResult = { status: Status; reading: Reading; floor: boolean }
 export function analyteStatus(rec: LabRecord, code: string, std: Standard): AnalyteResult | null {
   const arr = rec.analytes?.[code];
   if (!arr || !arr.length) return null;
+  if (rec.excluded) return { status: 'excluded', reading: arr.filter((x) => !x.rt)[0] || arr[0], floor: false };
   if (isSacredCups(rec)) return { status: 'exempt', reading: arr.filter((x) => !x.rt)[0] || arr[0], floor: false };
   const orig = arr.filter((x) => !x.rt);
   const ret = arr.filter((x) => x.rt);
@@ -140,6 +143,7 @@ export function analyteStatus(rec: LabRecord, code: string, std: Standard): Anal
 
 export function recordStatus(rec: LabRecord, std: Standard): Status {
   if (rec.status === 'Awaiting sample') return 'pending';
+  if (rec.excluded) return 'excluded';
   if (isSacredCups(rec)) return 'exempt';
   let w: Status = 'info';
   for (const c of Object.keys(rec.analytes || {})) {

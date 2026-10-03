@@ -124,7 +124,7 @@ export default async function ProductPage({ params }: { params: Promise<{ produc
                   return (
                     <tr key={r.id}>
                       <td className="whitespace-nowrap">{niceDate(r.test_date)}</td>
-                      <td>{r.description || r.name}<div className="text-xs text-purity-muted dark:text-purity-mist">{[r.lab, r.order_number, r.report_number].filter(Boolean).join(' · ')}</div></td>
+                      <td>{r.description || r.name}<div className="text-xs text-purity-muted dark:text-purity-mist">{[r.lab, r.order_number, r.report_number].filter(Boolean).join(' · ')}</div>{r.excluded && <div className="text-xs text-purity-muted dark:text-purity-mist">Not scored: {r.excluded_reason || 'set aside by CERO'}</div>}</td>
                       <td><StatusChip status={rl.status} label={rl.label} /></td>
                       <td className="text-xs">
                         {Object.keys(r.analytes || {}).filter((c) => std.finished[c]).slice(0, 10).map((c) => {
