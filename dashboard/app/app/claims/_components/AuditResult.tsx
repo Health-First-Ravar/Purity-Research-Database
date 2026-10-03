@@ -4,6 +4,7 @@
 // suggested rewrite (copyable), cited chunks (collapsible).
 
 import { useState } from 'react';
+import { claimVerdict, VERDICT_CHIP, VERDICT_LABEL, type ClaimVerdict } from '@/lib/claim-verdict';
 
 export type AuditResponse = {
   id: string;
@@ -30,6 +31,16 @@ export type AuditResponse = {
   }[];
   cost_usd: number;
   latency_ms: number;
+  verdict?: ClaimVerdict;
+  lab_claim_id?: string | null;
+};
+
+const VERDICT_HELP: Record<ClaimVerdict, string> = {
+  do_not_use: 'Disease language (cure, prevent, treat). Do not publish this wording; use the rewrite.',
+  reword: 'Flagged wording. Use the rewrite or fix the flagged points before publishing.',
+  weak: 'No wording flags, but the evidence behind it is mechanistic, animal or in vitro, or missing. Hedge it, or route it to Sage.',
+  supported: 'No wording flags and backed by human evidence as worded. Keep the hedging.',
+  no_health_claim: 'No health claim found. Check product, testing or sourcing claims against records, not research.',
 };
 
 const LAYERS: Array<{
@@ -64,8 +75,21 @@ export function AuditResult({ result }: { result: AuditResponse }) {
     practical: result.practical_engaged,
   };
 
+  const verdict = result.verdict ?? claimVerdict(result);
+
   return (
     <div className="space-y-4">
+      <div className="hub-card">
+        <div className="flex flex-wrap items-center gap-2">
+          <span className="text-xs font-semibold uppercase tracking-wider text-purity-muted dark:text-purity-mist">Verdict</span>
+          <span className={`st ${VERDICT_CHIP[verdict]}`}>{VERDICT_LABEL[verdict]}</span>
+        </div>
+        <p className="mt-2 text-sm text-purity-muted dark:text-purity-mist">{VERDICT_HELP[verdict]}</p>
+        {result.lab_claim_id && (
+          <p className="mt-1 text-xs text-purity-muted dark:text-purity-mist">Saved as the research verdict for library claim {result.lab_claim_id}.</p>
+        )}
+      </div>
+
       <div className="rounded-lg border border-purity-bean/10 bg-white p-4 dark:border-purity-paper/10 dark:bg-purity-shade">
         <div className="mb-3 text-xs uppercase tracking-wide text-purity-muted dark:text-purity-mist">
           Compound Reasoning Stack
@@ -136,7 +160,7 @@ export function AuditResult({ result }: { result: AuditResponse }) {
           <div className="mt-3 text-xs text-purity-muted dark:text-purity-mist">
             <span className="uppercase tracking-wide">Evidence tier:</span>{' '}
             <span className="font-medium text-purity-bean dark:text-purity-paper">
-              {result.evidence_tier} — {TIER_LABEL[result.evidence_tier]}
+              {result.evidence_tier}: {TIER_LABEL[result.evidence_tier]}
             </span>
           </div>
         )}

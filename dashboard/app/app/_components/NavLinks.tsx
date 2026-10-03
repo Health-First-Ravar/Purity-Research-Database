@@ -1,13 +1,9 @@
 'use client';
 
-// Top-nav with role-based visibility and three click-to-open groups:
-//   Customer Questions  — heatmap, canon, editor queue
-//   Research            — ask reva (admin only), bibliography, atlas
-//   Admin               — metrics, users
-//
-// Flat top-level items: Research Hub (chat), Reports, Assign products
-// (staff only), Audit.
-// Each role sees only what they're entitled to.
+// Top nav: the Research Hub's five areas plus Home. Admin is staff only; each
+// area's own section tabs (Claims, Research library, Admin) live in the area.
+// Old pages (Reports, Assign products, Limits) stay reachable from Admin until
+// the switch-over. Each page still enforces its own access.
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
@@ -21,52 +17,18 @@ type Group     = { kind: 'group'; label: string; items: GroupItem[]; visibleTo: 
 
 const ALL: Exclude<Role, null>[]    = ['customer_service', 'editor', 'admin'];
 const STAFF: Exclude<Role, null>[]  = ['editor', 'admin'];
-const CHAT_OK: Exclude<Role, null>[] = ['customer_service', 'admin'];
-const ADMIN: Exclude<Role, null>[]  = ['admin'];
 
 const SECTIONS: (FlatItem | Group)[] = [
-  // Research Hub overhaul: Home and COA quick view (Brian's data) lead the nav.
-  { kind: 'item', href: '/',             label: 'Home',           visibleTo: ALL },
-  { kind: 'item', href: '/coa',          label: 'COA quick view', visibleTo: ALL },
-  { kind: 'item', href: '/chat',         label: 'Ask',            visibleTo: CHAT_OK },
-  { kind: 'item', href: '/reports',      label: 'Reports',      visibleTo: ALL },
-  // Staff-only working queue. Sits next to Reports because it operates on the
-  // same records, and flat rather than nested because it was unreachable
-  // before — burying it in a group is how it stays unfound.
-  { kind: 'item', href: '/reports/assign', label: 'Assign products', visibleTo: STAFF },
-  { kind: 'item', href: '/audit',        label: 'Audit',        visibleTo: ALL },
-  {
-    kind: 'group',
-    label: 'Customer Questions',
-    visibleTo: STAFF,
-    items: [
-      { href: '/heatmap',      label: 'Heatmap' },
-      { href: '/editor/canon', label: 'Canon' },
-      { href: '/editor',       label: 'Editor queue' },
-    ],
-  },
-  {
-    kind: 'group',
-    label: 'Research',
-    visibleTo: STAFF,
-    items: [
-      { href: '/reva',         label: 'Ask Reva',     visibleTo: ADMIN },
-      { href: '/bibliography', label: 'Bibliography' },
-      { href: '/atlas',        label: 'Atlas' },
-    ],
-  },
-  // Bibliography also flat for customer_service (no Research group for them).
-  { kind: 'item', href: '/bibliography', label: 'Bibliography', visibleTo: ['customer_service'] },
-  {
-    kind: 'group',
-    label: 'Admin',
-    visibleTo: ADMIN,
-    items: [
-      { href: '/metrics',      label: 'Metrics' },
-      { href: '/editor/users', label: 'Users' },
-    ],
-  },
+  { kind: 'item', href: '/',        label: 'Home',             visibleTo: ALL },
+  { kind: 'item', href: '/chat',    label: 'Ask',              visibleTo: ALL },
+  { kind: 'item', href: '/coa',     label: 'COA quick view',   visibleTo: ALL },
+  { kind: 'item', href: '/claims',  label: 'Claims',           visibleTo: ALL },
+  { kind: 'item', href: '/library', label: 'Research library', visibleTo: ALL },
+  { kind: 'item', href: '/admin',   label: 'Admin',            visibleTo: STAFF },
 ];
+
+// Admin's tabs cover pages that keep their old URLs for now.
+const ADMIN_PATHS = ['/admin', '/editor', '/heatmap', '/metrics'];
 
 export function NavLinks({ role }: { role: Role }) {
   const pathname = usePathname() ?? '';
@@ -102,6 +64,7 @@ export function NavLinks({ role }: { role: Role }) {
 
 function isActive(pathname: string, href: string): boolean {
   if (href === '/') return pathname === '/';
+  if (href === '/admin') return ADMIN_PATHS.some((p) => pathname === p || pathname.startsWith(p + '/'));
   return pathname === href || pathname.startsWith(href + '/');
 }
 

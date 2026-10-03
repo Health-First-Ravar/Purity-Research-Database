@@ -34,7 +34,7 @@ function newSessionId() {
     : `sess_${Date.now()}_${Math.random().toString(36).slice(2)}`;
 }
 
-export default function ChatClient({ paperCount, initialQuestion }: { paperCount?: number | null; initialQuestion?: string }) {
+export default function ChatClient({ paperCount, initialQuestion, deepMode }: { paperCount?: number | null; initialQuestion?: string; deepMode?: boolean }) {
   const [turns, setTurns] = useState<Turn[]>([]);
   // Prefilled when arriving from the Home ask box (/chat?q=...).
   const [input, setInput] = useState(initialQuestion ?? '');
@@ -136,7 +136,7 @@ export default function ChatClient({ paperCount, initialQuestion }: { paperCount
     <div className="grid gap-6 lg:grid-cols-[1fr,320px]">
       <section className="flex flex-col">
         <div className="mb-4 flex flex-wrap items-center justify-between gap-2">
-          <h1 className="font-serif text-2xl">Research Hub</h1>
+          <h1 className="font-serif text-2xl">Ask</h1>
           <button
             onClick={resetSession}
             className="rounded-md border border-purity-bean/20 px-3 py-1.5 text-xs text-purity-muted transition hover:bg-purity-bean/5 dark:border-purity-paper/20 dark:text-purity-mist dark:hover:bg-purity-paper/5"
@@ -274,6 +274,15 @@ export default function ChatClient({ paperCount, initialQuestion }: { paperCount
           Context window: last 3 turns within this session. Resetting clears context. Each message
           is logged for editor review and canon improvement.
         </p>
+        {deepMode && (
+          <>
+            <h2 className="mb-2 mt-5 font-serif text-base">Deep mode</h2>
+            <p className="text-xs text-purity-muted dark:text-purity-mist">
+              For long-form analysis with the full research stack, use{' '}
+              <a href="/reva" className="font-semibold underline">Reva</a> (admins only).
+            </p>
+          </>
+        )}
         <h2 className="mb-2 mt-5 font-serif text-base">Suggested prompts</h2>
         <ul className="space-y-1.5 text-xs">
           {SUGGESTED.map((s) => (

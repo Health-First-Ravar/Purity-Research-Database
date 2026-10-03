@@ -1,11 +1,11 @@
-// Research Hub — server-component shell that role-gates and renders the
-// client chat UI. Customer service + admin can use this; editor cannot
-// (editor is back-office, not customer-facing).
+// Ask: server-component shell that role-gates and renders the client chat UI.
+// Everyone with a role can use it (Research Hub overhaul); deep mode (Reva) is
+// linked for admins only.
 
 import { cookies } from 'next/headers';
 import { redirect } from 'next/navigation';
 import { supabaseServer } from '@/lib/supabase';
-import { canChat } from '@/lib/auth-roles';
+import { canChat, isAdmin } from '@/lib/auth-roles';
 import ChatClient from './_components/ChatClient';
 
 export const dynamic = 'force-dynamic';
@@ -19,8 +19,8 @@ export default async function ResearchHubPage({ searchParams }: { searchParams: 
   const { data: profile } = await supabase
     .from('profiles').select('role').eq('id', auth.user.id).single();
   if (!canChat(profile?.role)) {
-    // Editor lands here. Send them to a surface they actually have access to.
-    redirect('/editor');
+    // No recognised role: nothing here they may use.
+    redirect('/');
   }
 
   // The intro copy used to hardcode "34 research papers" — the count from
@@ -35,5 +35,11 @@ export default async function ResearchHubPage({ searchParams }: { searchParams: 
     .from('bibliography_view')
     .select('*', { count: 'exact', head: true });
 
-  return <ChatClient paperCount={paperCount ?? null} initialQuestion={typeof q === 'string' ? q.slice(0, 500) : ''} />;
+  return (
+    <ChatClient
+      paperCount={paperCount ?? null}
+      initialQuestion={typeof q === 'string' ? q.slice(0, 500) : ''}
+      deepMode={isAdmin(profile?.role)}
+    />
+  );
 }

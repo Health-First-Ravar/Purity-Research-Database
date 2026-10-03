@@ -20,7 +20,7 @@ export default async function AtlasTriagePage() {
     .select('role')
     .eq('id', auth.user.id)
     .single();
-  if (!hasElevatedAccess(profile?.role)) redirect('/atlas');
+  if (!hasElevatedAccess(profile?.role)) redirect('/library/topics');
 
   const { data: branches } = await supabase
     .from('kb_atlas_branches')
@@ -36,7 +36,7 @@ export default async function AtlasTriagePage() {
             Route unmapped topics to their branch · review auto-discovered cross-link candidates.
           </p>
         </div>
-        <Link href="/atlas" className="text-xs text-purity-muted hover:text-purity-green dark:text-purity-mist dark:hover:text-purity-aqua">
+        <Link href="/library/topics" className="text-xs text-purity-muted hover:text-purity-green dark:text-purity-mist dark:hover:text-purity-aqua">
           ← back to atlas
         </Link>
       </div>

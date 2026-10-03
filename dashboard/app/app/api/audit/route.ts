@@ -1,11 +1,14 @@
-// POST /api/audit — Bioavailability Gap Detector endpoint.
-// Auth required. Persists to public.claim_audits (RLS scoped per user; editor sees all).
+// POST /api/audit — claim check (Bioavailability Gap Detector) for Claims > Check.
+// Auth required; everyone may check. Persists to public.claim_audits (RLS scoped
+// per user; editor sees all). With claim_id (a claim from Brian's library) the
+// derived verdict is also saved as that claim's research verdict.
 
 import { NextResponse } from 'next/server';
 import { cookies } from 'next/headers';
 import { supabaseServer, supabaseAdmin } from '@/lib/supabase';
 import { auditClaim, AuditUnparseableError, type AuditContext } from '@/lib/rag/audit-claim';
 import { checkChatRateLimit } from '@/lib/rate-limit';
+import { claimVerdict } from '@/lib/claim-verdict';
 
 export const dynamic = 'force-dynamic';
 
@@ -16,9 +19,9 @@ export async function POST(req: Request) {
   const { data: auth } = await sb.auth.getUser();
   if (!auth.user) return NextResponse.json({ error: 'unauthorized' }, { status: 401 });
 
-  let body: { draft?: string; context?: string };
+  let body: { draft?: string; context?: string; claim_id?: string };
   try {
-    body = (await req.json()) as { draft?: string; context?: string };
+    body = (await req.json()) as { draft?: string; context?: string; claim_id?: string };
   } catch {
     return NextResponse.json({ error: 'invalid_json' }, { status: 400 });
   }
@@ -59,10 +62,19 @@ export async function POST(req: Request) {
     throw e;
   }
 
+  const verdict = claimVerdict(audit);
+
+  // A library claim id must exist; anything else is ignored rather than stored.
+  const adb = supabaseAdmin();
+  let labClaimId: string | null = null;
+  if (typeof body.claim_id === 'string' && /^[A-Za-z0-9_-]{1,40}$/.test(body.claim_id)) {
+    const { data: claim } = await adb.from('lab_claims').select('id').eq('id', body.claim_id).maybeSingle();
+    labClaimId = claim?.id ?? null;
+  }
+
   // Persist with admin client so we always insert (RLS still allows
   // self-insert by the user, but the admin path skips the policy round-trip
   // and lets us include user_id explicitly).
-  const adb = supabaseAdmin();
   const { data: row, error } = await adb
     .from('claim_audits')
     .insert({
@@ -84,6 +96,8 @@ export async function POST(req: Request) {
       tokens_out: audit.tokens_out,
       cost_usd: audit.cost_usd,
       latency_ms: audit.latency_ms,
+      lab_claim_id: labClaimId,
+      verdict,
     })
     .select('id, created_at')
     .single();
@@ -92,9 +106,21 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: 'insert_failed', message: error.message, audit }, { status: 500 });
   }
 
+  // The latest check is the claim's research verdict. Only the Hub's own
+  // columns are written; Brian's claim fields are never touched here.
+  if (labClaimId) {
+    const { error: vErr } = await adb
+      .from('lab_claims')
+      .update({ research_verdict: verdict, research_audit_id: row.id, research_checked_at: row.created_at })
+      .eq('id', labClaimId);
+    if (vErr) console.error('[audit] saving research verdict failed:', vErr.message);
+  }
+
   return NextResponse.json({
     id: row.id,
     created_at: row.created_at,
     ...audit,
+    verdict,
+    lab_claim_id: labClaimId,
   });
 }

@@ -51,12 +51,12 @@ export default async function HomePage() {
               {EXAMPLES.map((q) => (
                 <Link key={q} href={`/chat?q=${encodeURIComponent(q)}`} className="rounded-full border border-purity-line px-3 py-1 text-sm hover:border-purity-aqua hover:text-purity-teal dark:border-purity-rule">{q}</Link>
               ))}
-              <Link href="/audit" className="rounded-full border border-purity-line px-3 py-1 text-sm hover:border-purity-aqua hover:text-purity-teal dark:border-purity-rule">Check a claim</Link>
+              <Link href="/claims/check" className="rounded-full border border-purity-line px-3 py-1 text-sm hover:border-purity-aqua hover:text-purity-teal dark:border-purity-rule">Check a claim</Link>
             </div>
           </>
         ) : (
           <p className="text-sm">
-            Claim checks run in <Link className="font-semibold text-purity-teal underline dark:text-purity-glow" href="/audit">Check a claim</Link>; escalated questions are in the <Link className="font-semibold text-purity-teal underline dark:text-purity-glow" href="/editor">review queue</Link>.
+            Claim checks run in <Link className="font-semibold text-purity-teal underline dark:text-purity-glow" href="/claims/check">Check a claim</Link>; escalated questions are in the <Link className="font-semibold text-purity-teal underline dark:text-purity-glow" href="/editor">review queue</Link>.
           </p>
         )}
       </Card>

@@ -22,7 +22,11 @@ export function hasElevatedAccess(role: DbRole): boolean {
   return role === 'admin' || role === 'editor';
 }
 
-/** Customer-facing chat (Research Hub). Allowed for customer_service and admin only — NOT editor. */
+/**
+ * Ask (/chat). Everyone, per the Research Hub overhaul plan (2026-10-03):
+ * editors were excluded when chat was customer-service only; Ask now also
+ * answers research and COA questions. Deep mode (Reva) stays admin only.
+ */
 export function canChat(role: DbRole): boolean {
-  return role === 'admin' || role === 'customer_service' || role === 'user';
+  return role === 'admin' || role === 'editor' || role === 'researcher' || role === 'customer_service' || role === 'user';
 }

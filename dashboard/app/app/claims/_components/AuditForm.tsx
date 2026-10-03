@@ -20,9 +20,18 @@ const EXAMPLES = [
   },
 ];
 
-export function AuditForm() {
-  const [draft, setDraft] = useState('');
-  const [context, setContext] = useState('newsletter');
+export function AuditForm({
+  initialDraft = '',
+  initialContext = 'newsletter',
+  claimId,
+}: {
+  initialDraft?: string;
+  initialContext?: string;
+  /** Library claim being checked; its research verdict is saved with the audit. */
+  claimId?: string;
+}) {
+  const [draft, setDraft] = useState(initialDraft);
+  const [context, setContext] = useState(initialContext);
   const [pending, startTransition] = useTransition();
   const [result, setResult] = useState<AuditResponse | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -38,7 +47,7 @@ export function AuditForm() {
         const res = await fetch('/api/audit', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ draft, context }),
+          body: JSON.stringify({ draft, context, claim_id: claimId }),
         });
         const j = await res.json().catch(() => ({}));
         if (!res.ok) {
@@ -86,7 +95,7 @@ export function AuditForm() {
             onClick={submit}
             className="ml-auto rounded-md bg-purity-bean px-4 py-1.5 text-xs text-purity-cream disabled:opacity-50 dark:bg-purity-aqua dark:text-purity-ink"
           >
-            {pending ? 'Auditing...' : 'Audit'}
+            {pending ? 'Checking...' : 'Check claim'}
           </button>
         </div>
 

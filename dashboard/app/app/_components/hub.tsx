@@ -80,6 +80,11 @@ export function coaSubNav(staff: boolean) {
   ];
 }
 
+export const claimsSubNav = [
+  { href: '/claims', label: 'Claim library' },
+  { href: '/claims/check', label: 'Check a claim' },
+];
+
 export function TrackerNote({ syncedAt }: { syncedAt: string | null }) {
   return (
     <p className="mt-6 text-xs text-purity-muted dark:text-purity-mist">

@@ -22,7 +22,7 @@ export function DebouncedTitleInput({ initial }: { initial: string }) {
       if (value.trim()) next.set('title', value);
       else next.delete('title');
       // replace (not push) so the back button doesn't fill up with keystrokes
-      router.replace(`/bibliography${next.toString() ? `?${next}` : ''}`);
+      router.replace(`/library${next.toString() ? `?${next}` : ''}`);
     }, 300);
     return () => {
       if (timer.current) clearTimeout(timer.current);
