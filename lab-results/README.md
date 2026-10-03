@@ -4,7 +4,17 @@
 every lab record, his claims library, and the Health Grade limits his tracker scores against.
 Nothing here writes back to his tracker.
 
-## Daily sync
+## Daily sync (current: Mac-bound)
+
+A Claude scheduled task in the Purity Coffee organization ("Purity lab sync") runs on
+weekdays at 9:46 AM and 2:46 PM ET on Jeremy's Mac. It reads the tracker page and database,
+builds the snapshot with `build-snapshot.mjs`, writes it to `lab-results/latest/snapshot.json`
+(not committed) and imports it with `bash lab-results/import-local.sh`, using
+`dashboard/app/.env.local`. It skips the import when nothing changed, and skips the run if the
+Mac is asleep. It runs from the working copy, so the branch with these scripts must be checked
+out.
+
+## Daily sync (cloud, once GitHub is enabled for the Purity Coffee organization)
 
 1. A Claude scheduled task reads his tracker page (Artifact read) and his artifact database
    (`seed`, `results`, `claimseed`, `claims`, `config/standard`) with ArtifactData.
