@@ -17,10 +17,17 @@ import type { SupabaseClient } from '@supabase/supabase-js';
 import {
   analyteLabel, analyteStatus, buildStandard, CORE, display, isSacredCups, LABEL, latestFor, MATRIX,
   panelState, PRODUCT_ORDER, recordLabel,
-  type LabRecord, type Standard, type StdRow,
+  type LabRecord, type Standard, type Status, type StdRow,
 } from '../lab-status';
 
 export type LabLink = { label: string; url: string };
+
+/** A compact result panel for the UI: one product's latest result per analyte, in Brian's status chips. */
+export type LabPanel = {
+  product: string;
+  href: string;
+  rows: { code: string; label: string; value: string; status: Status; text: string; date: string }[];
+};
 
 export type LabChunk = {
   id: string;
@@ -33,6 +40,7 @@ export type LabChunk = {
   chapter: string | null;
   via: 'lab_tracker';
   links: LabLink[];
+  panel?: LabPanel;
 };
 
 export type LabSignals = {
@@ -212,11 +220,17 @@ function productBlock(p: string, recs: LabRecord[], std: Standard, codes: string
   const lines: string[] = [];
   const used: LabRecord[] = [];
   const missing: string[] = [];
+  const panelRows: LabPanel['rows'] = [];
   for (const c of want) {
     const r = latestFor(recs, p, c);
     if (!r) { missing.push(label(std, c)); continue; }
     const line = readingLine(r, c, std);
     if (!line) continue;
+    const a = analyteStatus(r, c, std);
+    if (a) {
+      const v = display(a.reading);
+      panelRows.push({ code: c, label: label(std, c), value: v ? `${v} ${unit(std, c)}`.trim() : '', status: a.status, text: analyteLabel(a), date: iso(r.test_date) });
+    }
     lines.push(`- ${line} · tested ${iso(r.test_date)} · ${recWho(r)}${r.excluded ? ` · NOT SCORED: ${r.excluded_reason ?? 'set aside'}` : ''}`);
     if (!used.includes(r)) used.push(r);
     if (codes.length) {
@@ -246,7 +260,9 @@ function productBlock(p: string, recs: LabRecord[], std: Standard, codes: string
     ...(missing.length ? [`Not tested on file for ${p}: ${missing.join(', ')}. Do not estimate these.`] : []),
     `Records on file for ${p}: ${tested.length} test record(s) from ${iso(first)} to ${iso(last)}.`,
   ].join('\n');
-  return chunk(`Lab Testing tracker: ${p}`, content, [{ label: `COA quick view: ${p}`, url: `/coa/${slug(p)}` }, ...certLinks(used)]);
+  const out = chunk(`Lab Testing tracker: ${p}`, content, [{ label: `COA quick view: ${p}`, url: `/coa/${slug(p)}` }, ...certLinks(used)]);
+  if (panelRows.length) out.panel = { product: p, href: `/coa/${slug(p)}`, rows: panelRows };
+  return out;
 }
 
 function analyteAcrossProducts(codes: string[], recs: LabRecord[], std: Standard, syncedAt: string): LabChunk | null {

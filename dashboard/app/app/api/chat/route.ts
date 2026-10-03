@@ -219,6 +219,12 @@ export async function POST(req: NextRequest) {
           similarity: c.similarity,
         }));
     })(),
+    // Which way the question was answered, shown beside the answer.
+    route: chunks.some((c) => c.via === 'lab_tracker') || cls.category === 'coa'
+      ? 'COA'
+      : cls.category === 'health' || cls.category === 'blend' ? 'Research' : 'Customer answer',
+    // Latest results for the product asked about, in Brian's status chips.
+    lab_panel: chunks.find((c) => c.panel)?.panel ?? null,
     // COA quick view and certificate links from the lab evidence used for this
     // answer, for the person asking. Deduped; never part of the answer text.
     lab_links: (() => {

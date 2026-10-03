@@ -13,7 +13,7 @@ import {
   fetchCoaThresholdChunk,
 } from './coa-lookup';
 import { CUSTOMER_EXCLUDED_TYPES, type SourceType } from './source-classify';
-import { detectLabQuestion, fetchLabEvidence, labSourceEnabled, type LabLink } from './lab-lookup';
+import { detectLabQuestion, fetchLabEvidence, labSourceEnabled, type LabLink, type LabPanel } from './lab-lookup';
 
 const CANON_THRESHOLD = Number(process.env.CANON_MATCH_THRESHOLD ?? 0.82);
 const CHUNK_THRESHOLD = Number(process.env.CHUNK_MATCH_THRESHOLD ?? 0.55);
@@ -43,6 +43,7 @@ export type ChunkHit = {
   // Lab-tracker evidence carries the COA quick view and certificate links for
   // the person asking (shown beside the answer, never pasted into it).
   links?: LabLink[];
+  panel?: LabPanel;
 };
 
 export async function findCanonHit(

@@ -5,6 +5,7 @@ import { RatingButtons } from './RatingButtons';
 import { CopyButton } from '../../_components/CopyButton';
 import { useToast } from '../../_components/Toast';
 import { AnswerText } from './AnswerText';
+import type { LabPanel } from '@/lib/rag/lab-lookup';
 
 type Turn = {
   role: 'user' | 'assistant';
@@ -16,6 +17,8 @@ type Turn = {
     freshness_tier?: string;
     cited_chunks?: { id: string; title: string; kind: string; chapter: string | null }[];
     lab_links?: { label: string; url: string }[];
+    lab_panel?: LabPanel | null;
+    route?: string;
     message_id?: string;
   };
 };
@@ -106,6 +109,8 @@ export default function ChatClient({ paperCount, initialQuestion, deepMode }: { 
               freshness_tier: j.freshness_tier,
               cited_chunks: j.cited_chunks,
               lab_links: j.lab_links,
+              lab_panel: j.lab_panel,
+              route: j.route,
               message_id: j.message_id,
             },
           },
@@ -172,6 +177,22 @@ export default function ChatClient({ paperCount, initialQuestion, deepMode }: { 
               >
                 {t.role === 'assistant' ? <AnswerText text={t.content} /> : t.content}
               </div>
+              {t.meta?.lab_panel && t.meta.lab_panel.rows.length > 0 && (
+                <div className="mt-2 rounded-lg bg-purity-soft p-3 dark:bg-purity-night">
+                  <div className="mb-2 flex items-center justify-between text-xs font-semibold uppercase tracking-wider text-purity-muted dark:text-purity-mist">
+                    <span>{t.meta.lab_panel.product}: latest results</span>
+                    <a href={t.meta.lab_panel.href} className="normal-case tracking-normal underline">COA quick view</a>
+                  </div>
+                  <div className="grid gap-1.5 sm:grid-cols-2">
+                    {t.meta.lab_panel.rows.map((r) => (
+                      <div key={r.code} className="flex items-center justify-between gap-2 text-sm" title={`Tested ${r.date}`}>
+                        <span className="truncate">{r.label}{r.value ? ` · ${r.value}` : ''}</span>
+                        <span className={`st st-${r.status}`}>{r.text}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
               {t.role === 'assistant' && t.content && (
                 <div className="mt-1 opacity-100 transition-opacity sm:opacity-0 sm:group-hover:opacity-100 sm:focus-within:opacity-100">
                   <CopyButton text={t.content} label="Copy answer" ariaLabel="Copy this answer" />
@@ -179,6 +200,7 @@ export default function ChatClient({ paperCount, initialQuestion, deepMode }: { 
               )}
               {t.meta && (
                 <div className="mt-1 text-xs text-purity-muted dark:text-purity-mist">
+                  {t.meta.route ? `answered as ${t.meta.route} · ` : null}
                   {t.meta.source === 'canon' ? 'curated answer · ' : null}
                   {typeof t.meta.confidence === 'number' ? `confidence ${t.meta.confidence.toFixed(2)} · ` : null}
                   {t.meta.freshness_tier ? `${t.meta.freshness_tier} · ` : null}
