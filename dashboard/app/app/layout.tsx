@@ -34,8 +34,24 @@ async function getCurrentRole(): Promise<Role> {
   }
 }
 
+// Overhaul preview deployments are for admins only (decision 2026-10-03):
+// signed-in non-admins see a notice instead of the page. Production is never
+// affected (VERCEL_ENV is 'production' there), and sign-in still works.
+function PreviewNotice() {
+  return (
+    <div className="hub-card max-w-xl">
+      <h2>Preview for admins</h2>
+      <p className="text-sm text-purity-muted dark:text-purity-mist">
+        This is a preview of the new Research Hub, open to admins while it is reviewed. Everything you use today is on the
+        live app.
+      </p>
+    </div>
+  );
+}
+
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
   const role = await getCurrentRole();
+  const previewLocked = process.env.VERCEL_ENV === 'preview' && role !== null && role !== 'admin';
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
@@ -66,7 +82,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
               <NavLinks role={role} />
             </div>
           </div>
-          <main id="main" className="mx-auto max-w-[1380px] px-4 py-6 sm:px-6 sm:py-8">{children}</main>
+          <main id="main" className="mx-auto max-w-[1380px] px-4 py-6 sm:px-6 sm:py-8">{previewLocked ? <PreviewNotice /> : children}</main>
           {role && <RevaClippy />}
         </ToastProvider>
       </body>
