@@ -1,0 +1,38 @@
+name: Lab Sync (Brian's tracker)
+
+# Imports lab-results/snapshot.json into lab_results, lab_standard and
+# lab_claims. The snapshot is pushed to the lab-snapshots branch by the daily
+# Claude scheduled task (lab-results/sync.sh) only when Brian's data changed.
+
+on:
+  push:
+    branches: [lab-snapshots]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: lab-sync
+  cancel-in-progress: false
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Node deps
+        working-directory: dashboard/app
+        run: npm ci
+
+      - name: Import snapshot
+        working-directory: dashboard/app
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: npx tsx scripts/import-lab-results.ts
