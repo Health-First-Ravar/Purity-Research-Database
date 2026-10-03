@@ -1,9 +1,11 @@
 import type { Config } from 'tailwindcss';
 
-// Palette: grounded in Purity brand direction — warm neutrals with a
-// chlorophyll-green accent and a deep roast background. Additional tokens
-// (aqua, ink, shade, paper) support the dark-mode pass without forcing
-// component-level conditionals.
+// Palette: Brian's Lab Testing tracker, adopted as the Research Hub look
+// (decision 2026-10-03) so the two tools read as one product. Existing token
+// names are kept and remapped, so every current page restyles without edits:
+//   bean  -> ink text        cream -> page ground     green -> primary teal
+//   rust  -> over-limit red  muted -> secondary text
+// Dark-mode tokens (ink, shade, paper, mist) are dark variants of the same palette.
 const config: Config = {
   content: ['./app/**/*.{ts,tsx}', './components/**/*.{ts,tsx}'],
   darkMode: 'class',
@@ -11,25 +13,38 @@ const config: Config = {
     extend: {
       colors: {
         purity: {
-          // Light-mode tokens
-          bean:   '#2B1F17', // deep roast (primary text on light)
-          cream:  '#F7F1E8', // page background (light)
-          green:  '#3F6B4A', // chlorophyll accent
-          aqua:   '#009F8D', // Purity brand aqua — focus ring + dark accent
-          rust:   '#B04A2E',
-          slate:  '#2E3A3A',
-          muted:  '#8A8279',
-          // Dark-mode tokens
-          ink:    '#14100C', // deep background (dark)
-          shade:  '#221A14', // card/surface background (dark)
-          paper:  '#ECE3D4', // primary text on dark (softer than pure cream)
-          mist:   '#9A9189', // muted text on dark
+          // Light
+          bean:     '#1D2B2A', // ink: primary text
+          cream:    '#F3F5F5', // page ground
+          green:    '#00665E', // primary teal
+          teal:     '#00665E',
+          tealdark: '#004D47',
+          aqua:     '#009F8D',
+          gold:     '#F1B434',
+          beige:    '#D5CCBA',
+          brown:    '#3D290D',
+          rust:     '#C0392B',
+          slate:    '#2E3A3A',
+          muted:    '#5F6F6D',
+          line:     '#DFE5E4',
+          soft:     '#EEF4F3',
+          card:     '#FFFFFF',
+          // Dark
+          ink:      '#0F1716', // page ground (dark)
+          shade:    '#16201F', // card surface (dark)
+          paper:    '#E3ECEA', // primary text (dark)
+          mist:     '#9FB1AE', // secondary text (dark)
+          night:    '#1C2A28', // soft surface (dark)
+          rule:     '#2A3836', // borders (dark)
+          glow:     '#3FC1B0', // teal on dark
         },
       },
       fontFamily: {
-        sans: ['Inter', 'ui-sans-serif', 'system-ui'],
-        serif: ['Fraunces', 'ui-serif', 'Georgia'],
+        // Brian's system stack; no web fonts to load.
+        sans: ['-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', 'sans-serif'],
+        serif: ['-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', 'sans-serif'],
       },
+      borderRadius: { hub: '10px' },
     },
   },
   plugins: [],

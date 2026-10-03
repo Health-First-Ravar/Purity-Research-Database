@@ -12,8 +12,8 @@ import { SignOutButton } from './_components/SignOutButton';
 import { RevaClippy } from './_components/RevaClippy';
 
 export const metadata: Metadata = {
-  title: 'Purity Dashboard',
-  description: 'Research, COA reports, and customer-service chat for Purity Coffee.',
+  title: 'Purity Research Hub',
+  description: 'Research, support, COA questions and claims for Purity Coffee.',
 };
 
 async function getCurrentRole(): Promise<Role> {
@@ -44,22 +44,29 @@ export default async function RootLayout({ children }: { children: React.ReactNo
       <body>
         <ToastProvider>
           <a href="#main" className="skip-to-main">Skip to main content</a>
-          <header className="sticky top-0 z-30 border-b border-purity-bean/10 bg-purity-cream/95 backdrop-blur dark:border-purity-paper/10 dark:bg-purity-ink/95">
-            <div className="mx-auto flex max-w-7xl items-center justify-between gap-3 px-4 py-3 sm:px-6">
-              <div className="flex min-w-0 items-center gap-4 sm:gap-8">
-                <Link href="/chat" className="shrink-0 font-serif text-lg tracking-tight">
-                  Purity <span className="text-purity-green dark:text-purity-aqua">/</span> Dashboard
-                </Link>
-                <NavLinks role={role} />
-              </div>
-              <div className="flex shrink-0 items-center gap-2">
+          <header className="hub-header">
+            <div className="mx-auto flex max-w-[1380px] flex-wrap items-center justify-between gap-3 px-4 py-4 sm:px-6">
+              <Link href="/" className="flex min-w-0 items-center gap-3 text-white">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src="/purity-logo.png" alt="Purity Coffee" className="h-10 w-auto opacity-95 brightness-0 invert" />
+                <span className="min-w-0">
+                  <span className="block text-xl font-bold leading-tight tracking-tight sm:text-2xl">Purity Research Hub</span>
+                  <span className="hidden text-sm opacity-90 sm:block">Research, support, COA questions and claims in one place</span>
+                </span>
+              </Link>
+              <div className="flex shrink-0 items-center gap-2 rounded-lg bg-white/95 px-2 py-1.5 dark:bg-purity-shade/95">
                 <ThemeToggle />
                 <ManualUpdateButton />
                 <SignOutButton />
               </div>
             </div>
           </header>
-          <main id="main" className="mx-auto max-w-7xl px-4 py-6 sm:px-6 sm:py-8">{children}</main>
+          <div className="sticky top-0 z-30 border-b border-purity-line bg-purity-card dark:border-purity-rule dark:bg-purity-shade">
+            <div className="mx-auto max-w-[1380px] px-2 sm:px-4">
+              <NavLinks role={role} />
+            </div>
+          </div>
+          <main id="main" className="mx-auto max-w-[1380px] px-4 py-6 sm:px-6 sm:py-8">{children}</main>
           {role && <RevaClippy />}
         </ToastProvider>
       </body>

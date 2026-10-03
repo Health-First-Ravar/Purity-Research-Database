@@ -10,7 +10,8 @@ import ChatClient from './_components/ChatClient';
 
 export const dynamic = 'force-dynamic';
 
-export default async function ResearchHubPage() {
+export default async function ResearchHubPage({ searchParams }: { searchParams: Promise<{ q?: string }> }) {
+  const { q } = await searchParams;
   const supabase = supabaseServer(await cookies());
   const { data: auth } = await supabase.auth.getUser();
   if (!auth.user) redirect('/login?next=/chat');
@@ -34,5 +35,5 @@ export default async function ResearchHubPage() {
     .from('bibliography_view')
     .select('*', { count: 'exact', head: true });
 
-  return <ChatClient paperCount={paperCount ?? null} />;
+  return <ChatClient paperCount={paperCount ?? null} initialQuestion={typeof q === 'string' ? q.slice(0, 500) : ''} />;
 }

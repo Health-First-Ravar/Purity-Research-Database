@@ -25,7 +25,10 @@ const CHAT_OK: Exclude<Role, null>[] = ['customer_service', 'admin'];
 const ADMIN: Exclude<Role, null>[]  = ['admin'];
 
 const SECTIONS: (FlatItem | Group)[] = [
-  { kind: 'item', href: '/chat',         label: 'Research Hub', visibleTo: CHAT_OK },
+  // Research Hub overhaul: Home and COA quick view (Brian's data) lead the nav.
+  { kind: 'item', href: '/',             label: 'Home',           visibleTo: ALL },
+  { kind: 'item', href: '/coa',          label: 'COA quick view', visibleTo: ALL },
+  { kind: 'item', href: '/chat',         label: 'Ask',            visibleTo: CHAT_OK },
   { kind: 'item', href: '/reports',      label: 'Reports',      visibleTo: ALL },
   // Staff-only working queue. Sits next to Reports because it operates on the
   // same records, and flat rather than nested because it was unreachable
@@ -83,7 +86,7 @@ export function NavLinks({ role }: { role: Role }) {
 
   return (
     <nav
-      className="flex flex-wrap items-center gap-x-3 gap-y-2 py-1 text-sm sm:gap-x-5"
+      className="flex flex-wrap items-center text-sm"
       aria-label="Primary"
     >
       {visibleSections.map((s) => {
@@ -98,6 +101,7 @@ export function NavLinks({ role }: { role: Role }) {
 }
 
 function isActive(pathname: string, href: string): boolean {
+  if (href === '/') return pathname === '/';
   return pathname === href || pathname.startsWith(href + '/');
 }
 
@@ -106,12 +110,7 @@ function NavLink({ href, label, active }: { href: string; label: string; active:
     <Link
       href={href}
       aria-current={active ? 'page' : undefined}
-      className={
-        'relative shrink-0 py-1 transition ' +
-        (active
-          ? 'font-medium text-purity-green after:absolute after:inset-x-0 after:-bottom-[13px] after:h-[2px] after:bg-purity-green dark:text-purity-aqua dark:after:bg-purity-aqua'
-          : 'text-purity-bean/80 hover:text-purity-green dark:text-purity-paper/80 dark:hover:text-purity-aqua')
-      }
+      className="hub-tab"
     >
       {label}
     </Link>
@@ -144,12 +143,8 @@ function NavGroup({ group, pathname }: { group: Group; pathname: string }) {
         onClick={() => setOpen((v) => !v)}
         aria-haspopup="menu"
         aria-expanded={open}
-        className={
-          'relative flex shrink-0 items-center gap-1 py-1 transition ' +
-          (containsActive
-            ? 'font-medium text-purity-green after:absolute after:inset-x-0 after:-bottom-[13px] after:h-[2px] after:bg-purity-green dark:text-purity-aqua dark:after:bg-purity-aqua'
-            : 'text-purity-bean/80 hover:text-purity-green dark:text-purity-paper/80 dark:hover:text-purity-aqua')
-        }
+        aria-current={containsActive ? 'page' : undefined}
+        className="hub-tab flex items-center gap-1"
       >
         {group.label}
         <span className={'inline-block text-[9px] transition-transform ' + (open ? 'rotate-180' : '')}>▾</span>

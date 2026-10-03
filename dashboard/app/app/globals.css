@@ -62,10 +62,10 @@ table:not(.no-hover) tbody tr {
   transition: background-color 120ms ease;
 }
 table:not(.no-hover) tbody tr:hover {
-  background-color: rgba(43, 31, 23, 0.04); /* purity-bean @ 4% */
+  background-color: rgba(0, 102, 94, 0.04); /* teal @ 4% */
 }
 html.dark table:not(.no-hover) tbody tr:hover {
-  background-color: rgba(236, 227, 212, 0.05); /* purity-paper @ 5% */
+  background-color: rgba(227, 236, 234, 0.05); /* paper @ 5% */
 }
 
 /* ---------- Prose overrides for dark ---------- */
@@ -86,4 +86,62 @@ html:not(.dark):not(.light) body { /* neither class — let prefers-color-scheme
     background: theme('colors.purity.ink');
     color: theme('colors.purity.paper');
   }
+}
+
+/* ---------- Research Hub components (Brian's tracker look) ---------- */
+@layer components {
+  .hub-header {
+    background: linear-gradient(135deg, #00665E 0%, #009F8D 100%);
+    border-bottom: 4px solid #F1B434;
+    color: #fff;
+  }
+  html.dark .hub-header { background: linear-gradient(135deg, #00524B 0%, #00786B 100%); }
+  .hub-card { @apply rounded-hub border border-purity-line bg-purity-card p-5 dark:border-purity-rule dark:bg-purity-shade; }
+  .hub-card h2 { @apply mb-1 text-[1.08rem] font-semibold text-purity-teal dark:text-purity-glow; }
+  .hub-hint { @apply mb-3 text-sm text-purity-muted dark:text-purity-mist; }
+  .hub-kpi { @apply rounded-hub border border-purity-line bg-purity-card px-4 py-4 dark:border-purity-rule dark:bg-purity-shade; }
+  .hub-kpi .lbl { @apply text-[0.7rem] font-semibold uppercase tracking-wider text-purity-muted dark:text-purity-mist; }
+  .hub-kpi .val { @apply mt-1 text-[1.8rem] font-bold leading-tight tabular-nums text-purity-teal dark:text-purity-glow; }
+  .hub-kpi.alert .val { @apply text-purity-rust dark:text-[#FF8A7A]; }
+  .hub-kpi .sub { @apply mt-0.5 text-xs text-purity-muted dark:text-purity-mist; }
+  .hub-table { @apply overflow-auto rounded-lg border border-purity-line dark:border-purity-rule; }
+  .hub-table table { @apply w-full border-collapse text-sm; }
+  .hub-table th { @apply sticky top-0 whitespace-nowrap border-b border-purity-line bg-purity-soft px-3 py-2 text-left text-[0.72rem] font-bold uppercase tracking-wide text-purity-muted dark:border-purity-rule dark:bg-purity-night dark:text-purity-mist; }
+  .hub-table td { @apply border-b border-purity-line px-3 py-2 align-top dark:border-purity-rule; }
+  .hub-table tr:last-child td { @apply border-b-0; }
+  .hub-attn { @apply grid grid-cols-[6px_1fr] gap-3 overflow-hidden rounded-lg bg-purity-soft py-3 pr-4 dark:bg-purity-night; }
+  .hub-attn .bar { @apply rounded-r; }
+  .hub-tab { @apply relative shrink-0 whitespace-nowrap border-b-[3px] border-transparent px-4 py-3 font-semibold text-purity-muted transition hover:text-purity-teal dark:text-purity-mist dark:hover:text-purity-glow; }
+  .hub-tab[aria-current="page"] { @apply border-purity-aqua bg-purity-soft text-purity-teal dark:bg-purity-night dark:text-purity-glow; }
+}
+
+/* Status chips: Brian's color pairs, word for word his labels. */
+.st { display: inline-flex; align-items: center; gap: 4px; padding: 2px 9px; border-radius: 999px; font-size: .74rem; font-weight: 700; white-space: nowrap; }
+.st-cell { display: inline-block; min-width: 62px; text-align: center; border-radius: 6px; padding: 3px 6px; font-weight: 600; font-variant-numeric: tabular-nums; }
+.st-fail    { background: #FBE7E4; color: #C0392B; }
+.st-watch   { background: #FDF3DD; color: #B7791F; }
+.st-pass    { background: #E4F4EC; color: #1F8A5B; }
+.st-nd      { background: #E6F2F0; color: #2F7F75; }
+.st-incon   { background: #F0EBF8; color: #7A5EA8; }
+.st-info    { background: #EEF1F1; color: #5F6F6D; }
+.st-detect  { background: #E8EEFA; color: #2F5AA8; }
+.st-cleared { background: #E6F1E9; color: #3B7D4F; }
+.st-exempt  { background: #F1F2F2; color: #8A8F8E; }
+.st-pending { background: #EEF1F1; color: #5F6F6D; border: 1px dashed #5F6F6D; }
+html.dark .st-fail    { background: #3D1C18; color: #FF8A7A; }
+html.dark .st-watch   { background: #3A2D12; color: #F0B955; }
+html.dark .st-pass    { background: #173326; color: #5FD39B; }
+html.dark .st-nd      { background: #14302C; color: #6FCFC2; }
+html.dark .st-incon   { background: #2C2340; color: #C3A8F0; }
+html.dark .st-info    { background: #222D2C; color: #A9B8B5; }
+html.dark .st-detect  { background: #1C2740; color: #8FB2F5; }
+html.dark .st-cleared { background: #1A2E21; color: #8FD3A3; }
+html.dark .st-exempt  { background: #242A29; color: #A9ADAC; }
+html.dark .st-pending { background: #222D2C; color: #A9B8B5; border-color: #A9B8B5; }
+
+/* Printable substantiation packet: hide chrome, keep the content. */
+@media print {
+  header, nav, .no-print, .reva-clippy { display: none !important; }
+  body { background: #fff !important; color: #000 !important; }
+  .hub-card, .hub-kpi { break-inside: avoid; border-color: #ccc !important; }
 }

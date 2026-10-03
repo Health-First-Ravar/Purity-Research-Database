@@ -32,9 +32,10 @@ function newSessionId() {
     : `sess_${Date.now()}_${Math.random().toString(36).slice(2)}`;
 }
 
-export default function ChatClient({ paperCount }: { paperCount?: number | null }) {
+export default function ChatClient({ paperCount, initialQuestion }: { paperCount?: number | null; initialQuestion?: string }) {
   const [turns, setTurns] = useState<Turn[]>([]);
-  const [input, setInput] = useState('');
+  // Prefilled when arriving from the Home ask box (/chat?q=...).
+  const [input, setInput] = useState(initialQuestion ?? '');
   const [busy, setBusy] = useState(false);
   const sessionId = useRef(newSessionId());
   const bottomRef = useRef<HTMLDivElement>(null);
