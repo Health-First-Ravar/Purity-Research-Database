@@ -26,6 +26,7 @@ import {
   fetchCoaThresholdChunk,
 } from './coa-lookup';
 import { stripDashes } from './sanitize';
+import { detectLabQuestion, fetchLabEvidence, labSourceEnabled } from './lab-lookup';
 
 export type RevaMode = 'create' | 'analyze' | 'challenge';
 
@@ -42,7 +43,7 @@ export type RevaChunk = {
   chapter: string | null;
   // Set when the chunk was selected structurally (by report_date / report_number)
   // rather than by embedding distance. Renders as `selected=<via>` in evidence.
-  via?: 'report_date' | 'report_number';
+  via?: 'report_date' | 'report_number' | 'lab_tracker';
 };
 
 /**
@@ -281,6 +282,15 @@ lots it lists, and if it reports 0 matches, say none match. Do NOT generalize a
 false all-clear from the semantic chunks, and do NOT claim no lot exceeds a
 threshold unless that query block confirms zero matches.
 
+Chunks marked "selected=lab_tracker" come from Purity's Lab Testing tracker
+(Brian's), the authoritative record of Purity's lab results and the same data
+as the COA quick view. For lab questions trust them over any other source,
+quote values with units, test date and lab, and use the status words they give.
+"LOQ above limit" means nothing was detected but the lab's reporting limit sat
+above our limit. A result marked NOT SCORED was set aside. A chunk beginning
+"STRUCTURED LAB QUERY" is complete for the records it describes. Do not paste
+URLs from evidence into the answer.
+
 Two rules on lab data. A COA is COMPOSITION evidence, never EFFICACY evidence:
 it shows what is in the coffee, never that the coffee does anything
 physiological, so it can never carry a health claim on its own. And a result
@@ -337,6 +347,11 @@ async function retrieveWeighted(
   // which admits every genuine certificate and nothing else. See ALL_COA_SCOPES.
   const coaScopes: string[] = coa.allowedScopes ?? [...ALL_COA_SCOPES];
 
+  // Brian's Lab Testing tracker is the COA source unless HUB_COA_SOURCE=legacy:
+  // then the lab leg replaces the old `coas` legs (semantic, threshold, lookup)
+  // so Reva and Ask quote the same results as the COA quick view.
+  const labMode = labSourceEnabled();
+
   const [brandRes, evidenceRes, coaRes] = await Promise.all([
     brandCount > 0
       ? sb.rpc('match_chunks', {
@@ -354,14 +369,27 @@ async function retrieveWeighted(
           min_similarity: 0.30,
         })
       : Promise.resolve({ data: [] as RevaChunk[] }),
-    coaClient.rpc('match_chunks', {
-      query_embedding: vec as unknown as string,
-      match_count: COA_CHUNKS,
-      source_kinds: ['coa'],
-      min_similarity: COA_MIN_SIMILARITY,
-      allowed_coa_scopes: coaScopes,
-    }),
+    labMode
+      ? Promise.resolve({ data: [] as RevaChunk[], error: null })
+      : coaClient.rpc('match_chunks', {
+          query_embedding: vec as unknown as string,
+          match_count: COA_CHUNKS,
+          source_kinds: ['coa'],
+          min_similarity: COA_MIN_SIMILARITY,
+          allowed_coa_scopes: coaScopes,
+        }),
   ]);
+
+  if (labMode) {
+    const lab: RevaChunk[] = await fetchLabEvidence(coaClient, detectLabQuestion(question), coa.allowedScopes === null);
+    const seenLab = new Set<string>();
+    return [
+      ...lab,
+      ...[...((brandRes.data ?? []) as RevaChunk[]), ...((evidenceRes.data ?? []) as RevaChunk[])]
+        .filter((c) => (seenLab.has(c.id) ? false : (seenLab.add(c.id), true)))
+        .sort((a, b) => b.similarity - a.similarity),
+    ];
+  }
 
   // A failed COA leg must not look like "no lab data exists" — that is the exact
   // silent degradation that made Reva deny having COA access in the first place.

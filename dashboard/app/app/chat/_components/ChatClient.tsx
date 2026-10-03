@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from 'react';
 import { RatingButtons } from './RatingButtons';
 import { CopyButton } from '../../_components/CopyButton';
 import { useToast } from '../../_components/Toast';
+import { AnswerText } from './AnswerText';
 
 type Turn = {
   role: 'user' | 'assistant';
@@ -14,6 +15,7 @@ type Turn = {
     escalated?: boolean;
     freshness_tier?: string;
     cited_chunks?: { id: string; title: string; kind: string; chapter: string | null }[];
+    lab_links?: { label: string; url: string }[];
     message_id?: string;
   };
 };
@@ -103,6 +105,7 @@ export default function ChatClient({ paperCount, initialQuestion }: { paperCount
               escalated: j.escalated,
               freshness_tier: j.freshness_tier,
               cited_chunks: j.cited_chunks,
+              lab_links: j.lab_links,
               message_id: j.message_id,
             },
           },
@@ -148,8 +151,9 @@ export default function ChatClient({ paperCount, initialQuestion }: { paperCount
         >
           {turns.length === 0 && !busy && (
             <p className="text-sm text-purity-muted dark:text-purity-mist">
-              Ask a customer-service or research question. The assistant answers from the Purity
-              knowledge base (brand docs, Ildi&apos;s book,{' '}
+              Ask a customer-service or research question. Lab questions are answered from
+              Brian&apos;s Lab Testing tracker, the same results as the COA quick view. Everything
+              else comes from the Purity knowledge base (brand docs, Ildi&apos;s book,{' '}
               {typeof paperCount === 'number'
                 ? `${paperCount.toLocaleString()} research papers`
                 : 'the research library'}
@@ -166,7 +170,7 @@ export default function ChatClient({ paperCount, initialQuestion }: { paperCount
                     : 'prose prose-sm max-w-none text-purity-bean dark:text-purity-paper'
                 }
               >
-                {t.content}
+                {t.role === 'assistant' ? <AnswerText text={t.content} /> : t.content}
               </div>
               {t.role === 'assistant' && t.content && (
                 <div className="mt-1 opacity-100 transition-opacity sm:opacity-0 sm:group-hover:opacity-100 sm:focus-within:opacity-100">
@@ -185,6 +189,23 @@ export default function ChatClient({ paperCount, initialQuestion }: { paperCount
                         <span key={c.id}>
                           {k > 0 && ', '}
                           <span title={c.kind}>{c.title}{c.chapter ? ` (ch ${c.chapter})` : ''}</span>
+                        </span>
+                      ))}
+                    </div>
+                  )}
+                  {t.meta.lab_links && t.meta.lab_links.length > 0 && (
+                    <div className="mt-1">
+                      lab data:{' '}
+                      {t.meta.lab_links.map((l, k) => (
+                        <span key={l.url}>
+                          {k > 0 && ' · '}
+                          <a
+                            href={l.url}
+                            {...(l.url.startsWith('/') ? {} : { target: '_blank', rel: 'noopener noreferrer' })}
+                            className="underline decoration-dotted underline-offset-2 hover:text-purity-bean dark:hover:text-purity-paper"
+                          >
+                            {l.label}
+                          </a>
                         </span>
                       ))}
                     </div>

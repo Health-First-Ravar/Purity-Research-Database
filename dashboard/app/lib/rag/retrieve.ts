@@ -13,6 +13,7 @@ import {
   fetchCoaThresholdChunk,
 } from './coa-lookup';
 import { CUSTOMER_EXCLUDED_TYPES, type SourceType } from './source-classify';
+import { detectLabQuestion, fetchLabEvidence, labSourceEnabled, type LabLink } from './lab-lookup';
 
 const CANON_THRESHOLD = Number(process.env.CANON_MATCH_THRESHOLD ?? 0.82);
 const CHUNK_THRESHOLD = Number(process.env.CHUNK_MATCH_THRESHOLD ?? 0.55);
@@ -38,7 +39,10 @@ export type ChunkHit = {
   chapter: string | null;
   // Set when the chunk was selected structurally (by report_date / report_number)
   // rather than by embedding distance. Renders as `selected=<via>` in evidence.
-  via?: 'report_date' | 'report_number';
+  via?: 'report_date' | 'report_number' | 'lab_tracker';
+  // Lab-tracker evidence carries the COA quick view and certificate links for
+  // the person asking (shown beside the answer, never pasted into it).
+  links?: LabLink[];
 };
 
 export async function findCanonHit(
@@ -73,8 +77,13 @@ export async function retrieveChunks(
   allowedCoaScopes: string[] | null = null,
 ): Promise<ChunkHit[]> {
   const emb = await embedOne(question, 'query');
+  // Brian's Lab Testing tracker is the COA source (HUB_COA_SOURCE=legacy reverts
+  // to the old Drive-parsed `coas` chunks). In lab mode the old COA chunks are
+  // kept out of semantic retrieval so two lab sources can never disagree.
+  const labMode = labSourceEnabled();
   // Category-based source kind bias. Coarse but effective at MVP.
-  const kinds = kindsForCategory(cls.category);
+  const baseKinds = kindsForCategory(cls.category);
+  const kinds = labMode && baseKinds ? baseKinds.filter((k) => k !== 'coa') : baseKinds;
   const { data, error } = await client.rpc('match_chunks', {
     query_embedding: emb as unknown as string,
     match_count: TOP_K * 2, // over-fetch; the vetted-source filter below trims back to TOP_K
@@ -91,7 +100,14 @@ export async function retrieveChunks(
     client,
     ((data ?? []) as ChunkHit[]).filter(isSubstantiveChunk),
   );
-  const semantic = vetted.slice(0, TOP_K);
+  const semantic = (labMode ? vetted.filter((c) => c.kind !== 'coa') : vetted).slice(0, TOP_K);
+
+  if (labMode) {
+    // Lab evidence from lab_results on the caller's client (RLS applies);
+    // `null` scopes means an elevated viewer, who also sees green and R&D lots.
+    const lab = await fetchLabEvidence(client, detectLabQuestion(question, cls), allowedCoaScopes === null);
+    return [...lab, ...semantic];
+  }
 
   // Structured COA leg — same fix as Reva's COA path. "Most recent COA" is an
   // ORDER (report_date) and "COA <report#>" is a KEY (report_number); neither

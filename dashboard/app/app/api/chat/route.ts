@@ -219,6 +219,15 @@ export async function POST(req: NextRequest) {
           similarity: c.similarity,
         }));
     })(),
+    // COA quick view and certificate links from the lab evidence used for this
+    // answer, for the person asking. Deduped; never part of the answer text.
+    lab_links: (() => {
+      const seen = new Set<string>();
+      return chunks
+        .flatMap((c) => c.links ?? [])
+        .filter((l) => (seen.has(l.url) ? false : (seen.add(l.url), true)))
+        .slice(0, 8);
+    })(),
   });
 }
 

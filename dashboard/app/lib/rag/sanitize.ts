@@ -38,9 +38,18 @@ const REG_NUMBER = /\b\d+(?:\.\d+)?\s*(?:ppb|ppm|µg\/kg|ug\/kg|mg\/kg|microgram
 
 export function stripExternalRegLimits(input: string): string {
   if (!input) return input;
-  const sentences = input.split(/(?<=[.!?])\s+/);
-  const kept = sentences.filter(
-    (s) => !(REG_BODY.test(s) && REG_LIMIT_WORD.test(s) && REG_NUMBER.test(s)),
-  );
-  return kept.join(' ').replace(/\s{2,}/g, ' ').trim();
+  // Split keeping each sentence's trailing whitespace, so line breaks (lists,
+  // paragraphs) survive; joining on ' ' used to flatten every answer to one line.
+  const parts = input.split(/(?<=[.!?])(\s+)/);
+  let out = '';
+  for (let i = 0; i < parts.length; i += 2) {
+    const sentence = parts[i];
+    const sep = parts[i + 1] ?? '';
+    if (REG_BODY.test(sentence) && REG_LIMIT_WORD.test(sentence) && REG_NUMBER.test(sentence)) {
+      if (sep.includes('\n')) out += sep;
+      continue;
+    }
+    out += sentence + sep;
+  }
+  return out.replace(/[ \t]{2,}/g, ' ').replace(/[ \t]+\n/g, '\n').replace(/\n{3,}/g, '\n\n').trim();
 }
