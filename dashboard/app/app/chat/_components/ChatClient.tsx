@@ -5,6 +5,7 @@ import { RatingButtons } from './RatingButtons';
 import { CopyButton } from '../../_components/CopyButton';
 import { useToast } from '../../_components/Toast';
 import { AnswerText } from './AnswerText';
+import { safeHref } from '@/lib/safe-url';
 import type { LabPanel } from '@/lib/rag/lab-lookup';
 
 type Turn = {
@@ -218,11 +219,11 @@ export default function ChatClient({ paperCount, initialQuestion, deepMode }: { 
                   {t.meta.lab_links && t.meta.lab_links.length > 0 && (
                     <div className="mt-1">
                       lab data:{' '}
-                      {t.meta.lab_links.map((l, k) => (
+                      {t.meta.lab_links.filter((l) => safeHref(l.url)).map((l, k) => (
                         <span key={l.url}>
                           {k > 0 && ' · '}
                           <a
-                            href={l.url}
+                            href={safeHref(l.url) ?? undefined}
                             {...(l.url.startsWith('/') ? {} : { target: '_blank', rel: 'noopener noreferrer' })}
                             className="underline decoration-dotted underline-offset-2 hover:text-purity-bean dark:hover:text-purity-paper"
                           >

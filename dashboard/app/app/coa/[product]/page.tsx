@@ -6,6 +6,7 @@ import Link from 'next/link';
 import { cookies } from 'next/headers';
 import { notFound, redirect } from 'next/navigation';
 import { supabaseServer } from '@/lib/supabase';
+import { safeHref } from '@/lib/safe-url';
 import { analyteLabel, analyteStatus, display, LABEL, MATRIX, panelState, RANK, recordLabel, type LabRecord, type Status } from '@/lib/lab-status';
 import { getHubRole, isStaffRole, loadLab, niceDate, productFromSlug, todayISO, TRACKER_URL } from '@/lib/lab-data';
 import { Card, coaSubNav, Kpi, KpiRow, SubNav, TrackerNote } from '../../_components/hub';
@@ -18,8 +19,9 @@ const GROUP_ORDER = ['Heavy metals', 'Mycotoxins', 'Process', 'Residues', 'Micro
 const FACTS = ['CAF', 'CGA', 'TRIG', 'SCAF', 'SCGA', 'STRIG', 'BCAF', 'BCGA', 'BTRIG', 'TPC', 'TEAC', 'AGTRON', 'COLOR', 'MOI', 'AW'];
 
 function CertLink({ r }: { r: LabRecord }) {
-  return r.certificate_url
-    ? <a className="text-purity-teal underline dark:text-purity-glow" href={r.certificate_url} target="_blank" rel="noopener noreferrer">Certificate</a>
+  const href = safeHref(r.certificate_url);
+  return href
+    ? <a className="text-purity-teal underline dark:text-purity-glow" href={href} target="_blank" rel="noopener noreferrer">Certificate</a>
     : null;
 }
 

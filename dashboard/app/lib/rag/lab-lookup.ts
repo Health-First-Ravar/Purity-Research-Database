@@ -16,7 +16,7 @@ import { randomUUID } from 'node:crypto';
 import type { SupabaseClient } from '@supabase/supabase-js';
 import {
   analyteLabel, analyteStatus, buildStandard, CORE, display, isSacredCups, LABEL, latestFor, MATRIX,
-  panelState, PRODUCT_ORDER, recordLabel,
+  panelState, PRODUCT_ORDER, RANK, recordLabel,
   type LabRecord, type Standard, type Status, type StdRow,
 } from '../lab-status';
 
@@ -94,9 +94,10 @@ const ANALYTE_WORDS: { re: RegExp; codes: string[]; weak?: boolean }[] = [
   { re: /\bcontaminants?\b|\bcontamination\b|\bimpurit(?:y|ies)\b|\bclean(?:est)?\b/i, codes: MATRIX.filter((c) => c !== 'CGA'), weak: true },
 ];
 
-// A lab/testing context word: "test results", "COA", "lab", "levels"...
+// A lab/testing context word. Deliberately narrow: "levels", "results",
+// "reports" and "a lot" are everyday words in health questions.
 const LAB_CTX =
-  /\b(coas?|certificates?|lab(?:oratory|s)?|tested|testing|tests?|test results?|results?|levels?|ppb|ppm|panels?|analysis|assays?|reports?|lots?|batch(?:es)?|samples?)\b/i;
+  /\b(coas?|certificates?(?: of analysis)?|lab(?:oratory|s)?|lab results?|tested|testing|tests?|test results?|ppb|ppm|panels?|assays?|batch(?:es)?|samples?|lot (?:number|code|#)|(?:green|coffee) lots?|lots? (?:tested|over|under|below|above|failed|flagged))\b/i;
 const RECENCY = /\b(most[-\s]?recent|recent(?:ly)?|latest|newest|last|current(?:ly)?|up[-\s]?to[-\s]?date)\b/i;
 const AGG_INTENT = /\b(which|any|list|how\s+many|are\s+there|show|find|ever)\b/i;
 const OVER = /\b(exceed(?:s|ed|ing)?|over|above|fail(?:s|ed|ing|ures?)?|breach(?:es|ed)?|outside|flagged|problems?|issues?|out of spec)\b/i;
@@ -105,21 +106,32 @@ const UNDER = /\b(below|under|short of|lower than|less than|missed)\b/i;
 const REPORT_TOKEN = /\b(?:[A-Za-z0-9]+(?:-[A-Za-z0-9]+)+|\d{5,})\b/g;
 const TOKEN_STOP = new Set(['covid-19', 'omega-3', 'omega-6', 'b12', 'sars-cov-2']);
 
-const PRODUCT_ALIASES: Record<string, RegExp> = Object.fromEntries(
-  PRODUCT_ORDER.map((p) => [p, new RegExp(`\\b${p.replace(/\s+/g, '[-\\s]?')}\\b`, 'i')]),
-);
+// Blend names that are also everyday words ("balance blood sugar", "calm
+// nerves", "go with the flow") only count as a product when written as a
+// name (FLOW, or Flow mid-sentence) or next to a product word.
+const AMBIGUOUS = new Set(['FLOW', 'EASE', 'CALM', 'PROTECT', 'BALANCE', 'ORIGINAL', 'DECAF', 'FOUNDERS', 'HEARTH', 'ESPRESSO', 'COLD BREW', 'DARK ROAST', 'STAR DAY']);
+const PRODUCT_WORD = '(?:blend|coffee|roast|beans?|pods?|bag|whole bean|ground|by purity)';
+
+function mentionsProduct(p: string, question: string): boolean {
+  const name = p.replace(/\s+/g, '[-\\s]?');
+  if (!AMBIGUOUS.has(p)) return new RegExp(`\\b${name}\\b`, 'i').test(question);
+  if (new RegExp(`\\b${name}\\b`).test(question)) return true; // ALL CAPS, as Purity writes its blends
+  const title = p.toLowerCase().replace(/\b\w/g, (c) => c.toUpperCase()).replace(/\s+/g, '[-\\s]?');
+  if (new RegExp(`[^.!?\\s]\\s+${title}\\b`).test(question)) return true; // "Is Flow tested", not sentence-initial
+  return new RegExp(`\\b${name}\\s+${PRODUCT_WORD}\\b|\\bpurity\\s+${name}\\b`, 'i').test(question);
+}
 
 export function detectLabQuestion(
   question: string,
   cls: { category?: string; blend?: string | null } = {},
 ): LabSignals {
-  const products = PRODUCT_ORDER.filter((p) => PRODUCT_ALIASES[p].test(question));
+  const products = PRODUCT_ORDER.filter((p) => mentionsProduct(p, question));
   if (cls.blend && !products.includes(cls.blend)) products.push(cls.blend);
   const labCtx = LAB_CTX.test(question);
   const anchored = labCtx || products.length > 0;
   const codes = [...new Set(ANALYTE_WORDS.filter((w) => w.re.test(question) && (!w.weak || anchored)).flatMap((w) => w.codes))];
   const reportTokens = [...new Set((question.match(REPORT_TOKEN) ?? []).map((t) => t.replace(/[^A-Za-z0-9-]/g, '')))]
-    .filter((t) => t.length >= 5 && /\d/.test(t) && !TOKEN_STOP.has(t.toLowerCase()))
+    .filter((t) => t.length >= 5 && (t.match(/\d/g) ?? []).length >= 4 && !TOKEN_STOP.has(t.toLowerCase()))
     .slice(0, 5);
   const aggregate =
     AGG_INTENT.test(question) && (OVER.test(question) || UNDER.test(question) || LIMIT_WORD.test(question)) && (labCtx || codes.length > 0);
@@ -162,6 +174,10 @@ function limitText(std: Standard, code: string, rec?: LabRecord): string {
   }
 }
 
+/** Set-aside marker; the reason can hold internal notes, so only staff see it. */
+const notScored = (r: LabRecord, elevated: boolean) =>
+  r.excluded ? ` · NOT SCORED (set aside${elevated && r.excluded_reason ? `: ${r.excluded_reason}` : ''})` : '';
+
 function recWho(r: LabRecord): string {
   const what = r.kind === 'product' ? (r.product || r.name || 'product') : `${r.name || r.id} (${r.kind === 'green' ? 'green lot' : r.kind})`;
   const ids = [r.report_number && `report ${r.report_number}`, r.sample_number && `sample ${r.sample_number}`].filter(Boolean).join(', ');
@@ -172,7 +188,7 @@ function recWho(r: LabRecord): string {
 function statusText(status: string, text: string): string {
   if (status === 'info') return 'measured (no limit applies)';
   if (status === 'incon') return "LOQ above limit (the lab's reporting limit sat above our limit; nothing was detected)";
-  if (status === 'cleared') return 'Cleared on retest (first result above the limit, retest within the limit)';
+  if (status === 'cleared') return 'Cleared on retest (first result over or near the limit, retest within the limit)';
   return text;
 }
 
@@ -231,7 +247,7 @@ function productBlock(p: string, recs: LabRecord[], std: Standard, codes: string
       const v = display(a.reading);
       panelRows.push({ code: c, label: label(std, c), value: v ? `${v} ${unit(std, c)}`.trim() : '', status: a.status, text: analyteLabel(a), date: iso(r.test_date) });
     }
-    lines.push(`- ${line} · tested ${iso(r.test_date)} · ${recWho(r)}${r.excluded ? ` · NOT SCORED: ${r.excluded_reason ?? 'set aside'}` : ''}`);
+    lines.push(`- ${line} · tested ${iso(r.test_date)} · ${recWho(r)}${notScored(r, elevated)}`);
     if (!used.includes(r)) used.push(r);
     if (codes.length) {
       // Asked about specifically: show the earlier results too, so a trend or a
@@ -294,7 +310,7 @@ function overLimitQuery(codes: string[], recs: LabRecord[], std: Standard, synce
   const scope = recs.filter((r) => r.status !== 'Awaiting sample');
   const want = codes.length ? codes : Object.keys(std.finished);
   type Hit = { r: LabRecord; c: string; line: string; status: string };
-  const over: Hit[] = [], near: Hit[] = [], cleared: Hit[] = [], loq: Hit[] = [];
+  const over: Hit[] = [], near: Hit[] = [], cleared: Hit[] = [], loq: Hit[] = [], detected: Hit[] = [];
   for (const r of scope) {
     if (r.excluded) continue;
     for (const c of want) {
@@ -305,23 +321,27 @@ function overLimitQuery(codes: string[], recs: LabRecord[], std: Standard, synce
       else if (a.status === 'watch') near.push(h);
       else if (a.status === 'cleared') cleared.push(h);
       else if (a.status === 'incon') loq.push(h);
+      else if (a.status === 'detect') detected.push(h);
     }
   }
   const what = codes.length ? codes.map((c) => label(std, c)).join(', ') : 'any contaminant';
   const who = elevated ? 'all non-competitor records (finished products, green lots, R&D)' : 'finished products';
   const content = [
     `STRUCTURED LAB QUERY (authoritative and complete for ${who} in the Purity Lab Testing tracker, synced ${iso(syncedAt)}).`,
-    `Query: results for ${what} over, near (above 80% of) or at the Purity Health Grade limit.`,
-    `Result: ${over.length} over the limit, ${near.length} near the limit, ${cleared.length} over on the first test but within the limit on retest, ${loq.length} where the lab's reporting limit sat above our limit (not a detection).`,
+    `Query: results for ${what} over or near (above 80% of) the Purity Health Grade limit, or detected where any detection is flagged.`,
+    `Result: ${over.length} over the limit, ${near.length} near the limit, ${detected.length} detected where any detection is flagged (glyphosate, AMPA), ${cleared.length} over or near the limit on the first test but within the limit on retest, ${loq.length} where the lab's reporting limit sat above our limit (not a detection).`,
     `Any record not listed below is within the limit, not detected, or not tested for ${what}.`,
     ...(over.length ? ['Over the limit:', ...over.slice(0, MAX_LIST).map((h) => h.line)] : ['Over the limit: none.']),
     ...(near.length ? ['Near the limit:', ...near.slice(0, MAX_LIST).map((h) => h.line)] : []),
+    ...(detected.length ? ['Detected (flagged if detected, no numeric limit):', ...detected.slice(0, MAX_LIST).map((h) => h.line)] : []),
     ...(cleared.length ? ['Cleared on retest:', ...cleared.slice(0, 15).map((h) => h.line)] : []),
   ].join('\n');
   return chunk(`Lab Testing tracker query: ${what} against the Health Grade limits`, content, []);
 }
 
-function reportBlock(tokens: string[], recs: LabRecord[], std: Standard, syncedAt: string): LabChunk {
+function reportBlock(tokens: string[], recsIn: LabRecord[], std: Standard, syncedAt: string, elevated: boolean): LabChunk {
+  // Samples still at the lab are internal; customer service only sees results.
+  const recs = elevated ? recsIn : recsIn.filter((r) => r.status !== 'Awaiting sample');
   const norm = (s?: string | null) => (s ?? '').toLowerCase().replace(/[^a-z0-9]/g, '');
   const hits = recs.filter((r) =>
     tokens.some((t) => {
@@ -339,7 +359,7 @@ function reportBlock(tokens: string[], recs: LabRecord[], std: Standard, syncedA
       .filter(Boolean)
       .map((l) => `  - ${l}`);
     return [
-      `${recWho(r)} · tested ${iso(r.test_date)} · overall: ${r.status === 'Awaiting sample' ? 'awaiting results' : overall(r, std)}${r.excluded ? ` · NOT SCORED: ${r.excluded_reason ?? 'set aside'}` : ''}`,
+      `${recWho(r)} · tested ${iso(r.test_date)} · overall: ${r.status === 'Awaiting sample' ? 'awaiting results' : overall(r, std)}${notScored(r, elevated)}`,
       ...lines,
     ].join('\n');
   });
@@ -374,7 +394,7 @@ function overviewBlock(recs: LabRecord[], std: Standard, today: string, syncedAt
     const tested = recs.filter((r) => r.kind === 'product' && r.product === p && r.status !== 'Awaiting sample');
     const contam = MATRIX.filter((c) => c !== 'CGA').map((c) => latestFor(recs, p, c)).filter(Boolean) as LabRecord[];
     if (!tested.length) return `- ${p}: no results on file`;
-    const worst = contam.map((r) => recordLabel(r, std)).sort((a, b) => (b.status === 'fail' ? 1 : 0) - (a.status === 'fail' ? 1 : 0))[0];
+    const worst = contam.map((r) => recordLabel(r, std)).sort((a, b) => RANK[b.status] - RANK[a.status])[0];
     return `- ${p}: most recent test ${iso(tested[0].test_date)}; latest contaminant results overall: ${worst ? statusText(worst.status, worst.label) : 'none on file'}`;
   });
   return chunk('Lab Testing tracker: testing overview', [head, ...lines].join('\n'), [{ label: 'COA quick view', url: '/coa' }]);
@@ -403,7 +423,7 @@ function greenBlock(signals: LabSignals, recs: LabRecord[], std: Standard, synce
     `GREEN COFFEE LOTS (staff only; Purity Lab Testing tracker, synced ${iso(syncedAt)}). Scored against ${std.green[codes[0]]?.version ?? 'the Green Arabica requirements'}. Below a minimum (CGA, caffeine) is flagged for review, not failed, because labs report CGA on different bases.`,
     `Scope: ${rows.length} green lot record(s)${signals.year ? ` tested in ${signals.year}` : ''} with results for ${what}; ${rows.filter((x) => x.flagged).length} flagged (over or near a limit, or below a minimum).`,
     signals.aggregate ? 'Flagged lots (complete list for this scope):' : 'Lots, newest first:',
-    ...(list.length ? list.slice(0, MAX_LIST).map((x) => `- ${iso(x.r.test_date)} · ${recWho(x.r)}${x.r.excluded ? ' · NOT SCORED (set aside)' : ''}: ${x.parts.join('; ')}`) : ['- none']),
+    ...(list.length ? list.slice(0, MAX_LIST).map((x) => `- ${iso(x.r.test_date)} · ${recWho(x.r)}${notScored(x.r, true)}: ${x.parts.join('; ')}`) : ['- none']),
     ...(list.length > MAX_LIST ? [`(${list.length - MAX_LIST} more not shown)`] : []),
   ].join('\n');
   return chunk(`Lab Testing tracker: green lots${signals.year ? ` ${signals.year}` : ''}`, content, [{ label: 'Green lots', url: '/coa/green' }]);
@@ -420,12 +440,13 @@ export function buildLabChunks(
   opts: { today: string; syncedAt: string; elevated: boolean },
 ): LabChunk[] {
   // Competitors never enter Ask; customer service sees finished products only.
-  const recs = recsIn.filter((r) => r.kind !== 'competitor' && (opts.elevated || r.kind === 'product'));
+  const allowed = opts.elevated ? ['product', 'green', 'rd', 'roasted-other'] : ['product'];
+  const recs = recsIn.filter((r) => allowed.includes(r.kind));
   if (!recs.length) return [];
   const out: LabChunk[] = [];
 
   if (signals.reportTokens.length) {
-    out.push(reportBlock(signals.reportTokens, recs, std, opts.syncedAt));
+    out.push(reportBlock(signals.reportTokens, recs, std, opts.syncedAt, opts.elevated));
   }
   const green = opts.elevated && signals.green;
   if (green) out.push(greenBlock(signals, recs, std, opts.syncedAt));
@@ -462,13 +483,11 @@ export async function fetchLabEvidence(
 ): Promise<LabChunk[]> {
   if (!signals.fire) return [];
   try {
-    let q = client
-      .from('lab_results')
-      .select('id, kind, product, name, description, sample_type, status, test_date, lab, analytes, certificate_url, order_number, report_number, sample_number, excluded, excluded_reason, synced_at')
-      .neq('kind', 'competitor');
-    if (!elevated) q = q.eq('kind', 'product');
+    // Allowlist, so a new kind (or a third-party sample not yet reclassified)
+    // fails closed: competitor records never reach Ask for any role.
+    const kinds = elevated ? ['product', 'green', 'rd', 'roasted-other'] : ['product'];
     const [{ data: rows, error }, { data: stdRows, error: e2 }] = await Promise.all([
-      q.order('test_date', { ascending: false, nullsFirst: false }).order('id', { ascending: false }).range(0, 4999),
+      fetchAll(client, kinds),
       client.from('lab_standard').select('*'),
     ]);
     if (error) throw error;
@@ -485,6 +504,23 @@ export async function fetchLabEvidence(
     console.error('[lab-lookup] failed, continuing without lab evidence:', e);
     return [];
   }
+}
+
+const LAB_COLS = 'id, kind, product, name, description, sample_type, status, test_date, lab, analytes, certificate_url, order_number, report_number, sample_number, excluded, excluded_reason, synced_at';
+
+/** Every visible row, paged past PostgREST's per-request cap (1,000 by default). */
+async function fetchAll(client: SupabaseClient, kinds: string[]): Promise<{ data: LabRecord[] | null; error: unknown }> {
+  const out: LabRecord[] = [];
+  for (let from = 0; from < 20000; from += 1000) {
+    const { data, error } = await client
+      .from('lab_results').select(LAB_COLS).in('kind', kinds)
+      .order('test_date', { ascending: false, nullsFirst: false }).order('id', { ascending: false })
+      .range(from, from + 999);
+    if (error) return { data: null, error };
+    out.push(...((data ?? []) as LabRecord[]));
+    if ((data ?? []).length < 1000) break;
+  }
+  return { data: out, error: null };
 }
 
 /** Ask uses Brian's tracker for COA answers unless HUB_COA_SOURCE=legacy. */

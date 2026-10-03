@@ -6,7 +6,7 @@ import Link from 'next/link';
 import { cookies } from 'next/headers';
 import { redirect } from 'next/navigation';
 import { supabaseServer } from '@/lib/supabase';
-import { getHubRole } from '@/lib/lab-data';
+import { getHubRole, isStaffRole } from '@/lib/lab-data';
 import { claimVerdict, isVerdict, VERDICT_CHIP, VERDICT_LABEL } from '@/lib/claim-verdict';
 import { Card, claimsSubNav, SubNav } from '../../_components/hub';
 import { AuditForm } from '../_components/AuditForm';
@@ -23,8 +23,9 @@ const CONTEXT_FOR_CHANNEL: Record<string, string> = { 'Product page': 'product_p
 export default async function CheckPage({ searchParams }: { searchParams: Promise<{ id?: string; claim?: string }> }) {
   const { id, claim: claimText } = await searchParams;
   const sb = supabaseServer(await cookies());
-  const { userId } = await getHubRole(sb);
+  const { userId, role } = await getHubRole(sb);
   if (!userId) redirect('/login?next=/claims/check');
+  const staff = isStaffRole(role);
 
   const { data: claim } = id
     ? await sb.from('lab_claims').select('id, claim, channel, risk, evidence_needed, evidence_type, notes').eq('id', id).maybeSingle()
@@ -52,13 +53,17 @@ export default async function CheckPage({ searchParams }: { searchParams: Promis
               </div>
               {claim.notes && <p className="mt-1 text-purity-muted dark:text-purity-mist">{claim.notes}</p>}
               {claim.evidence_needed && <p className="mt-1"><span className="font-semibold">Evidence needed:</span> {claim.evidence_needed}</p>}
-              <p className="mt-1 text-xs text-purity-muted dark:text-purity-mist">Checking it saves the verdict to this claim in the library.</p>
+              <p className="mt-1 text-xs text-purity-muted dark:text-purity-mist">
+                {staff
+                  ? 'Checking this wording unchanged saves the verdict to the claim in the library. Checking an edited version does not.'
+                  : 'Your check is saved with your recent checks. Editors and admins set the library verdict.'}
+              </p>
             </div>
           )}
           <AuditForm
             initialDraft={claim?.claim ?? (typeof claimText === 'string' ? claimText.slice(0, 4000) : '')}
             initialContext={(claim?.channel && CONTEXT_FOR_CHANNEL[claim.channel]) || 'newsletter'}
-            claimId={claim?.id}
+            claimId={staff ? claim?.id : undefined}
           />
         </Card>
 

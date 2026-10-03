@@ -1,5 +1,6 @@
 import { cookies } from 'next/headers';
 import { supabaseServer } from '@/lib/supabase';
+import { safeHref } from '@/lib/safe-url';
 import { getCoaViewer, CS_SCOPE } from '@/lib/coa-scope';
 import { CiteButton } from './_components/CiteButton';
 import { DebouncedTitleInput } from './_components/DebouncedTitleInput';
@@ -180,7 +181,7 @@ export default async function BibliographyPage({ searchParams }: { searchParams:
                     <td className="p-2">
                       {r.doi ? (
                         <a
-                          href={r.drive_url ?? `https://doi.org/${r.doi}`}
+                          href={safeHref(r.drive_url) ?? `https://doi.org/${encodeURIComponent(r.doi ?? '')}`}
                           target="_blank"
                           rel="noreferrer"
                           className="text-purity-green underline dark:text-purity-aqua"

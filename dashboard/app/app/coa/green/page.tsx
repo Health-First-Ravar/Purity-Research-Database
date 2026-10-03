@@ -2,6 +2,7 @@
 import { cookies } from 'next/headers';
 import { redirect } from 'next/navigation';
 import { supabaseServer } from '@/lib/supabase';
+import { safeHref } from '@/lib/safe-url';
 import { analyteLabel, analyteStatus, display, recordLabel } from '@/lib/lab-status';
 import { getHubRole, isStaffRole, loadLab, niceDate } from '@/lib/lab-data';
 import { Card, coaSubNav, SubNav, TrackerNote } from '../../_components/hub';
@@ -38,7 +39,7 @@ export default async function GreenLotsPage() {
                         return <span key={c} className="m-0.5 inline-block"><StatusCell status={a.status} title={analyteLabel(a)}>{c} {display(a.reading)}</StatusCell></span>;
                       })}
                     </td>
-                    <td className="text-sm">{r.certificate_url ? <a className="text-purity-teal underline dark:text-purity-glow" href={r.certificate_url} target="_blank" rel="noopener noreferrer">Certificate</a> : null}</td>
+                    <td className="text-sm">{safeHref(r.certificate_url) ? <a className="text-purity-teal underline dark:text-purity-glow" href={safeHref(r.certificate_url)!} target="_blank" rel="noopener noreferrer">Certificate</a> : null}</td>
                   </tr>
                 );
               })}

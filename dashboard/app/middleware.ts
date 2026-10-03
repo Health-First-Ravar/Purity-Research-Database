@@ -3,6 +3,11 @@ import { createServerClient, type CookieOptions } from '@supabase/ssr';
 
 const PUBLIC_PATHS = ['/login', '/auth/callback', '/auth/update-password'];
 
+// Overhaul preview deployments are for admins only (decision 2026-10-03).
+// Production (VERCEL_ENV=production) and local dev are never gated.
+const PREVIEW = process.env.VERCEL_ENV === 'preview';
+const PREVIEW_NOTICE = '/preview-only';
+
 export async function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl;
 
@@ -34,6 +39,19 @@ export async function middleware(req: NextRequest) {
     url.pathname = '/login';
     url.searchParams.set('next', pathname);
     return NextResponse.redirect(url);
+  }
+
+  if (PREVIEW && pathname !== PREVIEW_NOTICE) {
+    const { data: profile } = await supabase.from('profiles').select('role').eq('id', user.id).single();
+    if (profile?.role !== 'admin') {
+      if (pathname.startsWith('/api/')) {
+        return NextResponse.json({ error: 'preview_admins_only' }, { status: 403 });
+      }
+      const url = req.nextUrl.clone();
+      url.pathname = PREVIEW_NOTICE;
+      url.search = '';
+      return NextResponse.redirect(url);
+    }
   }
 
   return res;

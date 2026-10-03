@@ -9,6 +9,7 @@ import { redirect } from 'next/navigation';
 import { supabaseServer } from '@/lib/supabase';
 import { getHubRole, niceDate, TRACKER_URL } from '@/lib/lab-data';
 import { isVerdict, VERDICT_CHIP, VERDICT_LABEL, VERDICT_ORDER } from '@/lib/claim-verdict';
+import { safeHref } from '@/lib/safe-url';
 import { Card, claimsSubNav, Kpi, KpiRow, SubNav } from '../_components/hub';
 
 export const dynamic = 'force-dynamic';
@@ -111,7 +112,7 @@ export default async function ClaimsPage({ searchParams }: { searchParams: Promi
                           <ul className="mt-1 space-y-0.5">
                             {(c.locations ?? []).slice(0, 8).map((l, i) => (
                               <li key={i}>
-                                {l.url ? <a href={l.url} target="_blank" rel="noopener noreferrer" className="underline">{l.title || l.url}</a> : l.title}
+                                {safeHref(l.url) ? <a href={safeHref(l.url)!} target="_blank" rel="noopener noreferrer" className="underline">{l.title || l.url}</a> : (l.title || l.url)}
                                 {l.status ? ` · ${l.status}` : ''}{l.date ? ` · ${niceDate(l.date)}` : ''}
                               </li>
                             ))}

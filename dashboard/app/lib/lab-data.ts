@@ -30,14 +30,21 @@ export const isStaffRole = (r: HubRole) => r === 'admin' || r === 'editor';
 export type LabData = { recs: LabRecord[]; std: Standard; syncedAt: string | null };
 
 export async function loadLab(sb: SupabaseClient): Promise<LabData> {
-  const [{ data: rows, error }, { data: stdRows, error: e2 }] = await Promise.all([
-    sb.from('lab_results')
-      .select('id, kind, product, name, description, sample_type, status, test_date, lab, analytes, certificate_url, order_number, report_number, sample_number, excluded, excluded_reason, synced_at')
-      .order('test_date', { ascending: false, nullsFirst: false })
-      .order('id', { ascending: false })
-      .range(0, 4999),
-    sb.from('lab_standard').select('*'),
-  ]);
+  // Paged: PostgREST caps each request (1,000 rows by default), and a silently
+  // truncated list would drop the oldest records from every view.
+  const page = (from: number) => sb.from('lab_results')
+    .select('id, kind, product, name, description, sample_type, status, test_date, lab, analytes, certificate_url, order_number, report_number, sample_number, excluded, excluded_reason, synced_at')
+    .order('test_date', { ascending: false, nullsFirst: false })
+    .order('id', { ascending: false })
+    .range(from, from + 999);
+  const [first, { data: stdRows, error: e2 }] = await Promise.all([page(0), sb.from('lab_standard').select('*')]);
+  let error = first.error;
+  const rows = [...(first.data ?? [])];
+  for (let from = 1000; !error && rows.length === from && from < 20000; from += 1000) {
+    const next = await page(from);
+    error = next.error;
+    rows.push(...(next.data ?? []));
+  }
   if (error) throw new Error(`lab_results: ${error.message}`);
   if (e2) throw new Error(`lab_standard: ${e2.message}`);
   const recs = (rows ?? []) as (LabRecord & { synced_at: string })[];

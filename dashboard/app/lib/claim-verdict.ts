@@ -31,18 +31,31 @@ export const VERDICT_CHIP: Record<ClaimVerdict, string> = {
 export const VERDICT_ORDER: ClaimVerdict[] = ['do_not_use', 'reword', 'weak', 'supported', 'no_health_claim'];
 
 const DISEASE_FLAGS = new Set(['cure_word', 'prevent_word', 'treat_word', 'cures_disease']);
+const KNOWN_FLAGS = new Set([
+  ...DISEASE_FLAGS, 'overstated_effect', 'single_roast_overclaim', 'in_vitro_to_human_jump', 'observational_as_causal',
+  'unfalsifiable_clean_claim', 'organic_equals_healthier', 'bioavailability_assumed', 'unspecified_compound', 'unspecified_dose',
+]);
+// The auditor's compound list is closed, so "no compound found" does not mean
+// "no health claim": wording like "supports immunity" names no compound.
+const HEALTH_WORDS =
+  /\b(health|healthy|support|boost|benefit|immun|brain|cognit|focus|energy|liver|gut|digest|heart|cardio|blood|sugar|glucose|metabol|weight|inflamm|antioxidant|cancer|disease|diabet|alzheimer|memory|mood|sleep|stress|longevity|detox|cleanse|protect|wellness|nutrient)/i;
 
 export function claimVerdict(a: {
   regulatory_flags?: string[] | null;
   evidence_tier?: number | null;
   compounds_detected?: string[] | null;
+  draft_text?: string | null;
 }): ClaimVerdict {
-  const flags = a.regulatory_flags ?? [];
+  const flags = (a.regulatory_flags ?? []).filter((f) => KNOWN_FLAGS.has(f));
   if (flags.some((f) => DISEASE_FLAGS.has(f))) return 'do_not_use';
   if (flags.length) return 'reword';
   const tier = a.evidence_tier ?? null;
-  if (tier == null) return (a.compounds_detected ?? []).length ? 'weak' : 'no_health_claim';
+  if (tier == null) {
+    const healthish = (a.compounds_detected ?? []).length > 0 || HEALTH_WORDS.test(a.draft_text ?? '');
+    return healthish ? 'weak' : 'no_health_claim';
+  }
   return tier <= 4 ? 'supported' : 'weak';
 }
 
-export const isVerdict = (v: unknown): v is ClaimVerdict => typeof v === 'string' && v in VERDICT_LABEL;
+export const isVerdict = (v: unknown): v is ClaimVerdict =>
+  typeof v === 'string' && Object.prototype.hasOwnProperty.call(VERDICT_LABEL, v);

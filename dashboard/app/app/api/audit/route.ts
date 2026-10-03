@@ -1,7 +1,8 @@
 // POST /api/audit — claim check (Bioavailability Gap Detector) for Claims > Check.
 // Auth required; everyone may check. Persists to public.claim_audits (RLS scoped
-// per user; editor sees all). With claim_id (a claim from Brian's library) the
-// derived verdict is also saved as that claim's research verdict.
+// per user; editor sees all). When an editor or admin checks a library claim's
+// own wording (claim_id + unchanged text), the verdict is also saved as that
+// claim's research verdict in the Hub.
 
 import { NextResponse } from 'next/server';
 import { cookies } from 'next/headers';
@@ -9,6 +10,7 @@ import { supabaseServer, supabaseAdmin } from '@/lib/supabase';
 import { auditClaim, AuditUnparseableError, type AuditContext } from '@/lib/rag/audit-claim';
 import { checkChatRateLimit } from '@/lib/rate-limit';
 import { claimVerdict } from '@/lib/claim-verdict';
+import { hasElevatedAccess } from '@/lib/auth-roles';
 
 export const dynamic = 'force-dynamic';
 
@@ -64,12 +66,18 @@ export async function POST(req: Request) {
 
   const verdict = claimVerdict(audit);
 
-  // A library claim id must exist; anything else is ignored rather than stored.
+  // A check saves a library claim's research verdict only when an editor or
+  // admin checks the library wording itself. Anyone may check a rewrite of it,
+  // but that result belongs to the rewrite, not to the claim on the site.
   const adb = supabaseAdmin();
   let labClaimId: string | null = null;
   if (typeof body.claim_id === 'string' && /^[A-Za-z0-9_-]{1,40}$/.test(body.claim_id)) {
-    const { data: claim } = await adb.from('lab_claims').select('id').eq('id', body.claim_id).maybeSingle();
-    labClaimId = claim?.id ?? null;
+    const { data: profile } = await sb.from('profiles').select('role').eq('id', auth.user.id).single();
+    if (hasElevatedAccess(profile?.role)) {
+      const { data: claim } = await adb.from('lab_claims').select('id, claim').eq('id', body.claim_id).maybeSingle();
+      const norm = (t: string) => t.replace(/\s+/g, ' ').trim().toLowerCase();
+      if (claim && norm(claim.claim) === norm(draft)) labClaimId = claim.id;
+    }
   }
 
   // Persist with admin client so we always insert (RLS still allows
