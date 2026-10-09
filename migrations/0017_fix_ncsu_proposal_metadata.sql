@@ -1,7 +1,6 @@
--- PROPOSED, NOT APPLIED. Data fix (no schema change) for the research library.
--- To apply after approval: move this file to migrations/0017_fix_ncsu_proposal_metadata.sql
--- and run `npm run migrate` from dashboard/app. (Files in migrations/proposed/ are
--- not picked up by the runner.)
+-- Data fix (no schema change) for the research library. Approved and applied by
+-- Jeremy on 2026-10-09 (moved here from migrations/proposed/ and run with
+-- `npm run migrate`).
 --
 -- sources 3afecc03-50b9-40d9-a795-fcc0ad577c54 is a one-page lab services
 -- proposal from NC State, parsed with its contact block (an e-mail address and a

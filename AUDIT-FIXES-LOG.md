@@ -5792,3 +5792,55 @@ Not done, needs Jeremy: push; approve or drop the proposed data fix
 preview itself (this session cannot sign in to it).
 
 --- end Session 15 ---
+
+---
+
+# SESSION 15b — 2026-10-09 · fixes from the preview re-test (commit babb96a)
+
+Jeremy's manual checks passed (print packet, password reset on the preview,
+signed-out header). The Chrome re-test: 23 pass, 3 unclear, 1 fail.
+
+- **Sign out did not end the session (test 27, FAIL)** — **FIXED**
+  (`b158b02`). After Sign out, /claims and /admin still loaded signed in and
+  the `sb-...-auth-token` cookie was still set. The browser-only
+  `signOut()` was not enough (another open tab's client can also write a
+  refreshed session back). New `POST /auth/signout` revokes the session
+  with Supabase (`scope: 'global'`) and expires every Supabase auth cookie
+  on the response, chunked ones included; the button then clears the tab's
+  client and loads /login with a full navigation. Checked locally: the route
+  expires `sb-*-auth-token.0/.1` and the code verifier and leaves other
+  cookies. Needs re-testing on the preview.
+- **Raw file names as source titles (tests 8, 9)** — **FIXED** (`751bc1c`).
+  `displaySourceTitle()`: "The Coffee Guide to Better Health (Ildi Revi)",
+  and file-name titles turned into words. Ask, claim checker, Reva.
+- **Status panel note read oddly (tests 2, 10)** — **FIXED** (`8045692`).
+  Now "Over a limit: 0. Near a limit: 1 (HEARTH). Detected: 0. LOQ above
+  limit: 13 (nothing detected; the lab's reporting limit sits above ours)."
+- **Em dashes in Hub copy** — **FIXED** (`6d27064`): "Editor — Escalation
+  queue", the Metrics ratings line, and the other prose dashes in Hub pages,
+  the invite email and the sign-in page; the in-app Reva helper now strips
+  dashes and its blend notes are positioning, not outcomes. Left as is: the
+  "—" placeholder in empty table cells, model prompts, and the legacy
+  /reports pages (retired at switch-over).
+- **Answer wording (tests 5, 8, 9)** — **FIXED** (`2e27ee7`): blend comparisons
+  only as lab numbers, no "the most" / "obvious fit" / "more pronounced", no
+  intensifiers ("significantly", "well-documented") unless attributed; a new
+  guardrail check flags them so the repair pass rewrites them.
+- **Migration 0017** applied by Jeremy; the file now lives in `migrations/`.
+  Test 19 confirms it: the entry is now "Purity Coffee Proposal: Physicochemical
+  Analyses (Dr. Gabriel Keith Harris ...)" with a blank year, which is why a
+  title search for "gkharris" finds nothing.
+
+Not changed, by design:
+- Test 11 ("would it still ship?") answered as Customer answer and escalated:
+  the model sends operations questions it cannot answer to Ildi or Jeremy
+  (rule 6(d)). Listing "hold, retest, release" as unknowns is the refusal,
+  not a claim.
+- Test 13: Ildi's book was not among the cited sources for that claim, so
+  its label could not be seen; the label code is covered by `evidenceTypeLabel`.
+- The two 503s on /coa/protect (`/.well-known/vercel/jwe`, `HEAD /coa/protect`)
+  come from Vercel's deployment protection on the preview, not the app.
+- Ask answers take 15 to 30 seconds (Metrics target 4s). Not addressed here;
+  streaming the answer is the main lever.
+- The 2:46 PM sync left no row: the scheduled task's step 5 still stops on
+  UNCHANGED until it is updated to call `--unchanged` (waiting on Jeremy's OK).
