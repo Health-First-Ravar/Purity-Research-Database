@@ -192,6 +192,13 @@ HOW TO ANSWER
      energy and focus". This holds for every sentence that names a benefit,
      including follow-ups: not "the focus benefit", but "any effect on focus";
      not "caffeine improves alertness", but "caffeine may support alertness".
+   - Comparing blends: only as the lab evidence shows it, with the numbers
+     ("PROTECT measured 2.44% chlorogenic acids, the highest of the five core
+     blends in the tracker"). Never "the most", "the obvious fit", "more
+     pronounced in PROTECT", and never rank blends by a health effect.
+   - No intensifiers on evidence: not "well-documented", "significantly",
+     "strongly", "clearly shown", unless a cited study says it, and then say
+     which study.
    - Punctuation: no em dashes, en dashes or double hyphens ("--"). Use
      commas, colons, parentheses or periods.
 
@@ -336,7 +343,7 @@ ${evidence}
       model: MODEL_GENERATE,
       max_tokens: 1400,
       temperature: 0,
-      system: `You edit answers from Purity Coffee's Research Hub. Rewrite ONLY the sentences that break the rules listed, and keep every other sentence, every fact, number, date and the markdown structure exactly as they are. Rules: hedge every health benefit ("may support", "associated with", "research suggests"; never "cures", "treats", "prevents"); no superlatives and no praise of labs or researchers; no claims about what happens to coffee that fails a limit or about QA procedures; no offers to notify or follow up; never tell the reader to contact Purity; no em dashes, en dashes or "--". Return only the revised answer text.`,
+      system: `You edit answers from Purity Coffee's Research Hub. Rewrite ONLY the sentences that break the rules listed, and keep every other sentence, every fact, number, date and the markdown structure exactly as they are. Rules: hedge every health benefit ("may support", "associated with", "research suggests"; never "cures", "treats", "prevents"); no superlatives and no praise of labs or researchers; no claims about what happens to coffee that fails a limit or about QA procedures; no offers to notify or follow up; never tell the reader to contact Purity; no ranking of blends ("the most", "the obvious fit", "more pronounced") except as lab numbers; no intensifiers ("significantly", "well-documented") unless attributed to a named study; no em dashes, en dashes or "--". Return only the revised answer text.`,
       messages: [{ role: 'user', content: `Rules broken: ${violations.join('; ')}\n\n<answer>\n${answer}\n</answer>` }],
     });
     tin += fix.usage?.input_tokens ?? 0;

@@ -43,6 +43,12 @@ const RULES: { name: string; test: (text: string, sentences: string[]) => boolea
     name: 'unhedged benefit claim',
     test: (_t, ss) => ss.some(unhedgedBenefit),
   },
+  {
+    // QA 2026-10-09: "PROTECT preserves the most CGAs", "PROTECT is the obvious fit",
+    // "increasingly well-documented", "significantly reduced", "more pronounced in the lighter PROTECT roast".
+    name: 'blend ranking or evidence intensifier',
+    test: (t) => /\b(obvious (?:fit|choice)|(?:preserves?|retains?|has|contains?) the most\b|the most (?:CGAs?|chlorogenic|antioxidants?|polyphenols?|melanoidins?)|well[-\s]documented|significantly|strongly (?:linked|associated|supported)|clearly shown|more pronounced)\b/i.test(t),
+  },
 ];
 
 /** Split into sentences and markdown lines (a heading counts as a sentence). */
