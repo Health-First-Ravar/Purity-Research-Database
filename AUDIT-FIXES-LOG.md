@@ -5517,3 +5517,14 @@ locally with `/api/chat` stubbed: the confirmation shows, Keep keeps the
 conversation, Clear empties it, and no native dialog fires. Not changed (not
 in scope, both behind staff pages): `window.confirm` in the editor's "Promote
 to canon" button and `confirm` in the legacy /reports/limits soft-delete.
+
+## Item 12 — Home "Needs attention" clipped long lot names — **FIXED**
+
+Cause: `.hub-attn` is a two-column grid (`6px 1fr`) with overflow hidden; the
+text column had the default `min-width: auto`, so a lot name with no spaces
+(Clearpath_Fernando_Ospina_El_Granizo_Washed) set its width and was cut off.
+`AttentionList` (`app/_components/hub.tsx`, used on Home and the COA quick
+view) now gives the text column `min-w-0` and the title and detail
+`break-words` plus `overflow-wrap:anywhere`. At 390px the name wraps
+("..._El_Grani / zo_Washed: Cadmium 13.5 ppb"); Home has no element past the
+viewport edge (was 422px).

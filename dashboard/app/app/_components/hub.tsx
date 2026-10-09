@@ -35,9 +35,11 @@ export function AttentionList({ items, limit }: { items: Attention[]; limit?: nu
         const body = (
           <>
             <div className="bar" style={{ background: SEV_COLOR[i.sev] }} />
-            <div>
-              <h3 className="mb-0.5 text-[0.95rem] font-semibold">{i.title}</h3>
-              <p className="text-sm text-purity-muted dark:text-purity-mist">{i.detail}</p>
+            {/* min-w-0 + overflow-wrap:anywhere so long lot names with no spaces
+                (Clearpath_Fernando_Ospina_El_Granizo_Washed) wrap instead of clipping. */}
+            <div className="min-w-0">
+              <h3 className="mb-0.5 break-words text-[0.95rem] font-semibold [overflow-wrap:anywhere]">{i.title}</h3>
+              <p className="break-words text-sm text-purity-muted [overflow-wrap:anywhere] dark:text-purity-mist">{i.detail}</p>
             </div>
           </>
         );
