@@ -5,6 +5,7 @@
 
 import { useState } from 'react';
 import { claimVerdict, VERDICT_CHIP, VERDICT_LABEL, type ClaimVerdict } from '@/lib/claim-verdict';
+import { evidenceTypeLabel } from '@/lib/rag/source-label';
 
 export type AuditResponse = {
   id: string;
@@ -28,6 +29,7 @@ export type AuditResponse = {
     heading: string | null;
     content: string;
     similarity: number;
+    source_type?: string | null;
   }[];
   cost_usd: number;
   latency_ms: number;
@@ -203,7 +205,7 @@ export function AuditResult({ result }: { result: AuditResponse }) {
               <li key={c.id} className="rounded border border-purity-bean/10 bg-purity-cream/40 p-3 text-xs dark:border-purity-paper/10 dark:bg-purity-ink/40">
                 <div className="flex items-center justify-between text-[11px] text-purity-muted dark:text-purity-mist">
                   <span>
-                    {c.kind}
+                    {evidenceTypeLabel(c)}
                     {c.chapter ? ` · ch ${c.chapter}` : ''}
                   </span>
                   <span>sim {c.similarity.toFixed(3)}</span>

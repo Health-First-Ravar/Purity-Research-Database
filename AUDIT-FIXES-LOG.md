@@ -5576,3 +5576,19 @@ form: cure/curative, prevents/prevention, treat/treatment); other flags pass
 through. It only removes, never adds, so "a treat with breakfast" is not
 flagged. The prompt also says not to raise them. Same claim now: Do not use,
 `prevent_word` + `cures_disease`. `AUDITOR_VERSION` → 2026-10-09.3.
+
+## Item 15 — cited evidence labelled Ildi's book and the CHC doc `research_paper` — **FIXED** (display)
+
+Cause: every file under `knowledge-base/research/` is stored as kind
+`research_paper`, including "The Coffee Guide to Better Health" (Ildi's book,
+no `source_type`) and "Circular Health Coffee for Wellness, Sustainability..."
+(`source_type` book). New `evidenceTypeLabel()` (`lib/rag/source-label.ts`)
+reads the title and `sources.metadata.source_type` before the stored kind:
+Ildi's book, CHC framework, review, primary study, book, report, Purity brand
+doc, Reva skill, else "research paper". Used in the claim checker's cited
+evidence, Ask's source tooltips and Reva's source list, and in the evidence
+block the claim checker's model reads (so it does not treat the book as a
+primary study when tiering). The audit's evidence now carries `source_type`.
+The stored `sources.kind` is unchanged: re-kinding those rows is a data
+change to the shared production database, and retrieval filters by kind, so
+I left it for your call. `AUDITOR_VERSION` → 2026-10-09.4.

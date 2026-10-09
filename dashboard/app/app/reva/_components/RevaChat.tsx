@@ -5,6 +5,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 import { ModeSwitcher, type Mode } from './ModeSwitcher';
+import { evidenceTypeLabel } from '@/lib/rag/source-label';
 
 export type RevaMessage = {
   id: string;
@@ -173,7 +174,7 @@ export function RevaChat({
                     <ul className="mt-1 space-y-1">
                       {t.cited_chunks.map((c) => (
                         <li key={c.id}>
-                          {c.title}{c.chapter ? ` · ch ${c.chapter}` : ''} <span className="opacity-60">({c.kind})</span>
+                          {c.title}{c.chapter ? ` · ch ${c.chapter}` : ''} <span className="opacity-60">({evidenceTypeLabel(c)})</span>
                         </li>
                       ))}
                     </ul>

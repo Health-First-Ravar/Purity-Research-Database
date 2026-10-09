@@ -12,6 +12,7 @@ import { embedOne } from '../voyage';
 import { supabaseAdmin } from '../supabase';
 import { stripDashes } from './sanitize';
 import { CUSTOMER_EXCLUDED_TYPES, type SourceType } from './source-classify';
+import { evidenceTypeLabel } from './source-label';
 
 export type AuditContext = 'newsletter' | 'module' | 'chat_answer' | 'product_page' | 'other';
 
@@ -47,7 +48,7 @@ export type AuditChunk = {
  * Bumped whenever the prompt, flag rules or retrieval change. /api/audit reuses
  * a stored audit of the same draft and context only from the same version.
  */
-export const AUDITOR_VERSION = '2026-10-09.3';
+export const AUDITOR_VERSION = '2026-10-09.4';
 
 export type ClaimAudit = {
   auditor_version: string;
@@ -156,7 +157,7 @@ export async function auditClaim(args: {
     ? chunks
         .map(
           (c, i) =>
-            `--- chunk ${i + 1} (id=${c.id}, ${c.kind}:${c.title}${
+            `--- chunk ${i + 1} (id=${c.id}, ${evidenceTypeLabel(c)}: ${c.title}${
               c.chapter ? `, ch ${c.chapter}` : ''
             }, sim=${c.similarity.toFixed(3)}) ---\n${
               c.heading ? `# ${c.heading}\n` : ''

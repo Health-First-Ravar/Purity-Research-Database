@@ -8,6 +8,7 @@ import { useToast } from '../../_components/Toast';
 import { AnswerText } from './AnswerText';
 import { safeHref } from '@/lib/safe-url';
 import type { LabPanel } from '@/lib/rag/lab-lookup';
+import { evidenceTypeLabel } from '@/lib/rag/source-label';
 
 type Turn = {
   role: 'user' | 'assistant';
@@ -245,7 +246,7 @@ export default function ChatClient({ paperCount, initialQuestion, deepMode }: { 
                       sources: {t.meta.cited_chunks.map((c, k) => (
                         <span key={c.id}>
                           {k > 0 && ', '}
-                          <span title={c.kind}>{c.title}{c.chapter ? ` (ch ${c.chapter})` : ''}</span>
+                          <span title={evidenceTypeLabel(c)}>{c.title}{c.chapter ? ` (ch ${c.chapter})` : ''}</span>
                         </span>
                       ))}
                     </div>
