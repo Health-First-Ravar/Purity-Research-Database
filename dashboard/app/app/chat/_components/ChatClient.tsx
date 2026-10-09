@@ -125,17 +125,22 @@ export default function ChatClient({ paperCount, initialQuestion, deepMode }: { 
     }
   }
 
+  // In-page confirmation, not window.confirm(): a native dialog blocks the tab
+  // (and froze automated testing).
+  const [confirmReset, setConfirmReset] = useState(false);
+
   function resetSession() {
     if (turns.length === 0) {
       sessionId.current = newSessionId();
       return;
     }
-    const ok = typeof window !== 'undefined'
-      ? window.confirm('Reset the conversation? The running context will be cleared.')
-      : true;
-    if (!ok) return;
+    setConfirmReset(true);
+  }
+
+  function doReset() {
     sessionId.current = newSessionId();
     setTurns([]);
+    setConfirmReset(false);
     toast.push({ kind: 'info', message: 'New session started.' });
   }
 
@@ -144,12 +149,34 @@ export default function ChatClient({ paperCount, initialQuestion, deepMode }: { 
       <section className="flex flex-col">
         <div className="mb-4 flex flex-wrap items-center justify-between gap-2">
           <h1 className="font-serif text-2xl">Ask</h1>
-          <button
-            onClick={resetSession}
-            className="rounded-md border border-purity-bean/20 px-3 py-1.5 text-xs text-purity-muted transition hover:bg-purity-bean/5 dark:border-purity-paper/20 dark:text-purity-mist dark:hover:bg-purity-paper/5"
-          >
-            Reset conversation
-          </button>
+          {confirmReset ? (
+            <div role="group" aria-label="Confirm reset" className="flex flex-wrap items-center gap-2 text-xs text-purity-muted dark:text-purity-mist">
+              <span>Clear this conversation and its context?</span>
+              <button
+                type="button"
+                onClick={doReset}
+                autoFocus
+                className="rounded-md bg-purity-bean px-3 py-1.5 text-xs text-purity-cream dark:bg-purity-aqua dark:text-purity-ink"
+              >
+                Clear
+              </button>
+              <button
+                type="button"
+                onClick={() => setConfirmReset(false)}
+                className="rounded-md border border-purity-bean/20 px-3 py-1.5 text-xs dark:border-purity-paper/20"
+              >
+                Keep
+              </button>
+            </div>
+          ) : (
+            <button
+              type="button"
+              onClick={resetSession}
+              className="rounded-md border border-purity-bean/20 px-3 py-1.5 text-xs text-purity-muted transition hover:bg-purity-bean/5 dark:border-purity-paper/20 dark:text-purity-mist dark:hover:bg-purity-paper/5"
+            >
+              Reset conversation
+            </button>
+          )}
         </div>
 
         <div

@@ -5508,3 +5508,12 @@ change (Oct 3 snapshot): Blog 148 → 150, Podcast / video 15 → 21, Product
 page 70 → 72, Site page 82 → 85. Also: 52 claims list fewer placement URLs
 than their page count, so a placement Brian counted but did not link cannot
 be matched.
+
+## Item 11 — Ask "Reset conversation" used `window.confirm()` — **FIXED**
+
+It did (`ChatClient.tsx`). Replaced with an in-page confirmation next to the
+heading ("Clear this conversation and its context?" Clear / Keep). Verified
+locally with `/api/chat` stubbed: the confirmation shows, Keep keeps the
+conversation, Clear empties it, and no native dialog fires. Not changed (not
+in scope, both behind staff pages): `window.confirm` in the editor's "Promote
+to canon" button and `confirm` in the legacy /reports/limits soft-delete.
