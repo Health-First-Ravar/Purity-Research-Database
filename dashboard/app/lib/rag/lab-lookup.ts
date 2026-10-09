@@ -22,11 +22,17 @@ import {
 
 export type LabLink = { label: string; url: string };
 
-/** A compact result panel for the UI: one product's latest result per analyte, in Brian's status chips. */
+/**
+ * A compact result panel for the UI, in Brian's status chips: one product's
+ * latest result per analyte, or (when `who` is set on the rows) one row per
+ * product or lot, as in the all-products status and tested-in-a-window views.
+ */
 export type LabPanel = {
   product: string;
+  title?: string;
   href: string;
-  rows: { code: string; label: string; value: string; status: Status; text: string; date: string }[];
+  note?: string;
+  rows: { key?: string; who?: string; code: string; label: string; value: string; status: Status; text: string; date: string }[];
 };
 
 export type LabChunk = {
@@ -49,6 +55,7 @@ export type LabSignals = {
   codes: string[];
   reportTokens: string[];
   aggregate: boolean;
+  status: boolean;       // "which products are over / near a limit right now": latest result per product and analyte
   recency: boolean;
   green: boolean;        // green coffee lots (staff only)
   year: string | null;   // "this year" / an explicit 20xx
@@ -103,6 +110,14 @@ const AGG_INTENT = /\b(which|any|list|how\s+many|are\s+there|show|find|ever)\b/i
 const OVER = /\b(exceed(?:s|ed|ing)?|over|above|fail(?:s|ed|ing|ures?)?|breach(?:es|ed)?|outside|flagged|problems?|issues?|out of spec)\b/i;
 const LIMIT_WORD = /\b(limits?|spec|standard|threshold|health grade|minimum|floor)\b/i;
 const UNDER = /\b(below|under|short of|lower than|less than|missed)\b/i;
+// All-products status ("which products are over a limit right now", "is anything
+// near a limit"). Narrower than OVER: "which blends cause stomach problems" is
+// not a lab question.
+const PRODUCTS_PLURAL =
+  /\b(?:which|what|any|all|list|show)\b[^.?!]{0,30}\b(?:products?|blends?|coffees?|skus?)\b|\banything\b|\bany of (?:our|the|your) (?:products|blends|coffees)\b|\b(?:our|the|all|your) (?:products|blends|coffees)\b/i;
+const OVER_STATUS = /\b(over|above|exceed(?:s|ed|ing)?|fail(?:s|ed|ing)?|flagged|out of spec|within)\b/i;
+const NEAR = /\b(near(?:ly)?|close to|approaching)\b/i;
+const HISTORY = /\b(ever|history|historically|in the past|previous(?:ly)?|all[-\s]time)\b/i;
 const REPORT_TOKEN = /\b(?:[A-Za-z0-9]+(?:-[A-Za-z0-9]+)+|\d{5,})\b/g;
 const TOKEN_STOP = new Set(['covid-19', 'omega-3', 'omega-6', 'b12', 'sars-cov-2']);
 
@@ -133,8 +148,15 @@ export function detectLabQuestion(
   const reportTokens = [...new Set((question.match(REPORT_TOKEN) ?? []).map((t) => t.replace(/[^A-Za-z0-9-]/g, '')))]
     .filter((t) => t.length >= 5 && (t.match(/\d/g) ?? []).length >= 4 && !TOKEN_STOP.has(t.toLowerCase()))
     .slice(0, 5);
+  // Current status across products: latest result per product and analyte, the
+  // same view as the COA quick view grid. Not for a named product (that is the
+  // product block) and not for history ("ever", "previously": the record scan).
+  const status =
+    products.length === 0 && reportTokens.length === 0 && !HISTORY.test(question) &&
+    PRODUCTS_PLURAL.test(question) && (OVER_STATUS.test(question) || NEAR.test(question)) &&
+    (LIMIT_WORD.test(question) || codes.length > 0 || labCtx);
   const aggregate =
-    AGG_INTENT.test(question) && (OVER.test(question) || UNDER.test(question) || LIMIT_WORD.test(question)) && (labCtx || codes.length > 0);
+    !status && AGG_INTENT.test(question) && (OVER.test(question) || UNDER.test(question) || LIMIT_WORD.test(question)) && (labCtx || codes.length > 0);
   const green = /\bgreen\b/i.test(question) && (labCtx || codes.length > 0);
   const yr = question.match(/\b(20\d\d)\b/);
   const year = /\bthis year\b/i.test(question) ? new Date().toISOString().slice(0, 4) : yr ? yr[1] : null;
@@ -143,9 +165,9 @@ export function detectLabQuestion(
   // Product alone ("is PROTECT good for reflux?") is not a lab question; a
   // product plus a lab word or an analyte is.
   const fire =
-    codes.length > 0 || reportTokens.length > 0 || aggregate || recency || coa ||
+    codes.length > 0 || reportTokens.length > 0 || aggregate || status || recency || coa ||
     (products.length > 0 && labCtx) || green;
-  return { fire, products, codes, reportTokens, aggregate, recency, green, year };
+  return { fire, products, codes, reportTokens, aggregate, status, recency, green, year };
 }
 
 // ---------------------------------------------------------------------------
@@ -339,6 +361,106 @@ function overLimitQuery(codes: string[], recs: LabRecord[], std: Standard, synce
   return chunk(`Lab Testing tracker query: ${what} against the Health Grade limits`, content, []);
 }
 
+/** Finished products with lab data, in PRODUCT_ORDER, then any others alphabetically (as the COA quick view grid). */
+function productsOnFile(recs: LabRecord[]): string[] {
+  const s = new Set(recs.filter((r) => r.kind === 'product' && r.product).map((r) => r.product as string));
+  return [...PRODUCT_ORDER.filter((p) => s.has(p)), ...[...s].filter((p) => !PRODUCT_ORDER.includes(p)).sort()];
+}
+
+const STATUS_GROUPS: { status: Status; heading: string }[] = [
+  { status: 'fail', heading: 'Over the limit' },
+  { status: 'watch', heading: 'Near the limit (above 80% of the limit)' },
+  { status: 'detect', heading: 'Detected where any detection is flagged (no numeric limit)' },
+  { status: 'cleared', heading: 'Cleared on retest (first result over or near the limit, retest within it)' },
+  { status: 'incon', heading: "LOQ above limit (nothing detected; the lab's reporting limit sat above our limit)" },
+];
+
+/**
+ * Current status across all finished products: the latest result for each
+ * product and analyte, scored with the Health Grade rules. This is the COA
+ * quick view grid (latestFor x analyteStatus), so Ask and the grid agree.
+ */
+function statusBlock(codes: string[], recs: LabRecord[], std: Standard, today: string, syncedAt: string, elevated: boolean): LabChunk {
+  const products = productsOnFile(recs);
+  // Every analyte with a finished-product limit, not only the grid's columns:
+  // DON, fumonisins and the rest are scored the same way and count here too.
+  const limited = Object.keys(std.finished).filter((c) => ['ceiling', 'not_detectable', 'flag_detected'].includes(std.finished[c].rule));
+  const want = codes.length ? codes : limited;
+  type Hit = { p: string; c: string; r: LabRecord; a: NonNullable<ReturnType<typeof analyteStatus>> };
+  const hits: Hit[] = [];
+  const clean: string[] = [];
+  const notScoredProducts: string[] = [];
+  for (const p of products) {
+    let flagged = false;
+    let scored = false;
+    for (const c of want) {
+      const r = latestFor(recs, p, c);
+      if (!r) continue;
+      const a = analyteStatus(r, c, std);
+      if (!a) continue;
+      if (a.status === 'exempt' || a.status === 'excluded') continue;
+      scored = true;
+      if (a.floor) continue;
+      if (STATUS_GROUPS.some((g) => g.status === a.status)) hits.push({ p, c, r, a });
+      // Over, near or detected is a problem; cleared on retest and LOQ above limit are not.
+      if (a.status === 'fail' || a.status === 'watch' || a.status === 'detect') flagged = true;
+    }
+    if (!scored) notScoredProducts.push(p);
+    else if (!flagged) clean.push(p);
+  }
+  const what = codes.length ? codes.map((c) => label(std, c)).join(', ') : 'every analyte with a Health Grade limit';
+  const lines: string[] = [];
+  for (const g of STATUS_GROUPS) {
+    const gh = hits.filter((h) => h.a.status === g.status);
+    if (!gh.length) { if (g.status === 'fail') lines.push('Over the limit: none.'); continue; }
+    lines.push(`${g.heading}:`);
+    for (const h of gh.slice(0, MAX_LIST)) {
+      const v = display(h.a.reading);
+      lines.push(`- ${h.p} · ${label(std, h.c)} ${v}${v ? ` ${unit(std, h.c)}` : ''} (${limitText(std, h.c, h.r)}) · tested ${iso(h.r.test_date)} · ${h.r.lab ?? 'lab not recorded'}`);
+    }
+  }
+  // Staff also see green lots on Home's "Needs attention"; point to them, never list them as products.
+  let greenLine = '';
+  if (elevated) {
+    const cutoff = new Date(Date.parse(`${today}T00:00:00Z`) - 730 * 86400000).toISOString().slice(0, 10);
+    const g = recs.filter((r) => r.kind === 'green' && r.status !== 'Awaiting sample' && !r.excluded && (r.test_date ?? '') >= cutoff
+      && Object.keys(r.analytes || {}).some((c) => { const a = analyteStatus(r, c, std); return !!a && !a.floor && (a.status === 'fail' || a.status === 'watch'); }));
+    greenLine = `Green coffee lots are not products and are not counted above. Staff note: ${g.length} green lot record(s) tested in the last 24 months have a result over or near a green limit (see Green lots in the COA quick view).`;
+  }
+  const count = (st: Status) => hits.filter((h) => h.a.status === st).length;
+  const content = [
+    `CURRENT LAB STATUS BY PRODUCT (authoritative and complete for finished products in the Purity Lab Testing tracker, synced ${iso(syncedAt)}). For each product and analyte this uses the LATEST result on file, as the COA quick view grid does, scored against the Purity Health Grade limits.`,
+    `Query: ${what}, latest result per product. Products checked (${products.length}): ${products.join(', ')}.`,
+    `Result: ${count('fail')} over the limit, ${count('watch')} near the limit, ${count('detect')} detected where any detection is flagged, ${count('cleared')} cleared on retest, ${count('incon')} LOQ above limit (not a detection).`,
+    ...lines,
+    clean.length ? `No latest result over or near a limit, or detected: ${clean.join(', ')}.` : '',
+    notScoredProducts.length ? `Not scored against the Health Grade: ${notScoredProducts.join(', ')}.` : '',
+    greenLine,
+    'This is the current status only. It does not say what was done with any lot; do not describe holds, releases or shipping decisions.',
+  ].filter(Boolean).join('\n');
+  const ordered = STATUS_GROUPS.flatMap((g) => hits.filter((h) => h.a.status === g.status));
+  const rows: LabPanel['rows'] = ordered.slice(0, 24).map((h) => {
+    const v = display(h.a.reading);
+    return { key: `${h.p}-${h.c}`, who: h.p, code: h.c, label: label(std, h.c), value: v ? `${v} ${unit(std, h.c)}`.trim() : '', status: h.a.status, text: analyteLabel(h.a), date: iso(h.r.test_date) };
+  });
+  if (!rows.length) {
+    for (const p of clean) rows.push({ key: p, who: p, code: '', label: 'latest results', value: '', status: 'pass', text: 'Within limit', date: '' });
+  }
+  const flaggedProducts = [...new Set(ordered.filter((h) => ['fail', 'watch', 'detect'].includes(h.a.status)).map((h) => h.p))].slice(0, 5);
+  const out = chunk(`Lab Testing tracker: current status, all products`, content, [
+    { label: 'COA quick view', url: '/coa' },
+    ...flaggedProducts.map((p) => ({ label: `COA quick view: ${p}`, url: `/coa/${slug(p)}` })),
+  ]);
+  out.panel = {
+    product: 'All products',
+    title: 'All products: latest result per analyte',
+    href: '/coa',
+    note: ordered.length ? `${clean.length} of ${products.length} products have no latest result over or near a limit.` : undefined,
+    rows,
+  };
+  return out;
+}
+
 function reportBlock(tokens: string[], recsIn: LabRecord[], std: Standard, syncedAt: string, elevated: boolean): LabChunk {
   // Samples still at the lab are internal; customer service only sees results.
   const recs = elevated ? recsIn : recsIn.filter((r) => r.status !== 'Awaiting sample');
@@ -450,6 +572,7 @@ export function buildLabChunks(
   }
   const green = opts.elevated && signals.green;
   if (green) out.push(greenBlock(signals, recs, std, opts.syncedAt));
+  if (signals.status) out.push(statusBlock(signals.codes, recs, std, opts.today, opts.syncedAt, opts.elevated));
   if (signals.aggregate && !green) out.push(overLimitQuery(signals.codes, recs, std, opts.syncedAt, opts.elevated));
   if (signals.green && !opts.elevated) {
     out.push(chunk('Lab Testing tracker: green coffee', 'Green coffee lot results are internal to the Purity team and are not available in this view. Finished-product results are.', []));
@@ -459,7 +582,7 @@ export function buildLabChunks(
     const b = productBlock(p, recs, std, signals.codes, opts.today, opts.syncedAt, opts.elevated);
     if (b) out.push(b);
   }
-  if (!known.length && signals.codes.length && !signals.aggregate && !green) {
+  if (!known.length && signals.codes.length && !signals.aggregate && !signals.status && !green) {
     const b = analyteAcrossProducts(signals.codes, recs, std, opts.syncedAt);
     if (b) out.push(b);
   }

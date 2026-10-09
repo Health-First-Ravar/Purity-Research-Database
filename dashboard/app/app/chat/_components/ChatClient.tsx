@@ -180,18 +180,24 @@ export default function ChatClient({ paperCount, initialQuestion, deepMode }: { 
               </div>
               {t.meta?.lab_panel && t.meta.lab_panel.rows.length > 0 && (
                 <div className="mt-2 rounded-lg bg-purity-soft p-3 dark:bg-purity-night">
-                  <div className="mb-2 flex items-center justify-between text-xs font-semibold uppercase tracking-wider text-purity-muted dark:text-purity-mist">
-                    <span>{t.meta.lab_panel.product}: latest results</span>
-                    <a href={t.meta.lab_panel.href} className="normal-case tracking-normal underline">COA quick view</a>
+                  <div className="mb-2 flex items-center justify-between gap-2 text-xs font-semibold uppercase tracking-wider text-purity-muted dark:text-purity-mist">
+                    <span className="min-w-0">{t.meta.lab_panel.title ?? `${t.meta.lab_panel.product}: latest results`}</span>
+                    <a href={safeHref(t.meta.lab_panel.href) ?? '/coa'} className="shrink-0 normal-case tracking-normal underline">COA quick view</a>
                   </div>
                   <div className="grid gap-1.5 sm:grid-cols-2">
                     {t.meta.lab_panel.rows.map((r) => (
-                      <div key={r.code} className="flex items-center justify-between gap-2 text-sm" title={`Tested ${r.date}`}>
-                        <span className="truncate">{r.label}{r.value ? ` · ${r.value}` : ''}</span>
-                        <span className={`st st-${r.status}`}>{r.text}</span>
+                      <div key={r.key ?? r.code} className="flex min-w-0 items-center justify-between gap-2 text-sm" title={r.date ? `Tested ${r.date}` : undefined}>
+                        <span className="min-w-0 truncate">
+                          {r.who ? <span className="font-medium">{r.who} · </span> : null}
+                          {r.label}{r.value ? ` · ${r.value}` : ''}{r.who && r.date ? ` · ${r.date}` : ''}
+                        </span>
+                        <span className={`st st-${r.status} shrink-0`}>{r.text}</span>
                       </div>
                     ))}
                   </div>
+                  {t.meta.lab_panel.note && (
+                    <p className="mt-2 text-xs text-purity-muted dark:text-purity-mist">{t.meta.lab_panel.note}</p>
+                  )}
                 </div>
               )}
               {t.role === 'assistant' && t.content && (
