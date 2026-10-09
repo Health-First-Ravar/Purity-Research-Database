@@ -26,14 +26,16 @@ export default async function SyncPage() {
   if (error) throw new Error(`sync_runs: ${error.message}`);
   const runs = (data ?? []) as SyncRun[];
   const health = lastSyncHealth(runs);
-  const d = (health.lastOk?.detail ?? {}) as Record<string, unknown>;
+  // Record counts and details come from the last real import, not a "no change" check.
+  const lastImport = runs.find((r) => r.status === 'ok' && !(r.detail as Record<string, unknown> | null)?.unchanged) ?? health.lastOk;
+  const d = (lastImport?.detail ?? {}) as Record<string, unknown>;
 
   return (
     <div className="grid gap-4">
       <KpiRow>
-        <Kpi label="Last good import" value={health.lastOk ? niceDate(health.lastOk.imported_at.slice(0, 10), false) : 'None'} sub={health.message} alert={health.stale} />
-        <Kpi label="Records" value={health.lastOk?.records ?? '—'} sub={`${String(d.excluded ?? 0)} set aside · ${String(d.overrides_applied ?? 0)} reclassified`} />
-        <Kpi label="Claims" value={health.lastOk?.claims ?? '—'} sub="Brian's claim library" />
+        <Kpi label="Last good run" value={health.lastOk ? niceDate(health.lastOk.imported_at.slice(0, 10), false) : 'None'} sub={`${health.message}${lastImport && lastImport !== health.lastOk ? ` · last change imported ${niceDate(lastImport.imported_at.slice(0, 10), false)}` : ''}`} alert={health.stale} />
+        <Kpi label="Records" value={lastImport?.records ?? '—'} sub={`${String(d.excluded ?? 0)} set aside · ${String(d.overrides_applied ?? 0)} reclassified`} />
+        <Kpi label="Claims" value={lastImport?.claims ?? '—'} sub="Brian's claim library" />
         <Kpi label="Newest test date" value={newest?.[0]?.test_date ? niceDate(newest[0].test_date, false) : '—'} sub="in the imported data" />
       </KpiRow>
 
@@ -49,12 +51,12 @@ export default async function SyncPage() {
       <Card title="How the sync works">
         <ol className="list-decimal space-y-1 pl-5 text-sm">
           <li>A Claude scheduled task (&quot;Purity lab sync&quot;, weekdays 9:46 AM and 2:46 PM ET, on Jeremy&apos;s Mac) reads <a className="underline" href={TRACKER_URL} target="_blank" rel="noopener noreferrer">Brian&apos;s tracker</a> and its database. Read only.</li>
-          <li>It builds a snapshot with <code>lab-results/build-snapshot.mjs</code>, and skips the import when nothing changed.</li>
+          <li>It builds a snapshot with <code>lab-results/build-snapshot.mjs</code>. When nothing changed it skips the import and logs a &quot;no change&quot; check, so every scheduled run that reached the Mac appears below; a missing run shows as a gap.</li>
           <li><code>lab-results/import-local.sh</code> validates the snapshot and imports it into the Hub. Each run is listed below; a rejected snapshot changes nothing.</li>
         </ol>
       </Card>
 
-      <Card title="Imports" hint="Newest first, last 30.">
+      <Card title="Sync runs" hint="Newest first, last 30. Imported, no change, or rejected.">
         <div className="hub-table">
           <table>
             <thead><tr><th>Imported</th><th>Status</th><th>Snapshot</th><th>Records</th><th>Claims</th><th>Detail</th></tr></thead>
@@ -65,13 +67,18 @@ export default async function SyncPage() {
                 return (
                   <tr key={r.id}>
                     <td className="whitespace-nowrap">{when(r.imported_at)}</td>
-                    <td><span className={`st ${r.status === 'ok' ? 'st-pass' : 'st-fail'}`}>{r.status}</span></td>
+                    <td>
+                      {det.unchanged
+                        ? <span className="st st-nd">no change</span>
+                        : <span className={`st ${r.status === 'ok' ? 'st-pass' : 'st-fail'}`}>{r.status === 'ok' ? 'imported' : r.status}</span>}
+                    </td>
                     <td className="whitespace-nowrap text-xs">{r.snapshot_id}<div className="text-purity-muted dark:text-purity-mist">taken {when(r.taken_at)}</div></td>
                     <td className="tabular-nums">{r.records ?? ''}</td>
                     <td className="tabular-nums">{r.claims ?? ''}</td>
                     <td className="text-xs">
                       {errs.length
                         ? errs.slice(0, 3).join('; ')
+                        : det.unchanged ? String(det.reason ?? 'no change')
                         : ['excluded', 'overrides_applied', 'deduplicated', 'certificates_matched']
                             .filter((k) => det[k] != null)
                             .map((k) => `${k.replace(/_/g, ' ')}: ${String(det[k])}`)

@@ -5,7 +5,7 @@ export type SyncRun = {
   records: number | null; claims: number | null; status: 'ok' | 'rejected' | 'failed'; detail: Record<string, unknown> | null;
 };
 
-/** The task runs on weekdays; more than three days without a good import means it has stopped. */
+/** The task runs on weekdays; more than three days without a good run (an import or a "no change" check) means it has stopped. */
 const STALE_DAYS = 3;
 
 export function lastSyncHealth(runs: SyncRun[], now = Date.now()) {

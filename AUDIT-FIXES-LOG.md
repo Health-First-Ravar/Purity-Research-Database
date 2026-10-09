@@ -5663,3 +5663,30 @@ staff-only and does not print either (customer service saw it before). Ask's
 lab evidence no longer quotes a file name as a "report" number. Checked with
 print emulation on /coa/flow and /coa/protect: 0 ".docx" and 0 thread IDs in
 print (8 and 9 file names on screen for staff).
+
+## Item 19 — sync log: skipped runs, and the Oct 3 double import — **FIXED** / **CHECKED**
+
+Idempotency, checked in code and data: `lab_results` and `lab_claims` upsert
+by id, `lab_standard` by (code, applies_to), and `lab_results` rows from any
+other snapshot are deleted. Runs 1 and 2 (Oct 3, 3:03 and 3:10 PM ET) both
+imported `brian-20261003T190131Z`; today the tables hold exactly one snapshot
+(479 lab_results and 337 lab_claims rows, all `brian-20261009T142736Z`), so
+the repeat changed nothing but `synced_at` and added a log row. Two gaps
+noted, not changed: `lab_standard` and `lab_claims` rows that disappear from
+Brian's tracker are not deleted here (only `lab_results` mirrors deletions).
+
+Skipped runs: the builder prints UNCHANGED and the scheduled task stopped
+there, so a no-change run left no trace and a missed run looked the same as
+a quiet day. `import-lab-results.ts` now takes `--unchanged`: one
+`sync_runs` row (status `ok`, `detail.unchanged`, reason "no change in
+Brian's tracker since this snapshot"), nothing else written. It also refuses
+to re-import the snapshot of the last good run and logs that as no change.
+No schema change: `status` stays within its check constraint ('ok'); the
+marker is in `detail`. /admin/sync shows "no change" or "imported", calls
+the table "Sync runs", takes record counts from the last real import, and
+explains that a missing scheduled run now shows as a gap.
+
+**Needs one more step from you**: the scheduled task's step 5 still stops on
+UNCHANGED. It should run `bash lab-results/import-local.sh --unchanged` on
+the Mac first. Changing a scheduled task needs your OK (and, for this one, an
+approval on your Mac); the new step 5 wording is in my report.

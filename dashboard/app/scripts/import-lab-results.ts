@@ -8,6 +8,15 @@
 // Usage (from dashboard/app):
 //   node --env-file=.env.local ./node_modules/.bin/tsx scripts/import-lab-results.ts
 //   ... --snapshot /path/to/snapshot.json   --dry
+//   ... --unchanged   log a check that found no change (the builder printed
+//                     UNCHANGED): one sync_runs row, nothing else written, so a
+//                     missed scheduled run shows as a gap in the log.
+//
+// Idempotent: lab_results and lab_claims upsert by id and lab_standard by
+// (code, applies_to); lab_results rows from other snapshots are removed. A
+// snapshot that was already imported is logged as "no change" and not written
+// again (Oct 3, 3:03 and 3:10 PM imported brian-20261003T190131Z twice; the
+// second import changed only synced_at).
 //
 // Env: NEXT_PUBLIC_SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY
 
@@ -23,6 +32,7 @@ const arg = (name: string) => {
 };
 const SNAPSHOT = arg('--snapshot') || resolve(process.cwd(), '..', '..', 'lab-results', 'snapshot.json');
 const DRY = process.argv.includes('--dry');
+const UNCHANGED = process.argv.includes('--unchanged');
 
 const URL = process.env.NEXT_PUBLIC_SUPABASE_URL ?? process.env.SUPABASE_URL;
 const KEY = process.env.SUPABASE_SERVICE_ROLE_KEY;
@@ -91,6 +101,22 @@ async function main() {
     console.error('[import-lab-results] snapshot rejected:\n  ' + errs.join('\n  '));
     if (!DRY) await sb.from('sync_runs').insert({ snapshot_id: snap.snapshot_id || 'unknown', taken_at: snap.taken_at, status: 'rejected', detail: { errors: errs } });
     process.exit(1);
+  }
+
+  // Already imported, or the builder found no change: log the check, write nothing else.
+  const { data: lastOk } = await sb.from('sync_runs').select('snapshot_id').eq('status', 'ok')
+    .order('imported_at', { ascending: false }).limit(1).maybeSingle();
+  if (UNCHANGED || lastOk?.snapshot_id === snap.snapshot_id) {
+    const reason = UNCHANGED ? "no change in Brian's tracker since this snapshot" : 'snapshot already imported';
+    console.log(`[import-lab-results] ${reason} (${snap.snapshot_id}); logging the check only`);
+    if (DRY) return;
+    const { error } = await sb.from('sync_runs').insert({
+      snapshot_id: snap.snapshot_id, taken_at: snap.taken_at, records: snap.records.length, claims: snap.claims.length,
+      status: 'ok', detail: { unchanged: true, reason },
+    });
+    if (error) throw error;
+    console.log('[import-lab-results] done');
+    return;
   }
 
   const std = buildStandard(snap.standard);
