@@ -3,6 +3,7 @@
 // Client form: textarea + context dropdown → POST /api/audit → render result card.
 
 import { useState, useTransition } from 'react';
+import { useRouter } from 'next/navigation';
 import { AuditResult, type AuditResponse } from './AuditResult';
 
 const EXAMPLES = [
@@ -35,6 +36,7 @@ export function AuditForm({
   const [pending, startTransition] = useTransition();
   const [result, setResult] = useState<AuditResponse | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const router = useRouter();
 
   function submit() {
     if (draft.trim().length < 12) {
@@ -55,6 +57,10 @@ export function AuditForm({
           return;
         }
         setResult(j as AuditResponse);
+        // Re-render the server parts of the page (Recent checks, the library
+        // verdict) so the check just saved shows without a reload. Client
+        // state, including this result, is kept.
+        router.refresh();
       } catch (e) {
         setError(`network error: ${String(e)}`);
       }

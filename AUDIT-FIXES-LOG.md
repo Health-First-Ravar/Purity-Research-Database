@@ -5477,3 +5477,13 @@ a local render with the real library categories (Playwright, 390 x 844):
 /library scrollWidth 452 → 390; Home, Ask, Claims and /coa/protect stay at
 390. Also removed the two em dashes in this page's copy (search placeholder,
 help line).
+
+## Item 9 — Recent checks did not update after "Check claim" — **FIXED**
+
+Cause: /claims/check renders Recent checks on the server; the form only set
+its own client state after `/api/audit` returned, so the new check appeared
+only on reload. `AuditForm` now calls `router.refresh()` after a successful
+check, which re-renders the server parts (Recent checks, the library claim's
+verdict) and keeps the result card on screen. Verified in a local render with
+`/api/audit` stubbed: the verdict card shows and one RSC refresh of
+/claims/check follows the check.
