@@ -30,7 +30,7 @@ export function EngineeringDetails({ daily }: { daily: DailyRow[] }) {
         className="flex w-full items-center justify-between p-4 text-left text-sm font-medium text-purity-bean dark:text-purity-paper"
       >
         <span>Engineering details</span>
-        <span aria-hidden>{open ? '–' : '+'}</span>
+        <span aria-hidden>{open ? '−' : '+'}</span>
       </button>
       {open && (
         <div className="max-h-[60vh] overflow-auto px-2 pb-2">

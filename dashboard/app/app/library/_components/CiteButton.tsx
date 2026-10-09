@@ -31,7 +31,7 @@ function bibtex(row: Row): string {
   if (row.doi) lines.push(`,\n  doi    = {${row.doi}}`);
   const url = row.drive_url ?? (row.doi ? `https://doi.org/${row.doi}` : null);
   if (url) lines.push(`,\n  url    = {${url}}`);
-  lines.push(`\n  note   = {Author list not yet in catalog — resolve via DOI}`);
+  lines.push(`\n  note   = {Author list not yet in catalog; resolve via DOI}`);
   lines.push('\n}');
   return lines.join('');
 }

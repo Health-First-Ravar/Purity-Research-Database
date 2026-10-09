@@ -349,7 +349,7 @@ export function UsersClient({ currentUserId }: { currentUserId: string }) {
           </label>
           <label className="block">
             <span className="block text-xs font-medium text-purity-muted dark:text-purity-mist">
-              Password <span className="font-normal opacity-60">(optional — min 8 chars)</span>
+              Password <span className="font-normal opacity-60">(optional, at least 8 characters)</span>
             </span>
             <input
               type="password"

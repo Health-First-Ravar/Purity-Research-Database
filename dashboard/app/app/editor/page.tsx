@@ -71,7 +71,7 @@ export default async function EditorPage({ searchParams }: { searchParams: Promi
     <div className="space-y-10">
       <section>
         <div className="mb-3 flex items-center gap-3">
-          <h1 className="font-serif text-2xl">Editor — Escalation queue</h1>
+          <h1 className="font-serif text-2xl">Editor: escalation queue</h1>
           {(escTotal ?? 0) > 0 && (
             <span className="rounded-full bg-purity-rust/15 px-2.5 py-0.5 text-xs font-medium text-purity-rust">
               {escTotal} pending

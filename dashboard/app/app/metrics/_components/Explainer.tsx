@@ -19,11 +19,11 @@ const ITEMS: { label: string; body: string }[] = [
   },
   {
     label: 'AI cost this period',
-    body: 'Total dollar cost of the language model calls (Sonnet for answers, Haiku for classification) over the window. Roughly $0.01–$0.05 per conversation depending on length.',
+    body: 'Total dollar cost of the language model calls (Sonnet for answers, Haiku for classification) over the window. Roughly $0.01 to $0.05 per conversation depending on length.',
   },
   {
     label: 'Average response time',
-    body: 'How long, on average, the chat takes to send back a complete answer. Target is under 4 seconds; 4–8 seconds is acceptable; above 8 seconds is slow enough that customers notice.',
+    body: 'How long, on average, the chat takes to send back a complete answer. Target is under 4 seconds; 4 to 8 seconds is acceptable; above 8 seconds is slow enough that customers notice.',
   },
   {
     label: 'Quick answers ready',
@@ -53,7 +53,7 @@ export function Explainer() {
         className="flex w-full items-center justify-between p-4 text-left text-sm font-medium text-purity-bean dark:text-purity-paper"
       >
         <span>What these numbers mean</span>
-        <span aria-hidden>{open ? '–' : '+'}</span>
+        <span aria-hidden>{open ? '−' : '+'}</span>
       </button>
       {open && (
         <dl className="grid gap-4 px-4 pb-4 text-sm sm:grid-cols-2">

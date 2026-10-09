@@ -85,7 +85,7 @@ function UnmappedTab({ branches }: { branches: Branch[] }) {
     <div>
       <p className="mb-4 text-sm text-purity-muted dark:text-purity-mist">
         These topic strings appeared on at least one source but didn&apos;t match any chapter or hardcoded keyword.
-        Pick a branch and the atlas will remember — every future paper with this exact topic_category will route there automatically.
+        Pick a branch and the atlas will remember: every future paper with this exact topic_category will route there automatically.
       </p>
 
       {items.length === 0 ? (

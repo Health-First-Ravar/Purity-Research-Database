@@ -159,10 +159,10 @@ function SidePanel({ panel, data, setPanel }: { panel: PanelState; data: AtlasDa
           dashed lines between them are curated relationships.
         </p>
         <ul className="mt-3 space-y-1.5 text-[11px] text-purity-muted dark:text-purity-mist">
-          <li>· <span className="text-purity-bean dark:text-purity-paper">Click</span> a branch — it zooms in and the papers list opens here</li>
-          <li>· <span className="text-purity-bean dark:text-purity-paper">Hover</span> a branch — its cross-links light up in aqua</li>
-          <li>· <span className="text-purity-bean dark:text-purity-paper">Hover</span> a cross-link — the rationale appears here</li>
-          <li>· <span className="text-purity-bean dark:text-purity-paper">Drag</span> any node — editors save its position</li>
+          <li>· <span className="text-purity-bean dark:text-purity-paper">Click</span> a branch: it zooms in and the papers list opens here</li>
+          <li>· <span className="text-purity-bean dark:text-purity-paper">Hover</span> a branch: its cross-links light up in aqua</li>
+          <li>· <span className="text-purity-bean dark:text-purity-paper">Hover</span> a cross-link: the rationale appears here</li>
+          <li>· <span className="text-purity-bean dark:text-purity-paper">Drag</span> any node: editors save its position</li>
         </ul>
         <div className="mt-4 grid grid-cols-3 gap-1.5 text-[11px]">
           <Stat label="papers" value={data.papers.length} />
@@ -171,7 +171,7 @@ function SidePanel({ panel, data, setPanel }: { panel: PanelState; data: AtlasDa
         </div>
         {data.stats.papersUnmapped > 0 && (
           <div className="mt-3 rounded border border-purity-gold/30 bg-purity-gold/10 px-2 py-1.5 text-[11px] text-purity-muted dark:text-purity-mist">
-            {data.stats.papersUnmapped} sources unmapped — open the triage page to route them.
+            {data.stats.papersUnmapped} sources unmapped. Open the triage page to route them.
           </div>
         )}
       </aside>
@@ -202,7 +202,7 @@ function SidePanel({ panel, data, setPanel }: { panel: PanelState; data: AtlasDa
           core
         </span>
         <p className="text-sm text-purity-muted dark:text-purity-mist">
-          The brand frame. Coffee selected, processed, and delivered for human health —
+          The brand frame. Coffee selected, processed, and delivered for human health:
           bioactives optimized, contaminants minimized, evidence cited. The 24 branches
           radiate from this center; the dashed lines between them are the curated cross-relationships.
         </p>

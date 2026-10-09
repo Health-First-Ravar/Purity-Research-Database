@@ -78,7 +78,7 @@ function inviteTemplate(inviteUrl: string, inviterName?: string) {
   return baseTemplate(`
     <h1>You've been invited to the Research Hub</h1>
     <p>
-      ${from} has invited you to join the Purity Research Hub — our internal
+      ${from} has invited you to join the Purity Research Hub, our internal
       tool for exploring the science behind clean coffee.
     </p>
     <p>Click the button below to accept your invitation and set a password. The link expires in 24 hours.</p>

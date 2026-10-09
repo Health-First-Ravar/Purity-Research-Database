@@ -72,7 +72,7 @@ export function LoginForm() {
         {sent ? (
           <>
             <p className="text-sm text-purity-muted dark:text-purity-mist">
-              Check your inbox — we sent a password reset link to <strong>{email}</strong>.
+              Check your inbox: we sent a password reset link to <strong>{email}</strong>.
             </p>
             <button
               onClick={() => switchMode('login')}

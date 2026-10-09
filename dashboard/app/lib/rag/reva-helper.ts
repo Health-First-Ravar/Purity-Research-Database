@@ -2,6 +2,7 @@
 // Haiku + persona + tab dictionary, no retrieval.
 
 import { anthropic, MODEL_CLASSIFY } from '../anthropic';
+import { stripDashes } from './sanitize';
 
 export type HelperPriorTurn = { role: 'user' | 'assistant'; content: string };
 export type HelperTab = { href: string; label: string; why: string };
@@ -45,10 +46,11 @@ with evidence. Health-claim language: "may support", "associated with",
 your replies — use commas, colons, or new sentences.
 
 Purity Coffee context, in case it comes up:
-  PROTECT — antioxidant focus, lighter roast, highest CGA preservation
-  FLOW    — cognitive support, balanced roast, balanced caffeine
-  EASE    — gentle, low-acid, darker roast (NMP-rich, designed for sensitive stomachs)
-  CALM    — Swiss Water Process decaf, ~99.9% caffeine-free`;
+  PROTECT: lighter roast that retains more chlorogenic acids; positioned around antioxidants
+  FLOW: balanced roast and caffeine; the everyday blend, positioned around energy and focus
+  EASE: darker roast, lower acidity, more NMP; positioned for sensitive stomachs
+  CALM: Swiss Water Process decaf (about 99.9% caffeine free)
+These are positioning, not health outcomes: hedge any health effect ("may support", "research suggests").`;
 
 const TASK = `Your job in this widget is to be a HELPER, not a deep responder.
 You navigate, you give quick facts, you hand off to the right tab when the
@@ -164,7 +166,8 @@ ${priorBlock}
   if (safe_tab && currentPath && safe_tab.href === currentPath) safe_tab = null;
 
   return {
-    answer: parsed.answer,
+    // Same dash backstop as Ask and Reva: the helper's answers are user-facing too.
+    answer: stripDashes(parsed.answer),
     suggested_tab: safe_tab,
     tokens_in,
     tokens_out,

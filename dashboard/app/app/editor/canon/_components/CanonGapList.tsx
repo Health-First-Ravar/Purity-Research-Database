@@ -48,7 +48,7 @@ export function CanonGapList({ rows }: { rows: GapRow[] }) {
   return (
     <div className="space-y-3">
       <p className="text-xs text-purity-muted dark:text-purity-mist">
-        Questions the assistant answered badly — escalated, short on evidence, or
+        Questions the assistant answered badly: escalated, short on evidence, or
         marked unhelpful. Write the answer you want served and promote it. The
         draft still goes through review before it goes live.
       </p>
@@ -165,7 +165,7 @@ function GapCard({ row }: { row: GapRow }) {
         </button>
         {!answer.trim() && (
           <span className="text-[11px] text-purity-muted dark:text-purity-mist">
-            Write an answer first — the failed one is never promoted as-is.
+            Write an answer first. The failed one is never promoted as it is.
           </span>
         )}
       </div>

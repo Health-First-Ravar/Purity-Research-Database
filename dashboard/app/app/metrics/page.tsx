@@ -343,7 +343,7 @@ function makeSummary(args: {
   const ans = answeredRate == null ? '' :
     `Ask answered ${Math.round(answeredRate * 100)}% without escalation; ${escalated} of ${messages} needed Ildi or Jeremy to step in.`;
   const sat = satisfactionRate == null
-    ? 'No customer ratings yet — that data starts populating as people use the thumbs buttons.'
+    ? 'No ratings yet. This fills in as people use the thumbs buttons.'
     : `Customer satisfaction is sitting at ${Math.round(satisfactionRate * 100)}%.`;
   return `${messages} ${messages === 1 ? 'conversation' : 'conversations'} ${window}. ${ans} ${sat}`.trim();
 }
