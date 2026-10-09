@@ -5878,7 +5878,7 @@ Every entry from the failing re-test now resolves: molecules-31-01404 →
 "Bioactive Compounds in Coffee: Metabolism, Bioavailability and Health
 Effects: A Review" (Finta et al., 2026); cropley2011 → "Does coffee enriched
 with chlorogenic acids improve mood and cognition after acute administration
-in healthy elderly? A pilot study" (Cropley and Croft... 2011); authorea →
+in healthy elderly? A pilot study" (Cropley et al., 2011); authorea →
 "Chlorogenic Acid in Metabolic Diseases: From Bench to Bedside" (Lin et al.,
 2026); the Zhang preprint and the Sarriá 2016 green/roasted blend trial get
 their full titles. "Coffee Gastrointestine-Glucose" has no DOI and shows as
