@@ -5855,3 +5855,34 @@ deployed commit was `af090e6`, so the likeliest cause is a tab still running
 the previous build's JavaScript. `/api/chat` now returns the readable title
 itself, so every client shows it regardless. Titles that were stored cut off
 at about 70 characters stay cut off (data, not display).
+
+## Session 15b follow-up 2 — source titles from Crossref
+
+Re-test after `967076c`: no underscores, but entries were still not titles
+("molecules 31 01404", "cropley2011", "authorea.15003367", a title with
+author, affiliation and "First Published April 5, 2018 Brief Report" glued
+on, a title cut at "Food Research Intern"). The stored titles are file names
+(Drive-synced copies) or PDF first lines; cleanup cannot recover a title.
+
+`scripts/source-display-titles.ts` (`npm run source-display-titles`) fills
+`sources.metadata.display` = {title, authors, year, journal, doi, from} from
+Crossref by DOI; a Drive-synced copy with no DOI borrows its text-ingested
+twin's DOI via the research manifest (fileId -> txt_path -> sources.path).
+**Applied 2026-10-09**: 1,219 sources (1,091 Crossref, 128 twin title), 379
+with neither keep the cleaned title. Additive JSON key: ingest-kb merges
+metadata and the Drive sync spreads it, so both keep it; re-run the script
+after new papers arrive. Crossref answers are cached in
+`lab-results/latest/crossref-cache.json` (gitignored).
+
+Every entry from the failing re-test now resolves: molecules-31-01404 →
+"Bioactive Compounds in Coffee: Metabolism, Bioavailability and Health
+Effects: A Review" (Finta et al., 2026); cropley2011 → "Does coffee enriched
+with chlorogenic acids improve mood and cognition after acute administration
+in healthy elderly? A pilot study" (Cropley and Croft... 2011); authorea →
+"Chlorogenic Acid in Metabolic Diseases: From Bench to Bedside" (Lin et al.,
+2026); the Zhang preprint and the Sarriá 2016 green/roasted blend trial get
+their full titles. "Coffee Gastrointestine-Glucose" has no DOI and shows as
+"Coffee Gastrointestine Glucose". Used in Ask's sources line (server side),
+the claim checker's cited evidence and the research library (which also
+fills an impossible stored year from Crossref). The commit message of
+`9363e1b` gives Cropley's year as 2012 in its example; Crossref says 2011.
