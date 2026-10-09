@@ -1,4 +1,36 @@
-# WHERE WE LEFT OFF — 2026-07-20, after session 13
+# WHERE WE LEFT OFF — 2026-10-09, after session 15 (overhaul QA fixes)
+
+Read this first. Everything below is chronological session history; the
+2026-07-20 section after this one is superseded but kept.
+
+## State
+
+- Branch `overhaul` (the Research Hub). Production (`main`) untouched. Jeremy
+  pushes; every push rebuilds the preview at
+  purity-dashboard-git-overhaul-jravar-5232s-projects.vercel.app (admins only).
+- Session 15 fixed the browser QA list for preview commit `160b6d0`, one
+  commit per item (see SESSION 15 at the end of this file). Before each push:
+  `npm run lint`, `npx tsc --noEmit`, `npm run build`, `npm run eval:ask`.
+- Lab data comes from Brian's Lab Testing tracker (read only) via the "Purity
+  lab sync" scheduled task on Jeremy's Mac (weekdays 9:46 and 2:46 PM ET).
+- Migrations 0014-0016 applied (repo-root `migrations/`).
+
+## Waiting on Jeremy
+
+1. Push the session 15 commits (`git -C ~/code/purity push`).
+2. Approve or drop `migrations/proposed/0017_fix_ncsu_proposal_metadata.sql`
+   (data fix for one library row; not applied).
+3. Update the scheduled task's step 5 to log "no change" runs
+   (`bash lab-results/import-local.sh --unchanged`); wording in the session 15
+   report.
+4. Wording decisions with Ildi (Ask no longer says "per-lot COAs" or "tests
+   every lot"; see Item 6).
+5. Then the switch-over: merge to main, rename /chat to /ask, retire the Drive
+   importer and the old COA sync, redirect old pages.
+
+---
+
+# WHERE WE LEFT OFF (superseded) — 2026-07-20, after session 13
 
 Read this first. Everything below is chronological session history.
 
@@ -5719,3 +5751,25 @@ publisher via doi.org instead of to Drive, so each entry offers both.
 Access still follows the Drive folder's sharing. 232 papers are marked
 subscription-only and 1,105 have no rights recorded; keep the folder shared
 with named people or a company group, not "anyone with the link".
+
+## Item 6 follow-up — guardrail repair pass — **ADDED**
+
+Re-running the checklist with answers, the prompt rules still leaked about 1
+run in 3 on "How can coffee help me stay calm and focused?" ("CALM ... gives
+you the ritual and ...", "the focus benefit"). `generateAnswer` now runs
+`guardrailViolations()` on every answer and, only when it flags something,
+asks once (temperature 0) for a minimal rewrite of the flagged sentences,
+keeping it only if it breaks fewer rules; the extra tokens are counted in the
+message cost. After this, 3 of 3 runs of that question pass. The heuristics
+also stopped flagging two correct patterns: "can support" counts as a hedge,
+and a sentence saying the Hub's evidence does not cover a QA procedure is not
+a policy claim.
+
+**Anthropic API credit ran out during the final eval batch** (18:55 UTC:
+"Your credit balance is too low to access the Anthropic API"), on the key in
+`dashboard/app/.env.local`, which is also the Preview key. Until it is topped
+up, Ask (classifier and answers), the claim checker and Reva fail wherever that
+key is used, and `npm run eval:ask` cannot run. Last complete results before
+it ran out: routing 12/12; answers 6/6 (items 6-10) on the final code; the
+calm/focus question 3/3 with the repair pass; guardrail prompts 5/5 on the
+previous build.

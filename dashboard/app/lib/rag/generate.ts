@@ -11,6 +11,7 @@ import type { ChunkHit } from './retrieve';
 import type { Classification } from './classify';
 import { buildSafetyContext } from './safety-context';
 import { labSourceEnabled } from './lab-lookup';
+import { guardrailViolations } from './guardrails';
 
 export type PriorTurn = { role: 'user' | 'assistant'; content: string };
 
@@ -188,7 +189,9 @@ HOW TO ANSWER
      you the compound benefits", not "the cognitive and energy profile FLOW is
      built for", not a heading like "Improving insulin sensitivity". Write
      "research suggests CGAs may support ...", "FLOW is positioned around
-     energy and focus".
+     energy and focus". This holds for every sentence that names a benefit,
+     including follow-ups: not "the focus benefit", but "any effect on focus";
+     not "caffeine improves alertness", but "caffeine may support alertness".
    - Punctuation: no em dashes, en dashes or double hyphens ("--"). Use
      commas, colons, parentheses or periods.
 
@@ -320,6 +323,29 @@ ${evidence}
   // Brand + compliance backstops on the customer-facing answer, applied even
   // when the model ignored the prompt: drop any sentence stating an external
   // regulatory limit (it gets EU/FDA numbers wrong), then strip em/en dashes.
-  const answer = stripDashes(stripExternalRegLimits(parsed.answer));
-  return { ...parsed, answer, tokens_in, tokens_out, cost_usd };
+  let answer = stripDashes(stripExternalRegLimits(parsed.answer));
+  let tin = tokens_in, tout = tokens_out;
+
+  // Guardrail repair: the prompt's rules still leak now and then (an unhedged
+  // benefit, a policy claim). When the checks in guardrails.ts flag the answer,
+  // ask once for a minimal rewrite of the flagged sentences, and keep it only
+  // if it breaks fewer rules.
+  const violations = guardrailViolations(answer);
+  if (violations.length) {
+    const fix = await anthropic.messages.create({
+      model: MODEL_GENERATE,
+      max_tokens: 1400,
+      temperature: 0,
+      system: `You edit answers from Purity Coffee's Research Hub. Rewrite ONLY the sentences that break the rules listed, and keep every other sentence, every fact, number, date and the markdown structure exactly as they are. Rules: hedge every health benefit ("may support", "associated with", "research suggests"; never "cures", "treats", "prevents"); no superlatives and no praise of labs or researchers; no claims about what happens to coffee that fails a limit or about QA procedures; no offers to notify or follow up; never tell the reader to contact Purity; no em dashes, en dashes or "--". Return only the revised answer text.`,
+      messages: [{ role: 'user', content: `Rules broken: ${violations.join('; ')}\n\n<answer>\n${answer}\n</answer>` }],
+    });
+    tin += fix.usage?.input_tokens ?? 0;
+    tout += fix.usage?.output_tokens ?? 0;
+    const revised = stripDashes(stripExternalRegLimits(
+      fix.content.filter((c) => c.type === 'text').map((c) => (c as { text: string }).text).join('\n')
+        .replace(/^\s*<answer>\s*|\s*<\/answer>\s*$/g, '').trim(),
+    ));
+    if (revised && guardrailViolations(revised).length < violations.length) answer = revised;
+  }
+  return { ...parsed, answer, tokens_in: tin, tokens_out: tout, cost_usd: (tin * 3 + tout * 15) / 1_000_000 };
 }

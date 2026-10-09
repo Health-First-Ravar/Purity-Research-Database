@@ -6,9 +6,10 @@
 // compliance review: a pass here does not clear copy for publication.
 
 // Hedges, and positioning language ("positioned around energy and focus"), which states what a blend is for, not an outcome.
-const HEDGE = /\b(may|might|could|can help|associated|linked to|research(?: \w+){0,2} (?:suggests?|indicates?|links?)|in (?:research|studies)|studies suggest|evidence (?:suggests|indicates)|tends? to|is thought to|appears? to|in some studies|observational|positioned)\b/i;
+const HEDGE = /\b(may|might|could|can help|can support|associated|linked to|research(?: \w+){0,2} (?:suggests?|indicates?|links?)|in (?:research|studies)|studies suggest|evidence (?:suggests|indicates)|tends? to|is thought to|appears? to|in some studies|observational|positioned)\b/i;
 const BENEFIT = /\b(benefits?|improv\w*|support\w*|boost\w*|enhanc\w*|protect\w*|reduc\w*|lower\w*|increas\w*|built for|gives? you)\b/i;
 const TARGET = /\b(cogniti\w*|focus|energy|insulin|glucose|blood sugar|liver|brain|gut|microbiome|inflammat\w*|metabol\w*|sleep|heart|cardio\w*|beta-cell|memory|mood|longevity|immun\w*)\b/i;
+const REFUSAL = /\b(doesn't cover|does not cover|don't cover|can't speak|cannot speak|can't say|cannot say|not documented|isn't documented|no (?:information|evidence)|don't have|do not have|not something)\b/i;
 // "CALM gives you the compound benefits": a blend promised a benefit outright.
 const BLEND_PROMISE = /\b(PROTECT|FLOW|EASE|CALM|BALANCE)\b[^.]*\b(gives?|delivers?|provides?|offers?)\b[^.]*\bbenefits?\b/;
 const unhedgedBenefit = (s: string) => !HEDGE.test(s) && ((BENEFIT.test(s) && TARGET.test(s)) || BLEND_PROMISE.test(s));
@@ -29,7 +30,9 @@ const RULES: { name: string; test: (text: string, sentences: string[]) => boolea
   },
   {
     name: 'unverified operational policy',
-    test: (_t, ss) => ss.some((s) => /\b(ship(?:s|ped|ping)?|released?|sold|go(?:es)? out|held|quarantin\w*|recall\w*|destroy\w*|discard\w*)\b/i.test(s)
+    // A sentence saying the evidence does not cover the procedure is the right answer, not a policy claim.
+    test: (_t, ss) => ss.some((s) => !REFUSAL.test(s)
+      && /\b(ship(?:s|ped|ping)?|released?|sold|go(?:es)? out|held|quarantin\w*|recall\w*|destroy\w*|discard\w*)\b/i.test(s)
       && /\b(over (?:a|the|our) limit|fail(?:s|ed)?|out of spec|exceed\w*)\b/i.test(s)),
   },
   {
