@@ -5773,3 +5773,22 @@ key is used, and `npm run eval:ask` cannot run. Last complete results before
 it ran out: routing 12/12; answers 6/6 (items 6-10) on the final code; the
 calm/focus question 3/3 with the repair pass; guardrail prompts 5/5 on the
 previous build.
+
+## Session 15 summary
+
+Re-test checklist (live data, 2026-10-09): Ask routing 12/12 via `npm run
+eval:ask`; answers pass the guardrail checks (see the credit note above);
+claim checks: "Purity PROTECT coffee prevents liver disease." → Do not use
+(`prevent_word`, `cures_disease`, a rewrite with no disease named), the CGA +
+glucose claim → Supported as worded; both appear in Recent checks without a
+reload (router refresh, verified locally). UI at 390px: Home, Ask, Claims,
+Research library, /coa/protect have no sideways scroll; Clear resets every
+claims filter (both verified locally with Playwright on a mock of the data).
+Lint, typecheck and build pass on the final commit.
+
+Not done, needs Jeremy: push; approve or drop the proposed data fix
+(`migrations/proposed/0017_...`); update the scheduled task's step 5 for
+`--unchanged`; top up the Anthropic API credit. Not verified on the deployed
+preview itself (this session cannot sign in to it).
+
+--- end Session 15 ---
