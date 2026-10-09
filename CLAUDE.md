@@ -153,6 +153,8 @@ npm run import-coas            # ingest /knowledge-base/coas/ xlsx files
 npm run import-bibliography    # load the 448-row bibliography xlsx
 npm run dedupe-research        # reconcile research/ corpus with bibliography DOIs
 npm run verify-rls             # live-probe the RLS matrix
+npm run eval:ask               # Ask routing + lab retrieval eval; run before every push
+npm run eval:ask -- --answers  # also generate answers and check the guardrails (Sonnet calls)
 ```
 
 ## Voice and tone for generated content

@@ -5446,3 +5446,22 @@ passes their hedged rewrites. Live run, 5 guardrail prompts plus the 12
 routing cases with answers: all pass after one prompt fix (the model called
 UFRJ "one of the most specialized research groups in the world"; the rule now
 forbids praising labs at all). Heuristics, not a compliance review.
+
+## Item 7 — Ask eval script — **ADDED**
+
+`npm run eval:ask` (`dashboard/app/scripts/eval-ask.ts`) runs the same
+functions `/api/chat` uses (live `classify`, `detectLabQuestion`,
+`fetchLabEvidence`, `askRoute`, `labLinksFor`) on the QA checklist questions,
+with the service-role key, as an admin or a customer service viewer, and
+asserts `route`, whether `lab_panel` is present, that no links appear without
+a panel and that links belong to the product shown, plus evidence content
+(DON "LOQ above limit" for PROTECT, all five core blends on 2026-10-07 for
+"this week", FLOW 2.35% with the green-only minimum note, green lots and the
+v2.5 standard, nothing invented for report 98765432). `--answers` also
+generates answers and runs `guardrailViolations` on them and on five
+guardrail prompts; `--only 7,9` and `--guard` pick cases; `--show` prints the
+evidence. No UI, no chat log writes. Exit code 1 on any failure.
+
+Result on live data, 2026-10-09: 12/12 routing cases pass; with `--answers`,
+12/12 plus 5/5 guardrail prompts pass (run in batches: a full `--answers`
+run takes about 3 minutes).
