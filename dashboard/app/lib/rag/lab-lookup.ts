@@ -215,7 +215,10 @@ export function detectLabQuestion(
     (LIMIT_WORD.test(question) || codes.length > 0 || labCtx);
   const aggregate =
     !status && AGG_INTENT.test(question) && (OVER.test(question) || UNDER.test(question) || LIMIT_WORD.test(question)) && (labCtx || codes.length > 0);
-  const green = /\bgreen\b/i.test(question) && (labCtx || codes.length > 0);
+  // "latest green coffee results", "green lots over the limit". Not "is green
+  // coffee extract good for weight loss": a result, lot or test word is needed.
+  const green = /\bgreen\b/i.test(question) && (labCtx || codes.length > 0 ||
+    (/\bgreen[-\s](?:coffee|lots?|beans?|samples?)\b/i.test(question) && /\b(results?|lots?|tests?|tested|testing|data|scores?|scored|requirements?|grades?|graded)\b/i.test(question)));
   const yr = question.match(/\b(20\d\d)\b/);
   const year = /\bthis year\b/i.test(question) ? new Date().toISOString().slice(0, 4) : yr ? yr[1] : null;
   const recency = RECENCY.test(question) && labCtx;
@@ -650,19 +653,22 @@ function windowBlock(win: DateWindow, signals: LabSignals, recs: LabRecord[], st
 function greenBlock(signals: LabSignals, recs: LabRecord[], std: Standard, syncedAt: string): LabChunk {
   const codes = signals.codes.length ? signals.codes : Object.keys(std.green);
   const scope = recs.filter((r) => r.kind === 'green' && r.status !== 'Awaiting sample' && (!signals.year || (r.test_date ?? '').startsWith(signals.year)));
-  type Row = { r: LabRecord; parts: string[]; flagged: boolean };
+  type Worst = { c: string; a: NonNullable<ReturnType<typeof analyteStatus>> };
+  type Row = { r: LabRecord; parts: string[]; flagged: boolean; worst: Worst | null };
   const rows: Row[] = [];
   for (const r of scope) {
     const parts: string[] = [];
     let flagged = false;
+    let worst: Worst | null = null;
     for (const c of codes) {
       const a = analyteStatus(r, c, std);
       if (!a) continue;
       const bad = a.floor || a.status === 'fail' || a.status === 'watch';
       flagged ||= bad;
+      if (!worst || RANK[a.status] > RANK[worst.a.status]) worst = { c, a };
       parts.push(`${label(std, c)} ${display(a.reading)} ${unit(std, c)} (${limitText(std, c, r)}) → ${statusText(a.status, analyteLabel(a))}`);
     }
-    if (parts.length) rows.push({ r, parts, flagged });
+    if (parts.length) rows.push({ r, parts, flagged, worst });
   }
   const list = signals.aggregate ? rows.filter((x) => x.flagged) : rows;
   const what = codes.map((c) => label(std, c)).join(', ');
@@ -673,7 +679,24 @@ function greenBlock(signals: LabSignals, recs: LabRecord[], std: Standard, synce
     ...(list.length ? list.slice(0, MAX_LIST).map((x) => `- ${iso(x.r.test_date)} · ${recWho(x.r)}${notScored(x.r, true)}: ${x.parts.join('; ')}`) : ['- none']),
     ...(list.length > MAX_LIST ? [`(${list.length - MAX_LIST} more not shown)`] : []),
   ].join('\n');
-  return chunk(`Lab Testing tracker: green lots${signals.year ? ` ${signals.year}` : ''}`, content, [{ label: 'Green lots', url: '/coa/green' }]);
+  const out = chunk(`Lab Testing tracker: green lots${signals.year ? ` ${signals.year}` : ''}`, content, [{ label: 'Green lots', url: '/coa/green' }]);
+  if (list.length) {
+    out.panel = {
+      product: 'Green lots',
+      title: signals.aggregate ? 'Green lots: flagged' : 'Green lots: newest first',
+      href: '/coa/green',
+      note: `Scored against ${std.green[codes[0]]?.version ?? 'the Green Arabica requirements'}. ${rows.filter((x) => x.flagged).length} of ${rows.length} lot record(s) flagged.`,
+      rows: list.slice(0, 12).map((x) => {
+        const w = x.worst!;
+        const v = display(w.a.reading);
+        return {
+          key: x.r.id, who: x.r.name || x.r.id, code: w.c, label: label(std, w.c), value: v ? `${v} ${unit(std, w.c)}`.trim() : '',
+          status: w.a.status, text: analyteLabel(w.a), date: iso(x.r.test_date),
+        };
+      }),
+    };
+  }
+  return out;
 }
 
 /**

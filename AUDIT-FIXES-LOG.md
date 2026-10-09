@@ -5351,3 +5351,18 @@ recent" blocks now give each blend's most recent test and what it covered,
 and say a partial panel is a new result. Live, this week (2026-10-05 to
 10-09): the five Oct 7 Trilogy mycotoxin panels, each "LOQ above limit" on
 DON only.
+
+## Item 3 — green lots in COA retrieval — **FIXED**
+
+Cause: the green signal needed a lab word ("tested", "COA", "lab results") or
+an analyte; "the latest green coffee results" has neither, so it fell to the
+testing overview, which has no green data. Now "green" plus green coffee /
+lots / beans / samples and a results, lots, test, data or score word counts
+("is green coffee extract good for weight loss" still does not). The green
+block, scored against Green Arabica Requirements v2.5, also renders as the
+lab panel (newest lots first, or flagged lots for "which green lots are
+over"), each row showing that lot's worst result. Access is unchanged: staff
+(editors and admins) as on /coa/green, which redirects everyone else; customer
+service gets "not available in this view". The QA asked for admin-only; I
+kept it matched to /coa/green rather than make Ask stricter than the page.
+Live: 173 green lot records with results, 23 flagged.
