@@ -20,7 +20,8 @@
     "backfill-question-topics": "tsx scripts/backfill-question-topics.ts",
     "migrate": "node --env-file=.env.local scripts/migrate.mjs",
     "eval:ask": "tsx --env-file=.env.local scripts/eval-ask.ts",
-    "link-drive-pdfs": "tsx --env-file=.env.local scripts/link-drive-pdfs.ts"
+    "link-drive-pdfs": "tsx --env-file=.env.local scripts/link-drive-pdfs.ts",
+    "source-display-titles": "tsx --env-file=.env.local scripts/source-display-titles.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.36.0",
