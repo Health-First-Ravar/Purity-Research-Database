@@ -5487,3 +5487,24 @@ check, which re-renders the server parts (Recent checks, the library claim's
 verdict) and keeps the result card on screen. Verified in a local render with
 `/api/audit` stubbed: the verdict card shows and one RSC refresh of
 /claims/check follows the check.
+
+## Item 10 — Claims filters — **FIXED** (Clear) / **ANSWERED** (Channel)
+
+Clear: "Clear" is a client-side link to /claims, and the filter selects are
+uncontrolled, so React kept their old values (Risk "High") while the results
+reset. The form is now keyed on the query, so it remounts with empty values.
+Verified locally (Playwright): Risk High + Channel Blog → 70 of 337; Clear →
+337 of 337 with Risk, Channel and search all empty.
+
+Channel: it matched only the claim's main `channel`. It now matches the main
+channel or any placement (`lib/claim-channels.ts` derives a placement's
+channel from its URL: amazon.* → Amazon, puritycoffee.com/products and
+/collections → Product page, /blogs → Blog, other puritycoffee.com → Site
+page, podcast and video hosts → Podcast / video, a short list of retail and
+press hosts; anything unclear stays unclassified). **Amazon still returns 3,
+and that is the data**: in Brian's library only c035, c169 and c212 have an
+Amazon URL among their placements, and all three are Amazon-main. Counts that
+change (Oct 3 snapshot): Blog 148 → 150, Podcast / video 15 → 21, Product
+page 70 → 72, Site page 82 → 85. Also: 52 claims list fewer placement URLs
+than their page count, so a placement Brian counted but did not link cannot
+be matched.

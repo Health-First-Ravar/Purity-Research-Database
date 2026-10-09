@@ -10,6 +10,7 @@ import { supabaseServer } from '@/lib/supabase';
 import { getHubRole, niceDate, TRACKER_URL } from '@/lib/lab-data';
 import { isVerdict, VERDICT_CHIP, VERDICT_LABEL, VERDICT_ORDER } from '@/lib/claim-verdict';
 import { safeHref } from '@/lib/safe-url';
+import { claimHasChannel } from '@/lib/claim-channels';
 import { Card, claimsSubNav, Kpi, KpiRow, SubNav } from '../_components/hub';
 
 export const dynamic = 'force-dynamic';
@@ -50,7 +51,7 @@ export default async function ClaimsPage({ searchParams }: { searchParams: Promi
     .filter((c) => !q || `${c.id} ${c.claim} ${c.notes ?? ''} ${c.evidence_needed ?? ''}`.toLowerCase().includes(q))
     .filter((c) => !sp.risk || c.risk === sp.risk)
     .filter((c) => !sp.cat || c.category === sp.cat)
-    .filter((c) => !sp.ch || c.channel === sp.ch)
+    .filter((c) => !sp.ch || claimHasChannel(c, sp.ch))
     .filter((c) => !sp.prod || (c.products ?? []).includes(sp.prod))
     .filter((c) => !sp.v || (sp.v === 'unchecked' ? !c.research_verdict : c.research_verdict === sp.v))
     .sort((a, b) => (RISK_ORDER[a.risk ?? ''] ?? 9) - (RISK_ORDER[b.risk ?? ''] ?? 9) || b.occurrences - a.occurrences);
@@ -76,7 +77,10 @@ export default async function ClaimsPage({ searchParams }: { searchParams: Promi
         </KpiRow>
 
         <Card title="Find a claim" hint="Brian rated each claim's risk and listed the evidence it needs. Check any claim to get a research verdict and a compliant rewrite.">
-          <form className="grid gap-2 sm:grid-cols-2 lg:grid-cols-6" method="get">
+          {/* Keyed on the query so "Clear" (a client-side navigation to /claims)
+              remounts the form: uncontrolled selects otherwise keep showing
+              the old choice, e.g. Risk "High", after the results reset. */}
+          <form key={JSON.stringify(sp)} className="grid gap-2 sm:grid-cols-2 lg:grid-cols-6" method="get">
             <input name="q" defaultValue={sp.q ?? ''} placeholder="Search claim text, notes or id" className="hub-input lg:col-span-2" aria-label="Search claims" />
             <Select name="risk" value={sp.risk} label="Risk" options={['High', 'Medium', 'Low']} />
             <Select name="cat" value={sp.cat} label="Category" options={categories} />
