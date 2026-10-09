@@ -5647,3 +5647,19 @@ you want that.
   dot, the ring and the red border mean.
 - Metrics headline "Reva handled 75% in chat" → "Ask answered 75% without
   escalation"; the explainer says Ask too (Reva is deep mode).
+
+## Item 18 — substantiation packet showed internal notes — **FIXED**
+
+Brian's tracker keeps working references in the report and description fields
+of the UFRJ (Farah) CGA records: 41 finished-product records, e.g. report
+"Purity results - August - 2025.docx", or a description ending 'also in thread
+19769dbb0f49c2a6 "CGA 2021 PRE-BIOCHAR and 2025 BIOCHAR RESULTS"'. New
+`lib/lab-refs.ts`: `isInternalRef()` (file names, e-mail threads, "re-sent")
+and `publicDescription()` (drops the thread clause). /coa/[product] test
+history now shows lab, order and report numbers that are real references,
+the description without thread IDs, and, for staff only and never in print,
+an "Internal ref" line with the file names. The set-aside reason is
+staff-only and does not print either (customer service saw it before). Ask's
+lab evidence no longer quotes a file name as a "report" number. Checked with
+print emulation on /coa/flow and /coa/protect: 0 ".docx" and 0 thread IDs in
+print (8 and 9 file names on screen for staff).

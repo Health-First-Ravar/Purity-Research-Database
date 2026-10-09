@@ -9,6 +9,7 @@ import { supabaseServer } from '@/lib/supabase';
 import { safeHref } from '@/lib/safe-url';
 import { analyteLabel, analyteStatus, display, LABEL, MATRIX, panelState, RANK, recordLabel, type LabRecord, type Status } from '@/lib/lab-status';
 import { getHubRole, isStaffRole, loadLab, niceDate, productFromSlug, todayISO, TRACKER_URL } from '@/lib/lab-data';
+import { isInternalRef, publicDescription } from '@/lib/lab-refs';
 import { Card, coaSubNav, Kpi, KpiRow, SubNav, TrackerNote } from '../../_components/hub';
 import { StatusCell, StatusChip } from '../../_components/StatusChip';
 import { PrintButton } from '../../_components/PrintButton';
@@ -126,7 +127,16 @@ export default async function ProductPage({ params }: { params: Promise<{ produc
                   return (
                     <tr key={r.id}>
                       <td className="whitespace-nowrap">{niceDate(r.test_date)}</td>
-                      <td>{r.description || r.name}<div className="text-xs text-purity-muted dark:text-purity-mist">{[r.lab, r.order_number, r.report_number].filter(Boolean).join(' · ')}</div>{r.excluded && <div className="text-xs text-purity-muted dark:text-purity-mist">Not scored: {r.excluded_reason || 'set aside by CERO'}</div>}</td>
+                      <td>
+                        {publicDescription(r.description) || r.name}
+                        {/* Lab and report numbers print; internal refs (file names, e-mail
+                            threads) and set-aside reasons are staff-only and never print. */}
+                        <div className="text-xs text-purity-muted dark:text-purity-mist">{[r.lab, r.order_number, r.report_number].filter((v) => v && !isInternalRef(v)).join(' · ')}</div>
+                        {staff && [r.order_number, r.report_number, r.description].some((v) => isInternalRef(v)) && (
+                          <div className="no-print text-xs text-purity-muted dark:text-purity-mist">Internal ref: {[r.order_number, r.report_number].filter((v) => isInternalRef(v)).join(' · ') || 'see the e-mail thread in the tracker'}</div>
+                        )}
+                        {r.excluded && <div className="text-xs text-purity-muted dark:text-purity-mist">Not scored{staff ? <span className="no-print">: {r.excluded_reason || 'set aside by CERO'}</span> : null}</div>}
+                      </td>
                       <td><StatusChip status={rl.status} label={rl.label} /></td>
                       <td className="text-xs">
                         {Object.keys(r.analytes || {}).filter((c) => std.finished[c]).slice(0, 10).map((c) => {

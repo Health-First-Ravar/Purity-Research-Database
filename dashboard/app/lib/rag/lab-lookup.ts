@@ -19,6 +19,7 @@ import {
   panelState, PRODUCT_ORDER, RANK, recordLabel, recordStatus,
   type LabRecord, type Standard, type Status, type StdRow,
 } from '../lab-status';
+import { isInternalRef } from '../lab-refs';
 
 export type LabLink = { label: string; url: string };
 
@@ -274,7 +275,8 @@ const notScored = (r: LabRecord, elevated: boolean) =>
 
 function recWho(r: LabRecord): string {
   const what = r.kind === 'product' ? (r.product || r.name || 'product') : `${r.name || r.id} (${r.kind === 'green' ? 'green lot' : r.kind})`;
-  const ids = [r.report_number && `report ${r.report_number}`, r.sample_number && `sample ${r.sample_number}`].filter(Boolean).join(', ');
+  // Internal file names and e-mail threads are not report numbers; never quote them.
+  const ids = [r.report_number && !isInternalRef(r.report_number) && `report ${r.report_number}`, r.sample_number && !isInternalRef(r.sample_number) && `sample ${r.sample_number}`].filter(Boolean).join(', ');
   return `${what} · ${r.lab ?? 'lab not recorded'}${ids ? ` · ${ids}` : ''}`;
 }
 
