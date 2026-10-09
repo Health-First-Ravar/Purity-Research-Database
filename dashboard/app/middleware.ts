@@ -1,7 +1,7 @@
 import { NextResponse, type NextRequest } from 'next/server';
 import { createServerClient, type CookieOptions } from '@supabase/ssr';
 
-const PUBLIC_PATHS = ['/login', '/auth/callback', '/auth/update-password'];
+const PUBLIC_PATHS = ['/login', '/auth/callback', '/auth/confirm', '/auth/update-password'];
 
 // Overhaul preview deployments are for admins only (decision 2026-10-03).
 // Production (VERCEL_ENV=production) and local dev are never gated.

@@ -13,6 +13,7 @@ import { cookies } from 'next/headers';
 import { supabaseServer, supabaseAdmin } from '@/lib/supabase';
 import { isAdmin } from '@/lib/auth-roles';
 import { sendInviteEmail } from '@/lib/email';
+import { emailTokenLink } from '@/lib/site-origin';
 
 export const dynamic = 'force-dynamic';
 
@@ -93,14 +94,7 @@ export async function POST(req: NextRequest) {
     userId = created.user.id;
   } else {
     // ── Invite email: generate the magic link server-side, send via Resend ──
-    const siteOrigin = process.env.NEXT_PUBLIC_SITE_URL
-      ?? (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'http://localhost:3000');
-
-    const { data: linkData, error: linkErr } = await adb.auth.admin.generateLink({
-      type: 'invite',
-      email,
-      options: { redirectTo: `${siteOrigin}/auth/callback?type=invite` },
-    });
+    const { data: linkData, error: linkErr } = await adb.auth.admin.generateLink({ type: 'invite', email });
     if (linkErr) {
       if (/already.*registered|already exists/i.test(linkErr.message)) {
         return NextResponse.json({ error: 'already_exists', message: linkErr.message }, { status: 409 });
@@ -114,7 +108,7 @@ export async function POST(req: NextRequest) {
 
     // Send the invite email via Resend with branded template.
     try {
-      await sendInviteEmail(email, linkData.properties.action_link, full_name ?? undefined);
+      await sendInviteEmail(email, emailTokenLink(linkData.properties.hashed_token, 'invite'), full_name ?? undefined);
     } catch (e) {
       console.error('[invite] Resend send error:', e instanceof Error ? e.message : e);
       return NextResponse.json({

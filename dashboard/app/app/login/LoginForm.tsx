@@ -9,13 +9,19 @@ type Mode = 'login' | 'forgot';
 export function LoginForm() {
   const router = useRouter();
   const searchParams = useSearchParams();
-  const next = searchParams.get('next') ?? '/chat';
+  // In-app paths only, so ?next= can't send someone off-site after sign-in.
+  const rawNext = searchParams.get('next') ?? '/chat';
+  const next = rawNext.startsWith('/') && !rawNext.startsWith('//') && !rawNext.startsWith('/\\') ? rawNext : '/chat';
 
   const [mode, setMode] = useState<Mode>('login');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [busy, setBusy] = useState(false);
-  const [error, setError] = useState<string | null>(null);
+  const [error, setError] = useState<string | null>(
+    searchParams.get('error') === 'invite_expired'
+      ? 'That link has expired or was already used. Use Forgot password to get a new one.'
+      : null,
+  );
   const [sent, setSent] = useState(false);
 
   async function handleLogin(e: React.FormEvent) {

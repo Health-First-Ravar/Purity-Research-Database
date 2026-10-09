@@ -11,6 +11,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { supabaseAdmin } from '@/lib/supabase';
 import { sendPasswordResetEmail } from '@/lib/email';
+import { emailTokenLink } from '@/lib/site-origin';
 
 const OK = NextResponse.json({ ok: true });
 
@@ -27,17 +28,9 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'invalid_email' }, { status: 400 });
   }
 
-  const siteOrigin =
-    process.env.NEXT_PUBLIC_SITE_URL ??
-    (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'http://localhost:3000');
-
   try {
     const adb = supabaseAdmin();
-    const { data, error } = await adb.auth.admin.generateLink({
-      type: 'recovery',
-      email,
-      options: { redirectTo: `${siteOrigin}/auth/callback?type=recovery` },
-    });
+    const { data, error } = await adb.auth.admin.generateLink({ type: 'recovery', email });
 
     if (error) {
       // User likely doesn't exist — return OK anyway to prevent enumeration.
@@ -45,7 +38,7 @@ export async function POST(req: NextRequest) {
       return OK;
     }
 
-    const resetUrl = data.properties.action_link;
+    const resetUrl = emailTokenLink(data.properties.hashed_token, 'recovery');
     await sendPasswordResetEmail(email, resetUrl);
   } catch (e) {
     // Log but don't surface — same generic OK response.
