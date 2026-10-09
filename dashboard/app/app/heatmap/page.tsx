@@ -54,7 +54,10 @@ export default async function HeatmapPage({ searchParams }: { searchParams: Prom
   });
 
   const totalTopics = rows.length;
+  // A canon gap is a topic with no active canon AND asked 3+ times in 30 days
+  // (question_heatmap.canon_gap); topics with no canon at all are counted apart.
   const gapCount = rows.filter((r) => r.canon_gap).length;
+  const noCanon = rows.filter((r) => !r.canon_count).length;
   const totalMsgs30d = rows.reduce((s, r) => s + (r.msg_count_30d ?? 0), 0);
   const topGaps = rows.filter((r) => r.canon_gap).slice(0, 3);
 
@@ -70,7 +73,7 @@ export default async function HeatmapPage({ searchParams }: { searchParams: Prom
         <div>
           <h1 className="font-serif text-2xl">Question heatmap</h1>
           <p className="text-sm text-purity-muted dark:text-purity-mist">
-            Where customers ask · where canon is thin. Filled corner = canon exists. Hollow ring = gap.
+            Where customers ask · where canon is thin. Filled dot: active canon exists. Hollow ring: no active canon. Red border: canon gap (no canon and asked 3+ times in 30 days).
           </p>
         </div>
         <form className="flex flex-wrap items-center gap-2 text-sm">
@@ -94,9 +97,10 @@ export default async function HeatmapPage({ searchParams }: { searchParams: Prom
         </form>
       </header>
 
-      <section className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+      <section className="grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
         <Tile label="Topics" value={String(totalTopics)} />
-        <Tile label="Canon gaps" value={String(gapCount)} sub={totalTopics ? `${Math.round((gapCount / totalTopics) * 100)}% of topics` : undefined} />
+        <Tile label="Topics without canon" value={String(noCanon)} sub={totalTopics ? `${Math.round((noCanon / totalTopics) * 100)}% of topics have no active canon` : undefined} />
+        <Tile label="Canon gaps" value={String(gapCount)} sub="no canon and asked 3+ times in 30 days" />
         <Tile label="Msgs (30d)" value={totalMsgs30d.toLocaleString()} />
         <Tile
           label="Priority topics"

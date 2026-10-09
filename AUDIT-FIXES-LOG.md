@@ -5629,3 +5629,21 @@ Found while checking, not fixed (need the real titles, which I will not guess):
 | e5dff249 | For email subscription, click here to register: http://www.fas.usda.gov... | title is a page footer |
 The DOIs that resolve could fill the titles from Crossref in one pass; say if
 you want that.
+
+## Item 17 — Admin numbers — **FIXED** (labels)
+
+- Admin overview "Escalations 3 (30 days)" vs Review queue and Metrics "19
+  pending": different counts, both right. The overview counted messages
+  escalated in the last 30 days; the queue counts escalated messages not yet
+  labelled, any date. The overview KPI is now "Review queue" with the same
+  count as the queue and Metrics (escalated, `editor_label` null), and its
+  sub-line gives the 30-day figure: "escalations not yet reviewed (any date)
+  · N new in the last 30 days".
+- Heatmap "Canon gaps 1 (2%)" while every tile shows canon 0: also both
+  right. `question_heatmap.canon_gap` is "no active canon AND asked 3+ times
+  in 30 days"; the tiles show the canon count. New tile "Topics without
+  canon" (all 44 today, no active canon rows exist), and "Canon gaps" now
+  says "no canon and asked 3+ times in 30 days". The legend says what the
+  dot, the ring and the red border mean.
+- Metrics headline "Reva handled 75% in chat" → "Ask answered 75% without
+  escalation"; the explainer says Ask too (Reva is deep mode).

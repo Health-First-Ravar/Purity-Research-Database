@@ -341,7 +341,7 @@ function makeSummary(args: {
     : days === 365 ? 'this year'
     : `over the last ${days} days`;
   const ans = answeredRate == null ? '' :
-    `Reva handled ${Math.round(answeredRate * 100)}% in chat; ${escalated} of ${messages} needed Ildi or Jeremy to step in.`;
+    `Ask answered ${Math.round(answeredRate * 100)}% without escalation; ${escalated} of ${messages} needed Ildi or Jeremy to step in.`;
   const sat = satisfactionRate == null
     ? 'No customer ratings yet — that data starts populating as people use the thumbs buttons.'
     : `Customer satisfaction is sitting at ${Math.round(satisfactionRate * 100)}%.`;

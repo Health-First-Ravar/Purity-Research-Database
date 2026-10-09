@@ -11,7 +11,7 @@ const ITEMS: { label: string; body: string }[] = [
   },
   {
     label: 'Answered confidently',
-    body: 'The share of conversations Reva handled directly in chat without needing Ildi or Jeremy to step in. Higher is better. Below 50% means we are punting too often, usually a sign of a missing canon answer or an over-cautious prompt.',
+    body: 'The share of Ask conversations answered directly, without needing Ildi or Jeremy to step in. Higher is better. Below 50% means we are punting too often, usually a sign of a missing canon answer or an over-cautious prompt.',
   },
   {
     label: 'Customer satisfaction',
