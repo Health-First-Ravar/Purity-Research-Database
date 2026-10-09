@@ -5844,3 +5844,14 @@ Not changed, by design:
   streaming the answer is the main lever.
 - The 2:46 PM sync left no row: the scheduled task's step 5 still stops on
   UNCHANGED until it is updated to call `--unchanged` (waiting on Jeremy's OK).
+
+## Session 15b follow-up — source titles still raw on the preview
+
+Re-test after `af090e6`: Sign out, the status note and the /editor heading
+pass; the Ask sources line still showed "The Coffee Guide to Better
+Health_7x10_FINAL-550-Pages-24Dec2025", "authorea.15003367_v1" and a
+hyphenated file name. The client renders `displaySourceTitle()`, and the
+deployed commit was `af090e6`, so the likeliest cause is a tab still running
+the previous build's JavaScript. `/api/chat` now returns the readable title
+itself, so every client shows it regardless. Titles that were stored cut off
+at about 70 characters stay cut off (data, not display).

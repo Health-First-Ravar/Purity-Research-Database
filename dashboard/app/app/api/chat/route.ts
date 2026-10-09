@@ -17,6 +17,7 @@ import { embedOne } from '@/lib/voyage';
 import { checkChatRateLimit } from '@/lib/rate-limit';
 import { detectLabQuestion } from '@/lib/rag/lab-lookup';
 import { askRoute, labLinksFor } from '@/lib/rag/ask-route';
+import { displaySourceTitle } from '@/lib/rag/source-label';
 
 // Floor below which we treat the answer as a real failure regardless of what
 // the model says. Above this, trust the model's escalation_recommended signal.
@@ -215,7 +216,9 @@ export async function POST(req: NextRequest) {
         .filter((c) => (seenTitles.has(c.title) ? false : (seenTitles.add(c.title), true)))
         .map((c) => ({
           id: c.id,
-          title: c.title,
+          // Readable title (not the stored file name), set here so every
+          // client, including a tab still running older JS, shows it.
+          title: displaySourceTitle(c),
           kind: c.kind,
           chapter: c.chapter,
           similarity: c.similarity,
