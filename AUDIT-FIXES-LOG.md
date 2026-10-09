@@ -5366,3 +5366,18 @@ over"), each row showing that lot's worst result. Access is unchanged: staff
 service gets "not available in this view". The QA asked for admin-only; I
 kept it matched to /coa/green rather than make Ask stricter than the page.
 Live: 173 green lot records with results, 23 flagged.
+
+## Item 4 — router: research before lab keywords — **FIXED**
+
+Cause: "What does research suggest about chlorogenic acids and glucose
+metabolism?" named an analyte (CGA), so the lab leg fired, added "Lab Testing
+tracker: Chlorogenic acids by product", and any lab chunk made the route COA.
+`detectLabQuestion` now sets `research` when the question is about research,
+studies, evidence, papers, trials or science and names no product, lot,
+report, panel, COA or lab result; then the lab leg does not fire at all.
+Routing moved to `lib/rag/ask-route.ts` (`askRoute`), shared with the eval:
+COA when lab evidence was used, Research for research questions and for
+health or blend classifications, COA for a COA classification otherwise,
+else Customer answer. A research question the classifier files as COA still
+searches the research sources. Unchanged and still correct: "How can coffee
+help me stay calm and focused?" (lowercase "calm" is not the CALM blend).

@@ -15,6 +15,8 @@ import { getCoaViewer, CS_SCOPE } from '@/lib/coa-scope';
 import { generateAnswer, type PriorTurn } from '@/lib/rag/generate';
 import { embedOne } from '@/lib/voyage';
 import { checkChatRateLimit } from '@/lib/rate-limit';
+import { detectLabQuestion } from '@/lib/rag/lab-lookup';
+import { askRoute } from '@/lib/rag/ask-route';
 
 // Floor below which we treat the answer as a real failure regardless of what
 // the model says. Above this, trust the model's escalation_recommended signal.
@@ -219,10 +221,9 @@ export async function POST(req: NextRequest) {
           similarity: c.similarity,
         }));
     })(),
-    // Which way the question was answered, shown beside the answer.
-    route: chunks.some((c) => c.via === 'lab_tracker') || cls.category === 'coa'
-      ? 'COA'
-      : cls.category === 'health' || cls.category === 'blend' ? 'Research' : 'Customer answer',
+    // Which way the question was answered, shown beside the answer
+    // (lib/rag/ask-route.ts; scripts/eval-ask.ts tests the same function).
+    route: askRoute(detectLabQuestion(question, cls), cls, chunks.some((c) => c.via === 'lab_tracker')),
     // Latest results for the product asked about, in Brian's status chips.
     lab_panel: chunks.find((c) => c.panel)?.panel ?? null,
     // COA quick view and certificate links from the lab evidence used for this

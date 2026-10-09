@@ -82,8 +82,10 @@ export async function retrieveChunks(
   // to the old Drive-parsed `coas` chunks). In lab mode the old COA chunks are
   // kept out of semantic retrieval so two lab sources can never disagree.
   const labMode = labSourceEnabled();
-  // Category-based source kind bias. Coarse but effective at MVP.
-  const baseKinds = kindsForCategory(cls.category);
+  const labSignals = detectLabQuestion(question, cls);
+  // Category-based source kind bias. Coarse but effective at MVP. A research
+  // question the classifier filed as COA still searches the research sources.
+  const baseKinds = kindsForCategory(labSignals.research && cls.category === 'coa' ? 'health' : cls.category);
   const kinds = labMode && baseKinds ? baseKinds.filter((k) => k !== 'coa') : baseKinds;
   const { data, error } = await client.rpc('match_chunks', {
     query_embedding: emb as unknown as string,
@@ -106,7 +108,7 @@ export async function retrieveChunks(
   if (labMode) {
     // Lab evidence from lab_results on the caller's client (RLS applies);
     // `null` scopes means an elevated viewer, who also sees green and R&D lots.
-    const lab = await fetchLabEvidence(client, detectLabQuestion(question, cls), allowedCoaScopes === null);
+    const lab = await fetchLabEvidence(client, labSignals, allowedCoaScopes === null);
     return [...lab, ...semantic];
   }
 

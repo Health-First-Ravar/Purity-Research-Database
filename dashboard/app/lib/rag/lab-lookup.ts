@@ -61,6 +61,7 @@ export type LabSignals = {
   status: boolean;       // "which products are over / near a limit right now": latest result per product and analyte
   recency: boolean;
   window: DateWindow | null;
+  research: boolean;     // asks about research, studies or evidence and names no product, lot, report or lab result
   green: boolean;        // green coffee lots (staff only)
   year: string | null;   // "this year" / an explicit 20xx
 };
@@ -124,6 +125,12 @@ const NEAR = /\b(near(?:ly)?|close to|approaching)\b/i;
 const HISTORY = /\b(ever|history|historically|in the past|previous(?:ly)?|all[-\s]time)\b/i;
 const REPORT_TOKEN = /\b(?:[A-Za-z0-9]+(?:-[A-Za-z0-9]+)+|\d{5,})\b/g;
 const TOKEN_STOP = new Set(['covid-19', 'omega-3', 'omega-6', 'b12', 'sars-cov-2']);
+
+// Research questions go to Research even when they name an analyte ("what does
+// research suggest about chlorogenic acids and glucose metabolism"), unless
+// they also name a product, lot, report or lab result.
+const RESEARCH = /\b(research|stud(?:y|ies)|evidence|literature|science|scientific|papers?|clinical|trials?|meta-?analys[ie]s|journals?|peer[-\s]reviewed)\b/i;
+const LAB_NAMED = /\b(coas?|certificates?(?: of analysis)?|lab(?:oratory)?\s+(?:results?|tests?|testing|reports?|data)|test results?|our (?:lab|labs|testing|tests|results)|lots?|batch(?:es)?|panels?|reports?)\b/i;
 
 const DAY = 86400000;
 const isoDay = (t: number) => new Date(t).toISOString().slice(0, 10);
@@ -225,13 +232,14 @@ export function detectLabQuestion(
   // A test-date window counts only for a lab question ("how was your week" is not).
   const win = detectWindow(question, today);
   const dateWin = win && (labCtx || codes.length > 0 || products.length > 0 || green) ? win : null;
+  const research = RESEARCH.test(question) && products.length === 0 && reportTokens.length === 0 && !LAB_NAMED.test(question) && !green;
   const coa = cls.category === 'coa';
   // Product alone ("is PROTECT good for reflux?") is not a lab question; a
   // product plus a lab word or an analyte is.
-  const fire =
+  const fire = !research && (
     codes.length > 0 || reportTokens.length > 0 || aggregate || status || recency || !!dateWin || coa ||
-    (products.length > 0 && labCtx) || green;
-  return { fire, products, codes, reportTokens, aggregate, status, recency, window: dateWin, green, year };
+    (products.length > 0 && labCtx) || green);
+  return { fire, products, codes, reportTokens, aggregate, status, recency, window: dateWin, research, green, year };
 }
 
 // ---------------------------------------------------------------------------
