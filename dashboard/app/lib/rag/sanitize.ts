@@ -4,14 +4,16 @@
 // ignores it often enough that instruction alone is not sufficient, so we strip
 // deterministically at the point every answer is finalized.
 //
-// Only the em dash (—, U+2014) and en dash (–, U+2013) are touched. The
-// hyphen-minus (-) is left alone, so compound words (health-first, soil-to-cup,
+// Only the em dash (—, U+2014), en dash (–, U+2013) and a double hyphen used
+// as a dash ("--") are touched. A single hyphen-minus (-) is left alone, so compound words (health-first, soil-to-cup,
 // third-party), bullet lists, and markdown rules/tables are untouched.
 
 export function stripDashes(input: string): string {
   if (!input) return input;
   return (
     input
+      // a double hyphen used as a dash ("--", not a markdown rule "---") → em dash, handled below
+      .replace(/(?<!-)--(?!-)/g, '—')
       // numeric range (9–11.5, 45–54, 3–4) → hyphen; reads fine, not a sentence dash
       .replace(/(\d)\s*[–—]\s*(\d)/g, '$1-$2')
       // em/en dash used as sentence punctuation, spaced or flush → comma + space

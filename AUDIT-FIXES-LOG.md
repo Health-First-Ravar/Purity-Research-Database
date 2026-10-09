@@ -5407,3 +5407,42 @@ left the model to guess at "the CGA standard". `greenOnlyNotes()` now adds,
 for any analyte asked about that has no finished-product limit but a green
 requirement, one line built from `lab_standard`: no finished-product minimum,
 and the green minimum and its version. Nothing hardcoded. Eval: 12 of 12.
+
+## Item 6 — Ask answer guardrails — **FIXED** (prompt + checks)
+
+`lib/rag/generate.ts` system prompt:
+- Audience is Purity staff in the Hub (answers may be relayed to customers).
+  Never "reach out to us / contact Purity"; when data is missing, say what is
+  missing and point to the COA quick view by name.
+- New rule 10 (overrides the rest): no unverified operational policy (what
+  happens to coffee over a limit, testing frequency, QA procedures) unless
+  evidence states it; no offers of features that do not exist; no
+  superlatives, and no praising or ranking labs or researchers; every health
+  benefit hedged, in blend descriptions, summaries and headings; no em dash,
+  en dash or "--".
+- Blend descriptions rewritten as positioning ("FLOW: balanced roast and
+  caffeine; the everyday blend, positioned around energy and focus") instead
+  of outcomes ("cognitive / energy support", "sleep-supportive", "highest CGA
+  preservation").
+- **Removed two unverified claims from the prompt itself**: "Purity tests
+  every lot" and "per-lot third-party COAs" (rule 7). Blends get a yearly full
+  panel plus partial panels, per the tracker; this was one of the three
+  wording decisions parked for Jeremy and Ildi, and the QA rule (no
+  unverified operational policy) settles it for Ask. Restore if they decide
+  otherwise.
+- Em dashes removed from the prompt's own prose (the model copies them).
+
+`lib/rag/sanitize.ts`: `stripDashes` also turns an inline "--" into a comma,
+leaving markdown rules ("---") alone.
+
+`lib/rag/guardrails.ts`: `guardrailViolations(answer)`, heuristic checks for
+each rule, used by the eval (`--answers`). On the QA's own examples it flags
+all eight ("If something comes in over a limit, it doesn't ship", "I can flag
+you when results post", "reach out to us directly at Purity", "one of the
+leading CGA research groups in the world", "CGAs have independently shown
+cognitive benefits", "CALM gives you the compound benefits", "the cognitive
+and energy profile FLOW is built for", the insulin-sensitivity heading) and
+passes their hedged rewrites. Live run, 5 guardrail prompts plus the 12
+routing cases with answers: all pass after one prompt fix (the model called
+UFRJ "one of the most specialized research groups in the world"; the rule now
+forbids praising labs at all). Heuristics, not a compliance review.
