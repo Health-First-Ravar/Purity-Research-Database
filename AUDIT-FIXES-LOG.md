@@ -5334,3 +5334,20 @@ in `ChatClient.tsx` (now `<Link>`) and an eslint-disable comment in
 `lib/coa-scope.ts` naming a rule the config does not load (replaced the `any`
 cast with a typed one). `next.config.ts` sets `ignoreDuringBuilds`, so neither
 broke a deploy, but lint now passes clean.
+
+## Item 2 — recent results by date — **FIXED**
+
+Cause: "this week" was not a recency word, so "What lab results came in this
+week?" got only the testing overview, and the overview listed each blend's
+last FULL panel, which the model read as "nothing new" (confidence 0.90, not
+escalated). New `detectWindow()` (today, yesterday, this/last week, this/last
+month, past/last N days/weeks/months, since a date) and `windowBlock`: every
+record with a test date in the window, newest first, with what it tested
+("mycotoxins", or "full contaminant panel (...)") and its overall status, plus
+a "core blends in this window" list naming all five (FLOW, EASE, CALM, PROTECT,
+BALANCE) so none is dropped. Rendered as the lab panel. Staff also see green
+and R&D records and samples sent in the window. The overview and "most
+recent" blocks now give each blend's most recent test and what it covered,
+and say a partial panel is a new result. Live, this week (2026-10-05 to
+10-09): the five Oct 7 Trilogy mycotoxin panels, each "LOQ above limit" on
+DON only.

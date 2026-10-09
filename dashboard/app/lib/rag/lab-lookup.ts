@@ -15,8 +15,8 @@
 import { randomUUID } from 'node:crypto';
 import type { SupabaseClient } from '@supabase/supabase-js';
 import {
-  analyteLabel, analyteStatus, buildStandard, CORE, display, isSacredCups, LABEL, latestFor, MATRIX,
-  panelState, PRODUCT_ORDER, RANK, recordLabel,
+  analyteLabel, analyteStatus, buildStandard, CORE, display, isFullPanel, isSacredCups, LABEL, latestFor, MATRIX,
+  panelState, PRODUCT_ORDER, RANK, recordLabel, recordStatus,
   type LabRecord, type Standard, type Status, type StdRow,
 } from '../lab-status';
 
@@ -49,6 +49,9 @@ export type LabChunk = {
   panel?: LabPanel;
 };
 
+/** A test-date window named in the question ("this week", "last 30 days", "since Sept 1"). Inclusive ISO dates. */
+export type DateWindow = { from: string; to: string; label: string };
+
 export type LabSignals = {
   fire: boolean;
   products: string[];
@@ -57,6 +60,7 @@ export type LabSignals = {
   aggregate: boolean;
   status: boolean;       // "which products are over / near a limit right now": latest result per product and analyte
   recency: boolean;
+  window: DateWindow | null;
   green: boolean;        // green coffee lots (staff only)
   year: string | null;   // "this year" / an explicit 20xx
 };
@@ -105,7 +109,7 @@ const ANALYTE_WORDS: { re: RegExp; codes: string[]; weak?: boolean }[] = [
 // "reports" and "a lot" are everyday words in health questions.
 const LAB_CTX =
   /\b(coas?|certificates?(?: of analysis)?|lab(?:oratory|s)?|lab results?|tested|testing|tests?|test results?|ppb|ppm|panels?|assays?|batch(?:es)?|samples?|lot (?:number|code|#)|(?:green|coffee) lots?|lots? (?:tested|over|under|below|above|failed|flagged))\b/i;
-const RECENCY = /\b(most[-\s]?recent|recent(?:ly)?|latest|newest|last|current(?:ly)?|up[-\s]?to[-\s]?date)\b/i;
+const RECENCY = /\b(most[-\s]?recent|recent(?:ly)?|latest|newest|new|last|current(?:ly)?|up[-\s]?to[-\s]?date|came in|come in|posted)\b/i;
 const AGG_INTENT = /\b(which|any|list|how\s+many|are\s+there|show|find|ever)\b/i;
 const OVER = /\b(exceed(?:s|ed|ing)?|over|above|fail(?:s|ed|ing|ures?)?|breach(?:es|ed)?|outside|flagged|problems?|issues?|out of spec)\b/i;
 const LIMIT_WORD = /\b(limits?|spec|standard|threshold|health grade|minimum|floor)\b/i;
@@ -120,6 +124,59 @@ const NEAR = /\b(near(?:ly)?|close to|approaching)\b/i;
 const HISTORY = /\b(ever|history|historically|in the past|previous(?:ly)?|all[-\s]time)\b/i;
 const REPORT_TOKEN = /\b(?:[A-Za-z0-9]+(?:-[A-Za-z0-9]+)+|\d{5,})\b/g;
 const TOKEN_STOP = new Set(['covid-19', 'omega-3', 'omega-6', 'b12', 'sars-cov-2']);
+
+const DAY = 86400000;
+const isoDay = (t: number) => new Date(t).toISOString().slice(0, 10);
+const NUM_WORDS: Record<string, number> = { two: 2, three: 3, four: 4, five: 5, six: 6, seven: 7, ten: 10, fourteen: 14, thirty: 30, sixty: 60, ninety: 90 };
+const MONTHS = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'];
+
+/** Monday of the ISO week containing `today`. */
+function weekStart(today: string): number {
+  const t = Date.parse(`${today}T00:00:00Z`);
+  return t - ((new Date(t).getUTCDay() + 6) % 7) * DAY;
+}
+
+/** A test-date window named in the question, or null. `today` is an ISO date. */
+export function detectWindow(q: string, today: string): DateWindow | null {
+  const t = Date.parse(`${today}T00:00:00Z`);
+  if (/\btoday\b/i.test(q)) return { from: today, to: today, label: 'today' };
+  if (/\byesterday\b/i.test(q)) { const d = isoDay(t - DAY); return { from: d, to: d, label: 'yesterday' }; }
+  if (/\bthis week\b/i.test(q)) return { from: isoDay(weekStart(today)), to: today, label: 'this week' };
+  if (/\blast week\b/i.test(q)) { const s = weekStart(today) - 7 * DAY; return { from: isoDay(s), to: isoDay(s + 6 * DAY), label: 'last week' }; }
+  if (/\bthis month\b/i.test(q)) return { from: `${today.slice(0, 8)}01`, to: today, label: 'this month' };
+  if (/\blast month\b/i.test(q)) {
+    const first = Date.parse(`${today.slice(0, 8)}01T00:00:00Z`);
+    const prevEnd = first - DAY;
+    return { from: `${isoDay(prevEnd).slice(0, 8)}01`, to: isoDay(prevEnd), label: 'last month' };
+  }
+  const n = q.match(/\b(?:past|last|previous)\s+(\d{1,3}|two|three|four|five|six|seven|ten|fourteen|thirty|sixty|ninety)\s+(days?|weeks?|months?)\b/i);
+  if (n) {
+    const k = /^\d+$/.test(n[1]) ? Number(n[1]) : NUM_WORDS[n[1].toLowerCase()];
+    const days = k * (/^week/i.test(n[2]) ? 7 : /^month/i.test(n[2]) ? 30 : 1);
+    return { from: isoDay(t - days * DAY), to: today, label: `the last ${k} ${n[2].toLowerCase()}` };
+  }
+  const since = q.match(/\bsince\s+(\d{4}-\d{2}-\d{2}|([a-z]{3,9})\.?\s+(\d{1,2})(?:st|nd|rd|th)?(?:,?\s+(\d{4}))?|(\d{1,2})\/(\d{1,2})(?:\/(\d{2,4}))?)\b/i);
+  if (since) {
+    let from: string | null = null;
+    if (/^\d{4}-/.test(since[1])) from = since[1];
+    else if (since[2]) {
+      const m = MONTHS.indexOf(since[2].slice(0, 3).toLowerCase());
+      if (m >= 0) {
+        let y = since[4] ? Number(since[4]) : Number(today.slice(0, 4));
+        const d = `${y}-${String(m + 1).padStart(2, '0')}-${String(Number(since[3])).padStart(2, '0')}`;
+        if (!since[4] && d > today) y -= 1;
+        from = `${y}-${String(m + 1).padStart(2, '0')}-${String(Number(since[3])).padStart(2, '0')}`;
+      }
+    } else if (since[5]) {
+      let y = since[7] ? Number(since[7].length === 2 ? `20${since[7]}` : since[7]) : Number(today.slice(0, 4));
+      const d = `${y}-${since[5].padStart(2, '0')}-${since[6].padStart(2, '0')}`;
+      if (!since[7] && d > today) y -= 1;
+      from = `${y}-${since[5].padStart(2, '0')}-${since[6].padStart(2, '0')}`;
+    }
+    if (from && !Number.isNaN(Date.parse(`${from}T00:00:00Z`))) return { from, to: today, label: `since ${from}` };
+  }
+  return null;
+}
 
 // Blend names that are also everyday words ("balance blood sugar", "calm
 // nerves", "go with the flow") only count as a product when written as a
@@ -139,6 +196,7 @@ function mentionsProduct(p: string, question: string): boolean {
 export function detectLabQuestion(
   question: string,
   cls: { category?: string; blend?: string | null } = {},
+  today: string = new Date().toISOString().slice(0, 10),
 ): LabSignals {
   const products = PRODUCT_ORDER.filter((p) => mentionsProduct(p, question));
   if (cls.blend && !products.includes(cls.blend)) products.push(cls.blend);
@@ -161,13 +219,16 @@ export function detectLabQuestion(
   const yr = question.match(/\b(20\d\d)\b/);
   const year = /\bthis year\b/i.test(question) ? new Date().toISOString().slice(0, 4) : yr ? yr[1] : null;
   const recency = RECENCY.test(question) && labCtx;
+  // A test-date window counts only for a lab question ("how was your week" is not).
+  const win = detectWindow(question, today);
+  const dateWin = win && (labCtx || codes.length > 0 || products.length > 0 || green) ? win : null;
   const coa = cls.category === 'coa';
   // Product alone ("is PROTECT good for reflux?") is not a lab question; a
   // product plus a lab word or an analyte is.
   const fire =
-    codes.length > 0 || reportTokens.length > 0 || aggregate || status || recency || coa ||
+    codes.length > 0 || reportTokens.length > 0 || aggregate || status || recency || !!dateWin || coa ||
     (products.length > 0 && labCtx) || green;
-  return { fire, products, codes, reportTokens, aggregate, status, recency, green, year };
+  return { fire, products, codes, reportTokens, aggregate, status, recency, window: dateWin, green, year };
 }
 
 // ---------------------------------------------------------------------------
@@ -204,6 +265,23 @@ function recWho(r: LabRecord): string {
   const what = r.kind === 'product' ? (r.product || r.name || 'product') : `${r.name || r.id} (${r.kind === 'green' ? 'green lot' : r.kind})`;
   const ids = [r.report_number && `report ${r.report_number}`, r.sample_number && `sample ${r.sample_number}`].filter(Boolean).join(', ');
   return `${what} · ${r.lab ?? 'lab not recorded'}${ids ? ` · ${ids}` : ''}`;
+}
+
+// Panel groups named as such; other groups are named by their analytes.
+const GROUP_WORDS: Record<string, string> = {
+  'Heavy metals': 'heavy metals', Mycotoxins: 'mycotoxins', Residues: 'pesticide residues', Micro: 'yeast and mold',
+};
+
+/** What a record tested, in words: "full contaminant panel", or "mycotoxins", "heavy metals, acrylamide". */
+function coverage(r: LabRecord, std: Standard): string {
+  const parts: string[] = [];
+  for (const c of Object.keys(r.analytes || {})) {
+    const g = std.finished[c]?.grp ?? '';
+    const w = GROUP_WORDS[g] ?? (std.finished[c]?.label ?? c).toLowerCase();
+    if (!parts.includes(w)) parts.push(w);
+  }
+  const what = parts.slice(0, 5).join(', ') + (parts.length > 5 ? ` and ${parts.length - 5} more` : '');
+  return isFullPanel(r) ? `full contaminant panel (${what})` : what || 'no analytes recorded';
 }
 
 /** Status wording for evidence; spells out the two labels that read ambiguously out of context. */
@@ -495,11 +573,11 @@ function recentBlock(recs: LabRecord[], std: Standard, syncedAt: string, product
   const lines = top.map((r) => {
     const keys = Object.keys(r.analytes || {}).filter((c) => MATRIX.includes(c));
     const summary = keys.slice(0, 6).map((c) => `${c} ${display(analyteStatus(r, c, std)?.reading)}`).join(', ');
-    return `- ${iso(r.test_date)} · ${recWho(r)} · overall: ${overall(r, std)}${summary ? ` · ${summary}` : ''}`;
+    return `- ${iso(r.test_date)} · ${recWho(r)} · tested: ${coverage(r, std)} · overall: ${overall(r, std)}${summary ? ` · ${summary}` : ''}`;
   });
   const pending = elevated ? recs.filter((r) => r.status === 'Awaiting sample' && (!products.length || products.includes(r.product ?? ''))) : [];
   const content = [
-    `MOST RECENT LAB RESULTS (Purity Lab Testing tracker, synced ${iso(syncedAt)}), newest first by test date:`,
+    `MOST RECENT LAB RESULTS (Purity Lab Testing tracker, synced ${iso(syncedAt)}), newest first by test date. A partial panel (for example mycotoxins only) is a new result: report it.`,
     ...(lines.length ? lines : ['- none on file']),
     ...(pending.length ? [`Samples sent and awaiting results: ${pending.map((r) => `${r.product || r.name} (sent ${iso(r.test_date)})`).join(', ')}.`] : []),
   ].join('\n');
@@ -509,17 +587,64 @@ function recentBlock(recs: LabRecord[], std: Standard, syncedAt: string, product
 function overviewBlock(recs: LabRecord[], std: Standard, today: string, syncedAt: string, elevated: boolean): LabChunk {
   const head = `LAB TESTING OVERVIEW (Purity Lab Testing tracker, synced ${iso(syncedAt)}). Finished blends are tested by third-party labs for heavy metals, mycotoxins, acrylamide, glyphosate, yeast and mold; results are scored against the Purity Health Grade limits.`;
   const lines = CORE.map((p) => {
+    const tested = recs.filter((r) => r.kind === 'product' && r.product === p && r.status !== 'Awaiting sample');
+    if (!tested.length) return `- ${p}: no results on file`;
+    const latest = `most recent test ${iso(tested[0].test_date)} (${coverage(tested[0], std)}, ${tested[0].lab ?? 'lab'}; overall ${overall(tested[0], std)})`;
     if (elevated) {
       const ps = panelState(p, recs, today);
-      return `- ${p}: ${ps.label}${ps.full ? ` (last full panel ${iso(ps.full.test_date)}, ${ps.full.lab ?? 'lab'}; overall ${overall(ps.full, std)})` : ''}${ps.pending ? `; new sample awaiting results since ${iso(ps.pending.test_date)}` : ''}`;
+      return `- ${p}: ${latest}; full panel status: ${ps.label}${ps.full ? ` (last full panel ${iso(ps.full.test_date)}, ${ps.full.lab ?? 'lab'})` : ''}${ps.pending ? `; new sample awaiting results since ${iso(ps.pending.test_date)}` : ''}`;
     }
-    const tested = recs.filter((r) => r.kind === 'product' && r.product === p && r.status !== 'Awaiting sample');
     const contam = MATRIX.filter((c) => c !== 'CGA').map((c) => latestFor(recs, p, c)).filter(Boolean) as LabRecord[];
-    if (!tested.length) return `- ${p}: no results on file`;
     const worst = contam.map((r) => recordLabel(r, std)).sort((a, b) => RANK[b.status] - RANK[a.status])[0];
-    return `- ${p}: most recent test ${iso(tested[0].test_date)}; latest contaminant results overall: ${worst ? statusText(worst.status, worst.label) : 'none on file'}`;
+    return `- ${p}: ${latest}; latest contaminant results overall: ${worst ? statusText(worst.status, worst.label) : 'none on file'}`;
   });
-  return chunk('Lab Testing tracker: testing overview', [head, ...lines].join('\n'), [{ label: 'COA quick view', url: '/coa' }]);
+  const note = 'The five core blends are FLOW, EASE, CALM, PROTECT and BALANCE: cover all five. A partial panel (for example mycotoxins only) is a new result even when the last full panel is older; never say no new results came in when one is listed above.';
+  return chunk('Lab Testing tracker: testing overview', [head, ...lines, note].join('\n'), [{ label: 'COA quick view', url: '/coa' }]);
+}
+
+/** Every record with a test date in the window, across products (and, for staff, green and R&D lots). */
+function windowBlock(win: DateWindow, signals: LabSignals, recs: LabRecord[], std: Standard, syncedAt: string, elevated: boolean): LabChunk {
+  const inWin = (r: LabRecord) => { const d = iso(r.test_date); return d >= win.from && d <= win.to; };
+  const want = (r: LabRecord) =>
+    (!signals.products.length || signals.products.includes(r.product ?? '')) && (!signals.green || r.kind === 'green');
+  const scope = recs.filter((r) => inWin(r) && r.status !== 'Awaiting sample' && want(r));
+  const pending = elevated ? recs.filter((r) => inWin(r) && r.status === 'Awaiting sample' && want(r)) : [];
+  const lines = scope.slice(0, MAX_LIST).map((r) =>
+    `- ${iso(r.test_date)} · ${recWho(r)} · tested: ${coverage(r, std)} · overall: ${overall(r, std)}${notScored(r, elevated)}`);
+  const core = signals.products.length || signals.green ? [] : CORE.map((p) => {
+    const mine = scope.filter((r) => r.kind === 'product' && r.product === p);
+    return mine.length
+      ? `- ${p}: ${mine.map((r) => `${coverage(r, std)} (${iso(r.test_date)}, ${r.lab ?? 'lab'}; ${overall(r, std)})`).join('; ')}`
+      : `- ${p}: no results with a test date in this window`;
+  });
+  const who = elevated ? 'finished products, green lots and R&D samples' : 'finished products';
+  const content = [
+    `LAB RESULTS BY TEST DATE, ${win.label} (${win.from} to ${win.to}) (Purity Lab Testing tracker, synced ${iso(syncedAt)}). Complete for ${who}: every record with a test date in this window is listed, newest first. A partial panel (for example mycotoxins only) is a new result: report it.`,
+    `Result: ${scope.length} record(s) with a test date in this window.`,
+    ...(lines.length ? lines : ['- none']),
+    ...(scope.length > MAX_LIST ? [`(${scope.length - MAX_LIST} more not shown)`] : []),
+    ...(core.length ? ['Core blends in this window (list all five):', ...core] : []),
+    ...(pending.length ? [`Samples sent in this window and awaiting results (staff only): ${pending.map((r) => `${r.product || r.name} (sent ${iso(r.test_date)})`).join(', ')}.`] : []),
+  ].join('\n');
+  const out = chunk(`Lab Testing tracker: results ${win.label}`, content, [
+    { label: 'COA quick view', url: '/coa' },
+    ...certLinks(scope, 4),
+  ]);
+  if (scope.length) {
+    out.panel = {
+      product: `Tested ${win.label}`,
+      title: `Tested ${win.label} (${win.from} to ${win.to})`,
+      href: signals.green ? '/coa/green' : '/coa',
+      rows: scope.slice(0, 24).map((r) => {
+        const st = recordStatus(r, std);
+        return {
+          key: r.id, who: r.kind === 'product' ? (r.product || r.name || r.id) : (r.name || r.id), code: '',
+          label: coverage(r, std), value: '', status: st, text: recordLabel(r, std).label, date: iso(r.test_date),
+        };
+      }),
+    };
+  }
+  return out;
 }
 
 function greenBlock(signals: LabSignals, recs: LabRecord[], std: Standard, syncedAt: string): LabChunk {
@@ -586,7 +711,8 @@ export function buildLabChunks(
     const b = analyteAcrossProducts(signals.codes, recs, std, opts.syncedAt);
     if (b) out.push(b);
   }
-  if (signals.recency) out.push(recentBlock(recs, std, opts.syncedAt, known, opts.elevated));
+  if (signals.window) out.push(windowBlock(signals.window, signals, recs, std, opts.syncedAt, opts.elevated));
+  else if (signals.recency) out.push(recentBlock(recs, std, opts.syncedAt, known, opts.elevated));
   if (!out.length) out.push(overviewBlock(recs, std, opts.today, opts.syncedAt, opts.elevated));
   return out;
 }
