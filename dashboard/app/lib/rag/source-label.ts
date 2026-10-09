@@ -33,9 +33,28 @@ export function evidenceTypeLabel(c: { kind: string; title?: string | null; sour
  * in its sources line. Named books get their proper title; other file-name
  * titles lose underscores, hyphens between words and print-production tokens.
  */
-export function displaySourceTitle(c: { kind: string; title?: string | null }): string {
+export type SourceDisplay = { title?: string; authors?: string[]; year?: number | null };
+
+/** "Lin et al., 2021", "Smith and Jones, 2019", "Smith, 2019", "2019" or "". */
+function citeSuffix(d: SourceDisplay): string {
+  const a = d.authors ?? [];
+  const who = a.length > 2 ? `${a[0]} et al.` : a.length === 2 ? `${a[0]} and ${a[1]}` : a[0] ?? '';
+  return [who, d.year ?? ''].filter(Boolean).join(', ');
+}
+
+export function displaySourceTitle(
+  c: { kind: string; title?: string | null },
+  /** sources.metadata.display (scripts/source-display-titles.ts): the Crossref title and authors, when known. */
+  display?: SourceDisplay | null,
+): string {
   const t = (c.title ?? '').trim();
   if (c.kind === 'coffee_book' || /coffee guide to better health/i.test(t)) return 'The Coffee Guide to Better Health (Ildi Revi)';
+  if (display?.title) {
+    const raw = display.title.replace(/(\d)\s*[–—]\s*(\d)/g, '$1-$2').replace(/\s*[–—]\s*/g, ': ');
+    const title = raw.length > 150 ? `${raw.slice(0, 147).replace(/\s+\S*$/, '')}…` : raw;
+    const cite = citeSuffix(display);
+    return cite ? `${title} (${cite})` : title;
+  }
   if (/^circular health coffee/i.test(t)) return t.replace(/[_]+/g, ' ').replace(/\s{2,}/g, ' ');
   const fileLike = /_/.test(t) || (!/\s/.test(t) && /-/.test(t));
   if (!fileLike) return t;

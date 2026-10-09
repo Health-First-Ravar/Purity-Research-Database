@@ -18,6 +18,7 @@ import { checkChatRateLimit } from '@/lib/rate-limit';
 import { detectLabQuestion } from '@/lib/rag/lab-lookup';
 import { askRoute, labLinksFor } from '@/lib/rag/ask-route';
 import { displaySourceTitle } from '@/lib/rag/source-label';
+import { sourceDisplays } from '@/lib/rag/source-display';
 
 // Floor below which we treat the answer as a real failure regardless of what
 // the model says. Above this, trust the model's escalation_recommended signal.
@@ -198,6 +199,11 @@ export async function POST(req: NextRequest) {
     }
   }
 
+  // Crossref titles and authors for the cited sources (metadata.display).
+  const displays = await sourceDisplays(
+    chunks.filter((c) => result.cited_chunk_ids.includes(c.id)).map((c) => c.source_id),
+  );
+
   return NextResponse.json({
     message_id: inserted?.id,
     answer: result.answer,
@@ -218,7 +224,7 @@ export async function POST(req: NextRequest) {
           id: c.id,
           // Readable title (not the stored file name), set here so every
           // client, including a tab still running older JS, shows it.
-          title: displaySourceTitle(c),
+          title: displaySourceTitle(c, displays.get(c.source_id)),
           kind: c.kind,
           chapter: c.chapter,
           similarity: c.similarity,

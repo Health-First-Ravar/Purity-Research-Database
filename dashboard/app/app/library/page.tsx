@@ -2,6 +2,8 @@ import { cookies } from 'next/headers';
 import { supabaseServer } from '@/lib/supabase';
 import { safeHref } from '@/lib/safe-url';
 import { doiUrl, isDoiLink, plausibleYear, validDoi } from '@/lib/doi';
+import { sourceDisplays } from '@/lib/rag/source-display';
+import { displaySourceTitle } from '@/lib/rag/source-label';
 import { getCoaViewer, CS_SCOPE } from '@/lib/coa-scope';
 import { CiteButton } from './_components/CiteButton';
 import { DebouncedTitleInput } from './_components/DebouncedTitleInput';
@@ -80,6 +82,10 @@ export default async function BibliographyPage({ searchParams }: { searchParams:
   }
 
   const { data: rows, error, count } = await q;
+
+  // Readable titles (Crossref title and authors, sources.metadata.display) for
+  // the rows shown; the stored title can be a file name or a page header.
+  const displays = await sourceDisplays((rows ?? []).map((r) => r.id as string));
 
   // Topic facet — pull distinct drive_location for the filter dropdown.
   const { data: topicRows } = await supabase
@@ -170,9 +176,11 @@ export default async function BibliographyPage({ searchParams }: { searchParams:
                 {error && <tr><td colSpan={5} className="p-3 text-purity-rust">{error.message}</td></tr>}
                 {rows?.map((r) => (
                   <tr key={r.id} className="border-b border-purity-bean/5 align-top dark:border-purity-paper/5">
-                    <td className="p-2 text-xs">{plausibleYear(r.year_published) ?? '—'}</td>
+                    <td className="p-2 text-xs">{plausibleYear(r.year_published) ?? displays.get(r.id)?.year ?? '—'}</td>
                     <td className="p-2">
-                      <div className="font-medium">{r.title}</div>
+                      <div className="font-medium" title={displays.has(r.id) ? `Stored title: ${r.title}` : undefined}>
+                        {displays.has(r.id) ? displaySourceTitle({ kind: r.kind ?? 'research_paper', title: r.title }, displays.get(r.id)) : r.title}
+                      </div>
                       {r.topic_category && <div className="text-xs text-purity-muted dark:text-purity-mist">{r.topic_category}</div>}
                     </td>
                     <td className="p-2 text-xs">{r.drive_location ?? '—'}</td>

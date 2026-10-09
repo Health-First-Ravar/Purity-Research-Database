@@ -12,7 +12,7 @@ import { embedOne } from '../voyage';
 import { supabaseAdmin } from '../supabase';
 import { stripDashes } from './sanitize';
 import { CUSTOMER_EXCLUDED_TYPES, type SourceType } from './source-classify';
-import { evidenceTypeLabel } from './source-label';
+import { displaySourceTitle, evidenceTypeLabel, type SourceDisplay } from './source-label';
 
 export type AuditContext = 'newsletter' | 'module' | 'chat_answer' | 'product_page' | 'other';
 
@@ -42,6 +42,8 @@ export type AuditChunk = {
   chapter: string | null;
   /** sources.metadata.source_type (review, primary_study, book, ...) when classified. */
   source_type?: string | null;
+  /** Readable title (Crossref title and authors when known), for display. */
+  display_title?: string;
 };
 
 /**
@@ -286,10 +288,13 @@ async function retrieveAuditEvidence(draft: string): Promise<AuditChunk[]> {
   const all = [...byId.values()];
   const ids = [...new Set(all.map((c) => c.source_id))];
   const types = new Map<string, string | null>();
+  const displays = new Map<string, SourceDisplay>();
   if (ids.length) {
     const { data } = await sb.from('sources').select('id, metadata').in('id', ids);
     for (const s of (data ?? []) as { id: string; metadata: Record<string, unknown> | null }[]) {
       types.set(s.id, (s.metadata?.source_type as string | undefined) ?? null);
+      const d = s.metadata?.display as SourceDisplay | undefined;
+      if (d?.title) displays.set(s.id, d);
     }
   }
   const outcomeRes = OUTCOME_TERMS.filter(([re]) => re.test(draft)).map(([re]) => re);
@@ -304,7 +309,7 @@ async function retrieveAuditEvidence(draft: string): Promise<AuditChunk[]> {
       + 0.01 * hits(compoundRes, head) + 0.005 * hits(compoundRes, c.content);
   };
   return all
-    .map((c) => ({ ...c, source_type: types.get(c.source_id) ?? null }))
+    .map((c) => ({ ...c, source_type: types.get(c.source_id) ?? null, display_title: displaySourceTitle(c, displays.get(c.source_id)) }))
     .filter((c) => !c.source_type || !CUSTOMER_EXCLUDED_TYPES.has(c.source_type as SourceType))
     // Blank pages and parser boilerplate are not evidence (same rule as Ask).
     .filter((c) => { const t = (c.content ?? '').replace(/\s+/g, ' ').trim(); return t.length >= 20 && !/this page (is )?intentionally left blank/i.test(`${c.title} ${t}`); })

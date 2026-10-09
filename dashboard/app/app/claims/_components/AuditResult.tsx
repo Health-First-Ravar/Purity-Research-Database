@@ -30,6 +30,7 @@ export type AuditResponse = {
     content: string;
     similarity: number;
     source_type?: string | null;
+    display_title?: string;
   }[];
   cost_usd: number;
   latency_ms: number;
@@ -210,7 +211,7 @@ export function AuditResult({ result }: { result: AuditResponse }) {
                   </span>
                   <span>sim {c.similarity.toFixed(3)}</span>
                 </div>
-                <div className="font-medium text-purity-bean dark:text-purity-paper">{displaySourceTitle(c)}</div>
+                <div className="font-medium text-purity-bean dark:text-purity-paper">{c.display_title ?? displaySourceTitle(c)}</div>
                 {c.heading && <div className="text-[11px] text-purity-muted dark:text-purity-mist">{c.heading}</div>}
                 <p className="mt-1 line-clamp-4 whitespace-pre-wrap text-purity-bean/90 dark:text-purity-paper/90">
                   {c.content.slice(0, 500)}
