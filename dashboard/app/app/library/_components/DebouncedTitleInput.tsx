@@ -38,7 +38,7 @@ export function DebouncedTitleInput({ initial }: { initial: string }) {
       placeholder="search title…"
       value={value}
       onChange={(e) => setValue(e.target.value)}
-      className="rounded border border-purity-bean/20 bg-white px-2 py-1 dark:border-purity-paper/20 dark:bg-purity-shade dark:text-purity-paper dark:placeholder:text-purity-mist/70 md:col-span-2"
+      className="w-full min-w-0 rounded border border-purity-bean/20 bg-white px-2 py-1 dark:border-purity-paper/20 dark:bg-purity-shade dark:text-purity-paper dark:placeholder:text-purity-mist/70 md:col-span-2"
       aria-label="Search bibliography titles"
     />
   );

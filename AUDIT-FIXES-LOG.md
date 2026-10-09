@@ -5465,3 +5465,15 @@ evidence. No UI, no chat log writes. Exit code 1 on any failure.
 Result on live data, 2026-10-09: 12/12 routing cases pass; with `--answers`,
 12/12 plus 5/5 guardrail prompts pass (run in batches: a full `--answers`
 run takes about 3 minutes).
+
+## Item 8 — /library sideways scroll on phones — **FIXED**
+
+Cause as reported: the catalog form (`mb-3 grid gap-2 text-sm md:grid-cols-6`)
+had no column setting below `md`, so its implicit single column sized to the
+longest option text (a 60-character category). The form is now `grid-cols-1`
+below `md`, and the title, topic, category, year from/to and rights controls
+are `w-full min-w-0`; the semantic search input got `min-w-0` too. Measured in
+a local render with the real library categories (Playwright, 390 x 844):
+/library scrollWidth 452 → 390; Home, Ask, Claims and /coa/protect stay at
+390. Also removed the two em dashes in this page's copy (search placeholder,
+help line).

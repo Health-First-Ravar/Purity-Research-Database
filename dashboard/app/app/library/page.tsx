@@ -115,20 +115,20 @@ export default async function BibliographyPage({ searchParams }: { searchParams:
       <div className="grid gap-6 md:grid-cols-2">
         <section className="min-w-0">
           <h2 className="mb-2 font-serif text-lg">Catalog</h2>
-          <form className="mb-3 grid gap-2 text-sm md:grid-cols-6">
+          <form className="mb-3 grid grid-cols-1 gap-2 text-sm md:grid-cols-6">
             <FormAutoSubmit />
             <DebouncedTitleInput initial={params.title ?? ''} />
-            <select aria-label="Filter by topic" name="topic" defaultValue={params.topic ?? ''} className="rounded border border-purity-bean/20 bg-white px-2 py-1 dark:border-purity-paper/20 dark:bg-purity-shade dark:text-purity-paper">
+            <select aria-label="Filter by topic" name="topic" defaultValue={params.topic ?? ''} className="w-full min-w-0 rounded border border-purity-bean/20 bg-white px-2 py-1 dark:border-purity-paper/20 dark:bg-purity-shade dark:text-purity-paper">
               <option value="">all topics</option>
               {topics.map((t) => <option key={t as string} value={t as string}>{t as string}</option>)}
             </select>
-            <select aria-label="Filter by category" name="category" defaultValue={params.category ?? ''} className="rounded border border-purity-bean/20 bg-white px-2 py-1 dark:border-purity-paper/20 dark:bg-purity-shade dark:text-purity-paper">
+            <select aria-label="Filter by category" name="category" defaultValue={params.category ?? ''} className="w-full min-w-0 rounded border border-purity-bean/20 bg-white px-2 py-1 dark:border-purity-paper/20 dark:bg-purity-shade dark:text-purity-paper">
               <option value="">all categories</option>
               {categories.map((c) => <option key={c as string} value={c as string}>{c as string}</option>)}
             </select>
-            <input type="number" min="1900" max="2100" aria-label="Publication year from" name="year_from" placeholder="from" defaultValue={params.year_from ?? ''} className="rounded border border-purity-bean/20 bg-white px-2 py-1 dark:border-purity-paper/20 dark:bg-purity-shade dark:text-purity-paper dark:placeholder:text-purity-mist/70" />
-            <input type="number" min="1900" max="2100" aria-label="Publication year to" name="year_to" placeholder="to" defaultValue={params.year_to ?? ''} className="rounded border border-purity-bean/20 bg-white px-2 py-1 dark:border-purity-paper/20 dark:bg-purity-shade dark:text-purity-paper dark:placeholder:text-purity-mist/70" />
-            <select aria-label="Filter by rights" name="rights" defaultValue={params.rights ?? ''} className="rounded border border-purity-bean/20 bg-white px-2 py-1 dark:border-purity-paper/20 dark:bg-purity-shade dark:text-purity-paper md:col-span-2">
+            <input type="number" min="1900" max="2100" aria-label="Publication year from" name="year_from" placeholder="from" defaultValue={params.year_from ?? ''} className="w-full min-w-0 rounded border border-purity-bean/20 bg-white px-2 py-1 dark:border-purity-paper/20 dark:bg-purity-shade dark:text-purity-paper dark:placeholder:text-purity-mist/70" />
+            <input type="number" min="1900" max="2100" aria-label="Publication year to" name="year_to" placeholder="to" defaultValue={params.year_to ?? ''} className="w-full min-w-0 rounded border border-purity-bean/20 bg-white px-2 py-1 dark:border-purity-paper/20 dark:bg-purity-shade dark:text-purity-paper dark:placeholder:text-purity-mist/70" />
+            <select aria-label="Filter by rights" name="rights" defaultValue={params.rights ?? ''} className="w-full min-w-0 rounded border border-purity-bean/20 bg-white px-2 py-1 dark:border-purity-paper/20 dark:bg-purity-shade dark:text-purity-paper md:col-span-2">
               {RIGHTS_OPTS.map((o) => <option key={o.v} value={o.v}>{o.l}</option>)}
             </select>
             <label className="flex items-center gap-2 text-xs text-purity-bean dark:text-purity-paper">
@@ -231,14 +231,14 @@ export default async function BibliographyPage({ searchParams }: { searchParams:
               aria-label="Semantic search query"
               name="q"
               defaultValue={params.q ?? ''}
-              placeholder="semantic — 'OTA reduction during roasting', 'CGA bioavailability', etc."
-              className="flex-1 rounded border border-purity-bean/20 bg-white px-2 py-1 dark:border-purity-paper/20 dark:bg-purity-shade dark:text-purity-paper dark:placeholder:text-purity-mist/70"
+              placeholder="Semantic search, e.g. 'OTA reduction during roasting', 'CGA bioavailability'"
+              className="min-w-0 flex-1 rounded border border-purity-bean/20 bg-white px-2 py-1 dark:border-purity-paper/20 dark:bg-purity-shade dark:text-purity-paper dark:placeholder:text-purity-mist/70"
             />
             <button className="rounded-md bg-purity-green px-3 py-1 text-xs text-purity-cream dark:bg-purity-aqua dark:text-purity-ink">Search</button>
           </form>
           <p className="mb-3 text-xs text-purity-muted dark:text-purity-mist">
             Hits the vector index over every chunk in the KB. Catalog rows without PDFs won&apos;t
-            appear here yet — the open-access batch download queue fills that in.
+            appear here yet; the open-access batch download queue fills that in.
           </p>
           <div className="max-h-[70vh] space-y-3 overflow-auto">
             {params.q && searchResults.length === 0 && (
