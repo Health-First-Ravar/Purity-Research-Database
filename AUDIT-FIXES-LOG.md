@@ -5381,3 +5381,19 @@ health or blend classifications, COA for a COA classification otherwise,
 else Customer answer. A research question the classifier files as COA still
 searches the research sources. Unchanged and still correct: "How can coffee
 help me stay calm and focused?" (lowercase "calm" is not the CALM blend).
+
+## Item 5 — `lab_links` relevance — **FIXED**
+
+Cause: `/api/chat` returned the links of every lab block, so a research answer
+that pulled "Chlorogenic acids by product" listed certificates for COLD BREW,
+STAR DAY and ORIGINAL. Now `labLinksFor()` (`lib/rag/ask-route.ts`) returns
+links only when the answer has a lab panel, and only the links of the block
+that produced it (that product's quick view and certificates, or the status or
+window view's). Certificate labels say what the certificate covers: "Last
+full-panel certificate: PROTECT (2025-06-19)" when the newest result (the
+Oct 7 Trilogy mycotoxin panel) has no certificate of its own, "Full-panel
+certificate" for other full panels, and "Certificate: <product>, mycotoxins
+(<date>)" for partial ones.
+
+Eval at this point (live classifier, admin viewer): 11 of 12 cases pass; the
+FLOW CGA case fails until the finished-vs-green minimum note is added (next).

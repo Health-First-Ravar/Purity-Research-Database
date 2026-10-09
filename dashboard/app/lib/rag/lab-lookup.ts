@@ -319,13 +319,22 @@ function readingLine(r: LabRecord, code: string, std: Standard): string | null {
   return `${label(std, code)} (${code}): ${v}${v ? ` ${unit(std, code)}` : ''}, ${limitText(std, code, r)} → ${statusText(a.status, analyteLabel(a))}`;
 }
 
-function certLinks(recs: LabRecord[], max = 4): LabLink[] {
+/**
+ * Certificate links, labelled with what each certificate covers, so an older
+ * full-panel certificate is never mistaken for the newest result's (the Oct 7
+ * mycotoxin panels have no certificate; PROTECT's link is its 2025 full panel).
+ */
+function certLinks(recs: LabRecord[], std: Standard, max = 4, lastFull?: LabRecord): LabLink[] {
   const out: LabLink[] = [];
   const seen = new Set<string>();
   for (const r of recs) {
     if (!r.certificate_url || seen.has(r.certificate_url)) continue;
     seen.add(r.certificate_url);
-    out.push({ label: `Certificate: ${r.product || r.name || r.id} (${iso(r.test_date)})`, url: r.certificate_url });
+    const who = r.product || r.name || r.id;
+    const label = r === lastFull ? `Last full-panel certificate: ${who} (${iso(r.test_date)})`
+      : isFullPanel(r) ? `Full-panel certificate: ${who} (${iso(r.test_date)})`
+      : `Certificate: ${who}, ${coverage(r, std)} (${iso(r.test_date)})`;
+    out.push({ label, url: r.certificate_url });
     if (out.length >= max) break;
   }
   return out;
@@ -387,7 +396,7 @@ function productBlock(p: string, recs: LabRecord[], std: Standard, codes: string
     ...(missing.length ? [`Not tested on file for ${p}: ${missing.join(', ')}. Do not estimate these.`] : []),
     `Records on file for ${p}: ${tested.length} test record(s) from ${iso(first)} to ${iso(last)}.`,
   ].join('\n');
-  const out = chunk(`Lab Testing tracker: ${p}`, content, [{ label: `COA quick view: ${p}`, url: `/coa/${slug(p)}` }, ...certLinks(used)]);
+  const out = chunk(`Lab Testing tracker: ${p}`, content, [{ label: `COA quick view: ${p}`, url: `/coa/${slug(p)}` }, ...certLinks(used, std, 4, ps.full)]);
   if (panelRows.length) out.panel = { product: p, href: `/coa/${slug(p)}`, rows: panelRows };
   return out;
 }
@@ -414,7 +423,7 @@ function analyteAcrossProducts(codes: string[], recs: LabRecord[], std: Standard
     `LAB RESULTS BY PRODUCT (Purity Lab Testing tracker, synced ${iso(syncedAt)}). Latest finished-product result for each analyte asked about; statuses use the Purity Health Grade limits.`,
     ...lines,
   ].join('\n');
-  return chunk(`Lab Testing tracker: ${codes.slice(0, 3).map((c) => label(std, c)).join(', ')} by product`, content, certLinks(used, 3));
+  return chunk(`Lab Testing tracker: ${codes.slice(0, 3).map((c) => label(std, c)).join(', ')} by product`, content, certLinks(used, std, 3));
 }
 
 function overLimitQuery(codes: string[], recs: LabRecord[], std: Standard, syncedAt: string, elevated: boolean): LabChunk {
@@ -575,7 +584,7 @@ function reportBlock(tokens: string[], recsIn: LabRecord[], std: Standard, synce
     ].join('\n');
   });
   const content = [`LAB RECORD LOOKUP by report/sample number (Purity Lab Testing tracker, synced ${iso(syncedAt)}):`, ...parts].join('\n');
-  return chunk(`Lab Testing tracker: ${[...new Set(hits.map((r) => r.report_number || r.sample_number || r.id))].join(', ')}`, content, certLinks(hits));
+  return chunk(`Lab Testing tracker: ${[...new Set(hits.map((r) => r.report_number || r.sample_number || r.id))].join(', ')}`, content, certLinks(hits, std));
 }
 
 function recentBlock(recs: LabRecord[], std: Standard, syncedAt: string, products: string[], elevated: boolean): LabChunk {
@@ -592,7 +601,7 @@ function recentBlock(recs: LabRecord[], std: Standard, syncedAt: string, product
     ...(lines.length ? lines : ['- none on file']),
     ...(pending.length ? [`Samples sent and awaiting results: ${pending.map((r) => `${r.product || r.name} (sent ${iso(r.test_date)})`).join(', ')}.`] : []),
   ].join('\n');
-  return chunk('Lab Testing tracker: most recent results', content, certLinks(top, 3));
+  return chunk('Lab Testing tracker: most recent results', content, certLinks(top, std, 3));
 }
 
 function overviewBlock(recs: LabRecord[], std: Standard, today: string, syncedAt: string, elevated: boolean): LabChunk {
@@ -639,7 +648,7 @@ function windowBlock(win: DateWindow, signals: LabSignals, recs: LabRecord[], st
   ].join('\n');
   const out = chunk(`Lab Testing tracker: results ${win.label}`, content, [
     { label: 'COA quick view', url: '/coa' },
-    ...certLinks(scope, 4),
+    ...certLinks(scope, std, 4),
   ]);
   if (scope.length) {
     out.panel = {

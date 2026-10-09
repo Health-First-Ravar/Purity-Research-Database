@@ -16,7 +16,7 @@ import { generateAnswer, type PriorTurn } from '@/lib/rag/generate';
 import { embedOne } from '@/lib/voyage';
 import { checkChatRateLimit } from '@/lib/rate-limit';
 import { detectLabQuestion } from '@/lib/rag/lab-lookup';
-import { askRoute } from '@/lib/rag/ask-route';
+import { askRoute, labLinksFor } from '@/lib/rag/ask-route';
 
 // Floor below which we treat the answer as a real failure regardless of what
 // the model says. Above this, trust the model's escalation_recommended signal.
@@ -226,15 +226,9 @@ export async function POST(req: NextRequest) {
     route: askRoute(detectLabQuestion(question, cls), cls, chunks.some((c) => c.via === 'lab_tracker')),
     // Latest results for the product asked about, in Brian's status chips.
     lab_panel: chunks.find((c) => c.panel)?.panel ?? null,
-    // COA quick view and certificate links from the lab evidence used for this
-    // answer, for the person asking. Deduped; never part of the answer text.
-    lab_links: (() => {
-      const seen = new Set<string>();
-      return chunks
-        .flatMap((c) => c.links ?? [])
-        .filter((l) => (seen.has(l.url) ? false : (seen.add(l.url), true)))
-        .slice(0, 8);
-    })(),
+    // COA quick view and certificate links for the panel shown, never part of
+    // the answer text; none without a panel (lib/rag/ask-route.ts).
+    lab_links: labLinksFor(chunks),
   });
 }
 
