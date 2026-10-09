@@ -5297,3 +5297,40 @@ gh workflow disable "COA Auto-Sync"         # or hold the line until you push
   Not deleted: not mine to delete.
 
 --- end Session 14 ---
+
+---
+
+# SESSION 15 — 2026-10-09 · overhaul preview QA fixes
+
+Branch `overhaul`. Source: the browser QA pass on the preview at commit
+`160b6d0` (purity-dashboard-git-overhaul-jravar-5232s-projects.vercel.app).
+One commit per item, in the QA's priority order. Before each push: `npm run
+lint`, `npx tsc --noEmit`, `npm run build`, and `npm run eval:ask` (item 7).
+Jeremy pushes (this session cannot push).
+
+Carried in first: `f99b1f9` password reset and invites verify the emailed
+token server side (`/auth/confirm`); Supabase's action_link put the session in
+the URL fragment, so every reset and invite landed as "expired".
+
+## Item 1 — "which products are over a limit right now" — **FIXED** (`d6ada1e`)
+
+Cause: the aggregate leg in `lib/rag/lab-lookup.ts` needed a lab word or an
+analyte, so the question carried no lab signal, the classifier said `other`,
+and the answer was a Customer answer with no evidence (confidence 0.40,
+escalated). New `status` signal: which/any/all + products/blends/coffees +
+over/near/within + a limit word (or an analyte or lab word), and not history
+("ever", "previously"). `statusBlock` takes the latest result per product and
+analyte (`latestFor` x `analyteStatus`, the grid's rule), over every analyte
+with a finished-product limit, and groups over / near / detected / cleared on
+retest / LOQ above limit. Rendered as `lab_panel` (rows carry the product).
+Live data, 2026-10-09: 0 over, HEARTH acrylamide near (307 of 350 µg/kg), DON
+LOQ above limit on 13 products (the lab's reporting limit is 100 ppb, ours is
+50). Green lots are counted separately in a staff-only line, never as products.
+
+## Lint baseline — **FIXED**
+
+`npm run lint` had two errors before this session: a plain `<a href="/reva">`
+in `ChatClient.tsx` (now `<Link>`) and an eslint-disable comment in
+`lib/coa-scope.ts` naming a rule the config does not load (replaced the `any`
+cast with a typed one). `next.config.ts` sets `ignoreDuringBuilds`, so neither
+broke a deploy, but lint now passes clean.

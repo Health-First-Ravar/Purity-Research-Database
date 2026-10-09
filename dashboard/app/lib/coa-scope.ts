@@ -72,8 +72,8 @@ export function scopeCoaQuery<T>(query: T, viewer: CoaViewer): T {
   // They are duplicate parse artefacts, not findings — the row is preserved in
   // the table for reconstruction, but showing it would just reintroduce the
   // ambiguity it was retired to remove.
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const live = (query as any).is('retired_at', null);
-  if (viewer.elevated) return live as T;
-  return live.eq('product_scope', CS_SCOPE) as T;
+  type Filterable = { is: (col: string, v: null) => Filterable; eq: (col: string, v: string) => Filterable };
+  const live = (query as unknown as Filterable).is('retired_at', null);
+  if (viewer.elevated) return live as unknown as T;
+  return live.eq('product_scope', CS_SCOPE) as unknown as T;
 }

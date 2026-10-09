@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
+import Link from 'next/link';
 import { RatingButtons } from './RatingButtons';
 import { CopyButton } from '../../_components/CopyButton';
 import { useToast } from '../../_components/Toast';
@@ -308,7 +309,7 @@ export default function ChatClient({ paperCount, initialQuestion, deepMode }: { 
             <h2 className="mb-2 mt-5 font-serif text-base">Deep mode</h2>
             <p className="text-xs text-purity-muted dark:text-purity-mist">
               For long-form analysis with the full research stack, use{' '}
-              <a href="/reva" className="font-semibold underline">Reva</a> (admins only).
+              <Link href="/reva" className="font-semibold underline">Reva</Link> (admins only).
             </p>
           </>
         )}
