@@ -47,7 +47,7 @@ export type AuditChunk = {
  * Bumped whenever the prompt, flag rules or retrieval change. /api/audit reuses
  * a stored audit of the same draft and context only from the same version.
  */
-export const AUDITOR_VERSION = '2026-10-09.2';
+export const AUDITOR_VERSION = '2026-10-09.3';
 
 export type ClaimAudit = {
   auditor_version: string;
@@ -204,7 +204,7 @@ ${draft}
     evidence_engaged: parsed.evidence_engaged,
     practical_engaged: parsed.practical_engaged,
     weakest_link: parsed.weakest_link,
-    regulatory_flags: parsed.regulatory_flags,
+    regulatory_flags: wordFlagsInText(parsed.regulatory_flags, draft),
     evidence_tier: parsed.evidence_tier,
     suggested_rewrite: stripDashes(parsed.suggested_rewrite),
     reasoning: parsed.reasoning,
@@ -217,6 +217,19 @@ ${draft}
     cost_usd,
     latency_ms: Date.now() - t0,
   };
+}
+
+// The three word flags name a word in the draft. The model raised CURE WORD and
+// TREAT WORD on "prevents liver disease", where only "prevents" appears; keep
+// a word flag only when its word is actually there.
+const WORD_FLAG_RE: Partial<Record<AuditFlag, RegExp>> = {
+  cure_word: /\bcur(?:e|es|ed|ing|ative)\b/i,
+  prevent_word: /\bprevent(?:s|ed|ing|ion|ive|ative)?\b/i,
+  treat_word: /\btreat(?:s|ed|ing|ment|ments)?\b/i,
+};
+
+export function wordFlagsInText(flags: AuditFlag[], draft: string): AuditFlag[] {
+  return [...new Set(flags)].filter((f) => !WORD_FLAG_RE[f] || WORD_FLAG_RE[f]!.test(draft));
 }
 
 // ---------------------------------------------------------------------------

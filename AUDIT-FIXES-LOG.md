@@ -5566,3 +5566,13 @@ Live results (auditor 2026-10-09.2): CGA + glucose claim → **Supported as
 worded**, no flags, rewrite keeps "Purity Coffee is roasted to retain
 chlorogenic acids". "Purity PROTECT coffee prevents liver disease." → **Do
 not use**, `prevent_word` + `cures_disease`, tier 3 on two runs.
+
+## Item 14 — word flags raised for words not in the draft — **FIXED**
+
+"Purity PROTECT coffee prevents liver disease." raised CURE WORD and TREAT
+WORD as well as PREVENT WORD. `wordFlagsInText()` keeps `cure_word`,
+`prevent_word` and `treat_word` only when the draft contains that word (any
+form: cure/curative, prevents/prevention, treat/treatment); other flags pass
+through. It only removes, never adds, so "a treat with breakfast" is not
+flagged. The prompt also says not to raise them. Same claim now: Do not use,
+`prevent_word` + `cures_disease`. `AUDITOR_VERSION` → 2026-10-09.3.
