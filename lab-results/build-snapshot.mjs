@@ -137,7 +137,10 @@ const GREEN_VER = stringConst(html, 'GREEN_VER');
 
 const seed = docs(dbDir, 'seed');
 if (!seed.length) fail(`db: no seed documents under ${dbDir}/seed`);
-const added = docs(dbDir, 'results').map((d) => ({ id: d.id, ...d.data }));
+// Results added in his tracker's form are keyed by document id, and those ids
+// can repeat a seed record's id (tr016-tr020 did, Oct 2026: different records).
+// Prefix them so every record keeps a unique id; added_id keeps his.
+const added = docs(dbDir, 'results').map((d) => ({ ...d.data, id: `res-${d.id}`, added_id: d.id }));
 const records = [].concat(...seed.map((d) => d.data.records || []), added);
 
 const claimseed = docs(dbDir, 'claimseed');
