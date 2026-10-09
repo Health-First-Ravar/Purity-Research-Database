@@ -7,7 +7,7 @@
 import { NextResponse } from 'next/server';
 import { cookies } from 'next/headers';
 import { supabaseServer, supabaseAdmin } from '@/lib/supabase';
-import { auditClaim, AuditUnparseableError, type AuditContext } from '@/lib/rag/audit-claim';
+import { auditClaim, AuditUnparseableError, AUDITOR_VERSION, type AuditContext, type ClaimAudit } from '@/lib/rag/audit-claim';
 import { checkChatRateLimit } from '@/lib/rate-limit';
 import { claimVerdict } from '@/lib/claim-verdict';
 import { hasElevatedAccess } from '@/lib/auth-roles';
@@ -48,12 +48,32 @@ export async function POST(req: Request) {
     );
   }
 
+  const adb = supabaseAdmin();
+
+  // Same draft, same context, same auditor version, last 30 days: return that
+  // audit again instead of asking the model. Identical runs used to disagree
+  // (evidence tier 3, then 4), which can flip a verdict; a check must be
+  // repeatable. A new auditor version or 30 days re-runs it.
+  const since = new Date(Date.now() - 30 * 86400000).toISOString();
+  const { data: prior } = await adb
+    .from('claim_audits')
+    .select('id, audit_json')
+    .eq('draft_text', draft)
+    .eq('context', context)
+    .eq('audit_json->>auditor_version', AUDITOR_VERSION)
+    .gte('created_at', since)
+    .order('created_at', { ascending: false })
+    .limit(1)
+    .maybeSingle();
+
   // A parse failure must not be stored. auditClaim throws
   // AuditUnparseableError rather than returning an all-false result that would
   // be persisted, and read back later, as a clean audit.
-  let audit: Awaited<ReturnType<typeof auditClaim>>;
+  let audit: ClaimAudit & { reused_from?: string };
   try {
-    audit = await auditClaim({ draft, context });
+    audit = prior?.audit_json
+      ? { ...(prior.audit_json as ClaimAudit), tokens_in: 0, tokens_out: 0, cost_usd: 0, latency_ms: 0, reused_from: prior.id as string }
+      : await auditClaim({ draft, context });
   } catch (e) {
     if (e instanceof AuditUnparseableError) {
       return NextResponse.json(
@@ -69,7 +89,6 @@ export async function POST(req: Request) {
   // A check saves a library claim's research verdict only when an editor or
   // admin checks the library wording itself. Anyone may check a rewrite of it,
   // but that result belongs to the rewrite, not to the claim on the site.
-  const adb = supabaseAdmin();
   let labClaimId: string | null = null;
   if (typeof body.claim_id === 'string' && /^[A-Za-z0-9_-]{1,40}$/.test(body.claim_id)) {
     const { data: profile } = await sb.from('profiles').select('role').eq('id', auth.user.id).single();

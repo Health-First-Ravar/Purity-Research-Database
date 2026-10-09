@@ -5528,3 +5528,41 @@ view) now gives the text column `min-w-0` and the title and detail
 `break-words` plus `overflow-wrap:anywhere`. At 390px the name wraps
 ("..._El_Grani / zo_Washed: Cadmium 13.5 ppb"); Home has no element past the
 viewport edge (was 422px).
+
+## Item 13 — claim checker calibration — **FIXED**
+
+The CGA and glucose claim got "Needs rewording" with `single_roast_overclaim`
+on two runs, a tier of 3 then 4, a rewrite that dropped Purity's roasting, and
+"Coffee, Dementia and Cognition" as the top evidence. Changes in
+`lib/rag/audit-claim.ts` and `app/api/audit/route.ts`:
+- **Flag definitions.** Every flag now has a definition in the prompt, with
+  the rule that a hedged claim naming its compound, which the evidence
+  supports, gets no flags. `single_roast_overclaim` is defined as "one roast is
+  healthier overall, or the roast alone delivers an outcome", and explicitly
+  not a process fact like "roasted to retain chlorogenic acids".
+  `bioavailability_assumed` no longer applies to hedged "research suggests ...
+  may support" wording.
+- **Rewrite.** Keeps the draft's subject and factual statements; light edits
+  when the draft already holds up; never names a disease or a risk reduction,
+  never links a product to a disease (the PROTECT liver rewrite used to say
+  "40% lower risk of liver cancer"; it now says "may support liver health").
+- **Evidence.** A second query built from the compounds and outcomes the draft
+  names ("chlorogenic acids glucose metabolism insulin type 2 diabetes
+  coffee"), the same non-science filter as Ask (Purity's own marketing pages
+  were being used as evidence), blank-page chunks dropped, and a rerank that
+  weights an outcome in the title or heading over a passing mention in the
+  body. Top evidence for the glucose claim is now "Coffee
+  Gastrointestine-Glucose", then the green/roasted blend trials and a CGA
+  GLP-1 study; "Coffee, Dementia and Cognition" is out of the top 8.
+- **Tier.** The prompt defines the tier from the cited chunks that bear on the
+  claim's outcome, the model runs at temperature 0, and `/api/audit` returns
+  the stored audit for an identical draft and context from the same
+  `AUDITOR_VERSION` within 30 days instead of re-asking the model, so the same
+  check gives the same tier, flags and verdict. (Temperature 0 alone still
+  gave tier 2 then 1 on one draft.) Bump `AUDITOR_VERSION` when the auditor
+  changes.
+
+Live results (auditor 2026-10-09.2): CGA + glucose claim → **Supported as
+worded**, no flags, rewrite keeps "Purity Coffee is roasted to retain
+chlorogenic acids". "Purity PROTECT coffee prevents liver disease." → **Do
+not use**, `prevent_word` + `cures_disease`, tier 3 on two runs.
