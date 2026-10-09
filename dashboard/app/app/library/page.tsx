@@ -177,15 +177,15 @@ export default async function BibliographyPage({ searchParams }: { searchParams:
                     </td>
                     <td className="p-2 text-xs">{r.drive_location ?? '—'}</td>
                     <td className="p-2 text-xs">
-                      <RightsBadge download={r.rights_download} hasPdf={r.has_pdf} />
+                      <RightsBadge download={r.rights_download} hasPdf={r.has_pdf} driveUrl={r.drive_url && !isDoiLink(r.drive_url) ? safeHref(r.drive_url) : null} />
                     </td>
                     <td className="p-2">
                       {(() => {
-                        // Link only a well-formed DOI (or a Drive file); a malformed DOI
-                        // ("...WILEYlogo", "Article ID unavailable") shows as plain text.
+                        // The DOI links to the publisher (doi.org) when it is well formed; the
+                        // PDF badge links to the Drive copy. A malformed DOI ("...WILEYlogo",
+                        // "Article ID unavailable") shows as plain text.
                         const doi = validDoi(r.doi);
-                        const drive = r.drive_url && !isDoiLink(r.drive_url) ? safeHref(r.drive_url) : null;
-                        const href = drive ?? (doi ? doiUrl(doi) : null);
+                        const href = doi ? doiUrl(doi) : null;
                         if (!r.doi) return '—';
                         return href ? (
                           <a href={href} target="_blank" rel="noreferrer" className="text-purity-green underline dark:text-purity-aqua">
@@ -271,7 +271,7 @@ export default async function BibliographyPage({ searchParams }: { searchParams:
   );
 }
 
-function RightsBadge({ download, hasPdf }: { download: string | null; hasPdf: boolean }) {
+function RightsBadge({ download, hasPdf, driveUrl }: { download: string | null; hasPdf: boolean; driveUrl?: string | null }) {
   const openSet = new Set(['Yes - Open Access', 'Yes - Free via PMC', 'Yes - Free access']);
   const cls = hasPdf
     ? 'bg-purity-green/10 text-purity-green dark:bg-purity-aqua/15 dark:text-purity-aqua'
@@ -281,6 +281,14 @@ function RightsBadge({ download, hasPdf }: { download: string | null; hasPdf: bo
         ? 'bg-purity-bean/10 text-purity-muted dark:bg-purity-paper/10 dark:text-purity-mist'
         : 'bg-purity-bean/5 text-purity-muted dark:bg-purity-paper/5 dark:text-purity-mist';
   const label = hasPdf ? 'PDF ✓' : download ?? '—';
+  // The Drive copy opens for anyone the research folder is shared with.
+  if (driveUrl) {
+    return (
+      <a href={driveUrl} target="_blank" rel="noopener noreferrer" title="Open the PDF in Google Drive (needs access to the research folder)" className={`inline-block rounded px-2 py-0.5 underline ${cls}`}>
+        {hasPdf ? 'PDF in Drive' : 'Drive'}
+      </a>
+    );
+  }
   return <span className={`inline-block rounded px-2 py-0.5 ${cls}`}>{label}</span>;
 }
 

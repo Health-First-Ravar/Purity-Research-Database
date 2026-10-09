@@ -155,6 +155,7 @@ npm run dedupe-research        # reconcile research/ corpus with bibliography DO
 npm run verify-rls             # live-probe the RLS matrix
 npm run eval:ask               # Ask routing + lab retrieval eval; run before every push
 npm run eval:ask -- --answers  # also generate answers and check the guardrails (Sonnet calls)
+npm run link-drive-pdfs        # fill research library Drive links from the research manifest (dry run; --apply)
 ```
 
 ## Voice and tone for generated content

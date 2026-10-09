@@ -5690,3 +5690,32 @@ explains that a missing scheduled run now shows as a gap.
 UNCHANGED. It should run `bash lab-results/import-local.sh --unchanged` on
 the Mac first. Changing a scheduled task needs your OK (and, for this one, an
 approval on your Mac); the new step 5 wording is in my report.
+
+## Research library → Drive links (Jeremy's "option 1") — **DONE**
+
+674 library entries said "has PDF" with no link. The PDFs are in the research
+Drive folder: `knowledge-base/research/manifest.json` (written by
+`pull-new-research.py`) records each file's Drive `fileId` next to its
+`txt_path`, but `ingest-kb.ts` never copied it onto the `sources` row. New
+`scripts/link-drive-pdfs.ts` (`npm run link-drive-pdfs`, dry run by default)
+matches `sources.path = "research/" + txt_path` and fills `drive_url` where it
+is empty. No Drive API call. **Applied** to production on 2026-10-09: 789
+research sources linked (790 had no link; the one left is
+`research/README.md`, which was ingested as a "research paper" and should
+probably be retired). Library entries that open in Drive: 417 → 1,092.
+
+Deliberately `drive_url` only, never `drive_file_id`: the daily Drive sync
+(`lib/sync.ts`, cron 10:51 UTC, checks 793 files) finds its rows by
+`drive_file_id`. 402 of these files are already in `sources` a second time as
+Drive-synced rows, and for one it has not synced, a row carrying its id would
+be retired by the next sync (chunks deleted, curated title, DOI and
+source_type replaced by the file name). Reverting: `update sources set
+drive_url = null where path like 'research/%' and drive_url like
+'https://drive.google.com/%' and drive_file_id is null`.
+
+Library UI: the "PDF ✓" badge is now "PDF in Drive", a link to the Drive copy
+(tooltip: needs access to the research folder). The DOI links to the
+publisher via doi.org instead of to Drive, so each entry offers both.
+Access still follows the Drive folder's sharing. 232 papers are marked
+subscription-only and 1,105 have no rights recorded; keep the folder shared
+with named people or a company group, not "anyone with the link".
