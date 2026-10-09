@@ -574,7 +574,18 @@ function statusBlock(codes: string[], recs: LabRecord[], std: Standard, today: s
     product: 'All products',
     title: 'All products: latest result per analyte',
     href: '/coa',
-    note: ordered.length ? `${clean.length} of ${products.length} products have no latest result over or near a limit.` : undefined,
+    // Counts by status, so the LOQ rows do not read as problems.
+    note: ordered.length ? (() => {
+      const names = (st: Status) => [...new Set(hits.filter((h) => h.a.status === st).map((h) => h.p))];
+      const near = names('watch');
+      const parts = [
+        `Over a limit: ${count('fail')}${count('fail') ? ` (${names('fail').join(', ')})` : ''}.`,
+        `Near a limit: ${count('watch')}${near.length ? ` (${near.join(', ')})` : ''}.`,
+        `Detected: ${count('detect')}.`,
+        count('incon') ? `LOQ above limit: ${count('incon')} (nothing detected; the lab's reporting limit sits above ours).` : '',
+      ];
+      return parts.filter(Boolean).join(' ');
+    })() : undefined,
     rows,
   };
   return out;
