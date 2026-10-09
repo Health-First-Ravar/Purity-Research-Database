@@ -5397,3 +5397,13 @@ certificate" for other full panels, and "Certificate: <product>, mycotoxins
 
 Eval at this point (live classifier, admin viewer): 11 of 12 cases pass; the
 FLOW CGA case fails until the finished-vs-green minimum note is added (next).
+
+## Checklist: "Does FLOW meet the CGA standard?" — **FIXED**
+
+The re-test checklist expects FLOW's 2.35% stated plainly and that there is
+no finished-product CGA minimum (the 3.0% minimum is a green requirement).
+The product block only said "no Health Grade limit (informational)", which
+left the model to guess at "the CGA standard". `greenOnlyNotes()` now adds,
+for any analyte asked about that has no finished-product limit but a green
+requirement, one line built from `lab_standard`: no finished-product minimum,
+and the green minimum and its version. Nothing hardcoded. Eval: 12 of 12.

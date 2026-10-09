@@ -347,6 +347,24 @@ function chunk(title: string, content: string, links: LabLink[]): LabChunk {
   };
 }
 
+/**
+ * For analytes asked about that have no finished-product limit but do have a
+ * green-coffee requirement (CGA and caffeine minimums), say so, so "does FLOW
+ * meet the CGA standard" is answered against the right standard.
+ */
+function greenOnlyNotes(codes: string[], std: Standard): string[] {
+  const out: string[] = [];
+  for (const c of codes) {
+    const f = std.finished[c];
+    const g = std.green[c];
+    if (!g || g.value == null || (f && f.rule !== 'informational')) continue;
+    const req = g.rule === 'floor' ? `minimum of ${g.value}${g.unit === '%' ? '%' : ` ${g.unit}`}` : g.rule === 'ceiling' ? `limit below ${g.value} ${g.unit}` : null;
+    if (!req) continue;
+    out.push(`Standard for ${label(std, c)}: there is no finished-product ${g.rule === 'floor' ? 'minimum' : 'limit'} for ${label(std, c)} in the Purity Health Grade, so a roasted blend's value is reported, not scored. The ${req} applies to green coffee (${g.version ?? 'Green Arabica requirements'}), not to finished products.`);
+  }
+  return out;
+}
+
 function productBlock(p: string, recs: LabRecord[], std: Standard, codes: string[], today: string, syncedAt: string, elevated: boolean): LabChunk | null {
   const mine = recs.filter((r) => r.kind === 'product' && r.product === p);
   if (!mine.length) return null;
@@ -394,6 +412,7 @@ function productBlock(p: string, recs: LabRecord[], std: Standard, codes: string
     `Latest result per analyte (value, limit → status, test date, lab):`,
     ...(lines.length ? lines : ['- (no results on file for the analytes asked about)']),
     ...(missing.length ? [`Not tested on file for ${p}: ${missing.join(', ')}. Do not estimate these.`] : []),
+    ...greenOnlyNotes(codes, std),
     `Records on file for ${p}: ${tested.length} test record(s) from ${iso(first)} to ${iso(last)}.`,
   ].join('\n');
   const out = chunk(`Lab Testing tracker: ${p}`, content, [{ label: `COA quick view: ${p}`, url: `/coa/${slug(p)}` }, ...certLinks(used, std, 4, ps.full)]);
