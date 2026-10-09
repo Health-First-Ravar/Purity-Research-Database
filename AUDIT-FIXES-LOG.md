@@ -5592,3 +5592,40 @@ primary study when tiering). The audit's evidence now carries `source_type`.
 The stored `sources.kind` is unchanged: re-kinding those rows is a data
 change to the shared production database, and retrieval filters by kind, so
 I left it for your call. `AUDITOR_VERSION` → 2026-10-09.4.
+
+## Item 16 — research library catalog data — **FIXED** (display) / **PROPOSED** (data)
+
+Display (`lib/doi.ts`, `app/library/page.tsx`):
+- A DOI is linked only when it matches `^10\.\d{4,9}/\S+$` and does not end in a
+  PDF-extraction artifact (a publisher logo: "WILEYlogo", "Elsevier", "logo").
+  `10.1002/cam4.71612WILEYlogo` matches the regex alone, so the artifact check is
+  needed. A `drive_url` that is itself a doi.org link is held to the same check
+  ("https://doi.org/Article ID unavailable" no longer links). Malformed DOIs show
+  as plain grey text with a "Not a valid DOI" tooltip; the Cite button gets only
+  a valid DOI.
+- Years outside 1800 to next year show as blank (the 2082, 2061 and 2065 rows).
+
+Data: **not applied, waiting for your approval.**
+`migrations/proposed/0017_fix_ncsu_proposal_metadata.sql` sets the title of
+sources `3afecc03...` (a one-page NC State lab services proposal, title parsed
+from its e-mail and phone block, year 2082) to the document's own heading,
+"Purity Coffee Proposal: Physicochemical Analyses (Dr. Gabriel Keith Harris, ...
+NC State University)", and clears the year (the document has none). It is in
+`proposed/`, which the migration runner does not read, so `npm run migrate`
+cannot apply it by accident. To apply: move it up into `migrations/` and run
+`npm run migrate`.
+
+Found while checking, not fixed (need the real titles, which I will not guess):
+| id | stored title starts | problem |
+|---|---|---|
+| 7f321e96 | Cancer Medicine 2026 Zhang Anti-Neoplastic Effects of Coffee... | DOI `10.1002/cam4.71612WILEYlogo` (probably `10.1002/cam4.71612`) |
+| d78ff8e4 | Ciência e Tecnologia de Alimentos | year 2061, title is the journal name |
+| 769523cd | Is Cinnamon Efficacious for Glycaemic Control... | year 2065 |
+| ad46bb97 | For permissions, please e-mail: journals.permissions@oup.com. | title is a page footer |
+| 39c5f01a | E-Mail karger@karger.com Systematic Review Neuroepidemiology... | title is a page header |
+| c55fc572 | Email: h_kusumaningrum@ipb.ac.id eISSN: 2550-2166... | title is a page header; DOI truncated `10.26656/fr.2017.3(6` |
+| 439e682f | PHYSIOLOGICAL RESEARCH • ISSN 1802-9973 (online)... | title is a page header |
+| f461e883 | Coffee intake and risk of pancreatic cancer... (Nie et al.) | DOI "Article ID unavailable" |
+| e5dff249 | For email subscription, click here to register: http://www.fas.usda.gov... | title is a page footer |
+The DOIs that resolve could fill the titles from Crossref in one pass; say if
+you want that.

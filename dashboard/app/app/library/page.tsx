@@ -1,6 +1,7 @@
 import { cookies } from 'next/headers';
 import { supabaseServer } from '@/lib/supabase';
 import { safeHref } from '@/lib/safe-url';
+import { doiUrl, isDoiLink, plausibleYear, validDoi } from '@/lib/doi';
 import { getCoaViewer, CS_SCOPE } from '@/lib/coa-scope';
 import { CiteButton } from './_components/CiteButton';
 import { DebouncedTitleInput } from './_components/DebouncedTitleInput';
@@ -169,7 +170,7 @@ export default async function BibliographyPage({ searchParams }: { searchParams:
                 {error && <tr><td colSpan={5} className="p-3 text-purity-rust">{error.message}</td></tr>}
                 {rows?.map((r) => (
                   <tr key={r.id} className="border-b border-purity-bean/5 align-top dark:border-purity-paper/5">
-                    <td className="p-2 text-xs">{r.year_published ?? '—'}</td>
+                    <td className="p-2 text-xs">{plausibleYear(r.year_published) ?? '—'}</td>
                     <td className="p-2">
                       <div className="font-medium">{r.title}</div>
                       {r.topic_category && <div className="text-xs text-purity-muted dark:text-purity-mist">{r.topic_category}</div>}
@@ -179,24 +180,29 @@ export default async function BibliographyPage({ searchParams }: { searchParams:
                       <RightsBadge download={r.rights_download} hasPdf={r.has_pdf} />
                     </td>
                     <td className="p-2">
-                      {r.doi ? (
-                        <a
-                          href={safeHref(r.drive_url) ?? `https://doi.org/${encodeURIComponent(r.doi ?? '')}`}
-                          target="_blank"
-                          rel="noreferrer"
-                          className="text-purity-green underline dark:text-purity-aqua"
-                        >
-                          {r.doi}
-                        </a>
-                      ) : '—'}
+                      {(() => {
+                        // Link only a well-formed DOI (or a Drive file); a malformed DOI
+                        // ("...WILEYlogo", "Article ID unavailable") shows as plain text.
+                        const doi = validDoi(r.doi);
+                        const drive = r.drive_url && !isDoiLink(r.drive_url) ? safeHref(r.drive_url) : null;
+                        const href = drive ?? (doi ? doiUrl(doi) : null);
+                        if (!r.doi) return '—';
+                        return href ? (
+                          <a href={href} target="_blank" rel="noreferrer" className="text-purity-green underline dark:text-purity-aqua">
+                            {r.doi}
+                          </a>
+                        ) : (
+                          <span className="text-xs text-purity-muted dark:text-purity-mist" title="Not a valid DOI; no link">{r.doi}</span>
+                        );
+                      })()}
                     </td>
                     <td className="p-2 text-right">
                       <CiteButton row={{
                         id: r.id,
                         title: r.title,
-                        year_published: r.year_published ?? null,
-                        doi: r.doi ?? null,
-                        drive_url: r.drive_url ?? null,
+                        year_published: plausibleYear(r.year_published),
+                        doi: validDoi(r.doi),
+                        drive_url: r.drive_url && !isDoiLink(r.drive_url) ? r.drive_url : null,
                         topic_category: r.topic_category ?? null,
                       }} />
                     </td>
