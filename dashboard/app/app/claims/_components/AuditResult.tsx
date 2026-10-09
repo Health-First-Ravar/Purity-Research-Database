@@ -5,7 +5,7 @@
 
 import { useState } from 'react';
 import { claimVerdict, VERDICT_CHIP, VERDICT_LABEL, type ClaimVerdict } from '@/lib/claim-verdict';
-import { evidenceTypeLabel } from '@/lib/rag/source-label';
+import { displaySourceTitle, evidenceTypeLabel } from '@/lib/rag/source-label';
 
 export type AuditResponse = {
   id: string;
@@ -210,7 +210,7 @@ export function AuditResult({ result }: { result: AuditResponse }) {
                   </span>
                   <span>sim {c.similarity.toFixed(3)}</span>
                 </div>
-                <div className="font-medium text-purity-bean dark:text-purity-paper">{c.title}</div>
+                <div className="font-medium text-purity-bean dark:text-purity-paper">{displaySourceTitle(c)}</div>
                 {c.heading && <div className="text-[11px] text-purity-muted dark:text-purity-mist">{c.heading}</div>}
                 <p className="mt-1 line-clamp-4 whitespace-pre-wrap text-purity-bean/90 dark:text-purity-paper/90">
                   {c.content.slice(0, 500)}

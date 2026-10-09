@@ -25,3 +25,25 @@ export function evidenceTypeLabel(c: { kind: string; title?: string | null; sour
   if (c.kind === 'research_paper') return (c.source_type && TYPE_WORDS[c.source_type]) || 'research paper';
   return c.kind.replace(/_/g, ' ');
 }
+
+/**
+ * A readable source title. Ingested files keep their file names as titles
+ * ("The Coffee Guide to Better Health_7x10_FINAL-550-Pages-24Dec2025",
+ * "Long-term-consumption-of-a-green-roasted-coffee-blend-..."), which Ask showed
+ * in its sources line. Named books get their proper title; other file-name
+ * titles lose underscores, hyphens between words and print-production tokens.
+ */
+export function displaySourceTitle(c: { kind: string; title?: string | null }): string {
+  const t = (c.title ?? '').trim();
+  if (c.kind === 'coffee_book' || /coffee guide to better health/i.test(t)) return 'The Coffee Guide to Better Health (Ildi Revi)';
+  if (/^circular health coffee/i.test(t)) return t.replace(/[_]+/g, ' ').replace(/\s{2,}/g, ' ');
+  const fileLike = /_/.test(t) || (!/\s/.test(t) && /-/.test(t));
+  if (!fileLike) return t;
+  return t
+    .replace(/\.(pdf|txt|docx?)$/i, '')
+    .replace(/[_]+/g, ' ')
+    .replace(/(?<=[A-Za-z0-9])-(?=[A-Za-z0-9])/g, ' ')
+    .replace(/\b(?:FINAL|DRAFT|v\d+|\d+x\d+|\d+-Pages|\d{1,2}[A-Z][a-z]{2}\d{4})\b/g, '')
+    .replace(/\s{2,}/g, ' ')
+    .trim();
+}

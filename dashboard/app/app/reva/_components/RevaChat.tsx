@@ -5,7 +5,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 import { ModeSwitcher, type Mode } from './ModeSwitcher';
-import { evidenceTypeLabel } from '@/lib/rag/source-label';
+import { displaySourceTitle, evidenceTypeLabel } from '@/lib/rag/source-label';
 
 export type RevaMessage = {
   id: string;
@@ -155,7 +155,7 @@ export function RevaChat({
                   <div className="mt-2 space-y-1 text-[11px]">
                     {t.flags.left_evidence && (
                       <div className="rounded bg-amber-400/15 px-2 py-1 text-amber-200">
-                        ⚠ Left the evidence — synthesis only. Verify before publishing.
+                        ⚠ Left the evidence: synthesis only. Verify before publishing.
                       </div>
                     )}
                     {t.flags.regulatory_risk && (
@@ -174,7 +174,7 @@ export function RevaChat({
                     <ul className="mt-1 space-y-1">
                       {t.cited_chunks.map((c) => (
                         <li key={c.id}>
-                          {c.title}{c.chapter ? ` · ch ${c.chapter}` : ''} <span className="opacity-60">({evidenceTypeLabel(c)})</span>
+                          {displaySourceTitle(c)}{c.chapter ? ` · ch ${c.chapter}` : ''} <span className="opacity-60">({evidenceTypeLabel(c)})</span>
                         </li>
                       ))}
                     </ul>
