@@ -36,8 +36,11 @@ export function parseGenerateResult(raw: string): GenerateResult {
   }
   try {
     const j = JSON.parse(match[0]);
+    // Now and then the model writes the answer as prose and follows it with a
+    // JSON object of the other fields only: keep the prose as the answer.
+    const prose = raw.slice(0, match.index).replace(/```(?:json)?\s*$/i, '').trim();
     return {
-      answer: String(j.answer ?? ''),
+      answer: String(j.answer ?? '').trim() ? String(j.answer) : prose,
       confidence_score: Number(j.confidence_score ?? 0),
       cited_chunk_ids: Array.isArray(j.cited_chunk_ids) ? j.cited_chunk_ids.map(String) : [],
       insufficient_evidence: Boolean(j.insufficient_evidence ?? false),

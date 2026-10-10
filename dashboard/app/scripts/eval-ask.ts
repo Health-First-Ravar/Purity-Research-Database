@@ -6,6 +6,8 @@
 //   npm run eval:ask -- --show       # print the lab evidence for each case
 //   npm run eval:ask -- --answers --full   # print whole answers, not the first 220 characters
 //   npm run eval:ask -- --answers --guard  # only the guardrail prompts
+//   npm run eval:ask -- --answers --stream # generate as Ask streams: time to first
+//                                          # text, and the streamed text must pass the guardrails
 //
 // Runs the same functions /api/chat uses (classify, detectLabQuestion,
 // fetchLabEvidence, askRoute, labLinksFor) against the live database with the
@@ -16,7 +18,7 @@ import { createClient } from '@supabase/supabase-js';
 import { classify, type Classification } from '../lib/rag/classify';
 import { detectLabQuestion, fetchLabEvidence, type LabChunk } from '../lib/rag/lab-lookup';
 import { askRoute, labLinksFor, type AskRoute } from '../lib/rag/ask-route';
-import { generateAnswer } from '../lib/rag/generate';
+import { generateAnswer, type GenerateHooks } from '../lib/rag/generate';
 import { guardrailViolations } from '../lib/rag/guardrails';
 
 type Case = {
@@ -80,6 +82,21 @@ function env(k: string): string {
 
 const test = (hay: string, n: string | RegExp) => (typeof n === 'string' ? hay.includes(n) : n.test(hay));
 
+/** Generate an answer; with --stream, as Ask streams it, checking what was shown before the final answer. */
+async function answer(args: Parameters<typeof generateAnswer>[0]) {
+  if (!flag('--stream')) return { res: await generateAnswer(args), errs: [] as string[], note: '' };
+  const t0 = Date.now();
+  let first = 0, streamed = '', repaired = false;
+  const hooks: GenerateHooks = {
+    onText: (c) => { if (!first) first = Date.now() - t0; streamed += c; },
+    onRepair: () => { repaired = true; },
+  };
+  const res = await generateAnswer(args, hooks);
+  const errs = guardrailViolations(streamed).map((v) => `streamed text broke a guardrail: ${v}`);
+  const note = `    stream: first text ${first ? `${(first / 1000).toFixed(1)}s` : 'none'}, done ${((Date.now() - t0) / 1000).toFixed(1)}s, streamed ${streamed.length} of ${res.answer.length} chars${repaired ? ', repaired' : ''}`;
+  return { res, errs, note };
+}
+
 async function main() {
   const db = createClient(env('NEXT_PUBLIC_SUPABASE_URL'), env('SUPABASE_SERVICE_ROLE_KEY'), { auth: { persistSession: false } });
   let failures = 0;
@@ -108,12 +125,14 @@ async function main() {
 
     let answerNote = '';
     if (flag('--answers')) {
-      const res = await generateAnswer({ question: c.q, chunks: lab, classification: cls, prior: [] });
+      const { res, errs: streamErrs, note } = await answer({ question: c.q, chunks: lab, classification: cls, prior: [] });
+      errs.push(...streamErrs);
+      if (note) answerNote += `\n${note}`;
       const v = guardrailViolations(res.answer);
       if (v.length) errs.push(`guardrails: ${v.join('; ')}`);
       for (const n of c.answerHas ?? []) if (!test(res.answer, n)) errs.push(`answer missing ${n}`);
       if (c.id === '7' && res.escalation_recommended) errs.push('escalated');
-      answerNote = `\n    answer: ${flag('--full') ? res.answer : `${res.answer.replace(/\s+/g, ' ').slice(0, 220)}...`}`;
+      answerNote += `\n    answer: ${flag('--full') ? res.answer : `${res.answer.replace(/\s+/g, ' ').slice(0, 220)}...`}`;
     }
 
     failures += errs.length ? 1 : 0;
@@ -128,11 +147,12 @@ async function main() {
       const cls = await classify(g.q);
       const signals = detectLabQuestion(g.q, cls);
       const lab = await fetchLabEvidence(db, signals, true);
-      const res = await generateAnswer({ question: g.q, chunks: lab, classification: cls, prior: [] });
-      const v = guardrailViolations(res.answer);
+      const { res, errs: streamErrs, note } = await answer({ question: g.q, chunks: lab, classification: cls, prior: [] });
+      const v = [...guardrailViolations(res.answer), ...streamErrs];
       failures += v.length ? 1 : 0;
       console.log(`${v.length ? 'FAIL' : 'pass'}  [${g.id}] ${g.q}`);
       for (const e of v) console.log(`    ✗ ${e}`);
+      if (note) console.log(note);
       console.log(`    answer: ${flag('--full') ? res.answer : `${res.answer.replace(/\s+/g, ' ').slice(0, 260)}...`}`);
     }
   }

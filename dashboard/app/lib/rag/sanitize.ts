@@ -38,6 +38,14 @@ const REG_BODY = /\b(E\.?U\.?|European Union|EFSA|F\.?D\.?A\.?|Codex)\b/;
 const REG_LIMIT_WORD = /\b(limit|level|ceiling|maximum|threshold|action level|regulat\w*)\b/i;
 const REG_NUMBER = /\b\d+(?:\.\d+)?\s*(?:ppb|ppm|µg\/kg|ug\/kg|mg\/kg|micrograms?\/kg)\b/i;
 
+const isExternalRegLimit = (sentence: string) =>
+  REG_BODY.test(sentence) && REG_LIMIT_WORD.test(sentence) && REG_NUMBER.test(sentence);
+
+/** True when any sentence in the text pins a numeric limit on an external regulator (stripExternalRegLimits would drop it). */
+export function hasExternalRegLimit(input: string): boolean {
+  return !!input && input.split(/(?<=[.!?])\s+/).some(isExternalRegLimit);
+}
+
 export function stripExternalRegLimits(input: string): string {
   if (!input) return input;
   // Split keeping each sentence's trailing whitespace, so line breaks (lists,
@@ -47,7 +55,7 @@ export function stripExternalRegLimits(input: string): string {
   for (let i = 0; i < parts.length; i += 2) {
     const sentence = parts[i];
     const sep = parts[i + 1] ?? '';
-    if (REG_BODY.test(sentence) && REG_LIMIT_WORD.test(sentence) && REG_NUMBER.test(sentence)) {
+    if (isExternalRegLimit(sentence)) {
       if (sep.includes('\n')) out += sep;
       continue;
     }

@@ -23,8 +23,45 @@ type Turn = {
     lab_panel?: LabPanel | null;
     route?: string;
     message_id?: string;
+    /** Still streaming: the answer is partial and may be replaced by the final one. */
+    pending?: boolean;
+    stage?: Stage;
   };
 };
+
+type Stage = 'classify' | 'retrieve' | 'write' | 'check';
+const STAGE_LABEL: Record<Stage, string> = {
+  classify: 'Reading the question…',
+  retrieve: 'Looking up lab results and research…',
+  write: 'Writing…',
+  check: 'Checking the wording…',
+};
+
+type Meta = NonNullable<Turn['meta']>;
+type FinalReply = {
+  answer: string;
+  source?: 'canon' | 'llm';
+  confidence_score?: number;
+  escalated?: boolean;
+  freshness_tier?: string;
+  cited_chunks?: Meta['cited_chunks'];
+  lab_links?: Meta['lab_links'];
+  lab_panel?: LabPanel | null;
+  route?: string;
+  message_id?: string;
+};
+
+const finalMeta = (j: FinalReply): Meta => ({
+  source: j.source,
+  confidence: j.confidence_score,
+  escalated: j.escalated,
+  freshness_tier: j.freshness_tier,
+  cited_chunks: j.cited_chunks,
+  lab_links: j.lab_links,
+  lab_panel: j.lab_panel,
+  route: j.route,
+  message_id: j.message_id,
+});
 
 const SUGGESTED = [
   'Is PROTECT good for someone with acid reflux?',
@@ -77,15 +114,25 @@ export default function ChatClient({ paperCount, initialQuestion, deepMode }: { 
     setTurns(next);
 
     const prior = next.slice(-6).map((t) => ({ role: t.role, content: t.content }));
+    // The reply turn, updated in place while the answer streams. Dropped if the
+    // conversation was reset meanwhile.
+    const asked = next[next.length - 1];
+    const setReply = (fn: (t: Turn) => Turn) =>
+      setTurns((cur) => {
+        if (cur[next.length - 1] !== asked) return cur;
+        return cur.length > next.length
+          ? [...cur.slice(0, next.length), fn(cur[next.length])]
+          : [...cur, fn({ role: 'assistant', content: '' })];
+      });
 
     try {
       const res = await fetch('/api/chat', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ question: q, session_id: sessionId.current, prior }),
+        headers: { 'Content-Type': 'application/json', Accept: 'application/x-ndjson' },
+        body: JSON.stringify({ question: q, session_id: sessionId.current, prior, stream: true }),
       });
-      const j = await res.json().catch(() => ({}));
       if (res.status === 429) {
+        const j = await res.json().catch(() => ({}));
         const secs = j.retry_after_seconds ?? 60;
         setTurns([
           ...next,
@@ -98,29 +145,39 @@ export default function ChatClient({ paperCount, initialQuestion, deepMode }: { 
           },
         ]);
       } else if (!res.ok) {
+        const j = await res.json().catch(() => ({}));
         setTurns([...next, { role: 'assistant', content: `Error: ${j.error ?? 'unknown'}` }]);
+      } else if (!res.body || !(res.headers.get('content-type') ?? '').includes('ndjson')) {
+        const j = (await res.json()) as FinalReply;
+        setTurns([...next, { role: 'assistant', content: j.answer, meta: finalMeta(j) }]);
       } else {
-        setTurns([
-          ...next,
-          {
-            role: 'assistant',
-            content: j.answer,
-            meta: {
-              source: j.source,
-              confidence: j.confidence_score,
-              escalated: j.escalated,
-              freshness_tier: j.freshness_tier,
-              cited_chunks: j.cited_chunks,
-              lab_links: j.lab_links,
-              lab_panel: j.lab_panel,
-              route: j.route,
-              message_id: j.message_id,
-            },
-          },
-        ]);
+        setReply(() => ({ role: 'assistant', content: '', meta: { pending: true, stage: 'classify' } }));
+        const reader = res.body.getReader();
+        const dec = new TextDecoder();
+        let buf = '';
+        let finished = false;
+        const onEvent = (ev: { type: string } & Record<string, unknown>) => {
+          if (ev.type === 'stage') setReply((t) => ({ ...t, meta: { ...t.meta, stage: ev.stage as Stage } }));
+          else if (ev.type === 'context') setReply((t) => ({ ...t, meta: { ...t.meta, route: ev.route as string, lab_panel: ev.lab_panel as LabPanel | null, lab_links: ev.lab_links as Meta['lab_links'] } }));
+          else if (ev.type === 'delta') setReply((t) => ({ ...t, content: t.content + String(ev.text ?? '') }));
+          else if (ev.type === 'final') { finished = true; const j = ev as unknown as FinalReply; setReply(() => ({ role: 'assistant', content: j.answer, meta: finalMeta(j) })); }
+          else if (ev.type === 'error') { finished = true; setReply(() => ({ role: 'assistant', content: `Error: ${String(ev.error ?? 'unknown')}` })); }
+        };
+        for (;;) {
+          const { value, done } = await reader.read();
+          if (value) buf += dec.decode(value, { stream: true });
+          let nl: number;
+          while ((nl = buf.indexOf('\n')) >= 0) {
+            const line = buf.slice(0, nl).trim();
+            buf = buf.slice(nl + 1);
+            if (line) { try { onEvent(JSON.parse(line)); } catch { /* ignore a malformed line */ } }
+          }
+          if (done) break;
+        }
+        if (!finished) setReply((t) => ({ role: 'assistant', content: t.content ? `${t.content}\n\n(The answer was cut off. Try again.)` : 'Error: the answer was cut off. Try again.' }));
       }
     } catch (e) {
-      setTurns([...next, { role: 'assistant', content: `Network error: ${String(e)}` }]);
+      setReply((t) => ({ role: 'assistant', content: t.content ? `${t.content}\n\n(Network error: ${String(e)})` : `Network error: ${String(e)}` }));
     } finally {
       setBusy(false);
     }
@@ -183,6 +240,7 @@ export default function ChatClient({ paperCount, initialQuestion, deepMode }: { 
         <div
           className="space-y-4 rounded-lg border border-purity-bean/10 bg-white p-4 shadow-sm dark:border-purity-paper/10 dark:bg-purity-shade dark:shadow-none sm:p-5"
           aria-live="polite"
+          aria-busy={busy}
         >
           {turns.length === 0 && !busy && (
             <p className="text-sm text-purity-muted dark:text-purity-mist">
@@ -207,6 +265,12 @@ export default function ChatClient({ paperCount, initialQuestion, deepMode }: { 
               >
                 {t.role === 'assistant' ? <AnswerText text={t.content} /> : t.content}
               </div>
+              {t.meta?.pending && (
+                <div role="status" className="mt-1 flex items-center gap-2 text-xs text-purity-muted dark:text-purity-mist">
+                  <span className="h-2 w-2 animate-pulse rounded-full bg-purity-green/60 dark:bg-purity-aqua/60" aria-hidden="true" />
+                  {STAGE_LABEL[t.meta.stage ?? 'classify']}
+                </div>
+              )}
               {t.meta?.lab_panel && t.meta.lab_panel.rows.length > 0 && (
                 <div className="mt-2 rounded-lg bg-purity-soft p-3 dark:bg-purity-night">
                   <div className="mb-2 flex items-center justify-between gap-2 text-xs font-semibold uppercase tracking-wider text-purity-muted dark:text-purity-mist">
@@ -229,7 +293,7 @@ export default function ChatClient({ paperCount, initialQuestion, deepMode }: { 
                   )}
                 </div>
               )}
-              {t.role === 'assistant' && t.content && (
+              {t.role === 'assistant' && t.content && !t.meta?.pending && (
                 <div className="mt-1 opacity-100 transition-opacity sm:opacity-0 sm:group-hover:opacity-100 sm:focus-within:opacity-100">
                   <CopyButton text={t.content} label="Copy answer" ariaLabel="Copy this answer" />
                 </div>
@@ -268,7 +332,7 @@ export default function ChatClient({ paperCount, initialQuestion, deepMode }: { 
                       ))}
                     </div>
                   )}
-                  {t.meta.message_id && t.role === 'assistant' && (
+                  {t.meta.message_id && t.role === 'assistant' && !t.meta.pending && (
                     <RatingButtons messageId={t.meta.message_id} />
                   )}
                 </div>
@@ -276,7 +340,7 @@ export default function ChatClient({ paperCount, initialQuestion, deepMode }: { 
             </div>
           ))}
           {/* Typing indicator — visible while waiting for a response */}
-          {busy && turns.length > 0 && (
+          {busy && turns.length > 0 && turns[turns.length - 1].role === 'user' && (
             <div aria-label="Reva is thinking…" role="status">
               <div className="flex items-center gap-1 px-1 py-0.5">
                 <span

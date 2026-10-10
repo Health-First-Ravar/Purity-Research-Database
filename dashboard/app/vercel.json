@@ -19,7 +19,7 @@
     }
   ],
   "functions": {
-    "app/api/chat/route.ts":          { "maxDuration": 30 },
+    "app/api/chat/route.ts":          { "maxDuration": 60 },
     "app/api/audit/route.ts":         { "maxDuration": 30 },
     "app/api/reva/route.ts":          { "maxDuration": 60 },
     "app/api/reva-helper/route.ts":   { "maxDuration": 15 },

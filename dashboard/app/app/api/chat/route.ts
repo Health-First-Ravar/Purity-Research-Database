@@ -1,7 +1,17 @@
 // POST /api/chat
-// Body: { question: string; session_id: string; prior?: {role, content}[] }
+// Body: { question: string; session_id: string; prior?: {role, content}[]; stream?: boolean }
 // Runs: classify → canon-cache lookup → retrieve chunks → generate → log message.
 // Escalates when insufficient_evidence=true OR confidence_score < 0.55.
+//
+// With stream: true the reply is NDJSON, one event per line, so Ask shows
+// progress and the answer as it is written:
+//   {type:'stage', stage}            classify | retrieve | write | check
+//   {type:'context', route, lab_panel, lab_links}   once evidence is in
+//   {type:'delta', text}             finished, guardrail-clean answer text
+//   {type:'final', ...}              the same object the JSON reply returns;
+//                                    its answer replaces the streamed text
+//   {type:'error', error}
+// Without it the reply is one JSON object, as before (eval-ask, older tabs).
 //
 // Session context is session-scoped: the client passes the last 2-3 turns.
 // No cross-session threading.
@@ -64,7 +74,62 @@ export async function POST(req: NextRequest) {
     );
   }
 
+  const userId = auth.user.id;
+  const run = (hooks: AskHooks) => runAsk({ supabase, userId, question, session_id, prior, t0 }, hooks);
+
+  if (body.stream !== true) {
+    return NextResponse.json(await run({}));
+  }
+
+  const enc = new TextEncoder();
+  const stream = new ReadableStream<Uint8Array>({
+    async start(controller) {
+      const send = (event: Record<string, unknown>) => controller.enqueue(enc.encode(JSON.stringify(event) + '\n'));
+      try {
+        const final = await run({
+          stage: (stage) => send({ type: 'stage', stage }),
+          context: (ctx) => send({ type: 'context', ...ctx }),
+          text: (text) => send({ type: 'delta', text }),
+        });
+        send({ type: 'final', ...final });
+      } catch (e) {
+        console.error('[chat stream]', e);
+        send({ type: 'error', error: 'The answer could not be finished. Try again.' });
+      } finally {
+        controller.close();
+      }
+    },
+  });
+  return new Response(stream, {
+    headers: {
+      'Content-Type': 'application/x-ndjson; charset=utf-8',
+      'Cache-Control': 'no-cache, no-transform',
+      'X-Accel-Buffering': 'no',
+    },
+  });
+}
+
+type AskHooks = {
+  stage?: (stage: 'classify' | 'retrieve' | 'write' | 'check') => void;
+  context?: (ctx: { route: string; lab_panel: unknown; lab_links: unknown }) => void;
+  text?: (chunk: string) => void;
+};
+
+async function runAsk(
+  args: {
+    supabase: ReturnType<typeof supabaseServer>;
+    userId: string;
+    question: string;
+    session_id: string;
+    prior: PriorTurn[];
+    t0: number;
+  },
+  hooks: AskHooks,
+): Promise<Record<string, unknown>> {
+  const { supabase, userId, question, session_id, prior, t0 } = args;
+
   // 1. Classify
+  hooks.stage?.('classify');
   const cls = await classify(question);
 
   // 2. Canon-cache check (skipped when classification says fresh required)
@@ -87,7 +152,7 @@ export async function POST(req: NextRequest) {
       .from('messages')
       .insert({
         session_id,
-        user_id: auth.user.id,
+        user_id: userId,
         question,
         answer: canon.answer,
         canon_hit_id: canon.id,
@@ -102,7 +167,7 @@ export async function POST(req: NextRequest) {
       .select('id')
       .single();
 
-    return NextResponse.json({
+    return {
       message_id: insertedCanon?.id,
       answer: canon.answer,
       source: 'canon',
@@ -111,7 +176,7 @@ export async function POST(req: NextRequest) {
       freshness_tier: canon.freshness_tier,
       next_review_due: canon.next_review_due,
       escalated: false,
-    });
+    };
   }
 
   // 3. Retrieve
@@ -122,12 +187,30 @@ export async function POST(req: NextRequest) {
   // indistinguishable from one of ours once it is in the answer. Restrict
   // COA-derived chunks to the allowlist for anyone without elevated access;
   // editors and admins retrieve everything, as on /reports.
+  hooks.stage?.('retrieve');
   const viewer = await getCoaViewer(supabase);
   const allowedCoaScopes = viewer.elevated ? null : [CS_SCOPE];
   const chunks = await retrieveChunks(supabase, question, cls, allowedCoaScopes);
 
+  // Known before the answer is written, so a stream can show them first:
+  // which way the question was answered (lib/rag/ask-route.ts;
+  // scripts/eval-ask.ts tests the same function), the latest results for the
+  // product asked about in Brian's status chips, and the COA quick view and
+  // certificate links for that panel (never part of the answer text; none
+  // without a panel).
+  const context = {
+    route: askRoute(detectLabQuestion(question, cls), cls, chunks.some((c) => c.via === 'lab_tracker')),
+    lab_panel: chunks.find((c) => c.panel)?.panel ?? null,
+    lab_links: labLinksFor(chunks),
+  };
+  hooks.context?.(context);
+
   // 4. Generate
-  const result = await generateAnswer({ question, chunks, classification: cls, prior });
+  hooks.stage?.('write');
+  const result = await generateAnswer(
+    { question, chunks, classification: cls, prior },
+    { onText: hooks.text, onRepair: () => hooks.stage?.('check') },
+  );
   const latency_ms = Date.now() - t0;
 
   // Decide whether to escalate.
@@ -158,7 +241,7 @@ export async function POST(req: NextRequest) {
     .from('messages')
     .insert({
       session_id,
-      user_id: auth.user.id,
+      user_id: userId,
       question,
       answer: result.answer,
       canon_hit_id: null,
@@ -204,7 +287,7 @@ export async function POST(req: NextRequest) {
     chunks.filter((c) => result.cited_chunk_ids.includes(c.id)).map((c) => c.source_id),
   );
 
-  return NextResponse.json({
+  return {
     message_id: inserted?.id,
     answer: result.answer,
     source: 'llm',
@@ -230,15 +313,8 @@ export async function POST(req: NextRequest) {
           similarity: c.similarity,
         }));
     })(),
-    // Which way the question was answered, shown beside the answer
-    // (lib/rag/ask-route.ts; scripts/eval-ask.ts tests the same function).
-    route: askRoute(detectLabQuestion(question, cls), cls, chunks.some((c) => c.via === 'lab_tracker')),
-    // Latest results for the product asked about, in Brian's status chips.
-    lab_panel: chunks.find((c) => c.panel)?.panel ?? null,
-    // COA quick view and certificate links for the panel shown, never part of
-    // the answer text; none without a panel (lib/rag/ask-route.ts).
-    lab_links: labLinksFor(chunks),
-  });
+    ...context,
+  };
 }
 
 // Embed-and-search helper exposed for the debug page; no-op externally.

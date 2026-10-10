@@ -5,6 +5,7 @@
 // unknowables (specific lot data, severe medical decisions, contradictory
 // retrieval).
 
+import type Anthropic from '@anthropic-ai/sdk';
 import { anthropic, MODEL_GENERATE, parseGenerateResult } from '../anthropic';
 import { stripDashes, stripExternalRegLimits } from './sanitize';
 import type { ChunkHit } from './retrieve';
@@ -12,6 +13,7 @@ import type { Classification } from './classify';
 import { buildSafetyContext } from './safety-context';
 import { labSourceEnabled } from './lab-lookup';
 import { guardrailViolations } from './guardrails';
+import { JsonAnswerReader, SentenceGate } from './answer-stream';
 
 export type PriorTurn = { role: 'user' | 'assistant'; content: string };
 
@@ -274,12 +276,22 @@ Return ONLY valid JSON in this exact shape:
   "reasoning": "<1-2 sentence editor-log note; not shown to user>"
 }`;
 
+const REPAIR_SYSTEM = `You edit answers from Purity Coffee's Research Hub. Rewrite ONLY the sentences that break the rules listed, and keep every other sentence, every fact, number, date and the markdown structure exactly as they are. Rules: hedge every health benefit ("may support", "associated with", "research suggests"; never "cures", "treats", "prevents"); no superlatives and no praise of labs or researchers; no claims about what happens to coffee that fails a limit or about QA procedures; no offers to notify or follow up; never tell the reader to contact Purity; no ranking of blends ("the most", "the obvious fit", "more pronounced") except as lab numbers; no intensifiers ("significantly", "well-documented") unless attributed to a named study; no em dashes, en dashes or "--". Return only the revised answer text.`;
+
+/** Optional live hooks for Ask streaming (app/api/chat/route.ts). */
+export type GenerateHooks = {
+  /** Finished, guardrail-clean answer text as it is written (lib/rag/answer-stream.ts). */
+  onText?: (chunk: string) => void;
+  /** The guardrail repair pass started. */
+  onRepair?: () => void;
+};
+
 export async function generateAnswer(args: {
   question: string;
   chunks: ChunkHit[];
   classification: Classification;
   prior: PriorTurn[];
-}) {
+}, hooks: GenerateHooks = {}) {
   const { question, chunks, classification, prior } = args;
 
   const evidence = chunks.length
@@ -310,22 +322,41 @@ ${evidence}
 </evidence>
 <question>${question}</question>`;
 
-  const res = await anthropic.messages.create({
+  const request = {
     model: MODEL_GENERATE,
     max_tokens: 1400,
     system: systemPrompt(),
-    messages: [{ role: 'user', content: userContent }],
-  });
+    messages: [{ role: 'user' as const, content: userContent }],
+  };
+  let res: Anthropic.Messages.Message;
+  if (hooks.onText) {
+    // Stream, releasing the answer one checked sentence at a time.
+    const reader = new JsonAnswerReader();
+    const gate = new SentenceGate(hooks.onText);
+    const stream = anthropic.messages.stream(request);
+    stream.on('text', (delta) => gate.push(reader.push(delta)));
+    res = await stream.finalMessage();
+  } else {
+    res = await anthropic.messages.create(request);
+  }
 
-  const text = res.content
+  const textOf = (m: Anthropic.Messages.Message) => m.content
     .filter((c) => c.type === 'text')
     .map((c) => (c as { text: string }).text)
     .join('\n');
 
-  const parsed = parseGenerateResult(text);
-  const tokens_in = res.usage?.input_tokens ?? 0;
-  const tokens_out = res.usage?.output_tokens ?? 0;
-  const cost_usd = (tokens_in * 3 + tokens_out * 15) / 1_000_000;
+  let parsed = parseGenerateResult(textOf(res));
+  let tokens_in = res.usage?.input_tokens ?? 0;
+  let tokens_out = res.usage?.output_tokens ?? 0;
+  // Seen once in testing (2026-10-09): valid JSON with an empty answer. Ask
+  // again rather than show a blank reply.
+  if (!parsed.answer.trim()) {
+    console.warn(`[generate] empty answer (stop ${res.stop_reason}); retrying once. Raw start: ${JSON.stringify(textOf(res).slice(0, 300))}`);
+    const again = await anthropic.messages.create(request);
+    parsed = parseGenerateResult(textOf(again));
+    tokens_in += again.usage?.input_tokens ?? 0;
+    tokens_out += again.usage?.output_tokens ?? 0;
+  }
 
   // Brand + compliance backstops on the customer-facing answer, applied even
   // when the model ignored the prompt: drop any sentence stating an external
@@ -335,15 +366,16 @@ ${evidence}
 
   // Guardrail repair: the prompt's rules still leak now and then (an unhedged
   // benefit, a policy claim). When the checks in guardrails.ts flag the answer,
-  // ask once for a minimal rewrite of the flagged sentences, and keep it only
-  // if it breaks fewer rules.
-  const violations = guardrailViolations(answer);
-  if (violations.length) {
+  // ask for a minimal rewrite of the flagged sentences and keep it only if it
+  // breaks fewer rules; a second pass if something is still flagged.
+  let violations = guardrailViolations(answer);
+  if (violations.length) hooks.onRepair?.();
+  for (let pass = 0; violations.length && pass < 2; pass++) {
     const fix = await anthropic.messages.create({
       model: MODEL_GENERATE,
       max_tokens: 1400,
       temperature: 0,
-      system: `You edit answers from Purity Coffee's Research Hub. Rewrite ONLY the sentences that break the rules listed, and keep every other sentence, every fact, number, date and the markdown structure exactly as they are. Rules: hedge every health benefit ("may support", "associated with", "research suggests"; never "cures", "treats", "prevents"); no superlatives and no praise of labs or researchers; no claims about what happens to coffee that fails a limit or about QA procedures; no offers to notify or follow up; never tell the reader to contact Purity; no ranking of blends ("the most", "the obvious fit", "more pronounced") except as lab numbers; no intensifiers ("significantly", "well-documented") unless attributed to a named study; no em dashes, en dashes or "--". Return only the revised answer text.`,
+      system: REPAIR_SYSTEM,
       messages: [{ role: 'user', content: `Rules broken: ${violations.join('; ')}\n\n<answer>\n${answer}\n</answer>` }],
     });
     tin += fix.usage?.input_tokens ?? 0;
@@ -352,7 +384,10 @@ ${evidence}
       fix.content.filter((c) => c.type === 'text').map((c) => (c as { text: string }).text).join('\n')
         .replace(/^\s*<answer>\s*|\s*<\/answer>\s*$/g, '').trim(),
     ));
-    if (revised && guardrailViolations(revised).length < violations.length) answer = revised;
+    const left = revised ? guardrailViolations(revised) : violations;
+    if (!revised || left.length >= violations.length) break;
+    answer = revised;
+    violations = left;
   }
   return { ...parsed, answer, tokens_in: tin, tokens_out: tout, cost_usd: (tin * 3 + tout * 15) / 1_000_000 };
 }
