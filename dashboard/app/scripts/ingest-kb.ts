@@ -51,7 +51,8 @@ function walk(dir: string, acc: string[] = []): string[] {
     const p = join(dir, name);
     const s = statSync(p);
     if (s.isDirectory()) walk(p, acc);
-    else if (TEXT_EXT.test(name)) acc.push(p);
+    // README.md files describe the folders; they are not sources (retired 2026-10-09).
+    else if (TEXT_EXT.test(name) && !/^readme\.md$/i.test(name)) acc.push(p);
   }
   return acc;
 }
