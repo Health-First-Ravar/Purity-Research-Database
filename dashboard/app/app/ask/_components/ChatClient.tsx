@@ -140,7 +140,7 @@ export default function ChatClient({ paperCount, initialQuestion, deepMode }: { 
             role: 'assistant',
             content:
               j.reason === 'rpd_exceeded'
-                ? `Daily message limit reached. Try again tomorrow, or ask an editor to raise your cap.`
+                ? `Daily message limit reached. Try again tomorrow.`
                 : `You're sending messages faster than the rate limit. Try again in ${secs}s.`,
           },
         ]);

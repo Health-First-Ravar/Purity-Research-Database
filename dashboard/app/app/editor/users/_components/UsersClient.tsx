@@ -322,8 +322,8 @@ export function UsersClient({ currentUserId }: { currentUserId: string }) {
       <aside className="rounded-lg border border-purity-bean/10 bg-white p-4 dark:border-purity-paper/10 dark:bg-purity-shade">
         <h2 className="font-serif text-base">Add a user</h2>
         <p className="mt-1 text-[11px] text-purity-muted dark:text-purity-mist">
-          Set a password to create the account instantly (then email them yourself).
-          Leave password blank to send a Supabase invite email instead.
+          Set a password to create the account now (then send it to them yourself), or
+          leave the password blank to email them an invitation (the link works for 24 hours).
         </p>
         <form onSubmit={invite} className="mt-3 space-y-3 text-sm">
           <label className="block">

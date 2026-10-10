@@ -251,8 +251,8 @@ export default async function BibliographyPage({ searchParams }: { searchParams:
             <button className="rounded-md bg-purity-green px-3 py-1 text-xs text-purity-cream dark:bg-purity-aqua dark:text-purity-ink">Search</button>
           </form>
           <p className="mb-3 text-xs text-purity-muted dark:text-purity-mist">
-            Hits the vector index over every chunk in the KB. Catalog rows without PDFs won&apos;t
-            appear here yet; the open-access batch download queue fills that in.
+            Searches the full text of the papers and documents in the Hub by meaning, not exact
+            words. Papers with no PDF on file are not searchable yet.
           </p>
           <div className="max-h-[70vh] space-y-3 overflow-auto">
             {params.q && searchResults.length === 0 && (
