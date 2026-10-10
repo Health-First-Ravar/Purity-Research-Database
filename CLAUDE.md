@@ -159,7 +159,7 @@ npm run verify-rls             # live-probe the RLS matrix
 npm run eval:ask               # Ask routing + lab retrieval eval; run before every push
 npm run eval:ask -- --answers  # also generate answers and check the guardrails (Sonnet calls)
 npm run link-drive-pdfs        # fill research library Drive links from the research manifest (dry run; --apply)
-npm run source-display-titles  # Crossref titles/authors into sources.metadata.display (dry run; --apply; re-run after new papers)
+npm run source-display-titles  # backfill Crossref titles/authors into sources.metadata.display (dry run; --apply). New papers are filled by the daily Drive sync
 ```
 
 ## Voice and tone for generated content

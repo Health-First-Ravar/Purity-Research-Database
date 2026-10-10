@@ -18,6 +18,7 @@ import { google } from 'googleapis';
 import { createHash } from 'node:crypto';
 import { supabaseAdmin } from './supabase';
 import { embed } from './voyage';
+import { fillMissingDisplayTitles } from './source-display-build';
 
 type SyncArgs = { trigger: 'cron' | 'manual'; triggered_by?: string };
 type SyncResult = {
@@ -29,6 +30,8 @@ type SyncResult = {
   sources_updated: number;
   chunks_embedded: number;
   has_more?: boolean;
+  /** Research sources given a readable title (metadata.display) after the sync. */
+  titles_filled?: number;
   error?: string;
 };
 
@@ -132,6 +135,7 @@ async function pdfToText(buf: Buffer): Promise<string> {
 }
 
 export async function runSync(args: SyncArgs): Promise<SyncResult> {
+  const startedAt = Date.now();
   const sb = supabaseAdmin();
 
   const { data: jobRow, error: jobErr } = await sb
@@ -205,6 +209,17 @@ export async function runSync(args: SyncArgs): Promise<SyncResult> {
     }
 
     if (hitBatchLimit) result.has_more = true;
+
+    // Readable titles for new research sources (Crossref by DOI, or a verified
+    // DOI on the first page). Bounded and best effort: it never fails the sync,
+    // and it is skipped when the Drive pass already used most of the function's time.
+    if (Date.now() - startedAt < 200_000) {
+      try {
+        result.titles_filled = (await fillMissingDisplayTitles(sb, { limit: 20, budgetMs: 30_000 })).filled;
+      } catch (e) {
+        console.warn('[sync] display titles skipped:', e instanceof Error ? e.message : String(e));
+      }
+    }
 
     await sb.from('update_jobs').update({
       status: 'success',

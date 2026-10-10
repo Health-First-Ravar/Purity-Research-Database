@@ -8,10 +8,24 @@ const DOI_RE = /^10\.\d{4,9}\/\S+$/;
 // Text glued onto a DOI by PDF extraction: publisher logos, never part of a DOI.
 const ARTIFACT_RE = /(?:WILEY|Elsevier|Springer|logo)$/;
 
+/**
+ * Undo PDF-extraction damage that DOIs never contain: control and zero-width
+ * characters ("10.1136/bmj.l1580\b", "10.1021/jf073051p\u200b"), en dashes
+ * set for hyphens ("10.1007/s00374–006–0152-z"), and text glued on after an em
+ * dash ("10.1152/japplphysiol.00570.2014.—combining").
+ */
+function cleanDoi(raw: string): string {
+  return raw
+    .replace(/[\u0000-\u001f\u007f\u200b-\u200f\u2060\ufeff]/g, '')
+    .split('\u2014')[0]
+    .replace(/\u2013/g, '-')
+    .replace(/[.,;:]+$/, '');
+}
+
 /** The DOI if it is well formed (`^10\.\d{4,9}/\S+$`, no extraction artifact), else null. Accepts a doi.org URL. */
 export function validDoi(raw: string | null | undefined): string | null {
   if (!raw) return null;
-  const d = raw.trim().replace(/^https?:\/\/(?:dx\.)?doi\.org\//i, '').replace(/^doi:\s*/i, '');
+  const d = cleanDoi(raw.trim().replace(/^https?:\/\/(?:dx\.)?doi\.org\//i, '').replace(/^doi:\s*/i, ''));
   if (!DOI_RE.test(d) || ARTIFACT_RE.test(d)) return null;
   return d;
 }
