@@ -227,7 +227,7 @@ export default async function BibliographyPage({ searchParams }: { searchParams:
                       }
                       action={
                         params.title || params.topic || params.category || params.year_from || params.year_to
-                          ? { label: 'Clear filters', href: '/bibliography' }
+                          ? { label: 'Clear filters', href: '/library' }
                           : undefined
                       }
                     />

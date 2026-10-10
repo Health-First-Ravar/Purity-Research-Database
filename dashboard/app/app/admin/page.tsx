@@ -1,6 +1,7 @@
 // Admin overview: where staff work the review queue, watch question trends and
-// sync health, and (admins) manage users. Old pages that the overhaul replaces
-// stay reachable here until the switch-over.
+// sync health, and (admins) manage users. The old pages (Reports, Assign
+// products, Limits) were retired at the switch-over; next.config.ts redirects
+// their URLs.
 
 import Link from 'next/link';
 import { cookies } from 'next/headers';
@@ -20,12 +21,6 @@ const TOOLS: { href: string; label: string; what: string; admin?: boolean }[] = 
   { href: '/metrics', label: 'Metrics', what: 'Usage, escalation rate, answer time and cost.', admin: true },
   { href: '/editor/users', label: 'Users', what: 'Accounts and roles.', admin: true },
   { href: '/reva', label: 'Ask deep mode (Reva)', what: 'Long-form analysis with the full research stack.', admin: true },
-];
-
-const LEGACY: { href: string; label: string; why: string }[] = [
-  { href: '/reports', label: 'Reports (old COA view)', why: 'Replaced by the COA quick view; retired at switch-over.' },
-  { href: '/reports/assign', label: 'Assign products', why: 'Dropped: Brian assigns products in his tracker.' },
-  { href: '/reports/limits', label: 'Limits', why: "Replaced by the Health Grade standard (Brian's v2.5)." },
 ];
 
 export default async function AdminPage() {
@@ -64,14 +59,6 @@ export default async function AdminPage() {
                 </div>
               </Link>
             </li>
-          ))}
-        </ul>
-      </Card>
-
-      <Card title="Old pages until the switch-over" hint="Still reachable while the overhaul is in preview. They go away (with redirects) when the Hub replaces the live app.">
-        <ul className="space-y-1 text-sm">
-          {LEGACY.map((l) => (
-            <li key={l.href}><Link href={l.href} className="font-semibold underline">{l.label}</Link> <span className="text-purity-muted dark:text-purity-mist">· {l.why}</span></li>
           ))}
         </ul>
       </Card>

@@ -18,16 +18,19 @@ export type HelperResponse = {
 
 // Canonical tab catalog. The system prompt references these by href + label.
 const TAB_CATALOG_ALL: { href: string; label: string; what: string; editorOnly: boolean }[] = [
-  { href: '/chat',          label: 'Research Hub',  what: 'Customer-facing chat for blend recommendations, health questions, and product Q&A. Reva answers in detail with cited evidence.', editorOnly: false },
-  { href: '/reports',       label: 'Reports',       what: 'COA (Certificate of Analysis) data per blend and lot: mycotoxins, heavy metals, acrylamide, CGAs, moisture, Aw. Filterable by blend, origin, lab, date range. Charts an analyte over time.', editorOnly: false },
-  { href: '/bibliography',  label: 'Bibliography',  what: 'The 448-paper research catalog with full-text semantic search over the ingested papers. Filter by topic, year, rights, or open-access only.', editorOnly: false },
-  { href: '/atlas',         label: 'Atlas',         what: 'High-level map of the knowledge base.', editorOnly: false },
-  { href: '/audit',         label: 'Audit',         what: 'Bioavailability Gap Detector. Paste a draft sentence (newsletter, module, product page); Reva returns the four-layer Compound Reasoning Stack audit, regulatory flags, and a reconstructed claim.', editorOnly: false },
-  { href: '/heatmap',       label: 'Heatmap',       what: 'Editor view. Customer-question topics ranked by demand vs. canon coverage. Shows where to write canon next.', editorOnly: true },
-  { href: '/editor/canon',  label: 'Canon',         what: 'Editor view. Manage the canon_qa library: review draft answers, promote good answers from chat, retire deprecated ones.', editorOnly: true },
-  { href: '/editor',        label: 'Editor',        what: 'Editor view. Escalation queue: chat answers that need human follow-up.', editorOnly: true },
-  { href: '/metrics',       label: 'Metrics',       what: 'Editor view. System health: conversations, answer-confidently rate, customer satisfaction, cost, response time.', editorOnly: true },
-  { href: '/reva',          label: 'Ask Reva',      what: 'Editor view. Operator-mode chat with Reva in three modes: Create / Analyze / Challenge. For thinking through hard problems.', editorOnly: true },
+  { href: '/ask',           label: 'Ask',              what: 'Questions about research, Purity products and lab results, answered from the research library and Brian\'s lab data with cited sources.', editorOnly: false },
+  { href: '/coa',           label: 'COA quick view',   what: 'Latest lab results per product (mycotoxins, heavy metals, acrylamide, CGAs, moisture) scored against the Health Grade standard.', editorOnly: false },
+  { href: '/coa/standard',  label: 'Health Grade standard', what: 'The limits each lab result is scored against.', editorOnly: false },
+  { href: '/claims',        label: 'Claims',           what: "Brian's claim library: each marketing claim on Purity's pages with its risk rating, the evidence it needs, and the Hub's research verdict.", editorOnly: false },
+  { href: '/claims/check',  label: 'Check a claim',    what: 'Paste a draft sentence or pick a library claim; returns how well the research supports it, with regulatory flags.', editorOnly: false },
+  { href: '/library',       label: 'Research library', what: 'The research paper catalog with full-text search. Filter by topic, year or rights.', editorOnly: false },
+  { href: '/library/topics', label: 'Browse by topic', what: 'Editor view. Map of the research library by topic branch.', editorOnly: true },
+  { href: '/admin',         label: 'Admin',            what: 'Editor view. Review queue, question trends, sync status and metrics.', editorOnly: true },
+  { href: '/editor',        label: 'Review queue',     what: 'Editor view. Escalated Ask answers that need human follow-up.', editorOnly: true },
+  { href: '/editor/canon',  label: 'Canon answers',    what: 'Editor view. Curated answers Ask reuses: review drafts, approve, retire.', editorOnly: true },
+  { href: '/heatmap',       label: 'Question trends',  what: 'Editor view. What people ask about, by topic, against canon coverage.', editorOnly: true },
+  { href: '/metrics',       label: 'Metrics',          what: 'Editor view. Usage, escalation rate, answer time and cost.', editorOnly: true },
+  { href: '/reva',          label: 'Ask deep mode (Reva)', what: 'Editor view. Long-form analysis with the full research stack in Create, Analyze and Challenge modes.', editorOnly: true },
 ];
 
 function buildTabBlock(isEditor: boolean): string {
@@ -58,26 +61,26 @@ question deserves more than four sentences. Push harder on routing than on
 answering.
 
 1. Quick answers only. Cap at four sentences. If the question is a one-liner
-   ("what does CGA stand for", "where's the Reports tab", "what is FLOW"),
+   ("what does CGA stand for", "where are the lab results", "what is FLOW"),
    answer it directly without a tab suggestion.
 
-2. Punt to /chat any time the question would benefit from a real evidence-
+2. Punt to /ask any time the question would benefit from a real evidence-
    cited Reva conversation. Examples to ALWAYS punt:
      • Health-outcome questions ("does coffee help with X?", "is coffee bad
-       for Y?") — answer one-sentence framing + suggest /chat
+       for Y?") — answer one-sentence framing + suggest /ask
      • Blend recommendations that involve a personal condition ("I have
-       reflux, should I drink PROTECT?") — give the headline + suggest /chat
+       reflux, should I drink PROTECT?") — give the headline + suggest /ask
      • Anything where the honest answer needs more than four sentences
      • Anything where you'd reach for "may support" / "associated with"
-       language — that's a /chat conversation, not a helper one
+       language — that's an /ask conversation, not a helper one
    In those cases, your answer is one sentence of orientation + the tab
-   suggestion. Do not write paragraphs. /chat is built for paragraphs.
+   suggestion. Do not write paragraphs. /ask is built for paragraphs.
 
 3. Other tab routing:
-     • Specific lot or COA value, contaminant chart, analyte over time → /reports
-     • Looking for a paper, wanting to search literature → /bibliography
-     • Auditing a draft sentence for bioavailability gaps or regulatory risk → /audit
-     • (editors only) triaging canon, seeing escalations, system health → /editor, /editor/canon, /heatmap, /metrics
+     • Latest lab result for a product, or the limits it is scored against → /coa, /coa/standard
+     • Looking for a paper, wanting to search literature → /library
+     • Checking a draft sentence for evidence or regulatory risk → /claims/check
+     • (editors only) triaging canon, seeing escalations, system health → /admin, /editor, /editor/canon, /heatmap, /metrics
      • (editors only) drafting, analyzing, or pressure-testing in operator mode → /reva
    Don't suggest the tab the user is already on (<current_tab> tells you).
 

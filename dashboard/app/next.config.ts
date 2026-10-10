@@ -12,5 +12,19 @@ const config: NextConfig = {
   outputFileTracingIncludes: {
     '/api/reva': ['../../knowledge-base/reva/SKILL.md'],
   },
+  // Switch-over to the Research Hub (2026-10-09): old pages point at their
+  // replacements. Query strings carry over (/chat?q=... -> /ask?q=...).
+  // Permanent (308) so bookmarks update.
+  async redirects() {
+    return [
+      { source: '/chat', destination: '/ask', permanent: true },
+      { source: '/reports/limits', destination: '/coa/standard', permanent: true },
+      { source: '/reports/assign', destination: '/admin', permanent: true },
+      { source: '/reports/:path*', destination: '/coa', permanent: true },
+      { source: '/bibliography', destination: '/library', permanent: true },
+      { source: '/audit', destination: '/claims/check', permanent: true },
+      { source: '/atlas', destination: '/library/topics', permanent: true },
+    ];
+  },
 };
 export default config;

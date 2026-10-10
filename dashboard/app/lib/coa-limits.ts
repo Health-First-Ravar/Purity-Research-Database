@@ -1,6 +1,6 @@
 // COA limits — strictest publicly published threshold per analyte.
 //
-// Source of truth: `public.coa_limits` table (admin-editable at /reports/limits).
+// Source of truth: `public.coa_limits` table (its editor, /reports/limits, was retired at the 2026-10-09 switch-over).
 // The `DEFAULT_LIMITS` array below mirrors the seed data and is used as a
 // fallback when the DB fetch fails (e.g. before migration 0020 lands).
 
