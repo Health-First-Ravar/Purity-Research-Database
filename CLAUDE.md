@@ -7,12 +7,12 @@ Orientation for Claude (and future humans) working in this repo. Read this first
 Three things in one tree:
 
 1. **`knowledge-base/`** — curated substrate for retrieval. Four sources, kept separate on purpose. `reva/` (skill definition), `purity-brain/` (brand/Org DNA from Coda), `coffee-book/` (Ildi's book), `research/` (34 primary-literature papers), `bibliography/` (448-article xlsx catalog). See `knowledge-base/README.md` for the full map.
-2. **`dashboard/app/`** — Next.js 15 + Supabase dashboard. Customer-service chat, research hub, COA reports, bibliography browser, editor review queue, metrics page. pgvector handles retrieval in the same Postgres.
+2. **`dashboard/app/`** — Next.js 15 + Supabase app, the Purity Research Hub: Ask, COA quick view (from Brian's Lab Testing tracker), Claims, Research library, and Admin (review queue, question trends, sync status, metrics). pgvector handles retrieval in the same Postgres.
 3. **`dashboard/preview.html`** — static HTML mock of the dashboard with Purity brand colors applied. Not wired to the DB; for design review.
 
 ## Architecture in one paragraph
 
-User asks a question in `/chat` → `/api/chat/route.ts` classifies intent, checks the `canon_qa` cache (pgvector cosine lookup), falls through to retrieve chunks from `chunks` (pgvector) and generate an answer with Anthropic Sonnet, then logs the turn to `messages`. Low confidence or insufficient evidence flips `escalated=true` and the turn shows up in `/editor`. Editors label good/bad or promote to canon, which writes a new `canon_qa` row at `status='draft'` for a review pass. Metrics page reads the `daily_chat_metrics` view. Every tab on the app is RLS-protected: regular users see only their own messages; editors see everything.
+User asks a question in `/ask` → `/api/chat/route.ts` classifies intent, checks the `canon_qa` cache (pgvector cosine lookup), falls through to retrieve chunks from `chunks` (pgvector) and generate an answer with Anthropic Sonnet, then logs the turn to `messages`. Low confidence or insufficient evidence flips `escalated=true` and the turn shows up in `/editor`. Editors label good/bad or promote to canon, which writes a new `canon_qa` row at `status='draft'` for a review pass. Metrics page reads the `daily_chat_metrics` view. Every tab on the app is RLS-protected: regular users see only their own messages; editors see everything.
 
 ## Layout
 
@@ -25,9 +25,11 @@ Purity-Lab-Data/
 │   ├── preview.html                  # static brand-aligned design mock
 │   └── app/                          # the Next.js + Supabase app
 │       ├── app/                      # Next App Router routes
-│       │   ├── chat/                 # Research Hub — the main chat UI
-│       │   ├── reports/              # COA reports (filter by blend/date)
-│       │   ├── bibliography/         # 448-row catalog + semantic search
+│       │   ├── ask/                  # Ask, the main question UI (/chat redirects here)
+│       │   ├── coa/                  # COA quick view, Health Grade standard, green lots
+│       │   ├── claims/               # Brian's claim library + Check a claim
+│       │   ├── library/              # research library + Browse by topic
+│       │   ├── admin/                # staff overview + sync status
 │       │   ├── editor/               # escalation queue + label/promote
 │       │   ├── metrics/              # editor-only rollups (daily_chat_metrics)
 │       │   └── api/                  # route handlers (chat, feedback, label, metrics, update)
@@ -105,7 +107,8 @@ Editors triage in `/editor`: label as good/bad or promote to canon. Promote writ
 - `coffee-book/` refreshed when Ildi publishes a revision
 - `research/` refreshed via Drive keyword sweeps; `manifest.json` tracks what's ingested
 - `bibliography/` xlsx catalog refreshed when Jeremy's master sheet changes; `npm run import-bibliography` loads it
-- Daily cron via `/api/update/cron` + optional manual button via `/api/update/manual` (3/day global cap)
+- Daily cron via `/api/update/cron` + optional manual button via `/api/update/manual` (3/day global cap): research and product PDFs from Drive. The Drive COA folder is no longer imported (switch-over, 2026-10-09)
+- Lab results: Brian's Lab Testing tracker, read by the "Purity lab sync" scheduled task on Jeremy's Mac (`lab-results/import-local.sh`). The old COA Auto-Sync workflow was removed at the switch-over
 
 ## Known intentional oddities
 

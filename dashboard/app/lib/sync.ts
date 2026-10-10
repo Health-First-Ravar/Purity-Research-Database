@@ -9,7 +9,7 @@
 // (cron or manual) to pick up remaining files.
 //
 // Env vars required:
-//   DRIVE_COA_FOLDER_ID         — Google Drive folder for COA PDFs
+//   DRIVE_COA_FOLDER_ID         — Google Drive folder for COA PDFs (no longer read; see FOLDERS)
 //   DRIVE_RESEARCH_FOLDER_ID    — Google Drive folder for research PDFs
 //   DRIVE_PRODUCT_PDF_FOLDER_ID — Google Drive folder for product PDFs
 //   GOOGLE_SERVICE_ACCOUNT_JSON — service-account credentials (JSON string or path)
@@ -69,8 +69,11 @@ export function looksLikeCoa(filename: string): boolean {
   return COA_FILENAME.test(filename);
 }
 
+// The COA folder is no longer imported (Research Hub switch-over, 2026-10-09):
+// lab results come from Brian's Lab Testing tracker (scripts/import-lab-results.ts).
+// COA sources already ingested stay as they are. To import Drive COAs again, add
+// { id: process.env.DRIVE_COA_FOLDER_ID, kind: 'coa' } back to this list.
 const FOLDERS: { id: string | undefined; kind: string }[] = [
-  { id: process.env.DRIVE_COA_FOLDER_ID,         kind: 'coa' },
   { id: process.env.DRIVE_RESEARCH_FOLDER_ID,    kind: 'research_paper' },
   { id: process.env.DRIVE_PRODUCT_PDF_FOLDER_ID, kind: 'product_pdf' },
 ];
