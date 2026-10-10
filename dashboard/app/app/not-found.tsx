@@ -8,7 +8,7 @@ export default function NotFound() {
         That URL doesn&apos;t match anything in the dashboard.
       </p>
       <Link
-        href="/chat"
+        href="/ask"
         className="rounded-md bg-purity-bean px-3 py-1.5 text-xs text-purity-cream dark:bg-purity-aqua dark:text-purity-ink"
       >
         Research Hub

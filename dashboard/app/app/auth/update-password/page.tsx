@@ -23,7 +23,7 @@ export default function UpdatePasswordPage() {
     setBusy(false);
     if (error) { setError(error.message); return; }
 
-    router.push('/chat');
+    router.push('/ask');
     router.refresh();
   }
 

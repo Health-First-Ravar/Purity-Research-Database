@@ -37,7 +37,7 @@ export default async function HomePage() {
       <Card title="Ask anything" hint="Research, support, COA and claim questions all start here.">
         {chatOk ? (
           <>
-            <form action="/chat" method="get" className="flex flex-col gap-2.5 sm:flex-row">
+            <form action="/ask" method="get" className="flex flex-col gap-2.5 sm:flex-row">
               <input
                 name="q"
                 required
@@ -49,7 +49,7 @@ export default async function HomePage() {
             </form>
             <div className="mt-3 flex flex-wrap gap-2">
               {EXAMPLES.map((q) => (
-                <Link key={q} href={`/chat?q=${encodeURIComponent(q)}`} className="rounded-full border border-purity-line px-3 py-1 text-sm hover:border-purity-aqua hover:text-purity-teal dark:border-purity-rule">{q}</Link>
+                <Link key={q} href={`/ask?q=${encodeURIComponent(q)}`} className="rounded-full border border-purity-line px-3 py-1 text-sm hover:border-purity-aqua hover:text-purity-teal dark:border-purity-rule">{q}</Link>
               ))}
               <Link href="/claims/check" className="rounded-full border border-purity-line px-3 py-1 text-sm hover:border-purity-aqua hover:text-purity-teal dark:border-purity-rule">Check a claim</Link>
             </div>

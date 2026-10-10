@@ -3,7 +3,7 @@
 //
 // Invite flow:   /auth/callback?code=...&type=invite   → /auth/update-password
 // Recovery flow: /auth/callback?code=...&type=recovery → /auth/update-password
-// Normal flow:   /auth/callback?code=...&next=/chat    → /chat (or next param)
+// Normal flow:   /auth/callback?code=...&next=/ask     → /ask  (or next param)
 
 import { NextRequest, NextResponse } from 'next/server';
 import { cookies } from 'next/headers';
@@ -14,7 +14,7 @@ export const dynamic = 'force-dynamic';
 export async function GET(req: NextRequest) {
   const { searchParams, origin } = new URL(req.url);
   const code = searchParams.get('code');
-  const next = searchParams.get('next') ?? '/chat';
+  const next = searchParams.get('next') ?? '/ask';
   const type = searchParams.get('type'); // 'invite' | 'recovery' | undefined
 
   if (code) {

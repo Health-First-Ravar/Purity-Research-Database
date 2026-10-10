@@ -14,7 +14,7 @@ export default async function ResearchHubPage({ searchParams }: { searchParams: 
   const { q } = await searchParams;
   const supabase = supabaseServer(await cookies());
   const { data: auth } = await supabase.auth.getUser();
-  if (!auth.user) redirect('/login?next=/chat');
+  if (!auth.user) redirect('/login?next=/ask');
 
   const { data: profile } = await supabase
     .from('profiles').select('role').eq('id', auth.user.id).single();

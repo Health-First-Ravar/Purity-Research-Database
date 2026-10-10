@@ -10,8 +10,8 @@ export function LoginForm() {
   const router = useRouter();
   const searchParams = useSearchParams();
   // In-app paths only, so ?next= can't send someone off-site after sign-in.
-  const rawNext = searchParams.get('next') ?? '/chat';
-  const next = rawNext.startsWith('/') && !rawNext.startsWith('//') && !rawNext.startsWith('/\\') ? rawNext : '/chat';
+  const rawNext = searchParams.get('next') ?? '/ask';
+  const next = rawNext.startsWith('/') && !rawNext.startsWith('//') && !rawNext.startsWith('/\\') ? rawNext : '/ask';
 
   const [mode, setMode] = useState<Mode>('login');
   const [email, setEmail] = useState('');

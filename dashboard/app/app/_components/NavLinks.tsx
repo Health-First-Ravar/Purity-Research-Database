@@ -2,8 +2,7 @@
 
 // Top nav: the Research Hub's five areas plus Home. Admin is staff only; each
 // area's own section tabs (Claims, Research library, Admin) live in the area.
-// Old pages (Reports, Assign products, Limits) stay reachable from Admin until
-// the switch-over. Each page still enforces its own access.
+// Each page still enforces its own access.
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
@@ -20,7 +19,7 @@ const STAFF: Exclude<Role, null>[]  = ['editor', 'admin'];
 
 const SECTIONS: (FlatItem | Group)[] = [
   { kind: 'item', href: '/',        label: 'Home',             visibleTo: ALL },
-  { kind: 'item', href: '/chat',    label: 'Ask',              visibleTo: ALL },
+  { kind: 'item', href: '/ask',     label: 'Ask',              visibleTo: ALL },
   { kind: 'item', href: '/coa',     label: 'COA quick view',   visibleTo: ALL },
   { kind: 'item', href: '/claims',  label: 'Claims',           visibleTo: ALL },
   { kind: 'item', href: '/library', label: 'Research library', visibleTo: ALL },

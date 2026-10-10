@@ -42,7 +42,7 @@ function newSessionId() {
 
 export default function ChatClient({ paperCount, initialQuestion, deepMode }: { paperCount?: number | null; initialQuestion?: string; deepMode?: boolean }) {
   const [turns, setTurns] = useState<Turn[]>([]);
-  // Prefilled when arriving from the Home ask box (/chat?q=...).
+  // Prefilled when arriving from the Home ask box (/ask?q=...).
   const [input, setInput] = useState(initialQuestion ?? '');
   const [busy, setBusy] = useState(false);
   const sessionId = useRef(newSessionId());
