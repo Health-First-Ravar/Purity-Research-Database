@@ -16,6 +16,9 @@ const unhedgedBenefit = (s: string) => !HEDGE.test(s) && ((BENEFIT.test(s) && TA
 const DISEASE_VERB = /\b(cures?|cured|treats?|treated|prevents?|prevented)\b/gi;
 const NEGATION = /\b(not|never|no|nor|without|avoid|don't|doesn't|isn't|can't|cannot)\b[^.]{0,30}$/i;
 
+const SUPERLATIVE = /\b(leading|world[-\s]class|world's (?:best|leading|top)|in the world|foremost|premier|renowned|the (?:purest|cleanest|safest|healthiest)|the best (?:\w+ )?(?:coffee|blend|brand|lab|labs|product|choice|quality))\b/i;
+const RANKING = /\b(obvious (?:fit|choice)|(?:preserves?|retains?|has|contains?) the most\b|the most (?:CGAs?|chlorogenic|antioxidants?|polyphenols?|melanoidins?)|well[-\s]documented|significantly|strongly (?:linked|associated|supported)|clearly shown|more pronounced)\b/i;
+
 const RULES: { name: string; test: (text: string, sentences: string[]) => boolean }[] = [
   { name: 'double hyphen "--"', test: (t) => /(^|[^-])--(?!-)/m.test(t.replace(/^\s*-{3,}\s*$/gm, '')) },
   { name: 'em or en dash', test: (t) => /[—–]/.test(t) },
@@ -37,7 +40,7 @@ const RULES: { name: string; test: (text: string, sentences: string[]) => boolea
   },
   {
     name: 'superlative',
-    test: (t) => /\b(leading|world[-\s]class|world's (?:best|leading|top)|in the world|foremost|premier|renowned|the (?:purest|cleanest|safest|healthiest)|the best (?:\w+ )?(?:coffee|blend|brand|lab|labs|product|choice|quality))\b/i.test(t),
+    test: (t) => SUPERLATIVE.test(t),
   },
   {
     name: 'unhedged benefit claim',
@@ -47,7 +50,7 @@ const RULES: { name: string; test: (text: string, sentences: string[]) => boolea
     // QA 2026-10-09: "PROTECT preserves the most CGAs", "PROTECT is the obvious fit",
     // "increasingly well-documented", "significantly reduced", "more pronounced in the lighter PROTECT roast".
     name: 'blend ranking or evidence intensifier',
-    test: (t) => /\b(obvious (?:fit|choice)|(?:preserves?|retains?|has|contains?) the most\b|the most (?:CGAs?|chlorogenic|antioxidants?|polyphenols?|melanoidins?)|well[-\s]documented|significantly|strongly (?:linked|associated|supported)|clearly shown|more pronounced)\b/i.test(t),
+    test: (t) => RANKING.test(t),
   },
 ];
 
@@ -64,10 +67,12 @@ function sentences(text: string): string[] {
 export function guardrailViolations(answer: string): string[] {
   const ss = sentences(answer);
   return RULES.filter((r) => r.test(answer, ss)).map((r) => {
+    // Name what was matched, so the repair pass in generate.ts knows what to rewrite.
     if (r.name === 'unhedged benefit claim') {
       const s = ss.find(unhedgedBenefit);
       return `${r.name}: "${(s ?? '').slice(0, 120)}"`;
     }
-    return r.name;
+    const m = r.name === 'superlative' ? SUPERLATIVE.exec(answer) : r.name === 'blend ranking or evidence intensifier' ? RANKING.exec(answer) : null;
+    return m ? `${r.name}: "${m[0]}"` : r.name;
   });
 }
