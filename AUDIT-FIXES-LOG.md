@@ -5,13 +5,14 @@ Read this first. Everything below is chronological session history; the
 
 ## State
 
-- Jeremy signed off the preview. Session 16 prepared the switch-over on
-  `overhaul` (see SESSION 16 at the end): /chat is now /ask, the old pages are
-  gone with redirects, the old COA sync and the Drive COA import are retired.
-- `main` is an ancestor of `overhaul` (0 commits of its own), so going live is
-  a fast-forward: `git push origin overhaul:main`. Jeremy pushes.
-- After go-live, keep working on `overhaul` (preview) and fast-forward `main`
-  when a change is checked.
+- **Live since 2026-10-09**: the Research Hub replaced the old app at
+  purity-dashboard-three.vercel.app (`main` = `fc3abf7`). /chat is /ask, the
+  old pages redirect, the old COA sync and the Drive COA import are retired
+  (SESSION 16 at the end).
+- Work on `overhaul` (preview), then fast-forward `main`:
+  `git push origin overhaul && git push origin overhaul:main`. Jeremy pushes.
+- On `overhaul`, not yet live: Ask streaming, automatic readable titles for
+  new papers, guardrail repair naming the flagged phrase.
 - Lab data: Brian's Lab Testing tracker (read only) via the "Purity lab sync"
   scheduled task on Jeremy's Mac (weekdays 9:46 and 2:46 PM ET). No-change runs
   are now logged (step 5 updated 2026-10-09).
@@ -22,11 +23,21 @@ Read this first. Everything below is chronological session history; the
 
 ## Waiting on Jeremy
 
-1. Push `overhaul`, check the preview, then `git push origin overhaul:main`.
-2. Wording decisions with Ildi (on hold): Ask no longer says "per-lot COAs" or
+1. Signed-in check of the live app (Ask a lab and a research question, COA
+   quick view, Claims; a password reset link should point at the live URL).
+2. Push `overhaul` (streaming batch), try Ask on the preview, then
+   `git push origin overhaul:main`.
+3. Wording decisions with Ildi (on hold): Ask no longer says "per-lot COAs" or
    "tests every lot"; LIMITS_LAB; Drive COAs; Ask open to editors; Browse by
    topic staff-only.
-3. Tell Brian about the duplicate tracker IDs tr016 to tr020 (parked).
+4. Tell Brian about the duplicate tracker IDs tr016 to tr020 (parked).
+
+## Open
+
+- Eval case 14 ("What does research suggest about chlorogenic acids and
+  glucose metabolism?") fails a guardrail on the final answer about one run
+  in two (a PROTECT sentence with an unhedged benefit, or "leading"), even
+  after two repair passes. Prompt work, not streaming.
 
 ---
 
@@ -5943,4 +5954,59 @@ Production env (Vercel, Production scope) needs nothing new: the overhaul
 reads the same variables the live app does. `HUB_COA_SOURCE` must be unset
 (or `lab`); `NEXT_PUBLIC_SITE_URL` must be the live URL, since password reset
 and invite emails link to it.
+
+## Live — 2026-10-09
+
+Jeremy set `NEXT_PUBLIC_SITE_URL` (Production) to the live URL as a Config
+variable (a `NEXT_PUBLIC_` variable cannot be a Secret); `HUB_COA_SOURCE` is
+unset (Ask uses Brian's tracker). He pushed `overhaul` and `overhaul:main`.
+Checked signed out on the live URL: title "Purity Research Hub", no Sign out
+on /login, every redirect in the table above returns 308 to its target with
+the query kept, /ask asks for sign-in, /api/update/cron without the secret is
+401.
+
+## Readable titles for new papers — **AUTOMATIC** (`7738cf4`)
+
+Jeremy: make the title fill part of the sync. The daily Drive sync
+(`lib/sync.ts`, also the manual button) now ends by filling
+`metadata.display` for research and book sources that have none: Crossref by
+the row's DOI, or, for a research paper, a DOI printed on its first page,
+kept only when the Crossref title appears on that page (a cited paper's DOI
+cannot name the citing one). 20 rows a run within 30 s, best effort, skipped
+when the Drive pass used most of the function's time. Each row checked is
+stamped `metadata.display_checked` so a paper with no usable DOI is not
+looked up daily. Shared code in `lib/source-display-build.ts`; the backfill
+script uses it too. New papers from the research workflow (ingest-kb) are
+picked up by the same step.
+
+`validDoi()` now strips PDF damage DOIs never contain (control and zero-width
+characters, en dashes for hyphens, text after an em dash). Crossref requests
+no longer carry Jeremy's email; `CROSSREF_MAILTO` is optional.
+
+Backfill applied: 504 rows (18 via cleaned DOIs, 13 via a first-page DOI,
+the rest stamped checked). 355 of 1,596 sources still have no readable title:
+114 carry a DOI that neither Crossref nor doi.org resolves, the rest have no
+DOI in the row or on the first page.
+
+## Ask streaming — **ON THE PREVIEW** (`24af366`, `d80fec0`)
+
+`/api/chat` with `stream: true` replies in NDJSON (stage, context, delta,
+final, error; documented at the top of the route). The route, lab panel and
+lab links show as soon as evidence is in. `lib/rag/answer-stream.ts` reads
+the answer out of the model's partial JSON and releases one finished sentence
+or markdown line at a time, dashes stripped, only if it passes
+`guardrailViolations()` and states no external regulatory limit; the first
+sentence that fails stops the stream and the final (repaired) answer
+replaces the streamed text. The JSON reply is unchanged without
+`stream: true`. `/api/chat` maxDuration 30 -> 60 s.
+
+Also in this batch: the repair pass runs a second time when something is
+still flagged, and names the flagged phrase; when the model writes the answer
+as prose followed by a JSON object without it (seen twice on "which products
+are over a limit"), the prose is used and streamed instead of showing a
+blank answer; an empty answer is retried once.
+
+`npm run eval:ask -- --answers --stream`: first text 1.2 to 2.6 s (one 9 s),
+done 4 to 21 s; streamed text passed the guardrails in every case. Routing
+eval 12/12.
 
