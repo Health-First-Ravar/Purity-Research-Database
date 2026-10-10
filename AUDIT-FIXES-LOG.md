@@ -1,32 +1,32 @@
-# WHERE WE LEFT OFF — 2026-10-09, after session 15 (overhaul QA fixes)
+# WHERE WE LEFT OFF — 2026-10-09, session 16 (switch-over)
 
 Read this first. Everything below is chronological session history; the
 2026-07-20 section after this one is superseded but kept.
 
 ## State
 
-- Branch `overhaul` (the Research Hub). Production (`main`) untouched. Jeremy
-  pushes; every push rebuilds the preview at
-  purity-dashboard-git-overhaul-jravar-5232s-projects.vercel.app (admins only).
-- Session 15 fixed the browser QA list for preview commit `160b6d0`, one
-  commit per item (see SESSION 15 at the end of this file). Before each push:
-  `npm run lint`, `npx tsc --noEmit`, `npm run build`, `npm run eval:ask`.
-- Lab data comes from Brian's Lab Testing tracker (read only) via the "Purity
-  lab sync" scheduled task on Jeremy's Mac (weekdays 9:46 and 2:46 PM ET).
-- Migrations 0014-0016 applied (repo-root `migrations/`).
+- Jeremy signed off the preview. Session 16 prepared the switch-over on
+  `overhaul` (see SESSION 16 at the end): /chat is now /ask, the old pages are
+  gone with redirects, the old COA sync and the Drive COA import are retired.
+- `main` is an ancestor of `overhaul` (0 commits of its own), so going live is
+  a fast-forward: `git push origin overhaul:main`. Jeremy pushes.
+- After go-live, keep working on `overhaul` (preview) and fast-forward `main`
+  when a change is checked.
+- Lab data: Brian's Lab Testing tracker (read only) via the "Purity lab sync"
+  scheduled task on Jeremy's Mac (weekdays 9:46 and 2:46 PM ET). No-change runs
+  are now logged (step 5 updated 2026-10-09).
+- Migrations 0014-0017 applied (repo-root `migrations/`). One Supabase project
+  serves local scripts, the preview and production.
+- Before each push: `npm run lint`, `npx tsc --noEmit`, `npm run build`,
+  `npm run eval:ask`.
 
 ## Waiting on Jeremy
 
-1. Push the session 15 commits (`git -C ~/code/purity push`).
-2. Approve or drop `migrations/proposed/0017_fix_ncsu_proposal_metadata.sql`
-   (data fix for one library row; not applied).
-3. Update the scheduled task's step 5 to log "no change" runs
-   (`bash lab-results/import-local.sh --unchanged`); wording in the session 15
-   report.
-4. Wording decisions with Ildi (Ask no longer says "per-lot COAs" or "tests
-   every lot"; see Item 6).
-5. Then the switch-over: merge to main, rename /chat to /ask, retire the Drive
-   importer and the old COA sync, redirect old pages.
+1. Push `overhaul`, check the preview, then `git push origin overhaul:main`.
+2. Wording decisions with Ildi (on hold): Ask no longer says "per-lot COAs" or
+   "tests every lot"; LIMITS_LAB; Drive COAs; Ask open to editors; Browse by
+   topic staff-only.
+3. Tell Brian about the duplicate tracker IDs tr016 to tr020 (parked).
 
 ---
 
@@ -5886,3 +5886,61 @@ their full titles. "Coffee Gastrointestine-Glucose" has no DOI and shows as
 the claim checker's cited evidence and the research library (which also
 fills an impossible stored year from Crossref). The commit message of
 `9363e1b` gives Cropley's year as 2012 in its example; Crossref says 2011.
+
+# SESSION 16 — 2026-10-09 · switch-over
+
+Jeremy: preview looks good, go. Wording call with Ildi waits.
+
+## Scheduled lab sync — **UPDATED**
+
+Step 5 of "Purity lab sync" (trig_01VHVy9xKTEvVptKwtPkyMbq): when the builder
+prints UNCHANGED, the task now runs `bash lab-results/import-local.sh
+--unchanged`, which writes one `sync_runs` row (status ok, detail.unchanged)
+and nothing else, so /admin/sync shows "no change" checks and a missed run
+shows as a gap. The prompt change was re-signed on Jeremy's Mac.
+
+## README rows — **RETIRED**
+
+Five knowledge-base folder notes had been ingested as sources:
+`README.md`, `bibliography/README.md`, `coffee-book/README.md`,
+`research/README.md` (listed in the library as a research paper) and
+`reva/README.md`. Retired 2026-10-09 (valid_until set, 7 chunks deleted);
+`ingest-kb.ts` now skips README.md files (`46e7eee`). Restore: clear
+valid_until and re-ingest without the skip.
+
+## dashboard/app/tmp/before-reva.ts — **DELETED** (untracked, Jeremy's file)
+
+## Switch-over commits
+
+- `1c4bf90` /chat renamed /ask (route, nav, Home ask box, login and auth
+  defaults, password-set landing, error and 404 links). `/api/chat` keeps its
+  path.
+- `5aaeefd` Old pages removed: /reports (list, detail, support, assign,
+  limits), `/api/reports/*`, `/api/admin/limits`, and the /bibliography and
+  /audit redirect pages. Redirects in `next.config.ts` (308, query kept):
+
+  | Old | New |
+  |---|---|
+  | /chat | /ask |
+  | /reports/limits | /coa/standard |
+  | /reports/assign | /admin |
+  | /reports, /reports/* | /coa |
+  | /bibliography | /library |
+  | /audit | /claims/check |
+  | /atlas | /library/topics |
+
+  Checked with `next start`: every row returns 308 to its target with the
+  query string; /ask signed out goes to /login?next=/ask. Tables (`coas`,
+  `coa_limits`, `coa_assignment_log`) are untouched. Admin drops the "Old
+  pages" card; the in-app helper (RevaClippy) lists the Hub's pages.
+- `2e5bc53` COA Auto-Sync workflow removed (Drive COA PDFs -> `coas` every
+  6h, auto-merging PRs to main; its last run on main was 2026-09-13). The
+  daily Drive sync (`lib/sync.ts`) no longer reads the COA folder; research
+  and product PDFs continue. Existing COA sources and chunks stay. To bring
+  Drive COAs back, add the folder to `FOLDERS` in `lib/sync.ts`.
+
+Production env (Vercel, Production scope) needs nothing new: the overhaul
+reads the same variables the live app does. `HUB_COA_SOURCE` must be unset
+(or `lab`); `NEXT_PUBLIC_SITE_URL` must be the live URL, since password reset
+and invite emails link to it.
+
