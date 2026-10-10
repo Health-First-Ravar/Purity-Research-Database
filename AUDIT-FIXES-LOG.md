@@ -12,7 +12,12 @@ Read this first. Everything below is chronological session history; the
 - Work on `overhaul` (preview), then fast-forward `main`:
   `git push origin overhaul && git push origin overhaul:main`. Jeremy pushes.
 - On `overhaul`, not yet live: Ask streaming, automatic readable titles for
-  new papers, guardrail repair naming the flagged phrase.
+  new papers, guardrail repair naming the flagged phrase, copy fixes found
+  while drafting the SOP (sign-in page still said "Purity Lab").
+- Hub SOP (Pathwright course) drafted overnight 2026-10-09: course text in a
+  Claude doc (https://claude.ai/code/artifact/525f41a8-3b14-40c3-be2b-cfd074c5f3ec),
+  facts in `docs/SOP-REFERENCE.md`. Screenshots still to take (shot list in
+  the doc).
 - Lab data: Brian's Lab Testing tracker (read only) via the "Purity lab sync"
   scheduled task on Jeremy's Mac (weekdays 9:46 and 2:46 PM ET). No-change runs
   are now logged (step 5 updated 2026-10-09).
@@ -6009,4 +6014,29 @@ blank answer; an empty answer is retried once.
 `npm run eval:ask -- --answers --stream`: first text 1.2 to 2.6 s (one 9 s),
 done 4 to 21 s; streamed text passed the guardrails in every case. Routing
 eval 12/12.
+
+## Hub SOP draft — overnight 2026-10-09
+
+Jeremy: the Pathwright course "How to Use the Purity Dashboard: Step-by-Step
+Guide (SOP)" is next; draft it overnight, text to paste, screenshots later.
+The course was built in July from `docs/SOP-REFERENCE.md` (old dashboard,
+never committed). Its public outline: 3 sections, 6 steps (About, Log in,
+Tour, Reports/Support Snapshot/Audit; Viewing and Exporting Reports; Common
+Issues). Lesson text needs a Pathwright sign-in, so the draft does not quote it.
+
+- Course draft (Claude doc): About page text, 11 lessons in the same 3
+  sections (section 1 grows to 7 steps), a step-by-step mapping onto the
+  current Pathwright steps, and a 20-shot screenshot list.
+- `docs/SOP-REFERENCE.md` rewritten for the Hub from the code, with file
+  references; the July version is kept on Jeremy's Mac as
+  `docs/SOP-REFERENCE-2026-07.md` (untracked).
+- No screenshots: the built-in browser was not signed in to the Hub, and its
+  screenshots cannot be saved as files anyway; Jeremy takes them from the list.
+- Copy fixes found on the way: `29203f3` (sign-in heading "Purity Lab",
+  password-setup text, three tab titles still "Purity Dashboard") and
+  `54a9c47` (Users said "Supabase invite email"; the library search note spoke
+  of a vector index; Ask's daily-limit message told people to ask an editor to
+  raise a cap editors cannot change).
+- Open for Ildi, flagged in the draft: the testing-frequency wording quoted from
+  How we test, Ask open to editors, Browse by topic staff-only.
 
