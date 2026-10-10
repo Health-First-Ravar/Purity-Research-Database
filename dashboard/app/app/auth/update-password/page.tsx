@@ -31,7 +31,7 @@ export default function UpdatePasswordPage() {
     <div className="mx-auto mt-16 max-w-sm">
       <h1 className="mb-2 text-center font-serif text-2xl">Create your password</h1>
       <p className="mb-6 text-center text-sm text-purity-muted dark:text-purity-mist">
-        Set a password to access Purity Lab.
+        Set a password to access the Purity Research Hub.
       </p>
       <form
         onSubmit={handleSubmit}

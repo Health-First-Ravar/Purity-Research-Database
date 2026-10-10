@@ -8,7 +8,7 @@ import { UsersClient } from './_components/UsersClient';
 import { isAdmin } from '@/lib/auth-roles';
 
 export const dynamic = 'force-dynamic';
-export const metadata = { title: 'Users · Purity Dashboard' };
+export const metadata = { title: 'Users · Purity Research Hub' };
 
 export default async function UsersPage() {
   const supabase = supabaseServer(await cookies());

@@ -8,7 +8,7 @@ import { TriageClient } from './TriageClient';
 import { hasElevatedAccess } from '@/lib/auth-roles';
 
 export const dynamic = 'force-dynamic';
-export const metadata = { title: 'Atlas triage · Purity Dashboard' };
+export const metadata = { title: 'Atlas triage · Purity Research Hub' };
 
 export default async function AtlasTriagePage() {
   const supabase = supabaseServer(await cookies());
@@ -37,7 +37,7 @@ export default async function AtlasTriagePage() {
           </p>
         </div>
         <Link href="/library/topics" className="text-xs text-purity-muted hover:text-purity-green dark:text-purity-mist dark:hover:text-purity-aqua">
-          ← back to atlas
+          ← Back to Browse by topic
         </Link>
       </div>
       <TriageClient branches={branches ?? []} />

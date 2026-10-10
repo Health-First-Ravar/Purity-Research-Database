@@ -10,7 +10,7 @@ import { AtlasClient } from './AtlasClient';
 import { hasElevatedAccess } from '@/lib/auth-roles';
 
 export const dynamic = 'force-dynamic';
-export const metadata = { title: 'Knowledge Atlas · Purity Dashboard' };
+export const metadata = { title: 'Browse by topic · Purity Research Hub' };
 
 export default async function AtlasPage() {
   const supabase = supabaseServer(await cookies());
