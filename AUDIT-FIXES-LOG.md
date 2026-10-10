@@ -6,14 +6,14 @@ Read this first. Everything below is chronological session history; the
 ## State
 
 - **Live since 2026-10-09**: the Research Hub replaced the old app at
-  purity-dashboard-three.vercel.app (`main` = `fc3abf7`). /chat is /ask, the
-  old pages redirect, the old COA sync and the Drive COA import are retired
-  (SESSION 16 at the end).
+  purity-dashboard-three.vercel.app. /chat is /ask, the old pages redirect,
+  the old COA sync and the Drive COA import are retired (SESSION 16 at the
+  end). `main` = `790f325` (Ask streaming and automatic paper titles live).
 - Work on `overhaul` (preview), then fast-forward `main`:
   `git push origin overhaul && git push origin overhaul:main`. Jeremy pushes.
-- On `overhaul`, not yet live: Ask streaming, automatic readable titles for
-  new papers, guardrail repair naming the flagged phrase, copy fixes found
-  while drafting the SOP (sign-in page still said "Purity Lab").
+- On `overhaul`, not yet live: `29203f3` and `54a9c47` (copy fixes found while
+  drafting the SOP; the sign-in page still says "Purity Lab") and `56a9ca8`
+  (SOP reference, this log).
 - Hub SOP (Pathwright course) drafted overnight 2026-10-09: course text in a
   Claude doc (https://claude.ai/code/artifact/525f41a8-3b14-40c3-be2b-cfd074c5f3ec),
   facts in `docs/SOP-REFERENCE.md`. Screenshots still to take (shot list in
@@ -30,12 +30,14 @@ Read this first. Everything below is chronological session history; the
 
 1. Signed-in check of the live app (Ask a lab and a research question, COA
    quick view, Claims; a password reset link should point at the live URL).
-2. Push `overhaul` (streaming batch), try Ask on the preview, then
+2. Push `overhaul` (copy fixes), check the sign-in page on the preview, then
    `git push origin overhaul:main`.
-3. Wording decisions with Ildi (on hold): Ask no longer says "per-lot COAs" or
+3. Review the SOP draft (Claude doc), take the 20 screenshots, paste into
+   Pathwright; Ildi to confirm the testing-frequency wording first.
+4. Wording decisions with Ildi (on hold): Ask no longer says "per-lot COAs" or
    "tests every lot"; LIMITS_LAB; Drive COAs; Ask open to editors; Browse by
    topic staff-only.
-4. Tell Brian about the duplicate tracker IDs tr016 to tr020 (parked).
+5. Tell Brian about the duplicate tracker IDs tr016 to tr020 (parked).
 
 ## Open
 
