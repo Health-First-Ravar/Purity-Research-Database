@@ -6048,8 +6048,6 @@ Issues). Lesson text needs a Pathwright sign-in, so the draft does not quote it.
 - Open for Ildi, flagged in the draft: the testing-frequency wording quoted from
   How we test, Ask open to editors, Browse by topic staff-only.
 
-
-
 ## Lab sync outage and catch-up — 2026-10-13
 
 The "Purity lab sync" scheduled task was suspended (`device_absent`): the Mac
@@ -6091,4 +6089,3 @@ Jeremy asked whether Supabase is all set. Probed with the public anon key
 - Migrations 0014 to 0017 applied; nothing else pending. No local database
   backups (`SUPABASE_DB_URL` is still a placeholder); backups depend on the
   Supabase plan.
-\n
