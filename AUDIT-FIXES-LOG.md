@@ -28,6 +28,12 @@ Read this first. Everything below is chronological session history; the
 
 ## Waiting on Jeremy
 
+0. Supabase (2026-10-13 check, SESSION 16 end): turn off public sign-ups
+   (Authentication settings), approve and apply
+   `migrations/proposed/0018_views_caller_rights.sql`, and decide on the
+   accounts listed there (two test accounts, a pending invite, a non-company
+   admin).
+
 1. Signed-in check of the live app (Ask a lab and a research question, COA
    quick view, Claims; a password reset link should point at the live URL).
 2. Push `overhaul` (copy fixes), check the sign-in page on the preview, then
@@ -6042,3 +6048,47 @@ Issues). Lesson text needs a Pathwright sign-in, so the draft does not quote it.
 - Open for Ildi, flagged in the draft: the testing-frequency wording quoted from
   How we test, Ask open to editors, Browse by topic staff-only.
 
+
+
+## Lab sync outage and catch-up — 2026-10-13
+
+The "Purity lab sync" scheduled task was suspended (`device_absent`): the Mac
+was unreachable at a run time, and the task stayed off, so nothing ran after
+Friday 2026-10-09 (last import 10:27 AM ET). Re-enabled 2026-10-13 and ran the
+task's steps by hand: snapshot `brian-20261013T192920Z`, 524 records (45 new
+NC State DS1 to DS3 results), 337 claims, imported. The first attempt
+committed a stale cached copy of the old `lab-sync/snapshot.json` output path
+and imported the 2026-10-03 snapshot (474 records) for about a minute; that
+run shows on Sync status. Lesson: use a unique output file name when running
+these steps inside one long session (scheduled runs start fresh, so they are
+not affected). Keeping it running needs the Mac awake at 9:46 and 2:46 ET on
+weekdays, or a cloud-only path.
+
+## Supabase check — 2026-10-13
+
+Jeremy asked whether Supabase is all set. Probed with the public anon key
+(signed out) and the service role (read only):
+
+- **Public sign-up is on** (`disable_signup: false`, e-mail confirmation
+  required). A self-registered account gets profile role `user` from
+  `handle_new_user` (0001), which the app treats as customer service, and
+  table RLS grants any signed-in user product lab results, claims and research
+  sources. No self-registered accounts exist yet (all 12 were invited or
+  created by an admin). Fix: Authentication settings, turn off new sign-ups;
+  admin invites and password resets keep working.
+- **Five views readable signed out**: escalation_queue_view (25 rows,
+  questions, answers, editor e-mails), canon_misses (29), daily_chat_metrics
+  (13), question_heatmap (44), bibliography_view (1,465). Views run with their
+  owner's rights; only lab_latest has security_invoker. Tables return 0 rows
+  signed out (chunks runs to the statement timeout). match_chunks and
+  match_canon return nothing to anon. Fix proposed, not applied:
+  `migrations/proposed/0018_views_caller_rights.sql` (security_invoker on the
+  six views, revoke select on public from anon).
+- **Accounts**: 12 (5 admin, 3 editor, 3 customer service, 1 `user`). Two are
+  July QA test accounts on example.invalid (an editor and a customer service);
+  one admin uses a non-company address; the `user` row is an invitation from
+  2026-07-22 never accepted.
+- Migrations 0014 to 0017 applied; nothing else pending. No local database
+  backups (`SUPABASE_DB_URL` is still a placeholder); backups depend on the
+  Supabase plan.
+\n
