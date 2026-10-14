@@ -26,8 +26,8 @@ export default async function UsersPage() {
       <header>
         <h1 className="font-serif text-2xl">Users</h1>
         <p className="mt-1 text-sm text-purity-muted dark:text-purity-mist">
-          Invite Ildi, contractors, or anyone else who needs access. Editors see everything;
-          users see only their own chat history and can&apos;t reach the editor surfaces.
+          Invite anyone who needs access, with the narrowest role they need. Customer service
+          gets the everyday tools; editors also get the Admin tools; admins also manage users.
         </p>
       </header>
       <UsersClient currentUserId={auth.user.id} />

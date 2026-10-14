@@ -1,10 +1,12 @@
 // Role checks consolidated. Three levels (with legacy aliasing):
 //
-//   admin            — full access. Only role that sees Users, Metrics, Ask Reva.
-//   editor           — back-office. Reports, Bibliography, Audit, Atlas,
-//                      Heatmap, Canon, Editor queue.
-//                      Explicitly NOT: Research Hub (chat), Ask Reva, Users, Metrics.
-//   customer_service — Research Hub (chat), Reports, Bibliography, Audit only.
+//   admin            : full access. Only role that sees Users, Metrics and
+//                      Ask deep mode (/reva).
+//   editor           : everything customer_service has, plus green lots,
+//                      Browse by topic, the Admin tools (Review queue, Canon
+//                      answers, Question trends, Sync status) and Manual update.
+//   customer_service : Home, Ask, COA quick view (finished products), Claims,
+//                      Research library (Papers).
 //
 // Legacy:
 //   'user'       → treat as customer_service

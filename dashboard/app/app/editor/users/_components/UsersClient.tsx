@@ -15,9 +15,9 @@ type User = {
 };
 
 const ROLE_DESCRIPTIONS: Record<Role, string> = {
-  customer_service: 'Research Hub, Reports, Bibliography, Audit only.',
-  editor:           'Reports, Bibliography, Audit, Atlas, Heatmap, Canon, Editor queue. No chat, no Ask Reva, no Users, no Metrics.',
-  admin:            'Full access. The only role that can manage users, see metrics, and use Ask Reva.',
+  customer_service: 'Home, Ask, COA quick view (finished products), Claims and the Research library.',
+  editor:           'Everything customer service has, plus green lots, Browse by topic, the Admin tools and Manual update. No Users, Metrics or Ask deep mode.',
+  admin:            'Full access, including Users, Metrics and Ask deep mode (Reva).',
 };
 
 const ROLE_LABEL: Record<Role | 'user' | 'researcher', string> = {
