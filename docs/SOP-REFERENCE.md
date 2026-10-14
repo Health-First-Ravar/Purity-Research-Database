@@ -8,6 +8,11 @@ when the app changes. Replaces the July reference for the old Purity Dashboard.
 Course draft (paste-ready lessons and a screenshot shot list):
 https://claude.ai/code/artifact/525f41a8-3b14-40c3-be2b-cfd074c5f3ec
 
+Published to Pathwright on 2026-10-13 (11 steps, Customer Service Testing Group
+cohort). The July course text, before the rewrite, is kept in
+`docs/pathwright-course-backup-2026-10-13.md`. Screenshots are still to add (shot
+list in the draft).
+
 ---
 
 ## Roles and access
