@@ -10,8 +10,8 @@ https://claude.ai/code/artifact/525f41a8-3b14-40c3-be2b-cfd074c5f3ec
 
 Published to Pathwright on 2026-10-13 (11 steps, Customer Service Testing Group
 cohort). The July course text, before the rewrite, is kept in
-`docs/pathwright-course-backup-2026-10-13.md`. Screenshots are still to add (shot
-list in the draft).
+`docs/pathwright-course-backup-2026-10-13.md`. Screenshots (21, admin view, light
+theme) were added on 2026-10-13; the source PNGs are in `docs/course-shots/`.
 
 ---
 
