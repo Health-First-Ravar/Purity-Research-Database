@@ -1,6 +1,6 @@
 -- 0018: views that bypassed row-level security, and signed-out reads.
 --
--- PROPOSED, not applied. Found 2026-10-13 with the public anon key alone (no
+-- APPLIED 2026-10-13 by Jeremy (SQL Editor). Found 2026-10-13 with the public anon key alone (no
 -- sign-in), which ships in the site's JavaScript. Postgres views run with
 -- their owner's rights unless told otherwise, so these read past the base
 -- tables' RLS:

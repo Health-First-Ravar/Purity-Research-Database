@@ -21,7 +21,7 @@ Read this first. Everything below is chronological session history; the
 - Lab data: Brian's Lab Testing tracker (read only) via the "Purity lab sync"
   scheduled task on Jeremy's Mac (weekdays 9:46 and 2:46 PM ET). No-change runs
   are now logged (step 5 updated 2026-10-09).
-- Migrations 0014-0017 applied (repo-root `migrations/`). One Supabase project
+- Migrations 0014-0018 applied (repo-root `migrations/`). One Supabase project
   serves local scripts, the preview and production.
 - Before each push: `npm run lint`, `npx tsc --noEmit`, `npm run build`,
   `npm run eval:ask`.
@@ -29,10 +29,8 @@ Read this first. Everything below is chronological session history; the
 ## Waiting on Jeremy
 
 0. Supabase (2026-10-13 check, SESSION 16 end): turn off public sign-ups
-   (Authentication settings), approve and apply
-   `migrations/proposed/0018_views_caller_rights.sql`, and decide on the
-   accounts listed there (two test accounts, a pending invite, a non-company
-   admin).
+   (Authentication settings), and decide on the accounts listed there (two
+   test accounts, a pending invite, a non-company admin). 0018 is applied.
 
 1. Signed-in check of the live app (Ask a lab and a research question, COA
    quick view, Claims; a password reset link should point at the live URL).
@@ -6079,13 +6077,14 @@ Jeremy asked whether Supabase is all set. Probed with the public anon key
   (13), question_heatmap (44), bibliography_view (1,465). Views run with their
   owner's rights; only lab_latest has security_invoker. Tables return 0 rows
   signed out (chunks runs to the statement timeout). match_chunks and
-  match_canon return nothing to anon. Fix proposed, not applied:
-  `migrations/proposed/0018_views_caller_rights.sql` (security_invoker on the
-  six views, revoke select on public from anon).
+  match_canon return nothing to anon. Fix: `migrations/0018_views_caller_rights.sql`
+  (security_invoker on the six views, revoke select on public from anon),
+  applied by Jeremy 2026-10-13. Re-probed signed out: every table, view and
+  match_chunks now answer 401 (42501, permission denied).
 - **Accounts**: 12 (5 admin, 3 editor, 3 customer service, 1 `user`). Two are
   July QA test accounts on example.invalid (an editor and a customer service);
   one admin uses a non-company address; the `user` row is an invitation from
   2026-07-22 never accepted.
-- Migrations 0014 to 0017 applied; nothing else pending. No local database
+- Migrations 0014 to 0018 applied; nothing else pending. No local database
   backups (`SUPABASE_DB_URL` is still a placeholder); backups depend on the
   Supabase plan.
