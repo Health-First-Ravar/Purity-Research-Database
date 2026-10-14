@@ -124,6 +124,19 @@ async function upsertSource(args: {
     if (changed) await sb.from('sources').update(patch).eq('id', existing.id);
     return { id: existing.id as string, unchanged: true };
   }
+  if (!existing) {
+    // Retired by scripts/merge-duplicate-sources.mjs as a second copy of a
+    // paper the Hub keeps under another row: re-importing it would bring the
+    // duplicate back.
+    const { data: dup } = await sb
+      .from('sources')
+      .select('id')
+      .eq('path', args.relPath)
+      .eq('sha256', args.sha256)
+      .not('metadata->>duplicate_of', 'is', null)
+      .limit(1);
+    if (dup && dup.length) return { id: dup[0].id as string, unchanged: true };
+  }
   if (existing) {
     // Retire old version
     await sb.from('sources').update({ valid_until: new Date().toISOString() }).eq('id', existing.id);

@@ -6088,3 +6088,13 @@ Jeremy asked whether Supabase is all set. Probed with the public anon key
 - Migrations 0014 to 0018 applied; nothing else pending. No local database
   backups (`SUPABASE_DB_URL` is still a placeholder); backups depend on the
   Supabase plan.
+
+## Research library duplicates merged — 2026-10-14
+
+Most papers had come in twice: as a knowledge-base text file (`research/incoming/*.txt`, with DOI and readable title) and as the Drive PDF from the Drive sync (file name as title, no DOI). The sync matched only on Drive file id, so it never saw the text copy. Both showed in the catalog, and Ask retrieved and cited the same paper twice.
+
+- `dashboard/app/scripts/merge-duplicate-sources.mjs` (dry run by default, `--apply`, `--rollback FILE`). Groups rows by same sha256, same Drive file id or same opening-text fingerprint; skips groups with different DOIs or different readable titles; never retires a row with a chapter (intentional by-chapter copies, migration 0003). Keeps one row per group, moves the Drive link onto it (other Drive file ids go to `metadata.drive_aliases`), fills its empty catalog fields from the copies, carries `has_pdf`, and retires the copies (`valid_until` set, `metadata.duplicate_of`). Chunks of retired rows are kept, so a rollback is a field restore.
+- Applied 2026-10-14: 310 groups, 407 rows retired (318 of them had been in the catalog), 167 kept rows given their Drive link, 46 with Drive aliases. Active research and book rows 1,596 to 1,189; catalog 1,465 to 1,135; catalog papers with no topic 1,103 to 773. `metadata.fp` written on every active row. Rollback files: `lab-results/latest/merge-rollback-20261014T220632.json` (merge) and `merge-rollback-20261014T221155.json` (remaining fingerprints).
+- `lib/sync.ts`: a Drive file listed in a kept row's `drive_aliases` is skipped; a merged row keeps the PDF checksum in `metadata.drive_sha256` and a changed PDF never replaces its knowledge-base text; a new PDF whose opening-text fingerprint matches an active row is linked to that row instead of added. `openingFingerprint()` is the shared fingerprint.
+- `scripts/ingest-kb.ts`: a text file retired as a duplicate (same path and sha256) is not re-imported.
+- Left for review (not merged): 131 groups that match only on DOI or title (`docs/library-cleanup-2026-10-14.xlsx`, tab "Same paper, other groups"), 92 readable titles taken from a cited DOI ("Title check"), and topics.

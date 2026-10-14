@@ -241,6 +241,18 @@ export async function runSync(args: SyncArgs): Promise<SyncResult> {
   }
 }
 
+/**
+ * Fingerprint of a document's opening text: lowercased, accents folded,
+ * punctuation collapsed to spaces, first 600 characters, SHA-1. The
+ * knowledge-base text copy and the Drive PDF of the same paper give the same
+ * fingerprint, which is how the sync recognises a paper the Hub already holds.
+ * scripts/merge-duplicate-sources.mjs writes it to sources.metadata.fp.
+ */
+export function openingFingerprint(text: string): string {
+  const norm = text.toLowerCase().normalize('NFKD').replace(/[^a-z0-9]+/g, ' ').trim().slice(0, 600);
+  return createHash('sha1').update(norm).digest('hex');
+}
+
 async function syncOne(
   sb: ReturnType<typeof supabaseAdmin>,
   drive: ReturnType<typeof driveClient>,
@@ -249,7 +261,8 @@ async function syncOne(
   // Only handle PDFs.
   if (!f.mimeType.includes('pdf') && !f.name.toLowerCase().endsWith('.pdf')) return null;
 
-  // Check if we already have this file.
+  // The active row for this Drive file: a Drive-origin row, or a
+  // knowledge-base row the duplicate merge linked to this file.
   const { data: existing } = await sb
     .from('sources')
     .select('id, sha256, metadata')
@@ -257,25 +270,78 @@ async function syncOne(
     .is('valid_until', null)
     .maybeSingle();
 
+  // A second Drive copy of a paper the Hub already holds: the merge recorded
+  // it on the kept row as a Drive alias, so there is nothing to import.
+  if (!existing) {
+    const { data: alias } = await sb
+      .from('sources')
+      .select('id')
+      .contains('metadata', { drive_aliases: [f.fileId] })
+      .is('valid_until', null)
+      .limit(1);
+    if (alias && alias.length) return null;
+  }
+
+  const meta = (existing?.metadata as Record<string, unknown> | null) ?? {};
+
   // Fast skip: if Drive's md5 matches what we stored last time, the file
   // hasn't changed — no download needed.
-  if (existing && f.driveMd5) {
-    const stored = (existing.metadata as Record<string, unknown> | null)?.drive_md5;
-    if (stored === f.driveMd5) return null;
-  }
+  if (existing && f.driveMd5 && meta.drive_md5 === f.driveMd5) return null;
 
   // Download PDF.
   const dl = await drive.files.get({ fileId: f.fileId, alt: 'media' }, { responseType: 'arraybuffer' });
   const buf = Buffer.from(dl.data as ArrayBuffer);
   const sha = createHash('sha256').update(buf).digest('hex');
+  const driveUrl = `https://drive.google.com/file/d/${f.fileId}/view`;
 
   // Exact-content check: if sha256 unchanged (drive_md5 wasn't stored yet),
   // backfill drive_md5 into metadata so future runs can skip the download.
-  if (existing && existing.sha256 === sha) {
+  // A merged row keeps the PDF's checksum in metadata.drive_sha256 (its own
+  // sha256 is the text copy's).
+  const knownSha = (meta.drive_sha256 as string | undefined) ?? existing?.sha256;
+  if (existing && knownSha === sha) {
     await sb.from('sources')
-      .update({ metadata: { ...(existing.metadata as object ?? {}), drive_md5: f.driveMd5 } })
+      .update({ metadata: { ...meta, drive_md5: f.driveMd5 } })
       .eq('id', existing.id);
     return null; // no re-embedding needed
+  }
+
+  // The knowledge-base text is the canonical copy of a merged paper: a changed
+  // Drive PDF only refreshes the stored checksums, it never replaces the text.
+  if (existing && meta.merged_drive) {
+    await sb.from('sources')
+      .update({ metadata: { ...meta, drive_md5: f.driveMd5, drive_sha256: sha } })
+      .eq('id', existing.id);
+    return null;
+  }
+
+  // Extract text first, so a new file can be matched to a paper already held.
+  const text = await pdfToText(buf);
+  const chunks = text && text.length >= 100 ? chunkText(text) : [];
+  const fp = chunks.length ? openingFingerprint(chunks[0]) : null;
+
+  if (!existing && fp) {
+    const { data: same } = await sb
+      .from('sources')
+      .select('id, drive_file_id, metadata')
+      .eq('metadata->>fp', fp)
+      .is('valid_until', null)
+      .limit(1);
+    const held = same?.[0];
+    if (held) {
+      // Same paper under another row: link this file to it instead of adding a copy.
+      const hm = (held.metadata as Record<string, unknown> | null) ?? {};
+      const aliases = Array.isArray(hm.drive_aliases) ? (hm.drive_aliases as string[]) : [];
+      const patch = held.drive_file_id
+        ? { metadata: { ...hm, drive_aliases: [...new Set([...aliases, f.fileId])] } }
+        : {
+            drive_file_id: f.fileId,
+            drive_url: driveUrl,
+            metadata: { ...hm, drive_md5: f.driveMd5, drive_sha256: sha, merged_drive: true },
+          };
+      await sb.from('sources').update(patch).eq('id', held.id);
+      return null;
+    }
   }
 
   // Retire old version if content changed.
@@ -291,24 +357,19 @@ async function syncOne(
     kind: f.kind,
     title,
     drive_file_id: f.fileId,
-    drive_url: `https://drive.google.com/file/d/${f.fileId}/view`,
+    drive_url: driveUrl,
     sha256: sha,
-    metadata: { pdf_bytes: buf.byteLength, drive_md5: f.driveMd5 },
+    metadata: { pdf_bytes: buf.byteLength, drive_md5: f.driveMd5, ...(fp ? { fp } : {}) },
     freshness_tier: f.kind === 'coa' ? 'weekly' : 'stable',
   }).select('id').single();
 
   if (srcErr || !sourceRow) return existing ? 'updated' : 'new';
 
-  // Extract text from PDF.
-  const text = await pdfToText(buf);
-  if (!text || text.length < 100) {
-    // PDF extraction failed or produced nothing (e.g. scanned image-only PDF).
-    // Source row is created so the file is tracked; chunks will be empty.
-    return existing ? 'updated' : 'new';
-  }
+  // PDF extraction failed or produced nothing (e.g. scanned image-only PDF).
+  // The source row is created so the file is tracked; chunks stay empty.
+  if (!chunks.length) return existing ? 'updated' : 'new';
 
-  // Chunk and embed.
-  const chunks = chunkText(text);
+  // Embed.
   let embedded = 0;
   for (let i = 0; i < chunks.length; i++) {
     try {
